@@ -1,0 +1,281 @@
+
+#################### Chinese ####################
+
+== OpenTrek ==
+   3  飞天助理
+   2  AI Studio
+   2  AI 网关
+
+== 中间件 ==
+   4  可观测监控 Prometheus 版
+   4  消息队列 MQ
+   4  消息队列Kafka版
+   3  链路追踪
+   3  API 网关
+   3  应用运维平台
+
+== 云平台 ==
+   4  灾备管理中心
+   4  统一云管平台
+   3  备份管理平台
+   3  统一云管平台 Apsara Uni-manager运营控制台
+   2  云迁移中心
+   2  异地容灾管理平台
+   2  灾备管理中心 同城容灾管理平台
+   2  统一云管平台 Apsara Uni-manager运维控制台
+   1  灾备管理中心 运维指南（同城容灾）
+   1  灾备管理中心 运维指南（异地容灾）
+   1  同城容灾管理平台
+   1  灾备管理中心 云平台备份用户指南
+   1  灾备管理中心 云平台备份运维指南
+   1  灾备管理中心 备份管理平台
+   1  灾备管理中心 异地容灾管理平台
+
+== 大数据 ==
+   4  大数据计算服务
+   4  DataWorks
+   4  检索分析服务Elasticsearch版
+   3  大数据管家
+
+== 存储 ==
+   4  云服务定义存储
+   4  文件存储NAS
+   4  阿里云弹性文件存储 EFS-NAS
+   4  高性能并行文件存储APFS
+   3  日志服务
+   3  文件存储CPFS
+
+== 安全 ==
+   4  云盾-Web应用防火墙-企业版
+   4  云盾-态势感知 云安全管理中心
+   4  云盾-态势感知 安全编排自动化响应
+   4  云盾云防火墙
+   4  云盾网络检测与响应
+   4  安骑士
+   4  容器安全
+   4  密钥管理服务 密钥管理服务
+   4  应用身份服务
+   3  云盾-安骑士高级版 容器安全
+   3  密钥管理服务
+   3  云盾-态势感知 漏洞扫描
+   3  运维安全中心（堡垒机） 租户侧堡垒机
+   2  云盾-安骑士高级版
+   2  云盾-Web应用防火墙-企业版 实例型
+   2  云盾-安骑士高级版 安骑士
+   1  云盾-安骑士高级版 运维指南（安骑士）
+   1  云盾
+   1  云盾-态势感知 漏洞扫描运维指南
+   1  云盾网络检测与响应 开发指南 20240606 (1).pdf
+
+== 数据库 ==
+   5  云数据库RDS
+   4  数据传输
+   4  云原生多模数据库Lindorm
+   4  云数据库 MongoDB 版
+   4  云数据库 Redis 版
+   4  数据总线
+   3  云原生关系型数据库 PolarDB
+   3  云原生关系型数据库 PolarDB PolarDB for PostgreSQL本地盘版
+   3  云原生关系型数据库 PolarDB PolarDB-X 2.0版
+   3  数据库备份
+   3  数据管理
+   2  云原生关系型数据库 PolarDB PolarDB for MySQL本地盘版
+   2  云原生数据仓库 AnalyticDB AnalyticDB for PostgreSQL版
+   2  云数据库 RDS
+   1  云原生关系型数据库 PolarDB 运维指南（PolarDB-X）
+   1  AnalyticDB for PostgreSQL版
+   1  云数据库RDS RDS for MySQL版
+   1  云数据库RDS RDS for PolarDB版
+   1  云数据库RDS RDS for PostgreSQL版
+   1  云数据库 RDS for SQL Server版
+
+== 监控与运维服务 ==
+   5  专有云运维平台
+   4  应用实时监控服务 ARMS
+   3  云监控
+
+== 网络 ==
+   5  专有云DNS
+   4  VPN网关
+   4  专有网络VPC
+   4  云接入网关
+   4  负载均衡
+   4  转发路由器
+   4  高速通道
+   2  NAT网关
+   2  弹性公网IP
+   2  IPv6网关
+   2  阿里云 专有云企业版 v3.18.1 弹性公网IP
+
+== 计算 ==
+   5  云服务器ECS
+   4  容器服务Kubernetes版
+   4  容器镜像服务
+   4  弹性伸缩 ESS
+   4  裸机管理服务
+   4  裸金属算力平台
+   4  资源编排
+   4  运维编排
+   1  云服务器 ECS
+
+#################### English ####################
+
+== Big Data ==
+   4  Realtime Compute for Apache Flink (Compute-Storage Separation Edition)
+   4  DataWorks
+   4  Elasticsearch
+   4  MaxCompute
+   4  Realtime Compute Realtime Compute for Apache Flink (Compute-Storage Separation Edition)
+   3  Apsara Big Data Manager
+   2  Realtime Compute
+
+== Cloud Platform ==
+   4  Apsara Stack Data Center as a service
+   4  Apsara Uni-manager
+   3  Apsara Stack Resilience ASR for Backup and Recovery
+   3  apsara stack resilience ASR for Geo-disaster
+   2  Server Migration Center
+   2  Apsara Uni-manager Management Console
+   2  Apsara Uni-manager Apsara Uni-manager Management Console
+   2  cloud migration hub
+   2  apsara stack resilience ASR for Zone-disaster Recovery
+   1  apsara base Apsara Uni-manager Management Console
+   1  Apsara Stack Resilience Cloud Platform Backup
+   1  Apsara Stack Resilience Cloud Platform Backup and O&M Guide
+   1  apsara stack resilience ASR for Zone-disaster Recovery
+   1  apsara stack resilience
+
+== Compute ==
+   5  Elastic Compute Service
+   4  Bare Metal Computing Platform
+   4  Auto Scaling
+   4  Container Registry
+   4  Container Service for Kubernetes
+   4  Machine Learning Platform for AI Bare Metal Computing Platform
+   4  Operation Orchestration Service
+   4  Resource Orchestration Service
+   2  BareMetal Mangement Service
+   2  BareMetal Mangement Service
+   2  Container Service for Kubernetes Distributed Cloud Container Platform ACK One
+   1  User Guide
+   1  
+
+== Database ==
+   4  Lindorm
+   4  Tair（Redis OSS-compatible）
+   4  ApsaraDB for MongoDB
+   4  ApsaraDB for Redis
+   4  Data Transmission Service
+   4  DataHub
+   4  Time  Series and Spatial-Temporal  Database
+   3  ApsaraDB for POLARDB
+   3  AnalyticDB for PostgreSQL
+   3  ApsaraDB for POLARDB PolarDB for PostgreSQL (Primary_Secondary Edition)
+   3  Database Backup
+   3  AnalyticDB for MySQL AnalyticDB for PostgreSQL
+   3  ApsaraDB for POLARDB PolarDB-X 2.0
+   3  ApsaraDB for RDS
+   3  Data Management
+   3  
+   2  Cloud Native Distributed Database PolarDB-X
+   2  ApsaraDB for POLARDB PolarDB for MySQL (Primary_Secondary Edition)
+   1  AnalyticDB for MySQL
+   1  ApsaraDB RDS for SQL Server
+   1  ApsaraDB for RDS ApsaraDB RDS for MySQL
+   1  ApsaraDB for RDS ApsaraDB RDS for PolarDB
+   1  ApsaraDB for RDS ApsaraDB RDS for PostgreSQL
+
+== Middleware ==
+   4  Enterprise Distributed Application Service
+   4  SchedulerX 2.0
+   4  API Gateway
+   4  Alibaba Cloud Message Queue
+   4  Enterprise Distributed Application Service (EDAS) Enterprise Distributed Application Service
+   4  Enterprise Distributed Application Service (EDAS) SchedulerX 2.0
+   4  Message Queue for Apache Kafka
+   4  Prometheus Service
+   4  Tracing Analysis
+   3  Application Hybrid Marketplace
+   3  Alibaba Cloud Message Queue RocketMQ v5.0
+   3  Application Operation Platform Application Hybrid Marketplace
+   2  Cloud-native Gateway
+
+== Monitoring and Ops ==
+   5  Apsara Uni-manager Operations Console
+   4  Application Real-time Monitoring Service
+   3  Apsara AIOps
+   3  Apsara Stack Operation Apsara AIOps
+   3  CloudMonitor
+   1  apsara base Apsara Uni-manager Operations Console
+
+== Networking ==
+   4  Express Connect
+   4  Server Load Balancer
+   4  TransitRouter
+   4  VPN Gateway
+   4  Virtual Private Cloud
+   4  cloud gateway
+   3  Apsara Stack DNS
+   2  Alibaba Cloud DNS
+   2  IPv6 Gateway
+   2  Elastic IP Address
+   2  NAT Gateway
+   2  Application Load Balancer
+   2  Server Load Balancer Application Load Balancer
+   1  Alibaba Cloud DNS Alibaba Cloud DNS (Within Cloud)
+   1  Apsara Stack DNS Apsara Stack DNS (Multicloud Integration)
+   1  Apsara Stack DNS Apsara Stack DNS (Within Cloud)
+
+== OpenTrek ==
+   3  Apsara Copilot
+   3  Apsara Uni-manager Apsara Copilot
+   3  OpenTrek OpenTrek Dev
+   2  OpenTrek AI Gateway
+   2  OpenTrek AgentRuntime
+   2  OpenTrek OpenTrek AI Studio
+   2  OpenTrek OpenTrek-Ops
+
+== Security ==
+   5  Cloud Security Network Detection and Response
+   4  Alibaba Cloud Security-Server Guard Advanced Edition Server Guard Advanced Edition
+   4  Alibaba Cloud Security-Web Application Firewall (WAF) Web Application Firewall-Instance
+   4  Cloud Security Management Center
+   4  Cloud Security Scanner
+   4  Container Security Service
+   4  Database Security Audit
+   4  Security Orchestration Automation and Response (SOAR)
+   4  Server Guard Advanced Edition
+   4  Alibaba Cloud Security-Server Guard Advanced Edition Container Security Service
+   4  Alibaba Cloud Security-Situation Awareness Cloud Security Management Center
+   4  Alibaba Cloud Security-Web Application Firewall (WAF)
+   4  Cloud Security Firewall
+   4  Database Audit Database Security Audit
+   4  IDaaS
+   4  Key Management Service Key Management Service
+   3  NFV Cloud Firewall
+   3  Static Data Masking and Watermarking
+   3  Alibaba Cloud Security-Situation Awareness Cloud Security Scanner
+   3  Cloud Security Firewall NFV Cloud Firewall
+   3  Database Audit Static Data Masking and Watermarking
+   2  Apsara Stack Security
+   2  Tenant-side Bastionhost
+   2  Bastionhost Tenant-side Bastionhost
+   1  Apsara Stack Security Security Administrator Guide
+   1  Tenant-side Bastionhost
+   1  Alibaba Cloud Security-Situation Awareness Security Orchestration Automation and Response (SOAR)
+   1  Bastionhost Bastionhost
+
+== Storage ==
+   4  ApsaraStack Parallel File System
+   4  Cloud Defined Storage
+   4  Cloud Parallel File Storage
+   4  Elastic File System NAS
+   4  File Storage NAS
+   4  Apsara File Storage NAS
+   4  Cloud Defined Storage ApsaraStack Parallel File System
+   4  Cloud Defined Storage Elastic File System NAS
+   3  Log Service
+   3  Cloud Defined Storage Cloud Parallel File Storage
+   2  Object Storage Service
+   2  Tablestore
+   1  Object Storage Service User Guide 20240702 (1).pdf
