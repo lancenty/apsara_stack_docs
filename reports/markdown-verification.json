@@ -1,0 +1,16 @@
+{
+  "rules": "d940f6d0aa7f7a4d",
+  "rendered": true,
+  "summary": {
+    "documents": 704,
+    "code_blocks": 74847,
+    "pages": 94920,
+    "body_pages": 90522,
+    "headings": 51757,
+    "tables": 54970,
+    "table_joins": 27192,
+    "images": 25696,
+    "failed_checks_documents": 0
+  },
+  "errors": {}
+}
