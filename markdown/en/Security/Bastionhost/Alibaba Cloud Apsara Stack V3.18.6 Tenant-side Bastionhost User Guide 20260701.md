@@ -1,0 +1,6563 @@
+Alibaba Cloud  
+Apsara Stack  
+Tenant-side Bastionhost User  
+Guide  
+Product Version: V3.18.6  
+Document Version: 20260701
+
+**Table of Contents**
+
+- [1.Introduction](#section-1)
+    - [1.1. Overview](#section-1-1)
+    - [1.2. Usage limits](#section-1-2)
+    - [1.3. User roles and permissions](#section-1-3)
+    - [1.4. Log on to the Apsara Uni-manager Management Console](#section-1-4)
+- [2.Create a bastion host](#section-2)
+- [3.Log on to Bastionhost](#section-3)
+    - [3.1. Log in to Bastionhost from the Apsara Uni-manager Management Console](#section-3-1)
+    - [3.2. Log on to Bastionhost from a browser](#section-3-2)
+- [4.Introduction to the homepage](#section-4)
+- [5.Management console](#section-5)
+    - [5.1. Overview](#section-5-1)
+    - [5.2. Users](#section-5-2)
+        - [5.2.1. Manage users](#section-5-2-1)
+            - [5.2.1.1. Create and manage a department](#section-5-2-1-1)
+            - [5.2.1.2. Create users](#section-5-2-1-2)
+            - [5.2.1.3. Search for users](#section-5-2-1-3)
+            - [5.2.1.4. Export users](#section-5-2-1-4)
+            - [5.2.1.5. Create and manage a user group](#section-5-2-1-5)
+            - [5.2.1.6. Configure fields of the user list](#section-5-2-1-6)
+        - [5.2.2. Manage OTP tokens](#section-5-2-2)
+            - [5.2.2.1. Import a token file](#section-5-2-2-1)
+            - [5.2.2.2. Search for a token](#section-5-2-2-2)
+            - [5.2.2.3. Bind a token to a user](#section-5-2-2-3)
+            - [5.2.2.4. Synchronize a token](#section-5-2-2-4)
+        - [5.2.3. Third-party OTP token management](#section-5-2-3)
+            - [5.2.3.1. Import a token](#section-5-2-3-1)
+            - [5.2.3.2. Bind a token to a user](#section-5-2-3-2)
+            - [5.2.3.3. Unbind a token](#section-5-2-3-3)
+            - [5.2.3.4. Report the loss of a token](#section-5-2-3-4)
+            - [5.2.3.5. Disable/Enable a token](#section-5-2-3-5)
+            - [5.2.3.6. Delete a token](#section-5-2-3-6)
+    - [5.3. Assets](#section-5-3)
+        - [5.3.1. Manage assets](#section-5-3-1)
+        - [5.3.2. Manage asset diagnostics tasks](#section-5-3-2)
+        - [5.3.3. Discover assets](#section-5-3-3)
+        - [5.3.4. Manage tags](#section-5-3-4)
+        - [5.3.5. Configure a remote client](#section-5-3-5)
+    - [5.4. Accounts](#section-5-4)
+        - [5.4.1. Manage accounts](#section-5-4-1)
+            - [5.4.1.1. Create a local account](#section-5-4-1-1)
+            - [5.4.1.2. Create or delete a remote account](#section-5-4-1-2)
+            - [5.4.1.3. View asset accounts by category](#section-5-4-1-3)
+            - [5.4.1.4. View account logs](#section-5-4-1-4)
+        - [5.4.2. Diagnose accounts](#section-5-4-2)
+            - [5.4.2.1. Configure a custom policy for diagnostic tasks](#section-5-4-2-1)
+            - [5.4.2.2. Create a diagnostic task](#section-5-4-2-2)
+            - [5.4.2.3. Execute a diagnostic task](#section-5-4-2-3)
+            - [5.4.2.4. View a diagnostic task](#section-5-4-2-4)
+            - [5.4.2.5. Manage an account diagnostic scope](#section-5-4-2-5)
+        - [5.4.3. Discover accounts](#section-5-4-3)
+            - [5.4.3.1. Create a discovery task](#section-5-4-3-1)
+            - [5.4.3.2. Execute a discovery task](#section-5-4-3-2)
+            - [5.4.3.3. Add accounts for management](#section-5-4-3-3)
+        - [5.4.4. Manage passwords](#section-5-4-4)
+            - [5.4.4.1. View accounts associated with password change tasks](#section-5-4-4-1)
+            - [5.4.4.2. Immediately change the password](#section-5-4-4-2)
+            - [5.4.4.3. Verify the password of an account](#section-5-4-4-3)
+            - [5.4.4.4. Download historical passwords](#section-5-4-4-4)
+            - [5.4.4.5. Download password change history](#section-5-4-4-5)
+            - [5.4.4.6. Restore a password](#section-5-4-4-6)
+            - [5.4.4.7. Export the password of an account](#section-5-4-4-7)
+            - [5.4.4.8. Configure a password change task](#section-5-4-4-8)
+            - [5.4.4.9. Complex password-change accounts](#section-5-4-4-9)
+        - [5.4.5. Manage keys](#section-5-4-5)
+    - [5.5. Authorization](#section-5-5)
+        - [5.5.1. Manage authorization rules](#section-5-5-1)
+            - [5.5.1.1. Perform operations on the Rule View tab](#section-5-5-1-1)
+            - [5.5.1.2. Perform operations on the Member View tab](#section-5-5-1-2)
+            - [5.5.1.3. Perform operations on the Asset View tab](#section-5-5-1-3)
+        - [5.5.2. Manage pre-authorization rules](#section-5-5-2)
+        - [5.5.3. Manage review rules](#section-5-5-3)
+        - [5.5.4. Configure the unauthorized logon feature](#section-5-5-4)
+        - [5.5.5. Manage dynamic objects](#section-5-5-5)
+    - [5.6. Policies](#section-5-6)
+        - [5.6.1. Configure an access control policy](#section-5-6-1)
+        - [5.6.2. Configure a host command control policy](#section-5-6-2)
+        - [5.6.3. Configure a database command control policy](#section-5-6-3)
+    - [5.7. Auditing](#section-5-7)
+        - [5.7.1. Manage online sessions](#section-5-7-1)
+        - [5.7.2. Manage historical sessions](#section-5-7-2)
+        - [5.7.3. Query an event](#section-5-7-3)
+        - [5.7.4. Manage ticket records](#section-5-7-4)
+    - [5.8. Reports](#section-5-8)
+        - [5.8.1. Manage custom reports](#section-5-8-1)
+        - [5.8.2. View O&M reports](#section-5-8-2)
+        - [5.8.3. System reports](#section-5-8-3)
+        - [5.8.4. Manage report subscriptions](#section-5-8-4)
+    - [5.9. Configurations](#section-5-9)
+        - [5.9.1. Manage a project](#section-5-9-1)
+        - [5.9.2. Manage cloud drives](#section-5-9-2)
+        - [5.9.3. Configure user settings](#section-5-9-3)
+        - [5.9.4. Configure role settings](#section-5-9-4)
+        - [5.9.5. Configure assets](#section-5-9-5)
+            - [5.9.5.1. Manage asset directories](#section-5-9-5-1)
+            - [5.9.5.2. Manage network settings](#section-5-9-5-2)
+            - [5.9.5.3. Configure a password change script](#section-5-9-5-3)
+            - [5.9.5.4. Asset Template](#section-5-9-5-4)
+            - [5.9.5.5. Configure O&M settings](#section-5-9-5-5)
+            - [5.9.5.6. Configure custom attributes for assets](#section-5-9-5-6)
+            - [5.9.5.7. Configure custom attributes for accounts](#section-5-9-5-7)
+        - [5.9.6. Manage operating systems](#section-5-9-6)
+        - [5.9.7. Connect to an application system](#section-5-9-7)
+    - [5.10. System](#section-5-10)
+        - [5.10.1. Manage network settings](#section-5-10-1)
+            - [5.10.1.1. View NIC configurations](#section-5-10-1-1)
+            - [5.10.1.2. Configure ports](#section-5-10-1-2)
+            - [5.10.1.3. Configure security settings](#section-5-10-1-3)
+            - [5.10.1.4. Configure communication settings](#section-5-10-1-4)
+            - [5.10.1.5. Manage web certificates](#section-5-10-1-5)
+            - [5.10.1.6. Configure firewall settings](#section-5-10-1-6)
+        - [5.10.2. HA cluster](#section-5-10-2)
+        - [5.10.3. Configure Syslog servers](#section-5-10-3)
+        - [5.10.4. Manage data](#section-5-10-4)
+            - [5.10.4.1. Manage basic data](#section-5-10-4-1)
+            - [5.10.4.2. Manage a file server](#section-5-10-4-2)
+            - [5.10.4.3. Configure system backup files](#section-5-10-4-3)
+            - [5.10.4.4. Configure log backup files](#section-5-10-4-4)
+            - [5.10.4.5. Restored updated data](#section-5-10-4-5)
+        - [5.10.5. Configure monitoring and alerting](#section-5-10-5)
+            - [5.10.5.1. View resource monitoring](#section-5-10-5-1)
+            - [5.10.5.2. Configure alert settings](#section-5-10-5-2)
+            - [5.10.5.3. Configure the notification settings](#section-5-10-5-3)
+            - [5.10.5.4. Configure notification methods](#section-5-10-5-4)
+        - [5.10.6. System logs](#section-5-10-6)
+            - [5.10.6.1. Manage operation logs](#section-5-10-6-1)
+            - [5.10.6.2. Manage alert logs](#section-5-10-6-2)
+        - [5.10.7. Local maintenance](#section-5-10-7)
+            - [5.10.7.1. Configure settings on the Country or Region tab](#section-5-10-7-1)
+            - [5.10.7.2. Configure language-specific UI](#section-5-10-7-2)
+            - [5.10.7.3. Configure announcements](#section-5-10-7-3)
+            - [5.10.7.4. use diagnostics tools](#section-5-10-7-4)
+            - [5.10.7.5. Perform health checks](#section-5-10-7-5)
+- [6.Use the personal workbench](#section-6)
+    - [6.1. Homepage](#section-6-1)
+    - [6.2. O&M](#section-6-2)
+        - [6.2.1. Configure O&M settings](#section-6-2-1)
+        - [6.2.2. Perform host O&M](#section-6-2-2)
+            - [6.2.2.1. Perform B/S O&M](#section-6-2-2-1)
+            - [6.2.2.2. Perform HTML5-based O&M](#section-6-2-2-2)
+            - [6.2.2.3. Perform C/S O&M](#section-6-2-2-3)
+        - [6.2.3. Perform database O&M](#section-6-2-3)
+        - [6.2.4. Perform remote client O&M](#section-6-2-4)
+            - [6.2.4.1. Perform B/S O&M](#section-6-2-4-1)
+            - [6.2.4.2. Perform HTML5-based O&M](#section-6-2-4-2)
+        - [6.2.5. Perform ticket O&M](#section-6-2-5)
+            - [6.2.5.1. Perform B/S O&M](#section-6-2-5-1)
+            - [6.2.5.2. Perform HTML5-based O&M](#section-6-2-5-2)
+        - [6.2.6. Manage the favorite list](#section-6-2-6)
+            - [6.2.6.1. Add an asset to the favorite list](#section-6-2-6-1)
+            - [6.2.6.2. Manage the favorite list](#section-6-2-6-2)
+        - [6.2.7. Log on to multiple assets and perform O&M at a time](#section-6-2-7)
+        - [6.2.8. Perform HTML5-based collaborative O&M](#section-6-2-8)
+        - [6.2.9. Perform unauthorized logon O&M](#section-6-2-9)
+        - [6.2.10. Manage assets by group](#section-6-2-10)
+    - [6.3. Tickets](#section-6-3)
+        - [6.3.1. Create a ticket](#section-6-3-1)
+        - [6.3.2. Cancel a ticket](#section-6-3-2)
+        - [6.3.3. View the details of a ticket](#section-6-3-3)
+        - [6.3.4. Search for a ticket](#section-6-3-4)
+        - [6.3.5. Review a ticket](#section-6-3-5)
+            - [6.3.5.1. Review a ticket](#section-6-3-5-1)
+            - [6.3.5.2. Review a ticket by using a review code](#section-6-3-5-2)
+        - [6.3.6. Revoke a ticket](#section-6-3-6)
+    - [6.4. Cloud drives](#section-6-4)
+    - [6.5. Tasks](#section-6-5)
+        - [6.5.1. Manage a task set](#section-6-5-1)
+        - [6.5.2. Task orchestration](#section-6-5-2)
+    - [6.6. Logs](#section-6-6)
+    - [6.7. Personal information](#section-6-7)
+        - [6.7.1. View the basic information](#section-6-7-1)
+        - [6.7.2. Configure the logon settings](#section-6-7-2)
+            - [6.7.2.1. Configure an OTP device](#section-6-7-2-1)
+            - [6.7.2.2. Configure a C/S logon password](#section-6-7-2-2)
+            - [6.7.2.3. Configure SSH public keys](#section-6-7-2-3)
+            - [6.7.2.4. Configure an SSH private key](#section-6-7-2-4)
+        - [6.7.3. Configure security settings](#section-6-7-3)
+    - [6.8. Download tools](#section-6-8)
+- [7.Best practices](#section-7)
+    - [7.1. Configure a DNAT entry to access a bastion host over the Internet](#section-7-1)
+    - [7.2. Configure data for connecting Bastionhost to IDaaS](#section-7-2)
+
+<a id="section-1"></a>
+
+# 1.Introduction
+
+**Overview**
+
+Bastionhost provides a centralized management solution based on the account, authentication, authorization, and audit. Bastionhost supports identity management, authorization management, two-factor authentication, real-time session monitoring and disconnection, audit video playback, and query of high-risk commands. This enhances the security of O&M management.
+
+Bastionhost can help meet the requirements of various laws, regulations, and policies, including the requirements of classified protection, China Banking and Insurance Regulatory Commission (CBIRC), China Securities Regulatory Commission (CSRC), PCI Security Standards Council (PCI SSC), and internal management of enterprises.
+
+**User roles and permissions**
+
+This topic describes the user roles and permissions of Bastionhost.
+
+| Permission | Super administrat or | System administrat or | Security administrat or | Security auditor | Regular user |
+| --- | --- | --- | --- | --- | --- |
+| O&amp;M | √ | - | - | - | √ |
+| Tickets | √ | - | √ (Only ticket review is supported.) | - | √ (Only ticket applications are supported.) |
+| Overview | √ | √ | √ | √ | - |
+| Users | √ | √ | - | - | - |
+| Assets | √ | - | √ | - | - |
+| Accounts | √ | - | √ | - | - |
+| Authorization | √ | - | √ | - | - |
+| Policies | √ | - | √ | - | - |
+| Audit | √ | - | - | √ | - |
+| Configuration s | √ | √ | - | - | - |
+| System settings | √ | √ | - | - | - |
+
+<a id="section-1-1"></a>
+
+## 1.1. Overview
+
+Bastionhost provides a centralized management solution based on the account, authentication, authorization, and audit. Bastionhost supports identity management, permission management, two-factor authentication, real-time session monitoring and disconnection, audit video playback, and query of high-risk commands. This enhances the security of O&M management.
+
+Bastionhost can help meet the requirements of various laws, regulations, and policies, including the requirements of classified protection, China Banking and Insurance Regulatory Commission (CBIRC), China Securities Regulatory Commission (CSRC), PCI Security Standards Council (PCI SSC), and internal management of enterprises.
+
+<a id="section-1-2"></a>
+
+## 1.2. Usage limits
+
+This topic describes the usage limits of Bastionhost.
+
+**Network limits**
+
+- You need to ensure the connectivity between clients and the bastion host and between the bastion host and servers.
+
+- Security group authorization limits: A virtual private cloud (VPC) allows a maximum of 20 security group authorization rules. Exceeding this limit may result in authorization failures between the bastion host and ECS groups, which affects O&M access. Ensure that the number of security group authorization rules does not exceed the limit, or manually configure access rules using IP addresses. .
+
+- A bastion host does not support direct public network access. A standard DNAT solution must be used for translation. For more information, see **User Guide > Best practices > Configure a DNAT entry to access a bastion host over the Internet**. .
+
+- The maximum internal bandwidth for the virtual IP address (VIP) of a single bastion host is 5 Gbit/s.
+
+**Concurrency performance limits**
+
+Concurrency performance limits vary based on the edition and specifications of a bastion host. To maintain stable operations, ensure that your concurrent sessions remain within the specified limits. Exceeding these thresholds may result in service lag, unavailability, or interruptions. For more information about the concurrency performance of specific instance specifications, see configurations in the console or submit a ticket.
+
+> **Important**
+>
+> If a session contains multiple TCP connections, each TCP connection consumes a concurrent session quota. In RDP-based O&M, a single connection consumes more underlying resources than an SSH-based session.
+
+**Environment Limits for SSH O&M Auditing**
+
+A bastion host supports SSH auditing exclusively for standard bash, zsh, ksh, and dash shells. Assets running non-standard shells may experience compatibility issues with O&M and audit command extraction.
+
+**Limits on the length of bastion host usernames**
+
+Due to the limits of clients, a bastion host username cannot exceed 63 characters in length during RDP-based O&M. If a username exceeds 63 characters in length, you can perform only web-based O&M on a server. We recommend that you keep the username within 63 characters.
+
+**Limits on client versions**
+
+The following table lists supported client tools for the bastion host single sign-on (SSO) tool. Using unsupported clients may lead to connection failures or functional unavailability.
+
+**Supported client tools for the SSO tool**
+
+**Operating**
+
+**Protoco**
+
+**Supported client version for**
+
+**Supported client version for**
+
+**system**
+
+**l**
+
+**BS O&M**
+
+**CS O&M**
+
+**(architecture)**
+
+- Xshell: 7.0
+
+  - Xshell: 7.0
+
+Windows
+
+- SecureCRT: 8.1.0
+
+  - SecureCRT: 8.1.0
+
+- PuTTY: 0.8
+
+  - PuTTY: 0.8
+
+Linux x86
+
+PuTTY: 0.70
+
+PuTTY: 0.70
+
+SSH
+
+Linux ARM
+
+PuTTY: 0.73
+
+PuTTY: 0.73
+
+- ZOC: 8.06.3
+
+  - ZOC: 8.06.3
+
+macOS (x86/M1/M2)
+
+- iTerm2: 3.4.22
+
+  - iTerm2: 3.4.22
+
+- Xshell: 7.0
+
+  - Xshell: 7.0
+
+Windows
+
+- SecureCRT: 8.1.0
+
+  - SecureCRT: 8.1.0
+
+- PuTTY: 0.8
+
+  - PuTTY: 0.8
+
+Linux x86
+
+PuTTY: 3.24
+
+PuTTY: 0.73
+
+Rlogin
+
+Linux ARM
+
+PuTTY: 0.70
+
+PuTTY: 0.73
+
+- ZOC: 8.06.3
+
+  - ZOC: 8.06.3
+
+macOS (x86/M1/M2)
+
+- iTerm2: 3.4.22
+
+  - iTerm2: 3.4.22
+
+- Xshell: 7.0
+
+  - Xshell: 7.0
+
+Windows
+
+- SecureCRT: 8.1.0
+
+  - SecureCRT: 8.1.0
+
+- PuTTY: 0.8
+
+  - PuTTY: 0.8
+
+Linux x86
+
+PuTTY: 3.24
+
+PuTTY: 0.73
+
+Telnet
+
+Linux ARM
+
+PuTTY: 0.70
+
+PuTTY: 0.70
+
+macOS
+
+ZOC: 8.06.3
+
+ZOC: 8.06.3
+
+(x86/M1/M2)
+
+- Xftp: 7.0
+
+  - Xftp: 7.0
+
+- WinSCP: 5.21.7
+
+  - WinSCP: 5.21.7
+
+- FileZilla: 3.66.5
+
+  - FileZilla: 3.66.5
+
+Windows
+
+- FlashFXP: 5.4.0
+
+  - FlashFXP: 5.4.0
+
+- SecureFX: 8.1.0
+
+  - SecureFX: 8.1.0
+
+- MobaXterm: 24.0
+
+  - MobaXterm: 24.0
+
+FTP
+
+Linux x86
+
+FileZilla: 3.69
+
+FileZilla: 3.69
+
+Linux ARM
+
+FileZilla: 3.39
+
+FileZilla: 3.39
+
+macOS
+
+FileZilla: 3.66.1
+
+FileZilla: 3.66.1
+
+(x86/M1/M2)
+
+- Xftp: 7.0
+
+- Xftp: 7.0
+
+  - WinSCP: 5.21.7
+
+- WinSCP: 5.21.7
+
+  - FileZilla: not supported
+
+- FileZilla: 3.66.5
+
+Windows
+
+- FlashFXP: 5.4.0
+
+- FlashFXP: 5.4.0
+
+  - SecureFX: not supported
+
+- SecureFX: 8.1.0
+
+  - MobaXterm: 24.0
+
+- MobaXterm: 24.0
+
+SFTP
+
+Linux x86
+
+FileZilla: 3.69
+
+FileZilla: 3.69
+
+Linux ARM
+
+FileZilla: 3.39
+
+FileZilla: 3.39
+
+macOS
+
+FileZilla: 3.66.1
+
+FileZilla: 3.66.1
+
+(x86/M1/M2)
+
+Windows
+
+mstsc: 10.0.1
+
+mstsc: 10.0.1
+
+- Remmina: 1.4.2
+
+  - Remmina: 1.4.2
+
+Linux x86
+
+- xfreerdp: 2.11
+
+  - xfreerdp: 2.11
+
+RDP
+
+- Remmina: 1.4.10
+
+  - Remmina: 1.4.10
+
+Linux ARM
+
+- xfreerdp: 2.0.0
+
+  - xfreerdp: 2.0.0
+
+  - Microsoft
+
+- Microsoft Remote
+
+macOS
+
+- Microsoft Remote Desktop
+
+(x86/M1/M2)
+
+- Desktop app: 10.8.4
+
+  app:10.8.4
+
+- TigerVNC: 1.13
+
+Windows
+
+- RealVNC: 7.10.0
+
+- TightVNC: 2.8.81
+
+Linux x86
+
+VNC Viewer: 7.13
+
+X11
+
+Not supported
+
+Linux ARM
+
+VNC Viewer
+
+macOS
+
+RealVNC: 7.5.1
+
+(x86/M1/M2)
+
+- TigerVNC: 1.13
+
+Windows
+
+- RealVNC: 7.10.0
+
+- TightVNC: 2.8.81
+
+Linux x86
+
+VNC Viewer: 7.13
+
+macOS
+
+RealVNC: 7.5.1
+
+(x86/M1/M2)
+
+VNC
+
+Not supported
+
+<table>
+  <tr>
+    <td rowspan="4">SQL Server</td>
+    <td>Windows</td>
+    <td>SSMS: 17.9.1<br>DBeaver: 24.0.0<br>Navicat Premium: 15.0<br>Navicat for SQL Server: 12.0<br>SqlDbx Professional: 6.16<br>DbVisualizer: 24.2.1<br>Note<br>• SSMS V18 and later support only tunnel O&amp;M.<br>• You cannot modify the session title in SSMS, SQLWB, and SqlDbx Professional.</td>
+    <td rowspan="4">Not supported</td>
+  </tr>
+  <tr>
+    <td>Linux x86</td>
+    <td>DbVisualizer: 24.1.6</td>
+  </tr>
+  <tr>
+    <td>Linux ARM</td>
+    <td>DbVisualizer: 24.3.3</td>
+  </tr>
+  <tr>
+    <td>macOS (x86/M1/M2)</td>
+    <td>DbVisualizer: 24.1.6</td>
+  </tr>
+  <tr>
+    <td rowspan="4">MySQL</td>
+    <td>Windows</td>
+    <td>• MySQL Workbench<br>• DbVisualizer: 9.5.7<br>• DBeaver: 24.0<br>• MySQLFront: 6.0<br>• Navicat Premium: 15.0<br>• Navicat for MySQL: 12.0<br>• HeidiSQL: 11.3.0</td>
+    <td rowspan="4">Not supported</td>
+  </tr>
+  <tr>
+    <td>Linux x86</td>
+    <td>• DbVisualizer: 24.1.6<br>• DBeaver: 23.3</td>
+  </tr>
+  <tr>
+    <td>Linux ARM</td>
+    <td>DbVisualizer: 24.3.3</td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+
+macOS
+
+DbVisualizer: 24.1.6
+
+(x86/M1/M2)
+
+- Toad: 12.1.0
+
+- PL/SQL Developer: 14.0.6 (with a driver of 19c and a
+
+  - PL/SQL Developer: 14.0.6
+
+  client of 19c)
+
+  (with a driver of 19c and a client of 19c)
+
+- DbVisualizer: 24.2
+
+Windows
+
+- DbVisualizer: 24.2
+
+- DBeaver: 24.0
+
+  - DBeaver: 24.0
+
+- Navicat Premium: 15.0
+
+  - Navicat Premium: 15.0
+
+- Navicat for Oracle: 12.0.29
+
+- SQLDbx Professional: 6.16 SQL Developer: 20
+
+Oracle
+
+- DbVisualizer: 24.1.6
+
+Linux x86
+
+Not supported
+
+- DBeaver: 23.3
+
+Linux ARM
+
+DbVisualizer: 24.3.3
+
+Not supported
+
+macOS
+
+DbVisualizer: 24.1.6
+
+Not supported
+
+(x86/M1/M2)
+
+- DbVisualizer: 9.5.7
+
+- DBeaver: 24.0
+
+Windows
+
+- Toad for DB2: 7.10
+
+- db2cmd: 11.5.8
+
+- Quest Central: 4.8.1
+
+- DbVisualizer: 24.1.6
+
+Linux x86
+
+- DBeaver: 23.3
+
+Linux ARM
+
+DbVisualizer: 24.3.3
+
+Db2
+
+Not supported
+
+macOS
+
+DbVisualizer: 24.1.6
+
+(x86/M1/M2)
+
+<table>
+  <tr>
+    <td rowspan="4">PostgreS QL</td>
+    <td>Windows</td>
+    <td>• DbVisualizer: 9.5.7<br>• DBeaver: 24.0<br>• Navicat Premium: 15.0<br>• SqlDbx Professional: 6.16<br>• Navicat for PostgreSQL: 16.3.3<br>• pgAdmin 3: 1.8.4</td>
+    <td rowspan="4">Not supported</td>
+  </tr>
+  <tr>
+    <td>Linux x86</td>
+    <td>• DbVisualizer: 24.1.6<br>• DBeaver: 23.3</td>
+  </tr>
+  <tr>
+    <td>Linux ARM</td>
+    <td>DbVisualizer: 24.3.3</td>
+  </tr>
+  <tr>
+    <td>macOS (x86/M1/M2)</td>
+    <td>DbVisualizer: 24.1.6</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Kingbas eES</td>
+    <td>Windows</td>
+    <td>• DbVisualizer: 9.5.7<br>• KStudio: 2.0</td>
+    <td rowspan="4">Not supported</td>
+  </tr>
+  <tr>
+    <td>Linux x86</td>
+    <td>DbVisualizer: 24.1.6</td>
+  </tr>
+  <tr>
+    <td>Linux ARM</td>
+    <td>DbVisualizer: 24.3.3</td>
+  </tr>
+  <tr>
+    <td>macOS (x86/M1/M2)</td>
+    <td>DbVisualizer: 24.1.6</td>
+  </tr>
+  <tr>
+    <td>DM Databas e</td>
+    <td>Windows</td>
+    <td>DbVisualizer: 9.5.7</td>
+    <td>Not supported</td>
+  </tr>
+  <tr>
+    <td>GBase 8s</td>
+    <td>Windows</td>
+    <td>• GBase Data Studio: 8.5.24 (This version encounters the same issue in both direct connection and BS O&amp;M, whereas version 9.5.2 works correctly.)<br>• DBeaver: 24.0<br>• DbVisualizer: 24.2.1</td>
+    <td>Not supported</td>
+  </tr>
+  <tr>
+    <td>GBase 8s</td>
+    <td>Windows</td>
+    <td>• GBase Data Studio: 8.5.24<br>• DbVisualizer: 24.2.1</td>
+    <td>Not supported</td>
+  </tr>
+  <tr>
+    <td>MariaDB</td>
+    <td>Windows</td>
+    <td>DBeaver: 24.0</td>
+    <td>Not supported</td>
+  </tr>
+  <tr>
+    <td>TiDB</td>
+    <td>Windows</td>
+    <td>DBeaver: 24.0</td>
+    <td>Not supported</td>
+  </tr>
+  <tr>
+    <td>GaussDB</td>
+    <td>Windows</td>
+    <td>• DBeaver: 24.0<br>• TPDSS: 2.23</td>
+    <td>Not supported</td>
+  </tr>
+  <tr>
+    <td>Informix</td>
+    <td>Windows</td>
+    <td>DBeaver: 24.0</td>
+    <td>Not supported</td>
+  </tr>
+  <tr>
+    <td>Redis</td>
+    <td>Windows</td>
+    <td>Another Redis Desktop Manager: 1.66.6</td>
+    <td>Not supported</td>
+  </tr>
+  <tr>
+    <td>MongoD B</td>
+    <td>Windows</td>
+    <td>MongoDB Compass: 1.43.4</td>
+    <td>Not supported</td>
+  </tr>
+  <tr>
+    <td rowspan="2">HighGo</td>
+    <td>Windows</td>
+    <td>• HGDB Developer: 6.1<br>• DBeaver: 24</td>
+    <td rowspan="2">Not supported</td>
+  </tr>
+  <tr>
+    <td>Linux x86</td>
+    <td>HGDB Developer: 6.1</td>
+  </tr>
+</table>
+
+**OSes supported by application servers**
+
+| Operating system | Version |
+| --- | --- |
+| Windows | • Windows Server 2016<br>• Windows Server 2019 Datacenter |
+| Linux | • UOS V20 Server (x86 and ARM versions)<br>• Kylin V10 (x86 and ARM versions)<br>• Anolis OS (x86 and ARM versions) |
+
+> **Note**
+>
+> You need to prepare the system version and license of the application publishing server.
+
+<a id="section-1-3"></a>
+
+## 1.3. User roles and permissions
+
+This topic describes the user roles and permissions of Bastionhost.
+
+| Permission | Super administrat or | System administrat or | Security administrat or | Security auditor | Regular user |
+| --- | --- | --- | --- | --- | --- |
+| O&amp;M | √ | - | - | - | √ |
+| Tickets | √ | - | √ (Only ticket review is supported.) | - | √ (Only ticket applications are supported.) |
+| Overview | √ | √ | √ | √ | - |
+| Users | √ | √ | - | - | - |
+| Assets | √ | - | √ | - | - |
+| Accounts | √ | - | √ | - | - |
+| Authorization | √ | - | √ | - | - |
+| Policies | √ | - | √ | - | - |
+| Audit | √ | - | - | √ | - |
+| Configuration s | √ | √ | - | - | - |
+| System settings | √ | √ | - | - | - |
+
+<a id="section-1-4"></a>
+
+## 1.4. Log on to the Apsara Uni-manager Management Console
+
+This topic describes how to log on to the Apsara Uni-manager Management Console.
+
+**Prerequisites**
+
+- Before you log on to the Apsara Uni-manager Management Console, you must obtain the endpoint of the console from the deployment personnel. To configure the Cloud Security system, you must log on with a global organization security administrator account.
+
+- We recommend that you use the Google Chrome browser.
+
+**Procedure**
+
+1. In the address bar of your browser, enter the endpoint of the Apsara Uni-manager Management Console and press Enter.
+
+2. Enter the correct username and password.
+
+   Obtain the username and password that you use to log on to the Apsara Uni-manager Management Console from the operations administrator.
+
+   > **Note**
+   >
+   > - **First logon**
+   >
+   >   The first time that you log on to the Apsara Uni-manager Management Console, you need to change the password of your account. Follow the instructions to complete the password change. For security purposes, the password must be 10 to 32 characters in length. It must contain all of the following character types: uppercase letters, lowercase letters, digits, and special characters. The following special characters are supported: ! @ # $ %
+   >
+   > - **Forgot password**
+   >
+   >   If you forgot your password, click Forgot Password and enter the username of your account, the email address that was used to create your account, and the verification code. Then, a URL is sent to the specified email address. You can click the URL to reset the password.
+
+3. Click **Log On**.
+
+4. If your account has MFA (Multi-Factor Authentication) enabled, perform the following operations based on your scenario:
+
+   - Scenario 1: You log on to the Apsara Uni-manager Management Console for the first time after MFA is enabled by the administrator.
+
+     <ol type="a">
+
+     <li>
+
+     On the Bind Virtual MFA Device page, follow the instructions to bind an MFA device.
+
+     </li>
+
+     <li>
+
+     Re-enter your username and password as described in Step 2, and click **Log On**.
+
+     </li>
+
+     </ol>
+
+     <ol type="i" start="100">
+
+     <li>
+
+     Enter the 6-digit MFA code and click **Authenticate**.
+
+     </li>
+
+     </ol>
+
+   - Scenario 2: You have enabled MFA and bound an MFA device.
+
+     Enter the 6-digit MFA code and click **Authenticate**.
+
+     > **Note**
+     >
+     > For information about how to bind and enable MFA, see the **Security Center** > **Multi-factor Authentication** > **Manage Multi-factor Authentication** section in the Apsara Uni-manager Management Console User Guide.
+
+<a id="section-2"></a>
+
+# 2.Create a bastion host
+
+This topic describes how to create a bastion host.
+
+**Procedure**
+
+1. Log in to the Apsara Uni-manager Management Console.
+
+2. In the top navigation bar, choose **Security** > **O&M Audit** > **Tenant-side Bastionhost**.
+
+3. On the **Tenant-side Bastionhost** page<strong>,</strong> select a region from the **Region** drop-down list **and** click **Access with Authorized Role.**
+
+4. Click **Create Instance** and configure the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Organization | The organization to which the bastion host belongs. It cannot be modified after the bastion host is created. |
+   | Resource Set | The resource set to which the bastion host belongs. It cannot be modified after the bastion host is created. |
+   | VPC ID | The virtual private cloud (VPC) to which the bastion host belongs.It cannot be modified after the bastion host is created.<br>Important<br>After the bastion host is created, make sure that access rules are configured for all security groups in the VPC to allow access from the bastion host. Otherwise, the bastion host may fail to access the Elastic Compute Service (ECS) instance. |
+   | Support for High Availability | • <strong>Disabled</strong>: The disaster recovery feature is disabled.<br>• <strong>Single Data Center</strong>: Disaster recovery in a single data center is supported.<br>• <strong>Dual Data Center</strong>: The system automatically detects the environment. This option is displayed when the system supports two data centers. |
+
+   <table>
+     <tr>
+       <td>vSwitch ID</td>
+       <td>The ID of the vSwitch to which the bastion host belongs. It cannot be modified after the bastion host is created.<br>Important<br>• The bare metal dedicated vSwitch is dimmed and cannot be selected.<br>• Different scenarios require varying numbers of IP addresses. Make sure that the vSwitch has sufficient IP addresses. This ensures that the bastion host can be created and upgraded.<br>• A standalone bastion host requires two IP addresses.<br>• A single-data center high-availability deployment requires three IP addresses.<br>• A dual-data center high-availability deployment requires two vSwitches. One vSwitch requires one IP address, and the other vSwitch requires two IP addresses.</td>
+     </tr>
+     <tr>
+       <td>Edition</td>
+       <td>Select a specification based on the number of your assets. Valid values:<br>• Basic Edition (Assets: Less Than 200)<br>• Standard Edition (Up to 600 Assets)<br>• Advanced Edition (Up to 2,000 Assets)<br>• Premium Edition (Up to 5,000 Assets)</td>
+     </tr>
+     <tr>
+       <td>Asset Quota</td>
+       <td>Select the number of authorized assets.<br>When you create a bastion host, you can specify the maximum number of assets that can be managed by the bastion host. The total number of assets that can be managed by your bastion host depends on the value that you specify for the Asset Quota parameter when you create the bastion host.<br>To increase or decrease the asset quota for a bastion host, log in to the Apsara Uni-manager Operations Console. In the top navigation bar, choose <strong>Product Operation &gt; Security O&amp;M &gt;</strong> <strong>Cloud Shield Operations Center</strong>. In the left-side navigation pane, choose <strong>Cloud Services &gt; OEM O&amp;M &gt; Permissions</strong>. On the page that appears, specify the minimum asset quota. For more information, see the <strong>Security Administrator Guide</strong>.</td>
+     </tr>
+   </table>
+
+5. Click **OK**.
+
+<a id="section-3"></a>
+
+# 3.Log on to Bastionhost
+
+<a id="section-3-1"></a>
+
+## 3.1. Log in to Bastionhost from the Apsara Uni-manager Management Console
+
+This topic describes how to log in to Bastionhost from the Apsara Uni-manager Management Console.
+
+> **Important**
+>
+> After a bastion host is initialized, log in to the bastion host from a browser at your earliest opportunity to change the initial password of the admin user.
+
+**Procedure**
+
+1. Log in to the Apsara Uni-manager Management Console.
+
+2. In the top navigation bar, choose **Security** > **O&M Audit** > **Tenant-side Bastionhost**.
+
+3. On the **Tenant-side Bastionhost** page<strong>,</strong> select a region from the **Region** drop-down list **and** click **Access with Authorized Role.**
+
+<a id="section-3-2"></a>
+
+## 3.2. Log on to Bastionhost from a browser
+
+This topic describes how to log on to Bastionhost.
+
+**Prerequisites**
+
+- The client that you use can access Bastionhost.
+
+- The access address of Bastionhost is obtained from the system deployment personnel.
+
+- The username and password of Bastionhost are obtained from the system deployment personnel. The following table describes the basic roles in Bastionhost.
+
+  | Role | Description |
+  | --- | --- |
+  | Super administrator | Super administrator: admin.<br>Note<br>If you use the super administrator admin, you must log on to Bastionhost from Apsara Stack Security Center. For more information, see Log on to Bastionhost from Apsara Stack Security Center. |
+  | Audit administrator | An audit administrator can use this account to audit O&amp;M operations. This account is created by the super administrator on the <strong>User</strong> page. |
+  | System administrator | A system administrator can use this account to manage Bastionhost. This account is created by the super administrator on the <strong>User</strong> page. |
+  | O&amp;M engineer | An O&amp;M engineer can use this account to manage hosts. This account is created by the super administrator on the <strong>User</strong> page. |
+
+**Procedure**
+
+1. Open a browser. We recommend that you use Microsoft Edge, Google Chrome 69, or Firefox 65 or later.
+
+2. In the address bar of the browser, enter the https://IP address of Bastionhost and press the Enter key.
+
+3. Enter the username and password and click **Login**.
+
+   > **Note**
+   >
+   > - The first time you use admin to log on to Bastionhost, you are redirected to the password change page. Before you can access Bastionhost, you must change your password. If password change upon next logon is configured for other users, the users must change passwords the first time they log on to Bastionhost.
+   >
+   > - The first time you log on to Bastionhost, we recommend that you specify an email address or a mobile phone number. If you forget your password, you can retrieve your password by using the email address or mobile phone number.
+
+4. **Optional**. If two-factor authentication is configured, enter a verification code and click **Confirm**.
+
+<a id="section-4"></a>
+
+# 4.Introduction to the homepage
+
+**Overview**
+
+The homepage is a visual, concise, and easy-to-use web page, which contains five major sections, as shown in the following figure.
+
+![](assets/cf6ce618a0354d5efeb12aef7f583e0d.jpeg)
+
+The following table describes the features of each section.
+
+| No. | Section | Description |
+| --- | --- | --- |
+| ① | Service name | Displays the logo of Alibaba Cloud.<br>This section is displayed only when you log on to Bastionhost from a browser. |
+| ② | Console switchover section | Provides an icon to switch between the personal workbench and management console. |
+| ③ | User information section | Provides quick entry points for viewing remote tasks and internal messages, managing personal information about the current logon user, changing the password of the user, switching between languages, and downloading tools.<br>This section is displayed only when you log on to Bastionhost from a browser. |
+| ④ | System menus | Provides entry points to configure various management features, which allows users to switch between different menus. |
+| ⑤ | Operation section | Provides sub-feature menus, configuration items, operations, and displays the results of various features. |
+
+**Manage personal information**
+
+In the user information section, click the user information and select **Personal Information** to go to the Information page of the personal workbench. You can change the name, mobile phone number, and email address of the current logon user. You can also bind a one-time password (OTP) device, a Client/Server (C/S) logon password, an SSH public key, an SSH private key, and a Pretty Good Privacy (PGP) public key to the user.
+
+image.png
+
+**Change the password**
+
+1. In the user information section, click the user information and select **Change Password**.
+
+   image.png
+
+2. Enter the original password and the new password. Then, confirm the new password and click **Confirm**.
+
+   image.png
+
+**Switch between languages**
+
+In the user information section, click the user information and select a language next to **Switch Language**.
+
+image.png
+
+**Download tools**
+
+1. In the user information section, click the user information and select **Download Tool**.
+
+2. On the **Tool** page, download O&M audit tools, such as Bastionhost Assistant and the Google Chrome plug-in of auto-fill scripts for web applications.
+
+   image.png
+
+**Log off from Bastionhost**
+
+In the user information section, click the user information and select **Log Off**. In the message that appears, click **Confirm**.
+
+image.png
+
+**View remote tasks**
+
+In the user information section, click the <img src="assets/ebf0e06a8f19ffb29559776ed476e1bf.png" width="20" alt=""> icon. In the pane that appears, view the list of
+
+ongoing remote tasks.
+
+Click the Historical Tasks tab to view the list of historical remote tasks and task execution results. You can click **View All** to go to the **Logs > Operation Logs** page of the personal workbench to view the operation logs of all tasks.
+
+image.png
+
+**View internal messages**
+
+In the user information section, click the <img src="assets/fdbcf7468f4fbe3490495cba9f3f6c34.png" width="13" alt=""> icon to go to the **Logs > Internal Messages**
+
+page of the personal workbench. On the Internal Messages page, you can view internal messages about ticket review, alerts, and operation logs.
+
+> **Note**
+>
+> If you cannot receive internal messages, check whether internal message delivery is enabled and recipients are configured on the **System > Monitor or Alert > Notifications** page in the management console.
+
+<a id="section-5"></a>
+
+# 5.Management console
+
+<a id="section-5-1"></a>
+
+## 5.1. Overview
+
+The Overview page displays information such as the number of users, number of assets, number of accounts, authorization rules, O&M data, licenses, and system running status.
+
+![](assets/6b527ff9ca31a0813519fce152624e98.jpeg)
+
+<a id="section-5-2"></a>
+
+## 5.2. Users
+
+<a id="section-5-2-1"></a>
+
+### 5.2.1. Manage users
+
+<a id="section-5-2-1-1"></a>
+
+#### 5.2.1.1. Create and manage a department
+
+This topic describes how to create, search for, and delete a department. This topic also describes how to modify the information about a department.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > User Management**.
+
+4. On the **Department** tab, manage a department.
+
+**Create a sub department**
+
+By default, the system creates a root department. You can create nine levels of sub departments under the root department.
+
+1. On the **Department** tab, move the pointer over the name of the department that you want
+
+   to manage, click the <img src="assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="10" alt=""> icon, and then select **Create Sub-department**.
+
+2. Enter a name for the sub department and then click the tick (√) icon.
+
+**Change the name of a department**
+
+1. On the **Department** tab, move the pointer over the name of the department that you want
+
+   to manage, click the <img src="assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="5" alt=""> icon, and then select **Rename**.
+
+2. Enter a new name for the department and then click the tick (√) icon.
+
+**Search for a department**
+
+On the **Department** tab, enter the keyword of a department name and press the Enter key or
+
+click the
+
+icon to search for the department.
+
+**Delete a department**
+
+On the **Department** tab, move the pointer over the name of the department that you want to
+
+manage, click the <img src="assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="5" alt=""> icon, and then select **Delete Department**.
+
+**Change the level of a department**
+
+By default, you cannot change the level of the root department. You can drag sub departments to a node to change the levels of the sub departments.
+
+On the **Department** tab, drag the sub department that you want to manage and to a destination department.
+
+<a id="section-5-2-1-2"></a>
+
+#### 5.2.1.2. Create users
+
+This topic describes how to create one or more users.
+
+**Go to the User Management page**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > User Management**.
+
+4. On the left side of the User Management page, click the **Department** tab. Then, create one or more users.
+
+**Create a single user**
+
+1. In the **User** section on the right side of the page, click **Create**.
+
+2. In the **Create User** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+   <table>
+     <tr>
+       <th>Parameter</th>
+       <th>Description</th>
+     </tr>
+     <tr>
+       <td>Username</td>
+       <td>The custom username that is used to identify the user. The username must be unique and can be up to 50 characters in length.</td>
+     </tr>
+     <tr>
+       <td>Name</td>
+       <td>The name of the user. The name can be up to 50 characters in length.</td>
+     </tr>
+     <tr>
+       <td>Platform Role</td>
+       <td>The role of the user. Different roles have different permissions.<br>The system provides the following roles: super administrator, system administrator, security administrator, security auditor, and regular user.If the roles do not meet your requirements, you can choose <strong>Configuration &gt; Role Configuration</strong> in the left-side navigation pane.On the <strong>Role Configuration</strong> page, create custom roles.</td>
+     </tr>
+     <tr>
+       <td>Department</td>
+       <td>The department to which the user belongs.</td>
+     </tr>
+     <tr>
+       <td>Authentication Source</td>
+       <td>The authentication mode that is used when the user logs on to Bastionhost. If you configure multiple authentication modes and the user passes the verification in one of the authentication modes, the user is allowed to log on to Bastionhost.<br>• Local Authentication: The user is verified by using the password.<br>• AD: The user is verified by using a remote Active Directory (AD) server. You can create multiple AD server instances.<br>• LDAP: The user is verified by using a remote Lightweight Directory Access Protocol (LDAP) server.<br>• RADIUS: The user is verified by using a remote Remote Authentication Dial-In User Service (RADIUS) server.<br>• CAS: The user is verified by using a Central Authentication Service (CAS) server.<br>• SAML: The user is verified by using a Security Assertion Markup Language (SAML) server.<br>• JWT: The user is verified by using a JSON Web Token (JWT) server.<br>• DING_TALK: The user is verified by using DingTalk.<br>• WECHAT_WORK: The user is verified by using WeCom.<br>You must enable and configure each authentication server on the <strong>Authentication Source</strong> tab of the <strong>Configuration &gt; User</strong> <strong>Configuration</strong> page.</td>
+     </tr>
+     <tr>
+       <td>Local Password</td>
+       <td>If you set the Authentication Source parameter to <strong>Local</strong> <strong>Authentication</strong>, you must configure a logon password for the user.You can click <strong>Automatic Generation</strong> to obtain a random password.You can also enter a password in the field based on the password complexity requirements.</td>
+     </tr>
+     <tr>
+       <td>You must change the password upon next logon</td>
+       <td>If you set the Authentication Source parameter to <strong>Local</strong> <strong>Authentication</strong> and select this option, the user must change the password the first time the user logs on to Bastionhost from a browser.</td>
+     </tr>
+     <tr>
+       <td>The password is sent to the specified email address or mobile phone number</td>
+       <td>If you set the Authentication Source parameter to <strong>Local</strong> <strong>Authentication</strong> and select this option, the system sends the password to the email address or mobile phone number of the user.<br>• If you want the system to send the password to the email address of the user, make sure that email server settings are complete and the email address is specified for the user.<br>• If you want the system to send the password to the mobile phone number of the user, make sure that the settings of a text message gateway are complete and the mobile phone number is specified for the user.</td>
+     </tr>
+     <tr>
+       <td>Synchronization Source</td>
+       <td>The synchronization source of the user, which is used to synchronize the user on the remote AD or LDAP server to Bastionhost.<br>You must enable and configure an AD server or LDAP server on the <strong>Authentication Source</strong> tab of the <strong>Configuration &gt; User</strong> <strong>Configuration</strong> page.</td>
+     </tr>
+     <tr>
+       <td>Security Configuration</td>
+       <td>• <strong>Status</strong>:<br>• <strong>Enable</strong>: The user is allowed to log on to Bastionhost.<br>• <strong>Disable</strong>: The user is not allowed to log on to Bastionhost.<br>• <strong>Multi-factor Authentication</strong>:<br>• <strong>Follow System</strong>: The multi-factor authentication (MFA) configuration of the system is used.<br>• <strong>Custom</strong>: The selected MFA modes are used. If you configure multiple MFA modes and the user passes the verification in one of the modes, the user is allowed to log on to Bastionhost.<br>• <strong>Validity Period</strong>: Configure the validity period during which the user can log on to Bastionhost. The user cannot log on to Bastionhost outside the validity period.</td>
+     </tr>
+     <tr>
+       <td>User Group</td>
+       <td>The user group to which the user belongs.</td>
+     </tr>
+     <tr>
+       <td>Email Address</td>
+       <td rowspan="2">The email address of the user, which is used to receive system notifications and verification codes. If the user forgets the password, the user can reset the password by using the email address. We recommend that you specify at least an email address or a mobile phone number.</td>
+     </tr>
+     <tr>
+       <td>Mobile Phone Number</td>
+     </tr>
+     <tr>
+       <td>Remark</td>
+       <td>The remarks about the user.</td>
+     </tr>
+     <tr>
+       <td>Custom Attribute</td>
+       <td>The custom attributes of the user. This section is available only if you configure custom attributes on the Custom Attribute tab of the <strong>Configuration &gt; User Configuration</strong> page.</td>
+     </tr>
+   </table>
+
+**Import multiple users at a time**
+
+1. In the **User** section on the right side of the page, choose **Create > Import User**.
+
+2. In the **Import** dialog box, click **Download Template File**.
+
+3. Complete the template file as described in the file, and click **Select File** to upload the template file.
+
+4. Configure the parameters and click **Import**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Update User with Same Name | • If you select this option, imported users overwrite existing users with the same username.<br>• If you clear this option, users with the same usernames as existing users are not imported. |
+   | After the import, the password is automatically sent to the specified email address or mobile phone number. | If you select this option, after a user is imported, the password is automatically sent to the email address or mobile phone number of the user.<br>• If you want the system to send the password to the email address of the user, make sure that email server settings are complete and the email address is specified for the user.<br>• If you want the system to send the password to the mobile phone number of the user, make sure that the settings of a text message gateway are complete and the mobile phone number is specified for the user. |
+
+**Synchronize users from a remote server**
+
+You can synchronize users from an AD or LDAP server to Bastionhost.
+
+In the left-side navigation pane, choose **Configuration > User Configuration**. On the **Authentication Source** tab, add an AD server or LDAP server and select **Synchronous Creation** next to **Create User** to synchronize users that are created on the server to Bastionhost.
+
+**What to do next**
+
+- Modify one or more users:
+
+  - To modify a single user, click the **Department** tab on the left side of the page. In the **User** section, find the user that you want to manage and click **Edit** in the **Actions** column. In the Modify User panel, modify the user information and click **Confirm**.
+
+  - To modify multiple users at a time, click the **Department** tab on the left side of the page. In the **User** section, select the users that you want to manage and click **Edit** above the user list. In the Batch Modify Users panel, modify the user information and click **Confirm**.
+
+- Disable or enable a user: After you disable a user, the user cannot log on to Bastionhost from a browser. If a user is disabled, you must manually enable the user before the user can log on to Bastionhost from a browser.
+
+  Click the **Department** tab on the left side of the page. In the **User** section, select the user that you want to manage and click **Disable** or **Enable** above the user list. In the message that appears, click Confirm.
+
+- Unlock a user: If a user is locked due to multiple logon failures or inactive status for an extended period of time, you must manually unlock the user before the user can log on to Bastionhost.
+
+  Click the **Department** tab on the left side of the page. In the **User** section, select the user that you want to manage and click **Unlock** above the user list. In the message that appears, click Confirm.
+
+- Delete a user: Click the **Department** tab on the left side of the page. In the **User** section, select the user that you want to manage and click **Delete** above the user list. In the message that appears, click Confirm.
+
+<a id="section-5-2-1-3"></a>
+
+#### 5.2.1.3. Search for users
+
+This topic describes how to search for users in the current department or user group.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > User Management**.
+
+4. In the User section of the **Department** or **User Group** tab, click **Open**, enter the search conditions, and then click **Search**.
+
+   - Click **Reset** to clear the search conditions.
+
+   - Click **Save** to save the current search conditions as saved search conditions. You can use the saved search conditions to search for users in an efficient manner.
+
+<a id="section-5-2-1-4"></a>
+
+#### 5.2.1.4. Export users
+
+This topic describes how to export user information to your computer.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > User Management**.
+
+4. In the User section of the **Department** or **User Group** tab, click the <img src="assets/1673cc9fffc16d0d5b1576815fc751db.png" width="12" alt=""> icon.
+
+5. In the **Export** dialog box, configure the Export Range and Encryption Password parameters and click **Export**.
+
+   - All: exports all user information.
+
+   - Selected: exports information about the selected users. You must select the assets before you click Export.
+
+   - The encryption password is used to encrypt the ZIP file when you export the file. This ensures the security of the file. We recommend that you specify an encryption password.
+
+<a id="section-5-2-1-5"></a>
+
+#### 5.2.1.5. Create and manage a user group
+
+This topic describes how to create and manage a user group.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > User Management**.
+
+4. On the **User Group** tab, manage a user group.
+
+**Create a user group**
+
+1. On the **User Group** tab, click the <img src="assets/3c751aa099567fad107faf01ab37c63e.png" width="13" alt=""> icon.
+
+2. In the **Create User Group** panel, configure the Name and Department parameters and click **Confirm**.
+
+**Modify a user group**
+
+1. On the **User Group** tab, move the pointer over the user group that you want to manage,
+
+   click the <img src="assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="5" alt=""> icon, and then select **Edit**.
+
+2. In the **Modify User Group** panel, enter a new name for the user group and click **Confirm**.
+
+**Search for a user group**
+
+On the **User Group** tab, enter the keyword of a user group name, and then press the Enter
+
+key or click the <img src="assets/f85d93344847bfaa1f8784905bd3adcd.png" width="11" alt=""> icon to search for the user group.
+
+**Delete a user group**
+
+On the **User Group** tab, move the pointer over the user group that you want to manage, click
+
+the <img src="assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="5" alt=""> icon, and then select **Delete**.
+
+**Add a user to a user group (method 1)**
+
+1. On the **User Group** tab, select the user that you want to manage and click **Join Group** in the **User** section.
+
+2. In the **Join User Group** panel, select the user group to which you want to add the user and click **Confirm**.
+
+**Add a user to a user group (method 2)**
+
+1. On the **User Group** tab, select the user group that you want to manage and click **Add User Group Member** in the **User** section.
+
+2. In the **Select User** panel, select a user and click **Confirm**.
+
+**Remove a user from a user group**
+
+On the **User Group** tab, select a user and click **Remove from Group** in the **User** section.
+
+<a id="section-5-2-1-6"></a>
+
+#### 5.2.1.6. Configure fields of the user list
+
+Bastionhost allows you to flexibly configure the fields that are displayed in the user list.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > User Management**.
+
+4. Click the **Department** or **User Group** tab on the left side of the page. In the User section,
+
+   click the <img src="assets/b0971b1167821eea8e2232bcff810ade.png" width="10" alt=""> icon. Select the fields that you want to display and click **Confirm**.
+
+<a id="section-5-2-2"></a>
+
+### 5.2.2. Manage OTP tokens
+
+<a id="section-5-2-2-1"></a>
+
+#### 5.2.2.1. Import a token file
+
+This topic describes how to import a token file.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > OTP Management**.
+
+4. Click **Import Token** to select and upload a token file from your computer.
+
+**What to do next**
+
+After you import a token file, you can perform the following operations:
+
+- Disable a token: Select the token that you want to manage and click **Disable** above the token list.
+
+- Enable a token: Select the token that you want to manage and click **Enable** above the token list.
+
+- Report the loss of a token: Select the token that you want to manage and click **Mark as Lost** above the token list.
+
+- Unbind a token: Select the token that you want to manage and click **Unbind** above the token list.
+
+- Delete a token: Select the token that you want to manage and click **Delete** above the token list.
+
+<a id="section-5-2-2-2"></a>
+
+#### 5.2.2.2. Search for a token
+
+This topic describes how to search for a token that meets the search conditions.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > OTP Management**.
+
+4. Enter or select a search condition in a search field and click **Search**.
+
+<a id="section-5-2-2-3"></a>
+
+#### 5.2.2.3. Bind a token to a user
+
+After you create a token, you must authorize the token file to the user.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > OTP Management**.
+
+4. Find the token that you want to manage and click **Bind User** in the **Actions** column.
+
+5. In the **Select User** panel, select a user and click **Confirm**.
+
+<a id="section-5-2-2-4"></a>
+
+#### 5.2.2.4. Synchronize a token
+
+If a time difference exists between Bastionhost and your one-time password (OTP) device and you cannot obtain a password in real time, you can synchronize a token.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > OTP Management**.
+
+4. Find the token that you want to manage and click **Synchronize Token** in the **Actions** column.
+
+5. In the **Synchronize Token** dialog box, enter the current and next tokens obtained from the OTP device and click **Confirm**.
+
+<a id="section-5-2-3"></a>
+
+### 5.2.3. Third-party OTP token management
+
+<a id="section-5-2-3-1"></a>
+
+#### 5.2.3.1. Import a token
+
+This topic describes how to import a third-party One-Time Password (OTP) token.
+
+**Prerequisites**
+
+The **third-party OTP SERVER** is configured in the **Detailed Configuration** section of the **Management Console > Configuration > User Configuration > Multi-factor Authentication** tab.
+
+**Import a token**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > Third OTP Token Management**.
+
+4. In the upper-left corner of the page, click **Import Token**.
+
+5. In the **Import Token** panel, select the serial number of the token to be imported and click **Confirm**.
+
+6. Return to the token list to view the token you imported.
+
+<a id="section-5-2-3-2"></a>
+
+#### 5.2.3.2. Bind a token to a user
+
+After a token is imported, you need to bind it to a user. After the binding is complete, the user can use the token to log in. This topic describes how to bind a token to a user.
+
+**Prerequisites**
+
+The third-party OTP SERVER is set to JN TASS. For more information, see **Configure MFA** in **Management console > Configuration > User configuration** of this user guide.
+
+**Bind a token to a user**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > Third OTP Token Management**.
+
+4. Find the token that you want to manage and click **Bind User** in the **Actions** column.
+
+5. On the **Select User** tab, select the user to which you want to bind the token and click **OK**.
+
+   After the binding is complete, the value of **Binding Status** is **Bound**.
+
+<a id="section-5-2-3-3"></a>
+
+#### 5.2.3.3. Unbind a token
+
+This topic describes how to unbind a token from a user. After the token is unbound, the user can no longer use the token to log in.
+
+**Unbind a token**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > Third OTP Token Management**.
+
+4. In the token list, select the token that you want to unbind and click **Unbind** above the list.
+
+5. In the **Unbind** dialog box, confirm the settings and click **OK**.
+
+<a id="section-5-2-3-4"></a>
+
+#### 5.2.3.4. Report the loss of a token
+
+This topic describes how to report the loss of a token. After a token is reported as lost, it cannot be used until the administrator re-enables it.
+
+**Report the loss of a token**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > Third OTP Token Management**.
+
+4. In the token list, select the token that you want to report as lost and click **Report Loss** above the list.
+
+5. In the message that appears, confirm the information and click **OK**.
+
+<a id="section-5-2-3-5"></a>
+
+#### 5.2.3.5. Disable/Enable a token
+
+This topic describes how to enable or disable a token.
+
+**Enable or disable a token**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > Third OTP Token Management**.
+
+4. In the token list, select a token that you want to manage and click **Enable** or **Disable** above the list.
+
+5. In the **Enable** or **Disable** message, confirm the settings and click **OK**.
+
+<a id="section-5-2-3-6"></a>
+
+#### 5.2.3.6. Delete a token
+
+This topic describes how to delete a token.
+
+**Delete a token**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **User > Third OTP Token Management**.
+
+4. In the token list, select the token that you want to delete and click **Delete** above the list.
+
+5. In the **Delete** message, confirm the settings and click **OK**.
+
+<a id="section-5-3"></a>
+
+## 5.3. Assets
+
+<a id="section-5-3-1"></a>
+
+### 5.3.1. Manage assets
+
+You can use nodes to implement hierarchical asset management.
+
+**Create a node**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Asset > Asset Management**.
+
+4. In the **Node** section, move the pointer over the name of the node that you want to manage,
+
+   click the <img src="assets/e9b9d9fb3b8c3a469ce645697194037e.png" width="5" alt=""> icon, and then select **Create Child Node**.
+
+5. Enter a name for the child node in the field that appears and click the <img src="assets/238c52c926909311d631df534bbd2b67.png" width="16" alt=""> icon on the right
+
+   to create the child node.
+
+   - To change the level of a node, move the pointer over the node and drag the node to the destination node.
+
+   - To change the name of a node, move the pointer over the node name, click the <img src="assets/e9b9d9fb3b8c3a469ce645697194037e.png" width="5" alt=""> icon,
+
+     and then select **Rename**. Then, you can enter a new name.
+
+   - To delete a node, move the pointer over the node name, click the <img src="assets/e9b9d9fb3b8c3a469ce645697194037e.png" width="5" alt=""> icon, and then select
+
+     **Delete Node**. In the Delete Node message, click Confirm.
+
+**Create one or more assets**
+
+**Create a single asset**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Asset > Asset Management**.
+
+4. In the **Assets** section, click **Create**. In the **Create Asset** panel, select an asset template and click **Next**.
+
+5. In the **Asset Information** step, configure the parameters and click **Next**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Asset Type | The type of the asset. Valid values: Regular Asset, Domain Control, and Domain Member. |
+   | Asset Name | The name of the asset, which is used only for identification. The name can be up to 30 characters in length. |
+   | IP or Domain | The IP address of the asset. You can configure an IPv4 address, an IPv6 address, or a domain name. |
+   | Network | The network to which the asset belongs. Default value: default. |
+   | Node | The node to which the asset belongs. |
+   | Remark | The remarks of the asset. |
+   | Custom Attribute | The custom attributes of the asset. You can create custom attributes. |
+
+6. Configure an account and click **Confirm**.
+
+   To create an account, click **Add**. In the **Add Asset Account** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Account Type | The type of the account. Valid values: Local Account and Domain Account.<br>Domain Account is available only if you select Domain Control for the Asset Type parameter in the Asset Information step. Only Local Account is available for other asset types. |
+   | Account Name | The name of the account. The name can be up to 64 characters in length. |
+   | Privileged Account | If you select this check box, the account is identified as a privileged account and can be used in the following scenarios:<br>• You can use the privileged account to change the password of a regular account. If the account uses the SSH protocol, the password of the account can be automatically changed. If the password fails to be automatically changed, you can use the privileged account to change the password. If the account uses the RDP protocol, you must use the privileged account to change the password of the account.<br>• If you create an account whose protocol is SSH or RDP for an asset on Bastionhost, Bastionhost uses the privileged account to create the same account on the asset. If you delete the account of an asset from Bastionhost, Bastionhost uses the privileged account to log on to the asset to delete the account.<br>• You can use the privileged account to log on to the asset and identify other accounts of the asset.<br>• You can use the privileged account to obtain the information about other accounts of the asset. |
+   | Password | The password of the account. |
+   | Apply to Service | The protocol that the account uses. You can select multiple protocols. |
+   | SSH Key | If you set Apply to Service to SSH, you can select an SSH key for the account. Make sure that an SSH key is created in advance. |
+   | Connected To | If you set Apply to Service to ORACLE, you must select a connection property. |
+   | Automatic Password Change | • If you select <strong>Yes</strong>, automatic password change is enabled for the account.<br>• If you select <strong>No</strong>, automatic password change is disabled for the account. |
+   | Password Change Script | The custom password change script for the account. |
+   | Switch From | If you set Apply to Service to SSH or TELNET, you must select a connection property. |
+   | Custom Attribute | The custom attributes of the account. |
+
+**Import multiple assets and asset accounts at a time**
+
+You can import multiple assets and asset accounts at a time.
+
+1. In the **Asset** section, choose **Create > Import Asset**.
+
+2. In the **Import** dialog box, click **Download Template File**.
+
+3. Follow the instructions in the file to complete the template file. Then, click **Select File** to upload the template file.
+
+4. Configure the parameters based on your business requirements and click **Import**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Overwrite Host with Same Name | • If you select this check box and the name and IP address of an imported asset are the same as the name and IP address of an existing asset on Bastionhost, the imported asset overwrites the existing asset.<br>• If you do not select this check box and the name and IP address of an imported asset are the same as the name and IP address of an existing asset on Bastionhost, the asset is not imported. |
+   | Immediately Change Password After Import | If you select this option, the password of the imported account is immediately changed. |
+
+**Import an asset source**
+
+1. In the **Asset** section, choose **Create > Import Asset Source**.
+
+2. On the **Create Asset Source** page of the **Asset Discovery** page, create an asset source and import assets.
+
+**Modify the information about one or more assets**
+
+**Modify the information about an asset**
+
+- Modify the configurations of an asset
+
+  <ol type="i">
+
+  <li>
+
+  In the **Asset** section, find the asset that you want to manage and click **Edit** in the **Actions** column.
+
+  </li>
+
+  <li>
+
+  On the **Configure** tab, modify the parameters in the Basic Information and Advanced
+
+  </li>
+
+  </ol>
+
+  Configuration sections, and click **Save**. The following table describes the parameters.
+
+  | Parameter | Description |
+  | --- | --- |
+  | Asset Type | The type of the asset. Valid values: Regular Asset, Domain Control, and Domain Member. |
+  | Asset Name | The name of the asset. |
+  | IP or Domain | The IP address of the asset. You can configure an IPv4 address, an IPv6 address, or a domain name. |
+  | Network | The network to which the asset belongs. |
+  | Node | The node to which the asset belongs. |
+  | Remark | The remarks of the asset. |
+  | Custom Attribute | The custom attributes of the account. |
+  | System Code | The system code. |
+  | Account Switch Command | The switch command for secondary logon of the account. You can configure this parameter for accounts that use the SSH and Telnet protocols.<br>After you use the associated account to log on to an asset, Bastionhost automatically runs this command to log on to the asset by using the account. |
+
+- Modify protocols of an asset
+
+  <ol type="i">
+
+  <li>
+
+  In the **Asset** section, find the asset that you want to manage and click **Edit** in the **Actions** column.
+
+  </li>
+
+  <li>
+
+  On the **Service** tab, modify the port number and parameters of each protocol, enable or
+
+  </li>
+
+  </ol>
+
+  disable a protocol, and then click **Save**. The following table describes the parameters.
+
+  | Protocol | Parameter | Description |
+  | --- | --- | --- |
+  | SSH | Port number | Default value: 22. |
+  | SFTP | Port number | Default value: 22. |
+  | RDP | Port number | Default value: 3389. |
+  | TELNET | Port number | Default value: 23. |
+  | RLOGIN | Port number | Default value: 513. |
+  | VNC | Port number | Default value: 5900. |
+  | FTP | Port number | Default value: 21. |
+  | ORACLE | Port number | Default value: 1521. |
+  | KINGBASE | Port number | Default value: 54321. |
+  | DM | Port number | Default value: 5236. |
+  | PostgreSQL | Port number | Default value: 5432. |
+  | DB2 | Port number | Default value: 5000. |
+  | SQLServer | Port number | Default value: 1433. |
+  | MySQL | Port number | Default value: 3306. |
+  | HTTP/HTTPS | URL | By default, the value of the parameter is empty. |
+  | X11 | Port number | Default value: 22. |
+  | Custom TCP | Port number | Default value: 0. |
+
+- Modify the information about an asset account
+
+  <ol type="i">
+
+  <li>
+
+  In the **Asset** section, find the asset that you want to manage and click **Edit** in the **Actions** column.
+
+  </li>
+
+  <li>
+
+  On the **Account** tab, create, delete, or change an asset account.
+
+  </li>
+
+  </ol>
+
+  Click **Create**. In the **Add Asset Account** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+  | Parameter | Description |
+  | --- | --- |
+  | Account Type | The type of the account. Valid values: Local Account and Domain Account.<br>Domain Account is available only if you select Domain Control for the Asset Type parameter in the Asset Information step. Only Local Account is available for other asset types. |
+  | Account Name | The name of the account. The name can be up to 64 characters in length. |
+  | Privileged Account | If you select this check box, the account is identified as a privileged account and can be used in the following scenarios:<br>• You can use the privileged account to change the password of a regular account. If the account uses the SSH protocol, the password of the account can be automatically changed. If the password fails to be automatically changed, you can use the privileged account to change the password. If the account uses the RDP protocol, you must use the privileged account to change the password of the account.<br>• If you create an account whose protocol is SSH or RDP for an asset on Bastionhost, Bastionhost uses the privileged account to create the same account on the asset. If you delete the account of an asset from Bastionhost, Bastionhost uses the privileged account to log on to the asset to delete the account.<br>• You can use the privileged account to log on to the asset and identify other accounts of the asset.<br>• You can use the privileged account to obtain the information about other accounts of the asset. |
+  | Password | The password of the account. |
+  | Apply to Service | The protocol that the account uses. You can select multiple protocols. |
+  | SSH Key | If you set Apply to Service to SSH, you can select an SSH key for the account. Make sure that an SSH key is created in advance. |
+  | Connected To | If you set Apply to Service to ORACLE, you must select a connection property. |
+  | Automatic Password Change | • If you select <strong>Yes</strong>, automatic password change is enabled for the account.<br>• If you select <strong>No</strong>, automatic password change is disabled for the account. |
+  | Password Change Script | The custom password change script for the account. |
+  | Switch From | If you set Apply to Service to SSH or TELNET, you must select a connection property. |
+  | Custom Attribute | The custom attributes of the account. |
+  | Account Password Verification | If the account already exists for the asset, click <strong>Account Password</strong> <strong>Verification</strong> to check whether the password is valid. |
+
+**Modify the information about multiple assets at a time**
+
+1. In the **Asset** section, select the asset that you want to manage and click **Edit** above the asset list.
+
+2. In the **Batch Edit Asset** panel<strong>,</strong> modify the asset information and click **Confirm**. The following table describes the asset information.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Network | The network to which the asset belongs. Default value: default. |
+   | Node | The node to which the asset belongs. |
+   | System Code | The system code. |
+   | Account Switch Command | The switch command for secondary logon of the account. You can configure this parameter for accounts that use the SSH and Telnet protocols.<br>After you use the associated account to log on to an asset, Bastionhost automatically runs this command to log on to the asset by using the account. |
+   | Remark | The remarks of the asset. |
+   | Custom Attribute | The custom attributes of the account. |
+
+**Export domain names**
+
+1. In the **Asset** section, click the <img src="assets/cb50fda682b0a55d21cde0f624e96f1b.png" width="12" alt=""> icon.
+
+2. In the **Export** dialog box, configure the Export Range and Encryption Password parameters and click **Export** to export the asset information to your computer.
+
+   The encryption password is used to decrypt the ZIP file. This ensures the security of the file. We recommend that you specify an encryption password.
+
+   - All: exports all asset information.
+
+   - Selected: exports the information about the selected assets. Select the assets before you click Export
+
+<a id="section-5-3-2"></a>
+
+### 5.3.2. Manage asset diagnostics tasks
+
+This topic describes how to create an asset diagnostics task and how to manage it.
+
+**Create an asset diagnostics task**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Assets > Asset Diagnosis**.
+
+4. Click the <img src="assets/ad7faf0b8d0ebca0a0906cb37ee52d92.png" width="14" alt=""> icon. In the **Create Asset Health Check Task** panel, configure the basic task
+
+   information and click **Next**.
+
+5. Select check items and click **Next**.
+
+6. Select the asset scope for diagnostics and click **Confirm**.
+
+**What to do next**
+
+- Modify the asset diagnostics task: Move the pointer over the task and click **Edit**.
+
+- Delete the asset diagnostics task: Move the pointer over the task and click **Delete**.
+
+- Execute the asset diagnostics task: Move the pointer over the task and click **Immediately Execute**.
+
+- View or modify the default configurations of asset diagnostics tasks: Click the <img src="assets/b4720ba27339a05f26c712b5c11e027a.png" width="12" alt=""> icon. In the
+
+  **Asset Health Check Task Default Configuration** panel, view or modify the default configurations of asset diagnostics tasks.
+
+<a id="section-5-3-3"></a>
+
+### 5.3.3. Discover assets
+
+You can synchronize remote assets to Bastionhost to manage the assets in a centralized manner. Bastionhost allows you to discover and synchronize assets in LANs.
+
+**Create an asset source**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Assets > Asset Discovery**.
+
+4. Click the <img src="assets/8f8014ee54f42c7eb5740905625fdbae.png" width="16" alt=""> icon. In the **Create Asset Source** panel, configure the parameters and click
+
+   **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Name | Enter the name of the asset source. |
+   | Type | Set the value to LAN, which specifies that the asset source scans assets within the destination CIDR block. |
+   | Automatic Synchronization | After you turn on this switch, the asset source periodically synchronizes remote assets based on the specified synchronization interval. |
+   | Network | Select the network to which the synchronized assets belong. If no networks are available, click Create to go to the Network Management page to create a LAN. |
+   | Destination CIDR Block | Configure the destination CIDR block within which the asset source scans assets. The mask of the CIDR block must be greater than or equal to 24 bits. |
+   | Synchronize To | Select the node to which the synchronized assets belong in the current project. |
+   | Synchronous Creation | If you select this option, the synchronized assets are automatically managed by Bastionhost. If you do not select this option, you must manually manage the assets. |
+   | Synchronous Deletion | If you select this option, the assets that belong to the network of the asset source in the project are automatically deleted if the assets are not detected. Proceed with caution. |
+
+**Synchronize assets**
+
+If the automatic synchronization feature is enabled for an asset source, Bastionhost periodically synchronizes remote assets based on the specified synchronization interval. You can also manually synchronize the assets.
+
+In the **Asset Source** section, select an asset source and click **Synchronize**.
+
+**View the information about the automatically synchronized assets**
+
+If you select Synchronous Creation for an asset source, you can view information about the most recent assets that are automatically synchronized.
+
+In the **Asset Source** section, select an asset source. In the **Latest Automatic Synchronization Status** section, you can view the information about the most recent assets that are automatically synchronized. You can also click **Recently Added** to view the assets that are created for this synchronization.
+
+**Manage an asset**
+
+If you do not select Synchronous Creation for an asset source, you can manually manage the assets.
+
+In the **Asset Source** section, select an asset source and click **Unmanaged**. The unmanaged assets list is displayed. Select an asset and click **Manage**.
+
+**Ignore an asset**
+
+If you do not want to manage a synchronized asset and you want the asset to be removed from the unmanaged asset list, you can use the ignore feature.
+
+In the **Asset Source** section, select an asset source and click **Unmanaged**. The unmanaged assets list is displayed. Select the asset and click **Ignore** to ignore the asset.
+
+<a id="section-5-3-4"></a>
+
+### 5.3.4. Manage tags
+
+This topic describes how to create and manage a tag.
+
+**Create a tag**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Assets > Asset Management**.
+
+4. Click **Create**. In the **Create new tag** panel, enter a tag name, select the object to be bound to the tag, and then click **Confirm**. You can select assets or asset accounts as the object.
+
+**Add a tag to assets**
+
+**Add a tag to an asset**
+
+1. In the left-side navigation pane, choose **Assets** > **Asset Management**.
+
+2. Find the asset that you want to manage and click **Edit** in the **Actions** column.
+
+3. In the **Basic Information** section, select a tag and click **Save**.
+
+**Add a tag to multiple assets**
+
+1. In the left-side navigation pane, choose **Assets** > **Asset Management**.
+
+2. Select the assets that you want to manage and choose **More > Bind tag** above the asset list.
+
+3. In the Select Tag panel, select the tag that you want to add to the assets and click **Confirm**.
+
+**Add a tag to accounts**
+
+**Add a tag to an account**
+
+1. In the left-side navigation pane, choose **Account > Account Management**.
+
+2. Find the account that you want to manage and click **Edit** in the **Actions** column.
+
+3. In the **Basic Information** section, select a tag and click **Save**.
+
+**Add a tag to multiple accounts**
+
+1. In the left-side navigation pane, choose **Account > Account Management**.
+
+2. Select the accounts that you want to manage and choose **More > Bind tag** above the account list.
+
+3. In the Select Tag panel, select the tag that you want to add to the accounts and click **Confirm**.
+
+**What to do next**
+
+- To modify a tag, click **Edit** in the **Actions** column of the tag.
+
+- To delete a tag, select the tag and click **Delete** above the tag list.
+
+<a id="section-5-3-5"></a>
+
+### 5.3.5. Configure a remote client
+
+If the client tools or protocols, such as HTTPS, are not supported by Bastionhost and you want to use Bastionhost to perform O&M and audit operations, you can use a remote client to specify an application server.
+
+**Create a remote client**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Asset > Remote Client**.
+
+4. On the **Remote Client** tab, click **Create**.
+
+5. In the **Create Remote Client** panel, configure the parameters and click **Confirm**.
+
+   - To modify a remote client, find the remote client that you want to manage on the **Remote Client** tab, and click **Edit** in the **Actions** column.
+
+   - To delete a remote client, find the remote client that you want to manage on the **Remote Client** tab, and click **Delete**.
+
+**Create an application server**
+
+You must enable RDP for the asset that is used as application server.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Asset > Remote Client**.
+
+4. On the **Application Server** tab, click **Create**.
+
+5. In the **Create Application Server** panel, select the type of the application server, select an asset, and then click **Create Application Server**.
+
+   <ol type="i">
+
+   <li>
+
+   To modify an application server, find the application server that you want to manage on the **Application Server** tab, and click **Edit** in the **Actions** column.
+
+   </li>
+
+   <li>
+
+   To delete an application server, find the application server that you want to manage on
+
+   </li>
+
+   </ol>
+
+   the **Application Server** tab, and click **Delete** in the **Actions** column.
+
+**Deploy an application server**
+
+1. On the **Application Server** tab, find the application server that you want to manage and click **Deploy** in the **Actions** column.
+
+2. Click **Generate Command**, follow the instructions to complete the configurations, and then click **Confirm**.
+
+**Synchronize an account on an application server**
+
+1. On the **Application Server** tab, find the application server that you want to manage and click **Synchronize Account** in the **Actions** column.
+
+2. In the **Synchronize Account** panel, click **Synchronize** to automatically create an account for Bastionhost users on the application server.
+
+<a id="section-5-4"></a>
+
+## 5.4. Accounts
+
+<a id="section-5-4-1"></a>
+
+### 5.4.1. Manage accounts
+
+<a id="section-5-4-1-1"></a>
+
+#### 5.4.1.1. Create a local account
+
+This topic describes how to create a local account.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Account Management**.
+
+4. Click **Create**. In the **Create Account** panel, select the asset that you want to manage and click **Next**.
+
+5. Configure the parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Account Type | The type of the account. Valid values: Local Account and Domain Account. Domain Account is available only if you select Domain Control for the Asset Type parameter in the Asset Information step. Only Local Account is available for other asset types. |
+   | Account Name | The name of the account. The maximum length is 64 characters. |
+   | Privileged Account | If you select this check box, the account is identified as a privileged account and can be used in the following scenarios:<br>• You can use the privileged account to change the password of a regular account. If the account uses the SSH protocol, the password of the account can be automatically changed. If the password fails to be automatically changed, you can use the privileged account to change the password. If the account uses the RDP protocol, you must use the privileged account to change the password of the account.<br>• If you create an account whose protocol is SSH or RDP for an asset on Bastionhost, Bastionhost uses the privileged account to create the same account on the asset. If you delete the account of an asset from Bastionhost, Bastionhost uses the privileged account to log on to the asset to delete the account.<br>• You can use the privileged account to log on to the asset and identify other accounts of the asset.<br>• You can use the privileged account to obtain the information about other accounts of the asset. |
+   | Password | The password of the account. |
+   | Apply to Service | The protocol that the account uses. You can select multiple protocols. |
+   | SSH Key | If you set Apply to Service to SSH, you can select an SSH key for the account. |
+   | Connected To | If you set Apply to Service to ORACLE, you must select a connection property. |
+   | Automatic Password Change | • If you select <strong>Yes</strong>, automatic password change is enabled for the account.<br>• If you select <strong>No</strong>, automatic password change is disabled for the account. |
+   | Password Change Script | The custom password change script for the account. |
+   | Custom Attribute | The custom attributes of the account. |
+
+**What to do next**
+
+- To modify the information about an account, find the account and click **Edit** in the **Actions** column. Then, click **Save**.
+
+- To delete multiple accounts, select the accounts and click **Delete** above the account list.
+
+<a id="section-5-4-1-2"></a>
+
+#### 5.4.1.2. Create or delete a remote account
+
+You can manage accounts of remote assets on Bastionhost.
+
+**Create a remote account**
+
+If you create an account for an asset on Bastionhost, the same account can be created on the asset.
+
+- You can create accounts for assets that support the following protocols: SSH, RDP, MySQL, Oracle, and SQL Server.
+
+- Make sure that you create a privileged account on Bastionhost whose protocol is the same as the protocol of the asset.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Account Management**.
+
+4. Select a local account and choose **More > Create Remote Account**.
+
+5. In the message that appears, click **Confirm**.
+
+**Delete a remote account**
+
+You can delete a remote account by using Bastionhost.
+
+- You can create accounts for assets that support the following protocols: SSH, RDP, MySQL, Oracle, and SQL Server.
+
+- Make sure that you create a privileged account on Bastionhost whose protocol is the same as the protocol of the asset.
+
+- Only the remote account is deleted. The local account on Bastionhost is not deleted.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Account Management**.
+
+4. Select a local account and choose **More > Delete Remote Account**.
+
+5. In the message that appears, click **Confirm**.
+
+<a id="section-5-4-1-3"></a>
+
+#### 5.4.1.3. View asset accounts by category
+
+This topic describes how to view asset accounts by category.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Account Management**.
+
+4. In the left-side section of the Account Management page, click the category that you want to manage to view the account list or protocol list and the number of accounts.
+
+   Click an account or a protocol to view the account information.
+
+<a id="section-5-4-1-4"></a>
+
+#### 5.4.1.4. View account logs
+
+This topic describes how to view account logs.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Account Management**.
+
+4. Find the account that you want to manage and click **Edit** in the **Actions** column.
+
+5. On the **Logs** tab, view the operation logs of the account.
+
+   Find an operation log and click **Details** to view the details of the log.
+
+<a id="section-5-4-2"></a>
+
+### 5.4.2. Diagnose accounts
+
+Bastionhost supports regular and manual check of account status. Bastionhost can detect abnormal asset accounts and provides handling measures. Accounts of different protocols support different check items. For more information, see the following table. A tick (√) indicates that the check item is supported, a vertical bar (l).indicates that the check item is supported when a privileged account of the same protocol exists, and a hyphen (-) indicates that the check item is not supported.
+
+| Prot ocol | Wea k pass wor d | Pass wor d unc han ged for a long time | Inva lid pass wor d or key | Unm ana ged pass wor d or key | Acc ount who se pass wor d can not be cha nge d | Red und ant acco unt | Per miss ion cha nge s | Zom bie acco unt | Expi red acco unt | Acc ount who se pass wor d expi res | Lock ed acco unt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SSH | √ | √ | √ | √ | √ | l | l | l | l | l | l |
+| TELN ET | √ | √ | √ | √ | √ | - | - | - | - | - | - |
+| RDP | √ | √ | √ | √ | √ | l | l | l | l | l | l |
+| ORA CLE | √ | √ | √ | √ | √ | l | - | - | - | - | - |
+| KING BAS E | √ | √ | √ | √ | √ | - | - | - | - | - | - |
+| DM | √ | √ | √ | √ | √ | - | - | - | - | - | - |
+| Post greS QL | √ | √ | √ | √ | √ | - | - | - | - | - | - |
+| DB2 | √ | √ | √ | √ | √ | - | - | - | - | - | - |
+| SQL Serv er | √ | √ | √ | √ | √ | l | - | l | - | - | - |
+| MyS QL | √ | √ | √ | √ | √ | l | - | - | - | l | - |
+
+<a id="section-5-4-2-1"></a>
+
+#### 5.4.2.1. Configure a custom policy for diagnostic tasks
+
+This topic describes how to configure a custom policy for diagnostic tasks.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Account Diagnostics**.
+
+4. Click the <img src="assets/d9efac7d80798b8b7f0fa2e86f1740b9.png" width="12" alt=""> icon. In the **Default Configuration of Diagnostics Tasks** panel, configure
+
+   the parameters and click **Confirm**.
+
+   | Parameter | Description |
+   | --- | --- |
+
+   <table>
+     <tr>
+       <td rowspan="4">Password Strength</td>
+       <td>Minimum Password Length</td>
+       <td>The minimum length of a password. Valid values: 10 to 128.</td>
+       <td rowspan="4">If a password does not meet one or more requirements, the password is identified as a weak password.</td>
+     </tr>
+     <tr>
+       <td>Password Complexity</td>
+       <td>The required numbers of digits, letters, and special characters in a password.Valid values: 0 to 10.</td>
+     </tr>
+     <tr>
+       <td>Maximum Number of Same Characters in Password</td>
+       <td>The maximum number of occurrences of a character in a password. Valid values: 2 to 10.</td>
+     </tr>
+     <tr>
+       <td>Do not use the following passwords</td>
+       <td>The characters that cannot be used in a password.</td>
+     </tr>
+     <tr>
+       <td rowspan="2">Other Configurations</td>
+       <td>Number of Days without Password Change</td>
+       <td>The maximum number of days that a password can remain unchanged.</td>
+       <td>If the number of days exceeds the value of this parameter, the password is considered unchanged for a long period of time.</td>
+     </tr>
+     <tr>
+       <td>Number of Days without Logon</td>
+       <td>The maximum number of consecutive days that an account is not used for logon.</td>
+       <td>If the number of days exceeds value of this parameter, the account is identified as an inactive account.</td>
+     </tr>
+   </table>
+
+<a id="section-5-4-2-2"></a>
+
+#### 5.4.2.2. Create a diagnostic task
+
+This topic describes how to create a diagnostic task.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Account Diagnostics**.
+
+4. Click the <img src="assets/218bae0e5bf7328a8e1db74566f51767.png" width="12" alt=""> icon. In the **Create Diagnostics Task** panel, configure the Task Name and
+
+   First Executed At parameters, and then click **Next**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Task Name | The name of the diagnostic task, which is used only for identification.The names must be unique in a project. |
+   | Execution Method | The execution method. Valid values:<br>• Manual: You can manually execute the diagnostic task based on your business requirements.<br>• Automatic: Configure the First Executed At parameter. Then, Bastionhost starts to execute the diagnostic task at the specified point in time. If you select <strong>Recurrence</strong>, you must specify a task execution interval. Then, Bastionhost executes the task based on the specified interval. |
+
+5. Select check items in the following table and click **Next.**
+
+   | Parameter | Description |
+   | --- | --- |
+   | Check Items | • Weak Password: If the password of the detected account does not meet the password complexity policy that is configured for the task, the account is considered an account with a weak password.<br>• Password Unchanged for a Long Time: If the password of the detected account is not changed for more than the specified number of days for unchanged passwords, the account is considered an account whose password is not changed for a long time.<br>• Permission Change: If the permissions of a Linux or Windows account on an asset are changed, the account is considered a permission-changed account.<br>• Invalid Password or Key: If the password or key of the detected account is invalid on Bastionhost, the account is considered an account whose password or key is invalid.<br>• Unmanaged Password or Key: If no passwords or keys of the detected account is managed on Bastionhost, the account is considered an account whose passwords or keys are unmanaged.<br>• Zombie Account: If the detected account has not logged on to the asset for more than the specified number of days, the account is considered a zombie account.<br>• Redundant Account: If the detected account does not exist on the asset, the account is considered a redundant account.<br>• Expired Account: If the detected account on the asset has expired, the account is considered an expired account.<br>• Account with Expired Password: If the password of the detected account on the asset has expired, the account is considered an account whose password has expired.<br>• Locked Account: If the detected account is locked on the asset, the account is considered an locked account.<br>• Account Disallowing Password Change: If automatic password change is disabled for the detected account on Bastionhost, the account is considered an account whose password cannot be changed. |
+   | Password Strength | If you select <strong>Weak Password</strong>, you must specify a password complexity policy. Valid values: Default and Custom.<br>• Default: Reuse the configurations of the custom policy for diagnostic tasks.<br>• Custom: Configure a custom password complexity policy. For more information, see the parameter descriptions in the "Configure a custom policy for diagnostic tasks" topic. |
+   | Number of Days without Password Change | If you select <strong>Password Unchanged for a Long Time</strong>, you must specify the maximum number of days that a password is allowed to remain unchanged.<br>• Default: Reuse the configurations of the custom policy for diagnostic tasks.<br>• Custom: Specify a custom value for this parameter. |
+   | Automatic deletion | If you select <strong>Zombie Account</strong> or <strong>Redundant Account</strong>, you can specify whether to automatically delete detected zombie accounts or redundant accounts. |
+   | Number of Days without Logon | If you select <strong>Zombie Account</strong>, you must specify the maximum number of consecutive days that an account remains unlogged.<br>• Default: Reuse the configurations of the custom policy for diagnostic tasks.<br>• Custom: Configure a custom value for this parameter. |
+
+<a id="section-5-4-2-3"></a>
+
+#### 5.4.2.3. Execute a diagnostic task
+
+This topic describes how to execute a diagnostic task.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Account Diagnostics**.
+
+4. Move the pointer over the task and click **Immediately Execute**. In the message that appears, click Confirm to execute the task.
+
+   Move the pointer over the task that is being executed and click **Stop**. In the message that appears, click Confirm to stop the task.
+
+If the Execution Method parameter is set to **Automatic**, the system automatically executes the task at the specified time.
+
+<a id="section-5-4-2-4"></a>
+
+#### 5.4.2.4. View a diagnostic task
+
+This topic describes how to view the information about a diagnostic task.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Account Diagnostics**.
+
+4. Click the diagnostic task that you want to manage. On the **Diagnostics Result** tab, view the most recent diagnostic result of the task, including the scanning status, automatically deleted accounts, account security status, account status, and scanned accounts.
+
+   - Click the number of each item to view specific information about the item.
+
+   - Click **Details**. In the **Account Details** panel, view the basic information, check items, and check results of the account.
+
+   - Click **Record** to view the diagnostic details of the account.
+
+<a id="section-5-4-2-5"></a>
+
+#### 5.4.2.5. Manage an account diagnostic scope
+
+This topic describes how to configure an account diagnostic scope.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Account Diagnostics**.
+
+4. Click an account diagnostic task. On the **Diagnostics Scope** tab, click **Add Account**.
+
+5. In the **Select Account** panel, select an account and click **Confirm**.
+
+<a id="section-5-4-3"></a>
+
+### 5.4.3. Discover accounts
+
+<a id="section-5-4-3-1"></a>
+
+#### 5.4.3.1. Create a discovery task
+
+You can use a privileged account to discover other accounts that use the same protocol as the privileged account and add the accounts to Bastionhost for management. This topic describes how to create a discovery task.
+
+**Prerequisites**
+
+The asset account has a privileged account that uses the same protocol as the asset account. You can discover asset accounts that use the SSH, RDP, MySQL, Oracle, and SQL Server protocols.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Account Discovery**.
+
+4. Click the <img src="assets/218bae0e5bf7328a8e1db74566f51767.png" width="12" alt=""> icon. In the **Create Discovery Task** panel, configure the parameters and click
+
+   **Next**.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Task Name | The name of the discovery task, which is used only for identification.The name must be unique in a project. |
+   | Execution Method | The execution method. Valid values:<br>• Manual: You can manually execute the discovery task based on your business requirements.<br>• Automatic: Configure the First Executed At parameter. Bastionhost starts to execute the discovery task at the specified time. If you select <strong>Recurrence</strong>, you must also specify a task execution interval. Then, Bastionhost executes the task based on the specified interval. |
+   | Automatic Management | After you turn on this switch, the unmanaged accounts are automatically added to Bastionhost for management after the task is executed. |
+
+5. Select the asset that you want to manage and click **Confirm**.
+
+**What to do next**
+
+**Edit a discovery task**
+
+> **Note**
+>
+> You cannot edit a discovery task that is in the pending or executing state.
+
+1. Move the pointer over the task that you want to manage and click **Edit**.
+
+2. In the **Modify Discovery Task** panel, edit the task.
+
+**Delete a discovery task**
+
+Move the pointer over the task that you want to manage and click **Delete**. You can also select the task and click **Delete** below the task list.
+
+<a id="section-5-4-3-2"></a>
+
+#### 5.4.3.2. Execute a discovery task
+
+This topic describes how to execute a discovery task.
+
+**Automatic execution**
+
+If you set the Execution Method parameter to Automatic when you create a task, the system executes the task at the specified time.
+
+**Manual execution**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Account Discovery**.
+
+4. Execute one or more tasks.
+
+   - To execute a task, move the pointer over the task and click **Immediately Execute**. In the Immediately Execute message, click Confirm.
+
+   - To execute multiple tasks at a time, select the tasks and click **Immediately Execute**. In the Batch Immediately Execute message, click Confirm.
+
+**Stop a discovery task**
+
+Move the pointer over the task that you want to manage and click **Stop**. You can also select the discovery task and click **Stop** below the task list.
+
+<a id="section-5-4-3-3"></a>
+
+#### 5.4.3.3. Add accounts for management
+
+If automatic management is not enabled for a discovery task, you must manually add the discovered accounts to Bastionhost.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Account Discovery**.
+
+4. Click the task that you want to manage. On the **Discovery Result** tab, select the unmanaged accounts and click **Manage**.
+
+<a id="section-5-4-4"></a>
+
+### 5.4.4. Manage passwords
+
+<a id="section-5-4-4-1"></a>
+
+#### 5.4.4.1. View accounts associated with password change tasks
+
+Bastionhost allows you to manage accounts that are associated with password change tasks. This topic describes how to view accounts that are associated with password change tasks.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Password Management**.
+
+4. On the **Account for Password Change** tab, view accounts that are associated with password change tasks from different dimensions in the All Accounts section. You can also view accounts that are associated with password change tasks by status in the Account section.
+
+   - **Pending**: displays the accounts whose passwords are pending for changing.
+
+   - **Executing**: displays the accounts whose passwords are being changed.
+
+   - **Modified**: displays the accounts whose passwords are changed or verified, or whose historical passwords are restored.
+
+   - **Modification failed**: displays the accounts whose passwords failed to be changed or verified, or whose historical passwords failed to be restored.
+
+   - **To Be Executed**: displays the accounts that are associated with password change tasks but no password change tasks are executed.
+
+   - **Canceled**: displays the accounts that are associated with stopped password change tasks.
+
+<a id="section-5-4-4-2"></a>
+
+#### 5.4.4.2. Immediately change the password
+
+This topic describes how to change the password of an account.
+
+**Retry password change tasks**
+
+If an account is associated with multiple password change tasks and the password of the account is changed at least once, and you do not want to change the passwords of other accounts that are associated with the password change tasks, you can retry the password change tasks for accounts whose passwords you want to change.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Password Management**.
+
+4. On the **Account for Password Change** tab, select the account that you want to manage and choose **Immediately Change Password** > **Retry**.
+
+5. In the message that appears, click **Confirm**.
+
+**Create a password change task**
+
+If you want to immediately change the passwords of specific accounts that are associated with a password change task, but the password change task does not meet your business requirements, you can create another password change task.
+
+1. On the **Account for Password Change** tab, select the account that you want to manage and choose **Immediately Change Password** > **Create Plan**.
+
+2. In the **Create Password Change Plan** panel, configure the parameters and click **Confirm**.
+
+**Stop a password change task**
+
+After a password change task is started, if the task is in the pending state, you can manually stop the password change task.
+
+> **Important**
+>
+> - You cannot stop a password change task that is being executed.
+>
+> - If you stop a password change task that is not in the pending state, the password may be lost.
+
+1. On the **Account for Password Change** tab, select the account whose password change task is in the **Pending** state and click **Stop**.
+
+2. In the message that appears, click **Confirm**.
+
+<a id="section-5-4-4-3"></a>
+
+#### 5.4.4.3. Verify the password of an account
+
+This topic describes how to verify the password of an account.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Password Management**.
+
+4. On the **Account for Password Change** tab, find the account that you want to manage and choose **More > Verify Password** in the **Actions** column.
+
+5. In the **Verify Password** dialog box, enter the password and click **Confirm**.
+
+<a id="section-5-4-4-4"></a>
+
+#### 5.4.4.4. Download historical passwords
+
+This topic describes how to export the historical and current passwords of an account.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Password Management**.
+
+4. On the **Account for Password Change** tab, find the account that you want to manage and choose **More > Download Historical Passwords** in the **Actions** column.
+
+5. In the **Download Password** dialog box, enter an encryption password and click **Export**.
+
+   The encryption password is used to decrypt the ZIP file. This ensures the security of the file. We recommend that you specify an encryption password.
+
+<a id="section-5-4-4-5"></a>
+
+#### 5.4.4.5. Download password change history
+
+This topic describes how to export the password change history for an account.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Password Management**.
+
+4. On the **Account for Password Change** tab, find the account that you want to manage and choose **More > Download password change history** in the **Actions** column.
+
+5. In the **Download password change history** dialog box, enter an encryption password and click **Export**.
+
+   The encryption password is used to decrypt the ZIP file when you open the file. This ensures the security of the file. We recommend that you specify an encryption password.
+
+<a id="section-5-4-4-6"></a>
+
+#### 5.4.4.6. Restore a password
+
+This topic describes how to restore a password.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Password Management**.
+
+4. On the **Account for Password Change** tab, find the account that you want to manage and choose **More > Restore Password** in the **Actions** column.
+
+5. In the **Restore Password** message, click **Confirm**.
+
+   If the password is lost due to repeated power outages and network failures during the execution of the password change task, make sure that the server exists and is connected as expected before you restore the password.
+
+<a id="section-5-4-4-7"></a>
+
+#### 5.4.4.7. Export the password of an account
+
+This topic describes how to export the password of an account to your computer.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Password Management**.
+
+4. On the **Account for Password Change** tab, select the account that you want to manage and click **Export Password** above the account list.
+
+5. In the **Export Password** dialog box, enter an encryption password and click **Export**.
+
+   The encryption password is used to decrypt the ZIP file. This ensures the security of the file. We recommend that you specify an encryption password.
+
+<a id="section-5-4-4-8"></a>
+
+#### 5.4.4.8. Configure a password change task
+
+**Use the default configurations of the password change policy**
+
+You can use the default password policy, backup policy, and backup mode.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Password Management**.
+
+4. On the **Password Change Plan** tab, click the <img src="assets/1831c80d8958e719e8652132d142e2ca.png" width="12" alt=""> icon.
+
+5. In the **Default Policy Configuration** panel, click **Confirm**.
+
+**Create a password change task**
+
+1. On the **Password Change Plan** tab, click the <img src="assets/75b01414f2c7093dc0204c3eed7a0a48.png" width="15" alt=""> icon.
+
+2. In the **Create Password Change Plan** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+| Parameter | Description |
+| --- | --- |
+| Execution Method | Select the execution mode of the password change task. Valid values:<br>• Manual: You can manually execute the password change task based on your business requirements.<br>• Automatic: You must configure the First Executed At parameter.If you select Recurrence, you must also configure a task execution interval. Then, Bastionhost executes the task based on your configurations. |
+| Password Policy | Select the policy for generating a new password. Valid values:<br>• Default Policy: A new password is generated based on the default password policy.<br>• Custom: You must configure a password policy. |
+| Name | Enter the name of the password change task, which is used only for identification. The name must be unique in a project. |
+| Backup Policy | Select the backup policy for the previous and new passwords. Valid values:<br>• No Backup: does not back up the previous and new passwords.<br>• Default Policy: uses the default backup policy. For more information about the default backup policy, see the "Use the default configurations of the password change policy" section of this topic.<br>• Custom Policy: You must configure a backup policy. |
+
+**Manage an account associated with a password change task**
+
+**Associate an account with a password change task**
+
+1. On the **Password Change Plan** tab, click the task that you want to manage. In the right-side section, click **Associate Account**.
+
+2. In the **Associate Account** panel, select the account and click **Confirm**.
+
+**Dissociate an account with a password change task**
+
+1. On the **Password Change Plan** tab, click the task that you want to manage.
+
+2. In the right-side section, select the required account and click **Disassociate**.
+
+3. In the **Disassociate** message, click **Confirm**.
+
+4. In the **Associate Account** panel, select another account and click **Confirm**.
+
+<a id="section-5-4-4-9"></a>
+
+#### 5.4.4.9. Complex password-change accounts
+
+This topic describes how to create and manage complex password-change accounts.
+
+**Create a complex password-change account**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Password Management**.
+
+4. On the **Complex Password Change Account** tab, click **Create**.
+
+5. In the **Basic Settings** step, configure the parameters described in the following table and click **Next**.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Name | The name of the complex password-change account. It is used only for identification. The names of complex password-change accounts in the same project must be unique. |
+   | Source Account | Select an asset account. The system uses the complex password-change process to change the password of this account and pushes the new password to other applications based on the process. A source account can be associated with only one complex password-change account and cannot be changed after it is saved. |
+   | System Parameters | The built-in parameters of the system, which can be used to change the password and push scripts. |
+   | Custom Parameters | User-defined parameters, which can be used to change the password and push scripts. In the same complex password-change account, the parameter names must be unique in System Parameters, in Custom Parameters, or between System Parameters and Custom Parameters. |
+
+6. Click the <img src="assets/eba184a4fe6570d3c82b4dec4ff71f00.png" width="14" alt=""> icon, configure the password change information, and then click **OK**.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Password Change Method | The password change method. Valid values: Follow the original account configuration and Remote Execution Script.<br>• <strong>Follow the original account configuration</strong>: Use the password change method of the source account.<br>• <strong>Remote Execution Script</strong>: Use the subsequently configured execution account to change the password by remotely executing scripts. |
+   | Execution Account | Select an asset account of the RDP or SSH service. The system uses this account to execute remote scripts. The number of times that the same asset account can be used as the execution account is not limited. |
+   | Script Command | The user-defined remote password-change script. |
+
+7. Click the <img src="assets/2e6ddde407ca3bb18d56e4daffa92bba.png" width="14" alt=""> icon. In the **Password Push** section, click **Parallel Task**. In the panel that
+
+   appears, configure the information about the subtask and click **Confirm**.
+
+   A maximum of 9 password push processes and 10 parallel tasks are supported.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Type | Only Remote Execution Script is supported. |
+   | Execution Account | Select an asset account of the RDP or SSH service. The system uses this account to execute remote scripts. The number of times that the same asset account can be used as the execution account is not limited. |
+   | Script Command | The user-defined remote push script. |
+
+8. Click **Confirm**.
+
+**Related operations**
+
+- Change a complex password-change account: On the **Complex Password Change Account** tab, find the account that you want to modify and click **Edit** in the **Actions** column.
+
+- Copy a complex password-change account: On the **Complex Password Change Account** tab, find the account that you want to copy and click **Copy** in the **Actions** column.
+
+- Delete a complex password-change account: On the **Complex Password Change Account** tab, find the account that you want to delete and click **Delete** above the account list.
+
+- Download historical passwords of a complex password-change account: On the **Complex Password Change Account** tab, find the account whose historical passwords you want to download and click **Download Historical Passwords** in the **Actions** column. In the dialog box that appears, enter the encryption password of the exported file and click **Export**.
+
+  The encryption password is used to decrypt the exported ZIP file when you open the file. This ensures the security of the file. We recommend that you specify an encryption password.
+
+- Retry a password change plan: On the **Complex Password Change Account** tab, select the account that you want to manage and choose **Immediately Change Password > Retry** above the account list.
+
+- Create a password change plan: On the **Complex Password Change Account** tab, select the account that you want to manage and choose **Immediately Change Password > Create Plan** above the account list.
+
+- Stop a password change: On the **Complex Password Change Account** tab, select the account that you want to manage and click **Stop** above the account list.
+
+- View the execution history: On the **Complex Password Change Account** tab, find the account that you want to view and click **Execution History** in the **Latest Execution Record** column.
+
+<a id="section-5-4-5"></a>
+
+### 5.4.5. Manage keys
+
+You can manage all SSH keys in a centralized manner.
+
+**Create a key**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Key Management**.
+
+4. Click **Create**. In the **Create Key** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Name | The name of the custom SSH key. |
+   | Generation Method | Valid values:<br>• Manually Record: You must manually enter the SSH private key and the encryption password of the SSH key pair. Then, Bastionhost generates an SSH public key.<br>• Automatic Generation: Bastionhost generates an SSH key pair, including an SSH public key and an SSH private key, based on the values of the Encryption Algorithm, Key Length, Encryption Token, and Confirm Encryption Password parameters. |
+
+**Associate a key with an account**
+
+You can associate a key with an asset account that uses the SSH protocol. Then, this account can access the asset by using the SSH key.
+
+1. In the key list, find the key that you want to manage and click **Associate Account** in the **Actions** column.
+
+2. In the **Associate Host Account** panel, select the account that you want to manage and click **Associate Account**.
+
+**Dissociate a key from an account**
+
+1. In the key list, find the key that you want to manage and click the number in the **Associated Accounts** column.
+
+2. In the **Associated Host Account** panel, select the account that you want to manage and click **Disassociate**.
+
+**View a public key**
+
+In the key list, find the key that you want to manage and click **View Public Key** in the **Actions** column.
+
+**Modify a key**
+
+1. In the key list, find the key that you want to manage and click **Edit** in the **Actions** column.
+
+2. In the **Modify Key** panel, modify the configurations and click **Confirm**.
+
+**Delete a key**
+
+1. In the key list, select the key that you want to manage and click **Delete** above the key list.
+
+2. In the message that appears, click **Confirm**.
+
+<a id="section-5-5"></a>
+
+## 5.5. Authorization
+
+<a id="section-5-5-1"></a>
+
+### 5.5.1. Manage authorization rules
+
+<a id="section-5-5-1-1"></a>
+
+#### 5.5.1.1. Perform operations on the Rule View tab
+
+You can create an authorization rule to grant permissions to users on the accounts of assets in the system.
+
+**Create one or more authorization rules**
+
+**Create an authorization rule**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Authorize > Authorization Rule**.
+
+4. On the **Rule View** tab, click **Create**.
+
+5. In the **Create Rule** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Rule Name | The name of the rule, which is used only for identification. |
+   | Rule Validity Period | • Permanent: The rule never expires.<br>• Custom: Specify a validity period for the rule. The rule is valid only during the specified period of time. |
+   | Automatically deleted at 00:00 the next day after expiration | If you specify a validity period for the rule and select this option, the system automatically deletes the rule at 00:00 on the next day after the validity period ends. |
+   | Authorized Users | The Bastionhost users or user groups to which you want to grant asset operation and management permissions.<br>• All Users: grants the permissions to all users in the user list.<br>• User/User Group: grants the permissions only to the selected users or user groups.<br>• Click <strong>Add</strong> and select <strong>Add User</strong> or <strong>Add User Group</strong>. In the <strong>Select User</strong> or <strong>Select User Group</strong> panel, select the users or user groups that you want to add and click <strong>Confirm</strong>.<br>• To remove the selected user or user group, select a user or user group and click <strong>Delete</strong>.<br>• Rule: grants the permissions only to users who meet the conditions of the rule. Make sure that you created custom attributes on the <strong>Configure</strong> &gt; <strong>User Configuration</strong> &gt; <strong>Custom</strong> <strong>Attribute</strong> tab in the <strong>management console</strong>.<br>• Click <strong>Add</strong>. In the <strong>Add Rule</strong> panel, configure the attribute, matching mode, and value, and click <strong>Confirm</strong>. You can add multiple attributes. If you add multiple attributes, the permissions are granted only to users who match all attributes.<br>• Find an attribute and click <strong>Edit</strong> to modify the attribute of the rule.<br>• Find an attribute and click <strong>Delete</strong> to remove the attribute from the rule. |
+
+   <table>
+     <tr>
+       <td>Authorize Assets</td>
+       <td>The assets on which you want to grant permissions to users.<br>• All Assets: grants permissions on all assets in the asset list to the selected users.<br>• Asset/Asset Node: grants permissions on specific assets or asset nodes to the selected users.<br>• Click <strong>Add</strong> and select <strong>Add Asset</strong> or <strong>Add User Asset Node</strong>.In the <strong>Select Asset</strong> or <strong>Select Asset Node</strong> panel, select the assets or asset nodes and click <strong>Confirm</strong>.<br>• To remove the selected asset or asset node, select an asset or asset node and click <strong>Delete</strong>.<br>• Rule: grants permissions only on the assets or asset nodes that meet the conditions of the rule to the selected users. Make sure that you created custom attributes on the <strong>Configure &gt; User</strong> <strong>Configuration &gt; Custom Asset Attribute</strong> tab in the <strong>management console</strong>.<br>• Click <strong>Add</strong>. In the Add Rule panel, configure the attribute, matching mode, and value, and click <strong>Confirm</strong>. You can add multiple attributes. If you add multiple attributes, the permissions are granted only to users who match all attributes.<br>• Find an attribute and click <strong>Edit</strong> to modify the attribute of the rule.<br>• Find an attribute and click <strong>Delete</strong> to remove the attribute from the rule.</td>
+     </tr>
+     <tr>
+       <td>Authorize Accounts</td>
+       <td>The accounts on which you want to grant permissions to users.<br>• All Accounts: grants permissions on all accounts of the selected assets to the selected users.<br>• Account: grants permissions on specific accounts of the selected assets to the selected users.<br>Enter the username of an account and press the Enter key. You can enter multiple usernames. If you enter an invalid<br>username, click the<img src="assets/96e202047ad26d8da2cec4fece5dfd12.png" width="10" alt="">icon to remove the username.<br>• Rule: grants permissions only on the accounts of the selected assets that meet the conditions of the rule to the selected users. Make sure that you created custom attributes on the <strong>Configure</strong> &gt; <strong>User Configuration</strong> &gt; <strong>Custom Account</strong> <strong>Attribute</strong> tab in the <strong>management console</strong>.<br>• Click <strong>Add</strong>. In the <strong>Add Rule</strong> panel, configure the attribute, matching mode, and value, and click <strong>Confirm</strong>. You can add multiple attributes. If you add multiple attributes, the permissions are granted only to users who match all attributes.<br>• Find an attribute and click <strong>Edit</strong> to modify the attribute of the rule.<br>• Find an attribute and click <strong>Delete</strong> to remove the attribute from the rule.</td>
+     </tr>
+     <tr>
+       <td>Authorize Services</td>
+       <td>The protocols of the accounts on which you want to grant permissions to users.<br>• All Services: grants permissions on the accounts that use any protocol of the selected assets to the selected users.<br>• Service: grants permissions on the accounts that use specific protocols of the selected assets to the selected users. Click the field and select the protocols based on your business requirements. You can select multiple protocols. If you no longer require a protocol, click the<br><img src="assets/96e202047ad26d8da2cec4fece5dfd12.png" width="14" alt=""><br>icon to remove the protocol.</td>
+     </tr>
+   </table>
+
+**Import multiple authorization rules at a time**
+
+You can use the built-in template to create multiple authorization rules at a time.
+
+1. On the **Rule View** tab, choose **Create > Import Rule**.
+
+2. In the dialog box that appears, click **Download Template File** to save the template file to your computer.
+
+3. Open the template file on your computer, enter authorization rules based on the description and field requirements in the file, and then save the file.
+
+4. Click **Select File** and select the file. Then, click **Import** to upload the file.
+
+   If you select **Overwrite Rule with Same Name** and the name of an authorization rule in the file is the same as the name of an existing authorization rule in the system, the authorization rule in the file overwrites the authorization rule in the system.
+
+**Enable an authorization rule**
+
+If an authorization rule is disabled, you must enable the rule for the rule to take effect.
+
+On the **Rule View** tab, select a rule that is in the **Disable** state and click **Enable** above the rule list.
+
+**Disable an authorization rule**
+
+If you disable an authorization rule, the authorization rule becomes invalid. If you want the authorization rule to take effect, you must re-enable the authorization rule.
+
+On the **Rule View** tab, select the rule that you want to manage and click **Disable** above the rule list.
+
+**Export authorization rules**
+
+You can export multiple authorization rules at a time.
+
+1. On the **Rule View** tab, click the <img src="assets/8b6458517a70d9c8ff81b6c3de56e7ec.png" width="12" alt=""> icon.
+
+2. In the **Export** dialog box, configure the Export Range and Encryption Password parameters and click **Export** to export the authorization rules to your computer.
+
+   The encryption password is used to encrypt the ZIP file when you open the file. This ensures the security of the file. We recommend that you specify an encryption password.
+
+   - All: exports all authorization rules.
+
+   - Selected: exports the selected authorization rules. You must select authorization rules before you click Export.
+
+**Delete an authorization rule**
+
+On the **Rule View** tab, select the rule that you want to manage and click **Delete** above the rule list.
+
+<a id="section-5-5-1-2"></a>
+
+#### 5.5.1.2. Perform operations on the Member View tab
+
+You can view authorized assets by user.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Authorize > Authorization Rule**.
+
+4. On the **Member View** tab, click a user. All assets and asset accounts on which the user has permissions are displayed in the right-side section.
+
+   - You can click **Export** below the user list to export all users and the assets and asset accounts on which the users have permissions.
+
+   - You can click the <img src="assets/c539107aebd48139ac03800674d46bd0.png" width="15" alt=""> icon in the asset list to export the assets and asset accounts on
+
+     which the selected user has permissions.
+
+   - You can enter the username or name of a user and press the Enter key in the user list to search for the user.
+
+   - You can enter an asset name, IP address, account name, or authorization rule, or select a protocol in the asset list, and click **Search** to search for an asset or asset account.
+
+   - You can click an authorization rule to modify the rule.
+
+<a id="section-5-5-1-3"></a>
+
+#### 5.5.1.3. Perform operations on the Asset View tab
+
+You can view the authorized users, asset accounts, and authorization rules by asset.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Authorize > Authorization Rule**.
+
+4. On the **Asset View** tab, click an asset. All users and asset accounts that have permissions on the asset are displayed in the right-side section.
+
+   - You can click **Export** in the asset list to export all assets, and the users and asset accounts that have permissions on the asset.
+
+   - You can click the <img src="assets/c539107aebd48139ac03800674d46bd0.png" width="11" alt=""> icon in the user list to export the users and asset accounts that have
+
+     permissions on the asset.
+
+   - You can enter an asset name or IP address and press the Enter key in the asset list to search for the required asset.
+
+   - You can enter the username, name, account, and authorization rule, or select a protocol in the user list, and then click **Search** to search for a user or an asset account.
+
+   - You can click an authorization rule to modify the rule.
+
+<a id="section-5-5-2"></a>
+
+### 5.5.2. Manage pre-authorization rules
+
+This topic describes how to create and manage pre-authorization rules.
+
+**Overview**
+
+You can create pre-authorization rules to limit the assets that can be applied for in O&M tickets, password tickets, and emergency O&M tickets. If pre-authorization rules are created, all users can apply only for pre-authorized assets.
+
+**Create a pre-authorization rule**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Authorize > Authorization Rules**.
+
+4. On the Pre-authorization Rule page, click **Create**. On the Create Pre-authorization Rule page, configure the parameters that are described in the following table and click **Confirm**.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Rule Name | The name of the rule, which is used only for identification. |
+   | Validity Period | • Permanent: The rule never expires.<br>• Custom: Specify a validity period for the rule. The rule is valid only during the specified period of time. |
+   | Automatically deleted at 00:00 the next day after expiration | If you specify a validity period for the rule and turn on this switch, the system automatically deletes the rule at 00:00 on the next day after the validity period ends. |
+   | Authorize Users | The Bastionhost users or user groups to which you want to grant asset operation and management permissions. Valid values:<br>• All Users: grants the permissions to all users in the user list.<br>• Designated user: grants the permissions only to the selected users or user groups.<br>• Click <strong>Add</strong> and select <strong>Add User</strong> or <strong>Add User Group</strong>. In the <strong>Select User</strong> or <strong>Select User Group</strong> panel, select one or more users or user groups and click <strong>Confirm</strong>.<br>• To remove selected users or user groups, select one or more users or user groups and click <strong>Delete</strong>. |
+   | Authorized Asset | The assets whose permissions you want to grant to users.<br>• Assets: grants the permissions on specific assets to the selected users.<br>• Click <strong>Add</strong> and select <strong>Add Asset</strong>. In the <strong>Select Asset</strong> panel, select one or more assets and click <strong>Confirm</strong>.<br>• To remove selected assets, select one or more assets and click <strong>Delete</strong>. |
+   | Authorized accounts | The asset accounts whose permissions you want to grant to users.<br>• Accounts: grants the permissions on specific asset accounts to the selected users.<br><img src="assets/96e202047ad26d8da2cec4fece5dfd12.png" width="10" alt=""><br>• Click Add and select <strong>Add Account</strong>. In the <strong>Select Account</strong> panel, select one or more accounts and click <strong>Confirm</strong>.<br>• To remove selected accounts, select one or more accounts and click <strong>Delete</strong>. |
+   | Authorized asset directories | The asset directories whose asset permissions you want to grant to users.<br>Asset directories: grants the permissions on assets and their accounts in the selected asset directories to the selected users.<br>• Click Add and Select <strong>Add Asset Directory</strong>. In the Select Asset Directory panel, select one or more asset directories and click <strong>Confirm</strong>. This way, all assets and their accounts in the selected asset directories are selected.<br>• To remove selected asset directories, select one or more asset directories and click <strong>Delete</strong>. |
+   | Authorized asset tags | The tags added to assets whose permissions you want to grant to users.<br>Asset tags: grants the permissions on assets to which the selected tags are added to the selected users.<br>• Click Add and Select <strong>Add Asset Tag</strong>. In the Select Tag panel, select one or more tags and click <strong>Confirm</strong>. This way, all assets to which the selected tags are added are selected.<br>• To remove selected tags, select one or more tags and click <strong>Delete</strong>. |
+   | Authorized account tags | The tags added to asset accounts whose permissions you want to grant to users.<br>Account tags: grants the permissions on asset accounts to which the selected tags are added to the selected users.<br>• Click Add and Select <strong>Add Account Tag</strong>. In the Select Tag panel, select one or more tags and click <strong>Confirm</strong>. This way, all asset accounts to which the selected tags are added are selected.<br>• To remove selected tags, select one or more tags and click <strong>Delete</strong>. |
+   | Authorized dynamic account groups | The dynamic account groups whose object permissions you want to grant to users.<br>Dynamic account groups: grants the permissions on matched objects in the selected dynamic account groups to the selected users.<br>• Click Add and Select <strong>Add Dynamic Account Group</strong>. In the Select Dynamic Account Group panel, select one or more dynamic account groups and click <strong>Confirm</strong>. This way, all matched objects in the selected dynamic account groups are selected.<br>• To remove selected dynamic account groups, select one or more dynamic account groups and click <strong>Delete</strong>. |
+   |  |  |
+
+**What to do next**
+
+- Enable pre-authorization rules: On the **Pre-authorization Rule** page, select one or more rules that you want to manage and click **Enable** above the rule list. In the message that appears, click Confirm.
+
+- Disable pre-authorization rules: On the **Pre-authorization Rule** page, select one or more rules that you want to manage and click **Disable** above the rule list. In the message that appears, click Confirm.
+
+- Delete pre-authorization rules: On the **Pre-authorization Rule** page, select one or more rules that you want to manage and click **Delete** above the rule list. In the message that appears, click Confirm.
+
+<a id="section-5-5-3"></a>
+
+### 5.5.3. Manage review rules
+
+After you create a review rule, Bastionhost automatically initiates a review process when an applicant creates a ticket or a task, or triggers a control policy. After the application is approved, the applicant can obtain the required permissions to perform subsequent operations.
+
+**Create a review rule**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. Choose **Authorization** > **Approval Rules**.
+
+4. Click **Create**. In the **Create Approval Rule** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Name | The name of the review rule, which is used only for identification.The name must be unique. |
+   | Priority | The priority of the review rule. Valid values: 1 to 99. A larger value specifies a higher priority. |
+   | Approval Process | You can configure reviewers.<br>• Add multiple review nodes<br>Click <strong>Add Process</strong> to create sub review nodes in sequence.You can create up to five sub review nodes.<br>• Add one or more reviewers<br>Click <strong>Add</strong>. In the <strong>Select User</strong> panel, select the users that you want to add as reviewers and click <strong>Add</strong>. You can add multiple reviewers to a node. The number of reviewers is unlimited.<br>• Remove a reviewer<br>Click the<img src="assets/96e202047ad26d8da2cec4fece5dfd12.png" width="10" alt="">icon next to the name of a reviewer to remove the<br>reviewer.<br>• Delete a review node<br>Click the<img src="assets/57692afa40d4b9f6ef8c5baefd9d83e6.png" width="12" alt="">icon in the upper-right corner of the review node to<br>delete the review node. |
+
+   <table>
+     <tr>
+       <td>Object to Be Approved</td>
+       <td>The objects on which the review rule takes effect. The objects include users, user groups, custom rules, assets, asset nodes, and matching rules.<br>• To create a custom rule for users or assets, select Rule and click <strong>Add</strong>. In the Add Rule panel, configure the parameters and click <strong>Confirm</strong>.<br>• To delete a custom rule from users or assets, click <strong>Delete</strong>.<br>• To add users or user groups, select User/User Group and choose <strong>Add</strong> &gt; <strong>Add User</strong> or Add &gt; <strong>Add User Group</strong>. In the panel that appears, select the users or user groups that you want to add and click <strong>Confirm</strong>.<br>• To remove a user or a user group, select the user or user group and click <strong>Delete</strong>.<br>• To add assets or asset nodes, select Asset/Asset Node and choose <strong>Add</strong> &gt; <strong>Add Asset</strong> or Add &gt; <strong>Add Asset Node</strong>. In the panel that appears, select the assets or asset nodes that you want to add and click <strong>Confirm</strong>.<br>• To remove an asset or asset node, select the asset or asset node and click <strong>Delete</strong>.</td>
+     </tr>
+   </table>
+
+**Modify a review rule**
+
+1. In the review rule list, find the rule that you want to manage and click **Edit** in the **Actions** column.
+
+2. In the **Modify Approval Rule** panel, modify the review rule.
+
+**Delete a review rule**
+
+In the review rule list, select the rule that you want to manage and click **Delete** above the review rule list.
+
+<a id="section-5-5-4"></a>
+
+### 5.5.4. Configure the unauthorized logon feature
+
+The unauthorized logon review list displays the authorization relationships between users and assets that are automatically collected by the system after unauthorized users successfully log on to Bastionhost. Users who have the permissions to review unauthorized logons can approve and create authorization relationships among assets and users. This way, manual authorization is not required when the users log on to the assets to perform O&M operations.
+
+**Procedure**
+
+- By default, the unauthorized logon feature is disabled. To use this feature, you must select **Allow Unauthorized Logons from Web** on the **Configure > Asset Configuration > O&M Configuration** tab.
+
+- If you want to display authorization relationships in the unauthorized logon review list, you must select **Collect Unauthorized Logons** on the **Configure > Asset Configuration > O&M Configuration** tab.
+
+- If you want to collect the account passwords or private keys of assets with unauthorized logons, you must select **Collect Passwords of Host Accounts** on the **Configure > Asset Configuration > O&M Configuration** tab<strong>.</strong>
+
+- If you select the Automatically create authorization rules option on the **Configure > Asset Configuration > O&M Configuration** tab, the system automatically reviews the unauthorized logons and creates O&M rules. If you want to review unauthorized logons, do not select this option.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Authorize > Unauthorized Logon**.
+
+4. Select an unauthorized logon review record and click **Authorize** to complete the authorization.
+
+**Delete an unauthorized logon review record**
+
+In the unauthorized logon review list, select an unauthorized logon review record and click **Delete** to delete the record.
+
+<a id="section-5-5-5"></a>
+
+### 5.5.5. Manage dynamic objects
+
+After you specify matching conditions for a dynamic object, the dynamic object can be bound to the matched assets, accounts, and services based on the specified matching conditions. When the Bastionhost is initialized, a dynamic object named ALL is created by default.
+
+**Create a dynamic account group**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. Choose **Authorize > Dynamic Objects**.
+
+4. On the **Dynamic Account Group** tab, click **Create**. On the Create Dynamic Account Group page, configure parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Name | The name of a custom approval rule, which is used only for identification.The name must be unique. |
+
+   <table>
+     <tr>
+       <td>Matching Condition</td>
+       <td>Specify matching conditions from the asset, account, and service aspects.<br>• Assets<br>• Match all assets: If you want the account group to dynamically match all assets, select <strong>All Assets</strong>.<br>• Match specific assets: If you want the account group to dynamically match specific assets, select <strong>Assets/Asset Directory/Rule</strong> and choose <strong>Add</strong> &gt; Add Asset. In the Select Asset panel, select the assets to be dynamically matched.<br>• Match specific asset directories: If you want the account group to dynamically match specific asset directories, select <strong>Assets/Asset</strong> <strong>Directory/Rule</strong> and choose <strong>Add</strong> &gt; Add Asset Directory. In the Select Asset Directory panel, select the asset directories to be dynamically matched.<br>• Match specific asset rules: If you want the account group to dynamically match specific asset rules, select <strong>Assets/Asset</strong> <strong>Directory/Rule</strong> and choose <strong>Add</strong> &gt; Add Asset Rule. In the Create Rule panel, configure the Attribute, Match Mode, and Value parameters to create rules. Only custom attributes and Tag are available for the Attribute parameter. Supported match modes are equal to, not equal to, include, and exclude.<br>• Account<br>• Match all accounts: If you want the account group to dynamically match all accounts, select <strong>All Accounts</strong>.<br>• Match any account: If you want the account group to dynamically match any account, select <strong>&lt;any&gt; account</strong>. If you select this option, a regular user can perform O&amp;M on any account after entering a valid account name and password.<br>• Match specific accounts: If you want the account group to dynamically match specific accounts, select <strong>Account Name</strong>, enter an account name, and then press the Enter key to save the account.You can specify multiple account names. The account names cannot be duplicate.<br>• Match specific account rules: If you want the account group to dynamically match specific account rules, select <strong>Rule</strong> and click <strong>Create</strong>. In the Create Rule panel, configure the Attribute, Match Mode, and Value parameters to create rules. Only custom attributes and Tag are available for the Attribute parameter. Supported match modes are equal to, not equal to, include, and exclude.<br>• Service<br>• Match all services: If you want the account group to dynamically match all services, select <strong>All Services</strong>.<br>• Match specific services: If you want the account group to dynamically match specific services, select <strong>Service</strong> and select one or more services from the drop-down list.</td>
+     </tr>
+   </table>
+
+**What to do next**
+
+- Edit a dynamic account group: On the **Dynamic Account Group** tab, find the account group that you want to manage and click **Edit** in the **Actions** column.
+
+- Delete a dynamic account group: On the **Dynamic Account Group** tab, select the account group that you want to manage and click **Delete** above the list.
+
+**Create a dynamic user group**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. Choose **Authorize > Dynamic Objects**.
+
+4. On the **Dynamic User Group** tab, click **Create**. On the Create Dynamic User Group page, configure parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Name | The name of a custom approval rule, which is used only for identification. The name must be unique. |
+   | Matching Condition | Specify matching conditions from the user aspect.Only All Users is available. |
+
+**What to do next**
+
+- Edit a dynamic user group: On the **Dynamic User Group** tab, find the user group that you want to manage and click **Edit** in the **Actions** column.
+
+- Delete a dynamic user group: On the **Dynamic User Group** tab, select the user group that you want to manage and click **Delete** above the list.
+
+<a id="section-5-6"></a>
+
+## 5.6. Policies
+
+<a id="section-5-6-1"></a>
+
+### 5.6.1. Configure an access control policy
+
+You can configure an access control policy to restrict access authentication, terminal logons, and auditing.
+
+**Create an access control policy**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Policy > Access Control**.
+
+4. Click **Create**. In the **Create Policy** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Status | The status of the policy. |
+   | Policy Name | The name of the policy, which is used only for identification. The name must be unique. |
+   | Priority | The priority of the policy. Valid values: 1 to 99. A smaller value specifies a higher priority. |
+
+**Modify an access control policy**
+
+1. In the access control policy list, find the policy that you want to manage and click **Edit** in the **Actions** column.
+
+2. In the **Modify Policy** panel<strong>,</strong> modify the policy.
+
+**Enable an access control policy**
+
+If a policy is disabled, you must enable the policy to allow the policy to take effect.
+
+In the access control policy list, select a policy that is in the **Disable** state and click **Enable** above the list.
+
+**Disable an access control policy**
+
+In the access control policy list, select a policy that is in the **Enable** state and click **Disable** above the list.
+
+**Delete an access control policy**
+
+In the access control policy list, select the policy that you want to manage and click **Delete** above the list.
+
+<a id="section-5-6-2"></a>
+
+### 5.6.2. Configure a host command control policy
+
+You can configure a host command control policy to configure host commands.
+
+**Create a host command control policy**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Policy > Host Command Control**.
+
+4. Click **Create**. In the **Create Policy** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Policy Name | The name of the policy, which is used only for identification. The name must be unique. |
+   | Priority | The priority of the policy. Valid values: 1 to 99. A smaller value specifies a higher priority. |
+   | Status | The status of the policy. |
+   | Action | The action that you want to perform after a command is matched during O&amp;M. Valid values:<br>• Allow: If a command is matched, run the command.<br>• Close Session: If a command is matched, close the session.<br>• Block Request: If a command is matched, block the command. |
+   | Log Level | The level of a command that is displayed in logs when the command is matched during O&amp;M. Valid values:<br>• Prompt: If a command is matched, the level of the command is displayed as info in logs.<br>• Low Risk: If a command is matched, the level of the command is displayed as low risk in logs.<br>• Medium Risk: If a command is matched, the level of the command is displayed as medium risk in logs.<br>• High Risk: If a command is matched, the level of the command is displayed as high risk in logs.<br>• Invalid: If a command is matched, the level of the command is displayed as invalid in logs. |
+   | Match Mode | The match mode. Valid values: Wildcard Character and Regular Expression Match. |
+   | Command | The command set. Each command must be unique. |
+   |  |  |
+
+**Modify a host command control policy**
+
+1. In the host command control policy list, find the policy that you want to manage and click **Edit** in the **Actions** column.
+
+2. In the **Modify Policy** panel<strong>,</strong> modify the policy.
+
+**Enable a host command control policy**
+
+If a policy is disabled, you must enable the policy to allow the policy to take effect.
+
+In the host command control policy list, select a policy that is in the **Disable** state and click **Enable** above the list.
+
+**Disable a host command control policy**
+
+In the host command control policy list, select a policy that is in the **Enable** state and click **Disable** above the list.
+
+**Delete a host command control policy**
+
+In the command control policy list, select the policy that you want to manage and click **Delete** above the list.
+
+<a id="section-5-6-3"></a>
+
+### 5.6.3. Configure a database command control policy
+
+You can configure a database command control policy to control database commands.
+
+**Create a database command control policy**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Policy > Database Command Control**.
+
+4. Click **Create**. In the **Create Policy** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Policy Name | The name of the policy, which is used only for identification. The name must be unique. |
+   | Priority | The priority of the policy. Valid values: 1 to 99. A smaller value specifies a higher priority. |
+   | Status | The status of the policy. |
+   | Actions | The action that you want to perform if a command is matched during O&amp;M. Valid values:<br>• Allow: runs the command.<br>• Close Session: closes the session.<br>• Block Request: blocks the command. |
+   | Log Level | The level of a command that is displayed in logs if the command is matched during O&amp;M. Valid values:<br>• Prompt: If a command is matched, the level of the command is displayed as info in logs.<br>• Low Risk: If a command is matched, the level of the command is displayed as low risk in logs.<br>• Medium Risk: If a command is matched, the level of the command is displayed as medium risk in logs.<br>• High Risk: If a command is matched, the level of the command is displayed as high risk in logs.<br>• Invalid: If a command is matched, the level of the command is displayed as invalid in logs. |
+   | Match Mode | The match mode. Valid values: Wildcard Character and Regular Expression Match. |
+   | Command | The command set. Each command must be unique. |
+
+**Modify a database command control policy**
+
+1. In the list of database command control policies, find the policy that you want to manage and click **Edit** in the **Actions** column.
+
+2. In the **Modify Policy** panel<strong>,</strong> modify the policy.
+
+**Enable a database command control policy**
+
+If a policy is disabled, you must enable the policy to allow the policy to take effect.
+
+In the database command control policy list, select a policy that is in the **Disable** state and click **Enable** above the list.
+
+**Disable a database command control policy**
+
+In the list of database command control policies, select a policy that is in the **Enable** state and click **Disable** above the list.
+
+**Delete a database command control policy**
+
+In the list of database command control policies, select the policy that you want to manage and click **Delete** above the list.
+
+<a id="section-5-7"></a>
+
+## 5.7. Auditing
+
+You can view and manage online sessions and review historical sessions. You can also retrieve events by type, view O&M reports by dimension, and view, search for, and export operation logs.
+
+<a id="section-5-7-1"></a>
+
+### 5.7.1. Manage online sessions
+
+You can classify online sessions by O&M user, O&M asset, and protocol. You can also play back, block, view, and search for online sessions.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Audit > Online Sessions**.
+
+**Common search conditions**
+
+| Search condition | Description |
+| --- | --- |
+| Project | Select the project to which the online session belongs. |
+| IP or Domain | Enter the IP address or domain name of the online session. |
+| Source IP Address | Enter the source IP address of the online session. |
+| Service | Select the protocol of the online session from the drop-down list. |
+| Access Control Policy Name | Enter the name of an access control policy for the online session. |
+| Authorization Rule Name | Enter the name of an authorization rule for the online session. |
+
+**Types of online sessions**
+
+**O&M User**
+
+- After you click the **O&M User** tab, online sessions are classified by O&M user.
+
+- After you select a user, the online session list on the right side displays only the online sessions of the **selected user**.
+
+- Click the **sorting** icon to sort the sessions in different ways.
+
+**O&M Asset**
+
+- After you click the **O&M Asset** tab, online sessions are classified by O&M asset.
+
+- After you select an asset, the online session list on the right side displays only the online sessions of the **selected asset**.
+
+**Service**
+
+- After you click the **Service** tab, online sessions are classified by protocol.
+
+- After you select a protocol, the online session list on the right side displays only the online sessions of the **selected protocol**.
+
+**Play back an online session**
+
+In the online session list, find the online session that you want to manage and click **Playback** in the **Actions** column. The browser displays a new online session window and plays back the online session. The right side of the window displays session details.
+
+**Block an online session**
+
+In the online session list, find the online session that you want to manage and click **Block** in the **Actions** column.
+
+**View online session details**
+
+In the online session list, find the online session that you want to manage and click **Details** in the **Actions** column.
+
+<a id="section-5-7-2"></a>
+
+### 5.7.2. Manage historical sessions
+
+You can review, play back, search for, and download historical sessions.
+
+**Review a historical session**
+
+If a green dot is displayed in the Review Status column, the session is **reviewed**. If a gray dot is displayed in the Review Status column, the session is **not reviewed**.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Audit > Historical Sessions**.
+
+4. The following table describes different review methods for historical sessions.
+
+   | Review method | Description |
+   | --- | --- |
+   | Play back a session and the session is automatically reviewed. | In the <strong>Actions</strong> column, click <strong>Playback</strong>. After you play back the session, the session is marked as <strong>reviewed</strong>. |
+   | Review multiple sessions at a time. | Select multiple sessions and click <strong>Mark as Reviewed</strong>. The selected sessions are marked as <strong>reviewed</strong>. |
+   | Review all sessions. | Click <strong>Review All</strong> to mark all sessions as <strong>reviewed</strong>. |
+
+**Export historical sessions**
+
+Click the <img src="assets/032b7b04d1564ab1ecfcce399c842b27.png" width="14" alt=""> icon in the upper-left corner of the page to download the historical session list.
+
+<a id="section-5-7-3"></a>
+
+### 5.7.3. Query an event
+
+You can classify sessions into various events for quick query.
+
+Search for and view an event
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Audit > Event Retrieval**.
+
+4. Select an event type based on your business requirements.
+
+   You can search for events of the Character Command, Graphic Text, File Transfer, and Database Command types.
+
+**Export an event**
+
+Click a tab based on your business requirements. On the tab, click **Export Records**.
+
+<a id="section-5-7-4"></a>
+
+### 5.7.4. Manage ticket records
+
+This topic describes how to view and export ticket records.
+
+**Search for and view ticket records**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Audit > Ticket Records**.
+
+4. Specify filter conditions and click **Search**.
+
+**Export ticket records**
+
+In the upper-right corner of the ticket list, click the <img src="assets/dc63d50bc703254e68031650eb521ff9.png" width="14" alt=""> icon.
+
+<a id="section-5-8"></a>
+
+## 5.8. Reports
+
+<a id="section-5-8-1"></a>
+
+### 5.8.1. Manage custom reports
+
+If the built-in O&M reports and system reports do not meet your requirements, you can create custom reports. The data sources supported by custom reports include users, assets, accounts, historical sessions, and operation logs.
+
+**Create a custom report**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Reports > Custom Reports**.
+
+4. Click **Create**. In the Select Data Source step, enter a template name, select a data source, configure the Filter Conditions parameter, and then click **Next**.
+
+5. In the **Field List** section of the **Template Configuration** step, drag one or more fields to the Statistical Dimension and Statistical indicator sections. When you drag fields to the Statistical indicator section, the Modify Statistical indicator dialog box appears. In this dialog box, configure the display method and statistical method, and then click **Confirm**.
+
+   Click **Display Settings** to specify the sorting method and display quantity. Click **Refresh Preview** to view the data of the custom report.
+
+   For specific fields, you must specify the statistic level when you drag them to the Statistical Dimension section. Examples:
+
+   - For the Department field of the user data source, you must specify the department level for statistics.
+
+   - For the Asset Directory field of the asset data source, you must specify the asset directory level for statistics.
+
+   The display method of statistical indicators can be Numerical Value or Column Summary Percentage.
+
+   The statistical methods of statistical indicators vary based on the field type:
+
+   - Statistical method for fields of the string type: Count.
+
+   - Statistical methods for fields of the numeric type: Count, Average, Sum, Maximum Value, and Minimum Value.
+
+   - Statistical methods for fields of the time type: Count, Maximum Value, and Minimum Value.
+
+   - Some statistical indicators support classification statistics. Valid values of the display quantity in the display settings are 1 to 50. The default value is 10. The data that exceeds the display quantity limit is inducted into other items.
+
+**What to do next Modify a custom report**
+
+Find the template that you want to modify, and click **Edit** in the **Actions** column.
+
+**Preview a custom report**
+
+Find the template that you want to preview, and click **Preview** in the **Actions** column.
+
+**Export a custom report**
+
+Find the template that you want to export, and click **Export** in the **Actions** column.
+
+**Delete a custom report**
+
+Select the template that you want to delete, and click **Delete** above the template list.
+
+<a id="section-5-8-2"></a>
+
+### 5.8.2. View O&M reports
+
+You can view O&M reports from different dimensions.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Reports > O&M Reports**.
+
+4. On the O&M Report page, view the O&M status.
+
+   - Overview: View the total numbers and distributions of different items.
+
+   - O&M Duration: View the O&M duration of each protocol in different time periods.
+
+   - O&M Times: View the number of O&M sessions of each protocol in different time periods.
+
+   - Session Size: View the size of O&M sessions for each protocol in different time periods.
+
+   - Source IP Address: View the number of source IP addresses in different time periods.
+
+   - Transferred Files: View the number of transferred files in different time periods.
+
+   - Character Commands: View the number of SSH, Telnet, and Rlogin commands in different time periods.
+
+   - Activity Duration: View the duration of O&M operations over different protocols in different time periods.
+
+<a id="section-5-8-3"></a>
+
+### 5.8.3. System reports
+
+Bastionhost provides a system report to visualize O&M trends from various perspectives.
+
+**View the system report**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Reports > System Reports**.
+
+4. View various data statistics in the system report.
+
+**Export the system report**
+
+In the upper-right corner of the page, click **Export**. You can export the system report as a DOCX or PDF file.
+
+<a id="section-5-8-4"></a>
+
+### 5.8.4. Manage report subscriptions
+
+You can create a report subscription to send O&M reports, system reports, global comprehensive analysis reports, and custom reports to specific users at the scheduled time. Reports can be sent only by emails. Make sure that the email service and email addresses are configured for the specified users to receive emails.
+
+**Create a report subscription**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Reports > Report Subscription**.
+
+4. Click **Create Subscription**. In the Create Report Subscription panel, turn on Status, configure the Subscription Name, Subscription content, Sending Period, and Notification Method parameters, click **Add** to add users as recipients, and then click **Confirm**.
+
+**Send reports**
+
+You can immediately send reports in a subscription to the specified users.
+
+Select a subscription in the subscription list and click **Send** above the list.
+
+**Disable, enable, and delete a subscription**
+
+Select a subscription in the subscription list and click Disable, Enable, or Delete above the list
+
+<a id="section-5-9"></a>
+
+## 5.9. Configurations
+
+<a id="section-5-9-1"></a>
+
+### 5.9.1. Manage a project
+
+Bastionhost allows you to manage assets, accounts, and authorization rules by project.
+
+**Background information**
+
+After you install Bastionhost, a project named default is automatically created.
+
+**View the default project**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Configure > Project Management**.
+
+4. On the Project Management page, view the default project.
+
+<a id="section-5-9-2"></a>
+
+### 5.9.2. Manage cloud drives
+
+You can create a cloud drive and authorize a user to use the cloud drive.
+
+> **Note**
+>
+> - In standalone mode, you can create a cloud drive of the local storage, SFTP storage, or NFS storage type.
+>
+> - In high availability mode, you can create a cloud drive of the SFTP storage or NFS storage type. The local storage type is not supported.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Settings > Disk Management**.
+
+4. Click **Create new network disk**, select a storage type and configure the basic information about the cloud drive. Authorize a user to use the cloud drive, and then click **Confirm**.
+
+<a id="section-5-9-3"></a>
+
+### 5.9.3. Configure user settings
+
+You can configure authentication security settings and multi-factor authentication settings. You can also manage authentication sources and custom attributes.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Configure > User Configuration**.
+
+**Configure authentication security settings**
+
+On the **Authentication Security** tab, configure the parameters. The following table describes the parameters.
+
+**Parameter**
+
+**Description**
+
+If a user is inactive for the specified period of time, the **Logon**
+
+**Logon timed**
+
+**Expired** dialog box appears. Then, the user must log on to
+
+**out**
+
+Bastionhost again.
+
+If you turn on this switch, a user must enter a verification code when the user logs on to Bastionhost from a browser. If the
+
+**Verification**
+
+specified validity period ends, the verification code becomes
+
+**Code**
+
+invalid. Click Refresh to obtain a new verification code. If you set the validity period to 0, the verification code does not
+
+**Log On**
+
+expire.
+
+**Multi-point**
+
+If you turn on this switch, a user can log on to Bastionhost
+
+**logon**
+
+from multiple locations at the same time.
+
+If you turn on this switch, the admin user cannot log on to
+
+**Disable Admin**
+
+Bastionhost from a browser by using the local authentication method.
+
+If a user consecutively enters an invalid password five times within 30 minutes, the user is automatically locked for 30
+
+**Logon failed**
+
+minutes. After the user is automatically unlocked, the user can log on to Bastionhost again.
+
+**The user is locked**
+
+**Inactive for an**
+
+If you turn on the switch, the system automatically disables a
+
+**extended**
+
+user when the system detects that the user has not logged on
+
+**period**
+
+to the system for the specified period of time.
+
+The length of a password. The password must be 10 to 64
+
+**Length**
+
+characters in length.
+
+The minimum numbers of digits, letters, and special
+
+**Complexity**
+
+characters in a password.
+
+The number of previous passwords that cannot be reused.
+
+**Relevance**
+
+Valid values: 0 to 10. The value 0 specifies that history password check is not performed.
+
+**The password must not be**
+
+If you select this check box, the new password cannot be the
+
+**the same as**
+
+same as the username.
+
+**the username**
+
+**Password**
+
+**The password**
+
+**Policy**
+
+**must not be the same as**
+
+If you select this check box, the new password cannot be the
+
+**the username**
+
+same as the username in reverse order.
+
+**in reverse order**
+
+The validity period of a password. A user can log on to Bastionhost by using the password only within the validity
+
+**Password**
+
+period of the password. Valid values: 0 to 360. Default value:
+
+**Validity Period**
+
+90. Unit: days. The value 0 specifies that the password does
+
+not expire.
+
+The number of days to send an email before a password expires. If you set this parameter to 7, the system sends an
+
+**Alert Before**
+
+email to the user 7 days before the password expires to notify
+
+**Expiration**
+
+the user of password expiration and change. Valid values: 0 to the validity period of the password. Default value: 7. Unit: days. The value 0 specifies that no emails are sent.
+
+**Status**
+
+The status of the policy.
+
+The name of the policy, which is used only for identification.
+
+**Name**
+
+The name must be unique.
+
+The priority of the review rule. Valid values: 1 to 99. A larger
+
+**Priority**
+
+value specifies a higher priority.
+
+The source IP addresses. You can configure the whitelist and blacklist for source IP addresses.
+
+- If you select **The following IP addresses in the blacklist are denied** and enter IP addresses or CIDR blocks in the
+
+**Logon IP**
+
+field of the Logon IP Address Restriction section, the access
+
+**Address**
+
+requests from the IP addresses or CIDR blocks are blocked.
+
+**Restriction**
+
+- If you select **The following IP addresses in the whitelist are allowed** and enter IP addresses or CIDR blocks in the field of the Logon IP Address Restriction section, the access requests from only the IP addresses or CIDR blocks are allowed.
+
+**Access Control Policy**
+
+Click **Add**. In
+
+**Logon Time**
+
+The periods of time during which user logons are allowed and
+
+the **Create**
+
+**Restriction**
+
+blocked.
+
+**Access Control Policy** panel,
+
+The source MAC addresses. You can configure the whitelist and
+
+configure the
+
+blacklist for source MAC addresses. This feature is supported
+
+parameters.
+
+only if Internet Explorer is used.
+
+- If you select **The following MAC addresses in the**
+
+**Valid MAC**
+
+**blacklist are denied** and enter MAC addresses in the field
+
+**Range for**
+
+of the Valid MAC Range for Logon section, the access
+
+**Logon**
+
+requests from the MAC addresses are blocked.
+
+- If you select **The following MAC addresses in the whitelist are allowed** and enter MAC addresses in the field of the Valid MAC Range for Logon section, the access requests from only the MAC addresses are allowed.
+
+The effective scope of the policy. The scope includes users, user groups, and departments.
+
+- To add a department, select a department from the drop-down list. You can select one or more departments.
+
+- To delete a department, click the cross (x) icon next to a
+
+**Scope of**
+
+department name.
+
+**Application**
+
+- To add users or user groups, select User/User Group and choose **Add** > **Add User** or Add > **Add User Group**. In the panel that appears, select the users or user groups and click **Confirm**.
+
+- To delete a user or user group, select the user or user group and click **Delete**.
+
+**Configure authentication methods**
+
+Bastionhost supports the following authentication methods: local, Remote Authentication Dial In User Service (RADIUS), Active Directory (AD), Lightweight Directory Access Protocol (LDAP), Central Authentication Service (CAS), and Security Assertion Markup Language 2.0 (SAML 2.0).
+
+**Configure the local authentication method**
+
+> **Important**
+>
+> After you disable the local authentication method, users cannot log on to Bastionhost by using a password. Proceed with caution.
+
+On the **Authentication Source** tab, enable or disable the local authentication method in the Local Authentication section.
+
+**Configure the RADIUS authentication method**
+
+You can create a RADIUS server to authenticate users who want to log on to Bastionhost. RADIUS is a protocol commonly used for network authentication and authorization. A RADIUS server receives the connection request of a user, authenticates the user, and then returns the required configuration information to the user.
+
+On the **Authentication Source** tab, click RADIUS. In the **Configure RADIUS** panel, configure a RADIUS server and click **Test Connectivity**. After the test succeeds, click **Save**.
+
+**Parameter**
+
+**Description**
+
+The switch to enable or disable the RADIUS authentication method.
+
+Status
+
+Users can use the RADIUS authentication method only after you enable the method.
+
+Authentication Source
+
+The name of the authentication method, which is used only for
+
+Name
+
+identification. The name must be unique.
+
+Server Address
+
+The IP address of the RADIUS server.
+
+Port
+
+The port of the RADIUS server.
+
+Authentication Key
+
+The authentication key of the RADIUS server.
+
+The identifier of the RADIUS server, which is the nastype field in the
+
+NAS Identifier
+
+configuration file of the RADIUS server. If the configuration file does not contain the nastype field, enter the IP address of Bastionhost.
+
+The authentication mode of the RADIUS server.
+
+- Username + Password: If a user wants to log on to Bastionhost, the user must enter the username and password and pass the authentication of the RADIUS server.
+
+- Username + Dynamic Token: If a user wants to log on to Bastionhost, the user must enter the username and a dynamic password and pass the authentication of the RADIUS server.
+
+- Username + Dynamic Token + Token PIN: If a user wants to log on to Bastionhost, the user must enter the username, a dynamic
+
+Validation Mode
+
+password, and the token PIN code, and pass the authentication of the RADIUS server.
+
+A dynamic password can be obtained from the authenticator that is bound to the RADIUS server.
+
+The token PIN code is the PIN code that is configured on the RADIUS server.
+
+<table>
+  <tr>
+    <td>A local user is automatically created and bound after the authentication is passed</td>
+    <td>If you select this check box and a user that passes the authentication of the RADIUS server does not exist in Bastionhost, the user is automatically created in Bastionhost.</td>
+  </tr>
+  <tr>
+    <td>Default User Role</td>
+    <td>The role of the user that is automatically created in Bastionhost after the user passes the authentication of the RADIUS server.</td>
+  </tr>
+</table>
+
+**Configure the AD authentication method**
+
+You can create one or more AD servers to authenticate users who want to log on to Bastionhost.
+
+On the **Authentication Source** tab, click AD. In the **Configure AD** panel, configure the parameters to create an AD server and click **Test Connectivity**. The following table describes the parameters. After the test succeeds, click **Save**.
+
+<table>
+  <tr>
+    <th>Parameter</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Authentication Source Name</td>
+    <td>The name of the authentication method, which is used only for identification. The name must be unique.</td>
+  </tr>
+  <tr>
+    <td>Server Address</td>
+    <td>The IP address of the AD server.</td>
+  </tr>
+  <tr>
+    <td>Domain</td>
+    <td>The domain name of the AD server.</td>
+  </tr>
+  <tr>
+    <td>Port</td>
+    <td>The port number of the AD server. If you select SSL, data is transmitted over SSL. This ensures higher security.</td>
+  </tr>
+  <tr>
+    <td>Base DN</td>
+    <td>The root node of the AD server, which is the start directory to query when the AD server receives an authentication request. For example, dc=test,dc=com indicates that the user is obtained from the root node of the domain test.com server.</td>
+  </tr>
+  <tr>
+    <td>A local user is automatically created and bound after the authentication is passed</td>
+    <td>If you select this check box and a user that passes the authentication of the AD server does not exist in Bastionhost, the user is automatically created in Bastionhost.</td>
+  </tr>
+  <tr>
+    <td>Verify User Base DN during Logon Authentication</td>
+    <td>If you select this check box, when an AD-authenticated user logs on to Bastionhost, the system checks whether the base distinguished name (DN) configured during user synchronization is the same as the base DN of the user on the current AD server.</td>
+  </tr>
+  <tr>
+    <td>Automatic Synchronization</td>
+    <td>If you turn on the switch, the system synchronizes user information from the AD server to Bastionhost based on the specified synchronization cycle.</td>
+  </tr>
+  <tr>
+    <td>Username</td>
+    <td rowspan="2">The username and password of the user on the AD server. You can also leave the password parameter empty.</td>
+  </tr>
+  <tr>
+    <td>Password</td>
+  </tr>
+  <tr>
+    <td>Filter</td>
+    <td>The filter conditions. Users that meet the conditions are synchronized to Bastionhost.</td>
+  </tr>
+  <tr>
+    <td>Synchronization Content</td>
+    <td>The synchronization operation.<br>• Synchronize To: Select the department to which the users synchronized from the AD server belong in Bastionhost.<br>• Synchronous Creation: If a synchronized department, user group, or user does not exist in Bastionhost, the department, user group, or user is automatically created in Bastionhost.<br>• Synchronous Update: If you select this check box and the synchronized user information in Bastionhost is different from the user information on the AD server, the user information in Bastionhost is updated based on the user information on the AD server. This feature requires that the AD authentication method is configured for the user.<br>• Synchronous Deletion: If you select this option and a user that exists in Bastionhost does not exist on the AD server, the user is deleted from Bastionhost. This feature requires that the AD authentication method is configured for the user.<br>• Disable User: If you select this option and a user that exists in Bastionhost does not exist on the AD server, the user is disabled in Bastionhost. This feature requires that the AD authentication method is configured for the user.<br>• No Change: If you select this option and a user that exists in Bastionhost does not exist on the AD server, the user is retained in Bastionhost. This feature requires that the AD authentication method is configured for the user.</td>
+  </tr>
+  <tr>
+    <td>Default User Role</td>
+    <td>The role of the user that is automatically created in Bastionhost after the user passes the authentication of the AD server.</td>
+  </tr>
+  <tr>
+    <td>Mapping Relationship</td>
+    <td>The mapping between local user attributes in Bastionhost and user attributes on the AD server. By default, the mapping between usernames exists.<br>Click <strong>Add</strong> to add user attributes such as the name, email address, mobile phone number, and description.</td>
+  </tr>
+</table>
+
+- Enable or disable an AD server: After you add an AD server, it is disabled by default. Before you can use the AD server, you must manually enable the server. If you no longer use the AD server, you must manually disable the server. You can turn on the switch in the **Configure AD** panel to enable or disable an AD server.
+
+- Manually synchronize users: If automatic synchronization is enabled, users on the AD server are periodically synchronized based on the specified synchronization cycle. If automatic synchronization is disabled, click AD. In the **Configure AD** panel, click **Synchronize Users** in the Actions column. Then, users are immediately synchronized from the AD server to Bastionhost. The synchronized users are displayed on the **User Management** page.
+
+**Configure the LDAP authentication method**
+
+LDAP is a common access protocol for directory services on the Internet. An LDAP server is used to query and update LDAP directories, including user account directories. An LDAP server can effectively solve user account issues of various network services.
+
+On the **Authentication Source** tab, click LDAP. In the **Configure LDAP** panel, configure an LDAP server and click **Test Connectivity**. After the test succeeds, click **Save** or **Save and Synchronize**.
+
+- Save: Save only the configured LDAP server information.
+
+- Save and Synchronize: Save the configured LDAP server information and manually synchronize the departments, user groups, and users on the LDAP server to Bastionhost based on the configured synchronization content.
+
+<table>
+  <tr>
+    <th>Parameter</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Status</td>
+    <td>The switch to enable or disable the LDAP authentication method. Users can use the LDAP authentication method only after you enable the method.</td>
+  </tr>
+  <tr>
+    <td>Authentication Source Name</td>
+    <td>The name of the authentication method, which is used only for identification. The name must be unique.</td>
+  </tr>
+  <tr>
+    <td>Server Address</td>
+    <td>The IP address of the LDAP server.</td>
+  </tr>
+  <tr>
+    <td>Port</td>
+    <td>The port of the LDAP server.</td>
+  </tr>
+  <tr>
+    <td>Base DN</td>
+    <td>The root node of the LDAP server, which is the start directory to query when the LDAP server receives an authentication request.For example, dc=test,dc=com indicates that the user is obtained from the root node of the domain test.com server.</td>
+  </tr>
+  <tr>
+    <td>A local user is automatically created and bound after the authentication is passed</td>
+    <td>If you select this check box and a user that passes the authentication of the LDAP server does not exist in Bastionhost, the user is automatically created in Bastionhost.</td>
+  </tr>
+  <tr>
+    <td>Verify User Base DN during Logon Authentication</td>
+    <td>If you select this check box, when an LDAP-authenticated user logs on to Bastionhost, the system checks whether the base DN configured during user synchronization is the same as the base DN of the user on the current LDAP server.</td>
+  </tr>
+  <tr>
+    <td>Automatic Synchronization</td>
+    <td>If you turn on the switch, the system synchronizes user information from the LDAP server to Bastionhost based on the specified synchronization cycle.</td>
+  </tr>
+  <tr>
+    <td>Username</td>
+    <td rowspan="2">The username and password of the user on the LDAP server.You can also leave the password parameter empty.</td>
+  </tr>
+  <tr>
+    <td>Password</td>
+  </tr>
+  <tr>
+    <td>Filter</td>
+    <td>The filter conditions. Users that meet the conditions are synchronized to Bastionhost.</td>
+  </tr>
+  <tr>
+    <td>Synchronization Content</td>
+    <td>The synchronization operation.<br>• Synchronize To: Select the department to which the users synchronized from the LDAP server belong in Bastionhost.<br>• Synchronous Creation: If a synchronized department, user group, or user does not exist in Bastionhost, the department, user group, or user is automatically created in Bastionhost.<br>• Synchronous Update: If you select this check box and the synchronized user information in Bastionhost is inconsistent with the user information on the LDAP server, the user information in Bastionhost is updated based on the user information on the LDAP server. This feature requires that the LDAP authentication method is configured for the user.<br>• Synchronous Deletion: If you select this option and a user that exists in Bastionhost does not exist on the LDAP server, the user is deleted from Bastionhost. This feature requires that the LDAP authentication method is configured for the user.<br>• Disable User: If you select this option and a user that exists in Bastionhost does not exist on the LDAP server, the user is disabled in Bastionhost. This feature requires that the LDAP authentication method is configured for the user.<br>• No Change: If you select this option and a user that exists in Bastionhost does not exist on the LDAP server, the user is retained in Bastionhost. This feature requires that the LDAP authentication method is configured for the user.</td>
+  </tr>
+  <tr>
+    <td>Default User Role</td>
+    <td>The role of the user that is automatically created in Bastionhost after the user passes the authentication of the LDAP server.</td>
+  </tr>
+  <tr>
+    <td>Mapping Relationship</td>
+    <td>The mapping between local user attributes in Bastionhost and user attributes on the LDAP server. By default, the mapping between usernames exists.<br>Click <strong>Add</strong> to add user attributes such as the name, email address, mobile phone number, and description.</td>
+  </tr>
+</table>
+
+**Configure the CAS authentication method**
+
+If you enable the CAS authentication method, a user requires only one authentication by the CAS server by using the username and password. Then, the user can access other mutually trusted application systems without the need for logons.
+
+On the **Authentication Source** tab, click CAS. In the **Configure CAS** panel, configure the parameters to create an CAS server and click Test Connectivity. The following table describes the parameters. After the test succeeds, click **Save**.
+
+| Parameter | Description |
+| --- | --- |
+| Status | The switch to enable or disable the CAS authentication method. Users can use the CAS authentication method only after you enable the method. |
+| Authentication Source Name | The name of the authentication method, which is used only for identification. The name must be unique. |
+| Authentication Source Logo | The custom logo of the CAS server. Click <strong>Upload Image</strong> and select an image from your computer. |
+| CAS Version | The version of the CAS server. Valid values: CAS2.0 and CAS3.0. |
+| CAS URI Prefix | The URL of the CAS server. |
+| CAS Logon URL | The URL of the CAS server for single sign-on (SSO). If a CAS-authenticated user who does not log on to the CAS server and Bastionhost wants to log on to Bastionhost from a browser, the user is redirected to this URL for logon. |
+| CAS Server Certificate | The certificate of the CAS server. Click <strong>Upload Certificate</strong>, select a PEM certificate file from your computer, and then upload the file to Bastionhost. |
+| A local user is automatically created and bound after the authentication is passed | If you select this check box and a user that passes the authentication of the CAS server does not exist in Bastionhost, the user is automatically created in Bastionhost. |
+| Default User Role | The role of the user that is automatically created in Bastionhost after the user passes the authentication of the CAS server. |
+| Admin User Mapping | After a user on the CAS server logs on to Bastionhost by using SSO, the user is mapped to the admin user if the user attributes returned by the CAS server include the configured attribute and its value is the same as the configured attribute value. |
+| Set CAS as Default Logon Method | If you select this check box, a user who accesses Bastionhost from a browser is automatically redirected to the logon page of the CAS server for authentication. If you do not select this check box, a user who accesses Bastionhost from a browser must manually click the CAS icon to go to the logon page of the CAS server. |
+| Exit from CAS Server upon Logoff | If you select this check box, a CAS-authenticated user automatically logs off from the CAS server when the user logs off from Bastionhost. |
+
+**Configure the SAML 2.0 authentication method**
+
+If you enable the SAML 2.0 authentication method, a user requires only one authentication by the SAML 2.0 server by using the username and password. Then, the user can access other mutually trusted application systems without the need for logons.
+
+On the **Authentication Source** tab, click SAML2. In the **Configure SAML2** panel, configure the parameters to create an SAML 2.0 server and click **Save**. The following table describes the parameters.
+
+| Parameter | Description |
+| --- | --- |
+| Status | The switch to enable or disable the SAML 2.0 authentication method. Users can use the SAML 2.0 authentication method only after you enable the method. |
+| Authentication Source Name | The name of the authentication method, which is used only for identification. The name must be unique. |
+| Authentication Source Logo | The custom logo of the SAML 2.0 server. Click <strong>Upload Image</strong> and select an image from your computer. |
+| Exit from SAML Server upon Logoff | If you select this check box, an SAML 2.0-autenticated user automatically logs off from the SAML 2.0 server when the user logs off from Bastionhost. You must also configure the IDP Logout URL parameter. |
+| IDP Login URL | The URL used to log on to the SAML 2.0 server by using SSO.You can obtain the URL by clicking <strong>Show Meta Information</strong> on the installation page after the SAML 2.0 server is started. |
+| IDP Logout URL | The URL used to log off from the SAML 2.0 server by using SSO. You can obtain the URL by clicking <strong>Show Meta</strong> <strong>Information</strong> on the installation page after the SAML 2.0 server is started. |
+| SP ACS URL | The SAML 2.0 Assertion Consumer Service (ACS) URL of Bastionhost. You must enter this URL in the SAML 2.0 server configuration. |
+| SAML2 Server Certificate | The certificate of the SAML 2.0 server. Click <strong>Upload</strong> <strong>Certificate</strong>, select a PEM certificate file from your computer, and then upload the file to Bastionhost. |
+| IDP Entity ID | The ID of the SAML 2.0 server. |
+| SP Entity ID | The ID of Bastionhost. Default value: USM. |
+| A local user is automatically created and bound after the authentication is passed | If you select this check box and a user that passes the authentication of the CAS server does not exist in Bastionhost, the user is automatically created in Bastionhost. |
+| Default User Role | The role of the user that is automatically created in Bastionhost after the user passes the authentication of the SAML 2.0 server. |
+| Admin User Mapping | After a user on the SAML 2.0 server logs on to Bastionhost by using SSO, the user is mapped to the admin user if the user attributes returned by the SAML 2.0 server include the configured attribute and its value is the same as the configured attribute value. |
+| Mapping Relationship | The mapping between local user attributes in Bastionhost and user attributes on the SAML 2.0 server. By default, the mapping between usernames exists.<br>Click <strong>Add</strong> to add user attributes such as the name, email address, mobile phone number, and description. |
+| Set SAML2 as Default Logon Method | If you select this check box, a user who accesses Bastionhost from a browser is automatically redirected to the logon page of the SAML 2.0 server for authentication. If you do not select this check box, a user who accesses Bastionhost from a browser must manually click the CAS icon to go to the logon page of the SAML 2.0 server. |
+| Exit Signature | If you select this check box, the logoff request is signed when a user logs off from Bastionhost. |
+| Download Metadata | Click Download Metadata to download SAML 2.0 metadata. |
+
+**Configure the multi-factor authentication method**
+
+If you enable the multi-factor authentication method, after a user enters a valid username and password, the user must also enter a valid one-time password (OTP) or text message verification code before the user can log on to Bastionhost. By default, the multi-factor authentication method is disabled.
+
+On the **Multi-factor Authentication** tab, configure the multi-factor authentication method.
+
+| Parameter | Description |
+| --- | --- |
+| Mobile Phone OTP | If you select this check box, a user must bind an OTP app on the Personal Information page of the personal workbench. A user can also be prompted to configure an OTP app the first time the user logs on to Bastionhost from a browser. Then, the user can obtain an OTP and complete multi-factor authentication when the user logs on to Bastionhost.<br>The time deviation is 5 minutes by default and ranges from 0 to 5 minutes. If the time deviation between the mobile phone on which the OTP app is installed and Bastionhost exceeds the specified value, the obtained OTP is invalid. |
+| OTP | If you select this check box, you must import a token file on the OTP Management page and grant a user the token permissions. Then, the user can obtain an OTP and complete multi-factor authentication when the user logs on to Bastionhost. |
+| SMS Token | If you select this check box, you must configure text message settings in the SMS configuration section. This way, a user can obtain a verification code from a text message and complete multi-factor authentication when the user logs on to Bastionhost. |
+
+**Configure custom attributes**
+
+You can configure custom attributes for users.
+
+On the **Custom Attribute** tab, click **Create** to create a custom attribute.
+
+| Parameter | Description |
+| --- | --- |
+| Name | The name of the custom attribute. The name must be unique. |
+| Type | The type of the custom attribute. Valid values: String, Digits, Options, and Date. |
+| Length Limit | If you set the Type parameter to String, you must specify the maximum length of the string. |
+| Option List | If you set the Type parameter to Options, you must configure options. Enter one option in each row. |
+| Valid Scope | • If you set the Type parameter to Date, you must specify a time range. Valid values: Unlimited and Custom.<br>• If you set the Type parameter to Digits, you must specify a numeric range. |
+
+<a id="section-5-9-4"></a>
+
+### 5.9.4. Configure role settings
+
+**Create a role**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Configure > Role Configuration**.
+
+4. Click **Create**. In the **Create Role** panel, enter a name and description for the role, select the required permissions, and then click **Confirm**.
+
+**Modify the information about a role**
+
+1. In the role list, find the role that you want to manage and click **Edit** in the **Actions** column.
+
+2. In the Modify Role panel, modify the name and description of the role, select the required permissions, and then click **Confirm**.
+
+**Delete a role**
+
+1. In the role list, find the role that you want to manage and click **Delete** in the **Actions** column.
+
+2. In the message that appears, click **Confirm**.
+
+<a id="section-5-9-5"></a>
+
+### 5.9.5. Configure assets
+
+<a id="section-5-9-5-1"></a>
+
+#### 5.9.5.1. Manage asset directories
+
+**Create an asset directory**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Configure > Asset Configuration**.
+
+4. On the Asset Directory tab, find the root directory and click **Create Child Directory** in the **Actions** column.
+
+5. In the Create Child Directory panel, enter a directory name and click Confirm.
+
+**What to do next**
+
+- Delete an asset directory: Find the asset directory that you want to manage and click **Delete** in the **Actions** column. In the message that appears, click Confirm.
+
+- Modify an asset directory: Find the asset directory that you want to manage and click **Edit** in the **Actions** column. In the Modify Directory panel, modify the asset directory.
+
+<a id="section-5-9-5-2"></a>
+
+#### 5.9.5.2. Manage network settings
+
+**Create a LAN**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Asset > Network Management**.
+
+4. Click **Add LAN**. In the **Create Network** panel, configure the following parameters and click **Confirm**.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Network Name | The custom name of the LAN, which is used only for identification. |
+   | Remark | The remarks of the LAN. |
+   | Proxy Server | If assets are in different LANs and the LANs are isolated, you can configure a proxy server. This way, users can access the assets in the LANs by using the proxy server.<br>• Create a proxy server<br>Click <strong>Add</strong>. In the <strong>Create Proxy Server</strong> panel, select the protocol between Bastionhost and the proxy server, enter the IP address of the proxy server, the port number of the proxy server, and the username and password of the proxy server. Click <strong>Test</strong> <strong>Connectivity</strong>. After the connection is established, click <strong>Confirm</strong>.<br>• SSH and SOCKS5 are supported. If you select SOCKS5, you can leave the username and password empty for the proxy server and set the Authentication Method parameter to None.<br>• Modify the information about a proxy server<br>Click <strong>Edit</strong>. In the <strong>Modify Proxy Server</strong> panel, modify the information about the proxy server and click <strong>Test Connectivity</strong>.After the connection is established, click <strong>Confirm</strong>.<br>• Delete a proxy server<br>Click <strong>Delete</strong>. |
+
+**Modify the information about a LAN**
+
+Click the <img src="assets/58b47269b767b5a40fe4c3604346f003.png" width="10" alt=""> icon. In the **Modify Network** panel, modify the information about the LAN and
+
+click **Confirm**.
+
+**Delete a LAN**
+
+After you delete a LAN, assets in the LAN are automatically moved to the default LAN. You cannot delete the default LAN.
+
+Click the <img src="assets/f7443382c4eafaf3244136fe5cad53ee.png" width="10" alt=""> icon.
+
+**View the assets in a LAN**
+
+Click the **number of assets** in a LAN. On the **Asset Management** page, view the assets in the network.
+
+<a id="section-5-9-5-3"></a>
+
+#### 5.9.5.3. Configure a password change script
+
+You can configure a password change script and associate the script with multiple accounts to change the passwords of the accounts at a time.
+
+**Create a password change script**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Account > Password Change Script**.
+
+4. Click **Create**. In the **Add Password Change Script** panel, configure the Script Name and Script Command parameters and click **Confirm**.
+
+   Script commands support interactive commands and special keys, which can be included in a script at the same time.
+
+   - Add Interactive Command: Click **Add Interactive Command**. In the **Add Interactive Command** panel, configure the Prompt and Command parameters, select **Break Line After Command Is Submitted** based on your business requirements, and then click **Confirm**.
+
+   - Add Special Key: Click **Add Special Key**. In the **Add Interactive Command** panel, configure the Special Key parameter and click **Confirm**.
+
+**Associate a password change script with an account**
+
+You can associate a password change script with an account.
+
+1. In the password change script list, find the script that you want to manage and click **Associate Account** in the **Actions** column.
+
+2. In the **Associate Account** panel, select the required account and click **Confirm**.
+
+3. In the message that appears, click **Confirm**.
+
+**Dissociate a password change script from an account**
+
+1. In the password change script list, find the script that you want to manage and click the number in the **Associated Accounts** column.
+
+2. In the **Associated Account** panel, select the required account and click **Disassociate**.
+
+**Export a password change script**
+
+In the password change script list, find the script that you want to manage and click **Export** in the **Actions** column.
+
+**Modify a password change script**
+
+1. In the password change script list, find the script that you want to manage and click **Edit** in the **Actions** column.
+
+2. In the **Modify Password Change Script** panel, modify the parameters and click **Confirm**.
+
+**Delete a password change script**
+
+1. In the password change script list, select the script that you want to manage and click **Delete** above the script list.
+
+2. In the message that appears, click **Confirm**.
+
+<a id="section-5-9-5-4"></a>
+
+#### 5.9.5.4. Asset Template
+
+You can create an asset template by configuring information such as the protocols, ports, accounts, system code, and account switch command. When you create an asset, you can select the asset template to quickly reference the configurations.
+
+**Create an asset template**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Configure > Asset Configuration**.
+
+4. On the **Asset Template** tab, click **Create**. In the **Create Template** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Template Name | The name of the custom template, which is used only for identification. |
+   | Template Type | The type of the template. Valid values: OS, DB, NETWORK, and APP. |
+   | Secondary Type | If you set the Template Type parameter to OS, you must select an operating system. Valid values: Linux, Unix, and Windows. |
+   | Enable Service | Select the protocols supported by the asset and click <strong>Configure</strong>. In the <strong>Configure Service</strong> panel, configure the port numbers of the selected protocols. If you do not configure port numbers, the default port number of each protocol is used. |
+   | Default Account | If the same username and password are used for the assets created by using the asset template, you can add the username and password to the template to quickly import the username and password to the assets.<br>• Add an account<br>Click <strong>Add</strong>. In the <strong>Add Asset Account</strong> panel, configure the following parameters: Account Name, Password, Apply to Service, Automatic Password Change, Password Change Script, and Custom Attribute.Then, click <strong>Confirm</strong>.<br>• If you select SSH for the Apply to Service parameter, you can select an SSH key. Then, users can use the SSH key to access the asset. You must create the SSH key on the <strong>Key Management</strong> page in advance.<br>• If you select ORACLE for the Apply to Service parameter, you must select a value for the Connected To parameter based on the user role of the account in Oracle.<br>• You must create a password change script on the <strong>Password</strong> <strong>Change Script</strong> page in advance.<br>• You can manage custom attributes on the <strong>Custom Account</strong> <strong>Attribute</strong> tab.<br>• Modify an account<br>Click <strong>Edit</strong>. In the <strong>Modify Asset Account</strong> panel, modify the account information and click <strong>Confirm</strong>.<br>• Delete an account<br>Click <strong>Delete</strong> to delete the account. |
+   | System Code | The system code. |
+   | Account Switch Command | The command used to switch between accounts. If the SSH- or Telnet-based accounts created by using the asset template use the same account switch command, you can configure the script in the asset template for centralized management. |
+
+**Modify an asset template**
+
+1. In the asset template list, find the template that you want to manage and click **Edit** in the **Actions** column.
+
+2. In the **Modify Template** panel, modify the template information and click **Confirm**.
+
+**Delete an asset template**
+
+1. In the asset template list, find the template that you want to manage and click **Delete** in the **Actions** column.
+
+2. In the message that appears, click **Confirm**.
+
+<a id="section-5-9-5-5"></a>
+
+#### 5.9.5.5. Configure O&M settings
+
+On the O&M Configuration tab, you can configure the O&M logon, O&M duration, and number of sessions.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Configure > Asset Configuration**.
+
+4. On the **O&M Configuration** tab, configure the parameters and click **Save**. The following table describes the parameters.
+
+   **Parameter**
+
+   **Description**
+
+   After you select this check box, the **unauthorized logon** feature is displayed on
+
+   Allow Unauthorized
+
+   the O&M page of the personal workbench. This
+
+   Logons from Web
+
+   feature allows users to log on to unauthorized assets from a browser.
+
+   After you select this check box, the system automatically collects the authorization relationships between users and assets after unauthorized users log on to Bastionhost, and displays the authorization relationships on the
+
+   Collect Unauthorized
+
+   **Authorize** **>** **Unauthorized Logon** page. If an
+
+   Logons
+
+   administrator approves the authorization relationships, the system automatically creates O&M rules. This eliminates the need for manual authorization when the users log on to the assets to perform O&M operations.
+
+   Unauthorized Logon
+
+   After you select this check box, the system
+
+   Collect Passwords of
+
+   automatically collects the account passwords of
+
+   Host Accounts
+
+   unauthorized logon assets.
+
+   After you select this check box, the system automatically creates an authorization relationship (O&M rule) when an unauthorized user logs on to Bastionhost. This eliminates the
+
+   Automatically create
+
+   need for manual authorization when the user
+
+   authorization rules
+
+   logs on to the required asset to perform O&M operations.
+
+   After you select this check box, users can log on to assets by using the Bastionhost account. You can enable this feature in scenarios in
+
+   Allow Logon to Host
+
+   which a user is an Active Directory (AD)- or a
+
+   Using User Password
+
+   Lightweight Directory Access Protocol (LDAP)-authenticated user and the username of the account is the same as the name of the AD- or LDAP-authenticated user.
+
+   Allow Logon to Host
+
+   After you select this check box, users can
+
+   Using User SSH Private
+
+   directly use the SSH private key to log on to
+
+   Key
+
+   assets without passwords.
+
+   After you select this check box, the system supports the SSH-agent-forwarding feature. If
+
+   Allow Logon to SSH
+
+   the same SSH private key is used to log on to
+
+   Server in SSH-Agent-
+
+   Bastionhost and the SSH server, you can enable
+
+   Forwarding Mode
+
+   this feature. If Xshell is used, you must configure SSH banners in the SSH logon section.
+
+   After you select this check box, users can send variables, such as O&M user information and
+
+   Allow Sending
+
+   SSH Logon
+
+   O&M source IP addresses during SSH-based
+
+   Environment Variable
+
+   O&M. You can specify the variable names based on your business requirements.
+
+   After you select this check box, users can log
+
+   Use Command Line
+
+   on to assets by using CLIs when the users
+
+   through Shell
+
+   perform SSH-based O&M.
+
+   <table>
+     <tr>
+       <td>If the idle time exceeds xx, the connection is automatically cut off</td>
+       <td>After you specify a duration, an idle O&amp;M session is automatically disconnected after the duration of the O&amp;M session reaches the specified value. Valid values: 1 to 43200. The value 0 specifies that an idle O&amp;M session is not automatically disconnected.<br>Different protocols have different definitions of idle O&amp;M sessions:<br>• RDP and VNC: No data is sent from the client.<br>• FTP: No data is sent from the command channel and data tunnel.<br>• SSH, Telnet, Rlogin, SFTP, MySQL, SQL Server, Oracle, DB2, PostgreSQL, KingbaseES, and DM: No data is sent from the client and the server.</td>
+     </tr>
+     <tr>
+       <td>When the authorization expires, immediately block the session</td>
+       <td>After you select this check box, O&amp;M sessions are automatically disconnected after O&amp;M rules expire.</td>
+     </tr>
+     <tr>
+       <td>Each user can open at most xx sessions</td>
+       <td>After you specify a value, the number of sessions that a user can establish at the same time cannot exceed the value. Valid values: 0 to<br>100. The value 0 specifies that the number of sessions that a user can establish at the same time is unlimited.</td>
+     </tr>
+     <tr>
+       <td>O&amp;M Method</td>
+       <td>If you select an O&amp;M method, the O&amp;M method is supported. If you do not select an O&amp;M method, the O&amp;M method is not supported.Valid values: Local Client and HTML5 Client.</td>
+     </tr>
+     <tr>
+       <td>Remote Client</td>
+       <td>After you turn on the switch, users can perform O&amp;M operations over Oracle, MySQL, SQL Server, PostgreSQL, or DB2 by using only remote clients. By default, this switch is turned off.</td>
+     </tr>
+   </table>
+
+<a id="section-5-9-5-6"></a>
+
+#### 5.9.5.6. Configure custom attributes for assets
+
+**Create a custom attribute**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Configure > Asset Configuration**.
+
+4. On the **Custom Asset Attribute** tab, click **Create**. In the **Create Attribute** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Name | The name of the custom attribute. The name must be unique. |
+   | Type | The type of the custom attribute. Valid values: String, Digits, Options, and Date. |
+   | Length Limit | If you set the Type parameter to String, you must specify the maximum length of the string. |
+   | Option List | If you set the Type parameter to Options, you must configure options. Enter one option in each row. |
+   | Valid Scope | • If you set the Type parameter to Date, you must specify a time range. Valid values: Unlimited and Custom.<br>• If you set the Type parameter to Digits, you must specify a numeric range. |
+
+**Modify a custom attribute**
+
+1. On the **Custom Asset Attribute** tab, find the custom attribute that you want to manage and click **Edit** in the **Actions** column.
+
+2. In the **Modify Attribute** panel, modify the custom attribute and click **Confirm**.
+
+**Delete a custom attribute**
+
+1. On the **Custom Asset Attribute** tab, find the custom attribute that you want to manage and click **Delete** in the **Actions** column.
+
+2. In the message that appears, click **Confirm**.
+
+<a id="section-5-9-5-7"></a>
+
+#### 5.9.5.7. Configure custom attributes for accounts
+
+**Create a custom attribute**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Configure > Asset Configuration**.
+
+4. On the **Custom Account Attribute** tab, click **Create**. In the **Create Attribute** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Name | The name of the custom attribute. The name must be unique. |
+   | Type | The type of the custom attribute. Valid values: String, Digits, Options, and Date. |
+   | Length Limit | If you set the Type parameter to String, you must specify the maximum length of the string. |
+   | Option List | If you set the Type parameter to Options, you must configure options. Enter one option in each row. |
+   | Valid Scope | • If you set the Type parameter to Date, you must configure a time range. Valid values: Unlimited and Custom.<br>• If you set the Type parameter to Digits, you must configure a number range. |
+
+**Modify a custom attribute**
+
+1. On the **Custom Account Attribute** tab, find the custom attribute that you want to manage and click **Edit** in the **Actions** column.
+
+2. In the **Modify Attribute** panel, modify the custom attribute and click **Confirm**.
+
+**Delete a custom attribute**
+
+1. On the **Custom Account Attribute** tab, find the custom attribute that you want to manage and click **Delete** in the **Actions** column.
+
+2. In the message that appears, click **Confirm**.
+
+<a id="section-5-9-6"></a>
+
+### 5.9.6. Manage operating systems
+
+You can add and manage operating systems and view the number of assets and asset templates associated with existing operating systems.
+
+**Add an operating system**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Configure > Asset Configuration**.
+
+4. On the **Operating System** tab, click **Create**. In the Create operating system dialog box, select a platform, enter a name, and then click **Confirm**.
+
+**What to do next**
+
+- Modify an operating system: Find the operating system that you want to manage and click **Edit** in the **Actions** column. In the Edit operating system dialog box, modify the operating system.
+
+- Disable operating systems: Select one or more operating systems that you want to manage and click **Disable** above the list.
+
+- Enable operating systems: Select one or more operating systems that you want to manage and click **Enable** above the list.
+
+- Remove an operating system: Find the operating system that you want to manage and click **Delete** in the **Actions** column. In the message that appears, click Confirm.
+
+<a id="section-5-9-7"></a>
+
+### 5.9.7. Connect to an application system
+
+A third-party application system can call API operations to connect to Bastionhost. After the application system is connected to Bastionhost, the application system can query the accounts, passwords, and keys of authorized assets.
+
+**Create an access token**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Configure > System Connection**.
+
+4. On the **Access Token** section, click **Create**. In the **Create Access Token** panel, configure the parameters described in the following table and click **Confirm**.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Name | The name of the application system, which is used only for identification. The name must be unique. |
+   | Permission | The user whose access token is in the bastion host. The access token has the same permissions as the selected user. The user must have the asset management or account management permissions to access the authorized account by calling API operations. |
+   | Authentication Method | Only token is supported. |
+
+**Manage access tokens**
+
+- Modify an access token: Find the access token that you want to manage and click **Edit** in the **Actions** column.
+
+- View access logs: Find the access token that you want to manage and click **Access Logs** in the **Actions** column. In the **Access Logs** panel, view the access time and source IP address of the application system.
+
+- Delete an application system: Select the access token that you want to manage and click **Delete** above the access token list. In the message that appears, click Confirm.
+
+**API access control**
+
+1. In the **API Access Control** section, select **Whitelist Mode** for Protection Mode and click **New**.
+
+2. In the **Add Whitelist IP** panel, enter an IP address or a CIDR block and click **Confirm**.
+
+<a id="section-5-10"></a>
+
+## 5.10. System
+
+<a id="section-5-10-1"></a>
+
+### 5.10.1. Manage network settings
+
+You can view network interface information.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Network Management**.
+
+4. On the Network Settings page, view the network interface information.
+
+<a id="section-5-10-1-1"></a>
+
+#### 5.10.1.1. View NIC configurations
+
+You can view the information about network interface controllers (NICs).
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Network Management**.
+
+4. In the **NIC Configuration** section of the **Network Settings** tab, view the NIC information.
+
+<a id="section-5-10-1-2"></a>
+
+#### 5.10.1.2. Configure ports
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Service Management**.
+
+4. On the **Port Configuration** tab, enable or disable a port, or change a port number, and then click **Save**.
+
+<a id="section-5-10-1-3"></a>
+
+#### 5.10.1.3. Configure security settings
+
+If you select High Security in the TLS Security Configuration section, only TLS 1.2 is supported for the File Transfer Protocol Secure (FTPS), Reverse Direction Grant (RDG), and RDP protocols. Triple Data Encryption Standard (3DES) and Secure Hash Algorithm 1 (SHA1) are disabled. This improves system security over the FTPS, RDG, and RDP protocols.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Service Management**.
+
+4. On the **Security Configuration** tab, select or deselect High Security and click **Save**.
+
+<a id="section-5-10-1-4"></a>
+
+#### 5.10.1.4. Configure communication settings
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Service Management**.
+
+4. On the **Communication Configuration** tab, configure the parameters and click **Save**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Mode | Select the mode of the SM communication.<br>• Compatible with SM Communications: supports Rivest-Shamir-Adleman (RSA) and SM<br>• SM Communications Only: supports only SM |
+
+<a id="section-5-10-1-5"></a>
+
+#### 5.10.1.5. Manage web certificates
+
+Bastionhost allows you to upload an SM or RSA certificate, which helps to prevent man-in-the-middle attacks, ensure transmission security, and meet compliance requirements such as Multi-Level Protection Scheme (MLPS). This topic describes how to upload an SM or RSA certificate.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Network Management**.
+
+4. In the **Custom Web Certificate** section of the **Web Certificate Configuration** tab, upload an SM or RSA certificate and click **Save**. The following table describes the related parameters.
+
+   **Parameter**
+
+   **Description**
+
+   Upload an SM certificate. The certificate must have the Key
+
+   **Encryption**
+
+   Encipherment or Key Agreement field. Only certificates in the PEM, DER,
+
+   **Certificate**
+
+   and CRT formats are supported.
+
+   **Encryption**
+
+   Upload an encryption private key. Only SM2 algorithm keys in the KEY
+
+   **Private**
+
+   format are supported.
+
+   **Key**
+
+   **Encryption**
+
+   Enter the encryption password. Leave this parameter empty if no
+
+   **Token**
+
+   password is set.
+
+   Upload a signature certificate. The certificate must support digital
+
+   **Signature**
+
+   signature. Only certificates in the PEM, DER, and CRT formats are
+
+   **Certificate**
+
+   supported.
+
+   **SM Certific ate**
+
+   **Signature**
+
+   Upload a signature private key. Only SM2 algorithm keys in the KEY
+
+   **Private**
+
+   format are supported.
+
+   **Key**
+
+   **Signature**
+
+   Enter the signature password. Leave this parameter empty if no
+
+   **Token**
+
+   password is set.
+
+   Upload a file that contains multiple PEM certificates separated by blank
+
+   **Certificate**
+
+   lines. The certificate chain must be associated with the uploaded
+
+   **Chain**
+
+   certificates.
+
+   Upload an RSA certificate. Only certificates in the PEM, DER, and CRT
+
+   **Certificate**
+
+   formats are supported.
+
+   **Private**
+
+   Upload a private key. Only RSA algorithm keys in the KEY format are
+
+   **Key**
+
+   supported.
+
+   **RSA Certific ate**
+
+   **Encryption**
+
+   Enter the encryption password. Leave this parameter empty if no
+
+   **Token**
+
+   password is set.
+
+   **Certificate**
+
+   Upload a file that contains multiple PEM certificates separated by blank
+
+   **Chain**
+
+   lines. The certificate chain must be related to the uploaded certificates.
+
+<a id="section-5-10-1-6"></a>
+
+#### 5.10.1.6. Configure firewall settings
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Network Management**.
+
+4. On the **Firewall** tab, click **Change** to set the Protection Mode parameter to Whitelist Mode or Blacklist Mode, and click **Confirm**.
+
+   - If the Protection Mode parameter is set to Disable, the firewall feature is disabled, and no IP address whitelist or blacklist needs to be maintained.
+
+   - If the Protection Mode parameter is set to Blacklist Mode, click the Blacklist tab, and then click **Add Blacklist**. In the Add Blacklist panel, configure the blacklist by adding or updating IP addresses and CIDR blocks, and click **Confirm**.
+
+   - If the Protection Mode parameter is set to Whitelist Mode, click the Whitelist tab, and then click **Add Whitelist**. In the Add Whitelist panel, configure the whitelist by adding or updating IP addresses and CIDR blocks, and click **Confirm**.
+
+<a id="section-5-10-2"></a>
+
+### 5.10.2. HA cluster
+
+You can view the information about cluster nodes.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > HA or Cluster**.
+
+4. In the Cluster Node List section, view the information about cluster nodes.
+
+<a id="section-5-10-3"></a>
+
+### 5.10.3. Configure Syslog servers
+
+You can configure one or more Syslog servers.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Service Management**.
+
+4. On the **Log Shipping** tab, change the Status switch, configure the parameters, and then click **Send Test Data**. After the test succeeds, click **Save**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Sender ID | The ID of the user who sends logs to the Syslog server, which is used for identification. |
+   | Server Address | The IP address and port of the Syslog server.<br>• Click the<img src="assets/2009d99476b0cb9be82ec45a013338fe.png" width="12" alt="">icon to add a Syslog server.<br>• Click the<img src="assets/fa80f300b5bd43bc15aafa1b3c8397bc.png" width="12" alt="">icon to delete the Syslog server. |
+   | Send Data | The type of logs that you want to send to the Syslog server. Valid values: Operation Logs and Alert Logs. |
+
+<a id="section-5-10-4"></a>
+
+### 5.10.4. Manage data
+
+<a id="section-5-10-4-1"></a>
+
+#### 5.10.4.1. Manage basic data
+
+**View the OSS storage status**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Data Management**.
+
+4. On the **Data Management** tab, view the storage status of Object Storage Service (OSS).
+
+**Configure automatic storage cleanup**
+
+On the **Data Management** tab, configure automatic storage cleanup and click **Save**.
+
+<a id="section-5-10-4-2"></a>
+
+#### 5.10.4.2. Manage a file server
+
+**Create a file server**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Service Management**.
+
+4. On the **File Server** tab, click **Create**.
+
+5. In the **Create File Server** panel, configure the parameters and click**Test Connectivity**. After the test succeeds, click **Save**. The following table describes the parameters
+
+   <table>
+     <tr>
+       <th>Parameter</th>
+       <th>Description</th>
+     </tr>
+     <tr>
+       <td>Name</td>
+       <td>The name of the file server, which is used only for identification.</td>
+     </tr>
+     <tr>
+       <td>Address</td>
+       <td>The address of the file server.</td>
+     </tr>
+     <tr>
+       <td>Service</td>
+       <td>The protocol used by the file server.</td>
+     </tr>
+     <tr>
+       <td>Port</td>
+       <td>The port number of the file server. The default port number for FTP is 21 and for SFTP is 22. Enter the actual port number of the file server.</td>
+     </tr>
+     <tr>
+       <td>Account Name</td>
+       <td rowspan="2">The username and password used to log on to the file server.</td>
+     </tr>
+     <tr>
+       <td>Password</td>
+     </tr>
+   </table>
+
+**Modify a file server**
+
+1. On the **File Server** tab, find the server that you want to manage and click **Edit** in the **Actions** column.
+
+2. In the **Modify File Server** panel, modify the information and click **Test Connectivity**. After the test succeeds, click **Save**.
+
+**Delete a file server**
+
+On the **File Server** tab, select the file server that you want to manage and click **Delete**.
+
+<a id="section-5-10-4-3"></a>
+
+#### 5.10.4.3. Configure system backup files
+
+You can back up the current configurations and data of the system. If an error occurs or data is lost, you can use the system backup files for restoration.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Data Management**.
+
+4. On the **Configuration Backup** tab, perform the related operations.
+
+**Configure the sending method for system backup files**
+
+After you turn on the switch, the system backup files that are automatically and manually created are sent to the configured file server for storage. Make sure that you configured a file server.
+
+In the **System Backup Sending Method** section, turn on the switch, select a file server, enter the absolute path of system backup files, and then click **Save**.
+
+**Manually create a system backup file**
+
+In the **Backup List** section, click **Create**. In the **Create System Configuration Backup** panel, configure the Remark parameter and click **Confirm** to manually create a system backup file.
+
+**Automatically create a system backup file**
+
+After you enable the automatic backup feature, the system automatically creates a system backup file based on the specified time.
+
+In the **Backup List** section, click **Automatic Backup Configuration**. In the **Automatic Backup Configuration** panel, turn on the switch, specify the backup cycle, number of system backup files to be retained, and backup start time, and then click **Confirm**.
+
+> **Note**
+>
+> We recommend that you set the backup start time to a point in time during off-peak hours to minimize the impact on your workloads.
+
+In the **Backup List** section, you can manage system backup files.
+
+- Click **Download** to download a system backup file to your computer.
+
+- Click **Restore** to restore the system based on the configuration data in a system backup file.
+
+- Select a system backup file and click **Delete** to delete the system backup file.
+
+**Restore the system based on the configuration data in a system backup file**
+
+In the **Upload and Restore System Configuration** section, click **Upload** and select a system backup file.
+
+After the system backup file is uploaded, click **Restore** to restore the system based on the configuration data in the system backup file.
+
+<a id="section-5-10-4-4"></a>
+
+#### 5.10.4.4. Configure log backup files
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Data Management**.
+
+4. On the **Log Backup** tab, click **Create**.
+
+5. In the **Create Backup Log** panel, specify the backup time period, description, and log type, and click **Confirm**.
+
+**Download a log backup file**
+
+On the **Log Backup** tab, find the log backup file that you want to manage and click **Download** in the **Actions** column to download the log backup file to your computer.
+
+**Delete a log backup file**
+
+On the **Log Backup** tab, select the log backup file that you want to manage and click **Delete** to delete the selected file.
+
+<a id="section-5-10-4-5"></a>
+
+#### 5.10.4.5. Restored updated data
+
+You can use a configuration backup file of V3.8222.x or earlier to restore data. After the restoration, the backup data overwrites the current system data.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Data Management**.
+
+4. On the **Data Upgrade and Restore** tab, upload a configuration backup file.
+
+5. After the file is uploaded, click **Restore**.
+
+<a id="section-5-10-5"></a>
+
+### 5.10.5. Configure monitoring and alerting
+
+<a id="section-5-10-5-1"></a>
+
+#### 5.10.5.1. View resource monitoring
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Monitor or Alert**.
+
+4. On the **Resource Monitoring** tab, view the status of system resources, such as the CPU utilization, memory usage, network speed, and disk read and write speed.
+
+<a id="section-5-10-5-2"></a>
+
+#### 5.10.5.2. Configure alert settings
+
+When the resource usage exceeds the specified thresholds, the system sends an alert log by internal message, email, or text message, or to a Syslog server.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Monitor or Alert**.
+
+4. On the **Alert Configuration** tab, configure the thresholds and click **Save**.
+
+<a id="section-5-10-5-3"></a>
+
+#### 5.10.5.3. Configure the notification settings
+
+You can configure the notification methods and recipients.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Service Management**.
+
+4. On the **Notifications** tab, configure the notification methods and recipients.
+
+   - Configure notification methods
+
+     Select the Internal Message, Email, or SMS notification method based on your business requirements.
+
+     ![](assets/374e078a56e7f044df87eecd45d80570.jpeg)
+
+   - Add notification recipients
+
+     <ol type="a">
+
+     <li>
+
+     Find a message that you want to manage and click **Add** in the Actions column or select a message and click **Batch Add Recipients**.
+
+     ![](assets/c836e060c6ac0cc89cc4f0926d1a3273.jpeg)
+
+     </li>
+
+     <li>
+
+     In the **Select User** panel, search for users or select users by department, and then click **Confirm**.
+
+     </li>
+
+     </ol>
+
+   - Remove notification recipients
+
+     Click the <img src="assets/d49fedaed9d792c50d4ee86e260617ac.png" width="10" alt=""> icon next to a recipient to remove the recipient, or perform the following
+
+     operations to remove multiple recipients at a time:
+
+     <ol type="a">
+
+     <li>
+
+     Select the messages that you want to manage and click **Batch Remove Recipients**.
+
+     </li>
+
+     <li>
+
+     In the **Select User** panel, select the users that you want to manage and click **Confirm** to remove the selected users at a time.
+
+     </li>
+
+     </ol>
+
+<a id="section-5-10-5-4"></a>
+
+#### 5.10.5.4. Configure notification methods
+
+**Configure email settings**
+
+You can configure an email server.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Service Management**.
+
+4. In the **Email Configuration** section of the **Notification Configuration** tab, turn on the switch, configure an email server, and then click **Test**. After the test succeeds, click **Save**.
+
+**Configure text message settings**
+
+You can configure a custom text message gateway or configure Alibaba Cloud Short Message Service (SMS).
+
+- Custom SMS Gateway: In the **SMS Configuration** section of the **Notification Configuration** tab, select **Custom SMS Gateway** from the Status drop-down list and configure the parameters. Click **Send Test Information**. After the test succeeds, click **Save**.
+
+- Alibaba Cloud SMS Service: In the **SMS Configuration** section of the **Notification Configuration** tab, select **Alibaba Cloud SMS Service** from the Status drop-down list and configure the parameters. Click **Send Test Information**. After the test succeeds, click **Save**.
+
+<a id="section-5-10-6"></a>
+
+### 5.10.6. System logs
+
+<a id="section-5-10-6-1"></a>
+
+#### 5.10.6.1. Manage operation logs
+
+You can configure levels, and export and view operation logs.
+
+**Search for an operation log and view the log details**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **Audit > Operation Logs**.
+
+4. On the Operation Logs page, search for an operation log and view the log details by time range, level, and username.
+
+5. In the **Actions** column, click **Details** to view the log details.
+
+**Configure log levels for operation logs**
+
+1. In the upper-right corner of the operation log list, click **Configure**.
+
+2. In the **Operation Log Configuration** panel, configure log levels and click **Save Changes**.
+
+**Export operations logs**
+
+In the upper-left corner of the operation log list, click **Export Records**.
+
+<a id="section-5-10-6-2"></a>
+
+#### 5.10.6.2. Manage alert logs
+
+You can view, confirm, and export alert logs.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Monitor or Alert**.
+
+4. On the **Alert Logs** tab, view historical alert logs, log confirmation time, and users who confirm the alert logs.
+
+   - Select the alert log that you want to manage and click **Confirm Alert** to confirm the alert log. If you confirm the alert log, you acknowledge the alert log.
+
+   - Click the <img src="assets/8f24be3b9ee053409389c2ca464adae4.png" width="13" alt=""> icon. In the **Export** dialog box, enter the encryption password of the file to be
+
+     exported. The encryption password is used to decrypt the exported ZIP package. We recommend you configure an encryption password to ensure the security of the file.
+
+<a id="section-5-10-7"></a>
+
+### 5.10.7. Local maintenance
+
+<a id="section-5-10-7-1"></a>
+
+#### 5.10.7.1. Configure settings on the Country or Region tab
+
+**Configure the system time**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Service Management**.
+
+4. In the **System Time** and **Configuration of System Time Synchronization** sections of the **Country or Region** tab, configure the system time based on your business requirements.
+
+   - To configure the time server, enter the address of the time server and click **Save**. You can configure the address of the time server. The default address is time.windows.com.
+
+   - To manually synchronize the system time, click **Synchronize Server Time** to synchronize the time of the time server, or click **Synchronize Browser Time** to synchronize the time of the current browser.
+
+   - To automatically synchronize the system time, turn on Automatic Synchronization and configure the Synchronization Period parameter. The value can be accurate to minutes. Then, click **Save**. The system automatically synchronizes the time from the configured time server based on the specified period.
+
+**Configure a time zone**
+
+You can change the time zone only in standalone mode. If the time zone is different from the current system time zone, Bastionhost is restarted after the change takes effect. Proceed with caution.
+
+In the **Time Zone Configuration** section of the **Country or Region** tab, select a time zone and click **Save**.
+
+- UTC is short for Coordinated Universal Time (UTC).
+
+- GMT is short for Greenwich Mean Time (GMT). You can set the Time Zone parameter to GMT+08:00 for China.
+
+<a id="section-5-10-7-2"></a>
+
+#### 5.10.7.2. Configure language-specific UI
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Local Machine Maintenance**.
+
+4. On the **Language-specific UI** tab, configure settings described in the following table.
+
+   | Setting | Description |
+   | --- | --- |
+   | System Language | In the <strong>System Language</strong> section, select a language from the drop-down list and click <strong>Save</strong>. |
+   | UI Settings | • In the <strong>UI Settings</strong> section, configure the browser favicon, logon page logo, logon page background, and homepage logo by uploading images as prompted, and then click <strong>Save</strong>.<br>• Click <strong>Restore to Default</strong> to restore to the default settings. |
+   | Website Filing Number Setting | In the <strong>Website Filing Number Setting</strong> section, configure the ICP Filing Number, ICP Link Address, Net Security Filing Number, and Net Security Link Address parameters based on your business requirements, and then click <strong>Save</strong>. |
+   | Watermark Settings | In the <strong>Watermark Settings</strong> section, turn on File watermark and Status, configure the Transparency parameter based on your business requirements, and then click <strong>Save</strong>. |
+
+<a id="section-5-10-7-3"></a>
+
+#### 5.10.7.3. Configure announcements
+
+You can configure system announcements. After you customize the content of an announcement, you can push the announcement to the email addresses of users. You can also specify whether to send a pop-up notification after users log on.
+
+**Create an announcement**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Local Machine Maintenance**.
+
+4. On the **Announcement settings** tab, click **Create**. In the Create Announcement panel, enter the title and content of the announcement, click **Upload Image** to upload images, specify whether to send a notification after the announcement is published and whether to pin the announcement to the top, and then click **Confirm**.
+
+**Manage announcements**
+
+- Modify an announcement: Find the announcement that you want to manage and click **Edit** in the **Actions** column. In the Modify Announcement panel, modify the announcement.
+
+- Pin announcements: Select one or more announcements that you want to manage and click **Pin** above the announcement list. In the message that appears, click Confirm.
+
+- Delete announcements: Select one or more announcements that you want to manage and click **Delete** above the announcement list. In the message that appears, click Confirm.
+
+**View announcements**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Logs**. On the page that appears, click the **Announcement** tab.
+
+4. Click an announcement name to view the content and images of the announcement.
+
+<a id="section-5-10-7-4"></a>
+
+#### 5.10.7.4. use diagnostics tools
+
+**Connectivitytesttool Connectivity test tool**
+
+You can test the connectivity of a host address.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Local Machine Maintenance**.
+
+4. In the **Test Connectivity** section of the **Diagnostics Tool** tab, set the operation type to **PING**, enter the host address, and then click **Execute Test**.
+
+The following operation types are supported:
+
+- PING: checks the network connectivity between the bastion host and the specified host address.
+
+- Trace Route: detects the routing information of the bastion host and the specified host address.
+
+- TCP Port Detection: detects the TCP port status of the specified host address.
+
+- UDP Port Detection: detects the UDP port status of the specified host address.
+
+**TCPDUMP packet capture tool**
+
+You can obtain the communication packets between the bastion host and the specified host.
+
+1. In the **TCPDUMP packet capture** section of the **Diagnostics Tool** tab, enter the host IP address, port, listening interface, and number of packets, and then click **Start**.
+
+   > **Note**
+   >
+   > - If you do not specify a port, all communication packets between the bastion host and the host IP address are obtained.
+   >
+   > - If you specify a port, the communication packets between the bastion host and the host IP address over the specified port are obtained.
+
+2. Click **End** and then click **Download** to download the obtained communication packets to your on-premises device. You can view the downloaded files by using tools such as network analyzers.
+
+**System diagnostics tool**
+
+You can download system diagnostic logs for technical engineers to troubleshoot issues.
+
+In the **System Diagnostics Tool** section of the **Diagnostics Tool** tab, click **Download Diagnostics Logs** to download the system diagnostic logs to your on-premises device. You can view the logs after decompressing the downloaded files.
+
+<a id="section-5-10-7-5"></a>
+
+#### 5.10.7.5. Perform health checks
+
+You can perform a health check for the system to check items, including the system license, device status, network status, proxy service status, connection service, storage status, and system status. You can also view and export health reports.
+
+**Perform a health check**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Local Machine Maintenance**.
+
+4. Click the **Health check** tab. In the **Health check** section, click **One-click check** to start the health check.
+
+   Wait a few minutes and refresh the page to view the health check results.
+
+**Export the health report**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+
+3. In the left-side navigation pane, choose **System > Local Machine Maintenance**.
+
+4. Click the **Health check** tab. In the **Health check** section, click **Export health report** to download the health check report to your on-premises computer.
+
+<a id="section-6"></a>
+
+# 6.Use the personal workbench
+
+Before you configure local client tools for protocols, make sure that you download and install Bastionhost Assistant on your computer.
+
+<a id="section-6-1"></a>
+
+## 6.1. Homepage
+
+After you log on to Bastionhost, the homepage is displayed. You can handle to-do items, and view the time and source IP address of the last logon, handled items, and unread messages.
+
+**Handle to-do items**
+
+In the **To-do List** section, click the **To Be Handled by Me or Passed** tab to view the tickets that are pending or approved. Click **Details** in the Actions column of a ticket to go to the ticket review page to review the ticket or view the ticket details.
+
+**Read unread messages**
+
+The **Unread Messages** section displays the unread internal messages.
+
+- Click **Details** to go to the message details page and read the message.
+
+- Click **Read All** to mark all unread messages as read. Then, the messages are removed from the Unread Messages section.
+
+- Click **View More** to go to the message details page. The first message is automatically marked as read.
+
+<a id="section-6-2"></a>
+
+## 6.2. O&M
+
+<a id="section-6-2-1"></a>
+
+### 6.2.1. Configure O&M settings
+
+This topic describes how to configure O&M logon parameters for protocols such as RDP, SSH, Telnet, Rlogin, FTP, SFTP, VNC, X Window System (X11), SQL Server, MySQL, Oracle, Db2, PostgreSQL, KingbaseES, and DM. The O&M logon parameters include the local client tool, session title content, and logon parameters.
+
+**Procedure**
+
+> **Important**
+>
+> Before you configure local client tools for protocols, make sure that Bastionhost Assistant is downloaded and installed on your computer.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the middle navigation pane, click **O&M**.
+
+4. On the **O&M** page, click **O&M Configuration**.
+
+5. In the **O&M Configuration** panel, select a protocol, configure the parameters, and then click **Confirm**.
+
+   > **Important**
+   >
+   > - If Bastionhost Assistant can identify the path of the local client tool, the configuration is complete.
+   >
+   > - If Bastionhost Assistant cannot identify the path of the local client tool, the **Bastionhost Assistant Configuration** dialog box appears. For more information, see Step 6.
+
+   **Parameter**
+
+   **Description**
+
+   The resolution of the session page of the local client tool when
+
+   Resolution
+
+   you configure RDP-based O&M.
+
+   The resolution of the HTML5 session page when you configure RDP-based O&M.
+
+   HTML5 Client Resolution
+
+   Only the default resolution is supported for batch O&M operations.
+
+   The title content and the order in which the content is displayed in an O&M session.
+
+   Session Title
+
+   If you use FTP or SFTP and the local client tool is eFX, FlashFXP, or Xftp, you cannot change the session title.
+
+   If you select this option, you can enable the session management
+
+   Connection Mode
+
+   feature.
+
+   The local devices and resources that can be used for RDP-based
+
+   Local Devices and Resources
+
+   O&M.
+
+   Local Driver
+
+   The drive letters that can be mapped during RDP-based O&M.
+
+   During Browser/Server (B/S) O&M, the local client tool on the computer is called by Bastionhost Assistant to log on to an asset for O&M. You must configure the local client tool on the computer and associate the client tool with a protocol.
+
+   The following section lists the local client tools supported by different protocols in different operating systems:
+
+   - SSH, Telnet, and Rlogin: Xshell, PuTTY, SecreCRT, and MobaXterm
+
+   - FTP and SFTP: Xftp, WinSCP, FileZilla, FlashFXP, SecureFX, and MobaXterm
+
+   - VNC and X11: RealVNC, TightVNC, and TigerVNC
+
+   - SQL Server: SQL Server Management Studio (SSMS), sqlwb, DBeaver, Navicat Premium, Navicat for SQL Server, and SqlDbx Professional
+
+   - MySQL: MySQL CLI, MySQL Workbench, DbVisualizer, DBeaver, MySQL-Front, Navicat Premium, Navicat for MySQL, HeidiSQL, and SqlDbx Professional
+
+   Windows
+
+   - Oracle: PL-SQL (PL/SQL), SQL Plus, Toad, DbVisualizer, DBeaver, Navicat Premium, Navicat for Oracle, and SqlDbx Professional
+
+   - Db2: Db2 CMD, QuestCentral, Toad for Db2, DbVisualizer, and DBeaver
+
+   - PostgreSQL: pgAdmin3, psql, DbVisualizer, DBeaver, HeidiSQL, SqlDbx Professional, Navicat Premium, and Navicat for PostgreSQL
+
+   Local Client
+
+   - KingbaseES: KSQL, LSQL, and DbVisualizer
+
+   - DM: DLSQL, LSQL, DbVisualizer, and DM Manager
+
+   - RDP: Remote Desktop Client
+
+   - SSH, Telnet, and Rlogin: ZOC8
+
+   - FTP and SFTP: FileZilla
+
+   macOS
+
+   - VNC and X11: RealVNC
+
+   - SQL Server, MySQL, Oracle, Db2, PostgreSQL, KingbaseES, and DM: DbVisualizer
+
+   - RDP: Remminaand xfreerdp
+
+   - SSH, Telnet, and Rlogin: PuTTY
+
+   - FTP and SFTP: FileZilla
+
+   - VNC and X11: TightVNC and Remmina
+
+   - SQL Server: DBeaver
+
+   - MySQL: DbVisualizer, MySQL Workbench, MySQL CLI, and DBeaver
+
+   Linux
+
+   - Oracle: DbVisualizer, SQL Plus, and DBeaver
+
+   - Db2: DbVisualizer, CLP Plus, and DBeaver
+
+   - PostgreSQL: DbVisualizer and DBeaver
+
+   - KingbaseES: DbVisualizer
+
+   - DM: DbVisualizer and DM Manager
+
+   The terminal type that is based on the selected local client tool. Valid values: VT100, Xterm, and Linux.
+
+   Terminal Type
+
+   If you set the Local Client parameter to MobaXterm, you cannot configure the terminal type.
+
+   Encoding
+
+   The value is fixed as UTF-8.
+
+   The access mode used to connect to an application server during graphical database O&M.
+
+   - Use an HTML5 RDP client for access: If you select this option,
+
+   Remote Client
+
+   you can use only an HTML5 page to access an application server.
+
+   - Use a local RDP client for access: If you select this option, you can use only a local client tool to access an application server.
+
+   When you perform O&M operations on an Oracle database, you can configure the absolute path of the tnsnames.ora file, such as G:11.2.0\\dbhome_1\\NETWORK\\ADMIN\\tnsnames.ora.
+
+   - If the path of the configuration file is not configured, you can use the local client tool to log on to the database. However, the local client tool does not display the information about the database. PL-SQL (PL/SQL) and SQL Plus use the servicename
+
+   Configuration File Path
+
+   attribute for logon. toad uses the sid attribute for logon.
+
+   - If the path of the configuration file is configured, make sure that the system user of your computer has the permissions to modify the configuration file. The local client tool displays the information about the database. The local client tool determines whether to use the sid or servicename attribute for logon based on the account information that is saved by Bastionhost.
+
+6. Optional. Select the local client tool, click **Browse**, and then select the installation path of the tool. The path must include the name of the .exe application, such as C:\\Users\\wsn\\Desktop\\mysql\\mysql\\Navicat Premium 15\\Navicat Premium 15\\navicat.exe. Then, click **OK** to complete the configuration.
+
+<a id="section-6-2-2"></a>
+
+### 6.2.2. Perform host O&M
+
+<a id="section-6-2-2-1"></a>
+
+#### 6.2.2.1. Perform B/S O&M
+
+**Prerequisites**
+
+Before you perform Browser/Server (B/S) O&M, the following preparations are complete:
+
+- Bastionhost Assistant is downloaded and installed on your computer.
+
+- An O&M tool is downloaded and installed on your computer.
+
+- The O&M tool is configured in the **Workbench > O&M > O&M Configuration** panel.
+
+- The host that you want to manage is added and a host account is created for the host on the **Management Console > Asset > Asset Management** page.
+
+- You are granted permissions on the host account on the **Management Console > Authorize > Authorization Rule** page.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the middle navigation pane, click **O&M**.
+
+4. On the **O&M** page, click **All Assets** or a group. The information about the hosts in the group is displayed on the right side of the page. Find the host that you want to manage,
+
+   move the pointer over the **Access** column, and click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that
+
+   appears, select a value from the **Account or Service** drop-down list, select **Local O&M** for O&M Method, and then click **Log On**.
+
+5. Bastionhost Assistant is called. Click **Open usmsso** to open and log on to the configured O&M tool to start O&M.
+
+6. **Optional**. If you select Set as Default in Step 4, B/S O&M is automatically selected the next time you select the same value from the Account or Service drop-down list.
+
+<a id="section-6-2-2-2"></a>
+
+#### 6.2.2.2. Perform HTML5-based O&M
+
+**Prerequisites**
+
+Before you perform O&M, the following preparations are complete:
+
+- The host that you want to manage is added and a host account is created for the host on the **Management Console > Asset > Asset Management** page.
+
+- You are granted permissions on the host account on the **Management Console > Authorize > Authorization Rule** page.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the middle navigation pane, click **O&M**.
+
+4. On the **O&M** page, click **All Assets** or a group. The information about the hosts in the group is displayed on the right side of the page. Find the host that you want to manage,
+
+   move the pointer over the **Access** column, and click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that
+
+   appears, select a value from the **Account or Service** drop-down list, select **HTML5 O&M** for O&M Method, and then click **Log On**.
+
+   ![](assets/fa07238cb01aaf17da391be25be46b4d.png)
+
+5. **Optional**. If you select **Set as Default** in Step 4, HTML5-based O&M is automatically selected the next time you select the same value from the Account or Service drop-down list.
+
+<a id="section-6-2-2-3"></a>
+
+#### 6.2.2.3. Perform C/S O&M
+
+**Prerequisites**
+
+Before you perform Client/Server (C/S) O&M, the following preparations are complete:
+
+- The Use Command Line through Shell option is deselected in the SSH Logon section on the **Management Console > Configure > Asset Conﬁguration > O&M Conﬁguration** tab. If the Use Command Line through Shell option is selected, authorized assets are not displayed on the SSH logon page.
+
+- The host that you want to manage is added and a host account is created for the host on the **Management Console > Asset > Asset Management** page.
+
+- You are granted permissions on the host account on the **Management Console > Authorize > Authorization Rule** page.
+
+**Procedure**
+
+In this topic, Xshell is used as an example.
+
+1. Start Xshell. Click the New icon on the File menu. In the Properties of New Session dialog box, click Connection in the left-side navigation pane and enter the IP address of Bastionhost and an SSH port number in the General section.
+
+   > **Note**
+   >
+   > The default SSH port is 20022. To view the port number, choose **Management Console** > **System > Service Management > Port Configuration**.
+
+2. In the left-side navigation pane, choose Connection > Authentication and configure the related parameters.
+
+   <ol type="i">
+
+   <li>
+
+   If you select the Password authentication method, enter the username and password of Bastionhost.
+
+   </li>
+
+   <li>
+
+   If you select the Public Key authentication method, configure the public key of your SSH
+
+   </li>
+
+   </ol>
+
+   key pair on Bastionhost and select the private key.
+
+3. Click **Connect**. After Bastionhost is connected, authorized assets are displayed.
+
+4. Press the upward or downward arrow key to select the host for which you want to perform O&M operations, and press the Enter key to access the required host for O&M.
+
+<a id="section-6-2-3"></a>
+
+### 6.2.3. Perform database O&M
+
+You can use a database account on which you have permissions to log on to the database to perform O&M. Only Browser/Server (B/S) O&M is supported.
+
+**Prerequisites**
+
+Before you perform B/S O&M, the following preparations are complete:
+
+- Bastionhost Assistant is downloaded and installed on your computer.
+
+- An O&M tool is downloaded and installed on your computer.
+
+- The O&M tool is configured in the **Workbench > O&M > O&M Configuration** panel.
+
+- A database account is created for the database that you want to manage on the **Management Console > Asset > Asset Management** page.
+
+- You are granted permissions on the database account on the **Management Console > Authorize > Authorization Rule** page.
+
+- Your account is associated with the database and database account on the **Management Console > Policy > Access Control** page.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the middle navigation pane, click **O&M**.
+
+4. On the **O&M** page, click **All Assets** or a group. The information about the hosts in the group is displayed on the right side of the page.
+
+5. Find the database that you want to manage, move the pointer over the **Access** column,
+
+   and click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that appears, select a value from the **Account or**
+
+   **Service** drop-down list, select **Do Not Use** for **Remote Client**, select **Local O&M** for O&M Method, and then click **Log On**.
+
+6. Bastionhost Assistant is called. Click **Open usmsso** to open and log on to the configured O&M tool to start O&M.
+
+<a id="section-6-2-4"></a>
+
+### 6.2.4. Perform remote client O&M
+
+If the client tools or protocols, such as HTTPS, are not supported by Bastionhost, you can use an application server to perform remote client O&M and audit. Remote client O&M supports Browser/Server (B/S) O&M and HTML5-based O&M.
+
+<a id="section-6-2-4-1"></a>
+
+#### 6.2.4.1. Perform B/S O&M
+
+**Prerequisites**
+
+Before you perform Browser/Server (B/S) O&M, the following preparations are complete:
+
+- Bastionhost Assistant is downloaded and installed on your computer.
+
+- An O&M tool is downloaded and installed on your computer.
+
+- A remote client tool is created, the application server and remote client tool are valid, and an application account is added on the **Management Console > Asset > Asset Management** page.
+
+- You are granted permissions on the host account, database account, or application account on the **Management Console > Authorize > Authorization Rule** page.
+
+- Your account is associated with the host account, database account, or application account on the **Management Console > Policy > Access Control** page.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the middle navigation pane, click **O&M**.
+
+4. On the **O&M** page, click **All Assets** or a group. The information about the hosts in the group is displayed on the right side of the page.
+
+5. Find the object that you want to manage, move the pointer over the **Access** column, and
+
+   then click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that appears, select a value from the **Account or**
+
+   **Service** drop-down list, select the remote client tool for **Remote Client**, and then select Local O&M for O&M Method. Then, click **Log On**.
+
+6. Bastionhost Assistant is called. Click **Open usmsso** to open RemoteApp to start O&M.
+
+<a id="section-6-2-4-2"></a>
+
+#### 6.2.4.2. Perform HTML5-based O&M
+
+**Prerequisites**
+
+Before you perform HTML5-based O&M, the following preparations are complete:
+
+- An O&M tool is installed on an application server.
+
+- A remote client tool is created, the application server and remote client tool are valid, and an application account is added on the **Management Console > Asset > Asset Management** page.
+
+- You are granted permissions on the host account, database account, or application account on the **Management Console > Authorize > Authorization Rule** page.
+
+- Your account is associated with the host account, database account, or application account on the **Management Console > Policy > Access Control** page.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the middle navigation pane, click **O&M**.
+
+4. On the **O&M** page, click **All Assets** or a group. The information about the hosts in the group is displayed on the right side of the page.
+
+5. Find the object that you want to manage, move the pointer over the **Access** column, and
+
+   then click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that appears, select a value from the **Account or**
+
+   **Service** drop-down list, select the remote client tool for **Remote Client**, and then select **HTML5 O&M** for O&M Method. Then, click **Log On** to open an HTML5 page and call the remote client tool, such as the configured Google Chrome browser, of the application server to start O&M.
+
+<a id="section-6-2-5"></a>
+
+### 6.2.5. Perform ticket O&M
+
+If you do not have the permissions on the asset on which you want to perform O&M operations and the unauthorized logon O&M feature is disabled, you can submit a ticket to obtain the O&M permissions on the asset.
+
+- If the asset type is a host account, you can use the account to perform Browser/Server (B/S) O&M and HTML5-based O&M.
+
+- If the asset type is a database account, you can use the account to perform only B/S O&M.
+
+<a id="section-6-2-5-1"></a>
+
+#### 6.2.5.1. Perform B/S O&M
+
+**Prerequisites**
+
+Before you perform Browser/Server (B/S) O&M, the following preparations are complete:
+
+- You are granted the permissions on the asset on which you want to perform O&M operations on the **O&M** page of the workbench.
+
+- Bastionhost Assistant is downloaded and installed on your computer.
+
+- If the asset type is a host account or a database account, the following requirements are met:
+
+  - An O&M tool is downloaded and installed on your computer.
+
+  - The O&M tool is configured in the **O&M > O&M Configuration** panel of the workbench.
+
+- If the asset type is an application account, the following requirements are met:
+
+  - An O&M tool is downloaded and installed on the application server.
+
+  - The O&M tool and the application server that is associated with the application are valid on the **Asset > Remote Client** tab.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the middle navigation pane, click **O&M**.
+
+4. On the **O&M** page, click the **Ticket** directory and select an approved ticket. The information about the asset is displayed on the right side of the page.
+
+5. Move the pointer over the **Access** column and click the
+
+   <img src="assets/f6d7bdf92e5db8ac85e495f7f540b7d3.jpeg" width="24" alt="">
+
+   icon. In the dialog box that appears, select a value from the **Account or Service** drop-down list, select **Local O&M** for O&M Method, and then click **Log On**. Bastionhost Assistant is called.
+
+6. Click **Open usmsso** to open and log on to the configured O&M tool to start O&M.
+
+<a id="section-6-2-5-2"></a>
+
+#### 6.2.5.2. Perform HTML5-based O&M
+
+**Prerequisites**
+
+Before you perform O&M, the following preparations are complete:
+
+You are granted the permissions on the asset on which you want to perform O&M operations on the **O&M** page of the personal workbench.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the middle navigation pane, click **O&M**.
+
+4. On the **O&M** page, click the **Ticket** directory and select an approved ticket. The information about the asset is displayed on the right side of the page.
+
+5. Move the pointer over the **Access** column and click the show more icon. In the dialog box that appears, select a value from the **Account or Service** drop-down list and select **HTML5 O&M** for O&M Method. Then, click **Log On** to open an HTML5 page and log on to the host to start O&M.
+
+   ![](assets/fa07238cb01aaf17da391be25be46b4d.png)
+
+<a id="section-6-2-6"></a>
+
+### 6.2.6. Manage the favorite list
+
+After you add an asset to the favorite list, you can log on to the asset to perform O&M in an efficient manner.
+
+<a id="section-6-2-6-1"></a>
+
+#### 6.2.6.1. Add an asset to the favorite list
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the middle navigation pane, click **O&M**.
+
+4. On the **O&M** page, click the **All Assets** directory. The asset information is displayed on the right side of the page.
+
+5. Click the <img src="assets/1c51a1b266d1e76d86e446e597ea4f99.png" width="10" alt=""> icon to add an asset to the favorite list.
+
+<a id="section-6-2-6-2"></a>
+
+#### 6.2.6.2. Manage the favorite list
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the middle navigation pane, click **O&M**.
+
+4. On the **O&M** page, click the **Favorites** directory. The assets that are added to the favorite list are displayed on the right side of the page.
+
+5. Find the asset that you want to manage, move the pointer over the **Access** column, and
+
+   then click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="14" alt=""> icon. In the dialog box that appears, select a value from the **Account or**
+
+   **Service** drop-down list, select **HTML5 O&M** for O&M Method, and then click **Log On**.
+
+<a id="section-6-2-7"></a>
+
+### 6.2.7. Log on to multiple assets and perform O&M at a time
+
+You can log on to multiple assets and perform O&M at a time.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the middle navigation pane, click **O&M**.
+
+4. On the **O&M** page, click the **Favorites, Ticket, or All Assets** directory. The asset information is displayed on the right side of the page.
+
+5. Find the asset that you want to manage, move the pointer over the **Access** column, and
+
+   then click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that appears, select a value from the Account or
+
+   Service drop-down list, configure the O&M Method parameter, and then click **Set as Default**
+
+6. Select multiple assets and click **Batch Logon** to log on to the selected assets and perform O&M at a time.
+
+> **Note**
+>
+> If you click Batch Logon in the **All Assets** directory and the selected assets that use the same protocol have the same accounts, the **Batch Logon** dialog box appears. You must configure the O&M method, logon protocol, and logon name. Then, you can click **Log On** to start O&M.
+>
+> - Default Method: Use the default O&M method of each asset.
+>
+> - Custom: Select the same logon protocol, logon name, and O&M method for the selected assets.
+
+<a id="section-6-2-8"></a>
+
+### 6.2.8. Perform HTML5-based collaborative O&M
+
+Multiple Bastionhost users can perform HTML5-based collaborative O&M.
+
+**Procedure**
+
+1. Go to the O&M page. For more information, see Perform host O&M, Perform database O&M, or Perform remote client O&M.
+
+2. Click the arrow on the right side of the page to expand the operation section.
+
+   ![](assets/594d1fa4f1501f09ce5302ac28d3263d.png)
+
+3. On the **Collaborative Operation and Management** tab, click **Start Sharing**.
+
+4. Click **Invite**. A dialog box appears.
+
+5. After you specify the reason for the invitation, click **Click to generate invitation link** to generate a link.
+
+6. Copy the link and send the link to a Bastionhost user.
+
+7. After the Bastionhost user receives the link, the user can paste the link in the browser and log on to Bastionhost. In the dialog box that appears, click **Join Collaboration** to open the HTML5-based O&M page.
+
+8. The user joins the HTML5-based collaborative O&M.
+
+9. The user is displayed on the collaborative O&M tab.
+
+<a id="section-6-2-9"></a>
+
+### 6.2.9. Perform unauthorized logon O&M
+
+If you do not have the permissions on the asset on which you want to perform O&M, you can perform unauthorized logon O&M to access the asset.
+
+> **Note**
+>
+> By default, the unauthorized logon feature is disabled. To use this feature, you must select **Allow Unauthorized Logons from Web** on the **ConfigureAsset ConfigurationO&M Configuration** tab. For more information, see Configure O&M settings.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the middle navigation pane, click **O&M**.
+
+4. On the **O&M** page, click **Unauthorized Logon**. The **Unauthorized Logon** dialog box appears.
+
+5. The following table describes the parameters that you can configure to log on to an asset. After the configuration is complete, click **OK**.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Project | The project to which the asset belongs. |
+   | Service | The protocol that is used to log on to the asset. Valid values: RDP, SSH, TELNET, VNC, X11, SFTP, FTP, SQL Server, MySQL, ORACLE, DB2, PostgreSQL, KINGBASE, DM, and RLOGIN. |
+   | IP | The IP address of the asset. |
+   | Port | The port of the asset. We recommend that you use the default port. |
+   | Account | The account of the asset. |
+   | Password | The password of the asset account. |
+   | O&amp;M Method | The O&amp;M method. Valid values: Local O&amp;M and HTML5 O&amp;M. |
+
+<a id="section-6-2-10"></a>
+
+### 6.2.10. Manage assets by group
+
+You can create three-level groups in the **All Assets** directory to manage all assets by group.
+
+**Create a group**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the middle navigation pane, click **O&M**.
+
+4. In the right-side navigation pane of the **O&M** page, move the pointer over the **All Assets**
+
+   directory or a group. The <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon appears on the right side of the pane.
+
+5. Move the pointer over the <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and click **Create Group**. A field is displayed.
+
+6. Enter a group name in the field and click the <img src="assets/00f78f6b6575fe6a3dee266d167ea860.png" width="10" alt=""> icon next to the field to create a group.
+
+**Edit a group**
+
+1. In the right-side navigation pane of the **O&M** page, move the pointer over the **All Assets**
+
+   directory or a group. The <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon appears on the right side of the pane.
+
+2. Move the pointer over the <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and click **Modify Group**. A field is displayed.
+
+**Delete a group**
+
+1. In the right-side navigation pane of the **O&M** page, move the pointer over the **All Assets**
+
+   directory or a group. The <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon appears on the right side of the pane.
+
+2. Move the pointer over the <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and click **Delete Group**. A message is displayed. Click
+
+   Confirm to delete the group and its sub groups.
+
+**Add an asset to a group**
+
+1. On the **O&M** page, click **Ungrouped** in the **All Assets** directory. The information about the assets that are not added to groups is displayed on the right side of the page.
+
+2. Select the asset that you want to add to a group, click **Join Group**, select the group to which you want to add the asset, and then click **Confirm**.
+
+**Remove an asset from a group**
+
+1. On the **O&M** page, click a group in the **All Assets** directory. The information about the assets that are added to the group is displayed on the right side of the page.
+
+2. Select the asset that you want to remove from the group, click **Remove from Group**, select the group to which you want to add the removed asset, and then click **Confirm**. The asset is added to the new group.
+
+<a id="section-6-3"></a>
+
+## 6.3. Tickets
+
+<a id="section-6-3-1"></a>
+
+### 6.3.1. Create a ticket
+
+> **Note**
+>
+> If a ticket applicant and the ticket reviewer want to be notified by email, make sure that an email server is configured and email addresses are configured for the ticket applicant and ticket reviewer.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Tickets**.
+
+4. Click **Create Ticket**. In the panel that appears, configure the parameters and click **Confirm**. The following table describes the parameters.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Project | The project to which the ticket belongs. |
+   | Ticket Name | The name of the ticket. The name can be up to 30 characters in length. If you do not specify this parameter, the system uses the ticket number as the ticket name. |
+   | Validity Period | • Start date: the start time of the validity period of the ticket. The start time of the validity period cannot be earlier than the current time.<br>• End date: the end time of the validity period of the ticket. |
+   | Application Reason | The reason for the ticket application. The reason can be up to 120 characters in length. |
+   | Asset Account | The account to which the ticket is bound. After the ticket is approved, the ticket applicant can perform O&amp;M operations by using the account. |
+   | Operation Permissions | • Automatic Matching: The ticket is submitted to apply for the permissions specified in policies.<br>• Apply: The ticket is submitted to apply for file transfer and command permissions. The file transfer and command permissions have a higher priority than the permissions specified in policies. |
+
+<a id="section-6-3-2"></a>
+
+### 6.3.2. Cancel a ticket
+
+The ticket applicant can cancel the ticket that is in the pending state to stop the application.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Tickets**.
+
+4. On the **Ticket** page, find the ticket that you want to manage and click **Cancel Application** in the **Actions** column.
+
+<a id="section-6-3-3"></a>
+
+### 6.3.3. View the details of a ticket
+
+> **Note**
+>
+> Users who have different permissions can view different types of tickets.
+>
+> - Users who have the ticket review permissions can view the status, review process, and details of pending and handled tickets.
+>
+> - Users who have the permissions to submit tickets can view the status, review process, and details of submitted tickets.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Tickets**.
+
+4. On the **Ticket** page, click the **Submitted, Pending**, or **Processed** card to view the review status, applicant, and summary of the tickets.
+
+5. **Optional**. Click the <img src="assets/72d7e6d0058eb51adf6df9635adb2862.png" width="13" alt=""> icon to view the review process and information about a ticket.
+
+6. **Optional**. Click **Details** to view the details of a ticket.
+
+<a id="section-6-3-4"></a>
+
+### 6.3.4. Search for a ticket
+
+You can search for a ticket by review status, applicant, application reason, or ticket number.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Tickets**.
+
+4. On the **Ticket** page, click the **Submitted, Pending**, or **Processed** card to go to the required ticket list.
+
+5. Enter a search condition and click **Search** to search for a ticket.
+
+<a id="section-6-3-5"></a>
+
+### 6.3.5. Review a ticket
+
+<a id="section-6-3-5-1"></a>
+
+#### 6.3.5.1. Review a ticket
+
+After you create a ticket, the system automatically triggers the review process. After the ticket is approved by a security administrator, the applicant can perform O&M operations on the required asset.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Tickets**.
+
+4. On the **Ticket** page, find the ticket that you want to manage and click **Approve** or **Reject** in the **Actions** column.
+
+   You can also click **Details**. In the Ticket Details panel, click **Approve** or **Reject**.
+
+<a id="section-6-3-5-2"></a>
+
+#### 6.3.5.2. Review a ticket by using a review code
+
+The system sends a review code to the selected reviewer by email. The ticket applicant can request the review code from the reviewer. Then, the applicant can use the review code to complete the ticket review process.
+
+**Procedure**
+
+1. After the ticket review process is triggered, click **Ticket** of the **workbench** to go to the ticket application page.
+
+2. Click the <img src="assets/72d7e6d0058eb51adf6df9635adb2862.png" width="13" alt=""> icon in the ticket list. In the **Approval Process** dialog box, select a reviewer
+
+   and click **Send Approval Code**. The review code is sent to the email address of the reviewer.
+
+3. Request the review code from the reviewer, enter the code in the Approval Process dialog box, and click **OK**. After the system verifies the review code, the ticket is approved by the reviewer.
+
+<a id="section-6-3-6"></a>
+
+### 6.3.6. Revoke a ticket
+
+As an approver, you can revoke approved O&M tickets, pre-authorization tickets, and emergency O&M tickets to cancel asset authorization.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Tickets**.
+
+4. On the **Ticket** page, find the ticket that you want to manage and click **Revoke** in the **Actions** column.
+
+<a id="section-6-4"></a>
+
+## 6.4. Cloud drives
+
+You can view, upload, and download files on the Netdisk page.
+
+**View cloud drives within your account**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Netdisk**.
+
+4. In the **User Network Disk** section, view the cloud drives that you are authorized to use.
+
+**Upload files to a cloud drive**
+
+You can upload a file directory or files to a cloud drive.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Netdisk**.
+
+4. In the User Network Disk section, click the cloud drive that you want to manage. Choose **Upload** > **Select Directory**. Then, select a file directory to upload it to the cloud drive.
+
+5. Choose **Upload** > **Select File**. Then, select a file to upload it to the cloud drive.
+
+**Download files from a cloud drive**
+
+You can download files from a cloud drive to your computer.
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Netdisk**.
+
+4. Select the file directories and files that you want to download and click **Download** to download them to your computer.
+
+**Manage files in transfer**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Netdisk**. In the Transfer List section, click **Transferring**. Then, you can view files in transfer within your account.
+
+4. To pause the transfer of a file, select the file and click **Pause**.
+
+5. To resume the transfer of a file, select the file and click **Restore**.
+
+6. To retransfer a file, select the file and click **Retry**.
+
+7. To cancel the transfer of a file, select the file and click **Cancel**.
+
+**View file transfer records**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Netdisk**. In the Transfer List section, click **Transfer Records**. Then, you can view file transfer records within your account.
+
+4. To delete a file transfer record, select the file transfer record and click **Delete Record**.
+
+<a id="section-6-5"></a>
+
+## 6.5. Tasks
+
+You can implement flexible orchestration and automatic execution for multiple O&M tasks such as command operations and file operations.
+
+<a id="section-6-5-1"></a>
+
+### 6.5.1. Manage a task set
+
+**Create a task set**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Task**.
+
+4. In the **Task Set** section, click the <img src="assets/ba709c53c5bc18f39d2c7953942950b2.png" width="16" alt=""> icon to create a task set.
+
+5. In the New Task Set dialog box, enter a task name and click **Confirm**.
+
+6. Move the mouse over the created task set. The icon <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> is displayed on the right.
+
+7. Click the <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon, select **Create Child Task Set**, enter a task name, and then click the <img src="assets/00f78f6b6575fe6a3dee266d167ea860.png" width="10" alt="">
+
+   icon.
+
+**Modify a task set**
+
+1. In the **Task Set** section, move the pointer over the task set that you want to manage. The <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt="">
+
+   icon is displayed on the right.
+
+2. Click the <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and select **Rename**.
+
+3. Enter a new name and click the <img src="assets/00f78f6b6575fe6a3dee266d167ea860.png" width="10" alt=""> icon.
+
+**Delete a task set**
+
+1. In the **Task Set** section, move the pointer over the task set that you want to delete. The <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt="">
+
+   icon is displayed on the right.
+
+2. Click the <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and select **Delete**. In the message that appears, click **Confirm**.
+
+<a id="section-6-5-2"></a>
+
+### 6.5.2. Task orchestration
+
+**Create an orchestrated task**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Task**.
+
+4. In the Task Set section, click a task set or child task set. Then, click **Create**. In the Basic Information section, enter a task name and select the task set or child task set to which the task belongs. You can set the Push Method parameter to Do Not Send, Email, or File Server. You can set the Execution Method parameter to Manual or Period.
+
+5. In the Destination Asset section, click **Add**. In the Select Asset panel, select the SSH- or Telnet-based authorized account that you want to add, and click **Confirm**.
+
+6. In the Action Flow section, click **Add Node** and select an action type for the action node to be added. The following types of actions are supported: Execute Command, Download File, and Upload File.
+
+   - If you select **Execute Command**, enter a node name and the commands to be run. Set the **Destination Asset** parameter to Same Target Assets as Task or Custom, and specify whether manual confirmation is required after node execution.
+
+   - If you select **Upload File**, enter a node name and specify the files to be uploaded and the destination path. Set the **Destination Asset** parameter to Same Target Assets as Task or Custom, and specify whether manual confirmation is required after node execution.
+
+   - If you select **Download File**, enter a node name and configure the **Source Asset**, Source File Path, and Download to parameters. Specify whether manual confirmation is required after node execution.
+
+7. Add more action nodes to the task by referring to the preceding steps. Then, click **Save Task**.
+
+**Modify the information about an orchestrated task**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Task**.
+
+4. In the task list, find the task that you want to manage and click **Edit** in the Actions column. Modify the basic information, destination assets, and action nodes of the task, and then click **Save Task**.
+
+**Delete an orchestrated task**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Task**.
+
+4. In the task list, find the task that you want to delete and click **Delete** in the Actions column. In the message that appears, click Confirm. You can also select multiple tasks and click **Delete** above the list to delete them at a time.
+
+**Immediately run an orchestrated task**
+
+1. In the task list, find the task that you want to run and click **Immediately Execute** in the Actions column. In the message that appears, click Confirm.
+
+2. You can also select multiple tasks and click **Immediately Execute** above the list to immediately run them at a time.
+
+**Stop an orchestrated task**
+
+1. In the task list, select the task that you want to stop and click **Stop Execution** above the list. In the message that appears, click Confirm.
+
+**View the execution results of an orchestrated task**
+
+1. In the task list, find the task that you want to view and click **Historical Execution Records** in the Execution Records column.
+
+2. Find the execution record that you want to view and click **Details** in the Actions column to view the execution details. To download the execution results to your computer, click **Download** in the Actions column.
+
+**Search for an orchestrated task**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Task**.
+
+4. Specify the search conditions and click **Search** to search for a task. To reset the search conditions, click **Reset**.
+
+<a id="section-6-6"></a>
+
+## 6.6. Logs
+
+You can view operation logs and internal messages.
+
+**View operation logs**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Logs**.
+
+4. On the **Operation Logs** tab, view all system operation logs.
+
+   Find the log that you want to manage and click **Details**. In the **Log Details** panel, view the log details.
+
+**View internal messages**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Logs**.
+
+4. On the **Internal Messages** tab, view the internal messages.
+
+   - Click a message to view the details of the message in the right side of the page.
+
+   - A green dot indicates that the message is unread. After you click the message or click All Read, the green dot is no longer displayed.
+
+   - Click the drop-down arrow in the upper-left corner to display read or unread messages.
+
+   - To search for a message, enter the message content or title keyword in the search box in the upper-right corner and press the Enter key.
+
+<a id="section-6-7"></a>
+
+## 6.7. Personal information
+
+<a id="section-6-7-1"></a>
+
+### 6.7.1. View the basic information
+
+You can view the basic information about the logon user, such as the name, mobile phone number, and email address.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Personal Information**.
+
+4. In the **Basic Information** section, view the user role, modify the basic information about the user, such as the name, mobile phone number, or email address, and then click **Save**.
+
+<a id="section-6-7-2"></a>
+
+### 6.7.2. Configure the logon settings
+
+<a id="section-6-7-2-1"></a>
+
+#### 6.7.2.1. Configure an OTP device
+
+If you enable two-factor authentication, you must obtain the verification code from the bound one-time password (OTP) device for secondary authentication before you can log on to Bastionhost.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Personal Information**.
+
+4. In the **Logon Configuration** section, click **Bind** in the **Mobile Phone OTP** section. The **Bind OTP to Mobile Phone** panel appears.
+
+5. Open the OTP device on your mobile phone and scan the quick response (QR) code or enter the key to bind the OTP device. Then, obtain the verification code from the OTP device, enter the verification code, and then click **Confirm**.
+
+<a id="section-6-7-2-2"></a>
+
+#### 6.7.2.2. Configure a C/S logon password
+
+When you perform Client/Server (C/S) O&M on an FTP server, Oracle client, or RDP gateway, you must use C/S logon passwords to complete logons.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Personal Information**.
+
+4. In the **Logon Configuration** section, click **Set** in the **CS Logon Password** section. The **Configure CS Logon Password** panel appears.
+
+5. Enter a C/S logon password and click **Confirm**.
+
+<a id="section-6-7-2-3"></a>
+
+#### 6.7.2.3. Configure SSH public keys
+
+You can use an SSH public key to log on to Bastionhost over SSH. Only OpenSSH public keys are supported.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Personal Information**.
+
+4. In the **Logon Configuration** section, click **Set** in the **SSH Public Key** section. The **Configure SSH Public Key** panel appears.
+
+5. Enter the content of the SSH public key and click **Confirm**.
+
+<a id="section-6-7-2-4"></a>
+
+#### 6.7.2.4. Configure an SSH private key
+
+You can use an SSH private key to log on to an asset over SSH to perform O&M operations. Only RSA, DSA, ECDSA, and ED25519 private keys generated by ssh-keygen are supported.
+
+> **Note**
+>
+> Make sure that the **Allow Logon to Host Using User SSH Private Key** option is selected in the SSH Logon section. To go to the SSH logon section, choose **Configure > Asset Configuration > O&M Configuration**. For more information, see Configure O&M settings.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Personal Information**.
+
+4. In the **Logon Configuration** section, click **Set** in the **SSH Private Key** section. The **Configure SSH Private Key** panel appears.
+
+5. Enter the content of an SSH private key and an encryption password, and click **Confirm**.
+
+<a id="section-6-7-3"></a>
+
+### 6.7.3. Configure security settings
+
+**Configure a PGP public key**
+
+After you configure a Pretty Good Privacy (PGP) public key, the public key is used to encrypt files when you export assets or download historical passwords. This helps ensure data security.
+
+> **Important**
+>
+> If PGP is not installed, click the link that is displayed in the PGP Public Key section to download and install PGP.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Personal Information**.
+
+4. In the **Security Configuration** section, click **Upload** in the **PGP Public Key** section. In the dialog box that appears, select a PGP public key file.
+
+<a id="section-6-8"></a>
+
+## 6.8. Download tools
+
+Bastionhost provides download links for O&M, audit, and other tools or plug-ins to help you quickly obtain related tools.
+
+**Procedure**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+
+3. In the left-side navigation pane, click **Tool Download**.
+
+4. Download tools such as O&M tools, audit tools, or plug-ins based on your business requirements. For information about the usage of each tool, see the following table.
+
+   | Tool name | Description |
+   | --- | --- |
+   | Bastionhost Assistant | Bastionhost Assistant is used to log on to an O&amp;M client tool from a browser. |
+   | Google Chrome plug-in of auto-fill scripts for web applications | A script recording plug-in for web applications. |
+   | Chrome | The Google Chrome browser. |
+   | FileZilla | A tool that is used to connect to an SFTP or FTP server. |
+   | WinSCP | A tool that is used to connect to an SFTP or FTP server. |
+   | PuTTY | A tool that is used to connect to an SSH, Telnet, or rlogin server. |
+   | Mstsc | A tool that is used to connect to an RDP server. |
+   | RealVNC | A tool that is used to connect to a VNC server. |
+   | SecureFX | A tool that is used to connect to an SFTP or FTP server. |
+   | SecureCRT | A tool that is used to connect to an SSH, Telnet, or rlogin server. |
+   | Xshell | A tool that is used to connect to an SSH, Telnet, or rlogin server. |
+   | Flash Player 12 | A Flash player, which is a plug-in for upload and download buttons, and audit session playback. |
+
+<a id="section-7"></a>
+
+# 7.Best practices
+
+<a id="section-7-1"></a>
+
+## 7.1. Configure a DNAT entry to access a bastion host over the Internet
+
+**Background information**
+
+In view of system security, public endpoints are disabled for tenant-side bastion hosts. You can configure DNAT entries to access bastion hosts over the Internet in a secure manner.
+
+**Step 1: Obtain the vpc_vip value of a bastion host**
+
+1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
+
+2. In the bastion host list, obtain a private endpoint of the bastion host that you want to manage and run the  `ping`  command to obtain the corresponding IP address. The private endpoint can be accessed only within the virtual private cloud (VPC) of the current user.
+
+   Record the **vpc_vip** and **user_vpc_id** values obtained by running the  `ping`  command for later use.
+
+   ![](assets/ded4a8231a30b18479f1fe219dfd6ea2.jpeg)
+
+**Step 2: Create an elastic IP address (EIP)**
+
+1. Change the user role to **Organization Administrator**.
+
+2. In the top navigation bar, choose **Products > Networking > Virtual Private Cloud**.
+
+3. In the left-side navigation pane, click **Elastic IP Addresses**.
+
+4. On the EIP page, click **Create EIP**, configure the parameters as required, and then click **Submit**.
+
+   Set the Organization, Resource Set, and Region parameters to the organization, resource set, and region of the bastion host. Select **BGP** as the line type and **Internet** as the network type.
+
+**Step 3: Create a NAT gateway**
+
+1. Change the user role to **Organization Administrator**.
+
+2. In the top navigation bar, choose **Products > Networking > Virtual Private Cloud**.
+
+3. In the left-side navigation pane, click **NAT Gateways**.
+
+4. On the NAT Gateways page, click **Create NAT Gateway**, configure the parameters as required, and then click **Submit**.
+
+   Set the Organization, Resource Set, Region, and VPC parameters to the organization, resource set, region, and VPC of the bastion host.
+
+**Step 4: Associate the NAT gateway with the EIP**
+
+1. In the NAT gateway list, find the NAT gateway that you created in **Step 3**, move the pointer over the More icon in the Actions column, and then select **Associate EIP**.
+
+   ![](assets/b911925f3b864014bd6557bf036d6eed.jpeg)
+
+2. In the dialog box that appears, select the EIP that you created in **Step 2**.
+
+**Step 5: Configure a DNAT entry**
+
+1. In the NAT gateways list, find the NAT gateway that you created and click **Set DNAT** in the Actions column.
+
+   ![](assets/e051bd24923bc381609a8b7c75a5a0f7.jpeg)
+
+2. On the **DNAT** tab, click **Create DNAT Entry**.
+
+   Configure the parameters as required. Set the Public IP Address parameter to the EIP that you created and associated with the NAT gateway in **Step 2**, set the Private IP Address parameter to the **vpc_vip** value of the bastion host, and then specify Protocol Type based on your business requirements.
+
+3. In the DNAT entry list, obtain the public IP address of the created DNAT entry.
+
+**Step 6: Use a public IP address to access the bastion host**
+
+Access the bastion host by using the public IP address obtained in **Step 5** from a browser.
+
+<a id="section-7-2"></a>
+
+## 7.2. Configure data for connecting Bastionhost to IDaaS
+
+This topic describes how to configure data for connecting Bastionhost to Identity as a Service (IDaaS).
+
+**Step 1: Configure data in the IDaaS console**
+
+1. Log in to the IDaaS console and create a SAML 2.0 application. For more information, see IDaaS User Guide.
+
+2. Click the created application. On the **Sign-In** tab, configure the following parameters.
+
+   - **ACS URL**: Enter  `https://<Bastionhost IP address>/pamapi/auth/v1/saml/acs` .
+
+   - **SP Entity ID**: Enter a custom unique identifier string. The identifier in Bastionhost is USM by default and can be modified.
+
+   - **Advanced Settings > Attribute Statements**: Set **Key** to **username** and set **Value** to **user.username**.
+
+3. In the **Application Settings** section, obtain **IdP Sign-In URL** and **IdP Entity ID**.
+
+**Step 2: Configure data in the Bastionhost console**
+
+1. Log in to Bastionhost.
+
+2. Go to the **Management Console > Configuration > User Configuration > Authentication Source** tab.
+
+3. Click **Edit** on the **SAML2** card to open the Configuration SAML2 panel.
+
+4. Set **Status** to **Enable** and configure the required parameters based on the description in the following table.
+
+   | Parameter | Description |
+   | --- | --- |
+   | Authentication Source Name | Enter the custom name of the authentication source. |
+   | Automatically log out of SAML2 server on logout | If you select this option, the IDaaS user logs out of the IDaaS console when the user logs out of the Bastionhost page. |
+   | IDP Login URL | Enter the <strong>IdP Sign-In URL</strong> obtained in the <strong>IDaaS console</strong>. |
+   | SAML2 Server Certificate | If a certificate is configured on the IDaaS side, upload the certificate here. If no certificate is configured on the IDaaS side, you can leave this parameter empty. |
+   | IDP Entity ID | Enter the <strong>IdP Entity ID</strong> obtained in the <strong>IDaaS console</strong>. |
+   | SP Entity ID | Enter the <strong>SP Entity ID</strong> obtained in the <strong>IDaaS console</strong>. |
+   | After the authentication is passed, the system automatically creates and binds a local user | If you do not select this option, you must manually create a user on the bastion host and set the authentication source of the user to SAML2. |
+   | User Attributes in Authentication Source | Enter the <strong>username</strong>. |
+
+5. Click **Save**.

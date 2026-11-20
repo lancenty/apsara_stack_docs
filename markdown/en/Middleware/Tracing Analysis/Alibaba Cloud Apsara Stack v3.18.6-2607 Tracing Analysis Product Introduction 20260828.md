@@ -1,0 +1,91 @@
+Alibaba Cloud  
+Apsara Stack  
+Tracing Analysis  
+Product Introduction  
+Product Version: v3.18.6-2607  
+Document Version: 20260828
+
+**Table of Contents**
+
+- [1.Tracing Analysis](#section-1)
+- [2.Product details](#section-2)
+- [3.Product value](#section-3)
+- [4.Scenarios](#section-4)
+
+<a id="section-1"></a>
+
+# 1.Tracing Analysis
+
+Tracing Analysis provides developers of distributed applications with tools to restore complete call traces, collect call request statistics, visualize trace topology, and perform application dependency analysis. These capabilities help developers quickly identify and diagnose performance bottlenecks in distributed application architectures and improve development and diagnostic efficiency in the microservice era.
+
+<a id="section-2"></a>
+
+# 2.Product details
+
+Tracing Analysis is based on the OpenTracing standard. It supports applications written in multiple languages and reconstructs complete call traces.
+
+**Distributed trace query and diagnostics**
+
+You can track all user requests across microservices in a distributed architecture and aggregate them into distributed call traces.
+
+**Real-time application performance aggregation**
+
+You can trace user requests across your entire application to aggregate individual services and resources in real time.
+
+**Dynamic discovery of distributed topology**
+
+Tracing Analysis collects distributed call data from all your distributed microservice applications and related Platform as a Service (PaaS) products.
+
+**Multi-language program integration**
+
+Built on the OpenTracing standard, it is compatible with open source projects such as Jaeger and Zipkin.
+
+**Rich downstream integration scenarios**
+
+Collected traces can be used directly for log analysis and integrated with downstream analytics platforms such as MaxCompute.
+
+<a id="section-3"></a>
+
+# 3.Product value
+
+Tracing Analysis monitors and analyzes request flows in distributed systems. It provides real-time monitoring views to help developers and Operations and Maintenance (O&M) teams identify performance bottlenecks, optimize resource allocation, and troubleshoot faults.
+
+**Global topology**
+
+Tracing Analysis provides a global view of your system topology. This view shows metrics such as the queries per second (QPS) and response time for calls between components.
+
+**Response time, request count, and error count**
+
+You can view call information from two dimensions:
+
+- By node: View the overall response time, request count, and error count for each node instance in the application.
+
+- By interface: View the response time, request count, and error count for each interface in the application.
+
+**Exception analysis, call stacks, and error analysis**
+
+Tracing Analysis helps you quickly locate problems in several ways:
+
+- Compare data from today and yesterday to quickly find new and surging exceptions.
+
+- Associate exceptions with requests to identify the originating requests and view the average number of exceptions per request. This ensures that no critical exceptions are missed.
+
+- View exceptions from three dimensions: name, message, and interface. This helps you quickly locate the core exceptions in your system.
+
+<a id="section-4"></a>
+
+# 4.Scenarios
+
+Tracing Analysis applies to scenarios such as topology visualization, troubleshooting and diagnostics, and database call statistics.
+
+**Topology visualization**
+
+Tracing Analysis collects distributed calls across your system and stores and analyzes them to provide topology graph visualization, making system dependencies and access patterns immediately clear.
+
+**Troubleshooting and diagnostics**
+
+Tracing Analysis provides abnormal behavior analysis. You can use visualized anomaly reports, call traces, and request statistics to quickly identify issues in your system and accelerate troubleshooting.
+
+**Database call statistics**
+
+Databases are a core component widely used in business applications. Tracing Analysis offers database call analysis so you can monitor database access patterns in your system.
