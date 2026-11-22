@@ -55,7 +55,7 @@ Apsara Stack lets you call APIs of the Zone-Disaster Recovery Management Platfor
 
 The following figure shows the API call flow for ASR.
 
-![](assets/15cac437064caa57dc3f20e8a325ab2c.jpeg)
+![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/15cac437064caa57dc3f20e8a325ab2c.jpeg)
 
 **Steps**
 
@@ -103,7 +103,7 @@ The Apsara Uni-manager Management Console provides personal AccessKeys and organ
 
 3. In the **AccessKey** section, you can view the AccessKey information for the personal account.
 
-   ![](assets/e6f91e95cedc816129fbdcd3c846da9f.jpeg)
+   ![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/e6f91e95cedc816129fbdcd3c846da9f.jpeg)
 
    > **Important**
    >
@@ -143,17 +143,17 @@ Before you begin, you need the following information for the API operation: the 
 
 4. In the search box, enter bcmc.
 
-   ![](assets/067f2a2fef5fb0f05f7967885a71033a.jpeg)
+   ![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/067f2a2fef5fb0f05f7967885a71033a.jpeg)
 
 5. Click **Cluster Details**. On the details page, select the **Desired State Configuration** tab.
 
 6. Select kv.conf. Click **Show Content** to view and save the region value.
 
-   ![](assets/2e8738c29d3ec0c3814c91b12e9540d3.jpeg)
+   ![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/2e8738c29d3ec0c3814c91b12e9540d3.jpeg)
 
 7. Select the **Service List** tab. Click the bcmc service name to open its details page.
 
-   ![](assets/7b7416540db7ef08378c6524eae3a9c2.jpeg)
+   ![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/7b7416540db7ef08378c6524eae3a9c2.jpeg)
 
 8. Obtain the value of asr.pop.open.endpoint and save it.
 
@@ -185,19 +185,19 @@ pip install apsarastack_asr20250916.tar.gz
 
 1. Log on to the ASCM developer portal and click SDK Sample.
 
-![](assets/5d7ec9655774b6fdca2765b59a635d59.jpeg)
+![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/5d7ec9655774b6fdca2765b59a635d59.jpeg)
 
 2. From the SDK Type drop-down list, select Premium Edition. Then, select Java as the
 
 language.
 
-![](assets/bd4bec32af79df125d4280071eff9daa.jpeg)
+![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/bd4bec32af79df125d4280071eff9daa.jpeg)
 
 3. The sample code is displayed. Click Download Full Project to download the sample project
 
 and the SDK package.
 
-![](assets/c029891554893ac837c2bf414b55741b.jpeg)
+![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/c029891554893ac837c2bf414b55741b.jpeg)
 
 **Import the SDK package**
 
@@ -205,7 +205,7 @@ and the SDK package.
 
 - Method 1: Add a Maven project in IDEA.
 
-  ![](assets/cf6e8b9fc4f334c78dedce249cdb90c6.jpeg)
+  ![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/cf6e8b9fc4f334c78dedce249cdb90c6.jpeg)
 
 - Method 2: Convert an existing project to a Maven project.
 
@@ -416,17 +416,17 @@ After you obtain the software development kit (SDK) package from the developer p
 
 1. Log on to the ASCM developer portal and click SDK Sample.
 
-![](assets/5d7ec9655774b6fdca2765b59a635d59.jpeg)
+![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/5d7ec9655774b6fdca2765b59a635d59.jpeg)
 
 2. From the SDK Type drop-down list, select Premium Edition, and then select Java.
 
-![](assets/bd4bec32af79df125d4280071eff9daa.jpeg)
+![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/bd4bec32af79df125d4280071eff9daa.jpeg)
 
 3. The sample code is displayed. Click Download Full Project to obtain the sample project and
 
 the SDK package.
 
-![](assets/c029891554893ac837c2bf414b55741b.jpeg)
+![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/c029891554893ac837c2bf414b55741b.jpeg)
 
 **Import the SDK package**
 
@@ -434,7 +434,7 @@ the SDK package.
 
 - Method 1: Add a Maven project in IntelliJ IDEA.
 
-  ![](assets/cf6e8b9fc4f334c78dedce249cdb90c6.jpeg)
+  ![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/cf6e8b9fc4f334c78dedce249cdb90c6.jpeg)
 
 - Method 2: Convert an existing project to a Maven project.
 
@@ -630,7 +630,7 @@ Some APIs from previous versions are now deprecated or obsolete. This topic desc
 
 IDEA marks deprecated APIs to help developers identify them. Do not use these APIs for new projects.
 
-![](assets/de560a9721829d4ac9fc0a1a7ca5db90.jpeg)
+![](en-asr-zone-disaster-recovery-deve-468961c9-v3.18.6-2607-20260828.assets/de560a9721829d4ac9fc0a1a7ca5db90.jpeg)
 
 <a id="section-3"></a>
 

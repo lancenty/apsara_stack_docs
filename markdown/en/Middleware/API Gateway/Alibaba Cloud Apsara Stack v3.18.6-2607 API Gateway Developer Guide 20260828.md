@@ -189,7 +189,7 @@ The API information in the API directory of the Apsara Uni-manager Management Co
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-api-gateway-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the navigation pane on the left, select the target cloud product.
 
@@ -238,7 +238,7 @@ To obtain an AccessKey for an individual account, perform the following steps:
 
 3. In the **AccessKey** section, view the AccessKey information for your individual account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-api-gateway-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -288,7 +288,7 @@ You can obtain the organization ID by calling an API. You can use the online API
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, choose **Cloud Platform** > **Unified Cloud Management Platform**,
+4. Click the <img src="en-api-gateway-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, choose **Cloud Platform** > **Unified Cloud Management Platform**,
 
    and set **Version** to **2019-05-10**.
 
@@ -304,7 +304,7 @@ You can obtain the resource group ID by calling an API. You can use the online A
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, choose **Cloud Platform** > **Unified Cloud Management Platform**,
+4. Click the <img src="en-api-gateway-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, choose **Cloud Platform** > **Unified Cloud Management Platform**,
 
    and set **Version** to **2019-05-10**.
 
@@ -550,7 +550,7 @@ This topic describes how to obtain user and role information.
 
    <li>
 
-   On the **System Users** tab, find the newly created user, click <img src="assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt=""> in the **Actions** column,
+   On the **System Users** tab, find the newly created user, click <img src="en-api-gateway-developer-guide-v3.18.6-2607-20260828.assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt=""> in the **Actions** column,
 
    </li>
 
@@ -622,7 +622,7 @@ This topic describes how to obtain the region ID and organization ID.
 
 5. In the search box, enter **ListResourceGroupByOrgId**. Click the API operation name. On the Preview tab on the right, obtain the organization ID.
 
-   ![](assets/bc213dbcb115fa0cda3a0fb4c4090d7d.jpeg)
+   ![](en-api-gateway-developer-guide-v3.18.6-2607-20260828.assets/bc213dbcb115fa0cda3a0fb4c4090d7d.jpeg)
 
 <a id="section-2"></a>
 
@@ -2376,7 +2376,7 @@ Create a new backend service.
 | httpHost | String | No | The host for the HTTP health check. |
 | expectedStatuses | List | Conditional | The expected status codes, such as \["200", "301"\]. |
 
-![](assets/d4f416b1676e9ca966e90c82f71bfa86.png)
+![](en-api-gateway-developer-guide-v3.18.6-2607-20260828.assets/d4f416b1676e9ca966e90c82f71bfa86.png)
 
 **Query the list of services**
 
@@ -4819,7 +4819,7 @@ Enable or disable a policy configuration.
 | Method | POST |
 | Content-Type | application/json |
 
-![](assets/93efe767e68f15e59fd733d2f822f274.png)
+![](en-api-gateway-developer-guide-v3.18.6-2607-20260828.assets/93efe767e68f15e59fd733d2f822f274.png)
 
 **Request parameters**
 

@@ -395,7 +395,7 @@ In NAS, each permission group functions as a whitelist. By adding rules to a per
 
    Example:
 
-   ![](assets/b7f17d584a96b1d95b021252f7f2bf34.jpeg)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/b7f17d584a96b1d95b021252f7f2bf34.jpeg)
 
 2. Log in to the File Storage NAS console.
 
@@ -453,7 +453,7 @@ A mount point is an access endpoint for a file system instance within a VPC or c
    >
    > Classic Network-type mount points can be accessed only by ECS instances under the same Alibaba Cloud account.
 
-   ![](assets/fc568a78c0474c71a47011053d84c0d3.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/fc568a78c0474c71a47011053d84c0d3.png)
 
    - If you want to add a VPC-type mount point, configure the following parameters.
 
@@ -566,7 +566,7 @@ Before you mount an NFS file system on a Linux ECS instance, you must install an
 
    If the output that is similar to the following information appears, the mount is successful.
 
-   ![](assets/6f83afcdff6d408e06c46ae5323b4006.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/6f83afcdff6d408e06c46ae5323b4006.png)
 
    After the file system is mounted, you can run the  `df -h`  command to view the size of the file system.
 
@@ -574,7 +574,7 @@ Before you mount an NFS file system on a Linux ECS instance, you must install an
 
    You can access the file system the same way you access a local directory. The following figure shows an example.
 
-   ![](assets/7ecfe348b3d651472db55dbb92c6071b.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/7ecfe348b3d651472db55dbb92c6071b.png)
 
 <a id="section-3-6"></a>
 
@@ -614,7 +614,7 @@ Before you mount a file system, you must create the file system and a mount targ
 
      By default, the Workstation service is in the Started state.
 
-     ![](assets/0d013c034bc56fa649c1d332a9893ce3.png)
+     ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/0d013c034bc56fa649c1d332a9893ce3.png)
 
      </li>
 
@@ -646,7 +646,7 @@ Before you mount a file system, you must create the file system and a mount targ
 
      In the **Advanced TCP/IP Settings** dialog box, choose **WINS > Enable NetBIOS over TCP/IP**.
 
-     ![](assets/357e855fffabb01f8d36167e2f507eac.png)
+     ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/357e855fffabb01f8d36167e2f507eac.png)
 
      </li>
 
@@ -666,7 +666,7 @@ Before you mount a file system, you must create the file system and a mount targ
 
      By default, the TCP/IP NetBIOS Helper service is in the Started state.
 
-     ![](assets/561f32cd996cc49e5a8c30f440f84256.png)
+     ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/561f32cd996cc49e5a8c30f440f84256.png)
 
      </li>
 
@@ -700,7 +700,7 @@ Before you mount a file system, you must create the file system and a mount targ
 
    If the output that is similar to the following information appears, the mount is successful.
 
-   ![](assets/17e7181342ab114b9fa4d4a3600f4c77.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/17e7181342ab114b9fa4d4a3600f4c77.png)
 
 4. After the SMB file system is mounted, you can read data from and write data to the NAS file systems on the ECS instance.
 
@@ -816,7 +816,7 @@ The following operations are completed:
 
 4. In the left-side navigation pane, click **Mounting Targets**. On the **Mounting Target** tab, view the mount targets of the file system.
 
-   ![](assets/9dd1fa05095b5bac49885c3f78bcd6c0.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/9dd1fa05095b5bac49885c3f78bcd6c0.png)
 
 <a id="section-5-2"></a>
 
@@ -848,7 +848,7 @@ The following operations are completed:
 
    - To enable the mount target, click **Enable**. In the Enable Mount Target dialog box, click **OK** to allow access to the mount target from clients.
 
-   ![](assets/0fc3b3fcaa433165eb9fc0fafa1ad057.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/0fc3b3fcaa433165eb9fc0fafa1ad057.png)
 
 <a id="section-5-3"></a>
 
@@ -908,7 +908,7 @@ The following operations are completed:
 
 5. Find the mount target that you want to modify and click **Modify Permission Group**.
 
-   ![](assets/63de0b42fb6578c859910ecf701d1bb0.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/63de0b42fb6578c859910ecf701d1bb0.png)
 
 6. In the **Modify Permission Group** dialog box, change the permission group and click **OK**.
 
@@ -932,7 +932,7 @@ A permission group is created. For information about how to detach a tag policy 
 
 2. Choose **File System > Permission Group** and view the permission groups.
 
-   ![](assets/8f68d319977f5ce4405cd250dab386a8.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/8f68d319977f5ce4405cd250dab386a8.png)
 
 <a id="section-6-2"></a>
 
@@ -980,7 +980,7 @@ A permission group and a permission group rule are created. For more information
 
    - View all rules for the permission group.
 
-     ![](assets/77d4cd415d9e302f89057e4515805c90.png)
+     ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/77d4cd415d9e302f89057e4515805c90.png)
 
    - Modify a rule. Find the target rule and click **Edit** to modify the details of the rule. The details include the **authorization address**, **read/write permissions**, **user permission**, and **priority**.
 
@@ -1155,7 +1155,7 @@ A unified namespace has the following limits:
 
   namespace and a mount target for the namespace as prompted.
 
-  ![](assets/1872cc4de233cc56b85c8a794d52027d.png)
+  ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/1872cc4de233cc56b85c8a794d52027d.png)
 
   > **Note**
   >
@@ -1207,7 +1207,7 @@ A unified namespace has the following limits:
     >
     > You can add or remove file systems.
 
-  ![](assets/d28c63e3e4db8ee85af00d7a4682cd78.png)
+  ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/d28c63e3e4db8ee85af00d7a4682cd78.png)
 
 **Cross-domain mount orchestration**
 
@@ -1227,7 +1227,7 @@ In traditional solutions, you can add a file system to a namespace only if the f
 
 To mount the namespace on a client, you can run the automatic mount script on the client. This allows the client to access file systems across regions. The format of the local path on the client for each unified namespace is  `<Specified root directory>/<Mapping path of the namespace>` .
 
-![](assets/a672b97bb366efbf7197f7aa8256be93.png)
+![](en-nas-user-guide-v3.18.6-2607-20260827.assets/a672b97bb366efbf7197f7aa8256be93.png)
 
 To enable a cross-domain mount orchestration for different VPCs that reside in different regions, you must establish VPC connections. The following procedure provides an example on how to establish VPC connections and enable a cross-domain mount.
 
@@ -1261,7 +1261,7 @@ To enable a cross-domain mount orchestration for different VPCs that reside in d
 
    - Create a VPC named skvpc2  `192.168.2.0/24`  for Region 2.
 
-   ![](assets/8b652a17f240e993d8999a8e6d572f42.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/8b652a17f240e993d8999a8e6d572f42.png)
 
 2. Configure an Express Connect circuit across regions. Configure two Express Connect circuits between the VPCs of the two regions.
 
@@ -1285,7 +1285,7 @@ To enable a cross-domain mount orchestration for different VPCs that reside in d
 
    On the **Route Tables** page, find the instance ID of skvpc1 and click **Management** in the Actions column.
 
-   ![](assets/4232e7ae97a57972ef93b8f53eac26a8.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/4232e7ae97a57972ef93b8f53eac26a8.png)
 
    </li>
 
@@ -1305,7 +1305,7 @@ To enable a cross-domain mount orchestration for different VPCs that reside in d
    >
    > - The first time you configure an Express Connect circuit across regions, no VPCs are available.
 
-   ![](assets/d6a487c9657274b597415b3cb4973a54.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/d6a487c9657274b597415b3cb4973a54.png)
 
    </li>
 
@@ -1323,7 +1323,7 @@ To enable a cross-domain mount orchestration for different VPCs that reside in d
 
    Click Create VPC interconnection to go to the **Create Peering Connection** page. On the page that appears, specify the source VPC ID, destination VPC ID, and bandwidth based on your business requirements. Click **Submit**.
 
-   ![](assets/81cfbb2607e9b71ae832ca129756c6e9.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/81cfbb2607e9b71ae832ca129756c6e9.png)
 
    </li>
 
@@ -1331,7 +1331,7 @@ To enable a cross-domain mount orchestration for different VPCs that reside in d
 
    After the VPC-to-VPC connection is created, click **Back to Console** to go to the VPC-to-VPC page. If the initiator and acceptor are in the Activated state, the connection from skvpc1 to skvpc2 is established. Establish the other connection from skvpc2 to skvpc1 in Region 2.
 
-   ![](assets/ffd36dc4d2f1532cbfc7c8bab03c80fc.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/ffd36dc4d2f1532cbfc7c8bab03c80fc.png)
 
    </li>
 
@@ -1349,13 +1349,13 @@ To enable a cross-domain mount orchestration for different VPCs that reside in d
 
    Go to the **Add Route Entry** page. The VPC-to-VPC connection that you created appears in the VPC list.
 
-   ![](assets/1aadbb94c4fc0c4dad2f6c13aefc013f.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/1aadbb94c4fc0c4dad2f6c13aefc013f.png)
 
    Configure the other Express Connect circuit in Region 2 to connect skvpc2 to skvpc2.
 
    Perform the preceding procedure. In the Add Route Entry panel, select the VPC-to-VPC connection from the VPC list and click **OK**.
 
-   ![](assets/0eebe41e02fcd35f459b02ff16520ce7.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/0eebe41e02fcd35f459b02ff16520ce7.png)
 
    The route entry is added to skvpc2 in Region 2. You can select the VPC-to-VPC connection that you created from the VPC list.  `vpc-ew2xxxx`  is the ID of skvpc1.
 
@@ -1391,13 +1391,13 @@ To enable a cross-domain mount orchestration for different VPCs that reside in d
 
    and write permissions. In the following figure, the IP segment of skvpc1 is added.
 
-   ![](assets/441a5cc19c5c272ab412d1b2894372a2.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/441a5cc19c5c272ab412d1b2894372a2.png)
 
 4. Creates a mount target. In Region 2, you can create a mount target that resides in skvpc2 for the specified unified namespace. In Region 1, you can create a mount target that resides in skvpc1 for the specified unified namespace.
 
 5. Create an Elastic Compute Service (ECS) instance. For example, if you select skvpc2 when you create an ECS instance, you can mount file systems on the ECS instance without the need to establish a VPC connection. The following figure shows an example.
 
-   ![](assets/e8636d1504b7d3d162159b05f5bb23c1.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/e8636d1504b7d3d162159b05f5bb23c1.png)
 
    > **Note**
    >
@@ -1475,7 +1475,7 @@ In Apsara Stack, the lifecycle management feature allows you to dump cold data f
 
    role and grant access permissions on OSS to the role.
 
-   ![](assets/0e9f9c99fe9cfecfcaa078e213e6ddbf.jpeg)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/0e9f9c99fe9cfecfcaa078e213e6ddbf.jpeg)
 
    <ol type="i" start="4">
 
@@ -1483,7 +1483,7 @@ In Apsara Stack, the lifecycle management feature allows you to dump cold data f
 
    View the authorization status of nas-test in the role list to verify that AliyunNASTieringRole is in the list.
 
-   ![](assets/4da580ae3f4a2ec3a0d56cde660d0341.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/4da580ae3f4a2ec3a0d56cde660d0341.png)
 
    </li>
 
@@ -1503,7 +1503,7 @@ In Apsara Stack, the lifecycle management feature allows you to dump cold data f
 
    In the top navigation bar, choose **Products > Object Storage Service**. In the left-side navigation pane, click **Buckets**. On the Buckets page, click **Create Bucket**. In the Create Bucket panel, configure the parameters. In this example, an OSS bucket named nastiering is created. The OSS bucket is used to store cold data.
 
-   ![](assets/633f286a80722cd1d6342a3f4d6330f2.jpeg)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/633f286a80722cd1d6342a3f4d6330f2.jpeg)
 
    > **Note**
    >
@@ -1541,7 +1541,7 @@ In Apsara Stack, the lifecycle management feature allows you to dump cold data f
 
    parameters.
 
-   ![](assets/8ad1394566582faf0c15be5c94f15838.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/8ad1394566582faf0c15be5c94f15838.png)
 
    After you create a lifecycle policy for a directory in the file system, NAS dumps the cold data that meets the rule of the policy to the OSS bucket. When you create a lifecycle policy, you must configure the following parameters:
 
@@ -1569,13 +1569,13 @@ In Apsara Stack, the lifecycle management feature allows you to dump cold data f
 
    On the **Lifecycle Management** page, you can view the lifecycle policy that you have created. You can also filter lifecycle policies by file system ID.
 
-   ![](assets/88aa334a0c2334b2d257ab005c8883a9.jpeg)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/88aa334a0c2334b2d257ab005c8883a9.jpeg)
 
 3. Modify the lifecycle policy.
 
    On the **Lifecycle Management** page, you can modify the lifecycle policy.
 
-   ![](assets/0512863f30efe16e0e7a5aa175a35fe7.png)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/0512863f30efe16e0e7a5aa175a35fe7.png)
 
    You can configure the following parameters:
 
@@ -1587,7 +1587,7 @@ In Apsara Stack, the lifecycle management feature allows you to dump cold data f
 
    In the left-side navigation pane, click **File Systems**. You can query the usage of General-purpose NAS storage and IA storage within the file system for which you have configured the lifecycle policy.
 
-   ![](assets/15d734a672722c2e47798630cb2ed3ff.jpeg)
+   ![](en-nas-user-guide-v3.18.6-2607-20260827.assets/15d734a672722c2e47798630cb2ed3ff.jpeg)
 
 <a id="section-10"></a>
 

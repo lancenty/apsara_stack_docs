@@ -107,23 +107,23 @@ This topic describes how to create a PolarDB-X instance.
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. In the upper-left corner, click **Create Instance**.
 
@@ -176,23 +176,23 @@ When you downgrade the specifications of an instance, transient connections may 
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. On the Instance List page, find the instance that you want to change and click **Configuration** in the **Operation** column.
 
@@ -222,23 +222,23 @@ A PolarDB-X instance is a distributed cluster that consists of multiple nodes. Y
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. On the Instance List page, find the instance that you want to change and click **Add Node** in the **Operation** column.
 
@@ -264,23 +264,23 @@ This topic describes how to release a PolarDB-X instance.
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to release and click the instance name.
 
@@ -310,23 +310,23 @@ If the number of connections to an PolarDB-X reaches the upper limit or performa
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to restart and click the instance name.
 
@@ -366,29 +366,29 @@ An X-Paxos-based architecture is used for the data nodes of a primary PolarDB-X 
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage, click the
 
    icon in the **Operation** column and
 
-   <img src="assets/000521aa55b494fd5c128597df063033.png" width="15" alt="">
+   <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/000521aa55b494fd5c128597df063033.png" width="15" alt="">
 
    then click **Read-only instance**. Alternatively, you can click the instance name to go to the instance details page. In the **Read-only instance** section on the right side of the page, click **Add a read-only instance**.
 
@@ -439,23 +439,23 @@ The MySQL command-line client mysql is installed on your server. For more inform
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -584,7 +584,7 @@ If you do not create a read-only instance for a primary instance, you can use on
 
 2. Find the target instance and click the instance ID.
 
-3. In the **Connection Information** section, click the <img src="assets/f7445ee69da0ce4ddba3bb84d9d3ae7e.png" width="23" alt=""> icon of the cluster endpoint.
+3. In the **Connection Information** section, click the <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/f7445ee69da0ce4ddba3bb84d9d3ae7e.png" width="23" alt=""> icon of the cluster endpoint.
 
 4. Click **Configuration Management** to view the configuration items of the cluster endpoint.
 
@@ -626,7 +626,7 @@ Parameter description:
 
 2. Find the target instance and click the instance ID.
 
-3. Click the <img src="assets/f7445ee69da0ce4ddba3bb84d9d3ae7e.png" width="23" alt=""> icon of the read-only endpoint.
+3. Click the <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/f7445ee69da0ce4ddba3bb84d9d3ae7e.png" width="23" alt=""> icon of the read-only endpoint.
 
 4. Click **Configuration Management** to view the configuration items of the read-only endpoint.
 
@@ -652,23 +652,23 @@ By default, a PolarDB-X assigned a private endpoint when the instance is created
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -690,23 +690,23 @@ By default, a PolarDB-X assigned a private endpoint when the instance is created
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -761,23 +761,23 @@ The following sections describe the operations that you can perform on database 
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click its ID.
 
@@ -804,23 +804,23 @@ The following sections describe the operations that you can perform on database 
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click its ID.
 
@@ -850,23 +850,23 @@ The following sections describe the operations that you can perform on database 
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -882,7 +882,7 @@ The following sections describe the operations that you can perform on database 
 
    icon to move the
 
-   <img src="assets/04801f0e5a4ffb600e9fd67ac0abd453.png" width="22" alt="">
+   <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/04801f0e5a4ffb600e9fd67ac0abd453.png" width="22" alt="">
 
    databases from the **Unauthorized Database** section to the **Authorized Databases** section.
 
@@ -906,23 +906,23 @@ The following sections describe the operations that you can perform on database 
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -954,23 +954,23 @@ You can configure whitelists for your PolarDB-X instances. Whitelists do not imp
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -1001,23 +1001,23 @@ You can configure whitelists for your PolarDB-X instances. Whitelists do not imp
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance from which you want to detach the data disk and click the instance ID.
 
@@ -1053,23 +1053,23 @@ You can configure whitelists for your PolarDB-X instances. Whitelists do not imp
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -1103,23 +1103,23 @@ This topic describes how to make data transmission more secure by configuring Se
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -1174,7 +1174,7 @@ After SSL encryption is enabled, you must configure an SSL certificate on your a
 
 3. Configure the **Use SSL** parameter and import the SSL certificate file.
 
-   ![](assets/52444acd61d7ec53a114e89d36b54ee4.png)
+   ![](en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/52444acd61d7ec53a114e89d36b54ee4.png)
 
 **Configure a certificate on Navicat**
 
@@ -1182,11 +1182,11 @@ After SSL encryption is enabled, you must configure an SSL certificate on your a
 
 2. Right-click the database that you want to connect. Then, select **Edit Connection**.
 
-   ![](assets/939d1b2724d75fd1648f7e19d0f258a4.png)
+   ![](en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/939d1b2724d75fd1648f7e19d0f258a4.png)
 
 3. Click the **SSL** tab and select the path of the PEM certificate file.
 
-   ![](assets/6fc65e06c882bb4a059767453a8b177e.png)
+   ![](en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6fc65e06c882bb4a059767453a8b177e.png)
 
 4. Click **OK**.
 
@@ -1196,7 +1196,7 @@ After SSL encryption is enabled, you must configure an SSL certificate on your a
 
 5. Double-click your database and check whether Navicat can connect to the database.
 
-   ![](assets/07b2c5ba9d26403816c1bf41719edf2a.png)
+   ![](en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/07b2c5ba9d26403816c1bf41719edf2a.png)
 
 **Update the validity period of an SSL CA certificate**
 
@@ -1220,23 +1220,23 @@ After SSL encryption is enabled, you must configure an SSL certificate on your a
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -1276,23 +1276,23 @@ After SSL encryption is enabled, you must configure an SSL certificate on your a
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -1516,23 +1516,23 @@ You can enable and disable the three-role mode in the PolarDB-X console. After y
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -1580,23 +1580,23 @@ You can enable and disable the three-role mode in the PolarDB-X console. After y
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -1640,23 +1640,23 @@ Before you use the three-role mode, you must take note of the following limits:
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -1708,23 +1708,23 @@ Before you use the three-role mode, you must take note of the following limits:
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -1782,23 +1782,23 @@ This section describes the procedure to delete a standard account.
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -1822,23 +1822,23 @@ This section describes the procedure to delete a standard account.
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -1864,23 +1864,23 @@ In the PolarDB-X console, you can view the description of parameters at the comp
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to restart and click the instance name.
 
@@ -1922,7 +1922,7 @@ In the PolarDB-X console, you can view the description of parameters at the comp
    >
    > - Enter a parameter value that is specified in the **Modification Scope** column on the right of the parameter. Otherwise, you receive an error message after you click **Submit**.
    >
-   > - Click the <img src="assets/ea160c8c77b8a59059fde0822f74fe7a.png" width="13" alt=""> icon next to the name of a parameter to view the description of the
+   > - Click the <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/ea160c8c77b8a59059fde0822f74fe7a.png" width="13" alt=""> icon next to the name of a parameter to view the description of the
    >
    >   parameter.
 
@@ -1954,23 +1954,23 @@ PolarDB-X provides the resource monitoring feature to help you monitor the runni
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to restart and click the instance name.
 
@@ -2018,23 +2018,23 @@ PolarDB-X provides the monitoring feature to help you monitor the status of your
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to restart and click the instance name.
 
@@ -2214,23 +2214,23 @@ This topic describes how to view log resource monitoring information in the Pola
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to restart and click the instance name.
 
@@ -2271,23 +2271,23 @@ This topic describes how to query SQL statements.
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to restart and click the instance name.
 
@@ -2366,7 +2366,7 @@ PolarDB-X allows you to view information about instance sessions and session sta
 
    After the SQL throttling rule is created, you can view the status of the rule in the list of throttling rules.
 
-   ![](assets/9cfaea1125567a741a190a8c5405acf5.png)
+   ![](en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/9cfaea1125567a741a190a8c5405acf5.png)
 
    If you want to **disable** or **modify** a throttling rule before the specified throttling duration expires, click **Disable** or **Edit** in the **Actions** column corresponding to the throttling rule.
 
@@ -2635,23 +2635,23 @@ This topic describes how to view SQL log details.
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -2699,23 +2699,23 @@ PolarDB-X backups consist of data backup and log backup.
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -2745,23 +2745,23 @@ PolarDB-X backups consist of data backup and log backup.
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -2787,23 +2787,23 @@ PolarDB-X backups consist of data backup and log backup.
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -2831,7 +2831,7 @@ PolarDB-X supports two recovery modes: by backup set and by point in time.
 
 PolarDB-X is a distributed database service. In PolarDB-X, data is stored on multiple data nodes. If distributed transactions exist in an instance, the instance to which data is restored must ensure that data is consistent among data nodes. The following figure provides an example on how to ensure global consistency during account transfers.
 
-![](assets/a780ca7670acd8386a05a2f897e78a5c.jpeg)
+![](en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/a780ca7670acd8386a05a2f897e78a5c.jpeg)
 
 PolarDB-X contains a table of account balances, the data of which is distributed over two data nodes. The sum of the account balances is USD 200. In this example, distributed transactions are used to transfer money between different accounts.
 
@@ -2859,23 +2859,23 @@ PolarDB-X allows you to restore data only to a new instance. After data is resto
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -2897,23 +2897,23 @@ PolarDB-X allows you to restore data only to a new instance. After data is resto
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -2939,23 +2939,23 @@ This topic describes how to download global binary logs on the log backup page.
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instance list in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : enters or exits the full screen mode.
    >
-   > <img src="assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/6346a96dcfd59e6afc2ac8cf4b845f33.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises devices.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-user-guide-v3.18.2-20240607.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 

@@ -1054,7 +1054,7 @@ This topic describes how to log in to the PolarDB Converged Edition (Centralized
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -1134,19 +1134,19 @@ This topic shows you how to create a PolarDB for HTAP instance.
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. In the upper-left corner, click **Create New Instance**.
 
@@ -1205,19 +1205,19 @@ When you downgrade the specifications of an instance, transient connection inter
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. On the Instance List page, find the instance that you want to manage and click **Change configuration** in the **Operation** column.
 
@@ -1251,19 +1251,19 @@ A PolarDB-X instance is a distributed cluster that consists of multiple nodes. T
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. On the Instance List page, find the instance that you want to manage and click **Add nodes** or **Delete nodes** in the **Operation** column.
 
@@ -1289,19 +1289,19 @@ This topic describes how to release a PolarDB-X instance and manage its release 
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Click the name of the desired instance.
 
@@ -1325,19 +1325,19 @@ This topic describes how to release a PolarDB-X instance and manage its release 
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Click the name of the desired instance.
 
@@ -1363,19 +1363,19 @@ If the number of connections to a PolarDB-X cluster reaches the upper limit or t
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the cluster that you want to manage and click its name.
 
@@ -1453,19 +1453,19 @@ An X-Paxos-based architecture is used for the data nodes of a primary PolarDB-X 
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. On the Instance List page, find the instance that you want to manage and click **Read-only instance** in the **Operation** column.
 
@@ -1567,7 +1567,7 @@ To efficiently categorize and search for instances when a large number of instan
 
 3. On the **Instances** page, find the instance to which you want to add a tag and click the
 
-   <img src="assets/5cb66c880f649b83a45499dde51081f1.png" width="18" alt="">
+   <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/5cb66c880f649b83a45499dde51081f1.png" width="18" alt="">
 
    icon in the **Tag** column.
 
@@ -1581,7 +1581,7 @@ To efficiently categorize and search for instances when a large number of instan
 
 2. In the left-side navigation pane, click **Instances**. On the page that appears, click the
 
-   <img src="assets/5cb66c880f649b83a45499dde51081f1.png" width="18" alt="">
+   <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/5cb66c880f649b83a45499dde51081f1.png" width="18" alt="">
 
    icon in the **Tag** column **of an instance.**
 
@@ -1615,7 +1615,7 @@ To efficiently categorize and search for instances when a large number of instan
 
 > **Note**
 >
-> If <img src="assets/94b103b24bb873718ce415d52d7e0cca.png" width="23" alt=""> is displayed in the Tags column, move the pointer over it to view all tags added to
+> If <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/94b103b24bb873718ce415d52d7e0cca.png" width="23" alt=""> is displayed in the Tags column, move the pointer over it to view all tags added to
 >
 > the instance.
 
@@ -1629,13 +1629,13 @@ To efficiently categorize and search for instances when a large number of instan
 
    icon in the **Tag** column.
 
-   <img src="assets/5cb66c880f649b83a45499dde51081f1.png" width="18" alt="">
+   <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/5cb66c880f649b83a45499dde51081f1.png" width="18" alt="">
 
 4. In the **Edit Tag** dialog box, find the tag that you want to delete and click the
 
    icon.
 
-   <img src="assets/e9ac378b92d5500305e22e1ea990c693.png" width="19" alt="">
+   <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/e9ac378b92d5500305e22e1ea990c693.png" width="19" alt="">
 
 5. Click OK.
 
@@ -1661,7 +1661,7 @@ Change data capture (CDC) nodes of PolarDB-X provide the incremental subscriptio
 
      The Configuration Information section displays some key information about the logging feature, and the Clusters section displays all instances for which the logging feature is enabled. Each instance can contain multiple nodes. You can enable the feature for all nodes in each instance in the single- or multi-stream mode.
 
-     ![](assets/4db3888320381ae03f241877d77e24d4.jpeg)
+     ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4db3888320381ae03f241877d77e24d4.jpeg)
 
    - Upgrade an instance
 
@@ -1695,7 +1695,7 @@ Change data capture (CDC) nodes of PolarDB-X provide the incremental subscriptio
 
      Click **Enable Multi-stream**. In the dialog box that appears, configure the parameters and click **OK**. The following table describes the parameters.
 
-     ![](assets/b50de6fbf2404d74a4731b8131689f6d.jpeg)
+     ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/b50de6fbf2404d74a4731b8131689f6d.jpeg)
 
      | Parameter | Description |
      | --- | --- |
@@ -1887,7 +1887,7 @@ This topic describes how to upgrade an instance from Standard Edition to Enterpr
 
 3. Click **Submit**.
 
-4. On the Basic Information page of the instance, click the <img src="assets/aa45e3ed5d35513007213948c4fd1a91.png" width="36" alt=""> icon in the upper-right corner
+4. On the Basic Information page of the instance, click the <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/aa45e3ed5d35513007213948c4fd1a91.png" width="36" alt=""> icon in the upper-right corner
 
    to open the task list and view the task progress.
 
@@ -2522,7 +2522,7 @@ If you want to migrate data across major engine versions of MySQL, verify the SQ
    | Task Stages | • To perform only full data migration, select <strong>Schema Migration</strong> and <strong>Full Data</strong> <strong>Migration</strong>.<br>• To ensure service continuity during data migration, select <strong>Schema Migration</strong>, <strong>Full</strong> <strong>Data Migration</strong>, and <strong>Incremental Data Migration</strong>.<br>Note<br>If <strong>Incremental Data Migration</strong> is not selected, do not write data to the source database during full data migration. This ensures data consistency between the source and destination databases. |
    | Process ing Mode of Conflict ing Tables | • <strong>Precheck and Report Errors</strong>: checks whether the destination database contains tables that use the same names as those in the source database. If the source and destination databases do not contain tables using the same names, the precheck is passed. Otherwise, an error is returned, and the data migration task cannot be started.<br>• <strong>Ignore Errors and Proceed</strong>: skips the precheck for identical table names in the source database and destination cluster.<br>Warning<br>If you select <strong>Ignore Errors and Proceed</strong>, data inconsistency may occur, and your business may be exposed to potential risks. Examples:<br>• If the source and destination databases use the same schemas, DTS does not migrate data records that have the same primary keys as those in the destination database.<br>• If the source and destination databases use different schemas, some columns may not be migrated, or the data migration task may fail. |
    | Capitali zation of Object Names in Destina tion Instanc e | The capitalization of database names, table names, and column names in the destination instance. By default, <strong>DTS default policy</strong> is selected. You can also choose to keep the capitalization the same as that of the source or destination database. |
-   | Source Objects | Select one or more objects from the <strong>Source Objects</strong> section and click the<img src="assets/0c4401ce6ed22aa87152322da7aea5ae.png" width="21" alt="">icon to<br>move the objects to the <strong>Selected Objects</strong> section.<br>Note<br>• You can use the navigation tree to search for one or more objects.<br>• You can select tables or databases as the objects to be migrated. |
+   | Source Objects | Select one or more objects from the <strong>Source Objects</strong> section and click the<img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/0c4401ce6ed22aa87152322da7aea5ae.png" width="21" alt="">icon to<br>move the objects to the <strong>Selected Objects</strong> section.<br>Note<br>• You can use the navigation tree to search for one or more objects.<br>• You can select tables or databases as the objects to be migrated. |
    | Selecte d Objects | By default, after an object is migrated to the destination database, the name of the object remains unchanged.<br>Note<br>• To select the SQL operations performed on a specific database or table, right-click an object in the <strong>Selected Objects</strong> section. In the dialog box that appears, select the SQL operations that you want to migrate.<br>• If you use the object name mapping feature to rename an object, other objects relying on the object may fail to be migrated. |
 
 7. Click **Next: Advanced Settings** to configure the advanced settings. The following table describes the parameters.
@@ -2654,7 +2654,7 @@ If you want to migrate data across major engine versions of MySQL, verify the SQ
      </tr>
      <tr>
        <td>Source Objects</td>
-       <td>Select objects (tables or a database) from the <strong>Source Objects</strong><br>section and click the<img src="assets/0c4401ce6ed22aa87152322da7aea5ae.png" width="21" alt="">icon to move the objects to the <strong>Selected</strong><br><strong>Objects</strong> section.<br>Note<br>You can select schemas or tables as the objects to be synchronized.</td>
+       <td>Select objects (tables or a database) from the <strong>Source Objects</strong><br>section and click the<img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/0c4401ce6ed22aa87152322da7aea5ae.png" width="21" alt="">icon to move the objects to the <strong>Selected</strong><br><strong>Objects</strong> section.<br>Note<br>You can select schemas or tables as the objects to be synchronized.</td>
      </tr>
    </table>
 
@@ -2893,7 +2893,7 @@ Verify or develop the SQL syntax compatibility for your applications before you 
    | Task Stages | • To perform only full data migration, select <strong>Schema Migration</strong> and <strong>Full Data</strong> <strong>Migration</strong>.<br>• To ensure service continuity during data migration, select <strong>Schema Migration</strong>, <strong>Full</strong> <strong>Data Migration</strong>, and <strong>Incremental Data Migration</strong>.<br>Note<br>If <strong>Incremental Data Migration</strong> is not selected, do not write data to the source database during full data migration. This ensures data consistency between the source and destination databases. |
    | Process ing Mode of Conflict ing Tables | • <strong>Precheck and Report Errors</strong>: checks whether the destination database contains tables that use the same names as tables in the source database. If the source and destination databases do not contain tables with identical names, the precheck is passed. Otherwise, an error is returned during the precheck, and the data migration task cannot be started.<br>• <strong>Ignore Errors and Proceed</strong>: skips the precheck for identical table names in the source database and destination databases.<br>Warning<br>If you select <strong>Ignore Errors and Proceed</strong>, data inconsistency may occur, and your business may be exposed to potential risks.<br>• If the source and destination databases have the same schemas, DTS does not migrate data records that have the same primary key values as data records in the destination database.<br>• If the source and destination databases have different schemas, only specific columns are migrated, or the data migration task fails. |
    | Capitali zation of Object Names in Destina tion Instanc e | The capitalization of database names, table names, and column names in the destination instance. By default, <strong>DTS default policy</strong> is selected. You can select another option to ensure that the capitalization of object names is the same as that of the source or destination database. |
-   | Source Objects | Select one or more objects from the <strong>Source Objects</strong> section and click the<img src="assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to<br>add the objects to the <strong>Selected Objects</strong> section.<br>Note<br>• You can use the navigation tree to search for one or more objects.<br>• You can select tables or databases as the objects to be migrated. |
+   | Source Objects | Select one or more objects from the <strong>Source Objects</strong> section and click the<img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to<br>add the objects to the <strong>Selected Objects</strong> section.<br>Note<br>• You can use the navigation tree to search for one or more objects.<br>• You can select tables or databases as the objects to be migrated. |
    | Selecte d Objects | By default, after an object is migrated to the destination database, the name of the object remains unchanged.<br>Note<br>• To select the SQL operations performed on a specific database or table, right-click an object in the <strong>Selected Objects</strong> section. In the dialog box that appears, select the SQL operations that you want to migrate.<br>• If you use the object name mapping feature to rename an object, other objects that are dependent on the object may fail to be migrated. |
 
 7. Click **Next: Advanced Settings** to configure advanced settings. The following table describes the parameters.
@@ -2995,7 +2995,7 @@ Verify or develop the SQL syntax compatibility for your applications before you 
    <table>
      <tr>
        <td>Source Objects</td>
-       <td>Select objects (tables or a database) from the <strong>Source Objects</strong><br>section and click the<img src="assets/0c4401ce6ed22aa87152322da7aea5ae.png" width="21" alt="">icon to move the objects to the <strong>Selected</strong><br><strong>Objects</strong> section.<br>Note<br>You can select schemas or tables as the objects to be synchronized.</td>
+       <td>Select objects (tables or a database) from the <strong>Source Objects</strong><br>section and click the<img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/0c4401ce6ed22aa87152322da7aea5ae.png" width="21" alt="">icon to move the objects to the <strong>Selected</strong><br><strong>Objects</strong> section.<br>Note<br>You can select schemas or tables as the objects to be synchronized.</td>
      </tr>
      <tr>
        <td>Selected Objects</td>
@@ -3053,19 +3053,19 @@ In the PolarDB-X console, you can view the description of parameters related to 
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the cluster that you want to manage and click its name.
 
@@ -3107,7 +3107,7 @@ In the PolarDB-X console, you can view the description of parameters related to 
    >
    > - Enter a value within the value range in the **Modification Scope** column. Otherwise, an error is thrown after you click **Submit**.
    >
-   > - You can move the pointer over the <img src="assets/ea160c8c77b8a59059fde0822f74fe7a.png" width="13" alt=""> icon next to the name of a parameter to
+   > - You can move the pointer over the <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/ea160c8c77b8a59059fde0822f74fe7a.png" width="13" alt=""> icon next to the name of a parameter to
    >
    >   view the parameter description.
 
@@ -3538,7 +3538,7 @@ This topic describes how to use a parameter template to configure the parameters
 
    icon to move the selected instances to
 
-   <img src="assets/1b088c55a602cbb22d308b8ff2e4551b.png" width="27" alt="">
+   <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/1b088c55a602cbb22d308b8ff2e4551b.png" width="27" alt="">
 
    the Selected Instances section, and then view the changes to the parameter settings in the Parameter Comparison section.
 
@@ -3580,7 +3580,7 @@ This topic describes how to use a parameter template to configure the parameters
 
      icon and select **Modify** in the **Actions** column next to the parameter
 
-     <img src="assets/4945771de346870e14e126b9c8cf6a6d.png" width="16" alt="">
+     <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4945771de346870e14e126b9c8cf6a6d.png" width="16" alt="">
 
      template ID to modify the parameter template.
 
@@ -3600,7 +3600,7 @@ This topic describes how to use a parameter template to configure the parameters
   >
   > When you delete a parameter template, the instances to which the parameter template is applied are not affected.
 
-  Find the parameter template that you want to delete, click the <img src="assets/4945771de346870e14e126b9c8cf6a6d.png" width="16" alt=""> icon, and then select
+  Find the parameter template that you want to delete, click the <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4945771de346870e14e126b9c8cf6a6d.png" width="16" alt=""> icon, and then select
 
   **Delete** in the **Actions** column. In the message that appears, click **OK**.
 
@@ -3628,7 +3628,7 @@ This topic describes how to use a parameter template to configure the parameters
 
 4. In the All Instances section of the panel that appears, select the instances from which you
 
-   <img src="assets/1b088c55a602cbb22d308b8ff2e4551b.png" width="27" alt="">
+   <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/1b088c55a602cbb22d308b8ff2e4551b.png" width="27" alt="">
 
    want to export parameter templates, and click the
 
@@ -3708,19 +3708,19 @@ This topic describes how to disable and enable full table scan for a PolarDB-X V
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the cluster that you want to manage and click its name.
 
@@ -3730,7 +3730,7 @@ This topic describes how to disable and enable full table scan for a PolarDB-X V
 
 5. In the **Data Table Configuration** dialog box, find the table that you want to manage and click **Query table structure** in the Operation column.
 
-   ![](assets/e16851d5bfee61fdfabad6bf45c9082e.jpeg)
+   ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/e16851d5bfee61fdfabad6bf45c9082e.jpeg)
 
 **Batch enable full table scan**
 
@@ -3742,19 +3742,19 @@ This topic describes how to disable and enable full table scan for a PolarDB-X V
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the cluster that you want to manage and click its name.
 
@@ -3792,19 +3792,19 @@ You can connect to a PolarDB-X database by using Data Management (DMS), the MySQ
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the PolarDB-X instance that you want to manage and click the instance name.
 
@@ -3822,19 +3822,19 @@ You can connect to a PolarDB-X database by using Data Management (DMS), the MySQ
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the PolarDB-X instance that you want to manage and click the instance name.
 
@@ -3980,7 +3980,7 @@ If you do not create a read-only instance for a primary instance, you can use on
 
 3. In the **Connection Information** section, click **Configuration Management** to view the cluster endpoint configuration items.
 
-   ![](assets/7e1f6307d8d54c0c0ae4aa80950e2e1b.jpeg)
+   ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/7e1f6307d8d54c0c0ae4aa80950e2e1b.jpeg)
 
    The following table describes parameters:
 
@@ -3997,9 +3997,9 @@ If you do not create a read-only instance for a primary instance, you can use on
 
 4. (Optional) Click **Edit** to customize the prefix of the private and public endpoints.
 
-   ![](assets/e843accb3272c938fe98ffa575a942f2.jpeg)
+   ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/e843accb3272c938fe98ffa575a942f2.jpeg)
 
-   ![](assets/16da2f7b7b2797adb48dd2fd5bde0495.jpeg)
+   ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/16da2f7b7b2797adb48dd2fd5bde0495.jpeg)
 
 **Configure a read-only endpoint**
 
@@ -4027,19 +4027,19 @@ By default, a PolarDB-X assigned a private endpoint when the instance is created
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -4061,19 +4061,19 @@ By default, a PolarDB-X assigned a private endpoint when the instance is created
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -4219,19 +4219,19 @@ A PolarDB-X instance is a distributed cluster that consists of multiple nodes. T
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the PolarDB-X instance that you want to manage and click the instance name.
 
@@ -4249,19 +4249,19 @@ A PolarDB-X instance is a distributed cluster that consists of multiple nodes. T
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the PolarDB-X instance that you want to manage and click the instance name.
 
@@ -4269,7 +4269,7 @@ A PolarDB-X instance is a distributed cluster that consists of multiple nodes. T
 
 4. In the **Release node** dialog box that appears, click **Release**.
 
-   ![](assets/2fac89266cd61849cf8379af3468977a.jpeg)
+   ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/2fac89266cd61849cf8379af3468977a.jpeg)
 
 <a id="section-9-2"></a>
 
@@ -4295,19 +4295,19 @@ After you change the data node configurations, the data nodes of the PolarDB-X i
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the PolarDB-X instance that you want to manage and click the instance name.
 
@@ -4364,19 +4364,19 @@ The following sections describe the operations that you can perform on database 
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click its ID.
 
@@ -4404,19 +4404,19 @@ The following sections describe the operations that you can perform on database 
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click its ID.
 
@@ -4446,19 +4446,19 @@ The following sections describe the operations that you can perform on database 
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click its ID.
 
@@ -4474,7 +4474,7 @@ The following sections describe the operations that you can perform on database 
 
    icon to move the
 
-   <img src="assets/04801f0e5a4ffb600e9fd67ac0abd453.png" width="22" alt="">
+   <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/04801f0e5a4ffb600e9fd67ac0abd453.png" width="22" alt="">
 
    databases from the **Unauthorized Database** section to the **Authorized Databases** section.
 
@@ -4498,19 +4498,19 @@ The following sections describe the operations that you can perform on database 
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click its ID.
 
@@ -4530,19 +4530,19 @@ The following sections describe the operations that you can perform on database 
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click its ID.
 
@@ -4550,7 +4550,7 @@ The following sections describe the operations that you can perform on database 
 
 4. Find the account that you want to lock and click **Lock** in the Actions column.
 
-   ![](assets/77978e408561ca86b16007963424db06.jpeg)
+   ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/77978e408561ca86b16007963424db06.jpeg)
 
 5. In the message that appears, click **Determine**.
 
@@ -4576,19 +4576,19 @@ You can configure an IP address whitelist for your PolarDB-X instance. This whit
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click its ID.
 
@@ -4620,19 +4620,19 @@ You can configure an IP address whitelist for your PolarDB-X instance. This whit
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click its ID.
 
@@ -4668,19 +4668,19 @@ You can configure an IP address whitelist for your PolarDB-X instance. This whit
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click its ID.
 
@@ -4714,19 +4714,19 @@ This topic describes how to make data transmission more secure by configuring Se
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -4819,19 +4819,19 @@ After SSL encryption is enabled, you must configure an SSL certificate on your a
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -4869,19 +4869,19 @@ After SSL encryption is enabled, you must configure an SSL certificate on your a
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -4919,19 +4919,19 @@ This topic describes how to configure the transparent data encryption (TDE) feat
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the PolarDB-X instance for which you want to enable the TDE feature and click the instance name.
 
@@ -4939,7 +4939,7 @@ This topic describes how to configure the transparent data encryption (TDE) feat
 
 4. Click the **TDE** tab. By default, the TDE feature is disabled. Click the slider for enabling the TDE feature.
 
-   ![](assets/16326219478e1ed1ab163097bde9a4da.jpeg)
+   ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/16326219478e1ed1ab163097bde9a4da.jpeg)
 
 5. In the **Configure TDE** dialog box, configure the following settings:
 
@@ -4951,7 +4951,7 @@ This topic describes how to configure the transparent data encryption (TDE) feat
      >
      > If you do not have a custom key, click **Create now** to create a key and import your own key material the KMS console.
 
-   ![](assets/02d6464a5f7c36ced6ee15d4e731196e.jpeg)
+   ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/02d6464a5f7c36ced6ee15d4e731196e.jpeg)
 
 **Encrypt a table by using the TDE feature**
 
@@ -5103,19 +5103,19 @@ You can enable and disable the three-role mode in the PolarDB-X console. After y
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -5163,19 +5163,19 @@ You can enable and disable the three-role mode in the PolarDB-X console. After y
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -5219,19 +5219,19 @@ The DBA, DSA, and DAA accounts have the following restrictions:
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -5283,19 +5283,19 @@ The DBA, DSA, and DAA accounts have the following restrictions:
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance ID.
 
@@ -5353,19 +5353,19 @@ This section describes the procedure to delete a standard account.
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click its ID.
 
@@ -5387,19 +5387,19 @@ This section describes the procedure to delete a standard account.
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click its ID.
 
@@ -5427,19 +5427,19 @@ PolarDB-X provides the monitoring feature to help you monitor the status of your
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the cluster that you want to manage and click its name.
 
@@ -5486,19 +5486,19 @@ PolarDB-X provides the monitoring feature to help you monitor the status of your
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the cluster that you want to manage and click its name.
 
@@ -5685,19 +5685,19 @@ This topic describes how to view log resource monitoring information in the Pola
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the cluster that you want to manage and click its name.
 
@@ -5734,19 +5734,19 @@ This topic describes how to view the monitoring information of columnstore resou
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the cluster that you want to manage and click its name.
 
@@ -5822,7 +5822,7 @@ After an alert is triggered, you can view its history. You can also export and d
    | Task | Procedure |
    | --- | --- |
    | View alert history | In the <strong>Alert History</strong> list, view the <strong>Product Name</strong>, <strong>Affected</strong> <strong>Instance</strong>, <strong>Time</strong>, <strong>Rule Name</strong>, <strong>Status</strong>, <strong>Level</strong>, and <strong>Notification</strong> <strong>Recipient</strong>. Click the rule name to view the details of the alert rule.<br>Note<br>By default, you can query alert history data from the last 2 days. |
-   | Export alert history | i. On the <strong>Alert History</strong> page, click<img src="assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">in the upper-right<br>corner.<br>ii. In the <strong>Export Task</strong> dialog box, set <strong>Time Range</strong> and <strong>Task</strong> <strong>Name</strong>. Then, click <strong>OK</strong>. |
+   | Export alert history | i. On the <strong>Alert History</strong> page, click<img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">in the upper-right<br>corner.<br>ii. In the <strong>Export Task</strong> dialog box, set <strong>Time Range</strong> and <strong>Task</strong> <strong>Name</strong>. Then, click <strong>OK</strong>. |
 
 <a id="section-12-3"></a>
 
@@ -5883,7 +5883,7 @@ This example creates an alert rule named "example" for an Elastic Compute Servic
 
 The following figure shows the rule description configuration for this scenario.
 
-![](assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
+![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
 
 <a id="section-12-3-2"></a>
 
@@ -5907,9 +5907,9 @@ From the list of alert rules, you can modify, enable, disable, and delete rules.
    | Check rule validity | In the <strong>Validity</strong> column of the target alert rule, click <strong>Click To Inspect</strong>. The inspection result is displayed in the Validity column.<br>Note<br>• If the inspection result is abnormal, click <strong>Detection Result</strong>. In the panel that appears, view the results for <strong>Alert Rule Execution</strong> <strong>Anomaly Detection</strong>, <strong>Alert Rule Load Detection</strong>, <strong>Invalid Alert</strong> <strong>Rule Detection</strong>, and <strong>Alert Rule Callback Detection</strong>.<br>• Click <strong>Re-detect</strong> to check the rule validity again. |
    | View rule execution records | In the <strong>Rule Execution Record</strong> column of the target alert rule, click <strong>View</strong> <strong>Rule Execution Record</strong>. On the <strong>Alert Rule Execution Record</strong> panel, filter the execution records by time range. |
    | Modify an alert rule | i. In the <strong>Operation</strong> column of the target alert rule, click <strong>Edit.</strong><br>ii. On the <strong>Modify Alert Rule</strong> panel, modify the alert rule. For more information about the configuration parameters, see Create an alert rule.<br>iii. After you finish the modification, click <strong>OK</strong>. |
-   | Disable an alert rule | Disable alert rules when you manually stop a cloud product for maintenance or an upgrade. This prevents unnecessary alert notifications.<br>Note<br>Before disabling an alert rule, make sure that its <strong>Status</strong> is <strong>Normal</strong>.<br>• Disable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Disable.</strong><br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Disable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
+   | Disable an alert rule | Disable alert rules when you manually stop a cloud product for maintenance or an upgrade. This prevents unnecessary alert notifications.<br>Note<br>Before disabling an alert rule, make sure that its <strong>Status</strong> is <strong>Normal</strong>.<br>• Disable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click the<img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Disable.</strong><br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Disable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
    | Enable an alert rule | After you finish the maintenance or upgrade of a cloud product, re-enable the disabled alert rules.<br>Note<br>Before enabling an alert rule, make sure that its <strong>Status</strong> is <strong>Disabled</strong>.<br>• Enable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click <strong>Enable.</strong><br>b. In the <strong>Enable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Enable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Enable</strong> in the lower-left corner of the list.<br>b. In the <strong>Enable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
-   | Delete an alert rule | • Delete a single rule<br>a. In the Operation column of the target alert rule, click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Delete rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>. |
+   | Delete an alert rule | • Delete a single rule<br>a. In the Operation column of the target alert rule, click the<img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Delete rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>. |
 
 <a id="section-13"></a>
 
@@ -6343,19 +6343,19 @@ This topic describes how to query SQL statements.
    >
    > : refreshes the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : displays the instances in the **Default** or **Compact** mode.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : specifies the instance properties displayed in the instance list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : exports the instance list to your on-premises device.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the cluster that you want to manage and click its name.
 
@@ -6429,19 +6429,19 @@ PolarDB-X backups consist of data backup and log backup.
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -6471,19 +6471,19 @@ PolarDB-X backups consist of data backup and log backup.
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -6510,19 +6510,19 @@ PolarDB-X backups consist of data backup and log backup.
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -6542,19 +6542,19 @@ PolarDB-X backups consist of data backup and log backup.
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -6580,19 +6580,19 @@ This topic describes how to download Binlog backup files for an instance.
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Click the name or ID of the target instance to open its details page.
 
@@ -6624,7 +6624,7 @@ PolarDB-X supports two restoration modes: by backup set and by point in time.
 
 PolarDB-X is a distributed database service. In PolarDB-X, data is stored on multiple data nodes. If distributed transactions exist in an instance, the instance to which data is restored must ensure that data is consistent among data nodes. The following figure provides an example on how to ensure global consistency during account transfers.
 
-![](assets/a780ca7670acd8386a05a2f897e78a5c.jpeg)
+![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/a780ca7670acd8386a05a2f897e78a5c.jpeg)
 
 PolarDB-X contains a table of account balances, the data of which is distributed over two data nodes. The sum of the account balances is USD 200. In this example, distributed transactions are used to transfer money between different accounts.
 
@@ -6652,19 +6652,19 @@ PolarDB-X allows you to restore data only to a new instance. After data is resto
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -6686,19 +6686,19 @@ PolarDB-X allows you to restore data only to a new instance. After data is resto
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance that you want to manage and click the instance name.
 
@@ -6988,19 +6988,19 @@ PolarDB-X provides a data archiving feature based on a Time-to-Live (TTL) mechan
    >
    > : Click to refresh the instance list.
    >
-   > <img src="assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/10af8532d79db938a374dadd72586333.png" width="18" alt="">
    >
    > : Click to switch the instance list view between **Default** and **Compact** modes.
    >
-   > <img src="assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/020678af56163c1a195f9b95b46ccdd2.png" width="18" alt="">
    >
    > : Click to select the instance properties to display in the list.
    >
-   > <img src="assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/4feb41fc413ac3b9a91b27fca80805b8.png" width="18" alt="">
    >
    > : Click to export the instance list to a local file.
    >
-   > <img src="assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
+   > <img src="en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/45131c5b217f397b81d5b80eca5b0f9c.png" width="18" alt="">
 
 2. Find the instance and click its name.
 
@@ -7106,7 +7106,7 @@ PolarDB-X provides the migration evaluation feature to help you migrate database
 
 - Set the retention period of local binary logs of the source instance to at least seven days. Otherwise, the incremental task may fail because the binary logs cannot be obtained. You can modify the retention period of local binary logs on the **Backup and Restore** page in the PolarDB-X console.
 
-  ![](assets/360aa5bda8b11d49ea5d1ef357429ea1.jpeg)
+  ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/360aa5bda8b11d49ea5d1ef357429ea1.jpeg)
 
 - Make sure that the tables that you want to migrate have **PRIMARY KEY** or **UNIQUE** constraints. Otherwise, an error is reported in the precheck phase and the data migration task cannot be started.
 
@@ -7143,7 +7143,7 @@ PolarDB-X provides the migration evaluation feature to help you migrate database
 
 3. On the page that appears, click **Create Migration Task**.
 
-   ![](assets/0ac1e9d39647484acf010744fb14e533.jpeg)
+   ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/0ac1e9d39647484acf010744fb14e533.jpeg)
 
 4. On the page that appears, configure the following parameters.
 
@@ -7196,7 +7196,7 @@ PolarDB-X provides the migration evaluation feature to help you migrate database
 
 After the compatibility evaluation is skipped, proceed to the **precheck** step:
 
-![](assets/677e781f6e77bbc8aa5bbabcaef2b91b.jpeg)
+![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/677e781f6e77bbc8aa5bbabcaef2b91b.jpeg)
 
 The following items describe the precheck items:
 
@@ -7446,7 +7446,7 @@ This topic describes the operations performed on a single-zone instance.
 
 On the PolarDB-X instance creation page, set the **Deployment Method** parameter to **Single Zone**. For more information, see Create a PolarDB-X instance.
 
-![](assets/271665064a39625cdc1e0c7555660015.jpeg)
+![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/271665064a39625cdc1e0c7555660015.jpeg)
 
 **View an instance**
 
@@ -7456,13 +7456,13 @@ You can view the details of a zone in the following ways.
 
   On the Instance List page, you can view the zone information of the instance.
 
-  ![](assets/17352ba3475ee05682ebf8cc79c3d588.jpeg)
+  ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/17352ba3475ee05682ebf8cc79c3d588.jpeg)
 
 - View the zone information on the instance details page.
 
   On the instance details page, you can view the zone information of the instance.
 
-  ![](assets/60e6a7f04d7e04c382b7fb755fbba9fb.jpeg)
+  ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/60e6a7f04d7e04c382b7fb755fbba9fb.jpeg)
 
 <a id="section-17-2"></a>
 
@@ -7482,19 +7482,19 @@ You can view the details of a zone in the following ways.
 
   On the Instance List page, you can view the zone information of the instance.
 
-  ![](assets/17352ba3475ee05682ebf8cc79c3d588.jpeg)
+  ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/17352ba3475ee05682ebf8cc79c3d588.jpeg)
 
 - View the zone information on the instance details page.
 
   On the instance details page, you can view the zone information of the instance.
 
-  ![](assets/60e6a7f04d7e04c382b7fb755fbba9fb.jpeg)
+  ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/60e6a7f04d7e04c382b7fb755fbba9fb.jpeg)
 
 - View the zone information in the topology information section.
 
   On the Basic Information page, you can view the zone in which each node resides and the status of each node in the Topology Information section.
 
-  ![](assets/98e2fdc090b74c5f1d9aad6baf3b3f0a.jpeg)
+  ![](en-polardb-polardb-x-2-0-user-guide-v3.18.6-2607-20260828.assets/98e2fdc090b74c5f1d9aad6baf3b3f0a.jpeg)
 
 **Add or remove a replica**
 

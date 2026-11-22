@@ -231,7 +231,7 @@ This topic describes how to view the desired product development documentation w
 
 You can follow the procedure described in the following figure to view the desired development documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-vpc-developer-guide-v3.18.6-2607-20260828.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -259,7 +259,7 @@ Apsara Stack allows you to call API operations by using the point of presence (P
 
 **Flowchart**
 
-![](assets/27a14c1fdbadd2d9298565190c14de9a.png)
+![](en-vpc-developer-guide-v3.18.6-2607-20260828.assets/27a14c1fdbadd2d9298565190c14de9a.png)
 
 **Procedure**
 
@@ -317,7 +317,7 @@ You can log in to OpenAPI Explorer from the Apsara Uni-manager Management Consol
 
 1. In the address bar of your browser, enter the service domain name for the Apsara Uni-manager Management Console and press Enter.
 
-   ![](assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
+   ![](en-vpc-developer-guide-v3.18.6-2607-20260828.assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
 
    > **Note**
    >
@@ -405,7 +405,7 @@ The API operations on the API Directory page are only for reference. For informa
 
 3. On the **API Directory** page, select the service that you want to use from the drop-down list, enter a keyword of an API operation name in the search box, and then click Search.
 
-   ![](assets/e40e266304604a863b174cad7303f674.png)
+   ![](en-vpc-developer-guide-v3.18.6-2607-20260828.assets/e40e266304604a863b174cad7303f674.png)
 
 4. View and record the service name, API operation name, and API version of the API operation that you want to call.
 
@@ -450,7 +450,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-vpc-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -741,9 +741,9 @@ To use (Portable OpenAPI Proxy) POP Gateway to call Apsara Stack API operations,
 
 3. On the **All Reports** page, search for  `Registration Vars of Services`  and click the report name.
 
-   ![](assets/99c5a0612611902aca4512475729949d.png)
+   ![](en-vpc-developer-guide-v3.18.6-2607-20260828.assets/99c5a0612611902aca4512475729949d.png)
 
-4. On the **Registration Vars of Services** page, click the <img src="assets/f138bb3601f505ae7ffcd069fe3d9ffb.png" width="21" alt=""> icon next to **Service** and search
+4. On the **Registration Vars of Services** page, click the <img src="en-vpc-developer-guide-v3.18.6-2607-20260828.assets/f138bb3601f505ae7ffcd069fe3d9ffb.png" width="21" alt=""> icon next to **Service** and search
 
    for  `VPC` .
 
@@ -1379,7 +1379,7 @@ While using the Alibaba Cloud core library SDK to initiate an API request, you c
   </tr>
 </table>
 
-![](assets/e70b7823131b9be0b384fcfbbba14c05.png)
+![](en-vpc-developer-guide-v3.18.6-2607-20260828.assets/e70b7823131b9be0b384fcfbbba14c05.png)
 
 <table>
   <tr>
@@ -1991,7 +1991,7 @@ While using the Alibaba Cloud core SDK to initiate an API request, you can confi
   </tr>
 </table>
 
-![](assets/0590107ac440d8d3beab030da20de5e9.png)
+![](en-vpc-developer-guide-v3.18.6-2607-20260828.assets/0590107ac440d8d3beab030da20de5e9.png)
 
 <table>
   <tr>
@@ -9451,11 +9451,11 @@ associate elastic IP addresses (EIPs) with your NAT gateway.
 | Name | String | No | NATABC | The name of the NAT bandwidth plan. The name must be 2 to 128 characters in length and can contain letters, digits, periods (.), underscores (_), and hyphens (-). But not with <code>  http://  </code> or <code>  </code> <code>https://  </code> The beginning. |
 | Description | String | No | This is NAT. | The description of the NAT bandwidth plan. The name must be 2 to 256 characters in length. It must start with a letter, but cannot start with <code>  http://  </code> or <code>  https:// </code><code> </code> The beginning. |
 
-![](assets/dbc85aa09d0f85dd90e52bd60fc0fcd3.png)
+![](en-vpc-developer-guide-v3.18.6-2607-20260828.assets/dbc85aa09d0f85dd90e52bd60fc0fcd3.png)
 
-![](assets/01744dbe3d7e9ac2b83d4a0747ed3040.png)
+![](en-vpc-developer-guide-v3.18.6-2607-20260828.assets/01744dbe3d7e9ac2b83d4a0747ed3040.png)
 
-![](assets/6523a086de55aa89ea48cb592dff5813.png)
+![](en-vpc-developer-guide-v3.18.6-2607-20260828.assets/6523a086de55aa89ea48cb592dff5813.png)
 
 **Response parameters**
 

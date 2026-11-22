@@ -94,7 +94,7 @@ Document version：20260703
 
 OpenShift Container Platform is a platform for developing and running containerized applications. It is designed to allow applications and the data centers that support them to expand from just a few machines and applications to thousands of machines that serve millions of clients. With its foundation in Kubernetes, OpenShift Container Platform incorporates the same technology that serves as the engine for massive telecommunications, streaming video, gaming, banking, and other applications. Its implementation in open Red Hat technologies lets you extend your containerized applications beyond a single cloud to on-premise and multi-cloud environments.
 
-![](assets/89db9640f7438c9c85c131c3c204e1b3.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/89db9640f7438c9c85c131c3c204e1b3.jpeg)
 
 OpenShift Container Platform provides enterprise-ready enhancements to Kubernetes, including the following enhancements:
 
@@ -114,7 +114,7 @@ Although Kubernetes excels at managing your applications, it does not specify or
 
 Alibaba Cloud Apsara Stack is an open, unified, and trusted cloud solution that is tailored for enterprise customers. Apsara Stack is developed based on the same distributed architecture as Alibaba Cloud. Apsara Stack allows enterprises to deploy public cloud services in onpremises environments and implement auto scaling of services with a few clicks based on public cloud resources.  Apsara Stack provides stable, secure, all-in-one, lightweight, and easy-to-integrate capabilities that allow enterprises of different business scales to adapt to various business scenarios.  Both Apsara Stack and Alibaba Cloud public cloud are based on Apsara Distributed Operating System. Apsara Distributed Operating System provides underlying services such as storage, computing, and scheduling for upper-layer services. Apsara Distributed Operating System is a hyper-scale universal operating system developed by Alibaba Cloud. Apsara Distributed Operating System connects millions of servers around the world to act as a supercomputer and provides computing capabilities such as online public services. The computing capabilities provided by Apsara Distributed Operating System are powerful, universal, and accessible to everyone.
 
-![](assets/80c876afa4ab4cf5b16074cbae72efdb.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/80c876afa4ab4cf5b16074cbae72efdb.jpeg)
 
 <a id="section-2-2"></a>
 
@@ -160,7 +160,7 @@ In this case Agent-based installation method is used. With the Agent-based insta
 
 One of the control plane hosts runs the Assisted Service at the start of the boot process and eventually becomes the bootstrap host. This node is called the **rendezvous host** (node 0). The Assisted Service ensures that all the hosts meet the requirements and triggers an OpenShift Container Platform cluster deployment. All the nodes have the Red Hat Enterprise Linux CoreOS (RHCOS) image written to the disk. The non-bootstrap nodes reboot and initiate a cluster deployment. Once the nodes are rebooted, the rendezvous host reboots and joins the cluster. The bootstrapping is complete and the cluster is deployed.
 
-![](assets/256be62f803f17a083ef090f61adebee.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/256be62f803f17a083ef090f61adebee.jpeg)
 
 This documentation shows an example of deploying a three-node Openshift Container Platform cluster.
 
@@ -225,7 +225,7 @@ This documentation shows an example of deploying a three-node Openshift Containe
 
 **Diagram of cluster**
 
-![](assets/642790937580776365dae88513062358.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/642790937580776365dae88513062358.jpeg)
 
 **ECS instances**
 
@@ -300,11 +300,11 @@ Prerequisites:
 
 Navigate to "Virtual Private Cloud" console after log into ASCM.
 
-![](assets/31c29ec81b3808e9a2acf284e7f70bd9.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/31c29ec81b3808e9a2acf284e7f70bd9.jpeg)
 
 Click on button "Create VPC" and fill the fields as per table below.
 
-![](assets/1160afb0bfb3cd8b64f7eb19e96bb30f.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/1160afb0bfb3cd8b64f7eb19e96bb30f.jpeg)
 
 <a id="section-4-1-2"></a>
 
@@ -312,9 +312,9 @@ Click on button "Create VPC" and fill the fields as per table below.
 
 After VPC is created, create vSwitch as below.
 
-![](assets/2d5bdcb44758ed8982b36658abdbdb99.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/2d5bdcb44758ed8982b36658abdbdb99.jpeg)
 
-![](assets/74627dcdb2bd90b963166b6da93c7945.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/74627dcdb2bd90b963166b6da93c7945.jpeg)
 
 <a id="section-4-1-3"></a>
 
@@ -322,13 +322,13 @@ After VPC is created, create vSwitch as below.
 
 In this case, a security group will be applied on ECS instances, including control plane nodes, compute nodes and installer node.  To create the security group, navigate to "Security Groups" section under "Elastic Compute Service" page, and click on button "Create Security Group".
 
-![](assets/e6793debdc0cea49f6680c48038b2dc9.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/e6793debdc0cea49f6680c48038b2dc9.jpeg)
 
-![](assets/fa57e9c190becfba3c69b2ae3c19335d.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/fa57e9c190becfba3c69b2ae3c19335d.jpeg)
 
 Configure policies in security group as below to allow external traffic towards specified ports.
 
-![](assets/c77d41d812e2644c8e0190a5018145ea.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/c77d41d812e2644c8e0190a5018145ea.jpeg)
 
 <a id="section-4-1-4"></a>
 
@@ -336,15 +336,15 @@ Configure policies in security group as below to allow external traffic towards 
 
 DNS service is used for internal domain name resolving and hostname delivering. To configure DNS entries as planned, navigate to "Alibaba Cloud DNS" in top menu.
 
-![](assets/930855d4cb66d34d51b28913501d767e.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/930855d4cb66d34d51b28913501d767e.jpeg)
 
 Click on button "Add Domain Name" under "Private Domain Name for VPC" section.
 
-![](assets/836566d83492c9ff4107ad0b0f505cdd.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/836566d83492c9ff4107ad0b0f505cdd.jpeg)
 
 Configure entries as planned in Chapter 3.4.2.3
 
-![](assets/98d6f703ea2b65ebb7b0b63335fa99b5.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/98d6f703ea2b65ebb7b0b63335fa99b5.jpeg)
 
 <a id="section-4-1-5"></a>
 
@@ -352,35 +352,35 @@ Configure entries as planned in Chapter 3.4.2.3
 
 To create ECS instance for installer, master nodes and worker nodes according to planned resources in Chapter 3.5 Resource Planning, navigate to "ECS instances" under section of "Elastic Compute Service" and click "Create Instance".
 
-![](assets/9d664d19622eae23ad6ff03dc61bacc8.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/9d664d19622eae23ad6ff03dc61bacc8.jpeg)
 
-![](assets/2eb71ba782c2c2c413fc18f841f6d7c8.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/2eb71ba782c2c2c413fc18f841f6d7c8.jpeg)
 
-![](assets/fee0f4cb81bf865d146153465613577b.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/fee0f4cb81bf865d146153465613577b.jpeg)
 
 Mirror:  For now we can just use a random image, and in later steps we will replace the image with a custom image spcifically for master and worker nodes.
 
-![](assets/3d8c7cafbb40525fdb94d208b3408aac.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/3d8c7cafbb40525fdb94d208b3408aac.jpeg)
 
 Configure system disk type as "Premium Performance Disk" and set capacity to 200GB:
 
-![](assets/51942a2317947675b6a7912747506123.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/51942a2317947675b6a7912747506123.jpeg)
 
 For network part, select the VPC and VSwitch created in Chapter 4.1.1 and 4.1.2. Specify IP address for ECS instances according to Chapter 3.5.
 
-![](assets/51422a3410eb097384458170b12d71c3.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/51422a3410eb097384458170b12d71c3.jpeg)
 
 Select security group created in Chapter 4.1.3:
 
-![](assets/853f4abec79dbddf03fbd83779ba67ab.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/853f4abec79dbddf03fbd83779ba67ab.jpeg)
 
 In this case, master nodes and worker nodes are using same instance type, so it's possible to create these instances in one time:
 
-![](assets/dedfa27339b351b3c02620bb33bded86.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/dedfa27339b351b3c02620bb33bded86.jpeg)
 
 After all this configured and submitted, ECS instances will be created:
 
-![](assets/e164f57527e50c02419007b4ec208ae9.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/e164f57527e50c02419007b4ec208ae9.jpeg)
 
 <a id="section-4-1-6"></a>
 
@@ -388,31 +388,31 @@ After all this configured and submitted, ECS instances will be created:
 
 To create SLB instance, navigate to "Server Load Balancer(SLB)" page:
 
-![](assets/f93979c856b8514ba5600ffebd9fe4f8.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/f93979c856b8514ba5600ffebd9fe4f8.jpeg)
 
 Click "Create SLB" button under "Instance Management" section:
 
-![](assets/c8e2d5c816f72a78f981e4f663ea790e.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/c8e2d5c816f72a78f981e4f663ea790e.jpeg)
 
 Configure name and specification of SLB instance. For test scenario, using "Small I" specification with 3000 CPS and 1000 QPS is enough.
 
-![](assets/941fcf369059ea018d7da67a40541ffa.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/941fcf369059ea018d7da67a40541ffa.jpeg)
 
 For "Instance Type", select "Intranet". For "Network Type", select "VPC", then select VPC created in Chapter 4.1.1 and VSwitch created in Chapter 4.1.2. Specify service IP planned in Chapter 3.5.
 
-![](assets/8ef75e41e04227c4bf452ec7c16232ba.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/8ef75e41e04227c4bf452ec7c16232ba.jpeg)
 
 Submit the configuration and SLB instance is created:
 
-![](assets/8fe34e19342fe8409297b50927430ed0.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/8fe34e19342fe8409297b50927430ed0.jpeg)
 
 Click the instance ID, and navigate to "Add Listener":
 
-![](assets/93827f30f34149fbb952a3e0bd7966a6.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/93827f30f34149fbb952a3e0bd7966a6.jpeg)
 
 Configure Listeners as planned in Chapter 3.5:
 
-![](assets/d3707ca6d9530ffd636f03378685c33e.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/d3707ca6d9530ffd636f03378685c33e.jpeg)
 
 <a id="section-4-1-7"></a>
 
@@ -420,19 +420,19 @@ Configure Listeners as planned in Chapter 3.5:
 
 OSS bucket will be used for importing ECS image. Navigate to "Object Storage Service":
 
-![](assets/777ff48c3205fd9bf460f8f1d0611f5d.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/777ff48c3205fd9bf460f8f1d0611f5d.jpeg)
 
 Click on button "Create Bucket" in section of "Buckets":
 
-![](assets/d52cd9f33f18b11eb13c98f6cacd0dea.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/d52cd9f33f18b11eb13c98f6cacd0dea.jpeg)
 
 Create bucket as below:
 
-![](assets/d7a458ed36d36371fbaba5a9a86ab88a.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/d7a458ed36d36371fbaba5a9a86ab88a.jpeg)
 
 To upload files into the bucket:
 
-![](assets/35dcf580af5c3b8e7180c65d3ba692b8.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/35dcf580af5c3b8e7180c65d3ba692b8.jpeg)
 
 <a id="section-4-2"></a>
 
@@ -1305,29 +1305,29 @@ $ qemu-img convert -f raw -O qcow2 agent.x86_64.iso agent.x86_64.qcow2
 
 3. Upload this qcow2 to Alibaba OSS storage and import it as a ECS image.
 
-![](assets/875d5df54385f798039e787fd6c382d4.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/875d5df54385f798039e787fd6c382d4.jpeg)
 
 Import the image to "ECS images":
 
-![](assets/1220d8fa62a289c35f8b83934542cd51.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/1220d8fa62a289c35f8b83934542cd51.jpeg)
 
 Check imported image:
 
-![](assets/fbdf1ad5cc8027929e8498a90197abb8.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/fbdf1ad5cc8027929e8498a90197abb8.jpeg)
 
 4. boot the agent image on your machines.
 
 In Chapter 4.1.5, ECS instances for master and worker nodes are created with random images. Now they need to be replaced with the new imported images.  Make sure the master nodes and worker nodes are  shutdown. Navigate to "ECS instances" page and find menu as below:
 
-![](assets/7af349bbc6cbcac5225bdf1566800c66.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/7af349bbc6cbcac5225bdf1566800c66.jpeg)
 
 In "New Configuration", select "Custom image" and select the imported image:
 
-![](assets/41c6a6c776203b17ec2337889cbda431.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/41c6a6c776203b17ec2337889cbda431.jpeg)
 
 Submit the configuration and start the ECS instances. Now they will boot up using the CoreOS image.
 
-![](assets/1bba72a6591a5dab810773181b52bfef.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/1bba72a6591a5dab810773181b52bfef.jpeg)
 
 <a id="section-5-1-5"></a>
 
@@ -1359,7 +1359,7 @@ However, if you choose to interact with the agent console application rather tha
 
    </ol>
 
-![](assets/6394c0c93f90c46d1e221965c62c5500.png)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/6394c0c93f90c46d1e221965c62c5500.png)
 
 <ol type="a" start="2">
 
@@ -1499,17 +1499,17 @@ For &lt;install_directory>, specify the path to the directory where the agent IS
 
 The ECS system disk was booted by an agent image and the cluster node system was located on a data disk. But the ECS virtual machine currently does not support pointing the boot disk to the data disk. We need to perform some manual operations during the node restart to enable the system on the data disk to be bootable.  A relatively convenient approach is to quickly clone the data disk to the system disk ( same size ) before the system restarts and the disk is not mounted. This will enable the ECS to still boot using the system disk, but the system will now be a ready RHCOS system. As a result, this node also achieved the automatic restart without the need for manual intervention during the Day2 operation. When the node restarts, you can press 'E' in the TUI interface to enter the GRUB configuration. If you accidentally miss the guiding interface as shown in the following picture, you can click the square icon in the upper left corner and select CTRL+ALT+DELETE to restart the node.
 
-![](assets/7c35017310115816bcd548da3dab79c7.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/7c35017310115816bcd548da3dab79c7.jpeg)
 
 Once you press 'E' in the TUI interface to enter the GRUB configuration, you can add rd.break=pre-mount to the boot configuration as shown in the following screenshot.
 
-![](assets/1bec107aec16561f8e6fed61d3a9dbd9.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/1bec107aec16561f8e6fed61d3a9dbd9.jpeg)
 
-![](assets/4af95a2549f96ace37d256418b5d0cfe.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/4af95a2549f96ace37d256418b5d0cfe.jpeg)
 
 Press F10 or Ctrl-x to initiate the system. The startup process will be interrupted before the disks are mounted.
 
-![](assets/0a4722c04072157f8c5d12fab44710d8.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/0a4722c04072157f8c5d12fab44710d8.jpeg)
 
 Execute the following command to clone vdb to vda, and then clean vdb. You don't have to write the command by hand. You can use the button on the upper right corner to copy and paste the command and then execute it.
 
@@ -1518,11 +1518,11 @@ dd if=/dev/vdb of=/dev/vda bs=$((512 * 32)) count=$((16777182 / 32 + 1)) status=
 wipefs -a /dev/vdb 
 ```
 
-![](assets/620c08fd37e33722aaad60fb32ada61e.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/620c08fd37e33722aaad60fb32ada61e.jpeg)
 
-![](assets/3d16b1f9968d462188ba1f7e294e3505.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/3d16b1f9968d462188ba1f7e294e3505.jpeg)
 
-![](assets/d057e57d0d2a2b50f9628f12095915d0.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/d057e57d0d2a2b50f9628f12095915d0.jpeg)
 
 Finally, enter the reboot command, and the node will restart and boot using the RHCOS on the system disk.
 
@@ -1553,11 +1553,11 @@ For &lt;install_directory> directory, specify the path to the directory where th
 
 To log into the OpenShift cluster via CLI, locate the OCPHelper instance. This instance is pre-installed with the command line terminal and login configuration, allowing direct access to the cluster using oc.
 
-![](assets/9e4371fe8540e9aee16cc143ff40dd65.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/9e4371fe8540e9aee16cc143ff40dd65.jpeg)
 
 The cluster kubeconfig is configured as an environment variable. Operations can be performed as the system:admin user. Execute the oc get co command to verify the cluster operators and the oc get nodes command to check the cluster nodes.
 
-![](assets/67815bfe123af11ac8d49d726a406378.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/67815bfe123af11ac8d49d726a406378.jpeg)
 
 <a id="section-6-2"></a>
 
@@ -1565,11 +1565,11 @@ The cluster kubeconfig is configured as an environment variable. Operations can 
 
 You can access the OpenShift web console through the Bastionhost's browser.
 
-![](assets/211afa05b7c5ac68735624c20cbb4ce2.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/211afa05b7c5ac68735624c20cbb4ce2.jpeg)
 
 Navigate to https://console-openshift-console.apps.ocptest.apsara and enter the username and password to log in. You will then see the OpenShift console Overview page and can manage the cluster through the web console.
 
-![](assets/1897a6e5fc1614918d91f82306dc2594.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/1897a6e5fc1614918d91f82306dc2594.jpeg)
 
 <a id="section-6-3"></a>
 
@@ -1577,19 +1577,19 @@ Navigate to https://console-openshift-console.apps.ocptest.apsara and enter the 
 
 You can view the overall cluster monitoring information through the dashboards in Observe, including usage statistics for resources such as CPU, memory, and network.
 
-![](assets/1c87e5c214b9efac99e6dbca9a58ca35.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/1c87e5c214b9efac99e6dbca9a58ca35.jpeg)
 
 Navigate to Metrics and perform queries to view the relevant metrics of the current cluster.
 
-![](assets/151d4afda278526027ef589fbece08cc.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/151d4afda278526027ef589fbece08cc.jpeg)
 
 Navigate to Alerting to view alerts and configure alerting rules as needed.
 
-![](assets/ab42f5cc5693418b8f3c8b1ec156a9c4.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/ab42f5cc5693418b8f3c8b1ec156a9c4.jpeg)
 
 To ensure timely alert notifications, navigate to Cluster Settings and configure alert receivers including PagerDuty, Webhook, Email, and Slack.
 
-![](assets/f0c84ae4749a6cfe77eff4ade8e3b83b.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/f0c84ae4749a6cfe77eff4ade8e3b83b.jpeg)
 
 <a id="section-6-4"></a>
 
@@ -1597,15 +1597,15 @@ To ensure timely alert notifications, navigate to Cluster Settings and configure
 
 Navigate to Cluster Settings to view and manage the cluster operators and configuration.
 
-![](assets/3945c452cbee16dee8fd90b84ace955c.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/3945c452cbee16dee8fd90b84ace955c.jpeg)
 
 Navigate to User Management to access and manage users, groups, service accounts, and role bindings.
 
-![](assets/33562ab67b6f4543cf80569870ba3cf3.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/33562ab67b6f4543cf80569870ba3cf3.jpeg)
 
 Navigate to Workloads to access and manage pods, deployments and other workload resources.
 
-![](assets/f6fec9a1694b43dc5ffafe006b2bf1c6.jpeg)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/f6fec9a1694b43dc5ffafe006b2bf1c6.jpeg)
 
 <a id="section-7"></a>
 
@@ -1993,7 +1993,7 @@ The CVO then applies manifests following the generated dependency graph. **Note*
 
 Some actions can take significant time to finish. The CVO waits for the actions to complete in order to ensure the subsequent Runlevels can proceed safely. Initially reconciling the new release’s manifests is expected to take 60 to 120 minutes in total; see **Understanding OpenShift Container Platform update duration** for more information about factors that influence update duration.
 
-![](assets/f1e29e36b91ea60ab37c9327ecbb149e.png)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/f1e29e36b91ea60ab37c9327ecbb149e.png)
 
 In the previous example diagram, the CVO is waiting until all work is completed at Runlevel
 
@@ -2277,7 +2277,7 @@ If the status of the node is NotReady or SchedulingDisabled, then the node is no
 
 You can review an example of the update duration for cluster Operators to better understand the factors that affect the duration of the update.
 
-![](assets/c996eda5fe2cb5469b52835464cc08e4.png)
+![](en-openshift-container-platform-4-18-on-b31574b0-v3.18.6-20260703.assets/c996eda5fe2cb5469b52835464cc08e4.png)
 
 The previous diagram shows an example of the time that cluster Operators might take to update to their new versions. The example is based on a three-node AWS OVN cluster, which has a healthy compute MachineConfigPool and no workloads that take long to drain, updating from 4.13 to 4.14. **Note**:
 

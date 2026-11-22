@@ -656,7 +656,7 @@ DataWorks provides a one-stop solution for the entire data lifecycle, from data 
 
 In 2018, the analytics firm Forrester ranked the DataWorks and MaxCompute solution second in the world among cloud data warehouses. It was the only Chinese product to be included in the evaluation. DataWorks V2.0 builds on V1.0 by adding business flows and components. This version improves the data development system by supporting dual-project development, isolating development and production environments, enforcing development standards, and reducing code errors.
 
-![](assets/809de14258a0d052d368163744cf1550.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/809de14258a0d052d368163744cf1550.png)
 
 **Comprehensive**
 
@@ -670,7 +670,7 @@ exploration
 
 **data**
 
-![](assets/b272e679830a91104b72f13803b446a7.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b272e679830a91104b72f13803b446a7.png)
 
 **governance**
 
@@ -690,7 +690,7 @@ development
 
 (PAI)
 
-![](assets/1353f6832dfe33335513987dc0139fed.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1353f6832dfe33335513987dc0139fed.png)
 
 **Unified task**
 
@@ -706,7 +706,7 @@ control
 
 **scheduling**
 
-![](assets/25ce9963ae729d485690d9799875c3e9.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/25ce9963ae729d485690d9799875c3e9.png)
 
 **Unified**
 
@@ -720,7 +720,7 @@ Service
 
 **Metadata**
 
-![](assets/a848a188541232cdeeaae8eb35afbb61.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a848a188541232cdeeaae8eb35afbb61.png)
 
 **Center**
 
@@ -740,7 +740,7 @@ control
 
 (beta)
 
-![](assets/a8a156f1688930ff50dbb6c4bfd0fc38.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a8a156f1688930ff50dbb6c4bfd0fc38.png)
 
 HologresInteractive
 
@@ -770,7 +770,7 @@ This topic describes how to log on to the DataWorks console.
 
 1. In the address bar of your browser, enter the service domain name for the Apsara Uni-manager Management Console and press Enter.
 
-   ![](assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
 
    > **Note**
    >
@@ -832,7 +832,7 @@ This topic describes how to log on to the DataWorks console.
 
 6. In the top navigation bar, choose **Products > Big data computing > Data governance platform DataWorks**.
 
-7. In the lower-right corner, click the <img src="assets/e9c2bafd3afdffcf28b8e9e65836be9b.png" width="16" alt=""> icon (Switch Account). In the dialog box that appears,
+7. In the lower-right corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e9c2bafd3afdffcf28b8e9e65836be9b.png" width="16" alt=""> icon (Switch Account). In the dialog box that appears,
 
    configure **Organization Settings**, **Region Settings**, and **Access Mode**.
 
@@ -848,17 +848,17 @@ This topic describes how to log on to the DataWorks console.
    >
    > - The default access method is **Administrator Access**. You can click **Set Default Access Method** to configure the default access method for future use as needed.
 
-   ![](assets/5a8f00cb437a870584e92d4c545e20c8.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5a8f00cb437a870584e92d4c545e20c8.jpeg)
 
    After completing these settings, note the following:
 
    - To prevent this dialog box from appearing on future logons, select the **Do not show this message again** checkbox.
 
-   - To close the dialog box, click the <img src="assets/080a5df280c39e184b22ca73cfd70280.png" width="16" alt=""> icon in its upper-right corner.
+   - To close the dialog box, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/080a5df280c39e184b22ca73cfd70280.png" width="16" alt=""> icon in its upper-right corner.
 
-   - After closing the dialog box, click the <img src="assets/f37b439888e4a240b23519f20136ffd6.png" width="18" alt=""> icon to collapse the floating menu. The icon then
+   - After closing the dialog box, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f37b439888e4a240b23519f20136ffd6.png" width="18" alt=""> icon to collapse the floating menu. The icon then
 
-     changes to <img src="assets/8a3916d20e743ba3736d657289868493.png" width="15" alt=""> .
+     changes to <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/8a3916d20e743ba3736d657289868493.png" width="15" alt=""> .
 
 <a id="section-2-2"></a>
 
@@ -898,7 +898,7 @@ DataWorks workspaces are available in simple mode and standard mode:
 
 1. As a tenant administrator, log on to the DataWorks console.
 
-2. Click the <img src="assets/326c9242baf914b8afa3c51a20d1df2e.png" width="13" alt=""> icon in the upper-left corner and choose **All Products > More >**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/326c9242baf914b8afa3c51a20d1df2e.png" width="13" alt=""> icon in the upper-left corner and choose **All Products > More >**
 
    **Organization Management** to navigate to the **Workspace List** page.
 
@@ -956,7 +956,7 @@ Generally, you can complete the following data analytics and O&M operations in a
 
 The following figure shows the basic process of data analytics and O&M.
 
-![](assets/030203de4c208c507a58afbe37a7b1ef.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/030203de4c208c507a58afbe37a7b1ef.jpeg)
 
 <a id="section-3-2"></a>
 
@@ -976,13 +976,13 @@ A workspace is created. For more information, see Create a workspace.
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/326c9242baf914b8afa3c51a20d1df2e.png" width="13" alt=""> icon in the upper-left corner and choose **All Products > Data Development**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/326c9242baf914b8afa3c51a20d1df2e.png" width="13" alt=""> icon in the upper-left corner and choose **All Products > Data Development**
 
    **and O&M > DataStudio**. The **DataStudio** page appears.
 
-3. In the top navigation bar, switch to the workspace that you want to use. Then, click the <img src="assets/603d41b3b6b126a69a95bd0f6e78748c.png" width="13" alt="">
+3. In the top navigation bar, switch to the workspace that you want to use. Then, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/603d41b3b6b126a69a95bd0f6e78748c.png" width="13" alt="">
 
-   icon in the left-side navigation pane. On the **Workspace Tables** page, click the <img src="assets/1c9dcfc92d599c3787aba66a9d274947.png" width="16" alt=""> icon to
+   icon in the left-side navigation pane. On the **Workspace Tables** page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1c9dcfc92d599c3787aba66a9d274947.png" width="16" alt=""> icon to
 
    create a table.
 
@@ -1031,9 +1031,9 @@ A workspace is created. For more information, see Create a workspace.
 
 **Create the result_table table**
 
-1. In the left-side navigation pane, click the <img src="assets/603d41b3b6b126a69a95bd0f6e78748c.png" width="13" alt=""> icon. On the **Workspace Tables** page, click
+1. In the left-side navigation pane, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/603d41b3b6b126a69a95bd0f6e78748c.png" width="13" alt=""> icon. On the **Workspace Tables** page, click
 
-   the <img src="assets/1c9dcfc92d599c3787aba66a9d274947.png" width="16" alt=""> icon to create a table.
+   the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1c9dcfc92d599c3787aba66a9d274947.png" width="16" alt=""> icon to create a table.
 
 2. In the **Create Table** dialog box, select the MaxCompute project that you want to use for the **Engine Instance** parameter, set the **Name** parameter to  `result_table` , and then click **Create**.
 
@@ -1069,7 +1069,7 @@ DataWorks allows you to perform the following operations:
 
 In this example, the banking.txt file is uploaded from an on-premises machine to the bank_data table. To upload the file, perform the following steps:
 
-1. In the left-side navigation pane, click the <img src="assets/d57f29784608e67046c065479b5151d8.png" width="17" alt=""> icon. On the **DataStudio** page, click the <img src="assets/9fe1d4b7e04508a0f857f749fd1ee490.png" width="16" alt="">
+1. In the left-side navigation pane, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d57f29784608e67046c065479b5151d8.png" width="17" alt=""> icon. On the **DataStudio** page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9fe1d4b7e04508a0f857f749fd1ee490.png" width="16" alt="">
 
    icon.
 
@@ -1130,7 +1130,7 @@ The DataStudio service of DataWorks allows you to visually configure node depend
 
 1. Log in to the DataWorks console. In the upper part of the page, go to the DataWorks workspace that you want to manage.
 
-2. In the left-side navigation pane, click the <img src="assets/d57f29784608e67046c065479b5151d8.png" width="17" alt=""> icon. On the **DataStudio** page, move the
+2. In the left-side navigation pane, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d57f29784608e67046c065479b5151d8.png" width="17" alt=""> icon. On the **DataStudio** page, move the
 
    pointer over **Create** and select **Create Workflow**.
 
@@ -1164,7 +1164,7 @@ When you design a workflow, we recommend that you create a zero load node as the
 
 5. Drag a line from the start node to the insert_data node to configure the  `start`  node as the ancestor node of the  `insert_data`  node.
 
-   ![](assets/ee4de2c414c7d16ff927a01f61af9e66.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ee4de2c414c7d16ff927a01f61af9e66.jpeg)
 
 **Configure the ancestor node of the zero load node**
 
@@ -1178,7 +1178,7 @@ In a workflow, a zero load node is often used to control the entire workflow and
    >
    > In addition to the scheduling dependencies, you must also configure other required parameters, such as **Rerun** and **Resource Group**.
 
-3. After the configuration is complete, click the <img src="assets/acd44b097bc97e14b36d8142e9bf0787.png" width="14" alt=""> icon in the top toolbar to save the node.
+3. After the configuration is complete, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/acd44b097bc97e14b36d8142e9bf0787.png" width="14" alt=""> icon in the top toolbar to save the node.
 
 **Edit code of the ODPS SQL node**
 
@@ -1242,7 +1242,7 @@ A workflow is created. For more information, see Create a workflow.
 >
 > Only the workspace administrator can add data sources. Members of other roles can only view data sources.
 
-1. Log in to the DataWorks console, click the <img src="assets/326c9242baf914b8afa3c51a20d1df2e.png" width="13" alt=""> icon in the upper-left corner, and choose **All**
+1. Log in to the DataWorks console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/326c9242baf914b8afa3c51a20d1df2e.png" width="13" alt=""> icon in the upper-left corner, and choose **All**
 
    **Products > Data Integration > Data Integration**. The **Data Integration** page appears.
 
@@ -1284,13 +1284,13 @@ After the table is created, execute the  `DESC odps_result;`  statement to view 
 
 This section describes how to create and configure a batch synchronization node named  `write_result`  and use the node to synchronize data in the  `result_table`  table to a MySQL data source. Perform the following steps:
 
-1. In the upper-left corner of the console, click the <img src="assets/326c9242baf914b8afa3c51a20d1df2e.png" width="13" alt=""> icon and choose **All Products > Data**
+1. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/326c9242baf914b8afa3c51a20d1df2e.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. The **DataStudio** page appears.
 
 2. In the top navigation bar, switch to your workspace. In the left-side navigation pane, click
 
-   the <img src="assets/d57f29784608e67046c065479b5151d8.png" width="17" alt=""> icon to go to the **DataStudio** page.
+   the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d57f29784608e67046c065479b5151d8.png" width="17" alt=""> icon to go to the **DataStudio** page.
 
 3. Double-click the workflow that you created to go to the editing page. Then, click Create Node and select **Offline synchronization**. In the dialog box that appears, set the **Name** parameter to  `write_result` .
 
@@ -1308,7 +1308,7 @@ This section describes how to create and configure a batch synchronization node 
 
    The fields in the source on the left have a one-to-one mapping with the fields in the
 
-   destination on the right. You can click **Add a row** to add a field. You can also click the <img src="assets/23563c37cca70fb46432301d67a4016b.png" width="10" alt="">
+   destination on the right. You can click **Add a row** to add a field. You can also click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/23563c37cca70fb46432301d67a4016b.png" width="10" alt="">
 
    icon to manually add or remove fields.
 
@@ -1325,13 +1325,13 @@ This section describes how to create and configure a batch synchronization node 
 
    After the configuration is complete, you can scroll up and down to view the node
 
-   configuration. Click the <img src="assets/acd44b097bc97e14b36d8142e9bf0787.png" width="13" alt=""> icon in the top toolbar to save the configuration.
+   configuration. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/acd44b097bc97e14b36d8142e9bf0787.png" width="13" alt=""> icon in the top toolbar to save the configuration.
 
 **Commit the synchronization node**
 
 After you save the synchronization node, return to the configuration tab of the workflow to
 
-which the synchronization node belongs. Click the <img src="assets/09dac26aa7c580d9c056e09ec4e3eb53.png" width="14" alt=""> icon in the top toolbar of the
+which the synchronization node belongs. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/09dac26aa7c580d9c056e09ec4e3eb53.png" width="14" alt=""> icon in the top toolbar of the
 
 configuration tab of the workflow to commit the synchronization node to the scheduling system. The scheduling system automatically and periodically runs the node from the next day based on the properties configured for the node.
 
@@ -1357,19 +1357,19 @@ A synchronization node is created. For more information, see Create a synchroniz
 
 **Configure scheduling properties for the batch synchronization node**
 
-1. In the upper-left corner of the console, click the <img src="assets/326c9242baf914b8afa3c51a20d1df2e.png" width="13" alt=""> icon and choose **All Products > Data**
+1. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/326c9242baf914b8afa3c51a20d1df2e.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. The **DataStudio** page appears.
 
 2. In the top navigation bar, switch to your workspace. In the left-side navigation pane, click
 
-   the <img src="assets/d57f29784608e67046c065479b5151d8.png" width="17" alt=""> icon to go to the **DataStudio** page.
+   the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d57f29784608e67046c065479b5151d8.png" width="17" alt=""> icon to go to the **DataStudio** page.
 
 3. Find the workflow that you created and double-click the batch synchronization node ( `write_result` ) that you want to configure.
 
 4. On the configuration tab of the batch synchronization node, click **Properties** in the right-side navigation pane and configure the parameters in the **Schedule** section.
 
-   ![](assets/c9bfaa9316ad2b6f91455ad0dd287e4b.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c9bfaa9316ad2b6f91455ad0dd287e4b.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -1396,11 +1396,11 @@ By default, the scheduling system creates a node named in the format of  `Worksp
 
 **Save and commit the node**
 
-1. Save the node. On the configuration tab of the  `write_result`  node, click the <img src="assets/acd44b097bc97e14b36d8142e9bf0787.png" width="14" alt=""> icon in the
+1. Save the node. On the configuration tab of the  `write_result`  node, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/acd44b097bc97e14b36d8142e9bf0787.png" width="14" alt=""> icon in the
 
    top toolbar to save the node.
 
-2. Commit the node. Click the <img src="assets/4466a0fc56791f95380d49fca6ef5e5c.png" width="13" alt=""> icon in the top toolbar to commit the node to the production
+2. Commit the node. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4466a0fc56791f95380d49fca6ef5e5c.png" width="13" alt=""> icon in the top toolbar to commit the node to the production
 
    environment.
 
@@ -1446,7 +1446,7 @@ In the "Configure recurrence and dependencies for a node" topic, you have config
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the current page, click the <img src="assets/2087af45ff698450917cbbfd131e79e0.png" width="21" alt=""> icon and choose **All Products >**
+2. In the upper-left corner of the current page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2087af45ff698450917cbbfd131e79e0.png" width="21" alt=""> icon and choose **All Products >**
 
    **Data Development and O&M > Operation Center**. The **Operation Center page** appears.
 
@@ -1541,7 +1541,7 @@ A workspace in basic mode has the following benefits and risks:
 
 The following figure shows the data production process of a DataWorks workspace in basic mode. This workspace is associated with one MaxCompute compute engine instance.
 
-![](assets/633384430ca164bf3b8929f3d2c80019.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/633384430ca164bf3b8929f3d2c80019.png)
 
 **Workspaces in standard mode**
 
@@ -1555,7 +1555,7 @@ A DataWorks workspace in standard mode can be associated with two projects, inst
 
 The following figure shows the data production process of a DataWorks workspace in standard mode. This workspace is associated with two MaxCompute compute engine instances.
 
-![](assets/06c3c0e8df77626ef0533286f194ed07.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/06c3c0e8df77626ef0533286f194ed07.png)
 
 **Configure data access identities for workspaces in basic and standard modes**
 
@@ -1580,13 +1580,13 @@ DataWorks allows you to configure workspaces to improve the efficiency of data d
 
 1. Log in to the DataWorks console.
 
-2. On the **DataStudio** page, click the <img src="assets/82bba1c327c4d21443276d952f5b02de.png" width="13" alt=""> icon in the upper-right corner.
+2. On the **DataStudio** page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/82bba1c327c4d21443276d952f5b02de.png" width="13" alt=""> icon in the upper-right corner.
 
 3. On the **Configuration** page, configure the parameters in the **Basic properties**, **Security Settings**, and **Compute Engine Information** sections for the workspace based on your business requirements.
 
 **Configure basic properties**
 
-![](assets/9ed14f5469dd25f2876c9fc103f56b2a.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9ed14f5469dd25f2876c9fc103f56b2a.jpeg)
 
 | Parameter | Description |
 | --- | --- |
@@ -1624,7 +1624,7 @@ To add an IP address or domain name to the whitelist, perform the following step
 
 In the **Computing Engine Information** section, click the **MaxCompute** tab. On this tab, you can view the values of the **MaxCompute Project Name** and **MaxCompute Visitor Identity** parameters for an associated MaxCompute compute engine instance.
 
-![](assets/d035361ea7e524de30903c2ecea4ec0b.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d035361ea7e524de30903c2ecea4ec0b.jpeg)
 
 | Parameter | Description |
 | --- | --- |
@@ -1639,7 +1639,7 @@ In the **Computing Engine Information** section, click the **MaxCompute** tab. O
 
 3. In the **Add a real-time computing instance** dialog box, configure the parameters as required.
 
-   ![](assets/042032336bc697e37c615aea4444dd7b.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/042032336bc697e37c615aea4444dd7b.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -1656,7 +1656,7 @@ In the **Computing Engine Information** section, click the **MaxCompute** tab. O
 
 3. In the **Bind Hologres Database** dialog box, configure the parameters as required.
 
-   ![](assets/8e4968a34f105f19a3fc5a1d6b38d9c2.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/8e4968a34f105f19a3fc5a1d6b38d9c2.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -1677,7 +1677,7 @@ In the **Computing Engine Information** section, click the **MaxCompute** tab. O
 
 3. In the **Add AnalyticDB for PostgreSQL Instance** dialog box, configure the parameters as required.
 
-   ![](assets/93f9def4e180e46832846d29e1620785.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/93f9def4e180e46832846d29e1620785.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -1698,7 +1698,7 @@ In the **Computing Engine Information** section, click the **MaxCompute** tab. O
 
 3. In the **Add an AnalyticDB for MySQL instance** dialog box, configure the parameters as required.
 
-   ![](assets/93f9def4e180e46832846d29e1620785.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/93f9def4e180e46832846d29e1620785.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -1721,7 +1721,7 @@ In the **Computing Engine Information** section, click the **MaxCompute** tab. O
 
 3. In the **Add CDH Compute Engine** dialog box, configure the parameters as required.
 
-   ![](assets/de55dec5f1fddde12a8336ee442f2b14.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/de55dec5f1fddde12a8336ee442f2b14.jpeg)
 
    You can set the Access Mode parameter to **Shortcut mode** or **Security mode**. If **Security mode** is selected, the permissions on the data of the nodes that are run by using different Apsara Stack tenant accounts or RAM users can be isolated.
 
@@ -1798,7 +1798,7 @@ DataWorks provides the following identities:
 
 1. Log in to the DataWorks console.
 
-2. On the **DataStudio** page, click the <img src="assets/82bba1c327c4d21443276d952f5b02de.png" width="12" alt=""> icon in the upper-right corner.
+2. On the **DataStudio** page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/82bba1c327c4d21443276d952f5b02de.png" width="12" alt=""> icon in the upper-right corner.
 
 3. In the left-side navigation pane, click **Workspace Members and Roles**. The **Workspace Members** tab appears.
 
@@ -1878,7 +1878,7 @@ On the **Workspace Members** tab, you can perform the following operations:
 
   On the **Workspace Members** tab, find the member that you want to remove from the workspace and click **Remove** in the **Actions** column to remove the member from the workspace. If you want to remove multiple members from the workspace at a time, you can select multiple members and click Batch Remove.
 
-  ![](assets/0476c6d2861c48c5d29d9da20eb8ae73.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0476c6d2861c48c5d29d9da20eb8ae73.png)
 
 **Manage workspace roles**
 
@@ -1920,7 +1920,7 @@ On the **Workspace Roles** tab, you can perform the following operations:
 
   - **Read and Write**: The role can modify the data in the related module.
 
-  ![](assets/2218319d22c320b316eb663920ce20d0.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2218319d22c320b316eb663920ce20d0.png)
 
   <ol type="i" start="4">
 
@@ -1934,7 +1934,7 @@ On the **Workspace Roles** tab, you can perform the following operations:
   >
   > You can use only a RAM user that is assigned the admin or super_administrator role of a MaxCompute project or an Apsara Stack tenant account to configure the mapping between a DataWorks custom workspace-level role and a role of a MaxCompute project.
 
-  ![](assets/3710bf799d3a993dcbabc81e7bb33f00.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3710bf799d3a993dcbabc81e7bb33f00.png)
 
   </li>
 
@@ -2290,7 +2290,7 @@ Data sources are used to configure readers and writers during data integration. 
 
 1. Log in to the DataWorks console.
 
-2. On the **DataStudio** page, click the <img src="assets/bc1671081ed83d9f4b216933cb109bc5.png" width="14" alt=""> icon in the upper-right corner.
+2. On the **DataStudio** page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/bc1671081ed83d9f4b216933cb109bc5.png" width="14" alt=""> icon in the upper-right corner.
 
 3. In the left-side navigation pane, click **Data Sources**.
 
@@ -2326,7 +2326,7 @@ Only exclusive resource groups for scheduling can be used to run CDH tasks.
 
 1. Log in to the DataWorks console.
 
-2. On the **DataStudio** page, click the <img src="assets/bc1671081ed83d9f4b216933cb109bc5.png" width="14" alt=""> icon in the upper-right corner.
+2. On the **DataStudio** page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/bc1671081ed83d9f4b216933cb109bc5.png" width="14" alt=""> icon in the upper-right corner.
 
 3. In the left-side navigation pane, click **Cluster Management**.
 
@@ -2492,7 +2492,7 @@ Only exclusive resource groups for scheduling can be used to run CDH tasks.
 
 After the cluster is created, you can view the cluster card on the Cluster Management page. Click Account Mappings on the card, and then click Edit Account Mappings on the right to modify the account mappings.
 
-![](assets/ff680bac5c29273793d36a1b7846bb88.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ff680bac5c29273793d36a1b7846bb88.jpeg)
 
 1. Select a mapping type.
 
@@ -2566,7 +2566,7 @@ This topic describes how to manage MaxCompute project configurations for a DataW
 
 1. Log in to the DataWorks console.
 
-2. On the **DataStudio** page, click the <img src="assets/82bba1c327c4d21443276d952f5b02de.png" width="12" alt=""> icon in the upper-right corner.
+2. On the **DataStudio** page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/82bba1c327c4d21443276d952f5b02de.png" width="12" alt=""> icon in the upper-right corner.
 
 3. In the left-side navigation pane, click **MaxCompute Management**. By default, the **Basic Settings** tab appears.
 
@@ -2574,7 +2574,7 @@ This topic describes how to manage MaxCompute project configurations for a DataW
 
 On the **Basic Settings** tab, you can configure the security settings for the selected MaxCompute project.
 
-![](assets/84217b1f429067ceccec7ae2020c8f83.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/84217b1f429067ceccec7ae2020c8f83.jpeg)
 
 **MaxCompute Security Configuration**: The following table describes the parameters that you can configure for the underlying settings related to permissions and security for the selected MaxCompute project.
 
@@ -2592,7 +2592,7 @@ On the **Basic Settings** tab, you can configure the security settings for the s
 
 On the **Custom User Roles** tab, you can manage roles for the selected MaxCompute project.
 
-![](assets/dcd6e5cb79b5cf1c65f5f96ada9a6fe1.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/dcd6e5cb79b5cf1c65f5f96ada9a6fe1.jpeg)
 
 | Parameter | Description |
 | --- | --- |
@@ -2628,7 +2628,7 @@ DataWorks provides the member management feature for you to manage tenant member
 
 1. Log in to the DataWorks console as a tenant administrator.
 
-2. In the upper-left corner, click the <img src="assets/b45dbf2e59449954b95b26b8a9fca266.png" width="18" alt=""> icon and choose **All Products > More > Tenant**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b45dbf2e59449954b95b26b8a9fca266.png" width="18" alt=""> icon and choose **All Products > More > Tenant**
 
    **Management**.
 
@@ -2664,7 +2664,7 @@ To change the account for running MaxCompute nodes, perform the following steps:
 
 1. Log in to the DataWorks console as a tenant administrator.
 
-2. In the upper-left corner, click the <img src="assets/b45dbf2e59449954b95b26b8a9fca266.png" width="18" alt=""> icon and choose **All Products > More > Tenant**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b45dbf2e59449954b95b26b8a9fca266.png" width="18" alt=""> icon and choose **All Products > More > Tenant**
 
    **Management**.
 
@@ -2692,7 +2692,7 @@ This topic describes how to manage licenses in the DataWorks console. You can vi
 
 1. Log in to the DataWorks console as a workspace administrator.
 
-2. In the upper-left corner, click the <img src="assets/b45dbf2e59449954b95b26b8a9fca266.png" width="18" alt=""> icon and choose **All Products > More > Tenant**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b45dbf2e59449954b95b26b8a9fca266.png" width="18" alt=""> icon and choose **All Products > More > Tenant**
 
    **Management**.
 
@@ -2726,7 +2726,7 @@ DataWorks allows you to create exclusive resource groups to ensure fast and conc
 
 1. Log in to the DataWorks console as a tenant administrator.
 
-2. In the upper-left corner, click the <img src="assets/b45dbf2e59449954b95b26b8a9fca266.png" width="18" alt=""> icon and choose **All Products > More > Tenant**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b45dbf2e59449954b95b26b8a9fca266.png" width="18" alt=""> icon and choose **All Products > More > Tenant**
 
    **Management**.
 
@@ -2776,7 +2776,7 @@ This topic describes how to view the usage of shared resource groups in the Data
 
 1. Log in to the DataWorks console as a tenant administrator.
 
-2. In the upper-left corner, click the <img src="assets/b45dbf2e59449954b95b26b8a9fca266.png" width="18" alt=""> icon and choose **All Products > More > Tenant**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b45dbf2e59449954b95b26b8a9fca266.png" width="18" alt=""> icon and choose **All Products > More > Tenant**
 
    **Management**.
 
@@ -2810,7 +2810,7 @@ Data Integration is a stable, efficient data synchronization platform that provi
 
 Data Integration is primarily used for offline (batch) data synchronization. The offline data channel operates by defining the source and destination data sources and datasets. It uses an abstract framework of reader plug-ins and writer plug-ins with a simplified intermediate data format to enable data transfer between any structured and semi-structured data sources.
 
-![](assets/9558aacd69ea281452f8ef4066078cb6.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9558aacd69ea281452f8ef4066078cb6.png)
 
 **Supported data sources**
 
@@ -2963,13 +2963,13 @@ To prevent this issue, Data Integration allows only users who add data sources a
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the page, click the <img src="assets/d7cb6b745f8e9f795bb8a731e0b26a71.png" width="14" alt=""> icon and choose **All Products > Data**
+2. In the upper-left corner of the page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d7cb6b745f8e9f795bb8a731e0b26a71.png" width="14" alt=""> icon and choose **All Products > Data**
 
    **Integration > Data Integration**.
 
 3. In the left-side navigation pane, click **Data source**.
 
-4. On the **Data Sources** page, find the data source that you want to manage, and click the <img src="assets/76fa39464f68bd01619f6d37ab92b7a2.png" width="10" alt="">
+4. On the **Data Sources** page, find the data source that you want to manage, and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/76fa39464f68bd01619f6d37ab92b7a2.png" width="10" alt="">
 
    icon in the Connection Information column.
 
@@ -2979,7 +2979,7 @@ To prevent this issue, Data Integration allows only users who add data sources a
 
 5. In the **Manage Permissions on Data Source** dialog box, configure the parameters as required.
 
-   ![](assets/120a5bd17d0709330e1c8e4f458355d4.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/120a5bd17d0709330e1c8e4f458355d4.jpeg)
 
    | No. | Parameter | Description |
    | --- | --- | --- |
@@ -3016,7 +3016,7 @@ On the **Data Sources** tab, you can view the information about each shared data
 
 A shared data source is named in the format of  `Name of the workspace from which the data source is shared.Name of the data source` .
 
-![](assets/47753471c3add2e47efa1a189b66ba64.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/47753471c3add2e47efa1a189b66ba64.jpeg)
 
 <a id="section-5-2-4"></a>
 
@@ -3042,7 +3042,7 @@ AnalyticDB for MySQL V2.0 data sources provide a bidirectional channel to read d
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -3130,7 +3130,7 @@ AnalyticDB for MySQL V3.0 data sources provide a bidirectional channel to read d
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -3219,7 +3219,7 @@ AnalyticDB for PostgreSQL data sources provide a bidirectional channel to read d
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -3306,7 +3306,7 @@ ApsaraDB for OceanBase data sources provide a bidirectional channel to read data
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -3377,7 +3377,7 @@ Distributed Relational Database Service (DRDS) data sources provide a bidirectio
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -3483,7 +3483,7 @@ DataHub data sources provide a bidirectional channel to read data from and write
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -3575,7 +3575,7 @@ Hologres data sources provide a bidirectional channel to read data from and writ
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -3653,7 +3653,7 @@ HybridDB for MySQL data sources provide a bidirectional channel to read data fro
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -3735,7 +3735,7 @@ Lindorm data sources provide a bidirectional channel to read data from and write
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -3800,7 +3800,7 @@ DataWorks provides MaxCompute Reader and MaxCompute Writer for you to read data 
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -3911,7 +3911,7 @@ DataWorks provides Object Storage Service (OSS) Reader and OSS Writer for you to
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -4013,7 +4013,7 @@ DataWorks provides OSS-HDFS Reader and OSS-HDFS Writer for you to read data from
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -4113,7 +4113,7 @@ DataWorks provides PolarDB Reader and PolarDB Writer for you to read data from a
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -4211,7 +4211,7 @@ DataWorks provides PolarDB for Oracle Reader and PolarDB for Oracle Writer for y
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -4302,7 +4302,7 @@ DataWorks provides PolarDB-X 2.0 Reader and PolarDB-X 2.0 Writer for you to read
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -4395,7 +4395,7 @@ DataWorks allows you to read data from and write data to Tablestore data sources
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -4465,7 +4465,7 @@ AnalyticDB for MySQL V2.0 data sources provide a bidirectional channel to read d
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -4553,7 +4553,7 @@ AnalyticDB for MySQL V3.0 data sources provide a bidirectional channel to read d
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -4642,7 +4642,7 @@ AnalyticDB for PostgreSQL data sources provide a bidirectional channel to read d
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -4729,7 +4729,7 @@ ApsaraDB for OceanBase data sources provide a bidirectional channel to read data
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -4800,7 +4800,7 @@ DataWorks provides Db2 Reader and Db2 Writer for you to read data from and write
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -4869,7 +4869,7 @@ DataWorks provides DM Reader and DM Writer for you to read data from and write d
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -4942,7 +4942,7 @@ Distributed Relational Database Service (DRDS) data sources provide a bidirectio
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -5027,7 +5027,7 @@ HybridDB for MySQL data sources provide a bidirectional channel to read data fro
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -5109,7 +5109,7 @@ DataWorks provides MySQL Reader and MySQL Writer for you to read data from and w
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -5207,7 +5207,7 @@ DataWorks provides Oracle Reader and Oracle Writer for you to read data from and
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -5273,7 +5273,7 @@ DataWorks provides PolarDB Reader and PolarDB Writer for you to read data from a
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -5369,7 +5369,7 @@ DataWorks provides PolarDB for Oracle Reader and PolarDB for Oracle Writer for y
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -5460,7 +5460,7 @@ DataWorks provides PolarDB-X 2.0 Reader and PolarDB-X 2.0 Writer for you to read
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -5553,7 +5553,7 @@ DataWorks provides PostgreSQL Reader and PostgreSQL Writer for you to read data 
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -5671,7 +5671,7 @@ DataWorks provides SQL Server Reader and SQL Server Writer for you to read data 
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -5764,7 +5764,7 @@ DataWorks provides SAP HANA Reader and SAP HANA Writer for you to read data from
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -5833,7 +5833,7 @@ DataWorks provides MariaDB Reader and MariaDB Writer for you to read data from a
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -5901,7 +5901,7 @@ DataWorks provides TiDB Reader for you to read data from TiDB data sources. This
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -5977,7 +5977,7 @@ DataWorks provides ClickHouse Reader and ClickHouse Writer for you to read data 
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -6050,7 +6050,7 @@ This topic describes how to create a Data Lake Analytics (DLA) data source in Da
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -6115,7 +6115,7 @@ DLF 2.0 data sources are available only in Data Integration.
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -6180,7 +6180,7 @@ DataHub data sources provide a bidirectional channel to read data from and write
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -6272,7 +6272,7 @@ DataWorks provides GBase 8a Reader and GBase 8a Writer for you to read data from
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -6341,7 +6341,7 @@ DataWorks provides HBase Reader and HBase Writer for you to read data from and w
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -6428,7 +6428,7 @@ If you use Object Storage Service (OSS) as the underlying storage service, you m
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -6552,7 +6552,7 @@ Hologres data sources provide a bidirectional channel to read data from and writ
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -6623,7 +6623,7 @@ DataWorks provides Kafka Reader and Kafka Writer for you to read data from and w
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -6742,7 +6742,7 @@ DataWorks provides KingbaseES Reader and KingbaseES Writer for you to read data 
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -6810,7 +6810,7 @@ Lindorm data sources provide a bidirectional channel to read data from and write
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -6875,7 +6875,7 @@ DataWorks provides LogHub Reader and LogHub Writer for you to read data from and
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -6941,7 +6941,7 @@ DataWorks provides StarRocks Reader and StarRocks Writer for you to read data fr
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -7030,7 +7030,7 @@ DataWorks provides Vertica Reader and Vertica Writer for you to read data from a
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -7103,7 +7103,7 @@ DataWorks provides FTP Reader and FTP Writer for you to read data from and write
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -7172,7 +7172,7 @@ DataWorks provides HDFS Reader and HDFS Writer for you to read data from and wri
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -7259,7 +7259,7 @@ DataWorks provides HttpFile Reader for you to read data from HttpFile data sourc
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -7324,7 +7324,7 @@ DataWorks provides Object Storage Service (OSS) Reader and OSS Writer for you to
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -7426,7 +7426,7 @@ DataWorks provides OSS-HDFS Reader and OSS-HDFS Writer for you to read data from
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -7516,7 +7516,7 @@ DataWorks provides RestAPI Reader and RestAPI Writer for you to read data from a
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -7584,7 +7584,7 @@ DataWorks provides Elasticsearch Reader and Elasticsearch Writer for you to read
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -7650,7 +7650,7 @@ DataWorks provides MongoDB Reader and MongoDB Writer for you to read data from a
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -7735,7 +7735,7 @@ This topic describes how to configure a Redis data source to write data to Redis
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -7818,7 +7818,7 @@ DataWorks allows you to read data from and write data to Tablestore data sources
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -7888,7 +7888,7 @@ DataWorks provides FTP Reader and FTP Writer for you to read data from and write
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -7957,7 +7957,7 @@ DataWorks provides HDFS Reader and HDFS Writer for you to read data from and wri
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -8038,7 +8038,7 @@ DataWorks provides HttpFile Reader for you to read data from HttpFile data sourc
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -8103,7 +8103,7 @@ DataWorks provides Object Storage Service (OSS) Reader and OSS Writer for you to
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -8209,7 +8209,7 @@ DataHub data sources provide a bidirectional channel to read data from and write
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -8301,7 +8301,7 @@ DataWorks provides Kafka Reader and Kafka Writer for you to read data from and w
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -8434,7 +8434,7 @@ DataWorks provides LogHub Reader and LogHub Writer for you to read data from and
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -8504,7 +8504,7 @@ DataWorks provides ClickHouse Reader and ClickHouse Writer for you to read data 
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -8575,7 +8575,7 @@ DataWorks provides Elasticsearch Reader and Elasticsearch Writer for you to read
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -8643,7 +8643,7 @@ DataWorks provides FTP Reader and FTP Writer for you to read data from and write
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -8714,7 +8714,7 @@ DataWorks provides HBase Reader and HBase Writer for you to read data from and w
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -8777,7 +8777,7 @@ DataWorks provides HDFS Reader and HDFS Writer for you to read data from and wri
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -8882,7 +8882,7 @@ If you use Object Storage Service (OSS) as the underlying storage service, you m
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -8985,7 +8985,7 @@ DataWorks provides Kafka Reader and Kafka Writer for you to read data from and w
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -9104,7 +9104,7 @@ DataWorks provides MongoDB Reader and MongoDB Writer for you to read data from a
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -9189,7 +9189,7 @@ DataWorks provides PostgreSQL Reader and PostgreSQL Writer for you to read data 
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -9283,7 +9283,7 @@ DataWorks provides RestAPI Reader and RestAPI Writer for you to read data from a
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -9523,11 +9523,11 @@ DataWorks allows you to configure offline synchronization nodes without the need
 
   After you select a data source, the system prompts that the data source does not support
 
-  codeless UI. In this case, you can click the <img src="assets/f82de5302eebdc48b8731c369704f2ff.png" width="19" alt=""> icon in the toolbar to switch to script mode
+  codeless UI. In this case, you can click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f82de5302eebdc48b8731c369704f2ff.png" width="19" alt=""> icon in the toolbar to switch to script mode
 
   and continue to configure the node. For more information, see Configure a batch synchronization node by using the code editor.
 
-  ![](assets/ebf6c71b5744a69d1fc08b3033f2afaf.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ebf6c71b5744a69d1fc08b3033f2afaf.jpeg)
 
 - The codeless UI is easy to use but provides only limited features. If you want to make finer-grained configurations for your batch synchronization node, you can click the Conversion script icon in the top toolbar of the configuration tab of the node in DataStudio to switch to the code editor and configure the node by using the code editor.
 
@@ -9539,7 +9539,7 @@ The source and destination data sources that are required by the synchronization
 
 1. Log in to the DataWorks console.
 
-2. On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+2. On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    **Workflow**.
 
@@ -9650,11 +9650,11 @@ If you need to perform finer-grained configurations or use data sources that are
 
 You can configure a synchronization node by using the code editor in the following scenarios:
 
-- The data source that you want to use does not support the codeless UI. You can click the <img src="assets/bed9315d21fd2bb8209c8d9c7e14d4a8.png" width="17" alt="">
+- The data source that you want to use does not support the codeless UI. You can click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/bed9315d21fd2bb8209c8d9c7e14d4a8.png" width="17" alt="">
 
   icon in the toolbar to switch to the code editor and continue to configure the node.
 
-  ![](assets/b0237435142828e3e7e17999b02966fb.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b0237435142828e3e7e17999b02966fb.jpeg)
 
 - Parameters of specific types of data sources support only the code editor.
 
@@ -9666,7 +9666,7 @@ The source and destination data sources that are required by the synchronization
 
 1. Log in to the DataWorks console.
 
-2. On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+2. On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    **Workflow**.
 
@@ -9682,11 +9682,11 @@ The source and destination data sources that are required by the synchronization
 
 1. After the batch synchronization node is created, click the **Conversion script** icon in the toolbar.
 
-   ![](assets/b0237435142828e3e7e17999b02966fb.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b0237435142828e3e7e17999b02966fb.jpeg)
 
 2. In the **Tips** message, click **OK** to open the code editor.
 
-3. Click the <img src="assets/93c7d86bf7c76b093489dc0c9528d83f.png" width="14" alt=""> icon in the toolbar to open the Import Template dialog box.
+3. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/93c7d86bf7c76b093489dc0c9528d83f.png" width="14" alt=""> icon in the toolbar to open the Import Template dialog box.
 
 4. In the Import Template dialog box, configure the **Source type**, **Data source**, **Target type**, and **Data source** parameters and click **Confirmation**.
 
@@ -9871,7 +9871,7 @@ The following table compares the configuration methods of batch synchronization 
 
 3. In the **Create Node** dialog box, configure the **Name** parameter and click **Confirm**.
 
-4. Click the <img src="assets/f82de5302eebdc48b8731c369704f2ff.png" width="19" alt=""> icon in the top toolbar of the configuration tab of the node in DataStudio to
+4. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f82de5302eebdc48b8731c369704f2ff.png" width="19" alt=""> icon in the top toolbar of the configuration tab of the node in DataStudio to
 
    switch to the code editor and configure the node by using the code editor.
 
@@ -16104,7 +16104,7 @@ If fields in a MongoDB document are nested, you can set the data type of the nes
   {"name":"a.b.c","type":"document"}
   ```
 
-  ![](assets/8a130e75f0fb3c087b2126399d93abf3.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/8a130e75f0fb3c087b2126399d93abf3.jpeg)
 
 After you configure the preceding fields, the value of the nested field a.b.c can be written to the field c in the destination. After the related synchronization task is run,  `this is value`  is written to the field c in the destination.
 
@@ -23630,7 +23630,7 @@ The data source is configured and the network connectivity test is passed. Befor
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -23808,9 +23808,9 @@ After you configure the reader, writer, and conversion plug-ins, click the **Bas
 
 **Step 5: Commit and deploy the real-time synchronization node**
 
-1. Click the <img src="assets/4d3e1520593031f15dddfe4360d59153.png" width="13" alt=""> icon in the top toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d3e1520593031f15dddfe4360d59153.png" width="13" alt=""> icon in the top toolbar to save the node.
 
-2. Click the <img src="assets/4466a0fc56791f95380d49fca6ef5e5c.png" width="13" alt=""> icon in the top toolbar to commit the node.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4466a0fc56791f95380d49fca6ef5e5c.png" width="13" alt=""> icon in the top toolbar to commit the node.
 
 3. In the Submit dialog box, enter a description in the **Change description** field.
 
@@ -24080,7 +24080,7 @@ Before you configure MySQL Reader, make sure that the following operations are p
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -24144,7 +24144,7 @@ Before you configure MySQL Reader, make sure that the following operations are p
 
    MySQL Reader supports the sharding feature. To use this feature, click **Add Sharded Databases and Tables** and select the **data sources** and **tables** from the drop-down lists to synchronize data from multiple tables and databases.
 
-5. Click the <img src="assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
 
 <a id="section-5-3-3-3-3"></a>
 
@@ -24174,7 +24174,7 @@ DataHub Reader keeps running after it is started and reads data from DataHub whe
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -24235,7 +24235,7 @@ DataHub Reader keeps running after it is started and reads data from DataHub whe
    | Topic | The name of the DataHub topic from which you want to read data.You can click <strong>Data preview</strong> on the right to preview the selected topic. |
    | Output field | The fields from which you want to read data. |
 
-5. Click the <img src="assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
 
 <a id="section-5-3-3-3-4"></a>
 
@@ -24271,7 +24271,7 @@ The following table describes the metadata fields that LogHub Reader for real-ti
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -24333,7 +24333,7 @@ The following table describes the metadata fields that LogHub Reader for real-ti
    | Advanced Configuration | Specifies whether to split data in the Logstore. If you set the Split tasks parameter to <strong>Split</strong>, you must configure the <strong>Split rules</strong> parameter.<br>You can specify a sharding rule in the format of shardId % X = Y. The equation is used to obtain the remainder of shardId divided by X.shardId indicates the ID of a sharding task, X indicates the total number of shards, and Y indicates the ID of a shard on which the sharding task takes effect. The value range of Y is \[0, X-1\]. For example, shardId % 5 = 3 indicates that the source data that you want to synchronize is divided into five shards, and a sharding task is assigned to take effect on the shard whose ID is 3. |
    | Output field | The fields from which you want to read data. |
 
-5. Click the <img src="assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
 
 <a id="section-5-3-3-3-5"></a>
 
@@ -24355,7 +24355,7 @@ Kafka Reader uses a Kafka SDK to read data from Kafka in real time.
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -24426,11 +24426,11 @@ Kafka Reader uses a Kafka SDK to read data from Kafka in real time.
      </tr>
      <tr>
        <td>Output Fields</td>
-       <td>The output fields, which can be customized.<br>• Click <strong>Add more fields</strong>. In the fields that appear, enter a <strong>field</strong> <strong>name</strong> and select a <strong>data type</strong> to customize a field.<br>DataWorks provides two types of methods based on which Kafka Reader obtains values for fields from messages. You can click the<br><img src="assets/4ddf3a65760fade52b065d5378194ee2.png" width="18" alt="">icon to switch between the two types of methods.<br>• Default methods:<br>• value: the values of messages<br>• key: the keys of messages<br>• partition: the IDs of partitions<br>• offset: the offsets of messages<br>• timestamp: the timestamps of messages, in milliseconds<br>• headers: the headers of messages<br>• JSON-based parsing: You can use the <strong>.Sub-field</strong> or <strong>[Element in</strong> <strong>an array]</strong> syntax to obtain the content in the JSON format. To ensure that the values of fields are compatible with historical logic, you can use a string that starts with two underscores (_), such as <strong>__value__</strong>, to obtain specific values for fields from messages. The following code shows data in a sample Kafka message:<br><code>{</code><br><code>"a": {</code><br><code>"a1": "hello"</code><br><code>},</code><br><code>"b": "world",</code><br><code>"c":[</code><br><code>"xxxxxxx",</code><br><code>"yyyyyyy"</code><br><code>],</code><br><code>"d":[</code><br><code>{</code><br><code>"AA":"this",</code><br><code>"BB":"is_data"</code><br><code>},</code><br><code>{</code><br><code>"AA":"that",</code><br><code>"BB":"is_also_data"</code><br><code>}</code><br><code>]</code><br><code>}</code><br>• You can use one of the following methods based on the preceding code:<br>• If you want to read the values of messages, use <strong>__value__</strong>.<br>• If you want to read the keys of messages, use <strong>__key__</strong>.<br>• If you want to read the partitions that store messages, use <strong>__partition__</strong>.<br>• If you want to read the offsets of messages, use <strong>__offset__</strong>.<br>• If you want to read the timestamps of messages, use <strong>__timestamp__</strong>.<br>• If you want to read the headers of messages, use <strong>__headers__</strong>.<br>• If you want to read <strong>"hello"</strong> in the a1 field, use <strong>a.a1</strong>.<br>• If you want to read <strong>"world"</strong> in the b field, use <strong>b</strong>.<br>• If you want to read <strong>"yyyyyyy"</strong> in the c field, use <strong>c[1]</strong>.<br>• If you want to read <strong>"this"</strong> in the AA field, use <strong>d[0].AA</strong>.<br>• To remove a field, move the pointer over the field and click the<img src="assets/b9ba95a5708c90562fb565ae95fd0494.png" width="17" alt=""><br>icon.<strong>Sample scenario</strong>: If you set the <strong>Output Mode</strong> parameter to <strong>Multi-</strong><strong>row Output</strong>, Kafka Reader parses messages as JSON arrays based on the JSON array path that is specified by the Path of Array parameter, extracts each element in the JSON arrays, and then forms output fields based on the field names that are defined and the specified method to obtain values. The method to obtain values for the output fields is the same as the method to obtain values that is used if you set the Output Mode parameter to Single-row Output. You can use the <strong>.Sub-field</strong> or <strong>[Element in an array]</strong> syntax to obtain the content in the JSON format. The following code shows the data in a sample Kafka message: The following code shows the data in a sample Kafka message:<br><code>{</code><br><code>"c": {</code><br><code>"c0": [</code><br><code>{</code><br><code>"AA": "this",</code><br><code>"BB": "is_data"</code><br><code>},</code><br><code>{</code><br><code>"AA": "that",</code><br><code>"BB": "is_also_data"</code><br><code>}</code><br><code>]</code><br><code>}</code><br><code>}</code><br>If you specify a value in the <code> c.c0 </code> format for the Array of Path parameter and define the output field <code> AA </code> whose method to obtain a value is <code> AA </code>, and the output field <code> BB </code> whose method to obtain a value is <code> BB </code>, the output records shown in the following table will be obtained.<br><img src="assets/6689299375525c68bf835b69f5e983f4.jpeg" alt=""></td>
+       <td>The output fields, which can be customized.<br>• Click <strong>Add more fields</strong>. In the fields that appear, enter a <strong>field</strong> <strong>name</strong> and select a <strong>data type</strong> to customize a field.<br>DataWorks provides two types of methods based on which Kafka Reader obtains values for fields from messages. You can click the<br><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4ddf3a65760fade52b065d5378194ee2.png" width="18" alt="">icon to switch between the two types of methods.<br>• Default methods:<br>• value: the values of messages<br>• key: the keys of messages<br>• partition: the IDs of partitions<br>• offset: the offsets of messages<br>• timestamp: the timestamps of messages, in milliseconds<br>• headers: the headers of messages<br>• JSON-based parsing: You can use the <strong>.Sub-field</strong> or <strong>[Element in</strong> <strong>an array]</strong> syntax to obtain the content in the JSON format. To ensure that the values of fields are compatible with historical logic, you can use a string that starts with two underscores (_), such as <strong>__value__</strong>, to obtain specific values for fields from messages. The following code shows data in a sample Kafka message:<br><code>{</code><br><code>"a": {</code><br><code>"a1": "hello"</code><br><code>},</code><br><code>"b": "world",</code><br><code>"c":[</code><br><code>"xxxxxxx",</code><br><code>"yyyyyyy"</code><br><code>],</code><br><code>"d":[</code><br><code>{</code><br><code>"AA":"this",</code><br><code>"BB":"is_data"</code><br><code>},</code><br><code>{</code><br><code>"AA":"that",</code><br><code>"BB":"is_also_data"</code><br><code>}</code><br><code>]</code><br><code>}</code><br>• You can use one of the following methods based on the preceding code:<br>• If you want to read the values of messages, use <strong>__value__</strong>.<br>• If you want to read the keys of messages, use <strong>__key__</strong>.<br>• If you want to read the partitions that store messages, use <strong>__partition__</strong>.<br>• If you want to read the offsets of messages, use <strong>__offset__</strong>.<br>• If you want to read the timestamps of messages, use <strong>__timestamp__</strong>.<br>• If you want to read the headers of messages, use <strong>__headers__</strong>.<br>• If you want to read <strong>"hello"</strong> in the a1 field, use <strong>a.a1</strong>.<br>• If you want to read <strong>"world"</strong> in the b field, use <strong>b</strong>.<br>• If you want to read <strong>"yyyyyyy"</strong> in the c field, use <strong>c[1]</strong>.<br>• If you want to read <strong>"this"</strong> in the AA field, use <strong>d[0].AA</strong>.<br>• To remove a field, move the pointer over the field and click the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b9ba95a5708c90562fb565ae95fd0494.png" width="17" alt=""><br>icon.<strong>Sample scenario</strong>: If you set the <strong>Output Mode</strong> parameter to <strong>Multi-</strong><strong>row Output</strong>, Kafka Reader parses messages as JSON arrays based on the JSON array path that is specified by the Path of Array parameter, extracts each element in the JSON arrays, and then forms output fields based on the field names that are defined and the specified method to obtain values. The method to obtain values for the output fields is the same as the method to obtain values that is used if you set the Output Mode parameter to Single-row Output. You can use the <strong>.Sub-field</strong> or <strong>[Element in an array]</strong> syntax to obtain the content in the JSON format. The following code shows the data in a sample Kafka message: The following code shows the data in a sample Kafka message:<br><code>{</code><br><code>"c": {</code><br><code>"c0": [</code><br><code>{</code><br><code>"AA": "this",</code><br><code>"BB": "is_data"</code><br><code>},</code><br><code>{</code><br><code>"AA": "that",</code><br><code>"BB": "is_also_data"</code><br><code>}</code><br><code>]</code><br><code>}</code><br><code>}</code><br>If you specify a value in the <code> c.c0 </code> format for the Array of Path parameter and define the output field <code> AA </code> whose method to obtain a value is <code> AA </code>, and the output field <code> BB </code> whose method to obtain a value is <code> BB </code>, the output records shown in the following table will be obtained.<br><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6689299375525c68bf835b69f5e983f4.jpeg" alt=""></td>
      </tr>
    </table>
 
-5. Click the <img src="assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
 
 <a id="section-5-3-3-3-6"></a>
 
@@ -24452,7 +24452,7 @@ PolarDB Reader can read data only from PolarDB for MySQL databases. It cannot re
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -24513,7 +24513,7 @@ PolarDB Reader can read data only from PolarDB for MySQL databases. It cannot re
    | Table | The name of the table from which you want to read data. You can click <strong>Data preview</strong> to preview data in the selected table. |
    | Output Fields | The fields from which you want to synchronize data. |
 
-5. Click the <img src="assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
 
 <a id="section-5-3-3-4"></a>
 
@@ -24547,7 +24547,7 @@ Deduplication is not supported for the data that you want to write to MaxCompute
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -24620,7 +24620,7 @@ Deduplication is not supported for the data that you want to write to MaxCompute
    | Data Field Structure | The field structure of the MaxCompute table. You can click <strong>Add field</strong> to add a field. |
    | Configure Partition Settings | In this section, you can configure the partition information of the MaxCompute table. Valid values of the Partitioning Mode parameter: <strong>Automatic Partitioning by Time</strong> and <strong>Dynamic Partitioning by Field</strong> <strong>Value</strong>.<br>• <strong>Partitioning by Time</strong>: Data is written to the destination partitions of the MaxCompute table based on the value of the _execute_time_ field.<br>Important<br>You must configure at least two levels of partitions, which are yearly and monthly partitions. You can configure a maximum of five levels of partitions, which are yearly, monthly, daily, hourly, and minutely partitions.<br>• <strong>Dynamic Partitioning by Field Value</strong>: Data is dynamically written to the destination partitions of the MaxCompute table based on the mappings between fields in the source table and fields in the partitions of the destination MaxCompute table.<br>For example, the values of Field A in the source table are defined as the values of the partition field in the MaxCompute table. If the value of Field A in a record is aa, the record is written to the aa partition of the MaxCompute table. If the value of Field A in a record is bb, the record is written to the bb partition of the MaxCompute table. |
 
-5. Click the <img src="assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
 
 <a id="section-5-3-3-4-2"></a>
 
@@ -24646,7 +24646,7 @@ A reader or conversion node is configured.
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -24683,7 +24683,7 @@ A reader or conversion node is configured.
    | Write conflict policy | The solution to data write conflicts. Valid values: <strong>Cover (Overwrite)</strong> and <strong>Ignore (Ignore)</strong>.<br>• <strong>Cover (Overwrite)</strong>: Hologres Writer uses the new data synchronized from the source to overwrite the existing data in the destination.<br>• <strong>Ignore (Ignore)</strong>: Hologres Writer ignores the new data synchronized from the source and retains the existing data in the destination. |
    | Mappings | The field mappings between the source and destination. Click <strong>Mappings</strong> to configure field mappings. The synchronization node synchronizes data based on the field mappings. |
 
-4. Click the <img src="assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
+4. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
 
 <a id="section-5-3-3-4-3"></a>
 
@@ -24709,7 +24709,7 @@ A reader or conversion node is configured.
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -24771,7 +24771,7 @@ A reader or conversion node is configured.
    | Write Mode | The write mode. The only value <strong>Replay</strong> is displayed. This value indicates that data is updated by row. |
    | Field Mapping | The field mappings between the source and destination. Click <strong>Field</strong> <strong>Mapping</strong> to configure field mappings. The synchronization node synchronizes data based on the field mappings. |
 
-5. Click the <img src="assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
 
 <a id="section-5-3-3-4-4"></a>
 
@@ -24797,7 +24797,7 @@ A Reader or a conversion node is configured.
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -24875,7 +24875,7 @@ A Reader or a conversion node is configured.
      </tr>
    </table>
 
-5. Click the <img src="assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
 
 <a id="section-5-3-3-4-5"></a>
 
@@ -24913,7 +24913,7 @@ DataHub Writer writes data to DataHub by using DataHub SDK for Java. The followi
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -24976,7 +24976,7 @@ DataHub Writer writes data to DataHub by using DataHub SDK for Java. The followi
    | Batch number | The number of data records to write at a time. |
    | Field Mapping | The mappings between fields in the source and destination.DataWorks synchronizes data based on the field mappings. |
 
-5. Click the <img src="assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
 
 <a id="section-5-3-3-4-6"></a>
 
@@ -25006,7 +25006,7 @@ Deduplication is not supported for the data that you want to write to Kafka. If 
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -25074,7 +25074,7 @@ Deduplication is not supported for the data that you want to write to Kafka. If 
    | Colum n Delimit er | The delimiter that is used to concatenate column values obtained from the reader if the Write Mode parameter is set to <strong>text</strong>. The values of the columns in each row are concatenated as a value in the destination Kafka topic. You can specify one or more characters as column delimiters. You can specify <strong>Unicode</strong> characters in the format of <code> \u0001 </code>. Escape characters such as <code> \t </code> and <code> \n </code> are supported. Default value: <code> \t </code>. |
    | Config uration param eters | The extended parameters that you can configure when you create a <strong>Kafka consumer</strong>.For example, you can configure the <strong>bootstrap.servers</strong>, <strong>acks</strong>, and <strong>linger.ms</strong> parameters. You can configure parameters in <strong>KafkaConfig</strong> to control the data read behavior of a <strong>Kafka consumer</strong>. For a real-time synchronization node that synchronizes data to Kafka, the default value of the <strong>acks</strong> parameter for a <strong>Kafka consumer</strong> is <strong>all</strong>. If you have higher requirements for performance, you can specify a different value for the <strong>acks</strong> parameter. Valid values of the <strong>acks</strong> parameter:<br>• 0: The producer does not wait for any acknowledgment.<br>• 1: The producer waits for an acknowledgment from the primary replica.<br>• all: The producer waits for acknowledgments from all in-sync replicas. |
 
-5. Click the <img src="assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
 
 <a id="section-5-3-3-5"></a>
 
@@ -25104,7 +25104,7 @@ A reader node is configured.
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -25165,7 +25165,7 @@ A reader node is configured.
 
    - **Output Fields** The names and types of output fields after filtering.
 
-5. Click the <img src="assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
 
 <a id="section-5-3-3-5-2"></a>
 
@@ -25191,7 +25191,7 @@ A reader node is configured.
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -25252,7 +25252,7 @@ A reader node is configured.
    | Add condition | Click this button to add more string replacement rules. |
    | Output Fields | The output fields after string replacement. |
 
-5. Click the <img src="assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/969db18627ce0c4e07d25b0a5e1370ec.png" width="14" alt=""> icon in the top toolbar.
 
 <a id="section-5-3-4"></a>
 
@@ -25291,7 +25291,7 @@ This topic describes how to implement batch synchronization of all data in a MyS
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon and choose **All Products > Data Integration >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon and choose **All Products > Data Integration >**
 
    **Data Integration**.
 
@@ -25371,7 +25371,7 @@ If a destination table is in the **to-be-created** state, you can perform the fo
 
    - Add fields to a single destination table: Find the destination table to which you want to
 
-     add fields and click the <img src="assets/3e381b25224dab6d2cd3cae7df3e11ab.png" width="13" alt=""> icon in the **Destination Table Name** column. In the dialog
+     add fields and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3e381b25224dab6d2cd3cae7df3e11ab.png" width="13" alt=""> icon in the **Destination Table Name** column. In the dialog
 
      box that appears, add fields.
 
@@ -25498,7 +25498,7 @@ This topic describes how to synchronize full data and incremental data from a My
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon and choose **All Products**
+2. In the upper-left corner of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon and choose **All Products**
 
    **> Data Integration > Data Integration**.
 
@@ -25550,7 +25550,7 @@ If a destination index is in the **To-Be-Created** state, you can perform the fo
 
 1. Add fields to one or more destination indexes.
 
-   - Add a field to a single table: Click the <img src="assets/3e381b25224dab6d2cd3cae7df3e11ab.png" width="13" alt=""> icon in the **Destination Index Name** column
+   - Add a field to a single table: Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3e381b25224dab6d2cd3cae7df3e11ab.png" width="13" alt=""> icon in the **Destination Index Name** column
 
      and add a field by specifying statements in the **Statement Used to Create Index** section.
 
@@ -25686,7 +25686,7 @@ After you run the synchronization node created in this example, a merge node is 
 <table>
   <tr>
     <td>Data write</td>
-    <td>You can synchronize both full and incremental data or only incremental data to MaxCompute. The process of synchronizing full and incremental data consists of the following stages:<br>1. On the day you configure the synchronization node, batch synchronization child nodes are generated and run to synchronize full data to MaxCompute base tables.<br>2. On the day you configure the synchronization node, a real-time synchronization child node is generated and run to synchronize incremental data to a MaxCompute log table after full data is synchronized.<br>3. On the next day, full data in the base tables and incremental data in the log table are merged, and the merged data is written to the base tables.<br>Note<br>• After full data is synchronized, the batch synchronization child nodes are frozen.<br>• You can run the synchronization node created in this example to synchronize data to a partitioned or non-partitioned table of MaxCompute.<br>The following figure shows how to write full data and incremental data to a partitioned table:<br>Day of node Next day of node configuration: 2022-configuration: 2022-07-07-27 28<br><img src="assets/3e83ed572a8c259fea29635e41f91da3.png" alt=""><br>Real-time incremental data Log table to which synchronization incremental data is<br><img src="assets/101a9d3c7425b442ac1ce282a2afc793.png" alt=""><br>synchronized in real time Partitioned The incremental data is Merge Node Base MaxCompute table written to partitions on July Table to which full and 27, 2022.incremental data Merge the incremental The merged data isis written data in the log table with written to partitions inBase table to which full data is full data in the base the base table on July 27, Full data table.2022.initialization synchronized in offline mode The full data is written to partitions on July 26, 2022.</td>
+    <td>You can synchronize both full and incremental data or only incremental data to MaxCompute. The process of synchronizing full and incremental data consists of the following stages:<br>1. On the day you configure the synchronization node, batch synchronization child nodes are generated and run to synchronize full data to MaxCompute base tables.<br>2. On the day you configure the synchronization node, a real-time synchronization child node is generated and run to synchronize incremental data to a MaxCompute log table after full data is synchronized.<br>3. On the next day, full data in the base tables and incremental data in the log table are merged, and the merged data is written to the base tables.<br>Note<br>• After full data is synchronized, the batch synchronization child nodes are frozen.<br>• You can run the synchronization node created in this example to synchronize data to a partitioned or non-partitioned table of MaxCompute.<br>The following figure shows how to write full data and incremental data to a partitioned table:<br>Day of node Next day of node configuration: 2022-configuration: 2022-07-07-27 28<br><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3e83ed572a8c259fea29635e41f91da3.png" alt=""><br>Real-time incremental data Log table to which synchronization incremental data is<br><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/101a9d3c7425b442ac1ce282a2afc793.png" alt=""><br>synchronized in real time Partitioned The incremental data is Merge Node Base MaxCompute table written to partitions on July Table to which full and 27, 2022.incremental data Merge the incremental The merged data isis written data in the log table with written to partitions inBase table to which full data is full data in the base the base table on July 27, Full data table.2022.initialization synchronized in offline mode The full data is written to partitions on July 26, 2022.</td>
   </tr>
 </table>
 
@@ -25706,7 +25706,7 @@ A full and incremental (quasi-real-time) synchronization node is created. For mo
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the DataStudio page, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon and choose **All Products**
+2. In the upper-left corner of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon and choose **All Products**
 
    **> Data Integration > Data Integration**.
 
@@ -25778,7 +25778,7 @@ A full and incremental (quasi-real-time) synchronization node is created. For mo
 
    | Operation | Procedure |
    | --- | --- |
-   | Select a primary key for synchronizati on | The synchronization node created in this example cannot be used to synchronize data from source tables that do not have primary keys. If a source table does not<br>have a primary key, you can click the<img src="assets/becb58c774ddde4965488a13e5fb13fa.png" width="15" alt="">icon in the <strong>Synchronized Primary Key</strong><br>column of the source table to specify a primary key for the source table. You can use a field or a combination of multiple fields in the source table as the primary key. The system removes duplicate data based on the primary key during data synchronization. |
+   | Select a primary key for synchronizati on | The synchronization node created in this example cannot be used to synchronize data from source tables that do not have primary keys. If a source table does not<br>have a primary key, you can click the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/becb58c774ddde4965488a13e5fb13fa.png" width="15" alt="">icon in the <strong>Synchronized Primary Key</strong><br>column of the source table to specify a primary key for the source table. You can use a field or a combination of multiple fields in the source table as the primary key. The system removes duplicate data based on the primary key during data synchronization. |
    | Specify whether to create a destination table or use an existing table | You can select <strong>Create Table</strong> or <strong>Use Existing Table</strong> from the drop-down list in the Table creation method column.<br>• If you select <strong>Use Existing Table</strong> from the drop-down list, all existing MaxCompute tables are displayed in the drop-down list in the <strong>MaxComputeBase Table Name</strong> column. You must select the name of the table that you want to use from the drop-down list.<br>• If you select <strong>Create Table</strong> from the drop-down list, the name of the destination table that is automatically created appears in the MaxComputeBase Table Name column. You can click the table name to view and modify the data types and comments of fields, and the lifecycle of the table. |
    | Specify whether to perform full synchronizati on | You can determine whether to turn on the switch in the <strong>Full Synchronization</strong> column of a source table to synchronize full data in the source table to the destination before real-time incremental synchronization starts.<br>If you turn off the switch, the full data in the source table is not synchronized before real-time incremental synchronization starts. You can disable full data synchronization for tables whose data is synchronized by using other batch synchronization methods. |
    | Add additional fields to a destination table and assign values to the fields | You can click <strong>Edit additional fields</strong> in the Actions column of a destination table to add additional fields to the table and assign values to the fields. You can assign constants and variables to additional fields as values.<br>Note<br>You can add additional fields to a destination table only if <strong>Create Table</strong> is selected from the drop-down list in the <strong>Table creation method</strong> column of the table.<br>Data Integration allows you to assign the following variables to additional fields as values:<br><code>EXECUTE_TIME: the execution time</code><br><code>UPDATE_TIME: the update time</code><br><code>DB_NAME_SRC: the name of the source database</code><br><code>DB_NAME_SRC_TRANSED: the name of the mapped database</code><br><code>DATASOURCE_NAME_SRC: the name of the source</code><br><code>DATASOURCE_NAME_DEST: the name of the destination</code><br><code>DB_NAME_DEST: the name of the destination database</code><br><code>TABLE_NAME_DEST: the name of the destination table</code><br><code>TABLE_NAME_SRC: the name of the source table</code> |
@@ -25846,7 +25846,7 @@ A data source that supports real-time data synchronization from tables in sharde
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon and choose **All Products > Data Integration >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cad509ff956ad51f0f1dd362c08a10f7.png" width="18" alt=""> icon and choose **All Products > Data Integration >**
 
    **Data Integration**.
 
@@ -25916,7 +25916,7 @@ Rules for sharded databases impose limits on source databases. The limits take e
 
    | Operation | Procedure |
    | --- | --- |
-   | Select a primary key for a source table | The current solution cannot be used to synchronize data from a source table that does not have a primary key. If you want to synchronize data from a source table<br>that does not have a primary key, you must click the<img src="assets/becb58c774ddde4965488a13e5fb13fa.png" width="17" alt="">icon in the <strong>Synchronized</strong><br><strong>Primary Key</strong> column of the source table to specify a primary key for the source table. You can use a field or a combination of multiple fields in the source table as the primary key. The system removes duplicate data based on the primary key during data synchronization.<br>In this example, <code> id </code> is used as the primary key of the source table that does not have a primary key. |
+   | Select a primary key for a source table | The current solution cannot be used to synchronize data from a source table that does not have a primary key. If you want to synchronize data from a source table<br>that does not have a primary key, you must click the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/becb58c774ddde4965488a13e5fb13fa.png" width="17" alt="">icon in the <strong>Synchronized</strong><br><strong>Primary Key</strong> column of the source table to specify a primary key for the source table. You can use a field or a combination of multiple fields in the source table as the primary key. The system removes duplicate data based on the primary key during data synchronization.<br>In this example, <code> id </code> is used as the primary key of the source table that does not have a primary key. |
 
    <table>
      <tr>
@@ -25997,7 +25997,7 @@ DataWorks Data Integration allows you to use a preset database migration solutio
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d44c838052c2e83e757ba099b843565.png" width="38" alt=""> icon and select **Create**
 
    </li>
 
@@ -26062,7 +26062,7 @@ The following example describes the configuration process of migrating data from
 
 3. In the **Select Source Table for Synchronization** section, select the tables from which
 
-   you want to synchronize data in the **Source Table** list and click the <img src="assets/08f6fc0a03ed53f748746b7401f764e0.png" width="16" alt=""> icon to move the
+   you want to synchronize data in the **Source Table** list and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/08f6fc0a03ed53f748746b7401f764e0.png" width="16" alt=""> icon to move the
 
    selected tables to the **Selected Tables** list.
 
@@ -26086,7 +26086,7 @@ The following example describes the configuration process of migrating data from
 
 6. In the **Set Destination Table** step, select a data source from the **Destination** drop-down
 
-   list and click the <img src="assets/0b71ee8eebcc683ab1c22752a92186b8.png" width="18" alt=""> icon next to **Automatic Partitioning by Time**. In the **Edit** dialog box,
+   list and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0b71ee8eebcc683ab1c22752a92186b8.png" width="18" alt=""> icon next to **Automatic Partitioning by Time**. In the **Edit** dialog box,
 
    modify the partition settings for the destination tables. You can configure daily and hourly partitions.
 
@@ -26106,7 +26106,7 @@ The following example describes the configuration process of migrating data from
 
 9. In the **Run resource settings** step, configure the parameters such as **Number of**
 
-   **concurrent writes on the target side**. Then, click the <img src="assets/c71d4f074b0f40197252dcb2e0d5fbe0.png" width="13" alt=""> icon in the top toolbar.
+   **concurrent writes on the target side**. Then, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c71d4f074b0f40197252dcb2e0d5fbe0.png" width="13" alt=""> icon in the top toolbar.
 
 <a id="section-5-4"></a>
 
@@ -26122,7 +26122,7 @@ The cut-off time of the data to be displayed is Current hour:00:00. For example,
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/d7cb6b745f8e9f795bb8a731e0b26a71.png" width="14" alt=""> icon and choose **All Products > Data Integration >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d7cb6b745f8e9f795bb8a731e0b26a71.png" width="14" alt=""> icon and choose **All Products > Data Integration >**
 
    **Data Integration**.
 
@@ -26148,7 +26148,7 @@ On the Task O&M page, you can view the status of different nodes and filter node
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/42c9154b89d792f04c71aaa267a02e49.png" width="16" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/42c9154b89d792f04c71aaa267a02e49.png" width="16" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Integration > Data Integration**.
 
@@ -26196,7 +26196,7 @@ To use an identity authentication mechanism, you must upload the required authen
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/d7cb6b745f8e9f795bb8a731e0b26a71.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d7cb6b745f8e9f795bb8a731e0b26a71.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Integration > Data Integration**.
 
@@ -26236,7 +26236,7 @@ For Apache Hadoop (CDH) clusters, only CDH 6.x clusters support Kerberos authent
 
 Kerberos is a third-party authentication protocol that is based on symmetric keys. Clients and servers use Key Distribution Center (KDC) to perform identity authentication. KDC is a server program of Kerberos and can distribute TGTs.
 
-![](assets/db42d31564ba11f6042f6894b7949a29.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/db42d31564ba11f6042f6894b7949a29.png)
 
 The preceding figure shows the four stages of the Kerberos authentication on DataWorks.
 
@@ -26260,7 +26260,7 @@ To use third-party identity authentication, you must enable special identity aut
 
 The following table describes the parameters that you must configure after you set the Special Authentication Method parameter to Kerberos Authentication when you add a Hadoop Distributed File System (HDFS) data source. For more information about how to add a data source, see Supported data sources.
 
-![](assets/894f0413d69f152394758f2f753531b9.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/894f0413d69f152394758f2f753531b9.png)
 
 | Parameter | Description |
 | --- | --- |
@@ -26293,7 +26293,7 @@ To use SSL authentication, select the SSL authentication method on the data sour
 
 The following section describes the key parameters for configuring SSL authentication for a MySQL data source. For details on configuring data sources, see Supported data sources.
 
-![](assets/a9145d1a20ee3cd5a0b007cbdcf3f115.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a9145d1a20ee3cd5a0b007cbdcf3f115.jpeg)
 
 | Parameter | Description |
 | --- | --- |
@@ -26316,7 +26316,7 @@ This policy takes effect by default only on the current project. When you create
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/42c9154b89d792f04c71aaa267a02e49.png" width="16" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/42c9154b89d792f04c71aaa267a02e49.png" width="16" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Integration > Data Integration**.
 
@@ -26352,7 +26352,7 @@ A resource group is a collection of computing resources on which synchronization
 
 In the process of running a synchronization node, the resource group pulls data from the source and pushes the data to the destination.
 
-![](assets/68bec83a1fee382a6aeb0eaf14db5a72.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/68bec83a1fee382a6aeb0eaf14db5a72.png)
 
 **Connectivity and performance**
 
@@ -26454,7 +26454,7 @@ When you write SQL code, take note of the following specifications:
 
   - Place the AS statement in the same line as its matching field and keep AS statements of multiple fields in the same column.
 
-    ![](assets/48228dcca3da8142ac99560a380c9a8a.jpeg)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/48228dcca3da8142ac99560a380c9a8a.jpeg)
 
 - Clause arrangement for an INSERT statement
 
@@ -26472,11 +26472,11 @@ When you write SQL code, take note of the following specifications:
 
   - If the length of a clause name exceeds two units of indentation such as **ORDER BY** and **GROUP BY**, add a space between the clause name and its content.
 
-    ![](assets/328b2d7f947fd9e1f3b132f817028db5.jpeg)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/328b2d7f947fd9e1f3b132f817028db5.jpeg)
 
 - Spacing before and after operators Reserve one space before and after each arithmetic operator and logical operator. Keep all the operators in the same line unless the length of the code exceeds 80 characters.
 
-  ![](assets/376ac77bba8639004a46716a916992f9.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/376ac77bba8639004a46716a916992f9.jpeg)
 
 - Arrangement for a SELECT CASE statement The SELECT CASE statement is used to evaluate the value of a variable. Take note of the following specifications on SELECT CASE statements:
 
@@ -26484,13 +26484,13 @@ When you write SQL code, take note of the following specifications:
 
   - Use a line for each WHEN clause. Wrap a line if the clause is excessively long.
 
-    ![](assets/0536d6e884e0fc0f91e21e9dc8fd3529.jpeg)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0536d6e884e0fc0f91e21e9dc8fd3529.jpeg)
 
   - The CASE statement must contain the ELSE clause. The ELSE clause must be aligned with the WHEN clause.
 
 - Nested query Nested queries are often used to implement the extract, transform, and load (ETL) process of data warehouse systems. The following figure shows an example of arranging nested queries.
 
-  ![](assets/da1b801271a429a51fea1c926db72b6e.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/da1b801271a429a51fea1c926db72b6e.jpeg)
 
 - Table alias
 
@@ -26500,7 +26500,7 @@ When you write SQL code, take note of the following specifications:
 
   - In the nested query, levels 1 to 4 of SQL statements are named part, segment, unit, and detail, which are abbreviated as P, S, U, and D. You can also use a, b, c, and d to represent levels 1 to 4. To differentiate multiple clauses at the same level, add numbers such as 1, 2, 3, and 4after the letter that represents the level.
 
-    ![](assets/51c58e77a753d2a7532d92cfe393dcc9.jpeg)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/51c58e77a753d2a7532d92cfe393dcc9.jpeg)
 
 - SQL comments
 
@@ -26530,7 +26530,7 @@ This topic describes the GUI elements on the DataStudio page and the configurati
 
 Log in to the DataWorks console. Then, the **DataStudio** page appears. Double-click a node. In this example, an ODPS SQL node is used.
 
-![](assets/eeb968d38d5425b6630704ed0e185591.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/eeb968d38d5425b6630704ed0e185591.jpeg)
 
 The following table describes the GUI elements.
 
@@ -26569,11 +26569,11 @@ The code search feature allows you to query nodes that you created in the direct
    >
    > icon in the top
    >
-   > <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="14" alt="">
+   > <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="14" alt="">
    >
    > navigation bar and choose **All Products > Data Development and O&M > DataStudio**.
 
-2. In the upper part of the Scheduled Workflow pane, click the <img src="assets/a663df224bdd482a755fc16bfd2aa2db.png" width="12" alt=""> icon. The Search Code tab
+2. In the upper part of the Scheduled Workflow pane, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a663df224bdd482a755fc16bfd2aa2db.png" width="12" alt=""> icon. The Search Code tab
 
    appears on the right.
 
@@ -26631,7 +26631,7 @@ DataWorks allows you to perform operations on multiple nodes, resources, or func
 
 1. Log in to the DataWorks console. Go to the **DataStudio** page. In the left-side navigation
 
-   pane, click the <img src="assets/90fbcf15e51d15aa78cc186e1feb7b0c.png" width="14" alt=""> icon in the top toolbar. The Batch Operation-Data Development tab
+   pane, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/90fbcf15e51d15aa78cc186e1feb7b0c.png" width="14" alt=""> icon in the top toolbar. The Batch Operation-Data Development tab
 
    appears on the right side.
 
@@ -26695,7 +26695,7 @@ You can import only the data of your local files into a MaxCompute table.
 
 You can import data on the following pages:
 
-- Click the <img src="assets/fd7220b1de5188faf1577490381d1916.png" width="17" alt=""> icon in the top toolbar of the left-side navigation pane of the **DataStudio** page.
+- Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/fd7220b1de5188faf1577490381d1916.png" width="17" alt=""> icon in the top toolbar of the left-side navigation pane of the **DataStudio** page.
 
 - On the **DataStudio** page, find the desired workflow, right-click **Table** below MaxCompute, and select **Create Table**.
 
@@ -26713,7 +26713,7 @@ You can import only the data of your local files into a MaxCompute table.
    >
    > If the table that you select is a non-partitioned table, click **Next** to skip this step.
 
-   ![](assets/9a596a90eb3e25c42d783453057de99f.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9a596a90eb3e25c42d783453057de99f.png)
 
    You can specify the partition into which the data is imported. After that, click **Check** to check whether the partition exists.
 
@@ -26723,7 +26723,7 @@ You can import only the data of your local files into a MaxCompute table.
 
 3. Configure the parameters, such as the File Format, Select File, and Select Delimiter parameters, based on your business requirements. Then, click **Next**.
 
-   ![](assets/12f1606b47a778838ed9a9a34d799160.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/12f1606b47a778838ed9a9a34d799160.png)
 
    The following table describes the parameters.
 
@@ -26756,7 +26756,7 @@ These features can help improve the efficiency of code development only for ODPS
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+2. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. The **DataStudio** page appears.
 
@@ -26810,7 +26810,7 @@ The code of a node is executed when you use the quick run feature. You are not c
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+2. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. Then, the **DataStudio** page appears.
 
@@ -26822,7 +26822,7 @@ The code of a node is executed when you use the quick run feature. You are not c
 
    In this example, an ODPS SQL node is used.
 
-   ![](assets/cc30a02b438d825dcc35ae5f40e5fda1.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cc30a02b438d825dcc35ae5f40e5fda1.jpeg)
 
    <ol type="i">
 
@@ -26850,17 +26850,17 @@ The code of a node is executed when you use the quick run feature. You are not c
    >
    >   - The code of a node is executed when you use the quick run feature. You are not charged for scheduling resources but are charged for the compute engine instances that you use.
    >
-   >   - The resource group that you use to quickly run the current code snippet is the resource group that is used for the most recent execution of the code of the ODPS SQL node. You can run the code of the ODPS SQL node by clicking the **Quick Run** icon <img src="assets/67aee869712c3fd68478193647133f0c.png" width="31" alt=""> , **Run** icon <img src="assets/815eab62069ea2daf5ad3e8ec494b91f.png" width="12" alt=""> , or **Run with**
+   >   - The resource group that you use to quickly run the current code snippet is the resource group that is used for the most recent execution of the code of the ODPS SQL node. You can run the code of the ODPS SQL node by clicking the **Quick Run** icon <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/67aee869712c3fd68478193647133f0c.png" width="31" alt=""> , **Run** icon <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/815eab62069ea2daf5ad3e8ec494b91f.png" width="12" alt=""> , or **Run with**
    >
-   >     **Parameters** icon <img src="assets/739221d83b6f69fff512ada3aba4ceea.png" width="11" alt=""> in the top toolbar of the configuration tab of the
+   >     **Parameters** icon <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/739221d83b6f69fff512ada3aba4ceea.png" width="11" alt=""> in the top toolbar of the configuration tab of the
    >
    >     node.
    >
    >   - The first time you run the code of the node, you must select a resource group for scheduling based on your business requirements.
    >
-   >   - If you want to change the resource group that is used to run the code of the ODPS SQL node, click the Run with Parameters icon <img src="assets/739221d83b6f69fff512ada3aba4ceea.png" width="11" alt=""> .
+   >   - If you want to change the resource group that is used to run the code of the ODPS SQL node, click the Run with Parameters icon <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/739221d83b6f69fff512ada3aba4ceea.png" width="11" alt=""> .
    >
-   > - The first time you quickly run a code snippet, you must specify values for variables if the code snippet contains variables. The system saves the specified values for subsequent operations. If you want to change the specified values of the variables, click the **Run with Parameters** icon <img src="assets/739221d83b6f69fff512ada3aba4ceea.png" width="11" alt=""> .
+   > - The first time you quickly run a code snippet, you must specify values for variables if the code snippet contains variables. The system saves the specified values for subsequent operations. If you want to change the specified values of the variables, click the **Run with Parameters** icon <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/739221d83b6f69fff512ada3aba4ceea.png" width="11" alt=""> .
 
    You can use one of the following methods to run the code of the ODPS SQL node:
 
@@ -26900,7 +26900,7 @@ The administrator of a workspace can enable the forcible smoke testing feature o
 >
 > The forcible smoke testing feature is unavailable for workspaces in basic mode.
 
-1. In the lower-right corner of the left-side navigation pane of DataStudio, click the <img src="assets/eb1f459061227cf3cf3a5bc07ff61a04.png" width="15" alt=""> icon.
+1. In the lower-right corner of the left-side navigation pane of DataStudio, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/eb1f459061227cf3cf3a5bc07ff61a04.png" width="15" alt=""> icon.
 
 2. On the Settings page, choose **Security Settings and Others > Smoke Testing** and enable forcible smoke testing.
 
@@ -26908,11 +26908,11 @@ The administrator of a workspace can enable the forcible smoke testing feature o
 
 After you write code, you can use one of the following methods to perform smoke testing before you deploy and run a node:
 
-- Method 1: When you commit a node, click the <img src="assets/658ee01c0f1adbbc2fc4ae1a374a87de.png" width="16" alt=""> icon in the toolbar of the configuration tab
+- Method 1: When you commit a node, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/658ee01c0f1adbbc2fc4ae1a374a87de.png" width="16" alt=""> icon in the toolbar of the configuration tab
 
   of the node. In the **Commit** dialog box, select **Yes** for **Smoke Testing**.
 
-- Method 2: After you commit a node, click the <img src="assets/2df8359d1a32aff1d9c40972bed7df26.png" width="14" alt=""> icon in the toolbar of the configuration tab
+- Method 2: After you commit a node, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2df8359d1a32aff1d9c40972bed7df26.png" width="14" alt=""> icon in the toolbar of the configuration tab
 
   of the node. In the **Smoke Testing** dialog box, configure the Data Timestamp parameter and click OK.
 
@@ -26930,7 +26930,7 @@ Before you perform smoke testing, you must configure the Data Timestamp paramete
 
 **View smoke testing records**
 
-1. On the configuration tab of the desired node on the **DataStudio** page, click the <img src="assets/c5bb8f06400f2dfe96130d8811830e5f.png" width="22" alt=""> icon in
+1. On the configuration tab of the desired node on the **DataStudio** page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c5bb8f06400f2dfe96130d8811830e5f.png" width="22" alt=""> icon in
 
    the toolbar to go to the **Smoke Testing Records** page.
 
@@ -27080,29 +27080,29 @@ The Code Structure tab displays the SQL code structure parsed from the code of a
 
    The following code structure is parsed from the preceding SQL statement. You can switch between the classic and outline modes.
 
-   ![](assets/0bbad6cd5f04407004217c8038b2359a.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0bbad6cd5f04407004217c8038b2359a.jpeg)
 
    Move the pointer over a circle to view the description.
 
    - **Source table**: the table to be queried.
 
-     ![](assets/144ce786cbe2e8f57d40fa455693d6b7.jpeg)
+     ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/144ce786cbe2e8f57d40fa455693d6b7.jpeg)
 
    - **Filter**: the condition for filtering the partitions in the table to be queried.
 
-     ![](assets/e8140ad4610c5fdc6e385477295d4e76.jpeg)
+     ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e8140ad4610c5fdc6e385477295d4e76.jpeg)
 
    - **Intermediate table (query view)**: the first temporary table that stores the query results.
 
-     ![](assets/d86f24ca3c67d079814a3598d67571b9.jpeg)
+     ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d86f24ca3c67d079814a3598d67571b9.jpeg)
 
    - **Association (join)**: the operation for joining the query results.
 
-     ![](assets/1d3adaf15ac29e80408c1dc5e92e8bd8.jpeg)
+     ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1d3adaf15ac29e80408c1dc5e92e8bd8.jpeg)
 
    - **Intermediate table (query view)**: the second temporary table that stores the results of the JOIN operation. This temporary table can be stored for three days. After three days, this table is automatically deleted.
 
-     ![](assets/8ff0fe9d7d044d723a64535e977fe437.jpeg)
+     ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/8ff0fe9d7d044d723a64535e977fe437.jpeg)
 
 <a id="section-6-2-11"></a>
 
@@ -27194,13 +27194,13 @@ After you are assigned a role and access DataStudio, you can adjust the modules 
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+2. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. Then, the DataStudio page appears.
 
 3. Adjust the modules displayed in the left-side navigation pane of DataStudio.
 
-   Click the <img src="assets/25ee988153d2fc84a4d6ceae984d95e4.png" width="17" alt=""> icon in the lower-left corner and go to **Settings > Personal Settings**. In the
+   Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/25ee988153d2fc84a4d6ceae984d95e4.png" width="17" alt=""> icon in the lower-left corner and go to **Settings > Personal Settings**. In the
 
    **DataStudio Modules** section, select the modules that you want to display.
 
@@ -27226,7 +27226,7 @@ Each node is stored in an independent folder. You can create subfolders in each 
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+2. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. Then, the **DataStudio** page appears.
 
@@ -27300,7 +27300,7 @@ In the **Scheduled Workflow** pane, right-click **Business Flow** and select **A
 
 Click the card of a workflow. The configuration tab of the workflow appears.
 
-![](assets/2c55c9755a82d97f525ab142ad7bab66.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2c55c9755a82d97f525ab142ad7bab66.png)
 
 **View the dashboard for each type of node**
 
@@ -27312,7 +27312,7 @@ You can double-click a folder in a workflow to view the dashboard of the selecte
 
 **Commit a workflow**
 
-1. Go to the dashboard of a workflow and click the <img src="assets/f324aa28c0f616da88930912b987b197.png" width="13" alt=""> icon in the top toolbar.
+1. Go to the dashboard of a workflow and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f324aa28c0f616da88930912b987b197.png" width="13" alt=""> icon in the top toolbar.
 
 2. In the **Commit** dialog box, select the nodes that you want to commit, configure the **Change Description** parameter, and then select **Ignore I/O Inconsistency Alerts**.
 
@@ -27336,7 +27336,7 @@ You can group several nodes that are frequently reused together as a node group.
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+2. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. The **DataStudio** page appears.
 
@@ -27346,21 +27346,21 @@ You can group several nodes that are frequently reused together as a node group.
 
    icon in the upper-right corner. Then,
 
-   <img src="assets/fe628fc8ed93d8ac566a3371afb7b57d.png" width="18" alt="">
+   <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/fe628fc8ed93d8ac566a3371afb7b57d.png" width="18" alt="">
 
    select the nodes that you want to add to the node group.
 
-   ![](assets/c28f9a1831a3ce46eae0ab388500abe2.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c28f9a1831a3ce46eae0ab388500abe2.jpeg)
 
 5. Right-click a node among the selected nodes and click **New Node Group**.
 
-   ![](assets/d897fc94bc9cbdbadee6337681874976.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d897fc94bc9cbdbadee6337681874976.jpeg)
 
 6. In the **New Node Group** dialog box, specify **Name** and click **OK**.
 
 7. Right-click the node group and select **Save node group**. In the dialog box that appears, click OK. Then, you can view the created node group in the **Node Group** section.
 
-   ![](assets/fc61e18e2996832e49a41778f91707e2.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/fc61e18e2996832e49a41778f91707e2.jpeg)
 
    | Operation | Description |
    | --- | --- |
@@ -27390,11 +27390,11 @@ In a manually triggered workflow, all nodes must be manually triggered. They can
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+2. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. The **DataStudio** page appears.
 
-3. In the left-side navigation pane, click the <img src="assets/39e2288d8ec2691b29d06a1a0a0af7af.png" width="14" alt=""> icon, right-click **Manually Triggered**
+3. In the left-side navigation pane, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/39e2288d8ec2691b29d06a1a0a0af7af.png" width="14" alt=""> icon, right-click **Manually Triggered**
 
    **Workflows**, and select **Create Workflow**.
 
@@ -27428,7 +27428,7 @@ In a manually triggered workflow, all nodes must be manually triggered. They can
 
 **GUI elements**
 
-![](assets/dd0b7f4c77b182782e1e3ec6a89600e0.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/dd0b7f4c77b182782e1e3ec6a89600e0.jpeg)
 
 The following table describes the GUI elements on the configuration tab of a manually triggered workflow.
 
@@ -27542,7 +27542,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -27550,7 +27550,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -27562,9 +27562,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -27658,7 +27658,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -27666,7 +27666,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -27678,9 +27678,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -27862,7 +27862,7 @@ After the ODPS SQL node is created, edit the code of the node. The code must con
    SELECT * FROM test1;
    ```
 
-4. After you enter the preceding SQL statements in the code editor, click the <img src="assets/0c110abb4afb2bf59bd4606047e776ed.png" width="11" alt=""> icon in the
+4. After you enter the preceding SQL statements in the code editor, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0c110abb4afb2bf59bd4606047e776ed.png" width="11" alt=""> icon in the
 
    toolbar. DataWorks executes your SQL statements in sequence and displays logs.
 
@@ -27874,7 +27874,7 @@ After the ODPS SQL node is created, edit the code of the node. The code must con
 
    You can view or manage the query result in the workbook, or copy the query result to a local Excel file.
 
-   ![](assets/d0e28e2dfd51e076c284ce80304f206e.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d0e28e2dfd51e076c284ce80304f206e.jpeg)
 
    | Operation | Description |
    | --- | --- |
@@ -27898,7 +27898,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -27906,7 +27906,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -27918,9 +27918,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -28030,7 +28030,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -28038,7 +28038,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -28050,9 +28050,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -28162,7 +28162,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -28170,7 +28170,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -28182,9 +28182,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -28280,7 +28280,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Save and run node code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -28292,9 +28292,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -28460,7 +28460,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -28468,7 +28468,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -28480,9 +28480,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -28674,7 +28674,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -28682,7 +28682,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -28694,9 +28694,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -28792,7 +28792,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -28800,7 +28800,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -28812,9 +28812,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -29042,7 +29042,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -29050,7 +29050,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -29062,9 +29062,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -29383,7 +29383,7 @@ MaxCompute provides API operations for you to read and use resources. The follow
 
 1. Log in to the DataWorks console.
 
-2. Move the pointer over the <img src="assets/5c7e558c8acea4ef0d50e0b9282a12ca.png" width="34" alt=""> icon and choose **Create Resource > MaxCompute >**
+2. Move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5c7e558c8acea4ef0d50e0b9282a12ca.png" width="34" alt=""> icon and choose **Create Resource > MaxCompute >**
 
    **JAR**.
 
@@ -29405,7 +29405,7 @@ MaxCompute provides API operations for you to read and use resources. The follow
 
 5. Click **Create**.
 
-6. Click the <img src="assets/d18d9ec72543d1d20629e1f356debe20.png" width="12" alt=""> icon in the top toolbar to save and commit the resource to the server for task
+6. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d18d9ec72543d1d20629e1f356debe20.png" width="12" alt=""> icon in the top toolbar to save and commit the resource to the server for task
 
    scheduling and development.
 
@@ -29421,7 +29421,7 @@ MaxCompute provides API operations for you to read and use resources. The follow
 
    icon and choose **Create**
 
-   ![](assets/5c7e558c8acea4ef0d50e0b9282a12ca.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5c7e558c8acea4ef0d50e0b9282a12ca.png)
 
    **Resource > MaxCompute > Python**.
 
@@ -29460,7 +29460,7 @@ MaxCompute provides API operations for you to read and use resources. The follow
 
    <li>
 
-   Click the <img src="assets/ea0085bdca40add12d174986cd176d05.png" width="10" alt=""> icon in the top toolbar.
+   Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ea0085bdca40add12d174986cd176d05.png" width="10" alt=""> icon in the top toolbar.
 
    </li>
 
@@ -29472,7 +29472,7 @@ MaxCompute provides API operations for you to read and use resources. The follow
 
    <li>
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/5c7e558c8acea4ef0d50e0b9282a12ca.png" width="36" alt=""> icon and choose **Create**
+   On the **DataStudio** page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5c7e558c8acea4ef0d50e0b9282a12ca.png" width="36" alt=""> icon and choose **Create**
 
    **Function > MaxCompute**.
 
@@ -29494,7 +29494,7 @@ MaxCompute provides API operations for you to read and use resources. The follow
 
    <li>
 
-   In the **Register Function** section of the configuration tab that appears, enter the class name and the name of the Python resource that has been created, and then click the <img src="assets/ea0085bdca40add12d174986cd176d05.png" width="10" alt="">
+   In the **Register Function** section of the configuration tab that appears, enter the class name and the name of the Python resource that has been created, and then click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ea0085bdca40add12d174986cd176d05.png" width="10" alt="">
 
    icon in the toolbar. In this example, the class name is  `ipint.ipint` .
 
@@ -29612,7 +29612,7 @@ The required resources are uploaded.
    | Return Value | Optional. The return value. Example: 1. |
    | Example | Optional. An example of the function. |
 
-4. Click the <img src="assets/3bb253ae969dc45a341d521fb89cf002.png" width="11" alt=""> icon in the top toolbar to save the function.
+4. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3bb253ae969dc45a341d521fb89cf002.png" width="11" alt=""> icon in the top toolbar to save the function.
 
 5. Commit the function.
 
@@ -29620,7 +29620,7 @@ The required resources are uploaded.
 
    <li>
 
-   Click the <img src="assets/ea0085bdca40add12d174986cd176d05.png" width="10" alt=""> icon in the top toolbar to commit the function.
+   Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ea0085bdca40add12d174986cd176d05.png" width="10" alt=""> icon in the top toolbar to commit the function.
 
    </li>
 
@@ -29720,7 +29720,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -29728,7 +29728,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -29740,9 +29740,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -29864,7 +29864,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign custom parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug and run node code.
 
@@ -29872,7 +29872,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run node code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -29988,7 +29988,7 @@ You can perform the following operations to check whether the task is configured
 
 1. Optional. Select a resource group and assign custom parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug and run the node code.
 
@@ -29996,7 +29996,7 @@ You can perform the following operations to check whether the task is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -30004,9 +30004,9 @@ You can perform the following operations to check whether the task is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -30108,7 +30108,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -30116,7 +30116,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -30128,9 +30128,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -30271,7 +30271,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -30279,7 +30279,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -30291,9 +30291,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -30422,7 +30422,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -30430,7 +30430,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -30442,9 +30442,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -30542,7 +30542,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -30550,7 +30550,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -30562,9 +30562,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -30662,7 +30662,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -30670,7 +30670,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -30682,9 +30682,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -30790,7 +30790,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -30798,7 +30798,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -30810,9 +30810,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -30908,7 +30908,7 @@ This topic describes how to create an AnalyticDB for PostgreSQL table.
    | --- | --- |
    | Level-1 Theme | The name of the level-1 folder in which the table resides.<br>Note<br>The level-1 and level-2 folders show the table locations in DataWorks to help you easily manage tables. |
    | Level-2 Theme | The name of the level-2 folder in which the table resides. |
-   | Create Folder | Click <strong>Create Folder</strong> to go to the <strong>Folder Management</strong> tab. On the Folder Management tab, you can create level-1 and level-2 folders.<br>After you create a folder, click the<img src="assets/1640fc8830842a3d174581f2b56f0494.png" width="17" alt="">icon. |
+   | Create Folder | Click <strong>Create Folder</strong> to go to the <strong>Folder Management</strong> tab. On the Folder Management tab, you can create level-1 and level-2 folders.<br>After you create a folder, click the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1640fc8830842a3d174581f2b56f0494.png" width="17" alt="">icon. |
    | Descriptio n | The description of the table. |
 
 2. In the **Physical Model** section, configure the parameters.
@@ -30917,7 +30917,7 @@ This topic describes how to create an AnalyticDB for PostgreSQL table.
    | --- | --- |
    | Level | The layer where the table data is stored or processed. A data warehouse consists of the operational data store (ODS), common data model (CDM), and application data service (ADS) layers. You can specify a name for each layer. |
    | Category | The business category to which the table belongs. Tables are categorized into the basic, advanced, and other-purpose business categories. You can specify a name for each business category.<br>Note<br>Business categories are designed only to help you manage the table and do not affect underlying implementation. |
-   | Create Level | The layers and business categories that you want to create. To create layers and business categories, click <strong>Create Level</strong> to go to the <strong>Level</strong> <strong>Management</strong> tab. After you create levels and business categories, click<br>the<img src="assets/1640fc8830842a3d174581f2b56f0494.png" width="17" alt="">icon. |
+   | Create Level | The layers and business categories that you want to create. To create layers and business categories, click <strong>Create Level</strong> to go to the <strong>Level</strong> <strong>Management</strong> tab. After you create levels and business categories, click<br>the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1640fc8830842a3d174581f2b56f0494.png" width="17" alt="">icon. |
 
 3. In the **Schema** section, configure the parameters.
 
@@ -31155,7 +31155,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -31163,7 +31163,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -31175,9 +31175,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -31271,7 +31271,7 @@ An AnalyticDB for MySQL instance is purchased and associated with the current Da
    | --- | --- |
    | Level-1 Theme | The name of the level-1 folder in which the table resides.<br>Note<br>The level-1 and level-2 folders show the table locations in DataWorks to help you easily manage tables. |
    | Level-2 Theme | The name of the level-2 folder in which the table resides. |
-   | Create Folder | Click <strong>Create Folder</strong> to go to the <strong>Folder Management</strong> tab. On the Folder Management tab, you can create level-1 and level-2 folders.<br>After you create a folder, click the<img src="assets/1640fc8830842a3d174581f2b56f0494.png" width="17" alt="">icon. |
+   | Create Folder | Click <strong>Create Folder</strong> to go to the <strong>Folder Management</strong> tab. On the Folder Management tab, you can create level-1 and level-2 folders.<br>After you create a folder, click the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1640fc8830842a3d174581f2b56f0494.png" width="17" alt="">icon. |
    | Descriptio n | The description of the table. |
 
 2. In the **Physical Model** section, configure the parameters.
@@ -31280,7 +31280,7 @@ An AnalyticDB for MySQL instance is purchased and associated with the current Da
    | --- | --- |
    | Level | The layer where the table data is stored or processed. A data warehouse consists of the operational data store (ODS), common data model (CDM), and application data service (ADS) layers. You can specify a name for each layer. |
    | Category | The business category to which the table belongs. Tables are categorized into the basic, advanced, and other-purpose business categories. You can specify a name for each business category.<br>Note<br>Business categories are designed only to help you manage the table and do not affect underlying implementation. |
-   | Create Level | The layers and business categories that you want to create. To create layers and business categories, click <strong>Create Level</strong> to go to the <strong>Level</strong> <strong>Management</strong> tab. After you create levels and business categories, click<br>the<img src="assets/1640fc8830842a3d174581f2b56f0494.png" width="17" alt="">icon. |
+   | Create Level | The layers and business categories that you want to create. To create layers and business categories, click <strong>Create Level</strong> to go to the <strong>Level</strong> <strong>Management</strong> tab. After you create levels and business categories, click<br>the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1640fc8830842a3d174581f2b56f0494.png" width="17" alt="">icon. |
 
 3. In the **Schema** section, configure the parameters.
 
@@ -31432,7 +31432,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -31440,7 +31440,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -31452,9 +31452,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -31550,7 +31550,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -31558,7 +31558,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -31570,9 +31570,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -31668,7 +31668,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -31676,7 +31676,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -31688,9 +31688,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -31786,7 +31786,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -31794,7 +31794,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -31806,9 +31806,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -31904,7 +31904,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -31912,7 +31912,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -31924,9 +31924,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -32052,7 +32052,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -32060,7 +32060,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -32072,9 +32072,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -32200,7 +32200,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -32208,7 +32208,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -32220,9 +32220,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -32318,7 +32318,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -32326,7 +32326,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -32338,9 +32338,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -32436,7 +32436,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -32444,7 +32444,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -32456,9 +32456,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -32554,7 +32554,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -32562,7 +32562,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -32574,9 +32574,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -32672,7 +32672,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -32680,7 +32680,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -32692,9 +32692,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -32794,7 +32794,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -32802,7 +32802,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -32814,9 +32814,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -32912,7 +32912,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -32920,7 +32920,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -32932,9 +32932,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -33030,7 +33030,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -33038,7 +33038,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -33050,9 +33050,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -33148,7 +33148,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Optional. Select a resource group and assign scheduling parameters to variables.
 
-   - Click the <img src="assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
+   - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7acd2d5900b92e9ecc6640ba7ccf2dac.png" width="18" alt=""> icon in the top toolbar of the configuration tab of the node. In the
 
      **Parameters** dialog box, select a resource group for scheduling that you want to use to debug the code.
 
@@ -33156,7 +33156,7 @@ You can perform the following operations to check whether the node is configured
 
 2. Save and run the code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -33168,9 +33168,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -33266,9 +33266,9 @@ If you want to periodically run the node, click **Properties** in the right-side
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -33317,7 +33317,7 @@ The following table describes the instructions for use of for-each nodes.
 
 A for-each node in DataWorks is used in loop traversal scenarios and must be used with an assignment node. An assignment node must be configured as the ancestor node of a for-each node. After the assignment node passes its output to the for-each node, the for-each node loops through the output.
 
-![](assets/5ca6c4f959377596a845cdc506b9fc20.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5ca6c4f959377596a845cdc506b9fc20.png)
 
 **Limits**
 
@@ -33421,7 +33421,7 @@ configured as the ancestor node of the for-each node.
 
 A for-each node is a type of special node that contains inner nodes. When you create a for-each node, the following three inner nodes are automatically created: **start node**, **Shell node**, and **end node**. The start node marks the start of each loop. The Shell node specifies the task. Multiple types of nodes are supported, and the Shell node is for reference only. The end node marks the end of a loop. The inner nodes are organized into an inner workflow to loop through the output of the upstream assignment node.
 
-![](assets/99839ec251dd688b70ac7daff47fc929.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/99839ec251dd688b70ac7daff47fc929.png)
 
 The preceding figure shows the following information:
 
@@ -33675,7 +33675,7 @@ Before you configure a for-each node, you must be familiar with the logic of a f
 
 1. Double-click the workflow that you created to go to the configuration tab of the workflow. Create an assignment node as the ancestor of the for-each node. Double-click the assignment node to go to the configuration tab of the node.
 
-   ![](assets/88f90f33f02eab6d4134d434da9557e8.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/88f90f33f02eab6d4134d434da9557e8.jpeg)
 
 2. Set the Language parameter to Shell for the assignment node and enter the following code:
 
@@ -33685,11 +33685,11 @@ Before you configure a for-each node, you must be familiar with the logic of a f
 
    On the node configuration tab, click the **Properties** tab in the right-side navigation pane. By default, the **outputs** parameter appears in the **Output Parameters** section.
 
-   ![](assets/7f251e120fc16a57f7417c5abd7d8b5d.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7f251e120fc16a57f7417c5abd7d8b5d.jpeg)
 
 3. Find the for-each node that you created and replace the node between the  `start`  and  `end`  nodes with the Shell node.
 
-   ![](assets/57f4d810c3ca6fee98073a7f52b07b74.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/57f4d810c3ca6fee98073a7f52b07b74.jpeg)
 
 4. Double-click the Shell node and write the following code:
 
@@ -33727,7 +33727,7 @@ If you want to periodically run the node, click **Properties** in the right-side
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Switch to the workflow configuration tab and click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the toolbar to commit the
+1. Switch to the workflow configuration tab and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the toolbar to commit the
 
    workflow.
 
@@ -33757,7 +33757,7 @@ The procedure for committing, deploying, and running a for-each node is the same
 
 3. On the Cycle Task page, find the for-each node and click DAG in the Actions column to open the directed acyclic graph (DAG) of the for-each node. In the DAG of the for-each node, right-click the assignment node and choose **Run > Current and Descendant Nodes Retroactively**.
 
-   ![](assets/a8a70b02b9746636ad58c526aea96838.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a8a70b02b9746636ad58c526aea96838.jpeg)
 
 4. In the Backfill Data pane, configure the **Select Descendant Tasks** and **Data Timestamp** parameters and click **Submit and Redirect**. The system redirects to the **Patch Data** page.
 
@@ -33765,21 +33765,21 @@ The procedure for committing, deploying, and running a for-each node is the same
 
 6. In the DAG that appears, right-click the assignment node and select **View Runtime Log** to view its operation logs.
 
-   ![](assets/859522797b89f218ddb52ef67cb54e72.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/859522797b89f218ddb52ef67cb54e72.png)
 
 7. On the **Patch Data** page, right-click the for-each node in the DAG and select **View Internal Nodes**.
 
 8. On the page that appears, click **Loop 1** in the middle pane, right-click the Shell node in the DAG, and then select **View Runtime Log**.
 
-   ![](assets/2fa908a769f0d6968503fb62d48096b7.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2fa908a769f0d6968503fb62d48096b7.jpeg)
 
    On the page that appears, view the operation logs of the Shell node in the first loop.
 
-   ![](assets/1a3eb5dc0c08f8ddf647b4efe598b5b7.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1a3eb5dc0c08f8ddf647b4efe598b5b7.png)
 
 9. Use the same method to view the operation logs of the Shell node in the second loop.
 
-   ![](assets/8f17e65949c49e8860fd3e9cbe45f11d.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/8f17e65949c49e8860fd3e9cbe45f11d.png)
 
 **What to do next**
 
@@ -33855,7 +33855,7 @@ The following table describes the instructions for use of do-while nodes.
 
 A do-while node is a type of special node that contains inner nodes. When you create a do-while node, the following three inner nodes are automatically created: **start node**, **Shell node**, and **end node**. The start node marks the start of each loop. The Shell node specifies the task. Multiple types of nodes are supported, and the Shell node is for reference only. The end node judges the ending of a loop. The inner nodes are organized into an inner workflow to run the do-while node in loops.
 
-![](assets/4192d9c9cd76763d6d1e1529d6bb9a71.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4192d9c9cd76763d6d1e1529d6bb9a71.png)
 
 The preceding figure shows the following information:
 
@@ -34058,7 +34058,7 @@ The following table describes a typical scenario and precautions for using a do-
 
 The following table describes a typical scenario and usage notes for using a do-while node together with a branch node and a merge node.
 
-![](assets/82f0651f506e4740174a447b585d33b4.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/82f0651f506e4740174a447b585d33b4.png)
 
 | Use scenario | Usage notes |
 | --- | --- |
@@ -34124,7 +34124,7 @@ Before you configure a do-while node, you must be familiar with the logic of a d
 
 1. Find the do-while node that you created and replace the node between the  `start`  and  `end`  nodes with the Shell node.
 
-   ![](assets/57f4d810c3ca6fee98073a7f52b07b74.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/57f4d810c3ca6fee98073a7f52b07b74.jpeg)
 
 2. Double-click the Shell node and write the following code:
 
@@ -34183,9 +34183,9 @@ If you want to periodically run the node, click **Properties** in the right-side
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -34213,7 +34213,7 @@ The procedure for committing, deploying, and running a do-while node is the same
 
 3. On the Cycle Task page, find the do-while node and click DAG in the Actions column to open the directed acyclic graph (DAG) of the do-while node. In the DAG of the do-while node, right-click the assignment node and choose **Run > Current and Descendant Nodes Retroactively**.
 
-   ![](assets/af3c0c251807bfbf013d0aff7eca634d.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/af3c0c251807bfbf013d0aff7eca634d.jpeg)
 
 4. In the Backfill Data pane, configure the **Select Descendant Tasks** and **Data Timestamp** parameters and click **Submit and Redirect**. The system redirects to the **Patch Data** page.
 
@@ -34223,15 +34223,15 @@ The procedure for committing, deploying, and running a do-while node is the same
 
 7. On the page that appears, click **Loop 1** in the middle pane, right-click the Shell node in the DAG, and then select **View Runtime Log**.
 
-   ![](assets/939fd8362c6bfec06d31974cfd59edb2.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/939fd8362c6bfec06d31974cfd59edb2.jpeg)
 
    On the page that appears, view the operation logs of the Shell node in the first loop.
 
-   ![](assets/290a57648e0472b2d6bddc81d0cf3a1f.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/290a57648e0472b2d6bddc81d0cf3a1f.jpeg)
 
 8. Use the same method to view the operation logs of the Shell node in the second to fifth loops and check whether the results meet your expectations.
 
-   ![](assets/bb7bbd94857d28eb17c6d9091dfdba18.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/bb7bbd94857d28eb17c6d9091dfdba18.jpeg)
 
 **Summary**
 
@@ -34345,7 +34345,7 @@ After the merge node is created, the node configuration tab appears. Define the 
 
    In the **Merged Branch** drop-down list, search for the required branch node by node name,
 
-   node ID, or node output and click the <img src="assets/db5c6f9689aa955478d39e2cc86a5e47.png" width="41" alt=""> icon.
+   node ID, or node output and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/db5c6f9689aa955478d39e2cc86a5e47.png" width="41" alt=""> icon.
 
    > **Note**
    >
@@ -34381,7 +34381,7 @@ After the merge node is created, the node configuration tab appears. Define the 
 
 Valid values:
 
-![](assets/c9ee9c4e8e953f6d8f627438e32a6269.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c9ee9c4e8e953f6d8f627438e32a6269.png)
 
 - Branch Nodes A and B are added as the ancestor nodes of the merge node.
 
@@ -34407,13 +34407,13 @@ A merge node is often associated with one or more ancestor nodes. You can perfor
 
 1. Save all the nodes in the workflow.
 
-2. Return to the workflow and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon in the toolbar to run the workflow.
+2. Return to the workflow and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon in the toolbar to run the workflow.
 
 **Step 5: Commit and deploy the node**
 
 After a merge node is configured, you must commit and deploy the node. After you commit and deploy the node, the system runs the node on a regular basis based on scheduling configurations. A merge node is often associated with one or more ancestor nodes. You can perform the following steps to commit the entire workflow.
 
-1. Switch to the workflow editing page and click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the toolbar to commit the
+1. Switch to the workflow editing page and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the toolbar to commit the
 
    workflow.
 
@@ -34527,13 +34527,13 @@ A branch node is often associated with one or more descendant nodes. You can per
 
 1. Save all the nodes in the workflow.
 
-2. Return to the workflow and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon in the toolbar to run the workflow.
+2. Return to the workflow and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon in the toolbar to run the workflow.
 
 **Step 5: Commit and deploy the node**
 
 After a branch node is configured, you must commit and deploy the node. After you commit and deploy the node, the system runs the node on a regular basis based on scheduling configurations. A branch node is often associated with one or more descendant nodes. You can perform the following steps to commit the entire workflow.
 
-1. Switch to the workflow configuration tab and click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the toolbar to commit the
+1. Switch to the workflow configuration tab and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the toolbar to commit the
 
    workflow.
 
@@ -34678,7 +34678,7 @@ Assignment nodes support three assignment languages: ODPS SQL, Shell, and Python
 
 2. Click **Properties** on the right side of the node configuration tab. By default, the outputs parameter appears under **Output Parameters** in the **Input and Output Parameters** section.
 
-   ![](assets/029050960a52f108384c08641b0845ea.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/029050960a52f108384c08641b0845ea.jpeg)
 
 3. Click the **Save** icon in the top toolbar of the assignment node.
 
@@ -34750,13 +34750,13 @@ An assignment node is often associated with one or more descendant nodes. You ca
 
 1. Save all nodes in the workflow.
 
-2. Return to the workflow and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon in the toolbar to run the workflow.
+2. Return to the workflow and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon in the toolbar to run the workflow.
 
 **Step 5: Commit and deploy the node**
 
 After a node is configured, you must commit and deploy the node. After you commit and deploy the node, the system runs the node on a regular basis based on scheduling configurations. An assignment node is often associated with one or more descendant nodes. You can perform the following steps to commit the entire workflow.
 
-1. Switch to the workflow configuration tab and click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the toolbar to commit the
+1. Switch to the workflow configuration tab and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the toolbar to commit the
 
    workflow.
 
@@ -34852,13 +34852,13 @@ Perform the following steps to reference a resource:
 
    On the node configuration tab, you can write code to run the resource.
 
-   ![](assets/c723174aaada6bd095534eaafa2b948d.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c723174aaada6bd095534eaafa2b948d.jpeg)
 
 **Configure scheduling properties for the Shell node**
 
 You are not allowed to customize variable names for common Shell nodes. The variables must be named sequentially based on their position, such as $1, $2, and $3. If the parameter number is 10 or greater, you must use the ${number} format, such as ${10}. For more information about how to configure and use scheduling parameters, see Configure and use scheduling parameters. For more information about the methods to assign values to scheduling parameters, see Overview of scheduling parameters.
 
-![](assets/51b57a5c0ff8316f43bc21cbb46a885a.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/51b57a5c0ff8316f43bc21cbb46a885a.png)
 
 In the preceding figure, custom parameters are assigned to the custom variables $1, $2, and $3 in the Parameters section, and the custom variables are referenced in the code editor. Examples:
 
@@ -34886,7 +34886,7 @@ You can perform the following operations to check whether the node is configured
 
 1. Save and run node code.
 
-   In the top toolbar, click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
+   In the top toolbar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon to save node code and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon to run node
 
    code.
 
@@ -34898,9 +34898,9 @@ You can perform the following operations to check whether the node is configured
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -34997,13 +34997,13 @@ The real-time compute check node is often associated with an ancestor node, so y
 
 1. Save all nodes in the workflow.
 
-2. Return to the workflow and click the <img src="assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon in the toolbar to run the workflow.
+2. Return to the workflow and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29efe3a9d3b29a84dcc2a9cd5d815565.png" width="16" alt=""> icon in the toolbar to run the workflow.
 
 **Step 5: Commit and deploy the node**
 
 After a node is configured, you must commit and deploy the node. After you commit and deploy the node, the system runs the node on a regular basis based on scheduling configurations. The real-time compute check node is often associated with an ancestor node, so you can perform the following steps to commit the entire workflow.
 
-1. Switch to the workflow configuration tab and click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the top toolbar to commit
+1. Switch to the workflow configuration tab and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the top toolbar to commit
 
    the workflow.
 
@@ -35081,9 +35081,9 @@ You must use a zero load node when the final output table of a workflow is fed b
 
 4. Click **Properties** on the right side of the node configuration tab. On the Properties tab, configure scheduling properties for the node. For more information, see Configure basic properties.
 
-5. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon in the top toolbar to save the node.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon in the top toolbar to save the node.
 
-6. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the top toolbar to commit the node.
+6. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the top toolbar to commit the node.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -35113,13 +35113,13 @@ An external scheduling system is used to trigger nodes in the following typical 
 
 - An HTTP trigger node has no ancestor nodes other than the root node of the workflow
 
-  ![](assets/86e097f620aa51ac6abfe9a7804e0124.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/86e097f620aa51ac6abfe9a7804e0124.png)
 
   In this scenario, you must configure a trigger in the external scheduling system after you create the HTTP trigger node. Then, you must configure scheduling properties and dependencies for the nodes in DataWorks.
 
 - An HTTP trigger node has one or more ancestor nodes other than the root node of the workflow
 
-  ![](assets/b295be17ab4f5a6a1f711ac88151b134.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b295be17ab4f5a6a1f711ac88151b134.png)
 
   In this scenario:
 
@@ -35223,13 +35223,13 @@ The HTTP trigger node can be run only if the following conditions are met:
 
    <li>
 
-   Click the <img src="assets/4d3e1520593031f15dddfe4360d59153.png" width="13" alt=""> icon in the top toolbar to save the node.
+   Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4d3e1520593031f15dddfe4360d59153.png" width="13" alt=""> icon in the top toolbar to save the node.
 
    </li>
 
    <li>
 
-   Click the <img src="assets/4466a0fc56791f95380d49fca6ef5e5c.png" width="13" alt=""> icon in the top toolbar.
+   Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4466a0fc56791f95380d49fca6ef5e5c.png" width="13" alt=""> icon in the top toolbar.
 
    </li>
 
@@ -35279,7 +35279,7 @@ A parameter node is a zero load node that does not run computing tasks or genera
 
   If a descendant node in a data development workflow needs to obtain output parameters from multiple ancestor nodes at different levels, you can use a parameter node to consolidate all the required parameters. The descendant node can then be directly attached to the parameter node to obtain all the required parameters.
 
-  ![](assets/0ada586832d5d77ea0d3a64b45f1b2a2.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0ada586832d5d77ea0d3a64b45f1b2a2.png)
 
   In the preceding figure, the sql_7 node needs to obtain the output parameters of the sql_1, sql_3, and sql_4 nodes. In this case, you can create a parameter node as a descendant node of sql_1, sql_3, and sql_4. Add all parameters required by sql_7 to the parameter node. Then, attach sql_7 as a descendant node of this parameter node. This way, sql_7 can directly obtain all required parameters from the parameter node.
 
@@ -35287,7 +35287,7 @@ A parameter node is a zero load node that does not run computing tasks or genera
 
   If descendant nodes in a data development workflow need to use constant or variable parameters, you can use a parameter node to consolidate all the required parameters. The descendant nodes can then be directly attached to the parameter node to obtain the parameters. This facilitates centralized management of all parameters used in the workflow.
 
-  ![](assets/988cc9ba369786e71d994ac906de5e21.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/988cc9ba369786e71d994ac906de5e21.png)
 
   In the preceding figure, the sql_3, sql_4, sql_5, and sql_7 nodes all need to use parameters. In this case, you can create a parameter node and add the parameters used by these nodes to it. Then, attach the nodes that require the parameters as descendant nodes of this parameter node.
 
@@ -35462,7 +35462,7 @@ If you want to periodically run the node, click **Properties** in the right-side
 
 After a node is configured, you must commit and deploy the node. After you commit and deploy the node, the system runs the node on a regular basis based on scheduling configurations. The data analysis report node is often associated with an upstream node. Therefore, you can perform the following steps to commit the entire workflow.
 
-1. Switch to the workflow configuration tab and click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the top toolbar to commit
+1. Switch to the workflow configuration tab and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon in the top toolbar to commit
 
    the workflow.
 
@@ -35554,7 +35554,7 @@ After a custom node type is created for the first time, you must wait at least o
 
    If no such node is available, click **Create** to create one. You can also click **Update Code** to modify the code of an existing node.
 
-   ![](assets/fb4c0678ae2175f06e2e70f613534915.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/fb4c0678ae2175f06e2e70f613534915.png)
 
 **Step 3: Configure scheduling properties for the node**
 
@@ -35568,9 +35568,9 @@ If you want to periodically run the node, click **Properties** in the right-side
 
 After configuring the node task, you must commit and publish it. Once published, the node runs periodically based on its scheduling configuration.
 
-1. Click the <img src="assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/393314785fdadb6094d0c25b757ff88a.png" width="16" alt=""> icon on the toolbar to save the node.
 
-2. Click the <img src="assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7eb9c55464d00d1e3eec13875863e938.png" width="16" alt=""> icon on the toolbar to commit the node task.
 
    In the **Commit Confirmation** dialog box, confirm the **Scheduling Status of the current task**. If the status is as expected, click **Continue to Commit**. Then, in the **Commit** dialog box, enter a **Change Description** and choose whether to perform a code review after the commit.
 
@@ -35600,7 +35600,7 @@ In the General section of the Properties tab, you can view the basic properties 
 
 Go to the configuration tab of your node on the DataStudio page. Click the **Properties** tab in the right-side navigation pane. In the **General** section of the Properties tab, configure basic properties for the node.
 
-![](assets/3bc1cf723c71d87011c1235c5a7878ab.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3bc1cf723c71d87011c1235c5a7878ab.jpeg)
 
 | Parameter | Description |
 | --- | --- |
@@ -35626,7 +35626,7 @@ After you define variables in the  `${Variable}`  format in the code of a node a
 
 You can **assign a constant** to a scheduling parameter. By doing so, the same value is passed to the scheduling parameter each time the node is run. You can follow the instructions in the following figure to assign a constant to a scheduling parameter.
 
-![](assets/02cf75d74ebcf587a00b1d3075aac32a.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/02cf75d74ebcf587a00b1d3075aac32a.png)
 
 > **Note**
 >
@@ -35675,7 +35675,7 @@ In most cases, scheduling parameters are used to obtain different time data. You
   </tr>
 </table>
 
-![](assets/115bf9b7ff0dce40de1c8d9fc78ca2cb.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/115bf9b7ff0dce40de1c8d9fc78ca2cb.png)
 
 <table>
   <tr>
@@ -35686,7 +35686,7 @@ In most cases, scheduling parameters are used to obtain different time data. You
   </tr>
 </table>
 
-![](assets/14abcc5b1be8bc1e9d60b83b2c022b22.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/14abcc5b1be8bc1e9d60b83b2c022b22.png)
 
 If you cannot use the preceding custom time parameters to obtain the desired time data, we recommend that you use the preceding custom time parameters to obtain data and then process the data by performing the operations that are described in the following table.
 
@@ -35807,11 +35807,11 @@ DataWorks supports the built-in system parameters that are described in the foll
 <table>
   <tr>
     <td>Relationship between scheduling parameters and the scheduling time of a node</td>
-    <td>If you use a $[...] parameter to specify a time that is accurate to the hour or minute, the value of the $[...] parameter is determined based on the scheduling time, which is the time at which the instance generated for the node is scheduled to run.<br><img src="assets/5b84c324799360c3027d8b565e6e616c.png" alt=""><br>Value replacement if the node is scheduled to run every hour from <code> 00:00 </code> to <code> 23:59 </code>:<br>• If the first instance generated for the node is scheduled to run at <code> 00:00 </code>, the value of hh24 or hh is replaced with <code> 00 </code>.<br>• If the second instance generated for the node is scheduled to run at <code> 01:00 </code>, the value of hh24 or hh is replaced with <code> 01 </code>.</td>
+    <td>If you use a $[...] parameter to specify a time that is accurate to the hour or minute, the value of the $[...] parameter is determined based on the scheduling time, which is the time at which the instance generated for the node is scheduled to run.<br><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5b84c324799360c3027d8b565e6e616c.png" alt=""><br>Value replacement if the node is scheduled to run every hour from <code> 00:00 </code> to <code> 23:59 </code>:<br>• If the first instance generated for the node is scheduled to run at <code> 00:00 </code>, the value of hh24 or hh is replaced with <code> 00 </code>.<br>• If the second instance generated for the node is scheduled to run at <code> 01:00 </code>, the value of hh24 or hh is replaced with <code> 01 </code>.</td>
   </tr>
   <tr>
     <td>Relationships between scheduling parameters and the data timestamp and scheduling time of a node</td>
-    <td><img src="assets/5b84c324799360c3027d8b565e6e616c.png" alt=""></td>
+    <td><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5b84c324799360c3027d8b565e6e616c.png" alt=""></td>
   </tr>
 </table>
 
@@ -35827,7 +35827,7 @@ Scheduling parameters are automatically replaced with specific values based on t
 
 **Usage notes**
 
-Before you click the <img src="assets/9622d4a46ea12aa47df0e3455ad70274.png" width="17" alt=""> or <img src="assets/db71623190c3ea37921ee2609b9bc458.png" width="15" alt=""> icon in the toolbar to run a node, you must manually assign
+Before you click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9622d4a46ea12aa47df0e3455ad70274.png" width="17" alt=""> or <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/db71623190c3ea37921ee2609b9bc458.png" width="15" alt=""> icon in the toolbar to run a node, you must manually assign
 
 constants to the variables that you want to reference in the code of the node. In this case, you cannot check whether the configured scheduling parameters work as expected.
 
@@ -35860,7 +35860,7 @@ For information about a complete sample for configuring scheduling parameters an
 
    <li>
 
-   In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+   In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    </li>
 
@@ -35906,7 +35906,7 @@ You can perform the steps in the following figure to define variables in the cod
 >
 > Some nodes use the built-in variable  `${bizdate}` . The built-in variable is automatically assigned  `$bizdate`  as a value. You can replace  `bizdate`  with a custom variable name based on your business requirements.
 
-![](assets/433507ecbce284c958892f04d05ccba4.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/433507ecbce284c958892f04d05ccba4.jpeg)
 
 **Assign scheduling parameters as values to variables in the code of a node**
 
@@ -35923,7 +35923,7 @@ DataWorks supports the following value formats of scheduling parameters:
 
 - **Current day**:  `$[yyyymmdd]`
 
-  ![](assets/e8b3a70a9ce8eea3e80ac59fc7fce75a.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e8b3a70a9ce8eea3e80ac59fc7fce75a.png)
 
 **Add**
 
@@ -35965,7 +35965,7 @@ mode
 
 **Paramet**
 
-![](assets/f9c36d35763570c6b8d86d67539dc599.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f9c36d35763570c6b8d86d67539dc599.png)
 
 > manually assign values to
 
@@ -35988,7 +35988,7 @@ mode
     <td>Expressio n mode</td>
     <td>Define by expressi on</td>
     <td>By default, the system provides an interface on which you can configure scheduling parameters for a node. You can also click <strong>Define by expression</strong> to configure scheduling parameters by using an expression.<br>Note<br>• If you use an expression to configure multiple scheduling parameters, separate multiple assignment equations with spaces. For example, if you want to configure two assignment equations <code>datetime1=$[yyyymmdd]</code> and <code> datetime2=$bizdate </code>, the expression is <code>datetime1=$[yyyymmdd]</code> <code>datetime2=$bizdate </code>.<br>• If you add, delete, or modify scheduling parameters by using expressions, DataWorks checks the syntax of the expressions. If the check fails, the scheduling parameters fail to be configured. For example, if a space exists on either side of the equal sign (=), DataWorks reports an error.</td>
-    <td><img src="assets/ea850a73ce51f40b534b889aae2dfd30.png" alt=""></td>
+    <td><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ea850a73ce51f40b534b889aae2dfd30.png" alt=""></td>
   </tr>
 </table>
 
@@ -36002,13 +36002,13 @@ After you assign values to scheduling parameters, you can use the **scheduling p
 
 DataWorks replaces the scheduling parameters based on the scheduling configurations of the node when the node is scheduled to run in a test environment. You can check whether the scheduling parameters are replaced with valid values. If the values do not meet your business requirements, you can adjust the scheduling configurations of the node at the earliest opportunity to prevent the invalid configurations from affecting the running of the node.
 
-![](assets/30a1690cf8e032218cabd6061562f9bf.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/30a1690cf8e032218cabd6061562f9bf.png)
 
 **Test whether the code of the node is run and the scheduling parameters are replaced as expected**
 
 After you assign values to the scheduling parameters, we recommend that you use the smoke testing feature to specify a data timestamp for the node and test whether the code of the node is run and the scheduling parameters are replaced as expected when the node is scheduled to run. If the node is not run as expected, you can modify the scheduling configurations of the node at your earliest opportunity to prevent the invalid configurations from affecting the running of the node.
 
-After you modify the code of the node, you must click the <img src="assets/7bbb4ffbe26cf04b3aaaf99f42034975.png" width="14" alt=""> icon and then the <img src="assets/dd99ce1b92147deb127ffbd644b35a59.png" width="14" alt=""> icon to save
+After you modify the code of the node, you must click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7bbb4ffbe26cf04b3aaaf99f42034975.png" width="14" alt=""> icon and then the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/dd99ce1b92147deb127ffbd644b35a59.png" width="14" alt=""> icon to save
 
 the modifications and commit the node to the development environment. Otherwise, you cannot perform smoke testing on the node in the development environment.
 
@@ -36022,15 +36022,15 @@ the modifications and commit the node to the development environment. Otherwise,
 >
 >   icon in the toolbar to run a node, you must manually
 >
->   <img src="assets/9622d4a46ea12aa47df0e3455ad70274.png" width="14" alt="">
+>   <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9622d4a46ea12aa47df0e3455ad70274.png" width="14" alt="">
 >
->   <img src="assets/db71623190c3ea37921ee2609b9bc458.png" width="14" alt="">
+>   <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/db71623190c3ea37921ee2609b9bc458.png" width="14" alt="">
 >
 >   assign constants to the variables that you want to reference in the code of the node. In this case, you cannot check whether the configured scheduling parameters work as expected.
 
-![](assets/0ffbf9c11cd23c4cba14a944f925ed6b.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0ffbf9c11cd23c4cba14a944f925ed6b.jpeg)
 
-After the smoke testing is complete, click the <img src="assets/eff750a4775b44406e8fce82c1ffe826.png" width="14" alt=""> icon to check whether the results in smoke
+After the smoke testing is complete, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/eff750a4775b44406e8fce82c1ffe826.png" width="14" alt=""> icon to check whether the results in smoke
 
 testing logs meet your expectations.
 
@@ -36038,9 +36038,9 @@ testing logs meet your expectations.
 
 To prevent unexpected configurations of scheduling parameters from affecting the running of an auto triggered node, we recommend that you check the configurations of the scheduling parameters for the auto triggered node on the **Cycle Task** page in Operation Center in the production environment after the auto triggered node is deployed.
 
-![](assets/02716d11d02a7a825aad7434e16e3052.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/02716d11d02a7a825aad7434e16e3052.jpeg)
 
-![](assets/4e9e61ffe6adf5b5b9d6c99b9c832fc3.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4e9e61ffe6adf5b5b9d6c99b9c832fc3.jpeg)
 
 > **Note**
 >
@@ -36054,7 +36054,7 @@ This section describes how to perform smoke testing in the development environme
 
    The following figure shows the code and scheduling parameter configurations of the ODPS SQL node.
 
-   ![](assets/bd46cce62cb0ecbb8591e71c69f2c53f.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/bd46cce62cb0ecbb8591e71c69f2c53f.png)
 
    <ol type="i">
 
@@ -36106,7 +36106,7 @@ This section describes how to perform smoke testing in the development environme
 
    </ol>
 
-2. In the top toolbar of the configuration tab of the node, click the <img src="assets/7bbb4ffbe26cf04b3aaaf99f42034975.png" width="14" alt=""> icon to save the
+2. In the top toolbar of the configuration tab of the node, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7bbb4ffbe26cf04b3aaaf99f42034975.png" width="14" alt=""> icon to save the
 
    configurations of the ODPS SQL node.
 
@@ -36120,7 +36120,7 @@ This section describes how to perform smoke testing in the development environme
 
    icon. In the **Smoke Testing** dialog box, configure a data timestamp to
 
-   <img src="assets/ddc415b666fb329e06d2a10ca442bb23.png" width="14" alt="">
+   <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ddc415b666fb329e06d2a10ca442bb23.png" width="14" alt="">
 
    simulate the scheduling frequency of the node.
 
@@ -36176,7 +36176,7 @@ This section describes how to perform smoke testing in the development environme
 
    icon to view the smoke testing logs.
 
-   <img src="assets/eff750a4775b44406e8fce82c1ffe826.png" width="14" alt="">
+   <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/eff750a4775b44406e8fce82c1ffe826.png" width="14" alt="">
 
    </li>
 
@@ -36188,7 +36188,7 @@ This section describes how to perform smoke testing in the development environme
 
    icon in the top toolbar to
 
-   <img src="assets/dd99ce1b92147deb127ffbd644b35a59.png" width="14" alt="">
+   <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/dd99ce1b92147deb127ffbd644b35a59.png" width="14" alt="">
 
    commit the current node.
 
@@ -36248,7 +36248,7 @@ You can configure scheduling parameters for SQL nodes and batch synchronization 
 >
 > Specific nodes do not support scheduling parameters. For more information about whether a type of node supports scheduling parameters, see the documentation of the type of node.
 
-![](assets/65c819214f4f1ea36ed33f6080a0aa50.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/65c819214f4f1ea36ed33f6080a0aa50.png)
 
 Custom parameters are assigned to the custom variables var1, var2, var3, var4, and var5 in the **Scheduling Parameter** section and the custom variables are referenced in the code editor. In this example, the following variables are defined.
 
@@ -36268,7 +36268,7 @@ For more information about how to configure and use scheduling parameters, see C
 
 To avoid code changes, a PyODPS node does not allow you to replace defined variables with strings that are in the  `${param_name}`  format in the code. However, you can add a dictionary object named  `args`  to the global variable before the code is run. This way, the PyODPS node can obtain the values of scheduling parameters from the dictionary object.
 
-![](assets/bab613edc9321a347d2a0dd6e3a12b43.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/bab613edc9321a347d2a0dd6e3a12b43.png)
 
 In the preceding code, custom parameters are assigned to the custom variables var1, var2, and var3 in the **Scheduling Parameter** section, a dictionary object named args is added, and then the custom variables are referenced in the formats of  `args['var1']` ,  `args['var2']` , and  `args['var3']`  in the code editor. In this example, the following variables are defined.
 
@@ -36284,7 +36284,7 @@ For more information about how to configure and use scheduling parameters, see C
 
 You are not allowed to specify custom variable names for common Shell nodes. The variables must be named based on their ordinal numbers, such as  `$1` ,  `$2` , and  `$3` . If the number of parameters reaches or exceeds 10, use ${Number} to declare the excess variables. For example, use  `${10}`  to declare the tenth variable.
 
-![](assets/5350f5d7fe49f8f3081e321480ff630d.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5350f5d7fe49f8f3081e321480ff630d.png)
 
 In the preceding code, custom parameters are assigned to the custom variables $1, $2, and $3 in the **Scheduling Parameter** section, and the custom variables are referenced in the code editor. In this example, the following variables are defined.
 
@@ -36322,11 +36322,11 @@ For example, the current date is  `November 1, 2021` , and a node is scheduled t
 | <code>$cyctime</code> | Obtains the time when the node is scheduled to run, which is accurate to seconds. | <code>datetime=$cyctime</code> | <code>datetime=20211101000000</code> |
 | <code>$gmtdate</code> | Obtains the current date, which is accurate to days. | <code>datetime=$gmtdate</code> | <code>datetime=20211101</code> |
 
-![](assets/b1e72da7bfdf647f0120abe274e558fb.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b1e72da7bfdf647f0120abe274e558fb.png)
 
-![](assets/865238c110ab40f3ff1833b152d0e433.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/865238c110ab40f3ff1833b152d0e433.png)
 
-![](assets/3651a991ea1fa97e235c8a57bb4dc487.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3651a991ea1fa97e235c8a57bb4dc487.png)
 
 <table>
   <tr>
@@ -36337,7 +36337,7 @@ For example, the current date is  `November 1, 2021` , and a node is scheduled t
   </tr>
 </table>
 
-![](assets/a59383db29b4039b145b3b8d8fb7fe5d.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a59383db29b4039b145b3b8d8fb7fe5d.png)
 
 **Differences between ${...} and $[...] parameters**
 
@@ -36502,7 +36502,7 @@ After a node is committed to and deployed in the production environment, you can
 
 To configure time properties for a node, you need to perform the following operations: Go to the DataStudio page, double-click a node in the Business Flow section in the Scheduled Workflow pane to go to the configuration tab of the node, and then click **Properties** in the right-side navigation pane of the configuration tab. In the Schedule section of the Properties tab, configure time properties for the node.
 
-![](assets/74ae98d8ccbfe8159c288a2234b44473.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/74ae98d8ccbfe8159c288a2234b44473.png)
 
 The following table describes the parameters that are related to the time properties of a node.
 
@@ -36564,7 +36564,7 @@ The following table describes the valid values of the Recurrence parameter.
 | Value | Description | Scenario |
 | --- | --- | --- |
 | Normal | If you set the Recurrence parameter to Normal, the node is run and generates data based on the settings of the scheduling cycle and scheduling time.<br>After the node is run as expected, the descendant nodes are also triggered and run. By default, the Recurrence parameter is set to Normal. | You want a node and the instances that are generated for the node to be run as expected. |
-| Skip Executio n | If you set the Recurrence parameter to Skip Execution, the node is scheduled based on the settings of the scheduling cycle and scheduling time. However, the status of the node becomes frozen and the node generates no data.<br>When the node is scheduled, the system directly returns a failure response and the descendant nodes cannot be run.<br>Note<br>The following icon is displayed next to the name of a node that is frozen in Operation Center:.<br><img src="assets/6579ab6b921ce3a5b7c36d8da4687ab4.png" width="13" alt=""> | You want to freeze a node and the instances generated for the node. In this case, the current node and its descendant nodes cannot be run.<br>If you do not need to run a workflow within a specified period of time, you can freeze the root node of the workflow in that period of time based on your business requirements. You can also unfreeze the root node to resume the workflow based on your business requirements. |
+| Skip Executio n | If you set the Recurrence parameter to Skip Execution, the node is scheduled based on the settings of the scheduling cycle and scheduling time. However, the status of the node becomes frozen and the node generates no data.<br>When the node is scheduled, the system directly returns a failure response and the descendant nodes cannot be run.<br>Note<br>The following icon is displayed next to the name of a node that is frozen in Operation Center:.<br><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6579ab6b921ce3a5b7c36d8da4687ab4.png" width="13" alt=""> | You want to freeze a node and the instances generated for the node. In this case, the current node and its descendant nodes cannot be run.<br>If you do not need to run a workflow within a specified period of time, you can freeze the root node of the workflow in that period of time based on your business requirements. You can also unfreeze the root node to resume the workflow based on your business requirements. |
 | Dry Run | If you set the Recurrence parameter to Dry Run, the node is scheduled based on the settings of the scheduling cycle and scheduling time. However, a dry run is performed on the node and the node generates no data.<br>When the node is scheduled, the scheduling system returns a success response. However, the running duration is <code> 0 </code> seconds, and no run logs are generated. The dry-run node does not affect the execution of its descendant nodes and occupies no resources. | You want to suspend a node in a period of time and want the descendant nodes of the node to be run as expected. |
 
 **Scheduling Calendar**
@@ -36641,10 +36641,10 @@ You can schedule the node at the specified point in time based on the selected s
 
   | Typical scenario | Configuration example |
   | --- | --- |
-  | Schedule a node to run at 00:00 every day | ![](assets/b0004cb1d412dabf07b9f8b83255eed1.jpeg) |
-  | Schedule a node to run at 12:00 every Friday | ![](assets/9989efd392284d32c03bf55a92255b7f.jpeg) |
-  | Schedule a node to run on the last day of every month | ![](assets/2abc09cb75d70153af478d85fb2a2a41.jpeg) |
-  | Schedule a node to run on the last day of the first month in every quarter | ![](assets/522f5ffc27972dd17f4034373f8935f5.jpeg) |
+  | Schedule a node to run at 00:00 every day | ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b0004cb1d412dabf07b9f8b83255eed1.jpeg) |
+  | Schedule a node to run at 12:00 every Friday | ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9989efd392284d32c03bf55a92255b7f.jpeg) |
+  | Schedule a node to run on the last day of every month | ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2abc09cb75d70153af478d85fb2a2a41.jpeg) |
+  | Schedule a node to run on the last day of the first month in every quarter | ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/522f5ffc27972dd17f4034373f8935f5.jpeg) |
 
 **Timeout period**
 
@@ -36723,13 +36723,13 @@ The minimum time interval for a node that is scheduled by minute is 5 minutes.
   >
   > The cron expression is automatically generated based on the scheduling time that you select and cannot be changed.
 
-  ![](assets/f8108967b7f1e35af46cc767593f6b61.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f8108967b7f1e35af46cc767593f6b61.jpeg)
 
 - **Scheduling details**
 
   The following figure shows the scheduling time of instances generated for a node scheduled to run every 30 minutes and the replacement results of the scheduling parameters configured for the node.
 
-  ![](assets/384068cad7468ce152fa00949504a376.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/384068cad7468ce152fa00949504a376.png)
 
   24miss}
 
@@ -36783,13 +36783,13 @@ You can schedule a node to run by hour only on the hour during the specified per
     >
     > The cron expression is automatically generated based on the scheduling time that you select and cannot be changed.
 
-    ![](assets/d1cc4d3b9a5049adaa545a196af8106d.png)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d1cc4d3b9a5049adaa545a196af8106d.png)
 
   - **Scheduling details**
 
     The scheduling system generates four instances for the node every day and schedules the instances to run in sequence at 00:00, 06:00, 12:00, and 18:00.
 
-    ![](assets/b70c674b3e5ee345d44d14b1f2366d0f.png)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b70c674b3e5ee345d44d14b1f2366d0f.png)
 
     ?
 
@@ -36835,13 +36835,13 @@ If a node is scheduled by day, the node is automatically run at a point in time 
     >
     > The cron expression is automatically generated based on the scheduling time that you select and cannot be changed.
 
-    ![](assets/3aba231a5fd6670650711c3d871e2a6d.png)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3aba231a5fd6670650711c3d871e2a6d.png)
 
   - **Scheduling details**
 
     The scheduling system automatically generates and runs instances for the node.
 
-    ![](assets/29273a38cfde85cdd5fa1bced9317d22.png)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/29273a38cfde85cdd5fa1bced9317d22.png)
 
     > **Note**
     >
@@ -36881,13 +36881,13 @@ To ensure that the descendant nodes of a node that is scheduled by week can run 
     >
     > The cron expression is automatically generated based on the scheduling time that you select and cannot be changed.
 
-    ![](assets/6b51f44dbc78ef50379a6c19e22395bb.jpeg)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6b51f44dbc78ef50379a6c19e22395bb.jpeg)
 
   - **Scheduling details**
 
     The scheduling system automatically generates and runs instances for the node.
 
-    ![](assets/9ae1afae26488e67d6c48840ded3c70d.png)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9ae1afae26488e67d6c48840ded3c70d.png)
 
 <a id="section-6-5-3-6"></a>
 
@@ -36917,13 +36917,13 @@ If a node is scheduled by month, the node is automatically run at a specific poi
     >
     > The cron expression is automatically generated based on the scheduling time that you select and cannot be changed.
 
-    ![](assets/11c4887cbbe2714ef2bacaaa05fb4d67.jpeg)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/11c4887cbbe2714ef2bacaaa05fb4d67.jpeg)
 
   - **Scheduling details**
 
     The scheduling system automatically generates and runs instances for the node.
 
-    ![](assets/0f732af75607c1c964320a7d9c04adb2.png)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f732af75607c1c964320a7d9c04adb2.png)
 
 <a id="section-6-5-3-7"></a>
 
@@ -36951,13 +36951,13 @@ To ensure that the descendant nodes of a node that is scheduled by year can run 
     >
     > The cron expression is automatically generated based on the scheduling time that you select and cannot be changed.
 
-    ![](assets/561da4d14fa2f2c6b3f729a7ab54da45.jpeg)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/561da4d14fa2f2c6b3f729a7ab54da45.jpeg)
 
   - **Scheduling details**
 
     The scheduling system automatically generates and runs instances for the node.
 
-    ![](assets/03273b4b2a9f35ed76a161ce581d0bba.png)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/03273b4b2a9f35ed76a161ce581d0bba.png)
 
 <a id="section-6-5-4"></a>
 
@@ -36969,7 +36969,7 @@ To run an auto triggered task, you must configure a resource group for schedulin
 
 Go to the configuration tab of your task on the DataStudio page. Click the **Properties** tab in the right-side navigation pane. In the **Resource Group** section of the Properties tab, configure a resource group for the task.
 
-![](assets/b7b52ca4f994965065a9f87fa5860030.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b7b52ca4f994965065a9f87fa5860030.png)
 
 Select the resource group you want to use from the **Resource Group** drop-down list. By default, **Common scheduler resource group** is selected.
 
@@ -37015,7 +37015,7 @@ We recommend that you plan and configure scheduling dependencies for nodes based
 
 The scheduling dependencies of a node are configured in the **Properties** panel of the node. You must configure the **Parent Nodes** and Output Name of Current Node parameters for the node.
 
-![](assets/7d5f222c99bb36f60324623aadb47630.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7d5f222c99bb36f60324623aadb47630.jpeg)
 
 Scheduling dependencies can be automatically or manually configured for a node.
 
@@ -37073,13 +37073,13 @@ Scheduling dependencies ensure that table data is periodically updated by schedu
 
 - Deletion in the code editor
 
-  ![](assets/6f5f227d7dbf6e13d98c1f48f87af052.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6f5f227d7dbf6e13d98c1f48f87af052.jpeg)
 
   If the SELECT statement in the code of a node specifies a table that is not generated by an auto triggered node, you can right-click the corresponding table name to delete the input. You can also add a comment for a rule at the top of the code. This way, the system does not automatically parse the dependency based on the rule.
 
 - Deletion on the Properties panel
 
-  ![](assets/b2249c361fcff8031f867271f6e30c3c.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b2249c361fcff8031f867271f6e30c3c.jpeg)
 
   If the SELECT statement in the code of a node specifies a table that is not generated by an auto triggered node, you can disable auto parsing on the Properties panel of the node and manually remove the table from the **ancestor node** of the node.
 
@@ -37087,7 +37087,7 @@ Scheduling dependencies ensure that table data is periodically updated by schedu
 
 DataWorks allows you to specify the relationships between nodes by drawing lines to connect nodes on the configuration tab of workflows. After the nodes are connected, the system automatically generates scheduling dependencies for each node based on the connections.
 
-![](assets/7f234752f14b52e7f4c2c2fcab3f8d93.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7f234752f14b52e7f4c2c2fcab3f8d93.jpeg)
 
 After all nodes are created, the system generates an **output name** suffixed with  `_out`  for each node. When you connect nodes by drawing lines, the system adds an output whose name is suffixed with  `_out`  to the input of each descendant node.
 
@@ -37101,11 +37101,11 @@ In this section, an example is provided to demonstrate how scheduling dependenci
 
 - Workflow example:
 
-  ![](assets/1a8438bc0b5b6ac884fe379aaefaa464.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1a8438bc0b5b6ac884fe379aaefaa464.jpeg)
 
 - Configuration example of scheduling dependencies:
 
-  ![](assets/e93342cd25a5a5dafe7ad72ef49e3e98.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e93342cd25a5a5dafe7ad72ef49e3e98.jpeg)
 
 In the preceding figure:
 
@@ -37155,7 +37155,7 @@ The configurations of scheduling dependencies include **Parent Nodes and Output 
 
 - **Output Name of Current Node**: the output of the current node. You can search for the current node by its output name and configure the current node as an ancestor node of another node.
 
-![](assets/e93342cd25a5a5dafe7ad72ef49e3e98.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e93342cd25a5a5dafe7ad72ef49e3e98.jpeg)
 
 You can use one of the following methods to configure scheduling dependencies for an auto triggered node in DataStudio:
 
@@ -37167,7 +37167,7 @@ You can use one of the following methods to configure scheduling dependencies fo
 
 - In the Dependencies section of the Properties tab, select No for Automatic Parsing Before Committing and click Recommendation. In the Recommended Parent Nodes dialog box, the system provides the recommended ancestor nodes for the auto triggered node based on the data lineage in the code of the auto triggered node.
 
-  ![](assets/fca707d6be8a3b4933a4a012721f6204.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/fca707d6be8a3b4933a4a012721f6204.jpeg)
 
   > **Note**
   >
@@ -37213,7 +37213,7 @@ DataWorks supports automatic parsing and manual dependency configuration. Regard
 
 - **How it works** The following figure shows the principles of automatic parsing for dependencies.
 
-  ![](assets/e93342cd25a5a5dafe7ad72ef49e3e98.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e93342cd25a5a5dafe7ad72ef49e3e98.jpeg)
 
   - If a table is specified in the SELECT statement of the code for a node, the system adds the table name to Parent Nodes for the node based on the automatic parsing feature.
 
@@ -37436,7 +37436,7 @@ DataWorks supports automatic parsing and manual dependency configuration. Regard
     >
     > For example, if the system detects that the scheduling dependencies of the current node do not include the input A that is included in the scheduling dependencies in the production environment when you commit the node, you must check whether the current scheduling dependencies are correct. A is the **output name of an ancestor node** of the current node. If Table A is specified in the SELECT statement in the code of the current node but the node that generates the data of Table A is not configured as an ancestor node for the current node, the current node may start to run before the data of Table A is generated. In this case, the current node fails to run or generate data.
 
-    ![](assets/f66f32dd0e019b99cff5c0a7b016a1ba.png)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f66f32dd0e019b99cff5c0a7b016a1ba.png)
 
   - Other limits
 
@@ -37482,7 +37482,7 @@ DataWorks supports automatic parsing and manual dependency configuration. Regard
 
   You can connect nodes by drawing lines on the editing page of a workflow.
 
-  ![](assets/7f234752f14b52e7f4c2c2fcab3f8d93.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7f234752f14b52e7f4c2c2fcab3f8d93.jpeg)
 
 **Preview scheduling dependencies**
 
@@ -37538,7 +37538,7 @@ DataWorks allows you to configure cross-cycle scheduling dependencies for nodes.
 
 Go to the configuration tab of a node that you created in DataStudio and click the **Properties** tab in the right-side navigation pane to configure scheduling dependencies for the node in the **Cross-Cycle Dependency (Original Previous-Cycle Dependency)** field in the **Dependencies** section.
 
-![](assets/c2e65e66a7aef805e686965684875e5a.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c2e65e66a7aef805e686965684875e5a.jpeg)
 
 The following table describes the differences between the two types of scheduling dependencies.
 
@@ -37594,7 +37594,7 @@ For more information about typical scenarios, see Scenarios.
 
     - Node_A generates an instance named  `Instance_A'`  in the previous cycle (T-1).
 
-    ![](assets/f95a13dee4068790a4fdd9748473025a.png)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f95a13dee4068790a4fdd9748473025a.png)
 
     After you set the **Cross-Cycle Dependency (Original Previous-Cycle Dependency)** parameter to **Instances of Current Node** for Node_A in the Dependencies section of the Properties tab,  `Instance_A`  starts to run in the current cycle only after  `Instance_A'`  and the instance generated for  `WorkflowRoot`  in the current cycle are successfully run.
 
@@ -37608,7 +37608,7 @@ For more information about typical scenarios, see Scenarios.
 
     - The following configuration is performed for Node_A: The instance generated in the current cycle depends on the instance generated in the previous cycle.
 
-    ![](assets/f95a13dee4068790a4fdd9748473025a.png)
+    ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f95a13dee4068790a4fdd9748473025a.png)
 
     - If you do not configure the instance generated for Node_A in the current cycle to depend on the instance generated for Node_A in the previous cycle, after WorkflowRoot is successfully run on the current day,  `Instance_A1` ,  `Instance_A2` , and  `Instance_A3`  run based on their own scheduled time.
 
@@ -37632,7 +37632,7 @@ For more information about typical scenarios, see Scenarios.
 
   - The following configuration is performed for Node_A: The instance generated in the current cycle depends on the instance generated in the previous cycle.
 
-  ![](assets/c44793afa3a2c338fbacb2842d8f1969.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c44793afa3a2c338fbacb2842d8f1969.png)
 
   - If you do not configure the instance generated for Node_A in the current cycle to depend on the instance generated for Node_A in the previous cycle, the instances generated for Node_A, Node_B, and Node_C run in the following ways:
 
@@ -37672,7 +37672,7 @@ For more information about typical scenarios, see Scenarios.
 
   - The following instances are generated for Node_A, Node_B, and Node_C in the previous cycle (T-1):  `Instance_A'` ,  `Instance_B'` , and  `Instance_C'` .
 
-  ![](assets/926f5c302cbd1ed28c8fe06546227a3d.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/926f5c302cbd1ed28c8fe06546227a3d.png)
 
   After you set the **Cross-Cycle Dependency (Original Previous-Cycle Dependency)** parameter to **Level-1 Child Node** for  `Node_A` , Instance_A depends on  `Instance_B'`  in the previous cycle (T-1),  `Instance_C'`  in the previous cycle (T-1), and the instance generated for  `WorkflowRoot` . In this case,  `Instance_A`  starts to run only after Instance_B', Instance_C', and the instance generated for WorkflowRoot are successfully run.
 
@@ -37704,7 +37704,7 @@ For more information about typical scenarios, see Scenarios.
 
   - The following instances are generated for Node_A, Node_B, and Node_C in the previous cycle (T-1):  `Instance_A'` ,  `Instance_B'` , and  `Instance_C'` .
 
-  ![](assets/b62563a5af0be4c2a5469bfc89f31fc2.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b62563a5af0be4c2a5469bfc89f31fc2.png)
 
   After you set the **Cross-Cycle Dependency (Original Previous-Cycle Dependency)** parameter to **Other Nodes** for  `Node_A` , Instance_A depends on  `Instance_C'`  in the previous cycle (T-1), and the instance generated for  `WorkflowRoot_1` . In this case,  `Instance_A`  starts to run only after Instance_C' and the instance generated for WorkflowRoot are successfully run.
 
@@ -37730,11 +37730,11 @@ For more information about typical scenarios, see Scenarios.
 
   - Shell_Node1 generates an auto triggered node instance  `Shell_Node1`  in the previous cycle (T-1).
 
-  ![](assets/e578c63745cc59f401b2c6c3a277c39a.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e578c63745cc59f401b2c6c3a277c39a.png)
 
   The  `Shell_Node1'`  instance depends on the  `Shell_Node1`  instance. The dry-run attribute of the Shell_Node1 node is passed. Therefore, all the instances generated for the Shell_Node1 node and descendant nodes of the Shell_Node1 node are dry-run. You can set the **Skip The Dry-Run Property Of The Ancestor Node** parameter to **No** for Shell_Node1. This way, all the instances generated for Shell_Node1 and descendant nodes of Shell_Node1 can normally run.
 
-  ![](assets/62c38ee5d3d2d64ef24853d16d098fee.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/62c38ee5d3d2d64ef24853d16d098fee.png)
 
 **Subsequent steps: Check whether the scheduling dependencies meet your expectations**
 
@@ -37764,7 +37764,7 @@ Scheduling dependencies cannot be automatically added to batch synchronization n
 
 If you do not manually add the table generated by a batch synchronization node to the output of the batch synchronization node, the system cannot use the automatic parsing feature to find the batch synchronization node. In this case, when you commit an SQL node that depends on the output of the batch synchronization node, an error message shown in the following figure appears.
 
-![](assets/8e4b6b12a1d7ff9a3adcc27259ab6611.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/8e4b6b12a1d7ff9a3adcc27259ab6611.jpeg)
 
 This error occurs because the system cannot find the batch synchronization node on which the SQL node depends based on the upstream dependency that is automatically parsed. For more information, see the Error analysis section of this topic. To prevent this error, we recommend that you use one of the following methods to configure scheduling dependencies for a batch synchronization node:
 
@@ -37776,7 +37776,7 @@ This error occurs because the system cannot find the batch synchronization node 
 
 To prevent the preceding error, you can manually add the upstream dependency that is automatically parsed to the output of the batch synchronization node. You can perform the operation in the Properties panel of the batch synchronization node. The following figure shows an example.
 
-![](assets/d6fe8e3097238ca3dcff2546414f646a.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d6fe8e3097238ca3dcff2546414f646a.jpeg)
 
 **Method 2: Keep the name of a batch synchronization node the same as that of its generated table**
 
@@ -37798,7 +37798,7 @@ Therefore, to prevent the preceding error when you commit the SQL node, you must
 
 The following figure shows the nodes and scheduling dependencies configured in a workflow that contains batch synchronization nodes.
 
-![](assets/72bb683784df5c1b55816c3fbae93d57.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/72bb683784df5c1b55816c3fbae93d57.png)
 
 | Step | Description | Configured scheduling dependency |
 | --- | --- | --- |
@@ -37808,7 +37808,7 @@ The following figure shows the nodes and scheduling dependencies configured in a
 
 After you perform the preceding operations, if you fail to notice that the system does not automatically add the table generated by the batch synchronization node to the **output** of the batch synchronization node, an error is reported when you commit a node in the workflow. The error indicates that the output name of the ancestor node on which the batch synchronization node depends does not exist.
 
-![](assets/8e4b6b12a1d7ff9a3adcc27259ab6611.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/8e4b6b12a1d7ff9a3adcc27259ab6611.jpeg)
 
 This error is caused by the following reasons:
 
@@ -37848,27 +37848,27 @@ The difference between cross- and same-cycle dependencies is that cross-cycle de
 
 Before you undeploy a node, you must delete the dependencies that are configured for the node, including the cross- and same-cycle dependencies. The following figure shows the Properties panel of a node. You must delete the cross-cycle dependencies for the node in the section marked as 1 and same-cycle dependencies in the section marked as 2.
 
-![](assets/b1cf9394c7ad255ac68a234de94a78c3.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b1cf9394c7ad255ac68a234de94a78c3.png)
 
 You can configure a cross- or same-cycle dependency on the ancestor node for a node based on your business requirements. In most cases, you can configure either a same- or cross-cycle dependency on the ancestor node for a node. If you enable the automatic parsing feature for a node, the scheduling system automatically configures a same-cycle dependency on the ancestor node for the node. If this configuration does not meet your requirements, you can delete the default same-cycle dependency and configure a cross-cycle dependency for the node. For more information, see Logic of scheduling dependencies.
 
 The following figure shows the dependency between the nodes in a workflow.
 
-![](assets/75d3e64e012031dd882a3c02944f22b6.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/75d3e64e012031dd882a3c02944f22b6.png)
 
 The following figure shows how the dependency appears in Operation Center.
 
-![](assets/b4119e26a3c8198719408c1db5d7134f.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b4119e26a3c8198719408c1db5d7134f.png)
 
 The following figure shows the code and configurations of the xc_create node.
 
-![](assets/f2d161facd8d5991cc0c5a175ef0dcb5.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f2d161facd8d5991cc0c5a175ef0dcb5.jpeg)
 
 In the preceding figure, the xc_create node creates the xc_1 and xc_2 tables and inserts data to the two tables. The xc_1 and xc_2 tables are the outputs of the xc_create node.
 
 The following figure shows the code and configurations of the xc_select node.
 
-![](assets/9b9ad4f53d81844877808a2d0ba04205.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9b9ad4f53d81844877808a2d0ba04205.jpeg)
 
 In the preceding figure, the xc_select node queries data in the xc_1 and xc_2 tables. Based on the **parse input and output from code** feature, the same-cycle dependency on the xc_create node is automatically configured for the xc_select node.
 
@@ -37880,11 +37880,11 @@ Business scenario: A node is run only after its descendant nodes have successful
 
 When you configure dependencies for the xc_create node, set Cross-Cycle Dependency (Original Previous-Cycle Dependency) parameter to Level-1 Child Node.
 
-![](assets/4ea2d7025b5a92bc2d41dc330912d457.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4ea2d7025b5a92bc2d41dc330912d457.png)
 
 The following figure shows how the dependency appears in Operation Center.
 
-![](assets/3630563a0b435e60c38f515f565fc3ac.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3630563a0b435e60c38f515f565fc3ac.jpeg)
 
 **Cross-cycle dependency: current node**
 
@@ -37908,11 +37908,11 @@ Business scenario: Node A depends on the business data that is generated by Node
 
 In this example, when you configure the xc_create node, set the Cross-Cycle Dependency (Original Previous-Cycle Dependency) parameter to Other Nodes, and then enter the ID of the xc_information node, which is 1000374815.
 
-![](assets/f33b73826c3081e1e55cc2a7b7ef4f04.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f33b73826c3081e1e55cc2a7b7ef4f04.png)
 
 To view the dependencies of the node, go to **Operation Center**. In the left-side navigation pane, choose **Cycle Task Maintenance > Cycle Instance**. Search for the node to view its dependencies.
 
-![](assets/c010186679c83d0bba80c1aa2d0d7271.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c010186679c83d0bba80c1aa2d0d7271.jpeg)
 
 **Advanced configuration for dependency on the previous-cycle instances**
 
@@ -37922,7 +37922,7 @@ If a descendant node of a branch node depends on its own previous-cycle instance
 
 The following figure shows an example. If the scheduling system performs a dry run for the descendant node on the left, the scheduling system also performs a dry run for the descendant node of this descendant node.
 
-![](assets/a47bf56fb99badedbdb40122c8bb2999.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a47bf56fb99badedbdb40122c8bb2999.jpeg)
 
 Your business may require that the descendant node of a branch node depend only on the result of the branch node in the current cycle, and that the descendant node not be affected by its dry run in the previous cycle. To meet this requirement, perform the following steps:
 
@@ -37932,7 +37932,7 @@ Your business may require that the descendant node of a branch node depend only 
 
 3. If you do not want the dry-run attribute of the branch node in the previous cycle to be passed, you can set the **Skip The Dry-Run Property Of The Ancestor Node** parameter to **Yes**.
 
-   ![](assets/a54214897d2b16fff2ea0379b4c069d8.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a54214897d2b16fff2ea0379b4c069d8.png)
 
 > **Note**
 >
@@ -37986,7 +37986,7 @@ If you want to configure scheduling dependencies for branch nodes in a workflow 
 
 The following example shows how to use zero load nodes to configure scheduling dependencies for branch nodes across workflows.
 
-![](assets/bab7e5e0b3fd48541e9d3a2453beb204.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/bab7e5e0b3fd48541e9d3a2453beb204.jpeg)
 
 - Create two workflows: Workflow 1 and Workflow 2. Then, configure Workflow 1 as the ancestor workflow of Workflow 2.
 
@@ -38030,7 +38030,7 @@ If you want to transfer the parameters of an ancestor node to a descendant node,
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+2. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. The **DataStudio** page appears.
 
@@ -38040,7 +38040,7 @@ If you want to transfer the parameters of an ancestor node to a descendant node,
 
    For more information about how to configure scheduling parameters for different types of nodes, see Configure scheduling parameters for different types of nodes.
 
-   ![](assets/23bf92a5822240941068b064a8093b15.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/23bf92a5822240941068b064a8093b15.png)
 
 **Output parameters**
 
@@ -38052,7 +38052,7 @@ After you define an output parameter for the current node and commit the current
 >
 > You cannot write code for the current node to assign a value to the defined output parameter.
 
-![](assets/b496dcb0b600182baab230bd2d385acd.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b496dcb0b600182baab230bd2d385acd.png)
 
 | Parameter | Description | Remarks |
 | --- | --- | --- |
@@ -38078,7 +38078,7 @@ The following content shows how to define and use an input parameter:
 
   In the **Dependencies** section of the Properties tab on the configuration tab of a desired node, add an ancestor node for the current node.
 
-  ![](assets/f5909bbfd6af4540062ef5a9f2ca704d.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f5909bbfd6af4540062ef5a9f2ca704d.png)
 
   </li>
 
@@ -38092,7 +38092,7 @@ The following content shows how to define and use an input parameter:
 
   this parameter to reference the output parameter of the ancestor node of the current node.
 
-  ![](assets/3564ee493e0ccf6dc9bba5dd13844b61.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3564ee493e0ccf6dc9bba5dd13844b61.png)
 
   | Parameter | Description | Remarks |
   | --- | --- | --- |
@@ -38108,7 +38108,7 @@ The following content shows how to define and use an input parameter:
 
   The defined input parameter is referenced in the code of a node in the same way as other built-in scheduling parameters. The input parameter is configured in the  `${Input parameter name}`  format. The following figure shows how to reference an input parameter in the code of a Shell node.
 
-  ![](assets/ad413cf9b94d87fad3c6738d4615ac2e.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ad413cf9b94d87fad3c6738d4615ac2e.png)
 
 **Global variables supported by the system**
 
@@ -38141,7 +38141,7 @@ The following content shows how to define and use an input parameter:
 
 When I commit a node, the system reports an error that the output name of the ancestor node of the node does not exist.
 
-![](assets/8e4b6b12a1d7ff9a3adcc27259ab6611.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/8e4b6b12a1d7ff9a3adcc27259ab6611.jpeg)
 
 The preceding figure is used to explain the error. The error occurs because the system cannot find the ancestor node that generates the  `test.table_1`  table based on the **Output Name of Ancestor Node** configured for the node.
 
@@ -38223,9 +38223,9 @@ You need to configure node dependencies only for table data generated by a node 
 
 When I commit a node, the system reports an error that the input and output of the node are not consistent with the data lineage in the code developed for the node.
 
-![](assets/6aa3436d25e900374d5abe66384e71ee.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6aa3436d25e900374d5abe66384e71ee.png)
 
-![](assets/2e2e0efed0be74b8ed4ec7395564a4b9.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2e2e0efed0be74b8ed4ec7395564a4b9.jpeg)
 
 **Possible causes**
 
@@ -38289,7 +38289,7 @@ Components are either project components or public components. The developer who
 
 2. In the left-side navigation pane, click **Component Management**.
 
-3. Hover over the <img src="assets/926f7d1f2236cf4611ceb8c07d8f313b.png" width="15" alt=""> icon and click **Component**.
+3. Hover over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/926f7d1f2236cf4611ceb8c07d8f313b.png" width="15" alt=""> icon and click **Component**.
 
 4. In the **Create Component** dialog box, enter the **Component Name** and **Description**, and select a **Destination Folder**.
 
@@ -38335,7 +38335,7 @@ The following table describes the main settings for an output parameter:
 
 **Save and submit the component**
 
-Click the <img src="assets/2816d4c16562fb69088ba5c69a53b537.png" width="13" alt=""> icon to save the component. Click the <img src="assets/fdabfdc85dcdc9a362024f54da122f65.png" width="12" alt=""> icon to submit the component. After the
+Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2816d4c16562fb69088ba5c69a53b537.png" width="13" alt=""> icon to save the component. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/fdabfdc85dcdc9a362024f54da122f65.png" width="12" alt=""> icon to submit the component. After the
 
 component is created, you can reference it in an SQL component node to quickly generate target tables. For more information, see Use a component.
 
@@ -38415,7 +38415,7 @@ DataStudio supports default node types such as ODPS SQL and Shell nodes. You can
 
 The **Wrappers** page displays all the wrappers you have created. You can click **Create** in the upper-right corner to create a custom wrapper.
 
-![](assets/2617753cae80f3344fcf945fb5b3c938.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2617753cae80f3344fcf945fb5b3c938.jpeg)
 
 The values displayed in the **Latest Version**, **Version in Development Environment**, and **Version in Production Environment** columns for the created wrappers follow these rules:
 
@@ -38441,7 +38441,7 @@ A wrapper defines the core processing logic of a node type. For example, after y
 
 The Custom Node Types page displays all custom node types in the workspace. You can click **Create** in the upper-right corner to create a custom node type. For more information, see Create a custom node type.
 
-![](assets/f43086635220f3f4ace6f83e5925e9d8.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f43086635220f3f4ace6f83e5925e9d8.jpeg)
 
 You can create custom node types only in DataStudio.
 
@@ -38455,7 +38455,7 @@ Only the workspace owner or node type creator can change or delete existing node
 
 After you create a custom node type, go to the **DataStudio** page. Find the workflow that you want to use, click **UserDefined** under the workflow, and then create a node of the custom node type.
 
-![](assets/cbeefaf2c28ed79c6612ae917048cc4b.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cbeefaf2c28ed79c6612ae917048cc4b.jpeg)
 
 <a id="section-6-7-2"></a>
 
@@ -38626,11 +38626,11 @@ Procedure:
    >
    > - If you do not want to deploy a node, click **Cancel Deployment** in the **Actions** column of the node. After you cancel the deployment, the status of the node becomes Editing. You can deploy the node again only after you recommit the node.
 
-   ![](assets/5287f61eb7d6649338dd84a9301726c0.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5287f61eb7d6649338dd84a9301726c0.png)
 
 5. In the upper-right corner of the page, click **Nodes to Deploy** and select **Deploy All**.
 
-   ![](assets/4c39a108fb10071c33ba829ae2f05b02.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4c39a108fb10071c33ba829ae2f05b02.jpeg)
 
 > **Note**
 >
@@ -38662,15 +38662,15 @@ As shown in the following figure, two workspaces in basic mode are created, one 
 
 6. On the Create Clone Task page, select the nodes that you want to clone and the destination workspace to which you want to clone the nodes, and then click **Add to List**.
 
-   ![](assets/aeec79663e00748cd5a4aab94c446070.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/aeec79663e00748cd5a4aab94c446070.png)
 
 7. Click View List. In the To-Be-Cloned Node List dialog box, check the nodes to be cloned and click **Clone All**. Then, perform operations as prompted to complete cloning.
 
-   ![](assets/c02ee57be91d2574ebc2959282c7bddb.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c02ee57be91d2574ebc2959282c7bddb.jpeg)
 
 8. In the left-side navigation pane, click **View Clone Tasks** to view the status of the nodes in the **Status** column.
 
-   ![](assets/71d7ee9088a0a801cb0cb0fe85e613cd.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/71d7ee9088a0a801cb0cb0fe85e613cd.png)
 
 **Procedure for the destination workspace B**
 
@@ -38742,15 +38742,15 @@ After you clone a node, the folder and workflow to which the node belongs are cl
 
 6. On the Create Clone Task page, select the nodes that you want to clone and the destination workspace to which you want to clone the nodes, and then click **Add to List**.
 
-   ![](assets/aeec79663e00748cd5a4aab94c446070.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/aeec79663e00748cd5a4aab94c446070.png)
 
 7. Click View List. In the To-Be-Cloned Node List dialog box, check the nodes to be cloned and click **Clone All**. Then, perform operations as prompted to complete cloning.
 
-   ![](assets/c02ee57be91d2574ebc2959282c7bddb.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c02ee57be91d2574ebc2959282c7bddb.jpeg)
 
 8. In the left-side navigation pane, click **View Clone Tasks** to view the status of the nodes in the **Status** column.
 
-   ![](assets/71d7ee9088a0a801cb0cb0fe85e613cd.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/71d7ee9088a0a801cb0cb0fe85e613cd.png)
 
 **Procedure for the target workspace B**
 
@@ -38799,7 +38799,7 @@ The following table describes the procedure for using the forcible code review f
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+2. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. The **DataStudio** page appears.
 
@@ -38809,7 +38809,7 @@ The following table describes the procedure for using the forcible code review f
 
    <li>
 
-   In the lower-left corner of the DataStudio page, click the <img src="assets/8adfdc3a28cb52eac3b37c60332b0d4c.png" width="13" alt=""> icon. The **Settings** page
+   In the lower-left corner of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/8adfdc3a28cb52eac3b37c60332b0d4c.png" width="13" alt=""> icon. The **Settings** page
 
    appears.
 
@@ -38854,7 +38854,7 @@ DataWorks allows developers to specify one or more code reviewers when the devel
   <tr>
     <td>Standard mode</td>
     <td>If the forcible code review feature is enabled, the node commit and deployment processes are blocked until the node code passes the code review. After the node code passes the code review, the node is committed and you can deploy the node on the Deployment Center page.</td>
-    <td>• Initiate code review for a single node<br>• You can initiate code review for a single node in the dialog box that appears when you commit the node.<br>• You can click the<img src="assets/afef536a954c907398545c31094a54b7.png" width="16" alt="">icon in the top toolbar<br>on the node configuration tab when you commit a single node to initiate code review for the node.<br>• Initiate code review for multiple nodes at a time<br>• You can initiate code review for multiple nodes at a time in the dialog box that appears when you commit the workflow to which the nodes belong.<br>• Go to the <strong>Deployment Center</strong> page and click <strong>Create Deploy Task</strong>. On the Create Deploy Task page, initiate code review for multiple nodes at a time.<br>Note<br>For more information about how to go to the <strong>Create Deploy Task</strong> page, see Deploy nodes.</td>
+    <td>• Initiate code review for a single node<br>• You can initiate code review for a single node in the dialog box that appears when you commit the node.<br>• You can click the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/afef536a954c907398545c31094a54b7.png" width="16" alt="">icon in the top toolbar<br>on the node configuration tab when you commit a single node to initiate code review for the node.<br>• Initiate code review for multiple nodes at a time<br>• You can initiate code review for multiple nodes at a time in the dialog box that appears when you commit the workflow to which the nodes belong.<br>• Go to the <strong>Deployment Center</strong> page and click <strong>Create Deploy Task</strong>. On the Create Deploy Task page, initiate code review for multiple nodes at a time.<br>Note<br>For more information about how to go to the <strong>Create Deploy Task</strong> page, see Deploy nodes.</td>
   </tr>
   <tr>
     <td>Basic mode</td>
@@ -38867,7 +38867,7 @@ DataWorks allows developers to specify one or more code reviewers when the devel
 
 1. Go to the Code Review page.
 
-   In the upper-left corner of the console, click the <img src="assets/4f65b158229cd7577e8834331452860f.png" width="9" alt=""> icon and choose **All Products > Data**
+   In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4f65b158229cd7577e8834331452860f.png" width="9" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > Code Review**.
 
@@ -38875,7 +38875,7 @@ DataWorks allows developers to specify one or more code reviewers when the devel
 
    On the Code Review page, you can view the nodes for which you initiated code review and the nodes whose code needs to be reviewed by you. You can review the code of the nodes based on your business scenario.
 
-   ![](assets/a66e573847fc802b3772c741f779a0a5.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a66e573847fc802b3772c741f779a0a5.png)
 
    | Secti on | Description |
    | --- | --- |
@@ -38897,9 +38897,9 @@ You do not need to commit and deploy ad hoc query nodes or configure scheduling 
 
 1. Log in to the DataWorks console.
 
-2. In the left-side navigation pane of the DataStudio page, click **Ad Hoc Query**. <img src="assets/d30473c32876c70c92f08f1232fe61c5.png" width="15" alt="">
+2. In the left-side navigation pane of the DataStudio page, click **Ad Hoc Query**. <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d30473c32876c70c92f08f1232fe61c5.png" width="15" alt="">
 
-3. Move the pointer over the <img src="assets/66d021e62bf2916d3fadd546b94d8625.png" width="17" alt=""> icon and select **Folder**.
+3. Move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/66d021e62bf2916d3fadd546b94d8625.png" width="17" alt=""> icon and select **Folder**.
 
 4. In the **Create Folder** dialog box, configure the **Folder Name** and **Location** parameters.
 
@@ -38927,7 +38927,7 @@ You can create **ODPS SQL** and **Shell** nodes on the **Ad-Hoc Query** tab. Thi
 
 4. On the Node Configuration tab that appears, enter an SQL statement.
 
-5. Click the <img src="assets/c8a9237ff4ce338fea443d34ff1aeb22.png" width="12" alt=""> icon to execute the statement.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c8a9237ff4ce338fea443d34ff1aeb22.png" width="12" alt=""> icon to execute the statement.
 
 <a id="section-6-11"></a>
 
@@ -38947,7 +38947,7 @@ The **Workspace Tables** tab appears only after you bind a MaxCompute compute en
 
 1. Log in to the DataWorks console.
 
-2. In the left-side navigation pane, click <img src="assets/12d9aa9fc66f3c51963ab91e86940bc9.png" width="18" alt=""> **Workspace Tables**.
+2. In the left-side navigation pane, click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/12d9aa9fc66f3c51963ab91e86940bc9.png" width="18" alt=""> **Workspace Tables**.
 
 3. View and manage tables.
 
@@ -38955,8 +38955,8 @@ The **Workspace Tables** tab appears only after you bind a MaxCompute compute en
 
    | Operation | Description |
    | --- | --- |
-   | Create a table | At the top of the Workspace Tables page, click the<img src="assets/c5ea73ca7d6d90985961784b154acf9b.png" width="16" alt="">icon to go to the Create Table<br>page. For more information, see Create a MaxCompute table. |
-   | View a table | Click the<img src="assets/b7abdf6b47e7b933a509416bb3857248.png" width="17" alt="">icon next to the search box and select an environment to switch to the<br>environment.<br>Note<br>Only workspaces in standard mode support the switch between different environments.<br>Double-click a table to view its details on the table configuration tab. |
+   | Create a table | At the top of the Workspace Tables page, click the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c5ea73ca7d6d90985961784b154acf9b.png" width="16" alt="">icon to go to the Create Table<br>page. For more information, see Create a MaxCompute table. |
+   | View a table | Click the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b7abdf6b47e7b933a509416bb3857248.png" width="17" alt="">icon next to the search box and select an environment to switch to the<br>environment.<br>Note<br>Only workspaces in standard mode support the switch between different environments.<br>Double-click a table to view its details on the table configuration tab. |
    | Modify a table | Double-click a table. The table configuration tab appears. On this tab, you can edit the table information and then click <strong>Commit to Development Environment</strong> or <strong>Commit to Production Environment</strong> in the top toolbar. |
 
 <a id="section-6-11-2"></a>
@@ -38973,13 +38973,13 @@ The **Workspace Tables** tab appears only after you bind a MaxCompute compute en
 
 1. Log in to the DataWorks console.
 
-2. In the left-side navigation pane, click <img src="assets/08226c983fe05f086d31109a9869b3c1.png" width="18" alt=""> **Tenant Tables**.
+2. In the left-side navigation pane, click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/08226c983fe05f086d31109a9869b3c1.png" width="18" alt=""> **Tenant Tables**.
 
 3. View MaxCompute tenant tables.
 
    | Paramete r | Description |
    | --- | --- |
-   | Project | The name of the project in the related environment.<br>You can click the<img src="assets/d0006c3e088561f60bf9120c9c581c53.png" width="17" alt="">icon next to the search box and select an environment.<br>Note<br>Only workspaces in standard mode support the switch between the development environment and production environment. |
+   | Project | The name of the project in the related environment.<br>You can click the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d0006c3e088561f60bf9120c9c581c53.png" width="17" alt="">icon next to the search box and select an environment.<br>Note<br>Only workspaces in standard mode support the switch between the development environment and production environment. |
    | Table Name | The name of the table in the related environment. |
    | Columns | The information of fields in the current table, including the number, data types, and descriptions of the fields. |
    | Partitions | The information and number of partitions of the current table. A maximum of 60,000 partitions can be created. If you have specified the time-to-live (TTL) for partitions, the number of partitions depends on the TTL.<br>Important<br>The partition information is displayed only for MaxCompute tenant tables. |
@@ -38995,7 +38995,7 @@ The Built-In Functions tab displays functions built in MaxCompute. You can view 
 
 1. Log in to the DataWorks console.
 
-2. In the left-side navigation pane, click **Built-In Functions**( <img src="assets/45af281036ef44c388cc52a97e7da698.png" width="18" alt=""> ).
+2. In the left-side navigation pane, click **Built-In Functions**( <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/45af281036ef44c388cc52a97e7da698.png" width="18" alt=""> ).
 
 3. View the types, description, and examples of the built-in functions.
 
@@ -39019,11 +39019,11 @@ On the Personal Settings tab, you can customize the modules to be displayed in t
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+2. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. The **DataStudio** page appears.
 
-3. In the lower part of the left-side navigation pane of the DataStudio page, click the <img src="assets/5537ea5e4d12fffa8e2fd4dcb0c773c8.png" width="12" alt=""> icon.
+3. In the lower part of the left-side navigation pane of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5537ea5e4d12fffa8e2fd4dcb0c773c8.png" width="12" alt=""> icon.
 
    The **Personal Settings** tab of the **Settings** page appears.
 
@@ -39110,7 +39110,7 @@ A code template provides the content that is displayed at the beginning of the c
 
    <li>
 
-   In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+   In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    </li>
 
@@ -39122,7 +39122,7 @@ A code template provides the content that is displayed at the beginning of the c
 
    <li>
 
-   In the lower part of the left-side navigation pane of the DataStudio page, click the <img src="assets/5537ea5e4d12fffa8e2fd4dcb0c773c8.png" width="12" alt=""> icon
+   In the lower part of the left-side navigation pane of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5537ea5e4d12fffa8e2fd4dcb0c773c8.png" width="12" alt=""> icon
 
    </li>
 
@@ -39172,11 +39172,11 @@ To run auto triggered tasks as scheduled, you must go to the Scheduling Settings
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+2. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. The **DataStudio** page appears.
 
-3. In the lower part of the left-side navigation pane of the DataStudio page, click the <img src="assets/5537ea5e4d12fffa8e2fd4dcb0c773c8.png" width="12" alt=""> icon to
+3. In the lower part of the left-side navigation pane of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5537ea5e4d12fffa8e2fd4dcb0c773c8.png" width="12" alt=""> icon to
 
    go to the **Settings** page.
 
@@ -39212,11 +39212,11 @@ Only a workspace administrator can create folders and classify tables into diffe
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+2. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. The **DataStudio** page appears.
 
-3. In the lower part of the left-side navigation pane of the DataStudio page, click the <img src="assets/5537ea5e4d12fffa8e2fd4dcb0c773c8.png" width="12" alt=""> icon to
+3. In the lower part of the left-side navigation pane of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5537ea5e4d12fffa8e2fd4dcb0c773c8.png" width="12" alt=""> icon to
 
    go to the **Settings** page.
 
@@ -39282,11 +39282,11 @@ The data masking feature takes effect only for the current workspace. If you wan
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the console, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+2. In the upper-left corner of the console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Development and O&M > DataStudio**. The **DataStudio** page appears.
 
-3. In the lower part of the left-side navigation pane of the DataStudio page, click the <img src="assets/5537ea5e4d12fffa8e2fd4dcb0c773c8.png" width="12" alt=""> icon to
+3. In the lower part of the left-side navigation pane of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5537ea5e4d12fffa8e2fd4dcb0c773c8.png" width="12" alt=""> icon to
 
    go to the **Settings** page.
 
@@ -39367,7 +39367,7 @@ DataWorks provides a recycle bin to store all deleted nodes in the current works
 
 1. Log in to the DataWorks console.
 
-2. In the left-side navigation pane, click **Recycle Bin** (the <img src="assets/b42a87c39c01d8fb69be62758a92e6a3.png" width="15" alt=""> icon).
+2. In the left-side navigation pane, click **Recycle Bin** (the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b42a87c39c01d8fb69be62758a92e6a3.png" width="15" alt=""> icon).
 
 3. View all the deleted nodes in the current workspace.
 
@@ -39447,15 +39447,15 @@ The runtime logs are retained for only three days.
 
 1. Log in to the DataWorks console.
 
-2. In the left-side navigation pane, click **Runtime Logs** (the <img src="assets/5a23146106fc1af1da329ca1d733f586.png" width="17" alt=""> icon).
+2. In the left-side navigation pane, click **Runtime Logs** (the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5a23146106fc1af1da329ca1d733f586.png" width="17" alt=""> icon).
 
 3. Optional. You can filter runtime logs by status.
 
-   ![](assets/dc8cdf7a8fe90730a37f2bb6322e8137.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/dc8cdf7a8fe90730a37f2bb6322e8137.png)
 
 4. Click a record to view the runtime log in the right-side pane.
 
-   If you need to save the SQL statements in the runtime log, click the <img src="assets/cb4769a7adbe8ac5b85b37439ce283d2.png" width="12" alt=""> icon in the toolbar. In
+   If you need to save the SQL statements in the runtime log, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cb4769a7adbe8ac5b85b37439ce283d2.png" width="12" alt=""> icon in the toolbar. In
 
    the **Create Node** dialog box, configure the parameters and click **Confirm** to save the SQL statements that have been run as an ad hoc query node.
 
@@ -39607,17 +39607,17 @@ This topic describes how to migrate a data development node from one workflow to
 
 2. Click **Business Flow** in the DataStudio pane to show all the created workflows.
 
-   ![](assets/5f3accb05647f9943e65fb3c6a228960.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5f3accb05647f9943e65fb3c6a228960.jpeg)
 
    In the preceding figure, the workflow indicated by 1 is a workflow of an earlier version, and the workflow indicated by 2 is a workflow of a later version.
 
 3. Right-click a node that you want to migrate in the workflow of an earlier version, and select **Move**.
 
-   ![](assets/e3c8568225d38e17555807623835a7e3.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e3c8568225d38e17555807623835a7e3.jpeg)
 
 4. In the **Move Node** dialog box, set **Location** to the path of the destination workflow of a later version.
 
-   ![](assets/396577e75724c3b1cea4565d06b8b2b8.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/396577e75724c3b1cea4565d06b8b2b8.jpeg)
 
 5. Click **OK**.
 
@@ -39675,7 +39675,7 @@ This topic describes how to bind a Realtime Compute project to a DataWorks works
 
 1. Log on to DataWorks console.
 
-2. On the DataStudio page, click <img src="assets/87abcd2806992796bcc807015a52fe8c.png" width="12" alt=""> in the upper-right corner.
+2. On the DataStudio page, click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/87abcd2806992796bcc807015a52fe8c.png" width="12" alt=""> in the upper-right corner.
 
 3. On the **Project Management** page, click the **Real-time computing** tab in the **Computing Engine information** section.
 
@@ -40207,7 +40207,7 @@ ApsaraDB RDS is a stable, reliable, and scalable cloud database service.
 
 **Parameter configuration**
 
-![](assets/2bc8cf660da9599df95f407ee361bcd9.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2bc8cf660da9599df95f407ee361bcd9.png)
 
 | Parameter | Description | Remarks |
 | --- | --- | --- |
@@ -40247,7 +40247,7 @@ Tablestore is a distributed NoSQL database service that is developed based on th
 
 **Parameter configuration**
 
-![](assets/275f92c2916c9e124f902ca4432a7f9a.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/275f92c2916c9e124f902ca4432a7f9a.png)
 
 | Parameter | Description |
 | --- | --- |
@@ -40562,7 +40562,7 @@ ApsaraDB RDS is a stable, reliable, and scalable cloud database service.
 
 **Parameter configuration**
 
-![](assets/d13af0a8a98b6ef3cb792ebfda1775cd.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d13af0a8a98b6ef3cb792ebfda1775cd.png)
 
 | Parameter | Description |
 | --- | --- |
@@ -40633,7 +40633,7 @@ Tablestore is a NoSQL database service that is built on the Apsara distributed o
 
 **Parameter configuration**
 
-![](assets/e5fbf5381967fcfbb0cc29d9df321455.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e5fbf5381967fcfbb0cc29d9df321455.png)
 
 | Parameter | Description |
 | --- | --- |
@@ -40783,7 +40783,7 @@ The **AI in place** mode integrates intelligent capabilities into your daily **d
 
 **Get started**
 
-- **Open Copilot Chat**: In the DataWorks console, click the <img src="assets/7626a93769db0fb64333cbd7e98d5ad5.jpeg" width="49" alt=""> icon in the top-right
+- **Open Copilot Chat**: In the DataWorks console, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7626a93769db0fb64333cbd7e98d5ad5.jpeg" width="49" alt=""> icon in the top-right
 
   corner of the navigation bar to open the conversational AI window. By default, **DataWorks Copilot** provides the ASK mode and supports adding custom models. For detailed instructions, see DataWorks Copilot Ask.
 
@@ -40849,7 +40849,7 @@ Only Apsara Stack tenant accounts, tenant administrators, or other users with eq
 
 1. Log in to the DataWorks console.
 
-2. In the upper-right corner of the top navigation bar, click the <img src="assets/7626a93769db0fb64333cbd7e98d5ad5.jpeg" width="49" alt=""> icon to open the
+2. In the upper-right corner of the top navigation bar, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7626a93769db0fb64333cbd7e98d5ad5.jpeg" width="49" alt=""> icon to open the
 
    conversational AI window.
 
@@ -40863,7 +40863,7 @@ In the data development and analysis process, DataWorks Copilot can convert your
 
 **Instructions**: In the upper-right corner of the top navigation bar on the DataStudio page,
 
-click <img src="assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window that appears on the right side of the
+click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window that appears on the right side of the
 
 configuration page, enter  `/` . In the pop-up list, select  `Code generation` , and then enter natural language prompts to request the LLM to return the required code.
 
@@ -40873,7 +40873,7 @@ configuration page, enter  `/` . In the pop-up list, select  `Code generation` ,
 
 **Instructions**: In the code editor, select a code snippet. In the upper-right corner of the top
 
-navigation bar on the DataStudio page, click <img src="assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window
+navigation bar on the DataStudio page, click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window
 
 that appears on the right side of the configuration page, enter  `/` . In the pop-up list, select  `Code rewriting` , and then enter natural language prompts to request the LLM to return the required code.
 
@@ -40883,7 +40883,7 @@ that appears on the right side of the configuration page, enter  `/` . In the po
 
 **Instructions**: In the code editor, select a code snippet. In the upper-right corner of the top
 
-navigation bar on the DataStudio page, click <img src="assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window
+navigation bar on the DataStudio page, click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window
 
 that appears on the right side of the configuration page, enter  `/` . In the pop-up list, select  `Code error correction`  and click Send.
 
@@ -40893,7 +40893,7 @@ that appears on the right side of the configuration page, enter  `/` . In the po
 
 **Instructions**: In the code editor, select a code snippet. In the upper-right corner of the top
 
-navigation bar on the DataStudio page, click <img src="assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window
+navigation bar on the DataStudio page, click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window
 
 that appears on the right side of the configuration page, enter  `/` . In the pop-up list, select  `Comment generation`  and click Send.
 
@@ -40903,7 +40903,7 @@ that appears on the right side of the configuration page, enter  `/` . In the po
 
 **Instructions**: In the code editor, select a code snippet. In the upper-right corner of the top
 
-navigation bar on the DataStudio page, click <img src="assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window
+navigation bar on the DataStudio page, click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window
 
 that appears on the right side of the configuration page, enter  `/` . In the pop-up list, select  `Code interpretation`  and click Send.
 
@@ -40913,7 +40913,7 @@ that appears on the right side of the configuration page, enter  `/` . In the po
 
 **Instructions**: In the code editor, select a code snippet. In the upper-right corner of the top
 
-navigation bar on the DataStudio page, click <img src="assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window
+navigation bar on the DataStudio page, click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window
 
 that appears on the right side of the configuration page, enter  `/` . In the pop-up list, select  `Code optimization` , specify your optimization objectives, and then click Send.
 
@@ -40923,7 +40923,7 @@ that appears on the right side of the configuration page, enter  `/` . In the po
 
 **Instructions**: In the code editor, select a code snippet. In the upper-right corner of the top
 
-navigation bar on the DataStudio page, click <img src="assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window
+navigation bar on the DataStudio page, click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window
 
 that appears on the right side of the configuration page, enter  `/` . In the pop-up list, select  `Code testing`  and click Send.
 
@@ -40933,7 +40933,7 @@ that appears on the right side of the configuration page, enter  `/` . In the po
 
 **Instructions**: In the upper-right corner of the top navigation bar on the DataStudio page,
 
-click <img src="assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window that appears on the right side of the
+click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window that appears on the right side of the
 
 configuration page, enter  `/` . In the pop-up list, select  `Code Q&A` , enter your question, and then click Send.
 
@@ -40943,7 +40943,7 @@ configuration page, enter  `/` . In the pop-up list, select  `Code Q&A` , enter 
 
 **Instructions**: In the upper-right corner of the top navigation bar on the DataStudio page,
 
-click <img src="assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window that appears on the right side of the
+click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/114ff754e6d65c9c38afaf4547b2fc61.jpeg" width="58" alt=""> . In the DataWorks Copilot chat window that appears on the right side of the
 
 configuration page, enter  `/` . In the pop-up list, select  `Quick table search` , enter the table name, and then click Send.
 
@@ -41051,7 +41051,7 @@ The Overview page displays the overall O&M information, including the metrics th
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Development and O&M > Operation Center**. The **Workbench Overview** tab of the **Overview** page appears.
 
@@ -41209,7 +41209,7 @@ DataWorks supports O&M only for E-MapReduce (EMR) Spark Streaming and EMR Stream
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/bf930dd1702fe0599196a8d24e7e266c.png" width="18" alt=""> icon and choose **All Products > Data Development**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/bf930dd1702fe0599196a8d24e7e266c.png" width="18" alt=""> icon and choose **All Products > Data Development**
 
    **and O&M > Operation Center**.
 
@@ -41281,7 +41281,7 @@ The Real Time DI page of the DataWorks console displays all real-time synchroniz
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/bf930dd1702fe0599196a8d24e7e266c.png" width="18" alt=""> icon and choose **All Products > Data Development**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/bf930dd1702fe0599196a8d24e7e266c.png" width="18" alt=""> icon and choose **All Products > Data Development**
 
    **and O&M > Operation Center**.
 
@@ -41581,7 +41581,7 @@ On the **Cycle Instance** page, click the **Workflow Perspective** tab.
 
 | Operation | Description |
 | --- | --- |
-| View the status overview of instances in a workflow | The <strong>Workflow</strong> column displays the status of normal instances (excluding dry-run instances and frozen instances) in the current workflow and the number of instances in each state by using the following icons:<br><img src="assets/b345d6e860e29440efcd797cef999c21.png" width="16" alt="">: the number of running instances in the current workflow.<br><img src="assets/2f110d7f89110735622e9ef951225c3a.png" width="15" alt="">: the number of successful instances in the current workflow.<br><img src="assets/98e4b8df57aecc2f5da9ce280f91ef5f.png" width="15" alt="">: the number of failed instances in the current workflow.<br><img src="assets/4a21e697a82d45f4751c8c2a8b6415b0.png" width="15" alt="">: the number of instances that are not in the preceding states in the current<br>workflow. |
+| View the status overview of instances in a workflow | The <strong>Workflow</strong> column displays the status of normal instances (excluding dry-run instances and frozen instances) in the current workflow and the number of instances in each state by using the following icons:<br><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b345d6e860e29440efcd797cef999c21.png" width="16" alt="">: the number of running instances in the current workflow.<br><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2f110d7f89110735622e9ef951225c3a.png" width="15" alt="">: the number of successful instances in the current workflow.<br><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/98e4b8df57aecc2f5da9ce280f91ef5f.png" width="15" alt="">: the number of failed instances in the current workflow.<br><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4a21e697a82d45f4751c8c2a8b6415b0.png" width="15" alt="">: the number of instances that are not in the preceding states in the current<br>workflow. |
 | Perform O&amp;M operations on a workflow | You can perform the following operations on a workflow:<br>• <strong>DAG</strong>: You can view the DAG of the workflow. From the workflow perspective, auto triggered node instances that are scheduled by hour or minute in a workflow are displayed in groups by default. The method used to perform operations on an auto triggered node instance in a DAG from the workflow perspective is the same as the method used to perform operations on an auto triggered node instance in a DAG from the instance perspective.<br>• <strong>Rerun</strong>: You can rerun specific or all instances in the workflow.<br>• <strong>Terminate</strong>: You can stop the instances that are running in the workflow.<br>• <strong>Freeze</strong>: You can freeze the workflow. After the workflow is frozen, instances in the workflow are not run.<br>• <strong>Unfreeze</strong>: You can unfreeze the workflow if it is frozen. After the workflow is unfrozen, it enters the Failed state by default. You can rerun the failed workflow.<br>• <strong>Set to Successful</strong>: You can set the state of the workflow to Succeeded. Then, instances in the workflow also enter the Succeeded state. |
 
 **View the details of an auto triggered node instance**
@@ -41652,7 +41652,7 @@ After an auto triggered node is developed, committed, and deployed to the schedu
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Development and O&M > Operation Center**.
 
@@ -41783,12 +41783,12 @@ Find a data backfill instance in the instance list and click the node name or **
 
 | No. | Status | Icon |
 | --- | --- | --- |
-| 1 | Succeeded | <img src="assets/f676cc1bf2733100fc97003f8404e6b1.png" width="15" alt=""> |
-| 2 | Not running | <img src="assets/cc3471e89e869e8f0e83eb7a74638298.png" width="16" alt=""> |
-| 3 | Failed | <img src="assets/d4be91d54dd537fc4516a963cdee664c.png" width="14" alt=""> |
-| 4 | Running | <img src="assets/82d4534870d080a3ad197cc31e05b68c.png" width="16" alt=""> |
-| 5 | Pending | <img src="assets/f16ff3377f005c8cf051a3bf41edb3b7.png" width="15" alt=""> |
-| 6 | Frozen | <img src="assets/cd246146b37db4d3383df6c7209a4336.png" width="14" alt=""> |
+| 1 | Succeeded | <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f676cc1bf2733100fc97003f8404e6b1.png" width="15" alt=""> |
+| 2 | Not running | <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cc3471e89e869e8f0e83eb7a74638298.png" width="16" alt=""> |
+| 3 | Failed | <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d4be91d54dd537fc4516a963cdee664c.png" width="14" alt=""> |
+| 4 | Running | <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/82d4534870d080a3ad197cc31e05b68c.png" width="16" alt=""> |
+| 5 | Pending | <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f16ff3377f005c8cf051a3bf41edb3b7.png" width="15" alt=""> |
+| 6 | Frozen | <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cd246146b37db4d3383df6c7209a4336.png" width="14" alt=""> |
 
 <a id="section-8-4-4"></a>
 
@@ -41800,7 +41800,7 @@ Test instances are generated when you test auto triggered nodes. You can manage 
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Development and O&M > Operation Center**.
 
@@ -41841,12 +41841,12 @@ Find a test instance in the instance list and click its name or **DAG** in the A
 
 | No. | Status | Icon |
 | --- | --- | --- |
-| 1 | Succeeded | <img src="assets/f676cc1bf2733100fc97003f8404e6b1.png" width="15" alt=""> |
-| 2 | Pending (Ancestor) | <img src="assets/cc3471e89e869e8f0e83eb7a74638298.png" width="16" alt=""> |
-| 3 | Failed | <img src="assets/d4be91d54dd537fc4516a963cdee664c.png" width="14" alt=""> |
-| 4 | Running | <img src="assets/82d4534870d080a3ad197cc31e05b68c.png" width="16" alt=""> |
-| 5 | Pending | <img src="assets/f16ff3377f005c8cf051a3bf41edb3b7.png" width="15" alt=""> |
-| 6 | Frozen | <img src="assets/cd246146b37db4d3383df6c7209a4336.png" width="14" alt=""> |
+| 1 | Succeeded | <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f676cc1bf2733100fc97003f8404e6b1.png" width="15" alt=""> |
+| 2 | Pending (Ancestor) | <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cc3471e89e869e8f0e83eb7a74638298.png" width="16" alt=""> |
+| 3 | Failed | <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d4be91d54dd537fc4516a963cdee664c.png" width="14" alt=""> |
+| 4 | Running | <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/82d4534870d080a3ad197cc31e05b68c.png" width="16" alt=""> |
+| 5 | Pending | <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f16ff3377f005c8cf051a3bf41edb3b7.png" width="15" alt=""> |
+| 6 | Frozen | <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cd246146b37db4d3383df6c7209a4336.png" width="14" alt=""> |
 
 <a id="section-8-4-5"></a>
 
@@ -41893,7 +41893,7 @@ DataWorks allows you to forcefully rerun the descendant instances of an auto tri
    <table>
      <tr>
        <td>Heavy Run Cross-Days Instance</td>
-       <td>Specifies whether to forcefully rerun the instance (Instance B) that depends on the current instance (Instance A) when you rerun the current instance. The data timestamp of Instance B is the current day, and the data timestamp of Instance A is the previous day.<br><img src="assets/9119ba3086dab9c6454fda0a3bc25bdc.png" alt=""><br>For example, in the preceding figure, Instance B is generated by a node scheduled by day and depends on Instance A. The data timestamp of Instance A is the previous day, and the data timestamp of Instance B is the current day. If you want to forcefully rerun Instance A, you can determine whether to rerun Instance B. If you set Heavy Run Cross-Days Instance to Yes, Instance B is rerun after Instance A is rerun.</td>
+       <td>Specifies whether to forcefully rerun the instance (Instance B) that depends on the current instance (Instance A) when you rerun the current instance. The data timestamp of Instance B is the current day, and the data timestamp of Instance A is the previous day.<br><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9119ba3086dab9c6454fda0a3bc25bdc.png" alt=""><br>For example, in the preceding figure, Instance B is generated by a node scheduled by day and depends on Instance A. The data timestamp of Instance A is the previous day, and the data timestamp of Instance B is the current day. If you want to forcefully rerun Instance A, you can determine whether to rerun Instance B. If you set Heavy Run Cross-Days Instance to Yes, Instance B is rerun after Instance A is rerun.</td>
      </tr>
    </table>
 
@@ -41967,7 +41967,7 @@ DataWorks allows you to forcefully rerun the descendant instances of an auto tri
 
 - Rerun details: The instance that is generated by Node C in Workspace A is forcefully rerun. The instance that is generated by Node B in Workspace B is not forcefully rerun.
 
-![](assets/6f3bc45c48544276b643531fc35af2c7.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6f3bc45c48544276b643531fc35af2c7.png)
 
 **What to do next**
 
@@ -42065,7 +42065,7 @@ DataWorks generates manually triggered node instances from manually triggered wo
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Development and O&M > Operation Center**.
 
@@ -42154,7 +42154,7 @@ A baseline is used to manage a group of nodes. You can add nodes to a baseline t
 
 After you configure a baseline, all nodes in the baseline and the ancestor nodes of these nodes are monitored. The intelligent monitoring system does not monitor all nodes. A node that is not added to a baseline is monitored only if one of its descendant nodes is added to a baseline. If no descendant nodes are added to a baseline, the system does not report an alert after the node fails.
 
-![](assets/3250049ea0e7a08e16f8a7ef9072d187.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3250049ea0e7a08e16f8a7ef9072d187.png)
 
 As shown in the preceding figure, Nodes A, B, C, D, E, and F are created in DataWorks. Nodes D and E are nodes in a baseline. Nodes D and E and all their ancestor nodes are included in the monitoring scope. If an exception occurs on Node A, B, D, or E or if one of them slows down, the system can detect the issue. However, Nodes C and F are not within the monitoring scope.
 
@@ -42176,7 +42176,7 @@ Event types:
 
 **Margin** is an important term in the intelligent monitoring system. It refers to the maximum time period that a node can be delayed before starting. Latest start time of a node = Baseline time – Average running time.
 
-![](assets/02b2ebc37673908bf598bc4362ac7350.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/02b2ebc37673908bf598bc4362ac7350.png)
 
 As shown in the preceding figure, to ensure that the baseline time of baseline A is 05:00, you must set the latest start time of node E to 04:10. This time is calculated by subtracting the average running time of node F (20 minutes) and node E (30 minutes) from the baseline time 05:00. This time is the latest completion time of Node B in Baseline A.
 
@@ -42286,7 +42286,7 @@ The intelligent baseline feature can detect exceptions that cause a node on a ba
 
 After you add nodes to a baseline, DataWorks preferentially allocates resources to the nodes in the baseline based on the priority of the baseline to ensure the data generation of the nodes. In addition, DataWorks determines a monitoring scope for the nodes in the baseline based on the dependencies between the nodes. A baseline alert or an event alert is triggered based on the status of the nodes within the monitoring scope.
 
-![](assets/79fcb80e242ac590c42d17a44ad01d1d.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/79fcb80e242ac590c42d17a44ad01d1d.png)
 
 You can perform the following operations on a baseline:
 
@@ -42342,7 +42342,7 @@ After you create a baseline and add a node to the baseline, you cannot use the i
 
 - Descendant nodes: The descendant nodes of nodes in a baseline are not monitored. If an error is reported for a descendant node of a node in a baseline or for a descendant node that is in a different branch from the node in the baseline, the system does not send an alert notification.
 
-![](assets/60da44fdc7fe7a5c03e673f88dea2188.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/60da44fdc7fe7a5c03e673f88dea2188.png)
 
 As shown in the preceding figure, Nodes A, B, C, D, E, and F are created in DataWorks. Nodes D and E are nodes in a baseline. Nodes A and B are the ancestor nodes of Nodes D and E and affect the data generation of Nodes D and E. Therefore, Nodes A, B, D, and E are within the monitoring scope. If an exception occurs on a node within the monitoring scope or if a node within the monitoring scope slows down, the system can detect the issue. However, Nodes C and F are not within the monitoring scope of the baseline.
 
@@ -42360,7 +42360,7 @@ You can add important nodes to a baseline, and configure the **Committed Complet
 
    The estimated completion time for a baseline is calculated based on the average completion time for each node in the baseline over a historical period of time. If you add multiple nodes to a baseline, the estimated completion time for the baseline is determined by the completion time for the node whose average completion time is the latest in the baseline.
 
-   ![](assets/4de5acc3bcc0f9f9a4908c234bfd8fd7.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4de5acc3bcc0f9f9a4908c234bfd8fd7.png)
 
    Calculation results:
 
@@ -42378,7 +42378,7 @@ You can add important nodes to a baseline, and configure the **Committed Complet
 
 2. Estimate the latest completion time and latest start time for each node within the monitoring scope
 
-   ![](assets/227697edb2c3da635206cf4e3aa0cbcd.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/227697edb2c3da635206cf4e3aa0cbcd.png)
 
 | Calcula tion scenari o exampl e | Calculation formula | Calculation result example |
 | --- | --- | --- |
@@ -42405,7 +42405,7 @@ If a baseline that you create is enabled, and you enable the alerting feature fo
 >
 > If the alert margin threshold and committed completion time that you specify are inappropriate, the triggered alert may not meet your expectations.
 
-![](assets/596da3423014acbdcc61f72c505c13d4.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/596da3423014acbdcc61f72c505c13d4.png)
 
 - Alert rules for a baseline before a node in the baseline is run:
 
@@ -42439,11 +42439,11 @@ You can view the details of an event on the Events tab.
 
 The dependencies between the nodes that you want to monitor in a baseline may be complex. DataWorks provides Gantt charts for you to quickly identify the key path and key instances that prevent the nodes in the baseline from generating data. The key path for a baseline is the path that takes the longest time for a node to run among multiple paths that affect the data generation of the node in the baseline.
 
-![](assets/7ab20011bd5a178ae26751eb468dfb8d.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7ab20011bd5a178ae26751eb468dfb8d.png)
 
 You can use a Gantt chart to view the key path of a node that you want to monitor. The following Gantt chart shows the key path of and the point in time at which each exception occurs for the nodes that are shown in the preceding figure.
 
-![](assets/7460f8bcef11948dfa87dc2bea0ed080.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7460f8bcef11948dfa87dc2bea0ed080.png)
 
 <a id="section-8-6-3-2"></a>
 
@@ -42463,7 +42463,7 @@ Baseline instances are generated only for baselines that are enabled. For more i
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the page that appears, click the <img src="assets/b9feb879eb487fa3c96f100bd3f620fa.png" width="19" alt=""> icon and choose **All**
+2. In the upper-left corner of the page that appears, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b9feb879eb487fa3c96f100bd3f620fa.png" width="19" alt=""> icon and choose **All**
 
    **Products > Data Development and O&M > Operation Center**.
 
@@ -42559,7 +42559,7 @@ An intelligent baseline enables DataWorks to identify an exception that prevents
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the page that appears, click the <img src="assets/b9feb879eb487fa3c96f100bd3f620fa.png" width="19" alt=""> icon and choose **All**
+2. In the upper-left corner of the page that appears, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b9feb879eb487fa3c96f100bd3f620fa.png" width="19" alt=""> icon and choose **All**
 
    **Products > Data Development and O&M > Operation Center**.
 
@@ -42623,7 +42623,7 @@ After a baseline is created and enabled, the baseline takes effect on the next d
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/b9feb879eb487fa3c96f100bd3f620fa.png" width="19" alt=""> icon and choose **All Products > Data Development**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b9feb879eb487fa3c96f100bd3f620fa.png" width="19" alt=""> icon and choose **All Products > Data Development**
 
    **and O&M > Operation Center** to go to the **Operation Center** page.
 
@@ -42736,7 +42736,7 @@ This topic describes how to configure an appropriate committed point in time and
 
 Calculate the estimated latest completion time for a baseline based on the latest completion time of nodes in the baseline within a historical period of time, and set the committed point in time for the baseline to a point in time later than the estimated latest completion time. In addition, you must reserve a specific amount of time as an alert margin threshold when you configure the committed point in time. This way, if you receive an alert notification, you can have sufficient time to finish handling exceptions that occur on nodes in the baseline before the committed point in time arrives.
 
-![](assets/ad774cde4fd1f2174f07e028a28feadc.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ad774cde4fd1f2174f07e028a28feadc.png)
 
 **Sample scenarios in which an inappropriate committed point in time or alert margin threshold is configured for a baseline**
 
@@ -42744,19 +42744,19 @@ If the committed point in time or alert margin threshold that you configure for 
 
 - Scenario 1: The committed point in time for a baseline is the same as the estimated latest completion time, and no alert margin threshold is configured for the baseline.
 
-  ![](assets/e737afd0ce9130ed350d3b1079103beb.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e737afd0ce9130ed350d3b1079103beb.png)
 
   In this scenario, if an exception occurs on a node in the baseline, the baseline may enter the Overtime state, and alerts are frequently triggered because no alert margin threshold is specified.
 
 - Scenario 2: An inappropriate alert margin threshold is configured for a baseline. For example, the alert time (obtained by subtracting the alert margin threshold from the committed point in time) for the baseline is earlier than the estimated latest completion time.
 
-  ![](assets/2086f6049ca7467631bfb1f5a81d46ce.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2086f6049ca7467631bfb1f5a81d46ce.png)
 
   In this scenario, if an exception occurs on a node in the baseline, the baseline may enter the Overtime state, and alerts are frequently triggered because the value of the alert margin threshold is small.
 
 - Scenario 3: An inappropriate committed point in time is configured for a baseline is inappropriate. For example, the committed point in time for the baseline is earlier than the estimated latest completion time.
 
-  ![](assets/3b8e8851cdc3975ff4211f162a3c6168.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3b8e8851cdc3975ff4211f162a3c6168.png)
 
   Nodes in the baseline cannot finish running before the committed point in time arrives. The system sends you an alert notification at 00:00:00 on the current day.
 
@@ -42776,7 +42776,7 @@ You can use custom alert rules to monitor the status or resource usage of specif
   >
   > DataWorks supports only the webhook URLs of DingTalk, WeCom, and Lark. If you want to use the webhook URLs of other applications, you can join the Alibaba Cloud Big Data & AI Platform group and scan the following QR code to join the DataWorks DingTalk group for pre-sales and after-sales technical support. You can directly contact the DingTalk chatbot or the on-duty staff.
   >
-  > ![](assets/a19471eec475fac0706d701e3d764f53.png)
+  > ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a19471eec475fac0706d701e3d764f53.png)
 
 **Usage notes**
 
@@ -42790,7 +42790,7 @@ For auto triggered nodes for which an error is reported, custom alert rules take
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Development**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Development**
 
    **and O&M > Operation Center**.
 
@@ -42999,13 +42999,13 @@ DataWorks provides the shift schedule feature, which allows you to create and ma
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/b9feb879eb487fa3c96f100bd3f620fa.png" width="19" alt=""> icon and choose **All Products > Data Development**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b9feb879eb487fa3c96f100bd3f620fa.png" width="19" alt=""> icon and choose **All Products > Data Development**
 
    **and O&M > Operation Center** to go to the **Operation Center** page.
 
 3. In the left-side navigation pane of the **Operation Center** page, choose **Alarm > Schedule**.
 
-4. In the **Shift Schedule** panel, click the <img src="assets/35580d229d95b84376b71c2187e372bf.png" width="27" alt=""> icon. In the **Create Shift Schedule** dialog box,
+4. In the **Shift Schedule** panel, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/35580d229d95b84376b71c2187e372bf.png" width="27" alt=""> icon. In the **Create Shift Schedule** dialog box,
 
    configure the parameters. The following table describes the parameters.
 
@@ -43049,7 +43049,7 @@ DataWorks provides the shift schedule feature, which allows you to create and ma
 
   - Search for a shift schedule by specifying the **Search** or **Admin** parameter.
 
-  - Move the pointer over the <img src="assets/6a0275bb40059100f02dd2067dfe19c7.png" width="18" alt=""> icon on the right side of the name of a shift schedule and
+  - Move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6a0275bb40059100f02dd2067dfe19c7.png" width="18" alt=""> icon on the right side of the name of a shift schedule and
 
     select **Modify** or **Delete** to modify or delete the shift schedule.
 
@@ -43079,7 +43079,7 @@ This topic provides answers to frequently asked questions about the intelligent 
 
 After you create and enable a monitoring baseline, the intelligent monitoring module monitors all nodes in the baseline and their ancestor nodes. If a node in the baseline or an ancestor node of the node affects data generation of the monitored nodes in the baseline, the intelligent monitoring service generates an event alert and sends a notification to the node owner by default.
 
-![](assets/70a25136837afc84d872ada34de88c82.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/70a25136837afc84d872ada34de88c82.png)
 
 In the preceding figure, DataWorks has six nodes, and Nodes D and E belong to a baseline. The intelligent monitoring service monitors Nodes D and E and all their ancestor nodes. In this case, the intelligent monitoring service detects errors or slowdowns on Nodes A, B, D, and E. Nodes C and F are not monitored by the intelligent monitoring service.
 
@@ -43127,7 +43127,7 @@ The intelligent monitoring service notifies you of a node error only if a node m
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Development**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Development**
 
    **and O&M > Operation Center**.
 
@@ -43197,7 +43197,7 @@ DataWorks Operation Center provides the MaxCompute engine O&M feature. You can u
 
 **Prerequisites**
 
-You must click <img src="assets/bc1671081ed83d9f4b216933cb109bc5.png" width="14" alt=""> in the top navigation bar to go to the **General Configurations** page of the
+You must click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/bc1671081ed83d9f4b216933cb109bc5.png" width="14" alt=""> in the top navigation bar to go to the **General Configurations** page of the
 
 workspace. Then, add a MaxCompute compute engine instance in the **Compute Engine Information** section.
 
@@ -43205,7 +43205,7 @@ workspace. Then, add a MaxCompute compute engine instance in the **Compute Engin
 
 1. Log in to the DataWorks console.
 
-2. On the DataWorks page, click the <img src="assets/c7c35d9b9cbdf6f3b991b88211be1433.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataWorks page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c7c35d9b9cbdf6f3b991b88211be1433.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Development and O&M > Operation Center**.
 
@@ -43263,7 +43263,7 @@ The scheduling calendar feature is suitable for industries and scenarios that re
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner of the page that appears, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products**
+2. In the upper-left corner of the page that appears, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products**
 
    **> Data Development and O&M > Operation Center** to go to the Operation Center page.
 
@@ -43336,7 +43336,7 @@ In DataWorks, a task is scheduled to run based on the scheduling parameters that
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/c7c35d9b9cbdf6f3b991b88211be1433.png" width="18" alt=""> icon in the upper-left corner and choose **All Products > Data Development**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c7c35d9b9cbdf6f3b991b88211be1433.png" width="18" alt=""> icon in the upper-left corner and choose **All Products > Data Development**
 
    **and O&M > Operation Center**.
 
@@ -43381,7 +43381,7 @@ After you create a workspace-level parameter, go to the workspace to which the w
 
 After you configure the workspace-level parameter, you can preview whether the parameter value meets your expectations and adjust the value based on your business requirements.
 
-![](assets/8342060299b474441765fec86c25a59d.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/8342060299b474441765fec86c25a59d.jpeg)
 
 **Manage workspace-level parameters**
 
@@ -43437,7 +43437,7 @@ The Operation History page displays the records of the operations that you perfo
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Development**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Development**
 
    **and O&M > Operation Center**.
 
@@ -43469,7 +43469,7 @@ On the homepage of Data Map, you can enter keywords to search for tables, APIs, 
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Map(Data Management)**. The homepage of Data Map appears.
 
@@ -43496,7 +43496,7 @@ A metadata crawler is configured for the data source whose metadata collection i
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Map(Data Management)**.
 
@@ -43527,7 +43527,7 @@ If you want to quickly find data, such as tables, APIs, and workspaces within yo
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
 
    **Data Map(Data Management)**. The homepage of Data Map appears.
 
@@ -43718,7 +43718,7 @@ The data album feature allows you to organize and manage data tables based on bu
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
 
    **Data Map(Data Management)**. The homepage of Data Map appears.
 
@@ -43816,7 +43816,7 @@ The data album feature allows you to organize and manage data tables based on bu
 
   <li>
 
-  On the details page of the data album for which you want to change the album administrator, click the <img src="assets/ff8490605bcea96a536cea455fe79572.png" width="10" alt=""> icon on the right side of **Administrator** below the album name.
+  On the details page of the data album for which you want to change the album administrator, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ff8490605bcea96a536cea455fe79572.png" width="10" alt=""> icon on the right side of **Administrator** below the album name.
 
   </li>
 
@@ -43932,7 +43932,7 @@ In most cases, Data Map updates data one day after the data is generated. If you
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Map(Data Management)**.
 
@@ -44067,7 +44067,7 @@ This topic uses a Hologres data source as an example to describe how to collect 
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/82c2de1f64b41f3557708529303d606a.png" width="19" alt=""> icon and choose **All Products > Data Governance**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/82c2de1f64b41f3557708529303d606a.png" width="19" alt=""> icon and choose **All Products > Data Governance**
 
    **> Data Map(Data Management)**
 
@@ -44099,7 +44099,7 @@ You can also perform the following operations on the data sources for which craw
 
 - **Stop**: Stop the crawler. After you click **Run**, the **Stop** button appears. You can click Stop to stop the collection plan for a data source.
 
-- **Custom columns**: Click the <img src="assets/479bfa9eb1396399da24ef7cc439877a.png" width="17" alt=""> icon in the upper-right corner of the data source list page
+- **Custom columns**: Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/479bfa9eb1396399da24ef7cc439877a.png" width="17" alt=""> icon in the upper-right corner of the data source list page
 
   to customize the columns of the list.
 
@@ -44115,7 +44115,7 @@ This topic describes how to manage the categories and visibility of MaxCompute t
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Map(Data Management)**.
 
@@ -44131,7 +44131,7 @@ You can use the category management feature to organize and manage tables by cat
 
 2. Create a category.
 
-   In the **Manage Categories** section, click the <img src="assets/a2efe6ff79256ac4a64a88c6ef0ca904.png" width="17" alt=""> icon next to Categories to create a
+   In the **Manage Categories** section, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a2efe6ff79256ac4a64a88c6ef0ca904.png" width="17" alt=""> icon next to Categories to create a
 
    category.
 
@@ -44145,11 +44145,11 @@ You can use the category management feature to organize and manage tables by cat
    >
    > to add a subcategory to the category, modify the category name, and
    >
-   > <img src="assets/a2efe6ff79256ac4a64a88c6ef0ca904.png" width="17" alt="">
+   > <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a2efe6ff79256ac4a64a88c6ef0ca904.png" width="17" alt="">
    >
-   > <img src="assets/9c3b64a112b30002e67f1b18507922fe.png" width="18" alt="">
+   > <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9c3b64a112b30002e67f1b18507922fe.png" width="18" alt="">
    >
-   > <img src="assets/0f6823af60a72404d6b86f68dd77f573.png" width="20" alt="">
+   > <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f6823af60a72404d6b86f68dd77f573.png" width="20" alt="">
    >
    > delete the category, respectively.
 
@@ -44171,7 +44171,7 @@ You can use the category management feature to organize and manage tables by cat
 
      In the **Quick Add** panel, configure the **Data Type** and **Project** parameters, enter a
 
-     table name or keyword, and then click the <img src="assets/1f137f6924416e0def2398cda363c6ed.png" width="13" alt=""> icon to search for the tables that you want
+     table name or keyword, and then click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1f137f6924416e0def2398cda363c6ed.png" width="13" alt=""> icon to search for the tables that you want
 
      to add.
 
@@ -44251,7 +44251,7 @@ By default, tenant members in DataWorks can access the Data Map feature module. 
 
 Data Map supports permission control for metadata at the **feature module** and **project** levels.
 
-![](assets/e585ea91189f8e505269dac61bc66da7.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e585ea91189f8e505269dac61bc66da7.png)
 
 **Module-level permission control**
 
@@ -44384,7 +44384,7 @@ Template
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -44394,7 +44394,7 @@ Template
    >
    > The system allows you to switch between the streaming and offline monitoring modes. You can click **Streaming Data Monitoring** or **Offline Data Monitoring** to switch between different monitoring modes.
 
-   ![](assets/7b830beb8f6dc82dda13e6cafdf1b1e9.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7b830beb8f6dc82dda13e6cafdf1b1e9.jpeg)
 
 <a id="section-9-2-1-1"></a>
 
@@ -44406,7 +44406,7 @@ The Quality Dashboard page displays an overview of data quality in the current w
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -44666,7 +44666,7 @@ You need to perform the following steps to configure monitoring rules for a tabl
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -44702,7 +44702,7 @@ You need to perform the following steps to configure monitoring rules for a tabl
 
    - Rule Management tab
 
-     On the Table Quality Details page, click the **Rule Management** tab. Click the <img src="assets/6c20c901d7e11fc323fe321077b4619b.png" width="13" alt=""> icon
+     On the Table Quality Details page, click the **Rule Management** tab. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6c20c901d7e11fc323fe321077b4619b.png" width="13" alt=""> icon
 
      next to **Monitor Perspective**.
 
@@ -45308,7 +45308,7 @@ You can perform the following steps to configure a monitoring rule based on a te
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -45630,7 +45630,7 @@ A data source is created. In this topic, MaxCompute is used as an example. For m
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -45644,7 +45644,7 @@ A data source is created. In this topic, MaxCompute is used as an example. For m
 
 **Step 2: Create a monitor**
 
-1. On the **Rule Management** tab of the **Table Quality Details** page, click the <img src="assets/39bf304d04b7ed5c194f7f671c659c8d.png" width="13" alt=""> icon next to
+1. On the **Rule Management** tab of the **Table Quality Details** page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/39bf304d04b7ed5c194f7f671c659c8d.png" width="13" alt=""> icon next to
 
    **Monitor Perspective**. The **Create Monitor** page appears.
 
@@ -45654,7 +45654,7 @@ A data source is created. In this topic, MaxCompute is used as an example. For m
    >
    > You can create a monitor based on the quality check requirements of your table. For information about how to create a monitor, see Configure a monitoring rule for a single table.
 
-   ![](assets/b4e24cfd290a17215c6f50b4aac9fd15.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b4e24cfd290a17215c6f50b4aac9fd15.jpeg)
 
 3. Click **Save**.
 
@@ -45668,11 +45668,11 @@ A data source is created. In this topic, MaxCompute is used as an example. For m
    >
    > You can create monitoring rules for your table based on your business requirements. For more information, see Configure a monitoring rule for a single table.
 
-   ![](assets/fea98948bf2f92c6893abfa24ecc21d5.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/fea98948bf2f92c6893abfa24ecc21d5.jpeg)
 
 3. Add the monitoring rule to the created monitor.
 
-   ![](assets/5ce62a9bafb726feab2e0dfe488055e2.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5ce62a9bafb726feab2e0dfe488055e2.jpeg)
 
 4. Click **Determine**.
 
@@ -45686,7 +45686,7 @@ A data source is created. In this topic, MaxCompute is used as an example. For m
 
    In this example, the number of rows in the MaxCompute test table is greater than 2,000. In this case, the quality check result hits the critical threshold.
 
-   ![](assets/195625972af6cb48809a2a7dbb5b44d0.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/195625972af6cb48809a2a7dbb5b44d0.jpeg)
 
 4. After you make sure that the monitoring rule can be properly triggered, you can change the value of the **Trigger Method** parameter to **Triggered by Node Scheduling in Production Environment** for the monitor. After the scheduling node that you associated with the monitor finishes running in Operation Center, the monitoring rule is automatically triggered.
 
@@ -45714,7 +45714,7 @@ Data Quality in DataWorks now supports custom SQL verification and allows you to
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -45742,7 +45742,7 @@ Data Quality in DataWorks now supports custom SQL verification and allows you to
 
 **Create a monitor**
 
-On the **Table Quality Details** page, click the **Rule Management** tab. Click the <img src="assets/6c20c901d7e11fc323fe321077b4619b.png" width="13" alt=""> icon next
+On the **Table Quality Details** page, click the **Rule Management** tab. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6c20c901d7e11fc323fe321077b4619b.png" width="13" alt=""> icon next
 
 to **Monitor Perspective** to create a monitor.
 
@@ -45802,7 +45802,7 @@ On the Quality inspection task page, you can view all monitors that are created 
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -45816,7 +45816,7 @@ On the Quality inspection task page, you can view all monitors that are created 
 
    - **View the monitoring details**
 
-     Click the name of a monitor in the **Monitor ID/Name/Description** column to go to the **Monitor** page. You can view the details of the current monitor. You can also move the pointer over the <img src="assets/ff8d743414a19fd968c0c10c5504a4a9.png" width="15" alt=""> icon and select **Edit** on the right side to modify the monitor. For more
+     Click the name of a monitor in the **Monitor ID/Name/Description** column to go to the **Monitor** page. You can view the details of the current monitor. You can also move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ff8d743414a19fd968c0c10c5504a4a9.png" width="15" alt=""> icon and select **Edit** on the right side to modify the monitor. For more
 
      information, see Configure a monitoring rule for a single table.
 
@@ -45842,7 +45842,7 @@ The Running Records page of Data Quality displays the rule check results of moni
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -45950,7 +45950,7 @@ You can enable the problem data retention feature only for a specific field-leve
 >
 > Problem data is retained only for specific types of monitoring rules. For information about the list of monitoring rules that support the problem data retention feature, see Appendix: Monitoring rules that support the problem data retention feature and specifications for problem data.
 
-![](assets/4c63119e606d5519edb2767c3753a1a4.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4c63119e606d5519edb2767c3753a1a4.jpeg)
 
 **View problem data**
 
@@ -46105,7 +46105,7 @@ You can dynamically configure report templates on the Report page. Data Quality 
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -46906,7 +46906,7 @@ The changes that are made to a custom rule take effect only for tasks that **ref
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -46914,7 +46914,7 @@ The changes that are made to a custom rule take effect only for tasks that **ref
 
 **Create a custom rule template**
 
-1. Click the <img src="assets/a9996531e643ec0da440e4e733b5a9f5.png" width="18" alt=""> icon and select **Create Folder**.
+1. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a9996531e643ec0da440e4e733b5a9f5.png" width="18" alt=""> icon and select **Create Folder**.
 
 2. In the **Create Folder** dialog box, configure the **Name** and **Location** parameters and click **OK**.
 
@@ -46953,7 +46953,7 @@ You can use a rule template to create monitoring rules.
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -47013,7 +47013,7 @@ The following table describes the modules of Data Quality.
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -47025,7 +47025,7 @@ The following table describes the modules of Data Quality.
    >
    > The system allows you to switch between the streaming data monitoring and offline monitoring modes. You can switch between the two modes by clicking **Streaming Data Monitoring** or **Go Offline Data Monitoring**.
 
-   ![](assets/7b830beb8f6dc82dda13e6cafdf1b1e9.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7b830beb8f6dc82dda13e6cafdf1b1e9.jpeg)
 
 <a id="section-9-2-2-1"></a>
 
@@ -47037,7 +47037,7 @@ The Overview page provides an overview of alerts triggered by subscribed table d
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -47064,7 +47064,7 @@ The My Subscriptions page displays the Kafka and DataHub topics to which you sub
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -47096,7 +47096,7 @@ Data Quality allows you to configure monitoring rules for MaxCompute, Kafka, and
 
 1. Log on to DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -47106,7 +47106,7 @@ Data Quality allows you to configure monitoring rules for MaxCompute, Kafka, and
 
    > **Important**
    >
-   > In Data Quality, you must configure monitoring rules based on partition filter expressions. You can click the <img src="assets/99fac516fab1362a4ba57779a4119611.png" width="26" alt=""> icon on the left side of the rule configuration page to
+   > In Data Quality, you must configure monitoring rules based on partition filter expressions. You can click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/99fac516fab1362a4ba57779a4119611.png" width="26" alt=""> icon on the left side of the rule configuration page to
    >
    > configure a **partition filter expression** for a table.
    >
@@ -47114,7 +47114,7 @@ Data Quality allows you to configure monitoring rules for MaxCompute, Kafka, and
    >
    > - To configure a monitoring rule for a partitioned table, you can specify a data timestamp expression, such as $[yyyymmdd], as the partition filter expression. For more information, see the Configure a partition filter expression section of the "Configure monitoring rules for MaxCompute" topic.
 
-   ![](assets/e2dd38ef0af4ced4801eb28629707cf0.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e2dd38ef0af4ced4801eb28629707cf0.png)
 
    Data Quality supports MaxCompute, Kafka, and DataHub data sources:
 
@@ -47187,7 +47187,7 @@ If template rules do not meet your requirements for monitoring the data quality,
 
      - The parameters that you can configure vary based on the option you select for Field. If you select **all fields in a table** or **a specific field**, you need to configure the parameters that are described in the following table.
 
-       ![](assets/2aa9b2d001941f13b9f411dbae7e5d8a.png)
+       ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2aa9b2d001941f13b9f411dbae7e5d8a.png)
 
        | Parameter | Description |
        | --- | --- |
@@ -47206,7 +47206,7 @@ If template rules do not meet your requirements for monitoring the data quality,
 
      - **Custom SQL statement**
 
-       ![](assets/99837afd8ddfbd569d78b4e45b864034.png)
+       ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/99837afd8ddfbd569d78b4e45b864034.png)
 
        | Parameter | Description |
        | --- | --- |
@@ -47252,7 +47252,7 @@ You can use one of the following methods to associate a custom node with Data Qu
 
   <li>
 
-  In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance**
+  In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance**
 
   </li>
 
@@ -47364,7 +47364,7 @@ The Node Query page displays the monitoring results of tables based on monitorin
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -47400,7 +47400,7 @@ On the **Report** page, you can create a template of data quality reports. DataW
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data Governance >**
 
    **Data Quality**.
 
@@ -47584,7 +47584,7 @@ DataHub monitoring supports the following features:
 
    <li>
 
-   On the current page, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products >**
+   On the current page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products >**
 
    **Data Governance > Data Quality**.
 
@@ -47730,7 +47730,7 @@ Diagnostics items to be optimized are classified into low-risk, medium-risk, and
 
 1. Log on to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
 
    **Security Center**. The **Data Access Control** page appears.
 
@@ -48199,7 +48199,7 @@ You can request only permissions on MaxCompute tables by using the **data access
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
 
    **Security Center**. The **Data Access Control** page appears.
 
@@ -48233,11 +48233,11 @@ You can request only permissions on MaxCompute tables by using the **data access
 
    After you select tables, the information about the tables is displayed on the right side.
 
-   You can click the <img src="assets/81ff162544b969dd92d745851911b14d.png" width="16" alt=""> icon on the left side of a **table name** to view all fields in the table.
+   You can click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/81ff162544b969dd92d745851911b14d.png" width="16" alt=""> icon on the left side of a **table name** to view all fields in the table.
 
    You can request the permissions on specific or all fields. By default, the permissions on all fields are requested.
 
-   ![](assets/3b1b0da7ed7812c5cc683fd0fa8c215a.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3b1b0da7ed7812c5cc683fd0fa8c215a.jpeg)
 
    > **Note**
    >
@@ -48247,7 +48247,7 @@ You can request only permissions on MaxCompute tables by using the **data access
 
 3. In the **Application information** section, configure the parameters.
 
-   ![](assets/d02de7a2fac770e959993538124b7ca3.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d02de7a2fac770e959993538124b7ca3.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -48267,7 +48267,7 @@ You can request only permissions on MaxCompute tables by using the **data access
 
    Go to the **Permission Application Processing** tab. You can specify the following filter conditions to search for the pending requests within the current Apsara Stack tenant account: **Application Account Number**, **Application Time**, **Workspace**, **Project Name**, and **Object Name**.
 
-   ![](assets/773a1ef9ff49eb169ca89181774df27b.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/773a1ef9ff49eb169ca89181774df27b.jpeg)
 
    > **Note**
    >
@@ -48277,7 +48277,7 @@ You can request only permissions on MaxCompute tables by using the **data access
 
    Find the permission request that you want to view and click **Approval** in the **Operation** column. You can view the details and processing record of the permission request in the **Application Details** and **Approval record** sections of the **Approval details** dialog box.
 
-   ![](assets/1f68257d09d56de68719d563b46847fb.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1f68257d09d56de68719d563b46847fb.png)
 
 3. Process permission requests.
 
@@ -48301,7 +48301,7 @@ You can request only permissions on MaxCompute tables by using the **data access
 
 - If you want to reclaim the permissions that you have approved, find the destination table
 
-  and click to show the <img src="assets/0e693c0e5da1d9989f208c65badf4e18.png" width="15" alt=""> icon in front of the table name. Click **Reclaim permission** in the
+  and click to show the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0e693c0e5da1d9989f208c65badf4e18.png" width="15" alt=""> icon in front of the table name. Click **Reclaim permission** in the
 
   **Operation** column of the target account, select the table permissions that you want to reclaim, and then click **Confirmation**.
 
@@ -48319,7 +48319,7 @@ The Sensitive Behavior Control module of DataWorks allows you to approve applica
 
 1. Log on to the DataWorks console.
 
-2. Click the <img src="assets/476a55934dd33e3eee96fcbd676e8b64.png" width="14" alt=""> icon in the upper-left corner, and choose **All Products > Data Governance >**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/476a55934dd33e3eee96fcbd676e8b64.png" width="14" alt=""> icon in the upper-left corner, and choose **All Products > Data Governance >**
 
    **Security Center**. By default, the **Data Access Control** page appears.
 
@@ -48333,7 +48333,7 @@ The Sensitive Behavior Control module of DataWorks allows you to approve applica
 
 **Procedure for processing applications for permissions on Data Integration nodes**
 
-![](assets/03bcc08507fcfca05877751bb19aaf0e.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/03bcc08507fcfca05877751bb19aaf0e.png)
 
 - When you save a Data Integration node on the DataStudio or Data Integration page, Approval Center processes the application based on whether a custom application processing procedure is configured for the workspace in which the operation is performed.
 
@@ -48347,7 +48347,7 @@ The Sensitive Behavior Control module of DataWorks allows you to approve applica
 
 **Procedure for processing applications for permissions on DataService Studio**
 
-![](assets/cb3e0bdadf7cca1a384eb7442789b78e.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cb3e0bdadf7cca1a384eb7442789b78e.png)
 
 - When you perform a specific operation on an API, function, or service orchestration in DataService Studio, DataService Studio determines whether to use a custom application processing procedure to process the application based on whether you configured the custom application processing procedure for the workspace in which the operation is performed.
 
@@ -48377,7 +48377,7 @@ The data usage diagnostics feature allows you to protect the data content and da
 
 1. Log on to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
 
    **Security Center**. The **Data Access Control** page appears.
 
@@ -48387,11 +48387,11 @@ The data usage diagnostics feature allows you to protect the data content and da
 
 The **Data usage diagnosis** page displays the security risks that are detected for the current workspace based on the best practices for security risks during data usage. You can identify risk categories and risk levels based on diagnostic results, view risk details, and handle items to be optimized at the earliest opportunity to ensure the security and reliability of data usage.
 
-![](assets/69ee3192d72227750eccb32bba78bf68.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/69ee3192d72227750eccb32bba78bf68.jpeg)
 
 Medium-risk and high-risk items belong to potential security risks. You can click a medium-risk or high-risk item to view risk details and optimize the item at the earliest opportunity. The following figure shows the details of sensitive data identification that is at medium risk.
 
-![](assets/9b2a22ff3a4407714053e904868d8030.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9b2a22ff3a4407714053e904868d8030.png)
 
 - Security risk
 
@@ -48438,7 +48438,7 @@ DataWorks provides the Data Security Guard service. This service helps you prote
 
 1. Log on to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
 
    **Data Security Guard**.
 
@@ -48480,7 +48480,7 @@ You can use only the tenant security administrator role or tenant administrator 
 
 If you configure a custom transfer rule and enable the rule, the entities that you want to transfer are preferentially transferred to the entity receiver that you specify in the rule. If the entity receiver that you specify in the rule does not exist or is removed from the workspace, the system performs the transfer based on the default transfer rule.
 
-![](assets/8d555aa26b21e7715eaf08cf670ac52d.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/8d555aa26b21e7715eaf08cf670ac52d.png)
 
 - Trigger condition for automatic transfer: If a Resource Access Management (RAM) user is removed from a workspace or is deleted, the automatic transfer mechanism is triggered. If no entity receiver is specified for the workspace, the transfer is performed based on the default transfer rule after the RAM user is removed or deleted. By default, the entities that belong to the RAM user are transferred to another RAM user to which the Workspace Administrator role is assigned in the workspace. If no RAM users in the workspace are assigned the Workspace Administrator role, the entities are transferred to the Alibaba Cloud account to which the RAM user belongs. If you configure a custom transfer rule for the workspace and specify an entity receiver that is a member of the workspace in the rule, the transfer is performed based on the rule that you configure.
 
@@ -48496,7 +48496,7 @@ If you configure a custom transfer rule and enable the rule, the entities that y
 
 1. Log on to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Governance >**
 
    **Security Center**. The **Data Access Control** page appears.
 
@@ -48514,7 +48514,7 @@ In the Instructions for use section, view the entities that can be transferred, 
 
 1. In the Transfer rule configuration section, search for the workspace for which you want to configure an entity transfer rule.
 
-   ![](assets/93357ea4a592b23cf6f50298e833153a.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/93357ea4a592b23cf6f50298e833153a.jpeg)
 
 2. Configure an entity receiver.
 
@@ -48524,7 +48524,7 @@ In the Instructions for use section, view the entities that can be transferred, 
 
    In the **Transfer rule configuration** section, customize a transfer rule. Transfer rules are classified into the default transfer rule and custom transfer rules. Find the workspace that you want to manage and click **Revised** in the **Transfer entity receiver** column. In the **Select Transfer Entity Recipient** dialog box, select an entity receiver from the Please select a space member drop-down list and click OK. When the transfer procedure is triggered, the system performs the transfer based on the custom transfer rule that you configure. If the rule is disabled for the workspace, or the entity receiver that you specify does not exist or is removed from the workspace, the system performs the transfer based on the default transfer rule.
 
-   ![](assets/671ad8224504e40fda2051126bbf57d8.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/671ad8224504e40fda2051126bbf57d8.jpeg)
 
    - Default transfer rule: The default transfer rule is enabled by default and cannot be disabled. The default transfer rule takes effect if no entity receiver is specified for the workspace whose entities you want to transfer or the entity receiver specified for the workspace is invalid.
 
@@ -48562,17 +48562,17 @@ In the Instructions for use section, view the entities that can be transferred, 
 
 1. If a RAM user is not deleted and remains a member of the workspace, go to the Transfer configuration tab of the **Entity transfer** page and click **Immediate execution of referral** to transfer the entities that belong to the RAM user.
 
-   ![](assets/cbf23e93504dc55d14d168d4d94c126a.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cbf23e93504dc55d14d168d4d94c126a.jpeg)
 
 2. In the Immediate execution of referral dialog box, select the original owner of the entities from the drop-down list and click **Confirm referral**. If the entity receiver that you specify is a member of the workspace, the entities are transferred to the entity receiver. Otherwise, the entities are transferred to the entity receiver specified in the default transfer rule.
 
-   ![](assets/218ce98dd59296f2f42d715b3c5d6c54.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/218ce98dd59296f2f42d715b3c5d6c54.jpeg)
 
 **View transfer logs**
 
 On the Entity transfer page, click the **Transfer log** tab. On the Transfer log tab, view transfer records, transfer status, the transfer operator, and the original owner of the entities.
 
-![](assets/120d8f19dba558711d8db34b3b6009fe.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/120d8f19dba558711d8db34b3b6009fe.jpeg)
 
 <a id="section-9-4"></a>
 
@@ -48622,7 +48622,7 @@ On the next day after you configure and activate sensitive data identification r
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Governance > Data Protection**.
 
@@ -48632,7 +48632,7 @@ On the next day after you configure and activate sensitive data identification r
 
    You can view data details in the **Overview**, **Level & Project**, and **Fields Recognized** sections. You can filter data by compute engine, project, category, level, and sensitive field type.
 
-   ![](assets/765448aa2512a7a451d59dbf580b414d.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/765448aa2512a7a451d59dbf580b414d.jpeg)
 
 <a id="section-9-4-3"></a>
 
@@ -48642,7 +48642,7 @@ On the next day after you configure and activate sensitive data identification r
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Governance > Data Protection**.
 
@@ -48652,7 +48652,7 @@ On the next day after you configure and activate sensitive data identification r
 
    On the Data Activities page, you can view the information about each activity that involves sensitive data. On the Manipulations and Queries tab, you can view the statistics, trend, user, and details of data access activities. On the Export tab, you can view the statistics and details of data export.
 
-   ![](assets/a87eedd12f8c9f91a94a3ec7962ce70e.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a87eedd12f8c9f91a94a3ec7962ce70e.jpeg)
 
 <a id="section-9-4-4"></a>
 
@@ -48662,7 +48662,7 @@ Data activities are audited manually or based on the risk identification rules a
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Governance > Data Protection**.
 
@@ -48670,9 +48670,9 @@ Data activities are audited manually or based on the risk identification rules a
 
 4. In the left-side navigation pane, click **Data Risks**. On the Data Risks page, filter and view the data audited as risky as needed.
 
-   ![](assets/c83dd38912d97b5df3b3fb607b2a813e.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c83dd38912d97b5df3b3fb607b2a813e.jpeg)
 
-   In the **Details** section, click the <img src="assets/95b4a0d4e8b170a96bc3614820e3eee9.png" width="14" alt=""> icon to select the columns to be displayed.
+   In the **Details** section, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/95b4a0d4e8b170a96bc3614820e3eee9.png" width="14" alt=""> icon to select the columns to be displayed.
 
 <a id="section-9-4-5"></a>
 
@@ -48684,7 +48684,7 @@ The Data Auditing page provides an overview and the trend of the total number da
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Governance > Data Protection**.
 
@@ -48696,15 +48696,15 @@ The Data Auditing page provides an overview and the trend of the total number da
 
    - **Overview**: displays the total number of data risks, number of handled data risks , and number of unhandled data risks within the specified time range.
 
-     ![](assets/5b15ab655e3194b906d86e23c1c72c61.png)
+     ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5b15ab655e3194b906d86e23c1c72c61.png)
 
    - **Trend**: displays the trends in the total number of data risks, number of handled data risks, and number of unhandled data risks within the specified time range.
 
-     ![](assets/9e88b1ee03734a7b19a54b86574ee771.png)
+     ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9e88b1ee03734a7b19a54b86574ee771.png)
 
    - **Risk Analysis by Dimension**: displays the percentages of different types of data risks based on the type, level, and tag.
 
-     ![](assets/9e090cccd3497096622988442b59c1c3.png)
+     ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9e090cccd3497096622988442b59c1c3.png)
 
 <a id="section-9-4-6"></a>
 
@@ -48726,7 +48726,7 @@ If you use Data Security Guard for the first time, a built-in template that cont
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Governance > Data Protection**.
 
@@ -48744,7 +48744,7 @@ The **Data classification and level** page displays the total number of categori
 
    <li>
 
-   Click the <img src="assets/6cc5098f7708c9803eeed37aef9a2db6.png" width="13" alt=""> icon in the **Actions** column of the data sensitivity level template.
+   Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6cc5098f7708c9803eeed37aef9a2db6.png" width="13" alt=""> icon in the **Actions** column of the data sensitivity level template.
 
    </li>
 
@@ -48780,15 +48780,15 @@ The **Data classification and level** page displays the total number of categori
 
    In the **Configuration level** step, specify the name of each sensitivity level. If you change the name of a sensitivity level, the name of the sensitivity level is updated on the Data Recognition Rules page.
 
-   ![](assets/124da3eb7adeafb02ab0ee93467d4dec.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/124da3eb7adeafb02ab0ee93467d4dec.png)
 
    > **Note**
    >
    > The name of the sensitivity level must be unique. A greater sequence number indicates a higher sensitivity level. You can create up to 10 sensitivity levels.
 
-   - Create a sensitivity level: Click the <img src="assets/b4ed45dcc6b93eb98b75e59494b3b3c8.png" width="13" alt=""> icon.
+   - Create a sensitivity level: Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b4ed45dcc6b93eb98b75e59494b3b3c8.png" width="13" alt=""> icon.
 
-   - Delete a sensitivity level: Click the <img src="assets/dc7c997d664674917269f9748341cc2b.png" width="13" alt=""> icon. Before you delete a sensitivity level, you
+   - Delete a sensitivity level: Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/dc7c997d664674917269f9748341cc2b.png" width="13" alt=""> icon. Before you delete a sensitivity level, you
 
      must delete all the sensitive field types that are associated with this sensitivity level regardless of whether the sensitive field types are published. Otherwise, the sensitivity level cannot be deleted. For more information, see Configure a data identification rule.
 
@@ -48804,7 +48804,7 @@ The **Data classification and level** page displays the total number of categori
 
 **View the template**
 
-Click the <img src="assets/7adb909e1ec253d6f2a33e1ff02705c6.png" width="13" alt=""> icon in the **Actions** column of the sensitivity level template. The Data Recognition
+Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7adb909e1ec253d6f2a33e1ff02705c6.png" width="13" alt=""> icon in the **Actions** column of the sensitivity level template. The Data Recognition
 
 Rules page appears. On this page, you can view the information about sensitive field types and the categories for the sensitive field types.
 
@@ -48818,7 +48818,7 @@ This topic describes how to train a model that can be used to summarize the data
 
 1. Log on to DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data governance > Data Protection**.
 
@@ -48850,7 +48850,7 @@ This topic describes how to train a model that can be used to summarize the data
 
    After the training starts, you can close the dialog box and view the training progress in the recognition model list.
 
-5. View the status of the model in the recognition model list. After the training is complete, the status of the model becomes **Training Completed**. Click the <img src="assets/43f6c86ec7500aba9bac7311596ac148.jpeg" width="11" alt=""> icon in the Actions column.
+5. View the status of the model in the recognition model list. After the training is complete, the status of the model becomes **Training Completed**. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/43f6c86ec7500aba9bac7311596ac148.jpeg" width="11" alt=""> icon in the Actions column.
 
    Then, the Assess step of the Edit Model dialog box appears.
 
@@ -48889,11 +48889,11 @@ This topic describes how to train a model that can be used to summarize the data
 
 **Stop training a self-generated data recognition model**
 
-1. Find a model that is being trained and click the <img src="assets/dd8eda536200b5eb5952dea4f05f37e0.jpeg" width="14" alt=""> icon in the Actions column to stop
+1. Find a model that is being trained and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/dd8eda536200b5eb5952dea4f05f37e0.jpeg" width="14" alt=""> icon in the Actions column to stop
 
    training the model.
 
-2. Find the model whose training is stopped and click the <img src="assets/0686bdf710adcb268c993d08655f6d63.jpeg" width="12" alt=""> icon to continue the training.
+2. Find the model whose training is stopped and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0686bdf710adcb268c993d08655f6d63.jpeg" width="12" alt=""> icon to continue the training.
 
 **Delete a self-generated data recognition model**
 
@@ -48923,7 +48923,7 @@ You can upload only UTF-8 encoded files in the TXT format as sample files. The s
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Governance > Data Protection**.
 
@@ -48939,7 +48939,7 @@ You can upload only UTF-8 encoded files in the TXT format as sample files. The s
    >
    > You can upload multiple sample files to a sample library.
 
-   ![](assets/9c78df510802d5d2686cdaaaddc2c928.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9c78df510802d5d2686cdaaaddc2c928.png)
 
 7. Click **Save**. The sample library is created.
 
@@ -48949,23 +48949,23 @@ After you create a sample library, you can associate the sample library with a d
 
 On the **Sample Management** tab, you can perform the following operations to manage existing sample libraries.
 
-![](assets/87e525a71c6535d5198a246a0a5604e4.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/87e525a71c6535d5198a246a0a5604e4.png)
 
 - View the sample libraries.
 
   You can view the number of samples in and the data identification rules associated with each existing sample library. You can also view the details of a specific sample library by
 
-  clicking the <img src="assets/307c487c9572b3ad9c278ffedd96ab3f.png" width="14" alt=""> icon in the **Actions** column.
+  clicking the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/307c487c9572b3ad9c278ffedd96ab3f.png" width="14" alt=""> icon in the **Actions** column.
 
 - Modify a sample library.
 
-  Find the sample library that you want to modify and click the <img src="assets/f2c96643cc197e7e6468138eca5a0fe7.png" width="13" alt=""> icon in the **Actions** column.
+  Find the sample library that you want to modify and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f2c96643cc197e7e6468138eca5a0fe7.png" width="13" alt=""> icon in the **Actions** column.
 
   You can upload a new sample file or replace an existing sample file.
 
 - Delete a sample library.
 
-  Find the sample library that you want to delete and click the <img src="assets/c97b0e30a2688fc988b7db563e21cc99.png" width="11" alt=""> icon in the **Actions** column.
+  Find the sample library that you want to delete and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c97b0e30a2688fc988b7db563e21cc99.png" width="11" alt=""> icon in the **Actions** column.
 
   > **Note**
   >
@@ -48981,7 +48981,7 @@ DataWorks allows you to identify sensitive data in your workspace by configuring
 
 DataWorks allows you to configure a sensitive data identification rule based on a specific sensitivity level and a specific category. This helps you identify sensitive data in your workspace. You can manually correct inaccurate identification results. The Data Recognition page displays statistics on the sensitive fields that hit sensitive data identification rules in each workspace in the previous week. The following figure shows how a sensitive data identification rule is configured and used.
 
-![](assets/b4c37f6178cdd124eb9a2e46948f8ea8.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b4c37f6178cdd124eb9a2e46948f8ea8.png)
 
 **Procedure**
 
@@ -48997,7 +48997,7 @@ DataWorks allows you to configure a sensitive data identification rule based on 
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -49023,7 +49023,7 @@ DataWorks allows you to configure a sensitive data identification rule based on 
 
 2. Configure sensitive field categories.
 
-   - The first time that you use Data Security Guard, the default categories that are provided by the **built-in data sensitivity level template** are displayed on the left side of the Data Recognition Rules tab. You can search for a category by entering its name in the search box. You can also click the <img src="assets/cd70eee6a36b60ce4156aaedae48a6d2.png" width="13" alt=""> icon to the right of a category name and select an
+   - The first time that you use Data Security Guard, the default categories that are provided by the **built-in data sensitivity level template** are displayed on the left side of the Data Recognition Rules tab. You can search for a category by entering its name in the search box. You can also click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cd70eee6a36b60ce4156aaedae48a6d2.png" width="13" alt=""> icon to the right of a category name and select an
 
      option to create a category or a subcategory, rename the category, or delete the category.
 
@@ -49035,7 +49035,7 @@ DataWorks allows you to configure a sensitive data identification rule based on 
    >
    > - If you want to delete a category, make sure that all sensitive field types in this category are not published. Otherwise, the category cannot be deleted. For more information, see the Unpublish multiple sensitive field types at a time section of this topic.
 
-   ![](assets/363b5cb4e8632f7b941f05a42a2c0054.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/363b5cb4e8632f7b941f05a42a2c0054.jpeg)
 
 3. Create a sensitive field type.
 
@@ -49078,7 +49078,7 @@ DataWorks allows you to configure a sensitive data identification rule based on 
 
    In the **Rule Change** step, configure the rule hit conditions and test the accuracy of the rule. After the sensitive data identification rule is configured and the sensitive field type is published, you can use the rule to identify sensitive data in an identification task.
 
-   ![](assets/6779552ac3b6400eb8526de9799d5620.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6779552ac3b6400eb8526de9799d5620.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -49120,19 +49120,19 @@ DataWorks allows you to configure a sensitive data identification rule based on 
 
    - Copy a sensitive field type
 
-     Find the sensitive field type that you want to copy and click the <img src="assets/c1c42e6af618f3bb25048ef7ff7c8dcf.png" width="10" alt=""> icon in the Actions
+     Find the sensitive field type that you want to copy and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c1c42e6af618f3bb25048ef7ff7c8dcf.png" width="10" alt=""> icon in the Actions
 
      column. A new sensitive field type with the same settings is created. The name of the generated sensitive field type is suffixed with **-copy**. By default, it is in the **The draft** state. You can configure the replicated sensitive field type based on your business requirements.
 
    - Modify a sensitive field type
 
-     Find the sensitive field type that you want to modify and click the <img src="assets/6cc5098f7708c9803eeed37aef9a2db6.png" width="13" alt=""> icon in the Actions
+     Find the sensitive field type that you want to modify and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6cc5098f7708c9803eeed37aef9a2db6.png" width="13" alt=""> icon in the Actions
 
      column. In the dialog box that appears, you can modify the sensitive data identification rule for the sensitive field type in the **Rule Change** step. You can modify the configurations of a custom sensitive field type. However, you cannot change the name, category, and sensitivity level of a built-in sensitive field type.
 
    - Delete a sensitive field type
 
-     Find the sensitive field type that you want to delete and click the <img src="assets/50b6aa3403617e569e5ec4b9c0517c66.png" width="12" alt=""> icon in the Actions
+     Find the sensitive field type that you want to delete and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/50b6aa3403617e569e5ec4b9c0517c66.png" width="12" alt=""> icon in the Actions
 
      column to delete the sensitive field type. In the message that appears, click **OK**.
 
@@ -49224,7 +49224,7 @@ On the Manual Check tab, you can manually correct the sensitive data that is inc
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Governance > Data Protection**.
 
@@ -49234,7 +49234,7 @@ On the Manual Check tab, you can manually correct the sensitive data that is inc
 
 5. On the **Data Recognition Rules** page, click the **Manual Check** tab.
 
-   ![](assets/59e2e0bf3890d3fe2539c1a2667526f3.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/59e2e0bf3890d3fe2539c1a2667526f3.jpeg)
 
    | Operation | Description |
    | --- | --- |
@@ -49246,7 +49246,7 @@ On the Manual Check tab, you can manually correct the sensitive data that is inc
      </tr>
      <tr>
        <td>Correct a single sensitive data identification result</td>
-       <td>In the section marked with 2 in the preceding figure, you can view sensitive data identification results. You can click <strong>Display field</strong> <strong>settings</strong> to select the columns to be displayed. After you click Confirm, the table of the sensitive data identification results is refreshed. By default, the following columns are displayed: <strong>Project</strong>, <strong>Table Name</strong>, <strong>Field</strong>, and <strong>Sensitive field type</strong>.<br>For fields whose sensitive field types are inaccurate, you can click the drop-down list in the <strong>Sensitive field type</strong> column of the field whose sensitive field type you want to correct, and select a type from all <strong>published</strong> sensitive field types that are provided by the default data sensitivity level template of the current tenant. You can check whether the existing types in the drop-down list meet your business requirements.<br>• If the existing types meet your business requirements, select a type<br>from the drop-down list. Then, click the<img src="assets/5dfbc3aa0f6f37196ddafc5f3f5533f7.png" width="22" alt="">icon next to the drop-<br>down list to go to the <strong>Data Recognition Rules</strong> tab and modify the sensitive data identification rules for the original and new sensitive field types. This improves the accuracy of subsequent sensitive data identification.<br>• If the existing types do not meet your business requirements, click<br>the<img src="assets/5dfbc3aa0f6f37196ddafc5f3f5533f7.png" width="22" alt="">icon next to the drop-down list to go to the <strong>Data</strong><br><strong>Recognition Rules</strong> tab. Alternatively, select <strong>Manage sensitive</strong> <strong>field types</strong> from the bottom of the drop-down list. In the <strong>Sensitive</strong> <strong>field type</strong> dialog box of the <strong>Data Recognition Rules</strong> page, create a sensitive field type and configure a data identification rule for the sensitive field type based on your business requirements. For more information, see Configure a data identification rule.</td>
+       <td>In the section marked with 2 in the preceding figure, you can view sensitive data identification results. You can click <strong>Display field</strong> <strong>settings</strong> to select the columns to be displayed. After you click Confirm, the table of the sensitive data identification results is refreshed. By default, the following columns are displayed: <strong>Project</strong>, <strong>Table Name</strong>, <strong>Field</strong>, and <strong>Sensitive field type</strong>.<br>For fields whose sensitive field types are inaccurate, you can click the drop-down list in the <strong>Sensitive field type</strong> column of the field whose sensitive field type you want to correct, and select a type from all <strong>published</strong> sensitive field types that are provided by the default data sensitivity level template of the current tenant. You can check whether the existing types in the drop-down list meet your business requirements.<br>• If the existing types meet your business requirements, select a type<br>from the drop-down list. Then, click the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5dfbc3aa0f6f37196ddafc5f3f5533f7.png" width="22" alt="">icon next to the drop-<br>down list to go to the <strong>Data Recognition Rules</strong> tab and modify the sensitive data identification rules for the original and new sensitive field types. This improves the accuracy of subsequent sensitive data identification.<br>• If the existing types do not meet your business requirements, click<br>the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5dfbc3aa0f6f37196ddafc5f3f5533f7.png" width="22" alt="">icon next to the drop-down list to go to the <strong>Data</strong><br><strong>Recognition Rules</strong> tab. Alternatively, select <strong>Manage sensitive</strong> <strong>field types</strong> from the bottom of the drop-down list. In the <strong>Sensitive</strong> <strong>field type</strong> dialog box of the <strong>Data Recognition Rules</strong> page, create a sensitive field type and configure a data identification rule for the sensitive field type based on your business requirements. For more information, see Configure a data identification rule.</td>
      </tr>
      <tr>
        <td>Correct multiple sensitive data identification results at a same time</td>
@@ -49260,7 +49260,7 @@ You can click **Add recognition result** in the upper-right corner of the Manual
 
 - **Add sensitive data identification results**: In the Add recognition result dialog box, set the Data Engine parameter to the compute engine to which the added field belongs, and enter the GUID of the field in the Field name field. The field GUID must be in the **Project.Table.Column** format. Select a sensitive field type from the Sensitive field type drop-down list and click **OK**. A sensitive data identification result is manually added. The drop-down list displays all **published** sensitive field types that are provided by the default data sensitivity level template of the current tenant.
 
-  ![](assets/1119f69b9cc28f829809129efbf81c5b.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1119f69b9cc28f829809129efbf81c5b.png)
 
 - **Export sensitive data identification results**: After you click **Export recognition results**, the system exports the sensitive data identification results that are displayed based on the specified filter conditions.
 
@@ -49334,7 +49334,7 @@ This section describes how to configure data masking using the **Global Configur
 
    and **Masking Method**.
 
-   ![](assets/82cc963c15debe6161bed7443f984704.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/82cc963c15debe6161bed7443f984704.jpeg)
 
    <ol type="a">
 
@@ -49361,7 +49361,7 @@ This section describes how to configure data masking using the **Global Configur
 
      - **Custom**: Provides flexible configuration options. You can configure up to 10 segments from left to right. For each segment, you can specify whether it is masked and the number of characters to mask or leave unmasked. You must set exactly one segment to **Remaining Characters**.
 
-       ![](assets/095e748ff9cf70ff62b3a7c0cd17863c.jpeg)
+       ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/095e748ff9cf70ff62b3a7c0cd17863c.jpeg)
 
        | Icon | Description |
        | --- | --- |
@@ -49371,7 +49371,7 @@ This section describes how to configure data masking using the **Global Configur
 
        For example, you can mask the first 3 characters and leave the remaining characters unmasked.
 
-       ![](assets/24bfe120fa7b18976916271ba58459f2.png)
+       ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/24bfe120fa7b18976916271ba58459f2.png)
 
      - **Hash Encryption**
 
@@ -49503,7 +49503,7 @@ You can configure rules to identify risks in data activities on the Custom Ident
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Governance > Data Protection**.
 
@@ -49513,11 +49513,11 @@ You can configure rules to identify risks in data activities on the Custom Ident
 
    On the Custom Identification Rules page, you can create, copy, modify, and delete risk identification rules. You can also configure AI-based risk identification rules.
 
-   ![](assets/e3862383d7af49f5d8b7b31491ac3933.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e3862383d7af49f5d8b7b31491ac3933.png)
 
 5. Click **Create Rule** in the upper-right corner. In the **Create Rule** dialog box, configure the **Rule Name**, **Owner**, and **Description** parameters and click **OK**.
 
-6. Find the rule that you want to copy and click the <img src="assets/50392cbe7ed3073e7991e7eb09798eae.png" width="10" alt=""> icon in the Actions column. A new rule
+6. Find the rule that you want to copy and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/50392cbe7ed3073e7991e7eb09798eae.png" width="10" alt=""> icon in the Actions column. A new rule
 
    with the same settings is created.
 
@@ -49535,7 +49535,7 @@ You can configure rules to identify risks in data activities on the Custom Ident
 
    <li>
 
-   Click the <img src="assets/90319690b3b4c0cb2e26d1d1f66f8b41.png" width="15" alt=""> icon in the Actions column.
+   Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/90319690b3b4c0cb2e26d1d1f66f8b41.png" width="15" alt=""> icon in the Actions column.
 
    </li>
 
@@ -49549,7 +49549,7 @@ You can configure rules to identify risks in data activities on the Custom Ident
 
    sections.
 
-   ![](assets/f21446e7361e2ea8020890fb29fd3da3.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f21446e7361e2ea8020890fb29fd3da3.png)
 
    <ol type="i" start="4">
 
@@ -49567,7 +49567,7 @@ You can configure rules to identify risks in data activities on the Custom Ident
 
    </ol>
 
-8. To delete a rule, click the <img src="assets/1d73f89078349138d5372bb531b26bee.png" width="10" alt=""> icon in the Actions column. In the message that appears, click
+8. To delete a rule, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1d73f89078349138d5372bb531b26bee.png" width="10" alt=""> icon in the Actions column. In the message that appears, click
 
    **Delete**.
 
@@ -49575,7 +49575,7 @@ You can configure rules to identify risks in data activities on the Custom Ident
 
 On the **Custom Identification Rules** page, click the **AI-based Identification Rules** tab. On the AI-based Identification Rules tab, you can view only an AI-based risk identification rule that is used to identify highly similar SQL statements.
 
-![](assets/a3057e0fb4327353d5e4afdc7512bae9.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a3057e0fb4327353d5e4afdc7512bae9.png)
 
 To enable the AI-based risk identification rule, set the status of the rule to **Active**.
 
@@ -49595,7 +49595,7 @@ You can create a user group on the User Group Management page and reference it i
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Governance > Data Protection**.
 
@@ -49613,7 +49613,7 @@ You can create a user group on the User Group Management page and reference it i
    | --- | --- |
    | User Group Name | The name of the user group.<br>Note<br>The name of the user group must be unique. |
    | Owner | The owner of the user group. |
-   | Source Type | The source of accounts in the user group. Valid values:<strong>Plain Text File</strong> and <strong>Select An Existing Account</strong><br>• If you select <strong>Plain Text File</strong>, click <strong>Upload</strong> next to the <strong>Source Type</strong> parameter, select a file that you want to upload, and then click <strong>Open</strong>.<br>• If you select <strong>Select An Existing Account</strong>, select the accounts that you want to add in the <strong>Account To Be Added</strong> section and click the<br><img src="assets/37e331508312d71d22ea8bc4834fcf5c.png" width="14" alt="">icon. |
+   | Source Type | The source of accounts in the user group. Valid values:<strong>Plain Text File</strong> and <strong>Select An Existing Account</strong><br>• If you select <strong>Plain Text File</strong>, click <strong>Upload</strong> next to the <strong>Source Type</strong> parameter, select a file that you want to upload, and then click <strong>Open</strong>.<br>• If you select <strong>Select An Existing Account</strong>, select the accounts that you want to add in the <strong>Account To Be Added</strong> section and click the<br><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/37e331508312d71d22ea8bc4834fcf5c.png" width="14" alt="">icon. |
 
 3. Then, click **OK**.
 
@@ -49621,13 +49621,13 @@ You can create a user group on the User Group Management page and reference it i
 
 On the **User Group Management** page, find the user group that you want to copy and click
 
-the <img src="assets/9d8e6642c3442077525ce9df04081e61.png" width="15" alt=""> icon in the Actions column. An identical user group is generated.
+the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9d8e6642c3442077525ce9df04081e61.png" width="15" alt=""> icon in the Actions column. An identical user group is generated.
 
 > **Note**
 >
 > - The name of the generated user group is suffixed with **-Copy**. You can click the
 >
->   <img src="assets/56fb74c2ed193794fbd889131968b0d9.png" width="14" alt="">
+>   <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/56fb74c2ed193794fbd889131968b0d9.png" width="14" alt="">
 >
 >   icon in the Actions column and modify the user group in the EditAccount dialog box.
 >
@@ -49639,7 +49639,7 @@ To modify an existing user group, perform the following steps:
 
 1. On the **User Group Management** page, find the user group that you want to modify and
 
-   click the <img src="assets/56fb74c2ed193794fbd889131968b0d9.png" width="14" alt=""> icon in the Actions column.
+   click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/56fb74c2ed193794fbd889131968b0d9.png" width="14" alt=""> icon in the Actions column.
 
 2. In the **EditAccount** dialog box, modify the parameters such as **User Group Name**, **Owner**, and **Source Type**.
 
@@ -49649,7 +49649,7 @@ To modify an existing user group, perform the following steps:
 
 To delete a user group, find the user group on the User Group Management page and click
 
-the <img src="assets/20eef2a8e495e9c881fa146c7bc89882.png" width="12" alt=""> icon in the Actions column. In the message that appears, click **Delete**.
+the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/20eef2a8e495e9c881fa146c7bc89882.png" width="12" alt=""> icon in the Actions column. In the message that appears, click **Delete**.
 
 > **Note**
 >
@@ -49667,7 +49667,7 @@ Data Security Guard allows you to specify the account used to identify data, the
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9b2a5dae4442e1ec363737dbb6e246c0.png" width="18" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Governance > Data Protection**.
 
@@ -49695,7 +49695,7 @@ You can create a data tracking task to track the source of leaked data. You can 
 
 1. Log on to DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data governance > Data Protection**.
 
@@ -49705,7 +49705,7 @@ You can create a data tracking task to track the source of leaked data. You can 
 
 5. On the Data Masking page, click Create Rule to create a data masking rule. For more information, see Customize de-identification rules. When you configure a data masking rule, you can turn on **Data watermark**. This way, a data watermark can be embedded into data when data masking is performed on the data, which facilitates the tracking of the leaked data.
 
-   ![](assets/d6d0eb8b4e7b8895fe71e4e8c51bf5b6.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d6d0eb8b4e7b8895fe71e4e8c51bf5b6.png)
 
    > **Note**
    >
@@ -49731,7 +49731,7 @@ You can create a data tracking task to track the source of leaked data. You can 
    >
    > computing is not affected.
 
-5. After the computing is complete, click the <img src="assets/bb40057a932aaaaf43ef72bb4eeee03b.jpeg" width="15" alt=""> icon that corresponds to your data tracking
+5. After the computing is complete, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/bb40057a932aaaaf43ef72bb4eeee03b.jpeg" width="15" alt=""> icon that corresponds to your data tracking
 
    task and view the tracking result. You can also enter a file name in the search box of the Data traceability page to view the historical data tracking task.
 
@@ -49745,11 +49745,11 @@ You can create a data tracking task to track the source of leaked data. You can 
 
 On the **Data traceability** page, find a data tracking file that you want to download in the
 
-Traceability file column and click the <img src="assets/7a7306d9233d6ffbc39791d5d0aac267.png" width="13" alt=""> icon to download the file.
+Traceability file column and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7a7306d9233d6ffbc39791d5d0aac267.png" width="13" alt=""> icon to download the file.
 
 **Delete a data tracking task**
 
-1. On the **Data traceability** page, find a data tracking task that you want to delete and click the <img src="assets/f6bc0754411fe71aaa40c12a80dcf397.png" width="11" alt=""> icon.
+1. On the **Data traceability** page, find a data tracking task that you want to delete and click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f6bc0754411fe71aaa40c12a80dcf397.png" width="11" alt=""> icon.
 
 2. In the message that appears, click **Confirm**.
 
@@ -49801,7 +49801,7 @@ Data Governance Center supports the following types of roles:
 
 Data Governance Center checks nodes for violations against constraints before data development based on check items and detects issues after data development based on governance items. This helps you comprehensively handle issues in data. In addition, Data Governance Center provides unified governance plan templates that contain built-in check items and governance items for you to detect issues to be handled. The following figure shows the logic of data governance.
 
-![](assets/e95b47a2b7672415a7c802036f7f2c3f.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e95b47a2b7672415a7c802036f7f2c3f.png)
 
 - Check for violations against constraints based on check items.
 
@@ -49815,7 +49815,7 @@ Data Governance Center checks nodes for violations against constraints before da
 
 The following figure shows the procedure of data governance.
 
-![](assets/078ea6e9893165a0f7db7091762f85ce.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/078ea6e9893165a0f7db7091762f85ce.png)
 
 1. Make the following preparations:
 
@@ -49897,7 +49897,7 @@ DataWorks allows you to view the governance issues for the specified tenant from
 
    <li>
 
-   In the upper-left corner of the DataStudio page, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
+   In the upper-left corner of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
 
    </li>
 
@@ -49915,7 +49915,7 @@ DataWorks allows you to view the governance issues for the specified tenant from
 
    On the **Governance issues** page, you can view the number and types of governance issues for the current account or a specific workspace from the **global**, **individual**, or **workspace** perspective. You can also view the details of the nodes and tables on which the issues are detected. DataWorks provides solutions to help you resolve different issues in a quick manner. This helps you improve data quality and achieve your data governance goals. The following figure shows the **Governance issues** page from the global perspective.
 
-   ![](assets/f5e77207f1e893e973de04121fdd4792.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f5e77207f1e893e973de04121fdd4792.jpeg)
 
    | Secti on | Description |
    | --- | --- |
@@ -49985,7 +49985,7 @@ After you enable a governance plan template and configure check items, DataWorks
 
    <li>
 
-   In the upper-left corner of the DataStudio page, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
+   In the upper-left corner of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
 
    </li>
 
@@ -50003,7 +50003,7 @@ After you enable a governance plan template and configure check items, DataWorks
 
    On the **Check Event** page, you can view the statistics on check events and the details of check events within the current account from the **global**, **individual**, and **workspace** perspectives. You can also view the check events that block the subsequent data development processes and handle such events at the earliest opportunity. The following figure shows the **Check Event** page from the global perspective. The following table describes the sections on the Check Event page.
 
-   ![](assets/18f656cc76617079bedb7d1ed30ff956.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/18f656cc76617079bedb7d1ed30ff956.png)
 
    | Secti on | Description |
    | --- | --- |
@@ -50052,7 +50052,7 @@ Data Governance Center of DataWorks allows you to manage whitelists for governan
 
    <li>
 
-   In the upper-left corner of the DataStudio page, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
+   In the upper-left corner of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
 
    </li>
 
@@ -50070,7 +50070,7 @@ Data Governance Center of DataWorks allows you to manage whitelists for governan
 
    On the **White list** page, you can view the whitelists created within the current account. You can also view the details of a whitelist or disable a whitelist.
 
-   ![](assets/8ea86010b505fdafbe89e0107127f344.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/8ea86010b505fdafbe89e0107127f344.jpeg)
 
    | Area | Description |
    | --- | --- |
@@ -50292,7 +50292,7 @@ nt
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt=""> icon and choose **All Products > Data Governance >**
 
    **Tag Management**.
 
@@ -50429,7 +50429,7 @@ On the Task 360 page, you can obtain a panoramic view of a node from the followi
 
    <li>
 
-   In the upper-left corner of the DataStudio page, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
+   In the upper-left corner of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
 
    </li>
 
@@ -50488,7 +50488,7 @@ You can view the information about a MaxCompute table on the Table 360 page of t
 
    <li>
 
-   In the upper-left corner of the DataStudio page, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
+   In the upper-left corner of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
 
    </li>
 
@@ -50533,7 +50533,7 @@ The resource usage overview page displays the resource usage metrics in a specif
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt=""> icon and choose **All Products > Data Governance >**
 
    **Tag Management**.
 
@@ -50561,7 +50561,7 @@ Data Governance Center allows you to view and analyze the resource usage of a wo
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt=""> icon and choose **All Products > Data Governance >**
 
    **Tag Management**.
 
@@ -50575,7 +50575,7 @@ You can choose **Resource Type Pivoting > Computing Resources** to view the cons
 
 - You can view the details of a resource **by task** or **by job**.
 
-- You can also click the <img src="assets/dea312b9d955174bd1dc3ea87e3a1804.png" width="12" alt=""> icon to the right of a column name to sort records based on the
+- You can also click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/dea312b9d955174bd1dc3ea87e3a1804.png" width="12" alt=""> icon to the right of a column name to sort records based on the
 
   column.
 
@@ -50595,7 +50595,7 @@ Data Governance Center allows you to view and analyze the status and resource co
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt=""> icon and choose **All Products > Data Governance >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt=""> icon and choose **All Products > Data Governance >**
 
    **Tag Management**.
 
@@ -50623,7 +50623,7 @@ On the **Workbench** page in Tag Management, you can view the details of the gov
 
 In the left-side navigation pane of the **Knowledge Base** page, click **Governance item**. On the Governance item page, you can select a dimension and view the basic information about the governance issues that belong to the selected dimension and the solutions. The following figure shows the information about the governance issues that belong to the development dimension.
 
-![](assets/78c3c344b675ba31cbb1a66b4fb5ee42.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/78c3c344b675ba31cbb1a66b4fb5ee42.png)
 
 | Area | Description |
 | --- | --- |
@@ -50634,7 +50634,7 @@ In the left-side navigation pane of the **Knowledge Base** page, click **Governa
 
 In the left-side navigation pane of the **Knowledge Base** page, click **Inspector**. On the Inspector page, you can select a dimension and view the basic information about the check events that belong to the selected dimension and the solutions. The following figure shows the information about the check events that belong to the development dimension.
 
-![](assets/ac29f66d8db45f95d8d0c5c758964349.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ac29f66d8db45f95d8d0c5c758964349.png)
 
 | Area | Description |
 | --- | --- |
@@ -50685,7 +50685,7 @@ DataWorks provides governance plan templates that are applicable to various indu
 
    <li>
 
-   In the upper-left corner of the DataStudio page, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
+   In the upper-left corner of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
 
    </li>
 
@@ -50707,7 +50707,7 @@ DataWorks provides governance plan templates that are applicable to various indu
 
    - View the details of check items. On the **Inspector details** page, check items are categorized in the **R&D**, **quality**, **security**, **computing**, and **storage** dimensions. On the tab of each dimension, you can view the information about each check item, such as the ID, name, and applicable module. By default, check items are enabled on the Inspector details page. After a check item is enabled, Data Governance Center inspects events triggered based on this check item. If an event does not pass the check, the subsequent data development process is blocked. In a governance plan template, you cannot modify the configurations of check items. To enable or disable a check item, you can go to the **Inspector Setting** page. For more information about how to enable a check item, see Create and configure check items. The following figure shows the details of check items in the R&D dimension.
 
-     ![](assets/08c5881be909184cb3806378d625d032.jpeg)
+     ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/08c5881be909184cb3806378d625d032.jpeg)
 
    - View the details of governance items. On the **Governance Details** page, **mandatory** and **optional** governance items are categorized in the **R&D**, **quality**, **security**, **computing**, and **storage** dimensions. On the tab of each dimension, you can view the information about each governance item, such as the name, description, associated solution, and health score weight. Data Governance Center provides solutions for different governance items. If issues are detected based on a governance item, you can find the governance item and click the button in the **Associated solution** column to view the provided solution. Then, you can resolve the issues by using the provided solution. In a governance plan template, you cannot modify the configurations of governance items. To configure optional governance items, you can go to the **Governance item** page. On this page, you can enable or disable an optional governance item based on your business requirements, and configure exclusion rules to disable specific optional governance items in a workspace. For more information, see Configure governance items.
 
@@ -50719,7 +50719,7 @@ DataWorks provides governance plan templates that are applicable to various indu
 
      The following figure shows the details of governance items in the R&D dimension.
 
-     ![](assets/5af8dd47fa425d2259643767c169820f.jpeg)
+     ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5af8dd47fa425d2259643767c169820f.jpeg)
 
 <a id="section-9-5-5-2"></a>
 
@@ -50765,7 +50765,7 @@ DataWorks allows you to create a check item in Data Governance Center for a cust
 
    <li>
 
-   On the DataStudio page, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon in the upper-left corner and choose **All**
+   On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon in the upper-left corner and choose **All**
 
    </li>
 
@@ -50785,13 +50785,13 @@ On the **Inspector Setting** page, you can view the check items within the curre
 >
 > - Only governance administrators can globally enable or disable the check item feature. An Alibaba Cloud account or a Resource Access Management (RAM) user to which the **AliyunDataWorksFullAccess** policy is attached is a governance administrator.
 
-![](assets/a361eb18b1f9921bf8b8e372334d05da.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a361eb18b1f9921bf8b8e372334d05da.png)
 
 | No. | Description |
 | --- | --- |
-| 1 | In this section, you can turn on or off Enable check items. This is a global switch and can be used for the following operations:<br>• Globally enable or disable the check item feature. If you turn off Enable check items, Data Governance Center does not inspect events that are generated before a node is committed based on the check items in the governance plan template.<br>• Determine whether the<img src="assets/9c5633098793852d46d8b32c1d48cbd2.png" width="20" alt="">switches can be used in the <strong>Enable</strong> column for each check<br>item. If you turn off Enable check items, the switches in the Enabled column cannot be used.<br>• Determine whether the built-in check items are displayed on the <strong>Extension</strong> page of the Management Center page for all workspaces that reside in the current region.<br>Note<br>You can globally turn on or off Enable check items only by using an Alibaba Cloud account or as a RAM user to which the <strong>AliyunDataWorksFullAccess</strong> policy is attached. |
+| 1 | In this section, you can turn on or off Enable check items. This is a global switch and can be used for the following operations:<br>• Globally enable or disable the check item feature. If you turn off Enable check items, Data Governance Center does not inspect events that are generated before a node is committed based on the check items in the governance plan template.<br>• Determine whether the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9c5633098793852d46d8b32c1d48cbd2.png" width="20" alt="">switches can be used in the <strong>Enable</strong> column for each check<br>item. If you turn off Enable check items, the switches in the Enabled column cannot be used.<br>• Determine whether the built-in check items are displayed on the <strong>Extension</strong> page of the Management Center page for all workspaces that reside in the current region.<br>Note<br>You can globally turn on or off Enable check items only by using an Alibaba Cloud account or as a RAM user to which the <strong>AliyunDataWorksFullAccess</strong> policy is attached. |
 | 2 | In this section, you can view check items on the following tabs: <strong>R&amp;D</strong>, <strong>Quality</strong>, <strong>Security</strong>, <strong>Computing</strong>, and <strong>Storage</strong>. On each tab, you can specify which check items are displayed by using the <strong>Workspace</strong>, <strong>Name</strong>, <strong>Enable</strong>, and <strong>Source</strong> parameters.<br>Note<br>You can enter keywords in the <strong>Name</strong> field to search for specific check items. The keywords are used to perform a fuzzy match. The search result includes all check items whose names match the keywords. |
-| 3 | In this section, you can view the information of the specified check items, such as the <strong>name</strong>, <strong>check event</strong>, <strong>source</strong>, <strong>owner</strong>, and <strong>modification time</strong>. You can also perform the following operations:<br>• Specify check events. Find the check item that you want to manage and click the<img src="assets/49f07396b3b4e5001e28ce749ef1530f.png" width="14" alt="">icon<br>in the <strong>Effective Point</strong> column. In the <strong>Edit Effective Point</strong> dialog box, specify the events to be inspected based on the check item. You can select events that are generated before files are committed and deployed. If an event does not pass the check, the subsequent process is blocked.<br>![](assets/78a91b14aeec235c2f9390a0071f959c.png)<br>• Enable or disable a specific check item. Turn on or off<img src="assets/9c5633098793852d46d8b32c1d48cbd2.png" width="20" alt="">in the <strong>Enable</strong> column to enable<br>or disable a check item. After a check item is disabled, Data Governance Center does not inspect events based on this check item.<br>Note<br>If you disable <strong>Enable check items</strong>, the switches in the Enabled column cannot be operated.<br>• Enable or disable multiple check items at a time. You can select multiple check items and click <strong>Batch Enable</strong> or <strong>Batch Disable</strong> in the lower part of the page to enable or disable selected check items at a time.<br>Note<br>In this section, operations on check items take effect only in the current workspace.After a check item is disabled, the operation takes effect only in the specified workspace. In other workspaces, this check item is still enabled. |
+| 3 | In this section, you can view the information of the specified check items, such as the <strong>name</strong>, <strong>check event</strong>, <strong>source</strong>, <strong>owner</strong>, and <strong>modification time</strong>. You can also perform the following operations:<br>• Specify check events. Find the check item that you want to manage and click the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/49f07396b3b4e5001e28ce749ef1530f.png" width="14" alt="">icon<br>in the <strong>Effective Point</strong> column. In the <strong>Edit Effective Point</strong> dialog box, specify the events to be inspected based on the check item. You can select events that are generated before files are committed and deployed. If an event does not pass the check, the subsequent process is blocked.<br>![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/78a91b14aeec235c2f9390a0071f959c.png)<br>• Enable or disable a specific check item. Turn on or off<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9c5633098793852d46d8b32c1d48cbd2.png" width="20" alt="">in the <strong>Enable</strong> column to enable<br>or disable a check item. After a check item is disabled, Data Governance Center does not inspect events based on this check item.<br>Note<br>If you disable <strong>Enable check items</strong>, the switches in the Enabled column cannot be operated.<br>• Enable or disable multiple check items at a time. You can select multiple check items and click <strong>Batch Enable</strong> or <strong>Batch Disable</strong> in the lower part of the page to enable or disable selected check items at a time.<br>Note<br>In this section, operations on check items take effect only in the current workspace.After a check item is disabled, the operation takes effect only in the specified workspace. In other workspaces, this check item is still enabled. |
 
 **Create check items**
 
@@ -50854,7 +50854,7 @@ If you configure exclusion rules to disable optional governance items in the spe
 
    <li>
 
-   In the upper-left corner of the DataStudio page, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
+   In the upper-left corner of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
 
    </li>
 
@@ -50872,7 +50872,7 @@ If you configure exclusion rules to disable optional governance items in the spe
 
    On the **Governance Setting** page, you can view the information about governance items, enable or disable optional governance items, and configure exclusion rules on the **Development**, **Quality**, **Safety**, **Computation**, and **Storage** tabs. The following figure shows the information displayed and operations that you can perform on the Development tab.
 
-   ![](assets/cab7040db70a30a4159b6e54857cad70.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cab7040db70a30a4159b6e54857cad70.jpeg)
 
    | Area | Description |
    | --- | --- |
@@ -50916,7 +50916,7 @@ DataWorks allows only governance administrators to create, modify, or delete gov
 
    <li>
 
-   In the upper-left corner of the DataStudio page, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
+   In the upper-left corner of the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All**
 
    </li>
 
@@ -50950,7 +50950,7 @@ DataWorks allows only governance administrators to create, modify, or delete gov
 
    In the **Governance unit** dialog box, configure the parameters as required.
 
-   ![](assets/4ee523665e4883cd8f761de6753fa2df.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4ee523665e4883cd8f761de6753fa2df.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -51037,7 +51037,7 @@ Governance rankings: Only data governance administrators can view governance ran
 
    <li>
 
-   In the upper-right corner, click the <img src="assets/a86ca87d225b04f5e7f606eff8546d02.png" width="13" alt=""> icon and then choose **All Products > Data**
+   In the upper-right corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a86ca87d225b04f5e7f606eff8546d02.png" width="13" alt=""> icon and then choose **All Products > Data**
 
    </li>
 
@@ -51055,7 +51055,7 @@ Governance rankings: Only data governance administrators can view governance ran
 
 On the right side of the Assessment page, click Report. On the page that appears, you can check the governance results based on health scores. You can check the overall governance results from different perspectives or check the governance results from each governance dimension. This allows you to identify the dimensions of governance issues that frequently occur and organize your governance work in an efficient manner. The following figure shows the layout of a governance report from the global perspective.
 
-![](assets/9a51dc0a5482aaeec560e766685a3578.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9a51dc0a5482aaeec560e766685a3578.jpeg)
 
 | Area | Description |
 | --- | --- |
@@ -51064,7 +51064,7 @@ On the right side of the Assessment page, click Report. On the page that appears
 <table>
   <tr>
     <td>2</td>
-    <td>In this area, you can select <strong>Global perspective</strong>, <strong>Workspace perspective</strong>, or <strong>Personal</strong> <strong>perspective</strong> to view the report.<br>• <strong>Global perspective</strong>: displays the governance report of all DataWorks workspaces of the current tenant.<br>• <strong>Workspace perspective</strong>: displays the governance report of the selected workspace of the current account that is assigned the Workspace Administrator role. If you select Workspace perspective, you can select a workspace from the <strong>Workspace</strong> drop-down list.<br><img src="assets/ed31cc9c1c0a84382c0b79cab37ebedd.png" alt=""><br>Note<br>If you log on to the DataWorks console by using your Apsara Stack account or as a Resource Access Management (RAM) user to whom the <strong>AliyunDataWorksFullAccess</strong> policy is attached, you can select all workspaces from the Workspace drop-down list.<br>• <strong>Personal perspective</strong>: displays the governance report of the current account. In this case, the value of the Owner parameter is the name of the current account.</td>
+    <td>In this area, you can select <strong>Global perspective</strong>, <strong>Workspace perspective</strong>, or <strong>Personal</strong> <strong>perspective</strong> to view the report.<br>• <strong>Global perspective</strong>: displays the governance report of all DataWorks workspaces of the current tenant.<br>• <strong>Workspace perspective</strong>: displays the governance report of the selected workspace of the current account that is assigned the Workspace Administrator role. If you select Workspace perspective, you can select a workspace from the <strong>Workspace</strong> drop-down list.<br><img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ed31cc9c1c0a84382c0b79cab37ebedd.png" alt=""><br>Note<br>If you log on to the DataWorks console by using your Apsara Stack account or as a Resource Access Management (RAM) user to whom the <strong>AliyunDataWorksFullAccess</strong> policy is attached, you can select all workspaces from the Workspace drop-down list.<br>• <strong>Personal perspective</strong>: displays the governance report of the current account. In this case, the value of the Owner parameter is the name of the current account.</td>
   </tr>
   <tr>
     <td>3</td>
@@ -51091,7 +51091,7 @@ On the right side of the Assessment page, click Report. On the page that appears
 
 Governance rankings are used to perform governance operations and facilitate data governance. On the Rank page, you can view the rankings of governance units, workspaces, and user accounts based on the governance results in handling governance issues and check events. The following figure shows the ranking of **workspaces** based on the governance results in handling governance issues and check events.
 
-![](assets/b0a3393eab761b7f263a5d0fa3683809.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b0a3393eab761b7f263a5d0fa3683809.jpeg)
 
 | Area | Description |
 | --- | --- |
@@ -51128,11 +51128,11 @@ To go to the Data Assets page, perform the following steps:
 
 1. Log on to DataWorks console
 
-2. In the left-side navigation pane, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
+2. In the left-side navigation pane, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > Data**
 
    **Governance > Data Assets**. By default, the **Asset Panorama** page is displayed. You can
 
-   also click the <img src="assets/2af04c443425625fc157b53ceba7e744.jpeg" width="13" alt=""> icon to go to the Asset Panorama page.
+   also click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2af04c443425625fc157b53ceba7e744.jpeg" width="13" alt=""> icon to go to the Asset Panorama page.
 
 <a id="section-9-6-2"></a>
 
@@ -51148,7 +51148,7 @@ DataWorks collects statistics on all published data assets in the current worksp
 
 1. Go to the Data Asset page.
 
-2. On the Data Asset page, click the <img src="assets/2af04c443425625fc157b53ceba7e744.jpeg" width="13" alt=""> icon in the left-side navigation pane to go to the **Asset**
+2. On the Data Asset page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2af04c443425625fc157b53ceba7e744.jpeg" width="13" alt=""> icon in the left-side navigation pane to go to the **Asset**
 
    **Panorama** page.
 
@@ -51216,7 +51216,7 @@ DataWorks collects statistics on all published data assets in workspaces that ar
 
 1. Go to the Data Asset page.
 
-2. In the left-side navigation pane, click the <img src="assets/3dad902f58abad03536a92a027661d6f.jpeg" width="13" alt=""> icon to go to the **Asset market** page.
+2. In the left-side navigation pane, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/3dad902f58abad03536a92a027661d6f.jpeg" width="13" alt=""> icon to go to the **Asset market** page.
 
    On the Asset market page, you can search for data assets in the directory tree of data assets or by keyword and then consume the data assets.
 
@@ -51254,7 +51254,7 @@ The **Data Assets** module of DataWorks allows you to evaluate the values of you
 
 1. Go to the Data Assets page.
 
-2. On the Data Assets page, click the <img src="assets/bdaa85e0d340c66a3f3b2c39ceb4cc29.png" width="13" alt=""> icon in the left-side navigation pane to go to the
+2. On the Data Assets page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/bdaa85e0d340c66a3f3b2c39ceb4cc29.png" width="13" alt=""> icon in the left-side navigation pane to go to the
 
    **Asset Value** page. On the Asset Value page, you can view the overview, rankings, and details of your asset values. You can learn more about the values of your data assets at different granularities. For example, you can view the total value of your data assets or the value of a single data asset. Then, you can perform operations on your data assets. For example, you can unpublish low-value data assets or use high-value data assets.
 
@@ -51282,7 +51282,7 @@ The **Data Asset** module of DataWorks supports the asset consumption feature. T
 
 1. Go to the Data Asset page.
 
-2. On the Data Asset page, click the <img src="assets/20977f0e02fd6541826795379bdea235.png" width="11" alt=""> icon in the left-side navigation pane to go to the **Asset**
+2. On the Data Asset page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/20977f0e02fd6541826795379bdea235.png" width="11" alt=""> icon in the left-side navigation pane to go to the **Asset**
 
    **consumption** page.
 
@@ -51360,7 +51360,7 @@ Only **project administrators** and **project owners** can create, edit, and del
 
 1. Go to the Data Assets page.
 
-2. In the left-side navigation pane, move the pointer over the <img src="assets/a8124445a4a91d4e940d7b8994dfc34a.png" width="14" alt=""> icon and select **Directory**
+2. In the left-side navigation pane, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a8124445a4a91d4e940d7b8994dfc34a.png" width="14" alt=""> icon and select **Directory**
 
    **Management**. On the Directory Management page, you can create custom asset directories and manage the asset directories.
 
@@ -51372,11 +51372,11 @@ On the **Directory Management** page, click **Edit** in the upper-right corner. 
 
 - **Create and edit asset directories** Create asset directories and specify the attributes of the directories.
 
-  - Click the <img src="assets/fd6bd840b470c695471ae2d0cfa7fa64.png" width="14" alt=""> icon to create a subdirectory in the current directory. You can create up to
+  - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/fd6bd840b470c695471ae2d0cfa7fa64.png" width="14" alt=""> icon to create a subdirectory in the current directory. You can create up to
 
     three levels of subdirectories.
 
-  - Click the <img src="assets/82f218e87b578d804faa68914e61687d.png" width="8" alt=""> icon to modify the name of the current directory or delete the directory.
+  - Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/82f218e87b578d804faa68914e61687d.png" width="8" alt=""> icon to modify the name of the current directory or delete the directory.
 
     > **Note**
     >
@@ -51423,7 +51423,7 @@ After model or metrics are submitted, or MaxCompute physical tables are publishe
 
 1. Go to the Data Assets page.
 
-2. In the left-side navigation pane, move the pointer over the <img src="assets/a8124445a4a91d4e940d7b8994dfc34a.png" width="14" alt=""> icon and select **Asset**
+2. In the left-side navigation pane, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a8124445a4a91d4e940d7b8994dfc34a.png" width="14" alt=""> icon and select **Asset**
 
    **Management**.
 
@@ -51475,7 +51475,7 @@ Only **project administrators** and **project owners** can modify configurations
 
 1. Go to the Data Assets page.
 
-2. In the left-side navigation pane, move the pointer over the <img src="assets/a8124445a4a91d4e940d7b8994dfc34a.png" width="14" alt=""> icon and select **Asset Space**.
+2. In the left-side navigation pane, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a8124445a4a91d4e940d7b8994dfc34a.png" width="14" alt=""> icon and select **Asset Space**.
 
    On the Asset Space page, you can modify the workspaces that can be managed in an asset space and view the change records.
 
@@ -51517,7 +51517,7 @@ To manage file assets, you must configure the account and endpoint used to acces
 
 1. Go to the Data Assets page.
 
-2. In the left-side navigation pane, move the pointer over the <img src="assets/a8124445a4a91d4e940d7b8994dfc34a.png" width="14" alt=""> icon and select **Asset**
+2. In the left-side navigation pane, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a8124445a4a91d4e940d7b8994dfc34a.png" width="14" alt=""> icon and select **Asset**
 
    **Collection**.
 
@@ -51543,7 +51543,7 @@ To manage file assets, you must configure the account and endpoint used to acces
 
    </ol>
 
-   ![](assets/7242e37d2c104d0d41600f3a53adb07f.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7242e37d2c104d0d41600f3a53adb07f.jpeg)
 
 **What to do next**
 
@@ -51579,7 +51579,7 @@ After custom request processing policies are configured, you can process the req
 
 The following figure shows the request processing procedure after a custom request processing policy is configured in **Approval Center** and an applicant submits a request for the permissions on table fields in **Security Center**.
 
-![](assets/12cb488b1da3ac3993f49aa12a7be46b.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/12cb488b1da3ac3993f49aa12a7be46b.png)
 
 - In Security Center, when a user submits a request for the permissions on a specific field in a MaxCompute table, DataWorks determines the type of request processing procedure based on the field.
 
@@ -51597,7 +51597,7 @@ After a custom request processing procedure is created for DataService Studio, t
 
 The following figure shows the request processing procedure after an applicant submits a request for the required permissions in **Security Center**.
 
-![](assets/cb3e0bdadf7cca1a384eb7442789b78e.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cb3e0bdadf7cca1a384eb7442789b78e.png)
 
 - When a user performs a specific operation on an API, function, or service orchestration in DataService Studio, DataService Studio determines whether to use a custom request processing procedure to process the request based on whether you configured the custom procedure for the workspace in which the operation is performed.
 
@@ -51615,7 +51615,7 @@ Approval Center allows administrators to determine the Data Integration nodes on
 
 The following figure shows the request processing procedure after an applicant submits a request for the required permissions in **Security Center**.
 
-![](assets/03bcc08507fcfca05877751bb19aaf0e.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/03bcc08507fcfca05877751bb19aaf0e.png)
 
 - When a user saves a Data Integration node on the DataStudio or Data Integration page, Approval Center determines how to process the request based on whether you configured a custom request processing procedure for the workspace in which the operation is performed.
 
@@ -51651,7 +51651,7 @@ You can specify the data scope to which a request processing procedure applies b
 
 1. Log on to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > More > Approval**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > More > Approval**
 
    **Center**.
 
@@ -51663,7 +51663,7 @@ You can specify the data scope to which a request processing procedure applies b
 
 **Enter the basic information**
 
-![](assets/a14e76777b8275594ffb69de9c90a0cc.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a14e76777b8275594ffb69de9c90a0cc.png)
 
 Configure the **Policy Name** and **Purpose** parameters based on your business scenario to which the request processing policy applies.
 
@@ -51673,7 +51673,7 @@ You must specify the data scope to which the request processing policy applies b
 
 For a MaxCompute compute engine, you can specify the data scope of a request processing policy in a workspace based on a MaxCompute project or the category and sensitivity level of data in Data Security Guard.
 
-![](assets/e2eb5888e753ea05814927b95242117d.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e2eb5888e753ea05814927b95242117d.jpeg)
 
 When you specify the data scope, take note of the following items:
 
@@ -51707,7 +51707,7 @@ When you specify the data scope, take note of the following items:
 
 Three notification methods are supported: text messages, emails, and DingTalk chatbots.
 
-![](assets/cf0a6ff161850c6d422a9918ea51f885.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cf0a6ff161850c6d422a9918ea51f885.png)
 
 After you configure the notification methods, notifications are sent to approvers based on the configured notification methods when a permission request is submitted for processing.
 
@@ -51721,7 +51721,7 @@ After you configure the notification methods, notifications are sent to approver
 
 **Configure the request processing nodes**
 
-![](assets/6d9d892d7afcbb5efb4c010e04db7682.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6d9d892d7afcbb5efb4c010e04db7682.png)
 
 When you configure the request processing nodes, take note of the following items:
 
@@ -51743,7 +51743,7 @@ When you configure the request processing nodes, take note of the following item
 
 If both a MaxCompute project-based request processing policy and a request processing policy that is based on the category and sensitivity level of data in Data Security Guard are configured, a specific data scope may hit both types of request processing policies. In this case, you can set priorities for the two types of request processing policies.
 
-![](assets/cbed720bb2315033fa37e8abe2559444.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cbed720bb2315033fa37e8abe2559444.png)
 
 <a id="section-9-7-2-2"></a>
 
@@ -51759,7 +51759,7 @@ Only DataWorks Enterprise Edition and Ultimate Edition allow you to configure re
 
 1. Log on to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > More > Approval**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > More > Approval**
 
    **Center**.
 
@@ -51771,7 +51771,7 @@ Only DataWorks Enterprise Edition and Ultimate Edition allow you to configure re
 
 **Enter the basic information**
 
-![](assets/a14e76777b8275594ffb69de9c90a0cc.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a14e76777b8275594ffb69de9c90a0cc.png)
 
 Configure the **Policy Name** and **Purpose** parameters based on your business scenario to which the request processing policy applies.
 
@@ -51779,13 +51779,13 @@ Configure the **Policy Name** and **Purpose** parameters based on your business 
 
 You must specify the data scope to which the request processing policy applies based on your business scenario. After the request processing policy is created, the requests for the permissions on the data in this data scope must be processed based on this request processing policy.
 
-![](assets/e1946186675edce6efb32cd3dee5e53f.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e1946186675edce6efb32cd3dee5e53f.png)
 
 **Configure the notification methods**
 
 Three notification methods are supported: text messages, emails, and DingTalk chatbots.
 
-![](assets/cf0a6ff161850c6d422a9918ea51f885.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cf0a6ff161850c6d422a9918ea51f885.png)
 
 After you configure the notification methods, notifications are sent to approvers based on the configured notification methods when a permission request is submitted for processing.
 
@@ -51799,7 +51799,7 @@ After you configure the notification methods, notifications are sent to approver
 
 **Configure the request processing nodes**
 
-![](assets/6d9d892d7afcbb5efb4c010e04db7682.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/6d9d892d7afcbb5efb4c010e04db7682.png)
 
 When you configure the request processing nodes, take note of the following items:
 
@@ -51825,7 +51825,7 @@ You can view all applications submitted by the current account and the applicati
 
 **Approval Center page**
 
-![](assets/35a9159542e1d816ffcec53e98d9e721.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/35a9159542e1d816ffcec53e98d9e721.png)
 
 - On the **Application Records** page, you can view all applications submitted by the current account. You can filter application records based on **Effective Scope** and **Submitted At**.
 
@@ -51893,7 +51893,7 @@ DataWorks allows you to import data from a data source and perform queries and a
 
    icon and choose **All Products > Data**
 
-   <img src="assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt="">
+   <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt="">
 
    </li>
 
@@ -51909,7 +51909,7 @@ DataWorks allows you to import data from a data source and perform queries and a
 
    <li>
 
-   On the left side of the **SQL Query** page, click the <img src="assets/680d758136cdd3c899d82994a4e64b24.png" width="11" alt=""> icon in the **Data source** section.
+   On the left side of the **SQL Query** page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/680d758136cdd3c899d82994a4e64b24.png" width="11" alt=""> icon in the **Data source** section.
 
    The first time you go to the **SQL Query** page, you must click **Add Now** first.
 
@@ -51923,7 +51923,7 @@ DataWorks allows you to import data from a data source and perform queries and a
 
    </ol>
 
-   ![](assets/ef647821ce71ef30a715d51ca25347d7.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ef647821ce71ef30a715d51ca25347d7.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -51947,12 +51947,12 @@ DataWorks allows you to import data from a data source and perform queries and a
 
 On the SQL Query page, you can execute SQL statements to query and analyze data from the specified data source. You can also view saved queries, execution history, and logs of the SQL queries.
 
-![](assets/5f33c686ac930ac9c3137054c9f61856.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5f33c686ac930ac9c3137054c9f61856.png)
 
 | Section | Description |
 | --- | --- |
 | 1 | This section displays the tables that are contained in the data source in the specified workspace. You can also search for a table by entering keywords in the search box. |
-| 2 | This section allows you to execute SQL statements to query data. After you enter<br>SQL statements, click the<img src="assets/4e0e8aec2dfc7cef1a2cab266abe7a9b.png" width="12" alt="">icon in the toolbar to execute the statements. You<br>can also click <strong>Go to DataStudio</strong> to copy the SQL statements and go to the DataStudio page. On the DataStudio page, you can develop data and schedule extract, transform, and load (ETL) tasks. |
+| 2 | This section allows you to execute SQL statements to query data. After you enter<br>SQL statements, click the<img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4e0e8aec2dfc7cef1a2cab266abe7a9b.png" width="12" alt="">icon in the toolbar to execute the statements. You<br>can also click <strong>Go to DataStudio</strong> to copy the SQL statements and go to the DataStudio page. On the DataStudio page, you can develop data and schedule extract, transform, and load (ETL) tasks. |
 | 3 | This section allows you to view the details of the saved queries, execution history, and logs of SQL queries. You can also preview, load, rename, and delete historical SQL queries on the Saved query tab. |
 
 <a id="section-10-3"></a>
@@ -51983,7 +51983,7 @@ Before data analysis, you must create a workbook to store the data to be analyze
 
    icon and choose **All Products > Data**
 
-   <img src="assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt="">
+   <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt="">
 
    </li>
 
@@ -51993,7 +51993,7 @@ Before data analysis, you must create a workbook to store the data to be analyze
 
 2. In the top navigation bar of the DataAnalysis page, click **Spreadsheet**.
 
-3. On the **Spreadsheet** page, click the <img src="assets/eba6a6d23ecbd1c46f06182a354c19d7.png" width="13" alt=""> icon in the **New Spreadsheet** section to go to the
+3. On the **Spreadsheet** page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/eba6a6d23ecbd1c46f06182a354c19d7.png" width="13" alt=""> icon in the **New Spreadsheet** section to go to the
 
    workbook editing page. On this page, you can import data for analysis.
 
@@ -52007,19 +52007,19 @@ Before data analysis, you must create a workbook to store the data to be analyze
 
    You can also manage workbooks on the Spreadsheet page:
 
-   - To rename a workbook, click the <img src="assets/565b28ad096cf3b6465a7c807f4887e3.png" width="11" alt=""> icon next to it. In the **Rename** dialog box, enter a
+   - To rename a workbook, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/565b28ad096cf3b6465a7c807f4887e3.png" width="11" alt=""> icon next to it. In the **Rename** dialog box, enter a
 
      new **File Name** and click **Confirm**.
 
-   - To change the owner of a workbook, click the <img src="assets/d13a8d496c7892a0d06db1013a6900dd.png" width="13" alt=""> icon next to it. In the **Change Owner**
+   - To change the owner of a workbook, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/d13a8d496c7892a0d06db1013a6900dd.png" width="13" alt=""> icon next to it. In the **Change Owner**
 
      dialog box, enter and select the new owner, and then click **Confirm**.
 
-   - To clone a workbook, click the <img src="assets/b3d6bf5bdef532e03d94042a36e03778.png" width="12" alt=""> icon next to it. A new workbook with the **_copy** suffix in
+   - To clone a workbook, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b3d6bf5bdef532e03d94042a36e03778.png" width="12" alt=""> icon next to it. A new workbook with the **_copy** suffix in
 
      its name appears in the list.
 
-   - To delete a workbook, click the <img src="assets/f85a1140992552ee166ac8d521e3c213.png" width="11" alt=""> icon next to it. In the **Delete** dialog box, click **Confirm**.
+   - To delete a workbook, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f85a1140992552ee166ac8d521e3c213.png" width="11" alt=""> icon next to it. In the **Delete** dialog box, click **Confirm**.
 
 <a id="section-10-3-2"></a>
 
@@ -52045,7 +52045,7 @@ This topic describes how to edit a workbook. For example, you can import data to
 
    icon and choose **All Products > Data**
 
-   <img src="assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt="">
+   <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt="">
 
    </li>
 
@@ -52163,7 +52163,7 @@ In the upper-right corner of the workbook editing page, click **Download** to do
 
 - **Font**
 
-  ![](assets/b0454be2324bffdf3eccdd1448d04296.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b0454be2324bffdf3eccdd1448d04296.png)
 
   | No. | Feature | Description |
   | --- | --- | --- |
@@ -52179,7 +52179,7 @@ In the upper-right corner of the workbook editing page, click **Download** to do
 
 - **Text Alignment**
 
-  ![](assets/245c221bc7efb84e5bab1d6a3071825e.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/245c221bc7efb84e5bab1d6a3071825e.png)
 
   | No. | Feature | Description |
   | --- | --- | --- |
@@ -52194,7 +52194,7 @@ In the upper-right corner of the workbook editing page, click **Download** to do
 
 - **Number**
 
-  ![](assets/ada441702ff82314e02345c466917177.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ada441702ff82314e02345c466917177.png)
 
   | No. | Feature | Description |
   | --- | --- | --- |
@@ -52206,7 +52206,7 @@ In the upper-right corner of the workbook editing page, click **Download** to do
 
 - **Rows and Columns**
 
-  ![](assets/27d73d97c1861f23d732944c648af577.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/27d73d97c1861f23d732944c648af577.png)
 
   | No. | Feature | Description |
   | --- | --- | --- |
@@ -52221,7 +52221,7 @@ In the upper-right corner of the workbook editing page, click **Download** to do
 
 - **Conditional Formatting**
 
-  ![](assets/0aab1a3bc8a1e1997341c46ee7f0410e.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0aab1a3bc8a1e1997341c46ee7f0410e.png)
 
   | No. | Feature | Description |
   | --- | --- | --- |
@@ -52232,7 +52232,7 @@ In the upper-right corner of the workbook editing page, click **Download** to do
 
 - **Style**
 
-  ![](assets/9f461254dfe12182daf639654da9abf3.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/9f461254dfe12182daf639654da9abf3.png)
 
   | No. | Feature | Description |
   | --- | --- | --- |
@@ -52243,7 +52243,7 @@ In the upper-right corner of the workbook editing page, click **Download** to do
 
 - **Edit**
 
-  ![](assets/a9cd3808dccc7d5f611c45bb04a20315.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/a9cd3808dccc7d5f611c45bb04a20315.png)
 
   | No. | Feature | Description |
   | --- | --- | --- |
@@ -52254,7 +52254,7 @@ In the upper-right corner of the workbook editing page, click **Download** to do
 
 - **Charts**
 
-  ![](assets/84f9095bee4f77d75fbb7e6df345bcc6.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/84f9095bee4f77d75fbb7e6df345bcc6.png)
 
   - **Column Chart**: After you click the **Column Chart** icon, you can select **Column Chart**, **Stacked Column Chart**, and **100% Stacked Column Chart**.
 
@@ -52270,7 +52270,7 @@ In the upper-right corner of the workbook editing page, click **Download** to do
 
   Select the data that you want to analyze and click **Data Profile** in the Data Analysis section in the top toolbar. Then, you can view the data types and value distribution of each column at the top of the workbook in the form of charts and rich text.
 
-  ![](assets/771051418b3de02d10ee530ab1430e66.png)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/771051418b3de02d10ee530ab1430e66.png)
 
   The simple mode of the data profiling feature has the following features:
 
@@ -52300,7 +52300,7 @@ In the upper-right corner of the workbook editing page, click **Download** to do
 
 - **List of Shortcut Keys**
 
-  Click the <img src="assets/4f7d3df03e1ddca6a7d8874090a6c574.png" width="14" alt=""> icon to view the shortcut keys for different features.
+  Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4f7d3df03e1ddca6a7d8874090a6c574.png" width="14" alt=""> icon to view the shortcut keys for different features.
 
 <a id="section-10-4"></a>
 
@@ -52330,7 +52330,7 @@ In system settings, you can configure the maximum number of SQL query records th
 
    icon and choose **All Products > Data**
 
-   <img src="assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt="">
+   <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cc1e64860fa0890fcbc3eb3a6aa39fda.png" width="16" alt="">
 
    </li>
 
@@ -52342,7 +52342,7 @@ In system settings, you can configure the maximum number of SQL query records th
 
 3. On the **System Management** page, configure the parameters in the **SQL Query** and **Spreadsheet** sections based on your business requirements.
 
-   ![](assets/15306bcba830b97a2a7eb7000666dbd6.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/15306bcba830b97a2a7eb7000666dbd6.jpeg)
 
 4. Click **Save**.
 
@@ -52360,7 +52360,7 @@ DataService Studio allows you to create APIs based on data tables. You can also 
 
 DataService Studio adopts a serverless architecture. This allows you to focus on the query logic of an API without worrying about the infrastructure, such as computing resources. DataService Studio supports automatic scaling for computing resources, which significantly reduces your O&M costs.
 
-![](assets/e2af515dde1d264227c4c2af0e6db36d.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e2af515dde1d264227c4c2af0e6db36d.jpeg)
 
 **Generate an API**
 
@@ -52408,17 +52408,17 @@ DataWorks allows you to organize different types of resources in a business proc
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
-3. In the **Service Development** pane, move the pointer over the <img src="assets/98c3a4d41d77e40a596f7e0ed68ef22a.png" width="10" alt=""> icon and select **Create**
+3. In the **Service Development** pane, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/98c3a4d41d77e40a596f7e0ed68ef22a.png" width="10" alt=""> icon and select **Create**
 
    **Business Process**.
 
 4. In the **Create Business Process** dialog box, configure the parameters.
 
-   ![](assets/99043e49d307c084fe7ed1cc66593d61.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/99043e49d307c084fe7ed1cc66593d61.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -52435,11 +52435,11 @@ DataWorks allows you to organize different types of resources in a business proc
 
 1. In the **Service Development** pane, right-click the business process that you want to modify and select **Modify attributes**.
 
-   ![](assets/7f724c19baba445057e704dbac1d2894.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7f724c19baba445057e704dbac1d2894.png)
 
 2. In the **Edit business process** dialog box, modify the **Name** and **Description** parameters based on your requirements.
 
-   ![](assets/b47270778f80b2a4ad75df2f01c642f2.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b47270778f80b2a4ad75df2f01c642f2.png)
 
    > **Note**
    >
@@ -52451,7 +52451,7 @@ DataWorks allows you to organize different types of resources in a business proc
 
 1. In the **Service Development** pane, right-click the business process that you want to delete and select **Delete**.
 
-   ![](assets/7068d09ecf347601f8c0f7ba4b9ef881.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7068d09ecf347601f8c0f7ba4b9ef881.png)
 
 2. In the **Notes** message, click **OK**.
 
@@ -52589,7 +52589,7 @@ You can add data sources for DataService Studio to read table schemas and proces
 
 1. Log in to the DataWorks console.
 
-2. On the DataStudio page, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataStudio page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> Data Integration > Data Integration**.
 
@@ -52646,7 +52646,7 @@ If you have personalized query requirements, you can use the code editor provide
 
    <li>
 
-   In the upper-left corner, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Service >**
+   In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Service >**
 
    </li>
 
@@ -52658,7 +52658,7 @@ If you have personalized query requirements, you can use the code editor provide
 
    </ol>
 
-2. On the **Service Development** page, move your pointer over the <img src="assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose
+2. On the **Service Development** page, move your pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose
 
    **Create API > Generate API**.
 
@@ -52792,7 +52792,7 @@ If you have personalized query requirements, you can use the code editor provide
 
    - If you enable pagination, up to 2,000 data records can be returned on each page.
 
-7. Click the <img src="assets/39d9eba3d4a754b9f781364e922fe1f4.png" width="12" alt=""> icon in the top toolbar.
+7. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/39d9eba3d4a754b9f781364e922fe1f4.png" width="12" alt=""> icon in the top toolbar.
 
    After the API is configured, you can test the API. For more information, see Test an API.
 
@@ -52820,7 +52820,7 @@ On the configuration tab of an API, you can switch from the codeless UI to the c
 
 1. Go to the **Service Development** tab and double-click the target API. The configuration tab of the API appears.
 
-2. Click the <img src="assets/f4d048e9aef3c0158a8e1eac0d936755.png" width="12" alt=""> icon in the top toolbar. Select **Switch to Basic SQL** or **Switch to Advanced**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f4d048e9aef3c0158a8e1eac0d936755.png" width="12" alt=""> icon in the top toolbar. Select **Switch to Basic SQL** or **Switch to Advanced**
 
    **SQL**.
 
@@ -52846,11 +52846,11 @@ Data sources are configured on the **Workspace Management > Data Sources** page.
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Service >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Service >**
 
    **Data Service**.
 
-3. On the **Service Development** page, move your pointer over the <img src="assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose
+3. On the **Service Development** page, move your pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose
 
    **Create API > Generate API**.
 
@@ -53023,7 +53023,7 @@ Data sources are configured on the **Workspace Management > Data Sources** page.
 
    - If you turn on pagination, a maximum of 2,000 data records can be returned on each page.
 
-7. Click the <img src="assets/39d9eba3d4a754b9f781364e922fe1f4.png" width="12" alt=""> icon in the top toolbar.
+7. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/39d9eba3d4a754b9f781364e922fe1f4.png" width="12" alt=""> icon in the top toolbar.
 
    After the API is configured, you can test the API. For more information, see Test an API.
 
@@ -53124,7 +53124,7 @@ Four request methods and three data formats are supported. The four request meth
 
    <li>
 
-   In the upper-left corner, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Service >**
+   In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > Data Service >**
 
    </li>
 
@@ -53136,7 +53136,7 @@ Four request methods and three data formats are supported. The four request meth
 
    </ol>
 
-2. In the **Service Development** pane, move the pointer over the <img src="assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose **Create**
+2. In the **Service Development** pane, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose **Create**
 
    **API > Register API**.
 
@@ -53181,7 +53181,7 @@ Four request methods and three data formats are supported. The four request meth
 
 4. In the **Define Error Codes** section, configure the **Error Code**, **Error Message**, and **Solution** parameters to define an error code. The information helps API callers diagnose the causes of the error.
 
-5. Click the <img src="assets/4a1d08fcf62f1301736b84304c9a5c53.png" width="11" alt=""> icon in the top toolbar.
+5. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4a1d08fcf62f1301736b84304c9a5c53.png" width="11" alt=""> icon in the top toolbar.
 
    After the API is configured, you can test the API. For more information, see Test an API.
 
@@ -53215,7 +53215,7 @@ You can test an API that is being developed on the **Service Development** tab. 
 
 1. 
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
@@ -53281,7 +53281,7 @@ For security reasons, you must publish APIs that are created or registered in Da
 
    <li>
 
-   Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service >**
+   Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service >**
 
    </li>
 
@@ -53297,7 +53297,7 @@ For security reasons, you must publish APIs that are created or registered in Da
 
    After the API is submitted, a prompt message is displayed in the upper part of the page, and an API version is automatically generated. In the **Version** panel, you can view the current version information about the submitted API, such as the API status.
 
-   ![](assets/741911955570dbb86f147ceba6f6bbf7.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/741911955570dbb86f147ceba6f6bbf7.jpeg)
 
 3. Submit an application to publish the API.
 
@@ -53357,7 +53357,7 @@ You can unpublish, authorize access to, or change the protocols of APIs only aft
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
@@ -53371,7 +53371,7 @@ You can unpublish, authorize access to, or change the protocols of APIs only aft
 
 2. In the **API Authorization** dialog box, configure the parameters.
 
-   ![](assets/91248a4abf6d92bc99be18ef5c87d854.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/91248a4abf6d92bc99be18ef5c87d854.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -53490,7 +53490,7 @@ API Gateway allows you to use SDKs to authorize applications to call APIs. You c
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
@@ -53508,7 +53508,7 @@ API Gateway allows you to use SDKs to authorize applications to call APIs. You c
 
    - You can also view the information about the applications that are bound to the current workspace. This helps you find the applications in the API Gateway console.
 
-     ![](assets/afd8c591a53da3eab3b4a6d91a8a66b5.png)
+     ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/afd8c591a53da3eab3b4a6d91a8a66b5.png)
 
 <a id="section-11-4-5-2"></a>
 
@@ -53530,7 +53530,7 @@ DataWorks uses dashboards to provide various visual charts and statistics of API
 
 **View overall statistics**
 
-![](assets/90fc3461cb1ad498f91ea182a4665ec5.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/90fc3461cb1ad498f91ea182a4665ec5.jpeg)
 
 - Total APIs section
 
@@ -53556,19 +53556,19 @@ DataWorks uses dashboards to provide various visual charts and statistics of API
 
 The chart in the Resource Allocation section displays the trend of the number of API calls that are requested in the past 24 hours.
 
-![](assets/7202442af13e7f6764d483ec287f5cba.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/7202442af13e7f6764d483ec287f5cba.jpeg)
 
 **View rankings**
 
 - Top 10 API Operations with Highest Error Rate Yesterday section
 
-  ![](assets/ceefb54baa6d9fd2ca051367445cd8da.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ceefb54baa6d9fd2ca051367445cd8da.jpeg)
 
   In this section, you can view the top 10 APIs with the highest call error rate in the past 24 hours. You can view the ID, name, number of calls, and call error rate of each API.
 
 - Top 10 Frequently Called API Operations Yesterday section
 
-  ![](assets/ab9c88ac6faf22aa128c2b2f42c94daf.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ab9c88ac6faf22aa128c2b2f42c94daf.jpeg)
 
   In this section, you can view the top 10 APIs that are most frequently called or the top 10 applications that most frequently call APIs in the past 24 hours. You can click API or APP in the upper-right corner of the section to view rankings in different dimensions. In the API dimension, you can view the following information: API ID, API Name, Number of Requests, Execution Duration (ms), and Average Latency (ms). In the APP dimension, you can view the following information: APP ID, Application Name, Workspace, Number of Requests, Execution Duration (ms), and Average Latency (ms).
 
@@ -53592,31 +53592,31 @@ Find the API of which you want to view the statistics details and click **Monito
 
 - HTTP Status Codes chart
 
-  ![](assets/cbab3a9e3789c78c703b34255e5d43eb.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/cbab3a9e3789c78c703b34255e5d43eb.jpeg)
 
   The HTTP Status Codes chart displays the trends of the numbers of different HTTP status codes that are returned after the API is called in the specified period of time.
 
 - DataService Studio Error Codes chart
 
-  ![](assets/ea714025dbcb20f3ebcda98a8700746f.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ea714025dbcb20f3ebcda98a8700746f.jpeg)
 
   The DataService Studio Error Codes chart displays the trends of the numbers of different data service error codes that are returned after the API is called in the specified period of time. This helps you troubleshoot errors in an efficient manner.
 
 - Number of Application Requests chart
 
-  ![](assets/ed0b6ced6f0b9f11a0aa06b53fa4da59.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ed0b6ced6f0b9f11a0aa06b53fa4da59.jpeg)
 
   The Number of Application Requests chart displays the trends of the numbers of API calls from different applications in the specified period of time.
 
 - Traffic Bandwidth chart
 
-  ![](assets/4ba8aee79282db20a2aea0bb5c01c4ff.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/4ba8aee79282db20a2aea0bb5c01c4ff.jpeg)
 
   The Traffic Bandwidth chart displays the trends of the outbound traffic from DataService Studio and outbound traffic from API Gateway for API calls in the specified period of time.
 
 - Average Response Time chart
 
-  ![](assets/e46ce393ba7140541d0ed9518bee3039.jpeg)
+  ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e46ce393ba7140541d0ed9518bee3039.jpeg)
 
   The Average Response Time chart displays the trends of the execution durations in API Gateway, DataService Studio, and the data source after API calls are requested in the specified period of time.
 
@@ -53642,11 +53642,11 @@ DataService Studio allows you to add tags to APIs when you manage workflows and 
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
-3. Move the pointer over the <img src="assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose **Create API > Generate API**.
+3. Move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose **Create API > Generate API**.
 
 4. In the **Generate API** dialog box, set the API Mode parameter to Wizard Mode and enter a tag in the **Label** field.
 
@@ -53658,11 +53658,11 @@ DataService Studio allows you to add tags to APIs when you manage workflows and 
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
-3. Move the pointer over the <img src="assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose **Create API > Generate API**.
+3. Move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose **Create API > Generate API**.
 
 4. In the **Generate API** dialog box, set the API Mode parameter to Wizard Mode and click a blank area or the drop-down arrow in the **Label** field. Tags in the current workspace appear in a drop-down list.
 
@@ -53672,7 +53672,7 @@ DataService Studio allows you to add tags to APIs when you manage workflows and 
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
@@ -53718,7 +53718,7 @@ DataService Studio allows you to add tags to APIs when you manage workflows and 
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
@@ -53726,7 +53726,7 @@ DataService Studio allows you to add tags to APIs when you manage workflows and 
 
 4. In the right-side navigation pane, click **Properties**. In the Properties panel, view the tags of the API in the **Label** field.
 
-5. Click <img src="assets/f244351b8bc1811c943ab20760ab4385.png" width="15" alt=""> next to the tag that you want to remove.
+5. Click <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/f244351b8bc1811c943ab20760ab4385.png" width="15" alt=""> next to the tag that you want to remove.
 
 6. Click **Publish** in the upper-right corner. The tag is removed from the API.
 
@@ -53734,7 +53734,7 @@ DataService Studio allows you to add tags to APIs when you manage workflows and 
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
@@ -53762,7 +53762,7 @@ You can view and compare historical versions of APIs, workflows, and functions. 
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
@@ -53805,13 +53805,13 @@ This topic describes how to view, clone, delete, and move an API.
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
 3. In the **Service Development** pane, right-click the name of the specified API and select **View Details**.
 
-   ![](assets/16953d690e959c80a1db75ca294bc434.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/16953d690e959c80a1db75ca294bc434.png)
 
    > **Note**
    >
@@ -53825,7 +53825,7 @@ You can clone an API to a specific folder in the directory tree.
 
 2. In the **Clone API** dialog box, configure the parameters.
 
-   ![](assets/e2a9c05d59f12cbb04c49488ff371d88.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e2a9c05d59f12cbb04c49488ff371d88.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -53849,7 +53849,7 @@ You can delete only APIs that have not been published. If you want to delete API
 
    Click **Service Management** in the top navigation bar.
 
-   ![](assets/0844b64d5caa5836acd01855244155de.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0844b64d5caa5836acd01855244155de.png)
 
    </li>
 
@@ -53921,21 +53921,21 @@ A business process is created. For more information, see Create and manage busin
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
-3. Move the pointer over the <img src="assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose **Create Function > Create Aviator**
+3. Move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose **Create Function > Create Aviator**
 
    **Function**.
 
-   ![](assets/c91bb7156a680974d19aeecaba6177f6.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c91bb7156a680974d19aeecaba6177f6.jpeg)
 
    Alternatively, you can find the business process in which you want to create a function, right-click **Function**, and then choose **Create Function > Create Aviator Function**.
 
 4. In the **Create Aviator Function** dialog box, configure the parameters. The following table describes the parameters.
 
-   ![](assets/c841fa12c0b5ff51637115dd62eb8ee8.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c841fa12c0b5ff51637115dd62eb8ee8.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -53948,7 +53948,7 @@ A business process is created. For more information, see Create and manage busin
 
 6. In the **Edit Code** section of the function configuration tab, enter the function code.
 
-7. Click the <img src="assets/39d9eba3d4a754b9f781364e922fe1f4.png" width="12" alt=""> icon in the top toolbar.
+7. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/39d9eba3d4a754b9f781364e922fe1f4.png" width="12" alt=""> icon in the top toolbar.
 
    When you save a function for the first time, you must configure the **Memory** and **Function Timeout** parameters in the **Environment Configuration** panel.
 
@@ -53972,7 +53972,7 @@ After a function is created, you can click tabs in the right-side navigation pan
 
 2. Right-click the function name. In the shortcut menu that appears, select **Clone**, **Delete**, or **Mobile** to clone, delete, or move the function.
 
-   ![](assets/c4f96c335a6a443800b28cc5c8526f30.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c4f96c335a6a443800b28cc5c8526f30.jpeg)
 
    - Clone a function: Select **Clone**. In the **Clone Function** dialog box, configure the **Function Name** parameter, select a folder from the **Destination Folder** drop-down list, and click OK. The function is cloned.
 
@@ -54093,11 +54093,11 @@ You can modify the function template to write your own function. You can change 
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
-3. In the **Service Development** pane, move the pointer over the <img src="assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose **Create**
+3. In the **Service Development** pane, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e9ac78ce885e4c5504595e8391ef7ee2.png" width="12" alt=""> icon and choose **Create**
 
    **Function > Create Aviator Function**.
 
@@ -54105,7 +54105,7 @@ You can modify the function template to write your own function. You can change 
 
 4. In the **Create Aviator Function** dialog box, configure the parameters.
 
-   ![](assets/b356f4ad96c795886f90d8c14b440080.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b356f4ad96c795886f90d8c14b440080.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -54134,7 +54134,7 @@ You can modify the function template to write your own function. You can change 
 
    </ol>
 
-7. Click the <img src="assets/39d9eba3d4a754b9f781364e922fe1f4.png" width="12" alt=""> icon in the top toolbar.
+7. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/39d9eba3d4a754b9f781364e922fe1f4.png" width="12" alt=""> icon in the top toolbar.
 
 After the function is created, you can test and publish the function. Then, you can associate the function with an API and use the function as a prefilter or post-filter for the API.
 
@@ -54698,7 +54698,7 @@ Add a data source before you create and use a workflow. In this example, a MySQL
 
    <li>
 
-   Go to the **DataService Studio** page. On this page, move the pointer over the <img src="assets/8aa0de0389b4609ee2e3a5fefae7a0ac.png" width="10" alt=""> icon and
+   Go to the **DataService Studio** page. On this page, move the pointer over the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/8aa0de0389b4609ee2e3a5fefae7a0ac.png" width="10" alt=""> icon and
 
    choose **Create Function > Create Python Function**.
 
@@ -54766,7 +54766,7 @@ Add a data source before you create and use a workflow. In this example, a MySQL
 
    <li>
 
-   Click the <img src="assets/39d9eba3d4a754b9f781364e922fe1f4.png" width="12" alt=""> icon in the top toolbar.
+   Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/39d9eba3d4a754b9f781364e922fe1f4.png" width="12" alt=""> icon in the top toolbar.
 
    </li>
 
@@ -54790,7 +54790,7 @@ Add a data source before you create and use a workflow. In this example, a MySQL
 
    </ol>
 
-   ![](assets/82a09f1f40a1cffe34bd3e9aa3f6b959.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/82a09f1f40a1cffe34bd3e9aa3f6b959.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -54894,7 +54894,7 @@ Workflows are created and published. For more information, see Use workflows.
 
 1. Log on to DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Service > Data**
 
    **Service**.
 
@@ -54902,7 +54902,7 @@ Workflows are created and published. For more information, see Use workflows.
 
 4. Right-click the name of the workflow that you want to view and select **View Details**.
 
-   ![](assets/5f6550f3321687deaa3b926373143603.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5f6550f3321687deaa3b926373143603.png)
 
    > **Note**
    >
@@ -54912,7 +54912,7 @@ Workflows are created and published. For more information, see Use workflows.
 
 1. In the **Service Development** pane, right-click the name of the workflow that you want to clone and select **Clone**.
 
-   ![](assets/c33835295663ef4270b0e85c5c9a7854.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/c33835295663ef4270b0e85c5c9a7854.png)
 
 2. In the **Clone API** dialog box, configure the parameters.
 
@@ -54938,7 +54938,7 @@ You can delete only workflows that have not been published. If you want to delet
 
    Click **Service Management** in the top navigation bar.
 
-   ![](assets/0844b64d5caa5836acd01855244155de.png)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0844b64d5caa5836acd01855244155de.png)
 
    </li>
 
@@ -55108,7 +55108,7 @@ The package must contain XML-formatted definition files and configuration files 
 
 Oozie task descriptions are stored in a Hadoop Distributed File System (HDFS) directory. For example, on the Apache Oozie official website, each subdirectory under the **apps** directory in the Examples package is a task of Oozie. Each subdirectory contains XML-formatted definition files and configuration files of a task. The following figure shows the structure of an exported package.
 
-![](assets/e0e69d366142cce35f52b1ced206a1dd.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e0e69d366142cce35f52b1ced206a1dd.jpeg)
 
 **Export a job from Azkaban**
 
@@ -55126,7 +55126,7 @@ You can download a specific flow in the Azkaban console.
    >
    > The actual product page prevails.
 
-   ![](assets/b2f0d94abc124921143b67c3547a8414.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/b2f0d94abc124921143b67c3547a8414.jpeg)
 
    Native Azkaban packages can be exported. No format limit is imposed on the packages of Azkaban. The exported package in the ZIP format contains information about all jobs and relationships of a specific project of Azkaban. You can directly upload the ZIP package exported from the Azkaban console to the Scheduling Engine Import in DataWorks.
 
@@ -55141,7 +55141,7 @@ The following table describes the mappings between Azkaban items and DataWorks i
 | Hive-type job | ODPS SQL node | In DataWorks on MaxCompute mode, a Hive-type job is converted into an ODPS SQL node. You can specify the mapped node type by configuring the related parameter in the <strong>Advanced Settings</strong> dialog box. |
 | Other types of nodes that are not supported by DataWorks | Zero load node or Shell node | You can specify the mapped node type by configuring the related parameter in the <strong>Advanced Settings</strong> dialog box. |
 
-![](assets/5bc9761c6f43303583f1c34003a287b1.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5bc9761c6f43303583f1c34003a287b1.jpeg)
 
 **Export a task from DataGo**
 
@@ -55257,8 +55257,8 @@ The following table describes the mappings between DolphinScheduler items and Da
 | DolphinSche duler item | DataWorks item | Description |
 | --- | --- | --- |
 | Process | Workflows | Nodes in a DolphinScheduler process are converted into nodes in a DataWorks workflow. In addition, zero load nodes used as the start and end nodes in the DataWorks workflow are automatically added. |
-| SubProcess node | Zero load node | • When a process to which a SubProcess node belongs is converted into a DataWorks workflow, two zero load nodes are added to the workflow. One is used as the start node and the other is used as the end node.<br>• The SubProcess node is converted into a zero load node in the DataWorks workflow. The start node depends on the zero load node, and the descendant nodes of the SubProcess node depend on the end node.<br>![](assets/ee6f5526255e1c10930cafc70418678c.jpeg) |
-| Conditions node | Merge node | A dependency item and a conditional relation of a Conditions node are converted into a DataWorks merge node and related logic. The outermost logical dependency configured for the Conditions node uses the mapped merge node and another two merge nodes to determine whether a success or failure path is used.<br>Note<br>DataWorks cannot convert Conditions nodes for which cross-cycle scheduling dependencies are configured. If cross-cycle scheduling dependencies are configured for a Conditions node, DataWorks converts the dependencies into the same-cycle scheduling dependencies of the mapped auto triggered node in DataWorks.<br>![](assets/1df6bdac117792552f01c840fe60105e.jpeg) |
+| SubProcess node | Zero load node | • When a process to which a SubProcess node belongs is converted into a DataWorks workflow, two zero load nodes are added to the workflow. One is used as the start node and the other is used as the end node.<br>• The SubProcess node is converted into a zero load node in the DataWorks workflow. The start node depends on the zero load node, and the descendant nodes of the SubProcess node depend on the end node.<br>![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/ee6f5526255e1c10930cafc70418678c.jpeg) |
+| Conditions node | Merge node | A dependency item and a conditional relation of a Conditions node are converted into a DataWorks merge node and related logic. The outermost logical dependency configured for the Conditions node uses the mapped merge node and another two merge nodes to determine whether a success or failure path is used.<br>Note<br>DataWorks cannot convert Conditions nodes for which cross-cycle scheduling dependencies are configured. If cross-cycle scheduling dependencies are configured for a Conditions node, DataWorks converts the dependencies into the same-cycle scheduling dependencies of the mapped auto triggered node in DataWorks.<br>![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1df6bdac117792552f01c840fe60105e.jpeg) |
 | Depend node | Zero load node | The dependencies of a Depend node are converted into the input of the mapped zero load node based on the scheduling configurations. Concatenation rule for the input of the mapped zero load node:<br><code>{current_dataworks_project_name}.</code><br><code>{dolphin_project_name}.{dolphin_process_name}.</code><br><code>{dolphin_task_name}</code> |
 | SQL Task | Types of the compute engines that support conversion of SQL nodes in DolphinSched uler:<br>• HIVE<br>• SPARK<br>• CLICKHOUS E<br>• POSTGRES QL | You can specify the type of mapped compute engine node by configuring the related parameter in the <strong>Advanced Settings</strong> dialog box of an import node.<br>Note<br>The syntax of SQL code is not converted and the SQL code is not modified. |
 | Python node | A Python file resource and a Shell node that references the Python file resource | Issues may occur when scheduling parameters of the Python node are passed. Therefore, debugging and checks are required. |
@@ -55304,7 +55304,7 @@ DataWorks provides a standard template for you to export nodes of open source en
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > More > Migration**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > More > Migration**
 
    **Assistant**.
 
@@ -55326,7 +55326,7 @@ This topic describes how to import tasks that are exported from open source engi
 
 1. Log in to the DataWorks console.
 
-2. Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > More > Migration**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > More > Migration**
 
    **Assistant**.
 
@@ -55474,7 +55474,7 @@ Migration Assistant can be used to export up to 5,000 metadata records at a time
 
 1. Log in to the DataWorks console.
 
-2. On the DataWorks page, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
+2. On the DataWorks page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products**
 
    **> More > Migration Assistant**. By default, the homepage of Migration Assistant appears.
 
@@ -55628,7 +55628,7 @@ An Apsara Stack tenant account or a Resource Access Management (RAM) user to whi
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > More > Migration**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > More > Migration**
 
    **Assistant**. The homepage of Migration Assistant appears.
 
@@ -55757,7 +55757,7 @@ DataWorks Migration Assistant provides the object detection feature that allows 
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > More > Migration**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon and choose **All Products > More > Migration**
 
    **Assistant**. By default, the **Home Page** of Migration Assistant appears.
 
@@ -55789,7 +55789,7 @@ DataWorks collects statistics on all published data assets in the current worksp
 
 1. Go to the Data Assets page.
 
-2. On the Data Assets page, click the <img src="assets/2af04c443425625fc157b53ceba7e744.jpeg" width="13" alt=""> icon in the left-side navigation pane to go to the
+2. On the Data Assets page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/2af04c443425625fc157b53ceba7e744.jpeg" width="13" alt=""> icon in the left-side navigation pane to go to the
 
    **Asset Panorama** page. On the Asset Panorama page, you can view the following information:
 
@@ -55853,7 +55853,7 @@ Only **Open Platform administrators** and **tenant administrators** have read an
 
 1. Log on to the DataWorks console.
 
-2. Click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon in the upper-left corner and choose **All Products > More > Open**
+2. Click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon in the upper-left corner and choose **All Products > More > Open**
 
    **Platform** to open the **Developer Center**.
 
@@ -55885,7 +55885,7 @@ You can use Kafka to subscribe to change events such as table changes and file c
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > More >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > More >**
 
    **Openplatform**. The **Developer Backend** page appears.
 
@@ -55977,7 +55977,7 @@ DataWorks allows you to register service programs as extensions and use the exte
 
 1. Log in to the DataWorks console.
 
-2. In the upper-left corner, click the <img src="assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > More >**
+2. In the upper-left corner, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/1ef08bc0a88fc1e74ce305750b0b1aeb.png" width="13" alt=""> icon and choose **All Products > More >**
 
    **Openplatform**. The **Developer Backend** page appears.
 
@@ -56043,7 +56043,7 @@ Complete the procedure in Register an extension.
 
 1. Log on to the DataWorks console.
 
-2. On the **data development** page, click the <img src="assets/82bba1c327c4d21443276d952f5b02de.png" width="12" alt=""> icon in the upper-right corner.
+2. On the **data development** page, click the <img src="en-dataworks-user-guide-v3.18.6-2607-20260831.assets/82bba1c327c4d21443276d952f5b02de.png" width="12" alt=""> icon in the upper-right corner.
 
 3. In the left-side navigation pane, choose **Tenant management > Extension**.
 
@@ -56053,7 +56053,7 @@ Complete the procedure in Register an extension.
 
 2. In the extension list, find the target extension and turn on the switch in the **Enable** column. In the dialog box that appears, grant the required permissions.
 
-   ![](assets/10e0cc6578d87c176f25f0c6e9c218f3.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/10e0cc6578d87c176f25f0c6e9c218f3.jpeg)
 
    > **Note**
    >
@@ -56079,7 +56079,7 @@ Only authorized users can access the operation log. To gain access, contact your
 
 1. In the address bar of your browser, enter the service domain name for the Apsara Uni-manager Management Console and press Enter.
 
-   ![](assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
+   ![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
 
    > **Note**
    >
@@ -56155,9 +56155,9 @@ On the **Advanced Search** page, you can filter events by criteria such as organ
 
 If you have security and compliance requirements, you can export logs. On the **Advanced Search** page, click **Export Events** above the search results. Then, in the left-side navigation pane, choose **ActionTrail > Export History** to download the logs to your local machine.
 
-![](assets/fb2f5581501bd153d31ed378ec6628fe.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/fb2f5581501bd153d31ed378ec6628fe.jpeg)
 
-![](assets/5fb07bdc7675323af59c262557572982.jpeg)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/5fb07bdc7675323af59c262557572982.jpeg)
 
 **Appendix: DataWorks audit events**
 
@@ -56368,7 +56368,7 @@ Each task uses one or more tables (datasets) as input and generates one or more 
 
 Tasks fall into three types: Node Task, Flow Task, and Inner Node.
 
-![](assets/e8547667bcb72597510f3452d9828390.png)
+![](en-dataworks-user-guide-v3.18.6-2607-20260831.assets/e8547667bcb72597510f3452d9828390.png)
 
 | Type | Description |
 | --- | --- |

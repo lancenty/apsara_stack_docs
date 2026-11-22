@@ -339,7 +339,7 @@ This topic describes how to log in to ApsaraDB Operations and Maintenance System
    >
    > You can select a language from the drop-down list in the upper-right corner of the page.
 
-   ![](assets/67bb084ccbf7198d5b6692635233f1cf.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/67bb084ccbf7198d5b6692635233f1cf.jpeg)
 
 3. Enter the correct username and password.
 
@@ -1647,7 +1647,7 @@ This topic describes how to view information and perform operations on the perfo
 
    - **Select a time range**: You can specify a time range to view historical performance data in different periods of time.
 
-   - **View the full monitoring metric directory**: Click the <img src="assets/a1111a2c9fe92967beeae671e8c6ce78.png" width="18" alt=""> icon in the middle-right part
+   - **View the full monitoring metric directory**: Click the <img src="en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/a1111a2c9fe92967beeae671e8c6ce78.png" width="18" alt=""> icon in the middle-right part
 
      of the page to show the full monitoring metric directory. You can enter keywords to quickly search for and locate the monitoring metrics.
 
@@ -3075,7 +3075,7 @@ You can grant or revoke access permissions on specific databases for standard ac
 
 3. Find the account that you want to manage and click **Authorization** in the Operation column.
 
-   ![](assets/e541e8966f679c25ed58e4e610cb7e23.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/e541e8966f679c25ed58e4e610cb7e23.jpeg)
 
 4. Grant or revoke permissions:
 
@@ -3095,7 +3095,7 @@ You can delete accounts that are no longer needed to release resources.
 
 3. Find the account that you want to manage and click **Delete** in the Operation column.
 
-   ![](assets/6b6aa4a1e632b24e38ef566508ba0a0f.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/6b6aa4a1e632b24e38ef566508ba0a0f.jpeg)
 
 4. In the message that appears, click **Submit**.
 
@@ -3229,7 +3229,7 @@ The following table describes common statuses of a cluster instance and their me
 
 The cluster instance list supports the data export feature. On the cluster instance list page,
 
-click the <img src="assets/c0bcad519d4815f117bb2fca07704f76.png" width="19" alt=""> button in the upper-right corner of the page to export all data based on the filter
+click the <img src="en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/c0bcad519d4815f117bb2fca07704f76.png" width="19" alt=""> button in the upper-right corner of the page to export all data based on the filter
 
 conditions.
 
@@ -4046,9 +4046,9 @@ The physical machine group feature allows you to build a resource pool consistin
 
 2. In the **Create Group** dialog box, configure the **Group name** and **Database type** parameters, and select a machine from the **Machine** drop-down list.
 
-   ![](assets/4d42799e694806ef174a4df936274e59.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/4d42799e694806ef174a4df936274e59.jpeg)
 
-3. Select an idle physical machine and click the <img src="assets/d23bf4c30094a6d978770dd136f269fb.jpeg" width="22" alt=""> icon to add it to the current physical
+3. Select an idle physical machine and click the <img src="en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/d23bf4c30094a6d978770dd136f269fb.jpeg" width="22" alt=""> icon to add it to the current physical
 
    machine group.
 
@@ -6237,7 +6237,7 @@ This tab allows you to configure execution rules for specific SQL templates and 
 
 **Add an execution rule**
 
-1. On the Template list tab, click <img src="assets/9ad1e8bb2728837add641b7c62407814.png" width="15" alt=""> **> Execution rules** in the Operation column.
+1. On the Template list tab, click <img src="en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/9ad1e8bb2728837add641b7c62407814.png" width="15" alt=""> **> Execution rules** in the Operation column.
 
 2. Click **Add execution rules**.
 
@@ -7219,7 +7219,7 @@ This script forces the ServiceTest# process to a "final state" for special requi
 
 5. Click **Confirm Execution**.
 
-   ![](assets/f18d1060d91663932ac61cc2be3a72a7.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/f18d1060d91663932ac61cc2be3a72a7.jpeg)
 
 **Fix task and status for MySQL test instances**
 
@@ -7247,7 +7247,7 @@ Test instances are typically deleted automatically after they are created. Howev
 
 5. Click **Confirm Execution**.
 
-   ![](assets/2f3331a8638f576197501ffd00d30941.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/2f3331a8638f576197501ffd00d30941.jpeg)
 
 **Force-cancel MySQL backup tasks**
 
@@ -7271,7 +7271,7 @@ This script is intended for emergency use in backup failure scenarios only. If a
 
 5. Click **Confirm Execution**.
 
-   ![](assets/3ccb56fb5cd5ccbd048b2b21ce4c1aec.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/3ccb56fb5cd5ccbd048b2b21ce4c1aec.jpeg)
 
 **Forcibly restart a MySQL instance**
 
@@ -7299,7 +7299,7 @@ When a MySQL instance is in an abnormal state and cannot be restarted from the c
 
 5. Click **Confirm Execution**.
 
-   ![](assets/9e3f7163c2fb4aa5a608f1b481b2ddf8.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/9e3f7163c2fb4aa5a608f1b481b2ddf8.jpeg)
 
 **Clean up expired data in OSS**
 
@@ -7325,7 +7325,7 @@ If an analysis of OSS usage reveals that the  `rds-backup`  bucket contains many
 
 5. Click **Confirm Execution**.
 
-   ![](assets/5059fdadc45db0b24dd172b4fbb6e9b3.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/5059fdadc45db0b24dd172b4fbb6e9b3.jpeg)
 
 **Fix MySQL incremental log issues**
 
@@ -7355,7 +7355,7 @@ If an analysis of OSS usage reveals that the  `rds-backup`  bucket contains many
 
 5. Click **Confirm Execution**.
 
-   ![](assets/42744cb5453657b23ea49d5771160f28.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/42744cb5453657b23ea49d5771160f28.jpeg)
 
 **General operations**
 
@@ -7401,7 +7401,7 @@ If a built-in script does not meet your needs, import a standardized script pack
 
    </ol>
 
-   ![](assets/89c7aa5de436b6c1a8dda2d2ec43d399.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/89c7aa5de436b6c1a8dda2d2ec43d399.jpeg)
 
    <ol type="i" start="3">
 
@@ -7425,7 +7425,7 @@ In the **Actions** column for a script, click **Script Details**. In the panel t
 
 **Version number management**: The details page displays the current version number of the script, such as V1.0.4. For an imported script, if you update it from Tongquetai and re-import it, this version number is also updated. This helps you track script iterations.
 
-![](assets/1ffed88bff99d003b7f98fa66d9f6646.jpeg)
+![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/1ffed88bff99d003b7f98fa66d9f6646.jpeg)
 
 **View script execution records**
 
@@ -7441,19 +7441,19 @@ You can query historical tasks from two locations: the details page of a single 
 
   In the **Actions** column for the target script, click **Execution Record**. In the panel that appears, you can query the approval progress, execution status, and detailed process logs for historical tasks.
 
-  ![](assets/3147a172e5950f74e3229029788ab638.jpeg)
+  ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/3147a172e5950f74e3229029788ab638.jpeg)
 
 - **Method 2: View execution records for all scripts**
 
   In the navigation pane on the left, go to the **Intelligent O&M > Automated Script Management > Execution Record** tab. On this page, you can query the approval progress, execution status, and detailed process logs for all historical script tasks.
 
-  ![](assets/ff2cc22808e8e41bb5fd30c5dd970c9f.jpeg)
+  ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/ff2cc22808e8e41bb5fd30c5dd970c9f.jpeg)
 
 **Download script execution logs**
 
 In the **Actions** column for a script, click **Execution Record**. In the panel that appears, click **Download Log** to get the complete execution log file for the current task.
 
-![](assets/9558c325adc03804c6caabbcb9fd110c.jpeg)
+![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/9558c325adc03804c6caabbcb9fd110c.jpeg)
 
 **Disable a script**
 
@@ -7469,9 +7469,9 @@ In the **Actions** column for the script, click **Execution Record**. In the pan
 
 **> Terminate**.
 
-<img src="assets/5eaa2f71fabe6e2cd8fda5f408e6c82a.png" width="20" alt="">
+<img src="en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/5eaa2f71fabe6e2cd8fda5f408e6c82a.png" width="20" alt="">
 
-![](assets/7fad36905b28eb179caf8f8cf57d12df.jpeg)
+![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/7fad36905b28eb179caf8f8cf57d12df.jpeg)
 
 <a id="section-2-13"></a>
 
@@ -8557,7 +8557,7 @@ This topic describes how users, such as O&M engineers, log in to ApsaraDB Operat
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -9209,7 +9209,7 @@ Before performing a specification change, ensure that you complete the following
 
 3. In the lower part of the Basic information page, click **Specification change**.
 
-   ![](assets/300d0f6c62e56890688dd73a35abf143.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/300d0f6c62e56890688dd73a35abf143.jpeg)
 
 4. On the page that appears, specify **Storage space (GB)**, **Instance specifications**, **Switch Mode**, and **Reason for change**. Then, click **Next step**.
 
@@ -10308,11 +10308,11 @@ If a PolarDB-X instance fails to be created and is stuck at the wait_create_xdb_
 
 Solution: Check whether the creation tasks of these ApsaraDB RDS for MySQL nodes run properly. Then, you can retry the task by referring to ApsaraDB RDS for MySQL Operations and Maintenance Guide.
 
-![](assets/02fcf21e73134e36e5184b315748fb88.jpeg)
+![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/02fcf21e73134e36e5184b315748fb88.jpeg)
 
 On the PolarDB-X instance details page, click the corresponding ApsaraDB RDS for MySQL instance. In the left-side navigation pane of the page that appears, click **Task list**. On the page that appears, you can view the task flows of the corresponding storage nodes and GMS nodes.
 
-![](assets/4d541f55e387f5779b1bb0f6c6bc65a7.jpeg)
+![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/4d541f55e387f5779b1bb0f6c6bc65a7.jpeg)
 
 **Failed PolarDB-X release task**
 
@@ -10366,7 +10366,7 @@ After you change the data node specifications, the specifications of data nodes 
 
 3. In the lower part of the Basic information page, click **Specification change**.
 
-   ![](assets/300d0f6c62e56890688dd73a35abf143.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/300d0f6c62e56890688dd73a35abf143.jpeg)
 
 4. On the page that appears, specify **Storage space (GB)**, **Instance specifications**, **Switch Mode**, and **Reason for change**. Then, click **Next step**.
 
@@ -10476,7 +10476,7 @@ When business traffic increases or the load on existing proxy nodes becomes exce
 
 3. In the lower part of the Basic information page, click **Add Proxy Instance Node**.
 
-   ![](assets/1183e78c2535e14737b44b06aba98960.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/1183e78c2535e14737b44b06aba98960.jpeg)
 
 4. In the dialog box that appears, enter the number of nodes and click **Submit**.
 
@@ -10502,7 +10502,7 @@ In high write-load scenarios, the latency of primary/secondary synchronization i
 
 3. In the lower part of the Basic information page, click **Temporarily scale-up the primary-standby synchronization buffer**.
 
-   ![](assets/2d86ed411f3702c8afb2539309272b1e.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/2d86ed411f3702c8afb2539309272b1e.jpeg)
 
 4. In the dialog box that appears, enter the target scaling ratio and click **Submit**.
 
@@ -10888,9 +10888,9 @@ You can use the **physical machine group** feature to create a resource pool for
 
 2. In the **Create Group** dialog box, configure the **Group name** and **Database type** parameters, and select a machine from the **Machine** drop-down list.
 
-   ![](assets/4d42799e694806ef174a4df936274e59.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/4d42799e694806ef174a4df936274e59.jpeg)
 
-3. Select an idle physical machine and click the <img src="assets/d23bf4c30094a6d978770dd136f269fb.jpeg" width="22" alt=""> icon to add it to the current physical
+3. Select an idle physical machine and click the <img src="en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/d23bf4c30094a6d978770dd136f269fb.jpeg" width="22" alt=""> icon to add it to the current physical
 
    machine group.
 
@@ -11252,23 +11252,23 @@ On the Task list page, click a task ID in the **Task ID** column to go to the wo
 
 - **Basic Information**: displays the basic information of the workflow, including the task ID, workflow ID, workflow duration, and start and end time.
 
-  ![](assets/817ab14ea103abe3a052f6c8cec9efb4.jpeg)
+  ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/817ab14ea103abe3a052f6c8cec9efb4.jpeg)
 
 - **Execution Logs of Current Step**: displays the execution logs of the current step.
 
-  ![](assets/5adee74720bbf715bcdb20df847a7995.jpeg)
+  ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/5adee74720bbf715bcdb20df847a7995.jpeg)
 
 - **Workflow steps**: displays the execution details of each step of the workflow, such as the execution time, parameters, status, and duration. It also displays the operations in each step, such as retry, step redirection, and temporary closing.
 
   The following figure shows a successful step.
 
-  ![](assets/62eaef4474866070e1d8728bddf1df7a.jpeg)
+  ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/62eaef4474866070e1d8728bddf1df7a.jpeg)
 
   If a step fails, the retry, step redirection, and temporary closing are supported. The following figure shows a failed step.
 
 - **Task Intervention Logs**: displays the operation information of each workflow O&M.
 
-  ![](assets/3b2671964193e4e2de5f08c86002e5b5.jpeg)
+  ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/3b2671964193e4e2de5f08c86002e5b5.jpeg)
 
 - **Interrupt Workflows**: displays the Interrupted task tab. Click the ID of the interrupted task to go to the workflow details page. You can use it to handle interrupted steps.
 
@@ -11333,7 +11333,7 @@ By default, database system logs, such as audit logs, are written to SLS-inner, 
 
 3. On the **System parameter configuration** tab, change the value of DUKANG_OPEN_PUB_SLS to **true**.
 
-   ![](assets/27b8f769d694808d86233fcf52c14784.png)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/27b8f769d694808d86233fcf52c14784.png)
 
    > **Note**
    >
@@ -11449,7 +11449,7 @@ This topic describes how users such as O&M engineers log on to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-mongodb-operations-guide-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >

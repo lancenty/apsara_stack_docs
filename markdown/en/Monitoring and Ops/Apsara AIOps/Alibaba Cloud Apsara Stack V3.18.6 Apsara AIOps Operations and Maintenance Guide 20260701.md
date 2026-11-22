@@ -36,7 +36,7 @@ This topic describes how to log on to the AIOps Management Console.
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations console and press the Enter key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-20260701.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -66,7 +66,7 @@ This topic describes how to log on to the AIOps Management Console.
 
 5. In the top navigation bar, choose **Platform Operation > Management and Control Service O&M > AIOps Management Console**.
 
-   ![](assets/4fac63495a246798ea2e8608c7001015.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-20260701.assets/4fac63495a246798ea2e8608c7001015.jpeg)
 
 <a id="section-2"></a>
 
@@ -92,7 +92,7 @@ Centrally create, configure, and manage Q&A and process orchestration intelligen
    | Application Description | Enter the description of the application, such as the application scenario and purpose. |
    | Application introduction | Enter an introduction to the application, which is displayed on the smartphone homepage. |
 
-   ![](assets/b71a0b8dc6afaa44f59cdef543f96ffd.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-20260701.assets/b71a0b8dc6afaa44f59cdef543f96ffd.jpeg)
 
 **View applications**
 
@@ -135,7 +135,7 @@ Centrally create, configure, and manage Q&A and process orchestration intelligen
    <table>
      <tr>
        <td>dialogue type</td>
-       <td rowspan="2">• Prompt: Enter the content of the prompt. You can adjust the content of the prompt to guide the chat direction of the model. The prompt is fixed at the beginning of the context. Variables can be used:[data] is the information known in the carrying knowledge base;[question] is the question asked by the user.<br>• Model Service: Click<img src="assets/cb4ee3ac86eed1137de8c6674f4fa05e.png" width="12" alt=""><strong>Model</strong> and <strong>Surprise Value</strong>.<br>The value of <strong>Surprise Value</strong> is a floating-point number (0,1]. A higher value will make the output more random, while a smaller value will make the output more certain.<br>• knowledge base: Supports adding knowledge base documents as contexts.<br>• Click <strong>Add</strong> to add a knowledge base document. Click <strong>Create</strong> <strong>knowledge base</strong> in the upper-right corner to go to the knowledge base page. For more information, see knowledge base.<br>• Click<img src="assets/d0b6df0e5107bc82d21802a5f859e26e.png" width="12" alt="">to delete the added knowledge base document.<br>• MCP:<br>• Click <strong>Add</strong> to add an MCP. You can search for an MCP by name.<br>• Click<img src="assets/d0b6df0e5107bc82d21802a5f859e26e.png" width="12" alt="">to delete the added MCP.<br>• Debugging preview: supports debugging of dialog-based applications and predicts the accuracy of applications.<br>You can also <strong>copy</strong>, <strong>export</strong>, and view logs of the debugging response.</td>
+       <td rowspan="2">• Prompt: Enter the content of the prompt. You can adjust the content of the prompt to guide the chat direction of the model. The prompt is fixed at the beginning of the context. Variables can be used:[data] is the information known in the carrying knowledge base;[question] is the question asked by the user.<br>• Model Service: Click<img src="en-aiops-operations-guide-v3.18.6-20260701.assets/cb4ee3ac86eed1137de8c6674f4fa05e.png" width="12" alt=""><strong>Model</strong> and <strong>Surprise Value</strong>.<br>The value of <strong>Surprise Value</strong> is a floating-point number (0,1]. A higher value will make the output more random, while a smaller value will make the output more certain.<br>• knowledge base: Supports adding knowledge base documents as contexts.<br>• Click <strong>Add</strong> to add a knowledge base document. Click <strong>Create</strong> <strong>knowledge base</strong> in the upper-right corner to go to the knowledge base page. For more information, see knowledge base.<br>• Click<img src="en-aiops-operations-guide-v3.18.6-20260701.assets/d0b6df0e5107bc82d21802a5f859e26e.png" width="12" alt="">to delete the added knowledge base document.<br>• MCP:<br>• Click <strong>Add</strong> to add an MCP. You can search for an MCP by name.<br>• Click<img src="en-aiops-operations-guide-v3.18.6-20260701.assets/d0b6df0e5107bc82d21802a5f859e26e.png" width="12" alt="">to delete the added MCP.<br>• Debugging preview: supports debugging of dialog-based applications and predicts the accuracy of applications.<br>You can also <strong>copy</strong>, <strong>export</strong>, and view logs of the debugging response.</td>
      </tr>
      <tr>
        <td>a2a</td>
@@ -158,7 +158,7 @@ Centrally create, configure, and manage Q&A and process orchestration intelligen
 
 **Edit an application**
 
-1. On the **Application Management** page, find the application that you want to manage and click <img src="assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Edit** in the Actions column.
+1. On the **Application Management** page, find the application that you want to manage and click <img src="en-aiops-operations-guide-v3.18.6-20260701.assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Edit** in the Actions column.
 
    > **Note**
    >
@@ -168,7 +168,7 @@ Centrally create, configure, and manage Q&A and process orchestration intelligen
 
 **Delete an application**
 
-1. On the **Application Management** page, find the application that you want to delete and click <img src="assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Delete** in the Actions column.
+1. On the **Application Management** page, find the application that you want to delete and click <img src="en-aiops-operations-guide-v3.18.6-20260701.assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Delete** in the Actions column.
 
    > **Note**
    >
@@ -192,11 +192,11 @@ The built-in MCP Server can be viewed for applications.
 
 3. You can view all built-in MCP servers, including the name, **version**, and **description**. You can also search by name.
 
-   ![](assets/152f8b2bd0ed2a0e21589c73691c38ca.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-20260701.assets/152f8b2bd0ed2a0e21589c73691c38ca.jpeg)
 
 4. Click the name of the MCP instance to go to the MCP details page. You can obtain the **Basic Description** and **Tools**.
 
-   ![](assets/5b05d2e9aab2009ea444bbdafead36df.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-20260701.assets/5b05d2e9aab2009ea444bbdafead36df.jpeg)
 
 <a id="section-4"></a>
 
@@ -218,17 +218,17 @@ Before you create a knowledge base, you can perform the following operations on 
 
 4. Enter a name in the **Folder Name** field and click **OK**.
 
-   ![](assets/07cabb4f4d11f38623c54b0519fbe4f8.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-20260701.assets/07cabb4f4d11f38623c54b0519fbe4f8.jpeg)
 
 **Edit a folder**
 
-1. Click the <img src="assets/3fcb664955bc89768352e21e7e4a203e.png" width="14" alt=""> icon corresponding to the target folder.
+1. Click the <img src="en-aiops-operations-guide-v3.18.6-20260701.assets/3fcb664955bc89768352e21e7e4a203e.png" width="14" alt=""> icon corresponding to the target folder.
 
 2. In the dialog box that appears, modify the **Folder Name** and click **OK**.
 
 **Delete a folder**
 
-1. Click the <img src="assets/a01f125429b5f3e38604294a1ce695fd.png" width="10" alt=""> icon corresponding to the target folder.
+1. Click the <img src="en-aiops-operations-guide-v3.18.6-20260701.assets/a01f125429b5f3e38604294a1ce695fd.png" width="10" alt=""> icon corresponding to the target folder.
 
 2. In the dialog box that appears, click **Delete**.
 
@@ -242,7 +242,7 @@ Before you create a knowledge base, you can perform the following operations on 
 
 2. In the left-side navigation pane, click **knowledge base**.
 
-3. Click **Create knowledge base** or click the <img src="assets/ba44d10e31564a84377b4a8e9a3d917a.png" width="10" alt=""> icon in the Actions column.
+3. Click **Create knowledge base** or click the <img src="en-aiops-operations-guide-v3.18.6-20260701.assets/ba44d10e31564a84377b4a8e9a3d917a.png" width="10" alt=""> icon in the Actions column.
 
 4. Set the following parameters and click **OK**.
 
@@ -253,7 +253,7 @@ Before you create a knowledge base, you can perform the following operations on 
    | Embedding model | Select an embedding model. |
    | Folder | Select the folder to which the new knowledge base belongs. |
 
-   ![](assets/67abaa84c1b42b15194e8fa0b06f5730.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-20260701.assets/67abaa84c1b42b15194e8fa0b06f5730.jpeg)
 
 **View knowledge base**
 
@@ -281,7 +281,7 @@ Before you create a knowledge base, you can perform the following operations on 
    >
    > Support doc,docx,pdf,txt,md,html,xls,xlsx,csv and other types of files.
 
-   ![](assets/6725e628e1b6fe7046471240ba0558cf.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-20260701.assets/6725e628e1b6fe7046471240ba0558cf.jpeg)
 
 4. In the **Segment&Cleansing** step, select and configure the document segmentation parameters.
 
@@ -293,7 +293,7 @@ Before you create a knowledge base, you can perform the following operations on 
 
 6. In the **Data Processing** step, wait until the **Processing Status** of the file is **Data Processable** and click **OK**.
 
-   ![](assets/f6f6c2fb487168a75d664a783c492ea9.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-20260701.assets/f6f6c2fb487168a75d664a783c492ea9.jpeg)
 
 **Segmentation Configuration**
 
@@ -319,7 +319,7 @@ Before you create a knowledge base, you can perform the following operations on 
 
 **Edit knowledge base**
 
-1. Click <img src="assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Edit** in the Actions column corresponding to the target knowledge base.
+1. Click <img src="en-aiops-operations-guide-v3.18.6-20260701.assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Edit** in the Actions column corresponding to the target knowledge base.
 
    > **Note**
    >
@@ -335,7 +335,7 @@ Before you create a knowledge base, you can perform the following operations on 
 >
 > - Deleted can not be withdrawn, please operate with caution!
 
-1. Click <img src="assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Delete** in the Actions column corresponding to the target knowledge base.
+1. Click <img src="en-aiops-operations-guide-v3.18.6-20260701.assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Delete** in the Actions column corresponding to the target knowledge base.
 
 2. In the dialog box that appears, click **Delete**.
 
@@ -394,7 +394,7 @@ Supports displaying built-in models and configuring external inference services 
      | Model name in the APl endpoint | Enter the model name from the API endpoint. |
      | Vector dimension | This field takes effect only when you set <strong>Model Type</strong> to <strong>Embedding</strong>.<br>The dimension of the input vector. |
 
-     ![](assets/52e9195d3a08f7e5bf1a0b6d29962bae.jpeg)
+     ![](en-aiops-operations-guide-v3.18.6-20260701.assets/52e9195d3a08f7e5bf1a0b6d29962bae.jpeg)
 
      </li>
 
@@ -466,7 +466,7 @@ Supports displaying built-in models and configuring external inference services 
 
 6. Configure the default models of built-in applications and user-created applications. You can configure the **Inference Model**, **Embedding Model**, and **Rerank Model** parameters. Then, click **OK**.
 
-   ![](assets/25ce6f58eb774d3ea925caff601f0c1e.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-20260701.assets/25ce6f58eb774d3ea925caff601f0c1e.jpeg)
 
 <a id="section-6"></a>
 

@@ -94,17 +94,17 @@ Auto Scaling provides the following features:
 
   When demand for services suddenly grows, Auto Scaling automatically scales out the underlying resources. This ensures that resources are not overloaded and maintains the responsiveness of your servers. For example, if the vCPU utilization of ECS instances exceeds 80%, Auto Scaling scales out ECS resources based on your configurations. During the scale-out event, Auto Scaling automatically creates ECS instances, adds the ECS instances to a scaling group, and then adds the new instances to the backend server groups of the associated Server Load Balancer (SLB) instances and the whitelists of the associated ApsaraDB RDS instances. The following figure shows how a scale-out event is implemented.
 
-  ![](assets/0a9360198f206413793e01e40dca573a.png)
+  ![](en-ess-user-guide-v3.18.6-2607-20260828.assets/0a9360198f206413793e01e40dca573a.png)
 
 - Scale-in
 
   When demand for services drops, Auto Scaling automatically releases underlying resources to prevent waste of resources and reduce costs. For example, if the vCPU utilization of ECS instances in a scaling group falls below 30%, Auto Scaling automatically scales in ECS instances based on your configurations. During the scale-in event, Auto Scaling removes ECS instances from the scaling group and also from the backend server groups of the associated SLB instances and the whitelists of the associated ApsaraDB RDS instances. The following figure shows how a scale-in event is implemented.
 
-  ![](assets/e13328d653e408fcf558e90dc8104313.png)
+  ![](en-ess-user-guide-v3.18.6-2607-20260828.assets/e13328d653e408fcf558e90dc8104313.png)
 
 - Elastic recovery If ECS instances in a scaling group are not in the Running state, Auto Scaling considers the instances to be unhealthy. If an ECS instance is considered unhealthy, Auto Scaling automatically releases the instance and creates a new one. This process is called elastic recovery. Elastic recovery ensures that the number of healthy ECS instances in a scaling group does not fall below the minimum number of ECS instances that you specified for the scaling group. The following figure shows how an elastic recovery event is implemented.
 
-  ![](assets/d4e6b24098445a3bff770cd68388f4cf.png)
+  ![](en-ess-user-guide-v3.18.6-2607-20260828.assets/d4e6b24098445a3bff770cd68388f4cf.png)
 
 <a id="section-2"></a>
 
@@ -560,23 +560,23 @@ This topic describes how to use Auto Scaling to automatically scale your resourc
 
 The following procedure describes how to create a scaling group and enable automatic scaling:
 
-![](assets/1a3a341408d1aa75a85605f3e942c6ec.png)
+![](en-ess-user-guide-v3.18.6-2607-20260828.assets/1a3a341408d1aa75a85605f3e942c6ec.png)
 
 rule
 
-![](assets/c627e3c00a19830b2e288ce8f32f4515.png)
+![](en-ess-user-guide-v3.18.6-2607-20260828.assets/c627e3c00a19830b2e288ce8f32f4515.png)
 
-![](assets/8924596b09bf4ece2964909cfd0bd555.png)
+![](en-ess-user-guide-v3.18.6-2607-20260828.assets/8924596b09bf4ece2964909cfd0bd555.png)
 
-![](assets/ec30082c7e717367a20f643953480744.png)
+![](en-ess-user-guide-v3.18.6-2607-20260828.assets/ec30082c7e717367a20f643953480744.png)
 
-![](assets/53ea2cf9a1af8cd0854a442ec337491e.png)
+![](en-ess-user-guide-v3.18.6-2607-20260828.assets/53ea2cf9a1af8cd0854a442ec337491e.png)
 
-![](assets/d2a340ac11933e1a85e3a8c03e5b279c.png)
+![](en-ess-user-guide-v3.18.6-2607-20260828.assets/d2a340ac11933e1a85e3a8c03e5b279c.png)
 
 execute the scaling rule
 
-![](assets/03f842bdd762a2fae68be34ea3b67785.png)
+![](en-ess-user-guide-v3.18.6-2607-20260828.assets/03f842bdd762a2fae68be34ea3b67785.png)
 
 group
 
@@ -649,7 +649,7 @@ Before you use Auto Scaling to manage a group of instances that fall into the sa
 
 1. In the address bar of your browser, enter the service domain name for the Apsara Uni-manager Management Console and press Enter.
 
-   ![](assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
+   ![](en-ess-user-guide-v3.18.6-2607-20260828.assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
 
    > **Note**
    >
@@ -1904,7 +1904,7 @@ After you create a scaling group, you can view the details of the scaling group.
 
    - Filter by single condition: Select **Scaling Group Name**, **Scaling Group ID**, or **Tag**, enter
 
-     the filter information, and then click <img src="assets/d9194080919d605c058425f06162880e.jpeg" width="18" alt=""> .
+     the filter information, and then click <img src="en-ess-user-guide-v3.18.6-2607-20260828.assets/d9194080919d605c058425f06162880e.jpeg" width="18" alt=""> .
 
    - Filter by multiple conditions: Click **Advanced Filter**, enter multiple filters, and then click **Search**. You can select multiple filters to narrow down your search for scaling groups. By applying these filters one by one, you can quickly identify the specific scaling groups you need. To set a new filter condition, click **Reset**.
 

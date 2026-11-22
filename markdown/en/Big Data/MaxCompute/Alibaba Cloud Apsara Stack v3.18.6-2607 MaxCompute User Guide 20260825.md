@@ -572,7 +572,7 @@ This topic describes how to create a task account.
 
 - Customize the columns displayed in the task account list
 
-  You can click the <img src="assets/d874b649f3a29855dc97e070218678fc.png" width="18" alt=""> icon in the upper-right corner to customize the columns displayed in
+  You can click the <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/d874b649f3a29855dc97e070218678fc.png" width="18" alt=""> icon in the upper-right corner to customize the columns displayed in
 
   the task account list, such as **Account Primary Key** and **Account ID**. By default, the **Account Name** column is displayed.
 
@@ -697,7 +697,7 @@ On the **Project Management** page, you can view information for all projects, s
 
   Select the **Operation Logs** tab to view the number of API calls for the project over the past week in a bar chart. You can also view or filter log information in the log list. Click **Operation Details** in the Actions column of a log entry to view its basic information and API call details.
 
-  ![](assets/202eb797f3771631c85fc8072f4aa82c.jpeg)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/202eb797f3771631c85fc8072f4aa82c.jpeg)
 
 **Project management**
 
@@ -713,9 +713,9 @@ On the **Project Management** page, you can view information for all projects, s
 
 On the **Project Management** page, you can define and add tags to your projects for easier categorization, searching, and filtering.
 
-1. Hover over the **Tags** column for a project to display the edit icon <img src="assets/2f1b8cfb61af533eec5308f688bec7f0.png" width="14" alt=""> .
+1. Hover over the **Tags** column for a project to display the edit icon <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/2f1b8cfb61af533eec5308f688bec7f0.png" width="14" alt=""> .
 
-2. Click the edit icon <img src="assets/2f1b8cfb61af533eec5308f688bec7f0.png" width="14" alt=""> . In the **Edit Tags** dialog box, add a new tag or select an existing **Tag**
+2. Click the edit icon <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/2f1b8cfb61af533eec5308f688bec7f0.png" width="14" alt=""> . In the **Edit Tags** dialog box, add a new tag or select an existing **Tag**
 
    **Key** and **Tag Value**.
 
@@ -731,7 +731,7 @@ On the **Project Management** page, you can define and add tags to your projects
 
 4. The added tags are now visible on the **Project Management** page.
 
-   ![](assets/75c1b979db764e2a3f19b9848222a4a9.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/75c1b979db764e2a3f19b9848222a4a9.jpeg)
 
    After adding tags, you can use the **Filter by Tag** feature to select a **Tag Key** or **Tag Value** to find specific projects.
 
@@ -841,7 +841,7 @@ On the **Create Quota Group** page, configure the following parameters.
 
    In the **Configuration Overview** panel on the right, you can perform the following actions:
 
-   ![](assets/24544355b4e6d33018bc1cadde1d77ac.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/24544355b4e6d33018bc1cadde1d77ac.jpeg)
 
    - Review parameter configurations
 
@@ -911,7 +911,7 @@ To delete a quota group, find it in the list and click **Delete** in the **Actio
 
 **Customize the quota group display**
 
-You can click the <img src="assets/d874b649f3a29855dc97e070218678fc.png" width="18" alt=""> icon in the upper-right corner to customize the columns displayed in the
+You can click the <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/d874b649f3a29855dc97e070218678fc.png" width="18" alt=""> icon in the upper-right corner to customize the columns displayed in the
 
 **quota group** list. By default, only the **Quota Group Name** column is shown.
 
@@ -945,7 +945,7 @@ This topic describes the procedure to use MaxCompute. It provides you with step-
 
 The following figure shows the procedure to use MaxCompute.
 
-![](assets/432f2e96bbe14b6daed62247fb732ab4.jpeg)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/432f2e96bbe14b6daed62247fb732ab4.jpeg)
 
 1. Configure the client.
 
@@ -1932,7 +1932,7 @@ If PyODPS is used, you can use one of the following methods to enable the MaxCom
 
 - Use DataFrame. For example, you can set the hints parameter to specify an immediately executed method, such as persist, execute, or to_pandas. The settings in the following figure are valid only for a single job.
 
-  ![](assets/ceb32186df6bc8b3bd20d95b56fcb12e.jpeg)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/ceb32186df6bc8b3bd20d95b56fcb12e.jpeg)
 
 - If you use DataFrame to enable the MaxCompute V2.0 data type edition and want the settings to globally take effect, add the configuration  `options.sql.use_odps2_extension = True` .
 
@@ -5031,7 +5031,7 @@ The following example describes the concepts of MaxCompute MapReduce for WordCou
 
 In this example, a file named a.txt exists, and each line of the file contains a digit. You want to count the number of times each digit appears. Each digit is called a word, and the number of times it is used represents the count. The following figure shows how MaxCompute MapReduce counts the words.
 
-![](assets/0799f9b6462df16f3e149e26ca8038d5.jpeg)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/0799f9b6462df16f3e149e26ca8038d5.jpeg)
 
 1. The a.txt file is partitioned, and data in each partition is used as the input of a single map worker.
 
@@ -8828,7 +8828,7 @@ MaxCompute uses the MCP protocol. You can call APIs through the Apsara Assistant
 
    <li>
 
-   At the top of the page, click the <img src="assets/38773a4a56e0278801bedf108c47dc20.png" width="13" alt=""> icon in the toolbar to open the **Apsara Assistant**
+   At the top of the page, click the <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/38773a4a56e0278801bedf108c47dc20.png" width="13" alt=""> icon in the toolbar to open the **Apsara Assistant**
 
    dialog box.
 
@@ -8836,15 +8836,15 @@ MaxCompute uses the MCP protocol. You can call APIs through the Apsara Assistant
 
    <li>
 
-   At the bottom of the dialog box, click the <img src="assets/c723c5b28eee70fc0f3de5114ceefb2b.png" width="17" alt=""> icon, turn on the **MCP** switch, and then click
+   At the bottom of the dialog box, click the <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/c723c5b28eee70fc0f3de5114ceefb2b.png" width="17" alt=""> icon, turn on the **MCP** switch, and then click
 
    </li>
 
    </ol>
 
-   the <img src="assets/ed538a69ca092c0bfd94eb509192d193.png" width="16" alt=""> icon to open the **Select MCP** dialog box.
+   the <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/ed538a69ca092c0bfd94eb509192d193.png" width="16" alt=""> icon to open the **Select MCP** dialog box.
 
-   ![](assets/459377211e9d753ddae5d4b9c2c3210d.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/459377211e9d753ddae5d4b9c2c3210d.jpeg)
 
    <ol type="i" start="3">
 
@@ -8862,7 +8862,7 @@ MaxCompute uses the MCP protocol. You can call APIs through the Apsara Assistant
 
    <li>
 
-   Click the <img src="assets/ef67e5485b2e12ce9299685694a1d9d3.png" width="14" alt=""> icon on the right to send and execute the instruction.
+   Click the <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/ef67e5485b2e12ce9299685694a1d9d3.png" width="14" alt=""> icon on the right to send and execute the instruction.
 
    </li>
 
@@ -8930,7 +8930,7 @@ PyODPS can run in an on-premises environment, DataWorks, and Machine Learning Pl
 
 Do not download full data to your on-premises machine and run PyODPS. PyODPS is an SDK and can run on various clients, such as a PC, DataWorks (PyODPS nodes in DataStudio), and PAI Notebooks.
 
-![](assets/10d6aba830f23731eb4dfd2bcd358414.png)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/10d6aba830f23731eb4dfd2bcd358414.png)
 
 PyODPS allows you to download data to an on-premises machine by using different methods. For example, you can use Tunnel commands, the execute command, or the to_pandas method to download data. Therefore, multiple users who initially use PyODPS attempt to download data to an on-premises machine and upload the data to MaxCompute after the data is processed. In most cases, this data processing method is inefficient and does not take advantage of the large-scale parallel computing capability of MaxCompute.
 
@@ -9109,11 +9109,11 @@ PyODPS can be called as a data development node on a data development platform, 
 
    </ol>
 
-   After you write the code, click the <img src="assets/27b84586aedce2eb74bed7c825b35544.png" width="10" alt=""> icon in the top toolbar. After the code is run, you can
+   After you write the code, click the <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/27b84586aedce2eb74bed7c825b35544.png" width="10" alt=""> icon in the top toolbar. After the code is run, you can
 
    view the running result of the PyODPS 3 node on the **Runtime Log** tab. The result in the following figure indicates that the code is successfully run.
 
-   ![](assets/ed13194559f833b612fb15b762f17d87.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/ed13194559f833b612fb15b762f17d87.jpeg)
 
 <a id="section-9-3"></a>
 
@@ -9159,7 +9159,7 @@ PyODPS is the Python SDK for MaxCompute. You can use it to develop and run PyODP
 
    Create the node based on the Python version you use.
 
-   ![](assets/078e878d37d4cbc4e2a8734b75b434c0.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/078e878d37d4cbc4e2a8734b75b434c0.png)
 
 2. Develop the PyODPS task code.
 
@@ -9702,7 +9702,7 @@ You can check the PyODPS version with Python code or find it in the run log of a
 
 - View the PyODPS version in the run log of a PyODPS task, as shown in the following example.
 
-  ![](assets/5a86170024a6a21204388bc8aed54b38.png)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/5a86170024a6a21204388bc8aed54b38.png)
 
 **Appendix: Granting permissions to other users**
 
@@ -9724,7 +9724,7 @@ SHOW grants FOR ALIYUN$<account_name>;
 
 The following figure shows an example of the authorization result:
 
-![](assets/67e9772fc7fb9a620d89794dfc5abc2b.png)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/67e9772fc7fb9a620d89794dfc5abc2b.png)
 
 **Appendix: Sample data**
 
@@ -11705,7 +11705,7 @@ You now have three tables:  `pyodps_ml_100k_movies`  (movie data),  `pyodps_ml_1
 
    The command generates the following chart.
 
-   ![](assets/c0f0181994d3cee74544ae3be3bf7ecf.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/c0f0181994d3cee74544ae3be3bf7ecf.png)
 
 0. Use the  `join`  method to join the three tables and persist the result as a new table named pyodps_ml_100k_lens.
 
@@ -11807,7 +11807,7 @@ First, download the iris dataset and save it to your local machine.
 
    <li>
 
-   In the upper-left corner of the editor, click DDL <img src="assets/a1cee734120f92b17f56e93bea305dca.jpeg" width="40" alt="">
+   In the upper-left corner of the editor, click DDL <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/a1cee734120f92b17f56e93bea305dca.jpeg" width="40" alt="">
 
    </li>
 
@@ -11837,7 +11837,7 @@ First, download the iris dataset and save it to your local machine.
 
    Right-click the table you created, select **Import Data**, click **Next**, and upload the downloaded dataset.
 
-   ![](assets/eb913cc9e89c935b8c81ab0a1e752d22.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/eb913cc9e89c935b8c81ab0a1e752d22.png)
 
    </li>
 
@@ -11851,7 +11851,7 @@ First, download the iris dataset and save it to your local machine.
 
 3. Open the target **workflow**, right-click **MaxCompute**, and select **Create Node.** Then, select **PyODPS 3** to create a PyODPS node. You will use this node to store and run your code.
 
-4. Enter the code and click Run <img src="assets/3e30c33d09cdba464ec288125f128e28.jpeg" width="22" alt=""> . After the run is complete, you can view the results in the
+4. Enter the code and click Run <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/3e30c33d09cdba464ec288125f128e28.jpeg" width="22" alt=""> . After the run is complete, you can view the results in the
 
    **Run Log** section below. The code details are as follows.
 
@@ -14601,7 +14601,7 @@ To use UDFs for one row, you can use the  `apply`  method. The  `axis`  paramete
 
 - If  `the reduce parameter is set to True, a Sequence object is returned. Otherwise, a`
 
-  ![](assets/b73c3351b11752be9378fd3df6b79f69.png)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/b73c3351b11752be9378fd3df6b79f69.png)
 
   `Collection object is returned. You can use the   names`  and  `types`  parameters to specify the field names and types of the returned Sequence or Collection object. By default, if you do not specify a type, STRING type is used.
 
@@ -14937,7 +14937,7 @@ You can upload the third-party Python packages as resources to MaxCompute. Suppo
 
   </ol>
 
-  ![](assets/4dfbad92011ec3c48f43c9cf6d1d4ae0.jpeg)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/4dfbad92011ec3c48f43c9cf6d1d4ae0.jpeg)
 
   <ol type="i" start="4">
 
@@ -15263,7 +15263,7 @@ To use a third-party package in MaxCompute, all dependencies must be uploaded. T
 
 You can click python-dateutils to find python-dateutil-2.6.0.zip and download python-dateutil-2.6.0.zip.
 
-![](assets/4dfbad92011ec3c48f43c9cf6d1d4ae0.jpeg)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/4dfbad92011ec3c48f43c9cf6d1d4ae0.jpeg)
 
 Rename the downloaded file to python-dateutil.zip and upload the resource in MaxCompute Console.
 
@@ -16028,7 +16028,7 @@ Run the  `pip install matplotlib`  command to install the Matplotlib library, an
   <matplotlib.axes._subplots.AxesSubplot at 0x10c2b3510>
   ```
 
-  ![](assets/c92a8617d565d52ca0e96b5e8d9c4614.png)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/c92a8617d565d52ca0e96b5e8d9c4614.png)
 
 - Multi-line plot
 
@@ -16037,7 +16037,7 @@ Run the  `pip install matplotlib`  command to install the Matplotlib library, an
   <matplotlib.axes._subplots.AxesSubplot at 0x10db7e690>
   ```
 
-  ![](assets/c01b27687b797d525a9b341c79320853.png)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/c01b27687b797d525a9b341c79320853.png)
 
 - Vertical bar plot
 
@@ -16046,7 +16046,7 @@ Run the  `pip install matplotlib`  command to install the Matplotlib library, an
   <matplotlib.axes._subplots.AxesSubplot at 0x10c5f2090>
   ```
 
-  ![](assets/6d05d4fd32d1c727b634bf725b0d3389.png)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/6d05d4fd32d1c727b634bf725b0d3389.png)
 
 - Histogram
 
@@ -16059,7 +16059,7 @@ Run the  `pip install matplotlib`  command to install the Matplotlib library, an
   dtype=object)
   ```
 
-  ![](assets/e7b18873b8353474f177d9e97253129c.png)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/e7b18873b8353474f177d9e97253129c.png)
 
 The  `kind`  parameter specifies the plot type. The following table lists the plot types that are supported by PyODPS DataFrame. For more information, see pandas.DataFrame.plot.
 
@@ -16106,7 +16106,7 @@ DataFrame visualization depends on graphviz and the graphviz package for Python.
 >>> df.visualize()
 ```
 
-![](assets/73f411bbdec29c20c40219c2996582d7.jpeg)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/73f411bbdec29c20c40219c2996582d7.jpeg)
 
 The computation process shows that PyODPS DataFrame combines the  `groupby`  operation with the column filtering operation.
 
@@ -16116,7 +16116,7 @@ The computation process shows that PyODPS DataFrame combines the  `groupby`  ope
 >>> df2.visualize()
 ```
 
-![](assets/705c6c7bb39a61dc6c009ef96c10cd1f.jpeg)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/705c6c7bb39a61dc6c009ef96c10cd1f.jpeg)
 
 In this case, the entire execution process runs in two steps because a cache operation is performed.
 
@@ -16542,7 +16542,7 @@ PyODPS is a Python package rather than a Python implementation. PyODPS runs in u
 
   The following figure shows the systems that are involved when the preceding sample code is executed. The systems in which code is executed are located outside MaxCompute. In this topic, the systems are referred to as an **on-premises system**.
 
-  ![](assets/201e3241cfb15dde5ecab2b92f8d7df6.jpeg)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/201e3241cfb15dde5ecab2b92f8d7df6.jpeg)
 
 - Code analysis
 
@@ -16996,9 +16996,9 @@ The following prerequisites are met:
    print iris.query("(sepallength < 5) and (petallength > 1.5)").head(5)
    ```
 
-8. Click <img src="assets/ed1595a37b526b93aa9867b47a36e174.png" width="11" alt=""> .
+8. Click <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/ed1595a37b526b93aa9867b47a36e174.png" width="11" alt=""> .
 
-   ![](assets/3c11d1e6067beb6ff5c4151b77d9a885.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/3c11d1e6067beb6ff5c4151b77d9a885.png)
 
 9. View the execution result of the PyODPS 2 node on the **Runtime Log** tab.
 
@@ -17365,7 +17365,7 @@ The following operations are performed:
 
    Click the **Run** icon on the toolbar to insert the data from the user_detail_ods table into the user_detail partitioned table.
 
-   ![](assets/ce42abdd3165558be04eb94373c43a98.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/ce42abdd3165558be04eb94373c43a98.jpeg)
 
    </li>
 
@@ -17441,7 +17441,7 @@ The following operations are performed:
 
    </ol>
 
-   ![](assets/e14a3b10072cab153641f04fad6b496f.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/e14a3b10072cab153641f04fad6b496f.jpeg)
 
    <ol type="i" start="8">
 
@@ -17465,7 +17465,7 @@ The following operations are performed:
 
    View the execution result of the node on the **Runtime Log** tab.
 
-   ![](assets/a05dc54d196574a73d1bbdf8cec402b0.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/a05dc54d196574a73d1bbdf8cec402b0.jpeg)
 
    </li>
 
@@ -17560,9 +17560,9 @@ The following prerequisites are met:
 
    <li>
 
-   Click <img src="assets/ed1595a37b526b93aa9867b47a36e174.png" width="11" alt=""> to insert data into the partition table user_detail.
+   Click <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/ed1595a37b526b93aa9867b47a36e174.png" width="11" alt=""> to insert data into the partition table user_detail.
 
-   ![](assets/ce42abdd3165558be04eb94373c43a98.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/ce42abdd3165558be04eb94373c43a98.jpeg)
 
    </li>
 
@@ -17652,7 +17652,7 @@ The following prerequisites are met:
 
    </ol>
 
-   ![](assets/e14a3b10072cab153641f04fad6b496f.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/e14a3b10072cab153641f04fad6b496f.jpeg)
 
    <ol type="i" start="8">
 
@@ -17672,7 +17672,7 @@ The following prerequisites are met:
 
    View the execution result of the node on the **Runtime Log** tab.
 
-   ![](assets/653c6fc4b2e2ec45a4f313fb822e51e4.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/653c6fc4b2e2ec45a4f313fb822e51e4.jpeg)
 
    </li>
 
@@ -17767,9 +17767,9 @@ The following operations are performed:
 
    <li>
 
-   Click <img src="assets/ed1595a37b526b93aa9867b47a36e174.png" width="11" alt=""> to insert data into the partition table user_detail.
+   Click <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/ed1595a37b526b93aa9867b47a36e174.png" width="11" alt=""> to insert data into the partition table user_detail.
 
-   ![](assets/ce42abdd3165558be04eb94373c43a98.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/ce42abdd3165558be04eb94373c43a98.jpeg)
 
    </li>
 
@@ -17835,9 +17835,9 @@ The following operations are performed:
 
    <li>
 
-   Click the <img src="assets/4194ba5dadbdd35ef53effe6607b208a.png" width="14" alt=""> icon.
+   Click the <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/4194ba5dadbdd35ef53effe6607b208a.png" width="14" alt=""> icon.
 
-   ![](assets/2e418f567e68ae6ce1ae6f3a3fba2a89.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/2e418f567e68ae6ce1ae6f3a3fba2a89.jpeg)
 
    </li>
 
@@ -17845,7 +17845,7 @@ The following operations are performed:
 
    You can view the execution results in the **Running Log**.
 
-   ![](assets/94315f0d553eb9cd4f63c47429c91c96.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/94315f0d553eb9cd4f63c47429c91c96.jpeg)
 
    </li>
 
@@ -17937,7 +17937,7 @@ The following operations are performed:
    print (iris.sepallength + iris.sepalwidth).rename('sum_sepal').head(5)
    ```
 
-6. Click the <img src="assets/4194ba5dadbdd35ef53effe6607b208a.png" width="14" alt=""> icon.
+6. Click the <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/4194ba5dadbdd35ef53effe6607b208a.png" width="14" alt=""> icon.
 
 7. View the result on the **Run Log** tab.
 
@@ -18228,7 +18228,7 @@ The following operations are performed:
 
 7. Click the **Run** icon on the toolbar.
 
-   ![](assets/64d85c2b3f87e2e402adb9744c18d40f.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/64d85c2b3f87e2e402adb9744c18d40f.png)
 
 8. View the execution result of the PyODPS 2 node on the **Runtime Log** tab.
 
@@ -18513,7 +18513,7 @@ The following operations are performed:
 
 8. Click the **Run** icon on the toolbar.
 
-   ![](assets/3a89c28ac4fca15b02d0b0044062c020.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/3a89c28ac4fca15b02d0b0044062c020.png)
 
 9. View the execution result of the PyODPS 2 node on the **Runtime Log** tab.
 
@@ -18835,7 +18835,7 @@ The following operations are performed:
 
 9. View the execution result of the node on the **Runtime Log** tab.
 
-   ![](assets/c49d23665385ba630e2738c6f4baa125.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/c49d23665385ba630e2738c6f4baa125.png)
 
    The following result is returned:
 
@@ -19007,7 +19007,7 @@ The following operations are performed:
 
 9. View the execution result of the node on the **Runtime Log** tab.
 
-   ![](assets/cf7580e3e2e77c7523851d56561e1f94.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/cf7580e3e2e77c7523851d56561e1f94.png)
 
    The following result is returned:
 
@@ -19153,7 +19153,7 @@ The following operations are performed:
 
 8. Click the **Run** icon in the toolbar.
 
-   ![](assets/1a1413bcfef20d13c941c8dbed0aaf4b.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/1a1413bcfef20d13c941c8dbed0aaf4b.png)
 
 9. View the execution result of the node on the **Runtime Log** tab.
 
@@ -19708,11 +19708,11 @@ The following operations are performed:
 
 8. Click the **Run** icon on the toolbar.
 
-   ![](assets/10de0bc81dd2984368853e0a6aedb0d6.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/10de0bc81dd2984368853e0a6aedb0d6.png)
 
 9. View the execution result of the node on the **Runtime Log** tab.
 
-   ![](assets/6461a1986659fa9301f3f3b3290c86cc.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/6461a1986659fa9301f3f3b3290c86cc.png)
 
    In this example, the following information appears on the Run Log tab:
 
@@ -19943,11 +19943,11 @@ The following operations are performed:
 
 6. Click the **Run** icon on the toolbar.
 
-   ![](assets/10de0bc81dd2984368853e0a6aedb0d6.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/10de0bc81dd2984368853e0a6aedb0d6.png)
 
 7. View the execution result of the node on the **Runtime Log** tab.
 
-   ![](assets/cf6a336c59a35eaa5761742a71a72ac7.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/cf6a336c59a35eaa5761742a71a72ac7.png)
 
    In this example, the following information appears on the Run Log tab:
 
@@ -21048,17 +21048,17 @@ The demo consists of the following steps:
 
 3. Access the link in the command output. Logview
 
-   ![](assets/a697555914fa91f064691b9021f24cb9.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/a697555914fa91f064691b9021f24cb9.jpeg)
 
    SparkUI
 
-   ![](assets/e5773214d00a812162716ae8e3d563c7.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/e5773214d00a812162716ae8e3d563c7.jpeg)
 
-   ![](assets/9dc97a3f6b08ddd25bb564b17c1f8e70.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/9dc97a3f6b08ddd25bb564b17c1f8e70.jpeg)
 
    Spark History
 
-   ![](assets/a64f26ed6a7725f41514222e9c2c623a.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/a64f26ed6a7725f41514222e9c2c623a.jpeg)
 
 <a id="section-11-1-3-6"></a>
 
@@ -21744,15 +21744,15 @@ inc.com/api&p=project_name&i=xxx&t=spark&id=application_xxx&metaname=xxx&token=x
 
 1. View basic execution information about the task of the CUPID type in a browser based on the Logview URL.
 
-   ![](assets/f41b76335317fab6c93ef5c427ef740d.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/f41b76335317fab6c93ef5c427ef740d.jpeg)
 
 2. Click the progress bar of the task whose **TaskName** is **master-0**. In the lower pane, click **All** and find TempRoot in the **FuxiInstance** column.
 
-   ![](assets/5ac2ded6b8ce4ae3c71c436d50b0a239.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/5ac2ded6b8ce4ae3c71c436d50b0a239.jpeg)
 
 3. Click the icon in the **StdOut** column that corresponds to TempRoot to view the output of SparkPi.
 
-   ![](assets/54e8973c27c8ae6545b71dd31fa97800.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/54e8973c27c8ae6545b71dd31fa97800.jpeg)
 
 **Use Spark web UI to diagnose a job**
 
@@ -21760,11 +21760,11 @@ The tracking URL in the log indicates that your job is submitted to the MaxCompu
 
 1. Access the URL in a browser to track the running status of your Spark job.
 
-   ![](assets/d1edce6b8c827415e61c277d19c79544.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/d1edce6b8c827415e61c277d19c79544.jpeg)
 
 2. Click **StdOut** in the Logs column that corresponds to the driver to view the output of the Spark job.
 
-   ![](assets/c05dd0acd5bbe77171f265c89ae3b79d.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/c05dd0acd5bbe77171f265c89ae3b79d.jpeg)
 
 <a id="section-11-1-3-9"></a>
 
@@ -21895,7 +21895,7 @@ The best solution is to allocate resources based on your business requirements. 
 >
 > Spark help and Spark configuration.
 
-![](assets/824f0b2f37d52e48784fdd9aea854c39.jpeg)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/824f0b2f37d52e48784fdd9aea854c39.jpeg)
 
 **Enable DRA**
 
@@ -22142,7 +22142,7 @@ MSCK [REPAIR] TABLE external_table_name [ADD PARTITIONS];
 
 1. Upload data to OSS. The object paths in OSS are as follows:
 
-   ![](assets/2626919d7986c3cbf5893c2e628bef09.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/2626919d7986c3cbf5893c2e628bef09.jpeg)
 
 2. Run the following command to create an external table named orc_pt_v0, partitioned by the pt column.
 
@@ -22818,7 +22818,7 @@ The following figure shows the flowchart for data migration.
 
 MaxCompute is used as a central computing platform. It reads data from an OSS bucket and then writes the data to another OSS bucket (in a different location or within a different OSS account).
 
-![](assets/d630947e844728d4d4e5a8ddae2a86d4.jpeg)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/d630947e844728d4d4e5a8ddae2a86d4.jpeg)
 
 Based on the data flow and processing logic shown in the preceding figure, the unstructured data processing framework can be considered a coupled data ingress and egress at both ends of MaxCompute.
 
@@ -24614,7 +24614,7 @@ For existing MaxCompute projects, you must install the Information Schema permis
 
    The query result is shown in the following figure.
 
-   ![](assets/ca783980e72dae445f3b360f48266b9c.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/ca783980e72dae445f3b360f48266b9c.jpeg)
 
 **Query metadata views**
 
@@ -25182,7 +25182,7 @@ Displays historical data that is uploaded and downloaded at the same time over a
 | end_time | DATETIME | The end time of the request. |
 | client_ip | STRING | The IP address of the client that initiates the request. |
 
-![](assets/dadf13ebe1a6fb0c9c4f97b9356ce702.png)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/dadf13ebe1a6fb0c9c4f97b9356ce702.png)
 
 <table>
   <tr>
@@ -26748,11 +26748,11 @@ The following diagram shows the basic structure of an access policy. A policy co
 
 **Policy structure diagram**
 
-![](assets/1165931d9f4586af4a6a27d392a976e4.png)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/1165931d9f4586af4a6a27d392a976e4.png)
 
 **Condition 1**
 
-![](assets/a8c761628357b7c44919cadecf21351f.png)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/a8c761628357b7c44919cadecf21351f.png)
 
 - **Condition block**
 
@@ -26764,7 +26764,7 @@ The following diagram shows the basic structure of an access policy. A policy co
 
   Conditions
 
-![](assets/716c15e4f8044c93a842e96909fdfaa7.png)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/716c15e4f8044c93a842e96909fdfaa7.png)
 
 **Condition block**
 
@@ -26772,7 +26772,7 @@ The following diagram shows the basic structure of an access policy. A policy co
 
 **2**
 
-![](assets/59b165ea9615e497bfd11cf458a0bc91.png)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/59b165ea9615e497bfd11cf458a0bc91.png)
 
 **Header**
 
@@ -27511,17 +27511,17 @@ MaxCompute provides the Eclipse development plug-in to help you use SDKs for Jav
 
 3. Start the Eclipse development plug-in and click the **Open Perspective** icon in the upper-right corner, as shown in the following figure.
 
-   ![](assets/b8ceb9a5263133c248360a574c4d5173.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/b8ceb9a5263133c248360a574c4d5173.jpeg)
 
 4. In the dialog box that appears, click **ODPS** and then **Open**.
 
-   ![](assets/c07b931c00e20a702f30f97b4256ced9.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/c07b931c00e20a702f30f97b4256ced9.jpeg)
 
-5. The <img src="assets/68249a0ffe0bddc57241770edabaaf92.png" width="17" alt=""> icon appears in the upper-right corner, which indicates that the Eclipse
+5. The <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/68249a0ffe0bddc57241770edabaaf92.png" width="17" alt=""> icon appears in the upper-right corner, which indicates that the Eclipse
 
    development plug-in is in effect, as shown in the following figure.
 
-   ![](assets/4635045d56018790e57d3dc2a67ddcf4.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/4635045d56018790e57d3dc2a67ddcf4.jpeg)
 
 <a id="section-13-2-2"></a>
 
@@ -27537,7 +27537,7 @@ This topic describes how to create a project with the Eclipse development plug-i
 
    In the upper-left corner of the Eclipse development plug-in, choose **File > New > ODPS Project** to create a project, as shown in the following figure.
 
-   ![](assets/91c5cb4420e787bf53f616c2eff91335.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/91c5cb4420e787bf53f616c2eff91335.jpeg)
 
    **Method 2**
 
@@ -27545,11 +27545,11 @@ This topic describes how to create a project with the Eclipse development plug-i
 
    <li>
 
-   In the toolbar of the Eclipse development plug-in, click the <img src="assets/ac80b008aaa37d39569c1f3d49a87d06.png" width="13" alt=""> icon, as shown in the
+   In the toolbar of the Eclipse development plug-in, click the <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/ac80b008aaa37d39569c1f3d49a87d06.png" width="13" alt=""> icon, as shown in the
 
    following figure.
 
-   ![](assets/86479f0cb877039edae7d614bfcfd312.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/86479f0cb877039edae7d614bfcfd312.jpeg)
 
    </li>
 
@@ -27561,11 +27561,11 @@ This topic describes how to create a project with the Eclipse development plug-i
 
    </ol>
 
-   ![](assets/c0d5da387b3a079b056d7b8c23be08b7.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/c0d5da387b3a079b056d7b8c23be08b7.jpeg)
 
 2. The New ODPS Project Wizard dialog box appears. Enter the project name (odps is used as the project name in this example), select the path of the MaxCompute client, and click **Finish**.
 
-   ![](assets/0645e62246dbd12a7a29adbac1f90b5b.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/0645e62246dbd12a7a29adbac1f90b5b.jpeg)
 
    > **Note**
    >
@@ -27573,7 +27573,7 @@ This topic describes how to create a project with the Eclipse development plug-i
 
 3. After the project is created, you can view the directory structure on the Package Explorer tab, as shown in the following figure.
 
-   ![](assets/10d0622ff43933e0f2e19fa5802926dc.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/10d0622ff43933e0f2e19fa5802926dc.jpeg)
 
 <a id="section-13-2-3"></a>
 
@@ -27591,25 +27591,25 @@ This topic describes how to use MapReduce to run a WordCount program by using th
 
    Figure 1. WordCount program
 
-   ![](assets/365a6e866d1c393755562605ad5c954a.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/365a6e866d1c393755562605ad5c954a.jpeg)
 
 2. Right-click the **WordCount.java** program and choose **Run As > ODPS Mapreduce|Graph**, as shown in the following figure.
 
    Figure 2. Run the WordCount program
 
-   ![](assets/1af726f06a1df92f0c27a2befaa1a806.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/1af726f06a1df92f0c27a2befaa1a806.png)
 
 3. In the ODPS MapReduce Run Configuration dialog box, add **example_project** to the Select ODPS Project section and click **Finish**, as shown in the following figure.
 
    Figure 3. Run the WordCount program
 
-   ![](assets/000abbf648ef0c9da198c01a1c32e205.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/000abbf648ef0c9da198c01a1c32e205.jpeg)
 
 4. After you run the WordCount program, the result is displayed, as shown in the following figure.
 
    Figure 4. Result returned by the WordCount program
 
-   ![](assets/cbe3de14c9e4bb16ed473d1a8a6f15dd.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/cbe3de14c9e4bb16ed473d1a8a6f15dd.jpeg)
 
 <a id="section-13-2-3-2"></a>
 
@@ -27625,7 +27625,7 @@ This topic provides an example on how to run a custom MapReduce program by using
 
    Figure 1. New Mapper dialog box
 
-   ![](assets/d8ab83f48146c46a86e666233f6c8c78.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/d8ab83f48146c46a86e666233f6c8c78.jpeg)
 
 3. The UserMapper.java file is generated in the **src** folder shown in the navigation tree on the Package Explorer tab. The file is a Mapper class template. By default, the package name in the template is odps. The template contains the following information:
 
@@ -27672,7 +27672,7 @@ This topic provides an example on how to run a custom MapReduce program by using
 
    Figure 2. New Reducer dialog box
 
-   ![](assets/f3f730f7b88f7dae20fc2f8fbea688d8.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/f3f730f7b88f7dae20fc2f8fbea688d8.jpeg)
 
    > **Note**
    >
@@ -27723,7 +27723,7 @@ This topic provides an example on how to run a custom MapReduce program by using
 
    Figure 3. MapReduce Driver dialog box
 
-   ![](assets/509bd4663d2328d9829b9e1957bd47e2.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/509bd4663d2328d9829b9e1957bd47e2.jpeg)
 
 9. On the left-side Package Explorer, the UserDriver.java file is generated in the src directory. The file is a MapReduce Driver class template. By default, the package name in the template is odps. The template contains the following information:
 
@@ -27765,19 +27765,19 @@ This topic provides an example on how to run a custom MapReduce program by using
 
    Figure 4. ODPS MapReduce Run Configuration dialog box
 
-   ![](assets/000abbf648ef0c9da198c01a1c32e205.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/000abbf648ef0c9da198c01a1c32e205.jpeg)
 
 1. Add **example_project** in Select ODPS Project and click **Finish** to run the MapReduce program in local mode. If the following information is displayed, the MapReduce program properly runs in local mode.
 
    Figure 5. Console
 
-   ![](assets/7e004bb0e7acb6a1b116ba331404f86a.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/7e004bb0e7acb6a1b116ba331404f86a.png)
 
 2. Right-click the warehouse folder in the navigation tree on the Package Explorer tab and select Refresh to view the output result, as shown in the following figure.
 
    Figure 6. Output
 
-   ![](assets/d898e52f2b535f8f3a1a5bc10a485ab9.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/d898e52f2b535f8f3a1a5bc10a485ab9.jpeg)
 
    > **Note**
    >
@@ -27793,7 +27793,7 @@ This topic provides an example on how to run a custom MapReduce program by using
 
    Figure 7. Export dialog box
 
-   ![](assets/23aaffaa20d86607ff0286e04039c4fe.png)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/23aaffaa20d86607ff0286e04039c4fe.png)
 
    </li>
 
@@ -27809,7 +27809,7 @@ This topic provides an example on how to run a custom MapReduce program by using
 
    Figure 8. JAR Export dialog box
 
-   ![](assets/9940a6922ef49a2360a5f5a2428afc1b.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/9940a6922ef49a2360a5f5a2428afc1b.jpeg)
 
    <ol type="i" start="3">
 
@@ -27825,7 +27825,7 @@ This topic provides an example on how to run a custom MapReduce program by using
 
    Figure 9. Select the source and destination packages
 
-   ![](assets/3de2f27905a7c0c0af0e8740e746f021.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/3de2f27905a7c0c0af0e8740e746f021.jpeg)
 
    > **Note**
    >
@@ -27843,7 +27843,7 @@ This topic provides an example on how to run a custom MapReduce program by using
 
 4. If you want to create a project, you can create a folder at the same directory level as the example_project folder in the warehouse folder. The following figure shows the directory structure.
 
-   ![](assets/3e9abcc6397718de7707db750b11dccc.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/3e9abcc6397718de7707db750b11dccc.jpeg)
 
    Examples of information in schema files:
 
@@ -27893,13 +27893,13 @@ This topic describes how to use the menu bar to run a user-defined function (UDF
 
    Figure 1. Run Configurations
 
-   ![](assets/6c89551d944af8f94d4aeb60b9c4faa5.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/6c89551d944af8f94d4aeb60b9c4faa5.jpeg)
 
 2. Create a **Run Configuration**, select the project, UDF class, class type, and ODPS project, and enter the table information, as shown in the following figure.
 
    Figure 2. Run Configurations 2
 
-   ![](assets/d7018e10f61956d162dcc1486aa298e9.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/d7018e10f61956d162dcc1486aa298e9.jpeg)
 
    > **Note**
    >
@@ -27909,7 +27909,7 @@ This topic describes how to use the menu bar to run a user-defined function (UDF
 
    Figure 3. Console
 
-   ![](assets/9ee5bfcc6624615c1ba66a990be4f5f4.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/9ee5bfcc6624615c1ba66a990be4f5f4.jpeg)
 
 <a id="section-13-2-4-1-2"></a>
 
@@ -27923,13 +27923,13 @@ This topic describes how to use the right-click shortcut menu to run a user-defi
 
    Figure 1. Shortcut menu
 
-   ![](assets/fe03b66ffc2362f0f66b994df3c6c040.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/fe03b66ffc2362f0f66b994df3c6c040.jpeg)
 
 2. In the ODPS UDF|UDTF|UDAF Run Configuration dialog box, configure related parameters, as shown in the following figure.
 
    Figure 2. ODPS UDF|UDTF|UDAF Run Configuration dialog box
 
-   ![](assets/28d234e893ebdedaa43b73872fa68cf8.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/28d234e893ebdedaa43b73872fa68cf8.jpeg)
 
    > **Note**
    >
@@ -27966,13 +27966,13 @@ This topic describes how to run a user-defined function (UDF) with the Eclipse d
 
    Figure 1. Short-cut menu
 
-   ![](assets/4ffc26b104c465b6cfa91c90a0ab40c7.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/4ffc26b104c465b6cfa91c90a0ab40c7.jpeg)
 
 3. In the dialog box that appears, configure the parameters as shown in the following figure.
 
    Figure 2. ODPS UDF|UDTF|UDAF Run Configuration dialog box
 
-   ![](assets/87b8474680a485fa49fed1b353e2470d.jpeg)
+   ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/87b8474680a485fa49fed1b353e2470d.jpeg)
 
 4. Click **Finish** to obtain the output.
 
@@ -28015,7 +28015,7 @@ LogView is a tool that you can use to view and debug jobs after you submit the j
 
 After you submit a job to MaxCompute, the system generates a LogView URL that starts with  `http://logview.odps.aliyun.com/logview` . You can enter the LogView URL into the address bar of a web browser to view job information.
 
-![](assets/ab1a1530efffc15108f0da4be98d923b.jpeg)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/ab1a1530efffc15108f0da4be98d923b.jpeg)
 
 > **Note**
 >
@@ -28025,7 +28025,7 @@ After you submit a job to MaxCompute, the system generates a LogView URL that st
 
 This section describes the UI elements of LogView.
 
-![](assets/0926e6c5139739a3cf281009b8d509e1.jpeg)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/0926e6c5139739a3cf281009b8d509e1.jpeg)
 
 The LogView page consists of two sections:
 
@@ -28061,7 +28061,7 @@ The ODPS Instance section shows information about the instance that corresponds 
 
   - **SubStatus History**: You can click the icon in this column to view the status history, including the status code, status description, start time, and duration of a state. The information is unavailable in some versions.
 
-  ![](assets/1e1e442edcb38a7306ef72e6c3898a59.jpeg)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/1e1e442edcb38a7306ef72e6c3898a59.jpeg)
 
 **ODPS Tasks**
 
@@ -28069,11 +28069,11 @@ The ODPS Tasks section shows the information about the task that corresponds to 
 
 - **Result**: After a job is complete, you can click the icon in the Result column to view the execution results. The following figure shows the execution results of a SELECT statement.
 
-  ![](assets/afe44e9489dcc2ada0ac3c4086c143de.jpeg)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/afe44e9489dcc2ada0ac3c4086c143de.jpeg)
 
 - **Detail**: You can click the icon in the **Detail** column to view the execution details. You can view the details of jobs that are running and complete.
 
-  ![](assets/c05502f44a8007560672e6b7cb74a4b6.jpeg)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/c05502f44a8007560672e6b7cb74a4b6.jpeg)
 
 - In the dialog box that shows the details of a MaxCompute job, you can view the following information:
 
@@ -28132,7 +28132,7 @@ If you use the MaxCompute client (odpscmd) to submit a job, the system automatic
 
 The following figure shows the LogView V2.0 page.
 
-![](assets/dc348a6817ffdd030c5520c552a5f96c.jpeg)
+![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/dc348a6817ffdd030c5520c552a5f96c.jpeg)
 
 | No. | Section |
 | --- | --- |
@@ -28146,9 +28146,9 @@ This section shows the job ID and job name. The job ID uniquely identifies a Max
 
 | Icon | Description |
 | --- | --- |
-| <img src="assets/d8ca7c31de966202b4c8dabc10eac93c.png" width="15" alt=""> | Open the LogView_detail.txt file that contains job details. The file is saved on your on-premises machine. |
-| <img src="assets/191cda687be753e2d6b3fabb4e7e0d1c.png" width="12" alt=""> | Return to the LogView V1.0 page. |
-| <img src="assets/126c3b5ae458576d9ddb67556286f7dd.png" width="12" alt=""> | Save the job details as a file to your on-premises machine. |
+| <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/d8ca7c31de966202b4c8dabc10eac93c.png" width="15" alt=""> | Open the LogView_detail.txt file that contains job details. The file is saved on your on-premises machine. |
+| <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/191cda687be753e2d6b3fabb4e7e0d1c.png" width="12" alt=""> | Return to the LogView V1.0 page. |
+| <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/126c3b5ae458576d9ddb67556286f7dd.png" width="12" alt=""> | Save the job details as a file to your on-premises machine. |
 
 **Basic Info section**
 
@@ -28178,16 +28178,16 @@ In the job details section, you can view details about a job. This section consi
 
     In the upper part of the **Job Details** tab, the progress chart of a job is displayed. The progress chart shows the subtask dependencies from the following dimensions: Fuxi jobs, Fuxi tasks, and operators. The progress chart also provides a series of tools to help you identify issues. The following figure shows the upper part of the Job Details tab.
 
-    ![](assets/dfd71f38ca3a8018d1460edc53d74f00.jpeg)
+    ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/dfd71f38ca3a8018d1460edc53d74f00.jpeg)
 
     | No. | Description |
     | --- | --- |
     | 1 | The breadcrumb navigation that is used to switch Fuxi jobs.<strong>JOB:_SQL_0_0_0_job_0</strong> is the name of a Fuxi job. |
     | 2 | The tool that is used to troubleshoot issues. You can use Progress Chart, Input Heat Chart, Output Heat Chart, TaskTime Heart Chart, and InstanceTime Heart Chart for troubleshooting. |
-    | 3 | You can click the<img src="assets/f61b1b893de729989aae29ebea6c1db3.png" width="12" alt="">icon to refresh the job status and click the<img src="assets/a10f354761b6b1fe424e09a6314b0048.png" width="14" alt="">icon to<br>zoom in or out on the progress chart. You can also click the<img src="assets/e300ec7c752b7dc1f1f7dee12fd668bc.png" width="12" alt="">icon to<br>obtain the MaxCompute Studio documentation and the<img src="assets/b08b93aa19f4a6b06f907bbc41a9caff.png" width="13" alt="">icon to switch<br>to the upper level of the job. |
+    | 3 | You can click the<img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/f61b1b893de729989aae29ebea6c1db3.png" width="12" alt="">icon to refresh the job status and click the<img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/a10f354761b6b1fe424e09a6314b0048.png" width="14" alt="">icon to<br>zoom in or out on the progress chart. You can also click the<img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/e300ec7c752b7dc1f1f7dee12fd668bc.png" width="12" alt="">icon to<br>obtain the MaxCompute Studio documentation and the<img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/b08b93aa19f4a6b06f907bbc41a9caff.png" width="13" alt="">icon to switch<br>to the upper level of the job. |
     | 4 | The zoom tool. |
     | 5 | The Fuxi task. A MaxCompute job consists of one or more Fuxi jobs. Each Fuxi job consists of one or more Fuxi tasks. Each Fuxi task consists of one or more Fuxi instances. If the amount of input data increases, MaxCompute starts more nodes for each task to process the data. A node is equivalent to a Fuxi instance. For example, a simple MapReduce job generates two Fuxi tasks: map task (M1) and reduce task (R2). If an SQL statement is complex, multiple Fuxi tasks may be generated.<br>You can view the name of each Fuxi task on the execution page. For example, M1 indicates a map task. The 3 and 9 fields in R4_3_9 indicate that the map task can be run only after M3 and C9_3 are complete.Similarly, M2_4_9_10_16 indicates that the M2 task can be run only after R4_3_9, C9_3, R10_1_16, and C16_1 are complete. R/W indicates the numbers of rows that the task reads and writes.<br>Click or right-click a task to view the operator dependencies and operator graphs of the task.<br>LogView V2.0 provides table dependencies so that you can view the input and output tables. |
-    | 6 | The Fuxi task playback. You can click the<img src="assets/c0129bfc3f5626be45b721101dc3fcec.jpeg" width="11" alt="">icon to start or stop the<br>playback. You can also drag the progress bar. The start time and end time are displayed on the sides of the progress bar. The playing time is displayed in the middle. |
+    | 6 | The Fuxi task playback. You can click the<img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/c0129bfc3f5626be45b721101dc3fcec.jpeg" width="11" alt="">icon to start or stop the<br>playback. You can also drag the progress bar. The start time and end time are displayed on the sides of the progress bar. The playing time is displayed in the middle. |
     | 7 | The thumbnail. |
 
     > **Note**
@@ -28204,7 +28204,7 @@ In the job details section, you can view details about a job. This section consi
 
     In the lower part of the **Job Details** tab, detailed information about the job is displayed. The following figure shows the upper part of the Job Details tab.
 
-    ![](assets/808ee55c1f25ddb65ddf02bfd62f69d4.jpeg)
+    ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/808ee55c1f25ddb65ddf02bfd62f69d4.jpeg)
 
     | No. | Description |
     | --- | --- |
@@ -28221,7 +28221,7 @@ In the job details section, you can view details about a job. This section consi
 
   - Table
 
-    ![](assets/d415514ca051cea8d91925566335f048.png)
+    ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/d415514ca051cea8d91925566335f048.png)
 
     You can perform the following operations on this tab:
 
@@ -28229,7 +28229,7 @@ In the job details section, you can view details about a job. This section consi
 
     - Select the table heading to export data from the current page.
 
-    - In the table heading, click the <img src="assets/cfc02a05bcc7987baf6283e898d6d100.png" width="15" alt=""> icon and select **Select All Data** or **Deselect All**
+    - In the table heading, click the <img src="en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/cfc02a05bcc7987baf6283e898d6d100.png" width="15" alt=""> icon and select **Select All Data** or **Deselect All**
 
       based on your business requirements.
 
@@ -28237,7 +28237,7 @@ In the job details section, you can view details about a job. This section consi
 
   - Plain text
 
-    ![](assets/adf51e8d8c28f2aa4632c366fe685fea.png)
+    ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/adf51e8d8c28f2aa4632c366fe685fea.png)
 
 - **SourceXML**
 
@@ -28277,7 +28277,7 @@ For example, you can use Fuxi Sensor to view the resource usage of a Fuxi instan
 
   The cpu_usage chart has two lines. One line indicates the number of CPUs requested (cpu_plan), and the other line indicates the number of CPUs used (cpu_usage). In the y-axis, 400 indicates four processors.
 
-  ![](assets/9b588131477591b83d9c9b51817f6a4d.jpeg)
+  ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/9b588131477591b83d9c9b51817f6a4d.jpeg)
 
 - Memory usage
 
@@ -28287,15 +28287,15 @@ For example, you can use Fuxi Sensor to view the resource usage of a Fuxi instan
 
   - Memory capacity
 
-    ![](assets/9ef84078abfddb8f7eb6079cba177fa4.jpeg)
+    ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/9ef84078abfddb8f7eb6079cba177fa4.jpeg)
 
   - RSS usage
 
-    ![](assets/5514da2893c385271ff3b813f23b7445.png)
+    ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/5514da2893c385271ff3b813f23b7445.png)
 
   - PageCache usage
 
-    ![](assets/89bdb2d50ec0df20e1dfbac9c51aa782.png)
+    ![](en-maxcompute-user-guide-v3.18.6-2607-20260825.assets/89bdb2d50ec0df20e1dfbac9c51aa782.png)
 
 <a id="section-14"></a>
 

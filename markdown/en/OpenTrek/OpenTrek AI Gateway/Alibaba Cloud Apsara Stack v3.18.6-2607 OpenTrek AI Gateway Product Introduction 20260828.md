@@ -54,7 +54,7 @@ Large language models are widely used in enterprise AI scenarios. The three typi
 
 3. **AI applications call regular applications (as tools):** AI applications call the API operations of regular applications to extend their features.
 
-![](assets/9f4639cc01f8c448f244081aa28a3242.jpeg)
+![](en-opentrek-ai-gateway-product-introduction-v3.18.6-2607-20260828.assets/9f4639cc01f8c448f244081aa28a3242.jpeg)
 
 In practice, enterprises often need to choose and switch between multiple models. If a model needs to be replaced due to poor stability or performance, enterprises want to switch to another model quickly. They also want to perform grayscale testing on new models to evaluate their effectiveness. Unlike personal applications, enterprises face the following four major challenges when they adopt AI technology:
 
@@ -72,7 +72,7 @@ An enterprise plans to build AI applications to improve business efficiency and 
 
 The following figure shows this process.
 
-![](assets/ae475d6c56846a732f73b166c75d4555.jpeg)
+![](en-opentrek-ai-gateway-product-introduction-v3.18.6-2607-20260828.assets/ae475d6c56846a732f73b166c75d4555.jpeg)
 
 The gateway administrator assigns a consumer identity to each AI application, which is authenticated by an API key. When an application sends a request to AI Gateway, the gateway automatically routes the request to the model services of Model Studio and Azure based on the \`model\` parameter. If a model service is unavailable due to rate limiting or other reasons, the gateway automatically falls back to the self-built open source model. To ensure data security and compliance, all AI requests must pass a Content Moderation review. The gateway intercepts non-compliant requests. The administrator enables rate limiting and caching to prevent any single application from overwhelming the model services with too many requests. The administrator also continuously monitors the AI API dashboard to view model call status and make adjustments.
 
@@ -94,15 +94,15 @@ AI Gateway provides the AIAPI type, which is an API optimized for AI scenarios. 
 
 - Single model service: You can specify a single LLM service. This supports pass-through model names, or you can specify a model name. When a model name is specified, the model name passed in the user request is ignored.
 
-  ![](assets/8ae58ebfaf8c070dfdcc9d7e7f300edd.jpeg)
+  ![](en-opentrek-ai-gateway-product-introduction-v3.18.6-2607-20260828.assets/8ae58ebfaf8c070dfdcc9d7e7f300edd.jpeg)
 
 - Multiple model services (by model name): You can specify one or more LLM services and configure model name matching rules for each. For example, you can configure a rule to call the OpenAI LLM service if the model name matches the \`gpt-\*\` pattern, and call the Model Studio LLM service if the model name matches the \`qwen-\*\` pattern.
 
-  ![](assets/9a75dece229a6595b8ddac56c43ce610.jpeg)
+  ![](en-opentrek-ai-gateway-product-introduction-v3.18.6-2607-20260828.assets/9a75dece229a6595b8ddac56c43ce610.jpeg)
 
 - Multiple model services (by proportion): You can specify one or more LLM services and set a model name and request percentage for each. This pattern is ideal for grayscale testing of new models.
 
-  ![](assets/0fe6aeac684e14a8aa355f1cdaadb0c2.jpeg)
+  ![](en-opentrek-ai-gateway-product-introduction-v3.18.6-2607-20260828.assets/0fe6aeac684e14a8aa355f1cdaadb0c2.jpeg)
 
 **Observability for AI calls**
 
@@ -138,7 +138,7 @@ AI Gateway provides three core security capabilities:
 
 - Content moderation: Deep integration with Alibaba Cloud Content Moderation lets you review and protect the content of AI requests and responses. You can configure review policies and sensitive words as needed. This helps ensure the compliance of request content and prevents the leakage of sensitive enterprise information.
 
-![](assets/236e505e4c606c29bfca3e8bc7094ec2.jpeg)
+![](en-opentrek-ai-gateway-product-introduction-v3.18.6-2607-20260828.assets/236e505e4c606c29bfca3e8bc7094ec2.jpeg)
 
 **Governance and acceleration for AI calls**
 
@@ -329,7 +329,7 @@ For applications that use large language models (LLMs), the AI gateway serves as
 
 - **Enterprise-grade observability:** Enables OpenTelemetry observability capabilities across the application, gateway, and backend LLM services for end-to-end tracing. It uses a TraceId to correlate logs, request parameters, and other information across the entire request path.
 
-![](assets/1c870f99efaaeba1d7c248bc75422b4d.jpeg)
+![](en-opentrek-ai-gateway-product-introduction-v3.18.6-2607-20260828.assets/1c870f99efaaeba1d7c248bc75422b4d.jpeg)
 
 **Unified management and access for MCP Server**
 
@@ -341,7 +341,7 @@ For applications that use large language models (LLMs), the AI gateway serves as
 
 - **MCP marketplace:** Provides an officially maintained MCP marketplace that ensures the availability, ease of use, and security of MCP Server implementations.
 
-![](assets/74a1a2652238562fb289ce5ba6ebed81.jpeg)
+![](en-opentrek-ai-gateway-product-introduction-v3.18.6-2607-20260828.assets/74a1a2652238562fb289ce5ba6ebed81.jpeg)
 
 <a id="section-6"></a>
 

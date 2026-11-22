@@ -59,7 +59,7 @@ Before you perform O&M operations on a Realtime Compute job, log in to the Realt
 
 4. View different deployment information on different tabs.
 
-   ![](assets/49122568019721bd20621a323922ad18.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/49122568019721bd20621a323922ad18.jpeg)
 
 **Next steps**
 
@@ -83,7 +83,7 @@ You have created and deployed a draft.
 
 3. Click one of the following buttons as needed to modify the deployment status.
 
-   ![](assets/0100d4e0cc50cd1989e7d059249b378a.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/0100d4e0cc50cd1989e7d059249b378a.jpeg)
 
    The following table describes each button.
 
@@ -118,13 +118,13 @@ The system supports comparison only for SQL code and draft configuration content
 
 4. In the right pane, click **Version Information**.
 
-   ![](assets/2aed4e163eafbd4dd6d3fd7c3f58e801.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/2aed4e163eafbd4dd6d3fd7c3f58e801.jpeg)
 
 5. In the **Actions** column corresponding to the target version number, click **Compare**.
 
 6. In the left **Select Editing Version**, select the target version for comparison.
 
-   ![](assets/75e69697400f03cf96f9bb735f59d234.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/75e69697400f03cf96f9bb735f59d234.jpeg)
 
 **Roll back a draft version**
 
@@ -140,13 +140,13 @@ You can roll back draft information from a target version generated after you **
 
 4. In the right pane, click **Version Information**.
 
-   ![](assets/2aed4e163eafbd4dd6d3fd7c3f58e801.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/2aed4e163eafbd4dd6d3fd7c3f58e801.jpeg)
 
 5. In the **Actions** column corresponding to the target version number, choose **More > Roll Back**.
 
 6. In the pop-up dialog box, click **Roll Back**.
 
-   ![](assets/af2c0edbc64b3a100239e0ef85561c0c.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/af2c0edbc64b3a100239e0ef85561c0c.jpeg)
 
 **Lock a draft version**
 
@@ -162,13 +162,13 @@ The system supports up to 50 draft versions. When the number exceeds 50, the sys
 
 4. In the right pane, click **Version Information**.
 
-   ![](assets/2aed4e163eafbd4dd6d3fd7c3f58e801.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/2aed4e163eafbd4dd6d3fd7c3f58e801.jpeg)
 
 5. In the **Actions** column corresponding to the target version number, choose **More > Lock**.
 
    After you lock a version successfully, a success message appears at the top of the page,
 
-   and the <img src="assets/145aa2c2df3216789402f3f03040d33a.png" width="18" alt=""> icon appears before the draft version number.
+   and the <img src="en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/145aa2c2df3216789402f3f03040d33a.png" width="18" alt=""> icon appears before the draft version number.
 
    > **Note**
    >
@@ -188,7 +188,7 @@ You can delete unnecessary draft versions.
 
 4. In the right pane, click **Version Information**.
 
-   ![](assets/2aed4e163eafbd4dd6d3fd7c3f58e801.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/2aed4e163eafbd4dd6d3fd7c3f58e801.jpeg)
 
 5. In the **Actions** column corresponding to the target version number, choose **More > Delete**.
 
@@ -235,7 +235,7 @@ This topic describes how to view the status of Realtime Compute jobs.
 
      An operator represents a computing logic unit. A task represents a collection of multiple operators. To help you better understand this concept, we abstract the underlying computing logic into a visual representation, as shown in the following figure.
 
-     ![](assets/4cd8c2ec4242753c9b9436bf29d785ea.jpeg)
+     ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/4cd8c2ec4242753c9b9436bf29d785ea.jpeg)
 
      You can switch between **Expert Mode** and **Standard Mode**. Professional mode displays Backpressured and Busy statuses.
 
@@ -438,7 +438,7 @@ The system refers to system checkpoints and deployment snapshots (savepoints) co
 
 2. Select a savepoint format and enter a savepoint description.
 
-   ![](assets/44fec43ee56b5d4f0bf3c77c6f6b0e82.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/44fec43ee56b5d4f0bf3c77c6f6b0e82.jpeg)
 
 3. Click **Create**.
 
@@ -541,7 +541,7 @@ Logs support pagination. Each page displays approximately 1 MB of data, which co
 
 2. On the **Logs** tab, click **Startup Logs** on the left to view the startup logs.
 
-   ![](assets/e1ac022e91de7e20f9271881a7b43ec1.png)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/e1ac022e91de7e20f9271881a7b43ec1.png)
 
 **View operational logs View operational logs on the job log page**
 
@@ -549,7 +549,7 @@ Logs support pagination. Each page displays approximately 1 MB of data, which co
 
 2. On the **Logs** page, go to the **Running Logs** tab. Click the drop-down list next to **Job** and select the running job.
 
-   ![](assets/0807302849ab2d055afb86ccccbf1e4c.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/0807302849ab2d055afb86ccccbf1e4c.jpeg)
 
 3. View the Job Manager and Task Managers logs.
 
@@ -557,7 +557,7 @@ Logs support pagination. Each page displays approximately 1 MB of data, which co
 
      On the **Job Manager** tab, click **Logs**.
 
-     ![](assets/be9c8bc96269fdbabe1b639fff6f2639.png)
+     ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/be9c8bc96269fdbabe1b639fff6f2639.png)
 
    - View Task Managers logs
 
@@ -567,7 +567,7 @@ Logs support pagination. Each page displays approximately 1 MB of data, which co
 
      On the **Running Task Managers** tab, click **Path, ID**.
 
-     ![](assets/2bb75eb24919a1a1996b6f031dd2733a.jpeg)
+     ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/2bb75eb24919a1a1996b6f031dd2733a.jpeg)
 
      </li>
 
@@ -575,7 +575,7 @@ Logs support pagination. Each page displays approximately 1 MB of data, which co
 
      Click **Logs**.
 
-     ![](assets/935ff7aef012427313455b644df53c8b.png)
+     ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/935ff7aef012427313455b644df53c8b.png)
 
      </li>
 
@@ -679,13 +679,13 @@ Logs support pagination. Each page displays 1 MB of data, approximately 8,000–
 
    checkpoint.
 
-   ![](assets/168d6ea653b8e843ea9b86fa6b382e23.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/168d6ea653b8e843ea9b86fa6b382e23.jpeg)
 
    <ol type="i" start="3">
 
    <li>
 
-   Click <img src="assets/3653ba655de557c4be7565db3fbdca27.png" width="18" alt=""> to the left of the slow checkpoint ID to identify the Operators node associated
+   Click <img src="en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/3653ba655de557c4be7565db3fbdca27.png" width="18" alt=""> to the left of the slow checkpoint ID to identify the Operators node associated
 
    </li>
 
@@ -697,7 +697,7 @@ Logs support pagination. Each page displays 1 MB of data, approximately 8,000–
 
    <li>
 
-   Click <img src="assets/3653ba655de557c4be7565db3fbdca27.png" width="24" alt=""> to the left of the Operators node to expand and view the status of each
+   Click <img src="en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/3653ba655de557c4be7565db3fbdca27.png" width="24" alt=""> to the left of the Operators node to expand and view the status of each
 
    SubTask.
 
@@ -707,7 +707,7 @@ Logs support pagination. Each page displays 1 MB of data, approximately 8,000–
 
    Click the **ID** of the SubTask associated with the slow checkpoint.
 
-   ![](assets/21bc5a514c007c31a7aa05f87ebd7a78.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/21bc5a514c007c31a7aa05f87ebd7a78.jpeg)
 
    </li>
 
@@ -737,7 +737,7 @@ You need to view the logs of historical deployment instances in the following sc
 
 To view historical deployment instance logs, you must enable log archiving in the log configuration. The system enables log archiving by default, and retains archived logs for seven days.
 
-![](assets/50107ac558d8dbc61584fa578149587d.jpeg)
+![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/50107ac558d8dbc61584fa578149587d.jpeg)
 
 **Notes**
 
@@ -745,7 +745,7 @@ To view historical deployment instance logs, you must enable log archiving in th
 
 - By default, the log configuration retains two files, each 5 MB in size. We recommend that you do not modify this value.
 
-  ![](assets/609e6c3da90abfea2a7f87e71a5afb65.jpeg)
+  ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/609e6c3da90abfea2a7f87e71a5afb65.jpeg)
 
   > **Note**
   >
@@ -777,7 +777,7 @@ To view historical deployment instance logs, you must enable log archiving in th
 
 3. Click the drop-down list next to **Job** and select a historical job.
 
-   ![](assets/d8b123800769c3cd48bf5931e907f24a.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/d8b123800769c3cd48bf5931e907f24a.jpeg)
 
 4. View the Job Manager and Task Managers logs.
 
@@ -856,7 +856,7 @@ The system supports log levels in ascending order, as listed in the following ta
 
      Click **Edit** next to **Log Level**.
 
-     ![](assets/7183be8fd21a7fbc99a7f6dad9bbc30d.png)
+     ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/7183be8fd21a7fbc99a7f6dad9bbc30d.png)
 
      </li>
 
@@ -902,7 +902,7 @@ The system supports log levels in ascending order, as listed in the following ta
 
      Click **Logs**.
 
-     ![](assets/a8b628a612d6a64874e10d3d4b5b7150.png)
+     ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/a8b628a612d6a64874e10d3d4b5b7150.png)
 
      </li>
 
@@ -1224,7 +1224,7 @@ If you enable intelligent tuning, the system performs intelligent tuning for you
 
    After you enable this feature, the SQL icon on the left side of the deployment name
 
-   changes to <img src="assets/5c51aa3ee1f2a7414dcc664d04727fd8.png" width="22" alt=""> .
+   changes to <img src="en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/5c51aa3ee1f2a7414dcc664d04727fd8.png" width="22" alt=""> .
 
    If you want to disable intelligent tuning, go to **Autopilot > Current autopilot mode**, select **Disabled**, and then click **Save**.
 
@@ -1250,7 +1250,7 @@ If you enable intelligent tuning, the system performs intelligent tuning for you
 
    </ol>
 
-   ![](assets/ce0d6554cf3fab62156c5d8765835fda.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/ce0d6554cf3fab62156c5d8765835fda.jpeg)
 
    The following table describes the parameters.
 
@@ -1346,7 +1346,7 @@ If you enable intelligent tuning, the system performs intelligent tuning for you
 
    </ol>
 
-   ![](assets/3ae650febd3871778f6c808b7a1a8c2a.png)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/3ae650febd3871778f6c808b7a1a8c2a.png)
 
    The following table describes the parameters.
 
@@ -1374,7 +1374,7 @@ If you enable intelligent tuning, the system performs intelligent tuning for you
 
    After you create the policy, it takes effect at the trigger time. You can edit, delete, or disable the policy in the **Actions** column corresponding to the policy.
 
-   ![](assets/348e6ac017aca85ac6bd8f259adc3318.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/348e6ac017aca85ac6bd8f259adc3318.jpeg)
 
 <a id="section-1-8-2"></a>
 
@@ -1447,7 +1447,7 @@ Only SQL drafts support expert mode configuration.
    | --- | --- |
    | Job Manager CPU | According to Flink best practices, allocate at least 0.25 core and 1 GiB of memory per Job Manager to ensure stable deployment running. |
    | Job Manager Memory | Unit: GiB. Example: 4 GiB. Minimum value: 1 GiB. |
-   | Configuration plan | A configuration plan defines slot resources. Follow these steps:<br>i. Click <strong>Get now</strong>.ii. Click the<img src="assets/1894f954d8e19433e2a51c67b496eb4c.png" width="21" alt="">icon on the slot box to modify slot configuration.<br>![](assets/40405a052fa89d9814a48ca5bbe5b5e9.jpeg)<br>The parallelism set here applies globally to the entire deployment. After you set it, the system automatically performs the following actions:<br>• The system assigns the same parallelism to each VERTEX.<br>• The system automatically generates the required memory for Statebackend, Python, and operators based on the deployment's computational logic. You do not need to configure this manually.<br>• By default, the system calculates the CPU required per slot at a 1:4 ratio of the total memory (sum of Heap Memory, Off-heap Memory, Statebackend, Python, and Operator memory).<br>Note<br>We recommend adjusting Heap Memory and Off-heap Memory sizes only when you encounter specific exceptions or requirements, such as OOM errors or severe GC issues. Under normal deployment running, adjusting these values does not significantly affect deployment throughput.<br>iii. Click the<img src="assets/1894f954d8e19433e2a51c67b496eb4c.png" width="21" alt="">icon on the VERTEX box to set parallelism for a<br>specific VERTEX as needed.iv. Modify operator parallelism and chain policy. |
+   | Configuration plan | A configuration plan defines slot resources. Follow these steps:<br>i. Click <strong>Get now</strong>.ii. Click the<img src="en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/1894f954d8e19433e2a51c67b496eb4c.png" width="21" alt="">icon on the slot box to modify slot configuration.<br>![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/40405a052fa89d9814a48ca5bbe5b5e9.jpeg)<br>The parallelism set here applies globally to the entire deployment. After you set it, the system automatically performs the following actions:<br>• The system assigns the same parallelism to each VERTEX.<br>• The system automatically generates the required memory for Statebackend, Python, and operators based on the deployment's computational logic. You do not need to configure this manually.<br>• By default, the system calculates the CPU required per slot at a 1:4 ratio of the total memory (sum of Heap Memory, Off-heap Memory, Statebackend, Python, and Operator memory).<br>Note<br>We recommend adjusting Heap Memory and Off-heap Memory sizes only when you encounter specific exceptions or requirements, such as OOM errors or severe GC issues. Under normal deployment running, adjusting these values does not significantly affect deployment throughput.<br>iii. Click the<img src="en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/1894f954d8e19433e2a51c67b496eb4c.png" width="21" alt="">icon on the VERTEX box to set parallelism for a<br>specific VERTEX as needed.iv. Modify operator parallelism and chain policy. |
 
    Chain policy descriptions:
 
@@ -1586,7 +1586,7 @@ aspects: deployment configuration and Flink SQL optimization.
 
   LocalGlobal can filter out some skewed data through LocalAgg aggregation, thereby reducing hotspots in GlobalAgg and improving performance. You can refer to the following figure to understand how LocalGlobal resolves data skew.
 
-  ![](assets/4a2e3264e7dd443b07f403fd7fdb9faa.jpeg)
+  ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/4a2e3264e7dd443b07f403fd7fdb9faa.jpeg)
 
   The LocalGlobal optimization splits the original Aggregate into two stages: Local and Global aggregation. This corresponds to the Combine and Reduce stages in the MapReduce model. In the first stage, upstream nodes locally accumulate a batch of data for aggregation (localAgg) and output the incremental value (Accumulator) of this micro-batch. In the second stage, the system merges the received Accumulators (Merge) to produce the final result (GlobalAgg).
 
@@ -1610,7 +1610,7 @@ aspects: deployment configuration and Flink SQL optimization.
 
   To resolve COUNT DISTINCT hotspot issues, you typically need to manually rewrite the query into two-stage aggregation (adding a shuffling layer based on modulo operations on the Distinct Key). Realtime Compute now provides automatic shuffling for COUNT DISTINCT, known as PartialFinal optimization. You no longer need to manually rewrite queries into two-stage aggregation. For a comparison of the principles between PartialFinal and LocalGlobal, see the following figure.
 
-  ![](assets/9f2e818b902ced5cad088a8b61051533.jpeg)
+  ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/9f2e818b902ced5cad088a8b61051533.jpeg)
 
   LocalGlobal optimization works well for standard aggregations (such as SUM, COUNT, MAX, MIN, and AVG), but offers limited improvement for COUNT DISTINCT. This is because the deduplication rate for DISTINCT KEY during Local aggregation is low, causing hotspot issues to persist at the Global node.
 
@@ -1945,7 +1945,7 @@ The Apsara Infrastructure Management Console allows you to view details of Flink
 
    Under **Components**, click the name of the target component. You can then view detailed information about the component in the right-side panel. See the following example figure:
 
-   ![](assets/d071eb624cd369ba0961b77266604739.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/d071eb624cd369ba0961b77266604739.jpeg)
 
    </li>
 
@@ -2089,7 +2089,7 @@ Deep inspection covers, but is not limited to, platform systems, hardware, inven
    kubectl get appinstance -nark-system -lproduct=realtime-compute | grep -v hdfs | grep-v sre-flink |grep -v ververica
    ```
 
-   ![](assets/6ff62026aa753a96a9bb4187695aa29e.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/6ff62026aa753a96a9bb4187695aa29e.jpeg)
 
 3. Verify that the inspection result meets requirements.
 
@@ -2105,7 +2105,7 @@ Deep inspection covers, but is not limited to, platform systems, hardware, inven
    kubectl top node -l flinkonoss=true
    ```
 
-   ![](assets/849507518094c3e546358908af9acd01.png)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/849507518094c3e546358908af9acd01.png)
 
 3. Verify that the inspection result meets requirements.
 
@@ -2123,7 +2123,7 @@ Deep inspection covers, but is not limited to, platform systems, hardware, inven
 
      In **Workspaces**, find the name of the target namespace.
 
-     ![](assets/b75cdad6268022c7f100bcfa261e2102.jpeg)
+     ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/b75cdad6268022c7f100bcfa261e2102.jpeg)
 
    - How to obtain the workspace ID
 
@@ -2149,7 +2149,7 @@ Deep inspection covers, but is not limited to, platform systems, hardware, inven
 
    The system returns a result similar to the following:
 
-   ![](assets/5bbbedc2d132c5a9fa394897e8b4da69.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/5bbbedc2d132c5a9fa394897e8b4da69.jpeg)
 
    </li>
 
@@ -2171,7 +2171,7 @@ Deep inspection covers, but is not limited to, platform systems, hardware, inven
 
    The system returns a result similar to the following:
 
-   ![](assets/421c2a459d4bc3c3b527673159f58afc.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/421c2a459d4bc3c3b527673159f58afc.jpeg)
 
 5. Verify that the inspection result meets requirements.
 
@@ -2199,19 +2199,19 @@ Deep inspection covers, but is not limited to, platform systems, hardware, inven
 
    - If data is available at the source, verify that the amount of data processed by the task steadily increases.
 
-     ![](assets/36d3269b554dbc3135e4d692084f6d3f.jpeg)
+     ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/36d3269b554dbc3135e4d692084f6d3f.jpeg)
 
    - Verify that all tasks are not backpressured, except for tasks currently catching up with data.
 
      Click the name of the target running status to expand the details tab and click **BackPressure**.
 
-     ![](assets/1a84e5e64b9c94afdac9f7ce742e19ac.jpeg)
+     ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/1a84e5e64b9c94afdac9f7ce742e19ac.jpeg)
 
    - Verify that no exception information has occurred within the last 30 minutes.
 
      Click the **Logs** tab and then click **JM Exceptions**.
 
-     ![](assets/7b74c7ff06f45293cfba14ac04a29797.jpeg)
+     ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/7b74c7ff06f45293cfba14ac04a29797.jpeg)
 
 5. Verify that the inspection result meets requirements.
 
@@ -2382,7 +2382,7 @@ When you cannot view TaskManager details in the VVP console, perform the followi
 
    If many deployment instances exist in the current namespace, append  `| grep ${jobId}` to the preceding command. Replace  `${jobId}`  with the deployment ID copied from the VVP console. The following figure shows an example:
 
-   ![](assets/e17832a53a27955270602832a4f22018.jpeg)
+   ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/e17832a53a27955270602832a4f22018.jpeg)
 
    - If TaskManager pods exist, the issue is likely related to TaskManager registration with the JobManager. Check the exception stack in the JobManager logs of the VVP console. After you resolve the exception, TaskManagers can typically complete registration.
 
@@ -2514,7 +2514,7 @@ When you cannot view TaskManager details in the VVP console, perform the followi
   kubectl get pods -n rc-${workspaceId}-${namespace}
   ```
 
-  ![](assets/ff75db8b946242a968740ed22355a07a.jpeg)
+  ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/ff75db8b946242a968740ed22355a07a.jpeg)
 
   If the Init Container runs for minutes, network policy detection is slowing down the overall deployment startup. Consider upgrading to version sp006 or later to use the optimized network plug-in solution. If excessive IP allowlisting is the cause, contact Alibaba Cloud technical support.
 
@@ -2529,6 +2529,6 @@ When you cannot view TaskManager details in the VVP console, perform the followi
   kubectl describe pod ${xxxx} -n -${workspaceId}-${namespace}
   ```
 
-  ![](assets/a840335c77352f007165082bd240cf69.jpeg)
+  ![](en-flink-compute-storage-separatio-14e1dfc9-v3.18.6-2607-20260825.assets/a840335c77352f007165082bd240cf69.jpeg)
 
   Check whether this result shows prolonged retries due to failures. When this issue overlaps with slow network policy enforcement, deployment scheduling and startup processes easily time out, causing JobManager forced termination and eventual deployment failure.

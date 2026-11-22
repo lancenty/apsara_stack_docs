@@ -48,45 +48,45 @@ Alibaba Cloud OpenTrek Agent Dev is built on cloud-native and Artificial Intelli
 
 Log on to ASO > Cloud Platform Monitoring Dashboard > OpenTrek Agent Dev Monitoring Dashboard.
 
-![](assets/82a42c9825c84b55d48389259a2adc69.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/82a42c9825c84b55d48389259a2adc69.jpeg)
 
-![](assets/e5596a04eac95aeae4ef23db18c252e4.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/e5596a04eac95aeae4ef23db18c252e4.jpeg)
 
 **Kubernetes cluster node monitoring dashboard**
 
 Click the cluster node monitoring dashboard to view metrics such as CPU, memory, disk, I/O, and network usage by node.
 
-![](assets/69a6232cf5333afd1e1e4cd1540be497.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/69a6232cf5333afd1e1e4cd1540be497.jpeg)
 
 **Kubernetes cluster pod monitoring dashboard**
 
 Click the cluster pod monitoring dashboard to view metrics such as CPU, memory, and restart count by pod.
 
-![](assets/b6ac2e8ab799df1ebb548c76c71fae83.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/b6ac2e8ab799df1ebb548c76c71fae83.jpeg)
 
 **Java application monitoring dashboard**
 
 Click the basic monitoring dashboard to view metrics such as HTTP, JVM, and Dubbo by application and pod.
 
-![](assets/5e1479c3d4bae3c4d06fe537543f231d.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/5e1479c3d4bae3c4d06fe537543f231d.jpeg)
 
 **Python application monitoring dashboard**
 
 Click the basic monitoring dashboard (Python) to view metrics such as HTTP by application and pod.
 
-![](assets/71c0955d17120bf20ff3facc6d2d6c1b.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/71c0955d17120bf20ff3facc6d2d6c1b.jpeg)
 
 **Go application (Gin framework) monitoring dashboard**
 
 Click the basic monitoring dashboard (Go-gin) to view metrics such as HTTP, Go heap, and Goroutine by application and pod.
 
-![](assets/8121d6fcc1c8cd8b98480cc6429c4828.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/8121d6fcc1c8cd8b98480cc6429c4828.jpeg)
 
 **Go application (Arrow framework) monitoring dashboard**
 
 Click the basic monitoring dashboard (Go-arrow) to view metrics such as HTTP, Go heap, and Goroutine by application and pod.
 
-![](assets/7af4123e78860746638f3225c5d8816f.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/7af4123e78860746638f3225c5d8816f.jpeg)
 
 **Tenant**
 
@@ -94,39 +94,39 @@ Go to OpenTrek Agent Dev > Global Resource Management and find the ACK cluster n
 
 Go to Prometheus Monitoring 2.0 > Grafana Dashboard, click the sfm catalog, and find the dashboard for the target cluster.
 
-![](assets/f9d05174473cb5c50030d8c587475279.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/f9d05174473cb5c50030d8c587475279.jpeg)
 
-![](assets/07eef51d3912d277b5c7c13df740b86a.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/07eef51d3912d277b5c7c13df740b86a.jpeg)
 
 **Kubernetes cluster node monitoring dashboard**
 
 Click the sfm-tenant-cluster-node-dashboard dashboard to view metrics such as CPU, memory, disk, I/O, and network usage.
 
-![](assets/17786db2e7aaec254a9b18d959a8f4f5.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/17786db2e7aaec254a9b18d959a8f4f5.jpeg)
 
 **Kubernetes cluster pod monitoring dashboard**
 
 Click the sfm-tenant-cluster-pod-dashboard dashboard to view metrics such as CPU, memory, and restart count by namespace and pod.
 
-![](assets/17786db2e7aaec254a9b18d959a8f4f5.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/17786db2e7aaec254a9b18d959a8f4f5.jpeg)
 
 **Java application monitoring dashboard**
 
 Click the sfm-tenant-basic-java-dashboard dashboard to view metrics such as HTTP, JVM, and Dubbo by application and pod.
 
-![](assets/6d98ec761fb3b5253bff5b88a1873f5f.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/6d98ec761fb3b5253bff5b88a1873f5f.jpeg)
 
 **Go application (Gin framework) monitoring dashboard**
 
 Click the sfm-tenant-basic-go-gin-dashboard dashboard to view metrics such as HTTP, Go heap, and Goroutine by application and pod.
 
-![](assets/39caf429881b1857bbe98e2edbbb34a1.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/39caf429881b1857bbe98e2edbbb34a1.jpeg)
 
 **Go application (Arrow framework) monitoring dashboard**
 
 Click the sfm-tenant-basic-go-arrow-dashboard dashboard to view metrics such as HTTP, Go heap, and Goroutine by application and pod.
 
-![](assets/001876f51c62d39ab8a6972c17a37944.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/001876f51c62d39ab8a6972c17a37944.jpeg)
 
 <a id="section-3"></a>
 
@@ -138,27 +138,27 @@ Click the sfm-tenant-basic-go-arrow-dashboard dashboard to view metrics such as 
 
 Log on to ASO, go to the Monitoring and Alerting > Alert List page, and select sfm from the Resource Ownership drop-down list to view the alerts of OpenTrek Agent Dev.
 
-![](assets/b91d258fff47e22681d2319c4e263247.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/b91d258fff47e22681d2319c4e263247.jpeg)
 
 **Alert rules**
 
 On the Monitoring and Alerting > Alert Rules page, select sfm from the Cloud Service drop-down list in the advanced filter to view the alert rule configuration.
 
-![](assets/cfb128ddd86c8871ece09e6c46f41aab.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/cfb128ddd86c8871ece09e6c46f41aab.jpeg)
 
 Click Custom Change to modify the alert configuration.
 
-![](assets/d3e1db3d3dc76cd8cd3697d036cac75d.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/d3e1db3d3dc76cd8cd3697d036cac75d.jpeg)
 
 **Alert notification configuration**
 
 On the Monitoring and Alerting > Alert Settings > Policy Management page, add contacts to configure alert recipients and select sfm as the service.
 
-![](assets/035079aeebab63a7e9a668aaf990a9f5.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/035079aeebab63a7e9a668aaf990a9f5.jpeg)
 
 On the Monitoring and Alerting > Alert Settings > Alert Notification page, subscribe to alerts.
 
-![](assets/760ff720246e47a3f70ee4cd75de1525.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/760ff720246e47a3f70ee4cd75de1525.jpeg)
 
 **Tenant side**
 
@@ -170,7 +170,7 @@ All alert rules of OpenTrek Agent Dev use the SfmAlertRule tag. You can filter a
 
 You can filter rules that are currently triggering alerts based on the current status.
 
-![](assets/a8a80b9bf79ddb02715924cb059c4de2.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/a8a80b9bf79ddb02715924cb059c4de2.jpeg)
 
 **Alert notification configuration**
 
@@ -178,9 +178,9 @@ Filter all alert rules of OpenTrek Agent Dev based on the SfmAlertRule tag.
 
 Set the page size to 100, select all rules, and click Configure Notification Method.
 
-![](assets/bd8014608bca136f403576dbb3f69405.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/bd8014608bca136f403576dbb3f69405.jpeg)
 
-![](assets/e3c1312129bdd1bada56aa935ce90fef.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/e3c1312129bdd1bada56aa935ce90fef.jpeg)
 
 <a id="section-4"></a>
 
@@ -625,7 +625,7 @@ if __name__ == "__main__":
 
 Obtain the process ID (PID), as shown in the following figure.
 
-![](assets/c7ac88f704b32960eadfea53174bd652.png)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/c7ac88f704b32960eadfea53174bd652.png)
 
 ```text
 -- Replace pid with the actual PID and run the following command to download the agent.dump file.
@@ -867,19 +867,19 @@ During the debugging phase, the execution of the agent node fails.
 
 Example:
 
-![](assets/bc49bc2c3343f4465e5c76fa5b764d0b.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/bc49bc2c3343f4465e5c76fa5b764d0b.jpeg)
 
 Find the red dot on the canvas to locate the failed node, and obtain the specific error details in the response or error message on the right side of the page. Then, go back to the design page to fix the node.
 
 If the operation is performed by calling the API, click Effect Tracking on the agent version page.
 
-![](assets/eeef5e53b435e9c2ddf4d590cad64cf3.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/eeef5e53b435e9c2ddf4d590cad64cf3.jpeg)
 
-![](assets/675e331a566fcc15d7280d9c9df63303.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/675e331a566fcc15d7280d9c9df63303.jpeg)
 
 Find the task based on the session ID and request ID, and go to the details page and system log to identify the cause of failure.
 
-![](assets/a3ed71b7198385267be9a49280794ab5.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/a3ed71b7198385267be9a49280794ab5.jpeg)
 
 <a id="section-4-2"></a>
 
@@ -925,13 +925,13 @@ This topic describes the issues that may arise when you use data files, and the 
 
 Problem: When you attempt to upload a file to Object Storage Service (OSS) on the Dataset Management > Data File tab, the file cannot be uploaded. The console prompts a Cross-Origin Resource Sharing (CROS) error.
 
-![](assets/e7324bd9972aff2999cb24025e1e03b5.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/e7324bd9972aff2999cb24025e1e03b5.jpeg)
 
 Cause: The CORS feature is not configured for the OSS bucket associated with the dataset.
 
 Solution: Log in to the OSS console and configure the following CORS rule.
 
-![](assets/3f6e84553458b8c78a5fd3f697e5faff.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/3f6e84553458b8c78a5fd3f697e5faff.jpeg)
 
 2. **`"This request has content must be served over HTTPS"`**  **is reported when you**
 
@@ -939,7 +939,7 @@ Solution: Log in to the OSS console and configure the following CORS rule.
 
 Problem: When you attempt to upload a file on the Dataset Management > Data File tab, the file cannot be uploaded. The console prompts the following error message:  `This request has content must be served over HTTPS` .
 
-![](assets/9b7be3c302a07fc2dc63ee99db9774d9.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/9b7be3c302a07fc2dc63ee99db9774d9.jpeg)
 
 Cause: HTTPS is not enabled for the OSS bucket.
 
@@ -1043,23 +1043,23 @@ The procedure to creating an online service is the same as to creating an online
 
 **1.1. Basic information**
 
-![](assets/ad51bb57ddfc0bdd74988c1a65c97e85.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/ad51bb57ddfc0bdd74988c1a65c97e85.jpeg)
 
 Turn on Image Deployment. You do not need to select a model.
 
-![](assets/68030c0aec467bdb6dbb2010bf492e90.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/68030c0aec467bdb6dbb2010bf492e90.jpeg)
 
 **1.2. Select a resource group**
 
 If you use document deep analysis, you need to select a resource pool with intelligent computing equipment. In this example, basic parsing is used.
 
-![](assets/97f9239ec4bf27e8c6548ea13e63a42e.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/97f9239ec4bf27e8c6548ea13e63a42e.jpeg)
 
 **1.3. Select a service image**
 
 For the production environment, you can select a public image. Select a CPU for basic parsing and a GPU for deep parsing.
 
-![](assets/e61720d14e30f7a4e5cdc1b672472dd6.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/e61720d14e30f7a4e5cdc1b672472dd6.jpeg)
 
 **Images for the Enterprise edition:**
 
@@ -1077,7 +1077,7 @@ For the production environment, you can select a public image. Select a CPU for 
 
 For more information about how to upload a custom image, see Upload a custom image.
 
-![](assets/f23c3e4368950def31b618a3c217b510.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/f23c3e4368950def31b618a3c217b510.jpeg)
 
 **1.4. Configure the service**
 
@@ -1091,7 +1091,7 @@ For more information about how to upload a custom image, see Upload a custom ima
 
 - Environment Variables: Enter environment variables, as shown in the following figure. SERVER_WORKERS indicates the inference parallelism capability, which can be adjusted based on the resource configuration.
 
-![](assets/6c55d41280547081c5435d9146c4c2f9.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/6c55d41280547081c5435d9146c4c2f9.jpeg)
 
 The following table describes some other parameters:
 
@@ -1108,27 +1108,27 @@ Enable asynchronous inference, which allows you to manage Kafka request queues a
 
 For more information about how to create a Kafka instance and a topic for asynchronous inference, see Create a Kafka instance and a topic.
 
-![](assets/5569eb7a949680a4400b843231fa0950.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/5569eb7a949680a4400b843231fa0950.jpeg)
 
 **1.6. Create the service**
 
 After you click OK, a record is added to the service list, as shown in the following figure.
 
-![](assets/427bcb32558833968ea327df61aab48f.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/427bcb32558833968ea327df61aab48f.jpeg)
 
 Wait until the deployment is completed.
 
-![](assets/15a27320ccf1467c566238e4ff0fea3e.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/15a27320ccf1467c566238e4ff0fea3e.jpeg)
 
 **1.7. Associate with an API key**
 
 Create an API key. We recommend that you do not use the admin account.
 
-![](assets/e069347985c4770d38578d3e122e8816.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/e069347985c4770d38578d3e122e8816.jpeg)
 
 Associate the service with the API key.
 
-![](assets/c161677084b8a959902add77b45a15d2.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/c161677084b8a959902add77b45a15d2.jpeg)
 
 **1.8 Connect to a model**
 
@@ -1136,23 +1136,23 @@ After the online service is started, you need to go to the operation management 
 
 Switch the user who created the API key to the resource administrator role, and go to the operation management page.
 
-![](assets/3d2d2ee308763cd7307724338cbe2f47.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/3d2d2ee308763cd7307724338cbe2f47.jpeg)
 
-![](assets/daefb1e87ed70ce38fece8e8405efc5b.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/daefb1e87ed70ce38fece8e8405efc5b.jpeg)
 
-![](assets/eb17bcf314ecbde470cbd2e9d31f03a5.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/eb17bcf314ecbde470cbd2e9d31f03a5.jpeg)
 
 Click + Access model, select Online Parsing Service as the model type, and select the API key that is associated with the service. You can select Global Space as the effective space.
 
-![](assets/7233244bda0d277fc14eb74af4ca77df.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/7233244bda0d277fc14eb74af4ca77df.jpeg)
 
 After the model is created, debug it until it is error-free, and then click Debugging passed. The button becomes green.
 
-![](assets/5c2fe324c5492c205377a82eab0778bb.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/5c2fe324c5492c205377a82eab0778bb.jpeg)
 
 Return to the model list, find the model, and then click Enable. Then, the model is available in the knowledge base.
 
-![](assets/675239db872dcfff6596d05b9aad15a1.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/675239db872dcfff6596d05b9aad15a1.jpeg)
 
 <a id="section-4-2-2-1-1"></a>
 
@@ -1162,9 +1162,9 @@ Return to the model list, find the model, and then click Enable. Then, the model
 
 Apsara Stack Container Registry requires you to create a repository in your test resource set and change the password. In most cases, the AliOS%1688 is used.
 
-![](assets/e9eb27aace7366d033931182a64128d2.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/e9eb27aace7366d033931182a64128d2.jpeg)
 
-![](assets/e56aed7f2b848ffdd2fca6dcaa81593e.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/e56aed7f2b848ffdd2fca6dcaa81593e.jpeg)
 
 ```text
 # Upload a local image to the remote end.
@@ -1183,11 +1183,11 @@ d01.inter.env17e.shuguang.com/aipaas_test/data-mixer-operators:2.1.1-hotx.3-gpu-
 
 **Custom images**
 
-![](assets/dea90698e9f1aa4fb5785c73556f2f88.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/dea90698e9f1aa4fb5785c73556f2f88.jpeg)
 
 Note: You must manually add a version for uploaded images.
 
-![](assets/7efa06fb4dbbe761424f687689ccb41c.png)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/7efa06fb4dbbe761424f687689ccb41c.png)
 
 <a id="section-4-2-2-1-2"></a>
 
@@ -1197,23 +1197,23 @@ Note: You must manually add a version for uploaded images.
 
 https://one.console.con.env17e.shuguang.com/cop/gateway
 
-![](assets/d2b54295e0bdbda25f8a304e96e5d3e9.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/d2b54295e0bdbda25f8a304e96e5d3e9.jpeg)
 
 Take note of the following two items:
 
-![](assets/a16db8a55fceb0132f41b71501eff72e.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/a16db8a55fceb0132f41b71501eff72e.jpeg)
 
 **Create an AI gateway**
 
 An error was reported when I saved the configurations. However, the gateway is eventually created.
 
-![](assets/f3e1b6d274c70f68465f5fd3dd105df2.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/f3e1b6d274c70f68465f5fd3dd105df2.jpeg)
 
 **Configure the AI gateway**
 
 Associate with the gateway that you created.
 
-![](assets/ef0fd48096aa15b206e38e24e0446d5a.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/ef0fd48096aa15b206e38e24e0446d5a.jpeg)
 
 <a id="section-4-2-2-1-3"></a>
 
@@ -1223,7 +1223,7 @@ Associate with the gateway that you created.
 
 First, find the ID of the virtual private cloud (VPC) in which the cluster of the AI gateway is created and record the VPC ID.
 
-![](assets/a122d15435cb40e79609eacfb629eaff.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/a122d15435cb40e79609eacfb629eaff.jpeg)
 
 When you enable asynchronous inference, the vSwitch ID is prompted. Record the vSwitch ID.
 
@@ -1245,7 +1245,7 @@ Creates three access control lists (ACLs).
 
 Step 0: Go to the MaaS marketplace to download the desired model. In this example, the Qwen 2.5 model is used. In this case, search for  `Qwen2.5-VL-7B-Instruct` .
 
-![](assets/a3b679617267d341c8fe3ab5131dd2a1.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/a3b679617267d341c8fe3ab5131dd2a1.jpeg)
 
 Step 1: Create an online service, select 16 cores, 64 GB, 64 GB of shared memory, and 1 GPU (A10 or A100).
 
@@ -1335,31 +1335,31 @@ use short statements to describe the content of the figure. ",
 
 Log on to OpenTrek Agent Dev as a Resource Set Administrator or an O&M administrator:
 
-![](assets/3ce9ee43c37f19f1380b16796e3a3620.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/3ce9ee43c37f19f1380b16796e3a3620.jpeg)
 
-![](assets/03dcb29e36bba1f0b076b24934482c5b.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/03dcb29e36bba1f0b076b24934482c5b.jpeg)
 
 Go to the registered online parsing service, click Debug, and check the service connectivity. A returned result indicates that the service is available.
 
-![](assets/6f6bf9cc6bbde30aeb123219ace87d8c.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/6f6bf9cc6bbde30aeb123219ace87d8c.jpeg)
 
 **View service logs**
 
 Go to the AI Studio product page, navigate to Online Service, find the manually deployed online parsing service, and click it to open the details page.
 
-![](assets/75c212fb6e47d505ab7e8b58c380a85f.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/75c212fb6e47d505ab7e8b58c380a85f.jpeg)
 
 Check the replica running status on the Resource Instance page to confirm normal operation, and click Log to check for errors.
 
-![](assets/d94b0415bcb8e57c789f4036fd84d9c7.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/d94b0415bcb8e57c789f4036fd84d9c7.jpeg)
 
 To view complete logs, go to the Event & Log page.
 
-![](assets/4b8e59677b1ef8b5553d3d4fe2649c30.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/4b8e59677b1ef8b5553d3d4fe2649c30.jpeg)
 
 If the instance status is abnormal, go to the Event page to view Kubernetes events.
 
-![](assets/a3293a850516eaba141136736e6b3cdc.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/a3293a850516eaba141136736e6b3cdc.jpeg)
 
 **Common issues**
 
@@ -1377,11 +1377,11 @@ Excessive concurrency or large individual files can cause the parsing process of
 
 To change the configuration, stop the service first. On the Online Service list page, find the target service and click Service Configuration > Resource Change on the right side.
 
-![](assets/f5519c1169b4ea27df6448b9a07ad7df.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/f5519c1169b4ea27df6448b9a07ad7df.jpeg)
 
 Enter the new resource configuration in the dialog box, click OK, and then click Restart. Wait for the service to start successfully.
 
-![](assets/5dbd701317f0dfabc79f3ad391225c3e.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/5dbd701317f0dfabc79f3ad391225c3e.jpeg)
 
 <a id="section-4-2-2-3"></a>
 
@@ -1391,11 +1391,11 @@ Step 1: Push the image that requires a hot update to the tenant-side Container R
 
 Step 2: Stop the online service and click Modify Configurations.
 
-![](assets/4db521af29c9b560bcdbc37704432667.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/4db521af29c9b560bcdbc37704432667.jpeg)
 
 In the panel that appears, select the custom image that you uploaded and click OK. Return to the service list, find the service and click Restart to restart the service.
 
-![](assets/af738aca0e0320ccd1a1e11ee2747d58.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/af738aca0e0320ccd1a1e11ee2747d58.jpeg)
 
 <a id="section-4-2-2-4"></a>
 
@@ -1407,17 +1407,17 @@ In the panel that appears, select the custom image that you uploaded and click O
 
 Go to the Task Execution Overview page, search for the task by its name or enter the name and click O&M in the Operation column, find the job that you want to view, and click Detail in the Operation column.
 
-![](assets/7015c641745035dcf5b49182be5130f8.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/7015c641745035dcf5b49182be5130f8.jpeg)
 
 Click the Log tab.
 
-![](assets/c5778d48cdd47631aba592e53b153953.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/c5778d48cdd47631aba592e53b153953.jpeg)
 
 **1.2. Check the task configuration**
 
 Find  `cfg.process is:`  and find the corresponding parameter setting.
 
-![](assets/3e5eb98496c76b9e833449e7487ef813.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/3e5eb98496c76b9e833449e7487ef813.jpeg)
 
 Confirm which operators and parameters are used.
 
@@ -1425,13 +1425,13 @@ Confirm which operators and parameters are used.
 
 Run the `- OP [`  command to query which operators are executed and which triggers the error.
 
-![](assets/f60c471d157783c7927ca1a54e4dcd22.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/f60c471d157783c7927ca1a54e4dcd22.jpeg)
 
 A summary log entry is generated after every operator is executed. The log entry includes the execution time and number of output samples.
 
 **1.4. Check the error details**
 
-![](assets/f7c250e773892fd588b23c5c23388d96.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/f7c250e773892fd588b23c5c23388d96.jpeg)
 
 As shown in the preceding figure, you can find the cause of error in the stack trace of the Python log.
 
@@ -1441,7 +1441,7 @@ As shown in the preceding figure, you can find the cause of error in the stack t
 
 The log includes the soffice and logic of the conversion failure.
 
-![](assets/febd7af79be8e8d638daa9e4e5d1cc74.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/febd7af79be8e8d638daa9e4e5d1cc74.jpeg)
 
 If the source file cannot be automatically converted to a PDF file for parsing, the file may be excessively large or corrupted.
 
@@ -1477,7 +1477,7 @@ This issue can be resolved by deleting the preceding three operators.
 
 **contains "Failed to convert document"**
 
-![](assets/9e70c3c578fb68a0a2fb1881224cb6fa.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/9e70c3c578fb68a0a2fb1881224cb6fa.jpeg)
 
 In the PDF parsing path, an error is reported when the preset conversion file format is supported. You need to check whether the source file format is invalid. Perform the following steps to troubleshoot the issue:
 
@@ -1485,7 +1485,7 @@ In the PDF parsing path, an error is reported when the preset conversion file fo
 
 2. Save the file as a new file and compare the size difference between the source and new files, such as the following document. The result shows that the files are not the same. This indicates that the original file format is invalid and is automatically fixed by the application.
 
-![](assets/d5e673833ef20ba3ef104121786e4fb3.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/d5e673833ef20ba3ef104121786e4fb3.jpeg)
 
 3. Parse the new file, and it can work as expected.
 
@@ -1507,11 +1507,11 @@ Cause:
 
 The first knowledge chunk ends at the text "... lifeless".
 
-![](assets/469f2917ed66a8619b4ebe0ec6307441.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/469f2917ed66a8619b4ebe0ec6307441.jpeg)
 
 Before the text "... lifeless", an overlap token is added to the second chunk, and the text is:
 
-![](assets/f21cf3a32471b1f9bfa1e0a88d9f29ce.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/f21cf3a32471b1f9bfa1e0a88d9f29ce.jpeg)
 
 6. **The PPU environment reports the following error message:**
 
@@ -1542,11 +1542,11 @@ In the Docker startup parameters, 8 GB of memory is allocated, and mem_swap is e
 
 Run the docker stats command to check whether the allocated memory takes effect.
 
-![](assets/5d02b8489670f439c098607594d39d4d.png)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/5d02b8489670f439c098607594d39d4d.png)
 
 The following dependencies and triton-ppu base images are not aligned.
 
-![](assets/fe4e40861c35a5e6cdbf0c462e242195.png)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/fe4e40861c35a5e6cdbf0c462e242195.png)
 
 The misalignment does not affect the business.
 
@@ -1554,7 +1554,7 @@ The misalignment does not affect the business.
 
 **layout_analysis.utils.element.DocException: process page error: pool index 85 process time too long, cancel with timeout!**
 
-![](assets/ef8ca58b186bc8c5edc03238d4edb115.png)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/ef8ca58b186bc8c5edc03238d4edb115.png)
 
 The model timed out during processing and reduced the concurrency from np=4 to np=2.
 
@@ -1564,7 +1564,7 @@ The model timed out during processing and reduced the concurrency from np=4 to n
 
 The path execution log shows that the PDF file can be recognized by other models, but an error is reported when the table parsing submodel is executed. The chunk generated from table parsing in the dataset execution result is empty.
 
-![](assets/639bf5e009d82f69522851eeac05195a.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/639bf5e009d82f69522851eeac05195a.jpeg)
 
 Troubleshooting algorithms executed on the site detect that the model files are compiled by using the H20 drive. On-site table parsing reports an error.
 
@@ -1572,15 +1572,15 @@ Solve the issue by directly compiling the model files on the site. If similar is
 
 9. **File download from the parsing path fails**
 
-![](assets/5100f8c7f371b6905aee396085b4f6e1.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/5100f8c7f371b6905aee396085b4f6e1.jpeg)
 
 In the current version, Referer configuration is enabled for all web services. For example, hotlink protection is enabled for Object Storage Service (OSS).
 
-![](assets/7766cfe4ae44a6c2c1839a464e629603.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/7766cfe4ae44a6c2c1839a464e629603.jpeg)
 
 The address of the hotlink protection configuration must be the same as the Referer configuration used in the environment. The HTTPS protocol is not used in the inter.env\*.\*.com address in the preceding figure. The service can run as expected only if the address starts with https://.
 
-![](assets/dedc352abfa70d1751bd74d415e3d42b.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/dedc352abfa70d1751bd74d415e3d42b.jpeg)
 
 10. **Startup failures of common GPU model services. If a service**
 
@@ -1588,29 +1588,29 @@ The address of the hotlink protection configuration must be the same as the Refe
 
 Screenshot of the error:
 
-![](assets/a304ce1deecd6b6c4ae59a5d8b754a75.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/a304ce1deecd6b6c4ae59a5d8b754a75.jpeg)
 
 **Note: In versions 211 and earlier, the following error is reported because the restart logic of the algorithm contains errors. You do not need to update the image. You only need to manually restart the container.**
 
-![](assets/0bc32fc4208e5567ae1f6ab5d481d11e.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/0bc32fc4208e5567ae1f6ab5d481d11e.jpeg)
 
 When an error-free Triton model is started, all model services are in the ready state.
 
-![](assets/799ca1cdd87a290e500fdcbc1931a636.png)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/799ca1cdd87a290e500fdcbc1931a636.png)
 
 The model can be started without errors, but the Triton service cannot be called:
 
-![](assets/a5b185f792a5ddcc277b1e8a2c18b549.png)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/a5b185f792a5ddcc277b1e8a2c18b549.png)
 
 Run the  `dmesg -T`  command to check for OOM killer events.
 
-![](assets/686b808d4b05d3fb12d3f072c1a7ca44.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/686b808d4b05d3fb12d3f072c1a7ca44.jpeg)
 
-![](assets/91203a2e6532980672a9e725f17d556e.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/91203a2e6532980672a9e725f17d556e.jpeg)
 
 Ask the algorithm for memory requirements:
 
-![](assets/55a9a88e7ba97e7afdb108cb7543ce1e.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/55a9a88e7ba97e7afdb108cb7543ce1e.jpeg)
 
 Adjust the memory, include the limits and requests, of the Deployment corresponding to the online service to 50 GB as needed.
 
@@ -1620,7 +1620,7 @@ Adjust the memory, include the limits and requests, of the Deployment correspond
 
 This issue is similar to the previous issue. Run the  `dmesg -T`  command to check for OOM killer events. The following figure shows the required memory:
 
-![](assets/98632a66285df570210cd19c8778d421.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/98632a66285df570210cd19c8778d421.jpeg)
 
 Adjust the memory, include the limits and requests, of the Deployment corresponding to the online service to 80 GB as needed.
 
@@ -1643,11 +1643,11 @@ kubectl exec -it -n xlm-cluster-alpqxj dke-elastic-pod-lpl4pm6l3uhn-54d8688777-k
 
 Run  `cat /home/admin/bin/start.sh`  to query the startup command of the Triton inference server.
 
-![](assets/a36ee8eb6785e4f4730ad08370e5c1e6.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/a36ee8eb6785e4f4730ad08370e5c1e6.jpeg)
 
 Copy the command marked by the red box and execute the command directly on the terminal. You can view the log  `tail -fn1000 /tmp/tritonserver.log`  for verification. If all table models are ready, the model can be started as expected.
 
-![](assets/34e8c9c5455f37d4f223b000cf5b1c71.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/34e8c9c5455f37d4f223b000cf5b1c71.jpeg)
 
 14. **Common bounding box (bbox) logic in document deep**
 
@@ -1723,7 +1723,7 @@ kubectl edit deploy -n sfm data-engine-console
 
 After the modification, the image automatically restarts. The following status shows that the image is updated.
 
-![](assets/3053aeca9b6ad8cec0e4b23a3245f781.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/3053aeca9b6ad8cec0e4b23a3245f781.jpeg)
 
 After the update, check whether the service features are affected.
 
@@ -1787,11 +1787,11 @@ For more information about how to connect to a database, see the "Other question
 
 Tag for an offline image with an NVIDIA GPU:
 
-![](assets/4cc1f8243d83815f6ddd4ae81e233c62.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/4cc1f8243d83815f6ddd4ae81e233c62.jpeg)
 
 Tag for an offline image in the PPU environment:
 
-![](assets/a275a1f68eb787b0dedef0c19b43ca8d.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/a275a1f68eb787b0dedef0c19b43ca8d.jpeg)
 
 ```sql
 # Update the corresponding tag based on the value.
@@ -1809,7 +1809,7 @@ In some projects, the GPU model is manually specified. Make sure that you check 
 
 The following figure shows the H200 GPU model in the resource group.
 
-![](assets/79b3b57fd9cb9fc7d20b426d902e8d51.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/79b3b57fd9cb9fc7d20b426d902e8d51.jpeg)
 
 In this case, execute the following SQL statements. The value is the image tag of data-mixer-operators.
 
@@ -1828,25 +1828,25 @@ New tasks directly read the image tag from the database and directly use the new
 
 The image tag of existing tasks do not automatically update. You need to decommission the task, modify the image tag, save the configuration, and publish the task again.
 
-![](assets/523aba7ea7d265f1acd8151d2f0f4248.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/523aba7ea7d265f1acd8151d2f0f4248.jpeg)
 
-![](assets/55aecbcd02c70ddf921fa7fc581ed077.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/55aecbcd02c70ddf921fa7fc581ed077.jpeg)
 
 Save the configurations without modification.
 
-![](assets/1df36f9e55f6f32987f794bf1cc0f58e.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/1df36f9e55f6f32987f794bf1cc0f58e.jpeg)
 
 After you publish the task, click Run to apply the new tag.
 
-![](assets/f3c58f282a1a7f762f0992c3f348f327.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/f3c58f282a1a7f762f0992c3f348f327.jpeg)
 
 **4.3. Confirm that you want to use the new image**
 
 On the Task Execution Overview page, find the task that you want to view, click Detail in the Operation column, and then click the Log tab. Find the log entry that starts with "Successfully pulled image". If the tag is the one that you configured, the image is updated.
 
-![](assets/ef05b99ad21953f8e19df3cf017effb9.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/ef05b99ad21953f8e19df3cf017effb9.jpeg)
 
-![](assets/21639fd4b102624749e8d891cc1ad021.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/21639fd4b102624749e8d891cc1ad021.jpeg)
 
 **Other questions**
 
@@ -1937,9 +1937,9 @@ Modify the parameter configuration of the operator based on your actual requirem
 
 The video parsing result contains 8 keyframes, but the result subset contains only 2 samples after the frame extraction template finishes execution.
 
-![](assets/1b4dffb616ccf5483ed67e2df85fead3.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/1b4dffb616ccf5483ed67e2df85fead3.jpeg)
 
-![](assets/8b43a3c235b63a78638b87fdb3b68b94.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/8b43a3c235b63a78638b87fdb3b68b94.jpeg)
 
 **Cause**
 
@@ -2005,7 +2005,7 @@ The input video file does not contain audio, which causes the operator execution
 
 Use a built-in operator to filter out videos without audio in batches.
 
-![](assets/65272e8d8d436697ea1440887c4e2216.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/65272e8d8d436697ea1440887c4e2216.jpeg)
 
 **ASR model unavailable**
 
@@ -2013,7 +2013,7 @@ Use a built-in operator to filter out videos without audio in batches.
 
 The FunASR model drop-down list is empty and no model service is available.
 
-![](assets/35d5a1acb2fc029235bba6faaacb96cf.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/35d5a1acb2fc029235bba6faaacb96cf.jpeg)
 
 **Cause**
 
@@ -2023,13 +2023,13 @@ No ASR service is deployed, or a service is deployed but not registered with Ope
 
 1. Deploy an online service in AI Studio.
 
-![](assets/4af3a4896510e418294c509b074ee6e8.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/4af3a4896510e418294c509b074ee6e8.jpeg)
 
-![](assets/821e56c50210fc29f0137cd6065a5250.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/821e56c50210fc29f0137cd6065a5250.jpeg)
 
 2. Register the AI Studio model service with OpenTrek Agent Dev.
 
-   ![](assets/0c3290a4777400d31b5a1f96b028a485.jpeg)
+   ![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/0c3290a4777400d31b5a1f96b028a485.jpeg)
 
 <a id="section-4-3"></a>
 
@@ -2039,7 +2039,7 @@ No ASR service is deployed, or a service is deployed but not registered with Ope
 
 - Check whether the network between the OP tenant zone and the AIStudio Model Service is connected. Run a curl command from the Application Agent pod to access the AIStudio VPC Endpoint and verify that Domain Name Resolution and Network connectivity function properly. If errors such as UnknownHost occur, the network is not connected. In this case, check whether both services reside in the same VPC. The Network deployment Architecture is as follows.
 
-![](assets/c329fbb25429b73955b1a5812bd63d71.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/c329fbb25429b73955b1a5812bd63d71.jpeg)
 
 - Use the model provider service code in OpenTrek Agent Dev to check whether the AIStudio Model Service is Running in the AIStudio console. If the Model Service is disabled or deleted, the Status is abnormal and you must Restore the service.
 
@@ -2049,28 +2049,28 @@ No ASR service is deployed, or a service is deployed but not registered with Ope
 
 Check the current logon method. You must Log In to OpenTrek Agent Dev through Role-based Authorization access.
 
-![](assets/a346003729eb8946c0d2e5e1f32f67f1.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/a346003729eb8946c0d2e5e1f32f67f1.jpeg)
 
 Go to the AIStudio console and check whether the Model Online Service List contains any Running Model Service.
 
-![](assets/04bbfa2eb9f87568504f5a0b5aa0bdfc.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/04bbfa2eb9f87568504f5a0b5aa0bdfc.jpeg)
 
 **Troubleshoot an empty API key list in OpenTrek Agent Dev model integration**
 
 Log In to the AIStudio console with the Resource Set Administrator Role of the current account and check whether the API key has the corresponding Model Service Binding.
 
-![](assets/14f2eed7bb41694be1edc30a85486563.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/14f2eed7bb41694be1edc30a85486563.jpeg)
 
 **Check the AIStudio Online Service status**
 
 Use the service ID to Query the AIStudio Online Service and check the Model Service Status.
 
-![](assets/efa626492bcd700c10db158e6dbf77b7.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/efa626492bcd700c10db158e6dbf77b7.jpeg)
 
 Check whether the AI Gateway is enabled. In the Access Setting section, verify that the AI Gateway is configured and that the VPC Endpoint exists.
 
-![](assets/a781d28821eece965aa2e76dfdd31ddb.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/a781d28821eece965aa2e76dfdd31ddb.jpeg)
 
 API key validity check
 
-![](assets/14f2eed7bb41694be1edc30a85486563.jpeg)
+![](en-opentrek-dev-operations-guide-v3.18.6-2607-20260902.assets/14f2eed7bb41694be1edc30a85486563.jpeg)

@@ -38,11 +38,11 @@ ASR for Zone-disaster Recovery can be used in two data centers and three data ce
 
 The architecture of ASR for Zone-disaster Recovery with two data centers:
 
-![](assets/d8f6bd17b648c5e119c53b02bf40f42f.jpeg)
+![](en-asr-product-introduction-v3.18.6-2607-20260901.assets/d8f6bd17b648c5e119c53b02bf40f42f.jpeg)
 
 Architecture of three data centers-based zone-disaster recovery:
 
-![](assets/9ceba1ab3ef0ac62404476bab628f288.png)
+![](en-asr-product-introduction-v3.18.6-2607-20260901.assets/9ceba1ab3ef0ac62404476bab628f288.png)
 
 ASR for Zone-disaster Recovery is mainly used for monitoring, drills, protection group disaster recovery, data center-level fault recovery, and single-product fault recovery.
 
@@ -70,11 +70,11 @@ ASR for Zone-disaster Recovery consists of a primary data center and a secondary
 
 Cross-cloud mode
 
-![](assets/a6ed4e0213de0864bcdf013b9789a704.png)
+![](en-asr-product-introduction-v3.18.6-2607-20260901.assets/a6ed4e0213de0864bcdf013b9789a704.png)
 
 Cross-region mode
 
-![](assets/2b9c9fc6b5a60222c7e5819843c08291.png)
+![](en-asr-product-introduction-v3.18.6-2607-20260901.assets/2b9c9fc6b5a60222c7e5819843c08291.png)
 
 ASR for Geo-disaster Recovery offers the following main features: DR drills, system management, and DR Dashboard.
 
@@ -98,11 +98,11 @@ One or more secondary data centers are created to back up data of the primary si
 
 Single-region backup architecture
 
-![](assets/309207d435b88f1c6329ff1e248fd997.png)
+![](en-asr-product-introduction-v3.18.6-2607-20260901.assets/309207d435b88f1c6329ff1e248fd997.png)
 
 Cross-region backup architecture
 
-![](assets/63b869e727cec0f99706e90c8982421a.png)
+![](en-asr-product-introduction-v3.18.6-2607-20260901.assets/63b869e727cec0f99706e90c8982421a.png)
 
 ASR for Backup and Recovery offers the following main features: backup, migration, and recovery.
 
@@ -124,7 +124,7 @@ Three data centers across two regions disaster recovery combines zone-disaster r
 
 Architecture of three data centers across two regions disaster recovery
 
-![](assets/3ed04e464bb03656821662988943c295.png)
+![](en-asr-product-introduction-v3.18.6-2607-20260901.assets/3ed04e464bb03656821662988943c295.png)
 
 Compared with traditional disaster recovery, the three data centers across two regions mode has the following advantages:
 
@@ -138,7 +138,7 @@ Hybrid disaster recovery refers to disaster recovery between Apsara Stack and pu
 
 Architecture of hybrid disaster recovery:
 
-![](assets/8fdee73301e819b41ff3b53fcebd8eec.jpeg)
+![](en-asr-product-introduction-v3.18.6-2607-20260901.assets/8fdee73301e819b41ff3b53fcebd8eec.jpeg)
 
 Hybrid disaster recovery offers the following advantages:
 

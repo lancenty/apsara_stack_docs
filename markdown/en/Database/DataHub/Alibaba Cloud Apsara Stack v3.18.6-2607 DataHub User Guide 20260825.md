@@ -137,7 +137,7 @@ This topic describes how to work with DataHub to complete basic operations.
 
 **Flowchart**
 
-![](assets/7caadc3e6327e805e801c6a8ab65e429.jpeg)
+![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/7caadc3e6327e805e801c6a8ab65e429.jpeg)
 
 **Procedure**
 
@@ -207,15 +207,15 @@ Before you log in to the DataHub console, make sure that the following requireme
    >
    > : switches between English, simplified Chinese, and traditional Chinese.
    >
-   > ![](assets/0dc7f6654b3b7293ee6fb7c1f5a9d25a.png)
+   > ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/0dc7f6654b3b7293ee6fb7c1f5a9d25a.png)
    >
-   > <img src="assets/daf249bca46e8198c620e0a5c23394a5.png" width="10" alt=""> or
+   > <img src="en-datahub-user-guide-v3.18.6-2607-20260825.assets/daf249bca46e8198c620e0a5c23394a5.png" width="10" alt=""> or
    >
    > : switches between light mode and dark mode.
    >
-   > <img src="assets/e245d5a24d033d5ea5cfbf9dbb23edcc.png" width="17" alt="">
+   > <img src="en-datahub-user-guide-v3.18.6-2607-20260825.assets/e245d5a24d033d5ea5cfbf9dbb23edcc.png" width="17" alt="">
    >
-   > <img src="assets/3b3dd4ebd52ffe7feb83663c835a3a01.png" width="15" alt=""> : displays message notifications. You can click **More** to go to **Message**
+   > <img src="en-datahub-user-guide-v3.18.6-2607-20260825.assets/3b3dd4ebd52ffe7feb83663c835a3a01.png" width="15" alt=""> : displays message notifications. You can click **More** to go to **Message**
    >
    > **Center** to view all messages.
 
@@ -234,7 +234,7 @@ After you log in to the DataHub console, the **Overview** page appears by defaul
 | Resource Overview | This section displays the following information: <strong>Read Traffic</strong> <strong>(Today)</strong>, <strong>Write Traffic (Today)</strong>, <strong>Storage Usage (Total)</strong>, <strong>Number of Projects</strong>, and <strong>Data update time</strong>.<br>The unit varies with the data size, for example, Byte, KB, MB, and GB. |
 | Storage Overview | This section displays the storage usage of each project in the current organization in a pie chart. The projects are sorted in descending order based on storage usage in the legend. You can perform the following operations to view information:<br>• Move the pointer over sectors in different colors on the pie chart to view the storage usage of each project.<br>• Click <strong>Details</strong> in the upper-right corner of the Storage Overview section. On the <strong>Projects</strong> page, view the details of each project. |
 | Common Information | In this section, you can perform the following operations:<br>• You can create a project by using Quick Access.<br>• You can click Beginner's Guide to view the documentation.<br>• You can view Primary Account ID, Classic Network (Private), and VPC (Private). |
-| Synchronization Task | DataHub allows you to synchronize data to the following services:<br>• <strong>MaxCompute</strong>: DataHub allows you to synchronize data to MaxCompute and create custom partitions.<br>• <strong>Hologres</strong>: DataHub allows you to use HoloHub to synchronize data to Hologres.<br>• <strong>Elasticsearch</strong>: You can synchronize data from DataHub to Elasticsearch.<br>• <strong>RDS &amp; MySQL</strong>: You can synchronize data from DataHub to ApsaraDB RDS in IGNORE or OVERWRITE mode.<br>• <strong>Tablestore</strong>: DataHub allows you to synchronize data to Tablestore in PUT or UPDATE mode.<br>• <strong>Object Storage Service (OSS)</strong>: DataHub allows you to archive data to OSS based on the time when data is written to DataHub.<br>Click the<img src="assets/039e24ef57761e2650c9a61fce40a74c.png" width="14" alt="">icon next to the name of a cloud service to log in to the<br>console of the cloud service. |
+| Synchronization Task | DataHub allows you to synchronize data to the following services:<br>• <strong>MaxCompute</strong>: DataHub allows you to synchronize data to MaxCompute and create custom partitions.<br>• <strong>Hologres</strong>: DataHub allows you to use HoloHub to synchronize data to Hologres.<br>• <strong>Elasticsearch</strong>: You can synchronize data from DataHub to Elasticsearch.<br>• <strong>RDS &amp; MySQL</strong>: You can synchronize data from DataHub to ApsaraDB RDS in IGNORE or OVERWRITE mode.<br>• <strong>Tablestore</strong>: DataHub allows you to synchronize data to Tablestore in PUT or UPDATE mode.<br>• <strong>Object Storage Service (OSS)</strong>: DataHub allows you to archive data to OSS based on the time when data is written to DataHub.<br>Click the<img src="en-datahub-user-guide-v3.18.6-2607-20260825.assets/039e24ef57761e2650c9a61fce40a74c.png" width="14" alt="">icon next to the name of a cloud service to log in to the<br>console of the cloud service. |
 
 <a id="section-4-2-3"></a>
 
@@ -295,7 +295,7 @@ An Apsara Stack tenant account authorized to create projects is created.
 
    In the right-side **Configuration overview** section, you can perform the following operations:
 
-   ![](assets/a4af02ce4928e646e4eea3f0d5f5e33b.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/a4af02ce4928e646e4eea3f0d5f5e33b.jpeg)
 
    - View parameters
 
@@ -315,7 +315,7 @@ An Apsara Stack tenant account authorized to create projects is created.
 
 6. Optional. Click **View** in the Actions column of the project to view the details of the project. To delete the project, click **Delete** in the Actions column.
 
-   ![](assets/6ade8ded5f3017b031d7d7f3994430b9.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/6ade8ded5f3017b031d7d7f3994430b9.jpeg)
 
 **Bind a VPC to a DataHub project**
 
@@ -327,11 +327,11 @@ Perform the following steps to bind and unbind a VPC:
 
 2. In the dialog box that appears, enter the name of the desired VPC and click **Bind VPC**.
 
-   ![](assets/073467c7de6650df7fccd825ec86b49b.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/073467c7de6650df7fccd825ec86b49b.jpeg)
 
 3. Optional. To unbind the VPC, click **Delete** in the Actions column of the VPC.
 
-   ![](assets/c7e8645625240c53f18fde575add242f.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/c7e8645625240c53f18fde575add242f.jpeg)
 
 <a id="section-4-2-4"></a>
 
@@ -359,7 +359,7 @@ You can create up to 500 topics in each project. If you want to create more topi
 
    - **Method 1**: **Create Directly**
 
-     ![](assets/57a10c8b4f7633f4e4e298ce17a5f71e.jpeg)
+     ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/57a10c8b4f7633f4e4e298ce17a5f71e.jpeg)
 
      | Parameter | Description |
      | --- | --- |
@@ -379,7 +379,7 @@ You can create up to 500 topics in each project. If you want to create more topi
      >
      > Before you perform the following steps, make sure that you have created a MaxCompute project and a destination table, and you have obtained the corresponding AccessKey ID and AccessKey secret.
 
-     ![](assets/84cdd34df49d235012f5e1a014695fea.jpeg)
+     ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/84cdd34df49d235012f5e1a014695fea.jpeg)
 
      | Parameter | Description |
      | --- | --- |
@@ -391,7 +391,7 @@ You can create up to 500 topics in each project. If you want to create more topi
 
      Click **Next**. In the **Create Topic** dialog box, configure the following parameters.
 
-     ![](assets/90df6f4f170db136d27e1d4096a92b06.jpeg)
+     ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/90df6f4f170db136d27e1d4096a92b06.jpeg)
 
      | Parameter | Description |
      | --- | --- |
@@ -408,7 +408,7 @@ You can create up to 500 topics in each project. If you want to create more topi
 
    Refresh the **Topic List** tab to view the created topic.
 
-   ![](assets/ca45b0639dd2de862f8e421865a562a0.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/ca45b0639dd2de862f8e421865a562a0.jpeg)
 
    You can also perform the following operations on existing topics:
 
@@ -444,7 +444,7 @@ A group can contain up to 50 topics.
 
 4. In the **Create Group** panel, configure the parameters and click **Create**. The following table describes the parameters.
 
-   ![](assets/bde656696862c21bdcf77c8b2341a741.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/bde656696862c21bdcf77c8b2341a741.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -454,7 +454,7 @@ A group can contain up to 50 topics.
 
 5. View the information about the group on the **Groups** tab of the project details page.
 
-   ![](assets/ce74b7628c80292038c5404ee73d491e.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/ce74b7628c80292038c5404ee73d491e.jpeg)
 
    You can perform the following operations on the group:
 
@@ -488,7 +488,7 @@ A project and a topic are created and data is written to the topic.
 
 5. In the **Sampling Shard ID** panel, specify **Sampling Quantity** and **Start Time** and then click **Sample**. DataHub collects records that are written to the shard after the specified start time and displays the sampled records in the table. The number of sampled records does not exceed the specified sample quantity.
 
-   ![](assets/6431edd785a44b4f2e71dde0724a5de2.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/6431edd785a44b4f2e71dde0724a5de2.jpeg)
 
 <a id="section-5"></a>
 
@@ -1072,7 +1072,7 @@ Command and result:
 bash bin/logstash -f config/logstash.conf
 ```
 
-![](assets/b7d592dd051aa5923eb117adda3257dc.png)
+![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/b7d592dd051aa5923eb117adda3257dc.png)
 
 **Many-to-many sync (multiple JSON files to multiple topics)**
 
@@ -1177,7 +1177,7 @@ Command and result:
 bash bin/logstash -f config/logstash.conf
 ```
 
-![](assets/19091c4bde6f89443adc88960e14c6e4.png)
+![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/19091c4bde6f89443adc88960e14c6e4.png)
 
 **One-to-many sync (route data from one JSON file to different topics based on a key)**
 
@@ -1262,11 +1262,11 @@ Command and result:
 bash bin/logstash -f config/logstash.conf
 ```
 
-![](assets/b7d592dd051aa5923eb117adda3257dc.png)
+![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/b7d592dd051aa5923eb117adda3257dc.png)
 
 **Sync MySQL data to DataHub**
 
-![](assets/57964106a172552c74fbd31f82154aa2.png)
+![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/57964106a172552c74fbd31f82154aa2.png)
 
 Configuration file:
 
@@ -1429,7 +1429,7 @@ As the big data market grows, traditional relational database management systems
 
 Oracle GoldenGate (OGG) is a tool for log-based structured data replication across heterogeneous environments. It is used for data backup between primary and secondary Oracle databases. It is also used to synchronize data from Oracle databases to other databases such as IBM Db2 and MySQL databases. The following figure shows the logical architecture of OGG. OGG is deployed on the source and destination databases and involves Data Pump, Manager, Extract, Collector, and Replicat processes.
 
-![](assets/af735f5580f0a224e0717a7749c15f12.jpeg)
+![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/af735f5580f0a224e0717a7749c15f12.jpeg)
 
 - Manager process: the control process of OGG. Both the source and destination databases have one and only one Manager process. The Manager process is used to start, stop, and monitor other processes.
 
@@ -1760,7 +1760,7 @@ A: In most cases, this issue may be caused by configuration errors. You must tho
 
 - Run the Logdump command to check whether the record ID can be obtained, as shown in the following figure.
 
-  ![](assets/09118d649ed276fd8a4c2eb2b01762fa.jpeg)
+  ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/09118d649ed276fd8a4c2eb2b01762fa.jpeg)
 
 **Q: What do I do if an error occurs in the token clause for TKN-ROWID?**
 
@@ -2020,11 +2020,11 @@ DataHub supports two OGG modes for Oracle data collection: OGG Application Adapt
 
 With OGG Application Adapters, the Extract process runs on the destination database.
 
-![](assets/3dc6137630e9efa2c58e47a347cf6736.jpeg)
+![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/3dc6137630e9efa2c58e47a347cf6736.jpeg)
 
 With OGG for Big Data, the Replicat process runs on the destination database.
 
-![](assets/4d1965d4d51500e90de3eff47d5f84bb.jpeg)
+![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/4d1965d4d51500e90de3eff47d5f84bb.jpeg)
 
 **Key differences:**
 
@@ -3827,7 +3827,7 @@ More partitions cause slower data synchronization from DataHub due to the curren
 
 6. In the **Create Connector** panel, click **MaxCompute**. Then, configure the parameters and click **Create**.
 
-   ![](assets/d32b317648071a51caa545b5d75acce0.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/d32b317648071a51caa545b5d75acce0.png)
 
    Key parameters:
 
@@ -3842,7 +3842,7 @@ More partitions cause slower data synchronization from DataHub due to the curren
      | EVENT_TIME | Value of the <code>event_time(TIMEST</code> <code>AMP) </code> field in the record | TUPLE | • You must set the Partition Config parameter to specify the format to which timestamps are converted for time-based partitioning in MaxCompute.<br>• You must set the Timezone parameter to specify a time zone. |
      | META_TIME | Value of the <code>__dh_meta_time__</code><code> </code> field in the record | TUPLE / BLOB | • You must set the Partition Config parameter to specify the format to which timestamps are converted for time-based partitioning in MaxCompute.<br>• You must set the Timezone parameter to specify a time zone. |
 
-     ![](assets/f536b59b0924ee150b87e037757676d9.png)
+     ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/f536b59b0924ee150b87e037757676d9.png)
 
      In  `SYSTEM_TIME` ,  `EVENT_TIME` , or  `META_TIME`  mode, data is synchronized to different partitions in the destination MaxCompute table based on the timestamps and the specified time zone. By default, the timestamps are in microseconds.
 
@@ -3866,7 +3866,7 @@ More partitions cause slower data synchronization from DataHub due to the curren
 
 You can view the details of a DataConnector, such as the status and synchronization offset, and restart or stop the DataConnector on the details page of the DataConnector, as shown in the following figure.
 
-![](assets/201614030d30247e88d9182da674fed7.png)
+![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/201614030d30247e88d9182da674fed7.png)
 
 **Examples**
 
@@ -3876,29 +3876,29 @@ You can view the details of a DataConnector, such as the status and synchronizat
 
    The schema of the topic must contain the partition fields in MaxCompute, and the fields are of the STRING type, as shown in the following figure.
 
-   ![](assets/fd5329637a96a13fa9099305a30ef6a1.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/fd5329637a96a13fa9099305a30ef6a1.png)
 
 2. Write data to the DataHub topic. You can use a DataHub SDK to write the data.
 
    During the test, a DataHub SDK is used to write several records, where [ds,hh,mm] are [20210304,01,15] and [20210304,02,15]. The following figure shows the records.
 
-   ![](assets/e229532d3dd0265f60dd6b5803f4855f.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/e229532d3dd0265f60dd6b5803f4855f.png)
 
 3. Create a DataConnector.
 
    In USER_DEFINE mode, you can configure the partition fields when you create a DataConnector. If no available MaxCompute table exists, a MaxCompute table is automatically created. In this example, the f1 and f2 fields are to be imported. The f3 field is not synchronized.
 
-   ![](assets/48515b0bd79f330cc0ecdeeff4adc248.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/48515b0bd79f330cc0ecdeeff4adc248.png)
 
 4. Verify the synchronized data.
 
    You can view the synchronization information of the DataConnector in the DataHub console.
 
-   ![](assets/8e0b38aaee49618b26e3f90b24e19c10.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/8e0b38aaee49618b26e3f90b24e19c10.png)
 
    Query data in the MaxCompute table. The following figure shows the query result.
 
-   ![](assets/52938043f30b69f16018c741d65ed385.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/52938043f30b69f16018c741d65ed385.png)
 
    In USER_DEFINE mode, DataHub synchronizes data to the corresponding partition based on the value of the partition field in MaxCompute.
 
@@ -3908,13 +3908,13 @@ You can view the details of a DataConnector, such as the status and synchronizat
 
    The partition to which data is written is determined based on the time when data is written to DataHub. Therefore, the topic schema needs to contain only data fields and does not need to contain partition fields, as shown in the following figure.
 
-   ![](assets/62014ecbe0d27e52d3180ac1a9b427ff.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/62014ecbe0d27e52d3180ac1a9b427ff.png)
 
 2. Write data to the DataHub topic. You can use a DataHub SDK to write the data.
 
    During the test, a DataHub SDK is used to write multiple records. The time when the data is written to DataHub is  `2021-03-04 14:02:45` . The following figure shows the records.
 
-   ![](assets/5429d08aa691e44393b57498257fc3fc.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/5429d08aa691e44393b57498257fc3fc.png)
 
 3. Create a DataConnector.
 
@@ -3922,17 +3922,17 @@ You can view the details of a DataConnector, such as the status and synchronizat
    >
    > The partition configurations must be the same as those of the MaxCompute table.
 
-   ![](assets/c50053c7b01480efe0c30a3f1dbd3194.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/c50053c7b01480efe0c30a3f1dbd3194.png)
 
 4. Verify the synchronized data.
 
    You can view the synchronization information of the DataConnector in the DataHub console, such as DoneTime.
 
-   ![](assets/5f84f20f44dc07884a3d4ae9644e12dd.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/5f84f20f44dc07884a3d4ae9644e12dd.png)
 
    Query data in the MaxCompute table. The following figure shows the query result.
 
-   ![](assets/4c3eec6889c521b45bc4ff450ded1452.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/4c3eec6889c521b45bc4ff450ded1452.png)
 
    In SYSTEM_TIME mode, DataHub synchronizes data to the corresponding partition based on the time when data was written to DataHub.
 
@@ -3983,7 +3983,7 @@ DataHub synchronizes data based on the mappings between the data types of fields
 
 4. On the **Topic List** tab, find the topic that you want to manage and click its name to go to the topic details page.
 
-5. On the topic details page, click <img src="assets/e2f8e9d8f13771d6cd7b2f8c40c74609.png" width="42" alt=""> in the upper-right corner.
+5. On the topic details page, click <img src="en-datahub-user-guide-v3.18.6-2607-20260825.assets/e2f8e9d8f13771d6cd7b2f8c40c74609.png" width="42" alt=""> in the upper-right corner.
 
 6. In the **Create Connector** panel, click **Hologres**. Then, configure the parameters and click **Create**.
 
@@ -3991,7 +3991,7 @@ DataHub synchronizes data based on the mappings between the data types of fields
    >
    > You can synchronize data to partitioned tables in Hologres. If you specify a partitioned table when you create a DataConnector, data is automatically synchronized to the partitions based on the partition key.
 
-   ![](assets/a49c7edbfcab95582126d54005090f6d.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/a49c7edbfcab95582126d54005090f6d.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -4015,7 +4015,7 @@ DataHub synchronizes data based on the mappings between the data types of fields
 
 7. Click the **Synchronization Task** tab to view the status of data synchronization from DataHub to Hologres.
 
-   ![](assets/a1b5d2c1c1cd37b1a4293de46cd261cd.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/a1b5d2c1c1cd37b1a4293de46cd261cd.jpeg)
 
 8. View the data that is synchronized to Hologres in real time.
 
@@ -4086,7 +4086,7 @@ The TINYINT, SMALLINT, INTEGER, and FLOAT data types in DataHub are supported by
 
 6. In the **Create Connector** panel, click **ADS**, configure the parameters, and then click **Create**.
 
-   ![](assets/f702f45e15b1c6c4061fa16ec5aa4466.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/f702f45e15b1c6c4061fa16ec5aa4466.png)
 
    The following section describes the key parameters that are used to create a DataConnector in the DataHub console. To create a DataConnector in a more flexible manner, use an SDK.
 
@@ -4108,19 +4108,19 @@ The TINYINT, SMALLINT, INTEGER, and FLOAT data types in DataHub are supported by
 
    In this example, a topic of the TUPLE type is created. The following figure shows the schema details of the created topic.
 
-   ![](assets/648163f4ffc33796077b1e4fc4707ed9.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/648163f4ffc33796077b1e4fc4707ed9.png)
 
 3. Create a DataConnector. In the Create Connector panel, select IGNORE from the Write Mode drop-down list and all fields from the Import Fields drop-down list.
 
-   ![](assets/f702f45e15b1c6c4061fa16ec5aa4466.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/f702f45e15b1c6c4061fa16ec5aa4466.png)
 
 4. Write data of the TUPLE type to the created topic. The following figure shows the written data. In this example, four records are written.
 
-   ![](assets/497d6342bc3acbfbd3b5c78352d4fce1.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/497d6342bc3acbfbd3b5c78352d4fce1.png)
 
 5. Connect to AnalyticDB for MySQL on the client and check whether the data is synchronized to AnalyticDB for MySQL. The following figure shows the synchronized data.
 
-   ![](assets/26a8b9f212330a54b6786c9f27b877b1.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/26a8b9f212330a54b6786c9f27b877b1.jpeg)
 
 <a id="section-7-5"></a>
 
@@ -4154,7 +4154,7 @@ This topic describes how to create a DataConnector in DataHub to synchronize dat
 
 6. In the **Create Connector** panel, click **Elasticsearch**, configure the parameters, and then click **Create**.
 
-   ![](assets/903e23bf62f42d24b336094e36950c1a.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/903e23bf62f42d24b336094e36950c1a.jpeg)
 
    Parameters:
 
@@ -4375,7 +4375,7 @@ In this example, the DataConnector is successfully created. If the DataConnector
 
 On the details page of a DataConnector, view the information about the DataConnector, such as the status and synchronization offset. You can also restart and stop the DataConnector.
 
-![](assets/98e8e536c59a7c06adc7ee12c2bbfbeb.png)
+![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/98e8e536c59a7c06adc7ee12c2bbfbeb.png)
 
 To reset the DataConnector, stop the DataConnector first.
 
@@ -4399,7 +4399,7 @@ This example shows the procedure for synchronizing data from DataHub to Elastics
 
    In this example, f1 and f2 are used as the type fields, f3 and f4 as the ID fields, and all fields as the fields to be imported.
 
-   ![](assets/903e23bf62f42d24b336094e36950c1a.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/903e23bf62f42d24b336094e36950c1a.jpeg)
 
 4. Write data to the DataHub topic.
 
@@ -4413,7 +4413,7 @@ This example shows the procedure for synchronizing data from DataHub to Elastics
 
    Then, check whether data is synchronized to Elasticsearch. You can view the synchronized data in the Kibana console.
 
-   ![](assets/cf8af657e8a141a18d236295b5a90574.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/cf8af657e8a141a18d236295b5a90574.jpeg)
 
 <a id="section-7-6"></a>
 
@@ -4453,11 +4453,11 @@ This topic describes how to create a DataConnector in DataHub to synchronize dat
 
 4. On the **Topic List** tab, find the topic that you want to manage and click its name to go to the topic details page.
 
-5. On the topic details page, click <img src="assets/e2f8e9d8f13771d6cd7b2f8c40c74609.png" width="42" alt=""> in the upper-right corner.
+5. On the topic details page, click <img src="en-datahub-user-guide-v3.18.6-2607-20260825.assets/e2f8e9d8f13771d6cd7b2f8c40c74609.png" width="42" alt=""> in the upper-right corner.
 
 6. In the **Create Connector** panel, click **Object Storage Service**. Then, configure the parameters and click **Create**. The following table describes the parameters.
 
-   ![](assets/8a7058fd1a002b60a01354f7dee167b0.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/8a7058fd1a002b60a01354f7dee167b0.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -4480,11 +4480,11 @@ This topic describes how to create a DataConnector in DataHub to synchronize dat
 
    In this example, a topic of the TUPLE type is created. The following figure shows the schema details of a topic.
 
-   ![](assets/ba07e4e4620e17728303ca9384965d5c.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/ba07e4e4620e17728303ca9384965d5c.png)
 
 3. Create a DataConnector.
 
-   ![](assets/8a7058fd1a002b60a01354f7dee167b0.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/8a7058fd1a002b60a01354f7dee167b0.jpeg)
 
 4. Write data to the topic of the TUPLE type. The following figure shows the written data.
 
@@ -4494,7 +4494,7 @@ This topic describes how to create a DataConnector in DataHub to synchronize dat
 
    Download the file and view the file content. The data that is synchronized from the TUPLE topic is in the CSV format. The following figure shows the file content.
 
-   ![](assets/80d58315c5219b72e0c464594a440646.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/80d58315c5219b72e0c464594a440646.jpeg)
 
 <a id="section-7-7"></a>
 
@@ -4548,7 +4548,7 @@ This topic describes how to synchronize data from DataHub to Tablestore. It cove
 
 6. In the **Create Connector** panel, click **Tablestore**. Then, configure the parameters and click **Create**. The following table describes the parameters.
 
-   ![](assets/5905d2820b2fdcddec034e0122c04d60.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/5905d2820b2fdcddec034e0122c04d60.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -4562,7 +4562,7 @@ This topic describes how to synchronize data from DataHub to Tablestore. It cove
 
 7. After the synchronization task is created, click **View** on the **Synchronization Task** tab of the topic details page to view the details of the synchronization task.
 
-   ![](assets/be2d301adeb529bc1e4bd10c043f226b.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/be2d301adeb529bc1e4bd10c043f226b.jpeg)
 
 <a id="section-7-8"></a>
 
@@ -4615,7 +4615,7 @@ This topic describes how to synchronize data from DataHub to ApsaraDB RDS and Ap
 
 6. In the **Create Connector** panel, click **RDS & MySQL**, configure the parameters, and then click **Create**.
 
-   ![](assets/f134dd1d8b3a7266a405126443f238a4.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/f134dd1d8b3a7266a405126443f238a4.jpeg)
 
 The following section describes key parameters that are used to create a DataConnector in the DataHub console. To create a DataConnector in a more flexible manner, use an SDK.
 
@@ -4645,19 +4645,19 @@ The following section describes key parameters that are used to create a DataCon
 
 2. Create a DataHub topic. In this example, a topic of the TUPLE type is created. The following figure shows the schema details of the topic.
 
-   ![](assets/f5e0e8eea0752a38423accf016d5c679.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/f5e0e8eea0752a38423accf016d5c679.png)
 
 3. Create a DataConnector. In this example, IGNORE is selected as Write Mode and all fields are selected for the Import Fields parameter.
 
-   ![](assets/f134dd1d8b3a7266a405126443f238a4.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/f134dd1d8b3a7266a405126443f238a4.jpeg)
 
 4. Write data of the TUPLE type to the created topic. The following figure shows the written data. In this example, four records are written to the topic.
 
-   ![](assets/678ac1300df131dffea3ab7a1dd369c3.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/678ac1300df131dffea3ab7a1dd369c3.png)
 
 5. Verify the synchronized data. In this example, a MySQL client is used to connect to ApsaraDB RDS to view the synchronized data. The following figure shows the synchronized data.
 
-   ![](assets/2c9e55425b3a511e6b9c8e463f3d7309.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/2c9e55425b3a511e6b9c8e463f3d7309.jpeg)
 
 **Synchronize data to ApsaraDB RDS for MySQL**
 
@@ -4704,7 +4704,7 @@ The TINYINT, SMALLINT, INTEGER, and FLOAT data types in DataHub are supported by
 
 6. In the **Create Connector** panel, click **RDS & MySQL**, configure the parameters, and then click **Create**.
 
-   ![](assets/f134dd1d8b3a7266a405126443f238a4.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/f134dd1d8b3a7266a405126443f238a4.jpeg)
 
 The following section describes the key parameters that are used to create a DataConnector in the DataHub console. To create a DataConnector in a more flexible manner, use an SDK.
 
@@ -4734,19 +4734,19 @@ The following section describes the key parameters that are used to create a Dat
 
 2. Create a topic in the DataHub console. In this example, a topic of the TUPLE type is created. The following figure shows the schema details of the created topic.
 
-   ![](assets/f5e0e8eea0752a38423accf016d5c679.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/f5e0e8eea0752a38423accf016d5c679.png)
 
 3. Create a DataConnector. In this example, IGNORE is selected as Write Mode and all fields are selected for the Import Fields parameter.
 
-   ![](assets/f134dd1d8b3a7266a405126443f238a4.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/f134dd1d8b3a7266a405126443f238a4.jpeg)
 
 4. Write data of the TUPLE type to the created topic. The following figure shows the written data. In this example, four data records are written.
 
-   ![](assets/678ac1300df131dffea3ab7a1dd369c3.png)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/678ac1300df131dffea3ab7a1dd369c3.png)
 
 5. Verify the synchronized data. In this example, a MySQL client is used to connect to ApsaraDB RDS to view the synchronized data. The following figure shows the synchronized data.
 
-   ![](assets/2c9e55425b3a511e6b9c8e463f3d7309.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/2c9e55425b3a511e6b9c8e463f3d7309.jpeg)
 
 <a id="section-8"></a>
 
@@ -4808,7 +4808,7 @@ You can create a subscription in the DataHub console. Make sure that your accoun
 
 3. On the topic details page, click **Subscription**. In the Create Subscription panel, configure the parameters and click **Create**.
 
-   ![](assets/189e8534896c7f2b2901abfe7ea3670c.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/189e8534896c7f2b2901abfe7ea3670c.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -4817,7 +4817,7 @@ You can create a subscription in the DataHub console. Make sure that your accoun
 
 4. Click the **Subscription List** tab on the topic details page to view the subscriptions of the topic.
 
-   ![](assets/7fd321b791b9976069caa9a89039e9b9.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/7fd321b791b9976069caa9a89039e9b9.jpeg)
 
 **Example**
 
@@ -5000,7 +5000,7 @@ You can reset a consumption offset to another one from which you want to consume
 
 4. In the **Reset Offset** panel, specify a new consumption offset based on your business requirements.
 
-   ![](assets/95d55deb0e301fedc6dc4ccdafaab3e2.jpeg)
+   ![](en-datahub-user-guide-v3.18.6-2607-20260825.assets/95d55deb0e301fedc6dc4ccdafaab3e2.jpeg)
 
 5. Click **Reset**.
 

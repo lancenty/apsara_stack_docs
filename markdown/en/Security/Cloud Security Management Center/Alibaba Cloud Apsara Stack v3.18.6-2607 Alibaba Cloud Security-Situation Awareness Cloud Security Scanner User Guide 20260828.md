@@ -261,7 +261,7 @@ Vulnerabilities identified by Cloud Security Scanner include security vulnerabil
 
 4. View the overall results of Cloud Security Scanner.
 
-   ![](assets/5079b759e9fbedf198fa4be5efb30ad0.jpeg)
+   ![](en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/5079b759e9fbedf198fa4be5efb30ad0.jpeg)
 
    | Section | Description |
    | --- | --- |
@@ -301,7 +301,7 @@ You can use the asset analysis feature to view the number of assets, assets at r
 
 4. On the **Asset Analysis** page, you can view statistical charts of **Website Assets**, **Host Assets**, and **Domain Assets**, including **Asset Overview**, **Host Port Service**, **Top 5 Website Fingerprints**, **Top 5 Domain Resolutions**, **Top 5 Hosts By Open Ports**, **Top 5 High-Risk Ports**, **Top 5 Host Ports**, **Top 5 Host Services**, **Top 5 Host Asset Device Types**, **Top 5 Operating Systems**, and **Website Status Code Distribution**.
 
-   ![](assets/0a7903386d9f3440561b53b1f405e221.jpeg)
+   ![](en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/0a7903386d9f3440561b53b1f405e221.jpeg)
 
 5. Click **Update Data** in the upper-right corner to manually update all statistical charts.
 
@@ -343,7 +343,7 @@ This topic describes how to view and manage website assets that are imported to 
      | <strong>Delete</strong>/<strong>Batch</strong> Delete | Delete one or more website assets. After a website asset is deleted, the website asset is no longer scanned by the Cloud Security Scanner. |
      | Add Asset Tag | Add tags to assets. |
 
-     ![](assets/328ec77f67b36ae993eef131aa272ed2.jpeg)
+     ![](en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/328ec77f67b36ae993eef131aa272ed2.jpeg)
 
 <a id="section-3-2-3"></a>
 
@@ -373,7 +373,7 @@ This topic describes how to view and manage host assets that are imported to Clo
 
      - Click **Export** above the asset list to export the asset list as an Excel file.
 
-     ![](assets/f0d3b2f968c2f4fcc53f2f37cf4df6d6.jpeg)
+     ![](en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/f0d3b2f968c2f4fcc53f2f37cf4df6d6.jpeg)
 
    - You can view or manage a single host address by clicking the corresponding operation in the Operation column of the host asset list. You can also select multiple host addresses and click the corresponding operation below the host asset list to view or manage them at a time.
 
@@ -385,7 +385,7 @@ This topic describes how to view and manage host assets that are imported to Clo
      | Add Asset Tag | Add tags to assets for management. |
      | <strong>Delete</strong>/<strong>Batch</strong> Delete | Delete one or more host assets. After a host asset is deleted, the host asset is no longer scanned by the Cloud Security Scanner. |
 
-     ![](assets/6e20947b1867df867657ac92705baa6b.jpeg)
+     ![](en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/6e20947b1867df867657ac92705baa6b.jpeg)
 
 <a id="section-3-2-4"></a>
 
@@ -425,7 +425,7 @@ This topic describes how to view and manage domain assets that are imported to C
      | Add Asset Tag | Add tags to assets for management. |
      | Batch Delete | Delete assets in batches. After the assets are deleted, they will not be scanned by Cloud Security Scanner. |
 
-     ![](assets/21fd72d7ddfcca40e52b6757bbcaecbb.jpeg)
+     ![](en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/21fd72d7ddfcca40e52b6757bbcaecbb.jpeg)
 
 <a id="section-3-3"></a>
 
@@ -491,7 +491,7 @@ Security administrators can view the security vulnerabilities detected by Cloud 
 
    - View risk statistics, including **Risk Name**, **Risk Address**, **Processing Status**, **Detection Status**, **Update Time**, and **Group**.
 
-   ![](assets/fd480d0fdd004ef8383df00ee5d321bb.jpeg)
+   ![](en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/fd480d0fdd004ef8383df00ee5d321bb.jpeg)
 
 3. Search for security vulnerabilities by specifying **Risk Level**, **Asset Group**, **Asset Tag**, **Staff**, **Detect Status**, **Discovery Time**, **Update Time**, and keywords.
 
@@ -915,7 +915,7 @@ This topic describes how to create an asset scan template for asset discovery an
 
 5. Configure the basic information of the asset scan template.
 
-   ![](assets/44c332a777c219c64ab29a3cd01523b0.jpeg)
+   ![](en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/44c332a777c219c64ab29a3cd01523b0.jpeg)
 
 6. Click **Confirm**.
 
@@ -947,7 +947,7 @@ Manages the basic detection switch (enabled by default), risk type detection ite
 
 5. Configure the basic information of the risk scan template.
 
-   ![](assets/2af48daa3e66005d016a681e10b00900.jpeg)
+   ![](en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/2af48daa3e66005d016a681e10b00900.jpeg)
 
 6. Click **Confirm**.
 
@@ -1141,7 +1141,7 @@ The details of scan rules are maintained and managed in the upgrade center of Al
 
     In the **Default weak password** column, turn off the switch. The switch status changes
 
-    to <img src="assets/5307886f9fadd9acd601fc7f9c4c97f2.png" width="21" alt=""> .
+    to <img src="en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/5307886f9fadd9acd601fc7f9c4c97f2.png" width="21" alt=""> .
 
     </li>
 
@@ -1171,7 +1171,7 @@ The details of scan rules are maintained and managed in the upgrade center of Al
 
     In the **Default weak password** column, turn off the switch. The switch status changes
 
-    to <img src="assets/5307886f9fadd9acd601fc7f9c4c97f2.png" width="21" alt=""> .
+    to <img src="en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/5307886f9fadd9acd601fc7f9c4c97f2.png" width="21" alt=""> .
 
     > **Note**
     >
@@ -1367,7 +1367,7 @@ The log audit feature records operation logs and operation results for asset imp
 
 4. View the log audit data, including the log type and event result, on different tabs.
 
-   ![](assets/8a78ef9e5394905b42625ede2a460485.jpeg)
+   ![](en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/8a78ef9e5394905b42625ede2a460485.jpeg)
 
 5. Click Download Report above the log list to download the corresponding log report file.
 
@@ -1405,7 +1405,7 @@ This topic describes how to configure a scan engine.
 
 4. On the **Public Network Engine** tab, you can view the status of the scan engine and turn on Enable Automatic Import of EIP/SLB.
 
-   ![](assets/afc4de65955dbca5f02689899bc4bbd4.jpeg)
+   ![](en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/afc4de65955dbca5f02689899bc4bbd4.jpeg)
 
 5. Click the **Private Network Engine** tab to configure the scan engine for private assets.
 
@@ -1645,7 +1645,7 @@ You can view vulnerabilities, baselines, and server exceptions on the Server Gua
 
 4. On the **Server Guard Rules** tab, view the information about Server Guard rules.
 
-   ![](assets/af67e9dabe0ddc8ad8ef347a137dec79.png)
+   ![](en-cloud-security-scanner-user-guide-v3.18.6-2607-20260828.assets/af67e9dabe0ddc8ad8ef347a137dec79.png)
 
    | Item | Description |
    | --- | --- |

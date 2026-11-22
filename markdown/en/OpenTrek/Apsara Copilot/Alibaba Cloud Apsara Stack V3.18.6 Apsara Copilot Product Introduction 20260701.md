@@ -26,7 +26,7 @@ Apsara Copilot is an intelligent cloud assistant powered by AI technologies, suc
 
 - Full product line coverage: It supports the integration of AI capabilities into the consoles of core cloud products in the Enterprise Edition.
 
-![](assets/710bde8fd51c3ca33e2a03639f9d93ea.jpeg)
+![](en-apsara-copilot-product-introduction-v3.18.6-20260701.assets/710bde8fd51c3ca33e2a03639f9d93ea.jpeg)
 
 <a id="section-2"></a>
 

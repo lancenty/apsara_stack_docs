@@ -179,7 +179,7 @@ ApsaraMQ for Kafka provides a rich application ecosystem that covers the followi
 
 - Stream computing integration: ApsaraMQ for Kafka integrates stream computing engines such as Realtime Compute, E-MapReduce, Spark, and Storm.
 
-![](assets/8b092a09b97874733d9dc6e37c95edcd.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/8b092a09b97874733d9dc6e37c95edcd.jpeg)
 
 <a id="section-2"></a>
 
@@ -643,7 +643,7 @@ After you scale out an instance, existing topics are not automatically distribut
 
    icon in the
 
-   <img src="assets/c083ba362bbe1f79a52ad33518b59cb8.png" width="14" alt="">
+   <img src="en-kafka-user-guide-v3.18.6-2607-20260828.assets/c083ba362bbe1f79a52ad33518b59cb8.png" width="14" alt="">
 
    **Operation** column. Then, click **Load balancing**.
 
@@ -667,7 +667,7 @@ After you scale out an instance, existing topics are not automatically distribut
 
 1. On the **Instance List** page, find the instance that you want to manage and click **Release** in the **Operation** column.
 
-2. In the dialog box that appears, read the note, enter <img src="assets/73ca8ee99b8b4ac11274d7490e45d2a0.png" width="48" alt="">
+2. In the dialog box that appears, read the note, enter <img src="en-kafka-user-guide-v3.18.6-2607-20260828.assets/73ca8ee99b8b4ac11274d7490e45d2a0.png" width="48" alt="">
 
    `confirm`, and then click **OK**.
 
@@ -824,7 +824,7 @@ ApsaraMQ for Kafka allows you to monitor the status of your resources in real ti
 
    > **Note**
    >
-   > You can also click the <img src="assets/381116e24f9d8d055375147333663f6c.png" width="14" alt=""> icon in the **Monitoring** column to open the monitoring panel.
+   > You can also click the <img src="en-kafka-user-guide-v3.18.6-2607-20260828.assets/381116e24f9d8d055375147333663f6c.png" width="14" alt=""> icon in the **Monitoring** column to open the monitoring panel.
 
 4. On the **Instance details** page, click the **Monitoring** tab to view the monitoring information.
 
@@ -836,7 +836,7 @@ ApsaraMQ for Kafka allows you to monitor the status of your resources in real ti
 | --- | --- |
 | Granularity | The granularity by which the instance is monitored. Valid values: <strong>Broker</strong>, <strong>Topic</strong>, and <strong>Group</strong>. You can click the corresponding tab to view details. |
 | Monitoring cycle | The period during which monitoring data is collected. Valid values:<br>• Hourly monitoring cycles: Last Hour, Last 3 hours, Last 6 hours, and Last 12 hours.<br>• Daily monitoring cycles: Last 1 day, Last 3 days, and Last 7 days.<br>• Custom: allows you to specify the start time and end time to define a monitoring cycle based on your business requirements. |
-| Monitoring metric | The monitoring metrics. In this example, the granularity is set to broker.You can view the following metrics: <strong>Broker Message production</strong> <strong>traffic (BYTE)</strong>, <strong>Broker message consumption traffic (BYTE)</strong>, <strong>Broker Message production request frequency (count)</strong>, <strong>Number</strong> <strong>of Broker messages produced (count)</strong>, and <strong>Broker message</strong> <strong>consumption request frequency (count)</strong>.<br>For more information about monitoring metrics, see the supported metrics of <strong>ApsaraMQ for Kafka</strong> in the <strong>CloudMonitor User Guide</strong> in <strong>Apsara Stack Documentation Center</strong>.<br>You can also click the<img src="assets/0c76749769aff1a0160a0f25542d1231.png" width="15" alt="">icon in the upper-right corner of each<br>monitoring chart to quickly create an alert rule. |
+| Monitoring metric | The monitoring metrics. In this example, the granularity is set to broker.You can view the following metrics: <strong>Broker Message production</strong> <strong>traffic (BYTE)</strong>, <strong>Broker message consumption traffic (BYTE)</strong>, <strong>Broker Message production request frequency (count)</strong>, <strong>Number</strong> <strong>of Broker messages produced (count)</strong>, and <strong>Broker message</strong> <strong>consumption request frequency (count)</strong>.<br>For more information about monitoring metrics, see the supported metrics of <strong>ApsaraMQ for Kafka</strong> in the <strong>CloudMonitor User Guide</strong> in <strong>Apsara Stack Documentation Center</strong>.<br>You can also click the<img src="en-kafka-user-guide-v3.18.6-2607-20260828.assets/0c76749769aff1a0160a0f25542d1231.png" width="15" alt="">icon in the upper-right corner of each<br>monitoring chart to quickly create an alert rule. |
 
 <a id="section-2-3-6"></a>
 
@@ -986,7 +986,7 @@ After you create a topic, you can modify the configurations of the topic.
 
    icon
 
-   <img src="assets/90796598139b1b2751419f4a554a5f33.png" width="14" alt="">
+   <img src="en-kafka-user-guide-v3.18.6-2607-20260828.assets/90796598139b1b2751419f4a554a5f33.png" width="14" alt="">
 
    in the **Operation** column, and then click **topic configuration**.
 
@@ -1017,7 +1017,7 @@ After you create a topic, you can increase the number of partitions in the topic
 
    icon
 
-   <img src="assets/90796598139b1b2751419f4a554a5f33.png" width="14" alt="">
+   <img src="en-kafka-user-guide-v3.18.6-2607-20260828.assets/90796598139b1b2751419f4a554a5f33.png" width="14" alt="">
 
    in the **Operation** column, and then click **Increase the number of partitions**.
 
@@ -1049,13 +1049,13 @@ An ApsaraMQ for Kafka instance is deployed and its value of **Expansion status**
 
 4. Click the **Topic management** tab.
 
-5. In the topic list, find the topic that you want to manage, click the <img src="assets/90796598139b1b2751419f4a554a5f33.png" width="14" alt=""> icon in the **Operation**
+5. In the topic list, find the topic that you want to manage, click the <img src="en-kafka-user-guide-v3.18.6-2607-20260828.assets/90796598139b1b2751419f4a554a5f33.png" width="14" alt=""> icon in the **Operation**
 
    column, and then click **Message rebalancing**.
 
 6. In the **Message rebalancing** dialog box, view the brokers in the **Current distribution brokers** section. In the **Rebalanced brokers** section, select all brokers or the brokers to which you want to redistribute messages.
 
-   ![](assets/35224236228aff2e3e639cc53601e73f.jpeg)
+   ![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/35224236228aff2e3e639cc53601e73f.jpeg)
 
 7. Confirm the selected brokers in the **Purpose brokers** section and click **OK**.
 
@@ -1579,7 +1579,7 @@ This topic describes how to delete a VIP.
 
 4. On the **Instance details** page, click the **Access point information** tab and click **Delete**.
 
-5. In the **Confirm deletion** dialog box, enter <img src="assets/aa794a25288a2ac4ce01f15020ec5b00.png" width="48" alt="">
+5. In the **Confirm deletion** dialog box, enter <img src="en-kafka-user-guide-v3.18.6-2607-20260828.assets/aa794a25288a2ac4ce01f15020ec5b00.png" width="48" alt="">
 
    `confirm` and click **OK**.
 
@@ -1674,7 +1674,7 @@ Replicators require significant resources. A replicator typically requires at le
      >
      > - MirrorHeartbeatConnector: sends heartbeats between the source and destination clusters to monitor the connection status.
 
-     ![](assets/e1c7b08c287ef096070eb152bdce7438.jpeg)
+     ![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/e1c7b08c287ef096070eb152bdce7438.jpeg)
 
 **Restart a replicator**
 
@@ -2080,7 +2080,7 @@ You can perform the following steps to block the traffic of the source cluster s
 
 4. On the **Tasks** tab, find the local task for which you want to disable write operations, click
 
-   the <img src="assets/a32263c367639d038bb201102a89688e.png" width="14" alt=""> icon in the **Operation** column, and then click **Forbidden to write**.
+   the <img src="en-kafka-user-guide-v3.18.6-2607-20260828.assets/a32263c367639d038bb201102a89688e.png" width="14" alt=""> icon in the **Operation** column, and then click **Forbidden to write**.
 
 5. In the **Confirm** message, click **OK**.
 
@@ -2094,7 +2094,7 @@ You can perform the following steps to delete a local task.
 
 3. On the **Message Routing** page, click the **Tasks** tab.
 
-4. On the **Tasks** tab, find the local task that you want to delete, click the <img src="assets/a32263c367639d038bb201102a89688e.png" width="14" alt=""> icon in the
+4. On the **Tasks** tab, find the local task that you want to delete, click the <img src="en-kafka-user-guide-v3.18.6-2607-20260828.assets/a32263c367639d038bb201102a89688e.png" width="14" alt=""> icon in the
 
    **Operation** column, and then select **Delete**.
 
@@ -6018,7 +6018,7 @@ In the zone-disaster recovery solution provided by ApsaraMQ for Kafka, a primary
 
 The following figure shows the zone-disaster recovery architecture in which two ApsaraMQ for Kafka clusters are deployed.
 
-![](assets/65632a8684bd7691b9fb2a63daed48de.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/65632a8684bd7691b9fb2a63daed48de.jpeg)
 
 Architecture description:
 
@@ -6162,7 +6162,7 @@ You can use the  `kafka-migration.jar`  tool and the metadata file exported from
 
 1. Run the  `env |grep kafka`  command in the kafka console pod of the destination ApsaraMQ for Kafka instance to obtain the point of presence (POP) domain name of the instance. The  `kafka_pop_domain`  parameter indicates the POP domain name of the instance.
 
-   ![](assets/c026238ea7b358dd2aa20eb0ec64f977.jpeg)
+   ![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/c026238ea7b358dd2aa20eb0ec64f977.jpeg)
 
 2. Run the following code in your self-managed Apache Kafka cluster to start the migration. Before you run the code, modify the relevant parameters described in the following table based on your business requirements.
 
@@ -6191,7 +6191,7 @@ You can use the  `kafka-migration.jar`  tool and the metadata file exported from
 
 1. Connect to any server within the cluster of the destination ApsaraMQ for Kafka instance and run the  `hostname -i`  command to obtain the endpoint of the topic from which you want to consume data in the destination ApsaraMQ for Kafka instance. The value of the  `bootstrapServers`  parameter is in the  `IP address obtained from the hostname -i command:9092`  format.
 
-   ![](assets/49597497ea9f64bef6f2b80f6ec56a9a.jpeg)
+   ![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/49597497ea9f64bef6f2b80f6ec56a9a.jpeg)
 
 2. Run the following code in your self-managed Apache Kafka cluster to start the migration. Before you run the code, modify the relevant parameters described in the following table based on your business requirements.
 
@@ -6214,13 +6214,13 @@ You can use the  `kafka-migration.jar`  tool and the metadata file exported from
 
 After you run the code to start the migration, you can view the migration progress of each topic in the section shown in the following figure.
 
-![](assets/a110c099981dfaafffebfa818c47d5c7.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/a110c099981dfaafffebfa818c47d5c7.jpeg)
 
 **View the migration progress of group data**
 
 After you run the code to start the migration, you can view the migration progress of each group in the section shown in the following figure.
 
-![](assets/4b74dbee3ab003e741e5683e84d6d01c.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/4b74dbee3ab003e741e5683e84d6d01c.jpeg)
 
 **Verify migration results**
 
@@ -6238,37 +6238,37 @@ After you run the code to start the migration, you can view the migration progre
 
 The topic fails to be migrated, and an error shown in the following figure is reported, which indicates that the topic already exists in the destination ApsaraMQ for Kafka instance.
 
-![](assets/9182e993ce1248820bfba78de6edb50d.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/9182e993ce1248820bfba78de6edb50d.jpeg)
 
 **Q2: What happens if the value of the endpoint parameter is invalid when I migrate a topic?**
 
 The topic fails to be migrated, and an error shown in the following figure is reported.
 
-![](assets/c32bf9bc605a6fd7ff9b1cfa0e98e53d.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/c32bf9bc605a6fd7ff9b1cfa0e98e53d.jpeg)
 
 **Q3: What happens if the values of the destAk and DestSk parameters are invalid when I migrate a topic?**
 
 The topic fails to be migrated, and an error shown in the following figure is reported.
 
-![](assets/93a373ce796eb5b3a1554b6262720872.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/93a373ce796eb5b3a1554b6262720872.jpeg)
 
 **Q4: What happens if the value of the destRegionId or destInstanceId parameter is invalid when I migrate a topic?**
 
 The topic fails to be migrated, and an error shown in the following figure is reported, which indicates that the destination ApsaraMQ for Kafka instance is not found or not running.
 
-![](assets/aefb6125d7840679583f45c98cdfb3d5.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/aefb6125d7840679583f45c98cdfb3d5.jpeg)
 
 **Q5: What happens if the metadata.json file does not exist when I migrate a topic?**
 
 The topic fails to be migrated, and an error shown in the following figure is reported, which indicates that the file fails to be read.
 
-![](assets/9577388aed7cc6a9ac69d443b96331c1.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/9577388aed7cc6a9ac69d443b96331c1.jpeg)
 
 **Q6: What happens if the value of the bootstrapServers parameter is invalid when I migrate a group?**
 
 The group fails to be migrated, and an error shown in the following figure is reported, which indicates that the value of the bootstrapServers parameter is invalid.
 
-![](assets/de8aa6962b2dd0d1e4165549e7efb4cb.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/de8aa6962b2dd0d1e4165549e7efb4cb.jpeg)
 
 <a id="section-2-11-2"></a>
 
@@ -6430,7 +6430,7 @@ java -jar kafka-migration-assessment.jar TopicMigrationFromAliyun \
 
 The following output shows the evaluation result:
 
-![](assets/0f91788ef1d03188e932094c99960f98.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/0f91788ef1d03188e932094c99960f98.jpeg)
 
 After you confirm the evaluation results, run the topic migration command.
 
@@ -6456,7 +6456,7 @@ java -jar kafka-migration-assessment.jar TopicMigrationFromAliyun \
 
 The following output shows the migration result:
 
-![](assets/56d0f69fcdaaff6525deecc5d6d34a94.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/56d0f69fcdaaff6525deecc5d6d34a94.jpeg)
 
 **Step 3: Verify the migration result**
 
@@ -6478,7 +6478,7 @@ After the migration is complete, go to the Topic Management tab of the target in
 
 Yes, it is.
 
-![](assets/d36b958ccc4cfa0a6b516895051ffffc.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/d36b958ccc4cfa0a6b516895051ffffc.jpeg)
 
 **Migrate consumer groups in the cloud**
 
@@ -6502,7 +6502,7 @@ java -jar kafka-migration-assessment.jar ConsumerGroupMigrationFromAliyun \
 
 The following output shows the evaluation result:
 
-![](assets/3cde531cb783a95606b4cc41298645cf.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/3cde531cb783a95606b4cc41298645cf.jpeg)
 
 After you confirm the evaluation results, run the group migration command.
 
@@ -6527,7 +6527,7 @@ java -jar kafka-migration-assessment.jar ConsumerGroupMigrationFromAliyun \
 
 The following output shows the migration result:
 
-![](assets/c6fe5d0728fcab1aa6eafe78b0c4ef9f.jpeg)
+![](en-kafka-user-guide-v3.18.6-2607-20260828.assets/c6fe5d0728fcab1aa6eafe78b0c4ef9f.jpeg)
 
 **Step 3: Verify the migration result**
 

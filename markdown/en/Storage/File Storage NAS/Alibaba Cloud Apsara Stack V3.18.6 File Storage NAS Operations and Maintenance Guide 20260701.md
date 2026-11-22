@@ -50,7 +50,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/ee1d5b6d9f2be8646ebeec92141f2083.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/ee1d5b6d9f2be8646ebeec92141f2083.png)
 
      If an error occurs in the output of the listapp command, the kvmaster service is abnormal.
 
@@ -67,7 +67,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/e23c045d770d0e2d60a9f355f9ca3ed9.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/e23c045d770d0e2d60a9f355f9ca3ed9.png)
 
    If no output is returned for the checkready command or the status is NO, the KV service is abnormal.
 
@@ -87,7 +87,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/6b5b8de102911371dfbc483bc4f892b4.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/6b5b8de102911371dfbc483bc4f892b4.png)
 
    </li>
 
@@ -103,7 +103,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/006531197e5f0104d19e7547c5eb67ab.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/006531197e5f0104d19e7547c5eb67ab.png)
 
    </li>
 
@@ -133,7 +133,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/7743a162d341761644cc9c209d1bb09c.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/7743a162d341761644cc9c209d1bb09c.png)
 
    </li>
 
@@ -151,7 +151,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/a84c96d3639e0bb21e0aa90b9fbce61c.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/a84c96d3639e0bb21e0aa90b9fbce61c.png)
 
    </li>
 
@@ -169,7 +169,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/5e9f583e424e6d0fc974faeda7b7d0cb.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/5e9f583e424e6d0fc974faeda7b7d0cb.png)
 
 4. Query the information about deleted volumes.
 
@@ -181,7 +181,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/a650f8ea6fa039ad6d13ca4066d318d8.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/a650f8ea6fa039ad6d13ca4066d318d8.png)
 
 5. Query the mount information by user and volume.
 
@@ -193,7 +193,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/b06c6bfc1703fa6e2e65833a9a3a30cd.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/b06c6bfc1703fa6e2e65833a9a3a30cd.png)
 
 6. Query the protocol type of the file system by user and volume.
 
@@ -205,7 +205,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/db2e48d15a646d721078af5ccd5a43d7.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/db2e48d15a646d721078af5ccd5a43d7.png)
 
      1 indicates the Network File System (NFS) protocol. 2 indicates the Server Message Block (SMB) protocol. 3 indicates the combination of NFS and SMB.
 
@@ -219,7 +219,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/fa136babe42068b6aa0175e044c9889e.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/fa136babe42068b6aa0175e044c9889e.png)
 
 8. Query the permission policy by user and permission group.
 
@@ -231,7 +231,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/8630a1c2f671745591ab77df86fe9b4d.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/8630a1c2f671745591ab77df86fe9b4d.png)
 
 9. Modify the protocol type of the file system by user and volume.
 
@@ -256,7 +256,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/395efa3b28a5509c00ae6d9eef10f2f6.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/395efa3b28a5509c00ae6d9eef10f2f6.png)
 
    </li>
 
@@ -272,7 +272,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/2859239b20792657dcd0afcf069b8527.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/2859239b20792657dcd0afcf069b8527.png)
 
    </li>
 
@@ -294,7 +294,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/dc27493707d0ca88afdafa2182f1f44f.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/dc27493707d0ca88afdafa2182f1f44f.png)
 
    </li>
 
@@ -310,7 +310,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/0971877acf3800fe7eaa73106ca474f1.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/0971877acf3800fe7eaa73106ca474f1.png)
 
    </li>
 
@@ -330,7 +330,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/d2525297e4e66f2e53d5959273c16393.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/d2525297e4e66f2e53d5959273c16393.png)
 
 2. Query the azone and location information of the NAS cluster.
 
@@ -365,7 +365,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/7d3b225bee8cf376357d5423a512698b.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/7d3b225bee8cf376357d5423a512698b.png)
 
 <a id="section-2-3"></a>
 
@@ -383,7 +383,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/d40b26ddf02f83e035cf87a94e6df2e8.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/d40b26ddf02f83e035cf87a94e6df2e8.png)
 
 2. Query the details of the recycle job by specifying the job name.
 
@@ -401,7 +401,7 @@ This topic describes how to check whether the KV service of a File Storage NAS (
 
    - Sample response
 
-     ![](assets/3bf4c0b35c64dfae268a1d781c4d7d24.png)
+     ![](en-nas-operations-guide-v3.18.6-20260701.assets/3bf4c0b35c64dfae268a1d781c4d7d24.png)
 
 <a id="section-2-4"></a>
 
@@ -469,7 +469,7 @@ To set the disk usage limit, perform the following steps:
 
    <li>
 
-   On the right side of the **services > nas-nfs > user** folder, choose <img src="assets/ad8e62792c911445e2888fb5da5a3c26.png" width="14" alt=""> **> Create File**.
+   On the right side of the **services > nas-nfs > user** folder, choose <img src="en-nas-operations-guide-v3.18.6-20260701.assets/ad8e62792c911445e2888fb5da5a3c26.png" width="14" alt=""> **> Create File**.
 
    Create a folder named nfs_supervisor.
 
@@ -489,7 +489,7 @@ To set the disk usage limit, perform the following steps:
 
    <li>
 
-   On the right side of the nfs_supervisor folder, choose <img src="assets/ad8e62792c911445e2888fb5da5a3c26.png" width="14" alt=""> **> Create File**. Create a file
+   On the right side of the nfs_supervisor folder, choose <img src="en-nas-operations-guide-v3.18.6-20260701.assets/ad8e62792c911445e2888fb5da5a3c26.png" width="14" alt=""> **> Create File**. Create a file
 
    </li>
 
@@ -539,10 +539,10 @@ To verify the configuration, perform the following steps:
 
 2. Write data to the file system and make sure that the data volume reaches the limit. Verify that data writing is disabled. The use of other commands, such as ACL commands, is not affected.
 
-   ![](assets/0c2065ab8c44305be6993a2bb226182d.png)
+   ![](en-nas-operations-guide-v3.18.6-20260701.assets/0c2065ab8c44305be6993a2bb226182d.png)
 
 3. View logs.
 
-   ![](assets/81620f65af4303bd02c2b6bb79b89a4b.png)
+   ![](en-nas-operations-guide-v3.18.6-20260701.assets/81620f65af4303bd02c2b6bb79b89a4b.png)
 
-   ![](assets/8ddefd8b39b7f3e4a8081d954f2b1b10.png)
+   ![](en-nas-operations-guide-v3.18.6-20260701.assets/8ddefd8b39b7f3e4a8081d954f2b1b10.png)

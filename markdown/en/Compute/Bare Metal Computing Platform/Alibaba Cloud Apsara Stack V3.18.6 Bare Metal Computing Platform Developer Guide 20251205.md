@@ -126,7 +126,7 @@ To obtain the AccessKey for a personal account, perform the following steps:
 
 3. In the **Alibaba Cloud AccessKey** area, view the AccessKey information for your personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-bare-metal-computing-developer-guide-v3.18.6-20251205.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Important**
    >
@@ -170,7 +170,7 @@ The API information in the API directory of the Apsara Uni-manager Management Co
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-bare-metal-computing-developer-guide-v3.18.6-20251205.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the navigation pane on the left, choose **Bare Metal Compute Platform (BMCP)**.
 

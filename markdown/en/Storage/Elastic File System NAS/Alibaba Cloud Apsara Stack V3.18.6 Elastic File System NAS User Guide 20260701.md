@@ -130,7 +130,7 @@ This topic describes how to log in to the Elastic File Storage-File Storage NAS 
 
 1. In the address bar of your browser, enter the service domain name for the Apsara Uni-manager Management Console and press Enter.
 
-   ![](assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
+   ![](en-efs-nas-user-guide-v3.18.6-20260701.assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
 
    > **Note**
    >
@@ -459,7 +459,7 @@ Before you mount an NFS file system on a Linux Elastic Compute Service (ECS) ins
 
    If a command output similar to the following example appears, the file system is mounted.
 
-   ![](assets/57ff847f3e9555f8ad22e2b6b230cef7.jpeg)
+   ![](en-efs-nas-user-guide-v3.18.6-20260701.assets/57ff847f3e9555f8ad22e2b6b230cef7.jpeg)
 
    After the file system is mounted, you can run the  `df -h`  command to view the size of the file system.
 
@@ -499,7 +499,7 @@ After you create a Server Message Block (SMB) share, you can use a mount target 
 
      By default, the Workstation service is in the Started state.
 
-     ![](assets/0d013c034bc56fa649c1d332a9893ce3.png)
+     ![](en-efs-nas-user-guide-v3.18.6-20260701.assets/0d013c034bc56fa649c1d332a9893ce3.png)
 
      </li>
 
@@ -531,7 +531,7 @@ After you create a Server Message Block (SMB) share, you can use a mount target 
 
      In the **Advanced TCP/IP Settings** dialog box, choose **WINS > Enable NetBIOS over TCP/IP**.
 
-     ![](assets/357e855fffabb01f8d36167e2f507eac.png)
+     ![](en-efs-nas-user-guide-v3.18.6-20260701.assets/357e855fffabb01f8d36167e2f507eac.png)
 
      </li>
 
@@ -551,7 +551,7 @@ After you create a Server Message Block (SMB) share, you can use a mount target 
 
      By default, the TCP/IP NetBIOS Helper service is in the Started state.
 
-     ![](assets/561f32cd996cc49e5a8c30f440f84256.png)
+     ![](en-efs-nas-user-guide-v3.18.6-20260701.assets/561f32cd996cc49e5a8c30f440f84256.png)
 
      </li>
 
@@ -607,7 +607,7 @@ This topic describes how to resize a file system.
 
 1. Log in to the Elastic File Storage-File Storage NAS (EFS-NAS) console.
 
-2. In the file system list, click the <img src="assets/50532d759a70e0d3b5fad70aad44f6e8.png" width="20" alt=""> icon in the Operation column of the target file system
+2. In the file system list, click the <img src="en-efs-nas-user-guide-v3.18.6-20260701.assets/50532d759a70e0d3b5fad70aad44f6e8.png" width="20" alt=""> icon in the Operation column of the target file system
 
    and click **Modify Total Capacity**.
 
@@ -639,7 +639,7 @@ This topic describes how to delete a file system.
 
 1. Log in to the Elastic File Storage-File Storage NAS (EFS-NAS) console.
 
-2. In the file system, click the <img src="assets/50532d759a70e0d3b5fad70aad44f6e8.png" width="20" alt=""> icon in the Operation column of the target file system and
+2. In the file system, click the <img src="en-efs-nas-user-guide-v3.18.6-20260701.assets/50532d759a70e0d3b5fad70aad44f6e8.png" width="20" alt=""> icon in the Operation column of the target file system and
 
    click **Delete**.
 
@@ -1016,8 +1016,8 @@ You can delete files from the recycle bin, modify the retention policy of the re
 | Permanently delete files from the recycle bin | If a file in the recycle bin is no longer used, you can permanently delete the file.<br>Warning<br>Files that are permanently deleted from the recycle bin cannot be restored. | 1. Log in to the Elastic File Storage-File Storage NAS (EFS-NAS) console.<br>2. In the left-side navigation pane, click <strong>Recycle Bin</strong>.<br>3. Find the file system that you want to manage and click the file system ID to go to the recycle bin details page.<br>4. Find the file that you want to delete and click <strong>Delete</strong> in the Actions column.<br>You can select multiple files and click <strong>Batch Deletion</strong> below the list to delete the files at the same time.<br>5. Confirm the information and click <strong>OK</strong>. |
 | Modify a retention policy | You can change the retention period of files at any time based on the usage of the file system. | 1. Log in to the EFS-NAS console.<br>2. In the left-side navigation pane, click <strong>Recycle Bin</strong>.<br>3. Find the file system that you want to modify and click <strong>Modify Retention</strong> <strong>Plan</strong> in the Actions column.<br>4. In the <strong>Modify Retention Plan</strong> dialog box, modify the <strong>Retention Plan</strong> and Custom Retention Policy parameters.<br>5. Click <strong>OK</strong>. |
 | Configure filtering rules | You can specify a prefix or a suffix to filter out files that do not need to be recycled. Files that match the filtering rules are not added to the recycle bin.<br>Important<br>Do not configure nested rules, such as \*ab and \*b or cd\* and c\*. | 1. Log in to the EFS-NAS console.<br>2. In the left-side navigation pane, click <strong>Recycle Bin</strong>.<br>3. Find the file system that you want to manage and click <strong>Set Filtering</strong> <strong>Rules</strong> in the Actions column.<br>4. In the <strong>Set Filtering Rules</strong> dialog box, enter a prefix or suffix, such as \*.tmp.<br>5. Click <strong>OK</strong>. |
-| Clear the recycle bin | If you no longer use the files in the recycle bin, you can empty the recycle bin to reduce storage costs.<br>Warning<br>If you empty the recycle bin, all files in the recycle bin are permanently deleted and cannot be restored. | 1. Log in to the EFS-NAS console.<br>2. In the left-side navigation pane, click <strong>Recycle Bin</strong>.<br>3. Find the file system that you want to<br>manage, click the<img src="assets/7cddfbeeefebe5297dcf6d4856e54e95.png" width="23" alt="">icon in the<br>Actions column, and then select <strong>Clear</strong> <strong>Recycle Bin</strong>.<br>4. Check the information and click <strong>OK</strong>. |
-| Disable the recycle bin feature | If you no longer need to use the files in the recycle bin or you no longer want to use the recycle bin feature, you can disable and empty the recycle bin.<br>Warning<br>• If you disable the recycle bin, all files in the recycle bin are permanently deleted.<br>• If you disable and then enable the recycle bin again, the recycle bin is empty. The deleted files cannot be restored. | 1. Log in to the EFS-NAS console.<br>2. In the left-side navigation pane, click <strong>Recycle Bin</strong>.<br>3. Find the file system that you want to<br>manage, click the<img src="assets/7cddfbeeefebe5297dcf6d4856e54e95.png" width="23" alt="">icon in the<br>Actions column, and then select <strong>Close</strong> <strong>Recycle Bin</strong>.<br>4. Check the information and click <strong>OK</strong>. |
+| Clear the recycle bin | If you no longer use the files in the recycle bin, you can empty the recycle bin to reduce storage costs.<br>Warning<br>If you empty the recycle bin, all files in the recycle bin are permanently deleted and cannot be restored. | 1. Log in to the EFS-NAS console.<br>2. In the left-side navigation pane, click <strong>Recycle Bin</strong>.<br>3. Find the file system that you want to<br>manage, click the<img src="en-efs-nas-user-guide-v3.18.6-20260701.assets/7cddfbeeefebe5297dcf6d4856e54e95.png" width="23" alt="">icon in the<br>Actions column, and then select <strong>Clear</strong> <strong>Recycle Bin</strong>.<br>4. Check the information and click <strong>OK</strong>. |
+| Disable the recycle bin feature | If you no longer need to use the files in the recycle bin or you no longer want to use the recycle bin feature, you can disable and empty the recycle bin.<br>Warning<br>• If you disable the recycle bin, all files in the recycle bin are permanently deleted.<br>• If you disable and then enable the recycle bin again, the recycle bin is empty. The deleted files cannot be restored. | 1. Log in to the EFS-NAS console.<br>2. In the left-side navigation pane, click <strong>Recycle Bin</strong>.<br>3. Find the file system that you want to<br>manage, click the<img src="en-efs-nas-user-guide-v3.18.6-20260701.assets/7cddfbeeefebe5297dcf6d4856e54e95.png" width="23" alt="">icon in the<br>Actions column, and then select <strong>Close</strong> <strong>Recycle Bin</strong>.<br>4. Check the information and click <strong>OK</strong>. |
 
 <a id="section-7"></a>
 

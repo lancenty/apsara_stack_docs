@@ -60,7 +60,7 @@ This topic describes how users such as O&M engineers log on to the DBS O&M conso
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-dbs-operations-guide-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -233,7 +233,7 @@ This topic describes how to view DBS CIDR blocks. This helps you obtain the IP a
 
    - In the upper part of the CIDR block list page, specify a region and a network type. Then, click **Search** to filter CIDR blocks.
 
-   - Click the <img src="assets/dd64eabdbf567ee6cc0ea79b1d452cb4.png" width="20" alt=""> icon in the upper-right corner to copy the CIDR blocks.
+   - Click the <img src="en-dbs-operations-guide-v3.18.6-2607-20260828.assets/dd64eabdbf567ee6cc0ea79b1d452cb4.png" width="20" alt=""> icon in the upper-right corner to copy the CIDR blocks.
 
 <a id="section-5"></a>
 

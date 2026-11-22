@@ -185,7 +185,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-nas-developer-guide-v3.18.6-20260701.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -195,7 +195,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 7. Click the operation that you want to call. Obtain the endpoint from the Endpoint parameter on the Parameter tab.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-nas-developer-guide-v3.18.6-20260701.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 <a id="section-1-3"></a>
 
@@ -236,7 +236,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of the personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-nas-developer-guide-v3.18.6-20260701.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >

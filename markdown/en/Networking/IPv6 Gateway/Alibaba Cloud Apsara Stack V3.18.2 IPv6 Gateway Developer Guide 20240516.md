@@ -59,7 +59,7 @@ This topic describes how to find the required documentation when you call an API
 
 You can follow the procedure described in the following figure to view the specific documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-ipv6-gateway-developer-guide-v3.18.2-20240516.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -264,7 +264,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey** section, view the AccessKey pair of your personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-ipv6-gateway-developer-guide-v3.18.2-20240516.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -556,9 +556,9 @@ You can also obtain service endpoints by yourself. The following example describ
 
 4. Enter  `ipv6gateway`  in the Service Registration field and click **Search**.
 
-   ![](assets/d2be4550017c9d37c7fdd05cc75f37a6.png)
+   ![](en-ipv6-gateway-developer-guide-v3.18.2-20240516.assets/d2be4550017c9d37c7fdd05cc75f37a6.png)
 
-5. In the **Service Registration** column for the  ipv6gateway  service, click the <img src="assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
+5. In the **Service Registration** column for the  ipv6gateway  service, click the <img src="en-ipv6-gateway-developer-guide-v3.18.2-20240516.assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
 
 6. Click the text information in the **Service Registration** column of the  `ipv6gateway` service. In the **Register Variable** dialog box that appears, view the ipv6gateway.openapi.endpoint value, which is the  `Endpoint`  value.
 

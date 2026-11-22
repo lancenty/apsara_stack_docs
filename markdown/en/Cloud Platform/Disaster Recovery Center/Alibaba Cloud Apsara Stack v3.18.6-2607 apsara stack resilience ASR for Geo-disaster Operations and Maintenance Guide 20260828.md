@@ -184,7 +184,7 @@ O&M engineers can contact Apsara Stack technical support for help during the mai
 
 This topic describes the internal and external components on which ASR for Geo-disaster Recovery (ASR-DR) depends.
 
-![](assets/e7bf7afcd164854ed6be0b7062d09ee8.jpeg)
+![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/e7bf7afcd164854ed6be0b7062d09ee8.jpeg)
 
 <a id="section-2-2"></a>
 
@@ -320,7 +320,7 @@ The following table describes the services and server roles of containers.
 
    In the **Products** section, enter asrdr in the **Product | Cluster** field. In the search results, find the cluster that you want to manage and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/7a1565343ccda17b9f12dbcc6c2eee0c.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/7a1565343ccda17b9f12dbcc6c2eee0c.jpeg)
 
    </li>
 
@@ -334,7 +334,7 @@ The following table describes the services and server roles of containers.
 
    In the **Components** pane, click **backend#**. On the **Instances** tab, find the server that you want to use and click **Terminal** in the **Actions** column.
 
-   ![](assets/ad28387839c1a3057a0ab58de8888d15.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/ad28387839c1a3057a0ab58de8888d15.jpeg)
 
    </li>
 
@@ -346,7 +346,7 @@ The following table describes the services and server roles of containers.
    docker ps
    ```
 
-   ![](assets/194544a1f9fa11d33c413ef639d483a6.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/194544a1f9fa11d33c413ef639d483a6.jpeg)
 
 3. Run the following command to log in to the container by using the root account:
 
@@ -354,7 +354,7 @@ The following table describes the services and server roles of containers.
    docker exec -it <Container ID> /bin/bash.
    ```
 
-   ![](assets/5a49e751da73076109d74e329e3b9173.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/5a49e751da73076109d74e329e3b9173.jpeg)
 
 <a id="section-3-2"></a>
 
@@ -370,17 +370,17 @@ After you obtain the login information of the Apsara Stack Resilience for Geo-di
 
 4. In the **Products** section, enter asrdr in the **Product | Cluster** field. In the search results, find the cluster that you want to manage and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/7a1565343ccda17b9f12dbcc6c2eee0c.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/7a1565343ccda17b9f12dbcc6c2eee0c.jpeg)
 
 5. On the cluster details page, click the **Resource Details** tab. On this tab, enter **asrdr_v2** in the
 
-   Resource Name field, verify that the type of the displayed resource is **db**, and then click the <img src="assets/4b234f32ab5ac4e54b3242e430830036.png" width="13" alt="">
+   Resource Name field, verify that the type of the displayed resource is **db**, and then click the <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/4b234f32ab5ac4e54b3242e430830036.png" width="13" alt="">
 
    icon in the **Resource Application Result** column to view the login information of the database. Record the login information, close the Resource Application Result dialog box, and then click the
 
-   <img src="assets/d9cfdb53fdac97d67177b136be89cf60.png" width="17" alt=""> icon to hide the database information.
+   <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/d9cfdb53fdac97d67177b136be89cf60.png" width="17" alt=""> icon to hide the database information.
 
-   ![](assets/bed015398e98d4f5f2df92e96b16829c.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/bed015398e98d4f5f2df92e96b16829c.jpeg)
 
 6. Log in to a terminal server.
 
@@ -390,7 +390,7 @@ After you obtain the login information of the Apsara Stack Resilience for Geo-di
    mysql -h <host> -P<port> -u<user> -p<password> <dbname>
    ```
 
-   ![](assets/38925c83cc0d22a3afd36bebe91981c2.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/38925c83cc0d22a3afd36bebe91981c2.jpeg)
 
 <a id="section-4"></a>
 
@@ -442,7 +442,7 @@ You can view detailed error messages in the logs of Apsara Stack Resilience for 
    /<Time>
    ```
 
-   ![](assets/b6b27358005255de1561ba216af6b3c9.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/b6b27358005255de1561ba216af6b3c9.jpeg)
 
 6. Optional. Run the following command to clear logs. If the space occupied by logs exceeds a specific threshold, you can run scheduled tasks to clear the logs that you no longer need.
 
@@ -574,7 +574,7 @@ Apsara Stack Resilience for Geo-disaster Recovery (ASR-DR) is deployed in a thre
 
    In the **Products** section, enter asrdr in the **Product | Cluster** field. In the search results, find the cluster that you want to manage and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/7a1565343ccda17b9f12dbcc6c2eee0c.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/7a1565343ccda17b9f12dbcc6c2eee0c.jpeg)
 
    </li>
 
@@ -588,7 +588,7 @@ Apsara Stack Resilience for Geo-disaster Recovery (ASR-DR) is deployed in a thre
 
    In the **Components** pane, click **backend#**. On the **Instances** tab, find the server that you want to use and click **Terminal** in the **Actions** column.
 
-   ![](assets/ad28387839c1a3057a0ab58de8888d15.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/ad28387839c1a3057a0ab58de8888d15.jpeg)
 
    </li>
 
@@ -606,7 +606,7 @@ Apsara Stack Resilience for Geo-disaster Recovery (ASR-DR) is deployed in a thre
    /cloud/tool/tianji/tjc stop asrdr-backend.backend#
    ```
 
-   ![](assets/ac42b2aee0a7984ce8335324858598c6.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/ac42b2aee0a7984ce8335324858598c6.jpeg)
 
 **Method 2: Terminate the process**
 
@@ -634,7 +634,7 @@ Apsara Stack Resilience for Geo-disaster Recovery (ASR-DR) is deployed in a thre
    kill -9 <pid>
    ```
 
-   ![](assets/ea47beec328eabcca0f68df7d4392060.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/ea47beec328eabcca0f68df7d4392060.jpeg)
 
 5. If you use Apsara Stack of a version that is earlier than V3.13.0, you must also run the following command to terminate the NGINX process:
 
@@ -688,7 +688,7 @@ Apsara Stack Resilience for Geo-disaster Recovery (ASR-DR) is deployed in a thre
 
    In the **Products** section, enter asrdr in the **Product | Cluster** field. In the search results, find the cluster that you want to manage and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/7a1565343ccda17b9f12dbcc6c2eee0c.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/7a1565343ccda17b9f12dbcc6c2eee0c.jpeg)
 
    </li>
 
@@ -702,7 +702,7 @@ Apsara Stack Resilience for Geo-disaster Recovery (ASR-DR) is deployed in a thre
 
    In the **Components** pane, click **backend#**. On the **Instances** tab, find the server that you want to use and click **Terminal** in the **Actions** column.
 
-   ![](assets/ad28387839c1a3057a0ab58de8888d15.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/ad28387839c1a3057a0ab58de8888d15.jpeg)
 
    </li>
 
@@ -720,7 +720,7 @@ Apsara Stack Resilience for Geo-disaster Recovery (ASR-DR) is deployed in a thre
    /cloud/tool/tianji/tjc start asrdr-backend.backend#
    ```
 
-   ![](assets/a84cd3784b337508678f0bd763425ba2.png)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/a84cd3784b337508678f0bd763425ba2.png)
 
 **Rollback for method 2**
 
@@ -821,7 +821,7 @@ After you perform a switchover drill, incremental data is synchronized between t
 
    If ASR-DR detects that a database is added to the primary or secondary ApsaraDB RDS instance, the corresponding protection group changes from the **Protecting** state to the **Protect failed** state.
 
-3. On the Protection Groups page of the ASR-DR console, find the protection group, click the <img src="assets/5da44dc2a6a251901a0357d1064c0930.png" width="17" alt=""> icon
+3. On the Protection Groups page of the ASR-DR console, find the protection group, click the <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/5da44dc2a6a251901a0357d1064c0930.png" width="17" alt=""> icon
 
    in the Actions column, and then select **Re-protect**.
 
@@ -1099,7 +1099,7 @@ This topic describes the cause of the "rrSet inconsistent" error message that ap
 
 In the list of protection groups, the protection group to which the DNS instance belongs is in the **Protect failed** state. When you view the logs of the DNS instance on the Protection Group Details page, the **rrSet inconsistent** error message is found.
 
-![](assets/b305c9ee673bf73c7032ba8e9ba2ec63.jpeg)
+![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/b305c9ee673bf73c7032ba8e9ba2ec63.jpeg)
 
 **Possible cause**
 
@@ -1137,7 +1137,7 @@ The DNS records are inconsistent between the primary and secondary sites.
 
    icon,
 
-   <img src="assets/e13aceb8a3fc6a0b8bb4585ea3db271d.png" width="14" alt="">
+   <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/e13aceb8a3fc6a0b8bb4585ea3db271d.png" width="14" alt="">
 
    and then click **Retry**.
 
@@ -1179,7 +1179,7 @@ No host record is configured for the domain name of the primary or secondary sit
 
    icon
 
-   <img src="assets/e13aceb8a3fc6a0b8bb4585ea3db271d.png" width="14" alt="">
+   <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/e13aceb8a3fc6a0b8bb4585ea3db271d.png" width="14" alt="">
 
    in the Actions column, and then click **Retry**.
 
@@ -1195,7 +1195,7 @@ This topic describes the cause of the "not found zone" error message that appear
 
 In the list of protection groups, the protection group to which the DNS instance belongs is in the **Protect failed** state. When you view the logs of the DNS instance on the Protection Group Details page, the **not found zone xxx cloudType: xxx** error message is found.
 
-![](assets/b305c9ee673bf73c7032ba8e9ba2ec63.jpeg)
+![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/b305c9ee673bf73c7032ba8e9ba2ec63.jpeg)
 
 **Possible cause**
 
@@ -1217,7 +1217,7 @@ The domain name is unavailable at the primary or secondary site.
 
    icon
 
-   <img src="assets/e13aceb8a3fc6a0b8bb4585ea3db271d.png" width="14" alt="">
+   <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/e13aceb8a3fc6a0b8bb4585ea3db271d.png" width="14" alt="">
 
    in the Actions column, and then click **Retry**.
 
@@ -1251,7 +1251,7 @@ To identify the errors related to disaster recovery when you use Data Transmissi
 
 8. Find the instance that you want to manage and click **Terminal** in the Actions column.
 
-   ![](assets/bd219ab4f135b021f9e9a39d624a7ff9.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/bd219ab4f135b021f9e9a39d624a7ff9.jpeg)
 
 9. Run the following command to query the container ID by using the root account:
 
@@ -1259,7 +1259,7 @@ To identify the errors related to disaster recovery when you use Data Transmissi
    docker ps
    ```
 
-   ![](assets/8bc1f4f2888206c53b0d9a16d5ec7d8c.png)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/8bc1f4f2888206c53b0d9a16d5ec7d8c.png)
 
 0. Run the following command to log in to the container by using the root account:
 
@@ -1267,7 +1267,7 @@ To identify the errors related to disaster recovery when you use Data Transmissi
    docker exec -it <Container ID> /bin/bash.
    ```
 
-   ![](assets/ea34fd574858999a8db0970875362ac0.png)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/ea34fd574858999a8db0970875362ac0.png)
 
 1. View the logs in the  `/dts/master/logs/master.log`  directory.
 
@@ -1324,7 +1324,7 @@ To identify the errors related to disaster recovery when you use Data Transmissi
    cd /cloud/app/dts-dts/DtsNode#/dts_node/current/run/<taskId>
    ```
 
-   ![](assets/4cab6446ce414e72aa374d31dc3a0037.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/4cab6446ce414e72aa374d31dc3a0037.jpeg)
 
 <a id="section-5-3-2"></a>
 
@@ -1388,7 +1388,7 @@ The configurations of DTS cross-cloud synchronization are invalid.
 
    In the **Projects** section, enter dts in the search field, find the cluster and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/19094fb70f207f4cc0e761c86c40faa1.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/19094fb70f207f4cc0e761c86c40faa1.jpeg)
 
    </li>
 
@@ -1396,7 +1396,7 @@ The configurations of DTS cross-cloud synchronization are invalid.
 
    On the **Resource Details** tab of the cluster details page, find the resource whose name is
 
-   **rmdb** and type is **db** and click the <img src="assets/4b234f32ab5ac4e54b3242e430830036.png" width="13" alt=""> icon in the **Resource Application Result** column to
+   **rmdb** and type is **db** and click the <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/4b234f32ab5ac4e54b3242e430830036.png" width="13" alt=""> icon in the **Resource Application Result** column to
 
    view and record the logon information of the database.
 
@@ -1428,7 +1428,7 @@ The configurations of DTS cross-cloud synchronization are invalid.
    select * from region_pattern;
    ```
 
-   ![](assets/2fd68c25c4fa8be24c7faa4450d3ccbd.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/2fd68c25c4fa8be24c7faa4450d3ccbd.jpeg)
 
 <a id="section-5-3-2-2"></a>
 
@@ -1492,7 +1492,7 @@ Apsara Stack Resilience for Geo-disaster Recovery (ASR-DR) fails to synchronize 
 
    In the project list, enter baseServiceAll in the search field, find the cluster, and then click **Cluster Details** in the **Actions** column.
 
-   ![](assets/1e59780d8a5c6f5fd9a67c475c9ea3ec.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/1e59780d8a5c6f5fd9a67c475c9ea3ec.jpeg)
 
    </li>
 
@@ -1500,7 +1500,7 @@ Apsara Stack Resilience for Geo-disaster Recovery (ASR-DR) fails to synchronize 
 
    On the **Resource Details** tab of the cluster details page, find the resource whose name is
 
-   **ummak** and type is **db** and click the <img src="assets/4b234f32ab5ac4e54b3242e430830036.png" width="13" alt=""> icon in the **Resource Application Result** column to
+   **ummak** and type is **db** and click the <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/4b234f32ab5ac4e54b3242e430830036.png" width="13" alt=""> icon in the **Resource Application Result** column to
 
    view and record the login information about the database.
 
@@ -1550,7 +1550,7 @@ Apsara Stack Resilience for Geo-disaster Recovery (ASR-DR) fails to synchronize 
 
    **Cluster Details** in the **Actions** column.
 
-   ![](assets/1e59780d8a5c6f5fd9a67c475c9ea3ec.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/1e59780d8a5c6f5fd9a67c475c9ea3ec.jpeg)
 
    <ol type="i" start="3">
 
@@ -1570,7 +1570,7 @@ Apsara Stack Resilience for Geo-disaster Recovery (ASR-DR) fails to synchronize 
 
    In the Components section of the service details page, click **UmmInit#**. On the Instances tab of the Information of Component UmmInit# section, find the VM and choose **Actions** > **Restart** in the **Actions** column.
 
-   ![](assets/b015198a18d0a18a511d85f63ac610a9.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/b015198a18d0a18a511d85f63ac610a9.jpeg)
 
    </li>
 
@@ -1594,7 +1594,7 @@ Your application is not registered with the virtual private cloud (VPC) in which
 
 1. Query the value of the app_id field in the **t_base_vpc_entity** table in the ASR-DR metadatabase. For more information about how to log in to the ASR-DR metadatabase, see Log in to the ASR-DR metadatabase.
 
-   ![](assets/b1fb20ffc5bc0938e66fd23171e624a2.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/b1fb20ffc5bc0938e66fd23171e624a2.jpeg)
 
 2. Log in to the vpc-controller database.
 
@@ -1634,7 +1634,7 @@ Your application is not registered with the virtual private cloud (VPC) in which
 
    In the project list, enter vpc in the search field, find the cluster, and then click **Cluster Details** in the **Actions** column.
 
-   ![](assets/22d0b08fd31604d562c32e40edea24e3.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/22d0b08fd31604d562c32e40edea24e3.jpeg)
 
    </li>
 
@@ -1642,7 +1642,7 @@ Your application is not registered with the virtual private cloud (VPC) in which
 
    On the **Resource Details** tab, find the resource whose name is **vpcregiondb** and type is **db**
 
-   and click the <img src="assets/4b234f32ab5ac4e54b3242e430830036.png" width="13" alt=""> icon in the **Resource Application Result** column to view and record the login
+   and click the <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/4b234f32ab5ac4e54b3242e430830036.png" width="13" alt=""> icon in the **Resource Application Result** column to view and record the login
 
    information about the database.
 
@@ -1725,7 +1725,7 @@ Your application is not registered with the virtual private cloud (VPC) in which
 
    In the project list, enter dts in the search field, find the cluster, and then click **Cluster Details** in the **Actions** column.
 
-   ![](assets/19094fb70f207f4cc0e761c86c40faa1.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/19094fb70f207f4cc0e761c86c40faa1.jpeg)
 
    </li>
 
@@ -1733,7 +1733,7 @@ Your application is not registered with the virtual private cloud (VPC) in which
 
    On the **Resource Details** tab, find the resource whose name is **dtsdb** and type is **db** and click
 
-   the <img src="assets/4b234f32ab5ac4e54b3242e430830036.png" width="13" alt=""> icon in the **Resource Application Result** column to view and record the login
+   the <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/4b234f32ab5ac4e54b3242e430830036.png" width="13" alt=""> icon in the **Resource Application Result** column to view and record the login
 
    information about the database.
 
@@ -1839,7 +1839,7 @@ The size of the objects to be synchronized exceeds the specified threshold.
 
    In the project list, enter dts in the search field, find the cluster, and then click **Cluster Details** in the **Actions** column.
 
-   ![](assets/19094fb70f207f4cc0e761c86c40faa1.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/19094fb70f207f4cc0e761c86c40faa1.jpeg)
 
    </li>
 
@@ -1847,7 +1847,7 @@ The size of the objects to be synchronized exceeds the specified threshold.
 
    On the **Resource Details** tab, find the resource whose name is **dtsdb** and type is **db** and click
 
-   the <img src="assets/4b234f32ab5ac4e54b3242e430830036.png" width="13" alt=""> icon in the **Resource Application Result** column to view and record the login
+   the <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/4b234f32ab5ac4e54b3242e430830036.png" width="13" alt=""> icon in the **Resource Application Result** column to view and record the login
 
    information about the database.
 
@@ -1928,7 +1928,7 @@ The precheck of a DTS task fails and the  `CHECK_ERROR_SRC_USER_PSW`  error mess
    java -jar console.jar -e -print
    ```
 
-   ![](assets/09936bd59f00e96e96cb278162cc6a06.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/09936bd59f00e96e96cb278162cc6a06.jpeg)
 
 3. Run the  `telnet <destDbInst>`  command based on the values of the destDbInst, destUsr, and destPsw parameters that you obtained in the previous step to check whether the network is connected.
 
@@ -1978,7 +1978,7 @@ This topic describes how to resolve the error that the incremental data service 
 
 1. View the master logs of DTS and check whether the topic_group field is deleted. For more information, see View master logs.
 
-   ![](assets/07d6650e2462f21a1a6b34da13891ddb.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/07d6650e2462f21a1a6b34da13891ddb.jpeg)
 
 2. If the topic_group field is deleted according to the logs, restart the incremental data service in the DTS O&M console.
 
@@ -2078,7 +2078,7 @@ Your DTS synchronization task is not automatically resumed after the network is 
 
    <li>
 
-   In the protection group list, find the protection group that you want to manage, click the <img src="assets/9c5c89750e5c0b261d9f0f9102bd5d83.png" width="16" alt=""> icon
+   In the protection group list, find the protection group that you want to manage, click the <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/9c5c89750e5c0b261d9f0f9102bd5d83.png" width="16" alt=""> icon
 
    </li>
 
@@ -2217,7 +2217,7 @@ If OSS buckets fail to be protected, you can troubleshoot the issue by performin
 
    If the configuration is valid, proceed to the next step.
 
-   ![](assets/bb5c40d7c9a812419ccba43b32726cf0.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/bb5c40d7c9a812419ccba43b32726cf0.jpeg)
 
    <ol type="i" start="3">
 
@@ -2241,7 +2241,7 @@ If OSS buckets fail to be protected, you can troubleshoot the issue by performin
 
 4. If the chiji version meets the requirement, check the logs of the acceleration operation. If success is displayed in the logs but the 200 error code is returned, contact the OSS team for technical support.
 
-   ![](assets/60411c9e43e885a665ce68daa50c27d2.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/60411c9e43e885a665ce68daa50c27d2.jpeg)
 
 <a id="section-5-5"></a>
 
@@ -2299,7 +2299,7 @@ ASR-DR does not provide the feature to view the message consumption and synchron
    sh rmq/bin/mqadmin consumerProgress -g <Instance ID>%< groupId> -t <Instance ID>%< topic>
    ```
 
-   ![](assets/22799283e11ef5719e4de563088b835e.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/22799283e11ef5719e4de563088b835e.jpeg)
 
    The following table describes the parameters of the primary ApsaraMQ instance.
 
@@ -2409,7 +2409,7 @@ You can use Data Transmission Service (DTS) of the secondary data center to perf
    >
    > icon in the **Diff Row** column.
    >
-   > <img src="assets/98c8bd8e479220a77a634b04f5154901.jpeg" width="20" alt="">
+   > <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/98c8bd8e479220a77a634b04f5154901.jpeg" width="20" alt="">
 
    You can also view the verification results in logs. The following table describes the logs.
 
@@ -2512,7 +2512,7 @@ Perform the following operations in the primary and secondary centers:
    >
    > If a message appears indicating that you do not have the required permissions, click the
    >
-   > <img src="assets/5932e8ab3ca87481e4736a4abf52ad58.png" width="19" alt="">
+   > <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/5932e8ab3ca87481e4736a4abf52ad58.png" width="19" alt="">
    >
    > icon to switch to another organization and administrator account before you proceed.
 
@@ -2524,7 +2524,7 @@ Perform the following operations in the primary and secondary centers:
 
    icon. On the Workspace page, select a workspace.
 
-   <img src="assets/da4dd5899300748eb133284c9927184c.png" width="26" alt="">
+   <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/da4dd5899300748eb133284c9927184c.png" width="26" alt="">
 
    </li>
 
@@ -2538,11 +2538,11 @@ Perform the following operations in the primary and secondary centers:
 
    required MaxCompute project in the **MaxCompute Project Name** column.
 
-   ![](assets/4265332a1fb0dcc564394c33f6e06c06.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/4265332a1fb0dcc564394c33f6e06c06.jpeg)
 
 3. On the **DataStudio** page of DataWorks, create a workflow.
 
-   ![](assets/9c4980439490d2e65e28d32042e38618.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/9c4980439490d2e65e28d32042e38618.jpeg)
 
 4. Create a foreign table.
 
@@ -2601,11 +2601,11 @@ Perform the following operations in the primary and secondary centers:
 
    icon to execute the script. You can view the number of data entries in the
 
-   <img src="assets/33351dc5976aef0e547cc300ed44c868.png" width="28" alt="">
+   <img src="en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/33351dc5976aef0e547cc300ed44c868.png" width="28" alt="">
 
    Tablestore table in the primary data center.
 
-   ![](assets/6ada2e61aec3347c1a4b78d59e426667.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/6ada2e61aec3347c1a4b78d59e426667.jpeg)
 
 6. Perform the preceding steps in the secondary data center to check whether the number of data entries is consistent between the secondary and primary data centers.
 
@@ -2670,7 +2670,7 @@ To verify MaxCompute data consistency, submit a ticket to obtain the verificatio
 
    If a result as shown in the following figure is returned, the task is created.
 
-   ![](assets/1ad7a6ccd670580eb9a07cd15518b692.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/1ad7a6ccd670580eb9a07cd15518b692.jpeg)
 
 2. Start the task.
 
@@ -2684,11 +2684,11 @@ To verify MaxCompute data consistency, submit a ticket to obtain the verificatio
 
    If a result as shown in the following figure is returned, the task is started.
 
-   ![](assets/9fd7e3ccb498ea8c76080053e816c026.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/9fd7e3ccb498ea8c76080053e816c026.jpeg)
 
    If you call the /task/start API when the task is in the running or archived state, the following result is returned:
 
-   ![](assets/63ecc8593d009359f67723cdd2af10a5.png)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/63ecc8593d009359f67723cdd2af10a5.png)
 
 3. View the execution result of the task. The following table describes the execution results.
 
@@ -3825,7 +3825,7 @@ Look up the Internet domain and intranet domain names
 
 6. Click the **kv.conf** file and click **Show Content**.
 
-   ![](assets/9ca64c7daa07a4a187961900f782c9e4.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/9ca64c7daa07a4a187961900f782c9e4.jpeg)
 
 7. Obtain the Internet domain and intranet domain names from the **kv.conf** file.
 
@@ -3843,11 +3843,11 @@ This topic describes how to look up the Domain Name System (DNS) address.
 
 4. Enter dnsProduct in the search box and find the cluster in the **Products** list. Click **Cluster Details** in the **Actions** column.
 
-   ![](assets/7844f490580e50e91fe19da7637ce636.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/7844f490580e50e91fe19da7637ce636.jpeg)
 
 5. Click the **Desired State Configuration** tab and select the  `services/dnsService/user/dns.conf` file.
 
-   ![](assets/30aca3c4ca4482916bfae726ee8bdebf.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/30aca3c4ca4482916bfae726ee8bdebf.jpeg)
 
 6. Click **Show Content**. The value of the AnycastVip field is the IP address of the DNS name server, which is the same as the ServerIP value shown on the DNS management interface.
 
@@ -3885,7 +3885,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    Log in to the Apsara Uni-manager Operations Console as an operations administrator.
 
-   ![](assets/151fb45ed25757c391eaf394b4aca0da.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/151fb45ed25757c391eaf394b4aca0da.jpeg)
 
    </li>
 
@@ -3905,7 +3905,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    </ol>
 
-   ![](assets/2f3d7b80e9acaeea985f5758debef2a1.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/2f3d7b80e9acaeea985f5758debef2a1.jpeg)
 
    <ol type="i" start="4">
 
@@ -3925,7 +3925,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    Click **Cluster Details** in the **Actions** column of the StandardCloudCluster cluster. On the cluster details page, click the **Resource Details** tab.
 
-   ![](assets/10091d7b4642c7af91d4478c84e163d0.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/10091d7b4642c7af91d4478c84e163d0.jpeg)
 
    </li>
 
@@ -3939,7 +3939,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    column to obtain and save the value of vip_ip.
 
-   ![](assets/3ad3b70513b7ecbc9635e45fedccb802.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/3ad3b70513b7ecbc9635e45fedccb802.jpeg)
 
    > **Note**
    >
@@ -4023,7 +4023,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
        - the DNS nameserver address of the local cloud tenant
    ```
 
-   ![](assets/1832345d8aae383e2a585a98784dcfa5.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/1832345d8aae383e2a585a98784dcfa5.jpeg)
 
    </li>
 
@@ -4075,7 +4075,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    **forwarding rules**.
 
-   ![](assets/7f99f29c6392471ef4f97734e3e554ed.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/7f99f29c6392471ef4f97734e3e554ed.jpeg)
 
    <ol type="i" start="3">
 
@@ -4095,7 +4095,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    On the **Global Domain Names** page, click the **Global Forwarding Configurations** tab.
 
-   ![](assets/e52eeb0d15be484f88cf861f92859121.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/e52eeb0d15be484f88cf861f92859121.jpeg)
 
    </li>
 
@@ -4122,7 +4122,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
 3. Obtain the content in the /home/admin/asrdr/config/dns/dns_conf.{regionId}.ops file of the local ASR-DR container.
 
-   ![](assets/1d6b56be9253c8a0342352d30b477f53.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/1d6b56be9253c8a0342352d30b477f53.jpeg)
 
 4. Repeat the preceding steps in the ASR-DR container of the primary site.
 
@@ -4184,7 +4184,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
        - the DNS nameserver address of the local cloud tenant
    ```
 
-   ![](assets/1832345d8aae383e2a585a98784dcfa5.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/1832345d8aae383e2a585a98784dcfa5.jpeg)
 
    </li>
 
@@ -4236,7 +4236,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    **forwarding rules**.
 
-   ![](assets/7f99f29c6392471ef4f97734e3e554ed.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/7f99f29c6392471ef4f97734e3e554ed.jpeg)
 
    <ol type="i" start="3">
 
@@ -4256,7 +4256,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    On the **Global Domain Names** page, click the **Global Forwarding Configurations** tab.
 
-   ![](assets/e52eeb0d15be484f88cf861f92859121.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/e52eeb0d15be484f88cf861f92859121.jpeg)
 
    </li>
 
@@ -4294,7 +4294,7 @@ If you configure a primary/secondary disaster recovery solution between two clou
 
    Log on to the Apsara Uni-manager Operations Console as an operations administrator.
 
-   ![](assets/151fb45ed25757c391eaf394b4aca0da.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/151fb45ed25757c391eaf394b4aca0da.jpeg)
 
    </li>
 
@@ -4314,7 +4314,7 @@ If you configure a primary/secondary disaster recovery solution between two clou
 
    </ol>
 
-   ![](assets/2f3d7b80e9acaeea985f5758debef2a1.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/2f3d7b80e9acaeea985f5758debef2a1.jpeg)
 
    <ol type="i" start="4">
 
@@ -4334,7 +4334,7 @@ If you configure a primary/secondary disaster recovery solution between two clou
 
    Click **Cluster Details** in the **Actions** column of the StandardCloudCluster cluster. On the cluster details page, click **Resource Details**.
 
-   ![](assets/612ccc8ad3c4d958dcc7438344cc8101.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/612ccc8ad3c4d958dcc7438344cc8101.jpeg)
 
    </li>
 
@@ -4348,7 +4348,7 @@ If you configure a primary/secondary disaster recovery solution between two clou
 
    then save the value of vip_ip.
 
-   ![](assets/3ad3b70513b7ecbc9635e45fedccb802.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/3ad3b70513b7ecbc9635e45fedccb802.jpeg)
 
 2. Log on to the ASR-DR container of the secondary site. For more information, see Log in to a container.
 
@@ -4367,25 +4367,25 @@ If you configure a primary/secondary disaster recovery solution between two clou
    select * from region_pattern where pattern_expression = '^Region ID'\G
    ```
 
-   ![](assets/16134ef8d5c9372bd0fc75f3f38d4de3.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/16134ef8d5c9372bd0fc75f3f38d4de3.jpeg)
 
    ```sql
    select * from config where config_code = 'cross_cloud_internet_check_flag';
    ```
 
-   ![](assets/800f3a6f07e7fcff307044ce02c5bf12.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/800f3a6f07e7fcff307044ce02c5bf12.jpeg)
 
    ```sql
    select * from region_list where REGIONS like '%Region ID%'\G
    ```
 
-   ![](assets/d537f05a78f4744461293b03ca7bd294.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/d537f05a78f4744461293b03ca7bd294.jpeg)
 
    ```sql
    select * from dts_region_info where region = 'Region ID'\G
    ```
 
-   ![](assets/1e7328dc88a580b9bcf6a3be57591282.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/1e7328dc88a580b9bcf6a3be57591282.jpeg)
 
 **Manually configure local DTS**
 
@@ -4404,7 +4404,7 @@ If you configure a primary/secondary disaster recovery solution between two clou
 
    When the script is executed, {current_region} is automatically replaced. During the execution, the SQL statements that are executed are returned.
 
-   ![](assets/732b3f516bd6ae75ba967e9f93c8d518.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/732b3f516bd6ae75ba967e9f93c8d518.jpeg)
 
 3. Run the following commands in the DTS database at the secondary side to view information about the DTS database:
 
@@ -4412,25 +4412,25 @@ If you configure a primary/secondary disaster recovery solution between two clou
    select * from region_pattern where pattern_expression = '^Region ID'\G
    ```
 
-   ![](assets/16134ef8d5c9372bd0fc75f3f38d4de3.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/16134ef8d5c9372bd0fc75f3f38d4de3.jpeg)
 
    ```sql
    select * from config where config_code = 'cross_cloud_internet_check_flag';
    ```
 
-   ![](assets/800f3a6f07e7fcff307044ce02c5bf12.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/800f3a6f07e7fcff307044ce02c5bf12.jpeg)
 
    ```sql
    select * from region_list where REGIONS like '%Region ID%'\G
    ```
 
-   ![](assets/d537f05a78f4744461293b03ca7bd294.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/d537f05a78f4744461293b03ca7bd294.jpeg)
 
    ```sql
    select * from dts_region_info where region = 'Region ID'\G
    ```
 
-   ![](assets/1e7328dc88a580b9bcf6a3be57591282.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/1e7328dc88a580b9bcf6a3be57591282.jpeg)
 
 <a id="section-8-5"></a>
 
@@ -4440,7 +4440,7 @@ When you deploy ASR for Geo-disaster Recovery, you must configure dedicated line
 
 1. Download the scripts to your computer and decompress the scripts
 
-   ![](assets/cb2f74f23241f2ad79b9c58c6247ebec.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/cb2f74f23241f2ad79b9c58c6247ebec.jpeg)
 
 2. Execute the sudo sgvpn con -e 128E -f command to connect to the VPN. For information about the connection procedure, see sgvpn documentation.
 
@@ -4456,7 +4456,7 @@ When you deploy ASR for Geo-disaster Recovery, you must configure dedicated line
 
    Go to the Xterm > Environment Metadata Query section, select the destination environment, and then enter baseService-network-base in the service search box to query the value.
 
-   ![](assets/7f504384d5973f0bb0aab010a5d4f945.jpeg)
+   ![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/7f504384d5973f0bb0aab010a5d4f945.jpeg)
 
    <ol type="i" start="2">
 
@@ -4474,7 +4474,7 @@ When you deploy ASR for Geo-disaster Recovery, you must configure dedicated line
 
    </ol>
 
-![](assets/77e4fbd4dd6f56fb6c5efebf64bf9990.jpeg)
+![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/77e4fbd4dd6f56fb6c5efebf64bf9990.jpeg)
 
 4. Import the DCI and interconnect dedicated line data.
 
@@ -4486,15 +4486,15 @@ When you deploy ASR for Geo-disaster Recovery, you must configure dedicated line
 >
 > - For information about the parameters, see AddDCInterConnection and AddExternalConnection.
 
-![](assets/9f86dc53b73dd591799ad702653de4d1.jpeg)
+![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/9f86dc53b73dd591799ad702653de4d1.jpeg)
 
-![](assets/f203816af05815ab19468fa73d681901.jpeg)
+![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/f203816af05815ab19468fa73d681901.jpeg)
 
 5. Execute the python importConnections2db.py script.
 
-![](assets/da2e4be8b761d6e92f25965f1352de18.jpeg)
+![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/da2e4be8b761d6e92f25965f1352de18.jpeg)
 
-![](assets/60524fad48e34a83e42380884aefaa0c.jpeg)
+![](en-asr-geo-disaster-recovery-opera-12c5c50f-v3.18.6-2607-20260828.assets/60524fad48e34a83e42380884aefaa0c.jpeg)
 
 <a id="section-8-5-1"></a>
 

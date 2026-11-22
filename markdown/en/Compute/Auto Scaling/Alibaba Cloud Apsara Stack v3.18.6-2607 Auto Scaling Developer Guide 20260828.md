@@ -158,7 +158,7 @@ This topic describes how to find the required documentation when you call an API
 
 You can follow the procedure described in the following figure to view the specific documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-ess-developer-guide-v3.18.6-2607-20260828.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -272,7 +272,7 @@ You must obtain a service name, API operation name, and API version. All the inf
 
 3. On the **API Directory** page, select the target service from the drop-down list, enter the API operation name in the search box, and then click the search icon.
 
-   ![](assets/e40e266304604a863b174cad7303f674.png)
+   ![](en-ess-developer-guide-v3.18.6-2607-20260828.assets/e40e266304604a863b174cad7303f674.png)
 
 4. View and remember the service name, API operation name, and API version.
 
@@ -317,7 +317,7 @@ To obtain the AccessKey credentials of a personal account, perform the following
 
 3. In the **AccessKey Pair** section, view the AccessKey credentials of the personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-ess-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -9970,7 +9970,7 @@ Sample success responses
 | 400 | InvalidScheduledTask Name.Duplicate | The specified value of parameter<br><code>ScheduledTaskName</code><br>is duplicated. | The error message returned because the specified name of the scheduled task already exists. |
 | 400 | ScheduledAction.Regio nMismatch | The specified scheduled task and the specified scheduled action are not in the same Region. | The error message returned because the specified scaling rule and the specified scheduled task do not reside in the same region. |
 
-![](assets/2aff804290a641c2796fa77ca97e181c.png)
+![](en-ess-developer-guide-v3.18.6-2607-20260828.assets/2aff804290a641c2796fa77ca97e181c.png)
 
 <a id="section-6-11-3"></a>
 
@@ -10760,7 +10760,7 @@ You can specify a notification method for a lifecycle hook. When the lifecycle h
 | DefaultResult | String | No | CONTINUE | The action that you want Auto Scaling to perform when the lifecycle hook times out. Valid values:<br>• CONTINUE: Auto Scaling continues to respond to scale-in or scale-out requests.<br>• ABANDON: Auto Scaling releases ECS instances that are created during scale-outs, or removes ECS instances from the scaling group during scale-ins.<br>If multiple lifecycle hooks in a scaling group are triggered during scale-ins and you set DefaultResult to ABANDON for one of the lifecycle hooks, Auto Scaling immediately performs the ABANDON action after the lifecycle hook times out. In this case, other lifecycle hooks time out ahead of schedule. In other cases, Auto Scaling performs the action only after all lifecycle hooks time out. The action that Auto Scaling performs is determined by the value of DefaultResult that you specify for the lifecycle hook that most recent times out.<br>Default value: CONTINUE. |
 | HeartbeatTimeo ut | Integer | No | 600 | The timeout period of the lifecycle hook. When the lifecycle hook times out, Auto Scaling performs the action that is specified by DefaultResult.Valid values: 30 to 21600. Unit: seconds.<br>After you create a lifecycle hook, you can call the <code>RecordLifecycleActionHeartbeat</code> <code> </code> operation to extend the timeout period of the lifecycle hook. You can call the <code>CompleteLifecycleAction</code> operation to end the timeout period of the lifecycle hook ahead of schedule.<br>Default value: 600. |
 
-![](assets/83d9c90f3bc99b4594c8fa83f6d9773f.png)
+![](en-ess-developer-guide-v3.18.6-2607-20260828.assets/83d9c90f3bc99b4594c8fa83f6d9773f.png)
 
 <table>
   <tr>
@@ -10859,7 +10859,7 @@ You can use one of the following methods to specify the lifecycle hook that you 
 | HeartbeatTimeo ut | Integer | No | 600 | The period of time before the lifecycle hook times out. When the lifecycle hook times out, Auto Scaling performs the action that is specified by DefaultResult. Valid values: 30 to<br>21600. Unit: seconds.<br>After you create a lifecycle hook, you can call the <code>RecordLifecycleActionHeartbeat</code> <code> </code> operation to extend the timeout period of the lifecycle hook. You can also call the <code>CompleteLifecycleAction</code> operation to end the timeout period of the lifecycle hook ahead of schedule. |
 | LifecycleTransiti on | String | No | SCALE_IN | The type of scaling activity to which you can apply the lifecycle hook.Valid values:<br>• SCALE_OUT<br>• SCALE_IN |
 
-![](assets/0655a7f3ade630d597d6286219b97826.png)
+![](en-ess-developer-guide-v3.18.6-2607-20260828.assets/0655a7f3ade630d597d6286219b97826.png)
 
 <table>
   <tr>
@@ -12656,7 +12656,7 @@ Table 1. Description
 | 400 | NoSuchVersion | The specified version does not exist. | The error message returned because the specified version is invalid. |
 | 400 | Throttling | Request was denied due to request throttling. | The error message returned because the specified operation is denied by the throttling system. |
 
-![](assets/3fda6893ab6d0d829d7b8322ecb13350.png)
+![](en-ess-developer-guide-v3.18.6-2607-20260828.assets/3fda6893ab6d0d829d7b8322ecb13350.png)
 
 <table>
   <tr>

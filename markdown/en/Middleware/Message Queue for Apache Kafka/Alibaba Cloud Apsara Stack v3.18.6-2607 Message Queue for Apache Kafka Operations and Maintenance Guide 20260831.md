@@ -77,7 +77,7 @@ This topic describes how to log in to the Kafka Operations Console.
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-kafka-operations-guide-v3.18.6-2607-20260831.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >

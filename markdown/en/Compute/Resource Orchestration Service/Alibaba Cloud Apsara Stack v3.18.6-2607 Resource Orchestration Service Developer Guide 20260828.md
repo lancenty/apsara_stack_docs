@@ -98,7 +98,7 @@ This topic describes how to view the desired product development documentation w
 
 You can follow the procedure described in the following figure to view the desired development documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-ros-developer-guide-v3.18.6-2607-20260828.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -260,7 +260,7 @@ The information about the API operation provided on the right of the API operati
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-ros-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -1479,7 +1479,7 @@ To enable you to call API operations in the same way as that in Alibaba Cloud pu
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-ros-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -1489,7 +1489,7 @@ To enable you to call API operations in the same way as that in Alibaba Cloud pu
 
 7. Click the operation that you want to call. Obtain the endpoint from the Endpoint parameter on the Parameter tab.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-ros-developer-guide-v3.18.6-2607-20260828.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 **Obtain an endpoint in Apsara Infrastructure Management**
 
@@ -1507,7 +1507,7 @@ You can also obtain service endpoints by yourself. In this example, API Gateway 
 
 5. Enter  `apigateway`  in the Service Registration field and click **Search**.
 
-6. In the **Service Registration** column of the  `apigateway`  service, click the <img src="assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
+6. In the **Service Registration** column of the  `apigateway`  service, click the <img src="en-ros-developer-guide-v3.18.6-2607-20260828.assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
 
 7. Click the text information in the **Service Registration** column of the  `apigateway`  service. In the **Registration Variables** message, obtain the endpoint from the value of apigateway.openapi.endpoint.
 

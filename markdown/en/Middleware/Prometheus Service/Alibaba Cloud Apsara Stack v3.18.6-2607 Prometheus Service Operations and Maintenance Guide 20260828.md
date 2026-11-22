@@ -78,25 +78,25 @@ Prometheus 2.0
 
 Monitoring
 
-![](assets/978ae9c713f11cb6ac8dff340c263bd7.png)
+![](en-prometheus-operations-guide-v3.18.6-2607-20260828.assets/978ae9c713f11cb6ac8dff340c263bd7.png)
 
-![](assets/3e7265d86de0830825415eb9f66e7265.png)
+![](en-prometheus-operations-guide-v3.18.6-2607-20260828.assets/3e7265d86de0830825415eb9f66e7265.png)
 
-![](assets/c5712bb20d83aa16ead71aefaa0d8006.png)
+![](en-prometheus-operations-guide-v3.18.6-2607-20260828.assets/c5712bb20d83aa16ead71aefaa0d8006.png)
 
 Enterprise Base/Basic
 
-![](assets/fc779dacf5ef851e86136412364d3a27.png)
+![](en-prometheus-operations-guide-v3.18.6-2607-20260828.assets/fc779dacf5ef851e86136412364d3a27.png)
 
-![](assets/44156cb00ae6466499af01cdf9686235.png)
+![](en-prometheus-operations-guide-v3.18.6-2607-20260828.assets/44156cb00ae6466499af01cdf9686235.png)
 
-![](assets/9f5106e5d7b646bc60d3dc0c50767dbe.png)
+![](en-prometheus-operations-guide-v3.18.6-2607-20260828.assets/9f5106e5d7b646bc60d3dc0c50767dbe.png)
 
-![](assets/23f73ebaa66c6f12eea6c7d7b0e397df.png)
+![](en-prometheus-operations-guide-v3.18.6-2607-20260828.assets/23f73ebaa66c6f12eea6c7d7b0e397df.png)
 
-![](assets/32515398985a1f444cfcfed2bbfbbbf0.png)
+![](en-prometheus-operations-guide-v3.18.6-2607-20260828.assets/32515398985a1f444cfcfed2bbfbbbf0.png)
 
-![](assets/d7b6a59ecd345d7d40849e9ec6a7c749.png)
+![](en-prometheus-operations-guide-v3.18.6-2607-20260828.assets/d7b6a59ecd345d7d40849e9ec6a7c749.png)
 
 Services
 
@@ -142,9 +142,9 @@ This topic describes the deployment architecture of Managed Service for Promethe
 
 This topic describes the component architecture of Managed Service for Prometheus.
 
-![](assets/d2fc34df29858e18af910c4a39d2fc48.png)
+![](en-prometheus-operations-guide-v3.18.6-2607-20260828.assets/d2fc34df29858e18af910c4a39d2fc48.png)
 
-![](assets/9c823f38254252ed120dffca4b62c72a.png)
+![](en-prometheus-operations-guide-v3.18.6-2607-20260828.assets/9c823f38254252ed120dffca4b62c72a.png)
 
 | Component | Description |
 | --- | --- |
@@ -342,10 +342,10 @@ This topic describes commonly used O&M commands for Managed Service for Promethe
 
 In the /home/admin/kafka-tools directory of the ApsaraMQ for Kafka Docker container, run the `source source_jmx.sh`  command and then run the  `./metadata.sh`  command to view the information about ApsaraMQ for Kafka.
 
-![](assets/fdc86f6b562697b7e2299c9c31d4a9f9.png)
+![](en-prometheus-operations-guide-v3.18.6-2607-20260828.assets/fdc86f6b562697b7e2299c9c31d4a9f9.png)
 
 **View information about InfluxDB**
 
 In the InfluxDB Docker container, run the  `/login-influxdb.sh`  command to log on to the InfluxDB CLI and run InfluxDB-relevant commands.
 
-![](assets/d4138c6115ec6d45417d82fa13fe70f5.png)
+![](en-prometheus-operations-guide-v3.18.6-2607-20260828.assets/d4138c6115ec6d45417d82fa13fe70f5.png)

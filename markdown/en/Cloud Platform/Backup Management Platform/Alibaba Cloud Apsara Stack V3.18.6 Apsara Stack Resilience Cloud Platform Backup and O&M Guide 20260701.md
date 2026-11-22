@@ -46,7 +46,7 @@ Directory structure:
 
 Go to the specified path on the physical machine or container where the FTP service runs to obtain the \`cloudbackuptool\` file.
 
-![](assets/f132b2d4bd264ea2ec98c9fc00b62a75.jpeg)
+![](en-asr-cloud-platform-backup-operations-guide-v3.18.6-20260701.assets/f132b2d4bd264ea2ec98c9fc00b62a75.jpeg)
 
 config.json: By default, the config.json file contains the initialized storage information specified in the FTP service.
 
@@ -112,15 +112,15 @@ The following information is displayed for each storage pool:
 >
 > ./cloudbackuptool -c config.json -p MINIRDS -i dbaas_db -t 250918180328 #Downloads the backup set created at the specified time.
 
-![](assets/a3a122c10eb92ca8ab098171c011bcdc.jpeg)
+![](en-asr-cloud-platform-backup-operations-guide-v3.18.6-20260701.assets/a3a122c10eb92ca8ab098171c011bcdc.jpeg)
 
-![](assets/349a2ffa511fe39a26508b3d1d35bfbb.jpeg)
+![](en-asr-cloud-platform-backup-operations-guide-v3.18.6-20260701.assets/349a2ffa511fe39a26508b3d1d35bfbb.jpeg)
 
-![](assets/d07e004f49701e868f6225862c8f8674.jpeg)
+![](en-asr-cloud-platform-backup-operations-guide-v3.18.6-20260701.assets/d07e004f49701e868f6225862c8f8674.jpeg)
 
-![](assets/a7d57c65533eb3b60aa70b0e8bd2f368.jpeg)
+![](en-asr-cloud-platform-backup-operations-guide-v3.18.6-20260701.assets/a7d57c65533eb3b60aa70b0e8bd2f368.jpeg)
 
-![](assets/8896205a880083114021ee997d5534fd.jpeg)
+![](en-asr-cloud-platform-backup-operations-guide-v3.18.6-20260701.assets/8896205a880083114021ee997d5534fd.jpeg)
 
 **Example with opsdns**
 
@@ -128,15 +128,15 @@ Download backup records using the \`cloudbackuptool\` script:
 
 - View the backup records for opsdns. cloudbackuptool -s 6fc22d89-4310-424b-b009-5e2f0537efcd -p ops_dns -i opsdns
 
-  ![](assets/ecbaf212d76bce4ab50554a825ba638f.jpeg)
+  ![](en-asr-cloud-platform-backup-operations-guide-v3.18.6-20260701.assets/ecbaf212d76bce4ab50554a825ba638f.jpeg)
 
 - Download the latest backup record. cloudbackuptool -s 6fc22d89-4310-424b-b009-5e2f0537efcd -p ops_dns -i opsdns -t 250820110031
 
-  ![](assets/6cc64469c455568b8b74d80dc53fa798.jpeg)
+  ![](en-asr-cloud-platform-backup-operations-guide-v3.18.6-20260701.assets/6cc64469c455568b8b74d80dc53fa798.jpeg)
 
 - The backup is saved to the /alidata/script/download directory for subsequent data recovery.
 
-  ![](assets/ed77723292ee666e8c17f173c788ab0b.jpeg)
+  ![](en-asr-cloud-platform-backup-operations-guide-v3.18.6-20260701.assets/ed77723292ee666e8c17f173c788ab0b.jpeg)
 
 **Example with Pangu**
 

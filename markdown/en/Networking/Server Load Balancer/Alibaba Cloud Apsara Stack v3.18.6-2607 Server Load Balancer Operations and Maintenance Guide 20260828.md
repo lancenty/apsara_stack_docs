@@ -39,7 +39,7 @@ This topic describes how users such as O&M engineers log on to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -91,7 +91,7 @@ After you add tags to Server Load Balancer (SLB) clusters, you can easily find t
 
 4. On the **SLB Cluster Management** page, select a zone and click **Search** to view information about the desired cluster.
 
-   ![](assets/a89ec2efa50c39dd99356786d45d16d5.jpeg)
+   ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/a89ec2efa50c39dd99356786d45d16d5.jpeg)
 
 5. Click **Edit Tag** in the **Actions** column of the desired cluster. In the dialog box that appears, modify the tag keys and click **OK**.
 
@@ -123,13 +123,13 @@ The SLB Cluster tab displays the basic information, maximum inbound bits per sec
 
 4. On the **SLB Management** tab, click the **SLB Cluster** tab, and select the cluster that you want to view from the **Cluster** drop-down list. You can then view information displayed in the **Node Information** and **Cluster Resource Usage** sections.
 
-   ![](assets/7479f482a700a242cb79b735b65256d5.jpeg)
+   ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/7479f482a700a242cb79b735b65256d5.jpeg)
 
    - In the **Node Information** section, you can view node information in the columns, including **Node IP Address**, **Working Status**, **Local IP Address**, **Service Unit**, **Site ID**, and **LVS Group ID**.
 
      **View node details**: Click **Details** in the **Actions** column of the node that you want to view to go to the **SLB Node Details** page. Then, you can view **Node Information** and **Usage Data**.
 
-     ![](assets/ab5c385a5c422572dbfcccde118fc5c7.jpeg)
+     ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/ab5c385a5c422572dbfcccde118fc5c7.jpeg)
 
      - The **Node Information** section displays the following information: **IP**, **Working Status**, **Local CIDR Block**, **ENIs**, **LVS Group ID**, **Proxy Check Type**, **Site ID**, **Maximum Active Connections**, **Maximum Inactive Connections**, **Inbound BPS Limit**, **Outbound BPS Limit**, **Inbound PPS Limit**, and **Outbound PPS Limit**.
 
@@ -169,11 +169,11 @@ The SLB Instances tab displays the basic information and usage data of SLB insta
 
    Click **Advanced Filter** and filter SLB instances by **IP Address Version**, **IP Address**, **Instance ID**, **Product Name**, **Network Type**, or any combination of them.
 
-   ![](assets/50ab7bdad9a9e33a7bee691138111fcc.jpeg)
+   ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/50ab7bdad9a9e33a7bee691138111fcc.jpeg)
 
 5. Click **Details** in the **Actions** column of an SLB instance to go to the **SLB Instance Details** page. On this page, you can view **Instance Information**, **Server Group Information**, and **Usage Data**.
 
-   ![](assets/6c0a729624fe0fb18efc40a6cb5aab09.jpeg)
+   ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/6c0a729624fe0fb18efc40a6cb5aab09.jpeg)
 
    - In the **Instance Information** section, view the basic information about the SLB instance, which can be used by O&M engineers to troubleshoot faults and confirm the ownership of the device.
 
@@ -181,11 +181,11 @@ The SLB Instances tab displays the basic information and usage data of SLB insta
 
      - When the SLB instance switch is **turned on**, you can modify the following throttling parameters.
 
-       ![](assets/5c2c378996ff69ecee3f20c9e3c2b6ee.jpeg)
+       ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/5c2c378996ff69ecee3f20c9e3c2b6ee.jpeg)
 
      - When the SLB instance switch is **turned off**, you can modify only the bandwidth parameter.
 
-       ![](assets/30a97cc21abd26e8b25dd21c991ce89f.jpeg)
+       ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/30a97cc21abd26e8b25dd21c991ce89f.jpeg)
 
      > **Note**
      >
@@ -203,7 +203,7 @@ The SLB Instances tab displays the basic information and usage data of SLB insta
 
      - To view the weight modification details, click **View Details** in the **Actions** column of the desired server group.
 
-       ![](assets/31fcc148503ebbca9432b7fd835c7138.jpeg)
+       ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/31fcc148503ebbca9432b7fd835c7138.jpeg)
 
      - Modify weights
 
@@ -219,7 +219,7 @@ The SLB Instances tab displays the basic information and usage data of SLB insta
 
        In the message that appears, confirm the information and click **OK**.
 
-       ![](assets/ce588fee445c3456c3ed48f22cc3d0fb.jpeg)
+       ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/ce588fee445c3456c3ed48f22cc3d0fb.jpeg)
 
        </li>
 
@@ -243,7 +243,7 @@ The SLB Instances tab displays the basic information and usage data of SLB insta
 
      Click **Details** in the upper-right corner of the resource usage chart to view the details of the resource usage of backend servers.
 
-     ![](assets/bc7c0bff92d045f60db8f9a6e4fb62e5.jpeg)
+     ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/bc7c0bff92d045f60db8f9a6e4fb62e5.jpeg)
 
 **Cluster usage metrics**
 
@@ -497,7 +497,7 @@ On the Proxy Cluster tab, you can view the node status, usage data, and cluster 
 
 4. On the **Proxy Cluster** tab of the **SLB Proxy Management** page, select the cluster that you want to view from the **Cluster** drop-down list. Then, view the cluster information in the **Node Information** and **Cluster Aggregation Monitoring** sections.
 
-   ![](assets/a44cc801fede4e41dc1203a58a3f2f43.jpeg)
+   ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/a44cc801fede4e41dc1203a58a3f2f43.jpeg)
 
 5. View information in the **Node Information** section.
 
@@ -505,7 +505,7 @@ On the Proxy Cluster tab, you can view the node status, usage data, and cluster 
 
    - Find the node whose details you want to view and click **Details** in the **Operation** column. On the **SLB Proxy Node Details** page, specify **Start and End Time** and view the metrics of the node in the **Usage Data** section.
 
-     ![](assets/e0fc4a058984e591c9cac752c5a99585.jpeg)
+     ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/e0fc4a058984e591c9cac752c5a99585.jpeg)
 
      > **Note**
      >
@@ -1099,7 +1099,7 @@ On the ALB Proxy Cluster tab, you can view the node status, usage data, and aggr
 
 4. On the **ALB Proxy Cluster** tab, select the cluster that you want to view from the **Cluster** drop-down list. Then, view the cluster information in the **Node Information** and **Cluster Aggregation Monitoring** sections.
 
-   ![](assets/b5633f6ea5295d25179ff323da4ea887.jpeg)
+   ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/b5633f6ea5295d25179ff323da4ea887.jpeg)
 
 5. View the cluster information in the **Node Information** section.
 
@@ -1107,7 +1107,7 @@ On the ALB Proxy Cluster tab, you can view the node status, usage data, and aggr
 
    - Find the node whose details you want to view and click **Details** in the **Actions** column. On the ALB Proxy Node Details page, specify the start time and end time, and view the metrics of the node in the Usage Data section. By default, the data within the last hour is displayed.
 
-     ![](assets/6d44e20b0c3d23771db383fcdd582845.jpeg)
+     ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/6d44e20b0c3d23771db383fcdd582845.jpeg)
 
      > **Note**
      >
@@ -1876,7 +1876,7 @@ This topic describes how to manage the lifecycle of cloud service instances, inc
    | BID | This parameter is available only when the <strong>Tunnel Type</strong> parameter is set to <strong>SingleTunnel</strong>.<br>The BID of the user that creates the vSwitch. This parameter is required if the user is not the API caller. |
    | CIDR Type | This parameter is available only when the <strong>Tunnel Type</strong> parameter is set to <strong>AnyTunnel</strong>.<br>• <strong>Link_local (Regular Cloud Services)</strong>: The AnyTunnel VIP assigned to Application Load Balancer (ALB) is allocated from a subnet mask that does not belong to the 100.100.100.0/24 CIDR block.<br>• <strong>Special Inner (ECS META Server)</strong>: The AnyTunnel VIP assigned to ALB is allocated from a subnet mask of the 100.100.100.0/24 CIDR block. |
 
-   ![](assets/425e8bc362b431a229e46926c4a5beba.jpeg)
+   ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/425e8bc362b431a229e46926c4a5beba.jpeg)
 
 6. In the **Add RS to SLB Instance** step, configure the parameters described in the following table and click **Create**.
 
@@ -1885,7 +1885,7 @@ This topic describes how to manage the lifecycle of cloud service instances, inc
    | VPC ID | The ID of the VPC to which the ECS instance belong. This parameter is required if the ECS instance is deployed in a VPC. |
    | RS List | The backend servers that you want to add to the instance.<br>Click <strong>Add RS</strong> and configure the <strong>IP</strong> and <strong>weight</strong> parameters. Valid value of the <strong>weight</strong> parameter: 0 to 1000. If you do not configure this parameter, the default value 100 is used.<br>Note<br>To delete a real server (RS), click <strong>Delete</strong> in the <strong>Actions</strong> column. |
 
-   ![](assets/8c0b72e959a389a2992ea8fdc0943c6e.jpeg)
+   ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/8c0b72e959a389a2992ea8fdc0943c6e.jpeg)
 
 7. In the **Create Listener** step, configure the parameters described in the following table and click **Create**.
 
@@ -1897,7 +1897,7 @@ This topic describes how to manage the lifecycle of cloud service instances, inc
    | Configuration | Click <strong>Configuration</strong> to specify configurations such as polling policy and health check. |
    | Delete | Click <strong>Delete</strong> to delete the listener configurations. |
 
-   ![](assets/dd5ef817837a1a6e08b4181d5431760a.jpeg)
+   ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/dd5ef817837a1a6e08b4181d5431760a.jpeg)
 
 8. Return to the Cloud Instance Management page. If an instance whose tunnel type is **AnyTunnel** or **SingleTunnel** is displayed, the cloud service instance is created.
 
@@ -1915,7 +1915,7 @@ This topic describes how to manage the lifecycle of cloud service instances, inc
    | CloudInstance IP | The VIP that you want to assign to the instance.<br>If you do not specify a VIP, the system automatically assigns a VIP. |
    | CIDR Type | • <strong>Link_local (Regular Cloud Services)</strong>: The Direct Any Tunnel VIP is allocated from a subnet mask that does not belong to the 100.100.100.0/24 CIDR block.<br>• <strong>Special Inner (ECS META Server)</strong>: The Direct Any Tunnel VIP is allocated from a subnet mask of the 100.100.100.0/24 CIDR block. |
 
-   ![](assets/28388c20587550506ee8122e6b6a4192.jpeg)
+   ![](en-slb-operations-guide-v3.18.6-2607-20260828.assets/28388c20587550506ee8122e6b6a4192.jpeg)
 
 3. Return to the Cloud Instance Management page. If an instance whose tunnel type is **DirectAnyTunnel** is displayed, the Direct Any Tunnel VIP is applied.
 

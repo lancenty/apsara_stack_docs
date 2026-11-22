@@ -1299,7 +1299,7 @@ The following figure shows the interaction process using an app application as a
 
 Figure 1. Interaction process
 
-![](assets/c94bb487efde044c2834d575a9379d43.jpeg)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/c94bb487efde044c2834d575a9379d43.jpeg)
 
 The detailed description of the solution is as follows:
 
@@ -3918,7 +3918,7 @@ Authorization: SignatureValue
     </tr>
   </table>
 
-  ![](assets/280f82ca8bf9d212778ea8ce035f879b.png)
+  ![](en-cds-developer-guide-v3.18.6-20260629.assets/280f82ca8bf9d212778ea8ce035f879b.png)
 
   <table>
     <tr>
@@ -4000,7 +4000,7 @@ Authorization: SignatureValue
     </tr>
   </table>
 
-  ![](assets/b28ca8d2f3e789821aabdd3a005db91b.png)
+  ![](en-cds-developer-guide-v3.18.6-20260629.assets/b28ca8d2f3e789821aabdd3a005db91b.png)
 
   <table>
     <tr>
@@ -4026,7 +4026,7 @@ Authorization: SignatureValue
     </tr>
   </table>
 
-  ![](assets/5c4872a5e5f15428de1a20dde1993601.png)
+  ![](en-cds-developer-guide-v3.18.6-20260629.assets/5c4872a5e5f15428de1a20dde1993601.png)
 
   <table>
     <tr>
@@ -7335,7 +7335,7 @@ If the requested object is a symbolic link, take note of the following headers i
 | Header | Type | Example | Description |
 | --- | --- | --- | --- |
 | x-oss-meta-\* | String | x-oss-meta-test | The user metadata that is prefixed with x-oss-meta-. If you specify headers prefixed with x-oss-meta- in the PutObject request, the user metadata of the object is included in the response. |
-| Custom headers that are not prefixed with x-oss-meta- | String | x-oss-persistent-headers | If you specify headers that are not prefixed with x-oss-meta in the PutObject request to configure the user metadata of the object, the headers are included in the response. Example: x-oss-persistent-headers:<br>![](assets/868442fecb788dce35d6803b3ad8339b.png)<br><code>key1:base64_encode(value1),key2:base64_encode(value2)....</code>. |
+| Custom headers that are not prefixed with x-oss-meta- | String | x-oss-persistent-headers | If you specify headers that are not prefixed with x-oss-meta in the PutObject request to configure the user metadata of the object, the headers are included in the response. Example: x-oss-persistent-headers:<br>![](en-cds-developer-guide-v3.18.6-20260629.assets/868442fecb788dce35d6803b3ad8339b.png)<br><code>key1:base64_encode(value1),key2:base64_encode(value2)....</code>. |
 | x-oss-object-type | String | Normal | The type of the object. Valid values:<br>• Normal: The object is uploaded by using PutObject.<br>• Appendable: The object is uploaded by using AppendObject.<br>• Multipart: The object is uploaded by using MultipartUpload. |
 | x-oss-next-append-position | String | 100 | The position for the next append operation. If the type of the object is Appendable, this header is included in the response. |
 | x-oss-hash-crc64ecma | String | 154294152 181602747 58 | The 64-bit CRC value of the object. This value is calculated based on the ECMA-182 standard.<br>If an object is created before OSS supports CRC-64, this header may not be included in the response when you call HeadObject to query the metadata of the object. |
@@ -15962,7 +15962,7 @@ rviceClient.java:237)
 
 Cause: A possible cause is that the OSS Java SDK uses Apache httpclient 4.4.1, whereas your project uses a version of Apache httpclient or commons-httpclient that conflicts with Apache httpclient 4.4.1. To view the JAR package and its version that is used in your project, run the  `mvn dependency:tree`  command in the directory of the project. The following figure shows that the project uses Apache HttpClient 4.3.
 
-![](assets/9a8d652591806bdb42ebfaa5497f7339.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/9a8d652591806bdb42ebfaa5497f7339.png)
 
 Solution: Use one of the following methods to resolve JAR conflicts:
 
@@ -15972,7 +15972,7 @@ Solution: Use one of the following methods to resolve JAR conflicts:
 
 OSS SDK for Java is dependent on the following package versions. The solution to conflicts is similar to that for HttpClient.
 
-![](assets/394eec02debd357aabf4d4dd214f6d65.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/394eec02debd357aabf4d4dd214f6d65.png)
 
 **Missing packages**
 
@@ -16116,7 +16116,7 @@ Solution: Solve the network problem and try again.
 
 If a similar exception is displayed when you run OSS SDK for Java:
 
-![](assets/b8a447799974113b4c396103afed5d19.jpeg)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/b8a447799974113b4c396103afed5d19.jpeg)
 
 Cause: The preceding error may occur if expired connections are used. This error occurs only when a Java SDK version earlier than 2.1.2 is used.
 
@@ -16225,7 +16225,7 @@ Cause: Use the memory analysis tool to analyze the memory usage. We recommend th
 
 If the analysis result is similar to that shown in the following figure, PoolingHttpClientConnectionManager takes up 96% of memory. The cause is that the new OSSClient command is run multiple times while ossClient.shutdown is not called. As a result, memory leaks occur.
 
-![](assets/f3245c057f49cd7c15158d5f3f92fe96.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/f3245c057f49cd7c15158d5f3f92fe96.png)
 
 Solution: You must ensure that ossClient.shutdown is called after you run the new OSSClient command.
 
@@ -38759,7 +38759,7 @@ This topic describes how to obtain the endpoint of Object Storage Service (OSS) 
 
    icon in the **Service Registration**
 
-   ![](assets/310ea92fb5fa6ea06973a1b466eedbec.jpeg)
+   ![](en-cds-developer-guide-v3.18.6-20260629.assets/310ea92fb5fa6ea06973a1b466eedbec.jpeg)
 
    column, and then click the information that appears.
 
@@ -38825,7 +38825,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 5. In the **Apsara Stack AccessKey Pair** section, view your AccessKey pair.
 
-   ![](assets/1a25c90665319fc993e339c850a8a5f6.png)
+   ![](en-cds-developer-guide-v3.18.6-20260629.assets/1a25c90665319fc993e339c850a8a5f6.png)
 
    > **Note**
    >
@@ -39097,11 +39097,11 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
    icon to go to the **Help and Open Platform** page.
 
-   <img src="assets/c988a2fbb776e4c1118e52cd979c141f.png" width="17" alt="">
+   <img src="en-cds-developer-guide-v3.18.6-20260629.assets/c988a2fbb776e4c1118e52cd979c141f.png" width="17" alt="">
 
 3. In the top navigation bar, choose **References** > **API Debugging**.
 
-   ![](assets/31903ce5ecddda106bb3b4fecd05fadb.jpeg)
+   ![](en-cds-developer-guide-v3.18.6-20260629.assets/31903ce5ecddda106bb3b4fecd05fadb.jpeg)
 
 4. In the left-side navigation pane, select the desired cloud service. In the API list, you can view the names of all API operations of the current API version. If multiple API versions exist, you can select a required API version from the **Version** drop-down list.
 
@@ -39492,7 +39492,7 @@ The endpoint that you need to obtain varies depending on the EBS feature that yo
 
 2. In the left-side navigation pane, choose O&M Tools > Service Registration Variable Dashboard. On the **Service Registration Variable Dashboard** page, select **Service** from the drop-down list and enter **ECS** in the search box.
 
-3. Find the  `ecs-yaochi`  service, click the <img src="assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt=""> icon in the **Service Registration** column, and
+3. Find the  `ecs-yaochi`  service, click the <img src="en-cds-developer-guide-v3.18.6-20260629.assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt=""> icon in the **Service Registration** column, and
 
    then click the information that appears.
 
@@ -39522,7 +39522,7 @@ The endpoint that you need to obtain varies depending on the EBS feature that yo
 
 2. In the left-side navigation pane, choose O&M Tools > Service Registration Variable Dashboard. On the **Service Registration Variable Dashboard** page, select **Service** from the drop-down list and enter **EBS** in the search box.
 
-3. Find the EbsTiangangApi service, click the <img src="assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt=""> icon in the **Service Registration** column,
+3. Find the EbsTiangangApi service, click the <img src="en-cds-developer-guide-v3.18.6-20260629.assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt=""> icon in the **Service Registration** column,
 
    and then click the information that appears.
 
@@ -41768,7 +41768,7 @@ This operation uses common request headers. No special request headers are requi
 | EncryptAlg orithm | Strin g | Quer y | No | aes-256 | The encryption algorithm.Valid values:<br>• aes-256: uses the AES-256 algorithm.<br>• sm4-128: uses the SM4 Chinese cryptographic algorithm. |
 | StorageSet PartitionNu mber | Integ er | Quer y | No | 3 | The partition number of the storage set. This parameter is required when <code> StorageSetId </code> is specified. |
 
-![](assets/a4186f35e87738f04d9118556f5a3eb4.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/a4186f35e87738f04d9118556f5a3eb4.png)
 
 <table>
   <tr>
@@ -49243,7 +49243,7 @@ API calls to cloud services in Apsara Stack require an endpoint. You can obtain 
 
    The value of **sls_data.endpoint** is the  `Endpoint` . In general, the format of a Log Service endpoint is  `data.${global:region}.sls-pub.${global:internet-domain}` .
 
-   ![](assets/14b428a9ef4ceb505b03bb500006f1b2.jpeg)
+   ![](en-cds-developer-guide-v3.18.6-20260629.assets/14b428a9ef4ceb505b03bb500006f1b2.jpeg)
 
 **Method 2: Get endpoint from the console**
 
@@ -49255,7 +49255,7 @@ After you create a Project, you can find its domain name on the Project Overview
 
 3. On the **Project Overview** page, find the Project's domain name.
 
-![](assets/34997c3eac2116318ef475a3825244f9.jpeg)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/34997c3eac2116318ef475a3825244f9.jpeg)
 
 The private domain name is the endpoint. The Log Service endpoint is in the format  `data.${global:region}.sls-pub.${global:internet-domain}` .
 
@@ -50679,7 +50679,7 @@ Log Service SDK for Node.js allows developers to use Log Service by using Node.j
 
    Visit  `http://localhost:3000` . Then, access logs are generated.
 
-   ![](assets/c92f47aa6212ecdd2c2cd138a788c110.jpeg)
+   ![](en-cds-developer-guide-v3.18.6-20260629.assets/c92f47aa6212ecdd2c2cd138a788c110.jpeg)
 
 4. Write logs to Log Service.
 
@@ -50779,7 +50779,7 @@ Log Service SDK for Node.js allows developers to use Log Service by using Node.j
 
 5. View collected log data. In the Log Service console, find the Logstore in the project. Click the Logstore name, enter a query statement in the search box on the **Search & Analysis** page, and then click Search & Analyze to view log data. The following figure indicates that most page views (PVs) occurred between 18:30 and 19:00 on September 12 during the specified time range. You can record and display the PV statistics as a chart on your dashboard.
 
-   ![](assets/c34a24705a6781db52cfaab4d676f0ca.jpeg)
+   ![](en-cds-developer-guide-v3.18.6-20260629.assets/c34a24705a6781db52cfaab4d676f0ca.jpeg)
 
 <a id="section-3-3"></a>
 
@@ -50942,7 +50942,7 @@ The following figure shows the security verification process.
 
 Figure 1. Security verification process
 
-![](assets/8dd3b17c5d1d3dc03c571f6d9031ac75.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/8dd3b17c5d1d3dc03c571f6d9031ac75.png)
 
 The security verification process can also be used to perform the following operations:
 
@@ -52919,7 +52919,7 @@ Queries a cursor based on a point in time.
 
 You can use a cursor to obtain the location of a specific log. The following figure shows the relationships among a cursor, project, Logstore, and shard.
 
-![](assets/69b6f3b8f86e74019a4c70b3629c9462.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/69b6f3b8f86e74019a4c70b3629c9462.png)
 
 - Each project has multiple Logstores.
 
@@ -61956,7 +61956,7 @@ encrypt_conf = {
 
    On the **RAM Service Linked Role** page, find the AliyunLogAccessingKMSRole service role, and click **Details** to obtain the ARN of the RAM role.
 
-   ![](assets/f071f1d9824b0e3a9967c6efa8df14db.png)
+   ![](en-cds-developer-guide-v3.18.6-20260629.assets/f071f1d9824b0e3a9967c6efa8df14db.png)
 
    </li>
 
@@ -62016,7 +62016,7 @@ The following table describes the requirements for the values of these fields. T
 >
 > The key in the content field cannot be any of the following keywords:
 >
-> ![](assets/3fe249f93ba00a355b8418b6e0a83835.png)
+> ![](en-cds-developer-guide-v3.18.6-20260629.assets/3fe249f93ba00a355b8418b6e0a83835.png)
 >
 > `__time__` ,  `__source__` ,  `__topic__` ,  `__partition_time__` , and
 
@@ -63927,7 +63927,7 @@ The following table describes the required parameters of this command and the pa
 | --project_name | String | Yes | aliyun-test-project | The name of the project. |
 | --logstore_name | String | Yes | logstore-a | The name of the Logstore. |
 | --ttl | Integer | No | 30 | The data retention period.Unit: days. Valid values: 1 to<br>3650. If you set this parameter to 3650, data is permanently stored. |
-| --shard_count | Integer | No | 2 | The number of shards.<br><img src="assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important You cannot change the number of shards by running the update_logst ore command.To change the number of shards, you can call the SplitShard and MergeShards operations. |
+| --shard_count | Integer | No | 2 | The number of shards.<br><img src="en-cds-developer-guide-v3.18.6-20260629.assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important You cannot change the number of shards by running the update_logst ore command.To change the number of shards, you can call the SplitShard and MergeShards operations. |
 | --enable_tracking | Boolean | No | true | Specifies whether to enable the web tracking feature.Valid values:<br>• true<br>• false |
 | --append_meta | Boolean | No | false | Specifies whether to record public IP addresses. Valid values:<br>• true<br>• false |
 | --auto_split | Boolean | No | true | Specifies whether to enable automatic sharding. Valid values:<br>• true<br>• false |
@@ -66724,9 +66724,9 @@ The following table describes the required parameters of this command and the pa
 | --from_time | String | Yes | 2021-05-28 15:33:00+8:00 | The beginning of the time range to query. Specify the value as a UNIX timestamp or in the <code> "%Y-</code><code>%m-%d</code><br><code>%H:%M:%S&lt;time_z</code> <code>one&gt;" </code> format.Example: <code>"2018-01-02</code><br><code>12:12:10+8:00"</code><code> </code>. |
 | --to_time | String | Yes | 2021-05-28 15:40:00+8:00 | The end of the time range to query. Specify the value as a UNIX timestamp or in the <code> "%Y-</code><code>%m-%d</code><br><code>%H:%M:%S&lt;time_z</code> <code>one&gt;" </code> format.Example: <code>"2018-01-02</code><br><code>12:12:10+8:00"</code><code> </code>. |
 
-![](assets/bcc3956bf8a1e3a9f8fa44de6c94c4bf.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/bcc3956bf8a1e3a9f8fa44de6c94c4bf.png)
 
-![](assets/3728eed8e8622fd5c85aa32093ed6bc0.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/3728eed8e8622fd5c85aa32093ed6bc0.png)
 
 <table>
   <tr>
@@ -66744,14 +66744,14 @@ The following table describes the required parameters of this command and the pa
     <td>String</td>
     <td>No</td>
     <td><code>level:Informa</code><br><code>tion&#124;select</code><br><code>event_id as</code><br><code>Key1,COUNT(*)</code><br><code>as Key2 group</code><br><code>by Key1</code></td>
-    <td>The search statement or the query statement.For more information, see Log search <strong>overview</strong> and Log analysis <strong>overview</strong> in the Query and analysis topic of Log Service <strong>User Guide</strong>.<br>If you add <code> set </code> <code>session</code><br><code>parallel_sql=tr</code> <code>ue; </code> to the analytic statement in the query parameter, Dedicated SQL is used. For example, you can set the query parameter to <code> * </code> <code>&#124; set session</code><br><code>parallel_sql=tr</code><br><code>ue; select</code><br><code>count(*) as</code> <code>pv </code>.<br><img src="assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important If you specify an analytic statement in the <strong>query</strong> parameter, you must set the <strong>size</strong> and offset parameters to 0 and use the LIMIT clause to limit the number of logs to return on each page.</td>
+    <td>The search statement or the query statement.For more information, see Log search <strong>overview</strong> and Log analysis <strong>overview</strong> in the Query and analysis topic of Log Service <strong>User Guide</strong>.<br>If you add <code> set </code> <code>session</code><br><code>parallel_sql=tr</code> <code>ue; </code> to the analytic statement in the query parameter, Dedicated SQL is used. For example, you can set the query parameter to <code> * </code> <code>&#124; set session</code><br><code>parallel_sql=tr</code><br><code>ue; select</code><br><code>count(*) as</code> <code>pv </code>.<br><img src="en-cds-developer-guide-v3.18.6-20260629.assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important If you specify an analytic statement in the <strong>query</strong> parameter, you must set the <strong>size</strong> and offset parameters to 0 and use the LIMIT clause to limit the number of logs to return on each page.</td>
   </tr>
   <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td>Specifies whether to return logs in reverse chronological order of log timestamps. The log timestamps are accurate to the minute. Valid values:<br>• true: returns logs in reverse chronological order of log timestamps.<br>• false (default): returns logs in chronological order of log timestamps.<br><img src="assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important<br>• The rever se para mete r takes effect only when the query para mete r is set to a searc h state ment. The rever se para mete r speci fies the meth od used to sort retur ned logs.<br>• If the query para mete</td>
+    <td>Specifies whether to return logs in reverse chronological order of log timestamps. The log timestamps are accurate to the minute. Valid values:<br>• true: returns logs in reverse chronological order of log timestamps.<br>• false (default): returns logs in chronological order of log timestamps.<br><img src="en-cds-developer-guide-v3.18.6-20260629.assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important<br>• The rever se para mete r takes effect only when the query para mete r is set to a searc h state ment. The rever se para mete r speci fies the meth od used to sort retur ned logs.<br>• If the query para mete</td>
   </tr>
 </table>
 
@@ -66880,9 +66880,9 @@ The following table describes the required parameters of this command and the pa
 | --to_time | String | Yes | 2021-05-28 15:40:00+8:00 | The end of the time range to query. Specify the value as a UNIX timestamp or in the <code> "%Y-</code><code>%m-%d</code><br><code>%H:%M:%S&lt;time_z</code> <code>one&gt;" </code> format.Example: <code>"2018-01-02</code><br><code>12:12:10+8:00"</code><code> </code>. |
 | --topic | String | No | "" | The topic of the logs. For more information, see <strong>Topic</strong> in the Quick start topic of Log Service User <strong>Guide</strong>. |
 
-![](assets/361f8ac65bee234d39833445e6660ff9.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/361f8ac65bee234d39833445e6660ff9.png)
 
-![](assets/2b105207d6877edcb2d920872014bad9.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/2b105207d6877edcb2d920872014bad9.png)
 
 <table>
   <tr>
@@ -66890,7 +66890,7 @@ The following table describes the required parameters of this command and the pa
     <td>String</td>
     <td>No</td>
     <td><code>level:Informa</code><br><code>tion&#124;select</code><br><code>event_id as</code><br><code>Key1,COUNT(*)</code><br><code>as Key2 group</code><br><code>by Key1</code></td>
-    <td>The query statement. For more information, see Log search <strong>overview</strong> and Log analysis <strong>overview</strong> in the Query and analysis topic of Log Service <strong>User Guide</strong>.<br><img src="assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important If you specify an analytic statement in the <strong>query</strong> parameter, you must set the <strong>line</strong> and offset parameters to 0 and use the LIMIT clause to limit the number of logs to return on each page.</td>
+    <td>The query statement. For more information, see Log search <strong>overview</strong> and Log analysis <strong>overview</strong> in the Query and analysis topic of Log Service <strong>User Guide</strong>.<br><img src="en-cds-developer-guide-v3.18.6-20260629.assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important If you specify an analytic statement in the <strong>query</strong> parameter, you must set the <strong>line</strong> and offset parameters to 0 and use the LIMIT clause to limit the number of logs to return on each page.</td>
   </tr>
   <tr>
     <td>--reverse</td>
@@ -67039,9 +67039,9 @@ The following table describes the required parameters of this command and the pa
 | --to_time | String | Yes | 2021-06-01 18:18:00+8:00 | The end of the time range to query. Specify the value as a UNIX timestamp or in the <code> "%Y-</code><code>%m-%d</code><br><code>%H:%M:%S&lt;time_z</code> <code>one&gt;" </code> format.Example: <code>"2018-01-02</code><br><code>12:12:10+8:00"</code><code> </code>. |
 | --batch_size | String | No | 1000 | The number of logs to return for each request. |
 
-![](assets/66e5330fc84a580653f9d0124889af1b.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/66e5330fc84a580653f9d0124889af1b.png)
 
-![](assets/ba2b7a07f8911592a888ad82d83effb9.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/ba2b7a07f8911592a888ad82d83effb9.png)
 
 <table>
   <tr>
@@ -67273,9 +67273,9 @@ The following table describes the required parameters of this command and the pa
 | --batch_size | String | No | 1000 | The number of logs to return for each request. |
 | --compress | Boolean | No | true | Specifies whether to compress the returned logs.Valid values:<br>• true (default)<br>• false |
 
-![](assets/37b1e4003d7fb05eab1dabddb32a2b22.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/37b1e4003d7fb05eab1dabddb32a2b22.png)
 
-![](assets/215c66b265bcce68954d4f4c065867eb.png)
+![](en-cds-developer-guide-v3.18.6-20260629.assets/215c66b265bcce68954d4f4c065867eb.png)
 
 For more information about the global parameters of this command, see Global parameters.
 
@@ -68080,7 +68080,7 @@ For more information about the global parameters of this command, see Global par
 
   The following figure shows an example of a CSV file.
 
-  ![](assets/4713e35f576dcabeb7aceef505391af1.png)
+  ![](en-cds-developer-guide-v3.18.6-20260629.assets/4713e35f576dcabeb7aceef505391af1.png)
 
   For more information, see **Associate Log Service with external data sources** in **Log Service User Guide**.
 
@@ -68149,7 +68149,7 @@ For more information about the global parameters of this command, see Global par
 
     After the external data source is associated, you can execute the  `*|select * from oss-store-demo`  query statement in the Log Service console to query data in the data source.
 
-    ![](assets/5bcc88627a8bd3305048c957cd0b40da.png)
+    ![](en-cds-developer-guide-v3.18.6-20260629.assets/5bcc88627a8bd3305048c957cd0b40da.png)
 
 - **Associate Log Service with a database that is created on an ApsaraDB RDS for MySQL instance as an external data source**
 
@@ -68179,7 +68179,7 @@ For more information about the global parameters of this command, see Global par
 
   The following figure shows an example of a table.
 
-  ![](assets/9cb01d984c21f284d8d6b8b9516152ef.png)
+  ![](en-cds-developer-guide-v3.18.6-20260629.assets/9cb01d984c21f284d8d6b8b9516152ef.png)
 
   For more information, see **Associate Log Service with external data sources** in **Log Service User Guide**.
 
@@ -68229,7 +68229,7 @@ For more information about the global parameters of this command, see Global par
 
     After the external data source is associated, you can execute the  `*|select * from rds-vpc-mysql-store`  query statement in the Log Service console to query data in the data source.
 
-    ![](assets/57db0c9d5820e358f0c67a56f913e950.png)
+    ![](en-cds-developer-guide-v3.18.6-20260629.assets/57db0c9d5820e358f0c67a56f913e950.png)
 
 - **Associate Log Service with a local CSV file as an external data source**
 
@@ -68259,7 +68259,7 @@ For more information about the global parameters of this command, see Global par
 
   The following figure shows an example of a CSV file.
 
-  ![](assets/4713e35f576dcabeb7aceef505391af1.png)
+  ![](en-cds-developer-guide-v3.18.6-20260629.assets/4713e35f576dcabeb7aceef505391af1.png)
 
   For more information, see **Associate Log Service with external data sources** in **Log Service User Guide**.
 
@@ -68329,7 +68329,7 @@ For more information about the global parameters of this command, see Global par
 
     After the external data source is associated, you can execute the  `*|select * from doctest-local-csvfile`  query statement in the Log Service console to query data in the data source.
 
-    ![](assets/5bcc88627a8bd3305048c957cd0b40da.png)
+    ![](en-cds-developer-guide-v3.18.6-20260629.assets/5bcc88627a8bd3305048c957cd0b40da.png)
 
 **References**
 
@@ -68591,7 +68591,7 @@ For more information about the global parameters of this command, see Global par
 
    The following figure shows an example of a CSV file.
 
-   ![](assets/6e58977497c11298d98ebb912c9405ff.png)
+   ![](en-cds-developer-guide-v3.18.6-20260629.assets/6e58977497c11298d98ebb912c9405ff.png)
 
    For more information, see **Associate Log Service with external data sources** in **Log Service User Guide**.
 
@@ -68646,7 +68646,7 @@ For more information about the global parameters of this command, see Global par
 
      After the external data source is modified, you can execute the  `*|select * from oss-store-demo`  query statement in the Log Service console to query data in the data source.
 
-     ![](assets/684f40216c39946b767fe85fda40a8ce.png)
+     ![](en-cds-developer-guide-v3.18.6-20260629.assets/684f40216c39946b767fe85fda40a8ce.png)
 
 **References**
 
@@ -68837,7 +68837,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-cds-developer-guide-v3.18.6-20260629.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -68847,7 +68847,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 7. Click the operation that you want to call. Obtain the endpoint from the Endpoint parameter on the Parameter tab.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-cds-developer-guide-v3.18.6-20260629.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 <a id="section-4-1-3"></a>
 
@@ -68888,7 +68888,7 @@ To obtain a personal account's AccessKey, perform the following steps:
 
 3. In the **AccessKey Pair** area, you can view your individual account's AccessKey information.
 
-   ![](assets/d01e37fc99c93c1e70efe540198ddc0a.jpeg)
+   ![](en-cds-developer-guide-v3.18.6-20260629.assets/d01e37fc99c93c1e70efe540198ddc0a.jpeg)
 
    > **Note**
    >
@@ -71459,7 +71459,7 @@ To use the POP gateway to call API operations in Apsara Stack, you must obtain t
 
 4. On the **Service Cds-bcdr** page, select **Hdr#** in the **Widget List** area, and then click the **Registration Variables** tab on the right.
 
-   ![](assets/508604ebe7896fe62b89fb309fa57bf7.jpeg)
+   ![](en-cds-developer-guide-v3.18.6-20260629.assets/508604ebe7896fe62b89fb309fa57bf7.jpeg)
 
 5. On the **Registration Variables** tab, click the icon corresponding to the **hdr.openapi.endpoint** variable to view the endpoint information.
 

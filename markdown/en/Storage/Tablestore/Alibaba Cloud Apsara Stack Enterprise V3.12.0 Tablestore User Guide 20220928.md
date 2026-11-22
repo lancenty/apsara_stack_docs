@@ -252,7 +252,7 @@ Procedure
 
    - You can add up to 14 predefined columns. To deleted the predefined column you add, click
 
-     the <img src="assets/07e9fc04c52c04a8d526f887c8fa19ba.png" width="15" alt=""> icon on the left of the corresponding predefined column.
+     the <img src="en-tablestore-user-guide-v3.12.0-20220928.assets/07e9fc04c52c04a8d526f887c8fa19ba.png" width="15" alt=""> icon on the left of the corresponding predefined column.
 
    - The name of a predefined column must be 1 to 255 bytes in length and can contain letters, digits, and underscores (_). The name must start with a letter or underscore (_).
 
@@ -280,7 +280,7 @@ Procedure
 
    After a table is created, you can view the table in the Table List section. If the created table is not
 
-   displayed in the list of tables, click the <img src="assets/98bc4a32cda0e2d868d4931d8729f0d1.png" width="32" alt=""> icon to refresh the list of tables.
+   displayed in the list of tables, click the <img src="en-tablestore-user-guide-v3.12.0-20220928.assets/98bc4a32cda0e2d868d4931d8729f0d1.png" width="32" alt=""> icon to refresh the list of tables.
 
    After a table is created, you can perform the following operations on the table:
 
@@ -290,7 +290,7 @@ Procedure
 
      - On the Data Editor tab, you can insert or update data, query data, view data details, and delete multiple data at a time.
 
-       <img src="assets/48314151a97cee0e83ef05c34033aada.png" width="17" alt="">
+       <img src="en-tablestore-user-guide-v3.12.0-20220928.assets/48314151a97cee0e83ef05c34033aada.png" width="17" alt="">
 
    - Click the
 
@@ -342,7 +342,7 @@ You can update data in the attribute columns of a row.
 
 5. In the Update dialog box that appears, modify the type and value for the primary key, add or remove attribute columns, and update or delete data in attribute columns.
 
-   - You can click +Add Column to add an attribute column. You can also click the <img src="assets/07e9fc04c52c04a8d526f887c8fa19ba.png" width="15" alt=""> icon to delete
+   - You can click +Add Column to add an attribute column. You can also click the <img src="en-tablestore-user-guide-v3.12.0-20220928.assets/07e9fc04c52c04a8d526f887c8fa19ba.png" width="15" alt=""> icon to delete
 
      an attribute column.
 

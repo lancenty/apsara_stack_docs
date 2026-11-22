@@ -70,7 +70,7 @@ If maintenance personnel require assistance, contact Alibaba Cloud technical sup
 
 This topic describes the O&M architecture of API Gateway.
 
-![](assets/9769883a2d6da03c953d1ea5cd15dce9.jpeg)
+![](en-api-gateway-operations-guide-v3.18.6-2607-20260828.assets/9769883a2d6da03c953d1ea5cd15dce9.jpeg)
 
 As shown in the preceding figure, the O&M mainly focuses on the base console, the tenant-side control plane, and the data plane.
 
@@ -98,7 +98,7 @@ This topic describes the O&M process for API Gateway.
 
 Log in to the OPS server and run  `kubectl get pod -n csb-cop`  to check if the gateway management component pods are in a terminal state.
 
-![](assets/f03f32bd31c63915e129e3a050107b3a.jpeg)
+![](en-api-gateway-operations-guide-v3.18.6-2607-20260828.assets/f03f32bd31c63915e129e3a050107b3a.jpeg)
 
 **Inspect gateway customer cluster component pods**
 
@@ -124,7 +124,7 @@ Log in to the OPS server and run  `kubectl get pod -n csb-cop`  to check if the 
 
 3. Run  `ls`  to view the log files.
 
-   ![](assets/76ea47140a666074109332c5ab2bc639.jpeg)
+   ![](en-api-gateway-operations-guide-v3.18.6-2607-20260828.assets/76ea47140a666074109332c5ab2bc639.jpeg)
 
    > **Note**
    >
@@ -145,7 +145,7 @@ kubectl logs <higress-gateway-pod-name> -n higress-system
 kubectl logs <cop-gateway-pod-name> -n apigateway-system
 ```
 
-![](assets/b3a3d1c3691ba22f92620d1182a4142e.jpeg)
+![](en-api-gateway-operations-guide-v3.18.6-2607-20260828.assets/b3a3d1c3691ba22f92620d1182a4142e.jpeg)
 
 **Gateway route management**
 
@@ -155,7 +155,7 @@ Run the following command:
 kubectl get ingress -n higress-system
 ```
 
-![](assets/d1d4dfc76c7529614b968b9d5c46233e.jpeg)
+![](en-api-gateway-operations-guide-v3.18.6-2607-20260828.assets/d1d4dfc76c7529614b968b9d5c46233e.jpeg)
 
 **Gateway plugin management**
 
@@ -165,7 +165,7 @@ Run the following command:
 kubectl get wasmplugin -n higress-system
 ```
 
-![](assets/25f83577496bc2e367262055abd8774b.jpeg)
+![](en-api-gateway-operations-guide-v3.18.6-2607-20260828.assets/25f83577496bc2e367262055abd8774b.jpeg)
 
 <a id="section-3"></a>
 
@@ -177,7 +177,7 @@ This topic describes common issues with API Gateway and their solutions.
 
 The  `deployment/higress-gateway`  data plane component typically handles a large volume of traffic. Therefore, issues with this component can have a wide impact and require quick diagnosis.
 
-![](assets/17e6a0600e6908e77462ebce9646ec1a.png)
+![](en-api-gateway-operations-guide-v3.18.6-2607-20260828.assets/17e6a0600e6908e77462ebce9646ec1a.png)
 
 - **Determine which node generated the response**
 

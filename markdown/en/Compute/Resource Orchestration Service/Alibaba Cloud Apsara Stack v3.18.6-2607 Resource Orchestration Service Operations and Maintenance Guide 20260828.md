@@ -103,7 +103,7 @@ RabbitMQ clusters are used to receive requests from the API Sever and responses 
     /usr/local/sbin/rabbitmq-server/sbin/rabbitmqctl cluster_status 
     ```
 
-    ![](assets/04e24588e63180c9741bd92ffd883781.jpeg)
+    ![](en-ros-operations-guide-v3.18.6-2607-20260828.assets/04e24588e63180c9741bd92ffd883781.jpeg)
 
     - `Nodes` : indicates the nodes in the cluster.
 
@@ -121,7 +121,7 @@ RabbitMQ clusters are used to receive requests from the API Sever and responses 
     /usr/local/sbin/rabbitmqctl list_vhosts 
     ```
 
-    ![](assets/f1b6428095690ac693e831971b029ddf.jpeg)
+    ![](en-ros-operations-guide-v3.18.6-2607-20260828.assets/f1b6428095690ac693e831971b029ddf.jpeg)
 
     Typically, there are two virtual hosts. One is displayed as a forward slash (/), and the other is named based on the region where it resides.
 

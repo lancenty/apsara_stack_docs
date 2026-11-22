@@ -128,7 +128,7 @@ This topic describes how to find the required developer guide when you call an A
 
 You can follow the procedure described in the following figure to view the specific developer guide.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-cloud-security-scanner-developer-guide-v3.18.6-20260701.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -156,7 +156,7 @@ Apsara Stack allows you to call API operations by using the POP gateway. To ensu
 
 **Flowchart**
 
-![](assets/27a14c1fdbadd2d9298565190c14de9a.png)
+![](en-cloud-security-scanner-developer-guide-v3.18.6-20260701.assets/27a14c1fdbadd2d9298565190c14de9a.png)
 
 **Procedure**
 
@@ -286,7 +286,7 @@ The API information on the debugging page in the Apsara Uni-manager Management C
 
 3. In the top navigation bar of the OpenAPI Explorer page, choose **API** **Integration** > **API Debugging**.
 
-   ![](assets/31903ce5ecddda106bb3b4fecd05fadb.jpeg)
+   ![](en-cloud-security-scanner-developer-guide-v3.18.6-20260701.assets/31903ce5ecddda106bb3b4fecd05fadb.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage. In the API operation list, you can view all API operations of the current version. If multiple API versions exist, you can select the required API version from the **Version** drop-down list.
 
@@ -329,7 +329,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-cloud-security-scanner-developer-guide-v3.18.6-20260701.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -547,13 +547,13 @@ To use the POP gateway to call the API operations of a cloud service, you must s
 
 4. Enter sas-securityoperationscentercluster in the **Product | Cluster** search box. Then, click **Cluster Details** in the Actions column.
 
-   ![](assets/40f609025678c5ec6ab2d493080848af.png)
+   ![](en-cloud-security-scanner-developer-guide-v3.18.6-20260701.assets/40f609025678c5ec6ab2d493080848af.png)
 
 5. On the **Services** tab, click the name of the service.
 
 6. Click **yundun-soc** in the **Components** pane. Then, click the **Registration Variables** tab and enter yundunsoc.pop.endpoint in the search box to obtain the endpoint of the service.
 
-   ![](assets/e2871ea4b00a7e803d4a339cc171cc08.png)
+   ![](en-cloud-security-scanner-developer-guide-v3.18.6-20260701.assets/e2871ea4b00a7e803d4a339cc171cc08.png)
 
 7. The endpoint of a cloud service is in the following format:
 

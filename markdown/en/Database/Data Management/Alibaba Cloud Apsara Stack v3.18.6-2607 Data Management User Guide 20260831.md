@@ -253,7 +253,7 @@ This topic describes how to log on to the Data Management (DMS) console. Google 
    >
    > icon in the upper-right corner
    >
-   > <img src="assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt="">
+   > <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt="">
    >
    > and select **Switch tenant** to switch to another tenant.
 
@@ -1270,7 +1270,7 @@ To meet the requirements of different users, DMS allows you to customize the lay
 
    icon to view the items that you
 
-   <img src="assets/15478d87dc671e56003f8fa39e5da039.png" width="15" alt="">
+   <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/15478d87dc671e56003f8fa39e5da039.png" width="15" alt="">
 
    can configure.
 
@@ -1278,16 +1278,16 @@ To meet the requirements of different users, DMS allows you to customize the lay
 
    | Section | Description |
    | --- | --- |
-   | Drop-down Menus in Top Navigation Bar | • By default, the <strong>Drop-down Menus in Top Navigation Bar</strong> switch is turned off. You can turn on the switch.<br>• If you turn on Drop-down Menus in Top Navigation Bar and move the pointer over a tab in the top navigation bar, a drop-down list appears. You can access each feature by clicking the name of the feature in the drop-down list with ease.<br>![](assets/18b5aea998064ddd8693da45505c3e5b.png)<br>Note If you turn off Drop-down Menus in Top Navigation Bar, no drop-down lists appear when you move the pointer over to a tab in the top navigation bar. You can access each feature only by clicking the name of the feature in the left-side navigation pane. |
+   | Drop-down Menus in Top Navigation Bar | • By default, the <strong>Drop-down Menus in Top Navigation Bar</strong> switch is turned off. You can turn on the switch.<br>• If you turn on Drop-down Menus in Top Navigation Bar and move the pointer over a tab in the top navigation bar, a drop-down list appears. You can access each feature by clicking the name of the feature in the drop-down list with ease.<br>![](en-dms-user-guide-v3.18.6-2607-20260831.assets/18b5aea998064ddd8693da45505c3e5b.png)<br>Note If you turn off Drop-down Menus in Top Navigation Bar, no drop-down lists appear when you move the pointer over to a tab in the top navigation bar. You can access each feature only by clicking the name of the feature in the left-side navigation pane. |
 
    <table>
      <tr>
        <td>Shortcuts</td>
-       <td>• By default, the Shortcuts switch is turned on.<br>• If you turn on Shortcuts, you can click Shortcuts below the top navigation bar to add the features that you regularly use to the section on the right side of Shortcuts. You can add features to or remove features from the section on the right side of Shortcuts by performing the following operations:<br>a. In the upper-left corner of the DMS console, move the pointer over <strong>Shortcuts</strong>.<br>b.<br>• In the shortcut menu that appears, click the<img src="assets/6003b998015ae657a72539ba82d109da.png" width="11" alt="">icon to the right of a<br>feature to add the feature to the section on the right side of Shortcuts.<br>• Click the<img src="assets/efee16d57d72f19ddcf243553d872d68.png" width="13" alt="">icon to the right of a feature to remove the feature from the<br>section on the right side of Shortcuts.<br><img src="assets/a2931be451589f0bbcda98de4f455a6f.png" alt=""></td>
+       <td>• By default, the Shortcuts switch is turned on.<br>• If you turn on Shortcuts, you can click Shortcuts below the top navigation bar to add the features that you regularly use to the section on the right side of Shortcuts. You can add features to or remove features from the section on the right side of Shortcuts by performing the following operations:<br>a. In the upper-left corner of the DMS console, move the pointer over <strong>Shortcuts</strong>.<br>b.<br>• In the shortcut menu that appears, click the<img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/6003b998015ae657a72539ba82d109da.png" width="11" alt="">icon to the right of a<br>feature to add the feature to the section on the right side of Shortcuts.<br>• Click the<img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/efee16d57d72f19ddcf243553d872d68.png" width="13" alt="">icon to the right of a feature to remove the feature from the<br>section on the right side of Shortcuts.<br><img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/a2931be451589f0bbcda98de4f455a6f.png" alt=""></td>
      </tr>
      <tr>
        <td>Show Tabs</td>
-       <td>• By default, the Show Tabs switch is turned on.<br>• If you turn on Show Tabs, you can view and use multiple features. Each feature is displayed on a tab. You can drag the tabs to adjust the order in which the tabs are displayed.<br><img src="assets/057adc9ed974e6c6e72e214a0badb8f7.png" alt=""><br>Note If you turn off Show Tabs, you can view and use only one feature at a time. The feature that you view and use is displayed on a tab.</td>
+       <td>• By default, the Show Tabs switch is turned on.<br>• If you turn on Show Tabs, you can view and use multiple features. Each feature is displayed on a tab. You can drag the tabs to adjust the order in which the tabs are displayed.<br><img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/057adc9ed974e6c6e72e214a0badb8f7.png" alt=""><br>Note If you turn off Show Tabs, you can view and use only one feature at a time. The feature that you view and use is displayed on a tab.</td>
      </tr>
    </table>
 
@@ -1295,11 +1295,11 @@ To meet the requirements of different users, DMS allows you to customize the lay
 
    - Blue, which is the default skin
 
-     ![](assets/894c7ba949d66c97bcf70839ea4dcd88.png)
+     ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/894c7ba949d66c97bcf70839ea4dcd88.png)
 
    - Dark
 
-     ![](assets/1b13d71a8633d2aae6e62a5d42903720.png)
+     ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/1b13d71a8633d2aae6e62a5d42903720.png)
 
 <a id="section-4-2"></a>
 
@@ -1329,11 +1329,11 @@ Data Management (DMS) provides the global search feature to allow you to quickly
    >
    > icon in the
    >
-   > <img src="assets/01942640d850a12966f126f1b300d50c.png" width="18" alt="">
+   > <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/01942640d850a12966f126f1b300d50c.png" width="18" alt="">
    >
    > upper-left corner of the DMS console and choose **All Features > Data Assets > Global Search**.
 
-3. Enter a keyword, such as a database or table name, into the search box and click <img src="assets/72d994cf2ff5e05ec4b4b58006629efd.png" width="20" alt=""> .
+3. Enter a keyword, such as a database or table name, into the search box and click <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/72d994cf2ff5e05ec4b4b58006629efd.png" width="20" alt=""> .
 
 <a id="section-4-3"></a>
 
@@ -1363,19 +1363,19 @@ As the business develops and the number of tables increases, Data Management DMS
    >
    > are not added to categories belong to this category.
 
-5. On the right side of a category, move the pointer over the <img src="assets/fa910308ed2024289e7f21094588672c.png" width="19" alt=""> icon and perform an
+5. On the right side of a category, move the pointer over the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/fa910308ed2024289e7f21094588672c.png" width="19" alt=""> icon and perform an
 
    operation to manage the category. You can perform the following operations:
 
    - **Modify the name of a category**
 
-     To modify the name of a category, move the pointer over the <img src="assets/fa910308ed2024289e7f21094588672c.png" width="19" alt=""> icon and select
+     To modify the name of a category, move the pointer over the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/fa910308ed2024289e7f21094588672c.png" width="19" alt=""> icon and select
 
      **Change**.
 
    - **Create a subcategory**
 
-     To create a subcategory, move the pointer over the <img src="assets/fa910308ed2024289e7f21094588672c.png" width="19" alt=""> icon and select **Create**
+     To create a subcategory, move the pointer over the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/fa910308ed2024289e7f21094588672c.png" width="19" alt=""> icon and select **Create**
 
      **Subcategory**.
 
@@ -1383,7 +1383,7 @@ As the business develops and the number of tables increases, Data Management DMS
 
    - **Delete a category**
 
-     To delete a category, move the pointer over the <img src="assets/fa910308ed2024289e7f21094588672c.png" width="19" alt=""> icon and select **Delete**.
+     To delete a category, move the pointer over the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/fa910308ed2024289e7f21094588672c.png" width="19" alt=""> icon and select **Delete**.
 
      > **Note**
      >
@@ -1407,7 +1407,7 @@ Each table can be added to only one category. If you add a table to another cate
    >
    > icon on the left side of the
    >
-   > <img src="assets/ecd4c83951a3e9dbf6e7b906263fa063.png" width="14" alt="">
+   > <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/ecd4c83951a3e9dbf6e7b906263fa063.png" width="14" alt="">
    >
    > category.
 
@@ -1441,7 +1441,7 @@ You are a database administrator (DBA) or a DMS administrator.
 
 > **Note**
 >
-> To view the role of your account, move the pointer over the <img src="assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt=""> icon in the
+> To view the role of your account, move the pointer over the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt=""> icon in the
 >
 > upper-right corner of the DMS console.
 
@@ -1701,7 +1701,7 @@ You are granted the query permissions on the database or tables that you want to
 
 **GUI of the SQL Console page**
 
-![](assets/ebb693c2a08b04cde7157fcf4b335c47.png)
+![](en-dms-user-guide-v3.18.6-2607-20260831.assets/ebb693c2a08b04cde7157fcf4b335c47.png)
 
 | No. | Section | Description |
 | --- | --- | --- |
@@ -1970,7 +1970,7 @@ The following table describes the risk audit items that are contained in risk au
    >
    > icon
    >
-   > <img src="assets/99c9b93ee01b012c6946d1d5bbc3913b.png" width="19" alt="">
+   > <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/99c9b93ee01b012c6946d1d5bbc3913b.png" width="19" alt="">
    >
    > and select **Risk Audit**.
 
@@ -2016,7 +2016,7 @@ In view of this, DMS provides the **super SQL mode** feature. If you enable this
 
    icon. In the dialog box that
 
-   <img src="assets/77a2baf29eb73b3246d747074517cc2f.png" width="25" alt="">
+   <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/77a2baf29eb73b3246d747074517cc2f.png" width="25" alt="">
 
    appears, click **OK**.
 
@@ -2245,7 +2245,7 @@ You can use the schema synchronization feature to synchronize schemas and ensure
 
 3. Specify the required parameters for a schema synchronization ticket.
 
-   ![](assets/98df9808cee163dbe6485cee79ff8a1f.png)
+   ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/98df9808cee163dbe6485cee79ff8a1f.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -2386,7 +2386,7 @@ You can use this feature to synchronize the schemas of databases that are deploy
    | --- | --- |
    | Source Database | The name of the source database from which you want to synchronize schemas. You must have the query permissions on the source database. |
    | Target Database | The name of the destination database to which you want to synchronize schemas. You must have the change permissions on the destination database.<br>Note The type of the destination database must be the same as the type of the source database. |
-   | Initialized Table | The one or more tables whose schemas you want to synchronize. Valid values:<br>• <strong>Partial Tables</strong>: synchronizes the schemas of some of the tables in the<br>source database. You can also click the<img src="assets/466da2441ef30d297ab5f84edc3dc2db.png" width="13" alt="">icon to add more tables.<br>• <strong>All Tables</strong>: synchronizes the schemas of all tables in the source database. |
+   | Initialized Table | The one or more tables whose schemas you want to synchronize. Valid values:<br>• <strong>Partial Tables</strong>: synchronizes the schemas of some of the tables in the<br>source database. You can also click the<img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/466da2441ef30d297ab5f84edc3dc2db.png" width="13" alt="">icon to add more tables.<br>• <strong>All Tables</strong>: synchronizes the schemas of all tables in the source database. |
    | Whether to Ignore Error | • <strong>Not Ignore</strong>: If an error occurs when SQL statements are being executed in serial mode, DMS stops executing the current and remaining SQL statements.<br>• <strong>Ignore</strong>: If an error occurs when SQL statements are being executed, DMS stops executing the current SQL statement and continues to execute the next statement until all remaining SQL statements are executed. |
    | Business Background(Remarks) | The purpose or objective of the initialization operation. |
 
@@ -2444,7 +2444,7 @@ The table inconsistency repair feature of Data Management (DMS) allows you to co
    | --- | --- |
    | Base Database(Physical Database) | The source database for table inconsistency repair. You must have the query permissions on the source database. |
    | Target Database | The destination database for table inconsistency repair. You must have the change permissions on the destination database. |
-   | Repaired Table | The name of the table that you want to repair. You can click the<img src="assets/466da2441ef30d297ab5f84edc3dc2db.png" width="13" alt="">icon to<br>add more tables.<br>Note If you do not specify the destination table name, DMS names the destination table after the name of the specified source table. |
+   | Repaired Table | The name of the table that you want to repair. You can click the<img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/466da2441ef30d297ab5f84edc3dc2db.png" width="13" alt="">icon to<br>add more tables.<br>Note If you do not specify the destination table name, DMS names the destination table after the name of the specified source table. |
    | Whether to Ignore Error | • <strong>Not Ignore</strong>: If an error occurs when SQL statements are being executed in serial mode, DMS stops executing the current and remaining SQL statements.<br>• <strong>Ignore</strong>: If an error occurs when SQL statements are being executed, DMS skips the current SQL statement and continues to execute the subsequent SQL statement until all remaining SQL statements are executed. |
    | Business Background(Remar ks) | The purpose or objective of the table inconsistency repair. Enter a detailed description to reduce unnecessary communication. |
 
@@ -2563,7 +2563,7 @@ The data import feature of Data Management (DMS) allows you to import large amou
 
 3. On the Data Change Tickets page, configure the parameters that are described in the following table for the Large Data Import ticket.
 
-   ![](assets/9b263c657397d711cf2b121b5c88c660.png)
+   ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/9b263c657397d711cf2b121b5c88c660.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -2938,21 +2938,21 @@ DMS provides the DevOps feature. This feature allows you to specify participants
 
    - Modify the basic information about the project.
 
-     - To modify the name of the project, click the <img src="assets/3f918f499af5e4e665f3248f7246981c.png" width="10" alt=""> icon next to the project name.
+     - To modify the name of the project, click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/3f918f499af5e4e665f3248f7246981c.png" width="10" alt=""> icon next to the project name.
 
-     - To modify the description of the project, click the <img src="assets/3f918f499af5e4e665f3248f7246981c.png" width="10" alt=""> icon next to **Project Description**.
+     - To modify the description of the project, click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/3f918f499af5e4e665f3248f7246981c.png" width="10" alt=""> icon next to **Project Description**.
 
      - To add or remove databases that are available in the project, click **View** next to **Available Databases**.
 
        - To add available databases to the project, select the databases that you want to add
 
-         in the **All Databases** section and click the <img src="assets/0a2b2b3cc010474cebae2fb90183da49.png" width="37" alt=""> icon. Then, the databases are
+         in the **All Databases** section and click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/0a2b2b3cc010474cebae2fb90183da49.png" width="37" alt=""> icon. Then, the databases are
 
          displayed in the **Available Databases** section.
 
        - To remove available databases from the project, select the databases that you want
 
-         to remove in the **Available Databases** section and click the <img src="assets/e0109b88a62e64ba675ca80a614de951.png" width="37" alt=""> icon. The
+         to remove in the **Available Databases** section and click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/e0109b88a62e64ba675ca80a614de951.png" width="37" alt=""> icon. The
 
          databases are removed from the **Available Databases** section.
 
@@ -2960,13 +2960,13 @@ DMS provides the DevOps feature. This feature allows you to specify participants
 
        - To add available iteration templates to the project, select the iteration templates
 
-         that you want to add in the **All Iteration Templates** section and click the <img src="assets/0a2b2b3cc010474cebae2fb90183da49.png" width="37" alt="">
+         that you want to add in the **All Iteration Templates** section and click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/0a2b2b3cc010474cebae2fb90183da49.png" width="37" alt="">
 
          icon. Then, the iteration templates are displayed in the **Available Iteration Templates** section.
 
        - To remove available iteration templates from the project, select the iteration templates that you want to remove in the **Available Iteration Templates** section
 
-         and click the <img src="assets/e0109b88a62e64ba675ca80a614de951.png" width="37" alt=""> icon. The iteration templates are removed from the **Available**
+         and click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/e0109b88a62e64ba675ca80a614de951.png" width="37" alt=""> icon. The iteration templates are removed from the **Available**
 
          **Iteration Templates** section.
 
@@ -3028,7 +3028,7 @@ The iteration template feature of Data Management (DMS) allows you to customize 
      >
      > allowed to create an iteration stage.
 
-   - To modify the name of an iterative stage, click the <img src="assets/a48d6c3d0cef399a34a9ba38533cfa4d.png" width="12" alt=""> icon next to it.
+   - To modify the name of an iterative stage, click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/a48d6c3d0cef399a34a9ba38533cfa4d.png" width="12" alt=""> icon next to it.
 
      > **Note**
      >
@@ -3036,7 +3036,7 @@ The iteration template feature of Data Management (DMS) allows you to customize 
      >
      > and **Product**. These two stages can be modified and deleted.
 
-   - To delete an iterative stage, click the <img src="assets/51f911dc8c982384cc37c58e679f4e9e.png" width="14" alt=""> icon next to its name. In the dialog box that
+   - To delete an iterative stage, click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/51f911dc8c982384cc37c58e679f4e9e.png" width="14" alt=""> icon next to its name. In the dialog box that
 
      appears, click **OK**.
 
@@ -3698,7 +3698,7 @@ The databases to be used in a data flow must be of the following types:
    >
    > icon in the
    >
-   > <img src="assets/01942640d850a12966f126f1b300d50c.png" width="18" alt="">
+   > <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/01942640d850a12966f126f1b300d50c.png" width="18" alt="">
    >
    > upper-left corner and choose **All Features > Data+AI > Data Integration > Batch Integration**.
 
@@ -3836,7 +3836,7 @@ The databases to be used in a data flow must be of the following types:
 
    the Data Filtering node, and then drag the connection line to the **Data Output** node.
 
-   Then, the <img src="assets/bbb4352c59cc143e16f5fefa3e62d3f9.png" width="14" alt=""> icon on the right side of the nodes disappears. This indicates that the
+   Then, the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/bbb4352c59cc143e16f5fefa3e62d3f9.png" width="14" alt=""> icon on the right side of the nodes disappears. This indicates that the
 
    dependencies of the nodes in the data flow are configured.
 
@@ -3880,12 +3880,12 @@ When you configure a task node in a task flow, you can configure some or all of 
 
 | Parameter | Description |
 | --- | --- |
-| Variable Name | The name of the custom time variable.<br>Note To delete a configured variable, click the<img src="assets/41e567dd46003006c19127b93ad945f1.png" width="14" alt="">icon. |
+| Variable Name | The name of the custom time variable.<br>Note To delete a configured variable, click the<img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/41e567dd46003006c19127b93ad945f1.png" width="14" alt="">icon. |
 
 <table>
   <tr>
     <td>Variable Rule</td>
-    <td>The time format and time offset configurations of the custom time variable.<br>• <strong>Time Format</strong>: the required time format of the time variable. For more information about time formats, see the Time formats section of this topic.<br>• Time offset: A time variable is defined based on the value of the bizdate variable that indicates one day before the current date.<br>For example, you have created a variable named <code> 6_month_ago </code> in the yyyy-MM-dd format and set the offset to "- 6 Month". In this case, if the current date is August 12, 2021, the value of the <code> ${6_month_ago} </code> variable is 2021-02-11, which indicates February 11, 2021.<br><img src="assets/098b8b027b416ad8ffc52d0621c58c92.png" alt=""><br>Note After you configure a time variable, you can reference the variable in the <code> ${Variable name} </code> format in the SQL statement that you enter in the SQL editor to the right of the Variable Setting tab. You can also click <strong>SQLPreview</strong> to view the value of the time variable.</td>
+    <td>The time format and time offset configurations of the custom time variable.<br>• <strong>Time Format</strong>: the required time format of the time variable. For more information about time formats, see the Time formats section of this topic.<br>• Time offset: A time variable is defined based on the value of the bizdate variable that indicates one day before the current date.<br>For example, you have created a variable named <code> 6_month_ago </code> in the yyyy-MM-dd format and set the offset to "- 6 Month". In this case, if the current date is August 12, 2021, the value of the <code> ${6_month_ago} </code> variable is 2021-02-11, which indicates February 11, 2021.<br><img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/098b8b027b416ad8ffc52d0621c58c92.png" alt=""><br>Note After you configure a time variable, you can reference the variable in the <code> ${Variable name} </code> format in the SQL statement that you enter in the SQL editor to the right of the Variable Setting tab. You can also click <strong>SQLPreview</strong> to view the value of the time variable.</td>
   </tr>
 </table>
 
@@ -4166,7 +4166,7 @@ Data Management (DMS) provides the data service feature, which allows you to exp
 
 **Features**
 
-![](assets/0c5d19f2492c990e665e33cca0ce5f99.png)
+![](en-dms-user-guide-v3.18.6-2607-20260831.assets/0c5d19f2492c990e665e33cca0ce5f99.png)
 
 - You can use the data service feature to create APIs that can be called to access the data that is managed by DMS. When you create the APIs, you can apply the security control features that are used for SQL execution in the SQLConsole, such as permission control and data de-identification.
 
@@ -4343,7 +4343,7 @@ After you create an API, you can test the API to verify whether the API meets yo
 
 4. On the APITest tab, test an API.
 
-   ![](assets/52885e60dbad8eda7c888918b4bec4b3.png)
+   ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/52885e60dbad8eda7c888918b4bec4b3.png)
 
    <ol type="i">
 
@@ -4397,7 +4397,7 @@ After you create, publish, and test an API, you can call the API in an applicati
 
 4. View the API call address and the authentication information.
 
-   ![](assets/bf092da92710540ac416e35a0d44f90b.png)
+   ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/bf092da92710540ac416e35a0d44f90b.png)
 
    - **Simple identity authentication**: requires only an AppCode. This authentication method is suitable for calling APIs by using URLs. This authentication method has a low security level and is generally used in scenarios in which data visualization is involved, such as calling APIs in DataV.
 
@@ -4519,7 +4519,7 @@ A dataset is a collection of data in the form of a two-dimensional table. The da
 
    icon.
 
-   <img src="assets/00fffe3470ad44c019c336093ed10efe.png" width="16" alt="">
+   <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/00fffe3470ad44c019c336093ed10efe.png" width="16" alt="">
 
 4. In the **Writing SQL** step, set the parameters and click **Execute**.
 
@@ -4557,7 +4557,7 @@ A dataset is a collection of data in the form of a two-dimensional table. The da
 
    icon in the **Operation** column.
 
-   <img src="assets/53c89f6134cce8609fd0622625624e2c.png" width="16" alt="">
+   <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/53c89f6134cce8609fd0622625624e2c.png" width="16" alt="">
 
 4. In the **Writing SQL** step, configure the SQL query statement and click **Execute**. For more information about how to set the other parameters in the **Writing SQL** step, see Create a dataset.
 
@@ -4577,7 +4577,7 @@ A dataset is a collection of data in the form of a two-dimensional table. The da
 
    icon in the **Operation** column.
 
-   <img src="assets/2fbcfe070fe3b1c43315b9ee2da32453.png" width="16" alt="">
+   <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/2fbcfe070fe3b1c43315b9ee2da32453.png" width="16" alt="">
 
 4. In the message that appears, click **OK**.
 
@@ -4597,7 +4597,7 @@ A dataset is a collection of data in the form of a two-dimensional table. The da
 
    icon in the **Operation** column.
 
-   <img src="assets/56ed51db7d607eb8d3ab00f6e5c66116.png" width="26" alt="">
+   <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/56ed51db7d607eb8d3ab00f6e5c66116.png" width="26" alt="">
 
 4. In the **Share** dialog box, specify the permissions to be granted on the dataset and the users to whom you want to grant the permissions. Then, click **Authorize**.
 
@@ -4611,7 +4611,7 @@ Each chart must be associated with a dataset. In the chart editor, the original 
 
 **Chart editor**
 
-![](assets/3d22f549a1ed8304281bda2ae7773ab4.png)
+![](en-dms-user-guide-v3.18.6-2607-20260831.assets/3d22f549a1ed8304281bda2ae7773ab4.png)
 
 The following table describes the three sections of the chart editor.
 
@@ -4783,7 +4783,7 @@ On the **Settings** tab of the chart configuration section, you can configure a 
 
    icon.
 
-   <img src="assets/00fffe3470ad44c019c336093ed10efe.png" width="16" alt="">
+   <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/00fffe3470ad44c019c336093ed10efe.png" width="16" alt="">
 
 5. Configure the dataset and the chart.
 
@@ -4799,7 +4799,7 @@ On the **Settings** tab of the chart configuration section, you can configure a 
 
 4. On the **Chart management** page, find the chart that you want to modify and click the
 
-   <img src="assets/53c89f6134cce8609fd0622625624e2c.png" width="16" alt="">
+   <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/53c89f6134cce8609fd0622625624e2c.png" width="16" alt="">
 
    icon in the **Operation** column.
 
@@ -4815,7 +4815,7 @@ On the **Settings** tab of the chart configuration section, you can configure a 
 
 4. On the **Chart management** page, find the chart that you want to delete and click the
 
-   <img src="assets/2fbcfe070fe3b1c43315b9ee2da32453.png" width="16" alt="">
+   <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/2fbcfe070fe3b1c43315b9ee2da32453.png" width="16" alt="">
 
    icon in the **Operation** column.
 
@@ -4849,7 +4849,7 @@ On the **Settings** tab of the chart configuration section, you can configure a 
 
    icon in the **Operations** column.
 
-   <img src="assets/56ed51db7d607eb8d3ab00f6e5c66116.png" width="26" alt="">
+   <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/56ed51db7d607eb8d3ab00f6e5c66116.png" width="26" alt="">
 
 5. In the dialog box that appears, select the user to which you want to grant permissions and the permissions to be granted.
 
@@ -4877,7 +4877,7 @@ Dashboards are the other type of visualization applications that are provided by
 
 **Add a chart to a dashboard**
 
-1. In a dashboard, click the <img src="assets/00fffe3470ad44c019c336093ed10efe.png" width="16" alt=""> icon in the upper-right corner. The New Chart dialog box
+1. In a dashboard, click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/00fffe3470ad44c019c336093ed10efe.png" width="16" alt=""> icon in the upper-right corner. The New Chart dialog box
 
    appears, which contains the list of available charts.
 
@@ -4893,7 +4893,7 @@ Dashboards are the other type of visualization applications that are provided by
 
 **Configure a chart**
 
-- To refresh data in a chart, click the <img src="assets/f564e777e996d772070337fea5f6953a.png" width="16" alt=""> icon in the upper-right corner of the chart to trigger
+- To refresh data in a chart, click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/f564e777e996d772070337fea5f6953a.png" width="16" alt=""> icon in the upper-right corner of the chart to trigger
 
   a query and synchronize data.
 
@@ -4903,11 +4903,11 @@ Dashboards are the other type of visualization applications that are provided by
   >
   > you click this icon.
 
-- To edit a chart, click the <img src="assets/2054d6c0437c6f7f999a1d273fbc0336.png" width="16" alt=""> icon in the upper-right corner of the chart.
+- To edit a chart, click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/2054d6c0437c6f7f999a1d273fbc0336.png" width="16" alt=""> icon in the upper-right corner of the chart.
 
-- To view a chart in full screen, click the <img src="assets/991a9f7e3a69b7d1a672db6cecdff942.png" width="16" alt=""> icon in the upper-right corner of the chart.
+- To view a chart in full screen, click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/991a9f7e3a69b7d1a672db6cecdff942.png" width="16" alt=""> icon in the upper-right corner of the chart.
 
-- To change the data refresh mode of a chart or delete a chart, click the <img src="assets/d1694e9f1217da3cd265ec2630226d47.png" width="16" alt=""> icon in the upper-
+- To change the data refresh mode of a chart or delete a chart, click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/d1694e9f1217da3cd265ec2630226d47.png" width="16" alt=""> icon in the upper-
 
   right corner of the chart and select Basic information or Delete as required.
 
@@ -4923,7 +4923,7 @@ Dashboards are the other type of visualization applications that are provided by
 
 **Configure filter interactions**
 
-You can configure filter interactions between charts in the same dashboard. Click the <img src="assets/3039a3828173cc8712b1ff4d8aff13d4.png" width="16" alt=""> icon
+You can configure filter interactions between charts in the same dashboard. Click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/3039a3828173cc8712b1ff4d8aff13d4.png" width="16" alt=""> icon
 
 in the upper-right corner of a dashboard. The Linkage relationship settings dialog box appears.
 
@@ -4947,7 +4947,7 @@ in the upper-right corner of a dashboard. The Linkage relationship settings dial
 
 You can configure global filters for a dashboard. Global filters allow you to filter data, within
 
-one or across multiple charts, by defining filter conditions or replacing variables. Click the <img src="assets/2732c5500bc6abfa9c3aab140e91f0d9.png" width="16" alt="">
+one or across multiple charts, by defining filter conditions or replacing variables. Click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/2732c5500bc6abfa9c3aab140e91f0d9.png" width="16" alt="">
 
 icon in the upper-right corner of a dashboard. The Global filter settings dialog box appears.
 
@@ -4957,7 +4957,7 @@ icon in the upper-right corner of a dashboard. The Global filter settings dialog
 
 - **Filter list**
 
-  In the **Global filter settings** dialog box, click the plus sign ( <img src="assets/b94d59d430263cd1abdb54389283d89c.png" width="16" alt=""> ) to the right of Filter list. A
+  In the **Global filter settings** dialog box, click the plus sign ( <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/b94d59d430263cd1abdb54389283d89c.png" width="16" alt=""> ) to the right of Filter list. A
 
   global filter is created with the default name: New Filter. To rename or delete the filter, move the pointer over the filter name and click the corresponding icon that appears to the right of the filter name.
 
@@ -5115,7 +5115,7 @@ To perform drilling in a chart, select the chart elements that you want to drill
 
 4. In the **Dashboard** section of the **Resource management** page, find the dashboard collection that you want to delete.
 
-5. Click the <img src="assets/121544610185b287e4609c7bc46cad5a.png" width="18" alt=""> icon.
+5. Click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/121544610185b287e4609c7bc46cad5a.png" width="18" alt=""> icon.
 
 6. In the message that appears, click **OK**.
 
@@ -5129,7 +5129,7 @@ Dashboards and big screens are designed for different purposes. Dashboards are u
 
 **Big screen editor**
 
-![](assets/e2f0f5d9e1e620ea1100656d4b9932c6.png)
+![](en-dms-user-guide-v3.18.6-2607-20260831.assets/e2f0f5d9e1e620ea1100656d4b9932c6.png)
 
 | No. | GUI element |
 | --- | --- |
@@ -5141,7 +5141,7 @@ Dashboards and big screens are designed for different purposes. Dashboards are u
 
 **Toolbar**
 
-![](assets/be40874a9747eec4bf786df03bed8110.png)
+![](en-dms-user-guide-v3.18.6-2607-20260831.assets/be40874a9747eec4bf786df03bed8110.png)
 
 | No. | GUI element | Description |
 | --- | --- | --- |
@@ -5347,7 +5347,7 @@ The content that is displayed in the parameter settings panel varies with the la
 
 4. In the **Big Screen** section of the **Resource management** page, find the big screen that you want to delete.
 
-5. Click the <img src="assets/121544610185b287e4609c7bc46cad5a.png" width="18" alt=""> icon.
+5. Click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/121544610185b287e4609c7bc46cad5a.png" width="18" alt=""> icon.
 
 6. In the message that appears, click **OK**.
 
@@ -6923,7 +6923,7 @@ Advanced Database & Application Migration (ADAM) allows you to use application p
 
    icon in the upper-right corner of the panel.
 
-   <img src="assets/4d415a407749a6c69aad57b1cec1b541.png" width="18" alt="">
+   <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/4d415a407749a6c69aad57b1cec1b541.png" width="18" alt="">
 
 8. Select the added database profile and click **Create**. The application profile is created based on the intelligent analysis results of data files. This process takes 1 to 10 minutes.
 
@@ -6973,7 +6973,7 @@ An application profile consists of the following four parts:
   >
   > - Use the authorization feature properly. You are responsible for profile disclosures caused by improper authorization if you authorize other users to access a profile.
 
-- **Delete**: To delete the profile, find the profile that you want to delete, click the <img src="assets/d2342c82f322cb9df90f5b47de66d35b.png" width="22" alt=""> icon in
+- **Delete**: To delete the profile, find the profile that you want to delete, click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/d2342c82f322cb9df90f5b47de66d35b.png" width="22" alt=""> icon in
 
   the Actions column, and then select **Delete**.
 
@@ -7123,7 +7123,7 @@ The periodic SQL collection feature allows you to continuously collect informati
      sh collect_11g_cycle.sh -h <ip> -u <username> -p <password> -d <service_name> -c <cron>
      ```
 
-     ![](assets/6e45ccd0c3015a85ec016c3155c85d2b.jpeg)
+     ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/6e45ccd0c3015a85ec016c3155c85d2b.jpeg)
 
    - If the source Oracle database is a container database (CDB) and its version is 12c or later, run the following command:
 
@@ -7131,7 +7131,7 @@ The periodic SQL collection feature allows you to continuously collect informati
      sh collect_12c_cycle.sh -h <ip> -u <username> -p <password> -d <service_name> -s <sid> -c <cron>
      ```
 
-     ![](assets/288c543a152dc9442400164ce3d1c81f.jpeg)
+     ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/288c543a152dc9442400164ce3d1c81f.jpeg)
 
    > **Note**
    >
@@ -7334,7 +7334,7 @@ Before SQL Adapter is deployed, make sure that ADAM V5.0 is installed.
 
 4. Configure the source database and destination PolarDB database.
 
-   ![](assets/523655c05a285db538318bc97289f2e3.jpeg)
+   ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/523655c05a285db538318bc97289f2e3.jpeg)
 
    > **Note**
    >
@@ -7554,7 +7554,7 @@ You can apply for the query, change, and export permissions on a database, table
 
 4. Configure the parameters of the ticket to apply for permissions.
 
-   ![](assets/a5c0b83655971c831b09eca71ea5b8c8.png)
+   ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/a5c0b83655971c831b09eca71ea5b8c8.png)
 
    <ol type="i">
 
@@ -8032,7 +8032,7 @@ end
 
 Security rule sets are implemented by using a collection of domain-specific languages (DSLs) to control user access to databases based on several factors. These factors include the type of databases, the syntax of database operations, and the number of affected rows. You can use security rule sets to standardize database operations, development processes, and approval processes as required.
 
-![](assets/7fb948122541c0dd95e712b8797c1af4.png)
+![](en-dms-user-guide-v3.18.6-2607-20260831.assets/7fb948122541c0dd95e712b8797c1af4.png)
 
 This topic describes the features that are supported by security rule sets. You can click the link of a feature to view the information about the feature. The information includes the basic configuration items, checkpoints, factors, actions, and supported statements or commands.
 
@@ -9183,7 +9183,7 @@ Data Management (DMS) integrates the SQL review and optimization feature into se
     </tr>
   </table>
 
-![](assets/07f9d51ccd3af6a38d90f98629772c7c.png)
+![](en-dms-user-guide-v3.18.6-2607-20260831.assets/07f9d51ccd3af6a38d90f98629772c7c.png)
 
 <table>
   <tr>
@@ -9193,7 +9193,7 @@ Data Management (DMS) integrates the SQL review and optimization feature into se
   </tr>
 </table>
 
-![](assets/7846d81213e0560b699bf5f109bcbe77.png)
+![](en-dms-user-guide-v3.18.6-2607-20260831.assets/7846d81213e0560b699bf5f109bcbe77.png)
 
 **Data change**
 
@@ -9208,7 +9208,7 @@ Data Management (DMS) integrates the SQL review and optimization feature into se
   </tr>
 </table>
 
-![](assets/c83877f262a50b05967779518a046e18.png)
+![](en-dms-user-guide-v3.18.6-2607-20260831.assets/c83877f262a50b05967779518a046e18.png)
 
 <table>
   <tr>
@@ -9298,7 +9298,7 @@ secondary databases and in Data Transmission Service (DTS) tasks. The latency ca
   <tr>
     <td>Lock-free schema change s</td>
     <td>Parameters to Control Lock-free Schema Change</td>
-    <td>You can turn on the switch of a runtime parameter and change the value to control lock-free schema change.<br>You can modify the following runtime parameters:<br>• Table Lock Timeout Period During Table Switchover (Seconds)<br>• Retries<br>• Full Copy Policy and Size<br>• Time Window for Table Switchover<br>• Cleanup Policy After Table Switchover<br>Note<br>• In most cases, you do not need to manually modify the runtime parameters. DMS automatically performs lock-free schema changes in the optimal and most secure way. Before you modify the runtime parameters, make sure that you understand the descriptions of the parameters.<br>• Move the pointer over the<img src="assets/acbaddae61eea25a906152c213ff625e.png" width="14" alt="">icons next to the<br>parameters to view the descriptions.</td>
+    <td>You can turn on the switch of a runtime parameter and change the value to control lock-free schema change.<br>You can modify the following runtime parameters:<br>• Table Lock Timeout Period During Table Switchover (Seconds)<br>• Retries<br>• Full Copy Policy and Size<br>• Time Window for Table Switchover<br>• Cleanup Policy After Table Switchover<br>Note<br>• In most cases, you do not need to manually modify the runtime parameters. DMS automatically performs lock-free schema changes in the optimal and most secure way. Before you modify the runtime parameters, make sure that you understand the descriptions of the parameters.<br>• Move the pointer over the<img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/acbaddae61eea25a906152c213ff625e.png" width="14" alt="">icons next to the<br>parameters to view the descriptions.</td>
   </tr>
 </table>
 
@@ -9645,7 +9645,7 @@ This topic describes how to customize an approval process and specify multiple D
 
    After the approval template is created, you can view the template ID. In this example, the template ID is 9.
 
-   ![](assets/55ea20b2636924794473ad1e355a8472.png)
+   ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/55ea20b2636924794473ad1e355a8472.png)
 
 5. Apply the approval process to a security rule.
 
@@ -9687,7 +9687,7 @@ This topic describes how to customize an approval process and specify multiple D
 
    In the **Rule DSL** field, change the template ID.
 
-   ![](assets/f48cae0b8ba25abc08b99a0387c5156b.png)
+   ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/f48cae0b8ba25abc08b99a0387c5156b.png)
 
    > **Note**
    >
@@ -9848,7 +9848,7 @@ The following table describes the roles that you can assume to use the operation
 
 | Auditing dimension | Limits | Link to operation audit | Supported role |
 | --- | --- | --- | --- |
-| Database | You can view and audit only the operations that are performed on the current database. | • On the SQLConsole tab of the database that you want<br>to audit, click the<img src="assets/99c9b93ee01b012c6946d1d5bbc3913b.png" width="19" alt="">icon<br>in the upper-right corner.<br>• In the left-side navigation pane of the DMS console, click the instance to which the database you want to audit belongs, right-click the database, and then choose Audit &gt; <strong>Operation</strong> <strong>Audit</strong>. | You can be a DMS administrator, a security administrator, a DBA, an instance owner, or a regular user.<br>Note If you are a regular user, you can view and audit only the operations that you performed on the current database. |
+| Database | You can view and audit only the operations that are performed on the current database. | • On the SQLConsole tab of the database that you want<br>to audit, click the<img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/99c9b93ee01b012c6946d1d5bbc3913b.png" width="19" alt="">icon<br>in the upper-right corner.<br>• In the left-side navigation pane of the DMS console, click the instance to which the database you want to audit belongs, right-click the database, and then choose Audit &gt; <strong>Operation</strong> <strong>Audit</strong>. | You can be a DMS administrator, a security administrator, a DBA, an instance owner, or a regular user.<br>Note If you are a regular user, you can view and audit only the operations that you performed on the current database. |
 | Instance | You can view and audit only the operations that are performed on the current instance. | In the left-side navigation pane of the DMS console, right-click the instance that you want to audit and choose Audit &gt; <strong>Operation Audit</strong>. | You can be a DMS administrator, a security administrator, a DBA, an instance owner, or a regular user.<br>Note If you are a regular user, you can view and audit only the operations that you performed on the current instance. |
 | Global | You can view and audit all the operations that are performed in DMS. | In the top navigation bar, click <strong>Security and</strong> <strong>Specifications</strong>. In the left-side navigation pane, click <strong>Operation Audit</strong>. | You can be a DMS administrator, a security administrator, or a DBA. |
 
@@ -9868,7 +9868,7 @@ This example shows you how to view and download all the SQL statements that are 
 
    icon to download the results.
 
-   <img src="assets/ac0ee6ed36889b68393b2d9da6891c4b.png" width="17" alt="">
+   <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/ac0ee6ed36889b68393b2d9da6891c4b.png" width="17" alt="">
 
    Then, DMS exports an XLSX file that contains the search results displayed on the current page.
 
@@ -9912,7 +9912,7 @@ When you query a table that contains sensitive or confidential fields on which a
 
    <li>
 
-   In the left-side database instance list, click the <img src="assets/103f9696862a9b70330a722044e3c706.png" width="18" alt=""> icon next to the required database
+   In the left-side database instance list, click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/103f9696862a9b70330a722044e3c706.png" width="18" alt=""> icon next to the required database
 
    instance to show the databases in the instance.
 
@@ -9930,7 +9930,7 @@ When you query a table that contains sensitive or confidential fields on which a
 
    icon next to the table name to show the table details.
 
-   <img src="assets/c7b1915311437763edd38400f41b227b.png" width="15" alt="">
+   <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/c7b1915311437763edd38400f41b227b.png" width="15" alt="">
 
    </li>
 
@@ -9944,7 +9944,7 @@ When you query a table that contains sensitive or confidential fields on which a
 
    In the Adjust Security Level dialog box, change the security levels of fields.
 
-   ![](assets/5e8608ffe3f7731cfc40d01f985fdf20.png)
+   ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/5e8608ffe3f7731cfc40d01f985fdf20.png)
 
    </li>
 
@@ -9974,7 +9974,7 @@ When you query a table that contains sensitive or confidential fields on which a
 
 5. In the dialog box that appears, configure a masking algorithm.
 
-   ![](assets/6b9c9755323aa7e80d2eea8c22d755e7.png)
+   ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/6b9c9755323aa7e80d2eea8c22d755e7.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -10025,7 +10025,7 @@ Data Management (DMS) provides the sensitive data protection feature. You can us
 
 The sensitive data protection feature helps you effectively detect and protect sensitive data assets in your enterprise. This prevents sensitive data from being abused or leaked. The following figure shows the architecture of the sensitive data protection feature.
 
-![](assets/10d1254cf079bd8ea2b271183ceb5a2f.png)
+![](en-dms-user-guide-v3.18.6-2607-20260831.assets/10d1254cf079bd8ea2b271183ceb5a2f.png)
 
 **Features**
 
@@ -10099,7 +10099,7 @@ If a database contains sensitive data, you can enable the sensitive data protect
 
   > **Note**
   >
-  > To view the role of your account, move the pointer over the <img src="assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt=""> icon in the
+  > To view the role of your account, move the pointer over the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt=""> icon in the
   >
   > upper-right corner of the DMS console.
 
@@ -10159,7 +10159,7 @@ You are a Data Management (DMS) administrator, a database administrator (DBA), o
 
 > **Note**
 >
-> To view the role of your account, move the pointer over the <img src="assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt=""> icon in the
+> To view the role of your account, move the pointer over the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt=""> icon in the
 >
 > upper-right corner of the DMS console.
 
@@ -10177,7 +10177,7 @@ You are a Data Management (DMS) administrator, a database administrator (DBA), o
 
      <li>
 
-     Click the <img src="assets/466da2441ef30d297ab5f84edc3dc2db.png" width="13" alt=""> icon to the left of a database. All fields of the database are displayed.
+     Click the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/466da2441ef30d297ab5f84edc3dc2db.png" width="13" alt=""> icon to the left of a database. All fields of the database are displayed.
 
      </li>
 
@@ -10320,7 +10320,7 @@ You are a DMS administrator, a database administrator (DBA), or a security admin
 
 > **Note**
 >
-> To view the role of your account, move the pointer over the <img src="assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt=""> icon in the
+> To view the role of your account, move the pointer over the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt=""> icon in the
 >
 > upper-right corner of the DMS console.
 
@@ -10372,7 +10372,7 @@ You are a DMS administrator, a database administrator (DBA), or a security admin
 
 > **Note**
 >
-> To view the role of your account, move the pointer over the <img src="assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt=""> icon in the
+> To view the role of your account, move the pointer over the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt=""> icon in the
 >
 > upper-right corner of the DMS console.
 
@@ -10490,7 +10490,7 @@ You are a DMS administrator, a database administrator (DBA), or a security admin
 
 > **Note**
 >
-> To view the role of your account, move the pointer over the <img src="assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt=""> icon in the
+> To view the role of your account, move the pointer over the <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt=""> icon in the
 >
 > upper-right corner of the DMS console.
 
@@ -10504,7 +10504,7 @@ Row-level access control is used to provide horizontal data protection for table
 >
 > a control value that corresponds to multiple rows, the user has permissions on all the rows that correspond to the control value.
 
-![](assets/c67c5365ce9ffc1249ef31e88267a992.png)
+![](en-dms-user-guide-v3.18.6-2607-20260831.assets/c67c5365ce9ffc1249ef31e88267a992.png)
 
 **Usage notes**
 
@@ -10585,7 +10585,7 @@ Row-level access control is used to provide horizontal data protection for table
 
    following table.
 
-   ![](assets/00bd2876ad6d7ac53f526172319fac0b.png)
+   ![](en-dms-user-guide-v3.18.6-2607-20260831.assets/00bd2876ad6d7ac53f526172319fac0b.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -10685,7 +10685,7 @@ Identification information is embedded into data or a file as a watermark to ide
    >
    > icon in
    >
-   > <img src="assets/0495696ec919016912fde2dd458c94a5.png" width="25" alt="">
+   > <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/0495696ec919016912fde2dd458c94a5.png" width="25" alt="">
    >
    > the upper-left corner and choose **All functions > Database Development > Data Export > SQL Result Set Export**.
 
@@ -10749,7 +10749,7 @@ DMS provides the watermark extraction feature that allows you to check whether f
    >
    > icon in
    >
-   > <img src="assets/0495696ec919016912fde2dd458c94a5.png" width="25" alt="">
+   > <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/0495696ec919016912fde2dd458c94a5.png" width="25" alt="">
    >
    > the upper-left corner and choose **All functions > Security and Specifications > Data Watermark**.
 
@@ -10933,7 +10933,7 @@ Add a user to the DMS tenant of your Alibaba Cloud account.
    >
    > icon in the upper-right
    >
-   > <img src="assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt="">
+   > <img src="en-dms-user-guide-v3.18.6-2607-20260831.assets/e57f1be361fe31d72748b391a4d5bdaa.png" width="22" alt="">
    >
    > corner of the DMS console.
 

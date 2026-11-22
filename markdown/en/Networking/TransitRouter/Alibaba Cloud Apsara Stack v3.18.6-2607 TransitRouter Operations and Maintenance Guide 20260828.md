@@ -33,7 +33,7 @@ This topic describes how users such as O&M engineers log on to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-transit-router-operations-guide-v3.18.6-2607-20260828.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -85,7 +85,7 @@ Virtual machines (VMs) that run on physical machines have their own IP addresses
 
 4. On the **CEN-TR Clusters** page, view the **node information** and **aggregate metrics**.
 
-   ![](assets/2443ba017928a03c75e7c13ccb45b2a4.jpeg)
+   ![](en-transit-router-operations-guide-v3.18.6-2607-20260828.assets/2443ba017928a03c75e7c13ccb45b2a4.jpeg)
 
    - **Node Information**: Select a cluster from the **Cluster** drop-down list. The information about the selected cluster is displayed, including the **node IP address**, **hostname**, and **status**.
 
@@ -122,9 +122,9 @@ Virtual machines (VMs) that run on physical machines have their own IP addresses
 
 In the **Node Information** list, find the node that you want to view and click **Details** in the **Operation** column. On the **TR Node** page, view the monitoring data of the node within a specific period of time, including the **traffic**, **CPU utilization**, and **memory usage**.
 
-![](assets/6a88675e5ed340d97faf73de9d2ac71c.jpeg)
+![](en-transit-router-operations-guide-v3.18.6-2607-20260828.assets/6a88675e5ed340d97faf73de9d2ac71c.jpeg)
 
-![](assets/6804e135b7bb393dfb3f00cb387fd32f.jpeg)
+![](en-transit-router-operations-guide-v3.18.6-2607-20260828.assets/6804e135b7bb393dfb3f00cb387fd32f.jpeg)
 
 The following table describes the key monitoring metrics.
 
@@ -249,7 +249,7 @@ On the CEN workflows page, you can view the workflow event details and relevant 
 
 5. View the **basic information** and **procedure details** about the workflow.
 
-   ![](assets/2ef3f41b03eaaf6cfa4274fbba7687ed.jpeg)
+   ![](en-transit-router-operations-guide-v3.18.6-2607-20260828.assets/2ef3f41b03eaaf6cfa4274fbba7687ed.jpeg)
 
    - **Basic information**: displays the following parameters: **Event ID**, **UID**, **ContextNameSpace**, **NameSpace**, **Instance ID**, **SourceNameSpace**, **Current status**, **Processing times**, and **Event information details**.
 
@@ -265,4 +265,4 @@ On the CEN workflows page, you can view the workflow event details and relevant 
 | --- | --- |
 | Terminate a workflow | 1. In the <strong>Basic information</strong> section, click <strong>Terminate</strong> in the upper-right corner.<br>2. In the message that appears, click <strong>OK</strong>. |
 | Re-push a workflow | When the event status of a workflow is not in the <strong>Succeed</strong> state, you can perform a retry on the workflow.<br>1. In the <strong>Basic information</strong> section, click <strong>Re-push</strong> in the upper-right corner.<br>2. In the message that appears, click <strong>OK</strong>. |
-| Skip a workflow | 1. In the <strong>Basic information</strong> section, click <strong>Jump</strong> in the upper-right corner.<br>2. In the dialog box that appears, configure the Select Jump Method and Steps to Jump parameters.<br>![](assets/f800ced356043c685ca2c26402903abd.jpeg)<br>• <strong>Select Jump Method</strong>: Select a skip method. Valid values: <strong>Previous</strong> <strong>Step</strong>, <strong>Next</strong>, and <strong>Specify Steps</strong>.<br>• <strong>Steps to Jump</strong>: Enter the number of steps to skip.<br>This parameter takes effect and is required if you set the Select Jump Method parameter to <strong>Specify Steps</strong>.<br>3. Click <strong>OK</strong>. |
+| Skip a workflow | 1. In the <strong>Basic information</strong> section, click <strong>Jump</strong> in the upper-right corner.<br>2. In the dialog box that appears, configure the Select Jump Method and Steps to Jump parameters.<br>![](en-transit-router-operations-guide-v3.18.6-2607-20260828.assets/f800ced356043c685ca2c26402903abd.jpeg)<br>• <strong>Select Jump Method</strong>: Select a skip method. Valid values: <strong>Previous</strong> <strong>Step</strong>, <strong>Next</strong>, and <strong>Specify Steps</strong>.<br>• <strong>Steps to Jump</strong>: Enter the number of steps to skip.<br>This parameter takes effect and is required if you set the Select Jump Method parameter to <strong>Specify Steps</strong>.<br>3. Click <strong>OK</strong>. |

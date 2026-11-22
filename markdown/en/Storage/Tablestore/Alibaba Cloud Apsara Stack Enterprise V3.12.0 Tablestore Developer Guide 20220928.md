@@ -8652,9 +8652,9 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 5. In the Apsara Stack AccessKey Pair section, view your AccessKey pair.
 
-   ![](assets/1a25c90665319fc993e339c850a8a5f6.png)
+   ![](en-tablestore-developer-guide-v3.12.0-20220928.assets/1a25c90665319fc993e339c850a8a5f6.png)
 
-   ![](assets/155627b9d5c37adfc9344ba1e3ce57ea.png)
+   ![](en-tablestore-developer-guide-v3.12.0-20220928.assets/155627b9d5c37adfc9344ba1e3ce57ea.png)
 
    Note
 

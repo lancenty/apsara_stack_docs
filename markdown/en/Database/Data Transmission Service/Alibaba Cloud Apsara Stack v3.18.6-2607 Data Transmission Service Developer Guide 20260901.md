@@ -253,9 +253,9 @@ When you use a service SDK to call an API operation of the service, you must obt
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-dts-developer-guide-v3.18.6-2607-20260901.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
-4. Click the <img src="assets/69a9f57a449ed4dc636405c5aa013e19.png" width="19" alt=""> icon in the upper-left corner of the page and choose **Database > Data**
+4. Click the <img src="en-dts-developer-guide-v3.18.6-2607-20260901.assets/69a9f57a449ed4dc636405c5aa013e19.png" width="19" alt=""> icon in the upper-left corner of the page and choose **Database > Data**
 
    **Transmission Service**.
 
@@ -306,7 +306,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of the personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-dts-developer-guide-v3.18.6-2607-20260901.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -583,7 +583,7 @@ To use the POP gateway to call API operations in Apsara Stack, you must specify 
 
 4. On the **Service Registration Variable Dashboard** page, select **Service** from the drop-down list and enter  `dts-dts`  in the search box.
 
-5. In the **Service Registration** column of the  `dts-dts`  service, click the <img src="assets/5b660c6e173643fa39a47b18bd1bc480.png" width="21" alt=""> icon to show
+5. In the **Service Registration** column of the  `dts-dts`  service, click the <img src="en-dts-developer-guide-v3.18.6-2607-20260901.assets/5b660c6e173643fa39a47b18bd1bc480.png" width="21" alt=""> icon to show
 
    the hidden content and then click the content.
 
@@ -1186,7 +1186,7 @@ OpenSSL support in Python is required for sending HTTPS requests by using the SD
 
 Run the  `python -c "import ssl"`  command to check whether your Python environment supports OpenSSL. If the following error message is not displayed, OpenSSL is supported:
 
-![](assets/80970f33d4158cc2a63730d0b43729eb.png)
+![](en-dts-developer-guide-v3.18.6-2607-20260901.assets/80970f33d4158cc2a63730d0b43729eb.png)
 
 If OpenSSL is not installed in your Python environment, run the following command to install OpenSSL:
 
@@ -1554,7 +1554,7 @@ The following example shows how to use the DTS SDK for Go to initiate a request.
    Client.Domain = "dts.aliyuns.com" // Specify the requested domain name. This value isfor reference only. Replace the value with the actual domain name.
    ```
 
-   ![](assets/79d45d882b427e35a95fdaec101d5246.png)
+   ![](en-dts-developer-guide-v3.18.6-2607-20260901.assets/79d45d882b427e35a95fdaec101d5246.png)
 
 3. Use xxx.CreateXXXRequest to create a request.  The naming convention for this method is  `${service}. Create${apiName}Request` . Take note of the following variables:
 

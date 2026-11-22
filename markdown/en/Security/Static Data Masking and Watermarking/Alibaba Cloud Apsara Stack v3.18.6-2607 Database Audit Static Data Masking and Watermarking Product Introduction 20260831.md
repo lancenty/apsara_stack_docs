@@ -511,7 +511,7 @@ DMS divides a data masking process into four steps: discover sensitive data, sor
 
 The following figure shows the product architecture:
 
-![](assets/11596b2c5f7d384b469235bdeb57c011.png)
+![](en-static-data-masking-product-introduction-v3.18.6-2607-20260831.assets/11596b2c5f7d384b469235bdeb57c011.png)
 
 Research/Teaching
 

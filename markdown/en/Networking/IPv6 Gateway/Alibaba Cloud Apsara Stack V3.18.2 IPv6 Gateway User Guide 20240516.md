@@ -65,11 +65,11 @@ Bandwidth
 
 Enabled
 
-![](assets/0f67c8c246ccee6460fdb4712e9a6ba4.png)
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/0f67c8c246ccee6460fdb4712e9a6ba4.png)
 
-![](assets/3bba36d26d905d5b4861b5eb71945630.png)
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/3bba36d26d905d5b4861b5eb71945630.png)
 
-![](assets/b4410a5e4be254f29fd195a47f3d517c.png)
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/b4410a5e4be254f29fd195a47f3d517c.png)
 
 vRouter
 
@@ -137,7 +137,7 @@ If you enable IPv6 for an existing VPC, the VPC supports both IPv4 and IPv6. Ass
 
 ECS instances for which IPv4 and IPv6 are enabled can use IPv4 addresses or IPv6 addresses to communicate with other resources in the VPC. Communication over IPv4 and IPv6 are independent of each other. The ECS instances cannot use IPv6 addresses to access the Internet or provide services to IPv6 clients over the Internet.
 
-![](assets/e499042bf3025d9c882583dbc50f0731.png)
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/e499042bf3025d9c882583dbc50f0731.png)
 
 VPC (With IPv4 and IPv6 Enabled)
 
@@ -145,11 +145,11 @@ IPv6
 
 Gateway
 
-![](assets/dbdca4629303c005e7e55aad655483a3.png)
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/dbdca4629303c005e7e55aad655483a3.png)
 
 Enabled)
 
-![](assets/f3b93bb900af727dbf0da15b27f6b32f.png)
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/f3b93bb900af727dbf0da15b27f6b32f.png)
 
 **Scenario 2: Enable ECS instances in a VPC to communicate with the Internet by using IPv6 addresses**
 
@@ -157,7 +157,7 @@ After you enable IPv6 Internet bandwidth for the IPv6 addresses of the ECS insta
 
 The ECS instances in the VPC can use IPv4 addresses to communicate with the IPv4 clients over the Internet over elastic IP addresses, Server Load Balancer (SLB) instances, and NAT gateways.
 
-![](assets/f558a488c482272b2424621eaa983d25.png)
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/f558a488c482272b2424621eaa983d25.png)
 
 IPv6 Ser
 
@@ -169,11 +169,9 @@ IPv6
 
 IPv6
 
-![](assets/96feab5ecf5eb5a5a97da540ca9b7837.png)
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/96feab5ecf5eb5a5a97da540ca9b7837.png)
 
-![](assets/cfe2529407ec17f8f9241e8a2a06568c.png)
-
-Traffic
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/cfe2529407ec17f8f9241e8a2a06568c.png)
 
 Traffic
 
@@ -181,7 +179,9 @@ Traffic
 
 Traffic
 
-![](assets/3773267e25b61269d87f3710aa40bfa8.png)
+Traffic
+
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/3773267e25b61269d87f3710aa40bfa8.png)
 
 VPC (With IPv4
 
@@ -195,7 +195,7 @@ IPv6 Gateway
 
 and IPv6 Enabled)
 
-![](assets/d96880cd9d204395de197c83a44a0a0a.png)
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/d96880cd9d204395de197c83a44a0a0a.png)
 
 and IPv6 Enabled)
 
@@ -217,7 +217,7 @@ Traffic
 
 Dropped
 
-![](assets/395725c9a830546004a46484a9ba234c.png)
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/395725c9a830546004a46484a9ba234c.png)
 
 VPC (With IPv4 and IPv6 Enabled)
 
@@ -225,11 +225,11 @@ IPv6
 
 Gateway
 
-![](assets/7f2d31dd8afbf11fa6103937e6d520b0.png)
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/7f2d31dd8afbf11fa6103937e6d520b0.png)
 
 and IPv6 Enabled)
 
-![](assets/2c4a4a7682694a3034a8c9c1a916c70a.png)
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/2c4a4a7682694a3034a8c9c1a916c70a.png)
 
 **Benefits**
 
@@ -349,7 +349,7 @@ Before you deploy cloud resources in a VPC, you must create a VPC and a vSwitch.
    | Resourc e Set | Select the resource set to which the VPC belongs. |
    | Region | Select the region where you want to deploy the VPC. |
    | Sharing Scope | Select the sharing scope of the VPC.<br>• <strong>Current Resource Set</strong>: Only the administrator of the current resource set can use the VPC to create resources.<br>• <strong>Current Organization and Subordinate Organizations</strong>: Only the administrators of the current organization and its subordinate organizations can use the VPC to create resources.<br>• <strong>Current Organization</strong>: Only the administrator of the current organization can use the VPC to create resources.<br><strong>Current Resource Set</strong> is selected in this example. |
-   | VPC Name | Enter a name for the VPC.<br>![](assets/03c4f7807d96c56c7a5b4ff853e335e7.png)<br><code>VPCtest</code> is used in this example. |
+   | VPC Name | Enter a name for the VPC.<br>![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/03c4f7807d96c56c7a5b4ff853e335e7.png)<br><code>VPCtest</code> is used in this example. |
 
    <table>
      <tr>
@@ -467,7 +467,7 @@ For more information about how to configure security group rules, see **ECS > Us
 
 Log on to the ECS instance and **ping** an IPv6 service to verify the network connectivity.
 
-![](assets/06853854bfb99a339943024ed4db1440.png)
+![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/06853854bfb99a339943024ed4db1440.png)
 
 <a id="section-4"></a>
 
@@ -514,7 +514,7 @@ This topic describes how to enable Internet Protocol version 6 (IPv6) for an exi
 
 3. On the **Virtual Private Clouds** page, find the desired VPC and click **Enable IPv6** in the **IPv6 network segment** column.
 
-   ![](assets/a273d3c854a079a00e94adb61cd4b275.jpeg)
+   ![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/a273d3c854a079a00e94adb61cd4b275.jpeg)
 
 4. In the **Enable IPv6** dialog box, select **Automatically turn on IPv6 function of all switches in VPC** and click **OK**. If you do not select **Automatically turn on IPv6 function of all switches in VPC**, you must enable IPv6 for each vSwitch. For more information, see Enable an IPv6 CIDR block for an existing vSwitch.
 
@@ -565,7 +565,7 @@ This topic describes how to enable Internet Protocol version 6 (IPv6) for an exi
 
 4. On the **vSwitch** page, find the desired vSwitch and click **Open IPv6** in the **IPv6 network segment** column.
 
-   ![](assets/8b3317e41f3dc8fc598b59642d9b484b.png)
+   ![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/8b3317e41f3dc8fc598b59642d9b484b.png)
 
 5. In the **Open IPv6** message, click **OK**.
 
@@ -674,7 +674,7 @@ An Elastic Compute Service (ECS) instance is created in a virtual private cloud 
 
 5. On the **IPv6 public network bandwidth** tab, find the desired IPv6 address and click **Open public network bandwidth** in the **Operation** column.
 
-   ![](assets/320ca9c7aa5da7297ee1a575dfa82192.png)
+   ![](en-ipv6-gateway-user-guide-v3.18.2-20240516.assets/320ca9c7aa5da7297ee1a575dfa82192.png)
 
 6. Specify a bandwidth and click **Submit**.
 

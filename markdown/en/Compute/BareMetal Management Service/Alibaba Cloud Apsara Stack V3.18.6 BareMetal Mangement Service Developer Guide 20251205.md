@@ -3342,7 +3342,7 @@ This operation does not have operation-specific request headers and uses only co
 | InstanceN ame | Strin g | Query | No | DBServer1 | The name of an instance. For example, the instance name DBServer1 represents the first database server instance. |
 | InvokeId | Strin g | Query | No | t-7d2a745b412b4601b2d 47f6a768d3\*\*\* | The ID of the command execution task. You can call the <code>DescribeInvocations</code> <code> </code> operation to query the IDs of all command execution tasks. |
 
-![](assets/3b1545b603b114463b38d22ab01d0a5e.png)
+![](en-bare-metal-management-developer-guide-v3.18.6-20251205.assets/3b1545b603b114463b38d22ab01d0a5e.png)
 
 **Response parameters**
 

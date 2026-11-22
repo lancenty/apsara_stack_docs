@@ -511,7 +511,7 @@ This topic describes the system architecture of ASR for Backup and Recovery in s
 
 The following figure shows the logical architecture of ASR for Backup and Recovery in single-region scenarios.
 
-![](assets/309207d435b88f1c6329ff1e248fd997.png)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/309207d435b88f1c6329ff1e248fd997.png)
 
 > **Note**
 >
@@ -537,7 +537,7 @@ This topic describes the system architecture for cross-region backup in ASR-BR.
 
 The following figure shows the system architecture for cross-region backup.
 
-![](assets/67c18ff43d0f1f114eba1327c24275c6.png)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/67c18ff43d0f1f114eba1327c24275c6.png)
 
 Architecture description
 
@@ -1084,11 +1084,11 @@ In this example, an error occurs when you back up the logs of an ApsaraDB RDS in
 
 1. Log on to the ASR-BR console. Find the ApsaraDB RDS instance and go to the instance details page. On the Log Backup tab, press the F12 key to use DevTools. In the panel that appears, click the **Network** tab. On this tab, the requests are displayed.
 
-![](assets/6269c395b5e6ae4317b9f65bb7575ab1.jpeg)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/6269c395b5e6ae4317b9f65bb7575ab1.jpeg)
 
 2. Click the error message. The request from which the error is reported is displayed in the panel.
 
-![](assets/b1be4c086cce003b93f83a66cc54ed05.jpeg)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/b1be4c086cce003b93f83a66cc54ed05.jpeg)
 
 3. Click the name of the request. The information is displayed on various tabs, as shown in the following figure.
 
@@ -1100,11 +1100,11 @@ In this example, an error occurs when you back up the logs of an ApsaraDB RDS in
 >
 > - The Preview and Response tabs display the returned results. The data on the Preview tab is unformatted, whereas the data on the Response tab is formatted.
 
-![](assets/d7a34f0ac48694d7e10b6d17c13468dc.jpeg)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/d7a34f0ac48694d7e10b6d17c13468dc.jpeg)
 
 4. Click the **Response** tab to view the requestId parameter.
 
-![](assets/a383c6c7bc153fbd4313933291ffe729.jpeg)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a383c6c7bc153fbd4313933291ffe729.jpeg)
 
 **Obtain an event ID**
 
@@ -1112,13 +1112,13 @@ In this example, a backup plan is used.
 
 1. On the Backup Events tab of the backup plan details page, press the F12 key to use DevTools. In the panel that appears, click the **Network** tab.
 
-![](assets/4bba00561d6431b3dbeca0c387d665c1.jpeg)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/4bba00561d6431b3dbeca0c387d665c1.jpeg)
 
-2. Click the <img src="assets/8fb00d2993b5d52f512065c72898b1fd.jpeg" width="17" alt=""> icon next to a sub-event. In the panel that appears, view the logs of the sub-event. Click the **Payload** tab to view the eventId
+2. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8fb00d2993b5d52f512065c72898b1fd.jpeg" width="17" alt=""> icon next to a sub-event. In the panel that appears, view the logs of the sub-event. Click the **Payload** tab to view the eventId
 
    parameter.
 
-![](assets/f0722f9aa907ac60fe28fc5ccb10442d.jpeg)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/f0722f9aa907ac60fe28fc5ccb10442d.jpeg)
 
 **View logs**
 
@@ -1136,11 +1136,11 @@ grep -r "d1b14ebf-4d96-43f1-9b9c-12b547fa405c" asrbr-backup.log
 >
 > Replace the keyword after the grep -r command with the request ID or event ID that you obtained.
 
-![](assets/d615b578a72055a7e15394ac4b29d9b2.jpeg)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/d615b578a72055a7e15394ac4b29d9b2.jpeg)
 
 3. View the error logs.
 
-![](assets/49335a73fa226a9c889ecb7ca34467af.jpeg)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/49335a73fa226a9c889ecb7ca34467af.jpeg)
 
 4. Run the vi or vim command to open the corresponding log file to view a specific error message. Sample code:
 
@@ -1155,7 +1155,7 @@ Enter N to find the next matched result until you find the error message.
 >
 > You need to query the details of an error based on the request ID or event ID.
 
-![](assets/887bf7f1458d663193ba30a6159e9307.jpeg)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/887bf7f1458d663193ba30a6159e9307.jpeg)
 
 > **Note**
 >
@@ -2097,13 +2097,13 @@ The following table describes the keys in a log entry.
 
 Log in to the Apsara Stack Resilience for Backup and Recovery (ASR-BR) console as a backup operations administrator. In the left-side navigation pane, click **Backup Records**. In the Backup History section of the Backup Record page, check whether failed backups exist.
 
-![](assets/50612dc4c21924be2ba29f08e28cb0ea.jpeg)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/50612dc4c21924be2ba29f08e28cb0ea.jpeg)
 
 > **Note**
 >
-> Find the backup plan that you want to manage and click the <img src="assets/34df10f6d9a87b556e10153350f47914.png" width="10" alt=""> icon. Find the backup record that you want to view and click **View**
+> Find the backup plan that you want to manage and click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/34df10f6d9a87b556e10153350f47914.png" width="10" alt=""> icon. Find the backup record that you want to view and click **View**
 >
-> **Details** in the Actions column. On the Backup Record tab, click the <img src="assets/ffe8a5bf155fde65ec95e8a97c34a47d.png" width="7" alt=""> icon. Find the instance that you want to view and click **Details** in
+> **Details** in the Actions column. On the Backup Record tab, click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ffe8a5bf155fde65ec95e8a97c34a47d.png" width="7" alt=""> icon. Find the instance that you want to view and click **Details** in
 >
 > the Actions column. In the Backup Record Details dialog box, view the backup record details.
 
@@ -2111,7 +2111,7 @@ Log in to the Apsara Stack Resilience for Backup and Recovery (ASR-BR) console a
 
 Log in to the ASR-BR console as a backup operations administrator in standard deployment mode. In the left-side navigation pane, choose **O&M Management > Engine Monitoring**. On the Traffic Monitoring tab of the Engine Monitoring page, view the transmission traffic of the backup engine.
 
-![](assets/00ed9f3643f8c2be3e0af0e0b58adbfa.jpeg)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/00ed9f3643f8c2be3e0af0e0b58adbfa.jpeg)
 
 > **Note**
 >
@@ -2129,7 +2129,7 @@ Log in to the ASR-BR console as a backup operations administrator in standard de
 
 Log in to the ASR-BR console as a backup operations administrator. In the left-side navigation pane, choose **System Management** > **Storage Pool Groups**. On the Manage Storage Pool Group page, find the storage pool group that you want to manage and click its name. On the details page of the storage pool group, view the storage used by the storage pools in the group.
 
-![](assets/8e78f930200749df97a6e7477394ee4f.jpeg)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8e78f930200749df97a6e7477394ee4f.jpeg)
 
 > **Note**
 >
@@ -2139,7 +2139,7 @@ Log in to the ASR-BR console as a backup operations administrator. In the left-s
 
 Log in to the ASR-BR console as a backup operations administrator or an organization backup administrator. In the left-side navigation pane, choose **O&M Management > Alerts**. On the Alerts page, view the alert information and handle alerts.
 
-![](assets/f96df9d76ac21c8ea40dd7327c885f13.jpeg)
+![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/f96df9d76ac21c8ea40dd7327c885f13.jpeg)
 
 **Perform inspections on self-backups**
 
@@ -2233,11 +2233,11 @@ When the disk usage reaches 100%, the asrbr-backup service is abnormal and becom
 
 3. Enter asrbr in the search box and click **Cluster Details** in the **Actions** column of the cluster.
 
-   ![](assets/79564c807cfeda6b72c9ce0fdf9e9e17.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/79564c807cfeda6b72c9ce0fdf9e9e17.jpeg)
 
 4. On the Cluster Details page, click the **Services** tab and then click asrbr-backup.
 
-   ![](assets/6dc9b279cbba4af39357798abcd4b54e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/6dc9b279cbba4af39357798abcd4b54e.jpeg)
 
 5. In the **Components** navigation pane, click **Backup#**.
 
@@ -2247,7 +2247,7 @@ When the disk usage reaches 100%, the asrbr-backup service is abnormal and becom
    >
    > The status of the VM on which the asrbr-backup service is deployed is abnormal when this alert is present.
 
-   ![](assets/e2321d9df7c93f3c306bfc57467b7582.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/e2321d9df7c93f3c306bfc57467b7582.jpeg)
 
 7. Click **Terminal** in the Actions column of a VM whose status is abnormal.
 
@@ -2257,7 +2257,7 @@ When the disk usage reaches 100%, the asrbr-backup service is abnormal and becom
    df -h
    ```
 
-   ![](assets/0ea6d6b4bea4de709b6ba77bfab6cf3f.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/0ea6d6b4bea4de709b6ba77bfab6cf3f.jpeg)
 
 9. Execute the following command to find the files or directories that occupy a large amount of disk space in the logs.
 
@@ -2266,7 +2266,7 @@ When the disk usage reaches 100%, the asrbr-backup service is abnormal and becom
    du -sh * | grep G
    ```
 
-   ![](assets/c588a520d1c82205a4ddc3a819a84648.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/c588a520d1c82205a4ddc3a819a84648.jpeg)
 
 0. Manually clear logs.
 
@@ -2365,7 +2365,7 @@ Check whether SRS is disabled, and then disable the alert.
 
   In the top navigation bar, click **Product Operation** to check whether **SRS Management** is available.
 
-  ![](assets/3308afe5988454a1da426baef45475a3.jpeg)
+  ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/3308afe5988454a1da426baef45475a3.jpeg)
 
   </li>
 
@@ -2423,7 +2423,7 @@ Check whether SRS is disabled, and then disable the alert.
 
     On the **Instances** tab, click **Terminal** in the **Actions** column of a server to log on to the server.
 
-    ![](assets/1422f6bdc9eb62004dd08a2d520f204c.jpeg)
+    ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/1422f6bdc9eb62004dd08a2d520f204c.jpeg)
 
     </li>
 
@@ -2452,7 +2452,7 @@ Check whether SRS is disabled, and then disable the alert.
 
     A result as the one shown in the following figure is displayed.
 
-    ![](assets/8d061d09992a1d798b4af64c61e2155f.jpeg)
+    ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8d061d09992a1d798b4af64c61e2155f.jpeg)
 
     - If the return value is '{"status":200, "msg":"success", "data":0}', or '{"status":504, "msg":"xxxxxx", "data":0}', SRS is disabled. Select the document in the appendix based on the service version to disable the alert.
 
@@ -2472,7 +2472,7 @@ Check and modify the ctk configuration.
 
 3. On the **Projects** page, enter asrbr in the Product | Cluster search box. In the search result, find the cluster and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/c2b92039b207966c98e0de3c46ac745e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/c2b92039b207966c98e0de3c46ac745e.jpeg)
 
 4. On the **Services** tab, click **srs-client** in the Service column.
 
@@ -2480,7 +2480,7 @@ Check and modify the ctk configuration.
 
 6. On the **Instances** page, click **Terminal** in the **Actions** column of a host to log on to the host.
 
-   ![](assets/111a1263f03c6411bfea8a98618b6771.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/111a1263f03c6411bfea8a98618b6771.jpeg)
 
 7. Check whether the files exist and whether the files are empty.
 
@@ -2575,7 +2575,7 @@ Check whether SRS is disabled, and then disable the alert.
 
   In the top navigation bar, click **Product Operation** to check whether **SRS Management** is available.
 
-  ![](assets/3308afe5988454a1da426baef45475a3.jpeg)
+  ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/3308afe5988454a1da426baef45475a3.jpeg)
 
   </li>
 
@@ -2633,7 +2633,7 @@ Check whether SRS is disabled, and then disable the alert.
 
     On the **Instances** tab, click **Terminal** in the **Actions** column of a server to log on to the server.
 
-    ![](assets/1422f6bdc9eb62004dd08a2d520f204c.jpeg)
+    ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/1422f6bdc9eb62004dd08a2d520f204c.jpeg)
 
     </li>
 
@@ -2662,7 +2662,7 @@ Check whether SRS is disabled, and then disable the alert.
 
     A result as the one shown in the following figure is displayed.
 
-    ![](assets/8d061d09992a1d798b4af64c61e2155f.jpeg)
+    ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8d061d09992a1d798b4af64c61e2155f.jpeg)
 
     - If the return value is '{"status":200, "msg":"success", "data":0}', or '{"status":504, "msg":"xxxxxx", "data":0}', SRS is disabled. Select the document in the appendix based on the service version to disable the alert.
 
@@ -2682,7 +2682,7 @@ Check for packet loss.
 
 3. On the **Projects** page, enter asrbr in the Product | Cluster search box. In the search result, find the cluster and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/c2b92039b207966c98e0de3c46ac745e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/c2b92039b207966c98e0de3c46ac745e.jpeg)
 
 4. On the **Services** tab, click **srs-client** in the Service column.
 
@@ -2690,7 +2690,7 @@ Check for packet loss.
 
 6. On the **Instances** page, click **Terminal** in the **Actions** column of a host to log on to the host.
 
-   ![](assets/111a1263f03c6411bfea8a98618b6771.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/111a1263f03c6411bfea8a98618b6771.jpeg)
 
 7. Query logs to view the source address of lost packets.
 
@@ -2700,7 +2700,7 @@ Check for packet loss.
 
    Sample result:
 
-   ![](assets/ffb11c027017903a101dd123e8b45699.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ffb11c027017903a101dd123e8b45699.jpeg)
 
 8. Check whether the source address of lost packets is in the trusted address set.
 
@@ -2708,7 +2708,7 @@ Check for packet loss.
    ipset test ipset_srs ${Source address of lost packets}
    ```
 
-   ![](assets/f4020eac2a718a57be04ff90f480f255.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/f4020eac2a718a57be04ff90f480f255.jpeg)
 
    - If the source address of lost packets is in the trusted address set:
 
@@ -2796,7 +2796,7 @@ Check whether SRS is disabled, and then disable the alert.
 
   In the top navigation bar, click **Product Operation** to check whether **SRS Management** is available.
 
-  ![](assets/3308afe5988454a1da426baef45475a3.jpeg)
+  ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/3308afe5988454a1da426baef45475a3.jpeg)
 
   </li>
 
@@ -2854,7 +2854,7 @@ Check whether SRS is disabled, and then disable the alert.
 
     On the **Instances** tab, click **Terminal** in the **Actions** column of a server to log on to the server.
 
-    ![](assets/1422f6bdc9eb62004dd08a2d520f204c.jpeg)
+    ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/1422f6bdc9eb62004dd08a2d520f204c.jpeg)
 
     </li>
 
@@ -2883,7 +2883,7 @@ Check whether SRS is disabled, and then disable the alert.
 
     A result as the one shown in the following figure is displayed.
 
-    ![](assets/8d061d09992a1d798b4af64c61e2155f.jpeg)
+    ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8d061d09992a1d798b4af64c61e2155f.jpeg)
 
     - If the return value is '{"status":200, "msg":"success", "data":0}', or '{"status":504, "msg":"xxxxxx", "data":0}', SRS is disabled. Select the document in the appendix based on the service version to disable the alert.
 
@@ -2901,7 +2901,7 @@ Check whether SRS is disabled, and then disable the alert.
 
 3. On the **Projects** page, enter asrbr in the Product | Cluster search box. In the search result, find the cluster and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/c2b92039b207966c98e0de3c46ac745e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/c2b92039b207966c98e0de3c46ac745e.jpeg)
 
 4. On the **Services** tab, click **srs-client** in the Service column.
 
@@ -2909,7 +2909,7 @@ Check whether SRS is disabled, and then disable the alert.
 
 6. On the **Instances** page, click **Terminal** in the **Actions** column of a host to log on to the host.
 
-   ![](assets/111a1263f03c6411bfea8a98618b6771.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/111a1263f03c6411bfea8a98618b6771.jpeg)
 
 7. Query the client startup logs. Collect exception information from the logs and contact R&D.
 
@@ -2989,7 +2989,7 @@ Check whether SRS is disabled, and then disable the alert.
 
   In the top navigation bar, click **Product Operation** to check whether **SRS Management** is available.
 
-  ![](assets/3308afe5988454a1da426baef45475a3.jpeg)
+  ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/3308afe5988454a1da426baef45475a3.jpeg)
 
   </li>
 
@@ -3047,7 +3047,7 @@ Check whether SRS is disabled, and then disable the alert.
 
     On the **Instances** tab, click **Terminal** in the **Actions** column of a server to log on to the server.
 
-    ![](assets/1422f6bdc9eb62004dd08a2d520f204c.jpeg)
+    ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/1422f6bdc9eb62004dd08a2d520f204c.jpeg)
 
     </li>
 
@@ -3076,7 +3076,7 @@ Check whether SRS is disabled, and then disable the alert.
 
     A result as the one shown in the following figure is displayed.
 
-    ![](assets/8d061d09992a1d798b4af64c61e2155f.jpeg)
+    ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8d061d09992a1d798b4af64c61e2155f.jpeg)
 
     - If the return value is '{"status":200, "msg":"success", "data":0}', or '{"status":504, "msg":"xxxxxx", "data":0}', SRS is disabled. Select the document in the appendix based on the service version to disable the alert.
 
@@ -3096,7 +3096,7 @@ Check and modify the nf_conntreack configuration.
 
 3. On the **Projects** page, enter asrbr in the Product | Cluster search box. In the search result, find the cluster and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/c2b92039b207966c98e0de3c46ac745e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/c2b92039b207966c98e0de3c46ac745e.jpeg)
 
 4. On the **Services** tab, click **srs-client** in the Service column.
 
@@ -3104,7 +3104,7 @@ Check and modify the nf_conntreack configuration.
 
 6. On the **Instances** page, click **Terminal** in the **Actions** column of a host to log on to the host.
 
-   ![](assets/111a1263f03c6411bfea8a98618b6771.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/111a1263f03c6411bfea8a98618b6771.jpeg)
 
 7. Check whether the file exists and whether the file is empty.
 
@@ -3190,7 +3190,7 @@ The Java process of the asrbr-backup service is frequently restarted.
 
 3. On the Cluster Details page, click the **Services** tab and then click asrbr-backup.
 
-   ![](assets/6dc9b279cbba4af39357798abcd4b54e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/6dc9b279cbba4af39357798abcd4b54e.jpeg)
 
 4. In the **Components** navigation pane, click **Backup#**.
 
@@ -3200,7 +3200,7 @@ The Java process of the asrbr-backup service is frequently restarted.
    >
    > The status of the VM on which the asrbr-backup service is deployed is abnormal when this alert is present. Restart the SR to resolve the issue.
 
-   ![](assets/d61b643d9855c922902ddf1258355e4e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/d61b643d9855c922902ddf1258355e4e.jpeg)
 
 6. After you restart the SR, click **Terminal** in the Actions column of the VM whose status is abnormal to log on to the terminal.
 
@@ -3216,7 +3216,7 @@ The Java process of the asrbr-backup service is frequently restarted.
    docker ps | grep backup
    ```
 
-   ![](assets/0dfdbaecaf2152fd1984a3a4b657b87f.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/0dfdbaecaf2152fd1984a3a4b657b87f.jpeg)
 
    </li>
 
@@ -3238,7 +3238,7 @@ The Java process of the asrbr-backup service is frequently restarted.
    ps -eo pid,lstart,etime,cmd | grep java
    ```
 
-   ![](assets/f04ee06ef8acb2b6b7fe280413a55a2a.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/f04ee06ef8acb2b6b7fe280413a55a2a.jpeg)
 
    - If a result similar to the one shown in the preceding figure is displayed, the status of the Java process is normal.
 
@@ -3316,7 +3316,7 @@ The Java process of the asrbr-backup service does not exist.
 
 3. On the Cluster Details page, click the **Services** tab and then click asrbr-backup.
 
-   ![](assets/6dc9b279cbba4af39357798abcd4b54e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/6dc9b279cbba4af39357798abcd4b54e.jpeg)
 
 4. In the **Components** navigation pane, click **Backup#**.
 
@@ -3326,7 +3326,7 @@ The Java process of the asrbr-backup service does not exist.
    >
    > The status of the VM on which the asrbr-backup service is deployed is abnormal when this alert is present. Restart the SR to resolve the issue.
 
-   ![](assets/d61b643d9855c922902ddf1258355e4e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/d61b643d9855c922902ddf1258355e4e.jpeg)
 
 6. After you restart the SR, click **Terminal** in the Actions column of the VM whose status is abnormal to log on to the terminal.
 
@@ -3342,7 +3342,7 @@ The Java process of the asrbr-backup service does not exist.
    docker ps | grep backup
    ```
 
-   ![](assets/0dfdbaecaf2152fd1984a3a4b657b87f.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/0dfdbaecaf2152fd1984a3a4b657b87f.jpeg)
 
    </li>
 
@@ -3364,7 +3364,7 @@ The Java process of the asrbr-backup service does not exist.
    ps -ef | grep java
    ```
 
-   ![](assets/a9fd6e3435e5fb93ae38e95eb304b608.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a9fd6e3435e5fb93ae38e95eb304b608.jpeg)
 
    - If a result as shown in the preceding figure is displayed, the Java process exists.
 
@@ -3442,7 +3442,7 @@ The Java process status of the asrbr-backup service becomes abnormal.
 
 3. On the Cluster Details page, click the **Services** tab and then click asrbr-backup.
 
-   ![](assets/6dc9b279cbba4af39357798abcd4b54e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/6dc9b279cbba4af39357798abcd4b54e.jpeg)
 
 4. In the **Components** navigation pane, click **Backup#**.
 
@@ -3452,7 +3452,7 @@ The Java process status of the asrbr-backup service becomes abnormal.
    >
    > The status of the VM on which the asrbr-backup service is deployed is abnormal when this alert is present. Restart the SR to resolve the issue.
 
-   ![](assets/d61b643d9855c922902ddf1258355e4e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/d61b643d9855c922902ddf1258355e4e.jpeg)
 
 6. After you restart the SR, click **Terminal** in the Actions column of the VM whose status is abnormal to log on to the terminal.
 
@@ -3468,7 +3468,7 @@ The Java process status of the asrbr-backup service becomes abnormal.
    docker ps | grep backup
    ```
 
-   ![](assets/0dfdbaecaf2152fd1984a3a4b657b87f.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/0dfdbaecaf2152fd1984a3a4b657b87f.jpeg)
 
    </li>
 
@@ -3490,7 +3490,7 @@ The Java process status of the asrbr-backup service becomes abnormal.
    ps -ef | grep java
    ```
 
-   ![](assets/a9fd6e3435e5fb93ae38e95eb304b608.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a9fd6e3435e5fb93ae38e95eb304b608.jpeg)
 
    - If a result as shown in the preceding figure is displayed, the Java process exists.
 
@@ -3568,7 +3568,7 @@ The Java process of the hbr-console service is frequently restarted.
 
 3. In the product list, search for the asrbr service and click **Cluster Details** in the Actions column of \*\*\* AsrbrBkEngine\*\*\*\*.
 
-   ![](assets/567979a84d3fdfba958ac83708a0e97b.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/567979a84d3fdfba958ac83708a0e97b.jpeg)
 
 4. On the **Services** tab, click hbr-console to go to the component details page.
 
@@ -3576,7 +3576,7 @@ The Java process of the hbr-console service is frequently restarted.
 
 6. On the **Instances** tab, check whether the machine status is normal.
 
-   ![](assets/d35a39c07ae6a5a586c999529294a874.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/d35a39c07ae6a5a586c999529294a874.jpeg)
 
    - If the machine status is abnormal, choose **Actions** > **Restart** in the **Actions** column to restart the machine.
 
@@ -3596,7 +3596,7 @@ The Java process of the hbr-console service is frequently restarted.
    docker ps
    ```
 
-   ![](assets/2cacd6d71a8d2a6e2d60605818e2a209.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/2cacd6d71a8d2a6e2d60605818e2a209.jpeg)
 
    </li>
 
@@ -3608,7 +3608,7 @@ The Java process of the hbr-console service is frequently restarted.
    docker exec -it <Container ID> /bin/bash
    ```
 
-   ![](assets/9b69e3441f5092073a341e32fd60b520.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/9b69e3441f5092073a341e32fd60b520.jpeg)
 
    </li>
 
@@ -3620,7 +3620,7 @@ The Java process of the hbr-console service is frequently restarted.
    ps -eo pid,lstart,etime,cmd | grep java
    ```
 
-   ![](assets/3da21439891f413241432abadcf813ca.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/3da21439891f413241432abadcf813ca.jpeg)
 
    If a result similar to the one shown in the preceding figure is displayed, the status of the Java process is normal.
 
@@ -3696,7 +3696,7 @@ The Java process of the hbr-console service does not exist.
 
 2. In the product list, search for the asrbr service and click **Cluster Details** in the Actions column of \*\*\* AsrbrBkEngine\*\*\*\*.
 
-   ![](assets/567979a84d3fdfba958ac83708a0e97b.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/567979a84d3fdfba958ac83708a0e97b.jpeg)
 
 3. On the **Services** tab, click hbr-console to go to the component details page.
 
@@ -3704,7 +3704,7 @@ The Java process of the hbr-console service does not exist.
 
 5. On the **Instances** tab, check whether the machine status is normal.
 
-   ![](assets/d35a39c07ae6a5a586c999529294a874.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/d35a39c07ae6a5a586c999529294a874.jpeg)
 
    - If the machine status is abnormal, choose **Actions** > **Restart** in the **Actions** column to restart the machine.
 
@@ -3724,7 +3724,7 @@ The Java process of the hbr-console service does not exist.
    docker ps
    ```
 
-   ![](assets/2cacd6d71a8d2a6e2d60605818e2a209.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/2cacd6d71a8d2a6e2d60605818e2a209.jpeg)
 
    </li>
 
@@ -3736,7 +3736,7 @@ The Java process of the hbr-console service does not exist.
    docker exec -it <Container ID> /bin/bash
    ```
 
-   ![](assets/9b69e3441f5092073a341e32fd60b520.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/9b69e3441f5092073a341e32fd60b520.jpeg)
 
    </li>
 
@@ -3748,7 +3748,7 @@ The Java process of the hbr-console service does not exist.
    ps -ef | grep java
    ```
 
-   ![](assets/64d05fcf58c78f9ae0cc755be3678291.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/64d05fcf58c78f9ae0cc755be3678291.jpeg)
 
    If a result as shown in the preceding figure is displayed, the Java process exists.
 
@@ -3824,7 +3824,7 @@ The Java process of the hbr-console service becomes abnormal.
 
 2. In the product list, search for the asrbr service and click **Cluster Details** in the Actions column of \*\*\* AsrbrBkEngine\*\*\*\*.
 
-   ![](assets/567979a84d3fdfba958ac83708a0e97b.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/567979a84d3fdfba958ac83708a0e97b.jpeg)
 
 3. On the **Services** tab, click hbr-console to go to the component details page.
 
@@ -3832,7 +3832,7 @@ The Java process of the hbr-console service becomes abnormal.
 
 5. On the **Instances** tab, check whether the machine status is normal.
 
-   ![](assets/d35a39c07ae6a5a586c999529294a874.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/d35a39c07ae6a5a586c999529294a874.jpeg)
 
    - If the machine status is abnormal, choose **Actions** > **Restart** in the **Actions** column to restart the machine.
 
@@ -3852,7 +3852,7 @@ The Java process of the hbr-console service becomes abnormal.
    docker ps
    ```
 
-   ![](assets/2cacd6d71a8d2a6e2d60605818e2a209.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/2cacd6d71a8d2a6e2d60605818e2a209.jpeg)
 
    </li>
 
@@ -3864,7 +3864,7 @@ The Java process of the hbr-console service becomes abnormal.
    docker exec -it <Container ID> /bin/bash
    ```
 
-   ![](assets/9b69e3441f5092073a341e32fd60b520.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/9b69e3441f5092073a341e32fd60b520.jpeg)
 
    </li>
 
@@ -3876,7 +3876,7 @@ The Java process of the hbr-console service becomes abnormal.
    ps -ef | grep java
    ```
 
-   ![](assets/64d05fcf58c78f9ae0cc755be3678291.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/64d05fcf58c78f9ae0cc755be3678291.jpeg)
 
    If a result as shown in the preceding figure is displayed, the Java process exists.
 
@@ -3952,7 +3952,7 @@ The Java process of the PopAliyunCom component is frequently restarted.
 
 2. In the left-side navigation pane, choose **Product & Cluster O&M**. Enter asrbr in the search box and click **Cluster Details** in the **Actions** column of the search results.
 
-   ![](assets/38666718afbb38184e6d15f5bb1f524e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/38666718afbb38184e6d15f5bb1f524e.jpeg)
 
 3. On the **Services** tab, click the **webapp-datapop** service.
 
@@ -3960,7 +3960,7 @@ The Java process of the PopAliyunCom component is frequently restarted.
 
 5. On the **Instances** tab, check whether the machine status is normal.
 
-   ![](assets/591767454d6c29f1aaa76625bc14b9f7.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/591767454d6c29f1aaa76625bc14b9f7.jpeg)
 
    - If the machine status is abnormal, choose **Actions** > **Restart** in the **Actions** column to restart the machine.
 
@@ -3974,7 +3974,7 @@ The Java process of the PopAliyunCom component is frequently restarted.
    ps -eo pid,lstart,etime,cmd | grep java
    ```
 
-   ![](assets/a7e446509e26787a8aa1a583f64a3d4a.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7e446509e26787a8aa1a583f64a3d4a.jpeg)
 
    - If a result similar to the one shown in the preceding figure is displayed, the status of the Java process is normal.
 
@@ -4037,7 +4037,7 @@ The Java process of the PopAliyunCom component does not exist.
 
 2. In the left-side navigation pane, choose **Product & Cluster O&M**. Enter asrbr in the search box and click **Cluster Details** in the **Actions** column of the search results.
 
-   ![](assets/38666718afbb38184e6d15f5bb1f524e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/38666718afbb38184e6d15f5bb1f524e.jpeg)
 
 3. On the **Services** tab, click the **webapp-datapop** service.
 
@@ -4045,7 +4045,7 @@ The Java process of the PopAliyunCom component does not exist.
 
 5. On the **Instances** tab, check whether the machine status is normal.
 
-   ![](assets/591767454d6c29f1aaa76625bc14b9f7.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/591767454d6c29f1aaa76625bc14b9f7.jpeg)
 
    - If the machine status is abnormal, choose **Actions** > **Restart** in the **Actions** column to restart the machine.
 
@@ -4059,7 +4059,7 @@ The Java process of the PopAliyunCom component does not exist.
    ps -ef | grep java
    ```
 
-   ![](assets/16e47d2f44192f59288e2b3c3ca01eb1.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/16e47d2f44192f59288e2b3c3ca01eb1.jpeg)
 
    - If a result as shown in the preceding figure is displayed, the Java process exists. Ignore the alert.
 
@@ -4122,7 +4122,7 @@ The Java process of the PopAliyunCom component becomes abnormal.
 
 2. In the left-side navigation pane, choose **Product & Cluster O&M**. Enter asrbr in the search box and click **Cluster Details** in the **Actions** column of the search results.
 
-   ![](assets/38666718afbb38184e6d15f5bb1f524e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/38666718afbb38184e6d15f5bb1f524e.jpeg)
 
 3. On the **Services** tab, click the **webapp-datapop** service.
 
@@ -4130,7 +4130,7 @@ The Java process of the PopAliyunCom component becomes abnormal.
 
 5. On the **Instances** tab, check whether the machine status is normal.
 
-   ![](assets/591767454d6c29f1aaa76625bc14b9f7.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/591767454d6c29f1aaa76625bc14b9f7.jpeg)
 
    - If the machine status is abnormal, choose **Actions** > **Restart** in the **Actions** column to restart the machine.
 
@@ -4144,7 +4144,7 @@ The Java process of the PopAliyunCom component becomes abnormal.
    ps -ef | grep java
    ```
 
-   ![](assets/16e47d2f44192f59288e2b3c3ca01eb1.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/16e47d2f44192f59288e2b3c3ca01eb1.jpeg)
 
    - If a result as shown in the preceding figure is displayed, the Java process exists. Ignore the alert.
 
@@ -4207,7 +4207,7 @@ The Java process of the PopApiAliyunCom component is frequently restarted.
 
 2. In the left-side navigation pane, choose **Product & Cluster O&M**. Enter asrbr in the search box and click **Cluster Details** in the **Actions** column of the search results.
 
-   ![](assets/38666718afbb38184e6d15f5bb1f524e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/38666718afbb38184e6d15f5bb1f524e.jpeg)
 
 3. On the **Services** tab, click the **webapp-datapop** service.
 
@@ -4215,7 +4215,7 @@ The Java process of the PopApiAliyunCom component is frequently restarted.
 
 5. On the **Instances** tab, check whether the machine status is normal.
 
-   ![](assets/7c4193b5da9e731ea4ce9441a5e9d7b6.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/7c4193b5da9e731ea4ce9441a5e9d7b6.jpeg)
 
    - If the machine status is abnormal, choose **Actions** > **Restart** in the **Actions** column to restart the machine.
 
@@ -4235,7 +4235,7 @@ The Java process of the PopApiAliyunCom component is frequently restarted.
    docker ps
    ```
 
-   ![](assets/f025a1f6b125859155b6444ea9c681ac.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/f025a1f6b125859155b6444ea9c681ac.jpeg)
 
    </li>
 
@@ -4247,7 +4247,7 @@ The Java process of the PopApiAliyunCom component is frequently restarted.
    docker exec -it <Container ID> /bin/bash
    ```
 
-   ![](assets/07838bd264c08a349c8e97afeaa77200.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/07838bd264c08a349c8e97afeaa77200.jpeg)
 
    </li>
 
@@ -4259,7 +4259,7 @@ The Java process of the PopApiAliyunCom component is frequently restarted.
    ps -eo pid,lstart,etime,cmd | grep java
    ```
 
-   ![](assets/779ab474dbae92bb0ab8dd037bb891fd.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/779ab474dbae92bb0ab8dd037bb891fd.jpeg)
 
    If a result similar to the one shown in the preceding figure is displayed, the status of the Java process is normal.
 
@@ -4335,7 +4335,7 @@ The Java process of the PopApiAliyunCom component does not exist.
 
 2. In the left-side navigation pane, choose **Product & Cluster O&M**. Enter asrbr in the search box and click **Cluster Details** in the **Actions** column of the search results.
 
-   ![](assets/38666718afbb38184e6d15f5bb1f524e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/38666718afbb38184e6d15f5bb1f524e.jpeg)
 
 3. On the **Services** tab, click the **webapp-datapop** service.
 
@@ -4343,7 +4343,7 @@ The Java process of the PopApiAliyunCom component does not exist.
 
 5. On the **Instances** tab, check whether the machine status is normal.
 
-   ![](assets/7c4193b5da9e731ea4ce9441a5e9d7b6.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/7c4193b5da9e731ea4ce9441a5e9d7b6.jpeg)
 
    - If the machine status is abnormal, choose **Actions** > **Restart** in the **Actions** column to restart the machine.
 
@@ -4363,7 +4363,7 @@ The Java process of the PopApiAliyunCom component does not exist.
    docker ps
    ```
 
-   ![](assets/f025a1f6b125859155b6444ea9c681ac.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/f025a1f6b125859155b6444ea9c681ac.jpeg)
 
    </li>
 
@@ -4375,7 +4375,7 @@ The Java process of the PopApiAliyunCom component does not exist.
    docker exec -it <Container ID> /bin/bash
    ```
 
-   ![](assets/07838bd264c08a349c8e97afeaa77200.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/07838bd264c08a349c8e97afeaa77200.jpeg)
 
    </li>
 
@@ -4387,7 +4387,7 @@ The Java process of the PopApiAliyunCom component does not exist.
    ps -ef | grep java
    ```
 
-   ![](assets/218ccb579536bee4146a4be4d6d07d48.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/218ccb579536bee4146a4be4d6d07d48.jpeg)
 
    If a result as shown in the preceding figure is displayed, the Java process exists.
 
@@ -4463,7 +4463,7 @@ The Java process of the PopApiAliyunCom component becomes abnormal.
 
 2. In the left-side navigation pane, choose **Product & Cluster O&M**. Enter asrbr in the search box and click **Cluster Details** in the **Actions** column of the search results.
 
-   ![](assets/38666718afbb38184e6d15f5bb1f524e.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/38666718afbb38184e6d15f5bb1f524e.jpeg)
 
 3. On the **Services** tab, click the **webapp-datapop** service.
 
@@ -4471,7 +4471,7 @@ The Java process of the PopApiAliyunCom component becomes abnormal.
 
 5. On the **Instances** tab, check whether the machine status is normal.
 
-   ![](assets/7c4193b5da9e731ea4ce9441a5e9d7b6.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/7c4193b5da9e731ea4ce9441a5e9d7b6.jpeg)
 
    - If the machine status is abnormal, choose **Actions** > **Restart** in the **Actions** column to restart the machine.
 
@@ -4491,7 +4491,7 @@ The Java process of the PopApiAliyunCom component becomes abnormal.
    docker ps
    ```
 
-   ![](assets/f025a1f6b125859155b6444ea9c681ac.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/f025a1f6b125859155b6444ea9c681ac.jpeg)
 
    </li>
 
@@ -4503,7 +4503,7 @@ The Java process of the PopApiAliyunCom component becomes abnormal.
    docker exec -it <Container ID> /bin/bash
    ```
 
-   ![](assets/07838bd264c08a349c8e97afeaa77200.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/07838bd264c08a349c8e97afeaa77200.jpeg)
 
    </li>
 
@@ -4515,7 +4515,7 @@ The Java process of the PopApiAliyunCom component becomes abnormal.
    ps -ef | grep java
    ```
 
-   ![](assets/218ccb579536bee4146a4be4d6d07d48.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/218ccb579536bee4146a4be4d6d07d48.jpeg)
 
    If a result as shown in the preceding figure is displayed, the Java process exists.
 
@@ -4618,11 +4618,11 @@ The instance cannot be backed up by using the backup policy.
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -4632,7 +4632,7 @@ The instance cannot be backed up by using the backup policy.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -4656,7 +4656,7 @@ The instance cannot be backed up by using the backup policy.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -4723,11 +4723,11 @@ The instance may still be undergoing the backup process. You must take immediate
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -4737,7 +4737,7 @@ The instance may still be undergoing the backup process. You must take immediate
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -4761,7 +4761,7 @@ The instance may still be undergoing the backup process. You must take immediate
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -4828,11 +4828,11 @@ The instance cannot be backed up by using the backup plan.
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -4842,7 +4842,7 @@ The instance cannot be backed up by using the backup plan.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -4866,7 +4866,7 @@ The instance cannot be backed up by using the backup plan.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -4933,11 +4933,11 @@ The instance is not backed up by using the backup plan.
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -4947,7 +4947,7 @@ The instance is not backed up by using the backup plan.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -4971,7 +4971,7 @@ The instance is not backed up by using the backup plan.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -5038,11 +5038,11 @@ The instance may still be undergoing the backup process.
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -5052,7 +5052,7 @@ The instance may still be undergoing the backup process.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -5076,7 +5076,7 @@ The instance may still be undergoing the backup process.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -5143,11 +5143,11 @@ The instance is not backed up. You must identify the cause or perform another im
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -5157,7 +5157,7 @@ The instance is not backed up. You must identify the cause or perform another im
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -5181,7 +5181,7 @@ The instance is not backed up. You must identify the cause or perform another im
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -5248,11 +5248,11 @@ The backup record fails to be generated. You must identify the cause of the fail
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -5262,7 +5262,7 @@ The backup record fails to be generated. You must identify the cause of the fail
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -5286,7 +5286,7 @@ The backup record fails to be generated. You must identify the cause of the fail
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -5359,7 +5359,7 @@ To prevent the backup record from being blocked, perform the following steps to 
 
 5. In the **Backup Policy** section of the **Backup Information** tab, click **Modify Backup Policy**.
 
-   ![](assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
 
 6. Modify the parameter settings of the backup policy and click **Save**.
 
@@ -5422,11 +5422,11 @@ The original backup policy continues to be used for the backup.
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -5436,7 +5436,7 @@ The original backup policy continues to be used for the backup.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -5460,7 +5460,7 @@ The original backup policy continues to be used for the backup.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -5527,11 +5527,11 @@ The ECS instance cannot be backed up by using the backup plan.
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -5541,7 +5541,7 @@ The ECS instance cannot be backed up by using the backup plan.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -5565,7 +5565,7 @@ The ECS instance cannot be backed up by using the backup plan.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -5632,11 +5632,11 @@ The ECS instance continues to be backed up by using the backup plan.
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -5646,7 +5646,7 @@ The ECS instance continues to be backed up by using the backup plan.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -5670,7 +5670,7 @@ The ECS instance continues to be backed up by using the backup plan.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -5737,11 +5737,11 @@ The ECS instance is not backed up by using the backup plan.
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -5751,7 +5751,7 @@ The ECS instance is not backed up by using the backup plan.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -5775,7 +5775,7 @@ The ECS instance is not backed up by using the backup plan.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -5842,11 +5842,11 @@ The ECS instance continues to undergo the backup process based on the backup pla
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -5856,7 +5856,7 @@ The ECS instance continues to undergo the backup process based on the backup pla
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -5880,7 +5880,7 @@ The ECS instance continues to undergo the backup process based on the backup pla
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -5947,11 +5947,11 @@ The ECS instance is not backed up by using the backup plan.
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -5961,7 +5961,7 @@ The ECS instance is not backed up by using the backup plan.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -5985,7 +5985,7 @@ The ECS instance is not backed up by using the backup plan.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -6052,11 +6052,11 @@ The ECS instance is not backed up.
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -6066,7 +6066,7 @@ The ECS instance is not backed up.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -6090,7 +6090,7 @@ The ECS instance is not backed up.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -6157,11 +6157,11 @@ The back up of the ECS instance fails. No backup record is generated for the bac
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -6171,7 +6171,7 @@ The back up of the ECS instance fails. No backup record is generated for the bac
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -6195,7 +6195,7 @@ The back up of the ECS instance fails. No backup record is generated for the bac
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -6268,7 +6268,7 @@ To prevent a backup plan for an ECS instance from being blocked, perform the fol
 
 5. In the **Backup Policy** section of the **Backup Information** tab, click **Modify Backup Policy**.
 
-   ![](assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
 
 6. Modify the parameter settings of the backup policy and click **Save**.
 
@@ -6331,11 +6331,11 @@ The backup policy fails to be modified. The original backup policy continues to 
 
 3. Find the backup plan based on the plan name in the alert information and click the plan name  .
 
-   ![](assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8217128cf776eae90752d7ccadaa07ab.jpeg)
 
-4. Click the **Backup Events** tab and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
+4. Click the **Backup Events** tab and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -6345,7 +6345,7 @@ The backup policy fails to be modified. The original backup policy continues to 
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -6369,7 +6369,7 @@ The backup policy fails to be modified. The original backup policy continues to 
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -6453,11 +6453,11 @@ The instance cannot be recovered.
 
 3. Find the recovery job based on the job name in the alert information and click the job name.
 
-   ![](assets/073178daf7afdc126f1214c321d7fd50.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/073178daf7afdc126f1214c321d7fd50.jpeg)
 
-4. Click the **Recovery Events** tab, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon next to the event to view all sub-events.
+4. Click the **Recovery Events** tab, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon next to the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -6467,7 +6467,7 @@ The instance cannot be recovered.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -6491,7 +6491,7 @@ The instance cannot be recovered.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -6558,11 +6558,11 @@ The instance cannot be recovered.
 
 3. Find the recovery job based on the job name in the alert information and click the job name.
 
-   ![](assets/073178daf7afdc126f1214c321d7fd50.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/073178daf7afdc126f1214c321d7fd50.jpeg)
 
-4. Click the **Recovery Events** tab, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon next to the event to view all sub-events.
+4. Click the **Recovery Events** tab, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon next to the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -6572,7 +6572,7 @@ The instance cannot be recovered.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -6596,7 +6596,7 @@ The instance cannot be recovered.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -6663,11 +6663,11 @@ The instance cannot be recovered.
 
 3. Find the recovery job based on the job name in the alert information and click the job name.
 
-   ![](assets/073178daf7afdc126f1214c321d7fd50.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/073178daf7afdc126f1214c321d7fd50.jpeg)
 
-4. Click the **Recovery Events** tab, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon next to the event to view all sub-events.
+4. Click the **Recovery Events** tab, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon next to the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -6677,7 +6677,7 @@ The instance cannot be recovered.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -6701,7 +6701,7 @@ The instance cannot be recovered.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -6768,11 +6768,11 @@ The instance cannot be recovered.
 
 3. Find the recovery job based on the job name in the alert information and click the job name.
 
-   ![](assets/073178daf7afdc126f1214c321d7fd50.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/073178daf7afdc126f1214c321d7fd50.jpeg)
 
-4. Click the **Recovery Events** tab, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon next to the event to view all sub-events.
+4. Click the **Recovery Events** tab, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon next to the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -6782,7 +6782,7 @@ The instance cannot be recovered.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -6806,7 +6806,7 @@ The instance cannot be recovered.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -6873,11 +6873,11 @@ The recovery job fails.
 
 3. Find the recovery job based on the job name in the alert information and click the job name.
 
-   ![](assets/073178daf7afdc126f1214c321d7fd50.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/073178daf7afdc126f1214c321d7fd50.jpeg)
 
-4. Click the **Recovery Events** tab, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon next to the event to view all sub-events.
+4. Click the **Recovery Events** tab, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon next to the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -6887,7 +6887,7 @@ The recovery job fails.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -6911,7 +6911,7 @@ The recovery job fails.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -6978,11 +6978,11 @@ The instance fails to be restored by the recovery job.
 
 3. Find the recovery job based on the job name in the alert information and click the job name.
 
-   ![](assets/073178daf7afdc126f1214c321d7fd50.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/073178daf7afdc126f1214c321d7fd50.jpeg)
 
-4. Click the **Recovery Events** tab, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon next to the event to view all sub-events.
+4. Click the **Recovery Events** tab, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon next to the event to view all sub-events.
 
-5. Click the <img src="assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
+5. Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/99856d3cab3e5dd2f8078e9bff5cfa29.png" width="10" alt=""> button to the right of the sub-event to view the corresponding event logs.
 
    - If an error message is found, take actions based on the error message.
 
@@ -6992,7 +6992,7 @@ The instance fails to be restored by the recovery job.
 
      <li>
 
-     Refresh the list, press the F12 key, and then click the <img src="assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
+     Refresh the list, press the F12 key, and then click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/ff2e4a55cf564749dd54e6b406be5bc3.png" width="11" alt=""> icon to the left of the event to open the sub-event list and view the event_id of
 
      the current event.
 
@@ -7016,7 +7016,7 @@ The instance fails to be restored by the recovery job.
      >
      > You can view historical logs in the bak directory.
 
-     ![](assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/a7f36d8ba09d52a708c1979754ed22f4.jpeg)
 
      </li>
 
@@ -7522,7 +7522,7 @@ The data stored in a backup storage pool reaches the user-defined maximum capaci
 
     In the **Backup Policy** section of the **Backup Information** tab, click **Modify Backup Policy**.
 
-    ![](assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
+    ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
 
     </li>
 
@@ -7661,7 +7661,7 @@ None.
 
     In the **Backup Policy** section of the **Backup Information** tab, click **Modify Backup Policy**.
 
-    ![](assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
+    ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
 
     </li>
 
@@ -7782,7 +7782,7 @@ None.
 
   Modify the **Storage Capacity** parameter and click **OK**.
 
-  ![](assets/af6147477cf2994cd9466a671c383a62.jpeg)
+  ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/af6147477cf2994cd9466a671c383a62.jpeg)
 
   </li>
 
@@ -7820,7 +7820,7 @@ None.
 
   In the **Backup Policy** section of the **Backup Information** tab, click **Modify Backup Policy**.
 
-  ![](assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
+  ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
 
   </li>
 
@@ -7911,7 +7911,7 @@ None.
 
   Modify the **Storage Capacity** parameter and click **OK**.
 
-  ![](assets/af6147477cf2994cd9466a671c383a62.jpeg)
+  ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/af6147477cf2994cd9466a671c383a62.jpeg)
 
   </li>
 
@@ -7949,7 +7949,7 @@ None.
 
   In the **Backup Policy** section of the **Backup Information** tab, click **Modify Backup Policy**.
 
-  ![](assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
+  ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
 
   </li>
 
@@ -8040,7 +8040,7 @@ The backup plans that use the backup vault fails to backup data.
 
   Modify the **Storage Capacity** parameter and click **OK**.
 
-  ![](assets/af6147477cf2994cd9466a671c383a62.jpeg)
+  ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/af6147477cf2994cd9466a671c383a62.jpeg)
 
   </li>
 
@@ -8078,7 +8078,7 @@ The backup plans that use the backup vault fails to backup data.
 
   In the **Backup Policy** section of the **Backup Information** tab, click **Modify Backup Policy**.
 
-  ![](assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
+  ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
 
   </li>
 
@@ -8243,17 +8243,17 @@ If metadata backup continues to fail for an extended period of time, the system 
 
 4. Enter asrbr in the Project | Cluster search box. Find the cluster and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/1b0d7e114c402a35fe805aa8145ae277.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/1b0d7e114c402a35fe805aa8145ae277.jpeg)
 
 5. Click **asrbr-backup** on the **Services** tab.
 
 6. Select the **Backup#** component from the **Components** list. For each of the two instances, choose **More** > **Restart** in the **Actions** column to restart the SR.
 
-   ![](assets/87e616cad66ecf43ac9580b8e7e4225c.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/87e616cad66ecf43ac9580b8e7e4225c.jpeg)
 
 7. For each of the two instances, click **Terminal** in the **Actions** column to log on to the terminal and run the  `docker ps`  command to obtain the container ID.
 
-   ![](assets/4f8cb0b203891780f6e28af72fd94d68.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/4f8cb0b203891780f6e28af72fd94d68.jpeg)
 
 8. Execute the following command to restart the asrbr-backup docker service and wait until the service status is normal.
 
@@ -8316,7 +8316,7 @@ None.However, we recommend that you increase the backup cycle.
 
 3. On the **Backup Policy** page, increase the backup cycle and click **Modify**.
 
-   ![](assets/602276d0930a18afd0421dc03d94e25a.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/602276d0930a18afd0421dc03d94e25a.jpeg)
 
 > **Note**
 >
@@ -8375,17 +8375,17 @@ None.
 
 4. Enter asrbr in the Project | Cluster search box. Find the cluster and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/1b0d7e114c402a35fe805aa8145ae277.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/1b0d7e114c402a35fe805aa8145ae277.jpeg)
 
 5. Click **asrbr-backup** on the **Services** tab.
 
 6. Select the **Backup#** component from the **Components** list. For each of the two instances, choose **More** > **Restart** in the **Actions** column to restart the SR.
 
-   ![](assets/87e616cad66ecf43ac9580b8e7e4225c.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/87e616cad66ecf43ac9580b8e7e4225c.jpeg)
 
 7. For each of the two instances, click **Terminal** in the **Actions** column to log on to the terminal and run the  `docker ps`  command to obtain the container ID.
 
-   ![](assets/4f8cb0b203891780f6e28af72fd94d68.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/4f8cb0b203891780f6e28af72fd94d68.jpeg)
 
 8. Execute the following command to restart the asrbr-backup docker service and wait until the service status is normal.
 
@@ -8450,17 +8450,17 @@ Subsequent backup task scheduling may fail to be performed as expected.
 
 4. Enter asrbr in the Project | Cluster search box. Find the cluster and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/1b0d7e114c402a35fe805aa8145ae277.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/1b0d7e114c402a35fe805aa8145ae277.jpeg)
 
 5. Click **asrbr-backup** on the **Services** tab.
 
 6. Select the **Backup#** component from the **Components** list. For each of the two instances, choose **More** > **Restart** in the **Actions** column to restart the SR.
 
-   ![](assets/87e616cad66ecf43ac9580b8e7e4225c.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/87e616cad66ecf43ac9580b8e7e4225c.jpeg)
 
 7. For each of the two instances, click **Terminal** in the **Actions** column to log on to the terminal and run the  `docker ps`  command to obtain the container ID.
 
-   ![](assets/4f8cb0b203891780f6e28af72fd94d68.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/4f8cb0b203891780f6e28af72fd94d68.jpeg)
 
 8. Execute the following command to restart the asrbr-backup docker service and wait until the service status is normal.
 
@@ -8608,7 +8608,7 @@ This topic describes how to scale up a physical server of ASR for Backup and Rec
 
    Enter asrbr in the Project | Cluster search box. Find the cluster and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/1b0d7e114c402a35fe805aa8145ae277.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/1b0d7e114c402a35fe805aa8145ae277.jpeg)
 
    </li>
 
@@ -8622,7 +8622,7 @@ This topic describes how to scale up a physical server of ASR for Backup and Rec
 
    In the **Components** navigation pane, click **Backup#**. On the Instances tab, click **Terminal** in the **Actions** column.
 
-   ![](assets/28c518176381f206b821eb35afdf7e86.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/28c518176381f206b821eb35afdf7e86.jpeg)
 
    </li>
 
@@ -8634,7 +8634,7 @@ This topic describes how to scale up a physical server of ASR for Backup and Rec
    docker ps
    ```
 
-   ![](assets/e5a690b343a3846fba3df92afdbf24f8.png)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/e5a690b343a3846fba3df92afdbf24f8.png)
 
    </li>
 
@@ -8690,13 +8690,13 @@ You can scale up the CPU and memory of the Docker VM for ASR for Backup and Reco
 
 4. Enter "asrbr" in the Project | Cluster search box. Find the cluster and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/1b0d7e114c402a35fe805aa8145ae277.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/1b0d7e114c402a35fe805aa8145ae277.jpeg)
 
 5. Click the **Desired State Configuration** tab.
 
 6. Select **kv.conf** in the left-side navigation pane and the click **Display Content** in the right-side window. In the right-side window, modify the value of **ClusterScaleFlag** to **standard**.
 
-   ![](assets/97753abd59aaed3d63e8bfde60aac287.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/97753abd59aaed3d63e8bfde60aac287.jpeg)
 
 7. Select **tag.conf** in the left-side navigation pane. In the right-side window, modify the value of **ClusterScaleFlag** to **standard**.
 
@@ -8764,29 +8764,29 @@ You must install an HBR agent on the ECS instance for which you want to perform 
 
    <li>
 
-   Click the <img src="assets/7c7e1cb8edb2137a0c1b9cfdae60ba0c.png" width="10" alt=""> icon in the **Service Registration** column of the **rds-ddr-proxy** service, and then click the content in the Service
+   Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/7c7e1cb8edb2137a0c1b9cfdae60ba0c.png" width="10" alt=""> icon in the **Service Registration** column of the **rds-ddr-proxy** service, and then click the content in the Service
 
    Registration column. The Registration Variables dialog box appears.
 
-   ![](assets/bea0e067a9be369eb9ac27db879b9283.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/bea0e067a9be369eb9ac27db879b9283.jpeg)
 
    In the Registration Variables dialog box, view the value of the **asr.resource.domain** service registration variable.
 
-   ![](assets/2afe7297d5610c968e1f51171a6d441b.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/2afe7297d5610c968e1f51171a6d441b.jpeg)
 
    </li>
 
    <li>
 
-   Click the <img src="assets/7c7e1cb8edb2137a0c1b9cfdae60ba0c.png" width="10" alt=""> icon in the **Service Registration** column of the **hbr-rabbitmq** service, and then click the content in the Service
+   Click the <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/7c7e1cb8edb2137a0c1b9cfdae60ba0c.png" width="10" alt=""> icon in the **Service Registration** column of the **hbr-rabbitmq** service, and then click the content in the Service
 
    Registration column. The Registration Variables dialog box appears.
 
-   ![](assets/88b8a5498c1319fa48d388598a69af0d.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/88b8a5498c1319fa48d388598a69af0d.jpeg)
 
    In the Registration Variables dialog box, view the value of the **hbr.rabbitmq.domain** service registration variable.
 
-   ![](assets/2bdd7f9a691688807e8a35f27183b3c8.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/2bdd7f9a691688807e8a35f27183b3c8.jpeg)
 
    </li>
 
@@ -8864,7 +8864,7 @@ You must install an HBR agent on the ECS instance for which you want to perform 
      ps aux | grep hbr
      ```
 
-     ![](assets/03e8322df29797b8635655522d07431d.png)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/03e8322df29797b8635655522d07431d.png)
 
    - In Windows, start Task Manager and check whether the **hybridbackup** service is in the **Running** state.
 
@@ -9014,7 +9014,7 @@ The HBR service is abnormal.
 
 5. On the **Cluster Details** page, click **hbr-console** service.
 
-   ![](assets/199b2554851691e6dd084de6510c0b65.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/199b2554851691e6dd084de6510c0b65.jpeg)
 
 6. Click the Instance /IP Address to go to the **Machine Details** page.
 
@@ -9106,7 +9106,7 @@ This topic describes how to resolve the error that a backup vault fails to be cr
 
   On the **Services** tab of the cluster details page, click the **hbr-console** service.
 
-  ![](assets/199b2554851691e6dd084de6510c0b65.jpeg)
+  ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/199b2554851691e6dd084de6510c0b65.jpeg)
 
   </li>
 
@@ -9178,7 +9178,7 @@ This topic describes how to resolve the error that a backup vault fails to be cr
   >
   > Turn off **Enable HTTPS**.
 
-  ![](assets/f76fc3a08cbe185e30b6e3c2a88b6fb8.jpeg)
+  ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/f76fc3a08cbe185e30b6e3c2a88b6fb8.jpeg)
 
   | Parameter | Description |
   | --- | --- |
@@ -9240,9 +9240,9 @@ A common user does not have the permissions to log on to the ASR for Backup and 
 
 4. Select the organization to which the common user belongs from the drop-down list, enter the name of the common user in the search box,
 
-   and then click <img src="assets/97a1e2dd9df6b166147d33d16b20d9f5.png" width="9" alt=""> .
+   and then click <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/97a1e2dd9df6b166147d33d16b20d9f5.png" width="9" alt=""> .
 
-5. Find the common user, click <img src="assets/808cd2b91223043fae3a2a73e363741b.png" width="11" alt=""> in the **Actions** column, and select **Authorize**.
+5. Find the common user, click <img src="en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/808cd2b91223043fae3a2a73e363741b.png" width="11" alt=""> in the **Actions** column, and select **Authorize**.
 
 6. Select a role for the common user and grant the corresponding permissions to the common user. For more information, see Roles and Permissions.
 
@@ -9482,7 +9482,7 @@ A backup plan used to back up ECS files fails to be run in Apsara Stack Resilien
 
    In the Products section, enter asrbr in the **Product | Cluster** field.
 
-   ![](assets/d849afd5a34f5deed07e9b3755265665.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/d849afd5a34f5deed07e9b3755265665.jpeg)
 
    </li>
 
@@ -9496,7 +9496,7 @@ A backup plan used to back up ECS files fails to be run in Apsara Stack Resilien
 
    On the **Services** tab of the cluster details page, check whether all services are at desired state.
 
-   ![](assets/0109bc40ea6d6c54e3b6978682c55ae6.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/0109bc40ea6d6c54e3b6978682c55ae6.jpeg)
 
    - If all services are at desired state, the services can be used as expected.
 
@@ -9532,7 +9532,7 @@ A backup plan used to back up ECS files fails to be run in Apsara Stack Resilien
 
    displayed in the Authorized Instance Type column.
 
-   ![](assets/935761fa9d70ba2be6ca61ac2070fd9a.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/935761fa9d70ba2be6ca61ac2070fd9a.jpeg)
 
    > **Note**
    >
@@ -9552,7 +9552,7 @@ A backup plan used to back up ECS files fails to be run in Apsara Stack Resilien
      ps -ef | grep hbr
      ```
 
-     ![](assets/952356efeb4ea9f34fd58844395ebbba.jpeg)
+     ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/952356efeb4ea9f34fd58844395ebbba.jpeg)
 
    - Windows
 
@@ -9682,7 +9682,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
 
    In the Products section, enter asrbr in the **Product | Cluster** field.
 
-   ![](assets/d849afd5a34f5deed07e9b3755265665.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/d849afd5a34f5deed07e9b3755265665.jpeg)
 
    </li>
 
@@ -9710,7 +9710,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
 
    column.
 
-   ![](assets/28c518176381f206b821eb35afdf7e86.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/28c518176381f206b821eb35afdf7e86.jpeg)
 
    </li>
 
@@ -9726,7 +9726,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
    docker ps
    ```
 
-   ![](assets/2e3b631ddaada4bcc97304f667867cb9.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/2e3b631ddaada4bcc97304f667867cb9.jpeg)
 
    <ol type="i" start="4">
 
@@ -9754,7 +9754,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
    df -h
    ```
 
-   ![](assets/420dcb9dd774f04b32bb962c29840377.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/420dcb9dd774f04b32bb962c29840377.jpeg)
 
    </li>
 
@@ -9785,7 +9785,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
    echo "" > asrbr-backup.log
    ```
 
-   ![](assets/7c20e5c6db21135f9d87c72b848118f8.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/7c20e5c6db21135f9d87c72b848118f8.jpeg)
 
 4. Log in to the hbr-console container.
 
@@ -9795,7 +9795,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
 
    On the **Services** tab, find the **hbr-console** service and click its name.
 
-   ![](assets/e5ca8bdfeb15f6c57030fb1553d2a400.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/e5ca8bdfeb15f6c57030fb1553d2a400.jpeg)
 
    </li>
 
@@ -9805,7 +9805,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
 
    column.
 
-   ![](assets/cb8d3621d5ae3e2b8eb5392eda526d7a.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/cb8d3621d5ae3e2b8eb5392eda526d7a.jpeg)
 
    </li>
 
@@ -9821,7 +9821,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
    docker ps
    ```
 
-   ![](assets/fd04b814f66b5c5b2f09b4d18193611f.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/fd04b814f66b5c5b2f09b4d18193611f.jpeg)
 
    <ol type="i" start="4">
 
@@ -9843,7 +9843,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
    df -h
    ```
 
-   ![](assets/26d24c2dc56f251838b4f4ba3c9ffa6b.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/26d24c2dc56f251838b4f4ba3c9ffa6b.jpeg)
 
    </li>
 
@@ -9860,7 +9860,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
    rm hbr-console-as.log.x.log
    ```
 
-   ![](assets/05805a8ecbdaccea95077e4a0758e64b.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/05805a8ecbdaccea95077e4a0758e64b.jpeg)
 
    </li>
 
@@ -9886,7 +9886,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
 
    column.
 
-   ![](assets/2382efb192c469e3da32bac9cca383ec.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/2382efb192c469e3da32bac9cca383ec.jpeg)
 
    </li>
 
@@ -9902,7 +9902,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
    df -h
    ```
 
-   ![](assets/d712a29e02a3e731b2470da70490112b.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/d712a29e02a3e731b2470da70490112b.jpeg)
 
    <ol type="i" start="4">
 
@@ -9916,7 +9916,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
    du -sh *
    ```
 
-   ![](assets/63ae6f5dbbbf26a70bac3f69f171352d.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/63ae6f5dbbbf26a70bac3f69f171352d.jpeg)
 
    </li>
 
@@ -9931,7 +9931,7 @@ In Apsara Stack Resilience for Backup and Recovery (ASR-BR), backup data is unav
    rm -rf xxxx-xx-xx/
    ```
 
-   ![](assets/c5f109bd5ec361cf6680666f5444c576.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/c5f109bd5ec361cf6680666f5444c576.jpeg)
 
    </li>
 
@@ -9993,11 +9993,11 @@ The services of specific components are not at desired state during deployment o
 
 4. In the Projects section, enter asrbr in the **Product | Cluster** field.
 
-   ![](assets/c594b7e98257e61537b46231708291e4.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/c594b7e98257e61537b46231708291e4.jpeg)
 
 5. In the search results, find the cluster that you want to manage and click **Cluster Details** in the Actions column. On the cluster details page, view the status of each service component in the cluster. Repeat the preceding operations to view the status of all service components in all ASR-BR clusters.
 
-   ![](assets/4b69dbdc959ce0898a322cbb2f3139bb.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/4b69dbdc959ce0898a322cbb2f3139bb.jpeg)
 
    > **Note**
    >
@@ -10039,10 +10039,10 @@ This topic describes how to log on to an asrbr-backup.Backup# terminal.
 
 4. Enter asrbr in the Project | Cluster search box. Find the cluster and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/1b0d7e114c402a35fe805aa8145ae277.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/1b0d7e114c402a35fe805aa8145ae277.jpeg)
 
 5. Click **asrbr-backup** on the **Services** tab.
 
 6. In the **Components** navigation pane, click **Backup#**. On the Instances tab, click **Terminal** in the **Actions** column.
 
-   ![](assets/28c518176381f206b821eb35afdf7e86.jpeg)
+   ![](en-asr-backup-recovery-operations-guide-v3.18.6-20260701.assets/28c518176381f206b821eb35afdf7e86.jpeg)

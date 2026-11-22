@@ -55,7 +55,7 @@ The network inspection feature allows you to schedule network inspection tasks o
 
    - You can click **Advanced Filter** and filter inspection configurations by **Name**, **Product**, **Service**, **Role**, **Status**, or their combinations.
 
-   ![](assets/5bac3130d668f32bdc56a1ce3a1ced30.jpeg)
+   ![](en-vpn-operations-guide-v3.18.6-2607-20260828.assets/5bac3130d668f32bdc56a1ce3a1ced30.jpeg)
 
    > **Note**
    >
@@ -63,7 +63,7 @@ The network inspection feature allows you to schedule network inspection tasks o
    >
    > icon next to **Number of Executions** to sort data in ascending or
    >
-   > <img src="assets/84f6572acc9825b42b49835475ee87ee.png" width="20" alt="">
+   > <img src="en-vpn-operations-guide-v3.18.6-2607-20260828.assets/84f6572acc9825b42b49835475ee87ee.png" width="20" alt="">
    >
    > descending order.
 
@@ -71,7 +71,7 @@ The network inspection feature allows you to schedule network inspection tasks o
 
    - On the **Execution Information** tab, view the **Basic Information**, **Execution Information**, and execution task list.
 
-     ![](assets/48bfe03766afeaf7685a00ee94ffb812.jpeg)
+     ![](en-vpn-operations-guide-v3.18.6-2607-20260828.assets/48bfe03766afeaf7685a00ee94ffb812.jpeg)
 
      - In the **Basic Information** section, you can view the following information: **Inspection Item ID**, **Name**, **Code**, **Description**, **Data Type**, **Product**, **Service**, **Service Role**, **Switch Alert**, and **Alert Severity**.
 
@@ -105,7 +105,7 @@ The network inspection feature allows you to schedule network inspection tasks o
 
    - On the **Related Events** tab, view the related events.
 
-     ![](assets/04c8020051b0e0c1cb397aec293a9896.jpeg)
+     ![](en-vpn-operations-guide-v3.18.6-2607-20260828.assets/04c8020051b0e0c1cb397aec293a9896.jpeg)
 
      - The event information includes **Event Name**, **Event Description**, **Associated Object**, **Event Source Type**, **Event Source**, **Event Exception Type**, **Event Timeout Period**, **Event Severity**, **Associated Alert ID**, and **Triggered At**.
 
@@ -115,7 +115,7 @@ The network inspection feature allows you to schedule network inspection tasks o
 
        The event details include **Event Information** and **Event content**. The event details vary based on the event type. The displayed information prevails.
 
-       ![](assets/7f0aee59e31629faf70f37a61bea3691.jpeg)
+       ![](en-vpn-operations-guide-v3.18.6-2607-20260828.assets/7f0aee59e31629faf70f37a61bea3691.jpeg)
 
 **Related operations**
 

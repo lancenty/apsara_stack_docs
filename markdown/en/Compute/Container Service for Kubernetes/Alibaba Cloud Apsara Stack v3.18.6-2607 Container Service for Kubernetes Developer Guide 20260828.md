@@ -212,7 +212,7 @@ The API operations on the API Directory page are only for reference. For informa
 
 5. In the **OpenAPI Explorer** page, choose **API Integration > API Debugging**.
 
-   ![](assets/16867bc283404a4d59d596618fd59213.jpeg)
+   ![](en-ack-developer-guide-v3.18.6-2607-20260828.assets/16867bc283404a4d59d596618fd59213.jpeg)
 
 6. In the left navigation bar, select the required cloud service.
 
@@ -261,7 +261,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-ack-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -530,7 +530,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-ack-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -540,7 +540,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 7. Click the operation that you want to call. Obtain the endpoint from the Endpoint parameter on the Parameter tab.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-ack-developer-guide-v3.18.6-2607-20260828.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 <a id="section-1-1-7"></a>
 
@@ -4291,7 +4291,7 @@ GET /clusters/[ClusterId]/nodepools HTTP/1.1
 | login_passwor d | String | \*\*\*\*\*\* | The password for SSH logon. The password must be 8 to 30 characters in length, and must contain at least three of the following character types: uppercase letters, lowercase letters, digits, and special characters.<br>For security purposes, the returned password is encrypted. |
 | multi_az_polic y | String | BALANCE | The ECS instance scaling policy for a multi-zone scaling group. |
 
-![](assets/2a025702bad4207511dee3261f649ec3.png)
+![](en-ack-developer-guide-v3.18.6-2607-20260828.assets/2a025702bad4207511dee3261f649ec3.png)
 
 <table>
   <tr>
@@ -4687,7 +4687,7 @@ GET /clusters/[ClusterId]/nodepools/[NodepoolId] HTTP/1.1
 | platform | String | AliyunLinux | The OS distribution. Valid values:<br>• <code> CentOS </code>: CentOS<br>• <code> AliyunLinux </code>: Alibaba Cloud Linux<br>• <code> WindowsCore </code>: Windows<br>• <code> CentOS 7.6 </code>: CentOS 7.6<br>• <code> ARM CentOS </code>: CentOS 7.7<br>• <code> NeoKylin </code>: Kylin<br>Default value: <code> AliyunLinux </code> |
 | ram_policy | String | KubernetesWorker Role-021dc54f-929b-437a-8ae0-34c24d3e\*\*\*\* | The name of the worker Resource Access Management (RAM) role. The RAM role is assigned to the worker nodes of the cluster to allow the worker nodes to manage ECS instances. |
 
-![](assets/b1bd6254e89c9c10d6ac50e272675bc5.png)
+![](en-ack-developer-guide-v3.18.6-2607-20260828.assets/b1bd6254e89c9c10d6ac50e272675bc5.png)
 
 <table>
   <tr>
@@ -5733,7 +5733,7 @@ POST /clusters/[ClusterId]/components/upgrade HTTP/1.1
 | next_version | String |  | Yes | 1.6.7 | The required version. You can call the <code>DescribeClusterAddonsVersion</code> <code> </code> operation to query the version to which the component can be upgraded. |
 | version | String |  | No | v1.6.2 | The current version of the component. |
 
-![](assets/f932e7b59888ffb517d6c0923ca8c26b.png)
+![](en-ack-developer-guide-v3.18.6-2607-20260828.assets/f932e7b59888ffb517d6c0923ca8c26b.png)
 
 **Examples**
 

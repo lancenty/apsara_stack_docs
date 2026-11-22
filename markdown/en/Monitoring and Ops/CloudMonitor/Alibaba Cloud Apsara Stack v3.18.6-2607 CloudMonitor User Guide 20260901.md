@@ -170,7 +170,7 @@ CloudMonitor helps you implement comprehensive and efficient monitoring. You can
 
 **Usage notes**
 
-![](assets/9bab88a22286a7724e00bdf1e52fe3f3.jpeg)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/9bab88a22286a7724e00bdf1e52fe3f3.jpeg)
 
 > **Important**
 >
@@ -182,21 +182,21 @@ CloudMonitor helps you implement comprehensive and efficient monitoring. You can
 >
 > When you view information in a list, take note of the following points:
 >
-> - The <img src="assets/61cc449a20c0ea748c4b261805753c9d.png" width="14" alt=""> , <img src="assets/3edcc1158955b61fe73e9cacfdd54c28.png" width="14" alt=""> , <img src="assets/3955d7e1d4dea555813be4f98623eddc.png" width="14" alt=""> , and <img src="assets/5eff0123273affeea41737554c51b73c.png" width="16" alt=""> buttons are displayed above the list. You can adjust the list
+> - The <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/61cc449a20c0ea748c4b261805753c9d.png" width="14" alt=""> , <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/3edcc1158955b61fe73e9cacfdd54c28.png" width="14" alt=""> , <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/3955d7e1d4dea555813be4f98623eddc.png" width="14" alt=""> , and <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/5eff0123273affeea41737554c51b73c.png" width="16" alt=""> buttons are displayed above the list. You can adjust the list
 >
 >   based on your business requirements.
 >
->   <img src="assets/61cc449a20c0ea748c4b261805753c9d.png" width="14" alt=""> : refreshes the list.
+>   <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/61cc449a20c0ea748c4b261805753c9d.png" width="14" alt=""> : refreshes the list.
 >
->   <img src="assets/3edcc1158955b61fe73e9cacfdd54c28.png" width="14" alt=""> : displays information in the default or compact mode.
+>   <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/3edcc1158955b61fe73e9cacfdd54c28.png" width="14" alt=""> : displays information in the default or compact mode.
 >
->   <img src="assets/3955d7e1d4dea555813be4f98623eddc.png" width="14" alt=""> : shows or hides specific items in the list. Move the pointer over a display
+>   <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/3955d7e1d4dea555813be4f98623eddc.png" width="14" alt=""> : shows or hides specific items in the list. Move the pointer over a display
 >
->   item and click the <img src="assets/abfe2f45bfb0bd0468def130cc5d94a0.png" width="17" alt=""> icon to the right of the display item to adjust the order
+>   item and click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/abfe2f45bfb0bd0468def130cc5d94a0.png" width="17" alt=""> icon to the right of the display item to adjust the order
 >
 >   of the items.
 >
->   <img src="assets/5eff0123273affeea41737554c51b73c.png" width="16" alt=""> : displays information in full screen mode.
+>   <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/5eff0123273affeea41737554c51b73c.png" width="16" alt=""> : displays information in full screen mode.
 >
 > - You can resize the width of columns based on your business requirements. The column width configuration is stored in the local storage of the browser. If you clear the local storage, the configuration becomes invalid.
 
@@ -220,7 +220,7 @@ The CloudMonitor overview provides a comprehensive view of your resource usage, 
 
 4. On the **overview** page, click the **Monitoring Overview** tab to view the overview information.
 
-   ![](assets/2820852c7593ba99e9775d1131566c7e.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/2820852c7593ba99e9775d1131566c7e.jpeg)
 
    | Module | Description |
    | --- | --- |
@@ -228,7 +228,7 @@ The CloudMonitor overview provides a comprehensive view of your resource usage, 
    | Alert Rules | • Displays the number of alert rules with the status <strong>In Alarm</strong>, <strong>Insufficient</strong> <strong>Data</strong>, or <strong>OK</strong>.<br>Note<br>An <strong>alert rule</strong> may have the <strong>Insufficient Data</strong> status for the following reasons:<br>• The cloud service is not reporting data for the specified metric.<br>• The cloud service instance was deleted.<br>• The cloud service instance was not created in or is missing from the Logstore and requires investigation.<br>• Click <strong>View Details</strong> to go to the <strong>Alert Rules</strong> page and view detailed information about the alert rules. |
    | Event Alerts | • Event alerts report the status of system events for cloud services, helping you quickly analyze and resolve issues when a service fails.<br>• Click <strong>View Details</strong> to go to the <strong>System Events</strong> page and view detailed event alert information. |
    | Alert History | • Shows details of active alerts for all monitored cloud services.<br>• Click <strong>View Details</strong> to go to the <strong>Alert History</strong> page and view detailed alert information. |
-   | Cloud Service Monitoring | • CloudMonitor automatically retrieves the total number of instances and alerts for the cloud service resources under your account.<br>• Click the name of a cloud service to go to its monitoring page, where you can view monitoring charts and alert rules for each instance.<br>• Click<img src="assets/9dfb1dbfda1b366d194b0fce6eea6487.png" width="12" alt="">to view the alert rules for the cloud service.<br>• Click<img src="assets/f16e6763cd2101e63d3e327d4565524f.png" width="12" alt="">to view the monitoring information for the cloud service. |
+   | Cloud Service Monitoring | • CloudMonitor automatically retrieves the total number of instances and alerts for the cloud service resources under your account.<br>• Click the name of a cloud service to go to its monitoring page, where you can view monitoring charts and alert rules for each instance.<br>• Click<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/9dfb1dbfda1b366d194b0fce6eea6487.png" width="12" alt="">to view the alert rules for the cloud service.<br>• Click<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/f16e6763cd2101e63d3e327d4565524f.png" width="12" alt="">to view the monitoring information for the cloud service. |
 
 **Governance and inspection**
 
@@ -236,7 +236,7 @@ The governance and inspection feature analyzes metrics and alert rules for resou
 
 1. On the **overview** page, click the **Governance and Inspection** tab to view the governance and inspection information.
 
-   ![](assets/1b59248d1134e23c58091e2a5dcc009b.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/1b59248d1134e23c58091e2a5dcc009b.jpeg)
 
    | Module | Description |
    | --- | --- |
@@ -295,7 +295,7 @@ The monitoring assistant is an intelligent O&M assistant integrated into the Clo
 
    - On the left side of the interface, you can filter sessions by All, Completed, In Progress, Recent, and Scheduled Task.
 
-   - In the upper-left corner of the interface, click <img src="assets/f42357c8e02668480d6aaa122b2764ab.png" width="14" alt=""> and enter session content to quickly
+   - In the upper-left corner of the interface, click <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/f42357c8e02668480d6aaa122b2764ab.png" width="14" alt=""> and enter session content to quickly
 
      search for sessions.
 
@@ -309,7 +309,7 @@ The monitoring assistant is an intelligent O&M assistant integrated into the Clo
 
    </ol>
 
-   Move the pointer over the session, click <img src="assets/2c789a2b1f2080a5973bd5d5cff38185.png" width="16" alt=""> next to the session, select **Rename**, edit the
+   Move the pointer over the session, click <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/2c789a2b1f2080a5973bd5d5cff38185.png" width="16" alt=""> next to the session, select **Rename**, edit the
 
    name, and press Enter.
 
@@ -319,7 +319,7 @@ The monitoring assistant is an intelligent O&M assistant integrated into the Clo
 
    Pin a session
 
-   Move the pointer over the session, click <img src="assets/2c789a2b1f2080a5973bd5d5cff38185.png" width="16" alt=""> next to the session, and select **Pin** to pin the
+   Move the pointer over the session, click <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/2c789a2b1f2080a5973bd5d5cff38185.png" width="16" alt=""> next to the session, and select **Pin** to pin the
 
    target session to the top.
 
@@ -329,7 +329,7 @@ The monitoring assistant is an intelligent O&M assistant integrated into the Clo
 
    Delete a session
 
-   Move the pointer over the session, click <img src="assets/2c789a2b1f2080a5973bd5d5cff38185.png" width="16" alt=""> next to the session, and select **Delete** to
+   Move the pointer over the session, click <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/2c789a2b1f2080a5973bd5d5cff38185.png" width="16" alt=""> next to the session, and select **Delete** to
 
    delete the target session.
 
@@ -341,7 +341,7 @@ The monitoring assistant is an intelligent O&M assistant integrated into the Clo
 
    - Click **New Task** on the left side, enter a command in the input box or upload an
 
-     attachment, and then click <img src="assets/36941e26d7c0a2e4ad0ce97a3c4c75f7.png" width="14" alt=""> to create and execute a new task. Multiple O&M scenarios
+     attachment, and then click <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/36941e26d7c0a2e4ad0ce97a3c4c75f7.png" width="14" alt=""> to create and execute a new task. Multiple O&M scenarios
 
      are supported.
 
@@ -381,7 +381,7 @@ The monitoring assistant is an intelligent O&M assistant integrated into the Clo
 
    </ol>
 
-   Click <img src="assets/1604088d57a9db88cfb063e156363934.png" width="15" alt=""> next to a custom skill to enable or disable the skill.
+   Click <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/1604088d57a9db88cfb063e156363934.png" width="15" alt=""> next to a custom skill to enable or disable the skill.
 
    <ol type="i" start="4">
 
@@ -389,7 +389,7 @@ The monitoring assistant is an intelligent O&M assistant integrated into the Clo
 
    Delete a skill.
 
-   Click <img src="assets/d0ec769e0fbf69b5fe1d897c744fed51.png" width="14" alt=""> next to a custom skill to delete the skill.
+   Click <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/d0ec769e0fbf69b5fe1d897c744fed51.png" width="14" alt=""> next to a custom skill to delete the skill.
 
    </li>
 
@@ -481,7 +481,7 @@ The monitoring assistant is an intelligent O&M assistant integrated into the Clo
 
    </ol>
 
-   Click <img src="assets/ef713b7e03e702f34ad5be14ce352559.png" width="16" alt=""> on the scheduled task card to enable or disable the scheduled task.
+   Click <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/ef713b7e03e702f34ad5be14ce352559.png" width="16" alt=""> on the scheduled task card to enable or disable the scheduled task.
 
    <ol type="i" start="3">
 
@@ -545,7 +545,7 @@ UModel exploration is a visual resource relationship graph tool in the CMS platf
 
 4. The current page displays the following information:
 
-   ![](assets/908231da72c14af9aabdf4bf71a2fec1.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/908231da72c14af9aabdf4bf71a2fec1.jpeg)
 
    - Global statistics panel
 
@@ -575,7 +575,7 @@ UModel exploration is a visual resource relationship graph tool in the CMS platf
 
    <li>
 
-   Click the settings icon <img src="assets/b7720e5e2abacd05352db4f0bb21e130.png" width="14" alt=""> in the upper-left corner to go to the Settings tab.
+   Click the settings icon <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/b7720e5e2abacd05352db4f0bb21e130.png" width="14" alt=""> in the upper-left corner to go to the Settings tab.
 
    </li>
 
@@ -639,7 +639,7 @@ Entity topology exploration is an instance-level resource relationship visualiza
 
 4. The current page displays the following information:
 
-   ![](assets/7bb0603595a91029715f0ea6146695e7.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/7bb0603595a91029715f0ea6146695e7.jpeg)
 
    - Global statistics panel
 
@@ -663,7 +663,7 @@ Entity topology exploration is an instance-level resource relationship visualiza
 
    - Fit view
 
-     Click <img src="assets/670dc14f265914965a286e2c825ebaf6.png" width="12" alt=""> Fit View in the upper-left corner of the canvas to fit the view, or scroll the mouse
+     Click <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/670dc14f265914965a286e2c825ebaf6.png" width="12" alt=""> Fit View in the upper-left corner of the canvas to fit the view, or scroll the mouse
 
      wheel to zoom the view.
 
@@ -673,7 +673,7 @@ Entity topology exploration is an instance-level resource relationship visualiza
 
    <li>
 
-   Click the settings icon <img src="assets/b7720e5e2abacd05352db4f0bb21e130.png" width="14" alt=""> in the upper-left corner to go to the Settings tab.
+   Click the settings icon <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/b7720e5e2abacd05352db4f0bb21e130.png" width="14" alt=""> in the upper-left corner to go to the Settings tab.
 
    </li>
 
@@ -752,7 +752,7 @@ CloudMonitor provides a visualized interface to quickly identify abnormal cloud 
 
 4. The **Alert Overview** page consists of the following seven sections that analyze and collect statistics on alert information from different perspectives.
 
-   ![](assets/e925b9b393d69bf78cc8ca80044098fd.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/e925b9b393d69bf78cc8ca80044098fd.jpeg)
 
    - **Alert (not closed)**: provides the distribution of active alerts that are not resolved in the resource set of the current organization. The alerts are classified into Critical, Warning, Info, and Notification based on the alert level. Click **Details** to go to the **Alerts** page.
 
@@ -796,11 +796,11 @@ The alert list displays active alerts, historical alerts, and alert trends. Aler
 
    - At the top of the **active alerts** tab, filter alerts by **alert ID**, **Alert Name**, **severity**, **alert source**, **resource**, **Product**, **alert message**, **extended attributes**, and a time range.
 
-     ![](assets/e2f6c1bf4a1b1be94ca56c4793d482d2.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/e2f6c1bf4a1b1be94ca56c4793d482d2.jpeg)
 
    - The **alert trend** section displays the number of alerts over time.
 
-     ![](assets/f4213b1f3aa56fb43e28cad95673d901.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/f4213b1f3aa56fb43e28cad95673d901.jpeg)
 
      - In each bar, colored sections represent different severities. Darker colors indicate higher severity.
 
@@ -810,7 +810,7 @@ The alert list displays active alerts, historical alerts, and alert trends. Aler
 
    - The alert list includes columns such as **Alert ID/Name**, **Organization**, **severity**, **resource/Product**, **alert message**, **alert state**, **processing status**, **alert source**, **Occurrences**, **Start Time**, **Last Occurrence**, and **Duration (s).**
 
-     ![](assets/0bc8f16878db2908ac570e84371a5740.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/0bc8f16878db2908ac570e84371a5740.jpeg)
 
      - Click an alert's **Alert ID/Name** to view its details page.
 
@@ -820,7 +820,7 @@ The alert list displays active alerts, historical alerts, and alert trends. Aler
 
        - View basic information about the alert in the Basic Information section.
 
-         ![](assets/24fdcb69a8b188dcd959d64f45bf34e6.jpeg)
+         ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/24fdcb69a8b188dcd959d64f45bf34e6.jpeg)
 
        - View additional information about the alert in the **Extended Attributes** section.
 
@@ -832,11 +832,11 @@ The alert list displays active alerts, historical alerts, and alert trends. Aler
 
          Click **Add**. In the **Add Timeline Event** panel, configure **Select Node**, **Time**, and **Description**.
 
-         ![](assets/4ae5aa4aa8abcfe801a72923a9931c72.jpeg)
+         ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/4ae5aa4aa8abcfe801a72923a9931c72.jpeg)
 
        - The **alert analysis** section shows detailed monitoring metrics and an alert trace diagram.
 
-         ![](assets/163522ef0d66c349691b50c400261a19.jpeg)
+         ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/163522ef0d66c349691b50c400261a19.jpeg)
 
          Click **Monitoring Chart** to specify a custom time range and view the trend chart for monitoring metrics.
 
@@ -850,7 +850,7 @@ The alert list displays active alerts, historical alerts, and alert trends. Aler
          >
          > You can provide feedback on an alert's validity and accuracy when you close it.
 
-         ![](assets/705dea6e94b6e1dc285400aeccb22357.jpeg)
+         ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/705dea6e94b6e1dc285400aeccb22357.jpeg)
 
      - Once the triggering condition is resolved, the system periodically updates the alert state based on the corresponding alert rule. If the alert state is not updated promptly, you can manually change its processing status to **in progress** or **closed**.
 
@@ -874,7 +874,7 @@ The alert center of Cloud Monitor integrates alert rule capabilities of Applicat
 
 **ARMS**
 
-![](assets/239b73b9f70671bcd31e8147628db23d.jpeg)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/239b73b9f70671bcd31e8147628db23d.jpeg)
 
 For more information about alert rules in ARMS and the operations that you can perform on historical alerts, see **Application Real-Time Monitoring Service** > **User Guide** > **Alerts** > **Create an alert rule**.
 
@@ -884,13 +884,13 @@ For more information about alert rules in ARMS and the operations that you can p
 >
 > If the system prompts that the operation is unauthorized, click **Authorization operation SLS permissions** and open the page again.
 
-![](assets/35f40888597e0689f9534a51eed0e4de.jpeg)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/35f40888597e0689f9534a51eed0e4de.jpeg)
 
 Cloud Monitor allows you to subscribe to the metric store of SLS. For more information, see **Simple Log Service** > **User Guide**.
 
 **Prometheus**
 
-![](assets/a6d4794bca494d5022710a0b75e6e27a.jpeg)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/a6d4794bca494d5022710a0b75e6e27a.jpeg)
 
 For more information about alert rules in Managed Service for Prometheus and the operations that you can perform on historical alerts, see **Simple Log Service** > **User Guide** > **Alerts** > **Configure an alarm**.
 
@@ -1062,7 +1062,7 @@ A notification policy lets you filter, consolidate, and reduce noise from trigge
        >
        > You can configure multiple body parameters.
 
-   ![](assets/532b0e50fbace5c8e4bb7d6a4e344d6d.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/532b0e50fbace5c8e4bb7d6a4e344d6d.jpeg)
 
 6. Click **OK**.
 
@@ -1082,17 +1082,17 @@ The **Notification Policy** page shows a list of policies and their details, inc
 >
 > - Use the dropdown lists or the search box at the top of the policy list to quickly find a notification policy.
 >
-> - Click the <img src="assets/eaeb7e80b702e2a560506052223c3e66.png" width="22" alt=""> icon next to the Policy status column to filter policies by status.
+> - Click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/eaeb7e80b702e2a560506052223c3e66.png" width="22" alt=""> icon next to the Policy status column to filter policies by status.
 >
 > - Hover over the number in the **Notification rules**, **Effective period**, or **Notification target** column to view details.
 >
-> - Click the <img src="assets/e79b5d3bc0fe9a0c26ee0fb953589f68.png" width="18" alt=""> icon in the **Notification history** column to view the notification
+> - Click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/e79b5d3bc0fe9a0c26ee0fb953589f68.png" width="18" alt=""> icon in the **Notification history** column to view the notification
 >
 >   history from the last three days. The history includes details such as **Alert ID/Alert name**, **Alert level**, **Alert object/Product**, **Alert content**, **Processing status**, **Alert start time**, **Last alert time**, and **Send time**.
 >
 >   Click **View More** in the upper-right corner to go to the **Message Center > Unread Messages** page.
 
-![](assets/e01f2e982b394c71753242001d9d3817.jpeg)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/e01f2e982b394c71753242001d9d3817.jpeg)
 
 **Modify notification policy**
 
@@ -1370,7 +1370,7 @@ You can configure a temporary or permanent blocking policy for alerts. The block
      </tr>
    </table>
 
-   ![](assets/c6b1f3b4891259c3524f925d23fe49d0.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/c6b1f3b4891259c3524f925d23fe49d0.jpeg)
 
 6. Click **OK**.
 
@@ -1386,11 +1386,11 @@ On the **Masking policy** page, view the **Policy name**, **Policy description**
 >
 > - You can select a blocking policy from the drop-down list or enter a policy name in the search box to quickly find a blocking policy.
 >
-> - You can click the <img src="assets/eaeb7e80b702e2a560506052223c3e66.png" width="22" alt=""> icon next to Policy status to filter blocking policies.
+> - You can click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/eaeb7e80b702e2a560506052223c3e66.png" width="22" alt=""> icon next to Policy status to filter blocking policies.
 >
 > - You can move the pointer over the number in the **Masking rules** and **Masking period** columns to view the details.
 
-![](assets/ace898147e9b8e2521603727bc981700.jpeg)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/ace898147e9b8e2521603727bc981700.jpeg)
 
 **Modify a blocking policy**
 
@@ -1644,7 +1644,7 @@ You can install the CloudMonitor agent on Elastic Compute Service (ECS) instance
 
 **Install the CloudMonitor agent on a single ECS instance**
 
-1. Find the ECS instance on which you want to install the CloudMonitor agent and click the <img src="assets/371ee34d5b17fc627ee1ef859fff2881.png" width="14" alt="">
+1. Find the ECS instance on which you want to install the CloudMonitor agent and click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/371ee34d5b17fc627ee1ef859fff2881.png" width="14" alt="">
 
    icon.
 
@@ -1656,7 +1656,7 @@ You can install the CloudMonitor agent on Elastic Compute Service (ECS) instance
    >
    > icon in the **Agent Status**
    >
-   > <img src="assets/a281d593086e646560cfe681f78efa43.png" width="18" alt="">
+   > <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/a281d593086e646560cfe681f78efa43.png" width="18" alt="">
    >
    > column to view the installation failure details, including **Last Installation Failure Cause**, **Installation History Details**, **Installation Status**, and **Installed Agent Output**.
 
@@ -1678,7 +1678,7 @@ CloudMonitor polls and collects process data every 15 seconds. For each process,
 
 - Number of open files in a process: This metric corresponds to the output of the **lsof** command in Linux.
 
-![](assets/91b44639c089abd1619e4b9e2096b43e.jpeg)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/91b44639c089abd1619e4b9e2096b43e.jpeg)
 
 **Add or delete system process keywords**
 
@@ -1756,11 +1756,11 @@ After you add a process to monitor, you can set an alert rule for it. This ensur
 
 4. On the **Host Monitoring** page, view the following information for all instances: **Instance ID/Name**, **Organization/Resource Set**, **Region**, **Instance Status**, **ECS Plug-in Status**, **ECS Plug-in Version**, **Configuration**, **CPU Usage**, **Memory Usage**, **Cloud Disk Usage**, **Operating System**, **Instance Type**, **IP Address**, **VPC ID**, **Image ID**, **Zone ID**, and **Creation Time**. You can also sort the instances by **CPU Usage**, **Memory Usage**, and **Cloud Disk Usage**.
 
-   ![](assets/6bbba887656d258c74b6070e4a032ee7.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/6bbba887656d258c74b6070e4a032ee7.jpeg)
 
 5. Click the name of a target instance or **Monitoring Chart** in the **Actions** column to go to the details page for an Elastic Compute Service (ECS) instance. On this page, you can view specific metrics. For more information about the metrics, see Elastic Compute Service.
 
-   ![](assets/57c6ad5ff77bb849b29a0f1bbcefb664.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/57c6ad5ff77bb849b29a0f1bbcefb664.jpeg)
 
 6. Click **Alert Rules** in the **Actions** column for a target instance to go to the **Alert Rules** page. On this page, you can view and manage the alert rules for the instance. For more information, see Manage alert rules.
 
@@ -1768,7 +1768,7 @@ After you add a process to monitor, you can set an alert rule for it. This ensur
 
    You can use the advanced search to filter target instances by **Instance Name**, **Instance ID**, **Classic Network Private IP**, **VPC Private IP**, **Public IP**, **Elastic IP Address**, or **ECS Plug-in Status**.
 
-   ![](assets/b029abbc2b174a549ec7aaffb4c7189a.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/b029abbc2b174a549ec7aaffb4c7189a.jpeg)
 
 <a id="section-6-2"></a>
 
@@ -3905,17 +3905,17 @@ The default for **Period** is **60** seconds. You can also set it to an integer 
 | Write IOPS | IOPS | <code>WriteOPS</code> | <code>instanceId</code> | The number of write operations per second. |
 | Read IOPS | IOPS | <code>ReadOPS</code> | <code>instanceId</code> | The number of read operations per second. |
 
-![](assets/f76d7de74a873a52808403d986e701fa.png)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/f76d7de74a873a52808403d986e701fa.png)
 
-![](assets/2387d72a8a6179200f92ee16343ef2b2.png)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/2387d72a8a6179200f92ee16343ef2b2.png)
 
-![](assets/6fa5c69faf6596131f5e15fed7f6439e.png)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/6fa5c69faf6596131f5e15fed7f6439e.png)
 
-![](assets/e7192a68e815cb235ba7ad5db623f920.png)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/e7192a68e815cb235ba7ad5db623f920.png)
 
-![](assets/06c42428cec20f4d9854ef02f00b716e.png)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/06c42428cec20f4d9854ef02f00b716e.png)
 
-![](assets/72701932fd0d708837b1e7ea56114455.png)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/72701932fd0d708837b1e7ea56114455.png)
 
 <a id="section-6-2-1-4"></a>
 
@@ -5198,7 +5198,7 @@ On the monitoring page of a target cloud product, you can view the operational s
    >
    > - You can view data from the last 7 days at most.
 
-   ![](assets/5f79d3d05076a1f487cc4264692210e5.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/5f79d3d05076a1f487cc4264692210e5.jpeg)
 
 **View alert rules**
 
@@ -5214,7 +5214,7 @@ On the monitoring page of a target cloud product, you can view all alert rules f
    >
    > - For other alert rule operations, see Manage alert rules.
 
-   ![](assets/806a9fa3b81209ec11e3cda76dc3902d.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/806a9fa3b81209ec11e3cda76dc3902d.jpeg)
 
 <a id="section-6-3"></a>
 
@@ -5256,7 +5256,7 @@ Kubernetes Container Monitoring provides the following features:
 
    - For an instance that does not support Prometheus Monitoring 2.0, click its instance ID/name to go to the cluster details page.
 
-     ![](assets/c1886602554baba3936e4229bae26b98.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/c1886602554baba3936e4229bae26b98.jpeg)
 
      - In the basic information section, view the **Cluster Name**, **Cluster ID**, **Cluster Type**, **Version**, and **Virtual Private Cloud (VPC)**.
 
@@ -5268,7 +5268,7 @@ Kubernetes Container Monitoring provides the following features:
        >
        > - You can display the charts in **one column**, **two columns**, or **three columns**. You can select the layout from the drop-down list on the right.
        >
-       > - Click the <img src="assets/9d20766239834da7cdddc753492bd79e.png" width="14" alt=""> icon on the right of a metric chart to add a rule description and
+       > - Click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/9d20766239834da7cdddc753492bd79e.png" width="14" alt=""> icon on the right of a metric chart to add a rule description and
        >
        >   create an alert rule. For parameter details, see Create an alert rule.
        >
@@ -5276,7 +5276,7 @@ Kubernetes Container Monitoring provides the following features:
        >
        >   icon on the right of a metric chart to view it in full screen.
        >
-       >   <img src="assets/4a07356aab994473cd38f3e72c54053a.png" width="17" alt="">
+       >   <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/4a07356aab994473cd38f3e72c54053a.png" width="17" alt="">
 
      - On the **Node** tab, view the **Instance Name/ID**, **Status**, **CPU Utilization**, and **Memory Utilization** for the nodes in the current cluster. Click an instance name/ID or click **View Details** in the **Actions** column to go to the node details page.
 
@@ -5292,7 +5292,7 @@ Kubernetes Container Monitoring provides the following features:
          >
          >   icon on the right of a metric chart to view it in full screen.
          >
-         >   <img src="assets/4a07356aab994473cd38f3e72c54053a.png" width="17" alt="">
+         >   <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/4a07356aab994473cd38f3e72c54053a.png" width="17" alt="">
 
        - On the **Pod List** tab, view the list of pods associated with the current node. The list includes the **Instance Name**, **CPU Usage**, and **Memory Usage**. Click an **Instance Name/ID** or **View Details** in the Actions column to go to the pod details page.
 
@@ -5308,7 +5308,7 @@ Kubernetes Container Monitoring provides the following features:
            >
            >   icon on the right of a metric chart to view it in full screen.
            >
-           >   <img src="assets/4a07356aab994473cd38f3e72c54053a.png" width="17" alt="">
+           >   <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/4a07356aab994473cd38f3e72c54053a.png" width="17" alt="">
 
      - On the **Workload** tab, view the **Instance Name**, **CPU Usage**, and **Memory Usage** of the workloads in the cluster. Click an **Instance Name** or **View Details** in the Actions column to go to the instance details page.
 
@@ -5342,7 +5342,7 @@ Kubernetes Container Monitoring provides the following features:
          >
          >   icon on the right of a metric chart to view it in full screen.
          >
-         >   <img src="assets/4a07356aab994473cd38f3e72c54053a.png" width="17" alt="">
+         >   <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/4a07356aab994473cd38f3e72c54053a.png" width="17" alt="">
 
        - On the **Pod List** tab, view the list of pods associated with the current workload. The list includes the **Instance Name**, **CPU Usage**, and **Memory Usage**. Click an instance name or **View Details** in the Actions column to go to the pod details page.
 
@@ -5358,19 +5358,19 @@ Kubernetes Container Monitoring provides the following features:
            >
            >   icon on the right of a metric chart to view it in full screen.
            >
-           >   <img src="assets/4a07356aab994473cd38f3e72c54053a.png" width="17" alt="">
+           >   <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/4a07356aab994473cd38f3e72c54053a.png" width="17" alt="">
 
      - On the **Event List** tab, you can view up to 100 of the most recent event records reported for the current instance in the last six hours. The list includes **Event Name**, **Event Level**, **Event Status**, **Event Content**, and **Time**.
 
-       ![](assets/109248cf62f970f25927917345c00bc7.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/109248cf62f970f25927917345c00bc7.jpeg)
 
    - For an instance that supports Prometheus Monitoring 2.0, click its instance ID/name to go to the cluster details page.
 
-     ![](assets/6600e3346e314b4cfc4f2a36199627a2.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/6600e3346e314b4cfc4f2a36199627a2.jpeg)
 
      - The platform provides the following dashboards: **Monitoring Overview**, **Core Component Monitoring**, **Node Monitoring**, **Application Monitoring**, **Network Monitoring**, **GPU Monitoring**, **Big Data/AI**, **Resource Profile**, and **Other**.
 
-       ![](assets/27bd8429f8c5afb83bc74940ae5dc788.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/27bd8429f8c5afb83bc74940ae5dc788.jpeg)
 
      - On the **Cluster Details** page, you can quickly create an alert rule for any monitored metric.
 
@@ -5378,9 +5378,9 @@ Kubernetes Container Monitoring provides the following features:
 
        <li>
 
-       Click the <img src="assets/fba6b5dde39beed5f91b92c4675d354b.png" width="22" alt=""> icon on the right of a metric and click **Create Alert**.
+       Click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/fba6b5dde39beed5f91b92c4675d354b.png" width="22" alt=""> icon on the right of a metric and click **Create Alert**.
 
-       ![](assets/c511c0efd75dd2ba311a4fe104003b27.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/c511c0efd75dd2ba311a4fe104003b27.jpeg)
 
        </li>
 
@@ -5394,13 +5394,13 @@ Kubernetes Container Monitoring provides the following features:
 
      - On the cluster details page, click **Export** to export a custom dashboard.
 
-       ![](assets/be479e5bfcdcf634666e8d6070447618.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/be479e5bfcdcf634666e8d6070447618.jpeg)
 
 6. View Prometheus Monitoring 2.0 metrics.
 
    In the left-side navigation pane, click **Metric Warehouse**. For the cloud product, select **Kubernetes Container Monitoring**. You can view metric collection information for **node.cpu.utilization (prometheus2)**, **node.memory.utilization (prometheus2)**, **pod memory utilization(working_set/limit) (prometheus2)**, **pod cpu utilization(usage/limit) (prometheus2)**, **cluster-level cpu utilization (prometheus2)**, and **cluster-level memory utilization (prometheus2)**.
 
-   ![](assets/e84e129d3ab04b403d1b0fa5d2d08d8b.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/e84e129d3ab04b403d1b0fa5d2d08d8b.jpeg)
 
 7. For more information about Prometheus Monitoring 2.0, see the *Prometheus Monitoring Us er Guide*.
 
@@ -5457,8 +5457,8 @@ You can modify or delete application groups on the Application Group page in the
    | Operation | Procedure |
    | --- | --- |
    | View the information about an application group | i. Optional. In the top navigation bar, select an organization. On the <strong>Application Group</strong> page, enter an application group name or ID to search for the application group.<br>ii. Click the name of the application group whose information you want to view. On the details page of the application group, click tabs in the left-side pane to view the corresponding information.<br>• <strong>Group Overview</strong>: displays the <strong>basic information</strong> about the application group and the <strong>associated cloud services</strong>.<br>• <strong>Group Resources</strong>: displays the details of the resources in the application group.<br>• <strong>Availability Monitoring</strong>: displays the availability monitoring data of all Elastic Compute Service (ECS) instances in the current application group. For more information, see Create an availability monitoring task. |
-   | Modify an application group | i. Optional. In the top navigation bar, select an organization. On the <strong>Application Group</strong> page, enter an application group name or ID to search for the application group.<br>ii. Move the pointer over the<img src="assets/fe9e57819861e1ba7afa16abfb8a035f.png" width="16" alt="">icon in the application group card and click <strong>Edit Group</strong>.<br>iii. In the <strong>Edit application groups</strong> panel, modify the parameter settings of the application group.<br>iv. After the modification is complete, click <strong>OK</strong>. |
-   | Delete an application group | Note<br>If you delete an application group, all alert rules and event-triggered alerts of the application group are deleted. The instances in the application group are automatically migrated back to the pool that contains all instances.<br>i. Optional. In the top navigation bar, select an organization. On the <strong>Application Group</strong> page, enter an application group name or ID to search for the application group.<br>ii. On the Application Group page, delete one or more application groups.<br>• Delete a single application group<br>a. Move the pointer over the<img src="assets/fe9e57819861e1ba7afa16abfb8a035f.png" width="16" alt="">icon in the application group card and click <strong>Delete a group</strong>.<br>b. In the <strong>Confirm to delete a group</strong> message, click <strong>OK</strong>.<br>• Delete multiple application groups at a time<br>a. Select the application groups that you want to delete and click <strong>Batch deletion</strong> in the lower-left corner of the application group list.<br>b. In the <strong>Confirm batch deletion Group</strong> message, click <strong>OK</strong>. |
+   | Modify an application group | i. Optional. In the top navigation bar, select an organization. On the <strong>Application Group</strong> page, enter an application group name or ID to search for the application group.<br>ii. Move the pointer over the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/fe9e57819861e1ba7afa16abfb8a035f.png" width="16" alt="">icon in the application group card and click <strong>Edit Group</strong>.<br>iii. In the <strong>Edit application groups</strong> panel, modify the parameter settings of the application group.<br>iv. After the modification is complete, click <strong>OK</strong>. |
+   | Delete an application group | Note<br>If you delete an application group, all alert rules and event-triggered alerts of the application group are deleted. The instances in the application group are automatically migrated back to the pool that contains all instances.<br>i. Optional. In the top navigation bar, select an organization. On the <strong>Application Group</strong> page, enter an application group name or ID to search for the application group.<br>ii. On the Application Group page, delete one or more application groups.<br>• Delete a single application group<br>a. Move the pointer over the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/fe9e57819861e1ba7afa16abfb8a035f.png" width="16" alt="">icon in the application group card and click <strong>Delete a group</strong>.<br>b. In the <strong>Confirm to delete a group</strong> message, click <strong>OK</strong>.<br>• Delete multiple application groups at a time<br>a. Select the application groups that you want to delete and click <strong>Batch deletion</strong> in the lower-left corner of the application group list.<br>b. In the <strong>Confirm batch deletion Group</strong> message, click <strong>OK</strong>. |
 
 <a id="section-6-4-3"></a>
 
@@ -5670,7 +5670,7 @@ You can modify, disable, enable, and delete availability monitoring tasks on the
 
    | Operation | Procedure |
    | --- | --- |
-   | View availability monitoring charts | i. Find the availability monitoring task that you want to manage and<br>click the<img src="assets/4c23f8312991325bb4f616a441bd2b26.png" width="18" alt="">icon in the <strong>Operation</strong> column to view the monitoring<br>details.<br>ii. Select one or more monitored instances from the drop-down list.<br>iii. Select a monitoring time range based on your business requirements.You can select <strong>1 Hour</strong>, <strong>6 Hours</strong>, <strong>12 Hours</strong>, <strong>1 Day</strong>, <strong>3 Days</strong>, <strong>7 Days</strong>, or <strong>14 Days</strong> or specify a time range.<br>iv. View the trend charts of the selected instances within the specified monitoring time range. |
+   | View availability monitoring charts | i. Find the availability monitoring task that you want to manage and<br>click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/4c23f8312991325bb4f616a441bd2b26.png" width="18" alt="">icon in the <strong>Operation</strong> column to view the monitoring<br>details.<br>ii. Select one or more monitored instances from the drop-down list.<br>iii. Select a monitoring time range based on your business requirements.You can select <strong>1 Hour</strong>, <strong>6 Hours</strong>, <strong>12 Hours</strong>, <strong>1 Day</strong>, <strong>3 Days</strong>, <strong>7 Days</strong>, or <strong>14 Days</strong> or specify a time range.<br>iv. View the trend charts of the selected instances within the specified monitoring time range. |
    | Modify an availability monitoring task | i. Find the availability monitoring task that you want to modify and click <strong>Modification</strong> in the <strong>Operation</strong> column.<br>ii. In the <strong>Create/Modify Availability Monitor</strong> panel, modify the parameters as prompted. For more information about the parameters, see Create an availability monitoring task.<br>iii. After the modification is complete, click <strong>OK</strong>. |
    | Disable or enable availability monitoring tasks | Note<br>You can disable one or more availability monitoring tasks in the <strong>Enable</strong> state, or enable one or more availability monitoring tasks in the <strong>Disable</strong> state.<br>• Disable or enable a single availability monitoring task<br>a. Click <strong>Disable</strong> or <strong>Enable</strong> in the <strong>Operation</strong> column of the task.<br>b. In the <strong>Disable</strong> or <strong>Enable</strong> message, click <strong>OK</strong>.<br>• Disable or enable multiple availability monitoring tasks at a time<br>a. Select the availability monitoring tasks that you want to disable or enable and click <strong>Batch Disable</strong> or <strong>Batch Enable</strong> in the lower-left corner of the task list.<br>b. In the <strong>Disable</strong> or <strong>Enable</strong> message, click <strong>OK</strong>. |
    | Delete one or more availability monitoring tasks | • Delete a single availability monitoring task<br>a. Find the availability monitoring task that you want to delete and click <strong>Delete</strong> in the <strong>Operation</strong> column.<br>b. In the <strong>Delete</strong> message, click <strong>OK</strong>.<br>• Delete multiple availability monitoring tasks at a time<br>a. Select the availability monitoring tasks that you want to delete and click <strong>Batch Delete</strong> in the lower-left corner of the task list.<br>b. In the <strong>Delete</strong> message, click <strong>OK</strong>. |
@@ -5745,13 +5745,13 @@ The time-series metrics feature in Metric Store provides a unified portal where 
 
 4. In the **Cloud Service List** on the left, click a target cloud service to view its corresponding metrics in the list on the right.
 
-   ![](assets/7bb063229afa86b75d67a35b549e05e5.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/7bb063229afa86b75d67a35b549e05e5.jpeg)
 
    > **Note**
    >
    > You can search for metrics by **Metric Name** and **Product**. Fuzzy search is supported.
 
-5. Click the <img src="assets/cef0ef03102654f64898a11accb93eeb.png" width="12" alt=""> icon to the left of a metric name to expand its details and view the metric
+5. Click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/cef0ef03102654f64898a11accb93eeb.png" width="12" alt=""> icon to the left of a metric name to expand its details and view the metric
 
    lineage. The lineage shows the data dependencies for the metric, from the initial SQL creation to the final data source in an SLS Project and Logstore, as well as the DIM table in Cloud Monitor.
 
@@ -5759,7 +5759,7 @@ The time-series metrics feature in Metric Store provides a unified portal where 
    >
    > Not all cloud service metrics have DIM table data.
 
-   ![](assets/163e20dd7425b89e39379214e71eead7.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/163e20dd7425b89e39379214e71eead7.jpeg)
 
 6. Click each stage to open the **Availability Monitoring Details** page. On the **Inspection Item Details** page, check for data. Use the inspection item results to determine whether the problem occurred with the raw data, during intermediate processing, or during final aggregation and calculation. If an error occurs, the inspection item results display a prompt to help you troubleshoot and track the issue.
 
@@ -5781,7 +5781,7 @@ The time-series metrics feature in Metric Store provides a unified portal where 
    | Aggregation | The method for aggregating metric data.<br>Note<br>The supported aggregation methods vary by cloud service metric. |
    | Time | The time range for the monitoring data. Options include 1 hour, 4 hours, 12 hours, and custom. |
    | SLS data | This parameter is available only on the monitoring details page for real metrics.<br>Indicates whether SLS data is available. |
-   | Monitoring chart | Displays a chart showing the metric data trend based on the specified parameters.<br>![](assets/8f1018b2c105265d2864439836d4e3ac.jpeg) |
+   | Monitoring chart | Displays a chart showing the metric data trend based on the specified parameters.<br>![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/8f1018b2c105265d2864439836d4e3ac.jpeg) |
 
 **Configure the data retention period**
 
@@ -6250,7 +6250,7 @@ The **System Event** tab on the **Namespace** page provides a centralized platfo
 
 5. In the left-side **Alibaba Cloud Services** section, click a cloud service. Then, the system event metrics of the cloud service are displayed in the right-side section.
 
-   ![](assets/15628ba4ec79ff41b2319055a074e2d9.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/15628ba4ec79ff41b2319055a074e2d9.jpeg)
 
 <a id="section-7"></a>
 
@@ -6290,103 +6290,103 @@ Entity queries break down the siloed views of traditional monitoring, which are 
 
 3. In the left-side navigation pane, choose **AI observability > Holographic View**. By default, the system displays the **Global View** for **All Spaces** over the **Last 6 Hours**.
 
-   ![](assets/67f90a2a11ff05b0dbeebbb77e6c1797.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/67f90a2a11ff05b0dbeebbb77e6c1797.jpeg)
 
    - Data Center
 
      Displays details for **Data Processing Tasks**, **Abnormal Data Processing Tasks**, **CPU utilization**, and **memory utilization**.
 
-     ![](assets/d1fab3d1ebe9d0be5e4f50d4c3b67be0.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/d1fab3d1ebe9d0be5e4f50d4c3b67be0.jpeg)
 
    - Workflow
 
      Displays details for **node success rate**, **workflow duration**, **Workflow Requests**, and **Total Workflows**.
 
-     ![](assets/821833a73ca4f63b17053e2f7eddede0.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/821833a73ca4f63b17053e2f7eddede0.jpeg)
 
    - Model Calls
 
      - Displays details for **Total Models**, **Total Calls**, **Average Call Duration**, and **average time to first token**.
 
-       ![](assets/9bee1e49481160e913cb8bc950b510ef.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/9bee1e49481160e913cb8bc950b510ef.jpeg)
 
      - Select a specific model to view its **Number of Calls**, **time to first token**, and **Average Request Time**.
 
-       ![](assets/9036e69e19a9f4da8de80b4942cd6a47.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/9036e69e19a9f4da8de80b4942cd6a47.jpeg)
 
    - Tool Calls
 
      Displays the number of **API Tools**, **MCP Tools**, and **Knowledge Base Tools**, as well as **Average Requests**, **Average Response Duration**, **Average Success Rate**, and the **Average Response Time Trend**.
 
-     ![](assets/a5c61cc4ea93ec7a600dfb1874ad3f7f.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/a5c61cc4ea93ec7a600dfb1874ad3f7f.jpeg)
 
    - Model Training
 
      - Displays the total and abnormal counts for **notebook modeling**, **task modeling**, and **visual modeling** instances.
 
-       ![](assets/9e7ec588707f8c3bc18cb93289485f3d.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/9e7ec588707f8c3bc18cb93289485f3d.jpeg)
 
        Click a number on the card to open the **Model Training** page and view instance details.
 
-       ![](assets/f84ac796dd8d3f643efd391287115226.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/f84ac796dd8d3f643efd391287115226.jpeg)
 
      - Displays the **Allocated**, **Used**, and **Total** values, as well as the **allocation rate** and **usage rate** for **CPU quota (cores)**.
 
-       ![](assets/8398c5a56a2a004710e00b2b7846e415.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/8398c5a56a2a004710e00b2b7846e415.jpeg)
 
    - Agent
 
      Displays the number of **namespaces** and **agents**.
 
-     ![](assets/2519dc45633cb81da0f3ffa457223437.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/2519dc45633cb81da0f3ffa457223437.jpeg)
 
      Click Metric, Trace, Log, or POD to view agent details.
 
-     ![](assets/cd1677c484e6dbe344eed174ea9ec684.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/cd1677c484e6dbe344eed174ea9ec684.jpeg)
 
    - Model Inference
 
      - Displays the total and abnormal counts for **Online Services**, **inference acceleration**, and **Online Service Groups** instances.
 
-       ![](assets/c238e70c176181c5d01eeb4a7f969459.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/c238e70c176181c5d01eeb4a7f969459.jpeg)
 
        Click a number on the card to go to the **Model Inference** page and view instance details.
 
-       ![](assets/3746368697921e2210f2289bbd8ab11f.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/3746368697921e2210f2289bbd8ab11f.jpeg)
 
      - Displays details for **TTFT**, **Success Rate**, **Requests**, and **Input/Output Tokens**.
 
-       ![](assets/f6450d19a350408b9c6ed30cee864c86.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/f6450d19a350408b9c6ed30cee864c86.jpeg)
 
    - Basic cloud services
 
      - Displays the number of instances for **Network**, **Compute**, **Storage**, **Middleware**, and **Database**.
 
-       ![](assets/7989ca986541c9577dc74c494219a506.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/7989ca986541c9577dc74c494219a506.jpeg)
 
      - Click an instance count on a card to open the corresponding cloud product monitoring page and view instance monitoring details.
 
 4. In the upper-right corner of the page, click **Global Topology** to switch to the **Global Topology** tab, where you can view monitoring details for MaaS, PaaS, and IaaS.
 
-   ![](assets/db16c64788d246514e12ae6d571fa644.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/db16c64788d246514e12ae6d571fa644.jpeg)
 
    - In the upper-left corner, click **one-click diagnosis** to view diagnostics for abnormal instances.
 
      - Click **Instance Details** to view the instance's detailed topology.
 
-       ![](assets/8639a7d15729e01198e4460ae326a5f2.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/8639a7d15729e01198e4460ae326a5f2.jpeg)
 
      - Click **one-click diagnosis** on an alert summary card to run an intelligent diagnosis with Apsara Assistant.
 
-       ![](assets/4445eac2fcbb77e97dda99a029f1587f.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/4445eac2fcbb77e97dda99a029f1587f.jpeg)
 
      - The left side of the page shows details for SFM products, including **Number of Instances**, **Number of Abnormal Alerts**, **Available Instance Ratio**, and **Abnormal Instance Ratio**, as well as any active alerts.
 
-       ![](assets/352c3073f2f03127062e1627678e97fc.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/352c3073f2f03127062e1627678e97fc.jpeg)
 
    - Hover over a service in the topology diagram to view its **Number of Instances**, **Available Instance Ratio**, **Instances with Abnormal Alerts**, **Specifications**, and **Capability Layer**.
 
-     ![](assets/35188ab94e9c28c830ba73aadce21e0f.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/35188ab94e9c28c830ba73aadce21e0f.jpeg)
 
 <a id="section-7-2"></a>
 
@@ -6406,7 +6406,7 @@ The agent module displays information to help you analyze exceptions, performanc
 
    On the **Workspace** tab, click **Details** in the **Operation** column of the target workspace to view its metrics. For more information, see SFM.
 
-   ![](assets/df751f9fc98bf1f7191caf132a167e85.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/df751f9fc98bf1f7191caf132a167e85.jpeg)
 
 5. View the detailed monitoring information of basic resources.
 
@@ -6428,11 +6428,11 @@ The Data Center page lets you monitor data processing tasks and underlying opera
 
 4. On the **Data Center** page, in the **Actions** column for the workspace instance, click **Details**.
 
-   ![](assets/a8a3fe63bb8194e20c0c595ed2ea5fc7.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/a8a3fe63bb8194e20c0c595ed2ea5fc7.jpeg)
 
 5. The **Workspace** details page shows the **Instance name, Resource set**, **Organization**, **Created at**, and monitoring metrics for **CPU**, **Memory**, and **Network**.
 
-   ![](assets/352d219befa99aef2c5b1d7b592a2198.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/352d219befa99aef2c5b1d7b592a2198.jpeg)
 
 <a id="section-7-4"></a>
 
@@ -6452,19 +6452,19 @@ The model inference module displays information related to online services, onli
 
    On the **Online Services** tab, click **Details** in the **Operation** column of the target online service to view its metrics. For more information, see AI Studio (Online Service).
 
-   ![](assets/850671c67fdea6e9261bc097cae06999.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/850671c67fdea6e9261bc097cae06999.jpeg)
 
 5. View the monitoring data of an online service group.
 
    On the **Online Service Group** tab, click **Details** in the **Operation** column of the target online service group to view its metrics. For more information, see AI studio (Online service group).
 
-   ![](assets/a116b91f7fc1d9fba655a91a4682347b.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/a116b91f7fc1d9fba655a91a4682347b.jpeg)
 
 6. View the monitoring data of batch inference.
 
    On the **Batch Inference** tab, click **Details** in the **Operation** column of the target instance to view its metrics. For more information, see AI Studio (Batch Inference).
 
-   ![](assets/8d76b8068760fb8b772a03c7545a0fb0.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/8d76b8068760fb8b772a03c7545a0fb0.jpeg)
 
 <a id="section-7-5"></a>
 
@@ -6484,31 +6484,31 @@ The model training module displays information about notebook modeling, model tu
 
    On the **Notebook Modeling** tab, click **Details** in the **Operation** column of the target instance to view the notebook modeling metrics. For more information, see AI Studio (Notebook modeling).
 
-   ![](assets/de99778c931eb5db9679dc67a9dc9e38.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/de99778c931eb5db9679dc67a9dc9e38.jpeg)
 
 5. View the detailed monitoring information of task modeling.
 
    On the **Task Modeling** tab, click **Details** in the **Operation** column of the target instance to view the task modeling metrics. For more information, see AI Studio (Task Modeling).
 
-   ![](assets/2781e774ee8ff9709b5f471cf3c9395b.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/2781e774ee8ff9709b5f471cf3c9395b.jpeg)
 
 6. View the detailed monitoring information of model tuning.
 
    On the **Model Tuning** tab, click **Details** in the **Operation** column of the target instance to view the model tuning metrics. For more information, see AI Studio (model tuning).
 
-   ![](assets/23f31919d2953d8026bbcaa6e51f7b60.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/23f31919d2953d8026bbcaa6e51f7b60.jpeg)
 
 7. View the detailed monitoring information of visual modeling.
 
    On the **Visual Modeling** tab, click **Details** in the **Operation** column of the target instance to view the visual modeling metrics. For more information, see AI Studio (Visualized Modeling).
 
-   ![](assets/3d780e02de4fa82a8c271c15cb004197.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/3d780e02de4fa82a8c271c15cb004197.jpeg)
 
 8. View the detailed monitoring information of model evaluation.
 
    On the **Model Evaluation** tab, click **Details** in the **Operation** column of the target instance to view the model evaluation metrics. For more information, see AI Studio (Model Evaluation).
 
-   ![](assets/9ed1988d44087d90ca90d2a74276b4a0.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/9ed1988d44087d90ca90d2a74276b4a0.jpeg)
 
 <a id="section-7-6"></a>
 
@@ -6530,25 +6530,25 @@ AI computing power consists of AI computing, AI storage, and AI gateways. Metric
 
      On the **BMCP (Node)** tab, click **Details** in the **Operation** column of the target instance to view the metrics of BMCP nodes. For more information, see BMCP nodes.
 
-     ![](assets/a2dfed7bad82a35d12ae6536c1ebf9d9.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/a2dfed7bad82a35d12ae6536c1ebf9d9.jpeg)
 
    - View the detailed monitoring information of BMCP supercomputing clusters.
 
      On the **BMCP (Bare Metal - Supercomputing Cluster)** tab, click **Details** in the **Operation** column of the target instance to view the metrics of BMCP supercomputing clusters. For more information, see BMCP (BMS EHPC Cluster).
 
-     ![](assets/47c7c81ebabe2f6c1f26b73d478e539b.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/47c7c81ebabe2f6c1f26b73d478e539b.jpeg)
 
    - View the detailed monitoring information of BMCP intelligent computing clusters.
 
      On the **BMCP (Bare Metal - Intelligent Computing Cluster)** tab, click **Details** in the **Operation** column of the target instance to view the metrics of BMCP intelligent computing clusters. For more information, see BMCP (Bare Metal - Intelligent Computing Power Cluster).
 
-     ![](assets/65eab3a40ef382719e8eb6ed36dafe62.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/65eab3a40ef382719e8eb6ed36dafe62.jpeg)
 
    - View the detailed monitoring information of Container Service for Kubernetes (ACK)-intelligent computing clusters.
 
      On the **BMCP (Container - Intelligent Computing Cluster)** tab, click **Details** in the **Operation** column of the target instance to view the metrics of ACK-intelligent computing clusters. For more information, see Bare Metal Computing Platform (BMCP) (Container - Intelligent Computing Cluster).
 
-     ![](assets/fbe86c33c1edc427d7999c256ebb8ba8.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/fbe86c33c1edc427d7999c256ebb8ba8.jpeg)
 
 5. Click the AI Storage tab.
 
@@ -6556,19 +6556,19 @@ AI computing power consists of AI computing, AI storage, and AI gateways. Metric
 
      On the **APFS** tab, click **Details** in the **Operation** column of the target instance to view the metrics of APFS. For more information, see APFS.
 
-     ![](assets/62df5588597626625ec62b5fd8e3db83.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/62df5588597626625ec62b5fd8e3db83.jpeg)
 
    - View the detailed monitoring information of Cloud Parallel File Storage (CPFS).
 
      On the **CPFS** tab, click **Details** in the **Operation** column of the target instance to view the metrics of CPFS. For more information, see CPFS.
 
-     ![](assets/07942403a6db6c61aa706d5b17266cfe.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/07942403a6db6c61aa706d5b17266cfe.jpeg)
 
 6. View the detailed monitoring information of AI gateways.
 
    On the **AI Gateway** tab, click **Details** in the **Operation** column of the target instance to view the metrics of AI gateways. For more information, see API Gateway.
 
-   ![](assets/07942403a6db6c61aa706d5b17266cfe.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/07942403a6db6c61aa706d5b17266cfe.jpeg)
 
 <a id="section-8"></a>
 
@@ -6592,7 +6592,7 @@ On the **Application List** page, you can view applications connected to Applica
 
 4. On the **Application List** page, view the applications connected to Application Monitoring.
 
-   ![](assets/f9825251b257e0ef4645525719971f73.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/f9825251b257e0ef4645525719971f73.jpeg)
 
    | Parameter/Featur e | Description |
    | --- | --- |
@@ -6740,7 +6740,7 @@ Tracing Analysis provides developers of distributed applications with tools for 
 
 6. In the **Related Information** column of the following table, click the Edit icon next to the message that prompts you to bind a Prometheus address for data shipping. Enter the Prometheus instance name and the Remote Write address, and then click **OK**. ARMS then ships the received metrics to this Prometheus instance.
 
-   ![](assets/b7c6222b758bc8d000b7223f244f3d82.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/b7c6222b758bc8d000b7223f244f3d82.jpeg)
 
 **More operations**
 
@@ -6806,7 +6806,7 @@ The following preset dashboards are available:
 >
 > You cannot rename preset directories.
 
-1. On the **Custom Dashboard** page, click the <img src="assets/0b9e12712bf2532613c854c05245e221.png" width="14" alt=""> icon to the right of the directory.
+1. On the **Custom Dashboard** page, click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/0b9e12712bf2532613c854c05245e221.png" width="14" alt=""> icon to the right of the directory.
 
 2. In the text box, enter a new name for the directory.
 
@@ -6820,7 +6820,7 @@ The following preset dashboards are available:
 >
 > - When you delete a directory, all dashboards within it are also deleted. This action cannot be undone.
 
-1. On the **Custom Dashboard** page, click the <img src="assets/297d83915816022576f96fbd717256eb.png" width="16" alt=""> icon to the right of the directory.
+1. On the **Custom Dashboard** page, click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/297d83915816022576f96fbd717256eb.png" width="16" alt=""> icon to the right of the directory.
 
 2. In the dialog box that appears, click **OK**.
 
@@ -6834,7 +6834,7 @@ The following preset dashboards are available:
 
 2. In the **Create Dashboard** dialog box, enter a **Dashboard Name**, select a **Dashboard Directory**, then click **OK**.
 
-   ![](assets/f3f36c646ba366aefa0aa05d3389ab6a.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/f3f36c646ba366aefa0aa05d3389ab6a.jpeg)
 
 3. On the dashboard page, you can create cards and row containers.
 
@@ -6858,7 +6858,7 @@ The following preset dashboards are available:
        >
        > You can add multiple data configurations.
 
-       ![](assets/7c7c04b79a61fe6a149cfe159f7eec3a.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/7c7c04b79a61fe6a149cfe159f7eec3a.jpeg)
 
      - (Optional) **Data Transformation**: Click **Add Data Transformation > Data Filtering** and select the data columns you want to filter. Click **Add Data Transformation > Column Rename** to rename data columns. Click **Add Data Transformation > Table Join** to merge multiple tables into a single table. This transformation applies only to tables.
 
@@ -6866,11 +6866,11 @@ The following preset dashboards are available:
        >
        > You must complete the Data Configuration before applying data transformations.
 
-       ![](assets/7fdbe4095184cc1a3106afbc9ab6028a.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/7fdbe4095184cc1a3106afbc9ab6028a.jpeg)
 
      - (Optional) **Chart Configuration**: Configure the chart type, chart elements, axes, legend, reference lines, reference areas, and more.
 
-       ![](assets/35ba042134a686e06425f59aa28e9352.jpeg)
+       ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/35ba042134a686e06425f59aa28e9352.jpeg)
 
      </li>
 
@@ -6888,7 +6888,7 @@ The following preset dashboards are available:
      >
      > - Click the **Last 1 Hour** drop-down list above the chart to select or customize the time range for the chart.
 
-     ![](assets/249ac2c1ec12ca9325624f0b31fc466c.png)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/249ac2c1ec12ca9325624f0b31fc466c.png)
 
      </li>
 
@@ -6906,7 +6906,7 @@ The following preset dashboards are available:
 
      <li>
 
-     Hover over the row container and click the <img src="assets/ce823a544dd1b2625a3630cd114904e5.png" width="14" alt=""> icon to edit the row name.
+     Hover over the row container and click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/ce823a544dd1b2625a3630cd114904e5.png" width="14" alt=""> icon to edit the row name.
 
      > **Note**
      >
@@ -6914,7 +6914,7 @@ The following preset dashboards are available:
      >
      > icon.
      >
-     > <img src="assets/ac25c33da580545d340a76d5ab450f9d.png" width="14" alt="">
+     > <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/ac25c33da580545d340a76d5ab450f9d.png" width="14" alt="">
 
      </li>
 
@@ -6926,7 +6926,7 @@ The following preset dashboards are available:
 
    - Drag cards to rearrange their positions.
 
-   - Click the <img src="assets/3b97fd92a9c8b39a22ba98fd8a08c359.png" width="20" alt=""> icon at the upper-right corner of a card to perform actions such as **Edit**,
+   - Click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/3b97fd92a9c8b39a22ba98fd8a08c359.png" width="20" alt=""> icon at the upper-right corner of a card to perform actions such as **Edit**,
 
      **Copy**, **Delete**, or **View**.
 
@@ -6936,7 +6936,7 @@ The following preset dashboards are available:
    >
    > The time range set on the card editing page is a temporary override that applies only within the editor. When you return to the dashboard, the dashboard-level time range takes precedence.
 
-6. (Optional) Click the drop-down list to the right of <img src="assets/6a175f2a59b9d8ea1643014c32a64de3.png" width="18" alt=""> to set the automatic refresh interval for
+6. (Optional) Click the drop-down list to the right of <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/6a175f2a59b9d8ea1643014c32a64de3.png" width="18" alt=""> to set the automatic refresh interval for
 
    the dashboard.
 
@@ -6944,11 +6944,11 @@ The following preset dashboards are available:
    >
    > Selecting Off disables automatic refresh.
 
-7. (Optional) At the top of the dashboard, click the <img src="assets/ba0f571747b6d8b329670a4cfbd4bc83.png" width="21" alt=""> icon to view or edit the dashboard's
+7. (Optional) At the top of the dashboard, click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/ba0f571747b6d8b329670a4cfbd4bc83.png" width="21" alt=""> icon to view or edit the dashboard's
 
    basic settings and JSON mode.
 
-   ![](assets/cba4afb3024a0365a54a0499a6503cc2.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/cba4afb3024a0365a54a0499a6503cc2.jpeg)
 
    - **Basic Settings**
 
@@ -6962,9 +6962,9 @@ The following preset dashboards are available:
 
      In JSON mode, you can edit the dashboard by modifying its JSON code. Click **Preview** to
 
-     verify your changes, then click the <img src="assets/3f50aa974ddd7ca33238814d9b279fb7.png" width="19" alt=""> icon to save.
+     verify your changes, then click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/3f50aa974ddd7ca33238814d9b279fb7.png" width="19" alt=""> icon to save.
 
-8. Click the <img src="assets/3f50aa974ddd7ca33238814d9b279fb7.png" width="19" alt=""> icon to save the dashboard.
+8. Click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/3f50aa974ddd7ca33238814d9b279fb7.png" width="19" alt=""> icon to save the dashboard.
 
 **Modify dashboard content and layout**
 
@@ -7066,7 +7066,7 @@ Copying a dashboard allows you to quickly create a new one with the same configu
 >
 > - Setting a dashboard as the default replaces the previous one. This dashboard is then displayed automatically when you navigate to the Custom Dashboard page.
 >
->   To return to the directory page from the default dashboard, click the <img src="assets/1590f13fe51fc112e54cd85f479e7368.png" width="18" alt=""> icon in the
+>   To return to the directory page from the default dashboard, click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/1590f13fe51fc112e54cd85f479e7368.png" width="18" alt=""> icon in the
 >
 >   upper-left corner.
 
@@ -7130,7 +7130,7 @@ Intelligent Analysis generates summaries by combining dashboard metric data with
 
 2. On the dashboard details page, click **Intelligent Analysis** for a specific metric. Apsara Assistant then summarizes the metric data for the dashboard's current time range.
 
-   ![](assets/d9630e602d950b0314caaca74ef95772.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/d9630e602d950b0314caaca74ef95772.jpeg)
 
    You can also ask questions in the Apsara Assistant dialog box. It analyzes data trends, anomalies, metric correlations, and historical data from the dashboard to provide in-depth insights and summary reports.
 
@@ -7165,7 +7165,7 @@ You can filter alert history by cloud service, instance, and alert level. You ca
    | Operation | Description |
    | --- | --- |
    | View the alert history | On the <strong>Alert History</strong> page, view the information about alerts in the following columns: <strong>Product Name</strong>, <strong>Faulty instance</strong>, <strong>Occurrence time</strong>, <strong>Rule name</strong>, <strong>Status</strong>, <strong>Grade</strong>, and <strong>Notification object</strong>. Find an alert record that you want to view and click the rule name in the Rule Name column to view the details of the alert rule.<br>Note<br>By default, you can query the alert history within the previous two days. |
-   | Export and download alert history | i. On the <strong>Alert History</strong> page, click the<img src="assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">icon in the upper-<br>right corner.<br>ii. In the <strong>Export task</strong> dialog box, configure the <strong>Time Selection</strong> and <strong>Task name</strong> parameters and click <strong>OK</strong>.<br>iii. In the left-side navigation pane, click <strong>Report Export</strong>. On the <strong>Report Export</strong> page, click the <strong>Alarm History</strong> tab.<br>iv. On the Alarm History tab, find the export task that you created and click <strong>Download Report Task</strong> in the <strong>Operation</strong> column.<br>v. In the <strong>Download Report Task</strong> message, click <strong>OK</strong>.<br>Note<br>The report is in the <strong>.xlsx</strong> format. You can find the downloaded report in the default download directory of your browser. |
+   | Export and download alert history | i. On the <strong>Alert History</strong> page, click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">icon in the upper-<br>right corner.<br>ii. In the <strong>Export task</strong> dialog box, configure the <strong>Time Selection</strong> and <strong>Task name</strong> parameters and click <strong>OK</strong>.<br>iii. In the left-side navigation pane, click <strong>Report Export</strong>. On the <strong>Report Export</strong> page, click the <strong>Alarm History</strong> tab.<br>iv. On the Alarm History tab, find the export task that you created and click <strong>Download Report Task</strong> in the <strong>Operation</strong> column.<br>v. In the <strong>Download Report Task</strong> message, click <strong>OK</strong>.<br>Note<br>The report is in the <strong>.xlsx</strong> format. You can find the downloaded report in the default download directory of your browser. |
 
 <a id="section-10-2"></a>
 
@@ -7281,7 +7281,7 @@ This example shows how to create an alert rule named  `example`  for an ECS inst
 
 The rule description configuration for this scenario is shown in the following figure.
 
-![](assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
 
 <a id="section-10-2-2"></a>
 
@@ -7305,11 +7305,11 @@ Use the alert rules page to modify, disable, enable, and delete alert rules.
    | Check rule validity | In the <strong>Validity</strong> column of the target alert rule, click <strong>Inspect</strong>. The inspection result is then displayed in the same column.<br>Note<br>• If the inspection fails, click <strong>Inspection Result</strong>. The panel that appears shows the results for the <strong>Alert Rule Execution</strong> <strong>Anomaly Detection</strong>, <strong>Alert Rule Loading Detection</strong>, <strong>Invalid</strong> <strong>Alert Rule Detection</strong>, and <strong>Alert Rule Callback Detection</strong> checks.<br>• Click <strong>Re-inspect</strong> to run the inspection again. |
    | View rule execution records | In the <strong>Rule Execution Records</strong> column of the target alert rule, click <strong>View</strong> <strong>Rule Execution Records</strong>. In the <strong>Alert Rule Execution Records</strong> panel, you can filter the records by time range. |
    | Modify an alert rule | • Edit a single rule<br>a. In the <strong>Actions</strong> column of the target alert rule, click <strong>Edit.</strong><br>b. In the <strong>Modify Alert Rule</strong> panel, modify the rule parameters. For more information about the configuration parameters, see Create an alert rule.<br>c. Click <strong>OK</strong>.<br>• Batch edit<br>a. Select the target alert rules, and then click <strong>Batch Edit</strong> in the lower-left corner of the list.<br>b. In the <strong>Modify Alert Rule</strong> panel, modify the rule parameters. For more information about the configuration parameters, see Create an alert rule.<br>c. Click <strong>OK</strong>. |
-   | Disable an alert rule | If a cloud product is undergoing maintenance or an upgrade, disable its alert rules to avoid receiving unnecessary notifications.<br>Note<br>Before you disable an alert rule, make sure its <strong>Status</strong> is <strong>Enabled</strong>.<br>• Disable a single rule<br>a. In the <strong>Actions</strong> column of the target alert rule, click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Disable.</strong><br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Batch disable<br>a. Select the target alert rules, and then click <strong>More</strong>&gt;<strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
+   | Disable an alert rule | If a cloud product is undergoing maintenance or an upgrade, disable its alert rules to avoid receiving unnecessary notifications.<br>Note<br>Before you disable an alert rule, make sure its <strong>Status</strong> is <strong>Enabled</strong>.<br>• Disable a single rule<br>a. In the <strong>Actions</strong> column of the target alert rule, click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Disable.</strong><br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Batch disable<br>a. Select the target alert rules, and then click <strong>More</strong>&gt;<strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
    | Enable an alert rule | After the maintenance or upgrade is complete, re-enable the disabled alert rules.<br>Note<br>First, confirm that the alert rule's <strong>Status</strong> is <strong>Disabled</strong>, and then select <strong>Enable</strong>.<br>• Enable a single rule<br>a. In the <strong>Actions</strong> column of the target alert rule, click <strong>Enable.</strong><br>b. In the <strong>Enable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Batch enable<br>a. Select the target alert rules, and then click <strong>More</strong>&gt;<strong>Enable</strong> in the lower-left corner of the list.<br>b. In the <strong>Enable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
-   | Delete an alert rule | • Delete a single rule<br>a. In the Actions column of the target alert rule, click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Batch delete<br>a. Select the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>. |
-   | Export and download alert rules | i. On the <strong>Alert Rules</strong> page, click<img src="assets/b86007c52830b90443e253ebf03e433c.png" width="14" alt=""><strong>Export Report</strong>.<br>ii. In the <strong>Export Task</strong> dialog box, enter a <strong>Task Name</strong>.<br>iii. Click <strong>OK</strong>.<br>iv. In the left-side navigation pane, click <strong>Report Export</strong>.<br>v. On the <strong>Alert Rules</strong> tab, find the target report and click <strong>Download Report</strong> <strong>Task</strong> in the <strong>Actions</strong> column.<br>vi. In the <strong>Download Report Task</strong> dialog box, click <strong>OK</strong>. |
-   | Migrate legacy rules | i. On the <strong>Alert Rules</strong> page, click<img src="assets/3b7c2d21a17ef4f73cbcea2a8c222a7a.png" width="14" alt="">.<br>ii. In the panel that appears, select the legacy cloud products that you want to view. A list of their corresponding legacy rules is then displayed.<br>iii. The following operations are available for legacy rules:<br>• Create a new rule that corresponds to a legacy rule.<br>• Create a new rule and delete the corresponding legacy rule.<br>• Delete a legacy rule.<br>iv. Click <strong>OK</strong>. |
+   | Delete an alert rule | • Delete a single rule<br>a. In the Actions column of the target alert rule, click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Batch delete<br>a. Select the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>. |
+   | Export and download alert rules | i. On the <strong>Alert Rules</strong> page, click<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/b86007c52830b90443e253ebf03e433c.png" width="14" alt=""><strong>Export Report</strong>.<br>ii. In the <strong>Export Task</strong> dialog box, enter a <strong>Task Name</strong>.<br>iii. Click <strong>OK</strong>.<br>iv. In the left-side navigation pane, click <strong>Report Export</strong>.<br>v. On the <strong>Alert Rules</strong> tab, find the target report and click <strong>Download Report</strong> <strong>Task</strong> in the <strong>Actions</strong> column.<br>vi. In the <strong>Download Report Task</strong> dialog box, click <strong>OK</strong>. |
+   | Migrate legacy rules | i. On the <strong>Alert Rules</strong> page, click<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/3b7c2d21a17ef4f73cbcea2a8c222a7a.png" width="14" alt="">.<br>ii. In the panel that appears, select the legacy cloud products that you want to view. A list of their corresponding legacy rules is then displayed.<br>iii. The following operations are available for legacy rules:<br>• Create a new rule that corresponds to a legacy rule.<br>• Create a new rule and delete the corresponding legacy rule.<br>• Delete a legacy rule.<br>iv. Click <strong>OK</strong>. |
 
 <a id="section-10-2-3"></a>
 
@@ -7327,7 +7327,7 @@ Cloud Monitor can send alert notifications by using DingTalk, emails, webhook UR
 
   You need to configure the DingTalk or email notification method for the selected alert contacts, and specify their DingTalk secrets or email addresses. You can create or modify the DingTalk secrets and email addresses, and configure the notification methods when you create or modify users. For more information, see the "Create a user" topic in Apsara Uni-manager Management Console User Guide.
 
-  ![](assets/feb84d45218347474150f3d6c00a5bf3.jpeg)
+  ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/feb84d45218347474150f3d6c00a5bf3.jpeg)
 
   The DingTalk secret is optional:
 
@@ -7335,7 +7335,7 @@ Cloud Monitor can send alert notifications by using DingTalk, emails, webhook UR
 
   - If you have not specified a secret, notifications are sent by using the secret of the message gateway of the Apsara Uni-manager Management Console.
 
-    ![](assets/4804aa6bbf483750610d058aa970c9e5.jpeg)
+    ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/4804aa6bbf483750610d058aa970c9e5.jpeg)
 
     For more information about how to configure the message gateway of the Apsara Uni-manager Management Console, see the "Message gateways" topic in Apsara Uni-manager Management Console User Guide.
 
@@ -11199,7 +11199,7 @@ Alert templates work with application groups. To simplify alert rule management,
    | Template description | (Optional) A description of the alert template, up to 100 characters long. |
    | Cloud service | Click <strong>Add Product</strong>, select a cloud service, click <strong>Add Alert Rule</strong> to configure an alert rule, and then click <strong>OK</strong>. |
 
-   ![](assets/6d17488b75436f76fa1d321e98e3e32d.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/6d17488b75436f76fa1d321e98e3e32d.jpeg)
 
    The following table describes the parameters for a threshold-based alert rule.
 
@@ -11211,7 +11211,7 @@ Alert templates work with application groups. To simplify alert rule management,
    | Operator | The operator used to compare the metric value against the threshold. An alert is triggered if this condition is met.<br>Supported operators include <strong>&gt;</strong>, <strong>&gt;=</strong>, <strong>&lt;</strong>, <strong>&lt;=</strong>, <strong>=</strong>, <strong>!=</strong>, <strong>increase over the same</strong> <strong>period yesterday</strong>, <strong>decrease over the same period yesterday</strong>, <strong>increase</strong> <strong>over the previous period</strong>, <strong>decrease over the previous period</strong>, <strong>increase</strong> <strong>over yesterday</strong>, <strong>decrease over yesterday</strong>, <strong>increase over the last period</strong>, and <strong>decrease over the last period</strong>. |
    | Threshold and alert level | • The alert level can be <strong>Critical</strong>, <strong>Warning</strong>, or <strong>Info</strong>.<br>• The aggregation method for metric data can be <strong>Average</strong>, <strong>Minimum</strong>, or <strong>Maximum</strong>.<br>• The number of consecutive periods during which the condition must be met to trigger an alert. Options include <strong>Consecutive</strong>, <strong>5 consecutive periods</strong>, <strong>10 consecutive periods</strong>, <strong>15 consecutive periods</strong>, <strong>30 consecutive</strong> <strong>periods</strong>, and <strong>60 consecutive periods</strong>.<br>• An alert is triggered when the metric value meets the threshold for the specified number of consecutive periods. |
 
-   ![](assets/81f011ed2ec7864f04ea2258ca71aea5.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/81f011ed2ec7864f04ea2258ca71aea5.jpeg)
 
 6. After adding all required alert rules, click **OK**.
 
@@ -11242,7 +11242,7 @@ You can modify, clone, export, and delete alert templates on the **Alert Templat
    <table>
      <tr>
        <td>Create a report export task and download a report on alert templates</td>
-       <td>i. On the <strong>Alert Templates</strong> page, click the<img src="assets/883f0f88becfd1f958776f01c7c77a95.png" width="21" alt="">icon.<br>ii. In the <strong>Export task</strong> dialog box, set the <strong>Task name</strong> parameter.<br>iii. Click <strong>OK</strong>.<br>iv. In the left-side navigation pane, click <strong>Export Report</strong>. On the <strong>Export Report</strong> page, click the <strong>Alarm Template</strong> tab.<br>v. On the <strong>Alarm Template</strong> tab, find the report that you want to download and click <strong>Download Report Task</strong> in the <strong>Operation</strong> column.<br>vi. In the <strong>Download Report Task</strong> message, click <strong>OK</strong>.<br>Note<br>The report is in the <strong>.xlsx</strong> format. You can find the downloaded report in the default download directory of your browser.</td>
+       <td>i. On the <strong>Alert Templates</strong> page, click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/883f0f88becfd1f958776f01c7c77a95.png" width="21" alt="">icon.<br>ii. In the <strong>Export task</strong> dialog box, set the <strong>Task name</strong> parameter.<br>iii. Click <strong>OK</strong>.<br>iv. In the left-side navigation pane, click <strong>Export Report</strong>. On the <strong>Export Report</strong> page, click the <strong>Alarm Template</strong> tab.<br>v. On the <strong>Alarm Template</strong> tab, find the report that you want to download and click <strong>Download Report Task</strong> in the <strong>Operation</strong> column.<br>vi. In the <strong>Download Report Task</strong> message, click <strong>OK</strong>.<br>Note<br>The report is in the <strong>.xlsx</strong> format. You can find the downloaded report in the default download directory of your browser.</td>
      </tr>
    </table>
 
@@ -11280,25 +11280,25 @@ Enable one-click alarm to apply default alarm rules to all instances of a cloud 
 
    | Actions | Procedure |
    | --- | --- |
-   | Enable one-click alarm | ![](assets/2f9dc4008a2b5626ed51f6c8703ed03f.png)<br>i. In the <strong>one-click alarm</strong> column for the target cloud product, click the<br>switch to enable its alarms.<br>![](assets/2f9dc4008a2b5626ed51f6c8703ed03f.png)<br>: Indicates that alarms are disabled.<br>![](assets/6fcc5d681a0ee0e42975bdeed331ccab.png)<br>: Indicates that alarms are enabled.<br>ii. Click <strong>Enable</strong>.<br>Important<br>After you enable one-click alarm, the corresponding alarm rules are added and enabled on the <strong>Alarm service</strong> &gt;<strong> alarm rules</strong> page.<br>iii. Click the<img src="assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to the cloud product to view its alarm rules. |
-   | Disable one-click alarm | ![](assets/6fcc5d681a0ee0e42975bdeed331ccab.png)<br>i. In the <strong>one-click alarm</strong> column for the target cloud product, click the<br>switch to disable its alarms.<br>ii. Click <strong>Disable</strong>.<br>Important<br>After you disable one-click alarm, the corresponding alarm rules are deleted from the <strong>Alarm service</strong> &gt;<strong> alarm rules</strong> page. |
-   | Add an alarm rule | i. Next to a cloud product with one-click alarm enabled, click the<img src="assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon.<br>ii. Click <strong>Create alarm rule</strong>.<br>iii. In the <strong>Create alarm rule</strong> panel, configure parameters such as <strong>Rule name</strong>, <strong>Metric</strong>, <strong>Metric aggregation period</strong>, and <strong>Threshold and alert level</strong>.<br>iv. Click <strong>Confirm</strong> in the <strong>Create alarm rule</strong> panel.<br>v. Configure <strong>Silence period</strong>, <strong>Effective period</strong>, <strong>Alarm callback</strong>, <strong>Missing</strong> <strong>data handling</strong>, and <strong>Alarm contact</strong>.<br>vi. Click <strong>OK</strong>.<br>Note<br>CloudMonitor merges and displays rules of different severity levels for the same metric as a single rule. |
-   | Enable or disable an alarm rule | i. Click the<img src="assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to a cloud product for which one-click alarm is<br>enabled.<br>ii. Enable or disable a rule.<br>• To disable an active rule, click <strong>Disable</strong> in the <strong>Actions</strong> column. The corresponding rule on the <strong>Alarm service</strong> &gt;<strong> alarm rules</strong> page is also disabled.<br>• To enable an inactive rule, click <strong>Enable</strong> in the <strong>Actions</strong> column. The corresponding rule on the <strong>Alarm service</strong> &gt;<strong> alarm rules</strong> page is also enabled. |
-   | Modify an alarm rule | i. Click the<img src="assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to a cloud product for which one-click alarm is<br>enabled.<br>ii. Modify rules individually or in batches.<br>• Modify a single rule<br>a. In the <strong>Actions</strong> column for the rule, click <strong>Edit</strong>.<br>b. In the <strong>Modify alarm rule</strong> panel, modify the rule settings as needed.<br>c. Click <strong>OK</strong>.<br>• Modify rules in batches<br>a. Select the rules that you want to modify.<br>b. Click <strong>Batch Edit</strong> below the rule list.<br>c. In the <strong>Batch Edit</strong> dialog box, modify parameters such as <strong>Silence</strong> <strong>period</strong>, <strong>Effective period</strong>, <strong>Alarm callback</strong>, <strong>Missing data handling</strong>, and <strong>Alarm contact group</strong>.<br>d. Click <strong>Confirm</strong>. |
-   | Delete an alarm rule | i. Click the<img src="assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to a cloud product for which one-click alarm is<br>enabled.<br>ii. In the Actions column for the rule, click <strong>Delete</strong>.<br>Important<br>Once deleted, the corresponding rule is also deleted from the <strong>Alarm</strong> <strong>service</strong> &gt;<strong> alarm rules</strong> page. This action is irreversible.<br>iii. In the confirmation dialog box, click <strong>Delete</strong>. |
+   | Enable one-click alarm | ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/2f9dc4008a2b5626ed51f6c8703ed03f.png)<br>i. In the <strong>one-click alarm</strong> column for the target cloud product, click the<br>switch to enable its alarms.<br>![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/2f9dc4008a2b5626ed51f6c8703ed03f.png)<br>: Indicates that alarms are disabled.<br>![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/6fcc5d681a0ee0e42975bdeed331ccab.png)<br>: Indicates that alarms are enabled.<br>ii. Click <strong>Enable</strong>.<br>Important<br>After you enable one-click alarm, the corresponding alarm rules are added and enabled on the <strong>Alarm service</strong> &gt;<strong> alarm rules</strong> page.<br>iii. Click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to the cloud product to view its alarm rules. |
+   | Disable one-click alarm | ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/6fcc5d681a0ee0e42975bdeed331ccab.png)<br>i. In the <strong>one-click alarm</strong> column for the target cloud product, click the<br>switch to disable its alarms.<br>ii. Click <strong>Disable</strong>.<br>Important<br>After you disable one-click alarm, the corresponding alarm rules are deleted from the <strong>Alarm service</strong> &gt;<strong> alarm rules</strong> page. |
+   | Add an alarm rule | i. Next to a cloud product with one-click alarm enabled, click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon.<br>ii. Click <strong>Create alarm rule</strong>.<br>iii. In the <strong>Create alarm rule</strong> panel, configure parameters such as <strong>Rule name</strong>, <strong>Metric</strong>, <strong>Metric aggregation period</strong>, and <strong>Threshold and alert level</strong>.<br>iv. Click <strong>Confirm</strong> in the <strong>Create alarm rule</strong> panel.<br>v. Configure <strong>Silence period</strong>, <strong>Effective period</strong>, <strong>Alarm callback</strong>, <strong>Missing</strong> <strong>data handling</strong>, and <strong>Alarm contact</strong>.<br>vi. Click <strong>OK</strong>.<br>Note<br>CloudMonitor merges and displays rules of different severity levels for the same metric as a single rule. |
+   | Enable or disable an alarm rule | i. Click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to a cloud product for which one-click alarm is<br>enabled.<br>ii. Enable or disable a rule.<br>• To disable an active rule, click <strong>Disable</strong> in the <strong>Actions</strong> column. The corresponding rule on the <strong>Alarm service</strong> &gt;<strong> alarm rules</strong> page is also disabled.<br>• To enable an inactive rule, click <strong>Enable</strong> in the <strong>Actions</strong> column. The corresponding rule on the <strong>Alarm service</strong> &gt;<strong> alarm rules</strong> page is also enabled. |
+   | Modify an alarm rule | i. Click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to a cloud product for which one-click alarm is<br>enabled.<br>ii. Modify rules individually or in batches.<br>• Modify a single rule<br>a. In the <strong>Actions</strong> column for the rule, click <strong>Edit</strong>.<br>b. In the <strong>Modify alarm rule</strong> panel, modify the rule settings as needed.<br>c. Click <strong>OK</strong>.<br>• Modify rules in batches<br>a. Select the rules that you want to modify.<br>b. Click <strong>Batch Edit</strong> below the rule list.<br>c. In the <strong>Batch Edit</strong> dialog box, modify parameters such as <strong>Silence</strong> <strong>period</strong>, <strong>Effective period</strong>, <strong>Alarm callback</strong>, <strong>Missing data handling</strong>, and <strong>Alarm contact group</strong>.<br>d. Click <strong>Confirm</strong>. |
+   | Delete an alarm rule | i. Click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to a cloud product for which one-click alarm is<br>enabled.<br>ii. In the Actions column for the rule, click <strong>Delete</strong>.<br>Important<br>Once deleted, the corresponding rule is also deleted from the <strong>Alarm</strong> <strong>service</strong> &gt;<strong> alarm rules</strong> page. This action is irreversible.<br>iii. In the confirmation dialog box, click <strong>Delete</strong>. |
 
    <table>
      <tr>
        <td>Exclude instances in batches</td>
-       <td>i. Click the<img src="assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to a cloud product for which one-click alarm is<br>enabled.<br>ii. Select the target rules and click <strong>Batch exclude instances</strong>.<br>iii. In the dialog box, select an <strong>Exclusion policy</strong>. You can choose <strong>Overwrite</strong> or <strong>Append</strong>. Then, select the target instances and click <strong>OK</strong>.<br>Note<br>Excluded instances will not trigger alerts, even if the rule conditions are met.</td>
+       <td>i. Click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to a cloud product for which one-click alarm is<br>enabled.<br>ii. Select the target rules and click <strong>Batch exclude instances</strong>.<br>iii. In the dialog box, select an <strong>Exclusion policy</strong>. You can choose <strong>Overwrite</strong> or <strong>Append</strong>. Then, select the target instances and click <strong>OK</strong>.<br>Note<br>Excluded instances will not trigger alerts, even if the rule conditions are met.</td>
      </tr>
      <tr>
        <td>Check rule validity</td>
-       <td>i. Click the<img src="assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to a cloud product for which one-click alarm is<br>enabled.<br>ii. In the <strong>Validity</strong> column of the alarm rule, click <strong>Click to Check</strong>. The result appears in the <strong>Validity</strong> column.<br>Note<br>• If the check result is abnormal, you can click <strong>Check Result</strong>. In the panel that appears, view the results for <strong>Alarm rule execution</strong> <strong>exception detection</strong>, <strong>Alarm rule loading detection</strong>, <strong>Invalid</strong> <strong>alarm rule detection</strong>, and <strong>Alarm rule callback detection</strong>.<br>• Click <strong>Check Again</strong> to re-run the validity check.</td>
+       <td>i. Click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to a cloud product for which one-click alarm is<br>enabled.<br>ii. In the <strong>Validity</strong> column of the alarm rule, click <strong>Click to Check</strong>. The result appears in the <strong>Validity</strong> column.<br>Note<br>• If the check result is abnormal, you can click <strong>Check Result</strong>. In the panel that appears, view the results for <strong>Alarm rule execution</strong> <strong>exception detection</strong>, <strong>Alarm rule loading detection</strong>, <strong>Invalid</strong> <strong>alarm rule detection</strong>, and <strong>Alarm rule callback detection</strong>.<br>• Click <strong>Check Again</strong> to re-run the validity check.</td>
      </tr>
      <tr>
        <td>View rule execution history</td>
-       <td>i. Click the<img src="assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to a cloud product for which one-click alarm is<br>enabled.<br>ii. In the <strong>Rule execution history</strong> column of the alarm rule, click <strong>View rule</strong> <strong>execution history</strong>. The <strong>Alarm rule execution history</strong> panel opens, where you can filter the history by time range.</td>
+       <td>i. Click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon next to a cloud product for which one-click alarm is<br>enabled.<br>ii. In the <strong>Rule execution history</strong> column of the alarm rule, click <strong>View rule</strong> <strong>execution history</strong>. The <strong>Alarm rule execution history</strong> panel opens, where you can filter the history by time range.</td>
      </tr>
    </table>
 
@@ -11414,7 +11414,7 @@ Active PING, HTTP, and TELNET probing provides only one source of data for avail
 | Product health metric rules | Metrics reported by the product, such as <code> healthCheck </code>, <code> ClusterStatus </code>, and <code>ServiceHealthCheck</code> | The status of the cluster, instance, or service | The system triggers an alert when a metric reaches the unavailability threshold. |
 | Product service failure metric rules | Business metrics such as the failure count, failure rate, failed task count, and lost heartbeats | Data transfer, AI tasks, file services, and background tasks | The system triggers an alert when a failure metric exceeds the threshold. |
 
-![](assets/54840dd748d111bc6940bb5571c4b28c.png)
+![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/54840dd748d111bc6940bb5571c4b28c.png)
 
 <table>
   <tr>
@@ -11559,13 +11559,13 @@ Service availability monitoring periodically probes specified paths and ports to
 
 1. On the **Service Availability Monitoring** page, view the task list, which displays information such as **Task name/Task ID**, **Monitoring status**, **Probe target**, **Probe type**, **Machines with probe errors**, **Machines with agent errors**, **Total machines**, **Availability**, and **Average latency**.
 
-   ![](assets/c5bbb2dade1fdc0f368fa6040614583c.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/c5bbb2dade1fdc0f368fa6040614583c.jpeg)
 
-2. In the **Actions** column for the target task, click <img src="assets/1d3ee487ce6427511bbef2494dbdd0a9.png" width="18" alt=""> to view the monitoring details.
+2. In the **Actions** column for the target task, click <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/1d3ee487ce6427511bbef2494dbdd0a9.png" width="18" alt=""> to view the monitoring details.
 
 3. At the top of the page, view the monitoring task's basic information.
 
-   ![](assets/ce88314ebee7ee500401a2eb13183511.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/ce88314ebee7ee500401a2eb13183511.jpeg)
 
 4. From the dropdown list, select one or more instances to monitor.
 
@@ -11573,7 +11573,7 @@ Service availability monitoring periodically probes specified paths and ports to
 
 6. View the trend charts for the selected instance(s) over the specified time range.
 
-   ![](assets/dfb344c8a6df64d10feb04a82e356e0c.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/dfb344c8a6df64d10feb04a82e356e0c.jpeg)
 
 **Modify an availability monitoring task**
 
@@ -11751,7 +11751,7 @@ This feature uses probes on ECS instances to check the connectivity of your clou
 
   To grant the authorization, log on to the Apsara Uni-manager Operation Console, click **Configuration** in the top navigation bar, and select **RAM service role**. Click **Create RAM service role**, and for **Service Name**, select **CloudMonitor**.
 
-  ![](assets/2ecba6eacae306a40dc160100728b30d.jpeg)
+  ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/2ecba6eacae306a40dc160100728b30d.jpeg)
 
 - Global network connectivity for an ECS instance means that its vSwitch or the instance itself is connected to SNAT.
 
@@ -11807,7 +11807,7 @@ This feature uses probes on ECS instances to check the connectivity of your clou
 
 4. On the **Detection Results** tab, you can filter the results by selecting a **Cloud Service** or **Detection Type**, or by entering an **Instance ID**. The total number of instances for the cloud service and their operational statuses are displayed at the bottom of the page.
 
-   ![](assets/fd2bc7df043b02090f8766482810459a.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/fd2bc7df043b02090f8766482810459a.jpeg)
 
    > **Note**
    >
@@ -11823,7 +11823,7 @@ This feature uses probes on ECS instances to check the connectivity of your clou
 
 5. On the **Detection Results** tab, click **View Alert Rules** in the upper-right corner of a service module to view the details of its associated rules in a dialog box.
 
-   ![](assets/d08697147e7dede18f9120c858eecd90.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/d08697147e7dede18f9120c858eecd90.jpeg)
 
 **One-click detection**
 
@@ -11855,7 +11855,7 @@ This feature uses probes on ECS instances to check the connectivity of your clou
 
 1. On the **Cloud Service Availability Monitoring** page, select the **One-Click Detection** tab.
 
-2. Click the <img src="assets/75b4fff95476679ab9105790916a0d1b.png" width="18" alt=""> icon to the left of the target cloud service.
+2. Click the <img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/75b4fff95476679ab9105790916a0d1b.png" width="18" alt=""> icon to the left of the target cloud service.
 
 3. Task Management
 
@@ -11875,13 +11875,13 @@ This feature uses probes on ECS instances to check the connectivity of your clou
 
    </ol>
 
-   ![](assets/85f1633b1e674ef4ccc7a638632eaabc.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/85f1633b1e674ef4ccc7a638632eaabc.jpeg)
 
 4. Rule Management
 
    On the **Rule Management** tab, you can view rule details for the current cloud service.
 
-   ![](assets/7fb4b0bef67b8e4a2f5955af3457392c.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/7fb4b0bef67b8e4a2f5955af3457392c.jpeg)
 
 <a id="section-12"></a>
 
@@ -12037,7 +12037,7 @@ Cloud Monitor provides the event monitoring feature to help you query and analyz
 
 5. View the event monitoring chart.
 
-   ![](assets/630567d4fc046caead783d2a8e7d4952.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/630567d4fc046caead783d2a8e7d4952.jpeg)
 
    - The x-axis indicates the time, and the y-axis indicates the number of events.
 
@@ -12130,7 +12130,7 @@ The monitoring ranking feature lets you analyze monitoring data for all cloud se
 
 4. In the filter pane, select the target cloud service.
 
-   ![](assets/84c0904b6c21bab6d153253dbe741483.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/84c0904b6c21bab6d153253dbe741483.jpeg)
 
 5. Filter instances.
 
@@ -12140,7 +12140,7 @@ The monitoring ranking feature lets you analyze monitoring data for all cloud se
 
    Click **filter** and set the filter conditions as needed.
 
-   ![](assets/c51dce486cf1170b02a779a31ac1bb50.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/c51dce486cf1170b02a779a31ac1bb50.jpeg)
 
    > **Note**
    >
@@ -12160,7 +12160,7 @@ The monitoring ranking feature lets you analyze monitoring data for all cloud se
    >
    > **sort**: You can sort data in ascending order (smallest to largest) or descending order (largest to smallest).
 
-   ![](assets/c60fa3183c35659aa1c3ec6770ea3733.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/c60fa3183c35659aa1c3ec6770ea3733.jpeg)
 
    <ol type="i" start="3">
 
@@ -12174,7 +12174,7 @@ The monitoring ranking feature lets you analyze monitoring data for all cloud se
 
 6. (Optional) Click **export data** at the top of the page, set the export scope, customize the task name, and then click **OK**.
 
-   ![](assets/a5be5d57dc9dd7289c1bb2f695410441.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/a5be5d57dc9dd7289c1bb2f695410441.jpeg)
 
 <a id="section-13-2"></a>
 
@@ -12294,9 +12294,9 @@ The data subscription feature involves creating a task and then consuming the da
    >
    > select the target organization, and click **Manage AccessKey** in the **Basic Information** section. The **Manage AccessKey** page displays the organization's AK and SK.
    >
-   > ![](assets/7e476c65346d643d3d809894bac152b8.jpeg)
+   > ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/7e476c65346d643d3d809894bac152b8.jpeg)
 
-   ![](assets/4903e4964408fd253cc81cc90722b55a.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/4903e4964408fd253cc81cc90722b55a.jpeg)
 
 **View subscription tasks**
 
@@ -12368,7 +12368,7 @@ You can enable a disabled task to resume its data subscription.
 
 5. Using the **slsLogstore** value from step 1, find and click the corresponding Logstore name on the **Project** page. You can then view the subscribed data, including details such as instance name, IP address, and resource ownership.
 
-   ![](assets/134bf7d3fb2c81886fbde8efb1b48ddd.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/134bf7d3fb2c81886fbde8efb1b48ddd.jpeg)
 
 <a id="section-14"></a>
 
@@ -12406,7 +12406,7 @@ You can create a log monitoring metric to track and analyze log data in real tim
    >
    > A metric name must be unique in a level-1 organization.
 
-   ![](assets/e156ece454828d059866bc2731872ef4.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/e156ece454828d059866bc2731872ef4.jpeg)
 
    </li>
 
@@ -12422,7 +12422,7 @@ You can create a log monitoring metric to track and analyze log data in real tim
    >
    > - **SlsLogstore**: the name of the Logstore in SLS.
 
-   ![](assets/3f1ec583810fc47f58e1b432ee461430.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/3f1ec583810fc47f58e1b432ee461430.jpeg)
 
    </li>
 
@@ -12450,7 +12450,7 @@ You can create a log monitoring metric to track and analyze log data in real tim
      </tr>
    </table>
 
-   ![](assets/304d0205312c2a2af00df9e792eaf1d7.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/304d0205312c2a2af00df9e792eaf1d7.jpeg)
 
    </li>
 
@@ -12470,7 +12470,7 @@ After a log monitoring metric is created, you can view the details of the metric
 
    - In the basic information section, view the following parameters: **Monitoring Items**, **Geography**, **Logstore**, **SlsProject**, and **Creation time**.
 
-     ![](assets/af06d582c99172ade5be1f5adc170d17.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/af06d582c99172ade5be1f5adc170d17.jpeg)
 
    - On the **Monitoring chart** tab, view the monitoring charts of the metric. You can view the monitoring data generated within the previous **1 hour**, **3 hours**, **6 hours**, **12 hours**, **1 day**, **3 days**, **7 days**, and **14 days**, or **a custom time range**.
 
@@ -12478,7 +12478,7 @@ After a log monitoring metric is created, you can view the details of the metric
      >
      > You can click **Create alarm rules** to create an alert rule. For more information, see Create an alert rule.
 
-     ![](assets/4c588b354ec24e461cce62e080857ac5.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/4c588b354ec24e461cce62e080857ac5.jpeg)
 
    - On the **Alarm Rules** tab, view the alert rules of the metric.
 
@@ -12488,7 +12488,7 @@ After a log monitoring metric is created, you can view the details of the metric
      >
      > - You can click buttons in the **Operation** column to manage alert rules. For more information, see Manage alert rules.
 
-     ![](assets/2a24f8e066c06af0e39fe69756c12c91.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/2a24f8e066c06af0e39fe69756c12c91.jpeg)
 
 **Modify a metric**
 
@@ -12559,7 +12559,7 @@ CloudMonitor (CMS) supports monitoring only for preset cloud product metrics. Fo
 
 5. After you configure the parameters, click **OK**. The new metric appears on the Metric Monitoring tab.
 
-   ![](assets/cfb709f2767e643df291dfef17f03ab3.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/cfb709f2767e643df291dfef17f03ab3.jpeg)
 
 **Query a metric**
 
@@ -12571,11 +12571,11 @@ CloudMonitor (CMS) supports monitoring only for preset cloud product metrics. Fo
 
 1. On the **Metric Monitoring** tab, find the target metric and click **Modify** in the **Actions** column.
 
-   ![](assets/601bffbd3ef5aa5847757c9ac141a0d8.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/601bffbd3ef5aa5847757c9ac141a0d8.jpeg)
 
 2. In the **Modify Metric** dialog box, you can modify the **Metric Description**, **Metric Period**, **Metric Unit**, **Metric Dimension**, and **Statistical Method**.
 
-   ![](assets/b24b633cfcaecb48da0a074a6520c728.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/b24b633cfcaecb48da0a074a6520c728.jpeg)
 
    > **Note**
    >
@@ -12587,7 +12587,7 @@ CloudMonitor (CMS) supports monitoring only for preset cloud product metrics. Fo
 
 1. On the **Metric Monitoring** tab, find the target metric and click **Clone** in the **Actions** column.
 
-   ![](assets/312fd0bb7033ec18d9b68c7eddd1e12a.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/312fd0bb7033ec18d9b68c7eddd1e12a.jpeg)
 
 2. In the **Clone Metric** dialog box, you can modify the metric name and other configuration items. When you are finished, click **OK**.
 
@@ -12595,7 +12595,7 @@ CloudMonitor (CMS) supports monitoring only for preset cloud product metrics. Fo
 
 1. On the **Metric Monitoring** tab, find the target metric and click **Delete** in the **Actions** column.
 
-   ![](assets/9ad15f21c474089dc057a009b95cbe6b.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/9ad15f21c474089dc057a009b95cbe6b.jpeg)
 
 2. Click **OK** in the confirmation dialog box to delete the metric.
 
@@ -12634,7 +12634,7 @@ CloudMonitor (CMS) supports monitoring only for preset cloud product metrics. Fo
    | Check rule validity | Click <strong>Click To Inspect</strong> in the <strong>Validity</strong> column of the target alert rule. You can view the inspection result in the Validity column.<br>Note<br>• If the inspection result is abnormal, click <strong>Detection Result</strong>. In the panel that appears, view the results for <strong>Alert Rule Execution</strong> <strong>Anomaly Detection</strong>, <strong>Alert Rule Loading Detection</strong>, <strong>Invalid</strong> <strong>Alert Rule Detection</strong>, and <strong>Alert Rule Callback Detection</strong>.<br>• Click <strong>Re-detect</strong> to check the rule validity again. |
    | View rule execution records | Click <strong>View Rule Execution Records</strong> in the <strong>Rule Execution Records</strong> column of the target alert rule. In the <strong>Alert Rule Execution Records</strong> panel, you can filter the execution records by time range. |
    | Modify an alert rule | i. Click <strong>Edit</strong> in the <strong>Actions</strong> column of the target alert rule<strong>.</strong><br>ii. In the <strong>Modify Alert Rule</strong> panel, modify the alert rule.<br>iii. After you finish the modifications, click <strong>OK</strong>. |
-   | Disable an alert rule | When you need to manually stop a service for maintenance or an upgrade, you can disable the alert rule to avoid receiving many useless alert notifications caused by manual changes.<br>Note<br>Before you disable an alert rule, make sure that its <strong>Status</strong> is <strong>Normal</strong>.<br>• Disable a single rule<br>a. Click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon in the <strong>Actions</strong> column of the target alert rule, and click Disable.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Disable rules in a batch<br>a. Select the check boxes of the target alert rules, and then click <strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
+   | Disable an alert rule | When you need to manually stop a service for maintenance or an upgrade, you can disable the alert rule to avoid receiving many useless alert notifications caused by manual changes.<br>Note<br>Before you disable an alert rule, make sure that its <strong>Status</strong> is <strong>Normal</strong>.<br>• Disable a single rule<br>a. Click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon in the <strong>Actions</strong> column of the target alert rule, and click Disable.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Disable rules in a batch<br>a. Select the check boxes of the target alert rules, and then click <strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
 
    <table>
      <tr>
@@ -12643,7 +12643,7 @@ CloudMonitor (CMS) supports monitoring only for preset cloud product metrics. Fo
      </tr>
      <tr>
        <td>Delete an alert rule</td>
-       <td>• Delete a single rule<br>a. Click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon in the Actions column of the target alert rule, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Delete rules in a batch<br>a. Select the check boxes of the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.</td>
+       <td>• Delete a single rule<br>a. Click the<img src="en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon in the Actions column of the target alert rule, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Delete rules in a batch<br>a. Select the check boxes of the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.</td>
      </tr>
    </table>
 
@@ -12679,7 +12679,7 @@ The monitoring data of custom events is reported to CloudMonitor.
 
    - **Column chart of custom event distribution**
 
-     ![](assets/275aa33700187e7bbaa2eec53a2206c5.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/275aa33700187e7bbaa2eec53a2206c5.jpeg)
 
    - **Custom event list**
 
@@ -12687,7 +12687,7 @@ The monitoring data of custom events is reported to CloudMonitor.
      >
      > To create an alert rule for a custom event, find the custom event and click **Create an Event Alarm rule** in the **Operation** column. In the **Create an Event Alarm rule** panel, configure parameters to create an alert rule for the custom event. For more information, see the Create an event-triggered alert rule section of this topic.
 
-     ![](assets/883a35d5a27999d799870ca9e092c312.jpeg)
+     ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/883a35d5a27999d799870ca9e092c312.jpeg)
 
 **Event-triggered alert rules**
 
@@ -12706,7 +12706,7 @@ The monitoring data of custom events is reported to CloudMonitor.
    | Contact Group | The alert contacts or alert contact groups that receive alert notifications. |
    | Alarm callback | The callback URL to which CloudMonitor sends alert notifications by using the POST request method.<br>Note<br>The callback URL must be accessible for CloudMonitor. You can enter only an HTTP URL. IP addresses are not supported. |
 
-   ![](assets/f381bc87b6de58028c4cc4c3e9b876bf.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/f381bc87b6de58028c4cc4c3e9b876bf.jpeg)
 
 3. Click **OK**.
 
@@ -12720,7 +12720,7 @@ The monitoring data of custom events is reported to CloudMonitor.
    >
    > The name of the custom event cannot be modified.
 
-   ![](assets/8de03a2c7f707728964b64a0fe3c512d.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/8de03a2c7f707728964b64a0fe3c512d.jpeg)
 
 3. Click **OK**.
 
@@ -12880,4 +12880,4 @@ The monitoring data of custom events is reported to CloudMonitor.
 
 3. The event-triggered alerts that meet the specified conditions are displayed on the Event Alarm History tab. You can view the alert information, including the rule name, rule ID, time when the alert was generated, event name, and event level.
 
-   ![](assets/6d4978e3de77ffd43e17dc5e1326cace.jpeg)
+   ![](en-cloud-monitor-user-guide-v3.18.6-2607-20260901.assets/6d4978e3de77ffd43e17dc5e1326cace.jpeg)

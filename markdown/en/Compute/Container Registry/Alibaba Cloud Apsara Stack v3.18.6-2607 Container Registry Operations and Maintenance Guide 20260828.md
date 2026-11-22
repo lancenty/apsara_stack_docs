@@ -71,7 +71,7 @@ This topic describes the O&M architecture of Container Registry (ACR).
 
 The following figure shows the O&M architecture of ACR.
 
-![](assets/59308613b4333146ed6bc0a64a1a1ea4.jpeg)
+![](en-acr-operations-guide-v3.18.6-2607-20260828.assets/59308613b4333146ed6bc0a64a1a1ea4.jpeg)
 
 | Category | Description |
 | --- | --- |
@@ -126,22 +126,22 @@ This document outlines the operations and maintenance (O&M) process for Containe
 
 Log in to the VM where ACR is located, and run the  `kubectl get pod -n acr-system` command to check whether the ACR baseline component pods are in their final state.
 
-![](assets/9a5f6ff1a943473acb1911cfc41d78ae.jpeg)
+![](en-acr-operations-guide-v3.18.6-2607-20260828.assets/9a5f6ff1a943473acb1911cfc41d78ae.jpeg)
 
 **ACR Apsara container component inspection**
 
 Log in to the VM that hosts the ACR, and run the  `sudo docker ps -a | grep acr`  command to check the status of the ACRPaaS baseline component container.
 
-![](assets/94a072bbfa02c1da485d4979fe598bb8.jpeg)
+![](en-acr-operations-guide-v3.18.6-2607-20260828.assets/94a072bbfa02c1da485d4979fe598bb8.jpeg)
 
 **ACR Apsara management component logs**
 
 Log in to the VM that hosts ACR and run the  `sudo docker logs <docker-acr-manager-name>` command to view the status of the ACRPaaS baseline component container.
 
-![](assets/b7ee7e673bae5fe03f65d5461a0cfe1d.jpeg)
+![](en-acr-operations-guide-v3.18.6-2607-20260828.assets/b7ee7e673bae5fe03f65d5461a0cfe1d.jpeg)
 
 **ACR PaaS container management component logs**
 
 Log on to the VM that hosts ACR and run the  `kubectl logs <manager-pod-name> -n acr-system`  command to check the status of the ACRPaaS baseline component management container.
 
-![](assets/37181ff61710822bbcc84b17b9fa462b.png)
+![](en-acr-operations-guide-v3.18.6-2607-20260828.assets/37181ff61710822bbcc84b17b9fa462b.png)

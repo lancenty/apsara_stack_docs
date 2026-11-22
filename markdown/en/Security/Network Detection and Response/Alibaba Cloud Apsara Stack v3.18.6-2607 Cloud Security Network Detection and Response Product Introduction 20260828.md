@@ -62,7 +62,7 @@ NDR detects and analyzes inbound and outbound traffic on a packet-by-packet basi
 
 **Product network architecture**
 
-![](assets/d37c91a432899e6731a8a3a3e3e540a6.png)
+![](en-ndr-product-introduction-v3.18.6-2607-20260828.assets/d37c91a432899e6731a8a3a3e3e540a6.png)
 
 NDR is deployed in bypass mode, which is transparent to your business systems. NDR requires network devices such as optical splitters and network Test Access Points (TAPs) to mirror traffic over uplink ports of Inter-connection Switches (ISWs), Customer Switches (CSWs), and LVS Switches (LSWs) to the NDR cluster.
 

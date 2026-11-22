@@ -351,7 +351,7 @@ SchedulerX2 integrates container monitoring, process monitoring, and JVM monitor
 
 5. In the service list, click a service component under **schedulerx2**. On the **Infrastructure Monitoring** tab, click **Container Monitoring** and **Process Monitoring** to view the data.
 
-   ![](assets/6d6735b7d2b0146e3fd26aaa3b40e617.jpeg)
+   ![](en-schedulerx-operations-guide-v3.18.6-20260701.assets/6d6735b7d2b0146e3fd26aaa3b40e617.jpeg)
 
 **View JVM monitoring information**
 
@@ -365,7 +365,7 @@ SchedulerX2 integrates container monitoring, process monitoring, and JVM monitor
 
 5. In the service list, find **schedulerx2 > schedulerx2ConsoleRole#**. On the **Infrastructure Monitoring** tab, click **JVM Monitoring**.
 
-   ![](assets/bd383825c1aa345d771b47de49b0347d.jpeg)
+   ![](en-schedulerx-operations-guide-v3.18.6-20260701.assets/bd383825c1aa345d771b47de49b0347d.jpeg)
 
 **Alert rules**
 
@@ -373,10 +373,10 @@ SchedulerX2 integrates container monitoring, process monitoring, and JVM monitor
 
 2. On the **Alert Rules** page, enter  `SchedulerX2`  in the **Rule Name** search box and click Search. You can then view and edit the rules.
 
-   ![](assets/04c4f7e0d933e3b4c1e826010f91ace4.jpeg)
+   ![](en-schedulerx-operations-guide-v3.18.6-20260701.assets/04c4f7e0d933e3b4c1e826010f91ace4.jpeg)
 
 3. In the **Cloud Platform Monitoring** console, click **Business Monitoring > Alert History** in the navigation pane on the left to view alert information.
 
 4. On the **Alert History** page, enter  `schedulerx2`  in the Service Catalog search box and click Search. You can view the alert information in the alert list.
 
-   ![](assets/83c31fffdc114138d43a736d183f99b5.jpeg)
+   ![](en-schedulerx-operations-guide-v3.18.6-20260701.assets/83c31fffdc114138d43a736d183f99b5.jpeg)

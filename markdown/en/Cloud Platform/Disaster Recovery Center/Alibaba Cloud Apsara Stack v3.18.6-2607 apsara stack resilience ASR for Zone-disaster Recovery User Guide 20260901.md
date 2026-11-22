@@ -127,7 +127,7 @@ This topic describes the deployment architecture of Apsara Stack Resilience (ASR
 
 ASR does not rely on other Apsara Stack services. When a data center fails, ASR can still provide services to ensure business continuity. An ASR system is deployed in each of the primary and secondary data centers to handle data center-level failures in different scenarios. The following figure shows the deployment architecture:
 
-![](assets/6cec33e0fb4589f466fefa15dd8cbce9.png)
+![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6cec33e0fb4589f466fefa15dd8cbce9.png)
 
 1. ASR in the primary data center implements failovers when the secondary data center encounters power and network outages or when split-brain issues occur in two data centers-based zone disaster recovery scenarios.
 
@@ -223,7 +223,7 @@ The following table describes the ASR for Zone-disaster Recovery features that t
   </tr>
   <tr>
     <td rowspan="6">Norm al views</td>
-    <td rowspan="6">Fault simulation<br><img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt=""><br>Note<br>This menu item is display ed only in escape login mode and is not display ed if you use ASR in the Apsara Uni-manag er Operati ons Consol e.</td>
+    <td rowspan="6">Fault simulation<br><img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt=""><br>Note<br>This menu item is display ed only in escape login mode and is not display ed if you use ASR in the Apsara Uni-manag er Operati ons Consol e.</td>
     <td rowspan="6">Disaster Recovery &gt; Fault Simulatio n &gt; Injection Starting</td>
     <td colspan="3"></td>
     <td rowspan="6">• Disaster recovery drill<br>• Permissions of a disaster recovery system administrator</td>
@@ -715,7 +715,7 @@ ASR for Zone-disaster RecoveryASR for Zone-disaster Recovery provides three logi
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -745,11 +745,11 @@ ASR for Zone-disaster RecoveryASR for Zone-disaster Recovery provides three logi
 
 5. In the top navigation bar, choose **Platform Operation > Disaster recovery management > ASR for Zone-Disaster Recovery**.
 
-6. Click <img src="assets/c875b708f6cae69888227c65d76bf907.png" width="14" alt=""> at the top of the left navigation bar to switch between primary and secondary data
+6. Click <img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/c875b708f6cae69888227c65d76bf907.png" width="14" alt=""> at the top of the left navigation bar to switch between primary and secondary data
 
    centers.
 
-   ![](assets/e5285b058fa1c88461dc0a0bdef6e6f1.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e5285b058fa1c88461dc0a0bdef6e6f1.jpeg)
 
 7. (Optional) Click Normal or O&M in the left navigation bar to switch views.
 
@@ -757,7 +757,7 @@ ASR for Zone-disaster RecoveryASR for Zone-disaster Recovery provides three logi
    >
    > You must possess at least one of the following permissions: disaster recovery monitoring, disaster recovery drill, or system administrator, to switch views.
 
-   ![](assets/d459c35c5277af2947b5e1ccfb153305.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/d459c35c5277af2947b5e1ccfb153305.jpeg)
 
 **Disaster recovery escape login**
 
@@ -779,7 +779,7 @@ ASR for Zone-disaster RecoveryASR for Zone-disaster Recovery provides three logi
    >
    >   - If the secondary data center fails, access the escape address of the primary data center's ASR for Zone-disaster Recovery: asr-xm-&lt;region-id>.console.&lt;intranet-domain-id>/user/login.
 
-   ![](assets/36899ace22397f4e455276e94cf3f9f3.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/36899ace22397f4e455276e94cf3f9f3.jpeg)
 
    > **Note**
    >
@@ -795,11 +795,11 @@ ASR for Zone-disaster RecoveryASR for Zone-disaster Recovery provides three logi
 
 4. Click Normal or O&M at the top of the page to switch views.
 
-   ![](assets/cfe1c7d6c410e043ec51dae4da52e684.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/cfe1c7d6c410e043ec51dae4da52e684.jpeg)
 
 5. Click Data Center at the top of the page to navigate to the corresponding data center page.
 
-   ![](assets/97e36bc6bf29fe42d09ecbf9a34d6be2.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/97e36bc6bf29fe42d09ecbf9a34d6be2.jpeg)
 
 **Tenant operations logon**
 
@@ -885,9 +885,9 @@ The overview page presents the overall disaster recovery capabilities of the pla
 
 2. On the **Overview** page, you can view information such as the secondary data center status, network traffic between data centers, forced switchover predictions, and instance synchronization status.
 
-   ![](assets/486295535dacb6bf2c689f9b44b65053.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/486295535dacb6bf2c689f9b44b65053.jpeg)
 
-   ![](assets/af837d108b4899a5d542edb68c65d513.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/af837d108b4899a5d542edb68c65d513.jpeg)
 
    > **Note**
    >
@@ -955,7 +955,7 @@ Before products are switched over or back, you must check whether the status of 
 
 3. Select the service type, service name, primary service location, and service status from the drop-down lists to filter the monitoring items that meet disaster recovery conditions.
 
-   ![](assets/bbb07d5e21c0d689241990daa7fe471e.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/bbb07d5e21c0d689241990daa7fe471e.jpeg)
 
    In the upper-right corner, click **Visualized Dashboard** to go to the dashboard monitoring page. For more information, see Dashboard monitoring.
 
@@ -979,7 +979,7 @@ Before products are switched over or back, you must check whether the status of 
 
 3. Select the service name, primary service location, and service status from the drop-down lists to filter the monitoring items that meet disaster recovery conditions.
 
-   ![](assets/9b0c19e91020bdea7474812cd6392554.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/9b0c19e91020bdea7474812cd6392554.jpeg)
 
    In the upper-right corner, click **Visualized Dashboard** to go to the dashboard monitoring page. For more information, see Dashboard monitoring.
 
@@ -1007,7 +1007,7 @@ This topic describes how to view the data synchronization latency compliance rat
    >
    > - Choose **Settings** > **Alerts** > **Alert Rules** and modify the **Triggering Threshold** value of the **Data Loss** metric of a service to change the alert threshold.
 
-   ![](assets/a0f54d415c5b62f7f56ba5f4ee479410.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/a0f54d415c5b62f7f56ba5f4ee479410.jpeg)
 
    The following table describes the features that you can use on the Synchronization Monitoring page.
 
@@ -1018,7 +1018,7 @@ This topic describes how to view the data synchronization latency compliance rat
    <table>
      <tr>
        <td>Search</td>
-       <td>You can select a specific cloud service and search for a specific instance to view the synchronization information. You can select <strong>Instance ID</strong>, <strong>Instance</strong> <strong>Name</strong>, <strong>Current Location</strong>, <strong>Instance Engine</strong>, or <strong>Status</strong> from the drop-down list.<br>• Select <strong>Instance ID</strong> from the drop-down list, enter an instance ID in the<br>search box, and then click the<img src="assets/af1fd2459c0ef68146db5f979765b81f.png" width="16" alt="">icon.<br>• Select <strong>Instance Name</strong> from the drop-down list, enter an instance name in<br>the search box, and then click the<img src="assets/af1fd2459c0ef68146db5f979765b81f.png" width="16" alt="">icon.<br>• Select <strong>Current Location</strong> from the drop-down list, and then select a data center name. The system automatically filters data that meets the conditions.<br>• Select <strong>Instance Engine</strong> from the drop-down list, and then select an instance engine. The system automatically filters data that meets the conditions.<br>Note<br>You can search instances by instance engine only for ApsaraDB RDS.<br>• Select <strong>Status</strong> from the drop-down list, and then select a state, which can be <strong>Normal</strong> or <strong>Abnormal</strong>.<br>You can click <strong>Advanced Filter</strong> to combine multiple query dimensions for search.</td>
+       <td>You can select a specific cloud service and search for a specific instance to view the synchronization information. You can select <strong>Instance ID</strong>, <strong>Instance</strong> <strong>Name</strong>, <strong>Current Location</strong>, <strong>Instance Engine</strong>, or <strong>Status</strong> from the drop-down list.<br>• Select <strong>Instance ID</strong> from the drop-down list, enter an instance ID in the<br>search box, and then click the<img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/af1fd2459c0ef68146db5f979765b81f.png" width="16" alt="">icon.<br>• Select <strong>Instance Name</strong> from the drop-down list, enter an instance name in<br>the search box, and then click the<img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/af1fd2459c0ef68146db5f979765b81f.png" width="16" alt="">icon.<br>• Select <strong>Current Location</strong> from the drop-down list, and then select a data center name. The system automatically filters data that meets the conditions.<br>• Select <strong>Instance Engine</strong> from the drop-down list, and then select an instance engine. The system automatically filters data that meets the conditions.<br>Note<br>You can search instances by instance engine only for ApsaraDB RDS.<br>• Select <strong>Status</strong> from the drop-down list, and then select a state, which can be <strong>Normal</strong> or <strong>Abnormal</strong>.<br>You can click <strong>Advanced Filter</strong> to combine multiple query dimensions for search.</td>
      </tr>
      <tr>
        <td>Jump to another page</td>
@@ -1026,7 +1026,7 @@ This topic describes how to view the data synchronization latency compliance rat
      </tr>
      <tr>
        <td>View instance synchronization information</td>
-       <td>• Click the<img src="assets/c90a5f69f4be53a9b0d1b7e9b0ff65c2.png" width="22" alt="">icon in the Actions column to view the instance<br>synchronization information (RPO) in the last 24 hours, last 6 hours, and last 1 hour.<br>• Click the<img src="assets/6a3e301e5af71bf0f01ad023186a2ef5.png" width="16" alt="">icon in the Actions column to hide the line chart of instance<br>synchronization information.</td>
+       <td>• Click the<img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/c90a5f69f4be53a9b0d1b7e9b0ff65c2.png" width="22" alt="">icon in the Actions column to view the instance<br>synchronization information (RPO) in the last 24 hours, last 6 hours, and last 1 hour.<br>• Click the<img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6a3e301e5af71bf0f01ad023186a2ef5.png" width="16" alt="">icon in the Actions column to hide the line chart of instance<br>synchronization information.</td>
      </tr>
    </table>
 
@@ -1056,7 +1056,7 @@ Zone-disaster recovery drills are an important part of the delivery acceptance a
 
 **Drill flowchart**
 
-![](assets/dee11fa89d3935b2adf0fe1d100c35a9.jpeg)
+![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/dee11fa89d3935b2adf0fe1d100c35a9.jpeg)
 
 <a id="section-3-3-2"></a>
 
@@ -1086,13 +1086,13 @@ This topic describes how to perform default drills to switch over cloud services
    >
    > You can determine whether to log on to the ASR for Zone-disaster Recovery (Secondary Zone) console or log on to the ASR for Zone-disaster Recovery (Primary Zone) console based on the drill data center. When you log on to the ASR for Zone-disaster Recovery (Secondary Zone) console, you can select the primary data center and third data center for the drill. When you log on to the ASR for Zone-disaster Recovery (Primary Zone) console, you can select the secondary data center for the drill.
 
-   ![](assets/525e16a24571752f9788bbc67ba4925e.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/525e16a24571752f9788bbc67ba4925e.jpeg)
 
 4. On the **Default Plan** tab, select all cloud services or a single cloud service for a switchover drill.
 
 5. In the dialog box that appears, confirm that the service check has passed, select "The disaster recovery adaptation for the network and business applications is complete. I have understood the consequences." and click **Switchover**.
 
-   ![](assets/f3de35fd7abc8d406d930ec3744fa5fe.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/f3de35fd7abc8d406d930ec3744fa5fe.jpeg)
 
    You can perform the switchback operation in the same manner. If a service exception is displayed in the dialog box, view the details of the exception on the Product Monitoring page.
 
@@ -1123,11 +1123,11 @@ You can perform disaster recovery drills to switch over services between the pri
 
 5. Click **OK**.
 
-   ![](assets/9d2a290bcc5d8590531a35796306e704.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/9d2a290bcc5d8590531a35796306e704.jpeg)
 
 6. In the upper-right corner of the page, the execution status of the switchover or switchback plan is displayed. Click **View** to view the switchback or switchback execution details.
 
-   ![](assets/5c7b796b2a482ad54c98734dee551e02.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/5c7b796b2a482ad54c98734dee551e02.jpeg)
 
 7. On the **Custom Plan** tab, you can view the details of a drill plan or delete a drill plan. You can also perform a switchover or switchback.
 
@@ -1139,7 +1139,7 @@ You can perform disaster recovery drills to switch over services between the pri
 
      Find the drill plan that you want to view and click **Details** in the **Actions** column.
 
-     ![](assets/f415d70cb3300de4a50a9a590a1c5d59.jpeg)
+     ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/f415d70cb3300de4a50a9a590a1c5d59.jpeg)
 
      </li>
 
@@ -1255,7 +1255,7 @@ This topic describes how to view the records and results of default drills and c
 
      On the page that appears, you can view the execution details.
 
-     ![](assets/9ed2887e7d09bf9e104e1fd213de0e7b.jpeg)
+     ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/9ed2887e7d09bf9e104e1fd213de0e7b.jpeg)
 
      </li>
 
@@ -1269,7 +1269,7 @@ This topic describes how to view the records and results of default drills and c
 
      Find the drill record that you want to view and click **View Report** in the **Actions** column, or click **View Report** on the execution details page.
 
-     ![](assets/bcc8b68fe85e73e2bb437e5c99a31ca3.jpeg)
+     ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/bcc8b68fe85e73e2bb437e5c99a31ca3.jpeg)
 
      </li>
 
@@ -1285,7 +1285,7 @@ This topic describes how to view the records and results of default drills and c
 
      On the **Drill Record** page, find the drill record that you want to view and click **View Dashboard** in the **Actions** column.
 
-     ![](assets/4b7d3eaa802fa588825cba6e700c088d.jpeg)
+     ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4b7d3eaa802fa588825cba6e700c088d.jpeg)
 
      > **Note**
      >
@@ -1305,7 +1305,7 @@ A drill dashboard displays visualized switchover data in real time. On the drill
 
    **Dashboard for an ongoing drill**
 
-   ![](assets/df1371842df12e7bed747f6e6dec078e.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/df1371842df12e7bed747f6e6dec078e.jpeg)
 
    **Dashboard for a completed drill**
 
@@ -1314,7 +1314,7 @@ A drill dashboard displays visualized switchover data in real time. On the drill
    | <strong>Normal</strong>/<strong>In Drill</strong> | • If you select Normal, a monitoring dashboard is displayed, including the number of services with disaster recovery deployed, details of abnormal instances, and overview of selected services.<br>• If you select In Drill, a drill dashboard is displayed, including the service orchestration during switchover, progress, and switchover duration of each service. |
    | Switchover Overview<br>Switchback Overview | Displays the switchover or switchback duration of the services with disaster recovery deployed in the disaster recovery region and the time when the switchover or switchback is complete. |
    | Product/Base Switchover Details<br>Product/Base Switchback Details | • Displays the number of services on which the switchover or switchback is performed, execution status, and execution types.<br>• The execution status includes Executing, Executed, Execution Failed, and Waiting. |
-   | Gantt Chart for Product Switchover<br>Gantt Chart for Product Switchback | • Displays the switchover or switchback duration, start time, and end time for each service involved in the switchover or switchback.<br>• Click the<img src="assets/1732b75fdb9f21750331b74996532415.png" width="26" alt="">icon to zoom in the Gantt chart. |
+   | Gantt Chart for Product Switchover<br>Gantt Chart for Product Switchback | • Displays the switchover or switchback duration, start time, and end time for each service involved in the switchover or switchback.<br>• Click the<img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/1732b75fdb9f21750331b74996532415.png" width="26" alt="">icon to zoom in the Gantt chart. |
    | Screen Mirroring | Displays the dashboard in full screen. |
 
 <a id="section-3-4"></a>
@@ -1357,7 +1357,7 @@ Disaster recovery has the following scenarios:
 
 **Flowchart**
 
-![](assets/f4346904655439c86e10d986474e1ba4.jpeg)
+![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/f4346904655439c86e10d986474e1ba4.jpeg)
 
 > **Note**
 >
@@ -1383,7 +1383,7 @@ This topic describes how to recover online business by starting cloud services i
 
 3. Click the **Power Outage Recovery** tab.
 
-   ![](assets/59100188cf558eada888bbdd71a28bb1.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/59100188cf558eada888bbdd71a28bb1.jpeg)
 
 4. Click **Perform Global Switchover**. In the message that appears, click **OK**.
 
@@ -1411,7 +1411,7 @@ This topic describes how to fail back your business to the primary data center a
 
 3. Click the **Failback after Power Outage** tab.
 
-   ![](assets/6182c6218b014dbf86fb489c86546a3c.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6182c6218b014dbf86fb489c86546a3c.jpeg)
 
 4. Click **Perform Global Switchback**. In the message that appears, click **OK**.
 
@@ -1439,7 +1439,7 @@ This topic describes how to start cloud services in the secondary data center wh
 
 3. Click the **Network Outage Recovery** tab.
 
-   ![](assets/cda24ecb91514f4d8b83a83d0b71d2a6.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/cda24ecb91514f4d8b83a83d0b71d2a6.jpeg)
 
 4. Click **Perform Global Switchover**. In the message that appears, click **OK**.
 
@@ -1467,7 +1467,7 @@ This topic describes how to fail back your business to the primary data center a
 
 3. Click the **Network Outage** tab.
 
-   ![](assets/3d34b05d4d37fe888da22fb85dc630f1.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3d34b05d4d37fe888da22fb85dc630f1.jpeg)
 
 4. Click **Perform Global Switchback**. In the message that appears, click **OK**.
 
@@ -1485,7 +1485,7 @@ This topic describes how to recover online business by starting cloud services i
 
 3. On the **Power Outage in Secondary Data Center** tab, click **Perform Global Switchover**. In the confirmation message that appears, click **OK**. The failback operation is supported only after the failover is successful.
 
-   ![](assets/7a40b2932c3c90888be3a39915d1d730.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7a40b2932c3c90888be3a39915d1d730.jpeg)
 
    > **Warning**
    >
@@ -1513,7 +1513,7 @@ This topic describes how to recover online business by starting cloud services i
 
 3. Click the **Split-brain Recovery in Primary and Secondary Data Centers** tab.
 
-   ![](assets/1daaabb357a3ffb46f3b5716f2793865.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/1daaabb357a3ffb46f3b5716f2793865.jpeg)
 
 4. Keep the default faulty data center.
 
@@ -1525,7 +1525,7 @@ This topic describes how to recover online business by starting cloud services i
 
 6. In the message that appears, click **Switchover**.
 
-   ![](assets/a335a457632bd93585ed378c761d1a5c.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/a335a457632bd93585ed378c761d1a5c.jpeg)
 
    > **Note**
    >
@@ -1549,7 +1549,7 @@ This topic describes how to switch back your business to the original data cente
 
 3. Click the **Split-brain Recovery in Primary and Secondary Data Centers** tab.
 
-   ![](assets/ef16a9414b39b0c74b073066075ec17a.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/ef16a9414b39b0c74b073066075ec17a.jpeg)
 
 4. Select the faulty data center.
 
@@ -1557,7 +1557,7 @@ This topic describes how to switch back your business to the original data cente
 
 6. In the message that appears, click **Switchback**.
 
-   ![](assets/cf03c66583393c900cd7bbcec452dcf2.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/cf03c66583393c900cd7bbcec452dcf2.jpeg)
 
    > **Note**
    >
@@ -1593,7 +1593,7 @@ From the perspective of the deployment modes, zone-disaster recovery scenarios c
 
   - Single-product fault: A product in the primary, secondary, or quorum data center is faulty and in the abnormal state.
 
-![](assets/24755881ad33d4e2a322fc954870547d.jpeg)
+![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/24755881ad33d4e2a322fc954870547d.jpeg)
 
 > **Note**
 >
@@ -1672,17 +1672,17 @@ Pre-environment check items vary based on the fault injection scenario. Perform 
 
 3. In the Select Data Center step, select **Primary Data Center** or **Secondary Data Center** from the **Select Data Center** drop-down list.
 
-   ![](assets/9571f202a865dbd90bba61515910b8ef.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/9571f202a865dbd90bba61515910b8ef.jpeg)
 
 4. On the **Check Prerequisites** page, enter the environment information as prompted.
 
-   ![](assets/37e6dce6a2b29f9930f8d53ad65caea1.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/37e6dce6a2b29f9930f8d53ad65caea1.jpeg)
 
 5. Click **Next**. After the information is verified, ASR begins to check the status of the switches.
 
    If the status of the switches is abnormal, contact on-site O&M engineers to resolve the abnormalities, or you can ignore the abnormalities based on your requirements.
 
-   ![](assets/e87890cff7e0911816196abe4a69e10f.png)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e87890cff7e0911816196abe4a69e10f.png)
 
 6. Check information about the servers, including the SNs, out-of-band IP addresses, hostnames, and power supply.
 
@@ -1690,7 +1690,7 @@ Pre-environment check items vary based on the fault injection scenario. Perform 
 
    You can also click **View Server Role** to view the server role information about the required server.
 
-   ![](assets/0982c2110472a1af3aacddff63dce935.png)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/0982c2110472a1af3aacddff63dce935.png)
 
 7. Click **Complete** to complete the checks.
 
@@ -1722,7 +1722,7 @@ An authentication code is obtained. For more information, see Apply for an authe
 
 3. Select the switch ports you want to disable. You can select **Port for Public Network Connection** and **Port for Physical Connection**.
 
-   ![](assets/3ff1596a4d327f5fed08d564b274f719.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3ff1596a4d327f5fed08d564b274f719.jpeg)
 
    > **Note**
    >
@@ -1740,7 +1740,7 @@ An authentication code is obtained. For more information, see Apply for an authe
 
 7. Optional. In the **Primary Data Center Server** step, view the list of servers that need to be shut down. If servers that do not need to be shut down exist, enter the server names in the **Exclude Server** field. Click **Submit**.
 
-   ![](assets/929651637c51277cc8ebb83009fa64d3.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/929651637c51277cc8ebb83009fa64d3.jpeg)
 
 8. Click **Start** to shut down the servers.
 
@@ -1774,7 +1774,7 @@ Your business is successfully switched over, and all services are available.
 
 2. In the left-side navigation pane, choose **Disaster Recovery > Fault Simulation > Data Center Disaster Recovery**.
 
-   ![](assets/3d0bcfeac21bd3fc882a7ea9df07ff1f.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3d0bcfeac21bd3fc882a7ea9df07ff1f.jpeg)
 
    > **Note**
    >
@@ -1854,7 +1854,7 @@ An authentication code is obtained. For more information, see Apply for an authe
 
 3. Select the switch ports you want to disable. In the Select the switch ports to be closed step, you can select **Port for Public Network Connection** and **Port for Public Network Connection**. By default, **Port for Cross-Data Center Circuit** is disabled.
 
-   ![](assets/70da99a0bded675e9dce0b0edfa69e08.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/70da99a0bded675e9dce0b0edfa69e08.jpeg)
 
    > **Note**
    >
@@ -1868,7 +1868,7 @@ An authentication code is obtained. For more information, see Apply for an authe
 
 7. After the fault is injected, click **Complete**.
 
-   ![](assets/59674e524355a333a6c6e0108db58052.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/59674e524355a333a6c6e0108db58052.jpeg)
 
 **What to do next**
 
@@ -1890,7 +1890,7 @@ Your business is successfully switched over, and all services are available.
 
 2. In the left-side navigation pane, choose **Disaster Recovery > Fault Simulation > Data Center Disaster Recovery**.
 
-   ![](assets/e6b072d4a9e171c5134db479bafe8a71.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e6b072d4a9e171c5134db479bafe8a71.jpeg)
 
    > **Note**
    >
@@ -1902,7 +1902,7 @@ Your business is successfully switched over, and all services are available.
 
 5. In the **Recover Data Center** step, click **Start** or **Skip** to enable or skip enabling Internet connections, physical connections, and cross-data center connections.
 
-   ![](assets/eab431c735581fc7e104320f9c664606.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/eab431c735581fc7e104320f9c664606.jpeg)
 
 6. When all items are in the **Completed** state, click **Complete**.
 
@@ -1926,7 +1926,7 @@ An authentication code is obtained. For more information, see Apply for an authe
 
 2. In the left-side navigation pane, choose **Disaster Recovery > Fault Simulation > Inject Fault**.
 
-   ![](assets/5468b2bd9952c60020056c9d8aff7012.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/5468b2bd9952c60020056c9d8aff7012.jpeg)
 
 3. Click **Start**. Enter the obtained authentication code. ASR checks the environment information.
 
@@ -1934,7 +1934,7 @@ An authentication code is obtained. For more information, see Apply for an authe
 
 5. In the **Inject Disaster Recovery Fault** step, click **Start**.
 
-   ![](assets/d548b3849564699b50a026d8a5afe2f9.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/d548b3849564699b50a026d8a5afe2f9.jpeg)
 
 6. After the check is complete, click **Complete**.
 
@@ -1966,7 +1966,7 @@ This topic describes how to simulate the recovery of an environment for a split-
    >
    > ASR automatically identifies whether the authentication code and the user information are valid. If the information is invalid, you are not allowed to perform operations.
 
-   ![](assets/29602cb14d45d2d160963ceeced12bcf.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/29602cb14d45d2d160963ceeced12bcf.jpeg)
 
 3. Click **Start**. Enter the obtained authentication code. The account information does not need to be verified. ASR checks the environment information before the data center is recovered.
 
@@ -2006,7 +2006,7 @@ An authentication code is obtained. For more information, see Apply for an authe
 
 3. Click **Start**. Enter the obtained authentication code and click **OK**.
 
-   ![](assets/65ca54e793abf8278d9097873d273999.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/65ca54e793abf8278d9097873d273999.jpeg)
 
    > **Note**
    >
@@ -2016,7 +2016,7 @@ An authentication code is obtained. For more information, see Apply for an authe
 
 5. Select the service for which you want to inject a fault and the data center in which the service is deployed. Then, click **Search**. Select the check box of the cluster that you want to shut down. Click **Start**.
 
-   ![](assets/3622738d97659046b182644703d98128.png)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3622738d97659046b182644703d98128.png)
 
    > **Note**
    >
@@ -2062,7 +2062,7 @@ After a single-service outage occurs, your business is switched over and the ser
 
 5. In the **Recover Data Center** step, click **Start** in the upper-right corner.
 
-   ![](assets/3c82285175ff2adf92652b5c50dc2c86.png)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3c82285175ff2adf92652b5c50dc2c86.png)
 
    > **Note**
    >
@@ -2070,7 +2070,7 @@ After a single-service outage occurs, your business is switched over and the ser
 
 6. If the cluster is started, click **Complete**.
 
-   ![](assets/c9ffac05e28ed27e0625aedec69538e3.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/c9ffac05e28ed27e0625aedec69538e3.jpeg)
 
 7. Click **Complete**.
 
@@ -2149,17 +2149,17 @@ Environment check items differ in fault injection scenarios. Perform environment
 
 3. Select the primary, secondary, or quorum data center from the **Select Data Center** drop-down list.
 
-   ![](assets/67a122b96ea62bd6c08b097ca0ed3c1f.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/67a122b96ea62bd6c08b097ca0ed3c1f.jpeg)
 
 4. In the **Check Prerequisites** step, enter the environment information as prompted.
 
-   ![](assets/bf701274a242bff933d01c9b0980916e.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/bf701274a242bff933d01c9b0980916e.jpeg)
 
 5. Click **Next**. After the information is verified, ASR checks the status of the switches.
 
    If the status of the switches is abnormal, contact O&M engineers to resolve the abnormalities, or you can ignore the abnormalities based on your requirements.
 
-   ![](assets/b36d4a4bf60ef906c629a55058471c81.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b36d4a4bf60ef906c629a55058471c81.jpeg)
 
 6. ASR checks the information about the servers, including the serial numbers (SNs), out-of-band IP addresses, hostnames, and power supply.
 
@@ -2167,7 +2167,7 @@ Environment check items differ in fault injection scenarios. Perform environment
 
    You can also click **View Server Role** to view the server role information about a server.
 
-   ![](assets/9a1ea3fb05a8cf798a5d8c8a116888b4.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/9a1ea3fb05a8cf798a5d8c8a116888b4.jpeg)
 
 7. Click **Complete** to complete the check.
 
@@ -2201,7 +2201,7 @@ This topic describes how to simulate a power outage scenario by shutting down al
 
 3. Select the switch ports that you want to disable. You can select **Port for Public Network Connection** and **Port for Physical Connection**.
 
-   ![](assets/3ff1596a4d327f5fed08d564b274f719.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3ff1596a4d327f5fed08d564b274f719.jpeg)
 
    > **Note**
    >
@@ -2221,7 +2221,7 @@ This topic describes how to simulate a power outage scenario by shutting down al
 
 8. **Optional.** In the **Primary Data Center Server** section, view the list of servers that need to be shut down. If servers that do not need to be shut down exist, enter the server names in the **Exclude Server** field. Then, click **Submit**.
 
-   ![](assets/929651637c51277cc8ebb83009fa64d3.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/929651637c51277cc8ebb83009fa64d3.jpeg)
 
 9. Click **Start** to shut down the servers.
 
@@ -2229,7 +2229,7 @@ This topic describes how to simulate a power outage scenario by shutting down al
 
 1. After the fault is injected, click **Complete**.
 
-   ![](assets/0c6d988ba0dde319e0c21f71d9968bc3.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/0c6d988ba0dde319e0c21f71d9968bc3.jpeg)
 
 **What to do next**
 
@@ -2247,7 +2247,7 @@ This topic describes how to start all servers in a data center in the ASR consol
 
 2. In the left-side navigation pane, choose **Disaster Recovery > Fault Simulation > Data Center Disaster Recovery**.
 
-   ![](assets/dc672d49abdde07a33e8937ea93dfc3d.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/dc672d49abdde07a33e8937ea93dfc3d.jpeg)
 
    > **Note**
    >
@@ -2317,7 +2317,7 @@ An authentication code is obtained. For more information, see Apply for an authe
 
 3. Select the switch ports you want to disable. In the Select the switch ports to be closed step, you can select **Port for Public Network Connection** and **Port for Public Network Connection**. By default, **Port for Cross-Data Center Circuit** is disabled.
 
-   ![](assets/7e8e689efe146f4a73384386970857e4.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7e8e689efe146f4a73384386970857e4.jpeg)
 
    > **Note**
    >
@@ -2333,7 +2333,7 @@ An authentication code is obtained. For more information, see Apply for an authe
 
 7. After the fault is injected, click **Complete**.
 
-   ![](assets/0bab21576e51648e7b311deefde2d542.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/0bab21576e51648e7b311deefde2d542.jpeg)
 
 <a id="section-3-4-2-2-5-2"></a>
 
@@ -2351,7 +2351,7 @@ Your business is successfully switched over, and all services are available.
 
 2. In the left-side navigation pane, choose **Disaster Recovery > Fault Simulation > Data Center Disaster Recovery**.
 
-   ![](assets/07d6b3027bf461703e3b179b2866ab54.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/07d6b3027bf461703e3b179b2866ab54.jpeg)
 
    > **Note**
    >
@@ -2365,7 +2365,7 @@ Your business is successfully switched over, and all services are available.
 
 5. In the **Recover Data Center** step, click **Start** or **Skip** to enable or skip enabling Internet connections, physical connections, and cross-data center connections.
 
-   ![](assets/99129179f77148417ba8a97620a79025.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/99129179f77148417ba8a97620a79025.jpeg)
 
    > **Note**
    >
@@ -2395,7 +2395,7 @@ An authentication code is obtained. For more information, see Apply for an authe
 
 2. In the left-side navigation pane, choose **Disaster Recovery > Fault Simulation > Inject Fault**.
 
-   ![](assets/dcbf20ceafeca197e13783370e1d5967.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/dcbf20ceafeca197e13783370e1d5967.jpeg)
 
    > **Note**
    >
@@ -2411,7 +2411,7 @@ An authentication code is obtained. For more information, see Apply for an authe
 
 6. Click **Start**.
 
-   ![](assets/02c3aab2c3f04d7c125fe25203711718.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/02c3aab2c3f04d7c125fe25203711718.jpeg)
 
 7. When the status becomes complete, click **fault injection Complete**.
 
@@ -2433,7 +2433,7 @@ The single-connection fault is injected.
 
 2. In the left-side navigation pane, choose **Disaster Recovery > Fault Simulation > Data Center Disaster Recovery**.
 
-   ![](assets/e687349f190d0e46a53ca072c3eb452e.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e687349f190d0e46a53ca072c3eb452e.jpeg)
 
    > **Note**
    >
@@ -2447,11 +2447,11 @@ The single-connection fault is injected.
 
 5. On the **Recover Data Center** page, click **Start**. The system recovers network connections across three data centers based on the switch and port information specified when the fault is injected.
 
-   ![](assets/2c918f23da5e7d304e5e1d90ccb74fbb.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/2c918f23da5e7d304e5e1d90ccb74fbb.jpeg)
 
 6. When all items are in the **Completed** state, click **Complete**.
 
-   ![](assets/0593b40e5472b77b2a802382cfa12dcc.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/0593b40e5472b77b2a802382cfa12dcc.jpeg)
 
 <a id="section-3-4-2-2-7"></a>
 
@@ -2475,7 +2475,7 @@ The authentication code used to simulate the single-product failure is obtained.
 
 3. Click **Start**. Enter the obtained authentication code. Click **OK**.
 
-   ![](assets/51f54beb7039d9d1599dc8af90eea2a3.png)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/51f54beb7039d9d1599dc8af90eea2a3.png)
 
    > **Note**
    >
@@ -2483,11 +2483,11 @@ The authentication code used to simulate the single-product failure is obtained.
 
 4. On the **Check Service Health** page, enter the IP addresses and the passwords of the OPS 1 servers for the primary and secondary data centers. Click **Next**.
 
-   ![](assets/285ac9133f3576c50c37047e3fb4ee26.png)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/285ac9133f3576c50c37047e3fb4ee26.png)
 
 5. Select the product for which you want to inject a failure and the data center where the product is deployed. Click **Search**. Select the check box in front of the cluster you want to shut down. Click **Start**.
 
-   ![](assets/3622738d97659046b182644703d98128.png)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3622738d97659046b182644703d98128.png)
 
    > **Note**
    >
@@ -2533,7 +2533,7 @@ After a single-service outage occurs, your business is switched over and the ser
 
 5. In the **Recover Data Center** step, click **Start** in the upper-right corner.
 
-   ![](assets/3c82285175ff2adf92652b5c50dc2c86.png)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3c82285175ff2adf92652b5c50dc2c86.png)
 
    > **Note**
    >
@@ -2541,7 +2541,7 @@ After a single-service outage occurs, your business is switched over and the ser
 
 6. If the cluster is started, click **Complete**.
 
-   ![](assets/c9ffac05e28ed27e0625aedec69538e3.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/c9ffac05e28ed27e0625aedec69538e3.jpeg)
 
 7. Click **Complete**.
 
@@ -2557,7 +2557,7 @@ This topic describes how to view disaster recovery records. The records include 
 
 2. In the left-side navigation pane, choose **Disaster Recovery > Recovery History**.
 
-   ![](assets/04cdd723d1963a57919f50399694d97a.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/04cdd723d1963a57919f50399694d97a.jpeg)
 
 3. View record details.
 
@@ -2567,7 +2567,7 @@ This topic describes how to view disaster recovery records. The records include 
 
      <li>
 
-     Click the <img src="assets/a6b53bcf694bc01f83f3bcb7d50148df.png" width="15" alt=""> icon on the left side of a recovery operation name in the **Switchover**
+     Click the <img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/a6b53bcf694bc01f83f3bcb7d50148df.png" width="15" alt=""> icon on the left side of a recovery operation name in the **Switchover**
 
      **Records** section to view the operation time, execution result, and switchover duration.
 
@@ -2585,7 +2585,7 @@ This topic describes how to view disaster recovery records. The records include 
 
      - Click **View Details** in the **Actions** column to view the execution process of a recovery record.
 
-       ![](assets/891c7507c018fd7210a475c1e51fffd4.jpeg)
+       ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/891c7507c018fd7210a475c1e51fffd4.jpeg)
 
 <a id="section-4"></a>
 
@@ -2609,7 +2609,7 @@ You can perform environment checks to obtain information such as the versions of
 
    - **Product Configuration Upgrade**: After services are redeployed or service configurations are upgraded, rolling must be performed on the services in the primary data center so that ASR can obtain the latest configurations of the data center. Check whether the list of services with configuration upgrades is consistent with the services that are redeployed or whose configurations are upgraded.
 
-     ![](assets/26ee73ca3c127116357f560214083b55.png)
+     ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/26ee73ca3c127116357f560214083b55.png)
 
    - **Cluster Deployment**: displays whether services are deployed in symmetric mode, based on which you can learn about the clusters where the services are deployed.
 
@@ -2619,11 +2619,11 @@ You can perform environment checks to obtain information such as the versions of
      >
      > - Feature in red: This feature is deployed in asymmetric mode and is required for the secondary cluster. You need to resolve the issue.
 
-     ![](assets/420fb37688c1856c05fee75f558ff01f.jpeg)
+     ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/420fb37688c1856c05fee75f558ff01f.jpeg)
 
    - **Product Version**: ASR checks whether the versions of services are consistent between the primary and secondary data centers. If the versions are inconsistent, the services are displayed as abnormal in the ASR console. In this case, you must upgrade the service versions to ensure that the versions are the same between the primary and secondary data centers. This way, switchover failures caused by inconsistent service versions are prevented.
 
-     ![](assets/133e63a9b5320e6886e7b76701f40955.jpeg)
+     ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/133e63a9b5320e6886e7b76701f40955.jpeg)
 
    - **Product Baseline**: ASR checks whether the baseline configurations in the environment are the same as those in Apsara Infrastructure Management.
 
@@ -2631,27 +2631,27 @@ You can perform environment checks to obtain information such as the versions of
 
      - If ASR returns a message indicating check failed, check the relevant configurations.
 
-       ![](assets/fe8d6dcf45dc88ad797055b04651b633.jpeg)
+       ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/fe8d6dcf45dc88ad797055b04651b633.jpeg)
 
    - **DNS Resources**: ASR obtains the DNS resource information of services from Apsara Infrastructure Management. Then, ASR obtains a VIP that maps a domain name from the resource information, and compares the actual VIP with the VIP obtained from the resource information in Apsara Infrastructure Management. If the two VIPs are inconsistent, the value in the **Comparison Result** column is **Abnormal**. In this case, check and modify corresponding configurations.
 
-     ![](assets/6284218ac08795fa1375853da88b710a.jpeg)
+     ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6284218ac08795fa1375853da88b710a.jpeg)
 
    - **VIP Resources**: ASR obtains the VIP resource information of services from Apsara Infrastructure Management. Then, ASR queries the actual IP address of a server that corresponds to the VIP from Server Load Balancer (SLB) based on the VIP in resource information, and compares the actual IP address of the server with the list of node controllers (NCs) in the VIP resource information. If the actual IP address and the list of NCs are inconsistent, ASR marks the corresponding RealServer IP value in red. Check and modify corresponding configurations.
 
-     ![](assets/8b75e9328f59e9ea49e96eb3524eaf27.jpeg)
+     ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/8b75e9328f59e9ea49e96eb3524eaf27.jpeg)
 
    - **Database Resources**: ASR obtains the database resource information of services from Apsara Infrastructure Management. Then, ASR connects to the database based on the information and checks the read-only attribute of the primary database. If the primary database is read-only, the value in the **Status** column of the service is **Abnormal** in the ASR console. In this case, modify the configurations of the database.
 
-     ![](assets/b13c07b6093a0aa1eb63ebf53b02f266.jpeg)
+     ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13c07b6093a0aa1eb63ebf53b02f266.jpeg)
 
    - **Conditions of the Network Between Data Centers**: ASR checks whether switches can advertise routes of SLB and CIDR blocks of virtual private cloud (VPCs). If **Abnormal** is displayed in the **Status** column, contact O&M engineers.
 
-     ![](assets/46e2639097da4071311d9b9acfe625ee.jpeg)
+     ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/46e2639097da4071311d9b9acfe625ee.jpeg)
 
    - **BGP Route**: ASR checks whether switches can advertise routes of OPS-DNS, Apsara Stack DNS, SLB, and VPC and whether the routes are propagated to Border Gateway Protocol (BGP) peers. If **Abnormal** is displayed in the **Status** column, contact O&M engineers.
 
-     ![](assets/3379a2fe44170aac018531190021aee4.jpeg)
+     ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3379a2fe44170aac018531190021aee4.jpeg)
 
 <a id="section-4-1-2"></a>
 
@@ -2667,7 +2667,7 @@ You can check the status of services with disaster recovery deployed before and 
 
    If the status of a check item is Unhealthy, check the content in the Error Message column. Troubleshoot problems based on the error message.
 
-   ![](assets/9dd80a0cdaefcf764f47100ff95e43c6.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/9dd80a0cdaefcf764f47100ff95e43c6.jpeg)
 
 <a id="section-4-2"></a>
 
@@ -2810,7 +2810,7 @@ After you configure leased line information, you can perform the following opera
 
 | Operation | Procedure |
 | --- | --- |
-| Customize column fields | 1. Click the<img src="assets/818bf8401962808d015b3d7d13bf246e.png" width="14" alt="">icon in the upper-right corner of<br>the page.<br>2. Select the column fields that you want to display and clear the column fields that you do not want to display.<br>3. Click <strong>Reset</strong> to restore the default settings and select all column fields. |
+| Customize column fields | 1. Click the<img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/818bf8401962808d015b3d7d13bf246e.png" width="14" alt="">icon in the upper-right corner of<br>the page.<br>2. Select the column fields that you want to display and clear the column fields that you do not want to display.<br>3. Click <strong>Reset</strong> to restore the default settings and select all column fields. |
 | Modify leased line information | 1. Find the leased line that you want to manage and click <strong>Modify</strong> in the <strong>Actions</strong> column.<br>2. Modify the parameters as required.<br>3. Click <strong>OK</strong>. |
 | Delete a leased line | 1. Find the leased line that you want to delete and click <strong>Delete</strong> in the <strong>Actions</strong> column.<br>2. In the message that appears, click <strong>OK</strong>. |
 
@@ -2836,7 +2836,7 @@ The arbitration switchover is subject to the following constraints:
 
 Before the arbitration switchover is executed, the arbitration service performs the detection. The following figure shows the entire process of the arbitration service:
 
-![](assets/db079f717b4b2836fff54c0e332cacae.jpeg)
+![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/db079f717b4b2836fff54c0e332cacae.jpeg)
 
 1. On the **Arbitration Management** page, you can enable the arbitration service. After ASR for Zone-disaster Recovery determines that the data center is normal, the arbitration service is enabled.
 
@@ -2914,11 +2914,11 @@ Before the arbitration switchover is executed, the arbitration service performs 
 
 3. On the **Arbitration Management** page, click **Create Arbitration**.
 
-   ![](assets/024d516eb634cddc45d6833a7ba40048.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/024d516eb634cddc45d6833a7ba40048.jpeg)
 
 4. On the **Arbitration Management** page, select the services for which you want to perform automatic arbitration for a switchover. The selected services can be forcibly switched over only after the system determines that arbitration is required.
 
-   ![](assets/aa19af1798c6e04b56bb319bdde105d3.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/aa19af1798c6e04b56bb319bdde105d3.jpeg)
 
    > **Note**
    >
@@ -2975,7 +2975,7 @@ The supported arbitration products vary based on the deployment scenario.
 
 3. On the **Arbitration Management** page, click **Arbitration Instructions**. The system displays the arbitration capabilities and failover constraints.
 
-   ![](assets/d4a220eddea6269cc92db5f359140a9d.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/d4a220eddea6269cc92db5f359140a9d.jpeg)
 
 4. Click **Create Arbitration**.
 
@@ -3063,19 +3063,19 @@ This feature applies only to managing off-cloud arbitration zone nodes in a dual
 
 4. Enter the hostname and IP address. Click **OK**.
 
-   ![](assets/71e267dc494bd19212e761141707a037.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/71e267dc494bd19212e761141707a037.jpeg)
 
    The status of a successfully added node is **To Be Deployed**. Follow the preceding steps to add three arbitration zone nodes.
 
 5. On the Node Management page, click **Deploy Nodes in Arbitration Zone** to deploy the added arbitration zone nodes.
 
-   ![](assets/523191b6a6d0b372230dfea38eeef466.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/523191b6a6d0b372230dfea38eeef466.jpeg)
 
 6. Click **Deployment Guide**. Follow the instructions to complete the deployment as prompted.
 
 7. After deployment, verify that all three nodes are functioning properly and the cluster is healthy. If not, redeploy.
 
-   ![](assets/717e7d7e44a9ce0667c7e99919482c7a.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/717e7d7e44a9ce0667c7e99919482c7a.jpeg)
 
 **Other operations**
 
@@ -3196,7 +3196,7 @@ You can modify the alert severity specified in an alert rule based on your busin
 
    - P4: Info
 
-   ![](assets/83d647727c65a9ec08cc6d606134efdb.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/83d647727c65a9ec08cc6d606134efdb.jpeg)
 
 5. Click **OK**.
 
@@ -3222,7 +3222,7 @@ This topic describes how to configure theme settings for the monitoring dashboar
 
 2. In the left-side navigation pane, choose **Configuration Center > Theme Settings**.
 
-   ![](assets/2d3904d2e7654ae3855c4fd9caa45381.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/2d3904d2e7654ae3855c4fd9caa45381.jpeg)
 
 3. The following table describes the parameters that you can configure on the Theme Settings page.
 
@@ -3235,7 +3235,7 @@ This topic describes how to configure theme settings for the monitoring dashboar
      <tr>
        <td rowspan="2">Appearance and Body</td>
        <td>Theme Color</td>
-       <td>The theme color. Valid values:<br>• Recommended Theme Color: the default and recommended theme color.<br>• Custom Palette: You can click the<img src="assets/d49b7ff7498a7049e7077ce09f05f9c6.png" width="15" alt="">icon to select a color.<br>Note<br>The transparency of a custom color cannot be higher than 0.4.</td>
+       <td>The theme color. Valid values:<br>• Recommended Theme Color: the default and recommended theme color.<br>• Custom Palette: You can click the<img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/d49b7ff7498a7049e7077ce09f05f9c6.png" width="15" alt="">icon to select a color.<br>Note<br>The transparency of a custom color cannot be higher than 0.4.</td>
      </tr>
      <tr>
        <td>Preview</td>
@@ -3270,7 +3270,7 @@ You can back up data such as user accounts and alert rules that are configured i
 
 2. In the left-side navigation pane, choose **Security Center > Data Backup**.
 
-   ![](assets/08b24753411c5d7a69a570c14052ef47.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/08b24753411c5d7a69a570c14052ef47.jpeg)
 
 3. Click **Back Up Now**. In the message that appears, click **OK**. ASR for Zone-disaster Recovery backs up data such as user accounts and alert rules to an OSS bucket.
 
@@ -3326,7 +3326,7 @@ The protection group is a tenant-facing feature. It allows you to restore indivi
 
 2. On the **Protection Group Overview** page, you can view protection group statistics for the current organization, resource set, and region. You can switch the **Organization**, **Resource set**, and **Region** from the left side of the top menu bar on the page.
 
-![](assets/2711907999d0e941e7f4cbfd0f933b94.jpeg)
+![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/2711907999d0e941e7f4cbfd0f933b94.jpeg)
 
 **Feature description**
 
@@ -3345,7 +3345,7 @@ A protection group enables you to recover individual business units and perform 
 | Feature module | Description |
 | --- | --- |
 | Protectio n Group Overview | Protection Group Process Statistics (by status), Protection Instance Statistics, Protection Group Drill Statistics, and Disaster Recovery Plan Statistics are displayed in charts. |
-| Protectio n Group List | The protection group list is displayed. You can add, delete, and view details of protection groups.<br>• Each protection group entry displays by default the following attributes: <strong>Protection</strong> <strong>Group Name</strong>, <strong>Description</strong>, <strong>Inspection Status</strong>, <strong>Organization</strong>, <strong>Resource Set</strong>, <strong>Created At</strong>, and <strong>Modified At</strong>. Click <strong>Details</strong> in the <strong>Actions</strong> column to enter the protection group details page and view detailed information.<br>• You can search for protection groups by <strong>Protection Group Name</strong>, <strong>Inspection</strong> <strong>Status</strong>, and <strong>Protected Instance</strong>. The search is triggerred automatically when conditions change.<br>• You can modify a protection group on its <strong>Details</strong> page, provided that it has no associated drill or disaster recovery plans.<br>Note<br>• Deletion and modification of a protection group are not allowed if it has an associated drill or disaster recovery plan.<br>• If a successfully created protection group does not appear in the protection group list, first verify that the organization and resource set selections in the top-left menu bar match those selected during creation. (The console displays protection groups specific to the selected organization).<br>• Click the settings icon<img src="assets/7d1a8ba94da325b27c41c6d0266565c3.png" width="13" alt="">in the upper-right corner of the list to adjust fields<br>to display or their order. |
+| Protectio n Group List | The protection group list is displayed. You can add, delete, and view details of protection groups.<br>• Each protection group entry displays by default the following attributes: <strong>Protection</strong> <strong>Group Name</strong>, <strong>Description</strong>, <strong>Inspection Status</strong>, <strong>Organization</strong>, <strong>Resource Set</strong>, <strong>Created At</strong>, and <strong>Modified At</strong>. Click <strong>Details</strong> in the <strong>Actions</strong> column to enter the protection group details page and view detailed information.<br>• You can search for protection groups by <strong>Protection Group Name</strong>, <strong>Inspection</strong> <strong>Status</strong>, and <strong>Protected Instance</strong>. The search is triggerred automatically when conditions change.<br>• You can modify a protection group on its <strong>Details</strong> page, provided that it has no associated drill or disaster recovery plans.<br>Note<br>• Deletion and modification of a protection group are not allowed if it has an associated drill or disaster recovery plan.<br>• If a successfully created protection group does not appear in the protection group list, first verify that the organization and resource set selections in the top-left menu bar match those selected during creation. (The console displays protection groups specific to the selected organization).<br>• Click the settings icon<img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7d1a8ba94da325b27c41c6d0266565c3.png" width="13" alt="">in the upper-right corner of the list to adjust fields<br>to display or their order. |
 | Protectio n Group Drill<br>(Switchove r) | • Drill Plan: The drill plan list is displayed. You can view, add, edit, delete, start, enter, and terminate a drill.<br>Note<br>• Editing and deletion are not supported while a drill plan is being executed.<br>• Once terminated, a drill cannot be restarted.<br>• Drill History: lists the execution flow of each drill plan. |
 | Protectio n Group Disaster Recovery<br>(Failover) | • Disaster Recovery Plan: The disaster recovery plan list is displayed. You can view, add, edit, delete, start, enter, and terminate a disaster recovery plan.<br>Note<br>• Editing and deletion are not supported while a disaster recovery plan is being executed.<br>• Once terminated, a disaster recovery plan cannot be restarted.<br>• Disaster Recovery History: lists the execution flow of each disaster recovery plan. |
 
@@ -3361,7 +3361,7 @@ Protection groups of the ASR for Zone-disaster Recovery solution are mainly used
 
 The following figure shows the process about how a protection group is used in the ASR for Zone-disaster Recovery solution.
 
-![](assets/4227b774f596c281462a304d487d5f8c.jpeg)
+![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4227b774f596c281462a304d487d5f8c.jpeg)
 
 > **Note**
 >
@@ -3422,11 +3422,11 @@ A protection group builds on the basic capabilities of the cloud platform and al
      </tr>
      <tr>
        <td>View the instance list of a protection group</td>
-       <td>i. Click <strong>Details</strong> in the <strong>Actions</strong> column of the protection group.<br>ii. On the <strong>Instances</strong> tab of the <strong>Protection Group Details</strong> page, view the instances added to the protection group.<br><img src="assets/7dd4e231db185be4ff6dcd4f41912804.jpeg" alt=""></td>
+       <td>i. Click <strong>Details</strong> in the <strong>Actions</strong> column of the protection group.<br>ii. On the <strong>Instances</strong> tab of the <strong>Protection Group Details</strong> page, view the instances added to the protection group.<br><img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7dd4e231db185be4ff6dcd4f41912804.jpeg" alt=""></td>
      </tr>
      <tr>
        <td>View the application topology of a protection group</td>
-       <td>i. Click <strong>Details</strong> in the <strong>Actions</strong> column of the protection group.<br>ii. On the <strong>Application Topology</strong> tab of the <strong>Protection Group Details</strong> page, view the application-level disaster recovery topology of the protection group.<br>• Click<img src="assets/3b74b36d205bd5fb38a235642f2b2f23.png" width="16" alt="">to exit full-screen mode.<br>• Click<img src="assets/b4ef8e5588f9a184695bf7748256ca8c.jpeg" width="16" alt="">to expand the synchronization delay details.</td>
+       <td>i. Click <strong>Details</strong> in the <strong>Actions</strong> column of the protection group.<br>ii. On the <strong>Application Topology</strong> tab of the <strong>Protection Group Details</strong> page, view the application-level disaster recovery topology of the protection group.<br>• Click<img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3b74b36d205bd5fb38a235642f2b2f23.png" width="16" alt="">to exit full-screen mode.<br>• Click<img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b4ef8e5588f9a184695bf7748256ca8c.jpeg" width="16" alt="">to expand the synchronization delay details.</td>
      </tr>
      <tr>
        <td>Edit a protection group</td>
@@ -3464,7 +3464,7 @@ Protection groups are created. For more information, see Create a protection gro
 
 5. In the **Recovery Procedure** step, add the instances in the associated protection group to the recovery steps based on your business requirements. Click the + or - icon in the lower-left corner to add or delete a step. Then, click **Submit**.
 
-   ![](assets/7411d62a7d87ea9327a3b28fa22d9e5f.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7411d62a7d87ea9327a3b28fa22d9e5f.jpeg)
 
 6. Select an execution mode and click **OK**.
 
@@ -3496,11 +3496,11 @@ A drill plan is created, and the protection group associated with the current pl
 
 2. On the Drill Plans page, find a drill plan and click **Details** in the Actions column. The **Drill Plan Details** page appears. In the upper-right corner of the page, click **Start Drill**.
 
-   ![](assets/846439bb83c6088cdaffdb2ac8099162.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/846439bb83c6088cdaffdb2ac8099162.jpeg)
 
 3. In the message that appears, click **OK** to go to the **Switchover Check** step on the **Drill Process** page.
 
-   ![](assets/57d50e93f68283bf9b9c4eec0fde32a1.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/57d50e93f68283bf9b9c4eec0fde32a1.jpeg)
 
    > **Note**
    >
@@ -3552,7 +3552,7 @@ In the Apsara Stack Resilience (ASR) for Zone-disaster Recovery console, relevan
 
 5. In the **Recovery Procedure** step, add the instances in the associated protection group to the recovery steps based on your business requirements. Click the + or - icon in the lower-left corner to add or delete a step. Then, click **Submit**.
 
-   ![](assets/ffa07118b6913e2659b959e6b61e1780.png)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/ffa07118b6913e2659b959e6b61e1780.png)
 
 6. Select an execution mode and click **OK**.
 
@@ -3584,11 +3584,11 @@ A disaster recovery plan is created, and the protection group associated with th
 
 2. On the Disaster Recovery Plans page, find the disaster recovery plan that you want to manage and click **Details** in the Actions column. The **Disaster Recovery Plan Details** page appears. In the upper-right corner of the page, click **Start Failover**.
 
-   ![](assets/cded6fd333245f2329fbc2e1c8c65857.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/cded6fd333245f2329fbc2e1c8c65857.jpeg)
 
 3. In the message that appears, click **OK** to go to the **Switchover Check** step on the **Failover Process** page.
 
-   ![](assets/cb084b081b8d58a34c0e6169059f543b.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/cb084b081b8d58a34c0e6169059f543b.jpeg)
 
    > **Note**
    >
@@ -3658,15 +3658,15 @@ Make sure that you have obtained the endpoint of the Apsara Uni-manager Operatio
 
 4. On the Resource Dashboards page, select **Name** from the drop-down list, enter bcmc-
 
-   domain, and then click <img src="assets/908643ed58e636243879e4fb1f7eb287.png" width="18" alt=""> .
+   domain, and then click <img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/908643ed58e636243879e4fb1f7eb287.png" width="18" alt=""> .
 
-   ![](assets/f416ed25c9d050f2102ccc3b4b984c1c.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/f416ed25c9d050f2102ccc3b4b984c1c.jpeg)
 
-5. Click the <img src="assets/891ad30222cf24cd1e1005065a63070c.png" width="19" alt=""> in the Result column, and then click the value to display the result in a
+5. Click the <img src="en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/891ad30222cf24cd1e1005065a63070c.png" width="19" alt=""> in the Result column, and then click the value to display the result in a
 
    separate page. Record and save the value of the dns field.
 
-   ![](assets/eab465005b0865499e55a0feb51f4e29.jpeg)
+   ![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/eab465005b0865499e55a0feb51f4e29.jpeg)
 
 6. View and save the endpoint of another data center in the same way as in the previous step.
 
@@ -3699,7 +3699,7 @@ When a trial license expires or the authorization quota is insufficient, the ASR
 
 When the license authorization quota is insufficient, a red notification banner appears at the top of all pages in the ASR platform.
 
-![](assets/2b8b3607ebbcb76d4ef60356491d1dcb.jpeg)
+![](en-asr-zone-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/2b8b3607ebbcb76d4ef60356491d1dcb.jpeg)
 
 **Page watermark**
 

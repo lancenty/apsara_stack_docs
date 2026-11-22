@@ -368,7 +368,7 @@ Procedure
 
 3. View the security situation of Apsara Stack.
 
-   ![](assets/455f5546530723b59d85fd48669c6279.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/455f5546530723b59d85fd48669c6279.png)
 
    Sections on the Security Overview tab
 
@@ -403,7 +403,7 @@ Procedure
 
    If you want to view all alerts, do not set the conditions.
 
-   ![](assets/998b2e4639c5b5fbeacdd5733d5c72ef.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/998b2e4639c5b5fbeacdd5733d5c72ef.png)
 
    | Filter condition | Description |
    | --- | --- |
@@ -465,7 +465,7 @@ Procedure
 
      On the right side of Login Location, click Add.
 
-     ![](assets/26eb222b739f278dc82cf4b8a27389f2.png)
+     ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/26eb222b739f278dc82cf4b8a27389f2.png)
 
      </li>
 
@@ -473,7 +473,7 @@ Procedure
 
      Select a logon location and the servers that are allowed to be logged on to from the location.
 
-     ![](assets/43d2783d0d3ed21dac2fd444a6282148.png)
+     ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/43d2783d0d3ed21dac2fd444a6282148.png)
 
      </li>
 
@@ -505,21 +505,21 @@ Procedure
 
      - On the right side of Common Login IPs, enable or disable Uncommon IP Alert. After this function is enabled, alerts are triggered if your assets receive logon requests from unauthorized IP addresses.
 
-       ![](assets/bb1f7e7c3eb3e26389d795a1dd7dad89.png)
+       ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/bb1f7e7c3eb3e26389d795a1dd7dad89.png)
 
      - On the right side of Common Logon Time, enable or disable Uncommon Time Alert. After this function is enabled, alerts are triggered if your assets receive logon requests at unauthorized time.
 
-       ![](assets/f4209aa566b8eef1d58f50a0059fb586.png)
+       ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/f4209aa566b8eef1d58f50a0059fb586.png)
 
      - On the right side of Common Login Accounts, enable or disable Uncommon Account Alert. After this function is enabled, alerts are triggered if your assets receive logon requests from unauthorized accounts.
 
-       ![](assets/31ef38f99f11b2a56ca9cfc8be97b2c5.png)
+       ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/31ef38f99f11b2a56ca9cfc8be97b2c5.png)
 
    - Add a web directory as the scan target.
 
      TDS automatically detects web directories on your servers.
 
-     ![](assets/d0a15fa332a0373af6b68d2994f5fe27.png)
+     ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/d0a15fa332a0373af6b68d2994f5fe27.png)
 
      It performs dynamic and static scans on these directories. You can also manually add web directories for scanning.
 
@@ -563,7 +563,7 @@ Background information
 
 The attack analysis feature provides basic attack detection and prevention capabilities in the Apsara Stack Security console. We recommend that you develop a more refined and in-depth defense system by optimizing firewalls and enhancing business security.
 
-![](assets/4d0ef69e798089f7c690e4fb16907842.png)
+![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/4d0ef69e798089f7c690e4fb16907842.png)
 
 On the Attack Awareness page, you can specify a time range to view the attack details. You can view the attack analysis statistics of the current day, last 7 days, or last 30 days. You can also set Time Range to Custom to view the statistics of a time range within the last 30 days.
 
@@ -597,17 +597,17 @@ On the Attack Awareness page, you can specify a time range to view the attack de
 
   To search for an attack and view the details about the attack, specify search conditions above the attack list. Search conditions include the attack type, attacked asset, source IP address, and port number.
 
-  ![](assets/4956540255f46d9be196d7fabc676e11.png)
+  ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/4956540255f46d9be196d7fabc676e11.png)
 
 - View the details of an attacked asset
 
   To view the details about an attacked asset, move the pointer over the name of the attacked asset in the Attacked Asset column.
 
-  ![](assets/33a2f0cb988fe9bb7c24d21ee67e93f3.png)
+  ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/33a2f0cb988fe9bb7c24d21ee67e93f3.png)
 
 - Export the attack list
 
-  ![](assets/1afe9df6dbede813c225c8df78d4d3be.png)
+  ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/1afe9df6dbede813c225c8df78d4d3be.png)
 
   To export and save the attack list to your computer, you can click the
 
@@ -631,7 +631,7 @@ The cloud service check feature allows you to perform network access control and
 
 You can view the number of Checked items enabled on the Cloud Service Check page.
 
-![](assets/9531d297abb1017d88c42ba11b2c8bfd.png)
+![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/9531d297abb1017d88c42ba11b2c8bfd.png)
 
 Cloud service check list
 
@@ -1015,7 +1015,7 @@ Manual checks
 
    3. On the Cloud Service Check page, click Check Now to check whether the configurations of all your Alibaba Cloud services contain risks. After you run a check, the number of affected assets is displayed on this page.
 
-      ![](assets/6df30d749d77593f6dbc41fec42fc46f.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/6df30d749d77593f6dbc41fec42fc46f.png)
 
       Note
 
@@ -1033,7 +1033,7 @@ Automated checks
 
    4. In the Settings dialog box, specify Detection Cycle and Detection Time.
 
-      ![](assets/13eb46d32600f2c3d63d136bc61f0503.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/13eb46d32600f2c3d63d136bc61f0503.png)
 
       - Detection Cycle: supports Monday to Sunday. You can select multiple days.
 
@@ -1055,7 +1055,7 @@ View check results
 
    3. On the Cloud Service Check page, you can view the check results and details of the last configuration check.
 
-      ![](assets/ecf432030bce8c17a6c1c6335a436e9a.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/ecf432030bce8c17a6c1c6335a436e9a.png)
 
       - View statistics on the result of the last check.
 
@@ -1081,7 +1081,7 @@ Manage configuration risks
 
         If you have changed the configuration settings of an item, find the item on the check item list on the Cloud Service Check page and click Verify in the Actions column to check whether the new settings contain risks.
 
-        ![](assets/4cb84f5b7863f463158f0f8960471ee1.png)
+        ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/4cb84f5b7863f463158f0f8960471ee1.png)
 
       - Add a check item to the whitelist.
 
@@ -1231,7 +1231,7 @@ Procedure
 
         - The All server section displays the numbers of all servers, risky servers, unprotected servers, inactive servers, and new servers.
 
-          ![](assets/b1d6603ea548485b797c23551155d19d.png)
+          ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/b1d6603ea548485b797c23551155d19d.png)
 
           To view the details of a server, click the name of the server, or click Fix in the Actions column. For more information, see View the details of a single asset.
 
@@ -1241,7 +1241,7 @@ Procedure
 
         - You can click Server Group to view the total number of server groups and the numbers of servers, servers that are at risk, and unprotected servers in each server group.
 
-          ![](assets/8cd541484c21ce36afd694ebd58bf71a.png)
+          ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/8cd541484c21ce36afd694ebd58bf71a.png)
 
           You can Manage or Delete to manage a server group in Threat Detection Service (TDS). For more information, see Manage asset groups.
 
@@ -1251,7 +1251,7 @@ Procedure
 
         - You can click VPC to view the total number of VPCs and the numbers of servers, servers that are at risk, and unprotected servers that are deployed in each VPC.
 
-          ![](assets/c61bd0c74aa814b82957a251ae18596f.png)
+          ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/c61bd0c74aa814b82957a251ae18596f.png)
 
         - Find the target VPC, and click the number in the Servers, Risk, or Unprotected column to view the security status of specified servers in this VPC.
 
@@ -1293,7 +1293,7 @@ Procedure
 
       - Customize displayed items
 
-        On the Assets page, click the <img src="assets/816aad7fda2cdff85ce41953559f2051.png" width="23" alt=""> icon in the upper-right corner. You can then select the items
+        On the Assets page, click the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/816aad7fda2cdff85ce41953559f2051.png" width="23" alt=""> icon in the upper-right corner. You can then select the items
 
         that you want to display on the Assets page.
 
@@ -1317,7 +1317,7 @@ Procedure
 
         - In the left-side pane on the Cloud Product tab, you can view the numbers of All cloud product and Risky cloud product. You can also view the security status of all cloud services.
 
-          ![](assets/ee56d0bffa83c7a59f0a5a9049df988b.png)
+          ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/ee56d0bffa83c7a59f0a5a9049df988b.png)
 
         - You can click Risky cloud product to view the cloud services that are at risk.
 
@@ -1517,35 +1517,35 @@ Procedure
 
             Click Group. In the Group dialog box, select a new group and click OK.
 
-            ![](assets/a330544c856ff290abb714146e9d28a6.png)
+            ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/a330544c856ff290abb714146e9d28a6.png)
 
           - Modify tags
 
-            Click the <img src="assets/f46c7ec664ac8f3edcfe4351df8fb8da.png" width="18" alt=""> icon. In the Add tag dialog box, select a tag and click OK.
+            Click the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/f46c7ec664ac8f3edcfe4351df8fb8da.png" width="18" alt=""> icon. In the Add tag dialog box, select a tag and click OK.
 
-            ![](assets/17b7fd283189878463ab5474a80deef3.png)
+            ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/17b7fd283189878463ab5474a80deef3.png)
 
-            To remove the tag of an asset, click the <img src="assets/232a7902b8d47d9369544fa7e92057d1.png" width="16" alt=""> icon to the right of the tag.
+            To remove the tag of an asset, click the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/232a7902b8d47d9369544fa7e92057d1.png" width="16" alt=""> icon to the right of the tag.
 
         - Asset Investigation: This section displays the fingerprints of an asset. You can click the number under an item to go to the Asset Fingerprints tab to view the details.
 
-          ![](assets/c99b6581ea8a1b315b7b2679dbedec8b.png)
+          ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/c99b6581ea8a1b315b7b2679dbedec8b.png)
 
         - Vulnerability check: This section displays vulnerability check items that are enabled or disabled for an asset. You can enable or disable different types of vulnerability checks for the asset. The vulnerabilities include Linux software vulnerabilities, Windows system vulnerabilities, Web CMS vulnerabilities, and emergency vulnerabilities.
 
         - Login security setting: This section allows you to add approved logon locations, configure advanced logon settings, turn on or turn off the unapproved IP address, time, and account alert function. The advanced logon settings include approved IP addresses or Classless Inter-Domain Routing (CIDR) blocks, time periods, and accounts. You can also add approved IP addresses, time periods, and accounts that are allowed to log on to a specific asset.
 
-          ![](assets/72cd7e63e46fb29dd7ac94545c7656bc.png)
+          ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/72cd7e63e46fb29dd7ac94545c7656bc.png)
 
       - Vulnerabilities: This tab displays vulnerabilities of an asset.
 
-        ![](assets/63a3ae2bfc113379875a9338074cffeb.png)
+        ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/63a3ae2bfc113379875a9338074cffeb.png)
 
       - Alerts: This tab displays security alerts of an asset.
 
       - Baseline Risks: This tab displays baseline risks of an asset.
 
-        ![](assets/f8b4367eb5d10712404b283037ba7a57.png)
+        ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/f8b4367eb5d10712404b283037ba7a57.png)
 
       - Asset Fingerprints: This tab displays the fingerprints, including ports, processes, software, and accounts of an asset.
 
@@ -1563,7 +1563,7 @@ Procedure
 
         In the Collect data dialog box, click OK.
 
-        ![](assets/252ed84a48736569616dd490457838c7.png)
+        ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/252ed84a48736569616dd490457838c7.png)
 
         After the data collection task is submitted, it takes one to five minutes to collect the fingerprints of the target asset. After the data collection task is complete, you can view the latest fingerprints of the target asset.
 
@@ -1619,17 +1619,17 @@ Procedure
 
    4. In the lower part of the page, click Security check.
 
-      ![](assets/c50259612f781e8e58204e0797e390db.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/c50259612f781e8e58204e0797e390db.png)
 
    5. In the Security Check dialog box, select check items.
 
-      ![](assets/a7500010fbf80a0ad3507ddaff5698d3.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/a7500010fbf80a0ad3507ddaff5698d3.png)
 
    6. Click OK to start the check.
 
    7. In the dialog box that appears, click OK.
 
-      ![](assets/c1dc09d2f3b7b13fc1c8eebc377b27fa.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/c1dc09d2f3b7b13fc1c8eebc377b27fa.png)
 
       After the one-click security check is complete, the check results are automatically displayed on the Basic Information tab of the target asset.
 
@@ -1647,7 +1647,7 @@ Add a group
 
    3. On the page that appears, click the Server tab. In the servers list on the left, click Server Group.
 
-      ![](assets/8cd541484c21ce36afd694ebd58bf71a.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/8cd541484c21ce36afd694ebd58bf71a.png)
 
       Note
 
@@ -1657,7 +1657,7 @@ Add a group
 
    5. In the Add Group dialog box, configure the parameters.
 
-      ![](assets/774adc5bbdc06264d754e796c7939cfb.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/774adc5bbdc06264d754e796c7939cfb.png)
 
       You can perform the following steps to configure the parameters:
 
@@ -1679,7 +1679,7 @@ Add a group
 
       You can add assets from the Default group to the new group. You can also move assets from another group to the new group. Select Default or other groups from the Select Group
 
-      drop-down list, select assets in the group, and click the <img src="assets/211bba9473e7948658aa69a29eed5852.png" width="25" alt=""> icon to add the selected groups
+      drop-down list, select assets in the group, and click the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/211bba9473e7948658aa69a29eed5852.png" width="25" alt=""> icon to add the selected groups
 
       to the new group.
 
@@ -1713,11 +1713,11 @@ The following procedure shows how to modify a server group. You can rename a gro
 
         In the Group dialog box, select a group from the Select Group drop-down list, select
 
-        assets in the current group on the right, and click the <img src="assets/a58371ce847c3dd28ddb5cee1ee4da11.png" width="22" alt=""> icon to add the selected groups to
+        assets in the current group on the right, and click the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/a58371ce847c3dd28ddb5cee1ee4da11.png" width="22" alt=""> icon to add the selected groups to
 
         the new group on the left. You can also select assets in the group on the left and click the
 
-        <img src="assets/211bba9473e7948658aa69a29eed5852.png" width="25" alt=""> icon to add the selected assets to the current group on the right.
+        <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/211bba9473e7948658aa69a29eed5852.png" width="25" alt=""> icon to add the selected assets to the current group on the right.
 
         </li>
 
@@ -1793,13 +1793,13 @@ Add a custom tag
 
    5. In the Add Tag dialog box, enter the tag name. In the servers list on the left, select target servers,
 
-      and click the <img src="assets/211bba9473e7948658aa69a29eed5852.png" width="24" alt=""> icon to add the tag to the selected servers.
+      and click the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/211bba9473e7948658aa69a29eed5852.png" width="24" alt=""> icon to add the tag to the selected servers.
 
-      ![](assets/eb599802e3f0037ee5710350142a0232.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/eb599802e3f0037ee5710350142a0232.png)
 
    6. Click OK.
 
-      In the left-side assets list, click the <img src="assets/c321f3097a5207470b5322ba8015d0da.png" width="16" alt=""> icon in the Tag column to add a tag to the asset.
+      In the left-side assets list, click the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/c321f3097a5207470b5322ba8015d0da.png" width="16" alt=""> icon in the Tag column to add a tag to the asset.
 
       Note
 
@@ -1827,9 +1827,9 @@ Perform the following steps to modify or delete a tag:
 
         <li>
 
-        If you want to modify a tag, move the pointer over the <img src="assets/236759d6033c47eb3099edbcf51fa065.png" width="16" alt=""> icon to the right of the tag.
+        If you want to modify a tag, move the pointer over the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/236759d6033c47eb3099edbcf51fa065.png" width="16" alt=""> icon to the right of the tag.
 
-        ![](assets/692989a88b3359f3d65cd5f0e7d33c90.png)
+        ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/692989a88b3359f3d65cd5f0e7d33c90.png)
 
         </li>
 
@@ -1837,7 +1837,7 @@ Perform the following steps to modify or delete a tag:
 
         In the Tag dialog box, enter a new name in the Tag field, add the tag to more servers, or remove the tag from servers.
 
-        ![](assets/a2bf6af790ecff37ff196bd667b47df3.png)
+        ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/a2bf6af790ecff37ff196bd667b47df3.png)
 
         </li>
 
@@ -1855,9 +1855,9 @@ Perform the following steps to modify or delete a tag:
 
       - Delete a tag
 
-        Click the <img src="assets/f2a7e59431ff31cadafda419ea3acd20.png" width="15" alt=""> icon in the Tag column. Click OK to delete a tag.
+        Click the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/f2a7e59431ff31cadafda419ea3acd20.png" width="15" alt=""> icon in the Tag column. Click OK to delete a tag.
 
-        ![](assets/0758cdf4e54a5326b136b462ad9069d2.png)
+        ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/0758cdf4e54a5326b136b462ad9069d2.png)
 
 <a id="section-4-8"></a>
 
@@ -1881,7 +1881,7 @@ Procedure
 
 4. On the Specify Basic Information tab, configure the parameters.
 
-   ![](assets/cebacae794155b61bd136f7cdf205c95.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/cebacae794155b61bd136f7cdf205c95.png)
 
    Configure the following parameters:
 
@@ -1897,11 +1897,11 @@ Procedure
 
 6. On the Specify Reported Data tab, select the types of data that you want to view in the security report. You can select assets, alerts, vulnerabilities, baseline checks, attacks, and other data related to security operations.
 
-   ![](assets/d3ca2b6e8886e395f29811956d9207f1.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/d3ca2b6e8886e395f29811956d9207f1.png)
 
 7. Click Save. You can view the security reports that you have created on the Reports page.
 
-   ![](assets/c809c6e11014994610652309bfb5ed35.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/c809c6e11014994610652309bfb5ed35.png)
 
 <a id="section-5"></a>
 
@@ -1939,7 +1939,7 @@ Procedure
 
      View the information of Outbound Sessions, Outbound Applications, and Source IPs with Most Requests.
 
-5. (Optional)Click the <img src="assets/d0d60f2fbe3738206ba7712f90526271.png" width="12" alt=""> icon to export traffic trends as a PDF file.
+5. (Optional)Click the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/d0d60f2fbe3738206ba7712f90526271.png" width="12" alt=""> icon to export traffic trends as a PDF file.
 
 <a id="section-5-2"></a>
 
@@ -1963,7 +1963,7 @@ Procedure
 
 3. Specify traffic filter conditions.
 
-   ![](assets/ec5ba79bb4a7bdd7b6d3fdec759798e0.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/ec5ba79bb4a7bdd7b6d3fdec759798e0.png)
 
    | Item | Description |
    | --- | --- |
@@ -1975,7 +1975,7 @@ Procedure
 
    - Traffic Statistics
 
-     ![](assets/8c6e028ac64992ba1554de7a29112dda.png)
+     ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/8c6e028ac64992ba1554de7a29112dda.png)
 
      - The Visits to IP section includes Source IPs, Destination IPs, Applications, and Traffic Risk.
 
@@ -1983,7 +1983,7 @@ Procedure
 
    - Traffic List
 
-     ![](assets/4baab6e7cd4acaad5a7d3b976b8b6693.png)
+     ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/4baab6e7cd4acaad5a7d3b976b8b6693.png)
 
      In the Traffic List section, you can view traffic details.
 
@@ -2015,7 +2015,7 @@ Procedure
 
 3. Specify traffic filter conditions.
 
-   ![](assets/d1aba8d7b6c08114f0e7646aaff9ee98.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/d1aba8d7b6c08114f0e7646aaff9ee98.png)
 
    | Item | Description |
    | --- | --- |
@@ -2050,7 +2050,7 @@ The security administrator can view the current security status of all servers o
 
 In the left-side navigation pane, choose Server Security > Overview. On the page that appears, you can view detailed information in the Overview, Server Risks, Asset Protection, Operating System Distribution, and Recent Important Security Risks and Intrusions sections.
 
-![](assets/719b1b36bcd51398d3952f4fba4aea04.png)
+![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/719b1b36bcd51398d3952f4fba4aea04.png)
 
 - Overview: This section displays the number of security vulnerabilities of each type (including Unhandled Vulnerabilities and Baseline Risks) and the number of security events of each type (including Unhandled Alerts, Viruses Removed in Last 15 Days, and File Tampering Attempts Prevented in Last 15 Days) on servers.
 
@@ -2415,7 +2415,7 @@ Procedure
 
    3. In the upper-right corner, click Settings to configure vulnerability management policies.
 
-      ![](assets/91f430598a0aa4456d9e2f7e094c21f9.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/91f430598a0aa4456d9e2f7e094c21f9.png)
 
       - Select a vulnerability type and enable or disable detection for vulnerabilities of this type.
 
@@ -2678,7 +2678,7 @@ View the summary of baseline check results
 
    3. In the upper part of the Baseline Check page, view the summary of baseline check results. You can filter data by policy.
 
-      ![](assets/409c7f22efe2d768029f83371a57c340.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/409c7f22efe2d768029f83371a57c340.png)
 
       You can select a policy from the Select Policy drop-down list to view the following information:
 
@@ -2766,7 +2766,7 @@ If the Server Security feature detects sensitive file tampering, webshells, unus
 
 Apsara Stack Security Center provides statistics based on enabled alerts and defense items. This allows you to understand enabled and disabled defense items. You can view statistics on alerts and information about defense items. To achieve this purpose, choose Server Security > Intrusion Prevention > Intrusions.
 
-![](assets/70d4c9ef400cd214352724955bc8016e.png)
+![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/70d4c9ef400cd214352724955bc8016e.png)
 
 Alert types
 
@@ -2847,7 +2847,7 @@ Export alert events
 
    2. In the left-side navigation pane, choose Server Security > Intrusion Prevention > Intrusions.
 
-      ![](assets/99aca07ce04a517dc0bc21366569d0d6.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/99aca07ce04a517dc0bc21366569d0d6.png)
 
    3. In the upper-left corner of the Intrusions page, click the
 
@@ -2869,7 +2869,7 @@ Context
 
 - Exceptions related to an alert are listed in chronological order. This allows you to analyze and handle the exceptions to improve the emergency response mechanism of your system.
 
-- An automatically correlated alert is identified by the <img src="assets/2238f164eb32330e5e9e6359a824c518.png" width="24" alt=""> icon.
+- An automatically correlated alert is identified by the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/2238f164eb32330e5e9e6359a824c518.png" width="24" alt=""> icon.
 
 Procedure
 
@@ -2895,7 +2895,7 @@ Procedure
 
         - Click Note to the right of an exception name to add notes for the exception.
 
-        - Click the <img src="assets/e01757f031f624bc19e6a06433e1b116.png" width="22" alt=""> icon to the right of a note to delete the note.
+        - Click the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/e01757f031f624bc19e6a06433e1b116.png" width="22" alt=""> icon to the right of a note to delete the note.
 
 <a id="section-6-4-1-4"></a>
 
@@ -3138,13 +3138,13 @@ Procedure
 
    5. In the Add Servers for Protection dialog box, select a server that you want to protect.
 
-      ![](assets/20dbc35811f71a093af52cb15a4d5a66.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/20dbc35811f71a093af52cb15a4d5a66.png)
 
    6. Click Next to go to the Add Directory step.
 
    7. In the Add Directory step, configure the following parameters:
 
-      ![](assets/a85c889d7b90206f61cd333ad6eb7049.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/a85c889d7b90206f61cd333ad6eb7049.png)
 
       Select the protection mode. You can select the Whitelist Mode or Blacklist Mode. In whitelist mode, tamper protection is enabled for the specified directories and file formats. In blacklist mode, tamper protection is enabled for the subdirectories, file formats, and files that are not specified. The whitelist mode is selected by default.
 
@@ -3583,7 +3583,7 @@ Procedure
 
       You can specify the operating system type, IP address, or server name to search for a target server.
 
-      ![](assets/39f54f28bc58244cb1588577f957b01e.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/39f54f28bc58244cb1588577f957b01e.png)
 
    4. Click the Client Installation Guide tab.
 
@@ -3749,7 +3749,7 @@ Procedure
 
 4. On the Detection Overview page, you can view Statistics within Last 24 Hours and Statistics within Last 30 Days.
 
-   ![](assets/b736b878552459288196e8548eccb6bd.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/b736b878552459288196e8548eccb6bd.png)
 
    - Requests
 
@@ -3799,7 +3799,7 @@ Procedure
 
 4. Filter the access records to view the details.
 
-   ![](assets/df44cf65911c204c855e8a9d0601d157.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/df44cf65911c204c855e8a9d0601d157.png)
 
 <a id="section-7-3"></a>
 
@@ -3923,9 +3923,9 @@ Procedure
 
    3. Click Add protection policy. In the dialog box that appears, specify Policy name and click Confirm.
 
-   4. In the Operation column of the new protection policy, click the <img src="assets/67f8d78d26b3f6a406a3d400c063dfe3.png" width="22" alt=""> icon to view details.
+   4. In the Operation column of the new protection policy, click the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/67f8d78d26b3f6a406a3d400c063dfe3.png" width="22" alt=""> icon to view details.
 
-      ![](assets/e6d4e7ac41f0ca81b7b161f59885e3fc.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/e6d4e7ac41f0ca81b7b161f59885e3fc.png)
 
       | Parameter | Description |
       | --- | --- |
@@ -4005,7 +4005,7 @@ Procedure
 
 3. In the upper-right corner, click Add Rule. In the Add Customized Rule dialog box, configure parameters.
 
-   ![](assets/a295a3829031f3d61b2a633c89ca9ef9.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/a295a3829031f3d61b2a633c89ca9ef9.png)
 
    Parameters for creating a custom rule
 
@@ -4026,7 +4026,7 @@ Procedure
 
    - Edit a rule.
 
-     To edit a rule, click the <img src="assets/69c7a43682aa8b97014e5004f9b885d2.png" width="19" alt=""> icon in the Actions column.
+     To edit a rule, click the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/69c7a43682aa8b97014e5004f9b885d2.png" width="19" alt=""> icon in the Actions column.
 
    - Enable a rule.
 
@@ -4060,7 +4060,7 @@ Create an HTTP flood protection rule
 
    4. Configure parameters and click Confirm.
 
-      ![](assets/08e60a20d0f50850f366122bace538f4.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/08e60a20d0f50850f366122bace538f4.png)
 
       | Parameter | Description |
       | --- | --- |
@@ -4118,7 +4118,7 @@ Procedure
 
    3. Click the HTTP Flood Detection Whitelist tab. On the HTTP Flood Detection Whitelist tab, click Add Whitelist Item to add a request source to the whitelist, and click Confirm.
 
-      ![](assets/1b2dcf1a49c0b0dbe23bf79696734e9f.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/1b2dcf1a49c0b0dbe23bf79696734e9f.png)
 
       | Parameter | Description |
       | --- | --- |
@@ -4262,7 +4262,7 @@ Procedure
 
    Specify the Internet website to be protected. WAF can protect both HTTP and HTTPS websites.
 
-   ![](assets/c1aa7edb10690d804c395ee61c2bd49a.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/c1aa7edb10690d804c395ee61c2bd49a.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -4276,7 +4276,7 @@ Procedure
 
 6. In the Request Processing Method step, configure parameters and click Next.
 
-   ![](assets/d94f2902980eb0ad6bb12ddae9c3bff3.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/d94f2902980eb0ad6bb12ddae9c3bff3.png)
 
    Response mode
 
@@ -4411,7 +4411,7 @@ Procedure
 
    Specify the VPC website to be protected. WAF can protect both HTTP and HTTPS websites.
 
-   ![](assets/f07d922c74cb31f702ea4cfb0992b12f.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/f07d922c74cb31f702ea4cfb0992b12f.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -4424,7 +4424,7 @@ Procedure
 
 5. In the set up VPC step, configure parameters and click Next.
 
-   ![](assets/8ac620fa1fc9a399b2300240853781a3.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/8ac620fa1fc9a399b2300240853781a3.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -4558,7 +4558,7 @@ Procedure
 
    *ted website domain>* .
 
-   ![](assets/a3663fa46b371df6e4b7bed604e86a21.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/a3663fa46b371df6e4b7bed604e86a21.png)
 
    Note
 
@@ -4610,7 +4610,7 @@ Procedure
 
 3. In the left-side navigation pane of the Detection Overview page, choose Protection Configuration > Protection site management.
 
-4. Find the target website and click the <img src="assets/67f8d78d26b3f6a406a3d400c063dfe3.png" width="22" alt=""> icon in the Operation column.
+4. Find the target website and click the <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/67f8d78d26b3f6a406a3d400c063dfe3.png" width="22" alt=""> icon in the Operation column.
 
 5. On the Basic Information tab, obtain the virtual IP address of the protected website.
 
@@ -4640,7 +4640,7 @@ Procedure
 
 3. On the Payload Status tab, view the payload status of WAF nodes.
 
-   ![](assets/d1535b9c6e54e970c1d623624ae44c86.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/d1535b9c6e54e970c1d623624ae44c86.png)
 
    In the Payload Status section, you can view the CPU utilization and memory usage of each node. In the CPU usage and Memory usage sections, you can view changes in the CPU utilization and memory usage over a period of time.
 
@@ -4660,7 +4660,7 @@ Node network status
 
 4. View the network I/O of WAF nodes.
 
-   ![](assets/5c19483142d1c7e5cef2c28fa3e3daf7.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/5c19483142d1c7e5cef2c28fa3e3daf7.png)
 
 Traffic detection status
 
@@ -4672,7 +4672,7 @@ Traffic detection status
 
 4. View the network traffic detection status of WAF nodes.
 
-   ![](assets/e451fc2e1d6cc15ddfe83a539cdd7a7a.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/e451fc2e1d6cc15ddfe83a539cdd7a7a.png)
 
 Traffic forwarding status
 
@@ -4684,7 +4684,7 @@ Traffic forwarding status
 
 4. View the network traffic forwarding status of WAF nodes.
 
-   ![](assets/1f30e6766a58c474c4ff9043957830cb.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/1f30e6766a58c474c4ff9043957830cb.png)
 
 <a id="section-7-5-3"></a>
 
@@ -4700,7 +4700,7 @@ Procedure
 
    3. Click the Disk Status tab to view the disk status of WAF nodes.
 
-      ![](assets/441a99d65e3b23fc0eecb7462e30c37d.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/441a99d65e3b23fc0eecb7462e30c37d.png)
 
       In the Disk Status section, you can view the disk I/O and disk usage of nodes. In the Read and Write sections, you can view the disk read and write changes over a period of time.
 
@@ -4720,7 +4720,7 @@ Procedure
 
 4. In the Add Alarm Service pane that appears, specify the syslog server parameters.
 
-   ![](assets/0278d90c3a2c71aafc53c85b14810f12.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/0278d90c3a2c71aafc53c85b14810f12.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -4732,7 +4732,7 @@ Procedure
 
 5. Click Confirm. The newly added syslog server will be displayed in the syslog list.
 
-6. Find the newly added syslog server and click <img src="assets/c5f92004b27e33f3c370834edf4e6395.png" width="16" alt=""> in the Operation column to check whether alerts
+6. Find the newly added syslog server and click <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/c5f92004b27e33f3c370834edf4e6395.png" width="16" alt=""> in the Operation column to check whether alerts
 
    are sent properly.
 
@@ -4752,7 +4752,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Application Security > WAF. On the Detection Overview page, choose System Management > Syslog Configuration.
 
-3. Click the Alarm ThresholdConfiguration tab and click the edit icon <img src="assets/00eb12ef6e449d84bb0bb99ff8959aa2.png" width="12" alt=""> next to the thresholds
+3. Click the Alarm ThresholdConfiguration tab and click the edit icon <img src="en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/00eb12ef6e449d84bb0bb99ff8959aa2.png" width="12" alt=""> next to the thresholds
 
    that you want to modify.
 
@@ -4790,7 +4790,7 @@ Procedure
 
 4. View the overall security information.
 
-   ![](assets/d45dc637fc32763e2ad71e86dc6546e7.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/d45dc637fc32763e2ad71e86dc6546e7.png)
 
    The dashboard displays the following information:
 
@@ -4828,7 +4828,7 @@ Attack Protections
 
    Skip this step if you want to view all attack protection events.
 
-   ![](assets/46904d90af580e26882f9061ecf0b0d8.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/46904d90af580e26882f9061ecf0b0d8.png)
 
    | Search condition | Description |
    | --- | --- |
@@ -4843,7 +4843,7 @@ Attack Protections
 
 5. Click the buttons in the upper-left corner to refresh or export the list.
 
-   ![](assets/337fd4816e862687e431125387f7e350.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/337fd4816e862687e431125387f7e350.png)
 
 Security Alerts
 
@@ -4857,7 +4857,7 @@ Security Alerts
 
    Skip this step if you want to view all security alerts.
 
-   ![](assets/7e14d77e278f221fd31f7388051ebfcf.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/7e14d77e278f221fd31f7388051ebfcf.png)
 
    | Search condition | Description |
    | --- | --- |
@@ -4872,7 +4872,7 @@ Security Alerts
 
 5. Click the buttons in the upper-left corner to refresh or export the list.
 
-   ![](assets/7b0063adbedc43510360c8a58c6c0f1c.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/7b0063adbedc43510360c8a58c6c0f1c.png)
 
 Vulnerabilities
 
@@ -4892,7 +4892,7 @@ Vulnerabilities
 
    Skip this step if you want to view all vulnerabilities or server configuration risks.
 
-   ![](assets/b9b06cd597e7d4e10703c5195908547d.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/b9b06cd597e7d4e10703c5195908547d.png)
 
    | Search condition | Description |
    | --- | --- |
@@ -4904,7 +4904,7 @@ Vulnerabilities
 
 5. Click the buttons in the upper-left corner to refresh or export a list of vulnerabilities or server configuration risks.
 
-   ![](assets/cb8c95351f6dab62a46df899fff483c0.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/cb8c95351f6dab62a46df899fff483c0.png)
 
 <a id="section-8-2-2"></a>
 
@@ -4936,7 +4936,7 @@ Attack Protections
 
 5. Click the buttons in the upper-left corner to refresh or export the list.
 
-   ![](assets/337fd4816e862687e431125387f7e350.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/337fd4816e862687e431125387f7e350.png)
 
 Security Alerts
 
@@ -4962,7 +4962,7 @@ Security Alerts
 
 5. Click the buttons in the upper-left corner to refresh or export the list.
 
-   ![](assets/7b0063adbedc43510360c8a58c6c0f1c.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/7b0063adbedc43510360c8a58c6c0f1c.png)
 
 Vulnerabilities
 
@@ -4985,7 +4985,7 @@ Vulnerabilities
 
 4. Click the buttons in the upper-left corner to refresh or export the list.
 
-   ![](assets/cb8c95351f6dab62a46df899fff483c0.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/cb8c95351f6dab62a46df899fff483c0.png)
 
 <a id="section-8-3"></a>
 
@@ -5093,7 +5093,7 @@ Procedure
 
 3. On the Overview tab, view the audit summary for the last seven days.
 
-   ![](assets/0f0e20495bbe16453df7c91e071ccf12.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/0f0e20495bbe16453df7c91e071ccf12.png)
 
    - Trends of Raw Log
 
@@ -5163,7 +5163,7 @@ Procedure
 
 3. On the Audit Query tab, configure query conditions to view audit events within a specific time range.
 
-   ![](assets/b8e7e377e07eca437f84c4df888013ef.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/b8e7e377e07eca437f84c4df888013ef.png)
 
    - Basic query
 
@@ -5408,7 +5408,7 @@ Procedure
 
    </ol>
 
-   ![](assets/9932eb99c760fcb7367a8fa19f5e91b9.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/9932eb99c760fcb7367a8fa19f5e91b9.png)
 
    <ol type="i" start="3">
 
@@ -5482,7 +5482,7 @@ Procedure
 
    </ol>
 
-   ![](assets/7b2991b0dc0390ae25bd36cdb2dc690a.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/7b2991b0dc0390ae25bd36cdb2dc690a.png)
 
    <ol type="i" start="3">
 
@@ -5568,7 +5568,7 @@ Procedure
 
 4. View the created export tasks.
 
-   ![](assets/bf80f36d04cad130d9959d9739d0645f.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/bf80f36d04cad130d9959d9739d0645f.png)
 
 5. Click Download to download audit events or log files to your local machine.
 
@@ -5594,7 +5594,7 @@ Procedure
 
 4. Find the target configuration item and click Edit in the Actions column.
 
-   ![](assets/a90821209bb511b5e032eebb7bfb793e.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/a90821209bb511b5e032eebb7bfb793e.png)
 
 5. Enter a required value in the Value column and click Confirm in the Actions column.
 
@@ -5946,7 +5946,7 @@ Procedure
 
 4. In the Create Report dialog box that appears, specify the parameters.
 
-   ![](assets/4fa08cf4f4d34a58b69bb5f35e099207.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/4fa08cf4f4d34a58b69bb5f35e099207.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -5989,7 +5989,7 @@ Procedure
 
 4. Enter the recipient information and click OK.
 
-   ![](assets/76717c9b17dbb1562726ba90b2f70ff2.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/76717c9b17dbb1562726ba90b2f70ff2.png)
 
 5. Manage alert recipients.
 
@@ -6013,7 +6013,7 @@ Alerts on tenants
 
 3. In the Alerts section, select a notification method for each security event.
 
-   ![](assets/7d4c6c59dbc6126a16e78624bd2ce6cb.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/7d4c6c59dbc6126a16e78624bd2ce6cb.png)
 
 4. Click Confirm.
 
@@ -6025,7 +6025,7 @@ Alerts on the platform
 
 3. In the Alerts section, select a notification method for each security event.
 
-   ![](assets/3b532e939524ef6e62f5360916fe2986.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/3b532e939524ef6e62f5360916fe2986.png)
 
 4. Click Confirm.
 
@@ -6258,7 +6258,7 @@ Procedure
 
 4. In the Add CIDR Block for Monitoring dialog box that appears, specify a CIDR block.
 
-   ![](assets/c0dae7e741330425a58b4efe12d2eaa7.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/c0dae7e741330425a58b4efe12d2eaa7.png)
 
    - CIDR Block: Enter a CIDR block for traffic monitoring.
 
@@ -6326,7 +6326,7 @@ Procedure
 
 4. In the Add CIDR Block dialog box that appears, set the parameters.
 
-   ![](assets/b1ec863fc7d2ae58b9c088e29cd0e07c.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/b1ec863fc7d2ae58b9c088e29cd0e07c.png)
 
    - CIDR Block: Enter a CIDR block for the region.
 
@@ -6390,7 +6390,7 @@ Procedure
 
 4. In the Add to Whitelist dialog box, configure the following parameters.
 
-   ![](assets/ca23ae0920c4d9a85f5f6604b5b70d1c.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/ca23ae0920c4d9a85f5f6604b5b70d1c.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -6418,7 +6418,7 @@ Procedure
 
 3. Turn on or off the switches in the Actions column to enable or disable Web Attack Blocking or Brute-Force Attack Blocking.
 
-   ![](assets/eb3a93f1a17f81233a38050ca981fde5.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/eb3a93f1a17f81233a38050ca981fde5.png)
 
    Note
 
@@ -6442,7 +6442,7 @@ Procedure
 
 4. In the Add dailog box that appears, specify the IP address to block.
 
-   ![](assets/80f25df4a8efd530166284561cb76a0f.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/80f25df4a8efd530166284561cb76a0f.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -6544,7 +6544,7 @@ Procedure
 
 3. On the Remote O&M page, turn on the switch to enable remote operations.
 
-   ![](assets/7ca393f7149bdbbd07bff1e2feff7d5d.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/7ca393f7149bdbbd07bff1e2feff7d5d.png)
 
    Note
 
@@ -6570,7 +6570,7 @@ Procedure
 
    select the departments for which you want to enable remote operations.
 
-   ![](assets/db5d5b2c31d292b084a3053514afa469.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/db5d5b2c31d292b084a3053514afa469.png)
 
    <ol type="i" start="3">
 
@@ -6636,7 +6636,7 @@ Procedure
 
    </ol>
 
-   ![](assets/be2b274693ba80c11e49c0de9389bdc9.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/be2b274693ba80c11e49c0de9389bdc9.png)
 
    <ol type="i" start="3">
 
@@ -6668,7 +6668,7 @@ Procedure
 
    The details include the license expiration date and the number of Server Guard licenses. The information is obtained based on the user ID and the AccessKey pair.
 
-   ![](assets/1b610509aab43c00df9ee94d240031bc.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/1b610509aab43c00df9ee94d240031bc.png)
 
 <a id="section-8-7-6-2"></a>
 
@@ -6754,7 +6754,7 @@ Procedure
 
 3. View and configure anti-DDoS policies.
 
-   ![](assets/54f9ad25e4a751e4b50c7570c7c4d401.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/54f9ad25e4a751e4b50c7570c7c4d401.png)
 
    | Option | Description |
    | --- | --- |
@@ -6797,7 +6797,7 @@ Procedure
 
 4. In the DDoS Scrubbing Defense Strategy section, click View to view DDoS traffic scrubbing policies.
 
-   ![](assets/3ad63aa5845933c1f5f099ab04763b7c.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/3ad63aa5845933c1f5f099ab04763b7c.png)
 
 <a id="section-9-1-3"></a>
 
@@ -6817,7 +6817,7 @@ Procedure
 
    3. View anti-DDoS statistics.
 
-      ![](assets/2bbf88188ed69d72dbb5daac17174892.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/2bbf88188ed69d72dbb5daac17174892.png)
 
    4. (Optional)In the DDoS Scrubbing List section, specify search conditions and click Search.
 
@@ -6825,7 +6825,7 @@ Procedure
 
       Skip this step if you need to view all traffic scrubbing events.
 
-      ![](assets/57938832b4d4abf52b9cafe636f56bcd.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/57938832b4d4abf52b9cafe636f56bcd.png)
 
       | Search condition | Description |
       | --- | --- |
@@ -6910,7 +6910,7 @@ Procedure
 
    3. On the Firewalls page, click the IDC-VPC tab. In the upper-right corner, click Create.
 
-      ![](assets/99b472b78581d8bbb6c0167497862e86.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/99b472b78581d8bbb6c0167497862e86.png)
 
       | Parameter | Description |
       | --- | --- |
@@ -6954,7 +6954,7 @@ Create an IP address book
 
    5. Click +Create Address Book to specify parameters.
 
-      ![](assets/fc8dcb98f52be763eb7110a6c23c34e6.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/fc8dcb98f52be763eb7110a6c23c34e6.png)
 
       | Parameter | Description |
       | --- | --- |
@@ -6977,7 +6977,7 @@ Create a port address book
 
    5. Click +Create Address Book to specify parameters.
 
-      ![](assets/bad1f651eadd740286c1c9535906cac4.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/bad1f651eadd740286c1c9535906cac4.png)
 
       | Parameter | Description |
       | --- | --- |
@@ -7009,7 +7009,7 @@ Procedure
 
    4. Click the Outbound Policies or Inbound Policies tab based on the direction of traffic that you want to control.
 
-      ![](assets/ff86df6d8effcb40b95427741df23fcc.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/ff86df6d8effcb40b95427741df23fcc.png)
 
       - Outbound Policies tab: You can configure control policies for traffic from your internal network to the Internet.
 
@@ -7019,7 +7019,7 @@ Procedure
 
       In the Create Outbound Policy dialog box, configure the following parameters.
 
-      ![](assets/b6dd2c59653f64b65d89c8e162f92b78.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/b6dd2c59653f64b65d89c8e162f92b78.png)
 
       | Parameter | Description |
       | --- | --- |
@@ -7183,7 +7183,7 @@ Procedure
 
    5. In the Create VPC Firewall Policy dialog box, configure the following parameters.
 
-      ![](assets/4119131150818bacbca8483a656e040f.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/4119131150818bacbca8483a656e040f.png)
 
       | Parameter | Description |
       | --- | --- |
@@ -7227,7 +7227,7 @@ Procedure
 
    5. In the Create VPC Firewall Policy dialog box, configure a policy.
 
-      ![](assets/58e1f0239413bef7536be176a4829c95.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/58e1f0239413bef7536be176a4829c95.png)
 
       | Parameter | Description |
       | --- | --- |
@@ -7261,7 +7261,7 @@ Procedure
 
    3. Select a running mode for the threat engine.
 
-      ![](assets/f42f60bebf76fd2cb4155265cf32cb7c.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/f42f60bebf76fd2cb4155265cf32cb7c.png)
 
       Valid values: Monitoring Mode and Traffic Control Mode.
 
@@ -7289,7 +7289,7 @@ Procedure
 
    4. Configure the advanced features.
 
-      ![](assets/6f023d2ae90d59d9ab5b911baf63ad1f.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/6f023d2ae90d59d9ab5b911baf63ad1f.png)
 
       - Cloud Firewall allows traffic from IP addresses in the whitelist.
 
@@ -7297,7 +7297,7 @@ Procedure
 
         You can add the trusted source IP addresses, destination IP addresses, or address books of both inbound and outbound traffic to the whitelist.
 
-        ![](assets/e52b5b56ccdfcbab3da6838cbe5e04d3.png)
+        ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/e52b5b56ccdfcbab3da6838cbe5e04d3.png)
 
       - The basic protection feature defends your network against common intrusions, such as brute-force attacks and command execution vulnerabilities. The basic protection feature also manages connections from infected hosts to a command-and-control (C&C) server.
 
@@ -7317,7 +7317,7 @@ Procedure
 
         </ol>
 
-        ![](assets/b61c59cedca767f023c546a75be4bd24.png)
+        ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/b61c59cedca767f023c546a75be4bd24.png)
 
       - Virtual patches are installation-free. You can use them to defend against high-risk vulnerabilities.
 
@@ -7337,7 +7337,7 @@ Procedure
 
         </ol>
 
-        ![](assets/f416c9a39e32504a86012ac16d19f561.png)
+        ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/f416c9a39e32504a86012ac16d19f561.png)
 
 <a id="section-9-2-2-2"></a>
 
@@ -7389,7 +7389,7 @@ Procedure
 
    4. Specify the search condition and click Search.
 
-      ![](assets/d834576aac7d336c66805113380e54f6.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/d834576aac7d336c66805113380e54f6.png)
 
       Note
 
@@ -7448,7 +7448,7 @@ Procedure
 
    parameters on the Authorization page to authorize SDDP.
 
-   ![](assets/e6cfc162cdf187153aeea2f0952c3a8c.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/e6cfc162cdf187153aeea2f0952c3a8c.png)
 
 3. In the Add Authorization section, authorize SDDP to access data of your department.
 
@@ -7486,7 +7486,7 @@ SDDP can detect sensitive data in your data assets based on sensitive data detec
 
 In the left-side navigation pane, choose Data Security > Sensitive Data Discovery and Protection. In the left-side navigation tree, click Overview. On the Overview page, view the overall security status of the sensitive data.
 
-![](assets/e4e67d156609e12a85708b1f11bfb843.png)
+![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/e4e67d156609e12a85708b1f11bfb843.png)
 
 - Overview: displays the overall information of sensitive data. This includes the number of unprocessed anomalous events, the number of anomalous events confirmed as violations, the total number of sensitive tables, the total number of sensitive objects, and accounts that accessed sensitive data.
 
@@ -7540,7 +7540,7 @@ Procedure
 
 3. View statistics on sensitive data in MaxCompute.
 
-   ![](assets/5724ded62f2d90cd6819c751c84aee1b.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/5724ded62f2d90cd6819c751c84aee1b.png)
 
    <ol type="i">
 
@@ -7586,7 +7586,7 @@ Procedure
 
 4. Query sensitive data in MaxCompute.
 
-   ![](assets/6f5d72ece00a7172640d42e80b2934d7.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/6f5d72ece00a7172640d42e80b2934d7.png)
 
    By default, the system displays all MaxCompute projects. Different risk levels are indicated by different colors. To view information about a specific project, package, table, or field, follow these steps:
 
@@ -7648,7 +7648,7 @@ Procedure
 
 3. View statistics on sensitive data in Tablestore.
 
-   ![](assets/c3e7e77111b4d01ccc84f3f3d3704f0f.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/c3e7e77111b4d01ccc84f3f3d3704f0f.png)
 
    <ol type="i">
 
@@ -7694,7 +7694,7 @@ Procedure
 
 4. Query sensitive data in Tablestore.
 
-   ![](assets/68e810f9b0843ebe6a1b124c7c9239ee.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/68e810f9b0843ebe6a1b124c7c9239ee.png)
 
    By default, the system displays all Tablestore instances. To view information about a specific instance or table, perform the following steps:
 
@@ -7752,7 +7752,7 @@ Procedure
 
 3. View statistics on sensitive data in OSS.
 
-   ![](assets/bb1c2fea4ee48adc776732d38cfa6f76.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/bb1c2fea4ee48adc776732d38cfa6f76.png)
 
    View the charts on the Proportion of Sensitive File Objects and Risk Level Distribution of Sensitive Objects tabs.
 
@@ -7800,7 +7800,7 @@ Procedure
 
 4. Query OSS sensitive data.
 
-   ![](assets/dcb3849906a163d6e8b3db67ada86ba8.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/dcb3849906a163d6e8b3db67ada86ba8.png)
 
    By default, the system displays all OSS buckets. To view information about a specific bucket, follow these steps:
 
@@ -7950,7 +7950,7 @@ Procedure
 
 3. View statistics on sensitive data in ApsaraDB for RDS.
 
-   ![](assets/81553addaabd944a0773de529a54aa5a.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/81553addaabd944a0773de529a54aa5a.png)
 
    On the Proportion of Sensitive Tables, Proportion of Sensitive Fields, Risk Level Distribution of Sensitive Tables, and Risk Level Distribution of Sensitive Fields tabs, view the statistics.
 
@@ -7998,7 +7998,7 @@ Procedure
 
 4. Query sensitive data in ApsaraDB for RDS.
 
-   ![](assets/89f8998c1816567299fb761193a8ba33.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/89f8998c1816567299fb761193a8ba33.png)
 
    All ApsaraDB for RDS databases are displayed by default. To view information about a specific database or table, follow these steps:
 
@@ -8060,7 +8060,7 @@ Procedure
 
 3. View the overall permission statistics.
 
-   ![](assets/3ada521eb1e8fa15615776d8f2148f77.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/3ada521eb1e8fa15615776d8f2148f77.png)
 
    - Accounts with Access to Sensitive Data: the number of accounts that can access sensitive data.
 
@@ -8072,7 +8072,7 @@ Procedure
 
 4. View the department-level permission statistics.
 
-   ![](assets/5731774f2f06245aeb6cfa9e9e93394f.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/5731774f2f06245aeb6cfa9e9e93394f.png)
 
    You can view the statistics on the users, accounts, and anomalous activities related to permissions for each department.
 
@@ -8092,7 +8092,7 @@ Procedure
 
 2. Choose Data Security > Sensitive Data Protection > Data Permissions > Permission Search.
 
-   ![](assets/031231735432342e0e4873f67c541c52.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/031231735432342e0e4873f67c541c52.png)
 
 3. Search for the target account.
 
@@ -8160,7 +8160,7 @@ Procedure
 
 3. Enter a keyword and select a department from the drop-down list. Enter a topic keyword in the DataHub Topic Search field and click Search.
 
-   ![](assets/f26ab69d19eee538ab9796095e13893a.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/f26ab69d19eee538ab9796095e13893a.png)
 
    Note
 
@@ -8180,7 +8180,7 @@ Procedure
 
    The subscription list contains information such as the subscription name, Apsara Stack account of the creator, display name, name of the subscribed application, and application contact.
 
-   ![](assets/c35271b5ef6a25a697854067a841caec.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/c35271b5ef6a25a697854067a841caec.png)
 
    <ol type="i">
 
@@ -8258,7 +8258,7 @@ Procedure
 
       - You can view statistics within different periods of time (One Day, 7 Days, and 30 Days).
 
-      ![](assets/d3e19771108be2eb96e122e6505d156f.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/d3e19771108be2eb96e122e6505d156f.png)
 
    5. In the Sync Instances section, view information such as the ID, time, node name, data type, and amount of synchronized data.
 
@@ -8300,7 +8300,7 @@ Procedure
 
       Next.
 
-      ![](assets/51e58be21964df726992e33ff8e9cca8.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/51e58be21964df726992e33ff8e9cca8.png)
 
       Product
 
@@ -8502,7 +8502,7 @@ Procedure
 
    4. In the Add Rule dialog box, configure the parameters.
 
-      ![](assets/38b245529d81e83eb5ff1737e4287ae6.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/38b245529d81e83eb5ff1737e4287ae6.png)
 
       | Parameter | Description |
       | --- | --- |
@@ -8548,7 +8548,7 @@ Procedure
 
       Statistics on abnormal activities
 
-      ![](assets/6c62cbf436305f8f87a37a085bee4b1e.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/6c62cbf436305f8f87a37a085bee4b1e.png)
 
       - Click the Permission Usage Anomalous Event, Data Flow Anomalous Event, Data Operation Anomalous Event, or Custom Anomalous Event tab to view the bar charts of the statistics.
 
@@ -8562,7 +8562,7 @@ Procedure
 
       In the lower part of the Anomalous Events page, process abnormal activities detected by SDDP in the abnormal activity list.
 
-      ![](assets/6c1f8743f398dcb6a6802bda61c4d5a7.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/6c1f8743f398dcb6a6802bda61c4d5a7.png)
 
       <ol type="i">
 
@@ -8626,7 +8626,7 @@ Procedure
 
    3. On the Audit Report page, view an audit report.
 
-      ![](assets/9bc4b8c745c17502a7d68fee4ba9f1bc.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/9bc4b8c745c17502a7d68fee4ba9f1bc.png)
 
    4. Click Download Audit Report.
 
@@ -8644,7 +8644,7 @@ Procedure
 
    3. (Optional)On the Audit Logs page, specify the time period to filter audit logs.
 
-      ![](assets/f23c768a75f1d5d028db4ad8ca5607cf.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/f23c768a75f1d5d028db4ad8ca5607cf.png)
 
       If you require more detailed filter conditions, follow these steps:
 
@@ -8692,7 +8692,7 @@ Procedure
 
    5. View information of raw logs in the log list.
 
-      ![](assets/98f7d90a2578e7f32dccc88c50a1070a.png)
+      ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/98f7d90a2578e7f32dccc88c50a1070a.png)
 
    6. Find the target raw log, and click Details in the Operator column.
 
@@ -8749,7 +8749,7 @@ Procedure
 
 3. Click the Sensitive Data Identification Rules tab to view the existing rules used to identify sensitive data.
 
-   ![](assets/2e75f6adf69694c1626a63c2f0cda2e0.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/2e75f6adf69694c1626a63c2f0cda2e0.png)
 
    Specify Rule Type, Risk Level, and Rule Name. Then, click Search to search for rules.
 
@@ -8771,7 +8771,7 @@ Procedure
 
    In the Add Rule dialog box, configure the parameters.
 
-   ![](assets/89041262917220258fd2acb6ae8673c7.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/89041262917220258fd2acb6ae8673c7.png)
 
    </li>
 
@@ -8827,7 +8827,7 @@ Procedure
 
 4. Configure the thresholds used to detect abnormal activities.
 
-   ![](assets/680d24dfa24d33ae06ae61309b644289.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/680d24dfa24d33ae06ae61309b644289.png)
 
    Sensitive Data Discovery and Protection (SDDP) provides default thresholds that can be customized.
 
@@ -8851,7 +8851,7 @@ Procedure
 
    In the Enable Anomaly Alerts section, select the types of abnormal activities that you want SDDP to detect.
 
-   ![](assets/f2e723a38d3e1109301dc36a7769bf8c.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/f2e723a38d3e1109301dc36a7769bf8c.png)
 
    After you configure the rules, you can view statistics on suspicious events on the Anomalous Events page.
 
@@ -8869,11 +8869,11 @@ Procedure
 
 3. On the Authorization Configuration page, click Configure Asset Authorization.
 
-   ![](assets/88d26bbeb5fd53ec30fc2a47772bd32d.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/88d26bbeb5fd53ec30fc2a47772bd32d.png)
 
 4. Select a region from the Region drop-down list and a database from the Database Name drop-down list.
 
-   ![](assets/9e22feee8ce0240816b88b857853ce9f.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/9e22feee8ce0240816b88b857853ce9f.png)
 
 5. Click Complete Authorization.
 
@@ -8931,13 +8931,13 @@ Hashing
 
    A salt value is the specific string that you insert.
 
-   ![](assets/33995d62b82586a1a4b6e609ad288fff.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/33995d62b82586a1a4b6e609ad288fff.png)
 
 5. Click Test for an algorithm.
 
    In the Desensitization Algorithm Test dialog box, enter the original value and click Test to check whether the algorithm works.
 
-   ![](assets/9103b018820e5975c9b4f416734e89d4.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/9103b018820e5975c9b4f416734e89d4.png)
 
 6. After the test, close the Desensitization Algorithm Test dialog box. Then, click Save.
 
@@ -8951,7 +8951,7 @@ Masking
 
 4. Configure the parameters.
 
-   ![](assets/cd44976edb41496663965fc152333195.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/cd44976edb41496663965fc152333195.png)
 
 5. Click Test for an algorithm.
 
@@ -8969,7 +8969,7 @@ Replacement
 
 4. Configure the parameters.
 
-   ![](assets/9fe2ed94e3a342462c54e280fffa360f.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/9fe2ed94e3a342462c54e280fffa360f.png)
 
    Note
 
@@ -8997,7 +8997,7 @@ Transformation
 
 4. Configure the parameters.
 
-   ![](assets/21f76c24cf42450440d1068f29ab12d9.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/21f76c24cf42450440d1068f29ab12d9.png)
 
 5. Click Test for an algorithm.
 
@@ -9015,7 +9015,7 @@ Encryption
 
 4. Specify a key for an algorithm.
 
-   ![](assets/a3cec9dcdc887bcef1208fdd0d596111.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/a3cec9dcdc887bcef1208fdd0d596111.png)
 
 5. Click Test for an algorithm.
 
@@ -9033,6 +9033,6 @@ Shuffling
 
 4. Select a shuffling method.
 
-   ![](assets/2d6fd27d481798676362033afa19b7fc.png)
+   ![](en-apsara-stack-security-user-guide-v3.12.0-20220928.assets/2d6fd27d481798676362033afa19b7fc.png)
 
 5. Click Save.

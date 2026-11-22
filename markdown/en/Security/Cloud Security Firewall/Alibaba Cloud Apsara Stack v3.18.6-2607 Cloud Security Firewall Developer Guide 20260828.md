@@ -168,7 +168,7 @@ To obtain the AccessKey pair of a personal account, perform the following operat
 
 3. In the **Alibaba Cloud AccessKey** section, you can view the AccessKey information of your personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-cfw-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -214,7 +214,7 @@ To enable you to use the API call method in Apsara Stack as in Alibaba Cloud pub
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-cfw-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -224,7 +224,7 @@ To enable you to use the API call method in Apsara Stack as in Alibaba Cloud pub
 
 7. Select the corresponding API operation and obtain the POP Endpoint information under the parameter name.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-cfw-developer-guide-v3.18.6-2607-20260828.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 **Obtain an endpoint from Apsara Infrastructure Management**
 
@@ -244,7 +244,7 @@ You can also obtain service endpoints by yourself. In this example, API Gateway 
 
 6. In the Service Registration column of the  `apigateway`  service, click the **Service**
 
-   **Registration** <img src="assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
+   **Registration** <img src="en-cfw-developer-guide-v3.18.6-2607-20260828.assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
 
 7. Click the text information in the **Service Registration** column of the  `apigateway`  service. In the **Registration Variable** dialog box that appears, view the apigateway.openapi.endpoint value, which is the  `Endpoint` .
 

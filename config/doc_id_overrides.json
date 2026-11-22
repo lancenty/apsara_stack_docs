@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "overrides": [
+    {
+      "source": "en/Compute/Resource Orchestration Service/Alibaba Cloud Apsara Stack Terraform User Guide 20241115.pdf",
+      "sha256": "cac1868da4995053203e416f218121225ac1708f410357f62e03465bcc0b3be1",
+      "fields": {
+        "platform_version": "v3.18.3"
+      },
+      "reason": "Cover and filename omit Apsara Stack version; official download URL in data/apsara_latest_manifest.json places it under 01_ApsaraStackEnterprise/3.18.3/."
+    }
+  ]
+}

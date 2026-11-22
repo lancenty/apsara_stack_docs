@@ -1,6 +1,7 @@
 """Offline bilingual Apsara Stack PDF archive converter."""
 
 import argparse
+from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from contextlib import contextmanager
 import hashlib
@@ -21,7 +22,15 @@ try:
     import pymupdf
 except ImportError:
     raise SystemExit("请先运行 python -m pip install -r requirements-pdfmd.txt")
+from doc_identity import (
+    ASSETS_DIR_RE,
+    load_registry,
+    save_registry,
+    validate_document_id_fields,
+)
 from pdfmd_media import atomic_write
+
+_LEGACY_ASSET_REF = re.compile(r'(?:!\[[^\]\n]*\]\(|<img\b[^>]*?\bsrc=["\'])assets/')
 
 
 def native(path):
@@ -74,8 +83,19 @@ def records_from(path):
 def save_manifest(path, records):
     documents = [records[k] for k in sorted(records)]
     summary = {s: sum(r["status"] == s for r in documents) for s in ("ok","review","failed")}
-    summary.update(documents=len(documents), pages=sum(r.get("pages", 0) for r in documents))
-    data = dict(format=1, summary=summary, documents=documents)
+    doc_ids = [r.get("document_id") for r in documents if r.get("document_id")]
+    id_counts = Counter(doc_ids)
+    summary.update(
+        documents=len(documents),
+        pages=sum(r.get("pages", 0) for r in documents),
+        images=sum(r.get("images", 0) for r in documents),
+        unique_document_ids=len(id_counts),
+        id_ok=sum(r.get("id_status") == "ok" for r in documents),
+        id_overrides=sum(r.get("id_source") == "override" for r in documents),
+        id_anomalies=sum(r.get("id_status") != "ok" for r in documents),
+        id_conflicts=sum(1 for cnt in id_counts.values() if cnt > 1),
+    )
+    data = dict(format=2, summary=summary, documents=documents)
     atomic_write(path, (json.dumps(data, ensure_ascii=False, indent=2)+"\n").encode("utf-8"))
 
 
@@ -114,10 +134,24 @@ def valid_cached(record, path, source_hash, version):
             or record.get("sha256") != source_hash or record.get("rules") != version
             or not path.is_file() or path.stat().st_size != record.get("bytes")):
         return False
+    assets_dir = record.get("assets_dir", "")
+    if not assets_dir or not ASSETS_DIR_RE.fullmatch(assets_dir):
+        return False
+    if record.get("assets_path") != (Path(record["output"]).parent / assets_dir).as_posix():
+        return False
+    if validate_document_id_fields(record):
+        return False
     data = path.read_bytes()
     if hashlib.sha256(data).hexdigest() != record.get("md_sha256"):
         return False
-    refs = set(ASSET.findall(data.decode("utf-8")))
+    text = data.decode("utf-8")
+    if _LEGACY_ASSET_REF.search(text):
+        return False
+    refs = set(ASSET.findall(text))
+    if any(not ref.startswith(assets_dir + "/") for ref in refs):
+        return False
+    if sorted(Path(ref).name for ref in refs) != record.get("assets"):
+        return False
     return all((path.parent / ref).is_file() and (path.parent / ref).stat().st_size for ref in refs)
 
 
@@ -131,24 +165,38 @@ def run_one(key, item, root, previous, version, force):
             return previous, True
         # Process isolation bounds memory on long manuals and contains native PDF parsing failures.
         cp = subprocess.run([sys.executable, str(Path(__file__).resolve()), "--worker",
-                             str(source), str(target), lang], capture_output=True,
-                            env={**os.environ, "PYTHONUTF8":"1"})
+                             str(source), str(target), lang, key, rec["sha256"]],
+                            capture_output=True, env={**os.environ, "PYTHONUTF8":"1"})
         if cp.returncode:
             errors = (cp.stderr or cp.stdout).decode("utf-8", errors="replace")
             raise RuntimeError(errors.strip()[-1600:] or f"Worker process exit {cp.returncode}")
         msg = cp.stdout.decode("utf-8").splitlines()
         result = next(line[12:] for line in reversed(msg) if line.startswith("PDFMDRESULT "))
         rec.update(json.loads(result))
+        rec["assets_path"] = (rel.parent / rec["assets_dir"]).as_posix()
         rec.update(status="review" if rec["issues"] else "ok", md_sha256=fingerprint(target))
     except Exception as error:
         rec.update(status="failed", issues=[{"page":None, "reason":str(error)}])
     return rec, False
 
 
+def _find_conflicts(records):
+    by_id = defaultdict(list)
+    by_assets = defaultdict(list)
+    for rec in records.values():
+        if rec.get("document_id"):
+            by_id[rec["document_id"]].append(rec["source"])
+        if rec.get("assets_path"):
+            by_assets[rec["assets_path"]].append(rec["source"])
+    id_conflicts = {k: v for k, v in by_id.items() if len(v) > 1}
+    asset_conflicts = {k: v for k, v in by_assets.items() if len(v) > 1}
+    return id_conflicts, asset_conflicts
+
+
 def main():
     if sys.argv[1:2] == ["--worker"]:
         from pdfmd_document import convert
-        result = convert(*sys.argv[2:])
+        result = convert(*sys.argv[2:7])
         print("PDFMDRESULT " + json.dumps(result, ensure_ascii=True))
         return 0
     ap = argparse.ArgumentParser(description="将阿里云专有云 PDF 转换为可离线阅读的 Markdown。")
@@ -186,6 +234,32 @@ def main():
                     print(f'[{i}/{total}] {"cached" if cached else rec["status"]} {rec["source"]}', flush=True)
                 if rec["status"] == "failed":
                     print(rec["issues"][0]["reason"], file=sys.stderr, flush=True)
+        id_conflicts, asset_conflicts = _find_conflicts(records)
+        if id_conflicts or asset_conflicts:
+            for doc_id, srcs in sorted(id_conflicts.items()):
+                print(f"Document ID conflict {doc_id}: {srcs}", file=sys.stderr, flush=True)
+            for apath, srcs in sorted(asset_conflicts.items()):
+                print(f"Assets path conflict {apath}: {srcs}", file=sys.stderr, flush=True)
+            failed += len(id_conflicts) + len(asset_conflicts)
+        if not id_conflicts and not asset_conflicts and root == native(ROOT / "markdown"):
+            existing_reg = load_registry().get("documents", {})
+            updated_reg = dict(existing_reg)
+            for rec in records.values():
+                if rec.get("status") in ("ok", "review") and rec.get("id_status") == "ok" and rec.get("sha256"):
+                    updated_reg[rec["sha256"]] = {
+                        "document_id": rec["document_id"],
+                        "source": rec["source"],
+                        "assets_dir": rec["assets_dir"],
+                        "language": rec["language"],
+                        "platform_version": rec["platform_version"],
+                        "product": rec["product"],
+                        "document_key": rec["document_key"],
+                        "document_version": rec["document_version"],
+                        "category": rec.get("category", ""),
+                        "id_source": rec.get("id_source", "rules"),
+                    }
+            if updated_reg != existing_reg:
+                save_registry(updated_reg)
         print(f"Finished in {time.monotonic()-started:.1f}s; skipped={skipped} review={reviews} failed={failed}", flush=True)
         return int(bool(failed))
 

@@ -185,7 +185,7 @@ This topic describes how to log on to the Apsara Stack DNS console by using Goog
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press Enter.
 
-   ![](assets/d7f6f283414bd0d14dc487245b8c88cb.jpeg)
+   ![](en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/d7f6f283414bd0d14dc487245b8c88cb.jpeg)
 
    > **Note**
    >
@@ -327,7 +327,7 @@ You can add a description for a domain name to help you identify it. For example
 
    icon in the
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    Actions column, and then select **Description**.
 
@@ -582,7 +582,7 @@ You can add a description for a domain name to help you identify it. For example
 
    in the Actions
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    column, and then select **Description**.
 
@@ -1272,7 +1272,7 @@ Tenant domain names are isolated based on VPCs. To ensure that the DNS forwardin
 
    icon in the Actions column, and select
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    **Associate VPCs**.
 
@@ -1296,7 +1296,7 @@ This topic describes how to unbind a domain name from a VPC.
 
    icon in the **Actions**
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    column, and then select **Disassociate**. Make sure that the unbound VPC is no longer displayed on the VPCs Associated page.
 
@@ -1314,7 +1314,7 @@ This topic describes how to unbind a domain name from a VPC.
 
    icon in the Actions column, and then select
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    **Description**.
 
@@ -1366,7 +1366,7 @@ This topic describes how to view the details of a resolution policy.
 
    icon in the Actions column, and then select
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    Configure DNS Records.
 
@@ -1384,7 +1384,7 @@ This topic describes how to view the details of a resolution policy.
 
 3. In the top navigation bar, select the region where your tenant internal domain name resides.
 
-4. On the **Tenant Internal Domain Name** tab, find the desired tenant internal domain name, move the pointer over the **Tag** column, and then click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon.
+4. On the **Tenant Internal Domain Name** tab, find the desired tenant internal domain name, move the pointer over the **Tag** column, and then click the <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon.
 
 5. In the **Edit Tags** dialog box, click **Add**, set the parameters described in the following table, and then click **OK**.
 
@@ -1483,7 +1483,7 @@ This topic describes how to view the details of a resolution policy.
 
    icon in the Actions column, and then select
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    **Modify**.
 
@@ -1507,7 +1507,7 @@ Tenant domain names are isolated based on VPCs. You must bind the organization o
 
    icon in the Actions column, and then select
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    **Associate VPCs**.
 
@@ -1531,7 +1531,7 @@ This topic describes how to unbind a domain name from a VPC.
 
    icon in the Actions column,
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    and then select **Disassociate**. Make sure that the unbound VPC is no longer displayed on the VPCs Associated page.
 
@@ -1549,7 +1549,7 @@ This topic describes how to unbind a domain name from a VPC.
 
    icon in the Actions column, and then select
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    **Description**.
 
@@ -1597,7 +1597,7 @@ This topic describes how to unbind a domain name from a VPC.
 
 3. In the top navigation bar, select the region where your tenant forwarding domain name resides.
 
-4. On the **Tenant Forwarding Domain Names** tab, find the desired tenant forwarding domain name, move the pointer over the **Tag** column, and then click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon.
+4. On the **Tenant Forwarding Domain Names** tab, find the desired tenant forwarding domain name, move the pointer over the **Tag** column, and then click the <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon.
 
 5. In the **Edit Tags** dialog box, click **Add**, set the parameters described in the following table, and then click **OK**.
 
@@ -1710,7 +1710,7 @@ You have the permissions of a system administrator or level-1 organization admin
 
    icon in the Actions column, and then select
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    **Associate VPCs**.
 
@@ -1734,7 +1734,7 @@ This topic describes how to unbind a domain name from a VPC.
 
    icon in the Actions column,
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    and then select **Disassociate**. Make sure that the unbound VPC is no longer displayed on the VPCs Associated page.
 
@@ -1756,7 +1756,7 @@ You have the permissions of a system administrator or level-1 organization admin
 
    icon in the Actions column, and then select
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    **Modify**.
 
@@ -1782,7 +1782,7 @@ You have the permissions of a system administrator or level-1 organization admin
 
    icon in the Actions column, and then select
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    **Description**.
 
@@ -1808,7 +1808,7 @@ You have the permissions of a system administrator or level-1 organization admin
 
    icon in the Actions column, and then select
 
-   <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
+   <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt="">
 
    **Delete**.
 
@@ -1844,7 +1844,7 @@ You have the permissions of a system administrator or level-1 organization admin
 
 3. In the top navigation bar, select the region for your tenant default forwarding configurations.
 
-4. On the **Tenant Default Forwarding Configurations** tab, find the desired tenant default forwarding configuration, move the pointer over the **Tag** column, and then click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon.
+4. On the **Tenant Default Forwarding Configurations** tab, find the desired tenant default forwarding configuration, move the pointer over the **Tag** column, and then click the <img src="en-dns-within-cloud-user-guide-v3.18.3-20250612.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon.
 
 5. In the **Edit Tags** dialog box, click **Add**, set the parameters described in the following table, and then click **OK**.
 

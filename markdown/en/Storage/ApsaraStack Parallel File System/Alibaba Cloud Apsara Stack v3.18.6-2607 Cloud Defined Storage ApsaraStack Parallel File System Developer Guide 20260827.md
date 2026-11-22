@@ -72,17 +72,17 @@ To use a file system feature of APFS, call the corresponding API operation by us
 
 The following figure shows how to use the POP SDK to call an API operation.
 
-![](assets/a6333d9935c9d927c0a611f5680f1566.png)
+![](en-apfs-developer-guide-v3.18.6-2607-20260827.assets/a6333d9935c9d927c0a611f5680f1566.png)
 
-![](assets/ae43324e2a5e98d7fdb56ec98283e934.png)
+![](en-apfs-developer-guide-v3.18.6-2607-20260827.assets/ae43324e2a5e98d7fdb56ec98283e934.png)
 
 Make pre
 
 APFS.
 
-![](assets/76210b97169992cbfa5a60d91bcdec6e.png)
+![](en-apfs-developer-guide-v3.18.6-2607-20260827.assets/76210b97169992cbfa5a60d91bcdec6e.png)
 
-![](assets/ce276267b7537a23ca7855265229c560.png)
+![](en-apfs-developer-guide-v3.18.6-2607-20260827.assets/ce276267b7537a23ca7855265229c560.png)
 
 Make API c
 
@@ -102,17 +102,17 @@ You can use the Portable OpenAPI Proxy (POP) gateway or Apsara Stack API (ASAPI)
 
 **Flowchart**
 
-![](assets/5acf6b759333fddc2dad79385f1fe287.png)
+![](en-apfs-developer-guide-v3.18.6-2607-20260827.assets/5acf6b759333fddc2dad79385f1fe287.png)
 
-![](assets/5bca2b9003dcc4f70e3ae4044a520475.png)
+![](en-apfs-developer-guide-v3.18.6-2607-20260827.assets/5bca2b9003dcc4f70e3ae4044a520475.png)
 
 Make pre
 
 APFS.
 
-![](assets/ef36ad54bf82ed8a77311350712a0e7a.png)
+![](en-apfs-developer-guide-v3.18.6-2607-20260827.assets/ef36ad54bf82ed8a77311350712a0e7a.png)
 
-![](assets/d5ab8080a085a0185334a423ad71e2b7.png)
+![](en-apfs-developer-guide-v3.18.6-2607-20260827.assets/d5ab8080a085a0185334a423ad71e2b7.png)
 
 Make API c
 
@@ -353,7 +353,7 @@ This topic describes how to obtain the information about region ID and endpoint.
 
 4. On the Regions page, enter an organization name in the search box to search for the organization. Click the name of the organization to view its region ID.
 
-   ![](assets/2d30f0fea5fc542aa2f8085df445f47f.jpeg)
+   ![](en-apfs-developer-guide-v3.18.6-2607-20260827.assets/2d30f0fea5fc542aa2f8085df445f47f.jpeg)
 
 **Obtain the endpoint**
 
@@ -363,13 +363,13 @@ This topic describes how to obtain the information about region ID and endpoint.
 
 3. In the left-side navigation pane, select O&M Tools > Service Registration Variable Dashboard. On the **Service Registration Variable Dashboard** page, select **Service** and enter **efs-yaochi** in the search box.
 
-4. Find the service that you want to manage, click the <img src="assets/310ea92fb5fa6ea06973a1b466eedbec.jpeg" width="22" alt=""> icon in the **Service Registration**
+4. Find the service that you want to manage, click the <img src="en-apfs-developer-guide-v3.18.6-2607-20260827.assets/310ea92fb5fa6ea06973a1b466eedbec.jpeg" width="22" alt=""> icon in the **Service Registration**
 
    column.
 
 5. In the **Registration Variables** message, the value of the **efs.openapi-pub.endpoint** parameter is the endpoint of the APFS file system.
 
-   ![](assets/2d887b1db174540c7188ceb3317a2ed5.jpeg)
+   ![](en-apfs-developer-guide-v3.18.6-2607-20260827.assets/2d887b1db174540c7188ceb3317a2ed5.jpeg)
 
 <a id="section-3-4"></a>
 

@@ -115,7 +115,7 @@ Container Service provides high-performance, scalable, and enterprise-class mana
 
 # 4.Architecture
 
-![](assets/8229a9a8e02df9de6336956a7b8ec2f2.png)
+![](en-ack-product-introduction-v3.18.6-2607-20260828.assets/8229a9a8e02df9de6336956a7b8ec2f2.png)
 
 Container Service is adapted and enhanced on the basis of native Kubernetes. This service simplifies cluster creation and scaling and integrates Apsara Stack virtualization, storage, network, and security capabilities, providing the optimal environment to run Kubernetes-based containerized applications in the cloud.
 
@@ -245,7 +245,7 @@ Container Service for Kubernetes (ACK) works with Jenkins to automate the DevOps
 
 ECS + ACK
 
-![](assets/e98c4f00e9c1e138ec33d94b5c503de3.png)
+![](en-ack-product-introduction-v3.18.6-2607-20260828.assets/e98c4f00e9c1e138ec33d94b5c503de3.png)
 
 **Machine learning based on cloud-native technology**
 
@@ -297,7 +297,7 @@ In the production environment, you can split your system into microservices and 
 
 ECS + ApsaraDB RDS + OSS + ACK
 
-![](assets/99783c39e90267abadd87f773d4a8c33.png)
+![](en-ack-product-introduction-v3.18.6-2607-20260828.assets/99783c39e90267abadd87f773d4a8c33.png)
 
 **Hybrid cloud architecture**
 
@@ -323,7 +323,7 @@ You can centrally manage cloud and on-premises resources in the ACK console. Con
 
 ECS + VPC + Express Connect
 
-![](assets/07a32a61b68726d985af5a53fbe5c383.png)
+![](en-ack-product-introduction-v3.18.6-2607-20260828.assets/07a32a61b68726d985af5a53fbe5c383.png)
 
 **Automatic scaling architecture**
 
@@ -349,7 +349,7 @@ ACK enables businesses to auto-scale their resources based on traffic. This prev
 
 ECS + CloudMonitor
 
-![](assets/d9efd90375f7a33cfe3fde283b750a92.png)
+![](en-ack-product-introduction-v3.18.6-2607-20260828.assets/d9efd90375f7a33cfe3fde283b750a92.png)
 
 <a id="section-7"></a>
 

@@ -67,7 +67,7 @@ NFV Cloud Firewall is deployed in a network-enhanced exclusive Elastic Compute S
 
 **HA Architecture**
 
-![](assets/010dfb33cbbf025a15df85948bafd065.png)
+![](en-cfw-nfv-cloud-firewall-product-introduction-v3.18.6-20260701.assets/010dfb33cbbf025a15df85948bafd065.png)
 
 - **HA for deployment in an exclusive cluster (single zone)**
 
@@ -107,7 +107,7 @@ NFV Cloud Firewall is deployed in a network-enhanced exclusive Elastic Compute S
 
 **Cross-zone HA Architecture**
 
-![](assets/59525d0464f8b95447b0fef1264f2251.png)
+![](en-cfw-nfv-cloud-firewall-product-introduction-v3.18.6-20260701.assets/59525d0464f8b95447b0fef1264f2251.png)
 
 vSwitch1: 10.16.64.128/25
 

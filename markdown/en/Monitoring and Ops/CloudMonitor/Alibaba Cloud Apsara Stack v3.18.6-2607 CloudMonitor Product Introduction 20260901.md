@@ -29,7 +29,7 @@ CMS helps you monitor resources in a comprehensive and efficient manner. It not 
 
 **Features**
 
-![](assets/55c9b425e8cfc4eb2586ea7268d4a6d3.png)
+![](en-cloud-monitor-product-introduction-v3.18.6-2607-20260901.assets/55c9b425e8cfc4eb2586ea7268d4a6d3.png)
 
 <a id="section-1-1"></a>
 
@@ -421,7 +421,7 @@ This topic describes the architecture of Cloud Monitor (CMS).
 
 CMS has the following modules: alert center, cloud service monitoring, visualized analysis, alert service, monitoring governance, and access center. The following figure shows the architecture.
 
-![](assets/d5222da525277f95f51f6f42c705befe.png)
+![](en-cloud-monitor-product-introduction-v3.18.6-2607-20260901.assets/d5222da525277f95f51f6f42c705befe.png)
 
 Description:
 

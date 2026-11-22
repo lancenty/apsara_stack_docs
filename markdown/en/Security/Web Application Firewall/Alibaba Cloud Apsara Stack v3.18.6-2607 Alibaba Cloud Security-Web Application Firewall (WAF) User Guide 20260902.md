@@ -121,7 +121,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press Enter.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -185,7 +185,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
 2. On the Forgot Password page, enter your **Account Name**, **Email Address**, and verification code, and then click **Confirm**.
 
-   ![](assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
+   ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
 
    > **Note**
    >
@@ -354,7 +354,7 @@ On the **Protection Reports** tab, you can view and manage the protection report
 
 - View report details
 
-  Find the protection report whose details you want to view and click the <img src="assets/f32b6f568a968837ec34a7bed4217a66.png" width="22" alt=""> icon in the
+  Find the protection report whose details you want to view and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/f32b6f568a968837ec34a7bed4217a66.png" width="22" alt=""> icon in the
 
   **Actions** column.
 
@@ -380,11 +380,11 @@ Attack detection statistics allow you to obtain information about attacks on you
 
 4. On the **Attack Detection Statistics** page, click **Statistical Configuration**.
 
-5. In the **Statistical Configuration** panel, click the <img src="assets/cdf7414140da3c251b9df0d2f8ff5e3b.png" width="13" alt=""> icon and click **OK**.
+5. In the **Statistical Configuration** panel, click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/cdf7414140da3c251b9df0d2f8ff5e3b.png" width="13" alt=""> icon and click **OK**.
 
    After you complete the preceding configurations, the attack detection statistics feature is enabled. If your website is attacked, you can view the top 100 source IP addresses from which the highest number of attacks are initiated and information about the targets of attacks on the **Attack Detection Traceability** and **Attack Target Analysis** tabs. You
 
-   can also find the attack whose details you want to view and click the <img src="assets/f32b6f568a968837ec34a7bed4217a66.png" width="13" alt=""> icon in the **Actions**
+   can also find the attack whose details you want to view and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/f32b6f568a968837ec34a7bed4217a66.png" width="13" alt=""> icon in the **Actions**
 
    column. Then, you can perform operations on the attack on the **Attack Detection Logs** page. For more information, see View attack detection logs.
 
@@ -400,7 +400,7 @@ The Traffic Trend Graph page displays the traffic trends of your website. You ca
 
 3. In the left-side navigation pane, choose **Statistic** > **Traffic Trend Graph**.
 
-4. On the **Traffic Trend Graph** page, click the <img src="assets/e0abd1eaf65c1e758583623c9610546f.png" width="13" alt=""> icon to the right of **Query Information**.
+4. On the **Traffic Trend Graph** page, click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/e0abd1eaf65c1e758583623c9610546f.png" width="13" alt=""> icon to the right of **Query Information**.
 
 5. In the **Edit query information** panel, select the website whose traffic trends you want to view from the **Website** drop-down list, specify the **time range**, and then click **Query**.
 
@@ -448,7 +448,7 @@ Attack detection logs allow you to analyze the attacks on your web services. You
 
      In the left-side navigation pane, choose **Detection Logs > Downloading Log**
 
-     **Management**. Find the download task that you created and click the <img src="assets/4c6d5e6196d7bd5a4a141febd6957926.png" width="16" alt=""> icon in the
+     **Management**. Find the download task that you created and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/4c6d5e6196d7bd5a4a141febd6957926.png" width="16" alt=""> icon in the
 
      **Actions** column to download the logs.
 
@@ -458,7 +458,7 @@ Attack detection logs allow you to analyze the attacks on your web services. You
 
    - Switch between display modes
 
-     In the upper-right corner of the Attack Detection Logs page, click the <img src="assets/22eb91de880c2c257b6c88f9a54235d6.png" width="13" alt=""> icon and select
+     In the upper-right corner of the Attack Detection Logs page, click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/22eb91de880c2c257b6c88f9a54235d6.png" width="13" alt=""> icon and select
 
      **List** or **Detailed View** to specify the display mode for the logs.
 
@@ -486,7 +486,7 @@ HTTP flood protection logs allow you to analyze the HTTP flood attacks on your w
 
    - Add an HTTP flood attack to the blacklist
 
-     Find the HTTP flood attack that you want to add to the blacklist and click the <img src="assets/51795c302391c30c4d16388713df2efb.jpeg" width="13" alt=""> icon in the
+     Find the HTTP flood attack that you want to add to the blacklist and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/51795c302391c30c4d16388713df2efb.jpeg" width="13" alt=""> icon in the
 
      **Actions** column to create a blacklist rule. In the **Add to Blacklist** panel, enter a name for the blacklist rule and click **OK**.
 
@@ -526,7 +526,7 @@ This topic describes how to view system operation logs.
 
      In the left-side navigation pane, choose **Detection Logs > Downloading Log**
 
-     **Management**. Find the download task that you created and click the <img src="assets/4c6d5e6196d7bd5a4a141febd6957926.png" width="16" alt=""> icon in the
+     **Management**. Find the download task that you created and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/4c6d5e6196d7bd5a4a141febd6957926.png" width="16" alt=""> icon in the
 
      **Actions** column to download the logs.
 
@@ -536,7 +536,7 @@ This topic describes how to view system operation logs.
 
    - Switch between display modes
 
-     In the upper-right corner of the Attack Detection Logs page, click the <img src="assets/22eb91de880c2c257b6c88f9a54235d6.png" width="13" alt=""> icon and select
+     In the upper-right corner of the Attack Detection Logs page, click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/22eb91de880c2c257b6c88f9a54235d6.png" width="13" alt=""> icon and select
 
      **List** or **Detailed View** to specify the display mode for the logs.
 
@@ -578,7 +578,7 @@ This topic describes how to view access logs.
 
      In the left-side navigation pane, choose **Detection Logs > Downloading Log**
 
-     **Management**. Find the download task that you created and click the <img src="assets/4c6d5e6196d7bd5a4a141febd6957926.png" width="16" alt=""> icon in the
+     **Management**. Find the download task that you created and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/4c6d5e6196d7bd5a4a141febd6957926.png" width="16" alt=""> icon in the
 
      **Actions** column to download the logs.
 
@@ -588,7 +588,7 @@ This topic describes how to view access logs.
 
    - Switch between display modes
 
-     In the upper-right corner of the Attack Detection Logs page, click the <img src="assets/22eb91de880c2c257b6c88f9a54235d6.png" width="13" alt=""> icon and select
+     In the upper-right corner of the Attack Detection Logs page, click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/22eb91de880c2c257b6c88f9a54235d6.png" width="13" alt=""> icon and select
 
      **List** or **Detailed View** to specify the display mode for the logs.
 
@@ -606,7 +606,7 @@ The ip query feature lets you quickly search for a specific IP address. It autom
 
 4. On the **IP Query** page, select a **Log Type** and enter the desired IP address in the search box.
 
-5. Click the <img src="assets/f32b6f568a968837ec34a7bed4217a66.png" width="13" alt=""> icon in the **Actions** column for the target IP address to view details.
+5. Click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/f32b6f568a968837ec34a7bed4217a66.png" width="13" alt=""> icon in the **Actions** column for the target IP address to view details.
 
 <a id="section-4-6"></a>
 
@@ -624,7 +624,7 @@ The ip query feature lets you quickly search for a specific IP address. It autom
 
    - Download logs
 
-     <img src="assets/beef4e3f3ad3f28c4c51f61a73190de3.png" width="24" alt="">
+     <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/beef4e3f3ad3f28c4c51f61a73190de3.png" width="24" alt="">
 
      Select one or more complete logs and click the
 
@@ -683,7 +683,7 @@ Tenant-side Web Application Firewall (WAF) can protect Internet websites and vir
    <table>
      <tr>
        <td>Mutual Authenticatio n</td>
-       <td>Click the<img src="assets/cdf7414140da3c251b9df0d2f8ff5e3b.png" width="13" alt="">icon to enable mutual authentication and configure the parameters.<br>• <strong>CA Certificate Settings</strong>: the certificate authority (CA) certificate. You can select <strong>Upload Certificate</strong> or <strong>Select Existing Certificate</strong>.<br>• <strong>Upload a New Certificate</strong>: If the CA certificate of the website is not uploaded to WAF, select this option.<br>Configure the <strong>CA Certificate Name</strong> and <strong>CA Certificate File</strong> parameters.<br>• <strong>Select Existing Certificate</strong>: If the CA certificate of the website is uploaded to WAF, select this option. Then, select the required CA certificate from the drop-down list. You can enter a keyword to search for the certificate.<br>• <strong>Detection Depth</strong>: the detection depth of mutual authentication.<br>• <strong>Client Detection</strong>: the verification of the client certificate. Valid values: ON, OFF, OPTIONAL, and Optional (no_ca).<br>• If the client certificate is provided, select <strong>OPTIONAL</strong>.<br>• If the client certificate is issued by a non-trusted CA, select <strong>Optional</strong> <strong>(no_ca)</strong>.</td>
+       <td>Click the<img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/cdf7414140da3c251b9df0d2f8ff5e3b.png" width="13" alt="">icon to enable mutual authentication and configure the parameters.<br>• <strong>CA Certificate Settings</strong>: the certificate authority (CA) certificate. You can select <strong>Upload Certificate</strong> or <strong>Select Existing Certificate</strong>.<br>• <strong>Upload a New Certificate</strong>: If the CA certificate of the website is not uploaded to WAF, select this option.<br>Configure the <strong>CA Certificate Name</strong> and <strong>CA Certificate File</strong> parameters.<br>• <strong>Select Existing Certificate</strong>: If the CA certificate of the website is uploaded to WAF, select this option. Then, select the required CA certificate from the drop-down list. You can enter a keyword to search for the certificate.<br>• <strong>Detection Depth</strong>: the detection depth of mutual authentication.<br>• <strong>Client Detection</strong>: the verification of the client certificate. Valid values: ON, OFF, OPTIONAL, and Optional (no_ca).<br>• If the client certificate is provided, select <strong>OPTIONAL</strong>.<br>• If the client certificate is issued by a non-trusted CA, select <strong>Optional</strong> <strong>(no_ca)</strong>.</td>
      </tr>
      <tr>
        <td>Virtual IP Address</td>
@@ -836,11 +836,11 @@ Tenant-side Web Application Firewall (WAF) can protect Internet websites and vir
 
      You can view the information about the protected websites that you added to WAF, such as the status, website name, port, domain name, and downstream node.
 
-     ![](assets/78d014c0e41cca8c679be99dff4455aa.png)
+     ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/78d014c0e41cca8c679be99dff4455aa.png)
 
    - Specify the items that you want to view in the protected website list
 
-     Click the <img src="assets/8bc958f05949b6ec43b226c7c20ff273.png" width="13" alt=""> icon to the right of **Actions**, select the items that you want to display in the
+     Click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/8bc958f05949b6ec43b226c7c20ff273.png" width="13" alt=""> icon to the right of **Actions**, select the items that you want to display in the
 
      protected website list, and then click Ok.
 
@@ -854,9 +854,9 @@ Tenant-side Web Application Firewall (WAF) can protect Internet websites and vir
 
    - Modify the basic information about a protected website
 
-     Find the protected website whose basic information you want to modify and click the <img src="assets/769a2e45c781bfb06668ebecf7b30045.png" width="13" alt="">
+     Find the protected website whose basic information you want to modify and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/769a2e45c781bfb06668ebecf7b30045.png" width="13" alt="">
 
-     icon in the **Actions** column. On the **Basic Information** tab, click the <img src="assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt=""> icon to the right
+     icon in the **Actions** column. On the **Basic Information** tab, click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt=""> icon to the right
 
      of each parameter to modify the corresponding information. You can modify the following parameters: Site Name, Listening Port, Domain Name, Description, and Virtual IP Address.
 
@@ -864,7 +864,7 @@ Tenant-side Web Application Firewall (WAF) can protect Internet websites and vir
 
      Find the protected website whose request processing mode you want to modify and click
 
-     the <img src="assets/769a2e45c781bfb06668ebecf7b30045.png" width="13" alt=""> icon in the **Actions** column. On the **Request Processing Method** tab, click the <img src="assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt="">
+     the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/769a2e45c781bfb06668ebecf7b30045.png" width="13" alt=""> icon in the **Actions** column. On the **Request Processing Method** tab, click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt="">
 
      icon to the right of each parameter to modify the corresponding information. You can modify the following information about the website on the Request Processing Method tab: Configure Response Method, Scheduling Algorithm, X-Forwarded-For, Backend Server Health Check, Access Log Record, Backend Server Address, HTTP Header, Back-to-origin IP Address, and SSE Configuration.
 
@@ -874,7 +874,7 @@ Tenant-side Web Application Firewall (WAF) can protect Internet websites and vir
 
        - View the details of the protection policies that you configured, such as Decoding Method, Attack Detection Module, Blocking Method, HTTP Response Processing, HTTP Request Body Detection, and Detection Timeout Period.
 
-       - Click the <img src="assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt=""> icon to the right of **Default Policy Set** and modify the protection policy
+       - Click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt=""> icon to the right of **Default Policy Set** and modify the protection policy
 
          settings. For more information about protection policies, see Protection policies.
 
@@ -884,7 +884,7 @@ Tenant-side Web Application Firewall (WAF) can protect Internet websites and vir
 
      - Method Used to Obtain Source IP Addresses: You can specify the method used to obtain the IP addresses of origin servers. The IP addresses of origin servers can be obtained from sockets, the X-Forwarded-For header, and the HTTP header.
 
-       - User Identification: Click the <img src="assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt=""> icon. In the panel that appears, modify the User
+       - User Identification: Click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt=""> icon. In the panel that appears, modify the User
 
          Identification parameter and click Ok. Valid values of the User Identification parameter: **Disable**, **Identify by WAF**, and **Obtain User ID from Requests**.
 
@@ -931,7 +931,7 @@ Web Application Firewall (WAF) can protect Internet websites and virtual private
    <table>
      <tr>
        <td>Mutual Authenti cation</td>
-       <td>Specifies whether to enable mutual authentication. If you click the<img src="assets/cdf7414140da3c251b9df0d2f8ff5e3b.png" width="13" alt="">icon to enable mutual authentication, configure the following parameters:<br>• <strong>CA Certificate Settings</strong>: the certificate authority (CA) certificate. Valid values: <strong>Upload Certificate</strong> or <strong>Select Existing Certificate</strong>.<br>• <strong>Upload Certificate</strong>: If the CA certificate of the website is not uploaded to WAF, select this option.<br>Configure the <strong>CA Certificate Name</strong> and <strong>CA Certificate File</strong> parameters.<br>• <strong>Select Existing Certificate</strong>: If the CA certificate of the website is uploaded to WAF, select this option. Then, select the required CA certificate from the drop-down list. You can enter a keyword to search for the certificate.<br>• <strong>Detection Depth</strong>: the detection depth of mutual authentication.<br>• <strong>Client Detection</strong>: the verification of the client certificate. Valid values: ON, OFF, OPTIONAL, and Optional (no_ca).<br>• If the client certificate is provided, select <strong>OPTIONAL</strong>.<br>• If the client certificate is issued by a non-trusted CA, select <strong>Optional (no_ca)</strong>.</td>
+       <td>Specifies whether to enable mutual authentication. If you click the<img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/cdf7414140da3c251b9df0d2f8ff5e3b.png" width="13" alt="">icon to enable mutual authentication, configure the following parameters:<br>• <strong>CA Certificate Settings</strong>: the certificate authority (CA) certificate. Valid values: <strong>Upload Certificate</strong> or <strong>Select Existing Certificate</strong>.<br>• <strong>Upload Certificate</strong>: If the CA certificate of the website is not uploaded to WAF, select this option.<br>Configure the <strong>CA Certificate Name</strong> and <strong>CA Certificate File</strong> parameters.<br>• <strong>Select Existing Certificate</strong>: If the CA certificate of the website is uploaded to WAF, select this option. Then, select the required CA certificate from the drop-down list. You can enter a keyword to search for the certificate.<br>• <strong>Detection Depth</strong>: the detection depth of mutual authentication.<br>• <strong>Client Detection</strong>: the verification of the client certificate. Valid values: ON, OFF, OPTIONAL, and Optional (no_ca).<br>• If the client certificate is provided, select <strong>OPTIONAL</strong>.<br>• If the client certificate is issued by a non-trusted CA, select <strong>Optional (no_ca)</strong>.</td>
      </tr>
    </table>
 
@@ -1056,11 +1056,11 @@ Web Application Firewall (WAF) can protect Internet websites and virtual private
 
      You can view the information about the protected websites that you added to WAF, such as the status, VPC, website name, port, domain name, and virtual IP address.
 
-     ![](assets/1bd29a9c159d53e03d75c258a4f52852.jpeg)
+     ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/1bd29a9c159d53e03d75c258a4f52852.jpeg)
 
    - Specify the items that you want to view in the protected website list
 
-     Click the <img src="assets/72a6307a23105eeb608a60e6f366d563.png" width="13" alt=""> icon to the right of **Actions**, select the items that you want to display in the protected website list, and then click Ok.
+     Click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/72a6307a23105eeb608a60e6f366d563.png" width="13" alt=""> icon to the right of **Actions**, select the items that you want to display in the protected website list, and then click Ok.
 
    - Filter protected websites
 
@@ -1072,9 +1072,9 @@ Web Application Firewall (WAF) can protect Internet websites and virtual private
 
    - Modify the basic information about protected websites
 
-     Find the protected website whose basic information you want to modify and click the <img src="assets/769a2e45c781bfb06668ebecf7b30045.png" width="13" alt="">
+     Find the protected website whose basic information you want to modify and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/769a2e45c781bfb06668ebecf7b30045.png" width="13" alt="">
 
-     icon in the **Actions** column. On the **Basic Information** tab, click the <img src="assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt=""> icon to the right
+     icon in the **Actions** column. On the **Basic Information** tab, click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt=""> icon to the right
 
      of each parameter to modify the corresponding information. You can modify the following information about the website on the Basic Information tab: website name, website status, listening port, domain name, website description, and virtual IP address.
 
@@ -1082,7 +1082,7 @@ Web Application Firewall (WAF) can protect Internet websites and virtual private
 
      Find the protected website whose request processing mode you want to modify and click
 
-     the <img src="assets/769a2e45c781bfb06668ebecf7b30045.png" width="13" alt=""> icon in the **Actions** column. On the **Request Processing Method** tab, click the <img src="assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt="">
+     the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/769a2e45c781bfb06668ebecf7b30045.png" width="13" alt=""> icon in the **Actions** column. On the **Request Processing Method** tab, click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt="">
 
      icon to the right of each parameter to modify the corresponding information. You can modify the following information about the website on the Request Processing Method tab: Configure Response Method, Scheduling Algorithm, X-Forwarded-For, Backend Server Health Check, Access Log Record, Backend Server Address, HTTP Header, Back-to-origin IP Address, and SSE Configuration.
 
@@ -1092,7 +1092,7 @@ Web Application Firewall (WAF) can protect Internet websites and virtual private
 
        - View the details of the protection policies that you configured, such as Decoding Method, Attack Detection Module, Blocking Method, HTTP Response Processing, HTTP Request Body Detection, and Detection Timeout Period.
 
-       - Click the <img src="assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt=""> icon to the right of **Default Policy Set** and modify the protection policy
+       - Click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt=""> icon to the right of **Default Policy Set** and modify the protection policy
 
          settings. For more information about protection policies, see Protection policies.
 
@@ -1102,7 +1102,7 @@ Web Application Firewall (WAF) can protect Internet websites and virtual private
 
      - Method Used to Obtain Source IP Addresses: You can specify the method used to obtain the IP addresses of origin servers. The IP addresses of origin servers can be obtained from sockets, the X-Forwarded-For header, or the HTTP header.
 
-       - User Identification: Click the <img src="assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt=""> icon. In the panel that appears, modify the User
+       - User Identification: Click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/cc084146bc8ef4d14e04e2d97c01cb54.png" width="13" alt=""> icon. In the panel that appears, modify the User
 
          Identification parameter and click Ok. Valid values of the User Identification parameter: **Disable**, **Identify by WAF**, and **Obtain User ID from Requests**.
 
@@ -1170,7 +1170,7 @@ You can add a virtual IP address, a virtual IP address in a virtual private clou
 
    - On the **Virtual IP Address**, **Virtual IP Address of VPC**, or **EIP Management** tab, view
 
-     the added objects. You can also click the <img src="assets/f32b6f568a968837ec34a7bed4217a66.png" width="13" alt=""> icon in the **Actions** column to view the object
+     the added objects. You can also click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/f32b6f568a968837ec34a7bed4217a66.png" width="13" alt=""> icon in the **Actions** column to view the object
 
      details.
 
@@ -1200,9 +1200,9 @@ WAF provides a default protection policy. You can also customize protection poli
 
    icon to view details.
 
-   <img src="assets/a2281034fd26541ac81a1141e8808015.png" width="23" alt="">
+   <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/a2281034fd26541ac81a1141e8808015.png" width="23" alt="">
 
-   ![](assets/fcddc93c36ca6a77eafd8e6d5b9ea7f3.png)
+   ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/fcddc93c36ca6a77eafd8e6d5b9ea7f3.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -1276,13 +1276,13 @@ You need to create global custom rules in the system configurations. For more in
 
    The list displays the **Status**, **Rule ID**, **Description**, **Expire At**, **Created At**, and **Last Modified At** parameters of global custom rules.
 
-   - View the details of a global custom rule Find the rule that you want to view and click the <img src="assets/fffb87f630f4a135c091005d5fc72ee2.png" width="16" alt=""> icon in the **Actions** column to view
+   - View the details of a global custom rule Find the rule that you want to view and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/fffb87f630f4a135c091005d5fc72ee2.png" width="16" alt=""> icon in the **Actions** column to view
 
      the details of the global custom rule.
 
    - View logs
 
-     Find the rule whose logs you want to view and click the <img src="assets/2602085e64326698a47317e4a09a0ecc.png" width="13" alt=""> icon in the **Actions** column.
+     Find the rule whose logs you want to view and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/2602085e64326698a47317e4a09a0ecc.png" width="13" alt=""> icon in the **Actions** column.
 
      The Attack Detection Logs page is displayed. On this page, you can view the logs.
 
@@ -1351,11 +1351,11 @@ You can view and manage custom rules in the custom rule list.
 
 - View logs
 
-  Find the rule whose logs you want to view and click the <img src="assets/2602085e64326698a47317e4a09a0ecc.png" width="13" alt=""> icon in the Actions column.
+  Find the rule whose logs you want to view and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/2602085e64326698a47317e4a09a0ecc.png" width="13" alt=""> icon in the Actions column.
 
 - Modify custom rules
 
-  Find the rule that you want to modify and click the <img src="assets/a6c52ec374046f90b3722771a3a244a7.png" width="19" alt=""> icon in the **Actions** column. In the
+  Find the rule that you want to modify and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/a6c52ec374046f90b3722771a3a244a7.png" width="19" alt=""> icon in the **Actions** column. In the
 
   panel that appears, modify the configurations of the rule.
 
@@ -1406,7 +1406,7 @@ You can view and manage your anti-tampering rules in the rule list.
 
 - Edit a rule
 
-  To modify a rule, click the <img src="assets/a6c52ec374046f90b3722771a3a244a7.png" width="19" alt=""> icon in the **Actions** column.
+  To modify a rule, click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/a6c52ec374046f90b3722771a3a244a7.png" width="19" alt=""> icon in the **Actions** column.
 
 - Filter rules
 
@@ -1493,7 +1493,7 @@ You can view and manage HTTP flood protection rules in the HTTP flood protection
 
 - Modify HTTP flood protection rules
 
-  Find the HTTP flood protection rule that you want to modify and click the <img src="assets/a6c52ec374046f90b3722771a3a244a7.png" width="19" alt=""> icon in the
+  Find the HTTP flood protection rule that you want to modify and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/a6c52ec374046f90b3722771a3a244a7.png" width="19" alt=""> icon in the
 
   **Actions** column.
 
@@ -1602,11 +1602,11 @@ You can manage certificates on the **SSL Certificate** tab.
 
 - View information about a certificate
 
-  Find the certificate whose information you want to view and click the <img src="assets/686d18f6c5e27f4e77f6a8b465fed3b5.png" width="13" alt=""> icon in the **Actions**
+  Find the certificate whose information you want to view and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/686d18f6c5e27f4e77f6a8b465fed3b5.png" width="13" alt=""> icon in the **Actions**
 
   column. On the **Certificate Details** page, you can view the certificate name, upload time, issuer, serial number, validity period, domain name, and site information.
 
-- Replace a certificate Find the certificate that you want to replace and click the <img src="assets/02156ee523c7e13c2b0164813fe29f57.png" width="13" alt=""> icon in the **Actions** column. In
+- Replace a certificate Find the certificate that you want to replace and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/02156ee523c7e13c2b0164813fe29f57.png" width="13" alt=""> icon in the **Actions** column. In
 
   the **Edit File** panel, replace the certificate with another certificate.
 
@@ -1630,9 +1630,9 @@ You can configure data masking policies to mask sensitive data in logs, such as 
 
 3. In the left-side navigation pane, choose **Protection Configuration > Data Desensitization**.
 
-4. On the **Log Data Desensitization** page, click <img src="assets/2846ea6524081d5666fd7e6dfb565377.png" width="25" alt=""> to the right of **Disabled**. In the **Edit**
+4. On the **Log Data Desensitization** page, click <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/2846ea6524081d5666fd7e6dfb565377.png" width="25" alt=""> to the right of **Disabled**. In the **Edit**
 
-   **Log Desensitization** dialog box, turn on the **Log Desensitization** switch <img src="assets/8ec4ba047e44568f877d62cd57a14ba5.png" width="54" alt=""> .
+   **Log Desensitization** dialog box, turn on the **Log Desensitization** switch <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/8ec4ba047e44568f877d62cd57a14ba5.png" width="54" alt=""> .
 
 5. Configure the **Built-in Parameters** and **Custom Parameters** as needed.
 
@@ -1670,7 +1670,7 @@ Before you use Web Application Firewall (WAF) to scrub traffic that is destined 
 
    `assigned by WAF><Protected domain name>` .
 
-   ![](assets/d3188255fce8830cae07ab344648afd0.png)
+   ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/d3188255fce8830cae07ab344648afd0.png)
 
    > **Note**
    >
@@ -1708,7 +1708,7 @@ The domain name of a protected website may not be resolved by a DNS provider. Fo
 
    icon in the
 
-   <img src="assets/67f8d78d26b3f6a406a3d400c063dfe3.png" width="22" alt="">
+   <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/67f8d78d26b3f6a406a3d400c063dfe3.png" width="22" alt="">
 
    **Actions** column.
 
@@ -1761,7 +1761,7 @@ After you add a syslog server to Web Application Firewall (WAF), WAF alert logs 
 
    icon in the **Actions** column to test whether
 
-   <img src="assets/c5f92004b27e33f3c370834edf4e6395.png" width="15" alt="">
+   <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/c5f92004b27e33f3c370834edf4e6395.png" width="15" alt="">
 
    alerts are sent.
 
@@ -1769,7 +1769,7 @@ After you add a syslog server to Web Application Firewall (WAF), WAF alert logs 
 
    - If an error message appears, WAF cannot connect to the syslog server. You can
 
-     troubleshoot the error based on the error message and click the <img src="assets/c5f92004b27e33f3c370834edf4e6395.png" width="15" alt=""> icon to retest whether
+     troubleshoot the error based on the error message and click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/c5f92004b27e33f3c370834edf4e6395.png" width="15" alt=""> icon to retest whether
 
      alerts are sent.
 
@@ -1791,13 +1791,13 @@ This topic describes how to configure alert thresholds.
 
    icon to the right of the threshold
 
-   <img src="assets/00eb12ef6e449d84bb0bb99ff8959aa2.png" width="12" alt="">
+   <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/00eb12ef6e449d84bb0bb99ff8959aa2.png" width="12" alt="">
 
    that you want to modify.
 
 5. In the panel that appears, specify the threshold.
 
-   ![](assets/029c1d77530dbc624ff3086bd4cbf4e9.png)
+   ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/029c1d77530dbc624ff3086bd4cbf4e9.png)
 
    | Threshold | Description |
    | --- | --- |
@@ -1847,7 +1847,7 @@ Select the online backups that you want to manage, move the pointer over **More*
 
 3. In the left-side navigation pane, choose **System Settings > Other System Configurations**.
 
-4. On the **Other System Configurations** page, click the <img src="assets/e1743c7844bfcfca04e01319799a2a56.png" width="14" alt=""> icon next to the configuration
+4. On the **Other System Configurations** page, click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/e1743c7844bfcfca04e01319799a2a56.png" width="14" alt=""> icon next to the configuration
 
    item. In the **Edit Expiration Reminder for SSL Certificate** panel, specify the warning days before the certificate expiration, and then click **OK**.
 
@@ -1889,7 +1889,7 @@ This topic describes how to view the loads on Web Application Firewall (WAF) nod
 
 4. On the **Payload Status** tab, you can view the loads on WAF nodes.
 
-   ![](assets/d1535b9c6e54e970c1d623624ae44c86.png)
+   ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/d1535b9c6e54e970c1d623624ae44c86.png)
 
    In the Payload Status section, you can view the CPU utilization and memory usage of WAF nodes. In the **CPU usage** and **Memory usage** sections, you can view the changes in CPU utilization and memory usage over a specific period of time.
 
@@ -1911,7 +1911,7 @@ This topic describes how to view the network information of Web Application Fire
 
 5. View the network I/O of WAF nodes.
 
-   ![](assets/5c19483142d1c7e5cef2c28fa3e3daf7.png)
+   ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/5c19483142d1c7e5cef2c28fa3e3daf7.png)
 
 **Traffic detection statistics**
 
@@ -1925,7 +1925,7 @@ This topic describes how to view the network information of Web Application Fire
 
 5. View the traffic detection statistics of WAF nodes.
 
-   ![](assets/e451fc2e1d6cc15ddfe83a539cdd7a7a.png)
+   ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/e451fc2e1d6cc15ddfe83a539cdd7a7a.png)
 
 **Traffic forwarding statistics**
 
@@ -1939,7 +1939,7 @@ This topic describes how to view the network information of Web Application Fire
 
 5. View the traffic forwarding statistics of WAF nodes.
 
-   ![](assets/1f30e6766a58c474c4ff9043957830cb.png)
+   ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/1f30e6766a58c474c4ff9043957830cb.png)
 
 <a id="section-7-1-3"></a>
 
@@ -1957,7 +1957,7 @@ This topic describes how to view the queries per second (QPS) and the average de
 
 4. On the **Detection Status** tab, you can view the detection status of each WAF node.
 
-   ![](assets/c1b6653e695f9ce9eeccce4fd7de6907.jpeg)
+   ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/c1b6653e695f9ce9eeccce4fd7de6907.jpeg)
 
    This page displays the QPS and the average detection time consumed by each node. Charts are displayed in the lower part of the page to show the changes over a period of time.
 
@@ -1975,7 +1975,7 @@ This topic describes how to view the queries per second (QPS) and the average de
 
 4. On the **Forwarding Status** tab, you can view the forwarding status of each WAF node.
 
-   ![](assets/8900918cf1c8dd04053014b1845480b2.jpeg)
+   ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/8900918cf1c8dd04053014b1845480b2.jpeg)
 
    On this page, you can view the number of new connections per second, the number of concurrent connections, and the average processing latency for each node. The changes over a period of time are also displayed in the charts in the lower part of the page.
 
@@ -1997,7 +1997,7 @@ This topic describes how to view the disk information of Web Application Firewal
 
    In the Disk Status section, you can view the disk I/O and disk usage of WAF nodes. In the **Read** and **Write** sections, you can view the changes in disk reads and writes over a specific period of time.
 
-   ![](assets/441a99d65e3b23fc0eecb7462e30c37d.png)
+   ![](en-waf-user-guide-v3.18.6-2607-20260902.assets/441a99d65e3b23fc0eecb7462e30c37d.png)
 
 <a id="section-7-1-6"></a>
 
@@ -2013,7 +2013,7 @@ This topic describes how to view the disk information of Web Application Firewal
 
 4. Click the **Historical Data Query** tab to view historical data of the target WAF node.
 
-   Click the <img src="assets/e1743c7844bfcfca04e01319799a2a56.png" width="14" alt=""> icon next to the **Information Overview**. In the **Edit** panel, specify **Node** and
+   Click the <img src="en-waf-user-guide-v3.18.6-2607-20260902.assets/e1743c7844bfcfca04e01319799a2a56.png" width="14" alt=""> icon next to the **Information Overview**. In the **Edit** panel, specify **Node** and
 
    **Attack Time**, and then click **Query**.
 

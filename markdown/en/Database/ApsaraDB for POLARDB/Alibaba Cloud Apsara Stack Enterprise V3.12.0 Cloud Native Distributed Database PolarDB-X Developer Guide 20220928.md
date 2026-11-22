@@ -7945,7 +7945,7 @@ This topic describes the architecture and features of Apsara Stack API (ASAPI).
 
 ASAPI is a platform that integrates all features and is the only portal to connect to Apsara Stack. ASAPI can categorize, audit, and manage API operations. It can also assemble and customize existing operations and adapt to your operations. Each cloud service can call ASAPI for required data and features, which avoids inconsistent operations caused by different calling methods and separate encapsulation. This can ensure the operation program integrity and improve development efficiency and code portability.
 
-![](assets/da12d9b6303e35a2e4af8f648176c757.png)
+![](en-polardb-polardb-x-developer-guide-v3.12.0-20220928.assets/da12d9b6303e35a2e4af8f648176c757.png)
 
 ASAPI allows you to manage and call operations in a centralized manner and customize development. ASAPI supports access to most cloud services deployed in Apsara Stack and supports passthrough or encapsulation of different backend APIs. This way, operations can be called using the same method. ASAPI allows you to use SDKs and API portals to call APIs registered on ASAPI, customize SDKs, and manage versions of Apsara Stack, services, and APIs.
 
@@ -7999,7 +7999,7 @@ Procedure
 
 3. On the API Directory page, select the target service from the drop-down list, enter the API operation name in the search box, and then click the search icon.
 
-   ![](assets/e40e266304604a863b174cad7303f674.png)
+   ![](en-polardb-polardb-x-developer-guide-v3.12.0-20220928.assets/e40e266304604a863b174cad7303f674.png)
 
 4. View and remember the service name, API operation name, and API version.
 
@@ -8013,7 +8013,7 @@ Procedure
 
 1. In the address bar, enter the URL *region-id*.aso.*intranet-domain-id*.com and press the Enter key.
 
-   ![](assets/1d199664f4e4f7e96da3a99ea00fb57d.png)
+   ![](en-polardb-polardb-x-developer-guide-v3.12.0-20220928.assets/1d199664f4e4f7e96da3a99ea00fb57d.png)
 
    Note
 
@@ -8049,19 +8049,19 @@ Procedure
 
 6. On the All Reports page, search for Registration Vars of Services. Click Registration Vars of Services.
 
-   ![](assets/afa9fce3f03d0637ec69606c2f782c74.png)
+   ![](en-polardb-polardb-x-developer-guide-v3.12.0-20220928.assets/afa9fce3f03d0637ec69606c2f782c74.png)
 
-7. On the Registration Vars of Services page, move the pointer over Service and click the <img src="assets/0f8be8c9a4eb836f9480baff07775ab8.png" width="15" alt=""> icon
+7. On the Registration Vars of Services page, move the pointer over Service and click the <img src="en-polardb-polardb-x-developer-guide-v3.12.0-20220928.assets/0f8be8c9a4eb836f9480baff07775ab8.png" width="15" alt=""> icon
 
    next to it. In the dialog box that appears, search for asapi.
 
-   ![](assets/226fef60473abbec5ae194a47fb116db.png)
+   ![](en-polardb-polardb-x-developer-guide-v3.12.0-20220928.assets/226fef60473abbec5ae194a47fb116db.png)
 
 8. Right-click the Service Registration column corresponding to ASAPI and select Show More.
 
 9. In the Details dialog box, the value of asapi.gateway.endpoint is the logon URL of the Apsara ASAPI Management platform.
 
-   ![](assets/ffe8c05bbb86e81b4a401cc8719cd1b8.png)
+   ![](en-polardb-polardb-x-developer-guide-v3.12.0-20220928.assets/ffe8c05bbb86e81b4a401cc8719cd1b8.png)
 
 <a id="section-1-2-5"></a>
 
@@ -8091,7 +8091,7 @@ To obtain the AccessKey pair of an organization, perform the following operation
 
 3. In the left-side navigation pane of the Enterprise page, click Organizations.
 
-4. In the Organizations navigation tree, click the <img src="assets/f7b1e83be6e4697de45f954a66365b66.png" width="13" alt=""> icon on the right of the organization to be added.
+4. In the Organizations navigation tree, click the <img src="en-polardb-polardb-x-developer-guide-v3.12.0-20220928.assets/f7b1e83be6e4697de45f954a66365b66.png" width="13" alt=""> icon on the right of the organization to be added.
 
 5. Select AccessKey.
 
@@ -8113,7 +8113,7 @@ To obtain the AccessKey pair of a personal account, perform the following operat
 
 3. In the Apsara Stack AccessKey Pair section of the User Information page, view your AccessKey pair.
 
-   ![](assets/1a25c90665319fc993e339c850a8a5f6.png)
+   ![](en-polardb-polardb-x-developer-guide-v3.12.0-20220928.assets/1a25c90665319fc993e339c850a8a5f6.png)
 
    Note
 
@@ -8135,7 +8135,7 @@ Procedure
 
 3. In the Apsara Stack AccessKey Pair section, you can view the region ID.
 
-   ![](assets/1a25c90665319fc993e339c850a8a5f6.png)
+   ![](en-polardb-polardb-x-developer-guide-v3.12.0-20220928.assets/1a25c90665319fc993e339c850a8a5f6.png)
 
 <a id="section-1-2-8"></a>
 

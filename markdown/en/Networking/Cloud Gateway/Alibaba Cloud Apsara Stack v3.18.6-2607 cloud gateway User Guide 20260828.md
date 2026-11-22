@@ -146,11 +146,11 @@ The operations of the open network service platform are divided into the followi
 
 - Deploy service clusters: You can make preparations, create custom Elastic Compute Service (ECS) images, and deploy and activate service clusters. After the deployment is complete, you can check whether the clusters encounter errors and quickly troubleshoot errors on the cluster overview pages.
 
-  ![](assets/2b01b904121eee0d33f75ba0be737721.png)
+  ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/2b01b904121eee0d33f75ba0be737721.png)
 
 - Manage ONSP resources: The steps include the following operations: grant permissions to accounts, route service traffic, create a network service instance, configure service monitoring, and manage resource sharing settings.
 
-  ![](assets/2950c211e469c9997d472d6f5e843252.png)
+  ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/2950c211e469c9997d472d6f5e843252.png)
 
 <a id="section-3-2"></a>
 
@@ -275,7 +275,7 @@ After you import the configuration file of an open network service, you can depl
    >
    > **Application Name** to change the name of the application.
 
-   ![](assets/f0cada4d073ab64b847fa0c910502d49.jpeg)
+   ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/f0cada4d073ab64b847fa0c910502d49.jpeg)
 
 4. Optional. Click the name of the application to go to the **Application Details** page.
 
@@ -289,7 +289,7 @@ After you import the configuration file of an open network service, you can depl
 
    - **View cluster information**
 
-     ![](assets/b375b31d4675c54ec9825d1a3283d47c.jpeg)
+     ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/b375b31d4675c54ec9825d1a3283d47c.jpeg)
 
      - In the left area of the cluster tab, you can view the cluster's **Basic Information**, **Cluster Details**, **ONSP Endpoint**, and more.
 
@@ -317,7 +317,7 @@ After you import the configuration file of an open network service, you can depl
 
    - **View routing policies**
 
-     ![](assets/7c502dfff16883cab8d71ea6f7b6e86a.jpeg)
+     ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/7c502dfff16883cab8d71ea6f7b6e86a.jpeg)
 
      - In the **Cluster Basic Information** section of the **Routing Policy** tab, you can view the cluster information including the **Cluster Name**, **Cluster ID**, **Zone ID**, **Bypass Status**, and **Progress**.
 
@@ -331,7 +331,7 @@ After you import the configuration file of an open network service, you can depl
 
    - **View service monitoring data**
 
-     ![](assets/2daacec4ab709c1dbb872f1e235b806a.jpeg)
+     ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/2daacec4ab709c1dbb872f1e235b806a.jpeg)
 
      On the **Service Monitoring** tab, you can view the instance status and network traffic that flows through the elastic network interfaces (ENIs) associated with the service port. For more information, see View service monitoring data.
 
@@ -361,7 +361,7 @@ After you deploy and activate a service cluster, you can view the resource statu
 
 3. In the **Resource Overview** section, you can view the information about your applications, including the **application name** and **creation time**.
 
-   ![](assets/7cc4cea54270c110a9c517b650338a64.jpeg)
+   ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/7cc4cea54270c110a9c517b650338a64.jpeg)
 
    - You can also enter an ECS instance ID to search for an application.
 
@@ -446,7 +446,7 @@ This topic describes how to route network traffic to an open network service clu
 
 **Process**
 
-![](assets/cb8fd0decbddaad3265d7f38031a8a25.png)
+![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/cb8fd0decbddaad3265d7f38031a8a25.png)
 
 **Create a VPC and a vSwitch**
 
@@ -526,7 +526,7 @@ After the ENI is created, you need to configure a route that points to the ENI f
 
    On the **Application Details** page, find the ID of the endpoint based on the VPC and vSwitch information.
 
-   ![](assets/2a4e02f920dd5b206e63056f05740eb3.jpeg)
+   ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/2a4e02f920dd5b206e63056f05740eb3.jpeg)
 
 3. On the **Routing Policy** tab, click **Add Route**.
 
@@ -562,7 +562,7 @@ Log on to the ECS instance on the web page and configure a port and a route that
 
 2. Click **Create** on the right of the **Classic Network Access** section to create a classic network access method.
 
-   ![](assets/8ff23c1bfc129f3fcc051d6dacd71613.jpeg)
+   ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/8ff23c1bfc129f3fcc051d6dacd71613.jpeg)
 
 3. After the classic network access method is created, click the address in the **Web Access Address** column to log on to the ECS instance.
 
@@ -606,11 +606,11 @@ Through service monitoring, you can monitor the status of network element instan
 
 4. Click the **Service monitoring** tab and view the information and status of resources.
 
-   ![](assets/108236bd23b895047427b9cf05689542.jpeg)
+   ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/108236bd23b895047427b9cf05689542.jpeg)
 
 5. Click **Details** in the Monitoring details column to view the network traffic that flows through the elastic network interfaces (ENIs) associated with the service port.
 
-   ![](assets/53c28be785d89454bb1d9d8037707dea.jpeg)
+   ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/53c28be785d89454bb1d9d8037707dea.jpeg)
 
 <a id="section-3-3-5"></a>
 
@@ -668,7 +668,7 @@ You cannot delete a CIDR block that is in use.
 
    | Operation | Description |
    | --- | --- |
-   | Create a CIDR block | i. Click <strong>Add CIDR Block</strong> in the upper part of the page.<br>ii. In the Add CIDR Block dialog box, configure the <strong>CIDR Block Name</strong> and <strong>CIDR</strong> parameters.<br>Note<br>The <strong>CIDR Block Name</strong> must be 2 to 128 characters in length, and can contain letters, digits, underscores (_), and hyphens (-). It must start with a letter or Chinese character and cannot start with http:// or https://.<br>![](assets/8b66fa05d08a5e538e9f0ceec328411e.jpeg)<br>iii. Click <strong>OK</strong>. |
+   | Create a CIDR block | i. Click <strong>Add CIDR Block</strong> in the upper part of the page.<br>ii. In the Add CIDR Block dialog box, configure the <strong>CIDR Block Name</strong> and <strong>CIDR</strong> parameters.<br>Note<br>The <strong>CIDR Block Name</strong> must be 2 to 128 characters in length, and can contain letters, digits, underscores (_), and hyphens (-). It must start with a letter or Chinese character and cannot start with http:// or https://.<br>![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/8b66fa05d08a5e538e9f0ceec328411e.jpeg)<br>iii. Click <strong>OK</strong>. |
    | Delete a CIDR block | i. In the <strong>CIDR Block List</strong>, click <strong>Delete</strong> in the <strong>Actions</strong> column.<br>ii. Click <strong>OK</strong>. |
 
 <a id="section-3-5"></a>
@@ -705,7 +705,7 @@ After you request a dedicated host, you have exclusive access to the physical se
    >
    > You can contact Alibaba Cloud technical support to confirm the host specifications.
 
-   ![](assets/45bd9b989ad8b94a98333a05b62d5be6.jpeg)
+   ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/45bd9b989ad8b94a98333a05b62d5be6.jpeg)
 
 5. Click **Confirm**. The host group is created.
 
@@ -773,7 +773,7 @@ If the personnel of your enterprise or your business requirements change, you ca
 
    - **Authorization Code**: Contact Alibaba Cloud technical support to obtain the authorization code.
 
-   ![](assets/b83ed8cf6c094d9ab9a6051570580e6b.jpeg)
+   ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/b83ed8cf6c094d9ab9a6051570580e6b.jpeg)
 
 **Update instance types of all ECS instances**
 
@@ -791,4 +791,4 @@ You can update the instance types of all ECS instances in the system. This allow
    >
    > To obtain the authorization code for updating ECS instance types, contact Alibaba Cloud technical support.
 
-   ![](assets/1edf1003131758989f037e848c273f65.jpeg)
+   ![](en-cloud-gateway-user-guide-v3.18.6-2607-20260828.assets/1edf1003131758989f037e848c273f65.jpeg)

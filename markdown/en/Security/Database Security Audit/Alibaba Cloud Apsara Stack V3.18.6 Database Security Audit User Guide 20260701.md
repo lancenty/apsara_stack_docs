@@ -297,7 +297,7 @@ Deployed on your server as an image, Database Security Audit provides precise au
 
 5. Configure the parameters to create a Database Security Audit instance. Configure the **Database Instance Quota** parameter based on the **ECS Instance Specification** settings.
 
-   ![](assets/d1562024f955fdab57f5998f691f84e9.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/d1562024f955fdab57f5998f691f84e9.jpeg)
 
 6. Click **OK**.
 
@@ -351,7 +351,7 @@ Database Security Audit can audit self-managed databases and ApsaraDB instances.
 
    icon in the upper-left corner to configure
 
-   <img src="assets/d408c8ee96185a8f64ea18fa3f8f3c98.png" width="18" alt="">
+   <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/d408c8ee96185a8f64ea18fa3f8f3c98.png" width="18" alt="">
 
    databases.
 
@@ -359,7 +359,7 @@ Database Security Audit can audit self-managed databases and ApsaraDB instances.
 
    icon in the upper-right corner of the
 
-   <img src="assets/d408c8ee96185a8f64ea18fa3f8f3c98.png" width="18" alt="">
+   <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/d408c8ee96185a8f64ea18fa3f8f3c98.png" width="18" alt="">
 
    **Database list** section to add a database instance.
 
@@ -369,7 +369,7 @@ Database Security Audit can audit self-managed databases and ApsaraDB instances.
    >
    > icon on the Database page.
    >
-   > <img src="assets/7714a43e1a9685ae15e992ce323aa87e.png" width="24" alt="">
+   > <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/7714a43e1a9685ae15e992ce323aa87e.png" width="24" alt="">
    >
    > Download the database template file, enter database information in the file, and then upload the file.
 
@@ -377,9 +377,9 @@ Database Security Audit can audit self-managed databases and ApsaraDB instances.
 
    icon in the upper-left corner to save the configuration.
 
-   <img src="assets/7714a43e1a9685ae15e992ce323aa87e.png" width="24" alt="">
+   <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/7714a43e1a9685ae15e992ce323aa87e.png" width="24" alt="">
 
-   ![](assets/4582531b0b708c75819e898087b60cb8.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/4582531b0b708c75819e898087b60cb8.jpeg)
 
    Table 1. Database instance parameters
 
@@ -391,7 +391,7 @@ Database Security Audit can audit self-managed databases and ApsaraDB instances.
    | Character Set | The character set used by the database instance. |
    | Audit Mode | The network deployment mode of the database instance. The value is set to Agent and cannot be modified. |
    | Description | The description of the database instance to be audited. |
-   | Network Settings | The IP address and port number of the database instance. After you enter an IP<br>address and a port number, click the<img src="assets/b3fafe39ae135e763aaaa6d8007d1664.png" width="17" alt="">icon in the <strong>Operation</strong> column to save the<br>configuration.<br>• IP address<br>• Self-managed database on Elastic Compute Service (ECS): Enter the IP address of the database instance to be audited.<br>• ApsaraDB instance: Enter the URL connection string of the ApsaraDB instance to be audited.<br>• Port: Enter the port number of the database instance to be audited.<br>You can click the<img src="assets/45cb1571d8a4b633f47c8e429ce69e04.png" width="18" alt="">icon to add multiple sets of IP addresses and port numbers. |
+   | Network Settings | The IP address and port number of the database instance. After you enter an IP<br>address and a port number, click the<img src="en-database-audit-user-guide-v3.18.6-20260701.assets/b3fafe39ae135e763aaaa6d8007d1664.png" width="17" alt="">icon in the <strong>Operation</strong> column to save the<br>configuration.<br>• IP address<br>• Self-managed database on Elastic Compute Service (ECS): Enter the IP address of the database instance to be audited.<br>• ApsaraDB instance: Enter the URL connection string of the ApsaraDB instance to be audited.<br>• Port: Enter the port number of the database instance to be audited.<br>You can click the<img src="en-database-audit-user-guide-v3.18.6-20260701.assets/45cb1571d8a4b633f47c8e429ce69e04.png" width="18" alt="">icon to add multiple sets of IP addresses and port numbers. |
 
    > **Note**
    >
@@ -438,7 +438,7 @@ Agent程序需要部署到数据库或应用服务器上，用于获取访问数
      </tr>
      <tr>
        <td>目标服务器</td>
-       <td><img src="assets/6a43249fbf937264ebb5ffb05535de4e.png" alt=""><br>部署Agent服务器的信息，格式为：<code> </code>目标<code>IP,root</code>密码<code>,ssh</code>端口<code> </code>。<br>如果需要将Agent程序自动部署至多台服务器时，可以单击进行添加。</td>
+       <td><img src="en-database-audit-user-guide-v3.18.6-20260701.assets/6a43249fbf937264ebb5ffb05535de4e.png" alt=""><br>部署Agent服务器的信息，格式为：<code> </code>目标<code>IP,root</code>密码<code>,ssh</code>端口<code> </code>。<br>如果需要将Agent程序自动部署至多台服务器时，可以单击进行添加。</td>
      </tr>
    </table>
 
@@ -460,33 +460,33 @@ This topic describes how to manually deploy a remote mirror agent (RMAgent) on W
 
 2. In the left-side navigation pane, choose **Configuration** > **RMAgent Component**. On the RMAgent Component page, click **Download Agent(Win)**.
 
-   ![](assets/adf4e781263366632e9bb007f944ed0b.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/adf4e781263366632e9bb007f944ed0b.jpeg)
 
 3. Download the RMAgent installation package, place it onto a Windows server, and then decompress it. In the extracted folder, double-click Rmagent_Setup.exe.
 
-   ![](assets/bd56a4541d0cc98c34fdf3a8850dfa4f.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/bd56a4541d0cc98c34fdf3a8850dfa4f.jpeg)
 
 4. In the Installer Language dialog box, select English and click **OK**.
 
 5. In the **Remote Mirror Agent for Database Audit** dialog box, click **Next**.
 
-   ![](assets/dae796cd58944e6da007ad3971bcddb7.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/dae796cd58944e6da007ad3971bcddb7.jpeg)
 
 6. In the **License Agreement** dialog box, click **I Agree**.
 
-   ![](assets/4a18fd8f28f306c3ebd7a88335890944.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/4a18fd8f28f306c3ebd7a88335890944.jpeg)
 
 7. In the **Choose Components** dialog box, click **Next**.
 
-   ![](assets/201f600308490809d129a071f3e87e0e.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/201f600308490809d129a071f3e87e0e.jpeg)
 
 8. In the **Choose Install Location** dialog box, use the default setting for Destination Folder and click **Install**.
 
-   ![](assets/dbb623f9e8cc71bcf8ff868b82f337fc.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/dbb623f9e8cc71bcf8ff868b82f337fc.jpeg)
 
 9. In the **Completing the rmagent 3.2.5.3-1 Setup Wizard** dialog box, click **Finish**.
 
-   ![](assets/d6f05f53bade32f71aed5da21ab16cba.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/d6f05f53bade32f71aed5da21ab16cba.jpeg)
 
 <a id="section-3-3-3-3"></a>
 
@@ -500,53 +500,53 @@ This topic describes how to manually deploy a remote mirror agent (RMAgent) on W
 
 2. In the left-side navigation pane, choose **Configuration** > **RMAgent Component**. On the RMAgent Component page, click **Download Agent(Win)**.
 
-   ![](assets/adf4e781263366632e9bb007f944ed0b.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/adf4e781263366632e9bb007f944ed0b.jpeg)
 
 3. Download the RMAgent installation package, place it onto a Windows server, and then decompress it. In the extracted folder, modify the rmagent.ini file by removing the number sign (#) preceding loopback=1. Then, double-click **Rmagent_Setup.exe**.
 
-   ![](assets/a33cbbd50b1fa6560333ba1bae375277.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/a33cbbd50b1fa6560333ba1bae375277.jpeg)
 
-   ![](assets/527296ce7e20f0a1b3a9803db220f124.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/527296ce7e20f0a1b3a9803db220f124.jpeg)
 
 4. In the **Installer Language** dialog box, select English and click **OK**.
 
-   ![](assets/d0abf3dd496393b11a756a9ff1b1bf96.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/d0abf3dd496393b11a756a9ff1b1bf96.jpeg)
 
 5. In the **Remote Mirror Agent for Database Audit** dialog box, click **Next**.
 
-   ![](assets/dae796cd58944e6da007ad3971bcddb7.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/dae796cd58944e6da007ad3971bcddb7.jpeg)
 
 6. In the **License Agreement** dialog box, click **I Agree**.
 
-   ![](assets/4a18fd8f28f306c3ebd7a88335890944.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/4a18fd8f28f306c3ebd7a88335890944.jpeg)
 
 7. In the **Choose Components** dialog box, select npcap, clear WinPcap, and then click **Next**.
 
-   ![](assets/c48fc28e7eb5585e1ce953542893089d.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/c48fc28e7eb5585e1ce953542893089d.jpeg)
 
 8. In the **Choose Install Location** dialog box, use the default setting for Destination Folder and click **Install**.
 
-   ![](assets/dbb623f9e8cc71bcf8ff868b82f337fc.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/dbb623f9e8cc71bcf8ff868b82f337fc.jpeg)
 
 9. In the License Agreement dialog box, click **I Agree**.
 
-   ![](assets/95c0282e37f38f6f8cffb7051c5d0039.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/95c0282e37f38f6f8cffb7051c5d0039.jpeg)
 
 0. In the Installation Options dialog box, select **Install Npcap in WinPcap API-compatible Mode** and click **Install**.
 
-   ![](assets/b27adb66732181905e7bbc1e8254a6cc.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/b27adb66732181905e7bbc1e8254a6cc.jpeg)
 
 1. In the Installation Complete dialog box, click **Next**.
 
-   ![](assets/7637b7c2f37ad4636dbb723bed6b9390.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/7637b7c2f37ad4636dbb723bed6b9390.jpeg)
 
 2. In the Finished dialog box, click **Finish**.
 
-   ![](assets/d6ad321b42a43db9c9cb0c0a7ebb6173.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/d6ad321b42a43db9c9cb0c0a7ebb6173.jpeg)
 
 3. In the Completing the rmagent 3.2.5.3-1 Setup Wizard dialog box, click **Finish**.
 
-   ![](assets/ed89e229ebcab4c0c31192062ee2ad25.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/ed89e229ebcab4c0c31192062ee2ad25.jpeg)
 
 <a id="section-3-3-3-4"></a>
 
@@ -560,19 +560,19 @@ This topic describes how to manually deploy a remote mirror agent (RMAgent) on L
 
 2. In the left-side navigation pane, choose **Configuration** > **RMAgent Component**. On the RMAgent Component page, click **Download Agent(Linux)**.
 
-   ![](assets/87beb8bab85c6f271344dd88efb778e2.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/87beb8bab85c6f271344dd88efb778e2.jpeg)
 
 3. Download the RMAgent installation package and upload it to a Linux server as the root user. Then, run the tar -zxvf yddbaudit_rmagent.tar.gz command.
 
-   ![](assets/cbeb0512e80b52da9b9053296a7f99cd.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/cbeb0512e80b52da9b9053296a7f99cd.jpeg)
 
 4. After the package is decompressed, run the ./install.sh command.
 
-   ![](assets/1ebd48a8c79a4bef7165837747bfd57f.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/1ebd48a8c79a4bef7165837747bfd57f.png)
 
 5. On the RMAgent Component page, verify that the RMAgent is displayed in the Normal state.
 
-   ![](assets/da0218b90a5ac0acc2f39538309cf5e4.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/da0218b90a5ac0acc2f39538309cf5e4.jpeg)
 
 <a id="section-3-3-3-5"></a>
 
@@ -586,23 +586,23 @@ This topic describes how to manually deploy a remote mirror agent (RMAgent) on L
 
 2. In the left-side navigation pane, choose **Configuration** > **RMAgent Component**. On the RMAgent Component page, click **Download Agent(Linux).**
 
-   ![](assets/87beb8bab85c6f271344dd88efb778e2.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/87beb8bab85c6f271344dd88efb778e2.jpeg)
 
 3. Download the RMAgent installation package and upload it to a Linux server as the root user. Then, run the  `tar -zxvf yddbaudit_rmagent.tar.gz`  command.
 
-   ![](assets/cbeb0512e80b52da9b9053296a7f99cd.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/cbeb0512e80b52da9b9053296a7f99cd.jpeg)
 
 4. After the package is decompressed, run the  `./install.sh`  command.
 
-   ![](assets/1ebd48a8c79a4bef7165837747bfd57f.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/1ebd48a8c79a4bef7165837747bfd57f.png)
 
 5. On the RMAgent Component page, verify that the RMAgent is displayed in the Normal state.
 
-   ![](assets/da0218b90a5ac0acc2f39538309cf5e4.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/da0218b90a5ac0acc2f39538309cf5e4.jpeg)
 
 6. In the Operation column of the RMAgent, click Configuration. In the Unified Distribution Configuration dialog box, select **loopback**, set it to 1, and then click **OK**. The RMAgent automatically restarts.
 
-   ![](assets/5e41107a44836104e1670649f734bc1e.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/5e41107a44836104e1670649f734bc1e.jpeg)
 
 <a id="section-3-3-4"></a>
 
@@ -640,7 +640,7 @@ This topic describes how to view the details of hit risks.
 
 1. In the left-side navigation pane, choose **Behavior > Risk Hits**. On the page that appears, specify a time range to query the detailed hit information for each risk type.
 
-   ![](assets/19175b5903b35f29c2fbff7576e7ff6a.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/19175b5903b35f29c2fbff7576e7ff6a.jpeg)
 
    The hit list displays detailed risk information in the **Risk Name**, **Risk Type**, and **Hit quantity** columns.
 
@@ -648,11 +648,11 @@ This topic describes how to view the details of hit risks.
 
    For more information about how to configure a rule, see the "Global rules" topic.
 
-   ![](assets/523259970807146f41d34b4d26f2ab4d.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/523259970807146f41d34b4d26f2ab4d.jpeg)
 
 3. Click the number in the **Hit quantity** column of a hit record. The Rules hit distribution dialog box appears, where you can view the databases in which the risk occurred and the number of hits for each database.
 
-   ![](assets/4553d54c999f2f1a2b6f288f44a8e395.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/4553d54c999f2f1a2b6f288f44a8e395.jpeg)
 
 4. Click the number in the **Hit** column of a record. You are navigated to the **Risk Search** page, where you can view the risk details. For more information, see **Risk search**.
 
@@ -666,11 +666,11 @@ This topic describes how to search for behaviors.
 
 The **Behavior Search** page collects statistics on the SQL statements executed in all databases audited by the system. The statistics include the client information, server information, and session information. Compared with the statistics on SQL statements of a single database, this page provides statistics on all databases and allows you to sort the information by client IP address. The parameters on the page are the same as those on the statement statistics page for a single database. For more information, see **Statement search**.
 
-![](assets/32fcf094a1472502b2350e3b566ce69b.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/32fcf094a1472502b2350e3b566ce69b.jpeg)
 
 To facilitate search, the options of a search condition are displayed by page, as shown in the following figure.
 
-![](assets/2268010075cc1d65295364bde465cdc3.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/2268010075cc1d65295364bde465cdc3.jpeg)
 
 <a id="section-4-2-3"></a>
 
@@ -682,13 +682,13 @@ This topic describes how to search for risks.
 
 The **Risk Search** page collects statistics based on the specific behaviors of all hit risks. The details of all risky statements are displayed in a list. The details of each risky statement are displayed in the following columns: SQL Statement, Time, Risk Type, Risk Name, Risk Level, Database User, and Client IP. You can add a risky statement to the trust list, set it as a sensitive statement, or disable audit for the statement.
 
-![](assets/a415e60c936338fd3d24adc90d5f2e8c.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/a415e60c936338fd3d24adc90d5f2e8c.jpeg)
 
 **Procedure**
 
 In the left-side navigation pane, choose **Behavior > Risk Search**. On the page that appears, click a statement in the **SQL Statement** column to go to the **Statement details** page. On this page, you can view the access source, application identity, SQL statement, affected objects, SQL statement, statement template, result set, and SQL parameters of the statement.
 
-![](assets/48e023854e270ff063fdbf152dbfbfaf.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/48e023854e270ff063fdbf152dbfbfaf.jpeg)
 
 <a id="section-4-2-4"></a>
 
@@ -702,7 +702,7 @@ The statistical comparison provides the following information:
 
 - The comparison between statistics of different databases in the same time range.
 
-![](assets/fa5af4a17fa2b171a7ca562e4a2d8da6.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/fa5af4a17fa2b171a7ca562e4a2d8da6.jpeg)
 
 <a id="section-4-3"></a>
 
@@ -716,7 +716,7 @@ This topic describes the details of application identities.
 
 An application identity is an access behavior record of an application server after an application user accesses a database through the application server. Traditional database security audit products can audit only the application IP addresses, but cannot parse the application user information. Database Security Audit adopts an audit mode in which applications are associated with audits. This allows the service to analyze and audit the detailed application user information. The application component provided by Database Security Audit can obtain the most accurate application user information based on the application login mechanism. The following figure shows the parameters.
 
-![](assets/ba41f3b3cddc0be7dcf5d3a11b3be781.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/ba41f3b3cddc0be7dcf5d3a11b3be781.jpeg)
 
 <a id="section-4-3-2"></a>
 
@@ -728,13 +728,13 @@ You can add a single application user or import multiple application users at a 
 
   Click **Import**. In the **Import** dialog box, upload the template file for importing application users.
 
-  ![](assets/1b1c4d2ca717693b117a0c6c7862f79e.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/1b1c4d2ca717693b117a0c6c7862f79e.jpeg)
 
 - Add a single application user
 
   Click **Add**. In the **Add** dialog box, configure the audit application user and custom application users.
 
-  ![](assets/99c642632a75a19d7496c38f9a1a653d.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/99c642632a75a19d7496c38f9a1a653d.jpeg)
 
 <a id="section-4-4"></a>
 
@@ -750,7 +750,7 @@ Database Security Audit can perform statistical learning on statements based on 
 
 In the left-side navigation pane, choose **Models > SQL Model**. On the page that appears, search for statement templates. You can set multiple statement templates as trusted statements at a time.
 
-![](assets/ce703844025a11abe7ca7e4471b04aa8.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/ce703844025a11abe7ca7e4471b04aa8.jpeg)
 
 <a id="section-4-4-2"></a>
 
@@ -760,7 +760,7 @@ You can configure learning for a specific database, including the learning perio
 
 In the left-side navigation pane, choose **Models > Model Configuration** to configure the learning period or stop learning for a database.
 
-![](assets/385fa5f9b73ff527fb55c7a9e7162807.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/385fa5f9b73ff527fb55c7a9e7162807.jpeg)
 
 <a id="section-4-5"></a>
 
@@ -770,7 +770,7 @@ Database Security Audit adopts a new form of report presentation called aggregat
 
 This topic describes the global report feature. Global reports are displayed as aggregate reports, and the audit status of all databases in the system is displayed in different sections. Daily, weekly, and monthly reports are supported. On a report page, you can click **Preview** to query and display the report data of the specified database group within the specified time range.
 
-![](assets/a6e954269f179e93b39920e20fa12978.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/a6e954269f179e93b39920e20fa12978.jpeg)
 
 <a id="section-4-5-1"></a>
 
@@ -796,7 +796,7 @@ Charts such as column charts, curve charts, and dual-axis line charts
 
 The following figures show the chart and table about SQL Peak Throughput in a sample report.
 
-![](assets/53c1e8005ef868fee1182e559a221d71.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/53c1e8005ef868fee1182e559a221d71.jpeg)
 
 <a id="section-4-5-2"></a>
 
@@ -824,9 +824,9 @@ Charts such as column charts
 
 The following figures show a sample report and the Risk Hit Statistics section in the report.
 
-![](assets/d0610454d0fc9dd4e1149b66304f3b22.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/d0610454d0fc9dd4e1149b66304f3b22.jpeg)
 
-![](assets/ab135a15d4ef6c39e927e875d21e2995.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/ab135a15d4ef6c39e927e875d21e2995.jpeg)
 
 <a id="section-4-5-3"></a>
 
@@ -852,7 +852,7 @@ Charts such as column charts
 
 **Sample report**
 
-![](assets/385325974c7d255fd8ec039e34df7264.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/385325974c7d255fd8ec039e34df7264.jpeg)
 
 <a id="section-4-5-4"></a>
 
@@ -864,7 +864,7 @@ This topic describes the details of custom reports.
 
 You can specify report elements such as report statistics and analysis criteria to generate custom reports.
 
-![](assets/1a29b1a3a88ae33d528634c75a765c5a.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/1a29b1a3a88ae33d528634c75a765c5a.jpeg)
 
 **Procedure**
 
@@ -872,15 +872,15 @@ You can specify report elements such as report statistics and analysis criteria 
 
    Click **New Report**. In the dialog box that appears, specify report elements such as the report type, query conditions, and report display mode.
 
-   ![](assets/225fd5f5449a4c8f30b1de9c7dd7eeeb.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/225fd5f5449a4c8f30b1de9c7dd7eeeb.jpeg)
 
-2. After the report is created, click the <img src="assets/c81f29e098fe0b245423ce7c4db5c9c0.png" width="18" alt=""> icon to view the report.
+2. After the report is created, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/c81f29e098fe0b245423ce7c4db5c9c0.png" width="18" alt=""> icon to view the report.
 
-   ![](assets/595c8552e5ebb1dcbc937101c58aafad.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/595c8552e5ebb1dcbc937101c58aafad.jpeg)
 
 3. Click **Export** to export the custom report.
 
-   ![](assets/dcd0a262dfc640823cf1d12e7ca16628.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/dcd0a262dfc640823cf1d12e7ca16628.jpeg)
 
 <a id="section-4-5-5"></a>
 
@@ -892,13 +892,13 @@ This topic describes the report preset feature.
 
 The report preset feature generates and stores the specified reports in advance. This way, you can directly access these pre-stored reports to reduce the system pressure.
 
-![](assets/feecd51ea52a97b444e3f67ebacf179c.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/feecd51ea52a97b444e3f67ebacf179c.jpeg)
 
 **Enable the report preset feature**
 
 On the Report Preset page, click **Prestore Settings** to enable the feature for the specified reports.
 
-![](assets/b2375e2c5dd04d1c5c65ac21e4bc6cbb.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/b2375e2c5dd04d1c5c65ac21e4bc6cbb.jpeg)
 
 <a id="section-4-5-6"></a>
 
@@ -912,7 +912,7 @@ A report is a summary of the performance and status of the audited databases wit
 
 When you preview a report, you can click **Join a Timing-Push-Task** in the upper-right corner to create a task for periodically delivering the created report. The task is then displayed on the **Scheduled Delivery** page.
 
-![](assets/9c44b0283b81521d67b95ac9380c3afe.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/9c44b0283b81521d67b95ac9380c3afe.jpeg)
 
 **Procedure**
 
@@ -920,33 +920,33 @@ When you preview a report, you can click **Join a Timing-Push-Task** in the uppe
 
   In the left-side navigation pane, choose **Reports > Scheduled Delivery**. On the page that appears, click **Add** in the upper-right corner. In the dialog box that appears, configure the Task Name, Mail Subject, Sending Period, and Sending Time parameters to create a scheduled task.
 
-  ![](assets/f0776326a7d7e6f321621aaeba529663.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/f0776326a7d7e6f321621aaeba529663.jpeg)
 
 - **View the list of scheduled tasks**
 
   View the list of created scheduled tasks on the Scheduled Delivery page. This page displays task information in the following columns: Task Name, Mail Subject, Sending Period, Sending Time, Description, State, and Operation.
 
-  ![](assets/2900ebf00a53ec8554e8c888cb8777df.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/2900ebf00a53ec8554e8c888cb8777df.jpeg)
 
 - **Query the delivery history**
 
-  Find the scheduled task that you want to view and click the <img src="assets/9b485c72b79f072289af2ceb8bb5a7db.png" width="11" alt=""> icon in the Operation column
+  Find the scheduled task that you want to view and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/9b485c72b79f072289af2ceb8bb5a7db.png" width="11" alt=""> icon in the Operation column
 
   to query the delivery history of the task.
 
 - **Edit or delete a scheduled task**
 
-  Find the scheduled task that you want to edit and click the <img src="assets/af434fc82247ec6e8b1c7c4832091256.png" width="16" alt=""> icon in the Operation column
+  Find the scheduled task that you want to edit and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/af434fc82247ec6e8b1c7c4832091256.png" width="16" alt=""> icon in the Operation column
 
-  to edit the task. You can also click the <img src="assets/420908bff03547a5311047b944b96695.png" width="10" alt=""> icon to delete a scheduled task.
+  to edit the task. You can also click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/420908bff03547a5311047b944b96695.png" width="10" alt=""> icon to delete a scheduled task.
 
 - **Query the reports that have been delivered by a task**
 
-  Find the scheduled task that you want to view and click the <img src="assets/4fedb35d18d6152042617a35f0e454c3.png" width="14" alt=""> icon in the Operation column
+  Find the scheduled task that you want to view and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/4fedb35d18d6152042617a35f0e454c3.png" width="14" alt=""> icon in the Operation column
 
   to view the reports that have been delivered by the task.
 
-  ![](assets/42b1de8c14ee1f61fa093a40183b8229.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/42b1de8c14ee1f61fa093a40183b8229.jpeg)
 
 <a id="section-4-5-7"></a>
 
@@ -960,7 +960,7 @@ Go to the page of the report that you want to export and click **Export** in the
 
 Reports can be exported in the following formats: DOC, PDF, HTML, and CSV.
 
-![](assets/fc761f1ed26a5bab18a9c84db38d3849.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/fc761f1ed26a5bab18a9c84db38d3849.jpeg)
 
 <a id="section-4-5-8"></a>
 
@@ -972,15 +972,15 @@ The recipient management feature allows you to manage the recipients to which re
 
 1. In the left-side navigation pane, choose **Reports > Recipient Management**. On the page
 
-   that appears, click the <img src="assets/998542a04fbc979f3a7bec567fedc2ee.png" width="12" alt=""> icon.
+   that appears, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/998542a04fbc979f3a7bec567fedc2ee.png" width="12" alt=""> icon.
 
-   ![](assets/35b7f812314858b91df18dafc8f9f4ed.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/35b7f812314858b91df18dafc8f9f4ed.jpeg)
 
 2. In the panel that appears, enter the username, email address, and mobile phone number of
 
-   the recipient, and then click the <img src="assets/7e1f411717ab2f5a21d7c5412471c88d.png" width="14" alt=""> icon.
+   the recipient, and then click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/7e1f411717ab2f5a21d7c5412471c88d.png" width="14" alt=""> icon.
 
-   ![](assets/5514dea7aac074a0d1ff81633919d7dc.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/5514dea7aac074a0d1ff81633919d7dc.jpeg)
 
 <a id="section-4-6"></a>
 
@@ -994,7 +994,7 @@ Virtual patches are used to alert you about attacks that exploit database vulner
 
 The Virtual patch list section displays all vulnerability exploitation rules in all supported database versions, including the vulnerability name, CVE ID, vulnerability type, impact scope, risk level, alert notification, status, and actions (enable/disable). The Virtual Patch Query page also provides the search feature.
 
-![](assets/ba7f74a965ab0abe8dd24f09b21c79b2.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/ba7f74a965ab0abe8dd24f09b21c79b2.jpeg)
 
 <a id="section-4-6-2"></a>
 
@@ -1010,25 +1010,25 @@ You can define SQL injection statements or high-risk SQL statements to be blocke
 
 1. In the left-side navigation pane, choose **Rules > Rule Management**. On the page that
 
-   appears, click the <img src="assets/fc99f73873324960808c1763b1a16b59.png" width="14" alt=""> icon. In the Basic Information section, select **Injection Attack** from
+   appears, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/fc99f73873324960808c1763b1a16b59.png" width="14" alt=""> icon. In the Basic Information section, select **Injection Attack** from
 
    the **Rule Type** drop-down list.
 
-   ![](assets/b00da31ceca9a839772541b79fbaee0b.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/b00da31ceca9a839772541b79fbaee0b.jpeg)
 
 2. Configure the rule.
 
    In the rule management section on the left, you can view existing rules and add or edit rules. When you create an SQL injection prevention rule, configure the rule information including the access source, operation, conditional control, execution results, injection feature, and response action.
 
-   ![](assets/607bd38f6c8c1e1199114abe9ae9baff.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/607bd38f6c8c1e1199114abe9ae9baff.jpeg)
 
-   ![](assets/a6c598af055a4790597437592e2b4346.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/a6c598af055a4790597437592e2b4346.jpeg)
 
-   ![](assets/7164f84f5562858411addf0caadf504f.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/7164f84f5562858411addf0caadf504f.jpeg)
 
-   ![](assets/e05e095fb5aaf8e3c4227e855bf01bbf.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/e05e095fb5aaf8e3c4227e855bf01bbf.jpeg)
 
-   ![](assets/5e0d99b4f32359cf48eced6207fd8459.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/5e0d99b4f32359cf48eced6207fd8459.jpeg)
 
 <a id="section-4-6-2-2"></a>
 
@@ -1040,17 +1040,17 @@ Operation rules are used to reduce the risk of specific operations on specific o
 
 1. In the left-side navigation pane, choose **Rules > Rule Management**. On the Rule
 
-   Management page, click the <img src="assets/fc99f73873324960808c1763b1a16b59.png" width="14" alt=""> icon. In the Basic Information section, select **Operation**
+   Management page, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/fc99f73873324960808c1763b1a16b59.png" width="14" alt=""> icon. In the Basic Information section, select **Operation**
 
    **Rules** from the **Rule Type** drop-down list.
 
-   ![](assets/b00da31ceca9a839772541b79fbaee0b.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/b00da31ceca9a839772541b79fbaee0b.jpeg)
 
-2. Configure advanced parameters to create an operation rule, and then click the <img src="assets/4de8e51bebe2fa0d1b7f1c820a1f41a8.png" width="12" alt=""> icon in
+2. Configure advanced parameters to create an operation rule, and then click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/4de8e51bebe2fa0d1b7f1c820a1f41a8.png" width="12" alt=""> icon in
 
    the upper-right corner.
 
-   ![](assets/68229bddc66a77a626b27b5cbcf3c9a3.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/68229bddc66a77a626b27b5cbcf3c9a3.jpeg)
 
 <a id="section-4-6-2-3"></a>
 
@@ -1062,17 +1062,17 @@ Access rules are used to reduce risks arising from a user from a specific IP add
 
 1. In the left-side navigation pane, choose **Rules > Rule Management**. On the Rule
 
-   Management page, click the <img src="assets/fc99f73873324960808c1763b1a16b59.png" width="14" alt=""> icon. In the Basic Information section, select **Access Rules**
+   Management page, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/fc99f73873324960808c1763b1a16b59.png" width="14" alt=""> icon. In the Basic Information section, select **Access Rules**
 
    from the **Rule Type** drop-down list.
 
-   ![](assets/b00da31ceca9a839772541b79fbaee0b.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/b00da31ceca9a839772541b79fbaee0b.jpeg)
 
 2. Configure the parameters in the Access Source, Response Action, and Time Limit Settings
 
-   sections, and then click the <img src="assets/4de8e51bebe2fa0d1b7f1c820a1f41a8.png" width="12" alt=""> icon in the upper-right corner.
+   sections, and then click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/4de8e51bebe2fa0d1b7f1c820a1f41a8.png" width="12" alt=""> icon in the upper-right corner.
 
-   ![](assets/e5ef63de22563903adc826d9e95c6d5e.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/e5ef63de22563903adc826d9e95c6d5e.jpeg)
 
 <a id="section-4-6-2-4"></a>
 
@@ -1084,17 +1084,17 @@ Password attack rules are used to reduce the risk of failed logins originating f
 
 1. In the left-side navigation pane, choose **Rules > Rule Management**. On the Rule
 
-   Management page, click the <img src="assets/fc99f73873324960808c1763b1a16b59.png" width="14" alt=""> icon. In the Basic Information section, select **Password**
+   Management page, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/fc99f73873324960808c1763b1a16b59.png" width="14" alt=""> icon. In the Basic Information section, select **Password**
 
    **Attack** from the **Rule Type** drop-down list.
 
-   ![](assets/b00da31ceca9a839772541b79fbaee0b.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/b00da31ceca9a839772541b79fbaee0b.jpeg)
 
 2. Configure the parameters in the Access Source, Execution Results, and Response Action
 
-   sections, and then click the <img src="assets/4de8e51bebe2fa0d1b7f1c820a1f41a8.png" width="12" alt=""> icon in the upper-right corner.
+   sections, and then click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/4de8e51bebe2fa0d1b7f1c820a1f41a8.png" width="12" alt=""> icon in the upper-right corner.
 
-   ![](assets/b5ceea78f3f11fdd7abca3a2c8ed15c2.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/b5ceea78f3f11fdd7abca3a2c8ed15c2.jpeg)
 
 <a id="section-4-6-3"></a>
 
@@ -1112,25 +1112,25 @@ You can configure associations to associate databases with rules so that the rul
 
 - Configure associations when you create or edit a rule
 
-  Click the <img src="assets/fc11e4325f9749c3f9a7a8b0afde5042.png" width="18" alt=""> icon next to **Associated Databases** to configure associations.
+  Click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/fc11e4325f9749c3f9a7a8b0afde5042.png" width="18" alt=""> icon next to **Associated Databases** to configure associations.
 
-  ![](assets/21e29d7a70a076bc1f52ca830fe15c22.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/21e29d7a70a076bc1f52ca830fe15c22.jpeg)
 
 - Configure associations for an existing rule
 
-  Select the rule for which you want to configure associations and click the <img src="assets/730a490b05b851289c1c55cdb0a4a3fa.png" width="19" alt=""> icon in the
+  Select the rule for which you want to configure associations and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/730a490b05b851289c1c55cdb0a4a3fa.png" width="19" alt=""> icon in the
 
   upper-right corner.
 
-  ![](assets/3e0109cd45488719dfef61ccc1d1dad2.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/3e0109cd45488719dfef61ccc1d1dad2.jpeg)
 
   The following figure shows the dialog box for configuring associations. You can select
 
-  multiple databases and click the <img src="assets/8d723e0330e6599e397996b66e2229a1.png" width="16" alt=""> icon to associate the databases with the rule. You can
+  multiple databases and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/8d723e0330e6599e397996b66e2229a1.png" width="16" alt=""> icon to associate the databases with the rule. You can
 
-  also click the <img src="assets/2a1b429d0e89598a8f3b941a5e523629.png" width="18" alt=""> icon to select all databases. After the databases are selected, click **OK**.
+  also click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/2a1b429d0e89598a8f3b941a5e523629.png" width="18" alt=""> icon to select all databases. After the databases are selected, click **OK**.
 
-  ![](assets/1c454aac2b8eaed0a55542ce250c4717.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/1c454aac2b8eaed0a55542ce250c4717.jpeg)
 
 <a id="section-4-6-3-2"></a>
 
@@ -1144,23 +1144,23 @@ This topic describes how to reference and dereference rules.
 
    The following conditions are supported: Database, Rule name, Rule type, Rule group, Risk level, Is it enabled, and Whether to quote.
 
-   ![](assets/ace48ffd675fa60e0de8d9d890d6101d.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/ace48ffd675fa60e0de8d9d890d6101d.jpeg)
 
    Rules that meet the conditions are displayed in the rule list. The icon in the Operation
 
-   column indicates the reference relationship. <img src="assets/65faaf2a57b4a12109c3cb39774d5cb3.png" width="27" alt=""> indicates that the rule is referenced. <img src="assets/7f95f69c8ee2132e956a4e2982898106.png" width="26" alt="">
+   column indicates the reference relationship. <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/65faaf2a57b4a12109c3cb39774d5cb3.png" width="27" alt=""> indicates that the rule is referenced. <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/7f95f69c8ee2132e956a4e2982898106.png" width="26" alt="">
 
    indicates that the rule is not referenced.
 
-2. Select a database and click the <img src="assets/7f95f69c8ee2132e956a4e2982898106.png" width="26" alt=""> icon for a dereferenced rule to reference the rule. Click
+2. Select a database and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/7f95f69c8ee2132e956a4e2982898106.png" width="26" alt=""> icon for a dereferenced rule to reference the rule. Click
 
-   the <img src="assets/65faaf2a57b4a12109c3cb39774d5cb3.png" width="27" alt=""> icon for a referenced rule to dereference the rule.
+   the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/65faaf2a57b4a12109c3cb39774d5cb3.png" width="27" alt=""> icon for a referenced rule to dereference the rule.
 
    You can also reference or dereference multiple rules at a time. To do so, select multiple
 
-   rules and click the <img src="assets/65faaf2a57b4a12109c3cb39774d5cb3.png" width="27" alt=""> or <img src="assets/65faaf2a57b4a12109c3cb39774d5cb3.png" width="27" alt=""> icon in the upper-right corner of the rule list. You can click
+   rules and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/65faaf2a57b4a12109c3cb39774d5cb3.png" width="27" alt=""> or <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/65faaf2a57b4a12109c3cb39774d5cb3.png" width="27" alt=""> icon in the upper-right corner of the rule list. You can click
 
-   the <img src="assets/2765c6fac8d89f81530d3e6cf2e07443.png" width="25" alt=""> or <img src="assets/500e898154be248ef2a568984f4ab4f8.png" width="22" alt=""> icon to enable or disable the selected rules.
+   the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/2765c6fac8d89f81530d3e6cf2e07443.png" width="25" alt=""> or <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/500e898154be248ef2a568984f4ab4f8.png" width="22" alt=""> icon to enable or disable the selected rules.
 
 <a id="section-4-6-3-3"></a>
 
@@ -1170,17 +1170,17 @@ If the behavior of accessing a database matches multiple rules at the same time,
 
 **Procedure**
 
-1. Find a referenced rule for which you want to adjust the priority, and click the <img src="assets/31f0ccc26a8e1b4841e9a68291a7c9b0.png" width="18" alt=""> or <img src="assets/31f0ccc26a8e1b4841e9a68291a7c9b0.png" width="18" alt=""> icon
+1. Find a referenced rule for which you want to adjust the priority, and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/31f0ccc26a8e1b4841e9a68291a7c9b0.png" width="18" alt=""> or <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/31f0ccc26a8e1b4841e9a68291a7c9b0.png" width="18" alt=""> icon
 
    in the **Operation** column.
 
-   ![](assets/145523f73f648e1de947a6778d6a1f8a.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/145523f73f648e1de947a6778d6a1f8a.jpeg)
 
-2. After you adjust the priority, click the <img src="assets/a915d36d3fd0c71ab224db421a112529.png" width="21" alt=""> icon in the upper-right corner to save the priority
+2. After you adjust the priority, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/a915d36d3fd0c71ab224db421a112529.png" width="21" alt=""> icon in the upper-right corner to save the priority
 
    setting.
 
-   ![](assets/6358c840db6b7edc196503ddef6115ea.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/6358c840db6b7edc196503ddef6115ea.jpeg)
 
 <a id="section-4-7"></a>
 
@@ -1192,7 +1192,7 @@ If the behavior of accessing a database matches multiple rules at the same time,
 
 Auditing database behaviors is the core feature of Database Security Audit. The Database page allows you to manage audited databases. You can view the basic information of the added databases, and add, modify, or remove the databases.
 
-![](assets/5a94fa69b99701a3c6a15dbc05388167.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/5a94fa69b99701a3c6a15dbc05388167.jpeg)
 
 <a id="section-4-7-1-1"></a>
 
@@ -1204,17 +1204,17 @@ This topic describes how to add a database.
 
 1. In the left-side navigation pane, choose **Configuration > Database**. On the page that
 
-   appears, click the <img src="assets/ddb018108352258eb4ed991dabfa95c5.png" width="21" alt=""> icon in the upper-right corner to add a database.
+   appears, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/ddb018108352258eb4ed991dabfa95c5.png" width="21" alt=""> icon in the upper-right corner to add a database.
 
-   ![](assets/5b3c9e678a758e931ab2aa010b567f06.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/5b3c9e678a758e931ab2aa010b567f06.jpeg)
 
-2. Enter the database information, click the <img src="assets/f14900aa251d87e5b06307792822ba03.png" width="14" alt=""> icon to save the database connection
+2. Enter the database information, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/f14900aa251d87e5b06307792822ba03.png" width="14" alt=""> icon to save the database connection
 
-   information, and then click the <img src="assets/adb0e009c23b974696335ce7d2e4b263.png" width="11" alt=""> icon in the upper-left corner to save the configuration.
+   information, and then click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/adb0e009c23b974696335ce7d2e4b263.png" width="11" alt=""> icon in the upper-left corner to save the configuration.
 
    You need to specify the database name, database type, and version, and enter the connection information of the database, including the IP address and service port.
 
-   ![](assets/4b23c59ca3c501b50251a92e9c32af7c.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/4b23c59ca3c501b50251a92e9c32af7c.jpeg)
 
 <a id="section-4-7-1-2"></a>
 
@@ -1226,17 +1226,17 @@ This topic describes how to edit database information.
 
 1. In the left-side navigation pane, choose **Configuration > Database**. On the page that appears, find the database that you want to manage.
 
-2. Click the <img src="assets/bca6c12032e4ffcab81b02b782493522.png" width="14" alt=""> icon in the **Operation** column to view the details of the database. Then, click
+2. Click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/bca6c12032e4ffcab81b02b782493522.png" width="14" alt=""> icon in the **Operation** column to view the details of the database. Then, click
 
-   the <img src="assets/09dcf43852048980cc8f468c4be239fc.png" width="15" alt=""> icon in the upper-left corner to edit the existing information. The panel for editing
+   the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/09dcf43852048980cc8f468c4be239fc.png" width="15" alt=""> icon in the upper-left corner to edit the existing information. The panel for editing
 
    database information is the same as that for adding a database.
 
-   ![](assets/b71fcf94c2ae69af93c9f7996eefb1e0.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/b71fcf94c2ae69af93c9f7996eefb1e0.jpeg)
 
-3. Click the <img src="assets/b39b7f6997c009d52846f34661a1a6e1.png" width="14" alt=""> icon to save the configuration.
+3. Click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/b39b7f6997c009d52846f34661a1a6e1.png" width="14" alt=""> icon to save the configuration.
 
-   ![](assets/6568e52b3a565b1d86c66700789bb9d9.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/6568e52b3a565b1d86c66700789bb9d9.jpeg)
 
 <a id="section-4-7-1-3"></a>
 
@@ -1248,13 +1248,13 @@ This topic describes how to delete a database.
 
 1. In the left-side navigation pane, choose **Configuration > Database**. On the page that appears, find the database that you want to delete.
 
-2. Click the <img src="assets/6f5dc95cac8b364b761920f79839ae7b.png" width="14" alt=""> icon in the **Operation** column to delete the database.
+2. Click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/6f5dc95cac8b364b761920f79839ae7b.png" width="14" alt=""> icon in the **Operation** column to delete the database.
 
-   ![](assets/5b2dd748fc1f6e077555755dce8362c7.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/5b2dd748fc1f6e077555755dce8362c7.jpeg)
 
 3. In the message that appears, click **OK**.
 
-   ![](assets/f82489380aadf499d319191968cdb71d.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/f82489380aadf499d319191968cdb71d.jpeg)
 
 <a id="section-4-7-1-4"></a>
 
@@ -1266,17 +1266,17 @@ This topic describes how to import and export database information.
 
 1. In the left-side navigation pane, choose **Configuration > Database**. On the page that
 
-   appears, click the <img src="assets/d31ba6fd48a0c24b9171a8a9480c7677.png" width="12" alt=""> icon in the upper-right corner of the database list. In the **Import**
+   appears, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/d31ba6fd48a0c24b9171a8a9480c7677.png" width="12" alt=""> icon in the upper-right corner of the database list. In the **Import**
 
    **database** dialog box, download the template file for importing database information.
 
-   ![](assets/068e22f5ca58f7be785f8861e747bedc.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/068e22f5ca58f7be785f8861e747bedc.jpeg)
 
-2. Click the <img src="assets/c37d8434ae81a865ecc5f2646d3a04d8.png" width="13" alt=""> icon in the upper-right corner of the database list to export database
+2. Click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/c37d8434ae81a865ecc5f2646d3a04d8.png" width="13" alt=""> icon in the upper-right corner of the database list to export database
 
    information.
 
-   ![](assets/8bf326c4dd71f6ed4130ac773b7aaa5f.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/8bf326c4dd71f6ed4130ac773b7aaa5f.jpeg)
 
 <a id="section-4-7-2"></a>
 
@@ -1288,7 +1288,7 @@ This topic describes how to write platform logs to Simple Log Service (SLS).
 
 In the left-side navigation pane, choose **Configuration > Platform Access**. Find the database that you want to configure and click the Edit icon in the Operation column. In the dialog box that appears, configure the log storage parameters and click **Ok**.
 
-![](assets/310802814c98c02a6b32ae518082459b.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/310802814c98c02a6b32ae518082459b.jpeg)
 
 <a id="section-4-7-3"></a>
 
@@ -1298,15 +1298,15 @@ You can add multiple databases to a database group to facilitate report queries 
 
 1. In the left-side navigation pane, choose **Configuration > Database Group**. On the
 
-   Database Group page, click the <img src="assets/828bf3038bdd68b644785d93f1f104f9.png" width="18" alt=""> icon in the upper-right corner to create a database
+   Database Group page, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/828bf3038bdd68b644785d93f1f104f9.png" width="18" alt=""> icon in the upper-right corner to create a database
 
    group. Add the required databases to the database group.
 
-   ![](assets/0b3fdea2f70e4728533df125d034b7f2.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/0b3fdea2f70e4728533df125d034b7f2.jpeg)
 
 2. Click Ok.
 
-   ![](assets/16bddf94d31d747484bb78c3b056f0cc.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/16bddf94d31d747484bb78c3b056f0cc.jpeg)
 
 <a id="section-4-7-4"></a>
 
@@ -1318,17 +1318,17 @@ When Database Security Audit or an audited database triggers an alert, alert mes
 
 1. In the left-side navigation pane, choose **Configuration > Alert Settings**. On the page
 
-   that appears, click the <img src="assets/361ba6d5c8f7d472f1332b50eed24c27.png" width="18" alt=""> icon in the upper-right corner to add an alert rule.
+   that appears, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/361ba6d5c8f7d472f1332b50eed24c27.png" width="18" alt=""> icon in the upper-right corner to add an alert rule.
 
-   ![](assets/639d9fd5a9ffc85f862ca7b00cae9b08.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/639d9fd5a9ffc85f862ca7b00cae9b08.jpeg)
 
 2. In the dialog box that appears, configure the Email Subject and Template Name parameters and select the risk levels for triggering alerts. Enter custom email content. You can select required content from the Template Content section. Specify the recipients in the Contacts field and click Save.
 
-   ![](assets/073f010a846540df1b984d607a8b6b53.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/073f010a846540df1b984d607a8b6b53.jpeg)
 
 3. After you add an alert rule, click the **Enable** icon in the **Operation** column of the alert rule to enable it.
 
-   ![](assets/d7728fd7b439d81926c3c1804d8d7fc0.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/d7728fd7b439d81926c3c1804d8d7fc0.jpeg)
 
 <a id="section-4-7-5"></a>
 
@@ -1342,11 +1342,11 @@ You can add IP addresses of database clients and configure aliases for these IP 
 
   In the left-side navigation pane, choose **Configuration > IP Alias Management**. On the
 
-  page that appears, click the <img src="assets/e301f4b4fbd0924eecc18a91383c27e8.png" width="14" alt=""> icon in the upper-right corner. In the dialog box that
+  page that appears, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/e301f4b4fbd0924eecc18a91383c27e8.png" width="14" alt=""> icon in the upper-right corner. In the dialog box that
 
   appears, download the IP address template file. Enter the IP addresses and their aliases in the template file and then upload the file to import the IP addresses.
 
-  ![](assets/6a1b3fa8d7ba89044b89c01f208936ef.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/6a1b3fa8d7ba89044b89c01f208936ef.jpeg)
 
 - Add a single IP address
 
@@ -1354,9 +1354,9 @@ You can add IP addresses of database clients and configure aliases for these IP 
 
   <li>
 
-  Click the <img src="assets/6d819f428033e5d1aa8a50f174c1d46d.png" width="14" alt=""> icon to add a single IP address.
+  Click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/6d819f428033e5d1aa8a50f174c1d46d.png" width="14" alt=""> icon to add a single IP address.
 
-  ![](assets/37c81ccf8a2a072c946d0e8b4cd75935.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/37c81ccf8a2a072c946d0e8b4cd75935.jpeg)
 
   </li>
 
@@ -1368,7 +1368,7 @@ You can add IP addresses of database clients and configure aliases for these IP 
 
   </ol>
 
-  ![](assets/2fc56bc5327b6d0eacc88a89f2da6787.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/2fc56bc5327b6d0eacc88a89f2da6787.jpeg)
 
 <a id="section-4-7-6"></a>
 
@@ -1390,17 +1390,17 @@ When you configure a sensitive data masking rule, you need to specify the rule f
 
 1. In the left-side navigation pane, choose **Configuration > Sensitive Data Masking**. On
 
-   the page that appears, click the <img src="assets/ca2938b2e78fa3825a8b08354d3eff4c.png" width="18" alt=""> icon in the upper-right corner to add a masking rule.
+   the page that appears, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/ca2938b2e78fa3825a8b08354d3eff4c.png" width="18" alt=""> icon in the upper-right corner to add a masking rule.
 
-   ![](assets/1a8bf6b5bd2c92d37f59b25bce7ea803.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/1a8bf6b5bd2c92d37f59b25bce7ea803.jpeg)
 
 2. In the dialog box that appears, configure the Name, Regular Expression Matching, Mask result, and Description parameters, and click **Ok**.
 
-   ![](assets/f1eba29c342bc95c2dc4443c980797ea.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/f1eba29c342bc95c2dc4443c980797ea.jpeg)
 
-3. Click the <img src="assets/e5aafb50ad04baa1759d9750a3be0e3c.png" width="13" alt=""> icon in the **Operation** column of the masking rule to enable it.
+3. Click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/e5aafb50ad04baa1759d9750a3be0e3c.png" width="13" alt=""> icon in the **Operation** column of the masking rule to enable it.
 
-   ![](assets/8698c3b1fee47b8df2ab0fc5b936df64.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/8698c3b1fee47b8df2ab0fc5b936df64.jpeg)
 
 <a id="section-4-7-7"></a>
 
@@ -1418,13 +1418,13 @@ This topic describes how to create an IP address group.
 
 1. In the left-side navigation pane, choose **Configuration > Group Management**. On the **IP**
 
-   **User Group** tab, click the <img src="assets/77ab56a879d7b01cdd252c7de21d7dde.png" width="14" alt=""> icon in the upper-right corner to create an IP address group.
+   **User Group** tab, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/77ab56a879d7b01cdd252c7de21d7dde.png" width="14" alt=""> icon in the upper-right corner to create an IP address group.
 
-   ![](assets/e48cb73317950fc544064076709e0c16.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/e48cb73317950fc544064076709e0c16.jpeg)
 
 2. In the Add IP Group dialog box, specify a group name and one or more IP addresses or CIDR blocks, and then click Save.
 
-   ![](assets/f0a37d000793c2c8d7ebd4b91009fff4.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/f0a37d000793c2c8d7ebd4b91009fff4.jpeg)
 
 <a id="section-4-7-7-2"></a>
 
@@ -1436,15 +1436,15 @@ This topic describes how to create a database user group.
 
 1. In the left-side navigation pane, choose **Configuration > Group Management**. Click the
 
-   **Database User Group** tab, and then click the <img src="assets/77ab56a879d7b01cdd252c7de21d7dde.png" width="17" alt=""> icon in the upper-right corner to create a
+   **Database User Group** tab, and then click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/77ab56a879d7b01cdd252c7de21d7dde.png" width="17" alt=""> icon in the upper-right corner to create a
 
    database user group.
 
-   ![](assets/60abe39db57946d74fba41f2e91d9101.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/60abe39db57946d74fba41f2e91d9101.jpeg)
 
 2. In the Add Database User Group dialog box, specify a group name and one or more database users, and then click **Save**.
 
-   ![](assets/59c38815eaeff5a6dab8f5acd06ec2cd.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/59c38815eaeff5a6dab8f5acd06ec2cd.jpeg)
 
 <a id="section-4-7-7-3"></a>
 
@@ -1456,15 +1456,15 @@ This topic describes how to create an application user group.
 
 1. In the left-side navigation pane, choose **Configuration > Group Management**. Click the
 
-   **App User Group** tab, and then click the <img src="assets/77ab56a879d7b01cdd252c7de21d7dde.png" width="17" alt=""> icon in the upper-right corner to create an
+   **App User Group** tab, and then click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/77ab56a879d7b01cdd252c7de21d7dde.png" width="17" alt=""> icon in the upper-right corner to create an
 
    application user group.
 
-   ![](assets/9ca904a06ce8ac7957c31d00550eb469.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/9ca904a06ce8ac7957c31d00550eb469.jpeg)
 
 2. In the Add App User Group dialog box, specify a group name and one or more application users, and then click **Save**.
 
-   ![](assets/e63f040f865e0a07d58d8cef118efc78.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/e63f040f865e0a07d58d8cef118efc78.jpeg)
 
 <a id="section-4-7-7-4"></a>
 
@@ -1476,15 +1476,15 @@ This topic describes how to create a time group.
 
 1. In the left-side navigation pane, choose **Configuration > Group Management**. Click the
 
-   **Time Group** tab, and then click the <img src="assets/77ab56a879d7b01cdd252c7de21d7dde.png" width="14" alt=""> icon in the upper-right corner to create a time
+   **Time Group** tab, and then click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/77ab56a879d7b01cdd252c7de21d7dde.png" width="14" alt=""> icon in the upper-right corner to create a time
 
    group.
 
-   ![](assets/91ef8223ff48738e455c6e6bc4089ac3.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/91ef8223ff48738e455c6e6bc4089ac3.jpeg)
 
 2. In the Add Time Group dialog box, specify a group name and the year, month, day, week, and hour settings, and then click **Save**.
 
-   ![](assets/a342b0df5ebc4dc8674f56a9412b06b0.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/a342b0df5ebc4dc8674f56a9412b06b0.jpeg)
 
 <a id="section-4-7-7-5"></a>
 
@@ -1496,19 +1496,19 @@ This topic describes how to create an object group.
 
 1. In the left-side navigation pane, choose **Configuration > Group Management**. Click the
 
-   **Object Group** tab, and then click the <img src="assets/77ab56a879d7b01cdd252c7de21d7dde.png" width="14" alt=""> icon in the upper-right corner to create an object
+   **Object Group** tab, and then click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/77ab56a879d7b01cdd252c7de21d7dde.png" width="14" alt=""> icon in the upper-right corner to create an object
 
    group.
 
-   ![](assets/476b0fe48e00550efa9ff64c32f436f4.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/476b0fe48e00550efa9ff64c32f436f4.jpeg)
 
 2. In the Add Object Group dialog box, add one or more conditions and click **Save**. You can
 
-   click the <img src="assets/0a4d47d7ba3a1cbc006cc588a3982b5f.png" width="14" alt=""> icon to add multiple conditions. Each condition can specify criteria at various
+   click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/0a4d47d7ba3a1cbc006cc588a3982b5f.png" width="14" alt=""> icon to add multiple conditions. Each condition can specify criteria at various
 
    levels, from databases down to specific objects and fields.
 
-   ![](assets/90b36794c058c28a964e78a9920adb4b.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/90b36794c058c28a964e78a9920adb4b.jpeg)
 
 <a id="section-4-7-7-6"></a>
 
@@ -1520,15 +1520,15 @@ This topic describes how to create an operating system user group.
 
 1. In the left-side navigation pane, choose **Configuration > Group Management**. Click the
 
-   **Operating System User Group** tab, and then click the <img src="assets/77ab56a879d7b01cdd252c7de21d7dde.png" width="17" alt=""> icon in the upper-right corner
+   **Operating System User Group** tab, and then click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/77ab56a879d7b01cdd252c7de21d7dde.png" width="17" alt=""> icon in the upper-right corner
 
    to create an operating system user group.
 
 2. In the Add Operating System User Group dialog box, specify a group name and one or more
 
-   system users, and then click **Save**. You can click the <img src="assets/f7d5c3af03bd49e4ef2b45c36f4ecdd4.png" width="16" alt=""> icon to add multiple system users.
+   system users, and then click **Save**. You can click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/f7d5c3af03bd49e4ef2b45c36f4ecdd4.png" width="16" alt=""> icon to add multiple system users.
 
-   ![](assets/d4430eed7386aea607a5240b9a5abd82.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/d4430eed7386aea607a5240b9a5abd82.jpeg)
 
 <a id="section-4-7-8"></a>
 
@@ -1548,11 +1548,11 @@ You can manage the remote mirror agents (RMAgents) that are connected to your au
 
   In the RMAgent list, view the information about each RMAgent that can be managed, including the IP address and operating system of the host on which the RMAgent is deployed and the CPU utilization and status of the RMAgent. You can perform different operations on an RMAgent by clicking the following buttons in the Operation column:
 
-  ![](assets/cbd9a3977efc98ca5a0be878422763af.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/cbd9a3977efc98ca5a0be878422763af.jpeg)
 
 - Configuration: remotely configures the runtime parameters of the RMAgent.
 
-  ![](assets/944571c7c0c51756f307d63f51de4275.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/944571c7c0c51756f307d63f51de4275.jpeg)
 
 - Wake Up: resumes the activity of the RMAgent after it is suspended.
 
@@ -1562,13 +1562,13 @@ You can manage the remote mirror agents (RMAgents) that are connected to your au
 
 - Monitoring: monitors the CPU load of the host on which the RMAgent is deployed and the number of packets received by the RMAgent per second.
 
-  ![](assets/a237cdf6c6c89ea91af49786ed1d5391.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/a237cdf6c6c89ea91af49786ed1d5391.jpeg)
 
 - Log: downloads the operation logs of the RMAgent to your local device.
 
 - Uninstall: uninstalls the RMAgent. You must set a password when you uninstall the RMAgent for the first time. This password will then be required for all future uninstalls.
 
-  ![](assets/b141b8e996377771cdcf897d1420712a.jpeg)
+  ![](en-database-audit-user-guide-v3.18.6-20260701.assets/b141b8e996377771cdcf897d1420712a.jpeg)
 
 - You can select multiple RMAgents and perform the Configuration, Hang up, Wake Up, Interrupt, and Uninstall operations on them at a time.
 
@@ -1648,7 +1648,7 @@ You can manage the remote mirror agents (RMAgents) that are connected to your au
 
 3. 在**系统配置信息备份/恢复**，单击**备份**。
 
-   ![](assets/20cfee25cdc53001acc587e673f9c0fa.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/20cfee25cdc53001acc587e673f9c0fa.jpeg)
 
 4. 单击**确定**，对当前系统配置数据进行备份。
 
@@ -1736,25 +1736,25 @@ You can create a scan task to scan for vulnerabilities of databases.
 
 2. In the left-side navigation pane, choose **Vulnerability Scan > Vulnerability Scanning**. On the page that appears, select the default group and click **New Scan Task**.
 
-   ![](assets/1ba4bf7ef821e7c03059181dfb85ea13.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/1ba4bf7ef821e7c03059181dfb85ea13.jpeg)
 
 3. In the Select Database step, select a database. If you are not authorized to access the database, click **Unauthorized**. In the dialog box that appears, enter the username and password for accessing the database.
 
-   ![](assets/d386d9c99a70663ab984c212f8165ea3.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/d386d9c99a70663ab984c212f8165ea3.jpeg)
 
-   ![](assets/89e79383df8f222d33f4a07b00a3684e.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/89e79383df8f222d33f4a07b00a3684e.jpeg)
 
 4. In the Basic Config step, select a scan mode, such as MLPS level 2 for MySQL.
 
-   ![](assets/3717f97ddc6773472b48c1e8a8a8fd93.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/3717f97ddc6773472b48c1e8a8a8fd93.jpeg)
 
 5. Click Next. In the **Other Config** step, configure the email notification, and click **Finish**. By default, the email notification is disabled.
 
-6. Click the <img src="assets/9c2c79337b3ed481e2a84e8c8e788dcf.png" width="18" alt=""> icon in the Operation column of the task to start the task. After the task is
+6. Click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/9c2c79337b3ed481e2a84e8c8e788dcf.png" width="18" alt=""> icon in the Operation column of the task to start the task. After the task is
 
    successfully executed, you can view the task execution details and report.
 
-   ![](assets/fc5be17b716c7d904dfac4d91e024e53.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/fc5be17b716c7d904dfac4d91e024e53.jpeg)
 
 <a id="section-4-9-2"></a>
 
@@ -1766,21 +1766,21 @@ This topic describes how to create and view scan policies.
 
 1. In the left-side navigation pane, choose **Vulnerability Scan > Scan Policy**. In the Policy
 
-   List section, click the <img src="assets/b26ef3eca9a896dd357ea197fec0d692.png" width="26" alt=""> icon.
+   List section, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/b26ef3eca9a896dd357ea197fec0d692.png" width="26" alt=""> icon.
 
-   ![](assets/31234992472cf33e5ef4172bcc37df1b.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/31234992472cf33e5ef4172bcc37df1b.jpeg)
 
 2. On the New Policy page, configure the parameters to create a scan policy.
 
    Specify a policy name, and configure the Database Type, Risk Level, and VT Type parameters to filter check items. For example, set the Database Type parameter to MySQL and the VT Type parameter to Configuration Defect. Select the required check items, click the > icon, and then click **Save**.
 
-   ![](assets/c712205cc7fe178ea00d24994664cf7e.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/c712205cc7fe178ea00d24994664cf7e.jpeg)
 
 3. Query check items.
 
    You can query check items by configuring the Database Type, Risk Level, and VT Type parameters.
 
-   ![](assets/8698d60edfcd6075563985c171800bad.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/8698d60edfcd6075563985c171800bad.jpeg)
 
 <a id="section-4-10"></a>
 
@@ -1802,7 +1802,7 @@ You can use emails to send alert notifications. This topic describes how to conf
 
 1. In the left-side navigation pane, choose **System > Notification Management**. The **Email Settings** tab appears.
 
-   ![](assets/debcb67c0b66bdff50bca2fbeeeed323.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/debcb67c0b66bdff50bca2fbeeeed323.jpeg)
 
 2. Specify the SMTP server address, port, username, password, and sender address, select an encryption type, and then click **Save**.
 
@@ -1834,7 +1834,7 @@ Database Security Audit allows you to use Syslog to send the following types of 
 
 2. Configure the Delivery Name, Hostname, and Port Number parameters, turn on **Enable**, and then click **Add**.
 
-   ![](assets/c53c68d547ac1f580dfc5ff241917011.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/c53c68d547ac1f580dfc5ff241917011.jpeg)
 
    After a Syslog destination is configured, you can modify or delete it based on your business requirements.
 
@@ -1864,7 +1864,7 @@ Database Security Audit allows you to use Cloud SOC to send the following types 
 
 2. Configure the Delivery Name, Hostname, and Port Number parameters, turn on **Enable**, and then click **Add**.
 
-   ![](assets/3b636e3a75af8c851328637582b5dd00.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/3b636e3a75af8c851328637582b5dd00.jpeg)
 
    After a Cloud SOC destination is configured, you can modify or delete it based on your business requirements.
 
@@ -1878,7 +1878,7 @@ Database Security Audit generates alerts for various system events, including: p
 
 1. In the left-side navigation pane, choose **System > System Alerts**. On the System Alerts page, select an alert type from the Alarm Type drop-down list, and then click **Search**.
 
-   ![](assets/e0f8df71aa247c8b145978663c137fdb.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/e0f8df71aa247c8b145978663c137fdb.jpeg)
 
 2. View the details of the queried system alerts in the System Name, Target Object, Occurrence Time, Alarm Type, and Description columns.
 
@@ -1892,7 +1892,7 @@ On the System Upgrade tab, you can upload an update package to update the databa
 
 1. In the left-side navigation pane, choose **System > System Upgrade**. Click the **System Upgrade** tab and select **Rule-base Upgrade File** from the Upload drop-down list.
 
-   ![](assets/0c39025744d4df733650bafcec579da0.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/0c39025744d4df733650bafcec579da0.jpeg)
 
 2. Click **Navigation**, select the required rule file, and then click **Upload**.
 
@@ -1900,7 +1900,7 @@ On the System Upgrade tab, you can upload an update package to update the databa
 
 1. In the left-side navigation pane, choose **System > System Upgrade**. Click the **System Upgrade** tab and select **System Upgrade File** from the Upload drop-down list.
 
-   ![](assets/bc932ac8009cf8e5a2b83117cdbdef15.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/bc932ac8009cf8e5a2b83117cdbdef15.jpeg)
 
 2. Click **Navigation**, select the required system file, and then click **Upload**.
 
@@ -1908,7 +1908,7 @@ On the System Upgrade tab, you can upload an update package to update the databa
 
 In the left-side navigation pane, choose **System > System Upgrade**. On the **Upgrade History** tab, view the update record.
 
-![](assets/1ef59224d43e666dd578da3396600a31.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/1ef59224d43e666dd578da3396600a31.jpeg)
 
 <a id="section-5"></a>
 
@@ -1930,7 +1930,7 @@ The Overview / DB page displays the overview of an audited database in three cha
 
 1. Go to the details page of a database. In the left-side navigation pane, click Overview / DB. On the **Overview / DB** page, select a preset time range or specify a custom time range to view data.
 
-   ![](assets/906817c17f9a45d484ae2dd6e4b2e9e3.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/906817c17f9a45d484ae2dd6e4b2e9e3.jpeg)
 
 2. View data in the Risk Statistics, Session Stats, and Statement charts.
 
@@ -1956,15 +1956,15 @@ The Risk Statistics page offers a graphical overview of all risks detected on a 
 
 2. View risk statistics in the table on the Risk Statistics page. You can click blue values in the table to access the **Risk Hits** page for detailed analysis.
 
-   ![](assets/afa7fc5ec98408991b79fb4d1aee9ef3.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/afa7fc5ec98408991b79fb4d1aee9ef3.jpeg)
 
 3. View the risk distribution chart.
 
-   ![](assets/dae59c7a8eb0fcb26eab4ae4b43a918d.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/dae59c7a8eb0fcb26eab4ae4b43a918d.jpeg)
 
    The Risk Distribution chart is a column chart, which displays the distribution of different risks in a visualized manner. This chart is interactive, allowing you to click and manipulate its elements for a more detailed risk assessment. The following figures show the risk statistics that are displayed after you click risk levels in the chart.
 
-   ![](assets/bf0ca328c050e1bfa87d8e6fb1d2eb63.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/bf0ca328c050e1bfa87d8e6fb1d2eb63.jpeg)
 
 <a id="section-5-2-2"></a>
 
@@ -1980,15 +1980,15 @@ The Risk Hits page extends the statistical risk overview by detailing each speci
 
    You can view the information about risk hit rules in the columns, including **Risk Name**, **Risk Type**, **Risk Level**, and **Hit quantity**.
 
-   ![](assets/621a4ce040a3432a799b61b21f0030a3.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/621a4ce040a3432a799b61b21f0030a3.jpeg)
 
 3. Find the risk hit rule that you want to view and click the value in the **Risk Name** column to view its details. For more information about how to configure rules, see **Global rules**.
 
-   ![](assets/c7dde1e68bdf34ea5b7abbdfa8f1fb06.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/c7dde1e68bdf34ea5b7abbdfa8f1fb06.jpeg)
 
 4. Click the value in the **Hit quantity** column to open the Regular Hit Distribution dialog box.
 
-   ![](assets/9ec705af6683e27b9aeeb37d81247dc3.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/9ec705af6683e27b9aeeb37d81247dc3.jpeg)
 
 The Regular Hit Distribution dialog box displays information about the risk, including the client IP address, user, and number of execution times. In the Regular Hit Distribution dialog box, find the client IP address that you want to view and click the value in the Execution Times column to go to the Risk Hit List Detail page.
 
@@ -2010,23 +2010,23 @@ The Risk Search page is the core component of the Risk module. This page present
 
 1. Go to the details page of a database. In the left-side navigation pane, choose **Risk > Risk Search**. On the Risk Search page, select a preset time range or specify a custom time
 
-   range and click the <img src="assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the Search Condition section. Then,
+   range and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the Search Condition section. Then,
 
    specify search conditions and click Search to search for risks.
 
    The search conditions include the risk type, risk level, database user, and client IP address.
 
-   ![](assets/0bdeafacf782aaf91203e71b1f843c4f.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/0bdeafacf782aaf91203e71b1f843c4f.jpeg)
 
 2. Find the statement that you want to view and click the value in the **SQL Statement** column to view the details of the statement. The details include the access source information, application identity information, SQL statement information, affected object, SQL statement, statement template, business language, result set, and SQL parameters.
 
-   ![](assets/e07651beb89efc2865c4b89250363a58.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/e07651beb89efc2865c4b89250363a58.jpeg)
 
-3. Click the <img src="assets/78d9495f06b90765e5bf43d898dfd27b.png" width="14" alt=""> icon next to statement template to add the statement to an existing
+3. Click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/78d9495f06b90765e5bf43d898dfd27b.png" width="14" alt=""> icon next to statement template to add the statement to an existing
 
    **statement rule**.
 
-   ![](assets/eccf7f6f710945a539f54cb71b30a82c.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/eccf7f6f710945a539f54cb71b30a82c.png)
 
 <a id="section-5-2-4"></a>
 
@@ -2042,33 +2042,33 @@ A risk template is the normalized form of an SQL statement that has triggered a 
 
 1. Go to the details page of a database. In the left-side navigation pane, choose **Risk > Risk Template Search**. On the Risk Template Search page, select a preset time range or
 
-   specify a custom time range and click the <img src="assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the Search
+   specify a custom time range and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the Search
 
    Condition section. Then, specify search conditions and click Search to search for risk templates.
 
    The search conditions include the risk type, risk level, database user, and client IP address.
 
-   ![](assets/bf143674ba0a3f0bc96ca0f020905f73.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/bf143674ba0a3f0bc96ca0f020905f73.jpeg)
 
 2. Configure statement rules.
 
-   Select the risk template that you want to use to configure statement rules and click the <img src="assets/51458e5a4b9dfd3be74d80000095c902.png" width="15" alt="">
+   Select the risk template that you want to use to configure statement rules and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/51458e5a4b9dfd3be74d80000095c902.png" width="15" alt="">
 
    icon in the upper-right corner of the Template List section. In the Statement Rule Settings
 
-   dialog box, select the statement rules that you want to configure and click the <img src="assets/7724793e2a44f9cb27768c2f6de5c289.png" width="14" alt=""> icon.
+   dialog box, select the statement rules that you want to configure and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/7724793e2a44f9cb27768c2f6de5c289.png" width="14" alt=""> icon.
 
-   ![](assets/86bbcf99a434abb578146e6f9789f866.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/86bbcf99a434abb578146e6f9789f866.jpeg)
 
-3. Click the <img src="assets/7636447c797cb8d6d87b0ec9e3ce5560.png" width="14" alt=""> icon in the **Deep Tracking** column to view the access source.
+3. Click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/7636447c797cb8d6d87b0ec9e3ce5560.png" width="14" alt=""> icon in the **Deep Tracking** column to view the access source.
 
-   ![](assets/cd622edeb2291b3b2312a69ada51d512.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/cd622edeb2291b3b2312a69ada51d512.jpeg)
 
-   ![](assets/1cd3ba48f48f7060fa9326cf540cd404.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/1cd3ba48f48f7060fa9326cf540cd404.jpeg)
 
 4. In the Deep Tracking dialog box, find the record that you want to view and click the value in the **Number of executions** column to view the details of the template.
 
-   ![](assets/18e991abcb85859843844233e62c7a46.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/18e991abcb85859843844233e62c7a46.png)
 
 <a id="section-5-3"></a>
 
@@ -2086,27 +2086,27 @@ The SQL Statistics page provides a statistical summary for various SQL statement
 
 The upper section displays the distribution of different statements in a column chart.
 
-![](assets/aa08ec9fb70f5fd85d20e42b4899716f.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/aa08ec9fb70f5fd85d20e42b4899716f.jpeg)
 
 Click each record in the table. The column chart on the right is changed to a pie chart, which displays the distribution of different client IP addresses for this operation type.
 
-![](assets/034d51fad6465644475e933d58b011ef.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/034d51fad6465644475e933d58b011ef.jpeg)
 
 Find the operation type that you want to view and click the value in the Execution times column to go to the Template Search page.
 
-![](assets/ef406f606c7331c3e2886707e70780d0.png)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/ef406f606c7331c3e2886707e70780d0.png)
 
 The lower section displays the number of execution times of SQL statements by client IP address, database user, and tool and application. You can select one or more options at a time. Statistics are displayed in a pie chart for intuitive analysis.
 
-![](assets/8807e1304c596cc982759ad8e0949e26.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/8807e1304c596cc982759ad8e0949e26.jpeg)
 
 After you select Client IP, you can also select Database Users and Tools and Applications.
 
-![](assets/b07a433d55fe29ef1a7b9eab2d1514d9.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/b07a433d55fe29ef1a7b9eab2d1514d9.jpeg)
 
 Click each record in the table. The pie chart on the right is changed to a column chart, which displays the distribution of operation types by statement source.
 
-![](assets/031462501686c99902129e004080e8cf.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/031462501686c99902129e004080e8cf.jpeg)
 
 Click Return in the upper-right corner to restore the column chart to the pie chart.
 
@@ -2120,39 +2120,39 @@ This topic describes how to search for statements.
 
 1. Go to the details page of a database. In the left-side navigation pane, choose **SQL Statements > Statement Search**. On the Statement Search page, select a preset time
 
-   range or specify a custom time range and click the <img src="assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the
+   range or specify a custom time range and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the
 
    Search Condition section. Then, specify search conditions and click Search to search for statements.
 
-   ![](assets/a46588d56a1294f927509ac88e124c34.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/a46588d56a1294f927509ac88e124c34.jpeg)
 
    You can also click More Options in the upper-right corner to add search conditions.
 
-   ![](assets/f995cbf154d6d7c195eadc308e63a3d7.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/f995cbf154d6d7c195eadc308e63a3d7.jpeg)
 
 2. View the statement list.
 
    You can view the information about SQL statements in the statement list. The information includes the SQL statement, capture time, database user, client IP address, execution result, and number of affected rows.
 
-   ![](assets/8f32b849d7800fde9d0085d7e08ce9f2.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/8f32b849d7800fde9d0085d7e08ce9f2.jpeg)
 
-   You can click the <img src="assets/d8f4f9c5f3f8ed4731c27120d4924cf0.png" width="15" alt=""> icon in the upper-right corner of the Statement List section to export
+   You can click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/d8f4f9c5f3f8ed4731c27120d4924cf0.png" width="15" alt=""> icon in the upper-right corner of the Statement List section to export
 
-   the statement list as a comma-separated values (CSV) file. You can also click the <img src="assets/296d5a99941cec2a9bace3e9f7e07d4f.png" width="14" alt=""> icon to
+   the statement list as a comma-separated values (CSV) file. You can also click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/296d5a99941cec2a9bace3e9f7e07d4f.png" width="14" alt=""> icon to
 
    manage the columns displayed in the statement list. The following figure shows the supported columns.
 
-   ![](assets/41f4b4274237107d2e8c6603c60cda4d.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/41f4b4274237107d2e8c6603c60cda4d.jpeg)
 
 3. Find the statement that you want to view and click the value in the **SQL Statement** column to view the statement details.
 
    The statement details include the access source information, application identity information, SQL statement information, and affected object.
 
-   ![](assets/798d43b0971c25eebbb5f4424a01d1de.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/798d43b0971c25eebbb5f4424a01d1de.jpeg)
 
 4. Click the value in the **Session ID** column to view the session details for each statement in the report.
 
-   ![](assets/5f4fc4cf924efe8a16d3d44ff5b2555e.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/5f4fc4cf924efe8a16d3d44ff5b2555e.png)
 
 <a id="section-5-3-3"></a>
 
@@ -2164,23 +2164,23 @@ The **Template Search** page allows you to search for SQL statement templates. T
 
 1. Go to the details page of a database. In the left-side navigation pane, choose **SQL Statements > Template Search**. On the Template Search page, select a preset time
 
-   range or specify a custom time range and click the <img src="assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the
+   range or specify a custom time range and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the
 
    Search Condition section. Then, specify search conditions and click Search to search for statement templates.
 
    The search conditions include the client IP address, database user, tool or application, MAC address, SQL identifier, and operation.
 
-   ![](assets/dbd3e62990e3300837bb3da4dd3d2ab6.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/dbd3e62990e3300837bb3da4dd3d2ab6.jpeg)
 
 2. View the statement template list. You can view the information about the statement templates, including the statement template content, last execution time, and number of execution times.
 
-   ![](assets/ee333a4235a423a71781b303745bca6a.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/ee333a4235a423a71781b303745bca6a.png)
 
-3. Find the statement template that you want to view and click the <img src="assets/b7be6b29802193386e53bc0bee1fcf68.png" width="16" alt=""> icon in the **Depth**
+3. Find the statement template that you want to view and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/b7be6b29802193386e53bc0bee1fcf68.png" width="16" alt=""> icon in the **Depth**
 
    **Tracking** column to go to the Depth Tracking page.
 
-   ![](assets/4a2f9fb6a987fca328f2ac648d2d23e8.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/4a2f9fb6a987fca328f2ac648d2d23e8.jpeg)
 
 <a id="section-5-3-4"></a>
 
@@ -2192,31 +2192,31 @@ The Failed SQL page displays all statements that failed to be executed within a 
 
 1. Go to the details page of a database. In the left-side navigation pane, choose **SQL Statements > Failed SQL**. On the Failed SQL page, select a preset time range or specify
 
-   a custom time range and click the <img src="assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the Search Condition
+   a custom time range and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the Search Condition
 
    section. Then, specify search conditions and click Search to search for failed SQL statements.
 
    The search conditions include the time, database user, client IP address, MAC address, tool or application, operation, and error number. The system provides the **Error Number** search condition to query failed SQL statements.
 
-   ![](assets/5296b8f13c1f771c780145a20d0cbbfe.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/5296b8f13c1f771c780145a20d0cbbfe.jpeg)
 
 2. View the information about failed SQL statements.
 
-   ![](assets/8344d26aee46a88c6161457160de08a1.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/8344d26aee46a88c6161457160de08a1.png)
 
-   You can click the <img src="assets/71baa38d464d2649907b7d7e3b95fd48.png" width="17" alt=""> icon in the upper-right corner of the Session List section to export the
+   You can click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/71baa38d464d2649907b7d7e3b95fd48.png" width="17" alt=""> icon in the upper-right corner of the Session List section to export the
 
    session details of the failed SQL statements as a comma-separated values (CSV) file. You can configure column settings to manage the columns displayed in the Session List section.
 
-   ![](assets/28667620cb7dc07beb4d894e336dc416.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/28667620cb7dc07beb4d894e336dc416.jpeg)
 
 3. Find the session that you want to view and click its ID in the **Session ID** column. On the Session Details page, view the details of the session.
 
-   ![](assets/0c930902445b61d9ec818959d905dc31.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/0c930902445b61d9ec818959d905dc31.png)
 
 4. Find the record that you want to view and click the value in the **SQL Statement** column to view the details of the failed SQL statement.
 
-   ![](assets/d7f7802eade7f143dc9ced1eea24a46d.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/d7f7802eade7f143dc9ced1eea24a46d.jpeg)
 
 <a id="section-5-3-5"></a>
 
@@ -2228,7 +2228,7 @@ This topic describes how to sort and view top SQL statements.
 
 1. Go to the details page of a database. In the left-side navigation pane, choose **SQL Statements > Top SQL**. On the Top SQL page, select a preset time range or specify a
 
-   custom time range and click the <img src="assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the Search Condition
+   custom time range and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the Search Condition
 
    section. Then, specify search conditions and click Search to search for SQL statements.
 
@@ -2240,13 +2240,13 @@ This topic describes how to sort and view top SQL statements.
 
    - Average Request Time and Execution Times: You can specify the two parameters to search for SQL statements whose request time consumed per minute is greater than X microseconds and number of execution times is greater than Y. X and Y indicate positive integers.
 
-     ![](assets/bef517db6f59ae53846179bf94fed3ee.jpeg)
+     ![](en-database-audit-user-guide-v3.18.6-20260701.assets/bef517db6f59ae53846179bf94fed3ee.jpeg)
 
 2. View the list of top SQL statements.
 
-   ![](assets/324667ce9eb2e0b10a16fad2f35b1ae1.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/324667ce9eb2e0b10a16fad2f35b1ae1.png)
 
-3. Click the <img src="assets/a2665981e2fa5d42081ba2b8d1d697f1.png" width="13" alt=""> icon in the upper-right corner of the Search section to export the statistics of
+3. Click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/a2665981e2fa5d42081ba2b8d1d697f1.png" width="13" alt=""> icon in the upper-right corner of the Search section to export the statistics of
 
    top SQL statements as a comma-separated values (CSV) file.
 
@@ -2260,19 +2260,19 @@ The New SQL Patterns page summarizes all statement templates newly audited on a 
 
 1. Go to the details page of a database. In the left-side navigation pane, choose **SQL Statements > New SQL Patterns**. On the New SQL Patterns page, select a preset time
 
-   range or specify a custom time range and click the <img src="assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the
+   range or specify a custom time range and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the
 
    Search Condition section. Then, specify search conditions and click Search to search for new SQL templates.
 
-   ![](assets/bcda1b7a7aa92a55751342aec94e0286.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/bcda1b7a7aa92a55751342aec94e0286.jpeg)
 
 2. View the new SQL template list.
 
-   ![](assets/265758a9f02f8c5504baa559d31dd40a.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/265758a9f02f8c5504baa559d31dd40a.png)
 
 3. Find the template that you want to view and click the value in the **New Statements** column to view the template details.
 
-   ![](assets/49948bb11864d61daac9fe38d9c35d70.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/49948bb11864d61daac9fe38d9c35d70.jpeg)
 
 <a id="section-5-3-7"></a>
 
@@ -2286,11 +2286,11 @@ The Access Source Analysis page displays the statistics on access sources for a 
 
    You can select **Database Address**, Database Users, Client IP, and Tools and Applications to view the number of execution times of SQL statements.
 
-   ![](assets/1d63771b7e7a9a3e24f049a11b39c7a3.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/1d63771b7e7a9a3e24f049a11b39c7a3.jpeg)
 
 2. Click a database address to view the statistics on SQL statements in the column chart.
 
-   ![](assets/d96eeaa5116071dbf9646074cb2e9987.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/d96eeaa5116071dbf9646074cb2e9987.jpeg)
 
 <a id="section-5-4"></a>
 
@@ -2308,7 +2308,7 @@ The Session Statistics page provides holistic analysis and statistics for sessio
 
 1. Go to the details page of a database. In the left-side navigation pane, choose **Sessions > Session Statistics**. On the Session Statistics page, select a preset time range or specify a custom time range, select **Client IP**, **Database Users**, or **Tools and Applications**, and then click **Search**.
 
-   ![](assets/00386ccba7767000b56af2845074d782.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/00386ccba7767000b56af2845074d782.jpeg)
 
 2. View statistics in the pie chart. You can dynamically display data and hide or show sectors in the pie chart.
 
@@ -2316,19 +2316,19 @@ The Session Statistics page provides holistic analysis and statistics for sessio
 
      - Select Client IP only
 
-       ![](assets/78ccb2279e2ac2e6c3bf9f83e23a26f1.jpeg)
+       ![](en-database-audit-user-guide-v3.18.6-20260701.assets/78ccb2279e2ac2e6c3bf9f83e23a26f1.jpeg)
 
      - Select Client IP and Database Users
 
-       ![](assets/b351ae7489a1d80c16d36aa551a78fe2.jpeg)
+       ![](en-database-audit-user-guide-v3.18.6-20260701.assets/b351ae7489a1d80c16d36aa551a78fe2.jpeg)
 
    - Hide sectors
 
-     ![](assets/bc086524fe3413ef07ddf3caa96af891.jpeg)
+     ![](en-database-audit-user-guide-v3.18.6-20260701.assets/bc086524fe3413ef07ddf3caa96af891.jpeg)
 
 3. Find the client IP address that you want to view and click the value in the **Number of New Sessions** column to go to the **Session Search** page.
 
-   ![](assets/2362ffbb68f0217cd1f55d917d94ec42.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/2362ffbb68f0217cd1f55d917d94ec42.jpeg)
 
 <a id="section-5-4-2"></a>
 
@@ -2340,21 +2340,21 @@ The Session Search module allows you to specify search conditions to retrieve se
 
 1. Go to the details page of a database. In the left-side navigation pane, choose **Sessions > Session Search**. On the Session Search page, select a preset time range or specify a
 
-   custom time range and click the <img src="assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the Search Condition
+   custom time range and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the Search Condition
 
    section. Then, specify search conditions and click Search to search for sessions.
 
-   ![](assets/572727c5ade9e907c16b368917a6b213.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/572727c5ade9e907c16b368917a6b213.jpeg)
 
 2. View the sessions. A number in the **Stay (min)** column indicates the duration of a session.
 
-   ![](assets/500e01f3f4e860b46fed6b6bc927e0c7.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/500e01f3f4e860b46fed6b6bc927e0c7.png)
 
 3. Find the session that you want to view and click its ID. On the **Session Details** page, view the details of the session.
 
-   ![](assets/6dd5b4e27868c180144b09ccc171cd70.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/6dd5b4e27868c180144b09ccc171cd70.png)
 
-   ![](assets/b3468dbfda472ad82fe3cd5cf1bbef81.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/b3468dbfda472ad82fe3cd5cf1bbef81.png)
 
 <a id="section-5-4-3"></a>
 
@@ -2366,15 +2366,15 @@ The Failed Logins module records information about each failed session, displayi
 
 1. Go to the details page of a database. In the left-side navigation pane, choose **Sessions > Failed Logins**. On the Failed Logins page, select a preset time range or specify a custom
 
-   time range and click the <img src="assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the Search Condition section.
+   time range and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/271c69e71386b1f500ea3537aecb367f.png" width="19" alt=""> icon in the upper-right corner of the Search Condition section.
 
    Then, specify search conditions and click Search to search for failed logins.
 
-   ![](assets/76c352600a880528be3988d39990eac6.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/76c352600a880528be3988d39990eac6.jpeg)
 
 2. View the failed logins.
 
-   ![](assets/f672aad1277f58b6fefae8830da9390c.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/f672aad1277f58b6fefae8830da9390c.jpeg)
 
 3. Find the client whose login failure information is to be viewed and click the number in the **Total Failures** column to view the failed logins of the client.
 
@@ -2390,7 +2390,7 @@ This topic describes how to view the information about active sessions.
 
 2. View the information about the active sessions, including the trend chart, statistics table, and statistics chart of the active sessions.
 
-   ![](assets/6c8fa678d4399ce0e2e043ddde513065.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/6c8fa678d4399ce0e2e043ddde513065.jpeg)
 
 <a id="section-5-5"></a>
 
@@ -2402,7 +2402,7 @@ The report feature translates systematic analysis of audit log big data into tan
 
 The reports in this topic are specific to a single database.
 
-![](assets/229c503b292165df8e125022787a71dd.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/229c503b292165df8e125022787a71dd.jpeg)
 
 The reports utilize various graphical formats, including pie, column, bar, and dual axis line charts.
 
@@ -2472,7 +2472,7 @@ Column, line, and dual axis line charts are supported.
 
 **Sample report**
 
-![](assets/c7d840b8a47522f41ebed7ffb26f1162.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/c7d840b8a47522f41ebed7ffb26f1162.jpeg)
 
 <a id="section-5-5-2"></a>
 
@@ -2498,7 +2498,7 @@ Column charts are supported.
 
 **Sample report**
 
-![](assets/4429586927185b69f1993f78ea2554c9.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/4429586927185b69f1993f78ea2554c9.jpeg)
 
 <a id="section-5-5-3"></a>
 
@@ -2520,7 +2520,7 @@ Column charts are supported.
 
 **Sample report**
 
-![](assets/849442a2b53631d1a9edd14e04a00bc4.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/849442a2b53631d1a9edd14e04a00bc4.jpeg)
 
 <a id="section-5-5-4"></a>
 
@@ -2532,7 +2532,7 @@ The Report Preset module allows you to pre-store reports of the specified types.
 
 1. Go to the details page of a database. In the left-side navigation pane, choose **Reports > Report Preset**. On the Report Preset page, click **Prestore Settings** in the upper-right corner.
 
-   ![](assets/88c0ee8c35d979f88fec4d88a95adc78.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/88c0ee8c35d979f88fec4d88a95adc78.jpeg)
 
 2. In the Pre-store Settings dialog box, find the report that you want to pre-store and click **Setting** in the **Operation** column.
 
@@ -2550,37 +2550,37 @@ A report is a summarized presentation of various performance and status metrics 
 
 1. Go to the details page of a database. In the left-side navigation pane, choose **Reports > Scheduled Delivery**. On the Scheduled Delivery page, click **Add** in the upper-right corner. In the New Task Group dialog box, configure the following parameters and click Save to create a scheduled pushing task: Task Name, Mail Subject, Sending Period, and Sending Time.
 
-   ![](assets/d3c43222b86e894c474377b8f5cafe7e.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/d3c43222b86e894c474377b8f5cafe7e.jpeg)
 
 2. On the **Comprehensive Report** or **Compliance Report** page, select a report and click Preview in the upper-right corner. Then, click **Join a Timing-Push-Task**. In the Add Push Tasks dialog box, configure the Push Task, Report Name, and Report Format parameters and click Add to add the report to the created scheduled pushing task.
 
-   ![](assets/5d043a543678c37b6a7f3d1d318d22f3.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/5d043a543678c37b6a7f3d1d318d22f3.jpeg)
 
    After the scheduled pushing task is created, it is displayed in the scheduled pushing task list.
 
 **View the reports added to a scheduled pushing task**
 
-Find the scheduled pushing task that you want to view and click the <img src="assets/4fedb35d18d6152042617a35f0e454c3.png" width="14" alt=""> icon in the **Operation**
+Find the scheduled pushing task that you want to view and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/4fedb35d18d6152042617a35f0e454c3.png" width="14" alt=""> icon in the **Operation**
 
 column to view the reports added to the scheduled pushing task.
 
-![](assets/5c43df172ff03d08a8ebd6396a4b67f8.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/5c43df172ff03d08a8ebd6396a4b67f8.jpeg)
 
 **View the sending history of a scheduled pushing task**
 
-Find the scheduled pushing task that you want to view and click the <img src="assets/9b485c72b79f072289af2ceb8bb5a7db.png" width="11" alt=""> icon in the **Operation**
+Find the scheduled pushing task that you want to view and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/9b485c72b79f072289af2ceb8bb5a7db.png" width="11" alt=""> icon in the **Operation**
 
 column to view the sending history of the scheduled pushing task.
 
 **Modify a scheduled pushing task**
 
-Find the scheduled pushing task that you want to modify and click the <img src="assets/af434fc82247ec6e8b1c7c4832091256.png" width="16" alt=""> icon in the
+Find the scheduled pushing task that you want to modify and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/af434fc82247ec6e8b1c7c4832091256.png" width="16" alt=""> icon in the
 
 **Operation** column to modify the scheduled pushing task.
 
 **Delete a scheduled pushing task**
 
-Find the scheduled pushing task that you want to delete and click the <img src="assets/420908bff03547a5311047b944b96695.png" width="10" alt=""> icon in the
+Find the scheduled pushing task that you want to delete and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/420908bff03547a5311047b944b96695.png" width="10" alt=""> icon in the
 
 **Operation** column to delete the scheduled pushing task. In the message that appears, click Ensure.
 
@@ -2602,11 +2602,11 @@ Virtual patching generates alerts for attacks that exploit database vulnerabilit
 
    The virtual patch list displays all vulnerability attack rules in the current database version. The displayed information includes Vulnerability Name, CVE, Type, Affected Range, Risk Level, Warning Notice, Control Action, and Status (enabled or disabled).
 
-   ![](assets/c7e691af5c9c9d4cf64098533da51641.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/c7e691af5c9c9d4cf64098533da51641.jpeg)
 
-2. To enable a virtual patch, find it and click the <img src="assets/5f4886fc3dfae3430c1b71464404e522.png" width="14" alt=""> icon in the **Status** column.
+2. To enable a virtual patch, find it and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/5f4886fc3dfae3430c1b71464404e522.png" width="14" alt=""> icon in the **Status** column.
 
-3. To disable a virtual patch, find it and click the <img src="assets/534d71eb1488a5c13170e50582ece7a2.png" width="14" alt=""> icon in the **Status** column.
+3. To disable a virtual patch, find it and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/534d71eb1488a5c13170e50582ece7a2.png" width="14" alt=""> icon in the **Status** column.
 
 <a id="section-5-6-2"></a>
 
@@ -2618,9 +2618,9 @@ The SQL Rules module is the central panel for applying trust and risk rules to s
 
 1. Go to the details page of a database. In the left-side navigation pane, choose **Rules > SQL**
 
-   **Rules**. On the SQL Rules page, click the <img src="assets/ae0280e21ffcd1f57664d9659d225f2b.png" width="12" alt=""> icon to add a statement rule.
+   **Rules**. On the SQL Rules page, click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/ae0280e21ffcd1f57664d9659d225f2b.png" width="12" alt=""> icon to add a statement rule.
 
-   ![](assets/1ddd150a0dd31668e69d4a3a3e6fe692.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/1ddd150a0dd31668e69d4a3a3e6fe692.jpeg)
 
 2. On the right side of the SQL Rules page, configure rule parameters.
 
@@ -2634,23 +2634,23 @@ The SQL Rules module is the central panel for applying trust and risk rules to s
 
    - **Time Limit Settings**: In this section, configure the time limit as required.
 
-3. Click the <img src="assets/baa9aba444de1b2cfe15c587a4fd5d9d.png" width="14" alt=""> icon in the upper-right corner to save the statement rule. A message appears,
+3. Click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/baa9aba444de1b2cfe15c587a4fd5d9d.png" width="14" alt=""> icon in the upper-right corner to save the statement rule. A message appears,
 
    prompting you to bind statement templates to the statement rule.
 
-   ![](assets/5efc199bd0e2e1acd5a22dde6f27375d.jpeg)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/5efc199bd0e2e1acd5a22dde6f27375d.jpeg)
 
 4. Click **OK** to immediately bind statement templates to the statement rule. Select Unreferenced from the Status drop-down list and click Search to search for available statement templates.
 
-   ![](assets/b3dd8de21c1e1587bd72e1ca94b6c3f6.png)
+   ![](en-database-audit-user-guide-v3.18.6-20260701.assets/b3dd8de21c1e1587bd72e1ca94b6c3f6.png)
 
-5. Select a statement template and click the <img src="assets/9a808fae1f678ba67f2991abd0dc7fcf.png" width="22" alt=""> icon in the **Operation** column to bind the
+5. Select a statement template and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/9a808fae1f678ba67f2991abd0dc7fcf.png" width="22" alt=""> icon in the **Operation** column to bind the
 
    statement template to the statement rule.
 
    To bind multiple statement templates to the statement rule, select the statement templates
 
-   and click the <img src="assets/d69b180232428d10afddc525ffcafb9d.png" width="18" alt=""> icon in the upper-right corner of the list.
+   and click the <img src="en-database-audit-user-guide-v3.18.6-20260701.assets/d69b180232428d10afddc525ffcafb9d.png" width="18" alt=""> icon in the upper-right corner of the list.
 
 <a id="section-5-6-3"></a>
 
@@ -2662,7 +2662,7 @@ The Quoted Rules page displays all rules in use for a single database and allows
 
 Go to the details page of a database. In the left-side navigation pane, choose **Rules > Quoted Rules**. On the Quoted Rules page, find the referenced rule that you want to view and click its name. On the right side of the Quoted Rules page, view the details of the referenced rule.
 
-![](assets/de425033fed1228848655266ab87202b.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/de425033fed1228848655266ab87202b.jpeg)
 
 <a id="section-5-7"></a>
 
@@ -2688,4 +2688,4 @@ This topic describes how to configure an engine action.
 
 Go to the details page of a database. In the left-side navigation pane, choose **Configuration > Engine Action**. On the Engine Action page, configure an engine action for the database to control the engine and determine whether to audit the database.
 
-![](assets/17558b7eb92c1cf9cb04a504ee108f05.jpeg)
+![](en-database-audit-user-guide-v3.18.6-20260701.assets/17558b7eb92c1cf9cb04a504ee108f05.jpeg)

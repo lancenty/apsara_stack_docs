@@ -676,7 +676,7 @@ Only the operation administrators and level-1 organization administrators can ob
 
 3. In the left-side navigation pane of the **Enterprise** page, click **Organizations**.
 
-4. In the Organizations navigation tree, find the organization that you want to add and click the <img src="assets/f7b1e83be6e4697de45f954a66365b66.png" width="13" alt=""> icon on the right of an organization.
+4. In the Organizations navigation tree, find the organization that you want to add and click the <img src="en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/f7b1e83be6e4697de45f954a66365b66.png" width="13" alt=""> icon on the right of an organization.
 
 5. Select **AccessKey** from the drop-down list.
 
@@ -726,7 +726,7 @@ This topic describes how to obtain the endpoint of MaxCompute in the Apsara Uni-
 
 1. Open your browser. In the address bar, enter the URL (*ops*.asconsole.*intranet-domain-id*.com). Then, press Enter.
 
-   ![](assets/1d199664f4e4f7e96da3a99ea00fb57d.png)
+   ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/1d199664f4e4f7e96da3a99ea00fb57d.png)
 
    > **Note**
    >
@@ -762,7 +762,7 @@ This topic describes how to obtain the endpoint of MaxCompute in the Apsara Uni-
 
 6. In the Machines search box, search for a machine. Click **Terminal** in the Actions column of the machine to log on to the machine.
 
-   ![](assets/9ba329486dee0ea4b4d6f7ef2c4b3182.png)
+   ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/9ba329486dee0ea4b4d6f7ef2c4b3182.png)
 
 7. Run the following command on the machine to obtain JSON data:
 
@@ -770,11 +770,11 @@ This topic describes how to obtain the endpoint of MaxCompute in the Apsara Uni-
    curl -l "http://127.0.0.1:7070/api/v3/column/c.sr.service_registration,c.sr.id?c.sr.service_registration"
    ```
 
-   ![](assets/2c181aa1756f8d80e2ae768b6d6da2b5.jpeg)
+   ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/2c181aa1756f8d80e2ae768b6d6da2b5.jpeg)
 
 8. Find the endpoint of *MaxCompute* based on the service ID (*odps-service-frontend*) and the key value (*odps_frontend_server.endpoint*) of *MaxCompute*.
 
-   ![](assets/22e11bc6dd992ea44034d1de64b26d5d.jpeg)
+   ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/22e11bc6dd992ea44034d1de64b26d5d.jpeg)
 
 <a id="section-1-3"></a>
 
@@ -4246,7 +4246,7 @@ You can drop one or more partitions from an existing materialized view.
 
 A partitioned materialized view does not contain the data of all partitions in a source partitioned table if only the latest partition data is updated to the partitioned materialized view. If the partition data that you want to query does not exist in a partitioned materialized view, the system performs a penetration query to query data from the source partitioned table. The following figure shows how to perform a penetration query.
 
-![](assets/c894a28a9f37614197aef9db78a359ed.png)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/c894a28a9f37614197aef9db78a359ed.png)
 
 To allow a materialized view to support penetration query, you must configure the following parameters:
 
@@ -18583,11 +18583,11 @@ UDFException.
 
 The three most important methods are **iterate**, **merge**, and **terminate**. The core logic of a UDAF depends on the implementation of these three methods. In addition, you must implement a custom Writable buffer. The average function (**avg**) is used as an example. The following figure briefly describes the implementation logic and computing process of the **avg** function in MaxCompute UDAF.
 
-![](assets/908b7c59b70216373cda1f237988fe4d.png)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/908b7c59b70216373cda1f237988fe4d.png)
 
 terminate:
 
-![](assets/83f7a5baa1bde65092c82d371a6ba307.png)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/83f7a5baa1bde65092c82d371a6ba307.png)
 
 r.sum/r.count
 
@@ -19907,7 +19907,7 @@ SELECT /*+mapjoin(b)*/ x.add(y).toString() FROM @a a JOIN @b b;
 
 The following figure shows the runtime process of the entire example.
 
-![](assets/442f6376881332b68a14f4c35b6249c8.jpeg)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/442f6376881332b68a14f4c35b6249c8.jpeg)
 
 This UDT has three stages: M1, R2, and J3. If you are familiar with MapReduce principles, you know that the **Join** operation requires data reshuffling, which results in multiple stages. Typically, different stages run in different processes and on different physical machines.
 
@@ -20660,7 +20660,7 @@ This topic describes the performance benefits of user-defined join (UDJ).
 
 A real online MapReduce job is used as an example to verify the performance of UDJ. The job runs based on a complex algorithm. In this example, two tables are joined, UDJ is used to rewrite the MapReduce job, and the correctness of the UDJ results is checked. The following figure shows the MapReduce and UDJ performance under the same data concurrency.
 
-![](assets/8f7e841a275c96df82cb0eac675f21cf.jpeg)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/8f7e841a275c96df82cb0eac675f21cf.jpeg)
 
 As shown in the figure, UDJ conveniently describes the complex logic of how to handle multiple tables and greatly improves performance. The code is called only within UDJ. The entire Mapper logic in this example is executed by the native runtime engine of MaxCompute. The data exchange logic between the MaxCompute UDJ runtime engine and Java interfaces is optimized in Java code. The JOIN logic of UDJ is more efficient than that of a reducer.
 
@@ -25610,19 +25610,19 @@ JOIN operations are commonly used for queries in MaxCompute. MaxCompute provides
 
 - **Sort merge join**: This method is used when a JOIN operation involves larger tables and the preceding methods cannot be used because the memory is insufficient to create a hash table. In this case, the hash shuffle operation is performed on two tables based on join keys, the obtained values are sorted by using join keys, and then the sorted values are merged. The following figure shows the process.
 
-  ![](assets/f38540892dfb714bf3566f57bc624f38.png)
+  ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/f38540892dfb714bf3566f57bc624f38.png)
 
 **Storage features**
 
 The sort merge join method is commonly used in MaxCompute because MaxCompute processes large amounts of data in most cases. If you use this method, shuffle and join operations are repeatedly performed. The physical execution plan of Job Scheduler of a JOIN operation requires multiple stages, which consumes excessive amounts of resources.
 
-![](assets/2b9101b1c8ad8de2264bafca0dceadba.jpeg)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/2b9101b1c8ad8de2264bafca0dceadba.jpeg)
 
 **Execution optimization**
 
 To address this issue, MaxCompute allows you to configure the hash shuffle and sort attributes when the data is initially generated in a table. This prevents data from being repeatedly shuffled and sorted in subsequent queries. The number of stages in the physical execution plan of Job Scheduler of a JOIN operation is also reduced. The preceding figure shows that only one stage is required.
 
-![](assets/be7c81f22febc3715b7d3ae56910fc47.jpeg)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/be7c81f22febc3715b7d3ae56910fc47.jpeg)
 
 MaxCompute Hash Clustering allows you to configure the shuffle and sort attributes of a table when you create the table. Then, MaxCompute optimizes the execution plan, improves the efficiency, and saves resources based on the existing storage characteristics.
 
@@ -25751,7 +25751,7 @@ DESC EXTENDED table_name;
 
 The table attributes are displayed in the Extended Info section.
 
-![](assets/07489a216f8c80ab116d81ba3ab83487.jpeg)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/07489a216f8c80ab116d81ba3ab83487.jpeg)
 
 **View partition attributes**
 
@@ -25763,7 +25763,7 @@ DESC EXTENDED table_name PARTITION(pt_spec);
 
 The following figure shows the execution result.
 
-![](assets/2ac7eb56ea5c445897fa43695fd480b6.jpeg)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/2ac7eb56ea5c445897fa43695fd480b6.jpeg)
 
 <a id="section-3-13-3"></a>
 
@@ -25821,9 +25821,9 @@ In addition to computation optimization, storage space is greatly saved if table
 
 The following figure shows a sample table with 100 GB of TPC-H line items and multiple data types, such as INT, DOUBLE, and STRING. If Hash Clustering is used, about 10% of the storage space is saved when the volume of data and compression format remain unchanged.
 
-![](assets/4dbd065cedbc1e5a8348dba150655a91.jpeg)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/4dbd065cedbc1e5a8348dba150655a91.jpeg)
 
-![](assets/858cf5f4894759c28d4d2912ed040cb0.jpeg)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/858cf5f4894759c28d4d2912ed040cb0.jpeg)
 
 <a id="section-3-13-4"></a>
 
@@ -26396,7 +26396,7 @@ SELECT key, SUM(value) AS total FROM  src GROUP BY key;
 
 The result shown in the following figure is returned.
 
-![](assets/6238e39a9448cf05b72bc686062a2307.jpeg)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/6238e39a9448cf05b72bc686062a2307.jpeg)
 
 Two columns are returned: **key** and **total**. The **key** column corresponds to the **src.key** column of the input table, and the **total** column corresponds to the **src.value** column of the input table.
 
@@ -26479,7 +26479,7 @@ This topic provides an overview of data skew issues.
 
 In most cases, data skew occurs if the min, max, and avg values of the instance time, input records, and output records parameters are unbalanced in an instance on which jobs run. For example, if the max value is significantly larger than the avg value, data skew may occur. You can use Logview to identify data skew issues, as shown in the following figure.
 
-![](assets/6e7a3bc49d48c3f4bfe1c55a591c6e0a.jpeg)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/6e7a3bc49d48c3f4bfe1c55a591c6e0a.jpeg)
 
 The **Long Tails** tab of each task displays the instances on which data skew occurs. The root cause of data skew is that the amount of data processed by a specific instance far exceeds that processed by other instances. As a result, the running time of this instance is also much longer than the average running time of other instances, and the entire job slows down.
 
@@ -26623,35 +26623,35 @@ This topic describes how to avoid skewed hot key values by using SKEWJOIN HINT. 
 
 1. In the following screenshot captured on LogView, J5_3_4 is the Fuxi task that took the longest time to run.
 
-   ![](assets/1f9f22e31c86bb44adca61e503ff8125.jpeg)
+   ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/1f9f22e31c86bb44adca61e503ff8125.jpeg)
 
 2. Click the J5_3_4 task and query the instances of this task on the tab that appears. The query results show that the **J5_3_4#215_0** instance takes the longest time to run and its I/O records and I/O bytes are much more than those of other instances.
 
-   ![](assets/4e4016d3206c2f9ecf296a2032b5ee21.jpeg)
+   ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/4e4016d3206c2f9ecf296a2032b5ee21.jpeg)
 
 3. This indicates that data skew occurs on the J5_3_4#215_0 instance. However, the JOIN statement that causes the data skew needs to be further determined. You can open the stdout of the skewed instance and the stdout of a non-skewed instance. The stdout of the skewed instance is enclosed in the yellow rectangle in the preceding figure. The Stdout dialog box shown in the following figure appears. In most cases, the web page cannot display all the content of stdout. To view all the content, you can click **Download** in this dialog box.
 
-   ![](assets/873f48c7b418f3bce7f3f41a4446aa58.jpeg)
+   ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/873f48c7b418f3bce7f3f41a4446aa58.jpeg)
 
 4. The following figures show that the value of **read count** in StreamLineRead7 of the skewed instance is much greater than that of the non-skewed instance. Therefore, data skew occurs when data in StreamLineWrite7 and SreamLineRead7 is shuffled.
 
    - Skewed instance
 
-     ![](assets/d910aeff71018e49ee8619ccdbb7c858.jpeg)
+     ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/d910aeff71018e49ee8619ccdbb7c858.jpeg)
 
    - Non-skewed instance
 
-     ![](assets/67ce309d068f08a763d380039107555f.jpeg)
+     ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/67ce309d068f08a763d380039107555f.jpeg)
 
 5. On the directed acyclic graph (DAG), you can right-click the skewed instance and select **expand all** to find StreamLineWrite7 and StreamLineRead7.
 
-   ![](assets/e4ff1cdcac1ee431a63c634afb76dcc3.jpeg)
+   ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/e4ff1cdcac1ee431a63c634afb76dcc3.jpeg)
 
-   ![](assets/3eb508dca3ac3764dd0df0815da2e643.jpeg)
+   ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/3eb508dca3ac3764dd0df0815da2e643.jpeg)
 
 6. The DAG shows that data skew occurs on StreamLineRead7 in MergeJoin2. MergeJoin2 is generated after the **dim_hm_item** and **dim_tb_itm_brand** tables are joined, and then the generated new table and the **dim_tb_brand** table are joined.
 
-   ![](assets/ccbb38f8e934fec1f3d81a30c3d3157e.jpeg)
+   ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/ccbb38f8e934fec1f3d81a30c3d3157e.jpeg)
 
 **Modify the problematic SQL statement**
 
@@ -26661,7 +26661,7 @@ Locate the join based on the names of the related tables in Step 1. The result s
 /*+ skewjoin(t1) */
 ```
 
-![](assets/3659afdc61e4be762ef290e43e7423e6.jpeg)
+![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/3659afdc61e4be762ef290e43e7423e6.jpeg)
 
 **Usage notes**
 
@@ -26699,11 +26699,11 @@ Jobs with insufficient computing resources typically exhibit the following two s
 
 - The job output stops at a stage and the progress remains unchanged. For example, in the following figure, the progress of M1_Stg1 in the job remains at 0%. R2_1_Stg1 depends on M1_Stg1. Therefore, the progress of R2_1_Stg1 remains at 0% before M1_Stg1 is complete.
 
-  ![](assets/dd3ac0ab397a4e70e8c5b380b7b2fc34.jpeg)
+  ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/dd3ac0ab397a4e70e8c5b380b7b2fc34.jpeg)
 
 - Task instances are in the **Ready** state on Logview, as shown in the following figure. This state indicates that resources are insufficient to run these task instances. After an instance obtains the necessary resources, its state changes to **Running**. If an instance is in the **Waiting** state, the instance waits for the completion of the task on which it depends.
 
-  ![](assets/eea15bec1d4c13b8695214e195283650.jpeg)
+  ![](en-maxcompute-developer-guide-v3.18.6-2607-20260826.assets/eea15bec1d4c13b8695214e195283650.jpeg)
 
 **Cause analysis**
 

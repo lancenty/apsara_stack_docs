@@ -241,7 +241,7 @@ To obtain the AccessKey pair of a personal account, perform the following operat
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-waf-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -506,7 +506,7 @@ If you want to call the API operations of Apsara Stack Security services from th
 
    </ol>
 
-   service domain. Click the <img src="assets/8895f188e0069a2fb2d480a39ff64cc4.png" width="13" alt=""> icon to the right of **Type**, select **Contains** from the drop-
+   service domain. Click the <img src="en-waf-developer-guide-v3.18.6-2607-20260828.assets/8895f188e0069a2fb2d480a39ff64cc4.png" width="13" alt=""> icon to the right of **Type**, select **Contains** from the drop-
 
    down list, and then enter  `vip`  in the Filter field.
 

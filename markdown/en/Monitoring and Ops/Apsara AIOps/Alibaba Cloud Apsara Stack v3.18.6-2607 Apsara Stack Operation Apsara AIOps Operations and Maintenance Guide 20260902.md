@@ -39,7 +39,7 @@ This topic describes how to log in to the AIBase Management Console.
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console and press Enter.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-2607-20260902.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -73,7 +73,7 @@ This topic describes how to log in to the AIBase Management Console.
 
 5. In the top navigation bar, choose **Platform Operation > Management and Control Service O&M > AIBase Management Console**.
 
-   ![](assets/4fac63495a246798ea2e8608c7001015.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-2607-20260902.assets/4fac63495a246798ea2e8608c7001015.jpeg)
 
 <a id="section-2"></a>
 
@@ -101,7 +101,7 @@ You can centrally create, configure, and manage Q&A and process-orchestrated int
    | Application Description | Enter a description for the application, including its scenario and purpose. |
    | Application Introduction | Enter an introduction for the application. The content appears on the agent homepage. |
 
-   ![](assets/e05a4429dfad5cf2a482852de25ccbc0.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-2607-20260902.assets/e05a4429dfad5cf2a482852de25ccbc0.jpeg)
 
 **View applications**
 
@@ -111,7 +111,7 @@ You can centrally create, configure, and manage Q&A and process-orchestrated int
 
 3. Each application card displays basic information, including the **application name**, source, **status**, **application type**, **platform**, **creator**, and **creation time**.
 
-   ![](assets/4528fe674b7ba220127bafa90865d104.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-2607-20260902.assets/4528fe674b7ba220127bafa90865d104.jpeg)
 
 **Application details**
 
@@ -150,7 +150,7 @@ You can centrally create, configure, and manage Q&A and process-orchestrated int
      </tr>
      <tr>
        <td>Dialogue type</td>
-       <td rowspan="2">• Prompt words: Enter prompt content. By adjusting the prompt content, you can guide the chat direction of the large model. The prompt is fixed at the beginning of the context. You can use variables: [data] carries known information from the knowledge base; [question] is the question raised by the user.<br>• Model service: Click<img src="assets/cb4ee3ac86eed1137de8c6674f4fa05e.png" width="12" alt="">to configure the <strong>Model</strong> and <strong>Surprise value</strong><br><strong>(temperature)</strong>.<br>The value range of <strong>surprise value</strong> is a floating-point number in the range (0, 1]. A higher value makes the output more random, while a lower value makes the output more deterministic.<br>• Knowledge base: Add knowledge base documents as context.<br>• Click <strong>Add</strong> to add knowledge base documents.<br>Click <strong>Create a knowledge base</strong> in the upper-right corner to go to the knowledge base page. For more information, see Knowledge base.<br>• Click<img src="assets/d0b6df0e5107bc82d21802a5f859e26e.png" width="12" alt="">to delete added knowledge base documents.<br>• MCP:<br>• Click <strong>Add</strong> to add an MCP service. You can search by name.<br>• Click<img src="assets/d0b6df0e5107bc82d21802a5f859e26e.png" width="12" alt="">to delete added MCPs.<br>• Debug preview: Debug dialogue-type applications and predict the accuracy of the application.<br>You can also <strong>Copy</strong> or <strong>Export Answers</strong> for debug responses, and view <strong>Logs</strong>.</td>
+       <td rowspan="2">• Prompt words: Enter prompt content. By adjusting the prompt content, you can guide the chat direction of the large model. The prompt is fixed at the beginning of the context. You can use variables: [data] carries known information from the knowledge base; [question] is the question raised by the user.<br>• Model service: Click<img src="en-aiops-operations-guide-v3.18.6-2607-20260902.assets/cb4ee3ac86eed1137de8c6674f4fa05e.png" width="12" alt="">to configure the <strong>Model</strong> and <strong>Surprise value</strong><br><strong>(temperature)</strong>.<br>The value range of <strong>surprise value</strong> is a floating-point number in the range (0, 1]. A higher value makes the output more random, while a lower value makes the output more deterministic.<br>• Knowledge base: Add knowledge base documents as context.<br>• Click <strong>Add</strong> to add knowledge base documents.<br>Click <strong>Create a knowledge base</strong> in the upper-right corner to go to the knowledge base page. For more information, see Knowledge base.<br>• Click<img src="en-aiops-operations-guide-v3.18.6-2607-20260902.assets/d0b6df0e5107bc82d21802a5f859e26e.png" width="12" alt="">to delete added knowledge base documents.<br>• MCP:<br>• Click <strong>Add</strong> to add an MCP service. You can search by name.<br>• Click<img src="en-aiops-operations-guide-v3.18.6-2607-20260902.assets/d0b6df0e5107bc82d21802a5f859e26e.png" width="12" alt="">to delete added MCPs.<br>• Debug preview: Debug dialogue-type applications and predict the accuracy of the application.<br>You can also <strong>Copy</strong> or <strong>Export Answers</strong> for debug responses, and view <strong>Logs</strong>.</td>
      </tr>
      <tr>
        <td>a2a</td>
@@ -181,7 +181,7 @@ You can centrally create, configure, and manage Q&A and process-orchestrated int
 
 **Edit an application**
 
-1. On the **Application Management** page, click <img src="assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Edit** for the target application.
+1. On the **Application Management** page, click <img src="en-aiops-operations-guide-v3.18.6-2607-20260902.assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Edit** for the target application.
 
    > **Note**
    >
@@ -191,7 +191,7 @@ You can centrally create, configure, and manage Q&A and process-orchestrated int
 
 **Delete an application**
 
-1. On the **Application Management** page, click <img src="assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Delete** for the target application.
+1. On the **Application Management** page, click <img src="en-aiops-operations-guide-v3.18.6-2607-20260902.assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Delete** for the target application.
 
    > **Note**
    >
@@ -217,11 +217,11 @@ View the built-in MCP servers on the platform for use in your applications.
 
    You can filter MCP servers by name and **Platform** to find the target server.
 
-   ![](assets/2de4ed7c749ede4cedf4cad2ab3dc4b3.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-2607-20260902.assets/2de4ed7c749ede4cedf4cad2ab3dc4b3.jpeg)
 
 4. Click the name to go to the MCP details page and view the **Basic description** and **Tool List**.
 
-   ![](assets/5b05d2e9aab2009ea444bbdafead36df.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-2607-20260902.assets/5b05d2e9aab2009ea444bbdafead36df.jpeg)
 
 <a id="section-4"></a>
 
@@ -247,17 +247,17 @@ Before creating a knowledge base, you can perform the following operations on fo
 
 4. Enter a **folder name** and click **OK**.
 
-   ![](assets/07cabb4f4d11f38623c54b0519fbe4f8.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-2607-20260902.assets/07cabb4f4d11f38623c54b0519fbe4f8.jpeg)
 
 **Edit a folder**
 
-1. Click the <img src="assets/3fcb664955bc89768352e21e7e4a203e.png" width="14" alt=""> icon next to the target folder.
+1. Click the <img src="en-aiops-operations-guide-v3.18.6-2607-20260902.assets/3fcb664955bc89768352e21e7e4a203e.png" width="14" alt=""> icon next to the target folder.
 
 2. In the dialog box that appears, modify the **folder name** and click **OK**.
 
 **Delete a folder**
 
-1. Click the <img src="assets/a01f125429b5f3e38604294a1ce695fd.png" width="10" alt=""> icon next to the target folder.
+1. Click the <img src="en-aiops-operations-guide-v3.18.6-2607-20260902.assets/a01f125429b5f3e38604294a1ce695fd.png" width="10" alt=""> icon next to the target folder.
 
 2. In the pop-up dialog box, click **Delete**.
 
@@ -271,7 +271,7 @@ Before creating a knowledge base, you can perform the following operations on fo
 
 2. In the left-side navigation pane, select **Knowledge Base**.
 
-3. Click **Create a knowledge base**, or click the <img src="assets/ba44d10e31564a84377b4a8e9a3d917a.png" width="10" alt=""> icon next to the target folder.
+3. Click **Create a knowledge base**, or click the <img src="en-aiops-operations-guide-v3.18.6-2607-20260902.assets/ba44d10e31564a84377b4a8e9a3d917a.png" width="10" alt=""> icon next to the target folder.
 
 4. Configure the following parameters and click **OK**.
 
@@ -282,7 +282,7 @@ Before creating a knowledge base, you can perform the following operations on fo
    | Embedding model | Select an embedding model. |
    | Folder | Select the folder to which the new knowledge base belongs. |
 
-   ![](assets/67abaa84c1b42b15194e8fa0b06f5730.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-2607-20260902.assets/67abaa84c1b42b15194e8fa0b06f5730.jpeg)
 
 **View knowledge bases**
 
@@ -304,7 +304,7 @@ Before creating a knowledge base, you can perform the following operations on fo
    >
    > The system supports file types such as doc, docx, pdf, txt, md, html, xls, xlsx, and csv.
 
-   ![](assets/6725e628e1b6fe7046471240ba0558cf.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-2607-20260902.assets/6725e628e1b6fe7046471240ba0558cf.jpeg)
 
 4. In the **Segmentation & Cleaning** step, select and configure the document segmentation parameters.
 
@@ -316,7 +316,7 @@ Before creating a knowledge base, you can perform the following operations on fo
 
 6. In the **Data processing** step, wait until the **Processing status** of the file changes to **Data processing successful**, and then click **Confirm**.
 
-   ![](assets/f6f6c2fb487168a75d664a783c492ea9.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-2607-20260902.assets/f6f6c2fb487168a75d664a783c492ea9.jpeg)
 
 **View knowledge base details**
 
@@ -352,7 +352,7 @@ Before creating a knowledge base, you can perform the following operations on fo
 >
 > You cannot edit built-in knowledge bases on the platform.
 
-1. Click <img src="assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Edit** in the **Operation** column of the target knowledge base.
+1. Click <img src="en-aiops-operations-guide-v3.18.6-2607-20260902.assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Edit** in the **Operation** column of the target knowledge base.
 
 2. Modify the parameters in the pop-up dialog box, and then click **OK**.
 
@@ -366,7 +366,7 @@ Before creating a knowledge base, you can perform the following operations on fo
 >
 > - You can share knowledge bases only from the primary region to unit regions. Sharing from unit regions to the primary region is not supported.
 
-1. Click <img src="assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Share** in the **Operation** column of the target knowledge base.
+1. Click <img src="en-aiops-operations-guide-v3.18.6-2607-20260902.assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Share** in the **Operation** column of the target knowledge base.
 
 2. Sharing a knowledge base takes a long time. When the knowledge base displays **Sharing**, the sharing succeeds.
 
@@ -380,7 +380,7 @@ Before creating a knowledge base, you can perform the following operations on fo
 >
 > - This operation is irreversible. Proceed with caution.
 
-1. Click <img src="assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Delete** in the **Operation** column of the target knowledge base.
+1. Click <img src="en-aiops-operations-guide-v3.18.6-2607-20260902.assets/677017fbb4a04c32d697432cb82a8463.png" width="16" alt=""> **> Delete** in the **Operation** column of the target knowledge base.
 
 2. In the pop-up dialog box, click **Delete**.
 
@@ -420,10 +420,10 @@ The centralized management portal for corpus tasks provides end-to-end support f
    | --- | --- |
    | Product | Select the product to which the corpus belongs. |
    | Question or Title | Enter a question or title related to the corpus. |
-   | Similar Questions | Click <strong>Add Item</strong> and enter similar questions.<br>• If you enter multiple similar questions, you can drag the<img src="assets/98eadb9a918bd80508248facdb253b19.png" width="12" alt="">icon<br>before a question to adjust its position.<br>• Click the<img src="assets/f39d092d9abc3baa5d1ec35886d9a570.png" width="14" alt="">icon to delete a question. |
+   | Similar Questions | Click <strong>Add Item</strong> and enter similar questions.<br>• If you enter multiple similar questions, you can drag the<img src="en-aiops-operations-guide-v3.18.6-2607-20260902.assets/98eadb9a918bd80508248facdb253b19.png" width="12" alt="">icon<br>before a question to adjust its position.<br>• Click the<img src="en-aiops-operations-guide-v3.18.6-2607-20260902.assets/f39d092d9abc3baa5d1ec35886d9a570.png" width="14" alt="">icon to delete a question. |
    | Corpus Content | Enter the content related to the corpus. |
 
-   ![](assets/7385fa385fb7ae4264093ba617994b16.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-2607-20260902.assets/7385fa385fb7ae4264093ba617994b16.jpeg)
 
 5. After the corpus is created, its **status** changes to **To be Received**. For information about the reception operation, see Receive corpus.
 
@@ -590,7 +590,7 @@ Supports displaying built-in models and configuring external inference services 
      | Model name in the APl endpoint | Enter the model name from the API endpoint. |
      | Vector dimension | This field takes effect only when you set <strong>Model Type</strong> to <strong>Embedding</strong>.<br>The dimension of the input vector. |
 
-     ![](assets/52e9195d3a08f7e5bf1a0b6d29962bae.jpeg)
+     ![](en-aiops-operations-guide-v3.18.6-2607-20260902.assets/52e9195d3a08f7e5bf1a0b6d29962bae.jpeg)
 
      </li>
 
@@ -662,7 +662,7 @@ Supports displaying built-in models and configuring external inference services 
 
 6. Configure the default models of built-in applications and user-created applications. You can configure the **Inference Model**, **Embedding Model**, and **Rerank Model** parameters. Then, click **OK**.
 
-   ![](assets/25ce6f58eb774d3ea925caff601f0c1e.jpeg)
+   ![](en-aiops-operations-guide-v3.18.6-2607-20260902.assets/25ce6f58eb774d3ea925caff601f0c1e.jpeg)
 
 <a id="section-7"></a>
 

@@ -1606,7 +1606,7 @@ This operation does not have operation-specific request headers and uses only co
 | -Encrypted | String |  | No | false | Specifies whether to encrypt data disk N. Specify the parameter in the <code> DataDisk.N.Encrypted </code> format.Valid values:<br>• true: encrypts the data disk.<br>• false: does not encrypt the data disk.Default value: false. |
 | -Description | String |  | No | Network_Description | The description of ENI N. Specify the parameter in the <code>NetworkInterface.N.Description</code> format. Set the value of N to 1. The description must be 2 to 256 characters in length and cannot start with <code> http:// </code> or <code> https:// </code>. |
 
-![](assets/576c4801a2eb95e130b42632e629f47f.png)
+![](en-ecs-developer-guide-v3.18.6-2607-20260902.assets/576c4801a2eb95e130b42632e629f47f.png)
 
 | Parameter | Type | Position | Required | Example | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -1630,13 +1630,13 @@ This operation does not have operation-specific request headers and uses only co
 | -Ipv6Address | RepeatList |  | No | 2001:db8:1234:1a00::\*\*\* | The IPv6 address N to be assigned to the primary ENI. Specify the parameter in the <code>NetworkInterface.N.Ipv6Address.N</code> <code> </code> format. Up to 10 IPv6 addresses can be assigned to the primary ENI. Valid values of the second N: 1 to 10.Example: <code>Ipv6Address.1=2001:db8:1234:1a00:</code><code>:*** </code>.<br>Take note of the following items:<br>• This parameter takes effect only if <code>NetworkInterface.N.InstanceType</code> <code> </code> is set to <code> Primary </code>. If you set <code>NetworkInterface.N.InstanceType</code> <code> </code> to <code> Secondary </code> or leave NetworkInterface.N.InstanceType empty, you cannot specify this parameter.<br>• If you specify this parameter, you must set <code> Amount </code> to 1 and cannot specify <code> Ipv6AddressCount </code>, <code> Ipv6Address.N </code>, or <code>NetworkInterface.N.Ipv6AddressC</code> <code>ount </code>. |
 | Tag | RepeatList | Query | No | N/A | The tags to be added to the instance, disks, and primary ENI. |
 
-![](assets/7023142674271bec1937ac3c175397b0.png)
+![](en-ecs-developer-guide-v3.18.6-2607-20260902.assets/7023142674271bec1937ac3c175397b0.png)
 
-![](assets/8ac87bdae2328291d9ca5835b0941f5f.png)
+![](en-ecs-developer-guide-v3.18.6-2607-20260902.assets/8ac87bdae2328291d9ca5835b0941f5f.png)
 
-![](assets/2abbb06e372c116bd49c831ec13a12ee.png)
+![](en-ecs-developer-guide-v3.18.6-2607-20260902.assets/2abbb06e372c116bd49c831ec13a12ee.png)
 
-![](assets/cb2595ea6087ce6716036c4a1a6010c5.png)
+![](en-ecs-developer-guide-v3.18.6-2607-20260902.assets/cb2595ea6087ce6716036c4a1a6010c5.png)
 
 | Parameter | Type | Position | Required | Example | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -1644,7 +1644,7 @@ This operation does not have operation-specific request headers and uses only co
 | -Value | String |  | No | TestValue | The value of tag N to be added to the instance, disks, and primary ENI.Specify the parameter in the <code> Tag.N.Value </code> format. Valid values of N: 1 to 20.The tag value can be an empty string.The tag value can be up to 128 characters in length and cannot contain <code> http:// </code> or <code> https:// </code>. |
 | Ipv6Address | RepeatList | Query | No | 2001:db8:1234:1a00::\*\*\* | The IPv6 address N to be assigned to the primary ENI. Specify the parameter in the <code> Ipv6Address.N </code> format. Valid values of N: 1 to 10.Example: <code>Ipv6Address.1=2001:db8:1234:1a00:</code><code>:*** </code>.<br>Take note of the following items:<br>• If you specify this parameter, you must set <code> Amount </code> to 1 and cannot specify <code> Ipv6AddressCount </code>, <code> Ipv6Address.N </code>, or <code>NetworkInterface.N.Ipv6AddressC</code> <code>ount </code>.<br>• If <code>NetworkInterface.N.InstanceType</code> <code> </code> is set to <code> Primary </code>, you cannot specify <code> Ipv6Addresses.N </code> or <code> Ipv6AddressCount </code>. You must specify <code>NetworkInterface.N.Ipv6Addresse</code> <code>s.N </code> or <code>NetworkInterface.N.Ipv6AddressC</code> <code>ount </code>. |
 
-![](assets/e2625cef474d0a868fa5a1776563a610.png)
+![](en-ecs-developer-guide-v3.18.6-2607-20260902.assets/e2625cef474d0a868fa5a1776563a610.png)
 
 **Response parameters**
 
@@ -6974,7 +6974,7 @@ Queries one or more Elastic Block Storage (EBS) devices that you created, includ
 | Attachments | Array of Attachment |  | The attach information of the cloud disk. The value is an array that consists of the <code> Attachment </code> values. This value is not returned when you query Shared Block Storage devices. |
 | Attachment |  |  |  |
 | AttachedTime | String | 2022-04-10T06:08:56Z | The time when the cloud disk was last attached. The time follows the ISO 8601 standard in UTC. The format is <code> yyyy-MM-</code><code>ddThh:mmZ </code>. |
-| Device | String | /dev/xvda | The device name of the disk on its associated instance. Example:<br>![](assets/29c6bde07c31c868ee0f804c7c3aa338.png)<br>/dev/xvdb.<code>  </code> This parameter has a value only when <code> Status </code> is set to <code> In_use </code>. Otherwise, the parameter is empty. |
+| Device | String | /dev/xvda | The device name of the disk on its associated instance. Example:<br>![](en-ecs-developer-guide-v3.18.6-2607-20260902.assets/29c6bde07c31c868ee0f804c7c3aa338.png)<br>/dev/xvdb.<code>  </code> This parameter has a value only when <code> Status </code> is set to <code> In_use </code>. Otherwise, the parameter is empty. |
 | InstanceId | String | i-bp67acfmxazb4q\*\*\*\* | The ID of the instance to which the disk is attached. |
 | AutoSnapshotPolicyId | String | sp-bp67acfmxazb4p\*\*\*\* | The ID of the automatic snapshot policy that is applied to the cloud disk. |
 | BdfId | String | test | Note This parameter is not supported. |
@@ -19405,7 +19405,7 @@ Table 1. Statuses
 
 Figure 1. Instance state diagram
 
-![](assets/101310d9057396cf2d71342cf3dd312a.jpeg)
+![](en-ecs-developer-guide-v3.18.6-2607-20260902.assets/101310d9057396cf2d71342cf3dd312a.jpeg)
 
 <a id="section-22-3"></a>
 

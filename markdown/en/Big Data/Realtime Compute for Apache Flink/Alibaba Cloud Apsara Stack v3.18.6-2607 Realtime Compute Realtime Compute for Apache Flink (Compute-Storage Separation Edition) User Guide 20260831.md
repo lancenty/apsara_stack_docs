@@ -112,7 +112,7 @@ You can manage workspaces and projects in the Realtime Compute for Apache Flink 
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -180,25 +180,25 @@ You can manage workspaces and projects in the Realtime Compute for Apache Flink 
 
 6. In the top navigation bar, move the pointer over **Products**, and select **Big Data Computing > Realtime Compute for Apache Flink**.
 
-7. In the lower-right corner, click the <img src="assets/56b106ac4ae2ae4848c3d88615d7e13b.png" width="15" alt=""> icon to expand or collapse the floating menu as needed.
+7. In the lower-right corner, click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/56b106ac4ae2ae4848c3d88615d7e13b.png" width="15" alt=""> icon to expand or collapse the floating menu as needed.
 
    <ol type="i">
 
    <li>
 
-   <img src="assets/d1412825189465bbc8b48a5b8a552e81.png" width="15" alt=""> : Pricing. Click this icon to go to the **Price Calculator** page.
+   <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/d1412825189465bbc8b48a5b8a552e81.png" width="15" alt=""> : Pricing. Click this icon to go to the **Price Calculator** page.
 
    </li>
 
    <li>
 
-   <img src="assets/c4957a8a214891522afeec9c72876d00.png" width="17" alt=""> : Shopping cart. Click this icon to go to the **CPQ** page.
+   <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/c4957a8a214891522afeec9c72876d00.png" width="17" alt=""> : Shopping cart. Click this icon to go to the **CPQ** page.
 
    </li>
 
    <li>
 
-   <img src="assets/e243093734a1c41cb54d2640f68061f6.jpeg" width="17" alt=""> : Apsara Copilot. Click this icon to open the Apsara Copilot dialog box and ask questions in natural
+   <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/e243093734a1c41cb54d2640f68061f6.jpeg" width="17" alt=""> : Apsara Copilot. Click this icon to open the Apsara Copilot dialog box and ask questions in natural
 
    language for help.
 
@@ -531,7 +531,7 @@ Flink allows you to edit and run jobs by using SQL code. This topic guides you t
 
    If the job status changes from the current state to **Running**, the job runs normally.
 
-   ![](assets/835f6171dfbe488f01b42dc7ffc3763a.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/835f6171dfbe488f01b42dc7ffc3763a.jpeg)
 
 4. View the Flink compute results.
 
@@ -565,7 +565,7 @@ Flink allows you to edit and run jobs by using SQL code. This topic guides you t
 
    </ol>
 
-   ![](assets/a03415aaa84308973a01e42c4b113bb8.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/a03415aaa84308973a01e42c4b113bb8.jpeg)
 
    You can also view the compute results on the **Flink UI** page. For more information, see View startup and operational logs.
 
@@ -618,7 +618,7 @@ The Realtime Compute development platform does not provide a development environ
    | Deployment mode | Select Streaming mode. | Streaming mode |
    | Deployment name | Enter the name of the corresponding JAR job. | flink-streaming-test-jar |
    | Engine version | The Flink engine version of the current job.<br>Select a version with the <strong>Recommended</strong> tag.These versions provide higher reliability and better performance. | vvr-11.5.0-flink-1.20 |
-   | JAR URI | Select a file from Resource Management in<br>the drop-down list, or click the<img src="assets/3fb82f9c2d8e56821a1035e815ee168c.png" width="15" alt="">icon on the<br>right to select and upload a JAR package. | - |
+   | JAR URI | Select a file from Resource Management in<br>the drop-down list, or click the<img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/3fb82f9c2d8e56821a1035e815ee168c.png" width="15" alt="">icon on the<br>right to select and upload a JAR package. | - |
    | Entry Point Class | The entry class of the program. If your JAR package does not specify a main class, enter the standard path of the Entry Point Class here.<br>Note<br>The test JAR package in this topic contains both streaming job code and batch job code. Therefore, you must specify the program entry for the streaming job here. | org.example.WordCountStreaming |
    | Entry Point Main Arguments | Enter the OSS path of the input data file. You can view and copy the path in Manage artifacts.<br>Note<br>In this topic, the input data file and the test JAR package share the same storage path. | --input oss://flink-fullymanaged-&lt;Workspace ID&gt;/artifacts/namespaces/&lt;Project Name&gt;/Shakespeare |
 
@@ -639,7 +639,7 @@ The Realtime Compute development platform does not provide a development environ
    | Deployment Mode | Select Batch mode. | Batch mode |
    | Deployment name | Enter the name of the corresponding JAR job.<br>Note<br>The job name must be unique within the current project. | flink-batch-test-jar |
    | Engine Version | The Flink engine version of the current job.<br>Select a version with the <strong>Recommended</strong> tag.These versions provide higher reliability and better performance. | vvr-11.5.0-flink-1.20 |
-   | JAR URI | Select a file from Resource Management in the<br>drop-down list, or click the<img src="assets/3fb82f9c2d8e56821a1035e815ee168c.png" width="15" alt="">icon on the right<br>to select and upload a JAR package. | - |
+   | JAR URI | Select a file from Resource Management in the<br>drop-down list, or click the<img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/3fb82f9c2d8e56821a1035e815ee168c.png" width="15" alt="">icon on the right<br>to select and upload a JAR package. | - |
    | Entry Point Class | The entry class of the program. If your JAR package does not specify a main class, enter the standard path of the Entry Point Class here.<br>Note<br>The test JAR package in this topic contains both streaming job code and batch job code. Therefore, you must specify the program entry for the batch job here. | org.example.WordCountBatch |
    | Entry Point Main Arguments | Enter the OSS path of the input data file. You can view and copy the path in Manage artifacts.<br>Note<br>In this topic, the input data file, output file, and test JAR package share the same storage path. | --input oss://flink-fullymanaged-&lt;Workspace ID&gt;/artifacts/namespaces/&lt;Project Name&gt;/Shakespeare<br>--output oss://flink-fullymanaged-&lt;Workspace ID&gt;/artifacts/namespaces/&lt;Project Name&gt;/batch-quickstart-test-output.txt |
 
@@ -689,7 +689,7 @@ The Realtime Compute development platform does not provide a development environ
 
    results.
 
-   ![](assets/8cfd084b582192b7f2d6f445307d6dea.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/8cfd084b582192b7f2d6f445307d6dea.jpeg)
 
    You can also view the compute results on the **Flink UI** page. For more information, see View startup and operational logs.
 
@@ -719,7 +719,7 @@ The Realtime Compute development platform does not provide a development environ
 
    your local machine.
 
-   ![](assets/d55e73332d582e943ea345706d0e7ab2.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/d55e73332d582e943ea345706d0e7ab2.jpeg)
 
 <a id="section-4"></a>
 
@@ -822,9 +822,9 @@ Real-time Compute for Apache Flink supports synchronizing data from a MySQL data
 
 2. In the left-side navigation pane, choose **Data Development > Data Ingestion**.
 
-3. Click <img src="assets/62fb48618af299b645a843893c8a574d.png" width="14" alt=""> and then click **Create Data Ingestion Draft**.
+3. Click <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/62fb48618af299b645a843893c8a574d.png" width="14" alt=""> and then click **Create Data Ingestion Draft**.
 
-   ![](assets/7e77123f35ae4ddd11bcf8300b0a3973.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/7e77123f35ae4ddd11bcf8300b0a3973.jpeg)
 
 4. Enter a **File Name**, select an **Engine Version**, and then click **Create**.
 
@@ -871,7 +871,7 @@ Real-time Compute for Apache Flink supports synchronizing data from a MySQL data
 
 1. In the left-side navigation pane, click **Data Development > ETL**. By default, the **Job Drafts** tab is selected.
 
-2. Click the <img src="assets/62fb48618af299b645a843893c8a574d.png" width="14" alt=""> icon, and then click **Create Stream Job**.
+2. Click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/62fb48618af299b645a843893c8a574d.png" width="14" alt=""> icon, and then click **Create Stream Job**.
 
 3. Enter the following SQL statement to read Paimon data and verify the sync results.
 
@@ -893,7 +893,7 @@ Real-time Compute for Apache Flink supports synchronizing data from a MySQL data
 
 4. In the upper-right corner of the page, click **Run**. The output is shown in the following figure.
 
-   ![](assets/d62f918885e58c1e671febc98b491526.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/d62f918885e58c1e671febc98b491526.jpeg)
 
 <a id="section-4-2"></a>
 
@@ -954,9 +954,9 @@ When you synchronize data from MySQL to Hologres, Flink also synchronizes table 
 
 3. In the **Create Catalog** dialog box, select **MySQL** and click **Next** to configure the catalog information.
 
-   ![](assets/5f790012f68d79da2302263a0b15082b.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/5f790012f68d79da2302263a0b15082b.jpeg)
 
-   ![](assets/e8d0ab107c82101941f693b0656d8682.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/e8d0ab107c82101941f693b0656d8682.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -981,7 +981,7 @@ When you synchronize data from MySQL to Hologres, Flink also synchronizes table 
 
 1. In the left-side navigation pane, click **Development > ETL** to open the **Drafts** tab.
 
-2. Click <img src="assets/b6459c13a15b433aee6960386458f26c.png" width="12" alt=""> and select **Create from template**.
+2. Click <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/b6459c13a15b433aee6960386458f26c.png" width="12" alt=""> and select **Create from template**.
 
 3. On the **Data synchronization template** tab, click the **MySQL to Hologres data synchronization** template name, and then click **Next**.
 
@@ -993,7 +993,7 @@ When you synchronize data from MySQL to Hologres, Flink also synchronizes table 
 
    Configure the source and destination, fill in the **MySQL configuration items**, and then click **Next**.
 
-   ![](assets/7320480163d6c48b0cec077bd2169ff7.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/7320480163d6c48b0cec077bd2169ff7.jpeg)
 
    <table>
      <tr>
@@ -1031,7 +1031,7 @@ When you synchronize data from MySQL to Hologres, Flink also synchronizes table 
 
      On the **Multi-database and multi-table synchronization** tab, select the source databases and table names for the destination.
 
-     ![](assets/e9970f891d4f5669a639414fac6c391a.jpeg)
+     ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/e9970f891d4f5669a639414fac6c391a.jpeg)
 
      </li>
 
@@ -1063,7 +1063,7 @@ When you synchronize data from MySQL to Hologres, Flink also synchronizes table 
 
      On the **Sharded database and table merging** tab, select the source databases and table names for the destination, or directly enter the destination database and table names you created.
 
-     ![](assets/723ab5ba6fa4f420f84bdc3c9afba28b.jpeg)
+     ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/723ab5ba6fa4f420f84bdc3c9afba28b.jpeg)
 
      > **Note**
      >
@@ -1319,11 +1319,11 @@ This procedure describes how to use a code template. In this example, the **Crea
 
 5. On the **SQL Scripts** tab, click the name of the template that you want to manage. In the lower-left corner of the page, click **Next**.
 
-   ![](assets/a4edf199bb813edb1229a651f84cad96.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/a4edf199bb813edb1229a651f84cad96.jpeg)
 
 6. Modify **Name**, **Deployment Target**, **Location**, and the SQL code based on your business requirements.
 
-   ![](assets/424e5f7755dd266b80216cb90e0e68c5.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/424e5f7755dd266b80216cb90e0e68c5.jpeg)
 
 7. Click **Ok**.
 
@@ -2450,7 +2450,7 @@ You can enable the debugging feature to simulate deployment running, check outpu
 
    - If you use mock data, click **Download mock data template**, enter your mock data in the template, and then click Upload mock data to upload the template.
 
-     ![](assets/0ddaef9823656914b70e961c67c4bf90.jpeg)
+     ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/0ddaef9823656914b70e961c67c4bf90.jpeg)
 
      The following table describes the parameters in this step.
 
@@ -2458,14 +2458,14 @@ You can enable the debugging feature to simulate deployment running, check outpu
      | --- | --- |
      | Download mock data template | The template is adapted to the schema of the source table. |
      | Upload mock data | If you need to debug a deployment by using mock data, you can download the mock data template, upload the data after you edit the template, and then select <strong>Use mock data</strong>.<br>Limits on using a mock data file:<br>• Only CSV files can be uploaded.<br>• A CSV file must contain a table header, such as id(INT).<br>• A CSV file can contain a maximum of 1,000 data records but cannot be greater than 1 MB. |
-     | Data Preview | After you upload mock data, click the<img src="assets/709c3ea5b2dc4c6deaf3809745f729bf.png" width="16" alt="">icon on the left side of the source table name to<br>preview the data and download the mock data. |
+     | Data Preview | After you upload mock data, click the<img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/709c3ea5b2dc4c6deaf3809745f729bf.png" width="16" alt="">icon on the left side of the source table name to<br>preview the data and download the mock data. |
      | Code Preview | The debugging feature automatically modifies the DDL statements of source and result tables. However, it does not change the draft code. You can preview code details in the lower part of Code Preview. |
 
 6. After you confirm the debugging data, click **Confirm**.
 
    After you click **Confirm**, the debugging result appears in the lower part of the SQL script editor.
 
-   ![](assets/f650ba3866594238627b86535b051d26.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/f650ba3866594238627b86535b051d26.jpeg)
 
 <a id="section-5"></a>
 
@@ -2520,14 +2520,14 @@ Before you deploy a JAR job, you must complete Develop a JAR draft.
    | Deployment Mode | Select Streaming Mode or Batch Mode for the deployment. |
    | Deployment Name | Enter the name of the JAR job. |
    | Engine Version | We recommend that you use a recommended or stable version. The version labels have the following meanings:<br>• Recommended version: The latest minor version under the current latest major version.<br>• Stable version: The latest minor version under a major version that is still within the product service period, with defects from previous versions fixed.<br>• Standard version: Other minor versions that are still within the product service period.<br>• EOS version: A version that has exceeded the product service period. |
-   | JAR URI | Select a file or manually upload a new file. You can drag a file to this area or click the<img src="assets/3fb82f9c2d8e56821a1035e815ee168c.png" width="15" alt="">icon on<br>the right to select a file for upload.<br>Note<br>If your job uses the Python API type, you must specify the official PyFlink JAR package. For the download addresses of the official JAR packages, see PyFlink V1.11 and PyFlink V1.12. |
+   | JAR URI | Select a file or manually upload a new file. You can drag a file to this area or click the<img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/3fb82f9c2d8e56821a1035e815ee168c.png" width="15" alt="">icon on<br>the right to select a file for upload.<br>Note<br>If your job uses the Python API type, you must specify the official PyFlink JAR package. For the download addresses of the official JAR packages, see PyFlink V1.11 and PyFlink V1.12. |
    | Entry Point Class | The entry class of the program. If your JAR package does not specify a main class, enter the standard path of your <strong>Entry Point Class</strong> here.<br>Note<br>If your job uses the Python API type, set Entry Point Class to org.apache.flink.client.python.PythonDriver. |
    | Entry Point Main Arguments | You can pass parameters here and call them in the main method.<br>Note<br>• The parameter length must not exceed 1,024 characters. We do not recommend using this field for complex parameters, which include parameters containing line breaks, spaces, or other special characters. If you need to pass complex parameters, use additional dependency files instead.<br>• If your job uses the Python API type, you must upload your Python job file first. After upload, the system saves the Python job file to the /flink/usrlib/ directory on the job execution node by default.<br>For example, if your Python job file is named word_count.py, set this parameter to <code> -</code><code>py /flink/usrlib/word_count.py </code>.<br>You must specify the full path for the Python job file. The /flink/usrlib/ prefix is required and cannot be changed. |
 
    <table>
      <tr>
        <td>Additional Dependency Files</td>
-       <td>• (Recommended) Select a target additional dependency file that you have already uploaded.<br>You must upload additional dependency files in advance through <strong>Resource Management</strong> on<br>the left side of the fully managed Flink development console or by clicking the<img src="assets/3fb82f9c2d8e56821a1035e815ee168c.png" width="15" alt="">icon next to<br><strong>Additional Dependency Files</strong> when deploying a job. The system saves uploaded additional dependency files to the oss://ossBucketName/artifacts/namespaces/namespaceName/&lt;file&gt; directory.<br>• Enter the OSS path of the target additional dependency file.<br>You must upload the additional dependency file to the OSS bucket associated with the current instance in advance. The OSS bucket must be the one you selected when you activated fully managed Flink.<br>• Enter the URL of the target additional dependency file. Currently, only URLs that end with a file name are supported, such as http://xxxxxx/&lt;file&gt;.<br>You must upload the additional dependency file to a publicly accessible HTTP service in advance.<br>Note<br>• The system also downloads additional dependency files uploaded through any of the preceding three methods to the target machine and loads them into the /flink/usrlib directory of the pods where the JobManager and TaskManager run.<br>• If you select the option to submit the job to a session cluster, the job does not support configuring additional dependency file paths.</td>
+       <td>• (Recommended) Select a target additional dependency file that you have already uploaded.<br>You must upload additional dependency files in advance through <strong>Resource Management</strong> on<br>the left side of the fully managed Flink development console or by clicking the<img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/3fb82f9c2d8e56821a1035e815ee168c.png" width="15" alt="">icon next to<br><strong>Additional Dependency Files</strong> when deploying a job. The system saves uploaded additional dependency files to the oss://ossBucketName/artifacts/namespaces/namespaceName/&lt;file&gt; directory.<br>• Enter the OSS path of the target additional dependency file.<br>You must upload the additional dependency file to the OSS bucket associated with the current instance in advance. The OSS bucket must be the one you selected when you activated fully managed Flink.<br>• Enter the URL of the target additional dependency file. Currently, only URLs that end with a file name are supported, such as http://xxxxxx/&lt;file&gt;.<br>You must upload the additional dependency file to a publicly accessible HTTP service in advance.<br>Note<br>• The system also downloads additional dependency files uploaded through any of the preceding three methods to the target machine and loads them into the /flink/usrlib directory of the pods where the JobManager and TaskManager run.<br>• If you select the option to submit the job to a session cluster, the job does not support configuring additional dependency file paths.</td>
      </tr>
      <tr>
        <td>Description</td>
@@ -2602,7 +2602,7 @@ If you select Latest State or Specific State when you start a deployment, the sy
 
 2. In the left-side navigation pane, choose **O&M > Deployments**, and select **STREAM** or **BATCH** from the drop-down list.
 
-   ![](assets/44752cd5545dea99db444eff64ac112d.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/44752cd5545dea99db444eff64ac112d.jpeg)
 
 3. Find the deployment that you want to manage, and click **Start** in the **Actions** column.
 
@@ -2649,13 +2649,13 @@ When you restart a stopped deployment, you can choose to start it from scratch (
 
 2. In the left-side navigation pane, choose O&M > Deployments. On the **Deployments** page, select **STREAM** or **BATCH** from the drop-down list.
 
-   ![](assets/44752cd5545dea99db444eff64ac112d.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/44752cd5545dea99db444eff64ac112d.jpeg)
 
 3. Click **Cancel** in the **Actions** column of the job that you want to stop.
 
 4. Click **OK**.
 
-   ![](assets/ad968a89053290f83ce13acfaf69832a.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/ad968a89053290f83ce13acfaf69832a.jpeg)
 
    The options for More Strategies are described as follows:
 
@@ -2947,7 +2947,7 @@ After the job runs stabilize, the **Smooth Change** policy automatically generat
 
 A traffic spike occurs from 09:00 to 19:00 every day, and the job uses 30 CUs during this peak period. The off-peak period lasts from 19:00 to 09:00 the next day, during which the job uses 10 CUs. The following figure shows the tuning policy configuration for this scenario.
 
-![](assets/93f23c7c110baa1d8234178178794660.jpeg)
+![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/93f23c7c110baa1d8234178178794660.jpeg)
 
 <a id="section-5-1-4-2"></a>
 
@@ -3063,19 +3063,19 @@ After you configure resources, you must restart the job for the changes to take 
 
    In **Expert Mode**, click **Get Now** to obtain the resource plan.
 
-   ![](assets/0bdedc049cc3a8dfeb86094bea99237f.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/0bdedc049cc3a8dfeb86094bea99237f.jpeg)
 
    </li>
 
    <li>
 
-   Click the <img src="assets/1894f954d8e19433e2a51c67b496eb4c.png" width="18" alt=""> icon on the **SLOT** box.
+   Click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/1894f954d8e19433e2a51c67b496eb4c.png" width="18" alt=""> icon on the **SLOT** box.
 
    </li>
 
    </ol>
 
-   ![](assets/788f2db30e34148ab2894d1794464ed2.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/788f2db30e34148ab2894d1794464ed2.jpeg)
 
    <ol type="i" start="3">
 
@@ -3083,7 +3083,7 @@ After you configure resources, you must restart the job for the changes to take 
 
    **Modify the SLOT** configuration.
 
-   ![](assets/30d9050b5dfa2311817705c9ea3b3439.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/30d9050b5dfa2311817705c9ea3b3439.jpeg)
 
    The concurrency value that you set here applies uniformly to all operators in the slot sharing group. After you complete the configuration, the system automatically performs the following operations:
 
@@ -3111,7 +3111,7 @@ After you configure resources, you must restart the job for the changes to take 
 
    Modify the VERTEX concurrency.
 
-   Click the <img src="assets/1894f954d8e19433e2a51c67b496eb4c.png" width="18" alt=""> icon on the target VERTEX to batch set the concurrency of operators under the
+   Click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/1894f954d8e19433e2a51c67b496eb4c.png" width="18" alt=""> icon on the target VERTEX to batch set the concurrency of operators under the
 
    corresponding VERTEX.
 
@@ -3119,27 +3119,27 @@ After you configure resources, you must restart the job for the changes to take 
 
    <li>
 
-   Click <img src="assets/5494a38ded0042039a31ffc648dfbc52.png" width="11" alt=""> on the target VERTEX box to expand the VERTEX.
+   Click <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/5494a38ded0042039a31ffc648dfbc52.png" width="11" alt=""> on the target VERTEX box to expand the VERTEX.
 
    </li>
 
    </ol>
 
-   ![](assets/d572e086eea43098927dd3ca3d13dd22.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/d572e086eea43098927dd3ca3d13dd22.jpeg)
 
    <ol type="i" start="3">
 
    <li>
 
-   Click the <img src="assets/862259eb3b5571de6fe66fc28002413e.jpeg" width="11" alt=""> icon of the operator to configure operator resources.
+   Click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/862259eb3b5571de6fe66fc28002413e.jpeg" width="11" alt=""> icon of the operator to configure operator resources.
 
    </li>
 
    </ol>
 
-   ![](assets/6b080e7b63edd303eb7508f6142f6547.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/6b080e7b63edd303eb7508f6142f6547.jpeg)
 
-   ![](assets/7eddd3913fdff144b7ffd43b8348fd99.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/7eddd3913fdff144b7ffd43b8348fd99.jpeg)
 
    The following table describes the parameters.
 
@@ -3188,7 +3188,7 @@ If you use the traditional parameter update method for a deployment, you must re
 
 When you use the dynamic parameter update feature, a REST request is sent to a deployment that is running. This feature allows a deployment to reuse existing JobManager and TaskManagers and enables the system to update parameter configurations of the deployment by performing in-place restarts or even update parameter configurations without restarting the deployment. This reduces the cost caused by deployment restart. The dynamic parameter update feature is used together with the resource pre-application and state lazy loading capabilities to accelerate the startup of the deployment after the parameter configurations of the deployment are updated. This reduces the service interruption time caused by parameter update from minutes to seconds. For example, if you perform dynamic scaling for a deployment that performs data read, map, and write operations, you can use the dynamic parameter update feature to significantly reduce the service interruption time. The following figure shows the comparison of the service interruption time between dynamic parameter update and traditional parameter update.
 
-![](assets/381a7d4b0c06866bef06660c8b715267.jpeg)
+![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/381a7d4b0c06866bef06660c8b715267.jpeg)
 
 > **Note**
 >
@@ -3246,13 +3246,13 @@ When you use the dynamic parameter update feature, a REST request is sent to a d
 
 4. Click **Hot-update** in the upper-right corner of the page.
 
-   ![](assets/4802358de91e7e1cd0e7fc5c2a72e391.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/4802358de91e7e1cd0e7fc5c2a72e391.jpeg)
 
 5. In the dialog box that appears, review the prompt information and click **OK**.
 
    After you click **OK**, an icon that indicates dynamic parameter update appears.
 
-   ![](assets/b33971c9f1e5e00a16609c0f408988f3.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/b33971c9f1e5e00a16609c0f408988f3.jpeg)
 
 **References**
 
@@ -3344,7 +3344,7 @@ Session clusters have the following limits:
 
 2. Click **Create Session Cluster** and configure the parameters.
 
-   ![](assets/c0508fd9204643a19a86a85f8e6a06a3.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/c0508fd9204643a19a86a85f8e6a06a3.jpeg)
 
    The following table describes the parameters.
 
@@ -3532,7 +3532,7 @@ This topic describes how to manage the default configurations for streaming and 
 
 4. Modify the parameters.
 
-   ![](assets/7d2489f4370192b60cabf03bd22e6f82.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/7d2489f4370192b60cabf03bd22e6f82.jpeg)
 
    **Parameter**
 
@@ -3644,7 +3644,7 @@ This topic describes how to manage the default configurations for streaming and 
 
 4. Modify the parameters.
 
-   ![](assets/18ee95c5a4cc023f79a7bf1882e5062a.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/18ee95c5a4cc023f79a7bf1882e5062a.jpeg)
 
    <table>
      <tr>
@@ -3718,13 +3718,13 @@ You must register a UDF before using it in a SQL job.
 
 2. In the left-side navigation pane, click **SQL Development**.
 
-3. On the **Functions** tab, click **Register UDF**. You can also click the <img src="assets/1b8f79df278dd04ddbb55c6f138a08a8.png" width="16" alt=""> icon in the upper-right corner.
+3. On the **Functions** tab, click **Register UDF**. You can also click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/1b8f79df278dd04ddbb55c6f138a08a8.png" width="16" alt=""> icon in the upper-right corner.
 
-   ![](assets/764495f0a68e567beb3427c737dd580b.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/764495f0a68e567beb3427c737dd580b.jpeg)
 
 4. Upload the UDF JAR file and click **Confirm**.
 
-   ![](assets/7c2d15b166b94ab20c655b6a884123f7.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/7c2d15b166b94ab20c655b6a884123f7.jpeg)
 
    You can upload the UDF JAR file in one of the following ways:
 
@@ -3744,15 +3744,15 @@ You must register a UDF before using it in a SQL job.
 
 5. In the **Manage Functions** dialog box, verify the function information and click **Create Function**.
 
-   ![](assets/83d5d0b9e213c87d82cf493405c3cfb4.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/83d5d0b9e213c87d82cf493405c3cfb4.jpeg)
 
    After the function is registered, the dialog box displays information about the **Registered Functions**. You can then remove any unnecessary functions.
 
-   ![](assets/598356f419497ba8da1f09d21bc7cb7b.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/598356f419497ba8da1f09d21bc7cb7b.jpeg)
 
    After you remove functions, the dialog box appears as shown. Verify the function details, and then close the dialog box.
 
-   ![](assets/c5209191bd51f32000c1f02df152807c.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/c5209191bd51f32000c1f02df152807c.jpeg)
 
 6. In the **Functions** list on the left of the SQL editor, you can view all registered UDFs.
 
@@ -3760,17 +3760,17 @@ You must register a UDF before using it in a SQL job.
 
 If you need to add or remove functions from a registered UDF JAR file, follow these steps.
 
-1. On the **Functions** tab, hover over the name of the target JAR file and click the <img src="assets/0cba586562d1386e92dfe280b503e86b.png" width="18" alt=""> icon.
+1. On the **Functions** tab, hover over the name of the target JAR file and click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/0cba586562d1386e92dfe280b503e86b.png" width="18" alt=""> icon.
 
 2. Add or remove functions.
 
-   ![](assets/c5209191bd51f32000c1f02df152807c.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/c5209191bd51f32000c1f02df152807c.jpeg)
 
 **Update a user-defined function**
 
 If you add new functions to a JAR file or modify the code of existing registered functions, you can update the JAR file.
 
-1. On the **Function** tab, hover over the name of the target custom function and click the <img src="assets/3fb82f9c2d8e56821a1035e815ee168c.png" width="15" alt=""> icon.
+1. On the **Function** tab, hover over the name of the target custom function and click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/3fb82f9c2d8e56821a1035e815ee168c.png" width="15" alt=""> icon.
 
 2. Update the JAR file.
 
@@ -3794,7 +3794,7 @@ If a JAR file is no longer needed, you can delete it.
 
 1. In the left-side navigation pane, click **SQL Development**.
 
-2. On the **Functions** tab, hover over the name of the target JAR file and click the <img src="assets/dacf5c49d916df2a04bf68d68bb8f0ea.png" width="15" alt=""> icon.
+2. On the **Functions** tab, hover over the name of the target JAR file and click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/dacf5c49d916df2a04bf68d68bb8f0ea.png" width="15" alt=""> icon.
 
    > **Note**
    >
@@ -3987,9 +3987,9 @@ This topic describes how to manage a Hologres catalog in the following aspects:
 
 5. Click **OK**.
 
-6. Click the <img src="assets/fe17f2f5b50d009ed66768ab57d02f9e.png" width="10" alt=""> icon to refresh the page and view the new Hologres catalog.
+6. Click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/fe17f2f5b50d009ed66768ab57d02f9e.png" width="10" alt=""> icon to refresh the page and view the new Hologres catalog.
 
-   ![](assets/49f9f2fbf1fb2c5eb399ad03f0a6b642.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/49f9f2fbf1fb2c5eb399ad03f0a6b642.jpeg)
 
 **SQL method**
 
@@ -4020,11 +4020,11 @@ This topic describes how to manage a Hologres catalog in the following aspects:
 
    After the execution, the system displays the "Query has been executed" message. To delete a Hologres catalog, see Delete a Hologres catalog.
 
-4. On the left side, click the **Metadata** tab and click the <img src="assets/fe17f2f5b50d009ed66768ab57d02f9e.png" width="10" alt=""> icon to refresh the page and view the new
+4. On the left side, click the **Metadata** tab and click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/fe17f2f5b50d009ed66768ab57d02f9e.png" width="10" alt=""> icon to refresh the page and view the new
 
    Hologres catalog.
 
-   ![](assets/49f9f2fbf1fb2c5eb399ad03f0a6b642.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/49f9f2fbf1fb2c5eb399ad03f0a6b642.jpeg)
 
 **View a Hologres catalog**
 
@@ -4034,7 +4034,7 @@ After you configure a Hologres catalog, you can view Hologres metadata by perfor
 
 2. From the drop-down list in the top menu bar, switch to the target Hologres catalog. This topic uses holo as an example.
 
-   ![](assets/ae30f34aa5a38c656b00b0e36f3e65b7.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/ae30f34aa5a38c656b00b0e36f3e65b7.jpeg)
 
 3. View information about databases, tables, and functions in different Hologres catalogs.
 
@@ -4183,9 +4183,9 @@ FROM ${other_source_table}
 
 4. On the left side, click the **Metadata** tab.
 
-5. Click the <img src="assets/fe17f2f5b50d009ed66768ab57d02f9e.png" width="10" alt=""> icon to refresh and verify whether the Hologres catalog is deleted.
+5. Click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/fe17f2f5b50d009ed66768ab57d02f9e.png" width="10" alt=""> icon to refresh and verify whether the Hologres catalog is deleted.
 
-   ![](assets/49f9f2fbf1fb2c5eb399ad03f0a6b642.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/49f9f2fbf1fb2c5eb399ad03f0a6b642.jpeg)
 
 <a id="section-7"></a>
 
@@ -4235,7 +4235,7 @@ To prevent conflicts between JAR package dependencies, take note of the followin
 
    In the **Create custom connector** dialog box, configure the parameters.
 
-   ![](assets/2baae62fe35d235a0944517c725469ee.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/2baae62fe35d235a0944517c725469ee.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -4254,7 +4254,7 @@ To prevent conflicts between JAR package dependencies, take note of the followin
 
 1. On the Custom Connectors tab, find the connector that you want to update and click **Edit** on the right side.
 
-   ![](assets/7e46115143161d904acdd388982af488.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/7e46115143161d904acdd388982af488.jpeg)
 
 2. You can upload a new JAR package as needed. You can also select **Skip** to modify the attributes of an existing connector.
 
@@ -4373,7 +4373,7 @@ This feature allows the compute-storage separated edition of Flink to access ext
 
 2. In the left-side navigation pane, choose **Data Development > ETL**.
 
-3. In the job draft, click the <img src="assets/766694ff62a1beecf7faff174502392c.png" width="10" alt=""> icon, select **New Streaming Job**, and in the **New Streaming Job** dialog box,
+3. In the job draft, click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/766694ff62a1beecf7faff174502392c.png" width="10" alt=""> icon, select **New Streaming Job**, and in the **New Streaming Job** dialog box,
 
    set **Engine Version** to  `vvr-11.5.0-flink-1.2.0` .
 
@@ -4419,7 +4419,7 @@ Using variables helps mitigate security risks associated with plaintext AccessKe
 
 2. In the left-side navigation pane, choose **Security > Variables**, and then click **Add Variable**.
 
-   ![](assets/be4d5126f61c838aab0c1ef344aa2e10.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/be4d5126f61c838aab0c1ef344aa2e10.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -4445,7 +4445,7 @@ After a variable is added, you can use it in the  `${secret_values.variable_name
 
 3. In the **Entry Point Main Arguments** field, enter the variable name in the  `--Variable name in code ${secret_values.Variable name in Variable Management}`  format. Example:
 
-   ![](assets/ca0bd5f2c69d460e828db05b423fc59e.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/ca0bd5f2c69d460e828db05b423fc59e.jpeg)
 
 4. For more information about other deployment parameters, see Job deployment.
 
@@ -4459,7 +4459,7 @@ After a variable is added, you can use it in the  `${secret_values.variable_name
 
 3. In the **Entry Point Main Arguments** field, enter the variable name in the  `--Variable name in code ${secret_values.Variable name in Variable Management}`  format. Example:
 
-   ![](assets/d6f88281b557248d670d70d5f47aff33.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/d6f88281b557248d670d70d5f47aff33.jpeg)
 
 4. For more information about other deployment parameters, see Job deployment.
 
@@ -4575,7 +4575,7 @@ Create a custom role and grant permissions to the role as needed. If you want to
 
 4. Click **OK**. You can then view, edit, and delete the added custom role.
 
-   ![](assets/c856912a87c07096fbd53b7cfff05edc.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/c856912a87c07096fbd53b7cfff05edc.jpeg)
 
    - **View permissions:** View the permissions that the role has.
 
@@ -4601,7 +4601,7 @@ Bind a role to a member to grant permissions.
 
 3. Click **Add Member** to add a member and configure the **Role** parameter for the member.
 
-   ![](assets/0ee410c24e8c067bdb116fe8c55594a6.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/0ee410c24e8c067bdb116fe8c55594a6.jpeg)
 
    Parameter description:
 
@@ -4951,11 +4951,11 @@ When you upgrade from an earlier version to version 3.18.1 or later, or perform 
 
    The IP address refers to the VIP that corresponds to the storage domain name. You can add a single IP address or a CIDR block, for example,  `192.168.0.1`  or  `192.168.0.1/24` .
 
-   ![](assets/ab4e1153143d6e03ad5d64311339c6f8.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/ab4e1153143d6e03ad5d64311339c6f8.jpeg)
 
    If the format is incorrect, an error is reported:
 
-   ![](assets/8ee3b701e1def81a95126123686002fa.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/8ee3b701e1def81a95126123686002fa.jpeg)
 
 4. Click **OK**.
 
@@ -4971,7 +4971,7 @@ This topic describes how to migrate jobs from a Flink Enterprise Edition project
 
 - Your account has the migration permission. If your account does not have the migration permission, the organization to which the project belongs must add the AliyunStreamTransferRole policy to your account on the configuration page.
 
-  ![](assets/c53d580836ba8785e1f645fcf3af51b6.jpeg)
+  ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/c53d580836ba8785e1f645fcf3af51b6.jpeg)
 
 **Precautions**
 
@@ -4991,7 +4991,7 @@ This topic describes how to migrate jobs from a Flink Enterprise Edition project
 
 3. Configure the migration task information and click **OK**.
 
-   ![](assets/d64233814be675a4a979fe07af024fc3.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/d64233814be675a4a979fe07af024fc3.jpeg)
 
    | Configuration item | Description |
    | --- | --- |
@@ -5015,7 +5015,7 @@ This topic describes how to migrate jobs from a Flink Enterprise Edition project
 
    Select the jobs and job snapshots to migrate, click the right arrow, and then click **OK**.
 
-   <img src="assets/3b9840780319679ba484073f17027ee9.png" width="21" alt="">
+   <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/3b9840780319679ba484073f17027ee9.png" width="21" alt="">
 
    </li>
 
@@ -5027,7 +5027,7 @@ This topic describes how to migrate jobs from a Flink Enterprise Edition project
 
    the left to view the snapshot information of the jobs.
 
-   ![](assets/092934c076f6a96134e19f572fc28acc.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/092934c076f6a96134e19f572fc28acc.jpeg)
 
    <ol type="i" start="3">
 
@@ -5041,7 +5041,7 @@ This topic describes how to migrate jobs from a Flink Enterprise Edition project
 
 6. Click **Start Migration**.
 
-   ![](assets/60cbbd30e2245f5462cdc9e7c9af13c6.jpeg)
+   ![](en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/60cbbd30e2245f5462cdc9e7c9af13c6.jpeg)
 
    After the migration completes, check the resource migration status and error messages to determine whether you need to adjust the migrated resources and run the migration again. After the migration completes, you can view the migrated jobs in the destination project of Flink Compute-Storage Separation Edition.
 
@@ -5081,7 +5081,7 @@ Based on the MCP Protocol, Flink supports API calls through the Apsara Copilot h
 
    <li>
 
-   In the **MCP List > Flink Management MCP** section, click the <img src="assets/513fea865b2021876ff701921a39222f.jpeg" width="15" alt=""> icon to go to the **MCP Details** page.
+   In the **MCP List > Flink Management MCP** section, click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/513fea865b2021876ff701921a39222f.jpeg" width="15" alt=""> icon to go to the **MCP Details** page.
 
    </li>
 
@@ -5109,13 +5109,13 @@ Based on the MCP Protocol, Flink supports API calls through the Apsara Copilot h
 
    <li>
 
-   Click the <img src="assets/38773a4a56e0278801bedf108c47dc20.png" width="11" alt=""> icon in the toolbar at the top of the page to go to the **Apsara Copilot** page.
+   Click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/38773a4a56e0278801bedf108c47dc20.png" width="11" alt=""> icon in the toolbar at the top of the page to go to the **Apsara Copilot** page.
 
    </li>
 
    <li>
 
-   Click the <img src="assets/c723c5b28eee70fc0f3de5114ceefb2b.png" width="15" alt=""> icon at the bottom of the dialog box to turn on the **MCP** switch, and then click the <img src="assets/ed538a69ca092c0bfd94eb509192d193.png" width="14" alt=""> icon to
+   Click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/c723c5b28eee70fc0f3de5114ceefb2b.png" width="15" alt=""> icon at the bottom of the dialog box to turn on the **MCP** switch, and then click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/ed538a69ca092c0bfd94eb509192d193.png" width="14" alt=""> icon to
 
    </li>
 
@@ -5139,7 +5139,7 @@ Based on the MCP Protocol, Flink supports API calls through the Apsara Copilot h
 
    <li>
 
-   Click the <img src="assets/ef67e5485b2e12ce9299685694a1d9d3.png" width="12" alt=""> icon on the right side to send and execute the command.
+   Click the <img src="en-flink-compute-storage-separatio-76eeb14b-v3.18.6-2607-20260831.assets/ef67e5485b2e12ce9299685694a1d9d3.png" width="12" alt=""> icon on the right side to send and execute the command.
 
    </li>
 

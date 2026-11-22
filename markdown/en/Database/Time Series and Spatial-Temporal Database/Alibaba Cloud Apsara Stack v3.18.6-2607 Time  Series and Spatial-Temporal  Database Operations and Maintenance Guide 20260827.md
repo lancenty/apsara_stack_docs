@@ -107,7 +107,7 @@ kubectl get lindorm -n <namespace>
 
 The normal status of a Lindorm instance is Ready, as shown in the following figure.
 
-![](assets/c9510afab5ee82370e83e5a2819eb146.png)
+![](en-tsdb-operations-guide-v3.18.6-2607-20260827.assets/c9510afab5ee82370e83e5a2819eb146.png)
 
 <a id="section-3-2"></a>
 
@@ -123,7 +123,7 @@ kubectl get pods -n <namespace>
 
 In normal cases, you can see all pods are in the running or ready state, and the number of restarts is 0, as shown in the following figure.
 
-![](assets/6ae49d719b3a9fa408caf6ed88cdf5a4.jpeg)
+![](en-tsdb-operations-guide-v3.18.6-2607-20260827.assets/6ae49d719b3a9fa408caf6ed88cdf5a4.jpeg)
 
 <a id="section-3-3"></a>
 
@@ -174,7 +174,7 @@ kubectl get sts -n <namespace>
 
 The following figure shows a sample command output.
 
-![](assets/b0ce5725645ce2aa46a565622906f355.png)
+![](en-tsdb-operations-guide-v3.18.6-2607-20260827.assets/b0ce5725645ce2aa46a565622906f355.png)
 
 Run the following command to upgrade the image to update the minor version.
 

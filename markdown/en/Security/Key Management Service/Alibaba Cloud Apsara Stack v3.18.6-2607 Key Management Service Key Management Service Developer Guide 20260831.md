@@ -182,7 +182,7 @@ The API operations on the API Directory page are for reference only. For informa
 
 3. On the **API Directory** page, select the required service from the drop-down list and enter the keyword of an API operation name to search for the API operation.
 
-   ![](assets/31903ce5ecddda106bb3b4fecd05fadb.jpeg)
+   ![](en-kms-developer-guide-v3.18.6-2607-20260831.assets/31903ce5ecddda106bb3b4fecd05fadb.jpeg)
 
 4. View and record the service name, API operation name, and API version.
 
@@ -206,7 +206,7 @@ To obtain the AccessKey pair of an organization, perform the following steps:
 
 3. In the left-side navigation pane of the **Enterprise** page, click **Organizations**.
 
-4. In the organization navigation tree, click the <img src="assets/f7b1e83be6e4697de45f954a66365b66.png" width="13" alt=""> icon next to an organization name.
+4. In the organization navigation tree, click the <img src="en-kms-developer-guide-v3.18.6-2607-20260831.assets/f7b1e83be6e4697de45f954a66365b66.png" width="13" alt=""> icon next to an organization name.
 
 5. Select **AccessKey** from the drop-down list.
 

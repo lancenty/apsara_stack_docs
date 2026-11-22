@@ -46,7 +46,7 @@ This topic describes how to log in to the Apsara Infrastructure Management conso
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-waf-operations-guide-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -148,7 +148,7 @@ The advanced inspection of Web Application Firewall (WAF) checks the system stat
 
    <li>
 
-   In the left-side navigation pane, click the node to which you want to log in or the <img src="assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon.
+   In the left-side navigation pane, click the node to which you want to log in or the <img src="en-waf-operations-guide-v3.18.6-2607-20260828.assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon.
 
    </li>
 
@@ -400,7 +400,7 @@ Cloud Shield Operations Center is an operations platform for Apsara Stack Securi
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-waf-operations-guide-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -455,13 +455,13 @@ You can configure global system settings to enable or disable the Web Applicatio
    | Private SLB as site downstream | Specify whether to associate an elastic IP address (EIP) with an SLB instance to add the EIP to WAF. | Turn on or off the switch. |
    | Shared IP | Specify whether to enable shared IP addresses. | Turn on or off the switch. |
    | Create external shared virtual IP | Create a shared public virtual IP address. | Click <strong>Click to create</strong> to the right of the parameter.<br>Important<br>If you click Click to create, five shared public virtual IP addresses are created.Proceed with caution. |
-   | Nginx log delivery to OSS | Specify whether to deliver NGINX logs to Object Storage Service (OSS). | Click the<img src="assets/e98ad074f3637eb3433df4c9457084e2.png" width="14" alt="">icon to the right of<br>the parameter. In the <strong>Edit nginx</strong> <strong>log delivery to OSS</strong> dialog box, turn on the<img src="assets/cdf7414140da3c251b9df0d2f8ff5e3b.png" width="13" alt="">switch, specify <strong>Endpoint</strong>, <strong>AccessKeyId</strong>, <strong>AccessKeySecret</strong>, and <strong>Preset</strong> <strong>OSS path</strong>, and then click <strong>OK</strong>. |
+   | Nginx log delivery to OSS | Specify whether to deliver NGINX logs to Object Storage Service (OSS). | Click the<img src="en-waf-operations-guide-v3.18.6-2607-20260828.assets/e98ad074f3637eb3433df4c9457084e2.png" width="14" alt="">icon to the right of<br>the parameter. In the <strong>Edit nginx</strong> <strong>log delivery to OSS</strong> dialog box, turn on the<img src="en-waf-operations-guide-v3.18.6-2607-20260828.assets/cdf7414140da3c251b9df0d2f8ff5e3b.png" width="13" alt="">switch, specify <strong>Endpoint</strong>, <strong>AccessKeyId</strong>, <strong>AccessKeySecret</strong>, and <strong>Preset</strong> <strong>OSS path</strong>, and then click <strong>OK</strong>. |
    | Show Alibaba Cloud Logo when exporting reports | Specify whether to display the Alibaba Cloud logo in the security report. | Turn on or off the switch. |
-   | Log download quota | Specify the maximum number of logs that can be downloaded. | Click the<img src="assets/e98ad074f3637eb3433df4c9457084e2.png" width="14" alt="">icon to the right of<br>this parameter. Then, set the maximum number of logs that can be downloaded and click <strong>Confirm</strong>. |
+   | Log download quota | Specify the maximum number of logs that can be downloaded. | Click the<img src="en-waf-operations-guide-v3.18.6-2607-20260828.assets/e98ad074f3637eb3433df4c9457084e2.png" width="14" alt="">icon to the right of<br>this parameter. Then, set the maximum number of logs that can be downloaded and click <strong>Confirm</strong>. |
    | Anti-tampering | Specify whether to enable web page protection. When a locked page receives a request, a cached version of the page is returned. This helps prevent web page tampering. | Turn on or off the switch. |
    | EIP | Specify whether EIPs can be added to WAF. | Turn on or off the switch. |
-   | Specify response status code for unmatched domains | Specify the status code to return when no domain name is matched. | Click the<img src="assets/e98ad074f3637eb3433df4c9457084e2.png" width="14" alt="">icon to the right of<br>this parameter to specify the HTTP status code to return. |
-   | Maximum number of listening ports | Specify the maximum number of listening ports. | Click the<img src="assets/e98ad074f3637eb3433df4c9457084e2.png" width="14" alt="">icon to the right of<br>this parameter to specify the maximum number of listening ports. |
+   | Specify response status code for unmatched domains | Specify the status code to return when no domain name is matched. | Click the<img src="en-waf-operations-guide-v3.18.6-2607-20260828.assets/e98ad074f3637eb3433df4c9457084e2.png" width="14" alt="">icon to the right of<br>this parameter to specify the HTTP status code to return. |
+   | Maximum number of listening ports | Specify the maximum number of listening ports. | Click the<img src="en-waf-operations-guide-v3.18.6-2607-20260828.assets/e98ad074f3637eb3433df4c9457084e2.png" width="14" alt="">icon to the right of<br>this parameter to specify the maximum number of listening ports. |
 
 <a id="section-2-3"></a>
 
@@ -1628,7 +1628,7 @@ After you log in to Apsara Uni-manager Operations Console, choose **Monitor&Aler
   </tr>
 </table>
 
-![](assets/7f6c2eeeafb99d02ef9e562b1f418240.png)
+![](en-waf-operations-guide-v3.18.6-2607-20260828.assets/7f6c2eeeafb99d02ef9e562b1f418240.png)
 
 <table>
   <tr>
@@ -1692,7 +1692,7 @@ After you log in to Apsara Uni-manager Operations Console, choose **Monitor&Aler
     <td></td>
     <td>This alert is triggered because sites are frequentl y created, modified, and deleted.As a result, an excessive number of workers of the WAF forwardin g engine remain in the shutting</td>
     <td></td>
-    <td rowspan="2">• If the number of normal workers equals half of the number of vCPUs, no action is needed. Do not modify sites frequently within a short period of time in case this issue occurs again.<br>• If the number of workers in the normal state is less than half of the number of cpu cores, the number of workers in the shutting down state is too large when starting a new worker. As a result, the new worker cannot be created. In this case, you need to perform subsequent operations.<br>4. Run the <code> ps -aux </code> <code>&#124; grep</code><br><code>'nginx:worker'&#124;</code><br><code>grep 'shutting</code><br><code>down'&#124; wc -l</code> command to view the number of workers in the shutting down state.<br>5. If the number of workers exceeds 800, run the <code> sudo </code> <code>docker exec</code><br><code>tengine kill-</code><br><code>stale-worker</code> command to kill old workers.<br><img src="assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>This command will close existing client connections.</td>
+    <td rowspan="2">• If the number of normal workers equals half of the number of vCPUs, no action is needed. Do not modify sites frequently within a short period of time in case this issue occurs again.<br>• If the number of workers in the normal state is less than half of the number of cpu cores, the number of workers in the shutting down state is too large when starting a new worker. As a result, the new worker cannot be created. In this case, you need to perform subsequent operations.<br>4. Run the <code> ps -aux </code> <code>&#124; grep</code><br><code>'nginx:worker'&#124;</code><br><code>grep 'shutting</code><br><code>down'&#124; wc -l</code> command to view the number of workers in the shutting down state.<br>5. If the number of workers exceeds 800, run the <code> sudo </code> <code>docker exec</code><br><code>tengine kill-</code><br><code>stale-worker</code> command to kill old workers.<br><img src="en-waf-operations-guide-v3.18.6-2607-20260828.assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>This command will close existing client connections.</td>
   </tr>
   <tr>
     <td>&gt;cpu _core s * 4</td>
@@ -1749,12 +1749,12 @@ not modify
 
    - WAF system monitoring overview: On the **Application Security > Web Application Firewall** tab, you can view the system metrics, including the CPU utilization, memory usage, loads, number of TCP connections, and process data.
 
-     ![](assets/40aae02b0058b8f81954be032cb1c983.jpeg)
+     ![](en-waf-operations-guide-v3.18.6-2607-20260828.assets/40aae02b0058b8f81954be032cb1c983.jpeg)
 
    - WAF instance system monitoring: Click the **YundunSemawafApp** card to go to the **Basic Monitoring** tab to view system monitoring details.
 
      On this tab, you can view changes in the CPU utilization, memory usage, loads, number of TCP connections, and process data in **Cluster View** or **Single-server View**.
 
-     ![](assets/086f47c76d867220b5063381af33844e.jpeg)
+     ![](en-waf-operations-guide-v3.18.6-2607-20260828.assets/086f47c76d867220b5063381af33844e.jpeg)
 
      You can select or specify a time range, click the Refresh icon to manually update the monitoring data, or enable Automatic Refresh to allow the system to automatically update the monitoring data.

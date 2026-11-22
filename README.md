@@ -103,15 +103,24 @@ python scripts/convert_pdf_to_md.py "docs/cn/中间件/应用运维平台" --out
 python scripts/convert_pdf_to_md.py "docs/cn/中间件/应用运维平台" --force
 ```
 
-每份 PDF 对应一份同名 MD，位于 `markdown/<语言>/<分类>/<产品>/`。图片使用产品目录下的相对路径 `assets/`。复制产品目录和其中的图片后即可离线阅读。建议使用支持表格和内嵌 HTML 的 Markdown 阅读器，合并单元格及罗马数字子步骤使用 HTML 表达。
+每份 PDF 对应一份同名 MD，位于 `markdown/<语言>/<分类>/<产品>/`。每份文档拥有独立的同级资源目录（`<assets_dir>/`，如 `zh-ecs-user-guide-v3.18.6-20251230.assets/`），与其它文档完全解耦，可直接打包单份 MD 及其 `.assets` 目录离线阅读或独立发布。建议使用支持表格和内嵌 HTML 的 Markdown 阅读器，合并单元格及罗马数字子步骤使用 HTML 表达。
 
 文档从纯文字封面和可跳转的多级目录开始。正文保留编号标题、加粗标签、分层步骤、提示和代码。工具按表格列线、单元格边界及分页位置识别续表。嵌入的截图优先按原始像素提取，组合图按版面截取。
 
 [飞天助理开发指南](<markdown/cn/OpenTrek/飞天助理/阿里云 专有云 V3.18.6 飞天助理 开发指南 20251205.md>)展示了行内按钮、可复制的 API 名称和斜体引用。转换器按原 PDF 的字形倾斜与按钮坐标还原这些内容。[飞天助理产品简介](<markdown/cn/OpenTrek/飞天助理/阿里云 专有云 V3.18.6 飞天助理 产品简介 20251205.md#section-4>)中的“功能特性”表为短名称预留列宽，长说明可随阅读窗口换行。
 
+### 标准化 Document ID 与独立 Assets
+
+每份文档按确定性本地规则（无模型调用）生成唯一结构化 `document_id`：`{language}/{platform_version}/{product}/{document_key}/{document_version}`（如 `zh-cn/v3.18.6/ecs/user-guide/20251230`）：
+
+- 规则词典与产品映射：`config/doc_id_rules.json`
+- 人工确认覆盖规则：`config/doc_id_overrides.json`
+- 持久化身份注册表：`config/doc_id_registry.json`（按源 PDF 指纹保持已有文档 ID 稳定）
+- 迁移与审计脚本：`python scripts/migrate_assets_and_ids.py --dry-run` / `--apply`（输出报告至 `reports/ASSET_AND_DOCID_REPORT.md` 与 `reports/document-id-report.json`）
+
 ### 续跑和核验
 
-转换器逐份更新输出目录中的 `manifest.json`。重新运行相同命令会跳过源 PDF 指纹、转换规则及输出校验仍匹配的文档，重试失败项。默认最多同时处理 6 份，内存紧张时可用 `--jobs 2`。同一输出目录一次运行一个转换任务。
+转换器逐份更新输出目录中的 `manifest.json`（`format: 2`），记录 `document_id`、标准化语言/平台版本/产品/文档主题/文档版本、独立 `assets_dir` / `assets_path` / `assets` 清单，以及源/目标文件指纹与转换质量统计。重新运行相同命令会跳过源 PDF 指纹、转换规则、Document ID 及独立资源均匹配的文档，重试失败项。默认最多同时处理 6 份，内存紧张时可用 `--jobs 2`。同一输出目录一次运行一个转换任务。
 
 清单的 `source` 和 `output` 分别给出相对于源文档根目录和输出目录的路径。`ok` 表示已生成且通过转换内置检查，`review` 表示已生成并有版面问题需要复核，`failed` 表示本次转换失败。`issues` 中的页码从 PDF 封面计为第 1 页。清单另列正文起页、空白页、跨页长图所占的续页、目录项数和跨页表格合并次数。
 

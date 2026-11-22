@@ -1,5 +1,5 @@
 {
-  "rules": "d940f6d0aa7f7a4d",
+  "rules": "ddc5b49645829a2c",
   "rendered": true,
   "summary": {
     "documents": 704,
@@ -10,6 +10,13 @@
     "tables": 54970,
     "table_joins": 27192,
     "images": 25696,
+    "unique_document_ids": 704,
+    "unique_assets_paths": 704,
+    "shared_asset_dirs_found": 0,
+    "id_overrides": 1,
+    "id_anomalies": 0,
+    "id_conflicts": 0,
+    "max_asset_path_len": 234,
     "failed_checks_documents": 0
   },
   "errors": {}

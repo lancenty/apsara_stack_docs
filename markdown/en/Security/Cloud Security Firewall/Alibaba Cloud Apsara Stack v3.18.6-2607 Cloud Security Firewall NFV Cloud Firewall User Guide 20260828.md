@@ -168,7 +168,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
 In the upper-right corner of the **Firewalls** page, you can view the firewall capacity, which indicates the throughput of the firewall purchased for the site. You can configure quotas in Quota Management in the Apsara Uni-manager Management Console.
 
-![](assets/5498e01660174782277f830cbc1d829e.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5498e01660174782277f830cbc1d829e.jpeg)
 
 <a id="section-3-1-1"></a>
 
@@ -446,7 +446,7 @@ This topic describes how to view and delete CIDR blocks.
 
 5. In the **Tips** message, check the information and click **OK**.
 
-   ![](assets/d76074c6e78348256ac9a1bcd19fb96b.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/d76074c6e78348256ac9a1bcd19fb96b.jpeg)
 
 <a id="section-3-3"></a>
 
@@ -772,7 +772,7 @@ This topic describes how to view, modify, and delete routes.
 
 4. View the list of routes.
 
-   ![](assets/7eb83b80ffc5baa9e55803d0c1504d4e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/7eb83b80ffc5baa9e55803d0c1504d4e.jpeg)
 
 **Modify route configurations**
 
@@ -976,7 +976,7 @@ You can view the details about workflows of vFW cluster creation and deletion ta
 
    icon in each step to view the details of each subtask.
 
-   ![](assets/3ec97a4335b15e909e351516294d3b0e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/3ec97a4335b15e909e351516294d3b0e.jpeg)
 
 **View workflows of endpoint tasks**
 
@@ -998,7 +998,7 @@ You can view the details about workflows of vFW cluster creation and deletion ta
 
    icon in each step to view the details of each subtask.
 
-   ![](assets/84e511331dc440d81fc172a3718554c8.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/84e511331dc440d81fc172a3718554c8.jpeg)
 
 <a id="section-3-6"></a>
 
@@ -1020,7 +1020,7 @@ An organization has deployed two VPCs in a data center: VPC1 and VPC2. The CIDR 
 
 To meet this goal, the organization uses an account that assumes the organization security admin role to create an NFV Cloud Firewall cluster, create endpoints in VPC1 and VPC2, and publish traffic redirection routes. In the preceding solution, VPC1 and VPC2 are securely connected, and ECS1 and ECS2 can communicate as expected. In addition, all east-west traffic is redirected to NVF Cloud Firewall and matched against access control policies. This efficiently enhances the security of inter-VPC communication.
 
-![](assets/d94cb90fea9d6d5e173336bc2f12b0ab.png)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/d94cb90fea9d6d5e173336bc2f12b0ab.png)
 
 **V**
 
@@ -1036,23 +1036,23 @@ Use an account that belongs to the current organization to log in to the Apsara 
 
 - Create VPC1 and VPC2:
 
-  ![](assets/99cb25479fda9f939b21c5964e4b83eb.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/99cb25479fda9f939b21c5964e4b83eb.jpeg)
 
 - Create vSwitch1 and vSwitch2:
 
-  ![](assets/b724bd7d2c22b67b9128ba60c0680b2a.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b724bd7d2c22b67b9128ba60c0680b2a.jpeg)
 
 - Create ECS instances and a security group:
 
-  ![](assets/c8b9e2f69f2f07c1940b03db13f146b5.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/c8b9e2f69f2f07c1940b03db13f146b5.jpeg)
 
   > **Important**
   >
   > In this example, the security group permits traffic from all sources to simplify the configuration. In actual business scenarios, you need to configure the security group to permit traffic based on the business needs of the ECS instances. Do not permit traffic from all sources.
 
-  ![](assets/70a87fe3d0131629e2180c07599107bf.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/70a87fe3d0131629e2180c07599107bf.jpeg)
 
-  ![](assets/12e3616d0ed703710df54e1ad267cf0b.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/12e3616d0ed703710df54e1ad267cf0b.jpeg)
 
 **Configure NFV Cloud Firewall**
 
@@ -1060,11 +1060,11 @@ Use an account that belongs to the current organization to log in to the Apsara 
 
 1. Use an account that can assume the organization security admin role by default to log in to the Apsara Uni-manager Management Console and choose **Security > Network Security > NFV Cloud Firewall**.
 
-   ![](assets/87b4f78fc721087ef16cd31bb51cabed.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/87b4f78fc721087ef16cd31bb51cabed.jpeg)
 
    If this is the first time the level-1 organization of the account uses NFV Cloud Firewall, the **ram role does not exist** message is displayed after you are logged in. In this case, you need to create a Resource Access Management (RAM) role first.
 
-   ![](assets/9442f8b705a5061328e249992150b6fc.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/9442f8b705a5061328e249992150b6fc.jpeg)
 
 2. Switch to the role that has permissions on the organization, such as the organization admin or organization security admin role. You can also use the admin account of the Apsara Uni-manager Management Console. Choose **Configurations > Service-linked Roles**, click **Create Service-linked Role**, configure the following parameters, and click **OK**.
 
@@ -1072,11 +1072,11 @@ Use an account that belongs to the current organization to log in to the Apsara 
 
    - **Authorized Organization Name:** Select the organization on which the role is granted permissions. In this example, NFV_POC1 is selected.
 
-   ![](assets/7563f46b49ba68004f4404a704d33420.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/7563f46b49ba68004f4404a704d33420.jpeg)
 
-   ![](assets/5d537cf7c70f4da208cce4251af7311f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5d537cf7c70f4da208cce4251af7311f.jpeg)
 
-   ![](assets/9cee4427df30004c18c9ae0eab89d473.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/9cee4427df30004c18c9ae0eab89d473.jpeg)
 
 **Step 2: Check the vFW capacity**
 
@@ -1092,9 +1092,9 @@ On the **Firewalls** page of the **NFV Cloud Firewall** console, **VFW Capacity:
 
 You can create NFV Cloud Firewall clusters only when  `Capacity required for creating an NFV Cloud Firewall cluster + Current capacity used ≤ Total capacity` . If not, you need to use the admin account to adjust the NFV Cloud Firewall quota for this organization.
 
-![](assets/f40a41a34e43bd0e3f736aed19c24287.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f40a41a34e43bd0e3f736aed19c24287.jpeg)
 
-![](assets/5498e01660174782277f830cbc1d829e.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5498e01660174782277f830cbc1d829e.jpeg)
 
 **Step 3: Create a CIDR block (required only during the first time you create an NFV Cloud Firewall cluster)**
 
@@ -1114,11 +1114,11 @@ If this is the first time you create an NFV Cloud Firewall cluster in a level-1 
    | Area | Select a region. |
    | CIDR | Enter a CIDR block. The mask length must be smaller than 26. In this example, enter <strong>192.168.1.0/24</strong>. |
 
-   ![](assets/6f8149ca67f9d7e038f5175c00251557.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6f8149ca67f9d7e038f5175c00251557.jpeg)
 
 2. After you confirm the configuration, click **OK**. After the status of the CIDR block changes from **processing** to **success**, the CIDR block is created.
 
-   ![](assets/60e6da07c3241ec3facdabb0df0d2cca.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/60e6da07c3241ec3facdabb0df0d2cca.jpeg)
 
 **Step 4: Create an NFV Cloud Firewall application**
 
@@ -1146,31 +1146,31 @@ If this is the first time you create an NFV Cloud Firewall cluster in a level-1 
    >
    > The values of the CPU Type, VFW Specification, ECS Specification, and ECS Image ID parameters vary depending on the environment and Apsara Stack version. Specify these parameters based on the actual business requirements.
 
-   ![](assets/824d1f93e69572d557f5ed8c021565e2.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/824d1f93e69572d557f5ed8c021565e2.jpeg)
 
 2. After you confirm the configuration, click **OK**. Then, the system automatically verifies the capacity and quota. If the capacity is sufficient, the operation succeeds and a new NFV Cloud Firewall application is displayed in the list. The status of the vFW cluster changes to **Creating**.
 
-   ![](assets/0fb681e218be5068a5b7ba34b73ec0ff.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0fb681e218be5068a5b7ba34b73ec0ff.jpeg)
 
 3. Click the task ID in the **Task ID** column of the application to go to the Workflow page. On this page, you can view the progress of the cluster creation task. When the subtasks **ecs_start** and **eni_attach** enter the **Successful** state, the cluster is created.
 
-   ![](assets/94e17d1cc3db3fc7a9f2d670ac55e134.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/94e17d1cc3db3fc7a9f2d670ac55e134.jpeg)
 
 4. Return to the **Firewalls** page. The NFV Cloud Firewall application is displayed. When the status of the vFW cluster changes to **Running**, click the application name to go to the application details page. You can view the health status of the vFW ECS instance in the **Health Status** column. If **Healthy** is displayed, the cluster service functions as expected. You can then proceed to the next step. If not, the cluster service is not ready. Wait patiently.
 
-   ![](assets/ab0aae117f45a7877a67f419b3fe998d.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ab0aae117f45a7877a67f419b3fe998d.jpeg)
 
-   ![](assets/59e6423f885b113c6b16cc6e45ebd4ce.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/59e6423f885b113c6b16cc6e45ebd4ce.jpeg)
 
 Common prompts:
 
 - **Quota check not passed**: The capacity usage exceeds the specified quota. In this case, use the admin account to log in to the Apsara Uni-manager Management Console and adjust the NFV Cloud Firewall capacity quota for the current organization.
 
-  ![](assets/82eb50e792dc0154b05d819249f04e91.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/82eb50e792dc0154b05d819249f04e91.jpeg)
 
 - **cluster capacity reach license limit**: The capacity usage exceeds the total capacity. In this case, increase the NFV Cloud Firewall capacity by placing a purchase order.
 
-  ![](assets/c7c0a8f4c97a340bab013dd6b2cc11f6.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/c7c0a8f4c97a340bab013dd6b2cc11f6.jpeg)
 
 **Step 5: Create endpoints**
 
@@ -1190,7 +1190,7 @@ Two processes are involved to create an endpoint:
 
 1. Go to the NFV Cloud Firewall application details page. In the **Endpoint** section, click **Create Endpoint** on the right side.
 
-   ![](assets/2c94cce99d3cff3fca6cfa9f46759462.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/2c94cce99d3cff3fca6cfa9f46759462.jpeg)
 
 2. In the **Create Endpoint** panel, configure the following parameters to create an endpoint in VPC1.
 
@@ -1205,29 +1205,29 @@ Two processes are involved to create an endpoint:
    | Source Vswitch | Select the source vSwitch from the drop-down list to assign an IP address to the endpoint. |
    | Description | Enter an informative description. We recommend that you enter a description related to the VPC, vSwitch, and business.Example: link_to_vpc1. |
 
-   ![](assets/82e586eeac235218e58b9bccc29f2043.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/82e586eeac235218e58b9bccc29f2043.jpeg)
 
 3. After you confirm the configuration, click **OK** to create the endpoint. Then, a new endpoint in the **Creating** state is displayed on the page.
 
-   ![](assets/f750ad76362f9457ec011e066ac17936.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f750ad76362f9457ec011e066ac17936.jpeg)
 
 4. Click the task ID in the Task ID column of the endpoint to go to the Workflow page. On this page, you can view the progress of the endpoint creation task. When the task enters the **Successful** state, the endpoint is created.
 
-   ![](assets/f8ac3c6f9846cc14e96879b05e0c95fe.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f8ac3c6f9846cc14e96879b05e0c95fe.jpeg)
 
 5. Return to the Details page. You can find that the endpoint is in the **Running** state, and the endpoint ID and IP address are displayed.
 
-   ![](assets/19ad13ed8cce61ff769a2da8878f0cb1.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/19ad13ed8cce61ff769a2da8878f0cb1.jpeg)
 
    In the **VFW Interface** section, a vFW interface is automatically added based on the endpoint information. If the Configuration Details column of the vFW interface displays **Published**, the endpoint workflow is completed.
 
-   ![](assets/0bff7a7935e014a60cd54e4281cd12e0.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0bff7a7935e014a60cd54e4281cd12e0.jpeg)
 
 **Create an endpoint in VPC2**
 
 1. In the **Endpoint** section, click **Create Endpoint** on the right side.
 
-   ![](assets/5ed2915eb1c6011a222b441b39e9c92f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5ed2915eb1c6011a222b441b39e9c92f.jpeg)
 
 2. In the **Create Endpoint** panel, configure the following parameters to create an endpoint in VPC2.
 
@@ -1242,39 +1242,39 @@ Two processes are involved to create an endpoint:
    | Source Vswitch | Select the source vSwitch from the drop-down list to assign an IP address to the endpoint. |
    | Description | Enter an informative description. We recommend that you enter a description related to the VPC, vSwitch, and business.Example: link_to_vpc2. |
 
-   ![](assets/89d7ac8b3801b1d1ef460300f8732c75.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/89d7ac8b3801b1d1ef460300f8732c75.jpeg)
 
 3. After you confirm the configuration, click **OK** to create the endpoint. Then, a new endpoint in the **Creating** state is displayed on the page.
 
-   ![](assets/13d9076a563a399c00018d53c05ed83c.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/13d9076a563a399c00018d53c05ed83c.jpeg)
 
 4. Click the task ID in the Task ID column of the endpoint to go to the Workflow page. On this page, you can view the progress of the endpoint creation task. When the task enters the **Successful** state, the endpoint is created.
 
-   ![](assets/796a1fdd9eafa814e695079439c9827d.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/796a1fdd9eafa814e695079439c9827d.jpeg)
 
 5. Return to the Details page. You can find that the endpoint is in the **Running** state, and the endpoint ID and IP address are displayed.
 
-   ![](assets/7fbfc1a729e8f864285c96397cd3a4ed.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/7fbfc1a729e8f864285c96397cd3a4ed.jpeg)
 
    In the **VFW Interface** section, a vFW interface is automatically added based on the endpoint information. If the Configuration Details column of the vFW interface displays **Published**, the endpoint workflow is completed.
 
-   ![](assets/fd4ed067e9bdbb2fc2fc8f04d5d7be1e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/fd4ed067e9bdbb2fc2fc8f04d5d7be1e.jpeg)
 
 After you complete the configuration, the endpoints and vFW interfaces enter the following states.
 
-![](assets/d27eb61389d310630ac91ae0b36ebb14.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/d27eb61389d310630ac91ae0b36ebb14.jpeg)
 
 **Step 6: Create vFW routers**
 
 By default, a vFW interface is configured with a direct route that points to the CIDR block of the vSwitch. However, you still need to add static routes to the vFW to route traffic to the CIDR blocks of VPC1 and VPC2.
 
-![](assets/87cceb08e3e9bcae8a59e20b933e055f.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/87cceb08e3e9bcae8a59e20b933e055f.jpeg)
 
 **Add a route that routes traffic from the vFW to VPC1**
 
 1. In the **VFW Router** section of the Details page, click **Create VFW Router** on the right side.
 
-   ![](assets/b8f3de45e3ca800d1fc19ffd19ff76ec.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b8f3de45e3ca800d1fc19ffd19ff76ec.jpeg)
 
 2. Configure the following parameters to add a route that routes traffic from the vFW to VPC1.
 
@@ -1287,11 +1287,11 @@ By default, a vFW interface is configured with a direct route that points to the
    | Destination CIDR Block | Enter the destination CIDR block of the static route in the format of <code> subnet address/mask length </code>. In this example, enter the CIDR block of VPC1. |
    | Description | Enter the description of the static route. We recommend that you specify it in the format of route_to_destination VPC name, such as route_to_vpc1. |
 
-   ![](assets/66c834b900e402290c94445700d3dc1e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/66c834b900e402290c94445700d3dc1e.jpeg)
 
 3. After you confirm the configuration, click **OK** to create a vFW router. Then, a new vFW router is displayed in the list. If the Configuration Details column of the vFW router displays **Published**, the vFW router is created.
 
-   ![](assets/2df4506b5d115292cbb0b0b814aa1e62.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/2df4506b5d115292cbb0b0b814aa1e62.jpeg)
 
 **Add a route that routes traffic from the vFW to VPC2**
 
@@ -1308,15 +1308,15 @@ By default, a vFW interface is configured with a direct route that points to the
    | Destination CIDR Block | Enter the destination CIDR block of the static route in the format of <code> subnet address/mask length </code>. In this example, enter the CIDR block of VPC2. |
    | Description | Enter the description of the static route. We recommend that you specify it in the format of route_to_destination VPC name, such as route_to_vpc2. |
 
-   ![](assets/73fb8782d88b6964d99a51e3fc44a0cd.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/73fb8782d88b6964d99a51e3fc44a0cd.jpeg)
 
 3. After you confirm the configuration, click **OK** to create a vFW router. Then, a new vFW router is displayed in the list. If the Configuration Details column of the vFW router displays **Published**, the vFW router is created.
 
-   ![](assets/3f08e891ae259efaa3852291a0cc9c97.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/3f08e891ae259efaa3852291a0cc9c97.jpeg)
 
 After the configuration is completed, the vFW routers enter the following states.
 
-![](assets/f3ad6ed8bb15fdac69877264a0dec632.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f3ad6ed8bb15fdac69877264a0dec632.jpeg)
 
 **Step 7: Create a vFW web portal and log in to the vFW (required only for the first time)**
 
@@ -1334,27 +1334,27 @@ You can use one of the following types of web portals to access NFV Cloud Firewa
 
 1. In the **ECS Info** section of the NFV Cloud Firewall application details page, click **Detail** in the Operation column of the first ECS instance.
 
-   ![](assets/17e46601a049e54cda09f49335a93c0e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/17e46601a049e54cda09f49335a93c0e.jpeg)
 
 2. In the **Classic Network** section, click **Create**. Read the on-screen instructions and click **OK** to create a classic network web portal.
 
-   ![](assets/97f82181317f2228aa522eb7c2cd6e16.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/97f82181317f2228aa522eb7c2cd6e16.jpeg)
 
    After you click OK, the web portal enters the **processing** state. When it enters the **success** state, the web portal is created. Then, you can view the web URL and SSH URL on the page.
 
-   ![](assets/e7e8cb1a218fccc7749e07d0883be9b6.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e7e8cb1a218fccc7749e07d0883be9b6.jpeg)
 
 3. In the **ECS Info** section of the NFV Cloud Firewall application details page, click **Detail** in the Operation column of the second ECS instance.
 
-   ![](assets/932fbc5db2de139286c02782fad382c1.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/932fbc5db2de139286c02782fad382c1.jpeg)
 
 4. In the **Classic Network** section, click **Create**. Read the on-screen instructions and click **OK** to create a classic network web portal.
 
-   ![](assets/df7825ade93cd59c7bb230be87cabfb8.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/df7825ade93cd59c7bb230be87cabfb8.jpeg)
 
    After you click OK, the web portal enters the **processing** state. When it enters the **success** state, the web portal is created. Then, you can view the web URL and SSH URL on the page.
 
-   ![](assets/6988ee54b2c637360b683d3ab34d6e30.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6988ee54b2c637360b683d3ab34d6e30.jpeg)
 
 **VPC web portal**
 
@@ -1370,19 +1370,19 @@ Refer to the classic network web portal procedure, go to the access mode details
 
 2. In the **Create VPC Network Access Method** dialog box, set **Vswitch ID** to the ID of a vSwitch in the VPC. Make sure that the vSwitch has idle IP addresses.
 
-   ![](assets/bb168bbedaf3e8b229b572f82814c508.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/bb168bbedaf3e8b229b572f82814c508.jpeg)
 
 **Log in to the vFW**
 
 Use a browser to access the web URL of the vFW. Then, the login page of the vFW is displayed. In the upper-right corner of the page shows whether the current device is the primary device or the secondary device. You must log in to the primary device first. Enter the default username and password, which are both admin. After you are logged in, you are required to change the default password. After the change, the new password is synchronized to the secondary device.
 
-![](assets/b06c4b4613ac55d8957bd806d5b2f44c.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b06c4b4613ac55d8957bd806d5b2f44c.jpeg)
 
-![](assets/dc20b029382294efb403d1ec549bb713.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/dc20b029382294efb403d1ec549bb713.jpeg)
 
 After you log in to the vFW again, check the hardware platform information and license. Make sure that the authorization is valid and proceed.
 
-![](assets/09a98b78e56b2cee5cdd7f0e755c3dbe.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/09a98b78e56b2cee5cdd7f0e755c3dbe.jpeg)
 
 **Step 8: Create vFW access control policies**
 
@@ -1392,7 +1392,7 @@ In this scenario, configure a policy to permit ECS1 to access ECS2 and enable lo
 
 1. In the Apsara Uni-manager Management Console, choose **Policy > Security Policy > Policy** and then choose **New > Policy**.
 
-   ![](assets/165351a14fd2454ff6f8ed6686fc4b0e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/165351a14fd2454ff6f8ed6686fc4b0e.jpeg)
 
 2. Configure the following parameters to create a policy to permit ECS1 to access ECS2, and click **OK**.
 
@@ -1407,11 +1407,11 @@ In this scenario, configure a policy to permit ECS1 to access ECS2 and enable lo
    | Action | Select <strong>Permit</strong>. |
    | Options | Click <strong>Options</strong>, and select <strong>Session start</strong> and <strong>Session end</strong> for <strong>Log</strong>.<br>Important<br>This step only sets the policy to request the system to generate logs. However, whether logs can be successfully generated and queried depends on whether the vFW logging feature is enabled. |
 
-   ![](assets/56bb0a69bf9f84880cf77418eff1411f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/56bb0a69bf9f84880cf77418eff1411f.jpeg)
 
-   ![](assets/1e91ad295096dc81fc563e7c06fff6f6.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/1e91ad295096dc81fc563e7c06fff6f6.jpeg)
 
-   ![](assets/477a1d207dad3a709221e814078f9a32.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/477a1d207dad3a709221e814078f9a32.jpeg)
 
 3. **Enable session logging for the vFW**: In the Apsara Uni-manager Management Console, choose **Monitor > Log > Session Log** and click **Configure**. In the right-side **Session** panel, turn on **Enable**. If you want to view logs in the console, select **Local Database**. If you want to view logs at the CLI, select **Cache**.
 
@@ -1419,7 +1419,7 @@ In this scenario, configure a policy to permit ECS1 to access ECS2 and enable lo
    >
    > When session logging is disabled for the vFW, even if you have enabled logging in the access control policy, you cannot find any records on the log query page. You can view only the number of policy hits.
 
-   ![](assets/42fec35518aa184f8ad7a9dcfdc55019.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/42fec35518aa184f8ad7a9dcfdc55019.jpeg)
 
 **Step 9: Create traffic redirection routes**
 
@@ -1437,7 +1437,7 @@ Types of traffic redirection routes:
    >
    > **If you perform this operation in a production environment, make sure that the specifications of the vFW meet the expectation. If the volume of business traffic to redirect exceeds the maximum throughput of the vFW, the network latency increases and packet loss occurs.**
 
-   ![](assets/51a7e8ae08c37a1f6b8c9fc113c902ed.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/51a7e8ae08c37a1f6b8c9fc113c902ed.jpeg)
 
 2. Configure the following parameters to configure a route to redirect VPC-VPC traffic and click **OK**.
 
@@ -1633,21 +1633,21 @@ Types of traffic redirection routes:
 
    **Informati on**
 
-   ![](assets/e86e9f1ee2fba39f38b3d830ba843c26.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e86e9f1ee2fba39f38b3d830ba843c26.jpeg)
 
-   ![](assets/4d392ab465a6369ca482227c7c9ef19a.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/4d392ab465a6369ca482227c7c9ef19a.jpeg)
 
    After you complete the configuration, the **Route Status** column of the routes displays **Unpublish**. In this case, the O&M engineer needs to complete adding and checking all routes and then publish the routes one after one or in batches. This feature allows you to perform route configuration and traffic redirection within two time windows in case you do not have sufficient time to complete the two tasks within the same time window.
 
-   ![](assets/ad7bf766233a269bc5099089d7e01aa8.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ad7bf766233a269bc5099089d7e01aa8.jpeg)
 
 3. Click **Publish** in the **Operation** column of the desired traffic redirection route and click **OK**. Wait until the status of the route changes from **Publishing** to **Published**. This means that the route is in effect. This way, the outbound traffic of VPC1 and VPC2 is redirected to NFV Cloud Firewall.
 
-   ![](assets/0875528afa3a03aa84d19a5392bf79d6.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0875528afa3a03aa84d19a5392bf79d6.jpeg)
 
-   ![](assets/ce63c0519257275c87eef6144ede2b58.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ce63c0519257275c87eef6144ede2b58.jpeg)
 
-   ![](assets/d1c5dfd18057a4c5653ace5c4e68cea4.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/d1c5dfd18057a4c5653ace5c4e68cea4.jpeg)
 
 After the traffic redirection route is published, log in to the **VPC** console, go to the **Route Tables** page, and view the status of the routes in the route tables of VPC1 and VPC2.
 
@@ -1655,11 +1655,11 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
 - Route table of VPC1:
 
-  ![](assets/7cd6c42d23afa225bbd2559c135fa346.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/7cd6c42d23afa225bbd2559c135fa346.jpeg)
 
 - Route table of VPC2:
 
-  ![](assets/b4dff0b528dd45bf7a04208a93b99084.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b4dff0b528dd45bf7a04208a93b99084.jpeg)
 
 **Step 10: Verify the business**
 
@@ -1683,7 +1683,7 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
    operation succeeds.
 
-   ![](assets/4d2d1ec5941459c22b65ab97482977a2.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/4d2d1ec5941459c22b65ab97482977a2.jpeg)
 
 2. Log in to the Apsara Uni-manager Management Console to view logs.
 
@@ -1691,7 +1691,7 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
    - Choose **Monitor > Log > Session Log**, set **Time** to **Real-time**, and check whether ping (corresponding to ICMP) and SSH (corresponding to TCP) logs are generated. In addition, check whether session logs containing source and destination IP addresses related to the test are generated.
 
-     ![](assets/c96c77f62749f94c9f43d95efc1c0336.jpeg)
+     ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/c96c77f62749f94c9f43d95efc1c0336.jpeg)
 
 **Other scenarios**
 
@@ -1701,7 +1701,7 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
 In the following example, vSwitch1-2 in VPC1 and vSwitch2-2 in VPC2 do not have endpoints. However, they can communicate with each other through NFV Cloud Firewall.
 
-![](assets/0dd648c5e678250e939ceaafc0b3eae8.png)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0dd648c5e678250e939ceaafc0b3eae8.png)
 
 Service Cluster
 
@@ -1713,7 +1713,7 @@ NE VPC
 
 **Solution**: A VPC is connected to NFV Cloud Firewall through an endpoint. Therefore, you only need to add routes to the VPC route table to redirect traffic to NFV Cloud Firewall. The Endpoint page shows the maximum number of VPCs supported depending on the instance type selected for NFV Cloud Firewall.
 
-![](assets/a5644cf74b902c11732fc501725ea030.png)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/a5644cf74b902c11732fc501725ea030.png)
 
 VPC2 10
 
@@ -1745,7 +1745,7 @@ To balance connectivity and security, you can use the centralized traffic redire
 
 2. Create an NFV Cloud Firewall cluster and publish traffic redirection routes: Use an account within Organization 1 to create an NFV Cloud Firewall cluster, create endpoints in VPC1 and
 
-![](assets/6860e0add95d46b50c2d17098d49e8e1.png)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6860e0add95d46b50c2d17098d49e8e1.png)
 
 3. Access control: All east-west traffic is redirected to the virtual firewall (vFW) cluster for
 
@@ -1767,33 +1767,33 @@ Use accounts that belong to Organization 1 and Organization 2 to log in to the A
 
 - Create VPC1:
 
-  ![](assets/cd208cd0f5a88128a9cb477363586c01.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/cd208cd0f5a88128a9cb477363586c01.jpeg)
 
 - Create vSwitch1:
 
-  ![](assets/a20e948182c9ea0f1c47ed0b21494812.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/a20e948182c9ea0f1c47ed0b21494812.jpeg)
 
 - Create ECS1 and a security group:
 
-  ![](assets/705876558a3c9e0561ff936d5fd62108.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/705876558a3c9e0561ff936d5fd62108.jpeg)
 
-  ![](assets/ee50423d05eda38b7d7c84eb67185a96.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ee50423d05eda38b7d7c84eb67185a96.jpeg)
 
 **Create resources in Organization 2**
 
 - Create VPC3:
 
-  ![](assets/7bfe5e1236440b0d6babc1f5a473e3cf.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/7bfe5e1236440b0d6babc1f5a473e3cf.jpeg)
 
 - Create vSwitch3:
 
-  ![](assets/028f82aab84aa2beff31830cc193356f.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/028f82aab84aa2beff31830cc193356f.jpeg)
 
 - Create ECS3 and a security group:
 
-  ![](assets/cdb788bb384372c49da9ed4cbf4f26f1.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/cdb788bb384372c49da9ed4cbf4f26f1.jpeg)
 
-  ![](assets/1c5f92866a015914825f5ea8ea698d25.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/1c5f92866a015914825f5ea8ea698d25.jpeg)
 
 > **Important**
 >
@@ -1807,15 +1807,15 @@ Repeat the steps to create a Resource Access Management (RAM) role for Organizat
 
 1. Use an account that can assume the organization security admin role by default to log in to the Apsara Uni-manager Management Console and choose **Security > Network Security > NFV Cloud Firewall**.
 
-   ![](assets/87b4f78fc721087ef16cd31bb51cabed.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/87b4f78fc721087ef16cd31bb51cabed.jpeg)
 
    If this is the first time the level-1 organization of the account uses NFV Cloud Firewall, the **ram role does not exist** message is displayed after you are logged in. In this case, you need to create a RAM role first.
 
-   ![](assets/9442f8b705a5061328e249992150b6fc.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/9442f8b705a5061328e249992150b6fc.jpeg)
 
 2. Switch to the role that has permissions on the organization, such as the organization admin or organization security admin role. You can also use the admin account of the Apsara Uni-manager Management Console. Choose **Configurations > Service-linked Roles** and click **Create Service-linked Role**.
 
-   ![](assets/7563f46b49ba68004f4404a704d33420.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/7563f46b49ba68004f4404a704d33420.jpeg)
 
 3. Configure the following parameters, and click **OK**.
 
@@ -1825,9 +1825,9 @@ Repeat the steps to create a Resource Access Management (RAM) role for Organizat
 
      - **Authorized Organization Name**: Select the organization on which the role is granted permissions. In this example, NFV_POC1 is selected.
 
-     ![](assets/5d537cf7c70f4da208cce4251af7311f.jpeg)
+     ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5d537cf7c70f4da208cce4251af7311f.jpeg)
 
-     ![](assets/9cee4427df30004c18c9ae0eab89d473.jpeg)
+     ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/9cee4427df30004c18c9ae0eab89d473.jpeg)
 
    - **Create a RAM role for Organization 2:**
 
@@ -1835,9 +1835,9 @@ Repeat the steps to create a Resource Access Management (RAM) role for Organizat
 
      - **Authorized Organization Name**: Select the organization on which the role is granted permissions. In this example, NFV_POC2 is used.
 
-     ![](assets/20378e614983624bc1fc5f99fae057e9.jpeg)
+     ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/20378e614983624bc1fc5f99fae057e9.jpeg)
 
-     ![](assets/a519fda30a086fd6c9512b50a7eaa883.jpeg)
+     ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/a519fda30a086fd6c9512b50a7eaa883.jpeg)
 
 **Step 2: Authorize Organization 1 to access VPC resources across organizations**
 
@@ -1847,7 +1847,7 @@ Therefore, Organization 2 must authorize Organization 1 to access its VPC resour
 
 1. Obtain the level-1 organization UID and name of Organization 1: Log in to the Apsara Uni-manager Management Console by using the account that belongs to Organization 1. Click the user icon in the upper-right corner. On the **User Information** page, record the values of the **Organization** and **Tenant Account Alias** (level-1 organization UID) fields.
 
-   ![](assets/e90aad68257c2114a40e704ae52b4476.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e90aad68257c2114a40e704ae52b4476.jpeg)
 
 2. Authorize Organization 1 to access the VPC resources of Organization 2:
 
@@ -1857,7 +1857,7 @@ Therefore, Organization 2 must authorize Organization 1 to access its VPC resour
 
    Log in to the **NFV Cloud Firewall** console in Apsara Uni-manager Management Console by using the account that belongs to Organization 2. In the left-side navigation pane, choose **System Configuration > Cross Organization Resource Authorization**. On the page that appears, choose **Outgoing Authorization > Resource** and click **Create Cross Organization Resource Authorization**.
 
-   ![](assets/095e5f78954bfbd0c40577ec56999053.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/095e5f78954bfbd0c40577ec56999053.jpeg)
 
    </li>
 
@@ -1880,11 +1880,11 @@ Therefore, Organization 2 must authorize Organization 1 to access its VPC resour
    | VPC Resource | Select the VPC to be authorized from the drop-down list. Fuzzy match is supported. The selected VPC is displayed in the <strong>Selected VPC</strong> <strong>Resource</strong> field. You can modify <strong>Organization</strong> and <strong>Resource Set</strong> and select another VPC. The selected VPC will be retained in this case. In this example, only VPC3 is selected. |
    | Description | Enter a description. We recommend that you enter the description in the format of <code> Organization name + VPC name </code> to simplify O&amp;M. This description will be displayed on the peer organization page. |
 
-   ![](assets/5ed094c9ddb9dd65ad8bb234028ca348.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5ed094c9ddb9dd65ad8bb234028ca348.jpeg)
 
    After you complete the configuration, you can find the authorization setting on the page, as shown in the following figure.
 
-   ![](assets/9e0dce5895d0eb16e931d57ef99abf5a.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/9e0dce5895d0eb16e931d57ef99abf5a.jpeg)
 
 **Step 3: Check the firewall capacity of Organization 1**
 
@@ -1900,9 +1900,9 @@ On the **Firewalls** page of the **NFV Cloud Firewall** console, **VFW Capacity:
 
 You can create NFV Cloud Firewall clusters only when  `Capacity required for creating an NFV Cloud Firewall cluster + Current capacity used ≤ Total capacity` . If not, you need to use the admin account to adjust the NFV Cloud Firewall quota for this organization.
 
-![](assets/f40a41a34e43bd0e3f736aed19c24287.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f40a41a34e43bd0e3f736aed19c24287.jpeg)
 
-![](assets/5498e01660174782277f830cbc1d829e.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5498e01660174782277f830cbc1d829e.jpeg)
 
 **Step 4: Create a CIDR block for Organization 1 (required only during the first time you create a cluster)**
 
@@ -1922,11 +1922,11 @@ If this is the first time you create an NFV Cloud Firewall cluster in a level-1 
    | Area | Select a region. |
    | CIDR | Enter a CIDR block. The mask length must be smaller than 26. In this example, enter <strong>192.168.1.0/24</strong>. |
 
-   ![](assets/6f8149ca67f9d7e038f5175c00251557.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6f8149ca67f9d7e038f5175c00251557.jpeg)
 
 2. After you confirm the configuration, click **OK**. After the status of the CIDR block changes from **processing** to **success**, the CIDR block is created.
 
-   ![](assets/60e6da07c3241ec3facdabb0df0d2cca.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/60e6da07c3241ec3facdabb0df0d2cca.jpeg)
 
 **Step 5: Create an NFV Cloud Firewall application for Organization 1**
 
@@ -1954,31 +1954,31 @@ If this is the first time you create an NFV Cloud Firewall cluster in a level-1 
    >
    > The values of the CPU Type, VFW Specification, ECS Specification, and ECS Image ID parameters vary depending on the environment and Apsara Stack version. Specify these parameters based on the actual business requirements.
 
-   ![](assets/824d1f93e69572d557f5ed8c021565e2.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/824d1f93e69572d557f5ed8c021565e2.jpeg)
 
 2. After you confirm the configuration, click **OK**. Then, the system automatically verifies the capacity and quota. If the capacity is sufficient, the operation succeeds and a new NFV Cloud Firewall application is displayed in the list. The status of the vFW cluster changes to **Creating**.
 
-   ![](assets/0fb681e218be5068a5b7ba34b73ec0ff.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0fb681e218be5068a5b7ba34b73ec0ff.jpeg)
 
 3. Click the task ID in the **Task ID** column of the application to go to the Workflow page. On this page, you can view the progress of the cluster creation task. When the subtasks **ecs_start** and **eni_attach** enter the **Successful** state, the cluster is created.
 
-   ![](assets/94e17d1cc3db3fc7a9f2d670ac55e134.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/94e17d1cc3db3fc7a9f2d670ac55e134.jpeg)
 
 4. Return to the **Firewalls** page. The NFV Cloud Firewall application is displayed. When the status of the vFW cluster changes to **Running**, click the application name to go to the application details page. You can view the health status of the vFW ECS instance in the **Health Status** column. If **Healthy** is displayed, the cluster service functions as expected. You can then proceed to the next step. If not, the cluster service is not ready. Wait patiently.
 
-   ![](assets/ab0aae117f45a7877a67f419b3fe998d.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ab0aae117f45a7877a67f419b3fe998d.jpeg)
 
-   ![](assets/59e6423f885b113c6b16cc6e45ebd4ce.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/59e6423f885b113c6b16cc6e45ebd4ce.jpeg)
 
 Common prompts:
 
 - **Quota check not passed**: The capacity usage exceeds the specified quota. In this case, use the admin account to log in to the Apsara Uni-manager Management Console and adjust the NFV Cloud Firewall capacity quota for the current organization.
 
-  ![](assets/82eb50e792dc0154b05d819249f04e91.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/82eb50e792dc0154b05d819249f04e91.jpeg)
 
 - **cluster capacity reach license limit**: The capacity usage exceeds the total capacity. In this case, increase the NFV Cloud Firewall capacity by placing a purchase order.
 
-  ![](assets/c7c0a8f4c97a340bab013dd6b2cc11f6.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/c7c0a8f4c97a340bab013dd6b2cc11f6.jpeg)
 
 **Step 6: Authorize Organization 2 to access vFWs across organizations**
 
@@ -1986,11 +1986,11 @@ Common prompts:
 
    If the page shows a large number of organizations and VPCs, you can also filter by organization UID, VPC ID, and VPC description in fuzzy match mode.
 
-   ![](assets/b520ddc85c5f689b26d5718cb80bb1fe.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b520ddc85c5f689b26d5718cb80bb1fe.jpeg)
 
 2. Go to the **System Configuration > Cross Organization Resource Authorization** page, choose **Outgoing Authorization > Cluster**, and click **Create Cross Organizational Cluster Authorization**.
 
-   ![](assets/20073e16ecef98458f64e4722152798c.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/20073e16ecef98458f64e4722152798c.jpeg)
 
 3. In the **Create Cross Organizational Cluster Authorization** panel, configure the following parameters and click **OK**.
 
@@ -2002,11 +2002,11 @@ Common prompts:
    | Resource Set | Select the resource set to which the vFW to be authorized belongs from the drop-down list. |
    | Application | Select the NFV Cloud Firewall application from the drop-down list. Only the selected NFV Cloud Firewall application can access the VPC authorized by Organization 2. |
 
-   ![](assets/26c8a31880805bc40393f0a9f594a49e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/26c8a31880805bc40393f0a9f594a49e.jpeg)
 
    After you complete the configuration, you can find the authorization setting on the page, as shown in the following figure.
 
-   ![](assets/fe92bb97f09ad120bd7c5b3a811794ba.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/fe92bb97f09ad120bd7c5b3a811794ba.jpeg)
 
 **Step 7: Create an endpoint for Organization 1**
 
@@ -2026,7 +2026,7 @@ Two processes are involved to create an endpoint:
 
 1. Go to the NFV Cloud Firewall application details page. In the **Endpoint** section, click **Create Endpoint** on the right side.
 
-   ![](assets/2c94cce99d3cff3fca6cfa9f46759462.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/2c94cce99d3cff3fca6cfa9f46759462.jpeg)
 
 2. In the **Create Endpoint** panel, configure the following parameters to create an endpoint in VPC1.
 
@@ -2041,29 +2041,29 @@ Two processes are involved to create an endpoint:
    | Source Vswitch | Select the source vSwitch from the drop-down list to assign an IP address to the endpoint. |
    | Description | Enter an informative description. We recommend that you enter a description related to the VPC, vSwitch, and business.Example: link_to_vpc1. |
 
-   ![](assets/82e586eeac235218e58b9bccc29f2043.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/82e586eeac235218e58b9bccc29f2043.jpeg)
 
 3. After you confirm the configuration, click **OK** to create the endpoint. Then, a new endpoint in the **Creating** state is displayed on the page.
 
-   ![](assets/f750ad76362f9457ec011e066ac17936.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f750ad76362f9457ec011e066ac17936.jpeg)
 
 4. Click the task ID in the Task ID column of the endpoint to go to the Workflow page. On this page, you can view the progress of the endpoint creation task. When the task enters the **Successful** state, the endpoint is created.
 
-   ![](assets/f8ac3c6f9846cc14e96879b05e0c95fe.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f8ac3c6f9846cc14e96879b05e0c95fe.jpeg)
 
 5. Return to the Details page. You can find that the endpoint is in the **Running** state, and the endpoint ID and IP address are displayed.
 
-   ![](assets/19ad13ed8cce61ff769a2da8878f0cb1.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/19ad13ed8cce61ff769a2da8878f0cb1.jpeg)
 
    In the **VFW Interface** section, a vFW interface is automatically added based on the endpoint information. If the Configuration Details column of the vFW interface displays **Published**, the endpoint workflow is completed.
 
-   ![](assets/0bff7a7935e014a60cd54e4281cd12e0.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0bff7a7935e014a60cd54e4281cd12e0.jpeg)
 
 **Create an endpoint in VPC3**
 
 1. In the **Endpoint** section, click **Create Endpoint** on the right side.
 
-   ![](assets/5ed2915eb1c6011a222b441b39e9c92f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5ed2915eb1c6011a222b441b39e9c92f.jpeg)
 
 2. In the **Create Endpoint** panel, configure the following parameters to create an endpoint in VPC3.
 
@@ -2078,39 +2078,39 @@ Two processes are involved to create an endpoint:
    | Source Vswitch | Select the source vSwitch from the drop-down list to assign an IP address to the endpoint. |
    | Description | Enter an informative description. We recommend that you enter a description related to the VPC, vSwitch, and business.Example: link_to_vpc3. |
 
-   ![](assets/5909cf34786a10df58a4bb621701abc7.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5909cf34786a10df58a4bb621701abc7.jpeg)
 
 3. After you confirm the configuration, click **OK** to create the endpoint. Then, a new endpoint in the **Creating** state is displayed on the page.
 
-   ![](assets/0a300040f69bfffb03e1cbdfc404f75c.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0a300040f69bfffb03e1cbdfc404f75c.jpeg)
 
 4. Click the task ID in the Task ID column of the endpoint to go to the Workflow page. On this page, you can view the progress of the endpoint creation task. When the task enters the **Successful** state, the endpoint is created.
 
-   ![](assets/346696f73f247ace91595ea91cb27b9f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/346696f73f247ace91595ea91cb27b9f.jpeg)
 
 5. Return to the Details page. You can find that the endpoint is in the **Running** state, and the endpoint ID and IP address are displayed.
 
-   ![](assets/c56265c0a0454e070b87a3baeea4830c.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/c56265c0a0454e070b87a3baeea4830c.jpeg)
 
    In the **VFW Interface** section, a vFW interface is automatically added based on the endpoint information. If the Configuration Details column of the vFW interface displays **Published**, the endpoint workflow is completed.
 
-   ![](assets/2b7ef3e6c3a4209e5c4406b334777cd3.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/2b7ef3e6c3a4209e5c4406b334777cd3.jpeg)
 
 After you complete the configuration, the endpoints and vFW interfaces enter the following states.
 
-![](assets/22b42ffde61e5c47a21aa284f1e791d3.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/22b42ffde61e5c47a21aa284f1e791d3.jpeg)
 
 **Step 8: Create vFW routers for Organization 1**
 
 By default, a vFW interface is configured with a direct route that points to the CIDR block of the vSwitch. However, you still need to add static routes to the vFW to route traffic to the CIDR blocks of VPC1 and VPC3.
 
-![](assets/000c8623d28296cc3a07290fc898c1d0.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/000c8623d28296cc3a07290fc898c1d0.jpeg)
 
 **Add a route that routes traffic from the vFW to VPC1**
 
 1. In the **VFW Router** section of the Details page, click **Create VFW Router** on the right side.
 
-   ![](assets/c37d69a9309598fd28ae73fba20e6b81.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/c37d69a9309598fd28ae73fba20e6b81.jpeg)
 
 2. Configure the following parameters to add a route that routes traffic from the vFW to VPC1.
 
@@ -2123,11 +2123,11 @@ By default, a vFW interface is configured with a direct route that points to the
    | Destination CIDR Block | Enter the destination CIDR block of the static route in the format of <code> subnet address/mask length </code>. In this example, enter the CIDR block of VPC1. |
    | Description | Enter the description of the static route. We recommend that you specify it in the format of route_to_destination VPC name, such as route_to_vpc1. |
 
-   ![](assets/a7f5bef2aaf31b1564293a96b2af3a0f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/a7f5bef2aaf31b1564293a96b2af3a0f.jpeg)
 
 3. After you confirm the configuration, click **OK** to create a vFW router. Then, a new vFW router is displayed in the list. If the Configuration Details column of the vFW router displays **Published**, the vFW router is created.
 
-   ![](assets/ef2815cb6a7a0b59048cd25ba35f9107.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ef2815cb6a7a0b59048cd25ba35f9107.jpeg)
 
 **Add a route that routes traffic from the vFW to VPC3**
 
@@ -2144,15 +2144,15 @@ By default, a vFW interface is configured with a direct route that points to the
    | Destination CIDR Block | Enter the destination CIDR block of the static route in the format of <code> subnet address/mask length </code>. In this example, enter the CIDR block of VPC3. |
    | Description | Enter the description of the static route. We recommend that you specify it in the format of route_to_destination VPC name, such as route_to_vpc3. |
 
-   ![](assets/26386f24ad2fc60b6be80c7a5112bac9.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/26386f24ad2fc60b6be80c7a5112bac9.jpeg)
 
 3. After you confirm the configuration, click **OK** to create a vFW router. Then, a new vFW router is displayed in the list. If the Configuration Details column of the vFW router displays **Published**, the vFW router is created.
 
-   ![](assets/1e947b5fe29317d3e4017902ccd6d333.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/1e947b5fe29317d3e4017902ccd6d333.jpeg)
 
 After the configuration is completed, the vFW routers enter the following states.
 
-![](assets/07d66d21f1e454153277dc01443e05f6.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/07d66d21f1e454153277dc01443e05f6.jpeg)
 
 **Step 9: Create a vFW web portal for Organization 1 and log in to the vFW (required only for the first time)**
 
@@ -2170,27 +2170,27 @@ You can use one of the following types of web portals to access NFV Cloud Firewa
 
 1. In the **ECS Info** section of the NFV Cloud Firewall application details page, click **Detail** in the Operation column of the first ECS instance.
 
-   ![](assets/17e46601a049e54cda09f49335a93c0e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/17e46601a049e54cda09f49335a93c0e.jpeg)
 
 2. In the **Classic Network** section, click **Create**. Read the on-screen instructions and click **OK** to create a classic network web portal.
 
-   ![](assets/97f82181317f2228aa522eb7c2cd6e16.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/97f82181317f2228aa522eb7c2cd6e16.jpeg)
 
    After you click OK, the web portal enters the **processing** state. When it enters the **success** state, the web portal is created. Then, you can view the web URL and SSH URL on the page.
 
-   ![](assets/e7e8cb1a218fccc7749e07d0883be9b6.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e7e8cb1a218fccc7749e07d0883be9b6.jpeg)
 
 3. In the **ECS Info** section of the NFV Cloud Firewall application details page, click **Detail** in the Operation column of the second ECS instance.
 
-   ![](assets/932fbc5db2de139286c02782fad382c1.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/932fbc5db2de139286c02782fad382c1.jpeg)
 
 4. In the **Classic Network** section, click **Create**. Read the on-screen instructions and click **OK** to create a classic network web portal.
 
-   ![](assets/df7825ade93cd59c7bb230be87cabfb8.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/df7825ade93cd59c7bb230be87cabfb8.jpeg)
 
    After you click OK, the web portal enters the **processing** state. When it enters the **success** state, the web portal is created. Then, you can view the web URL and SSH URL on the page.
 
-   ![](assets/6988ee54b2c637360b683d3ab34d6e30.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6988ee54b2c637360b683d3ab34d6e30.jpeg)
 
 **VPC web portal**
 
@@ -2206,19 +2206,19 @@ Refer to the classic network web portal procedure, go to the access mode details
 
 2. In the **Create VPC Network Access Method** dialog box, set **Vswitch ID** to the ID of a vSwitch in the VPC. Make sure that the vSwitch has idle IP addresses.
 
-   ![](assets/bb168bbedaf3e8b229b572f82814c508.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/bb168bbedaf3e8b229b572f82814c508.jpeg)
 
 **Log in to the vFW**
 
 Use a browser to access the web URL of the vFW. Then, the login page of the vFW is displayed. In the upper-right corner of the page shows whether the current device is the primary device or the secondary device. You must log in to the primary device first. Enter the default username and password, which are both admin. After you are logged in, you are required to change the default password. After the change, the new password is synchronized to the secondary device.
 
-![](assets/b06c4b4613ac55d8957bd806d5b2f44c.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b06c4b4613ac55d8957bd806d5b2f44c.jpeg)
 
-![](assets/dc20b029382294efb403d1ec549bb713.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/dc20b029382294efb403d1ec549bb713.jpeg)
 
 After you log in to the vFW again, check the hardware platform information and license. Make sure that the authorization is valid and proceed.
 
-![](assets/09a98b78e56b2cee5cdd7f0e755c3dbe.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/09a98b78e56b2cee5cdd7f0e755c3dbe.jpeg)
 
 **Step 10: Create vFW access control policies for Organization 1**
 
@@ -2228,7 +2228,7 @@ In this scenario, configure a policy to permit ECS1 to access ECS3 and enable lo
 
 1. In the Apsara Uni-manager Management Console, choose **Policy > Security Policy > Policy** and then choose **New > Policy**.
 
-   ![](assets/165351a14fd2454ff6f8ed6686fc4b0e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/165351a14fd2454ff6f8ed6686fc4b0e.jpeg)
 
 2. Configure the following parameters to create a policy to permit ECS1 to access ECS3, and click **OK**.
 
@@ -2245,11 +2245,11 @@ In this scenario, configure a policy to permit ECS1 to access ECS3 and enable lo
    | --- | --- |
    | Options | Click <strong>Options</strong>, and select <strong>Session start</strong> and <strong>Session end</strong> for <strong>Log</strong>.<br>Important<br>This step only sets the policy to request the system to generate logs. However, whether logs can be successfully generated and queried depends on whether the vFW logging feature is enabled. |
 
-   ![](assets/37c6099790b58aa9c498878cbd74748f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/37c6099790b58aa9c498878cbd74748f.jpeg)
 
-   ![](assets/5404ee6b4a81d24196d1388c07ecc650.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5404ee6b4a81d24196d1388c07ecc650.jpeg)
 
-   ![](assets/c663980d0f97931d337ef0e33785a48f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/c663980d0f97931d337ef0e33785a48f.jpeg)
 
 3. **Enable session logging for the vFW**: In the Apsara Uni-manager Management Console, choose **Monitor > Log > Session Log** and click **Configure**. In the right-side **Session** panel, turn on **Enable**. If you want to view logs in the console, select **Local Database**. If you want to view logs at the CLI, select **Cache**.
 
@@ -2257,7 +2257,7 @@ In this scenario, configure a policy to permit ECS1 to access ECS3 and enable lo
    >
    > When session logging is disabled for the vFW, even if you have enabled logging in the access control policy, you cannot find any records on the log query page. You can view only the number of policy hits.
 
-   ![](assets/42fec35518aa184f8ad7a9dcfdc55019.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/42fec35518aa184f8ad7a9dcfdc55019.jpeg)
 
 **Step 11: Create traffic redirection routes for Organization 1**
 
@@ -2275,7 +2275,7 @@ Types of traffic redirection routes:
    >
    > **If you perform this operation in a production environment, make sure that the specifications of the vFW meet the expectation. If the volume of business traffic to redirect exceeds the maximum throughput of the vFW, the network latency increases and packet loss occurs.**
 
-   ![](assets/51a7e8ae08c37a1f6b8c9fc113c902ed.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/51a7e8ae08c37a1f6b8c9fc113c902ed.jpeg)
 
 2. Configure the following parameters to configure a route to redirect VPC-VPC traffic and click **OK**.
 
@@ -2472,21 +2472,21 @@ Types of traffic redirection routes:
 
    **Informati on**
 
-   ![](assets/bcc4b67de78f8f8fb78e2af44b610db9.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/bcc4b67de78f8f8fb78e2af44b610db9.jpeg)
 
-   ![](assets/d704fe94caba87066814c8fcbd2fe011.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/d704fe94caba87066814c8fcbd2fe011.jpeg)
 
    After you complete the configuration, the **Route Status** column of the routes displays **Unpublish**. In this case, the O&M engineer needs to complete adding and checking all routes and then publish the routes one after one or in batches. This feature allows you to perform route configuration and traffic redirection within two time windows in case you do not have sufficient time to complete the two tasks within the same time window.
 
-   ![](assets/b8d5dd2aa640259e23ed60b6c5dd58df.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b8d5dd2aa640259e23ed60b6c5dd58df.jpeg)
 
 3. Click **Publish** in the **Operation** column of the desired traffic redirection route and click **OK**. Wait until the status of the route changes from **Publishing** to **Published**. This means that the route is in effect. This way, the outbound traffic of VPC1 and VPC3 is redirected to NFV Cloud Firewall.
 
-   ![](assets/dea10e0ab220e4e788925e1992ce92e7.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/dea10e0ab220e4e788925e1992ce92e7.jpeg)
 
-   ![](assets/f4bd37aa154686736d81942d781783c7.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f4bd37aa154686736d81942d781783c7.jpeg)
 
-   ![](assets/060ac1bbf95685cb7a494720306738ed.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/060ac1bbf95685cb7a494720306738ed.jpeg)
 
 After the traffic redirection route is published, log in to the **VPC** console with the accounts of Organization 1 and Organization 2, go to the **Route Tables** page, and view the status of the routes in the route tables of VPC1 and VPC3.
 
@@ -2494,11 +2494,11 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
 - Route table of VPC1 within Organization 1:
 
-  ![](assets/c84d8ac99b93104ee0087070ad43106e.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/c84d8ac99b93104ee0087070ad43106e.jpeg)
 
 - Route table of VPC3 within Organization 2:
 
-  ![](assets/4bfb6daff38c126de215e17f10f91446.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/4bfb6daff38c126de215e17f10f91446.jpeg)
 
 **Step 12: Verify the business**
 
@@ -2522,7 +2522,7 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
    operation succeeds.
 
-   ![](assets/00c25dfecce8ad68dc87d828f380c9e6.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/00c25dfecce8ad68dc87d828f380c9e6.jpeg)
 
 2. Log in to the Apsara Uni-manager Management Console to view logs.
 
@@ -2530,7 +2530,7 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
    - Choose **Monitor > Log > Session Log**, set **Time** to **Real-time**, and check whether ping (corresponding to ICMP) and SSH (corresponding to TCP) logs are generated. In addition, check whether session logs containing source and destination IP addresses related to the test are generated.
 
-     ![](assets/449b552e7a3dc833e8b544938000972b.jpeg)
+     ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/449b552e7a3dc833e8b544938000972b.jpeg)
 
 <a id="section-3-6-3"></a>
 
@@ -2548,7 +2548,7 @@ Only when the VPC has subnet routing 2.0 enabled, you can redirect traffic betwe
 
 Before you begin, the VPC, make sure that subnet routing 2.0 is enabled for the VPC.
 
-![](assets/c3cf29000c9cc5f6d3e099f985904444.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/c3cf29000c9cc5f6d3e099f985904444.jpeg)
 
 **Topology**
 
@@ -2562,7 +2562,7 @@ Due to business requirements, ECS1 and ECS1-2 need to communicate with each othe
 
 To ensure the security of intercommunication, the organization uses an account that assumes the organization security admin role to create an NFV Cloud Firewall cluster, create endpoints in vSwitch1 and vSwitch1-2, and publish traffic redirection routes. In the preceding solution, traffic between vSwitch1 and vSwitch1-2 is forcefully redirected to the NFV Cloud Firewall cluster, matches against access control policies, and then forwarded to the destination. This way, communication between vSwitches in the same VPC can be bidirectionally protected, controlled, and audited.
 
-![](assets/782e9b8952e51f220da09c9a7a7b0711.png)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/782e9b8952e51f220da09c9a7a7b0711.png)
 
 System Route
 
@@ -2580,23 +2580,23 @@ Use an account that belongs to the current organization to log in to the Apsara 
 
 - Create VPC1:
 
-  ![](assets/e236279d9daf2eb03445f4788428307e.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e236279d9daf2eb03445f4788428307e.jpeg)
 
 - Create a custom route table:
 
-  ![](assets/ac7151e4e9075e8a31bcfaffcf3cf2d4.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ac7151e4e9075e8a31bcfaffcf3cf2d4.jpeg)
 
 - Create vSwitch1 and associate it with the system route table, and create vSwitch1-2 and associate it with the custom route table:
 
-  ![](assets/3350f5b1f5756b4e5b1c7a1d0cf527f9.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/3350f5b1f5756b4e5b1c7a1d0cf527f9.jpeg)
 
 - Create ECS instances and a security group:
 
-  ![](assets/f3448f2f3fd973187e6e13c138c91f3b.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f3448f2f3fd973187e6e13c138c91f3b.jpeg)
 
-  ![](assets/1f5ae781284f322906eba884f4cbb565.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/1f5ae781284f322906eba884f4cbb565.jpeg)
 
-  ![](assets/f71ddbf65ecde0b228d8af2961018fda.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f71ddbf65ecde0b228d8af2961018fda.jpeg)
 
   > **Important**
   >
@@ -2608,11 +2608,11 @@ Use an account that belongs to the current organization to log in to the Apsara 
 
 1. Use an account that can assume the organization security admin role by default to log in to the Apsara Uni-manager Management Console and choose **Security > Network Security > NFV Cloud Firewall**.
 
-   ![](assets/87b4f78fc721087ef16cd31bb51cabed.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/87b4f78fc721087ef16cd31bb51cabed.jpeg)
 
    If this is the first time the level-1 organization of the account uses NFV Cloud Firewall, the **ram role does not exist** message is displayed after you are logged in. In this case, you need to create a Resource Access Management (RAM) role first.
 
-   ![](assets/9442f8b705a5061328e249992150b6fc.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/9442f8b705a5061328e249992150b6fc.jpeg)
 
 2. Switch to the role that has permissions on the organization, such as the organization admin or organization security admin role. You can also use the admin account of the Apsara Uni-manager Management Console. Choose **Configurations > Service-linked Roles**, click **Create Service-linked Role**, configure the following parameters, and click **OK**.
 
@@ -2620,11 +2620,11 @@ Use an account that belongs to the current organization to log in to the Apsara 
 
    - **Authorized Organization Name:** Select the organization on which the role is granted permissions. In this example, NFV_POC1 is selected.
 
-   ![](assets/7563f46b49ba68004f4404a704d33420.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/7563f46b49ba68004f4404a704d33420.jpeg)
 
-   ![](assets/5d537cf7c70f4da208cce4251af7311f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5d537cf7c70f4da208cce4251af7311f.jpeg)
 
-   ![](assets/9cee4427df30004c18c9ae0eab89d473.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/9cee4427df30004c18c9ae0eab89d473.jpeg)
 
 **Step 2: Check the vFW capacity**
 
@@ -2640,9 +2640,9 @@ On the **Firewalls** page of the **NFV Cloud Firewall** console, **VFW Capacity:
 
 You can create NFV Cloud Firewall clusters only when  `Capacity required for creating an NFV Cloud Firewall cluster + Current capacity used ≤ Total capacity` . If not, you need to use the admin account to adjust the NFV Cloud Firewall quota for this organization.
 
-![](assets/f40a41a34e43bd0e3f736aed19c24287.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f40a41a34e43bd0e3f736aed19c24287.jpeg)
 
-![](assets/5498e01660174782277f830cbc1d829e.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5498e01660174782277f830cbc1d829e.jpeg)
 
 **Step 3: Create a CIDR block (required only during the first time you create an NFV Cloud Firewall cluster)**
 
@@ -2662,11 +2662,11 @@ If this is the first time you create an NFV Cloud Firewall cluster in a level-1 
    | Area | Select a region. |
    | CIDR | Enter a CIDR block. The mask length must be smaller than 26. In this example, enter <strong>192.168.1.0/24</strong>. |
 
-   ![](assets/6f8149ca67f9d7e038f5175c00251557.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6f8149ca67f9d7e038f5175c00251557.jpeg)
 
 2. After you confirm the configuration, click **OK**. After the status of the CIDR block changes from **processing** to **success**, the CIDR block is created.
 
-   ![](assets/60e6da07c3241ec3facdabb0df0d2cca.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/60e6da07c3241ec3facdabb0df0d2cca.jpeg)
 
 **Step 4: Create an NFV Cloud Firewall application**
 
@@ -2694,31 +2694,31 @@ If this is the first time you create an NFV Cloud Firewall cluster in a level-1 
    >
    > The values of the CPU Type, VFW Specification, ECS Specification, and ECS Image ID parameters vary depending on the environment and Apsara Stack version. Specify these parameters based on the actual business requirements.
 
-   ![](assets/824d1f93e69572d557f5ed8c021565e2.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/824d1f93e69572d557f5ed8c021565e2.jpeg)
 
 2. After you confirm the configuration, click **OK**. Then, the system automatically verifies the capacity and quota. If the capacity is sufficient, the operation succeeds and a new NFV Cloud Firewall application is displayed in the list. The status of the vFW cluster changes to **Creating**.
 
-   ![](assets/0fb681e218be5068a5b7ba34b73ec0ff.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0fb681e218be5068a5b7ba34b73ec0ff.jpeg)
 
 3. Click the task ID in the **Task ID** column of the application to go to the Workflow page. On this page, you can view the progress of the cluster creation task. When the subtasks **ecs_start** and **eni_attach** enter the **Successful** state, the cluster is created.
 
-   ![](assets/94e17d1cc3db3fc7a9f2d670ac55e134.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/94e17d1cc3db3fc7a9f2d670ac55e134.jpeg)
 
 4. Return to the **Firewalls** page. The NFV Cloud Firewall application is displayed. When the status of the vFW cluster changes to **Running**, click the application name to go to the application details page. You can view the health status of the vFW ECS instance in the **Health Status** column. If **Healthy** is displayed, the cluster service functions as expected. You can then proceed to the next step. If not, the cluster service is not ready. Wait patiently.
 
-   ![](assets/ab0aae117f45a7877a67f419b3fe998d.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ab0aae117f45a7877a67f419b3fe998d.jpeg)
 
-   ![](assets/59e6423f885b113c6b16cc6e45ebd4ce.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/59e6423f885b113c6b16cc6e45ebd4ce.jpeg)
 
 Common prompts:
 
 - **Quota check not passed**: The capacity usage exceeds the specified quota. In this case, use the admin account to log in to the Apsara Uni-manager Management Console and adjust the NFV Cloud Firewall capacity quota for the current organization.
 
-  ![](assets/82eb50e792dc0154b05d819249f04e91.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/82eb50e792dc0154b05d819249f04e91.jpeg)
 
 - **cluster capacity reach license limit**: The capacity usage exceeds the total capacity. In this case, increase the NFV Cloud Firewall capacity by placing a purchase order.
 
-  ![](assets/c7c0a8f4c97a340bab013dd6b2cc11f6.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/c7c0a8f4c97a340bab013dd6b2cc11f6.jpeg)
 
 **Step 5: Create endpoints**
 
@@ -2738,7 +2738,7 @@ Two processes are involved to create an endpoint:
 
 1. Go to the NFV Cloud Firewall application details page. In the **Endpoint** section, click **Create Endpoint** on the right side.
 
-   ![](assets/2c94cce99d3cff3fca6cfa9f46759462.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/2c94cce99d3cff3fca6cfa9f46759462.jpeg)
 
 2. In the **Create Endpoint** panel, configure the following parameters to create an endpoint for vSwitch1 in VPC1.
 
@@ -2753,29 +2753,29 @@ Two processes are involved to create an endpoint:
    | Source Vswitch | Select the source vSwitch from the drop-down list to assign an IP address to the endpoint. In this example, vSwitch1 is selected. |
    | Description | Enter an informative description. We recommend that you enter a description related to the VPC, vSwitch, and business.Example: link_to_vpc1_vsw1. |
 
-   ![](assets/780f249984718884fc07d0284a57f3db.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/780f249984718884fc07d0284a57f3db.jpeg)
 
 3. After you confirm the configuration, click **OK** to create the endpoint. Then, a new endpoint in the **Creating** state is displayed on the page.
 
-   ![](assets/f3c636c9a357a48e1107d4f4e7c9c246.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f3c636c9a357a48e1107d4f4e7c9c246.jpeg)
 
 4. Click the task ID in the Task ID column of the endpoint to go to the Workflow page. On this page, you can view the progress of the endpoint creation task. When the task enters the **Successful** state, the endpoint is created.
 
-   ![](assets/2cbe57b31afb6e74be8a5a544b716c5e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/2cbe57b31afb6e74be8a5a544b716c5e.jpeg)
 
 5. Return to the Details page. You can find that the endpoint is in the **Running** state, and the endpoint ID and IP address are displayed.
 
-   ![](assets/72375f277bceb68a009d082ffb8a63df.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/72375f277bceb68a009d082ffb8a63df.jpeg)
 
    In the **VFW Interface** section, a vFW interface is automatically added based on the endpoint information. If the Configuration Details column of the vFW interface displays **Published**, the endpoint workflow is completed.
 
-   ![](assets/8fc343a3e329418bd093004a1f1b7372.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/8fc343a3e329418bd093004a1f1b7372.jpeg)
 
 **Create an endpoint for vSwitch1-2 in VPC1**
 
 1. In the **Endpoint** section, click **Create Endpoint** on the right side.
 
-   ![](assets/aceb1a877c490194f90420f9b9b7cfbd.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/aceb1a877c490194f90420f9b9b7cfbd.jpeg)
 
 2. In the **Create Endpoint** panel, configure the following parameters to create an endpoint for vSwitch1-2 in VPC1.
 
@@ -2790,33 +2790,33 @@ Two processes are involved to create an endpoint:
    | Source Vswitch | Select the source vSwitch from the drop-down list to assign an IP address to the endpoint. In this example, vSwitch1-2 is selected. |
    | Description | Enter an informative description. We recommend that you enter a description related to the VPC, vSwitch, and business.Example: link_to_vpc1_vsw1-2. |
 
-   ![](assets/0793adc6b3a37dfd453008d72367b110.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0793adc6b3a37dfd453008d72367b110.jpeg)
 
 3. After you confirm the configuration, click **OK** to create the endpoint. Then, a new endpoint in the **Creating** state is displayed on the page.
 
-   ![](assets/bc617349192eb9ea77655d0194746660.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/bc617349192eb9ea77655d0194746660.jpeg)
 
 4. Click the task ID in the Task ID column of the endpoint to go to the Workflow page. On this page, you can view the progress of the endpoint creation task. When the task enters the **Successful** state, the endpoint is created.
 
-   ![](assets/e5e73fa6dc92da70d18d466134f0ea9e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e5e73fa6dc92da70d18d466134f0ea9e.jpeg)
 
 5. Return to the Details page. You can find that the endpoint is in the **Running** state, and the endpoint ID and IP address are displayed.
 
-   ![](assets/235e7a8d96191117889b99b6efeb44cb.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/235e7a8d96191117889b99b6efeb44cb.jpeg)
 
    In the **VFW Interface** section, a vFW interface is automatically added based on the endpoint information. If the Configuration Details column of the vFW interface displays **Published**, the endpoint workflow is completed.
 
-   ![](assets/38a009b742c9992f037aa300da399b5a.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/38a009b742c9992f037aa300da399b5a.jpeg)
 
 After the configuration is completed, the endpoint and vFW interface enter the following states.
 
-![](assets/a6f347d5ba8613dbb15b7b0e2dc36cca.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/a6f347d5ba8613dbb15b7b0e2dc36cca.jpeg)
 
 **Step 6: Create vFW routers (check only)**
 
 In vSwitch-vSwitch protection scenarios, the vFW interface is configured with routes that directly point to the CIDR blocks of the vSwitches. Therefore, you do not need to add static routes.
 
-![](assets/dcc77bb35753a48e32094b3749be7f2f.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/dcc77bb35753a48e32094b3749be7f2f.jpeg)
 
 **Step 7: Create a vFW web portal and log in to the vFW (required only for the first time)**
 
@@ -2834,27 +2834,27 @@ You can use one of the following types of web portals to access NFV Cloud Firewa
 
 1. In the **ECS Info** section of the NFV Cloud Firewall application details page, click **Detail** in the Operation column of the first ECS instance.
 
-   ![](assets/17e46601a049e54cda09f49335a93c0e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/17e46601a049e54cda09f49335a93c0e.jpeg)
 
 2. In the **Classic Network** section, click **Create**. Read the on-screen instructions and click **OK** to create a classic network web portal.
 
-   ![](assets/97f82181317f2228aa522eb7c2cd6e16.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/97f82181317f2228aa522eb7c2cd6e16.jpeg)
 
    After you click OK, the web portal enters the **processing** state. When it enters the **success** state, the web portal is created. Then, you can view the web URL and SSH URL on the page.
 
-   ![](assets/e7e8cb1a218fccc7749e07d0883be9b6.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e7e8cb1a218fccc7749e07d0883be9b6.jpeg)
 
 3. In the **ECS Info** section of the NFV Cloud Firewall application details page, click **Detail** in the Operation column of the second ECS instance.
 
-   ![](assets/932fbc5db2de139286c02782fad382c1.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/932fbc5db2de139286c02782fad382c1.jpeg)
 
 4. In the **Classic Network** section, click **Create**. Read the on-screen instructions and click **OK** to create a classic network web portal.
 
-   ![](assets/df7825ade93cd59c7bb230be87cabfb8.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/df7825ade93cd59c7bb230be87cabfb8.jpeg)
 
    After you click OK, the web portal enters the **processing** state. When it enters the **success** state, the web portal is created. Then, you can view the web URL and SSH URL on the page.
 
-   ![](assets/6988ee54b2c637360b683d3ab34d6e30.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6988ee54b2c637360b683d3ab34d6e30.jpeg)
 
 **VPC web portal**
 
@@ -2870,19 +2870,19 @@ Refer to the classic network web portal procedure, go to the access mode details
 
 2. In the **Create VPC Network Access Method** dialog box, set **Vswitch ID** to the ID of a vSwitch in the VPC. Make sure that the vSwitch has idle IP addresses.
 
-   ![](assets/bb168bbedaf3e8b229b572f82814c508.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/bb168bbedaf3e8b229b572f82814c508.jpeg)
 
 **Log in to the vFW**
 
 Use a browser to access the web URL of the vFW. Then, the login page of the vFW is displayed. In the upper-right corner of the page shows whether the current device is the primary device or the secondary device. You must log in to the primary device first. Enter the default username and password, which are both admin. After you are logged in, you are required to change the default password. After the change, the new password is synchronized to the secondary device.
 
-![](assets/b06c4b4613ac55d8957bd806d5b2f44c.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b06c4b4613ac55d8957bd806d5b2f44c.jpeg)
 
-![](assets/dc20b029382294efb403d1ec549bb713.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/dc20b029382294efb403d1ec549bb713.jpeg)
 
 After you log in to the vFW again, check the hardware platform information and license. Make sure that the authorization is valid and proceed.
 
-![](assets/09a98b78e56b2cee5cdd7f0e755c3dbe.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/09a98b78e56b2cee5cdd7f0e755c3dbe.jpeg)
 
 **Step 8: Configure vFW access control policies**
 
@@ -2892,7 +2892,7 @@ In this scenario, configure a policy to permit ECS1 to access ECS1-2 and enable 
 
 1. In the Apsara Uni-manager Management Console, choose **Policy > Security Policy > Policy** and then choose **New > Policy**.
 
-   ![](assets/165351a14fd2454ff6f8ed6686fc4b0e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/165351a14fd2454ff6f8ed6686fc4b0e.jpeg)
 
 2. Configure the following parameters to create a policy to permit ECS1 to access ECS1-2, and click **OK**.
 
@@ -2909,11 +2909,11 @@ In this scenario, configure a policy to permit ECS1 to access ECS1-2 and enable 
    | --- | --- |
    | Options | Click <strong>Options</strong>, and select <strong>Session start</strong> and <strong>Session end</strong> for <strong>Log</strong>.<br>Important<br>This step only sets the policy to request the system to generate logs. However, whether logs can be successfully generated and queried depends on whether the vFW logging feature is enabled. |
 
-   ![](assets/adaedea720c8eb8261ccefb2bbcdc843.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/adaedea720c8eb8261ccefb2bbcdc843.jpeg)
 
-   ![](assets/4064e42ce3012f3ed6e47877f3f59903.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/4064e42ce3012f3ed6e47877f3f59903.jpeg)
 
-   ![](assets/55df902430e700ab32726febf537de98.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/55df902430e700ab32726febf537de98.jpeg)
 
 3. **Enable session logging for the vFW**: In the Apsara Uni-manager Management Console, choose **Monitor > Log > Session Log** and click **Configure**. In the right-side **Session** panel, turn on **Enable**. If you want to view logs in the console, select **Local Database**. If you want to view logs at the CLI, select **Cache**.
 
@@ -2921,7 +2921,7 @@ In this scenario, configure a policy to permit ECS1 to access ECS1-2 and enable 
    >
    > When session logging is disabled for the vFW, even if you have enabled logging in the access control policy, you cannot find any records on the log query page. You can view only the number of policy hits.
 
-   ![](assets/42fec35518aa184f8ad7a9dcfdc55019.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/42fec35518aa184f8ad7a9dcfdc55019.jpeg)
 
 **Step 9: Create traffic redirection routes**
 
@@ -2939,7 +2939,7 @@ Types of traffic redirection routes:
    >
    > **If you perform this operation in a production environment, make sure that the specifications of the vFW meet the expectation. If the volume of business traffic to redirect exceeds the maximum throughput of the vFW, the network latency increases and packet loss occurs.**
 
-   ![](assets/e4744ecb3b8673701f4c793d7fdd19e1.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e4744ecb3b8673701f4c793d7fdd19e1.jpeg)
 
 2. Configure the following parameters to configure a route to redirect vSwitch-vSwitch traffic and click **OK**.
 
@@ -3127,21 +3127,21 @@ Types of traffic redirection routes:
 
    **Informati on**
 
-   ![](assets/39429d20123619bfe8849ffde2eb2364.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/39429d20123619bfe8849ffde2eb2364.jpeg)
 
-   ![](assets/e2e37fa3ee7e1f6b11b1fc1d0026cd63.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e2e37fa3ee7e1f6b11b1fc1d0026cd63.jpeg)
 
    After you complete the configuration, the **Route Status** column of the routes displays **Unpublish**. In this case, the O&M engineer needs to complete adding and checking all routes and then publish the routes one after one or in batches. This feature allows you to perform route configuration and traffic redirection within two time windows in case you do not have sufficient time to complete the two tasks within the same time window.
 
-   ![](assets/3c952ac8b0089d05d7a7d8c3b32c4fdb.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/3c952ac8b0089d05d7a7d8c3b32c4fdb.jpeg)
 
 3. Click **Publish** in the **Operation** column of the desired traffic redirection route and click **OK**. Wait until the status of the route changes from **Publishing** to **Published**. This means that the route is in effect. This way, the traffic between vSwitch1 and vSwitch1-2 is redirected to NFV Cloud Firewall.
 
-   ![](assets/e5de24936987be197929c494dff3e343.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e5de24936987be197929c494dff3e343.jpeg)
 
-   ![](assets/fe0004f3f6daac2b8f984fc613d99f8a.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/fe0004f3f6daac2b8f984fc613d99f8a.jpeg)
 
-   ![](assets/6e36ca46a86399739a236d1b924848e1.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6e36ca46a86399739a236d1b924848e1.jpeg)
 
 After the traffic redirection route is published, log in to the **VPC** console, go to the **Route Tables** page, and view the status of the routes in the route tables of vSwitch1 and vSwitch1-2.
 
@@ -3149,11 +3149,11 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
 - System route table of vSwitch1:
 
-  ![](assets/886d51f0f662388457631bd2d0000aef.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/886d51f0f662388457631bd2d0000aef.jpeg)
 
 - Custom route table of vSwitch1-2:
 
-  ![](assets/ccd12c570b3435f1803135791fc23db4.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ccd12c570b3435f1803135791fc23db4.jpeg)
 
 **Step 10: Verify the business**
 
@@ -3177,7 +3177,7 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
    operation succeeds.
 
-   ![](assets/318722a420a9ee387832d8b12e6c6d89.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/318722a420a9ee387832d8b12e6c6d89.jpeg)
 
 2. Log in to the Apsara Uni-manager Management Console to view logs.
 
@@ -3185,7 +3185,7 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
    - Choose **Monitor > Log > Session Log**, set **Time** to **Real-time**, and check whether ping (corresponding to ICMP) and SSH (corresponding to TCP) logs are generated. In addition, check whether session logs containing source and destination IP addresses related to the test are generated.
 
-     ![](assets/953642de4c6c1b13ff8abf9e2b65d34d.jpeg)
+     ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/953642de4c6c1b13ff8abf9e2b65d34d.jpeg)
 
 **Other scenarios**
 
@@ -3217,7 +3217,7 @@ To address this issue, NFV Cloud Firewall provides the **bypass** and **restorat
 
 When the status of the bypass feature is **Normal**, traffic is redirected to NFV Cloud Firewall as expected. When the status of the bypass feature is **Bypass**, NFV Cloud Firewall runs in bypass mode and traffic is not redirected to NFV Cloud Firewall.
 
-![](assets/0cd710cd26a16205b4d3d0d4b1c31e27.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0cd710cd26a16205b4d3d0d4b1c31e27.jpeg)
 
 **Implementations and limits**
 
@@ -3239,7 +3239,7 @@ When the NFV Cloud Firewall cluster fails and then recovers from the failure, yo
 
   Backup Route for Failover
 
-![](assets/b495a0cedd47e8048ef3f0e688bdbd05.png)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b495a0cedd47e8048ef3f0e688bdbd05.png)
 
 to VPC1/16    Expre
 
@@ -3255,33 +3255,33 @@ Use an account that belongs to the current organization to log in to the Apsara 
 
 - Create VPC1 and VPC2:
 
-  ![](assets/99cb25479fda9f939b21c5964e4b83eb.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/99cb25479fda9f939b21c5964e4b83eb.jpeg)
 
 - Create vSwitch1 and vSwitch2:
 
-  ![](assets/b724bd7d2c22b67b9128ba60c0680b2a.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b724bd7d2c22b67b9128ba60c0680b2a.jpeg)
 
 - Create ECS instances and a security group:
 
-  ![](assets/c8b9e2f69f2f07c1940b03db13f146b5.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/c8b9e2f69f2f07c1940b03db13f146b5.jpeg)
 
   > **Important**
   >
   > In this example, the security group permits traffic from all sources to simplify the configuration. In actual business scenarios, you need to configure the security group to permit traffic based on the business needs of the ECS instances. Do not permit traffic from all sources.
 
-  ![](assets/70a87fe3d0131629e2180c07599107bf.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/70a87fe3d0131629e2180c07599107bf.jpeg)
 
-  ![](assets/12e3616d0ed703710df54e1ad267cf0b.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/12e3616d0ed703710df54e1ad267cf0b.jpeg)
 
 - Configure Express Connect:
 
-  ![](assets/d1ebf129fdcbc14aabfd909428230181.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/d1ebf129fdcbc14aabfd909428230181.jpeg)
 
 - Configure VPC routes (the mask length of the Express Connect route is set to the mask length of the VPC):
 
-  ![](assets/ba0e20468eb85acc848527052e5196f5.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ba0e20468eb85acc848527052e5196f5.jpeg)
 
-  ![](assets/bb7647c79a484458b12086d69d06d6a2.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/bb7647c79a484458b12086d69d06d6a2.jpeg)
 
 **Configure NFV Cloud Firewall**
 
@@ -3289,11 +3289,11 @@ Use an account that belongs to the current organization to log in to the Apsara 
 
 1. Use an account that can assume the organization security admin role by default to log in to the Apsara Uni-manager Management Console and choose **Security > Network Security > NFV Cloud Firewall**.
 
-   ![](assets/87b4f78fc721087ef16cd31bb51cabed.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/87b4f78fc721087ef16cd31bb51cabed.jpeg)
 
    If this is the first time the level-1 organization of the account uses NFV Cloud Firewall, the **ram role does not exist** message is displayed after you are logged in. In this case, you need to create a Resource Access Management (RAM) role first.
 
-   ![](assets/9442f8b705a5061328e249992150b6fc.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/9442f8b705a5061328e249992150b6fc.jpeg)
 
 2. Switch to the role that has permissions on the organization, such as the organization admin or organization security admin role. You can also use the admin account of the Apsara Uni-manager Management Console. Choose **Configurations > Service-linked Roles**, click **Create Service-linked Role**, configure the following parameters, and click **OK**.
 
@@ -3301,11 +3301,11 @@ Use an account that belongs to the current organization to log in to the Apsara 
 
    - **Authorized Organization Name:** Select the organization on which the role is granted permissions. In this example, NFV_POC1 is selected.
 
-   ![](assets/7563f46b49ba68004f4404a704d33420.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/7563f46b49ba68004f4404a704d33420.jpeg)
 
-   ![](assets/5d537cf7c70f4da208cce4251af7311f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5d537cf7c70f4da208cce4251af7311f.jpeg)
 
-   ![](assets/9cee4427df30004c18c9ae0eab89d473.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/9cee4427df30004c18c9ae0eab89d473.jpeg)
 
 **Step 2: Check the vFW capacity**
 
@@ -3321,9 +3321,9 @@ On the **Firewalls** page of the **NFV Cloud Firewall** console, **VFW Capacity:
 
 You can create NFV Cloud Firewall clusters only when  `Capacity required for creating an NFV Cloud Firewall cluster + Current capacity used ≤ Total capacity` . If not, you need to use the admin account to adjust the NFV Cloud Firewall quota for this organization.
 
-![](assets/f40a41a34e43bd0e3f736aed19c24287.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f40a41a34e43bd0e3f736aed19c24287.jpeg)
 
-![](assets/5498e01660174782277f830cbc1d829e.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5498e01660174782277f830cbc1d829e.jpeg)
 
 **Step 3: Create a CIDR block (required only during the first time you create an NFV Cloud Firewall cluster)**
 
@@ -3343,11 +3343,11 @@ If this is the first time you create an NFV Cloud Firewall cluster in a level-1 
    | Area | Select a region. |
    | CIDR | Enter a CIDR block. The mask length must be smaller than 26. In this example, enter <strong>192.168.1.0/24</strong>. |
 
-   ![](assets/6f8149ca67f9d7e038f5175c00251557.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6f8149ca67f9d7e038f5175c00251557.jpeg)
 
 2. After you confirm the configuration, click **OK**. After the status of the CIDR block changes from **processing** to **success**, the CIDR block is created.
 
-   ![](assets/60e6da07c3241ec3facdabb0df0d2cca.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/60e6da07c3241ec3facdabb0df0d2cca.jpeg)
 
 **Step 4: Create an NFV Cloud Firewall application**
 
@@ -3375,31 +3375,31 @@ If this is the first time you create an NFV Cloud Firewall cluster in a level-1 
    >
    > The values of the CPU Type, VFW Specification, ECS Specification, and ECS Image ID parameters vary depending on the environment and Apsara Stack version. Specify these parameters based on the actual business requirements.
 
-   ![](assets/824d1f93e69572d557f5ed8c021565e2.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/824d1f93e69572d557f5ed8c021565e2.jpeg)
 
 2. After you confirm the configuration, click **OK**. Then, the system automatically verifies the capacity and quota. If the capacity is sufficient, the operation succeeds and a new NFV Cloud Firewall application is displayed in the list. The status of the vFW cluster changes to **Creating**.
 
-   ![](assets/0fb681e218be5068a5b7ba34b73ec0ff.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0fb681e218be5068a5b7ba34b73ec0ff.jpeg)
 
 3. Click the task ID in the **Task ID** column of the application to go to the Workflow page. On this page, you can view the progress of the cluster creation task. When the subtasks **ecs_start** and **eni_attach** enter the **Successful** state, the cluster is created.
 
-   ![](assets/94e17d1cc3db3fc7a9f2d670ac55e134.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/94e17d1cc3db3fc7a9f2d670ac55e134.jpeg)
 
 4. Return to the **Firewalls** page. The NFV Cloud Firewall application is displayed. When the status of the vFW cluster changes to **Running**, click the application name to go to the application details page. You can view the health status of the vFW ECS instance in the **Health Status** column. If **Healthy** is displayed, the cluster service functions as expected. You can then proceed to the next step. If not, the cluster service is not ready. Wait patiently.
 
-   ![](assets/ab0aae117f45a7877a67f419b3fe998d.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ab0aae117f45a7877a67f419b3fe998d.jpeg)
 
-   ![](assets/59e6423f885b113c6b16cc6e45ebd4ce.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/59e6423f885b113c6b16cc6e45ebd4ce.jpeg)
 
 Common prompts:
 
 - **Quota check not passed**: The capacity usage exceeds the specified quota. In this case, use the admin account to log in to the Apsara Uni-manager Management Console and adjust the NFV Cloud Firewall capacity quota for the current organization.
 
-  ![](assets/82eb50e792dc0154b05d819249f04e91.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/82eb50e792dc0154b05d819249f04e91.jpeg)
 
 - **cluster capacity reach license limit**: The capacity usage exceeds the total capacity. In this case, increase the NFV Cloud Firewall capacity by placing a purchase order.
 
-  ![](assets/c7c0a8f4c97a340bab013dd6b2cc11f6.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/c7c0a8f4c97a340bab013dd6b2cc11f6.jpeg)
 
 **Step 5: Create endpoints**
 
@@ -3419,7 +3419,7 @@ Two processes are involved to create an endpoint:
 
 1. Go to the NFV Cloud Firewall application details page. In the **Endpoint** section, click **Create Endpoint** on the right side.
 
-   ![](assets/2c94cce99d3cff3fca6cfa9f46759462.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/2c94cce99d3cff3fca6cfa9f46759462.jpeg)
 
 2. In the **Create Endpoint** panel, configure the following parameters to create an endpoint in VPC1.
 
@@ -3434,29 +3434,29 @@ Two processes are involved to create an endpoint:
    | Source Vswitch | Select the source vSwitch from the drop-down list to assign an IP address to the endpoint. |
    | Description | Enter an informative description. We recommend that you enter a description related to the VPC, vSwitch, and business.Example: link_to_vpc1. |
 
-   ![](assets/82e586eeac235218e58b9bccc29f2043.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/82e586eeac235218e58b9bccc29f2043.jpeg)
 
 3. After you confirm the configuration, click **OK** to create the endpoint. Then, a new endpoint in the **Creating** state is displayed on the page.
 
-   ![](assets/f750ad76362f9457ec011e066ac17936.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f750ad76362f9457ec011e066ac17936.jpeg)
 
 4. Click the task ID in the Task ID column of the endpoint to go to the Workflow page. On this page, you can view the progress of the endpoint creation task. When the task enters the **Successful** state, the endpoint is created.
 
-   ![](assets/f8ac3c6f9846cc14e96879b05e0c95fe.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f8ac3c6f9846cc14e96879b05e0c95fe.jpeg)
 
 5. Return to the Details page. You can find that the endpoint is in the **Running** state, and the endpoint ID and IP address are displayed.
 
-   ![](assets/19ad13ed8cce61ff769a2da8878f0cb1.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/19ad13ed8cce61ff769a2da8878f0cb1.jpeg)
 
    In the **VFW Interface** section, a vFW interface is automatically added based on the endpoint information. If the Configuration Details column of the vFW interface displays **Published**, the endpoint workflow is completed.
 
-   ![](assets/0bff7a7935e014a60cd54e4281cd12e0.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0bff7a7935e014a60cd54e4281cd12e0.jpeg)
 
 **Create an endpoint in VPC2**
 
 1. In the **Endpoint** section, click **Create Endpoint** on the right side.
 
-   ![](assets/5ed2915eb1c6011a222b441b39e9c92f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5ed2915eb1c6011a222b441b39e9c92f.jpeg)
 
 2. In the **Create Endpoint** panel, configure the following parameters to create an endpoint in VPC2.
 
@@ -3471,39 +3471,39 @@ Two processes are involved to create an endpoint:
    | Source Vswitch | Select the source vSwitch from the drop-down list to assign an IP address to the endpoint. |
    | Description | Enter an informative description. We recommend that you enter a description related to the VPC, vSwitch, and business.Example: link_to_vpc2. |
 
-   ![](assets/89d7ac8b3801b1d1ef460300f8732c75.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/89d7ac8b3801b1d1ef460300f8732c75.jpeg)
 
 3. After you confirm the configuration, click **OK** to create the endpoint. Then, a new endpoint in the **Creating** state is displayed on the page.
 
-   ![](assets/13d9076a563a399c00018d53c05ed83c.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/13d9076a563a399c00018d53c05ed83c.jpeg)
 
 4. Click the task ID in the Task ID column of the endpoint to go to the Workflow page. On this page, you can view the progress of the endpoint creation task. When the task enters the **Successful** state, the endpoint is created.
 
-   ![](assets/796a1fdd9eafa814e695079439c9827d.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/796a1fdd9eafa814e695079439c9827d.jpeg)
 
 5. Return to the Details page. You can find that the endpoint is in the **Running** state, and the endpoint ID and IP address are displayed.
 
-   ![](assets/7fbfc1a729e8f864285c96397cd3a4ed.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/7fbfc1a729e8f864285c96397cd3a4ed.jpeg)
 
    In the **VFW Interface** section, a vFW interface is automatically added based on the endpoint information. If the Configuration Details column of the vFW interface displays **Published**, the endpoint workflow is completed.
 
-   ![](assets/fd4ed067e9bdbb2fc2fc8f04d5d7be1e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/fd4ed067e9bdbb2fc2fc8f04d5d7be1e.jpeg)
 
 After you complete the configuration, the endpoints and vFW interfaces enter the following states.
 
-![](assets/d27eb61389d310630ac91ae0b36ebb14.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/d27eb61389d310630ac91ae0b36ebb14.jpeg)
 
 **Step 6: Create vFW routers**
 
 By default, a vFW interface is configured with a direct route that points to the CIDR block of the vSwitch. However, you still need to add static routes to the vFW to route traffic to the CIDR blocks of VPC1 and VPC2.
 
-![](assets/87cceb08e3e9bcae8a59e20b933e055f.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/87cceb08e3e9bcae8a59e20b933e055f.jpeg)
 
 **Add a route that routes traffic from the vFW to VPC1**
 
 1. In the **VFW Router** section of the Details page, click **Create VFW Router** on the right side.
 
-   ![](assets/b8f3de45e3ca800d1fc19ffd19ff76ec.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b8f3de45e3ca800d1fc19ffd19ff76ec.jpeg)
 
 2. Configure the following parameters to add a route that routes traffic from the vFW to VPC1.
 
@@ -3516,11 +3516,11 @@ By default, a vFW interface is configured with a direct route that points to the
    | Destination CIDR Block | Enter the destination CIDR block of the static route in the format of <code> subnet address/mask length </code>. In this example, enter the CIDR block of VPC1. |
    | Description | Enter the description of the static route. We recommend that you specify it in the format of route_to_destination VPC name, such as route_to_vpc1. |
 
-   ![](assets/66c834b900e402290c94445700d3dc1e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/66c834b900e402290c94445700d3dc1e.jpeg)
 
 3. After you confirm the configuration, click **OK** to create a vFW router. Then, a new vFW router is displayed in the list. If the Configuration Details column of the vFW router displays **Published**, the vFW router is created.
 
-   ![](assets/2df4506b5d115292cbb0b0b814aa1e62.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/2df4506b5d115292cbb0b0b814aa1e62.jpeg)
 
 **Add a route that routes traffic from the vFW to VPC2**
 
@@ -3537,15 +3537,15 @@ By default, a vFW interface is configured with a direct route that points to the
    | Destination CIDR Block | Enter the destination CIDR block of the static route in the format of <code> subnet address/mask length </code>. In this example, enter the CIDR block of VPC2. |
    | Description | Enter the description of the static route. We recommend that you specify it in the format of route_to_destination VPC name, such as route_to_vpc2. |
 
-   ![](assets/73fb8782d88b6964d99a51e3fc44a0cd.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/73fb8782d88b6964d99a51e3fc44a0cd.jpeg)
 
 3. After you confirm the configuration, click **OK** to create a vFW router. Then, a new vFW router is displayed in the list. If the Configuration Details column of the vFW router displays **Published**, the vFW router is created.
 
-   ![](assets/3f08e891ae259efaa3852291a0cc9c97.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/3f08e891ae259efaa3852291a0cc9c97.jpeg)
 
 After the configuration is completed, the vFW routers enter the following states.
 
-![](assets/f3ad6ed8bb15fdac69877264a0dec632.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f3ad6ed8bb15fdac69877264a0dec632.jpeg)
 
 **Step 7: Create a vFW web portal and log in to the vFW (required only for the first time)**
 
@@ -3563,27 +3563,27 @@ You can use one of the following types of web portals to access NFV Cloud Firewa
 
 1. In the **ECS Info** section of the NFV Cloud Firewall application details page, click **Detail** in the Operation column of the first ECS instance.
 
-   ![](assets/17e46601a049e54cda09f49335a93c0e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/17e46601a049e54cda09f49335a93c0e.jpeg)
 
 2. In the **Classic Network** section, click **Create**. Read the on-screen instructions and click **OK** to create a classic network web portal.
 
-   ![](assets/97f82181317f2228aa522eb7c2cd6e16.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/97f82181317f2228aa522eb7c2cd6e16.jpeg)
 
    After you click OK, the web portal enters the **processing** state. When it enters the **success** state, the web portal is created. Then, you can view the web URL and SSH URL on the page.
 
-   ![](assets/e7e8cb1a218fccc7749e07d0883be9b6.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e7e8cb1a218fccc7749e07d0883be9b6.jpeg)
 
 3. In the **ECS Info** section of the NFV Cloud Firewall application details page, click **Detail** in the Operation column of the second ECS instance.
 
-   ![](assets/932fbc5db2de139286c02782fad382c1.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/932fbc5db2de139286c02782fad382c1.jpeg)
 
 4. In the **Classic Network** section, click **Create**. Read the on-screen instructions and click **OK** to create a classic network web portal.
 
-   ![](assets/df7825ade93cd59c7bb230be87cabfb8.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/df7825ade93cd59c7bb230be87cabfb8.jpeg)
 
    After you click OK, the web portal enters the **processing** state. When it enters the **success** state, the web portal is created. Then, you can view the web URL and SSH URL on the page.
 
-   ![](assets/6988ee54b2c637360b683d3ab34d6e30.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6988ee54b2c637360b683d3ab34d6e30.jpeg)
 
 **VPC web portal**
 
@@ -3599,19 +3599,19 @@ Refer to the classic network web portal procedure, go to the access mode details
 
 2. In the **Create VPC Network Access Method** dialog box, set **Vswitch ID** to the ID of a vSwitch in the VPC. Make sure that the vSwitch has idle IP addresses.
 
-   ![](assets/bb168bbedaf3e8b229b572f82814c508.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/bb168bbedaf3e8b229b572f82814c508.jpeg)
 
 **Log in to the vFW**
 
 Use a browser to access the web URL of the vFW. Then, the login page of the vFW is displayed. In the upper-right corner of the page shows whether the current device is the primary device or the secondary device. You must log in to the primary device first. Enter the default username and password, which are both admin. After you are logged in, you are required to change the default password. After the change, the new password is synchronized to the secondary device.
 
-![](assets/b06c4b4613ac55d8957bd806d5b2f44c.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b06c4b4613ac55d8957bd806d5b2f44c.jpeg)
 
-![](assets/dc20b029382294efb403d1ec549bb713.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/dc20b029382294efb403d1ec549bb713.jpeg)
 
 After you log in to the vFW again, check the hardware platform information and license. Make sure that the authorization is valid and proceed.
 
-![](assets/09a98b78e56b2cee5cdd7f0e755c3dbe.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/09a98b78e56b2cee5cdd7f0e755c3dbe.jpeg)
 
 **Step 8: Configure vFW access control policies**
 
@@ -3629,7 +3629,7 @@ In this scenario:
 
 1. In the Apsara Uni-manager Management Console, choose **Policy > Security Policy > Policy** and then choose **New > Policy**.
 
-   ![](assets/165351a14fd2454ff6f8ed6686fc4b0e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/165351a14fd2454ff6f8ed6686fc4b0e.jpeg)
 
 2. Configure the following parameters to create a policy to permit ping packets from ECS1 to ECS2, and click **OK**.
 
@@ -3644,11 +3644,11 @@ In this scenario:
    | Action | Select <strong>Permit</strong>. |
    | Options | Click <strong>Options</strong>, and select <strong>Session start</strong> and <strong>Session end</strong> for <strong>Log</strong>.<br>Important<br>This step only sets the policy to request the system to generate logs. However, whether logs can be successfully generated and queried depends on whether the vFW logging feature is enabled. |
 
-   ![](assets/193b0b1c65e76938cd59aa8eaecb15aa.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/193b0b1c65e76938cd59aa8eaecb15aa.jpeg)
 
-   ![](assets/1e91ad295096dc81fc563e7c06fff6f6.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/1e91ad295096dc81fc563e7c06fff6f6.jpeg)
 
-   ![](assets/97d4edd2a7498277c02d16b3c6d43f62.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/97d4edd2a7498277c02d16b3c6d43f62.jpeg)
 
 3. Choose **New > Policy** again, configure the following parameters to block access from ECS1 to ECS2 over SSH, and click **OK**.
 
@@ -3663,11 +3663,11 @@ In this scenario:
    | Action | Select <strong>Deny</strong>. |
    | Options | Click <strong>Options</strong>, and select <strong>Deny</strong> for <strong>Log</strong>.<br>Important<br>This step only sets the policy to request the system to generate logs. However, whether logs can be successfully generated and queried depends on whether the vFW logging feature is enabled. |
 
-   ![](assets/0160459d8f44c9482c4480b8d42de14d.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0160459d8f44c9482c4480b8d42de14d.jpeg)
 
-   ![](assets/e221e67df54dd6635dda1f9709eaa88e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e221e67df54dd6635dda1f9709eaa88e.jpeg)
 
-   ![](assets/6b5feded16064e9289b3809459d50c1a.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6b5feded16064e9289b3809459d50c1a.jpeg)
 
 4. **Enable session logging for the vFW**: In the Apsara Uni-manager Management Console, choose **Monitor > Log > Session Log** and click **Configure**. In the right-side **Session** panel, turn on **Enable**. If you want to view logs in the console, select **Local Database**. If you want to view logs at the CLI, select **Cache**.
 
@@ -3675,7 +3675,7 @@ In this scenario:
    >
    > When session logging is disabled for the vFW, even if you have enabled logging in the access control policy, you cannot find any records on the log query page. You can view only the number of policy hits.
 
-   ![](assets/42fec35518aa184f8ad7a9dcfdc55019.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/42fec35518aa184f8ad7a9dcfdc55019.jpeg)
 
 **Step 9: Create traffic redirection routes**
 
@@ -3691,7 +3691,7 @@ In this scenario:
    >
    > **If you perform this operation in a production environment, make sure that the specifications of the vFW meet the expectation. If the volume of business traffic to redirect exceeds the maximum throughput of the vFW, the network latency increases and packet loss occurs.**
 
-   ![](assets/51a7e8ae08c37a1f6b8c9fc113c902ed.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/51a7e8ae08c37a1f6b8c9fc113c902ed.jpeg)
 
 2. Configure the following parameters to configure a route to redirect VPC-VPC traffic and click **OK**.
 
@@ -3891,21 +3891,21 @@ In this scenario:
 
    **Informati on**
 
-   ![](assets/e86e9f1ee2fba39f38b3d830ba843c26.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e86e9f1ee2fba39f38b3d830ba843c26.jpeg)
 
-   ![](assets/4d392ab465a6369ca482227c7c9ef19a.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/4d392ab465a6369ca482227c7c9ef19a.jpeg)
 
    After you complete the configuration, the **Route Status** column of the routes displays **Unpublish**. In this case, the O&M engineer needs to complete adding and checking all routes and then publish the routes one after one or in batches. This feature allows you to perform route configuration and traffic redirection within two time windows in case you do not have sufficient time to complete the two tasks within the same time window.
 
-   ![](assets/ad7bf766233a269bc5099089d7e01aa8.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ad7bf766233a269bc5099089d7e01aa8.jpeg)
 
 3. Click **Publish** in the **Operation** column of the desired traffic redirection route and click **OK**. Wait until the status of the route changes from **Publishing** to **Published**. This means that the route is in effect. This way, the outbound traffic of VPC1 and VPC2 is redirected to NFV Cloud Firewall.
 
-   ![](assets/0875528afa3a03aa84d19a5392bf79d6.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0875528afa3a03aa84d19a5392bf79d6.jpeg)
 
-   ![](assets/ce63c0519257275c87eef6144ede2b58.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ce63c0519257275c87eef6144ede2b58.jpeg)
 
-   ![](assets/d1c5dfd18057a4c5653ace5c4e68cea4.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/d1c5dfd18057a4c5653ace5c4e68cea4.jpeg)
 
 After the traffic redirection route is published, log in to the **VPC** console, go to the **Route Tables** page, and view the status of the routes in the route tables of VPC1 and VPC2.
 
@@ -3913,11 +3913,11 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
 - Route table of VPC1:
 
-  ![](assets/922b9c29164e0db2a8376a8c655f7620.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/922b9c29164e0db2a8376a8c655f7620.jpeg)
 
 - Route table of VPC2:
 
-  ![](assets/4a97b97f4623a1a3aa6ec362c375e090.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/4a97b97f4623a1a3aa6ec362c375e090.jpeg)
 
 **Step 10: Verify the business**
 
@@ -3941,7 +3941,7 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
    failed.
 
-   ![](assets/ec73fc284c7a12d9f962f74d24f53e21.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ec73fc284c7a12d9f962f74d24f53e21.jpeg)
 
 2. Log in to the Apsara Uni-manager Management Console to view logs.
 
@@ -3949,7 +3949,7 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
    - Choose **Monitor > Log > Session Log**, set **Time** to **Real-time**, and check whether ping (corresponding to ICMP) and SSH (corresponding to TCP) logs are generated. In addition, check whether session logs containing source and destination IP addresses related to the test are generated.
 
-     ![](assets/26396d6c44f4dc30bcf1ba2698b2d0d3.jpeg)
+     ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/26396d6c44f4dc30bcf1ba2698b2d0d3.jpeg)
 
 **Perform the bypass and restoration operations**
 
@@ -3959,7 +3959,7 @@ The bypass or restoration operation requires you to enter a verification code, w
 
 In the upper-right corner, click the user icon. On the **User Information** page, record the value of the **Tenant Account Alias** field.
 
-![](assets/0d702148003f94c3f21cb9a91f90af6c.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0d702148003f94c3f21cb9a91f90af6c.jpeg)
 
 **Perform the bypass operation**
 
@@ -3967,11 +3967,11 @@ In the upper-right corner, click the user icon. On the **User Information** page
 
 2. In the right-side panel, enter the organization UID **alias of the Apsara Stack tenant account** into the **Captcha** field and click **OK**.
 
-   ![](assets/36678ede7950608ae33313d576bab643.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/36678ede7950608ae33313d576bab643.jpeg)
 
    After **Bypass Status** changes from **Normal** to **Bypassing** and then to **Bypassed**, the bypass operation is completed.
 
-   ![](assets/fca64e1ea9c96366cf2f4ead25d1865a.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/fca64e1ea9c96366cf2f4ead25d1865a.jpeg)
 
 3. Check whether the bypass operation is successful.
 
@@ -3985,11 +3985,11 @@ In the upper-right corner, click the user icon. On the **User Information** page
 
    Route table of VPC1:
 
-   ![](assets/8d0a3d7ba1ec25d8cc170868bcfb24f8.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/8d0a3d7ba1ec25d8cc170868bcfb24f8.jpeg)
 
    Route table of VPC2:
 
-   ![](assets/ea7b120691f455f54f5b8082b58aafe2.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ea7b120691f455f54f5b8082b58aafe2.jpeg)
 
    </li>
 
@@ -4005,7 +4005,7 @@ In the upper-right corner, click the user icon. On the **User Information** page
 
    </ol>
 
-   ![](assets/8be8a86f4c2ab8c1d11baefffff8d3be.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/8be8a86f4c2ab8c1d11baefffff8d3be.jpeg)
 
    <ol type="i" start="3">
 
@@ -4017,7 +4017,7 @@ In the upper-right corner, click the user icon. On the **User Information** page
 
    </ol>
 
-   ![](assets/75368c696f375ef38e5d1e6dc80b037a.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/75368c696f375ef38e5d1e6dc80b037a.jpeg)
 
 **Perform the restoration operation**
 
@@ -4025,11 +4025,11 @@ In the upper-right corner, click the user icon. On the **User Information** page
 
 2. In the right-side panel, enter the organization UID **alias of the Apsara Stack tenant account** into the **Captcha** field and click **OK**.
 
-   ![](assets/23c18b1562ce481226e4a3fc9d65a67f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/23c18b1562ce481226e4a3fc9d65a67f.jpeg)
 
    After **Bypass Status** changes from **Bypassed** to **Recovering** and then to **Normal**, the restoration operation is completed.
 
-   ![](assets/b85720c1aa2820c050b6d3238837bff3.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b85720c1aa2820c050b6d3238837bff3.jpeg)
 
 3. Check whether the restoration operation is successful.
 
@@ -4043,11 +4043,11 @@ In the upper-right corner, click the user icon. On the **User Information** page
 
    Route table of VPC1:
 
-   ![](assets/ded5efb8ebc2ece1a99dc7b1e950d318.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ded5efb8ebc2ece1a99dc7b1e950d318.jpeg)
 
    Route table of VPC2:
 
-   ![](assets/24fc7e76ff28c0304d8f89035fd284b7.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/24fc7e76ff28c0304d8f89035fd284b7.jpeg)
 
    </li>
 
@@ -4063,7 +4063,7 @@ In the upper-right corner, click the user icon. On the **User Information** page
 
    </ol>
 
-   ![](assets/7e0e0294327bab4a0963dbe608e280a8.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/7e0e0294327bab4a0963dbe608e280a8.jpeg)
 
    <ol type="i" start="3">
 
@@ -4075,7 +4075,7 @@ In the upper-right corner, click the user icon. On the **User Information** page
 
    </ol>
 
-   ![](assets/64e2930aae9afdfa0a1256dea2d6071b.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/64e2930aae9afdfa0a1256dea2d6071b.jpeg)
 
 **Summary**
 
@@ -4121,7 +4121,7 @@ The solution that uses a VPC as the hub requires you to integrate the HUB_VPC an
 
 Destination                                           Next Hop
 
-![](assets/d85c7471e3bf7e90118a1f27806cff2f.png)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/d85c7471e3bf7e90118a1f27806cff2f.png)
 
 NE VPC
 
@@ -4149,7 +4149,7 @@ This way, VPC1 and the data center can securely communicate through NFV Cloud Fi
 
 **Network Integration That Connects HUB_VPC and Data Center**
 
-![](assets/1176ce81e28687cf8b7babc1fb33b2d2.png)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/1176ce81e28687cf8b7babc1fb33b2d2.png)
 
 **Create resources**
 
@@ -4157,21 +4157,21 @@ Use an account that belongs to the current organization to log in to the Apsara 
 
 - Create VPC1 and HUB_VPC:
 
-  ![](assets/d6313e665e62c93914cce30796f1738c.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/d6313e665e62c93914cce30796f1738c.jpeg)
 
 - Create vSwitch1 and hub_vSwitch:
 
-  ![](assets/a9acbc29589d0bf4cbe12054917dd2c0.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/a9acbc29589d0bf4cbe12054917dd2c0.jpeg)
 
 - Create an ECS instance and a security group. Assets other than resources in the cloud, such as servers in the data center, are not displayed.
 
-  ![](assets/0d6e13f027d6e0f10c868ed7cb3be323.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0d6e13f027d6e0f10c868ed7cb3be323.jpeg)
 
   > **Important**
   >
   > In this example, the security group permits traffic from all sources to simplify the configuration. In actual business scenarios, you need to configure the security group to permit traffic based on the business needs of the ECS instances. Do not permit traffic from all sources.
 
-  ![](assets/70a87fe3d0131629e2180c07599107bf.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/70a87fe3d0131629e2180c07599107bf.jpeg)
 
 **Standard VPC-data center network integration**
 
@@ -4187,13 +4187,13 @@ The following configuration is used in this example:
 
 - Example of VBR routes on CSWs (Add routes pointing to VPC1 and HUB_VPC after completing network integration):
 
-  ![](assets/24d007d349db460a39857fabdd6615b2.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/24d007d349db460a39857fabdd6615b2.jpeg)
 
-  ![](assets/99ccb9c1e089afd143f024f59867df45.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/99ccb9c1e089afd143f024f59867df45.jpeg)
 
 - Example of routes added to the route table of the HUB_VPC (Add routes pointing to the data center after completing network integration):
 
-  ![](assets/2b3694696ebb08dd77b04c872d33bade.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/2b3694696ebb08dd77b04c872d33bade.jpeg)
 
 **Configure NFV Cloud Firewall**
 
@@ -4201,11 +4201,11 @@ The following configuration is used in this example:
 
 1. Use an account that can assume the organization security admin role by default to log in to the Apsara Uni-manager Management Console and choose **Security > Network Security > NFV Cloud Firewall**.
 
-   ![](assets/87b4f78fc721087ef16cd31bb51cabed.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/87b4f78fc721087ef16cd31bb51cabed.jpeg)
 
    If this is the first time the level-1 organization of the account uses NFV Cloud Firewall, the **ram role does not exist** message is displayed after you are logged in. In this case, you need to create a Resource Access Management (RAM) role first.
 
-   ![](assets/9442f8b705a5061328e249992150b6fc.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/9442f8b705a5061328e249992150b6fc.jpeg)
 
 2. Switch to the role that has permissions on the organization, such as the organization admin or organization security admin role. You can also use the admin account of the Apsara Uni-manager Management Console. Choose **Configurations > Service-linked Roles**, click **Create Service-linked Role**, configure the following parameters, and click **OK**.
 
@@ -4213,11 +4213,11 @@ The following configuration is used in this example:
 
    - **Authorized Organization Name:** Select the organization on which the role is granted permissions. In this example, NFV_POC1 is selected.
 
-   ![](assets/7563f46b49ba68004f4404a704d33420.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/7563f46b49ba68004f4404a704d33420.jpeg)
 
-   ![](assets/5d537cf7c70f4da208cce4251af7311f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5d537cf7c70f4da208cce4251af7311f.jpeg)
 
-   ![](assets/9cee4427df30004c18c9ae0eab89d473.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/9cee4427df30004c18c9ae0eab89d473.jpeg)
 
 **Step 2: Check the vFW capacity**
 
@@ -4233,9 +4233,9 @@ On the **Firewalls** page of the **NFV Cloud Firewall** console, **VFW Capacity:
 
 You can create NFV Cloud Firewall clusters only when  `Capacity required for creating an NFV Cloud Firewall cluster + Current capacity used ≤ Total capacity` . If not, you need to use the admin account to adjust the NFV Cloud Firewall quota for this organization.
 
-![](assets/f40a41a34e43bd0e3f736aed19c24287.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f40a41a34e43bd0e3f736aed19c24287.jpeg)
 
-![](assets/5498e01660174782277f830cbc1d829e.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5498e01660174782277f830cbc1d829e.jpeg)
 
 **Step 3: Create a CIDR block (required only during the first time you create an NFV Cloud Firewall cluster)**
 
@@ -4255,11 +4255,11 @@ If this is the first time you create an NFV Cloud Firewall cluster in a level-1 
    | Area | Select a region. |
    | CIDR | Enter a CIDR block. The mask length must be smaller than 26. In this example, enter <strong>192.168.1.0/24</strong>. |
 
-   ![](assets/6f8149ca67f9d7e038f5175c00251557.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6f8149ca67f9d7e038f5175c00251557.jpeg)
 
 2. After you confirm the configuration, click **OK**. After the status of the CIDR block changes from **processing** to **success**, the CIDR block is created.
 
-   ![](assets/60e6da07c3241ec3facdabb0df0d2cca.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/60e6da07c3241ec3facdabb0df0d2cca.jpeg)
 
 **Step 4: Create an NFV Cloud Firewall application**
 
@@ -4287,31 +4287,31 @@ If this is the first time you create an NFV Cloud Firewall cluster in a level-1 
    >
    > The values of the CPU Type, VFW Specification, ECS Specification, and ECS Image ID parameters vary depending on the environment and Apsara Stack version. Specify these parameters based on the actual business requirements.
 
-   ![](assets/824d1f93e69572d557f5ed8c021565e2.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/824d1f93e69572d557f5ed8c021565e2.jpeg)
 
 2. After you confirm the configuration, click **OK**. Then, the system automatically verifies the capacity and quota. If the capacity is sufficient, the operation succeeds and a new NFV Cloud Firewall application is displayed in the list. The status of the vFW cluster changes to **Creating**.
 
-   ![](assets/0fb681e218be5068a5b7ba34b73ec0ff.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0fb681e218be5068a5b7ba34b73ec0ff.jpeg)
 
 3. Click the task ID in the **Task ID** column of the application to go to the Workflow page. On this page, you can view the progress of the cluster creation task. When the subtasks **ecs_start** and **eni_attach** enter the **Successful** state, the cluster is created.
 
-   ![](assets/94e17d1cc3db3fc7a9f2d670ac55e134.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/94e17d1cc3db3fc7a9f2d670ac55e134.jpeg)
 
 4. Return to the **Firewalls** page. The NFV Cloud Firewall application is displayed. When the status of the vFW cluster changes to **Running**, click the application name to go to the application details page. You can view the health status of the vFW ECS instance in the **Health Status** column. If **Healthy** is displayed, the cluster service functions as expected. You can then proceed to the next step. If not, the cluster service is not ready. Wait patiently.
 
-   ![](assets/ab0aae117f45a7877a67f419b3fe998d.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ab0aae117f45a7877a67f419b3fe998d.jpeg)
 
-   ![](assets/59e6423f885b113c6b16cc6e45ebd4ce.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/59e6423f885b113c6b16cc6e45ebd4ce.jpeg)
 
 Common prompts:
 
 - **Quota check not passed**: The capacity usage exceeds the specified quota. In this case, use the admin account to log in to the Apsara Uni-manager Management Console and adjust the NFV Cloud Firewall capacity quota for the current organization.
 
-  ![](assets/82eb50e792dc0154b05d819249f04e91.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/82eb50e792dc0154b05d819249f04e91.jpeg)
 
 - **cluster capacity reach license limit**: The capacity usage exceeds the total capacity. In this case, increase the NFV Cloud Firewall capacity by placing a purchase order.
 
-  ![](assets/c7c0a8f4c97a340bab013dd6b2cc11f6.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/c7c0a8f4c97a340bab013dd6b2cc11f6.jpeg)
 
 **Step 5: Create endpoints**
 
@@ -4331,7 +4331,7 @@ Two processes are involved to create an endpoint:
 
 1. Go to the NFV Cloud Firewall application details page. In the **Endpoint** section, click **Create Endpoint** on the right side.
 
-   ![](assets/2c94cce99d3cff3fca6cfa9f46759462.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/2c94cce99d3cff3fca6cfa9f46759462.jpeg)
 
 2. In the **Create Endpoint** panel, configure the following parameters to create an endpoint in VPC1.
 
@@ -4346,29 +4346,29 @@ Two processes are involved to create an endpoint:
    | Source Vswitch | Select the source vSwitch from the drop-down list to assign an IP address to the endpoint. |
    | Description | Enter an informative description. We recommend that you enter a description related to the VPC, vSwitch, and business.Example: link_to_vpc1. |
 
-   ![](assets/82e586eeac235218e58b9bccc29f2043.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/82e586eeac235218e58b9bccc29f2043.jpeg)
 
 3. After you confirm the configuration, click **OK** to create the endpoint. Then, a new endpoint in the **Creating** state is displayed on the page.
 
-   ![](assets/f750ad76362f9457ec011e066ac17936.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f750ad76362f9457ec011e066ac17936.jpeg)
 
 4. Click the task ID in the Task ID column of the endpoint to go to the Workflow page. On this page, you can view the progress of the endpoint creation task. When the task enters the **Successful** state, the endpoint is created.
 
-   ![](assets/f8ac3c6f9846cc14e96879b05e0c95fe.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f8ac3c6f9846cc14e96879b05e0c95fe.jpeg)
 
 5. Return to the Details page. You can find that the endpoint is in the **Running** state, and the endpoint ID and IP address are displayed.
 
-   ![](assets/19ad13ed8cce61ff769a2da8878f0cb1.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/19ad13ed8cce61ff769a2da8878f0cb1.jpeg)
 
    In the **VFW Interface** section, a vFW interface is automatically added based on the endpoint information. If the Configuration Details column of the vFW interface displays **Published**, the endpoint workflow is completed.
 
-   ![](assets/0bff7a7935e014a60cd54e4281cd12e0.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/0bff7a7935e014a60cd54e4281cd12e0.jpeg)
 
 **Create an endpoint in the HUB_VPC**
 
 1. In the **Endpoint** section, click **Create Endpoint** on the right side.
 
-   ![](assets/5ed2915eb1c6011a222b441b39e9c92f.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5ed2915eb1c6011a222b441b39e9c92f.jpeg)
 
 2. In the **Create Endpoint** panel, configure the following parameters to create an endpoint in the HUB_VPC.
 
@@ -4383,27 +4383,27 @@ Two processes are involved to create an endpoint:
    | Source Vswitch | Select the source vSwitch from the drop-down list to assign an IP address to the endpoint. |
    | Description | Enter an informative description. We recommend that you enter a description related to the VPC, vSwitch, and business.Example: link_to_hub_vpc. |
 
-   ![](assets/8ab35fb3abfd0fc1b4689d854220a038.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/8ab35fb3abfd0fc1b4689d854220a038.jpeg)
 
 3. After you confirm the configuration, click **OK** to create the endpoint. Then, a new endpoint in the **Creating** state is displayed on the page.
 
-   ![](assets/5e71d93e684ae67441abcbcdaa282494.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/5e71d93e684ae67441abcbcdaa282494.jpeg)
 
 4. Click the task ID in the Task ID column of the endpoint to go to the Workflow page. On this page, you can view the progress of the endpoint creation task. When the task enters the **Successful** state, the endpoint is created.
 
-   ![](assets/8d0eed775c6c9310c0a909546fcf55d3.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/8d0eed775c6c9310c0a909546fcf55d3.jpeg)
 
 5. Return to the Details page. You can find that the endpoint is in the **Running** state, and the endpoint ID and IP address are displayed.
 
-   ![](assets/44b1bf28bf95eba0644f1f99b719d7cc.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/44b1bf28bf95eba0644f1f99b719d7cc.jpeg)
 
    In the **VFW Interface** section, a vFW interface is automatically added based on the endpoint information. If the Configuration Details column of the vFW interface displays **Published**, the endpoint workflow is completed.
 
-   ![](assets/cfad22e292dd7ec6284e9bdc383cdb6b.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/cfad22e292dd7ec6284e9bdc383cdb6b.jpeg)
 
 After the configuration is completed, the endpoint and vFW interface enter the following states.
 
-![](assets/6a13a23d8dcda38ab35b2d719ebe0971.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6a13a23d8dcda38ab35b2d719ebe0971.jpeg)
 
 **Step 6: Create vFW routers**
 
@@ -4411,13 +4411,13 @@ By default, a vFW interface is configured with a direct route that points to the
 
 Traffic destined for the data center must traverse the HUB_VPC. Therefore, when you add a static route that points to the data center to the vFW, set the next hop to the endpoint of the HUB_VPC.
 
-![](assets/f6f4e4b52413ce3b93a6b9a0a68fdc6a.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/f6f4e4b52413ce3b93a6b9a0a68fdc6a.jpeg)
 
 **Add a route that routes traffic from the vFW to VPC1**
 
 1. In the **VFW Router** section of the Details page, click **Create VFW Router** on the right side.
 
-   ![](assets/3348e0c6310a063f2f22737f6c7ade7b.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/3348e0c6310a063f2f22737f6c7ade7b.jpeg)
 
 2. Configure the following parameters to add a route that routes traffic from the vFW to VPC1.
 
@@ -4430,11 +4430,11 @@ Traffic destined for the data center must traverse the HUB_VPC. Therefore, when 
    | Destination CIDR Block | Enter the destination CIDR block of the static route in the format of <code> subnet address/mask length </code>. In this example, enter the CIDR block of VPC1. |
    | Description | Enter the description of the static route. We recommend that you specify it in the format of route_to_destination VPC name, such as route_to_vpc1. |
 
-   ![](assets/1684c5cfd4ac5a062024efb15f50064a.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/1684c5cfd4ac5a062024efb15f50064a.jpeg)
 
 3. After you confirm the configuration, click **OK** to create a vFW router. Then, a new vFW router is displayed in the list. If the Configuration Details column of the vFW router displays **Published**, the vFW router is created.
 
-   ![](assets/2e50c0ed6651372d083ade65f5799786.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/2e50c0ed6651372d083ade65f5799786.jpeg)
 
 **Add a route that routes traffic from the vFW to the data center**
 
@@ -4451,15 +4451,15 @@ Traffic destined for the data center must traverse the HUB_VPC. Therefore, when 
    | Destination CIDR Block | Enter the destination CIDR block of the static route in the format of <code> subnet address/mask length </code>. In this example, enter the CIDR block of the data center. |
    | Description | Enter the description of the static route. We recommend that you specify it in the format of route_to_destination name, such as route_to_idc. |
 
-   ![](assets/bdf1ba3e7fde2153e5f19c23edca1f6e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/bdf1ba3e7fde2153e5f19c23edca1f6e.jpeg)
 
 3. After you confirm the configuration, click **OK** to create a vFW router. Then, a new vFW router is displayed in the list. If the Configuration Details column of the vFW router displays **Published**, the vFW router is created.
 
-   ![](assets/fdc1921f918a453cf9b983d3914f4b51.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/fdc1921f918a453cf9b983d3914f4b51.jpeg)
 
 After the configuration is completed, the vFW routers enter the following states.
 
-![](assets/4c3ab9e52be10f2747b075a301ac71c7.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/4c3ab9e52be10f2747b075a301ac71c7.jpeg)
 
 **Step 7: Create a vFW web portal and log in to the vFW (required only for the first time)**
 
@@ -4477,27 +4477,27 @@ You can use one of the following types of web portals to access NFV Cloud Firewa
 
 1. In the **ECS Info** section of the NFV Cloud Firewall application details page, click **Detail** in the Operation column of the first ECS instance.
 
-   ![](assets/17e46601a049e54cda09f49335a93c0e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/17e46601a049e54cda09f49335a93c0e.jpeg)
 
 2. In the **Classic Network** section, click **Create**. Read the on-screen instructions and click **OK** to create a classic network web portal.
 
-   ![](assets/97f82181317f2228aa522eb7c2cd6e16.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/97f82181317f2228aa522eb7c2cd6e16.jpeg)
 
    After you click OK, the web portal enters the **processing** state. When it enters the **success** state, the web portal is created. Then, you can view the web URL and SSH URL on the page.
 
-   ![](assets/e7e8cb1a218fccc7749e07d0883be9b6.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e7e8cb1a218fccc7749e07d0883be9b6.jpeg)
 
 3. In the **ECS Info** section of the NFV Cloud Firewall application details page, click **Detail** in the Operation column of the second ECS instance.
 
-   ![](assets/932fbc5db2de139286c02782fad382c1.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/932fbc5db2de139286c02782fad382c1.jpeg)
 
 4. In the **Classic Network** section, click **Create**. Read the on-screen instructions and click **OK** to create a classic network web portal.
 
-   ![](assets/df7825ade93cd59c7bb230be87cabfb8.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/df7825ade93cd59c7bb230be87cabfb8.jpeg)
 
    After you click OK, the web portal enters the **processing** state. When it enters the **success** state, the web portal is created. Then, you can view the web URL and SSH URL on the page.
 
-   ![](assets/6988ee54b2c637360b683d3ab34d6e30.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6988ee54b2c637360b683d3ab34d6e30.jpeg)
 
 **VPC web portal**
 
@@ -4513,19 +4513,19 @@ Refer to the classic network web portal procedure, go to the access mode details
 
 2. In the **Create VPC Network Access Method** dialog box, set **Vswitch ID** to the ID of a vSwitch in the VPC. Make sure that the vSwitch has idle IP addresses.
 
-   ![](assets/bb168bbedaf3e8b229b572f82814c508.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/bb168bbedaf3e8b229b572f82814c508.jpeg)
 
 **Log in to the vFW**
 
 Use a browser to access the web URL of the vFW. Then, the login page of the vFW is displayed. In the upper-right corner of the page shows whether the current device is the primary device or the secondary device. You must log in to the primary device first. Enter the default username and password, which are both admin. After you are logged in, you are required to change the default password. After the change, the new password is synchronized to the secondary device.
 
-![](assets/b06c4b4613ac55d8957bd806d5b2f44c.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b06c4b4613ac55d8957bd806d5b2f44c.jpeg)
 
-![](assets/dc20b029382294efb403d1ec549bb713.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/dc20b029382294efb403d1ec549bb713.jpeg)
 
 After you log in to the vFW again, check the hardware platform information and license. Make sure that the authorization is valid and proceed.
 
-![](assets/09a98b78e56b2cee5cdd7f0e755c3dbe.jpeg)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/09a98b78e56b2cee5cdd7f0e755c3dbe.jpeg)
 
 **Step 8: Create vFW access control policies**
 
@@ -4539,7 +4539,7 @@ In this scenario, configure a policy to permit ECS1 to access the server in the 
 
 1. In the Apsara Uni-manager Management Console, choose **Policy > Security Policy > Policy** and then choose **New > Policy**.
 
-   ![](assets/165351a14fd2454ff6f8ed6686fc4b0e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/165351a14fd2454ff6f8ed6686fc4b0e.jpeg)
 
 2. Configure the following parameters to create a policy to permit ECS1 to access the server in the data center, and click **OK**.
 
@@ -4554,11 +4554,11 @@ In this scenario, configure a policy to permit ECS1 to access the server in the 
    | Action | Select <strong>Permit</strong>. |
    | Options | Click <strong>Options</strong>, and select <strong>Session start</strong> and <strong>Session end</strong> for <strong>Log</strong>.<br>Important<br>This step only sets the policy to request the system to generate logs. However, whether logs can be successfully generated and queried depends on whether the vFW logging feature is enabled. |
 
-   ![](assets/b55863bcdff34480766693a360b024bd.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b55863bcdff34480766693a360b024bd.jpeg)
 
-   ![](assets/1e91ad295096dc81fc563e7c06fff6f6.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/1e91ad295096dc81fc563e7c06fff6f6.jpeg)
 
-   ![](assets/771f0f88f782df49be2d5e638e517d9e.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/771f0f88f782df49be2d5e638e517d9e.jpeg)
 
 3. **Enable session logging for the vFW**: In the Apsara Uni-manager Management Console, choose **Monitor > Log > Session Log** and click **Configure**. In the right-side **Session** panel, turn on **Enable**. If you want to view logs in the console, select **Local Database**. If you want to view logs at the CLI, select **Cache**.
 
@@ -4566,7 +4566,7 @@ In this scenario, configure a policy to permit ECS1 to access the server in the 
    >
    > When session logging is disabled for the vFW, even if you have enabled logging in the access control policy, you cannot find any records on the log query page. You can view only the number of policy hits.
 
-   ![](assets/42fec35518aa184f8ad7a9dcfdc55019.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/42fec35518aa184f8ad7a9dcfdc55019.jpeg)
 
 **Step 9: Create traffic redirection routes**
 
@@ -4582,7 +4582,7 @@ In this scenario, configure a policy to permit ECS1 to access the server in the 
    >
    > **If you perform this operation in a production environment, make sure that the specifications of the vFW meet the expectation. If the volume of business traffic to redirect exceeds the maximum throughput of the vFW, the network latency increases and packet loss occurs.**
 
-   ![](assets/ea44a7da43d96f37e82d5941851580d6.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ea44a7da43d96f37e82d5941851580d6.jpeg)
 
 2. Configure the following parameters to configure a route to redirect VPC-IDC traffic and click **OK**.
 
@@ -4784,21 +4784,21 @@ In this scenario, configure a policy to permit ECS1 to access the server in the 
 
    **Informati on**
 
-   ![](assets/a66d40d33264453c3cd3c2582e5f2ad7.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/a66d40d33264453c3cd3c2582e5f2ad7.jpeg)
 
-   ![](assets/e351fb6dbce3f8582daafc6ff09680ff.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/e351fb6dbce3f8582daafc6ff09680ff.jpeg)
 
    After you complete the configuration, the **Route Status** column of the routes displays **Unpublish**. In this case, the O&M engineer needs to complete adding and checking all routes and then publish the routes one after one or in batches. This feature allows you to perform route configuration and traffic redirection within two time windows in case you do not have sufficient time to complete the two tasks within the same time window.
 
-   ![](assets/62b9ed5c7d22e1170136dccb53942377.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/62b9ed5c7d22e1170136dccb53942377.jpeg)
 
 3. Click **Publish** in the **Operation** column of the desired traffic redirection route and click **OK**. Wait until the status of the route changes from **Publishing** to **Published**. This means that the route is in effect. This way, the outbound traffic of VPC1 and the data center is redirected to NFV Cloud Firewall.
 
-   ![](assets/99a4aa971b9e76111b557222cde68d22.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/99a4aa971b9e76111b557222cde68d22.jpeg)
 
-   ![](assets/7d83bc0be6eb25072ad8e3f637459df4.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/7d83bc0be6eb25072ad8e3f637459df4.jpeg)
 
-   ![](assets/ba098a44c317c73b1922063f61ed2e1a.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/ba098a44c317c73b1922063f61ed2e1a.jpeg)
 
 After the traffic redirection route is published, log in to the **VPC** console, go to the **Route Tables** page, and view the status of the routes in the route tables of VPC1 and HUB_VPC.
 
@@ -4806,11 +4806,11 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
 - Route table of VPC1:
 
-  ![](assets/6b5c5a9ae7e5fd76c738a781bfea2baf.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/6b5c5a9ae7e5fd76c738a781bfea2baf.jpeg)
 
 - Route table of HUB_VPC:
 
-  ![](assets/1712d96b77a81f8057976c42793adc56.jpeg)
+  ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/1712d96b77a81f8057976c42793adc56.jpeg)
 
 **Step 10: Verify the business**
 
@@ -4834,7 +4834,7 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
    center over SSH. The operation succeeds.
 
-   ![](assets/b0acd3afb6d59aca9250059331c0fea4.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/b0acd3afb6d59aca9250059331c0fea4.jpeg)
 
 2. Log in to the Apsara Uni-manager Management Console to view logs.
 
@@ -4842,7 +4842,7 @@ You can find that the two routes whose mask length is N+1 are published from NFV
 
    - Choose **Monitor > Log > Session Log**, set **Time** to **Real-time**, and check whether ping (corresponding to ICMP) and SSH (corresponding to TCP) logs are generated. In addition, check whether session logs containing source and destination IP addresses related to the test are generated.
 
-     ![](assets/d57e06c4d4d1382d0c8c83f4d9fc5e3e.jpeg)
+     ![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/d57e06c4d4d1382d0c8c83f4d9fc5e3e.jpeg)
 
 **Other scenarios**
 
@@ -4854,7 +4854,7 @@ Solution: After you connect the VPCs and data center to NFV Cloud Firewall, use 
 
 **Network Integration That Connects HUB_VPC and Data Center**
 
-![](assets/155bd1ddf653bb407c7ca9005b19d8a9.png)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/155bd1ddf653bb407c7ca9005b19d8a9.png)
 
 **Scenario 2: Can I use different vFWs for protection?**
 
@@ -4868,7 +4868,7 @@ Solution: Yes.
 
 **HUB_VPC and Data Center**
 
-![](assets/175299fab9155a060b11d9a1e8167b86.png)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/175299fab9155a060b11d9a1e8167b86.png)
 
 Destination
 
@@ -4878,4 +4878,4 @@ to_VPC1 10.1.0.0 to_VPC2 10.2.0.0
 
 Solution: Yes.
 
-![](assets/9382f3be9baf20cb859b8b5322752334.png)
+![](en-cfw-nfv-cloud-firewall-user-guide-v3.18.6-2607-20260828.assets/9382f3be9baf20cb859b8b5322752334.png)

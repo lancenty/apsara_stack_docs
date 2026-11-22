@@ -1018,7 +1018,7 @@ This topic describes how to log on to Bastionhost.
 
 The homepage is a visual, concise, and easy-to-use web page, which contains five major sections, as shown in the following figure.
 
-![](assets/cf6ce618a0354d5efeb12aef7f583e0d.jpeg)
+![](en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/cf6ce618a0354d5efeb12aef7f583e0d.jpeg)
 
 The following table describes the features of each section.
 
@@ -1068,7 +1068,7 @@ image.png
 
 **View remote tasks**
 
-In the user information section, click the <img src="assets/ebf0e06a8f19ffb29559776ed476e1bf.png" width="20" alt=""> icon. In the pane that appears, view the list of
+In the user information section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/ebf0e06a8f19ffb29559776ed476e1bf.png" width="20" alt=""> icon. In the pane that appears, view the list of
 
 ongoing remote tasks.
 
@@ -1078,7 +1078,7 @@ image.png
 
 **View internal messages**
 
-In the user information section, click the <img src="assets/fdbcf7468f4fbe3490495cba9f3f6c34.png" width="13" alt=""> icon to go to the **Logs > Internal Messages**
+In the user information section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/fdbcf7468f4fbe3490495cba9f3f6c34.png" width="13" alt=""> icon to go to the **Logs > Internal Messages**
 
 page of the personal workbench. On the Internal Messages page, you can view internal messages about ticket review, alerts, and operation logs.
 
@@ -1096,7 +1096,7 @@ page of the personal workbench. On the Internal Messages page, you can view inte
 
 The Overview page displays information such as the number of users, number of assets, number of accounts, authorization rules, O&M data, licenses, and system running status.
 
-![](assets/6b527ff9ca31a0813519fce152624e98.jpeg)
+![](en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/6b527ff9ca31a0813519fce152624e98.jpeg)
 
 <a id="section-5-2"></a>
 
@@ -1116,7 +1116,7 @@ This topic describes how to create, search for, and delete a department. This to
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > User Management**.
 
@@ -1128,7 +1128,7 @@ By default, the system creates a root department. You can create nine levels of 
 
 1. On the **Department** tab, move the pointer over the name of the department that you want
 
-   to manage, click the <img src="assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="10" alt=""> icon, and then select **Create Sub-department**.
+   to manage, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="10" alt=""> icon, and then select **Create Sub-department**.
 
 2. Enter a name for the sub department and then click the tick (√) icon.
 
@@ -1136,7 +1136,7 @@ By default, the system creates a root department. You can create nine levels of 
 
 1. On the **Department** tab, move the pointer over the name of the department that you want
 
-   to manage, click the <img src="assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="5" alt=""> icon, and then select **Rename**.
+   to manage, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="5" alt=""> icon, and then select **Rename**.
 
 2. Enter a new name for the department and then click the tick (√) icon.
 
@@ -1152,7 +1152,7 @@ icon to search for the department.
 
 On the **Department** tab, move the pointer over the name of the department that you want to
 
-manage, click the <img src="assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="5" alt=""> icon, and then select **Delete Department**.
+manage, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="5" alt=""> icon, and then select **Delete Department**.
 
 **Change the level of a department**
 
@@ -1170,7 +1170,7 @@ This topic describes how to create one or more users.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > User Management**.
 
@@ -1295,7 +1295,7 @@ This topic describes how to search for users in the current department or user g
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > User Management**.
 
@@ -1313,11 +1313,11 @@ This topic describes how to export user information to your computer.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > User Management**.
 
-4. In the User section of the **Department** or **User Group** tab, click the <img src="assets/1673cc9fffc16d0d5b1576815fc751db.png" width="12" alt=""> icon.
+4. In the User section of the **Department** or **User Group** tab, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/1673cc9fffc16d0d5b1576815fc751db.png" width="12" alt=""> icon.
 
 5. In the **Export** dialog box, configure the Export Range and Encryption Password parameters and click **Export**.
 
@@ -1337,7 +1337,7 @@ This topic describes how to create and manage a user group.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > User Management**.
 
@@ -1345,7 +1345,7 @@ This topic describes how to create and manage a user group.
 
 **Create a user group**
 
-1. On the **User Group** tab, click the <img src="assets/3c751aa099567fad107faf01ab37c63e.png" width="13" alt=""> icon.
+1. On the **User Group** tab, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/3c751aa099567fad107faf01ab37c63e.png" width="13" alt=""> icon.
 
 2. In the **Create User Group** panel, configure the Name and Department parameters and click **Confirm**.
 
@@ -1353,7 +1353,7 @@ This topic describes how to create and manage a user group.
 
 1. On the **User Group** tab, move the pointer over the user group that you want to manage,
 
-   click the <img src="assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="5" alt=""> icon, and then select **Edit**.
+   click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="5" alt=""> icon, and then select **Edit**.
 
 2. In the **Modify User Group** panel, enter a new name for the user group and click **Confirm**.
 
@@ -1361,13 +1361,13 @@ This topic describes how to create and manage a user group.
 
 On the **User Group** tab, enter the keyword of a user group name, and then press the Enter
 
-key or click the <img src="assets/f85d93344847bfaa1f8784905bd3adcd.png" width="11" alt=""> icon to search for the user group.
+key or click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/f85d93344847bfaa1f8784905bd3adcd.png" width="11" alt=""> icon to search for the user group.
 
 **Delete a user group**
 
 On the **User Group** tab, move the pointer over the user group that you want to manage, click
 
-the <img src="assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="5" alt=""> icon, and then select **Delete**.
+the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/91ec1952f80fb21ebaa54e90452b6c79.png" width="5" alt=""> icon, and then select **Delete**.
 
 **Add a user to a user group (method 1)**
 
@@ -1393,13 +1393,13 @@ Bastionhost allows you to flexibly configure the fields that are displayed in th
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > User Management**.
 
 4. Click the **Department** or **User Group** tab on the left side of the page. In the User section,
 
-   click the <img src="assets/b0971b1167821eea8e2232bcff810ade.png" width="10" alt=""> icon. Select the fields that you want to display and click **Confirm**.
+   click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/b0971b1167821eea8e2232bcff810ade.png" width="10" alt=""> icon. Select the fields that you want to display and click **Confirm**.
 
 <a id="section-5-2-2"></a>
 
@@ -1415,7 +1415,7 @@ This topic describes how to import a token file.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > OTP Management**.
 
@@ -1443,7 +1443,7 @@ This topic describes how to search for a token that meets the search conditions.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > OTP Management**.
 
@@ -1457,7 +1457,7 @@ After you create a token, you must authorize the token file to the user.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > OTP Management**.
 
@@ -1473,7 +1473,7 @@ If a time difference exists between Bastionhost and your one-time password (OTP)
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > OTP Management**.
 
@@ -1499,7 +1499,7 @@ The **third-party OTP SERVER** is configured in the **Detailed Configuration** s
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > Third OTP Token Management**.
 
@@ -1523,7 +1523,7 @@ The third-party OTP SERVER is set to JN TASS. For more information, see **Config
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > Third OTP Token Management**.
 
@@ -1543,7 +1543,7 @@ This topic describes how to unbind a token from a user. After the token is unbou
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > Third OTP Token Management**.
 
@@ -1561,7 +1561,7 @@ This topic describes how to report the loss of a token. After a token is reporte
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > Third OTP Token Management**.
 
@@ -1579,7 +1579,7 @@ This topic describes how to enable or disable a token.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > Third OTP Token Management**.
 
@@ -1597,7 +1597,7 @@ This topic describes how to delete a token.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **User > Third OTP Token Management**.
 
@@ -1619,25 +1619,25 @@ You can use nodes to implement hierarchical asset management.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Asset > Asset Management**.
 
 4. In the **Node** section, move the pointer over the name of the node that you want to manage,
 
-   click the <img src="assets/e9b9d9fb3b8c3a469ce645697194037e.png" width="5" alt=""> icon, and then select **Create Child Node**.
+   click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/e9b9d9fb3b8c3a469ce645697194037e.png" width="5" alt=""> icon, and then select **Create Child Node**.
 
-5. Enter a name for the child node in the field that appears and click the <img src="assets/238c52c926909311d631df534bbd2b67.png" width="16" alt=""> icon on the right
+5. Enter a name for the child node in the field that appears and click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/238c52c926909311d631df534bbd2b67.png" width="16" alt=""> icon on the right
 
    to create the child node.
 
    - To change the level of a node, move the pointer over the node and drag the node to the destination node.
 
-   - To change the name of a node, move the pointer over the node name, click the <img src="assets/e9b9d9fb3b8c3a469ce645697194037e.png" width="5" alt=""> icon,
+   - To change the name of a node, move the pointer over the node name, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/e9b9d9fb3b8c3a469ce645697194037e.png" width="5" alt=""> icon,
 
      and then select **Rename**. Then, you can enter a new name.
 
-   - To delete a node, move the pointer over the node name, click the <img src="assets/e9b9d9fb3b8c3a469ce645697194037e.png" width="5" alt=""> icon, and then select
+   - To delete a node, move the pointer over the node name, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/e9b9d9fb3b8c3a469ce645697194037e.png" width="5" alt=""> icon, and then select
 
      **Delete Node**. In the Delete Node message, click Confirm.
 
@@ -1647,7 +1647,7 @@ You can use nodes to implement hierarchical asset management.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Asset > Asset Management**.
 
@@ -1834,7 +1834,7 @@ You can import multiple assets and asset accounts at a time.
 
 **Export domain names**
 
-1. In the **Asset** section, click the <img src="assets/cb50fda682b0a55d21cde0f624e96f1b.png" width="12" alt=""> icon.
+1. In the **Asset** section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/cb50fda682b0a55d21cde0f624e96f1b.png" width="12" alt=""> icon.
 
 2. In the **Export** dialog box, configure the Export Range and Encryption Password parameters and click **Export** to export the asset information to your computer.
 
@@ -1854,11 +1854,11 @@ This topic describes how to create an asset diagnostics task and how to manage i
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Assets > Asset Diagnosis**.
 
-4. Click the <img src="assets/ad7faf0b8d0ebca0a0906cb37ee52d92.png" width="14" alt=""> icon. In the **Create Asset Health Check Task** panel, configure the basic task
+4. Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/ad7faf0b8d0ebca0a0906cb37ee52d92.png" width="14" alt=""> icon. In the **Create Asset Health Check Task** panel, configure the basic task
 
    information and click **Next**.
 
@@ -1874,7 +1874,7 @@ This topic describes how to create an asset diagnostics task and how to manage i
 
 - Execute the asset diagnostics task: Move the pointer over the task and click **Immediately Execute**.
 
-- View or modify the default configurations of asset diagnostics tasks: Click the <img src="assets/b4720ba27339a05f26c712b5c11e027a.png" width="12" alt=""> icon. In the
+- View or modify the default configurations of asset diagnostics tasks: Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/b4720ba27339a05f26c712b5c11e027a.png" width="12" alt=""> icon. In the
 
   **Asset Health Check Task Default Configuration** panel, view or modify the default configurations of asset diagnostics tasks.
 
@@ -1888,11 +1888,11 @@ You can synchronize remote assets to Bastionhost to manage the assets in a centr
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Assets > Asset Discovery**.
 
-4. Click the <img src="assets/8f8014ee54f42c7eb5740905625fdbae.png" width="16" alt=""> icon. In the **Create Asset Source** panel, configure the parameters and click
+4. Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/8f8014ee54f42c7eb5740905625fdbae.png" width="16" alt=""> icon. In the **Create Asset Source** panel, configure the parameters and click
 
    **Confirm**. The following table describes the parameters.
 
@@ -1941,7 +1941,7 @@ This topic describes how to create and manage a tag.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Assets > Asset Management**.
 
@@ -1999,7 +1999,7 @@ If the client tools or protocols, such as HTTPS, are not supported by Bastionhos
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Asset > Remote Client**.
 
@@ -2017,7 +2017,7 @@ You must enable RDP for the asset that is used as application server.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Asset > Remote Client**.
 
@@ -2073,7 +2073,7 @@ This topic describes how to create a local account.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Account Management**.
 
@@ -2116,7 +2116,7 @@ If you create an account for an asset on Bastionhost, the same account can be cr
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Account Management**.
 
@@ -2136,7 +2136,7 @@ You can delete a remote account by using Bastionhost.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Account Management**.
 
@@ -2152,7 +2152,7 @@ This topic describes how to view asset accounts by category.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Account Management**.
 
@@ -2168,7 +2168,7 @@ This topic describes how to view account logs.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Account Management**.
 
@@ -2205,11 +2205,11 @@ This topic describes how to configure a custom policy for diagnostic tasks.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Account Diagnostics**.
 
-4. Click the <img src="assets/d9efac7d80798b8b7f0fa2e86f1740b9.png" width="12" alt=""> icon. In the **Default Configuration of Diagnostics Tasks** panel, configure
+4. Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/d9efac7d80798b8b7f0fa2e86f1740b9.png" width="12" alt=""> icon. In the **Default Configuration of Diagnostics Tasks** panel, configure
 
    the parameters and click **Confirm**.
 
@@ -2256,11 +2256,11 @@ This topic describes how to create a diagnostic task.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Account Diagnostics**.
 
-4. Click the <img src="assets/218bae0e5bf7328a8e1db74566f51767.png" width="12" alt=""> icon. In the **Create Diagnostics Task** panel, configure the Task Name and
+4. Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/218bae0e5bf7328a8e1db74566f51767.png" width="12" alt=""> icon. In the **Create Diagnostics Task** panel, configure the Task Name and
 
    First Executed At parameters, and then click **Next**. The following table describes the parameters.
 
@@ -2287,7 +2287,7 @@ This topic describes how to execute a diagnostic task.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Account Diagnostics**.
 
@@ -2305,7 +2305,7 @@ This topic describes how to view the information about a diagnostic task.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Account Diagnostics**.
 
@@ -2325,7 +2325,7 @@ This topic describes how to configure an account diagnostic scope.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Account Diagnostics**.
 
@@ -2351,11 +2351,11 @@ The asset account has a privileged account that uses the same protocol as the as
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Account Discovery**.
 
-4. Click the <img src="assets/218bae0e5bf7328a8e1db74566f51767.png" width="12" alt=""> icon. In the **Create Discovery Task** panel, configure the parameters and click
+4. Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/218bae0e5bf7328a8e1db74566f51767.png" width="12" alt=""> icon. In the **Create Discovery Task** panel, configure the parameters and click
 
    **Next**.
 
@@ -2397,7 +2397,7 @@ If you set the Execution Method parameter to Automatic when you create a task, t
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Account Discovery**.
 
@@ -2419,7 +2419,7 @@ If automatic management is not enabled for a discovery task, you must manually a
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Account Discovery**.
 
@@ -2437,7 +2437,7 @@ Bastionhost allows you to manage accounts that are associated with password chan
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Password Management**.
 
@@ -2467,7 +2467,7 @@ If an account is associated with multiple password change tasks and the password
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Password Management**.
 
@@ -2505,7 +2505,7 @@ This topic describes how to verify the password of an account.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Password Management**.
 
@@ -2521,7 +2521,7 @@ This topic describes how to export the historical and current passwords of an ac
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Password Management**.
 
@@ -2539,7 +2539,7 @@ This topic describes how to export the password change history for an account.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Password Management**.
 
@@ -2557,7 +2557,7 @@ This topic describes how to restore a password.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Password Management**.
 
@@ -2575,7 +2575,7 @@ This topic describes how to export the password of an account to your computer.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Password Management**.
 
@@ -2595,17 +2595,17 @@ You can use the default password policy, backup policy, and backup mode.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Password Management**.
 
-4. On the **Password Change Plan** tab, click the <img src="assets/1831c80d8958e719e8652132d142e2ca.png" width="12" alt=""> icon.
+4. On the **Password Change Plan** tab, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/1831c80d8958e719e8652132d142e2ca.png" width="12" alt=""> icon.
 
 5. In the **Default Policy Configuration** panel, click **Confirm**.
 
 **Create a password change task**
 
-1. On the **Password Change Plan** tab, click the <img src="assets/75b01414f2c7093dc0204c3eed7a0a48.png" width="15" alt=""> icon.
+1. On the **Password Change Plan** tab, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/75b01414f2c7093dc0204c3eed7a0a48.png" width="15" alt=""> icon.
 
 2. In the **Create Password Change Plan** panel, configure the parameters and click **Confirm**. The following table describes the parameters.
 
@@ -2644,7 +2644,7 @@ This topic describes how to create and manage complex password-change accounts.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Password Management**.
 
@@ -2659,7 +2659,7 @@ This topic describes how to create and manage complex password-change accounts.
    | System Parameters | The built-in parameters of the system, which can be used to change the password and push scripts. |
    | Custom Parameters | User-defined parameters, which can be used to change the password and push scripts. In the same complex password-change account, the parameter names must be unique in System Parameters, in Custom Parameters, or between System Parameters and Custom Parameters. |
 
-6. Click the <img src="assets/eba184a4fe6570d3c82b4dec4ff71f00.png" width="14" alt=""> icon, configure the password change information, and then click **OK**.
+6. Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/eba184a4fe6570d3c82b4dec4ff71f00.png" width="14" alt=""> icon, configure the password change information, and then click **OK**.
 
    | Parameter | Description |
    | --- | --- |
@@ -2667,7 +2667,7 @@ This topic describes how to create and manage complex password-change accounts.
    | Execution Account | Select an asset account of the RDP or SSH service. The system uses this account to execute remote scripts. The number of times that the same asset account can be used as the execution account is not limited. |
    | Script Command | The user-defined remote password-change script. |
 
-7. Click the <img src="assets/2e6ddde407ca3bb18d56e4daffa92bba.png" width="14" alt=""> icon. In the **Password Push** section, click **Parallel Task**. In the panel that
+7. Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/2e6ddde407ca3bb18d56e4daffa92bba.png" width="14" alt=""> icon. In the **Password Push** section, click **Parallel Task**. In the panel that
 
    appears, configure the information about the subtask and click **Confirm**.
 
@@ -2711,7 +2711,7 @@ You can manage all SSH keys in a centralized manner.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Key Management**.
 
@@ -2772,7 +2772,7 @@ You can create an authorization rule to grant permissions to users on the accoun
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Authorize > Authorization Rule**.
 
@@ -2794,11 +2794,11 @@ You can create an authorization rule to grant permissions to users on the accoun
      </tr>
      <tr>
        <td>Authorize Accounts</td>
-       <td>The accounts on which you want to grant permissions to users.<br>• All Accounts: grants permissions on all accounts of the selected assets to the selected users.<br>• Account: grants permissions on specific accounts of the selected assets to the selected users.<br>Enter the username of an account and press the Enter key. You can enter multiple usernames. If you enter an invalid<br>username, click the<img src="assets/96e202047ad26d8da2cec4fece5dfd12.png" width="10" alt="">icon to remove the username.<br>• Rule: grants permissions only on the accounts of the selected assets that meet the conditions of the rule to the selected users. Make sure that you created custom attributes on the <strong>Configure</strong> &gt; <strong>User Configuration</strong> &gt; <strong>Custom Account</strong> <strong>Attribute</strong> tab in the <strong>management console</strong>.<br>• Click <strong>Add</strong>. In the <strong>Add Rule</strong> panel, configure the attribute, matching mode, and value, and click <strong>Confirm</strong>. You can add multiple attributes. If you add multiple attributes, the permissions are granted only to users who match all attributes.<br>• Find an attribute and click <strong>Edit</strong> to modify the attribute of the rule.<br>• Find an attribute and click <strong>Delete</strong> to remove the attribute from the rule.</td>
+       <td>The accounts on which you want to grant permissions to users.<br>• All Accounts: grants permissions on all accounts of the selected assets to the selected users.<br>• Account: grants permissions on specific accounts of the selected assets to the selected users.<br>Enter the username of an account and press the Enter key. You can enter multiple usernames. If you enter an invalid<br>username, click the<img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/96e202047ad26d8da2cec4fece5dfd12.png" width="10" alt="">icon to remove the username.<br>• Rule: grants permissions only on the accounts of the selected assets that meet the conditions of the rule to the selected users. Make sure that you created custom attributes on the <strong>Configure</strong> &gt; <strong>User Configuration</strong> &gt; <strong>Custom Account</strong> <strong>Attribute</strong> tab in the <strong>management console</strong>.<br>• Click <strong>Add</strong>. In the <strong>Add Rule</strong> panel, configure the attribute, matching mode, and value, and click <strong>Confirm</strong>. You can add multiple attributes. If you add multiple attributes, the permissions are granted only to users who match all attributes.<br>• Find an attribute and click <strong>Edit</strong> to modify the attribute of the rule.<br>• Find an attribute and click <strong>Delete</strong> to remove the attribute from the rule.</td>
      </tr>
      <tr>
        <td>Authorize Services</td>
-       <td>The protocols of the accounts on which you want to grant permissions to users.<br>• All Services: grants permissions on the accounts that use any protocol of the selected assets to the selected users.<br>• Service: grants permissions on the accounts that use specific protocols of the selected assets to the selected users. Click the field and select the protocols based on your business requirements. You can select multiple protocols. If you no longer require a protocol, click the<br><img src="assets/96e202047ad26d8da2cec4fece5dfd12.png" width="14" alt=""><br>icon to remove the protocol.</td>
+       <td>The protocols of the accounts on which you want to grant permissions to users.<br>• All Services: grants permissions on the accounts that use any protocol of the selected assets to the selected users.<br>• Service: grants permissions on the accounts that use specific protocols of the selected assets to the selected users. Click the field and select the protocols based on your business requirements. You can select multiple protocols. If you no longer require a protocol, click the<br><img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/96e202047ad26d8da2cec4fece5dfd12.png" width="14" alt=""><br>icon to remove the protocol.</td>
      </tr>
    </table>
 
@@ -2832,7 +2832,7 @@ On the **Rule View** tab, select the rule that you want to manage and click **Di
 
 You can export multiple authorization rules at a time.
 
-1. On the **Rule View** tab, click the <img src="assets/8b6458517a70d9c8ff81b6c3de56e7ec.png" width="12" alt=""> icon.
+1. On the **Rule View** tab, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/8b6458517a70d9c8ff81b6c3de56e7ec.png" width="12" alt=""> icon.
 
 2. In the **Export** dialog box, configure the Export Range and Encryption Password parameters and click **Export** to export the authorization rules to your computer.
 
@@ -2854,7 +2854,7 @@ You can view authorized assets by user.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Authorize > Authorization Rule**.
 
@@ -2862,7 +2862,7 @@ You can view authorized assets by user.
 
    - You can click **Export** below the user list to export all users and the assets and asset accounts on which the users have permissions.
 
-   - You can click the <img src="assets/c539107aebd48139ac03800674d46bd0.png" width="15" alt=""> icon in the asset list to export the assets and asset accounts on
+   - You can click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/c539107aebd48139ac03800674d46bd0.png" width="15" alt=""> icon in the asset list to export the assets and asset accounts on
 
      which the selected user has permissions.
 
@@ -2880,7 +2880,7 @@ You can view the authorized users, asset accounts, and authorization rules by as
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Authorize > Authorization Rule**.
 
@@ -2888,7 +2888,7 @@ You can view the authorized users, asset accounts, and authorization rules by as
 
    - You can click **Export** in the asset list to export all assets, and the users and asset accounts that have permissions on the asset.
 
-   - You can click the <img src="assets/c539107aebd48139ac03800674d46bd0.png" width="11" alt=""> icon in the user list to export the users and asset accounts that have
+   - You can click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/c539107aebd48139ac03800674d46bd0.png" width="11" alt=""> icon in the user list to export the users and asset accounts that have
 
      permissions on the asset.
 
@@ -2912,7 +2912,7 @@ You can create pre-authorization rules to limit the assets that can be applied f
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Authorize > Authorization Rules**.
 
@@ -2925,7 +2925,7 @@ You can create pre-authorization rules to limit the assets that can be applied f
    | Automatically deleted at 00:00 the next day after expiration | If you specify a validity period for the rule and turn on this switch, the system automatically deletes the rule at 00:00 on the next day after the validity period ends. |
    | Authorize Users | The Bastionhost users or user groups to which you want to grant asset operation and management permissions. Valid values:<br>• All Users: grants the permissions to all users in the user list.<br>• Designated user: grants the permissions only to the selected users or user groups.<br>• Click <strong>Add</strong> and select <strong>Add User</strong> or <strong>Add User Group</strong>. In the <strong>Select User</strong> or <strong>Select User Group</strong> panel, select one or more users or user groups and click <strong>Confirm</strong>.<br>• To remove selected users or user groups, select one or more users or user groups and click <strong>Delete</strong>. |
    | Authorized Asset | The assets whose permissions you want to grant to users.<br>• Assets: grants the permissions on specific assets to the selected users.<br>• Click <strong>Add</strong> and select <strong>Add Asset</strong>. In the <strong>Select Asset</strong> panel, select one or more assets and click <strong>Confirm</strong>.<br>• To remove selected assets, select one or more assets and click <strong>Delete</strong>. |
-   | Authorized accounts | The asset accounts whose permissions you want to grant to users.<br>• Accounts: grants the permissions on specific asset accounts to the selected users.<br><img src="assets/96e202047ad26d8da2cec4fece5dfd12.png" width="10" alt=""><br>• Click Add and select <strong>Add Account</strong>. In the <strong>Select Account</strong> panel, select one or more accounts and click <strong>Confirm</strong>.<br>• To remove selected accounts, select one or more accounts and click <strong>Delete</strong>. |
+   | Authorized accounts | The asset accounts whose permissions you want to grant to users.<br>• Accounts: grants the permissions on specific asset accounts to the selected users.<br><img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/96e202047ad26d8da2cec4fece5dfd12.png" width="10" alt=""><br>• Click Add and select <strong>Add Account</strong>. In the <strong>Select Account</strong> panel, select one or more accounts and click <strong>Confirm</strong>.<br>• To remove selected accounts, select one or more accounts and click <strong>Delete</strong>. |
    | Authorized asset directories | The asset directories whose asset permissions you want to grant to users.<br>Asset directories: grants the permissions on assets and their accounts in the selected asset directories to the selected users.<br>• Click Add and Select <strong>Add Asset Directory</strong>. In the Select Asset Directory panel, select one or more asset directories and click <strong>Confirm</strong>. This way, all assets and their accounts in the selected asset directories are selected.<br>• To remove selected asset directories, select one or more asset directories and click <strong>Delete</strong>. |
    | Authorized asset tags | The tags added to assets whose permissions you want to grant to users.<br>Asset tags: grants the permissions on assets to which the selected tags are added to the selected users.<br>• Click Add and Select <strong>Add Asset Tag</strong>. In the Select Tag panel, select one or more tags and click <strong>Confirm</strong>. This way, all assets to which the selected tags are added are selected.<br>• To remove selected tags, select one or more tags and click <strong>Delete</strong>. |
    | Authorized account tags | The tags added to asset accounts whose permissions you want to grant to users.<br>Account tags: grants the permissions on asset accounts to which the selected tags are added to the selected users.<br>• Click Add and Select <strong>Add Account Tag</strong>. In the Select Tag panel, select one or more tags and click <strong>Confirm</strong>. This way, all asset accounts to which the selected tags are added are selected.<br>• To remove selected tags, select one or more tags and click <strong>Delete</strong>. |
@@ -2950,7 +2950,7 @@ After you create a review rule, Bastionhost automatically initiates a review pro
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. Choose **Authorization** > **Approval Rules**.
 
@@ -2960,7 +2960,7 @@ After you create a review rule, Bastionhost automatically initiates a review pro
    | --- | --- |
    | Name | The name of the review rule, which is used only for identification.The name must be unique. |
    | Priority | The priority of the review rule. Valid values: 1 to 99. A larger value specifies a higher priority. |
-   | Approval Process | You can configure reviewers.<br>• Add multiple review nodes<br>Click <strong>Add Process</strong> to create sub review nodes in sequence.You can create up to five sub review nodes.<br>• Add one or more reviewers<br>Click <strong>Add</strong>. In the <strong>Select User</strong> panel, select the users that you want to add as reviewers and click <strong>Add</strong>. You can add multiple reviewers to a node. The number of reviewers is unlimited.<br>• Remove a reviewer<br>Click the<img src="assets/96e202047ad26d8da2cec4fece5dfd12.png" width="10" alt="">icon next to the name of a reviewer to remove the<br>reviewer.<br>• Delete a review node<br>Click the<img src="assets/57692afa40d4b9f6ef8c5baefd9d83e6.png" width="12" alt="">icon in the upper-right corner of the review node to<br>delete the review node. |
+   | Approval Process | You can configure reviewers.<br>• Add multiple review nodes<br>Click <strong>Add Process</strong> to create sub review nodes in sequence.You can create up to five sub review nodes.<br>• Add one or more reviewers<br>Click <strong>Add</strong>. In the <strong>Select User</strong> panel, select the users that you want to add as reviewers and click <strong>Add</strong>. You can add multiple reviewers to a node. The number of reviewers is unlimited.<br>• Remove a reviewer<br>Click the<img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/96e202047ad26d8da2cec4fece5dfd12.png" width="10" alt="">icon next to the name of a reviewer to remove the<br>reviewer.<br>• Delete a review node<br>Click the<img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/57692afa40d4b9f6ef8c5baefd9d83e6.png" width="12" alt="">icon in the upper-right corner of the review node to<br>delete the review node. |
 
    <table>
      <tr>
@@ -2997,7 +2997,7 @@ The unauthorized logon review list displays the authorization relationships betw
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Authorize > Unauthorized Logon**.
 
@@ -3017,7 +3017,7 @@ After you specify matching conditions for a dynamic object, the dynamic object c
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. Choose **Authorize > Dynamic Objects**.
 
@@ -3044,7 +3044,7 @@ After you specify matching conditions for a dynamic object, the dynamic object c
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. Choose **Authorize > Dynamic Objects**.
 
@@ -3075,7 +3075,7 @@ You can configure an access control policy to restrict access authentication, te
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Policy > Access Control**.
 
@@ -3117,7 +3117,7 @@ You can configure a host command control policy to configure host commands.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Policy > Host Command Control**.
 
@@ -3164,7 +3164,7 @@ You can configure a database command control policy to control database commands
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Policy > Database Command Control**.
 
@@ -3216,7 +3216,7 @@ You can classify online sessions by O&M user, O&M asset, and protocol. You can a
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Audit > Online Sessions**.
 
@@ -3277,7 +3277,7 @@ If a green dot is displayed in the Review Status column, the session is **review
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Audit > Historical Sessions**.
 
@@ -3291,7 +3291,7 @@ If a green dot is displayed in the Review Status column, the session is **review
 
 **Export historical sessions**
 
-Click the <img src="assets/032b7b04d1564ab1ecfcce399c842b27.png" width="14" alt=""> icon in the upper-left corner of the page to download the historical session list.
+Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/032b7b04d1564ab1ecfcce399c842b27.png" width="14" alt=""> icon in the upper-left corner of the page to download the historical session list.
 
 <a id="section-5-7-3"></a>
 
@@ -3303,7 +3303,7 @@ Search for and view an event
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Audit > Event Retrieval**.
 
@@ -3325,7 +3325,7 @@ This topic describes how to view and export ticket records.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Audit > Ticket Records**.
 
@@ -3333,7 +3333,7 @@ This topic describes how to view and export ticket records.
 
 **Export ticket records**
 
-In the upper-right corner of the ticket list, click the <img src="assets/dc63d50bc703254e68031650eb521ff9.png" width="14" alt=""> icon.
+In the upper-right corner of the ticket list, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dc63d50bc703254e68031650eb521ff9.png" width="14" alt=""> icon.
 
 <a id="section-5-8"></a>
 
@@ -3349,7 +3349,7 @@ If the built-in O&M reports and system reports do not meet your requirements, yo
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Reports > Custom Reports**.
 
@@ -3401,7 +3401,7 @@ You can view O&M reports from different dimensions.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Reports > O&M Reports**.
 
@@ -3433,7 +3433,7 @@ Bastionhost provides a system report to visualize O&M trends from various perspe
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Reports > System Reports**.
 
@@ -3453,7 +3453,7 @@ You can create a report subscription to send O&M reports, system reports, global
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Reports > Report Subscription**.
 
@@ -3487,7 +3487,7 @@ After you install Bastionhost, a project named default is automatically created.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Configure > Project Management**.
 
@@ -3507,7 +3507,7 @@ You can create a cloud drive and authorize a user to use the cloud drive.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Settings > Disk Management**.
 
@@ -3523,7 +3523,7 @@ You can configure authentication security settings and multi-factor authenticati
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Configure > User Configuration**.
 
@@ -4055,7 +4055,7 @@ On the **Custom Attribute** tab, click **Create** to create a custom attribute.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Configure > Role Configuration**.
 
@@ -4085,7 +4085,7 @@ On the **Custom Attribute** tab, click **Create** to create a custom attribute.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Configure > Asset Configuration**.
 
@@ -4107,7 +4107,7 @@ On the **Custom Attribute** tab, click **Create** to create a custom attribute.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Asset > Network Management**.
 
@@ -4121,7 +4121,7 @@ On the **Custom Attribute** tab, click **Create** to create a custom attribute.
 
 **Modify the information about a LAN**
 
-Click the <img src="assets/58b47269b767b5a40fe4c3604346f003.png" width="10" alt=""> icon. In the **Modify Network** panel, modify the information about the LAN and
+Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/58b47269b767b5a40fe4c3604346f003.png" width="10" alt=""> icon. In the **Modify Network** panel, modify the information about the LAN and
 
 click **Confirm**.
 
@@ -4129,7 +4129,7 @@ click **Confirm**.
 
 After you delete a LAN, assets in the LAN are automatically moved to the default LAN. You cannot delete the default LAN.
 
-Click the <img src="assets/f7443382c4eafaf3244136fe5cad53ee.png" width="10" alt=""> icon.
+Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/f7443382c4eafaf3244136fe5cad53ee.png" width="10" alt=""> icon.
 
 **View the assets in a LAN**
 
@@ -4145,7 +4145,7 @@ You can configure a password change script and associate the script with multipl
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Account > Password Change Script**.
 
@@ -4199,7 +4199,7 @@ You can create an asset template by configuring information such as the protocol
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Configure > Asset Configuration**.
 
@@ -4235,7 +4235,7 @@ On the O&M Configuration tab, you can configure the O&M logon, O&M duration, and
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Configure > Asset Configuration**.
 
@@ -4376,7 +4376,7 @@ On the O&M Configuration tab, you can configure the O&M logon, O&M duration, and
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Configure > Asset Configuration**.
 
@@ -4410,7 +4410,7 @@ On the O&M Configuration tab, you can configure the O&M logon, O&M duration, and
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Configure > Asset Configuration**.
 
@@ -4446,7 +4446,7 @@ You can add and manage operating systems and view the number of assets and asset
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Configure > Asset Configuration**.
 
@@ -4472,7 +4472,7 @@ A third-party application system can call API operations to connect to Bastionho
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Configure > System Connection**.
 
@@ -4510,7 +4510,7 @@ You can view network interface information.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Network Management**.
 
@@ -4524,7 +4524,7 @@ You can view the information about network interface controllers (NICs).
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Network Management**.
 
@@ -4538,7 +4538,7 @@ You can view the information about network interface controllers (NICs).
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Service Management**.
 
@@ -4554,7 +4554,7 @@ If you select High Security in the TLS Security Configuration section, only TLS 
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Service Management**.
 
@@ -4568,7 +4568,7 @@ If you select High Security in the TLS Security Configuration section, only TLS 
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Service Management**.
 
@@ -4588,7 +4588,7 @@ Bastionhost allows you to upload an SM or RSA certificate, which helps to preven
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Network Management**.
 
@@ -4704,7 +4704,7 @@ Bastionhost allows you to upload an SM or RSA certificate, which helps to preven
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Network Management**.
 
@@ -4724,7 +4724,7 @@ You can view the information about cluster nodes.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > HA or Cluster**.
 
@@ -4740,7 +4740,7 @@ You can configure one or more Syslog servers.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Service Management**.
 
@@ -4749,7 +4749,7 @@ You can configure one or more Syslog servers.
    | Parameter | Description |
    | --- | --- |
    | Sender ID | The ID of the user who sends logs to the Syslog server, which is used for identification. |
-   | Server Address | The IP address and port of the Syslog server.<br>• Click the<img src="assets/2009d99476b0cb9be82ec45a013338fe.png" width="12" alt="">icon to add a Syslog server.<br>• Click the<img src="assets/fa80f300b5bd43bc15aafa1b3c8397bc.png" width="12" alt="">icon to delete the Syslog server. |
+   | Server Address | The IP address and port of the Syslog server.<br>• Click the<img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/2009d99476b0cb9be82ec45a013338fe.png" width="12" alt="">icon to add a Syslog server.<br>• Click the<img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/fa80f300b5bd43bc15aafa1b3c8397bc.png" width="12" alt="">icon to delete the Syslog server. |
    | Send Data | The type of logs that you want to send to the Syslog server. Valid values: Operation Logs and Alert Logs. |
 
 <a id="section-5-10-4"></a>
@@ -4764,7 +4764,7 @@ You can configure one or more Syslog servers.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Data Management**.
 
@@ -4782,7 +4782,7 @@ On the **Data Management** tab, configure automatic storage cleanup and click **
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Service Management**.
 
@@ -4840,7 +4840,7 @@ You can back up the current configurations and data of the system. If an error o
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Data Management**.
 
@@ -4888,7 +4888,7 @@ After the system backup file is uploaded, click **Restore** to restore the syste
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Data Management**.
 
@@ -4912,7 +4912,7 @@ You can use a configuration backup file of V3.8222.x or earlier to restore data.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Data Management**.
 
@@ -4930,7 +4930,7 @@ You can use a configuration backup file of V3.8222.x or earlier to restore data.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Monitor or Alert**.
 
@@ -4944,7 +4944,7 @@ When the resource usage exceeds the specified thresholds, the system sends an al
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Monitor or Alert**.
 
@@ -4960,7 +4960,7 @@ You can configure the notification methods and recipients.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Service Management**.
 
@@ -4970,7 +4970,7 @@ You can configure the notification methods and recipients.
 
      Select the Internal Message, Email, or SMS notification method based on your business requirements.
 
-     ![](assets/374e078a56e7f044df87eecd45d80570.jpeg)
+     ![](en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/374e078a56e7f044df87eecd45d80570.jpeg)
 
    - Add notification recipients
 
@@ -4980,7 +4980,7 @@ You can configure the notification methods and recipients.
 
      Find a message that you want to manage and click **Add** in the Actions column or select a message and click **Batch Add Recipients**.
 
-     ![](assets/c836e060c6ac0cc89cc4f0926d1a3273.jpeg)
+     ![](en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/c836e060c6ac0cc89cc4f0926d1a3273.jpeg)
 
      </li>
 
@@ -4994,7 +4994,7 @@ You can configure the notification methods and recipients.
 
    - Remove notification recipients
 
-     Click the <img src="assets/d49fedaed9d792c50d4ee86e260617ac.png" width="10" alt=""> icon next to a recipient to remove the recipient, or perform the following
+     Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/d49fedaed9d792c50d4ee86e260617ac.png" width="10" alt=""> icon next to a recipient to remove the recipient, or perform the following
 
      operations to remove multiple recipients at a time:
 
@@ -5024,7 +5024,7 @@ You can configure an email server.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Service Management**.
 
@@ -5052,7 +5052,7 @@ You can configure levels, and export and view operation logs.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **Audit > Operation Logs**.
 
@@ -5078,7 +5078,7 @@ You can view, confirm, and export alert logs.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Monitor or Alert**.
 
@@ -5086,7 +5086,7 @@ You can view, confirm, and export alert logs.
 
    - Select the alert log that you want to manage and click **Confirm Alert** to confirm the alert log. If you confirm the alert log, you acknowledge the alert log.
 
-   - Click the <img src="assets/8f24be3b9ee053409389c2ca464adae4.png" width="13" alt=""> icon. In the **Export** dialog box, enter the encryption password of the file to be
+   - Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/8f24be3b9ee053409389c2ca464adae4.png" width="13" alt=""> icon. In the **Export** dialog box, enter the encryption password of the file to be
 
      exported. The encryption password is used to decrypt the exported ZIP package. We recommend you configure an encryption password to ensure the security of the file.
 
@@ -5102,7 +5102,7 @@ You can view, confirm, and export alert logs.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Service Management**.
 
@@ -5130,7 +5130,7 @@ In the **Time Zone Configuration** section of the **Country or Region** tab, sel
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Local Machine Maintenance**.
 
@@ -5153,7 +5153,7 @@ You can configure system announcements. After you customize the content of an an
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Local Machine Maintenance**.
 
@@ -5171,7 +5171,7 @@ You can configure system announcements. After you customize the content of an an
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Logs**. On the page that appears, click the **Announcement** tab.
 
@@ -5187,7 +5187,7 @@ You can test the connectivity of a host address.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Local Machine Maintenance**.
 
@@ -5233,7 +5233,7 @@ You can perform a health check for the system to check items, including the syst
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Local Machine Maintenance**.
 
@@ -5245,7 +5245,7 @@ You can perform a health check for the system to check items, including the syst
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Management Console**.
 
 3. In the left-side navigation pane, choose **System > Local Machine Maintenance**.
 
@@ -5295,7 +5295,7 @@ This topic describes how to configure O&M logon parameters for protocols such as
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the middle navigation pane, click **O&M**.
 
@@ -5469,13 +5469,13 @@ Before you perform Browser/Server (B/S) O&M, the following preparations are comp
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the middle navigation pane, click **O&M**.
 
 4. On the **O&M** page, click **All Assets** or a group. The information about the hosts in the group is displayed on the right side of the page. Find the host that you want to manage,
 
-   move the pointer over the **Access** column, and click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that
+   move the pointer over the **Access** column, and click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that
 
    appears, select a value from the **Account or Service** drop-down list, select **Local O&M** for O&M Method, and then click **Log On**.
 
@@ -5499,17 +5499,17 @@ Before you perform O&M, the following preparations are complete:
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the middle navigation pane, click **O&M**.
 
 4. On the **O&M** page, click **All Assets** or a group. The information about the hosts in the group is displayed on the right side of the page. Find the host that you want to manage,
 
-   move the pointer over the **Access** column, and click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that
+   move the pointer over the **Access** column, and click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that
 
    appears, select a value from the **Account or Service** drop-down list, select **HTML5 O&M** for O&M Method, and then click **Log On**.
 
-   ![](assets/fa07238cb01aaf17da391be25be46b4d.png)
+   ![](en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/fa07238cb01aaf17da391be25be46b4d.png)
 
 5. **Optional**. If you select **Set as Default** in Step 4, HTML5-based O&M is automatically selected the next time you select the same value from the Account or Service drop-down list.
 
@@ -5587,7 +5587,7 @@ Before you perform B/S O&M, the following preparations are complete:
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the middle navigation pane, click **O&M**.
 
@@ -5595,7 +5595,7 @@ Before you perform B/S O&M, the following preparations are complete:
 
 5. Find the database that you want to manage, move the pointer over the **Access** column,
 
-   and click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that appears, select a value from the **Account or**
+   and click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that appears, select a value from the **Account or**
 
    **Service** drop-down list, select **Do Not Use** for **Remote Client**, select **Local O&M** for O&M Method, and then click **Log On**.
 
@@ -5629,7 +5629,7 @@ Before you perform Browser/Server (B/S) O&M, the following preparations are comp
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the middle navigation pane, click **O&M**.
 
@@ -5637,7 +5637,7 @@ Before you perform Browser/Server (B/S) O&M, the following preparations are comp
 
 5. Find the object that you want to manage, move the pointer over the **Access** column, and
 
-   then click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that appears, select a value from the **Account or**
+   then click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that appears, select a value from the **Account or**
 
    **Service** drop-down list, select the remote client tool for **Remote Client**, and then select Local O&M for O&M Method. Then, click **Log On**.
 
@@ -5663,7 +5663,7 @@ Before you perform HTML5-based O&M, the following preparations are complete:
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the middle navigation pane, click **O&M**.
 
@@ -5671,7 +5671,7 @@ Before you perform HTML5-based O&M, the following preparations are complete:
 
 5. Find the object that you want to manage, move the pointer over the **Access** column, and
 
-   then click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that appears, select a value from the **Account or**
+   then click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that appears, select a value from the **Account or**
 
    **Service** drop-down list, select the remote client tool for **Remote Client**, and then select **HTML5 O&M** for O&M Method. Then, click **Log On** to open an HTML5 page and call the remote client tool, such as the configured Google Chrome browser, of the application server to start O&M.
 
@@ -5713,7 +5713,7 @@ Before you perform Browser/Server (B/S) O&M, the following preparations are comp
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the middle navigation pane, click **O&M**.
 
@@ -5721,7 +5721,7 @@ Before you perform Browser/Server (B/S) O&M, the following preparations are comp
 
 5. Move the pointer over the **Access** column and click the
 
-   <img src="assets/f6d7bdf92e5db8ac85e495f7f540b7d3.jpeg" width="24" alt="">
+   <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/f6d7bdf92e5db8ac85e495f7f540b7d3.jpeg" width="24" alt="">
 
    icon. In the dialog box that appears, select a value from the **Account or Service** drop-down list, select **Local O&M** for O&M Method, and then click **Log On**. Bastionhost Assistant is called.
 
@@ -5741,7 +5741,7 @@ You are granted the permissions on the asset on which you want to perform O&M op
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the middle navigation pane, click **O&M**.
 
@@ -5749,7 +5749,7 @@ You are granted the permissions on the asset on which you want to perform O&M op
 
 5. Move the pointer over the **Access** column and click the show more icon. In the dialog box that appears, select a value from the **Account or Service** drop-down list and select **HTML5 O&M** for O&M Method. Then, click **Log On** to open an HTML5 page and log on to the host to start O&M.
 
-   ![](assets/fa07238cb01aaf17da391be25be46b4d.png)
+   ![](en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/fa07238cb01aaf17da391be25be46b4d.png)
 
 <a id="section-6-2-6"></a>
 
@@ -5765,13 +5765,13 @@ After you add an asset to the favorite list, you can log on to the asset to perf
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the middle navigation pane, click **O&M**.
 
 4. On the **O&M** page, click the **All Assets** directory. The asset information is displayed on the right side of the page.
 
-5. Click the <img src="assets/1c51a1b266d1e76d86e446e597ea4f99.png" width="10" alt=""> icon to add an asset to the favorite list.
+5. Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/1c51a1b266d1e76d86e446e597ea4f99.png" width="10" alt=""> icon to add an asset to the favorite list.
 
 <a id="section-6-2-6-2"></a>
 
@@ -5781,7 +5781,7 @@ After you add an asset to the favorite list, you can log on to the asset to perf
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the middle navigation pane, click **O&M**.
 
@@ -5789,7 +5789,7 @@ After you add an asset to the favorite list, you can log on to the asset to perf
 
 5. Find the asset that you want to manage, move the pointer over the **Access** column, and
 
-   then click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="14" alt=""> icon. In the dialog box that appears, select a value from the **Account or**
+   then click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="14" alt=""> icon. In the dialog box that appears, select a value from the **Account or**
 
    **Service** drop-down list, select **HTML5 O&M** for O&M Method, and then click **Log On**.
 
@@ -5803,7 +5803,7 @@ You can log on to multiple assets and perform O&M at a time.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the middle navigation pane, click **O&M**.
 
@@ -5811,7 +5811,7 @@ You can log on to multiple assets and perform O&M at a time.
 
 5. Find the asset that you want to manage, move the pointer over the **Access** column, and
 
-   then click the <img src="assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that appears, select a value from the Account or
+   then click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/8bdaab60ef342da87cd74b4863c62d5a.png" width="13" alt=""> icon. In the dialog box that appears, select a value from the Account or
 
    Service drop-down list, configure the O&M Method parameter, and then click **Set as Default**
 
@@ -5837,7 +5837,7 @@ Multiple Bastionhost users can perform HTML5-based collaborative O&M.
 
 2. Click the arrow on the right side of the page to expand the operation section.
 
-   ![](assets/594d1fa4f1501f09ce5302ac28d3263d.png)
+   ![](en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/594d1fa4f1501f09ce5302ac28d3263d.png)
 
 3. On the **Collaborative Operation and Management** tab, click **Start Sharing**.
 
@@ -5867,7 +5867,7 @@ If you do not have the permissions on the asset on which you want to perform O&M
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the middle navigation pane, click **O&M**.
 
@@ -5895,33 +5895,33 @@ You can create three-level groups in the **All Assets** directory to manage all 
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the middle navigation pane, click **O&M**.
 
 4. In the right-side navigation pane of the **O&M** page, move the pointer over the **All Assets**
 
-   directory or a group. The <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon appears on the right side of the pane.
+   directory or a group. The <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon appears on the right side of the pane.
 
-5. Move the pointer over the <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and click **Create Group**. A field is displayed.
+5. Move the pointer over the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and click **Create Group**. A field is displayed.
 
-6. Enter a group name in the field and click the <img src="assets/00f78f6b6575fe6a3dee266d167ea860.png" width="10" alt=""> icon next to the field to create a group.
+6. Enter a group name in the field and click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/00f78f6b6575fe6a3dee266d167ea860.png" width="10" alt=""> icon next to the field to create a group.
 
 **Edit a group**
 
 1. In the right-side navigation pane of the **O&M** page, move the pointer over the **All Assets**
 
-   directory or a group. The <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon appears on the right side of the pane.
+   directory or a group. The <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon appears on the right side of the pane.
 
-2. Move the pointer over the <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and click **Modify Group**. A field is displayed.
+2. Move the pointer over the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and click **Modify Group**. A field is displayed.
 
 **Delete a group**
 
 1. In the right-side navigation pane of the **O&M** page, move the pointer over the **All Assets**
 
-   directory or a group. The <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon appears on the right side of the pane.
+   directory or a group. The <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon appears on the right side of the pane.
 
-2. Move the pointer over the <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and click **Delete Group**. A message is displayed. Click
+2. Move the pointer over the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and click **Delete Group**. A message is displayed. Click
 
    Confirm to delete the group and its sub groups.
 
@@ -5951,7 +5951,7 @@ You can create three-level groups in the **All Assets** directory to manage all 
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Tickets**.
 
@@ -5976,7 +5976,7 @@ The ticket applicant can cancel the ticket that is in the pending state to stop 
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Tickets**.
 
@@ -5998,13 +5998,13 @@ The ticket applicant can cancel the ticket that is in the pending state to stop 
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Tickets**.
 
 4. On the **Ticket** page, click the **Submitted, Pending**, or **Processed** card to view the review status, applicant, and summary of the tickets.
 
-5. **Optional**. Click the <img src="assets/72d7e6d0058eb51adf6df9635adb2862.png" width="13" alt=""> icon to view the review process and information about a ticket.
+5. **Optional**. Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/72d7e6d0058eb51adf6df9635adb2862.png" width="13" alt=""> icon to view the review process and information about a ticket.
 
 6. **Optional**. Click **Details** to view the details of a ticket.
 
@@ -6016,7 +6016,7 @@ You can search for a ticket by review status, applicant, application reason, or 
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Tickets**.
 
@@ -6036,7 +6036,7 @@ After you create a ticket, the system automatically triggers the review process.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Tickets**.
 
@@ -6054,7 +6054,7 @@ The system sends a review code to the selected reviewer by email. The ticket app
 
 1. After the ticket review process is triggered, click **Ticket** of the **workbench** to go to the ticket application page.
 
-2. Click the <img src="assets/72d7e6d0058eb51adf6df9635adb2862.png" width="13" alt=""> icon in the ticket list. In the **Approval Process** dialog box, select a reviewer
+2. Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/72d7e6d0058eb51adf6df9635adb2862.png" width="13" alt=""> icon in the ticket list. In the **Approval Process** dialog box, select a reviewer
 
    and click **Send Approval Code**. The review code is sent to the email address of the reviewer.
 
@@ -6068,7 +6068,7 @@ As an approver, you can revoke approved O&M tickets, pre-authorization tickets, 
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Tickets**.
 
@@ -6084,7 +6084,7 @@ You can view, upload, and download files on the Netdisk page.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Netdisk**.
 
@@ -6096,7 +6096,7 @@ You can upload a file directory or files to a cloud drive.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Netdisk**.
 
@@ -6110,7 +6110,7 @@ You can download files from a cloud drive to your computer.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Netdisk**.
 
@@ -6120,7 +6120,7 @@ You can download files from a cloud drive to your computer.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Netdisk**. In the Transfer List section, click **Transferring**. Then, you can view files in transfer within your account.
 
@@ -6136,7 +6136,7 @@ You can download files from a cloud drive to your computer.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Netdisk**. In the Transfer List section, click **Transfer Records**. Then, you can view file transfer records within your account.
 
@@ -6156,37 +6156,37 @@ You can implement flexible orchestration and automatic execution for multiple O&
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Task**.
 
-4. In the **Task Set** section, click the <img src="assets/ba709c53c5bc18f39d2c7953942950b2.png" width="16" alt=""> icon to create a task set.
+4. In the **Task Set** section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/ba709c53c5bc18f39d2c7953942950b2.png" width="16" alt=""> icon to create a task set.
 
 5. In the New Task Set dialog box, enter a task name and click **Confirm**.
 
-6. Move the mouse over the created task set. The icon <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> is displayed on the right.
+6. Move the mouse over the created task set. The icon <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> is displayed on the right.
 
-7. Click the <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon, select **Create Child Task Set**, enter a task name, and then click the <img src="assets/00f78f6b6575fe6a3dee266d167ea860.png" width="10" alt="">
+7. Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon, select **Create Child Task Set**, enter a task name, and then click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/00f78f6b6575fe6a3dee266d167ea860.png" width="10" alt="">
 
    icon.
 
 **Modify a task set**
 
-1. In the **Task Set** section, move the pointer over the task set that you want to manage. The <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt="">
+1. In the **Task Set** section, move the pointer over the task set that you want to manage. The <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt="">
 
    icon is displayed on the right.
 
-2. Click the <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and select **Rename**.
+2. Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and select **Rename**.
 
-3. Enter a new name and click the <img src="assets/00f78f6b6575fe6a3dee266d167ea860.png" width="10" alt=""> icon.
+3. Enter a new name and click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/00f78f6b6575fe6a3dee266d167ea860.png" width="10" alt=""> icon.
 
 **Delete a task set**
 
-1. In the **Task Set** section, move the pointer over the task set that you want to delete. The <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt="">
+1. In the **Task Set** section, move the pointer over the task set that you want to delete. The <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt="">
 
    icon is displayed on the right.
 
-2. Click the <img src="assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and select **Delete**. In the message that appears, click **Confirm**.
+2. Click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/19e52d30e0e49c9683f2d041b26da33d.png" width="5" alt=""> icon and select **Delete**. In the message that appears, click **Confirm**.
 
 <a id="section-6-5-2"></a>
 
@@ -6196,7 +6196,7 @@ You can implement flexible orchestration and automatic execution for multiple O&
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Task**.
 
@@ -6218,7 +6218,7 @@ You can implement flexible orchestration and automatic execution for multiple O&
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Task**.
 
@@ -6228,7 +6228,7 @@ You can implement flexible orchestration and automatic execution for multiple O&
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Task**.
 
@@ -6254,7 +6254,7 @@ You can implement flexible orchestration and automatic execution for multiple O&
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Task**.
 
@@ -6270,7 +6270,7 @@ You can view operation logs and internal messages.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Logs**.
 
@@ -6282,7 +6282,7 @@ You can view operation logs and internal messages.
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Logs**.
 
@@ -6310,7 +6310,7 @@ You can view the basic information about the logon user, such as the name, mobil
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Personal Information**.
 
@@ -6330,7 +6330,7 @@ If you enable two-factor authentication, you must obtain the verification code f
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Personal Information**.
 
@@ -6348,7 +6348,7 @@ When you perform Client/Server (C/S) O&M on an FTP server, Oracle client, or RDP
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Personal Information**.
 
@@ -6366,7 +6366,7 @@ You can use an SSH public key to log on to Bastionhost over SSH. Only OpenSSH pu
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Personal Information**.
 
@@ -6388,7 +6388,7 @@ You can use an SSH private key to log on to an asset over SSH to perform O&M ope
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Personal Information**.
 
@@ -6412,7 +6412,7 @@ After you configure a Pretty Good Privacy (PGP) public key, the public key is us
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Personal Information**.
 
@@ -6428,7 +6428,7 @@ Bastionhost provides download links for O&M, audit, and other tools or plug-ins 
 
 1. Log on to Bastionhost. For more information, see Log on to Bastionhost.
 
-2. In the console switch section, click the <img src="assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
+2. In the console switch section, click the <img src="en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/dca24f0b93220534a430404a68bfe155.png" width="12" alt=""> icon and click **Workbench**.
 
 3. In the left-side navigation pane, click **Tool Download**.
 
@@ -6469,7 +6469,7 @@ In view of system security, public endpoints are disabled for tenant-side bastio
 
    Record the **vpc_vip** and **user_vpc_id** values obtained by running the  `ping`  command for later use.
 
-   ![](assets/ded4a8231a30b18479f1fe219dfd6ea2.jpeg)
+   ![](en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/ded4a8231a30b18479f1fe219dfd6ea2.jpeg)
 
 **Step 2: Create an elastic IP address (EIP)**
 
@@ -6499,7 +6499,7 @@ In view of system security, public endpoints are disabled for tenant-side bastio
 
 1. In the NAT gateway list, find the NAT gateway that you created in **Step 3**, move the pointer over the More icon in the Actions column, and then select **Associate EIP**.
 
-   ![](assets/b911925f3b864014bd6557bf036d6eed.jpeg)
+   ![](en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/b911925f3b864014bd6557bf036d6eed.jpeg)
 
 2. In the dialog box that appears, select the EIP that you created in **Step 2**.
 
@@ -6507,7 +6507,7 @@ In view of system security, public endpoints are disabled for tenant-side bastio
 
 1. In the NAT gateways list, find the NAT gateway that you created and click **Set DNAT** in the Actions column.
 
-   ![](assets/e051bd24923bc381609a8b7c75a5a0f7.jpeg)
+   ![](en-bastionhost-tenant-side-user-guide-v3.18.6-20260701.assets/e051bd24923bc381609a8b7c75a5a0f7.jpeg)
 
 2. On the **DNAT** tab, click **Create DNAT Entry**.
 

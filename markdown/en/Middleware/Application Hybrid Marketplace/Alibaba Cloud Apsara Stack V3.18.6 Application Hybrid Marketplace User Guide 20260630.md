@@ -109,7 +109,7 @@ Before you deploy an application, make the following preparations:
 
    In the Basic Settings step, configure the parameters and click **Next**.
 
-   ![](assets/99a49757ba5660eca6c1b86b6bc30205.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/99a49757ba5660eca6c1b86b6bc30205.jpeg)
 
    The following table describes the parameters.
 
@@ -134,7 +134,7 @@ Before you deploy an application, make the following preparations:
 
    In the Resource Configuration step, configure the parameters and click **Next**.
 
-   ![](assets/4ad9fc70dc963d7a9553a712d7214c2a.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/4ad9fc70dc963d7a9553a712d7214c2a.jpeg)
 
    The following table describes the parameters.
 
@@ -151,7 +151,7 @@ Before you deploy an application, make the following preparations:
 
    In the Application Settings step, configure the parameters and click **Next**.
 
-   ![](assets/2a091ac1d50182bf3544861ee299be87.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/2a091ac1d50182bf3544861ee299be87.jpeg)
 
    The following table describes the parameters.
 
@@ -169,7 +169,7 @@ Before you deploy an application, make the following preparations:
 
    Confirm parameter settings in this step.
 
-   ![](assets/461113e270b1f3e16be08d8296698e34.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/461113e270b1f3e16be08d8296698e34.jpeg)
 
    </li>
 
@@ -306,7 +306,7 @@ Before you deploy an application, make the following preparations:
 
    In the Basic Settings step, configure the parameters and click **Next**.
 
-   ![](assets/bb2178b817aa68a148a197831d6d2135.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/bb2178b817aa68a148a197831d6d2135.jpeg)
 
    The following tables describe the parameters.
 
@@ -331,7 +331,7 @@ Before you deploy an application, make the following preparations:
 
    In the Resource Configuration step, configure the parameters and click **Next**.
 
-   ![](assets/3d9fdf8d451964afb179e9898a66f36c.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/3d9fdf8d451964afb179e9898a66f36c.jpeg)
 
    The following tables describe the parameters.
 
@@ -358,7 +358,7 @@ Before you deploy an application, make the following preparations:
 
    In the Application Settings step, configure the parameters and click **Next**.
 
-   ![](assets/3f816e007980f4dec1fc32bab26fb448.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/3f816e007980f4dec1fc32bab26fb448.jpeg)
 
    The following tables describe the parameters.
 
@@ -376,7 +376,7 @@ Before you deploy an application, make the following preparations:
 
    Confirm parameter settings in this step.
 
-   ![](assets/a0375ac8ac5bd7a36f112f244da15741.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/a0375ac8ac5bd7a36f112f244da15741.jpeg)
 
    </li>
 
@@ -402,11 +402,11 @@ This topic describes how to use the Hybrid Cloud Application Center console to d
 
 3. Click the ONSP plug-in on the All Plug-ins page to open the details page. Click **Deploy Application**. In the Deploy panel, select the version number of the ONSP plug-in and click **Next**. Wait until the plug-in is deployed.
 
-   ![](assets/59598750d2b2827d9ac389a72c5421d4.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/59598750d2b2827d9ac389a72c5421d4.jpeg)
 
 4. On the **My Plugins** page, click the ONSP plug-in to open the details page. In the **Access Portal** section, click **onsp** next to **Domain Name** to go to the ONSP console.
 
-   ![](assets/d25f6f7b8128e60e46ad7ef89c8a5df4.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/d25f6f7b8128e60e46ad7ef89c8a5df4.jpeg)
 
 <a id="section-3"></a>
 
@@ -428,7 +428,7 @@ The Hybrid Cloud Application Center console allows you to import OAM-compliant c
 
 3. In the **Import Application** dialog box, click **Upload File**. Select a .zip file of the cloud application baseline and click **OK**. After the application is imported, you can view the application on the App Store page and choose to try it out or deploy the application.
 
-   ![](assets/6783fb7f00dddda8069856be4b6075e1.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/6783fb7f00dddda8069856be4b6075e1.jpeg)
 
 **One-click import**
 
@@ -468,7 +468,7 @@ The Hybrid Cloud Application Center console allows you to import OAM-compliant c
 
    The success message indicates that the command is successfully executed.
 
-   ![](assets/4cdb6494c152d84bc69e7e5815269d0c.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/4cdb6494c152d84bc69e7e5815269d0c.jpeg)
 
 <a id="section-3-2"></a>
 
@@ -510,7 +510,7 @@ After an application is deployed, you can view all purchased and trial applicati
 
 3. On the application details page, view the information about the application on the **Basic Information** and **Deployment Logs** tabs.
 
-   ![](assets/0f1aa9740049d7432ab4bd154106ef00.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/0f1aa9740049d7432ab4bd154106ef00.jpeg)
 
 4. Unpublish an application.
 
@@ -520,7 +520,7 @@ After an application is deployed, you can view all purchased and trial applicati
 
    On the application details page, click **Delete** in the upper-right corner.
 
-   ![](assets/b040a97a7d99447bac804392092e5b7e.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/b040a97a7d99447bac804392092e5b7e.jpeg)
 
    </li>
 
@@ -546,7 +546,7 @@ After an application is deployed, you can view all purchased and trial applicati
 
    On the application details page, click **Configure** in the upper-right corner.
 
-   ![](assets/82bde5e90e5bd09c9b7efd6be13efc0b.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/82bde5e90e5bd09c9b7efd6be13efc0b.jpeg)
 
    </li>
 
@@ -572,13 +572,13 @@ On the Task Management page of Hybrid Cloud Application Center, you can view app
 
 2. On the **Task Management** page, you can view the following information about an application deployment task: **Ticket ID**, **Application Name**, **Version**, **Change Type**, **Submitted By**, **Start Time**, **End Time**, and **Ticket Status**.
 
-   ![](assets/eab87493f11d12d3b6d683c7346cbd40.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/eab87493f11d12d3b6d683c7346cbd40.jpeg)
 
    You can filter tasks by **Application Name**, **Submitted By**, or **Ticket Status**.
 
 3. Click the ticket ID of a task to open the task details page. You can view the ticket information and **Progress** of the task.
 
-   ![](assets/61e674d6cdc19776548bdc37b53447c0.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/61e674d6cdc19776548bdc37b53447c0.jpeg)
 
    You can retry or skip a failed task:
 
@@ -602,7 +602,7 @@ On the Task Management page of Hybrid Cloud Application Center, you can view app
 
 3. On the All Plug-ins page, click **Import Plug-in**. In the dialog box that appears, upload the ZIP package of an Open Application Model (OAM) application plug-in or the JAR package of a remote application plug-in and click **OK**.
 
-   ![](assets/0b78c7e424306b14d9bdce1b68c21ce0.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/0b78c7e424306b14d9bdce1b68c21ce0.jpeg)
 
 4. View the imported plug-in.
 
@@ -610,11 +610,11 @@ On the Task Management page of Hybrid Cloud Application Center, you can view app
 
 1. On the All Plug-ins page, enter a plug-in name in the search box to search for an imported plug-in.
 
-2. Find the plug-in that you want to view, move the pointer over the <img src="assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click
+2. Find the plug-in that you want to view, move the pointer over the <img src="en-ahm-user-guide-v3.18.6-20260630.assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click
 
    **Details**. Alternatively, click the card of the plug-in that you want to view to go to the details page of the plug-in.
 
-   ![](assets/66d90bf44b1bf01247550c22d4f35687.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/66d90bf44b1bf01247550c22d4f35687.jpeg)
 
 **Deploy a plug-in**
 
@@ -622,23 +622,23 @@ On the Task Management page of Hybrid Cloud Application Center, you can view app
 
    - On the All Plug-ins page, find the plug-in that you want to deploy, move the pointer over
 
-     the <img src="assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click **Deploy**.
+     the <img src="en-ahm-user-guide-v3.18.6-20260630.assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click **Deploy**.
 
    - On the details page of the plug-in that you want to deploy, click **Deploy Application**.
 
 2. In the Deploy panel, select the version number of the plug-in and click **Next**. Wait until the plug-in is deployed.
 
-   ![](assets/d64ed053556f8239838598e094d93e71.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/d64ed053556f8239838598e094d93e71.jpeg)
 
 **Delete a plug-in**
 
 1. On the All Plug-ins page, find the plug-in that you want to delete, move the pointer over the
 
-   <img src="assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click **Delete Plug-in**.
+   <img src="en-ahm-user-guide-v3.18.6-20260630.assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click **Delete Plug-in**.
 
 2. In the message that appears, click **OK**.
 
-   ![](assets/c377d8e9eab77dd75b7a24ae23a8f3da.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/c377d8e9eab77dd75b7a24ae23a8f3da.jpeg)
 
 <a id="section-6-2"></a>
 
@@ -652,7 +652,7 @@ On the Task Management page of Hybrid Cloud Application Center, you can view app
 
 3. In the message that appears, click **OK**.
 
-   ![](assets/e280f929299dc8a490a0f8253f5167a5.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/e280f929299dc8a490a0f8253f5167a5.jpeg)
 
 **View the details of a plug-in**
 
@@ -662,13 +662,13 @@ On the Task Management page of Hybrid Cloud Application Center, you can view app
 
    - On the My Plugins page, find the plug-in that you want to view, move the pointer over the
 
-     <img src="assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click **Details**.
+     <img src="en-ahm-user-guide-v3.18.6-20260630.assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click **Details**.
 
    - On the My Plugins page, find the plug-in that you want to view and click the card of the plug-in.
 
 3. View the details of the plug-in.
 
-   ![](assets/cd2032775da5d1c2a0298b24fdc1d1f3.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/cd2032775da5d1c2a0298b24fdc1d1f3.jpeg)
 
 **Stop a plug-in**
 
@@ -676,11 +676,11 @@ On the Task Management page of Hybrid Cloud Application Center, you can view app
 
 2. On the My Plugins page, find the plug-in that you want to stop, move the pointer over the
 
-   <img src="assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click **Stop**.
+   <img src="en-ahm-user-guide-v3.18.6-20260630.assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click **Stop**.
 
 3. In the message that appears, click **OK**.
 
-   ![](assets/0f667e3b76b0279557981587c2acabfe.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/0f667e3b76b0279557981587c2acabfe.jpeg)
 
 **Restart a plug-in**
 
@@ -688,11 +688,11 @@ On the Task Management page of Hybrid Cloud Application Center, you can view app
 
 2. On the My Plugins page, find the plug-in that you want to restart, move the pointer over the
 
-   <img src="assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click **Restart Plugin**.
+   <img src="en-ahm-user-guide-v3.18.6-20260630.assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click **Restart Plugin**.
 
 3. In the message that appears, click **OK**.
 
-   ![](assets/db7b4bfe38cebb8848ed7c59ce49150c.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/db7b4bfe38cebb8848ed7c59ce49150c.jpeg)
 
 **Uninstall a plug-in**
 
@@ -702,13 +702,13 @@ On the Task Management page of Hybrid Cloud Application Center, you can view app
 
    - On the My Plugins page, find the plug-in that you want to uninstall, move the pointer over
 
-     the <img src="assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click **Uninstall**.
+     the <img src="en-ahm-user-guide-v3.18.6-20260630.assets/b976521c88adadff5feecd7481d5cde6.png" width="19" alt=""> icon, and then click **Uninstall**.
 
    - On the details page of a plug-in, click **Uninstall**.
 
 3. In the message that appears, click **Uninstall**.
 
-   ![](assets/d68f41ed4b287e71bb53418dd002d7af.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/d68f41ed4b287e71bb53418dd002d7af.jpeg)
 
 **Update a plug-in**
 
@@ -718,7 +718,7 @@ On the Task Management page of Hybrid Cloud Application Center, you can view app
 
 3. Select the version number of the plug-in and click **Next**. Wait until the plug-in is updated.
 
-   ![](assets/904a786ad39797158c8801279917d0d3.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/904a786ad39797158c8801279917d0d3.jpeg)
 
 <a id="section-7"></a>
 
@@ -736,7 +736,7 @@ An image repository is a Docker image repository. It provides images for specifi
 
 2. In the left-side navigation pane, choose **System Management** > **Image Repositories**. On the page that appears, click **Add Image Repository**, configure the related parameters, and then click **OK**.
 
-   ![](assets/53f84792e3d37a829431c120663c2901.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/53f84792e3d37a829431c120663c2901.jpeg)
 
    | Name | Description |
    | --- | --- |
@@ -772,7 +772,7 @@ A global variable is a global configuration in the key-value form. The effective
 
 2. In the left-side navigation pane, choose **System Management** > **Variables**. On the page that appears, click the **Global Variables** tab, click **Add Variable**, configure the variable information, and then click **OK**.
 
-   ![](assets/fb7e8d3ac633e7c5b8605a5b1cf13980.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/fb7e8d3ac633e7c5b8605a5b1cf13980.jpeg)
 
    | Name | Description |
    | --- | --- |
@@ -799,7 +799,7 @@ Cluster variables are configuration variables of a cluster in the key-value form
 
 2. In the left-side navigation pane, choose **System Management** > **Variables**. On the page that appears, click the **Cluster Variables** tab and click **Add Variable**. In the dialog box that appears, configure the variable information and click **OK**.
 
-   ![](assets/be6bec93ed0ea8087ec91540d4c288be.jpeg)
+   ![](en-ahm-user-guide-v3.18.6-20260630.assets/be6bec93ed0ea8087ec91540d4c288be.jpeg)
 
    | Name | Description |
    | --- | --- |

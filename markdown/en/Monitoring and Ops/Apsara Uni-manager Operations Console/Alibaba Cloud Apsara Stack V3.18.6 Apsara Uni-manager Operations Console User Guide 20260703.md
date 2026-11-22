@@ -365,7 +365,7 @@ Alibaba Cloud Apsara Stack adopts the ISO 20000 standard and references the meth
 
 Figure 1. Apsara Uni-manager Operations Console
 
-![](assets/95845a19f19db1ec26964ad797c895be.png)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/95845a19f19db1ec26964ad797c895be.png)
 
 Based on ITIL and ISO 20000, the management framework of the Apsara Uni-manager Operations Console uses management support tools to adapt to various management modes in a process-oriented, normalized, and standardized manner. This has implemented the systematic management of the overall process of operations services The management framework of the Apsara Uni-manager Operations Console provides the full lifecycle management methods, management standards, management modes, management supporting tools, management objects, and process-based management methods of IT operations services.
 
@@ -431,7 +431,7 @@ This topic provides instructions on how operations engineers and other users can
 
 2. In the address bar, enter the endpoint of Apsara Uni-manager and press Enter.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -471,7 +471,7 @@ This topic describes the functions of the top navigation bar in the Apsara Uni-m
 
 The top navigation bar on the console provides the following main functions:
 
-![](assets/9369a6d5c56f85f4cbebe86b4eff160b.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9369a6d5c56f85f4cbebe86b4eff160b.jpeg)
 
 | No. | Section | Description |
 | --- | --- | --- |
@@ -517,7 +517,7 @@ This topic describes the features displayed on the Operation Platform page of th
 
 In a single-region scenario, the Operation Platform page displays the following content by default for regular users.
 
-![](assets/e6162182eeac1ac7b1b6ddd93aa95ac9.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e6162182eeac1ac7b1b6ddd93aa95ac9.jpeg)
 
 Click **Modify Layout and Card** to customize the Operation Platform page. You can add, remove, and move cards, or resize cards. The following table lists the supported content.
 
@@ -757,7 +757,7 @@ You can also view your recently accessed menu functions.
 
 The Operation Platform page for users with the **platform O&M administrator** role permission displays the following content.
 
-![](assets/b63b2be881db13496b92ff866b95833d.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b63b2be881db13496b92ff866b95833d.jpeg)
 
 | Section | Description |
 | --- | --- |
@@ -771,7 +771,7 @@ The Operation Platform page for users with the **platform O&M administrator** ro
 
 The Operation Platform page displays the following content.
 
-![](assets/825f3caa8683ec67f89c8810db654f9b.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/825f3caa8683ec67f89c8810db654f9b.jpeg)
 
 **Section**
 
@@ -795,7 +795,7 @@ You can view **Total Events**, **Important Events (L1+L2)**, **Abnormal Regions*
 
   - Hover your mouse over a node to view data for the corresponding time point.
 
-  - Click the <img src="assets/c06cccbdb65c2b74eb0388dc62d1928e.png" width="11" alt=""> icon after a region name. The page redirects
+  - Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c06cccbdb65c2b74eb0388dc62d1928e.png" width="11" alt=""> icon after a region name. The page redirects
 
 Event Analysis
 
@@ -803,11 +803,11 @@ to the event list page for the target event level in that region.
 
 - Statistics View: You can view the event statistical chart across regions over the past week. Click **Configure Data** to select event levels for display.
 
-  - Click the <img src="assets/c06cccbdb65c2b74eb0388dc62d1928e.png" width="11" alt=""> icon after a region name. The page redirects
+  - Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c06cccbdb65c2b74eb0388dc62d1928e.png" width="11" alt=""> icon after a region name. The page redirects
 
     to the event list page for the target event level in that region.
 
-  - Click the <img src="assets/e432f2f843ff10520aef3fdc5dcafe26.png" width="13" alt=""> icon next to the statistical view, then click
+  - Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e432f2f843ff10520aef3fdc5dcafe26.png" width="13" alt=""> icon next to the statistical view, then click
 
     **Go to** to navigate to the Region Coordinate Management page for configuration.
 
@@ -827,7 +827,7 @@ You can view **Total Alerts**, **Important Alerts (P1+P2)**,
 
   - Hover your mouse over a node to view data for the corresponding time point.
 
-  - Click the <img src="assets/c06cccbdb65c2b74eb0388dc62d1928e.png" width="11" alt=""> icon after a region name. The page redirects
+  - Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c06cccbdb65c2b74eb0388dc62d1928e.png" width="11" alt=""> icon after a region name. The page redirects
 
 Alert Analysis
 
@@ -835,11 +835,11 @@ to the alert list page for the target alert level in that region.
 
 - Statistics View: You can view the alert statistical chart across regions over the past week. Click **Configure Data** to select alert levels for display.
 
-  - Click the <img src="assets/c06cccbdb65c2b74eb0388dc62d1928e.png" width="11" alt=""> icon after a region name. The page redirects
+  - Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c06cccbdb65c2b74eb0388dc62d1928e.png" width="11" alt=""> icon after a region name. The page redirects
 
     to the alert list page for the target alert level in that region.
 
-  - Click the <img src="assets/e432f2f843ff10520aef3fdc5dcafe26.png" width="13" alt=""> icon next to the statistical view, then click
+  - Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e432f2f843ff10520aef3fdc5dcafe26.png" width="13" alt=""> icon next to the statistical view, then click
 
     **Go to** to navigate to the Region Coordinate Management page for configuration.
 
@@ -1083,11 +1083,11 @@ You have obtained the permissions of a system administrator.
 
    - In the **Overview of inspection results completed** section, you can view the inspection results of each inspected service, including the number of errors, number of warnings, and number of passed items. You can click a service to view its inspection result in detail.
 
-     ![](assets/65d489187ddb2460a9f7a78713b2ed67.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/65d489187ddb2460a9f7a78713b2ed67.jpeg)
 
    - In the lower part of the page, you can click **Advanced Filter** to view inspection results by **Inspection item type**, **Inspection Status**, **Inspection item name**, and **Inspection item description**.
 
-     ![](assets/b27a6aa2aa2919dd6bc55ec753a32690.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b27a6aa2aa2919dd6bc55ec753a32690.jpeg)
 
      - You can move the pointer over **Inspection parameters** in the **Operation** column that corresponds to an inspection item to view its inspection parameters.
 
@@ -1095,7 +1095,7 @@ You have obtained the permissions of a system administrator.
 
      - You can click a number in the **Inspection results** column that corresponds to an inspection item to view the result in detail in the dialog box that appears.
 
-       ![](assets/04ad3da1e5b5951fa7847b2560f0b6cd.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/04ad3da1e5b5951fa7847b2560f0b6cd.jpeg)
 
    - You can click **View report receiving mailbox** in the upper-right corner to view the email address that receives the inspection report.
 
@@ -1127,7 +1127,7 @@ The permissions of the security administrator role in the Apsara Uni-manager Ope
 
 **Flowchart**
 
-![](assets/edd9e64e20539f7c86882cdd93b9f76f.png)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/edd9e64e20539f7c86882cdd93b9f76f.png)
 
 **Procedure**
 
@@ -1227,7 +1227,7 @@ You have obtained the permissions of a security auditor.
 
      Specify the **Username** and **Time Range** parameters to filter operation records.
 
-     ![](assets/43c23208c2f84ba1a400d4a058c8b8b5.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/43c23208c2f84ba1a400d4a058c8b8b5.jpeg)
 
    - Export GUI-based operation records.
 
@@ -1448,7 +1448,7 @@ This topic describes how to view the basic monitoring information and business m
 
    On the Product Monitoring page, you can perform the following operations based on your business requirements.
 
-   ![](assets/3380be48520e0e0714107a7f346c1234.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3380be48520e0e0714107a7f346c1234.jpeg)
 
    - View the total number of cloud services and the number of cloud services that are not at desired state.
 
@@ -1462,27 +1462,27 @@ This topic describes how to view the basic monitoring information and business m
 
        - On the **Basic monitoring** tab, view the monitoring data based on the time and metrics. You can turn on **Auto Refresh** in the upper-right corner to automatically update the monitoring data.
 
-         ![](assets/0e49a20e528c500a16a73af4811ea17f.jpeg)
+         ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0e49a20e528c500a16a73af4811ea17f.jpeg)
 
        - On the **Machine List** tab, view the list of hosts in the cluster. You can find the host that you want to manage and click the icon in the **Operation** column to go to the Machine monitoring page.
 
-         ![](assets/8c4882b86fb4f3e8ef65db8941deef58.jpeg)
+         ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8c4882b86fb4f3e8ef65db8941deef58.jpeg)
 
          On the Machine monitoring page, view the basic information and monitoring data of the host. You can turn on **Auto Refresh** in the upper-right corner to automatically update the monitoring data.
 
-         ![](assets/c307704c500f7e6ba4cb8a3bf06eecd0.jpeg)
+         ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c307704c500f7e6ba4cb8a3bf06eecd0.jpeg)
 
      - You can select a service in the navigation tree to view the status, cluster, and business monitoring information of the service on the right side of the page.
 
        On the **Business monitoring** tab, view the monitoring data based on the time and metrics. You can turn on **Auto Refresh** in the upper-right corner to automatically update the monitoring data.
 
-       ![](assets/8f9cb7148b1ae82591da9a8d9e6c94eb.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8f9cb7148b1ae82591da9a8d9e6c94eb.jpeg)
 
      - You can select a component in the navigation tree to view the status, cluster, service, basic monitoring information, business monitoring information, and machine list of the component on the right side of the page.
 
        On the **Basic monitoring** tab, view the basic monitoring information of the component, including the monitoring data of containers, processes, and Java virtual machines (JVMs).
 
-       ![](assets/1825d80847eb991675b47c7367a24cb5.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1825d80847eb991675b47c7367a24cb5.jpeg)
 
 <a id="section-4-1-1-1-2"></a>
 
@@ -1679,7 +1679,7 @@ This topic describes how to configure business metrics for monitoring cloud serv
      </tr>
    </table>
 
-   ![](assets/bb8addf159d25446eb956ba6564a9381.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/bb8addf159d25446eb956ba6564a9381.jpeg)
 
 **View configurations**
 
@@ -1691,7 +1691,7 @@ This topic describes how to configure business metrics for monitoring cloud serv
 
 3. In the access configuration list, you can view the **metric name**, **access type**, **service**, and **description** of each access configuration.
 
-   ![](assets/ad81765bfdb644bbbf2439d090416bc0.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ad81765bfdb644bbbf2439d090416bc0.jpeg)
 
 **Import configurations**
 
@@ -1743,7 +1743,7 @@ Export a single access configuration
 
 1. On the Access Configuration page, find the access configuration that you want to export,
 
-   move the pointer over the <img src="assets/13a7611d63d49d3c0fcd89335dfa5a01.png" width="16" alt=""> icon in the **Operation** column, and then select **Export**.
+   move the pointer over the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/13a7611d63d49d3c0fcd89335dfa5a01.png" width="16" alt=""> icon in the **Operation** column, and then select **Export**.
 
 2. In the dialog box that appears, click **Download**.
 
@@ -1765,7 +1765,7 @@ Delete a single access configuration
 
 1. On the Access Configuration page, find the access configuration that you want to delete,
 
-   move the pointer over the <img src="assets/13a7611d63d49d3c0fcd89335dfa5a01.png" width="16" alt=""> icon in the **Operation** column, and then select **Delete**.
+   move the pointer over the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/13a7611d63d49d3c0fcd89335dfa5a01.png" width="16" alt=""> icon in the **Operation** column, and then select **Delete**.
 
 2. In the message that appears, click **Delete**.
 
@@ -1965,7 +1965,7 @@ View and manage an overview of alert rules for all cloud product monitoring. The
 
    again after one alarm is triggered.
 
-   ![](assets/0f97798071d8cf838ca5e3cb7bae1f4f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0f97798071d8cf838ca5e3cb7bae1f4f.jpeg)
 
 **View alert rules**
 
@@ -1973,7 +1973,7 @@ View and manage an overview of alert rules for all cloud product monitoring. The
 
 2. In the alert rule list, you can view the **Rule Name**, **Cloud products**, **Service**, **Enabled**, **Rule Description**, **Metrics**, **Alert rules**, and **Effective Cluster**. Hover your mouse over the number in the **Effective Cluster** column to see the specific cluster names.
 
-   ![](assets/04f6f7c67c50514de7f90877fd681c21.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/04f6f7c67c50514de7f90877fd681c21.jpeg)
 
 **Disable an alert rule**
 
@@ -2067,7 +2067,7 @@ Delete multiple alert rules:
 
   **Alert execution cycle**, **Effective Cluster**, **Alert Trigger Type**, **Alert rule**s, **Effective time**, and **Channel Silence Period**. Click **Modify** to complete the rule modification.
 
-  ![](assets/7217c5b40c496059ec97df435628e2ed.jpeg)
+  ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7217c5b40c496059ec97df435628e2ed.jpeg)
 
   > **Note**
   >
@@ -2099,7 +2099,7 @@ Delete multiple alert rules:
 
 2. In the alert rule list, you can view the **Rule Name**, **Cloud Products**, **Service**, **Enabled**, **Rule Description**, **Metrics**, **Alert rules**, and **Effective Cluster**. Hover your mouse over the number in the **Effective Cluster** column to view the specific cluster names.
 
-   ![](assets/4cf15b5ee461786c3c994939b6aab928.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4cf15b5ee461786c3c994939b6aab928.jpeg)
 
 <a id="section-4-1-1-1-4"></a>
 
@@ -2119,7 +2119,7 @@ Alert Templates allows you to manage system templates and custom templates of cl
 
 4. On the **System Template** tab, click **Import Configuration**. In the dialog box that appears, upload the template file and click **OK**.
 
-   ![](assets/44fd7891cd803c40425d3de2254ae0bd.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/44fd7891cd803c40425d3de2254ae0bd.jpeg)
 
    > **Note**
    >
@@ -2130,11 +2130,11 @@ Alert Templates allows you to manage system templates and custom templates of cl
    | Parameter | Description |
    | --- | --- |
    | Service Name | The service for which the monitoring template is configured. The monitoring template takes effect on the specified service. |
-   | Template Name/ID | The name and ID of the monitoring template.<br>Hover over the template name or ID and click<img src="assets/30765b7b9f768e861fb0968c38556419.png" width="16" alt="">to copy the template name<br>or ID. |
+   | Template Name/ID | The name and ID of the monitoring template.<br>Hover over the template name or ID and click<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/30765b7b9f768e861fb0968c38556419.png" width="16" alt="">to copy the template name<br>or ID. |
    | Template Type | The type of the monitoring template. |
    | Template Version | The version of the monitoring template.<br>• V1: tianjimon template<br>• V2: tianjimon page access template |
    | Deployment Status | The deployment status of the monitoring template. Four states are available: <strong>Enabled</strong>, <strong>Enabling</strong>, <strong>Failed to take effect</strong>, and <strong>Disabled</strong>.<br>• Enabled: The template has been deployed.<br>• Enabling: The template is being deployed and has not taken effect yet.<br>• Failed to take effect: The template failed to be deployed. For more information, see the Failure Cause column.<br>• Disabled: The template is pending deployment. |
-   | Associated Instances | ![](assets/21055eac40f092c70b637ac1daa02aac.png)<br>If associated instances exist, hover over to view the service instances<br>bound to the current template. Hover over the cluster name and click<img src="assets/30765b7b9f768e861fb0968c38556419.png" width="16" alt="">to<br>copy the cluster name. If no associated service instance exists, the template is not referenced by any service. |
+   | Associated Instances | ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/21055eac40f092c70b637ac1daa02aac.png)<br>If associated instances exist, hover over to view the service instances<br>bound to the current template. Hover over the cluster name and click<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/30765b7b9f768e861fb0968c38556419.png" width="16" alt="">to<br>copy the cluster name. If no associated service instance exists, the template is not referenced by any service. |
    | Enabled At | The time when the template takes effect. |
    | Modified At | The last time when the template was modified. |
    | Modified By | The user who modified the template. |
@@ -2144,11 +2144,11 @@ Alert Templates allows you to manage system templates and custom templates of cl
 
 On the **System Template** tab, select the target template and click **View** in the **Actions** column.
 
-![](assets/54ff2aac3ab1eafa5595c64627415b65.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/54ff2aac3ab1eafa5595c64627415b65.jpeg)
 
 **View Template** dialog box displays the details of the template.
 
-![](assets/afacf51d862b06fcee7ef40ca7bb9171.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/afacf51d862b06fcee7ef40ca7bb9171.jpeg)
 
 **Custom modification**
 
@@ -2164,7 +2164,7 @@ On the **System Template** tab, select the target template and click **View** in
 
   On the **System Template** tab, click **Custom Modification**.
 
-  ![](assets/1f35bbe6a0a3c942c4c2b7f22fadb135.jpeg)
+  ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1f35bbe6a0a3c942c4c2b7f22fadb135.jpeg)
 
   </li>
 
@@ -2176,7 +2176,7 @@ On the **System Template** tab, select the target template and click **View** in
 
   </ol>
 
-  ![](assets/51b85a426dfd19fb71ba594bcff33c48.jpeg)
+  ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/51b85a426dfd19fb71ba594bcff33c48.jpeg)
 
   <ol type="i" start="3">
 
@@ -2190,7 +2190,7 @@ On the **System Template** tab, select the target template and click **View** in
 
   it in the **Custom Template** section.
 
-  ![](assets/b94a1cc1d30acf615fd47548aca22704.jpeg)
+  ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b94a1cc1d30acf615fd47548aca22704.jpeg)
 
 - Method 2
 
@@ -2200,7 +2200,7 @@ On the **System Template** tab, select the target template and click **View** in
 
   On the **System Template** tab, select the target template and click **Custom Modification** in the **Actions** column.
 
-  ![](assets/ea6e251c8c96114f941291784f854bb9.jpeg)
+  ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ea6e251c8c96114f941291784f854bb9.jpeg)
 
   </li>
 
@@ -2214,13 +2214,13 @@ On the **System Template** tab, select the target template and click **View** in
 
   it in the **Custom Template** section.
 
-  ![](assets/b94a1cc1d30acf615fd47548aca22704.jpeg)
+  ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b94a1cc1d30acf615fd47548aca22704.jpeg)
 
 **Retry**
 
 For templates whose deployment status is **Failed to take effect**, you can click **Retry** in the Actions column to redeploy the template.
 
-![](assets/6c86a9d28c42f54d5b7e32613d29d952.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6c86a9d28c42f54d5b7e32613d29d952.jpeg)
 
 **View a historical version**
 
@@ -2232,7 +2232,7 @@ For templates whose deployment status is **Failed to take effect**, you can clic
 
 2. In the **Historical Version** dialog box, click **Compare with Current Version** in the **Actions** column to view the differences between the current version and the historical version of the template.
 
-   ![](assets/f5d07006a6fa20b3cbe27f1c2aca9659.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f5d07006a6fa20b3cbe27f1c2aca9659.jpeg)
 
 3. Click **View** in the **Actions** column to display template information in JSON format.
 
@@ -2248,7 +2248,7 @@ For templates whose deployment status is **Failed to take effect**, you can clic
 
 4. Select the **Custom Template** tab and click **Import Configuration**. In the Upload Plug-in dialog box that appears, upload the template file, and then click **OK**.
 
-   ![](assets/2bf48f3b0f0dab61750942fc217a650c.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2bf48f3b0f0dab61750942fc217a650c.jpeg)
 
    > **Note**
    >
@@ -2262,11 +2262,11 @@ For templates whose deployment status is **Failed to take effect**, you can clic
 
 1. On the **Custom Template** tab, select the target template and click **Modify** in the **Actions** column.
 
-   ![](assets/76ad6679dc00af2387de6c4867a24c00.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/76ad6679dc00af2387de6c4867a24c00.jpeg)
 
 2. Edit the template in the Update Version pane on the right, click **Modify**, and then view the modified template on the **Custom Template** tab.
 
-   ![](assets/b94a1cc1d30acf615fd47548aca22704.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b94a1cc1d30acf615fd47548aca22704.jpeg)
 
 **View previous version**
 
@@ -2276,11 +2276,11 @@ For templates whose deployment status is **Failed to take effect**, you can clic
 
 1. On the **Custom Template** tab, select the target template and click **View Historical Version** in the **Actions** column to view information such as **Template Modified At, Modified By, and Failure Cause**.
 
-   ![](assets/29aa7cefcb44c7b5e99ccb702217862f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/29aa7cefcb44c7b5e99ccb702217862f.jpeg)
 
 2. In the Historical Version dialog box, click **Compare with Current Version** in the **Actions** column to view the differences between the current version and the historical version of the template.
 
-   ![](assets/f5d07006a6fa20b3cbe27f1c2aca9659.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f5d07006a6fa20b3cbe27f1c2aca9659.jpeg)
 
 3. Click **View** in the **Actions** column to display template information in JSON format.
 
@@ -2308,11 +2308,11 @@ This topic describes how to view the alert details of a cloud service, including
 
    - Click **Advanced Filter** to filter alert rules by alert level, monitoring item, rule name, or cluster to obtain the history of an alert.
 
-     ![](assets/d738339e06edf96a7d0927a7c2d8ca02.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d738339e06edf96a7d0927a7c2d8ca02.jpeg)
 
    - In the alert list, find the alert that you want to view and click **View Details** in the **Actions** column. In the panel that appears, view the basic information, alert rules, alert traces, and metric details. You can also specify a time period to filter alerts.
 
-     ![](assets/b44790ef0ce2c98f2c980ca16579ccda.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b44790ef0ce2c98f2c980ca16579ccda.jpeg)
 
    - In the **Alarm Rules** section, click **Rule Editing**. On the Edit Alarm Rules page, modify the alert rule and click **Submit**.
 
@@ -2338,7 +2338,7 @@ The namespace provides basic monitoring metrics and lifecycle management for phy
    >
    > - Supported statuses: No data, Normal, Metric undefined, Detection error.
 
-   ![](assets/754db88d76d68fdeb2fee87ee9e90aee.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/754db88d76d68fdeb2fee87ee9e90aee.jpeg)
 
    You can view the following information about each metric: **Metric Name**, **dimensions**, **Field**, **Metric Category**, **Metric Attribution**, **Collection Granularity**, and **Status**.
 
@@ -2350,7 +2350,7 @@ The namespace provides basic monitoring metrics and lifecycle management for phy
    >
    > The system retains monitoring metric data for up to 730 days.
 
-   ![](assets/d31908ac2f6c8a5f8df1fe9e4b27628b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d31908ac2f6c8a5f8df1fe9e4b27628b.jpeg)
 
    After you complete the configuration, click **OK**.
 
@@ -2377,7 +2377,7 @@ If SLS is not deployed in the current environment, alert data dumping is not sup
    | Destination Project | Enter the destination organization for alert data dump. The required resources will be created under this organization. If a resource with the same name already exists, ensure that the selected organization has taccess permissions to the resource. |
    | Destination Logstore | Enter the destination Logstore for alert data dump. The required resources will be created under this resource set. |
 
-   ![](assets/ed8172f1a152cfcd5b10192fa2542751.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ed8172f1a152cfcd5b10192fa2542751.jpeg)
 
 **More operations**
 
@@ -2416,7 +2416,7 @@ The API monitoring dashboard allows you to monitor the metrics for APIs register
    >
    >   icon above the list to set the automatic refresh interval or
    >
-   >   <img src="assets/c4002acd658bdd31a37c743a116cb640.png" width="22" alt="">
+   >   <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c4002acd658bdd31a37c743a116cb640.png" width="22" alt="">
    >
    >   perform manual refresh.
 
@@ -2548,7 +2548,7 @@ View and manage alarm rules and alert history for cloud product API monitoring.
 
    For example, if you set **Channel Silence Period** to **12 hours**, and the metric remains above the threshlod after this period, the system will trigger another alert.
 
-   ![](assets/31666a1b6a201d9c869a357fc9cf49f6.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/31666a1b6a201d9c869a357fc9cf49f6.jpeg)
 
 5. Click **Submit**.
 
@@ -2564,7 +2564,7 @@ On the API Alarm page, view the following information about alarm rules: **Rule 
 >
 > - Hover over the information in the **Rule Description** column. A pop-up window appears and displays the complete rule description.
 
-![](assets/8307f834ffdbb4eff743d14ccd83a79b.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8307f834ffdbb4eff743d14ccd83a79b.jpeg)
 
 **Modify an alarm rule**
 
@@ -2600,7 +2600,7 @@ Disable an alarm rule when you temporarily do not need to monitor indicators con
 >
 > Before disabling an alarm rule, make sure that its **Rule Status** is **Enabled**.
 
-1. On the **API Alarm** page, click <img src="assets/26a093f317f7b8174b788e1e830dba69.png" width="22" alt=""> in the Actions column of the target alarm rule and choose
+1. On the **API Alarm** page, click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/26a093f317f7b8174b788e1e830dba69.png" width="22" alt=""> in the Actions column of the target alarm rule and choose
 
    **Disable**.
 
@@ -2628,7 +2628,7 @@ Delete the alarm rule when you no longer need it.
 >
 > This operation cannot be undone. Proceed with caution.
 
-1. On the **API Alarm** page, click <img src="assets/26a093f317f7b8174b788e1e830dba69.png" width="22" alt=""> in the Actions column of the target alarm rule and choose
+1. On the **API Alarm** page, click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/26a093f317f7b8174b788e1e830dba69.png" width="22" alt=""> in the Actions column of the target alarm rule and choose
 
    **Delete**.
 
@@ -2674,7 +2674,7 @@ This topic describes how to configure WatchDog when you use WatchDog for the fir
      <tr>
        <td>LVS Cluster IP Mapping</td>
        <td>Yes</td>
-       <td>Enter the mgt in-band IP address. You can perform the following steps to query the mgt in-band IP address:<br>Note<br>The Linux Virtual Server (LVS) IP address is a required parameter for detecting an LVS cluster. If you do not specify this parameter, LVS cluster detection does not take effect.<br>i. Log on to the Apsara Infrastructure Management console. On the <strong>Product &amp; Cluster O&amp;M</strong> page, search for SLB clusters. Find the slbCluster-A-xxx cluster, and click <strong>Cluster Details</strong> in the Actions column.<br>ii. On the <strong>Services</strong> tab, find slb-lvs and click <strong>Details</strong> in the <strong>Actions</strong> column. On the page that appears, find the SlbLvs# server and click <strong>Terminal</strong> in the <strong>Actions</strong> column to log on to the server.<br>iii. Run the <code> ifconfig bond0 </code> command to obtain the in-band IP address, as shown in the following screenshot.<br><img src="assets/8a0ec5817324c17ffae3a1531a817bd8.jpeg" alt=""><br>iv. Run the <code> ifconfig lo:mgt </code> command to obtain the in-band IP address, as shown in the following figure. Now, a mapping between an in-band IP address and mgtIp is obtained.<br><img src="assets/6fd6c712e48138c45ca18368aa81d419.jpeg" alt=""><br>v. Log on to another server and repeat steps c to d to obtain another mapping between an in-band IP address and mgtIp.</td>
+       <td>Enter the mgt in-band IP address. You can perform the following steps to query the mgt in-band IP address:<br>Note<br>The Linux Virtual Server (LVS) IP address is a required parameter for detecting an LVS cluster. If you do not specify this parameter, LVS cluster detection does not take effect.<br>i. Log on to the Apsara Infrastructure Management console. On the <strong>Product &amp; Cluster O&amp;M</strong> page, search for SLB clusters. Find the slbCluster-A-xxx cluster, and click <strong>Cluster Details</strong> in the Actions column.<br>ii. On the <strong>Services</strong> tab, find slb-lvs and click <strong>Details</strong> in the <strong>Actions</strong> column. On the page that appears, find the SlbLvs# server and click <strong>Terminal</strong> in the <strong>Actions</strong> column to log on to the server.<br>iii. Run the <code> ifconfig bond0 </code> command to obtain the in-band IP address, as shown in the following screenshot.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8a0ec5817324c17ffae3a1531a817bd8.jpeg" alt=""><br>iv. Run the <code> ifconfig lo:mgt </code> command to obtain the in-band IP address, as shown in the following figure. Now, a mapping between an in-band IP address and mgtIp is obtained.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6fd6c712e48138c45ca18368aa81d419.jpeg" alt=""><br>v. Log on to another server and repeat steps c to d to obtain another mapping between an in-band IP address and mgtIp.</td>
      </tr>
    </table>
 
@@ -2699,7 +2699,7 @@ This topic describes how to configure WatchDog when you use WatchDog for the fir
      <tr>
        <td>JAR Program Sending Configuration</td>
        <td>Yes</td>
-       <td>i. The IP address of the deployed out-of-band network.<br>ii. Click <strong>Download JAR Program</strong> to upload the downloaded JAR package to the out-of-band network.<br>iii. Run the <code> java -jar projectA-0.0.1-SNAPSHOT.jar </code> command to execute the JAR package. Normal log output indicates that the service starts normally.<br><img src="assets/6f0f0ad40fccb8c95ac122f0e2e19237.jpeg" alt=""><br>iv. After the service is started, click <strong>Test</strong> in the JAR Program Sending Configuration section of the Edit WatchDog Configuration panel.</td>
+       <td>i. The IP address of the deployed out-of-band network.<br>ii. Click <strong>Download JAR Program</strong> to upload the downloaded JAR package to the out-of-band network.<br>iii. Run the <code> java -jar projectA-0.0.1-SNAPSHOT.jar </code> command to execute the JAR package. Normal log output indicates that the service starts normally.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6f0f0ad40fccb8c95ac122f0e2e19237.jpeg" alt=""><br>iv. After the service is started, click <strong>Test</strong> in the JAR Program Sending Configuration section of the Edit WatchDog Configuration panel.</td>
      </tr>
      <tr>
        <td>Alert Notification Configuration</td>
@@ -2964,19 +2964,19 @@ Server monitoring provides the status of CPU, memory, and server sensors (fans, 
 
 On the **Server Monitoring** page, click **Export** to export full server information as a .json file.
 
-![](assets/a595ff87ac4877cdb4f4439b517386d8.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a595ff87ac4877cdb4f4439b517386d8.jpeg)
 
 **Filter servers**
 
 On the **Server Monitoring** page, filter target servers by **Hostname**, **OS Status**, **Model**, **Cloud Service**, **OS**, **IDC**, **Manufacturer**, **Private Room**, **Rack**, **Sever Position**, **CPU Type**, or **Server Model**.
 
-![](assets/b5a4b884d3e52c79f97a41856e7046a7.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b5a4b884d3e52c79f97a41856e7046a7.jpeg)
 
 **View server details**
 
 1. On the **Server Monitoring** page, view the maximum, minimum, and average utilization for CPU, memory, and disk of each server.
 
-   ![](assets/fc193e8e6019e251a064b2147c73cd04.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/fc193e8e6019e251a064b2147c73cd04.jpeg)
 
 2. On the **Server Monitoring** page, select a target server and click **Details** in the **Actions** column to view detailed server information.
 
@@ -2984,19 +2984,19 @@ On the **Server Monitoring** page, filter target servers by **Hostname**, **OS S
 
      This section displays IP, Zone, Cluster, Manufacturer, Data Center, Model, Private Room, Server Model, Rack, Server Position, SN, CPU Manufacturer, Kernel Version, MAC, CPU Utilization, Memory Utilization, and Health Status.
 
-     ![](assets/d8a7d50a9feab57b2f73af3d749ecba0.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d8a7d50a9feab57b2f73af3d749ecba0.jpeg)
 
    - Monitoring
 
      This tab displays Server Status and Monitoring View.
 
-     ![](assets/8553f3d4898075ed84d25af5493780b3.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8553f3d4898075ed84d25af5493780b3.jpeg)
 
    - Configuration
 
      This tab displays detailed information about CPU, Memory, Storage, NIC, GPU, Motherboard, BIOS, BMC, OS, Power Supply, and Fan.
 
-     ![](assets/4f9f9df35535862b485a12f72de9937d.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4f9f9df35535862b485a12f72de9937d.jpeg)
 
    - Energy Consumption
 
@@ -3022,7 +3022,7 @@ The Overview page displays the key metrics of network services to help users kee
 
 4. View the network dashboard.
 
-   ![](assets/1307ca92b9636f1ff52a90078efaff36.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1307ca92b9636f1ff52a90078efaff36.jpeg)
 
    - **Alert Overview**
 
@@ -3033,7 +3033,7 @@ The Overview page displays the key metrics of network services to help users kee
      <table>
        <tr>
          <td>Port Overview</td>
-         <td>• <strong>Port Usage</strong>: displays the port usage of network devices.<br>In the upper-right corner, click <strong>View Details</strong>. In the <strong>Port Usage</strong> <strong>Details</strong> dialog box, you can view the list of alerts. The port usage details include <strong>Device Role</strong>, <strong>Device Name</strong>, <strong>IP Address</strong>, <strong>Usage (%)</strong>, <strong>Device Status</strong>, <strong>Total Ports</strong>, and <strong>Used Ports</strong>.<br><img src="assets/2fb9cf4ba9a475462d8968105d1cb789.jpeg" alt=""><br>• <strong>Health Distribution of Optical Modules:</strong> displays the distribution of optical transceiver modules on the current day.<br>• <strong>Abnormal Optical Modules</strong>: displays information about optical transceiver modules in the <strong>Exception</strong> state by default. The information includes <strong>Hostname</strong>, <strong>Interface name</strong>, <strong>Ownership Type</strong>, <strong>Manufacturer</strong>, <strong>Model</strong>, <strong>Status</strong>, <strong>Failure probability</strong>, <strong>Expected</strong> <strong>residual life</strong>, and <strong>Intelligent analysis results</strong>.<br>Click <strong>View Details</strong> in the upper-right corner. Then, you can view information about abnormal optical transceiver modules in the <strong>Abnormal Optical Modules</strong> dialog box.<br>• <strong>Advanced Filter</strong>: You can search for optical transceiver modules based on a combination of <strong>Optical module model</strong>, <strong>Optical</strong> <strong>module manufacturer, Optical module status, Hostname</strong>, <strong>Interface name</strong>, and <strong>Device type</strong>.<br>• Find the optical transceiver module that you want to view and click <strong>Details</strong> in the <strong>Actions</strong> column. Then, you are redirected to the <strong>Network Operations Console</strong> &gt; <strong>Intelligent Diagnostics</strong> &gt; <strong>Optical Module Diagnostics</strong> page. You can view the detailed information about the optical transceiver module on the <strong>Optical</strong> <strong>Module Prediction Details</strong> page.</td>
+         <td>• <strong>Port Usage</strong>: displays the port usage of network devices.<br>In the upper-right corner, click <strong>View Details</strong>. In the <strong>Port Usage</strong> <strong>Details</strong> dialog box, you can view the list of alerts. The port usage details include <strong>Device Role</strong>, <strong>Device Name</strong>, <strong>IP Address</strong>, <strong>Usage (%)</strong>, <strong>Device Status</strong>, <strong>Total Ports</strong>, and <strong>Used Ports</strong>.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2fb9cf4ba9a475462d8968105d1cb789.jpeg" alt=""><br>• <strong>Health Distribution of Optical Modules:</strong> displays the distribution of optical transceiver modules on the current day.<br>• <strong>Abnormal Optical Modules</strong>: displays information about optical transceiver modules in the <strong>Exception</strong> state by default. The information includes <strong>Hostname</strong>, <strong>Interface name</strong>, <strong>Ownership Type</strong>, <strong>Manufacturer</strong>, <strong>Model</strong>, <strong>Status</strong>, <strong>Failure probability</strong>, <strong>Expected</strong> <strong>residual life</strong>, and <strong>Intelligent analysis results</strong>.<br>Click <strong>View Details</strong> in the upper-right corner. Then, you can view information about abnormal optical transceiver modules in the <strong>Abnormal Optical Modules</strong> dialog box.<br>• <strong>Advanced Filter</strong>: You can search for optical transceiver modules based on a combination of <strong>Optical module model</strong>, <strong>Optical</strong> <strong>module manufacturer, Optical module status, Hostname</strong>, <strong>Interface name</strong>, and <strong>Device type</strong>.<br>• Find the optical transceiver module that you want to view and click <strong>Details</strong> in the <strong>Actions</strong> column. Then, you are redirected to the <strong>Network Operations Console</strong> &gt; <strong>Intelligent Diagnostics</strong> &gt; <strong>Optical Module Diagnostics</strong> page. You can view the detailed information about the optical transceiver module on the <strong>Optical</strong> <strong>Module Prediction Details</strong> page.</td>
        </tr>
        <tr>
          <td>Traffic Dashboard</td>
@@ -3104,11 +3104,11 @@ Cloud prodcut SLO monitoring provides a one-click switch for availability monito
 
 4. On the **Cloud Product SLO monitoring** page, view **Toatl Prodcuts**, **Total Exception Events**, **Average Availability**, **Total Exception Duration**, and detailed data for each affected product.
 
-   ![](assets/9c992701df71fa5133e6916fc6f67c99.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9c992701df71fa5133e6916fc6f67c99.jpeg)
 
 5. Click a card for an affected cloud product to view the list of exception events.
 
-   ![](assets/db3446bba074bc80560a8be57d0dc4ea.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/db3446bba074bc80560a8be57d0dc4ea.jpeg)
 
    - View **Total Events**, **Critical Events**, **Events in Progress**, and **Resolved Events** generated for the current product.
 
@@ -3154,7 +3154,7 @@ Site monitoring provides preset monitoring tasks. The tasks use black-box contai
      </tr>
    </table>
 
-   ![](assets/523c77febb223795f7a6093ef0b6fe66.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/523c77febb223795f7a6093ef0b6fe66.jpeg)
 
    </li>
 
@@ -3180,7 +3180,7 @@ Site monitoring provides preset monitoring tasks. The tasks use black-box contai
    | Alarm rules | • <strong>Conditional execution</strong>: Select the condition under which the alert is triggered. Valid values: <strong>Meet All</strong> and <strong>Only one item is met</strong>.<br>• <strong>Status Code</strong>: Valid values: <strong>Connectivity</strong>, <strong>Disconnected</strong>, <strong>Completely</strong> <strong>Connected or Any Connected</strong>, and <strong>Completely Disconnected or Any</strong> <strong>Disconnected</strong>.<br>Note<br>The <strong>Completely Connected or Any Connected</strong> and <strong>Completely</strong> <strong>Disconnected or Any Disconnected</strong> options are available only when you set Task type to <strong>BATCH probe</strong>.<br>• <strong>Packet loss rate</strong>: Select a comparison method and enter a threshold. Unit: %.Valid values of the comparison method: <strong>&gt;</strong>, <strong>&gt;=</strong>, <strong>&lt;</strong>, <strong>&lt;=</strong>, <strong>==</strong>, and <strong>!=</strong>.<br>Note<br>If you set Task type to <strong>ICMP probe</strong>, you must configure this parameter.<br>• <strong>Response time</strong>: Select a comparison method and enter a threshold. Unit: seconds. Valid values of the comparison method: <strong>&gt;</strong>, <strong>&gt;=</strong>, <strong>&lt;</strong>, <strong>&lt;=</strong>, <strong>==</strong>, and <strong>!=</strong>. |
    | Alarm description | Enter a description for the alert. |
 
-   ![](assets/c386eefa31a774f60c7c09439ee7498e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c386eefa31a774f60c7c09439ee7498e.jpeg)
 
    <ol type="i" start="3">
 
@@ -3194,7 +3194,7 @@ Site monitoring provides preset monitoring tasks. The tasks use black-box contai
 
    **Associated Services**, **Associated components**, and **Associated cluster** parameters. Then, click **Next Step**. The Associated cluster parameter is optional.
 
-   ![](assets/8379b1f9470dbda6ff91403b269aaf6a.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8379b1f9470dbda6ff91403b269aaf6a.jpeg)
 
    <ol type="i" start="4">
 
@@ -3222,21 +3222,21 @@ After the task is created, you can view the details of the task, including the b
    >
    >   icon above the list to refresh the list.
    >
-   >   <img src="assets/0147ff14601ac0e24cf4bf3b2c0f410a.png" width="21" alt="">
+   >   <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0147ff14601ac0e24cf4bf3b2c0f410a.png" width="21" alt="">
    >
    > - You can click the
    >
    >   icon above the list to adjust its layout between **Default** and
    >
-   >   <img src="assets/ceb3ccb1618e682ee6379a5e01ccc283.png" width="14" alt="">
+   >   <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ceb3ccb1618e682ee6379a5e01ccc283.png" width="14" alt="">
    >
    >   **Compact**.
    >
-   > - You can click the <img src="assets/9d7ffcc561094a7ad4342418be963208.png" width="14" alt=""> icon above the list to select the columns to be displayed. If
+   > - You can click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9d7ffcc561094a7ad4342418be963208.png" width="14" alt=""> icon above the list to select the columns to be displayed. If
    >
    >   you clear a column, the column is not displayed.
 
-   ![](assets/74bc9272cc1dcf558b359caae27c563f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/74bc9272cc1dcf558b359caae27c563f.jpeg)
 
 2. In the task list, click the name of the created task.
 
@@ -3250,15 +3250,15 @@ After the task is created, you can view the details of the task, including the b
      >
      > - You can click **Edit** in the upper-right corner to modify the task. For more information about the related parameters, see Create a site monitoring task.
 
-     ![](assets/e825b0cc5860154568c504bd4223405f.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e825b0cc5860154568c504bd4223405f.jpeg)
 
    - On the **Monitoring Metrics** tab, view the trend chart of metrics. You can switch between **Real-time View**, **View of recent day**, **View of Previous Week**, and **Custom View**.
 
-     ![](assets/12f4fddccb26b9c747791c62f2079b42.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/12f4fddccb26b9c747791c62f2079b42.jpeg)
 
    - On the **Configuration Information** tab, view the information about **HTTP advanced settings** and **Alarm settings**.
 
-     ![](assets/68d5244cfd8f5ec6695c6d3f73d3160e.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/68d5244cfd8f5ec6695c6d3f73d3160e.jpeg)
 
 **Modify a site monitoring task**
 
@@ -3482,7 +3482,7 @@ When a site is running, the system automatically detects the DNS, VIP, and host 
 
 2. In the Site Blacklist panel, you can configure the **Resource Name**, **Resource Type**, **Associated cloud products**, **Associated Services**, **Associated components** and **Associated cluster** to match sites that you want to add to the blacklist. The blacklist displays the **resource name**, **resource**, **resource type**, **time when the site is added to the blacklist**, **associated cloud product**, **associated service**, **associated component**, **associated cluster**, and **blacklist rule**.
 
-   ![](assets/f811123e486dc08a639f29b5021431e0.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f811123e486dc08a639f29b5021431e0.jpeg)
 
 **Remove sites from the blacklist**
 
@@ -3543,7 +3543,7 @@ On Apsara Stack, the instance monitoring feature monitors the status of instance
    | IpPoolId | The ID of the address pool to which the VIP of the SLB instance belongs. |
    | IpPoolCidr | The information about the address pool to which the VIP of the SLB instance belongs. |
 
-   ![](assets/7778b468fad601b91c09d1c89a4cdb37.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7778b468fad601b91c09d1c89a4cdb37.jpeg)
 
 **View monitoring charts**
 
@@ -3553,15 +3553,15 @@ In the instance list, find the instance that you want to view and click **Monito
 
 - In the upper part of the page, you can view the basic information about the instance.
 
-  ![](assets/aa3d06e70fce779f2fb7332c4ce004f5.jpeg)
+  ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/aa3d06e70fce779f2fb7332c4ce004f5.jpeg)
 
 - On the **Instance Monitoring** tab, you can view the monitoring charts of the instance. You can select **15 minutes**, **1 hour**, or **6 hours**. You can also specify a custom time range. You can click the Monitoring Items drop-down list to quickly find the monitoring chart of a required metric.
 
-  ![](assets/2d0c11247aa50c8ff92e277d468f098a.jpeg)
+  ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2d0c11247aa50c8ff92e277d468f098a.jpeg)
 
 - On the **Port** tab, you can view the monitoring chart of a port. You can select **15 minutes**, **1 hour**, or **6 hours**. You can also specify a custom time range. You can click the **Monitoring Items** and **Port** drop-down lists to quickly find the monitoring chart of a required metric and port.
 
-  ![](assets/4a932d676f16ec6213bd6cc8949235d1.jpeg)
+  ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4a932d676f16ec6213bd6cc8949235d1.jpeg)
 
 **Metrics**
 
@@ -3710,7 +3710,7 @@ Cloud instance alerts allow you to configure alert rules for cloud instances and
      </tr>
    </table>
 
-   ![](assets/60794041affbc569e6534cada24eaf48.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/60794041affbc569e6534cada24eaf48.jpeg)
 
 5. Click **Submit**.
 
@@ -3724,7 +3724,7 @@ On the Cloud Instance Alarm page, view the following information about the alert
 >
 > You can click the data in the **Instance Range** column to view the range of resources associated with the alert rule.
 
-![](assets/a790e82a3d060e76ba31412db32d0f6c.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a790e82a3d060e76ba31412db32d0f6c.jpeg)
 
 **Modify an alert rule**
 
@@ -3762,7 +3762,7 @@ If you do not need to monitor a metric, you can disable the corresponding alert 
 
 1. In the list of the **Cloud Instance Alarm** page, find the alert rule that you want to disable
 
-   and click the <img src="assets/26a093f317f7b8174b788e1e830dba69.png" width="22" alt=""> icon in the Operation column.
+   and click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/26a093f317f7b8174b788e1e830dba69.png" width="22" alt=""> icon in the Operation column.
 
 2. Click **Disable**.
 
@@ -3788,7 +3788,7 @@ You can delete an alert rule if you no longer need it.
 
 1. In the list of the **Cloud Instance Alarm** page, find the alert rule that you want to delete
 
-   and click the <img src="assets/26a093f317f7b8174b788e1e830dba69.png" width="22" alt=""> icon in the Operation column.
+   and click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/26a093f317f7b8174b788e1e830dba69.png" width="22" alt=""> icon in the Operation column.
 
 2. Click **Delete**.
 
@@ -3816,7 +3816,7 @@ You have the permissions of the cloud platform monitoring administrator.
 
    In the upper part of the Read/Write Dashboard page, you can select a time period to check data changes.
 
-   ![](assets/5ed02fa1dd1042eada0de37d84e99df7.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5ed02fa1dd1042eada0de37d84e99df7.jpeg)
 
    - **OTS capacity**: displays the following metrics: **Current OTS water level**, **Total QPS**, **Write success rate**, and **Write delay**.
 
@@ -3850,7 +3850,7 @@ You have the permissions of the cloud platform monitoring administrator.
 
 2. In the Throttle control panel, click **Edit** and modify the settings in the Cloud Product Control and **Monitoring indicator blacklist** sections.
 
-   ![](assets/c78b5ef352ceb6e5b7f0e8dfd1f3ef13.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c78b5ef352ceb6e5b7f0e8dfd1f3ef13.jpeg)
 
    - Modify the cloud service control setting
 
@@ -3890,7 +3890,7 @@ You have the permissions of the cloud platform monitoring administrator.
      >
      > - **Project**: the project in the monitoring platform whose metrics you want to add to the metric blacklist. Example: tjm_tianji. After you select a project, the metrics of the project are displayed. Then, you can select a metric based on the current traffic of metrics.
 
-     ![](assets/0ff4ef5e96bba59f69ff5ed10eb4f213.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0ff4ef5e96bba59f69ff5ed10eb4f213.jpeg)
 
      </li>
 
@@ -3941,7 +3941,7 @@ Estimate the capacity that is supported after scale-outs.
    | Volume of Written Cloud Product Data | Select a cloud service.<br>• EMR<br>• ES<br>• Kafka<br>Enter the number of times that the cloud service is expected to be a multiple of the current value in the future. |
    | Additional Volume of Written Data | Enter the additional amount of data to be written. |
 
-   ![](assets/b6158dab1378c5c9453ff18806bd8f96.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b6158dab1378c5c9453ff18806bd8f96.jpeg)
 
 <a id="section-4-1-1-5-2"></a>
 
@@ -4019,7 +4019,7 @@ The system provides the following preset dashboards:
 >
 > You cannot modify the name of a preset directory.
 
-1. On the **Custom Dashboard** page, click <img src="assets/0b9e12712bf2532613c854c05245e221.png" width="14" alt=""> next to the directory.
+1. On the **Custom Dashboard** page, click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0b9e12712bf2532613c854c05245e221.png" width="14" alt=""> next to the directory.
 
 2. In the input box, enter a new directory name.
 
@@ -4035,7 +4035,7 @@ The system provides the following preset dashboards:
 >
 > - If you delete a directory, the system also deletes all dashboards under that directory. Proceed with caution.
 
-1. On the **Custom Dashboard** page, click <img src="assets/297d83915816022576f96fbd717256eb.png" width="18" alt=""> next to the directory.
+1. On the **Custom Dashboard** page, click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/297d83915816022576f96fbd717256eb.png" width="18" alt=""> next to the directory.
 
 2. In the dialog box, click **OK**.
 
@@ -4045,7 +4045,7 @@ The system provides the following preset dashboards:
 
    - Create a dashboard: In the **Create a dashboard** dialog box, set **Dashboard Name**, select a **Dashboard directory**, and then click **OK**.
 
-     ![](assets/f3f36c646ba366aefa0aa05d3389ab6a.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f3f36c646ba366aefa0aa05d3389ab6a.jpeg)
 
    - Import dashboard: In the **Import dashboard** dialog box, configure the following parameters and then click **OK**.
 
@@ -4056,7 +4056,7 @@ The system provides the following preset dashboards:
      | Large disk JSON data | Enter the JSON data of the dashboard.<br>Note<br>The title in JSON will overwrite the dashboard name. |
      | Whether to convert JSON data | You can select <strong>Grafana JSON data, please convert and use</strong>.<br>Note<br>Lossy conversion: Data sources that cannot be mapped are converted to the default data source and data may not be obtained. Some data conversion and chart configurations are not retained and manual configuration is required. |
 
-     ![](assets/1437bd58207693880699898e10e79849.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1437bd58207693880699898e10e79849.jpeg)
 
 2. On the dashboard page, you can create panels and rows.
 
@@ -4110,7 +4110,7 @@ The system provides the following preset dashboards:
 
        - If you select **AsoReportCard** for **Card type**, select server header fields. You can select all fields to display basic server information.
 
-         ![](assets/09f22796f8168f766724f96dc45afd3a.jpeg)
+         ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/09f22796f8168f766724f96dc45afd3a.jpeg)
 
      - **Data Transformation**
 
@@ -4164,7 +4164,7 @@ The system provides the following preset dashboards:
 
      <li>
 
-     Hover over the row container, click <img src="assets/ce823a544dd1b2625a3630cd114904e5.png" width="15" alt=""> , edit the row name, and then click **OK**.
+     Hover over the row container, click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ce823a544dd1b2625a3630cd114904e5.png" width="15" alt=""> , edit the row name, and then click **OK**.
 
      > **Note**
      >
@@ -4172,7 +4172,7 @@ The system provides the following preset dashboards:
      >
      > to delete the row container.
      >
-     > <img src="assets/ac25c33da580545d340a76d5ab450f9d.png" width="16" alt="">
+     > <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ac25c33da580545d340a76d5ab450f9d.png" width="16" alt="">
 
      </li>
 
@@ -4184,7 +4184,7 @@ The system provides the following preset dashboards:
 
    - Drag panels and row containers with your mouse to adjust their positions.
 
-   - Click <img src="assets/3b97fd92a9c8b39a22ba98fd8a08c359.png" width="20" alt=""> in the upper-right corner of a panel to perform operations such as **Edit**, **Copy**,
+   - Click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3b97fd92a9c8b39a22ba98fd8a08c359.png" width="20" alt=""> in the upper-right corner of a panel to perform operations such as **Edit**, **Copy**,
 
      **Delete**, or **View**.
 
@@ -4194,7 +4194,7 @@ The system provides the following preset dashboards:
      >
      > The time range set on the panel editing page applies only during the editing session (allowing you to temporarily preview the panel's data for a different time period). After you return to the dashboard, it uses its global time settings.
 
-   - Click the drop-down list to the right of <img src="assets/6a175f2a59b9d8ea1643014c32a64de3.png" width="18" alt=""> to set the auto-refresh interval for the
+   - Click the drop-down list to the right of <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6a175f2a59b9d8ea1643014c32a64de3.png" width="18" alt=""> to set the auto-refresh interval for the
 
      dashboard.
 
@@ -4202,11 +4202,11 @@ The system provides the following preset dashboards:
      >
      > If you set this to off, auto-refresh is disabled.
 
-   - Click <img src="assets/ba0f571747b6d8b329670a4cfbd4bc83.png" width="21" alt=""> at the top of the dashboard to view or edit the dashboard's **Basic**
+   - Click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ba0f571747b6d8b329670a4cfbd4bc83.png" width="21" alt=""> at the top of the dashboard to view or edit the dashboard's **Basic**
 
      **configuration**, **Variable**, and **JSON Model**.
 
-     ![](assets/665eb116d5778dabe2ae93f81ff61cb6.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/665eb116d5778dabe2ae93f81ff61cb6.jpeg)
 
      - **Basic configuration**
 
@@ -4220,17 +4220,17 @@ The system provides the following preset dashboards:
 
        In the Variable module, you can view, add, edit, copy, or delete variables. After you set variables, you can apply variable filters to panels.
 
-       ![](assets/d38dda762951cb6739c80d8181be8e0d.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d38dda762951cb6739c80d8181be8e0d.jpeg)
 
      - **JSON Model**
 
        JSON Model displays dashboard information in JSON format. You can also edit the dashboard by modifying the JSON. Click **Preview** to preview whether the changes meet
 
-       expectations. If they do, click <img src="assets/3f50aa974ddd7ca33238814d9b279fb7.png" width="19" alt=""> to save the JSON.
+       expectations. If they do, click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3f50aa974ddd7ca33238814d9b279fb7.png" width="19" alt=""> to save the JSON.
 
    - At the top of the dashboard, select a variable to apply filters to all cards.
 
-4. Click <img src="assets/3f50aa974ddd7ca33238814d9b279fb7.png" width="19" alt=""> to save the dashboard. The dashboard is now created.
+4. Click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3f50aa974ddd7ca33238814d9b279fb7.png" width="19" alt=""> to save the dashboard. The dashboard is now created.
 
 **Modify dashboard content and layout**
 
@@ -4409,7 +4409,7 @@ This topic describes how to manage API data sources for dashboards to facilitate
    | Request URL | Enter the request URL of the data source, such as the domain name or IP address. If a port is available, the URL must contain the port number.<br>Only HTTP is supported. |
    | Headers | Click <strong>Add</strong> and enter a <strong>key</strong> and a <strong>value</strong>. |
 
-   ![](assets/b9fd86f389f4dde3fb22dd5a52c76fe0.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b9fd86f389f4dde3fb22dd5a52c76fe0.jpeg)
 
 **View a data source**
 
@@ -4417,7 +4417,7 @@ This topic describes how to manage API data sources for dashboards to facilitate
 
 In the upper part of the page, enter a data source name in the search box to search for a data source. In the search results, view the information about the data source.
 
-![](assets/b645d7733a07072345d4b26348b7907a.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b645d7733a07072345d4b26348b7907a.jpeg)
 
 **Modify the configurations of a data source**
 
@@ -4459,11 +4459,11 @@ You can extend monitoring capabilities by using custom scripts or executable com
    >
    > ZIP, TAR, and GZ files are supported.
 
-   ![](assets/626720427adf2793288dce600cf37668.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/626720427adf2793288dce600cf37668.jpeg)
 
    After the plug-in is uploaded, the **Unpublish** and **Publish** buttons are dimmed.
 
-   ![](assets/6d255bfdd67e6d2b6dc4945f6664fd42.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6d255bfdd67e6d2b6dc4945f6664fd42.jpeg)
 
 **Test the plug-in**
 
@@ -4507,7 +4507,7 @@ You can extend monitoring capabilities by using custom scripts or executable com
 
 1. In the plug-in list, you can view the **plug-in name**, **plug-in description**, **version number**, **applicable cloud product**, **plug-in type**, **creator**, and **update time**.
 
-   ![](assets/6d255bfdd67e6d2b6dc4945f6664fd42.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6d255bfdd67e6d2b6dc4945f6664fd42.jpeg)
 
 2. In the plug-in list, click the name of the plug-in that you want to manage.
 
@@ -4515,11 +4515,11 @@ You can extend monitoring capabilities by using custom scripts or executable com
 
    - In the upper part of the page, view the basic information about the plug-in, including the **plug-in description**, **version number**, **applicable cloud product**, **plug-in type**, **creator**, and **update time**.
 
-     ![](assets/9bed15464305bb5d5c0ae2725d49368f.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9bed15464305bb5d5c0ae2725d49368f.jpeg)
 
    - On the **Execution History** tab, you can view the execution status of the plug-in, including the **creation time**, **task status**, **script parameters**, **execution environment**, **execution instance**, **execution frequency**, and **average execution duration**.
 
-     ![](assets/d3f60e074188a7472e2f8f0564f4b11c.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d3f60e074188a7472e2f8f0564f4b11c.jpeg)
 
    - Click the **Execute the script** tab to view the scripts that are used by custom script monitoring.
 
@@ -4527,15 +4527,15 @@ You can extend monitoring capabilities by using custom scripts or executable com
 
      - Metrics: You can click **Indicators** to view the **metric name**, **metric aggregation**, **metric description**, **unit**, **cloud products**, **service**, **component**, **extended information**, and **collection cycle**.
 
-       ![](assets/c976f7462444d8bd2611c1a24bdf10f5.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c976f7462444d8bd2611c1a24bdf10f5.jpeg)
 
      - Rule: Click **Rules** to view the **rule name**, **rule description**, **associated metrics**, **alert cycle**, **mute period**, and **rule expression**.
 
-       ![](assets/cdbcc36054b18166bca27eeae96b6310.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cdbcc36054b18166bca27eeae96b6310.jpeg)
 
    - On the **Test History** tab, view the test history of the plug-in, including the **test status**, **start time**, **end time**, **test parameters**, and **test result**.
 
-     ![](assets/9175a356ff409b5af0dbf714e71041f9.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9175a356ff409b5af0dbf714e71041f9.jpeg)
 
 **View the script result**
 
@@ -4545,7 +4545,7 @@ You can extend monitoring capabilities by using custom scripts or executable com
 
    You can switch between **Real-Time View**, **View of recent day**, **View of Previous Week**, and **Custom View**.
 
-   ![](assets/527e55c9819deea744b65b1babe290ed.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/527e55c9819deea744b65b1babe290ed.jpeg)
 
 **Create a script execution task**
 
@@ -4564,7 +4564,7 @@ You can extend monitoring capabilities by using custom scripts or executable com
    | Timeout period | The script execution task times out if it reaches the specified timeout period. |
    | Execution Environment | By default, <strong>Central execution</strong> is selected.<br>By default, the task runs on the container node of Apsara Infrastructure Management. |
 
-   ![](assets/8ac736983600e133864696e545687949.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8ac736983600e133864696e545687949.jpeg)
 
 **Enable a script execution task**
 
@@ -4626,7 +4626,7 @@ This topic describes how to view the cloud service performance baseline dashboar
    >
    >   icon in the upper-right corner and
    >
-   >   <img src="assets/6a175f2a59b9d8ea1643014c32a64de3.png" width="18" alt="">
+   >   <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6a175f2a59b9d8ea1643014c32a64de3.png" width="18" alt="">
    >
    >   select a refresh interval for the dashboard from the drop-down list. If you select off, automatic refresh is disabled for the dashboard.
    >
@@ -4634,7 +4634,7 @@ This topic describes how to view the cloud service performance baseline dashboar
    >
    >   icon in the upper-right corner. In the Settings panel, view the **basic**
    >
-   >   <img src="assets/cc5915be06867e8d9eef0a4737aae828.png" width="20" alt="">
+   >   <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cc5915be06867e8d9eef0a4737aae828.png" width="20" alt="">
    >
    >   **configurations**, **variables**, and **JSON mode** of the dashboard.
    >
@@ -4642,11 +4642,11 @@ This topic describes how to view the cloud service performance baseline dashboar
    >
    >   icon in the upper-right corner of the card and click **View** to view the
    >
-   >   <img src="assets/365e34a8b071c8a99f728d99909c9dfc.png" width="21" alt="">
+   >   <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/365e34a8b071c8a99f728d99909c9dfc.png" width="21" alt="">
    >
    >   information about the card.
 
-   ![](assets/c7dbb64670f72ebf288744333594bf8e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c7dbb64670f72ebf288744333594bf8e.jpeg)
 
 <a id="section-4-1-3"></a>
 
@@ -4684,7 +4684,7 @@ You have obtained the permissions of the cloud platform monitoring administrator
    >
    > The data on the cloud platform dashboard is automatically refreshed every 1 minute.
 
-   ![](assets/7281ac340d4189e833936eaaa17b8871.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7281ac340d4189e833936eaaa17b8871.jpeg)
 
    - In the upper-right corner of the cloud platform dashboard, view the current time.
 
@@ -4813,7 +4813,7 @@ System administrator permissions are granted.
 
 3. The Alert Overview page consists of the following five sections that analyze and collect statistics on alert information from different perspectives.
 
-   ![](assets/6a032e6de4896f3e1b11278cea30af1b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6a032e6de4896f3e1b11278cea30af1b.jpeg)
 
    - The **Alerts for Regions** section shows the number of alerts by level for each region.
 
@@ -4873,13 +4873,13 @@ You have obtained system administrator permissions.
    >
    > - The alert list supports sorting by **Alert Level** or **Last Alert Time/Duration**.
    >
-   > - Click <img src="assets/97923b0c81f333722244e721b5f48da5.png" width="14" alt=""> to set the auto-refresh interval for the alert list. Manual refresh is also
+   > - Click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/97923b0c81f333722244e721b5f48da5.png" width="14" alt=""> to set the auto-refresh interval for the alert list. Manual refresh is also
    >
    >   supported.
    >
-   > - Click <img src="assets/0649f5d963c46601c4e13bf1496cdc18.png" width="14" alt=""> to configure custom list items.
+   > - Click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0649f5d963c46601c4e13bf1496cdc18.png" width="14" alt=""> to configure custom list items.
 
-   ![](assets/3b1fc03c0efd37edd7dd6a24f432e5e6.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3b1fc03c0efd37edd7dd6a24f432e5e6.jpeg)
 
 4. Above the list, search by **Resource Owner** or alert keywords. Keywords cover alert item ID, alert information, and extended attribute keywords. Alternatively, click **Advanced Filter** to combine filters based on **Alert Item ID**, , **Alert Start Time**, **Alert Level**, **Alert Status**, **Alert Source**, **Object Type**, **Alert Object Name**, **Status**, and **Alert Attributes** to retrieve target alert data.
 
@@ -4891,11 +4891,11 @@ You have obtained system administrator permissions.
 
 5. Click the **Alert Item ID** of the target alert to go to the Alert Details page to obtain alert details.
 
-   ![](assets/8f4b810650c04d2fa45c0eb2abf97a3d.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8f4b810650c04d2fa45c0eb2abf97a3d.jpeg)
 
    - Perform the following operations in the upper-right corner of the page.
 
-     - Click <img src="assets/197d39e8e37e221d201f114eb2fba6a3.png" width="13" alt=""> to copy the link to the alert details.
+     - Click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/197d39e8e37e221d201f114eb2fba6a3.png" width="13" alt=""> to copy the link to the alert details.
 
      - Click **Event Details** to go to the related Event Details page. For more information, see Event list.
 
@@ -4981,7 +4981,7 @@ You have deployed SLS and configured data dump. For more information about how t
    >
    > You can sort the alert list by **Alert Level** or **Last Alert Time/Duration**.
 
-   ![](assets/c9d1da839aeae36151e036525dd28889.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c9d1da839aeae36151e036525dd28889.jpeg)
 
 2. Above the list, search by **Resource Owner**. Alternatively, click **Advanced Filter** to combine filters based on **Alert Item ID**, **Alert Start Time**, **Alert Level**, **Alert Source**, **Object Type**, **Alert Object Name**, and **Alert Attributes** to retrieve target alert data.
 
@@ -4995,7 +4995,7 @@ You have deployed SLS and configured data dump. For more information about how t
    >
    > Hover your mouse over **Details** under **Alert Details**. The system displays the detailed alert information.
 
-   ![](assets/cd3ff91ccedf78577694868a21ce3b87.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cd3ff91ccedf78577694868a21ce3b87.jpeg)
 
 4. At the top of the page, click **Export Report** to export the alert report as a table.
 
@@ -5030,17 +5030,17 @@ You can view the existing monitoring templates in the service baselines supporte
    | Parameter | Description |
    | --- | --- |
    | Service Name | The service configured with the monitoring template. The monitoring template configuration takes effect on the specified service. |
-   | Template Name/ID | The name and ID of the monitoring template.<br>Move the pointer over the template name or ID and click the<img src="assets/30765b7b9f768e861fb0968c38556419.png" width="16" alt="">icon to copy<br>the template name or ID. |
+   | Template Name/ID | The name and ID of the monitoring template.<br>Move the pointer over the template name or ID and click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/30765b7b9f768e861fb0968c38556419.png" width="16" alt="">icon to copy<br>the template name or ID. |
    | Template Type | The type of the monitoring template. |
    | Template Version | The version of the monitoring template. Valid values:<br>• V1: Apsara Infrastructure Management template template<br>• V2: built-in Apsara Infrastructure Management template |
    | Deployment Status | The deployment status of the monitoring template. Valid values: <strong>Enabled</strong>, <strong>Enabling</strong>, <strong>Failed to take effect</strong>, and <strong>Disabled</strong>.<br>• Enabled: The template is deployed.<br>• Enabling: The template is being deployed and does not take effect.<br>• Failed to take effect: The template deployment failed to be deployed. You can view the reason in the Failure Reason column.<br>• Disabled: The template deployment is pending. |
-   | Associated Instance | If the template is associated with an instance, move the pointer over the<br>![](assets/21055eac40f092c70b637ac1daa02aac.png)<br>icon to view the specific instance that is associated with the current<br>template. Move the pointer over the right side of the cluster name and click<br>the<img src="assets/30765b7b9f768e861fb0968c38556419.png" width="16" alt="">icon to copy the cluster name. If no instances are associated with the<br>template, the template is not referenced by a service. |
+   | Associated Instance | If the template is associated with an instance, move the pointer over the<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/21055eac40f092c70b637ac1daa02aac.png)<br>icon to view the specific instance that is associated with the current<br>template. Move the pointer over the right side of the cluster name and click<br>the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/30765b7b9f768e861fb0968c38556419.png" width="16" alt="">icon to copy the cluster name. If no instances are associated with the<br>template, the template is not referenced by a service. |
    | Enabled At | The time when the template takes effect. |
    | Modified At | The last time when the template was modified. |
    | Modified By | The person who modified the template. |
    | Failure Reason | The reason why the template failed to be deployed.<br>You can click the information in the <strong>Failure Reason</strong> column and view the details in the message that appears. |
 
-   ![](assets/547b083840f4f823a46f728dee8f1c86.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/547b083840f4f823a46f728dee8f1c86.jpeg)
 
 **Import template configurations**
 
@@ -5054,7 +5054,7 @@ You can view the existing monitoring templates in the service baselines supporte
    >
    > You can import only ZIP files.
 
-   ![](assets/908b40966acc1832e3215e12714b8551.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/908b40966acc1832e3215e12714b8551.jpeg)
 
 **Retry a monitoring template**
 
@@ -5102,7 +5102,7 @@ You can modify the settings of an alert rule, including the status and triggerin
    | Rule Effectiveness | The status of the alert rule. Valid values: <strong>Effective</strong>, <strong>Ineffective</strong>, and <strong>Verifying</strong>.<br>• <strong>Effective</strong>: An alert is created and the source metric data is queried.<br>• <strong>Ineffective</strong>: An alert is created, but the source metric data is empty.<br>• <strong>Verifying</strong>: An alert is created and the source data is being queried. |
    | Enabled | Indicates whether the alert rule is enabled. Valid values: <strong>Enabled</strong> and <strong>Disabled</strong>. |
 
-   ![](assets/1f0030e9d25d015de8bd6e0ee1bdd53b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1f0030e9d25d015de8bd6e0ee1bdd53b.jpeg)
 
 **Export an alert rule**
 
@@ -5131,7 +5131,7 @@ You can modify the settings of an alert rule, including the status and triggerin
    >
    > After you modify the rule, the verification takes 3 to 5 minutes. Refresh the list to check whether the rule has taken effect.
 
-   ![](assets/75a0a84c64e8519beba3708376df8f49.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/75a0a84c64e8519beba3708376df8f49.jpeg)
 
 <a id="section-4-2-4"></a>
 
@@ -5186,7 +5186,7 @@ You can query, add, modify, or delete alert contacts based on your business requ
      | DingTalk ID | The DingTalk ID of the alert contact. |
      | Email Address | The email address of the alert contact. |
 
-     ![](assets/237c3d75fe0d93143f42c0db7fba48be.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/237c3d75fe0d93143f42c0db7fba48be.jpeg)
 
    - Modify an alert contact
 
@@ -5230,7 +5230,7 @@ Alert contacts are created.
      | Description | The description of the alert contact group. |
      | Select Contact | The contacts to be added to the contact group. |
 
-     ![](assets/28c2f5f709917370d6700733fc911c42.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/28c2f5f709917370d6700733fc911c42.jpeg)
 
    - Modify an alert contact group
 
@@ -5266,7 +5266,7 @@ By default, alert data is stored for seven days due to the specifications of the
    | Retention Period | The retention period of the alert data of a product. By default, alert data is stored for seven days.<br>Valid values: 7 to 30. |
    | Maximum Data Volume | The maximum alert data size of a product. Up to 300,000 rows of alert data can be stored for a single product. If the alert data size exceeds the upper limit, the data of the earliest day is cleared by default. |
 
-   ![](assets/93178f63793f163ed10d4155950f4570.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/93178f63793f163ed10d4155950f4570.jpeg)
 
 **Related operations**
 
@@ -5274,7 +5274,7 @@ By default, alert data is stored for seven days due to the specifications of the
 | --- | --- |
 | Modify the alert data configuration of a product | 1. On the Alert Data TTL tab of the Strategic Management page, find the alert data configuration of the product and click <strong>Modify</strong> in the <strong>Actions</strong> column.<br>2. In the dialog box that appears, modify the parameters and click <strong>OK</strong>. |
 | Delete the alert data configuration of a product | 1. On the Alert Data TTL tab of the Strategic Management page, find the alert data configuration of the product and click <strong>Delete</strong> in the <strong>Actions</strong> column.<br>2. In the message that appears, click <strong>OK</strong>. |
-| View the change history of the alert data configuration of a product | 1. On the Alert Data TTL tab of the Strategic Management page, find the alert data configuration of the product and click <strong>Modify Record</strong> in the <strong>Actions</strong> column.<br>2. In the dialog box that appears, view the change history of the alert data configuration of the product, including <strong>Product Name</strong>, <strong>Retention Period (Days)</strong>, <strong>Maximum Data Volume</strong>, <strong>Action Type</strong>, <strong>Operated By</strong>, and <strong>Modified At</strong>.<br>![](assets/9f8f894aa570c893ecb3031cb3cb29be.jpeg) |
+| View the change history of the alert data configuration of a product | 1. On the Alert Data TTL tab of the Strategic Management page, find the alert data configuration of the product and click <strong>Modify Record</strong> in the <strong>Actions</strong> column.<br>2. In the dialog box that appears, view the change history of the alert data configuration of the product, including <strong>Product Name</strong>, <strong>Retention Period (Days)</strong>, <strong>Maximum Data Volume</strong>, <strong>Action Type</strong>, <strong>Operated By</strong>, and <strong>Modified At</strong>.<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9f8f894aa570c893ecb3031cb3cb29be.jpeg) |
 
 **Dump data**
 
@@ -5301,7 +5301,7 @@ If Simple Log Service is not deployed in the current environment, alert data can
    | Organization | The destination organization to which you want to dump the alert data.The required resources such as Simple Log Service projects are created in this organization. If a resource with the same name already exists, make sure that the selected organization is granted the necessary permissions to access the resource. |
    | Resource Set | The destination resource set to which you want to dump the alert data.The required resources such as Simple Log Service projects are created in this resource set. |
 
-   ![](assets/cd500b2b36dfb6bd1b38fe993d0ed3ee.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cd500b2b36dfb6bd1b38fe993d0ed3ee.jpeg)
 
 **Related operations**
 
@@ -5319,7 +5319,7 @@ If Simple Log Service is not deployed in the current environment, alert data can
   </tr>
   <tr>
     <td>Check availability</td>
-    <td>1. In the <strong>Basic Settings</strong> section of the Alert Data TTL tab, click <strong>Availability Check</strong> next to <strong>Data Dump</strong>.<br>2. After the check is complete, view the availability check result in the message that appears.<br><img src="assets/91720b3706613e25d2da2e789c637292.jpeg" alt=""></td>
+    <td>1. In the <strong>Basic Settings</strong> section of the Alert Data TTL tab, click <strong>Availability Check</strong> next to <strong>Data Dump</strong>.<br>2. After the check is complete, view the availability check result in the message that appears.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/91720b3706613e25d2da2e789c637292.jpeg" alt=""></td>
   </tr>
 </table>
 
@@ -5339,7 +5339,7 @@ For Ant Financial Service products that are deployed on the PaaS platform, you c
 
 4. In the upper-left corner of the page that appears, select a service from the **Service** drop-down list. You can view detailed information about the service in the lower part of the page. Then, click the template in the Associated Template column to view detailed information about the template.
 
-   ![](assets/b3f8dadc933a74fee9e49d9e6a8ebb4f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b3f8dadc933a74fee9e49d9e6a8ebb4f.jpeg)
 
 5. Download alert templates.
 
@@ -5391,7 +5391,7 @@ The alert notification feature allows you to configure alert notification channe
    | Custom Channel Fields (JSON Format) | The push receiver can use this field to customize an identifier. The field must be in the JSON format. |
    | Push Switch | Specifies whether to push alerts.<br>If you do not turn on the push switch in the Create a subscription dialog box, you can enable the push feature by turning on the switch in the <strong>Push Switch</strong> column after you configure the subscription channel. |
 
-   ![](assets/807d22cc35a272cf249b518c5e0f8988.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/807d22cc35a272cf249b518c5e0f8988.jpeg)
 
 6. After you configure the push channel and turn on the switch, click the **Push** tab to view the push records.
 
@@ -5413,7 +5413,7 @@ The alert notification feature allows you to configure alert notification channe
 
 2. After you enter **Email Address** or **DingTalk**, click **OK** to check the connectivity of the notification channel.
 
-   ![](assets/e8ba613f32b04e6f6c309173e46e034c.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e8ba613f32b04e6f6c309173e46e034c.jpeg)
 
    > **Note**
    >
@@ -5456,7 +5456,7 @@ The permissions on the alert muting menu are obtained.
    | Effective time | Select the time when the custom muting policy takes effect. Valid values:<br>• Specified time<br>• Cycle time<br>• Permanent time |
    | Time range | This parameter takes effect only when you set the <strong>Effective time</strong> parameter to <strong>Specified time</strong> or <strong>Cycle time</strong>.<br>Select a time range during which the custom muting policy remains valid. |
 
-   ![](assets/999867edc179e50aef1419af1a3b0474.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/999867edc179e50aef1419af1a3b0474.jpeg)
 
 **What to do next**
 
@@ -5466,7 +5466,7 @@ The permissions on the alert muting menu are obtained.
 <table>
   <tr>
     <td>View custom muting policies</td>
-    <td>1. View the custom muting policies that you have created in the policy list.The list displays the following parameters: <strong>Policy name</strong>, <strong>Policy</strong> <strong>description</strong>, <strong>Shielding reason</strong>, <strong>Effective status</strong>, <strong>Founder</strong>, <strong>Effective</strong> <strong>time</strong>, <strong>Last modified time</strong>, and <strong>Rule source</strong>.<br>2. Click <strong>Advanced Filter</strong> and filter policies by the following conditions: <strong>Policy</strong> <strong>name</strong>, <strong>Policy description</strong>, <strong>Policy status</strong>, <strong>Founder</strong>, and <strong>Last modified</strong> <strong>time</strong>.<br>3. Click the name of a custom muting policy to view the policy details.<br><img src="assets/51c9193aef6d9ae9d0f07d1bde08556b.jpeg" alt=""></td>
+    <td>1. View the custom muting policies that you have created in the policy list.The list displays the following parameters: <strong>Policy name</strong>, <strong>Policy</strong> <strong>description</strong>, <strong>Shielding reason</strong>, <strong>Effective status</strong>, <strong>Founder</strong>, <strong>Effective</strong> <strong>time</strong>, <strong>Last modified time</strong>, and <strong>Rule source</strong>.<br>2. Click <strong>Advanced Filter</strong> and filter policies by the following conditions: <strong>Policy</strong> <strong>name</strong>, <strong>Policy description</strong>, <strong>Policy status</strong>, <strong>Founder</strong>, and <strong>Last modified</strong> <strong>time</strong>.<br>3. Click the name of a custom muting policy to view the policy details.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/51c9193aef6d9ae9d0f07d1bde08556b.jpeg" alt=""></td>
   </tr>
   <tr>
     <td>Modify a custom muting policy</td>
@@ -5502,7 +5502,7 @@ The permissions on the alert muting menu are obtained.
 
 4. On the **Built-in Shield** tab, view the details of built-in alert muting policies in the following columns: **Resource ownership**, **Service Components**, **Cluster/Machine**, **Alert item ID**, **Alarm Level**, **Alert Source**, **Masking period**, **Effective status**, and **Rule Source**.
 
-   ![](assets/e99be73832a7131b338f27d6c4cd3d8f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e99be73832a7131b338f27d6c4cd3d8f.jpeg)
 
 5. Click **Advanced Filter** and search for policies by **Shielding condition** and **Policy status**.
 
@@ -5536,7 +5536,7 @@ The dynamic muting feature dynamically mutes alerts of Apsara Infrastructure Man
    >
    > If you enable dynamic muting, the system dynamically mutes policies of Apsara Infrastructure Management servers that are in the scaling, maintenance, or O&M state. Proceed with caution. Dynamic alert muting policies will be generated within 1 minute.
 
-   ![](assets/bcfdddc40c643ae6bbb124588bca54d7.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/bcfdddc40c643ae6bbb124588bca54d7.jpeg)
 
 **What to do next**
 
@@ -5546,7 +5546,7 @@ The dynamic muting feature dynamically mutes alerts of Apsara Infrastructure Man
 <table>
   <tr>
     <td>View the details of a dynamic muting policy</td>
-    <td>1. Find the policy that you want to view and click <strong>Details</strong> in the <strong>Operation</strong> column.<br>2. In the Rule Details panel, view information on the <strong>Rule Details</strong> and <strong>Change History</strong> tabs.<br>• The <strong>Rule Details</strong> tab displays information in the <strong>Basic Information</strong>, <strong>Mask Alert ID</strong>, and <strong>Masked Host Range</strong> sections.<br>• The <strong>Change History</strong> tab displays the version changes of the dynamic alert masking policy.<br><img src="assets/e4deb8df5e5076e9e28ec3a4b59c18c4.jpeg" alt=""></td>
+    <td>1. Find the policy that you want to view and click <strong>Details</strong> in the <strong>Operation</strong> column.<br>2. In the Rule Details panel, view information on the <strong>Rule Details</strong> and <strong>Change History</strong> tabs.<br>• The <strong>Rule Details</strong> tab displays information in the <strong>Basic Information</strong>, <strong>Mask Alert ID</strong>, and <strong>Masked Host Range</strong> sections.<br>• The <strong>Change History</strong> tab displays the version changes of the dynamic alert masking policy.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e4deb8df5e5076e9e28ec3a4b59c18c4.jpeg" alt=""></td>
   </tr>
   <tr>
     <td>Enable a dynamic alert muting policy</td>
@@ -5580,7 +5580,7 @@ View the details of the alerts that are muted by alert muting policies.
 
    The alert list displays alert information in the following columns: **Alert Item ID**, **Alert Resource**, **Alert Level**, **Alert Information**, **Resource Attribution**, **Alert Time**, **Alert Source**, and **Trigger Rule**. The Trigger Alert column displays the policies based on which the alert was muted.
 
-   ![](assets/d65fbf56c6a0df853cf561d79dedce76.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d65fbf56c6a0df853cf561d79dedce76.jpeg)
 
 5. Enter an alert keyword above the muted alert list to query alerts. Fuzzy match is supported. You can also click **Advanced Filter** and search for alerts based on the following search conditions: **Alert ID**, **Alert Level**, **Resource Attribution**, **Alert Time**, and **Alert source**.
 
@@ -5608,13 +5608,13 @@ Upload the latest alert list data package. By default, only the most recent data
 
 4. Click or drag a file into the dashed box to upload it. Then click **OK**.
 
-   ![](assets/93ce049efd3fda8cd02b6769084b1d26.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/93ce049efd3fda8cd02b6769084b1d26.jpeg)
 
-5. After the alert inventory is uploaded, click the <img src="assets/fe651019ee3d2a2d308789cff0245a55.png" width="19" alt=""> icon in the upper-right corner of the page
+5. After the alert inventory is uploaded, click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/fe651019ee3d2a2d308789cff0245a55.png" width="19" alt=""> icon in the upper-right corner of the page
 
    to view the change history. The history includes **List Version**, **Operated By**, **Operated At**, **Source**, and **Status**.
 
-   ![](assets/08a593623a5254fe1fc88e9230b2d842.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/08a593623a5254fe1fc88e9230b2d842.jpeg)
 
    > **Note**
    >
@@ -5626,7 +5626,7 @@ Upload the latest alert list data package. By default, only the most recent data
 
    The Alert Inventory page includes the following columns: **Alert Item ID**, **Alert Source**, **Product**, **Service**, **Software**, **Alert Object Type**, and **Stability Metric**.
 
-   ![](assets/b48506e192b0f716c8e35c21159eac31.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b48506e192b0f716c8e35c21159eac31.jpeg)
 
 7. Click **Modify** in the **Actions** column of the target alert item to modify its **Stability Metric**.
 
@@ -5702,7 +5702,7 @@ This topic describes the inspections supported by the system in various scenario
 
 5. Wait for the inspection to complete. The progress is displayed on the page. If you want to terminate the inspection, click **Terminate**. In the message that appears, click **Terminate**.
 
-   ![](assets/c652cebc1e197d5357eafc56575b07c5.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c652cebc1e197d5357eafc56575b07c5.jpeg)
 
 6. After the inspection is complete, view the inspection results.
 
@@ -5712,11 +5712,11 @@ This topic describes the inspections supported by the system in various scenario
 
    - In the **Overview of Inspection Results** section, you can view the inspection results of each inspected service, including the number of errors, number of warnings, and number of passed items. You can click a service to view its inspection result in detail.
 
-     ![](assets/65d489187ddb2460a9f7a78713b2ed67.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/65d489187ddb2460a9f7a78713b2ed67.jpeg)
 
    - In the lower part of the page, you can click **Advanced Filter** to view inspection results by **Inspection Item Type**, **Inspection Status**, **Inspection Item Name**, and **Inspection Item Description**.
 
-     ![](assets/b27a6aa2aa2919dd6bc55ec753a32690.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b27a6aa2aa2919dd6bc55ec753a32690.jpeg)
 
      - Move the pointer over **Inspection Parameters** in the **Actions** column to view the inspection parameters.
 
@@ -5724,7 +5724,7 @@ This topic describes the inspections supported by the system in various scenario
 
      - You can click a number in the **Inspection Result** column of an inspection item to view the result in detail in the dialog box that appears.
 
-       ![](assets/04ad3da1e5b5951fa7847b2560f0b6cd.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/04ad3da1e5b5951fa7847b2560f0b6cd.jpeg)
 
    - You can click **View Report Receiving Email Address** in the upper-right corner to view the email address that receives the inspection report.
 
@@ -5745,7 +5745,7 @@ This topic describes the inspections supported by the system in various scenario
    | Parameter | Description |
    | --- | --- |
    | Email Addresses | Enter the email address that you want to use to receive inspection notifications. You can enter multiple email addresses. Separate the email addresses with semicolons (;). |
-   | Scheduling Rules | Click <strong>Add Inspection Cycle</strong> and set <strong>Inspection Time</strong> and <strong>Inspected At</strong>.<br>Note<br>To delete an effective time period, click the icon.<br><img src="assets/862ec7b835b04977776be4ddb50a9ddf.png" width="20" alt=""> |
+   | Scheduling Rules | Click <strong>Add Inspection Cycle</strong> and set <strong>Inspection Time</strong> and <strong>Inspected At</strong>.<br>Note<br>To delete an effective time period, click the icon.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/862ec7b835b04977776be4ddb50a9ddf.png" width="20" alt=""> |
 
 <a id="section-4-3-2"></a>
 
@@ -5763,7 +5763,7 @@ This topic describes how to view statistics on executed inspection scenarios ove
 
 4. View the statistics. The page consists of the following sections:
 
-   ![](assets/6c1c1221a88c2e1bf3dd9c313c3a112f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6c1c1221a88c2e1bf3dd9c313c3a112f.jpeg)
 
    - **Inspection task statistics**: You can view statistics on executed inspection tasks in different states, including **Running**, **Successful Execution**, and **Execution failed**.
 
@@ -5795,7 +5795,7 @@ This topic describes how to configure custom inspection scenarios and inspection
    | Scenario description | Enter a description for the custom inspection scenario. |
    | Configure inspection items | Select inspection items for the custom inspection scenario. After you select inspection items, the details of the inspection items are displayed in the lower part.<br>• You can move the pointer over <strong>Inspection parameters</strong> in the <strong>Operation</strong> column of an inspection item to view its inspection parameters.<br>• You can move the pointer over <strong>Inspection content</strong> in the <strong>Operation</strong> column of an inspection item to view its inspection content.<br>• You can click <strong>Delete</strong> in the <strong>Operation</strong> column of an inspection item to delete the inspection item. |
 
-   ![](assets/f7b228300bc6b70cc63b5e0e1c2698de.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f7b228300bc6b70cc63b5e0e1c2698de.jpeg)
 
 **Related operations**
 
@@ -5803,7 +5803,7 @@ This topic describes how to configure custom inspection scenarios and inspection
 
 1. Click **Advanced Filter**. Then, you can filter inspection scenarios by **Inspection scenario name**, **Inspection scenario description**, **Preset or not**, and **Creation time**.
 
-   ![](assets/a11746885df87b842b22453aea127f66.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a11746885df87b842b22453aea127f66.jpeg)
 
 2. Click **Details** in the **Operation** column of the desired inspection scenario.
 
@@ -5815,7 +5815,7 @@ This topic describes how to configure custom inspection scenarios and inspection
 
 2. Click **Advanced Filter**. Then, you can filter items by **Inspection item type**, **Inspection item subtype**, **Inspection Method**, **Inspection item name**, **Inspection item description**, and **Preset or not**.
 
-   ![](assets/9eca040a657af27c7c05d4ccd49e1d2b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9eca040a657af27c7c05d4ccd49e1d2b.jpeg)
 
    - You can move the pointer over **Inspection parameters** in the **Operation** column of an inspection item to view its inspection parameters.
 
@@ -5867,7 +5867,7 @@ The Inspection Records page records all inspection operations performed by a use
 
 3. View all inspection records. You can also click **Advanced Filter** to filter inspection records by **Inspection scenario**, **Preset or not**, **Task Status**, **Start execution time**, and **End execution time**.
 
-   ![](assets/70b99d5fe10fea8ebfb068709cdf4bef.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/70b99d5fe10fea8ebfb068709cdf4bef.jpeg)
 
 4. Find the inspection record that you want to view and click **Inspection Report** in the **Operation** column. On the **Inspection Report** page, you can view the detailed inspection report.
 
@@ -5883,11 +5883,11 @@ The Inspection Records page records all inspection operations performed by a use
 
 8. In the **Overview of inspection results completed** section, you can view the inspection results of each inspected service, including the number of errors, number of warnings, and number of passed items. You can click a service to view its inspection result in detail.
 
-   ![](assets/65d489187ddb2460a9f7a78713b2ed67.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/65d489187ddb2460a9f7a78713b2ed67.jpeg)
 
 9. In the lower part of the page, you can click **Advanced Filter** to view inspection results by **Inspection item type**, **Inspection Status**, **Inspection item name**, and **Inspection item description**.
 
-   ![](assets/b27a6aa2aa2919dd6bc55ec753a32690.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b27a6aa2aa2919dd6bc55ec753a32690.jpeg)
 
    - You can move the pointer over **Inspection parameters** in the **Operation** column of an inspection item to view its inspection parameters.
 
@@ -5895,7 +5895,7 @@ The Inspection Records page records all inspection operations performed by a use
 
    - You can click a number in the **Inspection results** column of an inspection item to view the result in detail in the dialog box that appears.
 
-     ![](assets/04ad3da1e5b5951fa7847b2560f0b6cd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/04ad3da1e5b5951fa7847b2560f0b6cd.jpeg)
 
 0. You can click **View report receiving mailbox** in the upper-right corner to view the email address that receives the inspection report.
 
@@ -5925,7 +5925,7 @@ The ANS component is added and a notification channel is configured.
 
 4. In the dialog box that appears, configure the **Token** parameter and click **OK**.
 
-   ![](assets/c19ab4afff22975ba929e9d3e7889eb3.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c19ab4afff22975ba929e9d3e7889eb3.jpeg)
 
 **Related operations**
 
@@ -5963,7 +5963,7 @@ Rule Management allows you to configure auto-recovery rules, trigger conditions,
 
 3. On this page, view the self-healing rule list. The list includes the following columns: **Rule name**, **Trigger Source**, **Rule type**, **Diagnosis plan**, **Recovery plan**, **Execution method**, **Creation time**, and **Status**.
 
-   ![](assets/6b880db33af5ce7d154bd654e17cc6b9.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6b880db33af5ce7d154bd654e17cc6b9.jpeg)
 
 4. Filter the self-healingc rules by combining the following criteria: **Trigger Source**, **Rule type**, **Diagnosis plan**, **Recovery plan**, **Status**, and **Creation time**.
 
@@ -5993,7 +5993,7 @@ Plan Management allows you to create, edit, and manage diagnosis and recovery pl
 
 3. View the plan list, which includes the following columns: **Plan Name**, **Plan Template**, **Plan type**, **Risk level**, **Creation time**, and **Update Time**.
 
-   ![](assets/a2ddf7862ebdd390a144c99433f87466.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a2ddf7862ebdd390a144c99433f87466.jpeg)
 
 4. Filter the plans by combining filters like **Plan Name, Template Name, Plan type,** and **Risk level**.
 
@@ -6013,7 +6013,7 @@ Execution record allows you to view the execution history of self-healing rules 
 
 3. Obtain the execution records of self-healing rules, including **Process ID**, **Self-healing rules**, **Diagnostic status**, **Diagnostic details**, **Disposal status**, **Disposal details**, **Start time**, and **End time**.
 
-   ![](assets/1ab2330d799fcc265783a56913d391ef.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1ab2330d799fcc265783a56913d391ef.jpeg)
 
 4. Filter execution records by combining criteria such as **Process ID, Self-healing rules, Diagnostic status**, **Disposal status**, and **Start time**.
 
@@ -6058,12 +6058,12 @@ Product Diagnosis displays product status and statistics by product in either to
 
    | Mode | Description |
    | --- | --- |
-   | List | ![](assets/bf4b4409690dc89d27cd001829af4f4d.jpeg)<br>• <strong>Product</strong>: This selector helps you quickly locate the target product. After selecting a product, the system displays its list. You can also enable <strong>Display</strong> <strong>Only Abnormal Services</strong>.<br>• The product diagnosis list includes <strong>Cloud Product</strong>, <strong>Cloud Product Code</strong>, <strong>Status</strong>, <strong>L1 Events</strong>, <strong>L2 Events</strong>, <strong>L3 Events</strong>, <strong>Upstream Abnormal Services</strong>, and <strong>Downstream Abnormal Services</strong>.<br>Click the number under an event level to go to the <strong>Events</strong> page for that product.<br>• Click <strong>Details</strong> in the <strong>Actions</strong> column of a product to go to its details page. For more information, see Step 5. |
-   | Topology | ![](assets/0cbe949c414d4ac38879048cfb5252e4.jpeg)<br>• <strong>Service</strong>: This selector helps you quickly locate the target cloud product. After selecting a product, the system highlights it in the product area. You can also enable <strong>Display Only Abnormal Services</strong>.<br>• Click <strong>Legend</strong> to view detailed explanations of product statuses and connection lines in the product area.<br>![](assets/f24f3acdc9b3ad371a808ab3afa9a0d8.jpeg)<br>• Products are organized into four layers from top to bottom:<br>• Layer 1: Cloud management platforms, monitoring, and application management products. This includes Uni-manager/Cloud management, Monitoring operation, Application management, and Others.<br>• Layer 2: PaaS products. This includes Cloud native, Big-data, Database, and Disaster recovery products.<br>• Layer 3: IaaS products. This includes Elastic computing, Networking, Storage, and Security products.<br>• Layer 4: Infrastructure products. These are common components that support the operation of other cloud products.<br>• When you hover over or click a product icon, you can perform the following actions:<br>![](assets/45e551a7a8eb24ef1f04c5aa26806bb1.jpeg)<br>• View the product name, product status, event levels with corresponding counts, and counts of upstream and downstream abnormal services.<br>Note<br>When you click or hover over a product, solid-line connected products are those the current product depends on; dashed-line connected products depend on the current product.<br>• Click <strong>Details</strong> to go to the product details page. For more information, see Step 5.<br>• Click<img src="assets/a1bea34276112277a167519b0ead58fe.png" width="16" alt="">under an event to go to the <strong>Events</strong> page for that product. |
+   | List | ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/bf4b4409690dc89d27cd001829af4f4d.jpeg)<br>• <strong>Product</strong>: This selector helps you quickly locate the target product. After selecting a product, the system displays its list. You can also enable <strong>Display</strong> <strong>Only Abnormal Services</strong>.<br>• The product diagnosis list includes <strong>Cloud Product</strong>, <strong>Cloud Product Code</strong>, <strong>Status</strong>, <strong>L1 Events</strong>, <strong>L2 Events</strong>, <strong>L3 Events</strong>, <strong>Upstream Abnormal Services</strong>, and <strong>Downstream Abnormal Services</strong>.<br>Click the number under an event level to go to the <strong>Events</strong> page for that product.<br>• Click <strong>Details</strong> in the <strong>Actions</strong> column of a product to go to its details page. For more information, see Step 5. |
+   | Topology | ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0cbe949c414d4ac38879048cfb5252e4.jpeg)<br>• <strong>Service</strong>: This selector helps you quickly locate the target cloud product. After selecting a product, the system highlights it in the product area. You can also enable <strong>Display Only Abnormal Services</strong>.<br>• Click <strong>Legend</strong> to view detailed explanations of product statuses and connection lines in the product area.<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f24f3acdc9b3ad371a808ab3afa9a0d8.jpeg)<br>• Products are organized into four layers from top to bottom:<br>• Layer 1: Cloud management platforms, monitoring, and application management products. This includes Uni-manager/Cloud management, Monitoring operation, Application management, and Others.<br>• Layer 2: PaaS products. This includes Cloud native, Big-data, Database, and Disaster recovery products.<br>• Layer 3: IaaS products. This includes Elastic computing, Networking, Storage, and Security products.<br>• Layer 4: Infrastructure products. These are common components that support the operation of other cloud products.<br>• When you hover over or click a product icon, you can perform the following actions:<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/45e551a7a8eb24ef1f04c5aa26806bb1.jpeg)<br>• View the product name, product status, event levels with corresponding counts, and counts of upstream and downstream abnormal services.<br>Note<br>When you click or hover over a product, solid-line connected products are those the current product depends on; dashed-line connected products depend on the current product.<br>• Click <strong>Details</strong> to go to the product details page. For more information, see Step 5.<br>• Click<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a1bea34276112277a167519b0ead58fe.png" width="16" alt="">under an event to go to the <strong>Events</strong> page for that product. |
 
 5. In list mode, click **Details** in the **Actions** column of a product. In topology mode, click **Details** on the product icon. Both actions take you to the product details page where you can access the following information.
 
-   ![](assets/92437d67d9baeba66e14794f607b7a2c.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/92437d67d9baeba66e14794f607b7a2c.jpeg)
 
    - Analysis Summary: View the conclusion, diagnosis time, and results for the abnormal product.
 
@@ -6089,9 +6089,9 @@ Product Diagnosis displays product status and statistics by product in either to
 
          - Click **Terminal** in the upper-right corner to go to the machine login page.
 
-       - Click <img src="assets/96dc96fd4129cbf58654568a91a67a00.png" width="15" alt=""> under instance status to view the instance diagnosis result.
+       - Click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/96dc96fd4129cbf58654568a91a67a00.png" width="15" alt=""> under instance status to view the instance diagnosis result.
 
-       - Click <img src="assets/a1bea34276112277a167519b0ead58fe.png" width="15" alt=""> under instance status to go to the instance details page.
+       - Click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a1bea34276112277a167519b0ead58fe.png" width="15" alt=""> under instance status to go to the instance details page.
 
      - Physical Resources: Hover over or click a physical resource node to view the resource name and device status. Click **View More** to get basic information. Click **Details** in the upper-right corner to go to the machine details page. Click **Terminal** in the upper-right corner to go to the machine login page.
 
@@ -6113,8 +6113,8 @@ Hardware diagnostics shows the topological relationships among network devices, 
 
    | Mode | Description |
    | --- | --- |
-   | List | ![](assets/1fb78976b9a058e2e7d02163af9a2c9d.jpeg)<br>• You can filter devices by device name. If you select <strong>Show Only Abnormal</strong> <strong>Servers and Associated Nodes</strong>, the list shows abnormal servers and associated nodes.<br>• View the number of network devices and physical machines in the data center. After each device name, the number to the left of the slash indicates the number of abnormal devices and the number to the right of the slash indicates the total number of devices.<br>• The device list includes the following information about each device: <strong>Device</strong> <strong>Type</strong>, <strong>Device Name</strong>, <strong>Device Status</strong>, <strong>L1 Events</strong>, <strong>L2 Events</strong>, <strong>L3 Events</strong>, and <strong>DockerVM</strong>.<br>• Click <strong>Details</strong> in the <strong>Actions</strong> column of a network device. You are navigated to the <strong>Network Element Management</strong> page to view the device details.Click <strong>Details</strong> in the <strong>Actions</strong> column of a physical machine. You are navigated to the <strong>Machines</strong> page to view the machine details.<br>• Click <strong>Terminal</strong> in the <strong>Actions</strong> column of a device to go to the machine login page. |
-   | Topology | ![](assets/37f882680c32c3d7647c9f2acb236d73.jpeg)<br>• You can quickly locate a device by device name. After you select a device, the device is highlighted. If you select <strong>Show Only Abnormal Servers and</strong> <strong>Associated Nodes</strong>, the topology shows abnormal servers and associated nodes.<br>• View the number of network devices and physical machines in the data center. After each device name, the number to the left of the slash indicates the number of abnormal devices and the number to the right of the slash indicates the total number of devices.<br>• Move the pointer over or click a network device node to view the device name, device status, number of events at each level, IP address, serial number (SN), vendor, and model.<br>![](assets/5da57ceb0c6ca2319995a9351b4fc846.jpeg)<br>• Click <strong>View More</strong> in the pop-up window. In the panel that appears, view the port list of the device. Click <strong>Details</strong> in the upper-right corner of the panel. You are navigated to the <strong>Network Element Management</strong> page to view the device details.<br>• Click the<img src="assets/a1bea34276112277a167519b0ead58fe.png" width="15" alt="">icon under Event in the pop-up window to go to the <strong>Events</strong><br>page to view the event list of the device.<br>• By default, physical machine nodes are in the collapsed state. The numbers<br>of abnormal machines and all machines are displayed in cards. Click the<img src="assets/bf56c9a5f85151db027c407f4723daaf.png" width="14" alt=""><br>icon to expand a card. Click the<img src="assets/f94b3c8b95345abc0ad995c41b1ae31c.png" width="14" alt="">icon to collapse a card.<br>When you move the pointer over or click a physical machine node, you can perform the following operations:<br>![](assets/84136b57e3c15654161dcc2a1a5e0257.jpeg)<br>• View the machine name, machine status, number of events at each level, Docker VMs, machine type, IP address, homing product, homing cluster, and SN.<br>• Click <strong>Details</strong> in the pop-up window. You are navigated to the <strong>Machines</strong> page to view the machine details. |
+   | List | ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1fb78976b9a058e2e7d02163af9a2c9d.jpeg)<br>• You can filter devices by device name. If you select <strong>Show Only Abnormal</strong> <strong>Servers and Associated Nodes</strong>, the list shows abnormal servers and associated nodes.<br>• View the number of network devices and physical machines in the data center. After each device name, the number to the left of the slash indicates the number of abnormal devices and the number to the right of the slash indicates the total number of devices.<br>• The device list includes the following information about each device: <strong>Device</strong> <strong>Type</strong>, <strong>Device Name</strong>, <strong>Device Status</strong>, <strong>L1 Events</strong>, <strong>L2 Events</strong>, <strong>L3 Events</strong>, and <strong>DockerVM</strong>.<br>• Click <strong>Details</strong> in the <strong>Actions</strong> column of a network device. You are navigated to the <strong>Network Element Management</strong> page to view the device details.Click <strong>Details</strong> in the <strong>Actions</strong> column of a physical machine. You are navigated to the <strong>Machines</strong> page to view the machine details.<br>• Click <strong>Terminal</strong> in the <strong>Actions</strong> column of a device to go to the machine login page. |
+   | Topology | ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/37f882680c32c3d7647c9f2acb236d73.jpeg)<br>• You can quickly locate a device by device name. After you select a device, the device is highlighted. If you select <strong>Show Only Abnormal Servers and</strong> <strong>Associated Nodes</strong>, the topology shows abnormal servers and associated nodes.<br>• View the number of network devices and physical machines in the data center. After each device name, the number to the left of the slash indicates the number of abnormal devices and the number to the right of the slash indicates the total number of devices.<br>• Move the pointer over or click a network device node to view the device name, device status, number of events at each level, IP address, serial number (SN), vendor, and model.<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5da57ceb0c6ca2319995a9351b4fc846.jpeg)<br>• Click <strong>View More</strong> in the pop-up window. In the panel that appears, view the port list of the device. Click <strong>Details</strong> in the upper-right corner of the panel. You are navigated to the <strong>Network Element Management</strong> page to view the device details.<br>• Click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a1bea34276112277a167519b0ead58fe.png" width="15" alt="">icon under Event in the pop-up window to go to the <strong>Events</strong><br>page to view the event list of the device.<br>• By default, physical machine nodes are in the collapsed state. The numbers<br>of abnormal machines and all machines are displayed in cards. Click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/bf56c9a5f85151db027c407f4723daaf.png" width="14" alt=""><br>icon to expand a card. Click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f94b3c8b95345abc0ad995c41b1ae31c.png" width="14" alt="">icon to collapse a card.<br>When you move the pointer over or click a physical machine node, you can perform the following operations:<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/84136b57e3c15654161dcc2a1a5e0257.jpeg)<br>• View the machine name, machine status, number of events at each level, Docker VMs, machine type, IP address, homing product, homing cluster, and SN.<br>• Click <strong>Details</strong> in the pop-up window. You are navigated to the <strong>Machines</strong> page to view the machine details. |
 
    - Click **Terminal** in the pop-up window to go to the machine login page.
 
@@ -6122,13 +6122,13 @@ Hardware diagnostics shows the topological relationships among network devices, 
 
 ### 4.5.3. Diagnosis records
 
-- Click the <img src="assets/d776e55ef1b052d811d8be32a312aa47.png" width="16" alt=""> icon under Machine Status in the pop-up window to view the
+- Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d776e55ef1b052d811d8be32a312aa47.png" width="16" alt=""> icon under Machine Status in the pop-up window to view the
 
   diagnostic results of the machine.
 
 The system manages diagnosis records. By default, it retains historical data for one year.
 
-- Click the <img src="assets/a1bea34276112277a167519b0ead58fe.png" width="15" alt=""> icon under Event in the pop-up window to go to the **Events**
+- Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a1bea34276112277a167519b0ead58fe.png" width="15" alt=""> icon under Event in the pop-up window to go to the **Events**
 
 **Procedure**
 
@@ -6136,7 +6136,7 @@ page to view the event list of the machine.
 
 1. Log in to the Apsara Uni-manager Operations Console.
 
-   - Click the <img src="assets/a1bea34276112277a167519b0ead58fe.png" width="15" alt=""> icon under DockerVM in the pop-up window to view the VM
+   - Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a1bea34276112277a167519b0ead58fe.png" width="15" alt=""> icon under DockerVM in the pop-up window to view the VM
 
 2. In the top navigation bar, choose **Monitor&Alert > Diagnosis Center > Diagnostic Record**.
 
@@ -6150,13 +6150,13 @@ page to view the event list of the machine.
 
    - Click **View Topology** under **Component Topology** in the pop-up window. In the **Component Deployment Topology** dialog box, view the services and components that are directly affected by the machine.
 
-   ![](assets/6c8c7e1fbe1de82b623d001c23b923db.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6c8c7e1fbe1de82b623d001c23b923db.jpeg)
 
 4. Filter diagnosis records by combining criteria such as **Diagnostic object**, **Initiator**, **Task Status**, and **Task time**.
 
 5. Click **View Report** in the **Operation** column of the target diagnosis record to access the diagnosis summary and details.
 
-   ![](assets/cd77b14ac3e0141462fa09739bf9f5a6.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cd77b14ac3e0141462fa09739bf9f5a6.jpeg)
 
    > **Note**
    >
@@ -6221,7 +6221,7 @@ Event overview provides multi-dimensional statistics, including the total number
    | Event Title | Enter an event title for the custom event view. This parameter is optional. |
    | Event Description | Enter an event description for the custom event view. This parameter is optional. |
 
-   ![](assets/55b0debca011a4a25c65b4fb95c85689.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/55b0debca011a4a25c65b4fb95c85689.jpeg)
 
 5. In the right section of the page, you can view the list of custom events. You can filter events by **Event Title**, **Product**, **Event Level**, **Status**, **Event Description**, **Alert Item ID**, and **Start Time**.
 
@@ -6250,7 +6250,7 @@ Event overview provides multi-dimensional statistics, including the total number
    | Directory | Select the directory in which the new directory is located. If you do not select an option, the root directory is used by default. |
    | Catalog Name | Enter a name for the new directory. |
 
-   ![](assets/2d9e994314752c53850250e584c9a388.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2d9e994314752c53850250e584c9a388.jpeg)
 
 **Modify a view directory**
 
@@ -6260,7 +6260,7 @@ Event overview provides multi-dimensional statistics, including the total number
 
 1. In the **View Tree** section, move the pointer over the view directory that you want to modify
 
-   and click the <img src="assets/45a9d73b2d9e9fe4ba37b680eb60fb7e.png" width="18" alt=""> icon.
+   and click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/45a9d73b2d9e9fe4ba37b680eb60fb7e.png" width="18" alt=""> icon.
 
 2. In the dialog box that appears, modify the parameters and click **OK**.
 
@@ -6274,7 +6274,7 @@ Event overview provides multi-dimensional statistics, including the total number
 
 1. In the **View Tree** section, move the pointer over the view directory that you want to delete
 
-   and click the <img src="assets/2b53fe69d1c61d2f54d5ba0bb24b428d.png" width="19" alt=""> icon.
+   and click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2b53fe69d1c61d2f54d5ba0bb24b428d.png" width="19" alt=""> icon.
 
 2. In the message that appears, click **OK**.
 
@@ -6286,7 +6286,7 @@ Event overview provides multi-dimensional statistics, including the total number
 
 1. In the **View Tree** section, move the pointer over the view that you want to modify and click
 
-   the <img src="assets/45a9d73b2d9e9fe4ba37b680eb60fb7e.png" width="18" alt=""> icon.
+   the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/45a9d73b2d9e9fe4ba37b680eb60fb7e.png" width="18" alt=""> icon.
 
 2. In the dialog box that appears, modify the parameters and click **OK**.
 
@@ -6298,7 +6298,7 @@ Event overview provides multi-dimensional statistics, including the total number
 
 1. In the **View Tree** section, move the pointer over the view that you want to delete and click
 
-   the <img src="assets/2b53fe69d1c61d2f54d5ba0bb24b428d.png" width="19" alt=""> icon.
+   the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2b53fe69d1c61d2f54d5ba0bb24b428d.png" width="19" alt=""> icon.
 
 2. In the message that appears, click **OK**.
 
@@ -6364,15 +6364,15 @@ Event Center serves only as a management tool for cloud product alert informatio
      >
      >   icon to view its
      >
-     >   <img src="assets/4379d804cc4e0d31da30bdcd2175f82c.png" width="19" alt="">
+     >   <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4379d804cc4e0d31da30bdcd2175f82c.png" width="19" alt="">
      >
      >   intelligent summary.
 
-   ![](assets/f010ee028162197268d8f846a2200ec2.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f010ee028162197268d8f846a2200ec2.jpeg)
 
 4. Click the **Event Name** of the target event to view its details.
 
-   - In the upper-right corner of the page, click <img src="assets/975418a20705b09523ec40ba18c7fad3.png" width="19" alt=""> to copy the event details link.
+   - In the upper-right corner of the page, click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/975418a20705b09523ec40ba18c7fad3.png" width="19" alt=""> to copy the event details link.
 
    - In the upper-right corner of the page, click **Mark**, configure the following parameters, then click **Confirm** to classify and mark the event.
 
@@ -6387,7 +6387,7 @@ Event Center serves only as a management tool for cloud product alert informatio
      | Reason for Details | Enter the detailed cause of the event. |
      | Processing result | Enter the event processing result. |
 
-     ![](assets/da2b04b9fc1c380db227c76b1db175b4.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/da2b04b9fc1c380db227c76b1db175b4.jpeg)
 
    - In the upper-right corner of the page, click **Response** and select Response Event or Direct statement.
 
@@ -6406,7 +6406,7 @@ Event Center serves only as a management tool for cloud product alert informatio
        | Reason for Details | Enter the detailed cause of the event. |
        | Processing result | Enter the event processing result. |
 
-       ![](assets/65822edadd322e0138344ae2791e82cd.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/65822edadd322e0138344ae2791e82cd.jpeg)
 
    - View details of events in the following sections.
 
@@ -6441,7 +6441,7 @@ Event Center serves only as a management tool for cloud product alert informatio
    | Export associated alerts | Select whether to export alerts ssociated with events.You can export up to 5,000 data entries.<br>• Yes<br>• No |
    | Export by condition | This option takes effect only when <strong>Export associated</strong> <strong>alerts</strong> is set to <strong>No</strong>.<br>Select whether to export data based on specified conditions. |
 
-   ![](assets/9ceee2bbfa22edca2034a54323ba8953.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9ceee2bbfa22edca2034a54323ba8953.jpeg)
 
 **Batch response**
 
@@ -6462,7 +6462,7 @@ Event Center serves only as a management tool for cloud product alert informatio
    | Reason for Details | Enter the detailed cause of the event. |
    | Processing result | Enter the event processing result. |
 
-   ![](assets/171dc84575ffc7ccf2900d948b6fd356.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/171dc84575ffc7ccf2900d948b6fd356.jpeg)
 
 <a id="section-4-6-3"></a>
 
@@ -6478,7 +6478,7 @@ On the My Events page, you can quickly handle events on the **My Pending Events*
 
 3. On the **My Pending Events** tab, view all events that you need to handle, including the events that you have actively responded to and the events that are transferred to you from other accounts.
 
-   ![](assets/873181297848af9e6e0c07610dafffa5.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/873181297848af9e6e0c07610dafffa5.jpeg)
 
    <ol type="i">
 
@@ -6518,7 +6518,7 @@ On the My Events page, you can quickly handle events on the **My Pending Events*
 
 4. On the **My Participated Events** tab, view all events that are in the **Processing** or **Closed** state.
 
-   ![](assets/b47b85ca16ac4b6281fe1634b1c59b44.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b47b85ca16ac4b6281fe1634b1c59b44.jpeg)
 
    - You can filter the event list by **Event Level** and **Processing Status** to obtain the desired events.
 
@@ -6566,7 +6566,7 @@ The event grading process consists of the following stages:
 
    In the policy details panel, view the details of the event into which the alert is converted. The details include **Basic Information** and **Grading rules**.
 
-   ![](assets/d896d994268e1a251f7e7b0d88cb62bb.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d896d994268e1a251f7e7b0d88cb62bb.jpeg)
 
    > **Note**
    >
@@ -6596,7 +6596,7 @@ The event grading process consists of the following stages:
    >
    > If the number of instances is 1, the architecture is considered not highly available and the scaling policy is skipped.
 
-   ![](assets/85894e41abc1839b7d58803458cb2011.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/85894e41abc1839b7d58803458cb2011.jpeg)
 
    </li>
 
@@ -6610,7 +6610,7 @@ The event grading process consists of the following stages:
 
    abnormal instances. You can also click Modify to change the event level that corresponds to a given abnormal instance proportion range. Then, click **Save**.
 
-   ![](assets/fca55219b52f53c07de6dae0ac2bf287.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/fca55219b52f53c07de6dae0ac2bf287.jpeg)
 
 7. In the **Finalize the Event Level** step, click the policy that you want to manage.
 
@@ -6620,7 +6620,7 @@ The event grading process consists of the following stages:
 
    In the policy details panel, view the details of comprehensive event grading. The details include **Basic Information** and **Grading rules**.
 
-   ![](assets/e0baeffe34680552a71b77e30de08407.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e0baeffe34680552a71b77e30de08407.jpeg)
 
    > **Note**
    >
@@ -6665,7 +6665,7 @@ You can configure custom grading policies based on alert item IDs, services, and
    | Cross-product aggregation | Specifies whether to enable cross-service aggregation. Cross-service and non-cross-service policies conflict with each other. Delete a policy and create another one if you need to switch between the two modes. |
    | Rule list | i. Click <strong>Add rules</strong>.<br>ii. In the <strong>Grading Policy</strong> dialog box, configure the <strong>Alert item ID</strong>, <strong>Product</strong>, and <strong>Grading rules</strong> parameters.<br>iii. Click <strong>OK</strong>. |
 
-   ![](assets/19b6891fbea4271bb172f4211240153e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/19b6891fbea4271bb172f4211240153e.jpeg)
 
 **What to do next**
 
@@ -6673,7 +6673,7 @@ You can configure custom grading policies based on alert item IDs, services, and
 
 1. Click **Advanced Filter** and filter custom grading policies by **Alert item ID**, **Policy name**, and **Policy status**.
 
-   ![](assets/afd86a3c57a4ff54eae203e3f968285a.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/afd86a3c57a4ff54eae203e3f968285a.jpeg)
 
 2. View the policy information, including **Policy name**, **Policy description**, **Alert item ID**, **Modification time**, **Modifier**, and **Policy status**.
 
@@ -7005,7 +7005,7 @@ One or more service groups are configured.
 
    more service groups.
 
-   ![](assets/64cb5297c9c53cf91280255793ba531f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/64cb5297c9c53cf91280255793ba531f.jpeg)
 
 **Related operations**
 
@@ -7015,7 +7015,7 @@ One or more service groups are configured.
 
 2. View the returned policy list, including the information in the **Policy name**, **Policy description**, **Policy status**, **Associated Service Group**, **Subscription Type**, **Subscribe to an action**, **Creation time**, **Founder**, **Modification time**, and **Modifier** columns.
 
-   ![](assets/566bb2eb3b5a5a58cda8fe3c2a5887ef.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/566bb2eb3b5a5a58cda8fe3c2a5887ef.jpeg)
 
 **Modify a notification policy**
 
@@ -7059,7 +7059,7 @@ One or more service groups are configured.
 
 1. On the **Notification History** tab, click Advanced Filter to filter the notification history by **Notification policy**, **Notification Service Group**, **Subscription Type**, and **Notification result**.
 
-   ![](assets/da9bc12d89a78b8ebb70d8010d91c2fc.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/da9bc12d89a78b8ebb70d8010d91c2fc.jpeg)
 
 2. Obtain the event notification list, including **Notification time**, **Notification content**, **Notification result**, **Notification policy**, **Notification Service Group**, **Channel instance**, **Trigger Source**, **Notification Channel**, and **Reason for notification**.
 
@@ -7096,7 +7096,7 @@ One or more notification channels are configured.
    | Service Group description | Enter the description of the service group. |
    | Notification Channel | Enable one or more notification channel types and select one or more notification channels to be associated with the service group. |
 
-   ![](assets/ec3fa129bd077565105f97f2699ac45b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ec3fa129bd077565105f97f2699ac45b.jpeg)
 
 **Other operations**
 
@@ -7106,7 +7106,7 @@ One or more notification channels are configured.
 
 2. View the service groups, including the information in the **Service group name**, **Service Group members**, **Associated channels**, **Creation time**, **Founder**, **Modification time**, and **Modifier** columns.
 
-   ![](assets/69bbf616511c124ad96b031fdf39d34b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/69bbf616511c124ad96b031fdf39d34b.jpeg)
 
 **Modify a service group**
 
@@ -7274,7 +7274,7 @@ You can configure notification channels for users to receive event notifications
 
 2. View the returned channel list, including the information in the **Channel name**, **Description**, **Channel Status**, **Channel type**, **Creation time**, **Founder**, **Modification time**, and **Modifier** columns.
 
-   ![](assets/227a94341179ef5f0a46fcbfb25a9f6e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/227a94341179ef5f0a46fcbfb25a9f6e.jpeg)
 
 **Modify a channel**
 
@@ -7349,7 +7349,7 @@ The Product & Cluster O&M page displays the status and statistical data of produ
 
 3. On the **Product & Cluster O&M** page, view product status and cluster status. Statistics of all products deployed on Apsara Infrastructure Management or the PaaS base are displayed.
 
-   ![](assets/41c70e5da909289ae1e078c0a55d4145.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/41c70e5da909289ae1e078c0a55d4145.jpeg)
 
    | No. | Section | Description |
    | --- | --- | --- |
@@ -7360,9 +7360,9 @@ The Product & Cluster O&M page displays the status and statistical data of produ
 
    | Parameter | Description |
    | --- | --- |
-   | Product | The name of the product.<br>• You can click the<img src="assets/1290536356a8ff5d3fd372514222d177.png" width="15" alt="">icon on the left of the product name or click <strong>Show</strong><br><strong>Clusters</strong> in the <strong>Actions</strong> column to view the clusters of the product.<br>• You can modify the aliases of clusters for products deployed on Apsara Infrastructure Management and the PaaS base. |
-   | Status | The state of the product and clusters. You can click the<img src="assets/aeb0f431a71393beea5141f90d1e782c.png" width="10" alt="">icon next to Status and<br>select <strong>Ready</strong> or <strong>Not Ready</strong> to view resources by status. |
-   | Instance Status | • The instance status. A product consists of one or more clusters, service instances, and components, and the product status information is aggregated level by level from components to service instances and then to clusters.<br>• This column shows the numbers of clusters, service instances, and components in the Ready state of a product, and the corresponding total numbers.<br>• You can click an item to view the names and status of resources at all levels.<br><img src="assets/9d15a94f0ae523749872e1274e5fffd6.png" width="11" alt="">indicates the Ready state.<img src="assets/2a494c1adc719e79a1bfea3a977f072f.png" width="12" alt="">indicates the Not Ready state.<br>• Click <strong>Cluster</strong>, <strong>Service</strong>, or <strong>Component</strong> in the Instance Status column to view the cluster composition of the product. Click a cluster name to go to the Cluster Details page. Click a service name or component name to go to the component details page.<br>Note<br>This design facilitates your checks of <strong>Not Ready</strong> state changes. For example, you fixed a product that is in the Not Ready state. In this case, you can view whether the product is fixed on the current page without going to the details page. |
+   | Product | The name of the product.<br>• You can click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1290536356a8ff5d3fd372514222d177.png" width="15" alt="">icon on the left of the product name or click <strong>Show</strong><br><strong>Clusters</strong> in the <strong>Actions</strong> column to view the clusters of the product.<br>• You can modify the aliases of clusters for products deployed on Apsara Infrastructure Management and the PaaS base. |
+   | Status | The state of the product and clusters. You can click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/aeb0f431a71393beea5141f90d1e782c.png" width="10" alt="">icon next to Status and<br>select <strong>Ready</strong> or <strong>Not Ready</strong> to view resources by status. |
+   | Instance Status | • The instance status. A product consists of one or more clusters, service instances, and components, and the product status information is aggregated level by level from components to service instances and then to clusters.<br>• This column shows the numbers of clusters, service instances, and components in the Ready state of a product, and the corresponding total numbers.<br>• You can click an item to view the names and status of resources at all levels.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9d15a94f0ae523749872e1274e5fffd6.png" width="11" alt="">indicates the Ready state.<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2a494c1adc719e79a1bfea3a977f072f.png" width="12" alt="">indicates the Not Ready state.<br>• Click <strong>Cluster</strong>, <strong>Service</strong>, or <strong>Component</strong> in the Instance Status column to view the cluster composition of the product. Click a cluster name to go to the Cluster Details page. Click a service name or component name to go to the component details page.<br>Note<br>This design facilitates your checks of <strong>Not Ready</strong> state changes. For example, you fixed a product that is in the Not Ready state. In this case, you can view whether the product is fixed on the current page without going to the details page. |
    | Inspection Alerts | The number of inspection items that the product failed in the last inspection task.<br>- indicates that no inspection task is found. The reason may be zero executed inspection task or query failure.<br>• 0 indicates that an inspection task is found and the product passed the inspection.<br>• Other numbers indicate the number of inspection items that the product failed. You can click the number to view the failed inspection items. |
    | Actions | • This column provides the <strong>Show Clusters</strong> operation.<br>• The Show Clusters operation provides a further option: <strong>Cluster Details</strong>. You can click Cluster Details to go to the Cluster Details page. |
 
@@ -7386,17 +7386,17 @@ On the cluster details page, you can view the basic information about a cluster,
 
 4. View the details of a cluster.
 
-   ![](assets/cac1c56cf53048de9548eab73134c84d.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cac1c56cf53048de9548eab73134c84d.jpeg)
 
    | Section | Description |
    | --- | --- |
-   | Basic Information | • Displays the basic information about the cluster, including the cluster status, product, zone, cluster version, and cluster clone parameters.<br>• The aliases of clusters deployed on Apsara Infrastructure Management and the PaaS base can be modified.<br>Note<br>An alias can be 0 to 128 characters in length and can contain letters, digits, periods (.), underscores (_), hyphens (-), and colons (:). It cannot start with a special character or a digit.<br>• Click the Edit icon on the right side of Cluster clone parameters to set the clone mode. In the Modify cluster clone parameters dialog box, you can select True clone or FakeClone.<br>Note<br>• True clone: When a machine is added to a cluster, the cloning operation is performed. In the desired-state configuration file, the value of Legacy is False.<br>• FakeClone: When a machine is added to a cluster, the cloning operation is skipped. In the desired-state configuration file, the value of Legacy is True.<br>![](assets/154a2bd4d8b2051aa8db8d903ab8715b.jpeg)<br>• Rolling updates can be triggered if a cluster is deployed on Apsara Infrastructure Management or the PaaS base.<br>Warning<br>The rolling updates are performed on all components of the cluster.<br>The rolling updates will restart the components based on a canary release policy.<br>The rolling feature is typically used to update the service registration variables referenced by a program.<br>You can trigger the rolling updates by performing the following operations based on the location where the cluster is deployed:<br>• If the cluster is deployed on Apsara Infrastructure Management, click <strong>Cluster Rolling</strong> in the upper-right corner of the cluster details page. In the <strong>Cluster Rolling</strong> dialog box, select Terminate or Do Not Terminate for the Whether to terminate the previous rolling task parameter. You can view the task details on the Action History tab.<br>Note<br>• <strong>Terminate</strong>: If a previous rolling task exists, the previous rolling task is terminated and a new rolling task is generated.<br>• <strong>Do Not Terminate</strong>: If a previous rolling task exists, a new rolling task is queued for execution after the previous rolling task is complete.<br>Warning<br>Risks may arise when you terminate a previous rolling task. Proceed with caution.<br>• If the cluster is deployed on the PaaS base, click <strong>Cluster Rolling</strong> in the upper-right corner of the cluster details page. In the <strong>Confirmation</strong> message, click <strong>OK</strong>.<br>• Clusters deployed on Apsara Infrastructure Management or the PaaS base can be <strong>deleted</strong>.<br>Warning<br>• Cluster deletion is a high-risk operation. Proceed with caution.Consult the Global Transaction Service (GTS) expert support team before you delete a cluster.<br>• You need to set a cluster to the pre-deletion state and then delete the cluster. After a cluster is set to the pre-deletion state, the cluster cannot be modified.<br>a. In the upper-right corner of the page, click <strong>Delete Cluster</strong>. The <strong>Note</strong> dialog box appears.<br>b. In the dialog box, click <strong>Plan Details</strong>.<br>c. You are navigated to the cluster plan details page. For more information, see Base plans.<br>Note<br>If the cluster is deployed on Apsara Infrastructure Management, you are navigated to the <strong>Plan Details: Offline the onTianji product cluster</strong> page. If the cluster is deployed on the PaaS base, you are navigated to the <strong>Plan Details: Offline the onPaaS product cluster</strong> page.<br>• Click <strong>Follow</strong> or <strong>Unfollow</strong> to add or remove a machine from the favorites. After a machine is added to the favorites, you can view the machine on the <strong>Resource Tags</strong> page. |
+   | Basic Information | • Displays the basic information about the cluster, including the cluster status, product, zone, cluster version, and cluster clone parameters.<br>• The aliases of clusters deployed on Apsara Infrastructure Management and the PaaS base can be modified.<br>Note<br>An alias can be 0 to 128 characters in length and can contain letters, digits, periods (.), underscores (_), hyphens (-), and colons (:). It cannot start with a special character or a digit.<br>• Click the Edit icon on the right side of Cluster clone parameters to set the clone mode. In the Modify cluster clone parameters dialog box, you can select True clone or FakeClone.<br>Note<br>• True clone: When a machine is added to a cluster, the cloning operation is performed. In the desired-state configuration file, the value of Legacy is False.<br>• FakeClone: When a machine is added to a cluster, the cloning operation is skipped. In the desired-state configuration file, the value of Legacy is True.<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/154a2bd4d8b2051aa8db8d903ab8715b.jpeg)<br>• Rolling updates can be triggered if a cluster is deployed on Apsara Infrastructure Management or the PaaS base.<br>Warning<br>The rolling updates are performed on all components of the cluster.<br>The rolling updates will restart the components based on a canary release policy.<br>The rolling feature is typically used to update the service registration variables referenced by a program.<br>You can trigger the rolling updates by performing the following operations based on the location where the cluster is deployed:<br>• If the cluster is deployed on Apsara Infrastructure Management, click <strong>Cluster Rolling</strong> in the upper-right corner of the cluster details page. In the <strong>Cluster Rolling</strong> dialog box, select Terminate or Do Not Terminate for the Whether to terminate the previous rolling task parameter. You can view the task details on the Action History tab.<br>Note<br>• <strong>Terminate</strong>: If a previous rolling task exists, the previous rolling task is terminated and a new rolling task is generated.<br>• <strong>Do Not Terminate</strong>: If a previous rolling task exists, a new rolling task is queued for execution after the previous rolling task is complete.<br>Warning<br>Risks may arise when you terminate a previous rolling task. Proceed with caution.<br>• If the cluster is deployed on the PaaS base, click <strong>Cluster Rolling</strong> in the upper-right corner of the cluster details page. In the <strong>Confirmation</strong> message, click <strong>OK</strong>.<br>• Clusters deployed on Apsara Infrastructure Management or the PaaS base can be <strong>deleted</strong>.<br>Warning<br>• Cluster deletion is a high-risk operation. Proceed with caution.Consult the Global Transaction Service (GTS) expert support team before you delete a cluster.<br>• You need to set a cluster to the pre-deletion state and then delete the cluster. After a cluster is set to the pre-deletion state, the cluster cannot be modified.<br>a. In the upper-right corner of the page, click <strong>Delete Cluster</strong>. The <strong>Note</strong> dialog box appears.<br>b. In the dialog box, click <strong>Plan Details</strong>.<br>c. You are navigated to the cluster plan details page. For more information, see Base plans.<br>Note<br>If the cluster is deployed on Apsara Infrastructure Management, you are navigated to the <strong>Plan Details: Offline the onTianji product cluster</strong> page. If the cluster is deployed on the PaaS base, you are navigated to the <strong>Plan Details: Offline the onPaaS product cluster</strong> page.<br>• Click <strong>Follow</strong> or <strong>Unfollow</strong> to add or remove a machine from the favorites. After a machine is added to the favorites, you can view the machine on the <strong>Resource Tags</strong> page. |
    |  |  |
    | Cluster details | The details of clusters deployed on Apsara Infrastructure Management and the PaaS base are different, as shown in the following table. |
 
    Cluster details
 
-   ![](assets/28a76e00eb5b96e41726aeeaa206753c.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/28a76e00eb5b96e41726aeeaa206753c.jpeg)
 
    **Paramete**
 
@@ -7458,7 +7458,7 @@ On the cluster details page, you can view the basic information about a cluster,
    >
    > - You can view the source of the template above the template
    >
-   >   file content. Move the pointer over the <img src="assets/e963cf530d6db39f06e3a1c07eba0a57.png" width="12" alt=""> icon to view the
+   >   file content. Move the pointer over the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e963cf530d6db39f06e3a1c07eba0a57.png" width="12" alt=""> icon to view the
    >
    >   details of the template, such as the **version**, **modification description**, **modification time**, and **the person who**
 
@@ -7478,7 +7478,7 @@ On the cluster details page, you can view the basic information about a cluster,
      <tr>
        <td>Tianji</td>
        <td>Action History</td>
-       <td>• Click <strong>Task Details</strong> in the Actions column to go to the task details page.You can view the task details, including the basic information, related clusters, and changes.<br>• The Basic Information section displays the task status, submission time, and submitter.<br>• The Related Clusters section displays the cluster, product, status, progress, version, submission time, and operations that can be performed. You can click Build Details or Resource Task Details in the Actions column to view the build details or resource task details.<br>• The Change Content section consists of Component Changes and Machine Changes.<br>• On the Component Changes tab, you can terminate, retry, or suspend a task. Click <strong>Details</strong> in the Actions column to view the task progress of a component.<br>• <strong>Overview Information</strong>: displays the basic information about the component, including Commit Id, Rolling Status, Approval Policy, and Upgrade Plan. In the upper-right corner of the dialog box, click <strong>View Details</strong> to go to the Rolling Summary page and view the component update details.<br>• Go to the <strong>Rolling Summary</strong> page.<br>• In the Overview Information section, you can <strong>retry</strong>, <strong>terminate</strong>, or <strong>suspend</strong> a task. You can perform these operations only on unfinished tasks.<br>• The system can monitor and display the service level agreement (SLA) changes. You can view the real-time monitoring status of components.<br>• Click <strong>View Logs</strong> to view SLA monitoring logs.<br>• Click <strong>Modify SLA Configuration</strong> to modify the SLA configuration.<br>Note<br>You can view the SLA-related content of services for which the SLA feature is enabled.<br>• Click <strong>View All</strong> to view the component update details.<br>• Click <strong>Edit Parameter</strong> to modify the relevant parameters.Only the parameters for unfinished tasks can be modified.<br>• In the <strong>Instance Details</strong> section, you can add multiple component tasks to the blacklist.<br>• <strong>Instance Details</strong>: displays information such as the change status of component instances, component actions, and metrics.<br><img src="assets/3280f58941abe3bc6934b998f9eef3f3.jpeg" alt=""><br>• On the Machine Changes tab, you can view the machine name, change type, and status. Click <strong>Terminal</strong> in the Actions column to go to the logon page and log on to a machine. Click <strong>Details</strong> in the Actions column to go to the Machine Overview page and view the machine details.Note<br>The Machine Changes tab is displayed only when the value in the Change Type column is Machine Scale-out, Machine Scale-In, Component Scale-out, or Component Unpublishing.<br>• Go to the <strong>Machine Overview</strong> page, which consists of the Basic Information and Details sections.<br><img src="assets/92f4a3143c726f8def2785b51f981281.jpeg" alt=""><br>• <strong>Basic Information</strong>: displays information such as the change status, machine status, machine actions, clusters, and machine metrics.<br>• <strong>Details</strong>: consists of <strong>Add to Cluster</strong>, <strong>Clone</strong>, and <strong>Deploy</strong> <strong>Component Instances</strong>.<br>• <strong>Add to Cluster</strong>: displays the cluster where the machine resides and the cluster to which you want to add the machine, as shown in the preceding figure.<br>• <strong>Status</strong>: the state of the machine change. Valid values:<br>• Failed: The change failed.<br>• Cancel: The change task is canceled. For example, the machine scale-in task is submitted when the machine scale-out task is not complete.<br>• Doing: The change is in progress.<br>• Waiting: The change is waiting to be performed.<br>• Done: The change is complete.<br>• <strong>Current Cluster</strong>: the cluster where the machine resides.<br>• <strong>Destination Cluster</strong>: the cluster to which you want to add the machine.<br>• <strong>Clone</strong>: indicates whether the cloning operation is executed when a machine is added to a cluster.<br>• The Real Clone and Pseudo-clone modes are provided.<br>• <strong>Pseudo-clone</strong>: The cloning operation is skipped when a machine is added to a cluster.<br>• <strong>Real Clone</strong>: The cloning operation is executed when a machine is added to a cluster.<br>• Click <strong>Metric</strong>. In the dialog box that appears, view the metric details on the <strong>Component Metrics</strong>, <strong>Machine</strong> <strong>Metrics</strong>, and <strong>System Service Metrics</strong> tabs.<br>• <strong>Status</strong>: For more information, see the status in the <strong>Add</strong> <strong>to Cluster</strong> section.<br>• <strong>System Service</strong>: the server role that is relevant to the cloning operation.<br>• Current Version: the current version of the server role on the machine.<br>• Desired Version: the version of the server role that you want to update to.<br>• <strong>Deploy Component Instances</strong>: displays the component instances that are deployed on a machine after the machine is added to a cluster.<br>• <strong>Component</strong>: the name of the component.<br>• <strong>Service</strong>: the service to which the component belongs.<br>• <strong>Status</strong>: For more information, see the status in the <strong>Add</strong> <strong>to Cluster</strong> section.<br>• Click <strong>Details</strong> in the Status column to view the deployment status of a component.<br>• Click <strong>View</strong> in the Metric column. In the Metric Details dialog box that appears, view the metric details on the <strong>Component Metrics</strong>, <strong>Machine Metrics</strong>, and <strong>System</strong> <strong>Service Metrics</strong> tabs.<br>• Version<br>• Current Version: the current version of the server role on the machine.<br>• Desired Version: the version of the server role that you want to update to.<br>• Click <strong>Version Differences</strong> in the Actions column to go to the <strong>Version</strong> <strong>Differences</strong> page and view the differences between configuration files of different versions.<br>• Click <strong>Version Configuration</strong> in the Actions column to go to the <strong>Version Configuration</strong> page and view the desired-state configuration of all previous versions.<br>Note<br>• By default, the file content is hidden. You can click <strong>Show</strong><br><strong>Content</strong> to show the file content. You can click the<img src="assets/8cec076ac5cab497b738e1719aa58aa2.png" width="28" alt=""><br>icon to hide the file content.<br>• You can enter a file name in the search box to quickly find the required file.</td>
+       <td>• Click <strong>Task Details</strong> in the Actions column to go to the task details page.You can view the task details, including the basic information, related clusters, and changes.<br>• The Basic Information section displays the task status, submission time, and submitter.<br>• The Related Clusters section displays the cluster, product, status, progress, version, submission time, and operations that can be performed. You can click Build Details or Resource Task Details in the Actions column to view the build details or resource task details.<br>• The Change Content section consists of Component Changes and Machine Changes.<br>• On the Component Changes tab, you can terminate, retry, or suspend a task. Click <strong>Details</strong> in the Actions column to view the task progress of a component.<br>• <strong>Overview Information</strong>: displays the basic information about the component, including Commit Id, Rolling Status, Approval Policy, and Upgrade Plan. In the upper-right corner of the dialog box, click <strong>View Details</strong> to go to the Rolling Summary page and view the component update details.<br>• Go to the <strong>Rolling Summary</strong> page.<br>• In the Overview Information section, you can <strong>retry</strong>, <strong>terminate</strong>, or <strong>suspend</strong> a task. You can perform these operations only on unfinished tasks.<br>• The system can monitor and display the service level agreement (SLA) changes. You can view the real-time monitoring status of components.<br>• Click <strong>View Logs</strong> to view SLA monitoring logs.<br>• Click <strong>Modify SLA Configuration</strong> to modify the SLA configuration.<br>Note<br>You can view the SLA-related content of services for which the SLA feature is enabled.<br>• Click <strong>View All</strong> to view the component update details.<br>• Click <strong>Edit Parameter</strong> to modify the relevant parameters.Only the parameters for unfinished tasks can be modified.<br>• In the <strong>Instance Details</strong> section, you can add multiple component tasks to the blacklist.<br>• <strong>Instance Details</strong>: displays information such as the change status of component instances, component actions, and metrics.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3280f58941abe3bc6934b998f9eef3f3.jpeg" alt=""><br>• On the Machine Changes tab, you can view the machine name, change type, and status. Click <strong>Terminal</strong> in the Actions column to go to the logon page and log on to a machine. Click <strong>Details</strong> in the Actions column to go to the Machine Overview page and view the machine details.Note<br>The Machine Changes tab is displayed only when the value in the Change Type column is Machine Scale-out, Machine Scale-In, Component Scale-out, or Component Unpublishing.<br>• Go to the <strong>Machine Overview</strong> page, which consists of the Basic Information and Details sections.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/92f4a3143c726f8def2785b51f981281.jpeg" alt=""><br>• <strong>Basic Information</strong>: displays information such as the change status, machine status, machine actions, clusters, and machine metrics.<br>• <strong>Details</strong>: consists of <strong>Add to Cluster</strong>, <strong>Clone</strong>, and <strong>Deploy</strong> <strong>Component Instances</strong>.<br>• <strong>Add to Cluster</strong>: displays the cluster where the machine resides and the cluster to which you want to add the machine, as shown in the preceding figure.<br>• <strong>Status</strong>: the state of the machine change. Valid values:<br>• Failed: The change failed.<br>• Cancel: The change task is canceled. For example, the machine scale-in task is submitted when the machine scale-out task is not complete.<br>• Doing: The change is in progress.<br>• Waiting: The change is waiting to be performed.<br>• Done: The change is complete.<br>• <strong>Current Cluster</strong>: the cluster where the machine resides.<br>• <strong>Destination Cluster</strong>: the cluster to which you want to add the machine.<br>• <strong>Clone</strong>: indicates whether the cloning operation is executed when a machine is added to a cluster.<br>• The Real Clone and Pseudo-clone modes are provided.<br>• <strong>Pseudo-clone</strong>: The cloning operation is skipped when a machine is added to a cluster.<br>• <strong>Real Clone</strong>: The cloning operation is executed when a machine is added to a cluster.<br>• Click <strong>Metric</strong>. In the dialog box that appears, view the metric details on the <strong>Component Metrics</strong>, <strong>Machine</strong> <strong>Metrics</strong>, and <strong>System Service Metrics</strong> tabs.<br>• <strong>Status</strong>: For more information, see the status in the <strong>Add</strong> <strong>to Cluster</strong> section.<br>• <strong>System Service</strong>: the server role that is relevant to the cloning operation.<br>• Current Version: the current version of the server role on the machine.<br>• Desired Version: the version of the server role that you want to update to.<br>• <strong>Deploy Component Instances</strong>: displays the component instances that are deployed on a machine after the machine is added to a cluster.<br>• <strong>Component</strong>: the name of the component.<br>• <strong>Service</strong>: the service to which the component belongs.<br>• <strong>Status</strong>: For more information, see the status in the <strong>Add</strong> <strong>to Cluster</strong> section.<br>• Click <strong>Details</strong> in the Status column to view the deployment status of a component.<br>• Click <strong>View</strong> in the Metric column. In the Metric Details dialog box that appears, view the metric details on the <strong>Component Metrics</strong>, <strong>Machine Metrics</strong>, and <strong>System</strong> <strong>Service Metrics</strong> tabs.<br>• Version<br>• Current Version: the current version of the server role on the machine.<br>• Desired Version: the version of the server role that you want to update to.<br>• Click <strong>Version Differences</strong> in the Actions column to go to the <strong>Version</strong> <strong>Differences</strong> page and view the differences between configuration files of different versions.<br>• Click <strong>Version Configuration</strong> in the Actions column to go to the <strong>Version Configuration</strong> page and view the desired-state configuration of all previous versions.<br>Note<br>• By default, the file content is hidden. You can click <strong>Show</strong><br><strong>Content</strong> to show the file content. You can click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8cec076ac5cab497b738e1719aa58aa2.png" width="28" alt=""><br>icon to hide the file content.<br>• You can enter a file name in the search box to quickly find the required file.</td>
      </tr>
    </table>
 
@@ -7530,7 +7530,7 @@ On the cluster details page, you can view the basic information about a cluster,
 
    **Action**
 
-   ![](assets/1e9cb28bbfbdd9d928d703b658d4363a.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1e9cb28bbfbdd9d928d703b658d4363a.jpeg)
 
    **History**
 
@@ -7564,7 +7564,7 @@ This topic describes how to view the basic information and details of components
 
 4. View the details of a service component. The following figure shows an example.
 
-   ![](assets/38c34f82cc023bf03308c31d188b842e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/38c34f82cc023bf03308c31d188b842e.jpeg)
 
    | No. | Section | Description |
    | --- | --- | --- |
@@ -7608,7 +7608,7 @@ This topic describes how to view the basic information and details of components
      >
      > If the review operation is disabled for a product, service, or server role, the **Approve** button is dimmed.
 
-   ![](assets/f0d0cb28cd7b667817fe2227aa46799f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f0d0cb28cd7b667817fe2227aa46799f.jpeg)
 
    - Displays the change tasks related to the component.
 
@@ -7632,7 +7632,7 @@ This topic describes how to view the basic information and details of components
 
    **Configurat**
 
-   > above the file content. Move the pointer over the <img src="assets/e963cf530d6db39f06e3a1c07eba0a57.png" width="12" alt=""> icon to view the
+   > above the file content. Move the pointer over the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e963cf530d6db39f06e3a1c07eba0a57.png" width="12" alt=""> icon to view the
 
    **ion**
 
@@ -7656,7 +7656,7 @@ This topic describes how to view the basic information and details of components
 
    Displays the dependencies of the components. A component depends on the component or components on its right. The following figure shows the component dependencies by using arrowed lines.
 
-   ![](assets/14e2ad2b0eca2c9039b61d2ee8519d75.png)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/14e2ad2b0eca2c9039b61d2ee8519d75.png)
 
    **Dependen cy Status**
 
@@ -7676,7 +7676,7 @@ This topic describes how to view the basic information and details of components
      <tr>
        <td rowspan="6">PaaS</td>
        <td>Workload</td>
-       <td>• Displays the basic workload information about the component.<br>• For Deployments, StatefulSets, and DaemonSets workloads, the page displays information about the pods requested by the workloads, and you can log on to the containers deployed on the pods.<br>• Click <strong>View YAML</strong> in the <strong>Actions</strong> column to view the original configuration and running information about the workload.<br>• Click the<img src="assets/6298ea8da53d9d6f926a0d9de1234e70.png" width="12" alt="">icon to show the pod list. You can view the key information<br>about each pod in the cluster, including the status, name, container, node name, and namespace.<br>• Click <strong>Pod Performance Data</strong> in the Actions column to view the pod performance data.<br>• Click <strong>Describe</strong> in the Actions column to view the configurations, status, and properties of the pod.<br>• Click <strong>Terminal</strong> in the Actions column to go to the logon page and log on to the machine.<br>• Click <strong>View Logs</strong> in the Actions column to view the logs exported from containers deployed in the pod to stdout.</td>
+       <td>• Displays the basic workload information about the component.<br>• For Deployments, StatefulSets, and DaemonSets workloads, the page displays information about the pods requested by the workloads, and you can log on to the containers deployed on the pods.<br>• Click <strong>View YAML</strong> in the <strong>Actions</strong> column to view the original configuration and running information about the workload.<br>• Click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6298ea8da53d9d6f926a0d9de1234e70.png" width="12" alt="">icon to show the pod list. You can view the key information<br>about each pod in the cluster, including the status, name, container, node name, and namespace.<br>• Click <strong>Pod Performance Data</strong> in the Actions column to view the pod performance data.<br>• Click <strong>Describe</strong> in the Actions column to view the configurations, status, and properties of the pod.<br>• Click <strong>Terminal</strong> in the Actions column to go to the logon page and log on to the machine.<br>• Click <strong>View Logs</strong> in the Actions column to view the logs exported from containers deployed in the pod to stdout.</td>
      </tr>
      <tr>
        <td>Instances</td>
@@ -7718,7 +7718,7 @@ The Machine Management module allows you to view the basic information about mac
 
    Click **Advanced Filter** and specify the Hostname/IP Address, Status, Product, and Cluster parameters. The system filters machines that meet the specified filter conditions.
 
-   ![](assets/e109f37bc5efa621589c20417508f079.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e109f37bc5efa621589c20417508f079.jpeg)
 
    - Optional. Click **Publish/Unpublish** above the machine list. On the page that appears, you can deploy or remove a machine.
 
@@ -7848,7 +7848,7 @@ The machine details page lets you view basic machine information and the list of
 
 5. On the machine details page, view Status Overview, and check Basic Information, Components, and other tabs.
 
-   ![](assets/a5499a45165a649d515e03b4aebbbf3d.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a5499a45165a649d515e03b4aebbbf3d.jpeg)
 
    - In the upper-right area of the page, you can perform the following operations:
 
@@ -7862,11 +7862,11 @@ The machine details page lets you view basic machine information and the list of
 
      - Click **Follow** or **Unfollow** to follow or unfollow the machine. After you follow a machine, you can view it on the Resource Tags page.
 
-     - Click <img src="assets/d6fc993e1c7c0b576f1c750a4ccb868d.png" width="25" alt=""> to export basic machine information as an XLS file to your local device. This
+     - Click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d6fc993e1c7c0b576f1c750a4ccb868d.png" width="25" alt=""> to export basic machine information as an XLS file to your local device. This
 
        feature is unavailable for virtual machines.
 
-     - Click <img src="assets/70839914393c97c4a4e86d2ee2a48b1f.png" width="14" alt=""> to refresh the current page.
+     - Click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/70839914393c97c4a4e86d2ee2a48b1f.png" width="14" alt=""> to refresh the current page.
 
    - In the **Status Overview** section, the system displays Machine Status, Kubernetes Node Status, and Event. Click a number under **Event** to go to the event list page.
 
@@ -7890,8 +7890,8 @@ The machine details page lets you view basic machine information and the list of
 
        | Parameter | Description |
        | --- | --- |
-       | Hostname | The hostname.<br>Hover over the hostname and click the<img src="assets/a8d324c5ed8822445ec976582d770eab.png" width="22" alt=""><br>icon on the right to copy the hostname. |
-       | I<strong>P Address</strong> | The IP address of the machine.<br>Hover over the IP address and click the icon<br>on the right<img src="assets/a8d324c5ed8822445ec976582d770eab.png" width="22" alt="">to copy the IP address. |
+       | Hostname | The hostname.<br>Hover over the hostname and click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a8d324c5ed8822445ec976582d770eab.png" width="22" alt=""><br>icon on the right to copy the hostname. |
+       | I<strong>P Address</strong> | The IP address of the machine.<br>Hover over the IP address and click the icon<br>on the right<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a8d324c5ed8822445ec976582d770eab.png" width="22" alt="">to copy the IP address. |
        | Alias | The alias of the machine.<br>You can edit or modify the host alias.<br>Note<br>The alias must be 0 to 128 characters in length. It cannot start with a special character or digit. It can contain only the following special characters: periods (.), underscores (_), hyphens (-), and colons (:). |
        | Cluster | The cluster to which the machine belongs.<br>Click <strong>Details</strong> on the right of the cluster name to go to the Cluster Details page and view cluster details. |
        | Product | The product to which the machine belongs. |
@@ -7907,7 +7907,7 @@ The machine details page lets you view basic machine information and the list of
 
      - **Component Deployment Topology**: The system presents an aggregated view of services and components directly affected by VMs or machines, grouped by product cluster. Final status data for VMs and SRs is displayed in a card. If a cluster, VM, machine, service, or component has not reached its final state, the icon to the left of its name appears in orange. When it reaches the final state, the icon turns blue.
 
-       ![](assets/81a3f8563f0971d541dd58cd5dc520a5.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/81a3f8563f0971d541dd58cd5dc520a5.jpeg)
 
        - When fewer than nine cards exist, the cards are arranged in three columns and N rows. When more than eight cards exist, the cards are arranged in a square grid starting from the upper-left corner.
 
@@ -7917,23 +7917,23 @@ The machine details page lets you view basic machine information and the list of
 
        - The drop-down list under the search box on the right side of the page displays the hierarchical relationships among clusters, machines, services, and components. When you select a node, the system highlights the corresponding topology node and focuses to the current node.
 
-       - Click the <img src="assets/bf56c9a5f85151db027c407f4723daaf.png" width="18" alt=""> icon to expand a card and click the <img src="assets/f94b3c8b95345abc0ad995c41b1ae31c.png" width="18" alt=""> icon to collapse a card.
+       - Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/bf56c9a5f85151db027c407f4723daaf.png" width="18" alt=""> icon to expand a card and click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f94b3c8b95345abc0ad995c41b1ae31c.png" width="18" alt=""> icon to collapse a card.
 
        - Hover over a machine name to display the node status and IP address of the
 
-         machine. Click the <img src="assets/7f68e7cc3b491005e162c1c65f80fca7.png" width="14" alt=""> icon on the right of the node status or click **Details** on the right
+         machine. Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7f68e7cc3b491005e162c1c65f80fca7.png" width="14" alt=""> icon on the right of the node status or click **Details** on the right
 
          of the machine name to go to the machine details page. Click **Terminal** on the right of the machine name to go to the machine login page.
 
        - Hover over a component name to display the node status and instance status of the
 
-         component. Click the <img src="assets/7f68e7cc3b491005e162c1c65f80fca7.png" width="14" alt=""> icon on the right of the node status or instance status, or
+         component. Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7f68e7cc3b491005e162c1c65f80fca7.png" width="14" alt=""> icon on the right of the node status or instance status, or
 
          click **Details** on the right of the component name to go to the component details page.
 
      - **Components**: The system displays the list of components deployed on the machine, including the component status, action, and component metrics.
 
-       ![](assets/00f8d1ce6eece9047f2f28af6a08c3a2.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00f8d1ce6eece9047f2f28af6a08c3a2.jpeg)
 
        > **Note**
        >
@@ -7955,7 +7955,7 @@ The machine details page lets you view basic machine information and the list of
 
      - **VM**: The system displays the list of virtual machines started on the host, as well as the virtual machine status and product information. This tab appears only when the machine is a host.
 
-       ![](assets/c61ace223d447b389ef58ff980c240e1.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c61ace223d447b389ef58ff980c240e1.jpeg)
 
        - At the top of the list, select a status to quickly filter virtual machines.
 
@@ -7963,7 +7963,7 @@ The machine details page lets you view basic machine information and the list of
 
      - **Taints**: The system displays taint information for Kubernetes nodes and allows you to add or delete taints. This tab appears only when the machine is a Kubernetes node.
 
-       ![](assets/cc1c3ead8be9b2d7fcf57c383788625e.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cc1c3ead8be9b2d7fcf57c383788625e.jpeg)
 
        - Query taints: Enter a taint key or taint value in the filter box above the taint list. Then the page displays filtered taint information.
 
@@ -7981,7 +7981,7 @@ The machine details page lets you view basic machine information and the list of
 
      - **Labels**: The system displays label information for Kubernetes nodes and allows you to add or delete labels. This tab appears only when the machine is a Kubernetes node.
 
-       ![](assets/8e854fb2894f1b7366eacc9be086583d.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8e854fb2894f1b7366eacc9be086583d.jpeg)
 
        - Query labels: Enter a label key or label value in the filter box above the label list. Then the page displays filtered label information.
 
@@ -7996,7 +7996,7 @@ Go to the machine details page and click **Machine Management** in the upper-rig
 | Operation task | Procedure |
 | --- | --- |
 | Restart a server | In the upper-right corner of the page, click <strong>Machine Management</strong> &gt; <strong>Restart</strong>. In the dialog box that appears, click <strong>OK</strong>. |
-| Repair and Clone or Power Off and Repair | Note<br>Select Repair and Clone or Power Off and Repair based on your business requirements.<br>Some repairs, such as system disk repairs, require both repair and clone to reinstall the system by cloning.<br>Some repairs, such as memory repairs, require only power off.<br>1. In the upper-right corner of the page, click <strong>Machine Management</strong> &gt; <strong>Repair and</strong> <strong>Clone</strong> or <strong>Power Off and Repair</strong>.<br>2. In the dialog box that appears, set <strong>Repair Reason</strong> and click <strong>OK</strong>. You are redirected to the <strong>Machine maintenance</strong> page.<br>3. On the <strong>Machine maintenance</strong> page, view basic information about machine repair displayed in the upper part of the page and the repair process displayed in the lower part.<br>Note<br>In the upper-right corner of the page, you can disable <strong>Auto Refresh</strong>, and click <strong>Refresh</strong> to manually refresh the page.<br>• The basic information includes <strong>Task ID</strong>, <strong>Maintenance Type</strong>, <strong>Creator</strong>, <strong>Creation Time</strong>, <strong>Machine name</strong>, <strong>IP</strong>, <strong>Project</strong>, <strong>Cluster</strong>, <strong>Action Name</strong>, <strong>Action</strong> <strong>Status</strong>, <strong>Maintenance Reason</strong>, and <strong>Security Approval</strong>.<br>Note<br>The repair task starts only after <strong>Security Approval</strong> is granted. Approvers must click <strong>View Approval Form</strong> to go to the task list page, locate the corresponding task based on their assigned roles, and then click <strong>Details</strong> in the Operation column to view and complete the approval.<br>• Repair process:<br>a. PreCheck<br>![](assets/9bc33efa6255be56661f01d43f66eb1a.jpeg)<br>The system automatically checks whether the current machine is on the blocklist. After the check succeeds, the system proceeds to the <strong>Pre-</strong><strong>processing</strong> step.<br>Note<br>• The check items vary with host machines of different products.Refer to the actual UI.<br>• Click <strong>View details</strong> to go to the <strong>Execution History Report</strong> page ( <strong>O&amp;M Services &gt; Operation Orchestration &gt; Execution</strong> <strong>History</strong>) and view the execution details of the precheck script. If the current machine is not on the blocklist, click <strong>View details</strong>, and handle the issue based on the error message.<br>• If the check fails, click <strong>Retry</strong> to perform the check again, or click <strong>Skip</strong>, set <strong>Skip reason</strong> , and ignore this check item.<br>b. Pre-processing<br>![](assets/15b49eb6de294a6eec5c0dfe10af3a6c.jpeg)<br>The system automatically backs up machine metadata and configuration information to OSS. After the operation is completed, the system proceeds to the <strong>Tianji Approval</strong> step.<br>Note<br>• The check items vary with host machines of different services.Refer to the actual UI.<br>• Click <strong>View details</strong> to go to the <strong>Execution History Report</strong> page ( <strong>O&amp;M Change &gt; O&amp;M Resources &gt; Execution History</strong>) page and view the execution details of the preprocessing script.<br>• If the operation fails, click <strong>Retry</strong> to perform the operation again, or click <strong>Skip</strong>, set <strong>Skip reason</strong>, and ignore this operation item.<br>c. Tianji Approval<br>![](assets/c548d8cd3a706aa3fae00a89a36b7750.jpeg)<br>You can view the actions on each component and their approval status. Wait until Decider completes the approval before proceeding to the next step.<br>Warning<br>The Approval action in the Operation column is a high-risk operation. This operation can bypass the Decider program to set Action to the approved state.Once approved, the corresponding action will be executed, which may cause data loss. Consult the operation with relevant service technicians.<br>d. IDC Operation<br>![](assets/348c760b04ed079c70c14983152109fc.jpeg)<br>During the IDC Operation phase, onsite IDC engineers repair the machine. You can view machine information, including <strong>Machine name</strong>, <strong>IP</strong>, <strong>SN</strong>, <strong>Project</strong>, <strong>Cluster</strong>, <strong>IDC</strong>, <strong>Room</strong>, <strong>Rack</strong>, <strong>Rack Unit ID</strong>, and <strong>Uplink Info</strong>. Once the repair is completed, click <strong>Complete the operation</strong> and then <strong>OK</strong> to proceed to the next step. If the repair type is Repair and Clone, the system proceeds to the <strong>Tianji Clone</strong> step. If the repair type is Power Off and Repair, the system proceeds to the <strong>Service Online</strong> step.<br>e. Tianji Clone<br>![](assets/a3f75af9f1423b79a8cf3ede82495901.jpeg)<br>In the Tianji Clone step, you can view <strong>Machine Information</strong> and <strong>Clone</strong> <strong>Information</strong>. When the cloning progress reaches 100%, the system proceeds to the <strong>Service Online</strong> step.<br>Note<br>• This step is displayed only when you perform the Repair and Clone operation.<br>• Click <strong>View details</strong> to go to the <strong>Ticket List</strong> page of the Apsara Stack platform.<br>f. Service Online<br>![](assets/9a0f5ce8b1db3b8d475841b0c05cf4af.jpeg) |
+| Repair and Clone or Power Off and Repair | Note<br>Select Repair and Clone or Power Off and Repair based on your business requirements.<br>Some repairs, such as system disk repairs, require both repair and clone to reinstall the system by cloning.<br>Some repairs, such as memory repairs, require only power off.<br>1. In the upper-right corner of the page, click <strong>Machine Management</strong> &gt; <strong>Repair and</strong> <strong>Clone</strong> or <strong>Power Off and Repair</strong>.<br>2. In the dialog box that appears, set <strong>Repair Reason</strong> and click <strong>OK</strong>. You are redirected to the <strong>Machine maintenance</strong> page.<br>3. On the <strong>Machine maintenance</strong> page, view basic information about machine repair displayed in the upper part of the page and the repair process displayed in the lower part.<br>Note<br>In the upper-right corner of the page, you can disable <strong>Auto Refresh</strong>, and click <strong>Refresh</strong> to manually refresh the page.<br>• The basic information includes <strong>Task ID</strong>, <strong>Maintenance Type</strong>, <strong>Creator</strong>, <strong>Creation Time</strong>, <strong>Machine name</strong>, <strong>IP</strong>, <strong>Project</strong>, <strong>Cluster</strong>, <strong>Action Name</strong>, <strong>Action</strong> <strong>Status</strong>, <strong>Maintenance Reason</strong>, and <strong>Security Approval</strong>.<br>Note<br>The repair task starts only after <strong>Security Approval</strong> is granted. Approvers must click <strong>View Approval Form</strong> to go to the task list page, locate the corresponding task based on their assigned roles, and then click <strong>Details</strong> in the Operation column to view and complete the approval.<br>• Repair process:<br>a. PreCheck<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9bc33efa6255be56661f01d43f66eb1a.jpeg)<br>The system automatically checks whether the current machine is on the blocklist. After the check succeeds, the system proceeds to the <strong>Pre-</strong><strong>processing</strong> step.<br>Note<br>• The check items vary with host machines of different products.Refer to the actual UI.<br>• Click <strong>View details</strong> to go to the <strong>Execution History Report</strong> page ( <strong>O&amp;M Services &gt; Operation Orchestration &gt; Execution</strong> <strong>History</strong>) and view the execution details of the precheck script. If the current machine is not on the blocklist, click <strong>View details</strong>, and handle the issue based on the error message.<br>• If the check fails, click <strong>Retry</strong> to perform the check again, or click <strong>Skip</strong>, set <strong>Skip reason</strong> , and ignore this check item.<br>b. Pre-processing<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/15b49eb6de294a6eec5c0dfe10af3a6c.jpeg)<br>The system automatically backs up machine metadata and configuration information to OSS. After the operation is completed, the system proceeds to the <strong>Tianji Approval</strong> step.<br>Note<br>• The check items vary with host machines of different services.Refer to the actual UI.<br>• Click <strong>View details</strong> to go to the <strong>Execution History Report</strong> page ( <strong>O&amp;M Change &gt; O&amp;M Resources &gt; Execution History</strong>) page and view the execution details of the preprocessing script.<br>• If the operation fails, click <strong>Retry</strong> to perform the operation again, or click <strong>Skip</strong>, set <strong>Skip reason</strong>, and ignore this operation item.<br>c. Tianji Approval<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c548d8cd3a706aa3fae00a89a36b7750.jpeg)<br>You can view the actions on each component and their approval status. Wait until Decider completes the approval before proceeding to the next step.<br>Warning<br>The Approval action in the Operation column is a high-risk operation. This operation can bypass the Decider program to set Action to the approved state.Once approved, the corresponding action will be executed, which may cause data loss. Consult the operation with relevant service technicians.<br>d. IDC Operation<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/348c760b04ed079c70c14983152109fc.jpeg)<br>During the IDC Operation phase, onsite IDC engineers repair the machine. You can view machine information, including <strong>Machine name</strong>, <strong>IP</strong>, <strong>SN</strong>, <strong>Project</strong>, <strong>Cluster</strong>, <strong>IDC</strong>, <strong>Room</strong>, <strong>Rack</strong>, <strong>Rack Unit ID</strong>, and <strong>Uplink Info</strong>. Once the repair is completed, click <strong>Complete the operation</strong> and then <strong>OK</strong> to proceed to the next step. If the repair type is Repair and Clone, the system proceeds to the <strong>Tianji Clone</strong> step. If the repair type is Power Off and Repair, the system proceeds to the <strong>Service Online</strong> step.<br>e. Tianji Clone<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a3f75af9f1423b79a8cf3ede82495901.jpeg)<br>In the Tianji Clone step, you can view <strong>Machine Information</strong> and <strong>Clone</strong> <strong>Information</strong>. When the cloning progress reaches 100%, the system proceeds to the <strong>Service Online</strong> step.<br>Note<br>• This step is displayed only when you perform the Repair and Clone operation.<br>• Click <strong>View details</strong> to go to the <strong>Ticket List</strong> page of the Apsara Stack platform.<br>f. Service Online<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9a0f5ce8b1db3b8d475841b0c05cf4af.jpeg) |
 
 The system automatically powers on the machine and checks whether the machine status is normal. The operation ends after the check is completed.
 
@@ -8038,7 +8038,7 @@ pay attention to in a centralized manner.
 
    - After a resource is added to favorites, it is displayed in the Watchlist section on the Resource Tags page. Click the resource to go to the details page of the resource.
 
-     ![](assets/8e0e1943570f19c80672573a818d0afb.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8e0e1943570f19c80672573a818d0afb.jpeg)
 
 5. Perform operations on resources in the Resource List section.
 
@@ -8049,10 +8049,10 @@ pay attention to in a centralized manner.
      | View resource tags | You can view the resources that have tags. You can also search for resources and tags by <strong>resource name</strong>, <strong>resource type</strong>, or <strong>tag</strong>. |
      | Add tags to a resource | You can add tags to a resource based on your business requirements.<br>Select the resource that you want to manage and click <strong>Bind Tags</strong>.<br>a. In the Bind Tags dialog box, select one or more tags and click <strong>Next</strong>.You can add a tag, delete a tag, or delete multiple tags at a time.<br>b. Select the resource to which you want to bind the tags on the <strong>Product View</strong> or <strong>Data Center View</strong> tab. You can select multiple resources. Click <strong>Bind</strong>.<br>c. Click <strong>Close</strong>. The tags are added to the specified resource. |
      | Remove tags from a resource | You can remove tags from a resource based on your business requirements. Select the resource that you want to manage and click <strong>Unbind tags</strong>. In the message that appears, click <strong>OK</strong>. |
-     | Modify resource tags | You can delete resource tags that you no longer need. Find the resource that you want to manage and click <strong>Modify Tags</strong> in the<br><strong>Actions</strong> column. In the dialog box that appears, click the<img src="assets/40ab4b78a3f98cbb090aa27efaac5479.png" width="14" alt="">icon next<br>to the tag that you want to delete, and click <strong>OK</strong>. |
+     | Modify resource tags | You can delete resource tags that you no longer need. Find the resource that you want to manage and click <strong>Modify Tags</strong> in the<br><strong>Actions</strong> column. In the dialog box that appears, click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/40ab4b78a3f98cbb090aa27efaac5479.png" width="14" alt="">icon next<br>to the tag that you want to delete, and click <strong>OK</strong>. |
      | Export resource tags | You can export all resource tags in the list. Click <strong>Export</strong>. In the dialog box that appears, select a download URL and click <strong>Download</strong>.<br>Note<br>If you want to export only specific resource tags, select the resources whose tags you want to export and click <strong>Export</strong>. In the dialog box that appears, select a download URL and click <strong>Download</strong>. |
 
-     ![](assets/c069831329eea0e0ccbaab1a4dc0b2fe.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c069831329eea0e0ccbaab1a4dc0b2fe.jpeg)
 
 <a id="section-5-1-1-4"></a>
 
@@ -8070,7 +8070,7 @@ The base machine resource dashboard displays the resource allocation information
 
    By default, the page displays resource usage from the machine dimension. You can click
 
-   the <img src="assets/8e708dc4dfdc57843c84378e387f2977.png" width="20" alt=""> icon in the upper part of the page to switch to the product dimension.
+   the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8e708dc4dfdc57843c84378e387f2977.png" width="20" alt=""> icon in the upper part of the page to switch to the product dimension.
 
 4. Optional. Find the machine that you want to view.
 
@@ -8078,7 +8078,7 @@ The base machine resource dashboard displays the resource allocation information
 
 5. The **Machines** section displays the machine resource information, including Allocated CPU, Allocated Memory, and Allocated GPU.
 
-   ![](assets/3d6695bfabc0c14ac587c9b6f29cca43.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3d6695bfabc0c14ac587c9b6f29cca43.jpeg)
 
    | Parameter | Description | Example |
    | --- | --- | --- |
@@ -8120,7 +8120,7 @@ You can view the resource usage of O&M Kubernetes clusters, including CPU utiliz
 
 3. On the **Kubernetes Cluster Overview** page, view the basic information, resource usage, and nodes of a cluster.
 
-   ![](assets/814bea786297ce9c4f32f5b81031aacc.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/814bea786297ce9c4f32f5b81031aacc.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -8146,7 +8146,7 @@ You can view the basic information about nodes deployed on the platform, includi
 
 5. (Optional) In the search box above the node list, search for the node that you want to view.
 
-   ![](assets/2ba0967a0adb397810065307efa9f6eb.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2ba0967a0adb397810065307efa9f6eb.jpeg)
 
 6. View the node information. The following table describes the parameters.
 
@@ -8224,7 +8224,7 @@ The system checks and confirms whether the preceding prerequisites are met durin
    | Success | Success | Failed | View the repair details |
    | Success | Success | Success | N/A<br>Note<br>After the preprocessing stage is complete, the task enters the maintenance stage and is displayed on the Maintenance tab. |
 
-   ![](assets/35a76b6213dda454bbfced270e01c013.png)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/35a76b6213dda454bbfced270e01c013.png)
 
    Related operations:
 
@@ -8268,7 +8268,7 @@ The system checks and confirms whether the preceding prerequisites are met durin
    | Success | Success | Success | View the repair details |
    | Success | Success | Failed | View the repair details |
 
-   ![](assets/7f00e62bc2583ed3bdb0c32c5563528c.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7f00e62bc2583ed3bdb0c32c5563528c.jpeg)
 
    Related operations:
 
@@ -8290,13 +8290,13 @@ The system checks and confirms whether the preceding prerequisites are met durin
 
 4. Find the disk replacement task and click **Maintenance details** in the **Operation** column to go to the Maintenance details page where you can view the detailed process.
 
-   ![](assets/60564f2b746bf3cc7f75818fbb3db5e7.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/60564f2b746bf3cc7f75818fbb3db5e7.jpeg)
 
 **Repair details**
 
 The upper part of the Maintenance details page displays the basic information about the machine, including the **task ID**, **repair type**, **creator**, **creation time**, **machine name**, **IP address**, **project**, **cluster**, **action name**, **repair reason**, **mount point**, and **disk SN**. The lower part of the page displays the repair procedure, including **PreCheck**, **Tianji Approval**, **Pre-processing**, **IDC Operation**, **Service Online**, and **Inspection**.
 
-![](assets/913d9748eee36d61ec3395189a010b01.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/913d9748eee36d61ec3395189a010b01.jpeg)
 
 1. Precheck
 
@@ -8334,7 +8334,7 @@ The upper part of the Maintenance details page displays the basic information ab
    >
    >   - The disk has multiple partitions attached.
 
-   ![](assets/574cf4e6de4a17e2fa1df1416d9286ae.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/574cf4e6de4a17e2fa1df1416d9286ae.jpeg)
 
 2. Tianji Approval
 
@@ -8344,7 +8344,7 @@ The upper part of the Maintenance details page displays the basic information ab
    >
    > The Approve operation in the Operation column is a high-risk operation. If you click Approve, you can replace the Decider program to set the corresponding action to the approved state. After an action is approved, the corresponding action in the Action Name column is performed. This may cause data loss. Before you perform this operation, contact technical support.
 
-   ![](assets/eade8a870e70941070a4b9ca2690501e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/eade8a870e70941070a4b9ca2690501e.jpeg)
 
 3. Pre-processing
 
@@ -8373,7 +8373,7 @@ The upper part of the Maintenance details page displays the basic information ab
    >
    > You can click **View details** to go to the **O&M Change** > **Operation Resources** > **Execution History** > **Execution History Report** page. On this page, you can view the execution details.
 
-   ![](assets/b8b6344ac25ec8ddadd7db0c9db3c271.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b8b6344ac25ec8ddadd7db0c9db3c271.jpeg)
 
 4. IDC Operation
 
@@ -8386,17 +8386,17 @@ The upper part of the Maintenance details page displays the basic information ab
      <tr>
        <td>Manually confirm the start of disk replacement</td>
        <td>Manual</td>
-       <td>Click <strong>Manual confirmation</strong>. In the dialog box that appears, enter a <strong>reason</strong> and click <strong>OK</strong>.<br><img src="assets/788640c128a603d6aa59b9dd80e6b1e4.jpeg" alt=""><br><img src="assets/cd17586c22693c5710b32ef3c9800176.jpeg" alt=""></td>
+       <td>Click <strong>Manual confirmation</strong>. In the dialog box that appears, enter a <strong>reason</strong> and click <strong>OK</strong>.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/788640c128a603d6aa59b9dd80e6b1e4.jpeg" alt=""><br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cd17586c22693c5710b32ef3c9800176.jpeg" alt=""></td>
      </tr>
      <tr>
        <td>Locate the disk</td>
        <td>Manual</td>
-       <td>Manually locate disk.<br>Note<br>If you fail to locate the disk, you can click <strong>Skip</strong> and enter a <strong>skip reason</strong> to proceed to the next check item.<br><img src="assets/2c90a20ad15372c10d47ac406de71144.jpeg" alt=""></td>
+       <td>Manually locate disk.<br>Note<br>If you fail to locate the disk, you can click <strong>Skip</strong> and enter a <strong>skip reason</strong> to proceed to the next check item.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2c90a20ad15372c10d47ac406de71144.jpeg" alt=""></td>
      </tr>
      <tr>
        <td>Manually confirm the completion of disk replacement</td>
        <td>Manual</td>
-       <td>After the disk is replaced, click <strong>Manually</strong> <strong>confirmation</strong>, enter a <strong>reason for</strong> <strong>confirmation</strong>, and then click <strong>OK</strong>.<br><img src="assets/27fe6f096e718da1251c9e6b5feb0cb8.jpeg" alt=""></td>
+       <td>After the disk is replaced, click <strong>Manually</strong> <strong>confirmation</strong>, enter a <strong>reason for</strong> <strong>confirmation</strong>, and then click <strong>OK</strong>.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/27fe6f096e718da1251c9e6b5feb0cb8.jpeg" alt=""></td>
      </tr>
      <tr>
        <td>The system confirms the completion of disk replacement</td>
@@ -8405,7 +8405,7 @@ The upper part of the Maintenance details page displays the basic information ab
      </tr>
    </table>
 
-   ![](assets/38dbe7ad46b0c5de2d3a7671bf5898a8.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/38dbe7ad46b0c5de2d3a7671bf5898a8.jpeg)
 
 5. Service Online
 
@@ -8432,7 +8432,7 @@ The upper part of the Maintenance details page displays the basic information ab
      </tr>
    </table>
 
-   ![](assets/28e83c226dbd881c1ea35186756a624b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/28e83c226dbd881c1ea35186756a624b.jpeg)
 
 6. Inspection
 
@@ -8448,7 +8448,7 @@ The upper part of the Maintenance details page displays the basic information ab
    >
    > You can click **View details** to go to the **O&M Change** > **Operation Resources** > **Execution History** > **Execution History Report** page. On this page, you can view the execution details.
 
-   ![](assets/3a83ba47877599491846bca7bf5a621a.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3a83ba47877599491846bca7bf5a621a.jpeg)
 
 <a id="section-5-1-3-2"></a>
 
@@ -8482,7 +8482,7 @@ This topic describes how to query machine repair records, maintenance history, a
    | End Time | The time when the machine repair task ends. |
    | Actions | You can click <strong>Details</strong> in the Actions column to go to the progress page of the repair task. |
 
-   ![](assets/d4219c03f2972d6d437cde4db4a996a1.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d4219c03f2972d6d437cde4db4a996a1.jpeg)
 
 **Template configurations**
 
@@ -8494,7 +8494,7 @@ This topic describes how to query machine repair records, maintenance history, a
 
 4. Click the **Template Configuration** tab.
 
-   ![](assets/ca06bd4736fc082d66939e012b5a860a.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ca06bd4736fc082d66939e012b5a860a.jpeg)
 
    - On the **Template Configuration** tab, you can view the **current template version** and **re-initialization status**.
 
@@ -8549,11 +8549,11 @@ You can view the details of tasks running on Apsara Infrastructure Management an
 
    Click **Details** in the Actions column of the task that you want to manage to go to the **Task Details** page.
 
-   ![](assets/256e4bfd3e8bad87d1e149344b25b2db.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/256e4bfd3e8bad87d1e149344b25b2db.jpeg)
 
    - Details of a task on Apsara Infrastructure Management
 
-     ![](assets/265d03e3213d543b4b594e2787af4127.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/265d03e3213d543b4b594e2787af4127.jpeg)
 
      | No. | Section | Description |
      | --- | --- | --- |
@@ -8568,7 +8568,7 @@ You can view the details of tasks running on Apsara Infrastructure Management an
        <tr>
          <td>③</td>
          <td>Change Content</td>
-         <td>Displays the changes of a cluster. Cluster changes include component changes and machine changes.<br>• <strong>Component Changes</strong>: the version change of a component. The version change status of all components is displayed based on services. This section displays the number of components of each service.Note<br>Different operation buttons are displayed for each task state. The operation buttons include <strong>Terminate</strong>, <strong>Retry</strong>, <strong>Suspend</strong>, and <strong>Continue</strong>.<br>• If the task state is <strong>Running</strong>, the <strong>Terminate</strong> and <strong>Suspend</strong> buttons are displayed.<br>• If the task state is <strong>Paused</strong>, the <strong>Continue</strong> button is displayed.<br>• If the task state is <strong>Failed</strong> or <strong>Terminated</strong>, the <strong>Retry</strong> button is displayed. Make sure that no new tasks are submitted for the current cluster or server role.<br>• Click <strong>Terminate</strong> in the upper-right corner of the list to terminate tasks.<br>• Click <strong>Retry</strong> in the upper-right corner of the list to perform the Retry Upgrade, Force Retry, or Retry Rollback operation.<br>• Click <strong>Suspend</strong> in the upper-right corner of the list to suspend tasks.<br>• Click <strong>Continue</strong> in the upper-right corner of the list to continue tasks.<br>• Click the<img src="assets/4b6c8c0aca503de371cb749f0689063f.png" width="20" alt="">icon on the left of the service name to view the change<br>details of each component. For more information, see the following component change table.<br>• Click <strong>Details</strong> in the Actions column of the component that you want to manage to view the component progress.<br>• <strong>Overview Information</strong>: displays the basic information about the component, such as Commit Id, Rolling Status, Approval Policy, and Upgrade Plan. In the upper-right corner, click <strong>View Details</strong> to go to the Rolling Summary page and view the component update details.<br>• Go to the <strong>Rolling Summary</strong> page.<br>• In the Overview Information section, click <strong>Retry</strong>, <strong>Terminate</strong>, or <strong>Suspend</strong> to retry, terminate, or suspend a task. You can perform the operations only on unfinished tasks.<br>• The system can monitor and display the service level agreement (SLA) changes. You can view the real-time monitoring status of components.<br>• Click <strong>View Logs</strong> to view SLA monitoring logs.<br>• Click <strong>Edit SLA Configuration</strong> to modify the SLA configuration.<br>Note<br>You can view the SLA-related content only of services for which the SLA feature is enabled.<br>• Click <strong>View All</strong> to view the component update details.<br>• Click <strong>Edit Parameter</strong> to modify the relevant parameters. Only the parameters for unfinished tasks can be modified.<br>• In the <strong>Instance Details</strong> section, you can add multiple component tasks to the blacklist.<br>• <strong>Instance Details</strong>: displays information such as the change status of component instances, component actions, and metrics.<br>After a component instance is restarted, you can click <strong>Approve</strong> in the Actions column to run the restart task or click <strong>Cancel</strong> in the Actions column to clear the restart task.<br>Note<br>If the review operation is disabled for a product, service, or server role, the <strong>Approve</strong> button is dimmed.<br><img src="assets/ea761b86a21b476f8d821a30edea898c.jpeg" alt=""><br>Note<br>The Machine Changes tab is displayed only when the change type is Machine Scale-out, Machine Scale-In, Component Scale-out, or Component Unpublishing.<br>• <strong>Machine Changes</strong>: Machine changes in this module refer to machine scaling operations, excluding other operations such as machine repairs.<br>• The change content is displayed based on the <strong>Machine</strong>, <strong>Change</strong> <strong>Type</strong>, <strong>Status</strong>, and <strong>Actions</strong> columns.<br>• <strong>Machine</strong>: the name of the machine.<br>• <strong>Change Type</strong>: the change type. Valid values: Machine Scale-out, Machine Scale-in, Component Scale-out, and Component Unpublishing.<br>• <strong>Status</strong>: the status of the change. For more information, see the status in the Add to Cluster section.<br>• <strong>Actions</strong>: the actions that you can perform. You can log on to the machine and view the machine details.<br>• Click <strong>Terminal</strong> in the Actions column to log on to a machine.<br>• Click <strong>Details</strong> in the Actions column to go to the Machine Overview page and view the machine details.<br><img src="assets/92f4a3143c726f8def2785b51f981281.jpeg" alt=""><br>• <strong>Basic Information</strong>: displays the following information: <strong>Change</strong> <strong>Status</strong>, <strong>Machine Status</strong>, <strong>Machine Action</strong>, <strong>Cluster</strong>, <strong>Machine</strong> <strong>Metrics</strong>, and <strong>Submission Time</strong>.<br>• <strong>Details</strong>: consists of <strong>Add to Cluster</strong>, <strong>Clone</strong>, and <strong>Deploy</strong> <strong>Component Instances</strong>.<br>• <strong>Add to Cluster</strong>: displays the cluster where the machine resides and the cluster to which you want to add the machine, as shown in the preceding figure.<br>• <strong>Status</strong>: the status of the machine change. Valid values:<br>• Failed: The change failed.<br>• Cancel: The change task is canceled. For example, the machine scale-in task is submitted when the machine scale-out task is not complete.<br>• Doing: The change is in progress.<br>• Waiting: The change is waiting to be performed.<br>• Done: The change is complete.<br>• <strong>Current Cluster</strong>: the cluster where the machine resides.<br>• <strong>Destination Cluster</strong>: the cluster to which you want to add the machine.<br>• <strong>Clone</strong>: indicates whether the cloning operation is executed when a machine is added to a cluster.<br>• Mode<br>• <strong>Pseudo-clone</strong>: The cloning operation is skipped when a machine is added to a cluster.<br>• <strong>Real Clone</strong>: The cloning operation is executed when a machine is added to a cluster.<br>• Click <strong>Metric</strong>. In the dialog box that appears, view the metric details on the <strong>Component Metrics</strong>, <strong>Machine Metrics</strong>, and <strong>System Service Metrics</strong> tabs.<br>• <strong>Status</strong>: For more information, see the status description in the <strong>Add to Cluster</strong> section.<br>• <strong>System Service</strong>: the service that triggers the cloning operation.<br>• <strong>Current Version</strong>: the current version of the server role on the machine.</td>
+         <td>Displays the changes of a cluster. Cluster changes include component changes and machine changes.<br>• <strong>Component Changes</strong>: the version change of a component. The version change status of all components is displayed based on services. This section displays the number of components of each service.Note<br>Different operation buttons are displayed for each task state. The operation buttons include <strong>Terminate</strong>, <strong>Retry</strong>, <strong>Suspend</strong>, and <strong>Continue</strong>.<br>• If the task state is <strong>Running</strong>, the <strong>Terminate</strong> and <strong>Suspend</strong> buttons are displayed.<br>• If the task state is <strong>Paused</strong>, the <strong>Continue</strong> button is displayed.<br>• If the task state is <strong>Failed</strong> or <strong>Terminated</strong>, the <strong>Retry</strong> button is displayed. Make sure that no new tasks are submitted for the current cluster or server role.<br>• Click <strong>Terminate</strong> in the upper-right corner of the list to terminate tasks.<br>• Click <strong>Retry</strong> in the upper-right corner of the list to perform the Retry Upgrade, Force Retry, or Retry Rollback operation.<br>• Click <strong>Suspend</strong> in the upper-right corner of the list to suspend tasks.<br>• Click <strong>Continue</strong> in the upper-right corner of the list to continue tasks.<br>• Click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4b6c8c0aca503de371cb749f0689063f.png" width="20" alt="">icon on the left of the service name to view the change<br>details of each component. For more information, see the following component change table.<br>• Click <strong>Details</strong> in the Actions column of the component that you want to manage to view the component progress.<br>• <strong>Overview Information</strong>: displays the basic information about the component, such as Commit Id, Rolling Status, Approval Policy, and Upgrade Plan. In the upper-right corner, click <strong>View Details</strong> to go to the Rolling Summary page and view the component update details.<br>• Go to the <strong>Rolling Summary</strong> page.<br>• In the Overview Information section, click <strong>Retry</strong>, <strong>Terminate</strong>, or <strong>Suspend</strong> to retry, terminate, or suspend a task. You can perform the operations only on unfinished tasks.<br>• The system can monitor and display the service level agreement (SLA) changes. You can view the real-time monitoring status of components.<br>• Click <strong>View Logs</strong> to view SLA monitoring logs.<br>• Click <strong>Edit SLA Configuration</strong> to modify the SLA configuration.<br>Note<br>You can view the SLA-related content only of services for which the SLA feature is enabled.<br>• Click <strong>View All</strong> to view the component update details.<br>• Click <strong>Edit Parameter</strong> to modify the relevant parameters. Only the parameters for unfinished tasks can be modified.<br>• In the <strong>Instance Details</strong> section, you can add multiple component tasks to the blacklist.<br>• <strong>Instance Details</strong>: displays information such as the change status of component instances, component actions, and metrics.<br>After a component instance is restarted, you can click <strong>Approve</strong> in the Actions column to run the restart task or click <strong>Cancel</strong> in the Actions column to clear the restart task.<br>Note<br>If the review operation is disabled for a product, service, or server role, the <strong>Approve</strong> button is dimmed.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ea761b86a21b476f8d821a30edea898c.jpeg" alt=""><br>Note<br>The Machine Changes tab is displayed only when the change type is Machine Scale-out, Machine Scale-In, Component Scale-out, or Component Unpublishing.<br>• <strong>Machine Changes</strong>: Machine changes in this module refer to machine scaling operations, excluding other operations such as machine repairs.<br>• The change content is displayed based on the <strong>Machine</strong>, <strong>Change</strong> <strong>Type</strong>, <strong>Status</strong>, and <strong>Actions</strong> columns.<br>• <strong>Machine</strong>: the name of the machine.<br>• <strong>Change Type</strong>: the change type. Valid values: Machine Scale-out, Machine Scale-in, Component Scale-out, and Component Unpublishing.<br>• <strong>Status</strong>: the status of the change. For more information, see the status in the Add to Cluster section.<br>• <strong>Actions</strong>: the actions that you can perform. You can log on to the machine and view the machine details.<br>• Click <strong>Terminal</strong> in the Actions column to log on to a machine.<br>• Click <strong>Details</strong> in the Actions column to go to the Machine Overview page and view the machine details.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/92f4a3143c726f8def2785b51f981281.jpeg" alt=""><br>• <strong>Basic Information</strong>: displays the following information: <strong>Change</strong> <strong>Status</strong>, <strong>Machine Status</strong>, <strong>Machine Action</strong>, <strong>Cluster</strong>, <strong>Machine</strong> <strong>Metrics</strong>, and <strong>Submission Time</strong>.<br>• <strong>Details</strong>: consists of <strong>Add to Cluster</strong>, <strong>Clone</strong>, and <strong>Deploy</strong> <strong>Component Instances</strong>.<br>• <strong>Add to Cluster</strong>: displays the cluster where the machine resides and the cluster to which you want to add the machine, as shown in the preceding figure.<br>• <strong>Status</strong>: the status of the machine change. Valid values:<br>• Failed: The change failed.<br>• Cancel: The change task is canceled. For example, the machine scale-in task is submitted when the machine scale-out task is not complete.<br>• Doing: The change is in progress.<br>• Waiting: The change is waiting to be performed.<br>• Done: The change is complete.<br>• <strong>Current Cluster</strong>: the cluster where the machine resides.<br>• <strong>Destination Cluster</strong>: the cluster to which you want to add the machine.<br>• <strong>Clone</strong>: indicates whether the cloning operation is executed when a machine is added to a cluster.<br>• Mode<br>• <strong>Pseudo-clone</strong>: The cloning operation is skipped when a machine is added to a cluster.<br>• <strong>Real Clone</strong>: The cloning operation is executed when a machine is added to a cluster.<br>• Click <strong>Metric</strong>. In the dialog box that appears, view the metric details on the <strong>Component Metrics</strong>, <strong>Machine Metrics</strong>, and <strong>System Service Metrics</strong> tabs.<br>• <strong>Status</strong>: For more information, see the status description in the <strong>Add to Cluster</strong> section.<br>• <strong>System Service</strong>: the service that triggers the cloning operation.<br>• <strong>Current Version</strong>: the current version of the server role on the machine.</td>
        </tr>
      </table>
 
@@ -8615,7 +8615,7 @@ You can view the details of tasks running on Apsara Infrastructure Management an
 
    - Details of a task on the PaaS base
 
-     ![](assets/6539022e0121ebcc650d791d6705501d.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6539022e0121ebcc650d791d6705501d.jpeg)
 
      | Section | Description |
      | --- | --- |
@@ -8624,7 +8624,7 @@ You can view the details of tasks running on Apsara Infrastructure Management an
      <table>
        <tr>
          <td>Subtask List</td>
-         <td>Displays the information about subtasks, including the <strong>ID and description</strong>, <strong>status</strong>, <strong>description</strong>, <strong>change object</strong>, <strong>creation time and end time</strong>, <strong>execution method</strong>, and <strong>actions</strong>.<br>Valid values of <strong>Status</strong>:<br>• Created<br>• Processing<br>• Suspended<br>• Completed<br>• Failed<br>• Terminated<br>Click <strong>Cluster</strong> in the Change Object column to go to the Cluster Details page.You can also choose <strong>Resources &gt; Product &amp; Cluster O&amp;M</strong> in the left-side navigation pane and find the cluster to view the cluster details.<br>Click <strong>Show Parameters</strong> in the Actions column to view the parameters and values.<br>Click <strong>Yaml</strong> in the Actions column to view the storage configuration information.<br>Move the pointer over the<img src="assets/eba26f7c0efdefb6dc2a08a8e3431efb.png" width="23" alt="">icon in the Actions column and click <strong>Modify</strong><br><strong>Execution Configuration</strong> to modify the configuration of the task.<br>Note<br>Only the configuration of unfinished tasks can be modified.<br>Move the pointer over the<img src="assets/eba26f7c0efdefb6dc2a08a8e3431efb.png" width="23" alt="">icon in the Actions column and click <strong>Approve</strong> to<br>approve the task.<br>Note<br>Only unfinished tasks can be approved.</td>
+         <td>Displays the information about subtasks, including the <strong>ID and description</strong>, <strong>status</strong>, <strong>description</strong>, <strong>change object</strong>, <strong>creation time and end time</strong>, <strong>execution method</strong>, and <strong>actions</strong>.<br>Valid values of <strong>Status</strong>:<br>• Created<br>• Processing<br>• Suspended<br>• Completed<br>• Failed<br>• Terminated<br>Click <strong>Cluster</strong> in the Change Object column to go to the Cluster Details page.You can also choose <strong>Resources &gt; Product &amp; Cluster O&amp;M</strong> in the left-side navigation pane and find the cluster to view the cluster details.<br>Click <strong>Show Parameters</strong> in the Actions column to view the parameters and values.<br>Click <strong>Yaml</strong> in the Actions column to view the storage configuration information.<br>Move the pointer over the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/eba26f7c0efdefb6dc2a08a8e3431efb.png" width="23" alt="">icon in the Actions column and click <strong>Modify</strong><br><strong>Execution Configuration</strong> to modify the configuration of the task.<br>Note<br>Only the configuration of unfinished tasks can be modified.<br>Move the pointer over the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/eba26f7c0efdefb6dc2a08a8e3431efb.png" width="23" alt="">icon in the Actions column and click <strong>Approve</strong> to<br>approve the task.<br>Note<br>Only unfinished tasks can be approved.</td>
        </tr>
      </table>
 
@@ -8650,7 +8650,7 @@ This topic describes how to manage the services deployed on Apsara Infrastructur
 
 5. On the **Service Instances** tab, the information of each instance is displayed in the **Where Instance In Cluster**, **Status**, and **Component Statistics (Ready/Total)** columns. You can also click **Instance Details** in the **Actions** column.
 
-   ![](assets/b8d15f89775ab0b829bbc39af3e604be.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b8d15f89775ab0b829bbc39af3e604be.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -8663,18 +8663,18 @@ This topic describes how to manage the services deployed on Apsara Infrastructur
 
    - Click **Create Template** to create a template. The following table describes the parameters.
 
-     ![](assets/439566e859a00ded51106adc1976d725.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/439566e859a00ded51106adc1976d725.jpeg)
 
      | Parameter | Description |
      | --- | --- |
      | Basic Information | • <strong>Name</strong>: the name of the template. This parameter is required.<br>• <strong>Group</strong>: the group of the template. You can select an existing group or click <strong>+ Create Group</strong> to create a group.<br>• <strong>Description</strong>: the description of the template. This parameter is required. |
-     | Template Content | • Enter a file name or folder name in the search box to filter template files.<br>• Click the<img src="assets/297dac4fe038e7a15e5c5f7c23e46d60.png" width="18" alt="">icon, and then choose <strong>Add Folder</strong> or <strong>Create File</strong>.<br>• Select the file that you create and click <strong>Show Content</strong>. In the text box on the right, enter the content of the file and click <strong>Preview and</strong> <strong>Submit</strong>.<br>• In the <strong>Confirm and Submit</strong> dialog box that appears, enter the content description and click OK.<br>• <strong>Submit Description</strong>: the description of the template content.<br>• <strong>Difference File</strong>: the differences between the file and the previous file. |
+     | Template Content | • Enter a file name or folder name in the search box to filter template files.<br>• Click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/297dac4fe038e7a15e5c5f7c23e46d60.png" width="18" alt="">icon, and then choose <strong>Add Folder</strong> or <strong>Create File</strong>.<br>• Select the file that you create and click <strong>Show Content</strong>. In the text box on the right, enter the content of the file and click <strong>Preview and</strong> <strong>Submit</strong>.<br>• In the <strong>Confirm and Submit</strong> dialog box that appears, enter the content description and click OK.<br>• <strong>Submit Description</strong>: the description of the template content.<br>• <strong>Difference File</strong>: the differences between the file and the previous file. |
 
    - Enter a template name in the Template search box to filter **service templates**. Fuzzy search is supported.
 
    - The following table describes the parameters in the service template list.
 
-     ![](assets/3c6a239d347a9218ec788ff68a82f0a3.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3c6a239d347a9218ec788ff68a82f0a3.jpeg)
 
      | Parameter | Description |
      | --- | --- |
@@ -8683,7 +8683,7 @@ This topic describes how to manage the services deployed on Apsara Infrastructur
      | Group | The group to which the template belongs. |
      | Last Modified At | The time when the service template was last modified. |
      | References | The number of times the service template is referenced.<br>Click the value in the References column of a service template to go to the template details page. On this page, view the details of the template in different versions that is referenced in clusters. |
-     | Actions | • Click <strong>Edit</strong> in the Actions column to edit a template.<br>• Click <strong>Delete</strong> in the Actions column to delete a template.<br>• Click <strong>Operation History</strong> in the Actions column to view the operation records of a template, including the description, version, operator, and operation time.<br>• Click <strong>Version Differences</strong> in the Actions column to view the differences between the current version and other versions.<br>• Click <strong>Deploy Template</strong> in the Actions column to deploy a service template. In the <strong>Deploy Template</strong> panel, perform the following operations:<br>a. Select a version from the <strong>Template Version</strong> drop-down list, enter description in the <strong>Comment</strong> field, select the cluster in which you want to deploy the template from the Selectable Cluster section, and then<br>click the<img src="assets/4eeb803e68731f62606055a9b4057a39.png" width="13" alt="">icon to add it to the Selected Cluster section.<br>Note<br>You can click <strong>Preview</strong> in the Actions column of the selected cluster to view the file changes.<br>b. Click <strong>Submit</strong>. In the <strong>Operation Confirm</strong> dialog box, check the deployment information and click OK. |
+     | Actions | • Click <strong>Edit</strong> in the Actions column to edit a template.<br>• Click <strong>Delete</strong> in the Actions column to delete a template.<br>• Click <strong>Operation History</strong> in the Actions column to view the operation records of a template, including the description, version, operator, and operation time.<br>• Click <strong>Version Differences</strong> in the Actions column to view the differences between the current version and other versions.<br>• Click <strong>Deploy Template</strong> in the Actions column to deploy a service template. In the <strong>Deploy Template</strong> panel, perform the following operations:<br>a. Select a version from the <strong>Template Version</strong> drop-down list, enter description in the <strong>Comment</strong> field, select the cluster in which you want to deploy the template from the Selectable Cluster section, and then<br>click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4eeb803e68731f62606055a9b4057a39.png" width="13" alt="">icon to add it to the Selected Cluster section.<br>Note<br>You can click <strong>Preview</strong> in the Actions column of the selected cluster to view the file changes.<br>b. Click <strong>Submit</strong>. In the <strong>Operation Confirm</strong> dialog box, check the deployment information and click OK. |
 
 <a id="section-5-1-4-3"></a>
 
@@ -8725,17 +8725,17 @@ You can view the service variables registered with products and the correspondin
 
 3. In the left-side navigation pane, choose O&M Tools > **Service Registration Variable Dashboard**.
 
-4. In the upper-right corner of the page, click the <img src="assets/6079460ddb94a18071fc8117880a80e1.png" width="25" alt=""> icon to export the configurations in the
+4. In the upper-right corner of the page, click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6079460ddb94a18071fc8117880a80e1.png" width="25" alt=""> icon to export the configurations in the
 
    list. A file in the **.xlsx** format is generated, and the file can be downloaded to your on-premises device by using a browser.
 
 5. In the upper part of the page, enter a value in the search box or click **Advanced Filter** to filter desired registration variables by **Service Registration**, **Service**, or **Cluster**.
 
-   ![](assets/7c8361e17a6e287fe08bc022d9d40943.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7c8361e17a6e287fe08bc022d9d40943.jpeg)
 
 6. In the lower part of the page, view the following information about variables: **Service**, **Service Registration**, **Cluster**, and **Update Time**.
 
-   ![](assets/94372a8bcf57f93a299cc33fe2581fef.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/94372a8bcf57f93a299cc33fe2581fef.jpeg)
 
    - Click the **show** **or** **hide** icon in the **Service Registration** column of the service that you want to manage to view or hide the registration information about the service.
 
@@ -8755,17 +8755,17 @@ The resource dashboard displays the instances of resources such as Domain Name S
 
 3. In the left-side navigation pane, choose O&M Tools > **Resource Dashboard**.
 
-4. In the upper-right corner of the page, click the <img src="assets/368ed08afe436fc8c1fb0055316c885d.png" width="20" alt=""> icon to export the configurations in the
+4. In the upper-right corner of the page, click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/368ed08afe436fc8c1fb0055316c885d.png" width="20" alt=""> icon to export the configurations in the
 
    list. A file in the **.json** format is generated, and the file can be downloaded to your on-premises device by using a browser.
 
 5. Enter a value in the search box to search for resources. You can also click **Advanced Filter** to filter resources by **name**, **product**, **cluster**, **service**, **component**, **application**, **type**, **status**, **parameters**, **result**, or their combinations.
 
-   ![](assets/74aa8816abfd36251efadbf1d589f77b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/74aa8816abfd36251efadbf1d589f77b.jpeg)
 
 6. In the resource list, view information about resources, including **Name**, **Product/Cluster**, **Component/Application**, **Status**, **Parameters**, **Result**, **Resource ID**, **Reprocess Status**, **Reprocess Message**, **Reprocess Result**, **Business Additional Configuration**, **Related Versions**, and **Error Message**.
 
-   ![](assets/d1fe26f088cd279ce31f0e6c8ce7ed36.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d1fe26f088cd279ce31f0e6c8ce7ed36.jpeg)
 
    - Click the **show and hide** icon in the **Parameters**, **Result**, and **Reprocess Result** columns of the resource that you want to manage to view or hide the resource parameters, resource request result, and second request status.
 
@@ -8809,7 +8809,7 @@ You can view the monitoring information about basic services to quickly identify
 
    - **Tianji Data Status**: displays Data Sync Time and Desired State Calc Time.
 
-     ![](assets/4d11756500d589c47e405c2385874fe5.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4d11756500d589c47e405c2385874fe5.jpeg)
 
 <a id="section-5-1-5"></a>
 
@@ -8862,7 +8862,7 @@ You can search for and log on to containers, VMs, and physical machines to perfo
 
        <li>
 
-       Click the <img src="assets/b4caeefb21f4e04267a95aac541616aa.png" width="14" alt=""> icon in the Docker column to refresh the column and try to obtain the
+       Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b4caeefb21f4e04267a95aac541616aa.png" width="14" alt=""> icon in the Docker column to refresh the column and try to obtain the
 
        docker ID. If **Log on to docker** appears next to the docker ID., the docker ID is obtained.
 
@@ -8888,11 +8888,11 @@ You can search for and log on to containers, VMs, and physical machines to perfo
 
        </ol>
 
-     ![](assets/27b7c269f2474d487741d8ae8c900182.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/27b7c269f2474d487741d8ae8c900182.jpeg)
 
    - Log on to the web terminal page and click the node to which you want to log on. You can
 
-     also click the <img src="assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon and select an account in the dialog box. By default, the ops account
+     also click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon and select an account in the dialog box. By default, the ops account
 
      is selected.
 
@@ -8900,11 +8900,11 @@ You can search for and log on to containers, VMs, and physical machines to perfo
      >
      > If a message that indicates that you have not installed the required certificate pops up, install a certificate for the corresponding region by following the instructions in the Installation Guide mentioned in the message.
      >
-     > ![](assets/e00f29ace3a3dc2ddd4e99564a5001a4.jpeg)
+     > ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e00f29ace3a3dc2ddd4e99564a5001a4.jpeg)
 
      - If no account meets your permission requirements, you can apply for a temporary account.
 
-       ![](assets/5d748bb018c8031d3ca819bcf0c94473.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5d748bb018c8031d3ca819bcf0c94473.jpeg)
 
        <ol type="a">
 
@@ -8912,7 +8912,7 @@ You can search for and log on to containers, VMs, and physical machines to perfo
 
        Select an account type and apply for an account.
 
-       ![](assets/24fd36dbfc8b2e550db7d24790a8d9fb.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/24fd36dbfc8b2e550db7d24790a8d9fb.jpeg)
 
        </li>
 
@@ -8924,7 +8924,7 @@ You can search for and log on to containers, VMs, and physical machines to perfo
        >
        > Click **View Review Progress** to go to the **Workflow details** page and view the approval progress. To go to the Workflow details page, choose **Platform Operation > O&M Change > Process Approval** in the top navigation bar. On the My Submission page, click the workflow that you want to view.
 
-       ![](assets/57b12829bca0f9537648f02a49874615.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/57b12829bca0f9537648f02a49874615.jpeg)
 
        </li>
 
@@ -8932,13 +8932,13 @@ You can search for and log on to containers, VMs, and physical machines to perfo
 
      - Enter Linux commands in the CLI window to perform related operations.
 
-       ![](assets/c3349e6f9d62f75c546df3ee2d780948.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c3349e6f9d62f75c546df3ee2d780948.jpeg)
 
        > **Note**
        >
        > You cannot log on to a server that has a region different from that of the web terminal page. After you switch the region, an error message appears on the web terminal page. Troubleshoot the issue by following the instructions on the page.
        >
-       > ![](assets/5b05f956b726512c4bc1f06f8baf5f0b.jpeg)
+       > ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5b05f956b726512c4bc1f06f8baf5f0b.jpeg)
 
      - Click **File Actions** to upload and download files.
 
@@ -8954,7 +8954,7 @@ You can search for and log on to containers, VMs, and physical machines to perfo
        >
        > The size of the uploaded or downloaded object cannot exceed 200 MB.
 
-   - Click the <img src="assets/95d9c0d08d43d11d4467c84c1c873822.png" width="17" alt=""> icon of a node and click **OK** in the Delete Node dialog box to disconnect the
+   - Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/95d9c0d08d43d11d4467c84c1c873822.png" width="17" alt=""> icon of a node and click **OK** in the Delete Node dialog box to disconnect the
 
      node.
 
@@ -8968,9 +8968,9 @@ You can search for and log on to containers, VMs, and physical machines to perfo
 
    - Select a machine name from the drop-down list and click **Log On** to log on to the machine.
 
-     ![](assets/79ba8edc804399c4f06b9df79840dd49.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/79ba8edc804399c4f06b9df79840dd49.jpeg)
 
-   - Log on to the web terminal page, click the logon node or <img src="assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon, and select an account in
+   - Log on to the web terminal page, click the logon node or <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon, and select an account in
 
      the pop-up window. By default, the ops account is selected.
 
@@ -8978,11 +8978,11 @@ You can search for and log on to containers, VMs, and physical machines to perfo
      >
      > If no certificate dialog box is installed on the page, install the certificate of the corresponding region according to the installation guide in the prompt first.
      >
-     > ![](assets/e00f29ace3a3dc2ddd4e99564a5001a4.jpeg)
+     > ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e00f29ace3a3dc2ddd4e99564a5001a4.jpeg)
 
      - If you do not have a logon account that meets the required permissions, you can apply for a temporary account.
 
-       ![](assets/5d748bb018c8031d3ca819bcf0c94473.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5d748bb018c8031d3ca819bcf0c94473.jpeg)
 
        <ol type="a">
 
@@ -8990,7 +8990,7 @@ You can search for and log on to containers, VMs, and physical machines to perfo
 
        Select an account type and apply.
 
-       ![](assets/24fd36dbfc8b2e550db7d24790a8d9fb.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/24fd36dbfc8b2e550db7d24790a8d9fb.jpeg)
 
        </li>
 
@@ -9002,7 +9002,7 @@ You can search for and log on to containers, VMs, and physical machines to perfo
        >
        > Click **View Approval Progress** to go to the **O&M Change > Process Approval > My Submission > Workflow Details** page to view the approval progress.
 
-       ![](assets/57b12829bca0f9537648f02a49874615.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/57b12829bca0f9537648f02a49874615.jpeg)
 
        </li>
 
@@ -9010,13 +9010,13 @@ You can search for and log on to containers, VMs, and physical machines to perfo
 
      - Enter Linux commands on the black screen to perform related operations.
 
-       ![](assets/650b7abc6e882d0002af9a021da7e1af.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/650b7abc6e882d0002af9a021da7e1af.jpeg)
 
        > **Note**
        >
        > The terminal page does not support cross-region connections. You need to log on to the server that belongs to the same region on the page of the corresponding region. After you switch the region, an error message appears on the terminal page. Troubleshoot the error by following the instructions on the page.
        >
-       > ![](assets/5b05f956b726512c4bc1f06f8baf5f0b.jpeg)
+       > ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5b05f956b726512c4bc1f06f8baf5f0b.jpeg)
 
      - Click **File Actions** to upload and download files.
 
@@ -9032,7 +9032,7 @@ You can search for and log on to containers, VMs, and physical machines to perfo
        >
        > The size of the uploaded or downloaded object cannot exceed 200 MB.
 
-   - Click the <img src="assets/95d9c0d08d43d11d4467c84c1c873822.png" width="16" alt=""> icon of a node and click **OK** in the Delete Node dialog box to disconnect the
+   - Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/95d9c0d08d43d11d4467c84c1c873822.png" width="16" alt=""> icon of a node and click **OK** in the Delete Node dialog box to disconnect the
 
      node.
 
@@ -9058,27 +9058,27 @@ Log in to the database used by a server role within a service and perform relate
 
 5. The lower part of the page displays databases used by all server roles within the selected service. Select one database and click **Log In** in the corresponding **Actions** column.
 
-   ![](assets/057f8c41a411625864c37fe170c704b6.png)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/057f8c41a411625864c37fe170c704b6.png)
 
-6. On the web terminal page, click an available node or the <img src="assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon.
+6. On the web terminal page, click an available node or the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon.
 
    > **Note**
    >
    > If a message that indicates that you have not installed the required certificate pops up, install a certificate for the corresponding region by following the instructions in the Installation Guide mentioned in the message.
    >
-   > ![](assets/e00f29ace3a3dc2ddd4e99564a5001a4.jpeg)
+   > ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e00f29ace3a3dc2ddd4e99564a5001a4.jpeg)
 
    Enter SQL statements on the command-line interface to perform related operations.
 
-   ![](assets/b865fe3e8acbd4e368e82866cec9f8c4.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b865fe3e8acbd4e368e82866cec9f8c4.jpeg)
 
    > **Note**
    >
    > The terminal page does not support cross-region connections. You must log in to databases within the same region. After you switch regions, the terminal page may display an error message. Follow the instructions on the page to troubleshoot.
    >
-   > ![](assets/5b05f956b726512c4bc1f06f8baf5f0b.jpeg)
+   > ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5b05f956b726512c4bc1f06f8baf5f0b.jpeg)
 
-7. Click the <img src="assets/95d9c0d08d43d11d4467c84c1c873822.png" width="19" alt=""> icon of a logged-in node and then click **Confirm** in the dialog box to
+7. Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/95d9c0d08d43d11d4467c84c1c873822.png" width="19" alt=""> icon of a logged-in node and then click **Confirm** in the dialog box to
 
    disconnect from the current node.
 
@@ -9106,9 +9106,9 @@ Log in to the switch to perform related operations.
    >
    > If the target switch has not been assigned an IP address, login is not supported and the button is grayed out. Hover over the Log In button to view the specific reason.
 
-   ![](assets/e07d2e83226e4701b975f19039b210ea.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e07d2e83226e4701b975f19039b210ea.jpeg)
 
-5. On the web terminal page, click an accessible node or the <img src="assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon. A pop-up prompts you to
+5. On the web terminal page, click an accessible node or the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon. A pop-up prompts you to
 
    enter a username. Confirm it and log in.
 
@@ -9116,21 +9116,21 @@ Log in to the switch to perform related operations.
    >
    > If a message that indicates that you have not installed the required certificate pops up, install a certificate for the corresponding region by following the instructions in the Installation Guide mentioned in the message.
    >
-   > ![](assets/e00f29ace3a3dc2ddd4e99564a5001a4.jpeg)
+   > ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e00f29ace3a3dc2ddd4e99564a5001a4.jpeg)
 
    - Manually enter the password as prompted. You can access the switch only after entering the correct password. If you enter an incorrect password, you are returned to the jump server as the ops user.
 
    - After accessing the switch, enter Linux commands in the terminal to perform related operations.
 
-     ![](assets/90db27be6d61c2ac2dee5002aee2ea1e.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/90db27be6d61c2ac2dee5002aee2ea1e.jpeg)
 
      > **Note**
      >
      > The terminal page does not support cross-region connections. You must log in to switches within the same region. After switching regions, an error message will appear on the terminal page. Follow the instructions on the page to troubleshoot.
      >
-     > ![](assets/5b05f956b726512c4bc1f06f8baf5f0b.jpeg)
+     > ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5b05f956b726512c4bc1f06f8baf5f0b.jpeg)
 
-6. Click the <img src="assets/95d9c0d08d43d11d4467c84c1c873822.png" width="19" alt=""> icon of the logged-in node, and click **Confirm** in the dialog box to disconnect
+6. Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/95d9c0d08d43d11d4467c84c1c873822.png" width="19" alt=""> icon of the logged-in node, and click **Confirm** in the dialog box to disconnect
 
    the current logged-in node.
 
@@ -9166,7 +9166,7 @@ You can view the information about temporary account authorization.
    | Expiration Time | The time when the authorization expires. |
    | Actions | The operation that you can perform. Valid value: Reclaim permissions.<br>Note<br>You can revoke permissions when the following conditions are met:<br>• The authorization does not expire.<br>• The user has the permission to revoke the permissions of the authorized account. For example, only the OAM super administrators can revoke the permissions of the root account. |
 
-   ![](assets/7b5bd4d82b1e72007802b9c24297339d.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7b5bd4d82b1e72007802b9c24297339d.jpeg)
 
 <a id="section-5-1-5-3"></a>
 
@@ -9200,7 +9200,7 @@ You can manage the CLI commands that are run by using web clients.
    | Command Set | Enter the set of commands that are used to implement management. |
    | Status | Specifies whether to disable the policy. |
 
-   ![](assets/1d6e5cbd3bc632f7f0abe20ad1d53302.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1d6e5cbd3bc632f7f0abe20ad1d53302.jpeg)
 
    **More operations**
 
@@ -9238,7 +9238,7 @@ You can view the operation records of commands that are executed by using web cl
 
 3. In the command record list, view the following information: **Command**, **Operated By**, **Operated At**, **Machine/Container**, **Target Type**, **SessionId**, and **Audit Result**.
 
-   ![](assets/46d2f161cfbf9a93745e16bb9902ee68.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/46d2f161cfbf9a93745e16bb9902ee68.jpeg)
 
 **Upload and Download Audit**
 
@@ -9250,7 +9250,7 @@ You can view the information about file uploads and downloads that are performed
 
 3. The list contains the following information: **Operation Type**, **File Path**, **Operated By**, **Operated At**, and **Machine/Container**.
 
-   ![](assets/bf59c0571f9185966f676538dc3f2a7c.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/bf59c0571f9185966f676538dc3f2a7c.jpeg)
 
 **Playback**
 
@@ -9260,11 +9260,11 @@ You can view the video playbacks of all commands that are executed on a machine.
 
 2. Click **Advanced Filter** to filter video records by **Operated At**, **Operated By**, **Machine**, or their combinations.
 
-   ![](assets/99a3c547b8702ececfc7b4366845b14e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/99a3c547b8702ececfc7b4366845b14e.jpeg)
 
 3. Click **View** in the **Actions** column of an operation record.
 
-4. In the video playback window, click the <img src="assets/6a9b7eb5320cf29f5054c04ef8d2c8fc.png" width="13" alt=""> icon to play back the video.
+4. In the video playback window, click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6a9b7eb5320cf29f5054c04ef8d2c8fc.png" width="13" alt=""> icon to play back the video.
 
 <a id="section-5-2"></a>
 
@@ -9638,7 +9638,7 @@ You have the required permissions for Service Catalog administration.
 
 3. The page displays the list of all services. Click **Advanced Filter** to filter services by combining criteria such as **Service name**, **Service type**, **Classification**, and **Service Status**.
 
-   ![](assets/d1c200d5f3e888a330fe5e45c8fd65b8.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d1c200d5f3e888a330fe5e45c8fd65b8.jpeg)
 
 4. Click **View** in the **Operation** column of the target service to check its details or go to the service console.
 
@@ -9750,7 +9750,7 @@ You have the required permissions for Service Catalog administration.
      </tr>
    </table>
 
-   ![](assets/010a84bf31c2e46b005bf1275ee51900.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/010a84bf31c2e46b005bf1275ee51900.jpeg)
 
 6. After configuration, click **Submit**.
 
@@ -9772,7 +9772,7 @@ You have obtained service catalog administrator permissions.
 
 3. On the page that appears, a list of all templates is displayed. You can filter templates by **Template name**, **Template status**, and **Template type**.
 
-   ![](assets/2d6f9821523adfef8521ae949bdfbf74.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2d6f9821523adfef8521ae949bdfbf74.jpeg)
 
 4. Find the template that you want to view and click **View** in the **Operation** column to view the details of the template.
 
@@ -9780,7 +9780,7 @@ You have obtained service catalog administrator permissions.
 
    - On the **Template orchestration** tab, view the template orchestration flowchart. Click a step in the flowchart to obtain the details of the corresponding node.
 
-     ![](assets/7aa35b0ffe3849bc34b8adf8e83b8ce4.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7aa35b0ffe3849bc34b8adf8e83b8ce4.jpeg)
 
 **Import templates**
 
@@ -9806,11 +9806,11 @@ The service catalog administrator permissions are obtained.
 
 3. The page displays the categories of services. You can select a category in the **Classification** drop-down list.
 
-   ![](assets/eb9143f6017acb1c928d7473fcb41d68.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/eb9143f6017acb1c928d7473fcb41d68.jpeg)
 
 4. Find the category that you want to modify and click **Edit** in the **Operation** column. In the dialog box that appears, modify the **Authorized User**, **Authorized User Group**, and **Authorized user role** parameters and click **OK**.
 
-   ![](assets/c03ad47bda549c7fb8b507f54eedcac0.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c03ad47bda549c7fb8b507f54eedcac0.jpeg)
 
 <a id="section-5-3-5"></a>
 
@@ -9838,7 +9838,7 @@ Before you execute a script or an O&M job on a host, you can view the specific i
 
    View the host information that meets the query conditions, including **Hostname**, **IP Address**, **Product**, **Cluster**, **Operating System**, and **Data Center**.
 
-   ![](assets/d8948ea70639a483bcb00557acc6bc50.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d8948ea70639a483bcb00557acc6bc50.jpeg)
 
 <a id="section-5-3-5-2"></a>
 
@@ -9862,7 +9862,7 @@ Before you execute a script or an O&M job on a Docker container, you can view th
 
    You can view the information about Docker containers that meets the query conditions, including **Server Role Name**, **Type**, **Hostname**, **Host IP Address**, **Product**, **Cluster**, and **Service**.
 
-   ![](assets/0d2ce0507f5ef8b5b220426ba38a7181.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0d2ce0507f5ef8b5b220426ba38a7181.jpeg)
 
 <a id="section-5-3-5-3"></a>
 
@@ -9890,7 +9890,7 @@ A script library is used to store scripts for implementing various features and 
    | Description | The description of the script. |
    | Script Content | The content of the script.<br>Note<br>When you write a script, you must add a script interpreter. For example, add <strong>#!/bin/bash</strong> for a Shell script or <strong>#!/usr/bin/python</strong> for a Python script. The path of the interpreter may vary with the execution resources and environments. |
 
-   ![](assets/c38005f81e955dc3b7e49573c5064765.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c38005f81e955dc3b7e49573c5064765.jpeg)
 
 5. Click **Test**. The system checks the script content. If the **The script has high-risk commands. Do you want to continue?** message appears, check whether the script content is correct.
 
@@ -9904,7 +9904,7 @@ A script library is used to store scripts for implementing various features and 
    >
    > The SSH protocol is used to copy files to the host or Docker container. Therefore, the test execution process may be slow.
 
-   ![](assets/e9c97442dc8f72944e2b9ec9020ca75f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e9c97442dc8f72944e2b9ec9020ca75f.jpeg)
 
 7. In the test result dialog box, view the test result of the script.
 
@@ -10038,7 +10038,7 @@ When an O&M job is executed in an on-site environment, software is downloaded fr
    | Description | Enter the description of the software. |
    | Upload File | Click <strong>Click Here to Upload</strong> to upload a local file. The size of the file cannot exceed 500 MB. |
 
-   ![](assets/5132f8f472116a2f588fdaf7f2315145.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5132f8f472116a2f588fdaf7f2315145.jpeg)
 
    > **Note**
    >
@@ -10119,11 +10119,11 @@ An O&M job can be used to independently complete an O&M task such as software di
      </tr>
      <tr>
        <td>Phased Execution Mechanism Settings</td>
-       <td>Select a phased execution rule for scripts.<br>• None (You do not need to specify this parameter, and all target <strong>hosts are executed directly.)</strong>: The scripts are executed on all the selected hosts or Docker containers in a single batch. You can select this option if you are selecting only a few hosts or Docker containers, or if you have confirmed that you do not have problem with script execution.<br>• Automatically Execute (You do not need to specify batches. The system executes jobs in two batches. After the execution of the first batch is complete, the second batch is automatically <strong>executed.)</strong>: The scripts are executed in two batches on the selected hosts or Docker containers. One batch is executed at a time. After the first batch is executed, the second batch starts to be executed. If the first batch fails to be executed, the second batch is not executed.<br>Note<br>If you set Resource Type to docker, the selected Docker containers are automatically divided into batches based on the server role name so that Docker containers with the same server role are in different batches.<br>• Stop Waiting (You do not need to specify batches. The system executes jobs in two batches. After the execution of the first batch is complete, the process suspends. The second batch is <strong>executed after confirmation.)</strong>: The scripts are executed in two batches on the selected hosts or Docker containers. The first batch is executed first. If the first batch is executed, a job approval is sent. When the approval is passed, the second batch starts to be executed. If the first batch fails to be executed, the execution is stopped and no job approval is sent.<br>Note<br>If you set Resource Type to docker, the selected Docker containers are automatically divided into batches based on the server role name so that Docker containers with the same server role are in different batches.<br>• Phased execution rules apply to physical servers by default but are not applicable to VMs or Docker containers. (The default phased execution rule is a cluster-based algorithm and is <strong>executed automatically on multiple hosts in parallel.)</strong>: This option is applicable only to physical machines, but not to VMs or Docker containers. The scripts are executed in batches based on the phased execution rules provided in Apsara Infrastructure Management. After a batch is executed, a job approval is sent. When the approval is passed, the next batch starts to be executed. If the batch fails to be executed, the execution is stopped and no job approval is sent. Scripts are executed by cluster based on the following rules on the machines in each cluster:<br>• For clusters in Server Load Balancer (SLB), Virtual Private Cloud (VPC), Apsara Infrastructure Management, ApsaraDB RDS, MiniRDS, Object Storage Service (OSS), and Blink, the scripts are executed machine by machine.<br>• For clusters other than the preceding ones and that contain 10 or fewer machines, the scripts are executed on the machines in the following order: 1 machine, 1 machine, 2 machines, 3 machines, and then the remaining machines.<br>• For clusters other than the preceding ones and that contain more than 10 machines, the scripts are executed on the machines in the following order: 1 machine, 3 machines, 5 machines, N/3-1 (rounded down) machines, and N/3-1 machines until the scripts are executed on all the machines. N is the number of machines in the cluster.Note<br>If a cluster contains both physical machines and VMs, the scripts are executed on all the VMs in the last batch.<br>• <strong>Custom</strong>: You can set the batches on your own to execute the scripts.<br>a. In the <strong>Batch Settings</strong> drop-down list, select the hosts or Docker containers for the corresponding batch.<br>b. Click the<img src="assets/7514dda516bba673cb311a390874a2c7.png" width="18" alt="">icon to add a batch and select the hosts or Docker<br>containers for the corresponding batch.<br>Note<br>• You can add up to three batches.<br>• Click the icon to delete a batch.<br><img src="assets/df586fc59d32954829f1a320ea89117b.png" width="19" alt=""><br>c. Specify <strong>Phased Execution Condition</strong>.<br>• <strong>Automatic Execution per Batch</strong>: A batch is executed first. If the batch is executed, the next batch starts to be executed. If the batch fails to be executed, the next batch is not executed.<br>• <strong>Waiting for Review and Confirmation</strong>: A batch is executed first.If the batch is executed, a job approval is sent. When the approval is passed, the next batch starts to be executed. If the batch fails to be executed, the execution is stopped and no job approval is sent.</td>
+       <td>Select a phased execution rule for scripts.<br>• None (You do not need to specify this parameter, and all target <strong>hosts are executed directly.)</strong>: The scripts are executed on all the selected hosts or Docker containers in a single batch. You can select this option if you are selecting only a few hosts or Docker containers, or if you have confirmed that you do not have problem with script execution.<br>• Automatically Execute (You do not need to specify batches. The system executes jobs in two batches. After the execution of the first batch is complete, the second batch is automatically <strong>executed.)</strong>: The scripts are executed in two batches on the selected hosts or Docker containers. One batch is executed at a time. After the first batch is executed, the second batch starts to be executed. If the first batch fails to be executed, the second batch is not executed.<br>Note<br>If you set Resource Type to docker, the selected Docker containers are automatically divided into batches based on the server role name so that Docker containers with the same server role are in different batches.<br>• Stop Waiting (You do not need to specify batches. The system executes jobs in two batches. After the execution of the first batch is complete, the process suspends. The second batch is <strong>executed after confirmation.)</strong>: The scripts are executed in two batches on the selected hosts or Docker containers. The first batch is executed first. If the first batch is executed, a job approval is sent. When the approval is passed, the second batch starts to be executed. If the first batch fails to be executed, the execution is stopped and no job approval is sent.<br>Note<br>If you set Resource Type to docker, the selected Docker containers are automatically divided into batches based on the server role name so that Docker containers with the same server role are in different batches.<br>• Phased execution rules apply to physical servers by default but are not applicable to VMs or Docker containers. (The default phased execution rule is a cluster-based algorithm and is <strong>executed automatically on multiple hosts in parallel.)</strong>: This option is applicable only to physical machines, but not to VMs or Docker containers. The scripts are executed in batches based on the phased execution rules provided in Apsara Infrastructure Management. After a batch is executed, a job approval is sent. When the approval is passed, the next batch starts to be executed. If the batch fails to be executed, the execution is stopped and no job approval is sent. Scripts are executed by cluster based on the following rules on the machines in each cluster:<br>• For clusters in Server Load Balancer (SLB), Virtual Private Cloud (VPC), Apsara Infrastructure Management, ApsaraDB RDS, MiniRDS, Object Storage Service (OSS), and Blink, the scripts are executed machine by machine.<br>• For clusters other than the preceding ones and that contain 10 or fewer machines, the scripts are executed on the machines in the following order: 1 machine, 1 machine, 2 machines, 3 machines, and then the remaining machines.<br>• For clusters other than the preceding ones and that contain more than 10 machines, the scripts are executed on the machines in the following order: 1 machine, 3 machines, 5 machines, N/3-1 (rounded down) machines, and N/3-1 machines until the scripts are executed on all the machines. N is the number of machines in the cluster.Note<br>If a cluster contains both physical machines and VMs, the scripts are executed on all the VMs in the last batch.<br>• <strong>Custom</strong>: You can set the batches on your own to execute the scripts.<br>a. In the <strong>Batch Settings</strong> drop-down list, select the hosts or Docker containers for the corresponding batch.<br>b. Click the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7514dda516bba673cb311a390874a2c7.png" width="18" alt="">icon to add a batch and select the hosts or Docker<br>containers for the corresponding batch.<br>Note<br>• You can add up to three batches.<br>• Click the icon to delete a batch.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/df586fc59d32954829f1a320ea89117b.png" width="19" alt=""><br>c. Specify <strong>Phased Execution Condition</strong>.<br>• <strong>Automatic Execution per Batch</strong>: A batch is executed first. If the batch is executed, the next batch starts to be executed. If the batch fails to be executed, the next batch is not executed.<br>• <strong>Waiting for Review and Confirmation</strong>: A batch is executed first.If the batch is executed, a job approval is sent. When the approval is passed, the next batch starts to be executed. If the batch fails to be executed, the execution is stopped and no job approval is sent.</td>
      </tr>
    </table>
 
-   ![](assets/f35d447870ced166a29e1552caf15764.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f35d447870ced166a29e1552caf15764.jpeg)
 
 **Related operations**
 
@@ -10173,7 +10173,7 @@ An O&M job can be used to independently complete an O&M task such as software di
 
 3. On this page, view the details of the O&M job.
 
-   ![](assets/c401ae9089f946883ffa9f1ea2b6f8b3.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c401ae9089f946883ffa9f1ea2b6f8b3.jpeg)
 
    The information includes **O&M Job Name**, **Start At**, **End At**, and **Result**.
 
@@ -10241,11 +10241,11 @@ You can view the execution history of O&M jobs on the Execution History page. In
 
 4. You can filter the execution history of a job by **O&M Job Name** and **Time Range**. You can view the following information about the job: **Job Name**, **Start At**, **End At**, **Execution Method**, **Result**, and **Job Information**.
 
-   ![](assets/0b0440b0fb4b6a0d7a868003587223e0.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0b0440b0fb4b6a0d7a868003587223e0.jpeg)
 
 5. Find the O&M job that you want to manage and click **View** in the **Details** column. The **Execution History Report** page appears. On this page, you can view the execution history of the O&M job.
 
-   ![](assets/80de8a9e6ec724ee38b5d66849f78940.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/80de8a9e6ec724ee38b5d66849f78940.jpeg)
 
    <ol type="i">
 
@@ -10271,7 +10271,7 @@ You can view the execution history of O&M jobs on the Execution History page. In
 
 2. In the **Job History Snapshot** panel, view the details of the transferred files, executable scripts, and executable hosts.
 
-   ![](assets/af98e7b7700e4e5bad937e54886d2d69.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/af98e7b7700e4e5bad937e54886d2d69.jpeg)
 
 **Proceed with execution**
 
@@ -10327,7 +10327,7 @@ The ANS component is added and a notification channel is configured.
 
 4. In the dialog box that appears, configure **Token** and click **OK**.
 
-   ![](assets/837d2ffe911e7d046dc15593add46094.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/837d2ffe911e7d046dc15593add46094.jpeg)
 
 **Related operations**
 
@@ -10365,7 +10365,7 @@ You have obtained the permissions of a service catalog administrator.
 
 3. On the Execution record page, view the list of all service execution records. You can filter execution records by **Service name** and **Process status**.
 
-   ![](assets/1f3d8473fdb3b1fa117aba069253a1dc.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1f3d8473fdb3b1fa117aba069253a1dc.jpeg)
 
    > **Note**
    >
@@ -10373,7 +10373,7 @@ You have obtained the permissions of a service catalog administrator.
 
 4. Find the execution record that you want to view, and click **Details** in the **Operation** column to view the details of the execution record.
 
-   ![](assets/f0c15eb4d9db929dc6950e64e1c1ad21.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f0c15eb4d9db929dc6950e64e1c1ad21.jpeg)
 
    - On the **Parameter form** tab, view the information about the instance parameters to be changed.
 
@@ -10423,7 +10423,7 @@ This topic describes how to view the overall capacity usage and capacity excepti
 
 4. On the Capacity Overview page, view data in the following sections.
 
-   ![](assets/fa296a23ec95059103feea8dbe3ec589.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/fa296a23ec95059103feea8dbe3ec589.jpeg)
 
    - **Service Statistics**: displays the number of cloud services whose capacities are connected to the current environment, including **Total Services**, **Current Normal Capacity (Services)**, and **Current Capacity Alert (Services)**.
 
@@ -10439,7 +10439,7 @@ This topic describes how to view the overall capacity usage and capacity excepti
 
      - You can click **All Clusters**, **Current Capacity Alert (Clusters)**, or **Forecast Capacity Alert (Clusters)** to view details of the relevant clusters.
 
-       ![](assets/877bcc0cb4d4b6ab2ae0bcff84e13884.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/877bcc0cb4d4b6ab2ae0bcff84e13884.jpeg)
 
 5. In the upper-right corner of the Capacity Overview page, click **Refresh** to refresh the capacity overview data.
 
@@ -10469,11 +10469,11 @@ You can view ECS capacity data to obtain the usage and availability of Elastic C
 
    - In the **Capacity Allocation Rate Trend** section, you can view the trend chart that shows the **vCPU**, **Memory**, and **GPU** allocation rates of all clusters or a single cluster within different time periods. Move the pointer over a specific point of time to view the corresponding data.
 
-   ![](assets/abe18645fc34fec5c08cd9324f2d4e15.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/abe18645fc34fec5c08cd9324f2d4e15.jpeg)
 
 5. On the **Cluster Capacity** tab in the lower part of the page, click **Advanced Filter** to filter clusters by **Cluster**, **Cluster Type**, **Zone**, and **CPU** to obtain the capacity data of the desired cluster.
 
-   ![](assets/5f292cb4c7941885365915ed0f67e34b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5f292cb4c7941885365915ed0f67e34b.jpeg)
 
    - Click the up or down arrow icon next to **vCPU Allocation Rate**, **Memory Allocation Rate**, or **GPU Allocation Rate** to sort cluster capacity data in descending order or ascending order.
 
@@ -10485,7 +10485,7 @@ You can view ECS capacity data to obtain the usage and availability of Elastic C
 
 6. On the **Dedicated Resource Pool Capacity** tab in the lower part of the page, click **Advanced Filter** to filter clusters by **Resource Type**, **Cluster**, and **CPU** to obtain the dedicated resource pool capacity data.
 
-   ![](assets/ded3190ddf085b39a2220f868e70484d.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ded3190ddf085b39a2220f868e70484d.jpeg)
 
    - Click the up or down arrow icon next to **vCPU Allocation Rate**, **Memory Allocation Rate**, or **GPU Allocation Rate** to sort dedicated resource pool capacity data in descending order or ascending order.
 
@@ -10497,7 +10497,7 @@ You can view ECS capacity data to obtain the usage and availability of Elastic C
 
 7. On the **Specification Inventory** tab, filter clusters by **Specification** and **Resource Type** to obtain the desired instance types. Fuzzy search is supported.
 
-   ![](assets/cde299d60bb467e640a1df211f4ecb8e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cde299d60bb467e640a1df211f4ecb8e.jpeg)
 
    - Click the up or down arrow icon next to **Instances That Can Be Created** or **Created Instances** to sort the instance types in ascending or descending order.
 
@@ -10529,7 +10529,7 @@ You can view ECS capacity data to obtain the usage and availability of Elastic C
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -10559,7 +10559,7 @@ You can view the license capacity data of Container Service for Kubernetes (ACK)
 
    - In the **Capacity Allocation Rate Trend** section, you can view the trend chart that shows the **vCPU** allocation rate within different time periods. Move the pointer over a specific point in time to view the corresponding data.
 
-   ![](assets/c7e805fbb68e3a31d61ebd6fa6b8f0c0.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c7e805fbb68e3a31d61ebd6fa6b8f0c0.jpeg)
 
 5. On the **Capacity Details** tab in the lower part of the page, view the capacity details.
 
@@ -10593,7 +10593,7 @@ You can view the license capacity data of Container Service for Kubernetes (ACK)
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -10633,7 +10633,7 @@ You can view the IP address capacity data of Server Load Balancer (SLB) to obtai
      >
      > - The clusters that have **slbExtraCluster** in their names are expanded clusters.
 
-   ![](assets/80686fdcbc584f3cbba25bd306c32ad3.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/80686fdcbc584f3cbba25bd306c32ad3.jpeg)
 
 5. On the **Capacity Details** tab of the page, search for capacity data by **Cluster** and **Zone**.
 
@@ -10665,7 +10665,7 @@ You can view the IP address capacity data of Server Load Balancer (SLB) to obtai
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -10701,7 +10701,7 @@ You can view the performance capacity data of Server Load Balancer (SLB) to obta
      >
      > - The clusters that have **slbExtraCluster** in their names are expanded clusters.
 
-   ![](assets/cb5caa93f4e4aa74feca03dcdb0a74a5.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cb5caa93f4e4aa74feca03dcdb0a74a5.jpeg)
 
 5. On the **Capacity Details** tab of the page, click **Advanced Filter** and search for capacity data by **Cluster** and **Zone**.
 
@@ -10733,7 +10733,7 @@ You can view the performance capacity data of Server Load Balancer (SLB) to obta
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -10763,7 +10763,7 @@ You can view Elastic IP Address (EIP) capacity data to obtain the usage and avai
 
    - In the **Capacity Allocation Rate Trend** section, you can view the trend chart that shows the **Public Network** and **Hybrid Cloud** allocation rates within different time periods. Move the pointer over a specific point to view the corresponding data.
 
-   ![](assets/7e035f9a97e021ae2db82587607f06af.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7e035f9a97e021ae2db82587607f06af.jpeg)
 
 5. On the **Capacity Details** tab of the page, view the capacity details.
 
@@ -10795,7 +10795,7 @@ You can view Elastic IP Address (EIP) capacity data to obtain the usage and avai
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -10825,7 +10825,7 @@ You can view the IP address capacity data of Virtual Private Cloud (VPC) to obta
 
    - In the **Cluster Allocation Rate Trend** section, you can view the trend chart that shows the **anytunnel ip** and **Reverse Access IP Address** allocation rates within different time periods. Move the pointer over a specific point to view the corresponding data.
 
-   ![](assets/eea001cf7316fc18843dc467bf2bfb37.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/eea001cf7316fc18843dc467bf2bfb37.jpeg)
 
 5. On the **Capacity Details** tab of the page, view the capacity details.
 
@@ -10857,7 +10857,7 @@ You can view the IP address capacity data of Virtual Private Cloud (VPC) to obta
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -10887,7 +10887,7 @@ You can view the performance capacity data of Virtual Private Cloud (VPC) to obt
 
    - In the **Cluster Allocation Rate Trend** section, you can view the trend chart that shows the **Bandwidth Plans**, **DNAT Rules for Non-AnyTunnel Instances**, **EIPs**, **EIP Attributes**, **Reverse Access Entries**, **Reverse Access Entries (including Bandwidth)**, **SNAT Rules**, **SNAT Sessions**, **vlink Entries**, **VM-NC Entries**, **IPv4 Route Entries**, **IPv6 Route Leaf Nodes**, and **IPv6 Route Tree Nodes** allocation rates of the specified cluster within different time periods. Move the pointer over a specific point to view the corresponding data.
 
-   ![](assets/21c077b8bea118be8a701d335f5dadb0.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/21c077b8bea118be8a701d335f5dadb0.jpeg)
 
 5. On the **Capacity Details** tab of the page, click **Advanced Filter** and search for capacity data by **Cluster** and **Zone**.
 
@@ -10919,7 +10919,7 @@ You can view the performance capacity data of Virtual Private Cloud (VPC) to obt
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -10949,7 +10949,7 @@ You can view the performance capacity data of Express Connect to obtain the usag
 
    - In the **Cluster Allocation Rate Trend** section, you can view the trend chart that shows the **vlink Entries**, **vlink Health Check Entries**, **vlink IPv6 Health Check Entries**, **VM-NC Entries**, **VM-NC IPv6 Entries**, **IPv4 Route Entries**, and **IPv6 Route Entries** allocation rates of the specified cluster within different time periods. Move the pointer over a specific point to view the corresponding data.
 
-   ![](assets/7cf754bc2aac133968983ea7a59f2970.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7cf754bc2aac133968983ea7a59f2970.jpeg)
 
 5. On the **Capacity Details** tab of the page, click **Advanced Filter** and search for capacity data by **Cluster** and **Zone**.
 
@@ -10981,7 +10981,7 @@ You can view the performance capacity data of Express Connect to obtain the usag
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -11011,7 +11011,7 @@ You can view the performance capacity data of transit routers to obtain the usag
 
    - In the **Cluster Allocation Rate Trend** section, you can view the trend chart that shows the **vlink Bandwidth Plans**, **CEN-TR Instances**, **Multicast Domains**, **Multicast Members**, **Multicast Route Tables**, **Multicast Routes**, **Routes**, **Route Tables**, **Network Connections/service Table Entries**, **Tunnels**, and **vlink Entries** allocation rates of the specified cluster within different time periods. Move the pointer over a specific point to view the corresponding data.
 
-   ![](assets/ff0883909fe65bcf1b4e04b71bb119f8.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ff0883909fe65bcf1b4e04b71bb119f8.jpeg)
 
 5. On the **Capacity Details** tab of the page, click **Advanced Filter** and search for capacity data by **Cluster** and **Zone**.
 
@@ -11043,7 +11043,7 @@ You can view the performance capacity data of transit routers to obtain the usag
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -11069,7 +11069,7 @@ You can view the performance capacity usage and trend of Apsara Stack DNS.
 
 4. In the upper part of the page, view the trend chart that shows the allocation rate of the specified cluster within different time periods. Move the pointer over a specific point to view the corresponding data.
 
-   ![](assets/d577bb657dc3c4426473bdb4e92f7c03.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d577bb657dc3c4426473bdb4e92f7c03.jpeg)
 
 5. In the lower part of the page, view the capacity details of all clusters.
 
@@ -11103,7 +11103,7 @@ View the capacity of Elastic Block Storage (EBS) to understand the current resou
 
    - **Cluster Capacity Usage Trend** displays a trend chart of cluster capacity usage of the target cluster over different time periods. Hover over a node to view data for the corresponding time.
 
-   ![](assets/749a5adabd061710902934abefb57575.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/749a5adabd061710902934abefb57575.jpeg)
 
 6. On the **Capacity Details** tab at the lower part of the page, click **Advanced Filter**. You can combine the following filters to obtain target capacity details: **Cluster**, **Zone**, **Storage Type**, **Specification**, and **CPU**.
 
@@ -11147,7 +11147,7 @@ View the capacity of Elastic Block Storage (EBS) to understand the current resou
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -11179,7 +11179,7 @@ View the capacity of Object Storage Service (OSS) to understand the current reso
 
    - **Cluster Capacity Usage Trend** shows the capacity usage trend of the target cluster over the selected time period. Hover over a data point to view the capacity data at that specific time.
 
-   ![](assets/c438ae300475b39cf57856abbf60763b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c438ae300475b39cf57856abbf60763b.jpeg)
 
 6. On the **Capacity Details** tab at the lower part the page, click **Advanced Filter** to filter and query target capacity details by **Cluster**, **Zone**, **Storage Type**, and **CPU**.
 
@@ -11221,7 +11221,7 @@ View the capacity of Object Storage Service (OSS) to understand the current reso
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -11253,7 +11253,7 @@ View the capacity of Tablestore to understand the current resource usage and rem
 
    - **Cluster Capacity Usage Trend** shows the capacity usage trend of the target cluster over the selected time period. Hover over a data point to view the capacity data at that specific time.
 
-   ![](assets/e39e8c9cc183e36ad46d06b5f9a0dee1.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e39e8c9cc183e36ad46d06b5f9a0dee1.jpeg)
 
 6. On the **Capacity Details** tab at the lower part of the page, click **Advanced Filter** to filter and query target capacity details by **Cluster**, **Zone**, **Storage Type**, and **CPU**.
 
@@ -11295,7 +11295,7 @@ View the capacity of Tablestore to understand the current resource usage and rem
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -11327,7 +11327,7 @@ View the log storage capacity of Simple Log Service (SLS) to understand current 
 
    - **Cluster Capacity Usage Trend** displays the trend of cluster capacity usage over the specified time range. Hover over a node to view the capacity data at that specific time point.
 
-   ![](assets/4d4ca0a0f7cee33081d8067978a8fedb.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4d4ca0a0f7cee33081d8067978a8fedb.jpeg)
 
 6. On the **Capacity Details** tab at the lower part of the page, click **Advanced Filter**. You can combine filters by **Cluster**, **Zone**, **Storage Type**, and **CPU** to query target capacity details.
 
@@ -11369,7 +11369,7 @@ View the log storage capacity of Simple Log Service (SLS) to understand current 
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -11401,7 +11401,7 @@ View the NAS file storage capacity to understand current resource usage and rema
 
    - **Apsara Distributed File System Usage (%) Trend** displays the usage trend of the target cluster over the selected time period. Hover over a node to view data for that specific time point.
 
-   ![](assets/b49275039dee562621b0454b152a14a0.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b49275039dee562621b0454b152a14a0.jpeg)
 
 6. On the **Capacity Details** tab at the lower part of the page, click **Advanced Filter**. You can combine the following filters to query target capacity details: **Cluster**, **Zone**, **Storage Type**, and **CPU**.
 
@@ -11437,7 +11437,7 @@ View the NAS file storage capacity to understand current resource usage and rema
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -11469,7 +11469,7 @@ View the capacity of Cloud Parallel File Storage (CPFS) to understand the curren
 
    - **Physical Capacity Usage Trend** primarily shows the trend of physical capacity usage rates for the target cluster over different time periods. Hover over a node to view its capacity at the specific time.
 
-   ![](assets/4dcecd031689c7085d4d532e203a63a8.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4dcecd031689c7085d4d532e203a63a8.jpeg)
 
 6. On the **Capacity Details** tab at the lower part of the page, click **Advanced Filter** to query target capacity details by combing the following filters: **Cluster**, **Zone**, **Storage Type**, and **CPU**.
 
@@ -11513,7 +11513,7 @@ View the capacity of Cloud Parallel File Storage (CPFS) to understand the curren
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -11545,7 +11545,7 @@ View the capacity of APFS to understand the current resource usage and remaining
 
    - **Physical capacity usage trends** shows the trend of physical capacity usage rate for the target cluster over different time periods. Hover over a node to view the capacity data at that specific time point.
 
-   ![](assets/4dcecd031689c7085d4d532e203a63a8.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4dcecd031689c7085d4d532e203a63a8.jpeg)
 
 6. On the **Capacity Details** tab at the lower part of the page, click **Advanced Filter** to filter and query target capacity details by **Cluster**, **Zone**, **Storage Type**, and **CPU**.
 
@@ -11589,7 +11589,7 @@ View the capacity of APFS to understand the current resource usage and remaining
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -11625,7 +11625,7 @@ View the capacity of EFS-NAS to understand the current resource usage and remain
    >
    > Depending on your environment deployment, data for hybrid clusters may also be available.
 
-   ![](assets/50182a8ef82337e2df9eeaefcc72c46f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/50182a8ef82337e2df9eeaefcc72c46f.jpeg)
 
 6. On the **Capacity Details** tab at the lower part of the page, click **Advanced Filter**. You can then filter capacity details by **Cluster**, **Zone**, **Storage Type**, and **CPU**.
 
@@ -11661,7 +11661,7 @@ View the capacity of EFS-NAS to understand the current resource usage and remain
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -11695,7 +11695,7 @@ You can view data on the Apsara Infrastructure Management Storage Cluster Capaci
 
    - In the **Apsara Distributed File System Usage Trend** section, you can view the trend charts that show the capacity usage trend of PANGU for all clusters or a specific cluster within different time periods. Move the pointer over a point of time to view the recorded data.
 
-   ![](assets/e12413c28e50d1f59ae6ab336a60c79a.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e12413c28e50d1f59ae6ab336a60c79a.jpeg)
 
 5. On the **Capacity Details** tab of the Apsara Infrastructure Management Storage Capacity page, click **Advanced Filter** and search for a cluster by **Cluster**, **Zone**, and **CPU**.
 
@@ -11729,7 +11729,7 @@ You can view data on the Apsara Infrastructure Management Storage Cluster Capaci
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -11765,23 +11765,23 @@ On the Host capacity page, you can view statistics information such as the capac
 
    - **Memory usage**: displays the average memory usage of all hosts within the last 1 hour.
 
-   ![](assets/1a083f3741f57ccf36fd7677beede327.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1a083f3741f57ccf36fd7677beede327.jpeg)
 
 5. In the **Average CPU usage trends** section, view the trend charts that show the CPU allocation rate and CPU utilization within the specified period of time. Move the pointer over a time node to view the corresponding CPU allocation rate and CPU utilization.
 
-   ![](assets/a05409024abe8ecf65bd5d6dc3cd4519.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a05409024abe8ecf65bd5d6dc3cd4519.jpeg)
 
 6. In the **Average Memory usage trends** section, view the trend charts that show the memory allocation rate and memory usage within the specified period of time. Move the pointer over a time node to view the corresponding memory allocation rate and memory usage.
 
-   ![](assets/a07476b356eace04827870bda8f33b43.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a07476b356eace04827870bda8f33b43.jpeg)
 
 7. In the **Scheduling domainCPU usage distribution** section, view the number of scheduling domains with different CPU utilization. The scheduling domains are divided by ASW. Move the pointer over a node to view the scheduling domains with the corresponding CPU utilization.
 
-   ![](assets/7114d34b3a7d156f86ef6c5ce9fbda59.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7114d34b3a7d156f86ef6c5ce9fbda59.jpeg)
 
 8. In the **Scheduling domainMemory usage distribution** section, view the number of scheduling domains with different memory usage. The scheduling domains are divided by ASW. Move the pointer over a node to view the scheduling domains with the corresponding memory usage.
 
-   ![](assets/a31b1f0b1d7210f6e2c3257587402800.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a31b1f0b1d7210f6e2c3257587402800.jpeg)
 
 9. In the **Scheduling domain capacity details** section, select a scheduling domain from the **Scheduling domain** drop-down list to view the capacity details of the scheduling domain.
 
@@ -11791,7 +11791,7 @@ On the Host capacity page, you can view statistics information such as the capac
 
    - Move the pointer over a number in the **Machine** column to view the hostnames.
 
-   ![](assets/44b014cdb8f08499142a5ffe9ac03699.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/44b014cdb8f08499142a5ffe9ac03699.jpeg)
 
 0. Find the scheduling domain that you want to view and click **Capacity details** in the **Operation** column. The capacity details page of the scheduling domain appears.
 
@@ -11914,7 +11914,7 @@ By viewing the capacity of ApsaraDB RDS, you can understand the current resource
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -12043,7 +12043,7 @@ View the capacity of PolarDB-M (local disk) to understand the current resource u
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -12219,7 +12219,7 @@ View PostgreSQL capacity to understand the resource usage and remaining capacity
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -12399,7 +12399,7 @@ By viewing Redis capacity, you can understand the resource usage and remaining c
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -12579,7 +12579,7 @@ View the capacity of ApsaraDB for MongoDB to understand current resource usage a
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -12749,7 +12749,7 @@ View the capacity of AnalyticDB for PostgreSQL (gpdb) to understand the resource
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -12933,7 +12933,7 @@ View the capacity of PolarDB for PostgreSQL (ppassql) to understand current reso
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -13103,7 +13103,7 @@ Review the capacity of AnalyticDB for MySQL V3.0 to understand current resource 
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -13258,7 +13258,7 @@ You can view data on the PolarDB-X V2.0 page to obtain the usage and availabilit
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -13361,7 +13361,7 @@ View the capacity of PolarDB for MySQL (Local Disk-onPaaS) to understand the cur
 
    - Trigger Condition: Specify the conditions for generating alerts.
 
-   ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
    **Alert Configurations**
 
@@ -13460,7 +13460,7 @@ View the capacity of AnalyticDB for PostgreSQL (local disk-onPaaS) to understand
 
    - Trigger Condition: Specify the conditions for generating alerts.
 
-   ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
    **Alert Configurations**
 
@@ -13566,7 +13566,7 @@ View the capacity of PolarDB for MySQL (shared disk on PaaS) to understand the c
 
    - Trigger Condition: Specify the conditions for generating alerts.
 
-   ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
    **Alert Configurations**
 
@@ -13668,7 +13668,7 @@ By viewing the capacity of PolarDB for PostgreSQL (shared disk on PaaS), you can
 
    - Trigger Condition: Specify the conditions for generating alerts.
 
-   ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
    **Alert Configurations**
 
@@ -13708,7 +13708,7 @@ You can view data on the PolarDB-X Capacity page to obtain the usage and availab
 
    - In the **PolarDB-X Capacity Allocation Rate Trend** section, view the trend charts of **CPU** and **Memory** allocation rates for all clusters or a specific cluster in different time periods. Move the pointer over a point of time to view the recorded data.
 
-     ![](assets/aef22e6da6704071594ba9c47ba46aa8.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/aef22e6da6704071594ba9c47ba46aa8.jpeg)
 
 5. On the **Capacity Details** tab in the lower part of the PolarDB-X Capacity page, view the capacity details of clusters by **Cluster** and **CPU**.
 
@@ -13718,7 +13718,7 @@ You can view data on the PolarDB-X Capacity page to obtain the usage and availab
 
    - Click the name of a cluster to view the details of the physical machines in the cluster.
 
-     ![](assets/8c9c09789ef24b33718a0f60bbbf1b3c.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8c9c09789ef24b33718a0f60bbbf1b3c.jpeg)
 
    - Click **Export** to export the capacity data to your on-premises machine.
 
@@ -13746,7 +13746,7 @@ You can view data on the PolarDB-X Capacity page to obtain the usage and availab
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -13776,13 +13776,13 @@ You can view the ApsaraDB for OceanBase capacity to obtain the usage and availab
 
    - In the **Capacity Allocation Rate Trend** section, you can view the trend charts of memory, CPU, and disk allocation rates for clusters within different time periods. Move the pointer over a specific point of time to view the corresponding data.
 
-   ![](assets/30d1d596327a9fc05bf51cbbc1cfccb4.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/30d1d596327a9fc05bf51cbbc1cfccb4.jpeg)
 
 5. In the **Capacity Details** section of the page, view the capacity details of ApsaraDB for OceanBase.
 
    - You can click the name of a cluster to view the details of the physical machines in the cluster.
 
-     ![](assets/5769df992663e7a1c92551c269aed133.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5769df992663e7a1c92551c269aed133.jpeg)
 
    - If the allocation rate exceeds the water level warning threshold (80%), the value is highlighted. You cannot specify a custom water level warning threshold.
 
@@ -13814,7 +13814,7 @@ You can view the ApsaraDB for OceanBase capacity to obtain the usage and availab
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -13844,7 +13844,7 @@ By viewing the ApsaraDB for Lindorm capacity, you can learn about the usage and 
 
    - **Cluster Capacity Allocation Rate Trend** displays the trend charts of the capacity allocation rates of the **CU** and **storage capacity** of the cluster in different time periods. Move the pointer over a node to view the data of the corresponding time node.
 
-   ![](assets/9144159f97481f00e79e0d4b148b0307.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9144159f97481f00e79e0d4b148b0307.jpeg)
 
 5. In the lower part of the page, click the **Capacity Details** tab. On the page that appears, click **Advanced Filter** to filter the capacity by **cluster** or **zone**.
 
@@ -13878,7 +13878,7 @@ By viewing the ApsaraDB for Lindorm capacity, you can learn about the usage and 
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -13908,7 +13908,7 @@ You can view the capacity of Data Transmission Service (DTS) to understand the u
 
    - In the **Capacity Allocation Rate Trend** section, you can view the allocation rate trends of active geo-redundancy, data factory, and shared links in different time periods. Move the pointer over a specific point in time to view the corresponding data.
 
-   ![](assets/777ac74c1949e82aaab11c1f7a859742.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/777ac74c1949e82aaab11c1f7a859742.jpeg)
 
 5. On the **Capacity Details** tab of the page, view the capacity details.
 
@@ -13940,7 +13940,7 @@ You can view the capacity of Data Transmission Service (DTS) to understand the u
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -13970,7 +13970,7 @@ You can view the capacity of Data Management (DMS) to understand the used and un
 
    - In the **Capacity Allocation Rate Trend** section, you can view the usage trends of management instances and security collaboration instances within different time periods. Move the pointer over a specific point in time to view the corresponding data.
 
-   ![](assets/e772d0f9dfc97aeda72d0c483eb0f5dd.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e772d0f9dfc97aeda72d0c483eb0f5dd.jpeg)
 
 5. On the **Capacity Details** tab of the page, view the capacity details.
 
@@ -14004,7 +14004,7 @@ You can view the capacity of Data Management (DMS) to understand the used and un
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -14034,7 +14034,7 @@ You can view the capacity of Database Autonomy Service (DAS) to understand the u
 
    - In the **Capacity Allocation Rate Trend** section, you can view the usage trends of the nodes within different time periods. Move the pointer over a specific point in time to view the corresponding data.
 
-   ![](assets/c1a08219b766d5e2da2d297937218e7c.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c1a08219b766d5e2da2d297937218e7c.jpeg)
 
 5. On the **Capacity Details** tab of the page, view the capacity details.
 
@@ -14068,7 +14068,7 @@ You can view the capacity of Database Autonomy Service (DAS) to understand the u
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -14098,7 +14098,7 @@ You can view data on the Kafka page to obtain the usage and availability of Apsa
 
 4. In the upper part of the page, view the trend chart that shows the **BYTES_IN** and **BYTES_OUT** traffic throughput of a specific cluster within different time periods.
 
-   ![](assets/72fdaec0baefaa099326b4fb00e01971.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/72fdaec0baefaa099326b4fb00e01971.jpeg)
 
 5. On the **Capacity Details** tab of the page, view the capacity details of all clusters or a specific cluster.
 
@@ -14130,7 +14130,7 @@ You can view data on the Kafka page to obtain the usage and availability of Apsa
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -14160,7 +14160,7 @@ You can view the license capacity data of Application Real-Time Monitoring Servi
 
    - In the **Capacity Allocation Rate Trend** section, you can view the trend chart that shows the node allocation rate within different time periods. Move the pointer over a specific point to view the corresponding data.
 
-   ![](assets/a4ac9a013f41186c9c373a7fc26338cf.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a4ac9a013f41186c9c373a7fc26338cf.jpeg)
 
 5. On the **Capacity Details** tab of the page, click **Advanced Filter** and search for capacity data by **Zone**.
 
@@ -14194,7 +14194,7 @@ You can view the license capacity data of Application Real-Time Monitoring Servi
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -14224,7 +14224,7 @@ You can view the license capacity data of Enterprise Distributed Application Ser
 
    - In the **Capacity Allocation Rate Trend** section, you can view the trend chart that shows the vCPU allocation rate within different time periods. Move the pointer over a specific point to view the corresponding data.
 
-   ![](assets/578ebbde4f78a28c33f9df7e0b60dbe1.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/578ebbde4f78a28c33f9df7e0b60dbe1.jpeg)
 
 5. On the **Capacity Details** tab of the page, view the capacity details.
 
@@ -14258,7 +14258,7 @@ You can view the license capacity data of Enterprise Distributed Application Ser
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -14288,7 +14288,7 @@ You can view the license capacity data of SchedulerX to obtain the usage and ava
 
    - In the **Capacity Allocation Rate Trend** section, you can view the trend chart that shows the **instance** usage trend within different time periods. Move the pointer over a specific point in time to view the corresponding data.
 
-   ![](assets/139f43d1f23d1004e6fc40cb00a52f52.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/139f43d1f23d1004e6fc40cb00a52f52.jpeg)
 
 5. On the **Capacity Details** tab of the page, view the capacity details.
 
@@ -14322,7 +14322,7 @@ You can view the license capacity data of SchedulerX to obtain the usage and ava
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -14348,11 +14348,11 @@ This topic describes how to view the capacity usage trend and status of ApsaraMQ
 
 4. In the upper part of the page, view the trend chart that shows the **rate per second** of the specified cluster within different time periods.
 
-   ![](assets/1c433bea992ce6a243adc632a0c45547.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1c433bea992ce6a243adc632a0c45547.jpeg)
 
 5. In the lower part of the page, view the capacity details of all clusters or a specific cluster.
 
-   ![](assets/218e809c9a7dce757c3d01b2c3c5ea42.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/218e809c9a7dce757c3d01b2c3c5ea42.jpeg)
 
    - Select All Clusters or a desired cluster from the **Cluster** drop-down list.
 
@@ -14382,7 +14382,7 @@ You can view data on the ODPS Capacity page to obtain the usage and availability
 
    - In the **Cluster Capacity Allocation Rate Trend** section, you can view the trend charts of CU capacity and storage capacity allocation rates for all clusters or a specific cluster within different time periods. Move the pointer over a specific point of time to view the corresponding data.
 
-   ![](assets/c30f9e4b7bad59ef274f58eabd8cd9b6.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c30f9e4b7bad59ef274f58eabd8cd9b6.jpeg)
 
 5. On the **Capacity Details** tab of the ODPS Capacity page, click **Advanced Filter** and search for a cluster by **Cluster** and **Zone**.
 
@@ -14416,7 +14416,7 @@ You can view data on the ODPS Capacity page to obtain the usage and availability
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -14450,7 +14450,7 @@ You can view data on the Realtime Compute for Apache Flink page to obtain the us
 
    - In the **Cluster Capacity Allocation Rate Trend** section, you can view the trend chart of CU capacity allocation rates for all clusters or a specific cluster within different time periods. Move the pointer over a specific point of time to view the corresponding data.
 
-   ![](assets/e768194254998e4b1aa9dc437126b630.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e768194254998e4b1aa9dc437126b630.jpeg)
 
 5. On the **Capacity Details** tab of the Realtime Compute for Apache Flink page, click **Advanced Filter** and search for a cluster by **Cluster** and **Zone**.
 
@@ -14484,7 +14484,7 @@ You can view data on the Realtime Compute for Apache Flink page to obtain the us
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -14518,7 +14518,7 @@ View the capacity of Realtime Compute for Apache Flink (compute-storage separati
 
    - **Cluster Capacity Allocation Rate Trend** visualizes the CU allocation rates for all clusters or a single cluster over time. Hover your mouse over a data point to view the specific value at that timestamp.
 
-   ![](assets/e768194254998e4b1aa9dc437126b630.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e768194254998e4b1aa9dc437126b630.jpeg)
 
 5. On the **Capacity Details** tab at the lower part of the page, click **Advanced Filter** to filter capacity details by **Cluster** and **Zone**.
 
@@ -14552,7 +14552,7 @@ View the capacity of Realtime Compute for Apache Flink (compute-storage separati
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -14582,7 +14582,7 @@ You can view the capacity data of Elasticsearch to obtain the usage and availabi
 
    - In the **Cluster Capacity Allocation Rate Trend** section, you can view the trend chart that shows the CPU and memory capacity allocation rates of all clusters or the specified cluster within different time periods. Move the pointer over a specific point to view the corresponding data.
 
-   ![](assets/88ec6bfe07f41b53f169e67138f038aa.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/88ec6bfe07f41b53f169e67138f038aa.jpeg)
 
 5. On the **Capacity Details** tab of the page, view the capacity details.
 
@@ -14616,7 +14616,7 @@ You can view the capacity data of Elasticsearch to obtain the usage and availabi
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -14646,7 +14646,7 @@ You can view the capacity of DataWorks to understand the used and unused resourc
 
    - In the **Cluster Capacity Allocation Rate Trend** section, you can view the trend chart of **capacity usage** for all clusters or a specific cluster within different time periods. Move the pointer over a specific point in time to view the corresponding data.
 
-   ![](assets/fe05b1dc333b94cf5b6c5784f3a21846.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/fe05b1dc333b94cf5b6c5784f3a21846.jpeg)
 
 5. On the **Capacity Details** tab of the page, view the capacity details.
 
@@ -14680,7 +14680,7 @@ You can view the capacity of DataWorks to understand the used and unused resourc
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -14710,7 +14710,7 @@ View DataHub capacity to understand current resource usage and remaining availab
 
    - **Cluster Capacity Allocation Rate Trend** displays trend charts for **Storage** and **Shard** capacity allocation rates across all clusters or a single cluster over different time periods. Hover over a node to view data for the corresponding time point.
 
-   ![](assets/7c5c1151e775440ef34ce266dc3c13fe.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7c5c1151e775440ef34ce266dc3c13fe.jpeg)
 
 5. Go to the **Capacity Details** tab at the lower part of the page to view detailed capacity information.
 
@@ -14744,7 +14744,7 @@ View DataHub capacity to understand current resource usage and remaining availab
 
      - Trigger Condition: Specify the conditions for generating alerts.
 
-     ![](assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00b7d5a91904b82fa7ba041d1e1746fd.jpeg)
 
      </li>
 
@@ -15019,7 +15019,7 @@ Base plans of the workflow type are preset O&M actions that are orchestrated by 
 
    **Description**, **Workflow**, **Input Parameters**, **Output Result**, and **Workflow YAML** tabs.
 
-   ![](assets/7b51b2873dae31d2204f73ecc257e0f8.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7b51b2873dae31d2204f73ecc257e0f8.jpeg)
 
    <ol type="i" start="3">
 
@@ -15133,7 +15133,7 @@ Base plans of the workflow type are preset O&M actions that are orchestrated by 
 
    </ol>
 
-   ![](assets/a87fcbaf2e7c7e3073aa9fe9c8ab4146.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a87fcbaf2e7c7e3073aa9fe9c8ab4146.jpeg)
 
    <ol type="i" start="3">
 
@@ -15147,7 +15147,7 @@ Base plans of the workflow type are preset O&M actions that are orchestrated by 
 
    You are redirected to the **Plan Execution History** page, which includes the **Basic Information** section and the **Step**, **Input Parameters**, **Output Result**, and **Workflow Instance YAML** tabs.
 
-   ![](assets/e32413d0627af989d56a9db907c618f4.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e32413d0627af989d56a9db907c618f4.jpeg)
 
    </li>
 
@@ -15157,7 +15157,7 @@ Base plans of the workflow type are preset O&M actions that are orchestrated by 
 
    - If the task is in the Complete state, click **Details** of the task to go to the **Task Instance Details** page.
 
-     ![](assets/f28eba4a8f9a955a43578f84ea1e2146.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f28eba4a8f9a955a43578f84ea1e2146.jpeg)
 
    - If the task is in the Failed state, you can click **Retry** in the **Actions** column to submit the task again.
 
@@ -15171,19 +15171,19 @@ Base plans of the workflow type are preset O&M actions that are orchestrated by 
 
 1. On the **Execution History** tab, click **Advanced Filter** to filter the execution history of plans by **ID**, **Plan Name**, **Execution Time**, **Execution Result**, and **Remarks**.
 
-   ![](assets/186b783487153a54078417a392f6f3fc.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/186b783487153a54078417a392f6f3fc.jpeg)
 
 2. Find the execution record and click **Details** in the **Actions** column.
 
 3. You are redirected to the **Plan Execution History** page, which includes the **Basic Information** section and the **Step**, **Input Parameters**, **Output Result**, and **Workflow Instance YAML** tabs.
 
-   ![](assets/e32413d0627af989d56a9db907c618f4.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e32413d0627af989d56a9db907c618f4.jpeg)
 
 4. On the **Step** tab:
 
    - If the task is in the Complete state, click **Details** of the task to go to the **Task Instance Details** page.
 
-     ![](assets/f28eba4a8f9a955a43578f84ea1e2146.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f28eba4a8f9a955a43578f84ea1e2146.jpeg)
 
    - If the task is in the Failed state, you can click **Retry** in the **Actions** column to submit the task again.
 
@@ -15235,7 +15235,7 @@ This topic describes how to migrate VMs between Docker hosts.
 
      In the upper-right corner, click **Execution plan**. In the **Execute** dialog box, configure the **SOURCE host** and **VM to be migrated** parameters and click **Confirm**.
 
-     ![](assets/3b567d485177aa0d09f3524dbd3a16d0.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3b567d485177aa0d09f3524dbd3a16d0.jpeg)
 
      </li>
 
@@ -15243,7 +15243,7 @@ This topic describes how to migrate VMs between Docker hosts.
 
      Perform a precheck.
 
-     ![](assets/cc07728ad2497d182f9b8c3843790674.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cc07728ad2497d182f9b8c3843790674.jpeg)
 
      > **Note**
      >
@@ -15261,7 +15261,7 @@ This topic describes how to migrate VMs between Docker hosts.
      >
      >   icon to view the
      >
-     >   <img src="assets/136afbcf8a689a4016d778659448702c.png" width="14" alt="">
+     >   <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/136afbcf8a689a4016d778659448702c.png" width="14" alt="">
      >
      >   cause of failure.
      >
@@ -15271,7 +15271,7 @@ This topic describes how to migrate VMs between Docker hosts.
      >
      >   icon to view components that are running in the VM and cannot be
      >
-     >   <img src="assets/0728f2730187b4120c145959c1a62c70.png" width="23" alt="">
+     >   <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0728f2730187b4120c145959c1a62c70.png" width="23" alt="">
      >
      >   migrated across aggregation switches (ASWs).
 
@@ -15299,7 +15299,7 @@ This topic describes how to migrate VMs between Docker hosts.
 
      Confirm the VM
 
-     ![](assets/be4a7e36dc1c2c81edc415f81ae2b292.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/be4a7e36dc1c2c81edc415f81ae2b292.jpeg)
 
      > **Note**
      >
@@ -15311,7 +15311,7 @@ This topic describes how to migrate VMs between Docker hosts.
 
      Click **Scheduling trial**. In the **Prompt** dialog box, specify **Whether to allow recommend of the destination host to be equal to the source host**, **Recommend Destination Host Across ASWs**, and **Requires recommend VMS across ASW target hosts**. Then, click **OK**.
 
-     ![](assets/2cb52337c575fdbd82b39a6e3a556e68.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2cb52337c575fdbd82b39a6e3a556e68.jpeg)
 
      > **Note**
      >
@@ -15319,7 +15319,7 @@ This topic describes how to migrate VMs between Docker hosts.
      >
      >   icon to
      >
-     >   <img src="assets/136afbcf8a689a4016d778659448702c.png" width="14" alt="">
+     >   <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/136afbcf8a689a4016d778659448702c.png" width="14" alt="">
      >
      >   view the cause of the failure.
      >
@@ -15341,7 +15341,7 @@ This topic describes how to migrate VMs between Docker hosts.
 
      Perform the migration.
 
-     ![](assets/e553d02bf19415842b6a1ccdd582c30e.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e553d02bf19415842b6a1ccdd582c30e.jpeg)
 
      > **Note**
      >
@@ -15359,7 +15359,7 @@ This topic describes how to migrate VMs between Docker hosts.
      >
      > icon to view
      >
-     > <img src="assets/136afbcf8a689a4016d778659448702c.png" width="14" alt="">
+     > <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/136afbcf8a689a4016d778659448702c.png" width="14" alt="">
      >
      > the cause of the migration failure, and click **Retry** in the Operation column to perform the migration again.
 
@@ -15407,7 +15407,7 @@ This topic describes how to switch over primary and secondary Docker hosts.
 
      Select the source and destination hosts.
 
-     ![](assets/706b728a567edd5755d93da8c4e5cff8.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/706b728a567edd5755d93da8c4e5cff8.jpeg)
 
      </li>
 
@@ -15415,7 +15415,7 @@ This topic describes how to switch over primary and secondary Docker hosts.
 
      Click **Submit** to confirm the operation.
 
-     ![](assets/c70d3f7b2e6c1930e8e0d1d226f4f4a5.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c70d3f7b2e6c1930e8e0d1d226f4f4a5.jpeg)
 
      </li>
 
@@ -15451,7 +15451,7 @@ This topic describes how to scale in an SRG of the worker type.
 
      Select the destination cluster and destination SRG, select the machines that you want
 
-     to scale in from the Available Machines list, and click the <img src="assets/4eeb803e68731f62606055a9b4057a39.png" width="13" alt=""> icon to add them to the
+     to scale in from the Available Machines list, and click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4eeb803e68731f62606055a9b4057a39.png" width="13" alt=""> icon to add them to the
 
      Selected Machines list.
 
@@ -15465,7 +15465,7 @@ This topic describes how to scale in an SRG of the worker type.
      >
      > - The machine group must contain machines other than Docker hosts.
 
-     ![](assets/99f5bb358db61b043e1aae44c9352d76.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/99f5bb358db61b043e1aae44c9352d76.jpeg)
 
      </li>
 
@@ -15473,7 +15473,7 @@ This topic describes how to scale in an SRG of the worker type.
 
      Click **Submit** and then confirm the operation.
 
-     ![](assets/305b5a97dae7c3c9c3413d77c853f898.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/305b5a97dae7c3c9c3413d77c853f898.jpeg)
 
      </li>
 
@@ -15537,7 +15537,7 @@ This topic describes how to scale out an SRG of the worker type.
 
      <li>
 
-     Select machines from the Available Machines list and click the <img src="assets/4eeb803e68731f62606055a9b4057a39.png" width="13" alt=""> icon to add them to
+     Select machines from the Available Machines list and click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4eeb803e68731f62606055a9b4057a39.png" width="13" alt=""> icon to add them to
 
      the Selected Machines list.
 
@@ -15549,7 +15549,7 @@ This topic describes how to scale out an SRG of the worker type.
      >
      > - They are in the Good state and have no actions performed.
 
-     ![](assets/e7fd05be7d51ba37550248c5ce7648df.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e7fd05be7d51ba37550248c5ce7648df.jpeg)
 
      </li>
 
@@ -15561,9 +15561,9 @@ This topic describes how to scale out an SRG of the worker type.
 
      Click **Submit** and then confirm the operation.
 
-     ![](assets/b2c4e4b854f7364db7b267f1cbc96a9f.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b2c4e4b854f7364db7b267f1cbc96a9f.jpeg)
 
-     ![](assets/2239268a5c6d62d0a3cb14c6a071c329.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2239268a5c6d62d0a3cb14c6a071c329.jpeg)
 
      </li>
 
@@ -15609,11 +15609,11 @@ This topic describes how to scale in the DockerHost#Buffer machine group of the 
 
      Select the destination cluster and destination SRG, select the machines that you want
 
-     to scale in from the Available Machines list, and click the <img src="assets/4eeb803e68731f62606055a9b4057a39.png" width="13" alt=""> icon to add them to the
+     to scale in from the Available Machines list, and click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4eeb803e68731f62606055a9b4057a39.png" width="13" alt=""> icon to add them to the
 
      Selected Machines list.
 
-     ![](assets/4476acb5e912269de16319c737f7b0cd.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4476acb5e912269de16319c737f7b0cd.jpeg)
 
      > **Note**
      >
@@ -15633,7 +15633,7 @@ This topic describes how to scale in the DockerHost#Buffer machine group of the 
 
      Click **Submit** and then confirm the operation.
 
-     ![](assets/e835a709941bbdb0e5b98685c276ef08.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e835a709941bbdb0e5b98685c276ef08.jpeg)
 
      </li>
 
@@ -15683,11 +15683,11 @@ This topic describes how to scale out the DockerHost#Buffer machine group of the
 
      Select the destination cluster and destination SRG, select the machines that you want
 
-     to scale out from the Available Machines list, and click the <img src="assets/4eeb803e68731f62606055a9b4057a39.png" width="13" alt=""> icon to add them to the
+     to scale out from the Available Machines list, and click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4eeb803e68731f62606055a9b4057a39.png" width="13" alt=""> icon to add them to the
 
      Selected Machines list.
 
-     ![](assets/23abff03223e86582e8ccffaaf60906d.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/23abff03223e86582e8ccffaaf60906d.jpeg)
 
      </li>
 
@@ -15695,7 +15695,7 @@ This topic describes how to scale out the DockerHost#Buffer machine group of the
 
      Click **Submit** and then confirm the operation.
 
-     ![](assets/ae371d66116f98e91759a39ec7e43520.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ae371d66116f98e91759a39ec7e43520.jpeg)
 
      </li>
 
@@ -15751,7 +15751,7 @@ This topic describes how to start up and shut down all the software programs and
 
        You can click **Add Clusters for Shutdown**. In the Add Clusters for Shutdown dialog box, select clusters and click **OK**.
 
-       ![](assets/bb56608b8f25fc1aff1d32f5d6fa1b4e.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/bb56608b8f25fc1aff1d32f5d6fa1b4e.jpeg)
 
        </li>
 
@@ -15759,7 +15759,7 @@ This topic describes how to start up and shut down all the software programs and
 
        Confirm the operation.
 
-       ![](assets/d3c01dea482eb4ce9e01fbb80d599c1e.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d3c01dea482eb4ce9e01fbb80d599c1e.jpeg)
 
        </li>
 
@@ -15771,7 +15771,7 @@ This topic describes how to start up and shut down all the software programs and
 
        The shutdown task is submitted.
 
-       ![](assets/95878dd3d816fd464c228fe7bc4c42c7.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/95878dd3d816fd464c228fe7bc4c42c7.jpeg)
 
        > **Note**
        >
@@ -15783,7 +15783,7 @@ This topic describes how to start up and shut down all the software programs and
 
        Select the clusters in the cluster list and then click **Batch Start** to start the clusters.
 
-       ![](assets/d0d9d341cc4407696a8fff41bdc225ea.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d0d9d341cc4407696a8fff41bdc225ea.jpeg)
 
        </li>
 
@@ -15795,7 +15795,7 @@ This topic describes how to start up and shut down all the software programs and
 
        Confirm the operation.
 
-       ![](assets/704f1182af007f905b4b8520a6294c9c.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/704f1182af007f905b4b8520a6294c9c.jpeg)
 
        </li>
 
@@ -15803,7 +15803,7 @@ This topic describes how to start up and shut down all the software programs and
 
        The cluster startup task is submitted.
 
-       ![](assets/bcc9d89b302fdee8a0022d7e59e8306d.jpeg)
+       ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/bcc9d89b302fdee8a0022d7e59e8306d.jpeg)
 
        </li>
 
@@ -15840,13 +15840,13 @@ On the My Submission page, you can view the details of O&M workflows that you su
 
    Click **Advanced Filter** and search for an O&M workflow by **Workflow order number**, **Execution status**, **Workflow title**, **Creation time**, and **Belonging products**.
 
-   ![](assets/db3c23abc50113d44cb4c56916c64e27.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/db3c23abc50113d44cb4c56916c64e27.jpeg)
 
 5. Find the O&M workflow that you want to view and click the number in the **Workflow order number/Title** column or **View details** in the **Operation** column.
 
 6. On the **Workflow details** page, view the details of the O&M workflow, including the information in the **Basic information** and **Approval progress** sections.
 
-   ![](assets/341bf5faeea820f58f3df61d2190b23d.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/341bf5faeea820f58f3df61d2190b23d.jpeg)
 
 **What to do next**
 
@@ -15878,11 +15878,11 @@ On the Pending Approval page, you can view the O&M workflows that require your a
 
    Click **Advanced Filter** and search for an O&M workflow by **Workflow order number**, **Execution status**, **Workflow title**, **Creation time**, and **Belonging products**.
 
-   ![](assets/6f9a16199e5de721ebd7c76c9789fa2f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6f9a16199e5de721ebd7c76c9789fa2f.jpeg)
 
 5. Find the O&M workflow that you want to view and click the number in the **Workflow order number/Title** column or **View details** in the **Operation** column. On the Workflow details page, view the details of the O&M workflow, including the information in the **Basic information** and **Approval progress** sections.
 
-   ![](assets/0fde6665a82898f3ba90fc336f16889e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0fde6665a82898f3ba90fc336f16889e.jpeg)
 
 6. In the **Approval progress** section, approve the O&M workflow.
 
@@ -15916,7 +15916,7 @@ This topic describes how to query and view service packages and patch packages.
 
 4. On the **Product Package List** tab of the Package management page, perform the following operations:
 
-   ![](assets/e281b7865d8478b309d4c270f83be594.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e281b7865d8478b309d4c270f83be594.jpeg)
 
    - View the product package information, including **Exact version**, **Median version**, **Cloud products**, **Support architecture**, **Deployment form**, and **Import time**.
 
@@ -15928,7 +15928,7 @@ This topic describes how to query and view service packages and patch packages.
      >
      > In the **Dependency information** section, turn on **Strong Dependency** in the upper-right corner. Then, only the information about strong dependencies is displayed.
 
-     ![](assets/fcdc121b9782500a1708ab8ebf8af342.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/fcdc121b9782500a1708ab8ebf8af342.jpeg)
 
 5. On the **Patch Package List** tab of the Package management page, perform the following operations:
 
@@ -15938,7 +15938,7 @@ This topic describes how to query and view service packages and patch packages.
 
    - Find the patch package that you want to view and click **Details** in the **Operation** column to view the details of the patch package.
 
-   ![](assets/f3d1c947c55f4e08ca33fe865364b017.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f3d1c947c55f4e08ca33fe865364b017.jpeg)
 
 6. On the **Product Package Management** tab, perform the following operations:
 
@@ -15950,7 +15950,7 @@ This topic describes how to query and view service packages and patch packages.
      | Password | Enter the password of the product package to be decompressed. |
      | Description | Enter a description for the decompressed product package. |
 
-     ![](assets/ddd59cf5df9f7fe824747a30032a4c7f.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ddd59cf5df9f7fe824747a30032a4c7f.jpeg)
 
    - View product decompression details: Find the product package and click **Details** in the **Operation** column. The **Execution History Report** page appears.
 
@@ -15976,7 +15976,7 @@ On the Product Version Management page, you can view the details of product vers
 
 4. On the **Product version list** tab of the Product Version Management page, perform the following operations:
 
-   ![](assets/93547ae28a645f0489771ab42e7f9d75.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/93547ae28a645f0489771ab42e7f9d75.jpeg)
 
    - View the product version information, including **Cloud products**, **Use Version**, **Dependency status quo**, **Component version status**, **Is there a Patch**, and **Update results**.
 
@@ -15984,7 +15984,7 @@ On the Product Version Management page, you can view the details of product vers
 
    - Find the product version that you want to view and click **Details** in the **Operation** column. The details page of the product version appears, including the **Basic information** section and the **Cluster version details**, **Version dependency details**, and **Component version details** tabs.
 
-     ![](assets/4cedb5a8ab712ac4dd66a0e2332d08b7.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4cedb5a8ab712ac4dd66a0e2332d08b7.jpeg)
 
      - On the **Cluster version details** tab, find the cluster that you want to view and click **View clusters** in the **Operation** column to go to the **Cluster Details** page of the cluster. For more information, see Cluster details. On the Cluster version details tab, find the cluster that you want to view and click **View product packages** in the **Operation** column to go to the **Product package details** page.
 
@@ -15996,7 +15996,7 @@ On the Product Version Management page, you can view the details of product vers
 
    - In the upper-right corner of the Product version list tab, click **One-Click Update** to update all product versions.
 
-   - In the upper-right corner of the Product version list tab, click the <img src="assets/a23d98c447b168e74318c518aebd15a2.png" width="19" alt=""> icon to download the
+   - In the upper-right corner of the Product version list tab, click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a23d98c447b168e74318c518aebd15a2.png" width="19" alt=""> icon to download the
 
      product version list to your local device.
 
@@ -16008,7 +16008,7 @@ On the Product Version Management page, you can view the details of product vers
 
    - On the Component version list tab, select **Only components with patches are displayed.** in the upper-right corner. Then, the component versions whose value of **Is there a Patch** is **Yes** are displayed.
 
-   ![](assets/91d6b9a13227437aa21e62e27f6e8789.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/91d6b9a13227437aa21e62e27f6e8789.jpeg)
 
 <a id="section-5-6-4-3"></a>
 
@@ -16078,7 +16078,7 @@ This page is hidden by default. If needed, you can edit it for display under **M
    >
    > After you proceed to the **Configuration Information** page, you cannot edit this page.
 
-   ![](assets/051b80502c66f03d0a0240ccf058f29f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/051b80502c66f03d0a0240ccf058f29f.jpeg)
 
 7. In the dialog box that appears for **Task Package Importing**, click **OK**. The system automatically redirects you to the **Configuration Information** step and waits for the import to succeed.
 
@@ -16142,7 +16142,7 @@ This page is hidden by default. If needed, you can edit it for display under **M
    >
    > Each product can have only one change task.
 
-   ![](assets/9d91e0bc69ab9974535ef162dbae2ccc.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9d91e0bc69ab9974535ef162dbae2ccc.jpeg)
 
 9. Return to the version change task list. Click **Details** in the **Operation** column of the target change task. The page redirects to the change task execution page.
 
@@ -16150,7 +16150,7 @@ This page is hidden by default. If needed, you can edit it for display under **M
 
    | Change type | Description |
    | --- | --- |
-   | Patch | i. Under <strong>Change implement</strong>, click <strong>Start</strong>. The system executes the change task.<br>Note<br>• Click <strong>Execution result</strong> to view detailed execution information.<br>• Click <strong>Task details</strong> to get details of the change task. For more information, see Task management.<br>• If execution fails, click <strong>Retry</strong> to retry the change task.<br>![](assets/0394bea581e7ca622ff0ad6831082428.jpeg)<br>ii. After the change completes, click <strong>Complete Change</strong>. |
+   | Patch | i. Under <strong>Change implement</strong>, click <strong>Start</strong>. The system executes the change task.<br>Note<br>• Click <strong>Execution result</strong> to view detailed execution information.<br>• Click <strong>Task details</strong> to get details of the change task. For more information, see Task management.<br>• If execution fails, click <strong>Retry</strong> to retry the change task.<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0394bea581e7ca622ff0ad6831082428.jpeg)<br>ii. After the change completes, click <strong>Complete Change</strong>. |
 
    <table>
      <tr>
@@ -16226,7 +16226,7 @@ You have read and write permissions for Log Center.
 
 4. In the upper section of the page, view the following information:
 
-   ![](assets/3902ef8265df1d2a41d76c9716ab6e94.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3902ef8265df1d2a41d76c9716ab6e94.jpeg)
 
    - **Log Statistics**: displays the total number of logs from covered products and the quantity for each log type.
 
@@ -16234,7 +16234,7 @@ You have read and write permissions for Log Center.
 
 5. In the lower section of the page, combine filters like **Products**, **Service**, **Log Type**, **Log Name**, **Status**, **Acquisition Type**, and **Dump Status** to search for specific log data.
 
-   ![](assets/1d0a774e32e38e595f57a6b902d23efe.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1d0a774e32e38e595f57a6b902d23efe.jpeg)
 
 6. In the lower section of the page, view the **Product Name**, **Service**, **Log Type**, **Log Name**, **Storage Type**, **Log Retention Period**, **Storage Status**, **Acquisition Type**, **Ownership account**, and **Dump Status** for logs.
 
@@ -16254,7 +16254,7 @@ You have read and write permissions for Log Center.
 
      Click **Retry** in the **Operation** column to manually distribute the primary account information from **Log Ownership** to the target machine, ensuring log collection permissions are granted.
 
-   ![](assets/4644f1977cf22e793387b7061c50b95f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4644f1977cf22e793387b7061c50b95f.jpeg)
 
 **More actions**
 
@@ -16316,7 +16316,7 @@ You have obtained read/write permissions for the Log Center.
    | Basic information | View the <strong>product name</strong>, <strong>service name</strong>, <strong>server role</strong>, <strong>log name</strong>, <strong>number of</strong> <strong>log entries</strong>, and <strong>number of error logs</strong> for the log. |
    | Log list | • Click <strong>Export List</strong> to export log content to your local device for viewing.<br>• Precise keyword search is supported.<br>• Select <strong>Show exception logs only</strong> to display the exception log list.<br>• Intelligent analysis of exception logs is supported to automatically summarize the exception overview for the current query.<br>• Log information is displayed in either <strong>List</strong> or <strong>Aggregation</strong> mode.<br>Note<br>In <strong>List</strong> mode, click <strong>Details</strong> in the <strong>Operation</strong> column of the target log to view its content. |
 
-   ![](assets/983475b15b950acc9f3ed2a32d2d0a15.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/983475b15b950acc9f3ed2a32d2d0a15.jpeg)
 
 5. On the **Local Logs** tab, filter logs by combining **Products**, **Service**, **Component**, and **Log Path**.
 
@@ -16330,7 +16330,7 @@ You have obtained read/write permissions for the Log Center.
    >
    > - Intelligent analysis of exception logs is supported to automatically summarize the exception overview for the current query.
 
-   ![](assets/76aee6c75c266fc9a71ac0c6c7739982.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/76aee6c75c266fc9a71ac0c6c7739982.jpeg)
 
 <a id="section-5-7-3"></a>
 
@@ -16370,11 +16370,11 @@ The read and write permissions on Log Center are obtained.
 
 5. In the **Select Log** step, search for logs by **Products**, **Log Type**, and **Dump Status**. Select the desired logs and click **Next step**.
 
-   ![](assets/10407b50ad01b4f2ddb4ca2827c83a9a.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/10407b50ad01b4f2ddb4ca2827c83a9a.jpeg)
 
 6. In the **Configure Authorization** step, configure the following parameters and click **Next step**.
 
-   ![](assets/b5a922dc8b3a70aa3eec80b4ff415013.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b5a922dc8b3a70aa3eec80b4ff415013.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -16388,7 +16388,7 @@ The read and write permissions on Log Center are obtained.
 
 7. In the **Configure Logstore** step, view the settings of the **Project**, **LogStore**, **Log Details**, **Target Project**, **Target LogStore**, and **Transfer Target Resource Status** parameters. By default, the **Target Project** and **Target LogStore** parameters are automatically set to the project and Logstore prior to the dump. However, if the logs cannot be dumped to a project bearing the same name or if you have unique business requirements, you can manually adjust the settings of the Target Project and Target LogStore parameters to meet your business requirements.
 
-   ![](assets/9f32015a0098e1c2bd15d2f51910d0b3.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9f32015a0098e1c2bd15d2f51910d0b3.jpeg)
 
 8. Click **Complete Create**. The log dump task is created.
 
@@ -16400,7 +16400,7 @@ The read and write permissions on Log Center are obtained.
 
 2. View the task information in the following columns: **Source Project**, **Source LogStore**, **Log Ownership Information**, **Target Organization**, **Target Project**, **Target LogStore**, **Log Retention Period**, **Server-side Encrypted Storage**, and **Dump Status**.
 
-   ![](assets/59c9621868401c8a94853c92bc507573.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/59c9621868401c8a94853c92bc507573.jpeg)
 
 3. Click **Related Log List** in the **Log Ownership Information** column to view related log information in the following columns: **Product Name**, **Service Name**, **Service Role**, **Log Name**, and **Log Type**.
 
@@ -16416,7 +16416,7 @@ The read and write permissions on Log Center are obtained.
 
 2. The log dump task list provides the following information: **Task ID**, **Source Project**, **Source LogStore**, **Target Organization**, **Target Project**, **Target LogStore**, **Start Time**, **Status**, **Progress**, and **Time Consumed**.
 
-   ![](assets/f00979beaefc4069ebac34d50992bc74.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f00979beaefc4069ebac34d50992bc74.jpeg)
 
 **Appendix: Grant permissions to a RAM role**
 
@@ -16434,7 +16434,7 @@ The read and write permissions on Log Center are obtained.
 
 5. In the **Basic Configurations** step, set the **Role Name** parameter to log-dump-role and the **Description** parameter to RAM role for platform-side log dump. Then, click **Next**.
 
-   ![](assets/db28355f031b45c240a1c18799b5f88b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/db28355f031b45c240a1c18799b5f88b.jpeg)
 
 6. In the **Configure Custom Policy** step, perform the following operations:
 
@@ -16456,7 +16456,7 @@ The read and write permissions on Log Center are obtained.
 
    Copy the **Permission Policy** content obtained by clicking **Obtain RAM Authorization Information** when you create a log dump task, and paste the content in the **Policy Content** field.
 
-   ![](assets/b2e6ae722ac2a98b55c0620724fa879f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b2e6ae722ac2a98b55c0620724fa879f.jpeg)
 
    <ol type="i" start="3">
 
@@ -16470,7 +16470,7 @@ The read and write permissions on Log Center are obtained.
 
    Select the created permission policy and click **Next**.
 
-   ![](assets/1f2d96cbcd45a58e7b502b8b781bc526.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1f2d96cbcd45a58e7b502b8b781bc526.jpeg)
 
    </li>
 
@@ -16478,7 +16478,7 @@ The read and write permissions on Log Center are obtained.
 
 7. In the **Configure Trust Policy** step, copy the **Credit Policy** content obtained by clicking **Obtain RAM Authorization Information** when you create a log dump task, paste the content in the **Trust Policy** field, and then click **Next**.
 
-   ![](assets/3cdc45d40cde90980012185e3e506c34.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3cdc45d40cde90980012185e3e506c34.jpeg)
 
 8. In the **Preview Policy** step, preview and confirm the permission policy and trust policy content, and click **Create** in the lower-right corner.
 
@@ -16486,11 +16486,11 @@ The read and write permissions on Log Center are obtained.
 
 0. Click the **RAM Role** tab. Click **Create**. In the Create dialog box, set the Organization parameter to the level-1 organization to which you want to dump logs, and then click **OK**.
 
-   ![](assets/ad149d642664e3967ee666f49eff47c4.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ad149d642664e3967ee666f49eff47c4.jpeg)
 
 1. Copy the **ARN** of the created RAM role log-dump-role, and paste it in the **ARN** field when you create a log dump task to complete the authorization.
 
-   ![](assets/9eb50e6881c547a203785a7ad1c58974.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9eb50e6881c547a203785a7ad1c58974.jpeg)
 
 <a id="section-5-7-4"></a>
 
@@ -16512,17 +16512,17 @@ The read and write permissions on Log Center are obtained.
 
    - **Capacity usage trends**: This chart displays information about **Total storage capacity** and **Use storage capacity** within the specified period of time.
 
-     ![](assets/1d52b6e3df34c9543bc18d7a2d7512b1.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1d52b6e3df34c9543bc18d7a2d7512b1.jpeg)
 
    - **Capacity Details**: In this section, you can search for logs by **Products** and **Date** to view their respective storage sizes. For every log entry, the following information is displayed: **Date**, **Geography**, **Products**, **Used**, **Product available**, and **Utilization rate**.
 
-     ![](assets/b5ee2fcc6637a5386a1ed520f0ad7202.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b5ee2fcc6637a5386a1ed520f0ad7202.jpeg)
 
 4. On the **Log Traffic** tab, view the following information:
 
    - **Total Flow Trend**: This chart displays the trend of the total traffic within the specified period of time.
 
-     ![](assets/8209f14fe24fd781ecc3268cee07237a.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8209f14fe24fd781ecc3268cee07237a.jpeg)
 
      > **Note**
      >
@@ -16532,7 +16532,7 @@ The read and write permissions on Log Center are obtained.
 
      For every log entry, the following information is displayed: **SlsProject**, **LogStore**, **Related Products**, **Log Type**, and **Log Traffic**.
 
-     ![](assets/62343202e4c6a57ad6498b90fe792704.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/62343202e4c6a57ad6498b90fe792704.jpeg)
 
      > **Note**
      >
@@ -16562,7 +16562,7 @@ You can create and manage platform tasks (tasks that require manual assignment a
    >
    > - **Ended** tasks include completed, expired, and terminated tasks.
 
-   ![](assets/a4879f03b8cc1ba6115bb96406a54ca2.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a4879f03b8cc1ba6115bb96406a54ca2.jpeg)
 
 4. In the **Task list** section, click **Create task**.
 
@@ -16579,7 +16579,7 @@ You can create and manage platform tasks (tasks that require manual assignment a
    | Task Description | Enter a description for the task. |
    | Jump link | Enter a jump link related to the task. |
 
-   ![](assets/b86ad16114ace947e8ade93600e99725.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b86ad16114ace947e8ade93600e99725.jpeg)
 
 **Related operations**
 
@@ -16718,7 +16718,7 @@ In the report list, you can manage custom and public reports, including managing
      >
      > - To add card options, perform the following steps: Click **System Config** in the top navigation bar. In the System Config console, click **Card management** in the left-side navigation pane. Then, create cards on the Card Management page.
 
-8. Click the <img src="assets/6a6b7e986ed1498c39cada5875e69cd4.png" width="23" alt=""> icon to save the report.
+8. Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6a6b7e986ed1498c39cada5875e69cd4.png" width="23" alt=""> icon to save the report.
 
 **What to do next**
 
@@ -16726,7 +16726,7 @@ In the report list, you can manage custom and public reports, including managing
 
 1. Find the report that you want to modify and click **Edit** in the **Operation** column.
 
-2. Modify the report settings and click the <img src="assets/6a6b7e986ed1498c39cada5875e69cd4.png" width="23" alt=""> icon to save the report.
+2. Modify the report settings and click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6a6b7e986ed1498c39cada5875e69cd4.png" width="23" alt=""> icon to save the report.
 
 **Download a report**
 
@@ -16758,7 +16758,7 @@ In the report list, you can manage custom and public reports, including managing
 >
 > - After you publish a report, you cannot change its public directory. To change the directory, contact the report administrator.
 
-1. Find the report that you want to publish and choose <img src="assets/49513ab40af5653e5fe21731f3e53ddf.png" width="14" alt=""> > **Public** in the **Operation** column.
+1. Find the report that you want to publish and choose <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/49513ab40af5653e5fe21731f3e53ddf.png" width="14" alt=""> > **Public** in the **Operation** column.
 
 2. In the dialog box that appears, select a directory for **Public Directory** and click **OK**.
 
@@ -16768,7 +16768,7 @@ In the report list, you can manage custom and public reports, including managing
 >
 > You can unpublish a report that is in the **Published** state.
 
-1. Find the report that you want to unpublish and choose <img src="assets/49513ab40af5653e5fe21731f3e53ddf.png" width="14" alt=""> > **Unpublic** in the **Operation**
+1. Find the report that you want to unpublish and choose <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/49513ab40af5653e5fe21731f3e53ddf.png" width="14" alt=""> > **Unpublic** in the **Operation**
 
    column.
 
@@ -16776,7 +16776,7 @@ In the report list, you can manage custom and public reports, including managing
 
 **Copy a report**
 
-1. Find the report that you want to copy and choose <img src="assets/49513ab40af5653e5fe21731f3e53ddf.png" width="14" alt=""> > **Copy** in the **Operation** column.
+1. Find the report that you want to copy and choose <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/49513ab40af5653e5fe21731f3e53ddf.png" width="14" alt=""> > **Copy** in the **Operation** column.
 
 2. In the dialog box that appears, configure the following parameters and click **OK**.
 
@@ -16789,7 +16789,7 @@ In the report list, you can manage custom and public reports, including managing
 
 Move a single report:
 
-1. Find the report that you want to move and choose <img src="assets/49513ab40af5653e5fe21731f3e53ddf.png" width="14" alt=""> > **Mobile** in the **Operation** column.
+1. Find the report that you want to move and choose <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/49513ab40af5653e5fe21731f3e53ddf.png" width="14" alt=""> > **Mobile** in the **Operation** column.
 
 2. In the dialog box that appears, select a directory for **Location** and click **OK**.
 
@@ -16803,7 +16803,7 @@ Move multiple reports at a time:
 
 Delete a single report:
 
-1. Find the report that you want to delete and choose <img src="assets/49513ab40af5653e5fe21731f3e53ddf.png" width="14" alt=""> > **Delete** in the **Operation** column.
+1. Find the report that you want to delete and choose <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/49513ab40af5653e5fe21731f3e53ddf.png" width="14" alt=""> > **Delete** in the **Operation** column.
 
 2. In the message that appears, click **OK**.
 
@@ -16857,7 +16857,7 @@ Create a report download task. The supported report formats include Excel and HT
    | Report name | Select the name of the report you want to download. |
    | File type | Select the file format for the report to be downloaded.<br>• excel<br>• html |
 
-   ![](assets/ebbf8706d602952f38f6c8086b2db28e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ebbf8706d602952f38f6c8086b2db28e.jpeg)
 
 5. After the report download task completes, click **Download reports** in the **Operation** column of the target task to download the report to your local device for viewing.
 
@@ -16873,7 +16873,7 @@ Create a report download task. The supported report formats include Excel and HT
 
 2. View the list of report download tasks, which includes the following columns: **Report name**, **Task name**, **Download status**, **Creator**, **Creation time**, **Completion time**, **Start time**, **End time**, and **Execution time**.
 
-   ![](assets/c440eeca45e6947668369f99c0b56943.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c440eeca45e6947668369f99c0b56943.jpeg)
 
 **Delete a report download task**
 
@@ -16907,7 +16907,7 @@ You can view and configure report push rules, including the report content and p
    | Language | Select the language for the report to be pushed. Valid values:<br>• Chinese<br>• English |
    | Recipient | Enter the email addresses of the recipients who will receive the report.Separate multiple addresses with commas (,).<br>Note<br>You can configure up to 20 recipients in a single rule. |
 
-   ![](assets/001010c80a3d20ce905c9c3332c99388.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/001010c80a3d20ce905c9c3332c99388.jpeg)
 
 **What to do next**
 
@@ -16915,7 +16915,7 @@ You can view and configure report push rules, including the report content and p
 
 1. Click **Advanced Filter** and search for a rule by **Rule name** and **Status**.
 
-   ![](assets/d43902faa40c213ce206cd85a6e3d1d6.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d43902faa40c213ce206cd85a6e3d1d6.jpeg)
 
 2. View the rule information in the **Rule name**, **Status**, **Push cycle**, **Report name**, **Creation time**, **Update time**, **Latest Push time**, **Latest Push status**, and **Rule description** columns.
 
@@ -16977,7 +16977,7 @@ The ANS component is added and a notification channel is configured.
    >
    > - To obtain the token, click **System Config** in the top navigation bar and choose **Notification Management** > **Channel Management**.
 
-   ![](assets/d7cba4fa8a6477259e4e15f48e68d5e2.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d7cba4fa8a6477259e4e15f48e68d5e2.jpeg)
 
 **What to do next**
 
@@ -17115,7 +17115,7 @@ You can query the records of operations that are performed in the console by use
 
      Specify the **Username** and **Time Range** parameters to filter operation records.
 
-     ![](assets/43c23208c2f84ba1a400d4a058c8b8b5.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/43c23208c2f84ba1a400d4a058c8b8b5.jpeg)
 
    - Export operation records
 
@@ -17147,7 +17147,7 @@ You can view the records of operations that are performed in the CLI by users on
 
      Select **Log source**, **Linux account**, **Machine/container**, or **Operation Time** and specify a value to view records. You can also click Advanced Filter and specify a combination of the preceding parameters to filter records.
 
-     ![](assets/8bef3ce4e477d2e3fe4b55bd459f10e0.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8bef3ce4e477d2e3fe4b55bd459f10e0.jpeg)
 
    - Export operation records
 
@@ -17177,15 +17177,15 @@ You have deployed Apsara AIOPS.
 
 4. At the top of the dialog box, select a time range for audit log analysis, enter your question,
 
-   and click <img src="assets/39b26b12294ce732c578e87279df40de.png" width="14" alt=""> .
+   and click <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/39b26b12294ce732c578e87279df40de.png" width="14" alt=""> .
 
-   ![](assets/3dc9e4453a0640e0b6a5ce229d6528a1.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3dc9e4453a0640e0b6a5ce229d6528a1.jpeg)
 
 5. After the system returns an answer, you can perform the following operations:
 
    - Click the PDF file to view the audit log analysis report.
 
-     <img src="assets/8135a2fef82f6ff5deeeb50b910f5a6d.png" width="16" alt=""> : Copy the answer.
+     <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8135a2fef82f6ff5deeeb50b910f5a6d.png" width="16" alt=""> : Copy the answer.
 
 6. On the right side of the page, you can also:
 
@@ -17235,11 +17235,11 @@ The system periodically scans container images based on built-in policies and us
 
 4. On the **Container image control** tab, view the information about container images and search for a container image by **Machine name**, **Image ID/Image summary**, **Image signature verification result**, **Policy type**, and **Policy source**.
 
-   ![](assets/6fd9854fa5206b0610a555172561ec18.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6fd9854fa5206b0610a555172561ec18.jpeg)
 
 5. Find the container image that you want to manage and click **Associated container** in the **Operation** column to view container information, including **Container ID**, **Container name**, **Status**, and **Runtime**.
 
-   ![](assets/67cb9e49e1a790b7914a3e1ed7367602.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/67cb9e49e1a790b7914a3e1ed7367602.jpeg)
 
 **What to do next**
 
@@ -17258,7 +17258,7 @@ The system periodically scans container images based on built-in policies and us
    | Prefix | This parameter takes effect only when you set the <strong>Policy type</strong> parameter to <strong>Image name rule matching</strong>.<br>The prefix of the image name rule. |
    | Suffix | This parameter takes effect only when you set the <strong>Policy type</strong> parameter to <strong>Image name rule matching</strong>.<br>The suffix of the image name rule. |
 
-   ![](assets/f22d20ad76b8af5c7272b94cc483b636.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f22d20ad76b8af5c7272b94cc483b636.jpeg)
 
 **Delete custom policies**
 
@@ -17548,19 +17548,19 @@ This topic lists the following network security consoles:
 
 4. In the upper part of the Agent Management page, view the information in the **Overview** section, including **Total number of deployed agents**, **Number of patches installed**, and **Number of protected attacks**.
 
-   ![](assets/324056a69b8a8129184b83a6a22612a5.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/324056a69b8a8129184b83a6a22612a5.jpeg)
 
 5. In the lower part of the Agent Management page, view the information in the **Agent List** section, including **Product**, **Service**, **Server Role**, and **Number of alive agents**.
 
-6. Click the <img src="assets/a3a90423af0d9ce7224a03d197b996b8.png" width="13" alt=""> icon next to a service and view the information about the agent sublist,
+6. Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a3a90423af0d9ce7224a03d197b996b8.png" width="13" alt=""> icon next to a service and view the information about the agent sublist,
 
    including **IP**, **Application Language**, **Process path**, **Process Command**, **Status**, and **Rule Statistics**.
 
    > **Note**
    >
-   > Click the <img src="assets/252b384ad9ecb5ba3f52f488f8af7665.png" width="14" alt=""> icon to hide the sublist.
+   > Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/252b384ad9ecb5ba3f52f488f8af7665.png" width="14" alt=""> icon to hide the sublist.
 
-   ![](assets/b4adc88312b0b1d5c754077cbbc6800f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b4adc88312b0b1d5c754077cbbc6800f.jpeg)
 
 7. Find the sublist that you want to manage and click **Protection Policy** in the **Actions** column to view the rule information. Perform the operations that are described in the following table based on your business requirements.
 
@@ -17575,7 +17575,7 @@ This topic lists the following network security consoles:
    >
    > The preceding operations change rules. You must perform these operations based on change policies. Rule changes are performed asynchronously in the background. A rule change takes more than 10 minutes to complete. You can view the result after 10 minutes or click the Refresh icon to view the changed rule information.
 
-   ![](assets/5a9917d63704034dc01365480996662e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5a9917d63704034dc01365480996662e.jpeg)
 
 8. Find the sublist that you want to manage and click **Install Rule** in the **Actions** column. In the dialog box that appears, configure the **Rule list** parameter and click **Install** to deliver the rule.
 
@@ -17603,7 +17603,7 @@ Administrators can perform operations such as importing rules, enabling or disab
 
 4. On the Rule Management page, view global rules. Then, search for a rule by **Code**.
 
-   ![](assets/29e63952d17b8dd353e6722ce757cd25.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/29e63952d17b8dd353e6722ce757cd25.jpeg)
 
 5. Perform the following O&M operations on the rule.
 
@@ -17626,7 +17626,7 @@ Administrators can perform operations such as importing rules, enabling or disab
    >
    > The ID of the rule that you want to import must be unique. Otherwise, the upload fails.
 
-   ![](assets/89b554a109ec1f17062cfa076368759f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/89b554a109ec1f17062cfa076368759f.jpeg)
 
 <a id="section-7-4-1-3"></a>
 
@@ -17642,13 +17642,13 @@ Administrators can perform operations such as importing rules, enabling or disab
 
 4. In the upper part of the Attack Alert page, view the number of blocked attacks and the number of alerts.
 
-   ![](assets/cbbff3d650dee2a8c544dd43091e0885.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cbbff3d650dee2a8c544dd43091e0885.jpeg)
 
 5. In the lower part of the Attack Alert page, view the information about attack alerts, including **Product**, **Report Host**, **Alert Type**, **Alert rules**, **Latest trigger information**, **Latest Alert Time**, **First Alert time**, **Status**, and **Alert ID**.
 
    You can search for an attack alert by **Alert Type**, **Product**, **Rules**, **Machine IP**, and **Hostname**.
 
-   ![](assets/822de6bff95a3879dc86ec8551eedfd1.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/822de6bff95a3879dc86ec8551eedfd1.jpeg)
 
 <a id="section-7-4-2"></a>
 
@@ -17680,17 +17680,17 @@ The Single Region access matrix page displays cross-network access requirements 
 
 5. View the information about inbound access matrixes, including **Unique Identifier**, **Network link Type**, **SOURCE Network area**, **SOURCE IP**, **SOURCE IP segment**, **Destination Network area**, **Purpose product**, **Destination Service**, **Destination component**, **Destination resource type**, **Destination resource name**, **Destination IP**, **Destination IP segment**, **Destination Port**, **Destination domain name**, **Access Protocol**, **Access scenario description**, **Security policy configuration recommendations**, **Creation time**, and **Update Time**.
 
-   ![](assets/d752566439de48cfda65ff5697c3b10d.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d752566439de48cfda65ff5697c3b10d.jpeg)
 
 6. Find the inbound access matrix that you want to view and click **Details** in the **Operation** column to view the details of the inbound access matrix, including **Basic information**, **Source information**, and **Destination information**.
 
-   ![](assets/87b90f1747a6d177eb18e2dcd2910c0d.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/87b90f1747a6d177eb18e2dcd2910c0d.jpeg)
 
 **What to do next**
 
 | Operation | Description |
 | --- | --- |
-| Edit an inbound access matrix | 1. Find the inbound access matrix that you want to edit and click <strong>Edit</strong> in the <strong>Operation</strong> column.<br>2. In the dialog box that appears, configure the <strong>SOURCE IP</strong> and <strong>SOURCE</strong> <strong>IP segment</strong> parameters based on onsite cloud instance requirements.The access source of an inbound access matrix is an external network outside the cloud platform.<br>![](assets/4628c731b7becef8229b01c1c1367de6.jpeg)<br>3. Click <strong>OK</strong>. |
+| Edit an inbound access matrix | 1. Find the inbound access matrix that you want to edit and click <strong>Edit</strong> in the <strong>Operation</strong> column.<br>2. In the dialog box that appears, configure the <strong>SOURCE IP</strong> and <strong>SOURCE</strong> <strong>IP segment</strong> parameters based on onsite cloud instance requirements.The access source of an inbound access matrix is an external network outside the cloud platform.<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4628c731b7becef8229b01c1c1367de6.jpeg)<br>3. Click <strong>OK</strong>. |
 | Export inbound access matrixes | In the upper part of the Inbound (external access to cloud products) tab, click <strong>Export data</strong> to export inbound access matrixes to your on-premises machine. |
 | Update inbound access matrixes | In the upper part of the Inbound (external access to cloud products) tab, click <strong>Update data</strong> to collect the latest product deployment information and update inbound access matrixes. |
 
@@ -17710,17 +17710,17 @@ The Single Region access matrix page displays cross-network access requirements 
 
 5. View the information about outbound access matrixes, including **Unique Identifier**, **Network link Type**, **SOURCE Network area**, **SOURCE product**, **SOURCE Service**, **SOURCE component**, **SOURCE IP**, **SOURCE IP segment**, **Destination Network area**, **Destination IP**, **Destination IP segment**, **Destination Port**, **Destination domain name**, **Access Protocol**, **Access scenario description**, **Security policy configuration recommendations**, **Creation time**, and **Update Time**.
 
-   ![](assets/b0d97b2ad9b79091da1bc3da01fe7727.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b0d97b2ad9b79091da1bc3da01fe7727.jpeg)
 
 6. Find the outbound access matrix that you want to view and click **Details** in the **Operation** column to view the details of the outbound access matrix, including **Basic information**, **Source information**, and **Destination information**.
 
-   ![](assets/883a5359de051cf9ad7a1d3f2c27c4f8.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/883a5359de051cf9ad7a1d3f2c27c4f8.jpeg)
 
 **What to do next**
 
 | Operation | Description |
 | --- | --- |
-| Edit an outbound access matrix | 1. Find the outbound access matrix that you want to edit and click <strong>Edit</strong> in the <strong>Operation</strong> column.<br>2. In the dialog box that appears, configure the <strong>Destination IP</strong>, <strong>Destination IP segment</strong>, <strong>Destination Port</strong>, and <strong>Destination</strong> <strong>domain name</strong> parameters based on onsite cloud instance requirements. The access destination of an outbound access matrix is an external network outside the cloud platform.<br>![](assets/fe606037fa3427e6428404bc8ce8b698.jpeg)<br>3. Click <strong>OK</strong>. |
+| Edit an outbound access matrix | 1. Find the outbound access matrix that you want to edit and click <strong>Edit</strong> in the <strong>Operation</strong> column.<br>2. In the dialog box that appears, configure the <strong>Destination IP</strong>, <strong>Destination IP segment</strong>, <strong>Destination Port</strong>, and <strong>Destination</strong> <strong>domain name</strong> parameters based on onsite cloud instance requirements. The access destination of an outbound access matrix is an external network outside the cloud platform.<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/fe606037fa3427e6428404bc8ce8b698.jpeg)<br>3. Click <strong>OK</strong>. |
 | Export outbound access matrixes | In the upper part of the Outbound (cloud products access external) tab, click <strong>Export data</strong> to export outbound access matrixes to your on-premises machine. |
 | Update outbound access matrixes | In the upper part of the Outbound (cloud products access external) tab, click <strong>Update data</strong> to collect the latest product deployment information and update outbound access matrixes. |
 
@@ -17742,11 +17742,11 @@ The Cross-Region access matrix page displays cross-region access requirements of
 
 5. View the information about cross-region access matrixes, including **Unique Identifier**, **Network link Type**, **SOURCE Network area**, **SOURCE product**, **SOURCE Service**, **SOURCE component**, **SOURCE IP**, **SOURCE IP segment**, **Destination Network area**, **Destination IP**, **Destination Port**, **Destination IP segment**, **Access Protocol**, **Access scenario description**, **Security policy configuration recommendations**, **Creation time**, and **Update Time**.
 
-   ![](assets/08ac54503098d8c280a71217f34e3d7f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/08ac54503098d8c280a71217f34e3d7f.jpeg)
 
 6. Find the cross-region access matrix that you want to view and click **Details** in the **Operation** column to view the details of the cross-region access matrix, including **Basic information**, **Source information**, and **Destination information**.
 
-   ![](assets/d86e6460573f9e54549eecca47cf0ea0.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d86e6460573f9e54549eecca47cf0ea0.jpeg)
 
 **What to do next**
 
@@ -17789,7 +17789,7 @@ The system checks for security risks in the cloud platform's network perimeter s
    <table>
      <tr>
        <td>Add a grid connection link</td>
-       <td>i. Click <strong>Add grid connection link</strong>.<br>ii. Configure the following parameters and click <strong>OK</strong>.<br>• Custom grid connection link name<br>• Region<br>• Data center<br>• Perimeter security device name<br>• Grid-connected switch role<br>• Source security domain<br>• Destination security domain<br>• Grid connection link description<br><img src="assets/0749c978799b530378451fd35fe991ae.jpeg" alt=""></td>
+       <td>i. Click <strong>Add grid connection link</strong>.<br>ii. Configure the following parameters and click <strong>OK</strong>.<br>• Custom grid connection link name<br>• Region<br>• Data center<br>• Perimeter security device name<br>• Grid-connected switch role<br>• Source security domain<br>• Destination security domain<br>• Grid connection link description<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0749c978799b530378451fd35fe991ae.jpeg" alt=""></td>
      </tr>
      <tr>
        <td>Check grid connection links</td>
@@ -17895,7 +17895,7 @@ Security Reinforce Service (SRS) provides the security isolation feature. On the
 
 4. In the **SRS Security Isolation Status Settings** section of the Configuration Management tab, view the current SRS security isolation status. Click **Status in All Regions**. In the dialog box that appears, view the SRS security isolation status of all nodes.
 
-   ![](assets/acd2bc730db57de4f493b201bc9f49a4.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/acd2bc730db57de4f493b201bc9f49a4.jpeg)
 
 5. Change the SRS security isolation status based on your business requirements. The following content describes the relevant background information and prerequisites.
 
@@ -18127,7 +18127,7 @@ SRS only trusts internal IP addresses. After SRS security isolation is enabled, 
 
    - Delete an IP address whitelist: Find the IP address whitelist that you want to delete and click **Delete** in the **Actions** column. In the message that appears, click OK. In the dialog box that appears, select **I have read the above prompts and confirmed the operation.** and click OK.
 
-   ![](assets/350901d64788b64c266821697956e66f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/350901d64788b64c266821697956e66f.jpeg)
 
 **Configure IP address blacklists for SRS**
 
@@ -18167,7 +18167,7 @@ You can add IP addresses that are identified as illegal to an IP address blackli
 
    - Delete an IP address blacklist: Find the IP address blacklist that you want to delete and click **Delete** in the **Actions** column. In the message that appears, click **OK**.
 
-   ![](assets/0c663cb3702dec7d0b0ac40c1aeffb67.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0c663cb3702dec7d0b0ac40c1aeffb67.jpeg)
 
 **Configure SRS isolation-free products**
 
@@ -18195,7 +18195,7 @@ If you want a product that is connected to SRS not to be protected by SRS, you c
 
    - Delete an SRS isolation-free product: Find the product that you want to delete and click **Delete** in the **Actions** column. In the message that appears, click OK. In the dialog box that appears, select **I have read the above prompts and confirmed the operation.** and click OK.
 
-   ![](assets/0c110e18df3659c9b2527a371e890d69.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0c110e18df3659c9b2527a371e890d69.jpeg)
 
 **Configure SRS bypass baselines**
 
@@ -18223,7 +18223,7 @@ The products in the baseline allow list are not isolated. If you want to isolate
 
    - Delete an isolated product: Find the product that you want to delete and click **Delete** in the **Actions** column. In the message that appears, click OK. In the dialog box that appears, select **I have read the above prompts and confirmed the operation.** and click OK.
 
-   ![](assets/0e6e92de8cdf8fef8c625763e2c1ee61.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0e6e92de8cdf8fef8c625763e2c1ee61.jpeg)
 
 **Data management**
 
@@ -18255,7 +18255,7 @@ The IP addresses in the IP address whitelist in the cloud that is initially conf
 
 5. In the **IP Address Whitelist** section, select a domain name to view related IP addresses in the whitelist.
 
-   ![](assets/e8bfe99afc8d346b08d9676e6b67fa7f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e8bfe99afc8d346b08d9676e6b67fa7f.jpeg)
 
 **Audit logs**
 
@@ -18279,7 +18279,7 @@ You can view historical SRS operation records for auditing after accidental oper
 
 4. Click the **Audit Logs** tab. On the tab, search for audit logs by **API** and **Operated By**. Then, view the information about historical SRS operations from the search results, including API operation names, operators, request methods, data, and operation time.
 
-   ![](assets/5fc0aa23a68fc755d4903d1a5f442121.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5fc0aa23a68fc755d4903d1a5f442121.jpeg)
 
 <a id="section-7-4-2-2-1-2"></a>
 
@@ -18323,7 +18323,7 @@ You can configure dynamic allow rules for products in SRS.
 
 5. Click **Add Entry**. In the section that appears, configure the parameters and click **OK**.
 
-   ![](assets/2357340690c9dd00fca57f6047ed1388.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2357340690c9dd00fca57f6047ed1388.jpeg)
 
    The following table describes the parameters.
 
@@ -18356,7 +18356,7 @@ You can configure dynamic allow rules for products in SRS.
    >
    >   icon to delete a server role configuration of the product.
    >
-   >   <img src="assets/3f84a0bdacd3c1e449fe043a113b52fd.png" width="18" alt="">
+   >   <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3f84a0bdacd3c1e449fe043a113b52fd.png" width="18" alt="">
    >
    > - If the new product name and server role are the same as those in an existing configuration, the existing configuration is overwritten.
    >
@@ -18383,7 +18383,7 @@ You can view the baseline allow rules of products in SRS. Baseline allow rules a
 
 4. Switch from the **Dynamic Allow Settings** tab that appears by default to the **Baseline Allow Settings** tab and view the information about baseline allow configurations of products in the list, including **Product Name**, **Service**, **SR**, **Port**, **CPU Architecture**, and **Performed At**.
 
-   ![](assets/ded01dd0864413635d5ca2d710378a38.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ded01dd0864413635d5ca2d710378a38.jpeg)
 
 <a id="section-7-4-2-2-1-3"></a>
 
@@ -18415,7 +18415,7 @@ On the Clients tab of the Client Status page, you can view the status of SRS cli
 
    You can search for a client by **Host Name** and **Only Packet Loss Host**.
 
-   ![](assets/f09f5b6e0b1b353181a479ad3bc552dd.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f09f5b6e0b1b353181a479ad3bc552dd.jpeg)
 
    The following table lists the parameters that describe client information.
 
@@ -18513,7 +18513,7 @@ When a malicious attack on the cloud platform is identified, Donghuangzhong allo
 
    - Delete a blacklisted CIDR block: Find the blacklisted CIDR block and click **Delete** in the **Actions** column. In the message that appears, click **OK**.
 
-   ![](assets/6e813bf76e3cf10b92a503da9b1c6501.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6e813bf76e3cf10b92a503da9b1c6501.jpeg)
 
 **Configure whitelisted CIDR blocks**
 
@@ -18535,7 +18535,7 @@ By default, the network inside the cloud platform is isolated from the outside o
 
    - Delete a whitelisted CIDR block: Find the whitelisted CIDR block that you want to delete and click **Delete** in the **Actions** column. In the message that appears, click OK. In the dialog box that appears, select **I have read the above prompts and confirmed the operation.** and click OK.
 
-   ![](assets/8a3fab4707504c4890b38848502788a1.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8a3fab4707504c4890b38848502788a1.jpeg)
 
 **Configure host allowed ports**
 
@@ -18553,11 +18553,11 @@ By default, the host network allows only port 22 for networks outside the cloud 
 
    - View a host allowed port: View the information about a host allowed port.
 
-     ![](assets/53de4ab41b6dae59d0c484f1487caf02.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/53de4ab41b6dae59d0c484f1487caf02.jpeg)
 
    - Add a host allowed port: Click **Add**. In the dialog box that appears, configure the **Start Port Number**, **End Port Number**, **Protocol**, and **Select Node** parameters and click OK. In the dialog box that appears, select **I have read the above prompts and confirmed the operation.** and click OK.
 
-     ![](assets/311281b4b882b3e69c724e8e873fd179.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/311281b4b882b3e69c724e8e873fd179.jpeg)
 
    - Change a host allowed port: Find the host allowed port that you want to change and click **Modify** in the **Actions** column. In the dialog box that appears, modify the parameters and click **OK**.
 
@@ -18583,7 +18583,7 @@ You can use the feature of node debugging logs to query the requests of hosts ou
 
    You can also click **Advanced Filter** and configure the following parameters to query the requests of hosts outside the cloud platform accessing the host network of the cloud platform: **Start and End Time**, **Node**, **Source IP Address**, **Destination IP Address**, **Destination Port**, and **Protocol**.
 
-   ![](assets/ba2eba49bb6ca1bd01dd144f70c2ce6f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ba2eba49bb6ca1bd01dd144f70c2ce6f.jpeg)
 
    > **Note**
    >
@@ -18615,7 +18615,7 @@ By default, the VIP mode of a management domain is auto. In most cases, you do n
 
 4. On the VIP List page, view the VIP information about all management domains. You can also configure the Product parameter to view the VIP information about a specific product.
 
-   ![](assets/8496724c28a50526f83a0909fb7ade8f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8496724c28a50526f83a0909fb7ade8f.jpeg)
 
    The following table describes the parameters of the VIP list.
 
@@ -18646,7 +18646,7 @@ You can view the whitelist of all CIDR blocks on the cloud platform to check whe
 
    On the dhzSubnetWhiteList page, view the whitelist of all CIDR blocks on the cloud platform.
 
-   ![](assets/df39cfedd12a9a7b48de4aa85be69720.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/df39cfedd12a9a7b48de4aa85be69720.jpeg)
 
 4. In the upper-left corner, enter an IP address in the search bar and click **Query**.
 
@@ -18676,7 +18676,7 @@ Platform virtual IP address (VIP) security protection includes security protecti
 
 4. On the **Classic network VIP** tab of the Platform VIP security protection page, perform the operations that are described in the following table.
 
-   ![](assets/e4d1fa830641703b95aacc5faf6b3972.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e4d1fa830641703b95aacc5faf6b3972.jpeg)
 
    | Operation | Description |
    | --- | --- |
@@ -18689,7 +18689,7 @@ Platform virtual IP address (VIP) security protection includes security protecti
 
 5. On the **AnyTunnel VIP** tab of the Platform VIP security protection page, perform the operations that are described in the following table.
 
-   ![](assets/8e974b77ca7af2c55a113e032620f722.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8e974b77ca7af2c55a113e032620f722.jpeg)
 
    | Operation | Description |
    | --- | --- |
@@ -18745,11 +18745,11 @@ This feature is used to manage the forwarding range of common DNS services outsi
    | Product | This parameter takes effect only when you set <strong>SOURCE Type</strong> to <strong>VPC</strong>.<br>The name of the product. |
    | Account Name | This parameter takes effect only when you set <strong>SOURCE Type</strong> to <strong>VPC</strong>.<br>The aliUid of the user. |
 
-   ![](assets/34206f52f675ebc71a6020ae36939937.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/34206f52f675ebc71a6020ae36939937.jpeg)
 
 6. Click **Advanced Filter** to filter forwarding rules by **Domain name range**, **Network segment**, **IP address**, **VPC name**, and **VPC ID**.
 
-   ![](assets/da5313425ed94f179d2bfc4f1652bfb2.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/da5313425ed94f179d2bfc4f1652bfb2.jpeg)
 
 **What to do next**
 
@@ -18817,7 +18817,7 @@ For hosts that do not require outbound connections, you can configure only speci
 
 6. Click **Advanced Filter** and search for routes by **Host Type**, **Hostname/IP Address**, **Cloud Service**, **Cluster**, **Service**, **Component**, **Host-side Routing Control Status**, **Route Configuration Status**, and **Policy**.
 
-   ![](assets/1cd18eda95669454f4f2ec8ef3cbc4c1.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1cd18eda95669454f4f2ec8ef3cbc4c1.jpeg)
 
 7. Perform operations based on your business requirements. The following table describes the operations that you can perform.
 
@@ -18832,13 +18832,13 @@ For hosts that do not require outbound connections, you can configure only speci
 
    Click **Advanced Filter** and search for trusted CIDR blocks by **Type**, **Name**, **ID**, and **CIDR Block**.
 
-   ![](assets/7a2546b564c57a4edca7ac9225ac5c70.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7a2546b564c57a4edca7ac9225ac5c70.jpeg)
 
 9. Perform operations based on your business requirements. The following table describes the operations that you can perform.
 
    | Operation | Procedure |
    | --- | --- |
-   | Add CIDR blocks | i. Click <strong>Add</strong>.<br>ii. In the dialog box that appears, configure the following parameters and click <strong>OK</strong>.<br>• <strong>Type</strong>: the type of the trusted CIDR blocks.<br>• <strong>Global</strong>: the global trusted CIDR blocks whose specific routes are delivered to all hosts under control.<br>• <strong>Restricted</strong>: the restricted trusted CIDR blocks whose specific routes are added only to the route table of the user-specified hosts.<br>• <strong>Name</strong>: the name of the trusted CIDR blocks. The name can be up to 255 characters in length.<br>• <strong>ID</strong>: the ID of the trusted CIDR blocks. The ID can be up to 255 characters in length.<br>• <strong>CIDR Block</strong>: one or more CIDR blocks that you want to trust.Separate multiple CIDR blocks with commas (,).<br>![](assets/11b18d210b6ffd715db275048d6ee5b8.jpeg) |
+   | Add CIDR blocks | i. Click <strong>Add</strong>.<br>ii. In the dialog box that appears, configure the following parameters and click <strong>OK</strong>.<br>• <strong>Type</strong>: the type of the trusted CIDR blocks.<br>• <strong>Global</strong>: the global trusted CIDR blocks whose specific routes are delivered to all hosts under control.<br>• <strong>Restricted</strong>: the restricted trusted CIDR blocks whose specific routes are added only to the route table of the user-specified hosts.<br>• <strong>Name</strong>: the name of the trusted CIDR blocks. The name can be up to 255 characters in length.<br>• <strong>ID</strong>: the ID of the trusted CIDR blocks. The ID can be up to 255 characters in length.<br>• <strong>CIDR Block</strong>: one or more CIDR blocks that you want to trust.Separate multiple CIDR blocks with commas (,).<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/11b18d210b6ffd715db275048d6ee5b8.jpeg) |
    | Modify trusted CIDR blocks | Note<br>You cannot modify the default trusted CIDR blocks.<br>i. Find the trusted CIDR blocks that you want to manage and click <strong>Edit</strong> in the <strong>Actions</strong> column.<br>ii. In the dialog box that appears, modify the <strong>Name</strong> and <strong>CIDR Block</strong> parameters.<br>iii. Click <strong>OK</strong>. |
    | Remove trusted CIDR blocks | Note<br>• You cannot remove default trusted CIDR blocks.<br>• Impact: After you remove the trusted CIDR blocks, the physical machine associated with the mapped address ID cannot access the IP addresses defined by the trusted CIDR blocks. Make sure that you are aware of the risks before you perform this operation. Perform the operation in the change window because this operation involve physical machine networking changes.<br>• Recovery solution: Add the trusted CIDR blocks again and associate the trusted CIDR blocks with an address ID to restore access to the IP addresses defined by the trusted CIDR blocks.<br>i. Find the trusted CIDR blocks that you want to manage and click <strong>Delete</strong> in the <strong>Actions</strong> column.<br>ii. In the dialog box that appears, select <strong>I have read the above</strong> <strong>prompts and confirmed the operation.</strong>.<br>iii. Click <strong>OK</strong>. |
    | View update logs of trusted CIDR blocks | i. Find the trusted CIDR blocks that you want to manage and click <strong>View Update Log</strong> in the <strong>Actions</strong> column.<br>ii. Query the log details. |
@@ -18859,7 +18859,7 @@ Host Domain Name System (DNS) control is mainly used in the following two scenar
 
 4. On the **Policies** tab of the Host DNS Control page, view the information about policies. Search for a policy by **Policy Type** and **Policy Name**.
 
-   ![](assets/b9efd32e3c3d769ec420d43593e86a79.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b9efd32e3c3d769ec420d43593e86a79.jpeg)
 
 5. Perform the operations that are described in the following table based on your business requirements.
 
@@ -18869,7 +18869,7 @@ Host Domain Name System (DNS) control is mainly used in the following two scenar
    <table>
      <tr>
        <td>Create a policy</td>
-       <td>Note<br>A newly created policy must contain zone configurations in a standard filtering policy. Otherwise, the internal domain name of the platform may fail to be resolved after the newly created policy is applied. To prevent missing configurations, we recommend that you clone a standard filtering policy and then add custom zone forwarding configurations.<br>i. Click <strong>Add Policy</strong>.<br>ii. In the dialog box that appears, configure the following parameters:<br>• <strong>Policy Name</strong>: the name of the policy.<br>• <strong>Policy Description</strong>: the description of the policy.<br>• <strong>Zone configuration</strong>:<br>• <strong>Zone Name</strong>: the DNS root domain.<br>• <strong>Forwarding Destination</strong>: the DNS address that is used to resolve the root domain.<br>• <strong>allowQuery</strong>: In most cases, <strong>Internal IP Address of the Host</strong> is selected. You can also specify a CIDR block that is allowed to be accessed.<br>• <strong>allowForward</strong>: In most cases, <strong>Internal IP Address of the</strong> <strong>Host</strong> is selected. You can also specify a CIDR block that is allowed to be accessed.<br>• Actions: the operations that you can perform, including deleting, moving up, and moving down zone configurations.<br>• Add Entry: Click to add zone configurations.<br>iii. Click <strong>Submit</strong>.<br><img src="assets/ecc2f51ffddbaf2035c0b267cbf60bb0.jpeg" alt=""></td>
+       <td>Note<br>A newly created policy must contain zone configurations in a standard filtering policy. Otherwise, the internal domain name of the platform may fail to be resolved after the newly created policy is applied. To prevent missing configurations, we recommend that you clone a standard filtering policy and then add custom zone forwarding configurations.<br>i. Click <strong>Add Policy</strong>.<br>ii. In the dialog box that appears, configure the following parameters:<br>• <strong>Policy Name</strong>: the name of the policy.<br>• <strong>Policy Description</strong>: the description of the policy.<br>• <strong>Zone configuration</strong>:<br>• <strong>Zone Name</strong>: the DNS root domain.<br>• <strong>Forwarding Destination</strong>: the DNS address that is used to resolve the root domain.<br>• <strong>allowQuery</strong>: In most cases, <strong>Internal IP Address of the Host</strong> is selected. You can also specify a CIDR block that is allowed to be accessed.<br>• <strong>allowForward</strong>: In most cases, <strong>Internal IP Address of the</strong> <strong>Host</strong> is selected. You can also specify a CIDR block that is allowed to be accessed.<br>• Actions: the operations that you can perform, including deleting, moving up, and moving down zone configurations.<br>• Add Entry: Click to add zone configurations.<br>iii. Click <strong>Submit</strong>.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ecc2f51ffddbaf2035c0b267cbf60bb0.jpeg" alt=""></td>
      </tr>
      <tr>
        <td>Edit a policy</td>
@@ -18895,7 +18895,7 @@ Host Domain Name System (DNS) control is mainly used in the following two scenar
    >
    > - After you attach a policy to a host and enable the DNS filtering feature, DNS resolution pipelines of the host are affected. Make sure that you understand the risks and perform these operations in change windows. For multiple hosts of the same server role of a cloud product cluster, you must apply the same DNS policy. Otherwise, the DNS resolution behavior of different nodes in the cloud product cluster may be inconsistent. This results in intermittent unavailability of some cloud product features.
 
-   ![](assets/9376717634391936be26b4d30b47ed8d.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9376717634391936be26b4d30b47ed8d.jpeg)
 
 7. Find the application policy that you want to manage and click **Bind Policy** in the **Actions** column. In the dialog box that appears, configure the **Policies to Bind** parameter and click **OK**.
 
@@ -18903,13 +18903,13 @@ Host Domain Name System (DNS) control is mainly used in the following two scenar
    >
    > If you do not configure the **Policies to Bind** parameter, the attached policy is canceled.
 
-   ![](assets/d64ff27992b8f664ea7e61f42941d516.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d64ff27992b8f664ea7e61f42941d516.jpeg)
 
 8. On the DNS Configuration Status tab, view the information about DNS servers.
 
    Click **Advanced Filter** and search for a DNS server by **Base Type**, **Network Type**, **Host Type**, **Cloud Service**, **Hostname**, **Host IP**, **Service IP Address**, and **DNS Filtering**.
 
-   ![](assets/9cb1a0c404d1358abb3f178987aa6066.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9cb1a0c404d1358abb3f178987aa6066.jpeg)
 
 9. Perform the operations that are described in the following table based on your business requirements.
 
@@ -18951,11 +18951,11 @@ You can view and manage the CIDR block whitelist, virtual private cloud (VPC) wh
      | CIDR Block | The CIDR block that you want to add to the whitelist. |
      | CIDR Block Type | The type of the CIDR block. Only <strong>ipv4</strong> is supported. |
 
-     ![](assets/5d26406175a5766b4ad730c469fefed9.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5d26406175a5766b4ad730c469fefed9.jpeg)
 
    - View the CIDR block whitelist: Click **Advanced Filter** and filter CIDR blocks by configuring the **Network segment** and **IP address** parameters.
 
-     ![](assets/8af262caa5391be646140d60f65a3b00.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8af262caa5391be646140d60f65a3b00.jpeg)
 
    - Remove a CIDR block from the whitelist: Find the CIDR block that you want to remove and click **Delete** in the **Operation** column. In the message that appears, click **OK**.
 
@@ -18977,21 +18977,21 @@ You can view and manage the CIDR block whitelist, virtual private cloud (VPC) wh
      | Access Components | The components that can be accessed over the VPC. You can select multiple components. Valid values:<br>• pop-inner<br>• asapi-inner<br>• sls-inner<br>• docker-registry |
      | Region | The region where the VPC whitelist takes effect. |
 
-     ![](assets/11518166eef786b3f1659523bf2716d5.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/11518166eef786b3f1659523bf2716d5.jpeg)
 
    - View the VPC whitelist: Click **Advanced Filter** and filter VPCs by configuring the following parameters: **VPC name**, **VPC ID**, **Tunnel ID**, **cidr**, **VPC account**, **VPC-owned products**, and **Access Components**.
 
-     ![](assets/aa8b150fd6423393a915519e415d8a3b.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/aa8b150fd6423393a915519e415d8a3b.jpeg)
 
 6. On the **SLB backend Mount range whitelist** tab, perform the following operations:
 
    - View the scope of backend servers that can be attached to the SLB instance on the tenant side.
 
-     ![](assets/1328f13840b69ea1699af9cca8874b10.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1328f13840b69ea1699af9cca8874b10.jpeg)
 
    - Manage the scope of backend servers that can be attached to the SLB instance on the tenant side: Find the policy that you want to manage and click **Edit** in the **Operation** column. In the dialog box that appears, modify the policy content, and click **OK**.
 
-     ![](assets/edc78e0bb786ce32640ca4ea4ddd8bda.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/edc78e0bb786ce32640ca4ea4ddd8bda.jpeg)
 
      > **Important**
      >
@@ -19025,13 +19025,13 @@ After you issue a root certificate on the Platform certificate assets page of th
 
    You can filter host-trusted certificates by **Hostname**, **Installation Consistency Status**, and **Host Installation Status**.
 
-   ![](assets/014b86d125015808196204c1e7aa6674.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/014b86d125015808196204c1e7aa6674.jpeg)
 
 5. Click the number in the **Installation Details** column to view the installation details of the certificate.
 
    The installation details include the certificate ID, alg, kid, subject, and status.
 
-   ![](assets/8c4e2cd7661639399727b900a045ac5f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8c4e2cd7661639399727b900a045ac5f.jpeg)
 
 <a id="section-7-4-2-3"></a>
 
@@ -19057,7 +19057,7 @@ This topic describes how to manage device network access to Apsara Stack. The Ap
 
    Click **Advanced Filter** and search for a switch port mapping device by **Switch name**, **Port Name**, **Vlan status**, **Port status**, and **Inspection results**.
 
-   ![](assets/03cc0510d498eeba7b61dba3e1f50bc4.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/03cc0510d498eeba7b61dba3e1f50bc4.jpeg)
 
 6. If **Inspection results** of the switch port mapping device is **Warning** and you want to trust the device, click **Add Trust** in the **Operation** column. In the dialog box that appears, configure the following parameters and click **OK**.
 
@@ -19067,7 +19067,7 @@ This topic describes how to manage device network access to Apsara Stack. The Ap
    | Trust duration | The duration for trusting the MAC address. The minimum value of this parameter is one day.<br>If you select <strong>Permanent</strong>, the address is permanently trusted. |
    | White reason | The reason why the device is trusted. |
 
-   ![](assets/7eef43f98691ddd0ea6e7f4473dd0233.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7eef43f98691ddd0ea6e7f4473dd0233.jpeg)
 
 7. On the **Add a trusted MAC address** tab, click **Add a whitelist**. In the dialog box that appears, configure the parameters as described in Step 6 and click **OK**.
 
@@ -19080,7 +19080,7 @@ This topic describes how to manage device network access to Apsara Stack. The Ap
 <table>
   <tr>
     <td>Recover a device</td>
-    <td>Note<br>If <strong>Warning</strong> is displayed in the <strong>Inspection results</strong> column of a switch port mapping device and <strong>Isolated</strong> or <strong>Exception</strong> is displayed in the <strong>Vlan</strong> <strong>status</strong> column, you can recover the device.<br>1. Find the device that you want to recover and click <strong>Recovery</strong> in the <strong>Operation</strong> column.<br>2. In the dialog box that appears, select one of the following recovery configurations and click <strong>OK</strong>.<br>• Restore to VLAN configuration before isolation<br>• Restore to custom VLAN configuration<br><img src="assets/7b7724c8f71ac71d6569c652e21d9ee7.jpeg" alt=""></td>
+    <td>Note<br>If <strong>Warning</strong> is displayed in the <strong>Inspection results</strong> column of a switch port mapping device and <strong>Isolated</strong> or <strong>Exception</strong> is displayed in the <strong>Vlan</strong> <strong>status</strong> column, you can recover the device.<br>1. Find the device that you want to recover and click <strong>Recovery</strong> in the <strong>Operation</strong> column.<br>2. In the dialog box that appears, select one of the following recovery configurations and click <strong>OK</strong>.<br>• Restore to VLAN configuration before isolation<br>• Restore to custom VLAN configuration<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7b7724c8f71ac71d6569c652e21d9ee7.jpeg" alt=""></td>
   </tr>
 </table>
 
@@ -19110,7 +19110,7 @@ You can manage AccessKey pairs for mutual access between Apsara Stack services. 
 
 4. On the **initAK management** tab of the AK hosting page, click **Advanced Filter**. You can filter data by **initAKID**, **Primary account name**, and **Status**.
 
-   ![](assets/0307239c6a1656b34faf32473cc77f2d.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0307239c6a1656b34faf32473cc77f2d.jpeg)
 
 5. View the following information about each initial access key (initAK) in the initAK list: **initAKID**, **Primary account name**, **AK type**, **Primary account ID**, **Current hosting mode**, **Expected hosting mode**, **BlockProducts**, **Number of derived AK queues**, **Admittance time**, **Status**, **Allow disable**, and **The latest call time of UMMAK side**.
 
@@ -19149,11 +19149,11 @@ You can manage AccessKey pairs for mutual access between Apsara Stack services. 
    | Applicant ID | The ID of the applicant. The ID is unique. |
    | Reason for applying for derived AK | The detailed reason for applying for the derived AccessKey pair. You must specify the scenario in which the AccessKey pair is used. This helps audit and track the lifecycle of the derived AccessKey pair. |
 
-   ![](assets/ea18c0333b088ca35727c7e67c25843f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ea18c0333b088ca35727c7e67c25843f.jpeg)
 
 2. Click **Advanced Filter** to filter data by **Derived AKID**, **InitAKID**, **accountID**, and **Status**.
 
-   ![](assets/e802dbd9491aa8052f8b082a1ca714e9.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e802dbd9491aa8052f8b082a1ca714e9.jpeg)
 
 3. You can perform the following operations on each derived AccessKey pair:
 
@@ -19173,7 +19173,7 @@ You can query the detailed records of requests made by cloud products to PCM for
 
 1. On the **AK application details** tab, click **Advanced Filter**. You can filter data by **IAMID**, **initAKID**, **Current rotation status**, **Authentication Status**, **ProductName**, **ClusterName**, **ServiceName**, and **The ID of the derived AK queue.**
 
-   ![](assets/ce286a2e9367598a4e17a3fdb2ad6f9f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ce286a2e9367598a4e17a3fdb2ad6f9f.jpeg)
 
 2. View the following information about each application record in the list: **IAMID**, **InitAKID**, **CloudID**, **RegionID**, **productName**, **ClusterName**, **ServiceName**, **Authentication Status**, **Applicant type**, **Current rotation status**, **Latest AKID**, **Latest AK validity period**, **First application time**, **Latest application time**, and **The ID of the derived AK queue.**
 
@@ -19227,7 +19227,7 @@ PCM creates a derived AccessKey queue for the applicant based on specific rules.
 
 1. On the **Derived AK queue management** tab, click **Advanced Filter**. You can filter data by **Queue ID**, **Queue name**, **Rotation configuration**, and **Creation time**.
 
-   ![](assets/6fcad828b4f0c346ec84e2cc8bbf4523.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6fcad828b4f0c346ec84e2cc8bbf4523.jpeg)
 
 2. View the following information about each derived AccessKey queue in the list: queue ID or name, initAKID, rotation configuration, current rotation status, the time when the queue was created, the time when the credentials in the queue were updated, the time when the queue configuration was modified, and the number of applicants.
 
@@ -19259,7 +19259,7 @@ You can query the access logs for all authentication gateways, filtered by using
 
 1. On the **Platform AK access logs** tab, click **Advanced Filter**. You can filter data by **AKID** and **Time range**.
 
-   ![](assets/ddce688c83100acb164eb7f4f6eee679.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ddce688c83100acb164eb7f4f6eee679.jpeg)
 
 2. View the following information about each access log in the list: **AKID**, **Gateway product name**, **Gateway service name**, **action**, **slsAccountID**, **slsProject**, **slsLogstore**, **Source IP address**, **Access source components**, and **Recent access time**.
 
@@ -19289,11 +19289,11 @@ You can manage cloud service gateways that use AccessKey pairs for authenticatio
 
    - Register variable values
 
-   ![](assets/e14418c307af6f23f23ceebe362f6a2a.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e14418c307af6f23f23ceebe362f6a2a.jpeg)
 
 2. Click **Advanced Filter**. You can filter data by **Gateway code**, **Gateway name**, **Service name**, **Service role name**, **Authentication Type**, **Register variable name**, and **Register variable values**.
 
-   ![](assets/de109ddda4bd775f1ada2a475d9df2c3.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/de109ddda4bd775f1ada2a475d9df2c3.jpeg)
 
 3. Find the authentication gateway that you want to delete and click **Delete** in the **Operation** column. In the message that appears, click **OK** to delete the authentication gateway.
 
@@ -19313,7 +19313,7 @@ On the PCM O & M page, you can configure and monitor the Platform Credential Man
 
 4. In the **Managed credential statistics** section, view information in the **Cloud instance information**, **Preset bottom table AK**, and **Baseline Application AK** sections.
 
-   ![](assets/31b9d35709744bd0a010c404203ba0d0.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/31b9d35709744bd0a010c404203ba0d0.jpeg)
 
 5. On the **Service configuration** tab, view information in the **AK hosting default configuration** section. You can click **Edit** in the upper-right corner and modify the settings.
 
@@ -19325,7 +19325,7 @@ On the PCM O & M page, you can configure and monitor the Platform Credential Man
    | AK derived global granularity | Specifies whether different applications receive unique derived AccessKey pairs or share a single one when they request a derived AccessKey pair from the same AccessKey pair.<br>Valid values: initAK and initAK:clusterName.<br>Default value: initAK:clusterName, which indicates that PCM returns a different AccessKey ID when applications from different clusters request a derived AccessKey pair from the same initAK pair. Due to UMMAK capacity limits, if the number of derived AccessKey pairs within an account exceeds the 80% watermark, subsequent requests reuse the same derived AccessKey pair. |
    | Non-standard IAMID derived AK switch | Specifies whether to approve or reject AccessKey pair derivation requests from applicants with a non-standard IAMID. An IAMID is considered non-standard if it fails the identity verification in PCM. This verification process checks the cluster and server role information in the IAMID of an applicant against the data in Skyline.<br>If you turn on this switch, PCM approves derivation requests from applicants with a non-standard IAMID.<br>If you turn off this switch, PCM rejects derivation requests from applicants with a non-standard IAMID. |
 
-   ![](assets/4fa20eb0dc81a0a6ba8e561a178aae2a.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4fa20eb0dc81a0a6ba8e561a178aae2a.jpeg)
 
 <a id="section-7-5-2"></a>
 
@@ -19351,7 +19351,7 @@ Root Management for Root allows you to manage root user passwords for all physic
 
 5. Click **Advanced Filter** to filter target machines by combining **Product, Server Name**, **IP**, **Password Status**, and **Manage**.
 
-   ![](assets/3621633fd543668270dd326825ed3fb7.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3621633fd543668270dd326825ed3fb7.jpeg)
 
    > **Note**
    >
@@ -19361,11 +19361,11 @@ Root Management for Root allows you to manage root user passwords for all physic
    >
    >   icon in the **Password** column. The password will be displayed as
    >
-   >   <img src="assets/4eb67c3920b0706f6a7796a0f05697f3.png" width="18" alt="">
+   >   <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4eb67c3920b0706f6a7796a0f05697f3.png" width="18" alt="">
    >
    >   plain text for 10 seconds and then automatically masked again.
 
-6. Click the <img src="assets/95bb77aa623c38668ff7c773112bad09.png" width="16" alt=""> icon in the upper-right corner of the list to export passwords for all physical
+6. Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/95bb77aa623c38668ff7c773112bad09.png" width="16" alt=""> icon in the upper-right corner of the list to export passwords for all physical
 
    machines and KVMs. The exported file includes Product, Server Name, IP, Manage, Password Status, and Password.
 
@@ -19431,7 +19431,7 @@ Root Management for Root allows you to manage root user passwords for all physic
 
 2. Click **Advanced Filter** to filter password history records by combining the following criteria: **Product, Server Name**, **IP**, and **Change Status**.
 
-   ![](assets/83742a4e6de4ddb5b3870af12fb74545.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/83742a4e6de4ddb5b3870af12fb74545.jpeg)
 
 **Settings**
 
@@ -19450,7 +19450,7 @@ Root Management for Root allows you to manage root user passwords for all physic
    | Next Time to Rotate Password | This parameter takes effect only when both <strong>Password tube switch</strong> and <strong>Password rotary switch</strong> are enabled.<br>Configure the time for the next password rotation. |
    | Password Length | This parameter takes effect only when both <strong>Password tube switch</strong> and <strong>Password rotary switch</strong> are enabled.<br>Configure the length of automatically rotated passwords. The password must be 8 to 30 characters in length. |
 
-   ![](assets/cffe1866bc4cc86fb80e31b0740b3ede.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cffe1866bc4cc86fb80e31b0740b3ede.jpeg)
 
 <a id="section-7-5-2-2"></a>
 
@@ -19476,7 +19476,7 @@ View and manage SSH keys for physical machines, KVM, and containers in Apsara St
 
    You can filter target keys by **Key fingerprint**, which supports fuzzy search.
 
-   ![](assets/cc3ae417d650f1ddb8e2b4686f1bfaba.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cc3ae417d650f1ddb8e2b4686f1bfaba.jpeg)
 
 5. In the **Effective machine** column of the target key fingerprint, click any blue text. In the panel that appears, view detailed public key and private key information.
 
@@ -19504,7 +19504,7 @@ View and manage SSH keys for physical machines, KVM, and containers in Apsara St
    | SR | This parameter takes effect only when you select <strong>Product dimension</strong> for <strong>Machine definition mode</strong>.<br>Select one or more SRs. |
    | Machine name | This parameter takes effect only when you select <strong>Physical machine</strong> <strong>dimension</strong> for <strong>Machine definition mode</strong>.<br>Select a machine name. Fuzzy match is supported. |
 
-   ![](assets/91fea9679c61190d1091e797f634c23c.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/91fea9679c61190d1091e797f634c23c.jpeg)
 
 4. You can also perform the following related operations:
 
@@ -19548,7 +19548,7 @@ System User Management allows you to centrally manage Linux system users, passwo
    >
    > In the **User status** and **Password status** columns, you can filter users by status: **Disable**, **Untrusted**, or **Enable**.
 
-   ![](assets/a9f01b3a6725c0dba45ecd444a0a84ea.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a9f01b3a6725c0dba45ecd444a0a84ea.jpeg)
 
 6. You can also perform the following operations:
 
@@ -19558,7 +19558,7 @@ System User Management allows you to centrally manage Linux system users, passwo
    <table>
      <tr>
        <td>View secret-free public key information</td>
-       <td>i. In the <strong>Secret-free public key</strong> column of the target system user, click the number of public keys.<br>ii. In the panel that appears, view the secret-free public key information, including <strong>Public key</strong>, <strong>Key fingerprint</strong>, <strong>Key Trust Source</strong>, <strong>Key status</strong>, and <strong>Get Time</strong>.<br><img src="assets/0750c9b235865018d81be2a1e4354a65.jpeg" alt=""><br>iii. In the <strong>Actions</strong> column, if <strong>Key status</strong> is <strong>Enable</strong>, click <strong>Disable key</strong>. In the dialog box that appears, click <strong>OK</strong> to disable the key.<br>iv. In the <strong>Actions</strong> column, if <strong>Key status</strong> is <strong>Disable</strong>, click <strong>Enable key</strong>. In the dialog box that appears, click <strong>OK</strong> to enable the key.<br>Note<br>The system periodically removes untrusted keys.<br>v. In the <strong>Actions</strong> column, click <strong>Manage key trust relationships</strong>. In the dialog box that appears, specify SRs that are allowed to trust this key or cancel SRs that no longer trust this key. Then, click <strong>OK</strong>.<br>Note<br>When <strong>Key Trust Source</strong> is <strong>Platform Trust</strong>, you cannot manage key trust relationships.</td>
+       <td>i. In the <strong>Secret-free public key</strong> column of the target system user, click the number of public keys.<br>ii. In the panel that appears, view the secret-free public key information, including <strong>Public key</strong>, <strong>Key fingerprint</strong>, <strong>Key Trust Source</strong>, <strong>Key status</strong>, and <strong>Get Time</strong>.<br><img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0750c9b235865018d81be2a1e4354a65.jpeg" alt=""><br>iii. In the <strong>Actions</strong> column, if <strong>Key status</strong> is <strong>Enable</strong>, click <strong>Disable key</strong>. In the dialog box that appears, click <strong>OK</strong> to disable the key.<br>iv. In the <strong>Actions</strong> column, if <strong>Key status</strong> is <strong>Disable</strong>, click <strong>Enable key</strong>. In the dialog box that appears, click <strong>OK</strong> to enable the key.<br>Note<br>The system periodically removes untrusted keys.<br>v. In the <strong>Actions</strong> column, click <strong>Manage key trust relationships</strong>. In the dialog box that appears, specify SRs that are allowed to trust this key or cancel SRs that no longer trust this key. Then, click <strong>OK</strong>.<br>Note<br>When <strong>Key Trust Source</strong> is <strong>Platform Trust</strong>, you cannot manage key trust relationships.</td>
      </tr>
      <tr>
        <td>View deployment SR information</td>
@@ -19598,7 +19598,7 @@ System User Management allows you to centrally manage Linux system users, passwo
    | SR | This parameter takes effect only when you set <strong>Machine definition</strong> <strong>mode</strong> to <strong>Product dimension</strong>.<br>Select one or more SRs. |
    | Machine name | This parameter takes effect only when you set <strong>Machine definition</strong> <strong>mode</strong> to <strong>Physical machine dimension</strong>.<br>Select one or more machine names. Fuzzy match is supported. |
 
-   ![](assets/b08749f5abcf15577970f722b0910453.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b08749f5abcf15577970f722b0910453.jpeg)
 
 4. You can also perform the following related operations:
 
@@ -19645,7 +19645,7 @@ A host task template specifies an automatic rotation period for a specified key.
    | Cross-Region | Specifies whether to support cross-region rotation tasks. |
    | Select SSH key | Enter the SSH key. |
 
-   ![](assets/28b41f6f8fbb240f1f96bbff476ae7db.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/28b41f6f8fbb240f1f96bbff476ae7db.jpeg)
 
 5. In the **Configure task phase** section, select a task phase.
 
@@ -19653,7 +19653,7 @@ A host task template specifies an automatic rotation period for a specified key.
    >
    > If you set **Trigger mode** to **Manual trigger**, you can specify whether to select the **Grayscale remove the original private key** phase.
    >
-   > ![](assets/415412d5db5f4ed2d69deca1e9271b6f.jpeg)
+   > ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/415412d5db5f4ed2d69deca1e9271b6f.jpeg)
 
 6. In the **Task template preview** section, check the template information and click **Create**.
 
@@ -19663,7 +19663,7 @@ A host task template specifies an automatic rotation period for a specified key.
 
 1. On the Task Template Management page, enter a name in the **Task Template name** field to query the rotation task. You can view the following information of the rotation task: **Task Template name**, **Task type**, **Task phase**, **Creation time**, **Trigger mode**, and **Next execution time**.
 
-   ![](assets/2636ff56d4f9e125e5a6859d1e17e797.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2636ff56d4f9e125e5a6859d1e17e797.jpeg)
 
 2. To view the details of the rotation task template, click **Details** in the **Operation** column that corresponds to the rotation task template.
 
@@ -19719,7 +19719,7 @@ On the Task Execution Records, you can view the execution records of the followi
 
 4. On the Task Execution Records page, click **Advanced Filter** and search for a task execution record by **Task ID**, **Task template ID**, **Task Template name**, and **Current execution status**.
 
-   ![](assets/748d60aabca29ddff1bcd1c6c754fe65.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/748d60aabca29ddff1bcd1c6c754fe65.jpeg)
 
 5. Find the task execution record that you want to view and click **Details** in the **Operation** column. In the panel that appears, view the details of the task execution record.
 
@@ -19777,7 +19777,7 @@ On the Task Execution Records, you can view the execution records of the followi
    >
    > - The current parameters are configured only when the number of machines that have been phased out is the same as the total number.
 
-   ![](assets/136f73ecf94e06bec9637b207a355f06.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/136f73ecf94e06bec9637b207a355f06.jpeg)
 
 **Query a task execution instance**
 
@@ -19785,7 +19785,7 @@ On the Task Execution Records, you can view the execution records of the followi
 
 2. On the **Task execution instance** page, search for a task execution instance by **Target machine**, **Task phase**, and **Current execution status**.
 
-   ![](assets/4aeeb41cd45fb95d1df99c005b8c17d0.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4aeeb41cd45fb95d1df99c005b8c17d0.jpeg)
 
 3. Find the task execution instance that you want to view and click **Details** in the **Operation** column. In the panel that appears, view the details of the task execution instance.
 
@@ -19860,7 +19860,7 @@ You can view the overview information about cloud product accounts on the Overvi
      >
      > The asset trend shown below is displayed dynamically based on the asset selected in the bar chart. By default, the first asset is selected.
 
-   ![](assets/862a3547a3daa1c46cd582c3862a3807.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/862a3547a3daa1c46cd582c3862a3807.jpeg)
 
 <a id="section-7-5-3-2"></a>
 
@@ -19884,15 +19884,15 @@ You can view the overview information about cloud product accounts on the Overvi
    >
    > - **Number of assets**: indicates the number of assets created with the current account.
 
-   ![](assets/a50b687dcc236487bbfda82622bfaccb.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a50b687dcc236487bbfda82622bfaccb.jpeg)
 
 5. Click **Details** in the **Operation** column of an account. In the panel that appears, view the account details on the tabs described in the following table.
 
    | Tab | Description |
    | --- | --- |
-   | Product List | • Displays the list of cloud products within the current account. You can view the following information about each product: <strong>Product</strong>, <strong>Cluster</strong>, and <strong>Service</strong>.<br>• You can filter products by <strong>Product Name</strong>.<br>![](assets/a949c5102abaa909763a31835ac78009.jpeg) |
-   | Account AK list | • Displays the AccessKey list of the current account. You can view the following information about each AccessKey: <strong>AK</strong>, <strong>Access control status</strong>, <strong>Is</strong> <strong>there an interception record?</strong>, <strong>Creation time</strong>, and <strong>Modification time</strong>.<br>• You can filter AccessKey information by <strong>AK</strong>.<br>• Find the AccessKey that you want to view and click Details in the Operation column to go to the <strong>Account ACL control</strong> page. For more information, see Account ACL control.<br>![](assets/5c93fe77bf390168cbdec9348565f3ff.jpeg) |
-   | Asset list | • Displays the list of assets created within the current account. You can view the following information about each asset: <strong>Instance ID/name</strong>, <strong>Product</strong>, and <strong>Home Service</strong>.<br>• You can filter assets by <strong>Service name</strong>.<br>![](assets/21fea364c6bc0976d8a56f3f27cea063.jpeg) |
+   | Product List | • Displays the list of cloud products within the current account. You can view the following information about each product: <strong>Product</strong>, <strong>Cluster</strong>, and <strong>Service</strong>.<br>• You can filter products by <strong>Product Name</strong>.<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a949c5102abaa909763a31835ac78009.jpeg) |
+   | Account AK list | • Displays the AccessKey list of the current account. You can view the following information about each AccessKey: <strong>AK</strong>, <strong>Access control status</strong>, <strong>Is</strong> <strong>there an interception record?</strong>, <strong>Creation time</strong>, and <strong>Modification time</strong>.<br>• You can filter AccessKey information by <strong>AK</strong>.<br>• Find the AccessKey that you want to view and click Details in the Operation column to go to the <strong>Account ACL control</strong> page. For more information, see Account ACL control.<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5c93fe77bf390168cbdec9348565f3ff.jpeg) |
+   | Asset list | • Displays the list of assets created within the current account. You can view the following information about each asset: <strong>Instance ID/name</strong>, <strong>Product</strong>, and <strong>Home Service</strong>.<br>• You can filter assets by <strong>Service name</strong>.<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/21fea364c6bc0976d8a56f3f27cea063.jpeg) |
 
 <a id="section-7-5-3-3"></a>
 
@@ -19922,11 +19922,11 @@ A platform account has a wide range of permissions. You can use the account acce
 
    - On the **Network segment whitelist** tab, you can filter the list by **Network segment** and **IP address**.
 
-     ![](assets/836d422770505c953ed2a51dd9a9bcff.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/836d422770505c953ed2a51dd9a9bcff.jpeg)
 
    - On the **VPC whitelist** tab, click **Advanced Filter** and filter the list by **VPC name**, **VPC ID**, **Tunnel ID**, **VPC-owned products**, and **Access Components** to obtain the information about the desired virtual private cloud (VPC).
 
-     ![](assets/46f1a8cfcd37276592732b0175000c57.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/46f1a8cfcd37276592732b0175000c57.jpeg)
 
 **What to do next**
 
@@ -20022,13 +20022,13 @@ A platform account has a wide range of permissions. You can use the account acce
 
    Move the pointer over a specific point in time to view the corresponding data.
 
-   ![](assets/92126acc29874fc69334f8f9378de462.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/92126acc29874fc69334f8f9378de462.jpeg)
 
 5. In the lower part of the Platform assets page, view the cloud resources created for each cloud base.
 
    You can click **Advanced Filter** to filter resources by **Resource instance ID**, **Resource instance name**, **Home Region**, **Exact attribution**, **Product**, **Cluster**, and **Service**.
 
-   ![](assets/8ddf84d89e262c8cd773104143dc20a5.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8ddf84d89e262c8cd773104143dc20a5.jpeg)
 
    > **Note**
    >
@@ -20054,11 +20054,11 @@ The Account ACL control page displays the API control policies created for speci
 
 4. Click **Advanced Filter** and configure the **API control policy ID**, **Policy type**, **Account ownership**, and **Creation time** parameters to search for desired API control policies.
 
-   ![](assets/29626ca38acb809134a1d3696d883ba8.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/29626ca38acb809134a1d3696d883ba8.jpeg)
 
 5. Click the ID of the desired API control policy. On the page that appears, you can view the information and control settings of the API control policy. In the Control content section, you can check whether the control settings of the policy are correct and updated based on the service names and API operation names.
 
-   ![](assets/00f43df2e229fe717c7a95e849967504.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/00f43df2e229fe717c7a95e849967504.jpeg)
 
 <a id="section-7-5-3-5-2"></a>
 
@@ -20076,7 +20076,7 @@ You can manage the O&M switch for service boundaries.
 
 4. Click **Edit**, select an option from the **Service boundary O & M switch** drop-down list, and then click **Save**.
 
-   ![](assets/2cff23e885b7165db7ae2357c5ee1a20.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2cff23e885b7165db7ae2357c5ee1a20.jpeg)
 
    - **Enable**: enables service boundary control for all accounts, including the new platform accounts.
 
@@ -20114,7 +20114,7 @@ You can change the account policy, password policy, change policy, and data mask
    | Account Freeze Policy (Days) | Set the account freeze duration. When the specified duration is exceeded, the system freezes the account.<br>Valid values:<br>• 0: Disable the account freeze policy.<br>• 10 to 365 |
    | Security Policy Is Valid for Preset Accounts | Specify whether the security policy applies to preset accounts.<br>• Enabled: When a security policy expires (such as account or password expiration), preset accounts cannot log in. We recommend setting a longer validity period.<br>• Disabled: Preset accounts are not subject to validity period restrictions and never expire.<br>Default value: Disabled |
 
-   ![](assets/88aad34714723c5743cae69fc84f2836.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/88aad34714723c5743cae69fc84f2836.jpeg)
 
 **Password policy**
 
@@ -20130,7 +20130,7 @@ You can change the account policy, password policy, change policy, and data mask
    | Reminder Time Before Password Expiration (Days) | Set the number of days before password expiration to trigger a reminder. The default value is 10, which means the system will display an expiration reminder upon user login starting 10 days before the password expires. A value of 0 disables this reminder.<br>Valid values: 0 to 30 |
    | Password History Check | The password history check prevents users from reusing previous passwords. For example, a value of 3 means the new password cannot match any of the last three used passwords. A value of 0 disables the password history check.<br>Valid values: 0 to 24 |
 
-   ![](assets/0621623c1bafcc68f72add4c1fb1f66e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0621623c1bafcc68f72add4c1fb1f66e.jpeg)
 
 **Change policy**
 
@@ -20148,7 +20148,7 @@ You can change the account policy, password policy, change policy, and data mask
    | Security Change Approval Role | This parameter takes effect when <strong>Enable Change Authorization</strong> is enabled.<br>Configure the security change approval role. |
    | Database Change Approval Role | This parameter takes effect when <strong>Enable Change Authorization</strong> is enabled.<br>Configure the database change approval role. |
 
-   ![](assets/30a937d512a73513407f373904af97fe.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/30a937d512a73513407f373904af97fe.jpeg)
 
 **Data masking policy**
 
@@ -20165,7 +20165,7 @@ You can change the account policy, password policy, change policy, and data mask
    | Username Masking Rules | This parameter takes effect when <strong>Enable Data Masking</strong> is enabled.<br>Select a username masking rule.<br>• Do Not Mask<br>• Middle Part Masked<br>• First Character Not Masked |
    | Data Masking Examples | This parameter takes effect when <strong>Enable Data Masking</strong> is enabled.<br>Masking examples for mobile numbers, email addresses, and usernames are displayed. |
 
-   ![](assets/4cf654c710cc86d467ee5247941338ff.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4cf654c710cc86d467ee5247941338ff.jpeg)
 
 <a id="section-7-6-2"></a>
 
@@ -20196,7 +20196,7 @@ The system provides a default policy. You can also configure custom logon polici
    | Policy Effective end time | The point in time from which users are not allowed for logon. |
    | Login address | The CIDR blocks of the logon policy.<br>If you set <strong>Policy attributes</strong> to <strong>Whitelist</strong>, this parameter specifies the CIDR blocks that are allowed for logon. If you set <strong>Policy attributes</strong> to <strong>Blacklist</strong>, this parameter specifies the CIDR blocks that are blocked from logon.<br>Specify CIDR blocks such as 192.168.1.0/24. Use a 32-bit mask in the CIDR block to indicate a single IP address. CIDR blocks cannot overlap each other. Separate multiple CIDR blocks with commas (,). |
 
-   ![](assets/f92b457209989e5e312e7159f6b7d6ee.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f92b457209989e5e312e7159f6b7d6ee.jpeg)
 
 **Related operations**
 
@@ -20204,7 +20204,7 @@ The system provides a default policy. You can also configure custom logon polici
 
 You can query the information about a logon policy by **policy name**.
 
-![](assets/dfe112ab8e1129f7e58f04494d721557.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/dfe112ab8e1129f7e58f04494d721557.jpeg)
 
 **Modify a policy**
 
@@ -20418,7 +20418,7 @@ The Apsara Uni-manager Operations Console currently supports only **MFA**. After
 
        <li>
 
-       Click the <img src="assets/aea669c2fa65fdcc44db79caf9ff82df.png" width="15" alt=""> icon in the upper-right corner of the list.
+       Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/aea669c2fa65fdcc44db79caf9ff82df.png" width="15" alt=""> icon in the upper-right corner of the list.
 
        </li>
 
@@ -20436,7 +20436,7 @@ The Apsara Uni-manager Operations Console currently supports only **MFA**. After
 
        </ol>
 
-     ![](assets/9e56385d3e47755f158ab7970f3c6036.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9e56385d3e47755f158ab7970f3c6036.jpeg)
 
    - **No Authentication**
 
@@ -20462,7 +20462,7 @@ The permissions of the security administrator role in the Apsara Uni-manager Ope
 
 4. Click **Upload Privacy Policy** to upload the configured privacy policy file. Then, view the policy content in the **Preview Privacy Policy** section.
 
-   ![](assets/967b5f4681a5f1e52c247361f2408f34.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/967b5f4681a5f1e52c247361f2408f34.jpeg)
 
 5. Confirm the configurations and click **Save and Apply**.
 
@@ -20494,7 +20494,7 @@ On the Configuration Management page, you can configure encryption algorithms fo
    >
    > For business in the Chinese mainland, the ShangMi (SM) algorithm, Advanced Encryption Standard (AES) algorithm, and Rivest-Shamir-Adleman (RSA) algorithm are supported by default. For business outside China, the AES algorithm and RSA algorithm are supported by default.
 
-   ![](assets/fdf2248f45cdfbce89f0583a927d481f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/fdf2248f45cdfbce89f0583a927d481f.jpeg)
 
 5. If the **Modified.** prompt appears, the modification is complete.
 
@@ -20540,7 +20540,7 @@ This topic describes how to enable the SM4-based metadatabase disk encryption.
 
 4. Above the list, you can filter data by **Product**, **Database**, and **Encryption Status**.
 
-   ![](assets/1834007063750302d5bbbbcb113672a0.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1834007063750302d5bbbbcb113672a0.jpeg)
 
 5. Find the database table that you want to manage and click **Enable Encryption** in the **Actions** column.
 
@@ -20550,11 +20550,11 @@ This topic describes how to enable the SM4-based metadatabase disk encryption.
    >
    > You can configure the supported encryption algorithms on the **Configuration Management** page.
 
-   ![](assets/fe4cd58ed35274394dae8fa7d3029bfe.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/fe4cd58ed35274394dae8fa7d3029bfe.jpeg)
 
 7. Find the database table that you want to view and click **View** in the **Key Information** column.
 
-   ![](assets/eaa0eefd63709454c2bffebd71c00c23.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/eaa0eefd63709454c2bffebd71c00c23.jpeg)
 
 **What to do next**
 
@@ -20570,7 +20570,7 @@ This topic describes how to enable the SM4-based metadatabase disk encryption.
 
 2. In the panel that appears, view the execution records.
 
-   ![](assets/8dc9cf81665e6bc478e546a5068c5a14.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/8dc9cf81665e6bc478e546a5068c5a14.jpeg)
 
    > **Note**
    >
@@ -20610,7 +20610,7 @@ You can enable log encryption at rest to encrypt platform logs.
 
 4. You can enable or disable log encryption at rest by **project**.
 
-   ![](assets/d1760d40d36f3e909df4ca4b41bfaa3b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d1760d40d36f3e909df4ca4b41bfaa3b.jpeg)
 
 5. Enable log encryption at rest.
 
@@ -20632,7 +20632,7 @@ You can enable log encryption at rest to encrypt platform logs.
 
    and a protection level, select **I have read the preceding notes and want to perform the operation**, and then click **OK**.
 
-   ![](assets/4d9b5b652ab8cee8f3a1aaaf1f115aa5.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4d9b5b652ab8cee8f3a1aaaf1f115aa5.jpeg)
 
    > **Note**
    >
@@ -20640,7 +20640,7 @@ You can enable log encryption at rest to encrypt platform logs.
 
 6. Click **View** in the **Key Information** column of the project to view the key information.
 
-   ![](assets/1079ca24470d951a6ac3f0a69bb31178.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1079ca24470d951a6ac3f0a69bb31178.jpeg)
 
 **What to do next**
 
@@ -20656,7 +20656,7 @@ You can enable log encryption at rest to encrypt platform logs.
 
 2. In the panel that appears, view the execution history for the project, including **Operation Type**, **Execution Time**, and **Execution Result**.
 
-   ![](assets/9589417e9be986dbafe9141f3ef023b2.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9589417e9be986dbafe9141f3ef023b2.jpeg)
 
 3. Click **Details** in the **Actions** column of an execution record to view the encryption progress.
 
@@ -20686,13 +20686,13 @@ The bucket exists within the ebs account of OSS.
    | Snapshot ID | The snapshot ID corresponding to the snapshot ID in Server Controller. |
    | Account ID | The Apsara Stack account ID corresponding to the snapshot ID in Server Controller. |
 
-   ![](assets/47671cf818feb524ca391c4e7688f90b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/47671cf818feb524ca391c4e7688f90b.jpeg)
 
 5. On the ECS Snapshots page, find the snapshot that you want to encrypt and click **Enable Encryption** in the **Actions** column.
 
 6. Select an encryption algorithm and a protection level, and click **OK**. Encryption is enabled for the ECS snapshot.
 
-   ![](assets/76fb7189ac6d882553897a3b88fb55c9.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/76fb7189ac6d882553897a3b88fb55c9.jpeg)
 
    > **Note**
    >
@@ -20700,7 +20700,7 @@ The bucket exists within the ebs account of OSS.
 
 7. Click View in the Key Information column of the snapshot to view the key information.
 
-   ![](assets/efd8250cf7c3dbf0741f1c3c6078fb98.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/efd8250cf7c3dbf0741f1c3c6078fb98.jpeg)
 
 **What to do next**
 
@@ -20770,7 +20770,7 @@ Use the asymmetric and hash algorithms to protect the integrity of ECS public im
    | Detection Item | Select detection items for the detection task template. |
    | Disaster Recovery Status | Set the value to <strong>Normal status</strong>. |
 
-   ![](assets/73fd4bcff09a81867cffcedf9241f4f1.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/73fd4bcff09a81867cffcedf9241f4f1.jpeg)
 
 5. Execute the detection task.
 
@@ -20796,7 +20796,7 @@ Use the asymmetric and hash algorithms to protect the integrity of ECS public im
 
    </ol>
 
-   ![](assets/a9023c2842f1733d4aeab2127dea9126.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a9023c2842f1733d4aeab2127dea9126.jpeg)
 
 **What to do next**
 
@@ -20810,7 +20810,7 @@ Use the asymmetric and hash algorithms to protect the integrity of ECS public im
 
 2. On the details page of the task template, view the information in the **Instance Information**, **Latest Detection Overview**, and **Image Detection Details** sections.
 
-   ![](assets/6d38dcdd5d5244612221d5d7c080fdde.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6d38dcdd5d5244612221d5d7c080fdde.jpeg)
 
 3. In the **Image Detection Details** section, find the image that you want to view and click **View** in the **Detection Log** column to view the logs.
 
@@ -20820,7 +20820,7 @@ Use the asymmetric and hash algorithms to protect the integrity of ECS public im
 
 4. In the upper-right corner of the page, click **Detection History** to view the detection history of the task template.
 
-   ![](assets/e83de129f35b39a39d00136dd3f12019.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e83de129f35b39a39d00136dd3f12019.jpeg)
 
 **Modify a detection task template**
 
@@ -20866,7 +20866,7 @@ Before you use column-level encryption to encrypt sensitive data fields, you mus
 
 4. Find the instance that you want to manage and click **Enable Encryption** in the **Actions** column. In the message that appears, click **OK**.
 
-   ![](assets/0246c18421009782eca7f1ecbb7a5dca.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/0246c18421009782eca7f1ecbb7a5dca.jpeg)
 
    The **Encryption is being enabled.** prompt appears.
 
@@ -20886,7 +20886,7 @@ Before you use column-level encryption to encrypt sensitive data fields, you mus
 
      - Click **Details** to view the encryption details, including the code, description, status, remarks, and creation time.
 
-   ![](assets/ba6224989d8d1a9eab7a2df8736edcb6.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ba6224989d8d1a9eab7a2df8736edcb6.jpeg)
 
 **What to do next**
 
@@ -20920,7 +20920,7 @@ Column-level encryption is enabled for an instance.
 
 4. You can filter data by **Product**, **Database**, and **Encryption Status**.
 
-   ![](assets/7bdb038dccc613b3acdf2db1a483a04a.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/7bdb038dccc613b3acdf2db1a483a04a.jpeg)
 
 5. Find the data field that you want to manage and click **Enable Encryption** in the **Actions** column. In the message that appears, click **OK**.
 
@@ -20928,7 +20928,7 @@ Column-level encryption is enabled for an instance.
 
 6. Click **Execution History** in the **Actions** column of the data field to view the encryption execution records.
 
-   ![](assets/da7b1f440aa912875124d75f4a39b24c.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/da7b1f440aa912875124d75f4a39b24c.jpeg)
 
 **What to do next**
 
@@ -20990,7 +20990,7 @@ Manage certificate assets displayed on the platform.
    >
    > - Asset information is obtained through periodic scans and is not updated in real time.
 
-   ![](assets/cbeeddd568a8b07b107c4df0209d1180.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cbeeddd568a8b07b107c4df0209d1180.jpeg)
 
 **More operations**
 
@@ -21024,7 +21024,7 @@ The system supports the update of certificates that are hosted via **Tianji**.
 
    If you select Platform issuance, the certificate **Status** becomes **To be bound**. If you select Third-Party issuance, the certificate **Status** becomes **To be issued**.
 
-   ![](assets/4836f16681ab9dab299d8adb3ac2544f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4836f16681ab9dab299d8adb3ac2544f.jpeg)
 
 3. In the **Issue/upload certificates** step, click **Upload files**, select the third-party issued certificate file and upload it, then click **Next Step**.
 
@@ -21034,13 +21034,13 @@ The system supports the update of certificates that are hosted via **Tianji**.
 
    The certificate **Status** now becomes **To be bound**.
 
-   ![](assets/6b7ce3797106e72c7bb5190372c1f0c7.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6b7ce3797106e72c7bb5190372c1f0c7.jpeg)
 
 4. In the **Bind associated services** step, select the services to bind with the certificate, then click **OK**.
 
    The certificate **Status** now becomes **To be delivered**.
 
-   ![](assets/6b7266826f113ad29f8316c7992c6890.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6b7266826f113ad29f8316c7992c6890.jpeg)
 
    > **Note**
    >
@@ -21124,7 +21124,7 @@ The Certificate Update task page allows you to manage certificate update tasks. 
 
 4. On the Certificate Update task page, view all certificate update tasks. Click **Advanced Filter** and search for a certificate update task by **Product**, **Service**, **Certificate status**, **Certificate algorithm**, and **Certificate issuing type**.
 
-   ![](assets/db71a73f2e9ee40e8e688d42f5eb4033.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/db71a73f2e9ee40e8e688d42f5eb4033.jpeg)
 
 5. Find the certificate update task that you want to view and click **Details** in the **Operation** column. The **Update Details** page appears.
 
@@ -21178,7 +21178,7 @@ By default, self-signed certificates are used for HTTPS services on the cloud pl
 
    Click the **Effective time** or **Expiration Time** column to sort the certificate list in ascending or descending order.
 
-   ![](assets/3aefb27d0f22e2467009383e8359ce2d.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3aefb27d0f22e2467009383e8359ce2d.jpeg)
 
 5. Click **Upload certificate** to upload a third-party certificate.
 
@@ -21224,17 +21224,17 @@ The feature allows you to customize the login page and platform logo.
 
    - **Platform Language**: Select the languages that you want the platform to support and the default language of the platform. The following languages are available: Simplified Chinese and English.
 
-     ![](assets/4fcbe84607eb594e6f8fd5e914fd246e.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/4fcbe84607eb594e6f8fd5e914fd246e.jpeg)
 
    - **Appearance and Theme**: Select **Light Color Mode** or **Dark Pattern** for the **Appearance** parameter and configure the **Theme Color** parameter. You can click the icon next to Custom swatches to customize the theme color.
 
-     ![](assets/3e6015930e198133e8fff7ee182e770a.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3e6015930e198133e8fff7ee182e770a.jpeg)
 
    - **Page Watermark**: Specify whether to add watermarks to pages.
 
    - **Brand Setting**: You can configure the **Browser Ico Icon**, **Platform Logo**, **Platform Name**, **Login Page**, **Version Information**, and **Copyright Notice** in two languages.
 
-     ![](assets/c4ee618f5e4af9109929afd0ee36623e.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c4ee618f5e4af9109929afd0ee36623e.jpeg)
 
 5. After the settings are complete, click **Determine**.
 
@@ -21670,7 +21670,7 @@ search and intelligent search.
    | Card Name | Enter a name for the card. The name can be up to 64 characters in length and can contain digits, letters, underscores (_), and hyphens (-). |
    | Card description | Enter a description for the card. |
 
-   ![](assets/2e78541524208af0a95d1909136a57f5.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2e78541524208af0a95d1909136a57f5.jpeg)
 
 6. You are redirected to the **Edit card** page. On the **Data Configuration** tab, configure the parameters described in the following table.
 
@@ -22071,7 +22071,7 @@ Display the authorization specification information of Apsara Stack.
    >
    > Click **Advanced Filter** to filter and retrieve target authorization information by combining **Product Name**, **Product Specification Name**, and **Product Specification Code**.
 
-   ![](assets/b7f92d1bfc7644dfb7c0c53b16c0c96f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b7f92d1bfc7644dfb7c0c53b16c0c96f.jpeg)
 
    | Item | Description |
    | --- | --- |
@@ -22106,18 +22106,18 @@ After you switch to the **Authorization Usage Details** tab, you can switch betw
    >
    > Click **Advanced Filter** to filter and obtain target authorization information by combining the following criteria: **Hide Unreported Specifications**, **Product Name**, **Product Specification Code**, **Product Specification Name**, **Authorized Specification Dimensions**, and **Expired**.
 
-   ![](assets/ed5c9ea9e116cd9cd857d34c87966d99.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ed5c9ea9e116cd9cd857d34c87966d99.jpeg)
 
    | Item | Description |
    | --- | --- |
    | Authorized Use Name | The name of the cloud service authorization, including the authorization specification category and authorization specification dimension. |
    | Product Specification Name | The product specification name corresponding to the cloud service authorization name.<br>Hover over the product specification name to view the product specification code. |
-   | Used | The number of authorization specifications that have been used.<br>If an<img src="assets/f220d84246e93229b339ee74193052d6.png" width="15" alt="">icon appears after the usage quantity, hover over the<br>icon to view the authorization usage details provided by the product. |
+   | Used | The number of authorization specifications that have been used.<br>If an<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f220d84246e93229b339ee74193052d6.png" width="15" alt="">icon appears after the usage quantity, hover over the<br>icon to view the authorization usage details provided by the product. |
    | Issued | The upper limit of usable authorization specifications for the cloud product. |
    | Status | The current authorization status of the cloud product authorization specification.<br>• Activated<br>• Expired and Exceeded<br>• Expired<br>• Excess<br>• About to Expire<br>Important<br>Pay attention when the following options appear in the <strong>Status</strong> column for a product:<br>• <strong>Expired</strong>: indicates that the customer must renew maintenance and warranty for the product as soon as possible. Otherwise, on-site O&amp;M services, including ticket handling, will be terminated.<br>• <strong>Excess</strong>: indicates that the authorization usage has exceeded the available quota. Contact Alibaba Cloud to expand the software authorization! |
    | Status Updated At | The time when the cloud product authorization status was updated. |
 
-3. Click the <img src="assets/439a19886e0087d64009e9a4e2b089fa.png" width="8" alt=""> icon to view the authorization issuance records for the target authorization
+3. Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/439a19886e0087d64009e9a4e2b089fa.png" width="8" alt=""> icon to view the authorization issuance records for the target authorization
 
    specification. The authorization issuance records here correspond to the content under the **Authorization Issuance Details** tab. The authorization issuance list includes **Product Specification Name**, **Source**, **Type**, **BPID**, **Authorized**, **Issued Authorizations**, **Validity Period**, **Software License Renewal and Technical Support Validity Period**, **Forcibly Invalidate**, and **Authorization Status**.
 
@@ -22125,7 +22125,7 @@ After you switch to the **Authorization Usage Details** tab, you can switch betw
 
 You can view authorization specification information at the data center level and region level.
 
-![](assets/2c47c51635aed658ff87468d00750571.jpeg)
+![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2c47c51635aed658ff87468d00750571.jpeg)
 
 The following table describes the specific authorization specification information.
 
@@ -22134,7 +22134,7 @@ The following table describes the specific authorization specification informati
 | Category | The name of the authorization specification category. |
 | Dimension | The name of the authorization specification dimension. |
 | Used | The quantity of the authorization specification that has been used. |
-| Issued | The upper limit of usable authorization specifications for the cloud product.<br>Note<br>Click the data or hover over the<img src="assets/f220d84246e93229b339ee74193052d6.png" width="15" alt="">icon after the data to view the<br>detailed list of authorization specifications.<br>![](assets/9226cb879abbeb1cfa10868fd76f8841.jpeg) |
+| Issued | The upper limit of usable authorization specifications for the cloud product.<br>Note<br>Click the data or hover over the<img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f220d84246e93229b339ee74193052d6.png" width="15" alt="">icon after the data to view the<br>detailed list of authorization specifications.<br>![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9226cb879abbeb1cfa10868fd76f8841.jpeg) |
 | Usage Update Time | The time when the cloud product authorization specification usage was updated. |
 | Status | The current status of the cloud service authorization specification.<br>• Normal<br>• Excessive<br>Note<br>The authorization usage has exceeded the available upper limit.Contact Alibaba Cloud to extend your software authorization. |
 
@@ -22158,23 +22158,23 @@ The following table describes the specific authorization specification informati
 
    - **Average Specification Usage Within Current Period**
 
-4. Click the <img src="assets/a90a2aa1de128377f25d2d8292f0c4a9.png" width="15" alt=""> icon before the target product to view the **Authorization Specification**
+4. Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a90a2aa1de128377f25d2d8292f0c4a9.png" width="15" alt=""> icon before the target product to view the **Authorization Specification**
 
    **Name**, **Authorization Specification Usage**, **Maximum Authorized Specifications**, and **Recorded At** for the most recent day within the selected time period.
 
-   ![](assets/e418826fde2c308c34ae96974ef1e76b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e418826fde2c308c34ae96974ef1e76b.jpeg)
 
 5. Click **View More**. In the dialog box that appears, you can view authorization specification statistics for the product by date within the selected time period.
 
-   ![](assets/a5a922fdb28a681f9b84f1d6bfed7452.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a5a922fdb28a681f9b84f1d6bfed7452.jpeg)
 
 6. In the **Excess Authorization Specification Information** section, you can view information about products that exceed their authorization specification limits.
 
-7. Click the <img src="assets/a90a2aa1de128377f25d2d8292f0c4a9.png" width="15" alt=""> icon before the target product to view the **Authorization Specification**
+7. Click the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a90a2aa1de128377f25d2d8292f0c4a9.png" width="15" alt=""> icon before the target product to view the **Authorization Specification**
 
    **Name**, **Authorized Specification Usage**, **Maximum Authorized Specifications**, and **Recorded At** for the most recent day within the selected time period.
 
-   ![](assets/19861ae2def7f4726f50ae983d62c192.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/19861ae2def7f4726f50ae983d62c192.jpeg)
 
 8. Click **View More**. In the dialog box that appears, you can view statistics on excess authorization specifications for the product by date within the selected time period.
 
@@ -22184,7 +22184,7 @@ The following table describes the specific authorization specification informati
 
 2. The authorization import list includes **File Information**, **Version Information**, **Time Information**, **Package Size**, and **Product Specification Quantity**.
 
-   ![](assets/05ffa335a8aaa91e6dc5dfe349d13e83.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/05ffa335a8aaa91e6dc5dfe349d13e83.jpeg)
 
    > **Note**
    >
@@ -22196,7 +22196,7 @@ The following table describes the specific authorization specification informati
 
 3. Click **Import Package**.
 
-   ![](assets/2056506051b6af56854c57bb9da7f12b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2056506051b6af56854c57bb9da7f12b.jpeg)
 
    <ol type="i">
 
@@ -22306,7 +22306,7 @@ You can configure channels to send notifications.
    | endpoint | This parameter is displayed only when you set the <strong>Channel type</strong> parameter to <strong>Aliyun SMS</strong>.<br>Enter the endpoint that receives messages. Default value: dysmsapi.aliyuncs.com, which is the endpoint for the China site (aliyun.com). |
    | Message content size (byte) | Enter the maximum number of bytes that can be sent in a message.Maximum value: 8192. |
 
-   ![](assets/bc12a4bc87cc0b8b052b225bfeca3f74.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/bc12a4bc87cc0b8b052b225bfeca3f74.jpeg)
 
 5. Click **Test** to check the connectivity of the channel.
 
@@ -22344,7 +22344,7 @@ You can configure a proxy to allow outbound messages.
 
 2. Turn on **Proxy Switch**, and configure the **Proxy Address** and **Proxy Port** parameters.
 
-   ![](assets/c5fa7dfe9ee8fbde0da938acb0dc2c50.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c5fa7dfe9ee8fbde0da938acb0dc2c50.jpeg)
 
 3. Click **Save**.
 
@@ -22398,7 +22398,7 @@ Before you add regions, make sure that the following conditions are met:
    | Longitude | The geographic longitude of the region.<br>Valid values: -180 to 180 |
    | Latitude | The geographic latitude of the region.<br>Valid values: -90 to 90 |
 
-   ![](assets/3341d2386e1e336e02768a2ebe53003b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3341d2386e1e336e02768a2ebe53003b.jpeg)
 
 <a id="section-8-7"></a>
 
@@ -22439,7 +22439,7 @@ You can configure third-party authentication settings to implement login authori
    | Access Token Request Body Template | This parameter takes effect when <strong>Protocol Type</strong> is set to <strong>OAuth</strong> <strong>2.0</strong> and <strong>Request Type</strong> is set to <strong>POST</strong>.<br>• If the <strong>Content-Type</strong> parameter is set to <strong>application/json;</strong> <strong>charset=utf-8</strong>, the default value of the Access Token Request Body Template parameter is <code> { "access_token": "</code> <code>{{access_token}}" } </code>.<br>• If the <strong>Content-Type</strong> parameter is set to <strong>application/x-www-</strong><strong>form-urlencoded</strong>, the default value of the Access Token Request Body Template parameter is <code> [{ "key": </code> <code>"access_token", "value": "{{access_token}}" }] </code>.<br>Note<br>• {{access_token}} will be replaced with the obtained access token information and is a required parameter.<br>• The Apsara Uni-manager Management Console will add the key and value in the template to the body of the requests sent to the user authentication URL. |
    | Resolution Path for Obtaining Authenticated Username | This parameter takes effect when <strong>Protocol Type</strong> is set to <strong>OAuth</strong> <strong>2.0</strong>.<br>Enter the parsing path of the verified username. The objects returned from the service must be JSON objects.<br>Note<br>Use periods (.) to indicate the level of the username in the object. For example, <code> user </code> indicates that the username is at the root level, and <code> ascm.user </code> indicates that the username is at the second level. |
 
-   ![](assets/c7aa6527174e8766d7c8cb156ae65593.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c7aa6527174e8766d7c8cb156ae65593.jpeg)
 
    > **Note**
    >
@@ -22469,7 +22469,7 @@ This topic describes how to go to the platform backup management page in the Aps
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -22863,7 +22863,7 @@ The opsadmin user is the super administrator of Apsara Uni-manager Operations Co
    | Allowed to Create AccessKey ID | Specifies whether to enable the creation of an AccessKey ID. |
    | Two-factor Authentication | This parameter takes effect only when <strong>multi-factor authentication</strong> <strong>(MFA)</strong> is enabled.<br>Specifies whether to enable two-factor authentication.<br>• Enabled: You can bind the two-factor authentication feature to Alibaba Cloud APP for use.<br>• Disabled: You can choose <strong>Security Management</strong> &gt; <strong>Two-Factor</strong> <strong>Authentication</strong> in the top navigation bar to enable the feature. |
 
-   ![](assets/dcb372ec548d31ccfcc7e8c8f0e709d8.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/dcb372ec548d31ccfcc7e8c8f0e709d8.jpeg)
 
 5. After a user is added, view the information about the added user on the **Users** tab.
 
@@ -22875,7 +22875,7 @@ The opsadmin user is the super administrator of Apsara Uni-manager Operations Co
 
 2. Configure the **Username**, **Role**, and **Department** parameters and click Search to search for a specific user.
 
-   ![](assets/96ccf2a3f4f68517305607dbfcec026b.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/96ccf2a3f4f68517305607dbfcec026b.jpeg)
 
 **Export users**
 
@@ -23021,7 +23021,7 @@ You can add multiple users to a user group and add a role to the user group as a
    | Department | Select the department to which the user group belongs.<br>To create a department, click <strong>User Authorities</strong> in the top navigation bar, click <strong>Department Management</strong> in the left-side navigation pane, and then click Add Department. |
    | Role | Select the role that you want to add to the user group.<br>To create a role, click <strong>User Authorities in the top navigation bar, </strong>click <strong>Role Management</strong> in the left-side navigation pane, and then click Create Role.<br>Note<br>You can add multiple roles to a user group. |
 
-   ![](assets/a4b012db8a420497d23f7514e4499d69.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a4b012db8a420497d23f7514e4499d69.jpeg)
 
 **Related operations**
 
@@ -23031,7 +23031,7 @@ You can add multiple users to a user group and add a role to the user group as a
 
 2. You can filter user groups by **Department**, **Role**, **User Group Name**, and **User Name**.
 
-   ![](assets/3a5d548ae746e1c6ea6ef691496661fa.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/3a5d548ae746e1c6ea6ef691496661fa.jpeg)
 
 **Modify a user group**
 
@@ -23129,7 +23129,7 @@ The following table describes the preset roles and their corresponding permissio
    | Role Name | The name of the role. |
    | Role Description | The description of the role. |
 
-   ![](assets/5a71f01cf9d2e26cebd6c27ac4653adf.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5a71f01cf9d2e26cebd6c27ac4653adf.jpeg)
 
 6. In the **Console Permissions** step, configure console permissions for the role. Then, click **Next Step: Product Permissions**.
 
@@ -23139,7 +23139,7 @@ The following table describes the preset roles and their corresponding permissio
    >
    > - In the upper-right corner of this step, you can click **Select All: Read/Write** or **Select All: Read-only**.
 
-   ![](assets/45fa1cdeb3aed7138522340c4dfbc465.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/45fa1cdeb3aed7138522340c4dfbc465.jpeg)
 
 7. In the **Product Permissions** step, configure product permissions for the role. Then, click **Next Step: Menu Permissions**.
 
@@ -23149,11 +23149,11 @@ The following table describes the preset roles and their corresponding permissio
    >
    > - In the upper-right corner of this step, you can click **Select All: Read/Write** or **Select All: Read-only**.
 
-   ![](assets/1c1b7a6e275c39fb90a30a2ea7d5a641.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/1c1b7a6e275c39fb90a30a2ea7d5a641.jpeg)
 
 8. In the **Menu Permissions** step, configure menu permissions for the role and click **Create**.
 
-   ![](assets/fca27ee0c4035c22626f70e37462a2d5.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/fca27ee0c4035c22626f70e37462a2d5.jpeg)
 
 **Related operations**
 
@@ -23167,11 +23167,11 @@ The following table describes the preset roles and their corresponding permissio
    >
    > If you want to modify a custom role, you can click **Edit** in the upper-right corner of the Role Details page.
 
-   ![](assets/f326f4ff4cb9509b82f97e79abb50536.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f326f4ff4cb9509b82f97e79abb50536.jpeg)
 
 3. On the **Authorized User** tab, view the users that are associated with the role.
 
-   ![](assets/f0767637d771e2c242c2c38de3c0ee27.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f0767637d771e2c242c2c38de3c0ee27.jpeg)
 
    - If you want to associate a user with the role, click **Add Authorized Users**. In the dialog box that appears, enter a username in the **Username** field, select the user, and then click **OK**.
 
@@ -23235,7 +23235,7 @@ The Apsara Uni-manager Operations Console provides a root department by default.
    >
    > - When you create a level-1 department under the root department, you must configure the Department Name parameter and the **region** parameter.
 
-   ![](assets/ff24dbeb2a3eda86cf975adac8fd4d80.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ff24dbeb2a3eda86cf975adac8fd4d80.jpeg)
 
 **What to do next**
 
@@ -23337,7 +23337,7 @@ A menu supports up to five menu levels.
    | Open Linked Page | This parameter takes effects only when you turn on <strong>To Link</strong>.<br>Specifies whether to open the URL on a new page after users click the menu. By default, this feature is disabled. |
    | Current Order | The order of the menu among all menus in the same parent menu. You cannot configure the order in the panel. You can modify the configuration on the Menus page after you create the menu. |
 
-   ![](assets/5544fffc6665e1492f1b331b9215681e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/5544fffc6665e1492f1b331b9215681e.jpeg)
 
 5. After the menu is added, view it in the menu list.
 
@@ -23379,7 +23379,7 @@ This topic describes the scenarios in which the emergency response is triggered.
 
 2. Degradation is triggered in the Apsara Uni-manager Operations Console, as shown in the following figure.
 
-   ![](assets/2edc424e6724ca44d11951b60306b2db.png)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/2edc424e6724ca44d11951b60306b2db.png)
 
 3. Click **Enable emergency mode**.
 
@@ -23389,7 +23389,7 @@ This topic describes the scenarios in which the emergency response is triggered.
    >
    > The username and password used to log on to the Apsara Uni-manager Operations Console are the same as those used to switch to the emergency mode of the console.
 
-   ![](assets/6542e8f9f9d70b27c71bc8336608dafe.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/6542e8f9f9d70b27c71bc8336608dafe.jpeg)
 
 5. After the Apsara Uni-manager Operations Console switches to the emergency mode, the emergency response page appears.
 
@@ -23421,19 +23421,19 @@ Some global faults in Apsara Stack, such as MiniRDS faults, faults of the physic
 
 4. In the **Overview of final state of key products (exception/All SR)** section of the Monitoring Alarm page, view all server roles and abnormal server roles of each major product.
 
-   ![](assets/db184ff06894ea7414e2ffde5a54977f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/db184ff06894ea7414e2ffde5a54977f.jpeg)
 
 5. Click the name of a product that has abnormal server role data to view the detailed server role information.
 
-   ![](assets/ed42924f0bfb5d3d902f5cec8ab6bda7.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/ed42924f0bfb5d3d902f5cec8ab6bda7.jpeg)
 
 6. In the **Monitoring status** section, view the check item information, including **Check items**, **Description**, **Check time**, **Status**, and **Error Description**. In the Search for check items field, enter a keyword to search for a check item. Fuzzy queries are supported.
 
-   ![](assets/a44e562b24195f12cfe072a29c8e4f2e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/a44e562b24195f12cfe072a29c8e4f2e.jpeg)
 
 7. In the **Alert status** section, view the alert information, including **Alert ID**, **Alert information**, **Resource ownership**, **Latest alert time**, and **Number of alarms**. In the Search for alert ID/alert information field, enter a keyword to search for an alert ID or the related alert information. Fuzzy queries are supported.
 
-   ![](assets/cb0626a49a637d48c4bf051c40b627b5.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/cb0626a49a637d48c4bf051c40b627b5.jpeg)
 
 <a id="section-10-2"></a>
 
@@ -23474,7 +23474,7 @@ This topic describes the preset fault scenarios. You can select a scenario to tr
 
    - Find the diagnostics plan that you want to view and click **Details** in the **Operation** column to view the execution process and result.
 
-     ![](assets/f6d24805923f48cebcef25e68c00163d.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/f6d24805923f48cebcef25e68c00163d.jpeg)
 
 <a id="section-10-3"></a>
 
@@ -23492,7 +23492,7 @@ This topic describes the preset emergency plans. You can select a scenario to tr
 
 4. In the **Instance Information** section of the Emergency plan page, view the information about the instances that are connected to O&M platforms. Click **Link** next to an O&M platform to go to the O&M platform.
 
-   ![](assets/e1237a21d095b3eb5cddd709f0a8451c.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/e1237a21d095b3eb5cddd709f0a8451c.jpeg)
 
 5. On the **Emergency plan** tab of the Emergency plan page, view the preset emergency plans.
 
@@ -23525,7 +23525,7 @@ This topic describes the preset emergency plans. You can select a scenario to tr
 
    - Find the emergency plan that you want to view and click **Details** in the **Operation** column to view the execution process and result.
 
-     ![](assets/d0b52a719d196b56c0d232771dfe8aae.jpeg)
+     ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/d0b52a719d196b56c0d232771dfe8aae.jpeg)
 
 <a id="section-10-4"></a>
 
@@ -23549,15 +23549,15 @@ On the Server logon page, you can query and log on to servers.
 
 5. On the Server logon page, specify values for the **Hostname**, **IP address**, **Product**, and **Cluster** parameters to search for a server.
 
-   ![](assets/960f2f2af497d247023c6c0c89e9ac7f.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/960f2f2af497d247023c6c0c89e9ac7f.jpeg)
 
 6. Find the server that you want to manage and click **Login** in the **Operation** column.
 
-7. Log on to the web terminal page. Click a logon node or the <img src="assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon. In the CLI window, enter
+7. Log on to the web terminal page. Click a logon node or the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon. In the CLI window, enter
 
    Linux commands to perform related operations.
 
-   ![](assets/c16802abfe472af01fb5458dfb36f41e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/c16802abfe472af01fb5458dfb36f41e.jpeg)
 
 <a id="section-10-4-2"></a>
 
@@ -23575,12 +23575,12 @@ On the Database logon page, you can query and log on to the metadatabases that a
 
 4. On the Database logon page, specify values for the **Service** and **Name** parameters to search for a metadatabase.
 
-   ![](assets/248bd33faa53c2e1bea39bea72fb2af1.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/248bd33faa53c2e1bea39bea72fb2af1.jpeg)
 
 5. Find the metadatabase that you want to manage and click **Login** in the **Operation** column.
 
-6. Log on to the web terminal page. Click a logon node or the <img src="assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon and enter SQL
+6. Log on to the web terminal page. Click a logon node or the <img src="en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon and enter SQL
 
    statements in the CLI window to perform related operations.
 
-   ![](assets/48915157fb6c4c6374a6c580b530cc0e.jpeg)
+   ![](en-apsara-uni-manager-ops-user-guide-v3.18.6-20260703.assets/48915157fb6c4c6374a6c580b530cc0e.jpeg)

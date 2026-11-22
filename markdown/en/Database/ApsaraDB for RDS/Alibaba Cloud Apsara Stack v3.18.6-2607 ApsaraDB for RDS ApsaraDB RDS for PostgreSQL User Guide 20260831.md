@@ -600,7 +600,7 @@ If you are using ApsaraDB RDS for the first time, you can start with Limits on A
 
 The following figure shows the operations that you must perform before you use an ApsaraDB RDS instance.
 
-![](assets/9ab92f5fdd5e7a51b10fecc48abc82bb.jpeg)
+![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/9ab92f5fdd5e7a51b10fecc48abc82bb.jpeg)
 
 <a id="section-7-2"></a>
 
@@ -933,7 +933,7 @@ ApsaraDB RDS for PostgreSQL instances support two types of accounts: privileged 
 
 5. In the **Log on to Database Instance** dialog box of the **DMS** console, check the values of **Database Type**, **Instance Region**, and **Connection String Address**. If the values are correct, specify the **Database Account** and **Database Password** parameters.
 
-   ![](assets/cc36d0d80668189d733099aa5c456905.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/cc36d0d80668189d733099aa5c456905.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -1033,15 +1033,15 @@ For more information about how to use DMS to connect to an ApsaraDB RDS instance
 
 3. Right-click **Servers** and choose **Register > Server**, as shown in the following figure.
 
-   ![](assets/f3ec4b5e940eb7a0706d96e12c65013a.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/f3ec4b5e940eb7a0706d96e12c65013a.png)
 
 4. On the **General** tab of the **Register - Server** dialog box, enter the name of the server, as shown in the following figure.
 
-   ![](assets/ed652403f96c04ad13fe8c23c7518d5a.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/ed652403f96c04ad13fe8c23c7518d5a.png)
 
 5. Click the **Connection** tab and enter the information of the instance, as shown in the following figure.
 
-   ![](assets/8fcdfda016b06f1268b08915b37f184f.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/8fcdfda016b06f1268b08915b37f184f.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -1054,7 +1054,7 @@ For more information about how to use DMS to connect to an ApsaraDB RDS instance
 
 7. If the connection information is correct, choose **Servers > &lt;Server Name> > Databases > postgres**. If the following page appears, the connection is established.
 
-   ![](assets/45b487e1b15a4edf4d98496ff076cf6a.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/45b487e1b15a4edf4d98496ff076cf6a.png)
 
    > **Important**
    >
@@ -1546,7 +1546,7 @@ This topic describes how to view and modify the values of instance parameters an
 
      In the **Editable Parameters** list, find the parameter that you want to modify and click
 
-     the <img src="assets/41a1057c0e5e46f1c2a7dd33cf949d1d.png" width="14" alt=""> icon in the **Running Value** column.
+     the <img src="en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/41a1057c0e5e46f1c2a7dd33cf949d1d.png" width="14" alt=""> icon in the **Running Value** column.
 
      </li>
 
@@ -2948,7 +2948,7 @@ When a read-only RDS instance is being created, ApsaraDB RDS replicates data fro
 
 The following figure shows the topology of the primary RDS instance and its read-only RDS instances.
 
-![](assets/8560d52d78f9ebd93cee8ff1f8a32f73.jpeg)
+![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/8560d52d78f9ebd93cee8ff1f8a32f73.jpeg)
 
 **Features**
 
@@ -3093,7 +3093,7 @@ This topic describes how to view details of read-only instances. You can go to t
 
 A read-only RDS instance may synchronize data from the primary RDS instance at a specific latency. You can go to the Basic Information page of a read-only RDS instance to view the latency of data replication to the instance.
 
-![](assets/1125076487ca27c8184b022d3eb8d38e.png)
+![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/1125076487ca27c8184b022d3eb8d38e.png)
 
 <a id="section-8-9-4"></a>
 
@@ -3164,7 +3164,7 @@ If you have a large number of instances, you can create multiple tags and add th
 
 1. Log on to the ApsaraDB RDS console.
 
-2. On the **Instances** page, find the required instance and click the <img src="assets/d81bffc2578050e03ed898aa74bc97a3.png" width="23" alt=""> icon in the **Tag**
+2. On the **Instances** page, find the required instance and click the <img src="en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/d81bffc2578050e03ed898aa74bc97a3.png" width="23" alt=""> icon in the **Tag**
 
    column.
 
@@ -3186,7 +3186,7 @@ If you have a large number of instances, you can create multiple tags and add th
 
 2. On the **Instances** page, if a small number of tags are added to an instance, the corresponding tags are displayed in the Tag column. If a large number of tags are added to
 
-   an instance, move the pointer over the <img src="assets/d67ef7cb0488c3026fe12f004ae62ba3.png" width="15" alt=""> icon in the **Tag** column to view all the tags that
+   an instance, move the pointer over the <img src="en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/d67ef7cb0488c3026fe12f004ae62ba3.png" width="15" alt=""> icon in the **Tag** column to view all the tags that
 
    are added to the instance.
 
@@ -3194,11 +3194,11 @@ If you have a large number of instances, you can create multiple tags and add th
 
 1. Log on to the ApsaraDB RDS console.
 
-2. On the **Instances** page, find the required instance and click the <img src="assets/d81bffc2578050e03ed898aa74bc97a3.png" width="23" alt=""> icon in the **Tag**
+2. On the **Instances** page, find the required instance and click the <img src="en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/d81bffc2578050e03ed898aa74bc97a3.png" width="23" alt=""> icon in the **Tag**
 
    column.
 
-3. In the **Edit Tags** dialog box, click the <img src="assets/68f774edf79b55f1dc60ef6eaf0d3457.png" width="20" alt=""> icon to the right of the tag and click **OK**.
+3. In the **Edit Tags** dialog box, click the <img src="en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/68f774edf79b55f1dc60ef6eaf0d3457.png" width="20" alt=""> icon to the right of the tag and click **OK**.
 
 <a id="section-9"></a>
 
@@ -3236,15 +3236,15 @@ For more information about how to use DMS to connect to an ApsaraDB RDS instance
 
 3. Right-click **Servers** and choose **Register > Server**, as shown in the following figure.
 
-   ![](assets/f3ec4b5e940eb7a0706d96e12c65013a.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/f3ec4b5e940eb7a0706d96e12c65013a.png)
 
 4. On the **General** tab of the **Register - Server** dialog box, enter the name of the server, as shown in the following figure.
 
-   ![](assets/ed652403f96c04ad13fe8c23c7518d5a.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/ed652403f96c04ad13fe8c23c7518d5a.png)
 
 5. Click the **Connection** tab and enter the information of the instance, as shown in the following figure.
 
-   ![](assets/8fcdfda016b06f1268b08915b37f184f.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/8fcdfda016b06f1268b08915b37f184f.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -3257,7 +3257,7 @@ For more information about how to use DMS to connect to an ApsaraDB RDS instance
 
 7. If the connection information is correct, choose **Servers > &lt;Server Name> > Databases > postgres**. If the following page appears, the connection is established.
 
-   ![](assets/45b487e1b15a4edf4d98496ff076cf6a.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/45b487e1b15a4edf4d98496ff076cf6a.png)
 
    > **Important**
    >
@@ -3287,7 +3287,7 @@ The IP address whitelist is configured. For more information about how to config
 
 5. In the **Login instance** dialog box of the **DMS** console, check values of **Database type**, **Instance Area**, and **Connection string address**. If the information is correct, enter **Database account** and **Database password**, as shown in the following figure.
 
-   ![](assets/cc36d0d80668189d733099aa5c456905.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/cc36d0d80668189d733099aa5c456905.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -3540,7 +3540,7 @@ Before you start to use ApsaraDB RDS, you must create a database on an ApsaraDB 
 
 5. In the **Login instance** dialog box of the **DMS** console, check values of **Database type**, **Instance Area**, and **Connection string address**. If the information is correct, enter **Database account** and **Database password**, as shown in the following figure.
 
-   ![](assets/cc36d0d80668189d733099aa5c456905.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/cc36d0d80668189d733099aa5c456905.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -3590,7 +3590,7 @@ This topic describes how to delete a database in the ApsaraDB RDS for PostgreSQL
 
 5. In the **Login instance** dialog box of the **DMS** console, check values of **Database type**, **Instance Area**, and **Connection string address**. If the information is correct, enter **Database account** and **Database password**, as shown in the following figure.
 
-   ![](assets/cc36d0d80668189d733099aa5c456905.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/cc36d0d80668189d733099aa5c456905.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -3722,7 +3722,7 @@ Precautions
    >
    > - If the network isolation mode of the ApsaraDB RDS instance is standard whitelist, add the internal IP addresses of the ECS instances to a whitelist of your ApsaraDB RDS instance.
    >
-   >   ![](assets/c569d0e09e1a69f9b695448d5dce283d.png)
+   >   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/c569d0e09e1a69f9b695448d5dce283d.png)
    >
    > - If the network isolation mode of the ApsaraDB RDS instance is enhanced whitelist, add the internal IP addresses of the ECS instances to a whitelist of the classic network type. If no whitelists of the classic network type are available, create a whitelist. For more information about the enhanced whitelist mode, see Switch to the enhanced whitelist mode.
 
@@ -3796,7 +3796,7 @@ For better security and performance, we recommend that you use the internal endp
 
 For example, your company wants to use the hybrid access solution to change the network type from classic network to VPC. During the hybrid access period, some applications can access the database by using the internal endpoint of VPCs, and the other applications can access the database by using the original internal endpoint of the classic network. When all the applications access the database by using the internal endpoint of VPCs, the internal endpoint of the classic network can be released. The following figure illustrates the scenario.
 
-![](assets/cb97321ad9ecfaea71e2d2aa3a219045.png)
+![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/cb97321ad9ecfaea71e2d2aa3a219045.png)
 
 **Limits**
 
@@ -4021,15 +4021,15 @@ Make sure that the CA certificate has been downloaded to your computer. For more
 
 3. Right-click **Servers** and choose **Register > Server**.
 
-   ![](assets/f3ec4b5e940eb7a0706d96e12c65013a.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/f3ec4b5e940eb7a0706d96e12c65013a.png)
 
 4. On the **General** tab of the **Register - Server** dialog box, enter the name of the connection.
 
-   ![](assets/ed652403f96c04ad13fe8c23c7518d5a.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/ed652403f96c04ad13fe8c23c7518d5a.png)
 
 5. Click the **Connection** tab and enter the information of the instance.
 
-   ![](assets/8fcdfda016b06f1268b08915b37f184f.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/8fcdfda016b06f1268b08915b37f184f.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -4040,7 +4040,7 @@ Make sure that the CA certificate has been downloaded to your computer. For more
 
 6. On the **SSL** tab, set the **SSL mode** and **Root certificate** parameters, as shown in the following figure.
 
-   ![](assets/8d9856c900586a820b2af45805a49f0c.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/8d9856c900586a820b2af45805a49f0c.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -4051,7 +4051,7 @@ Make sure that the CA certificate has been downloaded to your computer. For more
 
 8. If the connection information is correct, choose **Servers > Server Name > Databases > postgres**. If the following page appears, the connection is established.
 
-   ![](assets/45b487e1b15a4edf4d98496ff076cf6a.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/45b487e1b15a4edf4d98496ff076cf6a.png)
 
    > **Important**
    >
@@ -4517,7 +4517,7 @@ ApsaraDB RDS automatically backs up your instance based on the specified backup 
 
 **What to do next**
 
-<img src="assets/61d843535372d167dc92639747992fdb.png" width="27" alt="">
+<img src="en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/61d843535372d167dc92639747992fdb.png" width="27" alt="">
 
 You can click the
 
@@ -4582,7 +4582,7 @@ This topic describes how to download unencrypted data and log backup files in th
    >
    > - If the URL contains more than one parameter, we recommend that you enclose the URL in a pair of single quotation marks (').
 
-   ![](assets/499044e6134eb71b825aaa7defa9c16c.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/499044e6134eb71b825aaa7defa9c16c.png)
 
 <a id="section-16-3"></a>
 
@@ -4652,7 +4652,7 @@ We recommend that you use the privileged account of the RDS instance. This ensur
 
 2. When  `Password:`  appears on the command line, enter the password of the privileged account of the RDS instance and press the Enter key.
 
-   ![](assets/2a119e37e14f5a3b0cef82c0054eb7d1.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/2a119e37e14f5a3b0cef82c0054eb7d1.png)
 
 **Back up one or more tables**
 
@@ -4680,7 +4680,7 @@ We recommend that you use the privileged account of the RDS instance. This ensur
 
 2. When  `Password:`  appears on the command line, enter the password of the privileged account of the RDS instance and press the Enter key.
 
-   ![](assets/51c4464ef597a734b9fa289200416556.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/51c4464ef597a734b9fa289200416556.png)
 
 **Back up a database with one or more tables excluded**
 
@@ -4708,7 +4708,7 @@ We recommend that you use the privileged account of the RDS instance. This ensur
 
 2. When  `Password:`  appears on the command line, enter the password of the privileged account of the RDS instance and press the Enter key.
 
-   ![](assets/1c31df4cc8ef769b1023dad0f2735e10.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/1c31df4cc8ef769b1023dad0f2735e10.png)
 
 **Back up the schema of a database with data excluded**
 
@@ -4736,7 +4736,7 @@ We recommend that you use the privileged account of the RDS instance. This ensur
 
 2. When  `Password:`  appears on the command line, enter the password of the privileged account of the RDS instance and press the Enter key.
 
-   ![](assets/38a2e000cade20c18ab6493ae12d36f8.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/38a2e000cade20c18ab6493ae12d36f8.png)
 
 <a id="section-16-4"></a>
 
@@ -4792,7 +4792,7 @@ We recommend that you use the privileged account of the ApsaraDB RDS for Postgre
 
 2. When  `Password:`  appears, enter the password of the username of the ApsaraDB RDS for PostgreSQL instance and press the Enter key.
 
-   ![](assets/3cd2c6786e22531d273cfdcf19498e47.jpeg)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/3cd2c6786e22531d273cfdcf19498e47.jpeg)
 
 <a id="section-17"></a>
 
@@ -4994,7 +4994,7 @@ Data in the ApsaraDB RDS for PostgreSQL instance is logically backed up. For mor
    >
    > You can ignore alerts generated by the embedded plpgsql plug-in.
 
-   ![](assets/aabea47ba5400b17f4bd4fbedd4d16fa.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/aabea47ba5400b17f4bd4fbedd4d16fa.png)
 
 **Restore the data of a table**
 
@@ -5047,7 +5047,7 @@ Data in the ApsaraDB RDS for PostgreSQL instance is logically backed up. For mor
 
 2. When  `Password:`  appears, enter the password of the privileged account of your ApsaraDB RDS instance and press the Enter key.
 
-   ![](assets/b53fe39bd3aee737c969ac7a9283b1fa.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/b53fe39bd3aee737c969ac7a9283b1fa.png)
 
 **Restore the schema of a database with data excluded**
 
@@ -5078,7 +5078,7 @@ Data in the ApsaraDB RDS for PostgreSQL instance is logically backed up. For mor
    >
    > You can ignore alerts generated by the embedded plpgsql plug-in.
 
-   ![](assets/394c1834efb1dcb184eb4445c0d66047.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/394c1834efb1dcb184eb4445c0d66047.png)
 
 <a id="section-18"></a>
 
@@ -5278,7 +5278,7 @@ After you log in to the ApsaraDB RDS console and navigate to the Dashboard page 
      >
      > icon next to the name of a metric to view its description.
      >
-     > <img src="assets/87132e152486bfa4395cbf7af3dc676a.png" width="24" alt="">
+     > <img src="en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/87132e152486bfa4395cbf7af3dc676a.png" width="24" alt="">
 
    - On the **Performance Trend Comparison** tab, select two time periods to compare the performance metrics collected within the specified time periods.
 
@@ -5310,11 +5310,11 @@ After you log in to the ApsaraDB RDS console and navigate to the Slow Query Logs
 
      - For the instances of ApsaraDB RDS for MySQL and PolarDB for MySQL Primary/Secondary Edition, click the **Optimize** button in the Actions column of the slow SQL record that you want to mange. The record is highlighted in blue to help you quickly locate the SQL statement being analyzed in a large number of slow SQL statements. This highlight persists after you close the optimization window and automatically shifts to the new record when you optimize another slow SQL statement.
 
-       ![](assets/157ce5fe0d5fab0993f8614e46d7f2b8.jpeg)
+       ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/157ce5fe0d5fab0993f8614e46d7f2b8.jpeg)
 
    - Click the **Slow Log Details** tab to view the execution details of slow query logs.
 
-     ![](assets/b37a9bd7b9cbf171fc5b80a974c15b4d.jpeg)
+     ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/b37a9bd7b9cbf171fc5b80a974c15b4d.jpeg)
 
 <a id="section-19"></a>
 
@@ -5537,7 +5537,7 @@ select count(*) from ft_test ;
             
 ```
 
-![](assets/bedafbb3d3d6c2b9e93d2030f9b54f01.png)
+![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/bedafbb3d3d6c2b9e93d2030f9b54f01.png)
 
 Run  `postgres=> explain verbose select count(*) from ft_test;`  to find out how the requests sent from your ApsaraDB RDS for PostgreSQL instance are executed to query data from the MySQL database. Sample output:
 
@@ -6575,7 +6575,7 @@ To simplify the test procedure, perform the following steps to create a secondar
    psql -h 127.0.0.1 -p 8001 -U digoal postgres  
    ```
 
-   ![](assets/e05f659e7913325287e04b6fc80b1889.png)
+   ![](en-rds-rds-postgresql-user-guide-v3.18.6-2607-20260831.assets/e05f659e7913325287e04b6fc80b1889.png)
 
 **FAQ**
 

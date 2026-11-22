@@ -1038,7 +1038,7 @@ After an inventory is configured for a bucket, the following objects are generat
 
 - Inventory lists Inventory lists contain the exported object information and are stored in the data/ directory. The following figure shows a sample inventory list.
 
-  ![](assets/15f22cf0e72f861d0ec75ff82db15742.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/15f22cf0e72f861d0ec75ff82db15742.jpeg)
 
   The following table describes the fields in the preceding figure from left to right.
 
@@ -1094,7 +1094,7 @@ If you access data in an Object Storage Service (OSS) bucket for which no back-t
 
 When your client queries an object that does not exist in the bucket, OSS retrieves the object based on the origin URL. After OSS retrieves the object, OSS stores the object in the bucket and returns the object to your client. The following figure shows the detailed process of mirroring-based back-to-origin.
 
-![](assets/736a0f3acb2e1ef6a763d062deb52106.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/736a0f3acb2e1ef6a763d062deb52106.jpeg)
 
 Mirroring-based back-to-origin allows you to seamlessly migrate data to OSS. For example, you can use mirroring-based back-to-origin to migrate business from a self-managed origin or another cloud service to OSS without business interruption. During the migration, you can use mirroring-based back-to-origin rules to obtain the data that has not been migrated to OSS. This ensures business continuity.
 
@@ -1102,7 +1102,7 @@ Mirroring-based back-to-origin allows you to seamlessly migrate data to OSS. For
 
 The redirection-based back-to-origin feature enables OSS to return a redirection response and an HTTP status code 3xx based on the specified back-to-origin conditions and redirection configurations. The following figure shows the detailed process of redirection-based back-to-origin.
 
-![](assets/5993563bed999fab84930b1cf1303767.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5993563bed999fab84930b1cf1303767.jpeg)
 
 Scenarios:
 
@@ -1645,7 +1645,7 @@ EC allows a server to store more than one chunk. In this case, you can store dat
 
 Apsara Stack uses a flat design in which a linear address space is divided into slices. A slice is called a chunk. Each chunk is replicated into three replicas stored on different data nodes of a storage cluster to ensure data reliability.
 
-![](assets/c250cf0356321af79ae457bef8004df9.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c250cf0356321af79ae457bef8004df9.jpeg)
 
 Triplicate storage involves three key components: the master, chunk servers, and the client. Chunk servers are data nodes on which chunk replicas are stored. Each write operation is executed by the client in the following steps:
 
@@ -1810,7 +1810,7 @@ Two methods are supported for master key usage: KMS-managed customer master keys
 
 When using KMS-managed customer master keys for client-side data encryption, do not provide any encryption keys to the OSS encryption client. Instead, specify the KMS customer master key (CMK) ID when uploading objects. The following diagram illustrates how it works.
 
-![](assets/3fc39bdca44a90f3745e2da74dff4a08.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3fc39bdca44a90f3745e2da74dff4a08.jpeg)
 
 - Encrypt and upload objects
 
@@ -1868,7 +1868,7 @@ When using KMS-managed customer master keys for client-side data encryption, do 
 
 When using customer-managed CMKs, you must generate and securely store the encryption keys yourself. When the local client encrypts an object, you provide the encryption key—either a symmetric key or an asymmetric key—to the local encryption client. The following diagram illustrates the encryption process.
 
-![](assets/32e9196afa448026032e4ce3966aefbe.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/32e9196afa448026032e4ce3966aefbe.jpeg)
 
 - Encrypt and upload objects
 
@@ -2019,25 +2019,25 @@ The following examples provide figures to show how OSS processes data when an ob
 
   When you upload an object repeatedly to a versioning-enabled bucket, the object is overwritten in each upload. A version with a unique version ID is generated for the object each time when the object is overwritten.
 
-  ![](assets/b8e2b579b3f7f58074b078392ef6102c.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b8e2b579b3f7f58074b078392ef6102c.jpeg)
 
 - Delete an object from a versioning-enabled bucket
 
   When you delete an object from a versioning-enabled bucket, OSS adds a delete marker to the object as the current version of the object instead of permanently deleting this object. The previous versions of the object are not deleted. If you upload an object with the same name after the delete marker is added, a new version with a unique version ID is added as the current version.
 
-  ![](assets/fa3b766f36c01a6358ec535944005225.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/fa3b766f36c01a6358ec535944005225.png)
 
 - Overwrite an object in a versioning-suspended bucket
 
   When you upload an object with the same name as an existing object in a bucket for which versioning is suspended, a new version whose version ID is null is added and the previous versions of the object are retained. If you upload another object with the same name to the bucket again, a new version whose version ID is null overwrites the current version whose version ID is null.
 
-  ![](assets/b750cef5938f30345bda3975b53a4c2c.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b750cef5938f30345bda3975b53a4c2c.png)
 
 - Delete an object from a versioning-suspended bucket
 
   When you delete an object from a bucket for which versioning is suspended, OSS adds a delete marker to the object as the current version of the object instead of permanently deleting this object. The previous versions of the object are not deleted.
 
-  ![](assets/635952cd02621eebaf9e6f18fc616cad.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/635952cd02621eebaf9e6f18fc616cad.png)
 
 In a versioning-enabled bucket, deleted and overwritten data is stored as previous versions. After you enable versioning for a bucket, you can recover objects in the bucket to a previous version to protect your data from being accidentally overwritten or deleted.
 
@@ -2380,7 +2380,7 @@ You can upload any type of object to a bucket. In the OSS console, you can uploa
    | --- | --- |
    | Upload | Specify the object's storage path in OSS.<br>• <strong>Current Directory</strong>: Uploads the object to the current directory.<br>• <strong>Specify Directory</strong>: Uploads the object to a specified directory. You must enter a directory name. If the specified directory does not exist, OSS automatically creates it and uploads the object to it.Directory names must meet the following requirements:<br>• Use valid UTF-8 characters. Emojis are not allowed.<br>• The <code> / </code> character is used to separate path segments to quickly create subdirectories, but the path must not start with <code> / </code>or <code> \ </code> or contain consecutive <code> / </code> characters.<br>• Subdirectories named <code> .. </code> are not allowed.<br>• The total length must be 1 to 254 characters. |
    | File ACL | Set the object's access permissions. The default is <strong>Inherit Bucket</strong>.<br>• <strong>Inherit Bucket</strong>: The object inherits its access permissions from the bucket.<br>• <strong>Private</strong>: All access to the object requires authentication.<br>• <strong>Public Read</strong>ing: Anonymous users can read the object, but writing to the object requires authentication.<br>• <strong>Public read/write</strong>: Anyone can read and write to the object. |
-   | Upload Files | Drag one or more files to this area, or click the<img src="assets/736a5467a51395c6fe0da5fa94fb06d1.png" width="12" alt="">icon to select one or more files to upload.<br>Important<br>• If you upload an object with the same name as an existing object in the bucket, the existing object is overwritten.<br>• When you upload a folder, its structure is not preserved. All files are uploaded directly to the destination directory.<br>• An object's size cannot exceed 5 GiB. To upload objects larger than 5 GiB, use a multipart upload method, such as the ossutil command-line tool, an OSS SDK, or the OSS API.<br>• Different web browsers may escape or replace certain characters in filenames during the upload process. Verify that the filenames of the uploaded objects are correct.<br>• Object names must meet the following requirements:<br>• Must be UTF-8 encoded.<br>• Are case-sensitive.<br>• Must be 1 to 1,023 bytes in length.<br>• Cannot start with a forward slash (/) or a backslash (\\). |
+   | Upload Files | Drag one or more files to this area, or click the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/736a5467a51395c6fe0da5fa94fb06d1.png" width="12" alt="">icon to select one or more files to upload.<br>Important<br>• If you upload an object with the same name as an existing object in the bucket, the existing object is overwritten.<br>• When you upload a folder, its structure is not preserved. All files are uploaded directly to the destination directory.<br>• An object's size cannot exceed 5 GiB. To upload objects larger than 5 GiB, use a multipart upload method, such as the ossutil command-line tool, an OSS SDK, or the OSS API.<br>• Different web browsers may escape or replace certain characters in filenames during the upload process. Verify that the filenames of the uploaded objects are correct.<br>• Object names must meet the following requirements:<br>• Must be UTF-8 encoded.<br>• Are case-sensitive.<br>• Must be 1 to 1,023 bytes in length.<br>• Cannot start with a forward slash (/) or a backslash (\\). |
 
 5. In the **Upload files** panel, wait for the upload tasks to complete.
 
@@ -2990,7 +2990,7 @@ A bucket tag is a key-value pair used to label a bucket. You can use tags to ide
 
 4. Click **Add entry** and enter a key and value for the tag.
 
-   To add multiple tags, click **Add entry** for each tag. To delete a user-defined tag, click the <img src="assets/8059f98e2296545acdb467681e306589.png" width="12" alt=""> icon next to the tag.
+   To add multiple tags, click **Add entry** for each tag. To delete a user-defined tag, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/8059f98e2296545acdb467681e306589.png" width="12" alt=""> icon next to the tag.
 
 5. Click **Submit**.
 
@@ -3803,7 +3803,7 @@ You can configure two types of back-to-origin rules: mirroring and redirection. 
      <tr>
        <td>Replace or intercept prefixes</td>
        <td>No</td>
-       <td>This item can be configured after you select <strong>File name prefix</strong> and configure the prefix parameter. When OSS sends a request to the origin server, it replaces the value of the <strong>File name prefix</strong> with the value of <strong>Replace or</strong> <strong>intercept prefixes</strong>.Example configuration: Suppose you want to store files fetched from the origin in the mirror directory in the root directory of the bucket. If the target filename is path/test/photo.jpg, when you configure the mirroring rule, set <strong>File</strong><br><img src="assets/6d0fae2303975fd6364e3215ed2947b2.png" alt=""><br><strong>name prefix</strong> to <code>mirror/</code>, set <strong>Replace or intercept prefixes</strong> to <code>test/</code>, and enter <code>path</code> as the directory in the third column for <strong>Back-to-origin address</strong>. When you access <code> https://bucketname.endpoint/mirror/photo.jpg </code>, if photo.jpg does not exist, OSS requests the file from <code> https://&lt;Back-to-origin URL&gt;/path/test/photo.jpg </code>. If OSS successfully retrieves the file, it stores the file in the mirror/ directory and returns the file to you.<br><img src="assets/4518241c34339f9a7bb1865afc5a6799.png" alt=""><br>to <code>test/</code>, and enter <code>path</code> as the directory in the third column for <strong>Back-to-origin address</strong>. When you access <code> https://bucketname.endpoint/mirror/photo.jpg </code>, if photo.jpg does not exist, OSS requests the file from <code> https://&lt;Back-to-origin URL&gt;/path/test/photo.jpg </code>. If OSS successfully retrieves the file, it stores the file in the mirror/ directory and returns the file to you.</td>
+       <td>This item can be configured after you select <strong>File name prefix</strong> and configure the prefix parameter. When OSS sends a request to the origin server, it replaces the value of the <strong>File name prefix</strong> with the value of <strong>Replace or</strong> <strong>intercept prefixes</strong>.Example configuration: Suppose you want to store files fetched from the origin in the mirror directory in the root directory of the bucket. If the target filename is path/test/photo.jpg, when you configure the mirroring rule, set <strong>File</strong><br><img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/6d0fae2303975fd6364e3215ed2947b2.png" alt=""><br><strong>name prefix</strong> to <code>mirror/</code>, set <strong>Replace or intercept prefixes</strong> to <code>test/</code>, and enter <code>path</code> as the directory in the third column for <strong>Back-to-origin address</strong>. When you access <code> https://bucketname.endpoint/mirror/photo.jpg </code>, if photo.jpg does not exist, OSS requests the file from <code> https://&lt;Back-to-origin URL&gt;/path/test/photo.jpg </code>. If OSS successfully retrieves the file, it stores the file in the mirror/ directory and returns the file to you.<br><img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/4518241c34339f9a7bb1865afc5a6799.png" alt=""><br>to <code>test/</code>, and enter <code>path</code> as the directory in the third column for <strong>Back-to-origin address</strong>. When you access <code> https://bucketname.endpoint/mirror/photo.jpg </code>, if photo.jpg does not exist, OSS requests the file from <code> https://&lt;Back-to-origin URL&gt;/path/test/photo.jpg </code>. If OSS successfully retrieves the file, it stores the file in the mirror/ directory and returns the file to you.</td>
      </tr>
      <tr>
        <td>Back-to-origin address</td>
@@ -3839,7 +3839,7 @@ You can configure two types of back-to-origin rules: mirroring and redirection. 
 
    Example of an HTTP header forwarding rule configuration:
 
-   ![](assets/bf23df0ba668a8692c40267537729283.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/bf23df0ba668a8692c40267537729283.jpeg)
 
    Based on the configuration above, if you send the following request to OSS (HTTP headers shown):
 
@@ -4021,7 +4021,7 @@ OSS supports resource-based authorization, which lets you apply a permission pol
    | --- | --- |
    | Authorized resources | Specifies the resources that authorized users can access, such as the entire bucket or specific paths within it.<br>• <strong>Entire Bucket</strong>: Applies the policy to the entire bucket.<br>• <strong>Specify resources</strong>: The bucket policy applies only to the specified resources. You can configure multiple rules for specific resources.<br>• Grant permissions at the directory level To grant access to all subdirectories and files in the <code> abc </code> directory, enter <code> abc/* </code>.<br>• Grant permissions to a specific file To grant access to a specific file in a directory, enter the full path of the file, excluding the bucket name. For example, to grant access to the <code> myphoto.png </code> file in the <code> abc </code> directory, enter <code> abc/myphoto.png </code>. |
    | Authorized User | Specifies the users to whom access is granted.<br>• <strong>All accounts (\*)</strong>: Grants access to the specified resources to any user, including anonymous users.<br>• <strong>Other accounts</strong>: Grants access to specified Alibaba Cloud accounts, RAM users, or RAM roles. |
-   | Authorization operation | You can authorize actions by using <strong>Simplified settings</strong> or <strong>Advanced Settings</strong>.<br>• Simplified settings<br>Select this option to configure access permissions based on your use case. You can hover over the<img src="assets/8fdad0eb1fd6edadac51ae8b68fd5611.jpeg" width="15" alt="">icon next to each permission<br>type to view the corresponding list of actions.<br>• <strong>Read-only</strong>: Allows users to view, list, and download the specified resources.<br>• <strong>Read/Write</strong>: Allows users to read from and write to the specified resources.<br>• <strong>Complete Control</strong>: Allows users to perform all operations on the specified resources, including read, write, and delete operations.<br>• <strong>Access Denied</strong>: Denies all operations on the specified resources.<br>• Advanced settings Select this option and complete the following configurations.<br>• <strong>Effectiveness</strong>: Specifies whether the policy grants (<strong>Allow</strong>) or denies (<strong>Reject</strong>) access.<br>• <strong>Operation</strong>: Specifies one or more OSS actions to allow or deny. |
+   | Authorization operation | You can authorize actions by using <strong>Simplified settings</strong> or <strong>Advanced Settings</strong>.<br>• Simplified settings<br>Select this option to configure access permissions based on your use case. You can hover over the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/8fdad0eb1fd6edadac51ae8b68fd5611.jpeg" width="15" alt="">icon next to each permission<br>type to view the corresponding list of actions.<br>• <strong>Read-only</strong>: Allows users to view, list, and download the specified resources.<br>• <strong>Read/Write</strong>: Allows users to read from and write to the specified resources.<br>• <strong>Complete Control</strong>: Allows users to perform all operations on the specified resources, including read, write, and delete operations.<br>• <strong>Access Denied</strong>: Denies all operations on the specified resources.<br>• Advanced settings Select this option and complete the following configurations.<br>• <strong>Effectiveness</strong>: Specifies whether the policy grants (<strong>Allow</strong>) or denies (<strong>Reject</strong>) access.<br>• <strong>Operation</strong>: Specifies one or more OSS actions to allow or deny. |
    | Conditions | Optional. Restricts access to requests that meet specific conditions.<br>• <strong>Access method</strong>: By default, both HTTP and HTTPS are supported. If you want the policy to enforce HTTPS access to bucket resources, select <strong>HTTPS</strong>. If you want to enforce HTTP access, select <strong>HTTP</strong>. HTTPS provides greater security than HTTP.To enforce a single access method, such as HTTPS, for all requests to resources in the bucket, you must configure the policy by using policy syntax.<br>• <strong>IP =</strong>: Restricts access to a specific IP address or a CIDR block. If you specify multiple IP addresses, separate them with a comma (,).<br>• <strong>IP ≠</strong>: Denies access from a specific IP address or a CIDR block. If you specify multiple IP addresses, separate them with a comma (,).<br>• <strong>VPC =</strong>: Allows access only from a specific VPC or multiple VPCs. You can select from the VPC IDs available in your account.<br>• <strong>VPC ≠</strong>: Denies access from a specific VPC. You can select from the VPC IDs available in your account.<br>Note If you select both a VPC condition (equals or not equals) and an IP condition (equals or not equals) in a bucket policy, the conditions are combined with a logical AND. The policy takes effect only when both the VPC and IP conditions are met. |
 
 **Use policy syntax**
@@ -4421,7 +4421,7 @@ By default, logs are retained for 7 days. You can change the retention period as
   >
   > icon to switch to interactive query and analysis. Then, enter your query on the **Log Query (Simple Mode)** tab, or
   >
-  > <img src="assets/00bdd2db9d5607fb22f5e34fd1db3bc3.png" width="17" alt="">
+  > <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/00bdd2db9d5607fb22f5e34fd1db3bc3.png" width="17" alt="">
   >
   > select a scenario on the **Statistical Analysis** tab.
 
@@ -4873,7 +4873,7 @@ Create a RAM role authorization to implement fine-grained permission control.
 
    You can view the RAM role authorization details on the **Role Permissions** page.
 
-   To delete a RAM role authorization that is no longer needed, go to the **Role Permissions** page, find it, click <img src="assets/e94ef23efabd2d163a02ff7fe26119c2.png" width="16" alt=""> in the **Actions** column, and then
+   To delete a RAM role authorization that is no longer needed, go to the **Role Permissions** page, find it, click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/e94ef23efabd2d163a02ff7fe26119c2.png" width="16" alt=""> in the **Actions** column, and then
 
    click **Delete**.
 
@@ -5331,7 +5331,7 @@ When you add tags to objects, take note of the following items:
    >
    > icon to the right of the tag.
    >
-   > <img src="assets/31145ba23100f9ee6cc7910bdca2af46.png" width="12" alt="">
+   > <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/31145ba23100f9ee6cc7910bdca2af46.png" width="12" alt="">
 
 5. Click **Submit**.
 
@@ -5362,7 +5362,7 @@ You can add multiple rules to a bucket policy, but its total size cannot exceed 
    | Authorized resources | Grant users access to the entire bucket or to specific resources within it.<br>• <strong>Entire Bucket</strong>: The policy applies to the entire bucket.<br>• <strong>Specify resources</strong>: The policy applies only to the specified resources. You can configure multiple policies for specified resources.<br>• Grant permissions to a directory To grant access to all subdirectories and objects in a directory, add an asterisk (\*) to the end of the directory path. For example, to grant access to all subdirectories and objects in the abc/ directory, enter <code>abc/*</code>.<br>• Grant permissions to a specific object To grant access to a specific object in a directory, enter the full path of the object, excluding the bucket name. For example, to grant access to the myphoto.png object in the abc directory, enter <code>abc/myphoto.png</code>. |
    | Resource path | Specifies the path of the resource to which the policy applies. |
    | Authorized User | Select the user type to grant access to.<br>• <strong>All accounts (\*)</strong>: Select this option to grant access to all users, including anonymous users.<br>• <strong>Other accounts</strong>: Select this option to grant access to other Alibaba Cloud accounts, RAM users, or temporary users created using Security Token Service (STS).<br>• To grant access to another Alibaba Cloud account or a RAM user, enter the UID of the account.<br>• To grant access to a temporary user, use the <code> arn:sts::{RoleOwnerUid}:assumed-role/{RoleName}/{RoleSessionName} </code> format. For example, assume that the role used to create the temporary user is testrole, the UID of the Alibaba Cloud account that owns the role is 12345, and the RoleSessionName specified for the temporary user is testsession. In this case, enter <code> arn:sts::12345:assumed-role/testrole/testsession </code>. To grant access to all temporary users, use a wildcard (\*). For example, enter <code> arn:sts::*:*/*/* </code>.<br>Important Temporary users cannot access authorized resources from the OSS console. |
-   | Authorization operation | You can configure authorized operations using <strong>Simple settings</strong> or <strong>Advanced Settings</strong>.<br>• Simple Settings<br>Configure the access permissions based on your business requirements. You can hover over the<img src="assets/d2bba1fb7249b18edef68d5a809a176e.jpeg" width="8" alt="">icon next to each permission to view the corresponding Action list.<br>• <strong>Read-only</strong>: Allows users to view, list, and download the resources.<br>• <strong>Read/Write</strong>: Allows users to read from and write to the resources.<br>• <strong>Complete Control</strong>: Allows users to perform all operations on the resources, including read, write, and delete.<br>• <strong>Access Denied</strong>: Denies all operations on the resources.<br>Important If multiple bucket policy rules are configured for a single user, the user's effective permissions are the union of all permissions granted by those rules. When these bucket policies include <strong>Access Denied</strong> permissions, the <strong>Access Denied</strong> permission takes precedence. For example, if you first grant a user <strong>Read-only</strong> permissions and then grant <strong>Read/Write</strong> permissions, the user's final permissions are <strong>Read/Write</strong>. If you then grant <strong>Deny Access</strong> permissions, the user's final permissions become <strong>Access Denied</strong>.<br>• Advanced Settings Configure the following settings.<br>• <strong>Effectiveness</strong>: Specifies whether the statement allows (Allow) or denies (Deny) access.<br>• <strong>Operation</strong>: Specifies the OSS actions to allow or deny. |
+   | Authorization operation | You can configure authorized operations using <strong>Simple settings</strong> or <strong>Advanced Settings</strong>.<br>• Simple Settings<br>Configure the access permissions based on your business requirements. You can hover over the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/d2bba1fb7249b18edef68d5a809a176e.jpeg" width="8" alt="">icon next to each permission to view the corresponding Action list.<br>• <strong>Read-only</strong>: Allows users to view, list, and download the resources.<br>• <strong>Read/Write</strong>: Allows users to read from and write to the resources.<br>• <strong>Complete Control</strong>: Allows users to perform all operations on the resources, including read, write, and delete.<br>• <strong>Access Denied</strong>: Denies all operations on the resources.<br>Important If multiple bucket policy rules are configured for a single user, the user's effective permissions are the union of all permissions granted by those rules. When these bucket policies include <strong>Access Denied</strong> permissions, the <strong>Access Denied</strong> permission takes precedence. For example, if you first grant a user <strong>Read-only</strong> permissions and then grant <strong>Read/Write</strong> permissions, the user's final permissions are <strong>Read/Write</strong>. If you then grant <strong>Deny Access</strong> permissions, the user's final permissions become <strong>Access Denied</strong>.<br>• Advanced Settings Configure the following settings.<br>• <strong>Effectiveness</strong>: Specifies whether the statement allows (Allow) or denies (Deny) access.<br>• <strong>Operation</strong>: Specifies the OSS actions to allow or deny. |
    | <strong>Condition</strong> (Optional) | Grants access only when a request meets specific conditions.<br>• <strong>Access method</strong>: Select HTTPS or HTTP.<br>• <strong>IP =</strong>: Specifies the allowed source IP addresses or CIDR blocks.<br>• <strong>IP ≠</strong>: Specifies the denied source IP addresses or CIDR blocks.<br>• <strong>VPC =</strong>: Specifies the allowed VPCs.<br>• <strong>VPC ≠</strong>: Specifies the denied VPCs. |
 
 6. Click **OK**.
@@ -5641,13 +5641,13 @@ This topic describes how to install ossbrowser V2.0 on Windows, macOS, and Linux
 
 3. Double-click the **oss-browser2** shortcut on the desktop to open ossbrowser. The following figure shows the login page.
 
-   ![](assets/74ca1b6abc61cdbdce6546a63589cdd7.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/74ca1b6abc61cdbdce6546a63589cdd7.jpeg)
 
 **macOS**
 
 1. In the terminal, run the  `uname -m`  command to check the processor architecture. The architecture shown in the following figure is x86_amd64.
 
-   ![](assets/b250675395f4eb0f8c9ad445bdc2f6cb.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b250675395f4eb0f8c9ad445bdc2f6cb.jpeg)
 
 2. Download the ossbrowser installation package that suits your processor architecture:
 
@@ -5673,7 +5673,7 @@ This topic describes how to install ossbrowser V2.0 on Windows, macOS, and Linux
 
    The following figure shows the login page.
 
-   ![](assets/74ca1b6abc61cdbdce6546a63589cdd7.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/74ca1b6abc61cdbdce6546a63589cdd7.jpeg)
 
    </li>
 
@@ -5701,7 +5701,7 @@ In the following example, an Elastic Compute Service (ECS) instance that runs Ub
 
    If you install a graphical desktop environment on an ECS instance, you need to restart the instance and access the desktop environment by using Virtual Network Computing (VNC).
 
-   ![](assets/91e93e51cd75b4bfa557c95cd400998b.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/91e93e51cd75b4bfa557c95cd400998b.jpeg)
 
 3. Download the ossbrowser V2.0 installation package.
 
@@ -5717,7 +5717,7 @@ In the following example, an Elastic Compute Service (ECS) instance that runs Ub
 
    Right-click the package and choose  `Properties` .
 
-   ![](assets/7cbda629eaf42df3f18daf15cb812cee.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7cbda629eaf42df3f18daf15cb812cee.jpeg)
 
    </li>
 
@@ -5725,7 +5725,7 @@ In the following example, an Elastic Compute Service (ECS) instance that runs Ub
 
    Click  `Permissions` , and select the Allow executing file as program check box.
 
-   ![](assets/3bad7380fe7d8e86732b6ddb2562b320.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3bad7380fe7d8e86732b6ddb2562b320.jpeg)
 
    </li>
 
@@ -5737,7 +5737,7 @@ In the following example, an Elastic Compute Service (ECS) instance that runs Ub
 
    </ol>
 
-   ![](assets/74ca1b6abc61cdbdce6546a63589cdd7.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/74ca1b6abc61cdbdce6546a63589cdd7.jpeg)
 
 **What to do next**
 
@@ -5799,8 +5799,8 @@ The bucket-level operations in ossbrowser 2.0 are similar to those in the consol
 | Create a bucket | A bucket is a container for storing objects. Before uploading any objects to OSS, create a bucket. |
 | List buckets | After you log on to ossbrowser 2.0, your buckets are automatically listed. |
 | Delete a bucket | If you no longer need a bucket, delete it. |
-| Favorite a bucket | Select a bucket and click the<img src="assets/2a04ba4cc355d202e72b279298253cf0.png" width="14" alt="">icon to add the bucket to your favorites list for easier management. |
-| View bucket information | Select a bucket and click the<img src="assets/8713a3c56659c804465a5f42405e0f9c.png" width="14" alt="">icon to view its basic information, such as <strong>Region</strong>, <strong>ACL</strong>, and <strong>Created At</strong>. |
+| Favorite a bucket | Select a bucket and click the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/2a04ba4cc355d202e72b279298253cf0.png" width="14" alt="">icon to add the bucket to your favorites list for easier management. |
+| View bucket information | Select a bucket and click the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/8713a3c56659c804465a5f42405e0f9c.png" width="14" alt="">icon to view its basic information, such as <strong>Region</strong>, <strong>ACL</strong>, and <strong>Created At</strong>. |
 
 **Manage objects**
 
@@ -5816,13 +5816,13 @@ The object-level operations in ossbrowser 2.0 are similar to those in the consol
 | Preview an object | Click an object name to preview the object. The preview size for text obejcts is limited to 100 MiB. You can edit the object directly in the preview.<br>Note The object preview feature supports online preview and editing for most text file formats, such as <code> .java </code>, <code> .js </code>, <code> .go </code>,<code> .php </code>, <code> .py </code>, <code> .json </code>, <code> .html </code>, <code> .csv </code>, <code> .txt </code>, <code> .xml </code>, and <code> .yml </code>. |
 | Copy an object | Select an object, and at the top of the page, click <strong>More &gt; Copy To</strong>. Then, select a destination path and click <strong>Copy &gt; Confirm Copy</strong>. |
 | Move an object | Select an object, and at the top of the page, click <strong>More &gt; Move To</strong>. Then, select a destination path and click <strong>Move &gt; Confirm Move</strong>.<br>Note The maximum size of an object that you can move or copy is 5 GiB. To move or copy objects larger than 5 GiB, use ossutil. |
-| Rename an obejct | Select the destination object, click the<img src="assets/8ff7c33a763c429983d544916cf290b1.png" width="12" alt="">icon on the right, and select <strong>Rename</strong>. After you modify the name, click <strong>Confirm</strong>. |
+| Rename an obejct | Select the destination object, click the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/8ff7c33a763c429983d544916cf290b1.png" width="12" alt="">icon on the right, and select <strong>Rename</strong>. After you modify the name, click <strong>Confirm</strong>. |
 | Search for an object | Enter an obejct prefix in the search box at the top of the page to view matching objects and folders in the root directory of the bucket. |
 | Delete an object | Select the destination object and click <strong>More &gt; Delete</strong> to delete the object. |
-| Set a symbolic link | Select the destination object, click the<img src="assets/8ff7c33a763c429983d544916cf290b1.png" width="12" alt="">icon on the right, and select <strong>Set Symbolic Link</strong>. In the <strong>Set Symbolic Link</strong> panel, set the<br><strong>Object to Which Symbolic Link Points (Full Path)</strong>, and then click <strong>OK</strong>. |
-| Set object metadata | Select the destination object, click the<img src="assets/8ff7c33a763c429983d544916cf290b1.png" width="12" alt="">icon on the right, and select <strong>Set Metadata</strong>. In the <strong>Set Metadata</strong> panel, set the object<br>metadata, and then click <strong>OK</strong>. |
-| Share an object | After an object is uploaded to a bucket, you can share the object URL with a third party for download or preview.<br>Select the destination object, click the<img src="assets/8ff7c33a763c429983d544916cf290b1.png" width="12" alt="">icon on the right, and select <strong>Obtain URL</strong>. Enter a validity period for the link and click <strong>Generate</strong><br>to obtain the shared URL. |
-| Set read and write permissions | Select the destination object, click the<img src="assets/8ff7c33a763c429983d544916cf290b1.png" width="12" alt="">icon on the right, and select <strong>Set ACL</strong>. In the <strong>ACL</strong> dialog box, select a permission and click <strong>OK</strong>. |
+| Set a symbolic link | Select the destination object, click the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/8ff7c33a763c429983d544916cf290b1.png" width="12" alt="">icon on the right, and select <strong>Set Symbolic Link</strong>. In the <strong>Set Symbolic Link</strong> panel, set the<br><strong>Object to Which Symbolic Link Points (Full Path)</strong>, and then click <strong>OK</strong>. |
+| Set object metadata | Select the destination object, click the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/8ff7c33a763c429983d544916cf290b1.png" width="12" alt="">icon on the right, and select <strong>Set Metadata</strong>. In the <strong>Set Metadata</strong> panel, set the object<br>metadata, and then click <strong>OK</strong>. |
+| Share an object | After an object is uploaded to a bucket, you can share the object URL with a third party for download or preview.<br>Select the destination object, click the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/8ff7c33a763c429983d544916cf290b1.png" width="12" alt="">icon on the right, and select <strong>Obtain URL</strong>. Enter a validity period for the link and click <strong>Generate</strong><br>to obtain the shared URL. |
+| Set read and write permissions | Select the destination object, click the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/8ff7c33a763c429983d544916cf290b1.png" width="12" alt="">icon on the right, and select <strong>Set ACL</strong>. In the <strong>ACL</strong> dialog box, select a permission and click <strong>OK</strong>. |
 
 <a id="section-2-10"></a>
 
@@ -6253,8 +6253,8 @@ If you create a share by using the **NFS** protocol, you can then configure the 
    | Parameter | Description |
    | --- | --- |
    | User Mapping | Specifies the mapping between NFS client users and NFS server users.<br>• <strong>none</strong>: NFS client users are not mapped to the <code> nobody </code> user on the NFS server.<br>• <strong>root_squash</strong>: Restricts the root user. When an NFS client accesses the share as the root user, the user is mapped to the <code> nobody </code> user on the NFS server.<br>• <strong>all_squash</strong>: Restricts all users. All NFS client users are mapped to the <code> nobody </code> user on the NFS server.<br>• <strong>all_anonymous</strong>: Restricts all users. All NFS client users are mapped to an anonymous user on the NFS server. |
-   | List of read/write clients | Enter the IP addresses or CIDR blocks to grant read/write access, such as 192.168.10.10 or 192.168.0.0/24. Click <strong>Add entry</strong> to add multiple entries.<br>Note To remove an entry, click the icon next to it.<br><img src="assets/31145ba23100f9ee6cc7910bdca2af46.png" width="12" alt=""> |
-   | Read-only client list | Enter the IP addresses or CIDR blocks to grant read-only access, such as 192.168.10.10 or 192.168.0.0/24. Click <strong>Add entry</strong> to add multiple entries.<br>Note To remove an entry, click the icon next to it.<br><img src="assets/31145ba23100f9ee6cc7910bdca2af46.png" width="12" alt=""> |
+   | List of read/write clients | Enter the IP addresses or CIDR blocks to grant read/write access, such as 192.168.10.10 or 192.168.0.0/24. Click <strong>Add entry</strong> to add multiple entries.<br>Note To remove an entry, click the icon next to it.<br><img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/31145ba23100f9ee6cc7910bdca2af46.png" width="12" alt=""> |
+   | Read-only client list | Enter the IP addresses or CIDR blocks to grant read-only access, such as 192.168.10.10 or 192.168.0.0/24. Click <strong>Add entry</strong> to add multiple entries.<br>Note To remove an entry, click the icon next to it.<br><img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/31145ba23100f9ee6cc7910bdca2af46.png" width="12" alt=""> |
    | Write speed limit | The maximum write speed. The maximum value is 1,280 MiB/s. The default value, 0, indicates no limit. |
    | Upload speed limit | The maximum upload speed. The maximum value is 1,280 MiB/s. The default value, 0, indicates no limit.<br>Note If speed limits are set, the upload speed limit cannot be less than the write speed limit. |
 
@@ -6407,7 +6407,7 @@ A share is created. For more information, see Create a share.
 
    If the output is similar to the following information, the NFS share is mounted.
 
-   ![](assets/cab2d3ab71a2487eacb9b7ca57399f95.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/cab2d3ab71a2487eacb9b7ca57399f95.jpeg)
 
    > **Note**
    >
@@ -6527,7 +6527,7 @@ An SMB share is created. For more information, see Create a share.
 
    If a window similar to the following one appears, the SMB share is mounted.
 
-   ![](assets/3e6f326f96b734bb9a510b228a8a4542.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3e6f326f96b734bb9a510b228a8a4542.jpeg)
 
 7. Access the share.
 
@@ -6819,7 +6819,7 @@ When ECS users perform read and write operations on virtual disks, the operation
 
 Figure 1. Triplicate backup
 
-![](assets/c250cf0356321af79ae457bef8004df9.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c250cf0356321af79ae457bef8004df9.jpeg)
 
 **How triplicate technology works**
 
@@ -6841,7 +6841,7 @@ When a data node is damaged or disk faults occur on a data node, the number of v
 
 Figure 2. Automatic replication
 
-![](assets/120e7b877bc3303137e9a21432e1941b.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/120e7b877bc3303137e9a21432e1941b.jpeg)
 
 All operations performed by users on data of disks are synchronized across the three chunk copies at the underlying layer. Operations that are synchronized include adding, modifying, and deleting data. This mode ensures the reliability and consistency of user data.
 
@@ -6955,7 +6955,7 @@ Snapshots are created incrementally such that only data changes between two snap
 
 Figure 1. Snapshots
 
-![](assets/c711e1a705eb021cdce315a047568acb.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c711e1a705eb021cdce315a047568acb.jpeg)
 
 Snapshot 1, Snapshot 2, and Snapshot 3 are the first, second, and third snapshots of a disk. When a snapshot is created, the file system checks each block of data stored on the disk, and only copies the blocks of data that differ from those on the previous snapshots. The changes between snapshots in the preceding figure are described as follows:
 
@@ -7019,15 +7019,15 @@ Disk disaster recovery is applicable to the following scenarios:
 
 - Cross-zone disaster recovery
 
-  ![](assets/13b0943ff964a7cdb37a9652728a327a.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/13b0943ff964a7cdb37a9652728a327a.jpeg)
 
 - Cross-region disaster recovery
 
-  ![](assets/a2c66659c1bb3fa5d6338b8f1f4ffa4e.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/a2c66659c1bb3fa5d6338b8f1f4ffa4e.jpeg)
 
 - Cross-cloud disaster recovery
 
-  ![](assets/c24c301f053681a1a5adb4f7ceca82ab.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c24c301f053681a1a5adb4f7ceca82ab.jpeg)
 
 **Replication pair-consistent group**
 
@@ -7037,11 +7037,11 @@ This feature can asynchronously replicate data from primary disks at the product
 
 - Cross-zone disaster recovery in a cloud
 
-  ![](assets/dea253c7f7289b4bfe0fb52753c8d599.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/dea253c7f7289b4bfe0fb52753c8d599.png)
 
 - Cross-cloud disaster recovery
 
-  ![](assets/93e75cb96076c1c9e436a92db9a12bcd.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/93e75cb96076c1c9e436a92db9a12bcd.jpeg)
 
 **Terms**
 
@@ -7551,7 +7551,7 @@ To attach multiple disks to different ECS instances, we recommend that you go to
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Find a disk that you want to attach to an ECS instance, move the pointer over the <img src="assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then select **Attach**.
+4. Find a disk that you want to attach to an ECS instance, move the pointer over the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then select **Attach**.
 
 5. In the **Attach** dialog box, specify the instance and set the release mode.
 
@@ -7842,7 +7842,7 @@ You can view the created disks and their details.
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Select a field from the drop-down list and enter a keyword in the search box. Then, click the <img src="assets/858356c87e85d4cb479bc2b73b57f743.png" width="10" alt=""> icon. The disks that meet the filter condition are
+4. Select a field from the drop-down list and enter a keyword in the search box. Then, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/858356c87e85d4cb479bc2b73b57f743.png" width="10" alt=""> icon. The disks that meet the filter condition are
 
    displayed in the list.
 
@@ -7905,7 +7905,7 @@ You can modify the properties of a created disk, such as the Release Disk with I
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Find the disk that you want to modify, move the pointer over the <img src="assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then select **Modify Disk Properties**.
+4. Find the disk that you want to modify, move the pointer over the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then select **Modify Disk Properties**.
 
 5. In the **Modify Disk Properties** dialog box, modify the Release Mode settings.
 
@@ -7945,7 +7945,7 @@ You can modify the name and description of a created disk.
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Find the disk that you want to modify, move the pointer over the <img src="assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then select **Modify Disk Description**.
+4. Find the disk that you want to modify, move the pointer over the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then select **Modify Disk Description**.
 
 5. In the **Modify Disk Description** dialog box, modify the name and description of the disk.
 
@@ -8014,7 +8014,7 @@ When you resize a disk, take note of the limits described in the following table
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Find the disk that you want to resize, move the pointer over the <img src="assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then select **Resize Disk**.
+4. Find the disk that you want to resize, move the pointer over the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then select **Resize Disk**.
 
 5. Optional. Select a service catalog and click **OK**.
 
@@ -8060,7 +8060,7 @@ The preceding features improve service availability without compromising data re
 
 Premium performance disks can be attached to ECS instances that support NVMe. For example, after premium performance disks are attached to Linux instances based on NVMe, you can run the **lsblk** command to check the device names and partition names of the disks.
 
-![](assets/a4a789c5823b5520f8389409f98df181.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/a4a789c5823b5520f8389409f98df181.png)
 
 Take note of the following parameters in the preceding figure:
 
@@ -8356,7 +8356,7 @@ Before you attach the disk to ECS instances, make sure that the following requir
 
    icon in the **Actions** column corresponding to the disk, and then select **Attach**.
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="13" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="13" alt="">
 
 4. In the **Attach** dialog box, select the ID of the ECS instance obtained in Step 1 from the **Instance** drop-down list and click **OK**.
 
@@ -8485,7 +8485,7 @@ Method 2: Encrypt a custom image and use it to create an ECS instance. The syste
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. On the **Custom Image** tab, find the custom image that you created, move the pointer over the <img src="assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then select
+4. On the **Custom Image** tab, find the custom image that you created, move the pointer over the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then select
 
    **Encrypt Image**.
 
@@ -8613,7 +8613,7 @@ The replica uses the pay-as-you-go billing method.
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. On the Disks page, find the disk that you want to clone, move the pointer over the <img src="assets/2c965bb0b9592221708610f353be3082.png" width="8" alt=""> icon in the **Actions** column, and then select **Clone Disk**.
+4. On the Disks page, find the disk that you want to clone, move the pointer over the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/2c965bb0b9592221708610f353be3082.png" width="8" alt=""> icon in the **Actions** column, and then select **Clone Disk**.
 
 5. In the **Clone Disk** dialog box, enter a value in the **Destination Disk Quantity** field in the Destination Disk Settings step and click **Next**.
 
@@ -8938,7 +8938,7 @@ Before you change the category of a disk, take note of the following items:
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Find the disk whose category you want to change, move the pointer over the <img src="assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then click **Change Disk Category**.
+4. Find the disk whose category you want to change, move the pointer over the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then click **Change Disk Category**.
 
 5. Optional. Select a service catalog and click **OK**.
 
@@ -9006,7 +9006,7 @@ If the data disk is partitioned and file systems on the disk are mounted, perfor
 
    A command output similar to the following one is displayed. In this example, the /dev/vdb1 partition of the data disk is used. In actual scenarios, look up the command output for the data disk partitions whose mount information you want to view.
 
-   ![](assets/f1a2f62906107974aab4b7b777b4de88.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f1a2f62906107974aab4b7b777b4de88.png)
 
 3. Run the umount command to unmount the file systems of the data disk partitions.
 
@@ -9024,7 +9024,7 @@ If the data disk is partitioned and file systems on the disk are mounted, perfor
 
    The following sample command output indicates the UUID of the /dev/vdb1 partition of the data disk.
 
-   ![](assets/8c42c3029ded4f29e93fa6b613d8cc6a.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/8c42c3029ded4f29e93fa6b613d8cc6a.png)
 
 5. Run the following command to check whether the /etc/fstab file contains the automatic mounting configurations of the file systems in the data disk partitions:
 
@@ -9034,7 +9034,7 @@ If the data disk is partitioned and file systems on the disk are mounted, perfor
 
    Find the UUID obtained in the previous step in the command output. The file system mounted to the /dev/vdb1 partition is configured in /etc/fstab, as shown in the following figure.
 
-   ![](assets/21893b9dfc480483202dbbd45e59265f.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/21893b9dfc480483202dbbd45e59265f.png)
 
 6. Delete the automatic mounting configurations of the file systems in the data disk partitions from /etc/fstab.
 
@@ -9070,7 +9070,7 @@ If the data disk is partitioned and file systems on the disk are mounted, perfor
 
    For example, you can add a number sign ( `#` ) before a line that contains automatic mounting configuration to comment out the configuration, as shown in the following figure.
 
-   ![](assets/47acf225cddd89558fa88c540de4f3a0.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/47acf225cddd89558fa88c540de4f3a0.png)
 
    <ol type="i" start="4">
 
@@ -9094,7 +9094,7 @@ If the data disk is partitioned and file systems on the disk are mounted, perfor
 
 2. On the Windows Server desktop, click the **Server Manager** icon in the lower-left corner.
 
-   ![](assets/5e04da404832918529d06d8cb039d91d.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5e04da404832918529d06d8cb039d91d.png)
 
 3. In the upper-right corner of the **Server Manager** window, choose **Tools > Computer Management**.
 
@@ -9102,7 +9102,7 @@ If the data disk is partitioned and file systems on the disk are mounted, perfor
 
 5. Right-click the disk that you want to detach and select **Offline**.
 
-   ![](assets/3b977d05214a98c62cbad556bdb6fa2c.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3b977d05214a98c62cbad556bdb6fa2c.png)
 
 **Step 2: Detach the data disk on the Disks page**
 
@@ -9130,7 +9130,7 @@ You can detach disks from instances on the Disks or ECS Instances page in the EC
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Find the disk that you want to detach, move the pointer over the <img src="assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then select **Detach**.
+4. Find the disk that you want to detach, move the pointer over the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/dce9f8abc6a2655fdac708ee4cbc3e47.png" width="10" alt=""> icon in the **Actions** column, and then select **Detach**.
 
 5. In the message that appears, click **Detach**.
 
@@ -9166,7 +9166,7 @@ You can manually release disks that are no longer needed. When a disk is release
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Find the data disk that you want to release, click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="13" alt=""> icon in the **Actions** column, and then click **Release**.
+4. Find the data disk that you want to release, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="13" alt=""> icon in the **Actions** column, and then click **Release**.
 
 5. Release a disk.
 
@@ -9232,7 +9232,7 @@ When you release a data disk, you can move the disk to the recycle bin and speci
 
 3. In the left-side navigation pane, choose **Storage & Snapshots > Disks**.
 
-4. Find the data disk that you want to release, click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="13" alt=""> icon in the **Actions** column, and then click **Release**.
+4. Find the data disk that you want to release, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="13" alt=""> icon in the **Actions** column, and then click **Release**.
 
 5. In the dialog box that appears, turn on **Move to Recycle Bin** and specify the Retention Period parameter. Valid values: 1 hour to 364 days and 23 hours.
 
@@ -9640,7 +9640,7 @@ You can unshare a snapshot that you no longer need to share with other level -1 
    >
    > You can also find the shared snapshot in the **Shared by Me** list on the **Share Snapshot** tab and click **Share Snapshot** in the **Actions** column.
 
-5. In the **Shared Information** section, find the organization from which you want to unshare the snapshot and click the <img src="assets/bef9dcdc0e023cc873a987ba11371aef.png" width="9" alt=""> icon in the **Actions** column.
+5. In the **Shared Information** section, find the organization from which you want to unshare the snapshot and click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/bef9dcdc0e023cc873a987ba11371aef.png" width="9" alt=""> icon in the **Actions** column.
 
 6. Click **OK**.
 
@@ -9841,7 +9841,7 @@ The calculation of the snapshot chain size takes several minutes, and the size i
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Click the **Snapshot Chain** tab, select a field from the drop-down list, and enter a keyword in the search box. Then, click the <img src="assets/858356c87e85d4cb479bc2b73b57f743.png" width="10" alt=""> icon. The snapshot
+4. Click the **Snapshot Chain** tab, select a field from the drop-down list, and enter a keyword in the search box. Then, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/858356c87e85d4cb479bc2b73b57f743.png" width="10" alt=""> icon. The snapshot
 
    chains that meet the filter condition are displayed in the list.
 
@@ -10399,7 +10399,7 @@ Before you enable the application-consistent snapshot feature for the ECS instan
 
    <li>
 
-   In the ECS instance list, find the instance to which you want to attach the RAM role, click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="13" alt=""> icon in the **Actions** column, and then choose
+   In the ECS instance list, find the instance to which you want to attach the RAM role, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="13" alt=""> icon in the **Actions** column, and then choose
 
    </li>
 
@@ -10681,7 +10681,7 @@ After you create the snapshot-consistent group, go to the ECS Cloud Assistant pa
 
    Click **View** in the Actions column to view the execution details.
 
-   ![](assets/c19a8a31f59d6c370f12c5ce47cc66c9.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c19a8a31f59d6c370f12c5ce47cc66c9.jpeg)
 
    If application-consistent snapshots are created, the return value of **ExitCode** is  `0` . The command output indicates that application-consistent snapshots were created.
 
@@ -11239,7 +11239,7 @@ In this example, an ECS instance that runs Ubuntu 20.04 and on which MySQL 8.1.0
 
    The following command output indicates that the permissions on the script files are correctly configured.
 
-   ![](assets/969c94921348d38d3c18d7a8a7977531.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/969c94921348d38d3c18d7a8a7977531.jpeg)
 
 **Step 3: Attach a RAM role to the instance**
 
@@ -11344,7 +11344,7 @@ Before you enable the application-consistent snapshot feature for the ECS instan
 
    <li>
 
-   In the ECS instance list, find the instance to which you want to attach the RAM role, click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="13" alt=""> icon in the **Actions** column, and then choose
+   In the ECS instance list, find the instance to which you want to attach the RAM role, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="13" alt=""> icon in the **Actions** column, and then choose
 
    </li>
 
@@ -11546,7 +11546,7 @@ This section describes how to check whether application-consistent snapshots are
 
    Click **View** in the Actions column to view the execution details.
 
-   ![](assets/c19a8a31f59d6c370f12c5ce47cc66c9.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c19a8a31f59d6c370f12c5ce47cc66c9.jpeg)
 
    If application-consistent snapshots are created, the return value of **ExitCode** is  `0` . The command output indicates that application-consistent snapshots were created and contains the ID of the snapshot-consistent group, as shown in the preceding figure.
 
@@ -11564,11 +11564,11 @@ This section describes how to check whether application-consistent snapshots are
 
    - In this example, the prescript.sh script started to run at  `2024-08-27 15:27:55` .
 
-     ![](assets/5199bfac15a2553d846b3654c5abdfa4.png)
+     ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5199bfac15a2553d846b3654c5abdfa4.png)
 
    - In this example, the postscript.sh script stopped running at  `2024-08-27 15:27:57` .
 
-     ![](assets/ceba2e23c54aa4b54248a19e7cb1cac4.png)
+     ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ceba2e23c54aa4b54248a19e7cb1cac4.png)
 
 3. View the created snapshot-consistent group and disk snapshots.
 
@@ -11633,7 +11633,7 @@ This section describes how to check whether application-consistent snapshots are
 
    The following query result is returned, which indicates that insert operations were suspended for the database while the prescript.sh and postscript.sh scripts were running from  `2024-08-27 15:27:55`  to  `2024-08-27 15:27:57` . In this case, the application-consistent snapshots can ensure data consistency between the application and the database at the time when the snapshots were created.
 
-   ![](assets/bbca2e75d5ab193ad6a18b65eeddedf5.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/bbca2e75d5ab193ad6a18b65eeddedf5.png)
 
 **Step 7: Check whether application-consistent snapshots can be used to restore data as expected**
 
@@ -11684,7 +11684,7 @@ Use application-consistent snapshots to restore data on the Linux ECS instance. 
 
    The following query result is returned.
 
-   ![](assets/00e02d38683fa2f1075ef20d1bd931b0.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/00e02d38683fa2f1075ef20d1bd931b0.png)
 
    Insert operations were suspended before the database was suspended. In this example, after you use the application-consistent snapshots in the snapshot-consistent group that you created to restore data, the last write time to the MySQL database is  `2024-08-27 15:27:54` . The last write time precedes  `2024-08-27 15:27:55`  obtained in Step 6, which is the time when the prescript.sh script started to run. In this case, the MySQL data was properly backed up in the application-consistent snapshots.
 
@@ -11897,7 +11897,7 @@ Before you enable the application-consistent snapshot feature for the ECS instan
 
    <li>
 
-   In the ECS instance list, find the instance to which you want to attach the RAM role, click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="13" alt=""> icon in the **Actions** column, and then choose
+   In the ECS instance list, find the instance to which you want to attach the RAM role, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="13" alt=""> icon in the **Actions** column, and then choose
 
    </li>
 
@@ -12041,7 +12041,7 @@ This section describes how to check whether application-consistent snapshots are
 
    Click **View** in the Actions column to view the execution details.
 
-   ![](assets/c19a8a31f59d6c370f12c5ce47cc66c9.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c19a8a31f59d6c370f12c5ce47cc66c9.jpeg)
 
    If application-consistent snapshots are created, the return value of **ExitCode** is  `0` . The command output indicates that application-consistent snapshots were created and contains the ID of the snapshot-consistent group, as shown in the preceding figure.
 
@@ -12057,19 +12057,19 @@ This section describes how to check whether application-consistent snapshots are
 
    - Check consistency components. If consistency components do not exist, they are automatically installed.
 
-     ![](assets/8574ba7bf6da74bda08cb9e2e7bd8878.jpeg)
+     ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/8574ba7bf6da74bda08cb9e2e7bd8878.jpeg)
 
    - Automatically recognize and load logical volumes.
 
-     ![](assets/bef575a6062db87828b5b7fcc617ff22.jpeg)
+     ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/bef575a6062db87828b5b7fcc617ff22.jpeg)
 
    - Automatically add the corresponding SQL Server database.
 
-     ![](assets/bad5599d57cc1ecc75210c25946a9504.jpeg)
+     ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/bad5599d57cc1ecc75210c25946a9504.jpeg)
 
    - The time when the system suspended the write operations on the database is  `2025-01-07 10:48:03` .
 
-     ![](assets/2e728de88769286dd168aa65ad498f00.jpeg)
+     ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/2e728de88769286dd168aa65ad498f00.jpeg)
 
 3. View the created snapshot-consistent group and disk snapshots.
 
@@ -12139,7 +12139,7 @@ This section describes how to check whether application-consistent snapshots are
 
    The query results indicate that no write operations were recorded in the database during the suspension period.
 
-   ![](assets/347197708ff3aaeba4e641a71151082c.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/347197708ff3aaeba4e641a71151082c.jpeg)
 
    </li>
 
@@ -12199,7 +12199,7 @@ Use application-consistent snapshots to restore data on the Windows ECS instance
 
    In the query results, find the previous time when data was last written to the SQL Server database after data was restored.
 
-   ![](assets/9d84306a16a773312afd2d564d92849b.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/9d84306a16a773312afd2d564d92849b.jpeg)
 
    Insert operations were suspended before the database was suspended. In this example, after you use the application-consistent snapshots in the snapshot-consistent group that you created to restore data, the last write time to the SQL Server database is  `2025-01-07 10:48:02.443` . The last write time precedes  `2025-01-07 10:48:03`  obtained in Step 4: Check whether application-consistent snapshots are created. In this case, the SQL Server data was properly backed up in the application-consistent snapshots.
 
@@ -12302,7 +12302,7 @@ You can search for and view the created automatic snapshot policies.
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Select a field from the drop-down list and enter a keyword in the search box. Then, click the <img src="assets/858356c87e85d4cb479bc2b73b57f743.png" width="10" alt=""> icon. The automatic snapshot policies that meet the
+4. Select a field from the drop-down list and enter a keyword in the search box. Then, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/858356c87e85d4cb479bc2b73b57f743.png" width="10" alt=""> icon. The automatic snapshot policies that meet the
 
    filter condition are displayed in the list.
 
@@ -13043,7 +13043,7 @@ We recommend that you create a temporary ECS instance in advance in the region a
 
    icon in the **Actions** column, and then click **Perform Failover**.
 
-   <img src="assets/e7b9f245cd946f01afaf7b84e4729d1f.jpeg" width="9" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/e7b9f245cd946f01afaf7b84e4729d1f.jpeg" width="9" alt="">
 
 3. In the **Are you sure that you want to perform a failover?** message, read the notes and click **OK**.
 
@@ -13057,7 +13057,7 @@ We recommend that you create a temporary ECS instance in advance in the region a
    >
    >   icon and click **Cancel Failover**. In the message that appears, click
    >
-   >   <img src="assets/e7b9f245cd946f01afaf7b84e4729d1f.jpeg" width="9" alt="">
+   >   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/e7b9f245cd946f01afaf7b84e4729d1f.jpeg" width="9" alt="">
    >
    >   **OK**.
 
@@ -13075,7 +13075,7 @@ After the primary disk recovers, you can use the reverse replication feature to 
 
    icon
 
-   <img src="assets/07b314389b2441f142fc67ab45becea8.jpeg" width="9" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/07b314389b2441f142fc67ab45becea8.jpeg" width="9" alt="">
 
    in the **Actions** column, and then click **Perform Reverse Replication**.
 
@@ -13115,7 +13115,7 @@ After the primary disk recovers, you can use the reverse replication feature to 
 
    icon in the Actions column, click **Perform**
 
-   <img src="assets/07b314389b2441f142fc67ab45becea8.jpeg" width="9" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/07b314389b2441f142fc67ab45becea8.jpeg" width="9" alt="">
 
    **Failover**, and then click **Perform Reverse Replication**.
 
@@ -13193,7 +13193,7 @@ When you delete a replication pair, take note of the following items:
 
 6. Delete the replication pair.
 
-   In the replication pair list, find the replication pair that you want to delete, move the pointer over the <img src="assets/e7b9f245cd946f01afaf7b84e4729d1f.jpeg" width="9" alt=""> icon in the **Actions** column, click **Delete**,
+   In the replication pair list, find the replication pair that you want to delete, move the pointer over the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/e7b9f245cd946f01afaf7b84e4729d1f.jpeg" width="9" alt=""> icon in the **Actions** column, click **Delete**,
 
    and then follow the on-screen instructions to complete the operation.
 
@@ -13777,7 +13777,7 @@ We recommend that you create temporary ECS instances in advance in the region an
 
 2. On the **Production Site** tab of the **Replication Pair-Consistent Group** page, find the replication pair-consistent group to which the faulty
 
-   production site belongs, move the pointer over the <img src="assets/71a64d73b397e01c74981732179028a9.png" width="9" alt=""> icon in the **Actions** column, and then click **Failover**.
+   production site belongs, move the pointer over the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/71a64d73b397e01c74981732179028a9.png" width="9" alt=""> icon in the **Actions** column, and then click **Failover**.
 
 3. In the **Are you sure that you want to perform a failover?** message, read the notes and click **OK**.
 
@@ -13795,7 +13795,7 @@ After the primary disks recover, you can use the reverse replication feature to 
 
    icon in the **Actions** column, and then click **Reverse replication**.
 
-   <img src="assets/71a64d73b397e01c74981732179028a9.png" width="12" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/71a64d73b397e01c74981732179028a9.png" width="12" alt="">
 
    > **Note**
    >
@@ -13835,7 +13835,7 @@ After the primary disks recover, you can use the reverse replication feature to 
 
    in the **Actions** column,
 
-   <img src="assets/07b314389b2441f142fc67ab45becea8.jpeg" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/07b314389b2441f142fc67ab45becea8.jpeg" width="10" alt="">
 
    click **Failover**, and then click **Reverse replication**.
 
@@ -13919,7 +13919,7 @@ The replication pair-consistent group to be deleted must be in the **Created**, 
 
 7. Delete the replication pair-consistent group.
 
-   <img src="assets/e7b9f245cd946f01afaf7b84e4729d1f.jpeg" width="16" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/e7b9f245cd946f01afaf7b84e4729d1f.jpeg" width="16" alt="">
 
    In the replication pair-consistent group list, find the replication pair-consistent group that you want to delete, move the pointer over the
 
@@ -14121,7 +14121,7 @@ This topic describes how to view the created storage sets and their details.
 
    icon. The storage
 
-   <img src="assets/858356c87e85d4cb479bc2b73b57f743.png" width="11" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/858356c87e85d4cb479bc2b73b57f743.png" width="11" alt="">
 
    sets that meet the filter condition are displayed.
 
@@ -14556,7 +14556,7 @@ The following figure shows the procedure.
 
 Figure 1. Procedure
 
-![](assets/910a685f9123fea02018bf2fc9bba5b4.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/910a685f9123fea02018bf2fc9bba5b4.png)
 
 1. Optional. Obtain an AccessKey pair.
 
@@ -14688,7 +14688,7 @@ A log group is a collection of logs. A log group is the basic unit that is used 
 
 When you write logs to or read logs from Log Service, multiple logs are encapsulated into a log group. This way, you can write and read logs by log group. This method can reduce the number of read and write operations and improve business efficiency. The maximum length of a log group is 5 MB.
 
-![](assets/757383e7a1d7fb830d26ad4a2a6316e1.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/757383e7a1d7fb830d26ad4a2a6316e1.png)
 
 <a id="section-4-2-2-4"></a>
 
@@ -14846,7 +14846,7 @@ If you do not need to identify logs in a Logstore, set the topic to Null - Do no
 
 The following figure shows the relationships between Logstores, topics, and shards.
 
-![](assets/5bc816c0a83f40d0e6b94e991143f0e7.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5bc816c0a83f40d0e6b94e991143f0e7.png)
 
 <a id="section-4-2-3"></a>
 
@@ -15005,7 +15005,7 @@ A project is created. For more information, see Manage a project.
 
    **> Modify**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 2. In the upper-right corner of the **Metricstore Attribute** page, click **Modify**.
 
@@ -15031,7 +15031,7 @@ A project is created. For more information, see Manage a project.
 
    **> Delete**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
    > **Warning**
    >
@@ -15067,7 +15067,7 @@ A Logstore in Simple Log Service is used to collect, store, and query logs. This
 
    icon.
 
-   <img src="assets/13879f8fce895a842d9848ad09a1c10c.png" width="9" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/13879f8fce895a842d9848ad09a1c10c.png" width="9" alt="">
 
 4. In the **Create Logstore** panel, configure the following parameters and click **OK**.
 
@@ -15091,7 +15091,7 @@ A Logstore in Simple Log Service is used to collect, store, and query logs. This
 
    icon, and then select **Modify**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 3. On the **Logstore Attributes** page, click **Modify**.
 
@@ -15115,7 +15115,7 @@ If you no longer require a Logstore, you can delete the Logstore in the Simple L
 
    icon, and then select **Delete**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
    > **Warning**
    >
@@ -15160,7 +15160,7 @@ Each shard supports a write speed of up to 5 MB/s and a read speed of up to 10 M
 
    icon, and then select **Modify**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. On the **Logstore Attributes** page, click **Modify**.
 
@@ -15170,7 +15170,7 @@ Each shard supports a write speed of up to 5 MB/s and a read speed of up to 10 M
    >
    > You can split only a shard that is in the readwrite state.
 
-   ![](assets/1df02cfa7611a6482b123964cdc8cb56.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/1df02cfa7611a6482b123964cdc8cb56.png)
 
 6. Select the number of new shards that you want to generate after the original shard is split.
 
@@ -15214,13 +15214,13 @@ You can click Merge in the Actions column of a shard to merge shards. Log Servic
 
    icon, and then select **Modify**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. On the **Logstore Attributes** page, click **Modify**.
 
 5. Find the shard that you want to merge and click **Merge** in the Actions column.
 
-   ![](assets/1df02cfa7611a6482b123964cdc8cb56.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/1df02cfa7611a6482b123964cdc8cb56.png)
 
 6. Click **Save**.
 
@@ -15646,7 +15646,7 @@ Logtail is a log collection agent that is provided by Log Service. You can use L
 
 Figure 1. Logtail-based log collection
 
-![](assets/e234f51986f9cdfdcb1017ee28e32a4f.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/e234f51986f9cdfdcb1017ee28e32a4f.png)
 
 **Benefits**
 
@@ -15668,7 +15668,7 @@ For more information about the limits of Logtail, see Limitations.
 
 **Configuration process**
 
-![](assets/767cd3210791dcbbbec33a144d925133.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/767cd3210791dcbbbec33a144d925133.png)
 
 To collect logs from servers by using Logtail, perform the following steps:
 
@@ -17443,7 +17443,7 @@ If you want to collect logs from servers, you must create a machine group and ad
 
    The following figure shows how to view the IP address of a Linux server.
 
-   ![](assets/948cc144d174faf5ba4877beafa382d4.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/948cc144d174faf5ba4877beafa382d4.jpeg)
 
 2. Log on to the Simple Log Service console.
 
@@ -17455,7 +17455,7 @@ If you want to collect logs from servers, you must create a machine group and ad
 
    icon next to Machine Groups and select **Create machine group**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
    You can also create a machine group in the data import wizard.
 
@@ -17488,7 +17488,7 @@ If you want to collect logs from servers, you must create a machine group and ad
    >
    > The creation process of a machine group requires approximately 2 minutes to complete. If the creation process is not complete, the heartbeat status is **FAIL**. In this case, click **Refresh** 2 minutes later.
 
-   ![](assets/0e75b3f0e51249de989251950a18d080.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/0e75b3f0e51249de989251950a18d080.jpeg)
 
    </li>
 
@@ -17498,7 +17498,7 @@ If you want to collect logs from servers, you must create a machine group and ad
 
 You can view the created machine group in the Machine Groups list.
 
-![](assets/1761f7ff700b0cc9b11fd3c502ae8a4d.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/1761f7ff700b0cc9b11fd3c502ae8a4d.png)
 
 <a id="section-4-3-1-3-4"></a>
 
@@ -17582,7 +17582,7 @@ Custom identifier-based machine groups provide benefits in the following scenari
 
    icon to the right of **Machine Groups** and select **Create Machine Group**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
    </li>
 
@@ -17615,7 +17615,7 @@ Custom identifier-based machine groups provide benefits in the following scenari
 
    On the machine group configuration page, you can view the server list and the heartbeat status of the servers in the **Server Group Status** section.
 
-   ![](assets/2b7d189cfe2d2e60979dcc7ca9d50c2d.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/2b7d189cfe2d2e60979dcc7ca9d50c2d.png)
 
    - The Server Group Status section displays the IP addresses of the servers whose custom identifier is the same.
 
@@ -17698,7 +17698,7 @@ This topic describes how to view the server groups of a project on the **Server 
 
    You can view all server groups of the project.
 
-   ![](assets/4b0c4d0963df0be75489b3e75b888bba.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/4b0c4d0963df0be75489b3e75b888bba.jpeg)
 
 <a id="section-4-3-1-3-6"></a>
 
@@ -17760,17 +17760,17 @@ This topic describes how to delete a machine group in the Log Service console. Y
 
    icon. The Machine Groups list is displayed.
 
-   <img src="assets/4f6a1cc8ba29c89ae7cb279b27895950.png" width="14" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/4f6a1cc8ba29c89ae7cb279b27895950.png" width="14" alt="">
 
 4. In the Machine Groups list, find the machine group that you want to delete, click the
 
    icon next to the machine group, and then select **Delete**.
 
-   <img src="assets/18f202c8db454e6be70fffb4b4bcbe59.png" width="13" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/18f202c8db454e6be70fffb4b4bcbe59.png" width="13" alt="">
 
 5. In the message that appears, click **OK**.
 
-   ![](assets/563b228f2e802e199d67396bb6821ef9.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/563b228f2e802e199d67396bb6821ef9.png)
 
 <a id="section-4-3-1-3-9"></a>
 
@@ -17802,7 +17802,7 @@ You can change the log collection mode of the Logtail configuration, and then ap
 
 **Delete a Logtail configuration**
 
-In the **Logtail Configurations** list, click the <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt=""> icon next to the Logtail configuration that you want to delete and select **Delete**.
+In the **Logtail Configurations** list, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt=""> icon next to the Logtail configuration that you want to delete and select **Delete**.
 
 > **Warning**
 >
@@ -17826,7 +17826,7 @@ A project and a Logstore are created. For more information, see Create a project
 
 Simple Log Service provides a configuration wizard that you can use to configure log collection.
 
-![](assets/6ca9bc0ebffe7cdbe1c755cf06c1f1b3.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/6ca9bc0ebffe7cdbe1c755cf06c1f1b3.png)
 
 **Collection modes**
 
@@ -17874,7 +17874,7 @@ Logtail allows you to collect text logs in the following modes: simple mode, ful
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**.
 
@@ -18004,7 +18004,7 @@ In simple mode, you can collect the following types of text logs:
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**. After approximately 1 minute, the Logtail configuration takes effect, and Simple Log Service starts to collect incremental logs.
 
@@ -18083,7 +18083,7 @@ If you need to perform more personalized field extraction from log content (for 
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Click **Next**. After approximately one minute, the Logtail configuration takes effect and Simple Log Service starts collecting new logs.
 
@@ -18173,7 +18173,7 @@ Simple Log Service allows you to collect logs in delimiter mode. After logs are 
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**. After approximately 1 minute, the Logtail configuration takes effect, and Simple Log Service starts to collect incremental logs.
 
@@ -18330,7 +18330,7 @@ gQ7b1c%3D HTTP/1.1", "ip": "10.200.98.210", "user-agent": "aliyun-sdk-java", "re
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**. After approximately 1 minute, the Logtail configuration takes effect, and Simple Log Service starts to collect incremental logs.
 
@@ -18413,7 +18413,7 @@ NGINX logs record important information that can be used for website O&M. Simple
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**.
 
@@ -18515,7 +18515,7 @@ Simple Log Service allows you to collect Internet Information Services (IIS) log
 
   We recommend that you use the W3C Extended log format. If you select the W3C Extended format, you must configure log fields beforehand. To configure log fields, you must select **Bytes Sent (sc-bytes)** and **Bytes Received (cs-bytes)** in the W3C Logging Fields dialog box and retain the default settings for other fields.
 
-  ![](assets/a145706f32be32d364d962a476aeeee6.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/a145706f32be32d364d962a476aeeee6.png)
 
 **Procedure**
 
@@ -18543,7 +18543,7 @@ Simple Log Service allows you to collect Internet Information Services (IIS) log
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**. After approximately 1 minute, the Logtail configuration takes effect, and Simple Log Service starts to collect incremental logs.
 
@@ -18678,7 +18678,7 @@ Simple Log Service allows you to collect Apache logs and analyze logs from multi
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**. After approximately 1 minute, the Logtail configuration takes effect, and Simple Log Service starts to collect incremental logs.
 
@@ -18819,7 +18819,7 @@ The preceding Java application log starts with a datetime value. To ensure the a
 
 Figure 1. Full regex mode
 
-![](assets/bb27839ce6950af25f3b67a3cd55103b.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/bb27839ce6950af25f3b67a3cd55103b.png)
 
 **Extract log fields**
 
@@ -19259,13 +19259,13 @@ Install the Logtail component when you create an ACK cluster
 
      You can select an existing project to manage the container logs that are collected.
 
-     ![](assets/298556a96ce12bb6875128f44b356a3a.png)
+     ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/298556a96ce12bb6875128f44b356a3a.png)
 
    - **Create Project**
 
      Log Service automatically creates a project named  `k8s-log-{ClusterID}`  to manage the container logs that are collected.  `ClusterID`  indicates the unique ID of the ACK cluster that is created.
 
-     ![](assets/40a0b04c4f91f57b7608361d6ea40096.png)
+     ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/40a0b04c4f91f57b7608361d6ea40096.png)
 
    After the component is installed, a machine group named  `k8s-group-${your_k8s_cluster_id}`  and a Logstore named  `config-operation-log`  are automatically created in the project that you use.
 
@@ -19635,10 +19635,10 @@ Logtail can collect container text logs, and then upload the text logs together 
 
      | Parameter | Description |
      | --- | --- |
-     | Label Whitelist | The container label whitelist. The whitelist specifies the containers from which text logs are collected. When you configure the container label whitelist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose container labels contain the keys specified by LabelKey are matched.<br>• If the LabelValue parameter is not empty, containers whose container labels consist of the key-value pairs specified by LabelKey and LabelValue are matched.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the container labels are the same as the values of the LabelValue parameter. If you specify a value that<br>![](assets/1bf883a6c4a10f06a53b950235858b6c.png)<br>![](assets/a9df40161401532b470aa4889a2487aa.png)<br>starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the LabelValue parameter, regular expression matching is performed. For example, if you set the LabelKey parameter to <code>io.kubernetes.container.name</code> and set the LabelValue parameter to <code>^(nginx&#124;cube)$</code>, a container named nginx and a container named cube are matched.<br>Key-value pairs are connected by using the OR operator. If a container label consists of one of the specified key-value pairs, the container to which the container label belongs is matched. |
-     | Label Blacklist | The container label blacklist. The blacklist specifies the containers from which text logs are not collected. When you configure the container label blacklist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose container labels contain the keys specified by LabelKey are filtered out.<br>• If the LabelValue parameter is not empty, containers whose container labels consist of the key-value pairs specified by LabelKey and LabelValue are filtered out.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the container labels are the same as the values of the LabelValue parameter. If you specify a value that<br>![](assets/1bf883a6c4a10f06a53b950235858b6c.png)<br>![](assets/a9df40161401532b470aa4889a2487aa.png)<br>starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the LabelValue parameter, regular expression matching is performed. For example, if you set the LabelKey parameter to <code>io.kubernetes.container.name</code> and set the LabelValue parameter to <code>^(nginx&#124;cube)$</code>, a container named nginx and a container named cube are matched.<br>Key-value pairs are connected by using the OR operator. If a container label consists of one of the specified key-value pairs, the container to which the container label belongs is filtered out. |
-     | Environment Variable Whitelist | The environment variable whitelist. The whitelist specifies the containers from which text logs are collected. When you configure the environment variable whitelist, the EnvKey parameter is required, and the EnvValue parameter is optional.<br>• If the EnvValue parameter is empty, containers whose environment variables contain the keys specified by EnvKey are matched.<br>• If the EnvValue parameter is not empty, containers whose environment variables consist of the key-value pairs specified by EnvKey and EnvValue are matched.By default, string matching is performed for the values of the EnvValue parameter. Containers are matched only if the values of the environment variables are the same as the values of the EnvValue parameter. If you specify a value that<br>![](assets/fd4419fcd7768f8e02537313de045507.png)<br>starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the EnvValue parameter, regular expression matching is performed. For example, if you set the EnvKey parameter to <code>NGINX_SERVICE_PORT</code> and set the EnvValue parameter to <code>^(80&#124;6379)$</code>, containers whose port number is 80 and containers whose port number is 6379 are matched.<br>Key-value pairs are connected by using the OR operator. If an environment variable consists of one of the specified key-value pairs, the container to which the environment variable belongs is matched. |
-     | Environment Variable Blacklist | The environment variable blacklist. The blacklist specifies the containers from which text logs are not collected. When you configure the environment variable blacklist, the EnvKey parameter is required, and the EnvValue parameter is optional.<br>• If the EnvValue parameter is empty, containers whose environment variables contain the keys specified by EnvKey are filtered out.<br>• If the EnvValue parameter is not empty, containers whose environment variables consist of the key-value pairs specified by EnvKey and EnvValue are filtered out.By default, string matching is performed for the values of the EnvValue parameter. Containers are matched only if the values of the environment variables are the same as the values of the EnvValue parameter. If you specify a value that<br>![](assets/5f48eb80212eb29b931ac390ba294b0b.png)<br>starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the EnvValue parameter, regular expression matching is performed. For example, if you set the EnvKey parameter to <code>NGINX_SERVICE_PORT</code> and set the EnvValue parameter to <code>^(80&#124;6379)$</code>, containers whose port number is 80 and containers whose port number is 6379 are matched.<br>Key-value pairs are connected by using the OR operator. If an environment variable consists of one of the specified key-value pairs, the container to which the environment variable belongs is filtered out. |
+     | Label Whitelist | The container label whitelist. The whitelist specifies the containers from which text logs are collected. When you configure the container label whitelist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose container labels contain the keys specified by LabelKey are matched.<br>• If the LabelValue parameter is not empty, containers whose container labels consist of the key-value pairs specified by LabelKey and LabelValue are matched.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the container labels are the same as the values of the LabelValue parameter. If you specify a value that<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/1bf883a6c4a10f06a53b950235858b6c.png)<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/a9df40161401532b470aa4889a2487aa.png)<br>starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the LabelValue parameter, regular expression matching is performed. For example, if you set the LabelKey parameter to <code>io.kubernetes.container.name</code> and set the LabelValue parameter to <code>^(nginx&#124;cube)$</code>, a container named nginx and a container named cube are matched.<br>Key-value pairs are connected by using the OR operator. If a container label consists of one of the specified key-value pairs, the container to which the container label belongs is matched. |
+     | Label Blacklist | The container label blacklist. The blacklist specifies the containers from which text logs are not collected. When you configure the container label blacklist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose container labels contain the keys specified by LabelKey are filtered out.<br>• If the LabelValue parameter is not empty, containers whose container labels consist of the key-value pairs specified by LabelKey and LabelValue are filtered out.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the container labels are the same as the values of the LabelValue parameter. If you specify a value that<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/1bf883a6c4a10f06a53b950235858b6c.png)<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/a9df40161401532b470aa4889a2487aa.png)<br>starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the LabelValue parameter, regular expression matching is performed. For example, if you set the LabelKey parameter to <code>io.kubernetes.container.name</code> and set the LabelValue parameter to <code>^(nginx&#124;cube)$</code>, a container named nginx and a container named cube are matched.<br>Key-value pairs are connected by using the OR operator. If a container label consists of one of the specified key-value pairs, the container to which the container label belongs is filtered out. |
+     | Environment Variable Whitelist | The environment variable whitelist. The whitelist specifies the containers from which text logs are collected. When you configure the environment variable whitelist, the EnvKey parameter is required, and the EnvValue parameter is optional.<br>• If the EnvValue parameter is empty, containers whose environment variables contain the keys specified by EnvKey are matched.<br>• If the EnvValue parameter is not empty, containers whose environment variables consist of the key-value pairs specified by EnvKey and EnvValue are matched.By default, string matching is performed for the values of the EnvValue parameter. Containers are matched only if the values of the environment variables are the same as the values of the EnvValue parameter. If you specify a value that<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/fd4419fcd7768f8e02537313de045507.png)<br>starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the EnvValue parameter, regular expression matching is performed. For example, if you set the EnvKey parameter to <code>NGINX_SERVICE_PORT</code> and set the EnvValue parameter to <code>^(80&#124;6379)$</code>, containers whose port number is 80 and containers whose port number is 6379 are matched.<br>Key-value pairs are connected by using the OR operator. If an environment variable consists of one of the specified key-value pairs, the container to which the environment variable belongs is matched. |
+     | Environment Variable Blacklist | The environment variable blacklist. The blacklist specifies the containers from which text logs are not collected. When you configure the environment variable blacklist, the EnvKey parameter is required, and the EnvValue parameter is optional.<br>• If the EnvValue parameter is empty, containers whose environment variables contain the keys specified by EnvKey are filtered out.<br>• If the EnvValue parameter is not empty, containers whose environment variables consist of the key-value pairs specified by EnvKey and EnvValue are filtered out.By default, string matching is performed for the values of the EnvValue parameter. Containers are matched only if the values of the environment variables are the same as the values of the EnvValue parameter. If you specify a value that<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5f48eb80212eb29b931ac390ba294b0b.png)<br>starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the EnvValue parameter, regular expression matching is performed. For example, if you set the EnvKey parameter to <code>NGINX_SERVICE_PORT</code> and set the EnvValue parameter to <code>^(80&#124;6379)$</code>, containers whose port number is 80 and containers whose port number is 6379 are matched.<br>Key-value pairs are connected by using the OR operator. If an environment variable consists of one of the specified key-value pairs, the container to which the environment variable belongs is filtered out. |
 
    - For Logtail V1.0.29 or later, we recommend that you use different levels of Kubernetes information, such as pod names, namespaces, container names, and labels to filter containers.
 
@@ -19653,8 +19653,8 @@ Logtail can collect container text logs, and then upload the text logs together 
      | K8s Pod Name Regular Matching | The pod name. The pod name specifies the containers from which text logs are collected. Regular expression matching is supported. For example, if you specify <code>^(nginx-log-demo.*)$</code>, all containers in the pod whose name starts with nginx-log-demo are matched. |
      | K8s Namespace Regular Matching | The namespace. The namespace specifies the containers from which text logs are collected. Regular expression matching is supported. For example, if you specify <code>^(default&#124;nginx)$</code>, all containers in the nginx and default namespaces are matched. |
      | K8s Container Name Regular Matching | The container name. The container name specifies the containers from which text logs are collected. Regular expression matching is supported. Kubernetes container names are defined in spec.containers. For example, if you specify <code>^(container-test)$</code>, all containers whose name is container-test are matched. |
-     | K8s Label Whitelist | The Kubernetes label whitelist. The whitelist specifies the containers from which text logs are collected. When you configure the Kubernetes label whitelist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose Kubernetes labels contain the keys specified by LabelKey are matched.<br>• If the LabelValue parameter is not empty, containers whose Kubernetes labels consist of the key-value pairs specified by LabelKey and LabelValue are matched.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the Kubernetes labels are the same as the values of the LabelValue parameter. If you<br>![](assets/1dc4dd2fc487d7f708ae2e8a466b23ff.png)<br>specify a value that starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>), regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>app</code> and set the <strong>LabelValue</strong> parameter to <code>^(test1&#124;test2)$</code>, containers whose Kubernetes labels consist of app:test1 or app:test2 are matched.<br>Key-value pairs are connected by using the OR operator. If a Kubernetes label consists of one of the specified key-value pairs, the container to which the Kubernetes label belongs is matched. |
-     | K8s Label Blacklist | The Kubernetes label blacklist. The blacklist specifies the containers from which text logs are not collected. When you configure the Kubernetes label blacklist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose Kubernetes labels contain the keys specified by LabelKey are filtered out.<br>• If the LabelValue parameter is not empty, containers whose Kubernetes labels consist of the key-value pairs specified by LabelKey and LabelValue are filtered out.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the Kubernetes labels are the same as the values of the LabelValue parameter. If you<br>![](assets/6afe967c5556fd5f5ab18d8ba33706d1.png)<br>specify a value that starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>), regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>app</code> and set the <strong>LabelValue</strong> parameter to <code>^(test1&#124;test2)$</code>, regular expression matching is performed.<br>Key-value pairs are connected by using the OR operator. If a Kubernetes label consists of one of the specified key-value pairs, the container to which the Kubernetes label belongs is filtered out. |
+     | K8s Label Whitelist | The Kubernetes label whitelist. The whitelist specifies the containers from which text logs are collected. When you configure the Kubernetes label whitelist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose Kubernetes labels contain the keys specified by LabelKey are matched.<br>• If the LabelValue parameter is not empty, containers whose Kubernetes labels consist of the key-value pairs specified by LabelKey and LabelValue are matched.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the Kubernetes labels are the same as the values of the LabelValue parameter. If you<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/1dc4dd2fc487d7f708ae2e8a466b23ff.png)<br>specify a value that starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>), regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>app</code> and set the <strong>LabelValue</strong> parameter to <code>^(test1&#124;test2)$</code>, containers whose Kubernetes labels consist of app:test1 or app:test2 are matched.<br>Key-value pairs are connected by using the OR operator. If a Kubernetes label consists of one of the specified key-value pairs, the container to which the Kubernetes label belongs is matched. |
+     | K8s Label Blacklist | The Kubernetes label blacklist. The blacklist specifies the containers from which text logs are not collected. When you configure the Kubernetes label blacklist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose Kubernetes labels contain the keys specified by LabelKey are filtered out.<br>• If the LabelValue parameter is not empty, containers whose Kubernetes labels consist of the key-value pairs specified by LabelKey and LabelValue are filtered out.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the Kubernetes labels are the same as the values of the LabelValue parameter. If you<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/6afe967c5556fd5f5ab18d8ba33706d1.png)<br>specify a value that starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>), regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>app</code> and set the <strong>LabelValue</strong> parameter to <code>^(test1&#124;test2)$</code>, regular expression matching is performed.<br>Key-value pairs are connected by using the OR operator. If a Kubernetes label consists of one of the specified key-value pairs, the container to which the Kubernetes label belongs is filtered out. |
 
    </li>
 
@@ -19687,13 +19687,13 @@ Collect text logs from the containers whose environment variable configurations 
 
    To view the environment variables of a container, you can log on to the host on which the container resides.
 
-   ![](assets/6f9c3d8ee2887ff4d8d17e4a015d428f.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/6f9c3d8ee2887ff4d8d17e4a015d428f.png)
 
 2. Create a Logtail configuration.
 
    The following figure shows an example of a Logtail configuration. For more information about how to create a Logtail configuration that is used to collect logs in simple mode, see Collect logs in simple mode.
 
-   ![](assets/7dd7a703453491b22566ffdbdd97f9c7.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7dd7a703453491b22566ffdbdd97f9c7.png)
 
 **Example 2: Filter containers based on the container label whitelist and the container label blacklist**
 
@@ -19703,13 +19703,13 @@ Collect text logs from the containers whose container label is  `io.kubernetes.c
 
    To view the container labels of a container, you can log on to the host on which the container resides.
 
-   ![](assets/5de14e65d6fb634c53670793f1da4e00.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5de14e65d6fb634c53670793f1da4e00.png)
 
 2. Create a Logtail configuration.
 
    The following figure shows an example of a Logtail configuration. For more information about how to create a Logtail configuration that is used to collect logs in simple mode, see Collect logs in simple mode.
 
-   ![](assets/a61d19ba1ff476b7edd78beaca8c3f11.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/a61d19ba1ff476b7edd78beaca8c3f11.png)
 
 **Example 3: Filter containers by using Kubernetes namespaces, pod names, and container names**
 
@@ -19719,11 +19719,11 @@ Collect text logs from the nginx-log-demo-0 container in pods whose name starts 
 
    - Obtain information about pods.
 
-     ![](assets/4f8d75944551a1ca1baf66ff2e7ea85c.jpeg)
+     ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/4f8d75944551a1ca1baf66ff2e7ea85c.jpeg)
 
    - Obtain information about namespaces.
 
-     ![](assets/be117366fa867b9b16fadc79967aee27.jpeg)
+     ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/be117366fa867b9b16fadc79967aee27.jpeg)
 
 2. Create a Logtail configuration.
 
@@ -19735,7 +19735,7 @@ Collect text logs from containers whose Kubernetes labels contain the job-name k
 
 1. Obtain Kubernetes labels.
 
-   ![](assets/b57483ac1773df7032af8171b0bf2af8.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b57483ac1773df7032af8171b0bf2af8.jpeg)
 
 2. Create a Logtail configuration.
 
@@ -19907,16 +19907,16 @@ When Logtail collects stdout and stderr from a container, Logtail periodically s
 
        | Parameter | Type | Required | Description |
        | --- | --- | --- | --- |
-       | IncludeLabel | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | The container label whitelist. The whitelist specifies the containers from which stdout and stderr are collected. This parameter is empty by default, which indicates that stdout and stderr are collected from all containers. When you configure the container label whitelist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose container labels contain the keys specified by LabelKey are matched.<br>• If the LabelValue parameter is not empty, containers whose container labels consist of the key-value pairs specified by LabelKey and LabelValue are matched.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the container labels are the same as the values of the LabelValue parameter. If you specify a value that starts<br>![](assets/52972cc25ef74bc92958dd67cb1ef26c.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the LabelValue parameter, regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>io.kubernetes.container.name</code> and set the <strong>LabelValue</strong> parameter to <code>^(nginx&#124;cube)$</code>, a container named nginx and a container named cube are matched.Key-value pairs are connected by using the OR operator. If a container label consists of one of the specified key-value pairs, the container to which the container label belongs is matched. |
-       | ExcludeLabel | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | The container label blacklist. The blacklist specifies the containers from which stdout and stderr are not collected. This parameter is empty by default, which indicates that stdout and stderr are collected from all containers. When you configure the container label blacklist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose container labels contain the keys specified by LabelKey are filtered out.<br>• If the LabelValue parameter is not empty, containers whose container labels consist of the key-value pairs specified by LabelKey and LabelValue are filtered out.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the container labels are the same as the values of the LabelValue parameter. If you specify a value that starts<br>![](assets/f140863bd09501c0f1d7c6792839d08d.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the LabelValue parameter, regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>io.kubernetes.container.name</code> and set the <strong>LabelValue</strong> parameter to <code>^(nginx&#124;cube)$</code>, a container named nginx and a container named cube are matched.Key-value pairs are connected by using the OR operator. If a container label consists of one of the specified key-value pairs, the container to which the container label belongs is filtered out. |
-       | IncludeEnv | Map (The values of the EnvKey and EnvValue parameters are strings.) | No | The environment variable whitelist. The whitelist specifies the containers from which stdout and stderr are collected. This parameter is empty by default, which indicates that stdout and stderr are collected from all containers. When you configure the environment variable whitelist, the EnvKey parameter is required, and the EnvValue parameter is optional.<br>• If the EnvValue parameter is empty, containers whose environment variables contain the keys specified by EnvKey are matched.<br>• If the EnvValue parameter is not empty, containers whose environment variables consist of the key-value pairs specified by EnvKey and EnvValue are matched.By default, string matching is performed for the values of the EnvValue parameter.Containers are matched only if the values of the environment variables are the same as the values of the EnvValue parameter. If you specify a value that starts<br>![](assets/316ed6e49e4fde209e9a0f88eca8b388.png)<br>![](assets/c909ff32cca1582dd35f30124971e07b.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the EnvValue parameter, regular expression matching is performed. For example, if you set the <strong>EnvKey</strong> parameter to <code>NGINX_SERVICE_PORT</code> and set the <strong>EnvValue</strong> parameter to <code>^(80&#124;6379)$</code>, containers whose port number is 80 and containers whose port number is 6379 are matched.Key-value pairs are connected by using the OR operator. If an environment variable consists of one of the specified key-value pairs, the container to which the environment variable belongs is matched. |
+       | IncludeLabel | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | The container label whitelist. The whitelist specifies the containers from which stdout and stderr are collected. This parameter is empty by default, which indicates that stdout and stderr are collected from all containers. When you configure the container label whitelist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose container labels contain the keys specified by LabelKey are matched.<br>• If the LabelValue parameter is not empty, containers whose container labels consist of the key-value pairs specified by LabelKey and LabelValue are matched.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the container labels are the same as the values of the LabelValue parameter. If you specify a value that starts<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/52972cc25ef74bc92958dd67cb1ef26c.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the LabelValue parameter, regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>io.kubernetes.container.name</code> and set the <strong>LabelValue</strong> parameter to <code>^(nginx&#124;cube)$</code>, a container named nginx and a container named cube are matched.Key-value pairs are connected by using the OR operator. If a container label consists of one of the specified key-value pairs, the container to which the container label belongs is matched. |
+       | ExcludeLabel | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | The container label blacklist. The blacklist specifies the containers from which stdout and stderr are not collected. This parameter is empty by default, which indicates that stdout and stderr are collected from all containers. When you configure the container label blacklist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose container labels contain the keys specified by LabelKey are filtered out.<br>• If the LabelValue parameter is not empty, containers whose container labels consist of the key-value pairs specified by LabelKey and LabelValue are filtered out.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the container labels are the same as the values of the LabelValue parameter. If you specify a value that starts<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f140863bd09501c0f1d7c6792839d08d.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the LabelValue parameter, regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>io.kubernetes.container.name</code> and set the <strong>LabelValue</strong> parameter to <code>^(nginx&#124;cube)$</code>, a container named nginx and a container named cube are matched.Key-value pairs are connected by using the OR operator. If a container label consists of one of the specified key-value pairs, the container to which the container label belongs is filtered out. |
+       | IncludeEnv | Map (The values of the EnvKey and EnvValue parameters are strings.) | No | The environment variable whitelist. The whitelist specifies the containers from which stdout and stderr are collected. This parameter is empty by default, which indicates that stdout and stderr are collected from all containers. When you configure the environment variable whitelist, the EnvKey parameter is required, and the EnvValue parameter is optional.<br>• If the EnvValue parameter is empty, containers whose environment variables contain the keys specified by EnvKey are matched.<br>• If the EnvValue parameter is not empty, containers whose environment variables consist of the key-value pairs specified by EnvKey and EnvValue are matched.By default, string matching is performed for the values of the EnvValue parameter.Containers are matched only if the values of the environment variables are the same as the values of the EnvValue parameter. If you specify a value that starts<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/316ed6e49e4fde209e9a0f88eca8b388.png)<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c909ff32cca1582dd35f30124971e07b.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the EnvValue parameter, regular expression matching is performed. For example, if you set the <strong>EnvKey</strong> parameter to <code>NGINX_SERVICE_PORT</code> and set the <strong>EnvValue</strong> parameter to <code>^(80&#124;6379)$</code>, containers whose port number is 80 and containers whose port number is 6379 are matched.Key-value pairs are connected by using the OR operator. If an environment variable consists of one of the specified key-value pairs, the container to which the environment variable belongs is matched. |
 
        <table>
          <tr>
            <td>ExcludeEnv</td>
            <td>Map (The values of the EnvKey and EnvValue parameters are strings.)</td>
            <td>No</td>
-           <td>The environment variable blacklist. The blacklist specifies the containers from which stdout and stderr are not collected. This parameter is empty by default, which indicates that stdout and stderr are collected from all containers. When you configure the environment variable blacklist, the EnvKey parameter is required, and the EnvValue parameter is optional.<br>• If the EnvValue parameter is empty, containers whose environment variables contain the keys specified by EnvKey are filtered out.<br>• If the EnvValue parameter is not empty, containers whose environment variables consist of the key-value pairs specified by EnvKey and EnvValue are filtered out.By default, string matching is performed for the values of the EnvValue parameter.Containers are matched only if the values of the environment variables are the same as the values of the EnvValue parameter. If you specify a value that starts<br><img src="assets/316ed6e49e4fde209e9a0f88eca8b388.png" alt=""><br><img src="assets/c909ff32cca1582dd35f30124971e07b.png" alt=""><br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the EnvValue parameter, regular expression matching is performed. For example, if you set the <strong>EnvKey</strong> parameter to <code>NGINX_SERVICE_PORT</code> and set the <strong>EnvValue</strong> parameter to <code>^(80&#124;6379)$</code>, containers whose port number is 80 and containers whose port number is 6379 are matched.Key-value pairs are connected by using the OR operator. If an environment variable consists of one of the specified key-value pairs, the container to which the environment variable belongs is filtered out.</td>
+           <td>The environment variable blacklist. The blacklist specifies the containers from which stdout and stderr are not collected. This parameter is empty by default, which indicates that stdout and stderr are collected from all containers. When you configure the environment variable blacklist, the EnvKey parameter is required, and the EnvValue parameter is optional.<br>• If the EnvValue parameter is empty, containers whose environment variables contain the keys specified by EnvKey are filtered out.<br>• If the EnvValue parameter is not empty, containers whose environment variables consist of the key-value pairs specified by EnvKey and EnvValue are filtered out.By default, string matching is performed for the values of the EnvValue parameter.Containers are matched only if the values of the environment variables are the same as the values of the EnvValue parameter. If you specify a value that starts<br><img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/316ed6e49e4fde209e9a0f88eca8b388.png" alt=""><br><img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/c909ff32cca1582dd35f30124971e07b.png" alt=""><br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the EnvValue parameter, regular expression matching is performed. For example, if you set the <strong>EnvKey</strong> parameter to <code>NGINX_SERVICE_PORT</code> and set the <strong>EnvValue</strong> parameter to <code>^(80&#124;6379)$</code>, containers whose port number is 80 and containers whose port number is 6379 are matched.Key-value pairs are connected by using the OR operator. If an environment variable consists of one of the specified key-value pairs, the container to which the environment variable belongs is filtered out.</td>
          </tr>
        </table>
 
@@ -19928,15 +19928,15 @@ When Logtail collects stdout and stderr from a container, Logtail periodically s
 
        | Parameter | Type | Required | Description |
        | --- | --- | --- | --- |
-       | IncludeK8sLabel | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | The Kubernetes label whitelist. The whitelist specifies the containers from which stdout and stderr are collected. When you configure the Kubernetes label whitelist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose Kubernetes labels contain the keys specified by LabelKey are matched.<br>• If the LabelValue parameter is not empty, containers whose Kubernetes labels consist of the key-value pairs specified by LabelKey and LabelValue are matched.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the Kubernetes labels are the same as the values of the LabelValue parameter. If you specify a value that<br>![](assets/2cbc4ea5497fde01785493ce7bc2b90a.png)<br>starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>), regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>app</code> and set the <strong>LabelValue</strong> parameter to <code>^(test1&#124;test2)$</code>, containers whose Kubernetes labels consist of app:test1 or app:test2 are matched.Key-value pairs are connected by using the OR operator. If a Kubernetes label consists of one of the specified key-value pairs, the container to which the Kubernetes label belongs is matched. |
-       | ExcludeK8sLabel | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | The Kubernetes label blacklist. The blacklist specifies the containers from which stdout and stderr are not collected. When you configure the Kubernetes label blacklist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose Kubernetes labels contain the keys specified by LabelKey are filtered out.<br>• If the LabelValue parameter is not empty, containers whose Kubernetes labels consist of the key-value pairs specified by LabelKey and LabelValue are filtered out.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the Kubernetes labels are the same as the values of the LabelValue parameter. If you specify a value that<br>![](assets/42e00c0e2ce82ea675218213b181622a.png)<br>starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>), regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>app</code> and set the <strong>LabelValue</strong> parameter to <code>^(test1&#124;test2)$</code>, containers whose Kubernetes labels consist of app:test1 or app:test2 are matched.Key-value pairs are connected by using the OR operator. If a Kubernetes label consists of one of the specified key-value pairs, the container to which the Kubernetes label belongs is filtered out. |
+       | IncludeK8sLabel | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | The Kubernetes label whitelist. The whitelist specifies the containers from which stdout and stderr are collected. When you configure the Kubernetes label whitelist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose Kubernetes labels contain the keys specified by LabelKey are matched.<br>• If the LabelValue parameter is not empty, containers whose Kubernetes labels consist of the key-value pairs specified by LabelKey and LabelValue are matched.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the Kubernetes labels are the same as the values of the LabelValue parameter. If you specify a value that<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/2cbc4ea5497fde01785493ce7bc2b90a.png)<br>starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>), regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>app</code> and set the <strong>LabelValue</strong> parameter to <code>^(test1&#124;test2)$</code>, containers whose Kubernetes labels consist of app:test1 or app:test2 are matched.Key-value pairs are connected by using the OR operator. If a Kubernetes label consists of one of the specified key-value pairs, the container to which the Kubernetes label belongs is matched. |
+       | ExcludeK8sLabel | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | The Kubernetes label blacklist. The blacklist specifies the containers from which stdout and stderr are not collected. When you configure the Kubernetes label blacklist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If the LabelValue parameter is empty, containers whose Kubernetes labels contain the keys specified by LabelKey are filtered out.<br>• If the LabelValue parameter is not empty, containers whose Kubernetes labels consist of the key-value pairs specified by LabelKey and LabelValue are filtered out.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the Kubernetes labels are the same as the values of the LabelValue parameter. If you specify a value that<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/42e00c0e2ce82ea675218213b181622a.png)<br>starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>), regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>app</code> and set the <strong>LabelValue</strong> parameter to <code>^(test1&#124;test2)$</code>, containers whose Kubernetes labels consist of app:test1 or app:test2 are matched.Key-value pairs are connected by using the OR operator. If a Kubernetes label consists of one of the specified key-value pairs, the container to which the Kubernetes label belongs is filtered out. |
        | K8sNamespaceReg ex | string | No | The namespace. The namespace specifies the containers from which stdout and stderr are collected. Regular expression matching is supported. For example, if you specify <strong>"K8sNamespaceRegex":"^(default\|nginx)$"</strong>, all containers in the nginx and default namespaces are matched. |
        | K8sPodRegex | string | No | The pod name. The pod name specifies the containers from which stdout and stderr are collected. Regular expression matching is supported. For example, if you specify <strong>"K8sPodRegex":"^(nginx-log-demo.\*)$",</strong>, all containers in the pod whose name starts with nginx-log-demo are matched. |
        | K8sContainerRege x | string | No | The container name. The container name specifies the containers from which stdout and stderr are collected. Regular expression matching is supported. Kubernetes container names are defined in spec.containers. For example, if you specify <strong>"K8sContainerRegex":"^(container-test)$"</strong>, all containers whose name is container-test are matched. |
 
-       ![](assets/940dd80d730fd97917b41f6c56832bf6.png)
+       ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/940dd80d730fd97917b41f6c56832bf6.png)
 
-       ![](assets/dea2973e67cbf0aa03b20cda8c4a81ac.png)
+       ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/dea2973e67cbf0aa03b20cda8c4a81ac.png)
 
    - Parameters related to log labels
 
@@ -19944,7 +19944,7 @@ When Logtail collects stdout and stderr from a container, Logtail periodically s
 
      | Parameter | Type | Required | Description |
      | --- | --- | --- | --- |
-     | ExternalEnvTag | Map (The values of the EnvKey and EnvValue parameters are strings.) | No | After you specify environment variables as log labels, Log Service adds environment variable-related fields to logs. For example, if you set the <strong>EnvKey</strong> parameter to<br>![](assets/be2e9a76d5e9d9cf0113725298c72df6.png)<br><code>VERSION</code> and set the <strong>EnvValue</strong> parameter to <code>env_version</code>, Log Service adds the <strong>__tag__:__env_version__: v1.0.0</strong> field to logs if the environment variable configurations of a container include <code> VERSION=v1.0.0 </code>. |
+     | ExternalEnvTag | Map (The values of the EnvKey and EnvValue parameters are strings.) | No | After you specify environment variables as log labels, Log Service adds environment variable-related fields to logs. For example, if you set the <strong>EnvKey</strong> parameter to<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/be2e9a76d5e9d9cf0113725298c72df6.png)<br><code>VERSION</code> and set the <strong>EnvValue</strong> parameter to <code>env_version</code>, Log Service adds the <strong>__tag__:__env_version__: v1.0.0</strong> field to logs if the environment variable configurations of a container include <code> VERSION=v1.0.0 </code>. |
      | ExternalK8sLabelT ag | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | After you specify Kubernetes labels as log labels, Log Service adds Kubernetes label-related fields to logs. For example, if you set the <strong>LabelKey</strong> parameter to <code>app</code> and set the <strong>LabelValue</strong> parameter to <code> k8s_label_app </code>, Log Service adds the <strong>__tag__:__k8s_label_app__: serviceA</strong> field to logs if the label configurations of a Kubernetes cluster include <code> app=serviceA </code>. |
 
    - Other parameters
@@ -19973,7 +19973,7 @@ Collect stdout and stderr from the containers whose environment variable configu
 
    To view the environment variables of a container, you can log on to the host on which the container resides.
 
-   ![](assets/5aba6adbb5ee458b560f851b8c7895ee.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5aba6adbb5ee458b560f851b8c7895ee.png)
 
 2. Create a Logtail configuration.
 
@@ -20007,7 +20007,7 @@ Collect stdout and stderr from the containers whose container label is  `io.kube
 
    To view the container labels of a container, you can log on to the host on which the container resides.
 
-   ![](assets/d8369bd8fcb63a278d30766570d7d7d8.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d8369bd8fcb63a278d30766570d7d7d8.png)
 
 2. Create a Logtail configuration.
 
@@ -20042,7 +20042,7 @@ Collect stdout and stderr from the nginx-log-demo-0 container in pods whose name
 
    Obtain information about pods.
 
-   ![](assets/ab5f6bc6bc823bacbeea4e66db270914.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ab5f6bc6bc823bacbeea4e66db270914.jpeg)
 
    </li>
 
@@ -20050,7 +20050,7 @@ Collect stdout and stderr from the nginx-log-demo-0 container in pods whose name
 
    Obtain information about namespaces.
 
-   ![](assets/3304bc8e5554707f33883fa67cc6de6a.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3304bc8e5554707f33883fa67cc6de6a.jpeg)
 
    </li>
 
@@ -20083,7 +20083,7 @@ Collect stdout and stderr from containers whose Kubernetes labels contain the jo
 
 1. Obtain Kubernetes labels.
 
-   ![](assets/4a01c31e8286e0009b5b6de66f5f6c3c.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/4a01c31e8286e0009b5b6de66f5f6c3c.jpeg)
 
 2. Create a Logtail configuration.
 
@@ -20338,7 +20338,7 @@ You can view Logtail configurations in the Simple Log Service console or by usin
 
 Run the  `kubectl get aliyunlogconfigs`  command. The following figure shows sample output.
 
-![](assets/95665c3825e69ec5a90bbbf8844d9b71.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/95665c3825e69ec5a90bbbf8844d9b71.png)
 
 **View the details and status of a Logtail configuration**
 
@@ -20350,7 +20350,7 @@ The **status** and **statusCode** fields in the output indicate the status of th
 
 - If the value of the **statusCode** field is not 200, the Logtail configuration fails to be applied.
 
-![](assets/b8ab3af4448ac3b7207a94f47a9b0d60.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b8ab3af4448ac3b7207a94f47a9b0d60.png)
 
 **Examples of Logtail configurations that are used to collect stdout and stderr**
 
@@ -20459,7 +20459,7 @@ Collect the access logs of Grafana from containers in simple mode and parse the 
 
 - Parsed log
 
-  ![](assets/50e6d2f9b4fc10c0c281f403edfd6227.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/50e6d2f9b4fc10c0c281f403edfd6227.png)
 
 **Examples of Logtail configurations that are used to collect text logs**
 
@@ -20558,7 +20558,7 @@ A Java program generates a multi-line log that contains error stack information.
 
 - Collected log
 
-  ![](assets/128c4f023aa7aea5f48c409522bbc906.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/128c4f023aa7aea5f48c409522bbc906.png)
 
 **Example 3: Collect container text logs in delimiter mode**
 
@@ -21511,7 +21511,7 @@ In Sidecar mode, the Logtail container shares a log directory with an applicatio
 
 3. In the left-side navigation pane, choose **Resources > Machine Groups**.
 
-4. In the **Machine Groups** list, choose <img src="assets/0b5e1caccbc341bd8512303adbe51128.png" width="6" alt=""> **> Create Machine Group**.
+4. In the **Machine Groups** list, choose <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/0b5e1caccbc341bd8512303adbe51128.png" width="6" alt=""> **> Create Machine Group**.
 
 5. In the **Create Machine Group** panel, configure the parameters and click **OK**. The following table describes the parameters.
 
@@ -21969,7 +21969,7 @@ Logtail can collect and upload container text logs together with container metad
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration.
 
@@ -22007,13 +22007,13 @@ Logtail can collect and upload container text logs together with container metad
 
   Collect the logs of the containers whose environment variables include  `NGINX_PORT_80_TCP_PORT=80`  and exclude  `POD_NAMESPACE=kube-system` . The log file path is  `/var/log/nginx/access.log`  and logs are parsed in simple mode.
 
-  ![](assets/c6792ff07dd3ecd737a3e33110881fd9.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c6792ff07dd3ecd737a3e33110881fd9.png)
 
 - Configure labels
 
   Collect the logs of the containers whose container labels include  `io.kubernetes.container.name=nginx` . The log file path is  `/var/log/nginx/access.log`  and logs are parsed in simple mode.
 
-  ![](assets/5de14e65d6fb634c53670793f1da4e00.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5de14e65d6fb634c53670793f1da4e00.png)
 
 **Default fields**
 
@@ -22080,7 +22080,7 @@ A Logtail container uses a UNIX domain socket to communicate with the Docker dae
 
 When Logtail collects the stdout and stderr logs of a Docker container, Logtail periodically stores checkpoints to a checkpoint file. If Logtail is restarted, Logtail collects logs from the last checkpoint.
 
-![](assets/f07dbe0784b7c6cc8f7ef3425bc4eaae.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f07dbe0784b7c6cc8f7ef3425bc4eaae.jpeg)
 
 **Limits**
 
@@ -22124,7 +22124,7 @@ When Logtail collects the stdout and stderr logs of a Docker container, Logtail 
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 6. In the Specify Data Source step, specify the data source and click **Next**.
 
@@ -22226,7 +22226,7 @@ When Logtail collects the stdout and stderr logs of a Docker container, Logtail 
 
   Figure 1. Configuration example of environment variables
 
-  ![](assets/5aba6adbb5ee458b560f851b8c7895ee.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5aba6adbb5ee458b560f851b8c7895ee.png)
 
   The following script shows the configurations of the environment variables:
 
@@ -22256,7 +22256,7 @@ When Logtail collects the stdout and stderr logs of a Docker container, Logtail 
 
   Figure 2. Configuration example of labels
 
-  ![](assets/d8369bd8fcb63a278d30766570d7d7d8.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d8369bd8fcb63a278d30766570d7d7d8.png)
 
   The following script shows the label configurations:
 
@@ -22416,7 +22416,7 @@ This topic describes how to use Logtail to collect standard Docker logs and uplo
 
 Figure 1. Procedure
 
-![](assets/b372b5c3b11281cbbec51f605dc754fb.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b372b5c3b11281cbbec51f605dc754fb.png)
 
 1. Deploy a Logtail container.
 
@@ -22619,7 +22619,7 @@ Logtail executes the SELECT statement that is specified in a Logtail configurati
 
 After Logtail obtains query results, Logtail saves the value of the CheckPoint field in the results to the Logtail server. The next time Logtail executes the SELECT statement, Logtail adds the value of the CheckPoint field to the SELECT statement. This way, Logtail can collect incremental data.
 
-![](assets/79734ae0793c9f8460edf5e300e387a3.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/79734ae0793c9f8460edf5e300e387a3.png)
 
 **Features**
 
@@ -22673,7 +22673,7 @@ The following procedure describes how to synchronize incremental data from a MyS
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 6. In the **Specify Data Source** step, configure the **Config Name** and **Plug-in Config** parameters.
 
@@ -22807,7 +22807,7 @@ You can configure multiple Logtail plug-ins based on your business requirements.
 
 After you configure Logtail plug-ins to listen on a specified address and port, Logtail collects and sends data to Log Service. The data includes the system logs that are collected by using rsyslog, the access logs or error logs that are forwarded by NGINX, and the logs that are forwarded by syslog clients.
 
-![](assets/22f3156977bd9acae4fe4d6fb123f080.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/22f3156977bd9acae4fe4d6fb123f080.png)
 
 **Configure Logtail plug-ins to collect syslogs**
 
@@ -22869,7 +22869,7 @@ After you configure Logtail plug-ins to listen on a specified address and port, 
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 7. In the **Specify Data Source** step, configure the **Config Name** and **Plug-in Config** parameters.
 
@@ -22969,7 +22969,7 @@ NGINX servers allow you to forward access logs to specified IP addresses and por
 
 After Logtail collects and sends syslogs to Log Service, you can view the logs in the Log Service console.
 
-![](assets/1cc4d0d03e994537044f86a1dc36bcfd.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/1cc4d0d03e994537044f86a1dc36bcfd.png)
 
 | Log field | Description |
 | --- | --- |
@@ -24166,7 +24166,7 @@ For more information about collection scenarios, see Log data collection.
 
 **On-device collection integration**
 
-![](assets/3f802b5ab0c3243147372bf525af2093.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3f802b5ab0c3243147372bf525af2093.jpeg)
 
 LoongCollector uses a single agent to collect, process, route, and send logs, metrics, traces, events, and profiles. For Kubernetes, LoongCollector interacts with pod definitions using the standard Container Runtime Interface (CRI) API. This lets you automatically attach Kubernetes metadata labels, such as Namespace, Pod, and Container, to the collected observability data without changing container configurations. This ensures a precise association between the data and the infrastructure.
 
@@ -24174,7 +24174,7 @@ LoongCollector uses a single agent to collect, process, route, and send logs, me
 
 LoongCollector uses the Structured Process Language (SPL) and multi-language plugin engines to build a complete programmable system. These engines can work together and be flexibly combined to provide the required computing capabilities.
 
-![](assets/02e70c275de9c54ebc5e3e361ec39f0e.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/02e70c275de9c54ebc5e3e361ec39f0e.png)
 
 extension
 
@@ -24182,7 +24182,7 @@ combination
 
 model
 
-![](assets/bb9407fd4dac8ec9b3f205c83309c2c4.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/bb9407fd4dac8ec9b3f205c83309c2c4.png)
 
 Input
 
@@ -24192,7 +24192,7 @@ C++/Go
 
 C++/Go
 
-![](assets/79c98b64afb1685b89a449394b9bc661.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/79c98b64afb1685b89a449394b9bc661.png)
 
 dl
 
@@ -24543,7 +24543,7 @@ If you do not have a Logstore, follow these steps to create a basic one. For mor
 
 2. In **Log Storage**, on the **Logstores** tab, click the **+** icon.
 
-   ![](assets/6929192f28c7b066ba798271a83acb7d.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/6929192f28c7b066ba798271a83acb7d.jpeg)
 
 3. Enter a **Logstore Name** and leave the other configurations at their default settings.
 
@@ -24563,7 +24563,7 @@ If you do not have a Logstore, follow these steps to create a basic one. For mor
 
    <li>
 
-   Click <img src="assets/e6d30e740cd0a86dd7958764eda66507.jpeg" width="9" alt=""> to the right of the Project name to open the **Project Overview** page.
+   Click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/e6d30e740cd0a86dd7958764eda66507.jpeg" width="9" alt=""> to the right of the Project name to open the **Project Overview** page.
 
    </li>
 
@@ -24616,9 +24616,9 @@ This method applies only when the server is an Alibaba Cloud ECS instance, and b
 
 1. Log on to the Simple Log Service console and click the target project in the project list.
 
-2. Click <img src="assets/609e65dcdab06cf83a53abd66a1d764b.png" width="11" alt=""> **Log Storage**. In the **Logstores** list, click the <img src="assets/75ea46fedc9f546ad094227aed8b1a24.png" width="10" alt=""> icon before the target Logstore to expand the Logstore.
+2. Click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/609e65dcdab06cf83a53abd66a1d764b.png" width="11" alt=""> **Log Storage**. In the **Logstores** list, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/75ea46fedc9f546ad094227aed8b1a24.png" width="10" alt=""> icon before the target Logstore to expand the Logstore.
 
-3. Click the <img src="assets/a78f75cebe8a40ebd6fc52c7bf6bd6f6.png" width="10" alt=""> icon after **Data Collection**, select the Single Line - Text Log ingestion template in the dialog box, and click **Integrate Now**.
+3. Click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/a78f75cebe8a40ebd6fc52c7bf6bd6f6.png" width="10" alt=""> icon after **Data Collection**, select the Single Line - Text Log ingestion template in the dialog box, and click **Integrate Now**.
 
 4. Click **Create Machine Group**, select one or more ECS instances that are in the **same region** as the Project, and then click **Install and Create Machine Group**.
 
@@ -24686,15 +24686,15 @@ This method applies when the server is an Alibaba Cloud ECS instance, and both t
 
    <li>
 
-   Click <img src="assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt=""> **Resources**, and then click **Machine Groups**.
+   Click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt=""> **Resources**, and then click **Machine Groups**.
 
    </li>
 
    <li>
 
-   Click <img src="assets/616bad52680c277275584e6a23614a5e.png" width="13" alt=""> to the right of **Machine Groups**, and click **Create Machine Group**.
+   Click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/616bad52680c277275584e6a23614a5e.png" width="13" alt=""> to the right of **Machine Groups**, and click **Create Machine Group**.
 
-   ![](assets/52cd043ecbd43067b9a91d531dca6bf4.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/52cd043ecbd43067b9a91d531dca6bf4.jpeg)
 
    </li>
 
@@ -24790,15 +24790,15 @@ This method applies when the server is an Alibaba Cloud ECS instance, and the EC
 
    <li>
 
-   Click <img src="assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt=""> **Resources**, and click **Machine Groups**.
+   Click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt=""> **Resources**, and click **Machine Groups**.
 
    </li>
 
    <li>
 
-   Click the <img src="assets/616bad52680c277275584e6a23614a5e.png" width="13" alt=""> icon to the right of **Machine Groups**, and click **Create Machine Group**.
+   Click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/616bad52680c277275584e6a23614a5e.png" width="13" alt=""> icon to the right of **Machine Groups**, and click **Create Machine Group**.
 
-   ![](assets/52cd043ecbd43067b9a91d531dca6bf4.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/52cd043ecbd43067b9a91d531dca6bf4.jpeg)
 
    </li>
 
@@ -24906,15 +24906,15 @@ This method applies when the server is from another cloud provider or is an on-p
 
    <li>
 
-   Click <img src="assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt=""> **Resources**, and click **Machine Groups**.
+   Click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt=""> **Resources**, and click **Machine Groups**.
 
    </li>
 
    <li>
 
-   Click <img src="assets/616bad52680c277275584e6a23614a5e.png" width="13" alt=""> to the right of **Machine Groups**, and click **Create Machine Group**.
+   Click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/616bad52680c277275584e6a23614a5e.png" width="13" alt=""> to the right of **Machine Groups**, and click **Create Machine Group**.
 
-   ![](assets/52cd043ecbd43067b9a91d531dca6bf4.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/52cd043ecbd43067b9a91d531dca6bf4.jpeg)
 
    </li>
 
@@ -25117,7 +25117,7 @@ If the heartbeat status is FAIL, it may be because the initial heartbeat connect
 
 1. Log on to the Simple Log Service console and click the target project in the project list.
 
-2. Click the <img src="assets/e6d30e740cd0a86dd7958764eda66507.jpeg" width="12" alt=""> icon to the right of the project name to go to the project overview page.
+2. Click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/e6d30e740cd0a86dd7958764eda66507.jpeg" width="12" alt=""> icon to the right of the project name to go to the project overview page.
 
 3. In the basic information, you can view the region name of the current project. For the Region ID corresponding to the region name, see the table below.
 
@@ -25161,7 +25161,7 @@ An endpoint is the access domain name for Simple Log Service. It is the URL used
 
 1. Log on to the Simple Log Service console and click the target project in the project list.
 
-2. Click the <img src="assets/e6d30e740cd0a86dd7958764eda66507.jpeg" width="12" alt=""> icon to the right of the project name to go to the project overview page.
+2. Click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/e6d30e740cd0a86dd7958764eda66507.jpeg" width="12" alt=""> icon to the right of the project name to go to the project overview page.
 
 3. In the Endpoints section, you can view the endpoint information for the current project. Different network transmission methods correspond to different endpoints. A suitable network transmission method helps ensure faster and more stable log data transmission.
 
@@ -25439,7 +25439,7 @@ Before you collect logs, you must create a project and a logstore to manage and 
 
 1. Click the project name to go to the target project.
 
-2. In the navigation pane on the left, choose <img src="assets/daceb36527efc2d0422cb29bf266d4cd.png" width="16" alt=""> **Log Storage** and click **+**.
+2. In the navigation pane on the left, choose <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/daceb36527efc2d0422cb29bf266d4cd.png" width="16" alt=""> **Log Storage** and click **+**.
 
 3. On the Create Logstore page, complete the following core configurations:
 
@@ -25469,9 +25469,9 @@ After you complete the Preparations, install LoongCollector on your servers and 
 
 **Procedure:**
 
-1. On the <img src="assets/9a34821fc01adcb4588a5759aa00ccef.jpeg" width="13" alt=""> Logstores page, click the <img src="assets/32f09cad3c1952575643d8f552152b1a.png" width="13" alt=""> icon before the target logstore name to expand it.
+1. On the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9a34821fc01adcb4588a5759aa00ccef.jpeg" width="13" alt=""> Logstores page, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/32f09cad3c1952575643d8f552152b1a.png" width="13" alt=""> icon before the target logstore name to expand it.
 
-2. Click the <img src="assets/372c10ff1603c973e9646f7d75ce32f4.png" width="10" alt=""> icon next to **Data Collection**, and in the **Quick Data Import** dialog box, select a text log collection template (such as Single Line - Text
+2. Click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/372c10ff1603c973e9646f7d75ce32f4.png" width="10" alt=""> icon next to **Data Collection**, and in the **Quick Data Import** dialog box, select a text log collection template (such as Single Line - Text
 
    Log) and click **Integrate Now**.
 
@@ -25569,7 +25569,7 @@ Because logs such as Java exception stacks and JSON objects often span multiple 
 
 | Raw log without any processing | In default collection mode, each line is a separate log, breaking the stack trace and losing context | With multiline mode enabled, a Regex to Match First Line identifies the complete log, preserving its full semantic structure. |
 | --- | --- | --- |
-| ![](assets/3a9bf30dd2015ac09d00040b5536ec1d.jpeg) | ![](assets/ee7738536e3d333f0d748606879b6955.jpeg) | ![](assets/cc1153f91303e145c34b52e67c7c758f.jpeg) |
+| ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3a9bf30dd2015ac09d00040b5536ec1d.jpeg) | ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ee7738536e3d333f0d748606879b6955.jpeg) | ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/cc1153f91303e145c34b52e67c7c758f.jpeg) |
 
 **Procedure:** In the **Processor Configurations** section of the **Logtail Configuration** page, enable **Multi-line Mode**:
 
@@ -25713,9 +25713,9 @@ When logs from multiple applications or instances have the same format but diffe
   | Multiple capturing groups - unnamed (multiple <code> (.*?) </code>) | Multiple dimensions are needed to distinguish the source, but no semantic tags are required | Generates a tag field <code>__tag__:__topic_{i}_</code><code>_ </code>, where <code> {i} </code> is the ordinal number of the capturing group | <code>\/logs\/(.*?)\/(.*?)</code><br><code>\/app\.log</code> | <code>/logs/userA/svcA/app</code><br><code>.log</code> | <code>__tag__:__topic_1__u</code><br><code>serA</code><br><code>__tag__:__topic_2__s</code><br><code>vcA</code> |
   | Multiple capturing groups - named (using <code> (?P&lt;name&gt;.*</code>？<code>) </code> | Multiple dimensions are needed to distinguish the source, and the field meanings should be clear for easy querying and analysis | Generates a tag field <code>__tag__:{name}</code> | <code>\/logs\/(?</code><br><code>P&lt;user&gt;.*?)\/(?</code><br><code>P&lt;service&gt;.*?)\/app\.</code><br><code>log</code> | <code>/logs/userA/svcA/app</code><br><code>.log</code> | <code>__tag__:user:userA</code><code> </code>;<br><code>__tag__:service:svcA</code> |
 
-  ![](assets/83289070730e325fe68f0e96a371eb75.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/83289070730e325fe68f0e96a371eb75.png)
 
-  ![](assets/f70d8f67f34cbe18c2889e1432ba6a51.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f70d8f67f34cbe18c2889e1432ba6a51.png)
 
   5. **Output configuration**
 
@@ -25733,7 +25733,7 @@ By default, all logs are sent to the current logstore with lz4 compression. To s
 
 **Procedure**: In the **Output Configurations** section of the **Logtail Configuration** page
 
-1. Click <img src="assets/16235f16fa72b5265bb561e07f7ca710.png" width="12" alt=""> to expand the output configuration.
+1. Click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/16235f16fa72b5265bb561e07f7ca710.png" width="12" alt=""> to expand the output configuration.
 
 2. Click **Add Output Targets** and configure the following settings:
 
@@ -25779,7 +25779,7 @@ After the configuration is complete, apply it to the machine group and save it. 
 
    **Resources > Machine Groups** page. Click the target machine group name. In the **Machine**
 
-   <img src="assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt="">
 
    **Group Configurations > Machine Group Status** section, check the **Heartbeat** status.
 
@@ -25820,7 +25820,7 @@ After the configuration is complete, apply it to the machine group and save it. 
 
    **Resources > Machine Groups** page. Click the target machine group name. In the
 
-   <img src="assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt="">
 
    **Machine Group Configurations > Machine Group Status** section, check the **Heartbeat** status.
 
@@ -25838,7 +25838,7 @@ After the configuration is complete, apply it to the machine group and save it. 
 
    **Resources > Machine Groups** page, click the target machine group name, and go to the **Machine Group Configurations** page.
 
-   <img src="assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt="">
 
    </li>
 
@@ -25858,7 +25858,7 @@ After the configuration is complete, apply it to the machine group and save it. 
 
    </ol>
 
-   **Configurations** list on the left, select the target LoongCollector (Logtail) configuration name, click <img src="assets/0a66d4002f3a67335301cd85dff62203.jpeg" width="12" alt=""> to move it to the applied area on the right,
+   **Configurations** list on the left, select the target LoongCollector (Logtail) configuration name, click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/0a66d4002f3a67335301cd85dff62203.jpeg" width="12" alt=""> to move it to the applied area on the right,
 
    and then click **Save**.
 
@@ -25903,7 +25903,7 @@ Multi-target distribution configurations are associated with multiple logstores.
 
 1. Log on to the Simple Log Service console and click the name of the target project.
 
-2. On the project page, choose <img src="assets/6fce2459b49a0af04facaa9f949911d0.png" width="10" alt=""> **Resources > Configurations** from the navigation pane on the left.
+2. On the project page, choose <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/6fce2459b49a0af04facaa9f949911d0.png" width="10" alt=""> **Resources > Configurations** from the navigation pane on the left.
 
    > **Note**
    >
@@ -26002,7 +26002,7 @@ When you have a configured machine group and want to add a new server, such as a
 
    <li>
 
-   On the target project page, click <img src="assets/df10b82fd19b42c1261dc4bc1b8a8871.png" width="18" alt=""> **Resources > Machine Groups** in the navigation pane on the left.
+   On the target project page, click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/df10b82fd19b42c1261dc4bc1b8a8871.png" width="18" alt=""> **Resources > Machine Groups** in the navigation pane on the left.
 
    </li>
 
@@ -26092,7 +26092,7 @@ On a server where LoongCollector (Logtail) is installed, open the  `/usr/local/i
 
 The server IP address automatically obtained by Logtail is recorded in the  `ip`  field of the  `app_info.json`  file, as shown below.
 
-![](assets/948cc144d174faf5ba4877beafa382d4.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/948cc144d174faf5ba4877beafa382d4.jpeg)
 
 > **Important**
 >
@@ -26112,9 +26112,9 @@ Procedure:
 
 1. Log on to the Simple Log Service console and go to the target project.
 
-2. In the navigation pane on the left, choose <img src="assets/9a34821fc01adcb4588a5759aa00ccef.jpeg" width="13" alt=""> Logstores and find the target logstore.
+2. In the navigation pane on the left, choose <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9a34821fc01adcb4588a5759aa00ccef.jpeg" width="13" alt=""> Logstores and find the target logstore.
 
-3. Click the <img src="assets/ca3657b915479b612dec0180de6edd84.jpeg" width="12" alt=""> icon before its name to expand the logstore.
+3. Click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/ca3657b915479b612dec0180de6edd84.jpeg" width="12" alt=""> icon before its name to expand the logstore.
 
 4. Click **Logtail Configuration**. In the configuration list, find the target Logtail configuration and click **Manage Logtail Configuration** in the Actions column.
 
@@ -26142,9 +26142,9 @@ Extend the waiting time to ensure the complete log is written before it is colle
 
 1. Log on to the Simple Log Service console and go to the target project.
 
-2. In the navigation pane on the left, choose <img src="assets/9a34821fc01adcb4588a5759aa00ccef.jpeg" width="13" alt=""> Logstores and find the target logstore.
+2. In the navigation pane on the left, choose <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9a34821fc01adcb4588a5759aa00ccef.jpeg" width="13" alt=""> Logstores and find the target logstore.
 
-3. Click the <img src="assets/ca3657b915479b612dec0180de6edd84.jpeg" width="12" alt=""> icon before its name to expand the logstore.
+3. Click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/ca3657b915479b612dec0180de6edd84.jpeg" width="12" alt=""> icon before its name to expand the logstore.
 
 4. Click **Logtail Configuration**. In the configuration list, find the target Logtail configuration and click **Manage Logtail Configuration** in the Actions column.
 
@@ -26178,9 +26178,9 @@ During operation, if LoongCollector (Logtail) detects a communication anomaly wi
 
 In the **Processor Configurations** section of the **Logtail Configuration** page, add processors to structure raw logs. To add a processing plugin to an existing collection configuration, follow these steps:
 
-1. In the navigation pane on the left, choose <img src="assets/9a34821fc01adcb4588a5759aa00ccef.jpeg" width="13" alt=""> Logstores and find the target logstore.
+1. In the navigation pane on the left, choose <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9a34821fc01adcb4588a5759aa00ccef.jpeg" width="13" alt=""> Logstores and find the target logstore.
 
-2. Click the <img src="assets/32f09cad3c1952575643d8f552152b1a.png" width="13" alt=""> icon before its name to expand the logstore.
+2. Click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/32f09cad3c1952575643d8f552152b1a.png" width="13" alt=""> icon before its name to expand the logstore.
 
 3. Click **Logtail Configuration**. In the configuration list, find the target Logtail configuration and click **Manage Logtail Configuration** in the Actions column.
 
@@ -26224,7 +26224,7 @@ Extract log fields using a regular expression and parse the log into key-value p
 
     - Click **Generate Regular Expression**.
 
-      ![](assets/60bd2dd31d3b8ca091b5fde4141ca42a.jpeg)
+      ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/60bd2dd31d3b8ca091b5fde4141ca42a.jpeg)
 
   - Manual entry: **Manually Enter Regular Expression** based on the log format.
 
@@ -26418,7 +26418,7 @@ Parse the time field in the log and set the parsing result as the log's  `__time
 
 | Raw log without any processing | Time parsing |
 | --- | --- |
-| <code>{"level":"INFO","timestamp":"2025-09-</code><br><code>23T19:11:47+0800","cluster":"yilu-cluster-0728","message":"User</code><br><code>logged in successfully","userId":"user-123"}</code> | ![](assets/2f46f8263da69d877b8354cfd7139642.jpeg) |
+| <code>{"level":"INFO","timestamp":"2025-09-</code><br><code>23T19:11:47+0800","cluster":"yilu-cluster-0728","message":"User</code><br><code>logged in successfully","userId":"user-123"}</code> | ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/2f46f8263da69d877b8354cfd7139642.jpeg) |
 
 **Procedure:** In the **Processor Configurations** section of the **Logtail Configuration** page, click **Add Processor** and select **Native Processor > Time Parsing**:
 
@@ -26590,7 +26590,7 @@ If you use system-defined policies, we recommend that you add the following perm
 <table>
   <tr>
     <td>Processing Method</td>
-    <td><strong>Processors</strong>, which includes <strong>Native Processor</strong> and <strong>Extended Processor</strong>. For more information about processing plugins, see Usage notes for native and extended processors.<br>Important The limits on using processing plugins are subject to the prompts on the console page.<br>• Logtail 2.0:<br>• Native processor can be combined in any way.<br>• Native and extended processors can be used at the same time, but extended processors can only appear after all native processors.<br>• Logtail versions earlier than 2.0:<br>• Adding both native and extended processors at the same time is not supported.<br>• Native processors can only be used to collect text logs. When using native processors, the following requirements must be met:<br>• The first processing plugin must be a regular expression parsing plugin, separator mode parsing plugin, JSON parsing plugin, Data Parsing (NGINX Mode) plugin, Apache pattern parsing plugin, or IIS pattern parsing plugin.<br>• From the second to the last processing plugin, you can include at most one time parsing plugin, one Data Filtering plugin, and multiple masking plugins.<br>• For the <strong>Retain Original Field if Parsing Fails</strong> and <strong>Retain Original Field if Parsing Succeeds</strong> parameters, only the following combinations are valid. Other combinations are invalid.<br>• Upload only successfully parsed logs:<br><img src="assets/e5c6ad8cc9dfd13fbb344514662368ac.png" alt=""><br>• Upload parsed logs on success, and upload raw logs on failure:<br><img src="assets/dd96ed1a1ad716fd3e641431a895fbfd.png" alt=""><br>• On successful parsing, upload the parsed log and also append the raw log field. On failure, upload the raw log.For example, if the raw log <code> "content": "{"request_method":"GET", "request_time":"200"}" </code> is parsed successfully, appending the raw field adds another field to the parsed log. The field name is <strong>New Name of Original Field</strong> (if not filled, it defaults to the source field name), and the field value is the raw log <code> {"request_method":"GET", "request_time":"200"} </code>.<br><img src="assets/9ef258cfa420b09d0b37affa8bfc17e1.jpeg" alt=""></td>
+    <td><strong>Processors</strong>, which includes <strong>Native Processor</strong> and <strong>Extended Processor</strong>. For more information about processing plugins, see Usage notes for native and extended processors.<br>Important The limits on using processing plugins are subject to the prompts on the console page.<br>• Logtail 2.0:<br>• Native processor can be combined in any way.<br>• Native and extended processors can be used at the same time, but extended processors can only appear after all native processors.<br>• Logtail versions earlier than 2.0:<br>• Adding both native and extended processors at the same time is not supported.<br>• Native processors can only be used to collect text logs. When using native processors, the following requirements must be met:<br>• The first processing plugin must be a regular expression parsing plugin, separator mode parsing plugin, JSON parsing plugin, Data Parsing (NGINX Mode) plugin, Apache pattern parsing plugin, or IIS pattern parsing plugin.<br>• From the second to the last processing plugin, you can include at most one time parsing plugin, one Data Filtering plugin, and multiple masking plugins.<br>• For the <strong>Retain Original Field if Parsing Fails</strong> and <strong>Retain Original Field if Parsing Succeeds</strong> parameters, only the following combinations are valid. Other combinations are invalid.<br>• Upload only successfully parsed logs:<br><img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/e5c6ad8cc9dfd13fbb344514662368ac.png" alt=""><br>• Upload parsed logs on success, and upload raw logs on failure:<br><img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/dd96ed1a1ad716fd3e641431a895fbfd.png" alt=""><br>• On successful parsing, upload the parsed log and also append the raw log field. On failure, upload the raw log.For example, if the raw log <code> "content": "{"request_method":"GET", "request_time":"200"}" </code> is parsed successfully, appending the raw field adds another field to the parsed log. The field name is <strong>New Name of Original Field</strong> (if not filled, it defaults to the source field name), and the field value is the raw log <code> {"request_method":"GET", "request_time":"200"} </code>.<br><img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9ef258cfa420b09d0b37affa8bfc17e1.jpeg" alt=""></td>
   </tr>
 </table>
 
@@ -26648,7 +26648,7 @@ You can use the Log Service console or an SDK to enable the web tracking feature
 
   **> Modify**.
 
-  <img src="assets/648e9b2b7e591cc17fbab340b6923edc.png" width="11" alt="">
+  <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/648e9b2b7e591cc17fbab340b6923edc.png" width="11" alt="">
 
   </li>
 
@@ -27219,7 +27219,7 @@ The following example shows sample logs:
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Configure the parameters in the Logtail Config step.
 
@@ -27894,13 +27894,13 @@ Zabbix stores monitoring data on the machine on which Zabbix is installed. To sp
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the machine group remains in the **FAIL** state, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**.
 
    Zabbix monitoring data is of the JSON type. We recommend that you set the Mode parameter to JSON Mode in the Logtail configuration. You must set the **Log Path** parameter to the data storage path that you specify in Step 1. For more information about other parameters, see Collect logs in JSON mode.
 
-   ![](assets/f04505acb41279e186d132ad6b9f5df1.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f04505acb41279e186d132ad6b9f5df1.png)
 
 7. Configure indexes for query and analysis. After you complete the settings, click **Next**.
 
@@ -28234,7 +28234,7 @@ Click **Next** to go to the final page. Click **Query Logs**. You are redirected
 
 After you configure the NGINX parsing plug-in, SLS automatically creates a preset dashboard named  `nginx-access-log_NGINX Access Log` .
 
-1. In the navigation pane on the left, click <img src="assets/fdc2be98f45a2f6ae5b5a425d7ed3eff.png" width="16" alt=""> and choose **Dashboard > Dashboards**.
+1. In the navigation pane on the left, click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/fdc2be98f45a2f6ae5b5a425d7ed3eff.png" width="16" alt=""> and choose **Dashboard > Dashboards**.
 
 2. Find and click the dashboard name to view charts for core metrics such as page views (PVs), unique visitors (UVs), error rate, and request method distribution.
 
@@ -28244,7 +28244,7 @@ After you configure the NGINX parsing plug-in, SLS automatically creates a prese
 
 Configure an alert rule to automatically send notifications when a service is abnormal, such as when the number of errors surges.
 
-1. In the navigation pane on the left, click <img src="assets/fdf4ae290d99e60e515bcc6a7c94fd02.jpeg" width="12" alt=""> **Alerts**.
+1. In the navigation pane on the left, click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/fdf4ae290d99e60e515bcc6a7c94fd02.jpeg" width="12" alt=""> **Alerts**.
 
 2. Create an action policy:
 
@@ -28252,7 +28252,7 @@ Configure an alert rule to automatically send notifications when a service is ab
 
    - Configure the **ID** and **Name**, for example,  `send-notification-to-admin` .
 
-   - In the **Primary Action Policy**, click <img src="assets/064156f35702b75fc0be378e304a461a.png" width="11" alt=""> **Action Group**.
+   - In the **Primary Action Policy**, click <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/064156f35702b75fc0be378e304a461a.png" width="11" alt=""> **Action Group**.
 
    - Select a **Notification Method**, such as a **SMS Message**, configure the **Recipient**, and select an **Alert Template**.
 
@@ -28643,7 +28643,7 @@ This topic describes the reserved fields of Log Service.
 | <code>__tag__:__path__</code> | The value is a string. | • Index configuration: By default, if you enable the indexing feature, Log Service creates an index for the <code> __tag__:__path__ </code> field. The index is of the text type. No delimiter is specified for the index. To query logs based on the index, you can enter <code> __tag__:__path__:XXX </code>.<br>• Log analysis configuration: By default, the log analysis feature is disabled for the __tag__:__path__field. To enable the log analysis feature for the <code> __tag__:__path__ </code> field, you must create an index for the field and turn on Enable Analytics for the field. | The path to the log file from which logs are collected.Logtail automatically adds this field to the collected logs. You can use this field to query, analyze, and consume logs. When you specify this field in an SQL statement, you must enclose this field in double quotation marks (""). |
 | <code>__tag__:__hostname__</code> | The value is a string. | • Index configuration: By default, if you enable the indexing feature, Log Service creates an index for the <code> __tag__:__hostname__ </code> field. The index is of the text type. No delimiter is specified for the index. To query logs based on the index, you can enter <code> __tag__:__hostname__:XXX </code>.<br>• Log analysis configuration: By default, the log analysis feature is disabled for the __tag__:__hostname__ field. To enable the log analysis feature for the <code> __tag__:__hostname__ </code>field, you must create an index for the field and turn on Enable Analytics for the field. | The hostname of the machine from which Logtail collects logs. Logtail automatically adds this field to logs. You can use this field to query, analyze, and consume logs. When you specify this field in an SQL statement, you must enclose this field in double quotation marks (""). |
 
-![](assets/c5c4c8dcc0c4c90661939c4516bbc5a4.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c5c4c8dcc0c4c90661939c4516bbc5a4.png)
 
 <table>
   <tr>
@@ -28803,7 +28803,7 @@ You can view the query and analysis results in a log distribution histogram, on 
 
   - Quick analysis: You can use this feature to analyze the distribution of a field within a specific time range. For more information, see Quick analysis.
 
-  - Contextual query: You can click the <img src="assets/52fe6d183dc197bb61ace6925d888dcd.png" width="12" alt=""> icon of a log and select **Context View** to view the context of the log. For more information, see Contextual
+  - Contextual query: You can click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/52fe6d183dc197bb61ace6925d888dcd.png" width="12" alt=""> icon of a log and select **Context View** to view the context of the log. For more information, see Contextual
 
     query.
 
@@ -28811,7 +28811,7 @@ You can view the query and analysis results in a log distribution histogram, on 
     >
     > You can use the contextual query feature only on the logs that are collected by Logtail.
 
-  - LiveTail: On the **Raw Data** tab, you can find a log and click the <img src="assets/bef140b6338240bd4fb50bef2e1fa815.png" width="9" alt=""> icon to monitor logs in real time and extract important information from the logs.
+  - LiveTail: On the **Raw Data** tab, you can find a log and click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/bef140b6338240bd4fb50bef2e1fa815.png" width="9" alt=""> icon to monitor logs in real time and extract important information from the logs.
 
     For more information, see LiveTail.
 
@@ -28821,7 +28821,7 @@ You can view the query and analysis results in a log distribution histogram, on 
 
   - Log download: You can click the download icon, select a method, and then click **OK** to download logs. For more information, see Download logs.
 
-  - Column settings: You can click the <img src="assets/cf12edde99256a4eaa27bbfd24822d61.png" width="12" alt=""> icon and select **Column Settings** to specify the columns that you want to display in the table. The column
+  - Column settings: You can click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/cf12edde99256a4eaa27bbfd24822d61.png" width="12" alt=""> icon and select **Column Settings** to specify the columns that you want to display in the table. The column
 
     names are field names, and the column content is field values.
 
@@ -28829,11 +28829,11 @@ You can view the query and analysis results in a log distribution histogram, on 
     >
     > To view log content on the Table tab, select **Content**.
 
-  - JSON settings: You can click the <img src="assets/cf12edde99256a4eaa27bbfd24822d61.png" width="12" alt=""> icon and select **JSON Configurations** to configure JSON settings.
+  - JSON settings: You can click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/cf12edde99256a4eaa27bbfd24822d61.png" width="12" alt=""> icon and select **JSON Configurations** to configure JSON settings.
 
-  - Tag settings: On the **Raw Data** tab, you can click the <img src="assets/cf12edde99256a4eaa27bbfd24822d61.png" width="12" alt=""> icon and select **Tag Configurations** to hide fields that are less important.
+  - Tag settings: On the **Raw Data** tab, you can click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/cf12edde99256a4eaa27bbfd24822d61.png" width="12" alt=""> icon and select **Tag Configurations** to hide fields that are less important.
 
-    ![](assets/6c5b1b5640fb3d2e171adb4a4e0e2492.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/6c5b1b5640fb3d2e171adb4a4e0e2492.png)
 
 - Graph tab
 
@@ -28877,7 +28877,7 @@ This topic describes how to download logs and query and analysis results from Lo
 
    icon, and then click **Download Log**.
 
-   <img src="assets/488bf0b38edde8be382fbb27244696fc.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/488bf0b38edde8be382fbb27244696fc.png" width="10" alt="">
 
    > **Note**
    >
@@ -28980,7 +28980,7 @@ The Dedicated SQL feature is suitable for the following scenarios:
 
 Log Service supports the following methods to enable the Dedicated SQL feature:
 
-- Enable once: When you execute a query statement in a Logstore, click the <img src="assets/033316a695d52514a497a453b65c7f9f.png" width="15" alt=""> icon. The Dedicated SQL feature takes effect only on the query
+- Enable once: When you execute a query statement in a Logstore, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/033316a695d52514a497a453b65c7f9f.png" width="15" alt=""> icon. The Dedicated SQL feature takes effect only on the query
 
   statements that you execute in the current Logstore.
 
@@ -28998,7 +28998,7 @@ Log Service supports the following methods to enable the Dedicated SQL feature:
 
    icon.
 
-   <img src="assets/033316a695d52514a497a453b65c7f9f.png" width="15" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/033316a695d52514a497a453b65c7f9f.png" width="15" alt="">
 
    After you enable the Dedicated SQL feature, you can use the feature to query and analyze log data by using SQL statements. For more information, see Query and analyze logs.
 
@@ -29012,7 +29012,7 @@ Log Service supports the following methods to enable the Dedicated SQL feature:
 
    icon.
 
-   <img src="assets/7bfd8abf26fbdbcb4afd989ebbbb1ab1.png" width="13" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/7bfd8abf26fbdbcb4afd989ebbbb1ab1.png" width="13" alt="">
 
 4. Move the pointer over the **CUs of SQL-dedicated Instance** parameter and click **Modify**.
 
@@ -29159,11 +29159,11 @@ You can query the value of a field by using a numeric range only after you set t
 
 - Sample log entry
 
-  ![](assets/e42ce3fcef7a298dc73cdd07f99d2b91.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/e42ce3fcef7a298dc73cdd07f99d2b91.png)
 
 - Index configurations
 
-  ![](assets/96f135e9f6633a3c207be1787d4c9a72.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/96f135e9f6633a3c207be1787d4c9a72.png)
 
 - Query statements
 
@@ -29267,7 +29267,7 @@ The following figure shows an example on how to configure indexes.
 
 Figure 1. Index configurations
 
-![](assets/69550748f7023d803525151b37af31a4.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/69550748f7023d803525151b37af31a4.png)
 
 The following settings are configured in the preceding figure:
 
@@ -29503,13 +29503,13 @@ In online O&M scenarios, you may need to monitor log data in real time and extra
 
    icon next to the name of the Logstore in which logs are stored, and then select **Search & Analysis**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. On the **Raw Logs** tab, click the
 
    icon of a log.
 
-   <img src="assets/bef140b6338240bd4fb50bef2e1fa815.png" width="9" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/bef140b6338240bd4fb50bef2e1fa815.png" width="9" alt="">
 
 5. In the **LiveTail** section, view logs.
 
@@ -29564,7 +29564,7 @@ By default, the LogReduce feature is disabled.
 
    icon next to the name of the Logstore that you want to manage, and then select **Search & Analysis**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. Enable the LogReduce feature.
 
@@ -29652,7 +29652,7 @@ On the **LogReduce** tab, you can adjust the **Pattern Count** slider to change 
 
    For example, if you set the time range to 15 minutes when you query logs and specify **1Day** for **Log Compare**, the start time and end time of log comparison are automatically displayed. The time ranges for comparison are the previous 15 minutes and the 15 minutes on the previous day.
 
-   ![](assets/d1689ea8f168a6533ba2426a5a75ade1.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d1689ea8f168a6533ba2426a5a75ade1.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -29767,7 +29767,7 @@ In Log Service, the O&M engineers can perform the following steps to locate the 
 
 3. After you find the log, scroll up until other related logs are found, for example, a log that records a credit card payment failure.
 
-![](assets/6f8446a3b346d1f92f141169f36ef327.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/6f8446a3b346d1f92f141169f36ef327.png)
 
 > **Note**
 >
@@ -29793,7 +29793,7 @@ In Log Service, the O&M engineers can perform the following steps to locate the 
 
    icon next to the name of the Logstore in which you want to perform contextual queries, and then select **Search & Analysis**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. Enter a query statement in the search box, specify a time range, and then click **Search & Analyze**.
 
@@ -29801,7 +29801,7 @@ In Log Service, the O&M engineers can perform the following steps to locate the 
 
    icon.
 
-   <img src="assets/219d71d4bcf06383ed0948be6528e1b1.png" width="14" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/219d71d4bcf06383ed0948be6528e1b1.png" width="14" alt="">
 
 6. On the page that appears, scroll up and down to view the contextual logs.
 
@@ -29813,7 +29813,7 @@ In Log Service, the O&M engineers can perform the following steps to locate the 
 
    - To filter logs by string, enter strings in the **Filter By** field. The Context View section displays only the logs that contain the specified strings.
 
-   ![](assets/b5947f45e3f84765beef2b4e9b852f5a.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b5947f45e3f84765beef2b4e9b852f5a.png)
 
 <a id="section-4-4-9-5"></a>
 
@@ -29841,7 +29841,7 @@ You can also use the saved search in alert rules. Log Service periodically execu
 
    icon next to the name of the Logstore that you want to manage, and then select **Search & Analysis**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. Enter a query statement in the search box, specify a time range, and then click **Search & Analyze**.
 
@@ -29851,7 +29851,7 @@ You can also use the saved search in alert rules. Log Service periodically execu
 
 6. In the **Saved Search Details** panel, configure the parameters. The following table describes the parameters.
 
-   ![](assets/ff892330ec5af43bd7a91d378442b7f9.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ff892330ec5af43bd7a91d378442b7f9.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -29860,7 +29860,7 @@ You can also use the saved search in alert rules. Log Service periodically execu
 
 7. Click **OK**.
 
-   After you create a saved search, click the <img src="assets/1dfcdb323ab019bce13a6ce71a049dd4.png" width="16" alt=""> icon next to the search box on the Search & Analysis page of the Logstore, and click the name of the
+   After you create a saved search, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1dfcdb323ab019bce13a6ce71a049dd4.png" width="16" alt=""> icon next to the search box on the Search & Analysis page of the Logstore, and click the name of the
 
    saved search to quickly perform query and analysis operations.
 
@@ -29928,13 +29928,13 @@ Indexes are configured and the analysis feature is enabled for specified fields.
 
 4. On the **Raw Logs** tab, click the field that you want to analyze in the **Quick Analysis** column.
 
-   ![](assets/646c05de41089b799e7c2e15c9e07cca.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/646c05de41089b799e7c2e15c9e07cca.png)
 
    - Provide grouping statistics for fields of the TEXT type and approximate distribution histogram-based statistics for fields of the LONG and DOUBLE type. For more information, see Text type or Long and double types.
 
    - Provide query statements.
 
-     Click the <img src="assets/2a461e238298fb5977f6eddf69ce09f5.png" width="8" alt=""> icon next to the destination field. You are redirected to the **Graph** tab. A query statement for grouping statistics is provided in the
+     Click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/2a461e238298fb5977f6eddf69ce09f5.png" width="8" alt=""> icon next to the destination field. You are redirected to the **Graph** tab. A query statement for grouping statistics is provided in the
 
      search box.
 
@@ -29944,7 +29944,7 @@ Indexes are configured and the analysis feature is enabled for specified fields.
 
    - Display field names or aliases
 
-     Click the <img src="assets/4b469a32c54134cc0e625fe6b75280b3.png" width="10" alt=""> icon to specify whether to display field names or aliases. Aliases can be set when you configure indexes. For example, if you set the
+     Click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/4b469a32c54134cc0e625fe6b75280b3.png" width="10" alt=""> icon to specify whether to display field names or aliases. Aliases can be set when you configure indexes. For example, if you set the
 
      alias of **host_name** to **host**, **host** is displayed in the Quick Analysis column after you select **Show Field Aliases**.
 
@@ -29956,7 +29956,7 @@ Indexes are configured and the analysis feature is enabled for specified fields.
 
 The quick analysis feature provides grouping statistics for fields of the TEXT type. If you use this method, the first 100,000 log entries are grouped and the ratios of the top 10 groups are returned. For example, you can obtain the following result based on grouping statistics of **request_method**. The GET method is the most common request method.
 
-![](assets/c6236758fa76026fcd2d0fe73054aaa9.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c6236758fa76026fcd2d0fe73054aaa9.png)
 
 **Long and double types**
 
@@ -29964,7 +29964,7 @@ The quick analysis feature provides grouping statistics for fields of the TEXT t
 
   The number of field values of the LONG and DOUBLE types is large. The preceding grouping analytics method is not suitable for the LONG or DOUBLE type. Simple Log Service assigns field values into 10 buckets and displays the approximate distribution of the values in a histogram. The following figure shows the approximate distribution of the **request_time** field. This distribution of field value indicates that most of the request periods are distributed around 1.346 ms.
 
-  ![](assets/32cb56ade8b51088fc6f6827d6a8e9db.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/32cb56ade8b51088fc6f6827d6a8e9db.png)
 
 - Quick analysis on the maximum value, minimum value, average and sum of fields.
 
@@ -30108,7 +30108,7 @@ Security check functions in Log Services are designed based on the globally shar
 
   Display the ISPs and countries in a map.
 
-  ![](assets/cd4982e284dbbef4bc577bd186feb6d2.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/cd4982e284dbbef4bc577bd186feb6d2.png)
 
 - Check internal suspicious requests and send alerts
 
@@ -30121,7 +30121,7 @@ Security check functions in Log Services are designed based on the globally shar
 
   The operator can save this statement as a saved search and configure an alert. An alert is triggered when a client frequently accesses suspicious websites. The statement in the alert can be configured to run every five minutes to check if a client has frequently (more than five times) accessed suspicious websites in the past one hour. The following figure shows the configurations of an alert.
 
-  ![](assets/251e4dff071243466b05c7c5d331030d.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/251e4dff071243466b05c7c5d331030d.png)
 
 <a id="section-4-4-10-3"></a>
 
@@ -30250,7 +30250,7 @@ The subscript operator is used to return the value of a key from a map.
 
   - Query and analysis result
 
-    ![](assets/39b6aab20fe9dc4b158e7470157f252b.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/39b6aab20fe9dc4b158e7470157f252b.png)
 
 **cardinality function**
 
@@ -30287,7 +30287,7 @@ The cardinality function is used to return the size of a map.
 
   - Query and analysis result
 
-    ![](assets/57ff2479b5e7a4fb753c0a93a9edf145.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/57ff2479b5e7a4fb753c0a93a9edf145.png)
 
 **element_at function**
 
@@ -30325,7 +30325,7 @@ The element_at function is used to return the value of a key from a map.
 
   - Query and analysis result
 
-    ![](assets/ae5db3ba2844231a6d4027dd2e4619e2.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ae5db3ba2844231a6d4027dd2e4619e2.png)
 
 **histogram function**
 
@@ -30359,7 +30359,7 @@ The histogram function is used to group query and analysis results and return da
 
   - Query and analysis result
 
-    ![](assets/9a671f31bea75fdfa5405b5572888088.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/9a671f31bea75fdfa5405b5572888088.png)
 
 **histogram_u function**
 
@@ -30393,7 +30393,7 @@ The histogram_u function is used to group query and analysis results and return 
 
   - Query and analysis result
 
-    ![](assets/ffbe28a9e268c615a5d3302df5eb2014.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ffbe28a9e268c615a5d3302df5eb2014.png)
 
 **map function**
 
@@ -30443,7 +30443,7 @@ The map function is used to return an empty map or return a map that is created 
 
     - Query and analysis result
 
-      ![](assets/f45df71c1459b25a7fb802e80fb6ef57.png)
+      ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f45df71c1459b25a7fb802e80fb6ef57.png)
 
   - Example 2: Return an empty map.
 
@@ -30455,7 +30455,7 @@ The map function is used to return an empty map or return a map that is created 
 
     - Query and analysis result
 
-      ![](assets/07df64baa9ecd0e2ed0ec601adb3c87b.png)
+      ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/07df64baa9ecd0e2ed0ec601adb3c87b.png)
 
 **map_agg function**
 
@@ -30497,7 +30497,7 @@ The map_agg function is used to return a map that is created by using *x* and *y
 
   - Query and analysis result
 
-    ![](assets/8f655ecbd9d96fe90d272cbbbbfcdc50.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/8f655ecbd9d96fe90d272cbbbbfcdc50.png)
 
 **map_concat function**
 
@@ -30555,7 +30555,7 @@ The map_concat function is used to return the union of multiple maps.
 
   - Query and analysis result
 
-    ![](assets/5e10def8f05875b2b0e164d98611f027.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5e10def8f05875b2b0e164d98611f027.png)
 
 **Example**
 
@@ -30592,7 +30592,7 @@ The map_filter function is used to filter elements in a map based on a lambda ex
 
   - Query and analysis result
 
-    ![](assets/0bf0dcd4dc3e7b992bc883b7b9dcb5f9.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/0bf0dcd4dc3e7b992bc883b7b9dcb5f9.png)
 
 **map_keys function**
 
@@ -30637,7 +30637,7 @@ The map_keys function is used to return an array that consists of all keys in a 
 
   - Query and analysis result
 
-    ![](assets/49abe6052934c30939d524662943f0f3.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/49abe6052934c30939d524662943f0f3.png)
 
 **map_values function**
 
@@ -30682,7 +30682,7 @@ The map_values function is used to return an array that consists of all values i
 
   - Query and analysis result
 
-    ![](assets/d027cc41d11842f1bcf7fecfbf0b5b86.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d027cc41d11842f1bcf7fecfbf0b5b86.png)
 
 **multimap_agg function**
 
@@ -30724,7 +30724,7 @@ The multimap_agg function is used to return a multimap that is created by using 
 
   - Query and analysis result
 
-    ![](assets/df1200814cc4ba88bcd2dc48ce2fb4bf.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/df1200814cc4ba88bcd2dc48ce2fb4bf.png)
 
 <a id="section-4-4-10-4"></a>
 
@@ -30780,7 +30780,7 @@ This topic describes the syntax of mathematical statistics functions. This topic
 
   - Query and analysis result
 
-    ![](assets/a15e15a2b9c4400489607f319dbea8c9.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/a15e15a2b9c4400489607f319dbea8c9.png)
 
 - Example 2: Query the sample standard deviation and population standard deviation of pre-tax income.
 
@@ -30792,7 +30792,7 @@ This topic describes the syntax of mathematical statistics functions. This topic
 
   - Query and analysis result
 
-    ![](assets/3d0c2036935b3ac558b0d1285c5d52d9.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3d0c2036935b3ac558b0d1285c5d52d9.png)
 
 <a id="section-4-4-10-6"></a>
 
@@ -30858,7 +30858,7 @@ Compare the number of page views (PVs) of today with the number of PVs of the pr
 
 - Query and analysis result
 
-  ![](assets/48e39a89fea64906fcd7355571f654c0.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/48e39a89fea64906fcd7355571f654c0.png)
 
 <a id="section-4-4-10-7"></a>
 
@@ -30918,7 +30918,7 @@ time: upstream_response_time:"80", request_time:"40"
   * | SELECT count(*) AS PV, split_part(request_uri, '?', 1) AS Path GROUP BY Path ORDER BY pv DESC LIMIT 3
   ```
 
-  ![](assets/f4a38a04c2c260a4489af517964ebca9.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f4a38a04c2c260a4489af517964ebca9.jpeg)
 
 - Extract the first four characters (**HTTP**) from the value of the **server_protocol** field and calculate the number of requests that use the HTTP protocol.
 
@@ -30926,7 +30926,7 @@ time: upstream_response_time:"80", request_time:"40"
   * | SELECT substr(server_protocol,1,4) AS protocol, count(*) AS count GROUP BY server_protocol
   ```
 
-  ![](assets/47514ad2485d0383dc6519ef065fdead.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/47514ad2485d0383dc6519ef065fdead.png)
 
 - Use commas (,) and colons (:) to split the value of the **time** field and return a value of the map type.
 
@@ -30934,7 +30934,7 @@ time: upstream_response_time:"80", request_time:"40"
   * | SELECT split_to_map(time,',',':')
   ```
 
-  ![](assets/7b45b61a4727ab313e6925ce1699e4a9.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7b45b61a4727ab313e6925ce1699e4a9.png)
 
 - Check whether the value of the **http_user_agent** field starts with the letter M.
 
@@ -30942,7 +30942,7 @@ time: upstream_response_time:"80", request_time:"40"
   * | SELECT substr(http_user_agent, 1, 1)=chr(77)
   ```
 
-  ![](assets/320a0d8dec2e07a17cb35fc9481b47ef.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/320a0d8dec2e07a17cb35fc9481b47ef.png)
 
 - Return the position of the letter H in the value of the **server_protocol** field.
 
@@ -30950,7 +30950,7 @@ time: upstream_response_time:"80", request_time:"40"
   * | SELECT strpos(server_protocol,'H')
   ```
 
-  ![](assets/cd159ad12f78e501f61fefd3f2443548.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/cd159ad12f78e501f61fefd3f2443548.png)
 
 - Use a forward slash (/) to split the value of the **server_protocol** field into two substrings and return an array of the substrings.
 
@@ -30958,7 +30958,7 @@ time: upstream_response_time:"80", request_time:"40"
   * | SELECT split(server_protocol,'/',2)
   ```
 
-  ![](assets/c47a919ad4c6fa848efc6764ce1d27c7.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c47a919ad4c6fa848efc6764ce1d27c7.png)
 
 - Replace **cn** in the **region** field with **China**.
 
@@ -30966,7 +30966,7 @@ time: upstream_response_time:"80", request_time:"40"
   * | select replace(region,'cn','China')
   ```
 
-  ![](assets/4d10f5f05657122f8eb100506579eb54.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/4d10f5f05657122f8eb100506579eb54.png)
 
 <a id="section-4-4-10-8"></a>
 
@@ -31138,7 +31138,7 @@ You can use the time_series() function to add the missing data when you query in
   * | select time_series(__time__, '2h', '%Y-%m-%d %H:%i:%s', '0')  as time, count(*) as num from log group by time order by time              
   ```
 
-  ![](assets/b779b1b576d0ffe85df40f687cf2d5fc.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b779b1b576d0ffe85df40f687cf2d5fc.png)
 
 <a id="section-4-4-10-9"></a>
 
@@ -31220,7 +31220,7 @@ The following table describes common URL functions.
   </tr>
 </table>
 
-![](assets/461b5c8ac0e44ac8577e427e4167f66e.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/461b5c8ac0e44ac8577e427e4167f66e.png)
 
 <a id="section-4-4-10-10"></a>
 
@@ -31814,7 +31814,7 @@ CASE WHEN statements are used to classify data.
 
     - Query and analysis result
 
-      ![](assets/53b9b99a0699507c7d7710d665d7df14.png)
+      ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/53b9b99a0699507c7d7710d665d7df14.png)
 
   - Query the distribution of requests that are sent at different points in time.
 
@@ -31835,7 +31835,7 @@ CASE WHEN statements are used to classify data.
 
     - Query and analysis result
 
-      ![](assets/c00798ba7ed7eac23edfd875a1cab813.png)
+      ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c00798ba7ed7eac23edfd875a1cab813.png)
 
 **if() function**
 
@@ -31867,7 +31867,7 @@ The if() function is used to classify data. This function is similar to CASE WHE
 
   - Query and analysis result
 
-    ![](assets/5b9e689114e0363f874d86da73dac3bf.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5b9e689114e0363f874d86da73dac3bf.png)
 
 **coalesce() function**
 
@@ -31892,7 +31892,7 @@ The coalesce() function is used to return the first non-null value in multiple c
 
   - Query and analysis result
 
-    ![](assets/409955305b0338fa2781a49120b80dd4.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/409955305b0338fa2781a49120b80dd4.png)
 
     - The value 6514393413.0 indicates the expenses of yesterday.
 
@@ -31922,7 +31922,7 @@ The nullif() function is used to check whether the values of two columns are the
 
     If the values of the **client_ip** and **host** fields are different, the value of the **client_ip** field is returned.
 
-    ![](assets/e7b04292b540369af3684f2c031d41cb.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/e7b04292b540369af3684f2c031d41cb.png)
 
 **try() function**
 
@@ -31944,7 +31944,7 @@ The try() function is used to capture errors to ensure that Log Service can cont
 
   - Query and analysis result
 
-    ![](assets/780905bdab23d32e34a726c5080589d2.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/780905bdab23d32e34a726c5080589d2.png)
 
 <a id="section-4-4-10-20"></a>
 
@@ -32168,7 +32168,7 @@ The subscript operator is used to return the element whose index is *x* from an 
 
   - Query and analysis result
 
-    ![](assets/0aa641ff202e8cfc9a864f5bdde567b8.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/0aa641ff202e8cfc9a864f5bdde567b8.png)
 
 **array_agg function**
 
@@ -32202,7 +32202,7 @@ The array_agg function is used to return an array that consists of all values in
 
   - Query and analysis result
 
-    ![](assets/fab7be91ccb3808f9fdcfd634e0c1351.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/fab7be91ccb3808f9fdcfd634e0c1351.png)
 
 **array_distinct function**
 
@@ -32242,7 +32242,7 @@ The array_distinct function is used to remove duplicate elements from an array.
 
   - Query and analysis result
 
-    ![](assets/eb4136301b17aa5518838ed5bc88d53d.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/eb4136301b17aa5518838ed5bc88d53d.png)
 
 **array_except function**
 
@@ -32277,7 +32277,7 @@ The array_except function is used to return the difference between two arrays.
 
   - Query and analysis result
 
-    ![](assets/a5baebc699f878159ae5b5ebd0db3814.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/a5baebc699f878159ae5b5ebd0db3814.png)
 
 **array_intersect function**
 
@@ -32312,7 +32312,7 @@ The array_intersect function is used to return the intersection of two arrays.
 
   - Query and analysis result
 
-    ![](assets/8a3371b891f05899979f5b7a7bf5a4ef.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/8a3371b891f05899979f5b7a7bf5a4ef.png)
 
 **array_join function**
 
@@ -32356,7 +32356,7 @@ The array_join function is used to concatenate the elements of an array into a s
 
   - Query and analysis result
 
-    ![](assets/5adec934249d7d1a2ae756522f8cbf6d.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5adec934249d7d1a2ae756522f8cbf6d.png)
 
 **array_max function**
 
@@ -32396,7 +32396,7 @@ The array_max function is used to return the maximum value in an array.
 
   - Query and analysis result
 
-    ![](assets/b1a4ac56463ee1a3d4f5049a9ea999cb.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b1a4ac56463ee1a3d4f5049a9ea999cb.png)
 
 **array_min function**
 
@@ -32436,7 +32436,7 @@ The array_min function is used to return the minimum value in an array.
 
   - Query and analysis result
 
-    ![](assets/f0d60f66ef9ed85c39d74e1d4e858604.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f0d60f66ef9ed85c39d74e1d4e858604.png)
 
 **array_position function**
 
@@ -32471,7 +32471,7 @@ The array_position function is used to return the index of a specified element i
 
   - Query and analysis result
 
-    ![](assets/1b0b2024999761f196de81d00a5e1c10.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/1b0b2024999761f196de81d00a5e1c10.png)
 
 **array_remove function**
 
@@ -32506,7 +32506,7 @@ The array_remove function is used to remove a specified element from an array.
 
   - Query and analysis result
 
-    ![](assets/7e257ead92619f15b79c2ae403013ab2.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7e257ead92619f15b79c2ae403013ab2.png)
 
 **array_sort function**
 
@@ -32540,7 +32540,7 @@ The array_sort function is used to sort the elements in an array in ascending or
 
   - Query and analysis result
 
-    ![](assets/0d80ded4ec8aaa8e8a6f195c6df3f5fb.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/0d80ded4ec8aaa8e8a6f195c6df3f5fb.png)
 
 **array_transpose function**
 
@@ -32574,7 +32574,7 @@ The array_transpose function is used to transpose a matrix and return a new two-
 
   - Query and analysis result
 
-    ![](assets/d5a88b49807a00e5c698fe46f928ac7b.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d5a88b49807a00e5c698fe46f928ac7b.png)
 
 **array_union function**
 
@@ -32609,7 +32609,7 @@ The array_union function is used to return the union of two arrays.
 
   - Query and analysis result
 
-    ![](assets/557c13dc9057b299afcecf49e3ff27cd.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/557c13dc9057b299afcecf49e3ff27cd.png)
 
 **cardinality function**
 
@@ -32649,7 +32649,7 @@ The cardinality function is used to return the number of elements in an array.
 
   - Query and analysis result
 
-    ![](assets/372f55ae2f224b6a2c83a809ba484bb3.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/372f55ae2f224b6a2c83a809ba484bb3.png)
 
 **concat function**
 
@@ -32684,7 +32684,7 @@ The concat function is used to concatenate multiple arrays into one array.
 
   - Query and analysis result
 
-    ![](assets/7236d958cc1494115109313a00dceef9.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7236d958cc1494115109313a00dceef9.png)
 
 **contains function**
 
@@ -32725,7 +32725,7 @@ The contains function is used to check whether an array contains a specified ele
 
   - Query and analysis result
 
-    ![](assets/4ad725e4bc3838d499200d580b620299.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/4ad725e4bc3838d499200d580b620299.png)
 
 **element_at function**
 
@@ -32768,7 +32768,7 @@ The element_at function is used to return the element whose index is *y* from an
 
   - Query and analysis result
 
-    ![](assets/e96afd24a2d45fe9c30c01835fe86647.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/e96afd24a2d45fe9c30c01835fe86647.png)
 
 **filter function**
 
@@ -32803,7 +32803,7 @@ The filter function is used to filter elements in an array based on a lambda exp
 
   - Query and analysis result
 
-    ![](assets/9043cfecbd8b5d0b3752409eb6258006.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/9043cfecbd8b5d0b3752409eb6258006.png)
 
 **flatten function**
 
@@ -32837,7 +32837,7 @@ The flatten function is used to transform a two-dimensional array into a one-dim
 
   - Query and analysis result
 
-    ![](assets/f07be51d6952710e47f4a97e5e37c8f7.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f07be51d6952710e47f4a97e5e37c8f7.png)
 
 **reduce function**
 
@@ -32872,7 +32872,7 @@ The reduce function is used to return the sum of the elements in an array based 
 
   - Query and analysis result
 
-    ![](assets/98e7c86761bcd5b7f8f7a6b4836e5279.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/98e7c86761bcd5b7f8f7a6b4836e5279.png)
 
 **reverse function**
 
@@ -32906,7 +32906,7 @@ The reverse function is used to reverse the elements in an array.
 
   - Query and analysis result
 
-    ![](assets/c95980fdeeebc8d3f7b2055c6e98fdac.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c95980fdeeebc8d3f7b2055c6e98fdac.png)
 
 **sequence function**
 
@@ -32950,7 +32950,7 @@ The sequence function is used to return an array of elements within a specified 
 
     - Query and analysis result
 
-      ![](assets/3cfd2c68834addfcfdd1bbecf87e9cc2.png)
+      ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3cfd2c68834addfcfdd1bbecf87e9cc2.png)
 
   - Example 2: Obtain the dates within the range from 2017-10-23 to 2021-08-12 at the incremental step of 1 year.
 
@@ -32962,7 +32962,7 @@ The sequence function is used to return an array of elements within a specified 
 
     - Query and analysis result
 
-      ![](assets/05f799df5759250f0b795ed02dfec1ce.png)
+      ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/05f799df5759250f0b795ed02dfec1ce.png)
 
   - Example 3: Obtain the UNIX timestamps within the range from 1628733298 to 1628734085 at the incremental step of 60 seconds.
 
@@ -32974,7 +32974,7 @@ The sequence function is used to return an array of elements within a specified 
 
     - Query and analysis result
 
-      ![](assets/ee9092ae54951c0e8090bdaed02dc320.png)
+      ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ee9092ae54951c0e8090bdaed02dc320.png)
 
 **shuffle function**
 
@@ -33008,7 +33008,7 @@ The shuffle function is used to shuffle the elements in an array.
 
   - Query and analysis result
 
-    ![](assets/0d1b4464f6fb356a4f03cae4be70c310.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/0d1b4464f6fb356a4f03cae4be70c310.png)
 
 **slice function**
 
@@ -33042,7 +33042,7 @@ The slice function is used to return a subset of an array.
 
   - Query and analysis result
 
-    ![](assets/69c1961d14f703945d52349c491e4dc5.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/69c1961d14f703945d52349c491e4dc5.png)
 
 **transform function**
 
@@ -33077,7 +33077,7 @@ The transform function is used to transform each element in an array by using a 
 
   - Query and analysis result
 
-    ![](assets/4c0410121184897b827e45b66241e69c.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/4c0410121184897b827e45b66241e69c.png)
 
 **zip function**
 
@@ -33112,7 +33112,7 @@ The zip function is used to merge multiple arrays into a two-dimensional array. 
 
   - Query and analysis result
 
-    ![](assets/0f68c271dec19bd6bd9734821dd13a89.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/0f68c271dec19bd6bd9734821dd13a89.png)
 
 **zip_with function**
 
@@ -33148,7 +33148,7 @@ The zip_with function is used to merge two arrays into a single array by using a
 
   - Query and analysis result
 
-    ![](assets/7c4364ac6879aeceaa6c92bf494b0abb.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7c4364ac6879aeceaa6c92bf494b0abb.png)
 
 <a id="section-4-4-10-22"></a>
 
@@ -33233,7 +33233,7 @@ The compare() function is used to compare the calculation result of the current 
 
     The following figure shows the returned result.
 
-    ![](assets/31949a166fdb5706b7879549dde2696a.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/31949a166fdb5706b7879549dde2696a.png)
 
     - **3337.0** indicates the PVs of the current 1 hour, for example, Dec 25, 2020, 14:00:00 ~ Dec 25, 2020, 15:00:00.
 
@@ -33250,7 +33250,7 @@ The compare() function is used to compare the calculation result of the current 
 
     The following figure shows the returned result.
 
-    ![](assets/f859a0ef9985ce67306d14987161b6de.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f859a0ef9985ce67306d14987161b6de.png)
 
     > **Note**
     >
@@ -33279,7 +33279,7 @@ The compare() function is used to compare the calculation result of the current 
 
     The following figure shows the returned result.
 
-    ![](assets/ced80490037d5558d5bb1f76635615ad.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ced80490037d5558d5bb1f76635615ad.png)
 
     - **1176.0** indicates the PVs of the current time period, for example, Dec 25, 2020, 00:00 ~ Dec 25, 2020, 01:00.
 
@@ -33301,7 +33301,7 @@ The compare() function is used to compare the calculation result of the current 
 
     The following figure shows the returned result.
 
-    ![](assets/4f61d0fa94c4f9253d7530b1d1755c7f.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/4f61d0fa94c4f9253d7530b1d1755c7f.png)
 
   - Calculate the ratio of the PVs of December to the PVs of November in the same year.
 
@@ -33314,7 +33314,7 @@ The compare() function is used to compare the calculation result of the current 
 
     The following figure shows the returned result.
 
-    ![](assets/6724d3b1bd74d98e9813392f5a70253c.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/6724d3b1bd74d98e9813392f5a70253c.png)
 
 **ts_compare() function**
 
@@ -33351,7 +33351,7 @@ The ts_compare() function is used to compare the calculation result of the curre
 
   The following figure shows the returned result.
 
-  ![](assets/d42f4ec0db04debdf80e222a9e22338d.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d42f4ec0db04debdf80e222a9e22338d.png)
 
 <a id="section-4-4-10-25"></a>
 
@@ -33491,7 +33491,7 @@ parameter -> expression
 
   - Query and analysis result
 
-    ![](assets/23611e91d1d6112dbf4cc5628b17d2eb.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/23611e91d1d6112dbf4cc5628b17d2eb.png)
 
 - Example 2: 0, (s, x) -> s + x, s -> s
 
@@ -33505,7 +33505,7 @@ parameter -> expression
 
   - Query and analysis result
 
-    ![](assets/98e7c86761bcd5b7f8f7a6b4836e5279.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/98e7c86761bcd5b7f8f7a6b4836e5279.png)
 
 - Example 3: (k,v) -> v > 10 This lambda expression is used to create a map from two arrays. The values of keys in the map are greater than 10.
 
@@ -33517,7 +33517,7 @@ parameter -> expression
 
   - Query and analysis result
 
-    ![](assets/b71727c677b7029da9df88ce09bce4c5.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b71727c677b7029da9df88ce09bce4c5.png)
 
 - Example 4: (x, y) -> (y, x)
 
@@ -33531,7 +33531,7 @@ parameter -> expression
 
   - Query and analysis result
 
-    ![](assets/43c58f2c6a603cd4e594fb2aa60b8b7b.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/43c58f2c6a603cd4e594fb2aa60b8b7b.png)
 
 - Example 5: x -> coalesce(x, 0) + 1
 
@@ -33545,7 +33545,7 @@ parameter -> expression
 
   - Query and analysis result
 
-    ![](assets/4c0410121184897b827e45b66241e69c.png)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/4c0410121184897b827e45b66241e69c.png)
 
 - Additional examples
 
@@ -34434,7 +34434,7 @@ This topic describes the smooth functions that you can use to smooth and filter 
 
   - Query result
 
-    ![](assets/4a904bca464ce49cb74d5b989a2f127e.jpeg)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/4a904bca464ce49cb74d5b989a2f127e.jpeg)
 
 - The following table describes the display items.
 
@@ -34494,7 +34494,7 @@ This topic describes the smooth functions that you can use to smooth and filter 
 
   - Query result
 
-    ![](assets/3134777f4a60e4fdc3edd734206c0977.jpeg)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3134777f4a60e4fdc3edd734206c0977.jpeg)
 
 - Example 2
 
@@ -34506,7 +34506,7 @@ This topic describes the smooth functions that you can use to smooth and filter 
 
   - Query result
 
-    ![](assets/c4db476979cf10df871b4bdece067290.jpeg)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c4db476979cf10df871b4bdece067290.jpeg)
 
 - The following table describes the display items.
 
@@ -34558,7 +34558,7 @@ This topic describes the smooth functions that you can use to smooth and filter 
 
   - Query result
 
-    ![](assets/fbc9ab0d82758b9adef87f77904e2429.jpeg)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/fbc9ab0d82758b9adef87f77904e2429.jpeg)
 
 - The following table describes the display items.
 
@@ -34623,7 +34623,7 @@ Example
 
 - Query result
 
-  ![](assets/d50130cac0c7aa4ce77a8c55f95a7bd6.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d50130cac0c7aa4ce77a8c55f95a7bd6.jpeg)
 
 The following table describes the display items.
 
@@ -34659,7 +34659,7 @@ Example
 
 - Query result
 
-  ![](assets/893c2ca829e6767f5402c4794cdcfcd5.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/893c2ca829e6767f5402c4794cdcfcd5.png)
 
 The following table describes the display items.
 
@@ -34714,7 +34714,7 @@ Example
 
 - Query result
 
-  ![](assets/0d0a25e5d3c8a6715c12e8da171d71a1.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/0d0a25e5d3c8a6715c12e8da171d71a1.jpeg)
 
 The following table describes the display items.
 
@@ -34766,7 +34766,7 @@ Example
 
 - Query result
 
-  ![](assets/60f92592bd17856687cd49c5265f9b6e.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/60f92592bd17856687cd49c5265f9b6e.jpeg)
 
 The following table describes the display items.
 
@@ -34823,7 +34823,7 @@ Example
 
 - Query result
 
-  ![](assets/6f1379344bb74699de2ef4351d290dee.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/6f1379344bb74699de2ef4351d290dee.jpeg)
 
 The following table describes the display items.
 
@@ -34895,7 +34895,7 @@ Example
 
 - Query result
 
-  ![](assets/ff5d675d899cafd8466d918aea2f2308.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ff5d675d899cafd8466d918aea2f2308.jpeg)
 
 The following table describes the display items.
 
@@ -35051,7 +35051,7 @@ Example
 
 - Query result
 
-  ![](assets/7117dd52f6f221cc7b051af2553eeabf.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7117dd52f6f221cc7b051af2553eeabf.png)
 
 The following table describes the display items.
 
@@ -35152,7 +35152,7 @@ Example
 
 - Query result
 
-  ![](assets/6c7ef5e0e1f84e3583a324fae4e50bc9.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/6c7ef5e0e1f84e3583a324fae4e50bc9.jpeg)
 
 The following table describes the display items.
 
@@ -35226,7 +35226,7 @@ Example
 
 - Query result
 
-  ![](assets/c239d7644b013f1133f2b851fd61c2fd.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c239d7644b013f1133f2b851fd61c2fd.png)
 
 The following table describes the display items.
 
@@ -35267,7 +35267,7 @@ Example
 
 - Query result
 
-  ![](assets/f34be2e5312e94b671eb56958086d882.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f34be2e5312e94b671eb56958086d882.jpeg)
 
 The following table describes the display items.
 
@@ -35452,11 +35452,11 @@ Example
 
 - Query result
 
-  ![](assets/161f0c0575f88f0397aa925e884076d8.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/161f0c0575f88f0397aa925e884076d8.jpeg)
 
 The following figure shows the structure of the query result.
 
-![](assets/0b96d4304445ad63a1fa91a95f953d92.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/0b96d4304445ad63a1fa91a95f953d92.png)
 
 The following table describes the display items.
 
@@ -35670,7 +35670,7 @@ The Kernel density estimation function uses the smooth peak function to fit the 
 
   - Response
 
-    ![](assets/0606b573ca120fc0327561d39831e6f5.jpeg)
+    ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/0606b573ca120fc0327561d39831e6f5.jpeg)
 
 <a id="section-4-4-12"></a>
 
@@ -35850,7 +35850,7 @@ Log Service provides the Scheduled SQL feature. You can use the feature to analy
 
 5. On the **Graph** tab, click **Schedule to Save Analysis Results**.
 
-   ![](assets/fcd55ec094f12cce5ed25fdb182f48fc.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/fcd55ec094f12cce5ed25fdb182f48fc.jpeg)
 
 6. Create a Scheduled SQL job.
 
@@ -35923,7 +35923,7 @@ Simple Log Service provides the Scheduled SQL feature. You can use the feature t
 
 5. On the **Graph** tab, click **Schedule to Save Analysis Results**.
 
-   ![](assets/fcd55ec094f12cce5ed25fdb182f48fc.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/fcd55ec094f12cce5ed25fdb182f48fc.jpeg)
 
 6. Create a scheduled SQL job.
 
@@ -36044,7 +36044,7 @@ Simple Log Service provides the Scheduled SQL feature. You can use the feature t
 
    After the Scheduled SQL job is created, you can go to the destination Metricstore to view the execution results of the job. For more information, see Query the result data of a Scheduled SQL job.
 
-   ![](assets/8b16b3482031f5d63c1159f63cbe7731.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/8b16b3482031f5d63c1159f63cbe7731.jpeg)
 
    </li>
 
@@ -36074,7 +36074,7 @@ A Scheduled SQL job is created. For more information, see Process and store data
 
 In the **Basic Information** section, you can view the basic information about the Scheduled SQL job, including Created At, Last Modified At, and Job ID.
 
-![](assets/0bd102e62c6c0e33e5c66a371c8f6045.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/0bd102e62c6c0e33e5c66a371c8f6045.jpeg)
 
 **View the instances of the Scheduled SQL job**
 
@@ -36152,7 +36152,7 @@ After you store the result data of a Scheduled SQL job to a Logstore, you can qu
 
    </ol>
 
-   ![](assets/0bd102e62c6c0e33e5c66a371c8f6045.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/0bd102e62c6c0e33e5c66a371c8f6045.jpeg)
 
 3. Query the result data of the Scheduled SQL job.
 
@@ -36335,7 +36335,7 @@ The time zones of the Scheduled SQL feature are in the  `{±Offset hours}{Minute
 
 When you create a Scheduled SQL job, you can select **Cron** from the drop-down list of the **Specify Scheduling Interval** field and select a time zone.
 
-![](assets/795f1ddb0ba0461408d150169ba9e6f1.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/795f1ddb0ba0461408d150169ba9e6f1.jpeg)
 
 **Common time zones**
 
@@ -37030,7 +37030,7 @@ The Logstore stores the logon operations of a user, and the CSV file records the
 
 - CSV file
 
-  ![](assets/311298a9d21a239a69568d4595be2a7d.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/311298a9d21a239a69568d4595be2a7d.jpeg)
 
 **Procedure**
 
@@ -37087,7 +37087,7 @@ The Logstore stores the logon operations of a user, and the CSV file records the
 
    If the content of the CSV file is returned, the external store is created.
 
-   ![](assets/4892940d8fb777c0282bc4ebe6cd7a6e.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/4892940d8fb777c0282bc4ebe6cd7a6e.png)
 
 6. Execute the following statement to perform a JOIN query on the Logstore and the CSV file. The Logstore is associated with the CSV file based on the value of the **userid** field in the Logstore and the value of the **userid** field in the CSV file. website_log is the name of the Logstore. user_meta is the name of the external store that you created. You can configure the parameters based on your business scenario.
 
@@ -37095,7 +37095,7 @@ The Logstore stores the logon operations of a user, and the CSV file records the
    * | SELECT * FROM website_log JOIN user_meta ON website_log.userid = user_meta.userid
    ```
 
-   ![](assets/99f3b0523dacc9bf2b701effff5d211b.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/99f3b0523dacc9bf2b701effff5d211b.png)
 
 <a id="section-4-4-15"></a>
 
@@ -37197,7 +37197,7 @@ A histogram consists of vertical stripes or line segments that have different he
 
    icon in the right-side Settings section.
 
-   <img src="assets/49912622112d805ef4e338211d5fafbd.png" width="13" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/49912622112d805ef4e338211d5fafbd.png" width="13" alt="">
 
 6. Set the chart configuration items as follows.
 
@@ -37303,11 +37303,11 @@ A radar chart supports comparison of different data across the same dimensions.
 
 For example, a query and analysis result contains four columns: request_method, total, avg_time, and avg_length. These columns represent the total number of requests, average request duration, and average request length for each request method within a specific time range.
 
-![](assets/801246c6f01f46cabb77d9c6207dfb88.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/801246c6f01f46cabb77d9c6207dfb88.png)
 
 For the above query and analysis result, you can use a radar chart to visually display the metrics corresponding to each request method.
 
-![](assets/ee988b31b4c6c594daa8d0395e0fd745.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ee988b31b4c6c594daa8d0395e0fd745.png)
 
 **Procedure**
 
@@ -37323,7 +37323,7 @@ For the above query and analysis result, you can use a radar chart to visually d
 
    icon in the configuration area on the right.
 
-   <img src="assets/4902643d9ce3b4f76797785e2a836104.png" width="14" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/4902643d9ce3b4f76797785e2a836104.png" width="14" alt="">
 
 6. Set the following chart configuration items.
 
@@ -37413,7 +37413,7 @@ A cross table is a form of table layout that allows you to view the data of two 
 
    icon in the right-side Settings section.
 
-   <img src="assets/935f408c2ba3bdbd5d760b538b8d6858.png" width="16" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/935f408c2ba3bdbd5d760b538b8d6858.png" width="16" alt="">
 
 6. Set the chart configuration items as follows.
 
@@ -37468,7 +37468,7 @@ A cross table is a form of table layout that allows you to view the data of two 
      | Alignment Method | The alignment method of the content in cells. |
      | Disable Sorting | If you turn on <strong>Disable Sorting</strong>, sorting is disabled. |
      | Disable Searching | If you turn on <strong>Disable Search</strong>, searching is disabled. |
-     | Search Mode | The mode for searching data in the cross table. Valid values:<br>• <strong>Search</strong>: searches for a specific metric value. The<img src="assets/a5b5f5b703a656a13695e5a1793db3b4.png" width="10" alt="">icon is displayed in the table header.<br>• <strong>Filter</strong>: filters for a specific metric value. The<img src="assets/d753ea93bf2599c8745d7e4c9e9956d9.png" width="10" alt="">icon is displayed in the table header. |
+     | Search Mode | The mode for searching data in the cross table. Valid values:<br>• <strong>Search</strong>: searches for a specific metric value. The<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/a5b5f5b703a656a13695e5a1793db3b4.png" width="10" alt="">icon is displayed in the table header.<br>• <strong>Filter</strong>: filters for a specific metric value. The<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/d753ea93bf2599c8745d7e4c9e9956d9.png" width="10" alt="">icon is displayed in the table header. |
      | Multiple Choices | Specifies whether to enable multiple selections when you search data in the cross table. If you select <strong>Multiple-choice</strong>, you can specify multiple metric values in the search box or filter box. |
      | Exact Search | • If you turn on <strong>Exact Search</strong>, only the metric values that exactly match the specified conditions are returned.<br>• If you turn off <strong>Exact Search</strong>, you can perform fuzzy search. For example, if you search for <code> abc </code>, all values that contain <code> abc </code> are returned. |
      | Font Size | The font size of the content in cells. |
@@ -37528,7 +37528,7 @@ Each map consists of the following elements:
 
    icon..
 
-   <img src="assets/20d58f6e4a3f69e93f7adff9b921511c.png" width="16" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/20d58f6e4a3f69e93f7adff9b921511c.png" width="16" alt="">
 
 6. On the **Properties** tab, configure the properties of the map. In this example, the map of China is selected.
 
@@ -37578,7 +37578,7 @@ The basic components are as follows:
 
    icon.
 
-   <img src="assets/7ba8c8ea92e3ae10ec30e65c53916720.png" width="18" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/7ba8c8ea92e3ae10ec30e65c53916720.png" width="18" alt="">
 
 6. Set the following chart configuration items.
 
@@ -37684,7 +37684,7 @@ Each progress bar consists of the following elements:
 
    icon.
 
-   <img src="assets/dd4b4f8ab1190dd3529dbec3ccdd24e5.png" width="18" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/dd4b4f8ab1190dd3529dbec3ccdd24e5.png" width="18" alt="">
 
 6. On the **Properties** tab, configure the properties of the progress bar.
 
@@ -37742,7 +37742,7 @@ A timeline arranges events in chronological order, either for a single aspect or
 
    icon in the configuration area on the right side, under Chart Type.
 
-   <img src="assets/127770c652a33e8e5762290c09af2364.png" width="16" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/127770c652a33e8e5762290c09af2364.png" width="16" alt="">
 
 6. Configure the following chart parameters.
 
@@ -37793,7 +37793,7 @@ The following table describes the data that can be displayed in a Sankey diagram
 
 The following figure shows the data relationships in a Sankey diagram.
 
-![](assets/207f656fd284de9385e98a55b14d13d3.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/207f656fd284de9385e98a55b14d13d3.png)
 
 **Procedure**
 
@@ -37809,7 +37809,7 @@ The following figure shows the data relationships in a Sankey diagram.
 
    icon.
 
-   <img src="assets/adc05fccca4718e1cc88521049cb4ec7.png" width="16" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/adc05fccca4718e1cc88521049cb4ec7.png" width="16" alt="">
 
 6. On the **Properties** tab, configure the properties of the Sankey diagram.
 
@@ -37854,7 +37854,7 @@ A treemap chart consists of multiple rectangles that represent the data volumes.
 
    icon.
 
-   <img src="assets/b249f62967ccb130e7326e7843c54843.png" width="16" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/b249f62967ccb130e7326e7843c54843.png" width="16" alt="">
 
 6. On the **Properties** tab, configure the properties of the treemap chart.
 
@@ -37873,7 +37873,7 @@ To query the distribution of hostnames in NGINX logs, execute the following quer
 
 Select  `host`  for **Legend Filter** and select  `count`  for **Value Column**.
 
-![](assets/ac31eb05a3a8e2d85d70412651211e48.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ac31eb05a3a8e2d85d70412651211e48.png)
 
 <a id="section-4-4-15-1-11"></a>
 
@@ -37899,7 +37899,7 @@ A funnel chart suits single-flow, unidirectional analysis for business processes
 
    icon in the right-side configuration area under Chart Type.
 
-   <img src="assets/b6f39c56f707c011c825264e6fac7adf.png" width="14" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/b6f39c56f707c011c825264e6fac7adf.png" width="14" alt="">
 
 6. Configure the following chart settings.
 
@@ -37932,7 +37932,7 @@ A heatmap is a data visualization tool that uses rectangles of different colors 
 
    icon in the configuration area on the right side.
 
-   <img src="assets/bc9637d55c18b1de70c0a59b0ec869db.png" width="14" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/bc9637d55c18b1de70c0a59b0ec869db.png" width="14" alt="">
 
 6. Configure the following chart parameters.
 
@@ -37978,7 +37978,7 @@ The basic components are as follows:
 
    icon in the right-side configuration area under Chart Type.
 
-   <img src="assets/d586af42a68fcb23c6651a6fd85a76f6.png" width="16" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/d586af42a68fcb23c6651a6fd85a76f6.png" width="16" alt="">
 
 6. Configure the following chart parameters.
 
@@ -38020,7 +38020,7 @@ The basic components are as follows:
 
    icon in the configuration area on the right side to set the chart type.
 
-   <img src="assets/6b969f1fead0d443eade335a733d8e0b.png" width="14" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/6b969f1fead0d443eade335a733d8e0b.png" width="14" alt="">
 
 6. Configure the following chart parameters.
 
@@ -38057,7 +38057,7 @@ A box chart is a statistical chart that shows the dispersion of a set of data. I
 
    icon in the right-side Settings section.
 
-   <img src="assets/08c5ea7569e028620844f849c77cb207.png" width="13" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/08c5ea7569e028620844f849c77cb207.png" width="13" alt="">
 
 6. Set the chart configuration items as follows.
 
@@ -38167,7 +38167,7 @@ The global settings include the basic settings, standard settings, and attribute
 
 - Pie chart (Pro)
 
-![](assets/729a9eef6996fe77e20484021580b9d8.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/729a9eef6996fe77e20484021580b9d8.jpeg)
 
 **Fields tab**
 
@@ -38187,7 +38187,7 @@ For more information about the descriptions and examples of parameter configurat
 
 - Pie chart (Pro)
 
-![](assets/d7bbf76279146889deec26f054c03075.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/d7bbf76279146889deec26f054c03075.jpeg)
 
 **Differences between the Common Settings and Fields tabs**
 
@@ -38415,11 +38415,11 @@ Variables are placeholders for values. You can use variables in query statements
 
    **> Edit** to go to the edit page.
 
-   <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt="">
 
 5. Specify variables in the query statement.
 
-   ![](assets/3385097f841778cacbddc9cfc0cf8193.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3385097f841778cacbddc9cfc0cf8193.png)
 
 **Configuration description**
 
@@ -38447,7 +38447,7 @@ In the following query statement, change the value of the **request_method** fie
 request_method: * | SELECT __time__ - __time__ %60 AS time, COUNT(1) AS PV GROUP BY time ORDER BY time
 ```
 
-![](assets/3385097f841778cacbddc9cfc0cf8193.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3385097f841778cacbddc9cfc0cf8193.png)
 
 Example 2: Configure variable replacement
 
@@ -38558,7 +38558,7 @@ You can configure personalized display settings for the results of a single quer
 
 For example, in the **A > pv** section, you can configure settings for the **pv** field in the results of Query Statement A. The values of the **pv** field are highlighted after you select Text Highlight from the Column Settings > Cell Display Mode drop-down list and are displayed in different colors based on the specified thresholds.
 
-![](assets/b143f0cd08668687485648ecece2d744.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b143f0cd08668687485648ecece2d744.png)
 
 **Drill-down events**
 
@@ -38566,7 +38566,7 @@ You can configure a drill-down event for the results of a single query statement
 
 For example, in the **A > pv** section, you can configure an Open Logstore drill-down event for the **pv** field in the results of Query Statement A. After you configure the event, you can click a value in the **pv** column of the table and click **Open Logstore**. Then, you are navigated to the Logstore that you specify.
 
-![](assets/ac396066d12d431acbaaabcb157ec079.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ac396066d12d431acbaaabcb157ec079.png)
 
 <a id="section-4-4-15-2-7"></a>
 
@@ -39214,7 +39214,7 @@ The indexing feature is enabled and indexes are configured. For more information
 
    icon.
 
-   <img src="assets/36cedb5117f1e023b867c8a5212a1614.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/36cedb5117f1e023b867c8a5212a1614.png" width="10" alt="">
 
 4. Click the plus sign (**+**) to create a dashboard.
 
@@ -39228,7 +39228,7 @@ After you create a dashboard, you can follow, view, and delete the dashboard.
 
   **> Delete** to delete the dashboard.
 
-  <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+  <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
   > **Important**
   >
@@ -39238,13 +39238,13 @@ After you create a dashboard, you can follow, view, and delete the dashboard.
 
   **> Details** to view the dashboard.
 
-  <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+  <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 - In the Dashboard list, find the dashboard for which you want to create a backup and choose
 
   **> Copy**.
 
-  <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+  <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
   For example, if you click Copy for a dashboard named **test dashboard**, a new dashboard named**test dashboard_copy**is created.
 
@@ -39278,7 +39278,7 @@ By default, the time range that you specify for a dashboard applies to all chart
 
 6. Mover the pointer over the **Time Range** button to confirm the specified time range.
 
-   ![](assets/47f494000f36025425fa332ebed865fb.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/47f494000f36025425fa332ebed865fb.jpeg)
 
 **Enter the edit mode**
 
@@ -39286,7 +39286,7 @@ In the Dashboard list, click the dashboard that you want to modify. On the page 
 
 **Configure an alert rule**
 
-In the upper-right corner of the chart, click and select <img src="assets/cf4a81ad557df1da8883ddf21ed47bd2.png" width="6" alt=""> **>Create Alert** to create an alert rule for the charts on the dashboard. For more information,
+In the upper-right corner of the chart, click and select <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/cf4a81ad557df1da8883ddf21ed47bd2.png" width="6" alt=""> **>Create Alert** to create an alert rule for the charts on the dashboard. For more information,
 
 see Configure an alert rule.
 
@@ -39340,35 +39340,35 @@ You can select a chart and perform the following operations on the chart.
 
 - View analysis details
 
-  Find the chart whose details you want to view, click the <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **View Analysis Details**. On the page that appears, you can view the query
+  Find the chart whose details you want to view, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **View Analysis Details**. On the page that appears, you can view the query
 
   statement and the properties of the chart.
 
 - Specify a time range for a chart
 
-  Find the chart that you want to manage, click the <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **Select Time Range** to specify a time range for the chart.
+  Find the chart that you want to manage, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **Select Time Range** to specify a time range for the chart.
 
 - Configure an alert rule for a chart
 
-  Find the chart for which you want to configure an alert rule, click the <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **Create Alert** to create an alert rule for the chart. For more
+  Find the chart for which you want to configure an alert rule, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **Create Alert** to create an alert rule for the chart. For more
 
   information, see Configure an alert rule.
 
 - Download log data
 
-  Find the chart whose log data you want to download, click the <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **Download Chart Data**. The log data that is returned by the query
+  Find the chart whose log data you want to download, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **Download Chart Data**. The log data that is returned by the query
 
   statement of the chart within the current time range is downloaded in a comma-separated values (CSV) file.
 
 - Check whether a drill-down event is configured for a chart
 
-  Find the chart that you want to check, click the <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and move the pointer over the <img src="assets/25a640d9a1f8d13920453b1dd364eda7.png" width="12" alt=""> icon to check whether a drill-down event is configured for
+  Find the chart that you want to check, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and move the pointer over the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/25a640d9a1f8d13920453b1dd364eda7.png" width="12" alt=""> icon to check whether a drill-down event is configured for
 
   the chart. If the icon is red, a drill-down event is configured for the chart.
 
 - Preview the query statement of a chart
 
-  Find the chart whose query statement you want to preview, click the <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon, and then click the <img src="assets/f0633183016147823b510be42a8c372c.png" width="14" alt=""> icon. In the Preview Query Statement dialog box,
+  Find the chart whose query statement you want to preview, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon, and then click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/f0633183016147823b510be42a8c372c.png" width="14" alt=""> icon. In the Preview Query Statement dialog box,
 
   you can view the query statement of the chart.
 
@@ -39386,7 +39386,7 @@ You can manage a dashboard in edit mode. For example, you can add chart elements
 
    icon.
 
-   <img src="assets/f7f2b2b427e0eb615bbe5ec24bf40b2e.png" width="14" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/f7f2b2b427e0eb615bbe5ec24bf40b2e.png" width="14" alt="">
 
 3. In the Dashboard list, click the dashboard that you want to manage.
 
@@ -39470,7 +39470,7 @@ You can modify, copy, and delete a chart on a dashboard in edit mode.
 
   **> Edit**.
 
-  <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt="">
+  <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt="">
 
   </li>
 
@@ -39512,7 +39512,7 @@ You can modify, copy, and delete a chart on a dashboard in edit mode.
 
   **> Copy**.
 
-  <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt="">
+  <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt="">
 
   </li>
 
@@ -39540,7 +39540,7 @@ You can modify, copy, and delete a chart on a dashboard in edit mode.
 
   **> Delete**.
 
-  <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt="">
+  <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt="">
 
   </li>
 
@@ -39588,7 +39588,7 @@ Drilling is required for data analysis. This feature allows you to analyze data 
 
    icon next to the name of the Logstore in which you want to query and analyze data, and then select **Search & Analysis**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. Enter a query statement in the search box, specify a time range, and then click **Search & Analyze**.
 
@@ -39665,7 +39665,7 @@ This section provides an example on how to store NGINX access logs in a Logstore
 
    - Configure a placeholder variable. Specify the asterisk (\*) to generate a placeholder variable and set the variable name to **method**.
 
-     ![](assets/5b06e74adf71a9d2aa82e9af58144ac1.png)
+     ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5b06e74adf71a9d2aa82e9af58144ac1.png)
 
 2. Configure a drill-down event for the table of request methods and add the table to the RequestMethod dashboard. You need to configure the following settings. For more information, see Procedure.
 
@@ -39689,15 +39689,15 @@ This section provides an example on how to store NGINX access logs in a Logstore
 
      - Set the **Variable** parameter to **method**.
 
-     ![](assets/14d6a50d450035a6fbdba594929a7957.png)
+     ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/14d6a50d450035a6fbdba594929a7957.png)
 
 3. View drill-down results.
 
    On the RequestMethod dashboard, click **GET**. You are redirected to the destination_drilldown dashboard. The asterisk (\*) in the query statement is replaced by the value **GET**. The trend of PVs for GET requests over a specified period of time is displayed in a line chart.
 
-   ![](assets/e64f9772192eab1e2ee428088d5a0799.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/e64f9772192eab1e2ee428088d5a0799.png)
 
-   ![](assets/b9819d009f88bf147d63d09b91cb009b.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b9819d009f88bf147d63d09b91cb009b.png)
 
 <a id="section-4-4-15-3-6"></a>
 
@@ -39745,7 +39745,7 @@ A filter is used to modify query statements or replace placeholder variables for
 
    icon and configure the parameters. Then, click **OK**. The following table describes the parameters.
 
-   <img src="assets/aba17f816997b095bc97cc8c3c934583.png" width="12" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/aba17f816997b095bc97cc8c3c934583.png" width="12" alt="">
 
    | Parameter | Description |
    | --- | --- |
@@ -39798,15 +39798,15 @@ You can use the data transformation feature to standardize, enrich, transfer, ma
 
 - Data standardization: Log data is read from a source Logstore, transformed, and then written to a destination Logstore.
 
-  ![](assets/355b90b9349296253ce8e121369754c9.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/355b90b9349296253ce8e121369754c9.jpeg)
 
 - Data transfer: Log data is read from a source Logstore, transformed, and then written to multiple destination Logstores.
 
-  ![](assets/5cc63f555742a2ebd23bc2044c4e7d0d.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5cc63f555742a2ebd23bc2044c4e7d0d.jpeg)
 
 - Multi-source data aggregation: Log data is read from multiple source Logstores, transformed, and then written to a destination Logstore.
 
-  ![](assets/f6b62fa348393aed637651e235d0e870.jpeg)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f6b62fa348393aed637651e235d0e870.jpeg)
 
 **Transformation syntax**
 
@@ -39980,7 +39980,7 @@ The data transformation feature uses consumer groups to consume log data and use
 
 The data transformation feature of Log Service uses a consumer group to consume log data from the source Logstore in streaming mode, transforms each log based on the specified transformation rule, and then writes the transformed log data to the destination Logstore.
 
-![](assets/4f60dfb4e5d23bd2a57f013df8a64d5e.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/4f60dfb4e5d23bd2a57f013df8a64d5e.jpeg)
 
 - **Scheduling mechanism**
 
@@ -40011,7 +40011,7 @@ e_if(e_search("ret: unknown"), DROP)
 
 The following figure shows the transformation logic.
 
-![](assets/ab5f6e08221083c7a0938ba4478dbe7f.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ab5f6e08221083c7a0938ba4478dbe7f.jpeg)
 
 - Basic logic
 
@@ -40051,7 +40051,7 @@ content: admin login to database.
 
 The following figure shows the transformation logic.
 
-![](assets/35a9f46c0b931a22c2615b936bae4920.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/35a9f46c0b931a22c2615b936bae4920.jpeg)
 
 - Log output
 
@@ -40286,7 +40286,7 @@ Data is collected to Log Service. For more information, see Data collection.
      </tr>
      <tr>
        <td>Advanced Parameter Settings</td>
-       <td>Log Service allows you to set the passwords that are required in the transformation statement in the key-value pair format. For example, you can set a password that is used to connect to a database in the key-value pair format. You can reference passwords in the transformation statement by using the <code> ${key} </code> variable.You can click the plus sign (<strong>+</strong>) to add more key-value pairs. For example, you can add config.vpc.vpc_id.test1:vpc-uf6mskb0b****n9yj, which indicates the ID of the virtual private cloud (VPC) to which an ApsaraDB RDS instance belongs.<br><img src="assets/b464997873704ac10fb5ade690b23555.jpeg" alt=""></td>
+       <td>Log Service allows you to set the passwords that are required in the transformation statement in the key-value pair format. For example, you can set a password that is used to connect to a database in the key-value pair format. You can reference passwords in the transformation statement by using the <code> ${key} </code> variable.You can click the plus sign (<strong>+</strong>) to add more key-value pairs. For example, you can add config.vpc.vpc_id.test1:vpc-uf6mskb0b****n9yj, which indicates the ID of the virtual private cloud (VPC) to which an ApsaraDB RDS instance belongs.<br><img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/b464997873704ac10fb5ade690b23555.jpeg" alt=""></td>
      </tr>
    </table>
 
@@ -40430,7 +40430,7 @@ You can delete a data transformation job by using one of the following methods:
 
   **> Delete**.
 
-  <img src="assets/802fc77ac73492022bc8792b0f8213f2.png" width="10" alt="">
+  <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/802fc77ac73492022bc8792b0f8213f2.png" width="10" alt="">
 
 - On the **Data Transformation Overview** page, choose **More > Delete**.
 
@@ -44630,7 +44630,7 @@ The e_anchor function extracts strings by using the rules specified by anchor_ru
   | Parameter | Type | Required | Description |
   | --- | --- | --- | --- |
   | key | Arbitrary | Yes | The name of the field. |
-  | anchor_rules | String | Yes | The rules that are used to extract strings. Examples: <code> User = </code> <code>*; Severity = *;, </code>. Asterisks (\*) indicate the content that you want to extract.By default, a space is specified before Value in the logs that are displayed in the Key : Value format in the Log Service console.When you configure the anchor_rules parameter, remove the default space.<br>![](assets/c2964e2532a236d72da6adbc12245698.png)<br>Note When you specify the input field, you cannot use asterisks (\*) as prefixes or suffixes. |
+  | anchor_rules | String | Yes | The rules that are used to extract strings. Examples: <code> User = </code> <code>*; Severity = *;, </code>. Asterisks (\*) indicate the content that you want to extract.By default, a space is specified before Value in the logs that are displayed in the Key : Value format in the Log Service console.When you configure the anchor_rules parameter, remove the default space.<br>![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c2964e2532a236d72da6adbc12245698.png)<br>Note When you specify the input field, you cannot use asterisks (\*) as prefixes or suffixes. |
   | fields | Arbitrary | Yes | The names of the output fields whose values are extracted from the value of input field. The field names can be in a string list.Example: <code> ["user", "job", "result"] </code>. If the field names do not contain commas (,), you can use commas (,) to separate the string. Example: <code> "user, job, result" </code>. For information about how to specify special field names, see Event types.Special field names can contain special characters except asterisks (\*).You can use an asterisk (\*) to skip a field. For example, only user and result are extracted from <code> "user,*,result" </code>. For more information, see Example 10. |
   | restrict | Boolean | No | Specifies whether to enable the restricted mode. Default value: False. This value indicates that the restricted mode is disabled.If the number of values that are extracted from the value of the input field differs from the number of output field names, the operation that is performed by the function varies based on the mode.<br>• If the restricted mode is enabled, the function does not perform operations.<br>• If the restricted mode is disabled, the function matches the specified fields to the values and assigns specific values to the fields. |
   | mode | String | No | Default value: overwrite. For more information, see Field extraction check and overwrite modes. |
@@ -61603,11 +61603,11 @@ An alert rule is associated with one or more charts in a dashboard. Each chart d
   >
   > the specified condition, an alert is triggered.
 
-  ![](assets/06b142ffc34144ce00c119b486dcda18.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/06b142ffc34144ce00c119b486dcda18.png)
 
 - A query statement consists of a search statement and an analytic statement. The analytic statement analyzes the log entries that meet the search condition and returns a result. For example, the **\* | select sum(case when status='ok' then 1 else 0 end) \*1.0/count(1) as ratio** statement returns the percentage of the log entries in which the value of the status field is **ok**. If you set the trigger condition of an alert rule to **ratio < 0.9**, an alert is triggered if the percentage of the log entries whose status code is **ok** is less than 90%.
 
-  ![](assets/59f4f84718316a69d2a471d0bb21eb14.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/59f4f84718316a69d2a471d0bb21eb14.png)
 
 <a id="section-4-6-2"></a>
 
@@ -61655,7 +61655,7 @@ For information about common configurations for alert rules, see FAQ about alert
 
    icon.
 
-   <img src="assets/04d5fe4339baf35807157a4ea4ebd410.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/04d5fe4339baf35807157a4ea4ebd410.png" width="10" alt="">
 
 4. In the Dashboard list, click the dashboard that you want to manage.
 
@@ -61663,7 +61663,7 @@ For information about common configurations for alert rules, see FAQ about alert
 
    on the specify chart, choose **Create Alerts**.
 
-   <img src="assets/cf4a81ad557df1da8883ddf21ed47bd2.png" width="6" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/cf4a81ad557df1da8883ddf21ed47bd2.png" width="6" alt="">
 
 6. In the **Alert Configuration** step, configure the parameters and click **Next**.
 
@@ -61672,7 +61672,7 @@ For information about common configurations for alert rules, see FAQ about alert
    | Parameter | Description |
    | --- | --- |
    | Alert Name | The name of the alert rule. The name must be 1 to 64 characters in length. |
-   | Associated Chart | The chart with which you want to associate the alert rule.You can add up to three charts. You can configure an alert rule for up to three query statements at the same time. The number before the chart name is the serial number of the chart. The serial number of the chart is valid in the alert rule. You can use the serial number to specify a chart in the <strong>Trigger Condition</strong> parameter.<br>You can click the<img src="assets/bab35da7b41e2ffdc82f500d76dbd533.png" width="12" alt="">icon next to the Query field to modify the query statement.<br>The <strong>Search Period</strong> parameter specifies the time range of each query. You can select a relative time or a time frame. For example, the current time is <strong>14:30:06</strong>.<br>• If you set the <strong>Search Period</strong> parameter to <strong>15 Minutes(Relative)</strong>, the time range of the query is <strong>14:15:06-14:30:06</strong>.<br>• If you set the <strong>Search Period</strong> parameter to <strong>15 Minutes(Time Frame)</strong>, the time range of the query is <strong>14:15:00-14:30:00</strong>. |
+   | Associated Chart | The chart with which you want to associate the alert rule.You can add up to three charts. You can configure an alert rule for up to three query statements at the same time. The number before the chart name is the serial number of the chart. The serial number of the chart is valid in the alert rule. You can use the serial number to specify a chart in the <strong>Trigger Condition</strong> parameter.<br>You can click the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/bab35da7b41e2ffdc82f500d76dbd533.png" width="12" alt="">icon next to the Query field to modify the query statement.<br>The <strong>Search Period</strong> parameter specifies the time range of each query. You can select a relative time or a time frame. For example, the current time is <strong>14:30:06</strong>.<br>• If you set the <strong>Search Period</strong> parameter to <strong>15 Minutes(Relative)</strong>, the time range of the query is <strong>14:15:06-14:30:06</strong>.<br>• If you set the <strong>Search Period</strong> parameter to <strong>15 Minutes(Time Frame)</strong>, the time range of the query is <strong>14:15:00-14:30:00</strong>. |
    | Frequency | The frequency at which query results are checked. |
    | Trigger Condition | The trigger condition of an alert. If the specified trigger condition is met, an alert is triggered and alert notifications are sent based on the values of the <strong>Frequency</strong> and <strong>Notification Interval</strong> parameters.For example, you can set the trigger condition to <code> pv%100 &gt; 0 &amp;&amp; uv &gt; 0 </code>.<br>Note You can use <code> $serial number </code> to specify a chart in a trigger condition. For example, <code> $0 </code> specifies chart 0. |
    | Advanced |  |
@@ -61906,7 +61906,7 @@ This topic describes how to modify an alert rule. After you create an alert rule
 
    icon.
 
-   <img src="assets/d351cd66a5f1824b7aba70856f302f46.png" width="13" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/d351cd66a5f1824b7aba70856f302f46.png" width="13" alt="">
 
 4. In the Alerts list, click the alert rule that you want to modify.
 
@@ -61924,7 +61924,7 @@ This topic describes how to modify an alert rule. After you create an alert rule
 
    icon next to the Query field.
 
-   <img src="assets/a3d68792b3224831314d46822326013a.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/a3d68792b3224831314d46822326013a.png" width="10" alt="">
 
    > **Note**
    >
@@ -61982,7 +61982,7 @@ Log Service records historical alert statistics in logs and automatically create
 
    **> Search and Analysis**.
 
-   <img src="assets/d435b830861dd95557739c37e1b385e0.png" width="11" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/d435b830861dd95557739c37e1b385e0.png" width="11" alt="">
 
 4. On the page that appears, query alert logs based on your business requirements.
 
@@ -61996,11 +61996,11 @@ Log Service records historical alert statistics in logs and automatically create
 
    icon.
 
-   <img src="assets/62dd91f803f3e667e33dd091f3d6d5bd.png" width="12" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/62dd91f803f3e667e33dd091f3d6d5bd.png" width="12" alt="">
 
 4. In the Dashboard list, click **Alert History Statistics**. The **Alert History Statistics** dashboard displays information about alerts, such as whether an alert is triggered, the reason why the alert is triggered, and the error information and description of the alert.
 
-   ![](assets/e9f651b0d6ea3cd65a9a4bdcb9c7c41d.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/e9f651b0d6ea3cd65a9a4bdcb9c7c41d.png)
 
 <a id="section-4-6-3-3"></a>
 
@@ -62020,7 +62020,7 @@ After you configure an alert, you can manage the alert. For example, you can vie
 
 5. On the Alert Overview page, view the information about the alert. On the **Alert Overview** page, you can view the dashboard to which the alert belongs, the point in time when the alert is configured, the most recent point in time when the alert is updated, the check frequency of the alert, the status of the alert, and the status of the alert notification feature for the alert.
 
-   ![](assets/dac14d4de5550bf9f3d3df8f413827c2.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/dac14d4de5550bf9f3d3df8f413827c2.png)
 
 **Disable or enable an alert**
 
@@ -62032,7 +62032,7 @@ After you configure an alert, you can disable or enable the alert at any time.
 
 On the **Alert Overview** page, click **Disabled** or **Enabled** on the right side of **Status**.
 
-![](assets/ff3a1e8c059d5ec37169d1d50ca52352.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ff3a1e8c059d5ec37169d1d50ca52352.png)
 
 **Suspend or resume the alert notification feature for an alert**
 
@@ -62048,7 +62048,7 @@ If the monitoring status of an alert is **Enabled**, you can suspend the alert n
 
 2. Configure Disabled Duration and click **OK**. After the alert notification feature is suspended, you can view the value of **Monitoring Status** to determine the point in time when the alert notification feature is scheduled to resume. If you want to resume the alert notification feature before the scheduled point in time, you can click **Modify** on the right side of **Monitoring Status**. In the message that appears, click OK.
 
-   ![](assets/2635b4c7c9728e1ac8d14d382c41b763.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/2635b4c7c9728e1ac8d14d382c41b763.png)
 
 **Delete an alert**
 
@@ -62305,7 +62305,7 @@ Download the DingTalk certificate, import the certificate to the physical machin
 
    Information similar to the following example is returned.
 
-   ![](assets/a1b6259c60793561fc2fff3ca736fc9f.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/a1b6259c60793561fc2fff3ca736fc9f.jpeg)
 
    <ol type="i" start="4">
 
@@ -62474,13 +62474,13 @@ Consumption preview is a type of log data consumption. The consumption preview f
 
    icon next to the Logstore, and then select
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
    **Consumption Preview**.
 
 4. In the **Consumption Preview** panel, select a shard and a time range, and then click **Preview**. The Consumption Preview panel displays the log data of the first 10 packets in the specified time range.
 
-   ![](assets/bd3df818cd30123c9fb9ccef8b597cff.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/bd3df818cd30123c9fb9ccef8b597cff.png)
 
 <a id="section-4-7-3"></a>
 
@@ -62784,7 +62784,7 @@ This topic describes how to view the status of a consumer group.
 
    > **Data Consumption**.
 
-   <img src="assets/eda25c22397e2b8f423c9f37e13248d8.png" width="9" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/eda25c22397e2b8f423c9f37e13248d8.png" width="9" alt="">
 
 4. Click the consumer group whose data consumption progress you want to view. The data consumption progress of each shard in the Logstore is displayed.
 
@@ -62873,7 +62873,7 @@ Log Service LogHub provides efficient and reliable log collection and consumptio
 
   Figure 1. Architecture and implementation
 
-  ![](assets/e3d4b3b297ac0a6e35dcbad8b07e4dc7.png)
+  ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/e3d4b3b297ac0a6e35dcbad8b07e4dc7.png)
 
 **Limits**
 
@@ -64247,7 +64247,7 @@ When you use a RAM user to ship data from Log Service to Object Storage Service 
 
    In the search results, the value in the **Role Identifier** column is the ARN of the RAM role.
 
-   ![](assets/694a6dc43658c6e9c603b5a4bab20310.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/694a6dc43658c6e9c603b5a4bab20310.jpeg)
 
 <a id="section-4-8-1-4"></a>
 
@@ -64421,7 +64421,7 @@ OpenTelemetry is a globally accepted standard of distributed tracing, and is com
 
 OpenTelemetry defines data formats, and generates, collects, and sends data. OpenTelemetry does not analyze or visualize data. The Trace application is implemented based on the OpenTelemetry protocol. You can use the application to collect trace data from OpenTelemetry and other platforms, such as Jaeger, Zipkin, and SkyWalking. You can also store, analyze, and visualize trace data.
 
-![](assets/6f0ca40d14bf43a6fccef7534e48687d.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/6f0ca40d14bf43a6fccef7534e48687d.png)
 
 - Multiple import methods
 
@@ -64588,7 +64588,7 @@ Before you select an import method to import trace data to Log Service, take not
 
 - If you do not use an open source standard protocol, we recommend that you use the same import method for all services from which trace data is imported in your tracing system. Otherwise, the trace data that is collected may be incomplete.
 
-![](assets/e021b5076b8488fdc48c16cddd2eccd9.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/e021b5076b8488fdc48c16cddd2eccd9.png)
 
 **Details of import methods**
 
@@ -64999,7 +64999,7 @@ If you use a self-managed framework or have special requirements, you can manual
 
 What do I do if the "Could not find TLS ALPN provider" error message is returned by the Java agent when the OpenJDK version is earlier than 8u252?
 
-![](assets/9e32b9985dfdd02f7172cf37a8b28128.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/9e32b9985dfdd02f7172cf37a8b28128.jpeg)
 
 To resolve this issue, perform the following steps:
 
@@ -65854,7 +65854,7 @@ with tracer.start_as_current_span("foo"):
     print("Hello world!")
 ```
 
-![](assets/227dae4605443541934524dc885966d8.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/227dae4605443541934524dc885966d8.jpeg)
 
 **What to do next**
 
@@ -68430,11 +68430,11 @@ Trace data is collected. For more information, see Import trace data.
 
    For example, you want to query the trace data of the last hour for the user service that has a latency of more than 10 ms. You can set the filter conditions shown in the following figure.
 
-   ![](assets/4e73edf07532a843627bea51780d3c9c.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/4e73edf07532a843627bea51780d3c9c.png)
 
 4. On the **Trace Analysis** tab, view the query results.
 
-   ![](assets/430d234fb3e78a9b69c34b24658f2270.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/430d234fb3e78a9b69c34b24658f2270.png)
 
 5. Set statistics by group
 
@@ -68462,7 +68462,7 @@ Trace data is collected. For more information, see Import trace data.
 
    Log Service lists the information of each service by **service**, for example, the number of spans, queries per second (QPS), and average latency.
 
-   ![](assets/2755b7d07972288464360a8138221eb4.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/2755b7d07972288464360a8138221eb4.png)
 
 <a id="section-4-9-1-7"></a>
 
@@ -68506,7 +68506,7 @@ Trace data is collected. For more information, see Import trace data.
 
 4. View the details of the trace.
 
-   ![](assets/ce364e46b4d2353e26b78fd52a71b1e6.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ce364e46b4d2353e26b78fd52a71b1e6.png)
 
    | No. | Description |
    | --- | --- |
@@ -68648,7 +68648,7 @@ The following procedure describes how to view the trace data imported from Log S
 
 3. Enter `trace` in the **xcol(time)** field. Then, click **Run query** in the upper-right corner.
 
-   ![](assets/30cd24789a400c091857f4cb526e3ca5.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/30cd24789a400c091857f4cb526e3ca5.jpeg)
 
 <a id="section-4-9-1-8-2"></a>
 
@@ -69107,7 +69107,7 @@ This topic describes how to implement OpenTelemetry automatic instrumentation in
    >
    > step. The Auto-Instrumentation name is the value of the **metadata.name** parameter. You can change the name based on your business requirements.
 
-   ![](assets/f4637719cc53cde66b61aed120fb0f0a.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f4637719cc53cde66b61aed120fb0f0a.jpeg)
 
    - Java
 
@@ -70672,7 +70672,7 @@ Log Service supports the Remote Write Protocol. You can use the remote write fea
 
    **>**
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
    </li>
 
@@ -70680,7 +70680,7 @@ Log Service supports the Remote Write Protocol. You can use the remote write fea
 
    **Consumption Preview**. If data is displayed in the **Consumption Preview** panel, Prometheus is correctly configured.
 
-   ![](assets/33580fd4e670881b0dd2c5a942a3b8f3.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/33580fd4e670881b0dd2c5a942a3b8f3.jpeg)
 
 **What to do next**
 
@@ -70946,7 +70946,7 @@ Time series data is collected. For more information, see Collect time series dat
 
    - Enter a query statement in the field next to the Metricstore name and click **Preview**.
 
-     You can click the **Add Query Statement** button or the <img src="assets/6e55b9432ef5f0c7e8cf6da94b969df6.png" width="12" alt=""> icon to add or copy a query statement. Then, enter the query statement and click
+     You can click the **Add Query Statement** button or the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/6e55b9432ef5f0c7e8cf6da94b969df6.png" width="12" alt=""> icon to add or copy a query statement. Then, enter the query statement and click
 
      **Preview**.
 
@@ -70973,14 +70973,14 @@ Example: In the following query statement, set the values of the **host**, **url
 method=~".*", status=~".*", proxy_upstream_name=~".*"}[1m]))') from metrics limit 10000
 ```
 
-![](assets/c471212534a14c4d91195d5d056e9d06.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c471212534a14c4d91195d5d056e9d06.jpeg)
 
 **Related operations**
 
 | Operation | Description |
 | --- | --- |
-| Copy a query statement | On the <strong>Query Statements</strong> tab, click the<img src="assets/6e55b9432ef5f0c7e8cf6da94b969df6.png" width="12" alt="">icon to copy the specified query statement. |
-| View raw data | On the <strong>Query Statements</strong> tab, click the<img src="assets/73633469d987c12add7945c838acc492.png" width="15" alt="">icon to view raw time series data. |
+| Copy a query statement | On the <strong>Query Statements</strong> tab, click the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/6e55b9432ef5f0c7e8cf6da94b969df6.png" width="12" alt="">icon to copy the specified query statement. |
+| View raw data | On the <strong>Query Statements</strong> tab, click the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/73633469d987c12add7945c838acc492.png" width="15" alt="">icon to view raw time series data. |
 | Configure the properties of a time series chart | On the <strong>Properties</strong> tab, configure the properties of the time series chart. For more information, see Configure a time series chart. |
 | Configure Interactive Behavior | Drill-down events are important for data analysis. You can use drill-down events to switch between the levels of data dimensions and the analysis granularities to obtain more detailed information. For more information, see Drill-down events. |
 | Add query and analysis results to a dashboard | Click <strong>Add to New Dashboard</strong> to add the query and analysis results to a dashboard. |
@@ -73134,23 +73134,23 @@ If you use the full regex mode, Log Service automatically generates a regular ex
 
    In the following figure, the log content that is included in the message field is highlighted in orange, and the log content that is not included is highlighted in blue. The figure shows that the substring that follows the  `at`  word is not included in the  `message`  field. Therefore, the regular expression does not match fields in the sample log entry as expected and cannot be used to collect log data.
 
-   ![](assets/ce40fa8b9dfcb6344949c5699b45434d.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ce40fa8b9dfcb6344949c5699b45434d.png)
 
 9. Check whether the regular expression can match fields in the sample log entry that contains two colons (::).
 
    The following figure shows that the regular expression fails to match fields in the sample log entry.
 
-   ![](assets/49ba9d8d1b947a1ba272c0d79715cb19.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/49ba9d8d1b947a1ba272c0d79715cb19.png)
 
 0. Replace the last subexpression in the regular expression with  `[\S\s]+` , and check whether the regular expression can match fields in the sample log entries as expected.
 
    The following figure shows how the modified regular expression matches the substring that follows the  `at`  word.
 
-   ![](assets/03237a2f8d9069da30173bedb382c66f.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/03237a2f8d9069da30173bedb382c66f.png)
 
    The following figure shows how the modified regular expression matches the sample log entry that contains two colons (::).
 
-   ![](assets/efbade7c1c52b246d731c2b81a4c6628.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/efbade7c1c52b246d731c2b81a4c6628.png)
 
    You can perform the preceding steps to debug your regular expression. After you validate the regular expression, you can apply the expression to a Logtail configuration.
 
@@ -73268,17 +73268,17 @@ If you collect logs in delimiter mode, Log Service allows you to specify a non-p
 
 5. Copy the returned result. A non-printable character is enclosed in double quotation marks (").
 
-   ![](assets/0fc2cc2f9b85a35e9d21fe1a4545bc5c.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/0fc2cc2f9b85a35e9d21fe1a4545bc5c.png)
 
 6. Paste the returned result between the digits 5 and 6.
 
    In the **Logtail Config** step, paste the result in the **Log Sample** field. For more information, see Collect logs in delimiter mode.
 
-   ![](assets/b6dc12273aca98803eba9847944b3c6e.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b6dc12273aca98803eba9847944b3c6e.png)
 
 7. Delete the double quotation marks (") between the digits 5 and 6. A non-printable character is configured in a sample log.
 
-   ![](assets/60655bb69597fffc08ef49a4758cf32d.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/60655bb69597fffc08ef49a4758cf32d.png)
 
 <a id="section-4-13-1-9"></a>
 
@@ -73592,7 +73592,7 @@ Log Service allows you to collect logs from containers. You can specify the cont
 
    2ba4ebdaf503 in the response indicates the ID of the container.
 
-   ![](assets/3fb25eef223e7a3c0623067125040e24.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3fb25eef223e7a3c0623067125040e24.jpeg)
 
 3. Run the following command to obtain the labels of the container. The *2ba4ebdaf503* variable in the command is the ID of a container. Replace the value of the variable with an actual ID.
 
@@ -73602,7 +73602,7 @@ Log Service allows you to collect logs from containers. You can specify the cont
 
    The **Labels** field in the response indicates the container labels.
 
-   ![](assets/7067adbe10a1965b92b80407f08309eb.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7067adbe10a1965b92b80407f08309eb.jpeg)
 
 **Obtain environment variables**
 
@@ -73616,7 +73616,7 @@ Log Service allows you to collect logs from containers. You can specify the cont
 
    2ba4ebdaf503 in the response indicates the ID of the container.
 
-   ![](assets/3fb25eef223e7a3c0623067125040e24.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3fb25eef223e7a3c0623067125040e24.jpeg)
 
 3. Run the following command to obtain the environment variables of the container. The *2ba4ebdaf503* variable in the command is the ID of a container. Replace the value of the variable with an actual ID.
 
@@ -73624,7 +73624,7 @@ Log Service allows you to collect logs from containers. You can specify the cont
    docker exec 2ba4ebdaf503 env
    ```
 
-   ![](assets/375ab8598774884da1e063c6fed1bba1.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/375ab8598774884da1e063c6fed1bba1.jpeg)
 
 <a id="section-4-13-1-11"></a>
 
@@ -73738,9 +73738,9 @@ Server
 
 Project
 
-![](assets/e6c3bc87b8e27f5fd005ac598a01f7d3.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/e6c3bc87b8e27f5fd005ac598a01f7d3.png)
 
-![](assets/63949c77ee2cb7d0196148c1b1edef68.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/63949c77ee2cb7d0196148c1b1edef68.png)
 
 LoongCollector configuration file
 
@@ -73836,7 +73836,7 @@ When the heartbeat status is FAIL, it may take some time to establish the initia
 
    <li>
 
-   Click the <img src="assets/e6d30e740cd0a86dd7958764eda66507.jpeg" width="9" alt=""> icon to the right of the project name to go to the project overview page.
+   Click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/e6d30e740cd0a86dd7958764eda66507.jpeg" width="9" alt=""> icon to the right of the project name to go to the project overview page.
 
    </li>
 
@@ -73902,7 +73902,7 @@ When the heartbeat status is FAIL, it may take some time to establish the initia
 
    <li>
 
-   In the navigation pane on the left, choose <img src="assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt=""> Resources > Machine Groups. On the Machine Groups page, click the target machine group.
+   In the navigation pane on the left, choose <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt=""> Resources > Machine Groups. On the Machine Groups page, click the target machine group.
 
    </li>
 
@@ -73971,7 +73971,7 @@ A previously successful heartbeat indicates that the configuration items are cor
 
 3. Log on to the Simple Log Service console. In the Projects section, click the target project.
 
-4. In the navigation pane on the left, choose <img src="assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt=""> Resources > Machine Groups. On the Machine Groups page, click the target machine group.
+4. In the navigation pane on the left, choose <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt=""> Resources > Machine Groups. On the Machine Groups page, click the target machine group.
 
 5. On the **Machine Group Settings** page, check whether the **IP Address** field contains the value of the  `ip`  field from  `/usr/local/ilogtail/app_info.json` . If it does not, add the value of the  `ip`  field to the **IP Address** field.
 
@@ -73992,7 +73992,7 @@ When an IP address conflict or change occurs, an IP-based machine group is no lo
 
 3. Log on to the Simple Log Service console. In the Projects section, click the target project.
 
-4. In the navigation pane on the left, choose <img src="assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt=""> Resources > Machine Groups. On the Machine Groups page, click the target machine group.
+4. In the navigation pane on the left, choose <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/366ef7747815652a48c8776124964a14.jpeg" width="13" alt=""> Resources > Machine Groups. On the Machine Groups page, click the target machine group.
 
 5. On the **Machine Group Settings** page, confirm the values of the following two parameters. If they are incorrect, click **Modify** in the upper-right corner, make the necessary changes, and then save them.
 
@@ -74062,7 +74062,7 @@ If no data is displayed on the query page during log collection, the possible ca
 
 1. Check the consumption preview in the Logstore on the console to see if logs are collected. If logs are collected but no data is returned from a query, this is usually because you have not created an index.
 
-   ![](assets/5216612e5d55a4724c57f64d74e76516.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5216612e5d55a4724c57f64d74e76516.jpeg)
 
 2. No new logs: If the log file to be collected is not updated, no logs are collected.
 
@@ -74596,7 +74596,7 @@ For example, if more than five error logs are detected in the previous 5 minutes
 
    icon.
 
-   <img src="assets/62dd91f803f3e667e33dd091f3d6d5bd.png" width="12" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/62dd91f803f3e667e33dd091f3d6d5bd.png" width="12" alt="">
 
 4. In the Dashboard list, click the dashboard for which you want to configure alert rules.
 
@@ -74604,11 +74604,11 @@ For example, if more than five error logs are detected in the previous 5 minutes
 
    **> Create Alert**.
 
-   <img src="assets/cf4a81ad557df1da8883ddf21ed47bd2.png" width="6" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/cf4a81ad557df1da8883ddf21ed47bd2.png" width="6" alt="">
 
 6. In the **Create Alert** panel, set the parameters. The following figure shows the parameter settings.
 
-   ![](assets/057bcdc6608c36f489c4c1a29ff65bc2.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/057bcdc6608c36f489c4c1a29ff65bc2.png)
 
    The following example shows how to set the parameters:
 
@@ -74677,7 +74677,7 @@ Tablestore is a NoSQL data storage service independently developed by Alibaba Cl
 
 A data model that consists of tables, rows, primary keys, and attribute columns in Tablestore. The following figure shows an example of a data model.
 
-![](assets/b38f8dc2650f133d153a9de65639e851.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b38f8dc2650f133d153a9de65639e851.png)
 
 **max versions**
 
@@ -74936,7 +74936,7 @@ After you create an instance, you can perform the following actions on it.
 
   | Feature | Actions |
   | --- | --- |
-  | View instance details | On the <strong>Instance Details</strong> tab, you can view instance endpoints, basic information, and usage information. You can also modify the instance alias or description and manage data tables.<br>• View instance endpoints In the <strong>Instance Access URL</strong> section, view the classic network endpoint and classic network HTTPS endpoint for the instance.<br>• View basic instance information In the <strong>Basic Information</strong> section, view information such as the instance name, instance alias, creation time, and instance description.<br>• View instance usage information In the <strong>Usage Details</strong> section, view the table data size, table size update time, and the total number of tables/upper limit.<br>• Modify the instance alias or description<br>In the <strong>Basic Information</strong> section, click the<img src="assets/aafdeba4545f481babe59848e33e146a.png" width="15" alt="">icon next to the instance name or instance description to modify the<br>information as needed.<br>• Manage data tables In the <strong>Tables</strong> section, click <strong>Create table</strong> to create a data table.After you create a data table, you can perform operations such as searching for tables, querying data, managing indexes, using Tunnel Service, and deleting tables. |
+  | View instance details | On the <strong>Instance Details</strong> tab, you can view instance endpoints, basic information, and usage information. You can also modify the instance alias or description and manage data tables.<br>• View instance endpoints In the <strong>Instance Access URL</strong> section, view the classic network endpoint and classic network HTTPS endpoint for the instance.<br>• View basic instance information In the <strong>Basic Information</strong> section, view information such as the instance name, instance alias, creation time, and instance description.<br>• View instance usage information In the <strong>Usage Details</strong> section, view the table data size, table size update time, and the total number of tables/upper limit.<br>• Modify the instance alias or description<br>In the <strong>Basic Information</strong> section, click the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/aafdeba4545f481babe59848e33e146a.png" width="15" alt="">icon next to the instance name or instance description to modify the<br>information as needed.<br>• Manage data tables In the <strong>Tables</strong> section, click <strong>Create table</strong> to create a data table.After you create a data table, you can perform operations such as searching for tables, querying data, managing indexes, using Tunnel Service, and deleting tables. |
   | View instance monitoring data | On the <strong>Instance Monitoring</strong> tab, select a time range and monitoring metrics to view data such as requests per second, row count statistics, traffic statistics, and Capacity Unit usage. For more information, see View instance monitoring data. |
   | Manage network configurations | On the <strong>Network Management</strong> tab, you can bind or unbind VPCs and view the list of VPC instances. For more information, see Bind a VPC. |
 
@@ -75024,7 +75024,7 @@ This topic describes how to create a data table in the Tablestore console.
    >
    > Tablestore uses a schema-free model. You can write any columns to a row without the need to specify the schema. When you create a data table, you can also predefine columns and specify the data types of the predefined columns.
 
-   <img src="assets/c72156f9066ffef2357236657ab8dec0.jpeg" width="17" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/c72156f9066ffef2357236657ab8dec0.jpeg" width="17" alt="">
 
    </li>
 
@@ -75070,7 +75070,7 @@ This topic describes how to create a data table in the Tablestore console.
 
 7. Click **OK**.
 
-   After a data table is created, you can view the data table in the **Tables** section. If the data table that you created is not displayed, click the <img src="assets/98bc4a32cda0e2d868d4931d8729f0d1.png" width="20" alt=""> icon
+   After a data table is created, you can view the data table in the **Tables** section. If the data table that you created is not displayed, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/98bc4a32cda0e2d868d4931d8729f0d1.png" width="20" alt=""> icon
 
    to refresh the table list.
 
@@ -75081,7 +75081,7 @@ After a data table is created, you can perform operations on the data table. The
 | Operation | Description |
 | --- | --- |
 | Manage a data table | After a data table is created, you can view the detailed information about the data table, manage the data in the table, manage the secondary indexes and search indexes created for the data table, use real-time data consumption tunnels, and view the monitoring metrics of the data table or indexes.Click the name of the data table that you want to manage. On the <strong>Manage Table</strong> page, click different tabs to perform different operations.<br>• On the <strong>Basic Information</strong> tab, you can view the basic information, advanced features, and primary key columns of the data table. You can also modify the attributes of the table, such as the TTL value, add or delete predefined columns, and enable or disable the Stream feature.<br>• On the <strong>Query Data</strong> tab, you can insert rows of data, update data, query data by using the primary key or secondary indexes of the data table, retrieve data by using search indexes, view data details, and delete multiple data records at a time.<br>• On the <strong>Indexes</strong> tab, you can create secondary indexes or search indexes, view index details, use indexes to query data, and delete indexes.<br>• On the <strong>Tunnels</strong> tab, you can enable the Stream feature, create and delete tunnels, and view the channels of a tunnel.<br>• On the <strong>Monitoring Indicators</strong> tab, you can configure the Time Range, Metric Group, and Operation Type parameters to view the data of monitoring metrics of the table or indexes.The monitoring metrics include service monitoring overview, average access latency, queries per second (QPS), number of rows, and traffic statistics. |
-| Delete a data table | Important If you delete a data table, the table and the data in the table are permanently deleted from Tablestore and cannot be restored.Proceed with caution.<br>Important<br>• 删除数据表时，系统会永久删除数据表及表中数据，且删除后的数据表及表中数据无法恢复，请谨慎操作。<br>• 删除数据表前请确保已删除创建的索引，否则数据表将删除失败。<br>You can delete a data table if the data table is no longer used.<br>1. Find the data table that you want to delete. Click the<img src="assets/48314151a97cee0e83ef05c34033aada.png" width="10" alt="">icon in the <strong>Actions</strong> column, and then click <strong>Delete</strong>.<br>2. In the <strong>Delete Table</strong> message, confirm the information about the data table. Then, click <strong>OK</strong>. |
+| Delete a data table | Important If you delete a data table, the table and the data in the table are permanently deleted from Tablestore and cannot be restored.Proceed with caution.<br>Important<br>• 删除数据表时，系统会永久删除数据表及表中数据，且删除后的数据表及表中数据无法恢复，请谨慎操作。<br>• 删除数据表前请确保已删除创建的索引，否则数据表将删除失败。<br>You can delete a data table if the data table is no longer used.<br>1. Find the data table that you want to delete. Click the<img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/48314151a97cee0e83ef05c34033aada.png" width="10" alt="">icon in the <strong>Actions</strong> column, and then click <strong>Delete</strong>.<br>2. In the <strong>Delete Table</strong> message, confirm the information about the data table. Then, click <strong>OK</strong>. |
 
 <a id="section-5-3-4"></a>
 
@@ -75127,7 +75127,7 @@ You can update data in the attribute columns of a row.
 
    - To add an attribute column, click **Add Column**.
 
-   - To delete an attribute column, click the <img src="assets/07e9fc04c52c04a8d526f887c8fa19ba.png" width="10" alt=""> icon.
+   - To delete an attribute column, click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/07e9fc04c52c04a8d526f887c8fa19ba.png" width="10" alt=""> icon.
 
    - In the first Actions column, if you select **Update**, you can modify the data in attribute columns. If you select **Delete**, you can delete the data of the selected version. If you select **Delete All**, you can delete all versions of the data.
 
@@ -75359,7 +75359,7 @@ After the Stream feature is enabled for a data table, the system periodically de
 
 3. In the **Tables** section on the **Instance Details** tab, click the name of the data table that you want to manage. On the Manage Table page, click the
 
-   <img src="assets/48314151a97cee0e83ef05c34033aada.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/48314151a97cee0e83ef05c34033aada.png" width="10" alt="">
 
    Tunnels tab. You can also click the
 
@@ -75387,7 +75387,7 @@ After you create a tunnel for a data table, you can use the tunnel to consume hi
 
 3. In the **Tables** section on the **Instance Details** tab, click the name of the data table that you want to manage. On the Manage Table page, click the
 
-   <img src="assets/48314151a97cee0e83ef05c34033aada.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/48314151a97cee0e83ef05c34033aada.png" width="10" alt="">
 
    Tunnels tab. You can also click the
 
@@ -75429,7 +75429,7 @@ You can simulate data consumption by writing or deleting data and preview the da
 
    In the **Tables** section on the **Instance Details** tab, click the name of the data table that you want to manage. On the Manage Table page, click the
 
-   <img src="assets/48314151a97cee0e83ef05c34033aada.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/48314151a97cee0e83ef05c34033aada.png" width="10" alt="">
 
    </li>
 
@@ -75451,7 +75451,7 @@ You can simulate data consumption by writing or deleting data and preview the da
 
    Find the channel in which you want to simulate data consumption. Click **View Simulated Export Records** in the Actions column. In the dialog box that appears, click **Start**.
 
-   ![](assets/6233a55ec7b716ae5c30dfce6b795597.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/6233a55ec7b716ae5c30dfce6b795597.png)
 
    </li>
 
@@ -75481,7 +75481,7 @@ You can use a Tablestore SDK in any programming language for Tunnel Service to e
 
    In the **Tables** section on the **Instance Details** tab, click the name of the data table that you want to manage. On the Manage Table page, click the
 
-   <img src="assets/48314151a97cee0e83ef05c34033aada.png" width="10" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/48314151a97cee0e83ef05c34033aada.png" width="10" alt="">
 
    </li>
 
@@ -75705,7 +75705,7 @@ If you create a secondary index for a data table and the data table does not con
    >
    > icon next to
    >
-   > <img src="assets/cab7256941fc778e7b149ce7763c1a40.png" width="8" alt="">
+   > <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/cab7256941fc778e7b149ce7763c1a40.png" width="8" alt="">
    >
    > the predefined column.
 
@@ -75713,7 +75713,7 @@ If you create a secondary index for a data table and the data table does not con
 
    The predefined columns that you add are displayed in the Pre-defined Column section.
 
-   To delete a predefined column that you no longer need, find the predefined column and click the <img src="assets/cab7256941fc778e7b149ce7763c1a40.png" width="8" alt=""> icon in the Remove Pre-Defined Column column.
+   To delete a predefined column that you no longer need, find the predefined column and click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/cab7256941fc778e7b149ce7763c1a40.png" width="8" alt=""> icon in the Remove Pre-Defined Column column.
 
 **Step 2: Create a secondary index**
 
@@ -76365,7 +76365,7 @@ Except for join operations, transactions, and relevance analysis, Tablestore cov
 
 If your use case does not involve join operations, transaction processing, or complex relevance analysis, you can choose to use Tablestore Search Index.
 
-![](assets/a7cd00b5d7359243598139c2f2058287.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/a7cd00b5d7359243598139c2f2058287.png)
 
 **Index introduction**
 
@@ -76373,7 +76373,7 @@ Search Index uses inverted indexing and columnar storage to solve challenges in 
 
 The following figure illustrates the principles of inverted indexing and columnar storage used by Search Index, along with its multidimensional spatial index structure.
 
-![](assets/ea3d013721f07b03113b58ddeebc55da.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ea3d013721f07b03113b58ddeebc55da.jpeg)
 
 Search Index usage differs from traditional databases like MySQL. It has no leftmost matching rule restrictions and offers great flexibility. In most cases, you need only one Search Index per table. For example, suppose you have a student table with columns for name, student ID, gender, grade, class, and home address. To support arbitrary combination queries such as  `students whose name equals Zhang San and grade is third grade` ,  `male students whose home address is within 1 kilometer nearby` , or  `students in Class 2 of Grade 3 who live in a specific residential area` , create one Search Index and include all these columns in it.
 
@@ -77291,7 +77291,7 @@ The following process describes how to dynamically modify a schema with ease. Th
 
    icon in front of the source index or click the name of the source index.
 
-   <img src="assets/29c7e5dd6cf5d12d15309b0815b3b82b.png" width="12" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/29c7e5dd6cf5d12d15309b0815b3b82b.png" width="12" alt="">
 
    The system displays the canary index of the source index.
 
@@ -79235,9 +79235,9 @@ Distance measurement algorithms supported by vector retrieval include Euclidean 
 
 | MetricType | Formula | Featur e | Description |
 | --- | --- | --- | --- |
-| Euclidean distance euclidean | ![](assets/0f1ded13fb1606ec40bf0ab1037c13f9.jpeg) | Relative ly high | Measures the shortest path between two vectors in a multi-dimensional space. The euclidean distance algorithm in Tablestore does not perform the final square root calculation to achieve better performance. A greater value that is obtained by using the euclidean distance algorithm indicates a higher similarity between two vectors. |
-| Dot product dot_product | ![](assets/f43ef6ce68246e65307bbbc61752ab83.jpeg) | Highest | Multiplies the corresponding coordinates of two vectors of the same dimension and adds the products. A greater value that is obtained by using the dot product algorithm indicates a higher similarity between two vectors.<br>Important Float32 vectors must be normalized before they are written to tables.For example, you can use the L2 norm to normalize Float32 vectors. If you do not normalize Float32 vectors before they are written to tables, you may encounter issues such as inaccurate query results, slow construction of vector indexes, and poor query performance. |
-| Cosine similarity cosine | ![](assets/c4771e61530ef242e94bb6ba7da50cbf.jpeg) | Relative ly low | Calculates the cosine of the angle between two vectors in a vector space. A greater value that is obtained by using the cosine similarity algorithm indicates a higher similarity between two vectors. In most cases, the algorithm is used to calculate the similarity between text data.If 0 is used as a divisor, the cosine similarity cannot be calculated because it does not allow 0 to be used as a divisor. Therefore, the sum of squares of Float32 vectors cannot be 0.<br>Important The process to calculate cosine similarity is complex. We recommend that you normalize vectors before you write data to tables and use the dot product algorithm to measure the distance between vectors. |
+| Euclidean distance euclidean | ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/0f1ded13fb1606ec40bf0ab1037c13f9.jpeg) | Relative ly high | Measures the shortest path between two vectors in a multi-dimensional space. The euclidean distance algorithm in Tablestore does not perform the final square root calculation to achieve better performance. A greater value that is obtained by using the euclidean distance algorithm indicates a higher similarity between two vectors. |
+| Dot product dot_product | ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f43ef6ce68246e65307bbbc61752ab83.jpeg) | Highest | Multiplies the corresponding coordinates of two vectors of the same dimension and adds the products. A greater value that is obtained by using the dot product algorithm indicates a higher similarity between two vectors.<br>Important Float32 vectors must be normalized before they are written to tables.For example, you can use the L2 norm to normalize Float32 vectors. If you do not normalize Float32 vectors before they are written to tables, you may encounter issues such as inaccurate query results, slow construction of vector indexes, and poor query performance. |
+| Cosine similarity cosine | ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c4771e61530ef242e94bb6ba7da50cbf.jpeg) | Relative ly low | Calculates the cosine of the angle between two vectors in a vector space. A greater value that is obtained by using the cosine similarity algorithm indicates a higher similarity between two vectors. In most cases, the algorithm is used to calculate the similarity between text data.If 0 is used as a divisor, the cosine similarity cannot be calculated because it does not allow 0 to be used as a divisor. Therefore, the sum of squares of Float32 vectors cannot be 0.<br>Important The process to calculate cosine similarity is complex. We recommend that you normalize vectors before you write data to tables and use the dot product algorithm to measure the distance between vectors. |
 
 **Usage notes**
 
@@ -79353,8 +79353,8 @@ In this example, 0.1 billion images are stored in a table and 50,000 images belo
 
 | Combination | Query condition | Description |
 | --- | --- | --- |
-| Boolean query in the filter of KNN vector query | ![](assets/c86b125e9741309357bbdc98a4260e04.jpeg) | The rows that meet the query conditions of KNN vector query are the top K rows that meet the query conditions of Boolean query. The top K rows have the highest similarity to the vector that User A wants to query. The number of rows in the response to SearchRequest is determined based on the value of the Size parameter. The Size parameter specifies the number of rows that User A wants to return in order of similarity from high to low among the top K rows.When this combination is used, a filter of KNN vector query is used to obtain all images of User A that are stored in the previous seven days, which are 50 images. Then, the top 10 images that have the highest similarity to the image that User A wants to query among the 50 images are found and returned to User A. |
-| KNN vector query in Boolean query | ![](assets/ae08f9d55169ff3a3bbf2d1c833536d5.jpeg) | Each subquery condition of Boolean query is matched first, and then the intersection of the results of all subqueries is calculated.In this example, KnnVectorQuery will return the top TopK=500 images that are most similar among the 0.1 billion images in the table, and then find the 10 images of user "a" within 7 days in order. However, because the TopK=500 images of all images may not contain all 50 images of user "a" in the past 7 days, this query method may not find 10 images in the past 7 days, or even any data. |
+| Boolean query in the filter of KNN vector query | ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c86b125e9741309357bbdc98a4260e04.jpeg) | The rows that meet the query conditions of KNN vector query are the top K rows that meet the query conditions of Boolean query. The top K rows have the highest similarity to the vector that User A wants to query. The number of rows in the response to SearchRequest is determined based on the value of the Size parameter. The Size parameter specifies the number of rows that User A wants to return in order of similarity from high to low among the top K rows.When this combination is used, a filter of KNN vector query is used to obtain all images of User A that are stored in the previous seven days, which are 50 images. Then, the top 10 images that have the highest similarity to the image that User A wants to query among the 50 images are found and returned to User A. |
+| KNN vector query in Boolean query | ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/ae08f9d55169ff3a3bbf2d1c833536d5.jpeg) | Each subquery condition of Boolean query is matched first, and then the intersection of the results of all subqueries is calculated.In this example, KnnVectorQuery will return the top TopK=500 images that are most similar among the 0.1 billion images in the table, and then find the 10 images of user "a" within 7 days in order. However, because the TopK=500 images of all images may not contain all 50 images of user "a" in the past 7 days, this query method may not find 10 images in the past 7 days, or even any data. |
 
 **Appendix 2: Vector normalization example**
 
@@ -79392,7 +79392,7 @@ This topic describes how to use the aggregation feature of Tablestore for data a
 
 The complete execution workflow of aggregation is shown in the following figure.
 
-![](assets/c831e681f39c87bb764a2825a35135eb.png)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/c831e681f39c87bb764a2825a35135eb.png)
 
 The system executes statistical aggregation after it completes the "query" phase on the server side. The server aggregates all documents that the "query" phase hits, based on the query request. Therefore, a request with statistical aggregation is more complex than a request without statistical aggregation.
 
@@ -79639,7 +79639,7 @@ In the Tablestore console, you can view the monitoring data of an instance, such
 
    - By default, **Overview** is selected for Metric Group. You can specify a value for **Operation Type** to view the monitoring data of all metric groups regarding the specified operation type.
 
-     Click the <img src="assets/b858a7ad1b83c8ad989d1b74eadf4d3c.png" width="9" alt=""> icon in the upper-right corner of the chart to view the monitoring data in the enlarged chart.
+     Click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/b858a7ad1b83c8ad989d1b74eadf4d3c.png" width="9" alt=""> icon in the upper-right corner of the chart to view the monitoring data in the enlarged chart.
 
    - If you want to view the monitoring data of all operation types based on a specific metric group, set **Metric Group** to the required metric group. For example, you can set Metric Group to QPS.
 
@@ -79679,7 +79679,7 @@ In the Tablestore console, you can view monitoring data such as the average acce
 
    </ol>
 
-2. In the **Tables** section of the **Instance Details** tab, find the table that you want to monitor and click the <img src="assets/e9d5f42e445d5c906836f3206e59404e.png" width="15" alt=""> icon in the **Monitor** column.
+2. In the **Tables** section of the **Instance Details** tab, find the table that you want to monitor and click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/e9d5f42e445d5c906836f3206e59404e.png" width="15" alt=""> icon in the **Monitor** column.
 
 3. On the **Monitoring Indicators** tab, select a data table, secondary index, or search index.
 
@@ -79691,7 +79691,7 @@ In the Tablestore console, you can view monitoring data such as the average acce
 
    - By default, **Overview** is selected for Metric Group. You can specify a value for **Operation Type** to view the monitoring data of all metric groups regarding the specified operation type.
 
-     Click the <img src="assets/b858a7ad1b83c8ad989d1b74eadf4d3c.png" width="9" alt=""> icon in the upper-right corner of the chart to view the monitoring data in the enlarged chart.
+     Click the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/b858a7ad1b83c8ad989d1b74eadf4d3c.png" width="9" alt=""> icon in the upper-right corner of the chart to view the monitoring data in the enlarged chart.
 
      > **Note**
      >
@@ -80113,7 +80113,7 @@ vSwitches are created at the disaster recovery site. The disaster recovery site 
 
    After the disaster recovery site pair is created, you can find it on the **Site Pairs** page.
 
-   ![](assets/7a17460d8cb0f7c1ba4889d8f9142291.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7a17460d8cb0f7c1ba4889d8f9142291.jpeg)
 
    If the site pair is incorrectly configured, you can click Delete to the right of the site pair to delete the site pair and then create a site pair again.
 
@@ -80150,7 +80150,7 @@ The type of the current site pair is **Cross-zone Disaster Recovery**, so you do
 
    After the vSwitch mapping is created, it is displayed on the **vSwitch Mapping** tab.
 
-   ![](assets/3d96785e61b0ba9e8f73c4fe505cf2ed.png)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3d96785e61b0ba9e8f73c4fe505cf2ed.png)
 
    If you want to edit or delete the created vSwitch mapping, click Edit or Delete on the right side of the vSwitch mapping.
 
@@ -80175,7 +80175,7 @@ The type of the current site pair is **Cross-zone Disaster Recovery**, so you do
 
    After the security group mapping is created, it is displayed on the **Security Group Mapping** tab.
 
-   ![](assets/67512ed90cfd956d8ce661eccfdff681.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/67512ed90cfd956d8ce661eccfdff681.jpeg)
 
    If you want to edit or delete the created security group mapping, click Edit or Delete in the Operation column of the security group mapping.
 
@@ -80209,7 +80209,7 @@ This topic describes how to create a protection group.
 
    After the protection group is created, it is displayed on the **Protection Group** tab.
 
-   ![](assets/3be9d3355cb26d15d677faaca630f08f.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/3be9d3355cb26d15d677faaca630f08f.jpeg)
 
    If you want to modify or delete the created protection group, find the protection group, move the pointer over the More icon in the Actions column, and then choose Manage Protection Group > Edit or Manage Protection Group > Delete.
 
@@ -80239,13 +80239,13 @@ This topic describes how to add an instance to be protected.
    >
    > - If the value in the Secondary ENI column is Yes, an ECS instance is configured with a secondary ENI. In this case, check the IP address of the secondary ENI after a failover. This ensures that the secondary ENI works as expected. For more information, see the **Configure a secondary ENI** topic of the "Elastic Network Interfaces" chapter in **Elastic Compute Service User Guide**.
 
-   ![](assets/152b57ece0a22615ef3bdae2d64bf31f.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/152b57ece0a22615ef3bdae2d64bf31f.jpeg)
 
 6. In the **Confirm Resources** step, confirm the basic information and resource information of the instances and click **Confirm**.
 
    After the instances are added to the protection group, they are displayed on the Protected Instances page.
 
-   ![](assets/f546931aa72e9fd58d3cb9bfebbbe75a.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f546931aa72e9fd58d3cb9bfebbbe75a.jpeg)
 
 **What to do next**
 
@@ -80284,11 +80284,11 @@ After you add a protected instance for disaster recovery, you can start data rep
    >
    > If the instance type or operating system of the instance at the disaster recovery site does not meet your business requirements, you can follow the on-screen instructions to change the instance type or operating system.
 
-   ![](assets/8ae7257b3585162cd49972494bb22f7a.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/8ae7257b3585162cd49972494bb22f7a.jpeg)
 
    After you start replication, the protection group enters the **Enabling Replication**, **Replicating Full Data**, and **Replicating Incremental Data** states in sequence.
 
-   ![](assets/7510c354f9e6f336e5e5c7244fa0dfed.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7510c354f9e6f336e5e5c7244fa0dfed.jpeg)
 
    - **Enabling Replication**: HDR creates a disaster recovery instance at the disaster recovery site and starts data replication.
 
@@ -80338,7 +80338,7 @@ After a protection group enters the Replicating Incremental Data state, you can 
 
    icon in the Actions column, and then
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    choose **Forward Protection > Failover**.
 
@@ -80348,25 +80348,25 @@ After a protection group enters the Replicating Incremental Data state, you can 
 
    After the failover is completed, the state of the protection group changes to **Failover Succeeded**.
 
-   ![](assets/88aef1c809360c9501f4bc93b8e7559c.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/88aef1c809360c9501f4bc93b8e7559c.jpeg)
 
 6. Wait a few minutes until the failover is completed. Find the protection group and click **Manage Protected Instance** in the Actions column to go to the **Protected Instances** page.
 
 7. Click each instance ID in the **ID/Name of Instance at DR Site** column to verify the data and applications on Elastic Compute Service (ECS) instances at the disaster recovery site.
 
-   ![](assets/7aad7023ae5ae20a178e17a8bf253eb8.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7aad7023ae5ae20a178e17a8bf253eb8.jpeg)
 
 8. After the verification is completed, go back to the Protection Group tab. Find the protection group, move the pointer over the
 
    icon in the **Actions**
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    column, and then choose **Forward Protection > Failover Completed**. In the message that appears, click OK.
 
    The protection group enters the Failover Confirmed state. In this case, the protected instances at the production site are in the **Stopped** state, and the ECS instances at the disaster recovery site are in the **Running** state.
 
-   ![](assets/80af1a40aac9649a8d1e1ba22559550b.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/80af1a40aac9649a8d1e1ba22559550b.jpeg)
 
 **Start reverse replication**
 
@@ -80398,17 +80398,17 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    icon in the Actions column, and then
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    choose **Reverse Protection > Failback**. In the dialog box that appears, select **Switch After Data Synchronization** as Type and click **OK**.
 
    The protection group enters the **Failback in Progress** state.
 
-   ![](assets/81031fc3f93ea0598d2fe38350743cce.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/81031fc3f93ea0598d2fe38350743cce.jpeg)
 
    After the failback is completed, the protection group and its protected instances enter the Failback Completed state. In this case, the protected instances at the production site are in the **Running** state, and the ECS instances at the disaster recovery site are in the **Stopped** state.
 
-2. After you confirm that the failback is completed, go back to the Protection Group tab. Find the protection group, move the pointer over the <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt=""> icon in
+2. After you confirm that the failback is completed, go back to the Protection Group tab. Find the protection group, move the pointer over the <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt=""> icon in
 
    the Actions column, and then choose **Reverse Protection > Failback Completed**. In the message that appears, click **OK**.
 
@@ -80434,7 +80434,7 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    icon in the Actions column, and then
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    choose **Forward Protection > Failover**.
 
@@ -80448,25 +80448,25 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    After the failover is completed, the state of the protection group changes to Failover Succeeded.
 
-   ![](assets/88aef1c809360c9501f4bc93b8e7559c.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/88aef1c809360c9501f4bc93b8e7559c.jpeg)
 
 6. Wait a few minutes until the failover is completed. Find the protection group and click **Manage Protected Instance** in the Actions column to go to the **Protected Instances** page.
 
 7. Click each instance ID in the **ID/Name of Instance at DR Site** column to verify the data and applications on ECS instances at the disaster recovery site.
 
-   ![](assets/7aad7023ae5ae20a178e17a8bf253eb8.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7aad7023ae5ae20a178e17a8bf253eb8.jpeg)
 
 8. After the verification is completed, go back to the Protection Group tab. Find the protection group, move the pointer over the
 
    icon in the **Actions**
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    column, and then choose **Forward Protection > Failover Completed**. In the message that appears, click **OK**.
 
    The protection group enters the Failover Confirmed state. In this case, the protected instances at the production site are in the Stopped state, and the ECS instances at the disaster recovery site are in the Running state.
 
-   ![](assets/80af1a40aac9649a8d1e1ba22559550b.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/80af1a40aac9649a8d1e1ba22559550b.jpeg)
 
 **Reverse protection: Perform a failback**
 
@@ -80474,7 +80474,7 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    icon in the Actions column, and then
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    choose **Reverse Protection > Enable Replication**.
 
@@ -80482,13 +80482,13 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    The protection group enters the Reverse Replicating Data state.
 
-   ![](assets/b8e4501d9eafac0367d8217d07ac9a7d.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b8e4501d9eafac0367d8217d07ac9a7d.jpeg)
 
 3. Find the protection group, move the pointer over the
 
    icon in the Actions column, and then choose **Reverse Protection > Failback**. In the dialog
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    box that appears, select **Switch Now** as Type and click **OK**.
 
@@ -80500,13 +80500,13 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    After the failback is completed, the protection group and its protected instances enter the Failback Completed state. In this case, the protected instances at the production site are in the Running state, and the ECS instances at the disaster recovery site are in the Stopped state.
 
-   ![](assets/a33f16fda28176239e86fd6081c5c5e3.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/a33f16fda28176239e86fd6081c5c5e3.jpeg)
 
 4. After you confirm that the failback is completed, go back to the Protection Group tab. Find the protection group, move the pointer over the
 
    icon in
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    the Actions column, and then choose **Reverse Protection > Failback Completed**. In the message that appears, click **OK**.
 
@@ -80686,7 +80686,7 @@ vSwitches are created at the disaster recovery site. The disaster recovery site 
 
    After the disaster recovery site pair is created, it is displayed on the **Site Pairs** page.
 
-   ![](assets/e89c552be33595eb8f0037fb73ded4aa.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/e89c552be33595eb8f0037fb73ded4aa.jpeg)
 
    If the site pair is incorrectly configured, you can click Delete to the right of the site pair to delete the site pair and then create a site pair again.
 
@@ -80777,7 +80777,7 @@ This topic describes how to create a protection group.
 
    After the protection group is created, the protection group is displayed on the **Protection Group** tab. The **Expected RPO** value is displayed, and the protection group is in the **Initializing** state.
 
-   ![](assets/15fb5f1319dcab799fcc49c1f4956048.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/15fb5f1319dcab799fcc49c1f4956048.jpeg)
 
    If the protection group is incorrectly configured or in an abnormal state such as Replication Error, you can clear the protection group, delete the protection group, and then create another protection group.
 
@@ -80839,7 +80839,7 @@ This topic describes how to add instances to be protected.
 
    After the instances are added to the protection group, they are displayed on the Protected Instances page.
 
-   ![](assets/f546931aa72e9fd58d3cb9bfebbbe75a.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f546931aa72e9fd58d3cb9bfebbbe75a.jpeg)
 
 <a id="section-6-3-2-7"></a>
 
@@ -80915,7 +80915,7 @@ After a protection group enters the Replicating Incremental Data state, you can 
 
    icon in the Actions column, and then
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    choose **Forward Protection > Failover**.
 
@@ -80933,7 +80933,7 @@ After a protection group enters the Replicating Incremental Data state, you can 
 
    icon in the **Actions**
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    column, and then choose **Forward Protection > Failover Completed**. In the message that appears, click OK.
 
@@ -80969,23 +80969,23 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    icon in the Actions column, and then
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    choose **Reverse Protection > Failback**. In the dialog box that appears, select **Switch After Data Synchronization** as Type and click **OK**.
 
    The protection group enters the **Failback in Progress** state.
 
-   ![](assets/81031fc3f93ea0598d2fe38350743cce.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/81031fc3f93ea0598d2fe38350743cce.jpeg)
 
    After the failback is complete, the protection group and its protected instances enter the Failback Completed state. In this case, the protected instances at the production site are in the **Running** state, and the ECS instances at the disaster recovery site are in the **Stopped** state.
 
-   ![](assets/11a89c3cf5dbe5da62acd307f0cc5726.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/11a89c3cf5dbe5da62acd307f0cc5726.jpeg)
 
 2. After you confirm that the failback is complete, go back to the Protection Group tab. Find the protection group, move the pointer over the
 
    icon in
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    the Actions column, and then choose **Reverse Protection > Failback Completed**. In the message that appears, click **OK**.
 
@@ -81011,7 +81011,7 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    icon in the Actions column, and then
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    choose **Forward Protection > Failover**.
 
@@ -81025,25 +81025,25 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    After the failover is complete, the state of the protection group changes to Failover Succeeded.
 
-   ![](assets/88aef1c809360c9501f4bc93b8e7559c.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/88aef1c809360c9501f4bc93b8e7559c.jpeg)
 
 6. Wait a few minutes until the failover is complete. Find the protection group and click **Manage Protected Instance** in the Actions column to go to the **Protected Instances** page.
 
 7. Click each instance ID in the **ID/Name of Instance at DR Site** column to verify the data and applications on ECS instances at the disaster recovery site.
 
-   ![](assets/7aad7023ae5ae20a178e17a8bf253eb8.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7aad7023ae5ae20a178e17a8bf253eb8.jpeg)
 
 8. After the verification is complete, go back to the Protection Group tab. Find the protection group, move the pointer over the
 
    icon in the **Actions**
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    column, and then choose **Forward Protection > Failover Completed**. In the message that appears, click **OK**.
 
    The protection group enters the Failover Confirmed state. In this case, the protected instances at the production site are in the Stopped state, and the ECS instances at the disaster recovery site are in the Running state.
 
-   ![](assets/80af1a40aac9649a8d1e1ba22559550b.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/80af1a40aac9649a8d1e1ba22559550b.jpeg)
 
 **Reverse protection: Perform a failback**
 
@@ -81051,7 +81051,7 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    icon in the Actions column, and then
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    choose **Reverse Protection > Enable Replication**.
 
@@ -81059,13 +81059,13 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    The protection group enters the Reverse Replicating Data state.
 
-   ![](assets/b8e4501d9eafac0367d8217d07ac9a7d.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b8e4501d9eafac0367d8217d07ac9a7d.jpeg)
 
 3. Find the protection group, move the pointer over the
 
    icon in the Actions column, and then choose **Reverse Protection > Failback**. In the dialog
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    box that appears, select **Switch Now** as Type and click **OK**.
 
@@ -81077,13 +81077,13 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    After the failback is complete, the protection group and its protected instances enter the Failback Completed state. In this case, the protected instances at the production site are in the Running state, and the ECS instances at the disaster recovery site are in the Stopped state.
 
-   ![](assets/a33f16fda28176239e86fd6081c5c5e3.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/a33f16fda28176239e86fd6081c5c5e3.jpeg)
 
 4. After you confirm that the failback is complete, go back to the Protection Group tab. Find the protection group, move the pointer over the
 
    icon in
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    the Actions column, and then choose **Reverse Protection > Failback Completed**. In the message that appears, click **OK**.
 
@@ -81259,7 +81259,7 @@ Hybrid Disaster Recovery (HDR) imposes limits on Elastic Compute Service (ECS) i
 
    After the disaster recovery site pair is created, it is displayed on the **Site Pairs** page.
 
-   ![](assets/5ab300721638c98c3d057b2cf2734eb1.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/5ab300721638c98c3d057b2cf2734eb1.jpeg)
 
    If the site pair is incorrectly configured, you can click Delete to the right of the site pair to delete the site pair and then create a site pair again.
 
@@ -81350,7 +81350,7 @@ This topic describes how to create a protection group.
 
    After the protection group is created, the protection group is displayed on the **Protection Group** tab. The **Expected RPO** value is displayed, and the protection group is in the **Initializing** state.
 
-   ![](assets/15fb5f1319dcab799fcc49c1f4956048.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/15fb5f1319dcab799fcc49c1f4956048.jpeg)
 
    If the protection group is incorrectly configured or in an abnormal state such as Replication Error, you can clear the protection group, delete the protection group, and then create another protection group.
 
@@ -81412,7 +81412,7 @@ This topic describes how to add instances to be protected.
 
    After the instances are added to the protection group, they are displayed on the Protected Instances page.
 
-   ![](assets/f546931aa72e9fd58d3cb9bfebbbe75a.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/f546931aa72e9fd58d3cb9bfebbbe75a.jpeg)
 
 **What to do next**
 
@@ -81504,7 +81504,7 @@ After a protection group enters the Replicating Incremental Data state, you can 
 
    icon in the Actions column, and then
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    choose **Forward Protection > Failover**.
 
@@ -81522,7 +81522,7 @@ After a protection group enters the Replicating Incremental Data state, you can 
 
    icon in the **Actions**
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    column, and then choose **Forward Protection > Failover Completed**. In the message that appears, click OK.
 
@@ -81558,23 +81558,23 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    icon in the Actions column, and then
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    choose **Reverse Protection > Failback**. In the dialog box that appears, select **Switch After Data Synchronization** as Type and click **OK**.
 
    The protection group enters the **Failback in Progress** state.
 
-   ![](assets/81031fc3f93ea0598d2fe38350743cce.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/81031fc3f93ea0598d2fe38350743cce.jpeg)
 
    After the failback is complete, the protection group and its protected instances enter the Failback Completed state. In this case, the protected instances at the production site are in the **Running** state, and the ECS instances at the disaster recovery site are in the **Stopped** state.
 
-   ![](assets/11a89c3cf5dbe5da62acd307f0cc5726.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/11a89c3cf5dbe5da62acd307f0cc5726.jpeg)
 
 2. After you confirm that the failback is complete, go back to the Protection Group tab. Find the protection group, move the pointer over the
 
    icon in
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    the Actions column, and then choose **Reverse Protection > Failback Completed**. In the message that appears, click **OK**.
 
@@ -81600,7 +81600,7 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    icon in the Actions column, and then
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    choose **Forward Protection > Failover**.
 
@@ -81614,25 +81614,25 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    After the failover is complete, the state of the protection group changes to Failover Succeeded.
 
-   ![](assets/88aef1c809360c9501f4bc93b8e7559c.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/88aef1c809360c9501f4bc93b8e7559c.jpeg)
 
 6. Wait a few minutes until the failover is complete. Find the protection group and click **Manage Protected Instance** in the Actions column to go to the **Protected Instances** page.
 
 7. Click each instance ID in the **ID/Name of Instance at DR Site** column to verify the data and applications on ECS instances at the disaster recovery site.
 
-   ![](assets/7aad7023ae5ae20a178e17a8bf253eb8.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/7aad7023ae5ae20a178e17a8bf253eb8.jpeg)
 
 8. After the verification is complete, go back to the Protection Group tab. Find the protection group, move the pointer over the
 
    icon in the **Actions**
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    column, and then choose **Forward Protection > Failover Completed**. In the message that appears, click **OK**.
 
    The protection group enters the Failover Confirmed state. In this case, the protected instances at the production site are in the Stopped state, and the ECS instances at the disaster recovery site are in the Running state.
 
-   ![](assets/80af1a40aac9649a8d1e1ba22559550b.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/80af1a40aac9649a8d1e1ba22559550b.jpeg)
 
 **Reverse protection: Perform a failback**
 
@@ -81640,7 +81640,7 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    icon in the Actions column, and then
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    choose **Reverse Protection > Enable Replication**.
 
@@ -81648,13 +81648,13 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    The protection group enters the Reverse Replicating Data state.
 
-   ![](assets/b8e4501d9eafac0367d8217d07ac9a7d.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/b8e4501d9eafac0367d8217d07ac9a7d.jpeg)
 
 3. Find the protection group, move the pointer over the
 
    icon in the Actions column, and then choose **Reverse Protection > Failback**. In the dialog
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    box that appears, select **Switch Now** as Type and click **OK**.
 
@@ -81666,13 +81666,13 @@ After the fault at the production site is fixed, you must perform a failback to 
 
    After the failback is complete, the protection group and its protected instances enter the Failback Completed state. In this case, the protected instances at the production site are in the Running state, and the ECS instances at the disaster recovery site are in the Stopped state.
 
-   ![](assets/a33f16fda28176239e86fd6081c5c5e3.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/a33f16fda28176239e86fd6081c5c5e3.jpeg)
 
 4. After you confirm that the failback is complete, go back to the Protection Group tab. Find the protection group, move the pointer over the
 
    icon in
 
-   <img src="assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
+   <img src="en-cds-user-guide-v3.18.6-2607-20260908.assets/1d39a2719fec649d3d4d65b8bafcc162.png" width="8" alt="">
 
    the Actions column, and then choose **Reverse Protection > Failback Completed**. In the message that appears, click **OK**.
 
@@ -81696,7 +81696,7 @@ After the system reports an alert, check the operations and configurations relat
 >
 > If an alert expires or disappears, you do not need to clear the alert.
 
-![](assets/55fcc7047705f3db6b8b00dbeef8f730.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/55fcc7047705f3db6b8b00dbeef8f730.jpeg)
 
 <a id="section-6-4-2"></a>
 
@@ -81706,7 +81706,7 @@ The Alert History page displays a list of historical alerts reported by the syst
 
 You can search for alerts based on conditions such as the time when an alert was cleared and the ID of a faulty instance.
 
-![](assets/214968416dbc6b56c78b88ea8787ea1a.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/214968416dbc6b56c78b88ea8787ea1a.jpeg)
 
 <a id="section-6-4-3"></a>
 
@@ -81743,7 +81743,7 @@ The Operation and Maintenance Work Order page displays a list of submitted O&M t
 
 You can query the processing progress of submitted O&M tickets based on conditions such as the site pair, resource ID, and ticket status.
 
-![](assets/4e669fe671dc677293cb64085a4153cf.jpeg)
+![](en-cds-user-guide-v3.18.6-2607-20260908.assets/4e669fe671dc677293cb64085a4153cf.jpeg)
 
 After an operations administrator confirms an O&M ticket on the HDR OPS page of the Apsara Uni-manager Operations Console, the task related to the ticket starts to be run and the ticket enters the **Running** state. After the task is run, the ticket enters the **Success** state.
 
@@ -81771,7 +81771,7 @@ This operation synchronizes the organizations of the local cloud site and Hybrid
 
 3. On the List of Cloud Sites page, find the cloud site whose data you want to synchronize to other cloud sites and click **Synchronize on-premises cloud organizations** in the **Operation** column.
 
-   ![](assets/2dd1cfe5b1df70218f023edbb5497d80.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/2dd1cfe5b1df70218f023edbb5497d80.jpeg)
 
 4. In the **Synchronize on-premises cloud organizations** message, click **OK**.
 
@@ -81793,7 +81793,7 @@ HDR must be granted the required permissions to create organizational resource m
 
 5. In the **Add organization resource mapping** dialog box, configure the parameters that are described in the following table, and click **OK**.
 
-   ![](assets/2993374dbfc519eb21bd214bde04cf34.jpeg)
+   ![](en-cds-user-guide-v3.18.6-2607-20260908.assets/2993374dbfc519eb21bd214bde04cf34.jpeg)
 
    <table>
      <tr>

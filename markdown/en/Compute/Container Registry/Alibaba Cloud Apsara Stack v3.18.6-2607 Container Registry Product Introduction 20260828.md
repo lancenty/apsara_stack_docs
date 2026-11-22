@@ -329,7 +329,7 @@ Artifact security
 
 The system provides a graphical interface for signing operations and supports signing at the instance dimension and namespace dimension.
 
-> <img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
+> <img src="en-acr-product-introduction-v3.18.6-2607-20260828.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
 >
 > **Note**
 >

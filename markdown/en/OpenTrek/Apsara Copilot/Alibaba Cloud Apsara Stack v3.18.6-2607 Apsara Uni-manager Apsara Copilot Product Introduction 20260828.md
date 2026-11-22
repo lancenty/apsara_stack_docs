@@ -33,7 +33,7 @@ Apsara Copilot serves as the intelligent entry point for the Apsara Uni-manager 
 
   Apsara Copilot uses standardized protocols and APIs to deeply integrate its AI capabilities with enterprise on-premises knowledge bases and existing AI agents, building an open and collaborative intelligent system.
 
-![](assets/68d1214a36d2130ad47b7b5049e3ec84.png)
+![](en-apsara-copilot-product-introduction-v3.18.6-2607-20260828.assets/68d1214a36d2130ad47b7b5049e3ec84.png)
 
 <a id="section-2"></a>
 

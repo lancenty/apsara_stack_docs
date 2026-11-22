@@ -94,7 +94,7 @@ This topic describes how to find the required documentation when you call an API
 
 You can follow the procedure described in the following figure to view the specific documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-container-security-developer-guide-v3.18.6-20260701.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -122,7 +122,7 @@ By default, Apsara Stack Enterprise Edition V3.16.0 and later versions use the p
 
 **Flowchart**
 
-![](assets/7532040325d893ee52ca96e488677a06.png)
+![](en-container-security-developer-guide-v3.18.6-20260701.assets/7532040325d893ee52ca96e488677a06.png)
 
 **Procedure**
 
@@ -201,7 +201,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of the personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-container-security-developer-guide-v3.18.6-20260701.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -415,7 +415,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-container-security-developer-guide-v3.18.6-20260701.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -425,7 +425,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 7. Select an API operation and obtain the POP endpoint of the cloud service on the Parameter tab.
 
-   ![](assets/5112118bdce3e3b04c8e52de957d51d6.jpeg)
+   ![](en-container-security-developer-guide-v3.18.6-20260701.assets/5112118bdce3e3b04c8e52de957d51d6.jpeg)
 
 <a id="section-3"></a>
 

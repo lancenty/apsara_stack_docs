@@ -288,7 +288,7 @@ No data is available on the audit overview page.
 
    properly.
 
-   ![](assets/f76809a21e0c09f301e73eeed6251e40.jpeg)
+   ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/f76809a21e0c09f301e73eeed6251e40.jpeg)
 
    RMAgent may be in one of the following abnormal states:
 
@@ -314,11 +314,11 @@ No data is available on the audit overview page.
 
    - In Linux, run the netstat -nap|grep 9207 command.
 
-     ![](assets/33ddcfa2003b1f185855eafc7f1a81cf.png)
+     ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/33ddcfa2003b1f185855eafc7f1a81cf.png)
 
    - In Windows, run the netstat -nao|findstr 1433 commend.
 
-     ![](assets/202579d1e66edada1e23a31c65d1c987.png)
+     ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/202579d1e66edada1e23a31c65d1c987.png)
 
    > **Note**
    >
@@ -338,7 +338,7 @@ No data is available on the audit overview page.
 
    If Meet the rule audit is selected as Audit Options but no SQL rules are configured, no rules can be triggered. In the left-side navigation pane of the Database Security Audit console, choose **Maintenance** > **Engine Management** to check the Audit Options parameter.
 
-   ![](assets/602adaf2f1e556dee1797c3b7fcd6918.jpeg)
+   ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/602adaf2f1e556dee1797c3b7fcd6918.jpeg)
 
    As shown in the preceding figure, **Meet the rule audit** is selected as Audit Options. In this case, resolve the issue by referring to Solution 5.
 
@@ -364,13 +364,13 @@ No data is available on the audit overview page.
 
    - If the overall CPU and memory of the host are high, make sure that sufficient space is available. You can also adjust the RMAgent parameter to trigger overrun. Use the secadmin account to log on to the system. On the **Configuration** page, choose **RMAgent Components** > **RMAgent Management**, select the target RMAgent component, click **Configure**, and modify the parameter **cpu_limit/my_cpu_limit/mem_limit/my_mem_limit**.
 
-     ![](assets/8161157a61ed873a23ebd81ef6316118.jpeg)
+     ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/8161157a61ed873a23ebd81ef6316118.jpeg)
 
      If the RMAgent version is too low, download the latest RMAgent and install it on the target host.
 
 3. Use the secadmin account to log on to the system, choose **Configuration** > **RMAgent Components** > **RMAgent Management**, select the target RMAgent, click **Configure**, and modify the parameter **loopback** to  `1` .
 
-   ![](assets/450dcdb0bc80be6fbfc9e47ab280050d.jpeg)
+   ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/450dcdb0bc80be6fbfc9e47ab280050d.jpeg)
 
 4. Install the Npcap software on the Windows database server (you can install it by selecting Npcap when reinstalling RMAgent). If Winpcap is already installed, you need to uninstall Npcap first and then install Winpcap.
 
@@ -394,7 +394,7 @@ This topic describes the possible causes and solutions in scenarios where some S
 
 - If trust rules are configured for objects such as specific types of operations, client IP addresses, and database users, these objects are not audited. Check whether trust rules are configured.
 
-  ![](assets/ceffaf0df4552df0800fedddafe62dec.jpeg)
+  ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/ceffaf0df4552df0800fedddafe62dec.jpeg)
 
   If trust rules are configured for the SQL statements that are not audited, resolve the issue by referring to Solution 1.
 
@@ -440,7 +440,7 @@ This topic describes the possible causes and solutions in scenarios where some S
 
    <li>
 
-   Find the rule that you want to manage and click the <img src="assets/29fd7131579c39b377fb4e2b6cd18b95.png" width="13" alt=""> icon in the Operation column to
+   Find the rule that you want to manage and click the <img src="en-database-audit-operations-guide-v3.18.6-20260701.assets/29fd7131579c39b377fb4e2b6cd18b95.png" width="13" alt=""> icon in the Operation column to
 
    modify the rule.
 
@@ -494,29 +494,29 @@ This topic describes the possible causes and solutions in scenarios where userna
 
    - Oracle As shown in the following figure, the Request,Connect packet is the first request packet sent by a client to log in to a database. The Request,Data User OCI Functions packet contains basic login information such as the database username and hostname.
 
-     ![](assets/6191e3478713a5d5da33928648f17bd2.jpeg)
+     ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/6191e3478713a5d5da33928648f17bd2.jpeg)
 
    - MySQL
 
      As shown in the following figure, the Login Request packet of MySQL contains the username for login.
 
-     ![](assets/1dfd370ab536099cf17b43fc3aa3052b.png)
+     ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/1dfd370ab536099cf17b43fc3aa3052b.png)
 
      If the captured packets do not contain session establishment information, the issue may be caused by external factors and can be resolved next time a connection is established. In the last two scenarios, resolve the issue by referring to Solution 2.
 
 3. When a client communicates with an SQL Server database, the username and database client information are encrypted and transmitted. You must check whether the username resolution feature is enabled. Log in to Database Security Audit by using the secadmin account. In the left-side navigation pane, choose **Maintenance** > **Engine Management**. In the Parameter Configuration section, check whether the **Username Resolution Switch** parameter is set to OFF.
 
-   ![](assets/c5c8799629cabc835fd1b2c310aa5f5c.jpeg)
+   ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/c5c8799629cabc835fd1b2c310aa5f5c.jpeg)
 
    If the parameter is set to OFF, resolve the issue by referring to Solution 3.
 
 4. If the username resolution feature is enabled, check whether a user with the required permissions is configured for an SQL Server database. In the left-side navigation pane of the Database Security Audit console, choose **Configuration** > **Database**. In the Database list section, find the SQL Server database that you want to manage and click the View details icon in the Operation column. In the panel that appears, check whether a username and a password are configured. Click **Authority Verification** to check whether the configured user has the required permissions.
 
-   ![](assets/6c9d95811cb4acbe1479c5df8f0221ae.png)
+   ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/6c9d95811cb4acbe1479c5df8f0221ae.png)
 
 5. To obtain information such as usernames and tools from an SQL Server database, Database Security Audit needs to connect to the database. If the connection duration is very short, Database Security Audit may fail to obtain such information. As a result, such information cannot be audited. Go to the **Session Search** page of the SQL Server database and check its sessions, including the start time and end time of each session.
 
-   ![](assets/74744453b12eed15c6c22e063a57852a.jpeg)
+   ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/74744453b12eed15c6c22e063a57852a.jpeg)
 
    As shown in the preceding figure, the session duration is less than 30s. In this case, resolve the issue by referring to Solution 5.
 
@@ -552,7 +552,7 @@ This topic describes the possible causes and solutions in scenarios where the nu
 
 The direct cause is packet loss in result sets. Capture packets to check whether packet loss occurs in the result set, and find the response packet of the relevant statement for analysis.
 
-![](assets/fa8c1f348b7203ed0d8882f92b83ee3e.png)
+![](en-database-audit-operations-guide-v3.18.6-20260701.assets/fa8c1f348b7203ed0d8882f92b83ee3e.png)
 
 As shown in the preceding figure, packet loss occurs in the response packet of the relevant statement. You can check the following items to troubleshoot the issue:
 
@@ -560,7 +560,7 @@ As shown in the preceding figure, packet loss occurs in the response packet of t
 
 - If the size of the original packet exceeds the buffer space of RMAgent for receiving packets, the packet forwarded by RMAgent may also be lost. Check the info logs of RMAgent. If the pcap drop field has a value, the buffer space for receiving packets is insufficient and packets are discarded.
 
-  ![](assets/b223eaaaaca2df8412b8a970aceb7b87.png)
+  ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/b223eaaaaca2df8412b8a970aceb7b87.png)
 
 **Solutions**
 
@@ -634,7 +634,7 @@ This topic describes the possible causes and solutions in scenarios where notifi
 
    Transmit the packet capture file to a Windows system and use Wireshark to analyze the file and view the message flow.
 
-   ![](assets/9f708059cc1de7f99e0c83993f43e705.png)
+   ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/9f708059cc1de7f99e0c83993f43e705.png)
 
    If an error similar to UserReject is reported, the sender may not have the SMTP permissions and can send emails only by using the URL of another email service provider.
 
@@ -666,7 +666,7 @@ The number of times that a risk is triggered in a day exceeds the maximum number
 
 5. Find the rule that you want to manage and view the details of the rule to check the maximum number of alert notifications per day.
 
-   ![](assets/a3d5cb1dfbdf396e86c38242ff0bc181.jpeg)
+   ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/a3d5cb1dfbdf396e86c38242ff0bc181.jpeg)
 
    By default, a maximum of 10,000 alert notifications can be sent per day for a risk.
 
@@ -696,7 +696,7 @@ No syslog server is added.
 
 5. Check whether a SYSLOG server whose log type is **Rule Alert CEF File** is added.
 
-   ![](assets/ceffaf0df4552df0800fedddafe62dec.jpeg)
+   ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/ceffaf0df4552df0800fedddafe62dec.jpeg)
 
 **Solution**
 
@@ -728,7 +728,7 @@ In a result set, the data size per row is large or each row contains more than 1
 
 5. On the **Engine Management** page, view the parameters.
 
-   ![](assets/2e734048ea1b63e942741dea57877667.jpeg)
+   ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/2e734048ea1b63e942741dea57877667.jpeg)
 
 **Solutions**
 
@@ -762,17 +762,17 @@ This topic describes the possible causes and solutions in scenarios where audit 
 
 5. On the **Alerts & Data Cleanup** page, check the Cleanup Threshold parameter in the **Online Data** section.
 
-   ![](assets/90465dd0ea49348ad7999a42e2980ffc.jpeg)
+   ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/90465dd0ea49348ad7999a42e2980ffc.jpeg)
 
    - In the left-side navigation pane, click Overview / All. On the Overview / All page, check the **Online Statements** parameter.
 
-     ![](assets/7fd9f17cf26bce20b813912b3a4f8cd8.jpeg)
+     ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/7fd9f17cf26bce20b813912b3a4f8cd8.jpeg)
 
      If the total number of online statements is close to the cleanup threshold of online data, audit data is cleared after the number of online statements reaches the specified cleanup threshold.
 
    - On the **Alerts & Data Cleanup** page, check the **Cleanup Threshold** parameter in the **All Data** section.
 
-     ![](assets/0b65b5845aeccfe079c6a8628d1ff258.jpeg)
+     ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/0b65b5845aeccfe079c6a8628d1ff258.jpeg)
 
 **Solutions**
 
@@ -802,7 +802,7 @@ After data is restored, the disk usage of the data center partition or the data 
 
 5. On the **System Alerts** page, check whether an alert is triggered because the disk usage of a partition exceeds the specified threshold.
 
-   ![](assets/7cf184633c1a9345aad3253b76ca5ed9.jpeg)
+   ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/7cf184633c1a9345aad3253b76ca5ed9.jpeg)
 
    When Database Security Audit processes a restore task, it first estimates the disk usage after data is restored. If the estimated disk usage exceeds 95%, data is not restored for space protection. The preceding figure shows that the space is insufficient.
 
@@ -810,7 +810,7 @@ After data is restored, the disk usage of the data center partition or the data 
 
 If you need to restore data, you can decrease the cleanup threshold of all data on the **Alerts & Data Cleanup** page. Then, you can restore data the next day.
 
-![](assets/e677711a41487caa7bbc4397d199b98b.jpeg)
+![](en-database-audit-operations-guide-v3.18.6-20260701.assets/e677711a41487caa7bbc4397d199b98b.jpeg)
 
 <a id="section-2-5-3"></a>
 
@@ -838,7 +838,7 @@ data backup and recovery interface-after you add an upload ftp server, an error 
 
 3. Check whether the password of the FTP user contains special characters that cannot be identified.
 
-   ![](assets/cd6691ea27e64332409d43e1f995f47d.jpeg)
+   ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/cd6691ea27e64332409d43e1f995f47d.jpeg)
 
 **Solution**
 
@@ -902,13 +902,13 @@ When you troubleshoot traffic issues, you can use Wireshark to analyze traffic i
 
 After a packet capture file is opened by using Wireshark, packets are sorted in ascending order based on the time when a packet is captured. The following figure shows the columns of the packet list.
 
-![](assets/52f4be250c793112517dc343becb220f.jpeg)
+![](en-database-audit-operations-guide-v3.18.6-20260701.assets/52f4be250c793112517dc343becb220f.jpeg)
 
 **Filter traffic**
 
 After a packet capture file is opened by using Wireshark, you can enter filter conditions in the field framed in red to filter traffic, as shown in the following figure.
 
-![](assets/544df920dce8a04d71b3f8db37177e2e.jpeg)
+![](en-database-audit-operations-guide-v3.18.6-20260701.assets/544df920dce8a04d71b3f8db37177e2e.jpeg)
 
 - ip.addr == 1.1.XX.XX: the server IP address.
 
@@ -926,36 +926,36 @@ After a packet capture file is opened by using Wireshark, you can enter filter c
 
 - Search for the traffic whose server IP address is 192.168.XX.XX: ip.addr == 192.168.XX.XX
 
-  ![](assets/f057bf27817eb606ba15860e09df920a.jpeg)
+  ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/f057bf27817eb606ba15860e09df920a.jpeg)
 
 - Search for the traffic whose TCP port number is 1521: tcp.port == 1521
 
-  ![](assets/9e3a3b2f9f8c2bb4eddd45592198f355.png)
+  ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/9e3a3b2f9f8c2bb4eddd45592198f355.png)
 
 - Search for the traffic whose server IP address is 192.168.XX.XX and TCP port number is 3306: ip.addr == 192.168.XX.XX && tcp.port == 3306
 
-  ![](assets/66584ae86d8ad8fbbe3484b586765c60.jpeg)
+  ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/66584ae86d8ad8fbbe3484b586765c60.jpeg)
 
 - Search for the traffic whose server IP address is 192.168.XX.XX or 192.168.XX.XX: ip.addr == 192.168.XX.XX || ip.addr == 192.168.XX.XX
 
-  ![](assets/3b53f7ca76a77c64cbdd5f0679cf202f.jpeg)
+  ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/3b53f7ca76a77c64cbdd5f0679cf202f.jpeg)
 
 - Search for the traffic from Oracle: tns
 
-  ![](assets/b77c4bf3ae207e74dfc5cb30e3adfdf5.jpeg)
+  ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/b77c4bf3ae207e74dfc5cb30e3adfdf5.jpeg)
 
 - Search for the traffic whose server IP address is not 192.168.XX.XX: ip.addr != 192.168.XX.XX
 
-  ![](assets/e72d1a2642c3e3613f0edc314be7eb5a.jpeg)
+  ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/e72d1a2642c3e3613f0edc314be7eb5a.jpeg)
 
 - View details
 
   Click a packet. The content of the packet is displayed in the lower part.
 
-  ![](assets/f4535fc4f8112de65520f4c59ce430ad.jpeg)
+  ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/f4535fc4f8112de65520f4c59ce430ad.jpeg)
 
 - Search for a string
 
   You can search for a string to find specific SQL statements. You can use a table name or other keywords as a string search condition. In the Wireshark window, press Ctrl+F to open the search window. The following figure shows how to search for a string to find the packet that contains the string.
 
-  ![](assets/72434664b9ab74c77e4b0c1ac3c80d0c.jpeg)
+  ![](en-database-audit-operations-guide-v3.18.6-20260701.assets/72434664b9ab74c77e4b0c1ac3c80d0c.jpeg)

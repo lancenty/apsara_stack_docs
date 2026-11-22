@@ -137,7 +137,7 @@ To obtain help during system maintenance, the O&M personnel can contact Apsara S
 
 This topic describes the O&M operations supported by Apsara Stack Resilience (ASR) for Zone-disaster Recovery.
 
-![](assets/b8097bc2aad0934d474da647afffecc6.jpeg)
+![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/b8097bc2aad0934d474da647afffecc6.jpeg)
 
 ASR for Zone-disaster Recovery allows you to perform the following O&M operations:
 
@@ -311,7 +311,7 @@ Apsara Stack Resilience (ASR) for Zone-disaster Recovery provides three logon me
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -341,11 +341,11 @@ Apsara Stack Resilience (ASR) for Zone-disaster Recovery provides three logon me
 
 5. In the top navigation bar, choose **Platform Operation > Disaster recovery management > ASR for Zone-Disaster Recovery**.
 
-6. Click <img src="assets/c875b708f6cae69888227c65d76bf907.png" width="14" alt=""> at the top of the navigation pane on the left to switch between the primary and
+6. Click <img src="en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/c875b708f6cae69888227c65d76bf907.png" width="14" alt=""> at the top of the navigation pane on the left to switch between the primary and
 
    secondary data centers.
 
-   ![](assets/e5285b058fa1c88461dc0a0bdef6e6f1.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/e5285b058fa1c88461dc0a0bdef6e6f1.jpeg)
 
 7. (Optional) In the navigation pane on the left, click Normal Mode or O&M Mode to switch between views.
 
@@ -353,7 +353,7 @@ Apsara Stack Resilience (ASR) for Zone-disaster Recovery provides three logon me
    >
    > To switch views, you must have the disaster recovery monitoring, disaster recovery drill, or system administrator permission.
 
-   ![](assets/d459c35c5277af2947b5e1ccfb153305.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/d459c35c5277af2947b5e1ccfb153305.jpeg)
 
 **Disaster recovery escape logon**
 
@@ -371,7 +371,7 @@ Apsara Stack Resilience (ASR) for Zone-disaster Recovery provides three logon me
    >
    > - The endpoint of the ASR console for the primary data center is in the following format: asr-xm-&lt;region-id>.console.&lt;intranet-domain-id>/user/login.
 
-   ![](assets/36899ace22397f4e455276e94cf3f9f3.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/36899ace22397f4e455276e94cf3f9f3.jpeg)
 
    > **Note**
    >
@@ -387,11 +387,11 @@ Apsara Stack Resilience (ASR) for Zone-disaster Recovery provides three logon me
 
 4. In the top navigation bar, click Normal Mode or O&M Mode to switch between views.
 
-   ![](assets/cfe1c7d6c410e043ec51dae4da52e684.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/cfe1c7d6c410e043ec51dae4da52e684.jpeg)
 
 5. In the top navigation bar, click a data center to open the corresponding data center page.
 
-   ![](assets/97e36bc6bf29fe42d09ecbf9a34d6be2.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/97e36bc6bf29fe42d09ecbf9a34d6be2.jpeg)
 
 **Log on for tenant operations**
 
@@ -909,7 +909,7 @@ If the synchronization latency is in an abnormal state, the following issues may
 
 4. On the **Disaster recovery switching** page, view the exception details and contact ApsaraDB RDS O&M engineers to fix the exception.
 
-   ![](assets/8bd3fc2c4e072df7439fb0ebe73a0a39.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/8bd3fc2c4e072df7439fb0ebe73a0a39.jpeg)
 
    - If the DR instance is not started, restart the instance.
 
@@ -949,7 +949,7 @@ If the synchronization latency is in an abnormal state, the following issues may
 
      The following figure shows a sample output. Proceed based on your actual output.
 
-     ![](assets/71832262ed5287bcf428cf2915071da7.jpeg)
+     ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/71832262ed5287bcf428cf2915071da7.jpeg)
 
      </li>
 
@@ -977,7 +977,7 @@ If the synchronization latency is in an abnormal state, the following issues may
 
      The following figure shows a sample output. Proceed based on your actual output.
 
-     ![](assets/3c84dd4672cee40ea2235654cfad0c6c.jpeg)
+     ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/3c84dd4672cee40ea2235654cfad0c6c.jpeg)
 
      > **Note**
      >
@@ -1134,7 +1134,7 @@ If the synchronization latency is in an abnormal state, the following issues may
    ./ocm_cmd config --id=${accessID} --key=${accessKey} --host ${master_ocm_host}
    ```
 
-   ![](assets/202d547c78eca10bc24326535bb6d8bc.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/202d547c78eca10bc24326535bb6d8bc.jpeg)
 
    </li>
 
@@ -1491,7 +1491,7 @@ If the DR status of MiddleWareAll is abnormal, the following issues may occur:
    curl -s http://vipserver.tbsite.net/vipserver/api/switches | python -m json.tool
    ```
 
-   ![](assets/244f58d67bc7431b3264a3ae94fc2051.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/244f58d67bc7431b3264a3ae94fc2051.jpeg)
 
 3. Run the following command to change the distroThreshold value to 0.45:
 
@@ -1628,7 +1628,7 @@ In this example, ApsaraDB RDS is used.
 
 4. In the **System Management** pane, choose **Disaster Recovery Management** > **Disaster recovery switching**. In the **Maximum Latency from library** column, view the latency.
 
-   ![](assets/a313dd51319e5069ffb560d58a9bb03c.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/a313dd51319e5069ffb560d58a9bb03c.jpeg)
 
    > **Note**
    >
@@ -1660,7 +1660,7 @@ In this example, MiniRDS is used.
 
    </ol>
 
-   ![](assets/5e954ca11906b63d60635a31f51b2191.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/5e954ca11906b63d60635a31f51b2191.jpeg)
 
    - If the ssh process is not started, you can manually run the  `/usr/sbin/sshd`  command to start the sshd process.
 
@@ -1730,7 +1730,7 @@ In this example, MiniRDS is used.
    >   ToUser: root
    > ```
 
-   ![](assets/e818a120cd3710cd3d3b12ed43fc0cd4.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/e818a120cd3710cd3d3b12ed43fc0cd4.jpeg)
 
    </li>
 
@@ -1756,7 +1756,7 @@ In this example, MiniRDS is used.
 
    shown in the following figure.
 
-   ![](assets/a1e65928bfd6b4b7478f6a77de094e6d.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/a1e65928bfd6b4b7478f6a77de094e6d.jpeg)
 
    <ol type="i" start="3">
 
@@ -1770,7 +1770,7 @@ In this example, MiniRDS is used.
 
    previous step can be reached.
 
-   ![](assets/6165b068bde086c484fa2b14ce6b266e.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/6165b068bde086c484fa2b14ce6b266e.jpeg)
 
 > **Note**
 >
@@ -1855,7 +1855,7 @@ If the DR status of SLB is abnormal, the following issues may occur:
 
    </ol>
 
-   ![](assets/5e954ca11906b63d60635a31f51b2191.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/5e954ca11906b63d60635a31f51b2191.jpeg)
 
    - If the ssh process is not started, you can manually run the  `/usr/sbin/sshd`  command to start the sshd process.
 
@@ -1925,7 +1925,7 @@ If the DR status of SLB is abnormal, the following issues may occur:
    >   ToUser: root
    > ```
 
-   ![](assets/e818a120cd3710cd3d3b12ed43fc0cd4.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/e818a120cd3710cd3d3b12ed43fc0cd4.jpeg)
 
    </li>
 
@@ -1951,7 +1951,7 @@ If the DR status of SLB is abnormal, the following issues may occur:
 
    controller.SlbControlMaster#, as shown in the following figure.
 
-   ![](assets/fc48036c111e401d9ece0bf7b742a094.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/fc48036c111e401d9ece0bf7b742a094.jpeg)
 
    <ol type="i" start="3">
 
@@ -1965,7 +1965,7 @@ If the DR status of SLB is abnormal, the following issues may occur:
 
    previous step can be reached.
 
-   ![](assets/6165b068bde086c484fa2b14ce6b266e.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/6165b068bde086c484fa2b14ce6b266e.jpeg)
 
 **Abnormal instances**
 
@@ -1993,7 +1993,7 @@ If the DR status of SLB is abnormal, the following issues may occur:
    python checkHealth.py
    ```
 
-   ![](assets/d63c7d777d08e803f4efe40dae4ef566.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/d63c7d777d08e803f4efe40dae4ef566.jpeg)
 
    <ol type="i" start="3">
 
@@ -2218,7 +2218,7 @@ Abnormal Kafka disaster recovery status may cause:
 
 In the ASR console **Platform Monitoring** > **Product Monitoring** page, the Kafka **Disaster Recovery Capability** monitoring item shows **No disaster recovery instance**, and the **Primary Node Location** is **Not Retrieved**.
 
-![](assets/a481f4a0395fee4da58a80a3ca63f4e5.jpeg)
+![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/a481f4a0395fee4da58a80a3ca63f4e5.jpeg)
 
 **Prerequisites**
 
@@ -2246,7 +2246,7 @@ The environment requires at least 2 Kafka clusters and 2 Replicators, and must m
 
    Click **Create Disaster Recovery Cluster**.
 
-   ![](assets/24fe7c95c526192befac2381f8548687.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/24fe7c95c526192befac2381f8548687.jpeg)
 
    </li>
 
@@ -2258,7 +2258,7 @@ The environment requires at least 2 Kafka clusters and 2 Replicators, and must m
 
    </ol>
 
-   ![](assets/237f455429594f7624ef3289d75ac3e4.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/237f455429594f7624ef3289d75ac3e4.jpeg)
 
    <ol type="i" start="3">
 
@@ -2272,7 +2272,7 @@ The environment requires at least 2 Kafka clusters and 2 Replicators, and must m
 
    Replicator instance in **Source KafkaReplicator Instance**, and click **Next**.
 
-   ![](assets/c927f29750204cef0a9894024fe3caa5.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/c927f29750204cef0a9894024fe3caa5.jpeg)
 
    <ol type="i" start="4">
 
@@ -2280,7 +2280,7 @@ The environment requires at least 2 Kafka clusters and 2 Replicators, and must m
 
    Select the secondary Kafka cluster instance in **Target Kafka Instance**, select the secondary Replicator instance in **Target KafkaReplicator Instance**, and click **Create**.
 
-   ![](assets/79564f7d0c911636e2330a61a9f5b794.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/79564f7d0c911636e2330a61a9f5b794.jpeg)
 
    </li>
 
@@ -2347,7 +2347,7 @@ Elasticsearch disaster recovery status is abnormal, which may lead to:
 
 On the ASR console **Platform Monitoring** > **Product Monitoring** page, the disaster recovery status monitoring for Elasticsearch is abnormal.
 
-![](assets/dd3bc336d327b0fff685053f4563245d.jpeg)
+![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/dd3bc336d327b0fff685053f4563245d.jpeg)
 
 **Prerequisites**
 
@@ -2572,7 +2572,7 @@ If zone-disaster recovery deployment of cloud services is not complete, failover
      arkctl product list -iz
      ```
 
-     ![](assets/4aba6dc98885e88f571fff553b4dc5bf.jpeg)
+     ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/4aba6dc98885e88f571fff553b4dc5bf.jpeg)
 
      </li>
 
@@ -2592,7 +2592,7 @@ If zone-disaster recovery deployment of cloud services is not complete, failover
      >
      > id indicates the service ID. Service IDs are obtained in the previous step.
 
-     ![](assets/febd7ecf13a551b0dfb1713170cfa71a.jpeg)
+     ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/febd7ecf13a551b0dfb1713170cfa71a.jpeg)
 
      </li>
 
@@ -2628,7 +2628,7 @@ If zone-disaster recovery deployment of cloud services is not complete, failover
      arkctl product list -iz
      ```
 
-     ![](assets/4aba6dc98885e88f571fff553b4dc5bf.jpeg)
+     ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/4aba6dc98885e88f571fff553b4dc5bf.jpeg)
 
      </li>
 
@@ -2808,7 +2808,7 @@ Failover operations fail.
 
   In the kv.conf file, press the Enter key at the end of the last line, and then click **Preview and Submit**.
 
-  ![](assets/280665129383b64ad257fd9b4ebc31ea.jpeg)
+  ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/280665129383b64ad257fd9b4ebc31ea.jpeg)
 
   </li>
 
@@ -2864,7 +2864,7 @@ Failover operations fail.
 
   Delete the configurations of the corresponding service in the serviceid.conf file.
 
-  ![](assets/e6e916403fb673fe55b0d41657bf653c.jpeg)
+  ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/e6e916403fb673fe55b0d41657bf653c.jpeg)
 
   </li>
 
@@ -2953,7 +2953,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -3015,7 +3015,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
 2. On the Forgot Password page, configure the **Account Name** and **Email Address** parameters, specify the verification code, and then click **Confirm**.
 
-   ![](assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
 
    > **Note**
    >
@@ -3045,7 +3045,7 @@ This topic describes how to log on to the Apsara Uni-manager Operations Console.
 
    Press the Enter key.
 
-   ![](assets/eb3e0417a219f6f92d8066536b2ffd55.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/eb3e0417a219f6f92d8066536b2ffd55.jpeg)
 
    > **Note**
    >
@@ -3123,7 +3123,7 @@ This topic describes how to log on to a container. The Bcmc# container of bcmc i
 
    Find the cluster that you want to manage and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/a7d5ec3cafebc4e1c44255e64bfea98e.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/a7d5ec3cafebc4e1c44255e64bfea98e.jpeg)
 
    </li>
 
@@ -3131,7 +3131,7 @@ This topic describes how to log on to a container. The Bcmc# container of bcmc i
 
    On the Services tab, find the **bcmc** service and click its name.
 
-   ![](assets/392df1b6d9de6205c36d75d8e4801bca.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/392df1b6d9de6205c36d75d8e4801bca.jpeg)
 
    </li>
 
@@ -3145,7 +3145,7 @@ This topic describes how to log on to a container. The Bcmc# container of bcmc i
 
    **Actions** column of an instance.
 
-   ![](assets/820c2fcc0183bfea9fd3c598e03cd777.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/820c2fcc0183bfea9fd3c598e03cd777.jpeg)
 
 2. Run the following command to query the ID of the container:
 
@@ -3153,7 +3153,7 @@ This topic describes how to log on to a container. The Bcmc# container of bcmc i
    docker ps
    ```
 
-   ![](assets/89a41e7bb7d6cbf8c601e848e9055ab0.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/89a41e7bb7d6cbf8c601e848e9055ab0.jpeg)
 
 3. Run the following command to access the container:
 
@@ -3161,7 +3161,7 @@ This topic describes how to log on to a container. The Bcmc# container of bcmc i
    docker exec -it <Container ID> /bin/bash.
    ```
 
-   ![](assets/4ca02358dce24d3d1c2f096dd10da9a5.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/4ca02358dce24d3d1c2f096dd10da9a5.jpeg)
 
 <a id="section-2-2-10-4"></a>
 
@@ -3183,7 +3183,7 @@ This topic describes how to log on to the xuanyuan database of Server Load Balan
 
 7. On the **Resources** tab, find the resource whose name is **xuanyuan** and type is **db**, and view the values of the db_host, user, db_password, db_port, and db_name parameters in the **Resource Application Result** column.
 
-   ![](assets/a3fb017b1da611282c3bfcfe62ecf8a4.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/a3fb017b1da611282c3bfcfe62ecf8a4.jpeg)
 
 8. On the **Instances** tab, click **Terminal** in the **Actions** column of an instance.
 
@@ -3255,9 +3255,9 @@ This topic describes how to rebuild a secondary database to help you better unde
 
 2. Select **Instance Management** > **Instance List**, and click the instance that you want to operate to go to the instance details page.
 
-   ![](assets/5435721df43c4c1db00e460235a39ba0.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/5435721df43c4c1db00e460235a39ba0.jpeg)
 
-   ![](assets/e75171fdcf54f88afc080fc9ddae9eee.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/e75171fdcf54f88afc080fc9ddae9eee.jpeg)
 
    - If the link type is DNS, log on to the host where the instance is located and run the following command to check whether the parsing is correct. If the parsing fails, contact the product development team for assistance.
 
@@ -3285,7 +3285,7 @@ This topic describes how to rebuild a secondary database to help you better unde
     show variables like 'read_only'; 
    ```
 
-   ![](assets/479c2eb68c45047566d8862ae5062927.png)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/479c2eb68c45047566d8862ae5062927.png)
 
    </li>
 
@@ -3315,7 +3315,7 @@ This topic describes how to rebuild a secondary database to help you better unde
     show variables like 'read_only'; 
    ```
 
-   ![](assets/aa8a29b76ca63898bef1f445dccba681.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/aa8a29b76ca63898bef1f445dccba681.jpeg)
 
    </li>
 
@@ -3339,7 +3339,7 @@ This topic describes how to rebuild a secondary database to help you better unde
 
 3. Select **Backup Policy** > **Create Temporary Backup**. In the dialog box that appears, select **FULL** > **Primary Database Physical Backup** > **Click To View** > **OK**.
 
-   ![](assets/40a3bee648d775e117134f81af9a6ec3.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/40a3bee648d775e117134f81af9a6ec3.jpeg)
 
    > **Note**
    >
@@ -3347,7 +3347,7 @@ This topic describes how to rebuild a secondary database to help you better unde
 
 4. Click **Backup And Recovery** and confirm that you can see the temporary backup of the primary database, which indicates that the backup is complete. (This can be completed within 18 hours)
 
-   ![](assets/f825f72931268ad942e71ad00b048f00.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/f825f72931268ad942e71ad00b048f00.jpeg)
 
 5. At the bottom of the **Basic Information** page, click **Rebuild [Secondary Database Rebuild|Node Rebuild]**. In the dialog box that appears, select **Force Primary Database Backup**, select the corresponding host, and select the rebuild method.
 
@@ -3355,7 +3355,7 @@ This topic describes how to rebuild a secondary database to help you better unde
    >
    > Local rebuild means rebuilding on the host where the original secondary database is located, and cross-machine rebuild means selecting a different host.
 
-   ![](assets/90547de2726d0b923f875684dea0aa3c.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/90547de2726d0b923f875684dea0aa3c.jpeg)
 
 6. Click **Submit**.
 
@@ -3375,7 +3375,7 @@ This topic describes how to rebuild a secondary database to help you better unde
 
    The system displays a result similar to the following, indicating that the rebuild is successful.
 
-   ![](assets/ad5cdadf2f10f7d5b9dcdfe988d82678.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/ad5cdadf2f10f7d5b9dcdfe988d82678.jpeg)
 
 <a id="section-2-2-10-7"></a>
 
@@ -3391,13 +3391,13 @@ This topic describes how to log on to an abnormal instance.
 
 3. In the **Host instance information** section, view and record the hostname, IP address, and port number of the abnormal instance.
 
-   ![](assets/026b8ef9533a88f4c692f86cfbaffc2e.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/026b8ef9533a88f4c692f86cfbaffc2e.jpeg)
 
 4. Log on to the Apsara Infrastructure Management console.
 
 5. In the left-side navigation pane, choose Resources > Product & Cluster O&M. Find the cluster that you want to manage and click Cluster Details in the Actions column. On the Machines tab, enter the hostname in the Hostname/IP Address field and click **Terminal** in the search results to manage the abnormal node.
 
-   ![](assets/97dcdd1f48f2636d213f7fd60907cf6a.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/97dcdd1f48f2636d213f7fd60907cf6a.jpeg)
 
 6. Run the following command to log on to the abnormal instance:
 
@@ -3411,7 +3411,7 @@ This topic describes how to log on to an abnormal instance.
 
    The following figure shows a sample output.
 
-   ![](assets/09cde318715d086f5ef1862bcc1d12fc.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/09cde318715d086f5ef1862bcc1d12fc.jpeg)
 
 7. If  `mysql>`  is displayed, you have logged on to the abnormal instance.
 
@@ -3439,7 +3439,7 @@ This topic describes how to check whether services are at desired state in the A
 
 4. On the **Product & Cluster O&M** page, check whether services in the primary and secondary data centers are at desired state.
 
-   ![](assets/561ae30d4425e339356eb294098ce603.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/561ae30d4425e339356eb294098ce603.jpeg)
 
 **Expected results**
 
@@ -3586,7 +3586,7 @@ This topic describes how to check the consistency of Apsara Stack DNS data and t
    >
    > - bcmc-minirds-check is the test domain name of Apsara Stack Resilience (ASR) for Zone-disaster Recovery. If the difference in bcmc-minirds-check is returned and highlighted in the command output, ignore it.
 
-   ![](assets/459d9237d481cde6f973cf44cf7026fa.png)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/459d9237d481cde6f973cf44cf7026fa.png)
 
 2. The following figure shows a sample command output. The number of RRs in the current zone queried from the etcd cluster, that queried from Terminal Server 1, and that queried from Terminal Server 2 are the same.
 
@@ -3594,7 +3594,7 @@ This topic describes how to check the consistency of Apsara Stack DNS data and t
    >
    > If the number of RRs queried from the etcd cluster is inconsistent with that queried from Terminal Server 1, the difference is highlighted in the format of rr:{'ops1':[],'etcd': []}.
 
-   ![](assets/39c77dba86fdca7cf574177a3d4fd439.png)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/39c77dba86fdca7cf574177a3d4fd439.png)
 
 3. The following figure shows a sample command output. The number of RRs in the current zone queried from the etcd clusters is the same.
 
@@ -3602,7 +3602,7 @@ This topic describes how to check the consistency of Apsara Stack DNS data and t
    >
    > If the number of RRs queried from the etcd clusters is inconsistent, the difference is highlighted in the format of rr:{'FirstEtcd':[],'SecondEtcd':[]}.
 
-   ![](assets/e6c0204f9768697f70c113a5c6821fd3.png)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/e6c0204f9768697f70c113a5c6821fd3.png)
 
 4. The following figure shows a sample command output. The number of RRs in the current zone queried from the etcd cluster, that queried from Terminal Server 1, and that queried from Terminal Server 2 are the same.
 
@@ -3610,7 +3610,7 @@ This topic describes how to check the consistency of Apsara Stack DNS data and t
    >
    > If the number of RRs queried from the etcd cluster is inconsistent with that queried from Terminal Server 1, the difference is highlighted in the format of rr:{'ops1':[],'etcd': []}.
 
-   ![](assets/39c77dba86fdca7cf574177a3d4fd439.png)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/39c77dba86fdca7cf574177a3d4fd439.png)
 
 > **Note**
 >
@@ -3626,7 +3626,7 @@ This topic describes how to check whether Apsara Stack DNS can resolve IP addres
 
 Run the  `dig +short dnsapi1.tbsite.net`  command on Terminal Server 1 and Terminal Server 2 in the primary and secondary data centers to check whether an IP address can be resolved.
 
-![](assets/0b70934fb7b2455c42ebbaa630496a22.jpeg)
+![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/0b70934fb7b2455c42ebbaa630496a22.jpeg)
 
 **Expected results**
 
@@ -3654,7 +3654,7 @@ This topic describes how to check the status of MiniRDS tasks and the expected r
 
 3. In the left-side navigation pane, click **Task Management**. On the Task Management page, select **Interrupted tasks**, **Waiting tasks**, **Temporarily Closed tasks**, **Suspended tasks**, and **Running tasks** in turn from the drop-down list in the upper-left corner and view the task details.
 
-   ![](assets/fcc1112709633a2255a68b29088caa1f.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/fcc1112709633a2255a68b29088caa1f.jpeg)
 
 **Expected results**
 
@@ -3680,7 +3680,7 @@ This topic describes how to check the disaster recovery (DR) status of MiniRDS i
 
 4. In the left-side pane of the **System Management** page, choose **Disaster Recovery Management** > **Disaster recovery switching**. In the instance list, check the instance status.
 
-   ![](assets/f1846e5421c71f007763da35485c8772.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/f1846e5421c71f007763da35485c8772.jpeg)
 
 **Expected results**
 
@@ -3706,7 +3706,7 @@ This topic describes how to check the status of MiniRDS instances and the expect
 
 3. In the left-side navigation pane, choose **Instance management** > **Instance List**. In the instance list, sort instances by the **CPU**, **QPS**, **Connections**, and **Disk Usage** columns in turn to view instance information.
 
-   ![](assets/2044aca4ddac70bc243a71f8dc28996d.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/2044aca4ddac70bc243a71f8dc28996d.jpeg)
 
 **Expected results**
 
@@ -3734,7 +3734,7 @@ This topic describes how to check the status of ApsaraDB RDS tasks and the expec
 
 3. In the left-side navigation pane, click **Task Management**. On the Task Management page, select **Interrupted tasks**, **Waiting tasks**, **Temporarily Closed tasks**, **Suspended tasks**, and **Running tasks** in turn from the drop-down list in the upper-left corner and view the task details.
 
-   ![](assets/1bfc260f0c2982199f9e4c0fd49f134c.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/1bfc260f0c2982199f9e4c0fd49f134c.jpeg)
 
 **Expected results**
 
@@ -3760,7 +3760,7 @@ This topic describes how to check the disaster recovery (DR) status of ApsaraDB 
 
 4. In the left-side pane of the **System Management** page, choose **Disaster Recovery Management** > **Disaster recovery switching**. In the instance list, check the instance status.
 
-   ![](assets/d768a3fd004b065eb5f017817cf8cc3e.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/d768a3fd004b065eb5f017817cf8cc3e.jpeg)
 
 **Expected results**
 
@@ -3784,7 +3784,7 @@ This topic describes how to check the status of ApsaraDB RDS instances and the e
 
 3. In the left-side navigation pane, choose **Instance management** > **Instance List**. In the instance list, sort instances by the **CPU**, **QPS**, **Connections**, and **Disk Usage** columns in turn to view instance information.
 
-   ![](assets/e234676d2cce58c0e3e244a09d8c52a3.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/e234676d2cce58c0e3e244a09d8c52a3.jpeg)
 
 **Expected results**
 
@@ -3814,7 +3814,7 @@ This topic describes how to check the status of Linux virtual servers (LVSs) and
    list admin lb_node
    ```
 
-   ![](assets/86fd813ffe04d651acb2e9b31f91d698.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/86fd813ffe04d651acb2e9b31f91d698.jpeg)
 
 **Expected results**
 
@@ -3840,7 +3840,7 @@ This topic describes how to check the status of proxies and the expected results
    list admin proxy
    ```
 
-   ![](assets/c3076c3fd1d6776570dfd99824cfba69.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/c3076c3fd1d6776570dfd99824cfba69.jpeg)
 
 **Expected results**
 
@@ -3866,7 +3866,7 @@ This topic describes how to check the status of keyservers and the expected resu
    list admin keyserver
    ```
 
-   ![](assets/546a366422c37692ef9693defb12a4d9.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/546a366422c37692ef9693defb12a4d9.jpeg)
 
 **Expected results**
 
@@ -3892,11 +3892,11 @@ This topic describes how to check whether all buckets are in the location of the
 
 2. Execute the  `select cluster,location from location_table;`  statement to query the clusters in the location of the primary data center.
 
-   ![](assets/eed367a2b393404ed96f0089d1cec997.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/eed367a2b393404ed96f0089d1cec997.jpeg)
 
 3. Execute the  `select name,location from oss_meta_bucket where location <>"{Primary data center location}";`  statement to query the buckets that are not in the location of the primary data center.
 
-   ![](assets/4f4bbf71f0af354905fbdea606e02382.png)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/4f4bbf71f0af354905fbdea606e02382.png)
 
 **Expected results**
 
@@ -3924,7 +3924,7 @@ This topic describes how to check the status of node controllers (NCs) and the e
 
 2. Execute the  `select id,ip,status,hostname,biz_status from nc;`  statement to query the status of all NCs.
 
-   ![](assets/7692056da67e5b188c1b5dc4582031a2.png)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/7692056da67e5b188c1b5dc4582031a2.png)
 
 **Expected results**
 
@@ -3954,15 +3954,15 @@ This topic describes how to check the status and traffic of network device ports
 
 4. In the device list, click the name of the inter-connection switch (ISW) or micro switch (MSW) that you want to manage.
 
-   ![](assets/bd89fd6ed0a89b57e3010860280c61d1.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/bd89fd6ed0a89b57e3010860280c61d1.jpeg)
 
 5. View the management and operation status of ports.
 
-   ![](assets/d3ff2bcd9b270fca748988d6c271ff9f.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/d3ff2bcd9b270fca748988d6c271ff9f.jpeg)
 
 6. Click a port name to view the port traffic.
 
-   ![](assets/c57fffed6ded9a7373d152be648e0d9e.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/c57fffed6ded9a7373d152be648e0d9e.jpeg)
 
 **Expected results**
 
@@ -4078,7 +4078,7 @@ The virtual IP addresses (VIPs) in the secondary data center are abnormal. Some 
 
    </ol>
 
-   the search box, and then click the <img src="assets/11f9c4d15558649088f4f4ed92c35c6c.png" width="17" alt=""> icon.
+   the search box, and then click the <img src="en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/11f9c4d15558649088f4f4ed92c35c6c.png" width="17" alt=""> icon.
 
    <ol type="i" start="4">
 
@@ -4086,7 +4086,7 @@ The virtual IP addresses (VIPs) in the secondary data center are abnormal. Some 
 
    Find the service to which the remotemock resource belongs and whose type is vip in the Name column, and click the eye icon in the Result column. Click the value that appears to view the IP addresses in the value of the nc_list parameter.
 
-   ![](assets/923fe0579f89528d14ff48da58ca8183.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/923fe0579f89528d14ff48da58ca8183.jpeg)
 
    - If the number of IP addresses displayed in the value of the nc_list parameter in the Apsara Infrastructure Management console is greater than the number of IP addresses that ASR for Zone-disaster Recovery queries from Server Load Balancer (SLB), check whether the excess IP addresses belong to the service in the Apsara Infrastructure Management console. If so, add the excess IP addresses to SLB.
 
@@ -4164,7 +4164,7 @@ This topic describes the directories in which the logs of Apsara Stack Resilienc
 
    </ol>
 
-   ![](assets/d3ad6be1012438eeb04d3870f0d3c018.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/d3ad6be1012438eeb04d3870f0d3c018.jpeg)
 
    <ol type="i" start="3">
 
@@ -4176,7 +4176,7 @@ This topic describes the directories in which the logs of Apsara Stack Resilienc
 
    </ol>
 
-   ![](assets/924849691bf30d181a6a4934c448758a.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/924849691bf30d181a6a4934c448758a.jpeg)
 
    <ol type="i" start="4">
 
@@ -4184,7 +4184,7 @@ This topic describes the directories in which the logs of Apsara Stack Resilienc
 
    Run the  `/2022-12-15 00:04:03`  command to query the log details at the specified time.
 
-   ![](assets/87afada7c60b1aa2c7670596af2dc799.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/87afada7c60b1aa2c7670596af2dc799.jpeg)
 
    > **Note**
    >
@@ -4196,7 +4196,7 @@ This topic describes the directories in which the logs of Apsara Stack Resilienc
 
    Run the  `:q`  command to exit the log details page.
 
-   ![](assets/a01736288d2e8853353101464b040377.png)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/a01736288d2e8853353101464b040377.png)
 
    </li>
 
@@ -4254,7 +4254,7 @@ This topic describes how to log on to a container. The Bcmc# container of bcmc i
 
    Find the cluster that you want to manage and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/a7d5ec3cafebc4e1c44255e64bfea98e.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/a7d5ec3cafebc4e1c44255e64bfea98e.jpeg)
 
    </li>
 
@@ -4262,7 +4262,7 @@ This topic describes how to log on to a container. The Bcmc# container of bcmc i
 
    On the Services tab, find the **bcmc** service and click its name.
 
-   ![](assets/392df1b6d9de6205c36d75d8e4801bca.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/392df1b6d9de6205c36d75d8e4801bca.jpeg)
 
    </li>
 
@@ -4276,7 +4276,7 @@ This topic describes how to log on to a container. The Bcmc# container of bcmc i
 
    **Actions** column of an instance.
 
-   ![](assets/820c2fcc0183bfea9fd3c598e03cd777.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/820c2fcc0183bfea9fd3c598e03cd777.jpeg)
 
 2. Run the following command to query the ID of the container:
 
@@ -4284,7 +4284,7 @@ This topic describes how to log on to a container. The Bcmc# container of bcmc i
    docker ps
    ```
 
-   ![](assets/89a41e7bb7d6cbf8c601e848e9055ab0.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/89a41e7bb7d6cbf8c601e848e9055ab0.jpeg)
 
 3. Run the following command to access the container:
 
@@ -4292,7 +4292,7 @@ This topic describes how to log on to a container. The Bcmc# container of bcmc i
    docker exec -it <Container ID> /bin/bash.
    ```
 
-   ![](assets/4ca02358dce24d3d1c2f096dd10da9a5.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/4ca02358dce24d3d1c2f096dd10da9a5.jpeg)
 
 <a id="section-5-3"></a>
 
@@ -4344,7 +4344,7 @@ This topic describes how to log on to the oss_meta database.
 
 7. On the **Resources** tab, find the resource whose name is **oss_meta** and type is **db**, and view the values of the db_host, user, db_password, db_port, and db_name parameters in the **Resource Application Result** column.
 
-   ![](assets/644e137311fc85e8a07101b5bd19d144.jpeg)
+   ![](en-asr-zone-disaster-recovery-oper-d25ebde8-v3.18.6-2607-20260828.assets/644e137311fc85e8a07101b5bd19d144.jpeg)
 
 8. On the **Instances** tab, click **Terminal** in the **Actions** column of an instance.
 

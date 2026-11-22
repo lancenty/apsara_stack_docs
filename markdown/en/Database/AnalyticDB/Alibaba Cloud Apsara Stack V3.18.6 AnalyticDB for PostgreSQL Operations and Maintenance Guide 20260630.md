@@ -137,7 +137,7 @@ The following figure shows the system architecture of AnalyticDB for PostgreSQL.
 
 Figure 1. System architecture
 
-![](assets/3ed5a8966d44721447e96ec29afe4ca3.png)
+![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/3ed5a8966d44721447e96ec29afe4ca3.png)
 
 AnalyticDB for PostgreSQL consists of two major components: the coordinator node and compute nodes.
 
@@ -171,7 +171,7 @@ This topic describes how users, such as O&M engineers, log in to ApsaraDB Operat
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -823,7 +823,7 @@ Before performing a specification change, ensure that you complete the following
 
 3. In the lower part of the Basic information page, click **Specification change**.
 
-   ![](assets/300d0f6c62e56890688dd73a35abf143.jpeg)
+   ![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/300d0f6c62e56890688dd73a35abf143.jpeg)
 
 4. On the page that appears, specify **Storage space (GB)**, **Instance specifications**, **Switch Mode**, and **Reason for change**. Then, click **Next step**.
 
@@ -1922,11 +1922,11 @@ If a PolarDB-X instance fails to be created and is stuck at the wait_create_xdb_
 
 Solution: Check whether the creation tasks of these ApsaraDB RDS for MySQL nodes run properly. Then, you can retry the task by referring to ApsaraDB RDS for MySQL Operations and Maintenance Guide.
 
-![](assets/02fcf21e73134e36e5184b315748fb88.jpeg)
+![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/02fcf21e73134e36e5184b315748fb88.jpeg)
 
 On the PolarDB-X instance details page, click the corresponding ApsaraDB RDS for MySQL instance. In the left-side navigation pane of the page that appears, click **Task list**. On the page that appears, you can view the task flows of the corresponding storage nodes and GMS nodes.
 
-![](assets/4d541f55e387f5779b1bb0f6c6bc65a7.jpeg)
+![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/4d541f55e387f5779b1bb0f6c6bc65a7.jpeg)
 
 **Failed PolarDB-X release task**
 
@@ -1980,7 +1980,7 @@ After you change the data node specifications, the specifications of data nodes 
 
 3. In the lower part of the Basic information page, click **Specification change**.
 
-   ![](assets/300d0f6c62e56890688dd73a35abf143.jpeg)
+   ![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/300d0f6c62e56890688dd73a35abf143.jpeg)
 
 4. On the page that appears, specify **Storage space (GB)**, **Instance specifications**, **Switch Mode**, and **Reason for change**. Then, click **Next step**.
 
@@ -2058,7 +2058,7 @@ When business traffic increases or the load on existing proxy nodes becomes exce
 
 3. In the lower part of the Basic information page, click **Add Proxy Instance Node**.
 
-   ![](assets/1183e78c2535e14737b44b06aba98960.jpeg)
+   ![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/1183e78c2535e14737b44b06aba98960.jpeg)
 
 4. In the dialog box that appears, enter the number of nodes and click **Submit**.
 
@@ -2084,7 +2084,7 @@ In high write-load scenarios, the latency of primary/secondary synchronization i
 
 3. In the lower part of the Basic information page, click **Temporarily scale-up the primary-standby synchronization buffer**.
 
-   ![](assets/2d86ed411f3702c8afb2539309272b1e.jpeg)
+   ![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/2d86ed411f3702c8afb2539309272b1e.jpeg)
 
 4. In the dialog box that appears, enter the target scaling ratio and click **Submit**.
 
@@ -2470,9 +2470,9 @@ You can use the **physical machine group** feature to create a resource pool for
 
 2. In the **Create Group** dialog box, configure the **Group name** and **Database type** parameters, and select a machine from the **Machine** drop-down list.
 
-   ![](assets/4d42799e694806ef174a4df936274e59.jpeg)
+   ![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/4d42799e694806ef174a4df936274e59.jpeg)
 
-3. Select an idle physical machine and click the <img src="assets/d23bf4c30094a6d978770dd136f269fb.jpeg" width="22" alt=""> icon to add it to the current physical
+3. Select an idle physical machine and click the <img src="en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/d23bf4c30094a6d978770dd136f269fb.jpeg" width="22" alt=""> icon to add it to the current physical
 
    machine group.
 
@@ -2834,23 +2834,23 @@ On the Task list page, click a task ID in the **Task ID** column to go to the wo
 
 - **Basic Information**: displays the basic information of the workflow, including the task ID, workflow ID, workflow duration, and start and end time.
 
-  ![](assets/817ab14ea103abe3a052f6c8cec9efb4.jpeg)
+  ![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/817ab14ea103abe3a052f6c8cec9efb4.jpeg)
 
 - **Execution Logs of Current Step**: displays the execution logs of the current step.
 
-  ![](assets/5adee74720bbf715bcdb20df847a7995.jpeg)
+  ![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/5adee74720bbf715bcdb20df847a7995.jpeg)
 
 - **Workflow steps**: displays the execution details of each step of the workflow, such as the execution time, parameters, status, and duration. It also displays the operations in each step, such as retry, step redirection, and temporary closing.
 
   The following figure shows a successful step.
 
-  ![](assets/62eaef4474866070e1d8728bddf1df7a.jpeg)
+  ![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/62eaef4474866070e1d8728bddf1df7a.jpeg)
 
   If a step fails, the retry, step redirection, and temporary closing are supported. The following figure shows a failed step.
 
 - **Task Intervention Logs**: displays the operation information of each workflow O&M.
 
-  ![](assets/3b2671964193e4e2de5f08c86002e5b5.jpeg)
+  ![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/3b2671964193e4e2de5f08c86002e5b5.jpeg)
 
 - **Interrupt Workflows**: displays the Interrupted task tab. Click the ID of the interrupted task to go to the workflow details page. You can use it to handle interrupted steps.
 
@@ -2915,7 +2915,7 @@ By default, database system logs, such as audit logs, are written to SLS-inner, 
 
 3. On the **System parameter configuration** tab, change the value of DUKANG_OPEN_PUB_SLS to **true**.
 
-   ![](assets/27b8f769d694808d86233fcf52c14784.png)
+   ![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/27b8f769d694808d86233fcf52c14784.png)
 
    > **Note**
    >
@@ -3031,7 +3031,7 @@ This topic describes how users such as O&M engineers log on to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-analyticdb-analyticdb-postgresql-ope-0bb8f7c5-v3.18.6-20260630.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >

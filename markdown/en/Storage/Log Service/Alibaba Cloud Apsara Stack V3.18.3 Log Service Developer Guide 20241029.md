@@ -274,7 +274,7 @@ When you call Apsara Stack operations, endpoints are used. You can obtain an end
 
    View the value of the **sls_data.endpoint** variable. The value indicates the  `endpoint`  of Simple Log Service. In most cases, the endpoint of Simple Log Service is in the  `data.${global:region}.sls-pub.${global:internet-domain}`  format.
 
-   ![](assets/14b428a9ef4ceb505b03bb500006f1b2.jpeg)
+   ![](en-sls-developer-guide-v3.18.3-20241029.assets/14b428a9ef4ceb505b03bb500006f1b2.jpeg)
 
 **Method 2: Obtain the endpoint in the Simple Log Service console**
 
@@ -286,7 +286,7 @@ After you create a project, you can view the endpoint of the project on the Proj
 
 3. On the **Project Overview** page, view the endpoint of the project.
 
-![](assets/34997c3eac2116318ef475a3825244f9.jpeg)
+![](en-sls-developer-guide-v3.18.3-20241029.assets/34997c3eac2116318ef475a3825244f9.jpeg)
 
 View the value of the Private Endpoint parameter. The endpoint of Simple Log Service is in the  `data.${global:region}.sls-pub.${global:internet-domain}`  format.
 
@@ -2100,7 +2100,7 @@ Log Service SDK for Node.js allows developers to use Log Service by using Node.j
 
    Visit  `http://localhost:3000` . Then, access logs are generated.
 
-   ![](assets/c92f47aa6212ecdd2c2cd138a788c110.jpeg)
+   ![](en-sls-developer-guide-v3.18.3-20241029.assets/c92f47aa6212ecdd2c2cd138a788c110.jpeg)
 
 4. Write logs to Log Service.
 
@@ -2200,7 +2200,7 @@ Log Service SDK for Node.js allows developers to use Log Service by using Node.j
 
 5. View collected log data. In the Log Service console, find the Logstore in the project. Click the Logstore name, enter a query statement in the search box on the **Search & Analysis** page, and then click Search & Analyze to view log data. The following figure indicates that most page views (PVs) occurred between 18:30 and 19:00 on September 12 during the specified time range. You can record and display the PV statistics as a chart on your dashboard.
 
-   ![](assets/c34a24705a6781db52cfaab4d676f0ca.jpeg)
+   ![](en-sls-developer-guide-v3.18.3-20241029.assets/c34a24705a6781db52cfaab4d676f0ca.jpeg)
 
 <a id="section-3"></a>
 
@@ -2362,7 +2362,7 @@ The following figure shows the security verification process.
 
 Figure 1. Security verification process
 
-![](assets/8dd3b17c5d1d3dc03c571f6d9031ac75.png)
+![](en-sls-developer-guide-v3.18.3-20241029.assets/8dd3b17c5d1d3dc03c571f6d9031ac75.png)
 
 The security verification process can also be used for the following purposes:
 
@@ -4456,7 +4456,7 @@ Queries a cursor based on a point in time.
 
 You can use a cursor to obtain the location of a specific log. The following figure shows the relationships among a cursor, project, Logstore, and shard.
 
-![](assets/69b6f3b8f86e74019a4c70b3629c9462.png)
+![](en-sls-developer-guide-v3.18.3-20241029.assets/69b6f3b8f86e74019a4c70b3629c9462.png)
 
 - Each project has multiple Logstores.
 
@@ -10308,7 +10308,7 @@ encrypt_conf = {
 
    On the **RAM Service Linked Role** page, find the AliyunLogAccessingKMSRole service role, and click **Details** to obtain the ARN of the RAM role.
 
-   ![](assets/f071f1d9824b0e3a9967c6efa8df14db.png)
+   ![](en-sls-developer-guide-v3.18.3-20241029.assets/f071f1d9824b0e3a9967c6efa8df14db.png)
 
    </li>
 
@@ -10368,7 +10368,7 @@ The following table describes the requirements for the values of these fields. T
 >
 > The key in the content field cannot be any of the following keywords:
 >
-> ![](assets/36f89c5506a49352d705ec4fcf67357f.png)
+> ![](en-sls-developer-guide-v3.18.3-20241029.assets/36f89c5506a49352d705ec4fcf67357f.png)
 >
 > `__time__` ,  `__source__` ,  `__topic__` ,  `__partition_time__` , and
 
@@ -12116,7 +12116,7 @@ The following table describes the required parameters of this command and the pa
 | --project_name | String | Yes | aliyun-test-project | The name of the project. |
 | --logstore_name | String | Yes | logstore-a | The name of the Logstore. |
 | --ttl | Integer | No | 30 | The data retention period.Unit: days. Valid values: 1 to<br>3650. If you set this parameter to 3650, data is permanently stored. |
-| --shard_count | Integer | No | 2 | The number of shards.<br><img src="assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important You cannot change the number of shards by running the update_logst ore command.To change the number of shards, you can call the SplitShard and MergeShards operations. |
+| --shard_count | Integer | No | 2 | The number of shards.<br><img src="en-sls-developer-guide-v3.18.3-20241029.assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important You cannot change the number of shards by running the update_logst ore command.To change the number of shards, you can call the SplitShard and MergeShards operations. |
 | --enable_tracking | Boolean | No | true | Specifies whether to enable the web tracking feature.Valid values:<br>• true<br>• false |
 | --append_meta | Boolean | No | false | Specifies whether to record public IP addresses. Valid values:<br>• true<br>• false |
 | --auto_split | Boolean | No | true | Specifies whether to enable automatic sharding. Valid values:<br>• true<br>• false |
@@ -14917,9 +14917,9 @@ The following table describes the required parameters of this command and the pa
 | --from_time | String | Yes | 2021-05-28 15:33:00+8:00 | The beginning of the time range to query. Specify the value as a UNIX timestamp or in the <code> "%Y-</code><code>%m-%d</code><br><code>%H:%M:%S&lt;time_z</code> <code>one&gt;" </code> format.Example: <code>"2018-01-02</code><br><code>12:12:10+8:00"</code><code> </code>. |
 | --to_time | String | Yes | 2021-05-28 15:40:00+8:00 | The end of the time range to query. Specify the value as a UNIX timestamp or in the <code> "%Y-</code><code>%m-%d</code><br><code>%H:%M:%S&lt;time_z</code> <code>one&gt;" </code> format.Example: <code>"2018-01-02</code><br><code>12:12:10+8:00"</code><code> </code>. |
 
-![](assets/e8c5739d9159430eb88603f2eef61aeb.png)
+![](en-sls-developer-guide-v3.18.3-20241029.assets/e8c5739d9159430eb88603f2eef61aeb.png)
 
-![](assets/bfdf334bf67011a342a0cdd9215a59bc.png)
+![](en-sls-developer-guide-v3.18.3-20241029.assets/bfdf334bf67011a342a0cdd9215a59bc.png)
 
 <table>
   <tr>
@@ -14937,14 +14937,14 @@ The following table describes the required parameters of this command and the pa
     <td>String</td>
     <td>No</td>
     <td><code>level:Informa</code><br><code>tion&#124;select</code><br><code>event_id as</code><br><code>Key1,COUNT(*)</code><br><code>as Key2 group</code><br><code>by Key1</code></td>
-    <td>The search statement or the query statement.For more information, see Log search <strong>overview</strong> and Log analysis <strong>overview</strong> in the Query and analysis topic of Log Service <strong>User Guide</strong>.<br>If you add <code> set </code> <code>session</code><br><code>parallel_sql=tr</code> <code>ue; </code> to the analytic statement in the query parameter, Dedicated SQL is used. For example, you can set the query parameter to <code> * </code> <code>&#124; set session</code><br><code>parallel_sql=tr</code><br><code>ue; select</code><br><code>count(*) as</code> <code>pv </code>.<br><img src="assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important If you specify an analytic statement in the <strong>query</strong> parameter, you must set the <strong>size</strong> and offset parameters to 0 and use the LIMIT clause to limit the number of logs to return on each page.</td>
+    <td>The search statement or the query statement.For more information, see Log search <strong>overview</strong> and Log analysis <strong>overview</strong> in the Query and analysis topic of Log Service <strong>User Guide</strong>.<br>If you add <code> set </code> <code>session</code><br><code>parallel_sql=tr</code> <code>ue; </code> to the analytic statement in the query parameter, Dedicated SQL is used. For example, you can set the query parameter to <code> * </code> <code>&#124; set session</code><br><code>parallel_sql=tr</code><br><code>ue; select</code><br><code>count(*) as</code> <code>pv </code>.<br><img src="en-sls-developer-guide-v3.18.3-20241029.assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important If you specify an analytic statement in the <strong>query</strong> parameter, you must set the <strong>size</strong> and offset parameters to 0 and use the LIMIT clause to limit the number of logs to return on each page.</td>
   </tr>
   <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td>Specifies whether to return logs in reverse chronological order of log timestamps. The log timestamps are accurate to the minute. Valid values:<br>• true: returns logs in reverse chronological order of log timestamps.<br>• false (default): returns logs in chronological order of log timestamps.<br><img src="assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important<br>• The rever se para mete r takes effect only when the query para mete r is set to a searc h state ment. The rever se para mete r speci fies the meth od used to sort retur ned logs.<br>• If the query para mete</td>
+    <td>Specifies whether to return logs in reverse chronological order of log timestamps. The log timestamps are accurate to the minute. Valid values:<br>• true: returns logs in reverse chronological order of log timestamps.<br>• false (default): returns logs in chronological order of log timestamps.<br><img src="en-sls-developer-guide-v3.18.3-20241029.assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important<br>• The rever se para mete r takes effect only when the query para mete r is set to a searc h state ment. The rever se para mete r speci fies the meth od used to sort retur ned logs.<br>• If the query para mete</td>
   </tr>
 </table>
 
@@ -15073,9 +15073,9 @@ The following table describes the required parameters of this command and the pa
 | --to_time | String | Yes | 2021-05-28 15:40:00+8:00 | The end of the time range to query. Specify the value as a UNIX timestamp or in the <code> "%Y-</code><code>%m-%d</code><br><code>%H:%M:%S&lt;time_z</code> <code>one&gt;" </code> format.Example: <code>"2018-01-02</code><br><code>12:12:10+8:00"</code><code> </code>. |
 | --topic | String | No | "" | The topic of the logs. For more information, see <strong>Topic</strong> in the Quick start topic of Log Service User <strong>Guide</strong>. |
 
-![](assets/7d8d12d64fba6a331fe7d529ab2b2251.png)
+![](en-sls-developer-guide-v3.18.3-20241029.assets/7d8d12d64fba6a331fe7d529ab2b2251.png)
 
-![](assets/58b5a3ca21b3c5001af475a8c9b9ddd7.png)
+![](en-sls-developer-guide-v3.18.3-20241029.assets/58b5a3ca21b3c5001af475a8c9b9ddd7.png)
 
 <table>
   <tr>
@@ -15083,7 +15083,7 @@ The following table describes the required parameters of this command and the pa
     <td>String</td>
     <td>No</td>
     <td><code>level:Informa</code><br><code>tion&#124;select</code><br><code>event_id as</code><br><code>Key1,COUNT(*)</code><br><code>as Key2 group</code><br><code>by Key1</code></td>
-    <td>The query statement. For more information, see Log search <strong>overview</strong> and Log analysis <strong>overview</strong> in the Query and analysis topic of Log Service <strong>User Guide</strong>.<br><img src="assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important If you specify an analytic statement in the <strong>query</strong> parameter, you must set the <strong>line</strong> and offset parameters to 0 and use the LIMIT clause to limit the number of logs to return on each page.</td>
+    <td>The query statement. For more information, see Log search <strong>overview</strong> and Log analysis <strong>overview</strong> in the Query and analysis topic of Log Service <strong>User Guide</strong>.<br><img src="en-sls-developer-guide-v3.18.3-20241029.assets/210e2726cc9a14e98c227abf044c048f.png" width="14" alt=""><br>Important If you specify an analytic statement in the <strong>query</strong> parameter, you must set the <strong>line</strong> and offset parameters to 0 and use the LIMIT clause to limit the number of logs to return on each page.</td>
   </tr>
   <tr>
     <td>--reverse</td>
@@ -15232,9 +15232,9 @@ The following table describes the required parameters of this command and the pa
 | --to_time | String | Yes | 2021-06-01 18:18:00+8:00 | The end of the time range to query. Specify the value as a UNIX timestamp or in the <code> "%Y-</code><code>%m-%d</code><br><code>%H:%M:%S&lt;time_z</code> <code>one&gt;" </code> format.Example: <code>"2018-01-02</code><br><code>12:12:10+8:00"</code><code> </code>. |
 | --batch_size | String | No | 1000 | The number of logs to return for each request. |
 
-![](assets/60edfaf84a1d2efbcd7db2fa43a96e6b.png)
+![](en-sls-developer-guide-v3.18.3-20241029.assets/60edfaf84a1d2efbcd7db2fa43a96e6b.png)
 
-![](assets/5f603249dc6546681cf1ddcd1761e553.png)
+![](en-sls-developer-guide-v3.18.3-20241029.assets/5f603249dc6546681cf1ddcd1761e553.png)
 
 <table>
   <tr>
@@ -15466,9 +15466,9 @@ The following table describes the required parameters of this command and the pa
 | --batch_size | String | No | 1000 | The number of logs to return for each request. |
 | --compress | Boolean | No | true | Specifies whether to compress the returned logs.Valid values:<br>• true (default)<br>• false |
 
-![](assets/ba13fcd5a690f430257238270991dd7a.png)
+![](en-sls-developer-guide-v3.18.3-20241029.assets/ba13fcd5a690f430257238270991dd7a.png)
 
-![](assets/1f412fc984044d4428797e80f8df5aed.png)
+![](en-sls-developer-guide-v3.18.3-20241029.assets/1f412fc984044d4428797e80f8df5aed.png)
 
 For more information about the global parameters of this command, see Global parameters.
 
@@ -15897,7 +15897,7 @@ For more information about the global parameters of this command, see Global par
 
   The following figure shows an example of a CSV file.
 
-  ![](assets/4713e35f576dcabeb7aceef505391af1.png)
+  ![](en-sls-developer-guide-v3.18.3-20241029.assets/4713e35f576dcabeb7aceef505391af1.png)
 
   For more information, see **Associate Log Service with external data sources** in **Log Service User Guide**.
 
@@ -15966,7 +15966,7 @@ For more information about the global parameters of this command, see Global par
 
     After the external data source is associated, you can execute the  `*|select * from oss-store-demo`  query statement in the Log Service console to query data in the data source.
 
-    ![](assets/5bcc88627a8bd3305048c957cd0b40da.png)
+    ![](en-sls-developer-guide-v3.18.3-20241029.assets/5bcc88627a8bd3305048c957cd0b40da.png)
 
 - **Associate Log Service with a database that is created on an ApsaraDB RDS for MySQL instance as an external data source**
 
@@ -15996,7 +15996,7 @@ For more information about the global parameters of this command, see Global par
 
   The following figure shows an example of a table.
 
-  ![](assets/9cb01d984c21f284d8d6b8b9516152ef.png)
+  ![](en-sls-developer-guide-v3.18.3-20241029.assets/9cb01d984c21f284d8d6b8b9516152ef.png)
 
   For more information, see **Associate Log Service with external data sources** in **Log Service User Guide**.
 
@@ -16046,7 +16046,7 @@ For more information about the global parameters of this command, see Global par
 
     After the external data source is associated, you can execute the  `*|select * from rds-vpc-mysql-store`  query statement in the Log Service console to query data in the data source.
 
-    ![](assets/57db0c9d5820e358f0c67a56f913e950.png)
+    ![](en-sls-developer-guide-v3.18.3-20241029.assets/57db0c9d5820e358f0c67a56f913e950.png)
 
 - **Associate Log Service with a local CSV file as an external data source**
 
@@ -16076,7 +16076,7 @@ For more information about the global parameters of this command, see Global par
 
   The following figure shows an example of a CSV file.
 
-  ![](assets/4713e35f576dcabeb7aceef505391af1.png)
+  ![](en-sls-developer-guide-v3.18.3-20241029.assets/4713e35f576dcabeb7aceef505391af1.png)
 
   For more information, see **Associate Log Service with external data sources** in **Log Service User Guide**.
 
@@ -16146,7 +16146,7 @@ For more information about the global parameters of this command, see Global par
 
     After the external data source is associated, you can execute the  `*|select * from doctest-local-csvfile`  query statement in the Log Service console to query data in the data source.
 
-    ![](assets/5bcc88627a8bd3305048c957cd0b40da.png)
+    ![](en-sls-developer-guide-v3.18.3-20241029.assets/5bcc88627a8bd3305048c957cd0b40da.png)
 
 **References**
 
@@ -16408,7 +16408,7 @@ For more information about the global parameters of this command, see Global par
 
    The following figure shows an example of a CSV file.
 
-   ![](assets/6e58977497c11298d98ebb912c9405ff.png)
+   ![](en-sls-developer-guide-v3.18.3-20241029.assets/6e58977497c11298d98ebb912c9405ff.png)
 
    For more information, see **Associate Log Service with external data sources** in **Log Service User Guide**.
 
@@ -16463,7 +16463,7 @@ For more information about the global parameters of this command, see Global par
 
      After the external data source is modified, you can execute the  `*|select * from oss-store-demo`  query statement in the Log Service console to query data in the data source.
 
-     ![](assets/684f40216c39946b767fe85fda40a8ce.png)
+     ![](en-sls-developer-guide-v3.18.3-20241029.assets/684f40216c39946b767fe85fda40a8ce.png)
 
 **References**
 

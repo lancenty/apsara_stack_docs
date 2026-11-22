@@ -77,25 +77,25 @@ Prometheus 2.0
 
 Monitoring
 
-![](assets/093340cc7ffc0cc44d611d1f973820a1.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/093340cc7ffc0cc44d611d1f973820a1.png)
 
-![](assets/7b6e80b8a968b18ee6d45fcf8f21115b.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/7b6e80b8a968b18ee6d45fcf8f21115b.png)
 
-![](assets/85622e87053ef5318a40ddbf5ee5e1c9.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/85622e87053ef5318a40ddbf5ee5e1c9.png)
 
 Enterprise Base/Basic
 
-![](assets/d63940158e6917924b9378a4fd2b789b.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/d63940158e6917924b9378a4fd2b789b.png)
 
-![](assets/0be26f7aa82bf53052bde332f0c0cf65.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/0be26f7aa82bf53052bde332f0c0cf65.png)
 
-![](assets/626b28558a398ecd5a629ddeb4091375.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/626b28558a398ecd5a629ddeb4091375.png)
 
-![](assets/6e3793046020a85b90514e50be41077b.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/6e3793046020a85b90514e50be41077b.png)
 
-![](assets/5b279de8ea47d3c8b6eb1e7075a439d4.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/5b279de8ea47d3c8b6eb1e7075a439d4.png)
 
-![](assets/62f9de7f5aea4dad1ce01f08392b23fe.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/62f9de7f5aea4dad1ce01f08392b23fe.png)
 
 Services
 
@@ -157,7 +157,7 @@ The components of Managed Service for Prometheus provide the following benefits:
 
 - Managed Service for Prometheus is compatible with the clients and query languages in the open source Prometheus ecosystem. Managed Service for Prometheus provides optimized collection rules and usage values.
 
-  ![](assets/a010099a437ae83f70f4d3c9d3b4f428.png)
+  ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/a010099a437ae83f70f4d3c9d3b4f428.png)
 
   **onTiangongVPC**
 
@@ -221,7 +221,7 @@ The HPA process collects metric values, such as memory usage, and checks whether
 
 **How HPA for Managed Service for Prometheus works:**
 
-![](assets/a818590e6bf0c35107f81dd0b1df9dcd.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/a818590e6bf0c35107f81dd0b1df9dcd.png)
 
 ofDataCollected
 
@@ -261,7 +261,7 @@ This topic describes how to log in to the Prometheus V2.0 console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -343,7 +343,7 @@ If you have already installed Managed Service for Prometheus in the Apsara Uni-m
 
 2. In the left-side navigation pane, click **Cluster List** and click **Authorize Prometheus**. Then, you can find that the installation of Managed Service for Prometheus is completed.
 
-![](assets/1a2dc642b1d21ee05cc3b67aab08c9a4.jpeg)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/1a2dc642b1d21ee05cc3b67aab08c9a4.jpeg)
 
 <a id="section-2-3"></a>
 
@@ -365,7 +365,7 @@ This topic describes how to log in to the Apsara Uni-manager Operations Console.
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -449,7 +449,7 @@ Managed Service for Prometheus provides the Remote Write feature. You can use th
 
 4. In the dialog box that appears, enter an instance name in Step 1 and click Save.
 
-   ![](assets/2441fccaaac952e9ae011b0e99a0fede.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/2441fccaaac952e9ae011b0e99a0fede.jpeg)
 
    > **Note**
    >
@@ -457,7 +457,7 @@ Managed Service for Prometheus provides the Remote Write feature. You can use th
 
 5. After the Prometheus instance is created, the system displays the Remote Write URL.
 
-   ![](assets/d1ae3c74562ce5e16c59284048907eb2.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/d1ae3c74562ce5e16c59284048907eb2.jpeg)
 
 6. You can read the usage notes of the URL and then use the URL to store the monitoring data of Managed Service for Prometheus to remote databases.
 
@@ -706,7 +706,7 @@ After you interface Managed Service for Prometheus with OpenTelemetry, you can u
 
 5. View data on Grafana dashboards.
 
-   ![](assets/d328fe865f98eef1d136d054585e101c.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/d328fe865f98eef1d136d054585e101c.jpeg)
 
 **Step 4: Stop storing monitoring data to the remote database**
 
@@ -744,7 +744,7 @@ Your cluster is connected to Managed Service for Prometheus. For more informatio
 
 2. In the left-side navigation pane, choose **Container observable > Cluster List**.
 
-3. On the **Cluster List** page, click the <img src="assets/52d17e5d6a261bf52763122915d5f907.png" width="54" alt=""> icon to select a cluster display mode above the
+3. On the **Cluster List** page, click the <img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/52d17e5d6a261bf52763122915d5f907.png" width="54" alt=""> icon to select a cluster display mode above the
 
    list.
 
@@ -752,35 +752,35 @@ Your cluster is connected to Managed Service for Prometheus. For more informatio
 >
 > - The Cluster List page displays the names, key metrics, environment, and tags of clusters that are monitored by Managed Service for Prometheus. You can add tags to the clusters.
 >
->   Add a tag to one cluster: Click the <img src="assets/900293462682fa8f3786faadf08b0e04.png" width="18" alt=""> icon in the Label column of a cluster, select
+>   Add a tag to one cluster: Click the <img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/900293462682fa8f3786faadf08b0e04.png" width="18" alt=""> icon in the Label column of a cluster, select
 >
 >   or enter a tag, and then click **OK**.
 >
 >   Add a tag to multiple clusters: Select the clusters to which you want to add the tag and click **Add Tags**, select or enter a tag, and then click **OK**.
 >
->   ![](assets/7875096034f5602a1f140503071ead92.jpeg)
+>   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/7875096034f5602a1f140503071ead92.jpeg)
 >
 > - The Cluster List page in **Honeycomb** mode displays the CPU and memory usage of pods in all clusters. You can filter the statistics by cluster name, workload, or namespace.
 >
->   ![](assets/bf2eb979306f6fdc5e9ccb9be7320baa.jpeg)
+>   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/bf2eb979306f6fdc5e9ccb9be7320baa.jpeg)
 
 4. On the **Cluster List** page, click the name of a cluster to go to the cluster details page. On the details page, you can view metrics in different dashboards on the **Core Component Monitoring**, **Node Monitoring**, **Application Monitoring**, **Network Monitoring**, **GPU Monitoring**, **Big Data/AI**, **Resource Profile**, and **Others** tabs.
 
-   ![](assets/9d0744b0abc50fea94058e372f157496.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/9d0744b0abc50fea94058e372f157496.jpeg)
 
 5. On the **Cluster List** page, click a cluster name to go to the **cluster details** page. You can convert the monitored metrics to alerts with a few clicks.
 
-   Click the <img src="assets/fba6b5dde39beed5f91b92c4675d354b.png" width="22" alt=""> icon next to a metric and select **Create an alert** to go to the **Create alert**
+   Click the <img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/fba6b5dde39beed5f91b92c4675d354b.png" width="22" alt=""> icon next to a metric and select **Create an alert** to go to the **Create alert**
 
    **rules** page. For more information, see Create an alert rule.
 
-   ![](assets/a7ed1ba1b40261ed2f451252eb39c6ed.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/a7ed1ba1b40261ed2f451252eb39c6ed.jpeg)
 
    If a panel involves multiple PromQL entries, the **Select PromQL** dialog box appears when you select **Create an alert**. After you select a PromQL entry and click **ok**, the **Create an alert rule** dialog box appears. For more information, see Create an alert rule.
 
-   ![](assets/7b8c60ed70e2ec901915d216036d6e17.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/7b8c60ed70e2ec901915d216036d6e17.jpeg)
 
-   ![](assets/a9cdec76b46c58850739e6ea5e925d30.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/a9cdec76b46c58850739e6ea5e925d30.jpeg)
 
 6. On the **Cluster List** page, find the cluster that you want to view and click the number in the **Number of alarms** column. The **Alert Event** page appears. On this page, you can view the alert history. For more information, see Query historical alerts.
 
@@ -802,7 +802,7 @@ Your cluster is monitored in Managed Service for Prometheus. For more informatio
 
 3. On the **Cluster Config** page, you can configure thresholds for pods and nodes in clusters.
 
-   ![](assets/2ef2424279ff8607a46af1a5e5920e24.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/2ef2424279ff8607a46af1a5e5920e24.jpeg)
 
 <a id="section-4-2"></a>
 
@@ -834,11 +834,11 @@ Your cluster is monitored in Managed Service for Prometheus. For more informatio
 >
 > - The **Instance List** page displays the names, types, and tags of Prometheus instances. You can modify tags, view instance details, or delete instances.
 >
->   ![](assets/403a2b0435bec858f8bbcabf4bac43d0.jpeg)
+>   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/403a2b0435bec858f8bbcabf4bac43d0.jpeg)
 >
 > - The instance details page displays the remote write address, push gateway address, and metric collection address. The following figure shows the metric collection rule configuration available for Prometheus instances for container service.
 >
->   ![](assets/99367a327a4f6bea5f46668da129623d.jpeg)
+>   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/99367a327a4f6bea5f46668da129623d.jpeg)
 
 <a id="section-4-3"></a>
 
@@ -865,8 +865,8 @@ You have integrated **Prometheus monitoring**. For details, see Overview of Prom
    | Operation | Description |
    | --- | --- |
    | Create a folder | On the <strong>Grafana dashboards</strong> page, click <strong>Create folder</strong>. Enter a folder name and press Enter. |
-   | Edit a folder | On the <strong>Grafana dashboards</strong> page, hover over<br>the target folder and click<img src="assets/e4b85622c8ca08c1b4b48547708eb0a5.png" width="19" alt="">to edit the folder<br>name. Press Enter to save. |
-   | Delete a folder | On the <strong>Grafana dashboards</strong> page, hover over<br>the target folder and click<img src="assets/51e848e03045bef2281bd42cf2afdb07.png" width="14" alt="">to delete it. In the<br><strong>Confirm delete folder</strong> dialog box, click <strong>OK</strong>. |
+   | Edit a folder | On the <strong>Grafana dashboards</strong> page, hover over<br>the target folder and click<img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/e4b85622c8ca08c1b4b48547708eb0a5.png" width="19" alt="">to edit the folder<br>name. Press Enter to save. |
+   | Delete a folder | On the <strong>Grafana dashboards</strong> page, hover over<br>the target folder and click<img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/51e848e03045bef2281bd42cf2afdb07.png" width="14" alt="">to delete it. In the<br><strong>Confirm delete folder</strong> dialog box, click <strong>OK</strong>. |
 
 4. On the **Grafana dashboards** page, click a target folder to perform the following operations on dashboards.
 
@@ -879,14 +879,14 @@ You have integrated **Prometheus monitoring**. For details, see Overview of Prom
 
 5. On the **Grafana dashboards** page, click a target folder. Then, in the dashboard list, click the target dashboard name to open the dashboard page. Perform the following operations.
 
-   ![](assets/74d3293b5daf01ae05d212b57df423f6.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/74d3293b5daf01ae05d212b57df423f6.jpeg)
 
    | Operation | Description |
    | --- | --- |
 
    | New Card | On the dashboard page, click <strong>Add panel</strong>. In the <strong>JSON mode</strong> section on the right side of the <strong>Cluster monitoring overview</strong> page, enter JSON-formatted data. Click <strong>Apply to</strong> <strong>dashboard</strong> in the upper-right corner. |
    | --- | --- |
-   | Add row | On the dashboard page, click <strong>Add row</strong>. Hover over the row to perform the following actions.<br>• Edit: Click<img src="assets/4b164b7883900ab59aea193ca59ee729.png" width="16" alt="">. In the <strong>Edit row</strong> dialog box,<br>enter a name and click <strong>OK</strong>.<br>• Delete: Click<img src="assets/af9bc8f9105670c1274c2eaecd44b24a.png" width="13" alt="">. In the <strong>Confirm delete row</strong><br>dialog box, choose <strong>Delete row only</strong> or <strong>Delete row and all panels in it</strong>.<br>• Move: Click<img src="assets/9ff0d7d27c72cecc40447961ee6b9f4f.png" width="18" alt="">. Drag the row to reposition it.<br>• Add panel: Click<img src="assets/9ff0d7d27c72cecc40447961ee6b9f4f.png" width="18" alt="">in the upper-left corner of<br>a panel and drag it into the target row. |
+   | Add row | On the dashboard page, click <strong>Add row</strong>. Hover over the row to perform the following actions.<br>• Edit: Click<img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/4b164b7883900ab59aea193ca59ee729.png" width="16" alt="">. In the <strong>Edit row</strong> dialog box,<br>enter a name and click <strong>OK</strong>.<br>• Delete: Click<img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/af9bc8f9105670c1274c2eaecd44b24a.png" width="13" alt="">. In the <strong>Confirm delete row</strong><br>dialog box, choose <strong>Delete row only</strong> or <strong>Delete row and all panels in it</strong>.<br>• Move: Click<img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/9ff0d7d27c72cecc40447961ee6b9f4f.png" width="18" alt="">. Drag the row to reposition it.<br>• Add panel: Click<img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/9ff0d7d27c72cecc40447961ee6b9f4f.png" width="18" alt="">in the upper-left corner of<br>a panel and drag it into the target row. |
    | Export | Click <strong>Export</strong>. Adjust the download location and file name. Click <strong>Download</strong> to save the JSON-formatted data file. |
 
 <a id="section-4-3-2"></a>
@@ -909,19 +909,19 @@ You have connected to **Prometheus Monitoring**. For more information, see Prome
 
    to open the chart creation page.
 
-   ![](assets/0f76c09f03af8a6f8b6dd8e973601364.png)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/0f76c09f03af8a6f8b6dd8e973601364.png)
 
 > **Note**
 >
 > On the **Dashboard** page, you can use Prometheus Query Language (PromQL) to create time series charts for cluster metrics. You can customize the style of the charts, arrange them using drag-and-drop, and perform operations such as grouping, refreshing, filtering, sharing, importing, and exporting.
 
-![](assets/7745cac63c608530486b08549972b24a.jpeg)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/7745cac63c608530486b08549972b24a.jpeg)
 
 **Other operations**
 
-- Click <img src="assets/64f53b30821b4405b0c08d7a84e614a6.jpeg" width="17" alt=""> to create folders and dashboards.
+- Click <img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/64f53b30821b4405b0c08d7a84e614a6.jpeg" width="17" alt=""> to create folders and dashboards.
 
-- Click the <img src="assets/703600ae92fd54e902e313e13d610370.png" width="10" alt=""> icon to the right of a folder. You can perform the following operations:
+- Click the <img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/703600ae92fd54e902e313e13d610370.png" width="10" alt=""> icon to the right of a folder. You can perform the following operations:
 
   - Add dashboard
 
@@ -935,7 +935,7 @@ You have connected to **Prometheus Monitoring**. For more information, see Prome
 
   - Delete folder
 
-- Click the <img src="assets/703600ae92fd54e902e313e13d610370.png" width="10" alt=""> icon to the right of a dashboard. You can perform the following operations:
+- Click the <img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/703600ae92fd54e902e313e13d610370.png" width="10" alt=""> icon to the right of a dashboard. You can perform the following operations:
 
   - Edit dashboard
 
@@ -945,7 +945,7 @@ You have connected to **Prometheus Monitoring**. For more information, see Prome
 
   - Delete dashboard
 
-- You can click **Add Group**, the Edit icon <img src="assets/fc9b91cac15c9058a64713b23631d87b.jpeg" width="16" alt=""> , or the Zoom In icon <img src="assets/9a976d71ddf478de417695922705e79f.jpeg" width="19" alt=""> on the right side of the
+- You can click **Add Group**, the Edit icon <img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/fc9b91cac15c9058a64713b23631d87b.jpeg" width="16" alt=""> , or the Zoom In icon <img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/9a976d71ddf478de417695922705e79f.jpeg" width="19" alt=""> on the right side of the
 
   page to perform additional operations.
 
@@ -999,7 +999,7 @@ Your cluster is connected to Managed Service for Prometheus. For more informatio
 >
 > Follow the on-screen instructions to configure default service discovery, ServiceMonitors, and PodMonitors. You can also **enable or disable** ServiceMonitors or PodMonitors.
 >
-> ![](assets/5bb5162220539390bb9412fc616d8640.jpeg)
+> ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/5bb5162220539390bb9412fc616d8640.jpeg)
 
 **What to do next**
 
@@ -1041,11 +1041,11 @@ You can view the self-monitoring dashboard to confirm the installation and statu
 
 In the Targets task list, you can view the ongoing tasks in the current cluster and the endpoints, status, tags, and data reporting latency of the tasks. You can monitor the real-time health status of Targets tasks to identify abnormal tasks.
 
-![](assets/680f6a97db935f4a2fda9684dbc82fd4.jpeg)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/680f6a97db935f4a2fda9684dbc82fd4.jpeg)
 
 The Prometheus agent dashboard displays the real-time status of the agent and data collection details. This helps you identify agent anomalies and troubleshoot cluster issues.
 
-![](assets/c6ecebacbee96a0ec2c09d9dc1cd0e73.jpeg)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/c6ecebacbee96a0ec2c09d9dc1cd0e73.jpeg)
 
 <a id="section-5"></a>
 
@@ -1075,7 +1075,7 @@ Managed Service for Prometheus provides predefined alert rules. You can also cre
    >
    > The **alert rule** list displays basic information about alert rules, such as the rule name, tags, and rule type. If the status of an alert rule is Stopped, no alert notification is sent. You can import, export, or modify alert and notification rules.
    >
-   > ![](assets/372192930d9e53f3e0aaf68a9acd211a.jpeg)
+   > ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/372192930d9e53f3e0aaf68a9acd211a.jpeg)
 
    <ol type="i">
 
@@ -1177,7 +1177,7 @@ You can save alert rules as a YAML file in the PrometheusRule format and run  `k
 
 1. Install and upgrade the  `ack-arms-prometheus`  component in the desired cluster.
 
-   ![](assets/40196479ea355cd340c0f0d8c1788f71.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/40196479ea355cd340c0f0d8c1788f71.jpeg)
 
 2. Log in to the cluster, create a YAML file for an alert rule, and then upload the file to the cluster. Sample content:
 
@@ -1219,7 +1219,7 @@ You can save alert rules as a YAML file in the PrometheusRule format and run  `k
    kubectl apply -f prometheusrule.yaml
    ```
 
-   ![](assets/0bddbc93a3b49b7e8cfbb35d505886fa.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/0bddbc93a3b49b7e8cfbb35d505886fa.jpeg)
 
    Run the following command to query the result:
 
@@ -1227,7 +1227,7 @@ You can save alert rules as a YAML file in the PrometheusRule format and run  `k
    kubectl get prometheusrule -A
    ```
 
-   ![](assets/449498bc431079bd4915a098a346664d.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/449498bc431079bd4915a098a346664d.jpeg)
 
 3. Log in to the **Prometheus V2.0** console. In the left-side navigation pane, choose **Alert Management** > **Alert Rules**. On the Alert Rules page, you can view the created alert rule.
 
@@ -1241,7 +1241,7 @@ You can save alert rules as a YAML file in the PrometheusRule format and run  `k
    kubectl apply -f prometheusrule.yaml
    ```
 
-   ![](assets/8189e066ece27067fbd4f1408d3939fa.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/8189e066ece27067fbd4f1408d3939fa.jpeg)
 
 3. Log in to the **Prometheus V2.0** console. In the left-side navigation pane, choose **Alert Management** > **Alert Rules**. On the Alert Rules page, you can view the updated alert rule.
 
@@ -1253,7 +1253,7 @@ You can save alert rules as a YAML file in the PrometheusRule format and run  `k
    kubectl delete prometheusrule <Resource name> -n <Namespace>
    ```
 
-   ![](assets/c7ef1cf2bfadc5a3048ed7948604f82f.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/c7ef1cf2bfadc5a3048ed7948604f82f.jpeg)
 
 2. Log in to the **Prometheus V2.0** console. In the left-side navigation pane, choose **Alert Management** > **Alert Rules**. On the Alert Rules page, you can view that the alert rule is deleted.
 
@@ -1295,7 +1295,7 @@ On the **Alarm Events** page, you can view historical events that indicate when 
 
    - In the Trend Chart section, the number of alerts generated over time is displayed.
 
-     ![](assets/7b233f625b11facde2986444a81591e6.jpeg)
+     ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/7b233f625b11facde2986444a81591e6.jpeg)
 
      - Different colors in a bar in the chart indicate different alert levels.
 
@@ -1305,13 +1305,13 @@ On the **Alarm Events** page, you can view historical events that indicate when 
 
      - The total number of alerts and the number of alerts of each alert level are displayed above the trend chart. You can click a number to quickly view historical alerts of the corresponding alert level.
 
-   - In the alert list section, you can click the <img src="assets/d2ec128cd8e99d5261beed633ce61c63.png" width="14" alt=""> icon next to the **Cluster name**, **Current**
+   - In the alert list section, you can click the <img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/d2ec128cd8e99d5261beed633ce61c63.png" width="14" alt=""> icon next to the **Cluster name**, **Current**
 
      **status**, **Alert type**, or **Association rule label** table headers to filter historical alert events.
 
      The filter results in the table headers are linked with the alert statistics. As shown in the following figure: When alerts are filtered by the current status "Serious" (1), the total number in the statistics displays only the number of serious alerts (2).
 
-     ![](assets/a20fcfe949d20193964e25c7d10102e2.jpeg)
+     ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/a20fcfe949d20193964e25c7d10102e2.jpeg)
 
      | Parameter | Description |
      | --- | --- |
@@ -1418,11 +1418,11 @@ When an alert rule is triggered, notifications are sent to the contacts or conta
 
 4. In the **Add Contact** dialog box, specify the name, phone number, and contact group of the contact and click **OK**
 
-   ![](assets/f360d5f21930b36363c3779f219cb15a.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/f360d5f21930b36363c3779f219cb15a.jpeg)
 
 5. On the **Notification Group** tab, click **Add notification Group**. In the **Add Notification Group** dialog box, specify the parameters related to DingTalk notifications, WeChat notifications, or webhook, and click **OK**.
 
-   ![](assets/c5c9ecaa7756efc561656bd2d79fb7c9.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/c5c9ecaa7756efc561656bd2d79fb7c9.jpeg)
 
 > **Note**
 >
@@ -1464,7 +1464,7 @@ This topic describes how to obtain the webhook URL of a DingTalk chatbot. You ca
 
    icon in the **Add Robot** section. Then, click
 
-   <img src="assets/f530b4bd23e98c11c894ac1ac8286d08.png" width="20" alt="">
+   <img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/f530b4bd23e98c11c894ac1ac8286d08.png" width="20" alt="">
 
    **Custom**.
 
@@ -1472,7 +1472,7 @@ This topic describes how to obtain the webhook URL of a DingTalk chatbot. You ca
    >
    > For the first time you add a DingTalk chatbot, you can directly select **Custom** in the **ChatBot** dialog box.
 
-   ![](assets/5ecd5f79677427fc8a8cbfb3b79b0563.png)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/5ecd5f79677427fc8a8cbfb3b79b0563.png)
 
 5. In the **Robot details** dialog box, click **Add**.
 
@@ -1482,7 +1482,7 @@ This topic describes how to obtain the webhook URL of a DingTalk chatbot. You ca
    >
    > You must select **Custom Keywords** in the **Security Settings** section, and set at least **Alarm** and **Dispatch** as keywords. Otherwise, you cannot receive alert notifications.
 
-   ![](assets/0e00ecee6fe93687337959210a9ee49e.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/0e00ecee6fe93687337959210a9ee49e.jpeg)
 
 7. In the **Add Robot** dialog box, copy the webhook URL that the system generates for the chatbot and click **Finished**.
 
@@ -1502,19 +1502,19 @@ After you create a contact group that uses a webhook URL, alert notifications ar
 
 4. On the **Bots** tab, click **Add Bot**.
 
-   ![](assets/c6b284bd947e76a7cfe793c16b129e36.png)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/c6b284bd947e76a7cfe793c16b129e36.png)
 
 5. In the **Add Bot** dialog box, click Add in the **Custom Bot** section.
 
-   ![](assets/5638eb1006189b6393200238ca9c9102.png)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/5638eb1006189b6393200238ca9c9102.png)
 
 6. Configure the **Bot name** and **Description** parameters and click **Add**.
 
-   ![](assets/be7b4005bb3ce7b83e078816d55291dc.png)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/be7b4005bb3ce7b83e078816d55291dc.png)
 
 7. Click **Copy** to copy the value of the **Webhook URL** parameter, and then click **Finish**.
 
-   ![](assets/77cc07054e627f63ff33ae594ef1a3e6.png)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/77cc07054e627f63ff33ae594ef1a3e6.png)
 
 **Step 2: Create a contact group that uses the webhook URL**
 
@@ -1524,7 +1524,7 @@ After you create a contact group that uses a webhook URL, alert notifications ar
 
 3. On the **Notification Group** tab, click **Add notification Group**. In the dialog box that appears, select **Webhook**.
 
-   ![](assets/de07942e5f42210ad755b4674dd4fd80.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/de07942e5f42210ad755b4674dd4fd80.jpeg)
 
    The following table describes the parameters.
 
@@ -1629,7 +1629,7 @@ You can download the demo to try the features of ServiceMonitors.
 
    The information about Java Virtual Machine (JVM) monitoring is returned, as shown in the following figure.
 
-   ![](assets/adb8acf33020c280f297e66a56dda786.png)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/adb8acf33020c280f297e66a56dda786.png)
 
 **Step 2: Deploy a Kubernetes cluster**
 
@@ -1772,13 +1772,13 @@ Perform the following operations to check whether Managed Service for Prometheus
 
 3. Click the **Self-Monitoring** tab. On the **Targets** page, check whether a Service whose name is in the {namespace}/{serviceMonitorName}/x format exists.
 
-   ![](assets/45abf53c8d2b9ed2b16362c7b5cae16d.png)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/45abf53c8d2b9ed2b16362c7b5cae16d.png)
 
 4. Click the Show icon to the left of the Service name. Then, click the link in the Endpoint column of the table below the Service name.
 
    Check whether the metrics are collected as expected.
 
-   ![](assets/e0c85f164c4a437ae6309bb941faf2e7.png)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/e0c85f164c4a437ae6309bb941faf2e7.png)
 
 <a id="section-6-3"></a>
 
@@ -1842,11 +1842,11 @@ This topic describes how to use Managed Service for Prometheus to monitor persis
 
 2. Click the name of a cluster and create a persistent volume claim (PVC). After the PVC is created, it enters the **Bound** state. For more information, see **Container Service for Kubernetes > User Guide > Kubernetes clusters > Storage > Mount disk volumes**.
 
-   ![](assets/402dd27fe30d0c0423463464cacc03c0.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/402dd27fe30d0c0423463464cacc03c0.jpeg)
 
 3. Create a Deployment to mount the PVC. For more information, see **Container Service for Kubernetes > User Guide > Kubernetes clusters > Applications > Workloads > Create a stateless application by using a Deployment**.
 
-   ![](assets/b610f9816e98ff577994ad5acba761e6.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/b610f9816e98ff577994ad5acba761e6.jpeg)
 
 4. After the pod runs for a period of time, log in to the Prometheus V2.0 console and view the node_volume_write_bytes_total metric in a custom dashboard.
 
@@ -1856,7 +1856,7 @@ This topic describes how to use Managed Service for Prometheus to monitor persis
 
    Log in to the **Apsara Uni-manager Management Console**. In the left-side navigation pane, choose **Products > Middleware > Prometheus V2.0**.
 
-   <img src="assets/653ae8493533a29a486d5e90c65dd884.png" width="29" alt="">
+   <img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/653ae8493533a29a486d5e90c65dd884.png" width="29" alt="">
 
    </li>
 
@@ -1882,7 +1882,7 @@ This topic describes how to use Managed Service for Prometheus to monitor persis
 
    </ol>
 
-   ![](assets/d601e136de971d5c097a3d41042e514b.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/d601e136de971d5c097a3d41042e514b.jpeg)
 
 **Metrics supported by Managed Service for Prometheus**
 
@@ -1942,7 +1942,7 @@ Managed Service for Prometheus provides a variety of out-of-the-box built-in Gra
 
 **Kubernetes overview**
 
-![](assets/864d9126ddee344427c356dda3b063a1.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/864d9126ddee344427c356dda3b063a1.png)
 
 The dashboard displays the following metrics:
 
@@ -1956,7 +1956,7 @@ The dashboard displays the following metrics:
 
 **Kubernetes deployment**
 
-![](assets/97ecd7d7e25c591b74cdcc2e240819e3.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/97ecd7d7e25c591b74cdcc2e240819e3.png)
 
 The dashboard displays the following metrics:
 
@@ -1966,7 +1966,7 @@ The dashboard displays the following metrics:
 
 **Kubernetes pods**
 
-![](assets/77a6cd09348ffe0e1b1cc43a3f4d25ac.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/77a6cd09348ffe0e1b1cc43a3f4d25ac.png)
 
 The dashboard displays the following metrics:
 
@@ -1982,7 +1982,7 @@ The dashboard displays the following metrics:
 
 **Host details**
 
-![](assets/f9594dc7679205d722b1de0f8ea168ff.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/f9594dc7679205d722b1de0f8ea168ff.png)
 
 The dashboard displays the following metrics:
 
@@ -2006,13 +2006,13 @@ You can perform the following basic operations on Grafana dashboards.
 
 1. In the upper-right corner of the Grafana page, click the drop-down list to select a time range.
 
-   ![](assets/4f47075c46ab466c30f29940763eb2ba.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/4f47075c46ab466c30f29940763eb2ba.jpeg)
 
 2. Select a predefined relative time range from the drop-down list. For example, you can select Last 5 minutes, Last 12 hours, or Last 30 days. You can also set the start time and end time to define an absolute time range.
 
-   ![](assets/dff3b9251f75745f5f27499f7409fede.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/dff3b9251f75745f5f27499f7409fede.jpeg)
 
-   ![](assets/02bd09ddd724233baeeece1f683b239d.png)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/02bd09ddd724233baeeece1f683b239d.png)
 
 3. In the upper-right corner of the Grafana page, click the
 
@@ -2020,13 +2020,13 @@ You can perform the following basic operations on Grafana dashboards.
 
    data on all panels on the current dashboard.
 
-   ![](assets/467b3f54ce03894576cbc8429014eb58.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/467b3f54ce03894576cbc8429014eb58.jpeg)
 
 **Filter monitoring data**
 
 On the Grafana page, select a filter condition from the drop-down list to filter the monitoring data that is displayed on the current dashboard, as shown in the following figure.
 
-![](assets/c36a6f6aa3ab365313d49e25bbd73d09.jpeg)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/c36a6f6aa3ab365313d49e25bbd73d09.jpeg)
 
 <a id="section-8"></a>
 
@@ -2082,7 +2082,7 @@ You can create a role in the Apsara Uni-manager Management Console and attach a 
 
    If none of the listed policies meets your requirements, you can click **Create Policy** in the upper-right corner of the Select Policy section to create one. You can click **Policy Content** in the **Actions** column of a policy to view JSON-formatted policy content.
 
-   ![](assets/4fb00b54d25b8101c5c1c8d4db25c61e.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/4fb00b54d25b8101c5c1c8d4db25c61e.jpeg)
 
 9. In the **Configure Trust Policy** step, configure the **Trust Organization** and **Trust Cloud Service** parameters and click **Next**.
 
@@ -2102,11 +2102,11 @@ You can create a role in the Apsara Uni-manager Management Console and attach a 
 
 2. On the page that appears, click the **RAM Role** tab, click **Create**, and then select a level-1 organization to create a RAM role instance.
 
-   ![](assets/ea0a24191324c1d7279e66e0910d58d2.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/ea0a24191324c1d7279e66e0910d58d2.jpeg)
 
 3. After the RAM role instance is generated, the trust entities in the trust policy can assume this RAM role to access and manage the corresponding resources.
 
-   ![](assets/af227e5637e933e9f60d7cb9c5f5fd47.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/af227e5637e933e9f60d7cb9c5f5fd47.jpeg)
 
 <a id="section-8-2"></a>
 
@@ -2168,11 +2168,11 @@ A role cannot be directly assigned to a user. You can assign a role to a user gr
 
 3. In the **Create User Group** dialog box, specify **User Group Name**, **Organization**, and **Role Authorization**, and click **OK**.
 
-   ![](assets/b54a798fc756d880385d7a89a558f898.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/b54a798fc756d880385d7a89a558f898.jpeg)
 
    | Parameter | Description |
    | --- | --- |
-   | User Group Name | The name of the user group. The name must be 3 to 255 characters in length, and can contain letters, digits, underscores (_), hyphens (-<br>![](assets/6d564e025fe2d1ac6420d3291191de5f.png)<br>), periods (.), and at signs (@). Example: <code>EDAS_group</code>. |
+   | User Group Name | The name of the user group. The name must be 3 to 255 characters in length, and can contain letters, digits, underscores (_), hyphens (-<br>![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/6d564e025fe2d1ac6420d3291191de5f.png)<br>), periods (.), and at signs (@). Example: <code>EDAS_group</code>. |
    | Organization | Select an organization from the drop-down list. |
    | Role Authorization | Select the role to be assigned to the users in the user group. For more information about how to create a role, see <strong>Create a role</strong>. |
 
@@ -2186,7 +2186,7 @@ Perform the following steps to create a user.
 
 3. In the **Create User** dialog box, specify the basic user information and click **OK**.
 
-   ![](assets/57f3368319461ea6f7d7e32a39f0ed28.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/57f3368319461ea6f7d7e32a39f0ed28.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -2214,11 +2214,11 @@ After you add the user to the user group, the user is granted permissions provid
 
 2. On the **User Groups** page, select a user and click **Add User** in the **Actions** column.
 
-3. In the **Add User** dialog box, select the user in the organization, click the <img src="assets/d87d8980d82f0466989d4e6a6f553841.png" width="16" alt=""> icon to move
+3. In the **Add User** dialog box, select the user in the organization, click the <img src="en-prometheus-user-guide-v3.18.6-2607-20260828.assets/d87d8980d82f0466989d4e6a6f553841.png" width="16" alt=""> icon to move
 
    the user to the list on the right, and then click **OK**.
 
-   ![](assets/bc5b2189ecc3501b775d7d63d9216641.jpeg)
+   ![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/bc5b2189ecc3501b775d7d63d9216641.jpeg)
 
 <a id="section-8-3"></a>
 
@@ -2289,9 +2289,9 @@ After you use an Alibaba Cloud account to attach a RAM policy to a RAM user to g
 
 This topic describes roles and their permissions.
 
-![](assets/47f567f85d041a00e3d764a7f0302df9.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/47f567f85d041a00e3d764a7f0302df9.png)
 
-![](assets/496e24448a41017152a75c819e842150.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/496e24448a41017152a75c819e842150.png)
 
 **Cloud**
 
@@ -2311,11 +2311,11 @@ Management
 
 **Management**
 
-![](assets/3e969c0185457b0afa4a48eaec747b6b.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/3e969c0185457b0afa4a48eaec747b6b.png)
 
-![](assets/00931dff7a807aeb14878bbee3f51ff6.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/00931dff7a807aeb14878bbee3f51ff6.png)
 
-![](assets/8a0bf02e9c85e4a7e03bda09e1faf8e9.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/8a0bf02e9c85e4a7e03bda09e1faf8e9.png)
 
 **Resource Set**
 
@@ -2341,13 +2341,13 @@ Monitoring & Alerting
 
 Review
 
-![](assets/9ddcf37921193d072795c9486c656280.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/9ddcf37921193d072795c9486c656280.png)
 
-![](assets/0110c286087997539e397f30eb4357ba.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/0110c286087997539e397f30eb4357ba.png)
 
-![](assets/a12baf48f6a63a9291230175962ccf71.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/a12baf48f6a63a9291230175962ccf71.png)
 
-![](assets/78a27cb7b29cdddfcb69d43aa9b6c7b2.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/78a27cb7b29cdddfcb69d43aa9b6c7b2.png)
 
 **Organization Administrator**
 
@@ -2375,13 +2375,13 @@ and Alerts
 
 **Management**
 
-![](assets/191e6cf8d05e5ac5e1cd6cb51531fcab.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/191e6cf8d05e5ac5e1cd6cb51531fcab.png)
 
-![](assets/54719367d105515e8ad6d72d1cb47d01.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/54719367d105515e8ad6d72d1cb47d01.png)
 
-![](assets/7b7d95150095bed13235b2d681e0c348.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/7b7d95150095bed13235b2d681e0c348.png)
 
-![](assets/80a5d61c2311dd4f5032a2c74a4a5cd5.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/80a5d61c2311dd4f5032a2c74a4a5cd5.png)
 
 **Operations**
 
@@ -2405,13 +2405,13 @@ Statistics
 
 **Management**
 
-![](assets/0997fba659726aaa2e48432702fba830.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/0997fba659726aaa2e48432702fba830.png)
 
-![](assets/9b3a5e8150257d23d7aa9d4ef902104c.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/9b3a5e8150257d23d7aa9d4ef902104c.png)
 
-![](assets/ad910d8828ef9dfa1b9deb94e9c1a315.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/ad910d8828ef9dfa1b9deb94e9c1a315.png)
 
-![](assets/fb50378ec0c9bf2a944e3c832f379ed1.png)
+![](en-prometheus-user-guide-v3.18.6-2607-20260828.assets/fb50378ec0c9bf2a944e3c832f379ed1.png)
 
 **Security Auditor**
 

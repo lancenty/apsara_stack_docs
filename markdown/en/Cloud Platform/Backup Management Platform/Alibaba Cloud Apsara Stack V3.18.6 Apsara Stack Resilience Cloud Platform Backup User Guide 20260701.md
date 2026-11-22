@@ -40,7 +40,7 @@ This topic describes how to go to the platform backup management page in the Aps
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-asr-cloud-platform-backup-user-guide-v3.18.6-20260701.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >

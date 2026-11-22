@@ -112,11 +112,11 @@ This topic describes how to view the servers on which a service is deployed.
 
 2. Go to the details page of your cluster. In this example, the BasicCluster cluster of the base service is used.
 
-   ![](assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
 
 3. On the Services tab, find the **base-baseBizApp** service and click its name to go to the **Component Details** page. In the Components section, click a service and view the servers on which the service is deployed.
 
-   ![](assets/347ac84e866190725c21a18a827c0d7f.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/347ac84e866190725c21a18a827c0d7f.jpeg)
 
 <a id="section-1-2"></a>
 
@@ -132,11 +132,11 @@ This topic describes how to view the applications, resources, status, and versio
 
 2. Go to the details page of your cluster. In this example, the BasicCluster cluster of the base service is used.
 
-   ![](assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
 
 3. Click the **Resource Details** tab. You can filter resources in the cluster by **Resource Name**, **Related Version**, **Type**, and **Resource Status**.
 
-   Find the resource that you want to view and click the <img src="assets/e16d3b51c7e347a373609b4ab8b8ebb9.png" width="14" alt=""> icon in the **Resource Application**
+   Find the resource that you want to view and click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/e16d3b51c7e347a373609b4ab8b8ebb9.png" width="14" alt=""> icon in the **Resource Application**
 
    **Result** column to view the application details. For example, if you want to log in to the database of a specific application, you can view detailed logon information about the database in the **Resource Application Parameters** message.
 
@@ -156,7 +156,7 @@ This topic describes how to view the registration variables of a service.
 
 3. On the Service Registration Variable Dashboard page, switch the filter condition type to search for the service that you want to view.
 
-4. Find the service and click the <img src="assets/14108d49d665d7ea29dc839d6dc35db5.png" width="17" alt=""> icon next to the value in the **Service Registration**
+4. Find the service and click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/14108d49d665d7ea29dc839d6dc35db5.png" width="17" alt=""> icon next to the value in the **Service Registration**
 
    column to view the details of the registration variables of the service.
 
@@ -737,7 +737,7 @@ This topic describes how to view logs of a failed instance in Operation Center.
 
 1. Log on to the DataWorks console.
 
-2. On the DataStudio page, click <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> in the upper-left corner and choose **All Products >**
+2. On the DataStudio page, click <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> in the upper-left corner and choose **All Products >**
 
    **Operation Center**.
 
@@ -757,7 +757,7 @@ You can use the batch rerun feature of DataWorks to rerun multiple instances at 
 
 1. Log on to the DataWorks console.
 
-2. On the DataStudio page, click <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> in the upper-left corner and choose **All Products >**
+2. On the DataStudio page, click <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> in the upper-left corner and choose **All Products >**
 
    **Operation Center**.
 
@@ -779,7 +779,7 @@ You can use the batch stop feature of DataWorks to stop multiple instances at a 
 
 1. Log on to the DataWorks console.
 
-2. On the DataStudio page, click <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> in the upper-left corner and choose **All Products >**
+2. On the DataStudio page, click <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> in the upper-left corner and choose **All Products >**
 
    **Operation Center**.
 
@@ -913,7 +913,7 @@ This topic describes how to view the basic information about a cluster, server s
 
 3. On the Machines page, find the server that you want to manage and click **Machine Status Dashboard** in the **Actions** column. On the page that appears, view the basic information and process status of the server.
 
-   ![](assets/46062fc7c772c6ae1cf5b1091d289ec5.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/46062fc7c772c6ae1cf5b1091d289ec5.jpeg)
 
 <a id="section-2-1-2"></a>
 
@@ -929,15 +929,15 @@ This topic describes how to check the status of a gateway server.
 
 2. Go to the BasicCluster details page.
 
-   ![](assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
 
 3. Click the Resource Details tab. On the **Resource Details** tab, enter **dpbizalisa** in the **Resource Name** field, and filter resources of the **db** type.
 
-4. Find the resource that you want to view and click the <img src="assets/71185d83adb3b62d08d79afe6f183c18.png" width="14" alt=""> icon in the Resource Application
+4. Find the resource that you want to view and click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/71185d83adb3b62d08d79afe6f183c18.png" width="14" alt=""> icon in the Resource Application
 
    Result column to view the address, username, and password used to log in to the database.
 
-   ![](assets/31f9f5b718f0627833c0634f8e01dd91.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/31f9f5b718f0627833c0634f8e01dd91.jpeg)
 
 5. Connect to the database and run the following MySQL command to query the node information:
 
@@ -961,7 +961,7 @@ This topic describes how to view the details of monitored service roles and serv
 
 2. Go to the details page of your cluster. In this example, the BasicCluster cluster of the base service is used.
 
-   ![](assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
 
 3. Click the **Services** tab, find the **base-baseBizApp** service and click its name to go to the Components Details page.
 
@@ -1087,7 +1087,7 @@ The system is conducive to change. For example, make sure that the storage space
 
    Make sure that the value of the **scalable** parameter is **true** for the new buffer cluster.
 
-   ![](assets/55dcadbd1cab0e3d3f9386c033baaf62.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/55dcadbd1cab0e3d3f9386c033baaf62.jpeg)
 
    <ol type="i" start="3">
 
@@ -1171,7 +1171,7 @@ The system is conducive to change. For example, make sure that the storage space
 
    the **Cluster clone parameters** is set to **True clone**.
 
-   ![](assets/cbce19706631fddbfa0caa3694383969.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/cbce19706631fddbfa0caa3694383969.jpeg)
 
    <ol type="i" start="4">
 
@@ -1252,11 +1252,11 @@ The system is conducive to change. For example, make sure that the storage space
 
    Log in to the **Apsara Infrastructure Management console**. Go to the **Cluster Details** page of the base cluster, click the **Resource Details** tab, and then search for the **base-**
 
-   **biz-alisa** service of the **db** type. Click the <img src="assets/7191971b59049895968f0c0670fe68b2.png" width="14" alt=""> icon in the **Resource Application Result**
+   **biz-alisa** service of the **db** type. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/7191971b59049895968f0c0670fe68b2.png" width="14" alt=""> icon in the **Resource Application Result**
 
    column to view the database connection information.
 
-   ![](assets/0577d2bdcfa00baf59371b2c896eeadf.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/0577d2bdcfa00baf59371b2c896eeadf.jpeg)
 
    Connect to the database by executing a MySQL command and run the  `select * from alisa_node;`  command. The information about all servers that run the base-biz-gateway service appears.
 
@@ -1292,7 +1292,7 @@ Perform checks before the scale-in
 
    Log in to the Apsara Infrastructure Management console. In the left-side navigation pane, choose **Resource Management > Product & Cluster O&M**. On the Product & Cluster O&M page, find the base cluster and click Cluster Details in the Actions column to go to the cluster details page. On the Desired State Configuration tab, click the **machine_group.conf** file and verify whether the value of the scalable parameter is true.
 
-   ![](assets/55dcadbd1cab0e3d3f9386c033baaf62.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/55dcadbd1cab0e3d3f9386c033baaf62.jpeg)
 
 Stop the base-biz-gateway service
 
@@ -1337,11 +1337,11 @@ Scale in the cluster by moving servers to the default cluster
 
    - -s: the name of the SRG to which the server to be removed belongs. This parameter is required. To view the SRG name, find the machine_group.conf file of the base cluster and view the SRG name in the file.
 
-     ![](assets/9bca0fd25794e959c50e787b0adccebd.jpeg)
+     ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/9bca0fd25794e959c50e787b0adccebd.jpeg)
 
    - -config: the tianji_clt configuration file. This parameter is required.
 
-     ![](assets/f95165b406048b09e582e1ca5b43fdb7.jpeg)
+     ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/f95165b406048b09e582e1ca5b43fdb7.jpeg)
 
 2. After you run the preceding commands, check whether the scale-in operation succeeds in the Apsara Infrastructure Management console.
 
@@ -1389,7 +1389,7 @@ Verify the result
    curl http://127.0.0.1:7070/api/v5/GetMachineInfo?hostname=$hostname
    ```
 
-   ![](assets/226d1cbdccbd3d24496b8685c39e4d17.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/226d1cbdccbd3d24496b8685c39e4d17.jpeg)
 
 <a id="section-2-5"></a>
 
@@ -1405,7 +1405,7 @@ This topic describes how to restart the BaseBizTenant service on the Component D
 
 2. Go to the details page of your cluster. In this example, the BasicCluster cluster of the base service is used.
 
-   ![](assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
 
 3. On the **Services** tab, find the **base-baseBizApp** service and click its name to go to the **Component Details** page.
 
@@ -1421,7 +1421,7 @@ This topic describes how to restart the BaseBizTenant service on the Component D
 
 5. Enter  `docker ps|grep tenant`  in the code editor and press Enter to view the server ID.
 
-   ![](assets/393f52210085473079cb30a26b9bbc87.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/393f52210085473079cb30a26b9bbc87.png)
 
 6. Enter  `docker exec -it yourID bash`  in the code editor and press Enter to go to the corresponding container.
 
@@ -1433,7 +1433,7 @@ This topic describes how to restart the BaseBizTenant service on the Component D
 
 8. Enter  `/home/admin/base-biz-tenant/bin/jbossctl restart`  in the code editor and press Enter to restart the BaseBizTenant service.
 
-   ![](assets/993fae76ed3d560050082bc815dfe8c1.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/993fae76ed3d560050082bc815dfe8c1.png)
 
    If the **OK** and **NGINX start Done** messages appear, the BaseBizTenant service is restarted.
 
@@ -1451,7 +1451,7 @@ This topic describes how to restart the Redis service on the Component Details p
 
 2. Go to the details page of your cluster. In this example, the BasicCluster cluster of the base service is used.
 
-   ![](assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
 
 3. On the **Services** tab, find the **base-baseBizApp** service and click its name to go to the **Component Details** page.
 
@@ -1467,7 +1467,7 @@ This topic describes how to restart the Redis service on the Component Details p
 
 5. Enter  `docker ps|grep redis`  in the code editor and press Enter to view the server ID.
 
-   ![](assets/d4c0234f1fe2fa78420dc015bfb30260.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/d4c0234f1fe2fa78420dc015bfb30260.png)
 
 6. Enter  `docker exec -it yourID bash`  in the code editor and press Enter to go to the corresponding container.
 
@@ -1485,7 +1485,7 @@ This topic describes how to restart the Redis service on the Component Details p
    /etc/init.d/redis-sentinel restart
    ```
 
-   ![](assets/565b68407cf760e493626c8b1077fc70.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/565b68407cf760e493626c8b1077fc70.png)
 
 <a id="section-2-7"></a>
 
@@ -1501,7 +1501,7 @@ This topic describes how to restart the BaseBizDmc service on the Component Deta
 
 2. Go to the details page of your cluster. In this example, the BasicCluster cluster of the base service is used.
 
-   ![](assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
 
 3. On the **Services** tab, find the **base-baseBizApp** service and click its name to go to the **Component Details** page.
 
@@ -1515,7 +1515,7 @@ This topic describes how to restart the BaseBizDmc service on the Component Deta
 
 4. Enter  `docker ps|grep dmc`  in the code editor and press Enter to view the server ID.
 
-   ![](assets/4179836872bb46254f4d19398c397f5c.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/4179836872bb46254f4d19398c397f5c.png)
 
 5. Enter  `docker exec -it yourID bash`  in the code editor and press Enter to go to the corresponding container.
 
@@ -1523,15 +1523,15 @@ This topic describes how to restart the BaseBizDmc service on the Component Deta
    >
    > You need to replace *yourID* with a container ID.
 
-   ![](assets/e0305262e03ffb586ec773dc8a091f26.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/e0305262e03ffb586ec773dc8a091f26.png)
 
 6. Enter  `su - admin`  in the code editor and press Enter to switch to the admin account.
 
-   ![](assets/1b4a9078677ced293c0e80cec33188b4.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/1b4a9078677ced293c0e80cec33188b4.png)
 
 7. Enter  `/home/admin/base-biz-dmc/bin/jbossctl restart`  in the code editor and press Enter to restart the BaseBizDmc service.
 
-   ![](assets/fbda453c70ab6d911d13165eb9b9e46d.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/fbda453c70ab6d911d13165eb9b9e46d.png)
 
    If the **OK** and **NGINX start Done** messages appear, the BaseBizDmc service is restarted.
 
@@ -1549,7 +1549,7 @@ This topic describes how to restart the BaseBizAlisa service on the Component De
 
 2. Go to the details page of your cluster. In this example, the BasicCluster cluster of the base service is used.
 
-   ![](assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
 
 3. On the **Services** tab, find the **base-baseBizApp** service and click its name to go to the **Component Details** page.
 
@@ -1565,7 +1565,7 @@ This topic describes how to restart the BaseBizAlisa service on the Component De
 
 5. Enter  `docker ps|grep alisa`  in the code editor and press Enter to view the server ID.
 
-   ![](assets/99a1b809f4551e22d22e5747460224fc.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/99a1b809f4551e22d22e5747460224fc.png)
 
 6. Enter  `docker exec -it yourID bash`  in the code editor and press Enter to go to the corresponding container.
 
@@ -1579,7 +1579,7 @@ This topic describes how to restart the BaseBizAlisa service on the Component De
 
    If the **OK** and **NGINX start Done** messages appear, the BaseBizAlisa service is restarted.
 
-   ![](assets/e6e633463b7587fdf78394b2d0267ee9.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/e6e633463b7587fdf78394b2d0267ee9.png)
 
 <a id="section-2-9"></a>
 
@@ -1595,7 +1595,7 @@ This topic describes how to restart the BaseBizPhoenix service on the Component 
 
 2. Go to the details page of your cluster. In this example, the BasicCluster cluster of the base service is used.
 
-   ![](assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
 
 3. On the **Services** tab, find the **base-baseBizApp** service and click its name to go to the **Component Details** page.
 
@@ -1611,7 +1611,7 @@ This topic describes how to restart the BaseBizPhoenix service on the Component 
 
 5. Enter  `docker ps|grep phoenix`  in the code editor and press Enter to view the server ID.
 
-   ![](assets/ed78acdef434456f2153ab7a7e7db99f.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/ed78acdef434456f2153ab7a7e7db99f.png)
 
 6. Enter  `docker exec -it yourID bash`  in the code editor and press Enter to log on to the corresponding container.
 
@@ -1623,7 +1623,7 @@ This topic describes how to restart the BaseBizPhoenix service on the Component 
 
 8. Enter  `/home/admin/base-biz-phoenix/bin/jbossctl restart`  in the code editor and press Enter to restart the BaseBizPhoenix service.
 
-   ![](assets/941b8857db5bc0f406534c0c510aa515.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/941b8857db5bc0f406534c0c510aa515.png)
 
    If the **OK** and **NGINX start Done** messages appear, the BaseBizPhoenix service is restarted.
 
@@ -1641,7 +1641,7 @@ This topic describes how to restart the BaseBizCdpGateway service on the Compone
 
 2. Go to the details page of your cluster. In this example, the BasicCluster cluster of the base service is used.
 
-   ![](assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
 
 3. On the **Services** tab, find the **base-baseBizApp** service and click its name to go to the **Component Details** page.
 
@@ -1657,7 +1657,7 @@ This topic describes how to restart the BaseBizCdpGateway service on the Compone
 
 5. Enter  `docker ps|grep gateway`  in the code editor and press Enter to view the server ID.
 
-   ![](assets/cabb1624174b7b82fa9f84547617b2e3.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/cabb1624174b7b82fa9f84547617b2e3.png)
 
 6. Enter  `docker exec -it yourID bash`  in the code editor and press Enter to enter the corresponding container.
 
@@ -1665,7 +1665,7 @@ This topic describes how to restart the BaseBizCdpGateway service on the Compone
    >
    > You need to replace *yourID* with a container ID.
 
-   ![](assets/0666c50a5e20cc53f8e696c88d108a15.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/0666c50a5e20cc53f8e696c88d108a15.png)
 
 7. Enter  `su - admin`  in the code editor and press Enter to switch to the admin account.
 
@@ -1683,17 +1683,17 @@ This topic describes how to restart the BaseBizCdpGateway service on the Compone
 
 2. Go to the details page of a cluster. In this example, the BaseExchangeCluster cluster is used.
 
-   ![](assets/cb1223edf90ec20d8bc0100069350b2f.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/cb1223edf90ec20d8bc0100069350b2f.jpeg)
 
 3. On the **Services** tab, find the **dataworks-dataservice** service and click its name to go to the Component Details page.
 
 4. On the Component Details page, click the component that you want to manage. The server information is displayed on the right side of the page.
 
-   ![](assets/62bf5b4583b2952a041a03a8061a6b5b.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/62bf5b4583b2952a041a03a8061a6b5b.jpeg)
 
 5. Click Terminal in the Actions column of a server. Run the  `docker ps|grep phoenix` command to obtain the container ID.
 
-   ![](assets/4fddb9660e9e5623ba4423612695ae54.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/4fddb9660e9e5623ba4423612695ae54.png)
 
 6. Run the  `docker exec -it [Container ID] bash`  command to log on to the container.
 
@@ -1703,9 +1703,9 @@ This topic describes how to restart the BaseBizCdpGateway service on the Compone
 
 8. If the service is in the **OK** state and the command output displays [ OK] -- SUCCESS at the end, the dataworks-dataservice service is restarted.
 
-   ![](assets/d63c4a0dbc56cd779ab5d80c3b6b9b4b.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/d63c4a0dbc56cd779ab5d80c3b6b9b4b.png)
 
-   ![](assets/38c03700d10829387edad16996cfb24b.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/38c03700d10829387edad16996cfb24b.png)
 
 <a id="section-2-12"></a>
 
@@ -1719,15 +1719,15 @@ This topic describes how to restart the BaseBizCdpGateway service on the Compone
 
 2. Go to the details page of your cluster. In this example, the BasicCluster cluster of the base service is used.
 
-   ![](assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
 
 3. On the Services tab, find the **base-baseBizApp** service and click its name to go to the Component Details page.
 
-   ![](assets/36c78cfd3af636f76c908b2b53beb1ae.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/36c78cfd3af636f76c908b2b53beb1ae.jpeg)
 
 4. In the Components section, find the BaseBizCdpGateway service and click its name. The servers on which the BaseBizCdpGateway service is deployed appear on the right side of the page.
 
-   ![](assets/0f97668cd93149944a923556034948f1.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/0f97668cd93149944a923556034948f1.jpeg)
 
 5. Click Terminal in the Actions column of a server. Run the  `docker ps|grep gateway` command to obtain the container ID.
 
@@ -1735,7 +1735,7 @@ This topic describes how to restart the BaseBizCdpGateway service on the Compone
 
 7. Switch to the admin account and run the  `/home/admin/alisatasknode/target/alisatasknode/bin/serverctl restart`  command to restart the service.
 
-   ![](assets/9b603521b88a8136b158c882c73d9fb0.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/9b603521b88a8136b158c882c73d9fb0.jpeg)
 
 8. After you restart the service, run the  `ps -ef|grep java`  command to check whether the process is started.
 
@@ -1751,7 +1751,7 @@ Perform the following steps to restart the BaseBizCdpGateway service that is dep
 
 2. Run the  `select * from alisa_node;`  command in the database to view all information about the BaseBizCdpGateway service. Then, you can log on to the cluster by using the obtained IP address and perform O&M operations on the BaseBizCdpGateway service.
 
-   ![](assets/446404716fa4dd4f315125d6c7668138.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/446404716fa4dd4f315125d6c7668138.jpeg)
 
 3. Log in to the server on which the BaseBizCdpGateway service is deployed, switch to the admin account, and then run the  `/home/admin/alisatasknode/target/alisatasknode/bin/serverctl restart`  command.
 
@@ -1785,7 +1785,7 @@ In a multi-region environment, nodes in all regions are run on the resource grou
 
    <li>
 
-   Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Project**
+   Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Project**
 
    </li>
 
@@ -1888,7 +1888,7 @@ You can change the resource group for multiple nodes at a time on the Operation 
    select resource_group_id from phoenix_resgroup where name='Default Group';
    ```
 
-   ![](assets/bea1e2688226cdd50591c3ab05058788.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/bea1e2688226cdd50591c3ab05058788.png)
 
 3. Query the ID of the resource group named region_test. The obtained value is used as the region_test_id value.
 
@@ -1896,7 +1896,7 @@ You can change the resource group for multiple nodes at a time on the Operation 
    select resource_group_id from phoenix_resgroup where name='region_test';
    ```
 
-   ![](assets/8963995f503f8685dade921afd2d5e63.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/8963995f503f8685dade921afd2d5e63.png)
 
 4. Query the ID of the required workspace. The obtained value is used as the app_id value.
 
@@ -1935,7 +1935,7 @@ This topic describes how to configure a resource group for Data Integration in a
 
    <li>
 
-   Click the <img src="assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Aggregation**
+   Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/0f321b61dbaad1cd929c29f61acc117f.png" width="14" alt=""> icon in the upper-left corner and choose **All Products > Data Aggregation**
 
    </li>
 
@@ -2035,7 +2035,7 @@ This topic describes how to configure a resource group for Data Integration in a
    select * from alisa_group where group_display_name='region_group'\G;
    ```
 
-   ![](assets/20288920673a858e1ff16430895207b9.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/20288920673a858e1ff16430895207b9.jpeg)
 
 4. Create an alisa cluster. To deploy services in a new region, you must first create an alisa cluster. You can find the dpbizalisa database and execute the following SQL statements in this database:
 
@@ -2117,7 +2117,7 @@ This topic describes how to log on to Apsara Bigdata Manager.
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -2163,11 +2163,11 @@ The Apsara Bigdata Manager (ABM) dashboard displays key operation information ab
 
 After you log in to the ABM console, the **Instrument cluster** page appears by default. To
 
-return to the **Instrument cluster** page, click the <img src="assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="17" alt=""> icon in the upper-left corner and then
+return to the **Instrument cluster** page, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="17" alt=""> icon in the upper-left corner and then
 
 click **ABM**.
 
-![](assets/97311d700f4907193c3c56793bba39b3.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/97311d700f4907193c3c56793bba39b3.png)
 
 In the upper-left corner of the **Instrument cluster** page, you can select a **region** from the **Area** drop-down list to view the cluster status of each big data service in the region.
 
@@ -2175,7 +2175,7 @@ In the upper-left corner of the **Instrument cluster** page, you can select a **
 
 The Instrument cluster page displays key operation metrics for **DataWorks**. To view these metrics, click the **DataWorks** section on the **Instrument cluster** page.
 
-![](assets/dad9b3f776f793c779e374777ec323a1.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/dad9b3f776f793c779e374777ec323a1.png)
 
 The **DataWorks** section displays the overview of node scheduling, overview of slot usage, and trend chart of completed tasks for a DataWorks cluster.
 
@@ -2189,7 +2189,7 @@ In the **Select Time** section of the **Instrument cluster** page, specify the s
 
 The dashboard supports full-screen display. This feature allows you to view the status of big data services.
 
-At the top of the **Instrument cluster** page, click the <img src="assets/a0babdba81c5f5ab42dd85bd735f78d5.png" width="14" alt=""> icon to display the **Instrument**
+At the top of the **Instrument cluster** page, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/a0babdba81c5f5ab42dd85bd735f78d5.png" width="14" alt=""> icon to display the **Instrument**
 
 **cluster** page in full-screen mode.
 
@@ -2209,7 +2209,7 @@ The Resource Library page displays the resource usage of DataWorks. This topic d
    >
    > icon in the upper-left corner
    >
-   > <img src="assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="14" alt="">
+   > <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="14" alt="">
    >
    > and then click **ABM**.
 
@@ -2219,7 +2219,7 @@ The Resource Library page displays the resource usage of DataWorks. This topic d
 
 In the left-side navigation pane of the **Resource Library** page, click **DataWorks**. On the page that appears, you can view the resource usage in DataWorks.
 
-![](assets/59c93c4a5af6c46b6f5db9fa3d5ffa75.jpeg)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/59c93c4a5af6c46b6f5db9fa3d5ffa75.jpeg)
 
 For DataWorks, the Resource Library page displays the trend chart of slot usage, records of slot usage, and proportion of idle slots.
 
@@ -2239,7 +2239,7 @@ In the Apsara Big Data Manager (ABM) console, the Degree of health page allows y
 
    After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and choose **Data Development >**
+   can click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and choose **Data Development >**
 
    **DataWorks**.
 
@@ -2261,7 +2261,7 @@ In the Apsara Big Data Manager (ABM) console, the Report page allows you to view
 
    After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and choose **Data Development >**
+   can click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and choose **Data Development >**
 
    **DataWorks**.
 
@@ -2407,11 +2407,11 @@ cluster, service instance, and role name.
 
 1. Log in to the ABM console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="12" alt=""> icon in the upper-left corner and choose **Data Development > DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="12" alt=""> icon in the upper-left corner and choose **Data Development > DataWorks**.
 
 3. In the upper-right corner of the page that appears, click **Operation and maintenance**. The **Overview** tab of **Data workshop** under **Service operation and maintenance** appears.
 
-   ![](assets/e15195f0ceadd55a7ed8af60557175a8.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/e15195f0ceadd55a7ed8af60557175a8.jpeg)
 
 <a id="section-3-3-2"></a>
 
@@ -2431,7 +2431,7 @@ The DataWorks Overview page displays the key operation metrics, including servic
 
 1. Log in to the Apsara Big Data Manager (ABM) console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
 
 3. In the top navigation bar, click **Operation and maintenance**. The **Overview** tab of **Data workshop** under **Service operation and maintenance** appears.
 
@@ -2439,25 +2439,25 @@ The DataWorks Overview page displays the key operation metrics, including servic
 
 This section displays the numbers of available services, unavailable services, and services that are being upgraded.
 
-![](assets/e53d0b48e741cee5389d2871442a10b2.jpeg)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/e53d0b48e741cee5389d2871442a10b2.jpeg)
 
 **Service status**
 
 This section displays all DataWorks service roles and their status. You can also view the expected and actual numbers of hosts at desired state for each service role.
 
-![](assets/2280f78aeadab8234f3889b6ba2f8e31.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/2280f78aeadab8234f3889b6ba2f8e31.png)
 
 **Instance scheduling**
 
 This section displays the number of successful instances, number of instances not running, waiting duration, number of running instances, number of failed instances, and number of instances waiting for resources.
 
-![](assets/6b084ffae721c24bbb7a2146aeb9fac9.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/6b084ffae721c24bbb7a2146aeb9fac9.png)
 
 **Slot usage**
 
 This section displays the total number of slots, the number of used slots, the number of unavailable slots, and the number of idle slots for DataWorks.
 
-![](assets/a7829f382588734669dc0e0291e8fa6f.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/a7829f382588734669dc0e0291e8fa6f.png)
 
 > **Note**
 >
@@ -2467,7 +2467,7 @@ This section displays the total number of slots, the number of used slots, the n
 
 This section displays the trend chart of the total number of finished tasks. The trend chart displays the trend lines of the number of tasks finished yesterday, the number of tasks finished today, and the average number of tasks finished each day over time in different colors.
 
-![](assets/ebad0d59ce7e4ffb41d25ab867d528e6.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/ebad0d59ce7e4ffb41d25ab867d528e6.png)
 
 <a id="section-3-3-2-1-2"></a>
 
@@ -2479,13 +2479,13 @@ The Service Roles tab displays information about DataWorks service roles, such a
 
 1. Log on to the Apsara Big Data Manager (ABM) console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
 
 3. On the page that appears, click **O&M** in the upper-right corner. The **Overview** tab under **Data Warehouse** on the **Services** tab appears.
 
 4. Select a cluster from the drop-down list and click the **Service Roles** tab.
 
-   ![](assets/33a2408a878cfcbb73bcce176c4dd22b.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/33a2408a878cfcbb73bcce176c4dd22b.png)
 
    The **Service Roles** tab displays information about all service roles, including the role status and expected and actual numbers of hosts in the desired state. The service role status can be **good**, **bad**, or **upgrading**.
 
@@ -2509,7 +2509,7 @@ Resources measured by DMU are allocated by slot. Each DMU occupies two slots.
 
 1. Log in to the ABM console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
 
 3. In the top navigation bar, click **Operation and maintenance**. The **Overview** tab of **Data workshop** under **Service operation and maintenance** appears.
 
@@ -2521,11 +2521,11 @@ Click the **Cluster** tab on the **Slotposition** tab.
 
 The **Cluster** tab displays the slot overview of all DataWorks clusters, including the total number of slots, the numbers of used slots and available slots, and slot usage. It also displays the cluster status.
 
-![](assets/cad176a1cd06b6fb39a5db3cb27285db.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/cad176a1cd06b6fb39a5db3cb27285db.png)
 
 To view the slot details of a cluster, click the name of the cluster in the **Cluster Name** column.
 
-![](assets/c4a5b6d4805ca46c5dfde0d1bd805e78.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/c4a5b6d4805ca46c5dfde0d1bd805e78.png)
 
 In the upper part of the cluster details page, you can view the numbers of gateways, resource groups, slots, used slots, frozen slots, and available slots, and the slot usage of the cluster. You can also view the trend chart of slot usage over time in the lower part of the page. The trend chart displays trend lines for the number of used slots, the maximum number of slots, and the number of available slots in different colors.
 
@@ -2537,7 +2537,7 @@ You can click a metric name below the chart to display or hide the related trend
 
 2. In the **Add a new cluster** panel, configure the parameters.
 
-   ![](assets/97bdb6ba7da3ec09b4ba94e4e6f392c1.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/97bdb6ba7da3ec09b4ba94e4e6f392c1.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -2554,7 +2554,7 @@ You can click a metric name below the chart to display or hide the related trend
 
 2. In the **Migrate a node cluster** dialog box, configure the parameters.
 
-   ![](assets/0452a36e49a4131700cd4f7d9a3cbba0.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/0452a36e49a4131700cd4f7d9a3cbba0.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -2573,11 +2573,11 @@ Click the **Grouping** tab on the **Slotposition** tab.
 
 The **Grouping** tab displays the slot overview of all DataWorks resource groups, including the maximum number of slots, the numbers of used slots and available slots, and slot usage. It also displays the name, cluster, project, and status of each resource group.
 
-![](assets/a9be724caf872b0530bc6a081b7fafbf.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/a9be724caf872b0530bc6a081b7fafbf.png)
 
 To view the slot details of a resource group, click the ID of the resource group in the **Resource group identity** column.
 
-![](assets/43fc2d74d6e3f6a573a39e62c3e1d93e.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/43fc2d74d6e3f6a573a39e62c3e1d93e.png)
 
 In the upper part of the resource group details page, you can view the current slot information of the resource group, such as the numbers of used slots, the maximum number of slots, the ratio of tasks under the resource group to tasks in the project, and the distribution of node types. You can also view the trend chart of slot usage over time, the nodes that occupy the slots, and the owners in the lower part of the page. The trend chart displays trend lines for the number of used slots, the maximum number of slots, and the number of available slots in different colors.
 
@@ -2589,7 +2589,7 @@ You can click a metric name below the chart to display or hide the related trend
 
 2. In the **Add a resource group** panel, configure the parameters.
 
-   ![](assets/cf8b1d4e7766555f5eaba95f23a20600.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/cf8b1d4e7766555f5eaba95f23a20600.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -2626,11 +2626,11 @@ Click the **Host** tab on the **Slotposition** tab.
 
 The **Host** tab displays the slot overview of all DataWorks hosts, including the maximum number of slots, the number of used slots, and the slot usage. It also displays the resource usage (including the CPU, memory, and disk), IP address, cluster, status, activeness, and monitoring status of each host.
 
-![](assets/9409a09935f2868be27e7164042d0205.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/9409a09935f2868be27e7164042d0205.png)
 
 To view the slot details of a host, click the name of the host in the **Host name** column.
 
-![](assets/9d42581776e21551ee960f640bf98eed.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/9d42581776e21551ee960f640bf98eed.png)
 
 In the upper part of the host details page, you can view the current slot information of the host, such as the number of used slots and the maximum number of slots. You can also view the trend chart of slot usage and resource usage (including the CPU, memory, and disk) over time in the lower part of the page. The trend chart displays trend lines for metrics in different colors.
 
@@ -2666,7 +2666,7 @@ Click the **Clusterbinding** tab on the **Slotposition** tab.
 
 The **Clusterbinding** tab displays the information about clusters on which the base-biz-alisa service is deployed, including tenant ID, tenant name, Apsara Infrastructure Management region, cluster name, cluster type, and status. You can perform operations on the clusters.
 
-![](assets/bbf2b35121eeefb322721266cd70f56d.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/bbf2b35121eeefb322721266cd70f56d.png)
 
 **Associate a cluster**
 
@@ -2702,7 +2702,7 @@ Click the **ResourceAnalysis** tab on the **Slotposition** tab.
 
 The **ResourceAnalysis** tab displays information about the dpbizalisa database, including the number of dirty data records, status and type distribution of current tasks, distribution of occupied resource groups, and ongoing task instances.
 
-![](assets/8de458a0b63a3bd9acbd66feca88d733.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/8de458a0b63a3bd9acbd66feca88d733.png)
 
 **View runtime logs**
 
@@ -2728,13 +2728,13 @@ The Nodes tab displays the nodes that are created by users in DataWorks. You can
 
 1. Log on to the Apsara Big Data Manager (ABM) console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
 
 3. On the page that appears, click **O&M** in the upper-right corner. The **Overview** tab under **Data Warehouse** on the **Services** tab appears.
 
 4. Select a cluster from the drop-down list and click **Nodes**. The **Nodes** tab appears.
 
-   ![](assets/74111eacc08631583bdf1fb80e56a2b5.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/74111eacc08631583bdf1fb80e56a2b5.png)
 
    The **Nodes** tab displays the node information of the current cluster, including the workspace name, node name, node ID, data timestamp, owner, status, start time, end time, duration, priority, type, and instance ID.
 
@@ -2746,7 +2746,7 @@ In the upper part of the **Nodes** tab, the numbers of nodes in all states are d
 
 You can select a time period, including the date and time, in the upper-left corner of the node list to view the nodes in the corresponding time period.
 
-![](assets/71de88e4155df24fea4c975189d7853f.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/71de88e4155df24fea4c975189d7853f.png)
 
 **Supported operations on the Nodes tab**
 
@@ -2762,13 +2762,13 @@ DataWorks provides a list of tenant projects on DataWorks. You can filter and so
 
 1. Log in to the ABM console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
 
 3. In the top navigation bar, click **Operation and maintenance**. The **Overview** tab of **Data workshop** under **Service operation and maintenance** appears.
 
 4. Select a cluster from the drop-down list and click the **Project** tab.
 
-   ![](assets/04f568786208731901aae8895b92fed3.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/04f568786208731901aae8895b92fed3.png)
 
    The **Project** tab displays the project ID, project name, MaxCompute engine name, environment, tenant ID, project owner, ID of the default resource group, and identifier of the default resource group.
 
@@ -2780,7 +2780,7 @@ Updating the default resource group for a project is similar to updating the def
 
 2. In the **Update project default Resource Group** dialog box, select a resource group from the **Target resource group identity** drop-down list.
 
-   ![](assets/2d9af3891a715efa214e09cec1bfee78.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/2d9af3891a715efa214e09cec1bfee78.jpeg)
 
 3. Click **Run**.
 
@@ -2790,17 +2790,17 @@ Updating the default resource group for a project is similar to updating the def
 
   You can filter projects by **Tenant Name** and **Environment**. Select a tenant name or an
 
-  environment and click the <img src="assets/23751ee42d292862599a4fa6b2d278cf.png" width="16" alt=""> icon to filter projects.
+  environment and click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/23751ee42d292862599a4fa6b2d278cf.png" width="16" alt=""> icon to filter projects.
 
 - Sort projects
 
-  You can sort projects by column in ascending or descending order. You can click the <img src="assets/e1301521a8c9f81cbd5af76fa3a00ab2.png" width="17" alt="">
+  You can sort projects by column in ascending or descending order. You can click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/e1301521a8c9f81cbd5af76fa3a00ab2.png" width="17" alt="">
 
   icon to the right of a column to sort existing projects.
 
-  The <img src="assets/08ef91607c61fa0c77625514117b7f0e.png" width="14" alt=""> icon indicates that the projects are sorted in ascending order, whereas the <img src="assets/0a8b4454db70d35b41f2b205fe5a5b6c.png" width="15" alt=""> icon
+  The <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/08ef91607c61fa0c77625514117b7f0e.png" width="14" alt=""> icon indicates that the projects are sorted in ascending order, whereas the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/0a8b4454db70d35b41f2b205fe5a5b6c.png" width="15" alt=""> icon
 
-  indicates that the projects are sorted in descending. The <img src="assets/e1301521a8c9f81cbd5af76fa3a00ab2.png" width="16" alt=""> icon indicates that project
+  indicates that the projects are sorted in descending. The <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/e1301521a8c9f81cbd5af76fa3a00ab2.png" width="16" alt=""> icon indicates that project
 
   sorting is canceled.
 
@@ -2818,13 +2818,13 @@ DataWorks service business insights include the overview of the number of new or
 
 1. Log in to the Apsara Big Data Manager (ABM) console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
 
 3. In the top navigation bar, click **Operation and maintenance**. The **Overview** tab of **Data workshop** under **Service operation and maintenance** appears.
 
 4. Select a cluster from the drop-down list and click the **BusinessInsights** tab. The **Overview** tab appears.
 
-   ![](assets/c3bdda047cea8cfb67faec982a98eb9a.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/c3bdda047cea8cfb67faec982a98eb9a.png)
 
    The **Overview** tab displays the overview of the number of new or modified auto triggered tasks of different types, the top 10 tasks, and the trend chart of the number of new or modified auto triggered tasks. You can select **New** or **Modification** from the **Node Operation** drop-down list to view the corresponding overview information and trend chart.
 
@@ -2834,11 +2834,11 @@ DataWorks service business insights include the overview of the number of new or
 
 2. Configure the **Aggregation cycle**, **Project**, **Environment**, **Node Operation**, **Node Type**,
 
-   **Scheduling Type**, and **Scheduling period** parameters as needed, and click the <img src="assets/23751ee42d292862599a4fa6b2d278cf.png" width="15" alt=""> icon to
+   **Scheduling Type**, and **Scheduling period** parameters as needed, and click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/23751ee42d292862599a4fa6b2d278cf.png" width="15" alt=""> icon to
 
    filter nodes.
 
-   ![](assets/c09e015a4a4b1f0cd9a4ca21c04812ea.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/c09e015a4a4b1f0cd9a4ca21c04812ea.png)
 
    The node list displays the project ID, node ID, node name, tenant ID, environment, timing, scheduling type, recurrence, task type, submission date, creation time, and modification time of each node. You can filter, sort, and export the node information based on your business requirements.
 
@@ -2852,13 +2852,13 @@ DataWorks allows you to modify the configuration items of the service roles of D
 
 1. Log in to the Apsara Big Data Manager (ABM) console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
 
 3. In the top navigation bar, click **Operation and maintenance**. The **Overview** tab of **Data workshop** under **Service operation and maintenance** appears.
 
 4. Select a cluster from the drop-down list and click the **Configuration** tab.
 
-   ![](assets/9ee59d65093c41786e39b4d99598b37d.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/9ee59d65093c41786e39b4d99598b37d.jpeg)
 
 **Modify a configuration item**
 
@@ -2904,7 +2904,7 @@ You can add multiple hosts to a DataWorks cluster at a time to scale out the clu
 
 1. Log in to the ABM console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
 
 3. In the top navigation bar, click **Operation and maintenance**. The **Overview** tab of **Data workshop** under **Service operation and maintenance** appears.
 
@@ -2912,11 +2912,11 @@ You can add multiple hosts to a DataWorks cluster at a time to scale out the clu
 
 5. On the **Slotposition** tab, click the **Host** tab. In the host list, select a physical host whose service role is **BaseBizCdpGatewayWithNc#** or **BaseBizGatewayWithNc#** as the template host.
 
-   ![](assets/b08ed01b1f46b917683cacae79cd7780.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b08ed01b1f46b917683cacae79cd7780.png)
 
 6. Click **General host expanding** in the upper-right corner. In the panel that appears, configure the parameters.
 
-   ![](assets/768b9d5bc2da86fe4067b3b81f361d66.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/768b9d5bc2da86fe4067b3b81f361d66.png)
 
    Parameter description:
 
@@ -2930,7 +2930,7 @@ You can add multiple hosts to a DataWorks cluster at a time to scale out the clu
 
    Move the pointer over **Actions** in the upper-right corner and click **Execution History** next to **Ordinary host expansion** to view the scale-out history.
 
-   ![](assets/8223540ac00fb7c48d8afa62b05bccee.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/8223540ac00fb7c48d8afa62b05bccee.png)
 
    The scale-out may require a long period. In the Current Status column, **RUNNING** indicates that the execution is in progress, **SUCCESS** indicates that the execution is successful, and **FAILED** indicates that the execution fails.
 
@@ -2944,7 +2944,7 @@ You can remove physical hosts from a DataWorks cluster to the default cluster of
 
 1. Log in to the ABM console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
 
 3. In the top navigation bar, click **Operation and maintenance**. The **Overview** tab of **Data workshop** under **Service operation and maintenance** appears.
 
@@ -2954,7 +2954,7 @@ You can remove physical hosts from a DataWorks cluster to the default cluster of
 
 6. Click **General host drawing** in the upper-right corner. In the panel that appears, configure the parameters.
 
-   ![](assets/447849e3c4448ca25e8e71d182b083ad.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/447849e3c4448ca25e8e71d182b083ad.png)
 
    Parameter description:
 
@@ -2968,7 +2968,7 @@ You can remove physical hosts from a DataWorks cluster to the default cluster of
 
    Move the pointer over **Actions** in the upper-right corner and click **Execution History** next to **Common Host Shrinkage** to view the scale-in history.
 
-   ![](assets/5c968a3d8a479b81693230fbaa5268b0.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/5c968a3d8a479b81693230fbaa5268b0.png)
 
    The scale-in may require a long period. In the Current Status column, **RUNNING** indicates that the execution is in progress, **SUCCESS** indicates that the execution is successful, and **FAILED** indicates that the execution fails.
 
@@ -2982,7 +2982,7 @@ The method for locating the cause of a scale-out failure and that of a scale-in 
 
 1. Log in to the ABM console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
 
 3. In the top navigation bar, click **Operation and maintenance**. The **Overview** tab of **Data workshop** under **Service operation and maintenance** appears.
 
@@ -2990,7 +2990,7 @@ The method for locating the cause of a scale-out failure and that of a scale-in 
 
 5. In the panel that appears, click **Details** in the Details column of a failed execution to locate the failure cause.
 
-   ![](assets/3a737052819d45619d93b64fc3d30897.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/3a737052819d45619d93b64fc3d30897.png)
 
    You can also view the parameter settings, server details, script, and runtime parameters to identify the cause of the failure.
 
@@ -3008,7 +3008,7 @@ The Overview tab of Data Integration displays information in the Task Scheduling
 
 1. Log on to the Apsara Big Data Manager (ABM) console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
 
 3. In the upper-right corner of the page that appears, click **O&M**. The **Overview** tab of **Data Warehouse** under **Services** appears.
 
@@ -3020,23 +3020,23 @@ The Overview tab of Data Integration displays information in the Task Scheduling
 
    - **Today's Tasks**
 
-     ![](assets/9c487263ea7986a65e4a49a0bf04383d.png)
+     ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/9c487263ea7986a65e4a49a0bf04383d.png)
 
    - **Third-party Dependencies - Response Time (milliseconds)**
 
-     ![](assets/44f3c769e5d863399f81a986dfe42683.png)
+     ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/44f3c769e5d863399f81a986dfe42683.png)
 
    - **Third-party Dependencies - Total Requests**
 
-     ![](assets/59f832842d5aa6699145a703903164d9.png)
+     ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/59f832842d5aa6699145a703903164d9.png)
 
    - **Third-party Dependencies - Request Error Rate**
 
-     ![](assets/ba0905b3130b83844538d63b75f6b2f3.png)
+     ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/ba0905b3130b83844538d63b75f6b2f3.png)
 
    - **Third-party Dependencies - Failed Requests**
 
-     ![](assets/3e5dbb1900f3563920158a1f2dae3331.png)
+     ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/3e5dbb1900f3563920158a1f2dae3331.png)
 
 <a id="section-3-3-2-2-2"></a>
 
@@ -3048,7 +3048,7 @@ This topic describes how to view information of Data Integration instances and a
 
 1. Log in to the Apsara Big Data Manager (ABM) console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose Data Development > **DataWorks**.
 
 3. In the top navigation bar, click **Operation and maintenance**. The **Overview** tab of **Data workshop** under **Service operation and maintenance** appears.
 
@@ -3064,7 +3064,7 @@ You can also click the request ID, synchronization script number, or resource gr
 
 - After you click the request ID, you can view the event type, source IP address, and start time of the instance.
 
-  ![](assets/1a9fdd687857140277fca13ec7a2fd18.png)
+  ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/1a9fdd687857140277fca13ec7a2fd18.png)
 
 - After you click the synchronization script number, you can view the following information:
 
@@ -3076,19 +3076,19 @@ You can also click the request ID, synchronization script number, or resource gr
 
 - After you click the resource group name, you can view the slot usage of the resource group.
 
-  ![](assets/17a3350350b0ac731baf09a32c881b7c.png)
+  ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/17a3350350b0ac731baf09a32c881b7c.png)
 
 After you view the corresponding details, you can click **Back to List** to return to the **Exampleoftheday** tab.
 
 On this tab, you can also view the number of initialized, submitted, pending, ongoing, failed, and successful instances.
 
-![](assets/bcec4687667eed5edd6d3c35c99d4540.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/bcec4687667eed5edd6d3c35c99d4540.png)
 
 **View multi-dimensional analysis information**
 
 On the **Multidimensionalanalysisoftheday** tab, you can filter data by configuring parameters such as **Project Name**, **Resource Group**, **Host**, **Status**, **Read plug-in type**, **Write plug-in type**, and **Data Source**. Then, you can view analysis information from multiple dimensions such as synchronized data volume, synchronization speed, and number of instances.
 
-![](assets/9e0e07f00e1e7a8936a5c748e28ba4db.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/9e0e07f00e1e7a8936a5c748e28ba4db.png)
 
 <a id="section-3-3-2-2-3"></a>
 
@@ -3100,7 +3100,7 @@ On the historical analysis information page, you can view information about mult
 
 1. Log in to the Apsara Big Data Manager (ABM) console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose **Data Development > DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and choose **Data Development > DataWorks**.
 
 3. In the top navigation bar, click **Operation and maintenance**. The **Overview** tab of **Data workshop** under **Service operation and maintenance** appears.
 
@@ -3134,7 +3134,7 @@ The Overview tab displays the key metrics and health check results of a cluster 
 
 1. Log in to the Apsara Big Data Manager (ABM) console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
 
 3. On the DataWorks page, click **Operation and maintenance** in the upper-right corner.
 
@@ -3142,13 +3142,13 @@ The Overview tab displays the key metrics and health check results of a cluster 
 
 5. In the upper-left corner of the **Cluster O&M** page, select a cluster from the drop-down list. Then, click the **Overview** tab.
 
-   ![](assets/e4438def200c0b1a70b482f838d1bd5b.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/e4438def200c0b1a70b482f838d1bd5b.png)
 
 **Health Check**
 
 This section displays the number of check items of the cluster and the respective number of Critical, Warning, and Exception alerts.
 
-![](assets/dcb6b670218ff31be25a348388a6b894.jpeg)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/dcb6b670218ff31be25a348388a6b894.jpeg)
 
 Click **View Details** to view the health check details on the Health tab.
 
@@ -3156,19 +3156,19 @@ Click **View Details** to view the health check details on the Health tab.
 
 The CPU chart shows the trend lines of the total CPU utilization, CPU utilization for running code in kernel space, and CPU utilization for running code in user space for the cluster over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="14" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="14" alt=""> icon to zoom in on the chart.
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the CPU utilization of the cluster within the specified period of time.
 
-![](assets/8232d817eff29503ef71f11dc227e8b2.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/8232d817eff29503ef71f11dc227e8b2.png)
 
 **DISK**
 
 The DISK chart shows the trend line of the storage usage for the cluster over time.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/e4f98607095f1f36965c8946e54fc153.jpeg)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/e4f98607095f1f36965c8946e54fc153.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the storage usage of the cluster within the specified period of time.
 
@@ -3176,9 +3176,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The LOAD chart shows the trend lines of the average loads for every 1 minute, every 5 minutes, and every 15 minutes for the cluster over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/95452350b0dfa5903f63d19587e6ed4e.jpeg)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/95452350b0dfa5903f63d19587e6ed4e.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the average loads for every 1 minute, every 5 minutes, and every 15 minutes for the cluster within the specified period of time.
 
@@ -3186,9 +3186,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The MEMORY chart shows the trend lines of the memory usage, total memory size, used memory size, size of memory used by buffers, and available memory size for the cluster over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/5d59b1dc179245f5fe790f91ac26f2f8.jpeg)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/5d59b1dc179245f5fe790f91ac26f2f8.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the memory usage of the cluster within the specified period of time.
 
@@ -3196,9 +3196,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The PACKAGE chart shows the trend lines of the numbers of dropped packets, error packets, received packets, and sent packets for the cluster over time in different colors. These trend lines reflect the data transmission status of the cluster.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/27b14ec1874627939b825497701c2d3e.jpeg)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/27b14ec1874627939b825497701c2d3e.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the data transmission status of the cluster within the specified period of time.
 
@@ -3212,7 +3212,7 @@ On the Health tab, you can view all checkers of a cluster, including the checker
 
 1. Log in to the Apsara Big Data Manager (ABM) console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
 
 3. On the DataWorks page, click **Operation and maintenance** in the upper-right corner.
 
@@ -3220,7 +3220,7 @@ On the Health tab, you can view all checkers of a cluster, including the checker
 
 5. On the **Cluster O&M** tab, select a cluster. Then, click the **Health** tab. The **Health** tab for the selected cluster appears.
 
-   ![](assets/695d2ea5bc10bda9e7f80ba77c422596.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/695d2ea5bc10bda9e7f80ba77c422596.png)
 
    On the **Health** tab, you can view all checkers for the cluster and the check results for the hosts in the cluster. The following alerts may be reported on a host: **Critical**, **Warning**, and **Exception**. The alerts are represented in different colors. You must handle the alerts at the earliest opportunity, especially the **Critical** and **Warning** alerts.
 
@@ -3232,7 +3232,7 @@ On the Health tab, you can view all checkers of a cluster, including the checker
 
 2. Click **Show More** to view more information about the checker.
 
-   ![](assets/5e624fc234b3c724341df74461e87e0e.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/5e624fc234b3c724341df74461e87e0e.png)
 
    You can view more information in the **Script**, **Target (TianJi)**, **Default Threshold**, and **Custom Threshold** sections.
 
@@ -3240,21 +3240,21 @@ On the Health tab, you can view all checkers of a cluster, including the checker
 
 You can view the check history and check results of a check item on a host.
 
-1. On the **Health** tab, click the <img src="assets/05d785be78e9c8bc5a9c5e81ce3beeb6.png" width="16" alt=""> icon on the left of a check item to show all alerts that are
+1. On the **Health** tab, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/05d785be78e9c8bc5a9c5e81ce3beeb6.png" width="16" alt=""> icon on the left of a check item to show all alerts that are
 
    triggered by the check item. You can view all hosts on which the check item is run.
 
-   ![](assets/4cdf3de781be60c5277385d9c16926fc.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/4cdf3de781be60c5277385d9c16926fc.png)
 
 2. Click a hostname. In the panel that appears, find the alert that you want to manage and click **Details** in the Actions column to view the cause of the alert.
 
-   ![](assets/4c6f81fa18785f4cb37371185261ead5.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/4c6f81fa18785f4cb37371185261ead5.png)
 
 **Handle alerts**
 
 On the **Health** tab, find the check item for which alerts are reported and click **Details** in the Actions column. In the Details dialog box, view the methods to clear alerts.
 
-![](assets/8a8be9408e4444f5f769867c76ae0467.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/8a8be9408e4444f5f769867c76ae0467.png)
 
 **Run a checker again**
 
@@ -3274,7 +3274,7 @@ The Overview page displays the information about a host in the Machine Informati
 
 1. Log in to the ABM console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
 
 3. On the DataWorks page, click **Operation and maintenance** in the upper-right corner.
 
@@ -3282,7 +3282,7 @@ The Overview page displays the information about a host in the Machine Informati
 
 5. On the left side of the **Host O&M** page, select a host. Then, click the **Overview** tab.
 
-   ![](assets/f3a82228e0a8cbeb4121a1341ef2f7fe.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/f3a82228e0a8cbeb4121a1341ef2f7fe.jpeg)
 
    This tab displays the detailed information about a host, the status of service roles, and the trend charts of key metrics.
 
@@ -3290,9 +3290,9 @@ The Overview page displays the information about a host in the Machine Informati
 
 The CPU chart shows the trend lines of the total CPU utilization, CPU utilization for running code in kernel space, and CPU utilization for running code in user space for the host over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/8232d817eff29503ef71f11dc227e8b2.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/8232d817eff29503ef71f11dc227e8b2.png)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the CPU utilization of the host in the specified period.
 
@@ -3300,9 +3300,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The DISK chart shows the storage usage of the host over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/18b091518418ffd82d1528a5f697ea3a.jpeg)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/18b091518418ffd82d1528a5f697ea3a.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the storage usage of the host in the specified period.
 
@@ -3310,9 +3310,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The LOAD chart shows the trend lines of the average loads for every 1 minute, every 5 minutes, and every 15 minutes for the host over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/95452350b0dfa5903f63d19587e6ed4e.jpeg)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/95452350b0dfa5903f63d19587e6ed4e.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the average loads for every 1 minute, every 5 minutes, and every 15 minutes for the host in the specified period.
 
@@ -3320,9 +3320,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The MEMORY chart shows the trend lines of the memory usage, total memory size, used memory size, size of memory used by buffers, size of memory used by the page cache, and available memory size for the host over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/4eef80d95bfa543575d63f8e3673e1a1.jpeg)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/4eef80d95bfa543575d63f8e3673e1a1.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the memory usage of the host in the specified period.
 
@@ -3330,9 +3330,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The PACKAGE chart shows the trend lines of the numbers of dropped packets, error packets, received packets, and sent packets for the host over time in different colors. These trend lines reflect the data transmission status of the host.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/27b14ec1874627939b825497701c2d3e.jpeg)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/27b14ec1874627939b825497701c2d3e.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the data transmission status of the host in the specified period.
 
@@ -3346,7 +3346,7 @@ The Service Role tab displays the information about service roles, including clu
 
 1. Log in to the ABM console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="9" alt=""> icon in the upper-left corner and select **DataWorks**.
 
 3. On the DataWorks page, click **Operation and maintenance** in the upper-right corner.
 
@@ -3354,7 +3354,7 @@ The Service Role tab displays the information about service roles, including clu
 
 5. On the left side of the **Host O&M** page, select a host. Then, click the **Service Role** tab.
 
-   ![](assets/47d4179483bc5a98273a8111d9108fe9.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/47d4179483bc5a98273a8111d9108fe9.png)
 
 <a id="section-3-4"></a>
 
@@ -3402,7 +3402,7 @@ The following concepts are related to jobs:
 
 **Execution page**
 
-![](assets/83c5019ad47918cb4604d6b6a6c00c4d.jpeg)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/83c5019ad47918cb4604d6b6a6c00c4d.jpeg)
 
 The **Execution** page includes the following modules:
 
@@ -3430,7 +3430,7 @@ An ABM administrator account is obtained.
 
 1. Log in to the ABM console.
 
-2. Click the <img src="assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and choose Data Development > DataWorks.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and choose Data Development > DataWorks.
 
 3. In the top navigation bar, click **Management**.
 
@@ -3442,15 +3442,15 @@ An ABM administrator account is obtained.
 
 6. On the **Jobs** page, find a job and click **Run** in the Actions column.
 
-   ![](assets/d95c71946d9038d0ddaf4e695874c550.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/d95c71946d9038d0ddaf4e695874c550.png)
 
 7. In the dialog box that appears, configure the required parameters in the **Configure target group and parameters** step and click **Next Step**.
 
-   ![](assets/01653ad61bcaa9600f324218fa3273bd.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/01653ad61bcaa9600f324218fa3273bd.jpeg)
 
 8. In the **Confirm Risk** step, click **Confirm**.
 
-   ![](assets/e71f59e605e1093955da9817eceec651.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/e71f59e605e1093955da9817eceec651.png)
 
    > **Note**
    >
@@ -3474,7 +3474,7 @@ An Apsara Big Data Manager (ABM) administrator account is obtained.
 
 1. Log in to the ABM console.
 
-2. Click the <img src="assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and choose Data Development > DataWorks.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and choose Data Development > DataWorks.
 
 3. In the top navigation bar, click **Management**.
 
@@ -3482,7 +3482,7 @@ An Apsara Big Data Manager (ABM) administrator account is obtained.
 
 5. On the **Job Execution** page, click the **Cron Jobs** tab.
 
-   ![](assets/802a1649127f10378da6057a92c85fee.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/802a1649127f10378da6057a92c85fee.png)
 
 6. On the Cron Jobs tab, all cron jobs are in the **Active** state. You can click the following buttons in the Actions column of a job to perform corresponding operations:
 
@@ -3526,7 +3526,7 @@ An ABM administrator account is obtained.
 
 1. Log on to Apsara Bigdata Manager.
 
-2. Click the <img src="assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and choose Data Development > DataWorks.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and choose Data Development > DataWorks.
 
 3. In the top menu bar, click **Management**.
 
@@ -3566,7 +3566,7 @@ An Apsara Big Data Manager (ABM) administrator account is obtained.
 
 1. Log on to Apsara Bigdata Manager.
 
-2. Click the <img src="assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and choose Data Development > DataWorks.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and choose Data Development > DataWorks.
 
 3. In the top menu bar, click **Management**.
 
@@ -3842,7 +3842,7 @@ Scheduling items are built-in and cannot be created. You can, however, create mo
 
 1. Log on to E-MapReduce Butler.
 
-2. In the upper-left corner, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select your target product.
+2. In the upper-left corner, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select your target product.
 
 3. In the top navigation bar, click **Management** to go to the management page.
 
@@ -3858,13 +3858,13 @@ The mount points for scheduling items are built-in and cannot be added, modified
 
 2. On the **Scheduling** page, click **View** next to a scheduling item to see its details.
 
-   ![](assets/92dc062913b99da016d9a1ba5faf37a8.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/92dc062913b99da016d9a1ba5faf37a8.png)
 
    The details include the check item name, alias, description, and handling steps.
 
-3. Click the <img src="assets/85d397c16e324881cacce9a2056c37f5.png" width="15" alt=""> icon next to a scheduling item to view its mount points.
+3. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/85d397c16e324881cacce9a2056c37f5.png" width="15" alt=""> icon next to a scheduling item to view its mount points.
 
-   ![](assets/6a6af743a229dde2cb663af1eeeef448.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/6a6af743a229dde2cb663af1eeeef448.png)
 
 **Edit a scheduling item**
 
@@ -3874,7 +3874,7 @@ You can configure a scheduling item's parameters, such as its scheduling interva
 
 2. On the **Scheduling** page, click **Edit** next to a scheduling item. In the dialog box that appears, configure the parameters.
 
-   ![](assets/5b220ec237b017bb55811b15714be8f4.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/5b220ec237b017bb55811b15714be8f4.jpeg)
 
    **Type**: **System Default** means that parameters such as **Scheduling Interval** and **Parameter List** use the default system configurations. **Custom** means that you can customize these parameters.
 
@@ -3906,7 +3906,7 @@ This section shows you how to view all faulty machines in the current cluster.
 
 3. Click **Create monitoring item** and configure the parameters.
 
-   ![](assets/1eec827ddfab67c94d367bf2929cb23d.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/1eec827ddfab67c94d367bf2929cb23d.jpeg)
 
 4. After you configure the parameters, click **OK**. A success message appears.
 
@@ -3922,7 +3922,7 @@ You can modify the name and description of a monitoring item, and enable or disa
 
 3. Click **Edit** next to the monitoring item that you want to modify.
 
-   ![](assets/3375bf6fd82517f10d57e0420b51916e.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/3375bf6fd82517f10d57e0420b51916e.jpeg)
 
 4. After you configure the parameters, click **OK**. A success message appears.
 
@@ -3934,13 +3934,13 @@ A monitoring item uses mount points to display its raw alarm data on the O&M pag
 
 2. Click the **Monitoring** tab to go to the monitoring page.
 
-3. Click the <img src="assets/a7b4c4464dd871c78c06e58000d032b1.png" width="20" alt=""> icon next to a monitoring item to view its mount points.
+3. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/a7b4c4464dd871c78c06e58000d032b1.png" width="20" alt=""> icon next to a monitoring item to view its mount points.
 
-   ![](assets/230ff71ac6cb68e1f5f36f333e3f7fdd.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/230ff71ac6cb68e1f5f36f333e3f7fdd.png)
 
 4. Click **Add Mount Point** below the mount point list and set the parameters in the dialog box that appears.
 
-   ![](assets/043475f0c021b4abdd8da0ececc73674.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/043475f0c021b4abdd8da0ececc73674.jpeg)
 
    The key parameters are described as follows:
 
@@ -3958,7 +3958,7 @@ A monitoring item uses mount points to display its raw alarm data on the O&M pag
 
 2. Click the **Monitoring** tab to open the monitoring page.
 
-3. Click the <img src="assets/a7b4c4464dd871c78c06e58000d032b1.png" width="15" alt=""> icon next to a monitoring item to view its mount points.
+3. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/a7b4c4464dd871c78c06e58000d032b1.png" width="15" alt=""> icon next to a monitoring item to view its mount points.
 
 4. Click **Delete** next to the target mount point. In the dialog box that appears, click **OK**. A success message appears.
 
@@ -3984,7 +3984,7 @@ Your ABM account is granted the required permissions on services on which you wa
 
 1. Log in to the ABM console.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon in the upper-left corner and select DataWorks.
+2. Click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon in the upper-left corner and select DataWorks.
 
 3. In the top navigation bar, click **Management** to go to the Management page.
 
@@ -3994,7 +3994,7 @@ Your ABM account is granted the required permissions on services on which you wa
 
 2. In the upper-right corner of the Scenes tab, click **Create Scene**. In the Create Scene panel, configure the parameters based on your business requirements.
 
-   ![](assets/862e75fcf9dcdc738196a7dc2c4e40d9.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/862e75fcf9dcdc738196a7dc2c4e40d9.jpeg)
 
 3. Click **Submit**.
 
@@ -4008,7 +4008,7 @@ Your ABM account is granted the required permissions on services on which you wa
 
 3. In the **Create Patrol Item** panel, configure the parameters based on your business requirements.
 
-   ![](assets/08092683dfb152d1352460aef3bb7b4f.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/08092683dfb152d1352460aef3bb7b4f.png)
 
 4. Click **Submit**.
 
@@ -4022,7 +4022,7 @@ Your ABM account is granted the required permissions on services on which you wa
 
 3. In the **Create Scene** panel, configure the parameters.
 
-   ![](assets/3ddc8fc8eaef2e0c4b2d8ec7bf03f096.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/3ddc8fc8eaef2e0c4b2d8ec7bf03f096.jpeg)
 
 4. Click **Submit**.
 
@@ -4050,7 +4050,7 @@ You can view operation audit logs by service. For example, to view the operation
 
 1. Log in to the ABM console.
 
-2. In the upper-left corner, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select the big data service whose O&M
+2. In the upper-left corner, click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select the big data service whose O&M
 
    operation history you want to view.
 
@@ -4060,11 +4060,11 @@ You can view operation audit logs by service. For example, to view the operation
 
 4. Click **Details** for an operation to view the O&M operation details.
 
-   ![](assets/c2514e6e5e0147b5098836327ecae07a.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/c2514e6e5e0147b5098836327ecae07a.png)
 
    You can also view the specific causes of failed steps.
 
-   ![](assets/8a8c09d1dd30bd1db6283f6c79d3266a.png)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/8a8c09d1dd30bd1db6283f6c79d3266a.png)
 
 5. If an O&M operation fails, you can view the cause of the failure.
 
@@ -5163,7 +5163,7 @@ Cluster inspection helps you monitor the status of components and services. This
 
    - Log on to the Apsara Uni-manager Operations Console. In the top navigation bar, choose **Platform Operation** > **Apsara Infrastructure Management** > **Resource Management**. On the Product & Cluster O&M page, check whether DataWorks clusters in the base category are in the desired state.
 
-     ![](assets/2a4240e42c13f0ea981fa286f6c2082d.jpeg)
+     ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/2a4240e42c13f0ea981fa286f6c2082d.jpeg)
 
    - Check whether the clusters for other features are in the desired state.
 
@@ -5262,7 +5262,7 @@ To inspect the project, you must log on to the base_meta project. Perform the fo
 
    On the Product & Cluster O&M page, find the BasicCluster of the base service.
 
-   ![](assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
 
    </li>
 
@@ -5288,7 +5288,7 @@ To inspect the project, you must log on to the base_meta project. Perform the fo
 
    of the base_meta project.
 
-   ![](assets/9ef1b5b626a923b7055553577f5efbda.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/9ef1b5b626a923b7055553577f5efbda.jpeg)
 
 3. Obtain the username and password of the base_meta project.
 
@@ -5298,7 +5298,7 @@ To inspect the project, you must log on to the base_meta project. Perform the fo
 
    Go to the details page of the MaxCompute cluster.
 
-   ![](assets/c9222fdb113070691b66accd47c57229.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/c9222fdb113070691b66accd47c57229.jpeg)
 
    </li>
 
@@ -5316,7 +5316,7 @@ To inspect the project, you must log on to the base_meta project. Perform the fo
 
    <li>
 
-   Find base_admin and click the <img src="assets/6fe984f666b29389127803dd82267cd5.png" width="14" alt=""> icon in the **Resource Application Result** column to
+   Find base_admin and click the <img src="en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/6fe984f666b29389127803dd82267cd5.png" width="14" alt=""> icon in the **Resource Application Result** column to
 
    </li>
 
@@ -5324,7 +5324,7 @@ To inspect the project, you must log on to the base_meta project. Perform the fo
 
    obtain the username and password that are used to log on to the base_meta project.
 
-   ![](assets/263813014d802a668addacf0d7a36fae.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/263813014d802a668addacf0d7a36fae.jpeg)
 
 4. Log in to the base_meta project in the DataWorks console.
 
@@ -5434,7 +5434,7 @@ Execute the  `select * from alisa_node;`  statement to query the alisa_node tabl
 
 following figure shows the sample result.
 
-![](assets/aaa7eb5631b1738ba2fdfeecc14c96ee.png)
+![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/aaa7eb5631b1738ba2fdfeecc14c96ee.png)
 
 If the value of the  `active_type`  or  `live`  field is not 1, the corresponding gateway is disabled or is under repair. Contact technical support to troubleshoot the issue.
 
@@ -5569,11 +5569,11 @@ To log in to a database, perform the following steps.
    >
    > You must go to the cluster details page for the corresponding service to obtain the logon address of the database to which you want to log in. In this example, the base service is used. You need to select the service based on your business scenario.
 
-   ![](assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/b20bfbf516306d26ae8aae0372ee6971.jpeg)
 
 3. On the **Resource Details** tab of the **Cluster Details** page, filter resources of the **db** type. View the value in the Resource Application Result column of the corresponding database and obtain the name of and connection information about the database. Then, log in the database based on the connection information.
 
-   ![](assets/51833ab7557388ad99e27657be5849eb.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/51833ab7557388ad99e27657be5849eb.jpeg)
 
 <a id="section-5"></a>
 
@@ -5826,11 +5826,11 @@ The number and usage of tables are not displayed on the Data Map page.
 
 1. Log in to the Apsara Infrastructure Management console and go to the details page of the MaxCompute cluster.
 
-   ![](assets/53035b7ee65bf829aecc659b02d546e3.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/53035b7ee65bf829aecc659b02d546e3.jpeg)
 
 2. Click the Resource Details tab. On the Resource Details tab, search for the base_admin resource of the accesskey type.
 
-   ![](assets/e6ebe4faba30e4e0f3eb51fa7b3a4e83.jpeg)
+   ![](en-dataworks-operations-guide-v3.18.6-2607-20260825.assets/e6ebe4faba30e4e0f3eb51fa7b3a4e83.jpeg)
 
 3. Find the resource that you want to manage and view the value in the Resource Application Result column to obtain the username and password.
 

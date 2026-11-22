@@ -59,7 +59,7 @@ This topic describes how to log on to the Tracing Analysis console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -141,7 +141,7 @@ Obtain an endpoint to connect your application. Connecting an application means 
 
    In the table, the information next to **Endpoint** under the **Related Information** column is your endpoint.
 
-   ![](assets/544ec602db48e3c3ace1e140b36f0f9c.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/544ec602db48e3c3ace1e140b36f0f9c.jpeg)
 
 <a id="section-1-3"></a>
 
@@ -165,7 +165,7 @@ UI
 
 (Tracing Analysis)
 
-![](assets/88a7970e51840d4ac8b8e9769b6c6b8b.png)
+![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/88a7970e51840d4ac8b8e9769b6c6b8b.png)
 
 Linked Data
 
@@ -179,7 +179,7 @@ with JSON serialization
 
 Query
 
-![](assets/6bc746d1a0be5ef2362cf39a647f06e5.png)
+![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/6bc746d1a0be5ef2362cf39a647f06e5.png)
 
 **Recommended scenarios for ARMS and Tracing Analysis**
 
@@ -990,11 +990,11 @@ This topic describes how to obtain OpenTelemetry access configurations.
 
 4. In the product list, click **Cluster Details** to the right of the destination cluster.
 
-   ![](assets/ead04b76f90ed38ba6c551306ecfab18.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/ead04b76f90ed38ba6c551306ecfab18.jpeg)
 
 5. On the Cluster Details page, click the **Resource Details** tab. Then, click **Resource Application Result** for the resource named **arms-pop** to view the  `domain` information.
 
-   ![](assets/1e6b8c3742d176cd2227bef05af2a165.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/1e6b8c3742d176cd2227bef05af2a165.jpeg)
 
 **Step 2: Invoke an API to Obtain the Endpoint**
 
@@ -1016,13 +1016,13 @@ Parameter description:
 
 Example result:
 
-![](assets/9d1cf55a59d75f92d760278f026b66bc.jpeg)
+![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/9d1cf55a59d75f92d760278f026b66bc.jpeg)
 
 **Step 3: Simulate Usage**
 
 When using the Endpoint obtained from ARMS, add protocol information, such as HTTP or HTTPS.
 
-![](assets/05905c6584d319aaf31f173ee06676a9.jpeg)
+![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/05905c6584d319aaf31f173ee06676a9.jpeg)
 
 **Step 4: View on Page**
 
@@ -1032,7 +1032,7 @@ When using the Endpoint obtained from ARMS, add protocol information, such as HT
 
 3. If you find the configured application on the Application List page, the access is successful.
 
-   ![](assets/139b65cf1c6a41c2d42bbe28f628470d.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/139b65cf1c6a41c2d42bbe28f628470d.jpeg)
 
 <a id="section-1-5"></a>
 
@@ -3323,7 +3323,7 @@ On the Applications page, you can view the key metrics of all monitored applicat
 
 2. In the left-side navigation pane, choose **Tracing > Applications**.
 
-   ![](assets/19fc9793e4d9dd1e1704a7818e4e46a2.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/19fc9793e4d9dd1e1704a7818e4e46a2.jpeg)
 
 **Sort applications**
 
@@ -3343,7 +3343,7 @@ You can add custom tags to applications and filter applications by tag.
 
    icon in
 
-   ![](assets/14ee5c1cc3f8da95cbc1305416de9d04.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/14ee5c1cc3f8da95cbc1305416de9d04.jpeg)
 
    the **Labels** column, and then select **Manage Labels**.
 
@@ -3353,11 +3353,11 @@ You can add custom tags to applications and filter applications by tag.
 
    icon and enter a custom
 
-   ![](assets/eca923682da0060c6fcbbc9fbc81f238.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/eca923682da0060c6fcbbc9fbc81f238.jpeg)
 
    tag. Then, click **Determine**. In the **Success** message, click **Determine**.
 
-   ![](assets/14b3168c73a20b9545d8a9f87d240242.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/14b3168c73a20b9545d8a9f87d240242.jpeg)
 
    > **Important**
    >
@@ -3367,15 +3367,15 @@ You can add custom tags to applications and filter applications by tag.
 
    icon in the **Labels** column, and then select the tag that you specify.
 
-   <img src="assets/14ee5c1cc3f8da95cbc1305416de9d04.jpeg" width="12" alt="">
+   <img src="en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/14ee5c1cc3f8da95cbc1305416de9d04.jpeg" width="12" alt="">
 
-   ![](assets/e7c9d307068e155062915207a6c5728d.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/e7c9d307068e155062915207a6c5728d.jpeg)
 
 **Filter applications by tag**
 
 On the Applications page, you can click one or more tags in the **Select Label** section to search for all applications that have at least one of the selected tags.
 
-![](assets/e7c9d307068e155062915207a6c5728d.jpeg)
+![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/e7c9d307068e155062915207a6c5728d.jpeg)
 
 <a id="section-2-2"></a>
 
@@ -3405,7 +3405,7 @@ On the **Overall Analysis** tab, you can view the key performance metrics of an 
 
    - The 10 spans that require the most time and their line charts of average response time.
 
-   ![](assets/e8f9b7d8d59b6b26c2274f58c49cb455.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/e8f9b7d8d59b6b26c2274f58c49cb455.jpeg)
 
 **View the topology of the application**
 
@@ -3425,7 +3425,7 @@ On the **Topology Graph** tab, you can obtain a better view of the upstream and 
 
    - The line charts of the number of requests, response time, and error rate in each minute of the specified time range.
 
-   ![](assets/41969f35456d141a644bc92aaa05e58f.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/41969f35456d141a644bc92aaa05e58f.jpeg)
 
 **Specify a time range**
 
@@ -3441,7 +3441,7 @@ You can select a predefined time range or specify a custom time range.
 
   Figure 1 Date and time picker
 
-  ![](assets/aad3f38749318a55788ea6f06171d993.png)
+  ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/aad3f38749318a55788ea6f06171d993.png)
 
 <a id="section-2-3"></a>
 
@@ -3465,7 +3465,7 @@ On the **Application Details** page of an application, the **Overview** tab disp
    >
    > To sort the servers where the application is deployed, you can click the **Response Time**, **Requests**, or **Exceptions** tab, and then click the upward or downward arrow next to the name of the tab. To filter the servers, you can enter a keyword in the search box and click the search icon.
 
-   ![](assets/62d825b98b9abc6f5c19121732f8c8e9.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/62d825b98b9abc6f5c19121732f8c8e9.jpeg)
 
    > **Note**
    >
@@ -3477,7 +3477,7 @@ The **Traces** tab displays up to 100 traces that consume the most amount of tim
 
 Figure 1 Traces tab
 
-![](assets/fc22bcfc0baf55daafed20996ddeebad.jpeg)
+![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/fc22bcfc0baf55daafed20996ddeebad.jpeg)
 
 > **Note**
 >
@@ -3497,11 +3497,11 @@ On the **Traces** tab, you can perform one of the following operations based on 
 
 The **Traces** tab displays the following information about a trace: start time, duration, number of applications, depth, number of spans, span name, timeline chart, and application name.
 
-![](assets/3cc62e5e9788321b924fcd8e2324d119.jpeg)
+![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/3cc62e5e9788321b924fcd8e2324d119.jpeg)
 
 Move the pointer over the name of a span to view the information about the span, including the duration, start time, tags, and log events.
 
-![](assets/e574656a226bac4cb0feb4378ed0d3fc.jpeg)
+![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/e574656a226bac4cb0feb4378ed0d3fc.jpeg)
 
 **Specify a time range**
 
@@ -3517,7 +3517,7 @@ You can select a predefined time range or specify a custom time range.
 
   Figure 2 Date and time picker
 
-  ![](assets/aad3f38749318a55788ea6f06171d993.png)
+  ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/aad3f38749318a55788ea6f06171d993.png)
 
 <a id="section-2-4"></a>
 
@@ -3537,7 +3537,7 @@ On the **Interface Calls** page of an application, you can view all the spans th
 
 4. In the left-side navigation pane, click **Interface Calls**. In the left-side span list, click the span that you want to view. Then, view the topology of the span and the performance metrics of span calls on the **Overview** tab.
 
-   ![](assets/f3ee3b624cc464dc8e2dddbf8089dbfb.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/f3ee3b624cc464dc8e2dddbf8089dbfb.jpeg)
 
    - You can click the **Response Time**, **Requests**, or **Exceptions** tab and click the upward or downward arrow next to the tab name to sort spans in ascending or descending order based on the conditions.
 
@@ -3555,7 +3555,7 @@ The **Traces** tab displays up to 100 traces that consume the most amount of tim
 
 Figure 1 Traces page
 
-![](assets/ca661ecdeb398b59b91742586e66c184.jpeg)
+![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/ca661ecdeb398b59b91742586e66c184.jpeg)
 
 > **Note**
 >
@@ -3575,11 +3575,11 @@ On the **Traces** tab, you can perform one of the following operations based on 
 
 The **Traces** tab displays the following information about a trace: start time, duration, number of applications, depth, number of spans, span name, timeline chart, and application name.
 
-![](assets/3cc62e5e9788321b924fcd8e2324d119.jpeg)
+![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/3cc62e5e9788321b924fcd8e2324d119.jpeg)
 
 Move the pointer over the name of a span to view the information about the span, including the duration, start time, tags, and log events.
 
-![](assets/e574656a226bac4cb0feb4378ed0d3fc.jpeg)
+![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/e574656a226bac4cb0feb4378ed0d3fc.jpeg)
 
 **Specify a time range**
 
@@ -3595,7 +3595,7 @@ You can select a predefined time range or specify a custom time range.
 
   Figure 2 Date and time picker
 
-  ![](assets/aad3f38749318a55788ea6f06171d993.png)
+  ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/aad3f38749318a55788ea6f06171d993.png)
 
 <a id="section-2-5"></a>
 
@@ -3625,7 +3625,7 @@ You can query and analyze the number of SQL calls, the average time consumption,
 
    - Click **Trace Query** in the **Actions** column. All the traces that are related to the SQL statement are displayed on the **Traces** tab.
 
-   ![](assets/1160bb36b27ce411a09a73421e99d110.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/1160bb36b27ce411a09a73421e99d110.jpeg)
 
 **Specify a time range**
 
@@ -3641,7 +3641,7 @@ You can select a predefined time range or specify a custom time range.
 
   Figure 1 Date and time picker
 
-  ![](assets/aad3f38749318a55788ea6f06171d993.png)
+  ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/aad3f38749318a55788ea6f06171d993.png)
 
 <a id="section-2-6"></a>
 
@@ -3659,7 +3659,7 @@ This topic describes how to perform diagnosis on exceptions.
 
 4. In the left-side navigation pane, click **Exception Diagnosis**.
 
-   ![](assets/8250aef7b398443325aa98769bea058b.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/8250aef7b398443325aa98769bea058b.jpeg)
 
 **View the details of exceptions**
 
@@ -3683,7 +3683,7 @@ You can select a predefined time range or specify a custom time range.
 
   Figure 1 Date and time picker
 
-  ![](assets/aad3f38749318a55788ea6f06171d993.png)
+  ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/aad3f38749318a55788ea6f06171d993.png)
 
 <a id="section-2-7"></a>
 
@@ -3703,7 +3703,7 @@ This topic describes how to enable and manage tags and delete applications.
 
 5. In the **Manage Application Labels** section, select the tags next to **Linked Labels** that you want to enable for the application and click **Save**.
 
-   ![](assets/7537d394c1d2babe03534a95296b073b.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/7537d394c1d2babe03534a95296b073b.jpeg)
 
 **Manage tags**
 
@@ -3727,7 +3727,7 @@ This topic describes how to enable and manage tags and delete applications.
      >
      > If you delete a tag in the **Manage Application Labels** dialog box, the tag is removed from all applications to which the tag is previously added.
 
-   ![](assets/c41fea548e013b4cd20783c34c4cf8db.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/c41fea548e013b4cd20783c34c4cf8db.jpeg)
 
 **Delete an application**
 
@@ -3747,7 +3747,7 @@ This topic describes how to enable and manage tags and delete applications.
    >
    > After an application is deleted, all monitoring data of the application is cleared. The deleted data cannot be restored.
 
-   ![](assets/ef5bf49c25388cac7e8a092cd8765eda.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/ef5bf49c25388cac7e8a092cd8765eda.jpeg)
 
 <a id="section-2-8"></a>
 
@@ -3779,7 +3779,7 @@ This topic describes how to use the multidimensional query feature to query trac
 
      Enter a value in the **Tag Key** field and then enter a value in the **Tag Value** field. To add more tag keys and tag values as query conditions, click the blue plus sign to the right of the Tag Value field.
 
-   ![](assets/3e737523cafc2065679a8e81f4464377.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/3e737523cafc2065679a8e81f4464377.jpeg)
 
    > **Note**
    >
@@ -3803,7 +3803,7 @@ You can select a predefined time range or specify a custom time range.
 
   Figure 1 Date and time picker
 
-  ![](assets/aad3f38749318a55788ea6f06171d993.png)
+  ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/aad3f38749318a55788ea6f06171d993.png)
 
 <a id="section-2-9"></a>
 
@@ -3819,7 +3819,7 @@ The global topology map in Tracing Analysis displays the upstream and downstream
 
 3. On the **Global topology** page, select a time range in the upper-right corner.
 
-   ![](assets/7d9793d58f975e464be22ccf0ffff1bc.jpeg)
+   ![](en-tracing-analysis-user-guide-v3.18.6-2607-20260828.assets/7d9793d58f975e464be22ccf0ffff1bc.jpeg)
 
 On the Global topology page, you can:
 

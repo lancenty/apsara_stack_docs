@@ -231,7 +231,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Internal Domains > Global Internal Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select
 
    Description.
 
@@ -251,7 +251,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Internal Domains > Global Internal Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Delete.
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Delete.
 
 4. In the message that appears, click OK.
 
@@ -283,7 +283,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Internal Domains > Global Internal Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Configure
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Configure
 
    DNS Records.
 
@@ -293,19 +293,19 @@ Procedure
 
    - Add a description for a DNS record
 
-     Select the DNS record for which you want to add a description, click <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> in the Actions column,
+     Select the DNS record for which you want to add a description, click <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> in the Actions column,
 
      and then select Description from the shortcut menu. In the dialog box that appears, enter a description and click OK.
 
    - Delete a DNS record
 
-     Select the DNS record that you want to delete, click <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> in the Actions column, and then select
+     Select the DNS record that you want to delete, click <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> in the Actions column, and then select
 
      Delete from the shortcut menu. In the message that appears, click OK.
 
    - Modify a DNS record
 
-     Select the DNS record that you want to modify, click <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> in the Actions column, and then select
+     Select the DNS record that you want to modify, click <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> in the Actions column, and then select
 
      Modify from the shortcut menu. In the dialog box that appears, set the required parameters and click OK.
 
@@ -323,7 +323,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Internal Domains > Global Internal Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Configure
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Configure
 
    DNS Records.
 
@@ -399,7 +399,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Global Forwarding Settings > Global Forwarding Domains.
 
-3. Select the domain name for which you want to add a description, click <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> in the Actions column,
+3. Select the domain name for which you want to add a description, click <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> in the Actions column,
 
    and then select Description from the shortcut menu.
 
@@ -417,7 +417,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Internal Domains > Global Forwarding Settings > Global Forwarding Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Modify.
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Modify.
 
 4. In the dialog box that appears, change the value of *Forwarding Mode* or *Forwarder IP Addresses*, and click OK.
 
@@ -433,7 +433,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Internal Domains > Global Forwarding Settings > Global Forwarding Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Delete.
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Delete.
 
 4. In the message that appears, click OK.
 
@@ -469,7 +469,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Internal Domains > Global Forwarding Settings > Global Default Forwarding.
 
-3. Click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column and select Enable.
+3. Click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column and select Enable.
 
 4. In the dialog box that appears, configure *Forwarding Mode* and *Forwarder IP Addresses*. Then, click OK.
 
@@ -487,7 +487,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Internal Domains > Global Forwarding Settings > Global Default Forwarding.
 
-3. Click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column and select Modify.
+3. Click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column and select Modify.
 
 4. In the dialog box that appears, configure *Forwarding Mode* and *Forwarder IP Addresses*. Then, click OK.
 
@@ -503,7 +503,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Internal Domains > Global Forwarding Settings > Global Default Forwarding.
 
-3. Click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column and select Disable.
+3. Click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column and select Disable.
 
 4. In the message that appears, click OK.
 
@@ -525,7 +525,7 @@ Procedure
 
 2. Choose Internal Domains > Global Recursive Resolution.
 
-3. Click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column and select Enable.
+3. Click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column and select Enable.
 
 4. In the dialog box that appears, click OK.
 
@@ -543,7 +543,7 @@ Procedure
 
 2. Choose Internal Domains > Global Recursive Resolution.
 
-3. Click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column and select Disable.
+3. Click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column and select Disable.
 
 4. In the dialog box that appears, click OK.
 
@@ -601,7 +601,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Tenant Internal Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and select Associate VPCs.
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and select Associate VPCs.
 
 4. Select one or more VPCs from the list of VPCs to Select, click the right arrow to add them to the list of VPCs Selected, and then click OK.
 
@@ -619,7 +619,7 @@ Procedure
 
 3. Find the target domain name and click the number in the VPCs Associated column.
 
-4. On the VPCs Associated page, find the target VPC, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and
+4. On the VPCs Associated page, find the target VPC, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and
 
    then select Disassociate.
 
@@ -635,7 +635,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Tenant Internal Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select
 
    Description.
 
@@ -653,7 +653,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Tenant Internal Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Delete.
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Delete.
 
 4. In the message that appears, click OK.
 
@@ -681,7 +681,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Tenant Internal Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Configure
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Configure
 
    DNS Records.
 
@@ -772,19 +772,19 @@ Procedure
 
    - Add a description for a DNS record.
 
-     Find the target DNS record, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select
+     Find the target DNS record, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select
 
      Description. In the dialog box that appears, enter a description and click OK.
 
    - Delete a DNS record.
 
-     Find the target DNS record, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Delete. In
+     Find the target DNS record, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Delete. In
 
      the message that appears, click OK.
 
    - Modify a DNS record.
 
-     Find the target DNS record, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Modify. In
+     Find the target DNS record, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Modify. In
 
      the dialog box that appears, modify the required parameters and click OK.
 
@@ -804,7 +804,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Tenant Internal Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Configure
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Configure
 
    DNS Records.
 
@@ -868,7 +868,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Tenant Forwarding Settings > Tenant Forwarding Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Associate
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Associate
 
    VPCs.
 
@@ -888,7 +888,7 @@ Procedure
 
 3. Find the target domain name and click the number in the VPCs Associated column.
 
-4. On the VPCs Associated page, find the target VPC, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and
+4. On the VPCs Associated page, find the target VPC, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and
 
    then select Disassociate.
 
@@ -904,7 +904,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Tenant Forwarding Settings > Tenant Forwarding Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Modify.
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Modify.
 
 4. In the dialog box that appears, change the value of Forwarding Mode or Forwarder IP Addresses.
 
@@ -920,7 +920,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Tenant Forwarding Settings > Tenant Forwarding Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select
 
    Description.
 
@@ -938,7 +938,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Tenant Forwarding Settings > Tenant Forwarding Domains.
 
-3. Find the target domain name, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Delete.
+3. Find the target domain name, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Delete.
 
 4. In the message that appears, click OK.
 
@@ -1015,7 +1015,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Tenant Forwarding Settings > Tenant Default Forwarding.
 
-3. Find the target organization, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Associate
+3. Find the target organization, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Associate
 
    VPCs.
 
@@ -1035,7 +1035,7 @@ Procedure
 
 3. Find the target domain name and click the number in the VPCs Associated column.
 
-4. On the VPCs Associated page, find the target VPC, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and
+4. On the VPCs Associated page, find the target VPC, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and
 
    then select Disassociate.
 
@@ -1055,7 +1055,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Tenant Forwarding Settings > Tenant Default Forwarding.
 
-3. Find the target organization, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Modify.
+3. Find the target organization, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Modify.
 
 4. In the dialog box that appears, change the value of Forwarding Mode or Forwarder IP Addresses.
 
@@ -1075,7 +1075,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Tenant Forwarding Settings > Tenant Default Forwarding.
 
-3. Find the target organization, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select
+3. Find the target organization, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select
 
    Description.
 
@@ -1097,7 +1097,7 @@ Procedure
 
 2. In the left-side navigation pane, choose Forwarding Configurations > Tenant Forwarding Settings > Tenant Default Forwarding.
 
-3. Find the target organization, click the <img src="assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Delete.
+3. Find the target organization, click the <img src="en-dns-user-guide-v3.12.0-20220928.assets/1ac4c6a56b9f77d1e8198f228aa1ea94.png" width="25" alt=""> icon in the Actions column, and then select Delete.
 
 4. In the dialog box that appears, click OK.
 

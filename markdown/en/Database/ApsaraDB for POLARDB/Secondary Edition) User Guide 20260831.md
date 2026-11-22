@@ -152,7 +152,7 @@ This topic describes how to log on to the Cloud-native Database PolarDB console 
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -919,7 +919,7 @@ If a large number of read requests overwhelm the primary instance, service inter
 
 Read-only instances are deployed in the same region as the primary instance but may reside in different zones. The following figure shows the topology of read-only instances.
 
-![](assets/6b7f3a35b744056074dabbb5df2e1c20.png)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/6b7f3a35b744056074dabbb5df2e1c20.png)
 
 Replication
 
@@ -1143,7 +1143,7 @@ This topic describes how to view and modify the values of some parameters and qu
 
      icon in the **Current Value** column.
 
-     <img src="assets/41a1057c0e5e46f1c2a7dd33cf949d1d.png" width="14" alt="">
+     <img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/41a1057c0e5e46f1c2a7dd33cf949d1d.png" width="14" alt="">
 
      </li>
 
@@ -1983,7 +1983,7 @@ If you have a large number of instances, you can create multiple tags and add th
 
 1. Log in to the PolarDB console.
 
-2. On the **List of local disk instances** page, find the required instance and click the <img src="assets/d81bffc2578050e03ed898aa74bc97a3.png" width="17" alt=""> icon
+2. On the **List of local disk instances** page, find the required instance and click the <img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/d81bffc2578050e03ed898aa74bc97a3.png" width="17" alt=""> icon
 
    in the **Tag** column.
 
@@ -2003,7 +2003,7 @@ If you have a large number of instances, you can create multiple tags and add th
 
 1. Log in to the PolarDB console.
 
-2. On the **List of local disk instances** page, move the pointer over the <img src="assets/d67ef7cb0488c3026fe12f004ae62ba3.png" width="15" alt=""> icon in the **Tag**
+2. On the **List of local disk instances** page, move the pointer over the <img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/d67ef7cb0488c3026fe12f004ae62ba3.png" width="15" alt=""> icon in the **Tag**
 
    column of the desired instance.
 
@@ -2011,11 +2011,11 @@ If you have a large number of instances, you can create multiple tags and add th
 
 1. Log in to the PolarDB console.
 
-2. On the **List of local disk instances** page, find the required instance and click the <img src="assets/d81bffc2578050e03ed898aa74bc97a3.png" width="15" alt=""> icon
+2. On the **List of local disk instances** page, find the required instance and click the <img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/d81bffc2578050e03ed898aa74bc97a3.png" width="15" alt=""> icon
 
    in the **Tag** column.
 
-3. In the **Edit Tags** dialog box, click the <img src="assets/68f774edf79b55f1dc60ef6eaf0d3457.png" width="20" alt=""> icon to the right of the tag and click **OK**.
+3. In the **Edit Tags** dialog box, click the <img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/68f774edf79b55f1dc60ef6eaf0d3457.png" width="20" alt=""> icon to the right of the tag and click **OK**.
 
 <a id="section-5"></a>
 
@@ -2225,7 +2225,7 @@ For example, during the validity period of the hybrid access mode, specific appl
 
 Smooth Migration from
 
-![](assets/d9ca6b7c66f0e776857a7cb28757671d.png)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/d9ca6b7c66f0e776857a7cb28757671d.png)
 
 Nt
 
@@ -2444,7 +2444,7 @@ If an issue occurs in a privileged account, you can enter the password of the pr
    | --- | --- |
    | Database Account | The name of the account. The name must meet the following requirements:<br>• It can contain keywords such as root.<br>• It must be 1 to 32 characters in length.<br>• It must start with a letter and end with a letter or a digit.<br>• It can contain lowercase letters, digits, and underscores (_). |
    | Account Type | The account type. Select Ordinary account. |
-   | Authorizatio n Database | The authorized databases of the account. You can specify one or more authorized databases. You can also leave this parameter empty at this time and authorize databases after the account is created.<br>i. In the Unauthorized database section, select one or more databases. Then, click<br>the<img src="assets/89842efe35773bdb83b67ebc4a5c5634.png" width="22" alt="">icon to move the selected databases to the Authorized Database<br>section.ii. In the Authorized Database section, select <strong>Owner</strong> or <strong>Create</strong> permissions for each database.<br>If you want to grant the same permissions on multiple databases to the account at a time, click the button in the upper-right corner of the section. For example, select Owner or Create permissions for all databases.<br>Comparison of permissions between <code> CREATE </code> and <code> OWNER </code><br>• <code> GRANT CREATE ON DATABASE db TO user </code> only grants a user permission to create new schemas within that database. It does not automatically grant permission to create objects (such as tables) in existing schemas (such as <code> public </code>).<br>• The database owner has full control over the database, including lifecycle management, parameter configuration, permission assignment, and access to all objects within the database.<br>Database CREATE Database OWNER Capability permission permission<br>Create a new schema.√ √<br>× (The user is granted Create a table in a the CREATE √ <code> public </code> schema.permission on the <code> public </code> schema.)<br>Modify database parameters (using × √ <code>ALTER DATABASE</code> <code>SET </code>).<br>Rename or delete a × √ database.<br>Grant database × √ permissions to others. |
+   | Authorizatio n Database | The authorized databases of the account. You can specify one or more authorized databases. You can also leave this parameter empty at this time and authorize databases after the account is created.<br>i. In the Unauthorized database section, select one or more databases. Then, click<br>the<img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/89842efe35773bdb83b67ebc4a5c5634.png" width="22" alt="">icon to move the selected databases to the Authorized Database<br>section.ii. In the Authorized Database section, select <strong>Owner</strong> or <strong>Create</strong> permissions for each database.<br>If you want to grant the same permissions on multiple databases to the account at a time, click the button in the upper-right corner of the section. For example, select Owner or Create permissions for all databases.<br>Comparison of permissions between <code> CREATE </code> and <code> OWNER </code><br>• <code> GRANT CREATE ON DATABASE db TO user </code> only grants a user permission to create new schemas within that database. It does not automatically grant permission to create objects (such as tables) in existing schemas (such as <code> public </code>).<br>• The database owner has full control over the database, including lifecycle management, parameter configuration, permission assignment, and access to all objects within the database.<br>Database CREATE Database OWNER Capability permission permission<br>Create a new schema.√ √<br>× (The user is granted Create a table in a the CREATE √ <code> public </code> schema.permission on the <code> public </code> schema.)<br>Modify database parameters (using × √ <code>ALTER DATABASE</code> <code>SET </code>).<br>Rename or delete a × √ database.<br>Grant database × √ permissions to others. |
 
    | Capability | Database CREATE permission | Database OWNER permission |
    | --- | --- | --- |
@@ -2606,7 +2606,7 @@ A PolarDB for PostgreSQL cluster is created. For more information, see Create an
 
 4. In the **Log on to Database Instance** dialog box of the **Data Management (DMS)** console, check the values of the **Database Type**, **Instance Region**, and **Connection string address** parameters. If the values are correct, specify the **Database Account** and **Database Password** parameters.
 
-   ![](assets/cc36d0d80668189d733099aa5c456905.png)
+   ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/cc36d0d80668189d733099aa5c456905.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -2659,7 +2659,7 @@ This topic describes how to delete a database from a PolarDB instance.
 
 4. In the **Log on to Database Instance** dialog box of the **DMS** console, check the values of the **Database Type**, **Instance Region**, and **Connection String Address** parameters. If the values are correct, specify the **Database Account** and **Database Password** parameters.
 
-   ![](assets/cc36d0d80668189d733099aa5c456905.png)
+   ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/cc36d0d80668189d733099aa5c456905.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -2803,7 +2803,7 @@ After an alert is triggered, you can view its history. You can also export and d
    | Task | Procedure |
    | --- | --- |
    | View alert history | In the <strong>Alert History</strong> list, view the <strong>Product Name</strong>, <strong>Affected</strong> <strong>Instance</strong>, <strong>Time</strong>, <strong>Rule Name</strong>, <strong>Status</strong>, <strong>Level</strong>, and <strong>Notification</strong> <strong>Recipient</strong>. Click the rule name to view the details of the alert rule.<br>Note<br>By default, you can query alert history data from the last 2 days. |
-   | Export alert history | i. On the <strong>Alert History</strong> page, click<img src="assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">in the upper-right<br>corner.<br>ii. In the <strong>Export Task</strong> dialog box, set <strong>Time Range</strong> and <strong>Task</strong> <strong>Name</strong>. Then, click <strong>OK</strong>. |
+   | Export alert history | i. On the <strong>Alert History</strong> page, click<img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">in the upper-right<br>corner.<br>ii. In the <strong>Export Task</strong> dialog box, set <strong>Time Range</strong> and <strong>Task</strong> <strong>Name</strong>. Then, click <strong>OK</strong>. |
 
 <a id="section-9-3"></a>
 
@@ -2864,7 +2864,7 @@ This example creates an alert rule named "example" for an Elastic Compute Servic
 
 The following figure shows the rule description configuration for this scenario.
 
-![](assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
 
 <a id="section-9-3-2"></a>
 
@@ -2888,9 +2888,9 @@ From the list of alert rules, you can modify, enable, disable, and delete rules.
    | Check rule validity | In the <strong>Validity</strong> column of the target alert rule, click <strong>Click To Inspect</strong>. The inspection result is displayed in the Validity column.<br>Note<br>• If the inspection result is abnormal, click <strong>Detection Result</strong>. In the panel that appears, view the results for <strong>Alert Rule Execution</strong> <strong>Anomaly Detection</strong>, <strong>Alert Rule Load Detection</strong>, <strong>Invalid Alert</strong> <strong>Rule Detection</strong>, and <strong>Alert Rule Callback Detection</strong>.<br>• Click <strong>Re-detect</strong> to check the rule validity again. |
    | View rule execution records | In the <strong>Rule Execution Record</strong> column of the target alert rule, click <strong>View</strong> <strong>Rule Execution Record</strong>. On the <strong>Alert Rule Execution Record</strong> panel, filter the execution records by time range. |
    | Modify an alert rule | i. In the <strong>Operation</strong> column of the target alert rule, click <strong>Edit.</strong><br>ii. On the <strong>Modify Alert Rule</strong> panel, modify the alert rule. For more information about the configuration parameters, see Create an alert rule.<br>iii. After you finish the modification, click <strong>OK</strong>. |
-   | Disable an alert rule | Disable alert rules when you manually stop a cloud product for maintenance or an upgrade. This prevents unnecessary alert notifications.<br>Note<br>Before disabling an alert rule, make sure that its <strong>Status</strong> is <strong>Normal</strong>.<br>• Disable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Disable.</strong><br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Disable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
+   | Disable an alert rule | Disable alert rules when you manually stop a cloud product for maintenance or an upgrade. This prevents unnecessary alert notifications.<br>Note<br>Before disabling an alert rule, make sure that its <strong>Status</strong> is <strong>Normal</strong>.<br>• Disable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click the<img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Disable.</strong><br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Disable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
    | Enable an alert rule | After you finish the maintenance or upgrade of a cloud product, re-enable the disabled alert rules.<br>Note<br>Before enabling an alert rule, make sure that its <strong>Status</strong> is <strong>Disabled</strong>.<br>• Enable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click <strong>Enable.</strong><br>b. In the <strong>Enable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Enable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Enable</strong> in the lower-left corner of the list.<br>b. In the <strong>Enable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
-   | Delete an alert rule | • Delete a single rule<br>a. In the Operation column of the target alert rule, click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Delete rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>. |
+   | Delete an alert rule | • Delete a single rule<br>a. In the Operation column of the target alert rule, click the<img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Delete rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>. |
 
 <a id="section-10"></a>
 
@@ -3219,7 +3219,7 @@ By default, audit logs are stored in an internal SLS instance (SLS-inner). Writi
 
 5. Enable the option to store audit logs in SLS-PUB.
 
-   ![](assets/718b2f5ec9045c658ccab9ff219292a5.jpeg)
+   ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/718b2f5ec9045c658ccab9ff219292a5.jpeg)
 
    > **Important**
    >
@@ -3291,7 +3291,7 @@ PolarDB for PostgreSQL automatically backs up your cluster based on the backup p
 
    icon in the upper-right corner to view the progress in the **Task Progress**
 
-   <img src="assets/61d843535372d167dc92639747992fdb.png" width="27" alt="">
+   <img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/61d843535372d167dc92639747992fdb.png" width="27" alt="">
 
    column. Wait until the task is complete.
 
@@ -3365,7 +3365,7 @@ PolarDB for PostgreSQL allows you to download unencrypted data backup files and 
    >
    > - If the URL contains more than one parameter, we recommend that you enclose the URL in a pair of single quotation marks (').
    >
-   > ![](assets/26116e06e89500d20dc92924e3e72fbf.png)
+   > ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/26116e06e89500d20dc92924e3e72fbf.png)
 
 <a id="section-11-3"></a>
 
@@ -5920,9 +5920,9 @@ CREATE EXTENSION pg_jieba;
 
 - Perform queries on the Chinese table:
 
-  ![](assets/13038409121e270fe5f2c8f421bf1194.png)
+  ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/13038409121e270fe5f2c8f421bf1194.png)
 
-  ![](assets/1e6e9c826d39ee57e0e55dcce2a962e2.png)
+  ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/1e6e9c826d39ee57e0e55dcce2a962e2.png)
 
   - Query rows that contain the  数据  or  理财  keyword:
 
@@ -5943,7 +5943,7 @@ CREATE EXTENSION pg_jieba;
       4 |   8.22467
     ```
 
-    ![](assets/bbe521cdec130d6bb7e7b9262b087cb0.png)
+    ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/bbe521cdec130d6bb7e7b9262b087cb0.png)
 
   - Query records that contain  数据  in column  `v` , calculate the similarity between each record and  `'`数据 `|` 理财`'` , and return the  `id`  and similarity:
 
@@ -9415,11 +9415,11 @@ The  `pg_cron`  extension provides a simple and efficient way for database admin
 
 changes through a trigger and refreshes the task list
 
-![](assets/394f8946078cdc0150d48892ff39b36b.png)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/394f8946078cdc0150d48892ff39b36b.png)
 
-![](assets/dc50bb5432449647bd29f4b0a5b7cce3.png)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/dc50bb5432449647bd29f4b0a5b7cce3.png)
 
-![](assets/91d831be3661e753ee38278042c4d20e.png)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/91d831be3661e753ee38278042c4d20e.png)
 
 JOB1
 
@@ -9481,11 +9481,11 @@ The  `pg_cron`  extension maintains the JOB LIST and TASK LIST lists for backgro
 
 **Scheduled task scheduling and execution**
 
-![](assets/a1275ba365d21eab78afe6c707d6309a.png)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/a1275ba365d21eab78afe6c707d6309a.png)
 
 TASK LIST
 
-![](assets/4e47937cecacc2ba2972dab9a0e036fd.png)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/4e47937cecacc2ba2972dab9a0e036fd.png)
 
 Scheduling
 
@@ -11783,11 +11783,11 @@ CREATE EXTENSION IF NOT EXISTS pldbgapi;
 
 2. Find the function to be debugged, right-click the function, and choose **Debugging > Debug**.
 
-   ![](assets/3c163057993a5d67442c5f315345f692.jpeg)
+   ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/3c163057993a5d67442c5f315345f692.jpeg)
 
 3. Use the pldebugger extension in pgAdmin 4.
 
-   ![](assets/2c843057bdc1c78450e75297d3781690.jpeg)
+   ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/2c843057bdc1c78450e75297d3781690.jpeg)
 
    - In the function debugging section on the right of the pgAdmin 4 page, you can perform step-by-step operations to debug the function, such as  `step into/over` ,  `continue` , set breakpoints, and stop.
 
@@ -11862,7 +11862,7 @@ Only sequential search for high-dimensional vectors is supported in cross-node p
 
   The following figure shows how IVFFlat works.
 
-  ![](assets/78b7c56710030a0dae883e8fae010aa1.jpeg)
+  ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/78b7c56710030a0dae883e8fae010aa1.jpeg)
 
   The following procedure describes how IVFFlat works:
 
@@ -11910,7 +11910,7 @@ Only sequential search for high-dimensional vectors is supported in cross-node p
 
   The following figure shows how HNSW works.
 
-  ![](assets/9cbbbcf160a88e4347a55cc98e358c9b.jpeg)
+  ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/9cbbbcf160a88e4347a55cc98e358c9b.jpeg)
 
   The following procedure describes how HNSW works:
 
@@ -12003,11 +12003,11 @@ IVFFlat and HNSW are suitable for specific business scenarios. For example, IVFF
    >
    > , it must comply with the following formula:
    >
-   > ![](assets/f7ecff668232925da8236772075e95bf.jpeg)
+   > ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/f7ecff668232925da8236772075e95bf.jpeg)
    >
    > . In this example, the dot product is the same as
    >
-   > ![](assets/d55cb653bff3783930e609d07e1d07cd.jpeg)
+   > ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/d55cb653bff3783930e609d07e1d07cd.jpeg)
    >
    > the cosine value.
 
@@ -12750,9 +12750,9 @@ Field type descriptions:
 | <code>boolean_fields</code> | Boolean fields. |
 | <code>datetime_fields</code> | Date and time fields. |
 
-![](assets/2693483162d3699742b1284e0b40298a.png)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/2693483162d3699742b1284e0b40298a.png)
 
-![](assets/1053fe2192989398f784c7071591143b.png)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/1053fe2192989398f784c7071591143b.png)
 
 <table>
   <tr>
@@ -13896,7 +13896,7 @@ AND table_schema = 'public';
    | Task Stages | • To perform only full data migration, select <strong>Schema Migration</strong> and <strong>Full Data</strong> <strong>Migration</strong>.<br>• To ensure service continuity during data migration, select <strong>Schema Migration</strong>, <strong>Full</strong> <strong>Data Migration</strong>, and <strong>Incremental Data Migration</strong>.<br>Note<br>If <strong>Incremental Data Migration</strong> is not selected, do not write data to the source database during full data migration. This ensures data consistency between the source and destination databases. |
    | Process ing Mode of Conflict ing Tables | • <strong>Precheck and Report Errors</strong>: checks whether the destination database contains tables that use the same names as tables in the source database. If the source and destination databases do not contain tables with identical names, the precheck is passed. Otherwise, the precheck fails, and the data migration task cannot be started.<br>• <strong>Ignore Errors and Proceed</strong>: skips the precheck for identical table names in the source database and destination cluster.<br>Warning<br>If you select <strong>Ignore Errors and Proceed</strong>, data inconsistency may occur, and your business may be exposed to potential risks.<br>• If the source and destination databases have the same schemas, DTS does not migrate data records that have the same primary key values as data records in the destination database.<br>• If the source and destination databases have different schemas, only specific columns may be migrated, or the data migration task may fail. |
    | Capitali zation of Object Names in Destina tion Instanc e | The capitalization of database names, table names, and column names in the destination instance. By default, <strong>DTS default policy</strong> is selected. You can select other options to make sure that the capitalization of object names is consistent with that of the source or destination database. |
-   | Source Objects | Select one or more objects from the <strong>Source Objects</strong> section and click the<img src="assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to<br>add the objects to the <strong>Selected Objects</strong> section.<br>Note<br>• You can use the navigation tree to search for one or more objects.<br>• You can select schemas or tables as the objects to be migrated. |
+   | Source Objects | Select one or more objects from the <strong>Source Objects</strong> section and click the<img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to<br>add the objects to the <strong>Selected Objects</strong> section.<br>Note<br>• You can use the navigation tree to search for one or more objects.<br>• You can select schemas or tables as the objects to be migrated. |
    | Selecte d Objects | By default, after an object is migrated to the destination database, the name of the object remains unchanged.<br>Note<br>• To select the SQL operations performed on a specific database or table, right-click an object in the <strong>Selected Objects</strong> section. In the dialog box that appears, select the SQL operations that you want to migrate.<br>• If you use the object name mapping feature to rename an object, other objects that reference the object may fail to be migrated. |
 
 8. Click **Next: Advanced Settings** to configure advanced settings. The following table describes the parameters.
@@ -14070,7 +14070,7 @@ AND table_schema = 'public';
    | Task Stages | <strong>Incremental Data Synchronization</strong> is automatically selected. You must also select <strong>Schema Synchronization</strong> and <strong>Full Data</strong> <strong>Synchronization</strong>. After the precheck is complete, DTS synchronizes the historical data of selected objects from the source instance to the destination instance. The historical data is the basis for subsequent incremental synchronization. |
    | Processing Mode of Conflicting Tables | • <strong>Precheck and Report Errors</strong>: checks whether the destination database contains tables that use the same names as tables in the source database. If the source and destination databases do not contain tables that have identical table names, the precheck is passed. Otherwise, an error is returned during the precheck, and the data synchronization task cannot be started.<br>• <strong>Ignore Errors and Proceed</strong>: skips the precheck for identical table names in the source database and destination cluster.<br>Warning<br>If you select <strong>Ignore</strong>, data inconsistency may occur between the source and destination databases. This may cause business loss.<br>• If the source and destination databases use the same schema, DTS does not synchronize the data records that have the same primary keys as the data records in the destination database during initial full data synchronization. However, DTS synchronizes these data records during incremental data synchronization.<br>• If the source and destination databases have different schemas, initial data synchronization may fail. In this case, only specific columns are synchronized, or the data synchronization task fails. |
    | Capitalization of Object Names in Destination Instance | The capitalization of database names, table names, and column names in the destination instance. By default, <strong>DTS default policy</strong> is selected. You can select other options to make sure that the capitalization of object names is consistent with that of the source or destination database. |
-   | Source Objects | Select objects (tables or a database) from the <strong>Source Objects</strong><br>section and click the<img src="assets/0c4401ce6ed22aa87152322da7aea5ae.png" width="21" alt="">icon to move the objects to the <strong>Selected</strong><br><strong>Objects</strong> section.<br>Note<br>You can select schemas or tables as the objects to be synchronized. |
+   | Source Objects | Select objects (tables or a database) from the <strong>Source Objects</strong><br>section and click the<img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/0c4401ce6ed22aa87152322da7aea5ae.png" width="21" alt="">icon to move the objects to the <strong>Selected</strong><br><strong>Objects</strong> section.<br>Note<br>You can select schemas or tables as the objects to be synchronized. |
    | Selected Objects | By default, after an object is synchronized to the destination database, the name of the object remains unchanged.<br>Note<br>• To select SQL operations for the synchronization task, right-click an object in the <strong>Selected Objects</strong> section. In the dialog box that appears, select the SQL operations that you want to synchronize.<br>• To specify WHERE clauses to filter data, right-click a table in the <strong>Selected Objects</strong> section. In the dialog box that appears, specify the filter conditions.<br>• If you use the object name mapping feature to rename an object, other objects that are dependent on the object may fail to be synchronized. |
 
 8. Click **Next: Advanced Settings** to configure advanced settings. The following table describes the parameters.
@@ -14678,7 +14678,7 @@ This topic describes how to migrate data.
    | Task Stages | • To perform only full data migration, select <strong>Schema Migration</strong> and <strong>Full Data</strong> <strong>Migration</strong>.<br>• To ensure service continuity during data migration, select <strong>Schema Migration</strong>, <strong>Full</strong> <strong>Data Migration</strong>, and <strong>Incremental Data Migration</strong>.<br>Note<br>If <strong>Incremental Data Migration</strong> is not selected, do not write data to the source database during full data migration. This ensures data consistency between the source and destination databases. |
    | Process ing Mode of Conflict ing Tables | • <strong>Precheck and Report Errors</strong>: checks whether the destination database contains tables that have the same names as tables in the source database. If the source and destination databases do not contain tables that have identical table names, the precheck is passed. Otherwise, an error is returned during the precheck, and the data migration task cannot be started.<br>• <strong>Ignore Errors and Proceed</strong>: skips the precheck for identical table names in the source database and destination cluster.<br>Warning<br>If you select <strong>Ignore Errors and Proceed</strong>, data inconsistency may occur, and your business may be exposed to risks.<br>• If the source and destination databases have the same schemas, DTS does not migrate data records that have the same primary key values as data records in the destination database.<br>• If the source and destination databases have different schemas, only specific columns are migrated, or the data migration task fails. |
    | Capitali zation of Object Names in Destina tion Instanc e | The capitalization of database names, table names, and column names in the destination instance. By default, <strong>DTS default policy</strong> is selected. You can select another option to ensure that the capitalization of object names is the same as that of the source or destination database. |
-   | Source Objects | Select one or more objects from the <strong>Source Objects</strong> section and click the<img src="assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to<br>add the objects to the <strong>Selected Objects</strong> section.<br>Note<br>• You can use the navigation tree to search for one or more objects.<br>• You can select schemas or tables as the objects to be migrated. |
+   | Source Objects | Select one or more objects from the <strong>Source Objects</strong> section and click the<img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to<br>add the objects to the <strong>Selected Objects</strong> section.<br>Note<br>• You can use the navigation tree to search for one or more objects.<br>• You can select schemas or tables as the objects to be migrated. |
    | Selecte d Objects | By default, after an object is migrated to the destination database, the name of the object remains unchanged.<br>Note<br>• To select the SQL operations performed on a specific database or table, right-click an object in the <strong>Selected Objects</strong> section. In the dialog box that appears, select the SQL operations that you want to migrate.<br>• If you use the object name mapping feature to rename an object, other objects that are dependent on the object may fail to be migrated. |
 
 6. Click **Next: Advanced Settings** to configure advanced settings. The following table describes the parameters.
@@ -14896,7 +14896,7 @@ This topic describes how to synchronize data.
    | Task Stages | <strong>Incremental Data Synchronization</strong> is automatically selected. You must also select <strong>Schema Synchronization</strong> and <strong>Full Data</strong> <strong>Synchronization</strong>. After the precheck is complete, DTS synchronizes the historical data of the selected objects from the source database to the destination database. The historical data is the basis for subsequent incremental synchronization. |
    | Processing Mode of Conflicting Tables | • <strong>Precheck and Report Errors</strong>: checks whether the destination database contains tables that have the same names as tables in the source database. If the source and destination databases do not contain tables that have identical table names, the precheck is passed. Otherwise, an error is returned during the precheck, and the data synchronization task cannot be started.<br>• <strong>Ignore Errors and Proceed</strong>: skips the precheck for identical table names in the source database and destination cluster.<br>Warning<br>If you select <strong>Ignore Errors and Proceed</strong>, data inconsistency may occur, and your business may be exposed to potential risks.<br>• If the source and destination databases use the same schema, DTS does not synchronize the data records that have the same primary keys as the data records in the destination database during initial full data synchronization. However, DTS synchronizes these data records during incremental data synchronization.<br>• If the source and destination databases have different schemas, initial data synchronization may fail. In this case, only specific columns are synchronized, or the data synchronization task fails. |
    | Capitalization of Object Names in Destination Instance | The capitalization of database names, table names, and column names in the destination instance. By default, <strong>DTS default policy</strong> is selected. You can select another option to ensure that the capitalization of object names is the same as that of the source or destination database. |
-   | Source Objects | Select objects (tables or a database) from the <strong>Source Objects</strong><br>section and click the<img src="assets/0c4401ce6ed22aa87152322da7aea5ae.png" width="21" alt="">icon to move the objects to the <strong>Selected</strong><br><strong>Objects</strong> section.<br>Note<br>You can select schemas or tables as the objects to be synchronized. |
+   | Source Objects | Select objects (tables or a database) from the <strong>Source Objects</strong><br>section and click the<img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/0c4401ce6ed22aa87152322da7aea5ae.png" width="21" alt="">icon to move the objects to the <strong>Selected</strong><br><strong>Objects</strong> section.<br>Note<br>You can select schemas or tables as the objects to be synchronized. |
    | Selected Objects | By default, after an object is synchronized to the destination instance, the name of the object remains unchanged.<br>Note<br>• To select SQL operations for the synchronization task, right-click an object in the <strong>Selected Objects</strong> section. In the dialog box that appears, select the SQL operations that you want to synchronize.<br>• To specify WHERE clauses to filter data, right-click a table in the <strong>Selected Objects</strong> section. In the dialog box that appears, specify the filter conditions.<br>• If you use the object name mapping feature to rename an object, other objects that are dependent on the object may fail to be synchronized. |
 
 7. Click **Next: Advanced Settings** to configure advanced settings. The following table describes the parameters.
@@ -14963,9 +14963,9 @@ Solution overview: After you create a PolarDB for PostgreSQL cluster, you can us
 
 **Edition**
 
-![](assets/cee10f629ae9c694c026f8688b4304ef.png)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/cee10f629ae9c694c026f8688b4304ef.png)
 
-![](assets/3ea0ace3bed7d277decfe8012361b8f5.png)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/3ea0ace3bed7d277decfe8012361b8f5.png)
 
 **ApsaraDB RDS for**
 
@@ -15057,9 +15057,9 @@ Example:
 
 The RDS-PG13 kernel version on Apsara Stack 3.16.2 is 13.14, and the PolarDB-PG14 kernel version is 14.13. You can use the following method to check the compatibility.
 
-![](assets/e6481568912becada8cf9fa9eaf73ca2.png)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/e6481568912becada8cf9fa9eaf73ca2.png)
 
-![](assets/cc9f5f6a1fb8b549fcde28c566bcab4e.png)
+![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/cc9f5f6a1fb8b549fcde28c566bcab4e.png)
 
 **dump/restore**
 
@@ -15558,7 +15558,7 @@ Procedure:
      </tr>
      <tr>
        <td>Source Objects</td>
-       <td>Select one or more objects in the <strong>Source Objects</strong> list and click the<img src="assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to add the<br>objects to the <strong>Selected Objects</strong> list.<br>Note<br>You can select columns, tables, or databases as the objects to be migrated.</td>
+       <td>Select one or more objects in the <strong>Source Objects</strong> list and click the<img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to add the<br>objects to the <strong>Selected Objects</strong> list.<br>Note<br>You can select columns, tables, or databases as the objects to be migrated.</td>
      </tr>
      <tr>
        <td>Selecte d Objects</td>
@@ -15733,7 +15733,7 @@ Procedure:
    | Processing Mode of Conflicting Tables | • <strong>Precheck and Report Errors</strong>: checks whether the destination database contains tables that use the same names as tables in the source database. If the source and destination databases do not contain tables that have identical table names, the precheck is passed. Otherwise, an error is returned during the precheck, and the data synchronization task cannot be started.<br>• <strong>Ignore Errors and Proceed</strong>: skips the precheck for identical table names in the source database and destination cluster.<br>Warning<br>If you select <strong>Ignore Errors and Proceed</strong>, data consistency is not ensured, and your business may be exposed to potential risks.<br>• If the source and destination databases have the same table schemas, DTS does not synchronize data records that have the same primary key values as data records in the destination database.<br>• If the source and destination databases have different table schemas, only specific columns are synchronized, or the data synchronization task fails. |
    | Synchronization Topology | Select <strong>One-way Synchronization</strong>. |
    | Capitalization of Object Names in Destination Instance | The capitalization of database names, table names, and column names in the destination instance. By default, <strong>DTS default policy</strong> is selected. You can select another option to ensure that the capitalization of object names is the same as that of the source or destination database. |
-   | Source Objects | Select one or more objects (tables or databases) in the <strong>Source</strong><br><strong>Objects</strong> list and click the<img src="assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to add the objects to the <strong>Selected</strong><br><strong>Objects</strong> list.<br>Note<br>You can select columns, tables, or databases as the objects to be synchronized. |
+   | Source Objects | Select one or more objects (tables or databases) in the <strong>Source</strong><br><strong>Objects</strong> list and click the<img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to add the objects to the <strong>Selected</strong><br><strong>Objects</strong> list.<br>Note<br>You can select columns, tables, or databases as the objects to be synchronized. |
    | Selected Objects | By default, after an object is synchronized to the destination instance, the name of the object remains unchanged. You can use the object name mapping feature to change the names of the objects that are synchronized to the destination instance.<br>Note<br>• If you use the multi-table merging feature to merge source tables, you must change the table names to the names of tables to be synchronized in the destination database.<br>• If you use the object name mapping feature to rename an object, other objects that depend on the object may fail to be synchronized. |
 
 5. Click **Next: Advanced Settings** to configure advanced settings.
@@ -15861,7 +15861,7 @@ This topic describes how to migrate data.
    >
    > Do not use domain names to connect the source and destination databases because the domain names of the databases will be replaced in subsequent steps.
 
-   ![](assets/dc68d593319cedc240c2b5a20b7372d4.jpeg)
+   ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/dc68d593319cedc240c2b5a20b7372d4.jpeg)
 
    **Parameter**
 
@@ -16001,7 +16001,7 @@ This topic describes how to migrate data.
    | --- | --- |
    | Task Stages | • To perform only full data migration, select <strong>Schema Migration</strong> and <strong>Full Data</strong> <strong>Migration</strong>.<br>• To ensure service continuity during data migration, select <strong>Schema Migration</strong>, <strong>Full</strong> <strong>Data Migration</strong>, and <strong>Incremental Data Migration</strong>.<br>Note<br>If <strong>Incremental Data Migration</strong> is not selected, do not write data to the source database during full data migration. This ensures data consistency between the source and destination databases. |
    | Process ing Mode of Conflict ing Tables | • <strong>Precheck and Report Errors</strong>: checks whether the destination database contains tables that use the same names as tables in the source database. If the source and destination databases do not contain tables that have identical table names, the precheck is passed. Otherwise, an error is returned during the precheck, and the data synchronization task cannot be started.<br>• <strong>Ignore Errors and Proceed</strong>: skips the precheck for identical table names in the source database and destination cluster.<br>Warning<br>If you select <strong>Ignore Errors and Proceed</strong>, data inconsistency may occur, and your business may be exposed to potential risks.<br>• If the source and destination databases have the same schemas, DTS does not migrate data records that have the same primary key values as data records in the destination database.<br>• If the source and destination databases have different table schemas, only specific columns are migrated, or the data migration task fails. |
-   | Source Objects | Select one or more objects in the <strong>Source Objects</strong> list and click the<img src="assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to move the<br>objects to the <strong>Selected Objects</strong> list.<br>Note<br>You can select columns, tables, or databases as the objects to be migrated. |
+   | Source Objects | Select one or more objects in the <strong>Source Objects</strong> list and click the<img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to move the<br>objects to the <strong>Selected Objects</strong> list.<br>Note<br>You can select columns, tables, or databases as the objects to be migrated. |
    | Selecte d Objects | By default, after an object is migrated to the destination database, the name of the object remains unchanged.<br>Note<br>• To select the SQL operations performed on a specific database or table, right-click an object in the <strong>Selected Objects</strong> section. In the dialog box that appears, select the SQL operations that you want to migrate.<br>• If you use the object name mapping feature to rename an object, other objects that are dependent on the object may fail to be migrated. |
 
 5. Click **Next: Advanced Settings** to configure advanced settings.
@@ -16177,7 +16177,7 @@ This topic describes how to synchronize data.
    | Processing Mode of Conflicting Tables | • <strong>Precheck and Report Errors</strong>: checks whether the destination database contains tables that have the same names as tables in the source database. If the source and destination databases do not contain tables that have identical table names, the precheck is passed. Otherwise, an error is returned during the precheck, and the data synchronization task cannot be started.<br>• <strong>Ignore Errors and Proceed</strong>: skips the precheck for identical table names in the source and destination databases.<br>Warning<br>If you select <strong>Ignore Errors and Proceed</strong>, data consistency is not ensured, and your business may be exposed to potential risks.<br>• If the source and destination databases have the same table schemas, DTS does not synchronize data records that have the same primary key values as data records in the destination database.<br>• If the source and destination databases have different table schemas, only specific columns are synchronized or the data synchronization task fails. |
    | Synchronization Topology | Select <strong>One-way Synchronization</strong>. |
    | Capitalization of Object Names in Destination Instance | The capitalization of database names, table names, and column names in the destination instance. By default, <strong>DTS default policy</strong> is selected. You can select another option to ensure that the capitalization of object names is the same as that of the source or destination database. |
-   | Source Objects | Select one or more objects (tables or databases) in the <strong>Source</strong><br><strong>Objects</strong> list and click the<img src="assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to add the objects to the <strong>Selected</strong><br><strong>Objects</strong> list.<br>Note<br>You can select columns, tables, or databases as the objects to be synchronized. |
+   | Source Objects | Select one or more objects (tables or databases) in the <strong>Source</strong><br><strong>Objects</strong> list and click the<img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/653dbb2a696c8ec9c95d9695dfd92127.png" width="19" alt="">icon to add the objects to the <strong>Selected</strong><br><strong>Objects</strong> list.<br>Note<br>You can select columns, tables, or databases as the objects to be synchronized. |
    | Selected Objects | By default, after an object is synchronized to the destination instance, the name of the object remains unchanged. You can use the object name mapping feature to change the names of the objects that are synchronized to the destination instance.<br>Note<br>• If you use the multi-table merging feature to merge source tables, you must change the table names to the names of tables to be synchronized in the destination database.<br>• If you use the object name mapping feature to rename an object, other objects that depend on the object may fail to be synchronized. |
 
 5. Click **Next: Advanced Settings** to configure advanced settings.
@@ -16926,7 +16926,7 @@ Open the AI Gateway instance created in Step 1. On the **MCP Management** tab of
 
    <li>
 
-   Click the <img src="assets/188eae13a1a753c93c99cb2aec3b08c3.png" width="21" alt=""> icon for the Dify instance.
+   Click the <img src="en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/188eae13a1a753c93c99cb2aec3b08c3.png" width="21" alt=""> icon for the Dify instance.
 
    </li>
 
@@ -17041,7 +17041,7 @@ All configurations in a launch template are optional. This provides flexibility 
 
 4. After you complete the configuration, click **Save as launch template** in the **Configuration Overview** panel on the right.
 
-   ![](assets/bf1450b753a6ac54bcbce70cfada1db2.png)
+   ![](en-polardb-postgresql-primary-seco-eef84ce2-v3.18.6-2607-20260831.assets/bf1450b753a6ac54bcbce70cfada1db2.png)
 
 5. In the **Save as launch template** dialog box, set the **Template Name**, **Sharing Scope**, and **Template Version Description**, and then click **OK**.
 

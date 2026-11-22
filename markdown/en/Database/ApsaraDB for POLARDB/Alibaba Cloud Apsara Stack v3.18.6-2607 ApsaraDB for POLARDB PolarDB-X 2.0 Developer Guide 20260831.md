@@ -218,7 +218,7 @@ OpenSSL support in Python is required for sending HTTPS requests by using the SD
 
 Run the  `python -c "import ssl"`  command to check whether your Python environment supports OpenSSL. If the following error message is not displayed, OpenSSL is supported:
 
-![](assets/2cbb2d08a1e09b3a4af6b766e3e67402.png)
+![](en-polardb-polardb-x-2-0-developer-guide-v3.18.6-2607-20260831.assets/2cbb2d08a1e09b3a4af6b766e3e67402.png)
 
 If OpenSSL is not installed in your Python environment, run the following command to install OpenSSL:
 
@@ -5356,14 +5356,14 @@ the PolarDB-X instance resides.
     <td>String</td>
     <td>No</td>
     <td>securityAccount</td>
-    <td>The username of the data security administrator (DSA) account.<br><img src="assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>Required if three-role mode is enabled for the instance.</td>
+    <td>The username of the data security administrator (DSA) account.<br><img src="en-polardb-polardb-x-2-0-developer-guide-v3.18.6-2607-20260831.assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>Required if three-role mode is enabled for the instance.</td>
   </tr>
   <tr>
     <td>SecurityAccountP assword</td>
     <td>String</td>
     <td>No</td>
     <td>securityPassword</td>
-    <td>The password of the DSA account.<br><img src="assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>Required if three-role mode is enabled for the instance.</td>
+    <td>The password of the DSA account.<br><img src="en-polardb-polardb-x-2-0-developer-guide-v3.18.6-2607-20260831.assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>Required if three-role mode is enabled for the instance.</td>
   </tr>
 </table>
 

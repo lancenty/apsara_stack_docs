@@ -396,7 +396,7 @@ This topic describes how to sign in to the Alibaba Cloud Elasticsearch console.
 
 1. In your browser's address bar, enter the service domain name for the Apsara Uni-manager Operation Console and press Enter.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -466,27 +466,27 @@ This topic describes how to sign in to the Alibaba Cloud Elasticsearch console.
 
 - Icons in the upper-right corner of the top navigation bar
 
-  <img src="assets/4e844a28499ce833681c7a8cb7c7b85d.jpeg" width="18" alt=""> : Opens the **Apsara Assistant** dialog box. For more information, see Elasticsearch
+  <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/4e844a28499ce833681c7a8cb7c7b85d.jpeg" width="18" alt=""> : Opens the **Apsara Assistant** dialog box. For more information, see Elasticsearch
 
   MCP Server.
 
-  <img src="assets/0dc7f6654b3b7293ee6fb7c1f5a9d25a.png" width="42" alt=""> : Switches the display language. Options include English and Traditional Chinese.
+  <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/0dc7f6654b3b7293ee6fb7c1f5a9d25a.png" width="42" alt=""> : Switches the display language. Options include English and Traditional Chinese.
 
-  <img src="assets/daf249bca46e8198c620e0a5c23394a5.png" width="10" alt=""> / <img src="assets/e245d5a24d033d5ea5cfbf9dbb23edcc.png" width="17" alt=""> : Switches between **light mode** and **dark mode**.
+  <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/daf249bca46e8198c620e0a5c23394a5.png" width="10" alt=""> / <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/e245d5a24d033d5ea5cfbf9dbb23edcc.png" width="17" alt=""> : Switches between **light mode** and **dark mode**.
 
-  <img src="assets/3b3dd4ebd52ffe7feb83663c835a3a01.png" width="15" alt=""> : Displays notifications. Click **View More** to open the **Message Center** and view all
+  <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/3b3dd4ebd52ffe7feb83663c835a3a01.png" width="15" alt=""> : Displays notifications. Click **View More** to open the **Message Center** and view all
 
   messages.
 
 - Icons in the floating menu in the lower-right corner
 
-  <img src="assets/f231eee0cc99c945e067cef0389efbc2.jpeg" width="22" alt=""> : Opens the **Apsara Assistant** dialog box.
+  <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/f231eee0cc99c945e067cef0389efbc2.jpeg" width="22" alt=""> : Opens the **Apsara Assistant** dialog box.
 
-  <img src="assets/b742ff514cf633f76860168cfdd1e727.png" width="19" alt=""> : Opens the Pricing page, which includes a pricing calculator, configuration list, and
+  <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/b742ff514cf633f76860168cfdd1e727.png" width="19" alt=""> : Opens the Pricing page, which includes a pricing calculator, configuration list, and
 
   service pricing details.
 
-  <img src="assets/702b397e278aa0344e1189322866b9a7.png" width="22" alt=""> : Opens the **Configuration Pricer**. The number on the icon indicates the quantity of
+  <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/702b397e278aa0344e1189322866b9a7.png" width="22" alt=""> : Opens the **Configuration Pricer**. The number on the icon indicates the quantity of
 
   services added. This icon's visibility depends on your user permissions.
 
@@ -503,7 +503,7 @@ Log on to the Alibaba Cloud OpenSearch console. The **Overview** page appears by
 | Region | Description |
 | --- | --- |
 | Overview | In the <strong>Instance overview</strong> section, view the <strong>Total Instances</strong> and <strong>Normal Instances</strong> in your organization.<br>• Click <strong>Total Instances</strong> to go to the <strong>Instance List</strong> page to view instance details and create instances. For more information, see Create a cluster.<br>• Click <strong>Normal Instances</strong> to go to the <strong>Instance List</strong> page to view the details of instances in the Normal state. |
-| Quota Statistics | In the <strong>Quota Statistics</strong> section, you can view the resource usage (%) and resource allocation. The resource allocation is displayed from the CPU, memory, and disk dimensions, including the current quota, allocated quota, and quota usage.<br>Click the<img src="assets/4fabf5d9f0d4ac044e4ac87cda2d9e8c.png" width="18" alt="">icon to go to the <strong>Quota Management</strong> page. |
+| Quota Statistics | In the <strong>Quota Statistics</strong> section, you can view the resource usage (%) and resource allocation. The resource allocation is displayed from the CPU, memory, and disk dimensions, including the current quota, allocated quota, and quota usage.<br>Click the<img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/4fabf5d9f0d4ac044e4ac87cda2d9e8c.png" width="18" alt="">icon to go to the <strong>Quota Management</strong> page. |
 | Top 10 in Quota Use | In the <strong>Top 10 in Quota Use</strong> section, you can view the resource usage and resource usage trends.<br>• You can click <strong>Cpu usage</strong>, <strong>Mem usage</strong>, or <strong>Quota usage by</strong> <strong>Disk</strong> to view the top 10 quotas with the highest resource usage in the current organization and the subordinate organizations.<br>• You can view the trends of resource usage within the previous 7, 15, or 30 days. |
 | Monitoring Sorting | In the <strong>Monitoring Sorting</strong> section, you can view resources sorted based on different dimensions, such as active shards or query rate.You can specify Ascending order or Descending order, Maximum, Average, and Value, or 10, 20, or 30 to sort the statistics. |
 | Alert statistics | In the <strong>Alarm Statistics</strong> section, you can view the total number of alerts and the information about alerts at the P1 (critical), P2 (warning), and P3 (information) levels. |
@@ -531,13 +531,13 @@ Elasticsearch allows you to create Elasticsearch and OpenSearch clusters. This t
 
    > **Note**
    >
-   > If you use an environment that supports Apsara Copilot (indicated by the <img src="assets/2d2c9b7a9d8541711fba4f927ba2688f.jpeg" width="15" alt=""> icon in the
+   > If you use an environment that supports Apsara Copilot (indicated by the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/2d2c9b7a9d8541711fba4f927ba2688f.jpeg" width="15" alt=""> icon in the
    >
    > console) and the text-selection search feature is enabled, you can select the parameters whose details you want to view and click **Consult Apsara Copilot** in the tooltip to learn more about the parameters in the Apsara Copilot dialog box on the right. You can enable text-selection search by clicking the
    >
    > icon in the upper-right
    >
-   > <img src="assets/fde3a49b2bca06c8ed1212f9b72ba12c.png" width="14" alt="">
+   > <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/fde3a49b2bca06c8ed1212f9b72ba12c.png" width="14" alt="">
    >
    > corner of the Apsara Copilot dialog box.
 
@@ -963,7 +963,7 @@ Elasticsearch allows you to create Elasticsearch and OpenSearch clusters. This t
 
    In the right-side **Configuration overview** panel, you can perform the following operations.
 
-   ![](assets/6b69b216515e68412470715b1b94d7be.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/6b69b216515e68412470715b1b94d7be.jpeg)
 
    - View parameter configurations In the **Configuration overview** panel, the required parameters are verified in real time. If a required parameter is left empty, a corresponding red warning is displayed.
 
@@ -1013,13 +1013,13 @@ Elasticsearch allows you to create Elasticsearch and OpenSearch clusters. This t
 
    > **Note**
    >
-   > If you use an environment that supports Apsara Copilot (indicated by the <img src="assets/2d2c9b7a9d8541711fba4f927ba2688f.jpeg" width="15" alt=""> icon in the
+   > If you use an environment that supports Apsara Copilot (indicated by the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/2d2c9b7a9d8541711fba4f927ba2688f.jpeg" width="15" alt=""> icon in the
    >
    > console) and the text-selection search feature is enabled, you can select the parameters whose details you want to view and click **Consult Apsara Copilot** in the tooltip to learn more about the parameters in the Apsara Copilot dialog box on the right. You can enable text-selection search by clicking the
    >
    > icon in the upper-right
    >
-   > <img src="assets/fde3a49b2bca06c8ed1212f9b72ba12c.png" width="14" alt="">
+   > <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/fde3a49b2bca06c8ed1212f9b72ba12c.png" width="14" alt="">
    >
    > corner of the Apsara Copilot dialog box.
 
@@ -1439,7 +1439,7 @@ Elasticsearch allows you to create Elasticsearch and OpenSearch clusters. This t
 
    In the right-side **Configuration overview** panel, you can perform the following operations.
 
-   ![](assets/f228c472d37fabc396ad5fcd7b81a65a.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/f228c472d37fabc396ad5fcd7b81a65a.jpeg)
 
    - View parameter configurations
 
@@ -1539,7 +1539,7 @@ This topic describes how to access an Elasticsearch cluster from Elastic Compute
 
    icon in the upper-left corner and choose **Management > Dev Tools**. In the
 
-   <img src="assets/a12093d66393d444ee7af7b865b85663.png" width="19" alt="">
+   <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/a12093d66393d444ee7af7b865b85663.png" width="19" alt="">
 
    **console**, run the  `GET /`  command to access the cluster.
 
@@ -1547,7 +1547,7 @@ This topic describes how to access an Elasticsearch cluster from Elastic Compute
    >
    > In the preceding example, the cluster is of Elasticsearch V6.8.2. The procedure may vary based on the Elasticsearch version. The actual console page shall prevail.
 
-   ![](assets/ac5fe7a8edd47299aa12eaff90ba150a.png)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/ac5fe7a8edd47299aa12eaff90ba150a.png)
 
 <a id="section-5-5"></a>
 
@@ -2320,11 +2320,11 @@ Elasticsearch allows you to customize the columns displayed in the cluster list.
 
    icon.
 
-   <img src="assets/3c255ebbe9b3490f3ccdad6d29b5887b.png" width="28" alt="">
+   <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/3c255ebbe9b3490f3ccdad6d29b5887b.png" width="28" alt="">
 
 3. In the **Custom Columns** list, select the columns that you want to view. Then, the cluster list displays the specified columns.
 
-   ![](assets/53f4357e6d6aca301220670a618dd248.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/53f4357e6d6aca301220670a618dd248.jpeg)
 
 <a id="section-7-1-2"></a>
 
@@ -2340,11 +2340,11 @@ This topic describes how to export a list of Elasticsearch clusters, including t
 
    icon.
 
-   <img src="assets/0ac3ad25e2da8114c431a800da2ff79e.png" width="16" alt="">
+   <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/0ac3ad25e2da8114c431a800da2ff79e.png" width="16" alt="">
 
 3. In the **Export** dialog box, configure the Export Data by Scope and Columns to Export parameters.
 
-   ![](assets/91ce96ae2e0a31f3eeed2886ecde9a27.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/91ce96ae2e0a31f3eeed2886ecde9a27.jpeg)
 
    - **Export Data by Scope**: By default, all resources are selected. You can also select Selected Data.
 
@@ -2364,7 +2364,7 @@ If the information of an Elasticsearch cluster, such as its status, is not updat
 
 2. There are two ways to refresh the instance.
 
-   - On the **Elasticsearch Instances** page, click the <img src="assets/d0a2f2b39b2286908738af985fd65ec4.png" width="18" alt=""> icon.
+   - On the **Elasticsearch Instances** page, click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/d0a2f2b39b2286908738af985fd65ec4.png" width="18" alt=""> icon.
 
    - Click the ID of the target instance. On the **Basic Information** page, click **Refresh** in the upper-right corner.
 
@@ -2394,7 +2394,7 @@ This topic describes how to modify the name of an Elasticsearch cluster.
 
      <li>
 
-     On the **Instance List** page, move the pointer over **Instance ID/name** and click <img src="assets/a2af977243fe3ab03fa39428c552b328.png" width="18" alt=""> .
+     On the **Instance List** page, move the pointer over **Instance ID/name** and click <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/a2af977243fe3ab03fa39428c552b328.png" width="18" alt=""> .
 
      </li>
 
@@ -2466,7 +2466,7 @@ If you have multiple Elasticsearch clusters, you can add tags to the clusters to
 
      Move the pointer in the **Tag** column of the cluster to which you want to add a tag, and
 
-     click the <img src="assets/2e5ad718036813e2d03e8d6517d19dcf.png" width="14" alt=""> icon.
+     click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/2e5ad718036813e2d03e8d6517d19dcf.png" width="14" alt=""> icon.
 
      </li>
 
@@ -2532,7 +2532,7 @@ After tags are added to clusters, you can perform the following operations to fi
 
 2. Select values for the **Tag Key** and **Tag Value** parameters from the drop-down list to filter clusters.
 
-   After clusters are filtered, you can click the <img src="assets/d5a37379fa158ba41588599910129a58.png" width="17" alt=""> icon next to the tag in the **Filter by Tag**
+   After clusters are filtered, you can click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/d5a37379fa158ba41588599910129a58.png" width="17" alt=""> icon next to the tag in the **Filter by Tag**
 
    search box to delete the filter condition.
 
@@ -2544,7 +2544,7 @@ After tags are added to clusters, you can perform the following operations to fi
 
   <li>
 
-  Click the <img src="assets/2e5ad718036813e2d03e8d6517d19dcf.png" width="14" alt=""> icon in the **Tag** column of the cluster from which you want to remove a tag.
+  Click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/2e5ad718036813e2d03e8d6517d19dcf.png" width="14" alt=""> icon in the **Tag** column of the cluster from which you want to remove a tag.
 
   </li>
 
@@ -2556,7 +2556,7 @@ After tags are added to clusters, you can perform the following operations to fi
 
   </ol>
 
-  the <img src="assets/a07ca424285a85b717ab8585857552e2.png" width="15" alt=""> icon on the right, and then click **OK**.
+  the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/a07ca424285a85b717ab8585857552e2.png" width="15" alt=""> icon on the right, and then click **OK**.
 
   <ol type="i" start="3">
 
@@ -2628,7 +2628,7 @@ In most cases, if the loads of a cluster are not high and the indexes in the clu
 
 5. In the **Restart** dialog box, configure the following parameters.
 
-   ![](assets/cb0c2101d945c95d4a1d6034a24d1f73.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/cb0c2101d945c95d4a1d6034a24d1f73.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -2778,7 +2778,7 @@ On the Basic Information page of an Elasticsearch cluster, you can view the basi
 
    cannot redirect to the Kibana console from its endpoint over the Internet.
 
-   - Click the <img src="assets/5d5ee306b63d788ab84c0b0d0910be3d.png" width="16" alt=""> icon to enter the node visualization
+   - Click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/5d5ee306b63d788ab84c0b0d0910be3d.png" width="16" alt=""> icon to enter the node visualization
 
      mode and view the status of the cluster and each node. Move the pointer over a node to view the name, status, CPU specification, memory capacity, and storage space of the node. You can
 
@@ -2790,7 +2790,7 @@ On the Basic Information page of an Elasticsearch cluster, you can view the basi
 
    **Visualization**
 
-   - Click the <img src="assets/fe5b3b1fe352116fc2da2b59973ca6a8.png" width="16" alt=""> icon to enter the configuration list
+   - Click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/fe5b3b1fe352116fc2da2b59973ca6a8.png" width="16" alt=""> icon to enter the configuration list
 
      mode and view the configurations of the cluster, such as the specifications and number of data nodes.
 
@@ -2865,7 +2865,7 @@ On the Basic Information page of an Elasticsearch cluster, you can view the basi
      <tr>
        <td>Node Visualization</td>
        <td>N/A</td>
-       <td>• Click the<img src="assets/5d5ee306b63d788ab84c0b0d0910be3d.png" width="16" alt="">icon to enter the node<br>visualization mode and view the status of the cluster and each node. Move the pointer over a node to view the name, status, CPU specification, memory capacity, and storage space of the node. You can also <strong>restart</strong> <strong>nodes</strong> or <strong>view node logs</strong>.<br>• Click the<img src="assets/fe5b3b1fe352116fc2da2b59973ca6a8.png" width="16" alt="">icon to enter the configuration<br>list mode and view the configurations of the cluster, such as the specifications and number of data nodes.</td>
+       <td>• Click the<img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/5d5ee306b63d788ab84c0b0d0910be3d.png" width="16" alt="">icon to enter the node<br>visualization mode and view the status of the cluster and each node. Move the pointer over a node to view the name, status, CPU specification, memory capacity, and storage space of the node. You can also <strong>restart</strong> <strong>nodes</strong> or <strong>view node logs</strong>.<br>• Click the<img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/fe5b3b1fe352116fc2da2b59973ca6a8.png" width="16" alt="">icon to enter the configuration<br>list mode and view the configurations of the cluster, such as the specifications and number of data nodes.</td>
      </tr>
    </table>
 
@@ -2887,17 +2887,17 @@ You can view the progress of different tasks created for an Elasticsearch cluste
 
 2. On the **Instances** page, click the target instance ID.
 
-3. On the Basic Information page, click the <img src="assets/7d79d81db01b46f6bf7505fa2d47436a.png" width="14" alt=""> icon in the upper-right corner.
+3. On the Basic Information page, click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/7d79d81db01b46f6bf7505fa2d47436a.png" width="14" alt=""> icon in the upper-right corner.
 
 4. In the task list, you can view **Change Start Time**, **Change Type**, and **Change Status**.
 
-5. Click the <img src="assets/f22429106559a740a1def778a1de8e64.png" width="15" alt=""> icon to the left of the task to view the list that displays the status and uptime of
+5. Click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/f22429106559a740a1def778a1de8e64.png" width="15" alt=""> icon to the left of the task to view the list that displays the status and uptime of
 
    each node in the cluster. Click **Node Information** or **Node Logs** to view the information or logs of the corresponding node.
 
    > **Note**
    >
-   > After the task completes, the icon in the upper-right corner of the Basic Information page changes to <img src="assets/bdcdcb27c34e52a90036cc5271e33e67.png" width="11" alt=""> , and the <img src="assets/f22429106559a740a1def778a1de8e64.png" width="15" alt=""> icon in the task list disappears.
+   > After the task completes, the icon in the upper-right corner of the Basic Information page changes to <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/bdcdcb27c34e52a90036cc5271e33e67.png" width="11" alt=""> , and the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/f22429106559a740a1def778a1de8e64.png" width="15" alt=""> icon in the task list disappears.
 
 <a id="section-7-2-3"></a>
 
@@ -2913,7 +2913,7 @@ This topic describes how to view the logs of a node.
 
 3. In the **Node Visualization** section of the **Basic Information** page, move the pointer over the icon of a node and click **View Node Logs** in the menu that appears.
 
-   ![](assets/9147661511133af57a2fd03086cf74f7.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/9147661511133af57a2fd03086cf74f7.jpeg)
 
 4. In the Node Logs message, view the logs of the node.
 
@@ -3906,7 +3906,7 @@ An Operations and Maintenance (O&M) engineer has created a backup repository on 
    >
    > The start time is based on the time zone of the current region. Avoid creating cluster snapshots during automatic data backups.
 
-   ![](assets/7b5436c91e974d922f7e2ae7dc54f5bf.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/7b5436c91e974d922f7e2ae7dc54f5bf.jpeg)
 
    | Backup Cycle | Description |
    | --- | --- |
@@ -3971,7 +3971,7 @@ Apsara Stack Elasticsearch provides the Kibana console for you to scale your bus
 
    icon in the upper-left corner and choose **Management > Dev Tools** to go to
 
-   <img src="assets/a12093d66393d444ee7af7b865b85663.png" width="19" alt="">
+   <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/a12093d66393d444ee7af7b865b85663.png" width="19" alt="">
 
    the **console**.
 
@@ -4037,7 +4037,7 @@ The instance status is Normal, and the Dashboards node is enabled.
 
    icon in the upper-left corner and choose **Management > Dev Tools** to open
 
-   <img src="assets/a12093d66393d444ee7af7b865b85663.png" width="19" alt="">
+   <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/a12093d66393d444ee7af7b865b85663.png" width="19" alt="">
 
    the **Console** page.
 
@@ -4180,7 +4180,7 @@ This topic describes how to use the a-pack-xdcr plugin for Elasticsearch to repl
 
    If the command is successful, it returns a result similar to the following.
 
-   ![](assets/520e2daa9dbef4f89e8d1417d332f5c9.png)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/520e2daa9dbef4f89e8d1417d332f5c9.png)
 
    > **Note**
    >
@@ -4244,7 +4244,7 @@ Step 4: Verify data synchronization in different use cases
 
 1. Log on to the Kibana console for both the primary and standby clusters. For detailed instructions, see Log on to the Kibana console.
 
-2. In the upper-left corner, click the <img src="assets/d2f8223f2b7fb9eb8fda4ed40f91799f.png" width="18" alt=""> icon. In the left navigation pane, choose
+2. In the upper-left corner, click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/d2f8223f2b7fb9eb8fda4ed40f91799f.png" width="18" alt=""> icon. In the left navigation pane, choose
 
    **Management > Dev Tools** to open the **Console**.
 
@@ -4276,7 +4276,7 @@ Step 4: Verify data synchronization in different use cases
 
    The following example shows how to create a repository named  `rep0801` :
 
-   ![](assets/2d4bf5e7a883290f3a71fe6b4c4f9684.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/2d4bf5e7a883290f3a71fe6b4c4f9684.jpeg)
 
    </li>
 
@@ -4290,7 +4290,7 @@ Step 4: Verify data synchronization in different use cases
 
    The following output confirms that the repository was created.
 
-   ![](assets/b905feeae8bcac0877ba4b241c149ae6.png)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/b905feeae8bcac0877ba4b241c149ae6.png)
 
 3. (Optional) To delete an existing repository, run the following command.
 
@@ -4314,7 +4314,7 @@ Step 4: Verify data synchronization in different use cases
 
    The following output confirms that the feature was enabled:
 
-   ![](assets/8f52b43af9e7c6c51a03a992645115e5.png)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/8f52b43af9e7c6c51a03a992645115e5.png)
 
 2. Run the following command to verify that cluster synchronization is enabled.
 
@@ -4324,7 +4324,7 @@ Step 4: Verify data synchronization in different use cases
 
    The following output confirms that the feature was enabled.
 
-   ![](assets/e20b7a3bb7c4f12541e3156295c20208.png)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/e20b7a3bb7c4f12541e3156295c20208.png)
 
 **Step 4: Verify data synchronization in different use cases**
 
@@ -4361,9 +4361,9 @@ Step 4: Verify data synchronization in different use cases
 
    The following output confirms that the index and its data were created.
 
-   ![](assets/53e1aee3b4fc7f077c00dabb741d0844.png)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/53e1aee3b4fc7f077c00dabb741d0844.png)
 
-   ![](assets/a057a98aeb7127adc1b7c9e8de05704b.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/a057a98aeb7127adc1b7c9e8de05704b.jpeg)
 
    2. **View the synchronized index and data**
 
@@ -4379,9 +4379,9 @@ GET /<index_name>/_search
 
 The following output confirms that the data was synchronized.
 
-![](assets/4035daaaf46ee927215e95efc201ae50.jpeg)
+![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/4035daaaf46ee927215e95efc201ae50.jpeg)
 
-![](assets/37bb4764c678c67ef041c95c42cd51ec.jpeg)
+![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/37bb4764c678c67ef041c95c42cd51ec.jpeg)
 
 3. **(Optional) Disable cluster or index synchronization**
 
@@ -4439,11 +4439,11 @@ To disable data synchronization for a cluster or a specific index, run the corre
 
    The following output indicates a successful creation.
 
-   ![](assets/9644f3be13bdf9c20e107c8ac5eca2f9.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/9644f3be13bdf9c20e107c8ac5eca2f9.jpeg)
 
-   ![](assets/dee2afc660d304d3d20b0d671253f808.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/dee2afc660d304d3d20b0d671253f808.jpeg)
 
-   ![](assets/748569999f1f08ca653d8cd8721420a2.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/748569999f1f08ca653d8cd8721420a2.jpeg)
 
    2. **Enable synchronization and verify status**
 
@@ -5095,7 +5095,7 @@ Different distance metrics correspond to different scoring mechanisms. The follo
     <td>In information theory, the Hamming distance between two strings of equal length is the number of positions at which the corresponding symbols differ.</td>
     <td>For two n-bit binary codes x and y:<br>• d(x,y) = Σ(x[i] ⊕ y[i]) for i=0 to n-1, where ⊕ is the XOR operation.<br>• Score = 1 /(distance + 1)</td>
     <td>A typical use case is error correction and detection in data transmission, where it counts the differing bits to estimate the error rate.</td>
-    <td>The Hamming distance between <code> 1011101 </code> and <code> 1001001 </code> is 2.<br><img src="assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>When using the aliyun-knn plugin, binary vector data must be converted into an array of unsigned 32-bit integers (uint32), and the <code> dim </code> must be a multiple of 32.</td>
+    <td>The Hamming distance between <code> 1011101 </code> and <code> 1001001 </code> is 2.<br><img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>When using the aliyun-knn plugin, binary vector data must be converted into an array of unsigned 32-bit integers (uint32), and the <code> dim </code> must be a multiple of 32.</td>
   </tr>
 </table>
 
@@ -5206,7 +5206,7 @@ Your Alibaba Cloud Elasticsearch cluster must run Elasticsearch 6.8.13_ali1.3.0 
 
    icon, then choose **Management > Dev**
 
-   <img src="assets/eae74d4a2bea752f45afadcfacbad159.png" width="22" alt="">
+   <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/eae74d4a2bea752f45afadcfacbad159.png" width="22" alt="">
 
    **tools**.
 
@@ -5505,7 +5505,7 @@ Only Elasticsearch V6.8.13 and V7.10.0 support this feature.
 
    icon, and choose **Open Distro for**
 
-   <img src="assets/eae74d4a2bea752f45afadcfacbad159.png" width="22" alt="">
+   <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/eae74d4a2bea752f45afadcfacbad159.png" width="22" alt="">
 
    **Elasticsearch > Security**.
 
@@ -5556,7 +5556,7 @@ Only Elasticsearch V6.8.13 and V7.10.0 support this feature.
 
    icon, and choose **Open Distro for**
 
-   <img src="assets/eae74d4a2bea752f45afadcfacbad159.png" width="22" alt="">
+   <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/eae74d4a2bea752f45afadcfacbad159.png" width="22" alt="">
 
    **Elasticsearch > Security**.
 
@@ -5580,7 +5580,7 @@ Only Elasticsearch V6.8.13 and V7.10.0 support this feature.
 
    The following example shows how to configure read-only permissions on the index named index_security1.
 
-   ![](assets/ae73058798d17956344f1f36ccc78397.png)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/ae73058798d17956344f1f36ccc78397.png)
 
    </li>
 
@@ -5671,7 +5671,7 @@ Only Elasticsearch V6.8.13 and V7.10.0 support this feature.
 
      Expected result:
 
-     ![](assets/dac86bb49c974a7c78a5aece7014bd5c.png)
+     ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/dac86bb49c974a7c78a5aece7014bd5c.png)
 
    - The user does not have permissions on index test_security2. For example, when you query data in index test_security2, "no permissions error" is returned.
 
@@ -5686,7 +5686,7 @@ Only Elasticsearch V6.8.13 and V7.10.0 support this feature.
 
      Expected result:
 
-     ![](assets/b1cd3d179dd388a6b6e36568958b62d3.png)
+     ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/b1cd3d179dd388a6b6e36568958b62d3.png)
 
    - The user has read permissions on index test_security1. The user has permissions to query data in the index. For example, when you query data in index test_security1, the corresponding data is returned.
 
@@ -5701,7 +5701,7 @@ Only Elasticsearch V6.8.13 and V7.10.0 support this feature.
 
      Expected result:
 
-     ![](assets/202f633e2f9567e510c75b681d3f013c.png)
+     ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/202f633e2f9567e510c75b681d3f013c.png)
 
 **Configure attribute-based access control (ABAC)**
 
@@ -5717,7 +5717,7 @@ Only Elasticsearch V6.8.13 and V7.10.0 support this feature.
 
    When you create a user, you need to add user attributes by configuring **Attributes**.
 
-   ![](assets/a530687186a553906e68e7f246b92e8f.png)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/a530687186a553906e68e7f246b92e8f.png)
 
    You can also create a user by calling an API operation and configure **Attributes**. For more information, see Create user. Sample code:
 
@@ -5735,7 +5735,7 @@ Only Elasticsearch V6.8.13 and V7.10.0 support this feature.
 
    When you create a role, you need to configure **Document level security** to specify the user attributes that can be accessed.
 
-   ![](assets/73390b42485e84104fc175fd32f319b4.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/73390b42485e84104fc175fd32f319b4.jpeg)
 
    Sample configuration:
 
@@ -5782,7 +5782,7 @@ Only Elasticsearch V6.8.13 and V7.10.0 support this feature.
 
    Expected result (only attributes that the role is allowed to access are queried):
 
-   ![](assets/0533148b26743b8c8cd071620e7770c5.png)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/0533148b26743b8c8cd071620e7770c5.png)
 
 **Configure document-level access control**
 
@@ -5802,7 +5802,7 @@ For more information about document-level access control, see Attribute-based se
 
    When you create a role, you need to configure **Document level security** to specify the documents that can be accessed.
 
-   ![](assets/b23f224235da441f34bec16d6a6799ac.png)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/b23f224235da441f34bec16d6a6799ac.png)
 
    Sample configuration: The user can access only documents whose **city** is **hz** in index **test_security\***.
 
@@ -5852,7 +5852,7 @@ For more information about document-level access control, see Attribute-based se
 
    Expected result (only documents that the role is allowed to access are queried):
 
-   ![](assets/456abc6f5e1ad182beb2550c370c7a02.png)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/456abc6f5e1ad182beb2550c370c7a02.png)
 
 <a id="section-8-1-7"></a>
 
@@ -5884,7 +5884,7 @@ The  `aliyun-codec`  plugin is a proprietary index compression plugin from Aliba
 
 1. Log on to the Kibana console.
 
-2. In the upper-left corner, click the <img src="assets/ad7aa3610674978f76d24fba05f6f9b7.png" width="16" alt=""> icon and choose **Management > Dev Tools**.
+2. In the upper-left corner, click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/ad7aa3610674978f76d24fba05f6f9b7.png" width="16" alt=""> icon and choose **Management > Dev Tools**.
 
 3. On the **Console** tab, create an index and enable index compression.
 
@@ -6058,7 +6058,7 @@ The Alibaba Cloud Elasticsearch (ES) team developed the proprietary faster-bulk 
 
 1. Log on to the Kibana console.
 
-2. In the upper-left corner, click the <img src="assets/ad7aa3610674978f76d24fba05f6f9b7.png" width="16" alt=""> icon and choose **Management > Dev Tools**.
+2. In the upper-left corner, click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/ad7aa3610674978f76d24fba05f6f9b7.png" width="16" alt=""> icon and choose **Management > Dev Tools**.
 
 3. In the **Console**, run the following command to enable bulk aggregation.
 
@@ -6738,7 +6738,7 @@ For more information, see Log on to the Dashboards console.
 
      - Alternatively, log on to the OPS1 machine and run the  `kubectl get opensearch -A` command to find the mapping between  `<clusterName>`  and  `<namespace>` .
 
-       ![](assets/1246982ba313edc1f20214fd7de0baa7.jpeg)
+       ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/1246982ba313edc1f20214fd7de0baa7.jpeg)
 
    - Method 2
 
@@ -6759,7 +6759,7 @@ For more information, see Log on to the Dashboards console.
      kubectl get pod -nes-essen -owide | grep $<leader_cluster_name>
      ```
 
-     ![](assets/910c2df81dd00c81a371f719094c78d8.jpeg)
+     ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/910c2df81dd00c81a371f719094c78d8.jpeg)
 
 2. Run the following command on the follower cluster to start the replication task for a specific index. In this example, the index is  `hotels-index-bak` .
 
@@ -6845,11 +6845,11 @@ The following output indicates that the replication status is normal.
 
 By default, after creation, each node in a leader or follower cluster includes the remote_cluster_client role.
 
-![](assets/1f7ffa909fe054cc739da22780f9202d.jpeg)
+![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/1f7ffa909fe054cc739da22780f9202d.jpeg)
 
 If a node does not have the remote_cluster_client role, add it. In the **Elasticsearch O&M console > Cluster O&M > Modify Configuration**. In the **elasticsearch.yml** section, add  `node.roles: '["data", "cluster_manager", "remote_cluster_client"]'` .
 
-![](assets/3a3ea53a0771757b8e6b54b4999614d0.png)
+![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/3a3ea53a0771757b8e6b54b4999614d0.png)
 
 <a id="section-8-3"></a>
 
@@ -7001,11 +7001,11 @@ Only Elasticsearch V6.8 supports this feature.
 
 2. On the **Destinations** tab, click **Add destination**.
 
-   ![](assets/839032ab1969e83d307533dfa031ff5d.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/839032ab1969e83d307533dfa031ff5d.jpeg)
 
 3. On the **Add destination** page, enter the destination configuration information and click **Create**.
 
-   ![](assets/214ba3c2914661f2f72cf41bfa6c2fb1.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/214ba3c2914661f2f72cf41bfa6c2fb1.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -7020,11 +7020,11 @@ Only Elasticsearch V6.8 supports this feature.
 
 2. On the **Monitors** tab, click **Create monitor**.
 
-   ![](assets/30069efe360250e7e9278b7887f2052d.png)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/30069efe360250e7e9278b7887f2052d.png)
 
 3. On the **Create monitor** page, specify the required parameters.
 
-   ![](assets/5aef67b53783a66e6ec9a760b6c702c6.png)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/5aef67b53783a66e6ec9a760b6c702c6.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -7034,7 +7034,7 @@ Only Elasticsearch V6.8 supports this feature.
 
 4. Define the monitor.
 
-   ![](assets/37d7fa6d75e63f183194bf2cbe195306.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/37d7fa6d75e63f183194bf2cbe195306.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -7049,7 +7049,7 @@ Only Elasticsearch V6.8 supports this feature.
 
 1. On the **Create Trigger** page, define and configure an alert trigger.
 
-   ![](assets/32b777044b6c6819e486c50ad066b126.jpeg)
+   ![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/32b777044b6c6819e486c50ad066b126.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -7064,7 +7064,7 @@ Only Elasticsearch V6.8 supports this feature.
 
 In the **Configure Actions** section, you can configure an alert notification. Enter the name, destination address, and notification message based on your requirements, and click **Create**.
 
-![](assets/ca492ea7fb20125a40b41810c79e9585.jpeg)
+![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/ca492ea7fb20125a40b41810c79e9585.jpeg)
 
 | Parameter | Description |
 | --- | --- |
@@ -7077,7 +7077,7 @@ In the **Configure Actions** section, you can configure an alert notification. E
 
 In the upper-left corner, click the More icon. In the left-side navigation pane, choose **Open Distro for Elasticsearch > Alerting**. On the **Dashboard** tab, view the created alert.
 
-![](assets/bf9b72ad8cee21ff8031a5ba1f029210.png)
+![](en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/bf9b72ad8cee21ff8031a5ba1f029210.png)
 
 <a id="section-9"></a>
 
@@ -7141,7 +7141,7 @@ Powered by Model Context Protocol (MCP), Elasticsearch uses the hosting mode of 
 
    <li>
 
-   In the upper part of the page, click the <img src="assets/38773a4a56e0278801bedf108c47dc20.png" width="13" alt=""> icon in the toolbar to open the **Apsara Copilot**
+   In the upper part of the page, click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/38773a4a56e0278801bedf108c47dc20.png" width="13" alt=""> icon in the toolbar to open the **Apsara Copilot**
 
    panel.
 
@@ -7149,13 +7149,13 @@ Powered by Model Context Protocol (MCP), Elasticsearch uses the hosting mode of 
 
    <li>
 
-   In the lower part of the panel that appears, click the <img src="assets/c723c5b28eee70fc0f3de5114ceefb2b.png" width="17" alt=""> icon, turn on **MCP**, and click the
+   In the lower part of the panel that appears, click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/c723c5b28eee70fc0f3de5114ceefb2b.png" width="17" alt=""> icon, turn on **MCP**, and click the
 
    </li>
 
    </ol>
 
-   <img src="assets/ed538a69ca092c0bfd94eb509192d193.png" width="16" alt=""> icon to open the **Select MCP** panel.
+   <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/ed538a69ca092c0bfd94eb509192d193.png" width="16" alt=""> icon to open the **Select MCP** panel.
 
    <ol type="i" start="3">
 
@@ -7173,7 +7173,7 @@ Powered by Model Context Protocol (MCP), Elasticsearch uses the hosting mode of 
 
    <li>
 
-   Click the <img src="assets/ef67e5485b2e12ce9299685694a1d9d3.png" width="14" alt=""> icon on the right to send and execute the instruction.
+   Click the <img src="en-elasticsearch-user-guide-v3.18.6-2607-20260825.assets/ef67e5485b2e12ce9299685694a1d9d3.png" width="14" alt=""> icon on the right to send and execute the instruction.
 
    </li>
 

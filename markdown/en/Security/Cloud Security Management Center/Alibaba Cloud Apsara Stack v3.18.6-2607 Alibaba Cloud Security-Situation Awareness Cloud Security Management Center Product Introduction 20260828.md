@@ -49,7 +49,7 @@ SOC is integrated with the capabilities of Security Orchestration Automation Res
 
 Security Operations Center (SOC) uses a hierarchical architecture that consists of the following layers: data collection, data processing, data analysis, data storage, and data consumption. This facilitates stream processing from the acquisition of raw data to data application. This topic describes the architecture of SOC.
 
-![](assets/4294f4ab6d6bda037e8eafb425aa071b.png)
+![](en-cloud-security-center-product-i-befe7744-v3.18.6-2607-20260828.assets/4294f4ab6d6bda037e8eafb425aa071b.png)
 
 **Data collection layer**
 

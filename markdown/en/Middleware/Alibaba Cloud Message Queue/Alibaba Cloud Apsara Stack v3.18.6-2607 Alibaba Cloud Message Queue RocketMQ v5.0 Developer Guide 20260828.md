@@ -258,7 +258,7 @@ The API information in the API directory of the Apsara Uni-manager Management Co
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-mq-rocketmq-5-0-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the navigation pane on the left, select the desired cloud product.
 
@@ -268,7 +268,7 @@ The API information in the API directory of the Apsara Uni-manager Management Co
 
 7. Click a desired API operation. In the list of parameters, find the POP Endpoint information.
 
-   ![](assets/fb46564fa241d26d7e3a4872d450c247.jpeg)
+   ![](en-mq-rocketmq-5-0-developer-guide-v3.18.6-2607-20260828.assets/fb46564fa241d26d7e3a4872d450c247.jpeg)
 
 <a id="section-1-2"></a>
 
@@ -309,7 +309,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey** section, you can view the AccessKey information for your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-mq-rocketmq-5-0-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -359,7 +359,7 @@ Call an API operation to obtain an organization ID. You can use the API debuggin
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
+4. Move the pointer over the <img src="en-mq-rocketmq-5-0-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
 
    **2019-05-10**. from the **Version** drop-down list.
 
@@ -375,7 +375,7 @@ Call an API operation to obtain a resource group ID. You can use the API debuggi
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
+4. Move the pointer over the <img src="en-mq-rocketmq-5-0-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
 
    **2019-05-10**. from the **Version** drop-down list.
 
@@ -652,7 +652,7 @@ The POP gateway lets you call API operations in Apsara Stack, which provides a c
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-mq-rocketmq-5-0-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the navigation pane on the left, select the target cloud service.
 
@@ -662,7 +662,7 @@ The POP gateway lets you call API operations in Apsara Stack, which provides a c
 
 7. Click an API operation. Then, find the POP Endpoint value in the parameter list.
 
-   ![](assets/17836abc4a932a2ca825a35e3888a978.jpeg)
+   ![](en-mq-rocketmq-5-0-developer-guide-v3.18.6-2607-20260828.assets/17836abc4a932a2ca825a35e3888a978.jpeg)
 
 **Obtain an endpoint from Apsara Infrastructure Management**
 
@@ -678,9 +678,9 @@ To call API operations in Apsara Stack using the POP gateway, you must obtain th
 
 5. In the Service Registration text box, enter  `ons_bizapi_endpoint` , and then click **Search**.
 
-   ![](assets/2ad38f60b46c1947d489d29619ce6add.jpeg)
+   ![](en-mq-rocketmq-5-0-developer-guide-v3.18.6-2607-20260828.assets/2ad38f60b46c1947d489d29619ce6add.jpeg)
 
-6. In the Service Registration column for the  `mq-console`  service, click the <img src="assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
+6. In the Service Registration column for the  `mq-console`  service, click the <img src="en-mq-rocketmq-5-0-developer-guide-v3.18.6-2607-20260828.assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
 
 7. Click the text in the Service Registration column for the  `mq-console`  service. In the **Registration Variables** dialog box that appears, find the value of ons_bizapi_endpoint. This value is the  `Endpoint` .
 
@@ -702,7 +702,7 @@ This topic provides examples of how to use the Premium software development kit 
 
 3. On the **Developer Portal** page, choose **API Integration** > **SDK Sample**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, choose **Middleware** > **Message Queue (MQ)**, and set **Version** to
+4. Click the <img src="en-mq-rocketmq-5-0-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, choose **Middleware** > **Message Queue (MQ)**, and set **Version** to
 
    **2018-02-05**.
 
@@ -4889,7 +4889,7 @@ supports the publish-subscribe model. A producer can publish a message to a brok
 
 Figure 1. Publish-subscribe model
 
-![](assets/32d8febc5e3f0b5ed3ddf36420262f9d.jpeg)
+![](en-mq-rocketmq-5-0-developer-guide-v3.18.6-2607-20260828.assets/32d8febc5e3f0b5ed3ddf36420262f9d.jpeg)
 
 <a id="section-4-1-3"></a>
 
@@ -5505,7 +5505,7 @@ This topic describes the methods for sending various types of messages in Apsara
 
 Figure 1. Methods and parameters for publishing messages
 
-![](assets/4458c3f4ad66c89a43c665a5a960d67f.png)
+![](en-mq-rocketmq-5-0-developer-guide-v3.18.6-2607-20260828.assets/4458c3f4ad66c89a43c665a5a960d67f.png)
 
 <a id="section-4-1-4-5-2"></a>
 
@@ -5914,7 +5914,7 @@ This topic describes the methods for subscribing to various types of messages in
 
 Figure 1. Methods and parameters for subscribing to messages
 
-![](assets/4458c3f4ad66c89a43c665a5a960d67f.png)
+![](en-mq-rocketmq-5-0-developer-guide-v3.18.6-2607-20260828.assets/4458c3f4ad66c89a43c665a5a960d67f.png)
 
 <a id="section-4-1-4-6-2"></a>
 

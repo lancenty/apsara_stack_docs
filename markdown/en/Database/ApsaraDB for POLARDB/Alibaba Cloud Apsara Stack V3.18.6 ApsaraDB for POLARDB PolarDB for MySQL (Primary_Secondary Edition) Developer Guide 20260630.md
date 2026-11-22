@@ -4778,7 +4778,7 @@ You can use SDK tools to customize SDK for a specific programming language.
 
 2. Log in to the Apsara ASAPI Management platform. In the left-side navigation pane, click **Products > Opsapi** to log in to the **Apsara ASAPI Management platform**.
 
-   ![](assets/654edb3b0f61b85ad2df529d7f0ea55a.jpeg)
+   ![](en-polardb-mysql-primary-secondary-deve-b580fed4-v3.18.6-20260630.assets/654edb3b0f61b85ad2df529d7f0ea55a.jpeg)
 
 3. Download the SDK source code.
 
@@ -4788,7 +4788,7 @@ You can use SDK tools to customize SDK for a specific programming language.
 
    In the left-side navigation pane, choose **Versions > SDK Tools**.
 
-   ![](assets/cc5bca3703726d749b9a7b085b6a1913.jpeg)
+   ![](en-polardb-mysql-primary-secondary-deve-b580fed4-v3.18.6-20260630.assets/cc5bca3703726d749b9a7b085b6a1913.jpeg)
 
    </li>
 
@@ -4820,7 +4820,7 @@ You can use SDK tools to customize SDK for a specific programming language.
 
    Click **Download** to download the SDK.
 
-   ![](assets/97a01b314723fbeffa5c2c2486023e74.png)
+   ![](en-polardb-mysql-primary-secondary-deve-b580fed4-v3.18.6-20260630.assets/97a01b314723fbeffa5c2c2486023e74.png)
 
    </li>
 
@@ -5084,7 +5084,7 @@ You can obtain the endpoint of PolarDB for MySQL V2.0 in the Apsara Uni-manager 
 
 7. In the **Details** dialog box, find the endpoint of *PolarDB* based on the key value of *PolarDB*, which is *polardb.openapi.endpoint*.
 
-   ![](assets/47052b03844bf4ae363001527916a9c0.jpeg)
+   ![](en-polardb-mysql-primary-secondary-deve-b580fed4-v3.18.6-20260630.assets/47052b03844bf4ae363001527916a9c0.jpeg)
 
 **Method 2**
 
@@ -5098,15 +5098,15 @@ You can obtain the endpoint of PolarDB for MySQL V2.0 in the Apsara Uni-manager 
 
 5. Select a machine and then click **Terminal** to log on to the machine.
 
-   ![](assets/f2387802bff9e2625d7ff955c145fab4.png)
+   ![](en-polardb-mysql-primary-secondary-deve-b580fed4-v3.18.6-20260630.assets/f2387802bff9e2625d7ff955c145fab4.png)
 
 6. Run the command **curl -l "http://127.0.0.1:7070/api/v3/column/c.sr.service_registration,c.sr.id?c.sr.service_registration"** to obtain JSON data.
 
-   ![](assets/9b345a93b82938b688510fc33908e3e7.png)
+   ![](en-polardb-mysql-primary-secondary-deve-b580fed4-v3.18.6-20260630.assets/9b345a93b82938b688510fc33908e3e7.png)
 
 7. Find the endpoint of *PolarDB* based on the service ID (*polardb-yaochi*) and key value (*polard b.openapi.endpoint*) of *PolarDB*.
 
-   ![](assets/44461335691d5fa73437757d2cf3e01d.png)
+   ![](en-polardb-mysql-primary-secondary-deve-b580fed4-v3.18.6-20260630.assets/44461335691d5fa73437757d2cf3e01d.png)
 
 <a id="section-4"></a>
 
@@ -5124,7 +5124,7 @@ To obtain the AccessKey pair of an organization, perform the following operation
 
 3. In the left-side navigation pane of the **Enterprise** page, click **Organizations**.
 
-4. In the Organizations structure, click the <img src="assets/f7b1e83be6e4697de45f954a66365b66.png" width="13" alt=""> icon on the right of the organization to be added.
+4. In the Organizations structure, click the <img src="en-polardb-mysql-primary-secondary-deve-b580fed4-v3.18.6-20260630.assets/f7b1e83be6e4697de45f954a66365b66.png" width="13" alt=""> icon on the right of the organization to be added.
 
 5. Choose **AccessKey** from the shortcut menu.
 
@@ -5146,7 +5146,7 @@ To obtain the AccessKey pair of a personal account, perform the following operat
 
 3. In the **Apsara Stack AccessKey Pair** section of the User Information page, view your AccessKey pair.
 
-   ![](assets/1a25c90665319fc993e339c850a8a5f6.png)
+   ![](en-polardb-mysql-primary-secondary-deve-b580fed4-v3.18.6-20260630.assets/1a25c90665319fc993e339c850a8a5f6.png)
 
    > **Note**
    >

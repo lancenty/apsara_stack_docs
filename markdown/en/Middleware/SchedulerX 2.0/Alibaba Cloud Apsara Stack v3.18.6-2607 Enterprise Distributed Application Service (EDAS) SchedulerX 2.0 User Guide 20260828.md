@@ -88,7 +88,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
 1. In the address bar of your browser, enter the service domain name for the Apsara Uni-manager Management Console and press Enter.
 
-   ![](assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
 
    > **Note**
    >
@@ -164,7 +164,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
 2. On the Forgot Password page, enter your **Account Name** and **Email Address**, complete the Captcha, and then click **Confirm**.
 
-   ![](assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
 
    > **Note**
    >
@@ -188,7 +188,7 @@ This topic describes how to log on to the Distributed Task Scheduling Platform.
 
 1. In the address bar of your browser, enter the service domain name for the Apsara Uni-manager Management Console and press Enter.
 
-   ![](assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
 
    > **Note**
    >
@@ -282,21 +282,21 @@ The domainName is required when connecting a client or an agent to SchedulerX. T
 
 3. On the **Product & Cluster O&M** page, enter  `schedulerx2Cluster`  in the **Product|Cluster** search box. In the Action column of the target cluster, click **Cluster Details**.
 
-   ![](assets/6aa360ad6352dccb802a6eab7cc47d50.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/6aa360ad6352dccb802a6eab7cc47d50.jpeg)
 
 4. On the **Resource Details** tab of the **Cluster Details** page, find the **Resource** whose **Name** is **schedulerx2_console_domain**, and click the link in the **Resource Request Result** column.
 
-   ![](assets/41904529c8c32658ae602425f1a06f76.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/41904529c8c32658ae602425f1a06f76.jpeg)
 
 5. In the **Resource Request Result** dialog box, obtain the domainName for SchedulerX 2.0 and record it.
 
-   ![](assets/17e4c4f5b53bcfe7d2dc70de3fddc41c.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/17e4c4f5b53bcfe7d2dc70de3fddc41c.jpeg)
 
 **Apsara Basic O&M console (old)**
 
 1. Log on to the Apsara Basic O&M console.
 
-   ![](assets/0a3fab91286573ec207a4aa3d14eb303.png)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/0a3fab91286573ec207a4aa3d14eb303.png)
 
 2. In the left navigation pane, under **Cluster**, enter
 
@@ -304,23 +304,23 @@ The domainName is required when connecting a client or an agent to SchedulerX. T
 
    search
 
-   <img src="assets/3a6c025dc8c05f0ab2f8bb4c2dff1f92.png" width="20" alt="">
+   <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/3a6c025dc8c05f0ab2f8bb4c2dff1f92.png" width="20" alt="">
 
    icon. Hover over the
 
    icon to the right of the target cluster, and then click **Dashboard**.
 
-   <img src="assets/da1a703299ba739041e669e6d624bb4f.png" width="20" alt="">
+   <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/da1a703299ba739041e669e6d624bb4f.png" width="20" alt="">
 
-   ![](assets/567ed9b05139875e9358b261c9c1483e.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/567ed9b05139875e9358b261c9c1483e.jpeg)
 
 3. In the **Cluster Resources** section of the **Cluster Dashboard** page, find the App whose **Name** is **schedulerx2_console_domain**, right-click the value in its **Result** column, and select **Show More**.
 
-   ![](assets/6dca12c26589e10fc792da9f66d8ed4e.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/6dca12c26589e10fc792da9f66d8ed4e.jpeg)
 
 4. In the **Details** dialog box, obtain the domainName for SchedulerX 2.0 and record it.
 
-   ![](assets/cdb51f1dce3a9850879f5525efc94b3c.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/cdb51f1dce3a9850879f5525efc94b3c.jpeg)
 
    The **domain** value is the domainName for SchedulerX 2.0.
 
@@ -494,7 +494,7 @@ After you complete the integration, you can verify it in the console.
 
    Java application
 
-   ![](assets/80d0829cc2a387a2de0061c34222af75.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/80d0829cc2a387a2de0061c34222af75.jpeg)
 
    > **Note**
    >
@@ -673,7 +673,7 @@ After you complete the integration, you can verify it in the console.
 
    Java application
 
-   ![](assets/80d0829cc2a387a2de0061c34222af75.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/80d0829cc2a387a2de0061c34222af75.jpeg)
 
    > **Note**
    >
@@ -868,7 +868,7 @@ After you complete the integration, you can verify it in the console.
 
    Java application
 
-   ![](assets/80d0829cc2a387a2de0061c34222af75.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/80d0829cc2a387a2de0061c34222af75.jpeg)
 
    > **Note**
    >
@@ -993,7 +993,7 @@ For example, in a Spring Boot project, import the following POM dependencies:
 
 5. On the Cluster Details page, click the **Desired State Configuration** tab. To enable the IPv6 feature, configure kv.conf and tag.conf as follows:  `"vip_protocols": "ipv4+ipv6"` .
 
-   ![](assets/d46a8694a292b948586146f8cc83e053.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/d46a8694a292b948586146f8cc83e053.jpeg)
 
 **Worker IPv6 Access**
 
@@ -1023,7 +1023,7 @@ For example, in a Spring Boot project, import the following POM dependencies:
 
    After startup, the logs in the log directory display IPv6 addresses.
 
-   ![](assets/55fa70a647decc2039aa7edc9585f8fa.png)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/55fa70a647decc2039aa7edc9585f8fa.png)
 
 **Validate Results**
 
@@ -1033,7 +1033,7 @@ For example, in a Spring Boot project, import the following POM dependencies:
 
 3. On the **Application Management** page, in the **Actions** column, click **Connect Machine** to query machine IP information.
 
-   ![](assets/2cce5b4426256eef7db952faeff97594.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/2cce5b4426256eef7db952faeff97594.jpeg)
 
 <a id="section-2-7"></a>
 
@@ -1874,7 +1874,7 @@ batch releases of many workers in second-level broadcast task scenarios.
 
 - Enhanced broadcast tasks: The postProcess method can now get the execution status of all machines from
 
-![](assets/916fd75bd07de49e2debabcd7dcbf53c.png)
+![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/916fd75bd07de49e2debabcd7dcbf53c.png)
 
 New
 
@@ -2021,7 +2021,7 @@ For example, for a starter, add
 
 2020
 
-![](assets/1ac46be1cf1a8c8c990f6d7e08e7831a.png)
+![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/1ac46be1cf1a8c8c990f6d7e08e7831a.png)
 
 specify machines and run tasks on instances with a specific tag. This is useful for scenarios such as grayscale releases and unitization.
 
@@ -2357,7 +2357,7 @@ Optimization
 
 - Optimized the performance of  `at-`
 
-  > <img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
+  > <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
 
   `least-once-delivery` .
 
@@ -2568,7 +2568,7 @@ You can run Java scheduled tasks in your application process. This topic describ
 
 For more information about how to create a scheduled task, see Create a scheduled task. This topic describes only the configurations that are specific to Java tasks.
 
-![](assets/37be250e8fb5459500dea668d34e2568.jpeg)
+![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/37be250e8fb5459500dea668d34e2568.jpeg)
 
 - **Task Type**: **java**.
 
@@ -2765,19 +2765,19 @@ You can create a script task by writing a script when you create a scheduling ta
 
 **Shell task example without parameters**
 
-![](assets/1a86b6737c0201f75eb7cab77040ffe4.jpeg)
+![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/1a86b6737c0201f75eb7cab77040ffe4.jpeg)
 
 **Shell task example with parameters**
 
-![](assets/b3b33841a02cfaf24bbbd75352e691fd.jpeg)
+![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/b3b33841a02cfaf24bbbd75352e691fd.jpeg)
 
 **Python task example**
 
-![](assets/4c9f079050b84897cd879e40d00d1d4c.png)
+![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/4c9f079050b84897cd879e40d00d1d4c.png)
 
 **Go task example**
 
-![](assets/68a3968c5478582e419ebc1017724742.png)
+![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/68a3968c5478582e419ebc1017724742.png)
 
 <a id="section-4-3"></a>
 
@@ -2797,7 +2797,7 @@ SchedulerX 2.0 supports HTTP tasks. You do not need a client. You can configure 
 
 For information about how to create a scheduling task, see Create a Scheduling Task. This topic describes only the configurations for HTTP tasks.
 
-![](assets/2791c5ef54acdc78ccb7bd49046ff0aa.jpeg)
+![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/2791c5ef54acdc78ccb7bd49046ff0aa.jpeg)
 
 - **Tasktype**: Select http.
 
@@ -3590,7 +3590,7 @@ You can set availability and traffic shaping in the advanced configuration when 
 
 4. On the **Basic Information** page, set **Execution Mode** to **Shard** and configure the **Shard Parameters**.
 
-   ![](assets/bb102291f52538dc9408c8e67867e84e.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/bb102291f52538dc9408c8e67867e84e.jpeg)
 
    The following table describes the parameters.
 
@@ -3651,7 +3651,7 @@ To run distributed batch jobs for a Python application, install the agent. This 
 
    In the console, you can define the parameters for multiple shards by separating them with commas (,) or line breaks. For example:  `shard ID 1=shard parameter 1,shard ID 2=shard parameter 2,...` .
 
-   ![](assets/f8ee38ba11b5be7b85046b8ef4302c85.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/f8ee38ba11b5be7b85046b8ef4302c85.jpeg)
 
 3. View shard details.
 
@@ -3759,7 +3759,7 @@ Use the Execution List to view today’s task execution status. The list include
 
 2. On the **Workflow Instance Details** page, view the workflow details in the **Workflow Canvas**.
 
-   ![](assets/256f9d3a0dcb57b96b9fc92445d9eef5.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/256f9d3a0dcb57b96b9fc92445d9eef5.jpeg)
 
    Each task is color-coded by its execution status. For example, red indicates failure. Tasks that depend on it remain in the waiting state (blue).
 
@@ -3818,7 +3818,7 @@ On the Task Management page, you can create, edit, run, copy, enable, disable, i
 
 5. On the **Schedule Configuration** tab, set schedule parameters and optional advanced configuration. Then click **Next**.
 
-   ![](assets/661ec81a6331872fe19971a977ceef86.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/661ec81a6331872fe19971a977ceef86.jpeg)
 
    Schedule parameter descriptions:
 
@@ -3844,7 +3844,7 @@ On the Task Management page, you can create, edit, run, copy, enable, disable, i
 
 6. On the **Alert Configuration** tab, set alert parameters. Then click **Submit**.
 
-   ![](assets/87da679ad1d28310c0de38efefb0f10a.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/87da679ad1d28310c0de38efefb0f10a.jpeg)
 
    Alert parameter descriptions:
 
@@ -3904,7 +3904,7 @@ On the **Task List** page, click **Run Once** in the **Actions** column to run t
 
 **Copy a Scheduling Task**
 
-On the **Task Progress** page, click <img src="assets/8a29666ad863bc7b3c7c6c3a5b57ef88.png" width="22" alt=""> in the Actions column, and then click **Copy** in the pop-
+On the **Task Progress** page, click <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/8a29666ad863bc7b3c7c6c3a5b57ef88.png" width="22" alt=""> in the Actions column, and then click **Copy** in the pop-
 
 up menu. This copies the configuration of the scheduling task, and you can edit the copied task to create a new scheduling task.
 
@@ -3922,7 +3922,7 @@ If data from a previous task run contains drift or gaps, reset the runtime param
 
    in the Actions column of the task list, and in the
 
-   <img src="assets/8a29666ad863bc7b3c7c6c3a5b57ef88.png" width="22" alt="">
+   <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/8a29666ad863bc7b3c7c6c3a5b57ef88.png" width="22" alt="">
 
    pop-up menu, click **Refresh Data**.
 
@@ -3948,11 +3948,11 @@ If data from a previous task run contains drift or gaps, reset the runtime param
 
 **View Execution and Management Records**
 
-- View execution records: On the **Task Progress** page, click <img src="assets/8a29666ad863bc7b3c7c6c3a5b57ef88.png" width="22" alt=""> in the **Actions** column, and
+- View execution records: On the **Task Progress** page, click <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/8a29666ad863bc7b3c7c6c3a5b57ef88.png" width="22" alt=""> in the **Actions** column, and
 
   then click **History** in the pop-up menu to view the execution records of this scheduling task.
 
-- View operation records: On the **Task List** page, click <img src="assets/8a29666ad863bc7b3c7c6c3a5b57ef88.png" width="22" alt=""> in the **Actions** column, and then
+- View operation records: On the **Task List** page, click <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/8a29666ad863bc7b3c7c6c3a5b57ef88.png" width="22" alt=""> in the **Actions** column, and then
 
   click **Operation Records** to view the management operation records for the scheduled task.
 
@@ -3968,7 +3968,7 @@ If data from a previous task run contains drift or gaps, reset the runtime param
 
   in the **Actions** column. In the pop-up menu, click
 
-  <img src="assets/8a29666ad863bc7b3c7c6c3a5b57ef88.png" width="22" alt="">
+  <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/8a29666ad863bc7b3c7c6c3a5b57ef88.png" width="22" alt="">
 
   **Delete**.
 
@@ -3998,7 +3998,7 @@ If data from a previous task run contains drift or gaps, reset the runtime param
    | --- | --- |
    | Select Application ID | Select the application to import the task into. |
    | Same Task | • <strong>Overwrite</strong>: Replace an existing task with the same name or ID.<br>• <strong>Skip</strong>: Skip importing a duplicate task and keep the existing one. |
-   | Import Task | Click the<img src="assets/a5a811ffc19a4e3baf396582aa47203c.png" width="25" alt="">icon. Select the local file. Click<br><strong>Open</strong>. |
+   | Import Task | Click the<img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/a5a811ffc19a4e3baf396582aa47203c.png" width="25" alt="">icon. Select the local file. Click<br><strong>Open</strong>. |
 
 **Export task**
 
@@ -4014,7 +4014,7 @@ If data from a previous task run contains drift or gaps, reset the runtime param
 
 **Assign Machines to a Task**
 
-1. On the **Task List** page, in the **Actions** column, click <img src="assets/8a29666ad863bc7b3c7c6c3a5b57ef88.png" width="22" alt=""> , and in the pop-up menu, click
+1. On the **Task List** page, in the **Actions** column, click <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/8a29666ad863bc7b3c7c6c3a5b57ef88.png" width="22" alt=""> , and in the pop-up menu, click
 
    **Specify Machine**.
 
@@ -4077,7 +4077,7 @@ You can create workflow Scheduling Tasks.
 
    An example workflow is shown below:
 
-   ![](assets/3a952497921de47df04da78dbc7e7ddd.png)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/3a952497921de47df04da78dbc7e7ddd.png)
 
    In this workflow, after Job 101 finishes executing, Jobs 102 and 103 start executing simultaneously. After Jobs 104, 105, and 106 all execute successfully, Job 107 starts executing.
 
@@ -4099,7 +4099,7 @@ You can create workflow Scheduling Tasks.
 
 **Delete Workflow**
 
-1. On the **Workflow Management** page, click the <img src="assets/1f1026f1c1f06a8898edd1e5bb4233f8.png" width="22" alt=""> icon in the **Actions** column and select
+1. On the **Workflow Management** page, click the <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/1f1026f1c1f06a8898edd1e5bb4233f8.png" width="22" alt=""> icon in the **Actions** column and select
 
    **Delete**.
 
@@ -4107,11 +4107,11 @@ You can create workflow Scheduling Tasks.
 
 **View Workflow History and Operation Records**
 
-- View execution records: On the **Workflow Management** page, click the <img src="assets/1f1026f1c1f06a8898edd1e5bb4233f8.png" width="22" alt=""> icon in the
+- View execution records: On the **Workflow Management** page, click the <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/1f1026f1c1f06a8898edd1e5bb4233f8.png" width="22" alt=""> icon in the
 
   **Actions** column and select **History** to view the execution records of the workflow. For more information, see Execution list.
 
-- View operation records: On the **Workflow Management** page, click the <img src="assets/1f1026f1c1f06a8898edd1e5bb4233f8.png" width="22" alt=""> icon in the
+- View operation records: On the **Workflow Management** page, click the <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/1f1026f1c1f06a8898edd1e5bb4233f8.png" width="22" alt=""> icon in the
 
   **Actions** column and select **Operation Records** to view the management operation records for the workflow. For more information, see Operation records.
 
@@ -4127,7 +4127,7 @@ If your business requirements change, such as adding a field to a database or di
 
    icon in the **Actions** column and select
 
-   <img src="assets/1f1026f1c1f06a8898edd1e5bb4233f8.png" width="22" alt="">
+   <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/1f1026f1c1f06a8898edd1e5bb4233f8.png" width="22" alt="">
 
    **Flush Data**.
 
@@ -4171,7 +4171,7 @@ If your business requirements change, such as adding a field to a database or di
      </tr>
      <tr>
        <td>Import Workflow</td>
-       <td>Click the<img src="assets/a5a811ffc19a4e3baf396582aa47203c.png" width="25" alt="">icon, select the local object file,<br>then click <strong>Open</strong>.</td>
+       <td>Click the<img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/a5a811ffc19a4e3baf396582aa47203c.png" width="25" alt="">icon, select the local object file,<br>then click <strong>Open</strong>.</td>
      </tr>
    </table>
 
@@ -4248,7 +4248,7 @@ After an application connects to task scheduling, you can check if the schedulin
 
    - Client machines have two statuses: healthy and busy. By default, tasks are not sent to busy machines. This can cause tasks to fail if all connected machines are busy. To force tasks to be sent to busy machines, you can set the **Filter Busy Machines** switch to disabled in the alert configuration.
 
-   ![](assets/994e30efe3d4d3919cc5332a2675299f.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/994e30efe3d4d3919cc5332a2675299f.jpeg)
 
 **Authorization**
 
@@ -4258,7 +4258,7 @@ An Alibaba Cloud account can authorize RAM users based on application groups. To
 
    in the **Actions** column.
 
-   <img src="assets/5e21e9a34dc375686b31f04f51cc225f.png" width="16" alt="">
+   <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/5e21e9a34dc375686b31f04f51cc225f.png" width="16" alt="">
 
    In the menu, click **Authorize**.
 
@@ -4274,7 +4274,7 @@ You can delete an application group after confirming that you will no longer cre
 
 **Modify Application Group**
 
-1. On the **Application Management** page, in the **Actions** column of the group list, click <img src="assets/5e21e9a34dc375686b31f04f51cc225f.png" width="16" alt=""> .
+1. On the **Application Management** page, in the **Actions** column of the group list, click <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/5e21e9a34dc375686b31f04f51cc225f.png" width="16" alt=""> .
 
    Then, click **Edit**.
 
@@ -4282,7 +4282,7 @@ You can delete an application group after confirming that you will no longer cre
 
 **View Application Group Operation Records**
 
-1. On the **Application Management** page, in the **Actions** column of the group list, click <img src="assets/5e21e9a34dc375686b31f04f51cc225f.png" width="16" alt="">
+1. On the **Application Management** page, in the **Actions** column of the group list, click <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/5e21e9a34dc375686b31f04f51cc225f.png" width="16" alt="">
 
    and then select **Operation Records**.
 
@@ -4332,7 +4332,7 @@ The details page of a second-level task instance includes a **Second-level Task 
 
 - Details for subtasks in each loop, including the total number of subtasks and the number of successes and failures for each distribution level.
 
-![](assets/e7e0081d750e88d8b476b2285bb189e4.jpeg)
+![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/e7e0081d750e88d8b476b2285bb189e4.jpeg)
 
 **Set alerts for second-level scheduling tasks**
 
@@ -4360,7 +4360,7 @@ Log on to the console with your username and password to verify that the account
 
 Click the profile picture in the upper-right corner, and then click **Log Out**.
 
-![](assets/86dd865218e3cda0f78cb4024ffecd3a.jpeg)
+![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/86dd865218e3cda0f78cb4024ffecd3a.jpeg)
 
 <a id="section-7-3"></a>
 
@@ -4459,7 +4459,7 @@ The following procedure demonstrates how to pass data between upstream and downs
 
    The created workflow is shown in the following figure.
 
-   ![](assets/f635de261369b4472c87a4085bdee29c.png)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/f635de261369b4472c87a4085bdee29c.png)
 
 4. On the **Flow Management** page, find the workflow and click **Run Once** in the **Actions** column.
 
@@ -4648,7 +4648,7 @@ Roles cannot be attached directly to users. Instead, roles are attached to user 
    | Organization | The organization to which the user group belongs. |
    | Role authorized | The roles that are assigned to the user group. |
 
-   ![](assets/3dce92f0df84999f6dcdf5b694632e01.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/3dce92f0df84999f6dcdf5b694632e01.jpeg)
 
 5. Click **OK**.
 
@@ -4683,7 +4683,7 @@ You can create users as needed.
      </tr>
    </table>
 
-   ![](assets/4347ed6f06bc738207ed8f03226adad9.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/4347ed6f06bc738207ed8f03226adad9.jpeg)
 
 5. Click **OK**.
 
@@ -4699,15 +4699,15 @@ When a user is added to a user group, the user inherits the permissions of the r
 
 4. Find the user group that you want to manage and click **Add User** in the **Actions** column.
 
-   ![](assets/21e981129e531b5b47e3d2b77d004495.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/21e981129e531b5b47e3d2b77d004495.jpeg)
 
 5. In the **Add User** dialog box, add users. You can manually add users or upload multiple users at a time.
 
    | Adding Method | Description |
    | --- | --- |
-   | Manually Add | i. Set the <strong>Adding Method</strong> parameter to <strong>Manually Add</strong><br>ii. Select one or more users that you want to add from the left-side section and<br>click the<br>![](assets/74abfc9a97bc18897658af9a5fc80d42.png)<br>icon to add the selected users to the right-side section.<br>Note<br>• You can manually add up to five users at a time. To add more than five users at a time, we recommend that you use the batch upload method.<br>• You can also select one or more users added to the right-side section and click the icon to remove the users from the<br>![](assets/fd14a9335487319c2993b7edceb07516.png)<br>right-side section.<br>![](assets/5db942c69f0802f2d409d4ca20176b44.jpeg)<br>iii. Click <strong>OK</strong>. |
+   | Manually Add | i. Set the <strong>Adding Method</strong> parameter to <strong>Manually Add</strong><br>ii. Select one or more users that you want to add from the left-side section and<br>click the<br>![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/74abfc9a97bc18897658af9a5fc80d42.png)<br>icon to add the selected users to the right-side section.<br>Note<br>• You can manually add up to five users at a time. To add more than five users at a time, we recommend that you use the batch upload method.<br>• You can also select one or more users added to the right-side section and click the icon to remove the users from the<br>![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/fd14a9335487319c2993b7edceb07516.png)<br>right-side section.<br>![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/5db942c69f0802f2d409d4ca20176b44.jpeg)<br>iii. Click <strong>OK</strong>. |
    |  |  |
-   | Batch Upload | i. Set the <strong>Adding Method</strong> parameter to <strong>Batch Upload</strong><br>ii. Click <strong>Download Batch Operation Template</strong> to download the template file in the <strong>XLSX</strong> format to your local computer.<br>![](assets/3349c1f4ab6beed03f1e6d544c1a0a22.jpeg)<br>iii. Fill the template file with the names of the users to be added in the template file and save the file.<br>Note<br>You can add up to 300 users by using a template file and upload only one template file at a time.<br>iv. In the file upload section, upload the template file that you filled in.<br>v. Click <strong>OK</strong>. |
+   | Batch Upload | i. Set the <strong>Adding Method</strong> parameter to <strong>Batch Upload</strong><br>ii. Click <strong>Download Batch Operation Template</strong> to download the template file in the <strong>XLSX</strong> format to your local computer.<br>![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/3349c1f4ab6beed03f1e6d544c1a0a22.jpeg)<br>iii. Fill the template file with the names of the users to be added in the template file and save the file.<br>Note<br>You can add up to 300 users by using a template file and upload only one template file at a time.<br>iv. In the file upload section, upload the template file that you filled in.<br>v. Click <strong>OK</strong>. |
 
 <a id="section-9-3"></a>
 
@@ -4773,11 +4773,11 @@ SchedulerX uses the authentication system for Alibaba Cloud accounts and RAM (Re
 
      In the **Add Access Policy** dialog box, click **Create Access Policy**. In the **Create Access Policy** dialog box, set the basic information for the policy, and then click **OK**.
 
-     ![](assets/cc9371686c3c1bd992023a6c4dbe26fd.jpeg)
+     ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/cc9371686c3c1bd992023a6c4dbe26fd.jpeg)
 
      | Parameter | Description |
      | --- | --- |
-     | Policy Name | Enter a custom policy name. The name can be up to 50<br>![](assets/bd9e71f09b9e809164685b9b753714c4.png)<br>characters in length. For example, <code>ScxManageMenu</code>. |
+     | Policy Name | Enter a custom policy name. The name can be up to 50<br>![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/bd9e71f09b9e809164685b9b753714c4.png)<br>characters in length. For example, <code>ScxManageMenu</code>. |
      | Remarks | The description of the policy. This is often used to describe the permissions that the policy grants. |
      | Policy Document | The custom policy document is as follows:<br><code>{</code><br><code>"Version": "1",</code><br><code>"Statement": [</code><br><code>{</code><br><code>"Action": "schedulerx:ManageMenu",</code><br><code>"Resource": "acs:schedulerx:*:*:*",</code><br><code>"Effect": "Allow"</code><br><code>}</code><br><code>]</code><br><code>}</code><br>The action in this policy, <strong>schedulerx:ManageMenu</strong>, grants the <strong>logon permission for SchedulerX</strong>. The resource is the wildcard character <strong>\*</strong>, which represents all SchedulerX resources.<br>Note<br>Currently, only the logon permission for SchedulerX uses RAM authorization. Other permissions still use the authentication system for Alibaba Cloud accounts and RAM users. |
 
@@ -4795,7 +4795,7 @@ After you attach a role to a user group, all users in the group gain the permiss
 
 2. In the navigation pane on the left, choose **Personnel Management > User Group Management**.
 
-3. On the **User Group Management** page, select the target user group, click the <img src="assets/afaeaa45df5360fb7c3da664146e2e71.png" width="21" alt=""> in its
+3. On the **User Group Management** page, select the target user group, click the <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/afaeaa45df5360fb7c3da664146e2e71.png" width="21" alt=""> in its
 
    **Actions** column, and select **Grant Permissions**.
 
@@ -4881,13 +4881,13 @@ Different RAM users are typically responsible for different applications. Applic
 
 3. On the **Application Management** page, select the application you want to authorize, click
 
-   <img src="assets/765c35a2a94351fce55c239d340693b4.png" width="19" alt=""> in the **Actions** column, and select **Authorization**.
+   <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/765c35a2a94351fce55c239d340693b4.png" width="19" alt=""> in the **Actions** column, and select **Authorization**.
 
 4. In the **Authorization Management** dialog box, enter the ID of the RAM user in the **User ID** search box, click **Add**, and then click **Grant**.
 
    You can add multiple RAM user IDs to grant permissions in a batch.
 
-   ![](assets/9659dd422aeb424673e6e6b0c33c1a4a.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/9659dd422aeb424673e6e6b0c33c1a4a.jpeg)
 
    > **Note**
    >
@@ -4905,13 +4905,13 @@ Different RAM users are typically responsible for different applications. Applic
 
 3. On the **Application Management** page, select the application you want to authorize, click
 
-   <img src="assets/765c35a2a94351fce55c239d340693b4.png" width="19" alt=""> in the **Actions** column, and select **Authorization**.
+   <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/765c35a2a94351fce55c239d340693b4.png" width="19" alt=""> in the **Actions** column, and select **Authorization**.
 
 4. In the **Authorization Management** dialog box, enter the ID of the RAM user in the **User ID** search box, click **Add**, and then click **Grant**.
 
    You can add multiple RAM user IDs to grant permissions in a batch.
 
-   ![](assets/9659dd422aeb424673e6e6b0c33c1a4a.jpeg)
+   ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/9659dd422aeb424673e6e6b0c33c1a4a.jpeg)
 
    > **Note**
    >
@@ -4969,11 +4969,11 @@ You might encounter issues when you use SchedulerX. This topic describes how to 
 
   To trigger tasks on a busy machine for testing purposes, go to the **Application**
 
-  **Management** page. In the **Operation** column, click the <img src="assets/491135c349298b6030ecff4a3b658f95.png" width="23" alt=""> icon and select **Edit**. In the
+  **Management** page. In the **Operation** column, click the <img src="en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/491135c349298b6030ecff4a3b658f95.png" width="23" alt=""> icon and select **Edit**. In the
 
   **Edit Application** panel, modify the advanced configuration and enable **Trigger On Busy Machine**.
 
-  ![](assets/fd9c1203fd6d3e3355c5c3822d32ea35.jpeg)
+  ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/fd9c1203fd6d3e3355c5c3822d32ea35.jpeg)
 
 **No available machines**
 
@@ -5015,7 +5015,7 @@ You might encounter issues when you use SchedulerX. This topic describes how to 
 
   - If the log contains groupId is not existed, it indicates a configuration issue. Search for
 
-    ![](assets/5634477bb7a4e8b2ef94dc3a12aae4ac.png)
+    ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/5634477bb7a4e8b2ef94dc3a12aae4ac.png)
 
     `Schedulerx WorkerConfig` in worker.log to view the current configuration, and then compare it with the configuration on the console to confirm that it is correct.
 
@@ -5041,7 +5041,7 @@ You might encounter issues when you use SchedulerX. This topic describes how to 
 
   A JAR package conflict can be caused by conflicts between specific sub-packages. You can search for **maven dependencies** in the log to view the version and path of each JAR package. This helps you quickly locate and resolve the conflict, as shown in the following figure:
 
-  ![](assets/8065969e4ba73559fc1d68cd64e9b6e2.png)
+  ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/8065969e4ba73559fc1d68cd64e9b6e2.png)
 
 - Solution
 
@@ -5064,11 +5064,11 @@ You might encounter issues when you use SchedulerX. This topic describes how to 
 
   - guava conflict
 
-    ![](assets/d71264d8b4a59bdf4d9e3cae7ab838bb.jpeg)
+    ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/d71264d8b4a59bdf4d9e3cae7ab838bb.jpeg)
 
   - com.typesafe.config package conflict
 
-    ![](assets/f1c34788d8256f842a4f19545a0d928d.jpeg)
+    ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/f1c34788d8256f842a4f19545a0d928d.jpeg)
 
   - protobuf conflict
 
@@ -5081,7 +5081,7 @@ You might encounter issues when you use SchedulerX. This topic describes how to 
     at  java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)  ~[?:1.8.0_181]
     ```
 
-    ![](assets/618ba602d57901001cfde9bb4e6fa864.png)
+    ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/618ba602d57901001cfde9bb4e6fa864.png)
 
   - A Netty conflict causes the ActorSystem.create method to time out, which prevents the system from starting.
 
@@ -5152,11 +5152,11 @@ You might encounter issues when you use SchedulerX. This topic describes how to 
 
   - javaassist conflict
 
-    ![](assets/3f711352bdbb1a6daab975be3629e7c6.jpeg)
+    ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/3f711352bdbb1a6daab975be3629e7c6.jpeg)
 
   - httpclient conflict
 
-    ![](assets/30256c1b73a7b6edb7b7241965d7b41d.jpeg)
+    ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/30256c1b73a7b6edb7b7241965d7b41d.jpeg)
 
 **Incompatibility between tablestore protobuf-2.4.1 and SchedulerX**
 
@@ -5279,7 +5279,7 @@ For more information, see Protobuf or HttpClient library conflict when using Jav
 
   On the **Execution List** page in the console, view the details of the stuck task instance to retrieve its instance ID.
 
-  ![](assets/dd3377418d3038a81be40d689d8a0648.jpeg)
+  ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/dd3377418d3038a81be40d689d8a0648.jpeg)
 
   </li>
 
@@ -5295,7 +5295,7 @@ For more information, see Protobuf or HttpClient library conflict when using Jav
 
   - If the execution result is similar to the one shown in the following figure, the cause is a business logic issue.
 
-    ![](assets/3702d4bf60ca26ac78db4a483bc65005.jpeg)
+    ![](en-schedulerx-user-guide-v3.18.6-2607-20260828.assets/3702d4bf60ca26ac78db4a483bc65005.jpeg)
 
   - Otherwise, contact the SchedulerX helpdesk.
 

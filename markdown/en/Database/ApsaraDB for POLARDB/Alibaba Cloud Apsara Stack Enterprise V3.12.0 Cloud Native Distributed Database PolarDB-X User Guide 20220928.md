@@ -159,7 +159,7 @@ Cloud Native Distributed Database PolarDB-X is a middleware service independentl
 
 PolarDB-X 1.0 is mainly used for operations on large-scale online data. By partitioning data in specific business scenarios, PolarDB-X maximizes the operation efficiency, meeting the requirements of online businesses on relational databases.
 
-![](assets/182cee1304e36eb9c617c141d5f8fe53.jpeg)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/182cee1304e36eb9c617c141d5f8fe53.jpeg)
 
 Problems solved
 
@@ -835,7 +835,7 @@ To support different business scenarios, PolarDB-X 1.0 SQL flashback provides ro
 
 Recovery methods
 
-![](assets/ca634b8ae118b93a7db8f41b7478bf60.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/ca634b8ae118b93a7db8f41b7478bf60.png)
 
 | Recovery method | Description | Example |
 | --- | --- | --- |
@@ -1006,7 +1006,7 @@ Procedure
 
 4. In the left-side navigation pane, choose Diagnostics and Optimization > Parameter Settings. Click the Instance or Database tab to view parameters that you can modify for instances and databases, respectively. For more information about the parameters, see Description.
 
-5. Click <img src="assets/8cc01544af7bf15ecb9f406834d14cd8.png" width="16" alt=""> next to the parameter you want to modify, enter the target value, and then click OK.
+5. Click <img src="en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/8cc01544af7bf15ecb9f406834d14cd8.png" width="16" alt=""> next to the parameter you want to modify, enter the target value, and then click OK.
 
 6. Click Submit in the upper-right corner to commit the new value.
 
@@ -1133,7 +1133,7 @@ Procedure
 
 3. Click SLS to go to the Log Service page.
 
-   ![](assets/d8e33ebe826b3eba8f0e815de0bfb713.png)
+   ![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/d8e33ebe826b3eba8f0e815de0bfb713.png)
 
 4. Log on to the PolarDB-X console.
 
@@ -1213,7 +1213,7 @@ An example is shown in the following figure:
 
 - The ② part is the additional filter condition.
 
-![](assets/38c59fb6cae936de7fffed7ce18b01e7.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/38c59fb6cae936de7fffed7ce18b01e7.png)
 
 Find problematic SQL statements
 
@@ -1227,7 +1227,7 @@ Find problematic SQL statements
 
   The result is shown in the following figure.
 
-  ![](assets/a46ce04ead6f56bbc29f1ad84ac81945.jpeg)
+  ![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/a46ce04ead6f56bbc29f1ad84ac81945.jpeg)
 
 - Field search
 
@@ -1241,7 +1241,7 @@ Find problematic SQL statements
 
   The result is shown in the following figure.
 
-  ![](assets/2530a8679364e72a10b7505c6b215210.jpeg)
+  ![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/2530a8679364e72a10b7505c6b215210.jpeg)
 
 - Multi-condition search
 
@@ -1281,7 +1281,7 @@ This section introduces the statements used to query the SQL statement execution
 
   The result is shown in the following figure.
 
-  ![](assets/95edaf28ce96bbf498ccad87de83e214.png)
+  ![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/95edaf28ce96bbf498ccad87de83e214.png)
 
   If your business is sensitive to the error rate of SQL statement execution, you can customize the alert information based on the query result. Click Save as Alert in the upper-right corner of the page.
 
@@ -1345,7 +1345,7 @@ This section describes typical SQL statements for SQL performance analysis.
 
   The following figure shows the result, which includes the SQL statement execution time, user name, IP address, port number, SQL statement type, number of affected rows, response time, and text of SQL statements.
 
-  ![](assets/594a75b40ec69c305a7920460a40f2e2.jpeg)
+  ![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/594a75b40ec69c305a7920460a40f2e2.jpeg)
 
 - Top 10 costly SQL templates
 
@@ -1439,7 +1439,7 @@ View reports
 
 Statistics in the charts on the Log Reports tab are generated for different time periods. You can change the time range as needed. You can change the time range for all charts or a single chart.
 
-![](assets/b4b3eb71951fe5e8b724de398c409dc1.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/b4b3eb71951fe5e8b724de398c409dc1.png)
 
 - Click the time selector (position ① in the figure). In the dialog box that appears, you can change the time range of all the charts on the current page.
 
@@ -1563,7 +1563,7 @@ Before analyzing metrics, you need to understand the execution process of SQL st
 
 PolarDB-X 1.0 SQL execution flowchart
 
-![](assets/16ea20b58af81d1faead4789925b1a27.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/16ea20b58af81d1faead4789925b1a27.png)
 
 In the entire SQL execution process, the execution status of steps 2 through 4 is reflected in various metrics of PolarDB-X 1.0.
 
@@ -1589,13 +1589,13 @@ The following describes the CPU utilization in two common cases:
 
   CPU utilization-1
 
-  ![](assets/26078636554a1901066609dd2bd01626.png)
+  ![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/26078636554a1901066609dd2bd01626.png)
 
 - The system traffic keeps increasing with an application until it reaches a plateau. The monitored CPU utilization of the PolarDB-X 1.0 instance also reflects this change.
 
   CPU utilization-2
 
-  ![](assets/8044e7cdbacef6f677588215886e6e77.png)
+  ![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/8044e7cdbacef6f677588215886e6e77.png)
 
 When the load on the PolarDB-X 1.0 instance changes with the business, you must pay close attention to the changes in metrics. If the CPU utilization exceeds the threshold, you must upgrade the PolarDB-X 1.0 specifications to alleviate the performance pressure.
 
@@ -1613,11 +1613,11 @@ If a logical SQL statement is partitioned into one or more physical SQL statemen
 
 Logical RT
 
-![](assets/2fd3d829fa360edd973c49d74b5beb2e.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/2fd3d829fa360edd973c49d74b5beb2e.png)
 
 Physical RT
 
-![](assets/9a970e9f9c6bc30ed5da355c950a48b9.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/9a970e9f9c6bc30ed5da355c950a48b9.png)
 
 As shown in the preceding figures, the change trends of logical RT and physical RT in the two monitoring charts are basically the same, while logical RT fluctuates between 10 ms and 20 ms and physical RT fluctuates between 2 ms and 5 ms. This means that PolarDB-X 1.0 has a heavy load, which can be solved by upgrading the PolarDB-X 1.0 configuration. If both the logical RT and physical RT are high, you can upgrade the ApsaraDB RDS for MySQL configuration or optimize SQL statements on the ApsaraDB RDS for MySQL instance.
 
@@ -1631,11 +1631,11 @@ According to the monitoring data, the logical QPS and physical QPS have the same
 
 Logical QPS
 
-![](assets/eafc1f51dbe8aedf82afe1269b70c050.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/eafc1f51dbe8aedf82afe1269b70c050.png)
 
 PhysicalQPS Physical QPS
 
-![](assets/dddc57e3f669978ad291e377156c0d9b.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/dddc57e3f669978ad291e377156c0d9b.png)
 
 As shown in the preceding figures, logical QPS fluctuates between 80 and 150, and physical QPS fluctuates between 700 and 1,200.
 
@@ -2228,7 +2228,7 @@ Prerequisites
 
      <li>
 
-     Click <img src="assets/8b1b1d638545ba2375e6bb43a4f5ee6c.png" width="14" alt=""> to move the selected instances to the Selected RDS Instances section on the right.
+     Click <img src="en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/8b1b1d638545ba2375e6bb43a4f5ee6c.png" width="14" alt=""> to move the selected instances to the Selected RDS Instances section on the right.
 
      </li>
 
@@ -2360,7 +2360,7 @@ database shards are migrated to the new ApsaraDB RDS for MySQL instances. In thi
 
     <li>
 
-    Click <img src="assets/8b1b1d638545ba2375e6bb43a4f5ee6c.png" width="14" alt=""> to move the selected instances to the Selected RDS Instances section on the right.
+    Click <img src="en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/8b1b1d638545ba2375e6bb43a4f5ee6c.png" width="14" alt=""> to move the selected instances to the Selected RDS Instances section on the right.
 
     </li>
 
@@ -2380,7 +2380,7 @@ database shards are migrated to the new ApsaraDB RDS for MySQL instances. In thi
 
     ApsaraDB RDS for MySQL instances you added. You can also manually add or delete physical database shards to or from the new ApsaraDB RDS for MySQL instances.
 
-12. Click the <img src="assets/c7797e0cc377ba3ef04c69421cbbfc25.png" width="23" alt=""> icon in the upper-right corner to view the progress of the scale-out task.
+12. Click the <img src="en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/c7797e0cc377ba3ef04c69421cbbfc25.png" width="23" alt=""> icon in the upper-right corner to view the progress of the scale-out task.
 
 Migration
 
@@ -2406,7 +2406,7 @@ Switchover
 
 The switchover task switches the read/write traffic to the new ApsaraDB RDS for MySQL instance. The whole process takes three to five minutes. During the switchover process, the service is not affected except for one or two transient disconnections. Perform the switchover during off-peak hours.
 
-![](assets/c7797e0cc377ba3ef04c69421cbbfc25.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/c7797e0cc377ba3ef04c69421cbbfc25.png)
 
 1. In the upper-right corner of the Basic Information page, click the
 
@@ -4627,7 +4627,7 @@ Examples
 
   This hint causes the PolarDB-X instance to route the SQL  `select count(1) from table_name` statement to each database shard for execution. The  `table_name`  parameter indicates a logical table in a logical database of a PolarDB-X 1.0 instance. Before using this hint, ensure that each database shard contains the table shard  `table_name` . In other words, the table shard  `table_name`
 
-![](assets/e6f2e16f4a2a4f13f9057d7944704b58.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/e6f2e16f4a2a4f13f9057d7944704b58.png)
 
 is a logical table that is only partitioned into database shards, but not partitioned into table shards. Otherwise, an error that indicates that the table is not found will be returned.
 
@@ -5102,7 +5102,7 @@ In addition to using the hash function as the sharding algorithm, you can also u
 
   View the route of the SQL statement
 
-  ![](assets/1ef82bba9c14a9de62ee099fc29723bf.png)
+  ![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/1ef82bba9c14a9de62ee099fc29723bf.png)
 
 - Create a table that is partitioned into table shards in database shards. The database sharding process calculates the hash by using userId as the shard key, and the table sharding process calculates MONTH_OF_YEAR through the MM(actionDate) function and then partitions the table into table shards based on the actionDate column, with one year counted as 12 months.
 
@@ -5740,7 +5740,7 @@ Different PolarDB-X 1.0 DDL sharding functions support different data types. The
 
 Support for data types in PolarDB-X 1.0 DDL sharding functions
 
-![](assets/e429f9d9b9987e335c980386b73f4ec5.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/e429f9d9b9987e335c980386b73f4ec5.png)
 
 Syntax description for PolarDB-X DDL sharding functions
 
@@ -5845,7 +5845,7 @@ Assume that you have two database shards and two logical tables, and each databa
 
 Comparison between HASH and UNI_HASH
 
-![](assets/3caee2f7e2b4d6a4fd1257261f03f48e.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/3caee2f7e2b4d6a4fd1257261f03f48e.png)
 
 Examples
 
@@ -6270,7 +6270,7 @@ The following figure shows the mappings when YYYYMM and YYYYMM_OPT are used for 
 
 Comparison between YYYYMM and YYYYMM_OPT
 
-![](assets/7dc25b9d9cc7697a57c3cc99cb86d413.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/7dc25b9d9cc7697a57c3cc99cb86d413.png)
 
 - YYYYMM_OPT distributes data evenly to each ApsaraDB RDS for MySQL instance, helping to maximize the performance of each ApsaraDB RDS for MySQL instance.
 
@@ -6814,13 +6814,13 @@ Examples
 
   Example 1
 
-  ![](assets/1064415fc4322e2b33d5fb5eb87af6b0.jpeg)
+  ![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/1064415fc4322e2b33d5fb5eb87af6b0.jpeg)
 
 - When creating a table, set AUTO_INCREMENT and specify a time-based sequence as the primary key value.
 
   Example 2
 
-  ![](assets/a3980a2537d6af5a81bab507bc24e0b5.jpeg)
+  ![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/a3980a2537d6af5a81bab507bc24e0b5.jpeg)
 
 ALTER TABLE
 
@@ -7780,7 +7780,7 @@ When an application connects to a PolarDB-X 1.0 instance for operation, there ar
 
   PolarDB-X 1.0 instance connection diagram
 
-  ![](assets/7f1082178a85996a6d2b55e8e6783161.jpeg)
+  ![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/7f1082178a85996a6d2b55e8e6783161.jpeg)
 
 Frontend connection
 
@@ -7870,7 +7870,7 @@ For example, service A requires QPS of about 15 thousand. The current PolarDB-X 
 
 PolarDB-X 1.0 upgrade
 
-![](assets/9bf12b832d7aad316fc97c43dc92577e.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/9bf12b832d7aad316fc97c43dc92577e.png)
 
 For more information about how to upgrade a PolarDB-X instance, see Change specifications.
 
@@ -7884,7 +7884,7 @@ PolarDB-X 1.0 smooth scale-out reduces the pressure on the original ApsaraDB RDS
 
 PolarDB-X 1.0 scale-out
 
-![](assets/2b6942eda749eee27180df551351bf06.png)
+![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/2b6942eda749eee27180df551351bf06.png)
 
 After multiple scale-out operations, if the number of ApsaraDB RDS for MySQL instances is equal to the number of database shards, you need to create another PolarDB-X 1.0 instance and ApsaraDB RDS for MySQL databases with the expected capacity, and then migrate data to further increase the data capacity. This process is complex. We recommend that you consider the data growth expected in the next two to three years and plan the number of ApsaraDB RDS for MySQL instances properly when creating a PolarDB-X 1.0 database.
 
@@ -8040,7 +8040,7 @@ The following example describes how to locate the execution of a slow SQL statem
 
    Slow query logs
 
-   ![](assets/88be7567ff3245a22fd388ceabece911.png)
+   ![](en-polardb-polardb-x-user-guide-v3.12.0-20220928.assets/88be7567ff3245a22fd388ceabece911.png)
 
 Example 2
 

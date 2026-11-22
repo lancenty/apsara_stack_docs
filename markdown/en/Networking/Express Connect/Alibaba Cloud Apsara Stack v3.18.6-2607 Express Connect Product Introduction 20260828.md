@@ -85,11 +85,11 @@ To ensure maximum availability for mission-critical services in your on-premises
 
 Express Connect
 
-![](assets/6e62b7f4f4209cbad3d34ad8edc6764b.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/6e62b7f4f4209cbad3d34ad8edc6764b.png)
 
-![](assets/128236e1808ed1cff62934d9ab167e41.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/128236e1808ed1cff62934d9ab167e41.png)
 
-![](assets/e3e81d85b5437912091fe8633b849923.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/e3e81d85b5437912091fe8633b849923.png)
 
 Physical
 
@@ -105,9 +105,9 @@ A
 
 TR
 
-![](assets/da814e9cdb8046097d7e21d46444aa88.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/da814e9cdb8046097d7e21d46444aa88.png)
 
-![](assets/344f6d3a0d5b35d1d8cd587c42f80ae0.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/344f6d3a0d5b35d1d8cd587c42f80ae0.png)
 
 Physical
 
@@ -127,11 +127,11 @@ When rapid business growth exceeds the capacity of your on-premises data center,
 
 Express Connect
 
-![](assets/f116be646ca1f219c12c1b2e7de3070d.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/f116be646ca1f219c12c1b2e7de3070d.png)
 
-![](assets/8f7be4d26979c77816d9ae8b584f5b7a.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/8f7be4d26979c77816d9ae8b584f5b7a.png)
 
-![](assets/7bd7c076f420ed08333f782f77ba3952.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/7bd7c076f420ed08333f782f77ba3952.png)
 
 Physical
 
@@ -147,13 +147,13 @@ Access Point
 
 A
 
-![](assets/bb1c003eaf7f686eca7754a5cd3a703c.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/bb1c003eaf7f686eca7754a5cd3a703c.png)
 
-![](assets/b0d209442b2481a75e5cc501d347ed7d.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/b0d209442b2481a75e5cc501d347ed7d.png)
 
 TR
 
-![](assets/9c434f49695b12f76cccf4b4aa97d190.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/9c434f49695b12f76cccf4b4aa97d190.png)
 
 Physical
 
@@ -173,11 +173,11 @@ B
 
 For non-critical workloads that do not require high elasticity or high availability, such as cloud-based development and testing environments, use Express Connect to establish a direct private connection between your on-premises data center and cloud networks. This topology ensures secure and reliable hybrid cloud communication.
 
-![](assets/eeaec900a290e1203af86a1a929bf16e.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/eeaec900a290e1203af86a1a929bf16e.png)
 
 Express Connect
 
-![](assets/40825628aa37d52c65b29ba33300fc72.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/40825628aa37d52c65b29ba33300fc72.png)
 
 192.168.0.0/16
 
@@ -189,7 +189,7 @@ Connection
 
 On-premises
 
-![](assets/75aa119426753195a4627c2f17499972.png)
+![](en-express-connect-product-introduction-v3.18.6-2607-20260828.assets/75aa119426753195a4627c2f17499972.png)
 
 TR
 

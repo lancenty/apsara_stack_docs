@@ -31,11 +31,11 @@ Document Version: 20260901
 
 This topic describes the deployment architecture of Identity as a Service (IDaaS).
 
-![](assets/ae3771a41a11b7aef1129cef296f8974.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/ae3771a41a11b7aef1129cef296f8974.png)
 
-![](assets/623b0ca225af1f07b8cfd43d30867c0d.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/623b0ca225af1f07b8cfd43d30867c0d.png)
 
-![](assets/9e6906eed286e767e2c7d746e1825392.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/9e6906eed286e767e2c7d746e1825392.png)
 
 The following table describes the components of IDaaS.
 
@@ -70,9 +70,9 @@ The server side of IDaaS consists of stateless applications and implements load 
 
 - Service calls in IDaaS depend on the Dubbo microservices framework. Software-based load balancing of Dubbo ensures service availability.
 
-![](assets/74d5fe39a03c77083bca4723fc1291d0.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/74d5fe39a03c77083bca4723fc1291d0.png)
 
-![](assets/93467baf1801146da6d1a7766386c41a.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/93467baf1801146da6d1a7766386c41a.png)
 
 Base resources
 
@@ -90,11 +90,11 @@ This topic describes the zone-disaster recovery architecture (active-active mode
 
 The zone-disaster recovery architecture of IDaaS follows the rules of the active-active mode. In this architecture, disaster recovery is ensured by cloud storage services or middleware.
 
-![](assets/8417470dfe49b2e2351ae957198f83f7.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/8417470dfe49b2e2351ae957198f83f7.png)
 
-![](assets/34a8e39a2ecba7ae373c5af91a3e9281.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/34a8e39a2ecba7ae373c5af91a3e9281.png)
 
-![](assets/7b79210ba324116c3cf6fdab6fc7bd7a.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/7b79210ba324116c3cf6fdab6fc7bd7a.png)
 
 The following table describes each component in the zone-disaster recovery solution:
 
@@ -174,7 +174,7 @@ This topic describes how to log on to the Apsara Infrastructure Management conso
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -216,15 +216,15 @@ You can view the monitoring data of each IDaaS module in Cloud Shield Operations
 
 Log in to the Apsara Uni-manager Operations Console. In the top navigation bar, choose **Product Operation > Security O&M > Cloud Shield Operations Center**.
 
-![](assets/621a10ed6e92981a4f652a3fead9ee80.jpeg)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/621a10ed6e92981a4f652a3fead9ee80.jpeg)
 
 3. **Query the system monitoring data of IDaaS**
 
-![](assets/4909bbdfff9358f4ed35c94ad8ddc808.jpeg)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/4909bbdfff9358f4ed35c94ad8ddc808.jpeg)
 
 4. **Click a module to query monitoring details**
 
-![](assets/c4484654c9db5bc841df079859cef50c.jpeg)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/c4484654c9db5bc841df079859cef50c.jpeg)
 
 <a id="section-2-3"></a>
 
@@ -244,13 +244,13 @@ This topic describes how to query the version information of Identity as a Servi
 
 **the Product & Cluster O&M page, find IDaaS.**
 
-![](assets/20bb674793dde298adbe49d376267176.jpeg)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/20bb674793dde298adbe49d376267176.jpeg)
 
 2. **On the Desired Stated Configuration tab of the cluster**
 
 **details page, perform a global search for the keyword product-build-id to locate the corresponding version information.**
 
-![](assets/f41e10185d5b9e2120dd1f46e01b2163.jpeg)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/f41e10185d5b9e2120dd1f46e01b2163.jpeg)
 
 <a id="section-2-4"></a>
 
@@ -266,13 +266,13 @@ Typically, the OPS machine serves as the master node. You can log in to the mach
 kubectl get pod -nidaas
 ```
 
-![](assets/627cefcfeafd9688b0e2fe99a867b6cb.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/627cefcfeafd9688b0e2fe99a867b6cb.png)
 
 **Note: If the preceding command returns no output, check whether the node is an OPS machine. If not, perform the following operations:**
 
 Go to the node list under Kubernetes cluster management on the O&M side of the  `Apsara Infrastructure Management console` , and query the servers with the master role, as shown in the following figure.
 
-![](assets/571917ca0330b4123fc83a0e9932cdd4.jpeg)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/571917ca0330b4123fc83a0e9932cdd4.jpeg)
 
 2. **Confirm the ID of the target pod**
 
@@ -280,7 +280,7 @@ Go to the node list under Kubernetes cluster management on the O&M side of the  
 kubectl get pod -nidaas| grep <Target pod>
 ```
 
-![](assets/215133673cf45fc8963b1757d9fea462.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/215133673cf45fc8963b1757d9fea462.png)
 
 3. **Run the pod login command**
 
@@ -292,7 +292,7 @@ kubectl exec -it <Target pod ID> -nidaas -- bash
 
 Expected result
 
-![](assets/3b505ff2254daa15a4f2e4bf9ffe7886.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/3b505ff2254daa15a4f2e4bf9ffe7886.png)
 
 <a id="section-2-5"></a>
 
@@ -308,13 +308,13 @@ Typically, the OPS machine serves as the master node. You can log in to the mach
 kubectl get pod -nidaas
 ```
 
-![](assets/627cefcfeafd9688b0e2fe99a867b6cb.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/627cefcfeafd9688b0e2fe99a867b6cb.png)
 
 **Note: If the preceding command returns no output, perform the following operations:**
 
 Go to the node list under Kubernetes cluster management on the O&M side of the Apsara Infrastructure Management console, and query the servers with the master role.
 
-![](assets/571917ca0330b4123fc83a0e9932cdd4.jpeg)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/571917ca0330b4123fc83a0e9932cdd4.jpeg)
 
 2. **Check the PV mounts of the StatefulSet to which the pod**
 
@@ -326,7 +326,7 @@ Example: Query the PV mounts of the StatefulSet idaas-eiam2-admin-control
 kubectl describe sts <Chart name> -nidaas
 ```
 
-![](assets/b11b76ff2ae5eb22bc0bcad98f415705.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/b11b76ff2ae5eb22bc0bcad98f415705.png)
 
 3. **Check the PV created by the StatefulSet**
 
@@ -336,7 +336,7 @@ Example: Query the PV for the StatefulSet idaas-eiam2-admin-control-logs
 kubectl get pv | grep <PV name>
 ```
 
-![](assets/f33b1ad74884233e0bfedb6153b10cf6.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/f33b1ad74884233e0bfedb6153b10cf6.png)
 
 4. **Check the physical machine to which the PV is mounted**
 
@@ -346,7 +346,7 @@ Example: yoda-64eadf6d-bd00-44ef-a214-29a65f3b567e
 kubectl describe pv <PV ID>
 ```
 
-![](assets/647d901bcd8f012d8a377be8f19f49fa.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/647d901bcd8f012d8a377be8f19f49fa.png)
 
 5. **Run the**  **`ssh`**  **command into the corresponding physical**
 
@@ -358,7 +358,7 @@ Example: ssh d22f10173.cloud.f11.amtest210 (this is the name of a machine in the
 ssh <Machine name>
 ```
 
-![](assets/d6edd755cd076a6a3e9cd29bd4dc2e32.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/d6edd755cd076a6a3e9cd29bd4dc2e32.png)
 
 6. **Query the directory of the disk where logs are located**
 
@@ -368,8 +368,8 @@ Example: yoda-64eadf6d-bd00-44ef-a214-29a65f3b567e
 lsblk | grep '<PV ID>'
 ```
 
-![](assets/8561e7ea3b2fa1cf32c700223219d8fc.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/8561e7ea3b2fa1cf32c700223219d8fc.png)
 
 7. **Go to the directory and query logs**
 
-![](assets/46d4e5ad81abd49b8c1a0d23a2ceb733.png)
+![](en-idaas-operations-guide-v3.18.6-2607-20260901.assets/46d4e5ad81abd49b8c1a0d23a2ceb733.png)

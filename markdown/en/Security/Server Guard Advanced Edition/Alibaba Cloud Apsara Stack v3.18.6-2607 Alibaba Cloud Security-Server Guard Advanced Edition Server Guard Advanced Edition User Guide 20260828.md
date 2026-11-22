@@ -542,7 +542,7 @@ Log in to your ECS instance and run the following command:
 ps -ef|grep aegis
 ```
 
-![](assets/d16fe51ecc40ad0a9fe914c848db2e26.jpeg)
+![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/d16fe51ecc40ad0a9fe914c848db2e26.jpeg)
 
 Check whether the Server Guard agent version is later than that specified in Apsara Stack V3.18.6.
 
@@ -550,7 +550,7 @@ Check whether the Server Guard agent version is later than that specified in Aps
 
 Log in to the Aspara Uni-manager Management Console as an organization administrator. In the top navigation bar, choose Products > Computing > Elastic Compute Service. In the left-side navigation pane of the ECS console, check whether the **ECS Cloud Assistant** module exists.
 
-![](assets/b4633ca4a15ad17a223d7b844afbc189.jpeg)
+![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/b4633ca4a15ad17a223d7b844afbc189.jpeg)
 
 To reinstall the Server Guard agent, perform the following steps:
 
@@ -572,7 +572,7 @@ To reinstall the Server Guard agent, perform the following steps:
 
    Go to the **Protection Mode Management** tab and click **Manage** in the **Self-protection Management** section.
 
-   ![](assets/be3adac4d59872747be189c3a7566661.jpeg)
+   ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/be3adac4d59872747be189c3a7566661.jpeg)
 
    </li>
 
@@ -584,7 +584,7 @@ To reinstall the Server Guard agent, perform the following steps:
 
    </ol>
 
-   ![](assets/97f970c89cc63f1201c44341c0922aa6.jpeg)
+   ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/97f970c89cc63f1201c44341c0922aa6.jpeg)
 
 2. Reinstall the agent.
 
@@ -596,17 +596,17 @@ To reinstall the Server Guard agent, perform the following steps:
 
      **Log in to the ECS instance, find the agent installation command for the instance type, copy the command to the ECS instance, and then run the command on the instance.**
 
-     ![](assets/e4e06529b8bd08f48252e5fa1320d315.jpeg)
+     ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/e4e06529b8bd08f48252e5fa1320d315.jpeg)
 
    - **If the ECS Cloud Assistant module exists:**
 
      **Log in to the ECS console. In the left-side navigation pane, choose Maintenance & Monitoring > ECS Cloud Assistant. On the ECS Cloud Assistant page, click Create/Run Command. On the Create Command page, copy the agent installation command for the instance type to the Command Content field, select the type of ECS instances on which you want to install the agent, and then click Run. (Note: You can save the command, select the required instances and then run it. You can also directly select an instance and run the command on the instance.)**
 
-     ![](assets/ac2c5e6ab5a5650a5a5f74e71868c32f.jpeg)
+     ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/ac2c5e6ab5a5650a5a5f74e71868c32f.jpeg)
 
-     ![](assets/92b79a8722436b86f0f7496a3a4164d0.jpeg)
+     ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/92b79a8722436b86f0f7496a3a4164d0.jpeg)
 
-     ![](assets/83a184225a7253bc99de3306fbfb9d98.jpeg)
+     ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/83a184225a7253bc99de3306fbfb9d98.jpeg)
 
 **Verify the result**
 
@@ -614,11 +614,11 @@ After you run the command, log in to the ECS instance and check the agent versio
 
 You can view that the agent of an earlier version is being reinstalled, and then the agent version is updated to a version required in Apsara Stack V3.18.6.
 
-![](assets/2174560a51c046ae9c8c34109c5430b7.jpeg)
+![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/2174560a51c046ae9c8c34109c5430b7.jpeg)
 
-![](assets/ba13c7f170914c5e316cd87742916609.jpeg)
+![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/ba13c7f170914c5e316cd87742916609.jpeg)
 
-![](assets/2d29b5ee24cd968e82ce77b101234d2a.jpeg)
+![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/2d29b5ee24cd968e82ce77b101234d2a.jpeg)
 
 <a id="section-4"></a>
 
@@ -668,9 +668,9 @@ The Security Dashboard tab displays data such as assets, vulnerabilities, baseli
 
 1. On the **Security Dashboard** tab, click **Direct access**.
 
-   ![](assets/a3eb683b018a057d711eed44f7235f37.jpeg)
+   ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/a3eb683b018a057d711eed44f7235f37.jpeg)
 
-2. In the upper-right corner the page that appears, click the <img src="assets/6c11913fb67c1e7ccafe73a910f58a69.png" width="10" alt=""> icon.
+2. In the upper-right corner the page that appears, click the <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/6c11913fb67c1e7ccafe73a910f58a69.png" width="10" alt=""> icon.
 
 3. Complete the following configurations and click **Save**.
 
@@ -684,9 +684,9 @@ You can create custom scenario-specific dashboards based on your business requir
 
 1. On the **Security Dashboard** tab, click **Direct access**.
 
-   ![](assets/a3eb683b018a057d711eed44f7235f37.jpeg)
+   ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/a3eb683b018a057d711eed44f7235f37.jpeg)
 
-2. In the upper-right corner the page that appears, click the <img src="assets/e30afdba23d64ec71c32331175dabc3a.png" width="13" alt=""> icon.
+2. In the upper-right corner the page that appears, click the <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/e30afdba23d64ec71c32331175dabc3a.png" width="13" alt=""> icon.
 
 3. Then, click **Create**, complete the following configurations, and then click **Save**.
 
@@ -832,7 +832,7 @@ On the **Assets** page, view the server information.
   <table>
     <tr>
       <td>Basic Information</td>
-      <td>• <strong>Risk Status</strong>: displays risks such as vulnerabilities and alerts.<br>• <strong>Details</strong>: displays the basic information about the server, such as the server ID, region, group, and operating system. You can click <strong>Group</strong> to change the group to which the server belongs.<br>• <strong>Cloud Disk Snapshot</strong>: displays disk snapshots.<br>• <strong>Vulnerabilities</strong>: displays the types of vulnerabilities that can be detected. You<br>can find a vulnerability type and click the<img src="assets/2fe67b0da2262812a57bdb6b87d762e7.png" width="15" alt="">icon to enable or disable the<br>detection of vulnerabilities of the type for the server.<br>• <strong>Asset Fingerprints</strong>: displays server fingerprints.<br>• <strong>Logon Security Settings</strong>: displays the approved logon locations, approved IP addresses, approved time ranges, and approved accounts. You can manage alerts for the server.<br>Note<br>If you turn on <strong>Unapproved IP Address Alert</strong>, <strong>Unapproved Logon Time</strong> <strong>Alert</strong>, and <strong>Unapproved Account Logon Alert</strong>, you can view the following parameters.<br>• <strong>Approved Logon Location</strong>: Click <strong>Manage</strong> to specify approved logon locations.<br>• <strong>Common Login IPs</strong>: Click <strong>Manage</strong> to specify approved IP addresses.<br>• <strong>Common Login Time</strong>: Click <strong>Manage</strong> to specify the approved logon time ranges.<br>• <strong>Common Login Accounts</strong>: Click <strong>Manage</strong> to specify approved logon accounts.</td>
+      <td>• <strong>Risk Status</strong>: displays risks such as vulnerabilities and alerts.<br>• <strong>Details</strong>: displays the basic information about the server, such as the server ID, region, group, and operating system. You can click <strong>Group</strong> to change the group to which the server belongs.<br>• <strong>Cloud Disk Snapshot</strong>: displays disk snapshots.<br>• <strong>Vulnerabilities</strong>: displays the types of vulnerabilities that can be detected. You<br>can find a vulnerability type and click the<img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/2fe67b0da2262812a57bdb6b87d762e7.png" width="15" alt="">icon to enable or disable the<br>detection of vulnerabilities of the type for the server.<br>• <strong>Asset Fingerprints</strong>: displays server fingerprints.<br>• <strong>Logon Security Settings</strong>: displays the approved logon locations, approved IP addresses, approved time ranges, and approved accounts. You can manage alerts for the server.<br>Note<br>If you turn on <strong>Unapproved IP Address Alert</strong>, <strong>Unapproved Logon Time</strong> <strong>Alert</strong>, and <strong>Unapproved Account Logon Alert</strong>, you can view the following parameters.<br>• <strong>Approved Logon Location</strong>: Click <strong>Manage</strong> to specify approved logon locations.<br>• <strong>Common Login IPs</strong>: Click <strong>Manage</strong> to specify approved IP addresses.<br>• <strong>Common Login Time</strong>: Click <strong>Manage</strong> to specify the approved logon time ranges.<br>• <strong>Common Login Accounts</strong>: Click <strong>Manage</strong> to specify approved logon accounts.</td>
     </tr>
     <tr>
       <td>Vulnerabiliti es</td>
@@ -911,7 +911,7 @@ In the left-side navigation tree of the **Assets** page, manage server groups an
 
   - Create a tag: Click **Manage**. In the Add Tag dialog box, enter a tag name, select the servers to which you want to add the tag, and then click **OK**.
 
-  - Delete a tag: Find the tag that you want to delete and click the <img src="assets/4b44bf3db860c915c56081c857b93fca.png" width="16" alt=""> icon. In the Note
+  - Delete a tag: Find the tag that you want to delete and click the <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/4b44bf3db860c915c56081c857b93fca.png" width="16" alt=""> icon. In the Note
 
     message, click **OK**.
 
@@ -948,7 +948,7 @@ This topic describes how to view the fingerprints of multiple assets on a server
    | Asset | Description |
    | --- | --- |
    | Port | On the <strong>Port</strong> tab, view listening port information in columns such as <strong>Port</strong>, <strong>Protocol</strong>, and <strong>Server Information</strong>. You can view information about listening ports to perform the following checks: check for servers that monitor a specific port and check for ports that are monitored by a specific server.<br>• You can search for a port by port number, server process name, server name, or server IP address.<br>• In the server information list, you can view the process, IP address, PID, and latest collection time of a server. |
-   | Software | On the <strong>Software</strong> tab, view all the software assets in use in the <strong>Software Name</strong> column and the fingerprints that use these software assets in the <strong>Fingerprints</strong> column. You can view information about software versions to perform the following checks and operation: check for software assets that are installed without authorization, check for outdated versions of software assets, and identify affected assets if vulnerabilities are detected.<br>• You can use a software name and another search condition, such as version, installation directory, server name, or server IP address, to search for specific software.<br>If you use version as the second search condition, a component of a version number can contain up to five characters in length, and a version number can contain up to five components. Components are separated by delimiters in a version number. If a version number contains more than five components, only the five components from the left are used. The following list describes the supported search conditions:<br>• The value <strong>6.2.1</strong>. The value is used to search for software packages whose versions are 6.2.1.<br>• A value <strong>greater than 6.2.1</strong>. The value is used to search for software packages whose versions are later than 6.2.1.<br>• A value <strong>smaller than 6.2.1</strong>. The value is used to search for software packages whose versions are earlier than 6.2.1.<br>• A value <strong>greater than 6.2.1 and smaller than 6.2.5</strong>. The value is used to search for software packages whose versions are later than 6.2.1 and earlier than 6.2.5.<br>• You can click a software name to view the software details, such as the software versions and the servers that use the software.<br>• You can click the<img src="assets/f0febd2107f9f6a54df9d2c8ec0413c3.png" width="15" alt="">icon in the upper-right corner to download a software<br>version list to your computer for subsequent asset check. |
+   | Software | On the <strong>Software</strong> tab, view all the software assets in use in the <strong>Software Name</strong> column and the fingerprints that use these software assets in the <strong>Fingerprints</strong> column. You can view information about software versions to perform the following checks and operation: check for software assets that are installed without authorization, check for outdated versions of software assets, and identify affected assets if vulnerabilities are detected.<br>• You can use a software name and another search condition, such as version, installation directory, server name, or server IP address, to search for specific software.<br>If you use version as the second search condition, a component of a version number can contain up to five characters in length, and a version number can contain up to five components. Components are separated by delimiters in a version number. If a version number contains more than five components, only the five components from the left are used. The following list describes the supported search conditions:<br>• The value <strong>6.2.1</strong>. The value is used to search for software packages whose versions are 6.2.1.<br>• A value <strong>greater than 6.2.1</strong>. The value is used to search for software packages whose versions are later than 6.2.1.<br>• A value <strong>smaller than 6.2.1</strong>. The value is used to search for software packages whose versions are earlier than 6.2.1.<br>• A value <strong>greater than 6.2.1 and smaller than 6.2.5</strong>. The value is used to search for software packages whose versions are later than 6.2.1 and earlier than 6.2.5.<br>• You can click a software name to view the software details, such as the software versions and the servers that use the software.<br>• You can click the<img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/f0febd2107f9f6a54df9d2c8ec0413c3.png" width="15" alt="">icon in the upper-right corner to download a software<br>version list to your computer for subsequent asset check. |
    | Processes | On the <strong>Processes</strong> tab, view all running processes and the number of fingerprints that are running these processes in the <strong>Fingerprints</strong> column. You can view information about running processes to perform the following checks: check for servers on which a specific process runs and check for processes that run on a specific server.<br>• You can search for a process by <strong>Process Name</strong>, <strong>Running user</strong>, <strong>Startup</strong> <strong>parameters</strong>, or <strong>Server Name/IP</strong>.<br>• You can click the name of a process to view the details of the process, such as the server information, process path, and startup parameters. |
    | Accounts | On the <strong>Accounts</strong> tab, view all accounts that are logged in and the number of fingerprints that are using these accounts in the <strong>Fingerprints</strong> column. You can view information about accounts to perform the following checks: check for servers on which a specific account is created, and check for accounts that are created on a specific server.<br>• You can search for an account by account name, root permissions, server name, or IP address.<br>• You can click the name of an account to view the details of the account, such as the server information, root permissions, and user group. |
    | Scheduled Tasks | On the <strong>Scheduled Tasks</strong> tab, view the paths of all tasks and the number of fingerprints that are running these tasks in the <strong>Fingerprints</strong> column.<br>• You can search for a task by task path, server name, or IP address.<br>• You can click a task path to view the details such as the servers, executed commands, and task cycles. |
@@ -1286,7 +1286,7 @@ A vulnerability whitelist allows you to exclude vulnerabilities from the detecti
 
    - Configure policies in non-multi-level organization mode
 
-     ![](assets/bdeb67150e735304cac6e5525e2794bb.jpeg)
+     ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/bdeb67150e735304cac6e5525e2794bb.jpeg)
 
      | Item | Description |
      | --- | --- |
@@ -1301,14 +1301,14 @@ A vulnerability whitelist allows you to exclude vulnerabilities from the detecti
 
      In multi-level organization mode, your operations take effect only on the resource sets on which you have permissions in the current organization.
 
-     ![](assets/b1e52876f262b6b9997fa65391d1b4c6.jpeg)
+     ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/b1e52876f262b6b9997fa65391d1b4c6.jpeg)
 
      | Number | Description |
      | --- | --- |
      | 1 | Find a vulnerability type and enable or disable detection for vulnerabilities of this type. You can click <strong>Details</strong> to configure vulnerability detection for the child organizations within the current organization. The parent organization has the highest management permissions. Modifications to the parent organization take effect on all child organizations and resource sets that belong to the parent organization. |
      | 2 | Click <strong>Manage</strong> next to a vulnerability type and specify the resource sets and servers on which vulnerabilities of this type are detected. |
      | 3 | Select a period of time during which invalid vulnerabilities are retained.Valid values: <strong>7 days</strong>, <strong>30 days</strong>, and <strong>90 days</strong>.<br>If <strong>Non-unified Value</strong> is displayed, the resource sets on which you have permissions have different configurations. You can configure the resource sets to ensure that the configurations are the same.<br>Note<br>If you do not handle a detected vulnerability, the system determines that the alert for the vulnerability is invalid. The system deletes the vulnerability after the specified period of time ends. |
-     | 4 | Select the vulnerability severities for detection. Valid values:<br>• <strong>High</strong>: Vulnerabilities of this severity must be fixed at the earliest opportunity.<br>• <strong>Medium</strong>: Vulnerabilities of this severity can be fixed later.<br>• <strong>Low</strong>: Vulnerabilities of this severity are less urgent, and can be fixed later.<br>If the<img src="assets/6057e7807a2d09563d45256501f62ab0.png" width="16" alt="">icon is displayed, specific resource sets are selected. You can clear<br>the items to configure the resource sets in a centralized manner. |
+     | 4 | Select the vulnerability severities for detection. Valid values:<br>• <strong>High</strong>: Vulnerabilities of this severity must be fixed at the earliest opportunity.<br>• <strong>Medium</strong>: Vulnerabilities of this severity can be fixed later.<br>• <strong>Low</strong>: Vulnerabilities of this severity are less urgent, and can be fixed later.<br>If the<img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/6057e7807a2d09563d45256501f62ab0.png" width="16" alt="">icon is displayed, specific resource sets are selected. You can clear<br>the items to configure the resource sets in a centralized manner. |
      | 5 | Click <strong>Create Rule</strong> to configure a vulnerability whitelist for the specified servers. Server Guard does not detect the vulnerabilities that you add to the whitelist. |
 
 <a id="section-4-3-2"></a>
@@ -1425,7 +1425,7 @@ By default, the baseline check feature uses **default baseline check policies** 
 
    - Specify the baseline check levels: In the **Baseline Check Level** section, specify the baseline check levels. Valid values: High, Medium, and Low.
 
-     In multi-level organization mode, the <img src="assets/c0021eafdbcb42088a963ee731ed9510.png" width="14" alt=""> icon for a level indicates that the level is
+     In multi-level organization mode, the <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/c0021eafdbcb42088a963ee731ed9510.png" width="14" alt=""> icon for a level indicates that the level is
 
      specified in specific resource sets. You can clear the selected items to configure baseline check levels in a centralized manner.
 
@@ -1457,7 +1457,7 @@ Apsara Stack Security Center provides details of baseline check results and sugg
 
 4. In the upper part of the **Baseline Check** page, view the summary of baseline check results. You can filter data by baseline check policy.
 
-   ![](assets/409c7f22efe2d768029f83371a57c340.png)
+   ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/409c7f22efe2d768029f83371a57c340.png)
 
    You can select a baseline check policy from the **Select Policy** drop-down list to view the following information:
 
@@ -1517,7 +1517,7 @@ Apsara Stack Security Center provides details of baseline check results and sugg
 
 In the At-Risk Items panel, manage failed check items.
 
-![](assets/eff71e190bd64fca4931a7f0fc5831cb.png)
+![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/eff71e190bd64fca4931a7f0fc5831cb.png)
 
 - **Add check items to the whitelist**
 
@@ -1593,7 +1593,7 @@ The risk exposure detection feature automatically analyzes the exposure of your 
 
    - Export data of exposed assets: Click the
 
-     <img src="assets/e36a005dd4f1a2847a8d7aa1cd5bd0e8.png" width="19" alt="">
+     <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/e36a005dd4f1a2847a8d7aa1cd5bd0e8.png" width="19" alt="">
 
      icon in the upper-right corner of the exposed asset list to export and save the details of the exposed assets to your computer. The exported file is an Excel file.
 
@@ -1619,7 +1619,7 @@ The risk exposure detection feature automatically analyzes the exposure of your 
 
    - Export data of an exposed application: Click the
 
-     <img src="assets/e36a005dd4f1a2847a8d7aa1cd5bd0e8.png" width="19" alt="">
+     <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/e36a005dd4f1a2847a8d7aa1cd5bd0e8.png" width="19" alt="">
 
      icon in the upper-right corner of the list of exposed applications to export and save the details of the exposed applications to your computer. The exported file is an Excel file.
 
@@ -2119,13 +2119,13 @@ Table 1. Supported versions of operating systems and kernels
 
 7. Optional. On the **Management** tab of the **Tamper Proofing** page, find the server that you specify in the Add Servers for Protection panel and click **Add Directory** in the **Actions** column to add another directory for protection.
 
-   You can click the <img src="assets/765fac37db0a01a627ab84389cd12b9f.png" width="10" alt=""> icon next to the server name to view the list of protected directories on
+   You can click the <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/765fac37db0a01a627ab84389cd12b9f.png" width="10" alt=""> icon next to the server name to view the list of protected directories on
 
    the server. You can find a protected directory and click **Modify** in the Actions column to modify the parameter configurations.
 
 8. On the **Management** tab of the **Tamper Proofing** page, find the server that you specify
 
-   in the Add Servers for Protection panel and click the <img src="assets/48c116317fb28c0c3b089c8ca418596b.png" width="24" alt=""> icon in the **Protection** column to
+   in the Add Servers for Protection panel and click the <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/48c116317fb28c0c3b089c8ca418596b.png" width="24" alt=""> icon in the **Protection** column to
 
    enable the web tamper proofing feature for the server.
 
@@ -2146,7 +2146,7 @@ On the **Protection** tab of the **Tamper Proofing** page, view the details of t
 
 - The overview statistics on web tamper proofing, and the statistics on the top 5 protected files and top 5 blocked processes in the last 15 days
 
-  ![](assets/5b07b609e1ae2c05906e7ce031276656.jpeg)
+  ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/5b07b609e1ae2c05906e7ce031276656.jpeg)
 
 - Details of alerts triggered by web tamper proofing
 
@@ -2156,7 +2156,7 @@ On the **Protection** tab of the **Tamper Proofing** page, view the details of t
 
     By default, alerts that are generated in Interception Mode are displayed, and the **status** of the alerts is **Defended**. This indicates that the web tamper proofing feature detects abnormal file changes and then intercepts the processes that modify files.
 
-    ![](assets/ed72988cd4a7dc45fad1bec518ffb747.jpeg)
+    ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/ed72988cd4a7dc45fad1bec518ffb747.jpeg)
 
   - List of **Unhandled** alerts
 
@@ -2200,7 +2200,7 @@ You can also find alerts generated for processes that modify files in the **Hand
 
 1. Click the number below **Whitelist** to go to the **Process Management** panel.
 
-   ![](assets/ee9b42cbf3447bb9aa9caef290ff71f2.jpeg)
+   ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/ee9b42cbf3447bb9aa9caef290ff71f2.jpeg)
 
 2. Click **Enter the Whitelist**. Then, configure the **Process Path** and **Server Name/IP** parameters to add a process to the process whitelist.
 
@@ -2342,31 +2342,31 @@ You can view the following details of attacks on your assets:
 
 In the **Attacks** section, a graph displays the attack trend within the specified time range. You can view the peak and valley values in the graph. You can move the pointer over the graph to view the attack date, the attack time, and the number of attacks.
 
-![](assets/3826a60fdd3aebf81c08affb68ea1c84.jpeg)
+![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/3826a60fdd3aebf81c08affb68ea1c84.jpeg)
 
 **Attack Type Distribution**
 
 In the **Attack Type Distribution** section, you can view the attack types and the number of attacks for each type.
 
-![](assets/6ad95806c3ff5fa8d217cd0522b6046e.jpeg)
+![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/6ad95806c3ff5fa8d217cd0522b6046e.jpeg)
 
 **Top 5 Attack Sources**
 
 In the **Top 5 Attack Sources** section, you can view the top 5 IP addresses from which attacks are most launched and the number of attacks that are initiated from each IP address.
 
-![](assets/07089e6893d36c947b42465b8eab4b3b.jpeg)
+![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/07089e6893d36c947b42465b8eab4b3b.jpeg)
 
 **Top 5 Attacked Assets**
 
 In the **Top 5 Attacked Assets** section, you can view the public IP addresses of the top 5 assets that encountered the most attacks and the number of attacks on each asset.
 
-![](assets/177c5f55648603d2562a544367771dc0.jpeg)
+![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/177c5f55648603d2562a544367771dc0.jpeg)
 
 **Attack list**
 
 In the attack list, you can view the details of each attack, including the attack time, source IP address, attacked asset, attack type, attack method, and attack status.
 
-![](assets/28bb3c5c9d94fbe33f06ec21118da706.jpeg)
+![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/28bb3c5c9d94fbe33f06ec21118da706.jpeg)
 
 You can perform the following operations on attacks in the attack list:
 
@@ -2382,7 +2382,7 @@ You can perform the following operations on attacks in the attack list:
 
   To export and save the attack list to your computer, click the
 
-  <img src="assets/1afe9df6dbede813c225c8df78d4d3be.png" width="21" alt="">
+  <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/1afe9df6dbede813c225c8df78d4d3be.png" width="21" alt="">
 
   icon in the upper-left corner of the attack list. The exported file is in the Excel format.
 
@@ -2502,7 +2502,7 @@ After Apsara Stack Security generates an alert, the information about the alert 
 
    icon above the alert list to export alerts.
 
-   <img src="assets/99aca07ce04a517dc0bc21366569d0d6.png" width="23" alt="">
+   <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/99aca07ce04a517dc0bc21366569d0d6.png" width="23" alt="">
 
    After the alert list is exported, the **Done** message appears in the upper-right corner of the Security Alerts page.
 
@@ -2534,7 +2534,7 @@ Server Guard supports automatic analysis of exceptions related to an alert. You 
 
 - Exceptions related to an alert are listed in chronological order. This allows you to analyze and handle the exceptions to improve the emergency response mechanism of your system.
 
-- An automatically correlated alert is identified by the <img src="assets/2238f164eb32330e5e9e6359a824c518.png" width="24" alt=""> icon.
+- An automatically correlated alert is identified by the <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/2238f164eb32330e5e9e6359a824c518.png" width="24" alt=""> icon.
 
 **Procedure**
 
@@ -2568,7 +2568,7 @@ Server Guard supports automatic analysis of exceptions related to an alert. You 
 
      - Click **Note** to the right of an exception to add a note for the exception.
 
-     - Click the <img src="assets/e01757f031f624bc19e6a06433e1b116.png" width="22" alt=""> icon to the right of a note to delete the note.
+     - Click the <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/e01757f031f624bc19e6a06433e1b116.png" width="22" alt=""> icon to the right of a note to delete the note.
 
 <a id="section-4-4-5-4"></a>
 
@@ -3223,7 +3223,7 @@ If you want to monitor the security of assets in Server Guard, you must install 
 
    You can specify the operating system type, server IP address, or server name to search for a server.
 
-   ![](assets/0b1e042e70ccee80d07ff6ce50612555.jpeg)
+   ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/0b1e042e70ccee80d07ff6ce50612555.jpeg)
 
 6. Click the **Client Installation Guide** tab to install the Security Center agent.
 
@@ -3329,7 +3329,7 @@ If you want to monitor the security of assets in Server Guard, you must install 
 
      On the **Image Installation** tab, install the agent as prompted.
 
-     ![](assets/32ffc763b81bdfa1ff5c5f1c5d804921.jpeg)
+     ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/32ffc763b81bdfa1ff5c5f1c5d804921.jpeg)
 
      </li>
 
@@ -3372,7 +3372,7 @@ This topic describes how to manage protection features and protection modes for 
      <tr>
        <td>Proactive defense</td>
        <td>• <strong>Malicious Host Behavior Prevention</strong>: The proactive defense feature can identify threats to processes, intelligently determine risk levels, and block high-level risks such as viruses, trojans, ransomware, mining programs, and DDoS trojans in real time.<br>• <strong>Anti-ransomware (Bait Capture):</strong> The bait data is generated based on ransomware behavior. The bait data does not affect normal processes. If ransomware encounters the bait data, the anti-ransomware (bait capture) feature detects and blocks the ransomware in real time.<br>• <strong>Risk Monitoring on Data Restoration</strong>: In this section, Server Guard uses snapshots to restore cloud disk files that are encrypted by ransomware. If assets on which regular backup is not performed are attacked by ransomware, data restoration may be affected. If you want to modify the automatic snapshot policy, go to the Elastic Compute Service (ECS) console.<br>If you want to view vulnerable assets, click <strong>Details</strong> to the right of Risk assets.<br>• <strong>Malicious Behavior Prevention</strong>: This feature blocks known malicious network behavior to improve the security of your assets. The feature is supported only for container firewalls.</td>
-       <td>• Enable protection capabilities: Find the protection capability that you want to enable and<br>click the<img src="assets/dd821e52929137098ba0a7326313e219.png" width="28" alt="">icon next to the<br>capability.<br>• Configure the protection scope: Find the protection capability that you want to manage and click <strong>Manage</strong> next to the <strong>protection scope</strong>. In the dialog box that appears, select the asset group and assets and click <strong>OK</strong>.</td>
+       <td>• Enable protection capabilities: Find the protection capability that you want to enable and<br>click the<img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/dd821e52929137098ba0a7326313e219.png" width="28" alt="">icon next to the<br>capability.<br>• Configure the protection scope: Find the protection capability that you want to manage and click <strong>Manage</strong> next to the <strong>protection scope</strong>. In the dialog box that appears, select the asset group and assets and click <strong>OK</strong>.</td>
      </tr>
      <tr>
        <td>Webshell detection and removal</td>
@@ -3407,7 +3407,7 @@ This topic describes how to manage protection features and protection modes for 
      <tr>
        <td>Self-protection Manageme nt</td>
        <td>After you enable the self-protection mode, the system automatically blocks activities that attempt to uninstall the Server Guard agent. This ensures the stability of the Server Guard agent.<br>Note<br>• We recommend that you run important services in an operating system that supports the self-protection mode. This helps prevent the Server Guard agent from being uninstalled. If the Server Guard agent is uninstalled, the server is not protected, which can cause security risks.<br>• It requires 30 minutes to disable the self-protection mode.</td>
-       <td>• Manage protected servers: In the <strong>Self-protection</strong> <strong>Management</strong> section, click <strong>Manage</strong>. In the dialog box that appears, select the servers that you want to protect and click <strong>OK</strong>.<br>• Enable the self-protection<br>mode: Click the<img src="assets/1f63883eb9f83e22bb9ad602c0cce163.png" width="25" alt="">icon to<br>enable the self-protection mode.</td>
+       <td>• Manage protected servers: In the <strong>Self-protection</strong> <strong>Management</strong> section, click <strong>Manage</strong>. In the dialog box that appears, select the servers that you want to protect and click <strong>OK</strong>.<br>• Enable the self-protection<br>mode: Click the<img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/1f63883eb9f83e22bb9ad602c0cce163.png" width="25" alt="">icon to<br>enable the self-protection mode.</td>
      </tr>
    </table>
 
@@ -3573,7 +3573,7 @@ The high-risk command audit feature allows you to create custom audit rules.
 
    If you want to apply the rule to subsequently added servers, select **Apply to Newly Added Servers**.
 
-7. After you create the rule, find the rule in the rule list and click the <img src="assets/ada3828942638a456154cf78383a6e3f.png" width="28" alt=""> icon in the **Switch**
+7. After you create the rule, find the rule in the rule list and click the <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/ada3828942638a456154cf78383a6e3f.png" width="28" alt=""> icon in the **Switch**
 
    column to enable the rule.
 
@@ -3925,7 +3925,7 @@ You can view vulnerabilities, baselines, and server exceptions on the Server Gua
 
 4. On the **Server Guard Rules** tab, view the operations of Server Guard rules.
 
-   ![](assets/af67e9dabe0ddc8ad8ef347a137dec79.png)
+   ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/af67e9dabe0ddc8ad8ef347a137dec79.png)
 
    | Section or tab | Description |
    | --- | --- |
@@ -4253,7 +4253,7 @@ Cloud Shield Operations Center is an operations platform for Apsara Stack Securi
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -4313,7 +4313,7 @@ You can use the system monitoring feature to monitor integrated cloud services a
 
 - Monitoring scope:
 
-  ![](assets/9e4ddea67f29eafcd0514f0d0468c075.jpeg)
+  ![](en-server-guard-user-guide-v3.18.6-2607-20260828.assets/9e4ddea67f29eafcd0514f0d0468c075.jpeg)
 
   - Click a cloud service tab to view all sub-services of the cloud service in the section marked with ② in the preceding figure.
 
@@ -4325,8 +4325,8 @@ You can use the system monitoring feature to monitor integrated cloud services a
 
     | Tab | Description |
     | --- | --- |
-    | Basic Monitorin g | • You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually update the monitoring data. You can also<br>turn on Automatic Refresh to automatically update the monitoring data.<br>• The monitoring view supports Cluster View and Single-server View.<br>• You can view the following monitoring data: CPU utilization (%), memory usage (%), workloads, number of TCP connections, number of processes, and disk usage. |
-    | Middlewar e | • You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually update the monitoring data. You can also<br>turn on Automatic Refresh to automatically update the monitoring data.<br>• The monitoring view supports Cluster View and Single-server View.<br>• You can view the following monitoring data: the QPS of MetaQ, the number of garbage collections (GCs) in the JVM, the amount of time consumed to monitor GCs in the JVM, the amount of JVM memory, the number of loaded classes in the JVM, the numbers of JVM threads in different states, the number of JVM threads, the QPS of HSF, the response time of HSF and database usage. |
+    | Basic Monitorin g | • You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually update the monitoring data. You can also<br>turn on Automatic Refresh to automatically update the monitoring data.<br>• The monitoring view supports Cluster View and Single-server View.<br>• You can view the following monitoring data: CPU utilization (%), memory usage (%), workloads, number of TCP connections, number of processes, and disk usage. |
+    | Middlewar e | • You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually update the monitoring data. You can also<br>turn on Automatic Refresh to automatically update the monitoring data.<br>• The monitoring view supports Cluster View and Single-server View.<br>• You can view the following monitoring data: the QPS of MetaQ, the number of garbage collections (GCs) in the JVM, the amount of time consumed to monitor GCs in the JVM, the amount of JVM memory, the number of loaded classes in the JVM, the numbers of JVM threads in different states, the number of JVM threads, the QPS of HSF, the response time of HSF and database usage. |
     | Health Check | You can check the health status of all hosts in an application based on check methods such as TCP- and HTTP-based health checks. |
 
 <a id="section-5-6-3"></a>
@@ -4422,7 +4422,7 @@ The upgrade center supports automatic import and manual import of update package
 
      <li>
 
-     Click Import Upgrade Package. In the Manually Import offline upgrade packages dialog box, drag the downloaded update packages to the dotted box. Alternatively, click the <img src="assets/0c6e64f55ccb0a4c673c33a8668a98c1.png" width="13" alt="">
+     Click Import Upgrade Package. In the Manually Import offline upgrade packages dialog box, drag the downloaded update packages to the dotted box. Alternatively, click the <img src="en-server-guard-user-guide-v3.18.6-2607-20260828.assets/0c6e64f55ccb0a4c673c33a8668a98c1.png" width="13" alt="">
 
      icon to upload the update packages.
 

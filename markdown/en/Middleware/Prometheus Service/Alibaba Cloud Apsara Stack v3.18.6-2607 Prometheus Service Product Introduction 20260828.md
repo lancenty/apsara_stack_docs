@@ -130,7 +130,7 @@ Managed Service for Prometheus provides unified monitoring for Alibaba Cloud ser
 
 Managed Service for Prometheus integrates with Cloud Monitor (CMS) to support a unified display, query, and alert experience for monitoring data from various Alibaba Cloud services. This provides operations and maintenance (O&M) teams with a convenient interface for daily monitoring.
 
-![](assets/75df5e2398e95d1772f42b136376ab1f.jpeg)
+![](en-prometheus-product-introduction-v3.18.6-2607-20260828.assets/75df5e2398e95d1772f42b136376ab1f.jpeg)
 
 **Container layer metric monitoring**
 
@@ -138,7 +138,7 @@ The service is deeply integrated with ACK. You can enable monitoring during clus
 
 **Monitored object:** ACK.
 
-![](assets/2a7dd584d3cc98c79d9c1c40aec46623.jpeg)
+![](en-prometheus-product-introduction-v3.18.6-2607-20260828.assets/2a7dd584d3cc98c79d9c1c40aec46623.jpeg)
 
 **Application performance metric monitoring**
 
@@ -146,13 +146,13 @@ The service integrates with ARMS to provide one-click access to application perf
 
 **Monitored object:** ARMS.
 
-![](assets/5094f831f152a3bac89eaaba0263c3a5.jpeg)
+![](en-prometheus-product-introduction-v3.18.6-2607-20260828.assets/5094f831f152a3bac89eaaba0263c3a5.jpeg)
 
 **Multicloud application component metric monitoring**
 
 The service provides exporter integration solutions for third-party clouds and on-premises IDCs to monitor component metrics in these environments. For more information, see **Managed Service for Prometheus User Guide > Create Service Discovery by Using a ServiceMonitor**.
 
-![](assets/7abaeb89e4fbd5f9ce4107f66c6312b7.jpeg)
+![](en-prometheus-product-introduction-v3.18.6-2607-20260828.assets/7abaeb89e4fbd5f9ce4107f66c6312b7.jpeg)
 
 **Business custom metric monitoring**
 
@@ -160,7 +160,7 @@ You can define custom metrics that align with your business needs, such as metri
 
 **Monitored objects:** Simple Log Service (SLS) and Elasticsearch.
 
-![](assets/51b3aa276b9d616fb20937474185e36c.jpeg)
+![](en-prometheus-product-introduction-v3.18.6-2607-20260828.assets/51b3aa276b9d616fb20937474185e36c.jpeg)
 
 <a id="section-6"></a>
 

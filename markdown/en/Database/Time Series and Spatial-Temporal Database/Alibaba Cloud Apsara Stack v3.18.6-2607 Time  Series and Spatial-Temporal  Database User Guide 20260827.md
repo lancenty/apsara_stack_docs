@@ -665,11 +665,11 @@ Real-time Details Query
 
 Analysis Re
 
-![](assets/217b08c20ecd64574bd8c65dc5a9680c.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/217b08c20ecd64574bd8c65dc5a9680c.png)
 
-![](assets/94348f20294a46e8eab5a757f09cfaa0.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/94348f20294a46e8eab5a757f09cfaa0.png)
 
-![](assets/e5b19d1a8139467609854798258b2359.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/e5b19d1a8139467609854798258b2359.png)
 
 Highly Concurrent Data Writing
 
@@ -687,9 +687,9 @@ Incremental Data Synchronization
 
 RDS
 
-![](assets/526d9788ba401f121884db92bd4f813f.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/526d9788ba401f121884db92bd4f813f.png)
 
-![](assets/13adaf1fb451ebbf929903e6e48030e5.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/13adaf1fb451ebbf929903e6e48030e5.png)
 
 Batch Backflow of Ana
 
@@ -713,11 +713,11 @@ Benefits
 
 You can use Lindorm to store a large number of transaction records in the financial and retail industries. Lindorm can also be used to store important financial risk control information, such as user activities, user personas, rule-based models, and device fingerprints. Lindorm supports high concurrency and provides cost-effective, flexible, and reliable services. It allows you to create competitive services for transaction management and financial risk control.
 
-![](assets/000e7b9d77ab4dcbb42a4a1965953edb.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/000e7b9d77ab4dcbb42a4a1965953edb.png)
 
-![](assets/f232f7522abf46e0f5fc297c12031c2c.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/f232f7522abf46e0f5fc297c12031c2c.png)
 
-![](assets/dfb7875f85cf77b76ffd4e6a5a268eef.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/dfb7875f85cf77b76ffd4e6a5a268eef.png)
 
 **Lindorm**
 
@@ -733,11 +733,11 @@ Advertiser
 
 Transactions
 
-![](assets/d4c6df8360b1a847133ff215b76b3f42.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/d4c6df8360b1a847133ff215b76b3f42.png)
 
-![](assets/a7c0236c42df7947ba82523c13747549.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/a7c0236c42df7947ba82523c13747549.png)
 
-![](assets/679da409c4c32569964c7930fafd34e5.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/679da409c4c32569964c7930fafd34e5.png)
 
 **Lindorm**
 
@@ -751,13 +751,13 @@ Risk Control & D
 
 Data
 
-![](assets/eb46be4354a593c98a74a006497a5bed.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/eb46be4354a593c98a74a006497a5bed.png)
 
 Behavior Analysis
 
-![](assets/fa9338f3aa2ddc55fbc687c9f25c862c.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/fa9338f3aa2ddc55fbc687c9f25c862c.png)
 
-![](assets/0e06385e526fb5258995df6b4810ce0d.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/0e06385e526fb5258995df6b4810ce0d.png)
 
 Crawler-based Data Fetching
 
@@ -795,19 +795,19 @@ You can use Lindorm to store important data such as driving trajectories, vehicl
 
 Application
 
-![](assets/3b74a3f91cdcea0ce9f5f2c0c7c70e03.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/3b74a3f91cdcea0ce9f5f2c0c7c70e03.png)
 
 Servers
 
-![](assets/f0bb41ce8ffb89209cbab75a0fb5e1de.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/f0bb41ce8ffb89209cbab75a0fb5e1de.png)
 
 Position-based Vehicle Geofencing & Tra
 
-![](assets/41e097f62b700744c46993ef28f6c008.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/41e097f62b700744c46993ef28f6c008.png)
 
-![](assets/2a7c58774af171ad77c318f7bd34855b.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/2a7c58774af171ad77c318f7bd34855b.png)
 
-![](assets/3dbc23ac1d093d9d2025077e008771aa.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/3dbc23ac1d093d9d2025077e008771aa.png)
 
 Vehicle Status Query & Real-time Al
 
@@ -821,13 +821,13 @@ Accurate Positioning
 
 Monitoring
 
-![](assets/8c7cd8b810126b3bd38fa2937992289c.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/8c7cd8b810126b3bd38fa2937992289c.png)
 
-![](assets/0c7aef2a8150aa9487a397d299a97e4b.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/0c7aef2a8150aa9487a397d299a97e4b.png)
 
-![](assets/b1c6ea3518bc08b321181171f31b9976.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/b1c6ea3518bc08b321181171f31b9976.png)
 
-![](assets/90c1cad61a8953cf495a06f5e9bec1d6.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/90c1cad61a8953cf495a06f5e9bec1d6.png)
 
 Enterprise Reports
 
@@ -853,7 +853,7 @@ Driving Analysis
 
 You can use Lindorm to store important data such as messages, comments, posts, and likes in social networking scenarios. Lindorm features high availability, low latency, and ease of use. It allows you to develop a high-performance and reliable system for managing social networking feeds.
 
-![](assets/f0e8d230182c677a9c7b99c570eabdf5.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/f0e8d230182c677a9c7b99c570eabdf5.png)
 
 **Lindorm**
 
@@ -869,7 +869,7 @@ Information
 
 Relationship Information
 
-![](assets/91a8031bce61eefc07ea430af4b7a16c.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/91a8031bce61eefc07ea430af4b7a16c.png)
 
 Feeds Content & Social Relationship
 
@@ -883,9 +883,9 @@ Subscription
 
 Relationship
 
-![](assets/6048ae68a999dbba6de37c446c588670.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/6048ae68a999dbba6de37c446c588670.png)
 
-![](assets/a18fb1fe8de5dc84206e0c697bc67534.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/a18fb1fe8de5dc84206e0c697bc67534.png)
 
 WEB
 
@@ -1046,7 +1046,7 @@ By default, all region servers in a Lindorm cluster belong to the default group.
 
 2. In the **Cluster group** section, select the region servers that you want to use.
 
-   ![](assets/1ffa3fb5cc72bf3ea814315e5fe7ca08.png)
+   ![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/1ffa3fb5cc72bf3ea814315e5fe7ca08.png)
 
 3. Click **Move group**.
 
@@ -1269,7 +1269,7 @@ You can use the ACL Management module of the cluster management system to revoke
 
 2. In the **Global permission** section, click **revoke** in the **Action** column of the user whose permissions you want to revoke.
 
-   ![](assets/7fe35295e9127a57f28c1b66afae03a2.png)
+   ![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/7fe35295e9127a57f28c1b66afae03a2.png)
 
 3. In the **revoke privilege** dialog box, select the permissions that you want to revoke.
 
@@ -1293,7 +1293,7 @@ You can use the ACL Management module of the cluster management system to revoke
 
 2. Turn on or turn off **ACL**.
 
-   ![](assets/f988ea366757cfea7af68b39a9ad7fb1.png)
+   ![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/f988ea366757cfea7af68b39a9ad7fb1.png)
 
 3. In the message that appears, click **yes**.
 
@@ -1327,7 +1327,7 @@ Lindorm allows you to query data stored in tables by executing SQL statements in
 
 5. Click **Execute**.
 
-   ![](assets/70b2fc3f51a213363839de115e9d01e7.png)
+   ![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/70b2fc3f51a213363839de115e9d01e7.png)
 
    > **Note**
    >
@@ -1349,7 +1349,7 @@ To query varbinary data with conditions, you must use hexadecimal strings as val
 
 5. Use the hexadecimal string in a SQL statement.
 
-   ![](assets/7187892b7267f7180a84539cb97544c5.png)
+   ![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/7187892b7267f7180a84539cb97544c5.png)
 
 6. Optional. Turn on **HexString** to view the query result when the hexadecimal string is used.
 
@@ -1534,7 +1534,7 @@ This topic describes the concepts related to databases in LindormTSDB and the fe
 
 Each running LindormTSDB instance manages one or more databases. Data is isolated between databases. Each database stores one or more time series tables. The following figure shows LindormTSDB data layers.
 
-![](assets/f0737660b7df2bba517b270621b5a2ec.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/f0737660b7df2bba517b270621b5a2ec.png)
 
 If you write the data of irrelevant projects to the same LindormTSDB instance, the data of each project is logically isolated to a large extent. In this case, we recommend that you store the data of each project in a separate database and grant required permissions on the databases to different users for access control. LindormTSDB allows users that have required permissions to access data across databases.
 
@@ -1985,7 +1985,7 @@ For some applications that call OpenTSDB-compatible HTTP API operations to acces
 
 The user information and permission data that are used in LindormTSDB can also be used in LindormTable. If LindormTable and LindormTSDB are both activated for your Lindorm instance, users that are created in LindormTSDB can also be used to access LindormTable. You can also view and manage users that are created in LindormTSDB in the cluster management system of LindormTable. The following figure shows the User Manager page of the cluster management system.
 
-![](assets/4d78bb2938172125d7dceca2b89e5e0c.png)
+![](en-tsdb-user-guide-v3.18.6-2607-20260827.assets/4d78bb2938172125d7dceca2b89e5e0c.png)
 
 Users that are created in LindormTable can also access LindormTSDB after the users are granted permissions on the specified LindormTSDB databases.
 

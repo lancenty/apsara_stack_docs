@@ -112,7 +112,7 @@ This topic describes how to navigate to the Application Load Balancer (ALB) cons
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-alb-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -265,11 +265,11 @@ When you create ECS instances, take note of the following items:
 
   - Enter the elastic IP address (EIP) that is associated with ECS01 in the address bar of your browser.
 
-    ![](assets/e6708ddfccb5e5691d7ba297beb414ee.png)
+    ![](en-alb-user-guide-v3.18.6-2607-20260828.assets/e6708ddfccb5e5691d7ba297beb414ee.png)
 
   - Enter the EIP that is associated with ECS02 in the address bar of your browser.
 
-    ![](assets/653275395da9dd1d67e59e3b82474284.png)
+    ![](en-alb-user-guide-v3.18.6-2607-20260828.assets/653275395da9dd1d67e59e3b82474284.png)
 
   No additional configurations are required after you deploy applications on the ECS instances. If you want to use a Layer 4 (TCP or UDP) listener and your ECS instances run Linux, make sure that the following parameters in the net.ipv4.conf file of the /etc/sysctl.conf directory are set to 0:
 
@@ -851,11 +851,11 @@ Enter the IP address of the ALB instance in the address bar of a browser to test
 
 Figure 1: ECS01
 
-![](assets/459dbc89ea019c5eb8994e47699a50a8.jpeg)
+![](en-alb-user-guide-v3.18.6-2607-20260828.assets/459dbc89ea019c5eb8994e47699a50a8.jpeg)
 
 Figure 2: ECS02
 
-![](assets/c3cbc40637d1e7dce735638abc00db0a.jpeg)
+![](en-alb-user-guide-v3.18.6-2607-20260828.assets/c3cbc40637d1e7dce735638abc00db0a.jpeg)
 
 <a id="section-2-5"></a>
 
@@ -1033,7 +1033,7 @@ You can modify the name of an Application Load Balancer (ALB) instance. Before y
 
    - On the **Instance Management** page, find the instance that you want to manage and
 
-     click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the right of the instance name in the **Instance ID/Name** column.
+     click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the right of the instance name in the **Instance ID/Name** column.
 
    - On the instance details page:
 
@@ -1049,7 +1049,7 @@ You can modify the name of an Application Load Balancer (ALB) instance. Before y
 
      In the **Basic Information** section of the **Instance Details** tab on the **Details** page,
 
-     click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to **Instance Name**.
+     click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to **Instance Name**.
 
      </li>
 
@@ -1423,11 +1423,11 @@ An ALB instance is created. For more information, see Create an ALB instance.
 
    - You can filter instances by keyword, **Instance ID**, **Instance Name**, **VPC ID**, **Status**, **Tag**, and **Creator**.
 
-   - Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the ALB instance list.
+   - Click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the ALB instance list.
 
      You can also drag and drop the items to adjust their order.
 
-   - Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Status** column to filter ALB instances by status.
+   - Click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Status** column to filter ALB instances by status.
 
      The available states include **Changing Configurations**, **Running**, **Creating**, **Stopped**, and **Create failed.**.
 
@@ -2055,7 +2055,7 @@ A listener is created. For more information, see Add listeners.
 
      </ol>
 
-5. In the listener list, find the listener that you want to manage and click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the
+5. In the listener list, find the listener that you want to manage and click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the
 
    right of the listener name in the **Listener ID/Name** column.
 
@@ -2599,7 +2599,7 @@ A listener is created. For more information, see Add listeners.
 
 5. In the **SSL Certificate** section of the **Listener Details** tab on the **Listener** page, click the
 
-   <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to **TLS Security Policy**.
+   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to **TLS Security Policy**.
 
 6. In the **Modify TLS Security Policy** dialog box, configure the following parameters and click **OK**.
 
@@ -3285,9 +3285,9 @@ A listener is created. For more information, see Add listeners.
      >
      >   icon on the right of a forwarding condition to adjust the order
      >
-     >   <img src="assets/71082021d28768b40c44763b9f83bd37.png" width="14" alt="">
+     >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/71082021d28768b40c44763b9f83bd37.png" width="14" alt="">
      >
-     >   <img src="assets/42d5a24b05583c52b957e339c74678c7.png" width="14" alt="">
+     >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/42d5a24b05583c52b957e339c74678c7.png" width="14" alt="">
      >
      >   of forwarding conditions.
      >
@@ -3295,7 +3295,7 @@ A listener is created. For more information, see Add listeners.
      >
      >   icon next to a forwarding condition to delete the forwarding
      >
-     >   <img src="assets/d88aede064edd8aa59f1c1b2a630f289.png" width="15" alt="">
+     >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/d88aede064edd8aa59f1c1b2a630f289.png" width="15" alt="">
      >
      >   condition.
 
@@ -3325,7 +3325,7 @@ A listener is created. For more information, see Add listeners.
        >
        >   icon next to a domain name to delete the domain name.
        >
-       >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+       >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
 
      - **Path**: Add a path. For example, if the URL is  `www.example.com/test/test1?x=1&y=2` , you can set the parameter to  `/test/*` .
 
@@ -3353,7 +3353,7 @@ A listener is created. For more information, see Add listeners.
        >
        >   icon next to a path to delete the path.
        >
-       >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+       >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
 
      - **HTTP Header**: Add HTTP headers. For example, you can set the key to  `user-agent` and the value to  `*Mozilla/4.0*` .
 
@@ -3377,7 +3377,7 @@ A listener is created. For more information, see Add listeners.
          >
          >   icon next to a header value to delete the header
          >
-         >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+         >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
          >
          >   value.
 
@@ -3399,7 +3399,7 @@ A listener is created. For more information, see Add listeners.
        >
        >   icon next to a key-value pair to delete the key-value
        >
-       >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+       >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
        >
        >   pair.
 
@@ -3415,7 +3415,7 @@ A listener is created. For more information, see Add listeners.
        >
        >   icon next to a request method to delete the request
        >
-       >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+       >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
        >
        >   method.
 
@@ -3437,7 +3437,7 @@ A listener is created. For more information, see Add listeners.
        >
        >   icon next to a key-value pair to delete the key-value
        >
-       >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+       >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
        >
        >   pair.
 
@@ -3453,7 +3453,7 @@ A listener is created. For more information, see Add listeners.
        >
        >   icon next to a source IP address to delete the source IP
        >
-       >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+       >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
        >
        >   address.
 
@@ -3475,9 +3475,9 @@ A listener is created. For more information, see Add listeners.
      >
      >   icon on the right side of a forwarding action to adjust
      >
-     >   <img src="assets/71082021d28768b40c44763b9f83bd37.png" width="14" alt="">
+     >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/71082021d28768b40c44763b9f83bd37.png" width="14" alt="">
      >
-     >   <img src="assets/42d5a24b05583c52b957e339c74678c7.png" width="14" alt="">
+     >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/42d5a24b05583c52b957e339c74678c7.png" width="14" alt="">
      >
      >   the order of forwarding actions.
      >
@@ -3485,7 +3485,7 @@ A listener is created. For more information, see Add listeners.
      >
      >   icon next to a forwarding action to delete the forwarding
      >
-     >   <img src="assets/d88aede064edd8aa59f1c1b2a630f289.png" width="15" alt="">
+     >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/d88aede064edd8aa59f1c1b2a630f289.png" width="15" alt="">
      >
      >   action.
 
@@ -3527,7 +3527,7 @@ A listener is created. For more information, see Add listeners.
        >
        >   icon next to a server group to delete the server group.
        >
-       >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+       >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
        >
        > - When you add multiple server groups, you can select server groups that use HTTP or HTTPS.
 
@@ -3695,7 +3695,7 @@ A listener is created. For more information, see Add listeners.
          >
          >   icon next to an access source to delete the access
          >
-         >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+         >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
          >
          >   source.
 
@@ -3719,7 +3719,7 @@ A listener is created. For more information, see Add listeners.
          >
          >   icon next to a request header to delete the request
          >
-         >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+         >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
          >
          >   header.
          >
@@ -3729,7 +3729,7 @@ A listener is created. For more information, see Add listeners.
          >
          >   icon next to a response header to delete the response
          >
-         >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+         >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
          >
          >   header.
 
@@ -3885,9 +3885,9 @@ A listener is created. For more information, see Add listeners.
        >
        >   icon on the right of a forwarding condition to adjust the
        >
-       >   <img src="assets/71082021d28768b40c44763b9f83bd37.png" width="14" alt="">
+       >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/71082021d28768b40c44763b9f83bd37.png" width="14" alt="">
        >
-       >   <img src="assets/42d5a24b05583c52b957e339c74678c7.png" width="14" alt="">
+       >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/42d5a24b05583c52b957e339c74678c7.png" width="14" alt="">
        >
        >   order of forwarding conditions.
        >
@@ -3895,7 +3895,7 @@ A listener is created. For more information, see Add listeners.
        >
        >   icon next to a forwarding condition to delete the forwarding
        >
-       >   <img src="assets/d88aede064edd8aa59f1c1b2a630f289.png" width="15" alt="">
+       >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/d88aede064edd8aa59f1c1b2a630f289.png" width="15" alt="">
        >
        >   condition.
 
@@ -3925,7 +3925,7 @@ A listener is created. For more information, see Add listeners.
          >
          >   icon next to a domain name to delete the domain
          >
-         >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+         >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
          >
          >   name.
 
@@ -3955,7 +3955,7 @@ A listener is created. For more information, see Add listeners.
          >
          >   icon next to a path to delete the path.
          >
-         >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+         >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
 
        - **HTTP Header**: Add HTTP headers. For example, you can set the key to  `user-agent` and the value to  `*Mozilla/4.0*` .
 
@@ -3979,7 +3979,7 @@ A listener is created. For more information, see Add listeners.
            >
            >   icon next to a header value to delete the header
            >
-           >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+           >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
            >
            >   value.
 
@@ -4001,7 +4001,7 @@ A listener is created. For more information, see Add listeners.
          >
          >   icon next to a key-value pair to delete the key-value
          >
-         >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+         >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
          >
          >   pair.
 
@@ -4017,7 +4017,7 @@ A listener is created. For more information, see Add listeners.
          >
          >   icon next to a request method to delete the request
          >
-         >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+         >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
          >
          >   method.
 
@@ -4039,7 +4039,7 @@ A listener is created. For more information, see Add listeners.
          >
          >   icon next to a key-value pair to delete the key-value
          >
-         >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+         >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
          >
          >   pair.
 
@@ -4055,7 +4055,7 @@ A listener is created. For more information, see Add listeners.
          >
          >   icon next to a source IP address to delete the source
          >
-         >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+         >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
          >
          >   IP address.
 
@@ -4075,9 +4075,9 @@ A listener is created. For more information, see Add listeners.
        >
        >   icon on the right of a forwarding condition to adjust the
        >
-       >   <img src="assets/71082021d28768b40c44763b9f83bd37.png" width="14" alt="">
+       >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/71082021d28768b40c44763b9f83bd37.png" width="14" alt="">
        >
-       >   <img src="assets/42d5a24b05583c52b957e339c74678c7.png" width="14" alt="">
+       >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/42d5a24b05583c52b957e339c74678c7.png" width="14" alt="">
        >
        >   order of forwarding conditions.
        >
@@ -4085,7 +4085,7 @@ A listener is created. For more information, see Add listeners.
        >
        >   icon next to a forwarding condition to delete the forwarding
        >
-       >   <img src="assets/d88aede064edd8aa59f1c1b2a630f289.png" width="15" alt="">
+       >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/d88aede064edd8aa59f1c1b2a630f289.png" width="15" alt="">
        >
        >   condition.
 
@@ -4103,7 +4103,7 @@ A listener is created. For more information, see Add listeners.
          >
          >   icon to the right of a status code to delete the status
          >
-         >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+         >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
          >
          >   code.
 
@@ -4129,7 +4129,7 @@ A listener is created. For more information, see Add listeners.
            >
            >   icon to the right of a header value to delete the
            >
-           >   <img src="assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
+           >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/4c59ea23d012adf738759c31c20d9781.png" width="16" alt="">
            >
            >   header value.
 
@@ -4149,9 +4149,9 @@ A listener is created. For more information, see Add listeners.
      >
      >   icon on the right side of a forwarding action to adjust
      >
-     >   <img src="assets/71082021d28768b40c44763b9f83bd37.png" width="14" alt="">
+     >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/71082021d28768b40c44763b9f83bd37.png" width="14" alt="">
      >
-     >   <img src="assets/42d5a24b05583c52b957e339c74678c7.png" width="14" alt="">
+     >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/42d5a24b05583c52b957e339c74678c7.png" width="14" alt="">
      >
      >   the order of forwarding actions.
      >
@@ -4159,7 +4159,7 @@ A listener is created. For more information, see Add listeners.
      >
      >   icon next to a forwarding action to delete the forwarding
      >
-     >   <img src="assets/d88aede064edd8aa59f1c1b2a630f289.png" width="15" alt="">
+     >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/d88aede064edd8aa59f1c1b2a630f289.png" width="15" alt="">
      >
      >   action.
 
@@ -4283,7 +4283,7 @@ An ALB instance is created. For more information, see Create an ALB instance.
 
      <li>
 
-     On the **Instance Management** page, find the ALB instance that you want to manage and click <img src="assets/6600cfd1f4ee0fbb63be66a5c5d22838.png" width="16" alt=""> in the **Monitoring** column.
+     On the **Instance Management** page, find the ALB instance that you want to manage and click <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/6600cfd1f4ee0fbb63be66a5c5d22838.png" width="16" alt=""> in the **Monitoring** column.
 
      </li>
 
@@ -4590,7 +4590,7 @@ On the **Certificate Management** page, click the **Server Certificate** tab to 
 
 - You can filter certificates by keyword, **Certificate ID**, **Certificate Name**, **Filter by tag**, or **Creator**.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to customize the displayed columns or
+- Click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to customize the displayed columns or
 
   change their order.
 
@@ -4604,7 +4604,7 @@ For more information, see Manage tags.
 
 1. On the **Certificate Management** tab of the **Server Certificate** page, find the certificate
 
-   to modify and click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to its name in the **Certificate ID/Name** column.
+   to modify and click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to its name in the **Certificate ID/Name** column.
 
 2. In the **Modify Certificate Name** dialog box, change the **Name** and click **OK**.
 
@@ -4703,7 +4703,7 @@ For more information, see Manage tags.
 
 1. On the **CA Certificate** tab of the **Certificate Management** page, find the certificate to
 
-   modify and click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to its name in the **Certificate ID/Name** column.
+   modify and click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to its name in the **Certificate ID/Name** column.
 
 2. 
 
@@ -4920,7 +4920,7 @@ A server group is created. For more information, see Create a server group.
 
 3. In the navigation pane on the left, choose **Application Load Balancer (ALB) > Server Groups**.
 
-4. On the **Server Group** page, find the server group that you want to manage and click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt="">
+4. On the **Server Group** page, find the server group that you want to manage and click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt="">
 
    icon to the right of the server group name in the **Server Group ID/Name** column.
 
@@ -5014,7 +5014,7 @@ A server group is created. For more information, see Create a server group.
 
    - You can filter server groups by keyword, **Server Group ID**, **Server Group Name**, **Tag**, and **Creator**.
 
-   - Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the server group list.
+   - Click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the server group list.
 
      You can also drag and drop the items to adjust their order.
 
@@ -5260,7 +5260,7 @@ A backend server is added. For more information, see Add backend servers.
 
      <li>
 
-     Find the backend server that you want to manage, and click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the **Port**
+     Find the backend server that you want to manage, and click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the **Port**
 
      column.
 
@@ -5284,7 +5284,7 @@ A backend server is added. For more information, see Add backend servers.
 
      <li>
 
-     Find the backend server that you want to manage, and click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the **Weight**
+     Find the backend server that you want to manage, and click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the **Weight**
 
      column.
 
@@ -5312,7 +5312,7 @@ A backend server is added. For more information, see Add backend servers.
 
      <li>
 
-     Find the backend server that you want to manage, and click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the
+     Find the backend server that you want to manage, and click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the
 
      **Description** column.
 
@@ -5380,7 +5380,7 @@ ALB instances are deployed in clusters. Nodes in a Linux virtual server (LVS) or
 
 Nodes in an LVS cluster forward data and perform health checks independently and in parallel based on the configured load balancing policies. If a node in an LVS cluster detects an unhealthy backend ECS instance, the node stops sending client requests to the unhealthy ECS instance. This operation is synchronized across all of the nodes in the LVS cluster. The following figure shows how health checks work.
 
-![](assets/63b64019db4721dc2f992128351e8d7b.png)
+![](en-alb-user-guide-v3.18.6-2607-20260828.assets/63b64019db4721dc2f992128351e8d7b.png)
 
 ALB uses the CIDR block 100.64.0.0/10 for health checks. Make sure that the backend ECS instances do not block this CIDR block. You do not need to configure a security group rule to allow access from the CIDR block 100.64.0.0/10 unless security rules such as iptables are configured. Permitting 100.64.0.0/10 does not increase potential risks because this CIDR block is reserved by Apsara Stack. IP addresses within this CIDR block are not allocated to users.
 
@@ -5388,7 +5388,7 @@ ALB uses the CIDR block 100.64.0.0/10 for health checks. Make sure that the back
 
 If you add Layer 7 HTTP or HTTPS listeners to your ALB instance, ALB checks the status of backend ECS instances by sending HTTP HEAD requests, as shown in the following figure.
 
-![](assets/73cc3b5aef39a2e737bfe3cb608693fa.jpeg)
+![](en-alb-user-guide-v3.18.6-2607-20260828.assets/73cc3b5aef39a2e737bfe3cb608693fa.jpeg)
 
 For HTTPS listeners, certificates are managed in ALB. To improve system performance, HTTPS is not used to exchange data, including health check data and business data, between the ALB instance and backend ECS instances.
 
@@ -5416,7 +5416,7 @@ Health check time windows are calculated by using the following formulas:
 
 - Time window for health check failures = Response timeout period × Unhealthy threshold + Health check interval × (Unhealthy threshold - 1)
 
-  ![](assets/4888a6491af244ecba85dfa86ce44d39.png)
+  ![](en-alb-user-guide-v3.18.6-2607-20260828.assets/4888a6491af244ecba85dfa86ce44d39.png)
 
 - Time window for health check successes = Response time of a successful health check × Healthy threshold + Health check interval × (Healthy threshold - 1)
 
@@ -5424,7 +5424,7 @@ Health check time windows are calculated by using the following formulas:
   >
   > The response time of a successful health check is the duration from the time when a health check request is sent to the time when a response is received. When TCP health checks are configured, the response time is short and almost negligible because the only check item is whether the probed port is alive. When HTTP health checks are configured, the response time varies based on the performance and load of the application server and is typically within a few seconds.
 
-  ![](assets/01fa7dd6f32d86abf58daa17333c9b81.png)
+  ![](en-alb-user-guide-v3.18.6-2607-20260828.assets/01fa7dd6f32d86abf58daa17333c9b81.png)
 
 The health check result has the following impacts on request forwarding:
 
@@ -5434,7 +5434,7 @@ The health check result has the following impacts on request forwarding:
 
 - If an exception occurs on the backend ECS instance and a request arrives during the time window for health check failures, the request is still sent to the unhealthy backend ECS instance. This is because the number of failed health checks has not reached the unhealthy threshold (three times by default). In this case, the client fails to access the application.
 
-![](assets/fc9087433116963fb568b58147d0125c.jpeg)
+![](en-alb-user-guide-v3.18.6-2607-20260828.assets/fc9087433116963fb568b58147d0125c.jpeg)
 
 **Examples of the health check response timeout period and the health check interval**
 
@@ -5452,7 +5452,7 @@ Time window for health check failures = Response timeout period × Unhealthy thr
 
 The following figure shows the time window from a healthy status to an unhealthy status.
 
-![](assets/192b536eb215b828c40d9bc4d97d1012.png)
+![](en-alb-user-guide-v3.18.6-2607-20260828.assets/192b536eb215b828c40d9bc4d97d1012.png)
 
 Time window for health check successes = Response time of a successful health check × Healthy threshold + Health check interval × (Healthy threshold - 1). In this example, the time window is 7 seconds based on the following formula: (1 × 3) + 2 × (3 - 1). If a backend server responds within 7 seconds, the backend server is considered healthy.
 
@@ -5462,7 +5462,7 @@ Time window for health check successes = Response time of a successful health ch
 
 The following figure shows the time window from an unhealthy status to a healthy status. In the following figure, the amount of time that is required for the server to respond to a health check request is 1 second.
 
-![](assets/c88177969ac8f6c6bfbd7fbbb6246adb.png)
+![](en-alb-user-guide-v3.18.6-2607-20260828.assets/c88177969ac8f6c6bfbd7fbbb6246adb.png)
 
 **Domain names for HTTP health checks**
 
@@ -5568,7 +5568,7 @@ You can specify a domain name for HTTP health checks. This setting is optional. 
 
    - You can filter health checks by keyword, **Health Check ID**, **Health Check Name**, **Tag**, and **Created By**.
 
-   - Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the health check list.
+   - Click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the health check list.
 
      You can also drag and drop the items to adjust their order.
 
@@ -5592,7 +5592,7 @@ A health check is created. For more information, see Create a health check.
 
 3. In the navigation pane on the left, choose **Application Load Balancer (ALB) > Health Checks**.
 
-4. On the **Health Check** page, find the health check that you want to manage and click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt="">
+4. On the **Health Check** page, find the health check that you want to manage and click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt="">
 
    icon to the right of the health check name in the **Health Check ID/Name** column.
 
@@ -5710,7 +5710,7 @@ The following figure shows how to configure an ACL for a listener.
 
    - You can filter ACLs by keyword, **ACL ID**, **ACL Name**, **Tag**, and **Creator**.
 
-   - Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the ACL list. You can
+   - Click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the ACL list. You can
 
      also drag and drop the items to adjust their order.
 
@@ -5734,7 +5734,7 @@ An access control list (ACL) is created. For more information, see Create an ACL
 
 3. In the navigation pane on the left, choose **Application Load Balancer (ALB) > Access Control**.
 
-4. On the **Access Control** page, find the ACL whose name you want to modify and click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt="">
+4. On the **Access Control** page, find the ACL whose name you want to modify and click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt="">
 
    icon to the right of the ACL name in the **ACL ID/Name** column.
 
@@ -5814,7 +5814,7 @@ An access control list (ACL) is created. For more information, see Create an ACL
      >
      >   icon in the **Actions** column of an entry to delete the entry.
      >
-     >   <img src="assets/d88aede064edd8aa59f1c1b2a630f289.png" width="15" alt="">
+     >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/d88aede064edd8aa59f1c1b2a630f289.png" width="15" alt="">
 
      </li>
 
@@ -5956,7 +5956,7 @@ When you specify TLS versions and cipher suites for a custom TLS security policy
 
    - You can filter security policies by keyword, **Security Policy ID**, **Security Policy Name**, **Tag**, and **Creator**.
 
-   - Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the security policy list.
+   - Click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the security policy list.
 
      You can also drag and drop the items to adjust their order.
 
@@ -5982,7 +5982,7 @@ A custom security policy is created. For more information, see Create a custom s
 
 4. On the **Security Policy** page, find the security policy whose name you want to modify and
 
-   click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the right of the security policy name in the **Security Policy ID/Name**
+   click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the right of the security policy name in the **Security Policy ID/Name**
 
    column.
 
@@ -6151,7 +6151,7 @@ Application Load Balancer (ALB) allows you to edit tags. You can add, modify, an
 
 4. On the **Instance Management** page, find the ALB instance that you want to manage,
 
-   move the pointer over the <img src="assets/bbe194306ade7fb51b94cebcd6163f12.png" width="16" alt=""> icon in the **Tag** column, and then click the <img src="assets/ece76fbfe499b1f2b1f010db434aab0b.png" width="20" alt=""> icon in the pop-
+   move the pointer over the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/bbe194306ade7fb51b94cebcd6163f12.png" width="16" alt=""> icon in the **Tag** column, and then click the <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/ece76fbfe499b1f2b1f010db434aab0b.png" width="20" alt=""> icon in the pop-
 
    up box.
 
@@ -6174,7 +6174,7 @@ Application Load Balancer (ALB) allows you to edit tags. You can add, modify, an
    >
    >   icon next to a tag to delete the tag.
    >
-   >   <img src="assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt="">
+   >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt="">
 
 6. In the **Edited** message, confirm the tag information and click **Close**.
 
@@ -6219,7 +6219,7 @@ Application Load Balancer (ALB) allows you to add tags at a time. This topic des
    >
    >   icon next to a tag to delete the tag.
    >
-   >   <img src="assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt="">
+   >   <img src="en-alb-user-guide-v3.18.6-2607-20260828.assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt="">
 
 6. In the **Edited** message, confirm the tag information and click **Close**.
 

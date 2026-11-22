@@ -91,7 +91,7 @@ Security Orchestration Automation Response (SOAR) is a security automation syste
 
 The core modules of Security Orchestration Automation Response (SOAR) include case management, knowledge bases, intelligence management, orchestration engine, and security components.
 
-![](assets/b104be59928a97d8f6f5de5c1f3dd98d.png)
+![](en-soar-product-introduction-v3.18.6-20260701.assets/b104be59928a97d8f6f5de5c1f3dd98d.png)
 
 Built-in Playbook
 

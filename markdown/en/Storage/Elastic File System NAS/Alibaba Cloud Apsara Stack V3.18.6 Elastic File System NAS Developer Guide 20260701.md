@@ -193,7 +193,7 @@ To use AccessKey pairs for personal accounts, you must configure the header para
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of the personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-efs-nas-developer-guide-v3.18.6-20260701.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -481,7 +481,7 @@ You must call an API operation to obtain the ID of an organization. You can obta
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
+4. Move the pointer over the <img src="en-efs-nas-developer-guide-v3.18.6-20260701.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
 
    **2019-05-10** from the **Version** drop-down list.
 
@@ -497,7 +497,7 @@ You must call an API operation to obtain the ID of a resource set. You can obtai
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
+4. Move the pointer over the <img src="en-efs-nas-developer-guide-v3.18.6-20260701.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
 
    **2019-05-10** from the **Version** drop-down list.
 
@@ -984,7 +984,7 @@ When you use the Alibaba Cloud core SDK to make an API request, you can set four
 | Path | Path parameters are used to replace variables in the UriPattern set in the request.<br>For example, in the URI <code>"/clusters/[ClusterId]</code> <code>" </code>, <code> [ClusterId] </code> can be replaced by setting the Path parameter <code>"ClusterId=cluster1"</code><code> </code>.<br>The final URI for the HTTP request is <code>"/clusters/clusterId01</code> <code>" </code>. | <code>CommonRequest request = new CommonRequest();</code><br><code>request.setSysUriPattern("/clusters/[ClusterId]</code><br><code>");</code><br><code>request.putPathParameter("ClusterId",</code><br><code>"clusterId01");</code> |
 | Query | Query parameters are used to set the URL parameters in the request.They are generally used for GET requests.<br>For example: "http://aliyun.com/api/? ClusterId=clusterId01&amp;Clu sterName=clusterName01 ". | <code>CommonRequest request = new CommonRequest();</code><br><code>request.putQueryParameter("ClusterId",</code><br><code>"clusterId01");</code><br><code>request.putQueryParameter("ClusterName",</code><br><code>"clusterName01");</code> |
 
-![](assets/9e90d33d15541b214fa0c97b433ba5b3.png)
+![](en-efs-nas-developer-guide-v3.18.6-20260701.assets/9e90d33d15541b214fa0c97b433ba5b3.png)
 
 <table>
   <tr>

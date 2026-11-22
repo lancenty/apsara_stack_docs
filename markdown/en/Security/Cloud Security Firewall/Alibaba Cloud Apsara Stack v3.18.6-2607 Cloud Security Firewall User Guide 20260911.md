@@ -102,7 +102,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -164,7 +164,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
 2. On the Forgot Password page, configure the **Account Name** and **Email Address** parameters, specify the verification code, and then click **Confirm**.
 
-   ![](assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
+   ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
 
    > **Note**
    >
@@ -224,7 +224,7 @@ In this topic, IP address books, port address books, and domain address books ar
 
 After the policy is created, it is displayed in the policy list. You can also perform the following operations:
 
-- Download the policy: Click the <img src="assets/cd96bad908cba88c92ad0d77095bd90a.png" width="13" alt=""> icon above the policy list.
+- Download the policy: Click the <img src="en-cfw-user-guide-v3.18.6-2607-20260911.assets/cd96bad908cba88c92ad0d77095bd90a.png" width="13" alt=""> icon above the policy list.
 
 - Modify or delete the policy: Click **Modify** or **Delete** in the **Actions** column of the policy.
 
@@ -359,8 +359,8 @@ In this topic, IP address books, port address books, and domain address books ar
    | --- | --- |
    | Source Type | The type of the traffic source. Valid values: IP and Address Book.<br>• <strong>IP</strong>: If you select this option, enter a CIDR block for Source.<br>• <strong>Address Book</strong>: If you select this option, select a preconfigured address book for Source.<br>You can add multiple CIDR blocks to an address book to simplify policy configuration. |
    | Source | The source of the traffic.<br>Note<br>You can enter only one CIDR block. Example: 1.\*.\*.1/32.<br>If you set Source Type to Address Book, select a preconfigured address book for Source. |
-   | Destination Type | The type of the traffic destination. Valid values:<br>• <strong>IP</strong>: If you select this option, enter an IP address for Destination.<br>• <strong>Address Book</strong>: If you select this option, select an address book for Destination.<br>• <strong>Domain Name</strong>: If you select this option, enter a domain name for Destination. Wildcard domain names are supported. Example:<br>![](assets/f7f2a6138f656c9fd722f16527ffa80c.png)<br><code>*.aliyun.com</code>.<br>Note<br>By default, if an HTTP header does not contain the Host field or an HTTPS request does not contain the Server Name Indication (SNI), Cloud Firewall allows the traffic. |
-   | Destination | The destination of the traffic. You can enter only one CIDR block.<br>If you set Destination Type to Domain Name, enter a domain name.<br>![](assets/6b06decb162817fb0a4b0f772596c5b6.png)<br>Wildcard domain names are supported. Example: <code>*.aliyun.com</code>. |
+   | Destination Type | The type of the traffic destination. Valid values:<br>• <strong>IP</strong>: If you select this option, enter an IP address for Destination.<br>• <strong>Address Book</strong>: If you select this option, select an address book for Destination.<br>• <strong>Domain Name</strong>: If you select this option, enter a domain name for Destination. Wildcard domain names are supported. Example:<br>![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/f7f2a6138f656c9fd722f16527ffa80c.png)<br><code>*.aliyun.com</code>.<br>Note<br>By default, if an HTTP header does not contain the Host field or an HTTPS request does not contain the Server Name Indication (SNI), Cloud Firewall allows the traffic. |
+   | Destination | The destination of the traffic. You can enter only one CIDR block.<br>If you set Destination Type to Domain Name, enter a domain name.<br>![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/6b06decb162817fb0a4b0f772596c5b6.png)<br>Wildcard domain names are supported. Example: <code>*.aliyun.com</code>. |
    | Protocol | The protocol of the traffic. Valid values:<br>• <strong>ANY</strong>: all protocols<br>• TCP<br>• UDP<br>• ICMP |
    | Port Type | The port type of the destination. Valid values: <strong>Ports</strong> and <strong>Address Book</strong>. |
    | Ports | The port range of the traffic. The value 0/0 indicates all ports.<br>• If you set <strong>Port Type</strong> to <strong>Port</strong>, enter a port range.<br>• If you set <strong>Port Type</strong> to <strong>Address Book</strong>, select an address book.<br>Note<br>If you set Protocol to ICMP, the port configuration does not take effect.If you set Protocol to ANY, the port configuration does not take effect in controlling ICMP traffic. |
@@ -371,7 +371,7 @@ In this topic, IP address books, port address books, and domain address books ar
 
    After the policy is created, it is displayed in the policy list. You can also perform the following operations:
 
-   - Download the policy: Click the <img src="assets/cd96bad908cba88c92ad0d77095bd90a.png" width="13" alt=""> icon above the policy list.
+   - Download the policy: Click the <img src="en-cfw-user-guide-v3.18.6-2607-20260911.assets/cd96bad908cba88c92ad0d77095bd90a.png" width="13" alt=""> icon above the policy list.
 
    - Modify or delete a policy: Click **Modify** or **Delete** in the **Actions** column of the policy.
 
@@ -421,8 +421,8 @@ By default, an IDC-VPC firewall allows all traffic. If you want to control traff
    | --- | --- |
    | Source Type | The type of the traffic source. Valid values:<br>• <strong>IP</strong>: If you select this option, enter a CIDR block for Source.<br>• <strong>Address Book</strong>: If you select this option, select a preconfigured address book for Source.<br>You can add multiple CIDR blocks to an address book to simplify policy configuration. |
    | Source | The source in an outbound policy. The value must be a private IP address.You must enter a CIDR block. Example: 10.XX.XX.0/24,172.16.XX.XX/32.<br>If you set Source Type to Address Book, select a preconfigured address book for Source. |
-   | Destination Type | The type of the traffic destination. Valid values:<br>• <strong>IP</strong>: If you select this option, enter an IP address for Destination.<br>• <strong>Address Book</strong>: If you select this option, select an address book for Destination.<br>• <strong>Domain Name</strong>: If you select this option, enter a domain name for Destination. Wildcard domain names are supported. Example:<br>![](assets/93deedebd503b7acea05d592d18d87e9.png)<br><code>*.aliyun.com</code>.<br>Note<br>By default, if an HTTP header does not contain the host field or an HTTPS request does not contain the Server Name Indication (SNI), Cloud Firewall allows the traffic. |
-   | Destination | The destination in an inbound policy. The value must be a private IP address. You must enter a CIDR block. Example: 10.1.XX.XX/24,172.16.XX.XX/32.<br>If you set Destination Type to Domain Name, enter a domain name.<br>![](assets/dda7e62d8da987dd43f2b88362fc58c7.png)<br>Wildcard domain names are supported. Example: <code>*.aliyun.com</code>. |
+   | Destination Type | The type of the traffic destination. Valid values:<br>• <strong>IP</strong>: If you select this option, enter an IP address for Destination.<br>• <strong>Address Book</strong>: If you select this option, select an address book for Destination.<br>• <strong>Domain Name</strong>: If you select this option, enter a domain name for Destination. Wildcard domain names are supported. Example:<br>![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/93deedebd503b7acea05d592d18d87e9.png)<br><code>*.aliyun.com</code>.<br>Note<br>By default, if an HTTP header does not contain the host field or an HTTPS request does not contain the Server Name Indication (SNI), Cloud Firewall allows the traffic. |
+   | Destination | The destination in an inbound policy. The value must be a private IP address. You must enter a CIDR block. Example: 10.1.XX.XX/24,172.16.XX.XX/32.<br>If you set Destination Type to Domain Name, enter a domain name.<br>![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/dda7e62d8da987dd43f2b88362fc58c7.png)<br>Wildcard domain names are supported. Example: <code>*.aliyun.com</code>. |
    | Protocol | The protocol of the traffic. Valid values:<br>• <strong>ANY</strong>: all protocols<br>• TCP<br>• UDP<br>• ICMP |
    | Port Type | The port type of the destination. Valid values: <strong>Ports</strong> and <strong>address book</strong>. |
    | Port | The port range of the traffic. The value 0/0 indicates all ports.<br>• If you set <strong>Port Type</strong> to <strong>Ports</strong>, enter a port range.<br>• If you set <strong>Port Type</strong> to <strong>Address Book</strong>, select a port address book.<br>Note<br>If you set Protocol to ICMP, the port configuration does not take effect.If you set Protocol to ANY, the port configuration does not take effect in ICMP traffic control. |
@@ -433,7 +433,7 @@ By default, an IDC-VPC firewall allows all traffic. If you want to control traff
 
    After the policy is created, it is displayed in the policy list. You can also perform the following operations:
 
-   - Download the policy: Click the <img src="assets/cd96bad908cba88c92ad0d77095bd90a.png" width="13" alt=""> icon above the policy list.
+   - Download the policy: Click the <img src="en-cfw-user-guide-v3.18.6-2607-20260911.assets/cd96bad908cba88c92ad0d77095bd90a.png" width="13" alt=""> icon above the policy list.
 
    - Modify or delete the policy: Click **Modify** or **Delete** in the **Actions** column of the policy.
 
@@ -648,7 +648,7 @@ An IDC-VPC firewall can detect the traffic between a data center and a virtual p
 
 4. On the **Firewall Switches** page, click the **IDC-VPC** tab. In the upper-right corner of the tab, click **Create**.
 
-   ![](assets/99b472b78581d8bbb6c0167497862e86.png)
+   ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/99b472b78581d8bbb6c0167497862e86.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -684,7 +684,7 @@ Cloud Firewall uses a built-in threat detection engine to defend against intrusi
 
 4. Select a running mode for the threat engine.
 
-   ![](assets/f42f60bebf76fd2cb4155265cf32cb7c.png)
+   ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/f42f60bebf76fd2cb4155265cf32cb7c.png)
 
    Valid values: **Monitoring Mode** and **Traffic Control Mode**.
 
@@ -712,7 +712,7 @@ Cloud Firewall uses a built-in threat detection engine to defend against intrusi
 
 5. Configure the advanced features.
 
-   ![](assets/59b970aef46434f7f3525ca8ca48af72.png)
+   ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/59b970aef46434f7f3525ca8ca48af72.png)
 
    - Cloud Firewall allows traffic from IP addresses in the whitelists that you configured.
 
@@ -720,7 +720,7 @@ Cloud Firewall uses a built-in threat detection engine to defend against intrusi
 
      You can add trusted source IP addresses, destination IP addresses, or address books of both inbound and outbound traffic to the whitelist.
 
-     ![](assets/e52b5b56ccdfcbab3da6838cbe5e04d3.png)
+     ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/e52b5b56ccdfcbab3da6838cbe5e04d3.png)
 
    - The basic protection feature defends against common intrusions, such as brute-force attacks and attacks that exploit command execution vulnerabilities. The basic protection feature also manages connections from compromised hosts to a command and control (C&C) server. After you enable the basic protection feature, it provides basic protection for your assets.
 
@@ -740,7 +740,7 @@ Cloud Firewall uses a built-in threat detection engine to defend against intrusi
 
      </ol>
 
-     ![](assets/b61c59cedca767f023c546a75be4bd24.png)
+     ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/b61c59cedca767f023c546a75be4bd24.png)
 
    - Virtual patches are installation-free. You can use them to protect against common high-risk application vulnerabilities.
 
@@ -760,7 +760,7 @@ Cloud Firewall uses a built-in threat detection engine to defend against intrusi
 
      </ol>
 
-     ![](assets/f416c9a39e32504a86012ac16d19f561.png)
+     ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/f416c9a39e32504a86012ac16d19f561.png)
 
 <a id="section-3-5"></a>
 
@@ -812,7 +812,7 @@ All traffic that passes through Cloud Firewall is recorded on the Log Audit page
 
 5. Specify the search condition and click **Search**.
 
-   ![](assets/d834576aac7d336c66805113380e54f6.png)
+   ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/d834576aac7d336c66805113380e54f6.png)
 
    > **Note**
    >
@@ -857,7 +857,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -919,7 +919,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
 2. On the Forgot Password page, configure the **Account Name** and **Email Address** parameters, specify the verification code, and then click **Confirm**.
 
-   ![](assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
+   ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
 
    > **Note**
    >
@@ -1059,7 +1059,7 @@ You can view vulnerabilities, baselines, and server exceptions on the Server Gua
 
 4. On the **Server Guard Rules** tab, view the information about Server Guard rules.
 
-   ![](assets/af67e9dabe0ddc8ad8ef347a137dec79.png)
+   ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/af67e9dabe0ddc8ad8ef347a137dec79.png)
 
    | Item | Description |
    | --- | --- |
@@ -1341,7 +1341,7 @@ You can use the Cloud Firewall monitoring feature to monitor the status of Cloud
 
      > **Note**
      >
-     > In each section, you can select a check frequency from the **automatic check** drop-down list to specify an automatic check frequency for the CIDR block. You can also click the <img src="assets/0526000caad07c926708a20f44fe8be6.png" width="13" alt=""> icon to manually refresh the check frequency for the CIDR block.
+     > In each section, you can select a check frequency from the **automatic check** drop-down list to specify an automatic check frequency for the CIDR block. You can also click the <img src="en-cfw-user-guide-v3.18.6-2607-20260911.assets/0526000caad07c926708a20f44fe8be6.png" width="13" alt=""> icon to manually refresh the check frequency for the CIDR block.
 
      </li>
 
@@ -1482,7 +1482,7 @@ Cloud Security Operations Center is an operations platform for Apsara Stack Secu
 
 2. In the address bar, enter the URL. Then, press the Enter key.
 
-   ![](assets/031c4f07f59cbc926ff25affbc55c3ec.png)
+   ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/031c4f07f59cbc926ff25affbc55c3ec.png)
 
    > **Note**
    >
@@ -1514,7 +1514,7 @@ Cloud Security Operations Center is an operations platform for Apsara Stack Secu
 
 On the **Cloud Security Operations Center** page, you can view the following information.
 
-![](assets/6f714507cc9a011677f87bc207837b5b.jpeg)
+![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/6f714507cc9a011677f87bc207837b5b.jpeg)
 
 <a id="section-4-7-2"></a>
 
@@ -1532,7 +1532,7 @@ You can use the system monitoring feature to monitor integrated cloud services a
 
    - On the **Monitoring Overview** tab, view the following information.
 
-     ![](assets/5ed49ba03635d5d2f4f338f0a8192623.png)
+     ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/5ed49ba03635d5d2f4f338f0a8192623.png)
 
      - Overview: You can view the total numbers of monitored services, abnormal services, metrics, and exceptions.
 
@@ -1544,7 +1544,7 @@ You can use the system monitoring feature to monitor integrated cloud services a
 
      - Monitoring scope:
 
-       ![](assets/9e4ddea67f29eafcd0514f0d0468c075.jpeg)
+       ![](en-cfw-user-guide-v3.18.6-2607-20260911.assets/9e4ddea67f29eafcd0514f0d0468c075.jpeg)
 
        - Click a cloud service tab to view all sub-services of the cloud service in the section marked 2 in the preceding figure.
 
@@ -1560,11 +1560,11 @@ You can use the system monitoring feature to monitor integrated cloud services a
          <table>
            <tr>
              <td>Basic monitor ing</td>
-             <td>• You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually refresh the monitoring data. You can<br>also turn on Automatic Refresh to automatically refresh the monitoring data.<br>• Valid values for the View parameter: Cluster View and Single-server View.<br>• You can view the following metrics: CPU usage (%), memory capacity (%), workloads, the number of TCP connections, the number of processes, and the QPS of NGINX.</td>
+             <td>• You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="en-cfw-user-guide-v3.18.6-2607-20260911.assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually refresh the monitoring data. You can<br>also turn on Automatic Refresh to automatically refresh the monitoring data.<br>• Valid values for the View parameter: Cluster View and Single-server View.<br>• You can view the following metrics: CPU usage (%), memory capacity (%), workloads, the number of TCP connections, the number of processes, and the QPS of NGINX.</td>
            </tr>
            <tr>
              <td>Middle ware</td>
-             <td>• You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually refresh the monitoring data. You can<br>also turn on Automatic Refresh to automatically refresh the monitoring data.<br>• Valid values for the View parameter: Cluster View and Single-server View.<br>• You can view the following monitoring data: the QPS of MetaQ, the number of GCs in the JVM, the amount of time consumed to monitor GCs in the JVM, the amount of JVM memory, the number of loaded classes in the JVM, the numbers of JVM threads in different statuses, the number of JVM threads, the QPS of HSF, the response time of HSF<br>(ms), and database usage (%).</td>
+             <td>• You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="en-cfw-user-guide-v3.18.6-2607-20260911.assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually refresh the monitoring data. You can<br>also turn on Automatic Refresh to automatically refresh the monitoring data.<br>• Valid values for the View parameter: Cluster View and Single-server View.<br>• You can view the following monitoring data: the QPS of MetaQ, the number of GCs in the JVM, the amount of time consumed to monitor GCs in the JVM, the amount of JVM memory, the number of loaded classes in the JVM, the numbers of JVM threads in different statuses, the number of JVM threads, the QPS of HSF, the response time of HSF<br>(ms), and database usage (%).</td>
            </tr>
            <tr>
              <td>Health check</td>
@@ -1667,7 +1667,7 @@ The upgrade center supports automatic import and manual import of update package
 
      <li>
 
-     Click Import Upgrade Package and drag the downloaded update packages to the dotted box. You can also click the <img src="assets/0c6e64f55ccb0a4c673c33a8668a98c1.png" width="13" alt=""> icon to upload the update packages.
+     Click Import Upgrade Package and drag the downloaded update packages to the dotted box. You can also click the <img src="en-cfw-user-guide-v3.18.6-2607-20260911.assets/0c6e64f55ccb0a4c673c33a8668a98c1.png" width="13" alt=""> icon to upload the update packages.
 
      > **Note**
      >

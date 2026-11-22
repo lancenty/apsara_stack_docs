@@ -886,7 +886,7 @@ This topic describes how to create a Java job.
   | attemptInterval | Int | No | 30 | The retry interval after a fault. Unit: seconds. |
   | mapTaskXAttrs | MapTaskXAttrs | No | None | The advanced configuration.This parameter is applicable only to parallel computing, memory grid, and grid computing jobs. |
 
-  ![](assets/d2fb8c789e53257e20e4b8e7165a6ddb.png)
+  ![](en-schedulerx-developer-guide-v3.18.6-20260701.assets/d2fb8c789e53257e20e4b8e7165a6ddb.png)
 
   <table>
     <tr>
@@ -2263,7 +2263,7 @@ SchedulerXResult&lt;GetJobInstanceResponse>
   | attempt | Int | The number of retries for the task instance. |
   | parameters | String | The parameters of the task instance. |
 
-![](assets/7f72fc20f6003dc5d4a9b4191d966695.png)
+![](en-schedulerx-developer-guide-v3.18.6-20260701.assets/7f72fc20f6003dc5d4a9b4191d966695.png)
 
 **Code example**
 

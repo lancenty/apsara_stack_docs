@@ -142,7 +142,7 @@ This topic describes how to navigate to the Server Load Balancer (SLB) console a
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-slb-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -307,11 +307,11 @@ When you create ECS instances, take note of the following items:
 
   - Enter the elastic IP address (EIP) that is associated with ECS01 in the address bar of your browser.
 
-    ![](assets/e6708ddfccb5e5691d7ba297beb414ee.png)
+    ![](en-slb-user-guide-v3.18.6-2607-20260828.assets/e6708ddfccb5e5691d7ba297beb414ee.png)
 
   - Enter the EIP that is associated with ECS02 in the address bar of your browser.
 
-    ![](assets/653275395da9dd1d67e59e3b82474284.png)
+    ![](en-slb-user-guide-v3.18.6-2607-20260828.assets/653275395da9dd1d67e59e3b82474284.png)
 
   No additional configurations are required after you deploy applications on the ECS instances. If you want to use a Layer 4 (TCP or UDP) listener and your ECS instances run Linux, make sure that the following parameters in the net.ipv4.conf file of the /etc/sysctl.conf directory are set to 0:
 
@@ -456,7 +456,7 @@ A Server Load Balancer (SLB) instance is an entity that provides load balancing 
 
 7. **(Optional)** After creating the instance, you can download its details. On the **Instance**
 
-   **Management** page, click the <img src="assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt=""> icon in the upper-right corner. Select the columns to
+   **Management** page, click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt=""> icon in the upper-right corner. Select the columns to
 
    include, such as Instance ID, Organization, and Resource Group, and then click **OK**.
 
@@ -556,7 +556,7 @@ This topic describes how to configure a Server Load Balancer (SLB) instance. To 
 
 9. In the **SLB Configuration Wizard** message, wait until the configurations are complete and click **OK**.
 
-0. Return to the **Instance Management** page. Then, click the <img src="assets/0261d4c5ced418613acefa164893d6b9.png" width="13" alt=""> icon to refresh the page.
+0. Return to the **Instance Management** page. Then, click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/0261d4c5ced418613acefa164893d6b9.png" width="13" alt=""> icon to refresh the page.
 
    If the health check status of the backend ECS instances is **Running**, the backend ECS instances can process requests distributed from the SLB instance.
 
@@ -564,11 +564,11 @@ This topic describes how to configure a Server Load Balancer (SLB) instance. To 
 
    Figure 1: ECS01
 
-   ![](assets/459dbc89ea019c5eb8994e47699a50a8.jpeg)
+   ![](en-slb-user-guide-v3.18.6-2607-20260828.assets/459dbc89ea019c5eb8994e47699a50a8.jpeg)
 
    Figure 2: ECS02
 
-   ![](assets/c3cbc40637d1e7dce735638abc00db0a.jpeg)
+   ![](en-slb-user-guide-v3.18.6-2607-20260828.assets/c3cbc40637d1e7dce735638abc00db0a.jpeg)
 
 <a id="section-3-5"></a>
 
@@ -661,11 +661,11 @@ stream {
 
 - The following example shows how an IPv4 client IP address is carried in the Proxy Protocol V2 header in the binary format.
 
-  ![](assets/da5e1ab01b7c62f5675138a0f183d42a.jpeg)
+  ![](en-slb-user-guide-v3.18.6-2607-20260828.assets/da5e1ab01b7c62f5675138a0f183d42a.jpeg)
 
 - The following example shows how an IPv6 client IP address is carried in the Proxy Protocol V2 header in the binary format.
 
-  ![](assets/d1824534006a8ee64b1357a29389cb9f.jpeg)
+  ![](en-slb-user-guide-v3.18.6-2607-20260828.assets/d1824534006a8ee64b1357a29389cb9f.jpeg)
 
 <a id="section-3-7"></a>
 
@@ -733,9 +733,9 @@ If multiple ENIs are associated with the ECS instance that you want to add to an
 
    After you add backend servers to the server group of the listener, you can view the server group that contains the primary and secondary ENIs on the **Instances** page.
 
-   <img src="assets/845be9e1b7bc3b09b2542d90a07bcb47.png" width="13" alt=""> : indicates an ECS instance.
+   <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/845be9e1b7bc3b09b2542d90a07bcb47.png" width="13" alt=""> : indicates an ECS instance.
 
-   <img src="assets/ebfc6a05ad3d04795a39ee5486bf6e1d.png" width="13" alt=""> : indicates the primary and secondary ENIs.
+   <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/ebfc6a05ad3d04795a39ee5486bf6e1d.png" width="13" alt=""> : indicates the primary and secondary ENIs.
 
 2. Select the ECS instances that you want to add and click **Create**. In the **Confirm** message, click **OK**.
 
@@ -779,7 +779,7 @@ This topic describes how to view the total number of instances and quotas on pub
 
 Server Load Balancer (SLB) balances loads by distributing requests from clients across backend servers. To use SLB, you must create an SLB instance and add listeners and backend servers to the SLB instance.
 
-![](assets/d861d68c248d8bfffe43783193b3d6e5.png)
+![](en-slb-user-guide-v3.18.6-2607-20260828.assets/d861d68c248d8bfffe43783193b3d6e5.png)
 
 **Instance types**
 
@@ -990,7 +990,7 @@ A Classic Load Balancer (CLB) instance is a running instance of the load balanci
 
 7. **(Optional)** After creating the instance, you can download its details. On the **Instance**
 
-   **Management** page, click the <img src="assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt=""> icon in the upper-right corner. Select the columns to
+   **Management** page, click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt=""> icon in the upper-right corner. Select the columns to
 
    include, such as Instance ID, Organization, and Resource Group, and then click **OK**.
 
@@ -1006,23 +1006,23 @@ The **Instance Management** page lists your created CLB instances.
 
 - You can search for a target instance by entering keywords or by using advanced filters with specific criteria.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to customize which columns to show or
+- Click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to customize which columns to show or
 
   hide, and to drag and drop to reorder columns.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a specific column name for extended sorting options.
+- Click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a specific column name for extended sorting options.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
+- Click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Service address** column to filter instances by service
+- Click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Service address** column to filter instances by service
 
   address type.
 
-- Click the <img src="assets/d77135756bd6c515d5aa536c22693292.png" width="21" alt=""> icon in the **Monitoring** column to view instance, port, and high-precision
+- Click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/d77135756bd6c515d5aa536c22693292.png" width="21" alt=""> icon in the **Monitoring** column to view instance, port, and high-precision
 
   second-level monitoring information for the target CLB instance.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the right of the **Instance ID/name** column to modify the name of the
+- Click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the right of the **Instance ID/name** column to modify the name of the
 
   target CLB instance.
 
@@ -1082,7 +1082,7 @@ You can release instances that are no longer needed.
 
 You can change the instance specification of a Guaranteed-Performance CLB instance to meet your performance requirements.
 
-1. On the **Instance Management** page, find the target instance, and in the **Actions** column, click <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> **> Modify Specification**.
+1. On the **Instance Management** page, find the target instance, and in the **Actions** column, click <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> **> Modify Specification**.
 
 2. On the **Modify SLB Specification** page<strong>,</strong> modify the **Instance Specification** and **Bandwidth Limit** settings based on your performance requirements, and then click **Submit**.
 
@@ -1098,7 +1098,7 @@ You can modify the service address.
 >
 > - Before modifying the IP address, you must disable release protection for the instance and ensure that the new IP address is not already allocated.
 
-1. On the **Instance Management** page, find the target instance, and in the **Actions** column, click <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> **> Modify IP Address**.
+1. On the **Instance Management** page, find the target instance, and in the **Actions** column, click <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> **> Modify IP Address**.
 
 2. In the **Modify IP Address** panel, configure the following parameters and click **OK**.
 
@@ -1126,7 +1126,7 @@ You can modify the service address.
 
    - Click the **Instance Details** tab to view or manage basic information, specification information, and EIP information for the CLB instance.
 
-     - In the **Basic information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to **Instance Name** to modify
+     - In the **Basic information** section, click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to **Instance Name** to modify
 
        the name of the CLB instance.
 
@@ -1407,7 +1407,7 @@ On the Listeners tab, find the listener that you want to manage and click the na
 
 **Remove listeners**
 
-1. Remove a single listener: On the Listeners tab, find the listener that you want to remove, move the pointer over the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Delete**.
+1. Remove a single listener: On the Listeners tab, find the listener that you want to remove, move the pointer over the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Delete**.
 
    Remove multiple listeners at a time: On the Listeners tab, select the listeners that you want to remove and click **Delete** in the lower-left corner.
 
@@ -1425,7 +1425,7 @@ On the Listeners tab, find the listener that you want to manage and click the na
 >
 > - If you enable a whitelist or blacklist but do not add an IP address to the whitelist or blacklist, all requests are forwarded.
 
-1. On the Listeners tab, find the listener that you want to manage, move the pointer over the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Configure Access Control**. You can also
+1. On the Listeners tab, find the listener that you want to manage, move the pointer over the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Configure Access Control**. You can also
 
    click **Configure** in the **Access Control** column.
 
@@ -1678,7 +1678,7 @@ On the Listeners tab, find the listener that you want to manage and click the na
 
 **Remove listeners**
 
-1. Remove a single listener: On the Listeners tab, find the listener that you want to remove, move the pointer over the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Delete**.
+1. Remove a single listener: On the Listeners tab, find the listener that you want to remove, move the pointer over the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Delete**.
 
    Remove multiple listeners at a time: On the Listeners tab, select the listeners that you want to remove and click **Delete** in the lower-left corner.
 
@@ -1696,7 +1696,7 @@ On the Listeners tab, find the listener that you want to manage and click the na
 >
 > - If you enable a whitelist or blacklist but do not add an IP address to the whitelist or blacklist, all requests are forwarded.
 
-1. On the Listeners tab, find the listener that you want to manage, move the pointer over the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Configure Access Control**. You can also
+1. On the Listeners tab, find the listener that you want to manage, move the pointer over the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Configure Access Control**. You can also
 
    click **Configure** in the **Access Control** column.
 
@@ -1932,7 +1932,7 @@ On the Listeners tab, find the listener that you want to manage and click the na
 
 **Remove listeners**
 
-1. Remove a single listener: On the Listeners tab, find the listener that you want to remove, move the pointer over the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Delete**.
+1. Remove a single listener: On the Listeners tab, find the listener that you want to remove, move the pointer over the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Delete**.
 
    Remove multiple listeners at a time: On the Listeners tab, select the listeners that you want to remove and click **Delete** in the lower-left corner.
 
@@ -1950,7 +1950,7 @@ On the Listeners tab, find the listener that you want to manage and click the na
 >
 > - If you enable a whitelist or blacklist but do not add an IP address to the whitelist or blacklist, all requests are forwarded.
 
-1. On the Listeners tab, find the listener that you want to manage, move the pointer over the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Configure Access Control**. You can also
+1. On the Listeners tab, find the listener that you want to manage, move the pointer over the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Configure Access Control**. You can also
 
    click **Configure** in the **Access Control** column.
 
@@ -2231,7 +2231,7 @@ On the Listeners tab, find the listener that you want to manage and click the na
 
 **Remove listeners**
 
-1. Remove a single listener: On the Listeners tab, find the listener that you want to remove, move the pointer over the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Delete**.
+1. Remove a single listener: On the Listeners tab, find the listener that you want to remove, move the pointer over the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Delete**.
 
    Remove multiple listeners at a time: On the Listeners tab, select the listeners that you want to remove and click **Delete** in the lower-left corner.
 
@@ -2249,7 +2249,7 @@ On the Listeners tab, find the listener that you want to manage and click the na
 >
 > - If you enable a whitelist or blacklist but do not add an IP address to the whitelist or blacklist, all requests are forwarded.
 
-1. On the Listeners tab, find the listener that you want to manage, move the pointer over the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Configure Access Control**. You can also
+1. On the Listeners tab, find the listener that you want to manage, move the pointer over the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Configure Access Control**. You can also
 
    click **Configure** in the **Access Control** column.
 
@@ -2496,7 +2496,7 @@ To configure an HTTPS listener to distribute HTTPS requests that are destined fo
 
 4. On the **Instances** page, find the target instance, then click its instance ID in the **Instance ID/Instance Name** column, or click **Manage** in the **Actions** column.
 
-5. On the instance management details page, click the **Listeners** tab. On the **Listeners** tab, find the HTTPS listener that you want to manage, move the pointer over the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> **> Actions**
+5. On the instance management details page, click the **Listeners** tab. On the **Listeners** tab, find the HTTPS listener that you want to manage, move the pointer over the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> **> Actions**
 
    **> Manage Additional Certificate**
 
@@ -3416,7 +3416,7 @@ This topic describes the primary/secondary vServer group feature. A Server Load 
 
 **Architecture**
 
-![](assets/02ec22f0834e1a434fc2736b2524b440.png)
+![](en-slb-user-guide-v3.18.6-2607-20260828.assets/02ec22f0834e1a434fc2736b2524b440.png)
 
 > **Note**
 >
@@ -3532,7 +3532,7 @@ SLB instances are deployed in clusters. Nodes in a Linux virtual server (LVS) or
 
 Nodes in an LVS cluster forward data and perform health checks independently and in parallel based on the configured load balancing policies. If a node in an LVS cluster detects an unhealthy backend ECS instance, the node stops sending client requests to the unhealthy ECS instance. This operation is synchronized across all of the nodes in the LVS cluster. The following figure shows how health checks work.
 
-![](assets/63b64019db4721dc2f992128351e8d7b.png)
+![](en-slb-user-guide-v3.18.6-2607-20260828.assets/63b64019db4721dc2f992128351e8d7b.png)
 
 SLB uses the CIDR block 100.64.0.0/10 for health checks. Make sure that the backend ECS instances do not block this CIDR block. You do not need to configure a security group rule to allow access from the CIDR block 100.64.0.0/10 unless security rules such as iptables are configured. Permitting 100.64.0.0/10 does not increase potential risks because this CIDR block is reserved by Apsara Stack. IP addresses within this CIDR block are not allocated to users.
 
@@ -3540,7 +3540,7 @@ SLB uses the CIDR block 100.64.0.0/10 for health checks. Make sure that the back
 
 If you add Layer 7 HTTP or HTTPS listeners to your SLB instance, SLB checks the status of backend ECS instances by sending HTTP HEAD requests, as shown in the following figure.
 
-![](assets/73cc3b5aef39a2e737bfe3cb608693fa.jpeg)
+![](en-slb-user-guide-v3.18.6-2607-20260828.assets/73cc3b5aef39a2e737bfe3cb608693fa.jpeg)
 
 For HTTPS listeners, certificates are managed in SLB. To improve system performance, HTTPS is not used to exchange data, including health check data and business data, between the SLB instance and backend ECS instances.
 
@@ -3558,7 +3558,7 @@ How SLB performs Layer 7 health checks:
 
 If you add TCP listeners to your SLB instance, SLB performs Layer 4 health checks by establishing TCP sessions, as shown in the following figure. This improves the health check efficiency.
 
-![](assets/03f0321f9ab84b84380f9bf041c79f2e.jpeg)
+![](en-slb-user-guide-v3.18.6-2607-20260828.assets/03f0321f9ab84b84380f9bf041c79f2e.jpeg)
 
 How SLB performs TCP health checks:
 
@@ -3586,7 +3586,7 @@ How SLB performs TCP health checks:
 
 If you add UDP listeners to your SLB instance, SLB checks the status of backend ECS instances by sending UDP packets, as shown in the following figure.
 
-![](assets/540cecce22bec3090c75f5b44c380fee.jpeg)
+![](en-slb-user-guide-v3.18.6-2607-20260828.assets/540cecce22bec3090c75f5b44c380fee.jpeg)
 
 How SLB performs UDP health checks:
 
@@ -3622,7 +3622,7 @@ Health check time windows are calculated based on the following formulas:
 
 - Time window for health check failures = Response timeout period × Unhealthy threshold + Health check interval × (Unhealthy threshold - 1)
 
-  ![](assets/4888a6491af244ecba85dfa86ce44d39.png)
+  ![](en-slb-user-guide-v3.18.6-2607-20260828.assets/4888a6491af244ecba85dfa86ce44d39.png)
 
 - Time window for health check successes = Response time of a successful health check × Healthy threshold + Health check interval × (Healthy threshold - 1)
 
@@ -3630,7 +3630,7 @@ Health check time windows are calculated based on the following formulas:
   >
   > The response time of a successful health check is the duration from the time when a health check request is sent to the time when a response is received. When TCP health checks are configured, the response time is short and almost negligible because the only check item is whether the probed port is alive. When HTTP health checks are configured, the response time varies based on the performance and load of the application server and is typically within a few seconds.
 
-  ![](assets/01fa7dd6f32d86abf58daa17333c9b81.png)
+  ![](en-slb-user-guide-v3.18.6-2607-20260828.assets/01fa7dd6f32d86abf58daa17333c9b81.png)
 
 The health check result has the following impacts on request forwarding:
 
@@ -3640,7 +3640,7 @@ The health check result has the following impacts on request forwarding:
 
 - If an exception occurs on the backend ECS instance and a request arrives during the time window for health check failures, the request is still sent to the unhealthy backend ECS instance. This is because the number of failed health checks has not reached the unhealthy threshold (three times by default). In this case, the client fails to access the application.
 
-![](assets/fc9087433116963fb568b58147d0125c.jpeg)
+![](en-slb-user-guide-v3.18.6-2607-20260828.assets/fc9087433116963fb568b58147d0125c.jpeg)
 
 **Examples of the health check response timeout period and the health check interval**
 
@@ -3658,7 +3658,7 @@ Time window for health check failures = Response timeout period × Unhealthy thr
 
 The following figure shows the time window from a healthy status to an unhealthy status.
 
-![](assets/192b536eb215b828c40d9bc4d97d1012.png)
+![](en-slb-user-guide-v3.18.6-2607-20260828.assets/192b536eb215b828c40d9bc4d97d1012.png)
 
 Time window for health check successes = Response time of a successful health check × Healthy threshold + Health check interval × (Healthy threshold - 1). In this example, the time window is 7 seconds based on the following formula: (1 × 3) + 2 × (3 - 1). If a backend server responds within 7 seconds, the backend server is considered healthy.
 
@@ -3668,7 +3668,7 @@ Time window for health check successes = Response time of a successful health ch
 
 The following figure shows the time window from an unhealthy status to a healthy status. In the following figure, the amount of time that is required for the server to respond to a health check request is 1 second.
 
-![](assets/c88177969ac8f6c6bfbd7fbbb6246adb.png)
+![](en-slb-user-guide-v3.18.6-2607-20260828.assets/c88177969ac8f6c6bfbd7fbbb6246adb.png)
 
 **Domain names for HTTP health checks**
 
@@ -3851,7 +3851,7 @@ You can view the monitoring data of a Server Load Balancer (SLB) instance in Clo
 
    icon in the Monitoring column.
 
-   ![](assets/f851aed3cd293f94f5f269ea9df08f03.png)
+   ![](en-slb-user-guide-v3.18.6-2607-20260828.assets/f851aed3cd293f94f5f269ea9df08f03.png)
 
 5. In the Monitoring panel, view the monitoring data of the SLB instance.
 
@@ -3973,7 +3973,7 @@ This topic describes how to view the details of a Server Load Balancer (SLB) ins
 
    - In the **Basic Information** section of the Instance Details tab, find the **Instance Name**
 
-     parameter, move the pointer over the parameter value, and then click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon. You
+     parameter, move the pointer over the parameter value, and then click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon. You
 
      can modify the name of the SLB instance.
 
@@ -4271,21 +4271,21 @@ On the **Certificate Management** page, you can view information about certifica
 
 - Enter a keyword or click **Advanced Filter** and enter a search condition to search for certificates.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to select the columns that you want to
+- Click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to select the columns that you want to
 
   show or hide. You can also drag the columns to adjust the order.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Certificate Status** column and select **Normal** or **Expired** to
+- Click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Certificate Status** column and select **Normal** or **Expired** to
 
   filter certificates.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Certificate Type** column and select a certificate type to filter
+- Click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Certificate Type** column and select a certificate type to filter
 
   certificates.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Sharing Scope** column and select an item to filter certificates.
+- Click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Sharing Scope** column and select an item to filter certificates.
 
-- Find a certificate and click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name in the **Certificate ID/Name**
+- Find a certificate and click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name in the **Certificate ID/Name**
 
   column to modify its name.
 
@@ -4722,7 +4722,7 @@ On the **Access Control** page, you can view the existing ACLs.
 
 - Enter a keyword or click **Advanced Filter** to search for ACLs that meet the specified conditions.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to specify the columns that you want to show or
+- Click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to specify the columns that you want to show or
 
   hide and adjust the order of the columns by dragging them.
 
@@ -4732,7 +4732,7 @@ On the **Access Control** page, you can view the existing ACLs.
 
 1. On the **Access Control** page, find the ACL whose name you want to modify, move the
 
-   pointer over the ACL name in the **ACL Name/ID** column, and then click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon.
+   pointer over the ACL name in the **ACL Name/ID** column, and then click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon.
 
 2. In the dialog box that appears, modify the **ACL Name** parameter and click **OK**.
 
@@ -4828,7 +4828,7 @@ Server Load Balancer (SLB) allows you to increase the quota on access control li
 
 4. In the **Resource Name** search box, enter **rule** to search for resources whose name is **rule** and type is **dns**.
 
-5. In the **Resource Application Result** column, click the <img src="assets/310ea92fb5fa6ea06973a1b466eedbec.jpeg" width="22" alt=""> icon.
+5. In the **Resource Application Result** column, click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/310ea92fb5fa6ea06973a1b466eedbec.jpeg" width="22" alt=""> icon.
 
 6. Click the information in the column. In the **Resource Application Result** message, view the value of the **dns** parameter, which is the **openapi.endpoint**.
 
@@ -4983,7 +4983,7 @@ Server Load Balancer (SLB) allows you to add tags. You can add tags to a single 
 
      On the **Instance Management** page, find the SLB instance that you want to manage,
 
-     move the pointer over the **Tag** column, and then click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon.
+     move the pointer over the **Tag** column, and then click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon.
 
      </li>
 
@@ -5062,13 +5062,13 @@ Server Load Balancer (SLB) allows you to remove tags. You can remove tags from a
 
      On the **Instance Management** page, find the SLB instance that you want to manage,
 
-     move the pointer over the **Tag** column, and then click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon.
+     move the pointer over the **Tag** column, and then click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon.
 
      </li>
 
      <li>
 
-     In the **Edit Tags** dialog box, click the <img src="assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt=""> icon next to the tag that you want to remove
+     In the **Edit Tags** dialog box, click the <img src="en-slb-user-guide-v3.18.6-2607-20260828.assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt=""> icon next to the tag that you want to remove
 
      and click **OK**.
 

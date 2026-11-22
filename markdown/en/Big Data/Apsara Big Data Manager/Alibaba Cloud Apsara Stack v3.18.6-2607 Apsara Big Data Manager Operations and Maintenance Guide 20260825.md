@@ -28,7 +28,7 @@ You can perform routine maintenance on Apsara Big Data Manager (ABM) in the Apsa
 
 1. Log in to the ABM console.
 
-2. In the upper-left corner of the ABM console, click the <img src="assets/a59c3f640c0b4bec4fe057177a34ed3e.png" width="15" alt=""> icon and select **TIANJI** to go to the
+2. In the upper-left corner of the ABM console, click the <img src="en-apsara-big-data-manager-operations-guide-v3.18.6-2607-20260825.assets/a59c3f640c0b4bec4fe057177a34ed3e.png" width="15" alt=""> icon and select **TIANJI** to go to the
 
    homepage of the Apsara Infrastructure Management console.
 
@@ -58,7 +58,7 @@ ABM cluster alerts are classified into Critical, Warning, and Exception alerts. 
 
 1. After you log on to the ABM console, the **Dashboard** page appears by default.
 
-   To return to the **Dashboard** page from another page, click the <img src="assets/5c058885a779d5b150e2892858254ec0.png" width="16" alt=""> icon in the upper-left
+   To return to the **Dashboard** page from another page, click the <img src="en-apsara-big-data-manager-operations-guide-v3.18.6-2607-20260825.assets/5c058885a779d5b150e2892858254ec0.png" width="16" alt=""> icon in the upper-left
 
    corner and select **ABM**.
 
@@ -66,17 +66,17 @@ ABM cluster alerts are classified into Critical, Warning, and Exception alerts. 
 
    This page displays all the monitoring items and check results of the cluster.
 
-3. On the **Degree of health** page, click the <img src="assets/b4ecdf8dd1a72114dd0cfb99171f8c37.png" width="18" alt=""> icon on the left of a checker. You can view all
+3. On the **Degree of health** page, click the <img src="en-apsara-big-data-manager-operations-guide-v3.18.6-2607-20260825.assets/b4ecdf8dd1a72114dd0cfb99171f8c37.png" width="18" alt=""> icon on the left of a checker. You can view all
 
    hosts where the checker is run.
 
 4. Click a hostname. In the panel that appears, find the alert that you want to manage and click **Details** in the Actions column to view the cause of the alert.
 
-   ![](assets/521a164d4693833d5fd5fc19b8d51bb5.png)
+   ![](en-apsara-big-data-manager-operations-guide-v3.18.6-2607-20260825.assets/521a164d4693833d5fd5fc19b8d51bb5.png)
 
 5. Click **Details** in the Actions column of a checker with an alert and view the solutions to the alert in the dialog box that appears.
 
-   ![](assets/22bdf5df9cdd6bf9ab9b125e5553d6ed.png)
+   ![](en-apsara-big-data-manager-operations-guide-v3.18.6-2607-20260825.assets/22bdf5df9cdd6bf9ab9b125e5553d6ed.png)
 
 6. Handle the alert based on the solutions.
 
@@ -88,11 +88,11 @@ ABM cluster alerts are classified into Critical, Warning, and Exception alerts. 
 
 You may need to log in to a host to handle alerts or other issues that occur on the host.
 
-1. On the **Degree of health** page, click the <img src="assets/b4ecdf8dd1a72114dd0cfb99171f8c37.png" width="16" alt=""> icon to expand a checker with alerts.
+1. On the **Degree of health** page, click the <img src="en-apsara-big-data-manager-operations-guide-v3.18.6-2607-20260825.assets/b4ecdf8dd1a72114dd0cfb99171f8c37.png" width="16" alt=""> icon to expand a checker with alerts.
 
-2. Click the <img src="assets/cc83b808d218af8f57ac89cc4f631bb7.png" width="16" alt=""> icon next to a hostname. The **TerminalService** page appears.
+2. Click the <img src="en-apsara-big-data-manager-operations-guide-v3.18.6-2607-20260825.assets/cc83b808d218af8f57ac89cc4f631bb7.png" width="16" alt=""> icon next to a hostname. The **TerminalService** page appears.
 
-   ![](assets/307e2903825065bea8d53f923d128b1f.png)
+   ![](en-apsara-big-data-manager-operations-guide-v3.18.6-2607-20260825.assets/307e2903825065bea8d53f923d128b1f.png)
 
 3. On the **TerminalService** page, click the hostname in the left-side navigation pane to log in to the host.
 

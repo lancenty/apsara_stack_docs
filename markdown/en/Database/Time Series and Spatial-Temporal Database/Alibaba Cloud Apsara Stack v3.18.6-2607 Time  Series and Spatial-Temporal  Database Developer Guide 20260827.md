@@ -1850,7 +1850,7 @@ Before you migrate offline data from ApsaraDB for MongoDB to LindormTable, compl
 
    <li value="500">
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="34" alt=""> icon and click **Create Workflow**.
+   On the **DataStudio** page, move the pointer over the <img src="en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/4d44c838052c2e83e757ba099b843565.png" width="34" alt=""> icon and click **Create Workflow**.
 
    </li>
 
@@ -2056,7 +2056,7 @@ Before you migrate offline data from ApsaraDB for MongoDB to LindormTable, compl
 
    <li value="500">
 
-   After you configure the batch synchronization node, save the node configurations and click the <img src="assets/0f57ff61221907c2d7f9aab326dfeb60.png" width="22" alt="">
+   After you configure the batch synchronization node, save the node configurations and click the <img src="en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/0f57ff61221907c2d7f9aab326dfeb60.png" width="22" alt="">
 
    icon in the upper-left part of the code editor. On the **Runtime Log** tab, you can view the progress of the migration task.
 
@@ -7021,7 +7021,7 @@ ClientOptions is a configuration class of LindormTSDBClient. You can configure C
 | <code>retryBackoffMs</code> | No | The waiting period after a write request fails. Unit: milliseconds.Default value: 1000. By default, the instance waits 1,000 milliseconds before the instance resends a failed request. | ClientOptions.Builder#setRetryBacko ffMs |
 | <code>requestTimeout</code><br><code>Ms</code> | No | The timeout period of requests.Unit: milliseconds. Default value: 90000. | ClientOptions.Builder#setRequestTi meoutMs |
 
-![](assets/380c74896f8709bb1e5aca35de4a9ab9.png)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/380c74896f8709bb1e5aca35de4a9ab9.png)
 
 <table>
   <tr>
@@ -7068,9 +7068,9 @@ ClientOptions is a configuration class of LindormTSDBClient. You can configure C
   </tr>
 </table>
 
-![](assets/f70d3331d42a2d08623f5620cb735d51.png)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/f70d3331d42a2d08623f5620cb735d51.png)
 
-![](assets/a52c94d24a783e6caafce0aa71a4e818.png)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/a52c94d24a783e6caafce0aa71a4e818.png)
 
 <a id="section-2-1-2-2"></a>
 
@@ -7656,7 +7656,7 @@ Before you use LindormTSDB SDK for Java to connect to LindormTSDB, you must inst
 
   <li>
 
-  Click the <img src="assets/2a44aca40521a20a1c80a10c9ad5c88e.png" width="16" alt=""> icon and click **JARs or directories**.
+  Click the <img src="en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/2a44aca40521a20a1c80a10c9ad5c88e.png" width="16" alt=""> icon and click **JARs or directories**.
 
   </li>
 
@@ -8932,7 +8932,7 @@ This topic describes how to use the data integration feature provided by DataWor
 
 **Synchronize data**
 
-Click the <img src="assets/cc1c73d2aafb13d7a7abd407e36c3bc6.jpeg" width="19" alt=""> icon to run the batch synchronization node, check the configurations, and submit the node.
+Click the <img src="en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/cc1c73d2aafb13d7a7abd407e36c3bc6.jpeg" width="19" alt=""> icon to run the batch synchronization node, check the configurations, and submit the node.
 
 For more information, see Deploy a node.
 
@@ -9632,7 +9632,7 @@ This topic describes the data model of LindormTSDB and the terms that are relate
 
 In scenarios where time series data is used, such as IoT, application monitoring, and Industrial Internet scenarios, data sources constantly generate time series data based on a specific cycle. A row of time series data is described by using elements such as tag, timestamp, and field. Data that has the same characteristics is stored in the same table. The following figure describes the elements.
 
-![](assets/4278ea64e37a20b04881a3298e4666f7.jpeg)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/4278ea64e37a20b04881a3298e4666f7.jpeg)
 
 | Element | Description |
 | --- | --- |
@@ -9656,11 +9656,11 @@ A LindormTSDB database provides a time-to-live (TTL)-based management mechanism 
 
 A wind turbine power station has multiple intelligent wind turbines. A table named  `Wind-generators`  is created to store information about the wind turbines. Tags are used to describe the wind turbines. The tags include  `ID` ,  `model` , and  `manufacturer` . Each of the wind turbines reports field values, such as the values of  `power`  and  `wind speed` , to a cloud database in LindormTSDB in real time.
 
-![](assets/cb2e87a6d26b962c19ddae63d775d76c.jpeg)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/cb2e87a6d26b962c19ddae63d775d76c.jpeg)
 
 The following figure shows data that corresponds to the wind turbines used in the preceding scenario.
 
-![](assets/cf409a6b3cd062466f88232cef2acc09.jpeg)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/cf409a6b3cd062466f88232cef2acc09.jpeg)
 
 A LindormTSDB database supports high-concurrency writes, provides a high compression rate, and can process the following types of queries:
 
@@ -11120,15 +11120,15 @@ Sample response:
 
 You can call this function to calculate the slope of values in a field column.
 
-![](assets/a4d33c9571b6df38821f50f1538cb448.png)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/a4d33c9571b6df38821f50f1538cb448.png)
 
 Assume that the following data points are stored in a time series:  `(t  1  ,v  1  ),`
 
-![](assets/5e2ae5811e70e7c9087e7c45814094c3.png)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/5e2ae5811e70e7c9087e7c45814094c3.png)
 
 `(t  2  ,v  2  ) ... (t  N  ,v  N  )` . If you use the RATE function to calculate the slope of the data points, N-1 data points are returned, whose timestamps and values are calculated by using the following formula:
 
-![](assets/3c12165db35f832468ed0865fb8ef439.png)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/3c12165db35f832468ed0865fb8ef439.png)
 
 > **Note**
 >
@@ -11234,7 +11234,7 @@ ERROR 9001 (0A000): UNSUPPORTED: latest/rate/delta must be the only aggregator i
 
 You can call this function to calculate the difference between each value and the value in the previous row within the same field column.
 
-![](assets/02484381c0a24d1efbc87d219ad5597a.png)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/02484381c0a24d1efbc87d219ad5597a.png)
 
 Assume that the following data points are stored in a time series:  `(t  1  ,v  1  ), (t  2  ,v  2  ) ... (t  N  ,v  N  )` . If you use the DELTA function, the following N-1 data points are returned:  `(t  2  ,v  2` - `v  1  ), (t  3  ,v  3` - `v  2  ) ... (t  N  ,v  N` - `,v  N-1  )` .
 
@@ -15047,7 +15047,7 @@ You can use time series tables to improve query performance and storage performa
 
 Modeling is critical for time series data. You need to analyze the query scenarios and the characteristics of data sources to create appropriate data tables. This way, you can obtain optimal storage and query performance. The following figure provides an example. In the example, air quality monitoring (AQM) data is used.
 
-![](assets/d868807652539a10a689e87075bb8ba4.jpeg)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/d868807652539a10a689e87075bb8ba4.jpeg)
 
 The data record that is generated at each point in time can be divided into the following parts:
 
@@ -15231,13 +15231,13 @@ For more information about the model of time series data, see Design a time seri
 
 The following figure provides an example in which a time series table is used. The data records shown in the following figure belong to the same time series. For more information about time series tables, see Design a time series table.
 
-![](assets/279bc69eaffc7465288909ed36a2bc05.png)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/279bc69eaffc7465288909ed36a2bc05.png)
 
 - If a value in a tag column changes, the data record that corresponds to the value falls in another time series. In most cases, a time series can identify a data source from which time series data is generated.
 
 - LindormTSDB creates indexes by using each **tag column**. Each of the indexes is an inverted index. The name and each value of a tag column are used as an index key to index all time series that contain the same key-value pair of the index key. The index key is used to identify the data range that corresponds to a tag from the time series dimension in a short period of time. When data is continuously written into the time series table, inverted indexes in the table change. The following figure shows the changed inverted indexes in the table.
 
-![](assets/f9280c34f94cd273c7dd9b713b6e87de.png)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/f9280c34f94cd273c7dd9b713b6e87de.png)
 
 - By default, LindormTSDB creates a Block Range Index (BRIN) for a timestamp column. This ensures that the data range that you want to query can be located in a large amount of time series data in a short period of time. LindormTSDB does not create indexes for field columns.
 
@@ -15267,7 +15267,7 @@ SELECT id, so2 FROM aqm WHERE district='yuhang' AND time >= '2019-04-18 10:00:00
 
 The following figure shows the query result.
 
-![](assets/6478294e94764d614db13ea46341fe75.jpeg)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/6478294e94764d614db13ea46341fe75.jpeg)
 
 **Query all values in a specific tag column in a time series table**
 
@@ -15279,7 +15279,7 @@ SELECT DISTINCT(id) FROM aqm;
 
 The following figure shows the query result.
 
-![](assets/2c52a1d3c21afbeb5d4238c9a1f20991.jpeg)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/2c52a1d3c21afbeb5d4238c9a1f20991.jpeg)
 
 > **Note**
 >
@@ -15295,7 +15295,7 @@ SELECT id, time, avg(pm2_5) AS avg_pm2_5, avg(so2) AS avg_so2 FROM aqm WHERE dis
 
 The following figure shows the query result.
 
-![](assets/44ec4a52a448c2bfd639034465912e37.jpeg)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/44ec4a52a448c2bfd639034465912e37.jpeg)
 
 > **Note**
 >
@@ -15311,7 +15311,7 @@ SELECT max(avg_pm2_5) AS max_avg_pm25, max(avg_so2) AS max_avg_so2 FROM (SELECT 
 
 The following figure shows the query result.
 
-![](assets/9c410e5048c8bf9574ebcc5589a36321.jpeg)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/9c410e5048c8bf9574ebcc5589a36321.jpeg)
 
 <a id="section-2-6"></a>
 
@@ -15333,15 +15333,15 @@ This topic describes how to deploy Telegraf to your existing application environ
 
    - Apply for a public endpoint on the Time Series Engine page of the Lindorm cluster. The following figure shows how to apply for a public endpoint.
 
-     ![](assets/fdf45a46ffa65c5eb9b0e19fb66878eb.png)
+     ![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/fdf45a46ffa65c5eb9b0e19fb66878eb.png)
 
    - Configure a whitelist for the Lindorm cluster. The following figure shows how to configure a whitelist.
 
-     ![](assets/7389b5e2dde3a1c1980bf7ff26e4e37e.png)
+     ![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/7389b5e2dde3a1c1980bf7ff26e4e37e.png)
 
 3. After you apply for a public endpoint for the Lindorm cluster, make sure that the application environment can be connected to the public endpoint. After you apply for a public endpoint for the Lindorm cluster, you can view the endpoint and port of the cluster on the Time Series Engine page. The following figure shows how to view the endpoint in the console.
 
-   ![](assets/caa4eea8db711cb69ba92054febd0bd9.png)
+   ![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/caa4eea8db711cb69ba92054febd0bd9.png)
 
 **Install Telegraf**
 
@@ -15382,9 +15382,9 @@ The method that is used to install Telegraf varies based on the platform where y
 
 4. Start Telegraf to collect data. After Telegraf starts to collect data, you can view the collected data on the Instance Monitoring page of the Lindorm cluster. To go to the Instance Monitoring page, **log on to the Lindorm console, click the ID of the Lindorm cluster, and then click Instance Monitoring in the left-side navigation pane**.
 
-   ![](assets/2da22344772422547d07de56526cff25.png)
+   ![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/2da22344772422547d07de56526cff25.png)
 
-   ![](assets/300f0e400689096ccb85925639198b7c.png)
+   ![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/300f0e400689096ccb85925639198b7c.png)
 
 <a id="section-2-6-2"></a>
 
@@ -15591,7 +15591,7 @@ In this topic, Grafana 10.0.x is used as an example to demonstrate how to access
 
    <li>
 
-   Click the <img src="assets/af0141271870951fb5c572b508d328a2.png" width="21" alt=""> icon in the upper-left corner and select **Manage**. Then, click the data source.
+   Click the <img src="en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/af0141271870951fb5c572b508d328a2.png" width="21" alt=""> icon in the upper-left corner and select **Manage**. Then, click the data source.
 
    </li>
 
@@ -15698,7 +15698,7 @@ In this topic, Grafana 10.0.x is used as an example to demonstrate how to access
 
    **SQL statement editor**
 
-   Click the <img src="assets/0d01e0085e334e0af5ab33d98976ed00.png" width="21" alt=""> icon in upper-right corner of the **A** section and switch the editor to Raw Query Mode.
+   Click the <img src="en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/0d01e0085e334e0af5ab33d98976ed00.png" width="21" alt=""> icon in upper-right corner of the **A** section and switch the editor to Raw Query Mode.
 
    Then, you can enter Lindorm SQL statements to perform complex queries. Sample code:
 
@@ -15722,7 +15722,7 @@ In this topic, Grafana 10.0.x is used as an example to demonstrate how to access
 
    You can specify query conditions and the tables and fields that you want to query in a template to perform simple queries. The following table describes the keywords that you can specify in the editor.
 
-   ![](assets/fc0e79f5fb3120da9170ec8858de66f8.png)
+   ![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/fc0e79f5fb3120da9170ec8858de66f8.png)
 
    | Keyword | Description |
    | --- | --- |
@@ -15860,7 +15860,7 @@ Before you start, make sure that the following prerequisites:
 
    <li>
 
-   In the **[plugins]** section, change  `;allow_loading_unsigned_plugins=`  to  `allow_loading_unsigned_plugins = alibabacloud-lindorm-datasource` . After you modify the parameter, press <img src="assets/2b40884728bbbd5ccdeff66b43108ed2.png" width="48" alt="">
+   In the **[plugins]** section, change  `;allow_loading_unsigned_plugins=`  to  `allow_loading_unsigned_plugins = alibabacloud-lindorm-datasource` . After you modify the parameter, press <img src="en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/2b40884728bbbd5ccdeff66b43108ed2.png" width="48" alt="">
 
    `CTRL + O` to save the change and press Enter to exit the edit mode.
 
@@ -15898,7 +15898,7 @@ Before you start, make sure that the following prerequisites:
 
    icon on the left and select **Data Sources** from the drop-down list.
 
-   <img src="assets/28ec9179e79667ebc434b9990cd294fd.png" width="23" alt="">
+   <img src="en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/28ec9179e79667ebc434b9990cd294fd.png" width="23" alt="">
 
    </li>
 
@@ -15906,7 +15906,7 @@ Before you start, make sure that the following prerequisites:
 
    On the **Configuration** page, click **Add data source**.
 
-   ![](assets/2c934a95335833f7209de92d13a875cf.png)
+   ![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/2c934a95335833f7209de92d13a875cf.png)
 
    </li>
 
@@ -16001,7 +16001,7 @@ Before you start, make sure that the following prerequisites:
 
    **SQL statement editor**
 
-   Click the <img src="assets/0d01e0085e334e0af5ab33d98976ed00.png" width="21" alt=""> icon in upper-right corner of the **A** section and switch the editor to Raw Query Mode.
+   Click the <img src="en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/0d01e0085e334e0af5ab33d98976ed00.png" width="21" alt=""> icon in upper-right corner of the **A** section and switch the editor to Raw Query Mode.
 
    Then, you can enter Lindorm SQL statements to perform complex queries. Sample code:
 
@@ -16025,7 +16025,7 @@ Before you start, make sure that the following prerequisites:
 
    You can specify query conditions and the tables and fields that you want to query in a template to perform simple queries. The following table describes the keywords that you can specify in the editor.
 
-   ![](assets/fc0e79f5fb3120da9170ec8858de66f8.png)
+   ![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/fc0e79f5fb3120da9170ec8858de66f8.png)
 
    | Keyword | Description |
    | --- | --- |
@@ -16336,7 +16336,7 @@ This section describes the metrics that are collected to monitor the write perfo
 
 Figure 1 Write TPS of Lindorm clusters that use different specifications when the batch size is 500 in different concurrency scenarios
 
-![](assets/ad1f69c303478e4c68a5e0b79a9fa23c.jpeg)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/ad1f69c303478e4c68a5e0b79a9fa23c.jpeg)
 
 **Table 1 Cluster 1 (3 nodes with a specification of 4 cores and 16 GB of memory)**
 
@@ -16535,7 +16535,7 @@ This section describes the performance metrics that are monitored for the querie
 
 Figure 1. Queries per second (QPS) of Lindorm clusters that use different specifications when different types of queries are performed at a concurrency of 200
 
-![](assets/a93f75858f14c12f67a9bf27734ba448.jpeg)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/a93f75858f14c12f67a9bf27734ba448.jpeg)
 
 **Table 1. Cluster 1 (3 nodes with a specification of 4 cores and 16 GB memory)**
 
@@ -17603,7 +17603,7 @@ Download the following two dependencies: HTTP Client and FastJSON.
 
 The multi-value data model is created based on data sources. Each data entry is created for a specific data source at a specific point in time and contains the values of multiple metric fields. For example, a data entry can contain the values of the following fields of a server: CPU, memory, and load. This allows you to manage multiple fields at the same time.
 
-![](assets/8dcab4908338a20565a02c0ea66c51ce.png)
+![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/8dcab4908338a20565a02c0ea66c51ce.png)
 
 **Write data points to a multi-value model time series**
 
@@ -17637,7 +17637,7 @@ The multi-value data model is created based on data sources. Each data entry is 
 
 | Parameter | Type | Required | Limit | Description | Example |
 | --- | --- | --- | --- | --- | --- |
-| metric | String | Yes | It can contain uppercase letters, lowercase letters, digits, and the following special characters: - _ . / ( ) : , \[ \] = ' # | The name of the metric to be stored. | sys.cpu<br><img src="assets/ede76df0e315e450d07b74abdd3af476.png" width="13" alt=""><br>Importa nt The metric name must be 1 to 255 bytes in length. |
+| metric | String | Yes | It can contain uppercase letters, lowercase letters, digits, and the following special characters: - _ . / ( ) : , \[ \] = ' # | The name of the metric to be stored. | sys.cpu<br><img src="en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/ede76df0e315e450d07b74abdd3af476.png" width="13" alt=""><br>Importa nt The metric name must be 1 to 255 bytes in length. |
 | timestamp | Long | Yes | None | The timestamp.Unit: seconds or milliseconds.For more information about how LindormTSDB determines the unit of a timestamp, see the "Timestamp units" section of this topic. | 1499158925 |
 | fields | Map | Yes | The limits on field names are the same as those on metric names. The data type of a field value must be STRING, NUMBER, or BOOLEAN. | The values of the fields. | "fields" : {"speed" : 20.8, "level": 4, "direction" : "East", "description": "Fresh breeze"} |
 | tags | Map | Yes | It can contain uppercase letters, lowercase letters, digits, and the following special characters: - _ . / ( ) : , \[ \] = ' # | The tag key-value pairs.Tag keys and tag values are character strings.Specify at least one tag key-value pair. | {"host":"web 01"}. Tag keys and tag values that are not of the STRING data type are explicitly converted to the STRING type. |
@@ -18944,7 +18944,7 @@ After you add a Hadoop Distributed File System (HDFS) data source to Lindorm, yo
 
 2. In the left-side navigation pane, choose **Data Source Management > Add Data Source**.
 
-   ![](assets/b5d9ffc5c3395d5daf0e91328656ecfe.png)
+   ![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/b5d9ffc5c3395d5daf0e91328656ecfe.png)
 
 3. On the **Add data source** page, configure the following parameters:
 
@@ -18972,7 +18972,7 @@ You can add an Object Storage Service (OSS) data source for LindormTable to read
 
 2. In the left-side navigation pane, choose **Data Source Manage > Add Data Source**.
 
-   ![](assets/46926f751fbcd6488f4872964abe64f6.png)
+   ![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/46926f751fbcd6488f4872964abe64f6.png)
 
 3. On the **Add data source** page, configure the following parameters:
 
@@ -19086,7 +19086,7 @@ This topic describes how to create a task to migrate data between a self-built H
 
 2. Click **create new job**.
 
-   ![](assets/244fde5b8fd38e228a01ea24e1ad3e00.png)
+   ![](en-tsdb-developer-guide-v3.18.6-2607-20260827.assets/244fde5b8fd38e228a01ea24e1ad3e00.png)
 
 3. In the **job name(optional)** field, enter the name of the task. The task name can contain only letters and digits. You can leave the task name unspecified. In this case, the task ID is used as the task name.
 

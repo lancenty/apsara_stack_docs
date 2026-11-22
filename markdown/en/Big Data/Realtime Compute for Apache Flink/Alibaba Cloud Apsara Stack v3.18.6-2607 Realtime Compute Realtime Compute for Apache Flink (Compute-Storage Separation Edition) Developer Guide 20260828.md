@@ -214,7 +214,7 @@ To ensure that Apsara Stack provides the same user experience as the Public Clou
 
 3. On the **OpenAPI Explorer** page, select **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the target cloud service.
 
@@ -224,7 +224,7 @@ To ensure that Apsara Stack provides the same user experience as the Public Clou
 
 7. Select the corresponding API operation and obtain the POP endpoint information of the cloud service under the parameter name.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 **Obtain an endpoint by using Apsara Infrastructure Management**
 
@@ -242,9 +242,9 @@ You can also obtain the endpoint yourself. This topic uses API Gateway as an exa
 
 5. In the Service Registration text box, enter  `apigateway`  and click **Search**.
 
-   ![](assets/ffd0d4c04d5a50e31dd1c8976e1637ee.jpeg)
+   ![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/ffd0d4c04d5a50e31dd1c8976e1637ee.jpeg)
 
-6. In the **Service Registration** column of the  `apigateway`  service, click the <img src="assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
+6. In the **Service Registration** column of the  `apigateway`  service, click the <img src="en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
 
 7. Click the text in the **Service Registration** column of the  `apigateway`  service. In the **Registration Variables** dialog box that appears, view the value of apigateway.openapi.endpoint, which is the  `endpoint` .
 
@@ -276,7 +276,7 @@ You must call an API operation to obtain an organization ID. You can use the onl
 
 3. On the **OpenAPI Explorer** page, select **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, select **Platform** > **Apsara Uni-manager**, and set **Version** to 2024-
+4. Click the <img src="en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, select **Platform** > **Apsara Uni-manager**, and set **Version** to 2024-
 
    09-12.
 
@@ -292,7 +292,7 @@ You must call an API operation to obtain a resource set ID. You can use the onli
 
 3. On the **OpenAPI Explorer** page, select **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, select **Platform** > **Apsara Uni-manager**, and set **Version** to 2024-
+4. Click the <img src="en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, select **Platform** > **Apsara Uni-manager**, and set **Version** to 2024-
 
    09-12.
 
@@ -362,7 +362,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -7540,7 +7540,7 @@ PUT /api/v2/namespaces/[namespace]/deployments/[deploymentId] HTTP/1.1
 | Parameter | Type | Position | Required | <code>rname</code> Example <code>VARCHAR)</code><br><code>with (</code> | Descriptio n |
 |  |  |  |  | <code>'connector</code><br><code>' =</code><br><code>'datagen'</code><br><code>);</code><br><code>CREATE</code><br><code>TEMPORARY</code><br><code>TABLE</code><br><code> </code>kafka_tabl e<code> (strname </code> <code>VARCHAR,</code><br><code>lens</code><br><code>BIGINT)</code><br><code>with (</code><br><code>'connector</code><br><code>' =</code><br><code>'print'</code><br><code>);</code><br><code>INSERT INTO</code><br><code>kafka_table</code><br><code>SELECT</code><br><code>SUBSTRING</code><br><code>(strname,</code><br><code>0, 10) AS</code><br><code>strname,</code><br><code>CAST</code><br><code>(CHAR_LENGTH</code><br><code>(strname)</code><br><code>AS BIGINT)</code><br><code>AS lens</code><br><code>FROM</code><br><code>datahub_ta</code><br><code>ble;</code><br><code>"}},"creato</code><br><code>r":"20877848</code> |  |
 
-![](assets/276391e54905aacc972f712b9924e4bd.png)
+![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/276391e54905aacc972f712b9924e4bd.png)
 
 <table>
   <tr>
@@ -10175,7 +10175,7 @@ POST /api/v2/namespaces/[namespace]/deployments HTTP/1.1
 | Parameter | Type | Position | Required | Example | Descriptio n |
 | body | String | wholebody | Yes | <code> </code>kafka_tabl e<code> (strname </code> <code>VARCHAR,</code><br><code>lens</code><br><code>BIGINT)</code><br><code>with (</code><br><code>'connector</code><br><code>' =</code><br><code>'print'</code><br><code>);</code><br><code>INSERT</code><br><code>INTO</code><br><code>kafka_table</code><br><code>SELECT</code><br><code>strname,</code><br><code>CAST</code><br><code>(CHAR_LENGTH</code><br><code>(strname)</code><br><code>AS BIGINT)</code><br><code>AS lens</code><br><code>FROM</code><br><code>datahub_ta</code><br><code>ble;</code><br><code>"}},"deplo</code><br><code>ymentTarget"</code><br><code>:</code><br><code>{"mode":"PER</code><br><code>_JOB","name"</code><br><code>:"dt-</code><br><code>flinkteam"},</code><br><code>"engineVersi</code><br><code>on":"vvr-</code><br><code>8.0.7-</code><br><code>flink-</code><br><code>1.17","execu</code><br><code>tionMode":"S</code><br><code>TREAMING","n</code><br><code>ame":"sqlJob</code><br><code>"}</code> | The content of the deployment. |
 
-![](assets/af0952d2cffa0a0531b5d92b0d0b766e.png)
+![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/af0952d2cffa0a0531b5d92b0d0b766e.png)
 
 <table>
   <tr>
@@ -11366,7 +11366,7 @@ When you use event time semantics, the table must include an event time attribut
 
 - In parallel data streams, when an operator has multiple input streams, the operator uses the minimum Event Time among all input streams as its Event Time.
 
-  ![](assets/1e533848fffc872dbd642b0ba4094781.png)
+  ![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/1e533848fffc872dbd642b0ba4094781.png)
 
 <a id="section-4-4-2"></a>
 
@@ -11421,7 +11421,7 @@ Flink SQL supports two time types: Event Time and Processing Time.
 
 The following figure shows the positions of different time attributes in the real-time computing process.
 
-![](assets/8c7154304cc9e6807efb4976e41ae064.png)
+![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/8c7154304cc9e6807efb4976e41ae064.png)
 
 Based on the definitions in the preceding figure, Ingestion Time and Processing Time are time attributes that the system adds to streaming records. You cannot control them. Event Time is a time attribute carried by the streaming record itself. Due to data disorder, network jitter, or other reasons, a record with Event Time of t1 (corresponding to partition1) may be processed by Flink later than a record with Event Time of t2 (corresponding to partition2), where t2 > t1.
 
@@ -11644,13 +11644,13 @@ service
 
 be restored. You
 
-![](assets/e89667e057f970e69c0f96485fdebd79.png)
+![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/e89667e057f970e69c0f96485fdebd79.png)
 
-![](assets/03d097e92653068010f5c32726d90fb1.png)
+![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/03d097e92653068010f5c32726d90fb1.png)
 
-![](assets/a97235655b8bec0ce029cd9fa2b5147e.png)
+![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/a97235655b8bec0ce029cd9fa2b5147e.png)
 
-![](assets/f0259576c72a348f93de9eef855e99d3.png)
+![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/f0259576c72a348f93de9eef855e99d3.png)
 
 must reactivate the
 
@@ -11978,7 +11978,7 @@ This topic describes how to use the Flink rolling window function.
 
 A tumbling window (TUMBLE) assigns each element to a window of a specified size. Typically, a tumbling window has a fixed size and windows do not overlap. For example, if you specify a 5-minute tumbling window, an infinite stream of data divides into windows such as  `[0:00, 0:05)` ,  `[0:05, 0:10)` ,  `[0:10, 0:15)` , and so on. The following figure shows a 30-second tumbling window.
 
-![](assets/8f5e5814ca921bf254a9bc0bf42a27e2.png)
+![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/8f5e5814ca921bf254a9bc0bf42a27e2.png)
 
 **Syntax**
 
@@ -12132,7 +12132,7 @@ A sliding window has two parameters: **slide** and **size**. The **slide** param
 
 In most cases, most elements fit into multiple window scenarios because windows overlap. Therefore, sliding windows are useful for calculating moving averages. For example, to calculate the average value of data from the past 5 minutes and update it every 10 seconds, set **slide** to 10 seconds and **size** to 5 minutes. The following figure shows a sliding window with a 30-second interval and a 1-minute window size.
 
-![](assets/b86e870b33301f61f9b688cd8e16b908.png)
+![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/b86e870b33301f61f9b688cd8e16b908.png)
 
 **Function syntax**
 
@@ -12244,7 +12244,7 @@ You can configure a session window with a gap interval which defines the length 
 
 The following figure shows an example of session windows. Each key forms different windows due to different data distributions.
 
-![](assets/d8447d6435e1167f1d379f0fe54afa4f.png)
+![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/d8447d6435e1167f1d379f0fe54afa4f.png)
 
 **Function syntax**
 
@@ -14364,7 +14364,7 @@ User-defined functions are categorized as global or job-level. Registration meth
 
   <li>
 
-  On the **UDFs** tab, click the <img src="assets/1b8f79df278dd04ddbb55c6f138a08a8.png" width="18" alt=""> icon.
+  On the **UDFs** tab, click the <img src="en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/1b8f79df278dd04ddbb55c6f138a08a8.png" width="18" alt=""> icon.
 
   </li>
 
@@ -14372,7 +14372,7 @@ User-defined functions are categorized as global or job-level. Registration meth
 
   Upload the user-defined function JAR file.
 
-  ![](assets/b796695d01e8150b247efd75f913493a.jpeg)
+  ![](en-flink-compute-storage-separatio-3ef10bac-v3.18.6-2607-20260828.assets/b796695d01e8150b247efd75f913493a.jpeg)
 
   You can upload the user-defined function JAR file using either of the following methods:
 

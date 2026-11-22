@@ -225,7 +225,7 @@ This topic describes how to view the desired product development documentation w
 
 You can follow the procedure described in the following figure to view the desired development documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-dms-developer-guide-v3.18.6-2607-20260831.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -432,7 +432,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of the personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-dms-developer-guide-v3.18.6-2607-20260831.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -650,7 +650,7 @@ To use the POP gateway to call API operations in Apsara Stack, you must specify 
 
 4. On the **Service Registration Variable Dashboard** page, select **Service** from the drop-down list and enter  `dts-dtm`  in the search box.
 
-5. In the **Service Registration** column of the  `dts-dtm`  service, click the <img src="assets/5b660c6e173643fa39a47b18bd1bc480.png" width="21" alt=""> icon to show
+5. In the **Service Registration** column of the  `dts-dtm`  service, click the <img src="en-dms-developer-guide-v3.18.6-2607-20260831.assets/5b660c6e173643fa39a47b18bd1bc480.png" width="21" alt=""> icon to show
 
    the hidden content, and then click the content.
 

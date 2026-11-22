@@ -211,7 +211,7 @@ The information on the API directory page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-apsara-uni-manager-management-consol-b3145e34-v3.18.3-20241106.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the upper-left corner, move the pointer over the More icon and then select the cloud service whose API operation you want to call.
 
@@ -262,7 +262,7 @@ To use AccessKey pairs for personal accounts, you must configure the header para
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of the personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-apsara-uni-manager-management-consol-b3145e34-v3.18.3-20241106.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -532,7 +532,7 @@ You must call an API operation to obtain the ID of an organization. You can obta
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
+4. Move the pointer over the <img src="en-apsara-uni-manager-management-consol-b3145e34-v3.18.3-20241106.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
 
    **2019-05-10** from the **Version** drop-down list.
 
@@ -548,7 +548,7 @@ You must call an API operation to obtain the ID of a resource set. You can obtai
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
+4. Move the pointer over the <img src="en-apsara-uni-manager-management-consol-b3145e34-v3.18.3-20241106.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
 
    **2019-05-10** from the **Version** drop-down list.
 
@@ -595,7 +595,7 @@ To use the Portable OpenAPI Proxy (POP) gateway to call API operations in Apsara
 
 You can obtain the values of required variables and concatenate the values based on the configuration format of the endpoint of the Apsara Uni-manager Management Console.
 
-![](assets/3489de87cde746d00656102cf0e33871.png)
+![](en-apsara-uni-manager-management-consol-b3145e34-v3.18.3-20241106.assets/3489de87cde746d00656102cf0e33871.png)
 
 - Configuration format of the endpoint in the central region:  **ascm.${global:internet-**
 
@@ -603,7 +603,7 @@ You can obtain the values of required variables and concatenate the values based
 
 - Configuration format of the endpoint in the general region:
 
-  ![](assets/0a09fecc0568b2fcbef73068164bec48.png)
+  ![](en-apsara-uni-manager-management-consol-b3145e34-v3.18.3-20241106.assets/0a09fecc0568b2fcbef73068164bec48.png)
 
 > **Note**
 >
@@ -615,7 +615,7 @@ You can obtain the values of required variables and concatenate the values based
 
 2. In the top navigation bar, choose **Platform O&M** > **Apsara Infrastructure Management** > **Resources**. The **Product & Cluster O&M** page appears.
 
-   ![](assets/1f364769d274c805621ea7206c15b042.png)
+   ![](en-apsara-uni-manager-management-consol-b3145e34-v3.18.3-20241106.assets/1f364769d274c805621ea7206c15b042.png)
 
 3. Enter  **ascm-A**  in the **Product | Cluster** search box on the **Product & Cluster O&M** page, find the ascm-A-xxx cluster, and then click **Cluster Details** in the Actions column.
 
@@ -627,17 +627,17 @@ You can obtain the values of required variables and concatenate the values based
 
 **Method 2: Search for the endpoint in the Apsara Infrastructure Management console Procedure**
 
-![](assets/4684478043bb07ff34ff6100ddbef318.png)
+![](en-apsara-uni-manager-management-consol-b3145e34-v3.18.3-20241106.assets/4684478043bb07ff34ff6100ddbef318.png)
 
 1. Enter  **ascm-A**  in the **Product | Cluster** search box on the **Product & Cluster O&M** page, find the ascm-A-xxx cluster, and then click **Cluster Details** in the Actions column.
 
-   ![](assets/60feabddaf49255f73c2850a4ae758ac.png)
+   ![](en-apsara-uni-manager-management-consol-b3145e34-v3.18.3-20241106.assets/60feabddaf49255f73c2850a4ae758ac.png)
 
 2. n the Services tab of the cluster details page, enter  **ascm-brm**  in the Service search box, find the ascm-brm service, and then click **Details** in the Actions column.
 
 3. On the service details page, click **Manage#** in the Components section. Then, click the **Resources** tab in the Information of Component Manage# section.
 
-   ![](assets/55ab94ba4704c78b4b68813815348739.png)
+   ![](en-apsara-uni-manager-management-consol-b3145e34-v3.18.3-20241106.assets/55ab94ba4704c78b4b68813815348739.png)
 
 4. Search for the resource named  **ascm-aliyun-com-dns** , click the icon in the **Resource Application Parameters** column to display detailed parameter settings, and then view the value of **domain**.
 
@@ -1080,11 +1080,11 @@ If an error occurs on the server or SDK when you use the SDK for Python, an erro
 
 In most cases, you do not need to handle the errors returned by the SDK for Python. You need to only handle the errors returned by the server based on error messages.
 
-![](assets/eb95713c8bf57268ed36884daa2f0a1a.png)
+![](en-apsara-uni-manager-management-consol-b3145e34-v3.18.3-20241106.assets/eb95713c8bf57268ed36884daa2f0a1a.png)
 
 - **ServerException**  indicates a server error.
 
-![](assets/dfd07c25f0bda44ae1a67218d5102159.png)
+![](en-apsara-uni-manager-management-consol-b3145e34-v3.18.3-20241106.assets/dfd07c25f0bda44ae1a67218d5102159.png)
 
 - **ClientException**  indicates an SDK error.
 

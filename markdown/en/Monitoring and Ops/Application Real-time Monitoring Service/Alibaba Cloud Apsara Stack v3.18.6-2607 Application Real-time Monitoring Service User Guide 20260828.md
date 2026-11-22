@@ -184,7 +184,7 @@ This topic describes how to log in to the Application Real-Time Monitoring Servi
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -292,9 +292,9 @@ When you create a mapping table, you must enter the appId and appName. To obtain
 
    <li>
 
-   Enter the <img src="assets/70ab019684ef919b73a21aecb4dc8cc1.png" width="38" alt="">
+   Enter the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/70ab019684ef919b73a21aecb4dc8cc1.png" width="38" alt="">
 
-   `appId` and <img src="assets/500b503261feff3a480532d745cc8964.png" width="48" alt="">
+   `appId` and <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/500b503261feff3a480532d745cc8964.png" width="48" alt="">
 
    `appName` in the **Schema** field.
 
@@ -392,11 +392,11 @@ You have created an application monitoring job. For more information, see Applic
 
 5. On the cluster details page, click the **Desired State Configuration** tab. To enable the IPv6 feature, set  `"vip_protocols": "ipv4+ipv6"`  in kv.conf and tag.conf.
 
-   ![](assets/8f99becc4097207cd8dc766d17a430a1.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/8f99becc4097207cd8dc766d17a430a1.jpeg)
 
 6. On the **Cluster Details** page, click the **Resource Details** tab. Click **Resource Application Result** to view the IP address information. Then, test the connectivity by running the  `ping6 <IPv6 address or domain name>`  command.
 
-   ![](assets/b7bb35dfb2b9cb8eb8847710080c7989.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/b7bb35dfb2b9cb8eb8847710080c7989.jpeg)
 
 **Enable IPv6 for ArmsAgent**
 
@@ -410,7 +410,7 @@ You have created an application monitoring job. For more information, see Applic
 
 5. In the **Custom Configuration** tab, in the **Advanced Settings** section, click the **Enable IPv6** toggle.
 
-   ![](assets/079655b261f6fb518757662088999cd7.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/079655b261f6fb518757662088999cd7.jpeg)
 
 **Globally Enable IPv6**
 
@@ -435,7 +435,7 @@ curl -v http://arms_pop_domain/trace/Ipv6ConfigService -dregionId="" -dipv6Statu
 
 4. In the navigation pane on the left, click **Application Details**.
 
-   ![](assets/08c63df56b424e01c9b5bc490dadc198.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/08c63df56b424e01c9b5bc490dadc198.jpeg)
 
 <a id="section-4"></a>
 
@@ -1008,11 +1008,11 @@ The **Requests** section displays the time series curve that indicates the numbe
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
-- Click the <img src="assets/ae17ae677410945c0dceb13698b49ec3.png" width="16" alt=""> icon to create an alert for the metric. For more information, see Create an alert
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ae17ae677410945c0dceb13698b49ec3.png" width="16" alt=""> icon to create an alert for the metric. For more information, see Create an alert
 
   rule.
 
@@ -1026,11 +1026,11 @@ The **Response Time** section displays the time series curve that indicates the 
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
-- Click the <img src="assets/ae17ae677410945c0dceb13698b49ec3.png" width="16" alt=""> icon to create an alert for the metric. For more information, see Create an alert
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ae17ae677410945c0dceb13698b49ec3.png" width="16" alt=""> icon to create an alert for the metric. For more information, see Create an alert
 
   rule.
 
@@ -1044,11 +1044,11 @@ The **Errors** section displays the time series curve that indicates the number 
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
-- Click the <img src="assets/ae17ae677410945c0dceb13698b49ec3.png" width="16" alt=""> icon to create an alert for the metric. For more information, see Create an alert
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ae17ae677410945c0dceb13698b49ec3.png" width="16" alt=""> icon to create an alert for the metric. For more information, see Create an alert
 
   rule.
 
@@ -1064,7 +1064,7 @@ The **HTTP - Status Code** section displays the time series curve that shows sta
 
 - Click a legend to hide or show the data.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1236,7 +1236,7 @@ On the **HOST Monitoring** tab, you can view the time series curves of metrics t
 
 - You can click the line chart icon in the upper-right corner of a chart to view the metric trend in a specific time range, or compare metric trends in two time ranges.
 
-- Click the <img src="assets/ae17ae677410945c0dceb13698b49ec3.png" width="16" alt=""> icon to create an alert for the metric. For more information, see Create an alert
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ae17ae677410945c0dceb13698b49ec3.png" width="16" alt=""> icon to create an alert for the metric. For more information, see Create an alert
 
   rule.
 
@@ -1322,7 +1322,7 @@ The **SQL Calls** section displays the time series curve that indicates the SQL 
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1366,7 +1366,7 @@ The **Call statistics** section displays the time series curve that indicates th
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1410,7 +1410,7 @@ The **Exceptions** section displays the stacked chart of the exception data of t
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1460,7 +1460,7 @@ The **Errors** section displays the time series curve that indicates the number 
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1476,7 +1476,7 @@ The **HTTP - Status Code** section displays the time series curve that indicates
 
 - Click a legend to hide or show the data.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1560,7 +1560,7 @@ The **Interface Snapshot** tab displays all the API operations that are called i
 
 **Optional.** On the **Interface Snapshot** tab, you can perform the following operations:
 
-- Enter the operation name in the search box and click the <img src="assets/f3a2ae637d5f28a2053be21ead34c0a3.png" width="12" alt=""> icon to view the snapshots of
+- Enter the operation name in the search box and click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/f3a2ae637d5f28a2053be21ead34c0a3.png" width="12" alt=""> icon to view the snapshots of
 
   the operation.
 
@@ -1604,7 +1604,7 @@ In the SQL or NoSQL statement list, you can perform the following operations:
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1622,7 +1622,7 @@ In the exception list, you can perform the following operations:
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1642,7 +1642,7 @@ In the error list, you can perform the following operations:
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1666,7 +1666,7 @@ The **Interface Snapshot** tab displays the trace details of the scheduled task.
 
 On the **Interface Snapshot** tab, you can perform the following operations:
 
-- Enter an operation name in the search box and click the <img src="assets/f3a2ae637d5f28a2053be21ead34c0a3.png" width="12" alt=""> icon to view the traces of the
+- Enter an operation name in the search box and click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/f3a2ae637d5f28a2053be21ead34c0a3.png" width="12" alt=""> icon to view the traces of the
 
   operation.
 
@@ -1726,7 +1726,7 @@ In the SQL or NoSQL statement list, you can perform the following operations:
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1744,7 +1744,7 @@ In the exception list, you can perform the following operations:
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1828,7 +1828,7 @@ The **Overview** tab displays the information about the database of the applicat
 
 **Optional.** On the **Overview** tab, you can perform the following operations:
 
-- Click the <img src="assets/184c8744970e717a841405722fc918ea.png" width="12" alt=""> icon to configure the display settings of the topology.
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/184c8744970e717a841405722fc918ea.png" width="12" alt=""> icon to configure the display settings of the topology.
 
   > **Note**
   >
@@ -1844,11 +1844,11 @@ The **Overview** tab displays the information about the database of the applicat
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
-- Click the <img src="assets/ae17ae677410945c0dceb13698b49ec3.png" width="16" alt=""> icon to create an alert for the metric. For more information, see Create an
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ae17ae677410945c0dceb13698b49ec3.png" width="16" alt=""> icon to create an alert for the metric. For more information, see Create an
 
   alert.
 
@@ -1862,7 +1862,7 @@ The **SQL Analysis** tab displays the column chart for the number of SQL calls, 
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1884,7 +1884,7 @@ The **Exception Analysis** tab displays information about the exceptions of the 
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1898,7 +1898,7 @@ The **Call source** tab displays the information about the call sources of the d
 
 **Optional.** On the **Call source** tab, you can perform the following operations:
 
-- Enter an application or operation name in the search box and click the <img src="assets/f3a2ae637d5f28a2053be21ead34c0a3.png" width="12" alt=""> icon to view the
+- Enter an application or operation name in the search box and click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/f3a2ae637d5f28a2053be21ead34c0a3.png" width="12" alt=""> icon to view the
 
   information about the application that calls the database or the information about the operation that is called.
 
@@ -1906,7 +1906,7 @@ The **Call source** tab displays the information about the call sources of the d
 
 - Move the pointer over a chart to view the detailed statistics.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -1916,7 +1916,7 @@ The **Interface Snapshot** tab displays the snapshots of all the operations that
 
 **Optional.** On the **Interface Snapshot** tab, you can perform the following operations:
 
-- Enter the operation name in the search box and click the <img src="assets/f3a2ae637d5f28a2053be21ead34c0a3.png" width="12" alt=""> icon to view the snapshots of
+- Enter the operation name in the search box and click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/f3a2ae637d5f28a2053be21ead34c0a3.png" width="12" alt=""> icon to view the snapshots of
 
   the operation.
 
@@ -1966,7 +1966,7 @@ The **Overview** tab displays the information about the NoSQL database of the ap
 
 **Optional.** On the **Overview** tab, you can perform the following operations:
 
-- Move the pointer over the <img src="assets/184c8744970e717a841405722fc918ea.png" width="12" alt=""> icon to configure the display settings of the topology.
+- Move the pointer over the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/184c8744970e717a841405722fc918ea.png" width="12" alt=""> icon to configure the display settings of the topology.
 
   > **Note**
   >
@@ -1984,11 +1984,11 @@ The **Overview** tab displays the information about the NoSQL database of the ap
 
 - Click a legend to hide or show the data.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
-- Click the <img src="assets/ae17ae677410945c0dceb13698b49ec3.png" width="16" alt=""> icon to create an alert for the metric. For more information, see Create an
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ae17ae677410945c0dceb13698b49ec3.png" width="16" alt=""> icon to create an alert for the metric. For more information, see Create an
 
   alert.
 
@@ -2002,7 +2002,7 @@ The **Analysis of Sentences** tab displays the column chart for the number of No
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -2024,7 +2024,7 @@ The **Exception Analysis** tab displays the exceptions of NoSQL calls.
 
 - Select a time range to view the statistics in the specified time range.
 
-- Click the <img src="assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
+- Click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ef3f290bd2d7e53914ec8f3431381180.png" width="12" alt=""> icon to view the statistics of the metric in a specific time range, or compare the
 
   statistics in the same period on different days.
 
@@ -2040,7 +2040,7 @@ The **Interface Snapshot** tab displays the parameter details of API call snapsh
 
 **Optional.** On the **Interface Snapshot** tab, you can perform the following operations:
 
-- Enter the operation name in the search box and click the <img src="assets/f3a2ae637d5f28a2053be21ead34c0a3.png" width="12" alt=""> icon to view the snapshots of
+- Enter the operation name in the search box and click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/f3a2ae637d5f28a2053be21ead34c0a3.png" width="12" alt=""> icon to view the snapshots of
 
   the operation.
 
@@ -2163,7 +2163,7 @@ The continuous performance profiling feature mainly depends on the debug symbols
 
 4. In the **Continuous profiling** section of the **Custom Configuration** tab, turn on the Main switch, and configure the **Effective real-time IP** parameter.
 
-   ![](assets/e914f26e0b75791a115abf9ced6807d5.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/e914f26e0b75791a115abf9ced6807d5.jpeg)
 
 5. In the lower-left corner of the **Custom Configuration** tab, click **Save**.
 
@@ -2179,7 +2179,7 @@ The continuous performance profiling feature mainly depends on the debug symbols
 
 5. On the **Single View** tab, perform the following operations to filter data and view aggregate analysis:
 
-   ![](assets/33b7fb28ca862e69aac5b4e8ab4b187d.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/33b7fb28ca862e69aac5b4e8ab4b187d.jpeg)
 
    <ol type="i">
 
@@ -2223,7 +2223,7 @@ The continuous performance profiling feature mainly depends on the debug symbols
 
    - **Wall Clock**: The overall execution time of the code.
 
-   ![](assets/8986f103d6f79099380fa9d438ef6950.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/8986f103d6f79099380fa9d438ef6950.jpeg)
 
    - The **Self** column displays the time or resources that each method consumes within the stack, excluding the time or resources that their child methods consume. The data can be used to identify methods that spend excessive time or resources for their own.
 
@@ -2233,11 +2233,11 @@ The continuous performance profiling feature mainly depends on the debug symbols
 
    **Metrics**
 
-   ![](assets/2fc8d3b88dae28b542eae8b9bfc5a987.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/2fc8d3b88dae28b542eae8b9bfc5a987.jpeg)
 
    **Snapshots**
 
-   ![](assets/6f9defbae953cf1c962d0cf86c4f352d.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/6f9defbae953cf1c962d0cf86c4f352d.jpeg)
 
 6. On the **Comparison View** tab, you can compare and analyze data generated in two time periods.
 
@@ -2247,7 +2247,7 @@ The continuous performance profiling feature of ARMS uses the flame graph visual
 
 The following figure shows a flame graph with high resource usage. Perform the following steps to discover performance bottlenecks.
 
-![](assets/dbe75f23f7299c915007e925e3cf5fe7.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/dbe75f23f7299c915007e925e3cf5fe7.jpeg)
 
 1. As it is an icicle graph with the stack top at the bottom and the stack bottom at the top, you need to analyze it from the bottom up.
 
@@ -2387,7 +2387,7 @@ ARMS is integrated with the following real-time diagnostics capabilities of Arth
 
 4. In the **Arthas monitoring** section of the **Custom Configuration** tab, turn on the **Arthas switch**. You can also specify the IP addresses on which you want to perform Arthas diagnostics. If you do not specify IP addresses, Arthas diagnostics is performed on all IP addresses.
 
-   ![](assets/f835ab06180403a7d70d8a429e6d6f80.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/f835ab06180403a7d70d8a429e6d6f80.jpeg)
 
 5. In the lower-left corner of the **Custom Configuration** tab, click **Save**.
 
@@ -2401,7 +2401,7 @@ ARMS is integrated with the following real-time diagnostics capabilities of Arth
 
 4. On the Arthas Diagnosis page, select the application on which you want to perform diagnostics from the drop-down list at the top of the page.
 
-   ![](assets/ecc567851ddfe5d71e7c2a22bb324f50.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/ecc567851ddfe5d71e7c2a22bb324f50.jpeg)
 
 **JVM overview**
 
@@ -2409,15 +2409,15 @@ On the JVM overview tab, you can view the JVM information about the application,
 
 - JVM memory: displays information about JVM memory, such as the usage of heap memory and non-heap memory, and the information about garbage collection (GC).
 
-  ![](assets/d190e651f6a760f8e6f7e7ce86abfb7a.jpeg)
+  ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/d190e651f6a760f8e6f7e7ce86abfb7a.jpeg)
 
 - Operating system information: displays information about the operating system, such as the average system load, the name and version of the operating system, and the Java version.
 
-  ![](assets/083f7f9e4843d3d47675145d7c8a8356.jpeg)
+  ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/083f7f9e4843d3d47675145d7c8a8356.jpeg)
 
 - Variable information: displays information about system variables and environment variables.
 
-  ![](assets/2980c455a2a80a440d30a9fbc059f4d4.jpeg)
+  ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/2980c455a2a80a440d30a9fbc059f4d4.jpeg)
 
 **Thread time-consuming analysis**
 
@@ -2425,19 +2425,19 @@ On the Thread time-consuming analysis tab, you can view all the threads of the a
 
 You can view the time consumption of threads in a JVM process on the **Thread time-consuming analysis** tab. Similar threads are displayed in one row as a category.
 
-![](assets/28cd1323061b9f0d98deed599895dda0.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/28cd1323061b9f0d98deed599895dda0.jpeg)
 
 1. Click the **+** icon on the left side of a thread category name to view the details of all threads under this category, including the thread ID, CPU usage, and status.
 
 2. Click **View the live stack** in the **Actions** column of a thread to view the stack information about the thread.
 
-   ![](assets/572bbf555c98ef0cc1cd5dae7c5a8282.png)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/572bbf555c98ef0cc1cd5dae7c5a8282.png)
 
 **Method execution analysis**
 
 On the Method execution analysis tab, you can view the information such as time consumption, input parameters, and returned values of a method, and even drill down to an internal method. You can use this information to locate the root causes of slow calls and missing logs, or troubleshoot non-reproducible issues.
 
-1. On the Method execution analysis tab, enter a keyword in the search box and click the <img src="assets/ec41b67c12e37a2d3438d82abd6d14f7.png" width="17" alt="">
+1. On the Method execution analysis tab, enter a keyword in the search box and click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ec41b67c12e37a2d3438d82abd6d14f7.png" width="17" alt="">
 
    icon.
 
@@ -2445,7 +2445,7 @@ On the Method execution analysis tab, you can view the information such as time 
 
    ARMS captures a random execution record of the method. The execution information is displayed.
 
-   ![](assets/f377eb9cb2124d4085fde8b57b199af0.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/f377eb9cb2124d4085fde8b57b199af0.jpeg)
 
    Perform the following steps to set conditions for capturing a method execution record:
 
@@ -2459,13 +2459,13 @@ On the Method execution analysis tab, you can view the information such as time 
 
    <li>
 
-   Select a key type from the **Set the initial filtering condition** and click the <img src="assets/f94b3038382baffdefe1d96ce627499e.png" width="14" alt=""> icon.
+   Select a key type from the **Set the initial filtering condition** and click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/f94b3038382baffdefe1d96ce627499e.png" width="14" alt=""> icon.
 
    </li>
 
    </ol>
 
-   ![](assets/542cbcdeaced04a4e286262b8de5386d.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/542cbcdeaced04a4e286262b8de5386d.jpeg)
 
    Key types:
 
@@ -2505,7 +2505,7 @@ On the Method execution analysis tab, you can view the information such as time 
 
    <li>
 
-   Click **OK**, and then click the <img src="assets/a5ab35f2e039f4d036500daa5153b4be.png" width="16" alt=""> icon on the right. The system crawls the method again
+   Click **OK**, and then click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/a5ab35f2e039f4d036500daa5153b4be.png" width="16" alt=""> icon on the right. The system crawls the method again
 
    based on the specified conditions.
 
@@ -2523,11 +2523,11 @@ On the Method execution analysis tab, you can view the information such as time 
 
    - The execution duration of each internal method is displayed in the **Method source code** section.
 
-     ![](assets/841ddd7278d7ce3712b7aa06dff6cdc0.jpeg)
+     ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/841ddd7278d7ce3712b7aa06dff6cdc0.jpeg)
 
    - You can add custom observations in the **Add a custom observation item** section.
 
-     ![](assets/8410ce631d8044df81c2543125650b73.jpeg)
+     ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/8410ce631d8044df81c2543125650b73.jpeg)
 
      <ol type="a">
 
@@ -2535,7 +2535,7 @@ On the Method execution analysis tab, you can view the information such as time 
 
      Select a key type from the **Please select the initial item to be observed** drop-down
 
-     list and click the <img src="assets/f94b3038382baffdefe1d96ce627499e.png" width="14" alt=""> icon.
+     list and click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/f94b3038382baffdefe1d96ce627499e.png" width="14" alt=""> icon.
 
      Key types:
 
@@ -2557,7 +2557,7 @@ On the Method execution analysis tab, you can view the information such as time 
 
      The added filter conditions are displayed in the **Current custom observation item**
 
-     section. You click the <img src="assets/9023a352db7bbec6df6b211596c7042a.png" width="13" alt=""> icon to delete the conditions.
+     section. You click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/9023a352db7bbec6df6b211596c7042a.png" width="13" alt=""> icon to delete the conditions.
 
      </li>
 
@@ -2579,13 +2579,13 @@ On the objectViewer tab, you can view information of some singleton objects to t
 
 1. On the objectViewer tab, enter a keyword the class name that you want to view and click
 
-   the <img src="assets/7662dd107a285c9c4bdcdef8ff662a0e.png" width="16" alt=""> icon.
+   the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/7662dd107a285c9c4bdcdef8ff662a0e.png" width="16" alt=""> icon.
 
 2. Select the class on which you want to perform diagnostics from the displayed classes, select an instance of the class in the right-side pane, and then click **OK**.
 
    The real-time field values of the instance are displayed.
 
-   ![](assets/605a821830f947e27559795fc2a9394a.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/605a821830f947e27559795fc2a9394a.jpeg)
 
    - The value of a simple field is displayed in the **Detail** column in the **Object field value in real time** section on the left.
 
@@ -2601,13 +2601,13 @@ On the Real-time board tab, select a dashboard from the drop-down list, select a
 
 The real-time data is displayed. The following figure shows the real-time information about a Druid connection pool, including the basic configurations, connection pool status, and execution duration.
 
-![](assets/69d6cedd4130e43b74a24cee94c424b0.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/69d6cedd4130e43b74a24cee94c424b0.jpeg)
 
 **Arthas Shell**
 
 You can use the CLI to customize Arthas diagnostics. For more information, visit the Arthas website.
 
-![](assets/18f8c34398f9f11629d02cb84da443a3.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/18f8c34398f9f11629d02cb84da443a3.jpeg)
 
 <a id="section-4-3-12"></a>
 
@@ -2666,7 +2666,7 @@ You have created an Application Monitoring job. For more information, see Applic
 
 **Configure Call Chain Sampling Settings**
 
-In the **Call Chain Sampling Settings** area, enable or disable the call chain sampling switch and set the sampling rate. In the **Sampling Rate Setting** field, enter the percentage as a number. For example, enter <img src="assets/b0ada588125a9fbb776958e80a371849.png" width="22" alt="">
+In the **Call Chain Sampling Settings** area, enable or disable the call chain sampling switch and set the sampling rate. In the **Sampling Rate Setting** field, enter the percentage as a number. For example, enter <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/b0ada588125a9fbb776958e80a371849.png" width="22" alt="">
 
 `10` for 10% sampling.
 
@@ -2767,7 +2767,7 @@ To synchronize the same configurations for other applications, copy the configur
 
 2. In the dialog box that appears, select the applications, then click **OK**.
 
-   ![](assets/5953f2d86b2acdf4e4c90e98c82ddda7.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/5953f2d86b2acdf4e4c90e98c82ddda7.jpeg)
 
 **References**
 
@@ -2793,7 +2793,7 @@ You can add custom tags to your application and manage the tags on the Applicati
 
 5. In the **Application Tags** section, click **Manage Tags**.
 
-6. In the **Manage Tags** dialog box, click the <img src="assets/1e6cfc8e273e5e5df3621239f962172b.png" width="12" alt=""> icon, enter a custom tag, and then click
+6. In the **Manage Tags** dialog box, click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/1e6cfc8e273e5e5df3621239f962172b.png" width="12" alt=""> icon, enter a custom tag, and then click
 
    **Confirm**.
 
@@ -2815,9 +2815,9 @@ You can add custom tags to your application and manage the tags on the Applicati
 
 3. In the **Manage Tags** dialog box, move the pointer over the tag that you want to modify or delete.
 
-   - To modify a tag, click the <img src="assets/8836c2c544a7559d59b8322b16867219.png" width="10" alt=""> icon on the right side of the tag and enter a new tag name.
+   - To modify a tag, click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/8836c2c544a7559d59b8322b16867219.png" width="10" alt=""> icon on the right side of the tag and enter a new tag name.
 
-   - To delete a tag, click the <img src="assets/47f0e3816198497c4990acee3859fe95.png" width="8" alt=""> icon on the left side of the tag.
+   - To delete a tag, click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/47f0e3816198497c4990acee3859fe95.png" width="8" alt=""> icon on the left side of the tag.
 
      > **Important**
      >
@@ -3156,7 +3156,7 @@ On the **Trace Query** page of the Application Real-Time Monitoring Service (ARM
 
 On the **Traces** tab, click the line chart in the **Indicator monitoring** column to view the number of requests, response time, and number of errors during different periods of time.
 
-On the **Traces** tab, click the <img src="assets/9e634335ff9626e3665e15714a99dedc.png" width="16" alt=""> icon in the **Method Stack** column. The **Method Stack** pane
+On the **Traces** tab, click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/9e634335ff9626e3665e15714a99dedc.png" width="16" alt=""> icon in the **Method Stack** column. The **Method Stack** pane
 
 appears.
 
@@ -3210,7 +3210,7 @@ This topic describes how to view the information about the agent that is install
 
 4. On the **Agent List** page, you can view information about the agents installed in the applications in the following columns: **Agent running status**, **Last startup time**, **Run Length**, and **Agent version**.
 
-   ![](assets/c60ea10a02567c704f533920ebe1fd4a.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/c60ea10a02567c704f533920ebe1fd4a.jpeg)
 
 <a id="section-4-4"></a>
 
@@ -3244,17 +3244,17 @@ Discard all traces of TraceId B
 
 Discard all traces of TraceId C
 
-![](assets/cdfdb88f3f1643245c301f216566e214.png)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/cdfdb88f3f1643245c301f216566e214.png)
 
-![](assets/1e11d2524825b6491386c352937381de.png)
-
-B
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/1e11d2524825b6491386c352937381de.png)
 
 B
 
-![](assets/0764515b3111d43a780f07043b683ebf.png)
+B
 
-![](assets/814100110cb41eea098bb2355a7ddacb.png)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/0764515b3111d43a780f07043b683ebf.png)
+
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/814100110cb41eea098bb2355a7ddacb.png)
 
 C
 
@@ -3268,7 +3268,7 @@ You can perform the following steps to configure fixed-rate sampling:
 
 4. In the left-side navigation pane, click **Application Settings**. On the page that appears, click the **Custom Configuration** tab.
 
-5. In the **Invocation Trace Sampling Settings** section, turn on Enable Sampling and specify a sampling rate. In the **Sampling Rate Settings** field, enter a value, which is in percent. For example, if you enter <img src="assets/87d49fa9e1a45e9a8ba871f279441cc7.png" width="22" alt="">
+5. In the **Invocation Trace Sampling Settings** section, turn on Enable Sampling and specify a sampling rate. In the **Sampling Rate Settings** field, enter a value, which is in percent. For example, if you enter <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/87d49fa9e1a45e9a8ba871f279441cc7.png" width="22" alt="">
 
    `10`, the sampling rate is 10%.
 
@@ -3328,7 +3328,7 @@ Web page errors, particularly those that take the form of a 5xx error, are one o
 
 Figure 1. Sample error logs of a Java application
 
-![](assets/ec49b14ae65ac2678598a4ffeccf5fca.png)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/ec49b14ae65ac2678598a4ffeccf5fca.png)
 
 For applications that have less complex logic and short uptimes, troubleshooting based on logs on the server can resolve most of these issues. However, this traditional method is often useless in the following scenarios:
 
@@ -3522,13 +3522,13 @@ In ARMS, trace IDs can be associated with the business logs of an application ba
    >
    > For information about how to obtain {EagleEye-TraceID} in the code, see ARMS SDKs.
 
-   ![](assets/ecdca74027b26d4aa6d4550dd048cc43.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/ecdca74027b26d4aa6d4550dd048cc43.jpeg)
 
 6. Restart the application.
 
    If trace IDs are displayed in the business logs of the application, the business logs are associated with the trace IDs, as shown in the following figure.
 
-   ![](assets/bf2eb94b0155da27022726f12a2ab1e3.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/bf2eb94b0155da27022726f12a2ab1e3.jpeg)
 
 <a id="section-4-4-5"></a>
 
@@ -3542,7 +3542,7 @@ ARMS on Alibaba Cloud cannot directly monitor applications on a user network due
 
 **Deployment principles**
 
-![](assets/4045aadcec1309ab6c6a80ad30d47acf.png)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/4045aadcec1309ab6c6a80ad30d47acf.png)
 
 Alibaba Cloud
 
@@ -3760,7 +3760,7 @@ The following terms are used in this topic:
 
   - Frustrated (greater than 4T)
 
-  ![](assets/b310f013cdc3be6f35474b7ad748caeb.png)
+  ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/b310f013cdc3be6f35474b7ad748caeb.png)
 
   Image source: apdex.org
 
@@ -4012,7 +4012,7 @@ LLM application monitoring provides the following views:
 
 You can monitor LLM applications using the Python probe provided by ARMS. Each probe that you attach consumes one license. In ARMS, an LLM application is treated as a Tracing Analysis application. Log on to the ARMS console and navigate to **Tracing Analysis > Usage Analysis** to view your current Tracing Analysis license usage.
 
-![](assets/1c82a7bc48f53c48a5029d64ef9e43db.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/1c82a7bc48f53c48a5029d64ef9e43db.jpeg)
 
 The Tracing Analysis license packages are as follows:
 
@@ -4403,7 +4403,7 @@ This topic describes how to connect the OpenClaw service to Application Real-Tim
 
    View the information in the Related Information column. The details displayed to the right of the access points are the endpoint information.
 
-   ![](assets/4d096ff0b7629529ef406956d65804b6.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/4d096ff0b7629529ef406956d65804b6.jpeg)
 
 **Connect a service to ARMS**
 
@@ -4421,7 +4421,7 @@ curl -fsSLk https://<arms-console-domain>/download/openclaw/install.sh | bash -s
 
 The following figure shows a successful installation.
 
-![](assets/47169279097e00e61841a6a8347a1265.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/47169279097e00e61841a6a8347a1265.jpeg)
 
 **Verify the installation**
 
@@ -4433,7 +4433,7 @@ openclaw plugins list
 
 Expected output:
 
-![](assets/863b8309be7e9ee2d3b2e76ca3526fa3.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/863b8309be7e9ee2d3b2e76ca3526fa3.jpeg)
 
 **View monitoring data**
 
@@ -4459,7 +4459,7 @@ curl -fsSLk https://<arms-console-domain>/download/openclaw/uninstall.sh | bash
 
 The following figure shows a successful uninstallation.
 
-![](assets/0d08862f378131529318f357ed770a8f.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/0d08862f378131529318f357ed770a8f.jpeg)
 
 <a id="section-5-4"></a>
 
@@ -4477,7 +4477,7 @@ You have installed the agent for your LLM application. For more information, see
 
 2. In the navigation pane on the left, choose **LLM Application Monitoring > Overview**.
 
-![](assets/68bf6b9274c0df78b6fba40c16fd8fb0.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/68bf6b9274c0df78b6fba40c16fd8fb0.jpeg)
 
 | Panel | Description |
 | --- | --- |
@@ -4550,7 +4550,7 @@ A probe is installed for the LLM application. For more information, see Integrat
 
 **Dashboard description**
 
-![](assets/814c3835f0b216fadfa910c47b3b9b92.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/814c3835f0b216fadfa910c47b3b9b92.jpeg)
 
 | Panel | Description |
 | --- | --- |
@@ -4585,7 +4585,7 @@ A probe has been installed for the LLM application. For specific operations, see
 
 3. After you enter the application page, click **Performance Analytics** in the navigation pane on the left.
 
-   ![](assets/b2eaa2b627f84e419b915deab090814e.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/b2eaa2b627f84e419b915deab090814e.jpeg)
 
    > **Note**
    >
@@ -4623,7 +4623,7 @@ Install the probe for your LLM application. For more information, see LLM applic
 
 3. On the application page, click **Token Analysis** in the left navigation pane.
 
-   ![](assets/d1172b92c30388cf209955dd0fb22a13.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/d1172b92c30388cf209955dd0fb22a13.jpeg)
 
    > **Note**
    >
@@ -4665,7 +4665,7 @@ In LLM applications, embedding is a technique that converts data, such as text o
 
 Embedding analysis lets you monitor the performance, stability, and effectiveness of the embedding feature. This provides data to support the optimization and maintenance of your LLM application.
 
-![](assets/97ae47e74d4206db8b6859856908d26b.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/97ae47e74d4206db8b6859856908d26b.jpeg)
 
 | Panel | Description |
 | --- | --- |
@@ -4689,7 +4689,7 @@ Monitoring retrieval metrics lets you evaluate the performance, stability, and e
 >
 > Reranking metrics are not supported.
 
-![](assets/3a24741a43e55cdb6a41cdeac076f6c5.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/3a24741a43e55cdb6a41cdeac076f6c5.jpeg)
 
 <table>
   <tr>
@@ -4731,7 +4731,7 @@ In LLM applications, tool calling is the process where an LLM invokes external t
 
 The monitoring data for tool calling lets you evaluate the interactions between your LLM application and external tools. This provides data to support optimization and maintenance.
 
-![](assets/19e3177a85e4dcba5ef38e2c6e7b0a92.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/19e3177a85e4dcba5ef38e2c6e7b0a92.jpeg)
 
 | Panel | Description |
 | --- | --- |
@@ -4766,7 +4766,7 @@ You have installed an agent for the LLM application. For more information, see C
 
 6. Click a target trace. On the **Trace** tab, use the **Duration Greater Than** and **Errors** filters to search for spans.
 
-![](assets/52414ef9dcf941e40f5479e9c759a6f4.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/52414ef9dcf941e40f5479e9c759a6f4.jpeg)
 
 **Trace details**
 
@@ -4774,11 +4774,11 @@ In the trace list, click the target **TraceId** to open the trace details page.
 
 In the trace details panel, you can view the timeline, start time, total duration, and expand individual spans to see more information.
 
-![](assets/6d65497c99ec4ae0caf2e493ce080cd3.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/6d65497c99ec4ae0caf2e493ce080cd3.jpeg)
 
 For spans labeled with tags such as CHAIN, AGENT, or LLM, click the tag to view additional AI-related invocation details.
 
-![](assets/70be5c9b420334c2af03cdffb3e17f8a.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/70be5c9b420334c2af03cdffb3e17f8a.jpeg)
 
 <a id="section-5-5-6"></a>
 
@@ -4798,7 +4798,7 @@ This topic describes how to manage tags for your monitored LLM applications and 
 
    | Tab | Purpose | Action |
    | --- | --- | --- |
-   | Tags | Manage application tags. | • <strong>Manage application tags</strong>:<br>• Add a tag: On the <strong>Tags</strong> tab, click <strong>Manage</strong> <strong>application tags</strong>. In the Manage application<br><strong>tags</strong> dialog box, click<img src="assets/ac0cb4d75af3b4de9c1724190653c4f5.png" width="20" alt="">,<br>enter a tag name, and add the new tag.<br>• Edit a tag: On the <strong>Tags</strong> tab, click <strong>Manage</strong> <strong>application tags</strong>. In the Manage application <strong>tags</strong> dialog box, hover<br>over the tag, click<img src="assets/dab087047471a901829e6e8581e132ab.png" width="14" alt="">, and<br>edit the tag name.<br>• Remove a tag: On the <strong>Tags</strong> tab, click <strong>Manage</strong> <strong>application tags</strong>. In the Manage application <strong>tags</strong> dialog box, hover<br>over the tag, click<img src="assets/e0260e5531131a7e5561f72e38d09a68.png" width="10" alt="">, and<br>remove the tag.<br>• <strong>Associate tags</strong>: On the <strong>Tags</strong> tab, select the target tags in the check boxes next to <strong>Associate tags</strong>. Then click <strong>Save</strong>.<br>![](assets/118a2fb5e4def28290ac9a94a5e8c529.jpeg) |
+   | Tags | Manage application tags. | • <strong>Manage application tags</strong>:<br>• Add a tag: On the <strong>Tags</strong> tab, click <strong>Manage</strong> <strong>application tags</strong>. In the Manage application<br><strong>tags</strong> dialog box, click<img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/ac0cb4d75af3b4de9c1724190653c4f5.png" width="20" alt="">,<br>enter a tag name, and add the new tag.<br>• Edit a tag: On the <strong>Tags</strong> tab, click <strong>Manage</strong> <strong>application tags</strong>. In the Manage application <strong>tags</strong> dialog box, hover<br>over the tag, click<img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/dab087047471a901829e6e8581e132ab.png" width="14" alt="">, and<br>edit the tag name.<br>• Remove a tag: On the <strong>Tags</strong> tab, click <strong>Manage</strong> <strong>application tags</strong>. In the Manage application <strong>tags</strong> dialog box, hover<br>over the tag, click<img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/e0260e5531131a7e5561f72e38d09a68.png" width="10" alt="">, and<br>remove the tag.<br>• <strong>Associate tags</strong>: On the <strong>Tags</strong> tab, select the target tags in the check boxes next to <strong>Associate tags</strong>. Then click <strong>Save</strong>.<br>![](en-arms-user-guide-v3.18.6-2607-20260828.assets/118a2fb5e4def28290ac9a94a5e8c529.jpeg) |
    | Delete | Purge all monitoring data for the application. | <strong>Delete</strong>: On the <strong>Delete</strong> tab, click <strong>Delete</strong>. In the <strong>Delete</strong> <strong>application</strong> dialog box, click <strong>Delete</strong>.<br>Important<br>This action purges all monitoring data for the application. <strong>You cannot</strong> recover the data after deletion! |
 
 <a id="section-5-6"></a>
@@ -4823,7 +4823,7 @@ Install an agent for your LLM application. For more information, see Integrate L
 
 5. After you apply the filters, the Trace Analysis page displays the filtered LLM trace data.
 
-![](assets/5539441819d6de5a2a08d3dc3e40acfa.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/5539441819d6de5a2a08d3dc3e40acfa.jpeg)
 
 **Trace details**
 
@@ -4831,11 +4831,11 @@ In the trace list, click the target **TraceId** to open the trace details page.
 
 In the trace details panel, you can view the timeline, start time, total duration, and expand individual spans to see more information.
 
-![](assets/6d65497c99ec4ae0caf2e493ce080cd3.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/6d65497c99ec4ae0caf2e493ce080cd3.jpeg)
 
 For spans labeled with tags such as CHAIN, AGENT, or LLM, click the tag to view additional AI-related invocation details.
 
-![](assets/70be5c9b420334c2af03cdffb3e17f8a.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/70be5c9b420334c2af03cdffb3e17f8a.jpeg)
 
 <a id="section-6"></a>
 
@@ -5469,7 +5469,7 @@ This topic describes how to log in to the Apsara Uni-manager Management Console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -5535,7 +5535,7 @@ This topic describes how to log in to the Apsara Uni-manager Management Console.
 
 2. On the Forgot Password page, configure the **Account Name** and **Email Address** parameters, enter the verification code, and then click **Confirm**.
 
-   ![](assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
+   ![](en-arms-user-guide-v3.18.6-2607-20260828.assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
 
    > **Note**
    >
@@ -5591,7 +5591,7 @@ Before you can create a user or a user group, you must create an organization.
 
    <li>
 
-   On the **Users** page, find the user that you want to manage, click the <img src="assets/69000e7a8b6c57a7c7db5626069b35e3.png" width="19" alt=""> icon, and then
+   On the **Users** page, find the user that you want to manage, click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/69000e7a8b6c57a7c7db5626069b35e3.png" width="19" alt=""> icon, and then
 
    click **Role authorized**.
 
@@ -5617,7 +5617,7 @@ Before you can create a user or a user group, you must create an organization.
 
    | Parameter | Description |
    | --- | --- |
-   | User Group Name | Enter a name for the user group. The name must be 3 to 255 characters in length, and can contain letters, digits, underscores (_),<br>![](assets/5aea5f5fd42b23c80bc500f2831f93c3.png)<br>hyphens (-), periods (.), and at signs (@). Example: <code>ARMS_group</code>. |
+   | User Group Name | Enter a name for the user group. The name must be 3 to 255 characters in length, and can contain letters, digits, underscores (_),<br>![](en-arms-user-guide-v3.18.6-2607-20260828.assets/5aea5f5fd42b23c80bc500f2831f93c3.png)<br>hyphens (-), periods (.), and at signs (@). Example: <code>ARMS_group</code>. |
    | Organization | Select an organization from the drop-down list. |
    | Role authorized | Select the role that you want to assign to the users in the user group.For more information about how to create a role, see Create a role. |
 
@@ -5657,7 +5657,7 @@ Before you can create a user or a user group, you must create an organization.
 
    <li>
 
-   On the **User Groups** page, find the user group that you want to manage, click the <img src="assets/69000e7a8b6c57a7c7db5626069b35e3.png" width="19" alt="">
+   On the **User Groups** page, find the user group that you want to manage, click the <img src="en-arms-user-guide-v3.18.6-2607-20260828.assets/69000e7a8b6c57a7c7db5626069b35e3.png" width="19" alt="">
 
    icon, and then click **Authorize**.
 
@@ -5750,7 +5750,7 @@ The Apsara Uni-manager Management Console allows you to create custom RAM roles 
 
    | Parameter | Description |
    | --- | --- |
-   | Role Name | The custom role name, such as<br>![](assets/59d925f2d6c9cd42f7d6cb07b23f1c25.png)<br><code>Namespace</code><br><code>Management</code><br><code>Permission</code>. |
+   | Role Name | The custom role name, such as<br>![](en-arms-user-guide-v3.18.6-2607-20260828.assets/59d925f2d6c9cd42f7d6cb07b23f1c25.png)<br><code>Namespace</code><br><code>Management</code><br><code>Permission</code>. |
    | Description | The remarks for the role, typically used to describe the permissions of the role. |
    | Sharing Scope | Select the sharing scope of the role based on your business requirements.Valid values:<br>• Global <strong>Sharing</strong>: This is the default option. The role can be viewed and used by all organizations.<br>• Share Within Organization: The role can be viewed and used by the organization to which the user belongs.<br>• Share With Subordinate Organization <strong>s</strong>: The role can be viewed and used by the organization to which the user belongs and its subordinate organizations.<br>Note<br>When you log on with the admin account, the sharing scope is set to <strong>Global</strong> <strong>Sharing</strong> by default and cannot be changed. If you use another account to log on to the Apsara Uni-manager Managemen t Console, the preceding three options are displayed for the Sharing Scope parameter. |
 
@@ -5804,7 +5804,7 @@ The Apsara Uni-manager Management Console allows you to create custom RAM roles 
 
    | Parameter | Description |
    | --- | --- |
-   | Policy Name | The custom policy name, which cannot exceed 50 characters, such<br>![](assets/93fedf0638a9bcff3e48fbaba8a2a0a3.png)<br>as <code>TraceApp</code>. |
+   | Policy Name | The custom policy name, which cannot exceed 50 characters, such<br>![](en-arms-user-guide-v3.18.6-2607-20260828.assets/93fedf0638a9bcff3e48fbaba8a2a0a3.png)<br>as <code>TraceApp</code>. |
    | Sharing Scope | Select the sharing scope of the role based on your business requirements. Valid values:<br>• <strong>Global Sharing</strong>: This is the default option. The role can be viewed and used by all organizations.<br>• <strong>Share Within Organization</strong>: The role can be viewed and used by the organization to which the user belongs.<br>• <strong>Share With Subordinate Organizations</strong>: The role can be viewed and used by the organization to which the user belongs and its subordinate organizations.<br>Note<br>When you log on with the admin account, the sharing scope is set to <strong>Global Sharing</strong> by default and cannot be changed. If you use another account to log on to the Apsara Uni-manager Management Console, the preceding three options are displayed for the Sharing Scope parameter. |
    | Remarks | The description of the policy, typically used to describe the capabilities of the policy. |
    | Policy Content | The custom policy content is as follows:<br><code>{</code><br><code>"Version": "1",</code><br><code>"Statement": [</code><br><code>{</code><br><code>"Action": [</code><br><code>"arms:ReadTraceApp",</code><br><code>"arms:EditTraceApp"</code><br><code>],</code><br><code>"Resource": "acs:arms:cn-qingdao-env66-</code><br><code>d01:*:armsapp/arms-console-1",</code><br><code>"Effect": "Allow"</code><br><code>},</code><br><code>{</code><br><code>"Action": [</code><br><code>"arms:ReadTraceApp"</code><br><code>],</code><br><code>"Resource": "acs:arms:cn-qingdao-env66-</code><br><code>d01:*:armsapp/arms-console-2",</code><br><code>"Effect": "Allow"</code><br><code>}</code><br><code>]</code><br><code>}</code><br>The permission actions in this policy represent the read and write permissions granted for the specified application.<br>Note<br>This example only demonstrates the read and write permissions for Application Monitoring. If you need to customize other permission policies, see Permission policy examples.<br>If you need to set multiple permission actions at the same time, separate them with commas (,). |
@@ -6139,7 +6139,7 @@ ps -ef | grep 'arms-bootstrap'
 
 The results shown in the following figure indicate that the ARMS agent has been installed.
 
-![](assets/5494207cf7876931221ba572a689bb70.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/5494207cf7876931221ba572a689bb70.jpeg)
 
 The value of the **Darms.licenseKey** parameter in the command must be the same as the license key displayed on the **Add Application** page in the ARMS console.
 
@@ -6263,7 +6263,7 @@ You can check the version of the ARMS agent by viewing the version file in the d
 
 If the standard output shown in the following figure is displayed, it indicates that the application name is modified.
 
-![](assets/4e657e2d0d67b1c14c1dcd1809a1e141.jpeg)
+![](en-arms-user-guide-v3.18.6-2607-20260828.assets/4e657e2d0d67b1c14c1dcd1809a1e141.jpeg)
 
 [Back to Top]
 

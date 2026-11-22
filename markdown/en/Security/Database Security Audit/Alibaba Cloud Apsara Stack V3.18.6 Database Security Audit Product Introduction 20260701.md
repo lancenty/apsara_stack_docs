@@ -341,9 +341,9 @@ The system adopts a browser/server (B/S) architecture. Users can log in to the s
 
 The architecture of Database Security Audit is divided into the traffic capture, protocol parsing, data processing, and system management layers.
 
-![](assets/012c7961ccaa2bcbc9e584f7e43bd44f.png)
+![](en-database-audit-product-introduction-v3.18.6-20260701.assets/012c7961ccaa2bcbc9e584f7e43bd44f.png)
 
-![](assets/b847fda5742835b798530d50412c23f8.png)
+![](en-database-audit-product-introduction-v3.18.6-20260701.assets/b847fda5742835b798530d50412c23f8.png)
 
 **System**
 
@@ -353,21 +353,21 @@ The architecture of Database Security Audit is divided into the traffic capture,
 
 **Management**
 
-![](assets/4135c965054babdeef4c083a2f751abe.png)
+![](en-database-audit-product-introduction-v3.18.6-20260701.assets/4135c965054babdeef4c083a2f751abe.png)
 
 **Data**
 
 **Processing**
 
-![](assets/0711b3c1022bababe9623a8b991b6c81.png)
+![](en-database-audit-product-introduction-v3.18.6-20260701.assets/0711b3c1022bababe9623a8b991b6c81.png)
 
 **Protocol Parsing**
 
 **Parsing**
 
-![](assets/d0ff81e32254094c85cc75aea4ce4140.png)
+![](en-database-audit-product-introduction-v3.18.6-20260701.assets/d0ff81e32254094c85cc75aea4ce4140.png)
 
-![](assets/2cd43f78d8873cd56dcbd455c17388bc.png)
+![](en-database-audit-product-introduction-v3.18.6-20260701.assets/2cd43f78d8873cd56dcbd455c17388bc.png)
 
 **Data**
 

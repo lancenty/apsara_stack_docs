@@ -117,7 +117,7 @@ This topic describes how to find the required documentation when you call an API
 
 You can follow the procedure described in the following figure to view the specific documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-express-connect-developer-guide-v3.18.6-2607-20260828.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -145,7 +145,7 @@ To provide consistent user experience, the API calls of Apsara Stack V3.16.0 and
 
 **Flowchart**
 
-![](assets/27a14c1fdbadd2d9298565190c14de9a.png)
+![](en-express-connect-developer-guide-v3.18.6-2607-20260828.assets/27a14c1fdbadd2d9298565190c14de9a.png)
 
 **Procedure**
 
@@ -205,7 +205,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-express-connect-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -215,7 +215,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 7. Click the operation that you want to call. Obtain the endpoint from the Endpoint parameter on the Parameter tab.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-express-connect-developer-guide-v3.18.6-2607-20260828.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 <a id="section-2-2"></a>
 
@@ -258,7 +258,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-express-connect-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >

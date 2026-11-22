@@ -44,7 +44,7 @@ The operations and maintenance (O&M) of AHM primarily include the following cont
 
 The Delivery Center module of Hybrid Cloud Application Center is deployed in the classic network of the infrastructure based on the PaaS foundation in the Apsara Stack environment.
 
-![](assets/bee2edb8a160a9e5bf6b9c263ca8e3fd.jpeg)
+![](en-ahm-operations-guide-v3.18.6-20260630.assets/bee2edb8a160a9e5bf6b9c263ca8e3fd.jpeg)
 
 Widgets in Hybrid Cloud Application Center are as follows:
 
@@ -94,7 +94,7 @@ You can log on to the terminal server or the Apsara Infrastructure Management co
 
 - Log on to the Apsara Uni-manager Operations Console. In the top navigation bar, choose Platform Operation > Apsara Infrastructure Management > **Resource Management**. On the **Product & Cluster O&M** page, search for AHM, find the AHM cluster, and then click **Cluster Details** in the Actions column. On the Cluster Details page, click the **Desired State Configuration** tab, and then search for the build-id and system-id parameters. The build-id parameter indicates the build ID and the system-id parameter indicates the system ID.
 
-  ![](assets/df847a090bce716b7c3ebfd324f37949.jpeg)
+  ![](en-ahm-operations-guide-v3.18.6-20260630.assets/df847a090bce716b7c3ebfd324f37949.jpeg)
 
 **Check the readiness of all AHM components**
 
@@ -213,15 +213,15 @@ Hybrid Cloud Application Center (AHM) is connected to the Inspections console. Y
 
 3. In the Create Scenario panel, select ahm-API-test-python from the **Configure Inspection Items** drop-down list, configure other parameters, and then click **OK**.
 
-   ![](assets/40825a8a9aa227362879433b4d7e81b0.jpeg)
+   ![](en-ahm-operations-guide-v3.18.6-20260630.assets/40825a8a9aa227362879433b4d7e81b0.jpeg)
 
 4. On the **Quick Inspection** page, select the inspection scenario that you created in the previous step and click **Inspect Now** or **Scheduled Inspection** to inspect AHM.
 
-   ![](assets/3fe3ac968bbddf547981b2ec2abd9aae.jpeg)
+   ![](en-ahm-operations-guide-v3.18.6-20260630.assets/3fe3ac968bbddf547981b2ec2abd9aae.jpeg)
 
 5. On the **Inspection Records** page, find the inspection scenario and click **Inspection Report** in the Operation column to view the inspection details.
 
-   ![](assets/e61a4bc49a12d854c44f1db9a8330a96.jpeg)
+   ![](en-ahm-operations-guide-v3.18.6-20260630.assets/e61a4bc49a12d854c44f1db9a8330a96.jpeg)
 
    > **Note**
    >

@@ -280,7 +280,7 @@ The Static Data Masking and Watermarking system is deployed on Apsara Stack serv
 
 4. Click **Create Instance**. In the **Create Instance** panel, create a Static Data Masking and Watermarking instance.
 
-   ![](assets/fa2e9113749df545f23b45889bca1bf0.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/fa2e9113749df545f23b45889bca1bf0.jpeg)
 
    | Section and parameter | Description |
    | --- | --- |
@@ -409,7 +409,7 @@ This topic describes the data masking workflow.
 
 **Workflow diagram**
 
-![](assets/b3b31602682d6d7d834288b28309fdad.png)
+![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/b3b31602682d6d7d834288b28309fdad.png)
 
 <a id="section-2-6-2"></a>
 
@@ -487,7 +487,7 @@ File masking process: Create a file source, upload a file to the specified locat
 
 4. Configure a file template based on the uploaded file and click **Save**. In the message that appears, click OK.
 
-   ![](assets/fab99cc2d779a748e1f96996ce1b785e.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/fab99cc2d779a748e1f96996ce1b785e.jpeg)
 
 5. On the File Sources tab, find the file source that you created and click **Create Discovery Task** in the Oper column. On the discovery task configuration page, select the file to be discovered by the discovery task and click **Next**. Then, select the discovery rules that you want to use and click **Save and Run**.
 
@@ -563,11 +563,11 @@ After you configure filter conditions by using the subset filtering feature, the
 
 For example, the following figure indicates that the system masks only data whose ID is greater than 3.
 
-![](assets/456bed227af06662fbb552872bc9f406.jpeg)
+![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/456bed227af06662fbb552872bc9f406.jpeg)
 
 The masking effect is as follows:
 
-![](assets/ad4cf421cca49d814ded477ad2398256.jpeg)
+![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/ad4cf421cca49d814ded477ad2398256.jpeg)
 
 **Prerequisites**
 
@@ -587,29 +587,29 @@ Complete the following operations before you configure subset filtering:
 
 1. Select **Data Masking > Solution Management**.
 
-2. Select **Database Project**, and click the <img src="assets/d8a8bb4c2e5f70cc7c9fad827e13b3a1.png" width="14" alt=""> icon next to the specified data subset on the
+2. Select **Database Project**, and click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d8a8bb4c2e5f70cc7c9fad827e13b3a1.png" width="14" alt=""> icon next to the specified data subset on the
 
    **Data subset** tab.
 
-   ![](assets/47ad52af70adf734ab8435f12cc6e102.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/47ad52af70adf734ab8435f12cc6e102.jpeg)
 
 3. Configure filter conditions.
 
-   ![](assets/3b0a688d592c9e296335d6c9a9c8e3de.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/3b0a688d592c9e296335d6c9a9c8e3de.jpeg)
 
 4. Select the field for which you want to configure filter conditions and configure expressions as needed.
 
-   ![](assets/8397b4804707c07bda04506d47bab2fa.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/8397b4804707c07bda04506d47bab2fa.jpeg)
 
 5. After you save the configuration, the configured filter conditions appear in the filter condition list. You can also configure logical combinations for multiple filter conditions.
 
-   ![](assets/78532aedded047b4db1666fd27e32391.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/78532aedded047b4db1666fd27e32391.jpeg)
 
 6. If built-in conditions cannot meet your requirements, you can use extended conditions to supplement the configured filter conditions.
 
-   ![](assets/56e0298b2351582f6a81ac99e28f6a6f.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/56e0298b2351582f6a81ac99e28f6a6f.jpeg)
 
-   ![](assets/e4240818665ba13411f4ccb19cf00c9b.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/e4240818665ba13411f4ccb19cf00c9b.jpeg)
 
 7. Click **Save** to complete the configuration of filter conditions for the data subset.
 
@@ -635,11 +635,11 @@ DMS supports setting expression configurations (using JavaScript syntax) during 
 
 For example, configure the SEX and AGE columns in the original table using the expression configuration feature. Set the AGE column to a random number between 1 and 100, and randomly populate the SEX column with gender values.
 
-![](assets/7dc6be9a55a69588f84e657250bfbb84.jpeg)
+![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/7dc6be9a55a69588f84e657250bfbb84.jpeg)
 
 Masking effect:
 
-![](assets/c3e1106d6e87441fcef01db0f1222a5b.jpeg)
+![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c3e1106d6e87441fcef01db0f1222a5b.jpeg)
 
 **Prerequisites**
 
@@ -663,15 +663,15 @@ Masking effect:
 
 2. In the **Project list**, select a masking policy and click the **Expression config** tab.
 
-   ![](assets/cefcb44a9609cd3a23b2b12a1260f60d.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/cefcb44a9609cd3a23b2b12a1260f60d.jpeg)
 
 3. Configure the expression.
 
    After you configure the expression, the masking result follows the expression settings. You can switch operators and built-in functions (attributes) via buttons.
 
-   ![](assets/7dc6be9a55a69588f84e657250bfbb84.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/7dc6be9a55a69588f84e657250bfbb84.jpeg)
 
-   ![](assets/109acc964ca098dfb0ed3d14100ab64f.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/109acc964ca098dfb0ed3d14100ab64f.jpeg)
 
 4. Click **Save** to complete the expression configuration.
 
@@ -717,7 +717,7 @@ Before you configure incremental data masking, you must complete the following o
 
 1. When you configure Subset filtering, select **Set to Incremental**.
 
-   ![](assets/0290c6c06806e90524c92b25458143c6.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/0290c6c06806e90524c92b25458143c6.jpeg)
 
 2. When you configure Create a data masking task, perform the following operations in the **Destination parameter** section.
 
@@ -727,7 +727,7 @@ Before you configure incremental data masking, you must complete the following o
 
    Change the **Table Processing** method to **If the table already exists, add data to it**.
 
-   ![](assets/61b77a9080c175b5521c1ba9b7300aff.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/61b77a9080c175b5521c1ba9b7300aff.jpeg)
 
    </li>
 
@@ -739,7 +739,7 @@ Before you configure incremental data masking, you must complete the following o
 
    </ol>
 
-   ![](assets/7de8a2d83ec7e2d1bf3176077a1a8f39.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/7de8a2d83ec7e2d1bf3176077a1a8f39.jpeg)
 
    > **Note**
    >
@@ -761,27 +761,27 @@ For example, one column stores data in the format “Chinese Name|Phone Number�
 
 The following figure shows a comparison before and after masking:
 
-![](assets/d4ee41bb8b2ab6ee93dc338beda48fc0.jpeg)
+![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d4ee41bb8b2ab6ee93dc338beda48fc0.jpeg)
 
 **Configure the composite masking algorithm**
 
 1. Select **Configuration > Discovery Rules**, and add a discovery rule that detects data in composite format.
 
-   ![](assets/5c2769706a13f682e8aa0bb3e6d0217b.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5c2769706a13f682e8aa0bb3e6d0217b.jpeg)
 
 2. Configure segmented content.
 
-   ![](assets/419405b8071cf2ddacdc475264ee9716.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/419405b8071cf2ddacdc475264ee9716.jpeg)
 
 3. Select **Configuration > Masking Algorithms**, and add a composite masking algorithm.
 
-   ![](assets/43493b70965836d8f9df5d0c103b11c0.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/43493b70965836d8f9df5d0c103b11c0.jpeg)
 
 4. Add a database source or Add a file source.
 
 5. When adding Discovery tasks, select the newly created composite discovery rule in **Configure discovery rules**.
 
-   ![](assets/c220c0d38b81d21e1e0eaa6751cb9be3.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c220c0d38b81d21e1e0eaa6751cb9be3.jpeg)
 
 6. Perform sensitive field type verification or Verify file columns of sensitive file types.
 
@@ -789,7 +789,7 @@ The following figure shows a comparison before and after masking:
 
    You can also manually Add a data subset, Add a masking policy, and Create a data masking task to configure masking. When adding a masking scheme, you must select the newly created composite masking algorithm for the composite column.
 
-   ![](assets/c7d40062ee111ee0f8a62ec9c01b3960.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c7d40062ee111ee0f8a62ec9c01b3960.jpeg)
 
 <a id="section-2-7-5"></a>
 
@@ -807,7 +807,7 @@ Apply the Chinese name replacement algorithm (preserving given name) to Chinese 
 
 1. Select **Configuration > Masking Algorithm**, and add a hybrid masking algorithm.
 
-   ![](assets/721e06e1836767f6b92ce654850f082c.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/721e06e1836767f6b92ce654850f082c.jpeg)
 
 2. Add a database source or Add a file source.
 
@@ -819,7 +819,7 @@ Apply the Chinese name replacement algorithm (preserving given name) to Chinese 
 
    You can also manually configure masking by Add a data subset, Add a masking policy, and Create a data masking task. When adding a masking scheme, you must select the newly created hybrid masking algorithm for composite columns.
 
-   ![](assets/890d9d466182dd163c4951391a6f2918.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/890d9d466182dd163c4951391a6f2918.jpeg)
 
 <a id="section-2-7-6"></a>
 
@@ -835,7 +835,7 @@ Use dictionary replacement if the original data exists in the data dictionary. O
 
 After the system applies the dictionary replacement algorithm for masking, the masked result is content from the data dictionary.
 
-![](assets/dea2e67533d059759907998467f68317.png)
+![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/dea2e67533d059759907998467f68317.png)
 
 **Configure the data dictionary**
 
@@ -843,7 +843,7 @@ After the system applies the dictionary replacement algorithm for masking, the m
 
    - Use a built-in data dictionary.
 
-     ![](assets/09d75e9f3092930bc67f0796bdcfd864.jpeg)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/09d75e9f3092930bc67f0796bdcfd864.jpeg)
 
    - Create a new data dictionary.
 
@@ -851,21 +851,21 @@ After the system applies the dictionary replacement algorithm for masking, the m
 
      <li>
 
-     Click the <img src="assets/5331b5bbffb6b38fe4625a115000eb1a.png" width="14" alt=""> icon. After you complete the configuration, click **Save**.
+     Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5331b5bbffb6b38fe4625a115000eb1a.png" width="14" alt=""> icon. After you complete the configuration, click **Save**.
 
      - If the data dictionary is a grouped dictionary: Configure the group column index. The column index must be numeric. Separate multiple columns with commas.
 
      - If the data dictionary is a standard data dictionary: Leave the group column index blank.
 
-       ![](assets/344b3dbae1d74d30da8f811abb2179ef.jpeg)
+       ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/344b3dbae1d74d30da8f811abb2179ef.jpeg)
 
      </li>
 
      <li>
 
-     Add dictionary content. After you add all dictionary entries, click the <img src="assets/ebe8a42f1ca6ab05223e48cc1263a4a5.png" width="14" alt=""> icon to archive.
+     Add dictionary content. After you add all dictionary entries, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/ebe8a42f1ca6ab05223e48cc1263a4a5.png" width="14" alt=""> icon to archive.
 
-     ![](assets/9f2517c0f9a9083b4da62efbebaaeded.jpeg)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/9f2517c0f9a9083b4da62efbebaaeded.jpeg)
 
      </li>
 
@@ -875,13 +875,13 @@ After the system applies the dictionary replacement algorithm for masking, the m
 
    Create N discovery rules for the data dictionary, where N equals the number of columns in the data dictionary.
 
-   ![](assets/ef5412a8b0f501a8a2dd57a4e83ee313.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/ef5412a8b0f501a8a2dd57a4e83ee313.jpeg)
 
 3. Add a database source or Add a file source.
 
 4. When you add Discovery tasks, select the newly created discovery rule based on the data dictionary under **Determine the data range**.
 
-   ![](assets/edc1155ed330b86d0adf19b0f005ad60.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/edc1155ed330b86d0adf19b0f005ad60.jpeg)
 
 5. Perform sensitive field type verification or Verify file columns of sensitive file types.
 
@@ -889,9 +889,9 @@ After the system applies the dictionary replacement algorithm for masking, the m
 
    Alternatively, add a "data subset", add a "masking scheme", and add a "masking task". Follow the manual process to create the data subset, masking scheme, and masking task. When you manually create the masking scheme, select the dictionary replacement algorithm for columns requiring masking and specify the corresponding data dictionary and column index.
 
-   ![](assets/81d95acb39a4f23dd1bd4001010d3fd7.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/81d95acb39a4f23dd1bd4001010d3fd7.jpeg)
 
-   ![](assets/a9714a74f7468671c84952f3ce44fedf.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/a9714a74f7468671c84952f3ce44fedf.jpeg)
 
 <a id="section-2-7-7"></a>
 
@@ -903,9 +903,9 @@ DMS supports masking of large text, including JSON-formatted text and alphanumer
 
 1. Select **Configuration > Masking Algorithm**.
 
-2. Click the <img src="assets/f219639105f3e007e8d2aa70b06d6556.png" width="14" alt=""> icon to add a text masking algorithm.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f219639105f3e007e8d2aa70b06d6556.png" width="14" alt=""> icon to add a text masking algorithm.
 
-   ![](assets/67149f127e9894d527722892c4b4095c.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/67149f127e9894d527722892c4b4095c.jpeg)
 
 <a id="section-2-7-8"></a>
 
@@ -917,7 +917,7 @@ DMS provides the group dictionary data masking feature. This feature replaces va
 
 For example, if your data has two columns — city and district — and you mask the district column but not the city column, the masked district value must still correspond correctly to the preceding city value.
 
-![](assets/42177f8f1909800b08f9617a58d698e6.jpeg)
+![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/42177f8f1909800b08f9617a58d698e6.jpeg)
 
 **Procedure**
 
@@ -925,19 +925,19 @@ For example, if your data has two columns — city and district — and you mask
 
 2. Create a group dictionary, enter its data, and archive it.
 
-   ![](assets/dc4aeba5135ba68fa7f3f94d7e3ca076.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/dc4aeba5135ba68fa7f3f94d7e3ca076.jpeg)
 
 3. Add discovery rules. Set **Recommended masking algorithm** to **Dictionary replacement** or **Dictionary randomization**.
 
    Create N discovery rules based on the data dictionary, where N equals the number of columns in the data dictionary.
 
-   ![](assets/3e2f8754fb70adb442b00dd112de70be.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/3e2f8754fb70adb442b00dd112de70be.jpeg)
 
 4. Add a database source or Add a file source.
 
 5. When adding Discovery tasks, select the newly created discovery rule in **Determine the data range**.
 
-   ![](assets/d51a46221407c31be8f5d466c057d274.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d51a46221407c31be8f5d466c057d274.jpeg)
 
 6. Perform sensitive field type verification or Verify file columns of sensitive file types.
 
@@ -947,7 +947,7 @@ For example, if your data has two columns — city and district — and you mask
 
 9. Select **Data Masking > Solution Management**, then configure **Grouped Dictionary Column Config**.
 
-   ![](assets/26126dba8853961a0156cb8488d9e7ed.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/26126dba8853961a0156cb8488d9e7ed.jpeg)
 
 0. Create a data masking task, using the masking plan created in the previous step.
 
@@ -1026,7 +1026,7 @@ The Data Discovery and Desensitization system supports various database types as
 
 4. In the **Add Database Source** dialog box, enter the database connection details. Click **Expand Advanced Options** to configure additional settings such as the JDBC URL, single-byte decoding character set, and custom database driver.
 
-   ![](assets/3f116dea45d056f751ef742f6d8d9a10.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/3f116dea45d056f751ef742f6d8d9a10.jpeg)
 
 5. Click **Test Connection** to verify the connection.
 
@@ -1148,7 +1148,7 @@ A flat file exported from a database is equivalent to a database table, and a co
 
 6. Click **Next** to configure a custom file template or select an existing template.
 
-   ![](assets/0ba92faefd056cd2fdc872f48581337b.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/0ba92faefd056cd2fdc872f48581337b.jpeg)
 
 7. Click **Save**.
 
@@ -1389,13 +1389,13 @@ This topic describes how to view the execution records of a database discovery t
 
 4. In the **Discovery Task History** dialog box, find the task execution record that you want to
 
-   manage and click the <img src="assets/6cc64c0fae3b2ed70f5bd4e614cb1c7f.png" width="14" alt=""> icon in the Oper column.
+   manage and click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/6cc64c0fae3b2ed70f5bd4e614cb1c7f.png" width="14" alt=""> icon in the Oper column.
 
 5. On the **Discovery Task Execution Report** page, view the execution information about the database discovery task.
 
 6. In the **Discovery Task History** dialog box, find the task execution record that you want to
 
-   manage and click the <img src="assets/0d7ae51c5f9585cbbb0ca18cd521db6d.png" width="14" alt=""> icon in the Oper column to download the execution log of the
+   manage and click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/0d7ae51c5f9585cbbb0ca18cd521db6d.png" width="14" alt=""> icon in the Oper column to download the execution log of the
 
    database discovery task to your on-premises machine.
 
@@ -1415,15 +1415,15 @@ After a database discovery task is executed, the Apsara Stack data security syst
 
 2. Choose **Data Discovery > Sensitive Field Analysis**. On the page that appears, click the
 
-   expand icon on the left. In the Data Source List section, click the <img src="assets/9e0ae68fa513902cf8b76a4510d93e28.png" width="14" alt=""> icon.
+   expand icon on the left. In the Data Source List section, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/9e0ae68fa513902cf8b76a4510d93e28.png" width="14" alt=""> icon.
 
-   ![](assets/1c9f3c2bc438624eeeba1d49dbb635c1.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/1c9f3c2bc438624eeeba1d49dbb635c1.jpeg)
 
 3. In the **Add Sensitive Data** dialog box, configure the Data Source, UserName, and Password parameters and click **Connect**, as shown in the following figure.
 
    Figure 1: Add sensitive data
 
-   ![](assets/97ff10cce171fcb4cd44960c46bb94ee.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/97ff10cce171fcb4cd44960c46bb94ee.jpeg)
 
    > **Note**
    >
@@ -1451,7 +1451,7 @@ This topic describes how to verify sensitive data fields.
 
      Figure 1: Verify a single sensitive data field
 
-     ![](assets/f81d4314c579c03d854078f55123e209.png)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f81d4314c579c03d854078f55123e209.png)
 
    - To verify multiple sensitive data fields at a time, select the sensitive data fields that you want to verify and click **Verify fields** above the sensitive data list.
 
@@ -1477,7 +1477,7 @@ This topic describes how to specify sensitive data fields as non-sensitive data 
 
    Figure 2: Prompt for setting non-sensitive data fields
 
-   ![](assets/bdc27157de1822163b8d3bd0d350af18.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/bdc27157de1822163b8d3bd0d350af18.jpeg)
 
    > **Note**
    >
@@ -1501,11 +1501,11 @@ If a sensitive data discovery task is not executed for the first time and the se
 
 4. In the Change Sensitive Data message, click Confirm Change to confirm the change of the sensitive data type of the data field, or click Not Change to leave the sensitive data type of the data field unchanged. To confirm the changes of sensitive data types of multiple data fields at a time, select the data fields whose sensitive data types change and click **Confirm Change** above the sensitive data list. You can also click **Not Change** to leave the sensitive data types of the data fields unchanged.
 
-   ![](assets/52d440f8de76b6e705e1b0bd609c8c0c.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/52d440f8de76b6e705e1b0bd609c8c0c.jpeg)
 
    You can also select the data field whose sensitive data type changes and click **Contrast Change**. In the Compare change fields dialog box, click Change in the Oper column to confirm the change of the sensitive data type of the data field, or click Unchange in the Oper column to leave the sensitive data type of the data field unchanged.
 
-   ![](assets/802dc2a2cce5458495028cc78918617a.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/802dc2a2cce5458495028cc78918617a.jpeg)
 
 <a id="section-3-3-2-5"></a>
 
@@ -1521,11 +1521,11 @@ If a sensitive data discovery task is not executed for the first time and the se
 
 3. On the **Sensitive Field Analysis** tab, click a value in the Sample column.
 
-   ![](assets/8b7099b4ca87bbb2a3815aa3b7743ebf.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/8b7099b4ca87bbb2a3815aa3b7743ebf.jpeg)
 
 4. In the **More Sample Data** dialog box, view some of the sample values, sensitive data types, and the proportion of each sensitive data type in the sample.
 
-   ![](assets/48a7004a88083f73647f604891dcc07a.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/48a7004a88083f73647f604891dcc07a.jpeg)
 
 <a id="section-3-3-3"></a>
 
@@ -1545,11 +1545,11 @@ If a sensitive data discovery task is not executed for the first time and the se
 
 3. On the **Sensitive File Analysis** tab, change the sensitive data types of file columns, confirm the sensitive data types, select the file columns that you want to verify, and then click **Verify fields** to verify the file columns. You can select the file columns on the current page or all file columns across pages. To verify a file column, find the file column and click **Check** in the Oper column.
 
-   ![](assets/9f08da7ec879372ad5e921e143f7edea.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/9f08da7ec879372ad5e921e143f7edea.jpeg)
 
    - If you go to the **Sensitive File Analysis** tab by clicking Verify sensitive data in the Operation column of a file source discovery task, click **Complete carding** after file columns of sensitive data types are verified. Then, we recommend that you click **Add mask task** in the dialog box that appears to create a data masking task.
 
-     ![](assets/d2675cbf7e9dee0260cdfba46481aa0e.jpeg)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d2675cbf7e9dee0260cdfba46481aa0e.jpeg)
 
    - If you directly go to the **Sensitive File Analysis** tab, no **Complete carding** button appears after file columns of sensitive data types are verified. Then, you must manually create a data masking task.
 
@@ -1585,11 +1585,11 @@ If a sensitive data discovery task is not executed for the first time and the se
 
 4. In the Change Sensitive Data message, click Confirm Change to confirm the change of the sensitive data type of the file column, or click Not Change to leave the sensitive data type of the file column unchanged. To confirm the changes of sensitive data types of multiple file columns at a time, select the file columns whose sensitive data types change and click **Confirm Change** above the sensitive data list. You can also click **Not Change** to leave the sensitive data types of the file columns unchanged.
 
-   ![](assets/c5034fede8a5853fd8fc3cd45888b17e.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c5034fede8a5853fd8fc3cd45888b17e.jpeg)
 
    You can also select the file column whose sensitive data type changes and click **Contrast Change**. In the Compare change fields dialog box, click Change in the Oper column to confirm the change of the sensitive data type of the file column, or click Unchange in the Oper column to leave the sensitive data type of the file column unchanged.
 
-   ![](assets/e35514db168ead96e9eba5bbbd698166.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/e35514db168ead96e9eba5bbbd698166.jpeg)
 
 <a id="section-3-3-3-4"></a>
 
@@ -1619,7 +1619,7 @@ A sensitive field template specifies the type of sensitive data in the column of
 
 2. Choose **Data Discovery > Sensitive Field Templates**.
 
-3. In the left-side Sensitive Field Template List, click the <img src="assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
+3. In the left-side Sensitive Field Template List, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
 
 4. In the dialog box that appears, configure the Template Name, Template Type, and Out of template processing strategy parameters, and then click **Save**. Valid values for the Template Type parameter: Database sensitive field template and File sensitive field template.
 
@@ -1631,29 +1631,29 @@ A sensitive field template specifies the type of sensitive data in the column of
 
 5. In the left-side sensitive field template list, click the sensitive field template that you added.
 
-6. In the Dictionary List of Sensitive Fields section, click the <img src="assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
+6. In the Dictionary List of Sensitive Fields section, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
 
 7. In the **Add Database Sensitive Field Dictionary** or **Add File Sensitive Field Dictionary** dialog box, configure the sensitive field information and click **Save**.
 
    - **Add a database sensitive field dictionary**
 
-     ![](assets/e8d78695d7149f6c39c25234b5ed0330.jpeg)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/e8d78695d7149f6c39c25234b5ed0330.jpeg)
 
    - **Add a file sensitive field dictionary**
 
-     ![](assets/4801a6a06309f9583eebec401b6fd1ac.jpeg)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/4801a6a06309f9583eebec401b6fd1ac.jpeg)
 
 **Modify a sensitive field template and a sensitive field**
 
 1. Choose **Data Discovery > Sensitive Field Templates** and find the sensitive field template that you want to manage in the left-side Sensitive Field Template List.
 
-2. Click the <img src="assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon to the right of the template that you want to modify.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon to the right of the template that you want to modify.
 
 3. Modify the values of the Template Name and Out of template processing strategy parameters, and then click **Save**.
 
 4. In the Dictionary List of Sensitive Fields section, find the sensitive field that you want to
 
-   modify and click the <img src="assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon in the Oper column.
+   modify and click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon in the Oper column.
 
 5. Modify the field information and click **Save**.
 
@@ -1661,7 +1661,7 @@ A sensitive field template specifies the type of sensitive data in the column of
 
 1. Choose **Data Discovery > Sensitive Field Templates** and find the sensitive field template that you want to manage in the left-side Sensitive Field Template List.
 
-2. Click the <img src="assets/c1c31ea88c838216efc90626e588eced.png" width="14" alt=""> icon to the right of the template that you want to export.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c1c31ea88c838216efc90626e588eced.png" width="14" alt=""> icon to the right of the template that you want to export.
 
 3. Follow the on-screen instructions to download and save the CSV file.
 
@@ -1691,11 +1691,11 @@ A sensitive field template specifies the type of sensitive data in the column of
 
 2. Choose **Data Discovery > Sensitive Field Templates** and find the sensitive field template that you want to manage in the left-side Sensitive Field Template List.
 
-3. Click the <img src="assets/ea606e95d5c46f4a6ef0674ef8765bfb.png" width="14" alt=""> icon to the right of the template that you want to import.
+3. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/ea606e95d5c46f4a6ef0674ef8765bfb.png" width="14" alt=""> icon to the right of the template that you want to import.
 
 4. Follow the on-screen instructions to upload the CSV file of the sensitive field template and configure the template file parameters.
 
-   ![](assets/b1fca6c780592479585995f39c55d504.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/b1fca6c780592479585995f39c55d504.jpeg)
 
 5. Click **Import**.
 
@@ -1705,11 +1705,11 @@ A sensitive field template specifies the type of sensitive data in the column of
 
 2. In the Dictionary List of Sensitive Fields section, find the sensitive field that you want to
 
-   delete and click the <img src="assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon in the Oper column.
+   delete and click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon in the Oper column.
 
 3. In the message that appears, click **OK**.
 
-4. In the left-side Sensitive Field Template List, click the <img src="assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon to the right of the sensitive
+4. In the left-side Sensitive Field Template List, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon to the right of the sensitive
 
    field template that you want to delete.
 
@@ -1735,25 +1735,25 @@ You can configure a collection of the tables to be masked. File source masking d
 
 2. Click **Data Masking**. Then, click the **Data Subsets** tab.
 
-3. In the left-side Data Subset List section, click the <img src="assets/adf42a90bd3c738bf9d67548c37615d6.png" width="14" alt=""> icon.
+3. In the left-side Data Subset List section, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/adf42a90bd3c738bf9d67548c37615d6.png" width="14" alt=""> icon.
 
 4. On the Basic Information tab of the Add Data Subset dialog box, configure the **Subset Name**, **Subset Type**, **Data Source**, and Description parameters. Then, click **Next**.
 
-   ![](assets/6e0fa6a49fd79d15420d1eca4dc36b59.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/6e0fa6a49fd79d15420d1eca4dc36b59.jpeg)
 
 5. If the driving table feature is not required, click **Next** on the Driver Table Config tab.
 
-   ![](assets/6e0fa6a49fd79d15420d1eca4dc36b59.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/6e0fa6a49fd79d15420d1eca4dc36b59.jpeg)
 
 6. If the driving table feature is required, set the Config Driver Table parameter to **ON**, specify a table as the driving table, and then click **Next** on the Driver Table Config tab.
 
    After a primary key table is specified as the driving table and is filtered by using the subset filtering feature, the foreign key table is automatically filtered based on the conditions of the primary key table and not all data in the foreign key table is masked. If the primary keys of a table do not have relationships with foreign keys of the table and the driving table feature is required, you can configure logical relationships between the primary keys and the foreign keys.
 
-   ![](assets/969feb6f0e5d1afc0bdf14d180c42cad.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/969feb6f0e5d1afc0bdf14d180c42cad.jpeg)
 
 7. On the Data Table Config tab, select the tables to be masked and click **Save**. By default, all tables in the DMP file source are selected and cannot be cleared.
 
-   ![](assets/29e739aa3b4b7c2b380e469d2493d925.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/29e739aa3b4b7c2b380e469d2493d925.jpeg)
 
 8. We recommend that you create a data masking solution later.
 
@@ -1769,13 +1769,13 @@ You can configure a collection of the tables to be masked. File source masking d
 
 3. In the left-side Data Subset List section of the Data Subsets tab, find the data subset that you want to modify and click the Edit icon.
 
-   ![](assets/d0f68c0e40216221f06c42003840f9d4.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d0f68c0e40216221f06c42003840f9d4.jpeg)
 
 4. In the Edit Data Subset dialog box, modify the information about the data subset and click **Save**.
 
    You can modify only the name and description of the data subset. For more information about how to modify the data tables in a data subset, see <em><strong>Manage data tables in a data subset</strong></em><strong>.</strong>
 
-   ![](assets/72bd73b0ac80d686078c1fb81532098c.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/72bd73b0ac80d686078c1fb81532098c.jpeg)
 
 <a id="section-3-4-1-3"></a>
 
@@ -1789,7 +1789,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
 3. In the left-side Data Subset List section of the Data Subsets tab, find the data subset that you want to delete and click the Delete icon.
 
-   ![](assets/fcfdc3a002aac6f783418035502a0b68.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/fcfdc3a002aac6f783418035502a0b68.jpeg)
 
 4. In the message that appears, click **OK**.
 
@@ -1811,11 +1811,11 @@ You can configure a collection of the tables to be masked. File source masking d
 
    After a data subset is created, all tables in the data subset are enabled by default. If the state of a table is changed from Enable to Disable, the table will not be masked and migrated when the data masking task that involves the table is executed.
 
-   ![](assets/b6851816fcede49eb2ef041e266aef48.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/b6851816fcede49eb2ef041e266aef48.jpeg)
 
 4. To add one or more data tables to a data subset, select the desired data subset in the left-side Data Subset List section and click **Add Data Table** on the **Data Table** tab. Then, in the Add Data Table dialog box, select the tables that you want to add and click **Save**.
 
-   ![](assets/d28149a966c12dbb391a245a20c0c3fb.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d28149a966c12dbb391a245a20c0c3fb.jpeg)
 
 5. To delete one or more data tables from the data subset, select the tables that you want to delete and click **Delete** on the **Data Table** tab. In the message that appears, click **OK**.
 
@@ -1823,7 +1823,7 @@ You can configure a collection of the tables to be masked. File source masking d
    >
    > If the data subset is used by a data masking solution, a message appears indicating that the tables fail to be deleted.
 
-   ![](assets/d7b6040989fe5dea68806a3a712463d3.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d7b6040989fe5dea68806a3a712463d3.jpeg)
 
 <a id="section-3-4-1-5"></a>
 
@@ -1837,11 +1837,11 @@ You can configure a collection of the tables to be masked. File source masking d
 
 3. On the **Constraint** tab, find the constraint that you want to manage and click **Enable** or **Disable** in the **State** column to enable or disable the constraint.
 
-   ![](assets/733fb141dcb0d1ff66142710da8d6edc.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/733fb141dcb0d1ff66142710da8d6edc.jpeg)
 
 4. On the **Constraint** tab, click **Add Constraint**. In the Add Constraint dialog box, enter a constraint name, select a child table and a parent table, and then click **Next**. Then, configure the mappings between child table columns and parent table columns and click **Save**. You can configure multiple mappings between child table columns and parent table columns. In the message that appears, click OK.
 
-   ![](assets/f046a7731c3a982d4b11427b4124ccf1.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f046a7731c3a982d4b11427b4124ccf1.jpeg)
 
 5. On the **Constraint** tab, select one or more constraints that you want to delete and click **Delete**. In the message that appears, click OK.
 
@@ -1869,13 +1869,13 @@ You can configure a collection of the tables to be masked. File source masking d
 
    When you are finished, click **Next**.
 
-   ![](assets/075e9e925e402df4b5248a94881086a3.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/075e9e925e402df4b5248a94881086a3.jpeg)
 
 5. Select the data subset to mask and click **Next**.
 
    This step is skipped for file sources.
 
-   ![](assets/c19e786432a057c46f40dc4a884cb0dd.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c19e786432a057c46f40dc4a884cb0dd.jpeg)
 
 6. For each sensitive data type, configure a masking algorithm and its parameters, and then click **Save**.
 
@@ -1885,7 +1885,7 @@ You can configure a collection of the tables to be masked. File source masking d
    >
    > On this page, you can configure only one masking algorithm for each sensitive data type.
 
-   ![](assets/ceb1fdceb8ea4d216c0e7a025968f1ca.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/ceb1fdceb8ea4d216c0e7a025968f1ca.jpeg)
 
 7. In the message box, click **Add masking task** to go to the **data masking > masking task** tab. For the next steps, see the ***masking task*** section.
 
@@ -1903,7 +1903,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
 4. On the **Details of Mask Project** page, view the details of the data masking solution.
 
-   ![](assets/342c2416346f969a6c61d0b7e2d3e6d6.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/342c2416346f969a6c61d0b7e2d3e6d6.jpeg)
 
 <a id="section-3-4-2-3"></a>
 
@@ -1939,7 +1939,7 @@ You can configure a collection of the tables to be masked. File source masking d
    >
    > If the data masking solution is referenced by a data masking task, a message appears and the data masking solution fails to be deleted.
 
-   ![](assets/0e10119c3f38caa7851537c80c62a4f8.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/0e10119c3f38caa7851537c80c62a4f8.jpeg)
 
 <a id="section-3-4-2-5"></a>
 
@@ -1963,7 +1963,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
    On the **Data Subset** tab, click **Add Data Subset**.
 
-   ![](assets/984cb24825d4118c21bb8fd11d31c7d5.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/984cb24825d4118c21bb8fd11d31c7d5.jpeg)
 
    </li>
 
@@ -1975,7 +1975,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
    </ol>
 
-   ![](assets/49f52c91d2db22ae312f3e4c65f46b51.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/49f52c91d2db22ae312f3e4c65f46b51.jpeg)
 
 4. Delete data subsets from the data masking solution.
 
@@ -1985,7 +1985,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
    On the **Data Subset** tab, select the data subsets that you want to delete and click **Delete**.
 
-   ![](assets/4989f5229e2b28ccc18fe716e99076bc.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/4989f5229e2b28ccc18fe716e99076bc.jpeg)
 
    </li>
 
@@ -2031,7 +2031,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
      In the Data Subset-filtering Condition dialog box, click the table for which you want to add a subset filter condition on the left. On the Filter Condition tab of the Data Subset-filtering Condition dialog box, click the Add Filter Condition icon.
 
-     ![](assets/3b9ec22ec609c48e9e957bbb2c3d8933.jpeg)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/3b9ec22ec609c48e9e957bbb2c3d8933.jpeg)
 
      </li>
 
@@ -2053,7 +2053,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
      Click the **Logical Combination** tab of the Add Filter Condition dialog box. On the Logical Combination tab, configure the logical relationship between multiple conditions and click Save.
 
-     ![](assets/3b9ec22ec609c48e9e957bbb2c3d8933.jpeg)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/3b9ec22ec609c48e9e957bbb2c3d8933.jpeg)
 
      </li>
 
@@ -2069,7 +2069,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
      On the **Filter Condition** tab of the Data Subset-filtering Condition dialog box, write SQL statements in the Extension Condition field to configure filter conditions.
 
-     ![](assets/3a4c45b4c73d248f3e37d8b5f8190ece.jpeg)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/3a4c45b4c73d248f3e37d8b5f8190ece.jpeg)
 
      **Partition Selection**: The Partition Selection tab of the Data Subset-filtering Condition dialog box is specific to Apache Hive. Partitioned tables of Apache Hive can be masked by partition.
 
@@ -2087,7 +2087,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
 3. In the left-side Project List section of the Solution Management tab, find the data masking solution that you want to manage and click its name. Then, click the **Algorithm Config** tab.
 
-   ![](assets/307c3cb765ddc24b8bb28a35d1b99721.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/307c3cb765ddc24b8bb28a35d1b99721.jpeg)
 
 4. On the **Algorithm Config** tab, modify masking algorithms.
 
@@ -2095,7 +2095,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
    - After masking algorithms of multiple field columns are modified, select the field columns and click **Save** above the algorithm configuration list to save the modified masking algorithms.
 
-   ![](assets/ec8a958b4fd8b1290c426b8f5b039614.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/ec8a958b4fd8b1290c426b8f5b039614.jpeg)
 
 5. On the **Algorithm Config** tab, configure a masking algorithm for multiple field columns at a time.
 
@@ -2105,7 +2105,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
    Select the field columns for which you want to configure a masking algorithm and click **Batch Setting Algorithms**.
 
-   ![](assets/26c2ebd1e390901de7b9766a1c7cc253.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/26c2ebd1e390901de7b9766a1c7cc253.jpeg)
 
    </li>
 
@@ -2119,7 +2119,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
    corresponding algorithm parameters, and click **Save**.
 
-   ![](assets/fcf5c1ca057f9ce812cbfdc7a8e66c7d.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/fcf5c1ca057f9ce812cbfdc7a8e66c7d.jpeg)
 
 6. On the **Algorithm Config** tab, configure algorithms.
 
@@ -2131,7 +2131,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
    Click **Config Algorithm**.
 
-   ![](assets/7be5d5292087305c0bbd30cf5aec11d4.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/7be5d5292087305c0bbd30cf5aec11d4.jpeg)
 
    </li>
 
@@ -2145,7 +2145,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
    and parameters for sensitive data types and click **Add**.
 
-   ![](assets/63377756d3366799fe75e9d8c9f85f5f.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/63377756d3366799fe75e9d8c9f85f5f.jpeg)
 
 7. On the **Algorithm Config** tab, delete algorithms.
 
@@ -2155,7 +2155,7 @@ You can configure a collection of the tables to be masked. File source masking d
 
    Select the field columns that you want to delete and click **Delete**.
 
-   ![](assets/1d6a70a7d4d14791e4d4a5743de4fa2d.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/1d6a70a7d4d14791e4d4a5743de4fa2d.jpeg)
 
    </li>
 
@@ -2189,9 +2189,9 @@ To use the grouping dictionary-based data masking of a data dictionary, you must
 
    Find the table whose grouping dictionary column configuration is to be modified and click
 
-   the <img src="assets/73b8ce84673de95ac4056a175a9dd838.png" width="14" alt=""> icon in the **Operation** column.
+   the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/73b8ce84673de95ac4056a175a9dd838.png" width="14" alt=""> icon in the **Operation** column.
 
-   ![](assets/d45e5cfb7afdeffb329f75b78ac4e0db.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d45e5cfb7afdeffb329f75b78ac4e0db.jpeg)
 
    </li>
 
@@ -2205,7 +2205,7 @@ To use the grouping dictionary-based data masking of a data dictionary, you must
 
    between the grouping dictionary column and the column in the table, and then click **Save**.
 
-   ![](assets/ee2c4c72b0604250ecc00d17ff30dce2.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/ee2c4c72b0604250ecc00d17ff30dce2.jpeg)
 
 5. Delete the grouping dictionary column configuration of a table.
 
@@ -2215,9 +2215,9 @@ To use the grouping dictionary-based data masking of a data dictionary, you must
 
    Find the table whose grouping dictionary column configuration is to be deleted and click
 
-   the <img src="assets/bfaaf79facb7c6f2a4579ea6fec41cd8.png" width="14" alt=""> icon in the Operation column.
+   the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/bfaaf79facb7c6f2a4579ea6fec41cd8.png" width="14" alt=""> icon in the Operation column.
 
-   ![](assets/81661ec5ebb0721a95d766f81a361c2e.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/81661ec5ebb0721a95d766f81a361c2e.jpeg)
 
    </li>
 
@@ -2229,7 +2229,7 @@ To use the grouping dictionary-based data masking of a data dictionary, you must
 
    </ol>
 
-   ![](assets/e796ddf9c780d8fdd6f5993f484959de.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/e796ddf9c780d8fdd6f5993f484959de.jpeg)
 
 <a id="section-3-4-2-8"></a>
 
@@ -2251,7 +2251,7 @@ To use the grouping dictionary-based data masking of a data dictionary, you must
 
    On the **Expression Config** tab, click **Add Expression**.
 
-   ![](assets/b85426e226cb51c5abbdfe60a0d34b80.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/b85426e226cb51c5abbdfe60a0d34b80.jpeg)
 
    </li>
 
@@ -2265,7 +2265,7 @@ To use the grouping dictionary-based data masking of a data dictionary, you must
 
    JavaScript syntax is supported.
 
-   ![](assets/2dd36d22d17d2f69b2bfcbbf97ac3ed1.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/2dd36d22d17d2f69b2bfcbbf97ac3ed1.jpeg)
 
    Click a table column in the **Optional Field List** column. Click an operator in the **Operational Symbol** column. You can click the icon next to Operational Symbol to switch to Built-in Functions (properties).
 
@@ -2283,7 +2283,7 @@ To use the grouping dictionary-based data masking of a data dictionary, you must
 
    configured first in the Add Expression dialog box has a higher priority. The expression whose value is smaller in the Add Expression dialog box has a higher priority. For example, the value of the original data column named B is 0, and two expressions are configured: B = 1 and C = B + 1. If the expression B = 1 has a higher priority than the expression C = B + 1, the expression B = 1 is executed first. In this case, the value of the B column is 1. Then, the expression C = B + 1 is executed. After data masking, the value of the B column is 1 and the value of the C column is 2. If the expression B = 1 has a lower priority than the expression C = B + 1, the expression C = B + 1 is executed first. In this case, the value of the B column is still 0 and the value of the C column is 1 (0 + 1 = 1). Then, the expression B = 1 is executed. In this case, the value of the B column is 1.
 
-   ![](assets/9b74dda8156a18ca2d007991fa70edc4.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/9b74dda8156a18ca2d007991fa70edc4.jpeg)
 
 5. Modify an expression.
 
@@ -2313,7 +2313,7 @@ To use the grouping dictionary-based data masking of a data dictionary, you must
 
    Select the expression that you want to delete and click **Delete**.
 
-   ![](assets/bfd6246bec9db689868083659900f3e4.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/bfd6246bec9db689868083659900f3e4.jpeg)
 
    </li>
 
@@ -2349,7 +2349,7 @@ To use the grouping dictionary-based data masking of a data dictionary, you must
 
    This configuration indicates the fields that are not masked if the preceding regular expression is hit.
 
-   ![](assets/37994d642b65765e0e1c86fd4f128850.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/37994d642b65765e0e1c86fd4f128850.jpeg)
 
    You can also click **Batch Add White List** to configure multiple whitelists at a time as prompted.
 
@@ -2367,7 +2367,7 @@ To use the grouping dictionary-based data masking of a data dictionary, you must
 
 4. On the **Black List** tab, click **Add Black List**.
 
-   ![](assets/7cc6a977f5fd4207faf43fa340bd9510.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/7cc6a977f5fd4207faf43fa340bd9510.jpeg)
 
 5. In the Add Black List dialog box, configure the Schema Name, Table Name, and Field parameters in the **Condition Judgment Field** section.
 
@@ -2377,7 +2377,7 @@ To use the grouping dictionary-based data masking of a data dictionary, you must
 
    The configuration indicates that the fields matched by the regular expression are not migrated. For example, when masking data for a special group of people, the entire row of data that involves these conditions is not migrated.
 
-   ![](assets/0eb4b798edcd0d590f17183f2f7d1f37.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/0eb4b798edcd0d590f17183f2f7d1f37.jpeg)
 
    You can also click **Batch Add Black List** to configure multiple blacklists at a time as prompted.
 
@@ -2409,7 +2409,7 @@ A data masking task is used to mask data. To mask data, you must configure the p
    >
    > - If you set the **Mask Project** parameter to **Use an Existing Projects**, the Select Mask Project parameter is required and the Masking Mode parameter is not displayed.
 
-   ![](assets/2fb49c92136e178ff402b5968b5687a6.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/2fb49c92136e178ff402b5968b5687a6.jpeg)
 
 4. In the Configure Data Subset step, select the tables or files to be masked and click **Next**.
 
@@ -2417,13 +2417,13 @@ A data masking task is used to mask data. To mask data, you must configure the p
 
    - If you set the **Mask Project** parameter to **Use an Existing Projects** in the previous step, the Configure Data Subset step in the configuration process will be skipped. This is because the selected data masking solution contains a data subset, and the data subset is the data masking scope.
 
-   ![](assets/edf3b5cdd50dfad44644f149ac65dd35.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/edf3b5cdd50dfad44644f149ac65dd35.jpeg)
 
 5. In the Configure Algorithm step, configure algorithms.
 
    Configure data masking algorithms and parameters for sensitive data types.
 
-   ![](assets/bb94c7a3973c51115cace20b4dbdc01f.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/bb94c7a3973c51115cace20b4dbdc01f.jpeg)
 
    <ol type="i">
 
@@ -2490,11 +2490,11 @@ A data masking task is used to mask data. To mask data, you must configure the p
 
    The MaxCompute data source supports the masked data migration feature. As shown in the following figure, if you set the Move Masked Data parameter to YES, the Move Target parameter is required. In this case, the database selected from the Target Database drop-down list in the **Output Target** section is used as the intermediate database, and the database specified in the **Move Target** section is the destination database for masked data migration. You can select MaxCompute(ODPS) or MySQL from the Database Type drop-down list and configure the Table Processing parameter in the Move Target section. If you set the Table Processing Of Target Database parameter to Delete, the data in the destination database is deleted after the data migration is complete. If you set the Table Processing Of Target Database parameter to Reserve, the data in the destination database is retained after the data migration is complete.
 
-   ![](assets/766ed004cfc208a3f85af608a6a7d3b4.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/766ed004cfc208a3f85af608a6a7d3b4.jpeg)
 
 7. In the Exception handling step, configure the Exception Handling, Task Name, and Task Description parameters and click **Save** or **Save And Execute**. The value of the Task Name parameter is generated by default and can be modified.
 
-   ![](assets/a1ea971d71e5cabc5cc8672c77e1b921.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/a1ea971d71e5cabc5cc8672c77e1b921.jpeg)
 
    Valid values of the Exception Handling parameter:
 
@@ -2510,7 +2510,7 @@ A data masking task is used to mask data. To mask data, you must configure the p
 
 8. In the Incremental Configuration step, specify a value for an incremental field. If you set the Mask Project parameter to Use an Existing Projects in the Select desensitization range step and an incremental field is configured in the data masking solution, this step is required. This step is to specify a value for an incremental field. The value of the incremental field is used to mask the data in the rows whose field data is greater than this value. For the first time, you can set the value of the incremental field to a value smaller than the current minimum value to mask all data in the current table. After the data masking task is executed, the value of the incremental field is automatically changed to the current maximum value. This is to distinguish the incremental data when the data masking task is executed next time.
 
-   ![](assets/1a7e89d9a15a05ba64133f7bcdadb424.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/1a7e89d9a15a05ba64133f7bcdadb424.jpeg)
 
 <a id="section-3-4-3-2"></a>
 
@@ -2558,7 +2558,7 @@ A data masking task is used to mask data. To mask data, you must configure the p
 
 4. When a data masking task is being executed, find the data masking task that you want to stop and click **Stop Task** in the Oper column to stop the data masking task.
 
-   ![](assets/a44cc92338861756c5ef396f0c787f82.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/a44cc92338861756c5ef396f0c787f82.jpeg)
 
 <a id="section-3-4-3-5"></a>
 
@@ -2572,31 +2572,31 @@ A data masking task is used to mask data. To mask data, you must configure the p
 
 3. On the Masking Tasks tab, find the data masking task that you want to view and click **History** in the Oper column.
 
-   ![](assets/2e745220c1ad22c82896f4f230b8ca99.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/2e745220c1ad22c82896f4f230b8ca99.jpeg)
 
 4. In the **Mask Task History** dialog box, view the execution records of the data masking task. When the data masking task is executed once, a record is generated in this dialog box.
 
-   ![](assets/b7cc29c6b0c22e526489dee29f8cfff2.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/b7cc29c6b0c22e526489dee29f8cfff2.jpeg)
 
-   - Click the <img src="assets/f205e7dc892a8a99d40356d3f63acdc6.png" width="14" alt=""> icon. On the **Masking Task Execution Report** page, view the execution
+   - Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f205e7dc892a8a99d40356d3f63acdc6.png" width="14" alt=""> icon. On the **Masking Task Execution Report** page, view the execution
 
      report of the data masking task, including the data masking duration, data masking speed, data masking status of a single table or file, and exception information.
 
-     ![](assets/921dd1e0065d1af74fb71aee17af5c2c.jpeg)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/921dd1e0065d1af74fb71aee17af5c2c.jpeg)
 
      - Select a table in the Execution Information List section and click **Re-Run** to re-execute the data masking task for the selected table.
 
-     - Find the table that you want to manage and click the <img src="assets/bd6aae61cb0570c38d67da81db0e7b8c.png" width="14" alt=""> icon in the Oper column. On
+     - Find the table that you want to manage and click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/bd6aae61cb0570c38d67da81db0e7b8c.png" width="14" alt=""> icon in the Oper column. On
 
        the **Data Comparison of Masking Tasks** page, compare the data before and after data masking. Click **Connect** to connect to the database. Then, click **Data Comparison** to compare the data of the table to be queried. The data comparison feature is available only when the data masking mode of the database is cross-mode masking.
 
-       ![](assets/a60a9d1d9bf2c57ff5be436060b43c4e.jpeg)
+       ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/a60a9d1d9bf2c57ff5be436060b43c4e.jpeg)
 
-   - Click the <img src="assets/62c3a39f9a1820dd9ec7d803083a3830.png" width="14" alt=""> or <img src="assets/41d2c9a7772fc831a9cd563ed54d971a.png" width="14" alt=""> icon to download the masked file. The download feature is only
+   - Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/62c3a39f9a1820dd9ec7d803083a3830.png" width="14" alt=""> or <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/41d2c9a7772fc831a9cd563ed54d971a.png" width="14" alt=""> icon to download the masked file. The download feature is only
 
      available when the Output Target parameter is set to Local File during data masking task creation.
 
-   - Click the <img src="assets/2ebf589464ae21d7591528f21254479a.png" width="14" alt=""> icon to download the execution log of the data masking task.
+   - Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/2ebf589464ae21d7591528f21254479a.png" width="14" alt=""> icon to download the execution log of the data masking task.
 
      **In most cases, you can use the error information in the execution report and execution log to troubleshoot the error.**
 
@@ -2612,11 +2612,11 @@ A data masking task is used to mask data. To mask data, you must configure the p
 
 3. On the Masking Tasks tab, find the data masking task that you want to view, click **More** in the Oper column, and then select **Task Details**.
 
-   ![](assets/b2ff86fff990410b2b9933432e2aa09e.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/b2ff86fff990410b2b9933432e2aa09e.jpeg)
 
 4. On the **Details of Masking Task** page, view the configurations of the data masking task, including the information about the source and destination databases, data masking algorithms and parameters of sensitive fields, table processing, and exception handling.
 
-   ![](assets/de2d57d655e666dcce4955443cda6843.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/de2d57d655e666dcce4955443cda6843.jpeg)
 
 <a id="section-3-4-3-7"></a>
 
@@ -2632,7 +2632,7 @@ A data masking task is used to mask data. To mask data, you must configure the p
 
 4. In the Implementation of Mask Task dialog box, view the current data masking speed, tables that are being masked, and status of the tables that are masked.
 
-   ![](assets/fe98f4a2112990b35c8e685167610f0f.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/fe98f4a2112990b35c8e685167610f0f.jpeg)
 
 <a id="section-3-4-4"></a>
 
@@ -2648,25 +2648,25 @@ An automatic data masking task refers to a task that automatically downloads the
 
 1. Log in to the Static Data Masking and Watermarking system.
 
-2. Choose **Data Masking > Auto Masking Tasks**. Then, click the <img src="assets/2f46542540047a8210f475c41cabc344.png" width="14" alt=""> icon to create an
+2. Choose **Data Masking > Auto Masking Tasks**. Then, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/2f46542540047a8210f475c41cabc344.png" width="14" alt=""> icon to create an
 
    automatic data masking task.
 
 3. Set **Basic Information** and click **Next**.
 
-   ![](assets/158748abfe8e89110755d150d0460153.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/158748abfe8e89110755d150d0460153.jpeg)
 
 4. On the Template Configuration Information tab, configure the **Sensitive Field Template** and **Mask Algorithm Template** parameters and the parameters in the Output Target Information section. Then, click **Next**.
 
    A sensitive field template maps a specific column in a file to a defined sensitive data type. A masking algorithm template then specifies the algorithm and parameters to be used for masking that data type.
 
-   ![](assets/d22e347adeabe5332967b68224f1b5fd.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d22e347adeabe5332967b68224f1b5fd.jpeg)
 
 5. On the **Exception Handling** tab, select an exception handling method and click **Save**.
 
    If you select **Fill**, you can select **Out-of-format data, try to generate randomly during masking**. However, as this capability is not supported by all data types, some sensitive data may remain unmasked.
 
-   ![](assets/5fffc72cc5a0df510aebf53e69532695.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5fffc72cc5a0df510aebf53e69532695.jpeg)
 
 <a id="section-3-4-4-2"></a>
 
@@ -2682,7 +2682,7 @@ An automatic data masking task refers to a task that automatically downloads the
 
    For more information about parameter configurations, see ***Create an automatic data ma sking task***.
 
-   ![](assets/59de36c80424f838af37faf6020cbc74.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/59de36c80424f838af37faf6020cbc74.jpeg)
 
 <a id="section-3-4-4-3"></a>
 
@@ -2700,7 +2700,7 @@ An automatic data masking task refers to a task that automatically downloads the
    >
    > The source remote file directory must have a feature file. The presence of the feature file indicates that the files in the source FTP folder are transferred. This prevents data loss due to the execution of an automatic data masking task when a file is being uploaded to the source FTP folder. An automatic data masking task can be executed only if this feature file is detected; otherwise, the task fails to launch and an error is generated.
 
-   ![](assets/9bf9a789b1cacd2b7ba5dad718b59b30.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/9bf9a789b1cacd2b7ba5dad718b59b30.jpeg)
 
 <a id="section-3-4-4-4"></a>
 
@@ -2716,7 +2716,7 @@ An automatic data masking task refers to a task that automatically downloads the
 
 4. In the message that appears, click **OK**.
 
-   ![](assets/21659775521dc9e4bcda736996ddb8a6.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/21659775521dc9e4bcda736996ddb8a6.jpeg)
 
 <a id="section-3-4-4-5"></a>
 
@@ -2730,17 +2730,17 @@ An automatic data masking task refers to a task that automatically downloads the
 
 3. On the Auto Masking Tasks tab, find the automatic data masking task that you want to view, click the Operation List icon in the Oper column, and then select **History**.
 
-   ![](assets/4ff8850f5ffe7f8f5ec03b2ef15ce095.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/4ff8850f5ffe7f8f5ec03b2ef15ce095.jpeg)
 
 4. In the Automatic Mask Task Execution Record dialog box, view the execution records of the automatic data masking task. When the automatic data masking task is executed once, a record is generated in this dialog box.
 
-   ![](assets/e5b061f0e486be1b91e2eae61eed4197.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/e5b061f0e486be1b91e2eae61eed4197.jpeg)
 
-   - Find the execution record that you want to manage and click the <img src="assets/62c3a39f9a1820dd9ec7d803083a3830.png" width="14" alt=""> icon in the Oper
+   - Find the execution record that you want to manage and click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/62c3a39f9a1820dd9ec7d803083a3830.png" width="14" alt=""> icon in the Oper
 
      column to download the execution report.
 
-   - Find the execution record that you want to manage and click the <img src="assets/2ebf589464ae21d7591528f21254479a.png" width="14" alt=""> icon in the Oper
+   - Find the execution record that you want to manage and click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/2ebf589464ae21d7591528f21254479a.png" width="14" alt=""> icon in the Oper
 
      column to download the execution log.
 
@@ -2774,7 +2774,7 @@ An automatic data masking task refers to a task that automatically downloads the
 
    For more information about how to manage distribution objects, see ***Distribution object management***.
 
-   ![](assets/62f00f63e9dd8c28d2a7fe0f1d207cf9.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/62f00f63e9dd8c28d2a7fe0f1d207cf9.jpeg)
 
    </li>
 
@@ -2790,7 +2790,7 @@ An automatic data masking task refers to a task that automatically downloads the
 
    For more information about how to manage watermarking solutions, see ***Watermarking solutions***.
 
-   ![](assets/d5bba3384ba27e4713e98a5a6e013a69.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d5bba3384ba27e4713e98a5a6e013a69.jpeg)
 
    <ol type="i" start="3">
 
@@ -2804,7 +2804,7 @@ An automatic data masking task refers to a task that automatically downloads the
 
    If you select a MaxCompute solution that contains a partitioned table, you must enter the name of the partition to which you want to add watermarks.
 
-   ![](assets/ea01f51ad3aec5692672cd0a29b5a2ef.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/ea01f51ad3aec5692672cd0a29b5a2ef.jpeg)
 
 <a id="section-3-5-1-2"></a>
 
@@ -2820,15 +2820,15 @@ An automatic data masking task refers to a task that automatically downloads the
 
 4. In the **Edit Watermark Task** dialog box, modify the basic information on the Basic Information tab and click **Next**. Only the Task Name and Task Description parameters can be modified.
 
-   ![](assets/10243d401b18536c4ee37d8e1eab699f.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/10243d401b18536c4ee37d8e1eab699f.jpeg)
 
 5. On the Select Watermark Scheme tab, modify the parameters in the Select Scheme Name and Output Destination Information sections and click **Next**.
 
-   ![](assets/dcc6fab1e8008a4e3058fb36cf73335d.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/dcc6fab1e8008a4e3058fb36cf73335d.jpeg)
 
 6. On the Task Configuration tab, modify the table processing method and click **Save**.
 
-   ![](assets/8e12b59ef057276e190f2cb9bca15527.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/8e12b59ef057276e190f2cb9bca15527.jpeg)
 
 <a id="section-3-5-1-3"></a>
 
@@ -2842,7 +2842,7 @@ An automatic data masking task refers to a task that automatically downloads the
 
 3. On the Watermarking Tasks tab, find the watermarking task that you want to execute and click **Run** in the Operation column. In the Run Watermark Task dialog box, fill in the **Username** and **Password** fields and click **Run Task**.
 
-   ![](assets/207aac0925570e2c9b8a1a87bc5e975f.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/207aac0925570e2c9b8a1a87bc5e975f.jpeg)
 
 <a id="section-3-5-1-4"></a>
 
@@ -2858,15 +2858,15 @@ An automatic data masking task refers to a task that automatically downloads the
 
 4. In the View Watermark Task dialog box, view the information on the **Basic Information** tab and click **Next**.
 
-   ![](assets/0280a6901c6fd59743029d4b426790ed.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/0280a6901c6fd59743029d4b426790ed.jpeg)
 
 5. On the Select Watermark Scheme tab, view the information in the Select Scheme Name and Output Destination Information sections and click **Next**.
 
-   ![](assets/fc8fc02646318a0fc196478db612f77a.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/fc8fc02646318a0fc196478db612f77a.jpeg)
 
 6. On the Task Configuration tab, view the information in the Table Processing and Partition Selection sections and click **Cancel**.
 
-   ![](assets/217513aea1fda8a90b182305766d0518.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/217513aea1fda8a90b182305766d0518.jpeg)
 
 <a id="section-3-5-1-5"></a>
 
@@ -2908,17 +2908,17 @@ To use this feature, refer to **Data masking > Data subsets**.
 
    The new solution name cannot be the same as the name of an existing solution.
 
-   ![](assets/3341ca9305e6fc1639f14a9e81ae1931.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/3341ca9305e6fc1639f14a9e81ae1931.jpeg)
 
 5. On the Configure Data Subset tab, select one or more data subsets and click **Next**.
 
-   ![](assets/360454e3c0f45344888c0fc9df0cd3bc.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/360454e3c0f45344888c0fc9df0cd3bc.jpeg)
 
 6. On the Configure Field Rules tab, configure field rules and click **Save**.
 
    Configure field rules of the watermarking algorithm. Select at least two fields for generating watermarks for a pseudo-row and a field for generating watermarks for a pseudo-column. Only one pseudo-column field can be generated for each data table. For more information about how to manage pseudo-column fields, see ***Pseudo-column field management***.
 
-   ![](assets/03dd2a7f2e95a30ed9b9ddcc2e6a4f2b.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/03dd2a7f2e95a30ed9b9ddcc2e6a4f2b.jpeg)
 
    In the message that appears, click **OK**.
 
@@ -2936,15 +2936,15 @@ To use this feature, refer to **Data masking > Data subsets**.
 
 4. In the Edit Scheme dialog box, modify the basic information on the Basic Information tab and click **Next**. Only the Watermark Algorithm and Scheme Description parameters can be modified.
 
-   ![](assets/9625fe17c4a08152ad8d11d53ea4f0e1.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/9625fe17c4a08152ad8d11d53ea4f0e1.jpeg)
 
 5. On the Configure Data Subset tab, modify the data subsets and click **Next**.
 
-   ![](assets/da752a07fbcbca5587076fe05f474c31.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/da752a07fbcbca5587076fe05f474c31.jpeg)
 
 6. On the Configure Field Rules tab, modify the field rules of the watermarking algorithm and click **Save**.
 
-   ![](assets/fbde98a8f6c75f2c7979cc0daea83a68.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/fbde98a8f6c75f2c7979cc0daea83a68.jpeg)
 
    In the message that appears, click **OK**.
 
@@ -2976,7 +2976,7 @@ To use this feature, refer to **Data masking > Data subsets**.
 
 4. On the **Watermark Scheme Details** page, view the details of the watermarking solution, including the basic information, data subsets, watermarking algorithm, and field rules.
 
-   ![](assets/05a1c875fa38f2577b80df2941314301.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/05a1c875fa38f2577b80df2941314301.jpeg)
 
 <a id="section-3-5-4"></a>
 
@@ -2996,7 +2996,7 @@ To use this feature, refer to **Data masking > Data subsets**.
 
 4. In the Add Pseudo Column dialog box, configure the Pseudo Column Name, Pseudo Column Type, and Description parameters and click **Save**. The pseudo-column field types include ID card numbers, bank card numbers, mobile numbers, names, addresses, Email addresses, and license plate numbers.
 
-   ![](assets/8e72dbc837d4359b0ba4018515a81c47.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/8e72dbc837d4359b0ba4018515a81c47.jpeg)
 
 <a id="section-3-5-4-2"></a>
 
@@ -3012,7 +3012,7 @@ To use this feature, refer to **Data masking > Data subsets**.
 
 4. In the Edit Pseudo Column dialog box, modify the Pseudo Column Name, Pseudo Column Type, and Description parameters and click **Save**. The pseudo-column field types include ID card numbers, bank card numbers, mobile numbers, names, addresses, Email addresses, and license plate numbers.
 
-   ![](assets/c13cdd80e5645d2509cb3164ce7138ed.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c13cdd80e5645d2509cb3164ce7138ed.jpeg)
 
 <a id="section-3-5-4-3"></a>
 
@@ -3028,7 +3028,7 @@ To use this feature, refer to **Data masking > Data subsets**.
 
 4. In the message that appears, click **OK**.
 
-   ![](assets/9ae33dd930299e98537400444cf0bafb.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/9ae33dd930299e98537400444cf0bafb.jpeg)
 
 <a id="section-3-5-4-4"></a>
 
@@ -3060,7 +3060,7 @@ To use this feature, refer to **Data masking > Data subsets**.
 
 4. In the **Add Distribution Target** dialog box, configure the following parameters and click **Save**: Unit Name, Unit Code, Unit Type, Unit Level, and Description.
 
-   ![](assets/7f345b9daa916e6d8116dd1de352679e.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/7f345b9daa916e6d8116dd1de352679e.jpeg)
 
    In the message that appears, click **OK**.
 
@@ -3078,7 +3078,7 @@ To use this feature, refer to **Data masking > Data subsets**.
 
 4. In the **Edit Distribution Target** dialog box, modify the configurations and click **Save**.
 
-   ![](assets/ac17858afcc10ace57dcad6c46c28381.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/ac17858afcc10ace57dcad6c46c28381.jpeg)
 
    In the message that appears, click **OK**.
 
@@ -3126,11 +3126,11 @@ To use this feature, refer to **Data masking > Data subsets**.
 
 3. On the Data Distribution Management tab, find the distribution object that you want to distribute in the Data Distribution List section and click **Distribute** in the Operation column. The distribution status is changed to Distributed.
 
-   ![](assets/0b8983b862a5a3c941c84cc9902b7ded.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/0b8983b862a5a3c941c84cc9902b7ded.jpeg)
 
    List of distributed data:
 
-   ![](assets/15a0b3966234b6687d59f936fb9f9a5d.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/15a0b3966234b6687d59f936fb9f9a5d.jpeg)
 
 <a id="section-3-6"></a>
 
@@ -3150,11 +3150,11 @@ To use this feature, refer to **Data masking > Data subsets**.
 
 4. In the Add Trace Task dialog box, configure the Task Name, Task Type, and Data Source parameters, and then click **Next**.
 
-   ![](assets/d0225b42f15174aeb5753b9db0b03dc7.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d0225b42f15174aeb5753b9db0b03dc7.jpeg)
 
 5. Click **Connect**. After the connection succeeds, select the source table and click **Save**.
 
-   ![](assets/acc716eaf2a3d19cbcb6dafca64dc52b.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/acc716eaf2a3d19cbcb6dafca64dc52b.jpeg)
 
    A save success message is displayed. Click **OK**.
 
@@ -3172,7 +3172,7 @@ To use this feature, refer to **Data masking > Data subsets**.
 
 4. Enter the username and password and click **Run Task**.
 
-   ![](assets/69412f50ae6b9a117725006e3dc30c0a.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/69412f50ae6b9a117725006e3dc30c0a.jpeg)
 
 <a id="section-3-6-3"></a>
 
@@ -3202,11 +3202,11 @@ To use this feature, refer to **Data masking > Data subsets**.
 
 4. Modify the basic information and click **Next**. The task type cannot be modified.
 
-   ![](assets/7f48ca0eb0961cbcbe17a167c702ca85.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/7f48ca0eb0961cbcbe17a167c702ca85.jpeg)
 
 5. Modify the table for source tracing and click **Save**.
 
-   ![](assets/fb644702e29699d161ea5ce0df3af6b6.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/fb644702e29699d161ea5ce0df3af6b6.jpeg)
 
 **Delete a provenance task**
 
@@ -3232,7 +3232,7 @@ To use this feature, refer to **Data masking > Data subsets**.
 
 4. In the dialog box that appears, view the data provenance details, including the provenance task information and results. The provenance results include the distribution source, distribution object, distribution description (watermark content), and watermark task execution time.
 
-   ![](assets/fb291c7e05065e1a656fdc370a33a5ca.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/fb291c7e05065e1a656fdc370a33a5ca.jpeg)
 
 <a id="section-3-7"></a>
 
@@ -3256,7 +3256,7 @@ This topic explains how to view the k-anonymity overview.
 
    The list shows the **data source**, **database name**, **table name**, **quasi-identifier**, **sensitive attribute**, and **calculated k-value**.
 
-   ![](assets/55c174a83292a18917357dad8298d476.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/55c174a83292a18917357dad8298d476.jpeg)
 
 4. Click k-value calculation to open the **k-value calculation** tab. For more information, see k-value calculation.
 
@@ -3276,7 +3276,7 @@ This topic describes how to add and manage k-value calculation tasks.
 
 3. Click **Add Task**, select the data for k-value calculation, and then click **Next**.
 
-   ![](assets/7226aaeb5002a2e057655c0f0a54db81.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/7226aaeb5002a2e057655c0f0a54db81.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -3287,13 +3287,13 @@ This topic describes how to add and manage k-value calculation tasks.
 
 4. Classify the fields as **quasi-identifier** or **sensitive attribute**, and then click **Next**.
 
-   ![](assets/7cf7413b2f63785be51140adff054448.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/7cf7413b2f63785be51140adff054448.jpeg)
 
 5. Set the **task name** and **task description**, and then click **Save**.
 
    You can also use the default **task name** and **task description**.
 
-   ![](assets/c973782dbb845ad4422f4b5237ae8a5a.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c973782dbb845ad4422f4b5237ae8a5a.jpeg)
 
 6. On the **task list** page, in the **Actions** column, click **Run Task**.
 
@@ -3315,11 +3315,11 @@ This topic describes how to add and manage k-value calculation tasks.
 
 3. Enter search criteria and click **Search** in the upper-right corner.
 
-   ![](assets/5e871301bead0652d8955d105cc26cc9.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5e871301bead0652d8955d105cc26cc9.jpeg)
 
 4. Locate the target task. In the **Actions** column, click **More > task details**.
 
-   ![](assets/38b1eef65c7f120d55cc6b07d67aa039.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/38b1eef65c7f120d55cc6b07d67aa039.jpeg)
 
 **View task history**
 
@@ -3331,11 +3331,11 @@ This topic describes how to add and manage k-value calculation tasks.
 
 4. Locate the target task and click **Task history** in the **Actions** column.
 
-   ![](assets/2c352d3d6d2459658e164af21e56bec7.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/2c352d3d6d2459658e164af21e56bec7.jpeg)
 
 5. The task execution records are displayed.
 
-   ![](assets/00992c731e4d51609ca512bc5b94568f.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/00992c731e4d51609ca512bc5b94568f.jpeg)
 
 **Delete a task**
 
@@ -3345,7 +3345,7 @@ This topic describes how to add and manage k-value calculation tasks.
 
 3. In the task list, select the tasks to delete and click **Delete** in the upper-right corner.
 
-   ![](assets/2e9a48dfb8dca2c42d3389c2b618e4e6.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/2e9a48dfb8dca2c42d3389c2b618e4e6.jpeg)
 
 <a id="section-3-7-3"></a>
 
@@ -3361,7 +3361,7 @@ This topic describes how to create and manage anonymization tasks.
 
 3. Select the data source for the anonymization task and click **Next**.
 
-   ![](assets/9e85c8b337c786ec12489ea072fa3a64.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/9e85c8b337c786ec12489ea072fa3a64.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -3399,11 +3399,11 @@ This topic describes how to create and manage anonymization tasks.
 
 3. Enter search criteria and click **Search** in the upper-right corner to view the task list.
 
-   ![](assets/ae32beecb863cb6227e276288dcb4384.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/ae32beecb863cb6227e276288dcb4384.jpeg)
 
 4. Find the target task. In the **Actions** column, choose **More > task details**.
 
-   ![](assets/a63906312a62f8a84f27b5355e513036.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/a63906312a62f8a84f27b5355e513036.jpeg)
 
 **View historical tasks**
 
@@ -3415,11 +3415,11 @@ This topic describes how to create and manage anonymization tasks.
 
 4. Find the target task and click **historical tasks** in the **Actions** column.
 
-   ![](assets/060f5626e93108bc7c51bccfa2b23b3c.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/060f5626e93108bc7c51bccfa2b23b3c.jpeg)
 
 5. View the execution history of the task.
 
-   ![](assets/15cb72de83959307c553aa9a8ec57a12.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/15cb72de83959307c553aa9a8ec57a12.jpeg)
 
 **Delete task**
 
@@ -3429,7 +3429,7 @@ This topic describes how to create and manage anonymization tasks.
 
 3. In the task list, select the tasks to delete, and click **Delete** in the upper-right corner.
 
-   ![](assets/0c5cc4e5843a5616503efd0a04aee9b2.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/0c5cc4e5843a5616503efd0a04aee9b2.jpeg)
 
 <a id="section-3-8"></a>
 
@@ -3500,7 +3500,7 @@ The column encryption feature employs industry-standard encryption algorithms an
 
 4. In the **Encryption Configuration** dialog box, configure the **Encryption Algorithm**, **Encryption Mode**, and **Plaintext Permission Accounts** parameters.
 
-   ![](assets/85fbf5a41b4b611bd2027857d728cfd0.png)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/85fbf5a41b4b611bd2027857d728cfd0.png)
 
 5. Filter the columns that you want to encrypt based on the search conditions, select the columns that you want to encrypt, and then click **Enable Encryption** at the bottom of the page.
 
@@ -3532,11 +3532,11 @@ The following three types of account permissions are supported.
 
 5. In the account list, find the account that you want to manage and click **Permission Settings** in the **Operation** column.
 
-   ![](assets/adb60a2e0f61763bda56dfcfe816ea3e.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/adb60a2e0f61763bda56dfcfe816ea3e.jpeg)
 
 6. Find the account for which you want to modify permissions and click **Modify Permissions**.
 
-   ![](assets/30de54203dd748bfe8a2602fdcf52b8c.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/30de54203dd748bfe8a2602fdcf52b8c.jpeg)
 
 7. In the **Modify Permissions** dialog box, select a permission and click **OK**.
 
@@ -3552,7 +3552,7 @@ This page provides an overview of column encryption across all connected databas
 
 2. Click the **Column Encryption > Encryption Configuration** tab to view the column encryption overview.
 
-   ![](assets/9a27c61d537f3dcd4b6ce5149693e083.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/9a27c61d537f3dcd4b6ce5149693e083.jpeg)
 
    - **Total Columns**: Total number of columns in tables across all database instances connected to DMS.
 
@@ -3613,7 +3613,7 @@ This topic explains how to run an encryption task.
 
 2. In the **Actions** column, click **Execution History** to view its run history.
 
-   ![](assets/08dd8ed798981a3a5bdb06a97f2a8ea4.png)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/08dd8ed798981a3a5bdb06a97f2a8ea4.png)
 
    - **View Details**: Shows the run status of the data source, including the database name, total number of tables, and the number of successful and failed operations. Click **View Details** again to view the encryption status of each table.
 
@@ -3627,7 +3627,7 @@ This topic explains how to run an encryption task.
 
 2. Select the checkbox next to the task and then click **Delete**.
 
-   ![](assets/d754ef840fbed65144721bc11e978e42.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d754ef840fbed65144721bc11e978e42.jpeg)
 
 3. In the **Message** dialog box, click **OK**.
 
@@ -3648,7 +3648,7 @@ This topic describes how to add, edit, and delete an encryption rule.
    | Parameter | Description |
    | --- | --- |
    | Rule Name | Enter the name of the rule. |
-   | Template | Select a template from the drop-down list. The available templates are synchronized from the templates configured in the SDDP.<br>![](assets/546d00562115adbb9dc121c86c6ce290.png) |
+   | Template | Select a template from the drop-down list. The available templates are synchronized from the templates configured in the SDDP.<br>![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/546d00562115adbb9dc121c86c6ce290.png) |
    | Detection Models | Select a detection model. |
    | Risk Level | Select a risk level. |
    | Description | Enter a custom description. |
@@ -3729,25 +3729,25 @@ A lookup table defines the mappings for substitution-based data masking algorith
 
 1. On the **Configuration > Code Table Management** tab, find the lookup table that you want to manage.
 
-2. Click the <img src="assets/d474024b01b882e9bf5760b07ad8f666.png" width="14" alt=""> icon in the Oper column.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d474024b01b882e9bf5760b07ad8f666.png" width="14" alt=""> icon in the Oper column.
 
-   ![](assets/c7e285758336ee77036c37866d415ebf.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c7e285758336ee77036c37866d415ebf.jpeg)
 
 **Export a lookup table file**
 
 1. On the **Configuration > Code Table Management** tab, find the lookup table that you want to manage.
 
-2. Click the <img src="assets/52005f9e8bc091c17125a685e46f70cf.png" width="14" alt=""> icon in the Oper column.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/52005f9e8bc091c17125a685e46f70cf.png" width="14" alt=""> icon in the Oper column.
 
 3. In the dialog box that appears, configure the Expiration Date parameter and click **Ok**.
 
-   ![](assets/d61bfb35721a2f66e91b0fcb25b194a0.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d61bfb35721a2f66e91b0fcb25b194a0.jpeg)
 
 **Delete a lookup table**
 
 1. On the **Configuration > Code Table Management** tab, find the lookup table that you want to manage.
 
-2. Click the <img src="assets/01a1723059755b561bae97b2d0ef43d0.png" width="14" alt=""> icon in the Oper column.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/01a1723059755b561bae97b2d0ef43d0.png" width="14" alt=""> icon in the Oper column.
 
 3. In the message that appears, click **OK** to delete the lookup table.
 
@@ -3763,27 +3763,27 @@ A lookup table defines the mappings for substitution-based data masking algorith
 
 2. Choose **Configuration > Data Dictionary**.
 
-3. In the left-side dictionary list, click the <img src="assets/5a256bfca46098081818419744ba439e.png" width="16" alt=""> icon.
+3. In the left-side dictionary list, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5a256bfca46098081818419744ba439e.png" width="16" alt=""> icon.
 
-   ![](assets/4ebac5b062854173b729868a78472de2.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/4ebac5b062854173b729868a78472de2.jpeg)
 
 4. In the **Add Dictionary** dialog box, configure the Dictionary Name, Group Column Number, and Unique Column Number parameters.
 
    If the data dictionary is a grouped dictionary, you need to specify the Group Column Number parameter. Separate multiple columns with commas (,). If the data dictionary is a general data dictionary, leave the Group Column Number parameter empty.
 
-   ![](assets/85db9a9efd0040a274b97a5e428f6cda.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/85db9a9efd0040a274b97a5e428f6cda.jpeg)
 
 5. Click **Save**.
 
 **Modify a data dictionary**
 
-1. In the left-side dictionary list, click the <img src="assets/80b2016f09cb9f8d1b8f55fde0cb7fb7.png" width="14" alt=""> icon to the right of the added data dictionary.
+1. In the left-side dictionary list, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/80b2016f09cb9f8d1b8f55fde0cb7fb7.png" width="14" alt=""> icon to the right of the added data dictionary.
 
 2. In the **Edit Dictionary** dialog box, modify the data dictionary information. The Unique Column Number parameter cannot be modified. Click **Save**.
 
 **Delete a data dictionary**
 
-1. In the left-side dictionary list, click the <img src="assets/832b8e5e1343900e2db583db2e9f9967.png" width="16" alt=""> icon to the right of the added data dictionary.
+1. In the left-side dictionary list, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/832b8e5e1343900e2db583db2e9f9967.png" width="16" alt=""> icon to the right of the added data dictionary.
 
 2. In the message that appears, click **OK**.
 
@@ -3793,25 +3793,25 @@ A lookup table defines the mappings for substitution-based data masking algorith
 
 1. Choose **Configuration > Data Dictionary** , and click the added data dictionary in the left-side dictionary list.
 
-2. In the right-side dictionary details list, click the <img src="assets/1fa7fe6e76d01fa9b9018e385c660b7c.png" width="14" alt=""> icon.
+2. In the right-side dictionary details list, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/1fa7fe6e76d01fa9b9018e385c660b7c.png" width="14" alt=""> icon.
 
 3. In the Add Dictionary Content dialog box, enter the dictionary content and click **Ok**.
 
-   ![](assets/32155c83d02ef6d8c72a7b8d97a311f8.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/32155c83d02ef6d8c72a7b8d97a311f8.jpeg)
 
 **Batch addition**
 
 1. In the left-side dictionary list of the **Configuration > Data Dictionary** tab, click the added data dictionary.
 
-2. In the right-side dictionary details list, click the <img src="assets/5cd0f2ad222e9f72e269d57ce9957276.png" width="14" alt=""> icon.
+2. In the right-side dictionary details list, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5cd0f2ad222e9f72e269d57ce9957276.png" width="14" alt=""> icon.
 
 3. In the **Upload Dictionary Content** dialog box, click **Dictionary Template Download** to download a TXT file.
 
-   ![](assets/1c65f6c8c7c4036265d9ca268f929841.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/1c65f6c8c7c4036265d9ca268f929841.jpeg)
 
 4. Open the downloaded TXT template file, enter the dictionary content as prompted, and then save the file.
 
-5. Go back to the **Upload Dictionary Content** dialog box, click the <img src="assets/807b5daabbeead56de0647e1b7e9ac40.png" width="14" alt=""> icon, select the
+5. Go back to the **Upload Dictionary Content** dialog box, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/807b5daabbeead56de0647e1b7e9ac40.png" width="14" alt=""> icon, select the
 
    template file that you saved, and then select **Column Bounder**.
 
@@ -3823,7 +3823,7 @@ A lookup table defines the mappings for substitution-based data masking algorith
 
 1. In the right-side dictionary details list, find the dictionary content that you want to modify
 
-   and click the <img src="assets/7aaa0495fead3801924325b1508fe661.png" width="14" alt=""> icon in the Oper column.
+   and click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/7aaa0495fead3801924325b1508fe661.png" width="14" alt=""> icon in the Oper column.
 
 2. In the dialog box that appears, modify the dictionary content and click **OK**.
 
@@ -3831,7 +3831,7 @@ A lookup table defines the mappings for substitution-based data masking algorith
 
 1. In the right-side dictionary details list, find the dictionary content that you want to delete
 
-   and click the <img src="assets/ba256507a7f886cc232e27a55bc21f0e.png" width="14" alt=""> icon in the Oper column.
+   and click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/ba256507a7f886cc232e27a55bc21f0e.png" width="14" alt=""> icon in the Oper column.
 
 2. In the message that appears, click **OK**.
 
@@ -3843,27 +3843,27 @@ A lookup table defines the mappings for substitution-based data masking algorith
 
 1. Choose **Configuration > Data Dictionary**, and click the added data dictionary in the left-side dictionary list.
 
-2. In the right-side dictionary details list, click the <img src="assets/2b89a41fd631160d653f5b6537347e32.png" width="14" alt=""> icon.
+2. In the right-side dictionary details list, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/2b89a41fd631160d653f5b6537347e32.png" width="14" alt=""> icon.
 
 3. In the message that appears, click **OK**.
 
-   ![](assets/26ea0362e2de88efe628fec09a8b676a.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/26ea0362e2de88efe628fec09a8b676a.jpeg)
 
 **View a data dictionary**
 
-1. Choose **Configuration > Data Dictionary**, and in the left-side dictionary list, click the <img src="assets/888c4c2c6967df484ac32a6fa71d728b.png" width="14" alt="">
+1. Choose **Configuration > Data Dictionary**, and in the left-side dictionary list, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/888c4c2c6967df484ac32a6fa71d728b.png" width="14" alt="">
 
    icon to the right of the data dictionary that you want to view.
 
 2. In the **View Dictionary** dialog box, view the information about the data dictionary and click **Close**.
 
-   ![](assets/d0575a96a77c29ee0b6363b72bf0de7c.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d0575a96a77c29ee0b6363b72bf0de7c.jpeg)
 
 3. In the left-side dictionary list, click the data dictionary that you want to view.
 
 4. In the right-side dictionary details list, you can view the content in the data dictionary.
 
-   ![](assets/2bebf84fcd215e474f0cc31ae3081cce.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/2bebf84fcd215e474f0cc31ae3081cce.jpeg)
 
 <a id="section-3-9-3"></a>
 
@@ -3879,13 +3879,13 @@ You can write a custom function in JavaScript for sensitive data discovery. The 
 
 2. Choose **Configuration > Custom Functions**.
 
-3. In the left-side custom function list, click the <img src="assets/08b7fd9c73de64a703ca8a5cf6fa5aae.png" width="14" alt=""> icon.
+3. In the left-side custom function list, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/08b7fd9c73de64a703ca8a5cf6fa5aae.png" width="14" alt=""> icon.
 
 4. Configure the **Custom Function Name** and **Custom Discovery Rule Function** parameters, enter test data, and then click **Test**.
 
-5. After the test is passed, click the <img src="assets/51a57defd4d21c6104a71bc93b5980c1.png" width="16" alt=""> icon in the upper-right corner.
+5. After the test is passed, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/51a57defd4d21c6104a71bc93b5980c1.png" width="16" alt=""> icon in the upper-right corner.
 
-   ![](assets/5cac1a673b7c98a9484637de09ea41c2.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5cac1a673b7c98a9484637de09ea41c2.jpeg)
 
 **Import a custom function**
 
@@ -3904,29 +3904,29 @@ You can write a custom function in JavaScript for sensitive data discovery. The 
 
 3. Choose **Configuration > Custom Functions**.
 
-4. In the left-side custom function list, click the <img src="assets/cb8d69880a80f9b7b8872f8fa134dd3a.png" width="14" alt=""> icon.
+4. In the left-side custom function list, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/cb8d69880a80f9b7b8872f8fa134dd3a.png" width="14" alt=""> icon.
 
 5. In the **Import** dialog box, select the function rule file that you prepared and click **Import**.
 
    After the function rule file is imported, the name of the custom function is automatically generated in the  `Import Function_Import Time`  format and displayed in the Custom Function List section. You can change the name of the custom function.
 
-   ![](assets/e360e9de25f24fd217a6212f9f0e5a14.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/e360e9de25f24fd217a6212f9f0e5a14.jpeg)
 
 **Modify a custom function**
 
 1. Choose **Configuration > Custom Functions**, and find the custom function that you want to manage in the left-side custom function list.
 
-2. Click the <img src="assets/577a0bafec43fa473b621e87e3304df3.png" width="14" alt=""> icon to the right of the custom function.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/577a0bafec43fa473b621e87e3304df3.png" width="14" alt=""> icon to the right of the custom function.
 
 3. Modify the **Custom Function Name** and **Custom Discovery Rule Function** parameters.
 
-   Click Test to perform a test. Then, click the <img src="assets/51a57defd4d21c6104a71bc93b5980c1.png" width="14" alt=""> icon in the upper-right corner.
+   Click Test to perform a test. Then, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/51a57defd4d21c6104a71bc93b5980c1.png" width="14" alt=""> icon in the upper-right corner.
 
 **Export a custom function**
 
 1. Choose **Configuration > Custom Functions**, and find the custom function that you want to manage in the left-side custom function list.
 
-2. Click the <img src="assets/4c18b791414fbc1a56fef0481ee4efa1.png" width="14" alt=""> icon to the right of the custom function.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/4c18b791414fbc1a56fef0481ee4efa1.png" width="14" alt=""> icon to the right of the custom function.
 
 3. Download the TXT file named **Custom Function Name**. The following code shows its content.
 
@@ -3942,7 +3942,7 @@ You can write a custom function in JavaScript for sensitive data discovery. The 
 
 1. Choose **Configuration > Custom Functions**, and find the custom function that you want to manage in the left-side custom function list.
 
-2. Click the <img src="assets/07fe549c2ef7da7efe768e22fa64c3e0.png" width="14" alt=""> icon to the right of the custom function.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/07fe549c2ef7da7efe768e22fa64c3e0.png" width="14" alt=""> icon to the right of the custom function.
 
 3. In the dialog box that appears, click **OK**.
 
@@ -3956,23 +3956,23 @@ You can write a custom function in JavaScript for sensitive data discovery. The 
 
 2. Choose **Configuration > Discovery Rules**.
 
-3. In the left-side Discovery Rule List section, click the <img src="assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
+3. In the left-side Discovery Rule List section, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
 
 4. In the right-side pane, configure the basic information of the rule, including the rule name and discovery mode.
 
-   ![](assets/6d77d1e7ef8c613b78050f80c2975cd7.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/6d77d1e7ef8c613b78050f80c2975cd7.jpeg)
 
    - If you set **Discovery Mode** to **Discover by Custom Logic**, sensitive data is identified based on a regular expression. If data matches the regular expression, the data is considered sensitive data.
 
      In this mode, you need to configure **Confirmation Ratio**, Pre-judgment Settings, DISCOVERY LOGIC SET, and Recommended Mask Algorithm. When the percentage of sampled data identified as sensitive reaches the confirmation ratio, the column is considered as sensitive data of this discovery rule type.
 
-     ![](assets/3992a1678834fa4de66f6d6dbc11cb7c.jpeg)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/3992a1678834fa4de66f6d6dbc11cb7c.jpeg)
 
      **Pre-judgment Settings** are optional. You can configure a custom rule for the number of characters or character positions to verify data before the regular expression is matched. If the data does not meet the pre-judgment rule, the data is considered non-sensitive, and the regular expression is not matched. On the **Pre-judgment Settings** tab, select a
 
-     rule type (Character Quantity Rule or Character Position Rule), and then click the <img src="assets/f751b1517f4f845f45feaf80139b0e29.png" width="20" alt=""> icon.
+     rule type (Character Quantity Rule or Character Position Rule), and then click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f751b1517f4f845f45feaf80139b0e29.png" width="20" alt=""> icon.
 
-     ![](assets/755ef9686518cad0771db061cf22f638.jpeg)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/755ef9686518cad0771db061cf22f638.jpeg)
 
    - If you set **Discovery Mode** to **Discover by Complex Method**, when a single column stores multiple types of sensitive data in fixed-length or delimiter-separated formats (Examples: fixed-length data such as "01200501013015001234567", where the first 12 digits represent a fixed student ID and the last 11 digits represent a fixed mobile number, with a total fixed length of 23 characters; or delimiter-separated data such as "Zhang San|15001234567", where the Chinese name and mobile number are separated by "|"), a composite discovery rule can be used. By configuring discovery rules based on the data format, this method enables the identification of multiple types of sensitive data within the same column and must be used in conjunction with a composite data masking algorithm.
 
@@ -3982,17 +3982,17 @@ You can write a custom function in JavaScript for sensitive data discovery. The 
 
      - If you set **Split Type** to **Split by Bits**, input sample data, and then click **Split** to obtain the digit-position split chart (which shows from which digit to which digit the sensitive data resides). You can click **Add Interval** to add a sensitive data range, specify the start and end digits of sensitive data, and specify the discovery rule for detecting sensitive data. You can add multiple intervals.
 
-       ![](assets/eea97301067b001cae49b8c1226a549b.jpeg)
+       ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/eea97301067b001cae49b8c1226a549b.jpeg)
 
-     - If you set **Split Type** to **Split by Separator**, enter a delimiter. Then, click the <img src="assets/e30db479223747177f39c0dda98b019a.png" width="14" alt=""> icon
+     - If you set **Split Type** to **Split by Separator**, enter a delimiter. Then, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/e30db479223747177f39c0dda98b019a.png" width="14" alt=""> icon
 
        on the right for each additional separator you want to add. After you add all the delimiters, input sample data, and click Split. Then, select a discovery rule for each segment separated by the delimiters.
 
-       ![](assets/620f24804c53f6480726e18fd4d26a39.jpeg)
+       ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/620f24804c53f6480726e18fd4d26a39.jpeg)
 
 5. In the Test Sample section, enter test data and click **Test**.
 
-6. After the test is passed, click the <img src="assets/be8854729e57c3bf8280fa9f15a5162d.png" width="14" alt=""> icon in the upper-right corner.
+6. After the test is passed, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/be8854729e57c3bf8280fa9f15a5162d.png" width="14" alt=""> icon in the upper-right corner.
 
 **Update a discovery rule**
 
@@ -4000,9 +4000,9 @@ You can write a custom function in JavaScript for sensitive data discovery. The 
 
 1. In the left-side Discovery Rule List section of the **Configuration > Discovery Rules** tab, find the custom discovery rule that you want to manage.
 
-2. Click the <img src="assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon to the right of the custom discovery rule.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon to the right of the custom discovery rule.
 
-3. Modify the configurations of the custom discovery rule and click the <img src="assets/be8854729e57c3bf8280fa9f15a5162d.png" width="14" alt=""> icon in the upper-
+3. Modify the configurations of the custom discovery rule and click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/be8854729e57c3bf8280fa9f15a5162d.png" width="14" alt=""> icon in the upper-
 
    right corner.
 
@@ -4014,13 +4014,13 @@ You can write a custom function in JavaScript for sensitive data discovery. The 
 
 3. Enter a new value and click **Save**.
 
-   ![](assets/9292b460bda811340ab8c5163257bc94.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/9292b460bda811340ab8c5163257bc94.jpeg)
 
 **Delete a custom discovery rule**
 
 1. In the left-side Discovery Rule List section of the **Configuration > Discovery Rules** tab, expand the custom discovery rule that you want to manage.
 
-2. Click the <img src="assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon to the right of the custom discovery rule.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon to the right of the custom discovery rule.
 
 3. In the dialog box that appears, click **OK**.
 
@@ -4034,7 +4034,7 @@ You can write a custom function in JavaScript for sensitive data discovery. The 
 
 2. Click the **Configuration > Data Masking Algorithm** tab.
 
-3. In the data masking algorithm list on the left, click the Add Custom Algorithm <img src="assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
+3. In the data masking algorithm list on the left, click the Add Custom Algorithm <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
 
 4. On the right, set the algorithm name and algorithm type.
 
@@ -4048,7 +4048,7 @@ You can write a custom function in JavaScript for sensitive data discovery. The 
 
      In the **Masking Parameters** section, click **Add Basic Algorithm** to associate a discovery rule with a specific data masking algorithm and its parameters. You can repeat this step to add multiple rules.
 
-     ![](assets/f8a26048b1f159e967d5a427b0768df2.jpeg)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f8a26048b1f159e967d5a427b0768df2.jpeg)
 
      The mixed masking algorithm processes data by checking it against discovery rules by priority. If the data matches the first rule, the system applies the corresponding data masking algorithm. If not, the system checks the data against the second rule, and so on.
 
@@ -4056,7 +4056,7 @@ You can write a custom function in JavaScript for sensitive data discovery. The 
 
      In the **Masking Parameters** section, enter your JS function in the **Custom masking algorithm** **function** field.
 
-     ![](assets/4926af2e005875257183989b0e35b3bd.jpeg)
+     ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/4926af2e005875257183989b0e35b3bd.jpeg)
 
    - **Text masking algorithm**: Masks large blocks of text containing various types of sensitive information, such as names and locations.
 
@@ -4064,7 +4064,7 @@ You can write a custom function in JavaScript for sensitive data discovery. The 
 
 5. In the **Data Masking Algorithm Test** section, enter sample data, then click **Masking Test** and **Restoration Test** (available only for reversible algorithms).
 
-6. After the test passes, click the Save <img src="assets/be8854729e57c3bf8280fa9f15a5162d.png" width="14" alt=""> icon in the upper-right corner.
+6. After the test passes, click the Save <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/be8854729e57c3bf8280fa9f15a5162d.png" width="14" alt=""> icon in the upper-right corner.
 
 **Edit a custom data masking algorithm**
 
@@ -4072,11 +4072,11 @@ Pre-defined data masking algorithms cannot be edited.
 
 1. On the **Configuration > Data Masking Algorithm** tab, find your custom algorithm in the list on the left.
 
-2. Click the Edit <img src="assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon for the custom algorithm.
+2. Click the Edit <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon for the custom algorithm.
 
 3. Modify the configuration (the **Algorithm Type** cannot be changed), and then click the Save
 
-   <img src="assets/be8854729e57c3bf8280fa9f15a5162d.png" width="14" alt=""> icon in the upper-right corner.
+   <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/be8854729e57c3bf8280fa9f15a5162d.png" width="14" alt=""> icon in the upper-right corner.
 
 **Test a data masking algorithm**
 
@@ -4090,7 +4090,7 @@ Pre-defined data masking algorithms cannot be deleted.
 
 1. On the **Configuration > Data Masking Algorithm** tab, find your custom algorithm in the list on the left.
 
-2. Click the Delete <img src="assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon for the custom algorithm.
+2. Click the Delete <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon for the custom algorithm.
 
 3. In the confirmation dialog box, click **OK**.
 
@@ -4106,11 +4106,11 @@ You can use a scheduled task to call the discovery task, masking task, automatic
 
 2. Click the **Configuration > Scheduled Tasks** tab.
 
-3. In the Schedule Task List section, click the <img src="assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon
+3. In the Schedule Task List section, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon
 
 4. In the right-side pane, configure the parameters such as Schedule Task Name, Task Type, Task List, Execution Type, and Whether to Enable. Then, click **Test Connection**. Valid values for the Task Type parameter: Discovery Task, Mask Task, Automatic Mask Task, Mask Task Queue, and Water Task. Valid values for the Execution Type parameter: Single Execution, Execute once a day, Execution once a week, Execute once a month, Execution once a year, Interval hour execution, and Interval minutes execution.
 
-   ![](assets/18dc8031f8f886478988d66b806591ab.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/18dc8031f8f886478988d66b806591ab.jpeg)
 
 5. After the source database is connected, click **Save**.
 
@@ -4118,7 +4118,7 @@ You can use a scheduled task to call the discovery task, masking task, automatic
 
 1. In the left-side scheduled task list of the **Configuration > Scheduled Tasks** tab, find the scheduled task that you want to manage.
 
-2. Click the <img src="assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon in the Oper column.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon in the Oper column.
 
 3. Modify the settings of the scheduled task parameters and click **Save**.
 
@@ -4126,7 +4126,7 @@ You can use a scheduled task to call the discovery task, masking task, automatic
 
 1. In the left-side scheduled task list of the **Configuration > Scheduled Tasks** tab, find the scheduled task that you want to manage.
 
-2. Click the <img src="assets/e06eb10c5140f39f6c20ca31fa51b6da.png" width="14" alt=""> icon in the Oper column.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/e06eb10c5140f39f6c20ca31fa51b6da.png" width="14" alt=""> icon in the Oper column.
 
 3. In the **Schedule Task History** dialog box, specify a time to view the execution records.
 
@@ -4134,7 +4134,7 @@ You can use a scheduled task to call the discovery task, masking task, automatic
 
 1. In the left-side scheduled task list of the **Configuration > Scheduled Tasks** tab, find the scheduled task that you want to manage.
 
-2. Click the <img src="assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon in the Oper column.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon in the Oper column.
 
 3. In the message that appears, click **OK**.
 
@@ -4160,7 +4160,7 @@ You can use this feature if you want to execute multiple data masking tasks in s
 
    You can select **Ignore single task errors, other tasks continue to run**. In this case, if a task fails to be executed, the execution of subsequent tasks is not affected.
 
-   ![](assets/2f7d2659b77abe5cf0e3e94be2c1f8db.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/2f7d2659b77abe5cf0e3e94be2c1f8db.jpeg)
 
 **Modify a queue task**
 
@@ -4206,11 +4206,11 @@ A masking algorithm template specifies the masking algorithm and parameters to u
 
 2. Click the **Configuration > Masking Algorithm Templates** tab.
 
-3. In the left-side Mask Algorithm Template List section, click the <img src="assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
+3. In the left-side Mask Algorithm Template List section, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
 
 4. In the **Add Mask Algorithm Template** dialog box, configure the Template Name and Out of template processing strategy parameters, and then click **Save**.
 
-5. In the right-side Template Details List section, click the <img src="assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
+5. In the right-side Template Details List section, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
 
 6. In the **Add Mask Algorithm Template Content** dialog box, configure the discovery rule, masking algorithm, and algorithm parameters of the template, and then click Save.
 
@@ -4220,13 +4220,13 @@ A masking algorithm template specifies the masking algorithm and parameters to u
 
 1. On the **Configuration > Masking Algorithm Templates** tab, find the masking algorithm template that you want to manage in the left-side masking algorithm template list.
 
-2. Click the <img src="assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon to the right of the template that you want to modify.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon to the right of the template that you want to modify.
 
 3. Modify the settings of the Template Name and Out of template processing strategy parameters. You cannot modify the name of the default template. Then, click **Save**.
 
 4. In the right-side Template Details List section, find the entry that you want to modify and
 
-   click the <img src="assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon in the Oper column.
+   click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon in the Oper column.
 
 5. In the dialog box that appears, modify the discovery rule, masking algorithm, and algorithm parameters, and then click **Save**.
 
@@ -4234,7 +4234,7 @@ A masking algorithm template specifies the masking algorithm and parameters to u
 
 1. On the **Configuration > Masking Algorithm Templates** tab, find the masking algorithm template that you want to manage in the left-side masking algorithm template list.
 
-2. Click the <img src="assets/c1c31ea88c838216efc90626e588eced.png" width="14" alt=""> icon to the right of the template that you want to export.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c1c31ea88c838216efc90626e588eced.png" width="14" alt=""> icon to the right of the template that you want to export.
 
 3. Follow the on-screen instructions to download and save the CSV file.
 
@@ -4244,11 +4244,11 @@ A masking algorithm template specifies the masking algorithm and parameters to u
 
 2. On the **Configuration > Masking Algorithm Templates** tab, find the masking algorithm template that you want to manage in the left-side masking algorithm template list.
 
-3. Click the <img src="assets/ea606e95d5c46f4a6ef0674ef8765bfb.png" width="14" alt=""> icon to the right of the template that you want to import.
+3. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/ea606e95d5c46f4a6ef0674ef8765bfb.png" width="14" alt=""> icon to the right of the template that you want to import.
 
 4. Follow the on-screen instructions to upload the CSV file of the masking algorithm template and configure the template file parameters.
 
-   ![](assets/8c0678d063ef5cc905596173c4a99fb4.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/8c0678d063ef5cc905596173c4a99fb4.jpeg)
 
 5. Click **Import**.
 
@@ -4258,11 +4258,11 @@ A masking algorithm template specifies the masking algorithm and parameters to u
 
 2. In the right-side Template Details List section, find the entry that you want to delete and
 
-   click the <img src="assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon in the Oper column.
+   click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon in the Oper column.
 
 3. In the message that appears, click **OK**.
 
-4. In the left-side Masking Algorithm Template List section, click the <img src="assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon to the right of the
+4. In the left-side Masking Algorithm Template List section, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon to the right of the
 
    template that you want to delete.
 
@@ -4280,13 +4280,13 @@ A file template specifies whether a file contains information such as a table he
 
 2. Click the **Configuration > File Templates** tab.
 
-3. In the left-side file template list, click the <img src="assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
+3. In the left-side file template list, click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5a256bfca46098081818419744ba439e.png" width="14" alt=""> icon.
 
-   ![](assets/f8298111f4d8394f6132b96eb8796a5f.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f8298111f4d8394f6132b96eb8796a5f.jpeg)
 
 4. Configure the file template information and click **Save File Template**.
 
-   ![](assets/d6b2b60e8be350105a15c5522bdfd3ed.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/d6b2b60e8be350105a15c5522bdfd3ed.jpeg)
 
 **Modify a custom file template**
 
@@ -4294,7 +4294,7 @@ You cannot modify the default template.
 
 1. On the **Configuration > File Templates** tab, find the file template that you want to manage in the left-side file template list.
 
-2. Click the <img src="assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon to the right of the template that you want to modify.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/f13ab0c5f674d4963c904bdc09c9d638.png" width="14" alt=""> icon to the right of the template that you want to modify.
 
 3. Modify the file template information and click **Save File Template**.
 
@@ -4302,7 +4302,7 @@ You cannot modify the default template.
 
 1. On the **Configuration > File Templates** tab, find the file template that you want to manage in the left-side file template list.
 
-2. Click the <img src="assets/deaa4b96c770a8e6ff1718fa7f2034dd.png" width="14" alt=""> icon to the right of the template that you want to clone.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/deaa4b96c770a8e6ff1718fa7f2034dd.png" width="14" alt=""> icon to the right of the template that you want to clone.
 
    A new file template is generated. The name of the new file template is in the  `Source file template name_Number`  format.
 
@@ -4310,7 +4310,7 @@ You cannot modify the default template.
 
 1. On the **Configuration > File Templates** tab, find the file template that you want to manage in the left-side file template list.
 
-2. Click the <img src="assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon to the right of the template that you want to delete.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/5296e4a7a86b1c0ca8ca8a1581d3e2aa.png" width="14" alt=""> icon to the right of the template that you want to delete.
 
 3. In the message that appears, click **OK**.
 
@@ -4326,9 +4326,9 @@ You cannot modify the default template.
 
 3. In the parameter configuration list, find the configuration item name that you want to manage and modify the value in the **Attribute Value** column.
 
-4. Click the <img src="assets/0f3f43b677d4fdd27ea8105fa431020b.png" width="14" alt=""> icon in the **Oper** column.
+4. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/0f3f43b677d4fdd27ea8105fa431020b.png" width="14" alt=""> icon in the **Oper** column.
 
-   You can click the <img src="assets/0f3f43b677d4fdd27ea8105fa431020b.png" width="14" alt=""> icon in the upper-right corner of the list to save all configuration item
+   You can click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/0f3f43b677d4fdd27ea8105fa431020b.png" width="14" alt=""> icon in the upper-right corner of the list to save all configuration item
 
    changes.
 
@@ -4336,9 +4336,9 @@ You cannot modify the default template.
 
 1. In the parameter configuration list, find the configuration item name that you want to manage.
 
-2. Click the <img src="assets/7e7f736478fff362ddda87e5d5a1bb46.png" width="14" alt=""> icon in the **Oper** column.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/7e7f736478fff362ddda87e5d5a1bb46.png" width="14" alt=""> icon in the **Oper** column.
 
-   You can click the <img src="assets/7e7f736478fff362ddda87e5d5a1bb46.png" width="14" alt=""> icon in the upper-right corner of the list to restore all configuration item
+   You can click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/7e7f736478fff362ddda87e5d5a1bb46.png" width="14" alt=""> icon in the upper-right corner of the list to restore all configuration item
 
    changes.
 
@@ -4360,7 +4360,7 @@ You cannot modify the default template.
 
 On the **Data Sources > Database Sources** tab, click Create Database Source. In the dialog box that appears, click Expand Advanced Options, and set **Custom Database Driver** to the database driver you added. For more information, see **Data sources > Database sources > Create a database source**.
 
-![](assets/49d87b1b15caa869ef5311958e70dea2.jpeg)
+![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/49d87b1b15caa869ef5311958e70dea2.jpeg)
 
 <a id="section-3-9-12"></a>
 
@@ -4372,27 +4372,27 @@ On the **Data Sources > Database Sources** tab, click Create Database Source. In
 
 2. Click the **Configuration** tab. Then, click the **HOST Configuration** tab.
 
-3. Click the <img src="assets/c5cd4d23c4d3c1754bc5cb78c8297a01.png" width="14" alt=""> icon.
+3. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c5cd4d23c4d3c1754bc5cb78c8297a01.png" width="14" alt=""> icon.
 
-   ![](assets/aefafe75c1c51c3a4f460188aef5d408.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/aefafe75c1c51c3a4f460188aef5d408.jpeg)
 
-4. Configure the **Host IP** and **Host Name** parameters, and then click the <img src="assets/c992d41f63f57302e46fd3211eb5aa4f.png" width="14" alt=""> icon.
+4. Configure the **Host IP** and **Host Name** parameters, and then click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c992d41f63f57302e46fd3211eb5aa4f.png" width="14" alt=""> icon.
 
 **Modify a host**
 
 1. In the host configuration list, find the host that you want to manage.
 
-2. Click the <img src="assets/fde6626637b3b33d5bb78bb4330cdae9.png" width="14" alt=""> icon in the **Oper** column.
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/fde6626637b3b33d5bb78bb4330cdae9.png" width="14" alt=""> icon in the **Oper** column.
 
-3. Modify the **Host IP** and **Host Name** parameters, and then click the <img src="assets/c992d41f63f57302e46fd3211eb5aa4f.png" width="14" alt=""> icon.
+3. Modify the **Host IP** and **Host Name** parameters, and then click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c992d41f63f57302e46fd3211eb5aa4f.png" width="14" alt=""> icon.
 
 **Delete a host**
 
 1. In the host configuration list, find the host that you want to manage.
 
-2. Click the <img src="assets/71b52334c1e0931c159e808a016e4f0e.png" width="14" alt=""> icon in the **Oper** column. Alternatively, select the hosts that you want to delete
+2. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/71b52334c1e0931c159e808a016e4f0e.png" width="14" alt=""> icon in the **Oper** column. Alternatively, select the hosts that you want to delete
 
-   and click the <img src="assets/ddd9eb06afb582be25867ea861912f95.png" width="14" alt=""> icon above the list to delete the selected hosts at a time.
+   and click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/ddd9eb06afb582be25867ea861912f95.png" width="14" alt=""> icon above the list to delete the selected hosts at a time.
 
 3. In the message that appears, click **OK**.
 
@@ -4410,14 +4410,14 @@ On the **Data Sources > Database Sources** tab, click Create Database Source. In
 
    Click a check option to download the SQL script.
 
-   ![](assets/e93e1006a988a59985ac55efb12438c7.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/e93e1006a988a59985ac55efb12438c7.jpeg)
 
 4. Click **Start** in the upper-right corner to start the check.
 
-   ![](assets/cf1f9fe36290ed65610ed268f4b07437.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/cf1f9fe36290ed65610ed268f4b07437.jpeg)
 
 5. After the check is complete, view the check results in the **Database Source Diagnostic**
 
-   **List** section. Click the <img src="assets/c1c31ea88c838216efc90626e588eced.png" width="14" alt=""> icon in the **Operation** column to download the check results.
+   **List** section. Click the <img src="en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c1c31ea88c838216efc90626e588eced.png" width="14" alt=""> icon in the **Operation** column to download the check results.
 
-   ![](assets/c3516acfeefa42dcca986398144cc92e.jpeg)
+   ![](en-static-data-masking-user-guide-v3.18.6-2607-20260831.assets/c3516acfeefa42dcca986398144cc92e.jpeg)

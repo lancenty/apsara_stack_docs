@@ -184,11 +184,11 @@ You can obtain a product endpoint from the Apsara Uni-manager Operations Console
 
 4. Select a machine and then click **Terminal** to log on to the machine.
 
-   ![](assets/f2387802bff9e2625d7ff955c145fab4.png)
+   ![](en-edas-developer-guide-v3.18.6-2607-20260828.assets/f2387802bff9e2625d7ff955c145fab4.png)
 
 5. Run the command **curl -l "http://127.0.0.1:7070/api/v3/column/c.sr.service_registration,c.sr.id?c.sr.service_registration"** to obtain JSON data.
 
-   ![](assets/9b345a93b82938b688510fc33908e3e7.png)
+   ![](en-edas-developer-guide-v3.18.6-2607-20260828.assets/9b345a93b82938b688510fc33908e3e7.png)
 
 6. Find the edas_api_console_paas_domain key for the EDAS product. The value of this key is the EDAS endpoint.
 
@@ -196,7 +196,7 @@ You can obtain a product endpoint from the Apsara Uni-manager Operations Console
    curl -l "http://127.0.0.1:7070/api/v3/column/c.sr.service_registration,c.sr.id?c.sr.service_registration"|grep "edas_api_console_paas_domain"
    ```
 
-   ![](assets/5018b218b35e386a8c55848f4ff09439.png)
+   ![](en-edas-developer-guide-v3.18.6-2607-20260828.assets/5018b218b35e386a8c55848f4ff09439.png)
 
 <a id="section-1-1-3"></a>
 
@@ -210,7 +210,7 @@ Follow these steps:
 
 1. Log on to the Apsara Stack console as an administrator.
 
-2. In the top navigation bar, click the <img src="assets/97a46dd0885358a10097e085ed2f2e9f.png" width="18" alt=""> icon, and then choose **User Center > Department Management**.
+2. In the top navigation bar, click the <img src="en-edas-developer-guide-v3.18.6-2607-20260828.assets/97a46dd0885358a10097e085ed2f2e9f.png" width="18" alt=""> icon, and then choose **User Center > Department Management**.
 
 3. Select a department and click **Create AccessKey** to obtain an AccessKey pair of this department.
 
@@ -9860,11 +9860,11 @@ This topic describes how to obtain an AccessKey pair.
 
 1. Log on to the Apsara Uni-manager Management Console, click the profile picture in the upper-right corner of the page, and then select **User Information** from the drop-down list.
 
-   ![](assets/26f005e3b8020b86f6d01bbdb10265b4.jpeg)
+   ![](en-edas-developer-guide-v3.18.6-2607-20260828.assets/26f005e3b8020b86f6d01bbdb10265b4.jpeg)
 
 2. Obtain the AccessKey pair on the page that appears.
 
-   ![](assets/4d0536108dc7dddfbf8138f25dc1a251.jpeg)
+   ![](en-edas-developer-guide-v3.18.6-2607-20260828.assets/4d0536108dc7dddfbf8138f25dc1a251.jpeg)
 
 **Method 2: Obtain the AccessKey pair in the Apsara Infrastructure Management console**
 
@@ -9872,25 +9872,25 @@ This topic describes how to obtain an AccessKey pair.
 
    For more information about how to log on to the Apsara Uni-manager Operations Console, see the **Routine Maintenance > Log On To Apsara Infrastructure Management** section of the **O&M Guide**.
 
-2. In the navigation pane on the left, choose **Operations > Cluster Operations**. On the Clusters page, enter <img src="assets/eaeff5e3df1d9d65350bc1cb9f4832a6.png" width="53" alt="">
+2. In the navigation pane on the left, choose **Operations > Cluster Operations**. On the Clusters page, enter <img src="en-edas-developer-guide-v3.18.6-2607-20260828.assets/eaeff5e3df1d9d65350bc1cb9f4832a6.png" width="53" alt="">
 
    `baseService` in
 
    the search box in the **Project** drop-down list to search for the cluster. Click the cluster name that appears.
 
-   ![](assets/3945e7fda8a25dae3554df5e5dfcb5b0.jpeg)
+   ![](en-edas-developer-guide-v3.18.6-2607-20260828.assets/3945e7fda8a25dae3554df5e5dfcb5b0.jpeg)
 
-3. On the **Cluster Details** page, click the **Cluster Resource** tab. Enter <img src="assets/546c2df8dc8eafc6f2e98c8e32936da4.png" width="29" alt="">
+3. On the **Cluster Details** page, click the **Cluster Resource** tab. Enter <img src="en-edas-developer-guide-v3.18.6-2607-20260828.assets/546c2df8dc8eafc6f2e98c8e32936da4.png" width="29" alt="">
 
    `ummak` in the search box in the **Name** drop-down list
 
    to search for the resource. The ummak resource appears. Click **Details** in the **Application Result** column.
 
-   ![](assets/69e24489ed35f35f216d6fa90646f9c8.jpeg)
+   ![](en-edas-developer-guide-v3.18.6-2607-20260828.assets/69e24489ed35f35f216d6fa90646f9c8.jpeg)
 
 4. In the **Application Result** dialog box, view the connection information of the ummak database.
 
-   ![](assets/57f26c56aa67714a9f4df2d91ec9778d.jpeg)
+   ![](en-edas-developer-guide-v3.18.6-2607-20260828.assets/57f26c56aa67714a9f4df2d91ec9778d.jpeg)
 
 5. Use the mysql command to log on to the ummak database from a virtual machine (VM) in which an EDAS backend component is deployed or from a terminal server.
 

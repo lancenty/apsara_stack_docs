@@ -124,7 +124,7 @@ This article describes the job execution architecture of the MaxCompute distribu
 
 **MaxCompute job workflow diagram**
 
-![](assets/acdf427b96be85131ce9076f48daf96e.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/acdf427b96be85131ce9076f48daf96e.png)
 
 it
 
@@ -252,7 +252,7 @@ The MaxCompute client is stored in the clt folder in the /apsara/odps_tools dire
 
 The following figure shows the client command parameters.
 
-![](assets/3b87a52fd4ab0d3300ef33ca969c479f.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/3b87a52fd4ab0d3300ef33ca969c479f.jpeg)
 
 - **-e**: The client does not execute SQL statements in interactive mode.
 
@@ -653,7 +653,7 @@ After you submit an SQL task on a client, a long string that starts with  `http:
 
 Figure 1: Returned long string
 
-![](assets/f3f8883397f6a6e1620e101a0adc0145.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/f3f8883397f6a6e1620e101a0adc0145.png)
 
 After you remove the carriage return and line feed characters in the long string, you can view the monitoring data of LogView through a web browser.
 
@@ -669,7 +669,7 @@ Figure 1: Relationships between MaxCompute tasks and Fuxi instances
 
 **MaxCompute Task**
 
-![](assets/4c022c194f55b9f93101a94aa97e2d71.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4c022c194f55b9f93101a94aa97e2d71.png)
 
 **Fuxi Task**
 
@@ -679,7 +679,7 @@ Figure 1: Relationships between MaxCompute tasks and Fuxi instances
 
 **...**
 
-![](assets/766ff7a19a8b0a3095491814eab5c513.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/766ff7a19a8b0a3095491814eab5c513.png)
 
 **Fuxi Instance**
 
@@ -695,35 +695,35 @@ The following figures show the relevant information in LogView.
 
 Figure 2: MaxCompute instance
 
-![](assets/0e2202cf4a7e64341e73dc4ae6cca17e.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/0e2202cf4a7e64341e73dc4ae6cca17e.png)
 
 **MaxCompute Task**
 
 Figure 3. MaxCompute task
 
-![](assets/937e068403d72efc8e4edea24bb754f7.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/937e068403d72efc8e4edea24bb754f7.png)
 
 **Task Detail-Fuxi Job**
 
 Figure 4. Task Detail - Fuxi job (1)
 
-![](assets/6235e98e0f94fd4bdde8d3a9bb548445.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/6235e98e0f94fd4bdde8d3a9bb548445.jpeg)
 
 Figure 5. Task Detail - Fuxi job (2)
 
-![](assets/1c937023c4e0162d754f634aa08f7ddf.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/1c937023c4e0162d754f634aa08f7ddf.jpeg)
 
 **Task Detail-Summary**
 
 Figure 6. Task Detail - Summary
 
-![](assets/604d7e31393d9ba4692515762c7d6236.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/604d7e31393d9ba4692515762c7d6236.png)
 
 **Task Detail-JSONSummary**
 
 Figure 7. Task Detail - JSON summary
 
-![](assets/c1ad3a944f8c498b0ad9e8f1f218a5be.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/c1ad3a944f8c498b0ad9e8f1f218a5be.png)
 
 <a id="section-2-4-4"></a>
 
@@ -739,7 +739,7 @@ LogView allows you to view each point in time throughout the lifecycle of a job,
 
 Figure 1: View each point in time throughout the lifecycle of a job
 
-![](assets/39e264c092e75b9aae164cca3c6be288.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/39e264c092e75b9aae164cca3c6be288.png)
 
 - In Fuxi Jobs, the **Start Time** field indicates the start time of a Fuxi task.
 
@@ -749,7 +749,7 @@ Figure 1: View each point in time throughout the lifecycle of a job
 
 Figure 2: View the amount of time consumed by Job Scheduler to schedule a task
 
-![](assets/39e264c092e75b9aae164cca3c6be288.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/39e264c092e75b9aae164cca3c6be288.png)
 
 The following formula is used to calculate the amount of time consumed by Job Scheduler to schedule a task: Fuxi instance start time - Fuxi task start time = Amount of time consumed to schedule the task.
 
@@ -907,7 +907,7 @@ If you add  `xstream_max_worker_num=3`  at the end of the configuration file, th
 
    </ol>
 
-   ![](assets/6ad4fa074f16507ec7a46968be7abb01.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/6ad4fa074f16507ec7a46968be7abb01.jpeg)
 
    <ol type="i" start="2">
 
@@ -919,7 +919,7 @@ If you add  `xstream_max_worker_num=3`  at the end of the configuration file, th
 
    </ol>
 
-   ![](assets/7121b2af5c01a038e8eecd400c043538.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/7121b2af5c01a038e8eecd400c043538.jpeg)
 
    <ol type="i" start="3">
 
@@ -931,7 +931,7 @@ If you add  `xstream_max_worker_num=3`  at the end of the configuration file, th
 
    </ol>
 
-   ![](assets/5820b44e8f01f5dd55be796f91f23fd4.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/5820b44e8f01f5dd55be796f91f23fd4.jpeg)
 
    <ol type="i" start="4">
 
@@ -943,7 +943,7 @@ If you add  `xstream_max_worker_num=3`  at the end of the configuration file, th
 
    </ol>
 
-   ![](assets/f2b51d99e91ce602294cf3176ed918f9.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/f2b51d99e91ce602294cf3176ed918f9.jpeg)
 
    <ol type="i" start="5">
 
@@ -955,7 +955,7 @@ If you add  `xstream_max_worker_num=3`  at the end of the configuration file, th
 
    </ol>
 
-   ![](assets/f2319c41dd6c18672d682e12e83a84d5.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/f2319c41dd6c18672d682e12e83a84d5.jpeg)
 
 5. Run the following command to check whether an error exists:
 
@@ -975,7 +975,7 @@ If you add  `xstream_max_worker_num=3`  at the end of the configuration file, th
 
    </ol>
 
-   ![](assets/27270358062e0cf3b39dad034a8e7ced.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/27270358062e0cf3b39dad034a8e7ced.jpeg)
 
    <ol type="i" start="2">
 
@@ -987,7 +987,7 @@ If you add  `xstream_max_worker_num=3`  at the end of the configuration file, th
 
    </ol>
 
-   ![](assets/26d86b50f819f97f60f817e6e54e2aca.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/26d86b50f819f97f60f817e6e54e2aca.jpeg)
 
    <ol type="i" start="3">
 
@@ -999,7 +999,7 @@ If you add  `xstream_max_worker_num=3`  at the end of the configuration file, th
 
    </ol>
 
-   ![](assets/3e5db505eb62ca9477ab64770df08bff.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/3e5db505eb62ca9477ab64770df08bff.jpeg)
 
 7. Log in to the machine on which Apsara Name Service and Distributed Lock Synchronization System resides.
 
@@ -1013,7 +1013,7 @@ If you add  `xstream_max_worker_num=3`  at the end of the configuration file, th
    tj_show -r nuwa.NuwaZK#>/tmp/nuwa;pssh -h /tmp/nuwa -i "echo srvr | nc localhost 10240 | grep Mode";
    ```
 
-   ![](assets/f9a931fcca767ad4afa5f4083ebe944a.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/f9a931fcca767ad4afa5f4083ebe944a.jpeg)
 
 8. Run the following commands to check whether Apsara Distributed File System runs as expected:
 
@@ -1025,7 +1025,7 @@ If you add  `xstream_max_worker_num=3`  at the end of the configuration file, th
    puadmin gss;
    ```
 
-   ![](assets/f522c0786b0a9b43a66f3795e19c239a.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/f522c0786b0a9b43a66f3795e19c239a.jpeg)
 
 9. Perform routine inspections in the Apsara Big Data Manager (ABM) console to check disk usage.
 
@@ -1242,7 +1242,7 @@ If you shut down a chunk server for maintenance and clone the chunk server, the 
 
    A large amount of information is returned. Search for the  `action_status`  parameter in the returned results.
 
-   ![](assets/8893f35e3ea524abf27e8f3ac02fd11f.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/8893f35e3ea524abf27e8f3ac02fd11f.png)
 
    </li>
 
@@ -1655,7 +1655,7 @@ This topic describes how to log in to the Apsara Big Data Manager (ABM) console.
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -1707,7 +1707,7 @@ The Apsara Bigdata Manager (ABM) dashboard displays key metrics of MaxCompute. I
    >
    > icon in the
    >
-   > <img src="assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="17" alt="">
+   > <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="17" alt="">
    >
    > upper-left corner and select **ABM**.
 
@@ -1717,7 +1717,7 @@ The Apsara Bigdata Manager (ABM) dashboard displays key metrics of MaxCompute. I
 
 The **Instrument cluster** tab displays the key metrics of **MaxCompute**. To view these metrics, navigate to the **MaxCompute** section on the Instrument cluster tab.
 
-![](assets/b9dafa28a67aeeaf54cbe33e2e547aaa.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/b9dafa28a67aeeaf54cbe33e2e547aaa.png)
 
 The **MaxCompute** section displays the overview of jobs, real-time capacity of the control system, data import traffic, computing resource usage, physical storage usage, and trends of the logical and physical CPU utilization of a MaxCompute cluster.
 
@@ -1731,7 +1731,7 @@ In the **Select Time** section of the **Instrument cluster** tab, specify the st
 
 The dashboard supports the full-screen mode. This mode allows you to view the status of big data services.
 
-In the upper part of the **Instrument cluster** tab, click the <img src="assets/a0babdba81c5f5ab42dd85bd735f78d5.png" width="14" alt=""> icon to display the **Instrument**
+In the upper part of the **Instrument cluster** tab, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/a0babdba81c5f5ab42dd85bd735f78d5.png" width="14" alt=""> icon to display the **Instrument**
 
 **cluster** tab in full-screen mode.
 
@@ -1751,7 +1751,7 @@ The resource library displays the resource usage of MaxCompute. This topic descr
    >
    > icon in the
    >
-   > <img src="assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="17" alt="">
+   > <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="17" alt="">
    >
    > upper-left corner and select **ABM**.
 
@@ -1761,7 +1761,7 @@ The resource library displays the resource usage of MaxCompute. This topic descr
 
 In the left-side navigation pane of the **Resource Library** tab, click **MaxCompute**. On the page that appears, you can view the resource usage of MaxCompute.
 
-![](assets/b28912e2ec951a2be7b4f2d1457fc235.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/b28912e2ec951a2be7b4f2d1457fc235.jpeg)
 
 The resource library of MaxCompute displays the trends of compute unit (CU) usage and storage usage, records of CU and storage usage, and proportions of idle CUs and storage.
 
@@ -1781,7 +1781,7 @@ In the Apsara Big Data Manager (ABM) console, the Degree of health tab allows yo
 
    After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -1797,7 +1797,7 @@ In the Apsara Big Data Manager (ABM) console, the Degree of health tab allows yo
    >
    > icon to the left of a monitoring checker to view information such as
    >
-   > <img src="assets/f9d3f41eeb3ee5be94446cb1431d4ad9.png" width="16" alt="">
+   > <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/f9d3f41eeb3ee5be94446cb1431d4ad9.png" width="16" alt="">
    >
    > the host status and the report time.
 
@@ -1813,7 +1813,7 @@ In the Apsara Big Data Manager (ABM) console, the Report tab allows you to view 
 
    After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -1852,13 +1852,13 @@ This topic describes the business O&M features and how to navigate to the busine
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
 3. On the MaxCompute page, click **Operation and maintenance** in the top navigation bar and then click the **Business operation and maintenance** tab to perform business O&M operations.
 
-   ![](assets/5d7210525e8d6fc74f71f4838a96160b.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/5d7210525e8d6fc74f71f4838a96160b.png)
 
 <a id="section-4-3-1-2"></a>
 
@@ -1992,7 +1992,7 @@ You can perform the following operations on the Operation tab:
 
 On the **Storage** tab, you can view the following information: **Storage space water level**, **Physical Storage Used**, **Physical storage quota**, and **Physical Storage Remaining**. You can also view the chart that displays the trend of storage usage, including the number of files in Apsara Distributed File System, storage size, number of tables, number of partitions, and redundant storage space on a daily basis. The trend curves are shown in different colors.
 
-![](assets/20018808526f4f629bc94279c8b4dd98.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/20018808526f4f629bc94279c8b4dd98.png)
 
 > **Note**
 >
@@ -2002,7 +2002,7 @@ On the **Storage** tab, you can view the following information: **Storage space 
 
 On the **Calculation** tab, you can view the quota groups of the project and the details of each quota group.
 
-![](assets/d9a1a9afb22031c99a4d743a4833c760.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/d9a1a9afb22031c99a4d743a4833c760.png)
 
 To view the details of a quota group, click the quota group name in the **Quota Name** column. For more information about quota groups, see Quota group management.
 
@@ -2014,15 +2014,15 @@ To view the details of a quota group, click the quota group name in the **Quota 
 
 On the **Configuration** tab, you can configure the Common, Sandbox, SQL, MR, restrictions, and Recycle properties of the project. You can also configure access to the metadata repository.
 
-On the **AttributeItem** tab, if you want to modify a configuration item, click the <img src="assets/a5bf148b36812a919e45cac0a3e6304a.png" width="14" alt=""> icon to the
+On the **AttributeItem** tab, if you want to modify a configuration item, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/a5bf148b36812a919e45cac0a3e6304a.png" width="14" alt=""> icon to the
 
 left of the configuration item category, modify the configuration item, and then click **Submit**. To restore all configuration items to the default settings, click **Reset**.
 
-![](assets/18841a5ee6ebf078a477581f92c29071.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/18841a5ee6ebf078a477581f92c29071.png)
 
 On the **Yuancangpackageauthorization** tab, you can install a package and perform package-based authorization.
 
-![](assets/636a9760051a4027f93ab054c3cd80f3.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/636a9760051a4027f93ab054c3cd80f3.png)
 
 **Channel**
 
@@ -2032,13 +2032,13 @@ On the **Channel** tab, you can view the tunnel configuration and throughput of 
 
 On the **ResourceAnalysis** tab, you can view the resource usage of the project from different dimensions, including TableDimensions, TaskDimension, Time-consumingdimension, StartupDimension, and EngineDimension.
 
-![](assets/d8ceb2f8d966887621d2fb583e93e214.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/d8ceb2f8d966887621d2fb583e93e214.png)
 
 **StorageEncryption**
 
 On the **Encryption at Rest** tab, you can encrypt data by using the following encryption algorithms: AES-CTR, AES256, RC4, and SM4. For more information, see MaxCompute storage encryption.
 
-![](assets/2032d5ed950930391719646741639bc0.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/2032d5ed950930391719646741639bc0.png)
 
 **ClusterReplication**
 
@@ -2179,13 +2179,13 @@ Apsara Big Data Manager (ABM) allows you to migrate MaxCompute projects across r
 
 3. In the upper part of the **Project Migration** page, select the region where the project resides.
 
-   ![](assets/a1aa95d3e8a402925f1bc24fe26cb64c.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/a1aa95d3e8a402925f1bc24fe26cb64c.png)
 
 4. In the upper-right corner of the Migration Mission page, click **Create Mission**. On the Create Migration Mission page, configure the parameters in the **General**, **Source**, **Target Selection**, and **Cluster for Mission Execution** sections as prompted.
 
-   ![](assets/7ea9b9a86c8bbb2e86b455971ae33b23.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/7ea9b9a86c8bbb2e86b455971ae33b23.png)
 
-   ![](assets/0d401ba3ad8b31ea829c16d042aa6610.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/0d401ba3ad8b31ea829c16d042aa6610.png)
 
    The following table describes the parameters.
 
@@ -2267,13 +2267,13 @@ Apsara Big Data Manager (ABM) allows you to migrate MaxCompute projects across r
 
 5. Click **Preview** to preview project migration details.
 
-   ![](assets/b98925d99aec4c45b49ea76b95031547.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/b98925d99aec4c45b49ea76b95031547.png)
 
 6. After you confirm the configuration, click **Start Planning** in the upper-left corner. Then, a project migration task is generated and the migration details appear.
 
    The task may require a long period of time to be generated.
 
-   ![](assets/b98925d99aec4c45b49ea76b95031547.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/b98925d99aec4c45b49ea76b95031547.png)
 
    In most cases, a standard project migration task includes five steps:
 
@@ -2375,11 +2375,11 @@ You can view the details of a project migration task, including the steps, resul
 
    - Search for a task: Enter the name of a migration task in the search box in the upper-right corner and click the search icon to **search for the task**.
 
-   ![](assets/2c59f639d9f9ce646e04e784a1695087.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/2c59f639d9f9ce646e04e784a1695087.png)
 
 2. On the Migration Mission page, click the name of the desired migration task. On the **Migration Details** page, view the details of the migration task.
 
-   ![](assets/32d9bc5ed647ca692f35141f70305307.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/32d9bc5ed647ca692f35141f70305307.png)
 
 3. If a step fails, click the **Details** or **Debugging** icon in the Actions column to view the details or debugging information of the step. This allows you to identify the cause of the failure.
 
@@ -2395,13 +2395,13 @@ If a step fails, you can view the step details and debugging information to iden
 
 1. Click **Details** in the Actions column to view the details of the step.
 
-   ![](assets/f79e2376917b3e2b704fa5c109f25b19.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/f79e2376917b3e2b704fa5c109f25b19.png)
 
-   ![](assets/1b5aea29f5d2de8f0953e84228c4f34b.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/1b5aea29f5d2de8f0953e84228c4f34b.png)
 
 2. Click **Debugging** in the Actions column to view the debugging information of the step.
 
-   ![](assets/74a47c07c45575eea41efd33c5035437.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/74a47c07c45575eea41efd33c5035437.png)
 
 **Modify a project migration task**
 
@@ -2451,7 +2451,7 @@ Apsara Big Data Manager (ABM) displays the quota groups of all projects in a Max
 
 On the **Quota Group List** page, click **Details** in the **Actions** column of a quota group to view its details, including resource consumption, resource analysis, and time-sharing management.
 
-![](assets/77bd312db7c87db78dcc775a2c890622.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/77bd312db7c87db78dcc775a2c890622.png)
 
 **Enable time-sharing management for a quota group**
 
@@ -2519,11 +2519,11 @@ You can perform the following operations:
 
 1. On the **JobSnapshot** tab, select one or more jobs that you want to terminate and click **Terminate Job** above the list. In the **Kill Operation** panel, view the jobs to be terminated.
 
-   ![](assets/0bc9437cc36c9ba4069e07d8e2b8535a.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/0bc9437cc36c9ba4069e07d8e2b8535a.png)
 
 2. After you confirm the information, click **Run**. Then, a message that indicates the results appears.
 
-   ![](assets/51426996b195affe3f152dad93c590fc.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/51426996b195affe3f152dad93c590fc.jpeg)
 
 **Collect job logs**
 
@@ -2805,13 +2805,13 @@ Apsara Big Data Manager (ABM) allows you to analyze the resources of MaxCompute 
 
 On the **TableDimensions** tab, you can view the detailed information about all tables in each project, including the number of partitions, physical storage usage, and number of Apsara Distributed File System files of each table, and the rankings based on the number of partitions, physical storage usage, and number of Apsara Distributed File System files. You can also sort tables by number of partitions, physical storage usage, and number of Apsara Distributed File System files.
 
-![](assets/16b9400f60e789dc7f967691f592252f.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/16b9400f60e789dc7f967691f592252f.png)
 
 **Project dimension**
 
 On the **ProjectDimensions** tab, you can view the detailed information about the data stored in each project, including the number of Apsara Distributed File System files, physical storage usage, capacity unit (CU) usage, total memory usage, number of tasks, number of tables, and idle storage space of each project. You can also view the daily and weekly percentage by which the value of each metric is increased.
 
-![](assets/be3c25c63355b13ae2042364856754a9.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/be3c25c63355b13ae2042364856754a9.png)
 
 **Task dimension**
 
@@ -2833,25 +2833,25 @@ On the **TaskDimension** tab, you can view the execution status of tasks from th
 
 On the **Time-consumingdimension** tab, you can view the numbers of tasks that consume less than 5 minutes, less than 15 minutes, less than 30 minutes, less than 60 minutes, and more than 60 minutes. In the Time-consuming operation chart, the numbers of tasks of each day in the specified time period are displayed in different colors to show the trends of tasks of different durations.
 
-![](assets/80fca803654bdada7fa55ac58eada36f.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/80fca803654bdada7fa55ac58eada36f.png)
 
 **Startup dimension**
 
 On the **StartupDimension** tab, you can view the numbers of tasks that are started in different time periods for each project. The time interval is 30 minutes. In the Number of time period tasks chart, the numbers of tasks that are started in different time periods of each day in the specified time period are displayed.
 
-![](assets/183c5b97c80586de11699a319a57f6e3.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/183c5b97c80586de11699a319a57f6e3.png)
 
 **Engine dimension**
 
 On the **EngineDimension** tab, you can view the trends of performance metrics of tasks in each project in the task Performance analysis chart. The performance metrics include cost_cpu, cost_mem, cost_time, input_bytes, input_bytes_per_cu, input_records, input_records_per_cu, odps_job_num, output_bytes, output_bytes_per_cu, output_records, and output_records_per_cu.
 
-![](assets/bc3571409fe67c8fd77b349689dab067.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/bc3571409fe67c8fd77b349689dab067.png)
 
 **Measurement dimension**
 
 On the **MeasurementDimensions** tab, you can view the storage data of each project from the storage quota dimension. The storage data includes the upper limit of logical storage, maximum number of logical files, quota group ID, quota group name, upper limit CU of quota group, guaranteed CU of quota group, yesterday's CPU consumption, yesterday's memory consumption, yesterday's task volume, yesterday's logical storage, specification configuration, region, cluster, and collection date.
 
-![](assets/ebacad8ad5235b7dfb552f7b0821fa25.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/ebacad8ad5235b7dfb552f7b0821fa25.png)
 
 <a id="section-4-3-1-6"></a>
 
@@ -2873,7 +2873,7 @@ On the **Overview** page, the **Primary and Secondary Data Center Synchronizatio
 
 - out-avg: The average outbound network traffic.
 
-To manually refresh the page, click the <img src="assets/fdce8d715ad5546e2566f88d7671b0dd.png" width="15" alt=""> icon. To automatically refresh the page, click the <img src="assets/471bed888c6f849d205f3678921eb796.png" width="10" alt="">
+To manually refresh the page, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/fdce8d715ad5546e2566f88d7671b0dd.png" width="15" alt=""> icon. To automatically refresh the page, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/471bed888c6f849d205f3678921eb796.png" width="10" alt="">
 
 icon and set the **Refresh Interval** and **Time Range** parameters.
 
@@ -2965,7 +2965,7 @@ This topic describes the O&M features for control services and how to go to the 
 
 2. After you log in to the **ABM** console, the **Monitoring** page appears by default. You can
 
-   click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -3003,7 +3003,7 @@ In this section, the information about the thread pool is displayed. You can vie
 
 In this section, the chart displays changes in the numbers of jobs that are running, jobs that are waiting for resources, and jobs that are waiting for scheduling by using trend curves in
 
-different colors. You can click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon in the upper-right corner of the chart to zoom in and
+different colors. You can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon in the upper-right corner of the chart to zoom in and
 
 specify a time range to view the trend within the specified time range.
 
@@ -3237,7 +3237,7 @@ MaxCompute allows you to change the number of control nodes for each service, su
 
 4. In the **Control Quantity Modification** panel, modify the related control information, including HiveServer, ExecutorWorker, AuthServer, RecycleWorker, CatalogServer, OdpsWorker, and MessageServer.
 
-   ![](assets/81ac1e99f46186ea13017d314fd86835.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/81ac1e99f46186ea13017d314fd86835.jpeg)
 
 5. After the configuration is complete, click **Run**. A message appears, indicating that the operation has been submitted.
 
@@ -3293,7 +3293,7 @@ This topic describes the O&M features for Job Scheduler and how to go to the O&M
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -3317,13 +3317,13 @@ On the Overview tab, the key information about the operations of Job Scheduler i
 
 This section displays the numbers of available services, unavailable services, and services that are being upgraded.
 
-![](assets/3c5db57a367d6188781c0f2b6dc7d95d.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/3c5db57a367d6188781c0f2b6dc7d95d.png)
 
 **Service Status**
 
 This section displays all service roles of Job Scheduler and their status. You can also view the number of physical servers on which each service role is deployed and the number of physical servers in desired state for each service role.
 
-![](assets/961ad7741c060805759e0561cb6a3037.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/961ad7741c060805759e0561cb6a3037.png)
 
 Click the name of a service role in the **Role** to go to the **Apsara Infrastructure Management console** and view the details of the service role.
 
@@ -3331,7 +3331,7 @@ Click the name of a service role in the **Role** to go to the **Apsara Infrastru
 
 This section displays the trends of CPU utilization and memory usage for Job Scheduler. Each chart provides information about the used quota, minimum quota, maximum cluster quota, requested quota, and maximum quota in different colors. The statistics in the charts are periodically updated. You can also manually update the statistics. You can also view the trends of CPU utilization and memory usage within a specific period of time.
 
-![](assets/020527e90cb4ec5bd25d9b6a22174bef.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/020527e90cb4ec5bd25d9b6a22174bef.png)
 
 **Saturation-Resource Allocation**
 
@@ -3341,7 +3341,7 @@ This section displays the statistics on the allocation of CPU and memory resourc
 
 - **Memory allocation**: You can view the memory usage, the total memory size, the available memory size, and the memory size for SQL acceleration.
 
-![](assets/d32497a654a6a8cf3ee27105acbfdc5c.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/d32497a654a6a8cf3ee27105acbfdc5c.png)
 
 **Overview of compute node resources**
 
@@ -3567,7 +3567,7 @@ You can add compute nodes to or remove compute nodes from the blacklist or read-
 
 2. In the panel that appears, click **Run**. A message appears, indicating that the action is submitted.
 
-   ![](assets/356e108c4cc1552a8f38c86f87b30fd3.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/356e108c4cc1552a8f38c86f87b30fd3.png)
 
    > **Note**
    >
@@ -3589,7 +3589,7 @@ You can enable or disable SQL acceleration for Job Scheduler in the Apsara Big D
 
 3. In the **Enable SQL acceleration** panel, configure the **WorkerSpans** parameter.
 
-   ![](assets/b29f25c9d387dfd06af208228bb6199d.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/b29f25c9d387dfd06af208228bb6199d.png)
 
    **WorkerSpans**: the default resource quota of the cluster and the resource quota for a specific period. Default value: **default:2,12-23:2**.
 
@@ -3691,7 +3691,7 @@ This topic describes the O&M features for Apsara Distributed File System and how
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -3727,19 +3727,19 @@ This section displays the statistics on storage usage and the number of files.
 
 - **Number of files Water level**: You can view the storage usage of files, maximum number of files, number of existing files, and number of files in the recycle bin.
 
-![](assets/9adc9a1ce7374084183c6ca4bf273c73.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/9adc9a1ce7374084183c6ca4bf273c73.png)
 
 **Physical storage capacity and Document change trend**
 
 In the Physical storage capacity and Document change trend sections, the trend charts of storage usage and the number of files are displayed. The Physical storage capacity chart shows the trend lines of the total storage space, used storage space, and storage usage in different colors. The Document change trend chart shows the trend line of the number of files.
 
-![](assets/506afd3cc18f3a09cbe1c75b0d0effeb.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/506afd3cc18f3a09cbe1c75b0d0effeb.png)
 
-In the upper-right corner of a chart, you can click the <img src="assets/21aef8fbae5d9765aa53fd5bab670ef6.png" width="17" alt=""> icon to zoom in on the chart. The
+In the upper-right corner of a chart, you can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/21aef8fbae5d9765aa53fd5bab670ef6.png" width="17" alt=""> icon to zoom in on the chart. The
 
 following figure shows an enlarged chart of storage usage.
 
-![](assets/9c23c828149fca9fe30829b960882b35.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/9c23c828149fca9fe30829b960882b35.png)
 
 You can specify the start date and end date in the upper-left corner of the enlarged chart to view the storage usage of the cluster in the specified period.
 
@@ -3747,7 +3747,7 @@ You can specify the start date and end date in the upper-left corner of the enla
 
 This section displays the information about the storage nodes of Apsara Distributed File System. You can view the numbers of data nodes, normal nodes, disks, and normal disks. You can also view the percentages of faulty nodes and faulty disks.
 
-![](assets/6cb13638bb75cc6123d324d57f53bed8.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/6cb13638bb75cc6123d324d57f53bed8.png)
 
 <a id="section-4-3-2-3-3"></a>
 
@@ -3929,7 +3929,7 @@ You can set the status of a storage node to **Disabled** or **Normal**. This exa
 
 2. In the **Set Storage Node to Down State** dialog box, click **Run**.
 
-   ![](assets/3eeca58e884b372b2714203a0d28059b.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/3eeca58e884b372b2714203a0d28059b.jpeg)
 
    > **Note**
    >
@@ -3945,7 +3945,7 @@ You can set the status of a data disk to **Error** or **Normal**. This example s
 
 2. In the **Set data disk to error state** panel, specify **DiskId**.
 
-   ![](assets/d2baa622f1c8f8f5d39f36e831bddc47.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/d2baa622f1c8f8f5d39f36e831bddc47.jpeg)
 
    > **Note**
    >
@@ -4147,7 +4147,7 @@ The tunnel service serves as a data tunnel of MaxCompute. You can use this servi
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -4314,7 +4314,7 @@ The Flowanalysis tab displays the traffic curves of specific projects within a s
 
 2. Click the **Flowanalysis** tab. After you specify a time period and a project for traffic
 
-   analysis, click the <img src="assets/b94e4022ce8d255b510454f44dfa0d52.png" width="12" alt=""> icon. Then, you can view the uplink throughput and downlink
+   analysis, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/b94e4022ce8d255b510454f44dfa0d52.png" width="12" alt=""> icon. Then, you can view the uplink throughput and downlink
 
    throughput in the **Tunnel traffic uplink throughput** and **Downlink throughput of Tunnel traffic** charts.
 
@@ -4344,7 +4344,7 @@ On the ConfigurationManagement tab, you can manage endpoints, view all the proje
 
 1. On the **ConfigurationManagement** tab, select a region and a cluster from the drop-down
 
-   lists next to **Regional Cluster** and click the <img src="assets/2baa79c8ee6532a9dbf577aa8dbb8504.png" width="15" alt=""> icon.
+   lists next to **Regional Cluster** and click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/2baa79c8ee6532a9dbf577aa8dbb8504.png" width="15" alt=""> icon.
 
 2. Click the **Endpointconfiguration** tab.
 
@@ -4362,7 +4362,7 @@ On the ConfigurationManagement tab, you can manage endpoints, view all the proje
 
 1. On the **ConfigurationManagement** tab, select a region and a cluster from the drop-down
 
-   lists next to **Regional Cluster** and click the <img src="assets/2baa79c8ee6532a9dbf577aa8dbb8504.png" width="15" alt=""> icon.
+   lists next to **Regional Cluster** and click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/2baa79c8ee6532a9dbf577aa8dbb8504.png" width="15" alt=""> icon.
 
 2. Click the **Channelclusterprojectlist** tab.
 
@@ -4382,7 +4382,7 @@ The replication service allows you to configure base_config, infoBetweenClusters
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -4436,7 +4436,7 @@ O&M features of MaxCompute clusters:
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -4462,15 +4462,15 @@ In the Quick Login section, you can quickly log in to the hosts of  `pangu maste
 
 1. In the **Quick Login** list of the **Overview** tab, click the name of a host in the **Host** column to go to the **Host O & M** tab.
 
-2. In the left-side host list, find the host to which you want to log in and click the <img src="assets/3e767f87e4c13acb42609c444b048241.png" width="16" alt=""> icon next
+2. In the left-side host list, find the host to which you want to log in and click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/3e767f87e4c13acb42609c444b048241.png" width="16" alt=""> icon next
 
    to the hostname to go to the **TerminalService** page.
 
-   ![](assets/71ff6bf8545c7c5652bc6dde30a92339.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/71ff6bf8545c7c5652bc6dde30a92339.jpeg)
 
 3. In the left-side navigation pane, click the hostname to log in to the host.
 
-   ![](assets/6fd265775fadcf1193b0b74f9dcaba37.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/6fd265775fadcf1193b0b74f9dcaba37.png)
 
 **Machine Status**
 
@@ -4484,19 +4484,19 @@ In the Service Status section, all services deployed in the cluster are displaye
 
 This chart shows the trend lines of the total CPU utilization (cpu), CPU utilization for executing code in kernel space (sys), and CPU utilization for executing code in user space (user). The trend lines are displayed in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the CPU utilization of the cluster within the specified time period.
 
-![](assets/8232d817eff29503ef71f11dc227e8b2.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/8232d817eff29503ef71f11dc227e8b2.png)
 
 **DISK**
 
 The DISK chart shows the trend line of the storage usage of the cluster over time.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/e4f98607095f1f36965c8946e54fc153.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/e4f98607095f1f36965c8946e54fc153.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the storage usage of the cluster within the specified time period.
 
@@ -4504,9 +4504,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The LOAD chart shows the trend lines of the average loads for every 1 minute, every 5 minutes, and every 15 minutes over time. The trend lines are displayed in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/95452350b0dfa5903f63d19587e6ed4e.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/95452350b0dfa5903f63d19587e6ed4e.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the average loads for every 1 minute, every 5 minutes, and every 15 minutes within the specified time period.
 
@@ -4514,9 +4514,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The MEMORY chart shows the trend lines of the memory usage, total memory capacity, used memory, memory used by buffers, memory used by the page cache, and available memory over time. The trend lines are displayed in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/5d59b1dc179245f5fe790f91ac26f2f8.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/5d59b1dc179245f5fe790f91ac26f2f8.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the memory usage of the cluster within the specified time period.
 
@@ -4524,9 +4524,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The PACKAGE chart shows the trend lines of the numbers of dropped packets, error packets, received packets, and sent packets over time. The trend lines are displayed in different colors. These trend lines reflect the data transmission status of the cluster.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/27b14ec1874627939b825497701c2d3e.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/27b14ec1874627939b825497701c2d3e.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the data transmission status of the cluster within the specified time period.
 
@@ -4534,7 +4534,7 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 In the Running Health section, the number of check items for the cluster and the numbers of CRITICAL, WARNING, and EXCEPTION alerts are displayed.
 
-![](assets/a2a12f70d94e2e361d59c6e6209d7479.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/a2a12f70d94e2e361d59c6e6209d7479.png)
 
 Click **View Details** to go to the Health tab. On the Health tab, you can view the details of health checks. For more information, see Manage cluster health checks.
 
@@ -4564,7 +4564,7 @@ On the Health tab, all check items and check results of a cluster are displayed.
 
 2. Click **Show More** to view more information about the check item.
 
-   ![](assets/5e624fc234b3c724341df74461e87e0e.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/5e624fc234b3c724341df74461e87e0e.png)
 
    You can view more information in the **Script**, **Target (TianJi)**, **Default Threshold**, and **Custom Threshold** sections.
 
@@ -4572,13 +4572,13 @@ On the Health tab, all check items and check results of a cluster are displayed.
 
 You can view the check history and check results of a check item on a host.
 
-1. On the **Health** tab, click the <img src="assets/05d785be78e9c8bc5a9c5e81ce3beeb6.png" width="16" alt=""> icon to the left of a check item to show all alerts that are
+1. On the **Health** tab, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/05d785be78e9c8bc5a9c5e81ce3beeb6.png" width="16" alt=""> icon to the left of a check item to show all alerts that are
 
    triggered by the check item. You can view all hosts on which the check item is run.
 
 2. Click a hostname in the **Host** column. In the panel that appears, click **Details** in the Actions column of a check result to view the cause.
 
-   ![](assets/4c6f81fa18785f4cb37371185261ead5.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4c6f81fa18785f4cb37371185261ead5.png)
 
 **Handle alerts**
 
@@ -4632,7 +4632,7 @@ You can use this method to scale out or scale in MaxCompute clusters in the ABM 
 
 2. Run the  `r ttrl`  command to query and record  `SInstance`  hosts.
 
-   ![](assets/05409e68944c3beb71c4fad4cf396c2d.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/05409e68944c3beb71c4fad4cf396c2d.png)
 
 **Scale out a MaxCompute cluster**
 
@@ -4644,7 +4644,7 @@ You can add multiple hosts to a MaxCompute cluster at a time to scale out the cl
 
 3. Then, choose **Actions > Node expansion**. In the **Node expansion** panel, configure the parameters.
 
-   ![](assets/2823e3d2898f8a03944242d18a15a0bc.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/2823e3d2898f8a03944242d18a15a0bc.png)
 
    Parameters:
 
@@ -4666,7 +4666,7 @@ You can remove multiple hosts from a MaxCompute cluster at a time to scale in th
 
 3. Then, choose **Actions > Node shrinkage**. In the **Node shrinkage** panel, configure the parameters.
 
-   ![](assets/230b85b74fbbceecc3188343c23f4df8.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/230b85b74fbbceecc3188343c23f4df8.png)
 
    Parameters:
 
@@ -4716,7 +4716,7 @@ This topic describes the O&M features for the host service and how to go to the 
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -4748,9 +4748,9 @@ In the Machine Service Role Status section, the information about the services t
 
 The CPU chart shows the trend lines of the total CPU utilization, CPU utilization for running code in kernel space, and CPU utilization for running code in user space for the host over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/8232d817eff29503ef71f11dc227e8b2.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/8232d817eff29503ef71f11dc227e8b2.png)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the CPU utilization of the host in the specified period.
 
@@ -4758,9 +4758,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The DISK chart shows the trend lines of the storage usage in the/ directory for the host over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/18b091518418ffd82d1528a5f697ea3a.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/18b091518418ffd82d1528a5f697ea3a.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the storage usage of the host in the specified period.
 
@@ -4768,9 +4768,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The LOAD chart shows the trend lines of the average loads for every 1 minute, every 5 minutes, and every 15 minutes for the host over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/95452350b0dfa5903f63d19587e6ed4e.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/95452350b0dfa5903f63d19587e6ed4e.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the average loads for every 1 minute, every 5 minutes, and every 15 minutes for the host in the specified period.
 
@@ -4778,9 +4778,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The MEMORY chart shows the trend lines of the memory usage, total memory size, used memory size, size of memory used by buffers, size of memory used by the page cache, and available memory size for the host over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/4eef80d95bfa543575d63f8e3673e1a1.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4eef80d95bfa543575d63f8e3673e1a1.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the memory usage of the host in the specified period.
 
@@ -4788,9 +4788,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The PACKAGE chart shows the trend lines of the numbers of dropped packets, error packets, received packets, and sent packets for the host over time in different colors. These trend lines reflect the data transmission status of the host.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/27b14ec1874627939b825497701c2d3e.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/27b14ec1874627939b825497701c2d3e.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the data transmission status of the host in the specified period.
 
@@ -4844,7 +4844,7 @@ MaxCompute allows you to run jobs to perform O&M operations on services. Jobs, a
 
 **Job Execution page**
 
-![](assets/d685650557fc087bd8333826a148f6ca.png)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/d685650557fc087bd8333826a148f6ca.png)
 
 The **Job Execution** page contains the following tabs:
 
@@ -4882,7 +4882,7 @@ An Apsara Big Data Manager (ABM) administrator account is obtained.
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -4916,7 +4916,7 @@ An Apsara Big Data Manager (ABM) administrator account is obtained.
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -4972,7 +4972,7 @@ This topic describes how to view the execution history of a regular job. You can
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -5226,7 +5226,7 @@ Your Apsara Big Data Manager (ABM) account is granted the required permissions o
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -5296,7 +5296,7 @@ Both scheduling and monitoring checkers are built-in checkers. You cannot add sc
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -5316,7 +5316,7 @@ The mount points of scheduling checkers are built-in, and you cannot add, modify
    >
    > The details of the scheduling checker include the name, alias, description, and steps of the checker.
 
-3. On the Scheduling tab, find the scheduling checker that you want to view and click the <img src="assets/85d397c16e324881cacce9a2056c37f5.png" width="15" alt="">
+3. On the Scheduling tab, find the scheduling checker that you want to view and click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/85d397c16e324881cacce9a2056c37f5.png" width="15" alt="">
 
    icon on the left to view the mount points of the scheduling checker.
 
@@ -5372,7 +5372,7 @@ You can add mount points for monitoring checkers in order to collect raw alert d
 
 3. On the Monitoring tab, find the monitoring checker that you want to manage and click the
 
-   <img src="assets/a7b4c4464dd871c78c06e58000d032b1.png" width="20" alt=""> icon on the left to view the mount points of the monitoring checker.
+   <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/a7b4c4464dd871c78c06e58000d032b1.png" width="20" alt=""> icon on the left to view the mount points of the monitoring checker.
 
 4. Click **Add Mount Point** below the mount point list. In the dialog box that appears, configure the parameters.
 
@@ -5392,7 +5392,7 @@ You can add mount points for monitoring checkers in order to collect raw alert d
 
 2. Click the **Monitoring** tab.
 
-3. On the Monitoring tab, find the monitoring item that you want to manage and click the <img src="assets/a7b4c4464dd871c78c06e58000d032b1.png" width="15" alt="">
+3. On the Monitoring tab, find the monitoring item that you want to manage and click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/a7b4c4464dd871c78c06e58000d032b1.png" width="15" alt="">
 
    icon on the left to view the mount points of the monitoring checker.
 
@@ -5422,7 +5422,7 @@ Your ABM account is granted the required permissions on services on which you wa
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -5444,7 +5444,7 @@ Your ABM account is granted the required permissions on services on which you wa
 
 2. In the **Create Patrol Item** panel, configure the parameters.
 
-   ![](assets/91d6238513c7b057eae398a4e06eb406.png)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/91d6238513c7b057eae398a4e06eb406.png)
 
 3. Click **Submit**.
 
@@ -5456,7 +5456,7 @@ Your ABM account is granted the required permissions on services on which you wa
 
 2. In the **Create Scene** panel, configure the parameters.
 
-   ![](assets/eae509342cc886a945522525663db212.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/eae509342cc886a945522525663db212.jpeg)
 
 3. Click **Submit**.
 
@@ -5478,7 +5478,7 @@ Your Apsara Big Data Manager (ABM) account is granted the required permissions o
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -5555,7 +5555,7 @@ You can perform the following operations to check the health status of a MaxComp
 
 1. Log in to the Apsara Big Data Manager (ABM) console.
 
-2. In the upper-left corner, click the <img src="assets/3b06c5d126fd25be80417d8718c80d1a.jpeg" width="13" alt=""> icon.
+2. In the upper-left corner, click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/3b06c5d126fd25be80417d8718c80d1a.jpeg" width="13" alt=""> icon.
 
 3. In the **Site Navigation** section, click **TIANJI**.
 
@@ -5573,7 +5573,7 @@ You can perform the following operations to check the health status of a MaxComp
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -5593,7 +5593,7 @@ You can perform the following operations to check the health status of a MaxComp
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -5609,7 +5609,7 @@ You can perform the following operations to check the health status of a MaxComp
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -5629,7 +5629,7 @@ You can perform the following operations to check the health status of a MaxComp
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -5690,7 +5690,7 @@ You can perform the following operations to check the health status of a MaxComp
 
 2. After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
+   can click the <img src="en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and then choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -5754,7 +5754,7 @@ You can perform the following operations to check the health status of a MaxComp
 
    Check whether the returned results are consistent with the information that is marked in the following figure. If the returned results are inconsistent with the information in the following figure, run the  `sh /apsara/meta/daliyrun.sh`  command as the admin user to restart MaxCompute AG and check the logs again. If the issue persists, submit a ticket for technical support.
 
-   ![](assets/cda2d8687227cb63546c80cb73f4ae80.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/cda2d8687227cb63546c80cb73f4ae80.jpeg)
 
 <a id="section-5-3"></a>
 
@@ -5812,7 +5812,7 @@ This topic describes how to log in to MaxCompute AG.
 
 3. Log in to the Apsara Uni-manager Operations Console. In the top navigation bar, choose **Platform Operation > Apsara Infrastructure Management > Resource Management**. In the left-side navigation pane, choose **Resource Management** > **Machines**. Then, complete the steps in the following figure.
 
-   ![](assets/305c94a3fd4d8fe8ae261440b260c920.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/305c94a3fd4d8fe8ae261440b260c920.jpeg)
 
 <a id="section-6"></a>
 
@@ -5846,7 +5846,7 @@ The available storage resources in a MaxCompute cluster are limited and can be c
 
     Figure 1: Storage capacity of a cluster
 
-    ![](assets/5b4de93f8c460eb64bd9e25750d0aebe.jpeg)
+    ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/5b4de93f8c460eb64bd9e25750d0aebe.jpeg)
 
     > **Note**
     >
@@ -5873,7 +5873,7 @@ The available storage resources in a MaxCompute cluster are limited and can be c
 
     Figure 2: Storage usage of a project
 
-    ![](assets/40cc6a2bd14df0077d4fa804fde17cea.jpeg)
+    ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/40cc6a2bd14df0077d4fa804fde17cea.jpeg)
 
     > **Note**
     >
@@ -5917,7 +5917,7 @@ The available storage resources in a MaxCompute cluster are limited and can be c
 
     Figure 3: Total number of files stored in a MaxCompute cluster
 
-    ![](assets/69efac8ba97eb5bd2931ac68be4805b9.jpeg)
+    ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/69efac8ba97eb5bd2931ac68be4805b9.jpeg)
 
   - Run the following command on Cluster AG to query the total number of files that are stored in a project of a MaxCompute cluster. In this example, the adsmr project is queried.
 
@@ -5927,7 +5927,7 @@ The available storage resources in a MaxCompute cluster are limited and can be c
 
     Figure 4: Total number of files that are stored in a project of a MaxCompute cluster
 
-    ![](assets/7589690241fb52685c940111e833c399.jpeg)
+    ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/7589690241fb52685c940111e833c399.jpeg)
 
     > **Note**
     >
@@ -5949,7 +5949,7 @@ Query computing resources
 
   Figure 5: Computing resources of a cluster
 
-  ![](assets/1bdce1d82dc1a1e485b1b78acd3b2dad.jpeg)
+  ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/1bdce1d82dc1a1e485b1b78acd3b2dad.jpeg)
 
   > **Note**
   >
@@ -5959,7 +5959,7 @@ Query computing resources
 
   Figure 6: Remaining computing resources of a cluster
 
-  ![](assets/039e1106c277a5c8b52da50d5d56ef1c.jpeg)
+  ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/039e1106c277a5c8b52da50d5d56ef1c.jpeg)
 
   > **Note**
   >
@@ -5969,7 +5969,7 @@ Query computing resources
 
   Figure 7: Resources used by running tasks
 
-  ![](assets/ff49a2cce49d44cfaa04c949a0e5b0cf.jpeg)
+  ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/ff49a2cce49d44cfaa04c949a0e5b0cf.jpeg)
 
   > **Note**
   >
@@ -5985,7 +5985,7 @@ If the following error messages are returned, the occupied storage space or the 
 
 Figure 8: Error messages
 
-![](assets/eb34586412c5ac920b86f64f60a00db9.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/eb34586412c5ac920b86f64f60a00db9.jpeg)
 
 > **Important**
 >
@@ -6029,7 +6029,7 @@ Computing resource allocation means planning quota groups.
 
   Figure 9: Tasks waiting for resources
 
-  ![](assets/787d1fcf04fae2f058c5415d1c10edc5.jpeg)
+  ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/787d1fcf04fae2f058c5415d1c10edc5.jpeg)
 
   In this case, you can check the quota usage. The quota group is allocated 50 CPU cores and all allocated CPU cores are used. The tasks of projects that belong to the quota group must wait until the quota is available. The remaining resources of the cluster cannot be used by these tasks.
 
@@ -6075,7 +6075,7 @@ MaxCompute supports IPv4 by default. To use the IPv4/IPv6 dual stack feature, co
 
 The job does not progress as expected.
 
-![](assets/871d3bb42e811d3b8049ae0dd62948c2.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/871d3bb42e811d3b8049ae0dd62948c2.jpeg)
 
 **Cause**
 
@@ -6087,7 +6087,7 @@ Typically, the job runs out of resources. You can use LogView to determine the s
 
 The task instances in the Ready state shown in the following figure indicate that there are insufficient resources to run these tasks. After an instance obtains the required resources, its status changes to **Running**.
 
-![](assets/22ec29523cc8a1e7752e6a7dbbc2a4f7.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/22ec29523cc8a1e7752e6a7dbbc2a4f7.jpeg)
 
 **Solution**
 
@@ -6119,7 +6119,7 @@ Symptom: The MaxCompute job execution progress has remained at 99% for a long pe
 
    Analyze the job summary in LogView, and calculate the difference between the max and avg values of input and output records of a slow task. If the max and avg values differ by several orders of magnitude, it can be determined that the job data is skewed.
 
-   ![](assets/8b3bb91b0fc02ab8fc0f615ae0d00f48.jpeg)
+   ![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/8b3bb91b0fc02ab8fc0f615ae0d00f48.jpeg)
 
 **Solution**
 
@@ -6522,6 +6522,6 @@ cpt=true/false
 
 Launch the MaxCompute console as a project owner and run the  `desc project <project_name>-extended;`  command to view the following information.
 
-![](assets/571779587dec5f9e1e5230bae9f0e7c5.jpeg)
+![](en-maxcompute-operations-guide-v3.18.6-2607-20260827.assets/571779587dec5f9e1e5230bae9f0e7c5.jpeg)
 
 The preceding figure shows the capacity-related storage information of the project. The relationship between the physical and logical values of the related metrics is: Physical value of a metric = Logical value of the metric x Number of replicas.

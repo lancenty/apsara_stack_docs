@@ -92,7 +92,7 @@ ApsaraMQ for RocketMQ provides components that are responsible for service disco
 
 Figure 1. System architecture
 
-![](assets/0aad634b8177d5850d937c80daed3415.png)
+![](en-mq-operations-guide-v3.18.6-2607-20260831.assets/0aad634b8177d5850d937c80daed3415.png)
 
 ApsaraMQ for RocketMQ consists of the following components:
 
@@ -276,7 +276,7 @@ This topic describes how to log in to the RocketMQ Operations Console.
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-mq-operations-guide-v3.18.6-2607-20260831.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -470,7 +470,7 @@ If a broker's state machine becomes abnormal, you can use the status repair feat
 >
 > In the **Status Repair Topology** section, you can view the broker's lifecycle state machine in real time.
 
-![](assets/f9bb851287b9e15a4ceba26f59c24530.jpeg)
+![](en-mq-operations-guide-v3.18.6-2607-20260831.assets/f9bb851287b9e15a4ceba26f59c24530.jpeg)
 
 <a id="section-2-4"></a>
 
@@ -879,7 +879,7 @@ Capacity analysis is designed to provide an intuitive and comprehensive visualiz
 
    - **Save time trend**: displays the trend chart of the retention period of messages on the broker. The default message retention period is 72 hours.
 
-   ![](assets/fcc91d90f1c06b3ea98570b3992fbf36.png)
+   ![](en-mq-operations-guide-v3.18.6-2607-20260831.assets/fcc91d90f1c06b3ea98570b3992fbf36.png)
 
 <a id="section-2-6-5"></a>
 
@@ -2009,7 +2009,7 @@ After the instance throttling feature is enabled, ApsaraMQ for RocketMQ stops re
 
 3. Find **rocketmq** in the search results and click **Switch List** in the **Actions** column.
 
-   ![](assets/4b9a125418d6edd49854dbc2ca88f8e3.png)
+   ![](en-mq-operations-guide-v3.18.6-2607-20260831.assets/4b9a125418d6edd49854dbc2ca88f8e3.png)
 
 4. On the **rocketmq Switches** page, enter
 

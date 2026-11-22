@@ -42,7 +42,7 @@ This topic describes how to log on to the Apsara Infrastructure Management conso
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-server-guard-operations-guide-v3.18.3-20250613.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >

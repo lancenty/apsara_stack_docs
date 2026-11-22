@@ -162,7 +162,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-dns-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -172,7 +172,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 7. Click the operation that you want to call. Obtain the endpoint from the Endpoint parameter on the Parameter tab.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-dns-developer-guide-v3.18.6-2607-20260828.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 <a id="section-1-2"></a>
 
@@ -211,7 +211,7 @@ To obtain the AccessKey pair of a personal account, perform the following operat
 
 3. In the **Apsara Stack AccessKey Pair** section, view your AccessKey pair.
 
-   ![](assets/658f849d6e05bdae38a9f1167f90827b.png)
+   ![](en-dns-developer-guide-v3.18.6-2607-20260828.assets/658f849d6e05bdae38a9f1167f90827b.png)
 
    > **Note**
    >
@@ -269,7 +269,7 @@ You must call a specific API operation to obtain the organization ID. You can ob
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button and select **Cloud Platform** > **Unified Cloud Management**
+4. Click the <img src="en-dns-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button and select **Cloud Platform** > **Unified Cloud Management**
 
    **Platform**. For **Version**, select **2019-05-10**.
 
@@ -285,7 +285,7 @@ You must call a specific API operation to obtain the resource set ID. You can ob
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button and select **Cloud Platform** > **Unified Cloud Management**
+4. Click the <img src="en-dns-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button and select **Cloud Platform** > **Unified Cloud Management**
 
    **Platform**. For **Version**, select **2019-05-10**.
 
@@ -464,7 +464,7 @@ To enable you to call API operations in the same way as that in Alibaba Cloud pu
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-dns-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -474,7 +474,7 @@ To enable you to call API operations in the same way as that in Alibaba Cloud pu
 
 7. Click the operation that you want to call. Obtain the endpoint from the Endpoint parameter on the Parameter tab.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-dns-developer-guide-v3.18.6-2607-20260828.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 **Obtain an endpoint in Apsara Infrastructure Management**
 
@@ -492,7 +492,7 @@ You can also obtain service endpoints by yourself. In this example, API Gateway 
 
 5. Enter  `apigateway`  in the Service Registration field and click **Search**.
 
-6. In the **Service Registration** column of the  `apigateway`  service, click the <img src="assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
+6. In the **Service Registration** column of the  `apigateway`  service, click the <img src="en-dns-developer-guide-v3.18.6-2607-20260828.assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
 
 7. Click the text information in the **Service Registration** column of the  `apigateway`  service. In the **Registration Variables** message, obtain the endpoint from the value of apigateway.openapi.endpoint.
 
@@ -1120,7 +1120,7 @@ To obtain the AccessKey pair of a personal account, perform the following operat
 
 3. In the **Apsara Stack AccessKey Pair** section, view your AccessKey pair.
 
-   ![](assets/658f849d6e05bdae38a9f1167f90827b.png)
+   ![](en-dns-developer-guide-v3.18.6-2607-20260828.assets/658f849d6e05bdae38a9f1167f90827b.png)
 
    > **Note**
    >
@@ -1162,15 +1162,15 @@ To obtain the AccessKey pair of an organization, perform the following operation
 
 3. On the **Cluster Operations** page, select dnsProduct from the **Project** drop-down list.
 
-   ![](assets/6d6c49f8dce2a37be283fcf9d8508c3a.png)
+   ![](en-dns-developer-guide-v3.18.6-2607-20260828.assets/6d6c49f8dce2a37be283fcf9d8508c3a.png)
 
 4. In the Service Instances section, click **Details** in the Actions column corresponding to dnsService.
 
-   ![](assets/6b70a4d1be1afbd864eaecd1eed1b098.png)
+   ![](en-dns-developer-guide-v3.18.6-2607-20260828.assets/6b70a4d1be1afbd864eaecd1eed1b098.png)
 
 5. In the Machine Information section, click **Terminal** in the Actions column corresponding to a server to go to the console.
 
-   ![](assets/fa2fd19de56da2bdbbcde8651aef1ddc.png)
+   ![](en-dns-developer-guide-v3.18.6-2607-20260828.assets/fa2fd19de56da2bdbbcde8651aef1ddc.png)
 
 6. Run the  `sudo docker ps -l`  command to obtain the ID of the current container.
 

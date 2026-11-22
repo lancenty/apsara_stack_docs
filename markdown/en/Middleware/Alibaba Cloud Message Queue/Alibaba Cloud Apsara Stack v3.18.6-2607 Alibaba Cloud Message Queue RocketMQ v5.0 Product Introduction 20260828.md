@@ -46,7 +46,7 @@ Cloud Message Queue is based on the classic message queue model. It provides an 
 
 - **Queues:** A temporary storage area for messages. In a point-to-point model, each message can be received by only one consumer. In a publish/subscribe pattern, a message is distributed to one or more subscribers.
 
-![](assets/7158f0542271af7569f6a7465c3fed58.jpeg)
+![](en-mq-rocketmq-5-0-product-introduction-v3.18.6-2607-20260828.assets/7158f0542271af7569f6a7465c3fed58.jpeg)
 
 The general workflow of Cloud Message Queue is as follows:
 
@@ -326,7 +326,7 @@ was first used in the core systems for Alibaba's Double 11 sales event. It is no
 
 decouples upstream services from downstream systems. This shortens the service invocation path. Asynchronous systems have faster response times, support loose coupling between upstream and downstream components, and increase developer efficiency.
 
-![](assets/2a108a06446a94504ec22c095def47a6.jpeg)
+![](en-mq-rocketmq-5-0-product-introduction-v3.18.6-2607-20260828.assets/2a108a06446a94504ec22c095def47a6.jpeg)
 
 **Improve stability with peak-load shifting**
 
@@ -334,7 +334,7 @@ Traditional middleware only provides asynchronous processing. was designed for o
 
 To provide peak-load shifting, middleware needs to support massive message accumulation and manage traffic with mixed hot and cold messages. can accumulate hundreds of millions of messages. It handles traffic spikes during events such as major sales promotions. This ensures downstream services operate smoothly and stably within safe limits.
 
-![](assets/ee6ef63919959b73b130bd80e2a07d16.jpeg)
+![](en-mq-rocketmq-5-0-product-introduction-v3.18.6-2607-20260828.assets/ee6ef63919959b73b130bd80e2a07d16.jpeg)
 
 **Distributed transactions**
 
@@ -342,7 +342,7 @@ In traditional transaction processing, interactions between multiple systems are
 
 Figure 1. Distributed transaction scenario
 
-![](assets/22aaf5ad9f7a989ee687d1eb5728e3ff.jpeg)
+![](en-mq-rocketmq-5-0-product-introduction-v3.18.6-2607-20260828.assets/22aaf5ad9f7a989ee687d1eb5728e3ff.jpeg)
 
 **Real-time computing**
 
@@ -350,7 +350,7 @@ streams continuously generated source data to a compute engine for real-time com
 
 Figure 2. Real-time computing scenario
 
-![](assets/e8f39489bef12ae71bea480287438b76.jpeg)
+![](en-mq-rocketmq-5-0-product-introduction-v3.18.6-2607-20260828.assets/e8f39489bef12ae71bea480287438b76.jpeg)
 
 **IoT applications**
 
@@ -358,7 +358,7 @@ IoT devices connect to the cloud through a micro message queue for bidirectional
 
 Figure 3. IoT application scenario
 
-![](assets/bdeb8f254f682a0f0e973561e4b916ba.jpeg)
+![](en-mq-rocketmq-5-0-product-introduction-v3.18.6-2607-20260828.assets/bdeb8f254f682a0f0e973561e4b916ba.jpeg)
 
 **Large-scale cache synchronization**
 
@@ -368,7 +368,7 @@ reduces page response times through large-scale cache synchronization. This appr
 
 Figure 4. Large-scale cache synchronization scenario
 
-![](assets/6733eeee7c2e32bb4ca3a742919758dd.jpeg)
+![](en-mq-rocketmq-5-0-product-introduction-v3.18.6-2607-20260828.assets/6733eeee7c2e32bb4ca3a742919758dd.jpeg)
 
 <a id="section-6"></a>
 

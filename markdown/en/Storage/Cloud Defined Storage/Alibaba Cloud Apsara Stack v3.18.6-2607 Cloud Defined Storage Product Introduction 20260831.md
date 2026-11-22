@@ -36,7 +36,7 @@ Cloud Defined Storage (CDS) is a distributed file system provided by Alibaba Clo
 
 The following figure shows the product architecture.
 
-![](assets/b06a8dd37eccc5a2c014331642bde266.jpeg)
+![](en-cds-product-introduction-v3.18.6-2607-20260831.assets/b06a8dd37eccc5a2c014331642bde266.jpeg)
 
 You can deploy services such as OSS and Simple Log Service in storage clusters of CDS. The features supported by a storage cluster vary based on the service that you deployed in the cluster. The following table describes the differences among different storage services.
 

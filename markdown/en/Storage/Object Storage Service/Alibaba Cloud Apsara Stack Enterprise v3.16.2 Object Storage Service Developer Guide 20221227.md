@@ -731,7 +731,7 @@ The following figure uses an application as an example to show the authorization
 
 Authorization process
 
-![](assets/c94bb487efde044c2834d575a9379d43.jpeg)
+![](en-oss-developer-guide-v3.16.2-20221227.assets/c94bb487efde044c2834d575a9379d43.jpeg)
 
 Detailed solution description:
 
@@ -5964,7 +5964,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the AccessKey Pair section, view the AccessKey pair of your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-oss-developer-guide-v3.16.2-20221227.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    Note
 
@@ -6229,7 +6229,7 @@ This topic describes the architecture and features of the Apsara Stack API (ASAP
 
 The ASAPI is a unified ingress gateway for Apsara Stack services and a main component of the Apsara Uni-manager Management Console. The ASAPI provides a unified method for you to manage and make API calls. You can use Apsara Stack SDK to centrally make API calls to Apsara Stack services, including Elastic Compute Service (ECS) and Virtual Private Cloud (VPC).
 
-![](assets/360c9a3d94ed291bc0dbdcd317e5e3fb.png)
+![](en-oss-developer-guide-v3.16.2-20221227.assets/360c9a3d94ed291bc0dbdcd317e5e3fb.png)
 
 The ASAPI allows you to make API calls to manage and maintain Apsara Stack services.
 
@@ -6261,7 +6261,7 @@ Procedure
 
 1. In the address bar, enter the URL *region-id*.aso.*intranet-domain-id*.com and press the Enter key.
 
-   ![](assets/1d199664f4e4f7e96da3a99ea00fb57d.png)
+   ![](en-oss-developer-guide-v3.16.2-20221227.assets/1d199664f4e4f7e96da3a99ea00fb57d.png)
 
    Note
 
@@ -6293,21 +6293,21 @@ Procedure
 
 6. On the All Reports page, search for Registration Vars of Services. Click Registration Vars of Services.
 
-   ![](assets/afa9fce3f03d0637ec69606c2f782c74.png)
+   ![](en-oss-developer-guide-v3.16.2-20221227.assets/afa9fce3f03d0637ec69606c2f782c74.png)
 
-   <img src="assets/7a4bccd9e5cbd88e70cb3f42d7a2b5fc.png" width="16" alt="">
+   <img src="en-oss-developer-guide-v3.16.2-20221227.assets/7a4bccd9e5cbd88e70cb3f42d7a2b5fc.png" width="16" alt="">
 
 7. On the Registration Vars of Services page, click the
 
    icon next to Service. In the dialog box that appears, search for asapi.
 
-   ![](assets/226fef60473abbec5ae194a47fb116db.png)
+   ![](en-oss-developer-guide-v3.16.2-20221227.assets/226fef60473abbec5ae194a47fb116db.png)
 
 8. Right-click the Service Registration column that corresponds to asapi and select Show More from the shortcut menu.
 
 9. In the Details dialog box, view the value of asapi.gateway.endpoint. The value is the endpoint of ASAPI.
 
-   ![](assets/ffe8c05bbb86e81b4a401cc8719cd1b8.png)
+   ![](en-oss-developer-guide-v3.16.2-20221227.assets/ffe8c05bbb86e81b4a401cc8719cd1b8.png)
 
 <a id="section-3-2-3"></a>
 
@@ -6385,7 +6385,7 @@ Procedure
 
    - Method 1: Create a Maven project in IntelliJ IDEA.
 
-     ![](assets/14faf10eea183c0260358aa4fb911757.jpeg)
+     ![](en-oss-developer-guide-v3.16.2-20221227.assets/14faf10eea183c0260358aa4fb911757.jpeg)
 
    - Method 2: Convert an existing project to a Maven project.
 
@@ -6395,7 +6395,7 @@ Procedure
 
      Right-click the project that you want to convert and select Add Framework Support....
 
-     ![](assets/3268ad4d90770f211721f81b1effa4b7.jpeg)
+     ![](en-oss-developer-guide-v3.16.2-20221227.assets/3268ad4d90770f211721f81b1effa4b7.jpeg)
 
      </li>
 
@@ -6403,7 +6403,7 @@ Procedure
 
      Select Maven and click OK.
 
-     ![](assets/8eab323d670c658f45fa455d7e09021f.jpeg)
+     ![](en-oss-developer-guide-v3.16.2-20221227.assets/8eab323d670c658f45fa455d7e09021f.jpeg)
 
      </li>
 
@@ -6411,7 +6411,7 @@ Procedure
 
 4. Create a folder named libs in the root directory of the project. Then, add the JAR file of Apsara Stack SDK for Java to the libs folder, as shown in the following figure.
 
-   ![](assets/203cd003ca87856d4dee50917fbca9b0.jpeg)
+   ![](en-oss-developer-guide-v3.16.2-20221227.assets/203cd003ca87856d4dee50917fbca9b0.jpeg)
 
 5. Add the dependencies of Apsara Stack SDK for Java to the pom.xml file in the project directory.
 
@@ -6453,7 +6453,7 @@ Procedure
 
    If the information in the following figure appears, the dependencies are added.
 
-   ![](assets/d29fee8186c5eb5aab80b7a92216f299.jpeg)
+   ![](en-oss-developer-guide-v3.16.2-20221227.assets/d29fee8186c5eb5aab80b7a92216f299.jpeg)
 
 Use OSS SDK for Java
 
@@ -11035,7 +11035,7 @@ Exception in thread "main" java.lang.NoSuchFieldError: INSTANCE
 
 Cause: A possible cause is that the OSS Java SDK uses Apache httpclient 4.4.1, whereas your project uses a version of Apache httpclient or commons-httpclient that conflicts with Apache httpclient 4.4.1. To view the JAR package and its version that is used in your project, run the  `mvn dependency:tree`  command in the directory of the project. The following figure shows that the project uses Apache HttpClient 4.3.
 
-![](assets/9a8d652591806bdb42ebfaa5497f7339.png)
+![](en-oss-developer-guide-v3.16.2-20221227.assets/9a8d652591806bdb42ebfaa5497f7339.png)
 
 Solution: Use one of the following methods to resolve JAR conflicts:
 
@@ -11045,7 +11045,7 @@ Solution: Use one of the following methods to resolve JAR conflicts:
 
 OSS SDK for Java is dependent on the following package versions. The solution to conflicts is similar to that for HttpClient.
 
-![](assets/394eec02debd357aabf4d4dd214f6d65.png)
+![](en-oss-developer-guide-v3.16.2-20221227.assets/394eec02debd357aabf4d4dd214f6d65.png)
 
 Missing packages
 
@@ -11171,7 +11171,7 @@ org.apache.http.NoHttpResponseException: The target server failed to respond
 
 If a similar exception is displayed when you run OSS SDK for Java:
 
-![](assets/b8a447799974113b4c396103afed5d19.jpeg)
+![](en-oss-developer-guide-v3.16.2-20221227.assets/b8a447799974113b4c396103afed5d19.jpeg)
 
 Cause: The preceding error may occur if expired connections are used. This error occurs only when a Java SDK version earlier than 2.1.2 is used.
 
@@ -11256,7 +11256,7 @@ Cause: Use the memory analysis tool to analyze the memory usage. We recommend th
 
 If the analysis result is similar to that shown in the following figure, PoolingHttpClientConnectionManager takes up 96% of memory. The cause is that the new OSSClient command is run multiple times while ossClient.shutdown is not called. As a result, memory leaks occur.
 
-![](assets/f3245c057f49cd7c15158d5f3f92fe96.png)
+![](en-oss-developer-guide-v3.16.2-20221227.assets/f3245c057f49cd7c15158d5f3f92fe96.png)
 
 Solution: You must ensure that ossClient.shutdown is called after you run the new OSSClient command.
 
@@ -27133,13 +27133,13 @@ Procedure
 
 5. On the Registration Vars of Services page, find the oss-server row. Right-click the Service Registration column and choose Show More from the shortcut menu.
 
-   ![](assets/b355d309d094522be81c2eedf4f58797.png)
+   ![](en-oss-developer-guide-v3.16.2-20221227.assets/b355d309d094522be81c2eedf4f58797.png)
 
 6. Click Formatted Value.
 
    The value of api-endpoint is the OSS endpoint.
 
-   ![](assets/4dc0fe8e3bd5bf764f87d7c17cbc0e31.png)
+   ![](en-oss-developer-guide-v3.16.2-20221227.assets/4dc0fe8e3bd5bf764f87d7c17cbc0e31.png)
 
 <a id="section-6"></a>
 
@@ -27201,7 +27201,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 5. In the Apsara Stack AccessKey Pair section, view your AccessKey pair.
 
-   ![](assets/1a25c90665319fc993e339c850a8a5f6.png)
+   ![](en-oss-developer-guide-v3.16.2-20221227.assets/1a25c90665319fc993e339c850a8a5f6.png)
 
    Note
 

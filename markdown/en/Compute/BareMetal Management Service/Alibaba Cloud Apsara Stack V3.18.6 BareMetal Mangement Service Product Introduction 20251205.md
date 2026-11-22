@@ -23,7 +23,7 @@ BMS implements management through the unified O&M interface of Apsara Stack. It 
 
 The following figure shows the architecture of BMS.
 
-![](assets/329040cc1556b1d13e5e9577c2abdc27.png)
+![](en-bare-metal-management-product-introduction-v3.18.6-20251205.assets/329040cc1556b1d13e5e9577c2abdc27.png)
 
 <a id="section-2"></a>
 

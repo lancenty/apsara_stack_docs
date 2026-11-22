@@ -37,7 +37,7 @@ This topic describes how to log in to AIOps.
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console and press Enter.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-aiops-user-guide-v3.18.6-2607-20260828.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -73,7 +73,7 @@ This topic describes how to log in to AIOps.
 
    - Method 1: In the top navigation bar, choose **Platform Operation > Management and Control Service O&M > AIOps**.
 
-   - Method 2: Click the floating button <img src="assets/c9ed599a61000b7b33795569d2f6868e.jpeg" width="21" alt=""> on the page.
+   - Method 2: Click the floating button <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/c9ed599a61000b7b33795569d2f6868e.jpeg" width="21" alt=""> on the page.
 
 <a id="section-2"></a>
 
@@ -89,7 +89,7 @@ This topic describes how to use the Intelligent Dialogue feature. You can ask qu
 
 3. Obtain the **Current to-do list**, including tasks of the high priority, medium priority, and low priority.
 
-   ![](assets/1c7d944c50c7f292fa0e479c4f925a82.jpeg)
+   ![](en-aiops-user-guide-v3.18.6-2607-20260828.assets/1c7d944c50c7f292fa0e479c4f925a82.jpeg)
 
 4. Click a to-do task to view the corresponding to-do list.
 
@@ -99,7 +99,7 @@ This topic describes how to use the Intelligent Dialogue feature. You can ask qu
 
 5. Enter your question in the chat box, press Shift + Enter to insert a line break, and then click
 
-   <img src="assets/39b26b12294ce732c578e87279df40de.png" width="14" alt=""> .
+   <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/39b26b12294ce732c578e87279df40de.png" width="14" alt=""> .
 
    > **Note**
    >
@@ -109,17 +109,17 @@ This topic describes how to use the Intelligent Dialogue feature. You can ask qu
 
 6. After Apsara AIOps returns the answer, perform the following operations:
 
-   <img src="assets/b84b9c09c860acb3e752840b975f1399.png" width="15" alt=""> : Click the like button to indicate that you approve of the answer.
+   <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/b84b9c09c860acb3e752840b975f1399.png" width="15" alt=""> : Click the like button to indicate that you approve of the answer.
 
-   <img src="assets/7ee5d9eb5403351fc1b33a50395b0744.png" width="18" alt=""> : Click the dislike button to indicate that you disapprove of the answer. Select a
+   <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/7ee5d9eb5403351fc1b33a50395b0744.png" width="18" alt=""> : Click the dislike button to indicate that you disapprove of the answer. Select a
 
    feedback option in the chat box and click **OK** to submit it.
 
-   <img src="assets/a93421a28d8d3e68cff196f6a23c9855.png" width="20" alt=""> : Copy the answer content.
+   <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/a93421a28d8d3e68cff196f6a23c9855.png" width="20" alt=""> : Copy the answer content.
 
-   <img src="assets/e1e6cce7b83ffb551b14c9138f4e49c7.png" width="18" alt=""> : Request the system to regenerate an answer.
+   <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/e1e6cce7b83ffb551b14c9138f4e49c7.png" width="18" alt=""> : Request the system to regenerate an answer.
 
-   <img src="assets/677272fcc6c3e3d14c19bf562838f083.png" width="14" alt=""> : Export the answer content in formats such as Markdown, PDF, DOCX, and WPS.
+   <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/677272fcc6c3e3d14c19bf562838f083.png" width="14" alt=""> : Export the answer content in formats such as Markdown, PDF, DOCX, and WPS.
 
    The system also generates relevant operations or descriptions based on your questions, and supports multi-turn conversations throughout the Q&A process.
 
@@ -131,7 +131,7 @@ This topic describes how to use the Intelligent Dialogue feature. You can ask qu
 
    - Click **Current to-do list** to view the tasks to be handled.
 
-   - Click <img src="assets/0b31a2b50d706faae2a912be2ef48f84.png" width="10" alt=""> to close the Apsara AIOps chat box.
+   - Click <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/0b31a2b50d706faae2a912be2ef48f84.png" width="10" alt=""> to close the Apsara AIOps chat box.
 
 **How to ask questions**
 
@@ -152,13 +152,13 @@ This topic describes the operations related to O&M Agent.
 
 1. Log in to Apsara AIOps.
 
-2. In the **Apsara AIOps** chat box, click <img src="assets/30ae7da5a2d93c9d40a25ec1f71cfdda.png" width="14" alt=""> to switch to O&M Agent.
+2. In the **Apsara AIOps** chat box, click <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/30ae7da5a2d93c9d40a25ec1f71cfdda.png" width="14" alt=""> to switch to O&M Agent.
 
-   You can also click <img src="assets/88c9c890af1b197279c1b80dfbe922b7.png" width="14" alt=""> and then switch to the O&M Agent from the left-side navigation pane
+   You can also click <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/88c9c890af1b197279c1b80dfbe922b7.png" width="14" alt=""> and then switch to the O&M Agent from the left-side navigation pane
 
    in the full-screen view.
 
-   ![](assets/281d9954a58bc1ae0acb1e22b1ca2d69.jpeg)
+   ![](en-aiops-user-guide-v3.18.6-2607-20260828.assets/281d9954a58bc1ae0acb1e22b1ca2d69.jpeg)
 
 3. View the following features provided by O&M Agent.
 
@@ -176,41 +176,41 @@ This topic describes the operations related to O&M Agent.
    | RocketMQ(Tianji)AiAs sistant | This assistant provides comprehensive intelligent monitoring and in-depth diagnosis services for RocketMQ clusters. By deeply integrating cluster topology awareness, real-time Broker status collection, multi-dimensional analysis of key performance metrics (such as TPS, message accumulation, disk usage, and primary/secondary synchronization latency), intelligent parsing of instance configurations, and resource usage statistics, it builds a complete health profile for RocketMQ clusters. The assistant supports automated cluster inspections that cover core dimensions including primary/secondary consistency, permission configurations, NameServer registration status, and message retention policies. Furthermore, it leverages an AI-driven diagnosis engine to accurately identify and locate root causes of potential performance bottlenecks, configuration risks, resource skew, and high availability (HA) risks. This helps O&amp;M personnel quickly focus on key issues amidst massive metrics and complex topologies, significantly improving fault response efficiency and system governance capabilities, and ensuring the high availability, stability, and maintainability of the RocketMQ middleware. |
    | RocketMQ(PaaS)AiAss istant | This assistant provides comprehensive intelligent monitoring and in-depth diagnosis services for RocketMQ (PaaS) clusters. By deeply integrating cluster topology awareness, real-time Broker status collection, multi-dimensional analysis of key performance metrics (such as TPS, message accumulation, disk usage, and primary/secondary synchronization latency), intelligent parsing of instance configurations, and resource usage statistics, it builds a complete health profile for RocketMQ (PaaS) clusters.The assistant supports automated cluster inspections that cover core dimensions including primary/secondary consistency, permission configurations, NameServer registration status, and message retention policies. Furthermore, it leverages an AI-driven diagnosis engine to accurately identify and locate root causes of potential performance bottlenecks, configuration risks, resource skew, and high availability (HA) risks. This helps O&amp;M personnel quickly focus on key issues amidst massive metrics and complex topologies, significantly improving fault response efficiency and system governance capabilities, and ensuring the high availability, stability, and maintainability of the RocketMQ (PaaS) middleware. |
 
-4. Select the target agent, enter your question, and click <img src="assets/39b26b12294ce732c578e87279df40de.png" width="14" alt=""> .
+4. Select the target agent, enter your question, and click <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/39b26b12294ce732c578e87279df40de.png" width="14" alt=""> .
 
-   ![](assets/3cb4dd47f2d4696e8eb041241cddfd6d.jpeg)
+   ![](en-aiops-user-guide-v3.18.6-2607-20260828.assets/3cb4dd47f2d4696e8eb041241cddfd6d.jpeg)
 
-   - New chat: Click <img src="assets/53d23b1ebca00c25a14af21608fb0ca6.png" width="15" alt=""> or **Create a Conversation** above the chat box to start a new
+   - New chat: Click <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/53d23b1ebca00c25a14af21608fb0ca6.png" width="15" alt=""> or **Create a Conversation** above the chat box to start a new
 
      conversation.
 
-   - Conversation history: Click <img src="assets/14cd2d2ce080abd983065847962aec2d.png" width="15" alt=""> or **Historical Dialogue** above the chat box to view
+   - Conversation history: Click <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/14cd2d2ce080abd983065847962aec2d.png" width="15" alt=""> or **Historical Dialogue** above the chat box to view
 
      conversation records from the last seven days.
 
-   - Full screen: Click <img src="assets/88c9c890af1b197279c1b80dfbe922b7.png" width="14" alt=""> above the chat box to display the chat box in full screen. In full-
+   - Full screen: Click <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/88c9c890af1b197279c1b80dfbe922b7.png" width="14" alt=""> above the chat box to display the chat box in full screen. In full-
 
      screen mode, you can switch to a different O&M agent from the left-side navigation pane.
 
-   - Exit full screen: In full-screen mode, click <img src="assets/7387d9850832092cff155c35c8c379e9.png" width="14" alt=""> above the chat box to exit.
+   - Exit full screen: In full-screen mode, click <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/7387d9850832092cff155c35c8c379e9.png" width="14" alt=""> above the chat box to exit.
 
-   - Close chat: Click <img src="assets/0b31a2b50d706faae2a912be2ef48f84.png" width="10" alt=""> above the chat box to close the O&M agent chat box.
+   - Close chat: Click <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/0b31a2b50d706faae2a912be2ef48f84.png" width="10" alt=""> above the chat box to close the O&M agent chat box.
 
-   - Switch agent: Click <img src="assets/30ae7da5a2d93c9d40a25ec1f71cfdda.png" width="14" alt=""> in the upper-left corner of the chat box to switch to O&M Agent.
+   - Switch agent: Click <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/30ae7da5a2d93c9d40a25ec1f71cfdda.png" width="14" alt=""> in the upper-left corner of the chat box to switch to O&M Agent.
 
 5. After the O&M agent returns a response, perform the following operations:
 
-   <img src="assets/b84b9c09c860acb3e752840b975f1399.png" width="15" alt=""> : Click the like button to indicate that you approve of the answer.
+   <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/b84b9c09c860acb3e752840b975f1399.png" width="15" alt=""> : Click the like button to indicate that you approve of the answer.
 
-   <img src="assets/7ee5d9eb5403351fc1b33a50395b0744.png" width="18" alt=""> : Click the dislike button to indicate that you disapprove of the answer. Select a
+   <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/7ee5d9eb5403351fc1b33a50395b0744.png" width="18" alt=""> : Click the dislike button to indicate that you disapprove of the answer. Select a
 
    feedback option in the chat box and click **OK** to submit it.
 
-   <img src="assets/a93421a28d8d3e68cff196f6a23c9855.png" width="20" alt=""> : Copy the answer content.
+   <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/a93421a28d8d3e68cff196f6a23c9855.png" width="20" alt=""> : Copy the answer content.
 
-   <img src="assets/e1e6cce7b83ffb551b14c9138f4e49c7.png" width="18" alt=""> : Request the system to regenerate an answer.
+   <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/e1e6cce7b83ffb551b14c9138f4e49c7.png" width="18" alt=""> : Request the system to regenerate an answer.
 
-   <img src="assets/677272fcc6c3e3d14c19bf562838f083.png" width="14" alt=""> : Export the answer content in formats such as Markdown, PDF, DOCX, and WPS.
+   <img src="en-aiops-user-guide-v3.18.6-2607-20260828.assets/677272fcc6c3e3d14c19bf562838f083.png" width="14" alt=""> : Export the answer content in formats such as Markdown, PDF, DOCX, and WPS.
 
    The system also generates relevant operations or descriptions based on your questions, and supports multi-turn conversations throughout the Q&A process.
 

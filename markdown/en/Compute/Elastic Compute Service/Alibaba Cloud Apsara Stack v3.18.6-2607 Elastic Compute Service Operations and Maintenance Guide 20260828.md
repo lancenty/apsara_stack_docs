@@ -168,7 +168,7 @@ This topic describes how to log on to the Apsara Uni-manager Operations Console.
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the Enter key.
 
-   ![](assets/eb3e0417a219f6f92d8066536b2ffd55.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/eb3e0417a219f6f92d8066536b2ffd55.jpeg)
 
    > **Note**
    >
@@ -276,7 +276,7 @@ This topic describes how to query and view information about all compute cluster
 
    <li>
 
-   In the upper-right corner of the page that appears, click the <img src="assets/81f57122ac16d9429d3f3e775a338379.png" width="25" alt=""> icon.
+   In the upper-right corner of the page that appears, click the <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/81f57122ac16d9429d3f3e775a338379.png" width="25" alt=""> icon.
 
    </li>
 
@@ -348,7 +348,7 @@ You can log in to the Admin Gateway (AG) of a cluster to go to the Terminal Serv
 
 3. In the left-side navigation pane, click **Compute Cluster O&M**. By default, the information of all clusters is displayed on the Compute Cluster O&M page.
 
-   ![](assets/eea688d5141d526318a3a44f87d20c28.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/eea688d5141d526318a3a44f87d20c28.jpeg)
 
 4. On the Compute Cluster O&M page, find the cluster that you want to manage and click **Connect to Cluster AG** in the **Operation** column.
 
@@ -356,7 +356,7 @@ You can log in to the Admin Gateway (AG) of a cluster to go to the Terminal Serv
 
 6. In the left-side navigation pane, click ***vmXXX***. In the dialog box that appears, select the server account to be used to log in to the AG. Then, you can perform O&M operations at the right-side CLI.
 
-   ![](assets/65ba0f7d6ea1033389e8effc0389d135.png)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/65ba0f7d6ea1033389e8effc0389d135.png)
 
    > **Note**
    >
@@ -384,7 +384,7 @@ In the Compute Operations Console, you can view the details of a compute cluster
 
    By default, the **Overview** tab of the **Computing Cluster Details** page is displayed.
 
-   ![](assets/eb48bd8ea41b18f31a21b4b74a2284fd.png)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/eb48bd8ea41b18f31a21b4b74a2284fd.png)
 
    > **Note**
    >
@@ -604,7 +604,7 @@ This topic describes how to view computing servers in a computing cluster and ho
 
    <li>
 
-   In the upper-right corner of the Computing Servers tab, click the <img src="assets/81f57122ac16d9429d3f3e775a338379.png" width="25" alt=""> icon.
+   In the upper-right corner of the Computing Servers tab, click the <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/81f57122ac16d9429d3f3e775a338379.png" width="25" alt=""> icon.
 
    </li>
 
@@ -750,7 +750,7 @@ This topic describes how to view computing servers and the details of each compu
 
    <li>
 
-   In the upper-right corner of the Computing Servers tab, click the <img src="assets/81f57122ac16d9429d3f3e775a338379.png" width="25" alt=""> icon.
+   In the upper-right corner of the Computing Servers tab, click the <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/81f57122ac16d9429d3f3e775a338379.png" width="25" alt=""> icon.
 
    </li>
 
@@ -776,7 +776,7 @@ This topic describes how to view computing servers and the details of each compu
 
 6. In the upper-left corner of the Computing Servers tab, enter an IP address, a hostname, or a
 
-   serial number in the search box and click the <img src="assets/4092f410f83ceeeeec142f317fd5ae02.png" width="16" alt=""> icon to search for a computing server.
+   serial number in the search box and click the <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/4092f410f83ceeeeec142f317fd5ae02.png" width="16" alt=""> icon to search for a computing server.
 
    You can also click **Advanced Filter** to specify filter conditions, such as a model, data center, and rack, and then click **Search**.
 
@@ -912,7 +912,7 @@ This topic describes how to diagnose a computing server and view the diagnostic 
 
 6. View the diagnostics information of the ECS instance or host.
 
-   ![](assets/ebc227fc1509ffe54bd852096572a18e.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/ebc227fc1509ffe54bd852096572a18e.jpeg)
 
    | Section | Content | Description |
    | --- | --- | --- |
@@ -959,7 +959,7 @@ Common scenarios in which physical machines are locked:
 
 5. In the **Lock NC** dialog box, confirm the physical machine and configure the **Lock Status**, **Operated By**, **Change Ticket Title**, and **Reason** parameters.
 
-   ![](assets/56b2b20ed03814b416409263a9a885e4.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/56b2b20ed03814b416409263a9a885e4.jpeg)
 
 6. Click **OK**.
 
@@ -987,13 +987,13 @@ You can unlock computing servers that are in the No Heartbeat, mlock, and rlock 
 
    icon in
 
-   <img src="assets/a4739bcbc751804f6d9d8d92879abf23.png" width="16" alt="">
+   <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/a4739bcbc751804f6d9d8d92879abf23.png" width="16" alt="">
 
    the **Operation** column, and then click **Unlock**.
 
 5. In the **Unlock NC** dialog box, confirm the **Machine** information and enter a **Reason** for the operation.
 
-   ![](assets/87212e59712aeaed588f9a39e39a8a73.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/87212e59712aeaed588f9a39e39a8a73.jpeg)
 
 6. Click **OK**.
 
@@ -1021,7 +1021,7 @@ You can activate computing servers that are in the mlock, rlock, no heartbeat, n
 
    By default, the **Computing Servers** tab of the Computing Server O&M page appears. On the Computing Servers tab, you can view the details of all computing servers.
 
-4. Find the computing server that you want to activate, move the pointer over the <img src="assets/2bfab4114a8f3034184811290617b452.png" width="27" alt=""> icon in
+4. Find the computing server that you want to activate, move the pointer over the <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/2bfab4114a8f3034184811290617b452.png" width="27" alt=""> icon in
 
    the **Operation** column, and then select **Activate**.
 
@@ -1075,7 +1075,7 @@ When you migrate all ECS instances from a computing server, take note of the fol
 
    icon in the **Operation** column, and then select **Migrate All**
 
-   <img src="assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="16" alt="">
+   <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="16" alt="">
 
    **Instances**.
 
@@ -1381,7 +1381,7 @@ Before you deactivate a physical machine for maintenance, take note of the follo
 
    **> Deactivate for Maintenance**.
 
-   <img src="assets/29b0f23c9fa3189d9720be4dcfa47cf6.png" width="20" alt="">
+   <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/29b0f23c9fa3189d9720be4dcfa47cf6.png" width="20" alt="">
 
    <ol type="i" start="3">
 
@@ -1543,7 +1543,7 @@ Only physical machines in compute clusters (CPU clusters and MOC clusters) are s
 
 5. In the dialog box that appears, configure the parameters described in the following table and click **OK**.
 
-   ![](assets/9123c079fd0db07155f83cc3ac6fed10.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/9123c079fd0db07155f83cc3ac6fed10.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -1747,7 +1747,7 @@ You can view the details of a dedicated resource pool, including the ID, name, s
 
    <li>
 
-   In the upper-right corner of the Dedicated Resource Pool O&M page, click the <img src="assets/81f57122ac16d9429d3f3e775a338379.png" width="25" alt=""> icon.
+   In the upper-right corner of the Dedicated Resource Pool O&M page, click the <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/81f57122ac16d9429d3f3e775a338379.png" width="25" alt=""> icon.
 
    </li>
 
@@ -1877,7 +1877,7 @@ After you change the administrator account ID for a dedicated resource pool, the
 
 4. On the Dedicated Resource Pool O&M page, find the dedicated resource pool that you want to manage and click its name or ID in the **Dedicated Resource Pool ID/Name** column.
 
-5. On the details page of the dedicated resource pool, click the <img src="assets/6f4ccc8bdfe588f49e4480d3c0f32dbf.png" width="18" alt=""> icon next to
+5. On the details page of the dedicated resource pool, click the <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/6f4ccc8bdfe588f49e4480d3c0f32dbf.png" width="18" alt=""> icon next to
 
    **Administrator Account ID**.
 
@@ -1901,7 +1901,7 @@ This topic describes how to modify the replacement policy for physical machines 
 
 4. On the Dedicated Resource Pool O&M page, find the dedicated resource pool that you want to manage and click its name or ID in the **Dedicated Resource Pool ID/Name** column.
 
-5. On the details page of the dedicated resource pool, click the <img src="assets/6f4ccc8bdfe588f49e4480d3c0f32dbf.png" width="18" alt=""> icon next to **On-failure**
+5. On the details page of the dedicated resource pool, click the <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/6f4ccc8bdfe588f49e4480d3c0f32dbf.png" width="18" alt=""> icon next to **On-failure**
 
    **Physical Machine Replacement Policy**.
 
@@ -2027,7 +2027,7 @@ This topic describes how to search for Elastic Compute Service (ECS) instances a
 
    <li>
 
-   In the upper-right corner of the Computing Servers tab, click the <img src="assets/81f57122ac16d9429d3f3e775a338379.png" width="25" alt=""> icon.
+   In the upper-right corner of the Computing Servers tab, click the <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/81f57122ac16d9429d3f3e775a338379.png" width="25" alt=""> icon.
 
    </li>
 
@@ -2130,7 +2130,7 @@ The instance to be started is in the **Pending**, **Stopped**, or **StartFailure
 
 3. In the left-side navigation pane, choose **ECS O&M > ECS Instances**.
 
-4. Find the instance that you want to manage, move the pointer over the <img src="assets/ea9f10203ec78a76d4c3f10a4134dfcd.png" width="16" alt=""> icon in the
+4. Find the instance that you want to manage, move the pointer over the <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/ea9f10203ec78a76d4c3f10a4134dfcd.png" width="16" alt=""> icon in the
 
    **Actions** column, and then select **Start Instance**.
 
@@ -2168,7 +2168,7 @@ The instance to be stopped is in the **Running** state.
 
    icon in the **Actions**
 
-   <img src="assets/ea9f10203ec78a76d4c3f10a4134dfcd.png" width="16" alt="">
+   <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/ea9f10203ec78a76d4c3f10a4134dfcd.png" width="16" alt="">
 
    column, and then select **Stop Instance**.
 
@@ -2202,7 +2202,7 @@ The ECS instances that you want to restart are in the **Running** state.
 
 3. In the left-side navigation pane, choose **ECS O&M > ECS Instances**.
 
-4. Find the instance that you want to restart, move the pointer over the <img src="assets/ea9f10203ec78a76d4c3f10a4134dfcd.png" width="16" alt=""> icon in the **Actions**
+4. Find the instance that you want to restart, move the pointer over the <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/ea9f10203ec78a76d4c3f10a4134dfcd.png" width="16" alt=""> icon in the **Actions**
 
    column, and then select **Restart Instance**.
 
@@ -4273,7 +4273,7 @@ An ECS instance is in the **Stopped** state.
 
    icon in the **Operation** column, and then select **Manage ISO**.
 
-   <img src="assets/ea9f10203ec78a76d4c3f10a4134dfcd.png" width="16" alt="">
+   <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/ea9f10203ec78a76d4c3f10a4134dfcd.png" width="16" alt="">
 
 5. In the **Manage ISO** dialog box, mount or unmount an ISO file based on your business requirements and click OK.
 
@@ -4907,7 +4907,7 @@ This topic describes how to query the inventory usage of Elastic Compute Service
 
 4. View the compute capacity analysis.
 
-   ![](assets/4a51eb55e40e0e158c5179c0bd9315d3.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/4a51eb55e40e0e158c5179c0bd9315d3.jpeg)
 
    - **Allocated Capacity Rate**: In the **Allocated Capacity Rate** section, you can view the inventory usage of ECS instance types. This includes the total inventory, the amount used, and the usage rate for resources such as vCPUs, memory, GPUs, and local disks.
 
@@ -7503,11 +7503,11 @@ You can query events by instance. This allows you to know the exceptions of Elas
    >
    >   - SystemFailure.Reboot: The system is restarted.
 
-   ![](assets/7e80d5022163feb2320449175400f40b.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/7e80d5022163feb2320449175400f40b.jpeg)
 
 5. Find the instance event whose details you want to view and click **Details** in the **Operation** column to view the event details.
 
-   ![](assets/d9476b3925ceef35da20098956770b8d.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/d9476b3925ceef35da20098956770b8d.jpeg)
 
 6. Find the ECS instance that you want to view and click the instance ID in the **Instance ID** column to view the instance details.
 
@@ -7537,7 +7537,7 @@ ECS has reached the desired state.
 
 5. View all ECS physical machine events. You can configure the **Date Range**, **Physical Machine IP Address**, and **Event Status** parameters to filter ECS physical machine events.
 
-   ![](assets/2e9438619344d91c59e6455e8618209e.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/2e9438619344d91c59e6455e8618209e.jpeg)
 
 6. View the information about the ECS physical machine events in the following columns: **Physical Machine IP Address**, **Cluster**, **Affected Instances**, **Affected vCPUs**, **Occurrences**, **Occurrence Time**, **Update Time**, **Event Status**, **Event Type**, **Event Name**, **Event Description**, **Event Level**, and **Event Cause**.
 
@@ -7575,7 +7575,7 @@ You can view proactive O&M workflows in the ECS O&M Events module. You can also 
 
 4. Click **Advanced Filter** and filter proactive O&M workflows by **Date Range**, **Proactive O&M Type**, **NC IP**, and **Event Status**, or their combinations.
 
-   ![](assets/d9825b15ebc56f3e120460ccbff85c7e.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/d9825b15ebc56f3e120460ccbff85c7e.jpeg)
 
 5. In the list of proactive O&M workflows, view the workflow information in the following columns: **Proactive O&M Type**, **NC IP**, **Cluster**, **Status**, **Cause Category**, **Content**, **Additional Information**, **Update Time**, **Creation Time**, **Submitted By**, and **Operation**.
 
@@ -7583,7 +7583,7 @@ You can view proactive O&M workflows in the ECS O&M Events module. You can also 
 
 7. To view the details of a proactive O&M event, click **Details** in the **Operation** column of the O&M event. On the workflow details page, view the following information.
 
-   ![](assets/e15dc10e941c7751e01abcc676fdfd29.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/e15dc10e941c7751e01abcc676fdfd29.jpeg)
 
    | Section | Description |
    | --- | --- |
@@ -7728,7 +7728,7 @@ You can view proactive O&M workflows in the ECS O&M Events module. You can also 
 
 2. In the dialog box that appears, configure the following parameters and click **Report**.
 
-   ![](assets/298b03f078cd83d63743c7400e88fec6.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/298b03f078cd83d63743c7400e88fec6.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -7800,7 +7800,7 @@ You can use ECS O&M events to view active O&M workflows of ECS instances and mod
 
 6. To view the details of a proactive O&M event, click **Details** in the **Operation** column of the O&M event. On the workflow details page, view the following information.
 
-   ![](assets/b290729dbb4a4323693cd0cdc149dc87.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/b290729dbb4a4323693cd0cdc149dc87.jpeg)
 
    | Section | Description |
    | --- | --- |
@@ -7895,11 +7895,11 @@ This topic describes how to view the Elastic Compute Service (ECS) workflow info
 
 5. View the information about workflows in the following columns: **Workflow Name**, **Workflow ID**, **Business ID**, **Apsara Stack Tenant Account ID**, **Instance ID**, **Start Time**, **End Time**, **Execution Node**, and **Execution Status**.
 
-   ![](assets/154de40c16f842554739ecbff07e3bd2.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/154de40c16f842554739ecbff07e3bd2.jpeg)
 
 6. Find the workflow that you want to view and click **Activity Details** in the **Operation** column. On the Activity Details page, view the workflow details in the following columns: **Activity ID**, **Activity Name**, **Method**, **Status**, **Input**, **Output**, **Exception**, **Start Time**, and **End Time**.
 
-   ![](assets/a4a627fa8c776b298deeb185cbac2d8e.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/a4a627fa8c776b298deeb185cbac2d8e.jpeg)
 
 **Restart a workflow**
 
@@ -7963,7 +7963,7 @@ View the IDs of ECS instances or IP addresses of hosts on the **ECS Instances** 
 
      icon.
 
-     <img src="assets/cb9b9915a32149eddd236c5eea766615.png" width="16" alt="">
+     <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/cb9b9915a32149eddd236c5eea766615.png" width="16" alt="">
 
      The following table describes the query conditions.
 
@@ -7980,7 +7980,7 @@ View the IDs of ECS instances or IP addresses of hosts on the **ECS Instances** 
 
      icon. The
 
-     <img src="assets/cb9b9915a32149eddd236c5eea766615.png" width="16" alt="">
+     <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/cb9b9915a32149eddd236c5eea766615.png" width="16" alt="">
 
      following table describes the query conditions.
 
@@ -8016,7 +8016,7 @@ Alerts generated for an ECS monitoring metric are displayed in the alert list in
 
 1. Open the Edit dialog box of an ECS monitoring metric and select the Push Alert to Apsara Uni-manager Operations Console option. In the **Apsara Uni-manager Operations Console Alert Level** section, configure alert levels. For more information, see the Procedure section of this topic.
 
-   ![](assets/9cc40d9d270a99c4637c54451feceb00.png)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/9cc40d9d270a99c4637c54451feceb00.png)
 
    - Section 1 in the preceding figure displays the Push Alert to Apsara Uni-manager Operations Console option. Select this option to enable the feature of pushing alerts to the alert list in the Apsara Uni-manager Operations Console.
 
@@ -8060,7 +8060,7 @@ Alerts generated for an ECS monitoring metric are displayed in the alert list in
 
    After an alert is generated for an ECS monitoring metric, log on to the Apsara Uni-manager Operations Console. In the top navigation bar, choose **Monitor&Alarms > Alerts > Alerts**. Then, enter the ECS monitoring metric name in the search box. In the search results, you can view the alerts of the **alert level** that you configured in Step 1, as shown in the following figure.
 
-   ![](assets/996458dc42eec5cad75d638f0128af4e.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/996458dc42eec5cad75d638f0128af4e.jpeg)
 
    > **Important**
    >
@@ -8273,7 +8273,7 @@ This topic describes how to view the basic information about cloud services that
 
 4. View data on the Tiangong Services page. By default, the system displays the details of cloud services deployed on ECS, including the cloud service name, Tiangong architecture, and number of Tiangong machine groups.
 
-   ![](assets/05a66daaa8d358fb91cb607a7505a847.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/05a66daaa8d358fb91cb607a7505a847.jpeg)
 
 5. In the upper-left corner of the Tiangong Services page, you can enter a cloud service name in the search box to search for the cloud service.
 
@@ -8297,7 +8297,7 @@ This topic describes how to view the basic information about cloud services that
 
    **Resource Inventory** sections.
 
-   ![](assets/1b690d6647127c28546d852965bce9af.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/1b690d6647127c28546d852965bce9af.jpeg)
 
    - **Basic Information**: includes the **Tiangong architecture** and **Number of Tiangong machine groups** parameters.
 
@@ -8319,7 +8319,7 @@ This topic describes how to view the basic information about cloud services that
 
    Enter a machine group ID in the search box to search for the machine group.
 
-   ![](assets/4ac49b41afe1efb52908efebda664ac5.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/4ac49b41afe1efb52908efebda664ac5.jpeg)
 
    - Find the machine group that you want to view and click the value in the **Resource Template** column. In the Resource Template Details panel, view the details of the resource template of the machine group.
 
@@ -8391,7 +8391,7 @@ Elastic Compute Service (ECS) Operation Assistant is an ECS O&M agent based on t
 
 2. In the top navigation bar, choose **Product Operation > Computing > Compute Operations Console**.
 
-   ![](assets/d3aa245b3cb97bea9e5ddb9c74a18dca.jpeg)
+   ![](en-ecs-operations-guide-v3.18.6-2607-20260828.assets/d3aa245b3cb97bea9e5ddb9c74a18dca.jpeg)
 
 3. In the lower-right corner of any page in the Compute Operations Console, click the
 
@@ -8960,7 +8960,7 @@ You can configure OpsCode throttling rules to control the number of O&M workflow
 
    <li>
 
-   In the OpsCode throttling rule list, find the rule that you want to delete and click the <img src="assets/538e9bef376c8460049c14a09da5837c.png" width="11" alt="">
+   In the OpsCode throttling rule list, find the rule that you want to delete and click the <img src="en-ecs-operations-guide-v3.18.6-2607-20260828.assets/538e9bef376c8460049c14a09da5837c.png" width="11" alt="">
 
    icon in the **Operation** column.
 

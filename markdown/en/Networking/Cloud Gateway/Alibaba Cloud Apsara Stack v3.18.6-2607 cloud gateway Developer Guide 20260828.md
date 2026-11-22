@@ -80,7 +80,7 @@ This topic describes how to find the required documentation when calling an API 
 
 You can follow the procedure in the figure below to access the development documentation you need.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-cloud-gateway-developer-guide-v3.18.6-2607-20260828.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -112,7 +112,7 @@ Apsara Stack allows you to call API operations using either the Portable OpenAPI
 
 **Flowchart**
 
-![](assets/27a14c1fdbadd2d9298565190c14de9a.png)
+![](en-cloud-gateway-developer-guide-v3.18.6-2607-20260828.assets/27a14c1fdbadd2d9298565190c14de9a.png)
 
 **Procedure**
 
@@ -281,7 +281,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **Alibaba Cloud AccessKey** section, you can view the AccessKey information of your personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-cloud-gateway-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >

@@ -1849,7 +1849,7 @@ Before you migrate offline data from ApsaraDB for MongoDB to LindormTable, compl
 
    <li value="500">
 
-   On the **DataStudio** page, move the pointer over the <img src="assets/4d44c838052c2e83e757ba099b843565.png" width="34" alt=""> icon and click **Create Workflow**.
+   On the **DataStudio** page, move the pointer over the <img src="en-lindorm-developer-guide-v3.18.6-20250825.assets/4d44c838052c2e83e757ba099b843565.png" width="34" alt=""> icon and click **Create Workflow**.
 
    </li>
 
@@ -2055,7 +2055,7 @@ Before you migrate offline data from ApsaraDB for MongoDB to LindormTable, compl
 
    <li value="500">
 
-   After you configure the batch synchronization node, save the node configurations and click the <img src="assets/0f57ff61221907c2d7f9aab326dfeb60.png" width="22" alt="">
+   After you configure the batch synchronization node, save the node configurations and click the <img src="en-lindorm-developer-guide-v3.18.6-20250825.assets/0f57ff61221907c2d7f9aab326dfeb60.png" width="22" alt="">
 
    icon in the upper-left part of the code editor. On the **Runtime Log** tab, you can view the progress of the migration task.
 
@@ -6855,7 +6855,7 @@ Download a Lindorm-cli client. You can download a compressed Lindorm-cli package
    >
    > If no result is returned when you query data that has been written to a table, execute the
    >
-   > ![](assets/69a2e98611749a3dfb57be8de10336df.png)
+   > ![](en-lindorm-developer-guide-v3.18.6-20250825.assets/69a2e98611749a3dfb57be8de10336df.png)
    >
    > **DESCRIBE DATABASE &lt;Database name>**  statement to query whether a Time to Live (TTL) is configured for the database. Data that is retained for a period longer than the TTL is automatically cleared and cannot be queried.
 
@@ -7030,7 +7030,7 @@ ClientOptions is a configuration class of LindormTSDBClient. You can configure C
 | <code>retryBackoffMs</code> | No | The waiting period after a write request fails. Unit: milliseconds.Default value: 1000. By default, the instance waits 1,000 milliseconds before the instance resends a failed request. | ClientOptions.Builder#setRetryBacko ffMs |
 | <code>requestTimeout</code><br><code>Ms</code> | No | The timeout period of requests.Unit: milliseconds. Default value: 90000. | ClientOptions.Builder#setRequestTi meoutMs |
 
-![](assets/380c74896f8709bb1e5aca35de4a9ab9.png)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/380c74896f8709bb1e5aca35de4a9ab9.png)
 
 <table>
   <tr>
@@ -7077,9 +7077,9 @@ ClientOptions is a configuration class of LindormTSDBClient. You can configure C
   </tr>
 </table>
 
-![](assets/f70d3331d42a2d08623f5620cb735d51.png)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/f70d3331d42a2d08623f5620cb735d51.png)
 
-![](assets/a52c94d24a783e6caafce0aa71a4e818.png)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/a52c94d24a783e6caafce0aa71a4e818.png)
 
 <a id="section-2-1-2-2"></a>
 
@@ -7665,7 +7665,7 @@ Before you use LindormTSDB SDK for Java to connect to LindormTSDB, you must inst
 
   <li>
 
-  Click the <img src="assets/2a44aca40521a20a1c80a10c9ad5c88e.png" width="16" alt=""> icon and click **JARs or directories**.
+  Click the <img src="en-lindorm-developer-guide-v3.18.6-20250825.assets/2a44aca40521a20a1c80a10c9ad5c88e.png" width="16" alt=""> icon and click **JARs or directories**.
 
   </li>
 
@@ -8610,7 +8610,7 @@ The following table describes the URL query parameters that are supported by the
 
 If user authentication is enabled for LindormTSDB, you must include the authentication information of the user in the HTTP request headers when you use the  `/api/v2/sql`  API to send SQL statements. The
 
-![](assets/fe4f32453726f12e87e6b4f939c4a2bf.png)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/fe4f32453726f12e87e6b4f939c4a2bf.png)
 
 `/api/v2/sql`  API uses the  `BASIC AUTH`  method. The encoded authentication information must be specified in the  **Authorization**  field of the HTTP request header.
 
@@ -8628,7 +8628,7 @@ The **Base64-encoded authentication information** is in the following format:  `
 
 For example, if you use the default username and password (which are both root) as the credential for
 
-![](assets/77d78e38f79238c802a0b9bb84f59b41.png)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/77d78e38f79238c802a0b9bb84f59b41.png)
 
 basic authentication, the Base64-encoded value of the  **Authorization**  field in the HTTP header is Basic cm9vdDpyb290, as shown in the following example:
 
@@ -8949,7 +8949,7 @@ This topic describes how to use the data integration feature provided by DataWor
 
 **Synchronize data**
 
-Click the <img src="assets/cc1c73d2aafb13d7a7abd407e36c3bc6.jpeg" width="19" alt=""> icon to run the batch synchronization node, check the configurations, and submit the node.
+Click the <img src="en-lindorm-developer-guide-v3.18.6-20250825.assets/cc1c73d2aafb13d7a7abd407e36c3bc6.jpeg" width="19" alt=""> icon to run the batch synchronization node, check the configurations, and submit the node.
 
 For more information, see Deploy nodes.
 
@@ -9649,7 +9649,7 @@ This topic describes the data model of LindormTSDB and the terms that are relate
 
 In scenarios where time series data is used, such as IoT, application monitoring, and Industrial Internet scenarios, data sources constantly generate time series data based on a specific cycle. A row of time series data is described by using elements such as tag, timestamp, and field. Data that has the same characteristics is stored in the same table. The following figure describes the elements.
 
-![](assets/4278ea64e37a20b04881a3298e4666f7.jpeg)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/4278ea64e37a20b04881a3298e4666f7.jpeg)
 
 | Element | Description |
 | --- | --- |
@@ -9673,11 +9673,11 @@ A LindormTSDB database provides a time-to-live (TTL)-based management mechanism 
 
 A wind turbine power station has multiple intelligent wind turbines. A table named  `Wind-generators`  is created to store information about the wind turbines. Tags are used to describe the wind turbines. The tags include  `ID` ,  `model` , and  `manufacturer` . Each of the wind turbines reports field values, such as the values of  `power`  and  `wind speed` , to a cloud database in LindormTSDB in real time.
 
-![](assets/cb2e87a6d26b962c19ddae63d775d76c.jpeg)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/cb2e87a6d26b962c19ddae63d775d76c.jpeg)
 
 The following figure shows data that corresponds to the wind turbines used in the preceding scenario.
 
-![](assets/cf409a6b3cd062466f88232cef2acc09.jpeg)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/cf409a6b3cd062466f88232cef2acc09.jpeg)
 
 A LindormTSDB database supports high-concurrency writes, provides a high compression rate, and can process the following types of queries:
 
@@ -9958,7 +9958,7 @@ LindormTSDB allows you to use SQL to manage CQs in your databases.
 
 CQs use the timestamps of local LindormTSDB nodes to determine the time when to perform calculations and use these timestamps as a reference to calculate time windows. A CQ automatically runs to calculate data that is written within the previous window each time a new time window starts. For example, if the specified time window for a CQ is 1 hour, the CQ calculates data at the beginning of each hour. If a
 
-![](assets/ce5e44095d4128e5a80d252d6caff1b5.png)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/ce5e44095d4128e5a80d252d6caff1b5.png)
 
 calculation is triggered at 20:00, the time range of the data to be calculated is  **[19:00:00,20:00:00)** .
 
@@ -11141,15 +11141,15 @@ Sample response:
 
 You can call this function to calculate the slope of values in a field column.
 
-![](assets/d2a4744399c174365a03dc8acf59d4c9.png)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/d2a4744399c174365a03dc8acf59d4c9.png)
 
 Assume that the following data points are stored in a time series:  `(t`  1  `,v`  1  `),`
 
-![](assets/752de69dde28219e949db619459be01d.png)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/752de69dde28219e949db619459be01d.png)
 
 `(t`  2  `,v`  2  `) ... (t`  N  `,v`  N  `)` . If you use the RATE function to calculate the slope of the data points, N-1 data points are returned, whose timestamps and values are calculated by using the following formula:
 
-![](assets/3c12165db35f832468ed0865fb8ef439.png)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/3c12165db35f832468ed0865fb8ef439.png)
 
 > **Note**
 >
@@ -11255,7 +11255,7 @@ ERROR 9001 (0A000): UNSUPPORTED: latest/rate/delta must be the only aggregator i
 
 You can call this function to calculate the difference between each value and the value in the previous row within the same field column.
 
-![](assets/ebfb53acea56a432322127528d6a0f1c.png)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/ebfb53acea56a432322127528d6a0f1c.png)
 
 Assume that the following data points are stored in a time series:  `(t`  1  `,v`  1  `), (t`  2  `,v`  2  `) ... (t`  N  `,v`  N  `)` . If you use the DELTA function, the following N-1 data points are returned:  `(t`  2  `,v`  2 - `v`  1  `), (t`  3  `,v`  3 - `v`  2  `) ... (t`  N  `,v`  N - `,v`  N-1  `)` .
 
@@ -15068,7 +15068,7 @@ You can use time series tables to improve query performance and storage performa
 
 Modeling is critical for time series data. You need to analyze the query scenarios and the characteristics of data sources to create appropriate data tables. This way, you can obtain optimal storage and query performance. The following figure provides an example. In the example, air quality monitoring (AQM) data is used.
 
-![](assets/d868807652539a10a689e87075bb8ba4.jpeg)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/d868807652539a10a689e87075bb8ba4.jpeg)
 
 The data record that is generated at each point in time can be divided into the following parts:
 
@@ -15252,13 +15252,13 @@ For more information about the model of time series data, see Design a time seri
 
 The following figure provides an example in which a time series table is used. The data records shown in the following figure belong to the same time series. For more information about time series tables, see Design a time series table.
 
-![](assets/279bc69eaffc7465288909ed36a2bc05.png)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/279bc69eaffc7465288909ed36a2bc05.png)
 
 - If a value in a tag column changes, the data record that corresponds to the value falls in another time series. In most cases, a time series can identify a data source from which time series data is generated.
 
 - LindormTSDB creates indexes by using each **tag column**. Each of the indexes is an inverted index. The name and each value of a tag column are used as an index key to index all time series that contain the same key-value pair of the index key. The index key is used to identify the data range that corresponds to a tag from the time series dimension in a short period of time. When data is continuously written into the time series table, inverted indexes in the table change. The following figure shows the changed inverted indexes in the table.
 
-![](assets/f9280c34f94cd273c7dd9b713b6e87de.png)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/f9280c34f94cd273c7dd9b713b6e87de.png)
 
 - By default, LindormTSDB creates a Block Range Index (BRIN) for a timestamp column. This ensures that the data range that you want to query can be located in a large amount of time series data in a short period of time. LindormTSDB does not create indexes for field columns.
 
@@ -15288,7 +15288,7 @@ SELECT id, so2 FROM aqm WHERE district='yuhang' AND time >= '2019-04-18 10:00:00
 
 The following figure shows the query result.
 
-![](assets/6478294e94764d614db13ea46341fe75.jpeg)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/6478294e94764d614db13ea46341fe75.jpeg)
 
 **Query all values in a specific tag column in a time series table**
 
@@ -15300,7 +15300,7 @@ SELECT DISTINCT(id) FROM aqm;
 
 The following figure shows the query result.
 
-![](assets/2c52a1d3c21afbeb5d4238c9a1f20991.jpeg)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/2c52a1d3c21afbeb5d4238c9a1f20991.jpeg)
 
 > **Note**
 >
@@ -15316,7 +15316,7 @@ SELECT id, time, avg(pm2_5) AS avg_pm2_5, avg(so2) AS avg_so2 FROM aqm WHERE dis
 
 The following figure shows the query result.
 
-![](assets/44ec4a52a448c2bfd639034465912e37.jpeg)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/44ec4a52a448c2bfd639034465912e37.jpeg)
 
 > **Note**
 >
@@ -15332,7 +15332,7 @@ SELECT max(avg_pm2_5) AS max_avg_pm25, max(avg_so2) AS max_avg_so2 FROM (SELECT 
 
 The following figure shows the query result.
 
-![](assets/9c410e5048c8bf9574ebcc5589a36321.jpeg)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/9c410e5048c8bf9574ebcc5589a36321.jpeg)
 
 <a id="section-2-6"></a>
 
@@ -15354,15 +15354,15 @@ This topic describes how to deploy Telegraf to your existing application environ
 
    - Apply for a public endpoint on the Time Series Engine page of the Lindorm cluster. The following figure shows how to apply for a public endpoint.
 
-     ![](assets/fdf45a46ffa65c5eb9b0e19fb66878eb.png)
+     ![](en-lindorm-developer-guide-v3.18.6-20250825.assets/fdf45a46ffa65c5eb9b0e19fb66878eb.png)
 
    - Configure a whitelist for the Lindorm cluster. The following figure shows how to configure a whitelist.
 
-     ![](assets/7389b5e2dde3a1c1980bf7ff26e4e37e.png)
+     ![](en-lindorm-developer-guide-v3.18.6-20250825.assets/7389b5e2dde3a1c1980bf7ff26e4e37e.png)
 
 3. After you apply for a public endpoint for the Lindorm cluster, make sure that the application environment can be connected to the public endpoint. After you apply for a public endpoint for the Lindorm cluster, you can view the endpoint and port of the cluster on the Time Series Engine page. The following figure shows how to view the endpoint in the console.
 
-   ![](assets/caa4eea8db711cb69ba92054febd0bd9.png)
+   ![](en-lindorm-developer-guide-v3.18.6-20250825.assets/caa4eea8db711cb69ba92054febd0bd9.png)
 
 **Install Telegraf**
 
@@ -15403,9 +15403,9 @@ The method that is used to install Telegraf varies based on the platform where y
 
 4. Start Telegraf to collect data. After Telegraf starts to collect data, you can view the collected data on the Instance Monitoring page of the Lindorm cluster. To go to the Instance Monitoring page, **log on to the Lindorm console, click the ID of the Lindorm cluster, and then click Instance Monitoring in the left-side navigation pane**.
 
-   ![](assets/2da22344772422547d07de56526cff25.png)
+   ![](en-lindorm-developer-guide-v3.18.6-20250825.assets/2da22344772422547d07de56526cff25.png)
 
-   ![](assets/300f0e400689096ccb85925639198b7c.png)
+   ![](en-lindorm-developer-guide-v3.18.6-20250825.assets/300f0e400689096ccb85925639198b7c.png)
 
 <a id="section-2-6-2"></a>
 
@@ -15612,7 +15612,7 @@ In this topic, Grafana 10.0.x is used as an example to demonstrate how to access
 
    <li>
 
-   Click the <img src="assets/af0141271870951fb5c572b508d328a2.png" width="21" alt=""> icon in the upper-left corner and select **Manage**. Then, click the data source.
+   Click the <img src="en-lindorm-developer-guide-v3.18.6-20250825.assets/af0141271870951fb5c572b508d328a2.png" width="21" alt=""> icon in the upper-left corner and select **Manage**. Then, click the data source.
 
    </li>
 
@@ -15719,7 +15719,7 @@ In this topic, Grafana 10.0.x is used as an example to demonstrate how to access
 
    **SQL statement editor**
 
-   Click the <img src="assets/0d01e0085e334e0af5ab33d98976ed00.png" width="21" alt=""> icon in upper-right corner of the **A** section and switch the editor to Raw Query Mode.
+   Click the <img src="en-lindorm-developer-guide-v3.18.6-20250825.assets/0d01e0085e334e0af5ab33d98976ed00.png" width="21" alt=""> icon in upper-right corner of the **A** section and switch the editor to Raw Query Mode.
 
    Then, you can enter Lindorm SQL statements to perform complex queries. Sample code:
 
@@ -15743,7 +15743,7 @@ In this topic, Grafana 10.0.x is used as an example to demonstrate how to access
 
    You can specify query conditions and the tables and fields that you want to query in a template to perform simple queries. The following table describes the keywords that you can specify in the editor.
 
-   ![](assets/fc0e79f5fb3120da9170ec8858de66f8.png)
+   ![](en-lindorm-developer-guide-v3.18.6-20250825.assets/fc0e79f5fb3120da9170ec8858de66f8.png)
 
    | Keyword | Description |
    | --- | --- |
@@ -15881,7 +15881,7 @@ Before you start, make sure that the following prerequisites:
 
    <li>
 
-   In the **[plugins]** section, change  `;allow_loading_unsigned_plugins=`  to  `allow_loading_unsigned_plugins = alibabacloud-lindorm-datasource` . After you modify the parameter, press <img src="assets/2b40884728bbbd5ccdeff66b43108ed2.png" width="48" alt="">
+   In the **[plugins]** section, change  `;allow_loading_unsigned_plugins=`  to  `allow_loading_unsigned_plugins = alibabacloud-lindorm-datasource` . After you modify the parameter, press <img src="en-lindorm-developer-guide-v3.18.6-20250825.assets/2b40884728bbbd5ccdeff66b43108ed2.png" width="48" alt="">
 
    `CTRL + O` to save the change and press Enter to exit the edit mode.
 
@@ -15919,7 +15919,7 @@ Before you start, make sure that the following prerequisites:
 
    icon on the left and select **Data Sources** from the drop-down list.
 
-   <img src="assets/28ec9179e79667ebc434b9990cd294fd.png" width="23" alt="">
+   <img src="en-lindorm-developer-guide-v3.18.6-20250825.assets/28ec9179e79667ebc434b9990cd294fd.png" width="23" alt="">
 
    </li>
 
@@ -15927,7 +15927,7 @@ Before you start, make sure that the following prerequisites:
 
    On the **Configuration** page, click **Add data source**.
 
-   ![](assets/2c934a95335833f7209de92d13a875cf.png)
+   ![](en-lindorm-developer-guide-v3.18.6-20250825.assets/2c934a95335833f7209de92d13a875cf.png)
 
    </li>
 
@@ -16022,7 +16022,7 @@ Before you start, make sure that the following prerequisites:
 
    **SQL statement editor**
 
-   Click the <img src="assets/0d01e0085e334e0af5ab33d98976ed00.png" width="21" alt=""> icon in upper-right corner of the **A** section and switch the editor to Raw Query Mode.
+   Click the <img src="en-lindorm-developer-guide-v3.18.6-20250825.assets/0d01e0085e334e0af5ab33d98976ed00.png" width="21" alt=""> icon in upper-right corner of the **A** section and switch the editor to Raw Query Mode.
 
    Then, you can enter Lindorm SQL statements to perform complex queries. Sample code:
 
@@ -16046,7 +16046,7 @@ Before you start, make sure that the following prerequisites:
 
    You can specify query conditions and the tables and fields that you want to query in a template to perform simple queries. The following table describes the keywords that you can specify in the editor.
 
-   ![](assets/fc0e79f5fb3120da9170ec8858de66f8.png)
+   ![](en-lindorm-developer-guide-v3.18.6-20250825.assets/fc0e79f5fb3120da9170ec8858de66f8.png)
 
    | Keyword | Description |
    | --- | --- |
@@ -17620,7 +17620,7 @@ Download the following two dependencies: HTTP Client and FastJSON.
 
 The multi-value data model is created based on data sources. Each data entry is created for a specific data source at a specific point in time and contains the values of multiple metric fields. For example, a data entry can contain the values of the following fields of a server: CPU, memory, and load. This allows you to manage multiple fields at the same time.
 
-![](assets/8dcab4908338a20565a02c0ea66c51ce.png)
+![](en-lindorm-developer-guide-v3.18.6-20250825.assets/8dcab4908338a20565a02c0ea66c51ce.png)
 
 **Write data points to a multi-value model time series**
 
@@ -17654,7 +17654,7 @@ The multi-value data model is created based on data sources. Each data entry is 
 
 | Parameter | Type | Required | Limit | Description | Example |
 | --- | --- | --- | --- | --- | --- |
-| metric | String | Yes | It can contain uppercase letters, lowercase letters, digits, and the following special characters: - _ . / ( ) : , \[ \] = ' # | The name of the metric to be stored. | sys.cpu<br><img src="assets/ede76df0e315e450d07b74abdd3af476.png" width="13" alt=""><br>Importa nt The metric name must be 1 to 255 bytes in length. |
+| metric | String | Yes | It can contain uppercase letters, lowercase letters, digits, and the following special characters: - _ . / ( ) : , \[ \] = ' # | The name of the metric to be stored. | sys.cpu<br><img src="en-lindorm-developer-guide-v3.18.6-20250825.assets/ede76df0e315e450d07b74abdd3af476.png" width="13" alt=""><br>Importa nt The metric name must be 1 to 255 bytes in length. |
 | timestamp | Long | Yes | None | The timestamp.Unit: seconds or milliseconds.For more information about how LindormTSDB determines the unit of a timestamp, see the "Timestamp units" section of this topic. | 1499158925 |
 | fields | Map | Yes | The limits on field names are the same as those on metric names. The data type of a field value must be STRING, NUMBER, or BOOLEAN. | The values of the fields. | "fields" : {"speed" : 20.8, "level": 4, "direction" : "East", "description": "Fresh breeze"} |
 | tags | Map | Yes | It can contain uppercase letters, lowercase letters, digits, and the following special characters: - _ . / ( ) : , \[ \] = ' # | The tag key-value pairs.Tag keys and tag values are character strings.Specify at least one tag key-value pair. | {"host":"web 01"}. Tag keys and tag values that are not of the STRING data type are explicitly converted to the STRING type. |
@@ -18961,7 +18961,7 @@ After you add a Hadoop Distributed File System (HDFS) data source to Lindorm, yo
 
 2. In the left-side navigation pane, choose **Data Source Management > Add Data Source**.
 
-   ![](assets/b5d9ffc5c3395d5daf0e91328656ecfe.png)
+   ![](en-lindorm-developer-guide-v3.18.6-20250825.assets/b5d9ffc5c3395d5daf0e91328656ecfe.png)
 
 3. On the **Add data source** page, configure the following parameters:
 
@@ -18989,7 +18989,7 @@ You can add an Object Storage Service (OSS) data source for LindormTable to read
 
 2. In the left-side navigation pane, choose **Data Source Manage > Add Data Source**.
 
-   ![](assets/46926f751fbcd6488f4872964abe64f6.png)
+   ![](en-lindorm-developer-guide-v3.18.6-20250825.assets/46926f751fbcd6488f4872964abe64f6.png)
 
 3. On the **Add data source** page, configure the following parameters:
 
@@ -19103,7 +19103,7 @@ This topic describes how to create a task to migrate data between a self-built H
 
 2. Click **create new job**.
 
-   ![](assets/244fde5b8fd38e228a01ea24e1ad3e00.png)
+   ![](en-lindorm-developer-guide-v3.18.6-20250825.assets/244fde5b8fd38e228a01ea24e1ad3e00.png)
 
 3. In the **job name(optional)** field, enter the name of the task. The task name can contain only letters and digits. You can leave the task name unspecified. In this case, the task ID is used as the task name.
 

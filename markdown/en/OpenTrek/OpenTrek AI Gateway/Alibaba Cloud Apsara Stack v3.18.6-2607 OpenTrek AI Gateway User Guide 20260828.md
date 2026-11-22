@@ -142,7 +142,7 @@ LLMs are widely used in enterprise AI scenarios. These scenarios include the fol
 
 - **AI applications calling regular applications (as tools):** AI applications call the API operations of regular applications to extend their features.
 
-![](assets/9f4639cc01f8c448f244081aa28a3242.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/9f4639cc01f8c448f244081aa28a3242.jpeg)
 
 In practice, enterprises often need to choose and switch between multiple models. If a model has poor stability or performance, an enterprise must be able to quickly switch to another. They also need to perform grayscale testing on new models to evaluate them. Unlike personal applications, enterprises face the following four major challenges when adopting AI technology:
 
@@ -160,7 +160,7 @@ An enterprise wants to build AI applications to improve operational efficiency a
 
 The following figure illustrates this scenario.
 
-![](assets/ae475d6c56846a732f73b166c75d4555.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/ae475d6c56846a732f73b166c75d4555.jpeg)
 
 The gateway administrator assigns a consumer identity to each AI application, authenticated by an API key. When an application sends a request to AI Gateway, the gateway automatically routes the request to Alibaba Cloud Model Studio and Azure model services based on the \`model\` parameter. If a model service is unavailable due to rate limiting or other reasons, the gateway automatically falls back to the self-built open source model. To ensure data security and compliance, all AI requests must pass a Content Moderation review. The gateway blocks non-compliant requests. The administrator enables rate limiting and caching to prevent an application from overwhelming a model service with too many requests. The administrator also monitors the AI API observation dashboard to check the status of model calls and make adjustments as needed.
 
@@ -172,7 +172,7 @@ AI Gateway provides a complete solution for exposing and managing AI application
 
 - All API calls exposed by AI applications pass through AI Gateway. This allows the gateway to handle requirements such as protocol access, authentication, authorization, rate limiting, and degradation.
 
-![](assets/92dd7bb51da43e20fd6efc52933c871f.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/92dd7bb51da43e20fd6efc52933c871f.jpeg)
 
 To address these challenges, AI Gateway provides the following core features:
 
@@ -184,15 +184,15 @@ AI Gateway provides the AI API type, which is optimized for AI scenarios. The AI
 
 - Single model service: Specify a single large model service. You can either pass through the model name from the request or specify a fixed model name. If you specify a fixed model name, the model name in the user's request is ignored.
 
-  ![](assets/8ae58ebfaf8c070dfdcc9d7e7f300edd.jpeg)
+  ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/8ae58ebfaf8c070dfdcc9d7e7f300edd.jpeg)
 
 - Multiple model services (by model name): Specify one or more large model services. You can configure a model name matching rule for each service. For example, you can configure a rule that routes requests with model names matching the \`gpt-\*\` pattern to the OpenAI large model service, and requests with names matching the \`qwen-\*\` pattern to the Alibaba Cloud Model Studio large model service.
 
-  ![](assets/9a75dece229a6595b8ddac56c43ce610.jpeg)
+  ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/9a75dece229a6595b8ddac56c43ce610.jpeg)
 
 - Multiple model services (by proportion): Specify one or more large model services. For each service, you can specify the target model name and a traffic percentage. This pattern is ideal for the grayscale release of new models.
 
-  ![](assets/0fe6aeac684e14a8aa355f1cdaadb0c2.jpeg)
+  ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/0fe6aeac684e14a8aa355f1cdaadb0c2.jpeg)
 
 **AI call observability**
 
@@ -262,7 +262,7 @@ This topic describes how to log in to the AI Gateway console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -356,7 +356,7 @@ You have created a Kubernetes cluster in Container Service for Kubernetes.
    >
    > For more information about parameter configurations, see Import a cluster.
 
-   ![](assets/3bcc3ffb3081014e84bce26b55660127.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/3bcc3ffb3081014e84bce26b55660127.jpeg)
 
 **Step 2: Create a gateway instance**
 
@@ -372,7 +372,7 @@ You have created a Kubernetes cluster in Container Service for Kubernetes.
    >
    > For more information about parameter configurations, see Create a gateway instance.
 
-   ![](assets/bf10d54558d7e5f4656e7d18dbb3cc9b.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/bf10d54558d7e5f4656e7d18dbb3cc9b.jpeg)
 
 **Step 3: Create an AI service**
 
@@ -392,7 +392,7 @@ You have created a Kubernetes cluster in Container Service for Kubernetes.
    >
    > For more information about parameter configurations, see Create an AI service.
 
-   ![](assets/80df1ad521416abc571acee1df32e8e5.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/80df1ad521416abc571acee1df32e8e5.jpeg)
 
 **Step 4: Create a Model API**
 
@@ -410,7 +410,7 @@ You have created a Kubernetes cluster in Container Service for Kubernetes.
    >
    > For more information about parameter configurations, see Create a model API.
 
-   ![](assets/b7f237b50d20fc910f7a2c920c93f602.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/b7f237b50d20fc910f7a2c920c93f602.jpeg)
 
 **Step 5: Debug the Model API**
 
@@ -428,7 +428,7 @@ You have created a Kubernetes cluster in Container Service for Kubernetes.
    >
    > For more information about parameter configurations, see Debug a model API.
 
-   ![](assets/d3a7c4c7d289a1ccbc5087eeb13b1c37.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/d3a7c4c7d289a1ccbc5087eeb13b1c37.jpeg)
 
 <a id="section-2-3"></a>
 
@@ -775,7 +775,7 @@ This topic describes how to modify the name of a gateway instance.
 
 2. In the left-side navigation pane, click **AI Gateway**.
 
-3. On the **Gateway Instance** page, click <img src="assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt=""> in the **Actions** column for the target instance,
+3. On the **Gateway Instance** page, click <img src="en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt=""> in the **Actions** column for the target instance,
 
    and then click **Edit**.
 
@@ -797,7 +797,7 @@ Releasing an instance permanently deletes it and all of its data. Exercise cauti
 
 2. In the left-side navigation pane, click **AI Gateway**.
 
-3. On the **Gateway Instances** page, in the **Actions** column for the target instance, click <img src="assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt=""> ,
+3. On the **Gateway Instances** page, in the **Actions** column for the target instance, click <img src="en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt=""> ,
 
    and then click Write-off or **Force Logoff** .
 
@@ -819,7 +819,7 @@ You can stop a gateway instance if you do not need it to run temporarily.
 
 3. On the **Gateway Instances** page, in the **Operations** column of the target instance, click
 
-   <img src="assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt=""> and then click **Stop**.
+   <img src="en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt=""> and then click **Stop**.
 
 4. In the **Prompt** dialog box, click **OK**. The **Instance Status** of the instance changes to **Stopped**.
 
@@ -837,7 +837,7 @@ You can restart a gateway instance to resume its service.
 
 2. In the left-side navigation pane, click **AI Gateway**.
 
-3. On the **Gateway Instance** page, click <img src="assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt=""> in the **Actions** column of the target instance,
+3. On the **Gateway Instance** page, click <img src="en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt=""> in the **Actions** column of the target instance,
 
    and then click **Restart**.
 
@@ -855,7 +855,7 @@ After you create an AI Gateway, you can scale its specification, CPU, and memory
 
 2. In the left-side navigation pane, click **AI Gateway**.
 
-3. On the **Gateway Instances** page, click <img src="assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt=""> in the **Actions** column for your target instance.
+3. On the **Gateway Instances** page, click <img src="en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt=""> in the **Actions** column for your target instance.
 
    Then, click **Configuration Change**.
 
@@ -891,7 +891,7 @@ A security group is a virtual firewall that controls inbound and outbound traffi
 
 Because the AI Gateway and backend service nodes are in different security groups, you must grant the AI Gateway access permissions for the required port range in the security group of the backend service.
 
-![](assets/1a070bde5d42b972473a9d91bfcabdd6.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/1a070bde5d42b972473a9d91bfcabdd6.jpeg)
 
 The figure shows how an AI Gateway can be used to manage network access and distribute traffic for different types of services. The connections are as follows:
 
@@ -1777,7 +1777,7 @@ A header modification policy modifies the headers of a request before it is forw
 
 For example, to add a test response header, configure the settings as shown in the following figure.
 
-![](assets/c4919ee9ebc570bafbba1ba232df76f4.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/c4919ee9ebc570bafbba1ba232df76f4.jpeg)
 
 Run the following command to send a test request:
 
@@ -2320,7 +2320,7 @@ This topic describes how to manage consumers.
 
   <li>
 
-  On the **Consumer** page, click <img src="assets/cff127cd5c615bf690b927dcf3818528.png" width="6" alt=""> in the **Operation** column of the target consumer and
+  On the **Consumer** page, click <img src="en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/cff127cd5c615bf690b927dcf3818528.png" width="6" alt=""> in the **Operation** column of the target consumer and
 
   select **Edit**.
 
@@ -2342,7 +2342,7 @@ This topic describes how to manage consumers.
 
   <li>
 
-  On the **Consumer** page, click <img src="assets/cff127cd5c615bf690b927dcf3818528.png" width="6" alt=""> in the **Operation** column of the target consumer and
+  On the **Consumer** page, click <img src="en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/cff127cd5c615bf690b927dcf3818528.png" width="6" alt=""> in the **Operation** column of the target consumer and
 
   select **Delete**.
 
@@ -2975,7 +2975,7 @@ After adding a custom plug-in, you can **modify** or **delete** it.
 
   <li>
 
-  Click <img src="assets/5e37daec118a5f679829f016fa416790.png" width="14" alt=""> on the plug-in card and select **Modify**.
+  Click <img src="en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/5e37daec118a5f679829f016fa416790.png" width="14" alt=""> on the plug-in card and select **Modify**.
 
   </li>
 
@@ -3001,7 +3001,7 @@ After adding a custom plug-in, you can **modify** or **delete** it.
 
   <li>
 
-  Click <img src="assets/5e37daec118a5f679829f016fa416790.png" width="14" alt=""> on the plug-in card and select **Delete**.
+  Click <img src="en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/5e37daec118a5f679829f016fa416790.png" width="14" alt=""> on the plug-in card and select **Delete**.
 
   </li>
 
@@ -3129,9 +3129,9 @@ The configuration fields for  `provider`  are as follows:
 | <code>context</code> | object | Optional | - | Configures the contextual information for the AI chat. |
 | <code>customSettings</code> | array of customSetting | Optional | - | Specifies parameters to overwrite or fill in for AI requests. |
 
-![](assets/82c24b5e63961bc8cc97bfe4175c8700.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/82c24b5e63961bc8cc97bfe4175c8700.png)
 
-![](assets/f01247243078ea832303d3b99b9fec6c.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/f01247243078ea832303d3b99b9fec6c.png)
 
 <table>
   <tr>
@@ -3150,7 +3150,7 @@ The configuration fields for  `provider`  are as follows:
   </tr>
 </table>
 
-![](assets/23f390c8e05c293fcb7c40da4ee11f04.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/23f390c8e05c293fcb7c40da4ee11f04.png)
 
 The configuration fields for  `context`  are as follows:
 
@@ -3233,7 +3233,7 @@ The  `type`  for Moonshot is  `moonshot` . Its specific configuration fields are
 | --- | --- | --- | --- | --- |
 | <code>moonshotFileId</code> | string | Optional | - | The ID of a file uploaded to Moonshot through the file API. Its content is used as the context for the AI chat. This field cannot be configured at the same time as the <code> context </code> field. |
 
-![](assets/18282b59f3f994671bb5fcbb5935dd77.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/18282b59f3f994671bb5fcbb5935dd77.png)
 
 **Qwen**
 
@@ -3290,9 +3290,9 @@ The  `type`  for MiniMax is  `minimax` . Its specific configuration fields are a
 | <code>minimaxApiType</code> | string | Select one from v2 and pro. | v2 | v2 represents the ChatCompletion v2 API, and pro represents the ChatCompletion Pro API. |
 | <code>minimaxGroupId</code> | string | Required when <code>minimaxApiTyp</code> <code>e </code> is pro. | - | When <code>minimaxApiTyp</code> <code>e </code> is set to pro, the ChatCompletion Pro API is used, and you must set the groupID. |
 
-![](assets/63d61aa8ed857b44cf5c073fb1ff50ad.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/63d61aa8ed857b44cf5c073fb1ff50ad.png)
 
-![](assets/b8577f54dc9c98136cc83ccbdd9e3217.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/b8577f54dc9c98136cc83ccbdd9e3217.png)
 
 **Anthropic Claude**
 
@@ -3302,7 +3302,7 @@ The  `type`  for Anthropic Claude is  `claude` . Its specific configuration fiel
 | --- | --- | --- | --- | --- |
 | <code>claudeVersion</code> | string | Optional | - | The API version of the Claude service. The default is 2023-06-01. |
 
-![](assets/0a024b03630dc6e10b92a102aef8dc9d.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/0a024b03630dc6e10b92a102aef8dc9d.png)
 
 **Ollama**
 
@@ -3322,9 +3322,9 @@ The  `type`  for Hunyuan is  `hunyuan` . Its specific configuration fields are a
 | <code>hunyuanAuthId</code> | string | Required | - | The ID used for v3 authentication in Hunyuan. |
 | <code>hunyuanAuthKey</code> | string | Required | - | The key used for v3 authentication in Hunyuan. |
 
-![](assets/7f824397ca3e5917529adeb35f9f26f7.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/7f824397ca3e5917529adeb35f9f26f7.png)
 
-![](assets/107f1634ba57513784f47846c7905e71.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/107f1634ba57513784f47846c7905e71.png)
 
 **Stepfun**
 
@@ -4931,7 +4931,7 @@ The plugin runs in the  `Default phase`  with an execution priority of  `750` .
 | <code>admin_path</code> | string | Optional | /quota | The path prefix for quota management requests. |
 | <code>redis</code> | object | Yes | - | Redis configuration. |
 
-![](assets/b60d379fef1c2427b4903536f4c87719.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/b60d379fef1c2427b4903536f4c87719.png)
 
 The following table describes the configuration fields for  `redis` .
 
@@ -5296,11 +5296,11 @@ Attribute configuration:
 | <code>rule</code> | string | Optional | - | The rule for extracting the attribute from a streaming response. Valid values are <code> first </code>, <code> replace </code>, and <code> append </code>. |
 | <code>apply_to_log</code> | bool | Optional | false | Specifies whether to record the extracted information in the log. |
 
-![](assets/dc1ceba46070dbbf39dd7bb11beb1ba8.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/dc1ceba46070dbbf39dd7bb11beb1ba8.png)
 
-![](assets/f4004d684669c17d6310eb5de4e6a4b9.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/f4004d684669c17d6310eb5de4e6a4b9.png)
 
-![](assets/a8570c6f1958b1911099de1e42379942.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/a8570c6f1958b1911099de1e42379942.png)
 
 <table>
   <tr>
@@ -5312,7 +5312,7 @@ Attribute configuration:
   </tr>
 </table>
 
-![](assets/49664ec1da32b6424a60c8cd5ca4ef20.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/49664ec1da32b6424a60c8cd5ca4ef20.png)
 
 The following list describes the valid values for  `value_source` :
 
@@ -5599,9 +5599,9 @@ The configuration fields for each item in  `limit_keys`  are described below:
 | token_per_secon d | int | No. Select one from <code>token_per_sec</code> <code>ond </code>, <code>token_per_min</code> <code>ute </code>, <code>token_per_hou</code> <code>r </code>, or <code>token_per_day</code><code> </code>. | - | The number of token requests allowed per second. |
 | token_per_minut e | int | No. Select one from <code>token_per_sec</code> <code>ond </code>, <code>token_per_min</code> <code>ute </code>, <code>token_per_hou</code> <code>r </code>, or <code>token_per_day</code><code> </code>. | - | The number of token requests allowed per minute. |
 
-![](assets/46c7e5d1621f4092ce43863110d9e6c5.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/46c7e5d1621f4092ce43863110d9e6c5.png)
 
-![](assets/ff12c8edd4f75aef4f1be0f812edc7a1.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/ff12c8edd4f75aef4f1be0f812edc7a1.png)
 
 <table>
   <tr>
@@ -5620,9 +5620,9 @@ The configuration fields for each item in  `limit_keys`  are described below:
   </tr>
 </table>
 
-![](assets/05c9dbdbab71b60632b8a38014be4921.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/05c9dbdbab71b60632b8a38014be4921.png)
 
-![](assets/e441cc3e07e0c3935ac12ff9fa50d411.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/e441cc3e07e0c3935ac12ff9fa50d411.png)
 
 The configuration fields for each item in  `redis`  are described below:
 
@@ -5999,7 +5999,7 @@ The following load balancing policies are supported:
 
 In a distributed environment, a gateway instance often consists of multiple nodes. Traditional load balancing policies operate locally on each node and lack a global view. The AI Gateway uses Redis to implement a global least requests load balancing algorithm. This algorithm balances the load based on the number of requests that each LLM pod is currently processing. The process for selecting a pod is as follows:
 
-![](assets/a9e6f067a7f746eb91ab064b93a7934d.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/a9e6f067a7f746eb91ab064b93a7934d.jpeg)
 
 **Configuration**
 
@@ -6100,7 +6100,7 @@ This policy is the wasm implementation of  `gateway-api-inference-extension` .
 | --- | --- | --- | --- | --- |
 | <code>criticalModels</code> | \[\]string | Optional | - | A list of critical models. |
 
-![](assets/b3b96806fd28954c366c7309df69dabe.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/b3b96806fd28954c366c7309df69dabe.png)
 
 **Configuration example**
 
@@ -6122,7 +6122,7 @@ The ai-data-masking plugin blocks and replaces sensitive words in requests and r
 
 Blocks and replaces sensitive words in requests and responses.
 
-![](assets/33574e5a3a62786d142d9952dac7c42d.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/33574e5a3a62786d142d9952dac7c42d.jpeg)
 
 **Data scope**
 
@@ -6284,7 +6284,7 @@ The ai-agent plug-in supports flexible configurations, including custom settings
 
 This is a customizable API AI agent. It supports APIs that use GET and POST HTTP methods. It also supports multi-turn conversations in both streaming and non-streaming modes. The agent flowchart is as follows:
 
-![](assets/7591d5c3a9e21ce8697e0cb8546c5464.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/7591d5c3a9e21ce8697e0cb8546c5464.jpeg)
 
 **Runtime properties**
 
@@ -6300,7 +6300,7 @@ Execution stage:  `Default Stage` . Execution priority:  `200` .
 | <code>apis</code> | object | Required | - | Information about the external API service provider. |
 | <code>promptTemplate</code> | object | Optional | - | Information about the Agent ReAct template. |
 
-![](assets/c8a917a264371caf483d07b88b0bf767.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/c8a917a264371caf483d07b88b0bf767.png)
 
 The following table describes the configuration fields for  `llm` .
 
@@ -6315,7 +6315,7 @@ The following table describes the configuration fields for  `llm` .
 | <code>maxIterations</code> | int | Required | 15 | The maximum number of steps before the execution loop ends. |
 | <code>maxExecutionTi</code><br><code>me</code> | int | Required | 50000 | The timeout period for each request to the large model, in milliseconds. |
 
-![](assets/6f11d1b0da520ec55ee962c17e1cddca.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/6f11d1b0da520ec55ee962c17e1cddca.png)
 
 <table>
   <tr>
@@ -6752,7 +6752,7 @@ This topic describes AI retrieval-augmented generation (RAG).
 
 You can implement RAG for large language models (LLMs) by connecting to Alibaba Cloud Vector Retrieval Service (DashVector). The process is shown in the following figure:
 
-![](assets/3ff409be8b8ca51a337a0aabe7ae0e28.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/3ff409be8b8ca51a337a0aabe7ae0e28.png)
 
 **Runtime properties**
 
@@ -6903,9 +6903,9 @@ You can enable this feature when you use the Arxiv or Elasticsearch engines. For
 | username | string | Optional | - | The Elasticsearch username. |
 | password | string | Optional | - | The Elasticsearch password. |
 
-![](assets/ead009f6926f6fc8a1d8c16738f56226.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/ead009f6926f6fc8a1d8c16738f56226.png)
 
-![](assets/8a820bf2f119a67b75e7d4745b4b892a.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/8a820bf2f119a67b75e7d4745b4b892a.png)
 
 The Reciprocal Rank Fusion (RRF) query used in hybrid search requires Elasticsearch 8.8 or later.
 
@@ -7214,7 +7214,7 @@ Plugin execution phase:  `Default phase` . Plugin execution priority:  `700` .
 | <code>scene.categor</code><br><code>y</code> | string | Required | - | Preset scenario categories, separated by <code> &#124; </code>, such as <code>finance&#124;E-</code><br><code>commerce&#124;law&#124;AI</code> <code>gateway </code>. |
 | <code>scene.prompt</code> | string | Optional | You are an intelligent category detection assistant.Your task is to determine which preset category a user's question belongs to, based on the question and the preset categories, and then provide the corresponding category. The user's question is %s, and the preset categories are %s.Directly return a specific category. If no match is found, return 'NotFound'. | The prompt template for LLM requests. |
 
-![](assets/6a95f591b01a7c1b3fce1f4d2b0182cc.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/6a95f591b01a7c1b3fce1f4d2b0182cc.png)
 
 <table>
   <tr>
@@ -7268,9 +7268,9 @@ Plugin execution phase:  `Default phase` . Plugin execution priority:  `700` .
   </tr>
 </table>
 
-![](assets/22b2509aa3bef2886bec9a2700df0e4e.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/22b2509aa3bef2886bec9a2700df0e4e.png)
 
-![](assets/276728b70ddf5512bf2a37c832912cf5.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/276728b70ddf5512bf2a37c832912cf5.png)
 
 **Configuration example**
 
@@ -7943,7 +7943,7 @@ The model-mapper plugin maps model parameters. This topic describes how to confi
   </tr>
 </table>
 
-![](assets/63eb12a3d0d6ad317416eaac58c2e4c1.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/63eb12a3d0d6ad317416eaac58c2e4c1.png)
 
 **Runtime properties**
 
@@ -8013,7 +8013,7 @@ The model-router plugin routes requests based on the model parameter in the Larg
 | <code>modelToHeader</code> | string | Optional | - | Adds the model parameter directly to a specified request header. |
 | <code>enableOnPathSu</code><br><code>ffix</code> | array of string | Optional | \["/v1/chat/compl etions"\] | The plugin takes effect only for requests with these specific path suffixes. |
 
-![](assets/21d63bcb540af5d1d536757e20eee7ef.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/21d63bcb540af5d1d536757e20eee7ef.png)
 
 **Runtime properties**
 
@@ -8732,7 +8732,7 @@ Plugin execution phase:  `Authentication phase` . Plugin execution priority:  `3
 | client_secret | string | the OAuth Client Secret. | - |
 | provider | string | OAuth provider. | oidc |
 
-![](assets/8fe68d972747ba34215c927ea306fdc5.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/8fe68d972747ba34215c927ea306fdc5.png)
 
 <table>
   <tr>
@@ -8797,7 +8797,7 @@ Plugin execution phase:  `Authentication phase` . Plugin execution priority:  `3
   </tr>
 </table>
 
-![](assets/f6298ae5653a272ad267787194430c43.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/f6298ae5653a272ad267787194430c43.png)
 
 <table>
   <tr>
@@ -8958,13 +8958,13 @@ match_list:
 
 **Access the service page and get redirected if not logged on**
 
-![](assets/530cc02330c3ff320baa48418e22ec0f.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/530cc02330c3ff320baa48418e22ec0f.jpeg)
 
 **Log on successfully and get redirected to the service page**
 
 In the headers, you can view the _oauth2_proxy cookie for subsequent logon attempts. The Authorization header corresponds to the ID Token. The backend service uses the ID Token to obtain user information.
 
-![](assets/4480e14644db87e1735adf6c3c407f81.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/4480e14644db87e1735adf6c3c407f81.jpeg)
 
 **Access the logoff URL and get redirected to the logoff page**
 
@@ -8973,7 +8973,7 @@ http://foo.bar.com/oauth2/sign_out?rd=https%3A%2F%2Fdev-
 o43xb1mz7ya7ach4.us.auth0.com%2Foidc%2Flogout
 ```
 
-![](assets/e4e00ba4a7beef70172a1567372fb496.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/e4e00ba4a7beef70172a1567372fb496.jpeg)
 
 **Access the logoff URL and get redirected to a specified URI with the post_logout_redirect_uri parameter**
 
@@ -8993,7 +8993,7 @@ A%2F%2Ffoo.bar.com%2Ffoo
 >
 > The URI for the \`post_logout_redirect_uri\` redirection must be configured in the Allowed URLs of the OIDC Provider to work as expected.
 
-![](assets/29a48ebbe8411f753dcd2c740265f441.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/29a48ebbe8411f753dcd2c740265f441.jpeg)
 
 **Keycloak configuration example**
 
@@ -9034,11 +9034,11 @@ match_list:
 
 **Access the service page and get redirected if not logged on**
 
-![](assets/c99d97874762a67377b420216c2998d6.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/c99d97874762a67377b420216c2998d6.jpeg)
 
 **Log on successfully and get redirected to the service page**
 
-![](assets/4480e14644db87e1735adf6c3c407f81.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/4480e14644db87e1735adf6c3c407f81.jpeg)
 
 **Access the logoff URL and get redirected to the logoff page**
 
@@ -9048,7 +9048,7 @@ rd=http%3A%2F%2F127.0.0.1:9090%2Frealms%2Fmyrealm%2Fprotocol%2Fopenid-
 connect%2Flogout
 ```
 
-![](assets/5d7487438625a8e4ba41fa2aa3c94123.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/5d7487438625a8e4ba41fa2aa3c94123.jpeg)
 
 **Access the logoff URL and get redirected to a specified URI with the post_logout_redirect_uri parameter**
 
@@ -9058,7 +9058,7 @@ rd=http%3A%2F%2F127.0.0.1:9090%2Frealms%2Fmyrealm%2Fprotocol%2Fopenid-
 connect%2Flogout%3Fpost_logout_redirect_uri%3Dhttp%3A%2F%2Ffoo.bar.com%2Ffoo
 ```
 
-![](assets/29a48ebbe8411f753dcd2c740265f441.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/29a48ebbe8411f753dcd2c740265f441.jpeg)
 
 **OIDC flow**
 
@@ -9106,7 +9106,7 @@ oidc_process
 
 3. The user is redirected to the logon page.
 
-   ![](assets/0ada5e251f0b48f864bb01e372f35f60.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/0ada5e251f0b48f864bb01e372f35f60.jpeg)
 
 4. The user enters a username and password to log on.
 
@@ -9704,7 +9704,7 @@ This plugin runs during the authentication phase with an execution priority of  
 | <code>failure_mode_</code><br><code>allow_header_ad</code><br><code>d</code> | bool | No | false | If both <code> failure_mode_allow </code> and <code> failure_mode_allow_header_add </code> are set to true, the <code> x-envoy-auth-failure-mode-</code><code>allowed: true </code> header is added to the request if communication with the authorization service fails or the service returns an HTTP 5xx error. |
 | <code>status_on_err</code><br><code>or</code> | int | No | 403 | The HTTP status code returned to the client when the authorization service is inaccessible or returns a 5xx status code. The default status code is <code> 403 </code>. |
 
-![](assets/ed9099c94a8786e82fcce2eec3c83a42.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/ed9099c94a8786e82fcce2eec3c83a42.png)
 
 The following table describes the configuration fields for each item in  `http_service` .
 
@@ -9716,9 +9716,9 @@ The following table describes the configuration fields for each item in  `http_s
 | <code>authorization_</code><br><code>request</code> | object | No | - | Configuration for sending authentication requests. |
 | <code>authorization_</code><br><code>response</code> | object | No | - | Configuration for processing authentication responses. |
 
-![](assets/a99c1f00755118ec5f2245b4138f54c9.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/a99c1f00755118ec5f2245b4138f54c9.png)
 
-![](assets/2e18aaf9c4206d80afc0190754807add.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/2e18aaf9c4206d80afc0190754807add.png)
 
 The following table describes the configuration fields for each item in  `endpoint` .
 
@@ -9763,19 +9763,19 @@ The following table describes the configuration fields for each item in  `endpoi
   </tr>
 </table>
 
-![](assets/2c42b4b61289c8b1376dc6cd736f7a7a.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/2c42b4b61289c8b1376dc6cd736f7a7a.png)
 
-![](assets/f63c32421037d76849f3a22217112b11.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/f63c32421037d76849f3a22217112b11.png)
 
-![](assets/4290c8eabc4a783c98e3741d3f06a92f.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/4290c8eabc4a783c98e3741d3f06a92f.png)
 
-![](assets/aabd3709b54ee4e0cabcd4f98c9c0408.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/aabd3709b54ee4e0cabcd4f98c9c0408.png)
 
-![](assets/18e5d3401ef6217437281d446f6eed97.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/18e5d3401ef6217437281d446f6eed97.png)
 
-![](assets/15c64d97cd164f250cd4aec95702afca.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/15c64d97cd164f250cd4aec95702afca.png)
 
-![](assets/7d8ed525f23f417b52891f76960f33a4.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/7d8ed525f23f417b52891f76960f33a4.png)
 
 <table>
   <tr>
@@ -9787,9 +9787,9 @@ The following table describes the configuration fields for each item in  `endpoi
   </tr>
 </table>
 
-![](assets/73bbb54ed1c07d44778e2c51987cf58e.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/73bbb54ed1c07d44778e2c51987cf58e.png)
 
-![](assets/ad13d22237853fbf649a8f677eacd62f.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/ad13d22237853fbf649a8f677eacd62f.png)
 
 The following table describes the configuration fields for each item in  `authorization_request` .
 
@@ -9797,9 +9797,9 @@ The following table describes the configuration fields for each item in  `author
 | --- | --- | --- | --- | --- |
 | <code>allowed_header</code><br><code>s</code> | array of StringMatcher | No | - | After you set this field, the client request headers that match are added to the authorization service request.In addition to user-defined header matching rules, the <code>Authorization</code> <code> </code> HTTP header is automatically included in the authorization service request.If <code>endpoint_mode</code> <code> </code> is set to <code>forward_auth</code><code> </code>, <code> X-</code><code>Forwarded-*</code> request headers are added. |
 
-![](assets/e83002c9b2198265d18ba1bf791a6289.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/e83002c9b2198265d18ba1bf791a6289.png)
 
-![](assets/245aed78908f141ca6b57258f3e61911.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/245aed78908f141ca6b57258f3e61911.png)
 
 <table>
   <tr>
@@ -9807,7 +9807,7 @@ The following table describes the configuration fields for each item in  `author
     <td>map[string]string</td>
     <td>No</td>
     <td>-</td>
-    <td>A list of request headers to include in the authorization service request.<br><img src="assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>Client request headers with the same name are overwritten.</td>
+    <td>A list of request headers to include in the authorization service request.<br><img src="en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>Client request headers with the same name are overwritten.</td>
   </tr>
   <tr>
     <td><code>with_request_b</code><br><code>ody</code></td>
@@ -9821,11 +9821,11 @@ The following table describes the configuration fields for each item in  `author
     <td>int</td>
     <td>No</td>
     <td>10 MB</td>
-    <td>The maximum size of the client request body to hold in memory.If the client request body reaches the size set in this field, an HTTP 413 status code is returned and the authorization procedure does not start.<br><img src="assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>This setting takes precedence over the <code>failure_m</code><br><code>ode_allow</code> configuratio n.</td>
+    <td>The maximum size of the client request body to hold in memory.If the client request body reaches the size set in this field, an HTTP 413 status code is returned and the authorization procedure does not start.<br><img src="en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>This setting takes precedence over the <code>failure_m</code><br><code>ode_allow</code> configuratio n.</td>
   </tr>
 </table>
 
-![](assets/1a61ffc648f283a946bfd78b1666e54e.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/1a61ffc648f283a946bfd78b1666e54e.png)
 
 The following table describes the configuration fields for each item in  `authorization_response` .
 
@@ -10771,9 +10771,9 @@ Plugin execution phase:  `Authentication phase` . Plugin execution priority:  `3
   </tr>
 </table>
 
-![](assets/67050df36ea9bab55192bf5c40590251.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/67050df36ea9bab55192bf5c40590251.png)
 
-![](assets/9e7ce5c7b19af5e49c2a67da9804cac0.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/9e7ce5c7b19af5e49c2a67da9804cac0.png)
 
 <table>
   <tr>
@@ -10806,11 +10806,11 @@ Plugin execution phase:  `Authentication phase` . Plugin execution priority:  `3
   </tr>
 </table>
 
-![](assets/c99c509abdd1bffc740773350309447d.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/c99c509abdd1bffc740773350309447d.png)
 
-![](assets/dc7e47ab35eb263f9de371a21cdfccac.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/dc7e47ab35eb263f9de371a21cdfccac.png)
 
-![](assets/5a5855909baf05159f9b06b453b7e6fc.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/5a5855909baf05159f9b06b453b7e6fc.png)
 
 <table>
   <tr>
@@ -11020,9 +11020,9 @@ The following table describes the fields in  `global_threshold` .
 | query_per_secon d | int | No. You must specify one of <code>query_per_sec</code> <code>ond </code>, <code>query_per_min</code> <code>ute </code>, <code>query_per_hou</code> <code>r </code>, or <code>query_per_day</code><code> </code>. | - | The number of allowed requests per second. |
 | query_per_minut e | int | No. You must specify one of <code>query_per_sec</code> <code>ond </code>, <code>query_per_min</code> <code>ute </code>, <code>query_per_hou</code> <code>r </code>, or <code>query_per_day</code><code> </code>. | - | The number of allowed requests per minute. |
 
-![](assets/c8b451b0378bae0a919108ef53c793f6.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/c8b451b0378bae0a919108ef53c793f6.png)
 
-![](assets/238bcc26fe0e61408719d130509358ce.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/238bcc26fe0e61408719d130509358ce.png)
 
 <table>
   <tr>
@@ -11041,9 +11041,9 @@ The following table describes the fields in  `global_threshold` .
   </tr>
 </table>
 
-![](assets/ead037b41ec65ef0b4a5323fd1c98e56.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/ead037b41ec65ef0b4a5323fd1c98e56.png)
 
-![](assets/d1582749c7f50ee9e6ba9fdf33517bc0.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/d1582749c7f50ee9e6ba9fdf33517bc0.png)
 
 The following table describes the fields in  `rule_items` .
 
@@ -11122,9 +11122,9 @@ The following table describes the fields in  `limit_keys` .
   </tr>
 </table>
 
-![](assets/76df9b6e2f3aa0a3299986a8a1f4bb1b.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/76df9b6e2f3aa0a3299986a8a1f4bb1b.png)
 
-![](assets/83f6e07ad8a02ea6d253ea57d21675d4.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/83f6e07ad8a02ea6d253ea57d21675d4.png)
 
 <table>
   <tr>
@@ -11143,9 +11143,9 @@ The following table describes the fields in  `limit_keys` .
   </tr>
 </table>
 
-![](assets/c30b58182b7db14a152c5606a65e64d5.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/c30b58182b7db14a152c5606a65e64d5.png)
 
-![](assets/33ddc4c6565718c591ac155f10f1f02b.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/33ddc4c6565718c591ac155f10f1f02b.png)
 
 The following table describes the fields in  `redis` .
 
@@ -11330,9 +11330,9 @@ The following table describes the configuration fields for each item in  `limit_
 | query_per_secon d | number | Optional. Select one from <code>query_per_sec</code> <code>ond </code>, <code>query_per_min</code> <code>ute </code>, <code>query_per_hou</code> <code>r </code>, and <code>query_per_day</code><code> </code>. | - | The number of allowed requests per second. |
 | query_per_minut e | number | Optional. Select one from <code>query_per_sec</code> <code>ond </code>, <code>query_per_min</code> <code>ute </code>, <code>query_per_hou</code> <code>r </code>, and <code>query_per_day</code><code> </code>. | - | The number of allowed requests per minute. |
 
-![](assets/d8ccec47511bc03510a484dec6363ddd.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/d8ccec47511bc03510a484dec6363ddd.png)
 
-![](assets/2cacebf1408b51cd03cb0096f35fccc8.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/2cacebf1408b51cd03cb0096f35fccc8.png)
 
 <table>
   <tr>
@@ -11351,9 +11351,9 @@ The following table describes the configuration fields for each item in  `limit_
   </tr>
 </table>
 
-![](assets/f92bf31caee0f6cf60a3976913b3d145.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/f92bf31caee0f6cf60a3976913b3d145.png)
 
-![](assets/ae4fe48adf2d2605313b957caca2a694.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/ae4fe48adf2d2605313b957caca2a694.png)
 
 **Configuration examples**
 
@@ -11400,11 +11400,11 @@ This section describes the configuration fields.
 | <code>defaultTagKey</code> | string | - | No | The default tag key. This key is used when no conditions are matched. This parameter takes effect only when defaultTagVal is also configured. |
 | <code>defaultTagVal</code> | string | - | No | The default tag value. This value is used when no conditions are matched. This parameter takes effect only when defaultTagKey is also configured. |
 
-![](assets/ffcef6a4aea00ae53d7bfc2a8f8ebd13.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/ffcef6a4aea00ae53d7bfc2a8f8ebd13.png)
 
-![](assets/646bc7e81a0ae8148384381c3104b365.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/646bc7e81a0ae8148384381c3104b365.png)
 
-![](assets/f9bf3b770ace87fe622f0631003ca51f.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/f9bf3b770ace87fe622f0631003ca51f.png)
 
 **Conditional group configuration**
 
@@ -11423,7 +11423,7 @@ The following table describes the configuration fields for each item in  `condit
 | --- | --- | --- | --- | --- |
 | <code>conditionType</code> | string | - | Yes | The condition type. Supported values are <code> header </code>, <code> parameter </code>, and <code> cookie </code>. |
 
-![](assets/afec866da611ab345281ad604f21ed93.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/afec866da611ab345281ad604f21ed93.png)
 
 <table>
   <tr>
@@ -11761,9 +11761,9 @@ Note:
 | append | Target key | Value to append | If the specified <code> key:value </code> pair exists, \`appendValue\` is appended, resulting in <code> key:[value..., </code> <code>appendValue] </code>.Otherwise, this operation is equivalent to executing an \`add\` operation, which results in <code> key:appendValue </code>. |
 | map | Mapping source fromKey | Mapping target toKey | If the specified <code>fromKey:fromValue</code> <code> </code> exists, its value fromValue is mapped to toKey to create <code> toKey:fromValue </code>, while <code>fromKey:fromValue</code> <code> </code> is retained.<br>Note<br>If toKey already exists, its value is overwritten.Otherwise, no operation is performed. |
 
-![](assets/7dc4664a7999a5e4b9f1b9196f3fc1df.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/7dc4664a7999a5e4b9f1b9196f3fc1df.png)
 
-![](assets/8a68b2dcb298787fbecdff7ccc4ac308.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/8a68b2dcb298787fbecdff7ccc4ac308.png)
 
 <table>
   <tr>
@@ -12322,7 +12322,7 @@ Plugin execution phase:  `Authentication phase` . Plugin execution priority:  `4
 | <code>baseDeployment</code> | object | Optional | - | Configures the baseline rule. |
 | <code>grayDeployment</code><br><code>s</code> | array of object | Optional | - | Configures the effective rules and versions for the grayscale release. |
 
-![](assets/a24f81359fe4e5b6e2e27a838909b4d9.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/a24f81359fe4e5b6e2e27a838909b4d9.png)
 
 Configuration of the  `rules`  field:
 
@@ -12333,9 +12333,9 @@ Configuration of the  `rules`  field:
 | <code>grayTagKey</code> | string | Optional | - | The key of the tag used for user categorization. It comes from a cookie. |
 | <code>grayTagValue</code> | array of string | Optional | - | The value of the tag used for user categorization. It comes from a cookie. |
 
-![](assets/7868ad48ae72e3d02cb476b55d39ad70.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/7868ad48ae72e3d02cb476b55d39ad70.png)
 
-![](assets/4beca940609b2211210a30d4748e1c2b.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/4beca940609b2211210a30d4748e1c2b.png)
 
 Configuration of the  `rewrite`  field:
 
@@ -12358,7 +12358,7 @@ Both  `indexRouting`  (homepage rewrite) and  `fileRouting`  (file rewrite) are 
   </tr>
 </table>
 
-![](assets/520f376d97a25e732e98b973049db85b.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/520f376d97a25e732e98b973049db85b.png)
 
 <table>
   <tr>
@@ -12370,7 +12370,7 @@ Both  `indexRouting`  (homepage rewrite) and  `fileRouting`  (file rewrite) are 
   </tr>
 </table>
 
-![](assets/41c0b1baae5d7b8ff0fe7a9a76336897.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/41c0b1baae5d7b8ff0fe7a9a76336897.png)
 
 Configuration of the  `baseDeployment`  field:
 
@@ -12414,9 +12414,9 @@ Configuration of the  `grayDeployments`  field:
   </tr>
 </table>
 
-![](assets/e96e6ae2199d05cee1ecc305eefa3902.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/e96e6ae2199d05cee1ecc305eefa3902.png)
 
-![](assets/2e44d9ae3c4d8766d5c1dfaab484df94.png)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/2e44d9ae3c4d8766d5c1dfaab484df94.png)
 
 **Configuration examples**
 
@@ -13047,9 +13047,9 @@ After you upload a certificate, you can view its details.
 
 After you upload the certificate, you can access the gateway using the correct domain name and an incorrect one. The results are as follows:
 
-![](assets/e49f3eff033c9698c4bacca9b066cbc3.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/e49f3eff033c9698c4bacca9b066cbc3.jpeg)
 
-![](assets/2767215a84004d911fe6d9b97ca7bfc3.jpeg)
+![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/2767215a84004d911fe6d9b97ca7bfc3.jpeg)
 
 A successful handshake occurs only when you access the gateway with the correct domain name because the gateway can provide the corresponding certificate.
 
@@ -13301,7 +13301,7 @@ A token quota is a core mechanism for throttling and resource management in AI G
 
 2. On the **Instances** page of the **Tair (Redis OSS-Compatible)** console, click the ID of the newly created Redis instance and obtain the **endpoint** in the **Connection Information** section.
 
-   ![](assets/54317ded3e97bbadd46a8eeecd96f419.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/54317ded3e97bbadd46a8eeecd96f419.jpeg)
 
 3. Create a gateway instance and make sure that the instance version is 2.1.13.
 
@@ -13379,7 +13379,7 @@ This topic describes how to manage quota rules.
 
 6. The rule list displays information such as **Rule name**, **Status**, **Reset cycle/quota**, **Time zone**, **Associated consumers**, and **Creation time**.
 
-   ![](assets/1965985ad4e0b3a7a66957f7351f727d.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/1965985ad4e0b3a7a66957f7351f727d.jpeg)
 
 7. Click **View** in the **Operation** column of a rule to go to the **Quota Rule Details** page.
 
@@ -13553,13 +13553,13 @@ An AI Gateway instance is created and **Simple Log Service** is enabled. For mor
 
 2. In the **Project List** section, search for the cluster ID of the gateway instance.
 
-   ![](assets/3cceab5d8e7ad3d0937d3ffde2012877.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/3cceab5d8e7ad3d0937d3ffde2012877.jpeg)
 
 3. Click the log project that appears in the search results to view its details.
 
 4. In the Logstore list on the left, click **higress-gateway**. The collected log information appears on the right.
 
-   ![](assets/1d110213dfdb4c238a02fc3e436bc5ac.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/1d110213dfdb4c238a02fc3e436bc5ac.jpeg)
 
 <a id="section-3-16-2"></a>
 
@@ -13577,21 +13577,21 @@ You have created an AI Gateway instance and selected the **Monitoring Plugin** d
 
 2. In the navigation pane on the left, click Access Management. In the **Integrated Environments** list on the right, search for the environment where the gateway is located.
 
-   ![](assets/26c8cc0072309933e90ab58f44cd7114.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/26c8cc0072309933e90ab58f44cd7114.jpeg)
 
 3. Find the environment in the search results and click the environment name to open the **Details** page.
 
 4. On the **Details** page, click **Self-monitoring > Targets**. Find **higress-gateway-metrics** in the list on the right.
 
-   ![](assets/c826ecf09c970ed3155cf293d911b3fd.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/c826ecf09c970ed3155cf293d911b3fd.jpeg)
 
 5. Expand **higress-gateway-metrics** and click the Endpoint to open the details page.
 
-   ![](assets/92180ca9f3679072143939861fa3f6eb.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/92180ca9f3679072143939861fa3f6eb.jpeg)
 
    The details page that appears displays all metrics.
 
-   ![](assets/993744808f0e18fb03e99010ae4ce949.jpeg)
+   ![](en-opentrek-ai-gateway-user-guide-v3.18.6-2607-20260828.assets/993744808f0e18fb03e99010ae4ce949.jpeg)
 
 <a id="section-4"></a>
 

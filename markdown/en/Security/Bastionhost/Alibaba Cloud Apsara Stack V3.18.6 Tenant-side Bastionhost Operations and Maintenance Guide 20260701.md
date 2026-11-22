@@ -651,11 +651,11 @@ This topic describes how to install Bastionhost Assistant.
 
 1. In the upper-right corner of the Control Panel page, move the pointer over the username and click Tool Download to go the Tool Download page.
 
-   ![](assets/94961b7e5cdcd5a5d270991331b2fad0.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/94961b7e5cdcd5a5d270991331b2fad0.png)
 
 2. Download and install Bastionhost Assistant.
 
-   ![](assets/6fede26ce3ac2844785e562287ccd3a4.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/6fede26ce3ac2844785e562287ccd3a4.png)
 
    > **Note**
    >
@@ -669,19 +669,19 @@ This topic provides an example on how to specify Xshell as an O&M tool.
 
 1. Click **SSH**. On the configuration page that appears, set Client Program to Xshell and configure the Terminal Type and Encoding Format parameters.
 
-   ![](assets/47006f3ab61f18ebfec19ce22f97664c.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/47006f3ab61f18ebfec19ce22f97664c.png)
 
 2. Click **Save**. In the dialog box that appears, select Xshell from the Select Client drop-down list and select the related on-premises package.
 
    SSO configuration:
 
-   ![](assets/132a0edf18db4f108f3e2c09d524fca4.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/132a0edf18db4f108f3e2c09d524fca4.jpeg)
 
 3. Click **OK**. A message indicating that the configuration is successful is displayed.
 
    Message for successful configuration:
 
-   ![](assets/cf079723f2f9a98d2f0fefb0610cfabd.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/cf079723f2f9a98d2f0fefb0610cfabd.jpeg)
 
 4. Click **OK**. Xshell is specified as an O&M tool.
 
@@ -701,11 +701,11 @@ This topic describes O&M of hosts that use SSH.
 
 1. Choose **O&M** > **Host O&M** and find hosts that use SSH.
 
-   ![](assets/af8dd64dae1cf84b0dc8018b0a1c0a87.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/af8dd64dae1cf84b0dc8018b0a1c0a87.png)
 
 2. Open the **on-premises client** to access the desired host on which you want to perform O&M operations.
 
-   ![](assets/0f93ea71ae275b344e711e8ac3f02cfb.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/0f93ea71ae275b344e711e8ac3f02cfb.jpeg)
 
 <a id="section-1-2-4-2"></a>
 
@@ -715,11 +715,11 @@ This topic describes O&M of hosts that use Remote Desktop Protocol (RDP).
 
 1. Choose **O&M** > **Host O&M** and find hosts that use RDP.
 
-   ![](assets/66872c82169d521f7e38266830f69367.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/66872c82169d521f7e38266830f69367.png)
 
 2. Open the **H5 client** to access the desired host on which you want to perform O&M operations.
 
-   ![](assets/5a53e782e3a8240264605dc8eb342f4f.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/5a53e782e3a8240264605dc8eb342f4f.jpeg)
 
 <a id="section-1-2-5"></a>
 
@@ -733,11 +733,11 @@ This topic describes BS O&M of hosts that use MySQL, Oracle, SQL Server, and DB2
 
 1. Choose **O&M** > **Host O&M** and find hosts that use the MySQL protocol.
 
-   ![](assets/2a434e17720256bc5f5ced6cf92db73b.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/2a434e17720256bc5f5ced6cf92db73b.png)
 
 2. Open the **on-premises client** to access the desired host on which you want to perform O&M operations.
 
-   ![](assets/3e8915ae1c662d52e8bf7c7d0dade6e2.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/3e8915ae1c662d52e8bf7c7d0dade6e2.png)
 
 <a id="section-1-2-5-2"></a>
 
@@ -747,11 +747,11 @@ This topic describes tunnel O&M of hosts that use MySQL and Oracle protocols.
 
 1. Open the Navicat client and create a MySQL connection. On the General tab of the window that appears, enter the connection name and information about the host that uses the MySQL protocol. On the SSH tab of the same window, select **Use SSH Channel** and enter information such as the IP address, username, and password of the bastion host.
 
-   ![](assets/79bd59b1f32a9293276230e7a48c349d.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/79bd59b1f32a9293276230e7a48c349d.png)
 
 2. Click OK to save the configurations and double-click the tag for a MySQL connection.
 
-   ![](assets/d8941018f15e0e29cb565e31684a893c.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/d8941018f15e0e29cb565e31684a893c.png)
 
 <a id="section-1-3"></a>
 
@@ -803,27 +803,27 @@ This topic provides an example on how to use Xshell to perform O&M operations on
 
 1. Open the Xshell tool. In the logon window of the Xshell tool, enter the IP address and port number 60022 of the O&M audit system.
 
-   ![](assets/5418e397eb4a29cea19d2b8f88fdc5f1.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/5418e397eb4a29cea19d2b8f88fdc5f1.jpeg)
 
 2. Click **Connect**. In the logon window of the O&M audit system, enter the username and password of the O&M audit system.
 
-   ![](assets/c46e289c8fc7ac5809e838ef52fc75fe.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/c46e289c8fc7ac5809e838ef52fc75fe.jpeg)
 
 3. Click **OK**. On the asset management page that appears, find hosts by pressing up and down arrow keys, and the Enter key.
 
-   ![](assets/51ec2423b6db61c66a97191f59c836b6.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/51ec2423b6db61c66a97191f59c836b6.jpeg)
 
 4. After you press the Enter key, an input box is displayed. Enter the username for logging on to the host.
 
-   ![](assets/354f38f700b79d2655b8cd0f4bde2886.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/354f38f700b79d2655b8cd0f4bde2886.jpeg)
 
 5. After you press the Enter key, the host logon page is displayed. Enter the password for logging on to the host.
 
-   ![](assets/3d2984e040ce883867484d1c000a27af.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/3d2984e040ce883867484d1c000a27af.jpeg)
 
 6. After you press the Enter key, you enter the page on which you can perform O&M operations on the host.
 
-   ![](assets/203f49d277a709bb5ed4654bda38049a.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/203f49d277a709bb5ed4654bda38049a.jpeg)
 
 <a id="section-1-3-2-2"></a>
 
@@ -833,27 +833,27 @@ This topic provides an example on how to use a remote desktop connection tool Mi
 
 1. Open the **Start** menu on your Windows computer, enter mstsc in the Run input box, and then press the Enter key. In the **Remote Desktop Connection** dialog box, enter the  `IP address and port number 63389 of the O&M audit system` .
 
-   ![](assets/f15d41968cd63f86fb68ec1b4f68bad8.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/f15d41968cd63f86fb68ec1b4f68bad8.jpeg)
 
 2. Click **Connect**. The **Do you trust this remote connection?** dialog box appears.
 
-   ![](assets/9c38107434e2f7fd4edaee8bd5803602.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/9c38107434e2f7fd4edaee8bd5803602.jpeg)
 
 3. Click **Connect**. The **Cannot verify the identity of the computer that requests the remote connection. Are you sure that you want to continue?** dialog box appears.
 
-   ![](assets/a17e59643955151b1a2e8e84ce656be7.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/a17e59643955151b1a2e8e84ce656be7.png)
 
 4. Click **Yes**. In the login dialog box, enter the username and password for logging on to the O&M audit system.
 
-   ![](assets/676d586a4633b15f00d416219ec96f96.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/676d586a4633b15f00d416219ec96f96.png)
 
 5. Click **Login**. On the asset management page that appears, select an authorized asset or search for the host information in the search box.
 
-   ![](assets/0e3466d4282334c1cf2b918051ac75f3.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/0e3466d4282334c1cf2b918051ac75f3.png)
 
 6. Double-click the host. The host logon page is displayed. Enter the username and password for logging on to the host.
 
-   ![](assets/1e0733320c067ab8aff9383ccf0c37db.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/1e0733320c067ab8aff9383ccf0c37db.jpeg)
 
 7. After you press the Enter key, you can enter the page on which you can perform O&M operations on the host.
 
@@ -865,15 +865,15 @@ This topic provides an example on how to use WinSCP to perform O&M operations on
 
 1. Open the WinSCP tool. In the logon window of the tool, enter the IP address, port number 60022, username, and password of the O&M audit system.
 
-   ![](assets/84e7e33c2de759f05305057f32f539d2.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/84e7e33c2de759f05305057f32f539d2.jpeg)
 
 2. Click **Log On**. In the window that appears, you can view the list of hosts on the right.
 
-   ![](assets/8d52458236f193764e2450a7268b2b9d.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/8d52458236f193764e2450a7268b2b9d.jpeg)
 
 3. Find the desired host and double-click the host. You can access the directories of the host and transfer files.
 
-   ![](assets/8d52458236f193764e2450a7268b2b9d.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/8d52458236f193764e2450a7268b2b9d.jpeg)
 
 <a id="section-1-3-2-4"></a>
 
@@ -883,23 +883,23 @@ This topic provides an example on how to use Xftp to perform O&M operations on h
 
 1. O&M engineers can go to the web page of a bastion host by using a browser. In the upper-right corner of the page that appears, move the pointer over the username and click **View Personal Information** to go to the page on which you can view the personal information about the user.
 
-   ![](assets/a6e82995149a2e27a366e74e376e702c.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/a6e82995149a2e27a366e74e376e702c.png)
 
 2. On the **CS Logon Password** tab of the **Personal Information** page, specify a CS logon password. This password is used to log on to Bastionhost to perform C/S O&M operations on hosts that use FTP.
 
-   ![](assets/7be6cee958de6855c19b1d02815fba95.png)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/7be6cee958de6855c19b1d02815fba95.png)
 
 3. Open the Xftp tool. In the logon window of the tool, enter the IP address, port number 60021, username, CS logon password, and FTP of the O&M audit system.
 
-   ![](assets/ee0e75ba715bf74456cfb502fc941796.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/ee0e75ba715bf74456cfb502fc941796.jpeg)
 
 4. Click **Connect**. In the window that appears, you can view the list of hosts on the right.
 
-   ![](assets/a74e64024f880640eee206788213584a.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/a74e64024f880640eee206788213584a.jpeg)
 
 5. Find the desired host and double-click the host. You can access the directories of the host and transfer files.
 
-   ![](assets/0cd30b259fcc01579c01d42057e0e60c.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/0cd30b259fcc01579c01d42057e0e60c.jpeg)
 
 <a id="section-1-4"></a>
 
@@ -913,19 +913,19 @@ This topic describes how to log on to a host by using menus for a CLI terminal a
 
 1. Start the CLI terminal application and enter  `ssh Username of the O&M audit system@IP address of the O&M audit system-p60022` .
 
-   ![](assets/a27e2840c07e21b22cb008b82837ce8d.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/a27e2840c07e21b22cb008b82837ce8d.jpeg)
 
 2. Press the Enter key. On the asset management page that appears, find authorized assets by pressing up and down arrow keys.
 
-   ![](assets/9cd81a8ce6d075646e238aa3cc1b18cc.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/9cd81a8ce6d075646e238aa3cc1b18cc.jpeg)
 
 3. After you press the Enter key, select the username that you want to use to log on to the desired host.
 
-   ![](assets/4560d4d418fed7f80097abbc2dfc765d.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/4560d4d418fed7f80097abbc2dfc765d.jpeg)
 
 4. After you press the Enter key, you enter the page on which you can perform O&M operations on the host.
 
-   ![](assets/b13a52f4a0d66ad13ec5fe5666197e10.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/b13a52f4a0d66ad13ec5fe5666197e10.jpeg)
 
 <a id="section-1-4-2"></a>
 
@@ -935,18 +935,18 @@ This topic describes how a remote desktop connection application logs on to a ho
 
 1. Start the remote desktop connection application and enter the  `IP address and port number 63389 of the O&M audit system` .
 
-   ![](assets/54eaabc7ea86f43e9accff8c6489aa45.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/54eaabc7ea86f43e9accff8c6489aa45.jpeg)
 
 2. Click **Connect**. The **Are you sure that you want to continue to connect this computer?** dialog box appears.
 
-   ![](assets/b54331a45e891a81b0bfc5f11b7bfa80.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/b54331a45e891a81b0bfc5f11b7bfa80.jpeg)
 
 3. Click **Connect**. In the logon window of the O&M audit system, enter the username and password for logging on to the O&M audit system.
 
-   ![](assets/29f228eded132bd5bbd52bd36d416474.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/29f228eded132bd5bbd52bd36d416474.jpeg)
 
 4. Click **Login**. On the asset management page that appears, select an authorized asset or search for the host information in the search box.
 
-   ![](assets/363cad73c7ce5392d56ce84b9fff2238.jpeg)
+   ![](en-bastionhost-tenant-side-operations-guide-v3.18.6-20260701.assets/363cad73c7ce5392d56ce84b9fff2238.jpeg)
 
 5. After you double-click the host, you can enter the page on which you can perform O&M operations on the host.

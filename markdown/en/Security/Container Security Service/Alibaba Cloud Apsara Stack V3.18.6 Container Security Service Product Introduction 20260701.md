@@ -59,11 +59,11 @@ Based on the principle of secure-by-default, CSS manages software assets such as
 
 Integrated
 
-![](assets/472fb1ed37416731d74232d85731a3c8.png)
+![](en-container-security-product-introduction-v3.18.6-20260701.assets/472fb1ed37416731d74232d85731a3c8.png)
 
 Test
 
-![](assets/97fcfb7a289f63a45ac9a0f329f8a2ae.png)
+![](en-container-security-product-introduction-v3.18.6-20260701.assets/97fcfb7a289f63a45ac9a0f329f8a2ae.png)
 
 Trigger a
 
@@ -71,7 +71,7 @@ Git/Svn
 
 Test
 
-![](assets/abdd6c9b49fab83b6484cbee3d006f35.png)
+![](en-container-security-product-introduction-v3.18.6-20260701.assets/abdd6c9b49fab83b6484cbee3d006f35.png)
 
 Code
 
@@ -109,7 +109,7 @@ Cloud Functions
 
 (FaaS)
 
-![](assets/e14d4711a84a87283f998b6e86d1b2c3.png)
+![](en-container-security-product-introduction-v3.18.6-20260701.assets/e14d4711a84a87283f998b6e86d1b2c3.png)
 
 JavaScript...
 
@@ -639,7 +639,7 @@ The security control mode of Apsara Stack Security Container Security Service (C
 
 You can interact with CSS in browser/server mode and can log in to the CSS console over HTTPS. CSS supports mainstream browsers. In the CSS console, you can query risk data in the cloud in real time and configure security policies to handle security risks based on your business requirements.
 
-![](assets/aee437ffc07ab09ee9d669dd6f4df62b.png)
+![](en-container-security-product-introduction-v3.18.6-20260701.assets/aee437ffc07ab09ee9d669dd6f4df62b.png)
 
 the
 
@@ -653,7 +653,7 @@ the
 
 From Apsara Stack Security V3.18.2, the method of using base resources is updated for CSS. Before the update, Apsara Stack physical machines are deployed in Apsara Infrastructure Management. After the update, the machines are deployed in PaaS environments to share resource pools with cloud services. The following figure shows the service architecture after the update.
 
-![](assets/a64d67939349ebf68c0d919d836841a3.png)
+![](en-container-security-product-introduction-v3.18.6-20260701.assets/a64d67939349ebf68c0d919d836841a3.png)
 
 The server side consists of the following types of modules:
 
@@ -667,7 +667,7 @@ The server side consists of the following types of modules:
 
 - Client management: manages client connections, updates the status of container clusters, and delivers configuration rules.
 
-![](assets/02d1d2d4f8cc8bcecf65e7c807f18d0e.png)
+![](en-container-security-product-introduction-v3.18.6-20260701.assets/02d1d2d4f8cc8bcecf65e7c807f18d0e.png)
 
 **Computing, Storage, and**
 
@@ -675,7 +675,7 @@ The server side consists of the following types of modules:
 
 CSS provides security capabilities to protect Docker, Container Service for Kubernetes (ACK), and Container Registry on the tenant side, servers in data centers, and servers of third-party clouds. The capabilities are divided into the following categories: centralized cloud asset management, CI/CD security, image security, container runtime protection, and microsegmentation.
 
-![](assets/fd150e37287b4fc71dfd45b8f4dc7f9f.png)
+![](en-container-security-product-introduction-v3.18.6-20260701.assets/fd150e37287b4fc71dfd45b8f4dc7f9f.png)
 
 Container Lifecycle
 
@@ -809,13 +809,13 @@ AlibabaCloudSecurityCenter
 
 The zone-disaster recovery architecture of CSS follows the rules of the active-active mode. In this architecture, disaster recovery is ensured by cloud storage or middleware.
 
-![](assets/b6c520076fd4bf46f645c8a9f46e99e5.png)
+![](en-container-security-product-introduction-v3.18.6-20260701.assets/b6c520076fd4bf46f645c8a9f46e99e5.png)
 
-![](assets/16c0b010c45fce984988e434f2856f49.png)
+![](en-container-security-product-introduction-v3.18.6-20260701.assets/16c0b010c45fce984988e434f2856f49.png)
 
-![](assets/08f9eb023d5c223a00730d471fe9156f.png)
+![](en-container-security-product-introduction-v3.18.6-20260701.assets/08f9eb023d5c223a00730d471fe9156f.png)
 
-![](assets/7b999e64690d8319d6bc2c5c4966380e.png)
+![](en-container-security-product-introduction-v3.18.6-20260701.assets/7b999e64690d8319d6bc2c5c4966380e.png)
 
 Primary/Secondary
 

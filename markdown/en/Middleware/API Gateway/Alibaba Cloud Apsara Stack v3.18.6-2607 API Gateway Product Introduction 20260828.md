@@ -213,7 +213,7 @@ This topic describes the core scenarios for API Gateway.
 
 - Multi-active disaster recovery: As a unified access layer for multiple clusters, the gateway enables features such as multi-active disaster recovery. It supports multiple service sources, such as ACK, MSE Nacos, FC, DNS domain names, and fixed IP addresses. The gateway enables precise routing based on ratios or request content and supports health checks and service fallback.
 
-![](assets/5394dbdf32e188376e581e80e8fe6bfd.jpeg)
+![](en-api-gateway-product-introduction-v3.18.6-2607-20260828.assets/5394dbdf32e188376e581e80e8fe6bfd.jpeg)
 
 **API full lifecycle management**
 
@@ -225,7 +225,7 @@ This topic describes the core scenarios for API Gateway.
 
 - Multi-environment management: Multi-environment management keeps development, testing, pre-production, and production environments separate. This prevents development and testing activities from affecting the production environment. It also simplifies testing and validation at different stages.
 
-![](assets/6c3d2d287f7675f15e14aa48146a29df.jpeg)
+![](en-api-gateway-product-introduction-v3.18.6-2607-20260828.assets/6c3d2d287f7675f15e14aa48146a29df.jpeg)
 
 <a id="section-1-5"></a>
 

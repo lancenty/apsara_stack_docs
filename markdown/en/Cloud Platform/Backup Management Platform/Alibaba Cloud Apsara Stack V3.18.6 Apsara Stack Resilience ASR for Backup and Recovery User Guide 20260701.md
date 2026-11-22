@@ -642,7 +642,7 @@ This topic describes the procedure of backup and recovery.
 
 The following figure shows the backup and recovery procedure.
 
-![](assets/7f55ac027231d188428005b16b22e727.png)
+![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/7f55ac027231d188428005b16b22e727.png)
 
 <a id="section-4"></a>
 
@@ -698,9 +698,9 @@ This topic describes the statistics that are displayed on the Overview page of t
 
 2. In the left-side navigation pane, click **Overview**.
 
-   ![](assets/9754b0feff805e0e05889d66d7012fa1.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/9754b0feff805e0e05889d66d7012fa1.jpeg)
 
-   ![](assets/469777f9f9d2bbad93fba20f00c32fff.png)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/469777f9f9d2bbad93fba20f00c32fff.png)
 
    **Section**
 
@@ -937,11 +937,11 @@ The user guide page provides the overview, usage process, best practices, and ke
 
    For the operations administrator:
 
-   ![](assets/0c67ff5b477c6b3f45b1644d74df557d.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/0c67ff5b477c6b3f45b1644d74df557d.jpeg)
 
    If you are an organization administrator, you can view the following page:
 
-   ![](assets/f7a2c498e5685026fdfd62258971b851.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/f7a2c498e5685026fdfd62258971b851.jpeg)
 
    | Module | Description |
    | --- | --- |
@@ -980,7 +980,7 @@ Storage pool groups are physical clusters where backup data is stored. A storage
    >
    > A maximum of 16 storage pool groups can be created.
 
-   ![](assets/630b4274541c776ed38cfe4517d52207.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/630b4274541c776ed38cfe4517d52207.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -998,7 +998,7 @@ Storage pool groups are physical clusters where backup data is stored. A storage
    >
    > You can also click **Add Storage Pool** in the **Actions** column on the Manage Storage Pool Group page to create a storage pool.
 
-   ![](assets/866bcd0c90036929622b8c6898cd7a85.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/866bcd0c90036929622b8c6898cd7a85.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -1034,7 +1034,7 @@ You can view the status of instances in the primary cloud center and the backup 
 
 2. In the left-side navigation pane, click **Instances**.
 
-   ![](assets/45012186b2e6a82619515e2fb9812061.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/45012186b2e6a82619515e2fb9812061.jpeg)
 
 3. On the page that appears, click the tab of the service whose instances you want to view.
 
@@ -1112,7 +1112,7 @@ The instance is added to a backup plan.
 
 5. Move the pointer over a position in the chart to view the backup duration. You can also view the points in time when backups started and ended.
 
-   ![](assets/72f4e512fc61c77f680b9f7cc39c9c12.png)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/72f4e512fc61c77f680b9f7cc39c9c12.png)
 
 6. Optional. In the upper-right corner of the page, adjust the number of recent backups that are displayed in the chart. ASR for Backup and Recovery allows you to view the durations of the recent 10, 20, 30, and 50 backups.
 
@@ -1156,7 +1156,7 @@ A backup vault is a logical storage space that is planned on a storage pool. A b
 
 4. In the **Create Backup Vault** dialog box, configure the parameters as described in the following table.
 
-   ![](assets/bc7aad575d46d21379b4d89cd02bf84e.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/bc7aad575d46d21379b4d89cd02bf84e.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -1357,7 +1357,7 @@ You can create a mirror vault and associate a backup vault with the mirror vault
 
    After the mirror vault is created, it is displayed in the list on the **Backup Vaults** page.
 
-7. Click the <img src="assets/51b526ad1be85471bba73f565141c441.png" width="19" alt=""> icon in the **Image Repository** column to display the mirror vault list. The
+7. Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/51b526ad1be85471bba73f565141c441.png" width="19" alt=""> icon in the **Image Repository** column to display the mirror vault list. The
 
    number indicates the number of mirror vaults attached to the backup vault.
 
@@ -1494,7 +1494,7 @@ After you create a backup plan, ASR for Backup and Recovery regularly backs up d
 
    <li>
 
-   Click <img src="assets/32c9de93c59e6442e2680c7dc53a285c.png" width="15" alt=""> to add the selected Tablestore tables to the right-side section.
+   Click <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/32c9de93c59e6442e2680c7dc53a285c.png" width="15" alt=""> to add the selected Tablestore tables to the right-side section.
 
    </li>
 
@@ -2908,7 +2908,7 @@ This topic describes how to create a backup plan for ApsaraDB for MongoDB instan
    >
    > The remote backup cycle depends on the local backup cycle. For example, if you select Monday, Tuesday, and Wednesday for the local backup cycle, you can select only Monday, Tuesday, or Wednesday for the remote backup cycle.
 
-   > <img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
+   > <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
 
    The time when the backup is performed for the first time. The
 
@@ -3221,7 +3221,7 @@ This topic describes how to create a backup plan for PolarDB-X 2.0 instances. Af
 
    > You must set the Backup Time parameter to at least 1 hour after the current time. If you set the Backup Time parameter to less than 1 hour after the current time, the instance may not be backed up on the same day. Instead, it will be backed up during the next backup cycle.
 
-   > <img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
+   > <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
 
    **Backup**
 
@@ -3444,7 +3444,7 @@ After you create a backup plan, ASR for Backup and Recovery regularly backs up d
 
    <table>
      <tr>
-       <td rowspan="10">Remote Backup<br><img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt=""><br>Not e<br>Re mot e Bac kup is ena bled by def ault.You can disa ble it by clic king Ena ble <strong>d</strong> in the upp er-righ t cor ner of the Re mot e Bac kup sect ion.</td>
+       <td rowspan="10">Remote Backup<br><img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt=""><br>Not e<br>Re mot e Bac kup is ena bled by def ault.You can disa ble it by clic king Ena ble <strong>d</strong> in the upp er-righ t cor ner of the Re mot e Bac kup sect ion.</td>
        <td>Backup Mode</td>
        <td>Only <strong>Full Backup</strong> is supported.</td>
      </tr>
@@ -4840,7 +4840,7 @@ This topic describes how to create a backup plan for Elastic Desktop Service (ED
 
    when you want to perform a backup.
 
-   > <img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
+   > <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
    >
    > **Not e**
 
@@ -5080,7 +5080,7 @@ If you want to modify the resources or configurations of a backup instance, you 
 
 5. In the **Instance Information** section of the **Backup Information** tab, find the instance that you want to manage and click **Configure** in the Actions column.
 
-   ![](assets/edc76caf68789f13b2f542270873ee27.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/edc76caf68789f13b2f542270873ee27.jpeg)
 
 6. In the dialog box that appears, configure the parameters for the instance and click **OK**.
 
@@ -5120,7 +5120,7 @@ This topic describes how to modify the backup policy of a backup plan. A backup 
 
 5. In the **Backup Policy** section of the **Backup Information** tab, click **Modify Backup Policy**.
 
-   ![](assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/8ed1c6aad1e2c08d09001de4f30fa2b6.jpeg)
 
 6. Modify the parameter settings of the backup policy and click **Save**.
 
@@ -5176,7 +5176,7 @@ You can view the log of events that are executed in a backup plan.
 
 5. Click the **Backup Event** tab.
 
-6. Click the <img src="assets/92bb44e42f1bf5158b89ef2011ef9405.png" width="20" alt=""> icon to the left of an event to view the event status of each instance.
+6. Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/92bb44e42f1bf5158b89ef2011ef9405.png" width="20" alt=""> icon to the left of an event to view the event status of each instance.
 
    Click **View Logs** in the Actions column to view the event logs.
 
@@ -5232,7 +5232,7 @@ The current Apsara Stack Resilience for Backup and Recovery (ASR-BR) version all
 
 3. On the **Backup Record** page, view backup records of backup plans and instances.
 
-   ![](assets/7cceb74aa487cf0b0ab8c07d9b179301.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/7cceb74aa487cf0b0ab8c07d9b179301.jpeg)
 
    - To view the backup records of a backup plan, perform the following steps:
 
@@ -5256,7 +5256,7 @@ The current Apsara Stack Resilience for Backup and Recovery (ASR-BR) version all
 
      <li>
 
-     On the Plan View tab, find the backup plan that you want to view and click the <img src="assets/9e58f8b5189d86a5e9ce84a2c04a6140.png" width="14" alt=""> icon
+     On the Plan View tab, find the backup plan that you want to view and click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/9e58f8b5189d86a5e9ce84a2c04a6140.png" width="14" alt=""> icon
 
      next to the backup plan name. Then, click **View Details** in the Actions column to go to the Backup Record tab.
 
@@ -5292,11 +5292,11 @@ The current Apsara Stack Resilience for Backup and Recovery (ASR-BR) version all
 
      <li value="500">
 
-     Find the instance that you want to view and click the <img src="assets/9e58f8b5189d86a5e9ce84a2c04a6140.png" width="14" alt=""> icon next to the instance ID to
+     Find the instance that you want to view and click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/9e58f8b5189d86a5e9ce84a2c04a6140.png" width="14" alt=""> icon next to the instance ID to
 
      view all backup records of the instance.
 
-     ![](assets/5d91179bc69f6d84fb5cabebf49a232d.jpeg)
+     ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/5d91179bc69f6d84fb5cabebf49a232d.jpeg)
 
      </li>
 
@@ -5652,7 +5652,7 @@ The network connection type of the new instance. By default, the network connect
 
 The network type of the new instance.
 
-> <img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
+> <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
 >
 > **Note**
 
@@ -5748,7 +5748,7 @@ The image to be used by the restoration job. Valid values:
 
 - Shared Custom Image
 
-> <img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
+> <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
 
 The image selection. Select an image based on the value of the
 
@@ -8549,7 +8549,7 @@ You can view the latest recovery record status for all recovery plans, details o
 
 4. Click **View Details** in the **Operation** column of a recovery plan to view its details.
 
-   ![](assets/93b90b69159f5a6f9230e48ac469eab1.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/93b90b69159f5a6f9230e48ac469eab1.jpeg)
 
    Item
 
@@ -8608,7 +8608,7 @@ You can view the latest recovery record status for all recovery plans, details o
    <table>
      <tr>
        <td>Recovery History</td>
-       <td>Displays recovery history for this recovery plan.<br>• Expand a recovery record, and click <strong>Details</strong> in the Operation column of an instance recovery record to view its detailed information.<br>• Expand a recovery record, and click <strong>Event</strong> in the Operation column of an instance recovery record to view its events and statuses.<br>• Click <strong>Logs</strong> in the Actions column of an event to view its specific log information.<br>• After expanding an event, click the<img src="assets/5f5d6bbe705d5fa944a2d9eb8a56cfcb.png" width="14" alt="">icon next to a sub-<br>event to view its log information.<br>• Event statuses include:<br>• <strong>Successful</strong>: The event executed successfully.<br>• <strong>Canceled</strong>: This status appears after you cancel a sub-event.<br>• <strong>Failed</strong>, <strong>Timeout</strong>, <strong>Stop</strong>: When a sub-event is in one of<br>these three states, click the<img src="assets/45353a2ea3a07fa59ccff69f5b8b437f.png" width="15" alt="">icon next to the sub-<br>event to retry it.<br>Important<br>This operation is an event O&amp;M action and is not normally required. If a subsequent execution of the same event succeeds, do not retry the older one.<br>• <strong>Pending</strong>, <strong>In Progress</strong>, <strong>Synchronizing</strong>: When a sub-<br>event is in one of these three states, click the<img src="assets/9fb057c9c26aba3d83d65aad7bb3c417.png" width="16" alt="">icon<br>next to the sub-event to cancel it. After cancellation, the sub-event status changes to <strong>Canceled</strong>.<br>Important<br>This operation is an event O&amp;M action and is not normally required. It is irreversible. Proceed with caution.</td>
+       <td>Displays recovery history for this recovery plan.<br>• Expand a recovery record, and click <strong>Details</strong> in the Operation column of an instance recovery record to view its detailed information.<br>• Expand a recovery record, and click <strong>Event</strong> in the Operation column of an instance recovery record to view its events and statuses.<br>• Click <strong>Logs</strong> in the Actions column of an event to view its specific log information.<br>• After expanding an event, click the<img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/5f5d6bbe705d5fa944a2d9eb8a56cfcb.png" width="14" alt="">icon next to a sub-<br>event to view its log information.<br>• Event statuses include:<br>• <strong>Successful</strong>: The event executed successfully.<br>• <strong>Canceled</strong>: This status appears after you cancel a sub-event.<br>• <strong>Failed</strong>, <strong>Timeout</strong>, <strong>Stop</strong>: When a sub-event is in one of<br>these three states, click the<img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/45353a2ea3a07fa59ccff69f5b8b437f.png" width="15" alt="">icon next to the sub-<br>event to retry it.<br>Important<br>This operation is an event O&amp;M action and is not normally required. If a subsequent execution of the same event succeeds, do not retry the older one.<br>• <strong>Pending</strong>, <strong>In Progress</strong>, <strong>Synchronizing</strong>: When a sub-<br>event is in one of these three states, click the<img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/9fb057c9c26aba3d83d65aad7bb3c417.png" width="16" alt="">icon<br>next to the sub-event to cancel it. After cancellation, the sub-event status changes to <strong>Canceled</strong>.<br>Important<br>This operation is an event O&amp;M action and is not normally required. It is irreversible. Proceed with caution.</td>
      </tr>
    </table>
 
@@ -8660,9 +8660,9 @@ View the recovery history of restored instances on the Recovery History tab.
 
    > **Note**
    >
-   > Click the <img src="assets/560cfbf2ce20ff67de291b29f59ae71e.png" width="18" alt=""> next to an instance backup record ID to view backup record details.
+   > Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/560cfbf2ce20ff67de291b29f59ae71e.png" width="18" alt=""> next to an instance backup record ID to view backup record details.
 
-   ![](assets/6b621fb816080970d30ef1cbffbe4299.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/6b621fb816080970d30ef1cbffbe4299.jpeg)
 
 <a id="section-12-2-2"></a>
 
@@ -8680,11 +8680,11 @@ View event information for restored instances on the Recovery History tab.
 
 4. Click **Event** in the **Actions** column of a recovery record to view recovery events for that instance.
 
-   ![](assets/1d63b3bb46ce7267b12cfafdde58dea1.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/1d63b3bb46ce7267b12cfafdde58dea1.jpeg)
 
    - Click **Log** in the Actions column of an event to view detailed log information.
 
-   - After expanding an event, click the <img src="assets/5f5d6bbe705d5fa944a2d9eb8a56cfcb.png" width="14" alt=""> icon next to a sub-event to view its log information.
+   - After expanding an event, click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/5f5d6bbe705d5fa944a2d9eb8a56cfcb.png" width="14" alt=""> icon next to a sub-event to view its log information.
 
    - Event statuses include:
 
@@ -8692,7 +8692,7 @@ View event information for restored instances on the Recovery History tab.
 
      - **Canceled**: This status appears after you cancel a sub-event.
 
-     - **Failed**, **Timeout**, **Stop**: When a sub-event is in one of these three states, click the <img src="assets/45353a2ea3a07fa59ccff69f5b8b437f.png" width="15" alt="">
+     - **Failed**, **Timeout**, **Stop**: When a sub-event is in one of these three states, click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/45353a2ea3a07fa59ccff69f5b8b437f.png" width="15" alt="">
 
        icon next to the sub-event to retry it.
 
@@ -8702,7 +8702,7 @@ View event information for restored instances on the Recovery History tab.
 
      - **Pending**, **In Progress**, **Synchronizing**: When a sub-event is in one of these three
 
-       states, click the <img src="assets/9fb057c9c26aba3d83d65aad7bb3c417.png" width="16" alt=""> icon next to the sub-event to cancel it. After cancellation, the sub-
+       states, click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/9fb057c9c26aba3d83d65aad7bb3c417.png" width="16" alt=""> icon next to the sub-event to cancel it. After cancellation, the sub-
 
        event status changes to **Canceled**.
 
@@ -8762,7 +8762,7 @@ View the restore policies you created and their associated recovery plans.
 
 4. In the restore policy list, view the restore policies you created.
 
-5. (Optional) If a restore policy has an associated recovery plan, click the <img src="assets/309a62bd102460ec092a6b925992001e.png" width="12" alt=""> icon next to the
+5. (Optional) If a restore policy has an associated recovery plan, click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/309a62bd102460ec092a6b925992001e.png" width="12" alt=""> icon next to the
 
    restore policy to view the associated recovery plan.
 
@@ -8828,7 +8828,7 @@ The restore policy is not associated with any recovery plan.
 
 The following figure shows the backup and recovery procedure.
 
-![](assets/cb2ffb7fd08e99132ab4db8ff85a7938.jpeg)
+![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/cb2ffb7fd08e99132ab4db8ff85a7938.jpeg)
 
 1. Currently, only ApsaraDB RDS, Object Storage Service (OSS), and PolarDB that uses local disks are supported. Therefore, you must create the corresponding instances in the ASR-BR console for these services.
 
@@ -8876,7 +8876,7 @@ Only one account of the ASR for Backup and Recovery console can be configured wi
 
    appears, set the **Name** parameter to admin and click **OK**. Obtain the AK/SK of the AISHU platform.
 
-   ![](assets/49eb62b3177e826646244cdad06f09d0.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/49eb62b3177e826646244cdad06f09d0.jpeg)
 
    <ol type="i" start="4">
 
@@ -9091,9 +9091,9 @@ After data is archived, you can view archived records. This topic describes how 
 
 3. Specify the Plan Name and Archive Results parameters to filter the archived records that meet the conditions.
 
-   ![](assets/dd8c64b016280c67076afbbe4909b436.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/dd8c64b016280c67076afbbe4909b436.jpeg)
 
-4. Click the <img src="assets/44c8e9970bba6f9607555712bdd7cfb0.png" width="20" alt=""> icon to view the archived records of each instance in the archive plan.
+4. Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/44c8e9970bba6f9607555712bdd7cfb0.png" width="20" alt=""> icon to view the archived records of each instance in the archive plan.
 
 <a id="section-13-5"></a>
 
@@ -9453,11 +9453,11 @@ This topic describes how to create and view archive restoration jobs.
 
    Configure the Organization, Resource Set, Instance Type, Task Status, and Task Name parameters to search for the archive restoration tasks that meet the filter conditions.
 
-   ![](assets/58da307790d77f81c4204d32dbf67f86.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/58da307790d77f81c4204d32dbf67f86.jpeg)
 
 5. Click **View Details** in the **Actions** column to view the archive restoration information and archive restoration events.
 
-   ![](assets/335b5ede462cc13ea71ede68fb3c1e69.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/335b5ede462cc13ea71ede68fb3c1e69.jpeg)
 
    - View archive restoration information:
 
@@ -9473,7 +9473,7 @@ This topic describes how to create and view archive restoration jobs.
 
      In the Restore Instance section, click **View Details** in the **Actions** column to view the instance details.
 
-     ![](assets/a45c0df7845cbdf185944406c512842a.jpeg)
+     ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/a45c0df7845cbdf185944406c512842a.jpeg)
 
      </li>
 
@@ -9501,7 +9501,7 @@ This topic describes how to create and view archive restoration jobs.
 
      <li>
 
-     Find the restoration event that you want to view and click the <img src="assets/95d9be0690ccd9188c6159c96ba8814b.png" width="14" alt=""> icon on the left side of
+     Find the restoration event that you want to view and click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/95d9be0690ccd9188c6159c96ba8814b.png" width="14" alt=""> icon on the left side of
 
      the restoration event to view the details of the event.
 
@@ -9547,29 +9547,29 @@ The asrbr-vmware-appliance.ova file that is used to install the backup gateway i
 
 3. In the **New virtual machine** dialog box, select **Deploy a virtual machine from an OVF or OVA file** and click **Next**.
 
-   ![](assets/76e4f991facd0a1105af6690027e345e.png)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/76e4f991facd0a1105af6690027e345e.png)
 
 4. Enter a name for the VM, select the OVA file **asrbr-vmware-appliance.ova**, and then click **Next**.
 
-   ![](assets/7de12b36400031073bb70c1a4c8d9ce0.png)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/7de12b36400031073bb70c1a4c8d9ce0.png)
 
 5. Select a storage type and datastore, and click **Next**.
 
-   ![](assets/a05409efc6f4605f524301204b3e24d3.png)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/a05409efc6f4605f524301204b3e24d3.png)
 
 6. Use the default settings in the **Deployment options** step, and click **Next**.
 
-   ![](assets/8fc0b1c13bb9807d606c7ad2f261f3a2.png)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/8fc0b1c13bb9807d606c7ad2f261f3a2.png)
 
 7. In the **Additional settings** step, configure the parameters and click **Next**.
 
-   ![](assets/29be5856346e2882862afb86af968943.png)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/29be5856346e2882862afb86af968943.png)
 
 8. In the **Ready to complete** step, click **Finish**.
 
 9. In the **Recent tasks** section, view the task status. If the task is in the **Completed successfully** state, the VM is deployed.
 
-   ![](assets/47d4e244b4d1d8bf6a77b7e2650ae998.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/47d4e244b4d1d8bf6a77b7e2650ae998.jpeg)
 
 0. After the VM is deployed, start the VM.
 
@@ -9587,7 +9587,7 @@ This topic describes how to register a backup gateway. Before you can register a
 
 3. Click **Activation Code** to view the activation code.
 
-   ![](assets/f054ca060dce1d192fb8b80cc8a18e51.png)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/f054ca060dce1d192fb8b80cc8a18e51.png)
 
 **Register a backup gateway**
 
@@ -9627,7 +9627,7 @@ VMware VMs are backed up.
 
 4. In the **Create vCenter** dialog box, specify the following parameters.
 
-   ![](assets/be526fbb3c1f0bddd69c18dcc06e6db4.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/be526fbb3c1f0bddd69c18dcc06e6db4.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -9769,7 +9769,7 @@ For more information, see Create a storage pool.
 
 3. On the page that appears, find the storage pool group that you want to manage, click the
 
-   <img src="assets/839ac7309792014f1ce8f04d65c57ebd.png" width="18" alt=""> icon, and then click **Cross-region/Cross-cloud Replication Authorization** in the
+   <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/839ac7309792014f1ce8f04d65c57ebd.png" width="18" alt=""> icon, and then click **Cross-region/Cross-cloud Replication Authorization** in the
 
    **Actions** column.
 
@@ -9903,7 +9903,7 @@ A self-backup management policy is configured, and the metadata of ASR for Backu
 
    In the **Restore Metadata** dialog box, select a storage pool from the **Storage Pool** drop-down list and specify an OSS bucket in which ASR-BR metadata is stored for the **bucket** parameter. Then, click **Search**. Select the metadata backup from which you want to perform the recovery and then click **Start**.
 
-   ![](assets/552ad7bdcbb841b4eb924598a7196dee.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/552ad7bdcbb841b4eb924598a7196dee.jpeg)
 
    </li>
 
@@ -9927,7 +9927,7 @@ A self-backup management policy is configured, and the metadata of ASR for Backu
 
    <li>
 
-   When the step is **Revise Organization**, click the <img src="assets/cd6b894ca51e5a07b4408d13a4438ac3.png" width="20" alt=""> icon in the **Actions** column and
+   When the step is **Revise Organization**, click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/cd6b894ca51e5a07b4408d13a4438ac3.png" width="20" alt=""> icon in the **Actions** column and
 
    select **Revise Organization**.
 
@@ -10011,7 +10011,7 @@ A self-backup management policy is configured, and the metadata of ASR for Backu
 
    <li>
 
-   In the **Select Instance** step, select an instance from the instance list, click the <img src="assets/513f24e35d5f9937739f061720181df1.png" width="16" alt=""> icon,
+   In the **Select Instance** step, select an instance from the instance list, click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/513f24e35d5f9937739f061720181df1.png" width="16" alt=""> icon,
 
    and then click **Next**.
 
@@ -10077,7 +10077,7 @@ A self-backup management policy is configured, and the metadata of ASR for Backu
 
    <li>
 
-   Click the <img src="assets/cd6b894ca51e5a07b4408d13a4438ac3.png" width="20" alt=""> icon in the **Actions** column and select **End Task**.
+   Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/cd6b894ca51e5a07b4408d13a4438ac3.png" width="20" alt=""> icon in the **Actions** column and select **End Task**.
 
    </li>
 
@@ -10177,11 +10177,11 @@ This topic describes how to view alert records and handle related alerts.
 
 2. In the left-side navigation pane, choose **O&M Management > Alerts**.
 
-3. (Optional) You can click the <img src="assets/add0514185a38b0243b4198488789e07.png" width="30" alt=""> icon in the top navigation bar to view the latest five alerts.
+3. (Optional) You can click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/add0514185a38b0243b4198488789e07.png" width="30" alt=""> icon in the top navigation bar to view the latest five alerts.
 
    Click **View More** to view more alert records on the **Alert List** page.
 
-   ![](assets/58e35ca2cddb38f8a482e5955eabab7a.png)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/58e35ca2cddb38f8a482e5955eabab7a.png)
 
    > **Note**
    >
@@ -10189,7 +10189,7 @@ This topic describes how to view alert records and handle related alerts.
    >
    > icon indicates that you have unread alert records.
    >
-   > ![](assets/add0514185a38b0243b4198488789e07.png)
+   > ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/add0514185a38b0243b4198488789e07.png)
 
 4. On the **Alert List** page, query alert records by **Alert Level**, **Alert Object**, **Business Type**, and **Organization**.
 
@@ -10203,7 +10203,7 @@ You can mark handled alerts as read. After alerts are marked as read, the system
 
 **Background information**
 
-If a red dot appears on the <img src="assets/add0514185a38b0243b4198488789e07.png" width="30" alt=""> icon in the top navigation bar, unread alerts exist.
+If a red dot appears on the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/add0514185a38b0243b4198488789e07.png" width="30" alt=""> icon in the top navigation bar, unread alerts exist.
 
 **Procedure**
 
@@ -10213,7 +10213,7 @@ If a red dot appears on the <img src="assets/add0514185a38b0243b4198488789e07.pn
 
 3. Specify search conditions to search for an alert. The following search conditions are supported: **Alert Level**, **Alert Object**, **Business Type**, and **Organization**.
 
-4. Find the alert, click the <img src="assets/83e6d9517141b94296d5cbfec550edee.png" width="12" alt=""> icon in the **Actions** column, and then select **Mark As Read**.
+4. Find the alert, click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/83e6d9517141b94296d5cbfec550edee.png" width="12" alt=""> icon in the **Actions** column, and then select **Mark As Read**.
 
 5. In the **Mark as Read** message, click **OK**.
 
@@ -10289,15 +10289,15 @@ The throttling service supports only physical throttling. If multiple backup eng
 
 3. On the **Cloud Service** tab, click **Modify Configurations**, configure the parameters, and then click **Submit**.
 
-4. Click the <img src="assets/dfe2266d7fb3b3c67963e9a90ca9b258.png" width="14" alt=""> icon in the upper-right corner of the Throttling Threshold Configuration section
+4. Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/dfe2266d7fb3b3c67963e9a90ca9b258.png" width="14" alt=""> icon in the upper-right corner of the Throttling Threshold Configuration section
 
-   to hide the throttling settings. Click the <img src="assets/08894aff937b49a23e0faf479e0b3c9f.png" width="14" alt=""> icon in the upper-right corner again to display
+   to hide the throttling settings. Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/08894aff937b49a23e0faf479e0b3c9f.png" width="14" alt=""> icon in the upper-right corner again to display
 
    the Throttling Threshold Configuration section.
 
-5. After you click **Modify configuration**, a <img src="assets/19bbb888e7810c064909ee0b9918f23d.png" width="12" alt=""> icon appears next to the time period. You can
+5. After you click **Modify configuration**, a <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/19bbb888e7810c064909ee0b9918f23d.png" width="12" alt=""> icon appears next to the time period. You can
 
-   click the <img src="assets/19bbb888e7810c064909ee0b9918f23d.png" width="12" alt=""> icon to modify an existing time period. You can also click **Add Time Period** to
+   click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/19bbb888e7810c064909ee0b9918f23d.png" width="12" alt=""> icon to modify an existing time period. You can also click **Add Time Period** to
 
    add a new time period. After you complete the configurations, click **OK** to view the throttling information of each time period.
 
@@ -10305,7 +10305,7 @@ The throttling service supports only physical throttling. If multiple backup eng
    >
    > The throttling configurations for different time periods do not affect each other. The throttling configurations of different storage pools do not affect each other.
 
-   ![](assets/c5a3ab8aae924c89aea907d740750997.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/c5a3ab8aae924c89aea907d740750997.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -10355,19 +10355,19 @@ You can use the engine monitoring feature to view traffic, CPU, memory, and load
 
 3. On the **Traffic Monitoring** tab, view the inbound and outbound traffic of the hosts for the HBR-agent and Gulltoppr backup engines.
 
-   ![](assets/ea68f95a03b6e719d8e5e855adb32bd2.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/ea68f95a03b6e719d8e5e855adb32bd2.jpeg)
 
 4. On the **CPU Monitoring** tab, view the average and maximum CPU usage of the backup engines.
 
-   ![](assets/6f0af417d1c1bcea01ddd71cab23c66e.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/6f0af417d1c1bcea01ddd71cab23c66e.jpeg)
 
 5. On the **Memory Monitoring** tab, view the average and maximum memory usage of the backup engines.
 
-   ![](assets/1647846e0022b5c66af856ad589711ad.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/1647846e0022b5c66af856ad589711ad.jpeg)
 
 6. On the **Load Monitoring** tab, view the average and maximum load usage of the backup engines every 1 minute, every 5 minutes, and every 15 minutes. You can select **Average Usage** or **Maximum Usage** from the **Load Options** drop-down list.
 
-   ![](assets/40602b29a8fc9fa9e79e536c1a8638b2.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/40602b29a8fc9fa9e79e536c1a8638b2.jpeg)
 
 <a id="section-16-4"></a>
 
@@ -10389,7 +10389,7 @@ This topic describes how to view the storage space usage and the number of backu
 
 3. On the page that appears, click the **Vault Resources** tab and specify the date. The system automatically displays resource statistics that meet the search conditions. You can perform the same operations when you click the **Organization Resources** tab instead of Vault Resources on the page that appears.
 
-   ![](assets/e7d640b913cff7bf60d6ac12f8daf2e0.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/e7d640b913cff7bf60d6ac12f8daf2e0.jpeg)
 
    The following table describes the parameters of vault resources.
 
@@ -10509,9 +10509,9 @@ You can use the event management feature to view all event records.
 
 4. Find the event whose log you want to view and click **Log** in the **Actions** column.
 
-5. Click the <img src="assets/92bb44e42f1bf5158b89ef2011ef9405.png" width="18" alt=""> icon to the left of an event to view sub-events and their statuses.
+5. Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/92bb44e42f1bf5158b89ef2011ef9405.png" width="18" alt=""> icon to the left of an event to view sub-events and their statuses.
 
-6. Click the <img src="assets/f383a57f0dbfdf974ac80fe372b09df1.png" width="13" alt=""> icon to the right of a sub-event to view the sub-event log.
+6. Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/f383a57f0dbfdf974ac80fe372b09df1.png" width="13" alt=""> icon to the right of a sub-event to view the sub-event log.
 
    - **Successful**
 
@@ -10521,7 +10521,7 @@ You can use the event management feature to view all event records.
 
    - **Failed**, **Timeout**, and **Stop**
 
-     If a sub-event is in one of the preceding states, you can click the <img src="assets/6418137924df5ea69e33df9942c95c8a.png" width="14" alt=""> icon to the right of
+     If a sub-event is in one of the preceding states, you can click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/6418137924df5ea69e33df9942c95c8a.png" width="14" alt=""> icon to the right of
 
      the sub-event to retry the sub-event.
 
@@ -10531,7 +10531,7 @@ You can use the event management feature to view all event records.
 
    - **Pending**, **In Progress**, and **Synchronizing**
 
-     If a sub-event is in one of the preceding states, you can click the <img src="assets/0f53f12f98d69ad9a70970bf318573a0.png" width="18" alt=""> icon to the right of
+     If a sub-event is in one of the preceding states, you can click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/0f53f12f98d69ad9a70970bf318573a0.png" width="18" alt=""> icon to the right of
 
      the sub-event to cancel it. If you cancel the sub-event, its status changes to **Canceled**.
 
@@ -10813,7 +10813,7 @@ ASR-BR is deployed in the classic network. To ensure security, you need to deplo
 
 4. ASR-BR is deployed in the Apsara Stack system. OpsDNS is used to resolve the OSS endpoint, and the backup data is written to OSS in the public cloud through the Express Connect circuit.
 
-   ![](assets/ef99dfd00242e3b1b6a17a7287b7a0b9.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/ef99dfd00242e3b1b6a17a7287b7a0b9.jpeg)
 
 > **Note**
 >
@@ -10843,7 +10843,7 @@ After you connect Apsara Uni-manager to Alibaba Cloud public cloud, the followin
 
 - Apsara Uni-manager accesses the API endpoint in the public cloud VPC tby using Express Connect circuits.
 
-![](assets/9b2433acc926d7fd817855a07eda0115.jpeg)
+![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/9b2433acc926d7fd817855a07eda0115.jpeg)
 
 > **Note**
 >
@@ -10974,7 +10974,7 @@ This topic describes how to create a storage pool whose storage location is in A
    >
    > A maximum of 16 storage pool groups can be created.
 
-   ![](assets/630b4274541c776ed38cfe4517d52207.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/630b4274541c776ed38cfe4517d52207.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -10988,7 +10988,7 @@ This topic describes how to create a storage pool whose storage location is in A
 
 5. On the page that appears, click **Create Storage Pool**. In the **Add Storage Pool** dialog box, configure the parameters.
 
-   ![](assets/866bcd0c90036929622b8c6898cd7a85.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/866bcd0c90036929622b8c6898cd7a85.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -11034,7 +11034,7 @@ This topic describes how to create a backup vault whose storage location is in A
 
 4. In the **Create Backup Vault** dialog box, set the following parameters.
 
-   ![](assets/f2be99b960eb147162c22d6a70ea9609.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/f2be99b960eb147162c22d6a70ea9609.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -11165,7 +11165,7 @@ After you create a backup plan, ASR for Backup and Recovery regularly backs up d
 
    <li>
 
-   Click <img src="assets/32c9de93c59e6442e2680c7dc53a285c.png" width="15" alt=""> to add the selected Tablestore tables to the right-side section.
+   Click <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/32c9de93c59e6442e2680c7dc53a285c.png" width="15" alt=""> to add the selected Tablestore tables to the right-side section.
 
    </li>
 
@@ -12714,7 +12714,7 @@ Only storage pools that are not associated with backup vaults can be deleted. Th
 
    <li value="4">
 
-   Click <img src="assets/1f2328c3ce846b05d52f924f86b2e23a.png" width="10" alt=""> in the **Actions** column. Then, click **Delete**.
+   Click <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/1f2328c3ce846b05d52f924f86b2e23a.png" width="10" alt=""> in the **Actions** column. Then, click **Delete**.
 
    </li>
 
@@ -12744,7 +12744,7 @@ Only storage pools that are not associated with backup vaults can be deleted. Th
 
    <li>
 
-   Click <img src="assets/1f2328c3ce846b05d52f924f86b2e23a.png" width="10" alt=""> in the **Actions** column. Then, click **Delete**.
+   Click <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/1f2328c3ce846b05d52f924f86b2e23a.png" width="10" alt=""> in the **Actions** column. Then, click **Delete**.
 
    </li>
 
@@ -12798,7 +12798,7 @@ Only storage pools that are not associated with backup vaults can be deleted. Th
 
    <li>
 
-   Click <img src="assets/7e8827b29264b8bccc79cd12d721ac50.png" width="10" alt=""> in the Actions column for the target storage pool. Then, click **Delete**.
+   Click <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/7e8827b29264b8bccc79cd12d721ac50.png" width="10" alt=""> in the Actions column for the target storage pool. Then, click **Delete**.
 
    </li>
 
@@ -12830,11 +12830,11 @@ This topic describes how to view the sizes of ECS snapshots to help you plan the
 
 4. Click the **Backup Records** tab. The backup records of all instances in the backup plan are displayed.
 
-5. Click <img src="assets/ff4b864fc51171ebc218ed2684229dba.png" width="14" alt=""> to view the following information of the backup record: **Backup Set Size**, **Disk**
+5. Click <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/ff4b864fc51171ebc218ed2684229dba.png" width="14" alt=""> to view the following information of the backup record: **Backup Set Size**, **Disk**
 
    **Backup Status**, **Data Backup Type**, and **Storage Location**.
 
-   ![](assets/40207a6ee73954e3db27209525ccdf6a.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/40207a6ee73954e3db27209525ccdf6a.jpeg)
 
 <a id="section-18-3"></a>
 
@@ -12860,9 +12860,9 @@ A common user does not have the permissions to log on to the ASR for Backup and 
 
 4. Select the organization to which the common user belongs from the drop-down list, enter
 
-   the name of the common user in the search box, and then click <img src="assets/97a1e2dd9df6b166147d33d16b20d9f5.png" width="14" alt=""> .
+   the name of the common user in the search box, and then click <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/97a1e2dd9df6b166147d33d16b20d9f5.png" width="14" alt=""> .
 
-5. Find the common user, click <img src="assets/808cd2b91223043fae3a2a73e363741b.png" width="17" alt=""> in the **Actions** column, and select **Authorize**.
+5. Find the common user, click <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/808cd2b91223043fae3a2a73e363741b.png" width="17" alt=""> in the **Actions** column, and select **Authorize**.
 
 6. Select a role for the common user and grant the corresponding permissions to the common user. For more information, see Roles and Permissions.
 
@@ -12998,7 +12998,7 @@ The HBR service is abnormal.
 
 5. On the **Cluster Details** page, click **hbr-console** service.
 
-   ![](assets/199b2554851691e6dd084de6510c0b65.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/199b2554851691e6dd084de6510c0b65.jpeg)
 
 6. Click the Instance /IP Address to go to the **Machine Details** page.
 
@@ -13247,11 +13247,11 @@ First the periodic backup is normal, but instance backup records suddenly start 
 
              Error 1: The backup vault is full.
 
-             ![](assets/01bfb56377e4cdaa99ffdcc8bf718092.jpeg)
+             ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/01bfb56377e4cdaa99ffdcc8bf718092.jpeg)
 
              Error 2: If you cannot discover the reasons directly, run the vi command to open the log files starting with ebsplugin and ids and view the error logs. Remember that encrypted disks do not support remote backup.
 
-             ![](assets/5047921f6e126a1cd5b431d018dfe98e.jpeg)
+             ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/5047921f6e126a1cd5b431d018dfe98e.jpeg)
 
              </li>
 
@@ -13443,7 +13443,7 @@ On the details page of the backup schedule, click the **Backup Records** tab to 
 
 <li>
 
-Click the <img src="assets/7fe4b8af11d72703c4bd8b30a5f18709.png" width="13" alt=""> icon in the **Actions** column and select **Details** to view the task ID and error
+Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/7fe4b8af11d72703c4bd8b30a5f18709.png" width="13" alt=""> icon in the **Actions** column and select **Details** to view the task ID and error
 
 messages.
 
@@ -13505,11 +13505,11 @@ Troubleshoot the issue based on the error messages.
 
     Error 1: The backup vault is full.
 
-    ![](assets/01bfb56377e4cdaa99ffdcc8bf718092.jpeg)
+    ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/01bfb56377e4cdaa99ffdcc8bf718092.jpeg)
 
     Error 2: If you cannot discover the reasons directly, run the vi command to open the log files starting with ebsplugin and ids and view the error logs. Remember that encrypted disks do not support remote backup.
 
-    ![](assets/5047921f6e126a1cd5b431d018dfe98e.jpeg)
+    ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/5047921f6e126a1cd5b431d018dfe98e.jpeg)
 
     </li>
 
@@ -13557,13 +13557,13 @@ A backup schedule is created, but the backup schedule has not been in the Runnin
 
 5. On the Backup Events tab of the backup schedule details page, press the F12 key to use the Developer tools. In the panel that appears, click the **Network** tab.
 
-   ![](assets/4bba00561d6431b3dbeca0c387d665c1.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/4bba00561d6431b3dbeca0c387d665c1.jpeg)
 
-6. Click the <img src="assets/8fb00d2993b5d52f512065c72898b1fd.jpeg" width="15" alt=""> icon next to a sub-event. In the panel that appears, view the logs of the sub-
+6. Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/8fb00d2993b5d52f512065c72898b1fd.jpeg" width="15" alt=""> icon next to a sub-event. In the panel that appears, view the logs of the sub-
 
    event. Click the **Payload** tab to view the eventId parameter.
 
-   ![](assets/f0722f9aa907ac60fe28fc5ccb10442d.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/f0722f9aa907ac60fe28fc5ccb10442d.jpeg)
 
 7. Log on to two VMs or Docker containers and run the following commands:
 
@@ -13577,11 +13577,11 @@ A backup schedule is created, but the backup schedule has not been in the Runnin
    >
    > Replace the keyword after the grep -r command with the request ID or event ID that you obtained.
 
-   ![](assets/d615b578a72055a7e15394ac4b29d9b2.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/d615b578a72055a7e15394ac4b29d9b2.jpeg)
 
 8. View the error logs.
 
-   ![](assets/49335a73fa226a9c889ecb7ca34467af.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/49335a73fa226a9c889ecb7ca34467af.jpeg)
 
 9. Run the vi or vim command to open the corresponding log file to view a specific error message. Sample code:
 
@@ -13596,7 +13596,7 @@ A backup schedule is created, but the backup schedule has not been in the Runnin
    >
    > You need to query the details of an error based on the request ID or event ID.
 
-   ![](assets/887bf7f1458d663193ba30a6159e9307.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/887bf7f1458d663193ba30a6159e9307.jpeg)
 
    > **Note**
    >
@@ -13616,7 +13616,7 @@ A backup schedule is created, but the backup schedule has not been in the Runnin
 
 5. On the Services tab of the **Cluster Details** page, find the **hbr-console** service and click its name.
 
-   ![](assets/199b2554851691e6dd084de6510c0b65.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/199b2554851691e6dd084de6510c0b65.jpeg)
 
 6. Check whether the service is in the Good state.
 
@@ -13704,11 +13704,11 @@ A historical backup task has not been completed.
 
 4. On the details page of the backup schedule, click the **Backup Records** tab.
 
-5. Click the <img src="assets/5390b6028b6bc43bb6f6bce7f9fa9ce4.png" width="11" alt=""> icon in the Actions column and select **Details** to check whether the task ID
+5. Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/5390b6028b6bc43bb6f6bce7f9fa9ce4.png" width="11" alt=""> icon in the Actions column and select **Details** to check whether the task ID
 
    exists.
 
-   ![](assets/dcc8ada080c50eaf4f8c0d822d4ad6ca.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/dcc8ada080c50eaf4f8c0d822d4ad6ca.jpeg)
 
 6. Log on to the primarydb database and execute the following SQL statement to obtain the status of the HBR backup task:
 
@@ -13728,7 +13728,7 @@ A historical backup task has not been completed.
 
      <li>
 
-     On the **Backup Records** tab, find the instance, click <img src="assets/5390b6028b6bc43bb6f6bce7f9fa9ce4.png" width="11" alt=""> in the Actions column, and then
+     On the **Backup Records** tab, find the instance, click <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/5390b6028b6bc43bb6f6bce7f9fa9ce4.png" width="11" alt=""> in the Actions column, and then
 
      select **Cancel**.
 
@@ -13820,29 +13820,29 @@ You must install an HBR agent on the ECS instance for which you want to perform 
 
    <li>
 
-   Click the <img src="assets/7c7e1cb8edb2137a0c1b9cfdae60ba0c.png" width="14" alt=""> icon in the **Service Registration** column of the **rds-ddr-proxy** service and
+   Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/7c7e1cb8edb2137a0c1b9cfdae60ba0c.png" width="14" alt=""> icon in the **Service Registration** column of the **rds-ddr-proxy** service and
 
    then click the content in the **Service Registration** column. The Registration Variables dialog box appears.
 
-   ![](assets/bea0e067a9be369eb9ac27db879b9283.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/bea0e067a9be369eb9ac27db879b9283.jpeg)
 
    In the Registration Variables dialog box, you can view the value of the **asr.resource.domain** service registration variable.
 
-   ![](assets/2afe7297d5610c968e1f51171a6d441b.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/2afe7297d5610c968e1f51171a6d441b.jpeg)
 
    </li>
 
    <li>
 
-   Click the <img src="assets/7c7e1cb8edb2137a0c1b9cfdae60ba0c.png" width="14" alt=""> icon in the **Service Registration** column of the **hbr-rabbitmq** service and
+   Click the <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/7c7e1cb8edb2137a0c1b9cfdae60ba0c.png" width="14" alt=""> icon in the **Service Registration** column of the **hbr-rabbitmq** service and
 
    then click the content in the **Service Registration** column. The Registration Variables dialog box appears.
 
-   ![](assets/88b8a5498c1319fa48d388598a69af0d.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/88b8a5498c1319fa48d388598a69af0d.jpeg)
 
    In the Registration Variables dialog box, you can view the value of the **hbr.rabbitmq.domain** service registration variable.
 
-   ![](assets/2bdd7f9a691688807e8a35f27183b3c8.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/2bdd7f9a691688807e8a35f27183b3c8.jpeg)
 
    </li>
 
@@ -13895,7 +13895,7 @@ You must install an HBR agent on the ECS instance for which you want to perform 
      ./setup -m ApsaraStack -h<hbr_amqp_host>
      ```
 
-     ![](assets/e4fe0723abe59f6efe11aac89de5b356.png)
+     ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/e4fe0723abe59f6efe11aac89de5b356.png)
 
    - In Windows, run the following command:
 
@@ -13922,7 +13922,7 @@ You must install an HBR agent on the ECS instance for which you want to perform 
      ps aux | grep hbr
      ```
 
-     ![](assets/971de3aeaae06e38956f4209bf7c16db.png)
+     ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/971de3aeaae06e38956f4209bf7c16db.png)
 
    - In Windows, start Task Manager and check whether the **hybridbackup** service is in the **Running** state.
 
@@ -14077,7 +14077,7 @@ By default, PolarDB-X 2.0 uses its built-in backup system. To use ASR-BR to back
    select * from resource where res_key = 'POLARDBX_GLOBAL_CONFIG'\G
    ```
 
-   ![](assets/e184ec1f3e65ec7f361bc2f509f6be76.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/e184ec1f3e65ec7f361bc2f509f6be76.jpeg)
 
 2. Run the following commands to use ASR-BR to back up PolarDB-X 2.0 instances either by region or by tenant:
 
@@ -14108,9 +14108,9 @@ By default, PolarDB-X 2.0 uses its built-in backup system. To use ASR-BR to back
    ["UID"],"polardbx.dbs.sync":"true"}' where res_key = 'POLARDBX_GLOBAL_CONFIG';
    ```
 
-   ![](assets/5cf8c9ddabdefe5790aa676d610f9629.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/5cf8c9ddabdefe5790aa676d610f9629.jpeg)
 
-   ![](assets/7c1a13687fbb9cf99228e1ae7560b279.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/7c1a13687fbb9cf99228e1ae7560b279.jpeg)
 
    > **Note**
    >
@@ -14128,7 +14128,7 @@ By default, PolarDB-X 2.0 uses its built-in backup system. To use ASR-BR to back
    kubectl get pods -n apsaradb | grep polarx
    ```
 
-   ![](assets/5bd63ac1c57d8a7fdae6f7f78c7b4375.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/5bd63ac1c57d8a7fdae6f7f78c7b4375.jpeg)
 
    </li>
 
@@ -14144,7 +14144,7 @@ By default, PolarDB-X 2.0 uses its built-in backup system. To use ASR-BR to back
    kubectl exec -it -napsaradb {polarx-engine-api pod} bash
    ```
 
-   ![](assets/8d4cbbfaf4c752ecb6f74a65230c8e0f.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/8d4cbbfaf4c752ecb6f74a65230c8e0f.jpeg)
 
    <ol type="i" start="3">
 
@@ -14160,7 +14160,7 @@ By default, PolarDB-X 2.0 uses its built-in backup system. To use ASR-BR to back
    env| grep mysql
    ```
 
-   ![](assets/ff0e247dc1c75988dfcc32646533cfc7.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/ff0e247dc1c75988dfcc32646533cfc7.jpeg)
 
    <ol type="i" start="4">
 
@@ -14180,7 +14180,7 @@ By default, PolarDB-X 2.0 uses its built-in backup system. To use ASR-BR to back
 
    On the instance details page, select the **Basic Information** tab.
 
-   ![](assets/89f6a5bb9a7b102cbf3f102dead66563.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/89f6a5bb9a7b102cbf3f102dead66563.jpeg)
 
    > **Note**
    >
@@ -14201,7 +14201,7 @@ By default, PolarDB-X 2.0 uses its built-in backup system. To use ASR-BR to back
    backup_history_sync_record(custins_id,custins_name,sync_status)values('968','pxc-unr8fn9oac8n9g',0)
    ```
 
-   ![](assets/03f449235ad6a88808ea5f45daf71667.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/03f449235ad6a88808ea5f45daf71667.jpeg)
 
 <a id="section-19-4"></a>
 
@@ -14309,7 +14309,7 @@ To ensure that data can be synchronized from a backup vault to a mirror vault, y
 
    following content to the Policy Content field.
 
-   ![](assets/979ec573b018dce2286b5de325d469fa.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/979ec573b018dce2286b5de325d469fa.jpeg)
 
    ```json
    {
@@ -14372,7 +14372,7 @@ To ensure that data can be synchronized from a backup vault to a mirror vault, y
 
    parameter must include the RAM role created in the previous step.
 
-   ![](assets/330ddcf35d78b0937b0c6412bc40d89e.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/330ddcf35d78b0937b0c6412bc40d89e.jpeg)
 
    <ol type="i" start="4">
 
@@ -14432,7 +14432,7 @@ To ensure that data can be synchronized from a backup vault to a mirror vault, y
 
    <li>
 
-   Find the user, click <img src="assets/a9cb9e859580e836f2ab1d2dc57f7727.png" width="16" alt=""> in the **Actions** column, and then select **User Group**
+   Find the user, click <img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/a9cb9e859580e836f2ab1d2dc57f7727.png" width="16" alt=""> in the **Actions** column, and then select **User Group**
 
    </li>
 
@@ -14810,7 +14810,7 @@ ASR for Backup and Recovery backs up data of cloud services at specified interva
 
    Specify the File System Name parameter. Set **Protocol Type** to **SMB**. Other parameters are automatically configured. Then, click **Submit**.
 
-   ![](assets/ff6a991bcb0b7ddf5dbe87b469f9a2e9.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/ff6a991bcb0b7ddf5dbe87b469f9a2e9.jpeg)
 
    </li>
 
@@ -14830,7 +14830,7 @@ ASR for Backup and Recovery backs up data of cloud services at specified interva
 
    mount command.
 
-   ![](assets/6c356f87d260bec4ebabf84d1bf1afae.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/6c356f87d260bec4ebabf84d1bf1afae.jpeg)
 
 3. Manually mount the file system.
 
@@ -14859,7 +14859,7 @@ ASR for Backup and Recovery backs up data of cloud services at specified interva
    | Parameter | Description |
    | --- | --- |
    | Z | The drive letter. If a conflict occurs in drive Z, or if multiple NAS file systems are mounted to drive Z, the NAS file system is mounted to the next drive in reverse alphabetic order. |
-   | file-system-id.region.nas.aliyuncs.com | • The domain name of the mount target. The domain name is automatically generated when you create the mount target. Replace the domain name with the actual value.<br>• Alternatively, you can click the destination file system, and then click <strong>Mount Targets</strong>.<br>Move the pointer over the<img src="assets/e0193fbfbd9f7f07db34fa540aa6577d.png" width="15" alt="">icon in the<br>mount target column to obtain the domain name of the mount target. |
+   | file-system-id.region.nas.aliyuncs.com | • The domain name of the mount target. The domain name is automatically generated when you create the mount target. Replace the domain name with the actual value.<br>• Alternatively, you can click the destination file system, and then click <strong>Mount Targets</strong>.<br>Move the pointer over the<img src="en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/e0193fbfbd9f7f07db34fa540aa6577d.png" width="15" alt="">icon in the<br>mount target column to obtain the domain name of the mount target. |
    | myshare | The name of the shared SMB directory. You cannot change the name. |
 
    </li>
@@ -14888,7 +14888,7 @@ ASR for Backup and Recovery backs up data of cloud services at specified interva
 
    If a command output that is similar to the following information appears, the file system is mounted. Then, you can access the SMB file system on the ECS instance and perform read and write operations on the file system.
 
-   ![](assets/4a02b1b007e196965b0bbfa41b580f83.jpeg)
+   ![](en-asr-backup-recovery-user-guide-v3.18.6-20260701.assets/4a02b1b007e196965b0bbfa41b580f83.jpeg)
 
    </li>
 

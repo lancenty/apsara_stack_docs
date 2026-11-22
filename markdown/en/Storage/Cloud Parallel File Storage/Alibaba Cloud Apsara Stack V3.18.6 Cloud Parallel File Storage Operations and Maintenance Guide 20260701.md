@@ -83,7 +83,7 @@ This topic describes how users such as O&M engineers log on to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-cpfs-operations-guide-v3.18.6-20260701.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -131,15 +131,15 @@ This topic describes how to query the metrics about the Cloud Parallel File Stor
 
 3. In the left-side navigation pane of the **Apsara Infrastructure Management** console, choose **Resource Management > Machines**.
 
-   ![](assets/b49e9da3fd5dbfdeb927cf6a5d791d8d.jpeg)
+   ![](en-cpfs-operations-guide-v3.18.6-20260701.assets/b49e9da3fd5dbfdeb927cf6a5d791d8d.jpeg)
 
 4. Find the host that you want to manage and click **Terminal** in the Actions column.
 
-   ![](assets/3f9b73d425f56a1418c53a7c3c04e075.jpeg)
+   ![](en-cpfs-operations-guide-v3.18.6-20260701.assets/3f9b73d425f56a1418c53a7c3c04e075.jpeg)
 
 5. Select a login username and click **OK** to log in to the operating system of the CPFS storage host.
 
-   ![](assets/65761118430f90dfb4f809d5fe7da7c9.jpeg)
+   ![](en-cpfs-operations-guide-v3.18.6-20260701.assets/65761118430f90dfb4f809d5fe7da7c9.jpeg)
 
 6. Run the  `mmhealth cluster show`  command in the operating system to check the overall status of the cluster.
 
@@ -147,11 +147,11 @@ This topic describes how to query the metrics about the Cloud Parallel File Stor
    >
    > If the value 0 is displayed in the Failed and Degraded columns, the status is normal.
 
-   ![](assets/edafabc2c1be4947852c4cc76126c3da.jpeg)
+   ![](en-cpfs-operations-guide-v3.18.6-20260701.assets/edafabc2c1be4947852c4cc76126c3da.jpeg)
 
 7. Run the  `mmgetstate -Lsa`  command to check the CPFS status.
 
-   ![](assets/cbc5fc892f2c5965d8e7b04887ddec67.jpeg)
+   ![](en-cpfs-operations-guide-v3.18.6-20260701.assets/cbc5fc892f2c5965d8e7b04887ddec67.jpeg)
 
    > **Note**
    >
@@ -183,15 +183,15 @@ Waiters is an important metric for analyzing the overall performance of CPFS. Gi
 
 3. In the left-side navigation pane of the **Apsara Infrastructure Management** console, choose **Resource Management > Machines**.
 
-   ![](assets/b49e9da3fd5dbfdeb927cf6a5d791d8d.jpeg)
+   ![](en-cpfs-operations-guide-v3.18.6-20260701.assets/b49e9da3fd5dbfdeb927cf6a5d791d8d.jpeg)
 
 4. Find the host that you want to manage and click **Terminal** in the Actions column.
 
-   ![](assets/3f9b73d425f56a1418c53a7c3c04e075.jpeg)
+   ![](en-cpfs-operations-guide-v3.18.6-20260701.assets/3f9b73d425f56a1418c53a7c3c04e075.jpeg)
 
 5. Select a login username and click **OK** to log in to the operating system of the CPFS storage host.
 
-   ![](assets/65761118430f90dfb4f809d5fe7da7c9.jpeg)
+   ![](en-cpfs-operations-guide-v3.18.6-20260701.assets/65761118430f90dfb4f809d5fe7da7c9.jpeg)
 
 6. Run the  `mmlsnode -N waiters -L`  command to check the return value.
 
@@ -271,19 +271,19 @@ This topic describes how to monitor hard disk status.
 
 3. In the left-side navigation pane of the **Apsara Infrastructure Management** console, choose **Resource Management > Machines**.
 
-   ![](assets/b49e9da3fd5dbfdeb927cf6a5d791d8d.jpeg)
+   ![](en-cpfs-operations-guide-v3.18.6-20260701.assets/b49e9da3fd5dbfdeb927cf6a5d791d8d.jpeg)
 
 4. Find the host that you want to manage and click **Terminal** in the Actions column.
 
-   ![](assets/3f9b73d425f56a1418c53a7c3c04e075.jpeg)
+   ![](en-cpfs-operations-guide-v3.18.6-20260701.assets/3f9b73d425f56a1418c53a7c3c04e075.jpeg)
 
 5. Select a login username and click **OK** to log in to the operating system of the Cloud Parallel File Storage (CPFS) storage host.
 
-   ![](assets/65761118430f90dfb4f809d5fe7da7c9.jpeg)
+   ![](en-cpfs-operations-guide-v3.18.6-20260701.assets/65761118430f90dfb4f809d5fe7da7c9.jpeg)
 
 6. Run the  `mmvdisk pdisk list --recovery-group all`  command to query the pdisk metrics of CPFS. The following figure shows the return value (State).
 
-   ![](assets/f3856a3abc8b492a28a0b81b55c86f23.png)
+   ![](en-cpfs-operations-guide-v3.18.6-20260701.assets/f3856a3abc8b492a28a0b81b55c86f23.png)
 
    | pdisk status | Status description | Solution |
    | --- | --- | --- |

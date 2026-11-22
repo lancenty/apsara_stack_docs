@@ -307,7 +307,7 @@ The information on the API directory page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the upper-left corner, move the pointer over the More icon and then select the cloud service whose API operation you want to call.
 
@@ -358,7 +358,7 @@ To use AccessKey pairs for personal accounts, you must configure the header para
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of the personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -632,7 +632,7 @@ You must call an API operation to obtain the ID of an organization. You can obta
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
+4. Move the pointer over the <img src="en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
 
    **2019-05-10** from the **Version** drop-down list.
 
@@ -662,7 +662,7 @@ You must call an API operation to obtain the ID of a resource set. You can obtai
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
+4. Move the pointer over the <img src="en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
 
    **2019-05-10** from the **Version** drop-down list.
 
@@ -688,7 +688,7 @@ You can view the resource group UUID of a resource in the Apsara Uni-manager Man
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon, choose **Cloud Platform** > **Unified Cloud Management Platform**,
+4. Click the <img src="en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon, choose **Cloud Platform** > **Unified Cloud Management Platform**,
 
    and set **Version** to **2019-05-10**.
 
@@ -817,7 +817,7 @@ This topic describes how to obtain a software development kit (SDK) package for 
 
 3. On the **Developer Portal** page, click **API Integration** > **API Debugging**.
 
-4. In the upper-left corner of the page, click <img src="assets/2f9ac3bb214aa5d0380ea8616e75e2ee.png" width="18" alt=""> and select **Apsara Uni-manager**.
+4. In the upper-left corner of the page, click <img src="en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/2f9ac3bb214aa5d0380ea8616e75e2ee.png" width="18" alt=""> and select **Apsara Uni-manager**.
 
 5. Select a version.
 
@@ -963,7 +963,7 @@ When you use the core library of Alibaba Cloud SDK to initiate an API request, y
   </tr>
 </table>
 
-![](assets/4d889bc144a1f50db64a5d8cacbca559.png)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/4d889bc144a1f50db64a5d8cacbca559.png)
 
 <table>
   <tr>
@@ -33033,7 +33033,7 @@ POST /ascm/auth/signon/setIdPConfig HTTP/1.1
 |  |  |  |  |  | directly and only replace the placeholder.<br>• Default value: \`{"access_token": " {{access_token}}"}\`.<br>• Example: If the <code>accessToken</code> is <code>NIUUzhBOJLNcq</code> <code>R****** </code>, the request body is <code>{"access_toke</code><br><code>n":</code><br><code>"NIUUzhBOJLNcqR</code> <code>******"} </code>.<br>• Placeholder processing: The <code>{{access_token}}</code> <code> </code> placeholder is |
 | UserServi ceLoginNa mePath | Strin g | Body | No | user.name | automatically replaced with the The parsing path actual configuration for <code>accessToken</code> obtaining the value.authenticated username.<br>• Configuration requirements:<br>• Required: Yes. This parameter must be configured for OAuth 2.0 protocol integration.<br>• Return format: The service for obtaining the authenticated user must return a JSON object.<br>• Path parsing rules:<br>• Use a period (.) to represent the hierarchical structure of the username in the JSON object.<br>• Parsing of multilayer nested object structures is supported.<br>• Configuration examples: |
 
-![](assets/7e8bfe469400f237d56bb8134c4ad0cb.png)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/7e8bfe469400f237d56bb8134c4ad0cb.png)
 
 <table>
   <tr>
@@ -37270,11 +37270,11 @@ To use the POP gateway to call API operations, you must use the service endpoint
 
 3. On the **Home** tab, click the **API Integration** tab and click **View Cloud Service Endpoint**.
 
-   ![](assets/ee7e927e88bd585a688e8ac63a3b9faf.jpeg)
+   ![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/ee7e927e88bd585a688e8ac63a3b9faf.jpeg)
 
 4. On the **Service Endpoint** page, select **Apsara Uni-manager** from the **Service** drop-down list to obtain the STS endpoint.
 
-   ![](assets/4e659597edccd53b0bbd080a4841d5c4.jpeg)
+   ![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/4e659597edccd53b0bbd080a4841d5c4.jpeg)
 
 <a id="section-4-2"></a>
 
@@ -37640,11 +37640,11 @@ This topic describes the overall process for integrating the Unified Cloud Manag
 
 **Overall flow**
 
-![](assets/2413f0caf68c47072a955f6419239010.png)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/2413f0caf68c47072a955f6419239010.png)
 
-![](assets/84830655d6bfa55aa48d69bd4f5eea99.png)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/84830655d6bfa55aa48d69bd4f5eea99.png)
 
-![](assets/92ebe287085cf7a75b391b9eb512d242.png)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/92ebe287085cf7a75b391b9eb512d242.png)
 
 [Unified Cloud
 
@@ -37652,11 +37652,11 @@ This topic describes the overall process for integrating the Unified Cloud Manag
 
 Management Platform]
 
-![](assets/6c98d8da19806b028708806fa5c6caa5.png)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/6c98d8da19806b028708806fa5c6caa5.png)
 
-![](assets/8ad1d123e2e44795a96e0117d33b4cd0.png)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/8ad1d123e2e44795a96e0117d33b4cd0.png)
 
-![](assets/b99902aa4e33e89755cd0e7cdfa00f19.png)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/b99902aa4e33e89755cd0e7cdfa00f19.png)
 
 Management Platform
 
@@ -37712,17 +37712,17 @@ If you do not have IDaaS, develop your own solution to implement organization an
 
      The unified cloud management platform acts as a service provider (SP) and supports the SAML 2.0 and OAuth 2.0 SSO protocols. For more information, see the “Third-party Authentication” chapter of the Unified Cloud Management Platform User Guide.
 
-     ![](assets/f590edb1d921d51c81e4917dacc9f039.png)
+     ![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/f590edb1d921d51c81e4917dacc9f039.png)
 
-     ![](assets/ae0a45c1a12848543e644f33856fd3d7.png)
+     ![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/ae0a45c1a12848543e644f33856fd3d7.png)
 
-     ![](assets/47a96c348c86b5439e60e91dadea215e.png)
+     ![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/47a96c348c86b5439e60e91dadea215e.png)
 
      **platform** as a trusted SP and configure the **SAML**
 
      **assertion**.
 
-     ![](assets/8fd2415b4dd58b6d5c4f1984aae2795a.png)
+     ![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/8fd2415b4dd58b6d5c4f1984aae2795a.png)
 
      **managementplatform**
 
@@ -37761,21 +37761,21 @@ To enable page integration for the Unified Cloud Management Platform, go to **Pr
 
 Developer Portal
 
-![](assets/7dff19803fd089dfd8b2116cea94fd3e.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/7dff19803fd089dfd8b2116cea94fd3e.jpeg)
 
 Page Integration
 
-![](assets/2aea38631acade770753bd8a4b4b9bef.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/2aea38631acade770753bd8a4b4b9bef.jpeg)
 
 Page Exposure Settings
 
-![](assets/1923a2901d3843df4172019b829e4638.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/1923a2901d3843df4172019b829e4638.jpeg)
 
 **Global Page Integration Toggle**
 
 You can turn on the global page integration toggle to allow the Unified Cloud Management Platform to support integration, such as embedding via an iframe. The platform uses the state of this toggle to control business logic.
 
-![](assets/8e2bd8790178cb9d7a4fab43dee357ef.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/8e2bd8790178cb9d7a4fab43dee357ef.jpeg)
 
 **Left-Side Navigation Pane**
 
@@ -37783,19 +37783,19 @@ You can hide the navigation pane on the left in integrated scenarios. The toggle
 
 **Toggle Settings**
 
-![](assets/ba2fb070affd9e3681736d7b6350c085.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/ba2fb070affd9e3681736d7b6350c085.jpeg)
 
 **Preview**
 
 When you enable the Hide Left-Side Navigation Pane option, the result is as follows:
 
-![](assets/c0fe8444852c63a41d1f65646879b772.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/c0fe8444852c63a41d1f65646879b772.jpeg)
 
 **Page Style Configuration**
 
 The style settings apply to the Unified Cloud Management Platform whether it is accessed directly or through an integrated scenario.
 
-![](assets/ff9f692855f6157fd5db5905b50b60ac.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/ff9f692855f6157fd5db5905b50b60ac.jpeg)
 
 - Platform language: Choose **Simplified Chinese**, **Traditional Chinese**, or **English** as the default platform language.
 
@@ -37807,11 +37807,11 @@ The style settings apply to the Unified Cloud Management Platform whether it is 
 
 For example, you can set the URL of the Elastic Compute Service (ECS) Create Instance button to a custom link. When the button is clicked, the configured link opens.
 
-![](assets/f484c813713df1f5edd87a4f466c7026.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/f484c813713df1f5edd87a4f466c7026.jpeg)
 
 **Configuration Entry Point**
 
-![](assets/9efefcfa1c8422989836a5ebfc88f70a.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/9efefcfa1c8422989836a5ebfc88f70a.jpeg)
 
 <a id="section-6-1-3"></a>
 
@@ -37823,7 +37823,7 @@ This topic describes page URL embedding.
 
 The unified cloud management platform page consists of a top navigation bar, a left navigation pane, a main content area for displaying business content, and a floating button in the lower-right corner.
 
-![](assets/eb99cd2d76e9bdd494c786771a23b8bc.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/eb99cd2d76e9bdd494c786771a23b8bc.jpeg)
 
 **Page Integration Example**
 
@@ -37844,7 +37844,7 @@ In integration scenarios, third parties typically use their own top navigation p
 
 In integration scenarios, the ceiling is concealed, and the concealment effect is shown below:
 
-![](assets/0a71819e042e00d5f7740f81a2757797.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/0a71819e042e00d5f7740f81a2757797.jpeg)
 
 The top navigation bar provides capabilities such as switching organizations, regions, and resource groups. You can implement these capabilities in two steps:
 
@@ -37892,7 +37892,7 @@ Add the regionId parameter to the integration link to switch the region. For exa
 
 In integrated scenarios, the "Learn More" link is hidden. ISVs must provide their own help documentation for users.
 
-![](assets/b09de975deb6634f78764b6420bff8de.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/b09de975deb6634f78764b6420bff8de.jpeg)
 
 **Open New Page for Links within Iframe Area**
 
@@ -37972,21 +37972,21 @@ Go to **Page Integration** > **Page Open Configuration** > **Embedded Page List 
 
 Click **Edit** in the **Operation** column for the product link ID. Enter the target address in the **Modify Link** dialog box. To open a new link, add the \`target=_blank\` parameter. To add an instance ID, enter the \`{instanceId}\` placeholder in the URL. Refer to the placeholder format of the original link.
 
-![](assets/2a15b820a924a000bdde6cec78b15ec0.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/2a15b820a924a000bdde6cec78b15ec0.jpeg)
 
-![](assets/c5b5094afd28a85d77adbe59054bdac1.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/c5b5094afd28a85d77adbe59054bdac1.jpeg)
 
 **Create**
 
 Click **Edit** in the **Operation** column for product linkID (create). Enter the target address in the **Modify Link** dialog box. To open a new link, add the \`target=_blank\` parameter. To add an instance ID, enter the \`{instanceId}\` placeholder in the URL. Refer to the placeholder format of the original link.
 
-![](assets/f470eda80c44f73b9472d9d46f3ffc31.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/f470eda80c44f73b9472d9d46f3ffc31.jpeg)
 
 The result is as follows:
 
 When you click the operation button, you are redirected to the custom link.
 
-![](assets/e8cbc93efa4e83bb11026df8a01cfccc.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/e8cbc93efa4e83bb11026df8a01cfccc.jpeg)
 
 **Product and Service Page Integration**
 
@@ -38010,21 +38010,21 @@ Currently, you can configure redirect links only for details pages and custom op
 
 **Details**
 
-![](assets/8743c891c633deae46c163a3ff72a1ea.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/8743c891c633deae46c163a3ff72a1ea.jpeg)
 
 The result is as follows:
 
-![](assets/ed43d7c2b6dd4970b107f077a252e3c3.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/ed43d7c2b6dd4970b107f077a252e3c3.jpeg)
 
 **Custom Operations**
 
-![](assets/2374c7f9f0107a6ae0024ccaab5450c3.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/2374c7f9f0107a6ae0024ccaab5450c3.jpeg)
 
 The list appears as follows:
 
 When you click the defined operation button, you are redirected to the custom link.
 
-![](assets/901bc76a80e98e74199acd20a30ef004.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/901bc76a80e98e74199acd20a30ef004.jpeg)
 
 **Security Product Integration**
 
@@ -38180,7 +38180,7 @@ Parameters:
 
 You can obtain the \`arId\` in the unified cloud management platform by navigating to **Enterprise** > **Permission Management** > **Role Authorization**.
 
-![](assets/ac4735443bb24a412e04fcc2a8ecd4bd.jpeg)
+![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/ac4735443bb24a412e04fcc2a8ecd4bd.jpeg)
 
 Example call:
 
@@ -38213,7 +38213,7 @@ API integration is currently implemented through the POP SDK, which calls OpenAP
 
 4. In the **AccessKey** section, you can view your AccessKey ID and AccessKey secret.
 
-   ![](assets/db4b6fb659a48858b06a7333f54c594a.jpeg)
+   ![](en-apsara-uni-manager-developer-guide-v3.18.6-2607-20260901.assets/db4b6fb659a48858b06a7333f54c594a.jpeg)
 
 **Best practices for managing your AccessKey ID and AccessKey secret**
 

@@ -165,7 +165,7 @@ The menu display varies based on the organization and resource set that you sele
 
 2. In the top navigation bar, choose **Security >** **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. If you are using a level-1 or lower organization, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon in the top navigation bar
+3. If you are using a level-1 or lower organization, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon in the top navigation bar
 
    to change the organization to the security administrator level (root level) to view the full menu.
 
@@ -181,7 +181,7 @@ Organization security administrators and global organization security administra
 
 2. In the top navigation bar, choose **Security >** **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
 
    organization that is of the security administrator level to view the full menu.
 
@@ -223,7 +223,7 @@ Network Detection and Response (NDR) allows you to view traffic at the Internet 
 
 2. In the top navigation bar, click **Security** and choose **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
 
    organization that is of the security administrator level to view the full menu.
 
@@ -237,7 +237,7 @@ Network Detection and Response (NDR) allows you to view traffic at the Internet 
 
    Specify conditions to filter traffic.
 
-   ![](assets/2b660f9d481e79cd6c6ab4210cc2d3d6.jpeg)
+   ![](en-ndr-user-guide-v3.18.6-2607-20260828.assets/2b660f9d481e79cd6c6ab4210cc2d3d6.jpeg)
 
    | Position | Description |
    | --- | --- |
@@ -289,7 +289,7 @@ Network Detection and Response (NDR) allows you to view traffic at the internal 
 
 2. In the top navigation bar, click **Security** and choose **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
 
    organization that is of the security administrator level to view the full menu.
 
@@ -303,7 +303,7 @@ Network Detection and Response (NDR) allows you to view traffic at the internal 
 
    Specify conditions to filter traffic.
 
-   ![](assets/175640ad99694c8233de21b1676d7c27.jpeg)
+   ![](en-ndr-user-guide-v3.18.6-2607-20260828.assets/175640ad99694c8233de21b1676d7c27.jpeg)
 
    | Filter condition | Description |
    | --- | --- |
@@ -359,12 +359,12 @@ This topic describes how to search for and view logs.
    | Search condition | Description |
    | --- | --- |
    | Today | The time range for log search. Valid values: <strong>Last Hour</strong>, <strong>Last 4 Hours</strong>, <strong>Last 8 Hours</strong>, <strong>Today</strong>, <strong>Last 7 Days</strong>, <strong>Last 14 Days</strong>, <strong>Last 30 Days</strong>, and <strong>Custom</strong>. |
-   | All Departments | The department to which the logs belong.<br>Note<br>• You can select a department only if the organization is the root organization.<br>• If you are in a level-1 or subordinate organization, click the icon in the top navigation bar to change the<br>![](assets/993891ec5f22aa50438a3f18b8a382f6.jpeg)<br>organization to the root organization that is of the security administrator level to view the full menu. |
+   | All Departments | The department to which the logs belong.<br>Note<br>• You can select a department only if the organization is the root organization.<br>• If you are in a level-1 or subordinate organization, click the icon in the top navigation bar to change the<br>![](en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg)<br>organization to the root organization that is of the security administrator level to view the full menu. |
    | Log Type | The type of the logs that you want to search for. Valid values: <strong>Security Event Log</strong>, <strong>Full Traffic Log</strong>, and <strong>Behavior Analysis Log</strong>.Default value: <strong>Security Event Log / ndr_attack_log</strong>. |
    | Search Template | The template for log search. You can save search conditions as a template. |
    | Enter the content | The log content. You must use a search syntax that is similar to Lucene to specify the content. |
 
-5. Click the <img src="assets/fccdbda709e765bbc8ba637e6cdf1728.png" width="13" alt=""> icon to view the search results.
+5. Click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/fccdbda709e765bbc8ba637e6cdf1728.png" width="13" alt=""> icon to view the search results.
 
    - **Clear**: If you no longer want to use the specified search conditions, you can click **Clear** to clear the conditions.
 
@@ -386,7 +386,7 @@ This topic describes how to search for and view logs.
 
    - Decode fields: Click **Decoding Gadget** in the upper-right corner of the **Log Retrieval** page to convert fields that are encoded in a specific format into another format. The following encoding methods are supported: **Unicode encoding**, **UTF-8 encoding**,**URL encoding**,**Hex encoding**, and **Base64 encoding**.
 
-   - View the percentage of a field: Click the <img src="assets/49790e75403a00db84fbd98a7fa6bc30.png" width="16" alt=""> icon next to a field in the lower-left corner of
+   - View the percentage of a field: Click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/49790e75403a00db84fbd98a7fa6bc30.png" width="16" alt=""> icon next to a field in the lower-left corner of
 
      the **Log Retrieval** page to view the percentage of the field. To hide the data, click the icon again.
 
@@ -402,7 +402,7 @@ The attacker profile feature analyzes and displays the basic information, threat
 
 2. In the top navigation bar, click **Security** and choose **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
 
    organization that is of the security administrator level to view the full menu.
 
@@ -444,7 +444,7 @@ This topic describes how to view threat detection results.
 
 Some threat detection features are available only in the root organization that is of the security administrator level. These include selecting a department, selecting columns to display, viewing the whitelist, handling attacks, and adding tags to attacks. If you are in a
 
-level-1 or subordinate organization, you can click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon in the top navigation bar to
+level-1 or subordinate organization, you can click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon in the top navigation bar to
 
 switch to the root organization. This way, you can use all threat detection features.
 
@@ -489,7 +489,7 @@ switch to the root organization. This way, you can use all threat detection feat
 
    - The attack list in the lower part of the Threat Detection page displays the details of the attacks.
 
-     ![](assets/f31e54f4ada90de6244cde0a68a825b1.jpeg)
+     ![](en-ndr-user-guide-v3.18.6-2607-20260828.assets/f31e54f4ada90de6244cde0a68a825b1.jpeg)
 
      - Select the columns that you want to display: Click **Customize Column Display** in the upper-right corner of the attack list to select the columns that you want to display in the attack list.
 
@@ -547,7 +547,7 @@ Logs of blocked traffic record the traffic that matches a blocking policy. This 
 
 2. In the top navigation bar, choose **Security >** **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
 
    organization that is of the security administrator level to view the full menu.
 
@@ -565,7 +565,7 @@ Logs of blocked traffic record the traffic that matches a blocking policy. This 
 
 6. Click **Query** to view the query results.
 
-   ![](assets/087ffe23c2dedc2086f24b4a8c4b84ed.jpeg)
+   ![](en-ndr-user-guide-v3.18.6-2607-20260828.assets/087ffe23c2dedc2086f24b4a8c4b84ed.jpeg)
 
    - The bar chart in the **Source IP | Destination IP Top 5** section that is labeled as 1 in the preceding figure displays the top five source IP addresses and destination IP addresses of attacks and the number of attacks.
 
@@ -607,7 +607,7 @@ Outbound connection analysis monitors and analyzes unauthorized or anomalous ext
 
 2. In the top navigation bar, choose **Security** > **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon to switch the organization to the security
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon to switch the organization to the security
 
    administrator level (root) and view the full menu.
 
@@ -643,7 +643,7 @@ DNS behavior analysis can analyze the characteristics of suspicious domain names
 
 2. In the top navigation bar, choose **Security** > **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
 
    organization that is of the security administrator level to view the full menu.
 
@@ -683,7 +683,7 @@ Encrypted traffic analysis can detect suspicious encrypted traffic by analyzing 
 
 2. In the top navigation bar, choose **Security** > **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
 
    organization that is of the security administrator level to view the full menu.
 
@@ -727,7 +727,7 @@ This article describes how to create and view network layer policies.
 
 2. In the top navigation bar, choose **Security** > **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon to switch the organization to the security
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon to switch the organization to the security
 
    administrator level (root) and view the full menu.
 
@@ -774,23 +774,23 @@ On the **Network Layer Policy** tab, you can select the rule action of the polic
 
 In the policy list, you can also perform the following operations:
 
-- Enable or disable a policy: Click the <img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon or the <img src="assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon in the **Enable** column for the
+- Enable or disable a policy: Click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon or the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon in the **Enable** column for the
 
   target policy.
 
-  <img src="assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon indicates that the policy is enabled.
+  <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon indicates that the policy is enabled.
 
-  <img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon indicates that the policy is disabled.
+  <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon indicates that the policy is disabled.
 
 - Edit a policy: Click **Edit** in the **Actions** column for the target policy. You can edit a policy only when it is disabled.
 
 - Delete a policy: Click **Delete** in the **Actions** column for the target policy. You can delete a policy only when it is disabled.
 
-- Enable global network policy: Click the <img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon next to **Global Network Policies** above the
+- Enable global network policy: Click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon next to **Global Network Policies** above the
 
   policy list.
 
-- Enable threat intelligence filtering: Click the <img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon next to **Threat Intelligence Filtering**.
+- Enable threat intelligence filtering: Click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon next to **Threat Intelligence Filtering**.
 
   After enabling threat intelligence filtering, traffic matching threat intelligence is blocked by default.
 
@@ -810,7 +810,7 @@ This topic describes how to create an application-layer policy, view application
 
 2. In the top navigation bar, choose **Security >** **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
 
    organization that is of the security administrator level to view the full menu.
 
@@ -835,13 +835,13 @@ On the **HTTP Custom Policy** tab of the **Application Layer Policy** tab, you c
 
 You can also perform the following operations:
 
-- Enable or disable a policy: Find the policy that you want to manage and click the <img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> or <img src="assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt="">
+- Enable or disable a policy: Find the policy that you want to manage and click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> or <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt="">
 
   icon in the **State** column.
 
-  - The <img src="assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon indicates that the policy is enabled.
+  - The <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon indicates that the policy is enabled.
 
-  - The <img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon indicates that the policy is disabled.
+  - The <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon indicates that the policy is disabled.
 
 - Modify a policy: Find the policy that you want to modify and click **Edit** in the **Actions** column.
 
@@ -855,7 +855,7 @@ You can also perform the following operations:
 
 2. In the top navigation bar, choose **Security >** **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
 
    organization that is of the security administrator level to view the full menu.
 
@@ -865,23 +865,23 @@ You can also perform the following operations:
 
 6. Query and view policies for web application detection based on the policy status, protection type, policy name, policy ID, and threat level.
 
-   You can find a policy in the policy list and click the <img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> or <img src="assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon in the **Effective Status**
+   You can find a policy in the policy list and click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> or <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon in the **Effective Status**
 
    column to enable or disable the policy.
 
-   - The <img src="assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon indicates that the policy is enabled.
+   - The <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon indicates that the policy is enabled.
 
-   - The <img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon indicates that the policy is disabled.
+   - The <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon indicates that the policy is disabled.
 
-7. In the upper-right corner of the policy list, click the <img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> or <img src="assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon for **Web Application**
+7. In the upper-right corner of the policy list, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> or <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon for **Web Application**
 
    **Detection**.
 
-   ![](assets/ee60b61c6ed20fee794ee13338750da9.jpeg)
+   ![](en-ndr-user-guide-v3.18.6-2607-20260828.assets/ee60b61c6ed20fee794ee13338750da9.jpeg)
 
-   - The <img src="assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon indicates that all policies are enabled.
+   - The <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon indicates that all policies are enabled.
 
-   - The <img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon indicates that all policies are disabled.
+   - The <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon indicates that all policies are disabled.
 
 <a id="section-3-8-3"></a>
 
@@ -895,7 +895,7 @@ A spoofing policy for port scanning lures attackers to launch attacks against po
 
 2. In the top navigation bar, choose **Security >** **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
 
    organization that is of the security administrator level to view the full menu.
 
@@ -923,13 +923,13 @@ You can also perform the following operations:
 
 - Delete multiple policies at a time: Select multiple policies that you want to delete and click **Batch Delete**.
 
-- Enable or disable a policy: Find the policy that you want to manage and click the <img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> or <img src="assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt="">
+- Enable or disable a policy: Find the policy that you want to manage and click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> or <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt="">
 
   icon in the **Status** column.
 
-  - The <img src="assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon indicates that the policy is enabled.
+  - The <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/ae6abab9379b8b27028d977a4a44954c.png" width="16" alt=""> icon indicates that the policy is enabled.
 
-  - The <img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon indicates that the policy is disabled.
+  - The <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt=""> icon indicates that the policy is disabled.
 
 <a id="section-3-8-4"></a>
 
@@ -943,7 +943,7 @@ An address book is a collection of IP addresses. You can create an address book 
 
 2. In the top navigation bar, choose **Security >** **Network Security > Network Detection and Response**. On the **Network Detection and Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
 
    organization that is of the security administrator level to view the full menu.
 
@@ -963,7 +963,7 @@ An address book is a collection of IP addresses. You can create an address book 
 
 On the **Address Book Management** tab, perform the following operations to manage the address books in the address book list.
 
-![](assets/ef6ca52a6ad145d74f5685ef557bfc4b.jpeg)
+![](en-ndr-user-guide-v3.18.6-2607-20260828.assets/ef6ca52a6ad145d74f5685ef557bfc4b.jpeg)
 
 - Filter address books: Specify an address book name, address book description, or IP address in the upper part of the page and click **Query** to filter address books.
 
@@ -985,7 +985,7 @@ Network Detection and Response (NDR) provides built-in intrusion detection syste
 
 2. In the upper-right corner of the Apsara Uni-manager Management Console, choose **Security** > **Network Security > Network Detection Response**. On the **Network Detection Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
 
    organization to view the full menu.
 
@@ -1043,7 +1043,7 @@ Network Detection and Response (NDR) allows you to configure CIDR blocks for the
 
 2. In the upper-right corner of the Apsara Uni-manager Management Console, choose **Security** > **Network Security > Network Detection Response**. On the **Network Detection Response** page, select a region from the **Region** drop-down list and click **Access with Authorized Role**.
 
-3. In the top navigation bar, click the <img src="assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
+3. In the top navigation bar, click the <img src="en-ndr-user-guide-v3.18.6-2607-20260828.assets/993891ec5f22aa50438a3f18b8a382f6.jpeg" width="32" alt=""> icon and change the organization to the root
 
    organization to view the full menu.
 

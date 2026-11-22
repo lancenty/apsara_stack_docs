@@ -1,0 +1,215 @@
+import json
+import subprocess
+import sys
+import tempfile
+import unittest
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+SCRIPTS = ROOT / "scripts"
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from convert_pdf_to_md import _find_conflicts
+from doc_identity import (
+    ASSETS_DIR_RE,
+    DOC_ID_RE,
+    MAX_ASSETS_DIR_LEN,
+    build_assets_dir,
+    load_overrides,
+    load_rules,
+    resolve_identity,
+    validate_document_id_fields,
+)
+
+
+class DocumentIdentityTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.rules = load_rules()
+        cls.overrides = load_overrides()
+        cls.empty_overrides = {"format": 1, "overrides": []}
+        cls.empty_registry = {"format": 1, "documents": {}}
+
+    def test_prompt_example_document_ids_and_repeatability(self):
+        cases = [
+            (
+                "cn/计算/云服务器 ECS/阿里云 专有云 V3.18.6 云服务器ECS 用户指南 20251230.pdf",
+                ["阿里云", "专有云", "云服务器ECS", "用户指南", "产品版本：V3.18.6", "文档版本：20251230"],
+                "zh-cn/v3.18.6/ecs/user-guide/20251230",
+            ),
+            (
+                "cn/数据库/云数据库 RDS/阿里云 专有云 V3.18.3 云数据库RDS 用户指南（RDS PostgreSQL） 20250320.pdf",
+                ["阿里云", "专有云", "云数据库RDS", "用户指南（RDS PostgreSQL）", "产品版本：V3.18.3", "文档版本：20250320"],
+                "zh-cn/v3.18.3/rds/rds-postgresql-user-guide/20250320",
+            ),
+            (
+                "en/Database/ApsaraDB for POLARDB/Secondary Edition) User Guide 20260831.pdf",
+                [
+                    "Alibaba Cloud",
+                    "Apsara Stack",
+                    "ApsaraDB for POLARDB",
+                    "PolarDB for PostgreSQL",
+                    "(Primary/Secondary Edition)",
+                    "User Guide",
+                    "Product Version: v3.18.6-2607",
+                    "Document Version: 20260831",
+                ],
+                "en-us/v3.18.6-2607/polardb/postgresql-primary-secondary-user-guide/20260831",
+            ),
+        ]
+        for source_key, cover, expected_id in cases:
+            with self.subTest(expected_id=expected_id):
+                first = resolve_identity(
+                    source_key, cover, rules=self.rules, overrides=self.empty_overrides, registry=self.empty_registry
+                )
+                second = resolve_identity(
+                    source_key, cover, rules=self.rules, overrides=self.empty_overrides, registry=self.empty_registry
+                )
+                self.assertEqual(first, second)
+                self.assertEqual(first["id_status"], "ok")
+                self.assertEqual(first["document_id"], expected_id)
+                self.assertRegex(first["document_id"], DOC_ID_RE)
+                self.assertRegex(first["assets_dir"], ASSETS_DIR_RE)
+                self.assertLessEqual(len(first["assets_dir"]), MAX_ASSETS_DIR_LEN)
+                self.assertEqual(validate_document_id_fields(first), [])
+
+    def test_openshift_platform_version_from_cover(self):
+        source = (
+            "en/Compute/Container Service for Kubernetes/"
+            "Red Hat OpenShift Container Platform 4.18 on Alibaba Cloud Apsara Stack.pdf"
+        )
+        cover = [
+            "Red Hat OpenShift",
+            "Container Platform 4.18 on",
+            "Alibaba Cloud Apsara Stack",
+            "Product version：OpenShift 4.18",
+            "Apsara Stack 3.18.6",
+            "Document version：20260703",
+        ]
+        ident = resolve_identity(
+            source, cover, rules=self.rules, overrides=self.empty_overrides, registry=self.empty_registry
+        )
+        self.assertEqual(ident["id_status"], "ok")
+        self.assertEqual(ident["document_id"], "en-us/v3.18.6/openshift/container-platform-4-18-on-apsara-stack/20260703")
+
+    def test_missing_platform_version_anomaly_and_override_resolution(self):
+        source = (
+            "en/Compute/Resource Orchestration Service/"
+            "Alibaba Cloud Apsara Stack Terraform User Guide 20241115.pdf"
+        )
+        cover = ["Alibaba Cloud", "Terraform", "User Guide", "Document Version: 20241115"]
+        without_ov = resolve_identity(
+            source, cover, rules=self.rules, overrides=self.empty_overrides, registry=self.empty_registry
+        )
+        self.assertEqual(without_ov["id_status"], "anomaly")
+        self.assertEqual(without_ov["document_id"], "")
+        self.assertIn("missing_platform_version", without_ov["id_anomalies"])
+
+        with_ov = resolve_identity(
+            source,
+            cover,
+            pdf_sha256="cac1868da4995053203e416f218121225ac1708f410357f62e03465bcc0b3be1",
+            rules=self.rules,
+            overrides=self.overrides,
+            registry=self.empty_registry,
+        )
+        self.assertEqual(with_ov["id_status"], "ok")
+        self.assertEqual(with_ov["id_source"], "override")
+        self.assertEqual(with_ov["document_id"], "en-us/v3.18.3/terraform/user-guide/20241115")
+
+    def test_untranslated_cjk_produces_anomaly(self):
+        source = "cn/计算/云服务器 ECS/阿里云 专有云 V3.18.6 云服务器ECS 未知专题指南 20251230.pdf"
+        cover = ["阿里云", "专有云", "云服务器ECS", "未知专题指南", "产品版本：V3.18.6", "文档版本：20251230"]
+        ident = resolve_identity(
+            source, cover, rules=self.rules, overrides=self.empty_overrides, registry=self.empty_registry
+        )
+        self.assertEqual(ident["id_status"], "anomaly")
+        self.assertTrue(any(a.startswith("untranslated_cjk_in_document_key(") for a in ident["id_anomalies"]))
+
+    def test_registry_preserves_identity_across_rename_and_move(self):
+        sha = "deadbeef" * 8
+        registry = {
+            "format": 1,
+            "documents": {
+                sha: {
+                    "document_id": "zh-cn/v3.18.6/ecs/user-guide/20251230",
+                    "source": "cn/计算/云服务器 ECS/阿里云 专有云 V3.18.6 云服务器ECS 用户指南 20251230.pdf",
+                    "assets_dir": "zh-ecs-user-guide-v3.18.6-20251230.assets",
+                    "language": "zh-cn",
+                    "platform_version": "v3.18.6",
+                    "product": "ecs",
+                    "document_key": "user-guide",
+                    "document_version": "20251230",
+                    "category": "compute",
+                    "id_source": "rules",
+                }
+            },
+        }
+        moved = resolve_identity(
+            "cn/计算/新目录/renamed_ecs_manual.pdf",
+            ["阿里云", "专有云", "云服务器ECS", "用户指南", "产品版本：V3.18.6", "文档版本：20251230"],
+            pdf_sha256=sha,
+            rules=self.rules,
+            overrides=self.empty_overrides,
+            registry=registry,
+        )
+        self.assertEqual(moved["id_status"], "ok")
+        self.assertEqual(moved["id_source"], "registry")
+        self.assertEqual(moved["document_id"], "zh-cn/v3.18.6/ecs/user-guide/20251230")
+        self.assertEqual(moved["assets_dir"], "zh-ecs-user-guide-v3.18.6-20251230.assets")
+
+    def test_assets_dir_cap_and_conflict_detection(self):
+        long_id = "en-us/v3.18.6-2607/apsara-uni-manager/management-console-operations-and-maintenance-guide/20260831"
+        adir = build_assets_dir(long_id, "fallback", "en-us")
+        self.assertLessEqual(len(adir), MAX_ASSETS_DIR_LEN)
+        self.assertRegex(adir, ASSETS_DIR_RE)
+        self.assertTrue(adir.endswith("-v3.18.6-2607-20260831.assets"))
+
+        id_conflicts, asset_conflicts = _find_conflicts(
+            {
+                "a.pdf": {"source": "a.pdf", "document_id": "zh-cn/v3.18.6/ecs/user-guide/20251230", "assets_path": "cn/a.assets"},
+                "b.pdf": {"source": "b.pdf", "document_id": "zh-cn/v3.18.6/ecs/user-guide/20251230", "assets_path": "cn/a.assets"},
+            }
+        )
+        self.assertIn("zh-cn/v3.18.6/ecs/user-guide/20251230", id_conflicts)
+        self.assertIn("cn/a.assets", asset_conflicts)
+
+    def test_independent_assets_isolation_in_same_product_directory(self):
+        pdf_a = ROOT / "docs/cn/安全/安骑士/阿里云 专有云 V3.18.3 云盾-安骑士高级版 运维指南（安骑士） 20241106.pdf"
+        pdf_b = ROOT / "docs/cn/安全/安骑士/阿里云 专有云 V3.18.6 安骑士 运维指南 20251208.pdf"
+        shared_image = "10accb2034c8a6b0ad1cf41d09661950.png"
+        tool = ROOT / "scripts" / "convert_pdf_to_md.py"
+        verify = ROOT / "scripts" / "verify_pdf_md.py"
+
+        with tempfile.TemporaryDirectory() as folder:
+            subprocess.run(
+                [sys.executable, str(tool), str(pdf_a), str(pdf_b), "--output", folder, "--jobs", "2"],
+                check=True,
+                stdout=subprocess.PIPE,
+            )
+            prod_out = Path(folder) / "cn/安全/安骑士"
+            self.assertFalse((prod_out / "assets").exists())
+            dir_a = prod_out / "zh-server-guard-operations-guide-v3.18.3-20241106.assets"
+            dir_b = prod_out / "zh-server-guard-operations-guide-v3.18.6-20251208.assets"
+            self.assertTrue((dir_a / shared_image).is_file())
+            self.assertTrue((dir_b / shared_image).is_file())
+
+            md_a = (prod_out / (pdf_a.stem + ".md")).read_text(encoding="utf-8")
+            md_b = (prod_out / (pdf_b.stem + ".md")).read_text(encoding="utf-8")
+            self.assertIn(f"{dir_a.name}/{shared_image}", md_a)
+            self.assertNotIn(dir_b.name, md_a)
+            self.assertIn(f"{dir_b.name}/{shared_image}", md_b)
+            self.assertNotIn(dir_a.name, md_b)
+
+            verify_proc = subprocess.run(
+                [sys.executable, str(verify), str(pdf_a), str(pdf_b), "--output", folder, "--render"],
+                check=True,
+                stdout=subprocess.PIPE,
+                text=True,
+            )
+            self.assertEqual(json.loads(verify_proc.stdout)["summary"]["failed_checks_documents"], 0)
+
+
+if __name__ == "__main__":
+    unittest.main()

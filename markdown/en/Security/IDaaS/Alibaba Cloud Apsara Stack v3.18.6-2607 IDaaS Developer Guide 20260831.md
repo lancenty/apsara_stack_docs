@@ -645,7 +645,7 @@ The value of global_region is cn-ece-entity121-d01.
 
 The value of internet_domain is cloud.ece-group-121.com.
 
-![](assets/e1a48ba1df4dd413a9b5ae2b3bb28fe3.jpeg)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/e1a48ba1df4dd413a9b5ae2b3bb28fe3.jpeg)
 
 <a id="section-1-3"></a>
 
@@ -870,9 +870,9 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/e3163a92903e3eb4fa208fe5b6aa0236.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/e3163a92903e3eb4fa208fe5b6aa0236.png)
 
-![](assets/54bb6c1775ddba09eae67a6b0fa98950.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/54bb6c1775ddba09eae67a6b0fa98950.png)
 
 <table>
   <tr>
@@ -968,7 +968,7 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/b6ebecad0dc62f6a0436d8e3a58f5618.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/b6ebecad0dc62f6a0436d8e3a58f5618.png)
 
 <table>
   <tr>
@@ -1037,7 +1037,7 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/c53e389c5c5568bc6471a0ab602c28d7.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/c53e389c5c5568bc6471a0ab602c28d7.png)
 
 <table>
   <tr>
@@ -1082,7 +1082,7 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/c65a3f6eb8f5dea26b94404410138583.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/c65a3f6eb8f5dea26b94404410138583.png)
 
 <table>
   <tr>
@@ -1127,11 +1127,11 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/798a4afa8093a4c4421f61f45c827334.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/798a4afa8093a4c4421f61f45c827334.png)
 
-![](assets/62b96bc56e40c45b2e2e569ed638d778.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/62b96bc56e40c45b2e2e569ed638d778.png)
 
-![](assets/8509e90f9f1702cdfc52924c0cff9e07.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/8509e90f9f1702cdfc52924c0cff9e07.png)
 
 <table>
   <tr>
@@ -1200,9 +1200,9 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/59bc318f00d9f775b91f226f543d225e.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/59bc318f00d9f775b91f226f543d225e.png)
 
-![](assets/e706213c9a83fa432bc6bff93042370b.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/e706213c9a83fa432bc6bff93042370b.png)
 
 <table>
   <tr>
@@ -1327,7 +1327,7 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/f41b9191f9b019a48ab3871e08e5b56e.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/f41b9191f9b019a48ab3871e08e5b56e.png)
 
 <table>
   <tr>
@@ -1501,7 +1501,7 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/0f93405e865ff660575a45e9b1338a8a.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/0f93405e865ff660575a45e9b1338a8a.png)
 
 <table>
   <tr>
@@ -1570,7 +1570,7 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/f3de0048d93b9a9375e4691fdc8699d2.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/f3de0048d93b9a9375e4691fdc8699d2.png)
 
 <table>
   <tr>
@@ -1706,7 +1706,7 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/f06b874defef15fc42954524e6c385c2.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/f06b874defef15fc42954524e6c385c2.png)
 
 <table>
   <tr>
@@ -1906,7 +1906,7 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/8c9e2ae4e07bccf91e46f5d20d6a3e3c.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/8c9e2ae4e07bccf91e46f5d20d6a3e3c.png)
 
 <table>
   <tr>
@@ -1951,9 +1951,9 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/97bbec36d616225a254199fcb2352864.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/97bbec36d616225a254199fcb2352864.png)
 
-![](assets/e252862db432890706fa1076ebd61f3b.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/e252862db432890706fa1076ebd61f3b.png)
 
 <table>
   <tr>
@@ -1998,9 +1998,9 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/b6ebecad0dc62f6a0436d8e3a58f5618.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/b6ebecad0dc62f6a0436d8e3a58f5618.png)
 
-![](assets/485889dcf23fce58f650be7a609afb67.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/485889dcf23fce58f650be7a609afb67.png)
 
 <table>
   <tr>
@@ -2045,11 +2045,11 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/b6ebecad0dc62f6a0436d8e3a58f5618.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/b6ebecad0dc62f6a0436d8e3a58f5618.png)
 
-![](assets/b7a5fe54bcce90ffb70f291383ecdb68.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/b7a5fe54bcce90ffb70f291383ecdb68.png)
 
-![](assets/15c0684d1555d84784888cb56494ff22.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/15c0684d1555d84784888cb56494ff22.png)
 
 <table>
   <tr>
@@ -2094,9 +2094,9 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/0197336dd116036a70f60da7279cb31c.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/0197336dd116036a70f60da7279cb31c.png)
 
-![](assets/c3c9b06b18d3e9fa85ed1df3de4e785e.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/c3c9b06b18d3e9fa85ed1df3de4e785e.png)
 
 <table>
   <tr>
@@ -2333,9 +2333,9 @@ The following table lists the actions defined by placeholder-*${productName}*. T
   </tr>
 </table>
 
-![](assets/6731405ff86d5e54ae88a73e6b18b9e7.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/6731405ff86d5e54ae88a73e6b18b9e7.png)
 
-![](assets/6078a4d2ee62a9ff56ccf206f6b00fe8.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/6078a4d2ee62a9ff56ccf206f6b00fe8.png)
 
 <table>
   <tr>
@@ -12503,7 +12503,7 @@ The value of global_region is cn-ece-entity121-d01.
 
 The value of internet_domain is cloud.ece-group-121.com.
 
-![](assets/e1a48ba1df4dd413a9b5ae2b3bb28fe3.jpeg)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/e1a48ba1df4dd413a9b5ae2b3bb28fe3.jpeg)
 
 <a id="section-2-3"></a>
 
@@ -12579,7 +12579,7 @@ Sample success responses
 
 Queries the information of a user based on the user token.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging** You can run this interface directly in OpenAPI Explorer, saving you the trouble of calculating signatures. After running successfully, OpenAPI Explorer dynamically generates SDK code samples for different programming languages.
 
@@ -12641,7 +12641,7 @@ For a list of error codes, see Service error codes.
 
 Revokes an access token or refresh token.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -12705,7 +12705,7 @@ Queries the synchronization scope of an application in an instance.
 
 **Usage notes**
 
-> <img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
+> <img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
 >
 > **Note**
 >
@@ -12713,7 +12713,7 @@ Queries the synchronization scope of an application in an instance.
 >
 > scope. After an application is created, the application has the permission to call this operation by default.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -12791,7 +12791,7 @@ For a list of error codes, see Service error codes.
 
 Creates an organization.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -12868,7 +12868,7 @@ Updates the information about an organization in Identity-as-a-Service Enterpris
 
 The operation conforms to the HTTP PATCH request method. The value of a parameter is modified only if the parameter is specified in the request.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -12904,7 +12904,7 @@ PATCH /v2/{instanceId}/{applicationId}/organizationalUnits/{organizationalUnitId
 
 This operation does not return any operation-specific parameters.
 
-> <img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
+> <img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
 >
 > **Note**
 >
@@ -12949,7 +12949,7 @@ For a list of error codes, see Service error codes.
 
 Queries the information about an organization.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging** OpenAPI Explorer automatically calculates the signature value. For your convenience, we recommend that you call this operation in OpenAPI Explorer. OpenAPI Explorer dynamically generates the sample code of the operation for different SDKs.
 
@@ -13036,7 +13036,7 @@ For a list of error codes, see Service error codes.
 
 Deletes an organization.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -13117,7 +13117,7 @@ If you need to query child organizations in a root organization, set the followi
 }
 ```
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging** OpenAPI Explorer automatically calculates the signature value. For your convenience, we recommend that you call this operation in OpenAPI Explorer. OpenAPI Explorer dynamically generates the sample code of the operation for different SDKs.
 
@@ -13227,7 +13227,7 @@ For a list of error codes, see Service error codes.
 
 Queries the information of all the parent organizational units of an organizational unit.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -13298,7 +13298,7 @@ For a list of error codes, see Service error codes.
 
 Obtains the ID of an organization based on the external ID.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -13361,7 +13361,7 @@ For a list of error codes, see Service error codes.
 
 Creates an Employee Identity and Access Management (EIAM) account in an organization.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -13468,7 +13468,7 @@ Modifies an Employee Identity and Access Management (EIAM) account.
 
 The operation conforms to the HTTP PATCH request method. The value of a parameter is modified only if the parameter is specified in the request.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -13503,7 +13503,7 @@ PATCH /v2/{instanceId}/{applicationId}/users/{userId} HTTP/1.1
 | fieldValu e | string | No | The value of the extended field. | test_value |
 | operatio n | string | No | The operation to be performed on the field. Valid values:<br>• add<br>• replace If you leave the value of the extended field empty, the replace operation is converted to an add operation.<br>• remove | replace |
 
-![](assets/0bb1a4051ffa9df4a93c4a3ccbc2e352.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/0bb1a4051ffa9df4a93c4a3ccbc2e352.png)
 
 **Response parameters**
 
@@ -13558,7 +13558,7 @@ For a list of error codes, see Service error codes.
 
 Queries the details of an Employee Identity and Access Management (EIAM) account.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -13753,7 +13753,7 @@ Successful response example
 
 Deletes an Employee Identity and Access Management (EIAM) account.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -13824,7 +13824,7 @@ For a list of error codes, see Service error codes.
 
 Queries the information about Employee Identity and Access Management (EIAM) accounts by page.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -13945,7 +13945,7 @@ For a list of error codes, see Service error codes.
 
 Enables an Employee Identity and Access Management (EIAM) account.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -14016,7 +14016,7 @@ For a list of error codes, see Service error codes.
 
 Disables an Enterprise Identity Access Management (EIAM) account.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -14087,7 +14087,7 @@ For a list of error codes, see Service error codes.
 
 Queries the ID of an Employee Identity and Access Management (EIAM) account by email address.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -14180,7 +14180,7 @@ For a list of error codes, see Service error codes.
 
 Queries the ID of an Enterprise Identity Access Management (EIAM) account based on the mobile number.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -14250,7 +14250,7 @@ For a list of error codes, see Service error codes.
 
 Queries the ID of an Employee Identity and Access Management (EIAM) account by external ID.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -14324,7 +14324,7 @@ For a list of error codes, see Service error codes.
 
 Queries the ID of an account in Identity-as-a-Service Enterprise Identity Access Management (IDaaS EIAM) based on the username.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -14573,7 +14573,7 @@ Successful response
 
 Queries the details of a group.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -14639,7 +14639,7 @@ For a list of error codes, see Service error codes.
 
 Creates a group in Identity-as-a-Service Enterprise Identity Access Management (IDaaS EIAM).
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -14691,7 +14691,7 @@ For a list of error codes, see Service error codes.
 
 Modifies an Employee Identity and Access Management (EIAM) group.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -14746,7 +14746,7 @@ For a list of error codes, see Service error codes.
 
 Deletes a group.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -14799,7 +14799,7 @@ For a list of error codes, see Service error codes.
 
 Queries the information of Enterprise Identity Access Management (EIAM) groups by page.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -14881,7 +14881,7 @@ For a list of error codes, see Service error codes.
 
 Adds multiple Enterprise Identity Access Management (EIAM) accounts to an EIAM group. If the accounts already belong to the specified group, no update is performed.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -14937,7 +14937,7 @@ For a list of error codes, see Service error codes.
 
 Removes multiple Enterprise Identity Access Management (EIAM) accounts from an EIAM group. If the accounts no longer belong to the group, the removal succeeds by default.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -14993,7 +14993,7 @@ For a list of error codes, see Service error codes.
 
 Queries accounts in an Employee Identity and Access Management (EIAM) group.
 
-<img src="assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
+<img src="en-idaas-developer-guide-v3.18.6-2607-20260831.assets/173a1ca19e23c1535804e033c065ac7d.png" width="10" alt=""> Debug
 
 **Debugging**
 
@@ -15680,7 +15680,7 @@ public class SampleController {
 
 You can output user information on the /user endpoint.
 
-![](assets/da260d5cc9f60a7205ca8a260cb942d7.jpeg)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/da260d5cc9f60a7205ca8a260cb942d7.jpeg)
 
 Use the user information to log the user on to complete the SSO process.
 
@@ -15702,7 +15702,7 @@ To resolve this issue, you must modify the method through which Spring Boot gene
 
 2. If you use SLB, you must select **Use the X-Forwarded-Proto header to retrieve the listener protocol** in the advanced configuration of SLB, as shown in the following figure.
 
-   ![](assets/22e6b5017d6167ca8c1387d05fd646de.jpeg)
+   ![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/22e6b5017d6167ca8c1387d05fd646de.jpeg)
 
 3. If you use an NGINX proxy between SLB and the application, you must configure the following parameters on the proxy:
 
@@ -16717,7 +16717,7 @@ After the preceding procedure is completed, the application receives the request
 
 Obtain the public key endpoint from the synchronization configuration of the application. For more information, see **User Guide (Tenant) > Applications > Application Management > Synchronize IDaaS accounts to an application by using SCIM**.
 
-![](assets/f520e535e0d4b55263c97fd1c8c730a6.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/f520e535e0d4b55263c97fd1c8c730a6.png)
 
 In this topic, a Java utility class that directly obtains the public key from the public key endpoint is provided. If the programming language that you use requires public key information, you may need to click the public key endpoint URL to obtain the public key, and store the public key in a .pem file locally.
 
@@ -16882,7 +16882,7 @@ If Service Data Encryption is enabled for the application, the event data is enc
 
 You can enter an encryption key or click Generate Key to generate an encryption key.
 
-![](assets/1e13f84a28075f007e423d652caab33e.png)
+![](en-idaas-developer-guide-v3.18.6-2607-20260831.assets/1e13f84a28075f007e423d652caab33e.png)
 
 Copy the key and use it during decryption.
 

@@ -130,7 +130,7 @@ An ROS template is a standardized method to deliver resources and applications. 
 
 ROS manages a collection of cloud resources in a centralized manner by using a single unit named a stack. A stack is a collection of Apsara Stack resources. You can create, delete, and recreate cloud resources by stack.
 
-![](assets/1d5e25781dc531e93ba67a7d36af0824.jpeg)
+![](en-ros-user-guide-v3.18.6-2607-20260828.assets/1d5e25781dc531e93ba67a7d36af0824.jpeg)
 
 <a id="section-2"></a>
 
@@ -148,7 +148,7 @@ This topic describes how to log in to the Resource Orchestration Service (ROS) c
 
 1. In the address bar of your browser, enter the service domain name for the Apsara Uni-manager Management Console and press Enter.
 
-   ![](assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
+   ![](en-ros-user-guide-v3.18.6-2607-20260828.assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
 
    > **Note**
    >
@@ -322,7 +322,7 @@ A stack is in the Created state. For more information, see Create a stack.
 
      **(Optional)** Find the operation record and click **Operation Details** in the **Operation** column to view data in the **Basic Information** and **API call details** sections.
 
-     ![](assets/8fea90024fba5a27ed4265170ab8628b.jpeg)
+     ![](en-ros-user-guide-v3.18.6-2607-20260828.assets/8fea90024fba5a27ed4265170ab8628b.jpeg)
 
 <a id="section-3-3"></a>
 
@@ -563,7 +563,7 @@ This topic describes how to view operation logs to track user access and behavio
 
 4. Select the record you want to view, and click **View** in the **Details** column on the right to view **General Information** and **Instance Details**.
 
-   ![](assets/fd231981b3356663202b7c2b99de2493.jpeg)
+   ![](en-ros-user-guide-v3.18.6-2607-20260828.assets/fd231981b3356663202b7c2b99de2493.jpeg)
 
 <a id="section-6"></a>
 
@@ -4391,7 +4391,7 @@ ALIYUN::ECS::InstanceGroup is used to create a group of Elastic Compute Service 
 | AutoReleaseTi me | String | No | No | The point in time at which the system automatically releases the ECS instances. | Specify the time in the ISO 8601 standard in the <code> yyyy-MM-</code><code>ddTHH:mm:ssZ </code> format.The time must be within three years from the time at which the ECS instances are created. |
 | PrivateIpAddre ss | String | No | No | The private IP address of an ECS instance in a virtual private cloud (VPC). | Other instances in the VPC must not use the specified IP address. |
 
-![](assets/f55df3566c948f8ba549c9afb63859cc.png)
+![](en-ros-user-guide-v3.18.6-2607-20260828.assets/f55df3566c948f8ba549c9afb63859cc.png)
 
 <table>
   <tr>
@@ -4817,7 +4817,7 @@ ALIYUN::ECS::InstanceGroupClone is used to clone an ECS instance group.
 | PeriodUnit | String | Yes | Tru e | The billing cycle for created ECS instances. | Valid values:<br>• Week.<br>1, 2, 3, and 4} when the value of the PeriodUnit parameter is Week.AutoRenewPeriod values are 1, 2, "3"}.<br>• Month<br>1, 2, 3, 4, 5, 6, and 7 when the PeriodUnit parameter is set to Month "8", "9", "12", "24", "36", "48", "60"},AutoRenewPeriod can be {"1", "2", "3", "6", "12"}.<br>Default value: Month. |
 | EniMappings | List | No. | Tru e | The elastic network interfaces (ENIs) to be attached to a created instance. | Only a single ENI can be attached to each instance. |
 
-![](assets/df1c027fdc1b23d0f6f082c199526090.png)
+![](en-ros-user-guide-v3.18.6-2607-20260828.assets/df1c027fdc1b23d0f6f082c199526090.png)
 
 <table>
   <tr>
@@ -7341,9 +7341,9 @@ The ALIYUN::ECS::SecurityGroup resource is used to create a security group.
 | SourceGroup OwnerAccoun t | String | No | No | The Alibaba Cloud account to which the source security group belongs. | • If neither <code>SourceGroupOwnerAccount</code> <code> </code> nor <code> SourceGroupOwnerId </code> is set, the system assumes you configure access permissions for your other security groups.<br>• If you set the <code>SourceCidrIp</code> parameter, the <code>SourceGroupOwnerAccount</code> <code> </code> parameter is invalid. |
 | DestCidrIp | String | No | No | The destination IPv4 CIDR block. | Supports IP address ranges in CIDR and IPv4 formats.<br>For quintuple rules, see Security group quintuple rules. |
 
-![](assets/4f46be4e8fe95eda2647ed212efd40db.png)
+![](en-ros-user-guide-v3.18.6-2607-20260828.assets/4f46be4e8fe95eda2647ed212efd40db.png)
 
-![](assets/5d9e4fe4dd485ea645a016e74514f205.png)
+![](en-ros-user-guide-v3.18.6-2607-20260828.assets/5d9e4fe4dd485ea645a016e74514f205.png)
 
 **Return values**
 
@@ -8957,7 +8957,7 @@ ALIYUN::ECS::VSwitch is used to create a vSwitch.
 | <code>CidrBlock</code> | String | Yes | No | The CIDR block of the vSwitch. | The CIDR block of a vSwitch must be a subset of the CIDR block of the VPC to which the vSwitch belongs and cannot be used by other vSwitches. |
 | <code>Descriptio</code><br><code>n</code> | String | No | Yes | The description of the vSwitch. | The description must be 2 to 256 characters in length. The description cannot start with <code> http:// </code> or <code> https:// </code>. |
 
-![](assets/ad9b9ed3e6988dd8f09d19686863bbec.png)
+![](en-ros-user-guide-v3.18.6-2607-20260828.assets/ad9b9ed3e6988dd8f09d19686863bbec.png)
 
 <table>
   <tr>
@@ -9333,9 +9333,9 @@ ALIYUN::ESS::LifecycleHook is used to create a lifecycle hook for a scaling grou
 | DefaultResult | String | No | Yes | The action that the scaling group takes when the lifecycle hook times out.<br>If the scaling group has multiple lifecycle hooks and one of them is terminated when the <code>DefaultResult</code> parameter is set to ABANDON during a <code> scale-in </code> event, the remaining lifecycle hooks in the same scaling group will also be terminated. Otherwise, the scaling activity will proceed normally after the waiting period expires and continue with the action specified by the DefaultResult parameter. | Valid values:<br>• CONTINUE: The scaling group continues the scale-in or scale-out event.<br>• ABANDON: The scaling group releases the created ECS instances if the scaling activity type is scale-out or removes the ECS instances to be scaled in if the scaling activity type is scale-in.<br>Default value: CONTINUE. |
 | LifecycleTransitio n | String | Yes | Yes | The type of scaling activity to which the lifecycle hook applies. | Valid values:<br>• SCALE_OUT: scale-out events of the scaling group.<br>• SCALE_IN: scale-in events of the scaling group. |
 
-![](assets/9290582e91d6146078421f2d6658b345.png)
+![](en-ros-user-guide-v3.18.6-2607-20260828.assets/9290582e91d6146078421f2d6658b345.png)
 
-![](assets/a280f8b5e5bd723d5b2c59492aa0bd7a.png)
+![](en-ros-user-guide-v3.18.6-2607-20260828.assets/a280f8b5e5bd723d5b2c59492aa0bd7a.png)
 
 **Response parameters**
 
@@ -11969,7 +11969,7 @@ ALIYUN::RDS::Account is used to create a database account for an ApsaraDB for RD
 | AccountDescripti on | String | No | Yes | The description of the database account. | The description must be 2 to 256 characters in length and can contain letters, digits, underscores (_), and hyphens(-).It must start with a letter. |
 | DBInstanceId | String | Yes | No | The ID of the instance. | None |
 | AccountPasswor d | String | Yes | No | The password of the database account. | The password must be 8 to 32 characters in length and must contain at least three of the following character types: uppercase letters, lowercase letters, digits, and special characters.Special characters include<br><code>!</code><br><code>@#$&amp;amp;%^*</code><br><code>()_+-=</code> |
-| AccountType | String | No | No | The type of the database account. | Default value: Normal. Valid values:<br>• Normal: standard account<br>• Super: privileged account<br><img src="assets/618e2e24f61771ccab45f8931af9e62e.png" width="13" alt=""><br>Note Privileged accounts in ApsaraDB RDS for SQL Server instances cannot be deleted. |
+| AccountType | String | No | No | The type of the database account. | Default value: Normal. Valid values:<br>• Normal: standard account<br>• Super: privileged account<br><img src="en-ros-user-guide-v3.18.6-2607-20260828.assets/618e2e24f61771ccab45f8931af9e62e.png" width="13" alt=""><br>Note Privileged accounts in ApsaraDB RDS for SQL Server instances cannot be deleted. |
 | AccountName | String | Yes | No | The name of the database account. | None |
 
 **Response parameters**
@@ -12236,7 +12236,7 @@ ALIYUN::RDS::DBInstance is used to create an ApsaraDB RDS instance.
 | Tags | Map | No | Yes | The tags. Each tag consists of a tag key and a tag value. | The tag key is required, and the tag value is optional.<br>Format example: <code>{“key1”:”value1”,“key2”:””}</code><code> </code>. |
 | PeriodType | String | No | No | The period type. | Valid values:<br>• Month (default)<br>• Year |
 
-![](assets/63babe4f1b6975cccd4b1fd8be4156fb.png)
+![](en-ros-user-guide-v3.18.6-2607-20260828.assets/63babe4f1b6975cccd4b1fd8be4156fb.png)
 
 <table>
   <tr>
@@ -16983,7 +16983,7 @@ Clones an SLB instance.
 | LoadBalancerNa me | String | No | No | The name of the SLB instance. | 1 to 80 characters.Supports letters, digits, hyphens (-), forward slashes (/), periods (.), and underscores (_). |
 | Tags | List | No | No | The tags of the SLB instance. | Key-value pairs.Maximum: 5.<br>Tags properties. |
 | TagsPolicy | String | No | No | The tag policy. | Valid values:<br>• clone: Retains the tags of the source instance.<br>• empty (default): Does not set any tags.<br>• append: Retains the tags of the source instance and adds new tags.<br>• replace: Adds only new tags without retaining the source instance's tags. |
-| InstanceChargeT ype | String | No | No | The billing method of the instance. | Valid values:<br>• PayBySpec (default): pay-by-specification.<br>• PayByCLCU: pay-as-you-go.<br><img src="assets/618e2e24f61771ccab45f8931af9e62e.png" width="13" alt=""><br>Note Valid only when PayType is set to PayOnDe mand. |
+| InstanceChargeT ype | String | No | No | The billing method of the instance. | Valid values:<br>• PayBySpec (default): pay-by-specification.<br>• PayByCLCU: pay-as-you-go.<br><img src="en-ros-user-guide-v3.18.6-2607-20260828.assets/618e2e24f61771ccab45f8931af9e62e.png" width="13" alt=""><br>Note Valid only when PayType is set to PayOnDe mand. |
 | LoadBalancerSp ec | String | No | No | The specification of the SLB instance. | Valid values:<br>• slb.s1.small (default)<br>• slb.s2.small<br>• slb.s2.mediu m<br>• slb.s3.small<br>• slb.s3.mediu m<br>• slb.s3.large<br>• slb.s3.xlarge<br>• slb.s3.xxlarge<br>Supported specifications vary by region.FAQ about CLB instances. |
 
 **BackendServers syntax**

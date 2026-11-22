@@ -232,7 +232,7 @@ This topic describes how users such as O&M engineers log in to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -272,7 +272,7 @@ This topic describes the content displayed on the Overview page of the Bare Meta
 
 The alert dashboard displays alerts related to computing, networks, and storage.
 
-![](assets/65d54a16d498a12ddae32da4ec65cbe6.jpeg)
+![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/65d54a16d498a12ddae32da4ec65cbe6.jpeg)
 
 **Resource statistics**
 
@@ -298,7 +298,7 @@ This section displays resource data related to intelligent computing clusters, s
 
 - Total number of storage clusters, number of servers, and number of file systems
 
-  ![](assets/898991da22b7c5cfcb22e7546790690a.jpeg)
+  ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/898991da22b7c5cfcb22e7546790690a.jpeg)
 
 **Resource dashboard**
 
@@ -328,7 +328,7 @@ This section displays the usage of intelligent computing resources, supercomputi
 
     - Allocation rate = Resources in the resource pool/(Resources allocated to tenants + Resources in the resource pool) × 100%.
 
-  ![](assets/1ebfeaca2a99264304e784b0c1dcd05f.png)
+  ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/1ebfeaca2a99264304e784b0c1dcd05f.png)
 
 - Converged resources (number of GPUs and GPU memory)
 
@@ -366,7 +366,7 @@ This section displays the usage of intelligent computing resources, supercomputi
 
     - Allocation Rate = Resources in the resource pool/(Resources allocated to tenants + Resources in the resource pool) × 100%.
 
-  ![](assets/1ebfeaca2a99264304e784b0c1dcd05f.png)
+  ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/1ebfeaca2a99264304e784b0c1dcd05f.png)
 
 - Storage resources
 
@@ -374,7 +374,7 @@ This section displays the usage of intelligent computing resources, supercomputi
 
   - View the data for **Used**, **Allocated**, **Total**, and **Utilization** of storage resources.
 
-  ![](assets/f59f4ee75d207112122ea28ff52841a1.png)
+  ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/f59f4ee75d207112122ea28ff52841a1.png)
 
 **Computing power dashboard**
 
@@ -398,13 +398,13 @@ This dashboard displays data for GPU Computing Power and CPU Computing Power.
 >
 > - GPU computing power refers to the computing power of intelligent computing GPUs, excluding the computing power of GPUs in supercomputing clusters.
 
-![](assets/7581a3bc17b9371c00146925a2ddf3ac.png)
+![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/7581a3bc17b9371c00146925a2ddf3ac.png)
 
 **Control services**
 
 The Control Services module displays the status: **Abnormal** or **At Desired**, of computing, networks, and storage control services. **Abnormal** indicates that the service deployment has not been completed. **At Desired State** indicates that the service has been deployed.
 
-![](assets/1eb4f715c96e043f9b56ef024e0bb540.png)
+![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/1eb4f715c96e043f9b56ef024e0bb540.png)
 
 <a id="section-4"></a>
 
@@ -424,7 +424,7 @@ Only Hygon DCUK100-AI, ZW810E, Kunlun P800, METAX C550, Moore Threads S5000, and
 
 The cluster running the task must have the ai-task-inspector component installed. If it is not installed, install **Container O&M Service** via **BMCP > Cluster Management > Software Instances**.
 
-![](assets/0b540e1f76dd232a4fe359a85d006acf.jpeg)
+![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/0b540e1f76dd232a4fe359a85d006acf.jpeg)
 
 > **Note**
 >
@@ -450,7 +450,7 @@ The cluster running the task must have the ai-task-inspector component installed
    >
    >   icon on the left to expand
    >
-   >   <img src="assets/62c99742bc6bb4b6f6ae019a0fd427bb.png" width="22" alt="">
+   >   <img src="en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/62c99742bc6bb4b6f6ae019a0fd427bb.png" width="22" alt="">
    >
    >   it. Job information includes job status, occupied resources, and job start/end times.
 
@@ -462,7 +462,7 @@ The cluster running the task must have the ai-task-inspector component installed
 
 5. In the **Job view** area, select a **time slice**. The canvas below displays the job’s topology and resource utilization for that time slice. Topology includes components such as GPU cards, RDMA cards, switches, and their interconnections. Resource metrics include GPU utilization and RDMA NIC bandwidth usage.
 
-   ![](assets/0259baa340580cafec6c282d56686ae2.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/0259baa340580cafec6c282d56686ae2.jpeg)
 
    > **Note**
    >
@@ -496,7 +496,7 @@ Deploy CloudMonitor (CMS) and ensure it reaches the desired state.
 
    By default, you enter the **Calculation** tab.
 
-   ![](assets/6e5b8203e70a582e14ec4efe53175da2.png)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/6e5b8203e70a582e14ec4efe53175da2.png)
 
 4. View and handle **Calculation** alerts.
 
@@ -530,7 +530,7 @@ Deploy CloudMonitor (CMS) and ensure it reaches the desired state.
    >
    > Processing methods include Ignore (the alert requires no action) and Fixed (the fault corresponding to the alert has been resolved).
 
-   ![](assets/e720350c6e849747022b2d6a62ca093b.png)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/e720350c6e849747022b2d6a62ca093b.png)
 
 5. Click the **Storage** tab to view and handle **Storage** alerts.
 
@@ -582,7 +582,7 @@ Job event alert supports only **ACK - Intelligent Computing Cluster**.
 
 3. Click the **Job Event Alert** tab, select **Cluster ID**, **Namespace**, and **Job ID**, and then click **Search**. The **Job Event Alert** displays all associated alerts generated during the lifecycle of the job.
 
-   ![](assets/0e02e4cbeee45c401369a56b3e4efdb2.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/0e02e4cbeee45c401369a56b3e4efdb2.jpeg)
 
 <a id="section-6"></a>
 
@@ -630,7 +630,7 @@ A BMCP cluster is created in the Apsara Uni-manager Operations Console.
 
      <li>
 
-     Click the <img src="assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search for clusters in fuzzy match mode.
+     Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search for clusters in fuzzy match mode.
 
      </li>
 
@@ -768,7 +768,7 @@ This topic describes how to query Bare Metal Computing Platform (BMCP) computing
 
      <li>
 
-     Click the <img src="assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search for nodes in fuzzy match mode.
+     Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search for nodes in fuzzy match mode.
 
      </li>
 
@@ -985,7 +985,7 @@ This topic describes how to query all physical servers and view their detailed i
 
      <li>
 
-     Click the <img src="assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search servers in fuzzy match mode.
+     Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search servers in fuzzy match mode.
 
      </li>
 
@@ -1284,7 +1284,7 @@ This topic describes how to re-register servers.
 
    You can view all physical servers on this tab.
 
-   ![](assets/be34cd3b56d36471141c5d9801d1d749.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/be34cd3b56d36471141c5d9801d1d749.jpeg)
 
 4. Find the desired server, click the
 
@@ -1374,7 +1374,7 @@ The **Resource Owner** of the server is **Resource Pool**.
 
 4. Select a method to enable servers.
 
-   - **Enable a single server**: Click the <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon in the **Actions** column of the server, choose
+   - **Enable a single server**: Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon in the **Actions** column of the server, choose
 
      **Resource Availability** > **Enable**.
 
@@ -1398,7 +1398,7 @@ The **Resource Owner** of the server is **Resource Pool**.
 
 4. Select a method to disable servers.
 
-   - **Disable a single server**: Click the <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon in the **Actions** column of the server, choose
+   - **Disable a single server**: Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon in the **Actions** column of the server, choose
 
      **Resource Availability** > **Disable**.
 
@@ -1442,7 +1442,7 @@ You can query GPU cards only after the bare metal machine completes provisioning
 
      <li>
 
-     Click <img src="assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> to perform a fuzzy search for matching GPU cards.
+     Click <img src="en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> to perform a fuzzy search for matching GPU cards.
 
      </li>
 
@@ -1615,7 +1615,7 @@ This section describes how to query all network element resources (including DSW
 
 4. Enter the relevant information in the **Network element name** or **Management IP addresses** search box to locate the target network element.
 
-   ![](assets/e8f6415e8b8e2b3ea6b9de8185106433.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/e8f6415e8b8e2b3ea6b9de8185106433.jpeg)
 
 5. Click **Details** in the **Operation** column for the corresponding network element to open its details page.
 
@@ -1625,13 +1625,13 @@ This section describes how to query all network element resources (including DSW
 
    - **Monitoring**: Displays the **CPU usage** and **Memory usage** of the network element device.
 
-   ![](assets/4e7b2475e4acc8d808479e093d8e7039.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/4e7b2475e4acc8d808479e093d8e7039.jpeg)
 
 6. Click **Jump to the network console** in the **Operation** column for the corresponding network element to view more detailed information about the CPN network element.
 
    For more information, see the **CPN Network Element** chapter in **Apsara Uni-manager Operations Console User Guide**.
 
-   ![](assets/b6e4d8f831bd7611232a2db190f26fbd.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/b6e4d8f831bd7611232a2db190f26fbd.jpeg)
 
 <a id="section-7-3-2"></a>
 
@@ -1651,7 +1651,7 @@ This section describes how to query all traces within a site, including switch t
 
 4. Enter the relevant information in the **Link name** search box to query the target trace.
 
-   ![](assets/df1760dd797e944229283f940236aac8.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/df1760dd797e944229283f940236aac8.jpeg)
 
 5. Click **Link name** or **Operation** column **Details** to enter the trace details page.
 
@@ -1695,7 +1695,7 @@ Cluster/node diagnostics is supported only for bare metal-intelligent computing 
 
    Click a number in the **Subitem** column to view the supported diagnostics items. For more information about diagnostics items, see Description of diagnostic items.
 
-   ![](assets/8949e2876e3ff131fc2a683068fb9930.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/8949e2876e3ff131fc2a683068fb9930.jpeg)
 
 **Manage clutser/node diagnostics tasks**
 
@@ -1747,7 +1747,7 @@ Job diagnosis supports only **Bare Metal** node-based **Container-intelligent Co
 
    Click the number in the **Sub-item** column to view the currently supported diagnostic items.
 
-   ![](assets/f76597bb4d55ab178d4427f620463948.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/f76597bb4d55ab178d4427f620463948.jpeg)
 
 **Manage job diagnostic tasks**
 
@@ -2034,7 +2034,7 @@ This topic describes how to delete a model.
 
 4. In the confirmation dialog box, click **OK**.
 
-   ![](assets/8e8d5562f1c3c6348403205bb383f566.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/8e8d5562f1c3c6348403205bb383f566.jpeg)
 
 <a id="section-9-2"></a>
 
@@ -2069,7 +2069,7 @@ You can manage custom images and public images on the Bare Metal Computing Platf
    | Image description | No | The description of the image. |
    | Image Upload | Yes | Select the local image file that you want to upload. |
 
-   ![](assets/b7db77467858697c9a8845cd693e847f.png)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/b7db77467858697c9a8845cd693e847f.png)
 
 5. Click **OK**.
 
@@ -2276,7 +2276,7 @@ This topic describes how to add a GPU.
    | GPU memory size | Yes | The size of GPU memory. Unit: GB. |
    | TFLOPS | Yes | The TFLOPS. |
 
-   ![](assets/1534dbe8f75ff1cec9350723db754e6e.png)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/1534dbe8f75ff1cec9350723db754e6e.png)
 
 5. After you complete the configuration, click **OK**.
 
@@ -2296,7 +2296,7 @@ This topic describes how to query GPU.
 
    You can also click Advanced Filter, enter a GPU model, and then click Search to find matching GPU configurations.
 
-   ![](assets/5b19401f3c118766c27ed1494c1fe012.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/5b19401f3c118766c27ed1494c1fe012.jpeg)
 
 <a id="section-9-3-3"></a>
 
@@ -2318,7 +2318,7 @@ This topic describes how to modify the information of a GPU.
    >
    > You cannot modify the GPU manufacturer or GPU model parameter.
 
-   ![](assets/df35159812bd0a3410c32b7b90984e88.png)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/df35159812bd0a3410c32b7b90984e88.png)
 
 5. Click **OK**.
 
@@ -2338,7 +2338,7 @@ This topic describes how to remove a GPU.
 
 4. Confirm the GPU information and click **OK**.
 
-![](assets/c18c721b075bba58a9eb499c4b76150a.png)
+![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/c18c721b075bba58a9eb499c4b76150a.png)
 
 <a id="section-10"></a>
 
@@ -2388,15 +2388,15 @@ Job logs support only **ACK - intelligent computing clusters** that contain **ba
 
 4. Click **Create a task**, set **Task name**, select **Cluster ID**, **Namespace**, and **Job ID**, then click **OK**.
 
-   ![](assets/7395c81d7c3e76c43f6c323bf5774316.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/7395c81d7c3e76c43f6c323bf5774316.jpeg)
 
 5. Click **Details** in the **Actions** column of a log collection task to view its details.
 
-   ![](assets/8219fcdbca6c393d89e83fd29073206a.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/8219fcdbca6c393d89e83fd29073206a.jpeg)
 
 6. When the **log collection status** is **Completed**, select the log collection task and click **Export logs** to download the corresponding compressed log file package.
 
-   ![](assets/c7d6000e5ef557ff7607384d07a8eaef.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/c7d6000e5ef557ff7607384d07a8eaef.jpeg)
 
 <a id="section-11"></a>
 
@@ -2559,7 +2559,7 @@ This topic describes how to proceed to the next wave of upgrade tasks. After you
 
 2. Choose **Instance O&M > Upgrade Task Management**.
 
-3. In the **Actions** column of the target upgrade task, click the <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon, and then click **Poceed**
+3. In the **Actions** column of the target upgrade task, click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon, and then click **Poceed**
 
    **with Next Wave**.
 
@@ -2583,7 +2583,7 @@ This topic describes how to cancel an upgrade task. The cancel operation only st
 
 2. Choose **Instance O&M > Upgrade Task Management**.
 
-3. In the **Actions** column of the target upgrade task, click the <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon, and then click **Cancel**.
+3. In the **Actions** column of the target upgrade task, click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon, and then click **Cancel**.
 
 4. In the confirmation dialog box, click **OK**.
 
@@ -2768,7 +2768,7 @@ This topic describes how to enable or disable a software stack bundle.
 
 2. Choose **Instance O&M > Software Stack Profile**.
 
-3. In the **Actions** column of the target bundle, click the <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon. Select the operation as
+3. In the **Actions** column of the target bundle, click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon. Select the operation as
 
    needed:
 
@@ -2856,6 +2856,6 @@ This topic describes how to delete a software stack bundle.
 
 2. Choose **Instance O&M > Software Stack Profile**.
 
-3. Locate the target bundle, click the <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon in the **Actions** column, and then click **Delete**.
+3. Locate the target bundle, click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon in the **Actions** column, and then click **Delete**.
 
 4. In the confirmation dialog box, click **OK**.

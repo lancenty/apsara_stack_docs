@@ -44,7 +44,7 @@ This topic describes how to log on to the CloudOps Orchestration Service (OOS) c
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
+   ![](en-oos-user-guide-v3.18.6-2607-20260828.assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
 
    > **Note**
    >
@@ -120,7 +120,7 @@ This topic describes how to log on to the CloudOps Orchestration Service (OOS) c
 
 2. On the Forgot Password page, configure the **Account Name** and **Email Address** parameters, enter the verification code, and then click **Confirm**.
 
-   ![](assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
+   ![](en-oos-user-guide-v3.18.6-2607-20260828.assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
 
    > **Note**
    >
@@ -134,7 +134,7 @@ This topic describes how to log on to the CloudOps Orchestration Service (OOS) c
 
 After you log on to the OOS console, the **Welcome** page appears.
 
-![](assets/810d49ffda97233a6696a6a67ac9a19c.jpeg)
+![](en-oos-user-guide-v3.18.6-2607-20260828.assets/810d49ffda97233a6696a6a67ac9a19c.jpeg)
 
 This page displays the following information:
 
@@ -172,7 +172,7 @@ Log on to the CloudOps Orchestration Service (OOS) console. In the left-side nav
 
 1. Click **Create** to go to the **Create Scheduled O&M Task** page.
 
-   ![](assets/f29c16a1cbf0f8923f92dfa856e5af36.jpeg)
+   ![](en-oos-user-guide-v3.18.6-2607-20260828.assets/f29c16a1cbf0f8923f92dfa856e5af36.jpeg)
 
 2. Configure a scheduled O&M task.
 
@@ -232,7 +232,7 @@ Log on to the CloudOps Orchestration Service (OOS) console. In the left-side nav
 
 In the **Execution Status** drop-down list, you can filter tasks by specifying the task status.
 
-![](assets/c6b437efc620b2f1444b0e54b513a51f.jpeg)
+![](en-oos-user-guide-v3.18.6-2607-20260828.assets/c6b437efc620b2f1444b0e54b513a51f.jpeg)
 
 **View Details**
 
@@ -2803,7 +2803,7 @@ This topic describes how to create a custom task template.
 
 4. In the **Basic Information** section, specify the parameters, including **Template Name**, **Organization**, and **Resource Set**. Click **Show More** to add a **version description**.
 
-   ![](assets/18bf4979ce055491a241decd78242efe.jpeg)
+   ![](en-oos-user-guide-v3.18.6-2607-20260828.assets/18bf4979ce055491a241decd78242efe.jpeg)
 
 5. On the **Process Configuration** tab, view the **Parameters**, **Task Steps**, and **Output** parameters of the template. You can manually add or delete the parameters.
 
@@ -2919,7 +2919,7 @@ This topic describes how to view a custom template.
 
    - On the details page, click **YAML** or **JSON** to view the template content, including parameters, outputs, and tasks.
 
-     ![](assets/2aef09e4bae33c6352b7655250ed0ba4.jpeg)
+     ![](en-oos-user-guide-v3.18.6-2607-20260828.assets/2aef09e4bae33c6352b7655250ed0ba4.jpeg)
 
 <a id="section-5-6"></a>
 
@@ -2937,7 +2937,7 @@ This topic describes how to update a custom template.
 
 4. After you modify the template, click **Update Template**.
 
-   ![](assets/152a9daacbfe8bbf47e61974e2a85097.jpeg)
+   ![](en-oos-user-guide-v3.18.6-2607-20260828.assets/152a9daacbfe8bbf47e61974e2a85097.jpeg)
 
 <a id="section-5-7"></a>
 
@@ -2953,7 +2953,7 @@ This topic describes how to delete a custom template.
 
 3. Find the template and click **Delete** in the **Actions** column.
 
-   ![](assets/8369cca2a7e5632bc380ab4806d2ed59.jpeg)
+   ![](en-oos-user-guide-v3.18.6-2607-20260828.assets/8369cca2a7e5632bc380ab4806d2ed59.jpeg)
 
 4. In the **Delete Template** message, click OK.
 

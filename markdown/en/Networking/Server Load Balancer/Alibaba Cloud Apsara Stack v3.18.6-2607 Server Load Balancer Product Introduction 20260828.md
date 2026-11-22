@@ -69,7 +69,7 @@ SLB consists of three components:
 
 The Server Load Balancer (SLB) service consists of SLB instances, listeners, and backend servers.
 
-![](assets/1a314c6b534fd6243b4507182d96aa12.png)
+![](en-slb-product-introduction-v3.18.6-2607-20260828.assets/1a314c6b534fd6243b4507182d96aa12.png)
 
 **SLB instances**
 

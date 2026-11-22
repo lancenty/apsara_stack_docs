@@ -140,11 +140,11 @@ Logging in and logging out are basic operations for using the OpenTrek-Ops platf
 
 **Log out of the system**
 
-1. In the lower-left corner of the page, click <img src="assets/b8a1602b70260fdf36449c59cba80ac1.png" width="6" alt=""> on the right side of the current logon user.
+1. In the lower-left corner of the page, click <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/b8a1602b70260fdf36449c59cba80ac1.png" width="6" alt=""> on the right side of the current logon user.
 
 2. In the dialog box, click **Sign Out**.
 
-   ![](assets/69331e3cb4ce086b813ed47b84d6e468.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/69331e3cb4ce086b813ed47b84d6e468.jpeg)
 
 <a id="section-3"></a>
 
@@ -174,7 +174,7 @@ You have logged in to the OpenTrek-Ops platform as a tenant operations administr
 
    After logging in, the system redirects you to the **Operations Overview** page by default.
 
-   ![](assets/d38bc5615dca03c7155ca4554c3f1a8e.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/d38bc5615dca03c7155ca4554c3f1a8e.jpeg)
 
 2. On the **Operations Overview** page, you can view the following core modules:
 
@@ -205,9 +205,9 @@ The AI Ops Assistant enables automated O&M management. This topic describes how 
 
 2. In the left-side navigation pane, select **AI Assistant** to open the AI Ops Assistant.
 
-3. Enter your question in the input box of the AI Assistant and click <img src="assets/7d8dc2b5525c48aebab37a3b6f72ed66.jpeg" width="14" alt=""> .
+3. Enter your question in the input box of the AI Assistant and click <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/7d8dc2b5525c48aebab37a3b6f72ed66.jpeg" width="14" alt=""> .
 
-   ![](assets/39505a19f8e566104111a7d384df7e89.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/39505a19f8e566104111a7d384df7e89.jpeg)
 
    - Click a quick question on a card to start a session.
 
@@ -227,15 +227,15 @@ The AI Ops Assistant enables automated O&M management. This topic describes how 
 
    - Historical task: Search for a historical task in the conversation task record search box to view the historical task records.
 
-   - Delete a task: Move the pointer over the target conversation task, click <img src="assets/83045a084a75ecdabb2efe3f21602de6.png" width="13" alt=""> next to the
+   - Delete a task: Move the pointer over the target conversation task, click <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/83045a084a75ecdabb2efe3f21602de6.png" width="13" alt=""> next to the
 
      task, and select **Delete** to delete the historical task record.
 
-   - Rename a task: Move the pointer over the target conversation task, click <img src="assets/83045a084a75ecdabb2efe3f21602de6.png" width="13" alt=""> next to the
+   - Rename a task: Move the pointer over the target conversation task, click <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/83045a084a75ecdabb2efe3f21602de6.png" width="13" alt=""> next to the
 
-     task, select **Rename**, edit the task name, and then click <img src="assets/67ddc962665baf1999e17491bd560e3f.png" width="12" alt=""> .
+     task, select **Rename**, edit the task name, and then click <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/67ddc962665baf1999e17491bd560e3f.png" width="12" alt=""> .
 
-   - Pin a task: Move the pointer over the target conversation task, click <img src="assets/83045a084a75ecdabb2efe3f21602de6.png" width="13" alt=""> next to the task,
+   - Pin a task: Move the pointer over the target conversation task, click <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/83045a084a75ecdabb2efe3f21602de6.png" width="13" alt=""> next to the task,
 
      and select **Pin** to pin the task.
 
@@ -455,7 +455,7 @@ Agent management is a core feature of the platform and applies to the following 
 
    You can view the following information on this page:
 
-   ![](assets/60f29857efd3eaeb6d307f02ae1210bf.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/60f29857efd3eaeb6d307f02ae1210bf.jpeg)
 
    - Use the search box to search for an agent by name.
 
@@ -831,7 +831,7 @@ Agent management is a core feature of the platform and applies to the following 
 
 | Operation type | Agent type | Procedure |
 | --- | --- | --- |
-| Edit an agent | xClaw | 1. Find the target agent in the agent list.<br>2. Click the agent card to go to the agent details page.<br>3. In the <strong>Basic Info</strong> section, edit the <strong>Primary Model</strong> as needed.<br>4. Click <strong>More</strong> &gt; <strong>Edit</strong> in the upper-right corner of the page to edit the agent name, description, and visibility.<br>5. In the lower part of the details page, click the <strong>Persona</strong>, <strong>Skills and</strong> <strong>Tools</strong>, <strong>Channels</strong>, <strong>Cloud Resources</strong>, <strong>Version History</strong>, or <strong>Security</strong> <strong>Settings</strong> tab to edit the related information.<br>i. Persona<br>Edit the <strong>Identity</strong>, <strong>Persona</strong>, and <strong>Behavior Boundaries</strong>, and then click <strong>Save</strong>.ii. Skills and Tools<br>• Skills<br>• Add a skill<br>Click <strong>Add Skill</strong>, select one or more skills, and then click <strong>OK</strong>.<br>Note<br>Before adding a skill to an agent, you must first add the skill to the project to which the agent belongs.<br>• Roll back a skill<br>If an added skill has multiple versions, click the skill name and switch the version in the upper-right corner of the skill details page to roll back the skill version.<br>• Delete a skill<br>Click the delete icon next to an added skill to remove the skill.<br>• Update the skill status<br>Click<img src="assets/89e2691a8ee2b66740feb86ac31a9451.png" width="18" alt="">next to an added skill to enable or disable the skill.<br>• Plugins<br>• Add a plugin<br>Click <strong>Add Plugin</strong>, select the target plugin, and then click <strong>OK</strong>.<br>• Delete a plugin<br>Click the delete icon on the plugin card to remove the plugin.<br>• MCP<br>• Add an MCP server<br>Click <strong>Add MCP</strong>. In the <strong>Add MCP Server</strong> dialog box, search for and select the server, and then click <strong>Bind to Agent</strong>.<br>• Delete an MCP server<br>Click the delete icon next to an added MCP server to remove the MCP server.<br>• Update the status of an MCP server<br>Click<img src="assets/1da573b304016ab6601ba74d22419e0c.png" width="14" alt="">next to an added MCP server to enable or disable the<br>MCP server.<br>iii. Channels<br>Configure the channel information and click <strong>Save Configuration</strong>.<br>iv. Cloud Resources<br>Click the delete icon next to the target model service to remove the model. The system synchronizes the change to the agent after removal.<br>v. Version History<br>On the <strong>Version History</strong> tab, click <strong>Publish</strong> in the <strong>Actions</strong> column of a historical version to roll back the agent to that version. |
+| Edit an agent | xClaw | 1. Find the target agent in the agent list.<br>2. Click the agent card to go to the agent details page.<br>3. In the <strong>Basic Info</strong> section, edit the <strong>Primary Model</strong> as needed.<br>4. Click <strong>More</strong> &gt; <strong>Edit</strong> in the upper-right corner of the page to edit the agent name, description, and visibility.<br>5. In the lower part of the details page, click the <strong>Persona</strong>, <strong>Skills and</strong> <strong>Tools</strong>, <strong>Channels</strong>, <strong>Cloud Resources</strong>, <strong>Version History</strong>, or <strong>Security</strong> <strong>Settings</strong> tab to edit the related information.<br>i. Persona<br>Edit the <strong>Identity</strong>, <strong>Persona</strong>, and <strong>Behavior Boundaries</strong>, and then click <strong>Save</strong>.ii. Skills and Tools<br>• Skills<br>• Add a skill<br>Click <strong>Add Skill</strong>, select one or more skills, and then click <strong>OK</strong>.<br>Note<br>Before adding a skill to an agent, you must first add the skill to the project to which the agent belongs.<br>• Roll back a skill<br>If an added skill has multiple versions, click the skill name and switch the version in the upper-right corner of the skill details page to roll back the skill version.<br>• Delete a skill<br>Click the delete icon next to an added skill to remove the skill.<br>• Update the skill status<br>Click<img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/89e2691a8ee2b66740feb86ac31a9451.png" width="18" alt="">next to an added skill to enable or disable the skill.<br>• Plugins<br>• Add a plugin<br>Click <strong>Add Plugin</strong>, select the target plugin, and then click <strong>OK</strong>.<br>• Delete a plugin<br>Click the delete icon on the plugin card to remove the plugin.<br>• MCP<br>• Add an MCP server<br>Click <strong>Add MCP</strong>. In the <strong>Add MCP Server</strong> dialog box, search for and select the server, and then click <strong>Bind to Agent</strong>.<br>• Delete an MCP server<br>Click the delete icon next to an added MCP server to remove the MCP server.<br>• Update the status of an MCP server<br>Click<img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/1da573b304016ab6601ba74d22419e0c.png" width="14" alt="">next to an added MCP server to enable or disable the<br>MCP server.<br>iii. Channels<br>Configure the channel information and click <strong>Save Configuration</strong>.<br>iv. Cloud Resources<br>Click the delete icon next to the target model service to remove the model. The system synchronizes the change to the agent after removal.<br>v. Version History<br>On the <strong>Version History</strong> tab, click <strong>Publish</strong> in the <strong>Actions</strong> column of a historical version to roll back the agent to that version. |
 
 <ol type="i" start="6">
 
@@ -851,7 +851,7 @@ Security Settings
 
   - Enable or disable a rule
 
-    Click <img src="assets/043cc77f9bb75980c951509c90b8592e.png" width="14" alt=""> in the **Actions** column of the target rule to enable or
+    Click <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/043cc77f9bb75980c951509c90b8592e.png" width="14" alt=""> in the **Actions** column of the target rule to enable or
 
     disable the rule.
 
@@ -863,7 +863,7 @@ Security Settings
 
 1. Click the agent card to go to the agent details page.
 
-   Click <img src="assets/914c1e848143e8e946b194ee03d80fc3.png" width="10" alt=""> in the **Actions** column of the target rule to edit the
+   Click <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/914c1e848143e8e946b194ee03d80fc3.png" width="10" alt=""> in the **Actions** column of the target rule to edit the
 
 2. On the agent details page, click **More** in the upper-right corner and
 
@@ -877,7 +877,7 @@ Pro-code
 
 3. Edit the agent name, description, and visibility.
 
-4. Click **Save**Click . <img src="assets/c726ee981b15d18ec7c4e60ea0fb18ca.png" width="10" alt=""> in the **Actions** column of the target rule to delete the
+4. Click **Save**Click . <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/c726ee981b15d18ec7c4e60ea0fb18ca.png" width="10" alt=""> in the **Actions** column of the target rule to delete the
 
    rule.
 
@@ -1031,7 +1031,7 @@ agent
 
 3. After unbinding, the system clears the workflow agent data on this platform. After confirmation, click **Confirm Unbind**.
 
-Click the favorite icon <img src="assets/b900aa22a9c4a92d377e671b0b524451.png" width="13" alt=""> on the target agent card to add the agent to
+Click the favorite icon <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/b900aa22a9c4a92d377e671b0b524451.png" width="13" alt=""> on the target agent card to add the agent to
 
 Favorite an
 
@@ -1095,7 +1095,7 @@ The project management feature applies to the following scenarios:
 
    Obtain the following information on this page:
 
-   ![](assets/ed16f99347d8a0f16932a0e76a468fc5.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/ed16f99347d8a0f16932a0e76a468fc5.jpeg)
 
    - View the number of total, activated and idle projects as well as the number of bound agents.
 
@@ -1191,7 +1191,7 @@ The project management feature applies to the following scenarios:
 
      On the project details page, select the **Cloud Resources** tab. On the **Model Service**
 
-     tab, click the delete icon <img src="assets/8872bbcbfd71d0c7be3527d05ec89b2c.png" width="14" alt=""> in the **Action** column of the target cloud resource to delete
+     tab, click the delete icon <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/8872bbcbfd71d0c7be3527d05ec89b2c.png" width="14" alt=""> in the **Action** column of the target cloud resource to delete
 
      the cloud resource.
 
@@ -1411,7 +1411,7 @@ This topic describes how to manage skills, MCPs, and plugins in the Apsara Uni-M
 
    Go to the **Skills** management page, where you can obtain the following information:
 
-   ![](assets/2023e7a7b19f56b8a2c87269f4cdfc00.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/2023e7a7b19f56b8a2c87269f4cdfc00.jpeg)
 
    - View the total number of skills, the number of enabled skills, the number of disabled skills, and the total number of installations.
 
@@ -1574,7 +1574,7 @@ This topic describes how to manage skills, MCPs, and plugins in the Apsara Uni-M
 
    Go to the **MCP** page, where you can obtain the following information:
 
-   ![](assets/adb806fc21681c8e6d12bd08275bdb8c.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/adb806fc21681c8e6d12bd08275bdb8c.jpeg)
 
    - View the number of enabled and disabled MCP servers.
 
@@ -1600,7 +1600,7 @@ This topic describes how to manage skills, MCPs, and plugins in the Apsara Uni-M
 
      On the **Manual Configuration** tab, specify the following parameters:
 
-     ![](assets/7322ee6b4bad322105e55daa6b8c07de.jpeg)
+     ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/7322ee6b4bad322105e55daa6b8c07de.jpeg)
 
      | Parameter | Required | Description |
      | --- | --- | --- |
@@ -1650,7 +1650,7 @@ This topic describes how to manage skills, MCPs, and plugins in the Apsara Uni-M
 
      Paste the MCP server configuration JSON into the input box.
 
-     ![](assets/8e3ecfee438138802a1ea080a28b5bb4.jpeg)
+     ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/8e3ecfee438138802a1ea080a28b5bb4.jpeg)
 
      </li>
 
@@ -1670,7 +1670,7 @@ This topic describes how to manage skills, MCPs, and plugins in the Apsara Uni-M
 
    In the server list, click a server name to view the basic information, connection configuration, and tool list of the server:
 
-   ![](assets/1068dc38d1622b3b5d487e6bbe0ac1b2.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/1068dc38d1622b3b5d487e6bbe0ac1b2.jpeg)
 
    - Basic information
 
@@ -1688,11 +1688,11 @@ This topic describes how to manage skills, MCPs, and plugins in the Apsara Uni-M
 
    - For a server whose status is **Enabled**, click the disable icon in the **Actions** column of the
 
-     target server <img src="assets/f03e9d27d435000d45b2e38485c687da.png" width="14" alt=""> .
+     target server <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/f03e9d27d435000d45b2e38485c687da.png" width="14" alt=""> .
 
    - For a server whose status is **Disabled**, click the enable icon in the **Actions** column of the
 
-     target server <img src="assets/f61f8198bd3d35c032ce938cf5c3766c.png" width="17" alt=""> .
+     target server <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/f61f8198bd3d35c032ce938cf5c3766c.png" width="17" alt=""> .
 
 6. Edit an MCP server.
 
@@ -1704,7 +1704,7 @@ This topic describes how to manage skills, MCPs, and plugins in the Apsara Uni-M
 
    <li>
 
-   Click the edit icon in the Actions column of the target server <img src="assets/7639febc02a8036e478096caa2e0097d.png" width="14" alt=""> to edit the **Description**,
+   Click the edit icon in the Actions column of the target server <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/7639febc02a8036e478096caa2e0097d.png" width="14" alt=""> to edit the **Description**,
 
    **Server Endpoint**, **Headers**, and **Timeout Period** of the MCP server.
 
@@ -1726,7 +1726,7 @@ This topic describes how to manage skills, MCPs, and plugins in the Apsara Uni-M
 
 7. Delete an MCP server.
 
-   Click the delete icon in the **Actions** column of the target server <img src="assets/025c95950fe7c9c317c332ff68e2c263.png" width="12" alt=""> , and then click **Delete** in
+   Click the delete icon in the **Actions** column of the target server <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/025c95950fe7c9c317c332ff68e2c263.png" width="12" alt=""> , and then click **Delete** in
 
    the **Confirm Deletion** dialog box.
 
@@ -1824,17 +1824,17 @@ After performing Ops operations such as restart, upgrade, scaling, and skill syn
 
    - Statistics cards: The top of the page displays five metrics: **Total Changes**, **Success**, **Failed/Partial**, **Running**, and **Pending**.
 
-     ![](assets/4135cbb977667b7cd98cae15ac6ccf70.jpeg)
+     ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/4135cbb977667b7cd98cae15ac6ccf70.jpeg)
 
    - Change record list: The system displays all change records in a table.
 
-     ![](assets/a0cee4c038b9a92a56ac21210c0b92ca.jpeg)
+     ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/a0cee4c038b9a92a56ac21210c0b92ca.jpeg)
 
 3. View operation details.
 
    In the change record list, click the target change type to view the detailed history of the change.
 
-   ![](assets/91db8fb7398a327a69670ede203daa5f.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/91db8fb7398a327a69670ede203daa5f.jpeg)
 
    You can view detailed information such as **Basic Info**, **Change Target**, and **Execution Logs**.
 
@@ -1842,7 +1842,7 @@ After performing Ops operations such as restart, upgrade, scaling, and skill syn
 
    For batch operations, click the target change type. In the operation details drawer, you can view the **Execution Strategy** and the total number of agents.
 
-   ![](assets/065c5007a96869de240fd698427a00d1.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/065c5007a96869de240fd698427a00d1.jpeg)
 
 5. Search for and filter operation records.
 
@@ -1903,7 +1903,7 @@ You have logged in to the OpenTrek-Ops platform as a tenant operations administr
 
    This page provides the following information:
 
-   ![](assets/1e2ca18bfb78de9c3832fe7361098b00.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/1e2ca18bfb78de9c3832fe7361098b00.jpeg)
 
    View information such as the name and type of model services, Kubernetes clusters, AI gateways, agent platforms, and data storage infrastructure.
 
@@ -1946,7 +1946,7 @@ You have logged in to the OpenTrek-Ops platform as a tenant operations administr
 
      <li>
 
-     Click the edit icon <img src="assets/0db46c56d1349c9083cbc3111a1737d3.png" width="14" alt=""> in the **Actions** column of the target gateway, and then edit the
+     Click the edit icon <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/0db46c56d1349c9083cbc3111a1737d3.png" width="14" alt=""> in the **Actions** column of the target gateway, and then edit the
 
      **API Key** in the **Edit AI Gateway** dialog box.
 
@@ -1976,7 +1976,7 @@ You have logged in to the OpenTrek-Ops platform as a tenant operations administr
 
      <li>
 
-     Click the synchronize icon <img src="assets/b576fc242dbe62e80ed2140c6161be13.png" width="10" alt=""> in the **Actions** column of the target gateway, and then
+     Click the synchronize icon <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/b576fc242dbe62e80ed2140c6161be13.png" width="10" alt=""> in the **Actions** column of the target gateway, and then
 
      click **Synchronize**.
 
@@ -1992,7 +1992,7 @@ You have logged in to the OpenTrek-Ops platform as a tenant operations administr
 
    - Remove a gateway
 
-     Click the remove icon <img src="assets/5b4ca7d647f87f1c812f7db139b2e5a0.png" width="14" alt=""> in the **Actions** column of the target gateway, and then click
+     Click the remove icon <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/5b4ca7d647f87f1c812f7db139b2e5a0.png" width="14" alt=""> in the **Actions** column of the target gateway, and then click
 
      **Remove** in the dialog box.
 
@@ -2032,7 +2032,7 @@ You have logged in to the OpenTrek-Ops platform as a tenant operations administr
 
      - Click the name of the target model in the model list to view the **Basic Information**, source, and **Access Endpoint** of the model.
 
-       ![](assets/2e9f5193a045631cf9d11a8970efc8d4.jpeg)
+       ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/2e9f5193a045631cf9d11a8970efc8d4.jpeg)
 
    - Edit a model
 
@@ -2044,7 +2044,7 @@ You have logged in to the OpenTrek-Ops platform as a tenant operations administr
 
      <li>
 
-     Click the edit icon <img src="assets/ae41bbaac3b6850066b5d0c76bc8d8fe.png" width="14" alt=""> in the **Actions** column of the target model.
+     Click the edit icon <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/ae41bbaac3b6850066b5d0c76bc8d8fe.png" width="14" alt=""> in the **Actions** column of the target model.
 
      </li>
 
@@ -2072,7 +2072,7 @@ You have logged in to the OpenTrek-Ops platform as a tenant operations administr
 
      <li>
 
-     Click the remove icon <img src="assets/a63b242e8aac305d38688a4b7e808a74.png" width="14" alt=""> in the **Actions** column of the target model.
+     Click the remove icon <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/a63b242e8aac305d38688a4b7e808a74.png" width="14" alt=""> in the **Actions** column of the target model.
 
      </li>
 
@@ -2088,7 +2088,7 @@ You have logged in to the OpenTrek-Ops platform as a tenant operations administr
 
    On the **Data Storage** tab, click the name of an instance to view the **Basic Information** and **Access Endpoints** details of the instance.
 
-   ![](assets/95cc915d0ee1c08d1dcb0cda81c45953.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/95cc915d0ee1c08d1dcb0cda81c45953.jpeg)
 
 6. K8S Cluster
 
@@ -2121,13 +2121,13 @@ You have logged in to the OpenTrek-Ops platform as a tenant operations administr
 
    - Edit a cluster
 
-     Click the edit icon <img src="assets/5d0de3d1fcad7fa830b15cd680ec7d5c.png" width="13" alt=""> in the **Actions** column of the target cluster to edit parameters such
+     Click the edit icon <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/5d0de3d1fcad7fa830b15cd680ec7d5c.png" width="13" alt=""> in the **Actions** column of the target cluster to edit parameters such
 
      as the **Agent Service Endpoint**, **Access IP**, **ingressClassName**, **storageClassName**, and **KubeConfig**. After editing, click **Save**.
 
    - Remove a cluster
 
-     Click the remove icon <img src="assets/288fc3e06fa4421eb751106bd2fea17d.png" width="12" alt=""> in the **Actions** column of the target cluster, and then click
+     Click the remove icon <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/288fc3e06fa4421eb751106bd2fea17d.png" width="12" alt=""> in the **Actions** column of the target cluster, and then click
 
      **Remove** in the pop-up dialog box.
 
@@ -2198,13 +2198,13 @@ You have logged in to the OpenTrek-Ops platform as a tenant operations administr
 
    - Edit a platform
 
-     Click the edit icon <img src="assets/25c00f1d16de0399fdad78541c1a7695.png" width="13" alt=""> in the **Actions** column of the target platform to edit information
+     Click the edit icon <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/25c00f1d16de0399fdad78541c1a7695.png" width="13" alt=""> in the **Actions** column of the target platform to edit information
 
      such as the platform name. If you leave the AppKey field empty, the system retains the original value. After editing, click **Save**.
 
    - Delete a platform
 
-     Click the delete icon <img src="assets/152ca554f67ec41a4e8e5bbb81c40a77.png" width="14" alt=""> in the **Actions** column of the target platform, and then click
+     Click the delete icon <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/152ca554f67ec41a4e8e5bbb81c40a77.png" width="14" alt=""> in the **Actions** column of the target platform, and then click
 
      **Confirm**.
 
@@ -2373,7 +2373,7 @@ This topic describes how to configure security settings in the OpenTrek-Ops plat
      </tr>
    </table>
 
-   ![](assets/f435acc6b4c0427b417aec69e6542d46.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/f435acc6b4c0427b417aec69e6542d46.jpeg)
 
 **Enable a rule**
 
@@ -2503,7 +2503,7 @@ The system tracks key operations in real time, focusing on high-risk events and 
 
 4. Click a session name or session ID to view details such as the session name, session ID, start time, entry agent, project, session duration, turns, total tokens, input tokens, output tokens, trace list, and session messages.
 
-   ![](assets/a71fb1f70bf3093a22b76cbdaf4e4659.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/a71fb1f70bf3093a22b76cbdaf4e4659.jpeg)
 
    In the trace list, click a trace ID to view the trace details.
 
@@ -2527,7 +2527,7 @@ UModel exploration is a visual exploration tool designed for model governance an
 
 3. On the **UModel Explorer** page, viewn the following information:
 
-   ![](assets/c7317d36b614c53c7e99bf28bd62c503.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/c7317d36b614c53c7e99bf28bd62c503.jpeg)
 
    - The total number of nodes and connections.
 
@@ -2582,7 +2582,7 @@ This topic describes how to view multi-dimensional statistics of token consumpti
    | Token Trend | Displays a trend chart of token consumption within the target time range, including total, input, and output data.<br>Move the pointer over a node to view the data at the corresponding time. |
    | Total Tokens by Model | Displays the total number of tokens and the consumption proportion of each model within the target time range. |
 
-   ![](assets/95ae90ecc622b6f0aa767fb5baeef631.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/95ae90ecc622b6f0aa767fb5baeef631.jpeg)
 
 5. View detailed data by the following dimensions at the bottom of the page.
 
@@ -2688,7 +2688,7 @@ The tenant management feature applies to the following scenarios:
 
    <li>
 
-   Click the edit icon <img src="assets/2d235e498cfd9821ef657d0614232932.png" width="16" alt=""> in the **Actions** column to modify the tenant name, description,
+   Click the edit icon <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/2d235e498cfd9821ef657d0614232932.png" width="16" alt=""> in the **Actions** column to modify the tenant name, description,
 
    </li>
 
@@ -2722,7 +2722,7 @@ The tenant management feature applies to the following scenarios:
 
    <li>
 
-   Click the delete icon <img src="assets/2ec8f665246b1cf6420b0072480bea92.png" width="14" alt=""> in the **Actions** column.
+   Click the delete icon <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/2ec8f665246b1cf6420b0072480bea92.png" width="14" alt=""> in the **Actions** column.
 
    </li>
 
@@ -2875,13 +2875,13 @@ You have logged in to the OpenTrek-Ops platform as a tenant administrator.
 
 1. Log in to the OpenTrek-Ops platform.
 
-2. In the lower part of the left-side menu, click <img src="assets/868d49ff7353a9e6a20ba865c333d540.png" width="11" alt=""> on the right side of the current login account
+2. In the lower part of the left-side menu, click <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/868d49ff7353a9e6a20ba865c333d540.png" width="11" alt=""> on the right side of the current login account
 
    and select **Current Tenant**. You can switch tenants. The system isolates resources for different tenants to ensure independence among tenants.
 
 3. Configure tenant settings.
 
-   In the tenant switching dialog box, click the settings button <img src="assets/253227e8a2b08632346be481a25376e4.png" width="7" alt=""> for the target tenant. Enter
+   In the tenant switching dialog box, click the settings button <img src="en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/253227e8a2b08632346be481a25376e4.png" width="7" alt=""> for the target tenant. Enter
 
    the specified administrator in the input box and authorize the user as the Ops administrator of the current tenant.
 
@@ -2889,7 +2889,7 @@ You have logged in to the OpenTrek-Ops platform as a tenant administrator.
    >
    > Ensure that the tenant administrator has added the organization of the selected user to the platform.
 
-   ![](assets/0902dc83e25145b2242b0a5381133787.jpeg)
+   ![](en-opentrek-ops-user-guide-v3.18.6-2607-20260902.assets/0902dc83e25145b2242b0a5381133787.jpeg)
 
    Click **Confirm Authorization**, and then click **Back** in the upper-right corner of the page.
 

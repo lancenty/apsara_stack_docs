@@ -304,7 +304,7 @@ To keep Apsara Stack in the same way as the public cloud and enable you to have 
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-opentrek-dev-developer-guide-v3.18.6-2607-20260901.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the target cloud service.
 
@@ -314,7 +314,7 @@ To keep Apsara Stack in the same way as the public cloud and enable you to have 
 
 7. Select the operation that you want to view and obtain the POP endpoint of the cloud service.
 
-   ![](assets/17836abc4a932a2ca825a35e3888a978.jpeg)
+   ![](en-opentrek-dev-developer-guide-v3.18.6-2607-20260901.assets/17836abc4a932a2ca825a35e3888a978.jpeg)
 
 **Obtain a value from the basic O&M platform of the**
 
@@ -330,9 +330,9 @@ When you call Apsara Stack APIs by using the POP gateway, you must use the endpo
 
 5. Enter a  `ons_bizapi_endpoint`  in the Service Registration field and click **Search**.
 
-   ![](assets/2ad38f60b46c1947d489d29619ce6add.jpeg)
+   ![](en-opentrek-dev-developer-guide-v3.18.6-2607-20260901.assets/2ad38f60b46c1947d489d29619ce6add.jpeg)
 
-6. In the **Service Registration** column for the  `mq-console`  service, click the <img src="assets/f9387f3709671f07787cb98488ef1c63.png" width="17" alt=""> icon.
+6. In the **Service Registration** column for the  `mq-console`  service, click the <img src="en-opentrek-dev-developer-guide-v3.18.6-2607-20260901.assets/f9387f3709671f07787cb98488ef1c63.png" width="17" alt=""> icon.
 
 7. Click the text information in the  `mq-console`  Service **Service Registration** column. In the **Register Variable** dialog box, view the ons_bizapi_endpoint value, which is the  `Endpoint`  value.
 
@@ -356,7 +356,7 @@ This topic describes how to use the advanced SDK to call API operations by using
 
 3. On the **Developer Portal** page, choose **API Integration** > **SDK Examples**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="22" alt=""> button, choose **Middleware** > **MQ**, and set **Version** to **2018-02-05**.
+4. Click the <img src="en-opentrek-dev-developer-guide-v3.18.6-2607-20260901.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="22" alt=""> button, choose **Middleware** > **MQ**, and set **Version** to **2018-02-05**.
 
 5. Select **Advanced Edition** from the **SDK Type** drop-down list and select Java.
 
@@ -572,7 +572,7 @@ The API information on the debugging page in the Apsara Uni-manager Management C
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-opentrek-dev-developer-guide-v3.18.6-2607-20260901.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the target cloud service.
 
@@ -582,7 +582,7 @@ The API information on the debugging page in the Apsara Uni-manager Management C
 
 7. Select the operation that you want to view and obtain the POP endpoint of the cloud service.
 
-   ![](assets/fb46564fa241d26d7e3a4872d450c247.jpeg)
+   ![](en-opentrek-dev-developer-guide-v3.18.6-2607-20260901.assets/fb46564fa241d26d7e3a4872d450c247.jpeg)
 
 <a id="section-1-1-2-2"></a>
 
@@ -623,7 +623,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of the personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-opentrek-dev-developer-guide-v3.18.6-2607-20260901.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -673,7 +673,7 @@ You must call a specific API operation to obtain the organization ID. You can ob
 
 3. In the top navigation bar of the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="22" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select **2019-05-10**
+4. Move the pointer over the <img src="en-opentrek-dev-developer-guide-v3.18.6-2607-20260901.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="22" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select **2019-05-10**
 
    from the **Version** drop-down list.
 
@@ -689,7 +689,7 @@ You must call a specific API operation to obtain the resource set ID. You can ob
 
 3. In the top navigation bar of the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="22" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select **2019-05-10**
+4. Move the pointer over the <img src="en-opentrek-dev-developer-guide-v3.18.6-2607-20260901.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="22" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select **2019-05-10**
 
    from the **Version** drop-down list.
 

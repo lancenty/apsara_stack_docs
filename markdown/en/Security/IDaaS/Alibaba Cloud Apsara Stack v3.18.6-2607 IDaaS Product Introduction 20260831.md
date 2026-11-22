@@ -193,11 +193,11 @@ OAuth 2.0 is an authorization protocol that is often used to implement SSO. Beca
 
 **access_token/id_token/refresh_token**
 
-![](assets/94e9ef4b2b8242185659d5bdf25fc6d4.png)
+![](en-idaas-product-introduction-v3.18.6-2607-20260831.assets/94e9ef4b2b8242185659d5bdf25fc6d4.png)
 
 An  `access token`  is used to call an API operation provided by an IdP.
 
-![](assets/d61163cf12cf9691e30a098f6d620fec.png)
+![](en-idaas-product-introduction-v3.18.6-2607-20260831.assets/d61163cf12cf9691e30a098f6d620fec.png)
 
 An  `ID token`  is used to obtain information about the account that is logged on.
 

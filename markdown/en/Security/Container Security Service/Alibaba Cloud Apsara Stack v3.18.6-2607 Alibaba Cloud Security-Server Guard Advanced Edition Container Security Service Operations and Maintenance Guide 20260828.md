@@ -50,17 +50,17 @@ CSS uses a cloud-native architecture of Server Guard to provide multiple feature
 
 **V3.18.1 and earlier**
 
-![](assets/68c6ae3e8797abf0b0ecfcc8a7efd5e3.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/68c6ae3e8797abf0b0ecfcc8a7efd5e3.png)
 
-![](assets/b8960fd42ff6d0f180301118030f3673.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/b8960fd42ff6d0f180301118030f3673.png)
 
-![](assets/ffee4eafb9d4dacb71ae3d407317e6d9.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/ffee4eafb9d4dacb71ae3d407317e6d9.png)
 
 **Server Side**
 
-![](assets/2c0c146f83fce5bd94cc55388e02c3df.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/2c0c146f83fce5bd94cc55388e02c3df.png)
 
-![](assets/6d0b1d3a86e4ed426ceae992bace205d.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/6d0b1d3a86e4ed426ceae992bace205d.png)
 
 **Customer household**
 
@@ -68,15 +68,15 @@ CSS uses a cloud-native architecture of Server Guard to provide multiple feature
 
 **V3.18.2- V3.18.6(2512 universal)**
 
-![](assets/2cc07947bb925bd5ade9ef8e6aef285b.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/2cc07947bb925bd5ade9ef8e6aef285b.png)
 
-![](assets/d7ab3c4aa650cbaf138f3eabc241915c.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/d7ab3c4aa650cbaf138f3eabc241915c.png)
 
 **Server Side**
 
-![](assets/0fa09c86a91a5e02bef720cdd49e0648.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/0fa09c86a91a5e02bef720cdd49e0648.png)
 
-![](assets/26132ffcc809e4c5c2b2fea8c5c0b456.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/26132ffcc809e4c5c2b2fea8c5c0b456.png)
 
 **Customer household**
 
@@ -84,17 +84,17 @@ CSS uses a cloud-native architecture of Server Guard to provide multiple feature
 
 **V3.19- V3.18.6(2512limit)**
 
-![](assets/1c58bbfb95400b6ca00dea50014c028a.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/1c58bbfb95400b6ca00dea50014c028a.png)
 
-![](assets/bfb01ba28ccf3fe37c3bdb803a80e38b.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/bfb01ba28ccf3fe37c3bdb803a80e38b.png)
 
 **Service service**
 
 **end**
 
-![](assets/666d1411ca8521e63448135c7b676306.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/666d1411ca8521e63448135c7b676306.png)
 
-![](assets/176c87b995a9a528ff075ce23ef1d198.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/176c87b995a9a528ff075ce23ef1d198.png)
 
 **Client Side**
 
@@ -106,17 +106,17 @@ ECS Instance or Server Outside Cloud
 
 **Versions later than V3.18.6(2512limit)**
 
-![](assets/05691ff1a5965e10e5756c7a3a4b45d9.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/05691ff1a5965e10e5756c7a3a4b45d9.png)
 
-![](assets/3263d1844e06c6af86ad1c81e5caefe6.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/3263d1844e06c6af86ad1c81e5caefe6.png)
 
 **Service service**
 
 **end**
 
-![](assets/415a0c37020c41d1e1b7da937e2e8ae1.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/415a0c37020c41d1e1b7da937e2e8ae1.png)
 
-![](assets/0cf7a96eb31d0327e8e3e44f37e9924f.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/0cf7a96eb31d0327e8e3e44f37e9924f.png)
 
 **Customer household**
 
@@ -231,7 +231,7 @@ notify you of changes
 
 to the image asset.
 
-![](assets/d8295b328facbd628123e03b2cedeec6.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/d8295b328facbd628123e03b2cedeec6.png)
 
 1. Synchronize assets
 
@@ -263,19 +263,19 @@ change information
 
 **End**
 
-![](assets/ccffecced7a95323b263c5862ddde8ed.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/ccffecced7a95323b263c5862ddde8ed.png)
 
 ACK control ACK control
 
 Other applications
 
-![](assets/38093ceabb257cc7d3379f0e17205bf4.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/38093ceabb257cc7d3379f0e17205bf4.png)
 
 **Customer Household**
 
 **End**
 
-![](assets/eb73c2f9ab85b4bda2b6caddfe3c6988.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/eb73c2f9ab85b4bda2b6caddfe3c6988.png)
 
 **V3.18.6 -2512-limit later version core process**
 
@@ -285,7 +285,7 @@ Self-built image
 
    warehouse
 
-![](assets/ec82ed8b2c699e6f8b54c80ceb218372.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/ec82ed8b2c699e6f8b54c80ceb218372.png)
 
 1. Configure access to a managed image cluster
 
@@ -305,7 +305,7 @@ Self-built image
 
 **End**
 
-![](assets/3f5b9b8f5206d3813ed2025dab63c6c2.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/3f5b9b8f5206d3813ed2025dab63c6c2.png)
 
 ACK control ACK control
 
@@ -337,7 +337,7 @@ metaq notification
 
 - In IDC scenarios, off-cloud assets may be integrated into container security management by using the grid connection method.
 
-  ![](assets/b7560cba166ecd0000a3855e4a14d6e3.png)
+  ![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/b7560cba166ecd0000a3855e4a14d6e3.png)
 
 Control
 
@@ -353,7 +353,7 @@ The network logs of containers are marked as in and out traffic. Combined with t
 
 - Match interval: The exact match time is 60 seconds, and the service mode time is 10 seconds.
 
-  ![](assets/7b30339b83564c94238ff36fff1e473b.png)
+  ![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/7b30339b83564c94238ff36fff1e473b.png)
 
 **Service Service**
 
@@ -455,7 +455,7 @@ through DNS, and these IP addresses are RAM.
 
 **Core Process**
 
-![](assets/7f3260cb8ce8ef1816e7a3f78507102e.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/7f3260cb8ce8ef1816e7a3f78507102e.png)
 
 Network
 
@@ -531,7 +531,7 @@ Image types outside the cloud: quay,harbor, and images built by jenkins
 
 You can use the image scan settings to scan images from a specified image repository within a specified period.
 
-![](assets/6b450a6e51653d87c0cfa5d7f80d630a.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/6b450a6e51653d87c0cfa5d7f80d630a.png)
 
 **Webhook Image Scan**
 
@@ -539,15 +539,15 @@ acr images and user-created image repositions can use webhooks to report image c
 
 **Image scan of Jenkins plug-ins**
 
-![](assets/65aeb5523ff2f91cb6cd007a8f5c1889.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/65aeb5523ff2f91cb6cd007a8f5c1889.png)
 
-![](assets/c53ee47893b2add51b70d9ed9732bfc1.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/c53ee47893b2add51b70d9ed9732bfc1.png)
 
 1. Download the
 
 SasImageScanner image
 
-![](assets/b8dc684b368268aeb7af3249e7ef9947.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/b8dc684b368268aeb7af3249e7ef9947.png)
 
 2. Load the
 
@@ -557,7 +557,7 @@ SasImageScanner image
 
    scan container.
 
-![](assets/e44cf0fe12f5f4753e74d9149f0fd171.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/e44cf0fe12f5f4753e74d9149f0fd171.png)
 
 Client
 
@@ -579,7 +579,7 @@ Container
 
 tamper-proofing
 
-![](assets/f7f71c7bb0d28461425cb8d9432c39bd.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/f7f71c7bb0d28461425cb8d9432c39bd.png)
 
 **Active defense for containers**
 
@@ -595,25 +595,25 @@ This feature detects security risks during container startup or run time from mu
 
 Create a rule
 
-![](assets/b96ec773910818d4269aae8f8d9dd4b2.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/b96ec773910818d4269aae8f8d9dd4b2.png)
 
 Query rules
 
-![](assets/579cad32859223262e800a1955e565c3.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/579cad32859223262e800a1955e565c3.png)
 
 **Non-mirror program defense flowchart**
 
 **Flow chart of container anti-escape**
 
-![](assets/a715834be93d9e790093fe96ffb5bdcc.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/a715834be93d9e790093fe96ffb5bdcc.png)
 
 6. Dangerous container
 
    deployment
 
-![](assets/5ef93d8e5caff5dcd7e6b93281666528.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/5ef93d8e5caff5dcd7e6b93281666528.png)
 
-![](assets/ea6b71eb4cb1d72794431e8c1d610fdb.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/ea6b71eb4cb1d72794431e8c1d610fdb.png)
 
 8. T_MSG_PLUGIN
 
@@ -631,9 +631,9 @@ Container signatures enable trusted signatures on container images to ensure tha
 
 This feature is based on the asymmetric encryption algorithm. You must use KMS to create a key of the RSA_2048 type and use the SIGN/VERIFY key. This feature integrates the signature verification capability with ACK clusters by configuring the **attestor** and **security policy** for containers. After the policy is enabled, only images with valid signatures can be deployed in the specified namespace. Images that are not signed or fail to be verified will be blocked. The flowchart is as follows:
 
-![](assets/013238f0e1e833ee1cc6b63ac60e4178.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/013238f0e1e833ee1cc6b63ac60e4178.png)
 
-![](assets/bf78f4ee1d66f44011bca3de12cf823f.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/bf78f4ee1d66f44011bca3de12cf823f.png)
 
 **Notes for container signing:**
 
@@ -689,7 +689,7 @@ The server side of Container Security Service (CSS) consists of stateless applic
 
 - Service calls in CSS depend on the Dubbo microservices framework. Software-based load balancing of Dubbo ensures service availability.
 
-![](assets/3308220bbc5b06ab7519d81efe6b5c04.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/3308220bbc5b06ab7519d81efe6b5c04.png)
 
 Server Guard Age
 
@@ -705,13 +705,13 @@ Server Guard Age
 
 The zone-disaster recovery architecture of Container Security Service (CSS) follows the rules of the active-active mode. In this architecture, disaster recovery is ensured by cloud storage services or middleware.
 
-![](assets/3faa66cf5f03f6f9bfa0028c95ae1a90.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/3faa66cf5f03f6f9bfa0028c95ae1a90.png)
 
-![](assets/f100d82433ed77c36ca9919cab4d306a.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/f100d82433ed77c36ca9919cab4d306a.png)
 
-![](assets/14d5d80f9c824d2d54d179bc8ce61e95.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/14d5d80f9c824d2d54d179bc8ce61e95.png)
 
-![](assets/2fd222e6a04f16b2e214eae7e69c257a.png)
+![](en-container-security-operations-guide-v3.18.6-2607-20260828.assets/2fd222e6a04f16b2e214eae7e69c257a.png)
 
 Primary/Secondary
 

@@ -73,7 +73,7 @@ This topic describes how to log in to the Apsara Uni-manager Management Console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-kms-user-guide-v3.18.6-2607-20260831.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -139,7 +139,7 @@ This topic describes how to log in to the Apsara Uni-manager Management Console.
 
 2. On the Forgot Password page, configure the **Account Name** and **Email Address** parameters, enter the verification code, and then click **Confirm**.
 
-   ![](assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
+   ![](en-kms-user-guide-v3.18.6-2607-20260831.assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
 
    > **Note**
    >
@@ -225,7 +225,7 @@ This topic describes how to view and adjust the key quota.
 
 2. Enter **Key Management Service** in the **cloud service name** search box.
 
-   ![](assets/a01b0794e87bfd03ff958de83f6ec5ad.jpeg)
+   ![](en-kms-user-guide-v3.18.6-2607-20260831.assets/a01b0794e87bfd03ff958de83f6ec5ad.jpeg)
 
 3. Increase or decrease the quota based on on-screen instructions.
 
@@ -239,7 +239,7 @@ This topic describes how to view and adjust the key quota.
 
    After you modify the quota, the **Quota** section indicates that no quota data is available.
 
-   ![](assets/96b614a5afc2a0e908d7c796555ff62d.jpeg)
+   ![](en-kms-user-guide-v3.18.6-2607-20260831.assets/96b614a5afc2a0e908d7c796555ff62d.jpeg)
 
 <a id="section-3-3"></a>
 
@@ -347,7 +347,7 @@ Regional identifiers of keys:
 
 4. Click the **Regional** tab on the key details page and click **Create Replica Key**.
 
-   ![](assets/ab8d9619b478e648f39f5cfd3488162d.jpeg)
+   ![](en-kms-user-guide-v3.18.6-2607-20260831.assets/ab8d9619b478e648f39f5cfd3488162d.jpeg)
 
 5. In the **Create Replica Key** dialog box, specify **Area**, **Alias**, **Description**, and **Tag**, and then click OK.
 
@@ -369,7 +369,7 @@ You can change the primary region of only CMKs. Replica keys do not support this
 
 4. On the **Regional** tab of the key details page, click **Change Primary Region**.
 
-   ![](assets/f155fb8b8e212e9d2e7c9514b7d44682.jpeg)
+   ![](en-kms-user-guide-v3.18.6-2607-20260831.assets/f155fb8b8e212e9d2e7c9514b7d44682.jpeg)
 
 5. In the **Change Primary Region** dialog box, select a region and click **OK**.
 
@@ -519,7 +519,7 @@ To generate a certificate, you must submit a certificate signing request (CSR) t
 
 5. In the **Generate CSR** dialog box, configure the parameters as required.
 
-   ![](assets/5412cdb1055a3a419f2ed08bbced79e7.jpeg)
+   ![](en-kms-user-guide-v3.18.6-2607-20260831.assets/5412cdb1055a3a419f2ed08bbced79e7.jpeg)
 
 6. Click **Generate CSR**.
 
@@ -1990,9 +1990,9 @@ Applications, whether on-premises or in the cloud, can call Key Management Servi
 
 You can use the key alias feature in KMS to rotate the encryption keys that your applications use. The KMS Decrypt API does not require you to provide a key ID or an alias.
 
-![](assets/e9883ecfa9efff2b06b9666f7c19584b.png)
+![](en-kms-user-guide-v3.18.6-2607-20260831.assets/e9883ecfa9efff2b06b9666f7c19584b.png)
 
-![](assets/68e92b8d7fb5a2e90cb01c5257dd841b.png)
+![](en-kms-user-guide-v3.18.6-2607-20260831.assets/68e92b8d7fb5a2e90cb01c5257dd841b.png)
 
 Uses new key: CMK-B
 
@@ -2000,7 +2000,7 @@ alias/MyAppKey
 
 alias/MyAppKey
 
-![](assets/42ded9c34b70b837f0b29afd4c51d6ac.png)
+![](en-kms-user-guide-v3.18.6-2607-20260831.assets/42ded9c34b70b837f0b29afd4c51d6ac.png)
 
 CMK-A
 

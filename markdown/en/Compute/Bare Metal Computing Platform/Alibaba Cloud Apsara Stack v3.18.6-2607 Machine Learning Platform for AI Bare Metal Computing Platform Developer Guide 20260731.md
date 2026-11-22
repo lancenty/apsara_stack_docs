@@ -138,7 +138,7 @@ Before you use BMCP API operations to implement a specific feature, you must und
 
 **Workflow**
 
-![](assets/5092402f5a4e4b856bf3b6ce9cfd602d.png)
+![](en-bare-metal-computing-developer-guide-v3.18.6-2607-20260731.assets/5092402f5a4e4b856bf3b6ce9cfd602d.png)
 
 **Make an API call**
 
@@ -321,7 +321,7 @@ You can also obtain the organization ID and resource group ID by calling API ope
 
    </ol>
 
-   <img src="assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt=""> icon, and then click the displayed information.
+   <img src="en-bare-metal-computing-developer-guide-v3.18.6-2607-20260731.assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt=""> icon, and then click the displayed information.
 
    <ol type="i" start="3">
 

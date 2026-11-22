@@ -93,7 +93,7 @@ This topic describes how to view the desired product development documentation w
 
 You can follow the procedure described in the following figure to view the desired development documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-nat-developer-guide-v3.18.3-20241028.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -304,7 +304,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of the personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-nat-developer-guide-v3.18.3-20241028.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >

@@ -2911,7 +2911,7 @@ Follow these steps:
 
 1. Log on to the Apsara Stack console as an administrator.
 
-2. In the top navigation bar, click the <img src="assets/97a46dd0885358a10097e085ed2f2e9f.png" width="24" alt=""> icon, and then choose **User Center > Department**
+2. In the top navigation bar, click the <img src="en-dbs-developer-guide-v3.18.6-2607-20260828.assets/97a46dd0885358a10097e085ed2f2e9f.png" width="24" alt=""> icon, and then choose **User Center > Department**
 
    **Management**.
 

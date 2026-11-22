@@ -28,7 +28,7 @@ Server Migration Center (SMC) is a server migration platform developed by Alibab
 
 The core component of SMC is the SMC client. If you want to migrate a source server to Apsara Stack, configure and run the SMC client on the source server. The following figure shows how the SMC client works.
 
-![](assets/52438cd654ab7f76394714ab2ae557b6.jpeg)
+![](en-smc-user-guide-v3.16.2-20240305.assets/52438cd654ab7f76394714ab2ae557b6.jpeg)
 
 <a id="section-2"></a>
 
@@ -593,7 +593,7 @@ Before you migrate the source server, make sure that the service-linked role of 
 
    <li>
 
-   Find the user whose authorization you want to modify. Click the <img src="assets/f47d7307b20a6d0d1ff2e25abefc41ff.png" width="14" alt=""> icon in the **Actions**
+   Find the user whose authorization you want to modify. Click the <img src="en-smc-user-guide-v3.16.2-20240305.assets/f47d7307b20a6d0d1ff2e25abefc41ff.png" width="14" alt=""> icon in the **Actions**
 
    column and select **Authorize**.
 
@@ -607,7 +607,7 @@ Before you migrate the source server, make sure that the service-linked role of 
 
    <li>
 
-   Find the user whose initial password you want to view. Click the <img src="assets/f47d7307b20a6d0d1ff2e25abefc41ff.png" width="14" alt=""> icon in the **Actions**
+   Find the user whose initial password you want to view. Click the <img src="en-smc-user-guide-v3.16.2-20240305.assets/f47d7307b20a6d0d1ff2e25abefc41ff.png" width="14" alt=""> icon in the **Actions**
 
    column and click **View Initial Password**.
 
@@ -635,7 +635,7 @@ Before you migrate the source server, make sure that the service-linked role of 
 
    <li>
 
-   Find the user that you want to add to a user group, click the <img src="assets/f47d7307b20a6d0d1ff2e25abefc41ff.png" width="14" alt=""> icon in the **Actions**
+   Find the user that you want to add to a user group, click the <img src="en-smc-user-guide-v3.16.2-20240305.assets/f47d7307b20a6d0d1ff2e25abefc41ff.png" width="14" alt=""> icon in the **Actions**
 
    column, and then select **Add to User Group**.
 
@@ -753,7 +753,7 @@ If you want to migrate only databases, we recommend that you use Data Transmissi
 
    The following figure shows the decompressed client folders for Windows.
 
-   ![](assets/ca265a1149425c8706e95ae766c70100.png)
+   ![](en-smc-user-guide-v3.16.2-20240305.assets/ca265a1149425c8706e95ae766c70100.png)
 
    Table 1. SMC client package description
 
@@ -814,7 +814,7 @@ If you want to migrate only databases, we recommend that you use Data Transmissi
 
    The following figure shows the decompressed folders and files.
 
-   ![](assets/80b075d1bb348a81df0772718fe249e0.png)
+   ![](en-smc-user-guide-v3.16.2-20240305.assets/80b075d1bb348a81df0772718fe249e0.png)
 
    Table 2. Description of the main files of the SMC client
 
@@ -908,47 +908,47 @@ If you want to migrate only databases, we recommend that you use Data Transmissi
 
    - Windows servers
 
-     - To run the Windows GUI version, enter the <img src="assets/1ea09a7071083334f391310d16573351.png" width="91" alt="">
+     - To run the Windows GUI version, enter the <img src="en-smc-user-guide-v3.16.2-20240305.assets/1ea09a7071083334f391310d16573351.png" width="91" alt="">
 
        `endpoint of SMC` in the **SMC Endpoint** field.
 
-       Enter the <img src="assets/510f3c6639d9d4da268064c10ba53a77.png" width="74" alt="">
+       Enter the <img src="en-smc-user-guide-v3.16.2-20240305.assets/510f3c6639d9d4da268064c10ba53a77.png" width="74" alt="">
 
-       `AccessKey ID` in the **Account AK** field. Enter the <img src="assets/87a4e30007d1fab90a8ef296ac5583d1.png" width="96" alt="">
+       `AccessKey ID` in the **Account AK** field. Enter the <img src="en-smc-user-guide-v3.16.2-20240305.assets/87a4e30007d1fab90a8ef296ac5583d1.png" width="96" alt="">
 
        `AccessKey secret` in the
 
        **Account SK**field. Then, click **Run**. For more information, see Use the Windows GUI version of the SMC client.
 
-     - To run the Windows CLI version, enter the <img src="assets/7855e4d2b8d6794b46b79698e78027ba.png" width="91" alt=""> `AccessKey ID`, and
+     - To run the Windows CLI version, enter the <img src="en-smc-user-guide-v3.16.2-20240305.assets/7855e4d2b8d6794b46b79698e78027ba.png" width="91" alt=""> `AccessKey ID`, and
 
-       `endpoint of SMC`, <img src="assets/23bad6fbff34f78d32b588d26c9e766f.png" width="74" alt="">
+       `endpoint of SMC`, <img src="en-smc-user-guide-v3.16.2-20240305.assets/23bad6fbff34f78d32b588d26c9e766f.png" width="74" alt="">
 
-       ![](assets/6eeed7a3c367da24ff50501a64056ff6.png)
+       ![](en-smc-user-guide-v3.16.2-20240305.assets/6eeed7a3c367da24ff50501a64056ff6.png)
 
        `AccessKey secret` and click  `Enter` .
 
    - Linux servers
 
-     Enter the <img src="assets/584297f2cbb98f1ec8d22547aef3c33e.png" width="91" alt=""> `AccessKey ID`, and <img src="assets/a66a52fbafcd841e5a82c5e4871fd448.png" width="96" alt="">
+     Enter the <img src="en-smc-user-guide-v3.16.2-20240305.assets/584297f2cbb98f1ec8d22547aef3c33e.png" width="91" alt=""> `AccessKey ID`, and <img src="en-smc-user-guide-v3.16.2-20240305.assets/a66a52fbafcd841e5a82c5e4871fd448.png" width="96" alt="">
 
-     `endpoint of SMC`, <img src="assets/95baade113df36c993f962aa15e34298.png" width="74" alt="">
+     `endpoint of SMC`, <img src="en-smc-user-guide-v3.16.2-20240305.assets/95baade113df36c993f962aa15e34298.png" width="74" alt="">
 
      `AccessKey secret` and click  `Enter` .
 
-     ![](assets/7261c9496c81f2baa72d30fd0dd31008.png)
+     ![](en-smc-user-guide-v3.16.2-20240305.assets/7261c9496c81f2baa72d30fd0dd31008.png)
 
      The following messages may appear:
 
      - If no snapshot dependency is installed on your source server, a message appears. The following figure shows the details of the message. You can install a snapshot dependency based on whether you need to enable the block replication feature.
 
-       - If you need to enable the block replication feature when you create a migration job and the source server can access the Internet, enter <img src="assets/78b626917b74f539354f8b5fed976eaf.png" width="27" alt="">
+       - If you need to enable the block replication feature when you create a migration job and the source server can access the Internet, enter <img src="en-smc-user-guide-v3.16.2-20240305.assets/78b626917b74f539354f8b5fed976eaf.png" width="27" alt="">
 
          `yes` to automatically install a
 
          snapshot dependency.
 
-       - If you do not enable the block replication feature when you create a migration job or the source server cannot access the Internet, enter <img src="assets/4adf6f356cc421fd80b0d5dd0ba2f4e0.png" width="22" alt="">
+       - If you do not enable the block replication feature when you create a migration job or the source server cannot access the Internet, enter <img src="en-smc-user-guide-v3.16.2-20240305.assets/4adf6f356cc421fd80b0d5dd0ba2f4e0.png" width="22" alt="">
 
          `no`.
 
@@ -956,25 +956,25 @@ If you want to migrate only databases, we recommend that you use Data Transmissi
        >
        > If the snapshot dependency fails to be installed, do not enable the block replication feature when you create a migration job. Otherwise, the migration may fail.
 
-       ![](assets/6793534d8161dbcde6fd67c09b37071e.png)
+       ![](en-smc-user-guide-v3.16.2-20240305.assets/6793534d8161dbcde6fd67c09b37071e.png)
 
-     - By default, the rsync tool is installed on most mainstream migration sources. If the rsync tool is not installed on your source server, the message in the following figure is returned. Enter <img src="assets/d44cbf23af1148b94c0fed9f280c8563.png" width="27" alt="">
+     - By default, the rsync tool is installed on most mainstream migration sources. If the rsync tool is not installed on your source server, the message in the following figure is returned. Enter <img src="en-smc-user-guide-v3.16.2-20240305.assets/d44cbf23af1148b94c0fed9f280c8563.png" width="27" alt="">
 
-       `yes` to automatically install the rsync tool. Enter <img src="assets/bc5406ab83b20b58be001561c4c95b90.png" width="22" alt="">
+       `yes` to automatically install the rsync tool. Enter <img src="en-smc-user-guide-v3.16.2-20240305.assets/bc5406ab83b20b58be001561c4c95b90.png" width="22" alt="">
 
        `no` if you want to
 
        manually install the rsync tool.
 
-       ![](assets/57f38aa34abf1bee1753111f052a2899.png)
+       ![](en-smc-user-guide-v3.16.2-20240305.assets/57f38aa34abf1bee1753111f052a2899.png)
 
-     - If SELinux is enabled on the migration source, a message that prompts you to disable SELinux appears. Enter <img src="assets/e73bd0b92b467bf904587c51a178c7de.png" width="27" alt="">
+     - If SELinux is enabled on the migration source, a message that prompts you to disable SELinux appears. Enter <img src="en-smc-user-guide-v3.16.2-20240305.assets/e73bd0b92b467bf904587c51a178c7de.png" width="27" alt="">
 
        `yes` to disable SELinux. The following figure shows how to
 
        disable SELinux.
 
-       ![](assets/5f99f2e27f4e7a5374def537e3a2d46c.png)
+       ![](en-smc-user-guide-v3.16.2-20240305.assets/5f99f2e27f4e7a5374def537e3a2d46c.png)
 
    > **Important**
    >
@@ -984,7 +984,7 @@ If you want to migrate only databases, we recommend that you use Data Transmissi
 
    - If the Import Source Server [s-bxxxxxxxxxxxx] Successfully! message is returned, the information about the migration source is imported to the SMC console.
 
-     ![](assets/6a70309a797e6cfdb1babf9068d294a0.png)
+     ![](en-smc-user-guide-v3.16.2-20240305.assets/6a70309a797e6cfdb1babf9068d294a0.png)
 
      > **Important**
      >
@@ -992,17 +992,17 @@ If you want to migrate only databases, we recommend that you use Data Transmissi
 
      If you import the information about the migration source for the first time, a record is automatically generated in the SMC console and the source migration is in the Online state. The default name of the source migration is in the &lt;host name of the migration source + IP address of the migration source> format. The following figure shows an example.
 
-     ![](assets/e2c9777537b86fff79afe4c414178846.jpeg)
+     ![](en-smc-user-guide-v3.16.2-20240305.assets/e2c9777537b86fff79afe4c414178846.jpeg)
 
      When you import the information about a migration source, SMC collects information about the source server, including the CPU, memory, CPU utilization, memory usage, and internal IP address. Click the ID of the migration source to view the information. The following figure shows the information. After the migration job is complete, you can create an ECS instance by using the information about the source server.
 
-     ![](assets/965eb8956cdc67349e4c2dc6feec7d90.png)
+     ![](en-smc-user-guide-v3.16.2-20240305.assets/965eb8956cdc67349e4c2dc6feec7d90.png)
 
      After the information about the migration source is imported, create and start a migration job in the SMC console to migrate the source server. For more information, see Step 2: Create and start a migration task.
 
    - If the message Error or Goto Aliyun Not Finished! appears, the information about the migration source failed to be imported. The following figure shows the error message. We recommend that you troubleshoot the issue, and run the client again.
 
-     ![](assets/9bab0be6dde0782efb80bd2673412e35.png)
+     ![](en-smc-user-guide-v3.16.2-20240305.assets/9bab0be6dde0782efb80bd2673412e35.png)
 
 <a id="section-2-5"></a>
 
@@ -1046,7 +1046,7 @@ SMC can obtain the partitioning scheme of a source disk used by the migration so
 
    You can obtain the migration source ID from the CLI or GUI of the SMC client and find the migration source that you want to manage based on the migration source ID. The following figure provides an example.
 
-   ![](assets/04660b49738a0624f7c83732a4419642.png)
+   ![](en-smc-user-guide-v3.16.2-20240305.assets/04660b49738a0624f7c83732a4419642.png)
 
    <ol type="i" start="3">
 
@@ -1074,7 +1074,7 @@ SMC can obtain the partitioning scheme of a source disk used by the migration so
 
    - **Destination Disk Size (GiB)**: the disk configurations of the destination Elastic Compute Service (ECS) instance.
 
-     ![](assets/a02654b505fe9c265201f79e8fbcb9e9.png)
+     ![](en-smc-user-guide-v3.16.2-20240305.assets/a02654b505fe9c265201f79e8fbcb9e9.png)
 
      The following table describes the parameters.
 
@@ -1113,7 +1113,7 @@ SMC can obtain the partitioning scheme of a source disk used by the migration so
        >
        > The storage system and operating system of the source server must be compatible with those of the destination ECS instance. For more information, see Migrate a server to an ECS instance.
 
-       ![](assets/87bc00141e3f974dfe8e5d97c8dbc9e4.jpeg)
+       ![](en-smc-user-guide-v3.16.2-20240305.assets/87bc00141e3f974dfe8e5d97c8dbc9e4.jpeg)
 
        | Parameter | Req uire d | Description |
        | --- | --- | --- |
@@ -1205,7 +1205,7 @@ On the **Migration Jobs** page, wait until the migration job is complete. You ca
 
 - If the state of the migration job changes to **Completed**, the migration succeeds.
 
-  ![](assets/f23dbae7ee75eda5a7d64f19dd84388c.jpeg)
+  ![](en-smc-user-guide-v3.16.2-20240305.assets/f23dbae7ee75eda5a7d64f19dd84388c.jpeg)
 
   - If you set the Destination Type parameter to **ECS Instance**, you can find the migration job and click View Destination Instance in the Actions column to view the details of the destination ECS instance.
 
@@ -1275,13 +1275,13 @@ In daemon mode, you can import the information about a migration source by using
 
 The following figure shows the Windows GUI of the SMC client in daemon mode.
 
-![](assets/d8a2eb20def36809044ba1b0480cc779.jpeg)
+![](en-smc-user-guide-v3.16.2-20240305.assets/d8a2eb20def36809044ba1b0480cc779.jpeg)
 
 **GUI elements**
 
 The following figure shows the elements on the Windows GUI of the SMC client.
 
-![](assets/24ec44ebe813cc73135a20d44198e99e.jpeg)
+![](en-smc-user-guide-v3.16.2-20240305.assets/24ec44ebe813cc73135a20d44198e99e.jpeg)
 
 The following table describes the GUI elements.
 
@@ -1346,7 +1346,7 @@ You can perform the following steps to create and start an incremental migration
 
 4. In the **Create Migration Job** panel, turn on **Automatic Incremental Synchronization** and configure the **Synchronization Interval** and **Upperlimit of Reserved Images** parameters. Configure other parameters based on your business requirements and click **OK**.
 
-   ![](assets/2035317856e593bfffcf08b400d963f3.jpeg)
+   ![](en-smc-user-guide-v3.16.2-20240305.assets/2035317856e593bfffcf08b400d963f3.jpeg)
 
    The following list describes some parameters. For more information about other parameters, see Step 2: Create and start a migration job.
 
@@ -1382,7 +1382,7 @@ You can perform the following steps to create and start an incremental migration
 
    In the image names that are generated during incremental migration,  `CYCLE_X` indicates that the image is generated by the Xth incremental migration. For example, if an image name contains CYCLE_2, the image is generated by the second incremental migration, as shown in the following figure.
 
-   ![](assets/635f416111f8085cab75573d75b7aa11.png)
+   ![](en-smc-user-guide-v3.16.2-20240305.assets/635f416111f8085cab75573d75b7aa11.png)
 
 **Step 3: Stop the services on the source server and run the incremental migration job again**
 
@@ -1448,7 +1448,7 @@ After you obtain the image generated for the last migration, you can perform the
 
   the last migration as **Custom Image**. Configure other parameters based on your business requirements and purchase an ECS instance. For more information, see the "Create an instance" topic in **Elastic Compute Service User Guide**.
 
-  ![](assets/3d5ae1b297aec4c1b2627a7e6cfb478b.jpeg)
+  ![](en-smc-user-guide-v3.16.2-20240305.assets/3d5ae1b297aec4c1b2627a7e6cfb478b.jpeg)
 
   <ol type="i" start="3">
 
@@ -1470,7 +1470,7 @@ After you obtain the image generated for the last migration, you can perform the
 
   <li>
 
-  On the **Migration Jobs** page, find the migration job and click the <img src="assets/747a4ca52c70a9626fec603f896a5a0d.png" width="16" alt=""> icon in the **Actions**
+  On the **Migration Jobs** page, find the migration job and click the <img src="en-smc-user-guide-v3.16.2-20240305.assets/747a4ca52c70a9626fec603f896a5a0d.png" width="16" alt=""> icon in the **Actions**
 
   column.
 
@@ -1496,7 +1496,7 @@ After you obtain the image generated for the last migration, you can perform the
 
   <li>
 
-  On the **Migration Jobs** page, find the migration job and click the <img src="assets/747a4ca52c70a9626fec603f896a5a0d.png" width="16" alt=""> icon in the **Actions**
+  On the **Migration Jobs** page, find the migration job and click the <img src="en-smc-user-guide-v3.16.2-20240305.assets/747a4ca52c70a9626fec603f896a5a0d.png" width="16" alt=""> icon in the **Actions**
 
   column.
 
@@ -1558,7 +1558,7 @@ Server Migration Center (SMC) can be used to migrate servers to Elastic Compute 
 
    This topic describes how to configure the parameters for the destination ECS instance. For more information about other parameters, see Step 2: Create and start a migration job.
 
-   ![](assets/bdd971d65d84e120e0233760db497a05.jpeg)
+   ![](en-smc-user-guide-v3.16.2-20240305.assets/bdd971d65d84e120e0233760db497a05.jpeg)
 
    Parameters for the destination ECS instance:
 

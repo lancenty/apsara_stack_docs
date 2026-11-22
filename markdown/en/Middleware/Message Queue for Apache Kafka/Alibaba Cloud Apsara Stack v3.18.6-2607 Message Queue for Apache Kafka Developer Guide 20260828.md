@@ -125,7 +125,7 @@ The API information in the API directory of the Apsara Uni-manager Management Co
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the navigation pane on the left, select the target cloud product.
 
@@ -135,7 +135,7 @@ The API information in the API directory of the Apsara Uni-manager Management Co
 
 7. Select the API operation that you want to call. On the Parameters tab, obtain the POP Endpoint information.
 
-   ![](assets/c5d0c16b4cbc892150c936b234589749.jpeg)
+   ![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/c5d0c16b4cbc892150c936b234589749.jpeg)
 
 <a id="section-1-2"></a>
 
@@ -176,7 +176,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey** section, view the AccessKey pair of your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -226,7 +226,7 @@ You must call an API to obtain an organization ID. You can use the online API de
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, select **Cloud Platform** > **Unified Cloud Management Platform**,
+4. Click the <img src="en-kafka-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, select **Cloud Platform** > **Unified Cloud Management Platform**,
 
    and set **Version** to **2019-05-10**.
 
@@ -242,7 +242,7 @@ You must call an API to obtain a resource set ID. You can use the online API deb
 
 3. In the **Developer Portal**, go to **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, select **Cloud Platform** > **Unified Cloud Management Platform**,
+4. Click the <img src="en-kafka-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, select **Cloud Platform** > **Unified Cloud Management Platform**,
 
    and set **Version** to **2019-05-10**.
 
@@ -514,7 +514,7 @@ To maintain a consistent and convenient experience between Apsara Stack and the 
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left navigation pane, select the target cloud product.
 
@@ -524,7 +524,7 @@ To maintain a consistent and convenient experience between Apsara Stack and the 
 
 7. Click the API operation that you want to call. Obtain the POP Endpoint from the list of parameters.
 
-   ![](assets/041bacef11dd15f32c41482341807819.jpeg)
+   ![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/041bacef11dd15f32c41482341807819.jpeg)
 
 **Obtain an endpoint from Apsara Infrastructure Management**
 
@@ -542,9 +542,9 @@ You can also obtain the Endpoint yourself. This section uses API Gateway as an e
 
 5. In the Service Registration text box, enter  `kafka-biz-openapi.endpoint`  and click **Search**.
 
-   ![](assets/ffd0d4c04d5a50e31dd1c8976e1637ee.jpeg)
+   ![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/ffd0d4c04d5a50e31dd1c8976e1637ee.jpeg)
 
-6. In the **Service Registration** column for the  `alibaba-kafka-console`  service, click the <img src="assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt="">
+6. In the **Service Registration** column for the  `alibaba-kafka-console`  service, click the <img src="en-kafka-developer-guide-v3.18.6-2607-20260828.assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt="">
 
    icon.
 
@@ -585,17 +585,17 @@ After you obtain the SDK package from the developer portal, add the following Ma
 
 1. Log on to the ASCM developer portal and click SDK Sample.
 
-![](assets/331e8f85870a6668c82af0a31c3e7769.jpeg)
+![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/331e8f85870a6668c82af0a31c3e7769.jpeg)
 
 2. From the SDK Type drop-down list, select Premium Edition. For Language, select Java.
 
-![](assets/37a337a464be4d7ad3fc70672a4d8697.jpeg)
+![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/37a337a464be4d7ad3fc70672a4d8697.jpeg)
 
 3. The sample code is displayed. Click Download Full Project to obtain the sample project and
 
 the SDK package.
 
-![](assets/73324370ad6ce0fe4cb465486c0593fe.jpeg)
+![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/73324370ad6ce0fe4cb465486c0593fe.jpeg)
 
 **Import the SDK package**
 
@@ -603,23 +603,23 @@ the SDK package.
 
 - Method 1: Create a Maven project in IntelliJ IDEA.
 
-  ![](assets/136b871075dcd0ac02294816aa0a27cf.jpeg)
+  ![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/136b871075dcd0ac02294816aa0a27cf.jpeg)
 
 - Method 2: Convert an existing project into a Maven project.
 
 Right-click the project that you want to convert and select **Add Framework Support...**.
 
-![](assets/6176c9af4f64e8719328c538856e97bb.jpeg)
+![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/6176c9af4f64e8719328c538856e97bb.jpeg)
 
 Select Maven and click OK.
 
-![](assets/79667e5e2f0c4311850dec9854ce369f.jpeg)
+![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/79667e5e2f0c4311850dec9854ce369f.jpeg)
 
 2. In the project root directory, create a lib folder and place the Java SDK package in it, as
 
 shown in the following figure.
 
-![](assets/120a9242f16b8a61b26b23a81b6a62bd.jpeg)
+![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/120a9242f16b8a61b26b23a81b6a62bd.jpeg)
 
 3. In the pom.xml file in the project directory, add the Java SDK dependency. For the required
 
@@ -629,7 +629,7 @@ code, see the Installation code section.
 
 imported, as shown in the following figure.
 
-![](assets/d42aebbd025479ab855db99818f500bf.jpeg)
+![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/d42aebbd025479ab855db99818f500bf.jpeg)
 
 **Code sample**
 
@@ -737,7 +737,7 @@ A demo is a sample program for messaging by using an SDK. This topic describes h
 
 **Process**
 
-![](assets/dcfb43f1e13542e9e92bdad76ae2ab68.png)
+![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/dcfb43f1e13542e9e92bdad76ae2ab68.png)
 
 The following items describe the process:
 
@@ -755,7 +755,7 @@ A demo is a sample program for messaging by using an SDK. This topic describes h
 
 **Process**
 
-![](assets/dcfb43f1e13542e9e92bdad76ae2ab68.png)
+![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/dcfb43f1e13542e9e92bdad76ae2ab68.png)
 
 The following items describe the process:
 
@@ -779,7 +779,7 @@ Download IntelliJ IDEA Ultimate from https://www.jetbrains.com/idea/ and follow 
 
 **Download a demo project**
 
-Go to the ApsaraMQ for Kafka demo library and click <img src="assets/e95012ac86d21cc09856a792cf8b41e8.png" width="64" alt=""> to download the demo project
+Go to the ApsaraMQ for Kafka demo library and click <img src="en-kafka-developer-guide-v3.18.6-2607-20260828.assets/e95012ac86d21cc09856a792cf8b41e8.png" width="64" alt=""> to download the demo project
 
 to your on-premises machine.
 
@@ -813,7 +813,7 @@ This topic describes how to configure a demo project.
 
    On the IntelliJ IDEA interface, choose **New > Project From Existing Sources…** and then select the kafka-java-demo folder.
 
-   ![](assets/aa69456fa8e391b31b5b27b5212ea18d.png)
+   ![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/aa69456fa8e391b31b5b27b5212ea18d.png)
 
    </li>
 
@@ -825,7 +825,7 @@ This topic describes how to configure a demo project.
 
    </ol>
 
-   ![](assets/bc4df87a21bc009d01cfede374c3a89d.png)
+   ![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/bc4df87a21bc009d01cfede374c3a89d.png)
 
    <ol type="i" start="3">
 
@@ -3375,7 +3375,7 @@ You can access API operations by using the domain name of ApsaraMQ for Kafka
 
    Sample output:
 
-   ![](assets/d21413ae9dda17d92642a27062878295.jpeg)
+   ![](en-kafka-developer-guide-v3.18.6-2607-20260828.assets/d21413ae9dda17d92642a27062878295.jpeg)
 
 **API URL**
 

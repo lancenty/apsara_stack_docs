@@ -814,7 +814,7 @@ This topic describes how to view operation records for a node, including aggrega
 
    - Click **Retry** in the **Task Type** or **Subitem** column of a target task to re-execute a failed operation.
 
-   - Click <img src="assets/a219b7bb7a62b86c42abf742256728f7.png" width="22" alt=""> in the **Actions** column of a failed task to diagnose the task.
+   - Click <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/a219b7bb7a62b86c42abf742256728f7.png" width="22" alt=""> in the **Actions** column of a failed task to diagnose the task.
 
      The diagnosis result includes **Exception Analysis** and **Solutions**. You can handle failed tasks based on the diagnosis result.
 
@@ -1213,7 +1213,7 @@ This topic describes how to create a bare metal - intelligent computing cluster.
 
    Select an existing VPC, or click **Create VPC** to create one. After
 
-   <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
+   <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
 
    creation, return to the cluster creation page and click the
 
@@ -1225,7 +1225,7 @@ This topic describes how to create a bare metal - intelligent computing cluster.
 
    Select an existing vSwitch, or click **Create vSwitch** to create one. After creation, return to the cluster creation page and click
 
-   <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
+   <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
 
    the
 
@@ -1255,7 +1255,7 @@ This topic describes how to create a bare metal - intelligent computing cluster.
 
    **vSwitch**
 
-   <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
+   <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
 
    click
 
@@ -1571,7 +1571,7 @@ This topic describes how to create an ACK - intelligent computing cluster.
 
    Select an existing VPC, or click **Create VPC** to create one. After
 
-   <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
+   <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
 
    creation, return to the cluster creation page and click the
 
@@ -1583,7 +1583,7 @@ This topic describes how to create an ACK - intelligent computing cluster.
 
    Select an existing vSwitch, or click **Create vSwitch** to create one. After creation, return to the cluster creation page and click
 
-   <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
+   <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
 
    the
 
@@ -1611,7 +1611,7 @@ This topic describes how to create an ACK - intelligent computing cluster.
 
    **Networ**
 
-   <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
+   <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
 
    click
 
@@ -1681,7 +1681,7 @@ This topic describes how to create an ACK - intelligent computing cluster.
 
    **Contain er**
 
-   <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
+   <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
 
    icon to view the vSwitch list.
 
@@ -2302,7 +2302,7 @@ A bare metal - supercomputing cluster uses cluster-based management to enable un
 
    Select an existing VPC, or click **Create VPC** to create one. After
 
-   <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
+   <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
 
    creation, return to the cluster creation page and click the
 
@@ -2314,7 +2314,7 @@ A bare metal - supercomputing cluster uses cluster-based management to enable un
 
    Select an existing vSwitch, or click **Create vSwitch** to create one. After creation, return to the cluster creation page and click
 
-   <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
+   <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
 
    the
 
@@ -2602,7 +2602,7 @@ This topic describes how to create a converged computing cluster.
 
    Select an existing Virtual Private Cloud (VPC), or click **Create VPC** to create one. After creation, return to the cluster creation
 
-   <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
+   <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
 
    page and click the
 
@@ -2614,7 +2614,7 @@ This topic describes how to create a converged computing cluster.
 
    Select an existing vSwitch, or click **Create vSwitch** to create one. After creation, return to the cluster creation page and click
 
-   <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
+   <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
 
    the
 
@@ -2638,7 +2638,7 @@ This topic describes how to create a converged computing cluster.
 
    **Security Group**
 
-   <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
+   <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">
 
    page and click the
 
@@ -2973,7 +2973,7 @@ This topic describes how to view cluster tasks.
 
    - Click **Retry** in the **Task Type** or **Subitem** column of a target task to re-execute a failed operation.
 
-   - Click <img src="assets/a219b7bb7a62b86c42abf742256728f7.png" width="22" alt=""> in the **Actions** column of a failed task to diagnose the task.
+   - Click <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/a219b7bb7a62b86c42abf742256728f7.png" width="22" alt=""> in the **Actions** column of a failed task to diagnose the task.
 
      The diagnosis result includes **Exception Analysis** and **Solutions**. You can handle failed tasks based on the diagnosis result.
 
@@ -3013,7 +3013,7 @@ You have created a cluster. For more information, see Create a cluster.
 
 3. On the **Cluster Management** page, select **ACK - Intelligent Computing Cluster** for **Cluster Type** .
 
-4. Locate the target cluster and click <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
+4. Locate the target cluster and click <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
 
 5. Click **Storage Management > Enable High-performance Storage**.
 
@@ -3035,7 +3035,7 @@ You have created a cluster. For more information, see Create a cluster.
 
 2. In the left-side navigation pane, click **Cluster and Node > Cluster Management**.
 
-3. Locate the target cluster and click <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
+3. Locate the target cluster and click <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
 
 4. Click **Storage Management > Disable High-performance Storage**.
 
@@ -3053,7 +3053,7 @@ You have Enable high-performance storage.
 
 2. In the left-side navigation pane, click **Cluster and Node > Cluster Management**.
 
-3. Locate the target cluster and click <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
+3. Locate the target cluster and click <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
 
 4. Click **Storage Management > Mount**.
 
@@ -3089,7 +3089,7 @@ You have Enable high-performance storage.
 
 2. In the left-side navigation pane, click **Cluster and Node > Cluster Management**.
 
-3. Find the row that contains the target cluster and click <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
+3. Find the row that contains the target cluster and click <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
 
 4. Click **Storage Management > Unmount**.
 
@@ -3119,7 +3119,7 @@ Elastic cache acceleration is implemented based on ack-fluid. ack-fluid is a dis
 
 3. In the cluster list, select **ACK - Intelligent Computing Cluster** for **Cluster Type**, and select **High-performance Network Instance**, **Basic Instance**, or **Computing-optimized Training & Inference Instance** for **Cluster Instance Type**.
 
-4. Locate the target cluster and click <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
+4. Locate the target cluster and click <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
 
 5. Click **Elastic Cache Acceleration > Enable Elastic Cache Acceleration**.
 
@@ -3135,7 +3135,7 @@ Elastic cache acceleration is implemented based on ack-fluid. ack-fluid is a dis
 
 3. In the cluster list, select **ACK - Intelligent Computing Cluster** for **Cluster Type**, and select **High-performance Network Instance**, **Basic Instance**, or **Computing-optimized Training & Inference Instance** for **Cluster Instance Type**.
 
-4. Locate the target cluster and click <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
+4. Locate the target cluster and click <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
 
 5. Click **Elastic Cache Acceleration > Disable Elastic Cache Acceleration**.
 
@@ -3161,7 +3161,7 @@ You have Create a ACK - intelligent computing cluster.
 
 3. On the **Cluster Management** page, select **ACK - Intelligent Computing Cluster** for **Cluster Type**.
 
-4. Locate the target cluster and click <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
+4. Locate the target cluster and click <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> in the **Actions** column.
 
 5. In the drop-down menu that appears, click **Go to ACK Console**.
 
@@ -3299,7 +3299,7 @@ You have Create a ACK - intelligent computing cluster.
 
    | Configuration item | Description |
    | --- | --- |
-   | vSwitch | Select an existing switch, or click <strong>Create vSwitch</strong> to create one immediately. After creation, return to the cluster creation page and click<br>the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">icon to view the switch list.<br>For more information about creatingswitch, see the <strong>Create and manage</strong> <strong>switches</strong> section in <strong>Virtual Private Cloud User Guide</strong> of the Apsara Stack Documentation Center. |
+   | vSwitch | Select an existing switch, or click <strong>Create vSwitch</strong> to create one immediately. After creation, return to the cluster creation page and click<br>the<img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">icon to view the switch list.<br>For more information about creatingswitch, see the <strong>Create and manage</strong> <strong>switches</strong> section in <strong>Virtual Private Cloud User Guide</strong> of the Apsara Stack Documentation Center. |
    | ECS Instance Type | • You can select up to 10 instance types as alternatives. When creating each node, the system attempts to purchase starting from the first specified type until successful. The final purchased instance type may vary depending on inventory availability.<br>• You can click <strong>Up</strong>, <strong>Down</strong>, or <strong>Delete</strong> to manage selected instance types. |
    | Instances | The number of software instance nodes defaults to 2 and cannot be modified. |
    | System Disk | Configure the system disk for software instance nodes, including disk type and size.<br>Disk types: <strong>Ultra disk</strong>, <strong>SSD cloud disk</strong>, <strong>High-performance disk</strong>, and <strong>Standard performance disk</strong>. |
@@ -3376,7 +3376,7 @@ The system provides cluster monitoring in cluster management module. You can vie
 
 3. On the **Monitoring** dashboard or the **Monitoring** tab, view the monitoring information of the target cluster.
 
-   - **Monitoring** dashboard: In the cluster list, locate the target cluster and click the <img src="assets/fe20f261f7579f49b9b6366998cbcfa9.jpeg" width="26" alt=""> icon
+   - **Monitoring** dashboard: In the cluster list, locate the target cluster and click the <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/fe20f261f7579f49b9b6366998cbcfa9.jpeg" width="26" alt=""> icon
 
      in the **Monitoring** column.
 
@@ -3442,7 +3442,7 @@ You can delete a cluster no longer needed. After deletion, the bare metal nodes 
 
    **> Delete**.
 
-   <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt="">
+   <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt="">
 
    You can also click **Delete** in the upper-right corner of the cluster details page.
 
@@ -4025,7 +4025,7 @@ The image signature verification feature ensures the integrity and security of c
 
    Find the image that you want to manage, move the pointer over the value in the **Image URL** column, and then click the Copy icon to copy the image URL.
 
-   ![](assets/16e157c15ce12478a4691514a29d493c.png)
+   ![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/16e157c15ce12478a4691514a29d493c.png)
 
 5. Obtain the username and password.
 
@@ -4047,7 +4047,7 @@ The image signature verification feature ensures the integrity and security of c
 
    On the Access Credentials page, click **Set User Account Password**. For more information about access credential, see **Configure an access credential** in **Container Registry User Guide**.
 
-   ![](assets/54972bbdc4fb29b7e525e81fccfa72ed.png)
+   ![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/54972bbdc4fb29b7e525e81fccfa72ed.png)
 
    <ol type="i" start="3">
 
@@ -4059,7 +4059,7 @@ The image signature verification feature ensures the integrity and security of c
 
    </ol>
 
-   ![](assets/6cdd19c921ac68423c431ab215d60283.png)
+   ![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/6cdd19c921ac68423c431ab215d60283.png)
 
 6. Verify the image signature.
 
@@ -4069,7 +4069,7 @@ The image signature verification feature ensures the integrity and security of c
      >
      > If the signature verification fails, **Unknown** is displayed in the Signature Verification Status column. In this case, do not run the image.
 
-     ![](assets/2a5fe65f07daa34080c8fe3a288ce487.png)
+     ![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/2a5fe65f07daa34080c8fe3a288ce487.png)
 
    - Manually verify the image signature by running the cosign verify command.
 
@@ -4153,7 +4153,7 @@ This topic describes how to create an image conversion task.
 
 3. On the **Image Acceleration** tab, you can search images by URL in fuzzy match mode.
 
-4. Click the <img src="assets/83ad04499a8448fd0de52a7cc957c3b2.png" width="20" alt=""> icon to search images in fuzzy match mode.
+4. Click the <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/83ad04499a8448fd0de52a7cc957c3b2.png" width="20" alt=""> icon to search images in fuzzy match mode.
 
 5. Click **Create Image Conversion Task**. In the dialog box that appears, enter the URL of the image.
 
@@ -4476,7 +4476,7 @@ This topic describes the prerequisites and procedure for creating a data distrib
    | --- | --- |
    | Task Name | The name of the task. |
    | Select Cluster | The cluster to which you want to distribute data. |
-   | RRSA RAM Role Authorization | Select an authorized role or click <strong>Authorize</strong> to authorize the role. Then, return<br>to the <strong>Create Data Distribution Task</strong> dialog box and click the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">icon to<br>view the list of authorized roles. |
+   | RRSA RAM Role Authorization | Select an authorized role or click <strong>Authorize</strong> to authorize the role. Then, return<br>to the <strong>Create Data Distribution Task</strong> dialog box and click the<img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="22" alt="">icon to<br>view the list of authorized roles. |
    | Select Node | Select the BMCP node to which data will be distributed. You can select multiple nodes in the same cluster.<br>You can specify <strong>Node Name</strong>, <strong>SN</strong>, <strong>Hostname</strong>, or <strong>IP</strong>. You can also click <strong>Advanced Filter</strong> to search for a node. |
    | OSS Storage Path | You can enter a file or directory. The directory must end with a forward slash (/). |
    | Prefetch Concurrency | • The number of files to be prefetched concurrently in a batch. If Tensor Parallelism (TP) is enabled for the model file, we recommend that you set this parameter to the number of TPs.<br>• Valid values: 1 to 100. |
@@ -4619,7 +4619,7 @@ Upload a model file to an Object Storage Service (OSS) bucket. For more informat
 
    </ol>
 
-   ![](assets/4787e4db3d185cf3ea0f6445f6a5372a.jpeg)
+   ![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/4787e4db3d185cf3ea0f6445f6a5372a.jpeg)
 
    <ol type="i" start="3">
 
@@ -4883,7 +4883,7 @@ Privileged containers cannot use KGPU.
 
    Expected output:
 
-   ![](assets/ae4e6c543b10f88eaa84e02263c14368.jpeg)
+   ![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/ae4e6c543b10f88eaa84e02263c14368.jpeg)
 
 **Configure an isolation policy**
 
@@ -4934,7 +4934,7 @@ You can modify the value of shareModel in the ConfigMap based on your actual nee
 
    Expected output:
 
-   ![](assets/8ebf7fe81d8aab234d349962aa03dbb3.jpeg)
+   ![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/8ebf7fe81d8aab234d349962aa03dbb3.jpeg)
 
 4. Run the following command to view kgpu-device-plugin. The number of pods equals the number of nodes where kgpu virtualization is enabled.
 
@@ -4962,7 +4962,7 @@ You can modify the value of shareModel in the ConfigMap based on your actual nee
 
    Expected output:
 
-   ![](assets/8055bb3d001b5945546e8b889479021a.jpeg)
+   ![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/8055bb3d001b5945546e8b889479021a.jpeg)
 
 **Configure GPU selection policies for shared APG scheduling nodes**
 
@@ -5089,7 +5089,7 @@ You have added a model in the BMCP Operations Console.
 
 3. On the **Node Model** page, enter a model name or architecture to search for models.
 
-4. Click the <img src="assets/83ad04499a8448fd0de52a7cc957c3b2.png" width="20" alt=""> icon to search models in fuzzy match mode.
+4. Click the <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/83ad04499a8448fd0de52a7cc957c3b2.png" width="20" alt=""> icon to search models in fuzzy match mode.
 
 <a id="section-9-1-2"></a>
 
@@ -5245,7 +5245,7 @@ You have created a custom image. For more information, see Upload a custom image
 
 3. On the **Bare Metal Instance Image** page, enter **Image Name** or **Image ID** to search for images.
 
-4. Click the <img src="assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search custom images in fuzzy match mode.
+4. Click the <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search custom images in fuzzy match mode.
 
 <a id="section-9-2-4"></a>
 
@@ -5675,13 +5675,13 @@ This topic describes how to create, modify, and delete a security group.
    >
    > **> Sharing Settings** in the
    >
-   > <img src="assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
+   > <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
    >
    > **Actions** column of the target security group.
 
    Select an existing VPC, or click **Create a VPC** to create one. After creating the VPC, return to the
 
-   **Create Security Group** page and click the <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">
+   **Create Security Group** page and click the <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">
 
    icon to view the latest VPC list.
 
@@ -5813,7 +5813,7 @@ Before you create security group rules, take note of the following items:
    | Port Range | Yes | The port range varies with the protocol type.<br>• If you set <strong>Protocol Type</strong> to <strong>All</strong>, the value is <strong>-1/-1</strong>, which indicates all ports. In this case, you cannot specify a port range.<br>• If you set <strong>Protocol Type</strong> to <strong>TCP</strong>, you can specify a port range.The port range must be in the &lt;start port&gt;/&lt;end port&gt; format.Valid values of port numbers: 1 to 65535. For example, 80/80 indicates port 80 and 1/22 indicates ports 1 to 22.<br>• If you set <strong>Protocol Type</strong> to <strong>UDP</strong>, you can specify a port range.The port range must be in the &lt;start port&gt;/&lt;end port&gt; format.Valid values of port numbers: 1 to 65535. For example, 80/80 indicates port 80 and 1/22 indicates ports 1 to 22.<br>• If you set <strong>Protocol Type</strong> to <strong>ICMP</strong>, the value is <strong>-1/-1</strong>, which indicates all ports. In this case, you cannot specify a port range.<br>• If you set <strong>Protocol Type</strong> to <strong>GRE</strong>, the value is <strong>-1/-1</strong>, which indicates all ports. In this case, you cannot specify a port range. |
    | Priority | Yes | The priority of the security group rule. Valid values: 1 to 100. The default value is 1, which indicates the highest priority. |
    | Authorizati on Type | Yes | • <strong>IPv4 CIDR Block</strong>: controls access from IPv4 addresses or IPv4 CIDR blocks to ECS instances in this security group.<br>• <strong>Security Group</strong>: controls access from BMCP instances in another security group within the same account to BMCP instances in the current security group. |
-   | Authorizati on Object | Yes | Authorization objects vary with the set authorization type.<br>If you set <strong>Authorization Type</strong> to <strong>IPv4 CIDR Block</strong>, the following rules apply:<br>• Enter a single IPv4 address or a CIDR block. Example:<br>![](assets/cddf8e6d17c98e9cad052b6648718e69.png)<br><code>192.0.2.1</code> or<br>![](assets/37b286a14cf590d311023aa8471f25bd.png)<br><code>192.0.2.0/24</code>.<br>• Separate multiple authorization objects with commas (,).<br>![](assets/9d693f2e004062a5ddf009f8de231461.png)<br>• If you enter <code>0.0.0.0/0</code>, access from all IPv4 addresses is allowed or denied. Proceed with caution.<br>If you set <strong>Authorization Type</strong> to <strong>Security Group</strong>, select a security group ID from the drop-down list. The specified security group must be within the same VPC as the current security group. |
+   | Authorizati on Object | Yes | Authorization objects vary with the set authorization type.<br>If you set <strong>Authorization Type</strong> to <strong>IPv4 CIDR Block</strong>, the following rules apply:<br>• Enter a single IPv4 address or a CIDR block. Example:<br>![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/cddf8e6d17c98e9cad052b6648718e69.png)<br><code>192.0.2.1</code> or<br>![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/37b286a14cf590d311023aa8471f25bd.png)<br><code>192.0.2.0/24</code>.<br>• Separate multiple authorization objects with commas (,).<br>![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/9d693f2e004062a5ddf009f8de231461.png)<br>• If you enter <code>0.0.0.0/0</code>, access from all IPv4 addresses is allowed or denied. Proceed with caution.<br>If you set <strong>Authorization Type</strong> to <strong>Security Group</strong>, select a security group ID from the drop-down list. The specified security group must be within the same VPC as the current security group. |
    | Description | No | The description of the security group rule for easier management.The description must be 1 to 512 characters in length, and cannot start with http:// or https://.<br>After creating a security group rule, you can find the rule and click <strong>Modify Description</strong> in the <strong>Actions</strong> column to modify the description of the rule. |
 
 7. Click **OK**.
@@ -6184,11 +6184,11 @@ Each tag consists of a tag key and a tag value. On the Tag Management page, you 
 
 3. After you are redirected to the **Tags** page, click a tag key in the **Tag Key** list on the left.
 
-4. Click the <img src="assets/2169acce0897509ed8d3a840313fab0d.png" width="15" alt=""> icon to view all values of the current tag and the number of cloud services that
+4. Click the <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/2169acce0897509ed8d3a840313fab0d.png" width="15" alt=""> icon to view all values of the current tag and the number of cloud services that
 
    have this tag.
 
-5. Optional. In the Tag Key list on the left side of the **Tags** page, click the <img src="assets/fed61f172e4d8aa0ac60de00cd05cdde.png" width="15" alt=""> icon. In the **Filter**
+5. Optional. In the Tag Key list on the left side of the **Tags** page, click the <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/fed61f172e4d8aa0ac60de00cd05cdde.png" width="15" alt=""> icon. In the **Filter**
 
    **Conditions** dialog box, specify **The Organization Of The Resource**, **Resource Set**, **The Region Of The Resource**, or **Keyword** and click **Confirm** to filter tag keys.
 
@@ -6264,7 +6264,7 @@ Bare Metal Computing Platform (BMCP) integrates the metering management module o
 
    You can filter the data by **Organization**, **Resource Set**, **Region**, **Time**, or **Instance ID**.
 
-   You can also click the <img src="assets/436d388d7aeb1e8f01f3b65425bd7c0b.png" width="19" alt=""> icon in the upper-right corner to export the statistics to an XLSX
+   You can also click the <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/436d388d7aeb1e8f01f3b65425bd7c0b.png" width="19" alt=""> icon in the upper-right corner to export the statistics to an XLSX
 
    file and save the file to your computer.
 
@@ -6409,7 +6409,7 @@ You can click **Edit**, **Enable**, **Disable**, or **Delete** in the **Operatio
 
 3. On the Event Monitoring page, click the **Event Alarm History** tab. In the upper part of the page, you can specify the **Rule Id**, **Rule Name**, and **Start Time** filter conditions to filter historical alerts.
 
-4. You can also click the <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="25" alt=""> icon in the upper-right corner to refresh the page, configure
+4. You can also click the <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="25" alt=""> icon in the upper-right corner to refresh the page, configure
 
    density, or customize the columns to be displayed.
 
@@ -6596,7 +6596,7 @@ The system currently supports only **ACK - intelligent computing cluster** for N
 
    <li>
 
-   Click the <img src="assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search for the task that meets the filter condition.
+   Click the <img src="en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search for the task that meets the filter condition.
 
    </li>
 
@@ -6928,7 +6928,7 @@ The following table describes the node-level execution state of a command that i
 
 To better manage batch executions and recurring executions, you can manage the lifecycles of the executions based on the overall execution states, node-level execution states, and execution-level states. The InvokeStatus parameter in API responses indicates the execution state of a command. The following figure shows the relationship among different execution states.
 
-![](assets/ee684b644d9cbe31c42ebe1017dfc1fa.png)
+![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/ee684b644d9cbe31c42ebe1017dfc1fa.png)
 
 State of the first-time
 
@@ -6952,7 +6952,7 @@ Overall
 
 execution state
 
-![](assets/ba0e47bfc44c05c85b62e593bc52ded3.png)
+![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/ba0e47bfc44c05c85b62e593bc52ded3.png)
 
 State of the first-time
 
@@ -6983,19 +6983,19 @@ execution
   | <code>Finished</code> | Finished | The node-level execution state is Finished on all nodes, or is Finished on specific nodes and is Stopped on the other nodes. | 5 |
   | <code>PartialFailed</code> | Partially Failed | The node-level execution state is Failed on some nodes and is Finished on the other nodes. | 6 |
 
-![](assets/e1fd031ec86d14f7ef69e696f3c79f0e.png)
+![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/e1fd031ec86d14f7ef69e696f3c79f0e.png)
 
 The following figure shows the relationship between the overall execution states and the node-level execution states of a one-time execution in which a command is run on multiple nodes at the same time.
 
-![](assets/78aefc1a0fe5eec51ae88f7baada0fc0.png)
+![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/78aefc1a0fe5eec51ae88f7baada0fc0.png)
 
-![](assets/3336ba8e820dd46bf0e145c3045a1732.png)
+![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/3336ba8e820dd46bf0e145c3045a1732.png)
 
-![](assets/fac87e7685cc101379308d3cdf0c634e.png)
+![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/fac87e7685cc101379308d3cdf0c634e.png)
 
-![](assets/4a2adbd4222bcc8c93da0da628e2f011.png)
+![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/4a2adbd4222bcc8c93da0da628e2f011.png)
 
-![](assets/8ab70189b1a713d8a44925358a02b3de.png)
+![](en-bare-metal-computing-user-guide-v3.18.6-2607-20260731.assets/8ab70189b1a713d8a44925358a02b3de.png)
 
 state on a single
 

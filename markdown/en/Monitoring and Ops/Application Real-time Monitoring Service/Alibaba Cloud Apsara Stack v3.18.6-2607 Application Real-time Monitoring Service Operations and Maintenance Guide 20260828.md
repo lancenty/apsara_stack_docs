@@ -35,7 +35,7 @@ Document Version: 20260828
 
 This topic describes the system architecture of Application Real-Time Monitoring Service (ARMS).
 
-![](assets/99942be229df75ad35e81d66706f5d5b.png)
+![](en-arms-operations-guide-v3.18.6-2607-20260828.assets/99942be229df75ad35e81d66706f5d5b.png)
 
 Data Query
 
@@ -47,11 +47,11 @@ Diamond
 
 ZooKeeper
 
-![](assets/4916f08d7f1a44902b0f15eddff9a106.png)
+![](en-arms-operations-guide-v3.18.6-2607-20260828.assets/4916f08d7f1a44902b0f15eddff9a106.png)
 
-![](assets/ab3dc9d63eda9e801b920320a60c9b84.png)
+![](en-arms-operations-guide-v3.18.6-2607-20260828.assets/ab3dc9d63eda9e801b920320a60c9b84.png)
 
-![](assets/f7d6c2860c3d4d07033db3690e455357.png)
+![](en-arms-operations-guide-v3.18.6-2607-20260828.assets/f7d6c2860c3d4d07033db3690e455357.png)
 
 Data Aggregation
 
@@ -65,7 +65,7 @@ Traces
 
 Log Collection
 
-![](assets/9465e4ab7011d21af7b24c807cb5df4e.png)
+![](en-arms-operations-guide-v3.18.6-2607-20260828.assets/9465e4ab7011d21af7b24c807cb5df4e.png)
 
 Collector Cluster
 
@@ -77,11 +77,11 @@ Active
 
 Reporting
 
-![](assets/cb85256dc694299e0e23b34a612c70ab.png)
+![](en-arms-operations-guide-v3.18.6-2607-20260828.assets/cb85256dc694299e0e23b34a612c70ab.png)
 
-![](assets/7c156e679b76c7f48099cb5185e3dcf2.png)
+![](en-arms-operations-guide-v3.18.6-2607-20260828.assets/7c156e679b76c7f48099cb5185e3dcf2.png)
 
-![](assets/43eccc815ffd65a84746c3b65fc53af4.png)
+![](en-arms-operations-guide-v3.18.6-2607-20260828.assets/43eccc815ffd65a84746c3b65fc53af4.png)
 
 In Apsara Stack, ARMS consists of the console and API service. Other services such as core computing and storage are dependent on TLog. For more information, see **Deployment architecture**.
 
@@ -377,13 +377,13 @@ This topic describes common system inspection methods.
 
 1. Log in to the Apsara Base O&M Platform.
 
-2. In the left-side navigation pane, choose **Resource Management > Product & Cluster O&M**. On the **Product & Cluster O&M** page, enter <img src="assets/2f1cb6658d24d4e9451890813c17aa57.png" width="80" alt="">
+2. In the left-side navigation pane, choose **Resource Management > Product & Cluster O&M**. On the **Product & Cluster O&M** page, enter <img src="en-arms-operations-guide-v3.18.6-2607-20260828.assets/2f1cb6658d24d4e9451890813c17aa57.png" width="80" alt="">
 
    `middleWareAll` in the **Product | Cluster**
 
    field, and click **Cluster Details** in the **Actions** column of the cluster that is displayed.
 
-3. On the **Services** tab, enter <img src="assets/dc493b6b8ceb1d49c9379dd3d38bb8d5.png" width="96" alt="">
+3. On the **Services** tab, enter <img src="en-arms-operations-guide-v3.18.6-2607-20260828.assets/dc493b6b8ceb1d49c9379dd3d38bb8d5.png" width="96" alt="">
 
    `middleWare-jmenv` in the **Service** field.
 
@@ -393,7 +393,7 @@ This topic describes common system inspection methods.
 
 1. Log in to the Apsara Base O&M Platform.
 
-2. In the left-side navigation pane, choose **O&M Tools > Service Management**. On the **Service Management** page, enter <img src="assets/cf097c473360e815dda34d0ffe9de18c.png" width="85" alt="">
+2. In the left-side navigation pane, choose **O&M Tools > Service Management**. On the **Service Management** page, enter <img src="en-arms-operations-guide-v3.18.6-2607-20260828.assets/cf097c473360e815dda34d0ffe9de18c.png" width="85" alt="">
 
    `tlog-tlogHbase` in the **Service** field.
 
@@ -429,7 +429,7 @@ This topic describes common system inspection methods.
 
 1. Log in to the Apsara Base O&M Platform.
 
-2. In the left-side navigation pane, choose **O&M Tools > Service Management**. On the **Service Management** page, enter <img src="assets/4a2fa48e13ed3d3900c187af2c5ecf3a.png" width="96" alt="">
+2. In the left-side navigation pane, choose **O&M Tools > Service Management**. On the **Service Management** page, enter <img src="en-arms-operations-guide-v3.18.6-2607-20260828.assets/4a2fa48e13ed3d3900c187af2c5ecf3a.png" width="96" alt="">
 
    `tlog-tlogService` in the **Service** field. On the **Service**
 
@@ -1184,7 +1184,7 @@ Follow these steps to manually modify the frontend JS file to resolve the issue.
 
 1. In the Chrome browser, open the ARMS console home page. Right-click a blank area and select **View page source**. Find the frontend version number of ARMS. For example, in the following figure, the frontend version number is 1.2.2.
 
-   ![](assets/c012bccb3f1633e23836c4412424a287.png)
+   ![](en-arms-operations-guide-v3.18.6-2607-20260828.assets/c012bccb3f1633e23836c4412424a287.png)
 
 2. Run the following commands to open the frontend JS file for the corresponding version.
 
@@ -1199,7 +1199,7 @@ Follow these steps to manually modify the frontend JS file to resolve the issue.
 
 3. In the file, search for EDAS user name, delete the length limit  `ng-maxlength="20"` , and save the file.
 
-   ![](assets/2a8c202a81bb739a4c3cc4a95cf01611.jpeg)
+   ![](en-arms-operations-guide-v3.18.6-2607-20260828.assets/2a8c202a81bb739a4c3cc4a95cf01611.jpeg)
 
 **How to change the storage duration for Application Monitoring trace data?**
 
@@ -1213,7 +1213,7 @@ Follow these steps to manually modify the frontend JS file to resolve the issue.
 
 1. In the Chrome browser, open the ARMS console home page. Right-click a blank area and select **View page source**. Find the frontend version number of ARMS. For example, in the following figure, the frontend version number is 1.2.2.
 
-   ![](assets/c012bccb3f1633e23836c4412424a287.png)
+   ![](en-arms-operations-guide-v3.18.6-2607-20260828.assets/c012bccb3f1633e23836c4412424a287.png)
 
 2. Run the following commands to open the frontend JS file for the corresponding version.
 

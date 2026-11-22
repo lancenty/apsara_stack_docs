@@ -375,17 +375,17 @@ bank card numbers, passwords, and other user-defined sensitive data.
 
 Web Application Firewall (WAF) receives web access traffic and performs protocol parsing and in-depth decoding on the traffic. Then, WAF calls the semantic analysis, access control, and threat intelligence modules to analyze traffic and determines whether to allow or block traffic based on the predefined policies.
 
-![](assets/6301c207fb253dd4348830d4aa784750.png)
+![](en-waf-product-introduction-v3.18.6-2607-20260831.assets/6301c207fb253dd4348830d4aa784750.png)
 
 Traditionally, attacks are identified by matching rules that use regular expressions. However, the rules cannot cover all attack payloads that are based on programming languages. As a result, WAF cannot provide protection as expected. WAF adopts the intelligent semantic analysis algorithm to analyze web requests and responses to identify threats and attacks. The algorithm processes data through four stages: lexical analysis, syntax analysis, semantic analysis, and threat model matching.
 
-![](assets/4dfc112eefc7af0040adf07571544d4c.png)
+![](en-waf-product-introduction-v3.18.6-2607-20260831.assets/4dfc112eefc7af0040adf07571544d4c.png)
 
-![](assets/2e545cdb663cab6c35b38d5279aead30.png)
+![](en-waf-product-introduction-v3.18.6-2607-20260831.assets/2e545cdb663cab6c35b38d5279aead30.png)
 
-![](assets/6d40ab44d28d32744fffe1f5f9e2253b.png)
+![](en-waf-product-introduction-v3.18.6-2607-20260831.assets/6d40ab44d28d32744fffe1f5f9e2253b.png)
 
-![](assets/fc10cbadc076100178f81543e2fc0189.png)
+![](en-waf-product-introduction-v3.18.6-2607-20260831.assets/fc10cbadc076100178f81543e2fc0189.png)
 
 Analysis
 

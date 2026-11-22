@@ -1756,7 +1756,7 @@ Table 1. TairGIS commands
 
 - Time complexity
 
-  - Optimal time complexity: <img src="assets/9b7b249650ab77846c646166e3443837.png" width="80" alt="">
+  - Optimal time complexity: <img src="en-redis-user-guide-v3.18.6-20260630.assets/9b7b249650ab77846c646166e3443837.png" width="80" alt="">
 
   - Least desirable time complexity: log(n)
 
@@ -1800,7 +1800,7 @@ Table 1. TairGIS commands
 
 - Time complexity
 
-  - Optimal time complexity: <img src="assets/9b7b249650ab77846c646166e3443837.png" width="80" alt="">
+  - Optimal time complexity: <img src="en-redis-user-guide-v3.18.6-20260630.assets/9b7b249650ab77846c646166e3443837.png" width="80" alt="">
 
   - Least desirable time complexity: log(n)
 
@@ -1854,7 +1854,7 @@ Table 1. TairGIS commands
 
 - Time complexity
 
-  - Optimal time complexity: <img src="assets/9b7b249650ab77846c646166e3443837.png" width="80" alt="">
+  - Optimal time complexity: <img src="en-redis-user-guide-v3.18.6-20260630.assets/9b7b249650ab77846c646166e3443837.png" width="80" alt="">
 
   - Least desirable time complexity: log(n)
 
@@ -1933,7 +1933,7 @@ Table 1. TairGIS commands
 
 - Time complexity
 
-  - Optimal time complexity: <img src="assets/9b7b249650ab77846c646166e3443837.png" width="80" alt="">
+  - Optimal time complexity: <img src="en-redis-user-guide-v3.18.6-20260630.assets/9b7b249650ab77846c646166e3443837.png" width="80" alt="">
 
   - Least desirable time complexity: log(n)
 
@@ -3694,7 +3694,7 @@ Before you use a Tair (Redis OSS-compatible) instance, add IP addresses or CIDR 
    | Type | You can select <strong>IPv4</strong> or <strong>IPv6</strong>.<br>Note<br>IPv6 is supported only by Cloud-native Edition V7.0 and Community Edition V7.0. |
    | Whitelist within a group | • Take note of the following requirements when you add IP addresses to the whitelist:<br>• Separate multiple IP addresses with commas (,). A maximum of 1,000 unique IP addresses can be added.<br>• You can specify IP addresses in the following formats:<br>• IPv4: 10.23.12.24 (specific IPv4 address) or 10.23.12.24/24 (CIDR block with a prefix length ranging from 1 to 32).<br>• IPv6: 2001:db8::1 (specific IPv6 address) or 2001:db8::/32 (CIDR block with a prefix length ranging from 1 to 128).<br>Note<br>If you enter a CIDR block whose prefix length is 0, such as 0.0.0.0/0 or ::/0, all IP addresses are allowed to access the instance. This poses a high security risk.Proceed with caution.Examples<br>• Allow a single IPv6 address: 2001:db8:85a3::8a2e:370:7334<br>• Allow an IPv6 CIDR block: 240e:390:a100::/44<br>• Allow all IP addresses (high risk):::/0 or 0.0.0.0/0 |
    | Import file (.txt) | You can import IP addresses in batches. |
-   | Load the private IP addresses of ECS instances | i. Select <strong>Import ECS Internal IP Address</strong>.<br>ii. Select IP addresses based on your business requirements.<br>![](assets/46b56258177bd306fcedc4c4a7c9b2e0.png)<br>Note<br>To find the Elastic Compute Service (ECS) instance to which a specific IP address is assigned, you can move the pointer over the IP address. Then, the system displays the ID and name of the ECS instance to which the IP address is assigned. |
+   | Load the private IP addresses of ECS instances | i. Select <strong>Import ECS Internal IP Address</strong>.<br>ii. Select IP addresses based on your business requirements.<br>![](en-redis-user-guide-v3.18.6-20260630.assets/46b56258177bd306fcedc4c4a7c9b2e0.png)<br>Note<br>To find the Elastic Compute Service (ECS) instance to which a specific IP address is assigned, you can move the pointer over the IP address. Then, the system displays the ID and name of the ECS instance to which the IP address is assigned. |
 
 6. Click **OK**.
 
@@ -3819,12 +3819,12 @@ Before you use a Tair (Redis OSS-compatible) instance, add IP addresses or CIDR 
 
    | Operation | Procedure |
    | --- | --- |
-   | Manually modify the whitelist | Enter IP addresses or CIDR blocks.<br>Figure 1. Manually modify the whitelist<br>![](assets/283cc22209f66964f3d1c037ddaee502.png)<br>Note<br>• Separate multiple IP addresses with commas (,). A maximum of 1,000 unique IP addresses can be added. Supported formats are individual IP addresses such as 10.23.12.24 and CIDR blocks such as 10.23.12.24/24. In the preceding example, /24 indicates the subnet mask that specifies the length of the IP address prefix. An IP address prefix can be 1 to 32 bits in length.<br>• If you enter CIDR blocks that have a prefix length of 0 such as 0.0.0.0/0 and 127.0.0.1/0, all IP addresses are allowed to access the instance. This poses a high security risk. Proceed with caution. |
+   | Manually modify the whitelist | Enter IP addresses or CIDR blocks.<br>Figure 1. Manually modify the whitelist<br>![](en-redis-user-guide-v3.18.6-20260630.assets/283cc22209f66964f3d1c037ddaee502.png)<br>Note<br>• Separate multiple IP addresses with commas (,). A maximum of 1,000 unique IP addresses can be added. Supported formats are individual IP addresses such as 10.23.12.24 and CIDR blocks such as 10.23.12.24/24. In the preceding example, /24 indicates the subnet mask that specifies the length of the IP address prefix. An IP address prefix can be 1 to 32 bits in length.<br>• If you enter CIDR blocks that have a prefix length of 0 such as 0.0.0.0/0 and 127.0.0.1/0, all IP addresses are allowed to access the instance. This poses a high security risk. Proceed with caution. |
 
    <table>
      <tr>
        <td>Add private IP addresses of ECS instances to the whitelist</td>
-       <td>i. Select <strong>Import ECS Internal IP Address</strong>.<br>ii. Select IP addresses based on your business requirements.<br>Figure 2. Select private IP addresses of ECS instances<br><img src="assets/46b56258177bd306fcedc4c4a7c9b2e0.png" alt=""><br>Note<br>To find the ECS instance to which a specific IP address is assigned, you can move the pointer over the IP address. Then, the system displays the ID and name of the ECS instance to which the IP address is assigned.</td>
+       <td>i. Select <strong>Import ECS Internal IP Address</strong>.<br>ii. Select IP addresses based on your business requirements.<br>Figure 2. Select private IP addresses of ECS instances<br><img src="en-redis-user-guide-v3.18.6-20260630.assets/46b56258177bd306fcedc4c4a7c9b2e0.png" alt=""><br>Note<br>To find the ECS instance to which a specific IP address is assigned, you can move the pointer over the IP address. Then, the system displays the ID and name of the ECS instance to which the IP address is assigned.</td>
      </tr>
      <tr>
        <td>Remove all IP addresses from the whitelist</td>
@@ -4252,7 +4252,7 @@ This topic describes how to enable Secure Sockets Layer (SSL) encryption for an 
    >
    > - You can also click **Modify Expiry** or **Download CA Certificate** to perform the corresponding operation.
    >
-   >   ![](assets/47ec010909f75440b548caf4251565c9.jpeg)
+   >   ![](en-redis-user-guide-v3.18.6-20260630.assets/47ec010909f75440b548caf4251565c9.jpeg)
 
 <a id="section-6-12"></a>
 
@@ -4272,7 +4272,7 @@ The TDE feature for Tair (Redis OSS-compatible) encrypts RDB data files before w
 
 Figure 1. TDE encryption
 
-![](assets/9fc3bf9798b0b4eddfa21906abcf6ed9.jpeg)
+![](en-redis-user-guide-v3.18.6-20260630.assets/9fc3bf9798b0b4eddfa21906abcf6ed9.jpeg)
 
 **Impacts**
 
@@ -4304,7 +4304,7 @@ You cannot disable TDE after it is enabled. You must evaluate the impacts on you
 
    Figure 1. Select the key type for enabling TDE
 
-   ![](assets/364f301b17ad88d6a65fe78a330612a5.png)
+   ![](en-redis-user-guide-v3.18.6-20260630.assets/364f301b17ad88d6a65fe78a330612a5.png)
 
    > **Note**
    >
@@ -4330,7 +4330,7 @@ You can delete all data or expired data of a Tair (Redis OSS-compatible) instanc
 
 4. In the dialog box that appears, select the data that you want to clear.
 
-   ![](assets/1c516d101277e8f4203a06fede2e4640.png)
+   ![](en-redis-user-guide-v3.18.6-20260630.assets/1c516d101277e8f4203a06fede2e4640.png)
 
    - **All Data**: runs the **FLUSHALL** command to clear all data of the instance. Cleared data cannot be restored.
 
@@ -4444,7 +4444,7 @@ You can restart an instance from the Instance List page of the console.
 
    **> Restart**
 
-   <img src="assets/969faaf512743f2d169523b6746bdfc0.png" width="10" alt="">
+   <img src="en-redis-user-guide-v3.18.6-20260630.assets/969faaf512743f2d169523b6746bdfc0.png" width="10" alt="">
 
    **Instance**.
 
@@ -4504,7 +4504,7 @@ If you have a large number of instances, you can create multiple tags and add di
 
      In the **Tag** column corresponding to the instance for which you want to add tags, click the
 
-     <img src="assets/d7298f91f48c4416cbaf24a397240378.png" width="16" alt=""> icon.
+     <img src="en-redis-user-guide-v3.18.6-20260630.assets/d7298f91f48c4416cbaf24a397240378.png" width="16" alt=""> icon.
 
    - Create tags for multiple instances
 
@@ -4532,7 +4532,7 @@ If you have a large number of instances, you can create multiple tags and add di
    >
    >   icon next to the selected tag.
    >
-   >   <img src="assets/156d5c662ceee7ce6787e186c523ac53.png" width="18" alt="">
+   >   <img src="en-redis-user-guide-v3.18.6-20260630.assets/156d5c662ceee7ce6787e186c523ac53.png" width="18" alt="">
 
 4. Click **Search**.
 
@@ -4540,7 +4540,7 @@ If you have a large number of instances, you can create multiple tags and add di
 
 1. Log in to the Tair (Redis OSS-compatible) console.
 
-2. In the **Tag** column corresponding to the instance that you want to manage, click the <img src="assets/d7298f91f48c4416cbaf24a397240378.png" width="16" alt="">
+2. In the **Tag** column corresponding to the instance that you want to manage, click the <img src="en-redis-user-guide-v3.18.6-20260630.assets/d7298f91f48c4416cbaf24a397240378.png" width="16" alt="">
 
    icon.
 
@@ -4548,7 +4548,7 @@ If you have a large number of instances, you can create multiple tags and add di
 
    icon next to the tag that you want to remove.
 
-   <img src="assets/65a9b9e0396406daa76e69116ddb843a.png" width="16" alt="">
+   <img src="en-redis-user-guide-v3.18.6-20260630.assets/65a9b9e0396406daa76e69116ddb843a.png" width="16" alt="">
 
    > **Note**
    >
@@ -4736,7 +4736,7 @@ If you have applied for a private endpoint for a Tair (Redis OSS-compatible) clu
 
 When you enable the direct connection mode for a cluster instance, Tair (Redis OSS-compatible) allocates a virtual IP address (VIP) to the master node of each data shard in the cluster instance. Before the client sends the first request to a private endpoint, the client uses a Domain Name System (DNS) server to resolve the private endpoint. The resolution result is the VIP of a random data shard in the cluster instance. The client can use this VIP to manage cluster instance data based on the Redis Cluster protocol. The following figure shows the architecture of a cluster instance in direct connection mode.
 
-![](assets/ba3289178fcacfdc970922d08b530207.png)
+![](en-redis-user-guide-v3.18.6-20260630.assets/ba3289178fcacfdc970922d08b530207.png)
 
 ECS
 
@@ -6126,7 +6126,7 @@ Cloud Monitor provides a variety of performance metrics and collects metrics at 
 
    On the instance or cluster list page, find the desired instance or cluster and click the
 
-   <img src="assets/34d72c0c8f7b73f959480e077d78f679.png" width="20" alt="">
+   <img src="en-redis-user-guide-v3.18.6-20260630.assets/34d72c0c8f7b73f959480e077d78f679.png" width="20" alt="">
 
    icon in the Monitoring column.
 
@@ -6173,7 +6173,7 @@ You can view historical alerts. You can also export and download historical aler
    | Operation | Procedure |
    | --- | --- |
    | View historical alerts | On the <strong>Alarm history</strong> tab, view the information about historical alerts in the following columns: <strong>Product Name</strong>, <strong>Faulty</strong> <strong>instance</strong>, <strong>Occurrence time</strong>, <strong>Rule name</strong>, <strong>Status</strong>, <strong>Grade</strong>, and <strong>Notification object</strong>. Find a historical alert that you want to view and click the rule name in the Rule name column to view the details of the alert rule.<br>Note<br>By default, you can query historical alerts within the previous two days. |
-   | Export historical alerts | i. On the <strong>Alarm history</strong> tab, click the<img src="assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">icon in the upper-<br>right corner to export historical alerts.<br>ii. In the <strong>Export task</strong> dialog box, configure the <strong>Time Selection</strong> and <strong>Task name</strong> parameters and click <strong>OK</strong>. |
+   | Export historical alerts | i. On the <strong>Alarm history</strong> tab, click the<img src="en-redis-user-guide-v3.18.6-20260630.assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">icon in the upper-<br>right corner to export historical alerts.<br>ii. In the <strong>Export task</strong> dialog box, configure the <strong>Time Selection</strong> and <strong>Task name</strong> parameters and click <strong>OK</strong>. |
 
 <a id="section-9-3"></a>
 
@@ -6236,7 +6236,7 @@ Create an alert rule named example to monitor the CPU utilization of a database 
 
 The following figure shows the settings in the Rule description panel.
 
-![](assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
+![](en-redis-user-guide-v3.18.6-20260630.assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
 
 <a id="section-9-3-2"></a>
 
@@ -6262,9 +6262,9 @@ You can modify, disable, enable, and delete alert rules on the Alarm rules tab i
    | Check the validity of an alert rule | Find the alert rule that you want to check and click <strong>Click inspection</strong> in the <strong>Effectiveness</strong> column. You can view the check result in the Effectiveness column.<br>Note<br>• If the check result is abnormal, click <strong>Test results</strong>. In the dialog box that appears, you can view the following items: <strong>Alert rule</strong> <strong>execution exception detection</strong>, <strong>Alert rule loading detection</strong>, <strong>Invalid alarm rule detection</strong>, and <strong>Alert rule callback</strong> <strong>detection</strong>.<br>• Click <strong>Re-detection</strong> to re-check the validity of the alert rule. |
    | View the execution records of an alert rule | Find the alert rule that you want to view and click <strong>View rule execution</strong> <strong>records</strong> in the <strong>Rule Execution record</strong> column. In the <strong>Alarm rule execution</strong> <strong>record</strong> panel, you can view execution records within the specified time range. |
    | Modify an alert rule | i. Find the alert rule that you want to manage and click <strong>Edit</strong> in the <strong>Operation</strong> column<strong>.</strong><br>ii. In the <strong>Modify alarm rules</strong> panel, modify the parameters of the alert rule.For more information about the parameters, see <strong>Create an alert rule</strong>.<br>iii. After you modify the alert rule, click <strong>OK</strong>. |
-   | Disable one or more alert rules | If you want to suspend a cloud service for maintenance or upgrade purposes, you can disable the alert rules that are associated with the cloud service. This way, manual operations on the service do not trigger Cloud Monitor to send alert notifications.<br>Note<br>Make sure that the <strong>Status</strong> column of the alert rule displays <strong>Normal</strong> before you disable the alert rule.<br>• Disable a single alert rule<br>a. Move the pointer over the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon in the <strong>Operation</strong> column of the alert rule and click <strong>Disable</strong>.<br>b. In the <strong>Disable alarm rules</strong> message, click <strong>OK.</strong><br>• Disable multiple alert rules at a time<br>a. Select the alert rules that you want to disable and click <strong>Disable</strong> below the alert rule list.<br>b. In the <strong>Disable alarm rules</strong> message, click <strong>OK</strong>. |
+   | Disable one or more alert rules | If you want to suspend a cloud service for maintenance or upgrade purposes, you can disable the alert rules that are associated with the cloud service. This way, manual operations on the service do not trigger Cloud Monitor to send alert notifications.<br>Note<br>Make sure that the <strong>Status</strong> column of the alert rule displays <strong>Normal</strong> before you disable the alert rule.<br>• Disable a single alert rule<br>a. Move the pointer over the<img src="en-redis-user-guide-v3.18.6-20260630.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon in the <strong>Operation</strong> column of the alert rule and click <strong>Disable</strong>.<br>b. In the <strong>Disable alarm rules</strong> message, click <strong>OK.</strong><br>• Disable multiple alert rules at a time<br>a. Select the alert rules that you want to disable and click <strong>Disable</strong> below the alert rule list.<br>b. In the <strong>Disable alarm rules</strong> message, click <strong>OK</strong>. |
    | Enable one or more alert rules | After you maintain or upgrade a cloud service, you can enable all disabled alert rules.<br>Note<br>Make sure that the status of the alert rule that you want to disable is <strong>Disabled</strong>.<br>• Enable an alert rule<br>a. Find the alert rule that you want to enable and click <strong>Enable</strong> in the <strong>Operation</strong> column.<br>b. In the <strong>Enable alarm rules</strong> message, click <strong>OK</strong>.<br>• Enable multiple alert rules at a time<br>a. Select the alert rules that you want to enable and click <strong>Enable</strong> below the alert rule list.<br>b. In the <strong>Enable alarm rules</strong> message, click <strong>OK</strong>. |
-   | Delete one or more alert rules | • Delete an alert rule<br>a. Move the pointer over the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon in the Operation column of the alert rule and click <strong>Delete</strong>.<br>b. In the <strong>Delete alarm rules</strong> message, click <strong>OK</strong>.<br>• Delete multiple alert rules at a time<br>a. Select the alert rules that you want to delete and click Delete below the alert rule list.<br>b. In the <strong>Delete alarm rules</strong> message, click <strong>OK</strong>. |
+   | Delete one or more alert rules | • Delete an alert rule<br>a. Move the pointer over the<img src="en-redis-user-guide-v3.18.6-20260630.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon in the Operation column of the alert rule and click <strong>Delete</strong>.<br>b. In the <strong>Delete alarm rules</strong> message, click <strong>OK</strong>.<br>• Delete multiple alert rules at a time<br>a. Select the alert rules that you want to delete and click Delete below the alert rule list.<br>b. In the <strong>Delete alarm rules</strong> message, click <strong>OK</strong>. |
 
 <a id="section-10"></a>
 
@@ -6344,7 +6344,7 @@ Tair (Redis OSS-compatible) lets you customize some instance parameters. This to
 
      You can use this method to apply the parameter settings of another instance to the current instance. Before you use this feature, go to the **Parameter Settings** page of the
 
-     source instance, click the <img src="assets/e5b3ae7195a5f80f1afce77e130e8cba.png" width="21" alt=""> icon in the upper-right corner, and download the parameter
+     source instance, click the <img src="en-redis-user-guide-v3.18.6-20260630.assets/e5b3ae7195a5f80f1afce77e130e8cba.png" width="21" alt=""> icon in the upper-right corner, and download the parameter
 
      configuration file of the source instance.
 
@@ -6362,7 +6362,7 @@ Tair (Redis OSS-compatible) lets you customize some instance parameters. This to
 
      <li>
 
-     In the **Batch Import** panel, click the <img src="assets/b65d0ee7e619d351dda74ffe95d6822f.png" width="21" alt=""> icon to upload the object file.
+     In the **Batch Import** panel, click the <img src="en-redis-user-guide-v3.18.6-20260630.assets/b65d0ee7e619d351dda74ffe95d6822f.png" width="21" alt=""> icon to upload the object file.
 
      </li>
 
@@ -6587,7 +6587,7 @@ CloudDBA provides the performance trends feature that allows you to monitor the 
    >
    > If the KVStore for Redis instance uses a cluster architecture, the Performance Trends page displays the information about the nodes. The performance data during the last 1 hour is displayed. If you click the node ID, you can view the details of a specified node.
 
-   ![](assets/fed5735d78451f29dd1e1a9ad0100ff4.jpeg)
+   ![](en-redis-user-guide-v3.18.6-20260630.assets/fed5735d78451f29dd1e1a9ad0100ff4.jpeg)
 
    - **Performance trends**
 
@@ -6664,7 +6664,7 @@ The default performance trends tab displays the basic performance metrics of a K
 
 6. Click **Add Chart** or **Add Monitoring Chart**. Select the metrics that you want to add and click **OK**
 
-   ![](assets/bdf6a2983282aef533a04ab5a12fb433.png)
+   ![](en-redis-user-guide-v3.18.6-20260630.assets/bdf6a2983282aef533a04ab5a12fb433.png)
 
 7. **(Optional)** You can view, modify, and delete monitoring dashboards.
 
@@ -6674,7 +6674,7 @@ The default performance trends tab displays the basic performance metrics of a K
 
      Click the following icons to modify or delete a chart in the monitoring dashboard.
 
-     ![](assets/9c99f37cc0cdc46c3c728595beb9fed6.png)
+     ![](en-redis-user-guide-v3.18.6-20260630.assets/9c99f37cc0cdc46c3c728595beb9fed6.png)
 
    - Delete a monitoring dashboard
 
@@ -6698,7 +6698,7 @@ CloudDBA allows you to view the performance metrics of KVStore for Redis instanc
 
    In the upper part of the page, performance metrics are displayed in real time. The metrics include information about the server, keys, memory, clients, and connections. The details about the performance metrics are displayed in **Real-time Charts** and **Real-time Tables**.
 
-   ![](assets/e5d0a056e2454d3560064a3559b6a662.jpeg)
+   ![](en-redis-user-guide-v3.18.6-20260630.assets/e5d0a056e2454d3560064a3559b6a662.jpeg)
 
    > **Note**
    >
@@ -6706,8 +6706,8 @@ CloudDBA allows you to view the performance metrics of KVStore for Redis instanc
 
    | View | Description |
    | --- | --- |
-   | Real-time Charts | Displays the real-time performance metrics of the instance in curve charts, such as keys, key hit information, key hit ratio, CPU utilization, memory usage, QPS, and network traffic.<br>![](assets/8720afb1c6bc5dc87dee16a4d701c415.png) |
-   | Real-time Tables | Displays the information about keys, QPS, memory usage, CPU utilization, network traffic, clients, and connections. The table can display up to 999 records. A new record is added to the table every 5 seconds.<br>![](assets/1ca7cc438f40d60f5946fff86409cd06.png) |
+   | Real-time Charts | Displays the real-time performance metrics of the instance in curve charts, such as keys, key hit information, key hit ratio, CPU utilization, memory usage, QPS, and network traffic.<br>![](en-redis-user-guide-v3.18.6-20260630.assets/8720afb1c6bc5dc87dee16a4d701c415.png) |
+   | Real-time Tables | Displays the information about keys, QPS, memory usage, CPU utilization, network traffic, clients, and connections. The table can display up to 999 records. A new record is added to the table every 5 seconds.<br>![](en-redis-user-guide-v3.18.6-20260630.assets/1ca7cc438f40d60f5946fff86409cd06.png) |
 
 <a id="section-12-5"></a>
 
@@ -6761,7 +6761,7 @@ Slow queries reduce the stability of KVStore for Redis instances. To monitor and
 
 4. Query the details about the slow query logs.
 
-   ![](assets/16c91c39b868985254dd6e509f754ac4.png)
+   ![](en-redis-user-guide-v3.18.6-20260630.assets/16c91c39b868985254dd6e509f754ac4.png)
 
    > **Note**
    >
@@ -6785,11 +6785,11 @@ By using the offline key analysis feature to analyze backup files of a KVStore f
 
 4. On the page that appears, click **Analyze**.
 
-   ![](assets/e226ddd16c171d6db3d733ac95e464e4.png)
+   ![](en-redis-user-guide-v3.18.6-20260630.assets/e226ddd16c171d6db3d733ac95e464e4.png)
 
 5. In the dialog box that appears, specify the Node and Analysis Method parameters.
 
-   ![](assets/7f330c28854151b115b1414523bf0a0c.jpeg)
+   ![](en-redis-user-guide-v3.18.6-20260630.assets/7f330c28854151b115b1414523bf0a0c.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -6804,11 +6804,11 @@ By using the offline key analysis feature to analyze backup files of a KVStore f
 
    - **Basic information**: displays the basic information of the instance such as the basic attributes and the cache analysis method.
 
-     ![](assets/d85bdc6a93e4b69f43ebcbbdfc0fc2e4.png)
+     ![](en-redis-user-guide-v3.18.6-20260630.assets/d85bdc6a93e4b69f43ebcbbdfc0fc2e4.png)
 
    - **Related node**: displays the memory usage and key statistics on each node of the instance.
 
-     ![](assets/732c3e91ee289010e403fcb70280969d.png)
+     ![](en-redis-user-guide-v3.18.6-20260630.assets/732c3e91ee289010e403fcb70280969d.png)
 
      > **Note**
      >
@@ -6816,7 +6816,7 @@ By using the offline key analysis feature to analyze backup files of a KVStore f
 
    - **Details**: displays the details about the instance or node, such as the memory usage and distribution of keys, memory usage and distribution of elements in keys, distribution of key expiration time, and ranking of large keys.
 
-     ![](assets/3276cd859eca2929821e8c9ca21c21c2.jpeg)
+     ![](en-redis-user-guide-v3.18.6-20260630.assets/3276cd859eca2929821e8c9ca21c21c2.jpeg)
 
 <a id="section-12-8"></a>
 

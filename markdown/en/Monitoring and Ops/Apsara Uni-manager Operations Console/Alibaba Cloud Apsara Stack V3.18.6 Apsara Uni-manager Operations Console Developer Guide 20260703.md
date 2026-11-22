@@ -172,7 +172,7 @@ This topic describes how to view the desired product development documentation w
 
 You can follow the procedure described in the following figure to view the desired development documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-apsara-uni-manager-ops-developer-guide-v3.18.6-20260703.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -280,7 +280,7 @@ This topic describes how users such as O&M engineers log on to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-apsara-uni-manager-ops-developer-guide-v3.18.6-20260703.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -324,7 +324,7 @@ You must obtain a region ID before you call API operations of the Apsara Uni-man
 
 2. On the left side of the top navigation bar, you can view the region ID.
 
-   ![](assets/2bead5a7be905282fd443d973d538bef.jpeg)
+   ![](en-apsara-uni-manager-ops-developer-guide-v3.18.6-20260703.assets/2bead5a7be905282fd443d973d538bef.jpeg)
 
 <a id="section-4-3"></a>
 
@@ -1194,7 +1194,7 @@ An AccessKey ID and an AccessKey secret are used to implement symmetric encrypti
 
 4. In the **Accesskey** section, you can view the AccessKey ID and AccessKey secret of the RAM user.
 
-   ![](assets/9882f77131c1c59855e0126fae600b97.jpeg)
+   ![](en-apsara-uni-manager-ops-developer-guide-v3.18.6-20260703.assets/9882f77131c1c59855e0126fae600b97.jpeg)
 
    > **Note**
    >
@@ -1228,7 +1228,7 @@ You must obtain the intranet and Internet domain names before you call API opera
 
 4. You can view the intranet and Internet domain names in the **Apsara Stack API calls** section.
 
-   ![](assets/df69d2852995d7e4099c97aec01ba033.jpeg)
+   ![](en-apsara-uni-manager-ops-developer-guide-v3.18.6-20260703.assets/df69d2852995d7e4099c97aec01ba033.jpeg)
 
 <a id="section-4-6"></a>
 

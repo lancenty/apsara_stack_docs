@@ -188,7 +188,7 @@ DTS provides three migration methods: schema migration, full migration, and incr
   >
   > changes are not synchronized to the destination instance.
 
-![](assets/9767c6f48ee5a414f2c6693b76311712.jpeg)
+![](en-rds-product-introduction-v3.18.6-2607-20260831.assets/9767c6f48ee5a414f2c6693b76311712.jpeg)
 
 **Dedicated instance family**
 
@@ -256,7 +256,7 @@ Automatic SQL optimization is a core feature provided by Database Autonomy Servi
 
 SQL Audit performs comprehensive and accurate audit on all database operations that are recorded. This feature provides real-time alerts for databases risks and generates compliance reports to improve the security of data assets.
 
-![](assets/108abe1f56c51c94a11780d4e38f965e.png)
+![](en-rds-product-introduction-v3.18.6-2607-20260831.assets/108abe1f56c51c94a11780d4e38f965e.png)
 
 SQL Audit can record all DML and DDL operations and provides a built-in security engine to audit database operations in real time.
 
@@ -370,7 +370,7 @@ ApsaraDB RDS works with products such as ApsaraDB for Redis and Object Storage S
 
 Figure 1. Diverse data storage
 
-![](assets/48a1680e81ba05c0a9ba75a7e5c3eef0.png)
+![](en-rds-product-introduction-v3.18.6-2607-20260831.assets/48a1680e81ba05c0a9ba75a7e5c3eef0.png)
 
 **Persistent caching**
 
@@ -396,7 +396,7 @@ Write requests are routed to the primary instance, and read requests are routed 
 
 Figure 1. Read/write splitting
 
-![](assets/a84140f1aed414ae579a506ec98e908d.png)
+![](en-rds-product-introduction-v3.18.6-2607-20260831.assets/a84140f1aed414ae579a506ec98e908d.png)
 
 <a id="section-3-3"></a>
 
@@ -408,7 +408,7 @@ MaxCompute is used to store and compute batches of structured data. It provides 
 
 Figure 1. Big data analysis diagram
 
-![](assets/31b49f010f192878a0ae7fa92d6fe5bf.png)
+![](en-rds-product-introduction-v3.18.6-2607-20260831.assets/31b49f010f192878a0ae7fa92d6fe5bf.png)
 
 <a id="section-4"></a>
 

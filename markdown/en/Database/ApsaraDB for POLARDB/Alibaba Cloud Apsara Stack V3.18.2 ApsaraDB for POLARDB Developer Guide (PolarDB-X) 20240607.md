@@ -4859,9 +4859,9 @@ This topic describes three methods that you can use to obtain an endpoint of Aps
 
 3. On the **All Reports** page, search for  `Registration Vars of Services`  and click the report name.
 
-   ![](assets/99c5a0612611902aca4512475729949d.png)
+   ![](en-polardb-polardb-x-developer-guide-v3.18.2-20240607.assets/99c5a0612611902aca4512475729949d.png)
 
-4. On the **Registration Vars of Services** page, click the <img src="assets/f138bb3601f505ae7ffcd069fe3d9ffb.png" width="21" alt=""> icon next to **Service** and search
+4. On the **Registration Vars of Services** page, click the <img src="en-polardb-polardb-x-developer-guide-v3.18.2-20240607.assets/f138bb3601f505ae7ffcd069fe3d9ffb.png" width="21" alt=""> icon next to **Service** and search
 
    for  `asapi` .
 
@@ -4951,7 +4951,7 @@ This topic describes three methods that you can use to obtain an endpoint of Aps
 
    In the **Application Parameter** message, obtain the value of the **domain** parameter.
 
-   ![](assets/36b35435d7bb45c1d0ffa4355f3d8c56.png)
+   ![](en-polardb-polardb-x-developer-guide-v3.18.2-20240607.assets/36b35435d7bb45c1d0ffa4355f3d8c56.png)
 
 4. Generate an endpoint of ASAPI based on the following format:
 
@@ -4995,11 +4995,11 @@ Enter the following code. If you cannot access the endpoint, the endpoint is una
 
 Available endpoint example:
 
-![](assets/ec3d5dc42f71434a9273299ff45e87e7.png)
+![](en-polardb-polardb-x-developer-guide-v3.18.2-20240607.assets/ec3d5dc42f71434a9273299ff45e87e7.png)
 
 Unavailable endpoint example:
 
-![](assets/f89f9ba39c38162b6e1e6b69e058993c.png)
+![](en-polardb-polardb-x-developer-guide-v3.18.2-20240607.assets/f89f9ba39c38162b6e1e6b69e058993c.png)
 
 **Historical endpoint**
 

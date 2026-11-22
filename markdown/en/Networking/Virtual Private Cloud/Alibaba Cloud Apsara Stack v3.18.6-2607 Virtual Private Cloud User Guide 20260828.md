@@ -150,7 +150,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console 
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -327,7 +327,7 @@ You can use the standard RFC CIDR blocks:  `10.0.0.0/8` ,  `172.16.0.0/12` , and
 | <code>172.16.0.0/12-24</code> | <code>172.16.0.0 to 172.31.255.255</code> | 12 to 24 | <code>172.30.0.0/16</code> |
 | <code>192.168.0.0/16-</code><br><code>24</code> | <code>192.168.0.0 to</code><br><code>192.168.255.255</code> | 16 to 24 | <code>192.168.0.0/2</code><br><code>4</code> |
 
-![](assets/e14c7944dfff3ef0d659fa1c61275955.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/e14c7944dfff3ef0d659fa1c61275955.png)
 
 When you specify CIDR blocks for VPCs, take note of the following items:
 
@@ -456,7 +456,7 @@ Before you create virtual private clouds (VPCs) and vSwitches, you must decide t
 
   If you do not need to deploy your services across regions or isolate services, we recommend that you create only one VPC.
 
-  ![](assets/966afa1144ce7c1de7fd0e30dd6e6924.png)
+  ![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/966afa1144ce7c1de7fd0e30dd6e6924.png)
 
 - Multiple VPCs
 
@@ -466,13 +466,13 @@ Before you create virtual private clouds (VPCs) and vSwitches, you must decide t
 
     A VPC cannot be deployed across regions. If you want to deploy your services in different regions, you must create multiple VPCs. You can use Express Connect circuits and VPN gateways to connect VPCs that are deployed in different regions.
 
-    ![](assets/4be62e249d7e061b2d1c24f7d8ece93f.png)
+    ![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/4be62e249d7e061b2d1c24f7d8ece93f.png)
 
   - Service isolation
 
     If you want to isolate your services in the same region by using VPCs, you must create multiple VPCs. For example, you can use multiple VPCs to isolate the test environment from the production environment. The following figure shows how the test environment is isolated from the production environment by using VPCs.
 
-    ![](assets/60cc995a93d760ffeaa95def736478e2.png)
+    ![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/60cc995a93d760ffeaa95def736478e2.png)
 
 **How many vSwitches do I need?**
 
@@ -742,7 +742,7 @@ For more information about how to configure security group rules, see the **Add 
 
 Log on to the ECS instance and **ping** an IPv6 service to verify the network connectivity.
 
-![](assets/06853854bfb99a339943024ed4db1440.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/06853854bfb99a339943024ed4db1440.png)
 
 <a id="section-3-5"></a>
 
@@ -843,7 +843,7 @@ A VPC and a vSwitch are created. For more information, see Create a VPC with an 
        <td>Select a next hop type.<br>• If you set the <strong>Destination CIDR Block</strong> parameter to <strong>IPv4 CIDR Block</strong>, you can select one of the following types of next hops:<br>• <strong>ECS Instance</strong>: routes the traffic destined for the specified CIDR block to the specified Elastic Compute Service (ECS) instance. Select this option if you want to route traffic to a specific ECS instance for centralized traffic forwarding and management. For example, you can configure an ECS instance as the Internet-facing gateway to route traffic from other ECS instances to the Internet.<br>• <strong>Highly-availability Virtual IP Address</strong>: routes the traffic destined for the specified CIDR block to the specified high-availability virtual IP address (HAVIP).<br>• <strong>VPN Gateway</strong>: routes the traffic destined for the specified CIDR block to the specified VPN gateway.<br>• <strong>NAT Gateway</strong>: routes the traffic destined for the specified CIDR block to the specified NAT gateway.<br>• <strong>ENI</strong>: routes the traffic destined for the specified CIDR block to the specified secondary elastic network interface (ENI).<br>• <strong>Router Interface (VPC Direction)</strong>: routes the traffic destined for the specified CIDR block to the specified VPC. Select this option if you want to connect to a VPC over an Express Connect circuit.<br>• <strong>Router Interface (Border Router Direction)</strong>: routes the traffic destined for the specified CIDR block to the router interface associated with the specified virtual border router (VBR). Select this option if you want to connect to a data center over an Express Connect circuit.<br>If you select Router Interface (Border Router Direction), you must also select a routing mode. Valid values:<br>• <strong>General Route</strong>: allows you to select an associated router interface.<br>• <strong>Active/Standby Routes</strong>: allows you to select two instances as the next hops. The active route has a weight of 100, and the standby route has a weight of 0. The standby route takes over if the active route fails health checks.<br>• <strong>Load-Balancing Routes</strong>: allows you to select two to eight instances as the next hops. The instances must have the same weight, which must be an integer from 0 to 255. Network traffic is evenly distributed to the next hops.<br>• <strong>Transit Router</strong>: routes the traffic destined for the specified CIDR block to the specified transit router.<br>• If you set the <strong>Destination CIDR Block</strong> parameter to <strong>IPv6 CIDR Block</strong>, you can select one of the following types of next hops:<br>• (<strong>Custom route tables only</strong>) <strong>IPv6 Gateway</strong>: routes the traffic destined for the destination CIDR block to the specified IPv6 gateway.<br>• <strong>ENI</strong>: routes the traffic destined for the specified CIDR block to the specified secondary ENI.<br>• (<strong>System route tables only</strong>)<br><strong>Router Interface (VPC Direction)</strong>: routes the traffic destined for the specified CIDR block to the specified VPC. Select this option if you want to connect to a VPC over an Express Connect circuit.<br>• <strong>Router Interface (Border Router Direction)</strong>: routes the traffic destined for the specified CIDR block to the router interface associated with the specified virtual border router (VBR). Select this option if you want to connect to a data center over an Express Connect circuit.<br>If you select Router Interface (Border Router Direction), you must also select a routing mode. Valid values:<br>• <strong>General Route</strong>: allows you to select an associated router interface.<br>• <strong>Active/Standby Routes</strong>: allows you to select two instances as the next hops. The active route has a weight of 100, and the standby route has a weight of 0. The standby route takes over if the active route fails health checks.<br>• <strong>Load-Balancing Routes</strong>: allows you to select two to eight instances as the next hops. The instances must have the same weight, which must be an integer from 0 to 255. Network traffic is evenly distributed to the next hops.</td>
      </tr>
      <tr>
-       <td colspan="2">After you configure the <strong>Next Hop Type</strong> parameter, you must select an instance as the next hop of the selected next hop type.<br>Note<br>• You can enter a keyword or configure the advanced filter to search for the next hop that you want to use.<br>• You can also click the icon to create an instance as the next hop of the selected next<br><img src="assets/641a1c83774ba0c4ea596c4e6f1e0285.png" width="15" alt=""><br>hop type.<br>• If you select <strong>Router Interface (Border Router Direction)</strong> as <strong>Next Hop Type</strong> and <strong>Active/Standby Routes</strong> as <strong>Router Interface (Border Router Direction)</strong>, you can select two instances as the <strong>primary and secondary</strong> next hops.<br>• If you select <strong>Router Interface (Border Router Direction)</strong> as <strong>Next Hop Type</strong> and <strong>Load-Balancing Routes</strong> as Router Interface (Border Router Direction), click <strong>Add Next</strong> <strong>Hop</strong>. In the Add Next Hop dialog box, configure the <strong>Routing</strong> and <strong>Weight</strong> parameters to select instances as the next hops.</td>
+       <td colspan="2">After you configure the <strong>Next Hop Type</strong> parameter, you must select an instance as the next hop of the selected next hop type.<br>Note<br>• You can enter a keyword or configure the advanced filter to search for the next hop that you want to use.<br>• You can also click the icon to create an instance as the next hop of the selected next<br><img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/641a1c83774ba0c4ea596c4e6f1e0285.png" width="15" alt=""><br>hop type.<br>• If you select <strong>Router Interface (Border Router Direction)</strong> as <strong>Next Hop Type</strong> and <strong>Active/Standby Routes</strong> as <strong>Router Interface (Border Router Direction)</strong>, you can select two instances as the <strong>primary and secondary</strong> next hops.<br>• If you select <strong>Router Interface (Border Router Direction)</strong> as <strong>Next Hop Type</strong> and <strong>Load-Balancing Routes</strong> as Router Interface (Border Router Direction), click <strong>Add Next</strong> <strong>Hop</strong>. In the Add Next Hop dialog box, configure the <strong>Routing</strong> and <strong>Weight</strong> parameters to select instances as the next hops.</td>
      </tr>
      <tr>
        <td>Remarks</td>
@@ -883,7 +883,7 @@ VPCs and vSwitches are created. For more information, see Create a VPC with an I
 
 In this example, an ECS instance that is deployed in a VPC and is not associated with an elastic IP address (EIP) is used. The following figure shows the procedure for configuring a NAT gateway.
 
-![](assets/ba5a120a95812a1d15063a1555955fd7.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/ba5a120a95812a1d15063a1555955fd7.png)
 
 **Step 1: Create a NAT gateway**
 
@@ -969,7 +969,7 @@ In this example, an ECS instance that is deployed in a VPC and is not associated
 
 4. On the **NAT Gateways** page, find the NAT gateway that you want to manage and associate an EIP with it by using one of the following methods:
 
-   - Choose <img src="assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt=""> **> Associate EIP** in the **Actions** column.
+   - Choose <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt=""> **> Associate EIP** in the **Actions** column.
 
    - Click **Bind Immediately** in the **EIP** column.
 
@@ -1045,7 +1045,7 @@ An ECS instance is created. For more information, see the **Create an ECS instan
 
 **Procedure**
 
-![](assets/8a6b3860a39b1d0ab8df9d3e80255aa8.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/8a6b3860a39b1d0ab8df9d3e80255aa8.png)
 
 **Step 1: Apply for an EIP**
 
@@ -1129,7 +1129,7 @@ An ECS instance is created. For more information, see the **Create an ECS instan
 
    icon in the upper-right corner of the **EIP**
 
-   <img src="assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt="">
+   <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt="">
 
    page. In the dialog box that appears, select the columns that you want to export, such as Instance ID, Organization, and Resource Set, and click **OK** to export the information about the existing EIPs.
 
@@ -1163,7 +1163,7 @@ Log on to the ECS instance associated with the EIP and run the following command
 ping <a public domain name>
 ```
 
-![](assets/de7d904bcc4b5e26d238b631f4e2c0eb.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/de7d904bcc4b5e26d238b631f4e2c0eb.png)
 
 <a id="section-3-8"></a>
 
@@ -1407,7 +1407,7 @@ Before you create a VPC, plan your network. For more information, see Plan a VPC
 
    For more information about service management, see the **Service management** topic in the **User Guide for Apsara Uni-manager Management Console**.
 
-7. (Optional) After you create a VPC, you can click the <img src="assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt=""> icon in the upper-right corner of the
+7. (Optional) After you create a VPC, you can click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt=""> icon in the upper-right corner of the
 
    **VPC** page. Select the data columns that you need, such as Instance ID, Organization, and Resource Set, and then click **OK** to download the VPC information.
 
@@ -1423,15 +1423,15 @@ On the **VPC** page, you can view the details of your VPCs in a list.
 
 - You can find an instance by entering a keyword or specifying filter conditions in an advanced search.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to show or hide columns and drag
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to show or hide columns and drag
 
   columns to reorder them.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column name to perform an advanced sort on the list.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column name to perform an advanced sort on the list.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon in the **Sharing Scope** column to filter instances by sharing scope.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon in the **Sharing Scope** column to filter instances by sharing scope.
 
 - Click an IPv4 CIDR block in the **IPv4 CIDR Block** column to view the list of IPv4 CIDR blocks of the VPC.
 
@@ -1447,7 +1447,7 @@ On the **VPC** page, you can view the details of your VPCs in a list.
 
 - Click the number in the **Elastic Compute Service** column to view the list of ECS instances in the VPC.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the right of the instance name in the **VPC ID/Name** column to modify
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the right of the instance name in the **VPC ID/Name** column to modify
 
   the VPC name.
 
@@ -1531,23 +1531,23 @@ You can delete VPCs that you no longer need. After you delete a VPC, its associa
 
    - Click the **Basic Information** tab to view or manage the basic information of the VPC and its vRouter.
 
-     - In the **VPC Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the right of **VPC Name** to
+     - In the **VPC Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the right of **VPC Name** to
 
        modify the VPC name.
 
-     - In the **VPC Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the right of **Description** to
+     - In the **VPC Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to the right of **Description** to
 
        modify the VPC description.
 
-     - In the **VPC Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to **Tags** to edit the VPC
+     - In the **VPC Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to **Tags** to edit the VPC
 
        tags.
 
-     - In the **Router Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to **Router Name** to
+     - In the **Router Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to **Router Name** to
 
        modify the router name.
 
-     - In the **VRouter Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to **Description** to
+     - In the **VRouter Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to **Description** to
 
        edit the vSwitch description.
 
@@ -1613,7 +1613,7 @@ The IPv4 CIDR block that you configure when you create a VPC is the primary IPv4
 
 When you create a vSwitch from a secondary IPv4 CIDR block, the system automatically adds a route to the VPC route table. This process is the same as when you create a vSwitch from the primary IPv4 CIDR block. The destination CIDR block of the route is the CIDR block of the vSwitch. The CIDR block of the vSwitch cannot be the same as or larger than the destination CIDR blocks of other routes in the VPC route table.
 
-![](assets/1358a9d59fb4b7faf0338f220a851a3d.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/1358a9d59fb4b7faf0338f220a851a3d.png)
 
 **Add a secondary IPv4 CIDR block**
 
@@ -1832,13 +1832,13 @@ Route tables are used to manage and control network traffic. Proper route config
 
 After you create a virtual private cloud (VPC), the system creates a system route table to manage the routes of the VPC. By default, vSwitches in the VPC use the system route table. You cannot create or delete a system route table. However, you can add custom route entries to a system route table.
 
-![](assets/3a253c6ad65aa7227c58966277ce8f46.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/3a253c6ad65aa7227c58966277ce8f46.png)
 
 **Custom route tables**
 
 You can create custom route tables in a VPC, associate custom route tables with vSwitches, and then set vSwitch CIDR blocks as destination CIDR blocks. This way, cloud services in vSwitches can communicate with each other. This facilitates network management. For more information, see Add subnet routes to a route table.
 
-![](assets/8872cbf45afef633ef581205dbf90371.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/8872cbf45afef633ef581205dbf90371.png)
 
 > **Note**
 >
@@ -1925,7 +1925,7 @@ The following figure shows a NAT gateway that is deployed on an ECS instance (EC
 | --- | --- | --- |
 | 0.0.0.0/0 | ECS instance | ECS01 |
 
-![](assets/31582effa3710f283a675abe5c4073df.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/31582effa3710f283a675abe5c4073df.png)
 
 **Connect two VPCs by using an Express Connect circuit**
 
@@ -1943,7 +1943,7 @@ The following figure shows that VPC1, whose CIDR block is 172.16.0.0/12, is conn
   | --- | --- | --- |
   | 172.16.0.0/12 | Router interface (to VPC) | VPC1 |
 
-  ![](assets/849ab88dcc27589f0d8e8866bd9127c6.png)
+  ![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/849ab88dcc27589f0d8e8866bd9127c6.png)
 
 **Connect two VPCs by using a VPN gateway**
 
@@ -1961,7 +1961,7 @@ The following figure shows that VPC1, whose CIDR block is 172.16.0.0/12, is conn
   | --- | --- | --- |
   | 172.16.0.0/12 | VPN gateway | VPN Gateway 2 |
 
-  ![](assets/7bfcfb8bc274926c5c7c4ed37e22053c.png)
+  ![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/7bfcfb8bc274926c5c7c4ed37e22053c.png)
 
 **Connect a VPC to an on-premises network by using an Express Connect circuit**
 
@@ -1986,7 +1986,7 @@ The following figure shows that a VPC is connected to an on-premises network by 
   | --- | --- | --- |
   | 172.16.0.0/12 | On-premises gateway | On-premises gateway device |
 
-  ![](assets/0e2b19d5b2a05db69caac109a0948c75.png)
+  ![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/0e2b19d5b2a05db69caac109a0948c75.png)
 
 **Connect a VPC to a data center by using a VPN gateway**
 
@@ -1996,7 +1996,7 @@ The following figure shows that a VPC, whose CIDR block is 172.16.0.0/12, is con
 | --- | --- | --- |
 | 192.168.0.0/16 | VPN gateway | The VPN gateway that you created |
 
-![](assets/f4c6bad778cc970c6c6ba5b52d04ff62.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/f4c6bad778cc970c6c6ba5b52d04ff62.png)
 
 <a id="section-6-2"></a>
 
@@ -2076,21 +2076,21 @@ On the **Route Tables** page, you can view the information about the route table
 
 - You can find an instance by entering a keyword or specifying filter conditions in an advanced search.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column name to perform an advanced sort on the list.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column name to perform an advanced sort on the list.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon in the **Route Table Type** column to filter route tables.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon in the **Route Table Type** column to filter route tables.
 
 - Click the VPC ID in the **VPC ID/Name** column of a route table to view the basic information about the VPC to which the route table belongs.
 
 - Click the vSwitch ID in the **Associated vSwitch ID/Name** column of a route table to view the basic information about the vSwitch to which the route table belongs.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name of a route table in the **Route Table ID/Name** column to
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name of a route table in the **Route Table ID/Name** column to
 
   modify the route table name.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the username in the **Creator** column to change the creator of the
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the username in the **Creator** column to change the creator of the
 
   route table.
 
@@ -2124,11 +2124,11 @@ On the **Route Tables** page, you can add tags to route tables to simply route t
 
      - In the **Basic Information** section, click the VPC ID next to the **VPC ID** parameter to view the basic information about the VPC to which the route table belongs.
 
-     - In the **Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Route Table Name**
+     - In the **Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Route Table Name**
 
        parameter to modify the name of the route table.
 
-     - In the **Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description** parameter
+     - In the **Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description** parameter
 
        to modify the description of the route table.
 
@@ -2181,7 +2181,7 @@ A VPC and a vSwitch are created. For more information, see Create a VPC with an 
        <td>Select a next hop type.<br>• If you set the <strong>Destination CIDR Block</strong> parameter to <strong>IPv4 CIDR Block</strong>, you can select one of the following types of next hops:<br>• <strong>ECS Instance</strong>: routes the traffic destined for the specified CIDR block to the specified Elastic Compute Service (ECS) instance. Select this option if you want to route traffic to a specific ECS instance for centralized traffic forwarding and management. For example, you can configure an ECS instance as the Internet-facing gateway to route traffic from other ECS instances to the Internet.<br>• <strong>Highly-availability Virtual IP Address</strong>: routes the traffic destined for the specified CIDR block to the specified high-availability virtual IP address (HAVIP).<br>• <strong>VPN Gateway</strong>: routes the traffic destined for the specified CIDR block to the specified VPN gateway.<br>• <strong>NAT Gateway</strong>: routes the traffic destined for the specified CIDR block to the specified NAT gateway.<br>• <strong>ENI</strong>: routes the traffic destined for the specified CIDR block to the specified secondary elastic network interface (ENI).<br>• <strong>Router Interface (VPC Direction)</strong>: routes the traffic destined for the specified CIDR block to the specified VPC. Select this option if you want to connect to a VPC over an Express Connect circuit.<br>• <strong>Router Interface (Border Router Direction)</strong>: routes the traffic destined for the specified CIDR block to the router interface associated with the specified virtual border router (VBR). Select this option if you want to connect to a data center over an Express Connect circuit.<br>If you select Router Interface (Border Router Direction), you must also select a routing mode. Valid values:<br>• <strong>General Route</strong>: allows you to select an associated router interface.<br>• <strong>Active/Standby Routes</strong>: allows you to select two instances as the next hops. The active route has a weight of 100, and the standby route has a weight of 0. The standby route takes over if the active route fails health checks.<br>• <strong>Load-Balancing Routes</strong>: allows you to select two to eight instances as the next hops. The instances must have the same weight, which must be an integer from 0 to 255. Network traffic is evenly distributed to the next hops.<br>• <strong>Transit Router</strong>: routes the traffic destined for the specified CIDR block to the specified transit router.<br>• If you set the <strong>Destination CIDR Block</strong> parameter to <strong>IPv6 CIDR Block</strong>, you can select one of the following types of next hops:<br>• (<strong>Custom route tables only</strong>) <strong>IPv6 Gateway</strong>: routes the traffic destined for the destination CIDR block to the specified IPv6 gateway.<br>• <strong>ENI</strong>: routes the traffic destined for the specified CIDR block to the specified secondary ENI.<br>• (<strong>System route tables only</strong>)<br><strong>Router Interface (VPC Direction)</strong>: routes the traffic destined for the specified CIDR block to the specified VPC. Select this option if you want to connect to a VPC over an Express Connect circuit.<br>• <strong>Router Interface (Border Router Direction)</strong>: routes the traffic destined for the specified CIDR block to the router interface associated with the specified virtual border router (VBR). Select this option if you want to connect to a data center over an Express Connect circuit.<br>If you select Router Interface (Border Router Direction), you must also select a</td>
      </tr>
      <tr>
-       <td colspan="2">routing mode. Valid values: After you configure the <strong>Next Hop Type</strong> parameter, you must select an instance as the next hop of<br>• <strong>General Route</strong>: allows you to select an associated router interface.the selected next hop type.<br>• <strong>Active/Standby Routes</strong>: allows you to select two instances as the next hops. The active route has a weight of 100, and the standby route has a Note weight of 0. The standby route takes over if the active route fails health<br>• You can enter a keyword or configure the advanced filter to search for the next hop thatchecks.you want to use.<br>• <strong>Load-Balancing Routes</strong>: allows you to select two to eight instances as the<br>• You can also click thenext hops. The instances must have the same weight, which must be anicon to create an instance as the next hop of the selected next integer from 0 to 255. Network traffic is evenly distributed to the next hops.<img src="assets/641a1c83774ba0c4ea596c4e6f1e0285.png" width="15" alt=""><br>hop type.<br>• If you select <strong>Router Interface (Border Router Direction)</strong> as <strong>Next Hop Type</strong> and <strong>Active/Standby Routes</strong> as <strong>Router Interface (Border Router Direction)</strong>, you can select two instances as the <strong>primary and secondary</strong> next hops.<br>• If you select <strong>Router Interface (Border Router Direction)</strong> as <strong>Next Hop Type</strong> and <strong>Load-Balancing Routes</strong> as Router Interface (Border Router Direction), click <strong>Add Next</strong> <strong>Hop</strong>. In the Add Next Hop dialog box, configure the <strong>Routing</strong> and <strong>Weight</strong> parameters to select instances as the next hops.</td>
+       <td colspan="2">routing mode. Valid values: After you configure the <strong>Next Hop Type</strong> parameter, you must select an instance as the next hop of<br>• <strong>General Route</strong>: allows you to select an associated router interface.the selected next hop type.<br>• <strong>Active/Standby Routes</strong>: allows you to select two instances as the next hops. The active route has a weight of 100, and the standby route has a Note weight of 0. The standby route takes over if the active route fails health<br>• You can enter a keyword or configure the advanced filter to search for the next hop thatchecks.you want to use.<br>• <strong>Load-Balancing Routes</strong>: allows you to select two to eight instances as the<br>• You can also click thenext hops. The instances must have the same weight, which must be anicon to create an instance as the next hop of the selected next integer from 0 to 255. Network traffic is evenly distributed to the next hops.<img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/641a1c83774ba0c4ea596c4e6f1e0285.png" width="15" alt=""><br>hop type.<br>• If you select <strong>Router Interface (Border Router Direction)</strong> as <strong>Next Hop Type</strong> and <strong>Active/Standby Routes</strong> as <strong>Router Interface (Border Router Direction)</strong>, you can select two instances as the <strong>primary and secondary</strong> next hops.<br>• If you select <strong>Router Interface (Border Router Direction)</strong> as <strong>Next Hop Type</strong> and <strong>Load-Balancing Routes</strong> as Router Interface (Border Router Direction), click <strong>Add Next</strong> <strong>Hop</strong>. In the Add Next Hop dialog box, configure the <strong>Routing</strong> and <strong>Weight</strong> parameters to select instances as the next hops.</td>
      </tr>
      <tr>
        <td>Remarks</td>
@@ -2211,7 +2211,7 @@ You can export route entries from a route table for backup.
 
    - You can search for route entries by **destination CIDR block**.
 
-   - Find the route entry that you want to manage and click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the CIDR block
+   - Find the route entry that you want to manage and click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the CIDR block
 
      in the **Destination CIDR Block** column. In the Modify dialog box, enter a new name for the route entry.
 
@@ -2219,7 +2219,7 @@ You can export route entries from a route table for backup.
 
    - Click the instance ID in the **Next Hop (Instance ID/Instance Name/IP Address)** column to view the next hop.
 
-   - Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the description in the **Remarks** column to modify the description
+   - Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the description in the **Remarks** column to modify the description
 
      of a custom route entry.
 
@@ -2319,7 +2319,7 @@ A vSwitch is a basic network device in a VPC and provides network isolation and 
 >
 > You can deploy cloud resources of different security levels or features in different subnets. This enhances the flexibility, security, and efficiency of network management. By default, the subnets in a VPC can communicate with each other.
 
-![](assets/5085acd633068cec15c35b48297d16f5.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/5085acd633068cec15c35b48297d16f5.png)
 
 <a id="section-7-2"></a>
 
@@ -2425,7 +2425,7 @@ On the **vSwitches** page, you can view the information about vSwitches.
 
 > **Note**
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Zone** column to filter vSwitches by zone.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Zone** column to filter vSwitches by zone.
 
 - Click the VPC ID in the **VPC ID/Name** column of a vSwitch to view the basic information about the VPC to which the vSwitch belongs.
 
@@ -2433,7 +2433,7 @@ On the **vSwitches** page, you can view the information about vSwitches.
 
 - Click an ID in the **Network ACL ID/Name** column to view the network access control list (ACL) associated with the vSwitch.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name of a vSwitch in the **vSwitch ID/Name** column to modify
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name of a vSwitch in the **vSwitch ID/Name** column to modify
 
   the vSwitch name.
 
@@ -2501,11 +2501,11 @@ You can delete a vSwitch that you no longer need. After you delete a vSwitch, yo
 
      - In the **vSwitch Basic Information** section, click the VPC ID next to the **VPC ID** parameter to view the basic information about the VPC to which the vSwitch belongs.
 
-     - In the **vSwitch Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **vSwitch**
+     - In the **vSwitch Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **vSwitch**
 
        **Name** parameter to modify the name of the vSwitch.
 
-     - In the **vSwitch Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description**
+     - In the **vSwitch Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description**
 
        parameter to modify the description of the vSwitch.
 
@@ -2636,7 +2636,7 @@ The following figure shows how network ACLs and security groups are applied to e
 
 The following flowchart shows how to use a network ACL.
 
-![](assets/15b2dbfddb3baa89d0336ad3c34b4b2d.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/15b2dbfddb3baa89d0336ad3c34b4b2d.png)
 
 <a id="section-8-2"></a>
 
@@ -2719,7 +2719,7 @@ On the **Network ACLs** page, you can view the information about the created net
 
 - Click the number in the **Network ACL Rules** column of a network ACL to view the inbound and outbound rules of the network ACL. The number indicates the total number of inbound and outbound rules of the network ACL.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to a network ACL name in the **Network ACL ID/Name** column to
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to a network ACL name in the **Network ACL ID/Name** column to
 
   modify the network ACL name.
 
@@ -2753,11 +2753,11 @@ You can delete a network ACL that is no longer needed.
 
      - In the **Network ACL Basic Information** section, click the **VPC ID** to view the basic information about the VPC to which the network ACL belongs.
 
-     - In the **Network ACL Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Network**
+     - In the **Network ACL Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Network**
 
        **ACL Name** parameter to modify the name of the network ACL.
 
-     - In the **Network ACL Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the
+     - In the **Network ACL Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the
 
        **Description** parameter to modify the description of the network ACL.
 
@@ -2951,7 +2951,7 @@ A network ACL is created. For more information, see Create a network ACL.
    | Priority | The priority of the inbound rule. A smaller value indicates a higher priority. |
    | Strategy | The authorization policy of the inbound rule. Valid values:<br>• <strong>Allow</strong> (default): accepts network traffic that is destined for the ECS instances connected to the vSwitch.<br>• <strong>Deny</strong>: drops network traffic that is destined for the ECS instances connected to the vSwitch. |
    | Protocol Type | The protocol type of the inbound rule. Valid values:<br>• all<br>• icmp<br>• gre<br>• tcp<br>• udp |
-   | Source Address | The source CIDR block from which data is transmitted.<br>![](assets/8165b28d4735fc4c7135bdfad03fbee0.png)<br>Default value: <code>0.0.0.0/32</code>. |
+   | Source Address | The source CIDR block from which data is transmitted.<br>![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/8165b28d4735fc4c7135bdfad03fbee0.png)<br>Default value: <code>0.0.0.0/32</code>. |
    | Destination Port Range | The destination port range<br>in the Port number/Port number format. Valid values of port number: 1 to 65535.Examples: 1/200 and 80/80. Do not set the value to -1/-1 because -1/-1 indicates that all ports are allowed.<br>Note<br>You can configure the <strong>Destination Port Range</strong> parameter only if the <strong>Protocol Type</strong> parameter is set to <strong>tcp</strong> or <strong>udp</strong>. |
 
 **Manage inbound rules**
@@ -2995,7 +2995,7 @@ A network ACL is created. For more information, see the "Create a network ACL" s
    | Priority | The priority of the rule. A smaller value indicates a higher priority. |
    | Rule Name | The name of the rule.<br>The name must be 2 to 128 characters in length, and can contain letters, digits, underscores (_), and hyphens (-). The name must start with a letter. |
    | Protocol | The protocol of the inbound rule. Valid values:<br>• <strong>all</strong>: all protocols<br>• <strong>icmp</strong>: Internet Control Message Protocol (ICMP)<br>• <strong>gre</strong>: Generic Routing Encapsulation (GRE)<br>• <strong>tcp</strong>: TCP<br>• <strong>udp</strong>: UDP |
-   | Source Address | The source CIDR block from which data is transmitted.<br>![](assets/c67518e22babec0b7f563a339778bcb8.png)<br>Default value: <code>0.0.0.0/32</code>. |
+   | Source Address | The source CIDR block from which data is transmitted.<br>![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/c67518e22babec0b7f563a339778bcb8.png)<br>Default value: <code>0.0.0.0/32</code>. |
    | Destination Port Range | The destination port range.<br>Enter the port range in the port number/port number format. Valid values of port number: 1 to 65535. Examples: 1/200 and 80/80. Do not set the value to -1/-1 because -1/-1 means that all ports are allowed.<br>Note<br>You can configure the <strong>Destination Port Range</strong> parameter only if the <strong>Protocol</strong> parameter is set to <strong>tcp</strong> or <strong>udp</strong>. |
    | Strategy | The action of the inbound rule. Default value: <strong>Allow</strong>. Valid values:<br>• <strong>Allow</strong>: accepts network traffic that is destined for the ECS instances connected to the vSwitch.<br>• <strong>Deny</strong>: blocks network traffic that is destined for the ECS instances connected to the vSwitch. |
 
@@ -3031,7 +3031,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console 
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -3238,7 +3238,7 @@ An elastic IP address (EIP) is an IP address that can be created as an independe
 
    icon in the upper-right corner of the **EIP**
 
-   <img src="assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt="">
+   <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt="">
 
    page. In the dialog box that appears, select the columns that you want to export, such as Instance ID, Organization, and Resource Set, and click **OK** to export the information about the existing EIPs.
 
@@ -3252,19 +3252,19 @@ On the **EIP** page, you can view the information about the existing EIPs.
 
 - You can find an instance by entering a keyword or specifying filter conditions in an advanced search.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column name to perform an advanced sort on the list.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column name to perform an advanced sort on the list.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **IP Status** column to filter EIPs by status. You can select one or
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **IP Status** column to filter EIPs by status. You can select one or
 
   more filter conditions.
 
 - Click the instance ID in the **Associated Instance Type/ID** column of an EIP. On the page that appears, view the basic information about the instance with which the EIP is associated.
 
-- Click the <img src="assets/f667f92bd1d343538137c80359726c61.png" width="17" alt=""> icon in the **Monitoring** column of an EIP to view the monitoring information
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/f667f92bd1d343538137c80359726c61.png" width="17" alt=""> icon in the **Monitoring** column of an EIP to view the monitoring information
 
   about the EIP.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to a EIP name in the **EIP ID/Name** column to modify the EIP name.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to a EIP name in the **EIP ID/Name** column to modify the EIP name.
 
 **Manage tags**
 
@@ -3493,7 +3493,7 @@ You can monitor the status of an elastic IP address (EIP) to find abnormal monit
 
 NAT gateways are enterprise-class gateways that provide the Source Network Address Translation (SNAT) and Destination NAT (DNAT) features. Each NAT gateway provides a throughput capacity of up to 10 Gbit/s. NAT gateways also support cross-zone disaster recovery.
 
-![](assets/cd1bb7d7f8b443af570a0cb33f0797c3.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/cd1bb7d7f8b443af570a0cb33f0797c3.png)
 
 **Features**
 
@@ -3679,11 +3679,11 @@ On the **NAT Gateways** page, you can view the information about the NAT gateway
 
 - You can find an instance by entering a keyword or specifying filter conditions in an advanced search.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column name to perform an advanced sort on the list.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column name to perform an advanced sort on the list.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon in the **Specification/Type** column to filter NAT gateways by
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon in the **Specification/Type** column to filter NAT gateways by
 
   specifications.
 
@@ -3693,15 +3693,15 @@ On the **NAT Gateways** page, you can view the information about the NAT gateway
 
 - Click an IP address in the **EIP** column of a NAT gateway to view the basic information about the EIP that is associated with the NAT gateway.
 
-- Click the <img src="assets/a21e02ad78aa87997aa705c8a24a6288.png" width="21" alt=""> icon in the **Monitoring** column of a NAT gateway to view the monitoring
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/a21e02ad78aa87997aa705c8a24a6288.png" width="21" alt=""> icon in the **Monitoring** column of a NAT gateway to view the monitoring
 
   information about the NAT gateway.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name of a NAT gateway in the **NAT Gateway ID/Name** column
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name of a NAT gateway in the **NAT Gateway ID/Name** column
 
   of a NAT gateway to modify the NAT gateway name.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the sharing scope in the **Sharing Scope** column of a NAT gateway
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the sharing scope in the **Sharing Scope** column of a NAT gateway
 
   to modify the sharing scope of the NAT gateway.
 
@@ -3737,7 +3737,7 @@ You can delete a NAT gateway that you no longer need.
 >
 >   To forcibly delete a NAT gateway, you must select **Delete NAT Gateway and Its Associated Resources** in the **Force Delete** section in the **Delete** dialog box, and then click **Release**.
 
-1. On the **NAT Gateways** page, find the NAT gateway that you want to delete and choose <img src="assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt="">
+1. On the **NAT Gateways** page, find the NAT gateway that you want to delete and choose <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt="">
 
    **> Delete** in the **Actions** column.
 
@@ -3757,17 +3757,17 @@ You can delete a NAT gateway that you no longer need.
 
      - In the **Basic Information** section, click the **VPC ID** to view the basic information about the VPC to which the NAT gateway belongs.
 
-     - In the **Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **NAT Gateway Name**
+     - In the **Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **NAT Gateway Name**
 
        parameter to modify the name of the NAT gateway.
 
-     - In the **Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the description below the
+     - In the **Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the description below the
 
        **Description** parameter to modify the description of the NAT gateway.
 
      - In the **Specification Information** section, you can manage the specifications of the NAT gateway.
 
-       Click **Change Specifications** <img src="assets/bdb3eac1532491eae3bb5efa09595302.png" width="18" alt=""> . On the **Change Specifications** page, configure the
+       Click **Change Specifications** <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/bdb3eac1532491eae3bb5efa09595302.png" width="18" alt=""> . On the **Change Specifications** page, configure the
 
        **Specification** parameter and click **Confirm Order**.
 
@@ -3805,7 +3805,7 @@ Before you associate an EIP with a NAT gateway, make sure that the following req
 
 4. On the **NAT Gateways** page, find the NAT gateway that you want to manage and associate an EIP with it by using one of the following methods:
 
-   - Choose <img src="assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt=""> **> Associate EIP** in the **Actions** column.
+   - Choose <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt=""> **> Associate EIP** in the **Actions** column.
 
    - Click **Bind Immediately** in the **EIP** column.
 
@@ -3829,7 +3829,7 @@ If you do not want a NAT gateway to communicate with the Internet by using an EI
 
 3. In the top navigation bar, select the region in which you want to create a NAT gateway.
 
-4. On the **NAT Gateways** page, find the NAT gateway that you want to manage and choose <img src="assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt=""> **> Disassociate EIP** in the **Actions** column.
+4. On the **NAT Gateways** page, find the NAT gateway that you want to manage and choose <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt=""> **> Disassociate EIP** in the **Actions** column.
 
 5. In the **Disassociate EIP** dialog box, select the EIP that you want to disassociate, and click **OK**.
 
@@ -3956,7 +3956,7 @@ On the **SNAT** tab of the **NAT Gateway Details** page, you can view the inform
 
 - You can enter a keyword or configure filter conditions to search for the SNAT entry whose information you want to view.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the entry list. You can
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the entry list. You can
 
   also drag and drop the items to adjust their order.
 
@@ -4065,11 +4065,11 @@ You can associate an elastic IP address (EIP) or a NAT service plan with a NAT g
 
 2. In the **Basic Information** section, modify the information about the NAT service plan.
 
-   - Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Bandwidth Packet Name** parameter to modify the name of
+   - Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Bandwidth Packet Name** parameter to modify the name of
 
      the NAT service plan.
 
-   - Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description** parameter to modify the description of the NAT
+   - Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description** parameter to modify the description of the NAT
 
      service plan.
 
@@ -4143,7 +4143,7 @@ This topic describes how to monitor Virtual Private Cloud (VPC) resources by usi
 
      <li>
 
-     On the **NAT Gateways** page, click the <img src="assets/a21e02ad78aa87997aa705c8a24a6288.png" width="21" alt=""> icon in the **Monitor** column of the desired
+     On the **NAT Gateways** page, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/a21e02ad78aa87997aa705c8a24a6288.png" width="21" alt=""> icon in the **Monitor** column of the desired
 
      VPN gateway.
 
@@ -4185,7 +4185,7 @@ This topic describes how to monitor Virtual Private Cloud (VPC) resources by usi
 
 In the **Monitor** panel, you can create threshold-triggered alert rules. When the value of a metric exceeds the threshold, a notification is sent to you.
 
-1. On the **Monitor** page, click <img src="assets/78f72414c9a7f10ef477e56cbc3874bb.png" width="19" alt=""> next to a metric.
+1. On the **Monitor** page, click <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/78f72414c9a7f10ef477e56cbc3874bb.png" width="19" alt=""> next to a metric.
 
 2. In the **Create Alert Rule** dialog box, configure parameters and click **OK**.
 
@@ -4210,7 +4210,7 @@ In the **Monitor** panel, you can create threshold-triggered alert rules. When t
 
 IPv6 gateways route IPv6 traffic to and from virtual private clouds (VPCs). You can configure IPv6 Internet bandwidth and egress-only rules to control inbound and outbound IPv6 traffic.
 
-![](assets/66a63bafac9aa311ada7224c78dc1a02.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/66a63bafac9aa311ada7224c78dc1a02.png)
 
 **Features**
 
@@ -4367,13 +4367,13 @@ On the **IPv6 Gateways** page, you can view details of IPv6 gateways.
 
 - You can find an instance by entering a keyword or specifying filter conditions in an advanced search.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column name to perform an advanced sort on the list.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column name to perform an advanced sort on the list.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
 
 - Click the value in the **VPC ID/Name** column of an IPv6 gateway to view the basic information about the VPC to which the IPv6 gateway belongs.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the value in the **IPv6 Gateway ID/Name** column of an IPv6
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the value in the **IPv6 Gateway ID/Name** column of an IPv6
 
   gateway to modify the name of the IPv6 gateway.
 
@@ -4415,13 +4415,13 @@ If a VPC no longer needs to access or be accessed by IPv6 clients, you can delet
 
      - In the **Basic Information** section, click the VPC ID next to the **VPC ID** parameter to view the basic information about the VPC to which the IPv6 gateway belongs.
 
-     - In the **Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **IPv6 Gateway Name**
+     - In the **Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **IPv6 Gateway Name**
 
        parameter to modify the name of the IPv6 gateway.
 
        The name must be 2 to 128 characters in length, and can contain letters, digits, underscores (_), and hyphens (-). The name cannot start with  `http://`  or  `https://` .
 
-     - In the **Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description** parameter
+     - In the **Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description** parameter
 
        to modify the description of the IPv6 gateway.
 
@@ -4585,13 +4585,13 @@ HAVIPs support flexible configurations in the following scenarios:
 
   In the following figure, two ECS instances are associated with the same HAVIP. Keepalived is configured for the ECS instances to provide an internal-facing high-availability service. Other instances in the same virtual private cloud (VPC) can access the service. The HAVIP serves as the service address. If the primary ECS instance is down, the secondary ECS instance takes over. This improves the availability of the service.
 
-  ![](assets/2c897cebd98f66ee3a6ce69b4fb4c176.png)
+  ![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/2c897cebd98f66ee3a6ce69b4fb4c176.png)
 
 - Scenario 2: Internet-facing high-availability services
 
   In the following figure, two ECS instances are associated with the same HAVIP. Keepalived is configured and the HAVIP is associated with an elastic IP address (EIP) for the ECS instances to provide an Internet-facing high-availability service. The EIP that is associated with the HAVIP serves as the service address. If the primary ECS instance is down, the secondary ECS instance takes over. This improves the availability of the service.
 
-  ![](assets/ec2a4bc76b68af1858ae3772db1c1750.png)
+  ![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/ec2a4bc76b68af1858ae3772db1c1750.png)
 
 <a id="section-12-2"></a>
 
@@ -4693,9 +4693,9 @@ On the **HAVIP** page, you can view the information about the existing HAVIPs.
 
 - You can find an instance by entering a keyword or specifying filter conditions in an advanced search.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column name to perform an advanced sort on the list.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column name to perform an advanced sort on the list.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
 
 - Click the VPC ID in the **VPC ID/Name** column of an HAVIP to view the basic information about the VPC to which the HAVIP belongs.
 
@@ -4709,7 +4709,7 @@ On the **HAVIP** page, you can view the information about the existing HAVIPs.
 
 - Click **Unbind EIP** in the **Actions** column of an HAVIP to disassociate the HAVIP from an EIP.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to an HAVIP name in the **HAVIP ID/Name** column to modify the name
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to an HAVIP name in the **HAVIP ID/Name** column to modify the name
 
   of the HAVIP.
 
@@ -4751,11 +4751,11 @@ You can delete an HAVIP that is no longer needed.
 
      - In the **Basic Information** section, click the vSwitch ID next to the **vSwitch** parameter to view the basic information about the vSwitch to which the HAVIP belongs.
 
-     - In the **Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **HaVip Name**
+     - In the **Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **HaVip Name**
 
        parameter to modify the name of the HAVIP.
 
-     - In the **Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description** parameter
+     - In the **Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description** parameter
 
        to modify the description of the HAVIP.
 
@@ -4907,7 +4907,7 @@ You can attach the same HAVIP to two Elastic Compute Service (ECS) instances to 
 
 If you want to enable Internet access, you can associate an elastic IP address (EIP) with the HAVIP. After the EIP is associated with the HAVIP, the HAVIP can provide high-availability services over the Internet.
 
-![](assets/2cbd30764294f995af9d0c1f3a618579.png)
+![](en-vpc-user-guide-v3.18.6-2607-20260828.assets/2cbd30764294f995af9d0c1f3a618579.png)
 
 **Keepalived installation example**
 
@@ -5195,11 +5195,11 @@ On the **DHCP Options Sets** page, you can view the information about the create
 
 - You can find an instance by entering a keyword or specifying filter conditions in an advanced search.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
+- Click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon to the right of the **Status** column to filter instances by status.
 
 - In the **Associated VPC** column, click the number to view the VPCs associated with the DHCP options set.
 
-- In the **Instance ID/Name** column, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name of the DHCP options
+- In the **Instance ID/Name** column, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name of the DHCP options
 
   set to modify the name.
 
@@ -5239,13 +5239,13 @@ Before you delete a DHCP options set, make sure that the DHCP options set is dis
 
 2. On the **DHCP Options Set Details** page, you can perform the following operations to manage the DHCP options set.
 
-   - In the **Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Instance Name**
+   - In the **Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Instance Name**
 
      parameter to modify the name of the DHCP options set.
 
      The name must be 1 to 128 characters in length, and can contain letters, digits, underscores (_), and hyphens (-). The name must start with a letter.
 
-   - In the **Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description** parameter to
+   - In the **Basic Information** section, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description** parameter to
 
      modify the description of the DHCP options set.
 
@@ -5444,7 +5444,7 @@ Tags are used to mark instances. Each tag consists of a key and a value. Before 
 
      On the **Virtual Private Clouds** page, find the VPC to which you want to add tags and
 
-     click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the **Tag** column.
+     click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the **Tag** column.
 
      </li>
 
@@ -5517,13 +5517,13 @@ Tags are used to mark instances. Each tag consists of a key and a value. Before 
 
      On the **Virtual Private Clouds** page, find the VPC from which you want to remove
 
-     tags and click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the **Tag** column.
+     tags and click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the **Tag** column.
 
      </li>
 
      <li>
 
-     In the **Edit Tags** dialog box, click the <img src="assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt=""> icon next to the tag that you want to remove
+     In the **Edit Tags** dialog box, click the <img src="en-vpc-user-guide-v3.18.6-2607-20260828.assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt=""> icon next to the tag that you want to remove
 
      and then click **OK**.
 

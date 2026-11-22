@@ -40,21 +40,21 @@ Provide consistent
 
 - user experience
 
-![](assets/3ce20793666deda8aa1c0ffc37da53b6.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/3ce20793666deda8aa1c0ffc37da53b6.png)
 
-![](assets/4c980d1e78e68fc9c7c2b656df114570.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/4c980d1e78e68fc9c7c2b656df114570.png)
 
 Cloud
 
-![](assets/5c1edcb5c6299f334ba3d34e242120c8.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/5c1edcb5c6299f334ba3d34e242120c8.png)
 
 ACK Cluster
 
-![](assets/954e1d3ad8cee4d9256e7e800c309074.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/954e1d3ad8cee4d9256e7e800c309074.png)
 
-![](assets/89fd939759db0e606f937b3f1daf176f.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/89fd939759db0e606f937b3f1daf176f.png)
 
-![](assets/b2cfc015ca38fcf705e9bf51e424c70c.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/b2cfc015ca38fcf705e9bf51e424c70c.png)
 
 Alibaba
 
@@ -72,11 +72,11 @@ For more information about registered clusters, see the **Container Service for 
 
 Unified Control Plane
 
-![](assets/c2a1429ce58062f795f729d67d1e31a9.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/c2a1429ce58062f795f729d67d1e31a9.png)
 
-![](assets/235811de851c3707dc0395be123e8617.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/235811de851c3707dc0395be123e8617.png)
 
-![](assets/ff06e8e092a091be38e2f89e378c023a.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/ff06e8e092a091be38e2f89e378c023a.png)
 
 When running multiple Kubernetes clusters simultaneously, you can associate them with a multi-cluster fleet and manage all associated clusters through the unified control plane provided by the fleet.
 
@@ -164,21 +164,21 @@ This topic describes scenarios of Distributed Cloud Container Platform for Kuber
 
 Provide user experience
 
-![](assets/16f922c0119bf5edfaba79a1d3e2d1c0.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/16f922c0119bf5edfaba79a1d3e2d1c0.png)
 
-![](assets/a4b614083904f1f7237878b043906b6e.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/a4b614083904f1f7237878b043906b6e.png)
 
 Cloud
 
-![](assets/0a07b802dd8c9c168eacf8d3667336c4.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/0a07b802dd8c9c168eacf8d3667336c4.png)
 
 ACK Cluster
 
-![](assets/077ed3972ae8c125adb55867fa12fc03.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/077ed3972ae8c125adb55867fa12fc03.png)
 
-![](assets/d8d83dcff5b405d63ef3c411b035f8dc.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/d8d83dcff5b405d63ef3c411b035f8dc.png)
 
-![](assets/f958d3a9d400df9c8947a9369a0c6e42.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/f958d3a9d400df9c8947a9369a0c6e42.png)
 
 Alibaba
 
@@ -200,7 +200,7 @@ Scenario description
 
 Update
 
-![](assets/ae180dc699a4633add6df83365c75fda.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/ae180dc699a4633add6df83365c75fda.png)
 
 **repo**
 
@@ -208,13 +208,13 @@ Watch and Pull
 
 **Platform teams**
 
-![](assets/a77792e99adc77e5182df385cfab02dd.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/a77792e99adc77e5182df385cfab02dd.png)
 
 compare/sync
 
-![](assets/9f693269ad29da28340925d789d3bbab.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/9f693269ad29da28340925d789d3bbab.png)
 
-![](assets/15af8ed59304ab4247c8c945e44972ed.png)
+![](en-ack-ack-one-product-introduction-v3.18.6-2607-20260828.assets/15af8ed59304ab4247c8c945e44972ed.png)
 
 Cluster
 

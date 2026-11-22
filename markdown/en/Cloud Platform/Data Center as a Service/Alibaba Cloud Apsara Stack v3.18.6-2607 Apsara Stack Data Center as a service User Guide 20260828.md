@@ -1565,7 +1565,7 @@ This topic describes how to create a key pair in the Bare Metal Management Servi
 
    **> Sharing Settings**.
 
-   <img src="assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
+   <img src="en-dcas-user-guide-v3.18.6-2607-20260828.assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
 
    </li>
 
@@ -1675,7 +1675,7 @@ If you no longer need a key pair, you can delete the key pair. This topic descri
 
      **> Delete** in the **Actions**
 
-     <img src="assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
+     <img src="en-dcas-user-guide-v3.18.6-2607-20260828.assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
 
      column.
 
@@ -2440,7 +2440,7 @@ The following table describes the instance-level execution state of a command th
 
 A batch execution is a one-time execution in which a command is run on multiple instances. To better manage batch executions and recurring executions, you can manage the lifecycles of the executions based on the overall execution states, instance-level execution states, and execution-level states. The InvokeStatus parameter in API responses indicates the execution state of a command. The following figure shows the relationship among different execution states.
 
-![](assets/721543a54c9fdc855451097259fc9650.png)
+![](en-dcas-user-guide-v3.18.6-2607-20260828.assets/721543a54c9fdc855451097259fc9650.png)
 
 State of the first-time
 
@@ -2464,7 +2464,7 @@ Overall
 
 execution state
 
-![](assets/b5d2e57c52d54a12ffc1b292a98e3ab5.png)
+![](en-dcas-user-guide-v3.18.6-2607-20260828.assets/b5d2e57c52d54a12ffc1b292a98e3ab5.png)
 
 State of the first-time
 
@@ -2531,19 +2531,19 @@ execution
     </tr>
   </table>
 
-![](assets/bdd8094e5c8bf5467b02896d55b6c739.png)
+![](en-dcas-user-guide-v3.18.6-2607-20260828.assets/bdd8094e5c8bf5467b02896d55b6c739.png)
 
 The following figure shows the relationship between the overall execution states and the instance-level execution states of a one-time execution in which a command is run on multiple instances at the same time.
 
-![](assets/78aefc1a0fe5eec51ae88f7baada0fc0.png)
+![](en-dcas-user-guide-v3.18.6-2607-20260828.assets/78aefc1a0fe5eec51ae88f7baada0fc0.png)
 
-![](assets/3336ba8e820dd46bf0e145c3045a1732.png)
+![](en-dcas-user-guide-v3.18.6-2607-20260828.assets/3336ba8e820dd46bf0e145c3045a1732.png)
 
-![](assets/fac87e7685cc101379308d3cdf0c634e.png)
+![](en-dcas-user-guide-v3.18.6-2607-20260828.assets/fac87e7685cc101379308d3cdf0c634e.png)
 
-![](assets/4a2adbd4222bcc8c93da0da628e2f011.png)
+![](en-dcas-user-guide-v3.18.6-2607-20260828.assets/4a2adbd4222bcc8c93da0da628e2f011.png)
 
-![](assets/8ab70189b1a713d8a44925358a02b3de.png)
+![](en-dcas-user-guide-v3.18.6-2607-20260828.assets/8ab70189b1a713d8a44925358a02b3de.png)
 
 state on a single
 

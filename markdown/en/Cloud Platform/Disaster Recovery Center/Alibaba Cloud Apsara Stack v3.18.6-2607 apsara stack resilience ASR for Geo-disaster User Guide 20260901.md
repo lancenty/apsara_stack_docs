@@ -175,7 +175,7 @@ After you create a protection group, ASR for Geo-disaster Recovery establishes a
 
 **Feature description**
 
-![](assets/48154addd29aa93ce794f614c8ae6275.jpeg)
+![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/48154addd29aa93ce794f614c8ae6275.jpeg)
 
 | Feature module | Description |
 | --- | --- |
@@ -305,7 +305,7 @@ This topic describes how to log in to the ASR for Geo-disaster Recovery console.
 
 8. You are redirected to the ASR for Geo-disaster Recovery console. All data is displayed by cloud, organization, resource set, and region. The first time you log on to the console, you must configure disaster recovery relationships and cloud instances.
 
-   ![](assets/1f492a2579f05b93692babdcd444a1d4.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/1f492a2579f05b93692babdcd444a1d4.jpeg)
 
 <a id="section-1-2-3"></a>
 
@@ -611,7 +611,7 @@ The Overview page provides charts and numbers to show the disaster recovery (DR)
 
 When you log on to the ASR for Geo-disaster Recovery console for the first time, you are promoted to configure a primary cloud instance. See the following figure. All business data can be displayed by organization, resource set, or region.
 
-![](assets/bef1c919079f14add6a0314b926e610d.jpeg)
+![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/bef1c919079f14add6a0314b926e610d.jpeg)
 
 **Procedure**
 
@@ -621,9 +621,9 @@ When you log on to the ASR for Geo-disaster Recovery console for the first time,
 
 3. On the **Overview** page, you can view the following information:
 
-   ![](assets/5d1dda6e92a31ff1bb772cecfb2bd338.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/5d1dda6e92a31ff1bb772cecfb2bd338.jpeg)
 
-   ![](assets/a24d97fda0e7a5bcbb7fa78fe96372c1.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/a24d97fda0e7a5bcbb7fa78fe96372c1.jpeg)
 
 The following table describes the information that is displayed in each module of this page.
 
@@ -632,7 +632,7 @@ The following table describes the information that is displayed in each module o
 | Maximum Synchronization Latency Overview | Displays the maximum synchronization latency of each cloud service. |
 | Protection Group Overview | Displays the total number of protection groups, the number of abnormal protection groups, the total number of synchronization entities, and the number of abnormal entities. |
 | Disaster Recovery Plan Overview | Displays the total number of business disaster recovery plans and the total number of site disaster recovery plans. |
-| Synchronization Latency Distribution of Synchronized Entities | • Displays the synchronization latency distribution in a donut chart.You can click the<img src="assets/277f65bacd3d2c2e25fac31f6519c06b.png" width="10" alt="">icon next to the name of a cloud service to<br>switch between cloud services.<br>• Lists the names and latency values of TOP 6 Synchronization Latency Values of Synchronized Entities. You can move the pointer over the card and click <strong>View More</strong> to go to the Synchronized Entities page. |
+| Synchronization Latency Distribution of Synchronized Entities | • Displays the synchronization latency distribution in a donut chart.You can click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/277f65bacd3d2c2e25fac31f6519c06b.png" width="10" alt="">icon next to the name of a cloud service to<br>switch between cloud services.<br>• Lists the names and latency values of TOP 6 Synchronization Latency Values of Synchronized Entities. You can move the pointer over the card and click <strong>View More</strong> to go to the Synchronized Entities page. |
 | Disaster Recovery Plan Execution Data | Includes the <strong>Drill History</strong> and <strong>Failover Records</strong> tabs. The <strong>Drill</strong> <strong>History</strong> tab displays the latest drill status. The <strong>Failover Records</strong> tab displays the latest failover status. |
 | Protection Group Disaster Recovery Analysis | Lists the statuses of protection groups. You can click <strong>View More</strong> to go to the Protection Groups page. |
 
@@ -810,11 +810,11 @@ In the Apsara Uni-manager Management Console, you have created an ECS instance i
 
 0. Click **Configurations** in the **Actions** column of the SLB instance and click **Add Entry**.
 
-   ![](assets/7b57d09d70a5c621cdfe699c6170878e.png)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7b57d09d70a5c621cdfe699c6170878e.png)
 
 1. Configure the SLB listener port and traffic gateway port, and click **OK**.
 
-   ![](assets/ed3a589d65d803021d78db561f109681.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/ed3a589d65d803021d78db561f109681.jpeg)
 
 2. On the **Secondary Region** tab, click **Ingress Gateway for Traffic**.
 
@@ -892,7 +892,7 @@ A protection group is a group of resources on which disaster recovery is impleme
 
 4. On the **Create Protection Group** page, configure the parameters that are described in the following table.
 
-   ![](assets/6aba5f6afa3f03ee8670e9dc1ba1d243.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6aba5f6afa3f03ee8670e9dc1ba1d243.jpeg)
 
    **Section**
 
@@ -984,7 +984,7 @@ A protection group is a group of resources on which disaster recovery is impleme
 
 6. Add synchronization entities as prompted.
 
-   ![](assets/848e7178d396d36b31b62a72c06536c3.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/848e7178d396d36b31b62a72c06536c3.jpeg)
 
 > **Note**
 >
@@ -992,7 +992,7 @@ A protection group is a group of resources on which disaster recovery is impleme
 >
 > - If you select **Add and Not Start**, the protection group enters the Stopped state after it is created. In this case, no synchronization link is created in the background, and only the **Start Protection Group** operation can be performed on this protection group. If you do not select this check box, the protection group automatically enters the protected state after it is created.
 
-7. Click **OK**. The protection group is created. On the Protection Groups page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon
+7. Click **OK**. The protection group is created. On the Protection Groups page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon
 
    to view the status of the protection group.
 
@@ -1028,13 +1028,13 @@ You can view the details of a protection group to monitor protection entities in
 
 4. On the **Protection Group Details** page, find the entity that you want to manage and click
 
-   the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the Actions column. Then, you can perform the following operations:
+   the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the Actions column. Then, you can perform the following operations:
 
    - Click **Details**. On the Entity Details page, you can view the following information about the instances in the primary cloud and the secondary cloud: basic information, monitoring information about synchronization latency, information about additional configurations, and information about availability inspection.
 
-     ![](assets/8f1dee58ec38cb9ec057d4569b01bf64.jpeg)
+     ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/8f1dee58ec38cb9ec057d4569b01bf64.jpeg)
 
-     ![](assets/e9d49ad9d15f1b70bdeddf0af87aa61d.png)
+     ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e9d49ad9d15f1b70bdeddf0af87aa61d.png)
 
      > **Note**
      >
@@ -1366,7 +1366,7 @@ You can view the logs of a protection entity to identify and analyze the causes 
 
      Move the pointer over the value in the Synchronization Latency column to view the RPO.
 
-     ![](assets/eac3f33524f5e24f088a9fa17cf24ed5.jpeg)
+     ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/eac3f33524f5e24f088a9fa17cf24ed5.jpeg)
 
    - View the details of a protection entity.
 
@@ -1374,7 +1374,7 @@ You can view the logs of a protection entity to identify and analyze the causes 
 
      <li>
 
-     In the protection entity list, find the entity that you want to view, click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the
+     In the protection entity list, find the entity that you want to view, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the
 
      Actions column, and then click **View Details**.
 
@@ -1384,7 +1384,7 @@ You can view the logs of a protection entity to identify and analyze the causes 
 
      On the Entity Details page, view the details of the entity.
 
-     ![](assets/ff1dbe79f8390f2d219ef17b12e1ec2e.jpeg)
+     ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/ff1dbe79f8390f2d219ef17b12e1ec2e.jpeg)
 
      </li>
 
@@ -1396,11 +1396,11 @@ You can view the logs of a protection entity to identify and analyze the causes 
 
      <li>
 
-     In the protection entity list, find the entity that you want to view, click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the
+     In the protection entity list, find the entity that you want to view, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the
 
      Actions column, and then click **View Logs**. In the dialog box that appears, view the logs of the primary and secondary instances.
 
-     ![](assets/06bf8360e7b07c2f5ff6af15be1c6d47.jpeg)
+     ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/06bf8360e7b07c2f5ff6af15be1c6d47.jpeg)
 
      | Parameter | Description |
      | --- | --- |
@@ -1425,7 +1425,7 @@ You can move an instance to a different protection group. This is useful if your
 
 3. On the **Protection Groups** page, click the name of the target protection group, or click **Details** in the **Actions** column.
 
-4. On the **Protection Group Details** page, find the target instance, click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the
+4. On the **Protection Group Details** page, find the target instance, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the
 
    **Actions** column, and then click **Migrate Entity**.
 
@@ -1478,13 +1478,13 @@ The protection group is in the **Stop** state.
 
 2. In the left-side navigation pane, choose **DR for Business** > **Protection Groups**.
 
-3. Find a protection group in the **Stop** state, click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon on the right of the protection
+3. Find a protection group in the **Stop** state, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon on the right of the protection
 
    group, and then click **Start Protection Group**.
 
 4. On the **Select Instances** page, click **Next**.
 
-5. On the **Configure Priority and Resource Mapping** page, click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the Actions
+5. On the **Configure Priority and Resource Mapping** page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the Actions
 
    column and select **Configure** to configure synchronization information.
 
@@ -1512,7 +1512,7 @@ You can remove instances from a protection group if the instances no longer requ
 
 4. On the **Protection Group Details** page, click the **Protection Entity** tab.
 
-5. Find the instance that you want to delete, click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the **Actions** column, and then
+5. Find the instance that you want to delete, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the **Actions** column, and then
 
    click **Delete**.
 
@@ -1554,7 +1554,7 @@ This feature is supported by ApsaraDB RDS, PolarDB-X 2.0, ApsaraDB for MongoDB, 
 
 4. On the **Protection Group Details** page, find the instance that you want to manage, click
 
-   the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the Actions column, and then click **Modify Permission Granted to Read-**
+   the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the Actions column, and then click **Modify Permission Granted to Read-**
 
    **only Account**.
 
@@ -1582,7 +1582,7 @@ This operation is supported only by ApsaraDB RDS instances .
 
 4. On the **Protection Group Details** page, find the instance that you want to manage, click
 
-   the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the **Actions** column, and then click **Modify Privileged Account**.
+   the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the **Actions** column, and then click **Modify Privileged Account**.
 
 5. In the **Modify Privileged Accounts for Primary and Secondary Instances** dialog box, specify a username and a password for the instances on the primary and secondary sites and click **Modify**.
 
@@ -1606,7 +1606,7 @@ The instance is either an AsparaDB RDS instance or a PolarDB-X instance.
 
 4. On the **Protection Group Details** page, click the **Protected Entity** tab. Find the instance
 
-   ![](assets/75638deae26d2347f59b729a8af542b4.png)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/75638deae26d2347f59b729a8af542b4.png)
 
    that you want to manage, click the
 
@@ -1636,7 +1636,7 @@ This feature is supported by ApsaraDB RDS, PolarDB-X 2.0, and ApsaraDB for Mongo
 
 4. On the **Protection Group Details** page, click the **Protection Entity** tab, find the instance
 
-   ![](assets/75638deae26d2347f59b729a8af542b4.png)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/75638deae26d2347f59b729a8af542b4.png)
 
    that you want to modify, click the
 
@@ -1646,7 +1646,7 @@ This feature is supported by ApsaraDB RDS, PolarDB-X 2.0, and ApsaraDB for Mongo
 
 5. In the **Modify Synchronization Object** dialog box, select source objects and click the
 
-   <img src="assets/14cbe1d3b5ab37c29012100eb06f1e52.png" width="31" alt=""> icon to add them to the Selected Objects section.
+   <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/14cbe1d3b5ab37c29012100eb06f1e52.png" width="31" alt=""> icon to add them to the Selected Objects section.
 
 6. Click **OK**.
 
@@ -1674,12 +1674,12 @@ View the health score information of a protection group.
 
    | Item | Description |
    | --- | --- |
-   | Overall Health Status | The system displays the overall health score of the protection group on the right side of the basic information section, along with the number of alerts at the P1 (Critical), P2 (Warning), P3 (Minor), and P4 (Slight) levels.<br>![](assets/208a5ae5481ea5bb4329329fa283a394.jpeg) |
+   | Overall Health Status | The system displays the overall health score of the protection group on the right side of the basic information section, along with the number of alerts at the P1 (Critical), P2 (Warning), P3 (Minor), and P4 (Slight) levels.<br>![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/208a5ae5481ea5bb4329329fa283a394.jpeg) |
 
    <table>
      <tr>
        <td>Health Score</td>
-       <td>On the <strong>Health Score</strong> tab, view the detailed health score information of the protection group.<br>• <strong>Overall Health Score</strong>: Displays the overall health score, change from the previous day, 7-day average value, status compared to the previous day, and average health score.<br>• <strong>Recent 7-day Health Trends</strong>: Displays the health trend chart for the last 7 days.<br>• <strong>Key Metrics</strong>: Displays the key metrics for the health score.<br>• <strong>Instance Health Details</strong>: Displays the detailed health information of instances. Click <strong>Details</strong> in a check dimension to expand the detailed information of that dimension check.<br>• <strong>Point Deduction Details Traceability Table</strong>: Displays the detailed deduction information.<br><img src="assets/42692a0de10a55b3a050c79a5528234f.png" alt=""></td>
+       <td>On the <strong>Health Score</strong> tab, view the detailed health score information of the protection group.<br>• <strong>Overall Health Score</strong>: Displays the overall health score, change from the previous day, 7-day average value, status compared to the previous day, and average health score.<br>• <strong>Recent 7-day Health Trends</strong>: Displays the health trend chart for the last 7 days.<br>• <strong>Key Metrics</strong>: Displays the key metrics for the health score.<br>• <strong>Instance Health Details</strong>: Displays the detailed health information of instances. Click <strong>Details</strong> in a check dimension to expand the detailed information of that dimension check.<br>• <strong>Point Deduction Details Traceability Table</strong>: Displays the detailed deduction information.<br><img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/42692a0de10a55b3a050c79a5528234f.png" alt=""></td>
      </tr>
    </table>
 
@@ -1710,7 +1710,7 @@ Manage associated topology applications on the Topology Application Association 
    | Deploymen t Type | Select a deployment type. The system supports <strong>ECS</strong>, <strong>ACK</strong>, and <strong>Others</strong>. |
    | ECS Instance | This parameter is available only when you select <strong>ECS</strong> for Deployment Type. Select an ECS instance. |
 
-   ![](assets/ca6a39579cd5c5f52af4b5b5075aaabe.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/ca6a39579cd5c5f52af4b5b5075aaabe.jpeg)
 
    **EDAS Application**
 
@@ -1720,7 +1720,7 @@ Manage associated topology applications on the Topology Application Association 
    | EDAS Application | Select an EDAS application. |
    | Deploymen t Type | The deployment type is determined by the selected application and cannot be modified. |
 
-   ![](assets/fbe156d5b3050101442b6fd33b6df241.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/fbe156d5b3050101442b6fd33b6df241.jpeg)
 
 6. Click **OK**.
 
@@ -1748,25 +1748,25 @@ View the application-level disaster recovery topology of a protection group. The
 
 4. On the **Application Topology** tab of the **Protection Group Details** page, view the application-level disaster recovery topology.
 
-   ![](assets/bc5c79c010b735490bb38e19a3dd04d3.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/bc5c79c010b735490bb38e19a3dd04d3.jpeg)
 
    - Scroll the mouse wheel to zoom in or out on the topology.
 
    - The number displayed on a data center in the topology indicates the number of topology
 
-     applications associated with the current protection group. Click <img src="assets/0f627b1cbd685070c19920731f3d6bc5.png" width="14" alt=""> on the data center to
+     applications associated with the current protection group. Click <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/0f627b1cbd685070c19920731f3d6bc5.png" width="14" alt=""> on the data center to
 
      open the Edit Application dialog box and go to the application list to associate applications.
 
    - Click **In Carousel** in the lower-left corner of the topology to pause carousel playback. When paused, click **Suspend Carousel** to resume playback.
 
-   - Click <img src="assets/a6bd4e040403f1468bc936feabf1a570.png" width="19" alt=""> in the upper-right corner of the topology to enter or exit full-screen mode.
+   - Click <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/a6bd4e040403f1468bc936feabf1a570.png" width="19" alt=""> in the upper-right corner of the topology to enter or exit full-screen mode.
 
-   - Click <img src="assets/04deef53f81ffa49c84be55416e0eaee.png" width="22" alt=""> in the upper-right corner of the topology to expand the
+   - Click <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/04deef53f81ffa49c84be55416e0eaee.png" width="22" alt=""> in the upper-right corner of the topology to expand the
 
      **SynchronizationLatency** panel and view the latency of each synchronization entity.
 
-     ![](assets/93cc1ac8a0b0084f84283c290a9f6bae.jpeg)
+     ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/93cc1ac8a0b0084f84283c290a9f6bae.jpeg)
 
 <a id="section-1-5-1-3"></a>
 
@@ -1821,7 +1821,7 @@ This topic describes how to configure disaster recovery for ApsaraDB RDS instanc
 
 4. In the Select Instances step on the **Add synchronization entity** page, click the **ApsaraDB RDS** tab in the **Instance Type** section. In the entity list on the left, select the IDs of one or
 
-   more instances that you want to add and click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instances to the
+   more instances that you want to add and click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instances to the
 
    entity list on the right. Then, click **Next**.
 
@@ -1835,7 +1835,7 @@ This topic describes how to configure disaster recovery for ApsaraDB RDS instanc
 
 5. In the **Configure Priority and Resource Mapping** step, find the instance that you want
 
-   to manage, click the <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. In the
+   to manage, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. In the
 
    Synchronize Configuration dialog box, configure the parameters based on your business requirements and click **Next**. The following table describes the parameters.
 
@@ -1945,7 +1945,7 @@ This topic describes how to configure disaster recovery for ApsaraDB RDS instanc
        <td>The database and the related account of the ApsaraDB RDS instance at the primary or secondary site.<br>During a switchover, ASR for Geo-disaster Recovery grants the ApsaraDB RDS account read/write permissions by default.<br>If some ApsaraDB RDS accounts are read-only and you do not want them to be granted read/write permissions during a switchover, you can configure this parameter to filter out the read-only accounts.</td>
      </tr>
      <tr>
-       <td rowspan="4">Global Domain Name Settings<br><img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt=""><br>Note<br>This paramet er is required only if the Protecti on Group Mode paramet er is set to Active-<strong>active</strong>.</td>
+       <td rowspan="4">Global Domain Name Settings<br><img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt=""><br>Note<br>This paramet er is required only if the Protecti on Group Mode paramet er is set to Active-<strong>active</strong>.</td>
        <td>Record Name</td>
        <td>Enter a name for the value of the record.</td>
      </tr>
@@ -1967,7 +1967,7 @@ This topic describes how to configure disaster recovery for ApsaraDB RDS instanc
 
 6. After the configuration is complete, preview the configuration and click **OK**. On the
 
-   Protection Groups page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
+   Protection Groups page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
 
    > **Note**
    >
@@ -1996,7 +1996,7 @@ This topic describes how to configure disaster recovery for PolarDB-X V2.0 insta
 
 4. In the Select Instances step on the **Add synchronization entity** page, click the **PolarDB-X V2.0** tab in the **Instance Type** section. In the left-side entity list, select the IDs of one or
 
-   more instances that you want to add. Click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instances to the right-
+   more instances that you want to add. Click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instances to the right-
 
    side entity list. Click **Next**.
 
@@ -2006,7 +2006,7 @@ This topic describes how to configure disaster recovery for PolarDB-X V2.0 insta
 
 5. In the **Configure Priority and Resource Mapping** step, find the instance that you want
 
-   to manage, click the <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. In the
+   to manage, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. In the
 
    Synchronize Configuration dialog box, configure the parameters based on your business requirements and click **Next**. The following table describes the parameters.
 
@@ -2163,7 +2163,7 @@ This topic describes how to configure disaster recovery for PolarDB-X V2.0 insta
 
 6. After the configuration is complete, preview the configuration and click **OK**. On the
 
-   Protection Groups page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
+   Protection Groups page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
 
 > **Note**
 >
@@ -2195,7 +2195,7 @@ A PolarDB instance (local disk or shared storage) has been created in the Apsara
 
 5. From the storage type drop-down list, select **PolarDB Local Disk** or **PolarDB Shared Storage**.
 
-6. In the entity list on the left, select the target instance and click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to move it to
+6. In the entity list on the left, select the target instance and click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to move it to
 
    the entity list on the right. Then, click **Next**.
 
@@ -2205,7 +2205,7 @@ A PolarDB instance (local disk or shared storage) has been created in the Apsara
    >
    > - You cannot configure sync entities for read-only instances. Read-only instances are not displayed in the entity list.
 
-7. On the **Select Instance Priority and Resource Mapping** page, click the <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the
+7. On the **Select Instance Priority and Resource Mapping** page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the
 
    **Actions** column of the target instance and select **Configure**. Configure the parameters and click **Next**. The following table describes the parameters.
 
@@ -2363,7 +2363,7 @@ A PolarDB instance (local disk or shared storage) has been created in the Apsara
 
 8. After the configuration is complete, preview the settings. If the settings are correct, click
 
-   **Confirm**. On the protection group list page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the
+   **Confirm**. On the protection group list page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the
 
    protection group.
 
@@ -2393,7 +2393,7 @@ A PolarDB for PostgreSQL instance with local disks or shared storage has been cr
 
 5. In the **Storage Type** drop-down list, select **PolarDB Local Disk** or **PolarDB Shared Disk**. In the **Database Type** drop-down list, select a supported database engine.
 
-6. In the entity list on the left, select an instance ID and click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the
+6. In the entity list on the left, select an instance ID and click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the
 
    instance to the entity list on the right. Then, click **Next**.
 
@@ -2403,7 +2403,7 @@ A PolarDB for PostgreSQL instance with local disks or shared storage has been cr
    >
    > - You cannot configure synchronization entities for read-only instances. Read-only instances are not displayed in the entity list.
 
-7. On the **Select Instance Priority And Resource Mapping** page, click the <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the
+7. On the **Select Instance Priority And Resource Mapping** page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the
 
    **Actions** column for the target instance and select **Configure**. Configure the parameters and click **Next**. The following table describes the parameters.
 
@@ -2615,7 +2615,7 @@ A PolarDB for PostgreSQL instance with local disks or shared storage has been cr
 
 8. After completing the configuration, preview the settings. If they are correct, click **Confirm**.
 
-   On the protection group list page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection
+   On the protection group list page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection
 
    group.
 
@@ -2651,13 +2651,13 @@ Unless otherwise specified, the descriptions in this topic apply both to OSS 1.0
 
 4. In the Select Instances step on the **Add synchronization entity** page, click the **Object Storage Service** tab in the **Instance Type** section. In the entity list on the left, select the
 
-   IDs of one or more instances that you want to add and click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the
+   IDs of one or more instances that you want to add and click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the
 
    instances to the entity list on the right. Then, click **Next**.
 
 5. In the **Configure Priority and Resource Mapping** step, find the instance that you want
 
-   to manage, click the <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. In the
+   to manage, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. In the
 
    Synchronize Configuration dialog box, configure the parameters based on your business requirements and click **Next**. The following table describes the parameters.
 
@@ -2783,7 +2783,7 @@ Unless otherwise specified, the descriptions in this topic apply both to OSS 1.0
 
 6. After the configuration is complete, you can preview the configuration and click **OK**. On the
 
-   Protection Groups page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
+   Protection Groups page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
 
 > **Note**
 >
@@ -2816,9 +2816,9 @@ The procedure of configuring disaster recovery for MaxCompute and that for DataW
 
 4. In the Select Instances step on the **Add synchronization entity** page, click the **MaxCompute** tab in the **Instance Type** section. In the left-side entity list, select the
 
-   instance ID. Click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instance to the right-side entity list. Click **Next**.
+   instance ID. Click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instance to the right-side entity list. Click **Next**.
 
-5. In the **Configure Priority and Resource Mapping** step, find the instance, click the <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt="">
+5. In the **Configure Priority and Resource Mapping** step, find the instance, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt="">
 
    icon in the **Actions** column, and then click **Configure**. Configure the parameters based on your business requirements and click **Next**. The following table describes the parameters that you can configure.
 
@@ -2914,7 +2914,7 @@ The procedure of configuring disaster recovery for MaxCompute and that for DataW
 
 6. After the configuration is complete, preview the configurations and click **OK**. On the
 
-   Protection Groups page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
+   Protection Groups page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
 
 > **Note**
 >
@@ -2952,13 +2952,13 @@ This topic describes how to configure disaster recovery for the synchronization 
 
 4. In the Select Instances step on the **Add synchronization entity** page, click the **DNS (Multicloud Integration)** tab in the **Instance Type** section. Specify the domain name,
 
-   select one or more hosts in the entity list on the left, and click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to move the
+   select one or more hosts in the entity list on the left, and click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to move the
 
    hosts to the entity list on the right. Then, click **Next**.
 
 5. In the **Configure Priority and Resource Mapping** step, find the instance that you want
 
-   to manage, click the <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. The following
+   to manage, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. The following
 
    table describes the parameters that you can configure.
 
@@ -3038,7 +3038,7 @@ This topic describes how to configure disaster recovery for the synchronization 
 
 6. After the configuration is complete, preview the configurations and click **OK**. On the
 
-   Protection Groups page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
+   Protection Groups page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
 
    > **Note**
    >
@@ -3069,11 +3069,11 @@ This topic describes how to configure synchronization entities for DNS within Cl
 
 4. On the **Add Synchronization Entity** page, select **DNS within Cloud** for **Instance Type**.
 
-   Select the domain names from the list, click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to move them to the list on the
+   Select the domain names from the list, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to move them to the list on the
 
    right, and then click **Next** to go to the **Select Instance Priority and Resource Mapping** page.
 
-5. On the **Select Instance Priority and Resource Mapping** page, click <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> in the **Actions**
+5. On the **Select Instance Priority and Resource Mapping** page, click <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> in the **Actions**
 
    column of the target instance, select **Configure**, and then perform **Basic Configurations**, **DNS Record Configuration**, **Health Check Configuration**, and **Routing Rule Configuration** based on your business requirements. After you confirm the configurations, click **Submit**, and then click **Next**. The following table describes the parameters.
 
@@ -3213,7 +3213,7 @@ This topic describes how to configure synchronization entities for DNS within Cl
 
 6. After you complete the configurations, preview them. Confirm that the configurations are
 
-   correct and click **Submit**. On the protection group list page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the
+   correct and click **Submit**. On the protection group list page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the
 
    protection group status.
 
@@ -3243,11 +3243,11 @@ This topic describes how to configure disaster recovery for Message Queue, inclu
 
 4. In the Select Instances step on the **Add synchronization entity** page, click the **Message Queue** tab in the **Instance Type** section. In the left-side entity list, select the instance IDs,
 
-   click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instances to the right-side entity list, and then click **Next**.
+   click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instances to the right-side entity list, and then click **Next**.
 
 5. In the **Configure Priority and Resource Mapping** step, find the desired instance, click
 
-   the <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then select **Configure**. Configure **basic settings**
+   the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then select **Configure**. Configure **basic settings**
 
    and **select a topic** based on your business requirements, and then click **Next**. The following table describes the parameters that you can configure.
 
@@ -3279,7 +3279,7 @@ This topic describes how to configure disaster recovery for Message Queue, inclu
 
 6. After the configuration is complete, you can preview the configuration and click **OK**. On the
 
-   Protection Groups page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
+   Protection Groups page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
 
    > **Note**
    >
@@ -3307,11 +3307,11 @@ This topic describes the prerequisites and procedure for configuring disaster re
 
 4. On the **Add Synchronization Entity** page, set **Instance Type** to **Message Queue for Kafka**. In the entity list on the left, select the instance ID of the production site and click
 
-   the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to move the instance to the entity list on the right. Click **Next** to proceed to
+   the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to move the instance to the entity list on the right. Click **Next** to proceed to
 
    the **Select Instance Priority and Resource Mapping** page.
 
-5. On the **Select Instance Priority and Resource Mapping** page, click <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> in the **Actions**
+5. On the **Select Instance Priority and Resource Mapping** page, click <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> in the **Actions**
 
    column of the target instance and select **Configure**. Configure the **Basic Configurations** and **Select Message Topic** settings as required, and then click **Next**. The following table describes the configurations in detail.
 
@@ -3346,7 +3346,7 @@ This topic describes the prerequisites and procedure for configuring disaster re
 
 6. After the configuration is complete, you can preview the settings. If the settings are correct,
 
-   click **Confirm**. On the protection groups page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the
+   click **Confirm**. On the protection groups page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the
 
    protection group.
 
@@ -3379,13 +3379,13 @@ This topic describes how to configure disaster recovery for Configure disaster r
 
 4. In the Select Instances step on the **Add synchronization entity** page, click the **KVStore for Redis** tab in the **Instance Type** section. In the left-side entity list, select the IDs of one
 
-   or more instances that you want to add. Click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instances to the
+   or more instances that you want to add. Click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instances to the
 
    right-side entity list. Click **Next** to go to the **Configure Priority and Resource Mapping** step.
 
 5. In the **Configure Priority and Resource Mapping** step, find the instance that you want
 
-   to manage, click the <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. In the
+   to manage, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. In the
 
    Synchronize Configuration dialog box, configure the parameters based on your business requirements and click **Next**. The following table describes the parameters.
 
@@ -3455,7 +3455,7 @@ This topic describes how to configure disaster recovery for Configure disaster r
 
    <table>
      <tr>
-       <td rowspan="4">Global Domain Name Settings<br><img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt=""><br>Note<br>You must configur e this parame ter only if the mode of the protecti on group is active-active.</td>
+       <td rowspan="4">Global Domain Name Settings<br><img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt=""><br>Note<br>You must configur e this parame ter only if the mode of the protecti on group is active-active.</td>
        <td>Record Name</td>
        <td>The name for the value of the record. You can specify a custom name.</td>
      </tr>
@@ -3477,7 +3477,7 @@ This topic describes how to configure disaster recovery for Configure disaster r
 
 6. After the configuration is complete, preview the configuration and click **OK**. On the
 
-   Protection Groups page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
+   Protection Groups page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
 
    > **Note**
    >
@@ -3507,13 +3507,13 @@ This topic describes how to configure disaster recovery for ApsaraDB for MongoDB
 
 4. In the Select Instances step on the **Add synchronization entity** page, click the **ApsaraDB for MongoDB** tab in the **Instance Type** section. In the left-side entity list, select the IDs of
 
-   one or more instances that you want to add. Click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instances to the
+   one or more instances that you want to add. Click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instances to the
 
    right-side entity list. Click **Next** to go to the **Configure Priority and Resource Mapping** step.
 
 5. In the **Configure Priority and Resource Mapping** step, find the instance that you want
 
-   to manage, click the <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. In the
+   to manage, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. In the
 
    Synchronize Configuration dialog box, configure the parameters based on your business requirements and click **Next**. The following table describes the parameters.
 
@@ -3766,7 +3766,7 @@ This topic describes how to configure disaster recovery for ApsaraDB for MongoDB
 
 6. After the configuration is complete, preview the configuration and click **OK**. On the
 
-   Protection Groups page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
+   Protection Groups page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
 
    > **Note**
    >
@@ -3794,13 +3794,13 @@ This topic describes how to configure disaster recovery for Elastic Compute Serv
 
 4. In the Select Instances step on the **Add synchronization entity** page, click the **Elastic Compute Service** tab in the **Instance Type** section. In the left-side entity list, select the
 
-   instance ID. Click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instance to the right-side entity list. Click **Next**
+   instance ID. Click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add the instance to the right-side entity list. Click **Next**
 
    to go to the **Configure Priority and Resource Mapping** step.
 
 5. In the **Configure Priority and Resource Mapping** step, find the desired instance, click
 
-   the <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. In the Synchronize
+   the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. In the Synchronize
 
    Configuration dialog box, configure the parameters based on your business requirements and click **Next**. The following table describes the parameters.
 
@@ -3822,7 +3822,7 @@ This topic describes how to configure disaster recovery for Elastic Compute Serv
 
    **Basic Settings**
 
-   > <img src="assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
+   > <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b90af9531619bfc427e611d62e96a9ae.png" width="14" alt="">
    >
    > **Note**
    >
@@ -3902,7 +3902,7 @@ This topic describes how to configure disaster recovery for Elastic Compute Serv
 
 6. After the configuration is complete, preview the configuration and click **OK**. On the
 
-   Protection Groups page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
+   Protection Groups page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
 
    > **Note**
    >
@@ -3928,13 +3928,13 @@ You have created a DataHub instance and a topic each in the primary and secondar
 
 4. In the Select Instances step of the **Add synchronization entity** wizard, set **Instance Type** to **DataHub**.
 
-5. In the entity list on the left, select the desired instance ID and click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add
+5. In the entity list on the left, select the desired instance ID and click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt=""> icon to add
 
    the instance to the entity list on the right. Then, click **Next**.
 
 6. On the **Configure Priority and Resource Mapping** page, find the desired instance, click
 
-   the <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. Configure the parameters
+   the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> icon in the **Actions** column, and then click **Configure**. Configure the parameters
 
    based on your business requirements and click **Next**. The following table describes the parameters.
 
@@ -3994,7 +3994,7 @@ You have created a DataHub instance and a topic each in the primary and secondar
 
 7. After the configuration is complete, preview the configuration and click **OK**. On the
 
-   Protection Groups page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
+   Protection Groups page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the status of the protection group.
 
    > **Note**
    >
@@ -4022,13 +4022,13 @@ This topic describes the prerequisites and procedure for adding a synchronizatio
 
 4. On the **Add synchronization entity** page, set **Instance Type** to **Ingress Gateway AsrIngressGW**.
 
-5. In the entity list on the left, select the instance ID for the production site, click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt="">
+5. In the entity list on the left, select the instance ID for the production site, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt="">
 
    icon to move the instance to the entity list on the right, and click **Next**.
 
 6. On the **Configure Priority and Resource Mapping** page, in the **Actions** column of the
 
-   target instance, click <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> , and then select **Configure**. Configure the parameters and click
+   target instance, click <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> , and then select **Configure**. Configure the parameters and click
 
    **Next**. The following table describes the parameters.
 
@@ -4236,7 +4236,7 @@ This topic describes the prerequisites and procedure for adding a synchronizatio
 
 8. After you complete the configuration, preview it. If the configuration is correct, click
 
-   **Confirm**. On the protection group list page, click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the protection group
+   **Confirm**. On the protection group list page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the protection group
 
    status.
 
@@ -4260,11 +4260,11 @@ This topic describes how to add an API Gateway 2.0 sync entity to a protection g
 
 4. On the **Add Sync Entity** page, set **Instance Type** to **API Gateway**.
 
-5. In the entity list on the left, select the instance ID of the production site. Click the <img src="assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt="">
+5. In the entity list on the left, select the instance ID of the production site. Click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e1681eabed856e7bf3de7fcc25448b7d.png" width="36" alt="">
 
    icon to move the instance to the entity list on the right. Click **Next**.
 
-6. On the **Select Instance Priority and Resource Mapping** page, click <img src="assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> in the **Actions**
+6. On the **Select Instance Priority and Resource Mapping** page, click <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b13d62f54c40e82aa88c9d0722377948.png" width="12" alt=""> in the **Actions**
 
    column of the target instance and select **Configure**. Configure the settings as needed, and then click **Next**. The following table describes the configurations.
 
@@ -4324,7 +4324,7 @@ This topic describes how to add an API Gateway 2.0 sync entity to a protection g
 
 7. Review the configuration. If it is correct, click **Confirm**. On the protection group list page,
 
-   click the <img src="assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the protection group status.
+   click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dce1071899ab19bbbed081f66f36eef.png" width="20" alt=""> icon to view the protection group status.
 
    > **Note**
    >
@@ -4342,7 +4342,7 @@ You can fail over a protection group that you created.
 
 2. In the navigation pane on the left, choose **DR for Business** > **Protection Groups**.
 
-3. In the protection group list, find the protection group that you want to manage, click the <img src="assets/1ca1900381e1abe39bad1bc47211ebdb.png" width="16" alt="">
+3. In the protection group list, find the protection group that you want to manage, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/1ca1900381e1abe39bad1bc47211ebdb.png" width="16" alt="">
 
    icon in the Actions column, and then click **Switch**.
 
@@ -4454,7 +4454,7 @@ You can fail back a protection group that has been failed over.
 
 2. In the left-side navigation pane, choose **DR for Business** > **Protection Groups**.
 
-3. In the protection group list, find the desired protection group, click the <img src="assets/1ca1900381e1abe39bad1bc47211ebdb.png" width="16" alt=""> icon in the
+3. In the protection group list, find the desired protection group, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/1ca1900381e1abe39bad1bc47211ebdb.png" width="16" alt=""> icon in the
 
    Actions column, and then select **Start Switchback**.
 
@@ -4498,11 +4498,11 @@ If you want to temporarily stop the synchronization of a protection group or pro
 
 2. In the left-side navigation pane, choose **Disaster Recovery (DR) for Business** > **Protection Groups**.
 
-3. In the list of protection groups, click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon on the right of the protection group that
+3. In the list of protection groups, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon on the right of the protection group that
 
    you want to stop and then click **Stop Protection**.
 
-4. Click the name of the protection group. Alternatively, click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the Actions column
+4. Click the name of the protection group. Alternatively, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the Actions column
 
    of the protection group and then click **Details**. Confirm that the synchronization entities are in the **Stop** state.
 
@@ -4526,7 +4526,7 @@ After a failover, the state of a protection group becomes Protect Failed regardl
 
 3. Select **Protect Failed** from the **Protection Group Status** drop-down list. Click **Search**.
 
-4. In the list of protection groups, find the required protection group, click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the
+4. In the list of protection groups, find the required protection group, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the
 
    Actions column, and then click **Reprotection**.
 
@@ -4574,7 +4574,7 @@ All synchronization entities in the protection group are deleted, and the protec
 
    | Operation | Description |
    | --- | --- |
-   | Delete a single protection group | i. Click<img src="assets/77632c081791633636d2d94494cc7f10.png" width="19" alt="">in the <strong>Actions</strong> column of the protection group and select <strong>Delete</strong>.<br>ii. Click <strong>Delete</strong>. |
+   | Delete a single protection group | i. Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/77632c081791633636d2d94494cc7f10.png" width="19" alt="">in the <strong>Actions</strong> column of the protection group and select <strong>Delete</strong>.<br>ii. Click <strong>Delete</strong>. |
    | Delete multiple protection groups | i. In the protection group list, select the protection groups that you want to delete.<br>ii. Click <strong>Batch Delete</strong> below the list.<br>iii. Click <strong>Delete</strong>. |
 
 <a id="section-1-5-2"></a>
@@ -4611,7 +4611,7 @@ Plans can be categorized into failover or switchover plans and failback or switc
 
 - Failbacks and switchbacks are available only for a protection group whose synchronization direction is set to Backward. After a failback or switchback is performed, the synchronization direction of the protection group becomes forward.
 
-![](assets/097fabedff14b9c78856a079dafe40d2.png)
+![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/097fabedff14b9c78856a079dafe40d2.png)
 
 <a id="section-1-5-2-2"></a>
 
@@ -4705,7 +4705,7 @@ You have created a protection group. For more information, see Create a protecti
 
    <li>
 
-   Click <img src="assets/9baf84cc149907ed0d6c4de5830a7858.png" width="19" alt=""> to move the selected protection groups to the Selected Protection Groups
+   Click <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/9baf84cc149907ed0d6c4de5830a7858.png" width="19" alt=""> to move the selected protection groups to the Selected Protection Groups
 
    </li>
 
@@ -4745,8 +4745,8 @@ You have created a protection group. For more information, see Create a protecti
 
      | Operation | Description |
      | --- | --- |
-     | Modify failover/failback steps | a. Click<img src="assets/af75590cc1313f3ff38f2369e84304fe.png" width="13" alt="">to check whether the settings of After Failover Succeeded and<br>After Failover Failed meet your requirements.<br>• If yes, click <strong>Confirm</strong>.<br>• If no, proceed to the next step.<br>b. Set After Failover Succeeded and After Failover Failed as needed. Valid values:<br>• Immediately: The next operation is performed immediately after the failover succeeds.<br>• Waiting for Fixed Duration: The next operation is performed or the plan is terminated after the specified period of time elapses.<br>• Wait for Manual Operation: The subsequent operations must be manually performed after the failover succeeds or fails.<br>c. Click <strong>Confirm</strong>. |
-     | Delete the failover/failback step | a. Click<img src="assets/a50829d25080975e61935089bbf8c8c3.png" width="11" alt="">.<br>b. In the dialog box that appears, click <strong>OK</strong>. |
+     | Modify failover/failback steps | a. Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/af75590cc1313f3ff38f2369e84304fe.png" width="13" alt="">to check whether the settings of After Failover Succeeded and<br>After Failover Failed meet your requirements.<br>• If yes, click <strong>Confirm</strong>.<br>• If no, proceed to the next step.<br>b. Set After Failover Succeeded and After Failover Failed as needed. Valid values:<br>• Immediately: The next operation is performed immediately after the failover succeeds.<br>• Waiting for Fixed Duration: The next operation is performed or the plan is terminated after the specified period of time elapses.<br>• Wait for Manual Operation: The subsequent operations must be manually performed after the failover succeeds or fails.<br>c. Click <strong>Confirm</strong>. |
+     | Delete the failover/failback step | a. Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/a50829d25080975e61935089bbf8c8c3.png" width="11" alt="">.<br>b. In the dialog box that appears, click <strong>OK</strong>. |
      | Add manual checkpoints | a. In the <strong>Select Point</strong> section on the left side of the page, click <strong>Manual</strong> <strong>Checkpoint</strong>.<br>b. Click <strong>+ Add step</strong> at the bottom of the page.<br>c. Enter check items and select an operation from the After Start drop-down list.<br>d. Click <strong>Confirm</strong>. |
 
 7. In the **Confirm Information** step, check whether all settings are correct.
@@ -4771,15 +4771,15 @@ A disaster recovery plan is created. For more information, see Create a business
 
 2. In the left-side navigation pane, choose **DR for Business > Disaster Recovery Plan**.
 
-3. On the **Business Disaster Recovery Plan** page, enter a plan name and click <img src="assets/51971b4f411c3bbf88e338a5abe0c48b.png" width="15" alt=""> .
+3. On the **Business Disaster Recovery Plan** page, enter a plan name and click <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/51971b4f411c3bbf88e338a5abe0c48b.png" width="15" alt=""> .
 
-4. After the protection group that meets the conditions is displayed, click the <img src="assets/8e618f51115ac514b5799da725527652.png" width="17" alt=""> icon in the
+4. After the protection group that meets the conditions is displayed, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/8e618f51115ac514b5799da725527652.png" width="17" alt=""> icon in the
 
    **Actions** column and select **Configure Drill Metrics**.
 
 5. In the **Modify Expected Values of Drill Metrics** dialog box, click **Add Entry**, modify the values of the parameters, and click **OK**.
 
-   ![](assets/247ff221d9067c059a3b5248e40426f7.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/247ff221d9067c059a3b5248e40426f7.jpeg)
 
    > **Note**
    >
@@ -4804,8 +4804,8 @@ You can query a disaster recovery plan by production region, plan type, plan nam
    | Dimension | Condition |
    | --- | --- |
    | Plan Type | Select <strong>Drill Plan</strong> or <strong>Recovery Plan</strong> from the drop-down list. |
-   | Disaster Recovery Plan Name | Enter the name of the disaster recovery plan<br>that you want to query and click the<img src="assets/fdf059925eaeba01f4d213560fe06297.png" width="15" alt="">icon. |
-   | Disaster Recovery Plan ID | Enter the ID of the disaster recovery plan that<br>you want to query and click the<img src="assets/fdf059925eaeba01f4d213560fe06297.png" width="15" alt="">icon. |
+   | Disaster Recovery Plan Name | Enter the name of the disaster recovery plan<br>that you want to query and click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/fdf059925eaeba01f4d213560fe06297.png" width="15" alt="">icon. |
+   | Disaster Recovery Plan ID | Enter the ID of the disaster recovery plan that<br>you want to query and click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/fdf059925eaeba01f4d213560fe06297.png" width="15" alt="">icon. |
 
    > **Note**
    >
@@ -4861,7 +4861,7 @@ A recovery plan is created. For more information, see Create a business disaster
 
 3. In the list of business disaster recovery plans, find the plan that you want to manage, click
 
-   the <img src="assets/c947d3e984117c70c7c333ee1bbe75d0.png" width="19" alt=""> icon in the **Actions** column, and click **Start Failover**.
+   the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/c947d3e984117c70c7c333ee1bbe75d0.png" width="19" alt=""> icon in the **Actions** column, and click **Start Failover**.
 
    > **Note**
    >
@@ -4871,7 +4871,7 @@ A recovery plan is created. For more information, see Create a business disaster
 
 5. Go to the disaster recovery plan details page and execute the created plan steps one by one.
 
-   ![](assets/b18114a382dca9c935fea4dc2e9ffaee.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b18114a382dca9c935fea4dc2e9ffaee.jpeg)
 
    > **Note**
    >
@@ -4885,7 +4885,7 @@ A recovery plan is created. For more information, see Create a business disaster
 
 6. After the failover is complete, view the failover result on the **Historical Records** tab.
 
-   ![](assets/d369313caceab9f0c0b92579762835f2.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/d369313caceab9f0c0b92579762835f2.jpeg)
 
 <a id="section-1-5-2-6"></a>
 
@@ -4977,7 +4977,7 @@ This topic describes how to view drill records and disaster recovery records on 
 
    </ol>
 
-   names, and then click the <img src="assets/dd1b86c21241db90f3462403331ac20a.png" width="18" alt=""> icon.
+   names, and then click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/dd1b86c21241db90f3462403331ac20a.png" width="18" alt=""> icon.
 
    <ol type="i" start="3">
 
@@ -5013,7 +5013,7 @@ This topic describes how to view drill records and disaster recovery records on 
 
    </ol>
 
-   <img src="assets/dd1b86c21241db90f3462403331ac20a.png" width="18" alt=""> icon.
+   <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/dd1b86c21241db90f3462403331ac20a.png" width="18" alt=""> icon.
 
    <ol type="i" start="3">
 
@@ -5111,11 +5111,11 @@ The following table describes the operations that you can perform on the disaste
 
 | Operation | Procedure |
 | --- | --- |
-| Query the disaster recovery unit namespace | • Basic filter:<br>i. On the Disaster Recovery Unit Namespace page, select <strong>Protection Group</strong> or <strong>Disaster Recovery Unit Namespace</strong> from the drop-down list, and then enter the name of a protection group or the name of a disaster recovery unit namespace.<br>ii. Click the<img src="assets/62ebc455b0023f69e2dab4220c0c6b71.png" width="15" alt="">icon. The disaster recovery unit namespace that<br>meets the specified condition is displayed.<br>• Advanced filter:<br>• On the Disaster Recovery Unit Namespace page, click <strong>Advanced</strong> <strong>Filter</strong>.<br>• Enter the name of a disaster recovery unit namespace and the name of a protection group.<br>• Click <strong>Search</strong>. |
-| Refresh the list of disaster recovery unit namespaces | Click the<img src="assets/692b76f01a87fb9f44be370f21f33e87.png" width="16" alt="">icon in the upper-right corner of the Disaster Recovery<br>Unit Namespace page. |
-| Adjust the style for displaying the list of disaster recovery unit namespaces | Click the<img src="assets/8fc84c2f806b15165453d78492caabd5.png" width="17" alt="">icon in the upper-right corner of the Disaster Recovery<br>Unit Namespace page and select <strong>Default</strong> or <strong>Compact</strong> to switch the style for displaying the list of disaster recovery unit namespaces. |
-| Customize column fields for the list of disaster recovery unit namespaces | Click the<img src="assets/04e55c4ae291d1606d3e4a30d7b12a03.png" width="14" alt="">icon in the upper-right corner of the Disaster Recovery<br>Unit Namespace page and select the column fields that you want to display in the list. |
-| Display the list of disaster recovery unit namespaces in full screen | Click the<img src="assets/4dd2a998dc9540338b7b28f7ca1453b2.png" width="15" alt="">icon in the upper-right corner of the Disaster Recovery<br>Unit Namespace page. The list of disaster recovery unit namespaces is displayed in full screen. |
+| Query the disaster recovery unit namespace | • Basic filter:<br>i. On the Disaster Recovery Unit Namespace page, select <strong>Protection Group</strong> or <strong>Disaster Recovery Unit Namespace</strong> from the drop-down list, and then enter the name of a protection group or the name of a disaster recovery unit namespace.<br>ii. Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/62ebc455b0023f69e2dab4220c0c6b71.png" width="15" alt="">icon. The disaster recovery unit namespace that<br>meets the specified condition is displayed.<br>• Advanced filter:<br>• On the Disaster Recovery Unit Namespace page, click <strong>Advanced</strong> <strong>Filter</strong>.<br>• Enter the name of a disaster recovery unit namespace and the name of a protection group.<br>• Click <strong>Search</strong>. |
+| Refresh the list of disaster recovery unit namespaces | Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/692b76f01a87fb9f44be370f21f33e87.png" width="16" alt="">icon in the upper-right corner of the Disaster Recovery<br>Unit Namespace page. |
+| Adjust the style for displaying the list of disaster recovery unit namespaces | Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/8fc84c2f806b15165453d78492caabd5.png" width="17" alt="">icon in the upper-right corner of the Disaster Recovery<br>Unit Namespace page and select <strong>Default</strong> or <strong>Compact</strong> to switch the style for displaying the list of disaster recovery unit namespaces. |
+| Customize column fields for the list of disaster recovery unit namespaces | Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/04e55c4ae291d1606d3e4a30d7b12a03.png" width="14" alt="">icon in the upper-right corner of the Disaster Recovery<br>Unit Namespace page and select the column fields that you want to display in the list. |
+| Display the list of disaster recovery unit namespaces in full screen | Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4dd2a998dc9540338b7b28f7ca1453b2.png" width="15" alt="">icon in the upper-right corner of the Disaster Recovery<br>Unit Namespace page. The list of disaster recovery unit namespaces is displayed in full screen. |
 
 <a id="section-1-5-3-2"></a>
 
@@ -5135,7 +5135,7 @@ The disaster recovery unit namespace is bound to a protection group. For more in
 
 3. On the **Disaster Recovery Unit Namespace** page, find the desired disaster recovery unit namespace and click **Failover** in the **Actions** column.
 
-   ![](assets/3a4dc187dfea1de49b83e876b57df398.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3a4dc187dfea1de49b83e876b57df398.jpeg)
 
 4. In the message that appears, click **OK**.
 
@@ -5185,7 +5185,7 @@ On the Synchronization Entity page, view all synchronization entities of a speci
    >
    > - Click **Delete** in the Actions column of a synchronization entity to delete the synchronization entity. Select multiple synchronization entities and click **Batch Delete** below the list to delete the synchronization entities in batches.
 
-   ![](assets/e6effc3ff935a02b5d1d8d3f2765c9c8.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e6effc3ff935a02b5d1d8d3f2765c9c8.jpeg)
 
 <a id="section-1-6"></a>
 
@@ -5557,11 +5557,11 @@ After creating an alert rule, you can perform the following operations.
 
 | Task name | Procedure |
 | --- | --- |
-| Query alert rules | • Basic query<br>i. Select a filter by rule name, monitoring item, alert severity, or rule status, and then enter the corresponding query condition.<br>ii. Click<img src="assets/276b0eff90565352a4f4a7839eb99041.png" width="22" alt="">.<br>• Advanced filtering<br>i. Click <strong>Advanced Filter</strong>.<br>ii. Enter a rule name, and then select a monitoring item, an alert severity, and a rule status.<br>iii. Click <strong>Search</strong>.<br>Click <strong>Reset</strong> to clear the query conditions and refresh the alert rule list in ASR for Geo-disaster Recovery. |
-| View alert rule details | 1. On the <strong>Alert Rules</strong> list page, click<img src="assets/f9b0cfe221b4752b742bd5bacfef59f6.png" width="18" alt="">in the <strong>Operation</strong><br>column of an alert rule.<br>2. Click <strong>Details</strong>. |
-| Modify an alert rule | 1. On the <strong>Alert Rules</strong> list page, click<img src="assets/f9b0cfe221b4752b742bd5bacfef59f6.png" width="18" alt="">in the <strong>Operation</strong><br>column of an alert rule.<br>2. Click <strong>Modify</strong>.<br>3. After modification, click <strong>OK</strong> to apply the changes. |
-| Enable or stop an alert rule | 1. On the <strong>Alert Rules</strong> list page, click<img src="assets/f9b0cfe221b4752b742bd5bacfef59f6.png" width="18" alt="">in the <strong>Operation</strong><br>column of an alert rule.<br>2. Click <strong>Enable</strong> or <strong>Stop</strong>.<br>3. In the pop-up message, click <strong>OK</strong>. |
-| Delete an alert rule | 1. On the <strong>Alert Rules</strong> list page, click<img src="assets/f9b0cfe221b4752b742bd5bacfef59f6.png" width="18" alt="">in the <strong>Operation</strong><br>column of an alert rule.<br>2. Click <strong>Delete</strong>.<br>3. In the pop-up message, click <strong>OK</strong>. |
+| Query alert rules | • Basic query<br>i. Select a filter by rule name, monitoring item, alert severity, or rule status, and then enter the corresponding query condition.<br>ii. Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/276b0eff90565352a4f4a7839eb99041.png" width="22" alt="">.<br>• Advanced filtering<br>i. Click <strong>Advanced Filter</strong>.<br>ii. Enter a rule name, and then select a monitoring item, an alert severity, and a rule status.<br>iii. Click <strong>Search</strong>.<br>Click <strong>Reset</strong> to clear the query conditions and refresh the alert rule list in ASR for Geo-disaster Recovery. |
+| View alert rule details | 1. On the <strong>Alert Rules</strong> list page, click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/f9b0cfe221b4752b742bd5bacfef59f6.png" width="18" alt="">in the <strong>Operation</strong><br>column of an alert rule.<br>2. Click <strong>Details</strong>. |
+| Modify an alert rule | 1. On the <strong>Alert Rules</strong> list page, click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/f9b0cfe221b4752b742bd5bacfef59f6.png" width="18" alt="">in the <strong>Operation</strong><br>column of an alert rule.<br>2. Click <strong>Modify</strong>.<br>3. After modification, click <strong>OK</strong> to apply the changes. |
+| Enable or stop an alert rule | 1. On the <strong>Alert Rules</strong> list page, click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/f9b0cfe221b4752b742bd5bacfef59f6.png" width="18" alt="">in the <strong>Operation</strong><br>column of an alert rule.<br>2. Click <strong>Enable</strong> or <strong>Stop</strong>.<br>3. In the pop-up message, click <strong>OK</strong>. |
+| Delete an alert rule | 1. On the <strong>Alert Rules</strong> list page, click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/f9b0cfe221b4752b742bd5bacfef59f6.png" width="18" alt="">in the <strong>Operation</strong><br>column of an alert rule.<br>2. Click <strong>Delete</strong>.<br>3. In the pop-up message, click <strong>OK</strong>. |
 
 <a id="section-1-7-2"></a>
 
@@ -5647,7 +5647,7 @@ Before you can configure a protection group and a disaster recovery plan, you mu
 
 5. In the dialog box that appears, enter the AccessKey ID and AccessKey secret of the personal account you obtained.
 
-   ![](assets/c0f99cd15ce597f1165ef80f3ff5297c.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/c0f99cd15ce597f1165ef80f3ff5297c.jpeg)
 
    > **Note**
    >
@@ -5665,12 +5665,12 @@ The following table describes the operations that you can perform after the clou
 
 | Operation | Procedure |
 | --- | --- |
-| Query the cloud instance | 1. Select a cloud instance state from the Status drop-down list.<br>2. Select the Instance Name or Instance ID drop-down list and enter a cloud instance name or cloud instance ID.<br>3. Click the<img src="assets/cae3bbf12a4cbc0319cb9d8c17a0be50.png" width="16" alt="">icon. |
+| Query the cloud instance | 1. Select a cloud instance state from the Status drop-down list.<br>2. Select the Instance Name or Instance ID drop-down list and enter a cloud instance name or cloud instance ID.<br>3. Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/cae3bbf12a4cbc0319cb9d8c17a0be50.png" width="16" alt="">icon. |
 | Modify the cloud instance | 1. Find the disaster recovery region and click <strong>Edit</strong> in the <strong>Actions</strong> column.<br>2. In the Edit Instance dialog box, modify the AccessKey ID and AccessKey secret and click <strong>Submit</strong>. |
 | Delete the cloud instance | 1. Click <strong>Delete</strong> in the <strong>Actions</strong> column.<br>2. In the message that appears, click <strong>Delete</strong>. |
-| Refresh the cloud instance list | Click the<img src="assets/692b76f01a87fb9f44be370f21f33e87.png" width="16" alt="">icon in the upper-right corner of the All Instances<br>section. |
-| Adjust the display style of the cloud instance list | In the upper-right corner of the All Instances section, click the<img src="assets/8fc84c2f806b15165453d78492caabd5.png" width="17" alt=""><br>icon and select <strong>Default</strong> or <strong>Compact</strong> to display the cloud instance list in the corresponding style. |
-| Customize column fields for the cloud instance list | In the upper-right corner of the All Instances section, click the<img src="assets/04e55c4ae291d1606d3e4a30d7b12a03.png" width="14" alt="">icon<br>and clear the fields that you do not want to display in the list. |
+| Refresh the cloud instance list | Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/692b76f01a87fb9f44be370f21f33e87.png" width="16" alt="">icon in the upper-right corner of the All Instances<br>section. |
+| Adjust the display style of the cloud instance list | In the upper-right corner of the All Instances section, click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/8fc84c2f806b15165453d78492caabd5.png" width="17" alt=""><br>icon and select <strong>Default</strong> or <strong>Compact</strong> to display the cloud instance list in the corresponding style. |
+| Customize column fields for the cloud instance list | In the upper-right corner of the All Instances section, click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/04e55c4ae291d1606d3e4a30d7b12a03.png" width="14" alt="">icon<br>and clear the fields that you do not want to display in the list. |
 
 <a id="section-1-8-2"></a>
 
@@ -5696,7 +5696,7 @@ Disaster recovery relationships are of two types:
 
 3. On the **Disaster Recovery Relationship Management** page, click **Add Disaster Recovery Relationship**.
 
-   ![](assets/89931f1a4bb1aa84f7cb6ece27d3b81b.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/89931f1a4bb1aa84f7cb6ece27d3b81b.jpeg)
 
    > **Note**
    >
@@ -5772,7 +5772,7 @@ Operation logs record information about all operations in the system. These oper
 
 2. In the left-side navigation pane, choose **System Management** > **Logs**.
 
-   ![](assets/c4a5f206b38646ad4eb2d5f385ffc0bf.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/c4a5f206b38646ad4eb2d5f385ffc0bf.jpeg)
 
    | Column | Description |
    | --- | --- |
@@ -5816,17 +5816,17 @@ Hybrid cloud disaster recovery refers to disaster recovery between Apsara Stack 
 
 2. In the left-side navigation pane, choose **System Management > Hybrid Disaster Recovery**.
 
-   ![](assets/7c9e8399bfd688749ef8ad0a79465780.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7c9e8399bfd688749ef8ad0a79465780.jpeg)
 
 3. On the page that appears, click **Add Instance**, select the cloud instances that you want to add, and then click **Next**.
 
-   ![](assets/65d9b20156b32b6e17287a2e5d3f60a1.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/65d9b20156b32b6e17287a2e5d3f60a1.jpeg)
 
 4. Select an organization and a resource set from the drop-down lists and click **Submit**.
 
 5. In the dialog box that appears, enter the AccessKey ID and AccessKey secret of the personal account you obtained.
 
-   ![](assets/b69b352a820ec7dc11ed5a8c0e17ff29.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b69b352a820ec7dc11ed5a8c0e17ff29.jpeg)
 
    > **Note**
    >
@@ -5844,11 +5844,11 @@ The following table describes the operations that you can perform after the hybr
 
 | Operation | Description |
 | --- | --- |
-| Query the cloud instance | 1. Select a cloud instance state from the Status drop-down list.<br>2. Select the Instance Name or Instance ID drop-down list and enter a cloud instance name or cloud instance ID.<br>3. Click the<img src="assets/cae3bbf12a4cbc0319cb9d8c17a0be50.png" width="16" alt="">icon. |
+| Query the cloud instance | 1. Select a cloud instance state from the Status drop-down list.<br>2. Select the Instance Name or Instance ID drop-down list and enter a cloud instance name or cloud instance ID.<br>3. Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/cae3bbf12a4cbc0319cb9d8c17a0be50.png" width="16" alt="">icon. |
 | Delete the cloud instance | 1. Find the disaster recovery region and click <strong>Delete</strong> in the <strong>Actions</strong> column.<br>2. In the message that appears, click <strong>Delete</strong>. |
-| Refresh the cloud instance list | Click the<img src="assets/692b76f01a87fb9f44be370f21f33e87.png" width="16" alt="">icon in the upper-right corner of the All Instances<br>section. |
-| Adjust the display style of the cloud instance list | In the upper-right corner of the All Instances section, click the<img src="assets/8fc84c2f806b15165453d78492caabd5.png" width="17" alt=""><br>icon and select <strong>Default</strong> or <strong>Compact</strong> to display the cloud instance list in the corresponding style. |
-| Customize column fields for the cloud instance list | In the upper-right corner of the All Instances section, click the<img src="assets/04e55c4ae291d1606d3e4a30d7b12a03.png" width="14" alt="">icon<br>and clear the fields that you do not want to display in the list. |
+| Refresh the cloud instance list | Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/692b76f01a87fb9f44be370f21f33e87.png" width="16" alt="">icon in the upper-right corner of the All Instances<br>section. |
+| Adjust the display style of the cloud instance list | In the upper-right corner of the All Instances section, click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/8fc84c2f806b15165453d78492caabd5.png" width="17" alt=""><br>icon and select <strong>Default</strong> or <strong>Compact</strong> to display the cloud instance list in the corresponding style. |
+| Customize column fields for the cloud instance list | In the upper-right corner of the All Instances section, click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/04e55c4ae291d1606d3e4a30d7b12a03.png" width="14" alt="">icon<br>and clear the fields that you do not want to display in the list. |
 
 <a id="section-1-8-5"></a>
 
@@ -5870,7 +5870,7 @@ On the operations platform, scoring items for synchronization entities are manag
 
 4. Select a scoring dimension to view the scoring items for each product.
 
-   ![](assets/53a23d94af59432b7d345cbc6c814a4b.png)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/53a23d94af59432b7d345cbc6c814a4b.png)
 
 5. Manage scoring items.
 
@@ -5881,23 +5881,23 @@ On the operations platform, scoring items for synchronization entities are manag
      </tr>
      <tr>
        <td>Adjust the level</td>
-       <td>i. Click<img src="assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Level</strong> column of the scoring item.<br>ii. After you adjust the level, click <strong>OK</strong>.</td>
+       <td>i. Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Level</strong> column of the scoring item.<br>ii. After you adjust the level, click <strong>OK</strong>.</td>
      </tr>
      <tr>
        <td>Adjust the score</td>
-       <td>i. Click<img src="assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Score</strong> column of the scoring item.<br>ii. After you adjust the score, click <strong>OK</strong>.</td>
+       <td>i. Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Score</strong> column of the scoring item.<br>ii. After you adjust the score, click <strong>OK</strong>.</td>
      </tr>
      <tr>
        <td>Adjust the deduction reason template</td>
-       <td>i. Click<img src="assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Deduction Reason Template</strong> column of the scoring item.<br>ii. After you adjust the template, click <strong>OK</strong>.<br>Note<br>• When you adjust the deduction reason template, refer to the template syntax instructions to ensure that the template meets the system specifications.<br>• It is recommended that you do not modify the placeholders in the template.</td>
+       <td>i. Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Deduction Reason Template</strong> column of the scoring item.<br>ii. After you adjust the template, click <strong>OK</strong>.<br>Note<br>• When you adjust the deduction reason template, refer to the template syntax instructions to ensure that the template meets the system specifications.<br>• It is recommended that you do not modify the placeholders in the template.</td>
      </tr>
      <tr>
        <td>Adjust the remediation suggestion template</td>
-       <td>i. Click<img src="assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Remediation Suggestion Template</strong> column of the scoring<br>item.<br>ii. After you adjust the template, click <strong>OK</strong>.</td>
+       <td>i. Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Remediation Suggestion Template</strong> column of the scoring<br>item.<br>ii. After you adjust the template, click <strong>OK</strong>.</td>
      </tr>
      <tr>
        <td>Enable or disable a scoring item</td>
-       <td>Click<img src="assets/0a24b02ddccb6dc8946416baa9938e35.png" width="26" alt="">or<img src="assets/fb3cf308aa153cda9807621a4fd91fa0.png" width="24" alt="">in the <strong>Enable</strong> column of the scoring item.<br><img src="assets/0a24b02ddccb6dc8946416baa9938e35.png" width="26" alt="">: The scoring item is enabled.<br><img src="assets/fb3cf308aa153cda9807621a4fd91fa0.png" width="24" alt="">: The scoring item is disabled.</td>
+       <td>Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/0a24b02ddccb6dc8946416baa9938e35.png" width="26" alt="">or<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/fb3cf308aa153cda9807621a4fd91fa0.png" width="24" alt="">in the <strong>Enable</strong> column of the scoring item.<br><img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/0a24b02ddccb6dc8946416baa9938e35.png" width="26" alt="">: The scoring item is enabled.<br><img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/fb3cf308aa153cda9807621a4fd91fa0.png" width="24" alt="">: The scoring item is disabled.</td>
      </tr>
      <tr>
        <td>Restore a scoring item to default settings</td>
@@ -6096,7 +6096,7 @@ For the organization corresponding to the instance to be protected, you must cre
 
    RDS instance to be protected from the **Organization Name** drop-down list and select **DTS** from the **Service Name** drop-down list to create a RAM role.
 
-   ![](assets/90e8f7544f0ec634a1b7061ed79cd8c2.png)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/90e8f7544f0ec634a1b7061ed79cd8c2.png)
 
    <ol type="i" start="3">
 
@@ -6112,7 +6112,7 @@ For the organization corresponding to the instance to be protected, you must cre
 
 5. Create an **ASR-DR** role for the organizations corresponding to the instances to be protected. For more information, see Step 3.
 
-   ![](assets/afa72edec51ca07bdc50c4f76b1096c5.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/afa72edec51ca07bdc50c4f76b1096c5.jpeg)
 
 6. Log on to the Apsara Uni-manager Management Console from the secondary site. Repeat the preceding steps to create a RAM role for the secondary site.
 
@@ -6150,15 +6150,15 @@ An AccessKey pair for a RAM user is created by using one of the following accoun
 
 4. In the User AccessKeys section of the Authentication tab, click **Create AccessKey**.
 
-   ![](assets/93622816917089261edb06ff01463731.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/93622816917089261edb06ff01463731.jpeg)
 
 5. Read the suggestion for each scenario and select a credential solution based on your business requirements. If you must create an AccessKey pair, select a scenario, select **I confirm that it is necessary to create an AccessKey**, and then click **Continue**. The created AccessKey pair can be used in all scenarios.
 
-   ![](assets/759566257c7b7f6a9d843b766034a552.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/759566257c7b7f6a9d843b766034a552.jpeg)
 
 6. In the **Create AccessKey** dialog box, save the AccessKey ID and AccessKey secret, and click **OK**.
 
-   ![](assets/187e67631a1d10136141e3173ab84b7c.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/187e67631a1d10136141e3173ab84b7c.jpeg)
 
 <a id="section-1-10-3"></a>
 
@@ -6170,11 +6170,11 @@ MaxCompute logs contain more information when compared with entity logs, which h
 
 2. In the left-side navigation pane, choose **Disaster Recovery (DR) for Business** > **Protection Groups**.
 
-3. Click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the Actions column that corresponds to the required protection group
+3. Click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the Actions column that corresponds to the required protection group
 
    and select **Details** from the shortcut menu.
 
-4. On the **Protection Group Details** page, click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the Actions column that
+4. On the **Protection Group Details** page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon in the Actions column that
 
    corresponds to the required instance and select **MaxCompute Logs** from the shortcut menu. You can view the Apsara Bigdata Manager (ABM) logs of the instance at the primary and secondary sites.
 
@@ -6192,7 +6192,7 @@ You can modify the policy configuration for MaxCompute synchronization entities 
 
 3. Click **Details** in the **Actions** column of the protection group.
 
-4. On the **Protection Group Details** page, click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon next to the synchronization
+4. On the **Protection Group Details** page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon next to the synchronization
 
    entity and select **Modify Policy Configuration**.
 
@@ -6207,7 +6207,7 @@ You can modify the policy configuration for MaxCompute synchronization entities 
    | Callback Node ID | Enter the ID of the callback node. |
    | Synchronization Policy for DataWorks Project | Enter the synchronization policy information for the DataWorks project. |
 
-   ![](assets/d3c7b5cbc04ce8b929129b1cceb22554.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/d3c7b5cbc04ce8b929129b1cceb22554.jpeg)
 
 6. Click **OK**.
 
@@ -6229,7 +6229,7 @@ MaxCompute and database synchronization entities can be suspended.
 
 3. Click **Details** in the **Actions** column of the protection group.
 
-4. On the **Protection Group Details** page, click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon on the right side of the target
+4. On the **Protection Group Details** page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon on the right side of the target
 
    entity in the synchronization entity list, and select **Suspend**.
 
@@ -6239,7 +6239,7 @@ MaxCompute and database synchronization entities can be suspended.
 
    > **Note**
    >
-   > After suspension succeeds, the entity status changes to Suspending. You can click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon on the right side of the synchronization entity and select **Re-protect**.
+   > After suspension succeeds, the entity status changes to Suspending. You can click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon on the right side of the synchronization entity and select **Re-protect**.
 
 <a id="section-1-10-6"></a>
 
@@ -6279,15 +6279,15 @@ Use the following procedure to obtain the AccessKey pair of ASR-DR:
 
 4. Enter asrdr in the search box and click **Cluster Details**.
 
-![](assets/da82b63979276308477c51b9acf8aecf.png)
+![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/da82b63979276308477c51b9acf8aecf.png)
 
 5. On the Cluster Details page, click the **Resource Details** tab. Find the resource of the
 
-   **accesskey** type, and click the <img src="assets/b1d6c94cc8de79e8d39599121ff7be51.jpeg" width="14" alt=""> icon in the **Resource Application Result** column of the
+   **accesskey** type, and click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b1d6c94cc8de79e8d39599121ff7be51.jpeg" width="14" alt=""> icon in the **Resource Application Result** column of the
 
    resource to view the AccessKey pair of ASR-DR.
 
-![](assets/789c80e60b9b9451c52be02b9ada6bf6.png)
+![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/789c80e60b9b9451c52be02b9ada6bf6.png)
 
 <a id="section-1-10-7"></a>
 
@@ -6301,7 +6301,7 @@ By default, data of MaxCompute and DataWorks is synchronized from the primary re
 
 3. In the protection group list, find the desired protection group and then click **Details** in its **Actions** column.
 
-4. On the **Protection Group Details** page, click the <img src="assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon on the right of the instance and
+4. On the **Protection Group Details** page, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b41eb3b3104dea41195d13fc0de01c50.png" width="14" alt=""> icon on the right of the instance and
 
    click **Synchronize Incremental Data Now**.
 
@@ -6321,7 +6321,7 @@ This topic describes how to obtain the settings of a primary cloud instance as a
 
 3. Select **Service** from the drop-down list in the upper-left corner. In the search box, enter a value displayed in the **Service** column of the following table. Find the service that you want
 
-   to view, click the <img src="assets/7c7e1cb8edb2137a0c1b9cfdae60ba0c.png" width="14" alt=""> icon in the **Service Registration** column, and then click the content.
+   to view, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7c7e1cb8edb2137a0c1b9cfdae60ba0c.png" width="14" alt=""> icon in the **Service Registration** column, and then click the content.
 
    In the Registration Variables dialog box, view the value that corresponds to the parameter in the Key column of the following table. The following table describes the services and keys that correspond to each parameter.
 
@@ -6573,7 +6573,7 @@ This topic describes how to obtain the settings of a primary cloud instance as a
 
 7. Click the **kv.conf** file and click **Show Content**.
 
-   ![](assets/9ca64c7daa07a4a187961900f782c9e4.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/9ca64c7daa07a4a187961900f782c9e4.jpeg)
 
 8. Find the values in the **kv.conf** file based on the keys of corresponding products.
 
@@ -6668,7 +6668,7 @@ This topic describes how to obtain the settings of a primary cloud instance as a
    > T -d {"<Parameter key>":"<Parameter value in the ciphertext>"}
    > ```
    >
-   > ![](assets/83f8d4d10be41cafa950380aa042af67.png)
+   > ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/83f8d4d10be41cafa950380aa042af67.png)
    >
    > </li>
    >
@@ -6754,7 +6754,7 @@ This topic describes how to log in to the O&M console of ASR for Geo-disaster Re
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -6796,7 +6796,7 @@ The homepage of the ASR for Geo-disaster Recovery O&M console displays informati
 >
 > - To configure Express Connect circuit-connected instance information, contact Apsara Stack engineers.
 
-![](assets/087cc8d36809fc359eaf9e186dc67397.jpeg)
+![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/087cc8d36809fc359eaf9e186dc67397.jpeg)
 
 **Parameters**
 
@@ -6827,15 +6827,15 @@ Cloud platform monitoring is designed to monitor the disaster recovery status of
 
 3. Select a value from the Disaster Recovery Interconnection drop-down list to view the service inspection information in the selected interconnected regions.
 
-   ![](assets/6f48c3b9abbf25f5e252a039c3e9eac7.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6f48c3b9abbf25f5e252a039c3e9eac7.jpeg)
 
 4. Move the pointer over a service to view the check details of the service.
 
-   ![](assets/42e78c338b43e519f8d807055ed66745.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/42e78c338b43e519f8d807055ed66745.jpeg)
 
 5. Click **View More**. In the panel that appears, view the details of check items.
 
-   ![](assets/58322b43314cc561494b93b05142f650.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/58322b43314cc561494b93b05142f650.jpeg)
 
 <a id="section-2-3-2"></a>
 
@@ -6849,11 +6849,11 @@ This topic describes how to view the check results of synchronization entities i
 
 2. In the left-side navigation pane, choose **Disaster Recovery Monitoring** > **Protection Group Status Monitoring**.
 
-   ![](assets/77f5f391e213a0bbdbd7e93607f5c8cc.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/77f5f391e213a0bbdbd7e93607f5c8cc.jpeg)
 
 3. Find the protection group that you want to view and click **View Check Results** in the Actions column.
 
-   ![](assets/77fa93d39709a13fdc0bae4a82729b17.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/77fa93d39709a13fdc0bae4a82729b17.jpeg)
 
    In the panel that appears, view the following information about each synchronization entity in the protection group: synchronization entity name, cloud service, synchronization status, synchronization latency, primary instance status, secondary instance status, and the time when the check was performed.
 
@@ -6873,7 +6873,7 @@ In the ASR for Geo-disaster Recovery O&M console, the basic capability O&M featu
     <td>Cloud information management</td>
     <td>You can view information about all clouds and remove the instances that you no longer need.</td>
     <td>• Before you remove an instance, make sure that it does not contain resources such as protection groups or plans.<br>• If you remove an instance, its information is also deleted, including the registered VPC, region configurations, and cloud service configurations.The region configurations include the services that support disaster recovery in the specified region and service status.</td>
-    <td>• Refresh data: Click the<img src="assets/3c50eb6355f1e977b1c9fa3a87862ca6.png" width="22" alt=""><br>icon to refresh data.<br>• Change the display mode:<br>Click the<img src="assets/4ad19db96d341143578d9160b4c96822.png" width="23" alt="">icon and<br>select <strong>Default</strong> or <strong>Compact</strong> to change the display mode.<br>• Customize displayed<br>columns: Click the<img src="assets/aaf76f96518a8eee12c9098f9ea70d2f.png" width="22" alt="">icon<br>and select the columns that you want the system to display on the page.<br>• Enable or disable the full<br>screen mode: Click the<img src="assets/6f6e10dbe99c5f813730fe60c9a478cb.png" width="24" alt=""><br>icon to display data in full screen mode. Then, click<br>the<img src="assets/5a66da2164c7ab6a7723aceb67c89bba.png" width="24" alt="">icon to disable the<br>full screen mode.</td>
+    <td>• Refresh data: Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3c50eb6355f1e977b1c9fa3a87862ca6.png" width="22" alt=""><br>icon to refresh data.<br>• Change the display mode:<br>Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4ad19db96d341143578d9160b4c96822.png" width="23" alt="">icon and<br>select <strong>Default</strong> or <strong>Compact</strong> to change the display mode.<br>• Customize displayed<br>columns: Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/aaf76f96518a8eee12c9098f9ea70d2f.png" width="22" alt="">icon<br>and select the columns that you want the system to display on the page.<br>• Enable or disable the full<br>screen mode: Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6f6e10dbe99c5f813730fe60c9a478cb.png" width="24" alt=""><br>icon to display data in full screen mode. Then, click<br>the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/5a66da2164c7ab6a7723aceb67c89bba.png" width="24" alt="">icon to disable the<br>full screen mode.</td>
   </tr>
   <tr>
     <td>Parameter management</td>
@@ -6895,7 +6895,7 @@ In the ASR for Geo-disaster Recovery O&M console, the basic capability O&M featu
     <td>Regist ration infor matio n mana geme nt</td>
     <td>If an instance is registered with a VPC, you can view and delete the registration information.<br>If an instance is not registered with a VPC, you can register the cloud with a VPC.<br>If a VPC authorization error occurs or a VPC fails to be accessed, you can check the validity of the registration information by calling a specific operation to determine whether the values of the appId and addressPoolId parameters are still valid.</td>
     <td>N/A</td>
-    <td>• Refresh data: Click the<img src="assets/3c50eb6355f1e977b1c9fa3a87862ca6.png" width="22" alt=""><br>icon to refresh data.<br>• Change the display mode:<br>Click the<img src="assets/4ad19db96d341143578d9160b4c96822.png" width="23" alt="">icon and<br>select <strong>Default</strong> or <strong>Compact</strong> to change the display mode.<br>• Customize displayed<br>columns: Click the<img src="assets/aaf76f96518a8eee12c9098f9ea70d2f.png" width="22" alt="">icon<br>and select the columns that you want the system to display on the page.<br>• Enable or disable the full<br>screen mode: Click the<img src="assets/6f6e10dbe99c5f813730fe60c9a478cb.png" width="24" alt=""><br>icon to display data in full screen mode. Then, click<br>the<img src="assets/5a66da2164c7ab6a7723aceb67c89bba.png" width="24" alt="">icon to disable the<br>full screen mode.</td>
+    <td>• Refresh data: Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3c50eb6355f1e977b1c9fa3a87862ca6.png" width="22" alt=""><br>icon to refresh data.<br>• Change the display mode:<br>Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4ad19db96d341143578d9160b4c96822.png" width="23" alt="">icon and<br>select <strong>Default</strong> or <strong>Compact</strong> to change the display mode.<br>• Customize displayed<br>columns: Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/aaf76f96518a8eee12c9098f9ea70d2f.png" width="22" alt="">icon<br>and select the columns that you want the system to display on the page.<br>• Enable or disable the full<br>screen mode: Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6f6e10dbe99c5f813730fe60c9a478cb.png" width="24" alt=""><br>icon to display data in full screen mode. Then, click<br>the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/5a66da2164c7ab6a7723aceb67c89bba.png" width="24" alt="">icon to disable the<br>full screen mode.</td>
   </tr>
   <tr>
     <td>Autho rizatio n infor matio n mana geme nt</td>
@@ -6948,18 +6948,18 @@ Maintain the default configuration of synchronization entity scoring items on th
 
 4. Select a scoring dimension to view the scoring items for each product.
 
-   ![](assets/ec8c725d26bc5a3f5acf980717a60479.png)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/ec8c725d26bc5a3f5acf980717a60479.png)
 
 5. Manage scoring items.
 
    | Operation | Description |
    | --- | --- |
-   | Update the scoring item name | i. Click<img src="assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Scoring Item Name</strong> column.<br>ii. After you update the name, click <strong>OK</strong>. |
-   | Adjust the level | i. Click<img src="assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Level</strong> column of the scoring item.<br>ii. After you adjust the level, click <strong>OK</strong>. |
-   | Adjust the score | i. Click<img src="assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Score</strong> column of the scoring item.<br>ii. After you adjust the score, click <strong>OK</strong>. |
-   | Adjust the deduction reason template | i. Click<img src="assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Deduction Reason Template</strong> column of the scoring item.<br>ii. After you adjust the template, click <strong>OK</strong>.<br>Note<br>• When you adjust the deduction reason template, refer to the template syntax instructions to ensure that the template meets the system specifications.<br>• It is recommended that you do not modify the placeholders in the template. |
-   | Adjust the remediation recommendation template | i. Click<img src="assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Remediation Recommendation Template</strong> column of the<br>scoring item.<br>ii. After you adjust the template, click <strong>OK</strong>. |
-   | Enable or disable a scoring item | Click<img src="assets/0a24b02ddccb6dc8946416baa9938e35.png" width="26" alt="">or<img src="assets/fb3cf308aa153cda9807621a4fd91fa0.png" width="24" alt="">in the <strong>Enable</strong> column of the scoring item.<br><img src="assets/0a24b02ddccb6dc8946416baa9938e35.png" width="26" alt="">: The scoring item is enabled.<br><img src="assets/fb3cf308aa153cda9807621a4fd91fa0.png" width="24" alt="">: The scoring item is disabled. |
+   | Update the scoring item name | i. Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Scoring Item Name</strong> column.<br>ii. After you update the name, click <strong>OK</strong>. |
+   | Adjust the level | i. Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Level</strong> column of the scoring item.<br>ii. After you adjust the level, click <strong>OK</strong>. |
+   | Adjust the score | i. Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Score</strong> column of the scoring item.<br>ii. After you adjust the score, click <strong>OK</strong>. |
+   | Adjust the deduction reason template | i. Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Deduction Reason Template</strong> column of the scoring item.<br>ii. After you adjust the template, click <strong>OK</strong>.<br>Note<br>• When you adjust the deduction reason template, refer to the template syntax instructions to ensure that the template meets the system specifications.<br>• It is recommended that you do not modify the placeholders in the template. |
+   | Adjust the remediation recommendation template | i. Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/75e9e37ace8e7fb617b3ebd5c73182f6.png" width="14" alt="">in the <strong>Remediation Recommendation Template</strong> column of the<br>scoring item.<br>ii. After you adjust the template, click <strong>OK</strong>. |
+   | Enable or disable a scoring item | Click<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/0a24b02ddccb6dc8946416baa9938e35.png" width="26" alt="">or<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/fb3cf308aa153cda9807621a4fd91fa0.png" width="24" alt="">in the <strong>Enable</strong> column of the scoring item.<br><img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/0a24b02ddccb6dc8946416baa9938e35.png" width="26" alt="">: The scoring item is enabled.<br><img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/fb3cf308aa153cda9807621a4fd91fa0.png" width="24" alt="">: The scoring item is disabled. |
 
 <a id="section-2-4-2"></a>
 
@@ -6971,7 +6971,7 @@ Before you use the geo-disaster recovery platform in the Apsara Uni-manager Mana
 
 When you first log on to the geo-disaster recovery platform from the Apsara Uni-manager Operations Console, you must configure the disaster recovery cloud as shown in the following figure. Click **Edit** in the **Disaster Recovery Cloud** area, or click **Edit** in the **Actions** column of the list. After the configuration is successful, the status changes to running. For parameter configurations, see the table in the Procedure section.
 
-![](assets/679033d267d84a251205e6d071de4513.jpeg)
+![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/679033d267d84a251205e6d071de4513.jpeg)
 
 **Procedure**
 
@@ -6981,7 +6981,7 @@ When you first log on to the geo-disaster recovery platform from the Apsara Uni-
 
 3. Click **Add Cloud** and configure the parameters as described in the following table.
 
-   ![](assets/18d4d414019b29eaf7439efecf0ac74f.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/18d4d414019b29eaf7439efecf0ac74f.jpeg)
 
    | Name | Description |
    | --- | --- |
@@ -7002,13 +7002,13 @@ When you first log on to the geo-disaster recovery platform from the Apsara Uni-
 
    In the **Actions** column for the desired cloud, click **Configuration** to go to the **Cloud Product Configuration** page.
 
-   ![](assets/21a283360ae2ed27e5573b4497ebf43a.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/21a283360ae2ed27e5573b4497ebf43a.jpeg)
 
    </li>
 
    <li>
 
-   In the **Basic Products** area, click the <img src="assets/c42072c068eb7e0d9d3e29138a729506.png" width="46" alt=""> icon for the product and configure the
+   In the **Basic Products** area, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/c42072c068eb7e0d9d3e29138a729506.png" width="46" alt=""> icon for the product and configure the
 
    </li>
 
@@ -7314,7 +7314,7 @@ When you first log on to the geo-disaster recovery platform from the Apsara Uni-
 
    <li>
 
-   In the **Disaster Recovery Products** area, click the <img src="assets/6b389d0f06615e26aa5b70989e59bebb.png" width="17" alt=""> icon, select a disaster recovery
+   In the **Disaster Recovery Products** area, click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6b389d0f06615e26aa5b70989e59bebb.png" width="17" alt=""> icon, select a disaster recovery
 
    </li>
 
@@ -7861,7 +7861,7 @@ This topic describes how to create an interconnection between regions to impleme
 
 2. In the left-side navigation pane, choose **General > Disaster Recovery Interconnection Management**.
 
-   ![](assets/d339c40c9c9e33bc3ceb06ec7d02fae3.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/d339c40c9c9e33bc3ceb06ec7d02fae3.jpeg)
 
 3. On the Disaster recovery Interconnection Management page, click **New Disaster Recovery interconnection**. In the dialog box that appears, configure parameters as prompted. The following table describes the parameters.
 
@@ -7899,7 +7899,7 @@ For security purpose, API operations in control domains cannot be called across 
 
 2. In the left-side navigation pane, choose **Basic Platform O&M > Disaster Recovery Gateway**. The disaster recovery regions among which a disaster recovery relationship is established are displayed.
 
-   ![](assets/823104228b84bfd8c49489f7a2c91bd5.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/823104228b84bfd8c49489f7a2c91bd5.jpeg)
 
 3. Click **Add ACL** to configure the requester information as described in the following table, and then click **Next**.
 
@@ -7915,7 +7915,7 @@ For security purpose, API operations in control domains cannot be called across 
 
 4. In the **Manage Action Permissions** step, select services in the destination end and then click **Next**.
 
-   ![](assets/b32fb12d860f28cd291032836e908828.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b32fb12d860f28cd291032836e908828.jpeg)
 
 5. Click **Submit**.
 
@@ -8039,17 +8039,17 @@ The procedure to skip a single step in the synchronization entity management and
 
 4. On the **Protection Group Details** page, view the synchronization entity information. Find the synchronization entity that you want to manage and click **Task** in the Actions column.
 
-   ![](assets/5abce921417470a84897172a48deb69f.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/5abce921417470a84897172a48deb69f.jpeg)
 
 5. In the panel that appears, click the plus signs (+) to the left of a task to view the steps of the task.
 
-   ![](assets/7a2829c17b55ed4c770986a06e6e8cc7.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7a2829c17b55ed4c770986a06e6e8cc7.jpeg)
 
 6. Find a step that is in the **Failed** state and click **Skip** in the Actions column.
 
 7. After the step is skipped, the step changes to the **Skip** state.
 
-   ![](assets/82f49305aa8d6141e805bb16636a73df.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/82f49305aa8d6141e805bb16636a73df.jpeg)
 
 **Related operations**
 
@@ -8058,10 +8058,10 @@ On the Protection Group page, you can also perform the operations described in t
 | Operation | Description |
 | --- | --- |
 | Perform advanced search | 1. Configure the Primary Clouds, Protection Group ID, Protection Group Name, and Synchronization Direction parameters.<br>2. Click <strong>Search</strong> to search for a specific protection group.<br>If the filter conditions are incorrect, click <strong>Reset</strong> to clear the filter conditions. |
-| Refresh data | Click the<img src="assets/3c50eb6355f1e977b1c9fa3a87862ca6.png" width="22" alt="">icon to refresh the protection group<br>list. |
-| Change the display mode | Click the<img src="assets/4ad19db96d341143578d9160b4c96822.png" width="23" alt="">icon and select the <strong>Default</strong> or<br><strong>Compact</strong> display mode. |
-| Customize displayed fields | Click the<img src="assets/aaf76f96518a8eee12c9098f9ea70d2f.png" width="22" alt="">icon and select the fields that you<br>want to display on the page. |
-| Enable the full screen mode | Click the<img src="assets/6f6e10dbe99c5f813730fe60c9a478cb.png" width="24" alt="">icon to display data in full screen<br>mode. Click the<img src="assets/5a66da2164c7ab6a7723aceb67c89bba.png" width="24" alt="">icon to disable the full<br>screen mode. |
+| Refresh data | Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3c50eb6355f1e977b1c9fa3a87862ca6.png" width="22" alt="">icon to refresh the protection group<br>list. |
+| Change the display mode | Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4ad19db96d341143578d9160b4c96822.png" width="23" alt="">icon and select the <strong>Default</strong> or<br><strong>Compact</strong> display mode. |
+| Customize displayed fields | Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/aaf76f96518a8eee12c9098f9ea70d2f.png" width="22" alt="">icon and select the fields that you<br>want to display on the page. |
+| Enable the full screen mode | Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6f6e10dbe99c5f813730fe60c9a478cb.png" width="24" alt="">icon to display data in full screen<br>mode. Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/5a66da2164c7ab6a7723aceb67c89bba.png" width="24" alt="">icon to disable the full<br>screen mode. |
 
 <a id="section-2-5-1-2"></a>
 
@@ -8079,15 +8079,15 @@ The procedure to reperform a single step in the synchronization entity managemen
 
 4. On the **Protection Group Details** page, view the synchronization entity information. Find the synchronization entity that you want to manage and click **Task** in the Actions column.
 
-   ![](assets/5abce921417470a84897172a48deb69f.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/5abce921417470a84897172a48deb69f.jpeg)
 
 5. In the panel that appears, click the plus signs (+) to the left of a task to view the steps of the task.
 
-   ![](assets/061473870f3a21621f8af9b0134950c7.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/061473870f3a21621f8af9b0134950c7.jpeg)
 
 6. Find a step that is in the **Failed** state and click **Retry** in the Actions column.
 
-   ![](assets/1211ff03342b41b8f69ccc98e816c3f9.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/1211ff03342b41b8f69ccc98e816c3f9.jpeg)
 
 7. After the step is reperformed, the step changes to the **Complete** state.
 
@@ -8098,9 +8098,9 @@ On the Protection Group page, you can also perform the operations described in t
 | Operation | Description |
 | --- | --- |
 | Perform advanced search | Configure the Primary Clouds, Protection Group ID, Protection Group Name, and Synchronization Direction parameters. |
-| Refresh data | Click the<img src="assets/3c50eb6355f1e977b1c9fa3a87862ca6.png" width="22" alt="">icon to refresh the protection group<br>list. |
-| Change the display mode | Click the<img src="assets/4ad19db96d341143578d9160b4c96822.png" width="23" alt="">icon and select the <strong>Default</strong> or<br><strong>Compact</strong> display mode. |
-| Customize columns | Click the<img src="assets/aaf76f96518a8eee12c9098f9ea70d2f.png" width="22" alt="">icon and select the columns that<br>you want to display on the page. |
+| Refresh data | Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3c50eb6355f1e977b1c9fa3a87862ca6.png" width="22" alt="">icon to refresh the protection group<br>list. |
+| Change the display mode | Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/4ad19db96d341143578d9160b4c96822.png" width="23" alt="">icon and select the <strong>Default</strong> or<br><strong>Compact</strong> display mode. |
+| Customize columns | Click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/aaf76f96518a8eee12c9098f9ea70d2f.png" width="22" alt="">icon and select the columns that<br>you want to display on the page. |
 
 <a id="section-2-5-1-3"></a>
 
@@ -8118,7 +8118,7 @@ You can configure throttling only for instances of the Object Storage Service (O
 
 4. In the synchronization entity list of the **Protection Group Details** page, click **Throttling Configuration** in the **Actions** column.
 
-   ![](assets/a7bf30bb9d51922c9baa5d04530d6534.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/a7bf30bb9d51922c9baa5d04530d6534.jpeg)
 
 5. In the Throttling Configuration dialog box, specify the parameters described in the following table and click **OK**.
 
@@ -8218,7 +8218,7 @@ A disaster recovery plan is created. For more information, see Create a business
 
    <li>
 
-   Move the pointer over the number in the Execution Sequence column of a plan and click the <img src="assets/7e5054ecbde946535a31b9d8bbd7c6b5.png" width="10" alt=""> icon.
+   Move the pointer over the number in the Execution Sequence column of a plan and click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7e5054ecbde946535a31b9d8bbd7c6b5.png" width="10" alt=""> icon.
 
    </li>
 
@@ -8351,7 +8351,7 @@ A disaster recovery plan is created. For more information, see Create a business
 
    <li>
 
-   Move the pointer over the number in the Execution Sequence column of a plan and click the <img src="assets/7e5054ecbde946535a31b9d8bbd7c6b5.png" width="10" alt=""> icon.
+   Move the pointer over the number in the Execution Sequence column of a plan and click the <img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7e5054ecbde946535a31b9d8bbd7c6b5.png" width="10" alt=""> icon.
 
    </li>
 
@@ -8475,7 +8475,7 @@ You have created a site disaster recovery drill plan or a site disaster recovery
      | Plan details item | Description |
      | --- | --- |
      | Plan Steps | This tab displays all the steps in the plan.<br>• If the plan is in the <strong>Completed</strong> state, you can click <strong>Start Drill</strong> on the <strong>Plan Steps</strong> tab to execute the plan again.<br>• If the plan is a drill plan, you can click <strong>Change to</strong> <strong>Recovery Plan</strong> on the <strong>Plan Steps</strong> tab and click <strong>OK</strong> in the message that appears to change the plan type. |
-     | Progress | a. This tab displays the duration of each step and detailed execution progress.<br>Note<br>To go to the <strong>Progress</strong> tab, you can also find the plan on the <strong>Disaster Recovery Drill Records</strong> tab and click <strong>Details</strong> in the <strong>Actions</strong> column.<br>b. In the left-side Step section, you can view the time consumed for each step. To view the logs of each step, click <strong>View Logs</strong>.<br>c. To view the progress details of a step, click the step in the left-side Step section.<br>d. To view the substeps of a step, click the<img src="assets/6da60275adfcdf3b81dbc0c369f2120b.png" width="14" alt="">icon in the<br>Progress Details list. |
+     | Progress | a. This tab displays the duration of each step and detailed execution progress.<br>Note<br>To go to the <strong>Progress</strong> tab, you can also find the plan on the <strong>Disaster Recovery Drill Records</strong> tab and click <strong>Details</strong> in the <strong>Actions</strong> column.<br>b. In the left-side Step section, you can view the time consumed for each step. To view the logs of each step, click <strong>View Logs</strong>.<br>c. To view the progress details of a step, click the step in the left-side Step section.<br>d. To view the substeps of a step, click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6da60275adfcdf3b81dbc0c369f2120b.png" width="14" alt="">icon in the<br>Progress Details list. |
      | Associated Protection Group | This tab displays the status of all protection groups associated with the plan and the number of instances in each protection group. |
 
      <table>
@@ -8516,7 +8516,7 @@ You have created a site disaster recovery drill plan or a site disaster recovery
      | Plan details item | Description |
      | --- | --- |
      | Plan Steps | This tab displays all the steps in the plan.<br>• If the plan is in the <strong>Completed</strong> state, you can click <strong>Start Drill</strong> on the <strong>Plan Steps</strong> tab to execute the plan again.<br>• To start a failover, click <strong>Start Failover</strong>. In the message that appears, click <strong>OK</strong>. |
-     | Progress | a. This tab displays the duration of each step and detailed execution progress.<br>Note<br>To go to the <strong>Progress</strong> tab, you can also find the plan on the <strong>Disaster Recovery Records</strong> tab and click <strong>Details</strong> in the <strong>Actions</strong> column.<br>b. In the left-side Step section, you can view the time consumed for each step. To view the logs of each step, click <strong>View Logs</strong>.<br>c. To view the progress details of a step, click the step in the left-side Step section.<br>d. To view the substeps of a step, click the<img src="assets/6da60275adfcdf3b81dbc0c369f2120b.png" width="14" alt="">icon in the<br>Progress Details list. |
+     | Progress | a. This tab displays the duration of each step and detailed execution progress.<br>Note<br>To go to the <strong>Progress</strong> tab, you can also find the plan on the <strong>Disaster Recovery Records</strong> tab and click <strong>Details</strong> in the <strong>Actions</strong> column.<br>b. In the left-side Step section, you can view the time consumed for each step. To view the logs of each step, click <strong>View Logs</strong>.<br>c. To view the progress details of a step, click the step in the left-side Step section.<br>d. To view the substeps of a step, click the<img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6da60275adfcdf3b81dbc0c369f2120b.png" width="14" alt="">icon in the<br>Progress Details list. |
      | Associated Protection Group | This tab displays the status of all protection groups associated with the plan and the number of instances in each protection group. |
      | Historical Records | This tab displays disaster recovery records. |
 
@@ -8600,7 +8600,7 @@ Manage fault injection tasks and view the task execution status.
      </tr>
      <tr>
        <td>View fault injection task details</td>
-       <td>i. Click <strong>Details</strong> in the <strong>Actions</strong> column of the task.<br><img src="assets/c86a5d3c45a002fb748dd0a4c8065378.jpeg" alt=""><br>ii. On the <strong>Task Execution Monitoring</strong> page, view the detailed information about the task execution.<br><img src="assets/3549b97e45cab455d06ba726f0c8b809.jpeg" alt=""></td>
+       <td>i. Click <strong>Details</strong> in the <strong>Actions</strong> column of the task.<br><img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/c86a5d3c45a002fb748dd0a4c8065378.jpeg" alt=""><br>ii. On the <strong>Task Execution Monitoring</strong> page, view the detailed information about the task execution.<br><img src="en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3549b97e45cab455d06ba726f0c8b809.jpeg" alt=""></td>
      </tr>
      <tr>
        <td>Retry a fault injection task</td>
@@ -8640,7 +8640,7 @@ After an independent disaster recovery plan is created, you can perform failover
 
 4. Click **Create and Configure**. If you want to configure disaster recovery parameters later, click **Create**.
 
-   ![](assets/b47db5ff6e3051cacad44262e6dc534e.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/b47db5ff6e3051cacad44262e6dc534e.jpeg)
 
 5. Click **Verify** to verify the input values.
 
@@ -8648,7 +8648,7 @@ After an independent disaster recovery plan is created, you can perform failover
 
 7. After the configurations are complete, the independent disaster recovery plan is in the **Configuration Completed** state. The following figure shows an example.
 
-   ![](assets/86df24cc32563a63fd3548f27da74a04.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/86df24cc32563a63fd3548f27da74a04.jpeg)
 
 <a id="section-2-6-2"></a>
 
@@ -8678,7 +8678,7 @@ An independent disaster recovery plan is created and configured. For more inform
 
 4. After the failover is started, log on to the O&M console of ASR-DR from the primary site and view the steps and progress of the failover. For more information, see View the details of an independent disaster recovery plan.
 
-   ![](assets/6f9f76d2fbec39e43c8b82715f494a5e.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6f9f76d2fbec39e43c8b82715f494a5e.jpeg)
 
 <a id="section-2-6-3"></a>
 
@@ -8708,7 +8708,7 @@ An independent disaster recovery plan is created. For more information, see Crea
 
 4. After the switchover drill is started, log on to the Apsara Uni-manager Operations Console from the primary site and view the steps and progress of the switchover drill. For more information, see View the details of an independent disaster recovery plan.
 
-   ![](assets/6f9f76d2fbec39e43c8b82715f494a5e.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/6f9f76d2fbec39e43c8b82715f494a5e.jpeg)
 
 <a id="section-2-6-4"></a>
 
@@ -8740,7 +8740,7 @@ You can view the steps and progress of failovers and switchover drills at the pr
 
 4. Click **Unbind** in the **Actions** column. In the message that appears, click **OK**. After the configured nodes are disassociated from the independent disaster recovery plan, you can reconfigure or delete the plan.
 
-   ![](assets/e163b4e8c3e7c56acc2f010a989bca78.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e163b4e8c3e7c56acc2f010a989bca78.jpeg)
 
    > **Note**
    >
@@ -8780,11 +8780,11 @@ This topic describes how to look up a Domain Name System (DNS) address.
 
 4. Enter dnsProduct in the search box and find the cluster in the **Products** list. Then, click **Cluster Details** in the **Actions** column.
 
-   ![](assets/7844f490580e50e91fe19da7637ce636.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7844f490580e50e91fe19da7637ce636.jpeg)
 
 5. Click the **Desired State Configuration** tab and select the  `services/dnsService/user/dns.conf`  file.
 
-   ![](assets/30aca3c4ca4482916bfae726ee8bdebf.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/30aca3c4ca4482916bfae726ee8bdebf.jpeg)
 
 6. Click **Show Content**. The value of the AnycastVip field is the IP address of the DNS name server, which is the same as the ServerIP value shown on the DNS management page.
 
@@ -8822,7 +8822,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    Log on to the Apsara Uni-manager Operations Console as an operations administrator.
 
-   ![](assets/151fb45ed25757c391eaf394b4aca0da.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/151fb45ed25757c391eaf394b4aca0da.jpeg)
 
    </li>
 
@@ -8842,7 +8842,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    </ol>
 
-   ![](assets/2f3d7b80e9acaeea985f5758debef2a1.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/2f3d7b80e9acaeea985f5758debef2a1.jpeg)
 
    <ol type="i" start="4">
 
@@ -8862,7 +8862,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    Click **Cluster Details** in the **Actions** column of the StandardCloudCluster cluster. On the cluster details page, click **Resource Details**.
 
-   ![](assets/10091d7b4642c7af91d4478c84e163d0.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/10091d7b4642c7af91d4478c84e163d0.jpeg)
 
    </li>
 
@@ -8876,7 +8876,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    Result column to obtain and save the value of vip_ip.
 
-   ![](assets/3ad3b70513b7ecbc9635e45fedccb802.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3ad3b70513b7ecbc9635e45fedccb802.jpeg)
 
    > **Note**
    >
@@ -8903,7 +8903,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    the local ASR-DR container.
 
-   ![](assets/bcb61bc255087b76d877990d96d08ef8.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/bcb61bc255087b76d877990d96d08ef8.jpeg)
 
 2. Add a forwarding rule from OPS-DNS to DNS of the local cloud tenant.
 
@@ -8963,7 +8963,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
        - the DNS nameserver address of the local cloud tenant
    ```
 
-   ![](assets/1832345d8aae383e2a585a98784dcfa5.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/1832345d8aae383e2a585a98784dcfa5.jpeg)
 
    </li>
 
@@ -9015,7 +9015,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    **Rules**.
 
-   ![](assets/7f99f29c6392471ef4f97734e3e554ed.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7f99f29c6392471ef4f97734e3e554ed.jpeg)
 
    <ol type="i" start="3">
 
@@ -9035,7 +9035,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    On the **DNS within Cloud** page, click the **Global Forwarding Configuration** tab.
 
-   ![](assets/e52eeb0d15be484f88cf861f92859121.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e52eeb0d15be484f88cf861f92859121.jpeg)
 
    </li>
 
@@ -9062,7 +9062,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
 3. Obtain the content in the /home/admin/asrdr/config/dns/dns_conf.{regionId}.ops file of the local ASR-DR.
 
-   ![](assets/1d6b56be9253c8a0342352d30b477f53.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/1d6b56be9253c8a0342352d30b477f53.jpeg)
 
 4. Repeat the preceding steps in the ASR-DR container of the primary site.
 
@@ -9124,7 +9124,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
        - the DNS nameserver address of the local cloud tenant
    ```
 
-   ![](assets/1832345d8aae383e2a585a98784dcfa5.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/1832345d8aae383e2a585a98784dcfa5.jpeg)
 
    </li>
 
@@ -9176,7 +9176,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    **Rules**.
 
-   ![](assets/7f99f29c6392471ef4f97734e3e554ed.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/7f99f29c6392471ef4f97734e3e554ed.jpeg)
 
    <ol type="i" start="3">
 
@@ -9196,7 +9196,7 @@ When you set up a primary-secondary disaster recovery system between two clouds,
 
    On the **DNS within Cloud** page, click the **Global Forwarding Configuration** tab.
 
-   ![](assets/e52eeb0d15be484f88cf861f92859121.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/e52eeb0d15be484f88cf861f92859121.jpeg)
 
    </li>
 
@@ -9234,7 +9234,7 @@ If you configure a primary/secondary disaster recovery solution between two clou
 
    Log on to the Apsara Uni-manager Operations Console as an operations administrator.
 
-   ![](assets/151fb45ed25757c391eaf394b4aca0da.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/151fb45ed25757c391eaf394b4aca0da.jpeg)
 
    </li>
 
@@ -9254,7 +9254,7 @@ If you configure a primary/secondary disaster recovery solution between two clou
 
    </ol>
 
-   ![](assets/2f3d7b80e9acaeea985f5758debef2a1.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/2f3d7b80e9acaeea985f5758debef2a1.jpeg)
 
    <ol type="i" start="4">
 
@@ -9274,7 +9274,7 @@ If you configure a primary/secondary disaster recovery solution between two clou
 
    Click **Cluster Details** in the **Actions** column of the StandardCloudCluster cluster. On the cluster details page, click **Resource Details**.
 
-   ![](assets/612ccc8ad3c4d958dcc7438344cc8101.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/612ccc8ad3c4d958dcc7438344cc8101.jpeg)
 
    </li>
 
@@ -9288,7 +9288,7 @@ If you configure a primary/secondary disaster recovery solution between two clou
 
    and then save the value of vip_ip.
 
-   ![](assets/3ad3b70513b7ecbc9635e45fedccb802.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/3ad3b70513b7ecbc9635e45fedccb802.jpeg)
 
 2. Log on to the ASR-DR container of the secondary site. For more information, see Log on to a container.
 
@@ -9307,25 +9307,25 @@ If you configure a primary/secondary disaster recovery solution between two clou
    select * from region_pattern where pattern_expression = '^Region ID'\G
    ```
 
-   ![](assets/16134ef8d5c9372bd0fc75f3f38d4de3.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/16134ef8d5c9372bd0fc75f3f38d4de3.jpeg)
 
    ```sql
    select * from config where config_code = 'cross_cloud_internet_check_flag';
    ```
 
-   ![](assets/800f3a6f07e7fcff307044ce02c5bf12.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/800f3a6f07e7fcff307044ce02c5bf12.jpeg)
 
    ```sql
    select * from region_list where REGIONS like '%Region ID%'\G
    ```
 
-   ![](assets/d537f05a78f4744461293b03ca7bd294.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/d537f05a78f4744461293b03ca7bd294.jpeg)
 
    ```sql
    select * from dts_region_info where region = 'Region ID'\G
    ```
 
-   ![](assets/1e7328dc88a580b9bcf6a3be57591282.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/1e7328dc88a580b9bcf6a3be57591282.jpeg)
 
 **Manually configure local DTS**
 
@@ -9344,7 +9344,7 @@ If you configure a primary/secondary disaster recovery solution between two clou
 
    When the script is executed, {current_region} is automatically replaced. During the execution, the SQL statements that are executed are returned.
 
-   ![](assets/732b3f516bd6ae75ba967e9f93c8d518.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/732b3f516bd6ae75ba967e9f93c8d518.jpeg)
 
 3. Run the following commands in the DTS database at the secondary site to view information about the DTS database:
 
@@ -9352,22 +9352,22 @@ If you configure a primary/secondary disaster recovery solution between two clou
    select * from region_pattern where pattern_expression = '^Region ID'\G
    ```
 
-   ![](assets/16134ef8d5c9372bd0fc75f3f38d4de3.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/16134ef8d5c9372bd0fc75f3f38d4de3.jpeg)
 
    ```sql
    select * from config where config_code = 'cross_cloud_internet_check_flag';
    ```
 
-   ![](assets/800f3a6f07e7fcff307044ce02c5bf12.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/800f3a6f07e7fcff307044ce02c5bf12.jpeg)
 
    ```sql
    select * from region_list where REGIONS like '%Region ID%'\G
    ```
 
-   ![](assets/d537f05a78f4744461293b03ca7bd294.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/d537f05a78f4744461293b03ca7bd294.jpeg)
 
    ```sql
    select * from dts_region_info where region = 'Region ID'\G
    ```
 
-   ![](assets/1e7328dc88a580b9bcf6a3be57591282.jpeg)
+   ![](en-asr-geo-disaster-recovery-user-guide-v3.18.6-2607-20260901.assets/1e7328dc88a580b9bcf6a3be57591282.jpeg)

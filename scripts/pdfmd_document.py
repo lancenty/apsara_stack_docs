@@ -1,17 +1,21 @@
 """Convert one source PDF in reading order, keeping at most one section of layout in memory."""
 
+import hashlib
 import re
 from pathlib import Path
 
 import pymupdf
 
+from doc_identity import resolve_identity
 from pdfmd_body import decorate_events, render_body
 from pdfmd_media import atomic_write, extract_figures, fallback_figure, in_box
 from pdfmd_structure import body_box, build_structure, heading_events, normalize_text
 from pdfmd_tables import attach_image, merge_tables, tables_on_page
 
 
-ASSET = re.compile(r'(?:!\[[^\]\n]*\]\(|<img\b[^>]*?\bsrc=["\'])(assets/[a-f0-9]{32}\.[a-z0-9]+)')
+ASSET = re.compile(
+    r'(?:!\[[^\]\n]*\]\(|<img\b[^>]*?\bsrc=["\'])((?:assets|[a-z0-9][a-z0-9._-]*\.assets)/[a-f0-9]{32}\.[a-z0-9]+)'
+)
 _QT_TILTED_MATRIX = re.compile(
     rb"(?m)(?:^[ \t]*|[A-Za-z*][ \t]+)[-+.\d]+[ \t]+(?!0[ \t]+0[ \t])[-+.\d]+[ \t]+[-+.\d]+"
     rb"(?:[ \t]+[-+.\d]+){3}[ \t]+(?:Tm|cm)\b"
@@ -128,7 +132,7 @@ def _table_contains(table, line):
     return a-3 <= (x0+x1)/2 <= c+3 and b <= (y0+y1)/2 <= d
 
 
-def page_events(page, structure, directory):
+def page_events(page, structure, directory, asset_prefix="assets"):
     box = body_box(page, structure)
     flags = pymupdf.TEXTFLAGS_DICT
     if structure["_qt"]:
@@ -140,7 +144,9 @@ def page_events(page, structure, directory):
     headings, claimed = heading_events(page, lines, structure)
     drawings = page.get_drawings()
     tables = tables_on_page(page, lines, drawings, box)
-    images, covered = extract_figures(page, blocks, lines, drawings, tables, box, directory, structure)
+    images, covered = extract_figures(
+        page, blocks, lines, drawings, tables, box, directory, structure, asset_prefix=asset_prefix
+    )
     out = [*headings, *tables]
     out.extend(im for im in images if not any(attach_image(t, im) for t in tables if in_box(im["bbox"], t["bbox"], 3)))
     for i,line in enumerate(lines):
@@ -156,7 +162,7 @@ def page_events(page, structure, directory):
                            and any(p["rect"].y0 < box[1] and p["rect"].y1 < box[1]+25
                                    and p["rect"].width > 100 for p in drawings)
                            and all(p["rect"].y1 < box[1]+25 or p["rect"].y0 > box[3] for p in drawings))
-        figure = None if only_rectangles else fallback_figure(page, box, directory)
+        figure = None if only_rectangles else fallback_figure(page, box, directory, asset_prefix=asset_prefix)
         if figure:
             images.append(figure)
             out.append(figure)
@@ -166,9 +172,12 @@ def page_events(page, structure, directory):
     return out, {im["url"] for im in images}
 
 
-def convert(source, target, language):
+def convert(source, target, language, source_key="", source_sha256=""):
     source, target = Path(source), Path(target)
-    asset_dir = target.parent / "assets"
+    source_key = source_key or source.name
+    if not source_sha256:
+        with open(source, "rb") as f:
+            source_sha256 = hashlib.file_digest(f, "sha256").hexdigest()
     images, blank = set(), []
     table_count = 0
     joined = 0
@@ -176,6 +185,14 @@ def convert(source, target, language):
         if not language:
             language = "cn" if re.search(r"[\u3400-\u9fff]", pdf[0].get_text()) else "en"
         structure = build_structure(pdf, language)
+        identity = resolve_identity(
+            source_key=source_key,
+            cover_lines=structure["cover"],
+            pdf_sha256=source_sha256,
+            lang_hint=language,
+        )
+        asset_prefix = identity["assets_dir"]
+        asset_dir = target.parent / asset_prefix
         structure["_qt"] = "wkhtml" in (pdf.metadata.get("creator") or "").lower()
         parts = [front_matter(structure, language)]
         section = []
@@ -193,7 +210,7 @@ def convert(source, target, language):
             section.clear()
         for num in range(structure["first_body"], len(pdf)+1):
             page = pdf[num-1]
-            events, urls = page_events(page, structure, asset_dir)
+            events, urls = page_events(page, structure, asset_dir, asset_prefix=asset_prefix)
             images.update(urls)
             if not events and num not in structure.get("continued_figures", {}):
                 blank.append(num)
@@ -211,6 +228,8 @@ def convert(source, target, language):
         missing = images - set(ASSET.findall(md))
         if missing:
             raise ValueError(f"{len(missing)} extracted image references missing from Markdown: {sorted(missing)[:2]}")
+        if any(not url.startswith(asset_prefix + "/") for url in images):
+            raise ValueError(f"Asset URL escaped per-document directory {asset_prefix}")
         anchors = re.findall(r'<a\s+(?:id|name)="([^"]+)"', md)
         expected = [e["anchor"] for e in structure["entries"]]
         if len(anchors) != len(expected) or set(anchors) != set(expected):
@@ -219,9 +238,23 @@ def convert(source, target, language):
             raise ValueError("An image is missing from the assets directory")
         if not parts[1:] and structure["first_body"] <= len(pdf):
             raise ValueError("No body was rendered")
+        expected_names = {Path(url).name for url in images}
+        if asset_dir.is_dir() and asset_dir.name.endswith(".assets"):
+            for leftover in list(asset_dir.iterdir()):
+                if leftover.is_file() and leftover.name not in expected_names:
+                    leftover.unlink()
+            if not expected_names and not any(asset_dir.iterdir()):
+                asset_dir.rmdir()
         data = md.encode("utf-8")
         atomic_write(target, data)
         return dict(pages=len(pdf), first_body=structure["first_body"], body_pages=len(pdf)-structure["first_body"]+1,
                     blank_pages=blank, continued_figure_pages=sorted(structure.get("continued_figures", {})),
                     headings=len(expected), images=len(images), tables=table_count,
-                    table_joins=joined, bytes=len(data), issues=structure["issues"])
+                    table_joins=joined, bytes=len(data), issues=structure["issues"],
+                    assets_dir=asset_prefix, assets=sorted(expected_names),
+                    document_id=identity["document_id"], language=identity["language"],
+                    platform_version=identity["platform_version"], product=identity["product"],
+                    document_key=identity["document_key"], document_version=identity["document_version"],
+                    category=identity["category"], title=identity["title"],
+                    id_status=identity["id_status"], id_source=identity["id_source"],
+                    id_anomalies=identity["id_anomalies"])

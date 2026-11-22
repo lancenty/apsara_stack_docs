@@ -75,9 +75,9 @@ Server Guard uses a client/server (C/S) architecture. The Server Guard client, o
 
 **service**
 
-![](assets/0091a1cf6a15979aed21119c0382723a.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/0091a1cf6a15979aed21119c0382723a.png)
 
-![](assets/2f7649cfcf153cb726e22ab615d7df04.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/2f7649cfcf153cb726e22ab615d7df04.png)
 
 **architecture**
 
@@ -125,11 +125,11 @@ collection
 
 dispatch
 
-![](assets/823e7ea5e9039ceac0b6292407de7340.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/823e7ea5e9039ceac0b6292407de7340.png)
 
-![](assets/8c2dae38929c3e5f13dec552dfd1c4c6.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/8c2dae38929c3e5f13dec552dfd1c4c6.png)
 
-![](assets/3f71b179d00d6f71ee19041d275ba6c4.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/3f71b179d00d6f71ee19041d275ba6c4.png)
 
 NC
 
@@ -177,7 +177,7 @@ Server Guard uses a browser/server (B/S) architecture for user interaction and s
 
 **Deployment**
 
-![](assets/e414a1a606ccdca2c9713800a65b4284.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/e414a1a606ccdca2c9713800a65b4284.png)
 
 In version 3.18.2, Server Guard updated its use of base resources. It upgraded from a deployment on Alibaba Cloud Security dedicated physical machines on the Apsara Stack platform to a Platform as a Service (PaaS) deployment that shares a physical machine resource pool with all cloud products. The following diagram shows the architecture upgrade.
 
@@ -187,17 +187,17 @@ The Dipper data analytics engine is a basic component of Server Guard. It is use
 
 Server Guard uses cloud-native components provided by the PaaS platform for data storage and middleware. This provides a shared resource pool, high stability, and disaster recovery capabilities.
 
-![](assets/3bc3f7b99dc045401c6ffe34315ee472.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/3bc3f7b99dc045401c6ffe34315ee472.png)
 
-![](assets/b1168bf04b763f1841338e8bca2a2576.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/b1168bf04b763f1841338e8bca2a2576.png)
 
 **Server**
 
 **pool**
 
-![](assets/683761ab566a00e9d4f7cd746b81dee0.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/683761ab566a00e9d4f7cd746b81dee0.png)
 
-![](assets/e894cfbaf86ae6d8c51af8bdefe167df.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/e894cfbaf86ae6d8c51af8bdefe167df.png)
 
 **Client**
 
@@ -225,7 +225,7 @@ Server Guard's security capabilities primarily protect tenant-side, platform-sid
 
 **Server Guard feature**
 
-![](assets/8fa2f57316fe40db9ddbf78b0b3a4a64.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/8fa2f57316fe40db9ddbf78b0b3a4a64.png)
 
 **architecture**
 
@@ -237,9 +237,9 @@ Security Overview
 
 View asset threat
 
-![](assets/db95fbc73a641d3e057e5891e08e323f.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/db95fbc73a641d3e057e5891e08e323f.png)
 
-![](assets/b3eeb953d042dbfc6bbf4e03fb3e5ce5.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/b3eeb953d042dbfc6bbf4e03fb3e5ce5.png)
 
 statistics
 
@@ -253,11 +253,11 @@ View asset security
 
 status
 
-![](assets/88cb97e3176044e7c1ac53ca79a713ed.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/88cb97e3176044e7c1ac53ca79a713ed.png)
 
-![](assets/70923dc4f7f2cc4626a5ba22fc9976c8.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/70923dc4f7f2cc4626a5ba22fc9976c8.png)
 
-![](assets/cf5ee0825336966d9eebe2307f6aa2fe.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/cf5ee0825336966d9eebe2307f6aa2fe.png)
 
 **Security**
 
@@ -269,11 +269,11 @@ check
 
 Detect/remediate
 
-![](assets/90061651bef6ac1cb5497aaae10f0436.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/90061651bef6ac1cb5497aaae10f0436.png)
 
-![](assets/4190114ea4c162d20411b5d77840147e.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/4190114ea4c162d20411b5d77840147e.png)
 
-![](assets/fd61408ba170d0470e19875b279476b5.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/fd61408ba170d0470e19875b279476b5.png)
 
 asset vulnerabilities
 
@@ -285,9 +285,9 @@ events
 
 Detect/handle threat
 
-![](assets/44d6b914d6ff7afd631034a2f8cd7932.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/44d6b914d6ff7afd631034a2f8cd7932.png)
 
-![](assets/9ffa775f40c7281343c2c0f6ac3e31f1.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/9ffa775f40c7281343c2c0f6ac3e31f1.png)
 
 events
 
@@ -299,9 +299,9 @@ Query logs using
 
 regex/command line
 
-![](assets/52b4c3815da5a864e6b592386c174dc5.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/52b4c3815da5a864e6b592386c174dc5.png)
 
-![](assets/3daf13161e0258aa1b6cdea27e2c1d54.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/3daf13161e0258aa1b6cdea27e2c1d54.png)
 
 **Host Settings**
 
@@ -335,7 +335,7 @@ The Server Guard server services that communicate with the client are load-balan
 
 Services that use storage or middleware rely on the high availability provided by the Apsara Stack platform to synchronize data or messages.
 
-![](assets/ce849565836dca35072e5b812a5927f1.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/ce849565836dca35072e5b812a5927f1.png)
 
 Server Guard high availability
 
@@ -345,9 +345,9 @@ architecture
 
 **AZone-B**
 
-![](assets/db09729fe801d4c7808ca878c04be3e3.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/db09729fe801d4c7808ca878c04be3e3.png)
 
-![](assets/e42abc44e76396325910fa737fff0eee.png)
+![](en-server-guard-product-introduction-v3.18.6-20260701.assets/e42abc44e76396325910fa737fff0eee.png)
 
 Domain name resolution through
 

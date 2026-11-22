@@ -80,7 +80,7 @@ You can search for an item in a list by column, which is similar to filtering da
 
 2. In the **Checker** list, click the Filter icon in a column and enter a keyword in the search box.
 
-   ![](assets/83ae36a06b04f6ce34fe5a55bd07cc56.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/83ae36a06b04f6ce34fe5a55bd07cc56.jpeg)
 
 3. Click **Search**. The checkers that meet the requirements appear.
 
@@ -94,7 +94,7 @@ You can sort projects based on a column in ascending or descending order.
 
 2. In the **Checker** list, click a column heading or the sort icon in the column heading to sort checkers in ascending or descending order.
 
-   ![](assets/6c72c4d40e36bc4bb53b96eb2b35edb9.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/6c72c4d40e36bc4bb53b96eb2b35edb9.png)
 
    The highlighted up arrow indicates that the checkers are sorted in ascending order. The highlighted down arrow indicates that the checkers are sorted in descending order.
 
@@ -102,13 +102,13 @@ You can sort projects based on a column in ascending or descending order.
 
 Log in to the ABM console. In the upper-left corner of the ABM console, click the More icon and select **MaxCompute**. In the upper-right corner of the MaxCompute page, click **Operation and maintenance**. On the page that appears, click the **Cluster O&M** tab. On the Cluster O&M page, click the **Overview** tab. On the Overview tab, you can view relevant metrics, such as CPU utilization and memory usage, of the selected cluster.
 
-![](assets/02a1b851c84ffe5c42346589e916af37.jpeg)
+![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/02a1b851c84ffe5c42346589e916af37.jpeg)
 
 The following example describes the CPU utilization of a cluster. The trend chart displays the trend lines of the total CPU utilization (cpu), CPU utilization for executing code in kernel space (sys), and CPU utilization for executing code in user space (user) for the specified cluster over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/c2491ef860802df78ad36cec4c38cee0.png)
+![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/c2491ef860802df78ad36cec4c38cee0.png)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the CPU utilization of the cluster within the specified period of time.
 
@@ -118,7 +118,7 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 2. On the **Overview** page, view the trend charts of resource usage for the specified DataHub cluster.
 
-   ![](assets/8dcce3007fc0cbfc0e5b9f238cd0c2c5.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/8dcce3007fc0cbfc0e5b9f238cd0c2c5.png)
 
    The trend charts, such as those of the cluster read/write latency and the number of cluster read and write records, appear in the Resource Usage Trends section. Each chart displays the trend lines of the metrics over time in different colors. You can click the name of a metric under the chart to show or hide the corresponding trend line in the chart. A highlighted metric name indicates that the corresponding trend line is displayed, while a dimmed metric name indicates that the corresponding trend line is hidden.
 
@@ -146,7 +146,7 @@ This topic describes how to log on to Apsara Bigdata Manager.
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -218,31 +218,31 @@ The dashboard is a feature of the ABM console. As the homepage of the ABM consol
 
    After you log in to the ABM console, the **Instrument cluster** tab appears by default. To
 
-   return to the **Instrument cluster** tab, click the <img src="assets/7f9d1490d5bba6d2a25a81da0ac6c01f.png" width="17" alt=""> icon in the upper-left corner and then
+   return to the **Instrument cluster** tab, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/7f9d1490d5bba6d2a25a81da0ac6c01f.png" width="17" alt=""> icon in the upper-left corner and then
 
    click **ABM**.
 
 2. On the **Instrument cluster** tab, click the **DataWorks** section to view the metrics of **DataWorks**.
 
-   ![](assets/b51e208b17818ccc9f889cf1e8447086.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/b51e208b17818ccc9f889cf1e8447086.png)
 
    The **DataWorks** section displays the overview of nodes, overview of slot usage, and trend charts of completed tasks of a DataWorks cluster.
 
 3. On the **Instrument cluster** tab, click the **MaxCompute** section to view the metrics of **MaxCompute**.
 
-   ![](assets/4aa62580375268dc8fd87c56e3fd4158.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/4aa62580375268dc8fd87c56e3fd4158.png)
 
    The **MaxCompute** section displays the overview of jobs, real-time capacity for the control system, data import traffic, computing resource usage, physical storage resource usage, and trend charts of logical and physical CPU utilization of a MaxCompute cluster.
 
 4. On the **Instrument cluster** tab, click the **StreamCompute** section to view the metrics of StreamCompute.
 
-   ![](assets/195dc0c9039585a7bd50084c2c6b6d52.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/195dc0c9039585a7bd50084c2c6b6d52.png)
 
    The **StreamCompute** section displays the trend charts of the transactions per second (TPS), failover rate, CPU utilization, and memory usage of a StreamCompute cluster.
 
 5. On the **Instrument cluster** tab, click the **DataHub** section to view the metrics of **DataHub**.
 
-   ![](assets/f2e093ce40033a66ec6e183712fcc696.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/f2e093ce40033a66ec6e183712fcc696.png)
 
    The **DataHub** section displays the read/write latency, numbers of read/write records, read/write queries per second (QPS), read/write throughputs, and trend charts of CPU utilization and memory usage of a DataHub cluster.
 
@@ -264,13 +264,13 @@ In the ABM console, the procedures for viewing the cluster status for different 
 
 1. Log in to the ABM console.
 
-2. In the upper-left corner of the ABM console, click the <img src="assets/3d7037287b746e4a1448cd5f98a25919.png" width="18" alt=""> icon and select MaxCompute.
+2. In the upper-left corner of the ABM console, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/3d7037287b746e4a1448cd5f98a25919.png" width="18" alt=""> icon and select MaxCompute.
 
 3. In the top navigation bar of the MaxCompute page, click **Operation and maintenance**. On the page that appears, click the **Cluster O&M** tab.
 
 4. In the upper-left corner of the **Cluster O&M** tab, select the cluster that you want to view. The **Overview** tab of the selected cluster appears.
 
-   ![](assets/1c22d26df0ba7e814e6c6e80ea87f153.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/1c22d26df0ba7e814e6c6e80ea87f153.jpeg)
 
    On the **Overview** tab, you can view the host status, service status, and health check result of the selected cluster. You can also view the trend charts of CPU utilization, disk usage, memory usage, load, and packet transmission for the cluster.
 
@@ -302,7 +302,7 @@ Only MaxCompute, DataHub, RealtimeCompute, Hologres, DataWorks, Dataphin, and Qu
 
 1. Log in to the ABM console.
 
-2. In the upper-left corner of the ABM console, click the <img src="assets/3d7037287b746e4a1448cd5f98a25919.png" width="18" alt=""> icon and select a service.
+2. In the upper-left corner of the ABM console, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/3d7037287b746e4a1448cd5f98a25919.png" width="18" alt=""> icon and select a service.
 
 3. In the top navigation bar of the service page, click **Operation and maintenance**. On the page that appears, click the **Cluster O&M** tab.
 
@@ -312,33 +312,33 @@ Only MaxCompute, DataHub, RealtimeCompute, Hologres, DataWorks, Dataphin, and Qu
 
 4. On the **Cluster O&M** tab, click the **Health** tab.
 
-   ![](assets/319bb6dfd0373314d121c8c197838600.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/319bb6dfd0373314d121c8c197838600.png)
 
-5. On the **Health** tab, click the <img src="assets/391966ebe95181ad81ae562f980ea30c.png" width="16" alt=""> icon to expand a checker with alerts. You can view all hosts
+5. On the **Health** tab, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/391966ebe95181ad81ae562f980ea30c.png" width="16" alt=""> icon to expand a checker with alerts. You can view all hosts
 
    where the checker is run.
 
-   ![](assets/23bbed14b50249931b7855de6aeb8d48.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/23bbed14b50249931b7855de6aeb8d48.png)
 
 6. Click the name of the host that you want to view. In the panel that appears, click **Details** in the Actions column of a checker to view the cause of the alert.
 
-   ![](assets/d22f5b772dc3e806475932e6a95b0b2a.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/d22f5b772dc3e806475932e6a95b0b2a.png)
 
 7. On the **Health** tab, click **Details** in the Actions column of the checker to view the solutions to handle the alerts.
 
-   ![](assets/a0a403198482a788ed8eac8fb4602759.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/a0a403198482a788ed8eac8fb4602759.png)
 
 8. Handle the alerts based on the solutions.
 
    To log in to a host with alerts for related operations, click the **Log in** icon next to the name of the host. On the **TerminalService** page, click the hostname on the left to log in to the host.
 
-   ![](assets/518178acfdf6119f3bdb92bb84ed5114.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/518178acfdf6119f3bdb92bb84ed5114.jpeg)
 
-   ![](assets/6ec6c4fd27c4305aba5310c181033e4d.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/6ec6c4fd27c4305aba5310c181033e4d.jpeg)
 
 9. Click **Refresh** in the Actions column of the host to run the checker again. This way, you can check whether the alert is cleared.
 
-   ![](assets/4dfbb2c0409dd1a99bcc5bfb202cd3bf.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/4dfbb2c0409dd1a99bcc5bfb202cd3bf.png)
 
 <a id="section-4"></a>
 
@@ -354,11 +354,11 @@ The Instrument cluster tab displays the key metrics of DataWorks, MaxCompute, St
 
 After you log in to the Apsara Big Data Manager (ABM) console, the **Instrument cluster** tab
 
-appears by default. To return to the **Instrument cluster** tab, click the <img src="assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="17" alt=""> icon in the upper-
+appears by default. To return to the **Instrument cluster** tab, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="17" alt=""> icon in the upper-
 
 left corner and then click **ABM**.
 
-![](assets/97311d700f4907193c3c56793bba39b3.png)
+![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/97311d700f4907193c3c56793bba39b3.png)
 
 In the upper-left corner of the **Instrument cluster** tab, you can select a **region** from the **Area** drop-down list to view the cluster status of each big data service in the region.
 
@@ -372,7 +372,7 @@ The **DataWorks** section displays the overview of node, overview of slot usage,
 
 The Instrument cluster tab displays the key metrics of **MaxCompute**. To view these metrics, click the **MaxCompute** section of the **Instrument cluster** tab.
 
-![](assets/b9dafa28a67aeeaf54cbe33e2e547aaa.png)
+![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/b9dafa28a67aeeaf54cbe33e2e547aaa.png)
 
 The **MaxCompute** section displays the overview of jobs, real-time capacity of the control system, data import traffic, compute resource usage, physical storage resource usage, and trend charts of logical and physical CPU utilization of a MaxCompute cluster.
 
@@ -380,7 +380,7 @@ The **MaxCompute** section displays the overview of jobs, real-time capacity of 
 
 The Instrument cluster tab displays the key metrics of StreamCompute. To view these metrics, click the **StreamCompute** section of the **Instrument cluster** tab.
 
-![](assets/b8ab3a31a747303cc8e87099838c9b5e.png)
+![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/b8ab3a31a747303cc8e87099838c9b5e.png)
 
 The **StreamCompute** section displays the trend charts of the transactions per second (TPS), failover rate, CPU utilization, and memory usage of a StreamCompute cluster.
 
@@ -388,7 +388,7 @@ The **StreamCompute** section displays the trend charts of the transactions per 
 
 The Instrument cluster tab displays the key metrics of **DataHub**. To view these metrics, click the **DataHub** section of the **Instrument cluster** tab.
 
-![](assets/535ad7486fd525654b2b0d7893f39cfe.png)
+![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/535ad7486fd525654b2b0d7893f39cfe.png)
 
 The **DataHub** section displays the read/write latency, numbers of read/write records, read/write queries per second (QPS), read/write throughputs, and trend charts of CPU utilization and memory usage of a DataHub cluster.
 
@@ -402,7 +402,7 @@ In the **Select Time** section of the **Instrument cluster** tab, specify the st
 
 On the Instrument cluster tab, you can view the status of big data services in full-screen mode.
 
-At the top of the **Instrument cluster** tab, click the <img src="assets/a0babdba81c5f5ab42dd85bd735f78d5.png" width="14" alt=""> icon to display the **Instrument**
+At the top of the **Instrument cluster** tab, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/a0babdba81c5f5ab42dd85bd735f78d5.png" width="14" alt=""> icon to display the **Instrument**
 
 **cluster** tab in full-screen mode.
 
@@ -422,19 +422,19 @@ The Resource Library tab displays the resource usage data of MaxCompute, DataWor
    >
    > icon in the upper-left corner and
    >
-   > <img src="assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="14" alt="">
+   > <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="14" alt="">
    >
    > then click **ABM**.
 
 2. On the **Instrument cluster** tab, click the **Resource Library** tab. The Resource Library tab appears.
 
-   ![](assets/eac2a92708feb9758ac4341310105e55.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/eac2a92708feb9758ac4341310105e55.jpeg)
 
 **View the resource library of MaxCompute**
 
 In the left-side navigation pane of the **Resource Library** tab, click **MaxCompute**. On the page that appears, you can view the resource usage in MaxCompute.
 
-![](assets/b28912e2ec951a2be7b4f2d1457fc235.jpeg)
+![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/b28912e2ec951a2be7b4f2d1457fc235.jpeg)
 
 For MaxCompute, the Resource Library tab displays the trend charts of compute unit (CU) and storage usage, lists of CU and storage usage, and proportions of idle CUs and storage.
 
@@ -442,7 +442,7 @@ For MaxCompute, the Resource Library tab displays the trend charts of compute un
 
 In the left-side navigation pane of the **Resource Library** tab, click **DataWorks**. On the page that appears, you can view the resource usage in DataWorks.
 
-![](assets/59c93c4a5af6c46b6f5db9fa3d5ffa75.jpeg)
+![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/59c93c4a5af6c46b6f5db9fa3d5ffa75.jpeg)
 
 For DataWorks, the Resource Library tab displays the trend chart of slot usage, list of slot usage, and proportion of idle slots.
 
@@ -450,7 +450,7 @@ For DataWorks, the Resource Library tab displays the trend chart of slot usage, 
 
 In the left-side navigation pane of the **Resource Library** tab, click **DataHub**. On the page that appears, you can view the resource usage in DataHub.
 
-![](assets/26c84fe0b7facbc43c277da7977bd81a.jpeg)
+![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/26c84fe0b7facbc43c277da7977bd81a.jpeg)
 
 For DataHub, the Resource Library tab displays the trend chart of storage usage, list of storage usage, and proportion of idle storage.
 
@@ -470,7 +470,7 @@ In the Apsara Big Data Manager (ABM) console, the Degree of health tab allows yo
 
    After you log in to the **ABM** console, the **Instrument cluster** tab appears by default. You
 
-   can click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and select the big data service that you want
+   can click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner and select the big data service that you want
 
    to view.
 
@@ -490,7 +490,7 @@ The report feature allows you to view the inspection reports of big data service
 
 1. Log on to Apsara Bigdata Manager.
 
-2. Click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner. Then select **DataHub**.
+2. Click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner. Then select **DataHub**.
 
 3. In the top menu bar, click **Monitoring**.
 
@@ -520,11 +520,11 @@ The O&M page of ABM displays the Business operation and maintenance module. The 
 
 1. Log in to the ABM console.
 
-2. In the upper-left corner of the ABM console, click the <img src="assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="14" alt=""> icon and select **ABM**.
+2. In the upper-left corner of the ABM console, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/bfbdae8ee17bfa7719cc6b5dc0d0f232.png" width="14" alt=""> icon and select **ABM**.
 
 3. In the top navigation bar of the **ABM** page, click **Operation and maintenance**. The **Operation and maintenance** page displays the **Business operation and maintenance** module.
 
-   ![](assets/2ebbf2f693f14086103bd3e6bf6e6235.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/2ebbf2f693f14086103bd3e6bf6e6235.png)
 
 <a id="section-5-2"></a>
 
@@ -538,13 +538,13 @@ Apsara Big Data Manager (ABM) allows you to view the trend charts of cron jobs o
 
 **Procedure**
 
-1. In the upper-left corner of the ABM console, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select **ABM**.
+1. In the upper-left corner of the ABM console, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select **ABM**.
 
 2. In the upper-right corner of the **ABM** page, click **Operation and maintenance**. By default, the **Business operation and maintenance** page appears.
 
 3. In the left-side navigation pane, click **Timed Job Statistics** to view cron job statistics and other information.
 
-   ![](assets/e551e8c3359459cf86255e2c78647b1d.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/e551e8c3359459cf86255e2c78647b1d.png)
 
 4. Optional. Find the service that you want to view and click **View History** in the **Operation** column. The **Management** page of the service appears. You to view the job execution history on the Execution History tab.
 
@@ -618,7 +618,7 @@ For more information, see **Apsara Stack Help CenterBig Data Services > MaxCompu
 
 1. Log in to the Apsara Big Data Manager (ABM) console.
 
-2. In the upper-left corner, click the <img src="assets/5f90e899cf2fd25213ffd5b809b3c147.png" width="18" alt=""> icon and choose **Big Data Computing >**
+2. In the upper-left corner, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/5f90e899cf2fd25213ffd5b809b3c147.png" width="18" alt=""> icon and choose **Big Data Computing >**
 
    **MaxCompute**.
 
@@ -628,7 +628,7 @@ For more information, see **Apsara Stack Help CenterBig Data Services > MaxCompu
 
 5. In the **View Multi-Cluster Replication configuration** panel, set the **Open** parameter to **true** and specify the required information in the **Configuration** field.
 
-   ![](assets/02e1cc5f5021bb7d568d641d4a02609a.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/02e1cc5f5021bb7d568d641d4a02609a.jpeg)
 
    The following table describes the key configuration items.
 
@@ -732,7 +732,7 @@ Terms related to jobs include:
 
 **Job Execution page**
 
-![](assets/83c5019ad47918cb4604d6b6a6c00c4d.jpeg)
+![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/83c5019ad47918cb4604d6b6a6c00c4d.jpeg)
 
 The **Job Execution** page contains the following tabs:
 
@@ -760,7 +760,7 @@ An ABM administrator account is obtained.
 
 1. Log in to the ABM console.
 
-2. In the upper-left corner of the ABM console, click the <img src="assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon and select DataHub.
+2. In the upper-left corner of the ABM console, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon and select DataHub.
 
 3. In the top navigation bar, click **Management**.
 
@@ -772,15 +772,15 @@ An ABM administrator account is obtained.
 
 6. On the **Jobs** page, find the job that you want to execute and click **Run** in the Actions column.
 
-   ![](assets/d95c71946d9038d0ddaf4e695874c550.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/d95c71946d9038d0ddaf4e695874c550.png)
 
 7. In the dialog box that appears, configure the required parameters in the **Configure target group and parameters** step and click **Next Step**.
 
-   ![](assets/01653ad61bcaa9600f324218fa3273bd.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/01653ad61bcaa9600f324218fa3273bd.jpeg)
 
 8. In the **Confirm Risk** step, confirm the risks and click **Confirm**.
 
-   ![](assets/e71f59e605e1093955da9817eceec651.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/e71f59e605e1093955da9817eceec651.png)
 
    > **Note**
    >
@@ -810,7 +810,7 @@ An Apsara Big Data Manager (ABM) administrator account is obtained.
 
 4. On the **Execution** page, click the **cron job** tab.
 
-   ![](assets/802a1649127f10378da6057a92c85fee.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/802a1649127f10378da6057a92c85fee.png)
 
 5. On the cron job page, all cron job are in the **Effective** state. You can perform the following operations in the Actions column:
 
@@ -854,7 +854,7 @@ An ABM administrator account is obtained.
 
 1. Log on to Apsara Bigdata Manager.
 
-2. Click the <img src="assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and select DataHub.
+2. Click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and select DataHub.
 
 3. In the top menu bar, click **Management**.
 
@@ -894,7 +894,7 @@ You have an Apsara Bigdata Manager administrator account.
 
 1. Log on to Apsara Bigdata Manager.
 
-2. Click the <img src="assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and select DataHub.
+2. Click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and select DataHub.
 
 3. In the top menu bar, click **Management**.
 
@@ -1162,7 +1162,7 @@ Both scheduling items and monitoring items are built-in and cannot be added. How
 
 1. Log on to the Apsara Big Data Manager.
 
-2. Click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon in the upper-left corner and select the target product.
+2. Click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon in the upper-left corner and select the target product.
 
 3. In the top navigation bar, click **Management**.
 
@@ -1178,15 +1178,15 @@ The mount point of a scheduling item is built-in and cannot be added, modified, 
 
 2. On the **Scheduling** tab, find the scheduling item that you want to view and click **View** in the Actions column to view the details of the scheduling item.
 
-   ![](assets/92dc062913b99da016d9a1ba5faf37a8.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/92dc062913b99da016d9a1ba5faf37a8.png)
 
    The details of the scheduling item include the checker name, checker alias, description, and processing steps.
 
-3. On the Scheduling tab, find the scheduling item that you want to view and click the <img src="assets/85d397c16e324881cacce9a2056c37f5.png" width="15" alt=""> icon
+3. On the Scheduling tab, find the scheduling item that you want to view and click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/85d397c16e324881cacce9a2056c37f5.png" width="15" alt=""> icon
 
    on the left to view the mount points of the scheduling item.
 
-   ![](assets/6a6af743a229dde2cb663af1eeeef448.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/6a6af743a229dde2cb663af1eeeef448.png)
 
 **Modify a scheduling item**
 
@@ -1196,7 +1196,7 @@ You can configure the scheduling interval and running parameters of a scheduling
 
 2. On the **Scheduling** tab, find the scheduling item that you want to manage and click **Edit** in the Actions column. In the Modify Checker dialog box, configure the parameters.
 
-   ![](assets/5b220ec237b017bb55811b15714be8f4.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/5b220ec237b017bb55811b15714be8f4.jpeg)
 
    **Type**: If you set this parameter to **System Default**, other parameters, such as **Execution Interval** and **Parameters**, are set to the default values. If you set this parameter to **Custom**, you can configure other parameters as needed.
 
@@ -1230,7 +1230,7 @@ You can manually add metrics.
 
 3. Click **Create Monitoring Item** and configure the parameters.
 
-   ![](assets/1eec827ddfab67c94d367bf2929cb23d.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/1eec827ddfab67c94d367bf2929cb23d.jpeg)
 
 4. After you configure the preceding parameters, click **OK**. A message appears, indicating that the creation is successful.
 
@@ -1246,7 +1246,7 @@ You can modify the name and description of a metric and set whether to enable th
 
 3. Click **Edit** next to a metric to modify the configurations of the metric.
 
-   ![](assets/3375bf6fd82517f10d57e0420b51916e.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/3375bf6fd82517f10d57e0420b51916e.jpeg)
 
 4. After you configure the preceding parameters, click **OK**. A message appears, indicating that the modification is successful.
 
@@ -1258,13 +1258,13 @@ You can add a mount point to mount the alarm raw data to the O&M interface of ea
 
 2. Click the **Monitoring** tab.
 
-3. Click the <img src="assets/a7b4c4464dd871c78c06e58000d032b1.png" width="20" alt=""> icon in front of a metric to view the mount point of the metric.
+3. Click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/a7b4c4464dd871c78c06e58000d032b1.png" width="20" alt=""> icon in front of a metric to view the mount point of the metric.
 
-   ![](assets/230ff71ac6cb68e1f5f36f333e3f7fdd.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/230ff71ac6cb68e1f5f36f333e3f7fdd.png)
 
 4. Click **Add Mount Point** below the mount point list. In the dialog box that appears, set the parameters.
 
-   ![](assets/043475f0c021b4abdd8da0ececc73674.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/043475f0c021b4abdd8da0ececc73674.jpeg)
 
    The following table describes the key parameters.
 
@@ -1282,7 +1282,7 @@ You can add a mount point to mount the alarm raw data to the O&M interface of ea
 
 2. Click the **Monitoring** tab.
 
-3. Click the <img src="assets/a7b4c4464dd871c78c06e58000d032b1.png" width="15" alt=""> icon in front of a metric to view the mount point of the metric.
+3. Click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/a7b4c4464dd871c78c06e58000d032b1.png" width="15" alt=""> icon in front of a metric to view the mount point of the metric.
 
 4. Click **Delete** next to the mount target. In the message that appears, click **OK**. A message is displayed, indicating that the mount target is deleted.
 
@@ -1308,7 +1308,7 @@ Your ABM account is granted the required permissions on services on which you wa
 
 1. Log in to the ABM console.
 
-2. In the upper-left corner, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select the big data service that you want to
+2. In the upper-left corner, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select the big data service that you want to
 
    manage.
 
@@ -1318,17 +1318,17 @@ Your ABM account is granted the required permissions on services on which you wa
 
 1. In the left-side navigation pane, click **Health Management**. On the page that appears, choose **Patrol Configuration > Scenes**.
 
-   ![](assets/26a193bdaf9325fb12000b01fbe7cbbc.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/26a193bdaf9325fb12000b01fbe7cbbc.png)
 
 2. In the upper-right corner of the Scenes tab, click **Create Scene**. In the Create Scene panel, configure the parameters based on your business requirements.
 
-   ![](assets/862e75fcf9dcdc738196a7dc2c4e40d9.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/862e75fcf9dcdc738196a7dc2c4e40d9.jpeg)
 
 3. Click **Submit**.
 
    After a scenario is created, you can **Edit**, **Start Patrol**, **Manage Patrol Items**, and view **Execution History** of the scenario.
 
-   ![](assets/435de672ece7decdf38c2e7f2b1e54c0.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/435de672ece7decdf38c2e7f2b1e54c0.jpeg)
 
 **Create an inspection item**
 
@@ -1336,17 +1336,17 @@ Your ABM account is granted the required permissions on services on which you wa
 
 2. In the upper-right corner of the Patrol Items tab, click **Create Patrol Item**.
 
-   ![](assets/f022e7ace3344d584ef85393d9e3c8bc.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/f022e7ace3344d584ef85393d9e3c8bc.png)
 
 3. In the **Create Patrol Item** panel, configure the parameters based on your business requirements.
 
-   ![](assets/08092683dfb152d1352460aef3bb7b4f.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/08092683dfb152d1352460aef3bb7b4f.png)
 
 4. Click **Submit**.
 
    After an inspection item is created, you can **Edit** and **Delete** the inspection item.
 
-   ![](assets/92eb5316b24a6ff50337d025bca2546d.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/92eb5316b24a6ff50337d025bca2546d.jpeg)
 
 **Create a scenario combination**
 
@@ -1354,17 +1354,17 @@ Your ABM account is granted the required permissions on services on which you wa
 
 2. In the upper-right corner of the Scenario Combination tab, click **Create Scene**.
 
-   ![](assets/8be63580def855c505c7c3d88fe7e0e5.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/8be63580def855c505c7c3d88fe7e0e5.png)
 
 3. In the **Create Scene** panel, configure the parameters based on your business requirements.
 
-   ![](assets/3ddc8fc8eaef2e0c4b2d8ec7bf03f096.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/3ddc8fc8eaef2e0c4b2d8ec7bf03f096.jpeg)
 
 4. Click **Submit**.
 
    After a scenario combination is created, you can **Edit**, **Manage Patrol Items**, and view **Execution History** of the scenario combination.
 
-   ![](assets/6ec628510e3cb19db135d72d117014ec.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/6ec628510e3cb19db135d72d117014ec.jpeg)
 
 <a id="section-6-4"></a>
 
@@ -1388,7 +1388,7 @@ You can view operation audit logs by service. For example, to view the operation
 
 1. Log in to the ABM console.
 
-2. In the upper-left corner, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select the big data service whose O&M
+2. In the upper-left corner, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select the big data service whose O&M
 
    operation history you want to view.
 
@@ -1398,7 +1398,7 @@ You can view operation audit logs by service. For example, to view the operation
 
 4. Click **Details** for an operation to view the O&M operation details.
 
-   ![](assets/bbf028cca9783e611b95ae1e3df75bf5.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/bbf028cca9783e611b95ae1e3df75bf5.jpeg)
 
 <a id="section-7"></a>
 
@@ -1420,7 +1420,7 @@ How do I query the inbound and outbound traffic of a MaxCompute cluster at a spe
 
 1. Log in to the Apsara Big Data Manager (ABM) console.
 
-2. On the **Instrument cluster** tab of the **ABM** console, click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left
+2. On the **Instrument cluster** tab of the **ABM** console, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left
 
    corner and then choose **Big Data Computing > MaxCompute**.
 
@@ -1445,7 +1445,7 @@ How do I query the inbound and outbound traffic of a MaxCompute cluster at a spe
    hostname=c27***.cloud.c07.amtest35&attr=uplink_info'
    ```
 
-   ![](assets/eb85879f560dd9a83700fae249a3fe31.jpeg)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/eb85879f560dd9a83700fae249a3fe31.jpeg)
 
 **Step 3: View the traffic of vSwitch ports**
 
@@ -1473,11 +1473,11 @@ An ABM account that works properly and its password are obtained.
 
 1. Log in to the ABM console.
 
-2. On the homepage of the ABM console, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon in the upper-left corner, and then
+2. On the homepage of the ABM console, click the <img src="en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon in the upper-left corner, and then
 
    click **ASO** or **TIANJI** in the **Site Navigation** section. The corresponding platform appears.
 
-   ![](assets/66cd855d9f1fb09846e93b9c54f98ca1.png)
+   ![](en-apsara-big-data-manager-user-guide-v3.18.6-2607-20260825.assets/66cd855d9f1fb09846e93b9c54f98ca1.png)
 
 **Result**
 

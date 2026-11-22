@@ -101,7 +101,7 @@ You can use the POP gateway to call API operations in ASR for Geo-disaster Recov
 
 The following figure shows the flowchart for calling API operations in ASR for Geo-disaster Recovery.
 
-![](assets/15cac437064caa57dc3f20e8a325ab2c.jpeg)
+![](en-asr-geo-disaster-recovery-devel-e4914b63-v3.18.6-2607-20260902.assets/15cac437064caa57dc3f20e8a325ab2c.jpeg)
 
 **Procedure**
 
@@ -155,7 +155,7 @@ The Apsara Uni-manager Management Console provides personal AccessKey pairs and 
 
 3. In the **AccessKey** section, you can view the AccessKey information of your personal account.
 
-   ![](assets/e6f91e95cedc816129fbdcd3c846da9f.jpeg)
+   ![](en-asr-geo-disaster-recovery-devel-e4914b63-v3.18.6-2607-20260902.assets/e6f91e95cedc816129fbdcd3c846da9f.jpeg)
 
    > **Important**
    >
@@ -195,7 +195,7 @@ This topic describes how to obtain an endpoint.
 
 5. On the details page of the primary cluster, click the **Resource Details** tab. Find the
 
-   resource named  `asrdr-api`  and click the <img src="assets/b78c868a629c54316a2cc0db9d840ca4.png" width="18" alt=""> icon in the **Resource Application Result**
+   resource named  `asrdr-api`  and click the <img src="en-asr-geo-disaster-recovery-devel-e4914b63-v3.18.6-2607-20260902.assets/b78c868a629c54316a2cc0db9d840ca4.png" width="18" alt=""> icon in the **Resource Application Result**
 
    column. The value of the  `domain`  parameter is the endpoint.
 
@@ -305,7 +305,7 @@ This topic describes how to use the SDK for Java to initiate a request.
 
 2. Create a request.
 
-   ![](assets/8333d06d12c19a120bfbc9bc9a57cd08.png)
+   ![](en-asr-geo-disaster-recovery-devel-e4914b63-v3.18.6-2607-20260902.assets/8333d06d12c19a120bfbc9bc9a57cd08.png)
 
    Name the request in the  ${apiName}Request  format. Replace **${apiName}** with the name of the API operation that you want to call, such as DescribeBackupCloud.
 
@@ -376,11 +376,11 @@ If the server or client encounters an exception when you use the SDK for Java, t
 
 In most cases, you do not need to handle exceptions based on the exception information returned by the SDK for Java. You need to only handle server exceptions based on error messages generated on the server side.
 
-![](assets/fcb2c459a4e6ecd7cf1d3c70289e28a7.png)
+![](en-asr-geo-disaster-recovery-devel-e4914b63-v3.18.6-2607-20260902.assets/fcb2c459a4e6ecd7cf1d3c70289e28a7.png)
 
 - ServerException  indicates a server exception.
 
-![](assets/48472db6439b25720f3b711cd0b0e079.png)
+![](en-asr-geo-disaster-recovery-devel-e4914b63-v3.18.6-2607-20260902.assets/48472db6439b25720f3b711cd0b0e079.png)
 
 - ClientException  indicates a client exception.
 

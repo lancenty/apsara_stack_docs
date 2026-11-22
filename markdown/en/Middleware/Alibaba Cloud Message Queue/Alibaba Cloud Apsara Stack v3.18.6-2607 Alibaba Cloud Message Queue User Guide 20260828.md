@@ -320,7 +320,7 @@ ApsaraMQ for RocketMQ supports four types of messages. For more information, see
 
 You can follow the process illustrated in the following figure based on the protocol that you select.
 
-![](assets/5c575c63aa2a0ff727e069dca8791d54.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/5c575c63aa2a0ff727e069dca8791d54.png)
 
 1. Create resources. You must create a ApsaraMQ for RocketMQ instance, a topic, and a group, and obtain the endpoint information of the instance.
 
@@ -1343,7 +1343,7 @@ Interaction process
 
 The following figure shows the process of using transactional messages in ApsaraMQ for RocketMQ.
 
-![](assets/55615764a7edaba10026b810d86e2ff6.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/55615764a7edaba10026b810d86e2ff6.png)
 
 The procedure to send a transactional message includes the following steps:
 
@@ -1437,7 +1437,7 @@ In most cases, ordered messages are used in scenarios that require messages to b
 
 **Working mechanism**
 
-![](assets/bb9d7ead7c97d2ceb1e36c36adabbbf6.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/bb9d7ead7c97d2ceb1e36c36adabbbf6.png)
 
 To ensure that messages are sent and consumed in a FIFO order in ApsaraMQ for RocketMQ, you must pay attention to the following phases:
 
@@ -1718,7 +1718,7 @@ On the **Instance List** page, you can view the instance that you created.
 
 3. Optional. On the **Instance List** page, you can select the **Automatic Identification**, **Instance ID**, **Instance name**, or **Cluster ID** filter and enter a keyword in the search box to search for instances.
 
-4. Optional. On the **Instance List** page, you can click the <img src="assets/6ddd772ac81eeec28cfe5558a83620b2.png" width="14" alt=""> icon in the **Monitoring** column
+4. Optional. On the **Instance List** page, you can click the <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/6ddd772ac81eeec28cfe5558a83620b2.png" width="14" alt=""> icon in the **Monitoring** column
 
    to view the instance monitoring information.
 
@@ -1748,7 +1748,7 @@ On the **Instance List** page, find the instance that you want to manage and cli
 
 - **Data Integration**: You can configure relevant settings for data integration. For more information, see Data integration.
 
-You can also click the <img src="assets/7d42fd8c9838588a148c0b3d6198f02b.png" width="14" alt=""> icon to select another instance from the drop-down list.
+You can also click the <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/7d42fd8c9838588a148c0b3d6198f02b.png" width="14" alt=""> icon to select another instance from the drop-down list.
 
 **Modify the configurations of an instance**
 
@@ -1861,7 +1861,7 @@ You have created a RocketMQ instance. For more information, see Create an instan
 
 1. On the **Manage Topics** tab, find the topic that you want to update. In the **Description**
 
-   column, click the <img src="assets/c7c22cacc65e95b601ae8525ceec0ddd.png" width="11" alt=""> icon.
+   column, click the <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/c7c22cacc65e95b601ae8525ceec0ddd.png" width="11" alt=""> icon.
 
 2. In the **Update Description** dialog box, enter a new description and click **OK**.
 
@@ -1913,7 +1913,7 @@ When you create an instance, you must specify the maximum number of topics for t
 
 1. On the **Manage Topics** tab, select the topics you want to export and click the download
 
-   icon <img src="assets/8d16a149bd5b0efa00d9ec40e65a41c4.png" width="14" alt=""> in the upper-right corner.
+   icon <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/8d16a149bd5b0efa00d9ec40e65a41c4.png" width="14" alt=""> in the upper-right corner.
 
    > **Note**
    >
@@ -2006,7 +2006,7 @@ On the **Instance Details** page, click the **Group Management** tab to view bas
 
    icon,
 
-   <img src="assets/e8623a6f4f4925e69e89c34661407303.png" width="17" alt="">
+   <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/e8623a6f4f4925e69e89c34661407303.png" width="17" alt="">
 
    and then select **Delete** from the drop-down list.
 
@@ -2024,7 +2024,7 @@ On the **Instance Details** page, click the **Group Management** tab to view bas
 
 **Export**
 
-1. On the **Group Management** tab, click the download icon <img src="assets/8d16a149bd5b0efa00d9ec40e65a41c4.png" width="14" alt=""> in the upper-right corner.
+1. On the **Group Management** tab, click the download icon <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/8d16a149bd5b0efa00d9ec40e65a41c4.png" width="14" alt=""> in the upper-right corner.
 
 2. In the **Export** window, select an **Export Scope** and the **Columns to Export**.
 
@@ -2116,7 +2116,7 @@ By default, ApsaraMQ for RocketMQ provides an HTTP-based Any Tunnel endpoint and
    >
    > In this example, the IPv4 CIDR block of a VPC is associated with an instance. For more information about how to associate the IPv6 CIDR block of a VPC, see Attach an IPv6 CIDR block to a VPC.
 
-   ![](assets/ec0c0f500da84eecdfb8f75b4b8bdd61.jpeg)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/ec0c0f500da84eecdfb8f75b4b8bdd61.jpeg)
 
    The following table describes the parameters.
 
@@ -2132,7 +2132,7 @@ By default, ApsaraMQ for RocketMQ provides an HTTP-based Any Tunnel endpoint and
 
 8. You can also click **VPC instance list** in the **Operation** column to view the ApsaraMQ for RocketMQ instances associated with the VPC.
 
-   ![](assets/fea19aa3f68fa10a502d6b2dbc978b70.jpeg)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/fea19aa3f68fa10a502d6b2dbc978b70.jpeg)
 
 **Disassociate an ApsaraMQ for RocketMQ instance from a VPC**
 
@@ -2204,13 +2204,13 @@ To attach an IPv6 CIDR block to a VPC, you must first enable the IPv6 attachment
 
 5. In the **Operations** column for **rocketmq**, click **Switch List** to open the **rocketmq Switch List** page.
 
-   ![](assets/f231e84692f05a8b5a2d0c4907053367.jpeg)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/f231e84692f05a8b5a2d0c4907053367.jpeg)
 
 6. On the **rocketmq Switch List** page, find the switch with the **Switch ID** **useIpv6**. In the **Operations** column, click **Modify Switch Status**.
 
 7. In the **View Initial Status of Feature Switch** dialog box, turn on the **Current Value** switch.
 
-   ![](assets/9946a96bbd5183191198f559f0f10c07.jpeg)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/9946a96bbd5183191198f559f0f10c07.jpeg)
 
 **Attach an IPv6 CIDR block to the VPC**
 
@@ -2330,7 +2330,7 @@ When you reset consumer offsets, take note of the following items:
 
    icon in the **Operation**
 
-   <img src="assets/5c7c798ff79a056a2f6d1a48b415fa0f.png" width="15" alt="">
+   <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/5c7c798ff79a056a2f6d1a48b415fa0f.png" width="15" alt="">
 
    column, and then choose **Reset consumption point**.
 
@@ -2368,7 +2368,7 @@ We recommend that you query messages by using the following process.
 
 Figure 1. Message query process
 
-![](assets/69bf478f1ed7ed968d200e234857ef6c.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/69bf478f1ed7ed968d200e234857ef6c.png)
 
 <a id="section-5-5-2"></a>
 
@@ -2488,13 +2488,13 @@ In ApsaraMQ for RocketMQ, the complete trace of a message involves three roles: 
 
 Figure 1. Message trace data
 
-![](assets/2d8d5f44a1ffe99e555e38b6e7c20844.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/2d8d5f44a1ffe99e555e38b6e7c20844.png)
 
 **Scenarios**
 
 You can use the message tracing feature to troubleshoot problems if a message is not sent or received as expected in your production environment. You can query the message trace by message ID, message key, or topic to check whether the message is sent and received as expected within the specified time range.
 
-![](assets/c0f441fda7ec67ec0629b5fe04529ea3.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/c0f441fda7ec67ec0629b5fe04529ea3.png)
 
 **Usage notes**
 
@@ -3064,7 +3064,7 @@ The operation log of an ApsaraMQ for RocketMQ instance records the time, locatio
    >
    > You can also find an operation record and click **Operation Details** in the **Operation** column to view more detailed log information in the **Operation Details** panel.
 
-   ![](assets/ceb41f9d629127f60a9f3dd4208b7dce.jpeg)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/ceb41f9d629127f60a9f3dd4208b7dce.jpeg)
 
 <a id="section-5-11"></a>
 
@@ -3080,7 +3080,7 @@ You can use an Apsara Stack tenant account to grant permissions to another Apsar
 
 2. On the **Topics** page, find the topic that you want to authorize another account to manage,
 
-   click <img src="assets/70c804b5cc157b011790eaee4eaef739.png" width="14" alt=""> in the **Actions** column, and then select **Authorize** from the drop-down list.
+   click <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/70c804b5cc157b011790eaee4eaef739.png" width="14" alt=""> in the **Actions** column, and then select **Authorize** from the drop-down list.
 
 3. In the **Authorize** dialog box, set **Account Type** to **Apsara Stack Account**.
 
@@ -3096,7 +3096,7 @@ You can use an Apsara Stack tenant account to grant permissions to a RAM user th
 
 2. On the **Topics** page, find the topic that you want to authorize a RAM user to manage, click
 
-   <img src="assets/70c804b5cc157b011790eaee4eaef739.png" width="14" alt=""> in the **Actions** column, and then select **Authorize** from the drop-down list.
+   <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/70c804b5cc157b011790eaee4eaef739.png" width="14" alt=""> in the **Actions** column, and then select **Authorize** from the drop-down list.
 
 3. In the **Authorize** dialog box, set **Account Type** to **RAM User**.
 
@@ -3116,7 +3116,7 @@ You can view the authorization records and the details of each topic in the Mess
 
 1. Log on to the Message Queue for Apache RocketMQ console. In the left-side navigation pane, click **Topics**.
 
-2. On the **Topics** page, find the topic that you want to view, click <img src="assets/70c804b5cc157b011790eaee4eaef739.png" width="14" alt=""> in the **Actions** column,
+2. On the **Topics** page, find the topic that you want to view, click <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/70c804b5cc157b011790eaee4eaef739.png" width="14" alt=""> in the **Actions** column,
 
    and then select **View Authorization** from the drop-down list to view the authorization records and information of the topic.
 
@@ -3150,13 +3150,13 @@ ApsaraMQ for RocketMQ connectors allow you to synchronize data between ApsaraMQ 
 
   In the following figure, ApsaraMQ for RocketMQ is the data source and other Alibaba Cloud services are the data destinations. Sink connectors can be used to export data from ApsaraMQ for RocketMQ to other Alibaba Cloud services.
 
-  ![](assets/c7ce74a2bec5dbf61a188d54ac662fe6.png)
+  ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/c7ce74a2bec5dbf61a188d54ac662fe6.png)
 
 - **Source connectors**
 
   In the following figure, other Alibaba Cloud services are data sources and ApsaraMQ for RocketMQ is the data destination. Source connectors can be used to import data from other Alibaba Cloud services to ApsaraMQ for RocketMQ.
 
-  ![](assets/279347a79d909f4666ae0e0d09aafe31.png)
+  ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/279347a79d909f4666ae0e0d09aafe31.png)
 
 **Connectors**
 
@@ -3257,7 +3257,7 @@ After a connector starts running, the connector consumes system resources, such 
    | Instance | The ID of the ApsaraMQ for RocketMQ instance to which the source topic belongs.<br>The instance ID that you specified in Step 3 is automatically displayed. You do not need to configure this parameter. | MQ_INST_1624605771445148 _BfSh\*\*\*\* |
    | Topic | The name of the ApsaraMQ for RocketMQ topic from which data is synchronized. | maxcompute_sink_input |
    | Initial consumption location | The offset from which data is synchronized to MaxCompute.Valid values:<br>• <strong>Earliest site</strong>: Data is synchronized from the earliest offset in the topic when you run the connector.<br>• <strong>Closest site</strong>: Data is synchronized from the latest offset in the topic when you run the connector. | Earliest site |
-   | Filter rules | The rule that is used to filter messages. The connectors of ApsaraMQ for RocketMQ allow you to filter messages based on tags.<br>• If no filter rule is specified, all messages from the source topic are synchronized to the destination table.<br>• If a filter rule is specified, only data that meets the filter rule in the source topic is synchronized to the destination table.<br>You can specify tags to filter messages based on tags.<br>For example, if you want to synchronize messages whose tag is CartService to the destination table, enter<br>![](assets/ad9eb7b4f702c0c79f54386700d75cac.png)<br><code>CartService</code> in this field. If you want to specify multiple tags, separate multiple values with double vertical bars (\|\|).Example:<br>![](assets/39e78ed66beaea5a6e6fe638bc207e70.png)<br><code>CartService&#124;&#124;Inventory&#124;&#124;Payment</code>. For more information, see Message filtering. | Cart\|\|Inventory\|\|Payment |
+   | Filter rules | The rule that is used to filter messages. The connectors of ApsaraMQ for RocketMQ allow you to filter messages based on tags.<br>• If no filter rule is specified, all messages from the source topic are synchronized to the destination table.<br>• If a filter rule is specified, only data that meets the filter rule in the source topic is synchronized to the destination table.<br>You can specify tags to filter messages based on tags.<br>For example, if you want to synchronize messages whose tag is CartService to the destination table, enter<br>![](en-mq-user-guide-v3.18.6-2607-20260828.assets/ad9eb7b4f702c0c79f54386700d75cac.png)<br><code>CartService</code> in this field. If you want to specify multiple tags, separate multiple values with double vertical bars (\|\|).Example:<br>![](en-mq-user-guide-v3.18.6-2607-20260828.assets/39e78ed66beaea5a6e6fe638bc207e70.png)<br><code>CartService&#124;&#124;Inventory&#124;&#124;Payment</code>. For more information, see Message filtering. | Cart\|\|Inventory\|\|Payment |
    | Number of tasks | The maximum number of connectors that can be created. Each connector contains an ApsaraMQ for RocketMQ consumer client.The consumption performance of a connector is less than or equal to 3,000 transactions per second (TPS).<br>Valid values: 1 to 16. The value must be an integer. | 10 |
    | Abnormal Data Topic | The topic that is used to store error data. The connector delivers messages that fail to be sent to the topic.<br>The name of the topic that ApsaraMQ for RocketMQ creates for the connector is displayed. You do not need to configure this parameter.Format: connect-error-<em>Connec</em> <em>tor name</em>.<br>Important<br>Do not delete the error data topic that ApsaraMQ for RocketMQ creates for the connector. If you delete the connector, the error data topic is automatically deleted. | connect-error-mqsink |
    | Connector Group ID | The group that is used to consume synchronized messages in the connector.<br>The ID of the group that ApsaraMQ for RocketMQ creates for the connector is displayed. You do not need to configure this parameter.Format: connect- <em>Connector n</em> <em>ame</em>.<br>Important<br>Do not delete the group that ApsaraMQ for RocketMQ creates for the connector. If you delete the connector, the group is automatically deleted. | connect-mqsink |
@@ -3346,7 +3346,7 @@ The replicator message routing feature of ApsaraMQ for RocketMQ is used to synch
 
 The following figure shows how replicator message routing works in ApsaraMQ for RocketMQ. In the figure, one-way synchronization is performed based on topics to synchronize messages from a specific source topic in the source instance to a specific destination topic in the destination instance.
 
-![](assets/fabeb44191af9b1e89c485decee4ae32.jpeg)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/fabeb44191af9b1e89c485decee4ae32.jpeg)
 
 For more information, see Replicator message routing.
 
@@ -3454,7 +3454,7 @@ To create a replicator message routing task, perform the following steps:
    <table>
      <tr>
        <td>Filter rules</td>
-       <td>• If no filter rules are specified, the message routing task routes all messages from the source topic to the destination topic.<br>• If filter rules are specified, the message routing task routes the messages that match the specified rules from the source topic to the destination topic.<br>You can specify tags as filter rules.<br>If the tag of the messages that you want to route to the<br><img src="assets/07fbff70ac4acedd6f260186b67b3600.png" alt=""><br>destination topic is CartService, you can enter <code>CartService</code> in the Filter rules field. If you want to filter messages based on multiple tags, you can specify multiple tags and separate the tags with two vertical bars (||). For example, you can enter<br><img src="assets/ca13aa09acff4fe98606a03603aedf81.png" alt=""><br><code>CartService&#124;&#124;Inventory&#124;&#124;Payment</code>. For more information, see Message filtering.</td>
+       <td>• If no filter rules are specified, the message routing task routes all messages from the source topic to the destination topic.<br>• If filter rules are specified, the message routing task routes the messages that match the specified rules from the source topic to the destination topic.<br>You can specify tags as filter rules.<br>If the tag of the messages that you want to route to the<br><img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/07fbff70ac4acedd6f260186b67b3600.png" alt=""><br>destination topic is CartService, you can enter <code>CartService</code> in the Filter rules field. If you want to filter messages based on multiple tags, you can specify multiple tags and separate the tags with two vertical bars (||). For example, you can enter<br><img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/ca13aa09acff4fe98606a03603aedf81.png" alt=""><br><code>CartService&#124;&#124;Inventory&#124;&#124;Payment</code>. For more information, see Message filtering.</td>
      </tr>
      <tr>
        <td>Description</td>
@@ -3466,7 +3466,7 @@ To create a replicator message routing task, perform the following steps:
 
 1. On the **replicator** page, click the **Cloud information** tab.
 
-2. On the Cloud information tab, find the cloud that you want to modify, move the pointer over the value in the **Remarks** column, and then click the <img src="assets/e591e9f544cd51bd83b34f128a606ee1.png" width="17" alt=""> icon.
+2. On the Cloud information tab, find the cloud that you want to modify, move the pointer over the value in the **Remarks** column, and then click the <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/e591e9f544cd51bd83b34f128a606ee1.png" width="17" alt=""> icon.
 
 3. In the **Modify description** dialog box, modify the description and click **OK**.
 
@@ -3626,7 +3626,7 @@ Before you create message synchronization clouds for message routing, you must p
 
    <li>
 
-   Find the  `mq-cai`  service and click the <img src="assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon in the **Service Registration** column.
+   Find the  `mq-cai`  service and click the <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon in the **Service Registration** column.
 
    </li>
 
@@ -3646,7 +3646,7 @@ Before you create message synchronization clouds for message routing, you must p
 
    <li>
 
-   Find the  `mq-console`  service and click the <img src="assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon in the **Service Registration**
+   Find the  `mq-console`  service and click the <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon in the **Service Registration**
 
    column.
 
@@ -4254,7 +4254,7 @@ This topic describes how to prepare an environment for a ApsaraMQ for RocketMQ d
 
   Figure 1. Download a demo project
 
-  ![](assets/be493de82e5de5c2bdee836d09b1a098.png)
+  ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/be493de82e5de5c2bdee836d09b1a098.png)
 
   After the downloaded package is decompressed, a folder named mq-demo-master appears on your on-premises machine.
 
@@ -4282,7 +4282,7 @@ This topic describes how to configure a demo project.
 
    Figure 1. Select the mq-demo-master folder
 
-   ![](assets/0468d30a9bed282df5af9b6fad61658f.png)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/0468d30a9bed282df5af9b6fad61658f.png)
 
    </li>
 
@@ -4292,7 +4292,7 @@ This topic describes how to configure a demo project.
 
    Figure 2. Select Import project from external model
 
-   ![](assets/dafcd65b6123c6b99dc5551664ccb152.jpeg)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/dafcd65b6123c6b99dc5551664ccb152.jpeg)
 
    </li>
 
@@ -4661,7 +4661,7 @@ Table 2. Parameters for sending messages
 
 Figure 1. Methods and parameters for using SDK for Java to send messages
 
-![](assets/4458c3f4ad66c89a43c665a5a960d67f.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/4458c3f4ad66c89a43c665a5a960d67f.png)
 
 Table 3. Parameters for subscribing to messages
 
@@ -4678,7 +4678,7 @@ Table 3. Parameters for subscribing to messages
 
 Figure 3. Methods and parameters for using SDK for Java to subscribe to messages
 
-![](assets/1a3a09932c389728f3bb52f1dc651ac3.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/1a3a09932c389728f3bb52f1dc651ac3.png)
 
 **Sample code for sending and subscribing to messages**
 
@@ -5249,7 +5249,7 @@ Synchronous transmission means that the message producer sends the next message 
 
 Figure 1. Synchronous transmission
 
-![](assets/a49159ff2bf6383ff6605ce72db5444e.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/a49159ff2bf6383ff6605ce72db5444e.png)
 
 **Scenarios**
 
@@ -5334,7 +5334,7 @@ In reliable asynchronous transmission mode, a producer sends the next message wi
 
 Figure 1. Asynchronous transmission
 
-![](assets/e002891490aef220b3f41bbe7073083c.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/e002891490aef220b3f41bbe7073083c.png)
 
 **Scenarios**
 
@@ -5415,7 +5415,7 @@ In one-way transmission mode, a producer only sends messages and does not wait f
 
 Figure 1. One-way transmission
 
-![](assets/abfb221e1df3ebeabaa46a196b89d175.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/abfb221e1df3ebeabaa46a196b89d175.png)
 
 **Scenarios**
 
@@ -5735,7 +5735,7 @@ The following figure shows the interaction process of transactional messages in 
 
 Figure 1. Interaction process of transactional messages
 
-![](assets/f9105726050f19513aa271181ac221e6.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/f9105726050f19513aa271181ac221e6.png)
 
 **Send transactional messages**
 
@@ -6552,7 +6552,7 @@ The following figure shows the interaction process of transactional messages in 
 
 Figure 1. Interaction process of transactional messages
 
-![](assets/f9105726050f19513aa271181ac221e6.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/f9105726050f19513aa271181ac221e6.png)
 
 **Send transactional messages**
 
@@ -6963,13 +6963,13 @@ Use SDK for .NET in Visual Studio 2015NET SDK
 
    Figure 1. .NET SDK-1
 
-   ![](assets/99038122e00ed6d2f329c9aa06767726.png)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/99038122e00ed6d2f329c9aa06767726.png)
 
 2. Right-click the project and choose **Add** > **Add Existing Item** to add all files in the **interface** directory of the downloaded SDK package.
 
    Figure 2. .NET SDK-2
 
-   ![](assets/1f0ab29e1dd80a1e4194f1f4bee5f782.jpeg)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/1f0ab29e1dd80a1e4194f1f4bee5f782.jpeg)
 
 3. Right-click the project and choose **Properties** > **Configuration Manager**. Set **Active solution configuration** to **Release** and set **Active solution platform** to **x64**.
 
@@ -6977,7 +6977,7 @@ Use SDK for .NET in Visual Studio 2015NET SDK
 
    Figure 3. .NET SDK-3
 
-   ![](assets/ddf657efcc2f1c59b6f7492033fff629.jpeg)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/ddf657efcc2f1c59b6f7492033fff629.jpeg)
 
    > **Note**
    >
@@ -6985,7 +6985,7 @@ Use SDK for .NET in Visual Studio 2015NET SDK
 
    Figure 4. .NET SDK-4
 
-   ![](assets/d02e2a6380222acc25261f29eeb3ef0a.jpeg)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/d02e2a6380222acc25261f29eeb3ef0a.jpeg)
 
 **Configure ASP.NET in Visual Studio 2015 to use** ApsaraMQ for RocketMQ **SDK**
 
@@ -6993,13 +6993,13 @@ Use SDK for .NET in Visual Studio 2015NET SDK
 
    Figure 5. .NET SDK-5
 
-   ![](assets/f82623c4416702b8508d4bb3395da94a.png)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/f82623c4416702b8508d4bb3395da94a.png)
 
 6. Right-click the project and choose **Properties** > **Configuration Manager**. Set **Active solution configuration** to **Release** and set **Active solution platform** to **x64**.
 
    Figure 6. .NET SDK-6
 
-   ![](assets/e869671d6cbc3eb33d6b421b724b3e9c.png)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/e869671d6cbc3eb33d6b421b724b3e9c.png)
 
 7. Right-click the project and choose **Add** > **Add Existing Item** to add all files in the interface directory of the downloaded SDK package.
 
@@ -7065,17 +7065,17 @@ Use SDK for .NET in Visual Studio 2015NET SDK
 
    Figure 7. .NET SDK-7
 
-   ![](assets/5dda393a7b06357b3793e3a166e8ec90.jpeg)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/5dda393a7b06357b3793e3a166e8ec90.jpeg)
 
 1. Choose **Tools** > **Options** > **Projects and Solutions** > **Web Projects**. Then, select the **Use the 64 bit version of IIS Express for websites and projects** check box.
 
    Figure 8. .NET SDK-8
 
-   ![](assets/5a2fa25b1108243003ca1a2a0636a02f.png)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/5a2fa25b1108243003ca1a2a0636a02f.png)
 
    Figure 9. .NET SDK-9
 
-   ![](assets/56eaaa97bd5b87b285462355100da5b4.png)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/56eaaa97bd5b87b285462355100da5b4.png)
 
 <a id="section-7-2-6-2"></a>
 
@@ -7373,7 +7373,7 @@ The following figure shows the interaction process of transactional messages in 
 
 Figure 1. Interaction process of transactional messages
 
-![](assets/f9105726050f19513aa271181ac221e6.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/f9105726050f19513aa271181ac221e6.png)
 
 **Send transactional messages**
 
@@ -8847,7 +8847,7 @@ ApsaraMQ for RocketMQ provides a distributed transaction processing feature that
 
 The following figure shows the interaction process of transactional messages.
 
-![](assets/55615764a7edaba10026b810d86e2ff6.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/55615764a7edaba10026b810d86e2ff6.png)
 
 For more information about the message routing feature, see Transactional messages.
 
@@ -9809,7 +9809,7 @@ ApsaraMQ for RocketMQ provides a distributed transaction processing feature that
 
 The following figure shows the interaction process of transactional messages.
 
-![](assets/55615764a7edaba10026b810d86e2ff6.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/55615764a7edaba10026b810d86e2ff6.png)
 
 For more information about the message routing feature, see Transactional messages.
 
@@ -10622,7 +10622,7 @@ ApsaraMQ for RocketMQ provides a distributed transaction processing feature that
 
 The following figure shows the interaction process of transactional messages.
 
-![](assets/55615764a7edaba10026b810d86e2ff6.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/55615764a7edaba10026b810d86e2ff6.png)
 
 For more information about the message routing feature, see Transactional messages.
 
@@ -11389,7 +11389,7 @@ ApsaraMQ for RocketMQ provides a distributed transaction processing feature that
 
 The following figure shows the interaction process of transactional messages.
 
-![](assets/55615764a7edaba10026b810d86e2ff6.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/55615764a7edaba10026b810d86e2ff6.png)
 
 For more information about the message routing feature, see Transactional messages.
 
@@ -12311,7 +12311,7 @@ ApsaraMQ for RocketMQ provides a distributed transaction processing feature that
 
 The following figure shows the interaction process of transactional messages.
 
-![](assets/55615764a7edaba10026b810d86e2ff6.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/55615764a7edaba10026b810d86e2ff6.png)
 
 For more information about the message routing feature, see Transactional messages.
 
@@ -13280,7 +13280,7 @@ ApsaraMQ for RocketMQ provides a distributed transaction processing feature that
 
 The following figure shows the interaction process of transactional messages.
 
-![](assets/55615764a7edaba10026b810d86e2ff6.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/55615764a7edaba10026b810d86e2ff6.png)
 
 For more information about the message routing feature, see Transactional messages.
 
@@ -13628,13 +13628,13 @@ This topic describes how to prepare the environment before you use the HTTP clie
 
      In the Property Pages dialog box of your project, choose **Configuration Properties > C/C++ > General** in the left-side navigation pane. On the right side, set **Additional Include Directories** to the path of the include folder that you copied in Step 3.
 
-     ![](assets/9ee5b013820e7d91ef91d0cbaf7caff9.png)
+     ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/9ee5b013820e7d91ef91d0cbaf7caff9.png)
 
    - **Set the Additional Library Directories property**
 
      In the Property Pages dialog box of your project, choose **Configuration Properties > Linker > General** in the left-side navigation pane. On the right side, set **Additional Library Directories** to the path of the lib folder that you copied in Step 3 and the path of the lib\\windows\\ *{Platform directory}* folder. Configure the *{Platform directory}* variable based on the OS that you use. If you use a 64-bit OS, set this variable to AMD64. If you use a 32-bit OS, set this variable to I386.
 
-     ![](assets/b9a692fb29a7c8f61a9db58f091b6d94.png)
+     ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/b9a692fb29a7c8f61a9db58f091b6d94.png)
 
    - **Set the Additional Dependencies property**
 
@@ -13654,11 +13654,11 @@ This topic describes how to prepare the environment before you use the HTTP clie
      Advapi32.lib
      ```
 
-     ![](assets/401a29e95e2353e8ea3ff8c99ce1fb43.png)
+     ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/401a29e95e2353e8ea3ff8c99ce1fb43.png)
 
 5. Copy the sample code to the project file, change the parameter values based on the comments in the code, and then save the changes. For more information about the sample code, see Sample code.
 
-6. Click the <img src="assets/32a8f7c12dd514e0a21979163b4862f9.png" width="13" alt=""> icon to compile the project.
+6. Click the <img src="en-mq-user-guide-v3.18.6-2607-20260828.assets/32a8f7c12dd514e0a21979163b4862f9.png" width="13" alt=""> icon to compile the project.
 
 **Install the SDK for C++ in a Linux environment**
 
@@ -14355,7 +14355,7 @@ ApsaraMQ for RocketMQ provides a distributed transaction processing feature that
 
 The following figure shows the interaction process of transactional messages.
 
-![](assets/55615764a7edaba10026b810d86e2ff6.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/55615764a7edaba10026b810d86e2ff6.png)
 
 For more information about the message routing feature, see Transactional messages.
 
@@ -14725,7 +14725,7 @@ ApsaraMQ for RocketMQ is a messaging system that is based on the publish-subscri
 
   Figure 1. Clustering consumption mode
 
-  ![](assets/a12374d9743251d29a68a3ca7a6e9679.png)
+  ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/a12374d9743251d29a68a3ca7a6e9679.png)
 
   **Scenarios and usage notes:**
 
@@ -14741,7 +14741,7 @@ ApsaraMQ for RocketMQ is a messaging system that is based on the publish-subscri
 
   Figure 2. Broadcasting consumption mode
 
-  ![](assets/7c2353a0892863c175499ca756c8097e.png)
+  ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/7c2353a0892863c175499ca756c8097e.png)
 
   Scenarios and usage notes:
 
@@ -14769,7 +14769,7 @@ ApsaraMQ for RocketMQ is a messaging system that is based on the publish-subscri
 
   Figure 3. Use the clustering consumption mode to simulate the broadcasting consumption mode
 
-  ![](assets/7c2353a0892863c175499ca756c8097e.png)
+  ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/7c2353a0892863c175499ca756c8097e.png)
 
   Scenarios and usage notes:
 
@@ -14791,7 +14791,7 @@ The following figure shows an example in the e-commerce transaction scenario. In
 
 Figure 1. Filter messages
 
-![](assets/c168589e658ece6f9fbf7fc658750c5a.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/c168589e658ece6f9fbf7fc658750c5a.png)
 
 > **Note**
 >
@@ -14889,7 +14889,7 @@ Subscriptions in ApsaraMQ for RocketMQ involve topics and tags. Therefore, all c
 
   Figure 1. Consistent subscriptions
 
-  ![](assets/0570079a15778f707e7baf489bd744d8.png)
+  ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/0570079a15778f707e7baf489bd744d8.png)
 
 - Inconsistent subscriptions
 
@@ -14897,7 +14897,7 @@ Subscriptions in ApsaraMQ for RocketMQ involve topics and tags. Therefore, all c
 
   Figure 2. Inconsistent subscriptions
 
-  ![](assets/3693e6369c5d37e1e71aa2d68c94efbe.png)
+  ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/3693e6369c5d37e1e71aa2d68c94efbe.png)
 
 **Sample code of subscriptions**
 
@@ -15066,7 +15066,7 @@ ApsaraMQ for RocketMQ leverages Alibaba Cloud Express Connect and MSHA to implem
 
 The following figure shows how to use MSHA to implement active geo-redundancy for ApsaraMQ for RocketMQ.
 
-![](assets/30d0497c47960022701def2d6b81e2a5.png)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/30d0497c47960022701def2d6b81e2a5.png)
 
 - A complete business system is deployed in the Hangzhou and Shanghai units.
 
@@ -15120,15 +15120,15 @@ To resolve the preceding issues, Apsara Stack develops ApsaraMQ for RocketMQ tha
 
 **Scenario 1: Disaster recovery clusters and single-data center clusters deployed in the primary zone**
 
-![](assets/23df0eea21937efbb671e6c0f52fed25.jpeg)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/23df0eea21937efbb671e6c0f52fed25.jpeg)
 
 **Scenario 2: Disaster recovery clusters and single-data center clusters deployed in the secondary zone**
 
-![](assets/7cbc753968d8068793b8d26e108d5329.jpeg)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/7cbc753968d8068793b8d26e108d5329.jpeg)
 
 **Scenario 3: Disaster recovery clusters and single-data center clusters deployed in the primary and secondary zones**
 
-![](assets/b27b32dc0efdd9fe81dab59640af0f61.jpeg)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/b27b32dc0efdd9fe81dab59640af0f61.jpeg)
 
 **Benefits**
 
@@ -15154,7 +15154,7 @@ The message routing feature of ApsaraMQ for RocketMQ is used to synchronize mess
 
 The following figure shows how message routing works in ApsaraMQ for RocketMQ. In the figure, one-way synchronization is performed based on topics to synchronize messages from a specific source topic in the source instance to a specific destination topic in the destination instance.
 
-![](assets/fabeb44191af9b1e89c485decee4ae32.jpeg)
+![](en-mq-user-guide-v3.18.6-2607-20260828.assets/fabeb44191af9b1e89c485decee4ae32.jpeg)
 
 **Scenarios**
 
@@ -15164,13 +15164,13 @@ The message routing feature can be used in the following common scenarios:
 
   Taobao and Tmall serve users all over the world. If sellers in a country or a region want to publish products, the products must be reviewed before they can be available for sale. However, the product review systems of Alibaba Cloud are central systems deployed only in the cities of China, such as Shanghai. In this scenario, messages from the regions outside China must be synchronized to the product review systems in China to achieve cross-region data synchronization.
 
-  ![](assets/d4e219c09a63e88470d53c4b714f4ea8.png)
+  ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/d4e219c09a63e88470d53c4b714f4ea8.png)
 
 - **Data backup and disaster recovery**
 
   For core trading systems, changes in the details and prices of various commodities need to be updated across all business systems in real time. Multi-region disaster recovery and backup solutions can be used to ensure high availability. This way, service continuity is ensured even if a region becomes unavailable due to issues such as the cut of optical fibers.
 
-  ![](assets/a5aacdfb9719bbff86dcc68a69e89584.png)
+  ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/a5aacdfb9719bbff86dcc68a69e89584.png)
 
 **Benefits**
 
@@ -16107,7 +16107,7 @@ The number of real-time accumulated messages of the group ID is higher than expe
 
    The following figure shows an example of command output.
 
-   ![](assets/7149b4a79e1ca7d662cd69053d0a5362.jpeg)
+   ![](en-mq-user-guide-v3.18.6-2607-20260828.assets/7149b4a79e1ca7d662cd69053d0a5362.jpeg)
 
    For more information about the thread status, see official Java documentation.
 

@@ -553,7 +553,7 @@ To ensure the security and stability of a database, you must add IP addresses or
      <table>
        <tr>
          <td>Load the private IP addresses of ECS instances</td>
-         <td>a. Click <strong>Import ECS Internal IP Address</strong>.<br>b. Select IP addresses based on your business requirements.<br><img src="assets/46b56258177bd306fcedc4c4a7c9b2e0.png" alt=""><br>Note<br>To find the Elastic Compute Service (ECS) instance to which a specific IP address is assigned, you can move the pointer over the IP address. Then, the system displays the ID and name of the ECS instance to which the IP address is assigned.</td>
+         <td>a. Click <strong>Import ECS Internal IP Address</strong>.<br>b. Select IP addresses based on your business requirements.<br><img src="en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/46b56258177bd306fcedc4c4a7c9b2e0.png" alt=""><br>Note<br>To find the Elastic Compute Service (ECS) instance to which a specific IP address is assigned, you can move the pointer over the IP address. Then, the system displays the ID and name of the ECS instance to which the IP address is assigned.</td>
        </tr>
      </table>
 
@@ -1309,7 +1309,7 @@ AnalyticDB for PostgreSQL allows you to use the SQL audit feature to view SQL de
 
    > **Note**
    >
-   > You can click the <img src="assets/e487b61536ad79c942e52da74364a6e1.png" width="14" alt=""> icon to export SQL information from the current page.
+   > You can click the <img src="en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/e487b61536ad79c942e52da74364a6e1.png" width="14" alt=""> icon to export SQL information from the current page.
 
 <a id="section-5-7"></a>
 
@@ -1481,7 +1481,7 @@ You can view and modify the values of some parameters in the console, and query 
 
    in the **Parameter Value** column.
 
-   <img src="assets/41a1057c0e5e46f1c2a7dd33cf949d1d.png" width="14" alt="">
+   <img src="en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/41a1057c0e5e46f1c2a7dd33cf949d1d.png" width="14" alt="">
 
    </li>
 
@@ -5491,7 +5491,7 @@ Parameters:
   | Vector index parameter | Requi red | Description | Defa ult | Value range |
   | --- | --- | --- | --- | --- |
   | DIM | Yes | The number of vector dimensions. This parameter is used to check vectors when vectors are inserted. If the number of vector dimensions does not match, the system displays an error message. | 0 | \[1, 8192\] |
-  | DISTANCEMEASURE | No | The distance or similarity measurement. Valid values:<br>• L2: uses the squared Euclidean distance function to create indexes.This measurement is suitable for image similarity search scenarios.<br>Formula:<br>![](assets/2a686996ae5940bf8e03f1333ef5638d.png)<br>• IP: uses the negative inner product distance function to create indexes.This measurement is used to replace cosine similarity after vector normalization.<br>Formula:<br>![](assets/61bbad01a69aa9cc4056fe3f14133c22.png)<br>• COSINE: uses the cosine distance function to create indexes. This measurement is suitable for text similarity search scenarios.<br>Formula:<br>![](assets/e0b6d28c4cd5f7838b633a4124762b04.png)<br>Note<br>• If you set the DISTANCEMEASURE parameter to IP or COSINE, make sure that the minor version of the AnalyticDB for PostgreSQL instance is 6.3.10.18 or later. For information about how to view and update the minor version, see Update the minor version of an instance.<br>• To achieve the best performance, we recommend that you store the normalized vector data in databases and use the inner product distance measurement to create indexes.<br>When you use the inner product distance measure to create indexes, you can also query the Euclidean distance and cosine similarity. For more information, see Perform vector search.<br>• For information about user-defined functions (UDFs) for vector search, see the "References" section of this topic. | L2 | (L2, IP, COSINE) |
+  | DISTANCEMEASURE | No | The distance or similarity measurement. Valid values:<br>• L2: uses the squared Euclidean distance function to create indexes.This measurement is suitable for image similarity search scenarios.<br>Formula:<br>![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/2a686996ae5940bf8e03f1333ef5638d.png)<br>• IP: uses the negative inner product distance function to create indexes.This measurement is used to replace cosine similarity after vector normalization.<br>Formula:<br>![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/61bbad01a69aa9cc4056fe3f14133c22.png)<br>• COSINE: uses the cosine distance function to create indexes. This measurement is suitable for text similarity search scenarios.<br>Formula:<br>![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/e0b6d28c4cd5f7838b633a4124762b04.png)<br>Note<br>• If you set the DISTANCEMEASURE parameter to IP or COSINE, make sure that the minor version of the AnalyticDB for PostgreSQL instance is 6.3.10.18 or later. For information about how to view and update the minor version, see Update the minor version of an instance.<br>• To achieve the best performance, we recommend that you store the normalized vector data in databases and use the inner product distance measurement to create indexes.<br>When you use the inner product distance measure to create indexes, you can also query the Euclidean distance and cosine similarity. For more information, see Perform vector search.<br>• For information about user-defined functions (UDFs) for vector search, see the "References" section of this topic. | L2 | (L2, IP, COSINE) |
   |  |  |  |  |  |
   | HNSW_M | No | The maximum number of neighbors for the HNSW algorithm. | 32 | \[10, 1000\] |
   | HNSW_EF_CONSTRUC TION | No | The size of the candidate set when the HNSW algorithm is used to create indexes. | 600 | \[40, 4000\] |
@@ -5639,7 +5639,7 @@ Supported vector functions
 
 Calculates the rooted Euclidean distance between two vectors. This function is used to measure the distance between two vectors and suitable for image similarity search scenarios.
 
-> <img src="assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt="">
+> <img src="en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt="">
 >
 > **Important**
 >
@@ -5695,7 +5695,7 @@ after vector normalization.
 
 Formula:
 
-![](assets/c09149301f3da42f11614d1ad2a128f2.png)
+![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/c09149301f3da42f11614d1ad2a128f2.png)
 
 Calculates the cosine similarity between two vectors. This function is used to measure the similarity between two vectors based on
 
@@ -5723,7 +5723,7 @@ the vectors. Valid values of the cosine similarity: -1 to 1.
 
 Formula:
 
-![](assets/6b164809e08358cc44036abd390839fb.png)
+![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/6b164809e08358cc44036abd390839fb.png)
 
 Calculates the dot product distance, which is the same as
 
@@ -5749,7 +5749,7 @@ Formula:
 
 REAL[]
 
-![](assets/c09149301f3da42f11614d1ad2a128f2.png)
+![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/c09149301f3da42f11614d1ad2a128f2.png)
 
 Calculates the Hamming distance, which is the number of bit positions at which the corresponding bits in the two
 
@@ -6021,7 +6021,7 @@ Euclidean distance.
 
 Formula:
 
-![](assets/2a686996ae5940bf8e03f1333ef5638d.png)
+![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/2a686996ae5940bf8e03f1333ef5638d.png)
 
 Sorting
 
@@ -6053,7 +6053,7 @@ order.
 
 Formula:
 
-![](assets/61bbad01a69aa9cc4056fe3f14133c22.png)
+![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/61bbad01a69aa9cc4056fe3f14133c22.png)
 
 Sorts vectors based on the cosine distance. This function is used to sort vectors based on the cosine
 
@@ -6081,7 +6081,7 @@ values of the cosine distance: 0 to 2.
 
 Formula:
 
-![](assets/e0b6d28c4cd5f7838b633a4124762b04.png)
+![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/e0b6d28c4cd5f7838b633a4124762b04.png)
 
 > **Important**
 >
@@ -6447,7 +6447,7 @@ FLOAT2 implements the IEEE 754 binary16 (half-precision) format. Each value occu
 
 The 10-bit significand provides approximately 3.311 decimal digits of precision (log10(2¹¹) ≈ 3.311).
 
-![](assets/71d2a5c270dbab7bcade1fa74c3d870e.png)
+![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/71d2a5c270dbab7bcade1fa74c3d870e.png)
 
 **Representative values**
 
@@ -6682,7 +6682,7 @@ In machine learning and natural language processing (NLP) technologies, storing 
 
 The following figure shows the difference between dense vectors and sparse vectors.
 
-![](assets/6d105382104f0fc7840a9550b2b75a10.jpeg)
+![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/6d105382104f0fc7840a9550b2b75a10.jpeg)
 
 **Prerequisites**
 
@@ -12777,7 +12777,7 @@ In this example, the following tools are used:
    show_images_from_full_dataset(dataset, 4, 8, [i for i in range(0, 32)])
    ```
 
-   ![](assets/e8723018e3dd3d4acae3850727a9c9ee.jpeg)
+   ![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/e8723018e3dd3d4acae3850727a9c9ee.jpeg)
 
 4. Use the Squeezenet1_1 model to generate feature vectors of all images in batches and store them in a feature vector file. In this example,  `/Users/XXX/Desktop/vector/features/CIFAR100/features`  is the path of the feature vector file.
 
@@ -12973,7 +12973,7 @@ In this example, the following tools are used:
 
    The following figure shows the image whose ID is 4999.
 
-   ![](assets/faa5e603daae8291c7a323da89732ed4.jpeg)
+   ![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/faa5e603daae8291c7a323da89732ed4.jpeg)
 
 4. Display the images corresponding to the query results.
 
@@ -12994,7 +12994,7 @@ In this example, the following tools are used:
 
    The following figures show the returned images.
 
-   ![](assets/3fafe37d7ea1ff79c7efb7005c15ac0d.jpeg)
+   ![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/3fafe37d7ea1ff79c7efb7005c15ac0d.jpeg)
 
 <a id="section-8-8"></a>
 
@@ -13024,7 +13024,7 @@ A machine learning (ML) model converts each text into a feature vector — a num
 
 At query time, the same ML model converts the query text into a vector. AnalyticDB for PostgreSQL's vector engine then uses the index to find the stored texts whose feature vectors are most similar to the query vector and returns them ranked by similarity.
 
-![](assets/34947b5146b078d81edb92b9209346e1.png)
+![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/34947b5146b078d81edb92b9209346e1.png)
 
 **Prerequisites**
 
@@ -13481,7 +13481,7 @@ This topic describes how to restore backup data to a new instance in AnalyticDB 
 
 4. Click the **Data Backup** or **Restore Points** tab. Find a backup that you want to use to restore data and click **Restore** in the **Actions** column.
 
-   ![](assets/67e727cd7f41be9eb70430cd5dae55eb.jpeg)
+   ![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/67e727cd7f41be9eb70430cd5dae55eb.jpeg)
 
 5. On the **AnalyticDB for PostgreSQL Clone** page, configure the parameters. The following table describes the parameters.
 
@@ -14188,7 +14188,7 @@ After an alert is triggered, you can view its history. You can also export and d
    | Task | Procedure |
    | --- | --- |
    | View alert history | In the <strong>Alert History</strong> list, view the <strong>Product Name</strong>, <strong>Affected</strong> <strong>Instance</strong>, <strong>Time</strong>, <strong>Rule Name</strong>, <strong>Status</strong>, <strong>Level</strong>, and <strong>Notification</strong> <strong>Recipient</strong>. Click the rule name to view the details of the alert rule.<br>Note<br>By default, you can query alert history data from the last 2 days. |
-   | Export alert history | i. On the <strong>Alert History</strong> page, click<img src="assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">in the upper-right<br>corner.<br>ii. In the <strong>Export Task</strong> dialog box, set <strong>Time Range</strong> and <strong>Task</strong> <strong>Name</strong>. Then, click <strong>OK</strong>. |
+   | Export alert history | i. On the <strong>Alert History</strong> page, click<img src="en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">in the upper-right<br>corner.<br>ii. In the <strong>Export Task</strong> dialog box, set <strong>Time Range</strong> and <strong>Task</strong> <strong>Name</strong>. Then, click <strong>OK</strong>. |
 
 <a id="section-11-3"></a>
 
@@ -14249,7 +14249,7 @@ This example creates an alert rule named "example" for an Elastic Compute Servic
 
 The following figure shows the rule description configuration for this scenario.
 
-![](assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
+![](en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
 
 <a id="section-11-3-2"></a>
 
@@ -14273,9 +14273,9 @@ From the list of alert rules, you can modify, enable, disable, and delete rules.
    | Check rule validity | In the <strong>Validity</strong> column of the target alert rule, click <strong>Click To Inspect</strong>. The inspection result is displayed in the Validity column.<br>Note<br>• If the inspection result is abnormal, click <strong>Detection Result</strong>. In the panel that appears, view the results for <strong>Alert Rule Execution</strong> <strong>Anomaly Detection</strong>, <strong>Alert Rule Load Detection</strong>, <strong>Invalid Alert</strong> <strong>Rule Detection</strong>, and <strong>Alert Rule Callback Detection</strong>.<br>• Click <strong>Re-detect</strong> to check the rule validity again. |
    | View rule execution records | In the <strong>Rule Execution Record</strong> column of the target alert rule, click <strong>View</strong> <strong>Rule Execution Record</strong>. On the <strong>Alert Rule Execution Record</strong> panel, filter the execution records by time range. |
    | Modify an alert rule | i. In the <strong>Operation</strong> column of the target alert rule, click <strong>Edit.</strong><br>ii. On the <strong>Modify Alert Rule</strong> panel, modify the alert rule. For more information about the configuration parameters, see Create an alert rule.<br>iii. After you finish the modification, click <strong>OK</strong>. |
-   | Disable an alert rule | Disable alert rules when you manually stop a cloud product for maintenance or an upgrade. This prevents unnecessary alert notifications.<br>Note<br>Before disabling an alert rule, make sure that its <strong>Status</strong> is <strong>Normal</strong>.<br>• Disable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Disable.</strong><br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Disable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
+   | Disable an alert rule | Disable alert rules when you manually stop a cloud product for maintenance or an upgrade. This prevents unnecessary alert notifications.<br>Note<br>Before disabling an alert rule, make sure that its <strong>Status</strong> is <strong>Normal</strong>.<br>• Disable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click the<img src="en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Disable.</strong><br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Disable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
    | Enable an alert rule | After you finish the maintenance or upgrade of a cloud product, re-enable the disabled alert rules.<br>Note<br>Before enabling an alert rule, make sure that its <strong>Status</strong> is <strong>Disabled</strong>.<br>• Enable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click <strong>Enable.</strong><br>b. In the <strong>Enable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Enable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Enable</strong> in the lower-left corner of the list.<br>b. In the <strong>Enable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
-   | Delete an alert rule | • Delete a single rule<br>a. In the Operation column of the target alert rule, click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Delete rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>. |
+   | Delete an alert rule | • Delete a single rule<br>a. In the Operation column of the target alert rule, click the<img src="en-analyticdb-analyticdb-postgresq-b20b5faf-v3.18.6-2607-20260828.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Delete rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>. |
 
 <a id="section-12"></a>
 

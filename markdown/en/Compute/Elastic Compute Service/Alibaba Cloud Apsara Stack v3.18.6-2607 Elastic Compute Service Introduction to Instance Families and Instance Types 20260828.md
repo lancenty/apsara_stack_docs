@@ -72,7 +72,7 @@ An instance family can be categorized into multiple instance types based on the 
 
 The following figure shows the naming conventions of ECS instance types.
 
-![](assets/60aa10c7f9cf2c14a2cddb3de8a44745.png)
+![](en-ecs-instance-families-introduction-v3.18.6-2607-20260828.assets/60aa10c7f9cf2c14a2cddb3de8a44745.png)
 
 Each instance type name consists of the following parts:
 

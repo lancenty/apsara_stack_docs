@@ -656,7 +656,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-dataworks-developer-guide-v3.18.6-2607-20260831.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -10026,7 +10026,7 @@ This operation uses only common request headers. See common request parameters f
 | Connectio nName | Strin g | Body | No | odps_first | The identifier of the data source used to execute the node. You can call the <code>ListDataSources</code> operation to view the available data sources. |
 | Owner | Strin g | Body | No | 18023848927592 | The user ID of the file owner. |
 
-![](assets/083524e627cc007dfb42b01571786ce6.png)
+![](en-dataworks-developer-guide-v3.18.6-2607-20260831.assets/083524e627cc007dfb42b01571786ce6.png)
 
 | Parame ter | Typ e | Locati on | Require d | Example | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -13278,7 +13278,7 @@ Sample structure and description of the EntityInfo parameter
 | ownerId | String | 0001 | The owner ID. |
 | ownerName | String | Alice | The name of the owner. |
 
-![](assets/7a055f7cb7708365b26da9636b643151.png)
+![](en-dataworks-developer-guide-v3.18.6-2607-20260831.assets/7a055f7cb7708365b26da9636b643151.png)
 
 **Examples**
 
@@ -22253,7 +22253,7 @@ This operation uses only common request headers. For more information, see commo
 | MethodNa me | Strin g | Body | No | table_count | The method used to collect sample data.Valid values include <code> avg </code>, <code> count </code>, <code> sum </code>, <code> min </code>, <code> max </code>, <code> count_distinct </code>, <code> user_defined </code>, <code> table_count </code>, <code> table_size </code>, <code>table_dt_load_count</code><code> </code>, <code>table_dt_refuseload_</code><code>count </code>, <code> null_value </code>, <code>null_value/table_cou</code> <code>nt </code>, <code> (table_count-</code><code>count_distinct)/table</code> <code>_count </code>, and <code>table_count-</code><code>count_distinct </code>. |
 | Operator | Strin g | Body | No | &gt; | The comparison operator. Valid values include <code> &gt; </code>, <code> &gt;= </code>, <code> = </code>, <code> ≠ </code>, <code> &lt; </code>, and <code> &lt;= </code>. This parameter is required when <code> Checker </code> is set to <code> 9 </code>. |
 
-![](assets/d5a1604bee1290b2e7b852baed227b0a.png)
+![](en-dataworks-developer-guide-v3.18.6-2607-20260831.assets/d5a1604bee1290b2e7b852baed227b0a.png)
 
 | Parame ter | Typ e | Locati on | Require d | Example | Description |
 | --- | --- | --- | --- | --- | --- |

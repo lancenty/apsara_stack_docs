@@ -143,7 +143,7 @@ This topic describes how to find the required documentation when you call an API
 
 You can follow the procedure described in the following figure to view the specific documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-mongodb-developer-guide-v3.18.6-2607-20260831.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -171,7 +171,7 @@ By default, Apsara Stack Enterprise Edition V3.16.0 and later versions use the p
 
 **Flowchart**
 
-![](assets/27a14c1fdbadd2d9298565190c14de9a.png)
+![](en-mongodb-developer-guide-v3.18.6-2607-20260831.assets/27a14c1fdbadd2d9298565190c14de9a.png)
 
 **Procedure**
 
@@ -231,7 +231,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-mongodb-developer-guide-v3.18.6-2607-20260831.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -241,7 +241,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 7. Click the operation that you want to call. Obtain the endpoint from the Endpoint parameter on the Parameter tab.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-mongodb-developer-guide-v3.18.6-2607-20260831.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 <a id="section-2-2"></a>
 
@@ -282,7 +282,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-mongodb-developer-guide-v3.18.6-2607-20260831.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -334,7 +334,7 @@ You must call a specific API operation to obtain an organization ID. You can obt
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
+4. Move the pointer over the <img src="en-mongodb-developer-guide-v3.18.6-2607-20260831.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
 
    **2019-05-10** from the **Version** drop-down list.
 
@@ -350,7 +350,7 @@ You must call a specific API operation to obtain a resource set ID. You can obta
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
+4. Move the pointer over the <img src="en-mongodb-developer-guide-v3.18.6-2607-20260831.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
 
    **2019-05-10** from the **Version** drop-down list.
 
@@ -1266,7 +1266,7 @@ To enable you to use the API call method in Apsara Stack as in Alibaba Cloud pub
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-mongodb-developer-guide-v3.18.6-2607-20260831.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -1276,7 +1276,7 @@ To enable you to use the API call method in Apsara Stack as in Alibaba Cloud pub
 
 7. Click the operation that you want to call. Obtain the endpoint from the Endpoint parameter on the Parameter tab.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-mongodb-developer-guide-v3.18.6-2607-20260831.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 **Obtain an endpoint in Apsara Infrastructure Management**
 
@@ -1294,7 +1294,7 @@ You can also obtain service endpoints by yourself. In this example, API Gateway 
 
 5. Enter  `apigateway`  in the Service Registration field and click **Search**.
 
-6. In the **Service Registration** column of the  `apigateway`  service, click the <img src="assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
+6. In the **Service Registration** column of the  `apigateway`  service, click the <img src="en-mongodb-developer-guide-v3.18.6-2607-20260831.assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
 
 7. Click the text information in the **Service Registration** column of the  `apigateway`  service. In the **Registration Variables** message, obtain the endpoint from the value of apigateway.openapi.endpoint.
 

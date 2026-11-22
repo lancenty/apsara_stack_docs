@@ -52,7 +52,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-apsara-copilot-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -62,7 +62,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 7. Click the operation that you want to call. Obtain the endpoint from the Endpoint parameter on the Parameter tab.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-apsara-copilot-developer-guide-v3.18.6-2607-20260828.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 <a id="section-1-2"></a>
 
@@ -109,7 +109,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **Apsara Stack AccessKey Pair** section, obtain the AccessKey pair.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-apsara-copilot-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -161,7 +161,7 @@ You must call a specific API operation to obtain an organization ID. You can obt
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
+4. Move the pointer over the <img src="en-apsara-copilot-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
 
    **2019-05-10** from the **Version** drop-down list.
 
@@ -177,7 +177,7 @@ You must call a specific API operation to obtain a resource set ID. You can obta
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-4. Move the pointer over the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
+4. Move the pointer over the <img src="en-apsara-copilot-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon and choose **Platform** > **Apsara Uni-manager**. Select
 
    **2019-05-10** from the **Version** drop-down list.
 
@@ -356,7 +356,7 @@ For a convenient and consistent experience similar to using Alibaba Cloud, we re
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-apsara-copilot-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the navigation pane on the left, select the target product.
 
@@ -386,7 +386,7 @@ You can also obtain the Endpoint yourself. The following procedure describes how
 
 7. On the Resource Details tab, find the resource with the name  `copilot-api-dns`  and type
 
-   `dns` . Then, click the <img src="assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon in the **Resource Request Result** column.
+   `dns` . Then, click the <img src="en-apsara-copilot-developer-guide-v3.18.6-2607-20260828.assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon in the **Resource Request Result** column.
 
 8. Click the text in the **Resource Request Result** column. In the dialog box that appears, you can view the domain value. This value is the  `Endpoint` .
 

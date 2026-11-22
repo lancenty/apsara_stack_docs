@@ -51,7 +51,7 @@ You can use POP Gateway or the Apsara Stack API (ASAPI) gateway to call Apsara S
 
 **Flowchart**
 
-![](assets/27a14c1fdbadd2d9298565190c14de9a.png)
+![](en-soar-developer-guide-v3.18.6-20260701.assets/27a14c1fdbadd2d9298565190c14de9a.png)
 
 **Procedure**
 
@@ -226,7 +226,7 @@ To obtain the AccessKey pair of a personal account, perform the following operat
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-soar-developer-guide-v3.18.6-20260701.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -492,7 +492,7 @@ If you want to call the API operations of Apsara Stack Security services from th
 
    </ol>
 
-   **ops**, management domain **pop-vip-mgmt**, and business domain **pop-vip-biz**, and then click the <img src="assets/2c7a04c5814efcba928f07be0cc3fa10.png" width="13" alt=""> icon in the **Resource Application Result** column to obtain the value of the
+   **ops**, management domain **pop-vip-mgmt**, and business domain **pop-vip-biz**, and then click the <img src="en-soar-developer-guide-v3.18.6-20260701.assets/2c7a04c5814efcba928f07be0cc3fa10.png" width="13" alt=""> icon in the **Resource Application Result** column to obtain the value of the
 
    vip_ip parameter.
 

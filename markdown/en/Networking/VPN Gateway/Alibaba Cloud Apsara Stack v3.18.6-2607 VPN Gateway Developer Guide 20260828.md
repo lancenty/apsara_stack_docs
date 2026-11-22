@@ -112,7 +112,7 @@ This topic describes how to view the desired product development documentation w
 
 You can follow the procedure described in the following figure to view the desired development documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-vpn-developer-guide-v3.18.6-2607-20260828.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -140,7 +140,7 @@ Apsara Stack allows you to call API operations by using the point of presence (P
 
 **Flowchart**
 
-![](assets/27a14c1fdbadd2d9298565190c14de9a.png)
+![](en-vpn-developer-guide-v3.18.6-2607-20260828.assets/27a14c1fdbadd2d9298565190c14de9a.png)
 
 **Procedure**
 
@@ -272,7 +272,7 @@ The API operations on the API Directory page are only for reference. For informa
 
 3. On the **API Directory** page, select the service that you want to use from the drop-down list, enter a keyword of an API operation name in the search box, and then click Search.
 
-   ![](assets/e40e266304604a863b174cad7303f674.png)
+   ![](en-vpn-developer-guide-v3.18.6-2607-20260828.assets/e40e266304604a863b174cad7303f674.png)
 
 4. View and record the service name, API operation name, and API version of the API operation that you want to call.
 
@@ -302,7 +302,7 @@ The Apsara Uni-manager Management Console provides AccessKey pairs for personal 
 
 | Parameter | Description |
 | --- | --- |
-| x-acs-regionid | The ID of the region. Example:<br>![](assets/ebb3647d2490507814c64eef0bfd3036.png)<br><code>cn-hangzhou-*</code>. |
+| x-acs-regionid | The ID of the region. Example:<br>![](en-vpn-developer-guide-v3.18.6-2607-20260828.assets/ebb3647d2490507814c64eef0bfd3036.png)<br><code>cn-hangzhou-*</code>. |
 | x-acs-organizationid | The ID of the organization in the Apsara Uni-manager Management Console. For more information about how to obtain organization IDs, see the <strong>GetOrganizationList</strong> section in <strong>Apsara</strong> Uni-manager Management Console <strong>Developer Guide</strong>. |
 | x-acs-resourcegroupid | The ID of the resource set in the Apsara Uni-manager Management Console. For more information about how to obtain resource set IDs, see the <strong>ListResourceGroup</strong> section in <strong>Apsara</strong> Uni-manager Management Console <strong>Developer Guide</strong>. |
 | x-acs-instanceid | The ID of the instance that you want to manage.You can obtain instance IDs from the instance list. |
@@ -315,7 +315,7 @@ The Apsara Uni-manager Management Console provides AccessKey pairs for personal 
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of your account.
 
-   ![](assets/85481fecdeaa04e65d0da70ce9f59363.png)
+   ![](en-vpn-developer-guide-v3.18.6-2607-20260828.assets/85481fecdeaa04e65d0da70ce9f59363.png)
 
    > **Note**
    >
@@ -584,7 +584,7 @@ To call an API operation of a cloud service, you must obtain the information abo
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-vpn-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -594,7 +594,7 @@ To call an API operation of a cloud service, you must obtain the information abo
 
 7. Click the operation that you want to call. Obtain the endpoint from the Endpoint parameter on the Parameter tab.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-vpn-developer-guide-v3.18.6-2607-20260828.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 <a id="section-2-7"></a>
 

@@ -46,7 +46,7 @@ def in_box(inner, outer, slack=1.5):
             and inner[2] <= outer[2] + slack and inner[3] <= outer[3] + slack)
 
 
-def _asset(data, ext, rect, page, directory, small=False):
+def _asset(data, ext, rect, page, directory, small=False, asset_prefix="assets"):
     name = hashlib.sha256(data).hexdigest()[:32] + "." + ext
     file = directory / name
     try:
@@ -55,7 +55,7 @@ def _asset(data, ext, rect, page, directory, small=False):
         present = False
     if not present:
         atomic_write(file, data)
-    url = "assets/" + name
+    url = f"{asset_prefix}/{name}"
     if small:
         md = f'<img src="{url}" width="{max(1, round(rect.width * 4/3))}" alt="">'
     else:
@@ -63,9 +63,9 @@ def _asset(data, ext, rect, page, directory, small=False):
     return dict(kind="image", bbox=tuple(rect), page=page.number + 1, md=md, url=url)
 
 
-def _crop(page, rect, directory, scale=3):
+def _crop(page, rect, directory, scale=3, asset_prefix="assets"):
     bitmap = page.get_pixmap(matrix=pymupdf.Matrix(scale, scale), clip=rect, alpha=False)
-    return _asset(bitmap.tobytes("png"), "png", rect, page, directory)
+    return _asset(bitmap.tobytes("png"), "png", rect, page, directory, asset_prefix=asset_prefix)
 
 
 def _vector_marks(drawings, body):
@@ -167,7 +167,7 @@ def _whole_screenshot(page, block, body, state):
     return False
 
 
-def extract_figures(page, blocks, lines, drawings, tables, body, directory, state):
+def extract_figures(page, blocks, lines, drawings, tables, body, directory, state, asset_prefix="assets"):
     body = pymupdf.Rect(body)
     images = []
     for block in blocks:
@@ -216,7 +216,7 @@ def extract_figures(page, blocks, lines, drawings, tables, body, directory, stat
             clipped = not _whole_screenshot(page, block, body, state)
         if composite or caption or overlay or tr[0] <= 0 or tr[3] <= 0 or abs(tr[1])+abs(tr[2]) > 0.01 or clipped:
             scale = max(3, min(6, block["width"] / max(1, rect.width)))
-            event = _crop(page, rect, directory, scale)
+            event = _crop(page, rect, directory, scale, asset_prefix=asset_prefix)
             covered.update(caption)
         else:
             data, ext = block["image"], block["ext"]
@@ -231,7 +231,7 @@ def extract_figures(page, blocks, lines, drawings, tables, body, directory, stat
                 if pix.colorspace and pix.colorspace.n > 3:
                     pix = pymupdf.Pixmap(pymupdf.csRGB, pix)
                 data, ext = pix.tobytes("png"), "png"
-            event = _asset(data, ext, rect, page, directory, max(rect.width, rect.height) <= 22)
+            event = _asset(data, ext, rect, page, directory, max(rect.width, rect.height) <= 22, asset_prefix=asset_prefix)
         events.append(event)
 
     marks = [p for p in marks if not any(in_box(p["rect"], r) for r, _ in images)]
@@ -254,15 +254,15 @@ def extract_figures(page, blocks, lines, drawings, tables, body, directory, stat
             if any(in_box(t["bbox"], rect) for t in tables):
                 continue
             rect = (rect + (-2, -2, 2, 2)) & body
-            events.append(_crop(page, rect, directory))
+            events.append(_crop(page, rect, directory, asset_prefix=asset_prefix))
             covered.update(i for i, line in enumerate(lines) if in_box(line["bbox"], rect, 0))
     return events, covered
 
 
-def fallback_figure(page, body, directory):
+def fallback_figure(page, body, directory, asset_prefix="assets"):
     """Preserve independently drawn content on a page with no extracted events."""
     rect = pymupdf.Rect(body)
     preview = page.get_pixmap(matrix=pymupdf.Matrix(.7,.7), clip=rect, colorspace=pymupdf.csGRAY)
     if sum(v < 230 for v in preview.samples) < 5:
         return None
-    return _crop(page, rect, directory)
+    return _crop(page, rect, directory, asset_prefix=asset_prefix)

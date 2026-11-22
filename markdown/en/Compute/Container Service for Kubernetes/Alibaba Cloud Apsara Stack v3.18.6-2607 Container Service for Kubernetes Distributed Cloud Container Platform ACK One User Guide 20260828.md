@@ -57,7 +57,7 @@ This topic describes how to log in to the ACK One console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-ack-ack-one-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -276,11 +276,11 @@ Due to the wide adoption of Kubernetes, enterprises may want to run and manage m
 
 Unified Control Plane
 
-![](assets/4045cd94bc4df26cf53b9162b8090927.png)
+![](en-ack-ack-one-user-guide-v3.18.6-2607-20260828.assets/4045cd94bc4df26cf53b9162b8090927.png)
 
-![](assets/7ab4359595ad44da25ac654bf6ad81f9.png)
+![](en-ack-ack-one-user-guide-v3.18.6-2607-20260828.assets/7ab4359595ad44da25ac654bf6ad81f9.png)
 
-![](assets/4c2c57cbfb816c436f4d7a90d703cd53.png)
+![](en-ack-ack-one-user-guide-v3.18.6-2607-20260828.assets/4c2c57cbfb816c436f4d7a90d703cd53.png)
 
 The Fleet management feature of ACK One is ideal for the following scenarios:
 
@@ -326,7 +326,7 @@ API Server SLB
 
 Instance
 
-![](assets/d3558a97dae5c59704df6b1dc6da9f8a.png)
+![](en-ack-ack-one-user-guide-v3.18.6-2607-20260828.assets/d3558a97dae5c59704df6b1dc6da9f8a.png)
 
 Applications
 
@@ -338,7 +338,7 @@ API Server SLB
 
 API Server SLB
 
-![](assets/7c3067c8c0815abb69ed5e3b01c551f6.png)
+![](en-ack-ack-one-user-guide-v3.18.6-2607-20260828.assets/7c3067c8c0815abb69ed5e3b01c551f6.png)
 
 VPC Interconnection
 

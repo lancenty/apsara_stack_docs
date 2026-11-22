@@ -124,7 +124,7 @@ This topic describes how to view the desired product development documentation w
 
 You can follow the procedure described in the following figure to view the desired development documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-acr-developer-guide-v3.18.6-2607-20260828.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -152,7 +152,7 @@ Apsara Stack allows you to call API operations by using the point of presence (P
 
 **Flowchart**
 
-![](assets/27a14c1fdbadd2d9298565190c14de9a.png)
+![](en-acr-developer-guide-v3.18.6-2607-20260828.assets/27a14c1fdbadd2d9298565190c14de9a.png)
 
 **Procedure**
 
@@ -246,7 +246,7 @@ The information on the API directory page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-acr-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service.
 
@@ -256,7 +256,7 @@ The information on the API directory page of the Apsara Uni-manager Management C
 
 7. Select an API operation and obtain the POP endpoint of the cloud service on the Parameter tab.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-acr-developer-guide-v3.18.6-2607-20260828.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 <a id="section-1-2-3"></a>
 
@@ -299,7 +299,7 @@ To obtain the AccessKey pair of a personal account, perform the following operat
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-acr-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -5432,7 +5432,7 @@ This operation uses only common request headers. For more information, see Commo
 | ArtifactTy pe | Strin g | Query | Yes | ACCELERATED_IMAGE | The type of the accelerated image. Valid value:<br><code>• ACCELERATED_IMAGE</code><code> </code>: Generates an accelerated image. |
 | Parameter s | Map | Query | No | {} | Additional parameters. |
 
-![](assets/f09cfe9250c17f26650485fa29a98c30.png)
+![](en-acr-developer-guide-v3.18.6-2607-20260828.assets/f09cfe9250c17f26650485fa29a98c30.png)
 
 **Response parameters**
 
@@ -5576,7 +5576,7 @@ This operation uses only common request headers. For more information, see Commo
 | SourceArtif actRepoId | Strin g | Quer y | No | crr-1rgqu9n2e\*\*\*\* | The ID of the source artifact repository. |
 | DestArtifac tRepoId | Strin g | Quer y | No | crr-1rgqu9n2e\*\*\*\* | The ID of the destination artifact repository. |
 
-![](assets/48811337508e77ea09be95682f871d16.png)
+![](en-acr-developer-guide-v3.18.6-2607-20260828.assets/48811337508e77ea09be95682f871d16.png)
 
 **Response parameters**
 
@@ -5626,7 +5626,7 @@ This operation uses only common request headers. For more information, see Commo
 | ArtifactTyp e | Strin g | Quer y | No | ACCELERATED_IMAGE | The type of artifact. Valid value:<br><code>• ACCELERATED_IMAGE</code><code> </code>: An accelerated image. |
 | BuildRuleI d | Strin g | Quer y | No | crabr-ly77w5i3t31f\*\*\*\* | The build rule ID. |
 
-![](assets/783ddf61175e6d1e8b1c365163efe1c4.png)
+![](en-acr-developer-guide-v3.18.6-2607-20260828.assets/783ddf61175e6d1e8b1c365163efe1c4.png)
 
 **Response parameters**
 
@@ -5695,7 +5695,7 @@ This operation uses common request headers. No special request headers are requi
 | ScopeId | Strin g | Quer y | No | crr-pmajihou6cg0\*\*\*\* | The ID of the scope to which the rule applies.Valid value:<br>• <code> ScopeId </code> to the ID of an image repository. |
 | ArtifactTyp e | Strin g | Quer y | No | ACCELERATED_IMAGE | The type of the artifact.Valid value:<br><code>• ACCELERATED_IMAGE</code><code> </code>: an accelerated image. |
 
-![](assets/d790e121e59c22bd8b5bb5b0f9ff5f62.png)
+![](en-acr-developer-guide-v3.18.6-2607-20260828.assets/d790e121e59c22bd8b5bb5b0f9ff5f62.png)
 
 **Response parameters**
 

@@ -210,7 +210,7 @@ This topic describes how to find the product documentation that you need to use 
 
 Follow the steps in the flowchart below to find the development documentation that you need.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-ndr-developer-guide-v3.18.6-2607-20260828.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -238,17 +238,17 @@ Apsara Stack supports API calls through a POP gateway, providing an experience c
 
 **Flowchart**
 
-![](assets/a921fb8fe08c2b618de5b3740342bc57.png)
+![](en-ndr-developer-guide-v3.18.6-2607-20260828.assets/a921fb8fe08c2b618de5b3740342bc57.png)
 
-![](assets/a9df43be95bd856da7449e9a2c9f9365.png)
+![](en-ndr-developer-guide-v3.18.6-2607-20260828.assets/a9df43be95bd856da7449e9a2c9f9365.png)
 
 Make prep
 
 parameters.
 
-![](assets/584d0ea17bf66d31b69bd9402b3db72b.png)
+![](en-ndr-developer-guide-v3.18.6-2607-20260828.assets/584d0ea17bf66d31b69bd9402b3db72b.png)
 
-![](assets/cdf0e2f75234bebdff559d44a62c7699.png)
+![](en-ndr-developer-guide-v3.18.6-2607-20260828.assets/cdf0e2f75234bebdff559d44a62c7699.png)
 
 Make the ca
 
@@ -308,7 +308,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging** in the top navigation bar.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-ndr-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -318,7 +318,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 7. Click the operation that you want to call. Obtain the endpoint from the Endpoint parameter on the Parameter tab.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-ndr-developer-guide-v3.18.6-2607-20260828.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 <a id="section-2-2"></a>
 
@@ -433,7 +433,7 @@ Follow these steps to obtain a personal account AccessKey:
 
 3. In the **Alibaba Cloud AccessKey** section, view the AccessKey information for your personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-ndr-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >

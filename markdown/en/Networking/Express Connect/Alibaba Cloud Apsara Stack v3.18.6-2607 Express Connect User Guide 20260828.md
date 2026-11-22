@@ -51,7 +51,7 @@ This topic describes how to log on to the Express Connect console from the Apsar
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-express-connect-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -679,7 +679,7 @@ On the **VPC-to-VPC** page, you can view the created peering connections.
 
 - You can use a keyword or a specific filter condition to filter peering connections.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the peering connection list to select the
+- Click the <img src="en-express-connect-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the peering connection list to select the
 
   columns that you want to show or hide. You can also drag a column name to adjust its order.
 
@@ -691,7 +691,7 @@ On the **VPC-to-VPC** page, you can view the created peering connections.
 
 - Click **Route Settings** in the **Acceptor** column to manage the route configurations of the acceptor.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the value in the **Requester** or **Acceptor** column to modify the
+- Click the <img src="en-express-connect-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the value in the **Requester** or **Acceptor** column to modify the
 
   name of the requester or acceptor.
 
@@ -950,7 +950,7 @@ The **VBR-to-VPC Connection** page lists the details of created peering connecti
 
 - Click an instance ID in the **Acceptor Instance** column to view the configuration information of the acceptor instance.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name in the **Initiator Instance** column to modify the initiator
+- Click the <img src="en-express-connect-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name in the **Initiator Instance** column to modify the initiator
 
   router interface name.
 
@@ -1053,7 +1053,7 @@ On the **Express Connect circuit** page, you can view the created Express Connec
 
 - You can use a keyword or a specific filter condition to filter Express Connect circuits.
 
-- Click <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> next to the name of an Express Connect circuit in the **ID/Name** column to modify
+- Click <img src="en-express-connect-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> next to the name of an Express Connect circuit in the **ID/Name** column to modify
 
   the name.
 
@@ -1095,7 +1095,7 @@ For more information, see Delete a connection over an Express Connect circuit.
 
      - Click **Modify** in the upper-right corner to modify the information. For more information, see Modify the information about an Express Connect circuit.
 
-     - Click <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> next to **Description** to modify the description.
+     - Click <img src="en-express-connect-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> next to **Description** to modify the description.
 
        The description must be 2 to 256 characters in length and cannot start with  `http://` or  `https://` .
 
@@ -1338,7 +1338,7 @@ On the **Virtual Border Router** page, you can view the created VBRs in the list
 
 - You can use a keyword or a specific filter condition to filter VBRs.
 
-- Click <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> next to the name in the **ID/Name** column to modify the name of the VBR.
+- Click <img src="en-express-connect-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> next to the name in the **ID/Name** column to modify the name of the VBR.
 
 **Manage tags**
 
@@ -1899,7 +1899,7 @@ Tags are used to mark instances. Each tag consists of a key and a value. Before 
 
      <li>
 
-     On the instances page, find the instance, move the pointer over <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> in the **Tag** column,
+     On the instances page, find the instance, move the pointer over <img src="en-express-connect-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> in the **Tag** column,
 
      and click **Edit** in the pop-up message.
 
@@ -1970,7 +1970,7 @@ Tags are used to mark instances. Each tag consists of a key and a value. Before 
 
      <li>
 
-     On the instances page, find the instance, move the pointer over <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> in the **Tag** column,
+     On the instances page, find the instance, move the pointer over <img src="en-express-connect-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> in the **Tag** column,
 
      and click **Edit** in the pop-up message.
 
@@ -1978,7 +1978,7 @@ Tags are used to mark instances. Each tag consists of a key and a value. Before 
 
      <li>
 
-     In the **Edit Tags** dialog box, click <img src="assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt=""> next to the tags that you want to delete, and then
+     In the **Edit Tags** dialog box, click <img src="en-express-connect-user-guide-v3.18.6-2607-20260828.assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt=""> next to the tags that you want to delete, and then
 
      click **OK**.
 

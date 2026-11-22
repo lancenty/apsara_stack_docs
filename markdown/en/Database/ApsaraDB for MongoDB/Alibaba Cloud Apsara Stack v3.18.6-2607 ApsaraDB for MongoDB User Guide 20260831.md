@@ -1932,7 +1932,7 @@ rge.d
 
 This topic is a quick start guide to basic usage operations for ApsaraDB for MongoDB, such as creating an instance, configuring a whitelist, and connecting to an instance. Flowcharts are used to describe the basic procedures in ApsaraDB for MongoDB, and guide you to create an ApsaraDB for MongoDB instance.
 
-![](assets/22085955fe47c52d04c1ff603afa3fb9.jpeg)
+![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/22085955fe47c52d04c1ff603afa3fb9.jpeg)
 
 - Create a replica set instance
 
@@ -2595,7 +2595,7 @@ An IP address whitelist is configured. For more information about how to configu
 
    in the **Actions** column corresponding to the instance and select
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Manage**.
 
@@ -2824,7 +2824,7 @@ ApsaraDB for MongoDB sharded cluster instances support both connection strings a
 
 4. In the left-side navigation pane, click **Database Connections** to view connection strings.
 
-   ![](assets/b29c9820621692aad42dadb422352163.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/b29c9820621692aad42dadb422352163.png)
 
 **Description of connection strings**
 
@@ -3488,7 +3488,7 @@ This topic describes how to view the details of an ApsaraDB for MongoDB instance
 
    - Find the instance that you want to view and click its ID to go to the **Basic Information** page. Then, you can view the details of the instance.
 
-   - Click <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="10" alt=""> in the **Actions** column corresponding to the instance that you want to view and
+   - Click <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="10" alt=""> in the **Actions** column corresponding to the instance that you want to view and
 
      select **Manage** to go to the **Basic Information** page. Then, you can view the details of the instance.
 
@@ -3512,7 +3512,7 @@ The instance is in the **Running** state.
 
    in the **Actions** column corresponding to the instance and select
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Manage**.
 
@@ -3526,11 +3526,11 @@ The instance is in the **Running** state.
    >
    >   in the **Actions**
    >
-   >   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   >   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
    >
    >   column, and then select **Restart**.
 
-   ![](assets/9100064aac0eb0398104860aeb753997.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/9100064aac0eb0398104860aeb753997.png)
 
 5. In the **Restart Instance** message, click **OK**.
 
@@ -3554,17 +3554,17 @@ The instance is a replica set instance.
 
    in the **Actions**
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    column corresponding to the instance and select **Manage**.
 
 4. In the upper-right corner of the Specification Information section of the page that appears, click **Change Configuration** to go to the **Modify Instance** page.
 
-   ![](assets/2fcdf33f59c466ccdb487a25fc3921e3.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/2fcdf33f59c466ccdb487a25fc3921e3.png)
 
    > **Note**
    >
-   > You can also click <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="10" alt=""> in the **Actions** column corresponding to the instance
+   > You can also click <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="10" alt=""> in the **Actions** column corresponding to the instance
    >
    > and select **Change Configuration** on the **Replica Set Instances** page to go to the **Modify Instance** page.
 
@@ -3608,7 +3608,7 @@ This topic describes how to add a mongos node to an ApsaraDB for MongoDB sharded
 
    in
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    the **Operation** column corresponding to the instance and select **Manage**.
 
@@ -3646,7 +3646,7 @@ This topic describes how to add a shard node to an ApsaraDB for MongoDB sharded 
 
    in
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    the **Operation** column corresponding to the instance and select **Manage**.
 
@@ -3686,7 +3686,7 @@ This topic describes how to change the configurations of one or more mongos node
 
    in
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    the **Operation** column corresponding to the instance and select **Manage**.
 
@@ -3756,7 +3756,7 @@ This topic describes how to change the configurations of one or more shard nodes
 
    in
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    the **Operation** column corresponding to the instance and select **Manage**.
 
@@ -3764,7 +3764,7 @@ This topic describes how to change the configurations of one or more shard nodes
 
    - Change the configurations of one shard node
 
-     Click <img src="assets/2c6465f63839a65bed842daccde123ca.png" width="10" alt=""> in the **Operation** column of the target shard node row and select **Change**
+     Click <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/2c6465f63839a65bed842daccde123ca.png" width="10" alt=""> in the **Operation** column of the target shard node row and select **Change**
 
      **Configurations**.
 
@@ -3814,7 +3814,7 @@ This topic describes how to change the configurations of a Configserver node in 
 
    in
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    the **Operation** column corresponding to the instance and select **Manage**.
 
@@ -3846,13 +3846,13 @@ This topic describes how to change the name of an ApsaraDB for MongoDB instance 
 
    in the **Actions** column corresponding to the instance and select
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Manage**.
 
 4. Click **Edit** to the right of **Instance Name**.
 
-   ![](assets/9e1b11c3ea64569b8028d68ed4d114c6.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/9e1b11c3ea64569b8028d68ed4d114c6.png)
 
    > **Note**
    >
@@ -3944,7 +3944,7 @@ You can switch the node roles of an ApsaraDB for MongoDB instance in the ApsaraD
 
 When an Elastic Compute Service (ECS) instance and an ApsaraDB for MongoDB instance are connected in the same zone over an internal network, the latency is minimal. If they are connected across different zones, the latency increases and the performance of the ApsaraDB for MongoDB instance and your business is affected.
 
-![](assets/700eb896fbe226c11f8c85f1a98bca08.png)
+![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/700eb896fbe226c11f8c85f1a98bca08.png)
 
 In this example, the ECS instance to which the application belongs is in Zone 2. If the primary node of the ApsaraDB for MongoDB instance is in Zone 1, the ECS instance needs to connect to the primary node across zones.
 
@@ -3982,7 +3982,7 @@ To optimize the business deployment architecture, you can switch roles between t
 
      In the **Switch Role** panel, select the node for which you want to switch the role.
 
-     ![](assets/82689887764a74fc3caf9ad3271b41c3.png)
+     ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/82689887764a74fc3caf9ad3271b41c3.png)
 
      </li>
 
@@ -4018,7 +4018,7 @@ To optimize the business deployment architecture, you can switch roles between t
 
      In the **Switch Role** panel, select the node for which you want to switch the role.
 
-     ![](assets/24f0100ce10b10e979376df4609b45eb.png)
+     ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/24f0100ce10b10e979376df4609b45eb.png)
 
      </li>
 
@@ -4078,19 +4078,19 @@ This topic describes how to migrate an ApsaraDB for MongoDB instance to a differ
 
    in the **Actions** column corresponding to the instance and select
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Manage**.
 
 4. In the **Basic Information** section, click **Change Zone**.
 
-   ![](assets/1db07a14e8557fea4f6c55684a52b018.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/1db07a14e8557fea4f6c55684a52b018.png)
 
 5. In the **Migrate Instance to Other Zone** panel, configure the parameters based on the network type of the instance.
 
    - Migrate an ApsaraDB for MongoDB instance in a VPC to a different zone
 
-     ![](assets/f73055aa243a0e1106be2d9bc4004c36.png)
+     ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/f73055aa243a0e1106be2d9bc4004c36.png)
 
      | Parameter | Description |
      | --- | --- |
@@ -4100,7 +4100,7 @@ This topic describes how to migrate an ApsaraDB for MongoDB instance to a differ
 
    - Migrate an ApsaraDB for MongoDB instance in the classic network to a different zone
 
-     ![](assets/302c878e019338f26b7809f0c98a9c47.png)
+     ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/302c878e019338f26b7809f0c98a9c47.png)
 
      | Parameter | Description |
      | --- | --- |
@@ -4127,7 +4127,7 @@ This topic describes how to manually release an ApsaraDB for MongoDB instance to
 
    in the **Actions** column corresponding to the instance and select
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Manage**.
 
@@ -4139,7 +4139,7 @@ This topic describes how to manually release an ApsaraDB for MongoDB instance to
    >
    > in the **Actions** column corresponding to the instance
    >
-   > <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   > <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
    >
    > and select **Release**.
 
@@ -4181,13 +4181,13 @@ Each time you trigger a primary/secondary switchover for an instance, the instan
 
    in the **Actions**
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    column corresponding to the instance and select **Manage**.
 
 3. In the **Node List** section, click **Failover**.
 
-   ![](assets/e34fc68e3dbba33ca755448e07a2494a.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/e34fc68e3dbba33ca755448e07a2494a.png)
 
 4. In the **Failover** message, click **OK**.
 
@@ -4227,11 +4227,11 @@ Each time you trigger a primary/secondary failover for an instance, the instance
 
    in the **Actions** column corresponding to the instance and select
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Manage**.
 
-4. In the **Shard List** or **ConfigServer List** section, click <img src="assets/2c42747ff0594c8f986d07e3af2f3cc4.png" width="3" alt=""> in the **Actions** column
+4. In the **Shard List** or **ConfigServer List** section, click <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/2c42747ff0594c8f986d07e3af2f3cc4.png" width="3" alt=""> in the **Actions** column
 
    corresponding to the node for which you want to perform failover and select **Failover**.
 
@@ -4343,7 +4343,7 @@ This topic describes how to create an account for an ApsaraDB for MongoDB instan
 
 5. Click **Create Account** in the upper part of the page.
 
-   ![](assets/ffdb4a8e67e407c80900eb9597c81f83.jpeg)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/ffdb4a8e67e407c80900eb9597c81f83.jpeg)
 
 6. In the **Create Account** panel, enter the account name and password, and grant database permissions to the account based on your business requirements.
 
@@ -4798,7 +4798,7 @@ When you configure multiple clusters that contain one or more parameters with th
 
 3. In the **Apply to an instance** panel, select the clusters to which you want to apply the
 
-   parameter template and click the <img src="assets/755429035c761e93d0759e527ecc415a.jpeg" width="26" alt=""> icon to move them to the right list. You can view the
+   parameter template and click the <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/755429035c761e93d0759e527ecc415a.jpeg" width="26" alt=""> icon to move them to the right list. You can view the
 
    differences between the parameter values in the template and the parameter values in the clusters in the **Parameter comparison** section.
 
@@ -4894,13 +4894,13 @@ This topic describes how to manually back up an ApsaraDB for MongoDB instance. A
 
    in the **Actions** column corresponding to the instance and select
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Manage**.
 
 4. In the upper-right corner of the page, click **Back up Instance**.
 
-   ![](assets/143babd26aff28b9c5900912341b0adf.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/143babd26aff28b9c5900912341b0adf.png)
 
 5. In the **Back up Instance** panel, select a backup method from the **Backup Method** drop-down list and then click **OK**.
 
@@ -4920,7 +4920,7 @@ ApsaraDB for MongoDB allows you to download backup files that can be used to res
 
 4. In the left-side navigation pane, click **Backup and Restoration**.
 
-5. On the page that appears, click <img src="assets/2c42747ff0594c8f986d07e3af2f3cc4.png" width="3" alt=""> in the **Actions** column corresponding to a backup file and
+5. On the page that appears, click <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/2c42747ff0594c8f986d07e3af2f3cc4.png" width="3" alt=""> in the **Actions** column corresponding to a backup file and
 
    select **Download**.
 
@@ -4958,7 +4958,7 @@ Only points in time from the last seven days can be selected.
 
    in the **Actions** column corresponding to the instance and select
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Manage**.
 
@@ -5035,7 +5035,7 @@ Only backup points from the last seven days can be selected.
 
    in the **Actions**
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    column corresponding to the instance and select **Manage**.
 
@@ -5051,7 +5051,7 @@ Only backup points from the last seven days can be selected.
 
    > **Create**
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Instance from Backup Point** in the **Actions** column.
 
@@ -5123,13 +5123,13 @@ The instance is a replica set instance with three nodes.
 
    in the **Actions**
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    column corresponding to the instance and select **Manage**.
 
 3. In the left-side navigation pane, click **Backup and Recovery**.
 
-4. On the **Backup and Recovery** page, find the backup set that you want to manage and click the <img src="assets/2c42747ff0594c8f986d07e3af2f3cc4.png" width="3" alt=""> icon. Then, select Data Rollback.
+4. On the **Backup and Recovery** page, find the backup set that you want to manage and click the <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/2c42747ff0594c8f986d07e3af2f3cc4.png" width="3" alt=""> icon. Then, select Data Rollback.
 
    > **Note**
    >
@@ -5194,7 +5194,7 @@ After an alert is triggered, you can view its history. You can also export and d
    | Task | Procedure |
    | --- | --- |
    | View alert history | In the <strong>Alert History</strong> list, view the <strong>Product Name</strong>, <strong>Affected</strong> <strong>Instance</strong>, <strong>Time</strong>, <strong>Rule Name</strong>, <strong>Status</strong>, <strong>Level</strong>, and <strong>Notification</strong> <strong>Recipient</strong>. Click the rule name to view the details of the alert rule.<br>Note<br>By default, you can query alert history data from the last 2 days. |
-   | Export alert history | i. On the <strong>Alert History</strong> page, click<img src="assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">in the upper-right<br>corner.<br>ii. In the <strong>Export Task</strong> dialog box, set <strong>Time Range</strong> and <strong>Task</strong> <strong>Name</strong>. Then, click <strong>OK</strong>. |
+   | Export alert history | i. On the <strong>Alert History</strong> page, click<img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">in the upper-right<br>corner.<br>ii. In the <strong>Export Task</strong> dialog box, set <strong>Time Range</strong> and <strong>Task</strong> <strong>Name</strong>. Then, click <strong>OK</strong>. |
 
 <a id="section-10-3"></a>
 
@@ -5255,7 +5255,7 @@ This example creates an alert rule named "example" for an Elastic Compute Servic
 
 The following figure shows the rule description configuration for this scenario.
 
-![](assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
+![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
 
 <a id="section-10-3-2"></a>
 
@@ -5279,9 +5279,9 @@ From the list of alert rules, you can modify, enable, disable, and delete rules.
    | Check rule validity | In the <strong>Validity</strong> column of the target alert rule, click <strong>Click To Inspect</strong>. The inspection result is displayed in the Validity column.<br>Note<br>• If the inspection result is abnormal, click <strong>Detection Result</strong>. In the panel that appears, view the results for <strong>Alert Rule Execution</strong> <strong>Anomaly Detection</strong>, <strong>Alert Rule Load Detection</strong>, <strong>Invalid Alert</strong> <strong>Rule Detection</strong>, and <strong>Alert Rule Callback Detection</strong>.<br>• Click <strong>Re-detect</strong> to check the rule validity again. |
    | View rule execution records | In the <strong>Rule Execution Record</strong> column of the target alert rule, click <strong>View</strong> <strong>Rule Execution Record</strong>. On the <strong>Alert Rule Execution Record</strong> panel, filter the execution records by time range. |
    | Modify an alert rule | i. In the <strong>Operation</strong> column of the target alert rule, click <strong>Edit.</strong><br>ii. On the <strong>Modify Alert Rule</strong> panel, modify the alert rule. For more information about the configuration parameters, see Create an alert rule.<br>iii. After you finish the modification, click <strong>OK</strong>. |
-   | Disable an alert rule | Disable alert rules when you manually stop a cloud product for maintenance or an upgrade. This prevents unnecessary alert notifications.<br>Note<br>Before disabling an alert rule, make sure that its <strong>Status</strong> is <strong>Normal</strong>.<br>• Disable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Disable.</strong><br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Disable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
+   | Disable an alert rule | Disable alert rules when you manually stop a cloud product for maintenance or an upgrade. This prevents unnecessary alert notifications.<br>Note<br>Before disabling an alert rule, make sure that its <strong>Status</strong> is <strong>Normal</strong>.<br>• Disable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click the<img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Disable.</strong><br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Disable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
    | Enable an alert rule | After you finish the maintenance or upgrade of a cloud product, re-enable the disabled alert rules.<br>Note<br>Before enabling an alert rule, make sure that its <strong>Status</strong> is <strong>Disabled</strong>.<br>• Enable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click <strong>Enable.</strong><br>b. In the <strong>Enable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Enable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Enable</strong> in the lower-left corner of the list.<br>b. In the <strong>Enable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
-   | Delete an alert rule | • Delete a single rule<br>a. In the Operation column of the target alert rule, click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Delete rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>. |
+   | Delete an alert rule | • Delete a single rule<br>a. In the Operation column of the target alert rule, click the<img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Delete rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>. |
 
 <a id="section-11"></a>
 
@@ -5352,7 +5352,7 @@ An IP address whitelist is configured. For more information about how to configu
 
    in the **Actions** column corresponding to the instance and select
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Manage**.
 
@@ -5556,7 +5556,7 @@ ApsaraDB for MongoDB instances support Virtual Private Cloud (VPC), classic netw
 
 4. In the **Public Connections** section, apply for an IPv4 address or apply for an IPv4 address and an IPv6 address.
 
-   ![](assets/0a3f6738aa939b0424e570bf91a40c56.jpeg)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/0a3f6738aa939b0424e570bf91a40c56.jpeg)
 
 5. In the message that appears, click **OK**.
 
@@ -5582,7 +5582,7 @@ After you submit the application, the replica set instance generates public endp
 
 5. In the **Public Connections** section, click **Apply for Public Connection String**.
 
-   ![](assets/89c93bd26bba9a5d459b16673482ba43.jpeg)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/89c93bd26bba9a5d459b16673482ba43.jpeg)
 
 6. In the **Apply for Public Connection String** pane, specify **Node Type**, **Node ID**, and **Apply for IP type** and click **OK**.
 
@@ -5628,7 +5628,7 @@ To ensure data security, you can release public endpoints that are no longer nee
 
 4. In the **Public Connections** section, click **Release Public Connection String**.
 
-   ![](assets/f50939d964b21bf80556fa867b528890.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/f50939d964b21bf80556fa867b528890.png)
 
 5. In the **Release Public Connection String** message, click **OK**.
 
@@ -5698,7 +5698,7 @@ A sharded cluster instance is created.
 
    in the **Actions** column corresponding to the instance and select
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Manage**.
 
@@ -5761,7 +5761,7 @@ When you no longer need to connect to a shard or Configserver node, you can rele
 
    in the **Actions** column corresponding to the instance and select
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Manage**.
 
@@ -5797,7 +5797,7 @@ A whitelist is configured for the replica set instance. For more information, se
 
 4. In the left-side navigation pane, click **Database Connections** to view connection strings.
 
-   ![](assets/cdd0f8d3e408ad55afefa880d0f36359.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/cdd0f8d3e408ad55afefa880d0f36359.png)
 
 **Description of connection strings**
 
@@ -5834,7 +5834,7 @@ ApsaraDB for MongoDB sharded cluster instances support both connection strings a
 
 4. In the left-side navigation pane, click **Database Connections** to view connection strings.
 
-   ![](assets/b29c9820621692aad42dadb422352163.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/b29c9820621692aad42dadb422352163.png)
 
 **Description of connection strings**
 
@@ -5878,7 +5878,7 @@ This topic describes how to configure a whitelist for an ApsaraDB for MongoDB in
 
      <li>
 
-     Click <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt=""> in the **Actions** column corresponding to a whitelist and select **Manually**
+     Click <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt=""> in the **Actions** column corresponding to a whitelist and select **Manually**
 
      **Modify**.
 
@@ -5916,7 +5916,7 @@ This topic describes how to configure a whitelist for an ApsaraDB for MongoDB in
 
      <li>
 
-     Click <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt=""> in the **Actions** column corresponding to a whitelist and select **Import ECS**
+     Click <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt=""> in the **Actions** column corresponding to a whitelist and select **Import ECS**
 
      **Intranet IP**.
 
@@ -5926,7 +5926,7 @@ This topic describes how to configure a whitelist for an ApsaraDB for MongoDB in
 
      In the **Import ECS Intranet IP** panel, select the IP addresses that you want to add to
 
-     the IP address whitelist and click <img src="assets/233e3f2c21f8fb696a90e02f68ea9383.png" width="46" alt=""> to add these IP addresses to the whitelist.
+     the IP address whitelist and click <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/233e3f2c21f8fb696a90e02f68ea9383.png" width="46" alt=""> to add these IP addresses to the whitelist.
 
      </li>
 
@@ -6180,7 +6180,7 @@ When you enable or disable SSL encryption or renew SSL certificates for an insta
    >
    > - You can also click **Modify Expiry** or **Download CA Certificate** to perform the corresponding operation.
    >
-   >   ![](assets/09505941bb057d7fca0859f6ac64538f.jpeg)
+   >   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/09505941bb057d7fca0859f6ac64538f.jpeg)
 
 <a id="section-12-5"></a>
 
@@ -6230,7 +6230,7 @@ The MongoDB version of the instance is 4.0.
 
    icon in the **Actions** column
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    corresponding to the instance and then select **Manage** to go to the **Basic Information** page.
 
@@ -6238,7 +6238,7 @@ The MongoDB version of the instance is 4.0.
 
 5. Turn on TDE Status to enable TDE.
 
-   ![](assets/7dca3416c85dd698f0cef75cda5176fe.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/7dca3416c85dd698f0cef75cda5176fe.png)
 
 6. In the **Restart Instance** message, select **Use Automatically Generated Key** or **Use Custom Key**.
 
@@ -6360,7 +6360,7 @@ A maximum of 20 tags can be added to an instance.
 
 3. Find the instance to which you want to add tags, move the pointer over the tag column, and
 
-   then click the <img src="assets/d7298f91f48c4416cbaf24a397240378.png" width="16" alt=""> icon.
+   then click the <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/d7298f91f48c4416cbaf24a397240378.png" width="16" alt=""> icon.
 
 4. In the **Edit Tags** dialog box, click **Add**.
 
@@ -6410,9 +6410,9 @@ When a tag is no longer required in an ApsaraDB for MongoDB instance, you can re
 
 3. Find the instance to which you want to add tags, move the pointer over the tag column, and
 
-   then click the <img src="assets/d7298f91f48c4416cbaf24a397240378.png" width="16" alt=""> icon.
+   then click the <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/d7298f91f48c4416cbaf24a397240378.png" width="16" alt=""> icon.
 
-4. In the **Edit Tags** dialog box, click the <img src="assets/65a9b9e0396406daa76e69116ddb843a.png" width="16" alt=""> icon next to the tag that you want to delete.
+4. In the **Edit Tags** dialog box, click the <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/65a9b9e0396406daa76e69116ddb843a.png" width="16" alt=""> icon next to the tag that you want to delete.
 
 5. Click **OK**.
 
@@ -6944,7 +6944,7 @@ The MCP service offers three flexible integration methods to meet different need
 
 You can access supported MCP services from the console.
 
-![](assets/b29e16688196cf700b5055ea54676ece.jpeg)
+![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/b29e16688196cf700b5055ea54676ece.jpeg)
 
 **Mongo MCP Server**
 
@@ -6986,7 +6986,7 @@ ApsaraDB for MongoDB supports the quick diagnostics feature. This feature perfor
 
    in the **Actions** column corresponding to the instance and select
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Manage**.
 
@@ -7012,7 +7012,7 @@ ApsaraDB for MongoDB supports the quick diagnostics feature. This feature perfor
 
    in the **Actions** column corresponding to the instance and select
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    **Manage**.
 
@@ -7084,19 +7084,19 @@ On the Real-time Performance page, you can click the Real-time Charts or Mongost
 
 - Real-time Charts tab
 
-  ![](assets/74b0a3165a68c1ec75486b53318ef8f3.png)
+  ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/74b0a3165a68c1ec75486b53318ef8f3.png)
 
   By default, content on the **Real-time Charts** tab is displayed when you go to the Real-time Performance page. Line charts on the tab are refreshed every 5 seconds to provide up-to-date performance trends.
 
   > **Note**
   >
-  > You can move the pointer over <img src="assets/77c23b484941e8abac59c412d165d153.png" width="22" alt=""> next to a performance metric to view
+  > You can move the pointer over <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/77c23b484941e8abac59c412d165d153.png" width="22" alt=""> next to a performance metric to view
   >
   > the details of the metric.
 
 - Mongostat
 
-  ![](assets/0b7325ffe086d83323fa504936587d70.png)
+  ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/0b7325ffe086d83323fa504936587d70.png)
 
   Click the **Mongostat** tab to view Mongostat command outputs. A new line of real-time performance data is added every 5 seconds. The tab can contain up to 999 lines of data.
 
@@ -7136,7 +7136,7 @@ The instance sessions feature allows you to view the statistics for sessions bet
 
 1. In the **Instance Sessions** section, select the session that you want to terminate.
 
-   ![](assets/e5c26faeed631fccde689a910dfefdaa.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/e5c26faeed631fccde689a910dfefdaa.png)
 
 2. Click **Kill Selected**.
 
@@ -7166,7 +7166,7 @@ The database version of the ApsaraDB for MongoDB instance is 4.0 or 4.2.
 
 6. Click the **Storage Overview** or **Data Space** tab to view analysis results.
 
-   ![](assets/be16445505d80e7cd006940aded6e956.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/be16445505d80e7cd006940aded6e956.png)
 
    - For more information about the Storage Overview tab, see Storage Overview tab.
 
@@ -7178,7 +7178,7 @@ This tab contains four sections: **Storage**, **Exceptions**, **Storage Trend**,
 
 - **Storage** section
 
-  ![](assets/97332b08b149a7e186ee73e1fd89669a.png)
+  ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/97332b08b149a7e186ee73e1fd89669a.png)
 
   | Item | Description |
   | --- | --- |
@@ -7191,19 +7191,19 @@ This tab contains four sections: **Storage**, **Exceptions**, **Storage Trend**,
 
   Information about detected storage exceptions. You can resolve the exceptions based on the information in this section.
 
-  ![](assets/333b99c6cd84e1a32fbd997809840b96.png)
+  ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/333b99c6cd84e1a32fbd997809840b96.png)
 
 - **Storage Trend** section
 
   Changes in storage usage over the last week, such as changes in **used storage**, **data space**, and **log space**.
 
-  ![](assets/ad60e78bb7945022fb9882fa17434e4f.png)
+  ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/ad60e78bb7945022fb9882fa17434e4f.png)
 
 - **Tablespaces** section
 
   Information about all tables, such as the database name, storage engine, and collection storage.
 
-  ![](assets/86162ed14c5350f44e687ee64bb51384.png)
+  ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/86162ed14c5350f44e687ee64bb51384.png)
 
   > **Note**
   >
@@ -7219,7 +7219,7 @@ The Data Space tab shows the total storage space and tablespace information of e
 >
 > - You can click the name of a collection to view its indexes.
 
-![](assets/d896c8fb4160178f62269decb37e8850.png)
+![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/d896c8fb4160178f62269decb37e8850.png)
 
 <a id="section-16-6"></a>
 
@@ -7237,7 +7237,7 @@ ApsaraDB for MongoDB allows you to identify, analyze, and track slow query logs 
 
    icon in the **Actions** column
 
-   <img src="assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
+   <img src="en-mongodb-user-guide-v3.18.6-2607-20260831.assets/394036bb0d490cabb4f8f97c497e0511.png" width="15" alt="">
 
    corresponding to the instance and then select **Manage** to go to the **Basic Information** page.
 
@@ -7279,7 +7279,7 @@ ApsaraDB for MongoDB allows you to identify, analyze, and track slow query logs 
 
    In the Slow Log Trend chart, click a point in time. Then, you can view the statistics of the slow query logs generated at the point in time on the **Slow Log Statistics** tab.
 
-   ![](assets/64cf0c0c3606cc13458887b26aaa6e5e.png)
+   ![](en-mongodb-user-guide-v3.18.6-2607-20260831.assets/64cf0c0c3606cc13458887b26aaa6e5e.png)
 
    </li>
 

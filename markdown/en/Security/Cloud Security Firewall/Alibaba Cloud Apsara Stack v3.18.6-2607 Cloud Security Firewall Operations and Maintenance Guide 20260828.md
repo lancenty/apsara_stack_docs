@@ -36,7 +36,7 @@ This topic describes how to log in to the Apsara Infrastructure Management conso
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-cfw-operations-guide-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -78,13 +78,13 @@ This topic describes how to log in to the Apsara Infrastructure Management conso
 
 3. Enter **yundun-cfw** in the **Product | Cluster** search box to check whether the **Status** of the cluster is the desired state. Find the cluster that you want to view and click **Details** in the **Actions** column. On the cluster details page, check whether the **Status** of the service is the desired state.
 
-   ![](assets/5f85c1e90939155aa6e884ac2ecf97ae.jpeg)
+   ![](en-cfw-operations-guide-v3.18.6-2607-20260828.assets/5f85c1e90939155aa6e884ac2ecf97ae.jpeg)
 
 **Check whether alerts at the P1, P2, and P3 levels are generated on the inspection page of Cloud Firewall**
 
 1. In the top navigation bar of Apsara Uni-manager Operations Console, **Product Operation > Security O&M > Cloud Shield Operations Center**.
 
-   ![](assets/1d3ed1e663fc1649de08b8dc9515e8e5.jpeg)
+   ![](en-cfw-operations-guide-v3.18.6-2607-20260828.assets/1d3ed1e663fc1649de08b8dc9515e8e5.jpeg)
 
 2. In the left-side navigation pane, choose **Cloud Services > Cloud Firewall O&M > Cloud Firewall Monitoring**. On the **Cloud Firewall Monitoring** page, check whether any abnormal result exists in the **System Inspection** section.
 

@@ -80,7 +80,7 @@ This topic describes how users such as O&M engineers log on to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-apfs-operations-guide-v3.18.6-20260701.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -128,7 +128,7 @@ The O&M information of an ApsaraStack Parallel File System (APFS) cluster refers
 
    > **Note**
    >
-   > Click the <img src="assets/6215691fba851eb481891873f98b8861.png" width="13" alt=""> icon in the **Monitoring** column of a cluster to view the monitoring data of
+   > Click the <img src="en-apfs-operations-guide-v3.18.6-20260701.assets/6215691fba851eb481891873f98b8861.png" width="13" alt=""> icon in the **Monitoring** column of a cluster to view the monitoring data of
    >
    > the cluster on the **Monitoring** tab.
 
@@ -138,13 +138,13 @@ The O&M information of an ApsaraStack Parallel File System (APFS) cluster refers
 
    On the **Cluster Details** tab, you can view the basic cluster information, including the number of file systems, number of nodes (healthy/total), total capacity, used capacity, and the ratio of used capacity to total capacity.
 
-   ![](assets/f59e06e13415481e9c39332946df13b6.jpeg)
+   ![](en-apfs-operations-guide-v3.18.6-20260701.assets/f59e06e13415481e9c39332946df13b6.jpeg)
 
    **View the node information of a cluster**
 
    On the **Cluster Node** tab, you can view the information about the nodes in the cluster, including the node status, node role, model, and operating system.
 
-   ![](assets/c74f34a45b8c1f2a95ea20b3fb8e649f.jpeg)
+   ![](en-apfs-operations-guide-v3.18.6-20260701.assets/c74f34a45b8c1f2a95ea20b3fb8e649f.jpeg)
 
    You can perform operations on the nodes in the list based on your business requirements. You can search for a node by node name in exact match mode.
 
@@ -152,15 +152,15 @@ The O&M information of an ApsaraStack Parallel File System (APFS) cluster refers
 
      Click **Details** in the **Operation** column of the desired node. On the **Node details** tab of the **Node details** panel, you can view the basic information about the node, including the node name, node status, node role, management IP address, and business IP address.
 
-     ![](assets/f5b31a491c29b9be97fddc9a33204b3e.jpeg)
+     ![](en-apfs-operations-guide-v3.18.6-20260701.assets/f5b31a491c29b9be97fddc9a33204b3e.jpeg)
 
    - **View the monitoring data of a node**
 
-     Click the <img src="assets/6215691fba851eb481891873f98b8861.png" width="13" alt=""> icon in the **Monitoring** column of the desired node. On the **Monitoring** tab
+     Click the <img src="en-apfs-operations-guide-v3.18.6-20260701.assets/6215691fba851eb481891873f98b8861.png" width="13" alt=""> icon in the **Monitoring** column of the desired node. On the **Monitoring** tab
 
      of the **Node details** panel, select a time range to view the monitoring data within the specified time period, including the total capacity, remaining capacity, used capacity, read bandwidth, write bandwidth, read IOPS, and write IOPS.
 
-     ![](assets/797ac2d0c1bbd7ffe8eafa12f75b3eea.jpeg)
+     ![](en-apfs-operations-guide-v3.18.6-20260701.assets/797ac2d0c1bbd7ffe8eafa12f75b3eea.jpeg)
 
    **View the details of a service**
 
@@ -170,13 +170,13 @@ The O&M information of an ApsaraStack Parallel File System (APFS) cluster refers
    >
    > Click **Tianji O & M** in the **Operation** column of the desired service to manage the service on Apsara Infrastructure Management.
 
-   ![](assets/b368e82f57694f629de3541f6be8fc01.jpeg)
+   ![](en-apfs-operations-guide-v3.18.6-20260701.assets/b368e82f57694f629de3541f6be8fc01.jpeg)
 
    **View monitoring data**
 
    On the **Monitoring** tab, you can select a time range to view the monitoring data of the cluster within the specified time period, including the read bandwidth, write bandwidth, read IOPS, write IOPS, and latency. You can adjust the number of metrics displayed in each row.
 
-   ![](assets/55cb1c9423b68f877642513e3de47cc1.jpeg)
+   ![](en-apfs-operations-guide-v3.18.6-20260701.assets/55cb1c9423b68f877642513e3de47cc1.jpeg)
 
 **View the information of a client cluster**
 
@@ -190,13 +190,13 @@ The O&M information of an ApsaraStack Parallel File System (APFS) cluster refers
 
    On the **Cluster Details** tab, you can view the basic information about client clusters in the list, including the cluster name, cluster status, cluster type, number of nodes (healthy/total), number of quorum nodes (healthy/total), and mounted file system.
 
-   ![](assets/d95aa6cbf39abf4423b8a9e1a31196b6.jpeg)
+   ![](en-apfs-operations-guide-v3.18.6-20260701.assets/d95aa6cbf39abf4423b8a9e1a31196b6.jpeg)
 
    **View the node information of a cluster**
 
    On the **Cluster Node** tab, you can view the information about the nodes in the cluster, including the node type and node status.
 
-   ![](assets/827f4a4bcd38e8c793e17a61e09538a5.jpeg)
+   ![](en-apfs-operations-guide-v3.18.6-20260701.assets/827f4a4bcd38e8c793e17a61e09538a5.jpeg)
 
    Click **Details** in the **Operation** column of the desired node to go to the node details page. On this page, perform operations on the node based on your business requirements.
 
@@ -204,17 +204,17 @@ The O&M information of an ApsaraStack Parallel File System (APFS) cluster refers
 
      On the **Basic Information** tab, view the basic information and configuration of the node. The Basic Information section displays the node ID, node name, SN, region, zone, hostname, and access mode. The Configuration Information section displays the model, memory capacity, GPU, device model, data center, server room, rack, rack unit, and detailed information about the CPU, operating system, network, network interface controller (NIC), disk, and GPU.
 
-     ![](assets/396b4af11b60bc4a00f813dafb3910df.jpeg)
+     ![](en-apfs-operations-guide-v3.18.6-20260701.assets/396b4af11b60bc4a00f813dafb3910df.jpeg)
 
    - **View monitoring data**
 
      On the **Monitoring** tab, you can select a time range to view the monitoring data of the node within the specified time period, including the CPU utilization, memory utilization, loads, disk reads, disk writes, and number of connections. You can adjust the number of metrics displayed in each row.
 
-     ![](assets/f3acccf6e03b2153e3c503b447f11183.jpeg)
+     ![](en-apfs-operations-guide-v3.18.6-20260701.assets/f3acccf6e03b2153e3c503b447f11183.jpeg)
 
    - **View operation logs** On the **Operation Log** tab, select an operation type and a time range to view the operation logs of the node within the specified time period, including the operation type, target, operation status, and operation description.
 
-     ![](assets/8eb787a71f0830bb47cb535c805e5eee.jpeg)
+     ![](en-apfs-operations-guide-v3.18.6-20260701.assets/8eb787a71f0830bb47cb535c805e5eee.jpeg)
 
    - Click **Operation details** in the **Operation details** column of the desired log to open the operation details panel. In the panel, you can view the task type, sub-item, start time, and execution status of the operation.
 
@@ -238,7 +238,7 @@ The O&M information of ApsaraStack Parallel File System (APFS) resources include
 
 1. In the left-side navigation pane, click **Resource management**. On the page that appears, click the **Storage** tab. Click the **File system** tab to view the information about an APFS file system. The information of the file system includes the file system ID/name, status, file system type, storage cluster, client cluster, used/configured capacity (GiB), specifications, and creation time.
 
-   ![](assets/7437b6a7127f3db4abcd1d45f7c9320c.jpeg)
+   ![](en-apfs-operations-guide-v3.18.6-20260701.assets/7437b6a7127f3db4abcd1d45f7c9320c.jpeg)
 
 2. Click Details in the **Operation** column to view the details of a specific file system, including the file system ID, file system name, status, and type.
 
@@ -272,11 +272,11 @@ Several alert events are defined for ApsaraStack Parallel File System (APFS) fil
 
 3. In the upper part of the Alert List page, enter efs in the **Resource Owner** field to search for and view the alert information about APFS file systems. Two types of alerts can be viewed: alerts defined for APFS and alerts defined for Apsara Infrastructure Management. For more information about specific alert items, see the Alert rules defined by APFS section of this topic.
 
-   ![](assets/9178b3209d300dc1ede37a4737d3f2e6.jpeg)
+   ![](en-apfs-operations-guide-v3.18.6-20260701.assets/9178b3209d300dc1ede37a4737d3f2e6.jpeg)
 
 4. Click the name of an alert in the Alert Item ID column to view the alert details, including the alert level, alert item ID, resource owner, alert information, alert status, alert start time, last alert time/duration, alerts, extended attributes, alert object name/ID, object type, and alert source.
 
-   ![](assets/e41e9b3001ceb0406fcc9524237f3388.jpeg)
+   ![](en-apfs-operations-guide-v3.18.6-20260701.assets/e41e9b3001ceb0406fcc9524237f3388.jpeg)
 
 5. Click **Handle** in the upper-right corner to handle or close the alert event.
 

@@ -52,7 +52,7 @@ This topic describes how users such as O&M engineers log on to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -104,7 +104,7 @@ This topic describes how users such as O&M engineers log on to the Apsara Uni-ma
 
    Move the pointer over a specific point of time to view the corresponding data.
 
-   ![](assets/2162a218d4e484de468fa1f48eda2650.jpeg)
+   ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/2162a218d4e484de468fa1f48eda2650.jpeg)
 
 <a id="section-2-1-2"></a>
 
@@ -138,7 +138,7 @@ This topic describes how to configure an opsDNS domain name service.
 
    Click **Advanced Filter** to filter domain name resolution entries by **Domain Name**, **Record Type**, **Record Value**, or their combinations.
 
-   ![](assets/d38024a932c3ee704c30dd0123363294.jpeg)
+   ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/d38024a932c3ee704c30dd0123363294.jpeg)
 
 5. Click **Create a domain name resolution record.** In the Create DNS Record dialog box, configure the following parameters and click **OK.**
 
@@ -166,21 +166,21 @@ This topic describes how to configure an opsDNS domain name service.
      </tr>
    </table>
 
-   ![](assets/b5d64182d88c09a89e84e4d2bbd16d4e.jpeg)
+   ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/b5d64182d88c09a89e84e4d2bbd16d4e.jpeg)
 
 6. Go back to the opsDNS Domain Service page and click **Details** in the **Operation** column of a domain name resolution entry. On the opsDNS Resolution Settings page, view the detailed DNS records and search for a DNS record by **Record Value**.
 
-   ![](assets/81151271a80e345970db7df61d632269.jpeg)
+   ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/81151271a80e345970db7df61d632269.jpeg)
 
 7. On the opsDNS Resolution Settings page, perform the following operations:
 
    - Create a DNS record: Click **Create DNS Record**. In the Create DNS Record dialog box, configure parameters and click **OK**. It takes 0 to 5 minutes for a new DNS record to take effect.
 
-     ![](assets/38f3413cba016e9d627c6feee331f0c4.jpeg)
+     ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/38f3413cba016e9d627c6feee331f0c4.jpeg)
 
    - Delete a DNS record: Find the DNS record that you want to delete and click **Delete** in the **Operation** column. In the dialog box that appears, confirm the information, enter **DELETE** in the field, and then click **OK**. After 0 to 5 minutes, the DNS record is deleted.
 
-     ![](assets/4980c286b9a1b3f79caa281ea47802fc.jpeg)
+     ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/4980c286b9a1b3f79caa281ea47802fc.jpeg)
 
 <a id="section-2-2"></a>
 
@@ -356,7 +356,7 @@ To determine whether a service role is running as expected, follow these steps:
 
    Figure 1. View API status
 
-   ![](assets/7858da2ca80fb0bea080cb82cc718132.png)
+   ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/7858da2ca80fb0bea080cb82cc718132.png)
 
    </li>
 
@@ -390,7 +390,7 @@ To determine whether a service role is running as expected, follow these steps:
 
    Figure 2. Cluster Operation and Maintenance Center
 
-   ![](assets/0562c9ad585b3d4d4a216a9babd791de.png)
+   ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/0562c9ad585b3d4d4a216a9babd791de.png)
 
    </li>
 
@@ -400,7 +400,7 @@ To determine whether a service role is running as expected, follow these steps:
 
    Figure 3. View the IP addresses of servers
 
-   ![](assets/45d5a5122ec7f142025db33f5f51688a.png)
+   ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/45d5a5122ec7f142025db33f5f51688a.png)
 
    </li>
 
@@ -434,7 +434,7 @@ To determine whether a service role is running as expected, follow these steps:
 
    Figure 4. Verify the server
 
-   ![](assets/03d503ba762ba343aea337474c73f08b.jpeg)
+   ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/03d503ba762ba343aea337474c73f08b.jpeg)
 
    </li>
 
@@ -496,7 +496,7 @@ To determine whether a service role is running as expected, follow these steps:
 
    Figure 1. Checking whether the bindServerRole# server role is in its final state
 
-   ![](assets/084a724b5d4b7e975fa6b941294fba94.png)
+   ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/084a724b5d4b7e975fa6b941294fba94.png)
 
    </li>
 
@@ -530,7 +530,7 @@ To determine whether a service role is running as expected, follow these steps:
 
    Figure 2. Cluster Operation and Maintenance Center
 
-   ![](assets/0562c9ad585b3d4d4a216a9babd791de.png)
+   ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/0562c9ad585b3d4d4a216a9babd791de.png)
 
    </li>
 
@@ -570,7 +570,7 @@ To determine whether a service role is running as expected, follow these steps:
 
    Figure 3. Verifying the server
 
-   ![](assets/13a7d14d616199d24bd38502d42b6b36.jpeg)
+   ![](en-dns-operations-guide-v3.18.6-2607-20260828.assets/13a7d14d616199d24bd38502d42b6b36.jpeg)
 
    </li>
 

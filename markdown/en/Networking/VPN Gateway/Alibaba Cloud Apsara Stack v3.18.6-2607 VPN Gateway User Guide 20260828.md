@@ -51,7 +51,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console 
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-vpn-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -143,7 +143,7 @@ Before you use IPsec-VPN to connect a data center to a VPC, make sure that the f
 
 **Procedure**
 
-![](assets/8e3ea97dd828c4ce788d3526f144a73d.png)
+![](en-vpn-user-guide-v3.18.6-2607-20260828.assets/8e3ea97dd828c4ce788d3526f144a73d.png)
 
 1. Create a VPN gateway
 
@@ -193,7 +193,7 @@ This topic describes how to use IPsec-VPN to connect a data center to a virtual 
 
 The following scenario is used as an example in this topic. An enterprise has created a VPC on Apsara Stack. The CIDR block of the VPC is 192.168.0.0/16. The CIDR block of the data center is 172.16.0.0/16. The static public IP address of the gateway device in the data center is 211.XX.XX.68. To meet business requirements, the enterprise needs to connect the data center to the VPC. You can establish an IPsec-VPN connection between the data center and the VPC, as shown in the following figure. This way, the data center and the VPC can share resources with each other.
 
-![](assets/eef4bbda4acc246d31398264f78a61d2.png)
+![](en-vpn-user-guide-v3.18.6-2607-20260828.assets/eef4bbda4acc246d31398264f78a61d2.png)
 
 **Step 1: Create a VPN gateway**
 
@@ -457,7 +457,7 @@ The following scenario is used as an example in this topic. An enterprise has cr
 
 2. Run the **ping** command to ping a server in the data center to test the network connectivity.
 
-   ![](assets/c30d04bcee2a21aedafe86520f5386ae.png)
+   ![](en-vpn-user-guide-v3.18.6-2607-20260828.assets/c30d04bcee2a21aedafe86520f5386ae.png)
 
 <a id="section-2-2"></a>
 
@@ -481,7 +481,7 @@ Before you use SSL-VPN to connect a client to a VPC, make sure that the followin
 
 **Procedure**
 
-![](assets/6ea1aa15049cefe8de997620f9b4b922.png)
+![](en-vpn-user-guide-v3.18.6-2607-20260828.assets/6ea1aa15049cefe8de997620f9b4b922.png)
 
 | Step | Description |
 | --- | --- |
@@ -513,7 +513,7 @@ This topic describes how to connect a client to a virtual private cloud (VPC) by
 
 The scenario in the following figure is used as an example to describe how to connect Linux, Windows, and Mac clients to a VPC by using SSL-VPN.
 
-![](assets/e4cb3c22d3c56418df772dd752b8c2fc.png)
+![](en-vpn-user-guide-v3.18.6-2607-20260828.assets/e4cb3c22d3c56418df772dd752b8c2fc.png)
 
 **Step 1: Create a VPN gateway**
 
@@ -801,7 +801,7 @@ The following section describes how to configure clients that run Linux, Mac, an
 
   </ol>
 
-  ![](assets/905eb7be69b23b2fc1d8fd4319236379.png)
+  ![](en-vpn-user-guide-v3.18.6-2607-20260828.assets/905eb7be69b23b2fc1d8fd4319236379.png)
 
 - Configure a client that runs macOS
 
@@ -1032,25 +1032,25 @@ On the **VPN Gateways** page, you can view the details of VPN gateways.
 
 - You can use a keyword or a specific filter condition to filter VPN gateways.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column to sort VPN gateways.
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column to sort VPN gateways.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the VPN gateway list.
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the VPN gateway list.
 
   You can also drag and drop the items to adjust their order.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Status** column to filter VPN gateways by status.
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Status** column to filter VPN gateways by status.
 
 - Click the VPC ID in the **VPC ID/Name** column to view the basic information about the VPC to which the VPN gateway belongs.
 
-- In the **Monitoring** column, click the <img src="assets/f667f92bd1d343538137c80359726c61.png" width="17" alt=""> icon to view the monitoring information about the
+- In the **Monitoring** column, click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/f667f92bd1d343538137c80359726c61.png" width="17" alt=""> icon to view the monitoring information about the
 
   VPN gateway.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the VPN gateway name in the **VPN Gateway ID/Name** column to
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the VPN gateway name in the **VPN Gateway ID/Name** column to
 
   modify the name of a VPN gateway.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the username in the **Creator** column to modify the creator of the
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the username in the **Creator** column to modify the creator of the
 
   VPN gateway.
 
@@ -1088,13 +1088,13 @@ You can delete VPN gateways that you no longer need. After you delete a VPN gate
 
      - In the **Basic Information** section, click the VPC ID next to the **VPC ID** parameter to view the basic information about the VPC to which the VPN gateway belongs.
 
-     - In the **Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **VPN Gateway Name**
+     - In the **Basic Information** section, click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **VPN Gateway Name**
 
        parameter to modify the name of the VPN gateway.
 
        The name must be 2 to 100 characters in length, and can contain letters, digits, underscores (_), hyphens (-), and periods (.). It must start with a letter and cannot start with http:// or https://.
 
-     - In the **Basic Information** section, click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description** parameter
+     - In the **Basic Information** section, click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the **Description** parameter
 
        to modify the description of the VPN gateway.
 
@@ -1320,21 +1320,21 @@ On the **Customer Gateways** page, you can view the details of the created gatew
 
 - You can use a keyword or a specific filter condition to filter gateways.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column to sort gateways.
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column to sort gateways.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the gateway list. You
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the gateway list. You
 
   can also drag and drop the items to adjust their order.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the customer gateway name in the **Customer Gateway ID/Name**
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the customer gateway name in the **Customer Gateway ID/Name**
 
   column to modify the name of a customer gateway.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the description in the **Description** column to modify the
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the description in the **Description** column to modify the
 
   description of the customer gateway.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the username in the **Creator** column to change the creator of the
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the username in the **Creator** column to change the creator of the
 
   customer gateway.
 
@@ -1526,23 +1526,23 @@ On the IPsec Connections page, you can view the details of the created IPsec-VPN
 
 - Use a keyword or a specific filter condition to filter IPsec-VPN connections.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column to sort IPsec-VPN connections.
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column to sort IPsec-VPN connections.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the IPsec-VPN
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the IPsec-VPN
 
   connection list. You can also drag and drop the items to adjust their order.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Status** column to filter IPsec-VPN connections by status.
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Status** column to filter IPsec-VPN connections by status.
 
 - Click the VPN gateway ID in the **VPN Gateway ID/Name** column to view the basic information of the VPN gateway to be connected through the IPsec-VPN connection.
 
 - Click the customer gateway ID in the **Customer Gateway ID/Name** column to view the basic information of the customer gateway to be connected through the IPsec-VPN connection.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name in the **IPsec Connection ID/Name** column to modify
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name in the **IPsec Connection ID/Name** column to modify
 
   the name of the IPsec-VPN connection.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the username in the **Creator** column to change the name of the
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the username in the **Creator** column to change the name of the
 
   user who created the IPsec-VPN connection.
 
@@ -1725,19 +1725,19 @@ On the **SSL Servers** page, you can view the details of the created instance in
 
 - Use a keyword or a specific filter condition to filter SSL servers.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column to sort SSL servers.
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column to sort SSL servers.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the SSL server list. You
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the SSL server list. You
 
   can also drag and drop the items to adjust their order.
 
 - Click the instance ID in the **VPN Gateway ID/Name** column to view the basic information of the VPN gateway associated with the SSL server.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the instance name in the **SSL Server ID/Name** column to modify
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the instance name in the **SSL Server ID/Name** column to modify
 
   the name of the SSL server.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the username in the **Creator** column to modify the creator of the
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the username in the **Creator** column to modify the creator of the
 
   SSL server.
 
@@ -1881,21 +1881,21 @@ On the **SSL Clients** page, you can view the details about the created instance
 
 - You can use a keyword or a specific filter condition to filter instances.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column to sort instances.
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon next to a column to sort instances.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the list. You can also
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the list. You can also
 
   drag and drop the items to adjust their order.
 
-- Click the <img src="assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Status** column to filter instances by status.
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/bfee4f6621e8af010c682f2017ab79d0.png" width="14" alt=""> icon next to the **Status** column to filter instances by status.
 
 - Click the instance ID in the **SSL Server ID/Name** column to view the basic information of the SSL server associated with the SSL client.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name in the **SSL Client ID/Name** column to modify the name
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name in the **SSL Client ID/Name** column to modify the name
 
   of the SSL client certificate.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the username in the **Creator** column to modify the creator of the
+- Click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the username in the **Creator** column to modify the creator of the
 
   SSL server.
 
@@ -1959,7 +1959,7 @@ Tags are used to mark instances. Each tag consists of a key and a value. Before 
 
      On the **VPN Gateways** page, find the VPN gateway whose tags you want to manage,
 
-     move the pointer over the <img src="assets/813ec6f468d144c9355b49a9403d4521.png" width="16" alt=""> icon in the **Tag** column, and then click **Edit**.
+     move the pointer over the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/813ec6f468d144c9355b49a9403d4521.png" width="16" alt=""> icon in the **Tag** column, and then click **Edit**.
 
      </li>
 
@@ -2046,13 +2046,13 @@ After you add tags to VPN gateways, you can efficiently filter VPN gateways by t
 
      On the **VPN Gateways** page, find the VPN gateway whose tags you want to manage,
 
-     move the pointer over the <img src="assets/813ec6f468d144c9355b49a9403d4521.png" width="16" alt=""> icon in the **Tag** column, and then click **Edit**.
+     move the pointer over the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/813ec6f468d144c9355b49a9403d4521.png" width="16" alt=""> icon in the **Tag** column, and then click **Edit**.
 
      </li>
 
      <li>
 
-     In the **Edit Tags** dialog box, click the <img src="assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt=""> icon next to the tag that you want to remove
+     In the **Edit Tags** dialog box, click the <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt=""> icon next to the tag that you want to remove
 
      and click **OK**.
 
@@ -2132,7 +2132,7 @@ Before you start, make sure that the following requirements are met:
 
      <li>
 
-     On the **VPN Gateways** page, click <img src="assets/a21e02ad78aa87997aa705c8a24a6288.png" width="21" alt=""> in the **Monitor** column of the desired VPN
+     On the **VPN Gateways** page, click <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/a21e02ad78aa87997aa705c8a24a6288.png" width="21" alt=""> in the **Monitor** column of the desired VPN
 
      gateway.
 
@@ -2184,7 +2184,7 @@ Before you start, make sure that the following requirements are met:
 
 In the **Monitor** panel, you can create threshold-triggered alert rules. When the value of a metric exceeds the threshold, a notification is sent to you.
 
-1. On the **Monitor** page, click <img src="assets/78f72414c9a7f10ef477e56cbc3874bb.png" width="19" alt=""> next to a metric.
+1. On the **Monitor** page, click <img src="en-vpn-user-guide-v3.18.6-2607-20260828.assets/78f72414c9a7f10ef477e56cbc3874bb.png" width="19" alt=""> next to a metric.
 
 2. In the **Create Alert Rule** dialog box, configure parameters and click **OK**.
 

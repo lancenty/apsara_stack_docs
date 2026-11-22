@@ -93,7 +93,7 @@ After I complete the deployment and log on to the control side, error codes such
 
 3. Log in to the two control sides, enter the Docker container, and then view the running logs of the server. The logs are stored in the  `/home/moresec/logs/`  directory. Check whether the ERROR logs exist. (The following ERROR log can be ignored.)
 
-   ![](assets/5e0b85c51bc39ab772bb403ed39bd412.jpeg)
+   ![](en-cloud-security-scanner-operations-guide-v3.18.6-2607-20260828.assets/5e0b85c51bc39ab772bb403ed39bd412.jpeg)
 
 <a id="section-2-3"></a>
 
@@ -353,7 +353,7 @@ This topic describes how to query the IP address and password of a control-side 
    ('PRODUCE_SUCCESS','UPGRADE_SUCCESS') ) AND type = 'ECS' \G
    ```
 
-   ![](assets/c35da87719300268220c58cb803fa9cf.png)
+   ![](en-cloud-security-scanner-operations-guide-v3.18.6-2607-20260828.assets/c35da87719300268220c58cb803fa9cf.png)
 
 **Query the passwords of two control-side servers**
 
@@ -367,7 +367,7 @@ This topic describes how to query the IP address and password of a control-side 
    ('PRODUCE_SUCCESS','UPGRADE_SUCCESS') ) AND type = 'PASSWORD' and name in ('scanner_manager_password_01','scanner_manager_password_02');
    ```
 
-   ![](assets/7936404bb844eda2026e46889bea0e58.png)
+   ![](en-cloud-security-scanner-operations-guide-v3.18.6-2607-20260828.assets/7936404bb844eda2026e46889bea0e58.png)
 
 <a id="section-4-3"></a>
 
@@ -386,7 +386,7 @@ This topic describes how to query the IP address and password of the Internet en
    ('PRODUCE_SUCCESS','UPGRADE_SUCCESS') ) AND type = 'ECS' \G
    ```
 
-   ![](assets/4624515deb6c4fd1cf5162dbe583c213.png)
+   ![](en-cloud-security-scanner-operations-guide-v3.18.6-2607-20260828.assets/4624515deb6c4fd1cf5162dbe583c213.png)
 
 **Query the passwords of the Internet engines**
 
@@ -399,7 +399,7 @@ This topic describes how to query the IP address and password of the Internet en
    ('PRODUCE_SUCCESS','UPGRADE_SUCCESS')) AND type = 'PASSWORD';
    ```
 
-   ![](assets/8dcf3c90eef8dcac9d54b40c439b228b.png)
+   ![](en-cloud-security-scanner-operations-guide-v3.18.6-2607-20260828.assets/8dcf3c90eef8dcac9d54b40c439b228b.png)
 
 <a id="section-4-4"></a>
 
@@ -424,7 +424,7 @@ The following figure shows how to obtain the ID of a private engine.
    NAME LIKE '%scanner_vpc_agent%';
    ```
 
-   ![](assets/6b9e164e372ad65f0ece1cee4114cae9.png)
+   ![](en-cloud-security-scanner-operations-guide-v3.18.6-2607-20260828.assets/6b9e164e372ad65f0ece1cee4114cae9.png)
 
 **Query the IP address and password of a private engine**
 
@@ -442,4 +442,4 @@ The following figure shows how to obtain the ID of a private engine.
    SELECT instance_info FROM o_cluster_resource WHERE cluster_id = The ID that you obtained AND NAME IN ( 'scanner_agent_ecs', 'scanner_agent_password' ) \G
    ```
 
-   ![](assets/a214d0c52e3364608c9286ca187717dd.png)
+   ![](en-cloud-security-scanner-operations-guide-v3.18.6-2607-20260828.assets/a214d0c52e3364608c9286ca187717dd.png)

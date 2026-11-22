@@ -109,7 +109,7 @@ This topic describes how to log on to the Apsara Stack DNS console using Google 
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -255,7 +255,7 @@ On the **Global Internal Domain Name** page, you can view a list of your added d
 
 - Use the **Advanced Filter** to perform a fuzzy search by **Domain Name**.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to customize the list. You can show or
+- Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to customize the list. You can show or
 
   hide columns and drag columns to change their order.
 
@@ -283,7 +283,7 @@ On the **Global Internal Domain Name** page, you can view a list of your added d
 >
 > When a domain name is deleted, all its DNS records are also deleted. Proceed with caution.
 
-1. (Method 1) On the **Global Internal Domain Name** page, find the domain name that you want to delete. In the **Actions** column, click the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon and then click **Delete**.
+1. (Method 1) On the **Global Internal Domain Name** page, find the domain name that you want to delete. In the **Actions** column, click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon and then click **Delete**.
 
    (Method 2) On the **Global Internal Domain Name** page, select the checkbox of one or more domain names that you want to delete, and click **Batch Delete** in the lower-left corner.
 
@@ -332,7 +332,7 @@ This topic describes how to add a Domain Name System (DNS) record for a global i
    <table>
      <tr>
        <td>Record Values</td>
-       <td>Add record values.<br>• <strong>Value</strong>: Enter the value of the record based on the <strong>Record Type</strong> parameter.For more information, see Record value description.<br>• <strong>Weight</strong>: Enter a weight value. The weight value must be an integer ranging from 0 to 999. A larger value indicates a greater weight.<br>This parameter is required only if you select <strong>Weight</strong> for <strong>Load Balancing</strong> <strong>Policy</strong>.<br>Note<br>• You can click <strong>Add Entry</strong> to add multiple record values.<br>• Click the icon in the <strong>Actions</strong> column of a record value to remove<br><img src="assets/ee35e68c1705dbb0fb43645f44cfe6af.png" width="14" alt=""><br>it.</td>
+       <td>Add record values.<br>• <strong>Value</strong>: Enter the value of the record based on the <strong>Record Type</strong> parameter.For more information, see Record value description.<br>• <strong>Weight</strong>: Enter a weight value. The weight value must be an integer ranging from 0 to 999. A larger value indicates a greater weight.<br>This parameter is required only if you select <strong>Weight</strong> for <strong>Load Balancing</strong> <strong>Policy</strong>.<br>Note<br>• You can click <strong>Add Entry</strong> to add multiple record values.<br>• Click the icon in the <strong>Actions</strong> column of a record value to remove<br><img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/ee35e68c1705dbb0fb43645f44cfe6af.png" width="14" alt=""><br>it.</td>
      </tr>
    </table>
 
@@ -465,7 +465,7 @@ On the Global Forwarding Domain Names tab, you can view domain names in the list
 
 - Click **Advanced Filter** and enter a record name in the **Domain Name** field for fuzzy search.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the domain name list to select the columns
+- Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the domain name list to select the columns
 
   that you want to show or hide. You can also drag the columns to adjust the order.
 
@@ -485,7 +485,7 @@ You can add a description for a domain name to help you identify it. For example
 
 **Delete a domain name**
 
-1. Method 1: On the **Global Forwarding Domain Names** tab, find the domain name that you want to delete, click the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column to expand the menu, and then
+1. Method 1: On the **Global Forwarding Domain Names** tab, find the domain name that you want to delete, click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column to expand the menu, and then
 
    click **Delete**.
 
@@ -591,7 +591,7 @@ After you add an ACL policy, you can perform the following operations on the **R
 
   - Click **Advanced Filter** and enter an ACL policy name in the **ACL Policy Name** field for fuzzy search.
 
-  - Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the ACL policy list to select the columns that
+  - Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the ACL policy list to select the columns that
 
     you want to show or hide. You can also drag the columns to adjust the order.
 
@@ -709,7 +709,7 @@ After you add a global line, you can perform the following operations on the **G
 
   - Click **Advanced Filter** and enter a line name and IP address in the **Line Name** and **IP** fields, respectively, for fuzzy search.
 
-  - Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the line list to select the columns that you
+  - Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the line list to select the columns that you
 
     want to show or hide. You can also drag the columns to adjust the order.
 
@@ -783,7 +783,7 @@ On the **Tenant Internal Domain Name** tab, you can view domain names in the lis
 
 - You can search for the desired domain names by specifying advanced filter conditions.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the domain name list to select the columns
+- Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the domain name list to select the columns
 
   that you want to show or hide. You can also drag the columns to adjust the order.
 
@@ -795,7 +795,7 @@ On the **Tenant Internal Domain Name** tab, you can view domain names in the lis
 
 **Delete a domain name**
 
-1. Method 1: On the **Tenant Internal Domain Name** tab, find the domain name that you want to delete, click the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column to expand the menu, and then click
+1. Method 1: On the **Tenant Internal Domain Name** tab, find the domain name that you want to delete, click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column to expand the menu, and then click
 
    **Delete**.
 
@@ -815,7 +815,7 @@ On the **Tenant Internal Domain Name** tab, you can add tags to domain names for
 
 1. On the **Tenant Internal Domain Name** tab, find the private domain name that you want
 
-   to manage and click the <img src="assets/d77135756bd6c515d5aa536c22693292.png" width="21" alt=""> icon in the **Monitoring** column.
+   to manage and click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/d77135756bd6c515d5aa536c22693292.png" width="21" alt=""> icon in the **Monitoring** column.
 
 2. In the **Monitoring** panel, you can view the cloud monitoring data of the target domain name, such as **Latency**, **ParsingSucceeded**, **Total number of analyses**, **Client IP count**, **DNS Resolution Success Rate**, **LatencybyQname**, **ParsingSucceededbyQname**, and **ParsingTotalbyQname**.
 
@@ -850,7 +850,7 @@ On the **Tenant Internal Domain Name** tab, you can add tags to domain names for
    | Record Type | Select a record type.<br>• If you select <strong>Polling</strong> for <strong>Load Balancing Policy</strong>, you can select one of the following types:<br>• A - Points a domain name to an IPv4 address<br>• AAAA - Points a domain name to an IPv6 address<br>• CNAME - Points one domain name to another<br>• MX - Points a domain name to an email server address<br>• TXT - Serves as a Sender Policy Framework (SPF) record to protect against spam (maximum length: 255 characters)<br>• PTR - Points an IP address to a domain name<br>• SRV - Specifies the servers that host specific services.<br>• NAPTR - Records the Naming Authority Pointer (NAPTR) and is usually used in ENUM<br>• CAA - Specifies which certificate authorities (CAs) are allowed to issue certificates for a domain name<br>• NS - Points a subdomain to other DNS servers<br>• If you select <strong>Weight</strong> for <strong>Load Balancing Policy</strong>, you can select one of the following types:<br>• A - Points a domain name to an IPv4 address<br>• AAAA - Points a domain name to an IPv6 address<br>• CNAME - Points one domain name to another |
    | TTL (Seconds) | Enter a time-to-live (TTL) value for a record. TTL specifies how long a DNS record is cached by local DNS servers.<br>The value must be an integer from 0 to 2147483647, and 0 indicates that the record is not cached. Default value: 300.<br>If your service addresses change frequently, set a small TTL value. Otherwise, set a large TTL value. |
    | Resolution Line | Select a line. You can select one or more lines. |
-   | Record Values | Add record values.<br>• <strong>Value</strong>: Enter the value of the record based on the <strong>Record Type</strong> parameter.For more information, see Record value description.<br>• <strong>Weight</strong>: Enter a weight value. The weight value must be an integer ranging from 0 to 999. A larger value indicates a greater weight.<br>This parameter is required only if you select <strong>Weight</strong> for <strong>Load Balancing</strong> <strong>Policy</strong>.<br>Note<br>• You can click <strong>Add Entry</strong> to add multiple record values.<br>• Click the icon in the <strong>Actions</strong> column of a record value to remove<br><img src="assets/ee35e68c1705dbb0fb43645f44cfe6af.png" width="14" alt=""><br>it. |
+   | Record Values | Add record values.<br>• <strong>Value</strong>: Enter the value of the record based on the <strong>Record Type</strong> parameter.For more information, see Record value description.<br>• <strong>Weight</strong>: Enter a weight value. The weight value must be an integer ranging from 0 to 999. A larger value indicates a greater weight.<br>This parameter is required only if you select <strong>Weight</strong> for <strong>Load Balancing</strong> <strong>Policy</strong>.<br>Note<br>• You can click <strong>Add Entry</strong> to add multiple record values.<br>• Click the icon in the <strong>Actions</strong> column of a record value to remove<br><img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/ee35e68c1705dbb0fb43645f44cfe6af.png" width="14" alt=""><br>it. |
 
    **Record value description**
 
@@ -991,11 +991,11 @@ On the **Tenant Forwarding Domain Names** tab, you can view domain names in the 
 
 - You can search for the desired domain names by specifying advanced filter conditions.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the domain name list to select the columns
+- Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the domain name list to select the columns
 
   that you want to show or hide. You can also drag the columns to adjust the order.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon to the right of a specific column name to sort domain names.
+- Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon to the right of a specific column name to sort domain names.
 
 **Modify a domain name**
 
@@ -1013,7 +1013,7 @@ On the **Tenant Forwarding Domain Names** tab, you can view domain names in the 
 
 **Delete a domain name**
 
-1. Method 1: On the **Tenant Forwarding Domain Names** tab, find the domain name that you want to delete, click the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column to expand the menu, and then
+1. Method 1: On the **Tenant Forwarding Domain Names** tab, find the domain name that you want to delete, click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column to expand the menu, and then
 
    click **Delete**.
 
@@ -1121,11 +1121,11 @@ On the **Tenant Default Forwarding Configurations tab**, you can view configurat
 
 - You can search for the desired configurations by specifying advanced filter conditions.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the configuration list to select the columns
+- Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the configuration list to select the columns
 
   that you want to show or hide. You can also drag the columns to adjust the order.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon to the right of a specific column name to sort configurations.
+- Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon to the right of a specific column name to sort configurations.
 
 **Modify a domain name**
 
@@ -1143,7 +1143,7 @@ On the **Tenant Default Forwarding Configurations tab**, you can view configurat
 
 **Delete a domain name**
 
-1. Method 1: On the **Tenant Default Forwarding Configurations** tab, find the configuration that you want to delete, click the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column to expand the
+1. Method 1: On the **Tenant Default Forwarding Configurations** tab, find the configuration that you want to delete, click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column to expand the
 
    menu, and then click **Delete**.
 
@@ -1247,11 +1247,11 @@ On the **Private Line** page, you can view the information about the added priva
 
 - You can enter a keyword or specify advanced filter conditions to search for a specific private line.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the private line list to select the columns that
+- Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the private line list to select the columns that
 
   you want to show or hide. You can also drag the columns to adjust the order.
 
-- Click the <img src="assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon to the right of a specific column name to sort private lines.
+- Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/7ec45911e00a9180d4ceb68fa986ba87.png" width="21" alt=""> icon to the right of a specific column name to sort private lines.
 
 **Modify a line**
 
@@ -1332,7 +1332,7 @@ After you create a scheduling instance, you can perform the following operations
 
   - Click **Advanced Filter** and enter a scheduling instance name in the **Name** field for fuzzy search.
 
-  - Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the scheduling instance list to select the
+  - Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the scheduling instance list to select the
 
     columns that you want to show or hide. You can also drag the columns to adjust the order.
 
@@ -1561,11 +1561,11 @@ On the **Address Pool** page, you can view information about the existing addres
 
 - You can search for the desired address pool by specifying filter conditions.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the address pool list to select the columns
+- Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the address pool list to select the columns
 
   that you want to show or hide. You can also drag the columns to adjust the order.
 
-- Click the <img src="assets/a3b0a02fa5d3acfdf9f1afbb5bd81571.png" width="17" alt=""> or <img src="assets/fc61552b98cc360a01a47c3a5cacf505.png" width="12" alt=""> icon to the left of the address pool to expand or collapse the address list
+- Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/a3b0a02fa5d3acfdf9f1afbb5bd81571.png" width="17" alt=""> or <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/fc61552b98cc360a01a47c3a5cacf505.png" width="12" alt=""> icon to the left of the address pool to expand or collapse the address list
 
   showing address mode and health status.
 
@@ -1634,7 +1634,7 @@ Only the addresses whose health check results are normal can be returned. This t
 
 On the **Health Check** page, you can view information about the existing health check tasks.
 
-Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the health check task list to select the columns
+Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the health check task list to select the columns
 
 that you want to show or hide. You can also drag the columns to adjust the order.
 
@@ -1670,7 +1670,7 @@ This topic describes how to view the alert information of a Domain Name System (
 
 3. On the **Logs** page, view the alert information of the DNS cluster in the following columns: **Time**, **Object**, **Behavior**, and **Content**.
 
-   - Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the alert log list. You
+   - Click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner to show or hide items in the alert log list. You
 
      can also drag and drop the items to adjust their order.
 
@@ -1718,7 +1718,7 @@ A tag is a mark assigned to an instance. Each tag consists of a key-value pair. 
 
      On the page for the corresponding instance type, find the target instance, hover over
 
-     the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the **Tag** column, and click **Edit** in the pop-up box.
+     the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the **Tag** column, and click **Edit** in the pop-up box.
 
      </li>
 
@@ -1789,13 +1789,13 @@ A tag is a mark assigned to an instance. Each tag consists of a key-value pair. 
 
      On the page for the corresponding instance type, find the target instance, hover over
 
-     the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the **Tags** column, and click **Edit** in the pop-up menu.
+     the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon in the **Tags** column, and click **Edit** in the pop-up menu.
 
      </li>
 
      <li>
 
-     In the **Edit Tags** dialog box, click the <img src="assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt=""> icon to the right of the target tag. Then, click
+     In the **Edit Tags** dialog box, click the <img src="en-dns-within-cloud-user-guide-v3.18.6-2607-20260828.assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt=""> icon to the right of the target tag. Then, click
 
      **OK**.
 

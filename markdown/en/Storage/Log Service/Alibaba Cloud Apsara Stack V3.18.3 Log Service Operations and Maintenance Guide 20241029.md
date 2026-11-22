@@ -425,7 +425,7 @@ etl_framework_log_fuxi
 less                   ole/etl_worker.LOG
 ```
 
-![](assets/823435f52cc8709b9e5aaac7e06ba7c0.png)
+![](en-sls-operations-guide-v3.18.3-20241029.assets/823435f52cc8709b9e5aaac7e06ba7c0.png)
 
 sls-backend-
 
@@ -632,7 +632,7 @@ None
 ker/fc_trigger.log
 ```
 
-![](assets/e47d8c20256096009d3e3efe4d737f38.png)
+![](en-sls-operations-guide-v3.18.3-20241029.assets/e47d8c20256096009d3e3efe4d737f38.png)
 
 fc_trigger_log
 
@@ -845,7 +845,7 @@ presto_monitor
                        /presto_monitor.LOG
 ```
 
-![](assets/3bdcb2c2d908280bf64b2a40ceab481c.png)
+![](en-sls-operations-guide-v3.18.3-20241029.assets/3bdcb2c2d908280bf64b2a40ceab481c.png)
 
 sls-backend-server.SlsPrestoWorke
 
@@ -955,7 +955,7 @@ WorkerRole/presto_wo rker.LOG
   </tr>
 </table>
 
-![](assets/c917e2e91a5a93055a0e7c9dd2af83d0.png)
+![](en-sls-operations-guide-v3.18.3-20241029.assets/c917e2e91a5a93055a0e7c9dd2af83d0.png)
 
 ```text
  /apsara/sls_Config
@@ -987,7 +987,7 @@ sls_configservice_log_f
 uxiless                config_service.LOG
 ```
 
-![](assets/a406b6464676b43b72abfe6e29e3d8fc.png)
+![](en-sls-operations-guide-v3.18.3-20241029.assets/a406b6464676b43b72abfe6e29e3d8fc.png)
 
 sls-backend-server.SlsConfigServic e#
 
@@ -1025,7 +1025,7 @@ sls_configservice_quer
 y_log_fuxiless         ig_service_query.LOG
 ```
 
-![](assets/929397eac44dda8d5816ac8f28fd79a5.png)
+![](en-sls-operations-guide-v3.18.3-20241029.assets/929397eac44dda8d5816ac8f28fd79a5.png)
 
 ```text
  /apsara/cloud/app/
@@ -1297,7 +1297,7 @@ sls_index_status_log_f
 uxiless                ject_index_size.LOG
 ```
 
-![](assets/2bcbf654c9ca7c030ff9b6bc0780ffe8.png)
+![](en-sls-operations-guide-v3.18.3-20241029.assets/2bcbf654c9ca7c030ff9b6bc0780ffe8.png)
 
 ```text
  /apsara/tubo/TempR
@@ -1474,7 +1474,7 @@ sls_monitor_log
 gent/monitor_*.LOG
 ```
 
-![](assets/ed391542b17bc322b77c7c54d3769c8c.png)
+![](en-sls-operations-guide-v3.18.3-20241029.assets/ed391542b17bc322b77c7c54d3769c8c.png)
 
 ```text
  /apsara/sls/fcgi_a
@@ -1488,7 +1488,7 @@ sls_operation_agg_log
 
 sls_operation_agg_log
 
-![](assets/275518196ba5dfe9a3ad0dec70d2448c.png)
+![](en-sls-operations-guide-v3.18.3-20241029.assets/275518196ba5dfe9a3ad0dec70d2448c.png)
 
 sls-backend-server.SlsFastcgi#
 

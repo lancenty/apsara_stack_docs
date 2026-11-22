@@ -112,9 +112,9 @@ High
 
 availability
 
-![](assets/faa2b9ca2ad91e2a1d5023a0fa3f5b55.png)
+![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/faa2b9ca2ad91e2a1d5023a0fa3f5b55.png)
 
-![](assets/7fb7d528d9d95ba0b0fbe473a2790259.png)
+![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/7fb7d528d9d95ba0b0fbe473a2790259.png)
 
 Copy
 
@@ -843,7 +843,7 @@ If you are using ApsaraDB RDS for the first time, you can start with Limits on P
 
 The following figure shows the operations that you must perform before you use a PolarDB instance.
 
-![](assets/9ab92f5fdd5e7a51b10fecc48abc82bb.jpeg)
+![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/9ab92f5fdd5e7a51b10fecc48abc82bb.jpeg)
 
 <a id="section-6-2"></a>
 
@@ -1233,7 +1233,7 @@ You can create privileged and standard accounts on a PolarDB instance. The follo
 
 5. In the **Log on to Database Instance** dialog box of the **DMS** console, check the values of **Database Type**, **Instance Region**, and **Connection string address**. If the values are correct, specify the **Database Account** and **Database password** parameters.
 
-   ![](assets/cc36d0d80668189d733099aa5c456905.png)
+   ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/cc36d0d80668189d733099aa5c456905.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -1732,7 +1732,7 @@ If a large number of read requests overwhelm the primary instance, your business
 
 Each read-only instance works in a single-node architecture, where no instances are provided as backups. Data updates of the primary instance are automatically synchronized to all read-only instances immediately after the primary instance completes operations. Read-only instances reside within the same region as the primary instance, but possibly in different zones. The following figure shows the topology of read-only instances.
 
-![](assets/96b17c5d41ba1106bd5ef38a02d6ba86.jpeg)
+![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/96b17c5d41ba1106bd5ef38a02d6ba86.jpeg)
 
 Read-only instances have the following features:
 
@@ -1841,7 +1841,7 @@ This topic describes how to view details of read-only instances. You can go to t
 
    Figure 1. View a read-only instance
 
-   ![](assets/4a1a51458d13bc6153ccfcd6ebbafb82.png)
+   ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/4a1a51458d13bc6153ccfcd6ebbafb82.png)
 
 **View details of a read-only instance from the Basic Information page of the primary instance**
 
@@ -1943,7 +1943,7 @@ You can use the console to view and modify the values of some parameters and vie
 
    icon in the **Running Parameter Value** column.
 
-   <img src="assets/41a1057c0e5e46f1c2a7dd33cf949d1d.png" width="14" alt="">
+   <img src="en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/41a1057c0e5e46f1c2a7dd33cf949d1d.png" width="14" alt="">
 
    </li>
 
@@ -2339,7 +2339,7 @@ If you have a large number of instances, you can create multiple tags and add th
 
 1. Log on to the ApsaraDB RDS console.
 
-2. On the **Instances** page, find the required instance and click the <img src="assets/d81bffc2578050e03ed898aa74bc97a3.png" width="23" alt=""> icon in the **Tag**
+2. On the **Instances** page, find the required instance and click the <img src="en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/d81bffc2578050e03ed898aa74bc97a3.png" width="23" alt=""> icon in the **Tag**
 
    column.
 
@@ -2361,7 +2361,7 @@ If you have a large number of instances, you can create multiple tags and add th
 
 2. On the **Instances** page, if a small number of tags are added to an instance, the corresponding tags are displayed in the Tag column. If a large number of tags are added to
 
-   an instance, move the pointer over the <img src="assets/d67ef7cb0488c3026fe12f004ae62ba3.png" width="15" alt=""> icon in the **Tag** column to view all the tags that
+   an instance, move the pointer over the <img src="en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/d67ef7cb0488c3026fe12f004ae62ba3.png" width="15" alt=""> icon in the **Tag** column to view all the tags that
 
    are added to the instance.
 
@@ -2369,11 +2369,11 @@ If you have a large number of instances, you can create multiple tags and add th
 
 1. Log on to the ApsaraDB RDS console.
 
-2. On the **Instances** page, find the required instance and click the <img src="assets/d81bffc2578050e03ed898aa74bc97a3.png" width="23" alt=""> icon in the **Tag**
+2. On the **Instances** page, find the required instance and click the <img src="en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/d81bffc2578050e03ed898aa74bc97a3.png" width="23" alt=""> icon in the **Tag**
 
    column.
 
-3. In the **Edit Tags** dialog box, click the <img src="assets/68f774edf79b55f1dc60ef6eaf0d3457.png" width="20" alt=""> icon to the right of the tag and click **OK**.
+3. In the **Edit Tags** dialog box, click the <img src="en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/68f774edf79b55f1dc60ef6eaf0d3457.png" width="20" alt=""> icon to the right of the tag and click **OK**.
 
 <a id="section-8"></a>
 
@@ -2454,7 +2454,7 @@ The IP address whitelist is configured. For more information about how to config
 
 5. In the **Login instance** dialog box of the **DMS** console, check values of **Database type**, **Instance Area**, and **Connection string address**. If the information is correct, enter **Database account** and **Database password**, as shown in the following figure.
 
-   ![](assets/cc36d0d80668189d733099aa5c456905.png)
+   ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/cc36d0d80668189d733099aa5c456905.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -2586,7 +2586,7 @@ The instance runs in a VPC.
 
    To create a new VSwitch, click **Create in Console**.
 
-   ![](assets/013ff32c81c3ab869c56275afeaa0b63.jpeg)
+   ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/013ff32c81c3ab869c56275afeaa0b63.jpeg)
 
 6. When the dialog box opens, carefully read the risk notice and click **OK**.
 
@@ -2624,7 +2624,7 @@ For security and performance purposes, we recommend that you use only the intern
 
 For example, assume that a company uses the hybrid access solution to migrate its PolarDB instance from the classic network to a VPC. During the validity period of the hybrid access solution, some applications use the internal VPC endpoint to connect to the PolarDB instance, whereas the others continue to use the internal classic network endpoint to connect to the instance. When all applications of the company can use the internal VPC endpoint to connect to the instance, the internal classic network endpoint can be released. The following figure demonstrates the scenario.
 
-![](assets/cb97321ad9ecfaea71e2d2aa3a219045.png)
+![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/cb97321ad9ecfaea71e2d2aa3a219045.png)
 
 **Limits**
 
@@ -2678,7 +2678,7 @@ You must use the internal endpoint and port number to access a PolarDB instance.
    >
    > IP address whitelist or security group for the PolarDB instance.
 
-   ![](assets/e1e41bda89fe930f0f230885e0c5256d.png)
+   ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/e1e41bda89fe930f0f230885e0c5256d.png)
 
 **Modify the internal endpoint and port number**
 
@@ -2702,7 +2702,7 @@ You must use the internal endpoint and port number to access a PolarDB instance.
    >
    > - The port number must be within the range of 1000 to 5999.
 
-   ![](assets/02a67ebfbc19571d06b9091f0c8b14f4.png)
+   ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/02a67ebfbc19571d06b9091f0c8b14f4.png)
 
 **FAQ**
 
@@ -2875,7 +2875,7 @@ A PolarDB instance is created. For more information, see Create an instance.
 
 5. In the **Login instance** dialog box of the **DMS** console, check values of **Database type**, **Instance Area**, and **Connection string address**. If the information is correct, enter **Database account** and **Database password**, as shown in the following figure.
 
-   ![](assets/cc36d0d80668189d733099aa5c456905.png)
+   ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/cc36d0d80668189d733099aa5c456905.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -2932,7 +2932,7 @@ This topic describes how to delete a database in the PolarDB instance.
 
 5. In the **Login instance** dialog box of the **DMS** console, check values of **Database type**, **Instance Area**, and **Connection string address**. If the information is correct, enter **Database account** and **Database password**, as shown in the following figure.
 
-   ![](assets/cc36d0d80668189d733099aa5c456905.png)
+   ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/cc36d0d80668189d733099aa5c456905.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -3390,7 +3390,7 @@ ApsaraDB RDS automatically backs up your instance based on the specified backup 
 
    icon to view the task progress displayed in the
 
-   <img src="assets/61d843535372d167dc92639747992fdb.png" width="27" alt="">
+   <img src="en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/61d843535372d167dc92639747992fdb.png" width="27" alt="">
 
    **Task Progress** list.
 
@@ -3463,7 +3463,7 @@ RDS lets you download unencrypted data backups and log backups. You can archive 
    >
    > - If the URL contains multiple parameters, enclose the URL in single quotation marks (') to prevent download failures.
    >
-   > ![](assets/26116e06e89500d20dc92924e3e72fbf.png)
+   > ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/26116e06e89500d20dc92924e3e72fbf.png)
 
 <a id="section-13-3"></a>
 
@@ -3817,11 +3817,11 @@ Log on to the ApsaraDB RDS console and navigate to the Slow SQL page in Database
 
    - Click the **Slow log statistics** tab to view summary statistics for slow logs within a specified time range, including SQL templates, number of executions, and average execution time.
 
-     ![](assets/157ce5fe0d5fab0993f8614e46d7f2b8.jpeg)
+     ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/157ce5fe0d5fab0993f8614e46d7f2b8.jpeg)
 
    - Click the **Slow log details** tab to view the execution details for each slow SQL statement, including the SQL statement, completion time, and execution time.
 
-     ![](assets/b37a9bd7b9cbf171fc5b80a974c15b4d.jpeg)
+     ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/b37a9bd7b9cbf171fc5b80a974c15b4d.jpeg)
 
 <a id="section-16"></a>
 
@@ -4592,7 +4592,7 @@ This topic describes how to use the Open Database Connectivity (ODBC) driver to 
 
 3. Run the  `install.bat`  file as an administrator, and then press a random key to exit.
 
-   ![](assets/d89dc2502e254cc5844560ff10dfbdd9.jpeg)
+   ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/d89dc2502e254cc5844560ff10dfbdd9.jpeg)
 
 4. <strong>Optional:</strong>To uninstall the ODBC driver, run the  `uninstall.bat`  file.
 
@@ -4608,7 +4608,7 @@ This topic describes how to use the Open Database Connectivity (ODBC) driver to 
 
 5. In the dialog box that appears, configure the following parameters.
 
-   ![](assets/39e6d42f7b4b6e2799281f6c17cf0d67.png)
+   ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/39e6d42f7b4b6e2799281f6c17cf0d67.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -4901,7 +4901,7 @@ You can use the following methods to manually import the driver files to the env
 
   Most IDEs in Windows is capable of importing the paths of linked files. In this topic, Visual Studio 2019 is used to illustrate how to import the paths of linked files, as shown in the following figure.
 
-  ![](assets/a40e6ed82e9980ef0acf5ff233243db6.png)
+  ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/a40e6ed82e9980ef0acf5ff233243db6.png)
 
   </li>
 
@@ -6195,7 +6195,7 @@ In the preceding code example, you must replace the following parameters with th
 
   **General > Additional Library Directories**.
 
-  ![](assets/a40e6ed82e9980ef0acf5ff233243db6.png)
+  ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/a40e6ed82e9980ef0acf5ff233243db6.png)
 
   <ol type="i" start="3">
 
@@ -6207,7 +6207,7 @@ In the preceding code example, you must replace the following parameters with th
 
   </ol>
 
-  ![](assets/24374d6e3e87b1f6f78e0bfd158d053e.png)
+  ![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/24374d6e3e87b1f6f78e0bfd158d053e.png)
 
 **Examples**
 
@@ -6400,7 +6400,7 @@ In this topic, examples are used to help you understand terms and concepts in Po
 
 The operations described in this topic are based on a model that demonstrates the basic PolarDB operations, such as database creation, table creation, and user management. The following figure shows the data model:
 
-![](assets/63720c03c0570a3803fbfd1d5a33c465.png)
+![](en-rds-rds-polardb-user-guide-v3.18.6-2607-20260827.assets/63720c03c0570a3803fbfd1d5a33c465.png)
 
 To simulate an environment similar to Oracle, the following example creates a database named orcl_polardb, a role named scott in the orcl_polardb database, and a schema named scott.
 

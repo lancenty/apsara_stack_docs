@@ -468,7 +468,7 @@ SLB instances.
 
 This topic describes the system architecture of Container Service for Kubernetes (ACK).
 
-![](assets/8229a9a8e02df9de6336956a7b8ec2f2.png)
+![](en-ack-operations-guide-v3.18.6-2607-20260828.assets/8229a9a8e02df9de6336956a7b8ec2f2.png)
 
 Container Service is adapted and enhanced based on native Kubernetes. This service simplifies cluster creation and scaling, and is integrated with Apsara Stack virtualization, storage, network, and security capabilities. This service provides the optimal environment to run Kubernetes-based containerized applications in the cloud.
 
@@ -485,7 +485,7 @@ Container Service is adapted and enhanced based on native Kubernetes. This servi
 
 This topic describes the component architecture of Container Service for Kubernetes (ACK).
 
-![](assets/93e3fba5cbf869d856a8777bd43c076b.png)
+![](en-ack-operations-guide-v3.18.6-2607-20260828.assets/93e3fba5cbf869d856a8777bd43c076b.png)
 
 **Category**
 
@@ -561,7 +561,7 @@ Quick diagnostic tool.
 
 This topic describes the deployment architecture of Container Service for Kubernetes (ACK).
 
-![](assets/93e3fba5cbf869d856a8777bd43c076b.png)
+![](en-ack-operations-guide-v3.18.6-2607-20260828.assets/93e3fba5cbf869d856a8777bd43c076b.png)
 
 | Component | Deployment method |
 | --- | --- |
@@ -646,7 +646,7 @@ This topic described how to view the basic information about all Container Servi
 
 1. Log in to the Apsara Uni-manager Operations Console. In the top navigation bar, choose **Product Operation > Computing > Container Operations Console**.
 
-   ![](assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
+   ![](en-ack-operations-guide-v3.18.6-2607-20260828.assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
 
 2. In the left-side navigation pane, click **ACK Clusters** to go to the ACK Clusters page. You can view the following information on the page: **Clusters**, **Nodes**, **Kubernetes Versions**, **Operating Systems**, and brief information about all ACK clusters.
 
@@ -680,7 +680,7 @@ This topic describes how to view the basic information about all components on t
 
 1. Log in to the Apsara Uni-manager Operations Console. In the top navigation bar, choose **Product Operation > Computing > Container Operations Console**.
 
-   ![](assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
+   ![](en-ack-operations-guide-v3.18.6-2607-20260828.assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
 
 2. In the left-side navigation pane, choose **Component OPS > Component List**. On the Component List page, view the information about all components in the environment.
 
@@ -706,7 +706,7 @@ This topic describes how to view the information about baselines on the **K8S ve
 
 1. Log in to the Apsara Uni-manager Operations Console. In the top navigation bar, choose **Product Operation > Computing > Container Operations Console**.
 
-   ![](assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
+   ![](en-ack-operations-guide-v3.18.6-2607-20260828.assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
 
 2. In the left-side navigation pane, choose **ACK Change > Version Baseline**. On the K8S version baseline page, view the baseline information displayed in the following columns: **Name**, **Baseline Type**, **Version**, **Cluster Type**, **Property**, **Creation Time**, and Operation. You can also search for baselines by name.
 
@@ -724,13 +724,13 @@ This topic describes how to view and modify the information about troopers confi
 
 1. Log in to the Apsara Uni-manager Operations Console. In the top navigation bar, choose **Product Operation > Computing > Container Operations Console**.
 
-   ![](assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
+   ![](en-ack-operations-guide-v3.18.6-2607-20260828.assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
 
 2. In the left-side navigation pane, choose **ACK Change > Troops Config**. On the Troopers Configurations page, view the name, content, creation time, and update time of each configuration item, and the operations that you can perform on each configuration item. You can also search for configuration items by name.
 
 3. Find the configuration item that you want to manage and click **View Configuration** in the **Actions** column to view the configuration. You can also click **Update configuration** in the **Actions** column to modify the configuration.
 
-   ![](assets/b0c5320eec44b0321934d04c3b46c44f.jpeg)
+   ![](en-ack-operations-guide-v3.18.6-2607-20260828.assets/b0c5320eec44b0321934d04c3b46c44f.jpeg)
 
 <a id="section-6"></a>
 
@@ -742,7 +742,7 @@ This topic describes how to query and view service logs such as troopers logs.
 
 1. Log in to the Apsara Uni-manager Operations Console. In the top navigation bar, choose **Product Operation > Computing > Container Operations Console**.
 
-   ![](assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
+   ![](en-ack-operations-guide-v3.18.6-2607-20260828.assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
 
 2. In the left-side navigation pane, click **Log Management**. On the page that appears, search for logs, such as troopers logs, by Logstore and time range.
 
@@ -756,7 +756,7 @@ This topic describes how to view the information about operations.
 
 1. Log in to the Apsara Uni-manager Operations Console. In the top navigation bar, choose **Product Operation > Computing > Container Operations Console**.
 
-   ![](assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
+   ![](en-ack-operations-guide-v3.18.6-2607-20260828.assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
 
 2. In the left-side navigation pane, click **Operation Audit**. On the page that appears, view the operation information in the following columns: **Change Name**, **Change Description**, **Operation Type**, **Operation Object**, **Change Type**, **Status**, and **User**.
 
@@ -778,13 +778,13 @@ This topic describes how to back up the etcd data of a Container Service for Kub
 
 1. Log in to the Apsara Uni-manager Operations Console. In the top navigation bar, choose **Product Operation > Computing > Container Operations Console**.
 
-   ![](assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
+   ![](en-ack-operations-guide-v3.18.6-2607-20260828.assets/a648f5351160aed3f30dde220ce7d2bd.jpeg)
 
 2. In the left-side navigation pane, click **ETCD Backup Records**. On the **ETCD Backup Records** page, you can view the following information about an etcd backup record: **cluster ID**, **bucket**, **user ID**, **ID**, **log**, **creation time**, and **status**.
 
 3. In the upper-left corner of the page, click **Back Up**. In the Create etcd dialog box, configure the parameters that are described in the following table and click **OK**.
 
-   ![](assets/0d1504959e1ad500dfa0805e564eda75.jpeg)
+   ![](en-ack-operations-guide-v3.18.6-2607-20260828.assets/0d1504959e1ad500dfa0805e564eda75.jpeg)
 
    | Parameter | Description |
    | --- | --- |

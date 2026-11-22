@@ -637,7 +637,7 @@ After a user is added to a user group, the user has the permissions of the role 
 
 2. On the **User Groups** page, find the user group to which you want to add the user and click **Add User** in the **Actions** column.
 
-3. In the **Add User** dialog box, select the user under the organization, click the <img src="assets/d87d8980d82f0466989d4e6a6f553841.png" width="14" alt=""> icon, and then click
+3. In the **Add User** dialog box, select the user under the organization, click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/d87d8980d82f0466989d4e6a6f553841.png" width="14" alt=""> icon, and then click
 
    **OK**.
 
@@ -691,7 +691,7 @@ Container Registry uses Alibaba Cloud accounts and Resource Access Management (R
 
      | Parameter | Description |
      | --- | --- |
-     | Role Name | ![](assets/9aa973d44dc6edad68e226f06fe5c816.png)<br>Enter a custom role name. For example, <code>ManageACRPermissions</code>. |
+     | Role Name | ![](en-acr-user-guide-v3.18.6-2607-20260902.assets/9aa973d44dc6edad68e226f06fe5c816.png)<br>Enter a custom role name. For example, <code>ManageACRPermissions</code>. |
      | Description | Enter remarks for the role. This is usually a description of the permissions that the role has. |
      | Sharing Scope | Select a sharing scope for the role as needed:<br>• <strong>Global</strong>: Default. The role is visible to and can be used by all organizations.<br>• <strong>This Organization</strong>: The role is visible to and can be used by the organization to which the user belongs.<br>• <strong>Subordinate Organizations</strong>: The role is visible to and can be used by the user's organization and its subordinate organizations. |
      | Management Scope | The scope of resources that the role can manage. When combined with the organization of the assigned user, the role can manage resources within the corresponding scope.<br>• <strong>All Organizations</strong>: The role can manage cloud resources in all organizations.<br>• <strong>This Organization And Subordinate Organizations</strong>: The role can manage cloud resources in this organization and its cascaded subordinate organizations.<br>• <strong>Resource Set</strong>: The role can manage only the cloud resources within a specific resource set. |
@@ -1096,11 +1096,11 @@ This topic describes how to allocate resource quotas for a Container Registry St
 
    - **Add quota items**: In the **Available Quotas** list, select the quota items that you want to add and
 
-     click the <img src="assets/4e99c1b8ecc78274822b98a049fc748a.png" width="15" alt=""> icon to add the quota items to the **Selected Quota Items** list.
+     click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/4e99c1b8ecc78274822b98a049fc748a.png" width="15" alt=""> icon to add the quota items to the **Selected Quota Items** list.
 
    - **Remove quota items**: In the **Selected Quota Items** list, select the quota items that you want to
 
-     remove and click the <img src="assets/c24dd017bf4a098ad8553ce74229c8dc.png" width="16" alt=""> icon to remove the quota items.
+     remove and click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/c24dd017bf4a098ad8553ce74229c8dc.png" width="16" alt=""> icon to remove the quota items.
 
 8. Click **OK**.
 
@@ -1192,9 +1192,9 @@ This topic describes how to create an alert rule for a quota of Container Regist
 
    **Include Child Organization**
 
-   <img src="assets/311770f555337aad46441b3426f7e219.png" width="27" alt=""> : turns on Include Child Organization.
+   <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/311770f555337aad46441b3426f7e219.png" width="27" alt=""> : turns on Include Child Organization.
 
-   <img src="assets/c6a40de28b0f15d437aecb3b50b30787.png" width="26" alt=""> : turns off Include Child Organization.
+   <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/c6a40de28b0f15d437aecb3b50b30787.png" width="26" alt=""> : turns off Include Child Organization.
 
    **Region**
 
@@ -1475,7 +1475,7 @@ You can use the password or temporary token that you set to log in to the Contai
 
 1. On the Access Credential page, check the logon command.
 
-   ![](assets/d2b104a36d456483d559b0cdb68afb05.png)
+   ![](en-acr-user-guide-v3.18.6-2607-20260902.assets/d2b104a36d456483d559b0cdb68afb05.png)
 
 2. Run the login command and enter the logon password as prompted in the command output.
 
@@ -1519,7 +1519,7 @@ This topic describes how to upload and download images.
 
    On the **Access Credential** page, view and record the username and the domain name of the repository.
 
-   ![](assets/1abd9c6b68c88748a249ba7e83b05d07.png)
+   ![](en-acr-user-guide-v3.18.6-2607-20260902.assets/1abd9c6b68c88748a249ba7e83b05d07.png)
 
    </li>
 
@@ -1984,7 +1984,7 @@ After a user is added to a user group, the user has the permissions of the role 
 
 2. On the **User Groups** page, find the user group to which you want to add the user and click **Add User** in the **Actions** column.
 
-3. In the **Add User** dialog box, select the user under the organization, click the <img src="assets/d87d8980d82f0466989d4e6a6f553841.png" width="14" alt=""> icon, and then click
+3. In the **Add User** dialog box, select the user under the organization, click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/d87d8980d82f0466989d4e6a6f553841.png" width="14" alt=""> icon, and then click
 
    **OK**.
 
@@ -2038,7 +2038,7 @@ Container Registry uses Alibaba Cloud accounts and Resource Access Management (R
 
      | Parameter | Description |
      | --- | --- |
-     | Role Name | Enter a custom role name. For example,<br>![](assets/0e0f54655c13ad40df0ac556dac49a41.png)<br><code>ManageACRPermissions</code>. |
+     | Role Name | Enter a custom role name. For example,<br>![](en-acr-user-guide-v3.18.6-2607-20260902.assets/0e0f54655c13ad40df0ac556dac49a41.png)<br><code>ManageACRPermissions</code>. |
      | Description | Enter remarks for the role. This is usually a description of the permissions that the role has. |
      | Sharing Scope | Select a sharing scope for the role as needed:<br>• <strong>Global</strong>: Default. The role is visible to and can be used by all organizations.<br>• <strong>This Organization</strong>: The role is visible to and can be used by the organization to which the user belongs.<br>• <strong>Subordinate Organizations</strong>: The role is visible to and can be used by the user's organization and its subordinate organizations. |
      | Management Scope | The scope of resources that the role can manage. When combined with the organization of the assigned user, the role can manage resources within the corresponding scope.<br>• <strong>All Organizations</strong>: The role can manage cloud resources in all organizations.<br>• <strong>This Organization And Subordinate Organizations</strong>: The role can manage cloud resources in this organization and its cascaded subordinate organizations.<br>• <strong>Resource Set</strong>: The role can manage only the cloud resources within a specific resource set. |
@@ -2396,11 +2396,11 @@ This topic describes how to allocate resource quotas for a Container Registry Ad
 
    - **Add quota items**: In the **Available Quotas** list, select the quota items that you want to add and
 
-     click the <img src="assets/4e99c1b8ecc78274822b98a049fc748a.png" width="15" alt=""> icon to add the quota items to the **Selected Quota Items** list.
+     click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/4e99c1b8ecc78274822b98a049fc748a.png" width="15" alt=""> icon to add the quota items to the **Selected Quota Items** list.
 
    - **Remove quota items**: In the **Selected Quota Items** list, select the quota items that you want to
 
-     remove and click the <img src="assets/c24dd017bf4a098ad8553ce74229c8dc.png" width="16" alt=""> icon to remove the quota items.
+     remove and click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/c24dd017bf4a098ad8553ce74229c8dc.png" width="16" alt=""> icon to remove the quota items.
 
 8. Click **OK**.
 
@@ -2490,9 +2490,9 @@ This topic describes how to create an alert rule for a quota of Container Regist
 
    **Include Child Organization**
 
-   <img src="assets/311770f555337aad46441b3426f7e219.png" width="27" alt=""> : turns on Include Child Organization.
+   <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/311770f555337aad46441b3426f7e219.png" width="27" alt=""> : turns on Include Child Organization.
 
-   <img src="assets/c6a40de28b0f15d437aecb3b50b30787.png" width="26" alt=""> : turns off Include Child Organization.
+   <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/c6a40de28b0f15d437aecb3b50b30787.png" width="26" alt=""> : turns off Include Child Organization.
 
    **Region**
 
@@ -2812,7 +2812,7 @@ This topic describes how to manage chart repositories on a Container Registry Ad
 
    - **Operating Instructions**: You can configure local repository mappings, push charts, and pull charts.
 
-     ![](assets/dcd4b5ac9f3a24d78b5aa1d3a212ebbf.jpeg)
+     ![](en-acr-user-guide-v3.18.6-2607-20260902.assets/dcd4b5ac9f3a24d78b5aa1d3a212ebbf.jpeg)
 
 3. Click the **Chart Management** tab to upload, download, and delete charts.
 
@@ -2828,7 +2828,7 @@ This topic describes how to manage chart repositories on a Container Registry Ad
 
      <li>
 
-     On the **Upload Chart Repository** page, click the <img src="assets/b031c7549a057a5127caee9407bd60a4.png" width="16" alt=""> icon, select a local chart file, click **Open**,
+     On the **Upload Chart Repository** page, click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/b031c7549a057a5127caee9407bd60a4.png" width="16" alt=""> icon, select a local chart file, click **Open**,
 
      and then click **OK**.
 
@@ -3092,7 +3092,7 @@ For more information, see Configure a trigger.
 
      In this example, you can select a destination repository only in a Container Registry Advanced Edition instance across regions.
 
-   - Click the <img src="assets/c4ce0feaba82dccdfd3dedd150aae8e1.png" width="14" alt=""> icon and click **Synchronization Records** to view the detailed replication records of the
+   - Click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/c4ce0feaba82dccdfd3dedd150aae8e1.png" width="14" alt=""> icon and click **Synchronization Records** to view the detailed replication records of the
 
      current image tag. You can perform the following operations in the **Actions** column of a replication task:
 
@@ -3100,7 +3100,7 @@ For more information, see Configure a trigger.
 
      - Click **Re-trigger**. In the message that appears, click **OK** to retry the replication task.
 
-   - Click the <img src="assets/c4ce0feaba82dccdfd3dedd150aae8e1.png" width="14" alt=""> icon and click **Delete**. In the dialog box that appears, select **Confirm to Delete Image**
+   - Click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/c4ce0feaba82dccdfd3dedd150aae8e1.png" width="14" alt=""> icon and click **Delete**. In the dialog box that appears, select **Confirm to Delete Image**
 
      **of This Tag** and click **OK**.
 
@@ -3184,7 +3184,7 @@ This topic describes how to export the summary information about the images in a
 
 3. 
 
-4. On the **Image Repository** page, click the <img src="assets/464a2aa6403836c1e06a584364bcbfcd.png" width="16" alt=""> icon in the upper-right corner of the image list.
+4. On the **Image Repository** page, click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/464a2aa6403836c1e06a584364bcbfcd.png" width="16" alt=""> icon in the upper-right corner of the image list.
 
 5. In the **New Download Task** dialog box, confirm the download path and file name, and then click **Download** to export the data as an Excel file.
 
@@ -3274,7 +3274,7 @@ This topic describes how to upload an image to and download an image from a Cont
 
    On the **Basic Information** page, obtain the address of the image repository.
 
-   ![](assets/95c0821e6df679e812a34adb4d88e3ee.png)
+   ![](en-acr-user-guide-v3.18.6-2607-20260902.assets/95c0821e6df679e812a34adb4d88e3ee.png)
 
    </li>
 
@@ -3355,7 +3355,7 @@ This topic describes how to upload an image to and download an image from a Cont
 
      <li>
 
-     In the **Upload Image** dialog box, specify **Tag**, click the <img src="assets/60704da0ae47bfd74a3044beb3cf60cb.png" width="14" alt=""> icon, select the desired image file, click
+     In the **Upload Image** dialog box, specify **Tag**, click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/60704da0ae47bfd74a3044beb3cf60cb.png" width="14" alt=""> icon, select the desired image file, click
 
      **Open**, and then click **OK**.
 
@@ -3540,7 +3540,7 @@ You can manually synchronize an image from a source instance to a destination in
 
    The synchronization task starts immediately.
 
-   - On the **Image Version** page, you can click the <img src="assets/3513d61f3553720ffd91e9180fb71e88.png" width="14" alt=""> icon in the Actions column of the target image
+   - On the **Image Version** page, you can click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/3513d61f3553720ffd91e9180fb71e88.png" width="14" alt=""> icon in the Actions column of the target image
 
      and select **Synchronization Records**. On the **Synchronization Records** page, you can see that the status of the synchronization task is **Synchronization Successful** and that the pushed image is available in the target instance. This confirms that the manual synchronization to an instance in the same account was successful.
 
@@ -4226,7 +4226,7 @@ After a user is added to a user group, the user has the permissions of the role 
 
 2. On the **User Groups** page, find the user group to which you want to add the user and click **Add User** in the **Actions** column.
 
-3. In the **Add User** dialog box, select the user under the organization, click the <img src="assets/d87d8980d82f0466989d4e6a6f553841.png" width="14" alt=""> icon, and then click
+3. In the **Add User** dialog box, select the user under the organization, click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/d87d8980d82f0466989d4e6a6f553841.png" width="14" alt=""> icon, and then click
 
    **OK**.
 
@@ -4280,7 +4280,7 @@ Container Registry uses Alibaba Cloud accounts and Resource Access Management (R
 
      | Parameter | Description |
      | --- | --- |
-     | Role Name | Enter a custom role name. For example,<br>![](assets/0e0f54655c13ad40df0ac556dac49a41.png)<br><code>ManageACRPermissions</code>. |
+     | Role Name | Enter a custom role name. For example,<br>![](en-acr-user-guide-v3.18.6-2607-20260902.assets/0e0f54655c13ad40df0ac556dac49a41.png)<br><code>ManageACRPermissions</code>. |
      | Description | Enter remarks for the role. This is usually a description of the permissions that the role has. |
      | Sharing Scope | Select a sharing scope for the role as needed:<br>• <strong>Global</strong>: Default. The role is visible to and can be used by all organizations.<br>• <strong>This Organization</strong>: The role is visible to and can be used by the organization to which the user belongs.<br>• <strong>Subordinate Organizations</strong>: The role is visible to and can be used by the user's organization and its subordinate organizations. |
      | Management Scope | The scope of resources that the role can manage. When combined with the organization of the assigned user, the role can manage resources within the corresponding scope.<br>• <strong>All Organizations</strong>: The role can manage cloud resources in all organizations.<br>• <strong>This Organization And Subordinate Organizations</strong>: The role can manage cloud resources in this organization and its cascaded subordinate organizations.<br>• <strong>Resource Set</strong>: The role can manage only the cloud resources within a specific resource set. |
@@ -4781,11 +4781,11 @@ This topic describes how to allocate resource quotas for a Container Registry Mu
 
    - **Add quota items**: In the **Available Quotas** list, select the quota items that you want to add and
 
-     click the <img src="assets/4e99c1b8ecc78274822b98a049fc748a.png" width="15" alt=""> icon to add the quota items to the **Selected Quota Items** list.
+     click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/4e99c1b8ecc78274822b98a049fc748a.png" width="15" alt=""> icon to add the quota items to the **Selected Quota Items** list.
 
    - **Remove quota items**: In the **Selected Quota Items** list, select the quota items that you want to
 
-     remove and click the <img src="assets/c24dd017bf4a098ad8553ce74229c8dc.png" width="16" alt=""> icon to remove the quota items.
+     remove and click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/c24dd017bf4a098ad8553ce74229c8dc.png" width="16" alt=""> icon to remove the quota items.
 
 8. Click **OK**.
 
@@ -4859,7 +4859,7 @@ This topic describes how to create an alert rule for a quota of Container Regist
      </tr>
      <tr>
        <td>Include Child Organization</td>
-       <td>Specifies whether to apply the alert rule to the subordinate organizations and resource sets of the current organization. If you turn on Include Child Organization, the alert rule is applied to the current organization and all the subordinate organizations and resource sets of the current organization. This parameter is displayed only if you select an organization from the <strong>Organization/Resource Set</strong> drop-down list.<br><img src="assets/311770f555337aad46441b3426f7e219.png" width="27" alt="">: turns on Include Child Organization.<br><img src="assets/c6a40de28b0f15d437aecb3b50b30787.png" width="26" alt="">: turns off Include Child Organization.</td>
+       <td>Specifies whether to apply the alert rule to the subordinate organizations and resource sets of the current organization. If you turn on Include Child Organization, the alert rule is applied to the current organization and all the subordinate organizations and resource sets of the current organization. This parameter is displayed only if you select an organization from the <strong>Organization/Resource Set</strong> drop-down list.<br><img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/311770f555337aad46441b3426f7e219.png" width="27" alt="">: turns on Include Child Organization.<br><img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/c6a40de28b0f15d437aecb3b50b30787.png" width="26" alt="">: turns off Include Child Organization.</td>
      </tr>
      <tr>
        <td>Region</td>
@@ -5089,7 +5089,7 @@ For more information, see Configure a trigger.
 
    - Click **Image Replication**. In the **Select Destination Repository for Replication** dialog box, configure the **Synchronization Scenario**, **Destination Repository**, and **Overwrite Image** parameters. Then, click **OK**. For more information, see Replicate images between instances that belong to the same account.
 
-   - Click the <img src="assets/956967c3433e47fdd4098ad04d318c16.png" width="11" alt=""> icon and click **Synchronization Records** to view the detailed replication records of the
+   - Click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/956967c3433e47fdd4098ad04d318c16.png" width="11" alt=""> icon and click **Synchronization Records** to view the detailed replication records of the
 
      current image tag. You can perform the following operations in the **Actions** column of a replication task:
 
@@ -5097,7 +5097,7 @@ For more information, see Configure a trigger.
 
      - Click **Re-trigger**. In the message that appears, click **OK** to retry the replication task.
 
-   - Click the <img src="assets/956967c3433e47fdd4098ad04d318c16.png" width="11" alt=""> icon and click **Delete**. In the dialog box that appears, select **Confirm to Delete Image**
+   - Click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/956967c3433e47fdd4098ad04d318c16.png" width="11" alt=""> icon and click **Delete**. In the dialog box that appears, select **Confirm to Delete Image**
 
      **of This Tag** and click **OK**.
 
@@ -5183,7 +5183,7 @@ This topic describes how to export the summary information about images in an in
 
 4. 
 
-5. On the **Image Repository** page, click the <img src="assets/464a2aa6403836c1e06a584364bcbfcd.png" width="16" alt=""> icon in the upper-right corner of the image list.
+5. On the **Image Repository** page, click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/464a2aa6403836c1e06a584364bcbfcd.png" width="16" alt=""> icon in the upper-right corner of the image list.
 
 6. In the **New Download Task** dialog box, confirm the download path and file name, and then click **Download** to export the data as an Excel file.
 
@@ -5325,7 +5325,7 @@ This topic describes how to upload an image to and download an image from a Cont
 
    On the **Basic Information** page, obtain the address of the image repository.
 
-   ![](assets/c263c37d885f3395802e533d2f06a43c.jpeg)
+   ![](en-acr-user-guide-v3.18.6-2607-20260902.assets/c263c37d885f3395802e533d2f06a43c.jpeg)
 
    </li>
 
@@ -5406,7 +5406,7 @@ This topic describes how to upload an image to and download an image from a Cont
 
      <li>
 
-     In the **Upload Image** dialog box, specify **Tag**, click the <img src="assets/60704da0ae47bfd74a3044beb3cf60cb.png" width="14" alt=""> icon, select the desired image file, click
+     In the **Upload Image** dialog box, specify **Tag**, click the <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/60704da0ae47bfd74a3044beb3cf60cb.png" width="14" alt=""> icon, select the desired image file, click
 
      **Open**, and then click **OK**.
 
@@ -5593,7 +5593,7 @@ You can create a synchronization rule to manually synchronize images from a sour
 
    - The synchronization task starts immediately after it is created.
 
-     - To check the task status, return to the **Tags** page. Find the target image version, click <img src="assets/3513d61f3553720ffd91e9180fb71e88.png" width="14" alt=""> in the
+     - To check the task status, return to the **Tags** page. Find the target image version, click <img src="en-acr-user-guide-v3.18.6-2607-20260902.assets/3513d61f3553720ffd91e9180fb71e88.png" width="14" alt=""> in the
 
        **Actions** column, and select **Synchronization Records**. On the **Synchronization Records** page, you can view the status of the task. If the status is **Succeeded** and the image is available in the destination instance, the synchronization is successful.
 

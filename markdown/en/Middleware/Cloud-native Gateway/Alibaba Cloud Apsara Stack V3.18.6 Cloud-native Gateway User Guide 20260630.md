@@ -118,7 +118,7 @@ This topic describes how to log in to the Cloud-native Gateway console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -352,7 +352,7 @@ This topic describes how to modify the name of a Cloud-native Gateway instance.
 
 2. In the left navigation pane, go to **Cloud Native Gateway > instance list**.
 
-3. On the **Gateway instance** page, find the instance that you want to manage, click the <img src="assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt="">
+3. On the **Gateway instance** page, find the instance that you want to manage, click the <img src="en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt="">
 
    icon in the **Operation** column, and then click **Edit**.
 
@@ -374,7 +374,7 @@ After an instance is released, the instance and its data are deleted. Proceed wi
 
 2. In the left navigation pane, go to **Cloud Native Gateway > instance list**.
 
-3. On the **Gateway instance** page, find the instance that you want to manage, click the <img src="assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt="">
+3. On the **Gateway instance** page, find the instance that you want to manage, click the <img src="en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt="">
 
    icon in the **Operation** column, and then click **Write-off** or **Force Logoff**.
 
@@ -394,7 +394,7 @@ If you no longer need to run a Cloud-native Gateway instance, you can stop the i
 
 2. In the left navigation pane, go to **Cloud Native Gateway > instance list**.
 
-3. On the **Gateway instance** page, find the instance that you want to manage, click the <img src="assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt="">
+3. On the **Gateway instance** page, find the instance that you want to manage, click the <img src="en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt="">
 
    icon in the **Operation** column, and then click **Shutdown**.
 
@@ -414,7 +414,7 @@ If you need to continue using a gateway instance, you can restart the gateway in
 
 2. In the left navigation pane, go to **Cloud Native Gateway > instance list**.
 
-3. On the **Gateway instance** page, find the instance that you want to manage, click the <img src="assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt="">
+3. On the **Gateway instance** page, find the instance that you want to manage, click the <img src="en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/1e1baa5cb4a113020a8a73d856acf475.png" width="20" alt="">
 
    icon in the **Operation** column, and then click **Restart**.
 
@@ -432,7 +432,7 @@ A security group functions as a virtual firewall to control the inbound and outb
 
 The Cloud-native Gateway instance and the node on which your backend service is deployed belong to different security groups. Therefore, you must authorize the Cloud-native Gateway instance to access the backend service over a range of ports.
 
-![](assets/f4e0d9967338e5afea348013d9df2444.jpeg)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/f4e0d9967338e5afea348013d9df2444.jpeg)
 
 The preceding figure illustrates how you can use a Cloud-native Gateway instance to implement access control and traffic distribution for various types of services. Specifically:
 
@@ -735,7 +735,7 @@ You can configure a header modification policy to modify the headers in requests
 
 In this example, a header is added to responses. The following figure shows the configuration of the policy.
 
-![](assets/c4919ee9ebc570bafbba1ba232df76f4.jpeg)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/c4919ee9ebc570bafbba1ba232df76f4.jpeg)
 
 Run the following command to send a testing request:
 
@@ -2135,7 +2135,7 @@ Plug-in execution stage:  `Authentication` . Plug-in execution priority:  `350` 
   </tr>
 </table>
 
-![](assets/0c115cffb618385a265d90e4ea63a811.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/0c115cffb618385a265d90e4ea63a811.png)
 
 <table>
   <tr>
@@ -2194,7 +2194,7 @@ Plug-in execution stage:  `Authentication` . Plug-in execution priority:  `350` 
   </tr>
 </table>
 
-![](assets/75f26cad32bb41f13a24aadd52a2e8ca.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/75f26cad32bb41f13a24aadd52a2e8ca.png)
 
 **Usage**
 
@@ -2334,13 +2334,13 @@ match_list:
 
 **If the login fails when you access the service page, you are redirected to another page.**
 
-![](assets/530cc02330c3ff320baa48418e22ec0f.jpeg)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/530cc02330c3ff320baa48418e22ec0f.jpeg)
 
 **The service page appears if the login succeeds.**
 
 The _oauth2_proxy cookie is included in the headers for subsequent login requests. The Authorization header carries the ID token, which is used by the backend service to obtain user information.
 
-![](assets/4480e14644db87e1735adf6c3c407f81.jpeg)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/4480e14644db87e1735adf6c3c407f81.jpeg)
 
 **You are redirected to the logout page upon logout.**
 
@@ -2349,7 +2349,7 @@ http://foo.bar.com/oauth2/sign_out?rd=https%3A%2F%2Fdev-
 o43xb1mz7ya7ach4.us.auth0.com%2Foidc%2Flogout
 ```
 
-![](assets/e4e00ba4a7beef70172a1567372fb496.jpeg)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/e4e00ba4a7beef70172a1567372fb496.jpeg)
 
 **You are redirected to the logout page upon logout (the post_logout_redirect_uri parameter is included to specify the destination URI).**
 
@@ -2369,7 +2369,7 @@ A%2F%2Ffoo.bar.com%2Ffoo
 >
 > The URI specified in post_logout_redirect_uri must be pre-configured in the Allowed URLs of the OIDC Provider to enable successful redirection.
 
-![](assets/29a48ebbe8411f753dcd2c740265f441.jpeg)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/29a48ebbe8411f753dcd2c740265f441.jpeg)
 
 **Keycloak configuration example**
 
@@ -2410,11 +2410,11 @@ match_list:
 
 **If the login fails when you access the service page, you are redirected to another page.**
 
-![](assets/c99d97874762a67377b420216c2998d6.jpeg)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/c99d97874762a67377b420216c2998d6.jpeg)
 
 **The service page appears if the login succeeds.**
 
-![](assets/4480e14644db87e1735adf6c3c407f81.jpeg)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/4480e14644db87e1735adf6c3c407f81.jpeg)
 
 **You are redirected to the logout page upon logout.**
 
@@ -2424,7 +2424,7 @@ rd=http%3A%2F%2F127.0.0.1:9090%2Frealms%2Fmyrealm%2Fprotocol%2Fopenid-
 connect%2Flogout
 ```
 
-![](assets/5d7487438625a8e4ba41fa2aa3c94123.jpeg)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/5d7487438625a8e4ba41fa2aa3c94123.jpeg)
 
 **You are redirected to the logout page upon logout (the post_logout_redirect_uri parameter is included to specify the destination URI).**
 
@@ -2434,7 +2434,7 @@ rd=http%3A%2F%2F127.0.0.1:9090%2Frealms%2Fmyrealm%2Fprotocol%2Fopenid-
 connect%2Flogout%3Fpost_logout_redirect_uri%3Dhttp%3A%2F%2Ffoo.bar.com%2Ffoo
 ```
 
-![](assets/29a48ebbe8411f753dcd2c740265f441.jpeg)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/29a48ebbe8411f753dcd2c740265f441.jpeg)
 
 **OIDC process**
 
@@ -2482,7 +2482,7 @@ oidc_process
 
 3. The user is redirected to the login page.
 
-   ![](assets/0ada5e251f0b48f864bb01e372f35f60.jpeg)
+   ![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/0ada5e251f0b48f864bb01e372f35f60.jpeg)
 
 4. The user enters the username and password to complete the login.
 
@@ -3080,7 +3080,7 @@ Plug-in execution stage: Authentication. Plug-in execution priority:  `360`
 | <code>failure_mode_</code><br><code>allow_header_ad</code><br><code>d</code> | bool | No | false | When both <code> failure_mode_allow </code> and <code> failure_mode_allow_header_add </code> are set to true, if the communication with the authorization service fails or the authorization service returns an HTTP 5xx error, <code> x-envoy-</code><code>auth-failure-mode-allowed: true </code> is added to the request header. |
 | <code>status_on_err</code><br><code>or</code> | int | No | 403 | The HTTP status code returned to the client when the authorization service is unreachable or returns a 5xx status code. The default status code is <code> 403 </code>. |
 
-![](assets/6da68d948aedfc34f928b2435dd8ffb3.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/6da68d948aedfc34f928b2435dd8ffb3.png)
 
 The following table describes the configuration fields in  `http_service` .
 
@@ -3092,9 +3092,9 @@ The following table describes the configuration fields in  `http_service` .
 | <code>authorization_</code><br><code>request</code> | object | No | - | The configuration of an authentication request. |
 | <code>authorization_</code><br><code>response</code> | object | No | - | The configuration of the authentication response. |
 
-![](assets/2d152100fbaeb2441a8e9604dd9a48b0.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/2d152100fbaeb2441a8e9604dd9a48b0.png)
 
-![](assets/3d4bfbdde7ce1d8068ac126149e06689.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/3d4bfbdde7ce1d8068ac126149e06689.png)
 
 The following table describes the configuration fields in  `endpoint` .
 
@@ -3106,19 +3106,19 @@ The following table describes the configuration fields in  `endpoint` .
 | <code>path_prefix</code> | string | This field is required when the <code>endpoint_mode</code> <code> </code> field is set to <code> envoy </code>. | - | The request path prefix used by the client to send requests to the authorization service when the <code>endpoint_mode</code> <code> </code> field is set to <code> envoy </code>. |
 | <code>request_method</code> | string | No | GET | The HTTP method used by the client to send requests to the authorization service when the <code>endpoint_mode</code> <code> </code> field is set to <code>forward_auth</code><code> </code>. |
 
-![](assets/395959f8024e6c5bd8bfa6ac2e16e740.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/395959f8024e6c5bd8bfa6ac2e16e740.png)
 
-![](assets/d24acf39deed8d0d2a136d53e6507ba6.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/d24acf39deed8d0d2a136d53e6507ba6.png)
 
-![](assets/b16de38fc109ce025ccd5fcd7f4b94fb.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/b16de38fc109ce025ccd5fcd7f4b94fb.png)
 
-![](assets/4a3fc5c5cc80c6c543455bdf5069874a.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/4a3fc5c5cc80c6c543455bdf5069874a.png)
 
-![](assets/bd538db5f7f7ab05c1a10b9336b67d41.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/bd538db5f7f7ab05c1a10b9336b67d41.png)
 
-![](assets/585bc6295543917dfb0f5fb19e5a4dcd.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/585bc6295543917dfb0f5fb19e5a4dcd.png)
 
-![](assets/02faedf952150b46fdd88ddc4620e031.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/02faedf952150b46fdd88ddc4620e031.png)
 
 <table>
   <tr>
@@ -3130,9 +3130,9 @@ The following table describes the configuration fields in  `endpoint` .
   </tr>
 </table>
 
-![](assets/74e23a24eadcf3495aa0abd8173c5b0e.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/74e23a24eadcf3495aa0abd8173c5b0e.png)
 
-![](assets/fa0b244f79493053065498951cff17a0.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/fa0b244f79493053065498951cff17a0.png)
 
 The following table describes the configuration fields in  `authorization_request` .
 
@@ -3140,7 +3140,7 @@ The following table describes the configuration fields in  `authorization_reques
 | --- | --- | --- | --- | --- |
 | <code>allowed_header</code><br><code>s</code> | array of StringMatcher | No | - | When this field is configured, request headers that match the specified criteria are added to the authorization service request.In addition to user-defined header matching rules, the authorization service request automatically includes the <code>Authorization</code> <code> </code> HTTP header. If the <code>endpoint_mode</code> <code> </code> field is set to <code>forward_auth</code><code> </code>, <code> X-</code><code>Forwarded-*</code> request headers are automatically added. |
 
-![](assets/1233572442de424dd27db2a6b4e6dfb8.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/1233572442de424dd27db2a6b4e6dfb8.png)
 
 <table>
   <tr>
@@ -3148,7 +3148,7 @@ The following table describes the configuration fields in  `authorization_reques
     <td>map[string]string</td>
     <td>No</td>
     <td>-</td>
-    <td>A list of request headers that will be included in the authorization service request.<br><img src="assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>Client request headers with the same name will be overwritten.</td>
+    <td>A list of request headers that will be included in the authorization service request.<br><img src="en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>Client request headers with the same name will be overwritten.</td>
   </tr>
   <tr>
     <td><code>with_request_b</code><br><code>ody</code></td>
@@ -3162,11 +3162,11 @@ The following table describes the configuration fields in  `authorization_reques
     <td>int</td>
     <td>No</td>
     <td>10MB</td>
-    <td>The maximum size of the client request body that can be buffered in memory. When the client request body reaches this limit, an HTTP 413 status code is returned and the authorization process is not initiated.<br><img src="assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>This setting takes precedence over the <code>failure_m</code><br><code>ode_allow</code> configuratio n.</td>
+    <td>The maximum size of the client request body that can be buffered in memory. When the client request body reaches this limit, an HTTP 413 status code is returned and the authorization process is not initiated.<br><img src="en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/9d4239d2d9ef4e48d99dec2ebce4166e.png" width="14" alt=""><br>Important<br>This setting takes precedence over the <code>failure_m</code><br><code>ode_allow</code> configuratio n.</td>
   </tr>
 </table>
 
-![](assets/681b4718c311f0fdbe64b11b13d295c6.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/681b4718c311f0fdbe64b11b13d295c6.png)
 
 The following table describes the configuration fields in  `authorization_response` .
 
@@ -4117,11 +4117,11 @@ Plug-in execution stage:  `Authorization` . Plug-in execution priority:  `320` .
   </tr>
 </table>
 
-![](assets/c83e5dd082dd60ae3b9f6aba315b0361.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/c83e5dd082dd60ae3b9f6aba315b0361.png)
 
-![](assets/7eee44ef4d23c3422ea991ce7067d615.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/7eee44ef4d23c3422ea991ce7067d615.png)
 
-![](assets/9a78accb265dc76cfdbac3ca98097ce9.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/9a78accb265dc76cfdbac3ca98097ce9.png)
 
 <table>
   <tr>
@@ -4161,9 +4161,9 @@ Plug-in execution stage:  `Authorization` . Plug-in execution priority:  `320` .
   </tr>
 </table>
 
-![](assets/4425aaa0fd6fdd63cf7d3bd432c16765.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/4425aaa0fd6fdd63cf7d3bd432c16765.png)
 
-![](assets/b14d07e3096092f60e80ea313027d9cc.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/b14d07e3096092f60e80ea313027d9cc.png)
 
 **Configuration examples**
 
@@ -4358,13 +4358,13 @@ The following table describes the fields in  `global_threshold` .
 | query_per_hour | int | No (You can configure only one of the <code>query_per_sec</code> <code>ond </code>, <code>query_per_min</code> <code>ute </code>, <code>query_per_hou</code> <code>r </code>, and <code>query_per_day</code> <code> </code> fields.) | - | The number of requests that are allowed per hour. |
 | query_per_day | int | No (You can configure only one of the <code>query_per_sec</code> <code>ond </code>, <code>query_per_min</code> <code>ute </code>, <code>query_per_hou</code> <code>r </code>, and <code>query_per_day</code> <code> </code> fields.) | - | The number of requests that are allowed per day. |
 
-![](assets/5cadeafe07fbc970925f988fd7b22f7d.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/5cadeafe07fbc970925f988fd7b22f7d.png)
 
-![](assets/8c2fbd69e2a0f34777871cfb4568d8cb.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/8c2fbd69e2a0f34777871cfb4568d8cb.png)
 
-![](assets/9f4160c177528199209f2773413d2a14.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/9f4160c177528199209f2773413d2a14.png)
 
-![](assets/fb3e775fa59619c4bffbf9a5f77852df.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/fb3e775fa59619c4bffbf9a5f77852df.png)
 
 The following table describes the fields in  `rule_items` .
 
@@ -4409,7 +4409,7 @@ The following table describes the fields in  `limit_keys` .
 | key | string | Yes | - | The matched key value. Regular expressions or asterisks (\*) are supported for <code>limit_by_per_</code><code>header </code>, <code>limit_by_per_</code><code>param </code>, <code>limit_by_per_</code><code>consumer </code>, and <code>limit_by_per_</code><code>cookie </code>. If you want to use a regular expression, you must place regexp: before the regular expression. If you use an asterisk (\*), all the key values are matched.Example of a regular expression: <code> regexp:^d.* </code>.In this example, all strings that start with d can be matched. IP addresses or CIDR blocks are supported for <code>limit_by_per_</code><code>ip </code>. |
 | query_per_secon d | int | No (You can configure only one of the <code>query_per_sec</code> <code>ond </code>, <code>query_per_min</code> <code>ute </code>, <code>query_per_hou</code> <code>r </code>, and <code>query_per_day</code> <code> </code> fields.) | - | The number of requests that are allowed per second. |
 
-![](assets/a944496cd4e06a4f934031c781b46e95.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/a944496cd4e06a4f934031c781b46e95.png)
 
 <table>
   <tr>
@@ -4435,11 +4435,11 @@ The following table describes the fields in  `limit_keys` .
   </tr>
 </table>
 
-![](assets/1554d44ee1f9f581c12bd36a9df14060.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/1554d44ee1f9f581c12bd36a9df14060.png)
 
-![](assets/ac772f007508f056609e03a12c05f5ed.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/ac772f007508f056609e03a12c05f5ed.png)
 
-![](assets/690afb083f0594e8009497c6062c1a3f.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/690afb083f0594e8009497c6062c1a3f.png)
 
 The following table describes the fields in  `redis` .
 
@@ -4663,9 +4663,9 @@ The following table describes the configuration fields in  `limit_keys` .
 | query_per_secon d | number | No (You must configure <code>query_per_sec</code> <code>ond </code>, <code>query_per_min</code> <code>ute </code>, <code>query_per_hou</code> <code>r </code>, or <code>query_per_day</code><code> </code>.) | - | The number of requests that are allowed per second. |
 | query_per_minut e | number | No (You must configure <code>query_per_sec</code> <code>ond </code>, <code>query_per_min</code> <code>ute </code>, <code>query_per_hou</code> <code>r </code>, or <code>query_per_day</code><code> </code>.) | - | The number of requests that are allowed per minute. |
 
-![](assets/cebf8d4a278bcf21817e692a761f61b2.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/cebf8d4a278bcf21817e692a761f61b2.png)
 
-![](assets/45b4bd66cf7700c1ce8fc778fe60c462.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/45b4bd66cf7700c1ce8fc778fe60c462.png)
 
 <table>
   <tr>
@@ -4684,9 +4684,9 @@ The following table describes the configuration fields in  `limit_keys` .
   </tr>
 </table>
 
-![](assets/0087cf329262c6f1389112c8773ee6ac.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/0087cf329262c6f1389112c8773ee6ac.png)
 
-![](assets/5a712f8973ae28454653afc13ce59ee6.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/5a712f8973ae28454653afc13ce59ee6.png)
 
 **Configuration examples**
 
@@ -4733,11 +4733,11 @@ This section describes the fields that you can configure for the plug-in.
 | <code>defaultTagKey</code> | string | - | No | The default tag key. If no condition is matched, the default tag key is used. This field takes effect only if the defaultTagVal field is configured. |
 | <code>defaultTagVal</code> | string | - | No | The default tag value. If no condition is matched, the default tag value is used. This field takes effect only if the defaultTagKey field is configured. |
 
-![](assets/9d91b0433c79b4505e0cfee987ed0cb0.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/9d91b0433c79b4505e0cfee987ed0cb0.png)
 
-![](assets/7b5ea1a8f41f53a119f3100fa900c8cf.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/7b5ea1a8f41f53a119f3100fa900c8cf.png)
 
-![](assets/086098cfe649fd2c019eb7d9c9e8cab2.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/086098cfe649fd2c019eb7d9c9e8cab2.png)
 
 **conditionGroups configurations**
 
@@ -4757,7 +4757,7 @@ The following table describes the fields in the  `conditions`  field.
 | <code>conditionType</code> | string | - | Yes | The condition type, which can be <code> header </code>, <code> parameter </code>, or <code> cookie </code>. |
 | <code>key</code> | string | - | Yes | The condition keyword. |
 
-![](assets/726d27e6537e8c18de4af971f78cdfaf.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/726d27e6537e8c18de4af971f78cdfaf.png)
 
 <table>
   <tr>
@@ -5121,9 +5121,9 @@ Note:
 | append | The destination key. | The value to be added. | If the specified <code> key:value </code> pair exists, append appendValue to obtain <code>key:[value...</code><code>appendValue] </code>.Otherwise, perform an add operation to obtain <code> key:appendValue </code>. |
 | map | The mapping source fromKey. | The mapping destination toKey. | If the specified <code>fromKey:fromValue</code> <code> </code> pair exists, map its value fromValue to the value of toKey to obtain the <code>toKey:fromValue</code> pair while retaining the original <code>fromKey:fromValue</code> <code> </code> pair.<br>Note<br>If toKey already exists, its value is overwritten.Otherwise, no operation is performed. |
 
-![](assets/b9618b8434afc70c35a29df83fce1845.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/b9618b8434afc70c35a29df83fce1845.png)
 
-![](assets/f9eb03e22791c00bf91e56e00bf9aac7.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/f9eb03e22791c00bf91e56e00bf9aac7.png)
 
 <table>
   <tr>
@@ -5682,7 +5682,7 @@ Plug-in execution stage:  `Authentication` . Plug-in execution priority:  `450` 
 | <code>baseDeployment</code> | object | No | - | The baseline rule configuration. |
 | <code>grayDeployment</code><br><code>s</code> | array of object | No | - | The rule for canary release to take effect and the effective release version. |
 
-![](assets/39d1a0e6a35640aa61d3b468c2db1113.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/39d1a0e6a35640aa61d3b468c2db1113.png)
 
 The following table describes the fields in  `rules` .
 
@@ -5693,9 +5693,9 @@ The following table describes the fields in  `rules` .
 | <code>grayTagKey</code> | string | No | - | The tag key that is used to categorize users.The tag key comes from cookies. |
 | <code>grayTagValue</code> | array of string | No | - | The tag value that is used to categorize users.The tag value comes from cookies. |
 
-![](assets/a62059827ae4a1bf50db1eb2c91ef093.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/a62059827ae4a1bf50db1eb2c91ef093.png)
 
-![](assets/c24101132a823796bec781f1c6cd7705.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/c24101132a823796bec781f1c6cd7705.png)
 
 The following table describes the fields in  `rewrite` :
 
@@ -5709,7 +5709,7 @@ The following table describes the fields in  `rewrite` :
 | <code>notFoundUri</code> | string | No | - | The 404 page configuration. |
 | <code>indexRouting</code> | map of string to string | No | - | The routing rule that is used to rewrite the home page. Each key specifies a home page route path, and each value specifies a destination file to redirect the home page. For example, a key of <code> /app1 </code> corresponds to a value of<code>/mfe/app1/{ve</code><br><code>rsion}/index.ht</code> <code>ml </code>. If the effective version is <code> 0.0.1 </code> and the access path is <code> /app1 </code>, you are redirected to<code>/mfe/app1/0.0</code><br><code>.1/index.html</code>. |
 
-![](assets/5410b244238fc9e4bfaac080ad11b9e2.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/5410b244238fc9e4bfaac080ad11b9e2.png)
 
 <table>
   <tr>
@@ -5721,7 +5721,7 @@ The following table describes the fields in  `rewrite` :
   </tr>
 </table>
 
-![](assets/23258c23a4ab4995a4ed07618669b03e.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/23258c23a4ab4995a4ed07618669b03e.png)
 
 The following table describes the fields in  `baseDeployment` .
 
@@ -5738,9 +5738,9 @@ The following table describes the fields in  `grayDeployments` .
 | <code>name</code> | string | Yes | - | The rule name.This field takes effect together with <code>rules[].name</code><code> </code>. |
 | <code>enabled</code> | boolean | Yes | - | Specifies whether to enable the current rule. |
 
-![](assets/c4c2733cd175cead81cd8d194b31ee62.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/c4c2733cd175cead81cd8d194b31ee62.png)
 
-![](assets/04c1fe2b24efe411f141d4dceaf50010.png)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/04c1fe2b24efe411f141d4dceaf50010.png)
 
 **Configuration examples**
 
@@ -6474,7 +6474,7 @@ After a certificate is uploaded, you can view the details of the certificate.
 
    - **Issuer Information**: You can view the following information: **Name of Issuer** and **Issuer Department**.
 
-     ![](assets/3cbfd6dc7e58fa73744162e50cd0de27.jpeg)
+     ![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/3cbfd6dc7e58fa73744162e50cd0de27.jpeg)
 
 **Update a certificate**
 
@@ -6508,9 +6508,9 @@ After a certificate is uploaded, you can view the details of the certificate.
 
 After you upload the certificate, use the domain name corresponding to the certificate and an incorrect domain name to access the gateway. Sample results:
 
-![](assets/e49f3eff033c9698c4bacca9b066cbc3.jpeg)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/e49f3eff033c9698c4bacca9b066cbc3.jpeg)
 
-![](assets/2767215a84004d911fe6d9b97ca7bfc3.jpeg)
+![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/2767215a84004d911fe6d9b97ca7bfc3.jpeg)
 
 The results show that only the correct domain name can be used to access the gateway and obtain the corresponding certificate from the gateway, thereby achieving a successful handshake.
 
@@ -6650,21 +6650,21 @@ The **Monitoring Plugin** feature is enabled on the **Overview** page of the clo
 
 2. In the left-side navigation pane, click **Access Management**. On the **Integrated Environments** tab, search for the environment where the gateway resides.
 
-   ![](assets/26c8cc0072309933e90ab58f44cd7114.jpeg)
+   ![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/26c8cc0072309933e90ab58f44cd7114.jpeg)
 
 3. Click the environment name to go to the **Details** page.
 
 4. On the **Details** page, click **Self-Monitoring > Targets**. You can find **higress-gateway-metrics** in the right-side list.
 
-   ![](assets/c826ecf09c970ed3155cf293d911b3fd.jpeg)
+   ![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/c826ecf09c970ed3155cf293d911b3fd.jpeg)
 
 5. Expand **higress-gateway-metrics** and click the endpoint in the Endpoint column to go to the details page.
 
-   ![](assets/92180ca9f3679072143939861fa3f6eb.jpeg)
+   ![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/92180ca9f3679072143939861fa3f6eb.jpeg)
 
    The details page displays all metrics.
 
-   ![](assets/993744808f0e18fb03e99010ae4ce949.jpeg)
+   ![](en-cloud-native-gateway-user-guide-v3.18.6-20260630.assets/993744808f0e18fb03e99010ae4ce949.jpeg)
 
 <a id="section-3-10"></a>
 

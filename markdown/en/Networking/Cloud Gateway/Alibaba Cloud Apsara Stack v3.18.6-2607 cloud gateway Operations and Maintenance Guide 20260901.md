@@ -64,7 +64,7 @@ This topic describes how users such as O&M engineers log on to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -120,39 +120,39 @@ This topic describes how to view High Performance Network (HPN) network device a
 
 4. On the HPN Network Element page, configure the **Select IDC** parameter and specify the name of a network element to search for the network element.
 
-   ![](assets/2f31530aaa113feeb591154d74059781.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/2f31530aaa113feeb591154d74059781.jpeg)
 
 5. Click the name of the network element or click **Details** in the **Operation** column of the network element to view the details of the network element.
 
    - On the details page of the network element, view the basic information about the network element.
 
-     ![](assets/f3c0b3030ad18717f5ff5e1ceec632bc.jpeg)
+     ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/f3c0b3030ad18717f5ff5e1ceec632bc.jpeg)
 
    - On the **Port** tab, view port information.
 
      Click the name of the port that you want to view or click **View** in the **Details** column of the port to view the port details.
 
-     ![](assets/dbfe7f931d3b8d1d09163d3c45d8c655.jpeg)
+     ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/dbfe7f931d3b8d1d09163d3c45d8c655.jpeg)
 
    - On the **CPU Utilization** tab, view CPU utilization.
 
-     ![](assets/fa8d7adfb217be91aa8a91d7a190069f.jpeg)
+     ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/fa8d7adfb217be91aa8a91d7a190069f.jpeg)
 
    - On the **Memory Utilization** tab, view memory usage.
 
-     ![](assets/f12100b78ff8ba9e6cf18247123ccd77.jpeg)
+     ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/f12100b78ff8ba9e6cf18247123ccd77.jpeg)
 
    - On the **Aggregation Port Management** tab, view the information about aggregation ports.
 
      Find the aggregation port that you want to view and click **View** in the **Actions** column to view the usage data charts of the aggregation port.
 
-     ![](assets/8a6e14e1d22d5c8d99278669802285d6.jpeg)
+     ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/8a6e14e1d22d5c8d99278669802285d6.jpeg)
 
    - On the **Alert** tab, view the alert information about the network element.
 
      Find the alert that you want to view and click **View** in the **Alert Details** column to view the alert details.
 
-     ![](assets/20be0a065bcb0bbbecedba310c2db54a.jpeg)
+     ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/20be0a065bcb0bbbecedba310c2db54a.jpeg)
 
 **Delete a network element**
 
@@ -200,7 +200,7 @@ The remote direct memory access (RDMA) network interface O&M feature can regular
 
 5. On the **Cluster** tab, view the monitoring data of a cluster.
 
-   ![](assets/7fd5a4f4dc0a82736962fc45b0aad623.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/7fd5a4f4dc0a82736962fc45b0aad623.jpeg)
 
    | Section | Description |
    | --- | --- |
@@ -234,7 +234,7 @@ The remote direct memory access (RDMA) network interface O&M feature can regular
 
 6. On the **Node** tab, view the monitoring data of nodes.
 
-   ![](assets/2ee347e80baa4bd070a43427cd455437.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/2ee347e80baa4bd070a43427cd455437.jpeg)
 
    <table>
      <tr>
@@ -275,7 +275,7 @@ The Apsara Uni-manager Operations Console provides the High Performance Network 
 
 4. On the HPN performance analysis page, click **Create a test** to create an analysis task.
 
-   ![](assets/ad50edd2477532e4bfd3662d3ca348af.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/ad50edd2477532e4bfd3662d3ca348af.jpeg)
 
    The following table describes the parameter combinations for an analysis task.
 
@@ -375,7 +375,7 @@ High Performance Network (HPN) instant diagnostics refer to a diagnosis on HPN n
 
 5. View the diagnostic results.
 
-   ![](assets/d6775540708b9c81a3520957a048549e.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/d6775540708b9c81a3520957a048549e.jpeg)
 
    | Diagnostic result | Description |
    | --- | --- |
@@ -468,7 +468,7 @@ You can perform a Computing Platform Network (CPN) performance analysis task to 
 
 4. On the CPN Performance Analysis page, click **Create Test**. On the Create Analysis Task page, create an analysis task.
 
-   ![](assets/b9b322f454d626ff5d413842d6a194b3.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/b9b322f454d626ff5d413842d6a194b3.jpeg)
 
    The following table describes the parameter combinations of an analysis task for which the Protocol Type parameter is set to RDMA.
 
@@ -556,7 +556,7 @@ The CPN Alarm Center module displays alerts, including real-time alerts that are
 
 4. On the **CPN Alerts** page, click the **Alert Distribution Overview** tab to view the statistics of various types of CPN alerts. By default, the statistics of **Not Closed** alerts are displayed. You can click **Closed** to view the statistics of closed alerts.
 
-   ![](assets/cc43c8f0e15060c3db7a89f45f37d61d.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/cc43c8f0e15060c3db7a89f45f37d61d.jpeg)
 
    - You can set **Start and End Time** to filter and view the alerts in the specified time range.
 
@@ -574,7 +574,7 @@ The CPN Alarm Center module displays alerts, including real-time alerts that are
 
 4. On the **CPN Alerts** page, click the **Host Alert** tab to view real-time CPN alerts on the **Client** side. By default, **Not Closed** alerts are displayed. You can click **Closed** to view the closed alerts.
 
-   ![](assets/ddb7addc75677cade45b17e78ba51287.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/ddb7addc75677cade45b17e78ba51287.jpeg)
 
    - You can click the up or down arrow next to **Alert Level** or **Last Alert Time/Duration** to sort alerts.
 
@@ -598,7 +598,7 @@ The CPN Alarm Center module displays alerts, including real-time alerts that are
 
    You can also switch between tabs to view the real-time alerts of the **RASW**, **RDSW**, **EHSW**, **EDSW**, and **CHSW** types on the Network side.
 
-   ![](assets/a58e8fd02335dced7bbe26c2f9b1b74a.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/a58e8fd02335dced7bbe26c2f9b1b74a.jpeg)
 
    - You can click the up or down arrow next to **Alert Level** or **Last Alert Time/Duration** to sort alerts.
 
@@ -652,7 +652,7 @@ This topic describes how to manage Remote Direct Memory Access (RDMA) devices, i
 
        In the search box, enter the device name or manufacturer, or select the status of the
 
-       device, and click <img src="assets/4d17c4654ee2f6c33660cced8f405eb4.png" width="16" alt=""> .
+       device, and click <img src="en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/4d17c4654ee2f6c33660cced8f405eb4.png" width="16" alt=""> .
 
        </li>
 
@@ -740,7 +740,7 @@ On the **RDMA device policy management** tab, you can perform the following oper
 
 | Operation | Procedure |
 | --- | --- |
-| Query the policy for an RDMA device | 1. Select <strong>Device Name</strong>, <strong>Equipment manufacturer</strong>, <strong>Equipment model</strong>, <strong>Device role</strong>, <strong>Device Management IP</strong>, <strong>Serial Number</strong>, or <strong>Device status</strong> from the drop-down list.<br>2. Enter the device name, device vendor, device model, device role, device management IP address, serial number, or device status in the search box<br>and click<img src="assets/937da656ace91e45d9ada7fb4ec1bdd5.png" width="16" alt="">. |
+| Query the policy for an RDMA device | 1. Select <strong>Device Name</strong>, <strong>Equipment manufacturer</strong>, <strong>Equipment model</strong>, <strong>Device role</strong>, <strong>Device Management IP</strong>, <strong>Serial Number</strong>, or <strong>Device status</strong> from the drop-down list.<br>2. Enter the device name, device vendor, device model, device role, device management IP address, serial number, or device status in the search box<br>and click<img src="en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/937da656ace91e45d9ada7fb4ec1bdd5.png" width="16" alt="">. |
 | View the details of the policy of an RDMA device | 1. Click <strong>Details</strong> in the <strong>Actions</strong> column.<br>2. Click <strong>OK</strong> or <strong>Cancel</strong>. |
 | Retry the policy of an RDMA device | 1. Click <strong>Retry</strong> in the <strong>Actions</strong> column.<br>2. In the message that appears, click <strong>OK</strong>. |
 
@@ -781,7 +781,7 @@ On the **RDMA device interface policy management** tab, you can perform the foll
 
 | Operation | Procedure |
 | --- | --- |
-| Query the policy for an RDMA device interface | 1. Configure the <strong>Policy Name</strong>, <strong>Device Vendor</strong>, <strong>Device Model</strong>, <strong>Device Role</strong>, or <strong>Device Management IP</strong> parameter.<br>2. Enter the policy name, device vendor, device model, device role, or device<br>management IP address in the search box and click the<img src="assets/937da656ace91e45d9ada7fb4ec1bdd5.png" width="16" alt="">icon. |
+| Query the policy for an RDMA device interface | 1. Configure the <strong>Policy Name</strong>, <strong>Device Vendor</strong>, <strong>Device Model</strong>, <strong>Device Role</strong>, or <strong>Device Management IP</strong> parameter.<br>2. Enter the policy name, device vendor, device model, device role, or device<br>management IP address in the search box and click the<img src="en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/937da656ace91e45d9ada7fb4ec1bdd5.png" width="16" alt="">icon. |
 | View the details of a policy of an RDMA device interface | 1. Click <strong>Details</strong> in the <strong>Actions</strong> column.<br>2. Click <strong>OK</strong> or <strong>Cancel</strong>. |
 | Retry the policy for an RDMA device interface | 1. Click <strong>Retry</strong> in the <strong>Actions</strong> column.<br>2. In the message that appears, click <strong>OK</strong>. |
 
@@ -807,7 +807,7 @@ To perform O&M on Remote Direct Memory Access (RDMA) network interface cards (NI
 
 5. On the **Cluster** tab, view the monitoring information about the cluster.
 
-   ![](assets/7fd5a4f4dc0a82736962fc45b0aad623.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/7fd5a4f4dc0a82736962fc45b0aad623.jpeg)
 
    | Section | Description |
    | --- | --- |
@@ -824,7 +824,7 @@ To perform O&M on Remote Direct Memory Access (RDMA) network interface cards (NI
 
    Flow Control (PFC) packets when data is sent in the RDMA network.
 
-   ![](assets/4fb89ef406e5746d04c0034fc739dbd9.png)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/4fb89ef406e5746d04c0034fc739dbd9.png)
 
    - **RDMA_MARKED_ECN_AVG**: the average number of marked Explicit
 
@@ -873,7 +873,7 @@ This topic describes how to query the topology information about clusters and no
 
 5. Click **Query** to query the topology information.
 
-   ![](assets/6576b477586adbac8db471217be0156f.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/6576b477586adbac8db471217be0156f.jpeg)
 
 **What to do next**
 
@@ -881,9 +881,9 @@ After the topology is displayed, you can perform the following operations:
 
 | Operation | Procedure |
 | --- | --- |
-| Zoom in or zoom out the topology | Click<img src="assets/dba9047def2a2f8edab545893bde535f.png" width="14" alt="">or<img src="assets/e6191ced49e2d588a746624a2af8f1b0.png" width="16" alt="">in the upper-right corner of the topology to zoom in or zoom<br>out the topology. |
-| Reset the topology canvas | Click<img src="assets/34d23a7afde2f7bcbe58aeed542327a7.png" width="18" alt="">in the upper-right corner of the topology to reset the canvas. |
-| Display the topology in full screen | 1. Click<img src="assets/eb9ebd35ba3b7e3b35875db4ba291299.png" width="17" alt="">in the upper right corner of the topology to display the topology<br>in full screen.<br>2. Click<img src="assets/9b0aa0ffdeb866ae31fd8e64368359c0.png" width="27" alt="">in the upper-right corner to exit the full screen. |
+| Zoom in or zoom out the topology | Click<img src="en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/dba9047def2a2f8edab545893bde535f.png" width="14" alt="">or<img src="en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/e6191ced49e2d588a746624a2af8f1b0.png" width="16" alt="">in the upper-right corner of the topology to zoom in or zoom<br>out the topology. |
+| Reset the topology canvas | Click<img src="en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/34d23a7afde2f7bcbe58aeed542327a7.png" width="18" alt="">in the upper-right corner of the topology to reset the canvas. |
+| Display the topology in full screen | 1. Click<img src="en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/eb9ebd35ba3b7e3b35875db4ba291299.png" width="17" alt="">in the upper right corner of the topology to display the topology<br>in full screen.<br>2. Click<img src="en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/9b0aa0ffdeb866ae31fd8e64368359c0.png" width="27" alt="">in the upper-right corner to exit the full screen. |
 
 <a id="section-2-2-6-2"></a>
 
@@ -903,7 +903,7 @@ This topic describes how to view network devices and monitoring and O&M informat
 
 5. Click the name of a network element or click **Details** in the **Actions** column to go to the details page of the network element.
 
-   ![](assets/7b0d96dfe27ff2e6747fd9abe8f33a3c.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/7b0d96dfe27ff2e6747fd9abe8f33a3c.jpeg)
 
    | Tab | Description |
    | --- | --- |
@@ -943,9 +943,9 @@ You can use this feature to monitor the key metrics of remote direct memory acce
 
 5. On the **CPN host monitoring dashboard** page, view information about the following metrics: **Network Overview**, **End-side congestion packet loss**, **Network card RDMA packet loss**, **Network card RDMA communication QP quantity & network card status**, **Network congestion metrics**, **Network physical throughput**, and **Nic queue**
 
-   **throughput**. You can also click the <img src="assets/2589434fa30285193fa8e5b51148b10f.png" width="13" alt=""> icon to the left of each metric to view details.
+   **throughput**. You can also click the <img src="en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/2589434fa30285193fa8e5b51148b10f.png" width="13" alt=""> icon to the left of each metric to view details.
 
-   ![](assets/b3979b6428a42df2f364ab96c75ca118.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/b3979b6428a42df2f364ab96c75ca118.jpeg)
 
 <a id="section-2-2-7-2"></a>
 
@@ -965,11 +965,11 @@ You can use this feature to monitor the running status metrics of vSwitches. The
 
 5. On the CPN switch dashboard page, view information about the following metrics: **Network Overview**, **Ruijie exception indicator top 50**, **Top 50 abnormal indicators**, **Queue**
 
-   **metrics**, **Port metrics**, **Alarm status**, and **Logs**. You can also click the <img src="assets/2589434fa30285193fa8e5b51148b10f.png" width="13" alt=""> icon to the left
+   **metrics**, **Port metrics**, **Alarm status**, and **Logs**. You can also click the <img src="en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/2589434fa30285193fa8e5b51148b10f.png" width="13" alt=""> icon to the left
 
    of each metric to view details.
 
-   ![](assets/16fbbeb9fbaabd55ae13e638882677b2.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/16fbbeb9fbaabd55ae13e638882677b2.jpeg)
 
 <a id="section-2-2-7-3"></a>
 
@@ -993,7 +993,7 @@ You can use this tool to collect NAK packets in real time. After the packets are
 
    icon to the left of each metric to view details.
 
-   ![](assets/5fac833fa4f31b515efdea8fe402a025.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/5fac833fa4f31b515efdea8fe402a025.jpeg)
 
 <a id="section-2-2-7-4"></a>
 
@@ -1023,7 +1023,7 @@ The high-precision monitoring dashboard of Computing Platform Network (CPN) allo
 >
 > If one of the selected nodes is in the Running state, you cannot start the task again until the duration of the task elapses.
 
-![](assets/5c5e0d9d66b9d03b0a5290c5e59a91a8.jpeg)
+![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/5c5e0d9d66b9d03b0a5290c5e59a91a8.jpeg)
 
 <a id="section-2-2-7-5"></a>
 
@@ -1090,7 +1090,7 @@ The related tasks are created in the task modeling module of AI Studio.
 
    icon to the left of each panel name to fold or unfold the panel.
 
-![](assets/b6055997e7e93413c409ec320b49c7ec.jpeg)
+![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/b6055997e7e93413c409ec320b49c7ec.jpeg)
 
 <a id="section-2-2-7-7"></a>
 
@@ -1145,13 +1145,13 @@ After the database is enabled, you must restart the service.
 
      </ol>
 
-   ![](assets/4c32ca63aadc8c2bb28b5707ebf7bde8.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/4c32ca63aadc8c2bb28b5707ebf7bde8.jpeg)
 
-   ![](assets/6cac94db5012ebcb26bbeb66e8e44983.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/6cac94db5012ebcb26bbeb66e8e44983.jpeg)
 
-   ![](assets/45cd5f61e6dd41bf5d94e3c64750d68c.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/45cd5f61e6dd41bf5d94e3c64750d68c.jpeg)
 
-   ![](assets/e17d1f96f17f534ace829dfc45e1df91.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/e17d1f96f17f534ace829dfc45e1df91.jpeg)
 
 <a id="section-2-3"></a>
 
@@ -1271,11 +1271,11 @@ Create a bare metal instance and connect it to a VPC based on your O&M requireme
 
 5. On the Bare Metal Network Management tab, click **Create Bare Metal Instance**. In the Create Bare Metal Instance dialog box, configure the **Bare Metal Name**, **SN**, and **Description** parameters and click **OK**.
 
-   ![](assets/6db7727534c9bccc2ff0d0f2e6193e43.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/6db7727534c9bccc2ff0d0f2e6193e43.jpeg)
 
 6. Find the bare metal instance that you created and click **Connect to VPC** in the **Actions** column. In the Connect to VPC dialog box, configure the parameters that are described in the following table and click **OK**.
 
-   ![](assets/6d66643b0607219c3c1c56b43b0cc68f.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/6d66643b0607219c3c1c56b43b0cc68f.jpeg)
 
    <table>
      <tr>
@@ -1340,7 +1340,7 @@ Create a bare metal instance and connect it to a VPC based on your O&M requireme
 
 3. Find the bare metal instance and click **Details** in the **Actions** column to view the details of the bare metal instance, such as the ID of the Express Connect circuit, VPC router interface, and VBR interface.
 
-   ![](assets/12337bd4420e891afed49b2498a8c062.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/12337bd4420e891afed49b2498a8c062.jpeg)
 
 **Disconnect a bare metal instance from a VPC**
 
@@ -1384,7 +1384,7 @@ A bare metal instance is connected to a VPC.
 
 3. In the **Apply for Bare Metal IP Address** dialog box, configure the **Bare Metal NIC**, **IP**, and **IP Address Description** parameters and click **OK**.
 
-   ![](assets/30b162cecae9dccceb8bf51bdd0e1259.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/30b162cecae9dccceb8bf51bdd0e1259.jpeg)
 
    > **Note**
    >
@@ -1422,7 +1422,7 @@ In O&M emergency scenarios, you can use this feature to add the physical port of
 
 5. Select **Apply for Bare Metal in VPC** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/73f1e390aebd9b4f936217a8828cbd49.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/73f1e390aebd9b4f936217a8828cbd49.jpeg)
 
 6. Configure the parameters that are described in the following table.
 
@@ -1494,7 +1494,7 @@ In O&M emergency scenarios, you can use this feature to disconnect the physical 
 
 5. Select **Release Bare Metal in VPC** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/b77cfa1e2d733d38202c3edb04926454.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/b77cfa1e2d733d38202c3edb04926454.jpeg)
 
 6. Configure the parameters that are described in the following table.
 
@@ -1537,7 +1537,7 @@ In O&M emergency scenarios, you can use this feature to delete route entries tha
 
 5. Select **Delete Route Table Entry** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/8557914f4b6e83d099cd8b26c1bc6fc5.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/8557914f4b6e83d099cd8b26c1bc6fc5.jpeg)
 
 6. Configure the parameters that are described in the following table.
 
@@ -1609,7 +1609,7 @@ In O&M emergency scenarios, you can use this feature to delete a VPC router inte
 
 5. Select **Delete Router Interface** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/12314649c5ddb652f865de78a59dd660.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/12314649c5ddb652f865de78a59dd660.jpeg)
 
 6. Configure the parameters that are described in the following table.
 
@@ -1671,7 +1671,7 @@ In O&M emergency scenarios, you can use this feature to delete a VBR.
 
 5. Select **Delete VBR** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/f771c3514455a9b05f7f27a039f87e96.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/f771c3514455a9b05f7f27a039f87e96.jpeg)
 
 6. Configure the parameters that are described in the following table.
 
@@ -1729,7 +1729,7 @@ In O&M emergency scenarios, you can use this feature to delete an Express Connec
 
 5. Select **Delete Express Connect Circuit** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/9395413fbe1d64c4cb0b3d1d56936711.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/9395413fbe1d64c4cb0b3d1d56936711.jpeg)
 
 6. Configure the parameters that are described in the following table.
 
@@ -1787,7 +1787,7 @@ In O&M emergency scenarios, you can use this feature to delete all resources, in
 
 5. Select **Delete ALL Resources** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/311ab2183c54d408ea4cf19d52aabbc3.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/311ab2183c54d408ea4cf19d52aabbc3.jpeg)
 
 6. Configure the parameters that are described in the following table.
 
@@ -1877,7 +1877,7 @@ You can view the bandwidth of the Express Connect circuit to which a router inte
 
 6. Configure the parameters that are described in the following table and click **Query**. The system displays the bandwidth of the Express Connect circuit that meets the filter conditions.
 
-   ![](assets/da524ffffe608bc646a81b2779ef5fd0.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/da524ffffe608bc646a81b2779ef5fd0.jpeg)
 
    <table>
      <tr>
@@ -1940,7 +1940,7 @@ In O&M emergency scenarios, you can use this feature to change the bandwidth of 
 
 5. Select **Change Express Connect Circuit Bandwidth** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/80da0c715b4bf96e6f70e5a1e6f83da1.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/80da0c715b4bf96e6f70e5a1e6f83da1.jpeg)
 
 6. Configure the parameters that are described in the following table and click **Next**.
 
@@ -2054,7 +2054,7 @@ In O&M emergency scenarios, you can use this feature to check whether the initia
 
 5. Select **Check the Initialization Configuration** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/6117414f304745cd768df839205d36b2.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/6117414f304745cd768df839205d36b2.jpeg)
 
 6. Configure the parameters that are described in the following table.
 
@@ -2089,7 +2089,7 @@ You can use this operation to locate the exception and scan the HSW after a bare
 
 5. Select **Check the Route Configuration** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/7c9813350fbfde4ed3d52d928b5dd45e.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/7c9813350fbfde4ed3d52d928b5dd45e.jpeg)
 
 6. Configure the parameters that are described in the following table.
 
@@ -2141,7 +2141,7 @@ This operation is only for emergency scenarios in which the bare metal network i
 
 5. Select **Display the Information of Bare Metal Network Gateways** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/b4d23bafdb09d0dd668db0fd67bddf9d.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/b4d23bafdb09d0dd668db0fd67bddf9d.jpeg)
 
 6. Configure the parameters that are described in the following table.
 
@@ -2199,7 +2199,7 @@ On the Instance Management tab, you can view information about computing access 
 
 5. On the **Display Devices** tab, view the information about computing access gateways.
 
-   ![](assets/89573041cf59a436233fb9604cf101ed.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/89573041cf59a436233fb9604cf101ed.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -2346,7 +2346,7 @@ To meet O&M requirements, you can view the records and results of API operations
 
    Click **Advanced Filter** and filter operation logs by **Start/End Time**, **Bare Metal Name**, **VPC ID**, **vSwitch ID**, **VBR ID**, **BD ID**, **Computing Access Gateway Name**, or any combination of them.
 
-   ![](assets/d1715841bad1857a416f1da48a3b21b9.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/d1715841bad1857a416f1da48a3b21b9.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -2361,7 +2361,7 @@ To meet O&M requirements, you can view the records and results of API operations
 
 5. In the operation history list, find the operation log that you want to view and click **Details** in the **Actions** column. In the panel that appears, view the details of the operation log.
 
-   ![](assets/562898b9d2e1065192fffcc82fbfbffd.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/562898b9d2e1065192fffcc82fbfbffd.jpeg)
 
 **VPC Management**
 
@@ -2379,13 +2379,13 @@ Create a bare metal instance and connect it to a VPC based on your O&M requireme
 
 6. In the **Create Bare Metal Instance** dialog box, configure the **Bare Metal Name**, **SN**, and **Description** parameters, and then click **OK**.
 
-   ![](assets/6db7727534c9bccc2ff0d0f2e6193e43.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/6db7727534c9bccc2ff0d0f2e6193e43.jpeg)
 
 7. On the **Computing Access Gateway** page, view the bare metal instances.
 
    Click **Advanced Filter** and filter bare metal instances by **Bare Metal Name**, **VPC ID**, **vSwitch ID**, **Computing Access Gateway Name**, or any combination of them.
 
-   ![](assets/fb210af8b4fe0e3f95475c7d592f81a9.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/fb210af8b4fe0e3f95475c7d592f81a9.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -2407,7 +2407,7 @@ Create a bare metal instance and connect it to a VPC based on your O&M requireme
 
      In the bare metal instance list, find the bare metal instance that you want to view and click **Details** in the **Actions** column. In the panel that appears, view the details of the bare metal instance.
 
-     ![](assets/38233519f5f2c45caab2b0c5038316dd.jpeg)
+     ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/38233519f5f2c45caab2b0c5038316dd.jpeg)
 
      </li>
 
@@ -2427,7 +2427,7 @@ Create a bare metal instance and connect it to a VPC based on your O&M requireme
 
      In the **Connect to VPC** dialog box, configure the following parameters and click **OK**.
 
-     ![](assets/e3a341ac6e0d0eb25bcfec0a7daf01a4.jpeg)
+     ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/e3a341ac6e0d0eb25bcfec0a7daf01a4.jpeg)
 
      <table>
        <tr>
@@ -2551,7 +2551,7 @@ Create a bare metal instance and connect it to a VPC based on your O&M requireme
 
      In the **Apply for Bare Metal IP Address** dialog box, configure the **Bare Metal NIC**, **IP**, and **IP Address Description** parameters and click **OK**.
 
-     ![](assets/30b162cecae9dccceb8bf51bdd0e1259.jpeg)
+     ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/30b162cecae9dccceb8bf51bdd0e1259.jpeg)
 
      > **Note**
      >
@@ -2563,7 +2563,7 @@ Create a bare metal instance and connect it to a VPC based on your O&M requireme
 
      After you apply for an IP address for a bare metal instance, view the IP address in the **Bare Metal IP Address Management** panel. The IP address information includes **ID**, **IP Address**, **Bare Metal Name/SN**, **Bare Metal NIC**, **Created At**, **Modified At**, **Description**, **VPC ID**, and **vswitch id**.
 
-     ![](assets/db63714775d813ccbbb3e248d948b8b7.jpeg)
+     ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/db63714775d813ccbbb3e248d948b8b7.jpeg)
 
      - Find the bare metal IP address that you want to manage and click **Edit** in the **Actions** column to modify the **IP** and **IP Address Description** parameters.
 
@@ -2587,7 +2587,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Click **Advanced Filter** and filter bare metal instances by **vSwitch ID**, **VPC ID**, **Private Line Gateway Name**, or any combination of them.
 
-   ![](assets/64b534c57bda64e43b5f5f2d17120a5c.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/64b534c57bda64e43b5f5f2d17120a5c.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -2604,7 +2604,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
      In the bare metal instance list, find the bare metal instance that you want to view and click **Details** in the **Actions** column. In the panel that appears, view the Express Connect circuit details of the bare metal instance.
 
-     ![](assets/1eb6cd7427b54b700a4ace25b7a4385e.jpeg)
+     ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/1eb6cd7427b54b700a4ace25b7a4385e.jpeg)
 
    - **Delete an Express Connect circuit for a bare metal instance**
 
@@ -2638,7 +2638,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **Apply for Bare Metal in VPC** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/6d4bb2e1a917ec852a2d8a85c62e3605.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/6d4bb2e1a917ec852a2d8a85c62e3605.jpeg)
 
    </li>
 
@@ -2732,7 +2732,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **Release Bare Metal in VPC** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/9486da4f2fb4696631631e1d93d1d628.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/9486da4f2fb4696631631e1d93d1d628.jpeg)
 
    </li>
 
@@ -2798,7 +2798,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **Delete Route Table Entry** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/192e2fde6433c88e75aef74c691832bf.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/192e2fde6433c88e75aef74c691832bf.jpeg)
 
    </li>
 
@@ -2890,7 +2890,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **Delete Router Interface** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/69c0c799e9c085fc99e2dda0287c90cb.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/69c0c799e9c085fc99e2dda0287c90cb.jpeg)
 
    </li>
 
@@ -2972,7 +2972,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **Delete VBR** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/88550b7f97869ca475d7357ba538d877.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/88550b7f97869ca475d7357ba538d877.jpeg)
 
    </li>
 
@@ -3050,7 +3050,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **Delete Express Connect Circuit** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/635febeb8c80d3a55c7ea4e6d855cb6d.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/635febeb8c80d3a55c7ea4e6d855cb6d.jpeg)
 
    </li>
 
@@ -3128,7 +3128,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **Delete ALL Resources** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/831bd7339476967598539bde720c7272.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/831bd7339476967598539bde720c7272.jpeg)
 
    </li>
 
@@ -3228,7 +3228,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **View Express Connect Circuit Bandwidth** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/2697b86c715afadb20c39730ce94e36a.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/2697b86c715afadb20c39730ce94e36a.jpeg)
 
    </li>
 
@@ -3307,7 +3307,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **Change Express Connect Circuit Bandwidth** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/71efff7b053938e1a356ada3c27ad7c0.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/71efff7b053938e1a356ada3c27ad7c0.jpeg)
 
    </li>
 
@@ -3397,7 +3397,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
    >
    > Specify the last integer of the value of the **Port** parameter that is obtained from the **VPC Management** tab as the **trunk ID**. For example, if the value of the Port parameter is 10GE1/0/40, specify 40 as the **trunk ID**.
 
-   ![](assets/9cf2c03a33e55c87b1f59ff8124f49cf.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/9cf2c03a33e55c87b1f59ff8124f49cf.jpeg)
 
    **View VPN usage of a bare metal instance**
 
@@ -3423,7 +3423,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Specify the **name of a computing access gateway**, a **Virtual Extensible Local Area Network (VXLAN) ID**, and the **VPN name of a bare metal instance**, select a state, and then click **Search** to view the bare metal instance VPNs assigned to all the HSWs. Valid values of the **Status** parameter are **Succeeded** and **Creating**.
 
-   ![](assets/0750eb9336cabb043c44beb1b62f2e69.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/0750eb9336cabb043c44beb1b62f2e69.jpeg)
 
    **View BD usage**
 
@@ -3447,7 +3447,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Specify a **computing access gateway name**, a **BD ID**, and a **vSwitch ID**, select a state, and then click **Search** to view BD usage. Valid values of the **Status** parameter are **Succeeded**, **Creating**, and **Deleting**.
 
-   ![](assets/71bee581da29800aa23ddb31d0f2babe.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/71bee581da29800aa23ddb31d0f2babe.jpeg)
 
    **Check initialization configurations**
 
@@ -3463,7 +3463,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **Check the Initialization Configuration** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/7d9eb616474cfc53339ce7885a5857a2.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/7d9eb616474cfc53339ce7885a5857a2.jpeg)
 
    </li>
 
@@ -3510,7 +3510,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **Check the Route Configuration** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/96a6c7b5ab9218fd85280924742f572d.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/96a6c7b5ab9218fd85280924742f572d.jpeg)
 
    </li>
 
@@ -3574,7 +3574,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **Display the Information of Bare Metal Network Gateways** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/9342bd8b915046b8f933ce738390b98f.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/9342bd8b915046b8f933ce738390b98f.jpeg)
 
    </li>
 
@@ -3636,7 +3636,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **Change Single-RR Deployment to Double-RR Deployment** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/052deffc7b30b0395be9820ba4e56887.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/052deffc7b30b0395be9820ba4e56887.jpeg)
 
    </li>
 
@@ -3676,7 +3676,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Specify **Existing RR Device Name**, **New RR Device Name**, and **Request ID** to view the records of RR device upgrades that meet the filter conditions.
 
-   ![](assets/057a4f93422f41f8ffd5d785c201928b.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/057a4f93422f41f8ffd5d785c201928b.jpeg)
 
    <ol type="i" start="3">
 
@@ -3782,7 +3782,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
    Select **vSwitch Unbound from Private Line Gateway** from the drop-down list in the upper-left corner of the tab.
 
-   ![](assets/c5697783d77c5cfebeb40fd62cce567b.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/c5697783d77c5cfebeb40fd62cce567b.jpeg)
 
    </li>
 
@@ -3866,7 +3866,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
    >
    > Only x86-based physical machines can be managed.
 
-   ![](assets/92f808e6d414f0ee6d1b25522cb22126.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/92f808e6d414f0ee6d1b25522cb22126.jpeg)
 
 5. Find the zone that you want to manage and click **Set Secondary Zone** in the **Actions** column.
 
@@ -3882,7 +3882,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
    >
    > - The secondary zone that you select cannot be the secondary zone of another zone.
 
-   ![](assets/53a80d9b3ecd63cfe17330ae099d14bc.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/53a80d9b3ecd63cfe17330ae099d14bc.jpeg)
 
 **What to do next**
 
@@ -3902,7 +3902,7 @@ On the Private Line Management tab, you can view the bare metal networks associa
 
 2. In the View Change History dialog box, view the change history of the zone.
 
-   ![](assets/5dcc3fc8a7013fa6254c5017c3e2ca07.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/5dcc3fc8a7013fa6254c5017c3e2ca07.jpeg)
 
 3. Find the change record that you want to manage and click **View details** in the **Operation** column. On the **Execution Details** page, view detailed information. For more information, see Execution history.
 
@@ -3958,11 +3958,11 @@ Traffic collection and analysis rely on analyzers and analysis ports. You must c
 
    | Section | Task | Procedure |
    | --- | --- | --- |
-   |  | Add an analyzer | i. In the <strong>Analyzer management</strong> section, click <strong>Add Analyzer</strong>.ii. In the <strong>Add Analyzer</strong> panel, configure the following parameters and click <strong>OK</strong>.<br>![](assets/eb1f6d1d1d3fb19d06680ca60582f357.jpeg)<br>• <strong>Availability Zone</strong>: Select the availability zone where the analyzer is located.<br>• <strong>Analyzer Name</strong>: Enter a custom name for the analyzer.<br>The name can be up to 32 characters long and can contain Chinese characters, letters, digits, and underscores (_). It cannot start with a digit.<br>• <strong>Analyzer Role</strong>: The role of the NPM device.<br>• <strong>NPM Physical Machine</strong>: Collects and processes traffic.<br>• <strong>NPM Central Controller</strong>: Analyzes and visualizes traffic.<br>• <strong>Galaxy Security Gateway</strong>: When you configure VPC traffic mirror rules, traffic is preferentially routed to the <strong>traffic gateway</strong> without passing through an NPM device.<br>• <strong>Management IP:</strong> The IP address of the NPM device<strong>.</strong><br>• <strong>Username</strong>: The username for the NPM device.<br>• <strong>Password</strong>: The password for the NPM device.<br>• <strong>Serial Number</strong>: The serial number of the NPM device.<br>• <strong>Portal</strong>: The web address of the vendor's NPM central controller, used for daily O&amp;M and management of NPM devices. This address is automatically generated after the analyzer is created and appears in the list.<br>• <strong>Analyzer Description</strong>: Enter a custom description for the analyzer. |
+   |  | Add an analyzer | i. In the <strong>Analyzer management</strong> section, click <strong>Add Analyzer</strong>.ii. In the <strong>Add Analyzer</strong> panel, configure the following parameters and click <strong>OK</strong>.<br>![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/eb1f6d1d1d3fb19d06680ca60582f357.jpeg)<br>• <strong>Availability Zone</strong>: Select the availability zone where the analyzer is located.<br>• <strong>Analyzer Name</strong>: Enter a custom name for the analyzer.<br>The name can be up to 32 characters long and can contain Chinese characters, letters, digits, and underscores (_). It cannot start with a digit.<br>• <strong>Analyzer Role</strong>: The role of the NPM device.<br>• <strong>NPM Physical Machine</strong>: Collects and processes traffic.<br>• <strong>NPM Central Controller</strong>: Analyzes and visualizes traffic.<br>• <strong>Galaxy Security Gateway</strong>: When you configure VPC traffic mirror rules, traffic is preferentially routed to the <strong>traffic gateway</strong> without passing through an NPM device.<br>• <strong>Management IP:</strong> The IP address of the NPM device<strong>.</strong><br>• <strong>Username</strong>: The username for the NPM device.<br>• <strong>Password</strong>: The password for the NPM device.<br>• <strong>Serial Number</strong>: The serial number of the NPM device.<br>• <strong>Portal</strong>: The web address of the vendor's NPM central controller, used for daily O&amp;M and management of NPM devices. This address is automatically generated after the analyzer is created and appears in the list.<br>• <strong>Analyzer Description</strong>: Enter a custom description for the analyzer. |
 
    Analyzer management
 
-   ![](assets/0f872053f96fe2ff9e98821674322d59.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/0f872053f96fe2ff9e98821674322d59.jpeg)
 
    <ol type="i">
 
@@ -4068,7 +4068,7 @@ Traffic collection and analysis rely on analyzers and analysis ports. You must c
      <tr>
        <td>Analysis port management</td>
        <td>Add an analysis port</td>
-       <td>ii. In the <strong>Add Analysis Port</strong> panel, configure the following parameters and click <strong>OK</strong>.<br><img src="assets/90c95531ab41cd3749a3c82dcf9eb29f.jpeg" alt=""><br>• <strong>Analysis Port Name:</strong> Enter a custom name for the analysis port.<br>The name can be up to 32 characters long and can contain Chinese characters, letters, digits, and underscores (_). The name cannot start with a digit.<br>• <strong>Analyzer Name:</strong> Select the associated analyzer.<br>• <strong>Analyzer Physical Interface Name:</strong> Select a physical interface on the analyzer.<br>• <strong>Analysis Port Type</strong>: Select the type of the analysis port.<br>• VPC<br>• Physical<br>• ACK<br>• ALL<br>• <strong>Analysis Port IP</strong>: Enter the IPv4 address of the analysis port.<br>• <strong>Description</strong>: Enter a custom description for the analysis port.</td>
+       <td>ii. In the <strong>Add Analysis Port</strong> panel, configure the following parameters and click <strong>OK</strong>.<br><img src="en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/90c95531ab41cd3749a3c82dcf9eb29f.jpeg" alt=""><br>• <strong>Analysis Port Name:</strong> Enter a custom name for the analysis port.<br>The name can be up to 32 characters long and can contain Chinese characters, letters, digits, and underscores (_). The name cannot start with a digit.<br>• <strong>Analyzer Name:</strong> Select the associated analyzer.<br>• <strong>Analyzer Physical Interface Name:</strong> Select a physical interface on the analyzer.<br>• <strong>Analysis Port Type</strong>: Select the type of the analysis port.<br>• VPC<br>• Physical<br>• ACK<br>• ALL<br>• <strong>Analysis Port IP</strong>: Enter the IPv4 address of the analysis port.<br>• <strong>Description</strong>: Enter a custom description for the analysis port.</td>
      </tr>
      <tr>
        <td rowspan="4"></td>
@@ -4077,7 +4077,7 @@ Traffic collection and analysis rely on analyzers and analysis ports. You must c
      </tr>
      <tr>
        <td>View an analysis port</td>
-       <td><img src="assets/c9588eedb05acbfe3c2406e6ed453795.jpeg" alt=""><br>i. In the <strong>Analysis port management</strong> section, view the list of analysis ports. The list includes <strong>ID</strong>, <strong>Analysis Port Name</strong>, <strong>Analyzer Name</strong>, <strong>Analyzer Physical Network Interface</strong> <strong>Name</strong>, <strong>Analysis Port Type</strong>, <strong>Analysis Port IP</strong>, <strong>Description</strong>, and <strong>Creation Date</strong>.<br>ii. In the <strong>Actions</strong> column of the target analysis port, click <strong>Details</strong>.In the <strong>Details</strong> panel, view the details of the analysis port.</td>
+       <td><img src="en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/c9588eedb05acbfe3c2406e6ed453795.jpeg" alt=""><br>i. In the <strong>Analysis port management</strong> section, view the list of analysis ports. The list includes <strong>ID</strong>, <strong>Analysis Port Name</strong>, <strong>Analyzer Name</strong>, <strong>Analyzer Physical Network Interface</strong> <strong>Name</strong>, <strong>Analysis Port Type</strong>, <strong>Analysis Port IP</strong>, <strong>Description</strong>, and <strong>Creation Date</strong>.<br>ii. In the <strong>Actions</strong> column of the target analysis port, click <strong>Details</strong>.In the <strong>Details</strong> panel, view the details of the analysis port.</td>
      </tr>
      <tr>
        <td>Edit an analysis port</td>
@@ -4114,7 +4114,7 @@ Before creating a collection rule, add the required analyzers and analysis ports
    | View a collection rule | In the collection rule list, you can view information such as <strong>Rule ID</strong>, <strong>Collection</strong> <strong>Rule Name</strong>, <strong>Availability Zone</strong>, <strong>Data Source Type</strong>, <strong>Data Source Host</strong> <strong>Device</strong>, <strong>Data Source Port</strong>, <strong>VPC ID</strong>, <strong>Data Source Port ID</strong>, <strong>SLB ID</strong>, <strong>ACK</strong> <strong>Cluster ID</strong>, <strong>Traffic Direction</strong>, <strong>Traffic Analysis Mode</strong>, <strong>Analyzer Name</strong>, <strong>Analysis Port Name</strong>, <strong>Analysis Port VLAN ID</strong>, <strong>Status</strong>, <strong>Description</strong>, <strong>Creation</strong> <strong>Date</strong>, and <strong>Modification Time</strong>. |
    | Retry a rule | Note<br>The <strong>Retry</strong> operation is available for collection rules with a <strong>Status</strong> of Failed.<br>i. In the collection rule list, find the target rule and click <strong>Retry</strong> in the <strong>Actions</strong> column.<br>ii. In the panel that appears, modify the parameters and click <strong>OK</strong>. |
 
-   ![](assets/37b9f08522c9ad35a656bda98882dda0.png)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/37b9f08522c9ad35a656bda98882dda0.png)
 
    <table>
      <tr>
@@ -4188,7 +4188,7 @@ Before creating an analysis scenario, create the required collection rules. For 
 
    | Task | Procedure |
    | --- | --- |
-   | Add an analysis scenario | i. Above the analysis scenario list, click <strong>Create Analysis Scenario</strong>.ii. In the <strong>New Scenario</strong> panel, configure the following parameters and click <strong>OK</strong>.<br>![](assets/a4980d0ca9e9de013f3e5e54ddd5eb2e.jpeg)<br>• <strong>Availability Zone</strong>: Select the availability zone where the analysis scenario is located.<br>• <strong>Scenario Name</strong>: Enter a custom name for the scenario.<br>The name can be up to 32 characters long and can contain letters and digits. |
+   | Add an analysis scenario | i. Above the analysis scenario list, click <strong>Create Analysis Scenario</strong>.ii. In the <strong>New Scenario</strong> panel, configure the following parameters and click <strong>OK</strong>.<br>![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/a4980d0ca9e9de013f3e5e54ddd5eb2e.jpeg)<br>• <strong>Availability Zone</strong>: Select the availability zone where the analysis scenario is located.<br>• <strong>Scenario Name</strong>: Enter a custom name for the scenario.<br>The name can be up to 32 characters long and can contain letters and digits. |
    | View an analysis scenario | • <strong>Network Type</strong>: Select the network type for the analysis scenario.<br>i. View the list of analysis scenarios.<br>• <strong>VPC</strong>: A virtual network.ii. In the <strong>Actions</strong> column of the target analysis scenario, click <strong>Details</strong>. In the <strong>Details</strong> panel, view the details of the analysis scenario.<br>• <strong>BORDER</strong>: A border physical network. |
    | Edit an analysis scenario | • <strong>Collection Rule</strong>: Select one or more collection rules to associate with the analysis scenario.<br>i. In the analysis scenario list, find the target scenario and click <strong>Edit</strong> in the <strong>Actions</strong> column.<br>• <strong>Description</strong>: Enter a custom description for the scenario.ii. In the <strong>Edit Scenario</strong> panel, modify the parameters and click <strong>OK</strong>.<br>For parameter descriptions, see Add an analysis scenario.<br>Note<br>The <strong>Network Type</strong> cannot be modified. |
    | Delete an analysis scenario | i. In the analysis scenario list, find the target scenario and click <strong>Delete</strong> in the <strong>Actions</strong> column.<br>ii. Click <strong>OK</strong>. |
@@ -4207,4 +4207,4 @@ This section displays a list of all SLB instances created by the traffic visuali
 
 4. On the **System Management** page, click the **Network Resource List** tab to view the list of network resources, which includes **Availability Zone**, **Resource ID**, **Resource Value**, **Resource Type**, **Cluster**, **VpcId**, **Resource Usage**, **Resource Owner**, and **Creation Time**.
 
-   ![](assets/0bf665c26b6bef1b179fb9dc005df6b4.jpeg)
+   ![](en-cloud-gateway-operations-guide-v3.18.6-2607-20260901.assets/0bf665c26b6bef1b179fb9dc005df6b4.jpeg)

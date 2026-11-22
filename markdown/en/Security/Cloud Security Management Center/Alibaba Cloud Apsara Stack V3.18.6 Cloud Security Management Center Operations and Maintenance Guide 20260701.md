@@ -39,7 +39,7 @@ This topic describes how to log in to the Apsara Infrastructure Management conso
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-cloud-security-center-operations-guide-v3.18.6-20260701.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -93,7 +93,7 @@ The basic inspection of Security Operations Center (SOC) checks whether a servic
 
 4. On the Product & Cluster O&M page, enter sas-securityoperationscentercluster in the **Product | Cluster** search box. Then, click **Cluster Details** in the Actions column.
 
-   ![](assets/40f609025678c5ec6ab2d493080848af.png)
+   ![](en-cloud-security-center-operations-guide-v3.18.6-20260701.assets/40f609025678c5ec6ab2d493080848af.png)
 
 5. On the **Services** tab of the Cluster Details page, click the name of the service.
 
@@ -135,7 +135,7 @@ This topic describes how to perform the advanced inspection on SocApp.
 
    corresponding SocApp container.
 
-   ![](assets/8b1ecf32fa0b17eb0da232db4f15bc32.png)
+   ![](en-cloud-security-center-operations-guide-v3.18.6-20260701.assets/8b1ecf32fa0b17eb0da232db4f15bc32.png)
 
 3. Check the status of the Java process.
 
@@ -179,7 +179,7 @@ This topic describes how to perform the advanced inspection on SocApp.
 
    corresponding SiemAPP container.
 
-   ![](assets/259119183cfc657c08e790a1f6ecb615.png)
+   ![](en-cloud-security-center-operations-guide-v3.18.6-20260701.assets/259119183cfc657c08e790a1f6ecb615.png)
 
 3. Check the status of the Java process.
 

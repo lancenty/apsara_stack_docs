@@ -136,7 +136,7 @@ The ECS instances to be released are **pay-as-you-go** instances.
 
 4. Click **Create Execution**.
 
-   ![](assets/518bf454259de027fb2a192ab677bd49.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/518bf454259de027fb2a192ab677bd49.jpeg)
 
 5. On the Create page, configure the parameters in the Basic Information step
 
@@ -144,7 +144,7 @@ The ECS instances to be released are **pay-as-you-go** instances.
 
 6. Click **Next Step: Parameter Settings**.
 
-   ![](assets/a8e2e66f654bd161f527660cfac803f2.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/a8e2e66f654bd161f527660cfac803f2.jpeg)
 
 7. In the Parameter Settings step, configure the parameters.
 
@@ -159,11 +159,11 @@ The ECS instances to be released are **pay-as-you-go** instances.
 
 8. Click **Next Step: OK**.
 
-   ![](assets/6494a1eeed4aab0254230b88b5f4e4bb.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/6494a1eeed4aab0254230b88b5f4e4bb.jpeg)
 
 9. In the OK step, click **Create**.
 
-   ![](assets/bb40362377b158e3c99d071d0667b911.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/bb40362377b158e3c99d071d0667b911.jpeg)
 
 0. On the **Task Execution Management** page, view the created execution. If the execution is in the Running state, the specified instances are being released.
 
@@ -171,11 +171,11 @@ The ECS instances to be released are **pay-as-you-go** instances.
 
    When the state of the execution changes to Success, all specified instances are released.
 
-   ![](assets/f1f3e3b7fdea5c5de5193c4a18fd3eb5.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/f1f3e3b7fdea5c5de5193c4a18fd3eb5.jpeg)
 
 2. Check whether all specified instances are released.
 
-   ![](assets/98093dd657becff1f60e1a942c36dd46.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/98093dd657becff1f60e1a942c36dd46.jpeg)
 
 **Public templates**
 
@@ -368,11 +368,11 @@ To resolve the preceding issues, you can use CloudOps Orchestration Service (OOS
 
 3. On the Create Scheduled O&M Task page, set the Scheduled Task Type parameter to Executed Periodically.
 
-   ![](assets/cf09502d313ca33acda9c4f464b35063.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/cf09502d313ca33acda9c4f464b35063.jpeg)
 
 4. Select the ACS-ECS-BulkyRebootInstances template, and then configure the parameters to create an execution.
 
-   ![](assets/ad6a768351f3bcac9472a620b805df59.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/ad6a768351f3bcac9472a620b805df59.jpeg)
 
 <a id="section-6"></a>
 
@@ -396,7 +396,7 @@ When the ACS::Approve action is to be executed in a template, OOS suspends the s
 
 3. On the Custom Template page, click **Create Template**.
 
-   ![](assets/8837d4b2bd839751b131301ea3958d32.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/8837d4b2bd839751b131301ea3958d32.jpeg)
 
 4. On the Create Template page, configure the parameters in the **Basic Information** section. The following table describes the parameters.
 
@@ -409,7 +409,7 @@ When the ACS::Approve action is to be executed in a template, OOS suspends the s
 
 5. Click the **YAML** tab and paste the template content in the **Appendix 1: Template for approving restart of ECS instances** section of this topic to the code editor.
 
-   ![](assets/593dd2e2d846baa487ef97b4f0ca7ba2.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/593dd2e2d846baa487ef97b4f0ca7ba2.jpeg)
 
 6. Click **Create Template**.
 
@@ -432,7 +432,7 @@ When the ACS::Approve action is to be executed in a template, OOS suspends the s
    | atAll | No | Specifies whether to remind all group members when an approval notification is sent to the DingTalk group. |
    | OOSAssumeRole | No | The Resource Access Management (RAM) role to be assumed by OOS. By default, OOS uses the permissions granted to the current account. If a RAM role is specified, OOS assumes this role to execute O&amp;M tasks. |
 
-   ![](assets/fda39df57257ebde3b48af59ece28992.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/fda39df57257ebde3b48af59ece28992.jpeg)
 
 1. Click **Next Step: OK**.
 
@@ -588,15 +588,15 @@ When the ACS::Approve action is to be executed in a template, OOS suspends the s
 
 4. Click **Custom**.
 
-   ![](assets/106e23f8ddcb9fd1e0d4e26108ac579c.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/106e23f8ddcb9fd1e0d4e26108ac579c.jpeg)
 
 5. In the Robot details dialog box, click **Add**.
 
-   ![](assets/05dffcdb12345e96152e853082a63db4.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/05dffcdb12345e96152e853082a63db4.jpeg)
 
 6. In the Add Robot dialog box, configure the **Chatbot name** and Security Settings parameters. In this example, **Custom Keywords** is selected for **Security Settings**. Set keywords for the DingTalk chatbot by using words in the notification. In this example, the notification content in the sample template contains the word "Notify". Therefore, you can set "Notify" as a keyword for the DingTalk chatbot. Then, click **Finished**.
 
-   ![](assets/09d407fc59e67cf77f3a68637a15eba4.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/09d407fc59e67cf77f3a68637a15eba4.jpeg)
 
 7. In the Add Robot dialog box, click **Copy** to copy the webhook URL.
 
@@ -678,7 +678,7 @@ This mechanism prevents interruptions of all services due to minor issues (over-
    | Region | The ID of the region in which the instances reside. |
    | TargetInstance | The method used to select instances. Valid values:<br>• Manually Select Instances<br>• Specify Instance Tags<br>• Select All |
 
-   ![](assets/8414be944b982cc5ba92fc260076e69f.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/8414be944b982cc5ba92fc260076e69f.jpeg)
 
    <ol type="i" start="3">
 
@@ -766,13 +766,13 @@ CloudOps Orchestration Service (OOS) provides a public template for updating cus
 
 3. On the Public Template page, find the **ACS-ECS-UpdateImage** template and click **Create Execution**.
 
-   ![](assets/288c20f604a5506c6af4db21fc718960.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/288c20f604a5506c6af4db21fc718960.jpeg)
 
 4. On the Create page, configure the **Organization** and **Resource Set** parameters in the Basic Information step.
 
 5. Click **Next Step: Parameter Settings**.
 
-   ![](assets/596cd9a77a6d704c28c6a13b8b9eda8f.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/596cd9a77a6d704c28c6a13b8b9eda8f.jpeg)
 
 6. In the Parameter Settings step, configure the following parameters:
 
@@ -788,7 +788,7 @@ CloudOps Orchestration Service (OOS) provides a public template for updating cus
 
    - **OOSAssumeRole**: the Resource Access Management (RAM) role to be assumed by OOS for the image update. By default, OOS uses the permissions granted to the current account. If a RAM role is specified, OOS assumes this role to execute O&M tasks.
 
-   ![](assets/26322a128b05c42c36ef1bf0706fdc15.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/26322a128b05c42c36ef1bf0706fdc15.jpeg)
 
 7. Click **Next Step: OK**.
 
@@ -796,7 +796,7 @@ CloudOps Orchestration Service (OOS) provides a public template for updating cus
 
 9. On the **Task Execution Management** page, view the created execution. If the execution is in the Running state, the image update is in progress.
 
-   ![](assets/83267fd59ce176bea30b4ca7c7b28224.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/83267fd59ce176bea30b4ca7c7b28224.jpeg)
 
 0. Wait until the state of the execution changes to Success. When the state of the execution changes to Success, the image is updated. You can click Details in the Actions column corresponding to the execution to go to the execution details page and then view the ID of the new image in the **Output Parameters** section of the **Basic Information** tab.
 
@@ -826,7 +826,7 @@ CloudOps Orchestration Service (OOS) provides a public template for updating cus
 
    progress and status.
 
-   ![](assets/39f00622afe1f3d9a98faabb616a8a6d.jpeg)
+   ![](en-oos-operations-guide-v3.18.6-2607-20260828.assets/39f00622afe1f3d9a98faabb616a8a6d.jpeg)
 
 **Public template**
 

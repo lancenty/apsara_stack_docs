@@ -234,7 +234,7 @@ Operations in the Apsara Uni-manager Management Console are divided into the fol
 
 This topic describes roles and their permissions.
 
-![](assets/bad14db1909507891bf47c704c365fc5.png)
+![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/bad14db1909507891bf47c704c365fc5.png)
 
 Roles and permissions
 
@@ -300,7 +300,7 @@ The web page of the Apsara Uni-manager Management Console consists of the search
 
 Apsara Uni-manager Management Console page
 
-![](assets/73f658f3bde4ce9f965c9d8826aec2b8.png)
+![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/73f658f3bde4ce9f965c9d8826aec2b8.png)
 
 Functional sections of the web page
 
@@ -317,7 +317,7 @@ Functional sections of the web page
   <tr>
     <td>2</td>
     <td>Inform ation section of the current logon user</td>
-    <td><img src="assets/0dc7f6654b3b7293ee6fb7c1f5a9d25a.png" alt=""><br>: allows you to switch between English, simplified Chinese, and traditional<br>Chinese.<br><img src="assets/b9f9c5ba069a90bfae26d6d6a9f42dd9.png" width="14" alt="">: provides message notifications.<br><img src="assets/af70436cdc75af6ca2c21d41dcfaf860.png" width="19" alt="">: allows you to switch between day and night modes.<br><img src="assets/ffde2990534be20ea2fbf46077292640.png" alt=""><br>• User Information: When you click the icon of the current logon user, the User<br>Information, View Version, and Exit menu items are displayed.<br>If you click User Information, you can perform the following operations on the User Information page:<br>• View basic information.<br>• Modify personal information.<br>• Change the logon password.<br>• View the AccessKey pair of your Apsara Stack tenant account.<br>• Switch the current role.<br>• Enable or disable alert notification.</td>
+    <td><img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/0dc7f6654b3b7293ee6fb7c1f5a9d25a.png" alt=""><br>: allows you to switch between English, simplified Chinese, and traditional<br>Chinese.<br><img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/b9f9c5ba069a90bfae26d6d6a9f42dd9.png" width="14" alt="">: provides message notifications.<br><img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/af70436cdc75af6ca2c21d41dcfaf860.png" width="19" alt="">: allows you to switch between day and night modes.<br><img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/ffde2990534be20ea2fbf46077292640.png" alt=""><br>• User Information: When you click the icon of the current logon user, the User<br>Information, View Version, and Exit menu items are displayed.<br>If you click User Information, you can perform the following operations on the User Information page:<br>• View basic information.<br>• Modify personal information.<br>• Change the logon password.<br>• View the AccessKey pair of your Apsara Stack tenant account.<br>• Switch the current role.<br>• Enable or disable alert notification.</td>
   </tr>
   <tr>
     <td>3</td>
@@ -374,7 +374,7 @@ This topic describes the initial configuration process.
 
 Before you use the Apsara Uni-manager Management Console, you must complete the initial system configurations as an administrator based on the process shown in the following figure.
 
-![](assets/fa1ac660df8cf93cf62e13adc270c7d6.png)
+![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/fa1ac660df8cf93cf62e13adc270c7d6.png)
 
 1. Create an organization
 
@@ -412,7 +412,7 @@ Procedure
 
    By default, the workbench page appears when you log on to the Apsara Uni-manager Management Console. To return to the workbench page from other pages, click Home in the top navigation bar.
 
-   ![](assets/8f29aeb68a6128143be07a1a926cc149.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/8f29aeb68a6128143be07a1a926cc149.png)
 
 2. On the workbench page, you can view the instance summary information for all regions of the Apsara Stack environment.
 
@@ -1292,7 +1292,7 @@ General limits
 
   Operating systems of VM templates must be in DHCP mode. Information such as the MAC address and universally unique identifier (UUID) in the network interface controller configurations must be removed. The following information can be retained.
 
-  ![](assets/8fde17ac81c503563ae5fde726e512f3.jpeg)
+  ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/8fde17ac81c503563ae5fde726e512f3.jpeg)
 
   Note
 
@@ -1638,7 +1638,7 @@ Procedure
 
    - For a Windows instance, to use a key combination such as Ctrl+Alt+Delete, click the List icon in the upper-right corner of the page and select the corresponding composite key from the drop-down list.
 
-     ![](assets/87200d0f8bce7ef41b3260a145177e71.png)
+     ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/87200d0f8bce7ef41b3260a145177e71.png)
 
      Enter the username and password, and click the Log On icon.
 
@@ -2592,7 +2592,7 @@ Procedure
 
 5. On the Roles page, set the role name and management permissions.
 
-   ![](assets/aea3ebb650ec2d5f042f4f877e7a1be1.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/aea3ebb650ec2d5f042f4f877e7a1be1.png)
 
    The following table describes the role parameters.
 
@@ -2681,7 +2681,7 @@ Procedure
 
 5. On the Roles page, set the new role name, sharing scope, and management permissions.
 
-   ![](assets/b7db0c1afd7de89204da879d60e88ec9.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/b7db0c1afd7de89204da879d60e88ec9.png)
 
    Note
 
@@ -2867,7 +2867,7 @@ Change user roles by changing ownership
 
 3. In the left-side navigation pane of the Enterprise page, click Change Ownership.
 
-4. Click the <img src="assets/779dd0baa8bee45dec977f5dad0d2526.png" width="14" alt=""> icon to the left of an organization and click Users.
+4. Click the <img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/779dd0baa8bee45dec977f5dad0d2526.png" width="14" alt=""> icon to the left of an organization and click Users.
 
 5. In the Users section on the right, set Logon Policy and Role or Username, and click Search to query the user that you want to modify
 
@@ -3123,7 +3123,7 @@ Procedure
 
 5. In the Create Logon Policy dialog box, set Name, Sharing Scope, Policy Properties, Time Period, and IP Address.
 
-   ![](assets/dd4a1f5eaeb1f6df2d803307587915d4.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/dd4a1f5eaeb1f6df2d803307587915d4.png)
 
    Parameters for creating a logon policy
 
@@ -3294,7 +3294,7 @@ Procedure
 
 5. In the dialog box that appears, set User Group Name and Organization.
 
-   ![](assets/1d61ff9b7361c4978f0700a7f300fc22.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/1d61ff9b7361c4978f0700a7f300fc22.png)
 
 6. Click OK.
 
@@ -3316,7 +3316,7 @@ Procedure
 
 5. Select the names of users to be added from the left list, and click the right arrow to move them to the right list.
 
-   ![](assets/c97af4b84f413fdac5e3afecab062773.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/c97af4b84f413fdac5e3afecab062773.png)
 
 6. Click OK.
 
@@ -3338,7 +3338,7 @@ Procedure
 
 5. Select the names of users to be deleted from the Users Under Specified User Group list, and click the right arrow to move them to the Users to Be Deleted list.
 
-   ![](assets/bb0d632d026b1c9f9b8fcf1e88be3da0.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/bb0d632d026b1c9f9b8fcf1e88be3da0.png)
 
 6. Click OK.
 
@@ -3466,7 +3466,7 @@ Change the ownership of an instance
 
 3. In the left-side navigation pane of the Enterprise page, click Change Ownership.
 
-4. Click the <img src="assets/779dd0baa8bee45dec977f5dad0d2526.png" width="14" alt=""> icon to the left of an organization and click a resource set.
+4. Click the <img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/779dd0baa8bee45dec977f5dad0d2526.png" width="14" alt=""> icon to the left of an organization and click a resource set.
 
 5. In the resource list on the right side of the page, set a service type and a resource type, enter an instance ID, and then click Search to query the instance.
 
@@ -3530,7 +3530,7 @@ Procedure:
 
 6. In the Create Apsara Stack Secondary Node dialog box, enter the configuration information of a secondary node and click OK.
 
-   ![](assets/2a447ccb65c54263cd779c4f39c46072.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/2a447ccb65c54263cd779c4f39c46072.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -3642,7 +3642,7 @@ Procedure:
 
 6. In the Create VMware Node dialog box, enter the configuration information of a VMware node and click OK.
 
-   ![](assets/1e21b62985502122af0f410341faa893.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/1e21b62985502122af0f410341faa893.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -3738,7 +3738,7 @@ Procedure
 
    You can also turn on or off the Select All switch to manage permissions in batches.
 
-   ![](assets/67ba6ec1611f36c3e703f4b33ee77360.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/67ba6ec1611f36c3e703f4b33ee77360.png)
 
 8. Click OK.
 
@@ -3756,7 +3756,7 @@ Procedure
 
 3. In the left-side navigation pane of the Enterprise page, click Data Permissions.
 
-4. In the organization navigation tree, click the <img src="assets/779dd0baa8bee45dec977f5dad0d2526.png" width="14" alt=""> icon to the left of the organization that contains
+4. In the organization navigation tree, click the <img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/779dd0baa8bee45dec977f5dad0d2526.png" width="14" alt=""> icon to the left of the organization that contains
 
    the user you want to manage.
 
@@ -3786,7 +3786,7 @@ Procedure
 
 4. In the organization navigation tree, find the organization that contains the user you want to
 
-   manage and click the <img src="assets/779dd0baa8bee45dec977f5dad0d2526.png" width="14" alt=""> icon.
+   manage and click the <img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/779dd0baa8bee45dec977f5dad0d2526.png" width="14" alt=""> icon.
 
 5. Click Users.
 
@@ -3820,7 +3820,7 @@ Procedure
 
 5. On the Password Policy tab, set the password policy parameters.
 
-   ![](assets/9d826f4affa2c673a77f72ec2fe4bba5.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/9d826f4affa2c673a77f72ec2fe4bba5.png)
 
    To restore to the default password policy, click Reset.
 
@@ -3866,7 +3866,7 @@ Procedure
 
 5. In the Create dialog box, configure the menu parameters.
 
-   ![](assets/4c3fbd5f8965e73610f1eb95d187e157.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/4c3fbd5f8965e73610f1eb95d187e157.png)
 
    Menu parameters
 
@@ -3904,7 +3904,7 @@ Procedure
 
 5. In the Edit dialog box, modify the relevant information of the menu.
 
-   ![](assets/06ea4422189cccb2e9d0e3a6747aa052.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/06ea4422189cccb2e9d0e3a6747aa052.png)
 
 6. Click OK.
 
@@ -4171,7 +4171,7 @@ Procedure
 
 1. Log on to the Apsara Uni-manager Management Console.
 
-2. In the top navigation bar, move the pointer over the <img src="assets/b9f9c5ba069a90bfae26d6d6a9f42dd9.png" width="14" alt=""> icon and click More.
+2. In the top navigation bar, move the pointer over the <img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/b9f9c5ba069a90bfae26d6d6a9f42dd9.png" width="14" alt=""> icon and click More.
 
 3. In the left-side navigation pane of the Message Center page, click the target message scope.
 
@@ -4191,7 +4191,7 @@ Procedure
 
 1. Log on to the Apsara Uni-manager Management Console.
 
-2. In the top navigation bar, move the pointer over the <img src="assets/b9f9c5ba069a90bfae26d6d6a9f42dd9.png" width="14" alt=""> icon and click More.
+2. In the top navigation bar, move the pointer over the <img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/b9f9c5ba069a90bfae26d6d6a9f42dd9.png" width="14" alt=""> icon and click More.
 
 3. In the left-side navigation pane of the Message Center page, choose Internal Messages > Unread Messages.
 
@@ -4213,7 +4213,7 @@ Procedure
 
 1. Log on to the Apsara Uni-manager Management Console.
 
-2. In the top navigation bar, move the pointer over the <img src="assets/b9f9c5ba069a90bfae26d6d6a9f42dd9.png" width="14" alt=""> icon and click More.
+2. In the top navigation bar, move the pointer over the <img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/b9f9c5ba069a90bfae26d6d6a9f42dd9.png" width="14" alt=""> icon and click More.
 
 3. In the left-side navigation pane of the Message Center page, choose Internal Messages > All Messages.
 
@@ -4241,13 +4241,13 @@ Procedure
 
 3. In the left-side navigation pane of the Configurations page, click Resource Pool Management.
 
-4. On the Resource Pools page, click the <img src="assets/69143d0af2b461035201497cc1917be0.png" width="22" alt=""> icon in the module that you want to modify and
+4. On the Resource Pools page, click the <img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/69143d0af2b461035201497cc1917be0.png" width="22" alt=""> icon in the module that you want to modify and
 
    modify the number of resources.
 
-   ![](assets/cdaed986a3fdcf1ee966596bdefd70c8.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/cdaed986a3fdcf1ee966596bdefd70c8.png)
 
-5. Click the <img src="assets/2faaa2abe268bf4761446ef5bf9e7d11.png" width="15" alt=""> icon to complete modification.
+5. Click the <img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/2faaa2abe268bf4761446ef5bf9e7d11.png" width="15" alt=""> icon to complete modification.
 
 <a id="section-9-6"></a>
 
@@ -4273,9 +4273,9 @@ Procedure
 
    | Parameter | Description |
    | --- | --- |
-   | Icon | You can click Upload Image, select an image file, and then click Open.<br>The recommended resolution of an image is 160 × 36 pixels, and the recommended formats are PNG and JPG.<br>After the image is uploaded, you can click the<img src="assets/169c864fb2065bc45ca831eacb33ebc9.png" width="18" alt="">icon to preview it.<br>Before you replace the image, you must click the<img src="assets/b7495c2edd6b95c28e4f03fbac2e270c.png" width="15" alt="">icon to delete<br>the current image. |
+   | Icon | You can click Upload Image, select an image file, and then click Open.<br>The recommended resolution of an image is 160 × 36 pixels, and the recommended formats are PNG and JPG.<br>After the image is uploaded, you can click the<img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/169c864fb2065bc45ca831eacb33ebc9.png" width="18" alt="">icon to preview it.<br>Before you replace the image, you must click the<img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/b7495c2edd6b95c28e4f03fbac2e270c.png" width="15" alt="">icon to delete<br>the current image. |
    | Platform Name | You can customize a platform name.<br>The name can be up to 8 characters in length. |
-   | Logon Page | You can click + Add Screen or the<img src="assets/0c41ea1f63aee50994e1257082bae241.png" width="14" alt="">icon after screens to increase<br>or decrease the number of scrolling screens.<br>The number of scrolling screens on the logon page must be in the range of one to three.<br>After you click the tab of a screen, you can perform the following operations:<br>• Background Image: Click Upload Image, select a background image file, and then click Open.<br>The recommended resolution of an image is 1,880 × 1,600 pixels, and the recommended formats are PNG and JPG.<br>After the image is uploaded, you can click the<img src="assets/169c864fb2065bc45ca831eacb33ebc9.png" width="18" alt="">icon to preview<br>it.<br>Before you replace the image, you must click the<img src="assets/b7495c2edd6b95c28e4f03fbac2e270c.png" width="15" alt="">icon to<br>delete the current image.<br>• Image Copywriting: Customize the image copywriting.<br>The image copywriting can be up to 40 characters in length. |
+   | Logon Page | You can click + Add Screen or the<img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/0c41ea1f63aee50994e1257082bae241.png" width="14" alt="">icon after screens to increase<br>or decrease the number of scrolling screens.<br>The number of scrolling screens on the logon page must be in the range of one to three.<br>After you click the tab of a screen, you can perform the following operations:<br>• Background Image: Click Upload Image, select a background image file, and then click Open.<br>The recommended resolution of an image is 1,880 × 1,600 pixels, and the recommended formats are PNG and JPG.<br>After the image is uploaded, you can click the<img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/169c864fb2065bc45ca831eacb33ebc9.png" width="18" alt="">icon to preview<br>it.<br>Before you replace the image, you must click the<img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/b7495c2edd6b95c28e4f03fbac2e270c.png" width="15" alt="">icon to<br>delete the current image.<br>• Image Copywriting: Customize the image copywriting.<br>The image copywriting can be up to 40 characters in length. |
    | Copyright Notice | You can customize the information of the copyright notice. |
 
 <a id="section-10"></a>
@@ -4632,7 +4632,7 @@ Procedure
 
 5. Enter the information of the download task.
 
-   ![](assets/228c1cd43b68864e645f210c337c3257.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/228c1cd43b68864e645f210c337c3257.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -4693,7 +4693,7 @@ Procedure
 
    icon. In the Show/Hide Columns dialog box, select fields that
 
-   ![](assets/24e11423ea778781370616a05363ec89.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/24e11423ea778781370616a05363ec89.png)
 
    you want to show in the query result.
 
@@ -4765,7 +4765,7 @@ The policy structure includes the following components:
 
 - A list of statements. Each statement contains the following elements: Effect, Action, Resource, and Condition. The Condition element is optional.
 
-![](assets/ad4107bdc281b376d523361cd811f9e9.png)
+![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/ad4107bdc281b376d523361cd811f9e9.png)
 
 Policy syntax
 
@@ -4924,7 +4924,7 @@ Procedure
 
 7. In the Add Permission Policy dialog box, enter information of the policy.
 
-   ![](assets/cbb8a7b7a402fb412807e6b8109fc5f4.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/cbb8a7b7a402fb412807e6b8109fc5f4.png)
 
    For more information about how to enter the policy content, see Permission policy structure and syntax.
 
@@ -5062,7 +5062,7 @@ Procedure
 
 4. In the role name list, find the RAM role that you want to modify and choose More > Modify in the Actions column to go to the Roles page.
 
-5. Move the pointer over the role name and click the <img src="assets/1d1c6bdd1ecf09e469610dfca2830ab6.png" width="19" alt=""> icon to enter a new role name.
+5. Move the pointer over the role name and click the <img src="en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/1d1c6bdd1ecf09e469610dfca2830ab6.png" width="19" alt=""> icon to enter a new role name.
 
 <a id="section-12-3-10"></a>
 
@@ -5172,7 +5172,7 @@ Procedure
 
 2. In the upper-right corner of the homepage, move the pointer over the profile picture and choose User Information from the shortcut menu.
 
-   ![](assets/fd0069fe03c37f7acb23f5d9e9094252.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/fd0069fe03c37f7acb23f5d9e9094252.png)
 
 3. In the upper-right corner of the Basic Information section, click Edit.
 
@@ -5192,13 +5192,13 @@ Procedure
 
 2. In the upper-right corner of the homepage, move the pointer over the profile picture and choose User Information from the shortcut menu.
 
-   ![](assets/fd0069fe03c37f7acb23f5d9e9094252.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/fd0069fe03c37f7acb23f5d9e9094252.png)
 
 3. Click Change Password.
 
 4. In the Change Password dialog box, set Current Password, New Password, and Confirm New Password.
 
-   ![](assets/aed4f8cf8570e30c878492943119b937.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/aed4f8cf8570e30c878492943119b937.png)
 
 5. Click OK.
 
@@ -5218,7 +5218,7 @@ Procedure
 
 4. In the Switch Role dialog box that appears, select the role that you want to switch to.
 
-   ![](assets/70450a051393c10c0b6d3fea2b190450.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/70450a051393c10c0b6d3fea2b190450.png)
 
    You can also switch back to the default role.
 
@@ -5236,7 +5236,7 @@ Procedure
 
 3. In the Apsara Stack AccessKey Pair section, view your AccessKey pair.
 
-   ![](assets/f578e63b701496d0bc800bae03afc7e5.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/f578e63b701496d0bc800bae03afc7e5.png)
 
    Note
 
@@ -5362,7 +5362,7 @@ Multi-factor authentication (MFA) is automatically enabled after you bind an MFA
 
    The following figure shows the MFA section after the MFA device is bound.
 
-   ![](assets/d6e442835957da5101e269041609edeb.png)
+   ![](en-apsara-uni-manager-management-consol-d1309e71-v3.14.0-20221008.assets/d6e442835957da5101e269041609edeb.png)
 
 Results
 

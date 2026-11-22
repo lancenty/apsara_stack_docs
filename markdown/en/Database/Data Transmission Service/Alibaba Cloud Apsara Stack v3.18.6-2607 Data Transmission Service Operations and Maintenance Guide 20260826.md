@@ -88,7 +88,7 @@ This topic describes how to log on to the Data Transmission Service (DTS) O&M co
 
 1. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-dts-operations-guide-v3.18.6-2607-20260826.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -264,7 +264,7 @@ A DTS task consists of multiple modules, such as schema migration, full data mig
 
 4. The status of each module is displayed at the top of the **Task Details** page.
 
-   ![](assets/bcad31a5ea929117ce17142d9fc40c63.jpeg)
+   ![](en-dts-operations-guide-v3.18.6-2607-20260826.assets/bcad31a5ea929117ce17142d9fc40c63.jpeg)
 
    > **Note**
    >
@@ -546,7 +546,7 @@ The DTS O&M platform lets you view, filter, and manage resources, batch-initiali
 
      At the top of the page, specify filter conditions, such as the machine IP address and node status, and click **Search**.
 
-     ![](assets/3ec924e71745e076380a2f0dd20b7346.jpeg)
+     ![](en-dts-operations-guide-v3.18.6-2607-20260826.assets/3ec924e71745e076380a2f0dd20b7346.jpeg)
 
    - **Manage resources**
 
@@ -627,7 +627,7 @@ On the **Alerts** page, you can search for alerts by product, alert ID, source, 
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-dts-operations-guide-v3.18.6-2607-20260826.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -709,7 +709,7 @@ This topic describes the types of Data Transmission Service (DTS) logs and how t
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-dts-operations-guide-v3.18.6-2607-20260826.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -759,7 +759,7 @@ This topic describes the types of Data Transmission Service (DTS) logs and how t
 
 7. In the **Actions** column for the DTS cluster, click **Instance Details**.
 
-   ![](assets/fd592d465f68dbdd3060dc1bb6b2b6d4.jpeg)
+   ![](en-dts-operations-guide-v3.18.6-2607-20260826.assets/fd592d465f68dbdd3060dc1bb6b2b6d4.jpeg)
 
 8. In the **Component List**, click the target component. On the **Instance List** tab, click **Terminal** in the **Actions** column for the target instance to access the terminal.
 
@@ -839,7 +839,7 @@ The main components that record logs in the terminal are **DtsPortal#**, which r
   >
   > Most DTS component logs are stored in /dts/&lt;Component name>/logs/&lt;Component name>.log. For more information, see Main log components.
 
-  ![](assets/2e6ad7c216dbe95fc8a532b5270d10ba.jpeg)
+  ![](en-dts-operations-guide-v3.18.6-2607-20260826.assets/2e6ad7c216dbe95fc8a532b5270d10ba.jpeg)
 
   </li>
 

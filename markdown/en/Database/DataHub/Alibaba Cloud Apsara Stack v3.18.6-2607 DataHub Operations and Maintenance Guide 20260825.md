@@ -172,7 +172,7 @@ Document Version: 20260825
 
    The following figure shows this:
 
-   ![](assets/ad88cbcb5aa280ab27e8dd090e767106.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/ad88cbcb5aa280ab27e8dd090e767106.png)
 
 3. Run the following command to view the roles and running machines for the service. Replace `$<WorkItemName>`  with the result from the previous step.
 
@@ -182,7 +182,7 @@ Document Version: 20260825
 
    As shown in the following figure:
 
-   ![](assets/358f7b80c5a3fb14260f517b8a46d3dc.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/358f7b80c5a3fb14260f517b8a46d3dc.png)
 
 <a id="section-1-2"></a>
 
@@ -535,7 +535,7 @@ After you log on to the command-line interface, use Xstream_tool to perform O&M 
 
    Figure 1. Find the childmaster address
 
-   ![](assets/20ee6c90fa18f62a4f71a110f69c4c0e.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/20ee6c90fa18f62a4f71a110f69c4c0e.jpeg)
 
 2. Navigate to the following directory.
 
@@ -557,7 +557,7 @@ After you log on to the command-line interface, use Xstream_tool to perform O&M 
 
    Figure 2. View resources
 
-   ![](assets/de9f17d749d75f19741bafaeb35230dc.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/de9f17d749d75f19741bafaeb35230dc.jpeg)
 
    Expected result: No data is present in **LoadingPartitions** or **UnloadingPartitions**. If data is present, it indicates an abnormality caused by an issue during the shard program's startup or shutdown. Note that when you execute a command, data may temporarily appear in StartingWorker if a shard is starting up. However, if the data persists, this indicates an abnormality.
 
@@ -569,7 +569,7 @@ After you log on to the command-line interface, use Xstream_tool to perform O&M 
 
    Figure 3. Check the status of all brokers
 
-   ![](assets/a787f25d7215c8e6846c9072943f563f.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/a787f25d7215c8e6846c9072943f563f.jpeg)
 
    **UnloadedPartition** and **UnconnectedWorker** should show no data. A value of 0 is normal.
 
@@ -581,7 +581,7 @@ After you log on to the command-line interface, use Xstream_tool to perform O&M 
 
    Figure 4. Check the status of all shards for the current topic
 
-   ![](assets/d887d5ba8805a5f0f2a4411f220e64b6.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/d887d5ba8805a5f0f2a4411f220e64b6.jpeg)
 
    This helps you quickly locate issues with a specific shard.
 
@@ -723,7 +723,7 @@ None.
 
    Figure 1. Set action to rma and action status to pending for the anomalous chunkserver host
 
-   ![](assets/674897597d2723becbd65823429a4751.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/674897597d2723becbd65823429a4751.jpeg)
 
    > **Note**
    >
@@ -780,7 +780,7 @@ None.
    >
    >   Figure 2. Query mtime
    >
-   >   ![](assets/60228711c1f896857f1c525c9ee58254.jpeg)
+   >   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/60228711c1f896857f1c525c9ee58254.jpeg)
 
 2. Wait for approval.
 
@@ -1050,7 +1050,7 @@ This topic describes how to log on to Apsara Bigdata Manager.
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -1096,7 +1096,7 @@ The Health Score page displays metrics for big data products and alerts at diffe
 
 1. Log on to Apsara Bigdata Manager.
 
-2. Click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner. Then select **DataHub**.
+2. Click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner. Then select **DataHub**.
 
 3. In the top menu bar, click **Monitoring**.
 
@@ -1114,7 +1114,7 @@ Reports display inspection results for big data products.
 
 1. Log on to Apsara Bigdata Manager.
 
-2. Click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner. Then select **DataHub**.
+2. Click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner. Then select **DataHub**.
 
 3. In the top menu bar, click **Monitoring**.
 
@@ -1312,7 +1312,7 @@ the roles of those instances.
 
 1. Log on to Apsara Bigdata Manager.
 
-2. Click the <img src="assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner. Then select **DataHub**.
+2. Click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/4e44c7bcb2cd9973683ab9279a263228.png" width="15" alt=""> icon in the upper-left corner. Then select **DataHub**.
 
 3. In the top menu bar, click **O&M**.
 
@@ -1436,7 +1436,7 @@ The Control Service Overview page outlines the operational status of the control
 
 1. Log on to Apsara Bigdata Manager.
 
-2. In the upper-left corner, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon. Then select the **DataHub** product.
+2. In the upper-left corner, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon. Then select the **DataHub** product.
 
 3. On the DataHub page, click **O&M** at the top. Then select **Service O&M**.
 
@@ -1456,7 +1456,7 @@ This section describes how to access the DataHub Fuxi service O&M page in Apsara
 
 1. Log on to Apsara Bigdata Manager.
 
-2. In the upper-left corner, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon, then select the **DataHub** product.
+2. In the upper-left corner, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon, then select the **DataHub** product.
 
 3. On the DataHub page, click **O&M** at the top, then click **Service O&M**.
 
@@ -1476,19 +1476,19 @@ The overview interface displays key operational metrics for the Fuxi Service, in
 
    View the destination cluster’s Service Summary, Service Status, Saturation – Resource Allocation, CPU Usage Trend Graph, Memory Usage Trend Graph, and Compute Node Resource Overview.
 
-   ![](assets/491b5260b0bb12f9ba007042ed07df73.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/491b5260b0bb12f9ba007042ed07df73.png)
 
 **Service Summary**
 
 The Service Summary shows the number of roles in active status, unavailable status, and upgrade status.
 
-![](assets/abaf8f7278585d58415999165b5d24c5.jpeg)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/abaf8f7278585d58415999165b5d24c5.jpeg)
 
 **Service Status**
 
 This section lists all service roles for the Fuxi Service and their statuses, and shows the final count and desired state count for each role.
 
-![](assets/d794edd4e3c4ffec9d654047ae84be36.jpeg)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/d794edd4e3c4ffec9d654047ae84be36.jpeg)
 
 **Saturation - Resource Allocation**
 
@@ -1498,19 +1498,19 @@ This section displays the allocation of CPU and memory resources:
 
 - Memory allocation: Shows memory usage, total memory, remaining memory, and memory used for SQL acceleration.
 
-![](assets/f8747fbaf054e7dcc6cfaab9382642a5.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/f8747fbaf054e7dcc6cfaab9382642a5.png)
 
 **CPU and Memory Usage Trends**
 
 Over time, different colored curves display the CPU and memory usage trends for the Fuxi Service, including used, unused, and total resources.
 
-![](assets/d3dee9d8d423f898ca214355513111e4.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/d3dee9d8d423f898ca214355513111e4.png)
 
-Click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon in the upper-right corner of the graph to enlarge the usage trend graph. For
+Click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon in the upper-right corner of the graph to enlarge the usage trend graph. For
 
 example, you can enlarge the CPU usage trend graph.
 
-![](assets/6502a527a27858436a9a39349c415ccc.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/6502a527a27858436a9a39349c415ccc.png)
 
 In the enlarged graph, specify a time range in the upper-left corner to view the cluster’s CPU usage trend graph.
 
@@ -1518,7 +1518,7 @@ In the enlarged graph, specify a time range in the upper-left corner to view the
 
 This section summarizes compute node resource information for the Fuxi Service, including node online rate, total number of compute nodes, number of online nodes, and number of blacklisted nodes.
 
-![](assets/d1b517a027b0583d959cd1a4b9e52648.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/d1b517a027b0583d959cd1a4b9e52648.png)
 
 <a id="section-3-3-3-2-3"></a>
 
@@ -1556,7 +1556,7 @@ You can add compute nodes to or remove compute nodes from the blacklist or read-
 
 2. In the panel that appears, click **Run**. A message appears, indicating that the action is submitted.
 
-   ![](assets/356e108c4cc1552a8f38c86f87b30fd3.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/356e108c4cc1552a8f38c86f87b30fd3.png)
 
    > **Note**
    >
@@ -1578,7 +1578,7 @@ This section describes how to access the DataHub Pangu Service O&M page in Apsar
 
 1. Log on to Apsara Bigdata Manager.
 
-2. In the upper-left corner, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon, then select the **DataHub** product.
+2. In the upper-left corner, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon, then select the **DataHub** product.
 
 3. On the DataHub page, click **O&M** at the top, then select **Service O&M**.
 
@@ -1602,13 +1602,13 @@ On the Overview tab, the key information about the operations of Apsara Distribu
 
 In the Service Summary section, the status of Apsara Distributed File System and the number of service roles are displayed.
 
-![](assets/87a3654c938e3d43fa512d0f7b2118f2.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/87a3654c938e3d43fa512d0f7b2118f2.png)
 
 **Service Status**
 
 In the Service Status section, all service roles of Apsara Distributed File System and their status are displayed. You can also view the number of physical servers on which each service role is deployed and the number of physical servers at desired state for each service role.
 
-![](assets/4ea50080ac9ac183b139e9b336997fe7.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/4ea50080ac9ac183b139e9b336997fe7.png)
 
 **Saturation-storage level**
 
@@ -1618,19 +1618,19 @@ In the Saturation-storage level section, the statistics on storage usage and the
 
 - In the Number of files Water level section, you can view the storage usage of files, maximum number of files, number of existing files, and number of files in the recycle bin.
 
-![](assets/9adc9a1ce7374084183c6ca4bf273c73.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/9adc9a1ce7374084183c6ca4bf273c73.png)
 
 **Physical storage capacity and Document change trend**
 
 In the Physical storage capacity and Document change trend sections, the trend charts of storage usage and the number of files are displayed. The Physical storage capacity chart shows the trend lines of the total storage space, used storage space, and storage usage in different colors. The Document change trend chart shows the trend line of the number of files.
 
-![](assets/506afd3cc18f3a09cbe1c75b0d0effeb.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/506afd3cc18f3a09cbe1c75b0d0effeb.png)
 
-In the upper-right corner of a chart, you can click the <img src="assets/21aef8fbae5d9765aa53fd5bab670ef6.png" width="17" alt=""> icon to zoom in on the chart. The
+In the upper-right corner of a chart, you can click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/21aef8fbae5d9765aa53fd5bab670ef6.png" width="17" alt=""> icon to zoom in on the chart. The
 
 following figure shows an enlarged chart of storage usage.
 
-![](assets/9c23c828149fca9fe30829b960882b35.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/9c23c828149fca9fe30829b960882b35.png)
 
 You can specify the start date and end date in the upper-left corner of the enlarged chart to view the storage usage of the cluster in the specified period.
 
@@ -1638,7 +1638,7 @@ You can specify the start date and end date in the upper-left corner of the enla
 
 In the Storage Node Overview section, the information about the storage nodes of Apsara Distributed File System is displayed. You can view the numbers of data nodes, normal nodes, disks, and normal disks. You can also view the percentages of faulty nodes and faulty disks.
 
-![](assets/6cb13638bb75cc6123d324d57f53bed8.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/6cb13638bb75cc6123d324d57f53bed8.png)
 
 <a id="section-3-3-3-3-3"></a>
 
@@ -1684,7 +1684,7 @@ You can set the storage node status to Disabled or Normal. This section describe
 
 2. In the **Set Storage Node To Shutdown** panel, click **Execute**. A message appears, indicating that the operation was submitted.
 
-   ![](assets/da55ffdf1ef266ebe5e25c3e553a3d2a.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/da55ffdf1ef266ebe5e25c3e553a3d2a.png)
 
    The values of the **Volume** and **Hostname** parameters are automatically filled based on the selected storage node. You do not need to specify values for the parameters.
 
@@ -1698,7 +1698,7 @@ You can set the data disk status to Error or Normal. This section describes how 
 
 2. In the **Set Data Disk To Error** panel, enter the **Disk ID**.
 
-   ![](assets/d4f7c058bf54a9e464d25b5bcd137992.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/d4f7c058bf54a9e464d25b5bcd137992.png)
 
    The values of the **Volume** and **Hostname** parameters are automatically filled based on the selected storage node. You do not need to specify values for the parameters.
 
@@ -1852,7 +1852,7 @@ In a Pangu distributed file system, a volume functions as a namespace. The defau
 
 2. Click **Operations** and select **Switch Master**. In the dialog box that appears, set the parameters.
 
-   ![](assets/ee400c0a34b198c63b31185890871a4f.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/ee400c0a34b198c63b31185890871a4f.png)
 
    The key parameters are described as follows:
 
@@ -1890,7 +1890,7 @@ This section describes how to access the DataHub cluster Operations and Maintena
 
 1. Log on to Apsara Bigdata Manager.
 
-2. In the upper-left corner, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon, then select **DataHub**.
+2. In the upper-left corner, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon, then select **DataHub**.
 
 3. On the DataHub page, click **O&M** at the top, then select **Cluster O&M**.
 
@@ -1920,7 +1920,7 @@ This area summarizes all services in the cluster and shows the number of normal 
 
 This area shows the total number of current health check items and the number of CRITICAL, WARNING, and EXCEPTION alerts in the cluster.
 
-![](assets/0b35a95d779fab845aff459aa34472b2.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/0b35a95d779fab845aff459aa34472b2.png)
 
 Click **View Details** to open the DataHub Cluster Health page, where you can view detailed information about the health checks.
 
@@ -1930,29 +1930,29 @@ This area shows the history of cluster health checks.
 
 Click **View Details** to open the DataHub Cluster Health page, where you can view detailed information about the health checks.
 
-![](assets/445def46115d96b777840c9a7c405c1e.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/445def46115d96b777840c9a7c405c1e.png)
 
 Click **Event Content** for a health check to view the abnormal items found during that check.
 
-![](assets/445def46115d96b777840c9a7c405c1e.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/445def46115d96b777840c9a7c405c1e.png)
 
 **CPU**
 
 The CPU chart shows the trend lines of the total CPU utilization, CPU utilization for running code in kernel space, and CPU utilization for running code in user space for the cluster over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the CPU utilization of the cluster within the specified period of time.
 
-![](assets/8232d817eff29503ef71f11dc227e8b2.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/8232d817eff29503ef71f11dc227e8b2.png)
 
 **DISK**
 
 The DISK chart shows the trend line of the storage usage for the cluster over time.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/e4f98607095f1f36965c8946e54fc153.jpeg)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/e4f98607095f1f36965c8946e54fc153.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the storage usage of the cluster within the specified period of time.
 
@@ -1960,9 +1960,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The MEMORY chart shows the trend lines of the memory usage, total memory size, used memory size, size of memory used by buffers, and available memory size for the cluster over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/5d59b1dc179245f5fe790f91ac26f2f8.jpeg)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/5d59b1dc179245f5fe790f91ac26f2f8.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the memory usage of the cluster within the specified period of time.
 
@@ -1970,9 +1970,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The PACKAGE chart shows the trend lines of the numbers of dropped packets, error packets, received packets, and sent packets for the cluster over time in different colors. These trend lines reflect the data transmission status of the cluster.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/27b14ec1874627939b825497701c2d3e.jpeg)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/27b14ec1874627939b825497701c2d3e.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the data transmission status of the cluster within the specified period of time.
 
@@ -1980,9 +1980,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The LOAD chart shows the trend lines of the average loads for every 1 minute, every 5 minutes, and every 15 minutes for the cluster over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/95452350b0dfa5903f63d19587e6ed4e.jpeg)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/95452350b0dfa5903f63d19587e6ed4e.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the average loads for every 1 minute, every 5 minutes, and every 15 minutes for the cluster within the specified period of time.
 
@@ -2010,13 +2010,13 @@ On the **Cluster O&M** interface, you can select the **Health** tab to access th
 
 For each host associated with a metric, you can view the history of checks and their results.
 
-1. On the cluster **Health** tab, click the <img src="assets/05d785be78e9c8bc5a9c5e81ce3beeb6.png" width="16" alt=""> icon next to a metric that has an alert to view all
+1. On the cluster **Health** tab, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/05d785be78e9c8bc5a9c5e81ce3beeb6.png" width="16" alt=""> icon next to a metric that has an alert to view all
 
    **Host** information for that metric.
 
 2. Click a **Host** name. In the dialog box that appears, click **Details** next to an alert to view the reason for the alert on the right.
 
-   ![](assets/4c6f81fa18785f4cb37371185261ead5.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/4c6f81fa18785f4cb37371185261ead5.png)
 
 **Handle metric alerts**
 
@@ -2062,7 +2062,7 @@ In an Apsara Stack environment, scaling out a cluster is a complex process. New 
 
 1. Log on to Apsara Bigdata Manager.
 
-2. In the upper-left corner, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="14" alt=""> icon and select the **TIANJI** product to log on to Apsara
+2. In the upper-left corner, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="14" alt=""> icon and select the **TIANJI** product to log on to Apsara
 
    Infrastructure Management.
 
@@ -2076,11 +2076,11 @@ DataHub supports scaling out multiple hosts simultaneously. When scaling out, sp
 
 1. On the **Cluster O&M** page, select a cluster from the left pane. Then, on the **Machine List** page, select any host with the **CS** or **frontend** role to use as the template host.
 
-   ![](assets/9c774129e9bff2d26f9b26785a76b285.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/9c774129e9bff2d26f9b26785a76b285.png)
 
 2. Choose **Operation > Node Scale-out**. In the **Node Scale-out** dialog box that appears, set the parameters.
 
-   ![](assets/d839e30d9e4bbfbdc3a2d430cb2712d3.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/d839e30d9e4bbfbdc3a2d430cb2712d3.png)
 
    The following table describes the parameters.
 
@@ -2140,19 +2140,19 @@ In an Apsara Stack environment, scaling out a cluster is a complex process. New 
 
 1. On the **Cluster O&M** page, select a cluster in the navigation pane on the left. Then, on the **Machine List** page, select one or more hosts with the **cs** or **frontend** role to scale in.
 
-   ![](assets/244d9553d053425504bfbd3fe6f76377.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/244d9553d053425504bfbd3fe6f76377.png)
 
 2. Choose **Operation > Scale In Node**. The **Scale In Node** dialog box appears.
 
    **Hostname**: The **Hostname** of the host to be scaled in. This field is automatically populated with the hostname of the selected host.
 
-   ![](assets/fbe937636dd33634b96a499035620a3f.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/fbe937636dd33634b96a499035620a3f.png)
 
 3. After you configure the parameters, click **Execute**. A message appears indicating that the operation is submitted.
 
 4. Check the execution status of the scale-in operation.
 
-   ![](assets/6fd47c3a5905de0d390187718d7931f3.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/6fd47c3a5905de0d390187718d7931f3.png)
 
    The scale-in operation takes a long time. Wait for the operation to complete. A status of **RUNNING** indicates that the operation is in progress. A status of **FAILED** indicates that the operation failed. A status of **SUCCESS** indicates that the operation succeeded.
 
@@ -2164,7 +2164,7 @@ In an Apsara Stack environment, scaling out a cluster is a complex process. New 
 
    If the execution status is **RUNNING**, click **Details** for the operation record to view the steps and progress of the operation.
 
-   ![](assets/96f712af9f2ddd835e1868fd9ebf23e3.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/96f712af9f2ddd835e1868fd9ebf23e3.png)
 
 **Troubleshoot a failure**
 
@@ -2172,7 +2172,7 @@ In an Apsara Stack environment, scaling out a cluster is a complex process. New 
 
 2. Click **Details** for a failed operation record to identify the cause of the failure.
 
-   ![](assets/09249d507631a12f4b4afca25545214b.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/09249d507631a12f4b4afca25545214b.png)
 
    Use information such as **Parameter Settings**, **Machine Details**, and **Runtime Parameters** to identify why the operation step failed.
 
@@ -2212,7 +2212,7 @@ This topic describes how to go to the host O&M page for DataHub in the ABM conso
 
 1. Log on to the ABM console.
 
-2. Click <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> in the upper-left corner and select **DataHub**.
+2. Click <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> in the upper-left corner and select **DataHub**.
 
 3. On the DataHub page, click **O&M** in the upper-right corner, and then click the **Hosts** tab.
 
@@ -2240,9 +2240,9 @@ In the Machine Service Role Status section, the information about the services t
 
 The CPU chart shows the trend lines of the total CPU utilization, CPU utilization for running code in kernel space, and CPU utilization for running code in user space for the host over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/8232d817eff29503ef71f11dc227e8b2.png)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/8232d817eff29503ef71f11dc227e8b2.png)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the CPU utilization of the host in the specified period.
 
@@ -2250,9 +2250,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The DISK chart shows the trend lines of the storage usage in the /, /boot, /home/admin, and /home directories for the host over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/18b091518418ffd82d1528a5f697ea3a.jpeg)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/18b091518418ffd82d1528a5f697ea3a.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the storage usage of the host in the specified period.
 
@@ -2260,9 +2260,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The LOAD chart shows the trend lines of the average loads for every 1 minute, every 5 minutes, and every 15 minutes for the host over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/95452350b0dfa5903f63d19587e6ed4e.jpeg)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/95452350b0dfa5903f63d19587e6ed4e.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the average loads for every 1 minute, every 5 minutes, and every 15 minutes for the host in the specified period.
 
@@ -2270,9 +2270,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The MEMORY chart shows the trend lines of the memory usage, total memory size, used memory size, size of memory used by buffers, size of memory used by the page cache, and available memory size for the host over time in different colors.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/4eef80d95bfa543575d63f8e3673e1a1.jpeg)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/4eef80d95bfa543575d63f8e3673e1a1.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the memory usage of the host in the specified period.
 
@@ -2280,9 +2280,9 @@ You can specify the start time and end time in the upper-right corner of the enl
 
 The PACKAGE chart shows the trend lines of the numbers of dropped packets, error packets, received packets, and sent packets for the host over time in different colors. These trend lines reflect the data transmission status of the host.
 
-In the upper-right corner of the chart, click the <img src="assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
+In the upper-right corner of the chart, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/aa33ecad978962b1efe3dda64f9d0543.png" width="12" alt=""> icon to zoom in on the chart.
 
-![](assets/27b14ec1874627939b825497701c2d3e.jpeg)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/27b14ec1874627939b825497701c2d3e.jpeg)
 
 You can specify the start time and end time in the upper-right corner of the enlarged chart to view the data transmission status of the host in the specified period.
 
@@ -2344,7 +2344,7 @@ The following concepts are related to jobs:
 
 **The Execute page**
 
-![](assets/83c5019ad47918cb4604d6b6a6c00c4d.jpeg)
+![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/83c5019ad47918cb4604d6b6a6c00c4d.jpeg)
 
 The **Execute** page includes the following functional modules:
 
@@ -2372,7 +2372,7 @@ You have an administrator account for Apsara Bigdata Manager.
 
 1. Log on to Apsara Bigdata Manager.
 
-2. Click the <img src="assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and select DataHub.
+2. Click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and select DataHub.
 
 3. In the top menu bar, click **Management**.
 
@@ -2384,15 +2384,15 @@ You have an administrator account for Apsara Bigdata Manager.
 
 6. On the **Job List** page, click **Execute** in the row of the target job.
 
-   ![](assets/d95c71946d9038d0ddaf4e695874c550.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/d95c71946d9038d0ddaf4e695874c550.png)
 
 7. In the dialog box, complete the **Configure Target Group And Parameters** operation, and click **Next**.
 
-   ![](assets/01653ad61bcaa9600f324218fa3273bd.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/01653ad61bcaa9600f324218fa3273bd.jpeg)
 
 8. After you complete **Confirm Job Threats**, click **Confirm Execution**.
 
-   ![](assets/e71f59e605e1093955da9817eceec651.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/e71f59e605e1093955da9817eceec651.png)
 
    > **Note**
    >
@@ -2416,7 +2416,7 @@ You have an administrator account for Apsara Bigdata Manager.
 
 1. Log on to Apsara Bigdata Manager.
 
-2. Click the <img src="assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and select DataHub.
+2. Click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and select DataHub.
 
 3. In the top menu bar, click **Management**.
 
@@ -2424,7 +2424,7 @@ You have an administrator account for Apsara Bigdata Manager.
 
 5. On the **Execute** page, click the **Scheduled Jobs** tab.
 
-   ![](assets/802a1649127f10378da6057a92c85fee.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/802a1649127f10378da6057a92c85fee.png)
 
 6. On the **Scheduled Jobs** page, enable or disable a scheduled job:
 
@@ -2464,7 +2464,7 @@ You have an Apsara Bigdata Manager administrator account.
 
 1. Log on to Apsara Bigdata Manager.
 
-2. Click the <img src="assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and select DataHub.
+2. Click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/79515bf6815586a0fe54951ed6fb39b2.png" width="14" alt=""> icon in the upper-left corner and select DataHub.
 
 3. In the top menu bar, click **Management**.
 
@@ -2719,7 +2719,7 @@ Both scheduling and monitoring items are built-in and cannot be added. However, 
 
 1. Log on to Apsara Bigdata Manager.
 
-2. In the upper-left corner, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon. Then, select the DataHub product.
+2. In the upper-left corner, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon. Then, select the DataHub product.
 
 3. In the top menu bar, click **Management** to access the management page.
 
@@ -2735,7 +2735,7 @@ Scheduling item mount targets are built-in. You cannot add, modify, or delete th
 
    Scheduling item details include the check item name, alias, description, and processing steps.
 
-3. Click the <img src="assets/85d397c16e324881cacce9a2056c37f5.png" width="15" alt=""> icon next to a scheduling item to view its mount targets.
+3. Click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/85d397c16e324881cacce9a2056c37f5.png" width="15" alt=""> icon next to a scheduling item to view its mount targets.
 
 **Modify scheduling items**
 
@@ -2745,7 +2745,7 @@ You can set the scheduling interval and runtime parameters for scheduling items.
 
 2. On the **Scheduling** interface, click **Edit** next to a scheduling item. In the dialog box that appears, configure the parameters.
 
-   ![](assets/5b220ec237b017bb55811b15714be8f4.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/5b220ec237b017bb55811b15714be8f4.jpeg)
 
    **Type**: **System Default** means parameters such as **Scheduling Interval** and **Parameter List** use the system's default configurations. **Custom** means you can customize these parameters.
 
@@ -2787,11 +2787,11 @@ Add mount targets to monitoring items to display raw alert data on the O&M inter
 
 2. Click the **Monitoring** tab to access the monitoring interface.
 
-3. Click the <img src="assets/a7b4c4464dd871c78c06e58000d032b1.png" width="20" alt=""> icon next to a monitoring item to view its mount targets.
+3. Click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/a7b4c4464dd871c78c06e58000d032b1.png" width="20" alt=""> icon next to a monitoring item to view its mount targets.
 
 4. Below the mount target list, click **Add Mount Target**. In the dialog box that appears, configure the parameters.
 
-   ![](assets/043475f0c021b4abdd8da0ececc73674.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/043475f0c021b4abdd8da0ececc73674.jpeg)
 
    Key parameter descriptions are as follows:
 
@@ -2810,7 +2810,7 @@ Add mount targets to monitoring items to display raw alert data on the O&M inter
 
 2. Click the **Monitoring** tab to access the monitoring interface.
 
-3. Click the <img src="assets/a7b4c4464dd871c78c06e58000d032b1.png" width="15" alt=""> icon next to a monitoring item to view its mount targets.
+3. Click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/a7b4c4464dd871c78c06e58000d032b1.png" width="15" alt=""> icon next to a monitoring item to view its mount targets.
 
 4. Click **Delete** next to the mount target. In the dialog box that appears, click **OK**. The interface displays a success message.
 
@@ -2836,7 +2836,7 @@ You have an Apsara Bigdata Manager account with O&M permissions for the relevant
 
 1. Log on to Apsara Bigdata Manager.
 
-2. In the upper-left corner, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select the DataHub product.
+2. In the upper-left corner, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select the DataHub product.
 
 3. In the top menu bar, click **Management** to go to the management page.
 
@@ -2846,7 +2846,7 @@ You have an Apsara Bigdata Manager account with O&M permissions for the relevant
 
 2. In the upper-right corner, click **Create Scenario**. In the dialog box that appears, configure the parameters as needed.
 
-   ![](assets/129701ff8c9457d44302a66b693ac5e7.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/129701ff8c9457d44302a66b693ac5e7.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -2861,7 +2861,7 @@ You have an Apsara Bigdata Manager account with O&M permissions for the relevant
 
    After the scenario is created, you can perform operations such as **Edit**, **Inspect Now**, **Manage Scenario**, and view **Run History**.
 
-   ![](assets/435de672ece7decdf38c2e7f2b1e54c0.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/435de672ece7decdf38c2e7f2b1e54c0.jpeg)
 
 **Create an inspection item**
 
@@ -2871,7 +2871,7 @@ You have an Apsara Bigdata Manager account with O&M permissions for the relevant
 
 3. In the **Create Inspection Item** dialog box, configure the parameters as needed.
 
-   ![](assets/d55deabb0fed68621ab5d60b25c602dc.png)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/d55deabb0fed68621ab5d60b25c602dc.png)
 
    **Area**
 
@@ -2929,7 +2929,7 @@ You have an Apsara Bigdata Manager account with O&M permissions for the relevant
 
    After the inspection item is created, you can **Edit** or **Delete** it.
 
-   ![](assets/92eb5316b24a6ff50337d025bca2546d.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/92eb5316b24a6ff50337d025bca2546d.jpeg)
 
 **Create a scenario group**
 
@@ -2939,7 +2939,7 @@ You have an Apsara Bigdata Manager account with O&M permissions for the relevant
 
 3. In the **Create Scenario** dialog box, configure the parameters as needed.
 
-   ![](assets/33e1329e857ab2d2ca1b02064bcb8d2b.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/33e1329e857ab2d2ca1b02064bcb8d2b.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -2954,7 +2954,7 @@ You have an Apsara Bigdata Manager account with O&M permissions for the relevant
 
    After the scenario group is created, you can perform operations such as **Edit**, **Manage Scenario**, and view **Run History**.
 
-   ![](assets/6ec628510e3cb19db135d72d117014ec.jpeg)
+   ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/6ec628510e3cb19db135d72d117014ec.jpeg)
 
 <a id="section-3-4-4"></a>
 
@@ -2978,7 +2978,7 @@ Operation audit is specific to each product. To view the operation audit for a p
 
 1. Log on to Apsara Bigdata Manager.
 
-2. In the upper-left corner, click the <img src="assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select DataHub.
+2. In the upper-left corner, click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/03948a71173bd4fc71000459ce8be612.png" width="10" alt=""> icon and select DataHub.
 
 3. In the top menu bar, click **Management**. In the left navigation pane, click **Operation audit**.
 
@@ -3041,7 +3041,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   Log in to the Apsara Uni-manager Operations Console. In the top navigation bar, choose **Platform Operation** > **Apsara Infrastructure Management**.
 
-  ![](assets/7600e9b9ff68f633e684a1a838fdb6d6.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/7600e9b9ff68f633e684a1a838fdb6d6.jpeg)
 
   </li>
 
@@ -3055,7 +3055,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   **O&M**. On the page that appears, enter **datahub** in the Product | Cluster search box to search for DataHub clusters and view their status.
 
-  ![](assets/88e4bd57b04692a8a158bfb2a8247d8d.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/88e4bd57b04692a8a158bfb2a8247d8d.jpeg)
 
 - **Inspection results**
 
@@ -3105,7 +3105,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   view the alerts within the last 1 day.
 
-  ![](assets/832808cd7e489f0d05608fcd094dafff.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/832808cd7e489f0d05608fcd094dafff.jpeg)
 
 - **Inspection results**
 
@@ -3145,7 +3145,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   **O&M**. On the page that appears, enter **datahub** in the Product | Cluster search box to search for DataHub clusters. Find the cluster that you want to inspect and click **Cluster Details** in the Actions column. The Cluster Details page appears.
 
-  ![](assets/31aac49f3d63f63d3219e52fdc67372b.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/31aac49f3d63f63d3219e52fdc67372b.jpeg)
 
   <ol type="i" start="3">
 
@@ -3159,7 +3159,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   the number of frontend servers and chunk servers, and calculate the proportion of frontend servers to chunk servers.
 
-  ![](assets/6e1fc83a542ed2bd667ed4940555c654.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/6e1fc83a542ed2bd667ed4940555c654.jpeg)
 
 - **Inspection results**
 
@@ -3193,7 +3193,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   the information in the **Result** column to obtain the information required for logging in to the DataHub metadatabase.
 
-  ![](assets/a871c9f0a97c8de2945bd38cb8b43230.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/a871c9f0a97c8de2945bd38cb8b43230.jpeg)
 
   <ol type="i" start="3">
 
@@ -3250,7 +3250,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   Log in to the Apsara Big Data Manager (ABM) console, and then go to the **DataHub** page.
 
-  ![](assets/bdd771f1791659d8835e892e128830c7.png)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/bdd771f1791659d8835e892e128830c7.png)
 
   </li>
 
@@ -3264,7 +3264,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   **and maintenance > Pangu Service** On the page that appears, click the **Overview** tab to view the relevant information.
 
-  ![](assets/bd7486e5894789e689234b7af1650d85.png)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/bd7486e5894789e689234b7af1650d85.png)
 
 - **Inspection results**
 
@@ -3298,7 +3298,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   **and maintenance > Control Services**. On the page that appears, click the **Overview** tab to view the relevant information.
 
-  ![](assets/04eed694d912709e0dbf3b13622e67c7.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/04eed694d912709e0dbf3b13622e67c7.jpeg)
 
 - **Inspection results**
 
@@ -3332,7 +3332,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   **and maintenance > Fuxi service**. On the page that appears, click the **Overview** tab to view the relevant information.
 
-  ![](assets/3069e120b4bc6feb7dc8be01f6ac3d59.png)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/3069e120b4bc6feb7dc8be01f6ac3d59.png)
 
 - **Inspection results**
 
@@ -3360,9 +3360,9 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   Copy and paste the hostnames of the DataHub frontend servers to the  `datahub_frontend.list file`  in the /tmp directory of the OPS1 server. The datahub_frontend.list file must be created in advance.
 
-  ![](assets/09dbee6acb7703f4e495f80f949fb5e0.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/09dbee6acb7703f4e495f80f949fb5e0.jpeg)
 
-  ![](assets/b13f43dead5309bea2474412ec91a6e2.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/b13f43dead5309bea2474412ec91a6e2.jpeg)
 
   </li>
 
@@ -3387,7 +3387,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   Expected output:
 
-  ![](assets/a6b06c063f09a3ef39a0f410253e7672.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/a6b06c063f09a3ef39a0f410253e7672.jpeg)
 
 - **Inspection results**
 
@@ -3399,11 +3399,11 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
     The following figure shows an exception in which the queue length is greater than 100 for several hours continuously.
 
-    ![](assets/adc258f903ea91cfe706277539365d26.jpeg)
+    ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/adc258f903ea91cfe706277539365d26.jpeg)
 
     For example, the queue length of a single frontend server is 1,895, obviously greater than that of other frontend servers. In this case, the frontend server is a hot server.
 
-    ![](assets/4866dbc7fb5b6e327c70c19d17d820db.jpeg)
+    ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/4866dbc7fb5b6e327c70c19d17d820db.jpeg)
 
 **2.2.4.2 Check the number of shards on DataHub broker servers and whether it exceeds the limit**
 
@@ -3419,7 +3419,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   Log in to the DataHub WebConsole server and switch to the admin user.
 
-  ![](assets/6b26637b195b743a87fce7b59f68e001.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/6b26637b195b743a87fce7b59f68e001.jpeg)
 
   </li>
 
@@ -3458,11 +3458,11 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
     - The following figure shows that the number of shards is normal.
 
-      ![](assets/2a163b6c7f99b25afc5b729e2ffa7571.jpeg)
+      ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/2a163b6c7f99b25afc5b729e2ffa7571.jpeg)
 
     - The following figure shows that the number of shards exceeds 1,000, which indicates that an error occurs.
 
-      ![](assets/b672c76feed62f864b950273d71de6dd.jpeg)
+      ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/b672c76feed62f864b950273d71de6dd.jpeg)
 
 **2.2.4.3 Check the availability of the DataHub metadatabase**
 
@@ -3478,7 +3478,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   Log in to the Apsara Uni-manager Operations Console. In the top navigation bar, choose **Product Operation > Databases > ApsaraDB Operations and Maintenance System**.
 
-  ![](assets/7507a7c0d9670aea2b05f8f06cb4b042.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/7507a7c0d9670aea2b05f8f06cb4b042.jpeg)
 
   </li>
 
@@ -3533,7 +3533,7 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
 
   start time with the current time.
 
-  ![](assets/933ed900790e1ff0c33ca4d176438e65.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/933ed900790e1ff0c33ca4d176438e65.jpeg)
 
   <ol type="i" start="3">
 
@@ -3551,11 +3551,11 @@ Perform routine maintenance to ensure the normal state of DataHub control compon
   pssh -h /tmp/datahub_nc.list -i "ls -lrth /apsara/cloud/data/corefile"
   ```
 
-  ![](assets/da4c3589adb03cccd2e38d72fb44006c.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/da4c3589adb03cccd2e38d72fb44006c.jpeg)
 
   The following figure shows that no core files exist in the corefile directory.
 
-  ![](assets/aae06d9d361f36475dcd85d279dd7a70.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/aae06d9d361f36475dcd85d279dd7a70.jpeg)
 
 - **Inspection results**
 
@@ -3597,7 +3597,7 @@ Check the status of the following services: DataHub topic read and write, data a
 
   range in the **Select Time** field, and click **DataHub**.
 
-  ![](assets/f5b3af9798406699dbfd7b368b04e459.png)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/f5b3af9798406699dbfd7b368b04e459.png)
 
   Check the **Cluster read and write byte traffic** metric of the DataHub cluster, as shown in the preceding figure.
 
@@ -3613,11 +3613,11 @@ Check the status of the following services: DataHub topic read and write, data a
 
   In the left-side navigation pane, choose **Cloud Product Business Monitoring > Cloud Product Monitoring**. On the page that appears, enter **datahub** in the search box to search for and view DataHub clusters. On the right side of the Cloud Product page, click the **Machines** tab. On the page that appears, find the host whose peak traffic you want to
 
-  obtain and click the <img src="assets/4c82a881500b48c0b61d051e63d069f3.png" width="17" alt=""> icon in the **Actions** column to go to the monitoring dashboard,
+  obtain and click the <img src="en-datahub-operations-guide-v3.18.6-2607-20260825.assets/4c82a881500b48c0b61d051e63d069f3.png" width="17" alt=""> icon in the **Actions** column to go to the monitoring dashboard,
 
   where you can view the **Traffic** metric<strong>.</strong>
 
-  ![](assets/1984f3d6086405cae37cab9798d55750.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/1984f3d6086405cae37cab9798d55750.jpeg)
 
 **3.2.1.2 Check the read and write latency of the DataHub cluster**
 
@@ -3645,7 +3645,7 @@ Check the status of the following services: DataHub topic read and write, data a
 
   the DataHub section.
 
-  ![](assets/f5b3af9798406699dbfd7b368b04e459.png)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/f5b3af9798406699dbfd7b368b04e459.png)
 
   > **Note**
   >
@@ -3690,7 +3690,7 @@ Check whether the system contains topics that have a large number of requests, h
 
   As shown in the following figure, the values in the BPS, QPS, RPS, Fails, and Lat columns are all 0. This indicates that no read and write traffic exists in the environment, which is also normal.
 
-  ![](assets/98d1e654db882284cbc0dd4f5cca3ce8.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/98d1e654db882284cbc0dd4f5cca3ce8.jpeg)
 
 - Abnormal:
 
@@ -3704,9 +3704,9 @@ Check whether the system contains topics that have a large number of requests, h
 
   The following two figures show hot topics with an extremely large QPS.
 
-  ![](assets/020eef15bbc595a586df71a7e60b5655.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/020eef15bbc595a586df71a7e60b5655.jpeg)
 
-  ![](assets/ac5bf51960a6dc2b5c3e78b59f9b5d70.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/ac5bf51960a6dc2b5c3e78b59f9b5d70.jpeg)
 
 **3.2.2.2 Check the topic write service**
 
@@ -3722,7 +3722,7 @@ Check whether the system contains topics that have a large number of requests, h
 
   Log in to the Apsara Uni-manager Management Console and go to the Shard List tab of a DataHub topic.
 
-  ![](assets/8b995a160dfebf73bb2c53101b473388.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/8b995a160dfebf73bb2c53101b473388.jpeg)
 
   </li>
 
@@ -3780,7 +3780,7 @@ Check whether the system contains topics that have a large number of requests, h
 
   Log in to the Apsara Uni-manager Management Console and go to the **Synchronization Task** tab of a DataHub topic.
 
-  ![](assets/5f6a5081a381f56c558de755946969c2.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/5f6a5081a381f56c558de755946969c2.jpeg)
 
   </li>
 
@@ -3794,7 +3794,7 @@ Check whether the system contains topics that have a large number of requests, h
 
   details page.
 
-  ![](assets/5a68dfeeee8d4a60d97646596ac24ca3.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/5a68dfeeee8d4a60d97646596ac24ca3.jpeg)
 
 - **Inspection results**
 
@@ -3836,7 +3836,7 @@ Check whether the system contains topics that have a large number of requests, h
 
   Check the latest data time on the Shard List tab of the topic details page. In the following example, the latest data time of a shard is  `14:41:17 on October 28, 2021` .
 
-  ![](assets/4c2ca4e7171bd9e986371cec45d7d621.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/4c2ca4e7171bd9e986371cec45d7d621.jpeg)
 
   </li>
 
@@ -3850,7 +3850,7 @@ Check whether the system contains topics that have a large number of requests, h
 
   example, the consumption checkpoint of the topic is  `23:07:16 on October 27, 2021` .
 
-  ![](assets/62226a25ae68adcca60f82fb6b476a79.jpeg)
+  ![](en-datahub-operations-guide-v3.18.6-2607-20260825.assets/62226a25ae68adcca60f82fb6b476a79.jpeg)
 
 - **Inspection results**
 

@@ -74,7 +74,7 @@ The system architecture of EDAS consists of the console, data collection system,
 
 Figure 1. EDAS system architecture
 
-![](assets/464a4b94200aa57eb040acacb7648578.png)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/464a4b94200aa57eb040acacb7648578.png)
 
 environment
 
@@ -112,7 +112,7 @@ Each system in EDAS contains one or more components. The component architecture 
 
 Figure 2. EDAS component architecture
 
-![](assets/eb60ec81977830d0187b0896927e27e7.png)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/eb60ec81977830d0187b0896927e27e7.png)
 
 StarAgent
 
@@ -120,7 +120,7 @@ ECS
 
 Send commands
 
-![](assets/47f0b1c78fd40049a41c56b05d08d823.png)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/47f0b1c78fd40049a41c56b05d08d823.png)
 
 K8s Cluster
 
@@ -136,7 +136,7 @@ Metadata
 
 Cache
 
-![](assets/5c1aac098bd6759b1dfb260463a0da53.png)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/5c1aac098bd6759b1dfb260463a0da53.png)
 
 Middleware-Redis
 
@@ -217,7 +217,7 @@ This section describes how operations and maintenance (O&M) engineers and other 
 
 2. In the address bar, enter the endpoint for the Apsara Uni-manager Operations Console:  `region-id.aso.intranet-domain-id.com` . Press Enter.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -249,11 +249,11 @@ This section describes how operations and maintenance (O&M) engineers and other 
 
    Logon screen (legacy version):
 
-   ![](assets/42788a5737d7ec2bd43e3c781cdafc9d.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/42788a5737d7ec2bd43e3c781cdafc9d.jpeg)
 
    Logon screen (new version):
 
-   ![](assets/6b498634debc0d772e187084c0b3289d.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/6b498634debc0d772e187084c0b3289d.jpeg)
 
 <a id="section-3-2"></a>
 
@@ -279,43 +279,43 @@ EDAS components are deployed in two ways: ontianji and onpaas. ontianji deployme
 
 1. Log on to Apsara Infrastructure Management. In the navigation pane on the left, click **Resource Management > Product Cluster O&M**. This topic uses  `middleware-dncs`  as an example.
 
-   ![](assets/5f93ef53f4dc5735d8dad3e6d6c5302c.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/5f93ef53f4dc5735d8dad3e6d6c5302c.jpeg)
 
 2. To the right of the  `middleware-dncs`  product, click **Expand Cluster List**. In the cluster list, click **Cluster Details** in the **Actions** column of the destination cluster.
 
 3. On the cluster details page, click the **Machine Group** tab. The following figure uses  `dncsConsole`  as an example. View the machines in the **Associated Machines** column.
 
-   ![](assets/ac23913833a9bbae4b8ea2d20bc7890a.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/ac23913833a9bbae4b8ea2d20bc7890a.jpeg)
 
 4. On the cluster details page, click the **Machine** tab. In the **Actions** column for the associated machine, click **Terminal**.
 
-   ![](assets/8e3baf382b74c04443f04ce3817dafff.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/8e3baf382b74c04443f04ce3817dafff.jpeg)
 
 5. In the VM, use Docker commands to manage the component. First, run  `docker ps`  to find the container ID. Then, run the  `docker exec -it <Container ID> bash`  command to log on to the component container.
 
-   ![](assets/e62fe4fdbe93092b2356539aeff7f8c5.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/e62fe4fdbe93092b2356539aeff7f8c5.jpeg)
 
 **Log on to an onpaas component**
 
 1. Log on to Apsara Infrastructure Management. In the navigation pane on the left, click **Resource Management > Product Cluster O&M**. On the **Products** page, enter  `tianji`  in the **Product|Cluster** search box to search.
 
-   ![](assets/97dbf3f25094c7dc256ba7a0c708f775.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/97dbf3f25094c7dc256ba7a0c708f775.jpeg)
 
 2. In the **Products** column for the **tianji** product, click **Expand Cluster List**. Select the destination cluster and click **Cluster Details** in the **Actions** column.
 
-   ![](assets/afedb7063f7bab77718180acab554551.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/afedb7063f7bab77718180acab554551.jpeg)
 
 3. On the cluster details page, click the **Services** tab, and then click the **ops** service.
 
-   ![](assets/fd13398b03cad19e9f0d39e00738c3ea.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/fd13398b03cad19e9f0d39e00738c3ea.jpeg)
 
 4. Open the **Terminal** for any machine.
 
-   ![](assets/682b552fd30680c8ad34581bbe073127.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/682b552fd30680c8ad34581bbe073127.jpeg)
 
 5. After you access the terminal server, log on as the root user. You can then use kubectl commands to view and manage the EDAS components that are deployed on onpaas.
 
-   ![](assets/603ae0a3a4b05199bfd37f1b8bd7b4b1.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/603ae0a3a4b05199bfd37f1b8bd7b4b1.jpeg)
 
 <a id="section-3-2-2"></a>
 
@@ -329,9 +329,9 @@ ASCM
 
 POP
 
-![](assets/d4850003afc2ad1a8a7d28173363fe30.png)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/d4850003afc2ad1a8a7d28173363fe30.png)
 
-![](assets/8a08040c66af32c5e24147af9de81284.png)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/8a08040c66af32c5e24147af9de81284.png)
 
 Retrieve addresses
 
@@ -393,7 +393,7 @@ sh /home/admin/bin/check_cai.sh
 
 Normal output:
 
-![](assets/583a292173ef3ed4a4b27837c911c500.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/583a292173ef3ed4a4b27837c911c500.jpeg)
 
 **Service Installation Directory**
 
@@ -448,7 +448,7 @@ sh /home/admin/bin/check_cai.sh
 
 The normal output is as follows:
 
-![](assets/23b720fb81fd7476909a751d869c3d18.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/23b720fb81fd7476909a751d869c3d18.jpeg)
 
 **Service installation directory**
 
@@ -483,7 +483,7 @@ docker login -u dauth_edas_console@aliyun.com -p test12345 $acs_registry
 
 The normal output is as follows:
 
-![](assets/ed17bd850eff4f9bcbbc2645892eac83.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/ed17bd850eff4f9bcbbc2645892eac83.jpeg)
 
 If EDAS management component images fail to pull in your environment, you can run the following command to re-upload them:
 
@@ -493,7 +493,7 @@ sh /home/admin/bin/push_image.sh
 
 The normal output is as follows:
 
-![](assets/be081fcebcc10ef9ab4cadde28431b54.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/be081fcebcc10ef9ab4cadde28431b54.jpeg)
 
 After the command finishes, check the image upload progress in the log at  `/var/log/image_push_edas_standard.log` .
 
@@ -563,7 +563,7 @@ The EDAS Init component consists of two types of jobs.
      kubectl get po | grep edas-init
      ```
 
-     ![](assets/f181470f9afc456af01cd7f681b4f7c8.jpeg)
+     ![](en-edas-operations-guide-v3.18.6-20260701.assets/f181470f9afc456af01cd7f681b4f7c8.jpeg)
 
    - Check the COMPLETIONS field in the job status.
 
@@ -571,7 +571,7 @@ The EDAS Init component consists of two types of jobs.
      kubectl get job | grep edas-init
      ```
 
-     ![](assets/812dac83828db4ff3c61f1e889da3924.jpeg)
+     ![](en-edas-operations-guide-v3.18.6-20260701.assets/812dac83828db4ff3c61f1e889da3924.jpeg)
 
 2. edas-product-monitor is a scheduled task (CronJob) in Kubernetes. To perform a health check, you can check the status of the pod or the job.
 
@@ -581,7 +581,7 @@ The EDAS Init component consists of two types of jobs.
      kubectl get po | grep edas-product-monitor
      ```
 
-     ![](assets/2069a6b5d33bbf4811ac39b75b098bfa.jpeg)
+     ![](en-edas-operations-guide-v3.18.6-20260701.assets/2069a6b5d33bbf4811ac39b75b098bfa.jpeg)
 
    - Check the COMPLETIONS field in the job status.
 
@@ -589,7 +589,7 @@ The EDAS Init component consists of two types of jobs.
      kubectl get job | grep edas-product-monitor
      ```
 
-     ![](assets/670bf9a9824c5ebeb185cfa5afd7d2e7.jpeg)
+     ![](en-edas-operations-guide-v3.18.6-20260701.assets/670bf9a9824c5ebeb185cfa5afd7d2e7.jpeg)
 
 **Service installation folder**
 
@@ -629,7 +629,7 @@ kubectl -nark-system edit appinstance edas.edasservice.edas-init
 
 Increment the value by 1 and save the change.
 
-![](assets/10eb3e6c910a43793881a58990cac03c.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/10eb3e6c910a43793881a58990cac03c.jpeg)
 
 **Core logs**
 
@@ -681,7 +681,7 @@ sh /home/admin/bin/check_edas.sh
 
 A normal output appears as follows:
 
-![](assets/9909214491dabf2f79c30851741dee14.png)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/9909214491dabf2f79c30851741dee14.png)
 
 **Installation directories**
 
@@ -705,7 +705,7 @@ For on-PaaS deployments, the Kubernetes workload type is a Deployment named edas
 
 You can log on to any EDAS Web Server component. Run the  `su - admin`  command to switch to the admin account. Then, run the  `edasdb`  command to log on to the EDAS database.
 
-![](assets/b808b4cfc47e42ba0288358f3a453975.png)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/b808b4cfc47e42ba0288358f3a453975.png)
 
 **O&M operations**
 
@@ -752,7 +752,7 @@ sh /home/admin/bin/check_edas-console.sh
 
 Normal output appears as follows:
 
-![](assets/06bf776abe2d1ed41b12c9f7ed2019b6.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/06bf776abe2d1ed41b12c9f7ed2019b6.jpeg)
 
 **Service installation directories**
 
@@ -778,7 +778,7 @@ The EDAS Console is deployed on PAAS as a Kubernetes deployment workload named e
 
 You can log on to any EDAS Web Server component, switch to the admin account by running the  `su - admin`  command, then run the  `edasdb`  command to log on to the EDAS database.
 
-![](assets/24d8ca4ef9df3f40e0ab7d09e732465c.png)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/24d8ca4ef9df3f40e0ab7d09e732465c.png)
 
 **O&M operations**
 
@@ -817,7 +817,7 @@ sh /home/admin/bin/check_edas-server.sh
 
 The expected output is as follows:
 
-![](assets/8ee298e5fa7088b64751472a0c90561f.png)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/8ee298e5fa7088b64751472a0c90561f.png)
 
 **Service installation directory**
 
@@ -868,7 +868,7 @@ sh /home/admin/bin/check_edas-service-platform.sh
 
 The normal output is as follows:
 
-![](assets/6910520b17da431699f567f1c03a86e4.png)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/6910520b17da431699f567f1c03a86e4.png)
 
 **Service Installation Directory**
 
@@ -918,7 +918,7 @@ The edas-lite-arms-init Job task performs initialization, which includes the fol
 
 A Complete status indicates that the desired state has been reached.
 
-![](assets/a50ecc8b70767e15b4a6688ece517b0b.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/a50ecc8b70767e15b4a6688ece517b0b.jpeg)
 
 **Service Installation Directories**
 
@@ -950,7 +950,7 @@ You can view the logs using the following K8s command:
 kubectl logs edas-lite-arms-init
 ```
 
-![](assets/4f846c0931c77fbca17614add12276dd.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/4f846c0931c77fbca17614add12276dd.jpeg)
 
 <a id="section-3-2-3-9"></a>
 
@@ -968,7 +968,7 @@ sh /home/admin/bin/check_arms.sh
 
 The expected output is as follows:
 
-![](assets/b48f3d2d8858fb5b90727b3f97aafb5b.png)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/b48f3d2d8858fb5b90727b3f97aafb5b.png)
 
 **Service installation directory**
 
@@ -1061,7 +1061,7 @@ Verify that the exit code of the container started by the component is 0.
 docker ps -a | grep -i dauthInit
 ```
 
-![](assets/f964acab124a336633ecaa7f2b6d6202.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/f964acab124a336633ecaa7f2b6d6202.jpeg)
 
 **Service installation directory**
 
@@ -1127,7 +1127,7 @@ sh /home/admin/bin/check_diamond.sh
 
 The normal output is as follows:
 
-![](assets/0843eaa4b2bf6e14e3b7911cb104649c.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/0843eaa4b2bf6e14e3b7911cb104649c.jpeg)
 
 **Service installation directories**
 
@@ -1178,7 +1178,7 @@ sh /home/admin/bin/check_dauth.sh
 
 The expected output is as follows:
 
-![](assets/4452c8c8e3a256a7c394b441fcafce98.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/4452c8c8e3a256a7c394b441fcafce98.jpeg)
 
 **Service installation directories**
 
@@ -1239,7 +1239,7 @@ Check that the exit code of the component's container is 0.
 docker ps -a | grep dncsInit
 ```
 
-![](assets/361266699ea148fb0feb14a091dc478b.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/361266699ea148fb0feb14a091dc478b.jpeg)
 
 If the exit code is not 0, the component has a fault and requires troubleshooting.
 
@@ -1301,7 +1301,7 @@ sh /home/admin/bin/checkHealth.sh
 
 A normal output is shown below:
 
-![](assets/5dbbcd50a39b0e5275b178d58b00a664.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/5dbbcd50a39b0e5275b178d58b00a664.jpeg)
 
 **Service installation directories**
 
@@ -1357,7 +1357,7 @@ sh /home/admin/bin/check_dncs.sh
 
 A normal output is shown below:
 
-![](assets/d97a7fcdf281ed7d36e94bda6b51d0a7.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/d97a7fcdf281ed7d36e94bda6b51d0a7.jpeg)
 
 **Service installation directories**
 
@@ -1486,7 +1486,7 @@ sh /home/admin/bin/check_staragent2.sh
 
 The expected output is as follows:
 
-![](assets/ce5a906ddab052e1ad6a12d345e50cbb.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/ce5a906ddab052e1ad6a12d345e50cbb.jpeg)
 
 **Service installation directory**
 
@@ -1591,7 +1591,7 @@ sh /home/admin/bin/check_redis.sh
 
 A normal output is similar to the following:
 
-![](assets/80c88d9a1edde1394cbdef0e2be5312f.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/80c88d9a1edde1394cbdef0e2be5312f.jpeg)
 
 **Service installation directory**
 
@@ -1937,7 +1937,7 @@ Components:  `cai-fs/cai-address/edas-console/edas-server/edas-web-server/servic
 
 Open the Apsara Infrastructure Management console. In the navigation pane on the left, click **Resource Management > Product Cluster O&M**.
 
-![](assets/04f202ee8b45e2048cf2c7519e285d82.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/04f202ee8b45e2048cf2c7519e285d82.jpeg)
 
 **Black screen method:**
 
@@ -1949,7 +1949,7 @@ Open the Apsara Infrastructure Management console. In the navigation pane on the
   kubectl get clusterinstance | grep edas 
   ```
 
-  ![](assets/8d776d90311de82d69d93b6e3002a96e.jpeg)
+  ![](en-edas-operations-guide-v3.18.6-20260701.assets/8d776d90311de82d69d93b6e3002a96e.jpeg)
 
 - Query products.
 
@@ -1957,7 +1957,7 @@ Open the Apsara Infrastructure Management console. In the navigation pane on the
   kubectl get appset -A | grep edas 
   ```
 
-  ![](assets/039ec6e7231d494b034ca644fcfbd05f.jpeg)
+  ![](en-edas-operations-guide-v3.18.6-20260701.assets/039ec6e7231d494b034ca644fcfbd05f.jpeg)
 
 - Query product service resources (SR).
 
@@ -1965,7 +1965,7 @@ Open the Apsara Infrastructure Management console. In the navigation pane on the
   kubectl get appinstance -A | grep edas 
   ```
 
-  ![](assets/1e2b39ae3a13c43e3d6ee04d207926e1.png)
+  ![](en-edas-operations-guide-v3.18.6-20260701.assets/1e2b39ae3a13c43e3d6ee04d207926e1.png)
 
 - Query Product POD
 
@@ -1973,19 +1973,19 @@ Open the Apsara Infrastructure Management console. In the navigation pane on the
   kubectl get pod -A | grep edas 
   ```
 
-  ![](assets/78c0c3ee657ccecac121d7d7f7614aad.png)
+  ![](en-edas-operations-guide-v3.18.6-20260701.assets/78c0c3ee657ccecac121d7d7f7614aad.png)
 
   2. **Check runtime status using built-in scripts**
 
 Scripts are usually located in  `/home/admin/bin` . After execution, a return value of  `OK/SUCCESS`  indicates normal operation, while a return value of  `ERROR`  or similar messages indicates a problem.
 
-![](assets/5acd3e0223cc260658075d2157116854.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/5acd3e0223cc260658075d2157116854.jpeg)
 
 3. **Check basic metrics using the tsar command**
 
 For information about the tsar command:
 
-![](assets/19ab7360fd3ae0f6af5658993cf8e3bb.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/19ab7360fd3ae0f6af5658993cf8e3bb.jpeg)
 
 - Use tsar to check CPU, memory, I/O, network, and load metrics.
 
@@ -2005,7 +2005,7 @@ Use tools such as jstat, jmap, and jstack to diagnose and monitor the JVM.
 
 For example: To check garbage collection (GC) status, run a command that prints output every second.
 
-![](assets/3f1df5672f6d67b414c8b69bf7b1751c.png)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/3f1df5672f6d67b414c8b69bf7b1751c.png)
 
 > **Note**
 >
@@ -2025,7 +2025,7 @@ For example: To check garbage collection (GC) status, run a command that prints 
   netstat -nat|awk '{print$5}'|awk -F : '{print$1}'|sort|uniq -c|sort -rn
   ```
 
-![](assets/352cea2be67cf3cfb18f6d31d82806e2.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/352cea2be67cf3cfb18f6d31d82806e2.jpeg)
 
 > **Note**
 >
@@ -2033,7 +2033,7 @@ For example: To check garbage collection (GC) status, run a command that prints 
 
 6. **Check resource usage using top, free, and df**
 
-![](assets/ef62b3ab0c9656fa3f06fecd0b5a4cf4.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/ef62b3ab0c9656fa3f06fecd0b5a4cf4.jpeg)
 
 The top command shows host-level metrics.
 
@@ -2045,9 +2045,9 @@ The top command shows host-level metrics.
 
 Log on to ASO. In the navigation pane on the left, click **Platform O&M > Control Service O&M > Cloud Database O&M · Mini DuKang** to open the Mini DuKang console.
 
-![](assets/b63769bbdb0164efa909fd1d762822ed.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/b63769bbdb0164efa909fd1d762822ed.jpeg)
 
-![](assets/60bc030fa8a10d7e27d2ecbb101e1acf.jpeg)
+![](en-edas-operations-guide-v3.18.6-20260701.assets/60bc030fa8a10d7e27d2ecbb101e1acf.jpeg)
 
 > **Note**
 >
@@ -2059,11 +2059,11 @@ Log on to the EDAS database.
 
 - Verify the DNCS IP addresses. A single data center must have four IP addresses, and a disaster recovery data center must have seven IP addresses. These IP addresses must match the  `docker ip`  of the DNCS Server.
 
-  ![](assets/4fb6978f5a732a01b73b348bedba34fd.jpeg)
+  ![](en-edas-operations-guide-v3.18.6-20260701.assets/4fb6978f5a732a01b73b348bedba34fd.jpeg)
 
 - Verify the Redis IP addresses. These addresses must match either the pod IP or the service IP of middleware-redis.
 
-  ![](assets/e2542b9a8890cae4b2af41b113712e50.jpeg)
+  ![](en-edas-operations-guide-v3.18.6-20260701.assets/e2542b9a8890cae4b2af41b113712e50.jpeg)
 
 <a id="section-3-5"></a>
 
@@ -2189,7 +2189,7 @@ This topic describes how to log on to the EDAS O&M console.
 
 2. In the address bar, enter the endpoint for the Apsara Uni-manager Operations Console,  `{region-id}.aso.{intranet-domain-id}.com` , and press Enter.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -2318,7 +2318,7 @@ This topic describes how to query EDAS license details.
 
 4. The region section displays the number of **Used Cores** for the region and cluster-level information. For each cluster, it shows the number of **Used Cores**. For applications in the cluster, it displays the following details: **Application Name**, **Application ID**, **Microservices Namespace**, **EDAS ID**, **Number of Instances**, **Actual vCPUs of Application**, **License Feature Type**, **Application Type**, and **Used Cores**.
 
-   ![](assets/5985837515096a7bf2dffd84db675ff5.jpeg)
+   ![](en-edas-operations-guide-v3.18.6-20260701.assets/5985837515096a7bf2dffd84db675ff5.jpeg)
 
 <a id="section-4-1-5"></a>
 

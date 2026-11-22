@@ -82,7 +82,7 @@ Cloud Security Operations Center is an operations platform for Apsara Stack Secu
 
 2. In the address bar, enter the URL. Then, press the Enter key.
 
-   ![](assets/031c4f07f59cbc926ff25affbc55c3ec.png)
+   ![](en-apsara-stack-security-security-admin-c66e5856-v3.18.6-20250529.assets/031c4f07f59cbc926ff25affbc55c3ec.png)
 
    > **Note**
    >
@@ -114,7 +114,7 @@ Cloud Security Operations Center is an operations platform for Apsara Stack Secu
 
 On the **Cloud Security Operations Center** page, you can view the following information.
 
-![](assets/6f714507cc9a011677f87bc207837b5b.jpeg)
+![](en-apsara-stack-security-security-admin-c66e5856-v3.18.6-20250529.assets/6f714507cc9a011677f87bc207837b5b.jpeg)
 
 <a id="section-3"></a>
 
@@ -136,7 +136,7 @@ You can use the system monitoring feature to monitor integrated cloud services a
 
    - On the **Monitoring Overview** tab, view the following information.
 
-     ![](assets/5ed49ba03635d5d2f4f338f0a8192623.png)
+     ![](en-apsara-stack-security-security-admin-c66e5856-v3.18.6-20250529.assets/5ed49ba03635d5d2f4f338f0a8192623.png)
 
      - Overview: You can view the total numbers of monitored services, abnormal services, metrics, and exceptions.
 
@@ -148,7 +148,7 @@ You can use the system monitoring feature to monitor integrated cloud services a
 
      - Monitoring scope:
 
-       ![](assets/9e4ddea67f29eafcd0514f0d0468c075.jpeg)
+       ![](en-apsara-stack-security-security-admin-c66e5856-v3.18.6-20250529.assets/9e4ddea67f29eafcd0514f0d0468c075.jpeg)
 
        - Click a cloud service tab to view all sub-services of the cloud service in the section marked 2 in the preceding figure.
 
@@ -160,8 +160,8 @@ You can use the system monitoring feature to monitor integrated cloud services a
 
          | Catego ry | Description |
          | --- | --- |
-         | Basic monitor ing | • You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually refresh the monitoring data. You can<br>also turn on Automatic Refresh to automatically refresh the monitoring data.<br>• Valid values for the View parameter: Cluster View and Single-server View.<br>• You can view the following metrics: CPU usage (%), memory capacity (%), workloads, the number of TCP connections, the number of processes, and the QPS of NGINX. |
-         | Middle ware | • You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually refresh the monitoring data. You can<br>also turn on Automatic Refresh to automatically refresh the monitoring data.<br>• Valid values for the View parameter: Cluster View and Single-server View.<br>• You can view the following monitoring data: the QPS of MetaQ, the number of GCs in the JVM, the amount of time consumed to monitor GCs in the JVM, the amount of JVM memory, the number of loaded classes in the JVM, the numbers of JVM threads in different statuses, the number of JVM threads, the QPS of HSF, the response time of HSF<br>(ms), and database usage (%). |
+         | Basic monitor ing | • You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="en-apsara-stack-security-security-admin-c66e5856-v3.18.6-20250529.assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually refresh the monitoring data. You can<br>also turn on Automatic Refresh to automatically refresh the monitoring data.<br>• Valid values for the View parameter: Cluster View and Single-server View.<br>• You can view the following metrics: CPU usage (%), memory capacity (%), workloads, the number of TCP connections, the number of processes, and the QPS of NGINX. |
+         | Middle ware | • You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="en-apsara-stack-security-security-admin-c66e5856-v3.18.6-20250529.assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually refresh the monitoring data. You can<br>also turn on Automatic Refresh to automatically refresh the monitoring data.<br>• Valid values for the View parameter: Cluster View and Single-server View.<br>• You can view the following monitoring data: the QPS of MetaQ, the number of GCs in the JVM, the amount of time consumed to monitor GCs in the JVM, the amount of JVM memory, the number of loaded classes in the JVM, the numbers of JVM threads in different statuses, the number of JVM threads, the QPS of HSF, the response time of HSF<br>(ms), and database usage (%). |
          | Health check | Check the health status of all hosts in an application by using TCP or HTTP. |
 
 <a id="section-3-2"></a>
@@ -216,7 +216,7 @@ Apsara Stack Security sends alert notifications to alert contacts by text messag
 
 6. Enter the contact information and click **OK**.
 
-   ![](assets/76717c9b17dbb1562726ba90b2f70ff2.png)
+   ![](en-apsara-stack-security-security-admin-c66e5856-v3.18.6-20250529.assets/76717c9b17dbb1562726ba90b2f70ff2.png)
 
 7. Manage alert contacts.
 
@@ -355,7 +355,7 @@ This topic describes how to manage high-risk items and canary release policies f
 
      - Find the required extension and click**View** or **Edit** in the Actions column.
 
-     - In the upper-right corner of the Plug-in Publish Management tab, click the <img src="assets/6ddd09f3e7165784e9166d39f3299df0.png" width="13" alt=""> icon to
+     - In the upper-right corner of the Plug-in Publish Management tab, click the <img src="en-apsara-stack-security-security-admin-c66e5856-v3.18.6-20250529.assets/6ddd09f3e7165784e9166d39f3299df0.png" width="13" alt=""> icon to
 
        configure the items that you want to view in the extension list.
 
@@ -365,7 +365,7 @@ This topic describes how to manage high-risk items and canary release policies f
 
      After the policy is created, you can modify or delete it. In the upper-right corner of the
 
-     Blocking Policy Management tab, click the <img src="assets/6ddd09f3e7165784e9166d39f3299df0.png" width="13" alt=""> icon to configure the items that you want to
+     Blocking Policy Management tab, click the <img src="en-apsara-stack-security-security-admin-c66e5856-v3.18.6-20250529.assets/6ddd09f3e7165784e9166d39f3299df0.png" width="13" alt=""> icon to configure the items that you want to
 
      view in the extension list.
 
@@ -553,7 +553,7 @@ This topic describes how to view existing tasks on the Tasks tab.
 
 3. On the Tenant-side KMS O&M page, click the **Tasks** tab. On the Tasks tab, configure the **Type**, **Status**, or **ID** parameter to search for the task that you want to query.
 
-4. Click the <img src="assets/b391f44152bdde57d6cbc4de3eeb3e57.png" width="11" alt=""> icon to the left of the task ID to query the execution information about its sub-
+4. Click the <img src="en-apsara-stack-security-security-admin-c66e5856-v3.18.6-20250529.assets/b391f44152bdde57d6cbc4de3eeb3e57.png" width="11" alt=""> icon to the left of the task ID to query the execution information about its sub-
 
    tasks.
 
@@ -762,7 +762,7 @@ The upgrade center supports automatic import and manual import of update package
 
      <li>
 
-     Click Import Upgrade Package and drag the downloaded update packages to the dotted box. You can also click the <img src="assets/0c6e64f55ccb0a4c673c33a8668a98c1.png" width="13" alt=""> icon to upload the update packages.
+     Click Import Upgrade Package and drag the downloaded update packages to the dotted box. You can also click the <img src="en-apsara-stack-security-security-admin-c66e5856-v3.18.6-20250529.assets/0c6e64f55ccb0a4c673c33a8668a98c1.png" width="13" alt=""> icon to upload the update packages.
 
      > **Note**
      >
@@ -1489,7 +1489,7 @@ You can export audit events or logs on the **Audit Query** or **Raw Log** tab of
 
 6. View the created export tasks.
 
-   ![](assets/bf80f36d04cad130d9959d9739d0645f.png)
+   ![](en-apsara-stack-security-security-admin-c66e5856-v3.18.6-20250529.assets/bf80f36d04cad130d9959d9739d0645f.png)
 
 7. Click **Download** to download audit events or logs to your on-premises server. To delete an export task, click **Delete**.
 

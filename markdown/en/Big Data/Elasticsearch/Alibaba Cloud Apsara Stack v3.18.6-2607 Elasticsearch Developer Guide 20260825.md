@@ -1054,7 +1054,7 @@ You can use POP Gateway or the Apsara Stack API (ASAPI) gateway to call Apsara S
 
 **Flowchart**
 
-![](assets/27a14c1fdbadd2d9298565190c14de9a.png)
+![](en-elasticsearch-developer-guide-v3.18.6-2607-20260825.assets/27a14c1fdbadd2d9298565190c14de9a.png)
 
 **Procedure**
 
@@ -1114,7 +1114,7 @@ The information on the API Directory page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-elasticsearch-developer-guide-v3.18.6-2607-20260825.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -1124,7 +1124,7 @@ The information on the API Directory page of the Apsara Uni-manager Management C
 
 7. Select the corresponding API operation and obtain the POP endpoint information of the cloud service under the parameter name.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-elasticsearch-developer-guide-v3.18.6-2607-20260825.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 <a id="section-3-2-2"></a>
 
@@ -1165,7 +1165,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-elasticsearch-developer-guide-v3.18.6-2607-20260825.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >

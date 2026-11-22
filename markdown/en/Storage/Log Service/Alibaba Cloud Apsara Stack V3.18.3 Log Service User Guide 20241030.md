@@ -445,7 +445,7 @@ The following figure shows the procedure.
 
 Figure 1. Procedure
 
-![](assets/910a685f9123fea02018bf2fc9bba5b4.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/910a685f9123fea02018bf2fc9bba5b4.png)
 
 1. Optional. Obtain an AccessKey pair.
 
@@ -577,7 +577,7 @@ A log group is a collection of logs. A log group is the basic unit that is used 
 
 When you write logs to or read logs from Log Service, multiple logs are encapsulated into a log group. This way, you can write and read logs by log group. This method can reduce the number of read and write operations and improve business efficiency. The maximum length of a log group is 5 MB.
 
-![](assets/757383e7a1d7fb830d26ad4a2a6316e1.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/757383e7a1d7fb830d26ad4a2a6316e1.png)
 
 <a id="section-2-2-4"></a>
 
@@ -735,7 +735,7 @@ If you do not need to identify logs in a Logstore, set the topic to Null - Do no
 
 The following figure shows the relationships between Logstores, topics, and shards.
 
-![](assets/5bc816c0a83f40d0e6b94e991143f0e7.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/5bc816c0a83f40d0e6b94e991143f0e7.png)
 
 <a id="section-2-2-10"></a>
 
@@ -906,7 +906,7 @@ A project is created. For more information, see Manage a project.
 
    **> Modify**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 2. In the upper-right corner of the **Metricstore Attribute** page, click **Modify**.
 
@@ -932,7 +932,7 @@ A project is created. For more information, see Manage a project.
 
    **> Delete**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
    > **Warning**
    >
@@ -968,7 +968,7 @@ A Logstore in Simple Log Service is used to collect, store, and query logs. This
 
    icon.
 
-   <img src="assets/13879f8fce895a842d9848ad09a1c10c.png" width="9" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/13879f8fce895a842d9848ad09a1c10c.png" width="9" alt="">
 
 4. In the **Create Logstore** panel, configure the following parameters and click **OK**.
 
@@ -992,7 +992,7 @@ A Logstore in Simple Log Service is used to collect, store, and query logs. This
 
    icon, and then select **Modify**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 3. On the **Logstore Attributes** page, click **Modify**.
 
@@ -1016,7 +1016,7 @@ If you no longer require a Logstore, you can delete the Logstore in the Simple L
 
    icon, and then select **Delete**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
    > **Warning**
    >
@@ -1061,7 +1061,7 @@ Each shard supports a write speed of up to 5 MB/s and a read speed of up to 10 M
 
    icon, and then select **Modify**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. On the **Logstore Attributes** page, click **Modify**.
 
@@ -1071,7 +1071,7 @@ Each shard supports a write speed of up to 5 MB/s and a read speed of up to 10 M
    >
    > You can split only a shard that is in the readwrite state.
 
-   ![](assets/1df02cfa7611a6482b123964cdc8cb56.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/1df02cfa7611a6482b123964cdc8cb56.png)
 
 6. Select the number of new shards that you want to generate after the original shard is split.
 
@@ -1115,13 +1115,13 @@ You can click Merge in the Actions column of a shard to merge shards. Log Servic
 
    icon, and then select **Modify**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. On the **Logstore Attributes** page, click **Modify**.
 
 5. Find the shard that you want to merge and click **Merge** in the Actions column.
 
-   ![](assets/1df02cfa7611a6482b123964cdc8cb56.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/1df02cfa7611a6482b123964cdc8cb56.png)
 
 6. Click **Save**.
 
@@ -1565,7 +1565,7 @@ Logtail is a log collection agent provided by Log Service. You can use Logtail i
 
 Figure 1. Logtail-based log collection
 
-![](assets/e234f51986f9cdfdcb1017ee28e32a4f.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/e234f51986f9cdfdcb1017ee28e32a4f.png)
 
 **Benefits**
 
@@ -1589,7 +1589,7 @@ For more information, see Limits.
 
 Figure 2. Configuration process
 
-![](assets/767cd3210791dcbbbec33a144d925133.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/767cd3210791dcbbbec33a144d925133.png)
 
 To collect logs from servers by using Logtail, follow these steps:
 
@@ -3368,7 +3368,7 @@ If you want to collect logs from servers, you must create a machine group and ad
 
    The following figure shows how to view the IP address of a Linux server.
 
-   ![](assets/a27a3b3e5ac28775cc46c93ff743b370.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/a27a3b3e5ac28775cc46c93ff743b370.png)
 
 2. Log on to the Simple Log Service console.
 
@@ -3380,7 +3380,7 @@ If you want to collect logs from servers, you must create a machine group and ad
 
    icon next to Machine Groups and select **Create machine group**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
    You can also create a machine group in the data import wizard.
 
@@ -3413,7 +3413,7 @@ If you want to collect logs from servers, you must create a machine group and ad
    >
    > The creation process of a machine group requires approximately 2 minutes to complete. If the creation process is not complete, the heartbeat status is **FAIL**. In this case, click **Refresh** 2 minutes later.
 
-   ![](assets/3346aea5960cff83aff86fe0d761c9c8.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/3346aea5960cff83aff86fe0d761c9c8.png)
 
    </li>
 
@@ -3423,7 +3423,7 @@ If you want to collect logs from servers, you must create a machine group and ad
 
 You can view the created machine group in the Machine Groups list.
 
-![](assets/1761f7ff700b0cc9b11fd3c502ae8a4d.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/1761f7ff700b0cc9b11fd3c502ae8a4d.png)
 
 <a id="section-3-1-3-4"></a>
 
@@ -3507,7 +3507,7 @@ Custom identifier-based machine groups provide benefits in the following scenari
 
    icon to the right of **Machine Groups** and select **Create Machine Group**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
    </li>
 
@@ -3540,7 +3540,7 @@ Custom identifier-based machine groups provide benefits in the following scenari
 
    On the machine group configuration page, you can view the server list and the heartbeat status of the servers in the **Server Group Status** section.
 
-   ![](assets/6b699eae98a81138d1a5c751a7e9f479.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/6b699eae98a81138d1a5c751a7e9f479.png)
 
    - The Server Group Status section displays the IP addresses of the servers whose custom identifier is the same.
 
@@ -3623,7 +3623,7 @@ This topic describes how to view the server groups of a project on the **Server 
 
    You can view all server groups of the project.
 
-   ![](assets/4b0c4d0963df0be75489b3e75b888bba.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/4b0c4d0963df0be75489b3e75b888bba.jpeg)
 
 <a id="section-3-1-3-6"></a>
 
@@ -3687,11 +3687,11 @@ This topic describes how to delete a machine group. You can delete a machine gro
 
    icon to the right of the machine group, and then click **Delete**.
 
-   <img src="assets/ad5a32c39908a4ae61be12602193a8ef.png" width="12" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/ad5a32c39908a4ae61be12602193a8ef.png" width="12" alt="">
 
 5. In the message that appears, click **OK**.
 
-   ![](assets/563b228f2e802e199d67396bb6821ef9.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/563b228f2e802e199d67396bb6821ef9.png)
 
 <a id="section-3-1-3-9"></a>
 
@@ -3723,7 +3723,7 @@ You can change the log collection mode of the Logtail configuration, and then ap
 
 **Delete a Logtail configuration**
 
-In the **Logtail Configurations** list, click the <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt=""> icon next to the Logtail configuration that you want to delete and select **Delete**.
+In the **Logtail Configurations** list, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt=""> icon next to the Logtail configuration that you want to delete and select **Delete**.
 
 > **Warning**
 >
@@ -3747,7 +3747,7 @@ A project and a Logstore are created. For more information, see Create a project
 
 Simple Log Service provides a configuration wizard that you can use to configure log collection.
 
-![](assets/6ca9bc0ebffe7cdbe1c755cf06c1f1b3.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/6ca9bc0ebffe7cdbe1c755cf06c1f1b3.png)
 
 **Collection modes**
 
@@ -3795,7 +3795,7 @@ Logtail allows you to collect text logs in the following modes: simple mode, ful
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**.
 
@@ -3896,7 +3896,7 @@ In simple mode, you can collect the following types of text logs:
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**. After approximately 1 minute, the Logtail configuration takes effect, and Simple Log Service starts to collect incremental logs.
 
@@ -3975,7 +3975,7 @@ If you want to collect multi-line logs and extract fields from the logs, we reco
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration.
 
@@ -4101,7 +4101,7 @@ Simple Log Service allows you to collect logs in delimiter mode. After logs are 
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**. After approximately 1 minute, the Logtail configuration takes effect, and Simple Log Service starts to collect incremental logs.
 
@@ -4292,7 +4292,7 @@ gQ7b1c%3D HTTP/1.1", "ip": "10.200.98.210", "user-agent": "aliyun-sdk-java", "re
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**. After approximately 1 minute, the Logtail configuration takes effect, and Simple Log Service starts to collect incremental logs.
 
@@ -4394,7 +4394,7 @@ NGINX logs record important information that can be used for website O&M. Simple
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**.
 
@@ -4524,7 +4524,7 @@ Simple Log Service allows you to collect Internet Information Services (IIS) log
 
   We recommend that you use the W3C Extended log format. If you select the W3C Extended format, you must configure log fields beforehand. To configure log fields, you must select **Bytes Sent (sc-bytes)** and **Bytes Received (cs-bytes)** in the W3C Logging Fields dialog box and retain the default settings for other fields.
 
-  ![](assets/a145706f32be32d364d962a476aeeee6.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/a145706f32be32d364d962a476aeeee6.png)
 
 **Procedure**
 
@@ -4552,7 +4552,7 @@ Simple Log Service allows you to collect Internet Information Services (IIS) log
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**. After approximately 1 minute, the Logtail configuration takes effect, and Simple Log Service starts to collect incremental logs.
 
@@ -4712,7 +4712,7 @@ Simple Log Service allows you to collect Apache logs and analyze logs from multi
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**. After approximately 1 minute, the Logtail configuration takes effect, and Simple Log Service starts to collect incremental logs.
 
@@ -4851,7 +4851,7 @@ The preceding Java application log starts with a datetime value. To ensure the a
 
 Figure 1. Full regex mode
 
-![](assets/bb27839ce6950af25f3b67a3cd55103b.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/bb27839ce6950af25f3b67a3cd55103b.png)
 
 **Extract log fields**
 
@@ -5584,12 +5584,12 @@ Logtail can collect container text logs and upload the logs together with contai
 
      | Parameter | Description |
      | --- | --- |
-     | Label Whitelist | The container label allowlist. The allowlist specifies the containers from which text logs are collected. If you want to configure the label allowlist, you must specify a value for the LabelKey parameter. You do not need to specify a value for the LabelValue parameter.<br>• If the LabelValue parameter is left empty, logs are collected from the containers whose label keys match the specified keys.<br>• If a value is specified for the LabelValue parameter, logs are collected from the containers whose labels include LabelKey=LabelValue.By default, the value of the LabelValue parameter is a string. Logs are collected from the containers whose labels<br>![](assets/95debc6e23de4fae431a1b9f62d0faca.png)<br>match the value of the LabelValue parameter. If you specify a value that starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>), logs are collected from the containers whose labels match the regular expression. For example, if you set the LabelKey parameter to <code>io.kubernetes.container.name</code> and set the LabelValue parameter to <code>^(nginxcube)$</code>, logs are collected from a container named nginx and a container named cube.Key-value pairs are in the logical OR relation. If a label in the key-value pair format of a container matches one of the specified key-value pairs, the logs of the container are collected. |
-     | Label Blacklist | The container label denylist. The denylist specifies the containers from which text logs are not collected. If you want to configure the label denylist, you must specify a value for the LabelKey parameter. You do not need to specify a value for the LabelValue parameter.<br>• If the LabelValue parameter is left empty, logs are not collected from the containers whose label keys match the specified keys.<br>• If a value is specified for the LabelValue parameter, logs are not collected from the containers whose labels include LabelKey=LabelValue.By default, the value of the LabelValue parameter is a string. Logs are not collected from the containers whose labels<br>![](assets/8c69fce2bed70dd03c07d0126d3fb146.png)<br>match the value of the LabelValue parameter. If you specify a value that starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>), logs are not collected from the containers whose labels match the regular expression. For example, if you set the LabelKey parameter to <code>io.kubernetes.container.name</code> and set the LabelValue parameter to <code>^(nginx&#124;cube)$</code>, logs are not collected from a container named nginx or a container named cube.Key-value pairs are in the logical OR relation. If a label in the key-value pair format of a container matches one of the specified key-value pairs, the logs of the container are not collected. |
-     | Environment Variable Whitelist | The environment variable allowlist. The allowlist specifies the containers from which text logs are collected. If you want to configure the environment variable allowlist, you must specify a value for the EnvKey parameter. You do not need to specify a value for the EnvValue parameter.<br>• If the EnvValue parameter is left empty, logs are collected from the containers whose environment variable keys match the specified keys.<br>• If a value is specified for the EnvValue parameter, logs are collected from the containers whose environment variables include EnvKey=EnvValue.By default, the value of the EnvValue parameter is a string. Logs are collected from the containers whose environment<br>![](assets/058ba8c250516cd395dee8425158e7fc.png)<br>variables match the value of the EnvValue parameter. If you specify a value that starts with a caret (<code> ^ </code>) and ends<br>![](assets/de439eb27d4fbb92b97f6cd8caa05242.png)<br>with a dollar sign (<code> $ </code>), logs are collected from the containers whose environment variables match the regular expression. For example, if you set the EnvKey parameter to <code>NGINX_SERVICE_PORT</code> and set the EnvValue parameter to <code>^(80&#124;6379)$</code>, logs are collected from containers whose port number is 80 and containers whose port number is 6379.<br>Key-value pairs are in the logical OR relation. If an environment variable in the key-value pair format of a container matches one of the specified key-value pairs, the logs of the container are collected. |
+     | Label Whitelist | The container label allowlist. The allowlist specifies the containers from which text logs are collected. If you want to configure the label allowlist, you must specify a value for the LabelKey parameter. You do not need to specify a value for the LabelValue parameter.<br>• If the LabelValue parameter is left empty, logs are collected from the containers whose label keys match the specified keys.<br>• If a value is specified for the LabelValue parameter, logs are collected from the containers whose labels include LabelKey=LabelValue.By default, the value of the LabelValue parameter is a string. Logs are collected from the containers whose labels<br>![](en-sls-user-guide-v3.18.3-20241030.assets/95debc6e23de4fae431a1b9f62d0faca.png)<br>match the value of the LabelValue parameter. If you specify a value that starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>), logs are collected from the containers whose labels match the regular expression. For example, if you set the LabelKey parameter to <code>io.kubernetes.container.name</code> and set the LabelValue parameter to <code>^(nginxcube)$</code>, logs are collected from a container named nginx and a container named cube.Key-value pairs are in the logical OR relation. If a label in the key-value pair format of a container matches one of the specified key-value pairs, the logs of the container are collected. |
+     | Label Blacklist | The container label denylist. The denylist specifies the containers from which text logs are not collected. If you want to configure the label denylist, you must specify a value for the LabelKey parameter. You do not need to specify a value for the LabelValue parameter.<br>• If the LabelValue parameter is left empty, logs are not collected from the containers whose label keys match the specified keys.<br>• If a value is specified for the LabelValue parameter, logs are not collected from the containers whose labels include LabelKey=LabelValue.By default, the value of the LabelValue parameter is a string. Logs are not collected from the containers whose labels<br>![](en-sls-user-guide-v3.18.3-20241030.assets/8c69fce2bed70dd03c07d0126d3fb146.png)<br>match the value of the LabelValue parameter. If you specify a value that starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>), logs are not collected from the containers whose labels match the regular expression. For example, if you set the LabelKey parameter to <code>io.kubernetes.container.name</code> and set the LabelValue parameter to <code>^(nginx&#124;cube)$</code>, logs are not collected from a container named nginx or a container named cube.Key-value pairs are in the logical OR relation. If a label in the key-value pair format of a container matches one of the specified key-value pairs, the logs of the container are not collected. |
+     | Environment Variable Whitelist | The environment variable allowlist. The allowlist specifies the containers from which text logs are collected. If you want to configure the environment variable allowlist, you must specify a value for the EnvKey parameter. You do not need to specify a value for the EnvValue parameter.<br>• If the EnvValue parameter is left empty, logs are collected from the containers whose environment variable keys match the specified keys.<br>• If a value is specified for the EnvValue parameter, logs are collected from the containers whose environment variables include EnvKey=EnvValue.By default, the value of the EnvValue parameter is a string. Logs are collected from the containers whose environment<br>![](en-sls-user-guide-v3.18.3-20241030.assets/058ba8c250516cd395dee8425158e7fc.png)<br>variables match the value of the EnvValue parameter. If you specify a value that starts with a caret (<code> ^ </code>) and ends<br>![](en-sls-user-guide-v3.18.3-20241030.assets/de439eb27d4fbb92b97f6cd8caa05242.png)<br>with a dollar sign (<code> $ </code>), logs are collected from the containers whose environment variables match the regular expression. For example, if you set the EnvKey parameter to <code>NGINX_SERVICE_PORT</code> and set the EnvValue parameter to <code>^(80&#124;6379)$</code>, logs are collected from containers whose port number is 80 and containers whose port number is 6379.<br>Key-value pairs are in the logical OR relation. If an environment variable in the key-value pair format of a container matches one of the specified key-value pairs, the logs of the container are collected. |
      | Environment Variable Blacklist | The environment variable denylist. The denylist specifies the containers from which text logs are not collected. If you want to configure the environment variable denylist, you must specify a value for the EnvKey parameter. You do not need to specify a value for the EnvValue parameter.<br>• If the EnvValue parameter is left empty, logs are not collected from the containers whose environment variable keys match the specified keys.<br>• If a value is specified for the EnvValue parameter, logs are not collected from the containers whose environment variables include EnvKey=EnvValue.By default, the value of the EnvValue parameter is a string. Logs are not collected from the containers whose environment variables match the value of the EnvValue parameter. If you specify a value that starts with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>), logs are not collected from the containers whose environment variables match the regular expression. For example, if you set the EnvKey parameter to <code>NGINX_SERVICE_PORT</code> and set the EnvValue parameter to <code>^(806379)$</code>, logs are not collected from containers whose port number is 80 or containers whose port number is 6379.Key-value pairs are in the logical OR relation. If an environment variable in the key-value pair format of a container matches one of the specified key-value pairs, the logs of the container are not collected. |
 
-     ![](assets/ab7e9c22b35a78373b0a93fc4eb339b0.png)
+     ![](en-sls-user-guide-v3.18.3-20241030.assets/ab7e9c22b35a78373b0a93fc4eb339b0.png)
 
    - For Logtail V1.0.29 or later, we recommend that you use different levels of Kubernetes information, such as pod names, namespaces, container names, and labels to filter containers.
 
@@ -5638,11 +5638,11 @@ Collect text logs from the containers whose environment variable configurations 
 
    To view the environment variables of a container, you can log on to the host on which the container resides.
 
-   ![](assets/6f9c3d8ee2887ff4d8d17e4a015d428f.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/6f9c3d8ee2887ff4d8d17e4a015d428f.png)
 
 2. Create a Logtail configuration. The following figure shows an example of a Logtail configuration. For more information about how to create a Logtail configuration that is used to collect logs in simple mode, see Collect logs in simple mode.
 
-   ![](assets/f4cc55a0e396cde98c798c73702da9f6.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/f4cc55a0e396cde98c798c73702da9f6.jpeg)
 
 Example 2: Filter containers based on the container label allowlist and the container label denylist
 
@@ -5652,11 +5652,11 @@ Collect text logs from the containers whose container label is  `io.kubernetes.c
 
    To view the labels of a container, you can log on to the host on which the container resides.
 
-   ![](assets/5de14e65d6fb634c53670793f1da4e00.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/5de14e65d6fb634c53670793f1da4e00.png)
 
 2. Create a Logtail configuration. The following figure shows an example of a Logtail configuration. For more information about how to create a Logtail configuration that is used to collect logs in simple mode, see Collect logs in simple mode.
 
-   ![](assets/a61d19ba1ff476b7edd78beaca8c3f11.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/a61d19ba1ff476b7edd78beaca8c3f11.png)
 
 Example 3: Filter containers by using Kubernetes namespaces, pod names, and container names
 
@@ -5666,15 +5666,15 @@ Collect text logs from the nginx-log-demo-0 container in pods whose names start 
 
    - Obtain information about pods.
 
-     ![](assets/4f8d75944551a1ca1baf66ff2e7ea85c.jpeg)
+     ![](en-sls-user-guide-v3.18.3-20241030.assets/4f8d75944551a1ca1baf66ff2e7ea85c.jpeg)
 
    - Obtain information about namespaces.
 
-     ![](assets/be117366fa867b9b16fadc79967aee27.jpeg)
+     ![](en-sls-user-guide-v3.18.3-20241030.assets/be117366fa867b9b16fadc79967aee27.jpeg)
 
 2. Create a Logtail configuration. For more information about how to create a Logtail configuration that is used to collect logs in simple mode, see Collect logs in simple mode.
 
-   ![](assets/ae5c725f4fb13f744f87f54f5ba3b6ef.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/ae5c725f4fb13f744f87f54f5ba3b6ef.png)
 
 Example 4: Filter containers by using Kubernetes labels
 
@@ -5682,11 +5682,11 @@ Collect text logs from containers whose Kubernetes labels contain the job-name k
 
 1. Obtain Kubernetes labels.
 
-   ![](assets/b57483ac1773df7032af8171b0bf2af8.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/b57483ac1773df7032af8171b0bf2af8.jpeg)
 
 2. Create a Logtail configuration. For more information about how to create a Logtail configuration that is used to collect logs in simple mode, see Collect logs in simple mode.
 
-   ![](assets/bb41308837a9e9dfb6951b07eb4d236e.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/bb41308837a9e9dfb6951b07eb4d236e.png)
 
 **Default fields**
 
@@ -5852,10 +5852,10 @@ When Logtail collects stdout and stderr from a container, Logtail periodically s
 
        | Parameter | Type | Required | Description |
        | --- | --- | --- | --- |
-       | IncludeLabel | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | The container label allowlist. The allowlist specifies the containers from which stdout and stderr are collected. By default, this parameter is not configured, which indicates that stdout and stderr are collected from all containers. When you configure the container label allowlist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If you leave the LabelValue parameter empty, containers whose container labels contain the keys specified by LabelKey are matched.<br>• If you specify a value for the LabelValue parameter, containers whose container labels consist of the key-value pair specified by LabelKey and LabelValue are matched.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the container labels are the same as the values of the LabelValue parameter. If you specify a value that starts<br>![](assets/abb2742eda289382f5645ffa240fa8bc.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the LabelValue parameter, regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>io.kubernetes.container.name</code> and set the <strong>LabelValue</strong> parameter to <code>^(nginx&#124;cube)$</code>, a container named nginx and a container named cube are matched.Key-value pairs are connected by using the OR operator. If a container label consists of one of the specified key-value pairs, the container to which the container label belongs is matched. |
-       | ExcludeLabel | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | The container label denylist. The denylist specifies the containers from which stdout and stderr are not collected. By default, this parameter is not configured, which indicates that stdout and stderr are collected from all containers. When you configure the container label denylist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If you leave the LabelValue parameter empty, containers whose container labels contain the keys specified by LabelKey are filtered out.<br>• If you specify a value for the LabelValue parameter, containers whose container labels consist of the key-value pair specified by LabelKey and LabelValue are filtered out.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the container labels are the same as the values of the LabelValue parameter. If you specify a value that starts<br>![](assets/f140863bd09501c0f1d7c6792839d08d.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the LabelValue parameter, regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>io.kubernetes.container.name</code> and set the <strong>LabelValue</strong> parameter to <code>^(nginx&#124;cube)$</code>, a container named nginx and a container named cube are matched.Key-value pairs are connected by using the OR operator. If a container label consists of one of the specified key-value pairs, the container to which the container label belongs is filtered out. |
-       | IncludeEnv | Map (The values of the EnvKey and EnvValue parameters are strings.) | No | The environment variable allowlist. The allowlist specifies the containers from which stdout and stderr are collected. By default, this parameter is not configured, which indicates that stdout and stderr are collected from all containers. When you configure the environment variable allowlist, the EnvKey parameter is required, and the EnvValue parameter is optional.<br>• If you leave the EnvValue parameter empty, containers whose environment variables contain the keys specified by EnvKey are matched.<br>• If you specify a value for the EnvValue parameter, containers whose environment variables consist of the key-value pair specified by EnvKey and EnvValue are matched.By default, string matching is performed for the values of the EnvValue parameter.Containers are matched only if the values of the environment variables are the same as the values of the EnvValue parameter. If you specify a value that starts<br>![](assets/7a8ff831bd850916b30c8175e640aaf6.png)<br>![](assets/14d828de61bb1147e497862339fa6f19.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the EnvValue parameter, regular expression matching is performed. For example, if you set the <strong>EnvKey</strong> parameter to <code>NGINX_SERVICE_PORT</code> and set the <strong>EnvValue</strong> parameter to <code>^(80&#124;6379)$</code>, containers whose port number is 80 and containers whose port number is 6379 are matched.Key-value pairs are connected by using the OR operator. If an environment variable consists of one of the specified key-value pairs, the container to which the environment variable belongs is matched. |
-       | ExcludeEnv | Map (The values of the EnvKey and EnvValue parameters are strings.) | No | The environment variable denylist. The denylist specifies the containers from which stdout and stderr are not collected. By default, this parameter is not configured, which indicates that stdout and stderr are collected from all containers. When you configure the environment variable denylist, the EnvKey parameter is required, and the EnvValue parameter is optional.<br>• If you leave the EnvValue parameter empty, containers whose environment variables contain the keys specified by EnvKey are filtered out.<br>• If you specify a value for the EnvValue parameter, containers whose environment variables consist of the key-value pair specified by EnvKey and EnvValue are filtered out.By default, string matching is performed for the values of the EnvValue parameter.Containers are matched only if the values of the environment variables are the same as the values of the EnvValue parameter. If you specify a value that starts<br>![](assets/10584c897d8a8971ef5e94d3661ebc38.png)<br>![](assets/244d17134394975301013f1ff813a223.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the EnvValue parameter, regular expression matching is performed. For example, if you set the <strong>EnvKey</strong> parameter to <code>NGINX_SERVICE_PORT</code> and set the <strong>EnvValue</strong> parameter to <code>^(80&#124;6379)$</code>, containers whose port number is 80 and containers whose port number is 6379 are matched.Key-value pairs are connected by using the OR operator. If an environment variable consists of one of the specified key-value pairs, the container to which the environment variable belongs is filtered out. |
+       | IncludeLabel | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | The container label allowlist. The allowlist specifies the containers from which stdout and stderr are collected. By default, this parameter is not configured, which indicates that stdout and stderr are collected from all containers. When you configure the container label allowlist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If you leave the LabelValue parameter empty, containers whose container labels contain the keys specified by LabelKey are matched.<br>• If you specify a value for the LabelValue parameter, containers whose container labels consist of the key-value pair specified by LabelKey and LabelValue are matched.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the container labels are the same as the values of the LabelValue parameter. If you specify a value that starts<br>![](en-sls-user-guide-v3.18.3-20241030.assets/abb2742eda289382f5645ffa240fa8bc.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the LabelValue parameter, regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>io.kubernetes.container.name</code> and set the <strong>LabelValue</strong> parameter to <code>^(nginx&#124;cube)$</code>, a container named nginx and a container named cube are matched.Key-value pairs are connected by using the OR operator. If a container label consists of one of the specified key-value pairs, the container to which the container label belongs is matched. |
+       | ExcludeLabel | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | The container label denylist. The denylist specifies the containers from which stdout and stderr are not collected. By default, this parameter is not configured, which indicates that stdout and stderr are collected from all containers. When you configure the container label denylist, the LabelKey parameter is required, and the LabelValue parameter is optional.<br>• If you leave the LabelValue parameter empty, containers whose container labels contain the keys specified by LabelKey are filtered out.<br>• If you specify a value for the LabelValue parameter, containers whose container labels consist of the key-value pair specified by LabelKey and LabelValue are filtered out.By default, string matching is performed for the values of the LabelValue parameter. Containers are matched only if the values of the container labels are the same as the values of the LabelValue parameter. If you specify a value that starts<br>![](en-sls-user-guide-v3.18.3-20241030.assets/f140863bd09501c0f1d7c6792839d08d.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the LabelValue parameter, regular expression matching is performed. For example, if you set the <strong>LabelKey</strong> parameter to <code>io.kubernetes.container.name</code> and set the <strong>LabelValue</strong> parameter to <code>^(nginx&#124;cube)$</code>, a container named nginx and a container named cube are matched.Key-value pairs are connected by using the OR operator. If a container label consists of one of the specified key-value pairs, the container to which the container label belongs is filtered out. |
+       | IncludeEnv | Map (The values of the EnvKey and EnvValue parameters are strings.) | No | The environment variable allowlist. The allowlist specifies the containers from which stdout and stderr are collected. By default, this parameter is not configured, which indicates that stdout and stderr are collected from all containers. When you configure the environment variable allowlist, the EnvKey parameter is required, and the EnvValue parameter is optional.<br>• If you leave the EnvValue parameter empty, containers whose environment variables contain the keys specified by EnvKey are matched.<br>• If you specify a value for the EnvValue parameter, containers whose environment variables consist of the key-value pair specified by EnvKey and EnvValue are matched.By default, string matching is performed for the values of the EnvValue parameter.Containers are matched only if the values of the environment variables are the same as the values of the EnvValue parameter. If you specify a value that starts<br>![](en-sls-user-guide-v3.18.3-20241030.assets/7a8ff831bd850916b30c8175e640aaf6.png)<br>![](en-sls-user-guide-v3.18.3-20241030.assets/14d828de61bb1147e497862339fa6f19.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the EnvValue parameter, regular expression matching is performed. For example, if you set the <strong>EnvKey</strong> parameter to <code>NGINX_SERVICE_PORT</code> and set the <strong>EnvValue</strong> parameter to <code>^(80&#124;6379)$</code>, containers whose port number is 80 and containers whose port number is 6379 are matched.Key-value pairs are connected by using the OR operator. If an environment variable consists of one of the specified key-value pairs, the container to which the environment variable belongs is matched. |
+       | ExcludeEnv | Map (The values of the EnvKey and EnvValue parameters are strings.) | No | The environment variable denylist. The denylist specifies the containers from which stdout and stderr are not collected. By default, this parameter is not configured, which indicates that stdout and stderr are collected from all containers. When you configure the environment variable denylist, the EnvKey parameter is required, and the EnvValue parameter is optional.<br>• If you leave the EnvValue parameter empty, containers whose environment variables contain the keys specified by EnvKey are filtered out.<br>• If you specify a value for the EnvValue parameter, containers whose environment variables consist of the key-value pair specified by EnvKey and EnvValue are filtered out.By default, string matching is performed for the values of the EnvValue parameter.Containers are matched only if the values of the environment variables are the same as the values of the EnvValue parameter. If you specify a value that starts<br>![](en-sls-user-guide-v3.18.3-20241030.assets/10584c897d8a8971ef5e94d3661ebc38.png)<br>![](en-sls-user-guide-v3.18.3-20241030.assets/244d17134394975301013f1ff813a223.png)<br>with a caret (<code> ^ </code>) and ends with a dollar sign (<code> $ </code>) for the EnvValue parameter, regular expression matching is performed. For example, if you set the <strong>EnvKey</strong> parameter to <code>NGINX_SERVICE_PORT</code> and set the <strong>EnvValue</strong> parameter to <code>^(80&#124;6379)$</code>, containers whose port number is 80 and containers whose port number is 6379 are matched.Key-value pairs are connected by using the OR operator. If an environment variable consists of one of the specified key-value pairs, the container to which the environment variable belongs is filtered out. |
 
      - For Logtail V1.0.29 or later, we recommend that you use different levels of Kubernetes information, such as pod names, namespaces, container names, and labels to filter containers.
 
@@ -5879,7 +5879,7 @@ When Logtail collects stdout and stderr from a container, Logtail periodically s
 
      | Parameter | Type | Required | Description |
      | --- | --- | --- | --- |
-     | ExternalEnvTag | Map (The values of the EnvKey and EnvValue parameters are strings.) | No | After you specify environment variables as log labels, Log Service adds environment variable-related fields to logs. For example, if you set the <strong>EnvKey</strong> parameter to<br>![](assets/d379bd4fd366140491c8cdc9f1a0384c.png)<br><code>VERSION</code> and set the <strong>EnvValue</strong> parameter to <code>env_version</code>, Log Service adds the <strong>__tag__:__env_version__: v1.0.0</strong> field to logs if the environment variable configurations of a container include <code> VERSION=v1.0.0 </code>. |
+     | ExternalEnvTag | Map (The values of the EnvKey and EnvValue parameters are strings.) | No | After you specify environment variables as log labels, Log Service adds environment variable-related fields to logs. For example, if you set the <strong>EnvKey</strong> parameter to<br>![](en-sls-user-guide-v3.18.3-20241030.assets/d379bd4fd366140491c8cdc9f1a0384c.png)<br><code>VERSION</code> and set the <strong>EnvValue</strong> parameter to <code>env_version</code>, Log Service adds the <strong>__tag__:__env_version__: v1.0.0</strong> field to logs if the environment variable configurations of a container include <code> VERSION=v1.0.0 </code>. |
      | ExternalK8sLabelT ag | Map (The values of the LabelKey and LabelValue parameters are strings.) | No | After you specify Kubernetes labels as log labels, Log Service adds Kubernetes label-related fields to logs. For example, if you set the <strong>LabelKey</strong> parameter to <code>app</code> and set the <strong>LabelValue</strong> parameter to <code> k8s_label_app </code>, Log Service adds the <strong>__tag__:__k8s_label_app__: serviceA</strong> field to logs if the label configurations of a Kubernetes cluster include <code> app=serviceA </code>. |
 
    - Other parameters
@@ -6258,7 +6258,7 @@ You can view Logtail configurations in the Log Service console or by using CRDs.
 
 You can run the  `kubectl get aliyunlogconfigs`  command to view all Logtail configurations. The following figure shows the output.
 
-![](assets/95665c3825e69ec5a90bbbf8844d9b71.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/95665c3825e69ec5a90bbbf8844d9b71.png)
 
 **View the details and status of a Logtail configuration**
 
@@ -6270,7 +6270,7 @@ The **status** and **statusCode** parameters in the output indicate the status o
 
 - If the value of the **statusCode** parameter is not 200, the Logtail configuration fails to be applied.
 
-![](assets/b8ab3af4448ac3b7207a94f47a9b0d60.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/b8ab3af4448ac3b7207a94f47a9b0d60.png)
 
 **Examples of Logtail configurations that are used to collect stdout and stderr logs**
 
@@ -6379,7 +6379,7 @@ Collect the access logs of Grafana from containers in simple mode and parse the 
 
 - Parsed log
 
-  ![](assets/50e6d2f9b4fc10c0c281f403edfd6227.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/50e6d2f9b4fc10c0c281f403edfd6227.png)
 
 **Examples of Logtail configurations that are used to collect text logs**
 
@@ -6481,7 +6481,7 @@ A Java program generates a multi-line log that contains error stack information.
 
 - Collected log
 
-  ![](assets/128c4f023aa7aea5f48c409522bbc906.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/128c4f023aa7aea5f48c409522bbc906.png)
 
 **Example 3: Collect container text logs in delimiter mode**
 
@@ -7435,7 +7435,7 @@ In Sidecar mode, the Logtail container shares a log directory with an applicatio
 
 3. In the left-side navigation pane, choose **Resources > Machine Groups**.
 
-4. In the **Machine Groups** list, choose <img src="assets/0b5e1caccbc341bd8512303adbe51128.png" width="6" alt=""> **> Create Machine Group**.
+4. In the **Machine Groups** list, choose <img src="en-sls-user-guide-v3.18.3-20241030.assets/0b5e1caccbc341bd8512303adbe51128.png" width="6" alt=""> **> Create Machine Group**.
 
 5. In the **Create Machine Group** panel, configure the parameters and click **OK**. The following table describes the parameters.
 
@@ -7728,7 +7728,7 @@ Compared with basic log file collection, Docket file collection by using Logtail
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. The following table describes the specific parameters of data sources. For information about common parameters, see Configure text log collection.
 
@@ -7764,11 +7764,11 @@ Compared with basic log file collection, Docket file collection by using Logtail
 
   Collect the logs of the containers whose environment variables include  `NGINX_PORT_80_TCP_PORT=80`  and exclude  `POD_NAMESPACE=kube-system` . The log file path is  `/var/log/nginx/access.log`  and logs are parsed in simple mode.
 
-  ![](assets/c6792ff07dd3ecd737a3e33110881fd9.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/c6792ff07dd3ecd737a3e33110881fd9.png)
 
 - Configure labels Collect the logs of the containers whose container labels include  `io.kubernetes.container.name=nginx` . The log file path is  `/var/log/nginx/access.log`  and logs are parsed in simple mode.
 
-  ![](assets/5de14e65d6fb634c53670793f1da4e00.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/5de14e65d6fb634c53670793f1da4e00.png)
 
 **Default fields**
 
@@ -7821,7 +7821,7 @@ As shown in the following figure, Logtail communicates with the domain socket of
 
 When Logtail collects the stdout logs of a container, Logtail records information about log file positions to the checkpoint file at regular intervals. If Logtail is restarted, Logtail collects logs from the last log file position.
 
-![](assets/f07dbe0784b7c6cc8f7ef3425bc4eaae.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/f07dbe0784b7c6cc8f7ef3425bc4eaae.jpeg)
 
 **Limits**
 
@@ -7885,7 +7885,7 @@ When Logtail collects the stdout logs of a container, Logtail records informatio
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Configure a data source.
 
@@ -7995,7 +7995,7 @@ The type of the input source is  `service_docker_stdout` .
 
   Figure 1. Environment configuration example
 
-  ![](assets/5aba6adbb5ee458b560f851b8c7895ee.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/5aba6adbb5ee458b560f851b8c7895ee.png)
 
   Collection configuration
 
@@ -8029,7 +8029,7 @@ The type of the input source is  `service_docker_stdout` .
 
   Figure 2. Label configuration example
 
-  ![](assets/d8369bd8fcb63a278d30766570d7d7d8.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/d8369bd8fcb63a278d30766570d7d7d8.png)
 
   ```json
   {
@@ -8162,7 +8162,7 @@ This topic describes how to use Logtail to collect standard Docker logs and uplo
 
 Figure 1. Procedure
 
-![](assets/b372b5c3b11281cbbec51f605dc754fb.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/b372b5c3b11281cbbec51f605dc754fb.png)
 
 1. Deploy a Logtail container.
 
@@ -8404,7 +8404,7 @@ Logtail enables communication between master and slave MySQL servers. The proces
 
 3. Logtail parses and filters binary logs, and then uploads the results to Log Service.
 
-![](assets/80bcd06a541afcec09267b3e36647c98.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/80bcd06a541afcec09267b3e36647c98.jpeg)
 
 **Scenarios**
 
@@ -8565,7 +8565,7 @@ Synchronize data from tables whose names do not end with  `_inner`  in the  `use
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Configure the data source. Set the Config Name and Plug-in Config fields. In the **Plug-in Config** field, modify the parameter settings in the default configuration template based on your business requirements.
 
@@ -8826,7 +8826,7 @@ Supports MySQL databases such as ApsaraDB RDS for MySQL. When you collect data, 
 
 Logtail executes the specified SELECT statement at a regular interval based on the Logtail configurations, and then uploads the query results to Log Service.
 
-![](assets/79734ae0793c9f8460edf5e300e387a3.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/79734ae0793c9f8460edf5e300e387a3.png)
 
 When Logtail obtains a query result, Logtail saves the value of the CheckPoint field in the on-premises server. The next time Logtail executes the SELECT statement, Logtail adds the saved value of the CheckPoint field to the SELECT statement. This way, Logtail collects the incremental data of MySQL databases.
 
@@ -8898,7 +8898,7 @@ The following procedure describes how to synchronize incremental data from a MyS
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Configure the data source.
 
@@ -9027,7 +9027,7 @@ On a Linux server, local syslogs can be forwarded to the IP address and port of 
 
 After the syslog plug-ins start to listen on a specified IP address and port, Logtail can act as a syslog server to collect syslogs from various data sources. These syslogs include system logs collected by rsyslog, access or error logs forwarded by NGINX, and logs forwarded by syslog clients in languages such as Java.
 
-![](assets/22f3156977bd9acae4fe4d6fb123f080.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/22f3156977bd9acae4fe4d6fb123f080.png)
 
 **Logtail parameters**
 
@@ -9102,7 +9102,7 @@ The following table describes Logtail parameters. The type of the input is  `ser
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 8. Configure the data source. Set **Config Name** and **Plug-in Config**.
 
@@ -9181,7 +9181,7 @@ The following figure shows how collected data is processed.
 
 Figure 1. Implementation
 
-![](assets/059fa33c7d46324818103d5b3aa31b01.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/059fa33c7d46324818103d5b3aa31b01.png)
 
 **Plug-in elements**
 
@@ -10254,7 +10254,7 @@ You can use the Log Service console or an SDK to enable the web tracking feature
 
   **> Modify**.
 
-  <img src="assets/648e9b2b7e591cc17fbab340b6923edc.png" width="11" alt="">
+  <img src="en-sls-user-guide-v3.18.3-20241030.assets/648e9b2b7e591cc17fbab340b6923edc.png" width="11" alt="">
 
   </li>
 
@@ -10855,7 +10855,7 @@ Common Python logs and the corresponding regular expressions:
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration.
 
@@ -10895,7 +10895,7 @@ Common Python logs and the corresponding regular expressions:
 
    Select fields to generate a regular expression If the regular expression that is automatically generated does not match your sample log, you can select fields in the sample log to generate a regular expression. Log Service can automatically parse the highlighted fields of the sample log to generate a regular expression. In the **Log Sample** field, select the required fields, and click **Generate Regular Expression**. The regular expression of the selected field is displayed in the **RegEx** field. To obtain a full regular expression for the sample log, generate regular expressions for each log field.
 
-   ![](assets/b6cf7edf8de82fc248f92ba0e9bb47ee.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/b6cf7edf8de82fc248f92ba0e9bb47ee.png)
 
    </li>
 
@@ -10927,7 +10927,7 @@ Common Python logs and the corresponding regular expressions:
 
    Confirm **the extraction results of log fields**. View the extraction results of log fields and specify keys for the extracted fields. Specify an informative name for each log field in the extraction results. For example, time as the name for a time field. If you do not use the system time, you must specify the name of a time field in the Value fields and time in the Key field.
 
-   ![](assets/a02dcb57157542632887623570e5c65c.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/a02dcb57157542632887623570e5c65c.png)
 
    </li>
 
@@ -11550,13 +11550,13 @@ Zabbix stores monitoring data on the machine on which Zabbix is installed. To sp
    >
    > If you apply a machine group immediately after you create the machine group, the heartbeat status of the machine group may be **FAIL**. This issue occurs because the machine group is not connected to Simple Log Service. To resolve the issue, you can click **Automatic Retry**. If the status is still **FAIL**, see What do I do if a Logtail machine group has no heartbeats?
 
-   ![](assets/d09754bf254028062631368cf386ee15.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d09754bf254028062631368cf386ee15.png)
 
 6. Create a Logtail configuration. Then, click **Next**.
 
    Zabbix monitoring data is of the JSON type. We recommend that you set the Mode parameter to JSON Mode in the Logtail configuration. You must set the **Log Path** parameter to the data storage path that you specify in Step 1. For more information about other parameters, see Collect logs in JSON mode.
 
-   ![](assets/f04505acb41279e186d132ad6b9f5df1.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/f04505acb41279e186d132ad6b9f5df1.png)
 
 7. Configure indexes for query and analysis. After you complete the settings, click **Next**.
 
@@ -11787,7 +11787,7 @@ This topic describes the reserved fields of Log Service.
 | <code>__raw_log__</code> | The value is a string. | You must create and configure an index of the text type for this field and enable the log analysis feature based on your business requirements. | The raw log that fails to be parsed. If you turn off Drop Failed to Parse Logs, Logtail uploads raw logs that fail to be parsed. The key of this field is <code> __raw_log__ </code>, and the value of this field is the log content. You can use this field to ship, query, analyze, and consume logs. |
 | <code>__raw__</code> | The value is a string. | You must create and configure an index of the text type for this field and enable the log analysis feature based on your business requirements. | The raw log that is parsed. If you turn on Upload Raw Log, Logtail uploads the raw logs as the <code> __raw__ </code>field together with the parsed logs. You can use this field in log audit and compliance check scenarios. You can use this field to ship, query, analyze, and consume logs. |
 
-![](assets/6ce810930c2c602afa161a3e43713346.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/6ce810930c2c602afa161a3e43713346.png)
 
 <a id="section-4-4"></a>
 
@@ -11932,7 +11932,7 @@ You can view the query and analysis results in a log distribution histogram, on 
 
   - Quick analysis: You can use this feature to analyze the distribution of a field within a specific time range. For more information, see Quick analysis.
 
-  - Contextual query: You can click the <img src="assets/52fe6d183dc197bb61ace6925d888dcd.png" width="12" alt=""> icon of a log and select **Context View** to view the context of the log. For more information, see Contextual
+  - Contextual query: You can click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/52fe6d183dc197bb61ace6925d888dcd.png" width="12" alt=""> icon of a log and select **Context View** to view the context of the log. For more information, see Contextual
 
     query.
 
@@ -11940,7 +11940,7 @@ You can view the query and analysis results in a log distribution histogram, on 
     >
     > You can use the contextual query feature only on the logs that are collected by Logtail.
 
-  - LiveTail: On the **Raw Data** tab, you can find a log and click the <img src="assets/bef140b6338240bd4fb50bef2e1fa815.png" width="9" alt=""> icon to monitor logs in real time and extract important information from the logs.
+  - LiveTail: On the **Raw Data** tab, you can find a log and click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/bef140b6338240bd4fb50bef2e1fa815.png" width="9" alt=""> icon to monitor logs in real time and extract important information from the logs.
 
     For more information, see LiveTail.
 
@@ -11950,7 +11950,7 @@ You can view the query and analysis results in a log distribution histogram, on 
 
   - Log download: You can click the download icon, select a method, and then click **OK** to download logs. For more information, see Download logs.
 
-  - Column settings: You can click the <img src="assets/cf12edde99256a4eaa27bbfd24822d61.png" width="12" alt=""> icon and select **Column Settings** to specify the columns that you want to display in the table. The column
+  - Column settings: You can click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/cf12edde99256a4eaa27bbfd24822d61.png" width="12" alt=""> icon and select **Column Settings** to specify the columns that you want to display in the table. The column
 
     names are field names, and the column content is field values.
 
@@ -11958,11 +11958,11 @@ You can view the query and analysis results in a log distribution histogram, on 
     >
     > To view log content on the Table tab, select **Content**.
 
-  - JSON settings: You can click the <img src="assets/cf12edde99256a4eaa27bbfd24822d61.png" width="12" alt=""> icon and select **JSON Configurations** to configure JSON settings.
+  - JSON settings: You can click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/cf12edde99256a4eaa27bbfd24822d61.png" width="12" alt=""> icon and select **JSON Configurations** to configure JSON settings.
 
-  - Tag settings: On the **Raw Data** tab, you can click the <img src="assets/cf12edde99256a4eaa27bbfd24822d61.png" width="12" alt=""> icon and select **Tag Configurations** to hide fields that are less important.
+  - Tag settings: On the **Raw Data** tab, you can click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/cf12edde99256a4eaa27bbfd24822d61.png" width="12" alt=""> icon and select **Tag Configurations** to hide fields that are less important.
 
-    ![](assets/6c5b1b5640fb3d2e171adb4a4e0e2492.png)
+    ![](en-sls-user-guide-v3.18.3-20241030.assets/6c5b1b5640fb3d2e171adb4a4e0e2492.png)
 
 - Graph tab
 
@@ -12000,13 +12000,13 @@ Log Service allows you to download logs or query and analysis results to your on
 
    icon next to the name of the Logstore whose logs you want to download and select **Search & Analysis**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. On the **Raw Logs** tab, click the
 
    icon.
 
-   <img src="assets/608ccece8e0ec6e8114eca14ae17ef06.png" width="13" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/608ccece8e0ec6e8114eca14ae17ef06.png" width="13" alt="">
 
 5. In the **Log Download** dialog box, select a download method and complete the download as prompted.
 
@@ -12064,7 +12064,7 @@ The Dedicated SQL feature is suitable for the following scenarios:
 
 Log Service supports the following methods to enable the Dedicated SQL feature:
 
-- Enable once: When you execute a query statement in a Logstore, click the <img src="assets/033316a695d52514a497a453b65c7f9f.png" width="15" alt=""> icon. The Dedicated SQL feature takes effect only on the query
+- Enable once: When you execute a query statement in a Logstore, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/033316a695d52514a497a453b65c7f9f.png" width="15" alt=""> icon. The Dedicated SQL feature takes effect only on the query
 
   statements that you execute in the current Logstore.
 
@@ -12082,7 +12082,7 @@ Log Service supports the following methods to enable the Dedicated SQL feature:
 
    icon.
 
-   <img src="assets/033316a695d52514a497a453b65c7f9f.png" width="15" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/033316a695d52514a497a453b65c7f9f.png" width="15" alt="">
 
    After you enable the Dedicated SQL feature, you can use the feature to query and analyze log data by using SQL statements. For more information, see Query and analyze logs.
 
@@ -12096,7 +12096,7 @@ Log Service supports the following methods to enable the Dedicated SQL feature:
 
    icon.
 
-   <img src="assets/7bfd8abf26fbdbcb4afd989ebbbb1ab1.png" width="13" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/7bfd8abf26fbdbcb4afd989ebbbb1ab1.png" width="13" alt="">
 
 4. Move the pointer over the **CUs of SQL-dedicated Instance** parameter and click **Modify**.
 
@@ -12347,7 +12347,7 @@ You can set indexes for the log as follows:
 
 Figure 1. Set an index
 
-![](assets/69550748f7023d803525151b37af31a4.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/69550748f7023d803525151b37af31a4.png)
 
 In the preceding figure:
 
@@ -12533,7 +12533,7 @@ For example, you can classify log entries into multiple topics based on domain n
 
 Figure 1. Log topics
 
-![](assets/2aab5fd75d818704f51c024ef8202c9f.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/2aab5fd75d818704f51c024ef8202c9f.png)
 
 Syntax of topic-specific search:
 
@@ -12579,7 +12579,7 @@ In online O&M scenarios, you often need to monitor collected log data in real ti
 
    icon next to the name of the Logstore, and then select **Search & Analysis**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. <strong>Optional:</strong>Start LiveTail.
 
@@ -12591,11 +12591,11 @@ In online O&M scenarios, you often need to monitor collected log data in real ti
 
    icon next to the sequence number of the specified raw log entry, and then select **LiveTail**.
 
-   <img src="assets/285d30c80a7f5fcbae5429886d64a1d0.png" width="11" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/285d30c80a7f5fcbae5429886d64a1d0.png" width="11" alt="">
 
    The system starts LiveTail and starts timing. The **Source Type**, **Machine Name**, and **File Name** fields are automatically filled in based on the specified raw log entry. After LiveTail is started, log data collected by Logtail is displayed in order on the page in real time. The latest log data is displayed at the bottom of the page by default. You can view the latest log data without the need to drag the scroll bar. Up to 1,000 log entries can be displayed on the page. If more than 1,000 log entries are collected, the page is automatically refreshed to show the latest 1,000 log entries.
 
-   ![](assets/5129661ad124613dcdea491fd7cc7b10.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/5129661ad124613dcdea491fd7cc7b10.png)
 
    </li>
 
@@ -12615,7 +12615,7 @@ In online O&M scenarios, you often need to monitor collected log data in real ti
 
    On the Search & Analysis page, click the **LiveTail** tab.
 
-   ![](assets/6548ce5b73fa1c1eb7792b91fc6e88b2.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/6548ce5b73fa1c1eb7792b91fc6e88b2.png)
 
    </li>
 
@@ -12656,23 +12656,23 @@ After you stop LiveTail, real-time log updates in the log monitoring list also s
 
   Log fields are delimited. You can click the value of the specified exception field on the **LiveTail** tab. Then, you are automatically forwarded to the **Raw logs** tab and the value of the exception field is used as a keyword to filter all log entries that contain the field and the keyword. You can also analyze log entries that contain the keyword based on contextual queries and statistical charts.
 
-  ![](assets/42cafd450d44e3c842449a92f9104820.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/42cafd450d44e3c842449a92f9104820.png)
 
 - Narrow down the time range of a log query based on the log distribution histogram
 
   After LiveTail is started, the log distribution histogram is updated at the same time. If you find a distribution exception (for example, a big increase in the number of log entries) in a time range, you can click the corresponding green rectangle to narrow down the time range of the log query. The timeline of the raw logs is associated with the timeline that you click on the LiveTail tab. You can view all relevant raw logs and log distribution details during this time range.
 
-  ![](assets/16a3b4de84a5f364c45edc2bf58f3e6d.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/16a3b4de84a5f364c45edc2bf58f3e6d.png)
 
 - Highlight key information based on column settings
 
   On the **LiveTail** tab, click **Column Settings** in the upper-right corner of the log monitoring list. Then, you can specify a field as a separate column to highlight relevant data.
 
-  ![](assets/2cbbce11555ce9a498ded7df9ea318ba.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/2cbbce11555ce9a498ded7df9ea318ba.png)
 
 - Analyze log data On the **LiveTail** tab, click the arrow in the upper-left corner of the log monitoring list to show the Quick Analysis pane. The time range for quick analysis starts from the time when LiveTail is started and ends at the time when LiveTail is stopped. The quick analysis provided on the LiveTail tab is the same as that provided on the Raw Logs tab. For more information, see Quick analysis.
 
-  ![](assets/04b484d2eefe52ac04c935a16ea3e98b.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/04b484d2eefe52ac04c935a16ea3e98b.png)
 
 <a id="section-4-9-3"></a>
 
@@ -12710,7 +12710,7 @@ By default, the LogReduce feature is disabled.
 
    icon next to the name of the Logstore that you want to manage, and then select **Search & Analysis**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. Enable the LogReduce feature.
 
@@ -12798,7 +12798,7 @@ On the **LogReduce** tab, you can adjust the **Pattern Count** slider to change 
 
    For example, if you set the time range to 15 minutes when you query logs and specify **1Day** for **Log Compare**, the start time and end time of log comparison are automatically displayed. The time ranges for comparison are the previous 15 minutes and the 15 minutes on the previous day.
 
-   ![](assets/d1689ea8f168a6533ba2426a5a75ade1.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/d1689ea8f168a6533ba2426a5a75ade1.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -12913,7 +12913,7 @@ In Log Service, the O&M engineers can perform the following steps to locate the 
 
 3. After you find the log, scroll up until other related logs are found, for example, a log that records a credit card payment failure.
 
-![](assets/6f8446a3b346d1f92f141169f36ef327.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/6f8446a3b346d1f92f141169f36ef327.png)
 
 > **Note**
 >
@@ -12939,7 +12939,7 @@ In Log Service, the O&M engineers can perform the following steps to locate the 
 
    icon next to the name of the Logstore in which you want to perform contextual queries, and then select **Search & Analysis**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. Enter a query statement in the search box, specify a time range, and then click **Search & Analyze**.
 
@@ -12947,7 +12947,7 @@ In Log Service, the O&M engineers can perform the following steps to locate the 
 
    icon.
 
-   <img src="assets/219d71d4bcf06383ed0948be6528e1b1.png" width="14" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/219d71d4bcf06383ed0948be6528e1b1.png" width="14" alt="">
 
 6. On the page that appears, scroll up and down to view the contextual logs.
 
@@ -12959,7 +12959,7 @@ In Log Service, the O&M engineers can perform the following steps to locate the 
 
    - To filter logs by string, enter strings in the **Filter By** field. The Context View section displays only the logs that contain the specified strings.
 
-   ![](assets/b5947f45e3f84765beef2b4e9b852f5a.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/b5947f45e3f84765beef2b4e9b852f5a.png)
 
 <a id="section-4-9-5"></a>
 
@@ -12987,17 +12987,17 @@ You can also use the saved search in alert rules. Log Service periodically execu
 
    icon next to the name of the Logstore in which you want to query and analyze data, and then select **Search & Analysis**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. Enter a query statement in the search box, specify a time range, and then click **Search & Analytics**.
 
 5. In the upper-right corner of the page, click **Save Search**.
 
-   ![](assets/e29f1b5afc121e21b28c644ed20def31.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/e29f1b5afc121e21b28c644ed20def31.png)
 
 6. In the **Saved Search Details** panel, set the required parameters. The following table describes the parameters.
 
-   ![](assets/ff892330ec5af43bd7a91d378442b7f9.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/ff892330ec5af43bd7a91d378442b7f9.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -13010,7 +13010,7 @@ You can also use the saved search in alert rules. Log Service periodically execu
 
 In the left-side navigation pane, click the Saved Search icon. In the Saved Search list, click the saved search that you want to modify. Enter a new query statement in the search box, click **Search & Analytics**, and then click **Modify Saved Search**. In the **Saved Search Details** panel, modify the settings and click OK.
 
-![](assets/81c87c50d23808a694391e253b82dda1.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/81c87c50d23808a694391e253b82dda1.png)
 
 <a id="section-4-9-6"></a>
 
@@ -13052,13 +13052,13 @@ Indexes are configured and the analysis feature is enabled for specified fields.
 
 4. On the **Raw Logs** tab, click the field that you want to analyze in the **Quick Analysis** column.
 
-   ![](assets/646c05de41089b799e7c2e15c9e07cca.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/646c05de41089b799e7c2e15c9e07cca.png)
 
    - Provide grouping statistics for fields of the TEXT type and approximate distribution histogram-based statistics for fields of the LONG and DOUBLE type. For more information, see Text type or Long and double types.
 
    - Provide query statements.
 
-     Click the <img src="assets/2a461e238298fb5977f6eddf69ce09f5.png" width="8" alt=""> icon next to the destination field. You are redirected to the **Graph** tab. A query statement for grouping statistics is provided in the
+     Click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/2a461e238298fb5977f6eddf69ce09f5.png" width="8" alt=""> icon next to the destination field. You are redirected to the **Graph** tab. A query statement for grouping statistics is provided in the
 
      search box.
 
@@ -13068,7 +13068,7 @@ Indexes are configured and the analysis feature is enabled for specified fields.
 
    - Display field names or aliases
 
-     Click the <img src="assets/4b469a32c54134cc0e625fe6b75280b3.png" width="10" alt=""> icon to specify whether to display field names or aliases. Aliases can be set when you configure indexes. For example, if you set the
+     Click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/4b469a32c54134cc0e625fe6b75280b3.png" width="10" alt=""> icon to specify whether to display field names or aliases. Aliases can be set when you configure indexes. For example, if you set the
 
      alias of **host_name** to **host**, **host** is displayed in the Quick Analysis column after you select **Show Field Aliases**.
 
@@ -13080,7 +13080,7 @@ Indexes are configured and the analysis feature is enabled for specified fields.
 
 The quick analysis feature provides grouping statistics for fields of the TEXT type. If you use this method, the first 100,000 log entries are grouped and the ratios of the top 10 groups are returned. For example, you can obtain the following result based on grouping statistics of **request_method**. The GET method is the most common request method.
 
-![](assets/c6236758fa76026fcd2d0fe73054aaa9.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/c6236758fa76026fcd2d0fe73054aaa9.png)
 
 **Long and double types**
 
@@ -13088,7 +13088,7 @@ The quick analysis feature provides grouping statistics for fields of the TEXT t
 
   The number of field values of the LONG and DOUBLE types is large. The preceding grouping analytics method is not suitable for the LONG or DOUBLE type. Simple Log Service assigns field values into 10 buckets and displays the approximate distribution of the values in a histogram. The following figure shows the approximate distribution of the **request_time** field. This distribution of field value indicates that most of the request periods are distributed around 1.346 ms.
 
-  ![](assets/32cb56ade8b51088fc6f6827d6a8e9db.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/32cb56ade8b51088fc6f6827d6a8e9db.png)
 
 - Quick analysis on the maximum value, minimum value, average and sum of fields.
 
@@ -13236,7 +13236,7 @@ Security check functions in Log Services are designed based on the globally shar
 
   Display the ISPs and countries in a map.
 
-  ![](assets/cd4982e284dbbef4bc577bd186feb6d2.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/cd4982e284dbbef4bc577bd186feb6d2.png)
 
 - Check internal suspicious requests and send alerts
 
@@ -13249,7 +13249,7 @@ Security check functions in Log Services are designed based on the globally shar
 
   The operator can save this statement as a saved search and configure an alert. An alert is triggered when a client frequently accesses suspicious websites. The statement in the alert can be configured to run every five minutes to check if a client has frequently (more than five times) accessed suspicious websites in the past one hour. The following figure shows the configurations of an alert.
 
-  ![](assets/251e4dff071243466b05c7c5d331030d.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/251e4dff071243466b05c7c5d331030d.png)
 
 <a id="section-4-10-3"></a>
 
@@ -13587,7 +13587,7 @@ You can use the time_series() function to add the missing data when you query in
   * | select time_series(__time__, '2h', '%Y-%m-%d %H:%i:%s', '0')  as time, count(*) as num from log group by time order by time              
   ```
 
-  ![](assets/b779b1b576d0ffe85df40f687cf2d5fc.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/b779b1b576d0ffe85df40f687cf2d5fc.png)
 
 <a id="section-4-10-9"></a>
 
@@ -13669,7 +13669,7 @@ URL functions extract fields from standard URLs. A standard URL is described as 
   </tr>
 </table>
 
-![](assets/674fc7a3da896775cb781752b480a7f0.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/674fc7a3da896775cb781752b480a7f0.png)
 
 <a id="section-4-10-10"></a>
 
@@ -13713,7 +13713,7 @@ The following table lists the JSON functions that Log Service supports:
 | <code>json_extract_scalar(json, json_path)</code> | Returns a string. This function works in a similar manner to <code> json_extract </code>). | N/A |
 | <code>json_size(json,json_path)</code> | Retrieves the length of a JSON object or array. | <code>SELECT json_size('[1, 2, 3]'): returns 3.</code> |
 
-![](assets/458037a470bea2147dfbbcad71d4386d.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/458037a470bea2147dfbbcad71d4386d.png)
 
 <a id="section-4-10-12"></a>
 
@@ -14413,7 +14413,7 @@ You can use the functions to compare the value for one period with that for a pr
 
   Figure 1. Line chart
 
-  ![](assets/459128c94f888dad663dc7db69dccfcc.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/459128c94f888dad663dc7db69dccfcc.png)
 
   </li>
 
@@ -15299,7 +15299,7 @@ This topic describes the smooth functions that you can use to smooth and filter 
 
   - The following figure shows the response.
 
-    ![](assets/4a904bca464ce49cb74d5b989a2f127e.jpeg)
+    ![](en-sls-user-guide-v3.18.3-20241030.assets/4a904bca464ce49cb74d5b989a2f127e.jpeg)
 
 - The following table lists the display items.
 
@@ -15360,7 +15360,7 @@ This topic describes the smooth functions that you can use to smooth and filter 
 
   - The following figure shows the response.
 
-    ![](assets/3134777f4a60e4fdc3edd734206c0977.jpeg)
+    ![](en-sls-user-guide-v3.18.3-20241030.assets/3134777f4a60e4fdc3edd734206c0977.jpeg)
 
 - Example 2
 
@@ -15372,7 +15372,7 @@ This topic describes the smooth functions that you can use to smooth and filter 
 
   - The following figure shows the response.
 
-    ![](assets/c4db476979cf10df871b4bdece067290.jpeg)
+    ![](en-sls-user-guide-v3.18.3-20241030.assets/c4db476979cf10df871b4bdece067290.jpeg)
 
 - The following table lists the display items.
 
@@ -15424,7 +15424,7 @@ This topic describes the smooth functions that you can use to smooth and filter 
 
   - The following figure shows the response.
 
-    ![](assets/fbc9ab0d82758b9adef87f77904e2429.jpeg)
+    ![](en-sls-user-guide-v3.18.3-20241030.assets/fbc9ab0d82758b9adef87f77904e2429.jpeg)
 
 - The following table lists the display items.
 
@@ -15489,7 +15489,7 @@ Example:
 
 - Result
 
-  ![](assets/d50130cac0c7aa4ce77a8c55f95a7bd6.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/d50130cac0c7aa4ce77a8c55f95a7bd6.jpeg)
 
 The following table lists the display items.
 
@@ -15525,7 +15525,7 @@ Example:
 
 - Query result
 
-  ![](assets/893c2ca829e6767f5402c4794cdcfcd5.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/893c2ca829e6767f5402c4794cdcfcd5.png)
 
 The following table lists the display items.
 
@@ -15588,7 +15588,7 @@ Example:
 
 - The following figure shows the response.
 
-  ![](assets/0d0a25e5d3c8a6715c12e8da171d71a1.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/0d0a25e5d3c8a6715c12e8da171d71a1.jpeg)
 
 The following table lists the display items.
 
@@ -15640,7 +15640,7 @@ Example:
 
 - The following figure shows the response.
 
-  ![](assets/60f92592bd17856687cd49c5265f9b6e.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/60f92592bd17856687cd49c5265f9b6e.jpeg)
 
 The following table lists the display items.
 
@@ -15697,7 +15697,7 @@ Example:
 
 - The following figure shows the response.
 
-  ![](assets/958fa1a5d623ca77dec804caf65759ad.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/958fa1a5d623ca77dec804caf65759ad.png)
 
 The following table lists the display items.
 
@@ -15766,7 +15766,7 @@ Example:
 
 - The following figure shows the response.
 
-  ![](assets/ff5d675d899cafd8466d918aea2f2308.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/ff5d675d899cafd8466d918aea2f2308.jpeg)
 
 The following table lists the display items.
 
@@ -15925,7 +15925,7 @@ Example:
 
 - The following figure shows the response.
 
-  ![](assets/7117dd52f6f221cc7b051af2553eeabf.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/7117dd52f6f221cc7b051af2553eeabf.png)
 
 The following table lists the display items.
 
@@ -16026,7 +16026,7 @@ Example:
 
 - The following figure shows the response.
 
-  ![](assets/6c7ef5e0e1f84e3583a324fae4e50bc9.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/6c7ef5e0e1f84e3583a324fae4e50bc9.jpeg)
 
 The following table lists the display items.
 
@@ -16100,7 +16100,7 @@ Example
 
 - Output result
 
-  ![](assets/c239d7644b013f1133f2b851fd61c2fd.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/c239d7644b013f1133f2b851fd61c2fd.png)
 
 The following table lists the display items.
 
@@ -16141,7 +16141,7 @@ Examples
 
 - Output result
 
-  ![](assets/f34be2e5312e94b671eb56958086d882.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/f34be2e5312e94b671eb56958086d882.jpeg)
 
 The following table lists the display items.
 
@@ -16326,11 +16326,11 @@ Example:
 
 - The following figure shows the response.
 
-  ![](assets/161f0c0575f88f0397aa925e884076d8.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/161f0c0575f88f0397aa925e884076d8.jpeg)
 
 The following figure shows the structured response.
 
-![](assets/0b96d4304445ad63a1fa91a95f953d92.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/0b96d4304445ad63a1fa91a95f953d92.png)
 
 The following table lists the display items.
 
@@ -16544,7 +16544,7 @@ The Kernel density estimation function uses the smooth peak function to fit the 
 
   - Response
 
-    ![](assets/0606b573ca120fc0327561d39831e6f5.jpeg)
+    ![](en-sls-user-guide-v3.18.3-20241030.assets/0606b573ca120fc0327561d39831e6f5.jpeg)
 
 <a id="section-4-12"></a>
 
@@ -16724,7 +16724,7 @@ Log Service provides the Scheduled SQL feature. You can use the feature to analy
 
 5. On the **Graph** tab, click **Schedule to Save Analysis Results**.
 
-   ![](assets/fcd55ec094f12cce5ed25fdb182f48fc.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/fcd55ec094f12cce5ed25fdb182f48fc.jpeg)
 
 6. Create a Scheduled SQL job.
 
@@ -16797,7 +16797,7 @@ Simple Log Service provides the Scheduled SQL feature. You can use the feature t
 
 5. On the **Graph** tab, click **Schedule to Save Analysis Results**.
 
-   ![](assets/fcd55ec094f12cce5ed25fdb182f48fc.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/fcd55ec094f12cce5ed25fdb182f48fc.jpeg)
 
 6. Create a scheduled SQL job.
 
@@ -16918,7 +16918,7 @@ Simple Log Service provides the Scheduled SQL feature. You can use the feature t
 
    After the Scheduled SQL job is created, you can go to the destination Metricstore to view the execution results of the job. For more information, see Query the result data of a Scheduled SQL job.
 
-   ![](assets/8b16b3482031f5d63c1159f63cbe7731.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/8b16b3482031f5d63c1159f63cbe7731.jpeg)
 
    </li>
 
@@ -16948,7 +16948,7 @@ A Scheduled SQL job is created. For more information, see Process and store data
 
 In the **Basic Information** section, you can view the basic information about the Scheduled SQL job, including Created At, Last Modified At, and Job ID.
 
-![](assets/0bd102e62c6c0e33e5c66a371c8f6045.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/0bd102e62c6c0e33e5c66a371c8f6045.jpeg)
 
 **View the instances of the Scheduled SQL job**
 
@@ -17026,7 +17026,7 @@ After you store the result data of a Scheduled SQL job to a Logstore, you can qu
 
    </ol>
 
-   ![](assets/0bd102e62c6c0e33e5c66a371c8f6045.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/0bd102e62c6c0e33e5c66a371c8f6045.jpeg)
 
 3. Query the result data of the Scheduled SQL job.
 
@@ -17209,7 +17209,7 @@ The time zones of the Scheduled SQL feature are in the  `{±Offset hours}{Minute
 
 When you create a Scheduled SQL job, you can select **Cron** from the drop-down list of the **Specify Scheduling Interval** field and select a time zone.
 
-![](assets/795f1ddb0ba0461408d150169ba9e6f1.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/795f1ddb0ba0461408d150169ba9e6f1.jpeg)
 
 **Common time zones**
 
@@ -17836,7 +17836,7 @@ The Logstore stores the logon operations of a user, and the CSV file records the
 
 - CSV file
 
-  ![](assets/311298a9d21a239a69568d4595be2a7d.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/311298a9d21a239a69568d4595be2a7d.jpeg)
 
 **Procedure**
 
@@ -17893,7 +17893,7 @@ The Logstore stores the logon operations of a user, and the CSV file records the
 
    If the content of the CSV file is returned, the external store is created.
 
-   ![](assets/4892940d8fb777c0282bc4ebe6cd7a6e.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/4892940d8fb777c0282bc4ebe6cd7a6e.png)
 
 6. Execute the following statement to perform a JOIN query on the Logstore and the CSV file. The Logstore is associated with the CSV file based on the value of the **userid** field in the Logstore and the value of the **userid** field in the CSV file. website_log is the name of the Logstore. user_meta is the name of the external store that you created. You can configure the parameters based on your business scenario.
 
@@ -17901,7 +17901,7 @@ The Logstore stores the logon operations of a user, and the CSV file records the
    * | SELECT * FROM website_log JOIN user_meta ON website_log.userid = user_meta.userid
    ```
 
-   ![](assets/99f3b0523dacc9bf2b701effff5d211b.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/99f3b0523dacc9bf2b701effff5d211b.png)
 
 <a id="section-4-15"></a>
 
@@ -17997,7 +17997,7 @@ Where:
 
 1. On the Search & Analysis page, enter a query statement in the search box, specify a time range, and then click **Search & Analyze**.
 
-2. On the **Graph** tab, data is displayed in a table by default. You do not need to click the <img src="assets/12c93b65c0ff79cae80691754d684cfe.png" width="14" alt=""> icon.
+2. On the **Graph** tab, data is displayed in a table by default. You do not need to click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/12c93b65c0ff79cae80691754d684cfe.png" width="14" alt=""> icon.
 
 3. On the **Properties** tab, configure the properties of the table.
 
@@ -18049,7 +18049,7 @@ Line charts are used to analyze field value changes over a time period. You can 
 
 1. On the Search & Analysis page, enter a query statement in the search box, specify a time range, and then click **Search & Analyze**.
 
-2. On the **Graph** tab, click the <img src="assets/11b3e1c8daa32cd0c975a5b08bd5d8ec.png" width="16" alt=""> icon.
+2. On the **Graph** tab, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/11b3e1c8daa32cd0c975a5b08bd5d8ec.png" width="16" alt=""> icon.
 
 3. On the **Properties** tab, configure the properties of the line chart.
 
@@ -18112,7 +18112,7 @@ Select  `time`  for the X-axis,  `PV`  for the left Y-axis, and Bottom for Legen
 
 Figure 1. Line chart
 
-![](assets/2859ac49a4073785b94e844d05310c2e.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/2859ac49a4073785b94e844d05310c2e.png)
 
 **Example of a dual Y-axis line chart**
 
@@ -18126,7 +18126,7 @@ Select  `time`  for the X-axis,  `PV`  for the left Y-axis,  `UV`  for the right
 
 Figure 2. Dual Y-axis line chart
 
-![](assets/3254fa7fa6a52b1c92c2f6c89c2711de.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/3254fa7fa6a52b1c92c2f6c89c2711de.png)
 
 <a id="section-4-15-1-4"></a>
 
@@ -18150,7 +18150,7 @@ By default, column charts in Log Service use vertical bars. Each rectangular bar
 
 1. On the Search & Analysis page, enter a query statement in the search box, specify a time range, and then click **Search & Analyze**.
 
-2. On the **Graph** tab, click the <img src="assets/a9af3fc72f67351080b02295fdeb9745.png" width="14" alt=""> icon.
+2. On the **Graph** tab, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/a9af3fc72f67351080b02295fdeb9745.png" width="14" alt=""> icon.
 
 3. On the **Properties** tab, configure the properties of the column chart.
 
@@ -18180,7 +18180,7 @@ To query the number of visits for each  `http_referer`  in the specified time ra
 
 Select  `http_referer`  for X-axis and  `count`  for Y-axis.
 
-![](assets/de64d5a4ed56e9f62d1a398e63c971d5.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/de64d5a4ed56e9f62d1a398e63c971d5.png)
 
 **Example of a grouped column chart**
 
@@ -18192,7 +18192,7 @@ To query the number of requests and the average bytes for each  `http_referer`  
 
 Select  `http_referer`  for X-axis. Select  `count`  and  `avg`  for Y-axis.
 
-![](assets/d6ec75f64e379064cc8226329746b2f7.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/d6ec75f64e379064cc8226329746b2f7.png)
 
 <a id="section-4-15-1-5"></a>
 
@@ -18216,7 +18216,7 @@ Each rectangular bar has a fixed height and a variable width. The variable width
 
 1. 
 
-2. On the **Graph** tab, click the <img src="assets/55c0405521d2ca5fdd86b66dc94c690b.png" width="16" alt=""> icon.
+2. On the **Graph** tab, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/55c0405521d2ca5fdd86b66dc94c690b.png" width="16" alt=""> icon.
 
 3. On the **Properties** tab, configure the properties of the bar chart.
 
@@ -18246,7 +18246,7 @@ To analyze the top 10 visited request URIs ( `request_uri` ), execute the follow
 * | select  request_uri, count(1) as count group by request_uri order by count desc limit 10
 ```
 
-![](assets/5bc20cb9dd956f8fc2c0eb273afbb419.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/5bc20cb9dd956f8fc2c0eb273afbb419.jpeg)
 
 <a id="section-4-15-1-6"></a>
 
@@ -18288,7 +18288,7 @@ Log Service provides three types of pie charts: a standard pie chart, donut char
 
 1. 
 
-2. On the **Graph** tab, click the <img src="assets/15356547d5ff25032cee17153ef00dea.png" width="16" alt=""> icon.
+2. On the **Graph** tab, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/15356547d5ff25032cee17153ef00dea.png" width="16" alt=""> icon.
 
 3. On the **Properties** tab, configure the properties of the pie chart.
 
@@ -18319,7 +18319,7 @@ To analyze the percentages of the  `request_uri`  field values, execute the foll
 * | select requestURI as uri , count(1) as c group by uri limit 10
 ```
 
-![](assets/61b66d9e4f4f24b7b2da43642ae162fc.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/61b66d9e4f4f24b7b2da43642ae162fc.jpeg)
 
 **Example of a donut chart**
 
@@ -18329,7 +18329,7 @@ To analyze the percentages of the  `request_uri`  field values, execute the foll
 * | select requestURI as uri , count(1) as c group by uri limit 10
 ```
 
-![](assets/c3cba31bdfb051b28226aa4af1edc4ae.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/c3cba31bdfb051b28226aa4af1edc4ae.jpeg)
 
 **Example of a polar area chart**
 
@@ -18339,7 +18339,7 @@ To analyze the percentages of the  `request_uri`  field values, execute the foll
 * | select requestURI as uri , count(1) as c group by uri limit 10
 ```
 
-![](assets/72101bbcd0b44ab885ee5a5669ce3512.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/72101bbcd0b44ab885ee5a5669ce3512.jpeg)
 
 <a id="section-4-15-1-7"></a>
 
@@ -18359,7 +18359,7 @@ An area chart is built based on a line chart. The colored section between a line
 
 1. 
 
-2. On the **Graph** tab, click the <img src="assets/683db31a5f77e0060a77a190920bfde5.png" width="16" alt=""> icon.
+2. On the **Graph** tab, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/683db31a5f77e0060a77a190920bfde5.png" width="16" alt=""> icon.
 
 3. On the **Properties** tab, configure the properties of the area chart.
 
@@ -18389,7 +18389,7 @@ remote_addr: 10.0.192.0 | select date_format(date_trunc('hour', __time__), '%m-%
 
 Select  `time`  for the X-axis and  `PV`  for the Y-axis.
 
-![](assets/171f03fc2e5970ffbccd7536ea62f44e.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/171f03fc2e5970ffbccd7536ea62f44e.jpeg)
 
 **Example of a cascade chart**
 
@@ -18399,7 +18399,7 @@ Select  `time`  for the X-axis and  `PV`  for the Y-axis.
 
 Select  `time`  for the X-axis. Select  `PV`  and  `UV`  for the Y-axis.
 
-![](assets/4c6ff31a8213f707f300dd72a5cfc0b9.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/4c6ff31a8213f707f300dd72a5cfc0b9.jpeg)
 
 <a id="section-4-15-1-8"></a>
 
@@ -18427,7 +18427,7 @@ Rectangle Frame is selected by default. A rectangle frame is the most basic meth
 
 1. 
 
-2. On the **Graph** tab, click the <img src="assets/945d4d500e147e64f78d0cbe1b478dcc.png" width="16" alt=""> icon.
+2. On the **Graph** tab, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/945d4d500e147e64f78d0cbe1b478dcc.png" width="16" alt=""> icon.
 
 3. On the **Properties** tab, configure the properties of the single value chart.
 
@@ -18507,7 +18507,7 @@ To view the number of access requests, execute the following query statements:
   * | select count(1) as pv
   ```
 
-  ![](assets/d812fc66309295216521042f0baabb07.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/d812fc66309295216521042f0baabb07.jpeg)
 
 - Dial
 
@@ -18515,7 +18515,7 @@ To view the number of access requests, execute the following query statements:
   * | select count(1) as pv
   ```
 
-  ![](assets/7b343aa1cd97455d137fa94ec49dfe02.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/7b343aa1cd97455d137fa94ec49dfe02.jpeg)
 
 - Compare numb chart To view and compare the access requests for today and yesterday, execute the following query statement:
 
@@ -18523,7 +18523,7 @@ To view the number of access requests, execute the following query statements:
   * | select diff[1],diff[2], diff[1]-diff[2] from (select compare( pv , 86400) as diff from (select count(1) as pv from log))
   ```
 
-  ![](assets/efc4f73e1af669a246c57cf3b8a18253.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/efc4f73e1af669a246c57cf3b8a18253.jpeg)
 
 <a id="section-4-15-1-9"></a>
 
@@ -18543,7 +18543,7 @@ The progress bar shows the percentage of the actual value of a field to the maxi
 
 1. 
 
-2. On the **Graph** tab, click <img src="assets/3a692b39a7dd00bdc92d67456f40e8eb.png" width="14" alt=""> to select the progress bar.
+2. On the **Graph** tab, click <img src="en-sls-user-guide-v3.18.3-20241030.assets/3a692b39a7dd00bdc92d67456f40e8eb.png" width="14" alt=""> to select the progress bar.
 
 3. Configure the properties of the progress bar.
 
@@ -18578,11 +18578,11 @@ To view the percentage of a metric or the proportion of data, you can execute th
 * | select diff[1],diff[2] from (select compare( pv , 86400) as diff from (select count(1) as pv from log))
 ```
 
-![](assets/52c7d0a8ddbebf6b9f56ad557e4caaae.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/52c7d0a8ddbebf6b9f56ad557e4caaae.jpeg)
 
 If you select **Display by Rule** for Color Display Mode, colors are dynamically displayed based on the specified rule. If the conditions of a rule are not matched, the default color is displayed.
 
-![](assets/2dd277ce6e874b71d921e3ec02240dfb.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/2dd277ce6e874b71d921e3ec02240dfb.jpeg)
 
 <a id="section-4-15-1-10"></a>
 
@@ -18617,7 +18617,7 @@ You can color and mark a map to display geographic data. Log Service provides th
 
    icon.
 
-   <img src="assets/55d67c54cbe20eb3f14eaeca485d1d45.png" width="17" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/55d67c54cbe20eb3f14eaeca485d1d45.png" width="17" alt="">
 
 3. Configure the properties of the map.
 
@@ -18646,7 +18646,7 @@ To display query results on a map of China, you can execute the following query 
 
   Figure 1. Map of China
 
-  ![](assets/33e2f37f6820869fc07e36fdcb33c702.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/33e2f37f6820869fc07e36fdcb33c702.jpeg)
 
 **World Map**
 
@@ -18669,7 +18669,7 @@ To display query results in a world map, you can execute the following query sta
 
   Figure 2. World Map
 
-  ![](assets/2b5d55c4554464fc59e1968d831d72a3.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/2b5d55c4554464fc59e1968d831d72a3.jpeg)
 
 **AMap**
 
@@ -18696,13 +18696,13 @@ To display query results on an AMap, you can execute the following query stateme
 
   Figure 3. AMap: Anchor points
 
-  ![](assets/e81e6fab91fc1d551297c49ea737be38.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/e81e6fab91fc1d551297c49ea737be38.jpeg)
 
 By default, the display mode of the anchor points is returned. If the anchor points are densely distributed on the map, you can switch the display mode to heat map.
 
 Figure 4. AMap: Heat map
 
-![](assets/8336ce2a937b66de230fccdb5aacfa14.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/8336ce2a937b66de230fccdb5aacfa14.jpeg)
 
 <a id="section-4-15-1-11"></a>
 
@@ -18733,7 +18733,7 @@ The following table lists the data that can be displayed in a Sankey diagram.
 
 The following figure shows the data relationships in a Sankey diagram.
 
-![](assets/207f656fd284de9385e98a55b14d13d3.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/207f656fd284de9385e98a55b14d13d3.png)
 
 **Components**
 
@@ -18745,7 +18745,7 @@ The following figure shows the data relationships in a Sankey diagram.
 
 1. 
 
-2. On the **Graph** tab, click the <img src="assets/f69996e9e2fdf5c64a34436ad2aff764.png" width="16" alt=""> icon.
+2. On the **Graph** tab, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/f69996e9e2fdf5c64a34436ad2aff764.png" width="16" alt=""> icon.
 
 3. On the **Properties** tab, configure the properties of the Sankey diagram.
 
@@ -18768,7 +18768,7 @@ If a log entry contains the  `source` ,  `target` , and  `value`  fields, you ca
  targetValue
 ```
 
-![](assets/5cf5c9bfbd677421718eaf5e8c0af001.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/5cf5c9bfbd677421718eaf5e8c0af001.jpeg)
 
 <a id="section-4-15-1-12"></a>
 
@@ -18784,7 +18784,7 @@ The words in a word cloud are sorted.
 
 1. 
 
-2. On the **Graph** tab, click the <img src="assets/15d4c157c8b406e0663b8ede46a6f7fa.png" width="20" alt=""> icon.
+2. On the **Graph** tab, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/15d4c157c8b406e0663b8ede46a6f7fa.png" width="20" alt=""> icon.
 
 3. On the **Properties** tab, configure the properties of the word cloud.
 
@@ -18806,7 +18806,7 @@ To query the distribution of hostnames in NGINX logs, execute the following quer
 
 Select  `hostname`  for Word Column and  `count`  for Value Column.
 
-![](assets/fcb59f35d4d481848b10e589d8e54382.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/fcb59f35d4d481848b10e589d8e54382.png)
 
 <a id="section-4-15-1-13"></a>
 
@@ -18822,7 +18822,7 @@ Sorted rectangles
 
 1. 
 
-2. On the **Graph** tab, click the <img src="assets/01891dcafff765ae2eb7aa7d0e3ea039.png" width="14" alt=""> icon.
+2. On the **Graph** tab, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/01891dcafff765ae2eb7aa7d0e3ea039.png" width="14" alt=""> icon.
 
 3. On the **Properties** tab, configure the properties of the treemap chart.
 
@@ -18843,7 +18843,7 @@ To query the distribution of hostnames in NGINX logs, execute the following quer
 
 Select **hostname** for  `Legend Filter`  and **count** for  `Value Column` .
 
-![](assets/59739a57e22bf7a2ef8c1d91eaea8ac3.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/59739a57e22bf7a2ef8c1d91eaea8ac3.jpeg)
 
 <a id="section-4-15-2"></a>
 
@@ -18945,7 +18945,7 @@ The global settings include the basic settings, standard settings, and attribute
 
 - Pie chart (Pro)
 
-![](assets/729a9eef6996fe77e20484021580b9d8.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/729a9eef6996fe77e20484021580b9d8.jpeg)
 
 **Fields tab**
 
@@ -18965,7 +18965,7 @@ For more information about the descriptions and examples of parameter configurat
 
 - Pie chart (Pro)
 
-![](assets/d7bbf76279146889deec26f054c03075.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/d7bbf76279146889deec26f054c03075.jpeg)
 
 **Differences between the Common Settings and Fields tabs**
 
@@ -19191,11 +19191,11 @@ Variables are placeholders for values. You can use variables in query statements
 
    **> Edit** to go to the edit page.
 
-   <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt="">
 
 5. Specify variables in the query statement.
 
-   ![](assets/3385097f841778cacbddc9cfc0cf8193.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/3385097f841778cacbddc9cfc0cf8193.png)
 
 **Configuration description**
 
@@ -19223,7 +19223,7 @@ In the following query statement, change the value of the **request_method** fie
 request_method: * | SELECT __time__ - __time__ %60 AS time, COUNT(1) AS PV GROUP BY time ORDER BY time
 ```
 
-![](assets/3385097f841778cacbddc9cfc0cf8193.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/3385097f841778cacbddc9cfc0cf8193.png)
 
 Example 2: Configure variable replacement
 
@@ -19334,7 +19334,7 @@ You can configure personalized display settings for the results of a single quer
 
 For example, in the **A > pv** section, you can configure settings for the **pv** field in the results of Query Statement A. The values of the **pv** field are highlighted after you select Text Highlight from the Column Settings > Cell Display Mode drop-down list and are displayed in different colors based on the specified thresholds.
 
-![](assets/b143f0cd08668687485648ecece2d744.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/b143f0cd08668687485648ecece2d744.png)
 
 **Drill-down events**
 
@@ -19342,7 +19342,7 @@ You can configure a drill-down event for the results of a single query statement
 
 For example, in the **A > pv** section, you can configure an Open Logstore drill-down event for the **pv** field in the results of Query Statement A. After you configure the event, you can click a value in the **pv** column of the table and click **Open Logstore**. Then, you are navigated to the Logstore that you specify.
 
-![](assets/ac396066d12d431acbaaabcb157ec079.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/ac396066d12d431acbaaabcb157ec079.png)
 
 <a id="section-4-15-2-7"></a>
 
@@ -19990,7 +19990,7 @@ The indexing feature is enabled and indexes are configured. For more information
 
    icon.
 
-   <img src="assets/36cedb5117f1e023b867c8a5212a1614.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/36cedb5117f1e023b867c8a5212a1614.png" width="10" alt="">
 
 4. Click the plus sign (**+**) to create a dashboard.
 
@@ -20004,7 +20004,7 @@ After you create a dashboard, you can follow, view, and delete the dashboard.
 
   **> Delete** to delete the dashboard.
 
-  <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+  <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
   > **Important**
   >
@@ -20014,13 +20014,13 @@ After you create a dashboard, you can follow, view, and delete the dashboard.
 
   **> Details** to view the dashboard.
 
-  <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+  <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 - In the Dashboard list, find the dashboard for which you want to create a backup and choose
 
   **> Copy**.
 
-  <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+  <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
   For example, if you click Copy for a dashboard named **test dashboard**, a new dashboard named**test dashboard_copy**is created.
 
@@ -20054,7 +20054,7 @@ By default, the time range that you specify for a dashboard applies to all chart
 
 6. Mover the pointer over the **Time Range** button to confirm the specified time range.
 
-   ![](assets/47f494000f36025425fa332ebed865fb.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/47f494000f36025425fa332ebed865fb.jpeg)
 
 **Enter the edit mode**
 
@@ -20062,7 +20062,7 @@ In the Dashboard list, click the dashboard that you want to modify. On the page 
 
 **Configure an alert rule**
 
-In the upper-right corner of the chart, click and select <img src="assets/cf4a81ad557df1da8883ddf21ed47bd2.png" width="6" alt=""> **>Create Alert** to create an alert rule for the charts on the dashboard. For more information,
+In the upper-right corner of the chart, click and select <img src="en-sls-user-guide-v3.18.3-20241030.assets/cf4a81ad557df1da8883ddf21ed47bd2.png" width="6" alt=""> **>Create Alert** to create an alert rule for the charts on the dashboard. For more information,
 
 see Configure an alert rule.
 
@@ -20116,35 +20116,35 @@ You can select a chart and perform the following operations on the chart.
 
 - View analysis details
 
-  Find the chart whose details you want to view, click the <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **View Analysis Details**. On the page that appears, you can view the query
+  Find the chart whose details you want to view, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **View Analysis Details**. On the page that appears, you can view the query
 
   statement and the properties of the chart.
 
 - Specify a time range for a chart
 
-  Find the chart that you want to manage, click the <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **Select Time Range** to specify a time range for the chart.
+  Find the chart that you want to manage, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **Select Time Range** to specify a time range for the chart.
 
 - Configure an alert rule for a chart
 
-  Find the chart for which you want to configure an alert rule, click the <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **Create Alert** to create an alert rule for the chart. For more
+  Find the chart for which you want to configure an alert rule, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **Create Alert** to create an alert rule for the chart. For more
 
   information, see Configure an alert rule.
 
 - Download log data
 
-  Find the chart whose log data you want to download, click the <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **Download Chart Data**. The log data that is returned by the query
+  Find the chart whose log data you want to download, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and select **Download Chart Data**. The log data that is returned by the query
 
   statement of the chart within the current time range is downloaded in a comma-separated values (CSV) file.
 
 - Check whether a drill-down event is configured for a chart
 
-  Find the chart that you want to check, click the <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and move the pointer over the <img src="assets/25a640d9a1f8d13920453b1dd364eda7.png" width="12" alt=""> icon to check whether a drill-down event is configured for
+  Find the chart that you want to check, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon and move the pointer over the <img src="en-sls-user-guide-v3.18.3-20241030.assets/25a640d9a1f8d13920453b1dd364eda7.png" width="12" alt=""> icon to check whether a drill-down event is configured for
 
   the chart. If the icon is red, a drill-down event is configured for the chart.
 
 - Preview the query statement of a chart
 
-  Find the chart whose query statement you want to preview, click the <img src="assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon, and then click the <img src="assets/f0633183016147823b510be42a8c372c.png" width="14" alt=""> icon. In the Preview Query Statement dialog box,
+  Find the chart whose query statement you want to preview, click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/9718a250c88ebf3d2ff417aa65040ba9.png" width="4" alt=""> icon, and then click the <img src="en-sls-user-guide-v3.18.3-20241030.assets/f0633183016147823b510be42a8c372c.png" width="14" alt=""> icon. In the Preview Query Statement dialog box,
 
   you can view the query statement of the chart.
 
@@ -20254,7 +20254,7 @@ In the edit mode of a dashboard, you can perform the following operations on cha
 
   **> Edit**.
 
-  <img src="assets/32e91dd828275e6b45409e48a58be365.png" width="8" alt="">
+  <img src="en-sls-user-guide-v3.18.3-20241030.assets/32e91dd828275e6b45409e48a58be365.png" width="8" alt="">
 
   </li>
 
@@ -20294,7 +20294,7 @@ In the edit mode of a dashboard, you can perform the following operations on cha
 
   **> Copy**.
 
-  <img src="assets/32e91dd828275e6b45409e48a58be365.png" width="8" alt="">
+  <img src="en-sls-user-guide-v3.18.3-20241030.assets/32e91dd828275e6b45409e48a58be365.png" width="8" alt="">
 
   </li>
 
@@ -20328,7 +20328,7 @@ In the edit mode of a dashboard, you can perform the following operations on cha
 
   **> Delete**.
 
-  <img src="assets/32e91dd828275e6b45409e48a58be365.png" width="8" alt="">
+  <img src="en-sls-user-guide-v3.18.3-20241030.assets/32e91dd828275e6b45409e48a58be365.png" width="8" alt="">
 
   </li>
 
@@ -20370,7 +20370,7 @@ Log Service supports drill-down analysis of the following charts: tables, line c
 
    icon next to the name of the Logstore, and then select **Search & Analysis** from the drop-down list.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. Enter a query statement in the search box, set a time range, and then click **Search & Analyze**.
 
@@ -20457,7 +20457,7 @@ You want to store collected NGINX access logs in a Logstore named accesslog, dis
 
    Before you add the line chart to the dashboard, specify the asterisk ( `*` ) to generate a placeholder variable and set the variable name to method. If the variable name of another chart for which you configure drill-down analysis is method, when you click the variable value on the chart to trigger drill-down analysis, the asterisk ( `*` ) is replaced with the value that you click and the query statement of the line chart is performed.
 
-   ![](assets/5b06e74adf71a9d2aa82e9af58144ac1.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/5b06e74adf71a9d2aa82e9af58144ac1.png)
 
    </li>
 
@@ -20491,7 +20491,7 @@ You want to store collected NGINX access logs in a Logstore named accesslog, dis
 
    </ol>
 
-   ![](assets/e64f9772192eab1e2ee428088d5a0799.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/e64f9772192eab1e2ee428088d5a0799.png)
 
    <ol type="i" start="4">
 
@@ -20499,7 +20499,7 @@ You want to store collected NGINX access logs in a Logstore named accesslog, dis
 
    Redirected to the destination_drilldown dashboard. You are redirected to the dashboard configured in step 1. The asterisk ( `*` ) in the query statement is replaced with  `GET` . The dashboard shows how the PV of the GET request changes over time.
 
-   ![](assets/b9819d009f88bf147d63d09b91cb009b.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/b9819d009f88bf147d63d09b91cb009b.png)
 
    </li>
 
@@ -20549,7 +20549,7 @@ Each filter chart has one or more filters. Each filter consists of the following
 
    icon, and then set the filter parameters. Click **OK**.
 
-   <img src="assets/b22564e4f34b4b0616de1cda3f76c7f5.png" width="14" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/b22564e4f34b4b0616de1cda3f76c7f5.png" width="14" alt="">
 
    Table 1. Parameters of a filter
 
@@ -20586,7 +20586,7 @@ You can use a query statement to view the number of page views (PVs) per minute.
 
 2. Add the chart to a dashboard, and select  `60`  generate a variable with the name  `interval` .
 
-   ![](assets/a69aa98d2dbe711ee787d060208f32a4.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/a69aa98d2dbe711ee787d060208f32a4.png)
 
 3. Add a filter on the dashboard page.
 
@@ -20602,7 +20602,7 @@ You can use a query statement to view the number of page views (PVs) per minute.
    * | SELECT date_format(__time__ - __time__ % 1, '%H:%i:%s') as time, count(1) as count GROUP BY time ORDER BY time 
    ```
 
-   ![](assets/1a12dab94f76dc9f7738bad39f07bd3b.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/1a12dab94f76dc9f7738bad39f07bd3b.png)
 
 **Example 2: Switch between request methods**
 
@@ -20624,7 +20624,7 @@ You can add dynamic values to a filter to dynamically switch between request met
    (*) and (method: POST) | SELECT date_format(__time__ - __time__ % 60, '%H:%i:%s') as time, count(1) as count GROUP BY time ORDER BY time 
    ```
 
-   ![](assets/812daca57bec65c5f26c6c3dd8fd7e2c.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/812daca57bec65c5f26c6c3dd8fd7e2c.png)
 
 <a id="section-4-15-3-7"></a>
 
@@ -20656,7 +20656,7 @@ You can insert links in a Markdown chart to redirect to other dashboard pages of
 
    from the menu bar to the specified location to create a Markdown chart.
 
-   <img src="assets/43e4eb4b6ffc2687a61288bf4aca53ea.png" width="13" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/43e4eb4b6ffc2687a61288bf4aca53ea.png" width="13" alt="">
 
 7. Click the created Markdown chart, find the More icon in the upper-right corner of the chart, and click **edit**.
 
@@ -20832,7 +20832,7 @@ You can insert links in a Markdown chart to redirect to other dashboard pages of
 
   Figure 1. Link preview
 
-  ![](assets/955a9a5ad192559118bc998af95241b5.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/955a9a5ad192559118bc998af95241b5.png)
 
 - Image Markdown syntax:
 
@@ -20904,15 +20904,15 @@ You can use the data transformation feature to standardize, enrich, transfer, ma
 
 - Data standardization: Log data is read from a source Logstore, transformed, and then written to a destination Logstore.
 
-  ![](assets/355b90b9349296253ce8e121369754c9.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/355b90b9349296253ce8e121369754c9.jpeg)
 
 - Data transfer: Log data is read from a source Logstore, transformed, and then written to multiple destination Logstores.
 
-  ![](assets/5cc63f555742a2ebd23bc2044c4e7d0d.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/5cc63f555742a2ebd23bc2044c4e7d0d.jpeg)
 
 - Multi-source data aggregation: Log data is read from multiple source Logstores, transformed, and then written to a destination Logstore.
 
-  ![](assets/f6b62fa348393aed637651e235d0e870.jpeg)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/f6b62fa348393aed637651e235d0e870.jpeg)
 
 **Transformation syntax**
 
@@ -21086,7 +21086,7 @@ The data transformation feature uses consumer groups to consume log data and use
 
 The data transformation feature of Log Service uses a consumer group to consume log data from the source Logstore in streaming mode, transforms each log based on the specified transformation rule, and then writes the transformed log data to the destination Logstore.
 
-![](assets/4f60dfb4e5d23bd2a57f013df8a64d5e.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/4f60dfb4e5d23bd2a57f013df8a64d5e.jpeg)
 
 - **Scheduling mechanism**
 
@@ -21117,7 +21117,7 @@ e_if(e_search("ret: unknown"), DROP)
 
 The following figure shows the transformation logic.
 
-![](assets/ab5f6e08221083c7a0938ba4478dbe7f.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/ab5f6e08221083c7a0938ba4478dbe7f.jpeg)
 
 - Basic logic
 
@@ -21157,7 +21157,7 @@ content: admin login to database.
 
 The following figure shows the transformation logic.
 
-![](assets/35a9f46c0b931a22c2615b936bae4920.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/35a9f46c0b931a22c2615b936bae4920.jpeg)
 
 - Log output
 
@@ -21392,7 +21392,7 @@ Data is collected to Log Service. For more information, see Data collection.
      </tr>
      <tr>
        <td>Advanced Parameter Settings</td>
-       <td>Log Service allows you to set the passwords that are required in the transformation statement in the key-value pair format. For example, you can set a password that is used to connect to a database in the key-value pair format. You can reference passwords in the transformation statement by using the <code> ${key} </code> variable.You can click the plus sign (<strong>+</strong>) to add more key-value pairs. For example, you can add config.vpc.vpc_id.test1:vpc-uf6mskb0b****n9yj, which indicates the ID of the virtual private cloud (VPC) to which an ApsaraDB RDS instance belongs.<br><img src="assets/b464997873704ac10fb5ade690b23555.jpeg" alt=""></td>
+       <td>Log Service allows you to set the passwords that are required in the transformation statement in the key-value pair format. For example, you can set a password that is used to connect to a database in the key-value pair format. You can reference passwords in the transformation statement by using the <code> ${key} </code> variable.You can click the plus sign (<strong>+</strong>) to add more key-value pairs. For example, you can add config.vpc.vpc_id.test1:vpc-uf6mskb0b****n9yj, which indicates the ID of the virtual private cloud (VPC) to which an ApsaraDB RDS instance belongs.<br><img src="en-sls-user-guide-v3.18.3-20241030.assets/b464997873704ac10fb5ade690b23555.jpeg" alt=""></td>
      </tr>
    </table>
 
@@ -21536,7 +21536,7 @@ You can delete a data transformation job by using one of the following methods:
 
   **> Delete**.
 
-  <img src="assets/802fc77ac73492022bc8792b0f8213f2.png" width="10" alt="">
+  <img src="en-sls-user-guide-v3.18.3-20241030.assets/802fc77ac73492022bc8792b0f8213f2.png" width="10" alt="">
 
 - On the **Data Transformation Overview** page, choose **More > Delete**.
 
@@ -21935,7 +21935,7 @@ The following list describes event types:
 
 - Tags Tags are used to differentiate fields in logs. Tags are in the  `__tag__:Name`  format.
 
-  ![](assets/f51128d6cc0749ef0653de191cde2002.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/f51128d6cc0749ef0653de191cde2002.png)
 
   - If the source Logstore is configured to record public IP addresses, logs contain  `tag: __tag__:__receive_time__` .
 
@@ -25740,7 +25740,7 @@ The e_anchor function extracts strings by using the rules specified by anchor_ru
   | Parameter | Type | Required | Description |
   | --- | --- | --- | --- |
   | key | Arbitrary | Yes | The name of the field. |
-  | anchor_rules | String | Yes | The rules that are used to extract strings. Examples: <code> User = </code> <code>*; Severity = *;, </code>. Asterisks (\*) indicate the content that you want to extract.By default, a space is specified before Value in the logs that are displayed in the Key : Value format in the Log Service console.When you configure the anchor_rules parameter, remove the default space.<br>![](assets/c2964e2532a236d72da6adbc12245698.png)<br>Note When you specify the input field, you cannot use asterisks (\*) as prefixes or suffixes. |
+  | anchor_rules | String | Yes | The rules that are used to extract strings. Examples: <code> User = </code> <code>*; Severity = *;, </code>. Asterisks (\*) indicate the content that you want to extract.By default, a space is specified before Value in the logs that are displayed in the Key : Value format in the Log Service console.When you configure the anchor_rules parameter, remove the default space.<br>![](en-sls-user-guide-v3.18.3-20241030.assets/c2964e2532a236d72da6adbc12245698.png)<br>Note When you specify the input field, you cannot use asterisks (\*) as prefixes or suffixes. |
   | fields | Arbitrary | Yes | The names of the output fields whose values are extracted from the value of input field. The field names can be in a string list.Example: <code> ["user", "job", "result"] </code>. If the field names do not contain commas (,), you can use commas (,) to separate the string. Example: <code> "user, job, result" </code>. For information about how to specify special field names, see Event types.Special field names can contain special characters except asterisks (\*).You can use an asterisk (\*) to skip a field. For example, only user and result are extracted from <code> "user,*,result" </code>. For more information, see Example 10. |
   | restrict | Boolean | No | Specifies whether to enable the restricted mode. Default value: False. This value indicates that the restricted mode is disabled.If the number of values that are extracted from the value of the input field differs from the number of output field names, the operation that is performed by the function varies based on the mode.<br>• If the restricted mode is enabled, the function does not perform operations.<br>• If the restricted mode is disabled, the function matches the specified fields to the values and assigns specific values to the fields. |
   | mode | String | No | Default value: overwrite. For more information, see Field extraction check and overwrite modes. |
@@ -42716,7 +42716,7 @@ An alert is configured based on analysis charts on a dashboard. An analysis char
   >
   > alert is triggered when any of the first 100 log entries returned meets the conditions.
 
-  ![](assets/06b142ffc34144ce00c119b486dcda18.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/06b142ffc34144ce00c119b486dcda18.png)
 
 - Search and analytic statement For example, the following statement queries the ratio of log entries whose status field value is ok to all log entries. For more information about query syntax, see Search syntax.
 
@@ -42726,7 +42726,7 @@ An alert is configured based on analysis charts on a dashboard. An analysis char
 
   If you set the trigger condition of an alert to  `ratio < 0.9` , the alert is triggered when the ratio of log entries whose status field value is ok to all log entries is less than 90%.
 
-  ![](assets/59f4f84718316a69d2a471d0bb21eb14.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/59f4f84718316a69d2a471d0bb21eb14.png)
 
 <a id="section-6-2"></a>
 
@@ -42774,7 +42774,7 @@ For information about common configurations for alert rules, see FAQ about alert
 
    icon.
 
-   <img src="assets/04d5fe4339baf35807157a4ea4ebd410.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/04d5fe4339baf35807157a4ea4ebd410.png" width="10" alt="">
 
 4. In the Dashboard list, click the dashboard that you want to manage.
 
@@ -42782,7 +42782,7 @@ For information about common configurations for alert rules, see FAQ about alert
 
    on the specify chart, choose **Create Alerts**.
 
-   <img src="assets/cf4a81ad557df1da8883ddf21ed47bd2.png" width="6" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/cf4a81ad557df1da8883ddf21ed47bd2.png" width="6" alt="">
 
 6. In the **Alert Configuration** step, configure the parameters and click **Next**.
 
@@ -42791,7 +42791,7 @@ For information about common configurations for alert rules, see FAQ about alert
    | Parameter | Description |
    | --- | --- |
    | Alert Name | The name of the alert rule. The name must be 1 to 64 characters in length. |
-   | Associated Chart | The chart with which you want to associate the alert rule.You can add up to three charts. You can configure an alert rule for up to three query statements at the same time. The number before the chart name is the serial number of the chart. The serial number of the chart is valid in the alert rule. You can use the serial number to specify a chart in the <strong>Trigger Condition</strong> parameter.<br>You can click the<img src="assets/bab35da7b41e2ffdc82f500d76dbd533.png" width="12" alt="">icon next to the Query field to modify the query statement.<br>The <strong>Search Period</strong> parameter specifies the time range of each query. You can select a relative time or a time frame. For example, the current time is <strong>14:30:06</strong>.<br>• If you set the <strong>Search Period</strong> parameter to <strong>15 Minutes(Relative)</strong>, the time range of the query is <strong>14:15:06-14:30:06</strong>.<br>• If you set the <strong>Search Period</strong> parameter to <strong>15 Minutes(Time Frame)</strong>, the time range of the query is <strong>14:15:00-14:30:00</strong>. |
+   | Associated Chart | The chart with which you want to associate the alert rule.You can add up to three charts. You can configure an alert rule for up to three query statements at the same time. The number before the chart name is the serial number of the chart. The serial number of the chart is valid in the alert rule. You can use the serial number to specify a chart in the <strong>Trigger Condition</strong> parameter.<br>You can click the<img src="en-sls-user-guide-v3.18.3-20241030.assets/bab35da7b41e2ffdc82f500d76dbd533.png" width="12" alt="">icon next to the Query field to modify the query statement.<br>The <strong>Search Period</strong> parameter specifies the time range of each query. You can select a relative time or a time frame. For example, the current time is <strong>14:30:06</strong>.<br>• If you set the <strong>Search Period</strong> parameter to <strong>15 Minutes(Relative)</strong>, the time range of the query is <strong>14:15:06-14:30:06</strong>.<br>• If you set the <strong>Search Period</strong> parameter to <strong>15 Minutes(Time Frame)</strong>, the time range of the query is <strong>14:15:00-14:30:00</strong>. |
    | Frequency | The frequency at which query results are checked. |
    | Trigger Condition | The trigger condition of an alert. If the specified trigger condition is met, an alert is triggered and alert notifications are sent based on the values of the <strong>Frequency</strong> and <strong>Notification Interval</strong> parameters.For example, you can set the trigger condition to <code> pv%100 &gt; 0 &amp;&amp; uv &gt; 0 </code>.<br>Note You can use <code> $serial number </code> to specify a chart in a trigger condition. For example, <code> $0 </code> specifies chart 0. |
    | Advanced |  |
@@ -43039,7 +43039,7 @@ If you associate a search statement with an alert, you can modify the search sta
 
    .
 
-   <img src="assets/a3d68792b3224831314d46822326013a.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/a3d68792b3224831314d46822326013a.png" width="10" alt="">
 
    You can modify only search statements with which alerts are associated. You cannot modify search statements to search and analytic statements, which are in the format of  `search statement|analytic statement` .
 
@@ -43061,7 +43061,7 @@ After you create an alert, you can modify the chart associated with the alert to
 
    next to **Query**.
 
-   <img src="assets/a3d68792b3224831314d46822326013a.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/a3d68792b3224831314d46822326013a.png" width="10" alt="">
 
 4. On the dialog box that appears, enter a new query statement, click **Preview**, and then click **OK** after the query statement is verified.
 
@@ -43093,7 +43093,7 @@ When you create an alert, Log Service creates a Logstore named **internal-alert-
 
    icon next to the **internal-alert-history** Logstore, and then select **Search & Analysis**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. On the page that appears, query alert log entries based on your needs.
 
@@ -43129,7 +43129,7 @@ You can disable, enable, modify, and delete the alert, or view the details of th
 
 4. In the alert list, click the name of the target alert. On the **Alert Overview** page, you can view the details of the alert, such as the dashboard, creation time, last update time, check frequency, alert status, and notification status.
 
-   ![](assets/dac14d4de5550bf9f3d3df8f413827c2.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/dac14d4de5550bf9f3d3df8f413827c2.png)
 
 **Disable and enable an alert**
 
@@ -43139,7 +43139,7 @@ After you create an alert, you can disable or enable the alert. If you disable a
 
 2. In the alert list, click the name of the target alert. On the **Alert Overview** page, click **Enable** or **Close** in the **Alert Status** field.
 
-   ![](assets/ff3a1e8c059d5ec37169d1d50ca52352.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/ff3a1e8c059d5ec37169d1d50ca52352.png)
 
 **Disable and enable alert notifications**
 
@@ -43149,11 +43149,11 @@ You can disable notifications of enabled alerts. After you disable notifications
 
 2. In the alert list, click the name of the target alert. On the **Alert Overview** page, click **Modify** in the **Notification Status** field.
 
-   ![](assets/2635b4c7c9728e1ac8d14d382c41b763.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/2635b4c7c9728e1ac8d14d382c41b763.png)
 
 3. Set the time range for which notifications are disabled, and then click **Confirm**. After you disable alert notifications, you can view the time when alert notifications resume in the **Notification Status** field. You can click **Modify** in the **Notification Status** field to manually resume alert notifications.
 
-   ![](assets/6a50595ccc3ae6526d975d798c1b76a3.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/6a50595ccc3ae6526d975d798c1b76a3.png)
 
 **Delete an alert**
 
@@ -43411,7 +43411,7 @@ Download the DingTalk certificate, import the certificate to the physical machin
 
    Information similar to the following example is returned.
 
-   ![](assets/a1b6259c60793561fc2fff3ca736fc9f.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/a1b6259c60793561fc2fff3ca736fc9f.jpeg)
 
    <ol type="i" start="4">
 
@@ -43585,11 +43585,11 @@ Log preview is a way of log data consumption. To preview log data that is stored
 
    icon next to the Logstore, and then select **Consumption Preview**.
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
 4. In the Consumption Preview dialog box, select a shard, set a time range, and then click **Preview**. The log preview page displays the log data of the first 10 packets in the specified time range.
 
-   ![](assets/bd3df818cd30123c9fb9ccef8b597cff.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/bd3df818cd30123c9fb9ccef8b597cff.png)
 
 <a id="section-7-3"></a>
 
@@ -43957,7 +43957,7 @@ This topic describes how to use the console, API, and SDK to view the status of 
 
    **> Data Consumption**.
 
-   <img src="assets/eda25c22397e2b8f423c9f37e13248d8.png" width="9" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/eda25c22397e2b8f423c9f37e13248d8.png" width="9" alt="">
 
 4. Click the consumer group whose data consumption progress you want to view. The data consumption progress of each shard in the Logstore is displayed.
 
@@ -44056,7 +44056,7 @@ Log Service LogHub provides efficient and reliable log collection and consumptio
 
   Figure 1. Architecture and implementation
 
-  ![](assets/e3d4b3b297ac0a6e35dcbad8b07e4dc7.png)
+  ![](en-sls-user-guide-v3.18.3-20241030.assets/e3d4b3b297ac0a6e35dcbad8b07e4dc7.png)
 
 **Limits**
 
@@ -45100,7 +45100,7 @@ When you use a RAM user to ship data from Log Service to Object Storage Service 
 
    In the search results, the value in the **Role Identifier** column is the ARN of the RAM role.
 
-   ![](assets/694a6dc43658c6e9c603b5a4bab20310.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/694a6dc43658c6e9c603b5a4bab20310.jpeg)
 
 <a id="section-8-1-4"></a>
 
@@ -45274,7 +45274,7 @@ OpenTelemetry is a globally accepted standard of distributed tracing, and is com
 
 OpenTelemetry defines data formats, and generates, collects, and sends data. OpenTelemetry does not analyze or visualize data. The Trace application is implemented based on the OpenTelemetry protocol. You can use the application to collect trace data from OpenTelemetry and other platforms, such as Jaeger, Zipkin, and SkyWalking. You can also store, analyze, and visualize trace data.
 
-![](assets/6f0ca40d14bf43a6fccef7534e48687d.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/6f0ca40d14bf43a6fccef7534e48687d.png)
 
 - Multiple import methods
 
@@ -45441,7 +45441,7 @@ Before you select an import method to import trace data to Log Service, take not
 
 - If you do not use an open source standard protocol, we recommend that you use the same import method for all services from which trace data is imported in your tracing system. Otherwise, the trace data that is collected may be incomplete.
 
-![](assets/e021b5076b8488fdc48c16cddd2eccd9.png)
+![](en-sls-user-guide-v3.18.3-20241030.assets/e021b5076b8488fdc48c16cddd2eccd9.png)
 
 **Details of import methods**
 
@@ -45852,7 +45852,7 @@ If you use a self-managed framework or have special requirements, you can manual
 
 What do I do if the "Could not find TLS ALPN provider" error message is returned by the Java agent when the OpenJDK version is earlier than 8u252?
 
-![](assets/9e32b9985dfdd02f7172cf37a8b28128.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/9e32b9985dfdd02f7172cf37a8b28128.jpeg)
 
 To resolve this issue, perform the following steps:
 
@@ -46709,7 +46709,7 @@ with tracer.start_as_current_span("foo"):
     print("Hello world!")
 ```
 
-![](assets/227dae4605443541934524dc885966d8.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/227dae4605443541934524dc885966d8.jpeg)
 
 **What to do next**
 
@@ -49287,11 +49287,11 @@ Trace data is collected. For more information, see Import trace data.
 
    For example, you want to query the trace data of the last hour for the user service that has a latency of more than 10 ms. You can set the filter conditions shown in the following figure.
 
-   ![](assets/4e73edf07532a843627bea51780d3c9c.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/4e73edf07532a843627bea51780d3c9c.png)
 
 4. On the **Trace Analysis** tab, view the query results.
 
-   ![](assets/430d234fb3e78a9b69c34b24658f2270.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/430d234fb3e78a9b69c34b24658f2270.png)
 
 5. Set statistics by group
 
@@ -49319,7 +49319,7 @@ Trace data is collected. For more information, see Import trace data.
 
    Log Service lists the information of each service by **service**, for example, the number of spans, queries per second (QPS), and average latency.
 
-   ![](assets/2755b7d07972288464360a8138221eb4.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/2755b7d07972288464360a8138221eb4.png)
 
 <a id="section-9-1-7"></a>
 
@@ -49363,7 +49363,7 @@ Trace data is collected. For more information, see Import trace data.
 
 4. View the details of the trace.
 
-   ![](assets/ce364e46b4d2353e26b78fd52a71b1e6.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/ce364e46b4d2353e26b78fd52a71b1e6.png)
 
    | No. | Description |
    | --- | --- |
@@ -49505,7 +49505,7 @@ The following procedure describes how to view the trace data imported from Log S
 
 3. Enter `trace` in the **xcol(time)** field. Then, click **Run query** in the upper-right corner.
 
-   ![](assets/30cd24789a400c091857f4cb526e3ca5.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/30cd24789a400c091857f4cb526e3ca5.jpeg)
 
 <a id="section-9-1-8-2"></a>
 
@@ -49964,7 +49964,7 @@ This topic describes how to implement OpenTelemetry automatic instrumentation in
    >
    > step. The Auto-Instrumentation name is the value of the **metadata.name** parameter. You can change the name based on your business requirements.
 
-   ![](assets/f4637719cc53cde66b61aed120fb0f0a.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/f4637719cc53cde66b61aed120fb0f0a.jpeg)
 
    - Java
 
@@ -51511,7 +51511,7 @@ Log Service supports the Remote Write Protocol. You can use the remote write fea
 
    **>**
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="10" alt="">
 
    </li>
 
@@ -51519,7 +51519,7 @@ Log Service supports the Remote Write Protocol. You can use the remote write fea
 
    **Consumption Preview**. If data is displayed in the **Consumption Preview** panel, Prometheus is correctly configured.
 
-   ![](assets/33580fd4e670881b0dd2c5a942a3b8f3.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/33580fd4e670881b0dd2c5a942a3b8f3.jpeg)
 
 **What to do next**
 
@@ -51787,7 +51787,7 @@ Time series data is collected. For more information, see Collect time series dat
 
    - Enter a query statement in the field next to the Metricstore name and click **Preview**.
 
-     You can click the **Add Query Statement** button or the <img src="assets/6e55b9432ef5f0c7e8cf6da94b969df6.png" width="12" alt=""> icon to add or copy a query statement. Then, enter the query statement and click
+     You can click the **Add Query Statement** button or the <img src="en-sls-user-guide-v3.18.3-20241030.assets/6e55b9432ef5f0c7e8cf6da94b969df6.png" width="12" alt=""> icon to add or copy a query statement. Then, enter the query statement and click
 
      **Preview**.
 
@@ -51814,14 +51814,14 @@ Example: In the following query statement, set the values of the **host**, **url
 method=~".*", status=~".*", proxy_upstream_name=~".*"}[1m]))') from metrics limit 10000
 ```
 
-![](assets/c471212534a14c4d91195d5d056e9d06.jpeg)
+![](en-sls-user-guide-v3.18.3-20241030.assets/c471212534a14c4d91195d5d056e9d06.jpeg)
 
 **Related operations**
 
 | Operation | Description |
 | --- | --- |
-| Copy a query statement | On the <strong>Query Statements</strong> tab, click the<img src="assets/6e55b9432ef5f0c7e8cf6da94b969df6.png" width="12" alt="">icon to copy the specified query statement. |
-| View raw data | On the <strong>Query Statements</strong> tab, click the<img src="assets/73633469d987c12add7945c838acc492.png" width="15" alt="">icon to view raw time series data. |
+| Copy a query statement | On the <strong>Query Statements</strong> tab, click the<img src="en-sls-user-guide-v3.18.3-20241030.assets/6e55b9432ef5f0c7e8cf6da94b969df6.png" width="12" alt="">icon to copy the specified query statement. |
+| View raw data | On the <strong>Query Statements</strong> tab, click the<img src="en-sls-user-guide-v3.18.3-20241030.assets/73633469d987c12add7945c838acc492.png" width="15" alt="">icon to view raw time series data. |
 | Configure the properties of a time series chart | On the <strong>Properties</strong> tab, configure the properties of the time series chart. For more information, see Configure a time series chart. |
 | Configure Interactive Behavior | Drill-down events are important for data analysis. You can use drill-down events to switch between the levels of data dimensions and the analysis granularities to obtain more detailed information. For more information, see Drill-down events. |
 | Add query and analysis results to a dashboard | Click <strong>Add to New Dashboard</strong> to add the query and analysis results to a dashboard. |
@@ -53408,23 +53408,23 @@ If you use the full regex mode, Log Service automatically generates a regular ex
 
    In the following figure, the log content that is included in the message field is highlighted in orange, and the log content that is not included is highlighted in blue. The figure shows that the substring that follows the  `at`  word is not included in the  `message`  field. Therefore, the regular expression does not match fields in the sample log entry as expected and cannot be used to collect log data.
 
-   ![](assets/ce40fa8b9dfcb6344949c5699b45434d.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/ce40fa8b9dfcb6344949c5699b45434d.png)
 
 9. Check whether the regular expression can match fields in the sample log entry that contains two colons (::).
 
    The following figure shows that the regular expression fails to match fields in the sample log entry.
 
-   ![](assets/49ba9d8d1b947a1ba272c0d79715cb19.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/49ba9d8d1b947a1ba272c0d79715cb19.png)
 
 0. Replace the last subexpression in the regular expression with  `[\S\s]+` , and check whether the regular expression can match fields in the sample log entries as expected.
 
    The following figure shows how the modified regular expression matches the substring that follows the  `at`  word.
 
-   ![](assets/03237a2f8d9069da30173bedb382c66f.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/03237a2f8d9069da30173bedb382c66f.png)
 
    The following figure shows how the modified regular expression matches the sample log entry that contains two colons (::).
 
-   ![](assets/efbade7c1c52b246d731c2b81a4c6628.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/efbade7c1c52b246d731c2b81a4c6628.png)
 
    You can perform the preceding steps to debug your regular expression. After you validate the regular expression, you can apply the expression to a Logtail configuration.
 
@@ -53542,17 +53542,17 @@ If you collect logs in delimiter mode, Log Service allows you to specify a non-p
 
 5. Copy the returned result. A non-printable character is enclosed in double quotation marks (").
 
-   ![](assets/0fc2cc2f9b85a35e9d21fe1a4545bc5c.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/0fc2cc2f9b85a35e9d21fe1a4545bc5c.png)
 
 6. Paste the returned result between the digits 5 and 6.
 
    In the **Logtail Config** step, paste the result in the **Log Sample** field. For more information, see Collect logs in delimiter mode.
 
-   ![](assets/b6dc12273aca98803eba9847944b3c6e.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/b6dc12273aca98803eba9847944b3c6e.png)
 
 7. Delete the double quotation marks (") between the digits 5 and 6. A non-printable character is configured in a sample log.
 
-   ![](assets/60655bb69597fffc08ef49a4758cf32d.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/60655bb69597fffc08ef49a4758cf32d.png)
 
 <a id="section-13-1-9"></a>
 
@@ -53866,7 +53866,7 @@ Log Service allows you to collect logs from containers. You can specify the cont
 
    2ba4ebdaf503 in the response indicates the ID of the container.
 
-   ![](assets/3fb25eef223e7a3c0623067125040e24.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/3fb25eef223e7a3c0623067125040e24.jpeg)
 
 3. Run the following command to obtain the labels of the container. The *2ba4ebdaf503* variable in the command is the ID of a container. Replace the value of the variable with an actual ID.
 
@@ -53876,7 +53876,7 @@ Log Service allows you to collect logs from containers. You can specify the cont
 
    The **Labels** field in the response indicates the container labels.
 
-   ![](assets/7067adbe10a1965b92b80407f08309eb.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/7067adbe10a1965b92b80407f08309eb.jpeg)
 
 **Obtain environment variables**
 
@@ -53890,7 +53890,7 @@ Log Service allows you to collect logs from containers. You can specify the cont
 
    2ba4ebdaf503 in the response indicates the ID of the container.
 
-   ![](assets/3fb25eef223e7a3c0623067125040e24.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/3fb25eef223e7a3c0623067125040e24.jpeg)
 
 3. Run the following command to obtain the environment variables of the container. The *2ba4ebdaf503* variable in the command is the ID of a container. Replace the value of the variable with an actual ID.
 
@@ -53898,7 +53898,7 @@ Log Service allows you to collect logs from containers. You can specify the cont
    docker exec 2ba4ebdaf503 env
    ```
 
-   ![](assets/375ab8598774884da1e063c6fed1bba1.jpeg)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/375ab8598774884da1e063c6fed1bba1.jpeg)
 
 <a id="section-13-2"></a>
 
@@ -54146,7 +54146,7 @@ For example, if more than five error logs are detected in the previous 5 minutes
 
    icon.
 
-   <img src="assets/62dd91f803f3e667e33dd091f3d6d5bd.png" width="12" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/62dd91f803f3e667e33dd091f3d6d5bd.png" width="12" alt="">
 
 4. In the Dashboard list, click the dashboard for which you want to configure alert rules.
 
@@ -54154,11 +54154,11 @@ For example, if more than five error logs are detected in the previous 5 minutes
 
    **> Create Alert**.
 
-   <img src="assets/cf4a81ad557df1da8883ddf21ed47bd2.png" width="6" alt="">
+   <img src="en-sls-user-guide-v3.18.3-20241030.assets/cf4a81ad557df1da8883ddf21ed47bd2.png" width="6" alt="">
 
 6. In the **Create Alert** panel, set the parameters. The following figure shows the parameter settings.
 
-   ![](assets/057bcdc6608c36f489c4c1a29ff65bc2.png)
+   ![](en-sls-user-guide-v3.18.3-20241030.assets/057bcdc6608c36f489c4c1a29ff65bc2.png)
 
    The following example shows how to set the parameters:
 

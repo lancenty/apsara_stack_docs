@@ -21,7 +21,7 @@ ApsaraStack Parallel File System (APFS) is a high-performance parallel file syst
 
 The following figure shows the service architecture.
 
-![](assets/3500c27b6a2d4da6ba8c7f9d689aae09.jpeg)
+![](en-apfs-product-introduction-v3.18.6-2607-20260831.assets/3500c27b6a2d4da6ba8c7f9d689aae09.jpeg)
 
 **Application protocol**
 

@@ -161,7 +161,7 @@ Before you start, make sure that the following conditions are met:
 
 The ECS instance used as an example in this topic is deployed in a VPC but is not assigned a public IP address. The following flowchart shows the configuration process.
 
-![](assets/ba5a120a95812a1d15063a1555955fd7.png)
+![](en-nat-user-guide-v3.18.3-20241028.assets/ba5a120a95812a1d15063a1555955fd7.png)
 
 1. Create a NAT gateway
 
@@ -266,7 +266,7 @@ Before you associate an EIP with a NAT gateway, make sure that the following req
 
 2. In the top navigation bar, select the region where the NAT gateway is deployed.
 
-3. On the **NAT Gateways** page, find the NAT gateway with which you want to associate an EIP and choose <img src="assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt=""> **> Bind elastic public network IP** in the **Operation** column.
+3. On the **NAT Gateways** page, find the NAT gateway with which you want to associate an EIP and choose <img src="en-nat-user-guide-v3.18.3-20241028.assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt=""> **> Bind elastic public network IP** in the **Operation** column.
 
 4. In the **Bind elastic public network IP** dialog box, set the following parameters and click **OK**.
 
@@ -464,11 +464,11 @@ You can modify the name and description of a NAT gateway.
 
 3. On the **NAT Gateways** page, find the NAT gateway that you want to modify and click **Management** in the **Operation** column.
 
-4. On the **Basic information** page, click <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> next to **NAT Gateway name**. In the dialog box
+4. On the **Basic information** page, click <img src="en-nat-user-guide-v3.18.3-20241028.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> next to **NAT Gateway name**. In the dialog box
 
    that appears, enter a name for the NAT gateway and click **OK**.
 
-5. Click <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> next to **Description**. In the dialog box that appears, enter a description for the NAT
+5. Click <img src="en-nat-user-guide-v3.18.3-20241028.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> next to **Description**. In the dialog box that appears, enter a description for the NAT
 
    gateway and click **OK**.
 
@@ -494,7 +494,7 @@ Before you delete a NAT gateway, make sure that the following requirements are m
 
 2. In the top navigation bar, select the region where the NAT gateway is deployed.
 
-3. On the **NAT Gateways** page, find the NAT gateway that you want to delete and choose <img src="assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt="">
+3. On the **NAT Gateways** page, find the NAT gateway that you want to delete and choose <img src="en-nat-user-guide-v3.18.3-20241028.assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt="">
 
    **> Delete** in the **Operation** column.
 
@@ -518,7 +518,7 @@ You can mark and classify NAT gateways by adding tags to NAT gateways. This allo
 
 2. In the top navigation bar, select the region where the NAT gateway is deployed.
 
-3. On the **NAT Gateways** page, find the NAT gateway that you want to manage, move the pointer over the **-** icon or the right side of a tag in the **Tag** column, and then click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt="">
+3. On the **NAT Gateways** page, find the NAT gateway that you want to manage, move the pointer over the **-** icon or the right side of a tag in the **Tag** column, and then click the <img src="en-nat-user-guide-v3.18.3-20241028.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt="">
 
    icon.
 
@@ -555,7 +555,7 @@ Before you associate an EIP with a NAT gateway, make sure that the following req
 
 2. In the top navigation bar, select the region where the NAT gateway is deployed.
 
-3. On the **NAT Gateways** page, find the NAT gateway with which you want to associate an EIP and choose <img src="assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt=""> **> Bind elastic public network IP** in the **Operation** column.
+3. On the **NAT Gateways** page, find the NAT gateway with which you want to associate an EIP and choose <img src="en-nat-user-guide-v3.18.3-20241028.assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt=""> **> Bind elastic public network IP** in the **Operation** column.
 
 4. In the **Bind elastic public network IP** dialog box, set the following parameters and click **OK**.
 
@@ -579,7 +579,7 @@ Make sure that the EIP to be disassociated is not used in an SNAT entry or a DNA
 
 2. In the top navigation bar, select the region where the NAT gateway is deployed.
 
-3. On the **NAT Gateways** page, find the NAT gateway that you want to manage and choose <img src="assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt=""> **> Unbind flexible public network IP** in the **Operation** column.
+3. On the **NAT Gateways** page, find the NAT gateway that you want to manage and choose <img src="en-nat-user-guide-v3.18.3-20241028.assets/052b7e8e87f5812ee53f25cb659c0b06.png" width="13" alt=""> **> Unbind flexible public network IP** in the **Operation** column.
 
 4. In the **Unbind flexible public network IP** dialog box, select the EIP that you want to disassociate, and click **OK**.
 

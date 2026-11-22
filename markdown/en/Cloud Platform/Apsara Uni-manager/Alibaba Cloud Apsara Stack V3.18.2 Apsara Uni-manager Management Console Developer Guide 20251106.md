@@ -293,7 +293,7 @@ The information on the API directory page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service.
 
@@ -342,7 +342,7 @@ To use AccessKey pairs for personal accounts, you must configure the header para
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of the personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -612,7 +612,7 @@ You must call a specific API operation to obtain the organization ID. You can ob
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon, choose **Platform** > **Apsara Uni-manager**, and then select the **2019-**
+4. Click the <img src="en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon, choose **Platform** > **Apsara Uni-manager**, and then select the **2019-**
 
    **05-10** version.
 
@@ -628,7 +628,7 @@ You must call a specific API operation to obtain the resource set ID. You can ob
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon, choose **Platform** > **Apsara Uni-manager**, and then select the **2019-**
+4. Click the <img src="en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> icon, choose **Platform** > **Apsara Uni-manager**, and then select the **2019-**
 
    **05-10** version.
 
@@ -5246,7 +5246,7 @@ POST /ascm/auth/user/activateUser HTTP/1.1
 | muserId | String | 3 | The ID of the user who last modified the role. |
 | organizationVi sibility | String | organizationVisibili ty.global | The sharing scope of the role.<br>• organizationVisibility.global: The role is globally shared.<br>• organizationVisibility.organization: The role is shared within the same organization.<br>• organizationVisibility.orgAndSubOrgs: The role is shared within the organization and its subordinate organizations. |
 
-![](assets/186adc1dcae4c1719810b88cfbfcc98e.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/186adc1dcae4c1719810b88cfbfcc98e.png)
 
 <table>
   <tr>
@@ -5647,7 +5647,7 @@ POST /ascm/auth/user/activateUser HTTP/1.1
   </tr>
 </table>
 
-![](assets/186adc1dcae4c1719810b88cfbfcc98e.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/186adc1dcae4c1719810b88cfbfcc98e.png)
 
 <table>
   <tr>
@@ -5742,7 +5742,7 @@ POST /ascm/auth/user/activateUser HTTP/1.1
   </tr>
 </table>
 
-![](assets/aff1ee7e42d70a011addb705b271fd85.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/aff1ee7e42d70a011addb705b271fd85.png)
 
 <table>
   <tr>
@@ -6287,7 +6287,7 @@ POST /ascm/auth/user/activateUser HTTP/1.1
   </tr>
 </table>
 
-![](assets/5af9bce9c1fecd1e528349dc835e8089.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/5af9bce9c1fecd1e528349dc835e8089.png)
 
 <table>
   <tr>
@@ -26018,20 +26018,20 @@ This operation does not have operation-specific request headers and uses only co
 |  |  |  |  |  | The start of the time range to query monitoring data.<br>• If the <code> StartTime </code> and <code> EndTime </code> parameters are not specified, the monitoring data of the last statistical period is queried.<code>  </code> |
 |  |  |  |  |  |  |
 | Parame ter | Typ e | Locati on | Require d | Example | • If the <code> StartTime </code> and <code> EndTime </code>Description parameters are |
-| StartTime | Strin g | Query | No | 1618368900000 | specified, the monitoring data of the last statistical period in the specified time range is<br>![](assets/3cb2597104e1261dc7efdb4c2613dc4a.png)<br>queried.<code>    </code> The following examples demonstrate how to determine the period in which monitoring data is queried:<br>• If you set the <code>Period</code> parameter to 15, the specified time range must be less than or equal to 20 minutes. For example, if you set the StartTime parameter to 2021-05-08 08:10:00 and the EndTime parameter to 2021-05-08 08:30:00, the monitoring data of the last 15 seconds in the time range is queried.<br>• If you set the <code>Period</code> parameter to 60 or 900, the specified time range must be less than or equal to 2 hours. For example, if you set the Period parameter to 60, the StartTime parameter to 2021-05-08 08:00:00, and the EndTime parameter to 2021-05-08 10:00:00, the monitoring data of the last 60 seconds in the time range is queried. |
+| StartTime | Strin g | Query | No | 1618368900000 | specified, the monitoring data of the last statistical period in the specified time range is<br>![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/3cb2597104e1261dc7efdb4c2613dc4a.png)<br>queried.<code>    </code> The following examples demonstrate how to determine the period in which monitoring data is queried:<br>• If you set the <code>Period</code> parameter to 15, the specified time range must be less than or equal to 20 minutes. For example, if you set the StartTime parameter to 2021-05-08 08:10:00 and the EndTime parameter to 2021-05-08 08:30:00, the monitoring data of the last 15 seconds in the time range is queried.<br>• If you set the <code>Period</code> parameter to 60 or 900, the specified time range must be less than or equal to 2 hours. For example, if you set the Period parameter to 60, the StartTime parameter to 2021-05-08 08:00:00, and the EndTime parameter to 2021-05-08 10:00:00, the monitoring data of the last 60 seconds in the time range is queried. |
 |  |  |  |  |  |  |
 | Parame ter | Typ e | Locati on | Require d | Example | • If you set the Description<code>Period</code> parameter to 3600, |
 |  |  |  |  |  | the specified time range must be less than or equal to two days. For example, if you set the StartTime parameter to 2021-05-08 08:00:00 and the EndTime parameter to 2021-05-10 08:00:00, the monitoring data of the last 3,600 seconds in the time range is queried.<br>The following formats are supported:<br>• UNIX timestamp: the number of milliseconds that have elapsed since 00:00:00 Thursday, January 1, 1970.<br>• UTC time: the UTC time that follows the YYYY-MM-DDThh:mm:ssZ format.<br>• <em>You must set the </em> <em><code> StartTime </code></em> <em>parameter to a</em> <em>point in time that</em> <em>is later than</em> <em>00:00:00 UTC on</em> <em>Thursday,</em> <em>January 1, 1970.</em><em>Otherwise, this</em> |
 |  |  |  |  |  | <em>parameter is</em> <em>invalid.</em>The end of the time range to query monitoring data.<br>• We recommend that you use UNIX<br>• If the <code> StartTime </code><br>• timestamps to prevent time zone-and <code> EndTime </code> related issues.parameters are not specified, the monitoring data of the last statistical period is queried.<code>  </code> |
 |  |  |  |  |  |  |
 | Parame ter | Typ e | Locati on | Require d | Example | • If the <code> StartTime </code> Descriptionand <code> EndTime </code> parameters are |
-| EndTime | Strin g | Query | No | 1618368960000 | specified, the monitoring data of the last statistical period in the specified time range is<br>![](assets/fddf545813259ce3fe1a691e59ec3b56.png)<br>queried.<code>    </code> The following examples demonstrate how to determine the period in which monitoring data is queried:<br>• If you set the <code>Period</code> parameter to 15, the specified time range must be less than or equal to 20 minutes. For example, if you set the StartTime parameter to 2021-05-08 08:10:00 and the EndTime parameter to 2021-05-08 08:30:00, the monitoring data of the last 15 seconds in the time range is queried.<br>• If you set the <code>Period</code> parameter to 60 or 900, the specified time range must be less than or equal to 2 hours. For example, if you set the Period parameter to 60, the StartTime parameter to 2021-05-08 08:00:00, and the EndTime parameter to 2021-05-08 10:00:00, the monitoring data of the last 60 seconds in the time range is queried. |
+| EndTime | Strin g | Query | No | 1618368960000 | specified, the monitoring data of the last statistical period in the specified time range is<br>![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/fddf545813259ce3fe1a691e59ec3b56.png)<br>queried.<code>    </code> The following examples demonstrate how to determine the period in which monitoring data is queried:<br>• If you set the <code>Period</code> parameter to 15, the specified time range must be less than or equal to 20 minutes. For example, if you set the StartTime parameter to 2021-05-08 08:10:00 and the EndTime parameter to 2021-05-08 08:30:00, the monitoring data of the last 15 seconds in the time range is queried.<br>• If you set the <code>Period</code> parameter to 60 or 900, the specified time range must be less than or equal to 2 hours. For example, if you set the Period parameter to 60, the StartTime parameter to 2021-05-08 08:00:00, and the EndTime parameter to 2021-05-08 10:00:00, the monitoring data of the last 60 seconds in the time range is queried. |
 |  |  |  |  |  |  |
 | Parame ter | Typ e | Locati on | Require d | Example | • If you set the Description<code>Period</code> parameter to 3600, |
 |  |  |  |  |  | the specified time range must be less than or equal to two days. For example, if you set the StartTime parameter to 2021-05-08 08:00:00 and the EndTime parameter to 2021-05-10 08:00:00, the monitoring data of the last 3,600 seconds in the time range is queried.<br>The following formats are supported:<br>• UNIX timestamp: the number of milliseconds that have elapsed since 00:00:00 Thursday, January 1, 1970. |
 | Dimension s | Strin g | Query | No | \[{"instanceId": "i-abcdefgh12\*\*\*\*"}\] | • UTC time: the UTC The dimensions that time that follows the specify the resources YYYY-MM-whose monitoring data DDThh:mm:ssZ you want to query.format.Set the value to a <em>We recommend</em> collection of key-value <em>that you use UNIX</em> pairs. A typical key-<em>timestamps to</em> value pair is <em>prevent time zone-</em><code>instanceId:i-</code><em>related issues.</em><code>2ze2d6j5uhg20x47****</code><code> </code>.<br><em>You can query a</em> <em>maximum of 50</em> <em>instances in a</em> <em>single request.</em> |
 
-![](assets/58d9e570df833cbbf76ab2ced6448b86.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/58d9e570df833cbbf76ab2ced6448b86.png)
 
 | Parame ter | Typ e | Locati on | Require d | Example | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -26157,7 +26157,7 @@ This operation does not have operation-specific request headers and uses only co
   </tr>
 </table>
 
-![](assets/e96724e600aff9bbad546784391508fb.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/e96724e600aff9bbad546784391508fb.png)
 
 <table>
   <tr>
@@ -26691,7 +26691,7 @@ This operation does not have operation-specific request headers and uses only co
 | Force | Boole an | Query | No | true | Specifies whether to forcibly install the CloudMonitor agent.Valid values:<br>• true (default)<br>• false |
 | InstanceId s | Repe atList | Query | Yes | i-m5e0k0bexac8tykr\*\*\*\* | The IDs of the ECS instances.<br>Valid values of N: 1 to 10.<br><em>You must specify</em> <em>either the </em> <em><code> InstallCommand</code></em> <em><code> </code></em><em> or the </em> <em><code> InstanceIds </code></em> <em>parameter.</em> |
 
-![](assets/f2c5a1407da26649c4bf12dcf9086df7.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/f2c5a1407da26649c4bf12dcf9086df7.png)
 
 **Response parameters**
 
@@ -27559,7 +27559,7 @@ For more information about example values of the cloud service parameters, such 
 | Escalations.Cri tical.Comparis onOperator | String | No | GreaterThanOrE qualToThreshold | The operator that is used to compare the metric value with the threshold for Critical-level alerts. Valid values:<br><code>• GreaterThanOrEqualToThreshold</code><code> </code>: greater than or equal to the threshold<br>• <code> GreaterThanThreshold </code>: greater than the threshold<br><code>• LessThanOrEqualToThreshold</code>: less than or equal to the threshold<br>• <code> LessThanThreshold </code>: less than the threshold<br>• <code> NotEqualToThreshold </code>: not equal to the threshold<br>• <code> GreaterThanYesterday </code>: greater than the metric value at the same time yesterday<br>• <code> LessThanYesterday </code>: less than the metric value at the same time yesterday<br>• <code> GreaterThanLastWeek </code>: greater than the metric value at the same time last week<br>• <code> LessThanLastWeek </code>: less than the metric value at the same time last week<br>• <code> GreaterThanLastPeriod </code>: greater than the metric value in the last monitoring cycle<br>• <code> LessThanLastPeriod </code>: less than the metric value in the last monitoring cycle |
 | Escalations.Cri tical.Threshold | String | No | 90 | The threshold for Critical-level alerts. |
 
-![](assets/966be73880754827ad0587f6d84b3923.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/966be73880754827ad0587f6d84b3923.png)
 
 <table>
   <tr>
@@ -27592,7 +27592,7 @@ For more information about example values of the cloud service parameters, such 
   </tr>
 </table>
 
-![](assets/bc2d7cb501c32e60dcddb9e78cf9e9eb.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/bc2d7cb501c32e60dcddb9e78cf9e9eb.png)
 
 <table>
   <tr>
@@ -27625,7 +27625,7 @@ For more information about example values of the cloud service parameters, such 
   </tr>
 </table>
 
-![](assets/6ebdf4e694a9c65497d522ed3a7cedb5.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/6ebdf4e694a9c65497d522ed3a7cedb5.png)
 
 <table>
   <tr>
@@ -29736,7 +29736,7 @@ This operation does not have operation-specific request headers and uses only co
 | -SilenceTi me | Integ er |  | No | 86400 | The mute period during which new alerts are not sent even if the trigger conditions are met.Valid values of N: 1 to 200.<br>Unit: seconds. Default value: 86400. Minimum value: 3600. |
 | -Period | Strin g |  | No | 60 | The aggregation period of the metric data.<br>Valid values of N: 1 to 200.<br>Set the <code> Period </code> parameter to an integral multiple of 60. Unit: seconds. Default value: 300. |
 
-![](assets/ff1304f2c93445b53452f9ef9184a6fa.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/ff1304f2c93445b53452f9ef9184a6fa.png)
 
 | Parame ter | Typ e | Locati on | Require d | Example | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -30708,7 +30708,7 @@ This operation does not have operation-specific request headers and uses only co
 | -Time | Strin g |  | No | 20171013T170923.456 +0800 | The time when the event occurred.<br>Format: <code>yyyyMMddTHHmmss.SSSZ</code><code> </code>.<br>Valid values of N: 1 to 50.<br><em>You can also</em> <em>specify a UNIX</em> <em>timestamp.</em><em>Example:</em> <em>1552199984000.</em><em>Unit: milliseconds.</em> |
 | -GroupId | Strin g |  | No | 123456 | The ID of the application group. Valid values of N: 0 to 50.<br>Default value: 0. This value indicates that the event to be reported does not belong to any application group. |
 
-![](assets/bf84cc165ce7e1b8564150d87e1f4730.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/bf84cc165ce7e1b8564150d87e1f4730.png)
 
 **Response parameters**
 
@@ -31776,9 +31776,9 @@ This operation does not have operation-specific request headers and uses only co
 | AlertConfi g.SilenceT ime | Integ er | Query | No | 86400 | The mute period during which new alerts are not sent even if the trigger conditions are met. Unit: seconds. Default value: 86400, which indicates one day. |
 | AlertConfi g.WebHoo k | Strin g | Query | No | https://www.aliyun.com/webhook.json | The callback URL. |
 
-![](assets/ef61eeefe674bdccbf075f52d1ac53e0.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/ef61eeefe674bdccbf075f52d1ac53e0.png)
 
-![](assets/fe8f7da2245847a0582ef35e2b8113e0.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/fe8f7da2245847a0582ef35e2b8113e0.png)
 
 | Parame ter | Typ e | Locati on | Require d | Example | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -32149,9 +32149,9 @@ This operation does not have operation-specific request headers and uses only co
 | AlertConfi g.SilenceT ime | Integ er | Query | No | 86400 | The mute period during which new alerts are not sent even if the trigger conditions are met. Unit: seconds. Default value: 86400, which indicates one day. |
 | AlertConfi g.WebHoo k | Strin g | Query | No | https://www.aliyun.com/webhook.json | The callback URL. |
 
-![](assets/ef61eeefe674bdccbf075f52d1ac53e0.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/ef61eeefe674bdccbf075f52d1ac53e0.png)
 
-![](assets/fe8f7da2245847a0582ef35e2b8113e0.png)
+![](en-apsara-uni-manager-management-consol-37e1e188-v3.18.2-20251106.assets/fe8f7da2245847a0582ef35e2b8113e0.png)
 
 | Parame ter | Typ e | Locati on | Require d | Example | Description |
 | --- | --- | --- | --- | --- | --- |

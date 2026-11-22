@@ -320,7 +320,7 @@ This topic describes how users such as O&M engineers log in to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -933,7 +933,7 @@ On the Capacity tab of an Elastic Block Storage (EBS) cluster, you can view the 
 
    | Section or tab | Description |
    | --- | --- |
-   | Physical Capacity Usage | You can view the used physical capacity, total physical capacity, and percentage of used physical capacity.<br>• Total Physical Capacity: the maximum amount of data that can be written to the cluster.<br>• Used Physical Capacity: the used physical capacity reported by PANGU.<br>You can click <strong>More</strong> in the upper-right corner of the <strong>Physical Capacity Usage</strong> section to view the details of the bare disk capacity, total physical capacity, system reserved capacity, system security capacity, used physical capacity, and available physical capacity.<br>Note<br>• If the inventory capacity is sufficient and the physical capacity usage reaches 80%, no more cloud disks can be created. If the remaining inventory capacity is less than the capacity of a cloud disk to be created, the cloud disk cannot be created.<br>• If the physical capacity usage reaches 95%, you are not allowed to write data to the cluster.<br>• After you move the pointer over the icon on the right side of a<br><img src="assets/d816620b7a11b5ad3e56d7e3bf916825.png" width="19" alt=""><br>capacity metric, the system displays the description and calculation formula of the capacity metric in the tooltip. |
+   | Physical Capacity Usage | You can view the used physical capacity, total physical capacity, and percentage of used physical capacity.<br>• Total Physical Capacity: the maximum amount of data that can be written to the cluster.<br>• Used Physical Capacity: the used physical capacity reported by PANGU.<br>You can click <strong>More</strong> in the upper-right corner of the <strong>Physical Capacity Usage</strong> section to view the details of the bare disk capacity, total physical capacity, system reserved capacity, system security capacity, used physical capacity, and available physical capacity.<br>Note<br>• If the inventory capacity is sufficient and the physical capacity usage reaches 80%, no more cloud disks can be created. If the remaining inventory capacity is less than the capacity of a cloud disk to be created, the cloud disk cannot be created.<br>• If the physical capacity usage reaches 95%, you are not allowed to write data to the cluster.<br>• After you move the pointer over the icon on the right side of a<br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/d816620b7a11b5ad3e56d7e3bf916825.png" width="19" alt=""><br>capacity metric, the system displays the description and calculation formula of the capacity metric in the tooltip. |
    | Used Physical Capacity | You can view the volume of data written to the cloud disks, recoverable capacity and system occupied capacity, used capacity, inventory capacity, and oversold ratio. |
    | Capacity Trend | On the <strong>Capacity Trend</strong> tab, you can select a time range to view the trend charts of physical capacity usage and inventory capacity.<br>• Physical Capacity Usage Trends: You can specify a time range to view the trend charts of Total Physical Capacity and Used Physical Capacity.<br>• Inventory Capacity Trend Chart: You can specify a time range to view the trend chart of used inventory capacity.<br>Note<br>You can click <strong>Actions</strong> in the upper-right corner of the trend chart and select <strong>Download Data</strong> to download the monitoring data to your local computer. You can also select <strong>Save as Image</strong> to save the monitoring data as an image. |
    | Capacity Prediction | After the system collects the daily capacity data of storage services deployed in the CDS cluster for a specific period, the system predicts the capacity usage of the CDS cluster for the next week once a day. You can perform operations such as cluster scale-up or scale-down based on the predicted capacity usage.This prevents cluster failures that may be caused by exhausted storage capacity and ensures the security and stability of the cluster.<br>Note<br>• The predicted capacity usage is for reference only. Perform operations based on the actual capacity usage.<br>• Capacity prediction depends on the accumulation of sufficient samples. If the capacity data in a cluster is insufficient, the system cannot predict the capacity usage. No prediction data is available for a newly deployed cluster.<br>You can click the <strong>Capacity Prediction</strong> tab to view the predicted physical capacity usage. |
@@ -1581,7 +1581,7 @@ Chunk servers are used for read and write operations in clusters. You can view t
    <table>
      <tr>
        <td>Add a chunk server to or remove a chunk server from the blacklist</td>
-       <td>If upper-layer services do not need to write data to a chunk server for the moment, you can add the chunk server to the blacklist.<br>After the chunk server is added to the blacklist, no chunks are assigned to the chunk server, and no data is written or replicated to the chunk server.<br>Warning<br>After you add a server to the blacklist, the server becomes unavailable and the service capabilities of the cluster are compromised. Proceed with caution.<br><img src="assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>Move the pointer over the icon in the <strong>Actions</strong> column of a chunk<br>server and click <strong>Add to Blacklist</strong>. The review workflow is automatically initiated. On the <strong>Tasks</strong> page, go to the review task page and wait until the task is completed. Then, the chunk server is added to the blacklist. For more information about how to go to the review task page, see View tasks.<br>Important<br>• You cannot add the chunk server to the blacklist when an abnchunk (unhealthy chunk) error exists in the Apsara Distributed File System cluster. You must handle the cluster error based on the alert suggestions before you can proceed.<br>• If the number of nodes in a cluster does not meet the current EC requirements after you add the chunk server to the blacklist, the system prohibits you from adding the chunk server to the blacklist.<br>• If the review task is rejected or overdue, the blacklist operation fails.<br>To remove the chunk server from the blacklist, move the pointer over the<br><img src="assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>icon in the <strong>Actions</strong> column of the chunk server and then click<br><strong>Delete Blacklist</strong>.</td>
+       <td>If upper-layer services do not need to write data to a chunk server for the moment, you can add the chunk server to the blacklist.<br>After the chunk server is added to the blacklist, no chunks are assigned to the chunk server, and no data is written or replicated to the chunk server.<br>Warning<br>After you add a server to the blacklist, the server becomes unavailable and the service capabilities of the cluster are compromised. Proceed with caution.<br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>Move the pointer over the icon in the <strong>Actions</strong> column of a chunk<br>server and click <strong>Add to Blacklist</strong>. The review workflow is automatically initiated. On the <strong>Tasks</strong> page, go to the review task page and wait until the task is completed. Then, the chunk server is added to the blacklist. For more information about how to go to the review task page, see View tasks.<br>Important<br>• You cannot add the chunk server to the blacklist when an abnchunk (unhealthy chunk) error exists in the Apsara Distributed File System cluster. You must handle the cluster error based on the alert suggestions before you can proceed.<br>• If the number of nodes in a cluster does not meet the current EC requirements after you add the chunk server to the blacklist, the system prohibits you from adding the chunk server to the blacklist.<br>• If the review task is rejected or overdue, the blacklist operation fails.<br>To remove the chunk server from the blacklist, move the pointer over the<br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>icon in the <strong>Actions</strong> column of the chunk server and then click<br><strong>Delete Blacklist</strong>.</td>
      </tr>
      <tr>
        <td>Restart services</td>
@@ -1589,7 +1589,7 @@ Chunk servers are used for read and write operations in clusters. You can view t
      </tr>
      <tr>
        <td>Obtain build information</td>
-       <td>Obtain the build information about a meta server. The detailed version information can be used to help you locate issues.<br>To obtain the build information of a chunk server, perform the following steps: Find the chunk server that you want to manage, move the pointer<br><img src="assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>over the icon in the <strong>Actions</strong> column, and then click <strong>Build</strong><br><strong>Information</strong>.</td>
+       <td>Obtain the build information about a meta server. The detailed version information can be used to help you locate issues.<br>To obtain the build information of a chunk server, perform the following steps: Find the chunk server that you want to manage, move the pointer<br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>over the icon in the <strong>Actions</strong> column, and then click <strong>Build</strong><br><strong>Information</strong>.</td>
      </tr>
      <tr>
        <td>View and manage hard disks</td>
@@ -2095,7 +2095,7 @@ The Cloud Defied Storage (CDS)-OPS system automatically analyzes the structures 
    | Operation | Description |
    | --- | --- |
    | View the resource overview | View the total number of compute clusters, compute nodes, Elastic Compute Service (ECS) instances, disks, storage clusters, and exceptions. |
-   | View topology diagnostics | In the <strong>Topology Diagnosis</strong> section, view the topological relationships between compute clusters and storage clusters and the exceptions of each cluster.<br>• For compute clusters, you can view the numbers of unhealthy nodes, unhealthy ECS instances, and unhealthy disks, and the specific unhealthy resources.<br>• For storage clusters, you can view the number of unhealthy disks and unhealthy ECS instances, and the physical capacity usage.<br>You can click the card for a compute cluster or storage cluster to view detailed cluster exception information and handle exceptions as needed.<br>In the upper-right corner of the topology chart, you can perform the<br>following operations: 1. Click the<img src="assets/7c31b897024cf01a508d2d9d8a7ff267.png" width="14" alt="">or<img src="assets/f5a5a2e42e3c3ede4575659743419b5c.png" width="15" alt="">icon to zoom in or out the<br>topology chart. 2. Click the<img src="assets/e0e779387a346d4e34fdefe88afbc51f.png" width="15" alt="">icon to show or hide the thumbnail in the<br>lower-right corner. 3. Click the<img src="assets/5bdd5f266101f937e62dd6a4499fe02d.png" width="13" alt="">icon to restore the canvas to its original<br>state. 4. Click the<img src="assets/def6253feb0fb8078615dec0335fe970.png" width="13" alt="">icon to display the topology chart in full screen. |
+   | View topology diagnostics | In the <strong>Topology Diagnosis</strong> section, view the topological relationships between compute clusters and storage clusters and the exceptions of each cluster.<br>• For compute clusters, you can view the numbers of unhealthy nodes, unhealthy ECS instances, and unhealthy disks, and the specific unhealthy resources.<br>• For storage clusters, you can view the number of unhealthy disks and unhealthy ECS instances, and the physical capacity usage.<br>You can click the card for a compute cluster or storage cluster to view detailed cluster exception information and handle exceptions as needed.<br>In the upper-right corner of the topology chart, you can perform the<br>following operations: 1. Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/7c31b897024cf01a508d2d9d8a7ff267.png" width="14" alt="">or<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/f5a5a2e42e3c3ede4575659743419b5c.png" width="15" alt="">icon to zoom in or out the<br>topology chart. 2. Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/e0e779387a346d4e34fdefe88afbc51f.png" width="15" alt="">icon to show or hide the thumbnail in the<br>lower-right corner. 3. Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/5bdd5f266101f937e62dd6a4499fe02d.png" width="13" alt="">icon to restore the canvas to its original<br>state. 4. Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/def6253feb0fb8078615dec0335fe970.png" width="13" alt="">icon to display the topology chart in full screen. |
 
 **View I/O hang details**
 
@@ -2340,7 +2340,7 @@ In the machine list, you can view hosts in a cluster and the host details. This 
    | Search for hosts | Search for hosts by hostname, IP address, data center, room, server rack, or serial number (SN). |
    | View host details | In the host list, view the name, IP address, Apsara Infrastructure Management project (TianjiProject), service role, status, and SN of a host. |
    | View the server role of a host | Find the host that you want to view and click <strong>detail</strong> in the <strong>Server Role</strong> column. In the ServerRole Status dialog box, view the roles and status of all services on the host. |
-   | Filter hosts that have a specified server role | Click the<img src="assets/295254c5ddf484e1bdf971f4d71ccc08.png" width="13" alt="">icon in the <strong>Server Role</strong> column, select one or more service<br>roles, and then click <strong>OK</strong>. |
+   | Filter hosts that have a specified server role | Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/295254c5ddf484e1bdf971f4d71ccc08.png" width="13" alt="">icon in the <strong>Server Role</strong> column, select one or more service<br>roles, and then click <strong>OK</strong>. |
    | View physical disk information | Find the host that you want to view and click <strong>detail</strong> in the <strong>Physical Disk</strong> <strong>Information</strong> column. In the Disk Information dialog box, view the physical disks and disk information, including the disk ID, total capacity, used capacity, available capacity, and status.<br>Important<br>This feature is supported only by CDS-EBS storage clusters. |
 
 <a id="section-5-2-8-3-2"></a>
@@ -2416,15 +2416,15 @@ This feature is supported only by CDS-EBS clusters. O&M engineers can view the p
    >
    > icon to zoom in or zoom out
    >
-   > <img src="assets/560a5aafbc6883b2a68a94184dcfda63.png" width="15" alt="">
+   > <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/560a5aafbc6883b2a68a94184dcfda63.png" width="15" alt="">
    >
-   > <img src="assets/ebbb935ab0e8e491c5d4d3ddad074c71.png" width="12" alt="">
+   > <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/ebbb935ab0e8e491c5d4d3ddad074c71.png" width="12" alt="">
    >
    > the chart. Click the
    >
    > icon to restore the chart to its default settings.
    >
-   > <img src="assets/faf026bbea452b14b9c7e6ce2472f97b.png" width="14" alt="">
+   > <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/faf026bbea452b14b9c7e6ce2472f97b.png" width="14" alt="">
 
    - **View cluster performance data**
 
@@ -2659,11 +2659,11 @@ Distributed System Performance Monitor visualizes service metrics. O&M engineers
    | View | Select a Distributed System Performance Monitor view. |
    | Metric | Select the metrics that you want to view.<br>Note<br>The available metrics vary depending on the Distributed System Performance Monitor view. The actual metrics available in the console prevail. |
 
-4. Click the <img src="assets/5dd394885abd4d42715bf19e9a95a987.png" width="26" alt=""> icon to view the Distributed System Performance Monitor metrics of the
+4. Click the <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/5dd394885abd4d42715bf19e9a95a987.png" width="26" alt=""> icon to view the Distributed System Performance Monitor metrics of the
 
    selected cluster within the specified time period.
 
-   Click the <img src="assets/765fa724d8050a37cbc378bd7be9b2e3.png" width="10" alt=""> icon in the upper-right corner of a Distributed System Performance Monitor
+   Click the <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/765fa724d8050a37cbc378bd7be9b2e3.png" width="10" alt=""> icon in the upper-right corner of a Distributed System Performance Monitor
 
    metric to view the Distributed System Performance Monitor map of the metric and the metric details of each machine.
 
@@ -2897,7 +2897,7 @@ To facilitate routine O&M operations, the HaiTu console provides common software
 
    <li>
 
-   Find the workflow that you want to run and click **Execute**, or choose <img src="assets/adee05f6c08caf1653b7a62fe6c2ffe5.png" width="2" alt=""> **> Execute the**
+   Find the workflow that you want to run and click **Execute**, or choose <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/adee05f6c08caf1653b7a62fe6c2ffe5.png" width="2" alt=""> **> Execute the**
 
    **workflow** in the **Operation** column.
 
@@ -2933,7 +2933,7 @@ To facilitate routine O&M operations, the HaiTu console provides common software
 
    <li>
 
-   Find the O&M task and choose <img src="assets/adee05f6c08caf1653b7a62fe6c2ffe5.png" width="2" alt=""> **> Batch Execution** in the **Operation** column.
+   Find the O&M task and choose <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/adee05f6c08caf1653b7a62fe6c2ffe5.png" width="2" alt=""> **> Batch Execution** in the **Operation** column.
 
    </li>
 
@@ -2999,7 +2999,7 @@ Manage workflows of O&M operations based on your business requirements.
 | Operation | Description |
 | --- | --- |
 | View workflow information | In the workflow list, view the name, module, description, status, and number of executions of an O&amp;M operation.<br>You can filter workflows by workflow name or description. |
-| Manage workflow details | Find the O&amp;M operation that you want to manage and choose&gt; View<br><img src="assets/adee05f6c08caf1653b7a62fe6c2ffe5.png" width="2" alt=""><br><strong>details</strong> in the <strong>Operation</strong> column. On the workflow details page, view the workflow information, number of executions, success rate, last execution time, workflow design, and execution history, and perform operations as needed.<br>• <strong>View execution details</strong>: On the <strong>Execution History</strong> page, click the execution ID of an execution record or click <strong>View details</strong> in the <strong>Operation</strong> column. On the execution details page, view the execution information, execution parameters, output details, execution progress, and execution details.<br>• <strong>Execute a workflow</strong>: Click <strong>Execute</strong> to execute a workflow. For more information, see Execute a single workflow. |
+| Manage workflow details | Find the O&amp;M operation that you want to manage and choose&gt; View<br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/adee05f6c08caf1653b7a62fe6c2ffe5.png" width="2" alt=""><br><strong>details</strong> in the <strong>Operation</strong> column. On the workflow details page, view the workflow information, number of executions, success rate, last execution time, workflow design, and execution history, and perform operations as needed.<br>• <strong>View execution details</strong>: On the <strong>Execution History</strong> page, click the execution ID of an execution record or click <strong>View details</strong> in the <strong>Operation</strong> column. On the execution details page, view the execution information, execution parameters, output details, execution progress, and execution details.<br>• <strong>Execute a workflow</strong>: Click <strong>Execute</strong> to execute a workflow. For more information, see Execute a single workflow. |
 
 <a id="section-5-2-8-7-4"></a>
 
@@ -3017,7 +3017,7 @@ The Event Center displays events from all EBS clusters, including EBS-1.0 and CD
 
    | Actions | Description |
    | --- | --- |
-   | Search for events | Set conditions such as a time range, event type, region, availability zone,<br>and storage cluster, and then click<img src="assets/5dd394885abd4d42715bf19e9a95a987.png" width="26" alt="">to find matching events. In the<br>event list, you can view the occurrence time, event level, event type, event name, and event content.<br>You can also filter the event list by criteria such as occurrence time, event level, event type, event name, and event content. |
+   | Search for events | Set conditions such as a time range, event type, region, availability zone,<br>and storage cluster, and then click<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/5dd394885abd4d42715bf19e9a95a987.png" width="26" alt="">to find matching events. In the<br>event list, you can view the occurrence time, event level, event type, event name, and event content.<br>You can also filter the event list by criteria such as occurrence time, event level, event type, event name, and event content. |
    | View event details | Click <strong>Details</strong> in the <strong>Actions</strong> column for an event. The <strong>Event Details</strong> panel displays the event ID, event level, event type, submitter IP address, occurrence time, and detailed data. |
 
 <a id="section-5-2-8-8"></a>
@@ -3227,7 +3227,7 @@ Find the migration task that you want to manage and click the task ID or click *
   | Operation | Description |
   | --- | --- |
   | View basic information | View the task ID, task name, source cluster, status, creator, and I/O type. |
-  | Modify basic information | Click the<img src="assets/001f70564aa56942523444d0ffd37df1.png" width="27" alt="">icon next to <strong>DingTalk Notification</strong>, <strong>Associated</strong><br><strong>Project ID</strong>, or <strong>Description</strong>, set the parameter, and then click <strong>OK</strong>. |
+  | Modify basic information | Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/001f70564aa56942523444d0ffd37df1.png" width="27" alt="">icon next to <strong>DingTalk Notification</strong>, <strong>Associated</strong><br><strong>Project ID</strong>, or <strong>Description</strong>, set the parameter, and then click <strong>OK</strong>. |
   | View migration tasks in the region | Click the region name to view the migration tasks in the region on the Migration Management page. |
 
 - **View execution information**: In the **Running Information** section, view the number of tasks in the Running, To Be Run, Complete, or Error state, the total number of migrated disks, the start time, and the progress.
@@ -3291,7 +3291,7 @@ Find the decommissioning task that you want to manage and click the task ID. On 
   | Operation | Description |
   | --- | --- |
   | View basic information | View the cluster name, creator, I/O type, status, destination zone, and destination cluster. |
-  | Modify basic information | Click the<img src="assets/001f70564aa56942523444d0ffd37df1.png" width="27" alt="">icon next to <strong>Description</strong>, enter a description, and<br>then click <strong>Submit</strong>. |
+  | Modify basic information | Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/001f70564aa56942523444d0ffd37df1.png" width="27" alt="">icon next to <strong>Description</strong>, enter a description, and<br>then click <strong>Submit</strong>. |
   | View migration tasks in the region | Click the region name to view the migration tasks in the region on the Migration Management page. |
 
 - **Manage decommissioning tasks**: Resume, modify, pause, or refresh the task as needed.
@@ -3323,7 +3323,7 @@ Click the ID of the batch that you want to perform. On the **Batch Details** pag
   | Operation | Description |
   | --- | --- |
   | View basic information | View the basic information about the task, including the task name, source cluster, status, creator, and I/O type. |
-  | Modify basic information | Click the<img src="assets/001f70564aa56942523444d0ffd37df1.png" width="27" alt="">icon next to <strong>DingTalk Notification</strong> or <strong>Description</strong>,<br>set the parameters, and then click <strong>OK</strong>. |
+  | Modify basic information | Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/001f70564aa56942523444d0ffd37df1.png" width="27" alt="">icon next to <strong>DingTalk Notification</strong> or <strong>Description</strong>,<br>set the parameters, and then click <strong>OK</strong>. |
   | View migration tasks in the region | Click the region name to view the migration tasks in the region on the Migration Management page. |
 
 - **Manage the decommissioning task batch**: Resume or pause the task, or refresh the batch information.
@@ -3343,7 +3343,7 @@ Click the ID of the batch that you want to perform. On the **Batch Details** pag
   | Search for a disk migration task | Enter the disk device key, select the status of the disk, and then click <strong>Query</strong>. |
   | Adjust display columns | Click <strong>Select Column</strong> and select or clear the column names in the dialog box to show or hide the columns. |
   | Manage migration task details | Find the disk migration task that you want to manage and click the task ID. On the Migration Management page, view the basic information, performance chart, and advanced information about the migration task, and start, stop, modify, disable, or refresh the task as needed. |
-  | View disk details | Click the<img src="assets/5396dacbb345e47c95177e759bd31565.png" width="18" alt="">icon in the deviceKey column of the disk to view the disk<br>details. |
+  | View disk details | Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/5396dacbb345e47c95177e759bd31565.png" width="18" alt="">icon in the deviceKey column of the disk to view the disk<br>details. |
   | Start tasks | If a disk migration task is in the Failed or Stopped state, click <strong>Start</strong> in the <strong>Actions</strong> column to restart the task.<br>To start multiple tasks, select the tasks that you want to start, click <strong>Batch Start</strong>, and then click OK. |
   | Stop tasks | If a disk migration task is in the To Be Run or Running state, click <strong>Stop</strong> in the <strong>Actions</strong> column to stop the task.<br>To stop multiple tasks, select the tasks that you want to stop, click <strong>Batch Stop</strong>, and then click OK. |
   | Load tasks | If a disk migration task is in the To Be Run, Running, or Success state, click <strong>ContinueLoad</strong> and OK in the <strong>Actions</strong> column to load the task.<br>To load multiple tasks, select the tasks that you want to load, click <strong>Batch Load</strong>, and then click OK. |
@@ -3365,7 +3365,7 @@ O&M engineers can manage disk migration tasks during O&M, such as automatic migr
 
 3. On the Migration Management page, search for the migration task that you want to manage.
 
-   ![](assets/efc32b76125cfdc03e7b7bb52c0da813.png)
+   ![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/efc32b76125cfdc03e7b7bb52c0da813.png)
 
    - Select a device key, a task ID, or a geo task ID, and click the
 
@@ -3382,7 +3382,7 @@ O&M engineers can manage disk migration tasks during O&M, such as automatic migr
    | View task information | In the task list, view the task ID, status, device key, task source, and task type. |
    | Adjust display columns | Click <strong>Select Column</strong> and select or clear the column names in the dialog box to show or hide the columns. |
    | Manage task details | Find the disk migration task that you want to manage and click the task ID. On the Migration Management page, view the basic information, performance chart, and advanced information about the migration task, and start, stop, modify, disable, or refresh the task as needed. |
-   | View disk details | Click the<img src="assets/5396dacbb345e47c95177e759bd31565.png" width="18" alt="">icon in the deviceKey column of the disk to view the disk<br>details. |
+   | View disk details | Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/5396dacbb345e47c95177e759bd31565.png" width="18" alt="">icon in the deviceKey column of the disk to view the disk<br>details. |
    | View task sources | Find the task that you want to view and click the value in the <strong>Task</strong> <strong>Source</strong> column to view the batch details of the task.<br>Note<br>Only some task sources provide batch details. The batch details may vary based on the task type. The information displayed in the console shall prevail. |
    | Start tasks | If a disk migration task is in the Failed or Stopped state, click <strong>Start</strong> in the <strong>Actions</strong> column to restart the task.<br>To start multiple tasks, select the tasks that you want to start, click <strong>Batch Start</strong>, and then click OK. |
    | Stop tasks | If a disk migration task is in the To Be Run or Running state, click <strong>Stop</strong> in the <strong>Actions</strong> column to stop the task.<br>To stop multiple tasks, select the tasks that you want to stop, click <strong>Batch Stop</strong>, and then click OK. |
@@ -3399,8 +3399,8 @@ Find the disk migration task that you want to manage and click the task ID. On t
   | Operation | Description |
   | --- | --- |
   | View basic information | View the basic information about the task, such as the device key, task source, status, task name, task type, and I/O type. |
-  | Modify basic information | Click the<img src="assets/001f70564aa56942523444d0ffd37df1.png" width="27" alt="">icon next to the <strong>NC_IP</strong> or <strong>Maximum Bandwidth</strong><br>parameter, configure the parameter, and then click <strong>Submit</strong>. |
-  | View disk details | Click the<img src="assets/5396dacbb345e47c95177e759bd31565.png" width="18" alt="">icon next to the <strong>deviceKey</strong> parameters to view the<br>disk details. |
+  | Modify basic information | Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/001f70564aa56942523444d0ffd37df1.png" width="27" alt="">icon next to the <strong>NC_IP</strong> or <strong>Maximum Bandwidth</strong><br>parameter, configure the parameter, and then click <strong>Submit</strong>. |
+  | View disk details | Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/5396dacbb345e47c95177e759bd31565.png" width="18" alt="">icon next to the <strong>deviceKey</strong> parameters to view the<br>disk details. |
   | View task sources | Click the <strong>evacuation</strong> next to <strong>Task Source</strong> to view the details of the batch to which the task belongs.<br>Note<br>Only some task sources provide batch details. The batch details may vary based on the task type. The information displayed in the console shall prevail. |
   | View operation records | In the Operation Record section, view the logs of the operations performed during the disk migration task, including the operation type, message, and operation time. |
 
@@ -3454,7 +3454,7 @@ Asynchronous replication is enabled for your disk or a replication pair-consiste
 
    - Select deviceKey or pairId from the drop-down list, set the search condition, and then
 
-     ![](assets/efc32b76125cfdc03e7b7bb52c0da813.png)
+     ![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/efc32b76125cfdc03e7b7bb52c0da813.png)
 
      click the
 
@@ -3503,7 +3503,7 @@ Asynchronous replication is enabled for your disk or a replication pair-consiste
 
 1. On the Asynchronous Replication page, search for the replication pair-consistent group.
 
-   ![](assets/efc32b76125cfdc03e7b7bb52c0da813.png)
+   ![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/efc32b76125cfdc03e7b7bb52c0da813.png)
 
    - Select groupId from the drop-down list, set the search condition, and then click the
 
@@ -3551,7 +3551,7 @@ O&M engineers can comprehensively manage and optimize the configuration of resou
 
 3. On the Information Query page, query cluster resources.
 
-   ![](assets/efc32b76125cfdc03e7b7bb52c0da813.png)
+   ![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/efc32b76125cfdc03e7b7bb52c0da813.png)
 
    - Set search conditions and click the
 
@@ -3565,13 +3565,13 @@ O&M engineers can comprehensively manage and optimize the configuration of resou
    | --- | --- |
    | View cluster information | In the cluster list, view the following information: Cluster Name, zone, I/O Type, Mixed Deployment I/O Type, Version, and Nodes. |
    | Modify cluster information | i. You can use one of the following methods to update the cluster:<br>• Batch update: Select the clusters that you want to update and click <strong>Batch Update</strong>.<br>• Single-cluster update: Find the cluster that you want to update and click <strong>Modify</strong> in the <strong>Actions</strong> column.<br>ii. In the <strong>Modify Cluster</strong> dialog box, modify the Maximum Concurrency (GB), Maximum Concurrency, and Verify Maximum Concurrency parameters and the parameters in the Reserved Queue Settings section.<br>Important<br>Note: When concurrency is lower than 20, the feature that reserves concurrency for configuration changes is disabled.The reserved concurrency for retirement and Baichuan preheating does not take effect.<br>iii. Click <strong>OK</strong>. |
-   | Manage cluster machines | Click the<img src="assets/5396dacbb345e47c95177e759bd31565.png" width="18" alt="">icon next to <strong>Apsara Infrastructure Management</strong> in<br>the <strong>Actions</strong> column to go to the <strong>Machine Operations</strong> page of the Apsara Infrastructure Management console. |
+   | Manage cluster machines | Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/5396dacbb345e47c95177e759bd31565.png" width="18" alt="">icon next to <strong>Apsara Infrastructure Management</strong> in<br>the <strong>Actions</strong> column to go to the <strong>Machine Operations</strong> page of the Apsara Infrastructure Management console. |
 
 **Manage zones**
 
 1. On the Information Query page, query the available zones.
 
-   ![](assets/efc32b76125cfdc03e7b7bb52c0da813.png)
+   ![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/efc32b76125cfdc03e7b7bb52c0da813.png)
 
    - Set the search condition and click the
 
@@ -3587,11 +3587,11 @@ O&M engineers can comprehensively manage and optimize the configuration of resou
    | View list-ga data | Find the zone that you want to view and click <strong>list-ga</strong> in the <strong>Actions</strong> column. In the <strong>View list-ga Data</strong> dialog box, view all GeoAgent nodes in the zone and the information about each node. |
    | View list-gm data | Find the zone that you want to view and click <strong>list-gm</strong> in the <strong>Actions</strong> column. In the <strong>View list-gm Data</strong> dialog box, view all GeoMaster nodes in the zone and the information about each node. |
    | Modify the maximum number of tasks in a zone | i. Find the zone that you want to manage and click <strong>Modify</strong> in the <strong>Actions</strong> column.<br>ii. In the <strong>Modify Zone</strong> dialog box, modify the maximum number of tasks.<br>iii. Click <strong>OK</strong>. |
-   | View geo tasks | i. Find the zone that you want to view and click <strong>View geo Tasks</strong> in the <strong>Actions</strong> column.<br>ii. In the <strong>View geo Tasks</strong> dialog box, enter a geo task ID and click the<br>![](assets/efc32b76125cfdc03e7b7bb52c0da813.png)<br>icon.<br>The system displays the details of the geo task. |
+   | View geo tasks | i. Find the zone that you want to view and click <strong>View geo Tasks</strong> in the <strong>Actions</strong> column.<br>ii. In the <strong>View geo Tasks</strong> dialog box, enter a geo task ID and click the<br>![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/efc32b76125cfdc03e7b7bb52c0da813.png)<br>icon.<br>The system displays the details of the geo task. |
 
 **Manage regions**
 
-![](assets/efc32b76125cfdc03e7b7bb52c0da813.png)
+![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/efc32b76125cfdc03e7b7bb52c0da813.png)
 
 1. On the Query Information page, set the search condition and click the
 
@@ -3606,7 +3606,7 @@ O&M engineers can comprehensively manage and optimize the configuration of resou
    | View region details | Click the name in the <strong>Region</strong> column. In the <strong>Region Details</strong> dialog box, view the region name, URL, and token. |
    | View nodes in a region | Find the region that you want to view and click <strong>Node</strong> in the <strong>Actions</strong> column.In the dialog box that appears, view the nodes in the region. |
    | Modify region information | i. Find the region that you want to modify and click <strong>Modify</strong> in the <strong>Actions</strong> column.<br>ii. In the <strong>Modify Region</strong> dialog box, modify the token or proxy of the region.<br>iii. Click <strong>OK</strong>. |
-   | Modify region descriptions | i. Find the region that you want to modify and click the<img src="assets/001f70564aa56942523444d0ffd37df1.png" width="27" alt="">icon in the<br><strong>Remarks</strong> column.<br>ii. In the <strong>Modify Remarks</strong> dialog box, enter a description.<br>iii. Click <strong>OK</strong>. |
+   | Modify region descriptions | i. Find the region that you want to modify and click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/001f70564aa56942523444d0ffd37df1.png" width="27" alt="">icon in the<br><strong>Remarks</strong> column.<br>ii. In the <strong>Modify Remarks</strong> dialog box, enter a description.<br>iii. Click <strong>OK</strong>. |
 
 <a id="section-5-2-8-9-5-2"></a>
 
@@ -3898,11 +3898,11 @@ Create users in the Apsara Uni-manager Management Console for the source and des
 
    | Parameter | Description |
    | --- | --- |
-   | drmEndpoint | i. Select <strong>Service</strong>, enter <strong>EBS</strong>, and then click the Search icon.<br>ii. Find the EbsGeoDRM service, click the<img src="assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt="">icon in the <strong>Service</strong><br><strong>Registration</strong> column, and then click the information that appears.<br>iii. In the <strong>Registration Variables</strong> dialog box, record the value of the <strong>drm-port</strong> variable.<br>iv. concatenate the drmEndpoint string based on the following rule:<br>Endpoint format: <code> drm.${global:region}.${global:internet-</code><code>domain}:${global:drm-port} </code> format<strong>.</strong><br>Note<br><code> ${global:internet-domain} </code>, <code> ${global:region} </code> and <code> ${global:drm-port} </code> are variables and need to be replaced with the actual values that you obtained. Remove ${global:} from the final endpoint. |
-   | ebsOpenEndpoint | i. Select <strong>Service</strong>, enter <strong>EBS</strong>, and then click the Search icon.<br>ii. Find the EbsTiangangApi service, click the<img src="assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt="">icon in the <strong>Service</strong><br><strong>Registration</strong> column, and then click the information that appears.<br>iii. In the <strong>Registration Variables</strong> message, record the value of the <strong>ebstiangang.openapi.endpoint</strong> variable, which is the endpoint of EBS. |
-   | ecsOpenEndpoint | i. Select <strong>Service</strong>, enter <strong>ECS</strong>, and then click the Search icon.<br>ii. Find the <code> ecs-yaochi </code> service, click the<img src="assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt="">icon in the <strong>Service</strong><br><strong>Registration</strong> column, and then click the information that appears.<br>iii. In the <strong>Registration Variables</strong> dialog box, obtain the value of the <strong>ecs.openapi.endpoint</strong> variable. |
-   | ramOpenEndpoint | i. Select <strong>Service</strong>, enter <strong>RAM</strong>, and then click the Search icon.<br>ii. Find the ram-ramService service, click the<img src="assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt="">icon in the <strong>Service</strong><br><strong>Registration</strong> column, and then click the information that appears.<br>iii. In the <strong>Registration Variables</strong> dialog box, obtain the value of the <strong>ram-openapi.endpoint</strong> variable. |
-   | destOpsEndpoint | i. Select <strong>Service</strong>, enter <strong>EBS</strong>, and then click the Search icon.<br>ii. Find the EbsHatitu service, click the<img src="assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt="">icon in the <strong>Service</strong><br><strong>Registration</strong> column, and then click the information that appears.<br>iii. In the <strong>Registration Variables</strong> dialog box, obtain the value of the <strong>prehaitu.openapi.endpoint</strong> variable. |
+   | drmEndpoint | i. Select <strong>Service</strong>, enter <strong>EBS</strong>, and then click the Search icon.<br>ii. Find the EbsGeoDRM service, click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt="">icon in the <strong>Service</strong><br><strong>Registration</strong> column, and then click the information that appears.<br>iii. In the <strong>Registration Variables</strong> dialog box, record the value of the <strong>drm-port</strong> variable.<br>iv. concatenate the drmEndpoint string based on the following rule:<br>Endpoint format: <code> drm.${global:region}.${global:internet-</code><code>domain}:${global:drm-port} </code> format<strong>.</strong><br>Note<br><code> ${global:internet-domain} </code>, <code> ${global:region} </code> and <code> ${global:drm-port} </code> are variables and need to be replaced with the actual values that you obtained. Remove ${global:} from the final endpoint. |
+   | ebsOpenEndpoint | i. Select <strong>Service</strong>, enter <strong>EBS</strong>, and then click the Search icon.<br>ii. Find the EbsTiangangApi service, click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt="">icon in the <strong>Service</strong><br><strong>Registration</strong> column, and then click the information that appears.<br>iii. In the <strong>Registration Variables</strong> message, record the value of the <strong>ebstiangang.openapi.endpoint</strong> variable, which is the endpoint of EBS. |
+   | ecsOpenEndpoint | i. Select <strong>Service</strong>, enter <strong>ECS</strong>, and then click the Search icon.<br>ii. Find the <code> ecs-yaochi </code> service, click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt="">icon in the <strong>Service</strong><br><strong>Registration</strong> column, and then click the information that appears.<br>iii. In the <strong>Registration Variables</strong> dialog box, obtain the value of the <strong>ecs.openapi.endpoint</strong> variable. |
+   | ramOpenEndpoint | i. Select <strong>Service</strong>, enter <strong>RAM</strong>, and then click the Search icon.<br>ii. Find the ram-ramService service, click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt="">icon in the <strong>Service</strong><br><strong>Registration</strong> column, and then click the information that appears.<br>iii. In the <strong>Registration Variables</strong> dialog box, obtain the value of the <strong>ram-openapi.endpoint</strong> variable. |
+   | destOpsEndpoint | i. Select <strong>Service</strong>, enter <strong>EBS</strong>, and then click the Search icon.<br>ii. Find the EbsHatitu service, click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/9a918ed188405c606c39c2fc9194550b.jpeg" width="24" alt="">icon in the <strong>Service</strong><br><strong>Registration</strong> column, and then click the information that appears.<br>iii. In the <strong>Registration Variables</strong> dialog box, obtain the value of the <strong>prehaitu.openapi.endpoint</strong> variable. |
 
 **Add peer configurations in the source and destination clouds**
 
@@ -3988,7 +3988,7 @@ After you configure the destination cloud, you can perform the following operati
 
 | Operation | Description |
 | --- | --- |
-| Search for destination cloud configurations | Search for destination cloud configurations available in the source cloud by region and zone.<br>1. Select a region and a zone.<br>![](assets/efc32b76125cfdc03e7b7bb52c0da813.png)<br>2. Click the icon. |
+| Search for destination cloud configurations | Search for destination cloud configurations available in the source cloud by region and zone.<br>1. Select a region and a zone.<br>![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/efc32b76125cfdc03e7b7bb52c0da813.png)<br>2. Click the icon. |
 | View destination clouds | In the destination cloud list, view the following parameters: remoteID, Disk Instance ID, Region, and Zone<strong>.</strong> |
 | View the configuration details of a destination cloud | Click the ID in the remoteID column. In the <strong>Remote Information</strong> dialog box, view the configuration details of the destination cloud, such as the unique ID, source cloud user ID, and destination cloud user ID. |
 | Modify the configuration of a destination cloud | If the configurations of the destination cloud change, modify the corresponding configurations in the source cloud.<br>1. Find the destination cloud and click <strong>Modify</strong> in the <strong>Actions</strong> column.<br>2. In the <strong>Modify Remote</strong> dialog box, modify the configurations of the destination cloud.<br>3. Click <strong>Submit</strong>. |
@@ -4052,7 +4052,7 @@ The snapshot list allows O&M engineers to view the snapshot creation status of e
    | View snapshot information | In the snapshot list, view the snapshot creation time, modification time, snapshot ID, status, type, and progress. |
    | Adjust display columns | Click <strong>Select Columns</strong> and select the columns to be displayed. |
    | Search for snapshots | Search for snapshots by storage cluster, disk, snapshot group, or time range. You can specify the number of snapshots to be displayed and include or exclude deleted snapshots. |
-   | Sort or filter snapshots | Filters or sorts snapshots by snapshot creation time, snapshot modification time, snapshot ID, snapshot status, snapshot type, and snapshot progress.<br>• <strong>Filter snapshots</strong>: Click the<img src="assets/55ae72d84933d58d8ce6365c01874950.png" width="13" alt="">icon next to the column name,<br>enter a filter condition, and then click <strong>Search</strong>.<br>• <strong>Sort Snapshots</strong>: Click the<img src="assets/a19af60d008049c418d80f992ca0f660.png" width="11" alt="">icon next to a column name to sort<br>snapshots in ascending or descending order, or cancel sorting by the specified column value. |
+   | Sort or filter snapshots | Filters or sorts snapshots by snapshot creation time, snapshot modification time, snapshot ID, snapshot status, snapshot type, and snapshot progress.<br>• <strong>Filter snapshots</strong>: Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/55ae72d84933d58d8ce6365c01874950.png" width="13" alt="">icon next to the column name,<br>enter a filter condition, and then click <strong>Search</strong>.<br>• <strong>Sort Snapshots</strong>: Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/a19af60d008049c418d80f992ca0f660.png" width="11" alt="">icon next to a column name to sort<br>snapshots in ascending or descending order, or cancel sorting by the specified column value. |
    | View snapshot details | Click the snapshot ID. On the <strong>Basic Snapshot Information</strong> tab, you can view the basic information, status, disk, and ownership of the snapshot. For more information, see Query snapshot information. |
 
 <a id="section-5-2-8-10-3"></a>
@@ -4271,7 +4271,7 @@ On the Capacity tab of an Elastic Block Storage (EBS) cluster, you can view the 
    <table>
      <tr>
        <td>Physical Capacity Usage</td>
-       <td>You can view the used physical capacity, total physical capacity, and percentage of used physical capacity of the cluster.<br>• Total Physical Capacity: the maximum storage capacity of the cluster to which data can be written.<br>• Used Physical Capacity: the used physical capacity that is reported by PANGU.<br>Note<br>• If the inventory capacity is sufficient and the physical capacity usage reaches 80%, no more disks can be created. If the remaining inventory capacity is less than the capacity of a disk to be created, the disk cannot be created.<br>• If the physical capacity usage reaches 95%, data writing is not allowed.<br>• After you move the pointer over the icon on the right side of a<br><img src="assets/d816620b7a11b5ad3e56d7e3bf916825.png" width="19" alt=""><br>capacity metric, the system displays the description and calculation formulas of the capacity metric in the tooltip.</td>
+       <td>You can view the used physical capacity, total physical capacity, and percentage of used physical capacity of the cluster.<br>• Total Physical Capacity: the maximum storage capacity of the cluster to which data can be written.<br>• Used Physical Capacity: the used physical capacity that is reported by PANGU.<br>Note<br>• If the inventory capacity is sufficient and the physical capacity usage reaches 80%, no more disks can be created. If the remaining inventory capacity is less than the capacity of a disk to be created, the disk cannot be created.<br>• If the physical capacity usage reaches 95%, data writing is not allowed.<br>• After you move the pointer over the icon on the right side of a<br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/d816620b7a11b5ad3e56d7e3bf916825.png" width="19" alt=""><br>capacity metric, the system displays the description and calculation formulas of the capacity metric in the tooltip.</td>
      </tr>
    </table>
 
@@ -4534,7 +4534,7 @@ Chunk servers are used for read and write operations in clusters. You can view t
    | Operation | Description |
    | --- | --- |
    | Search for a chunk server | Enter an IP address to search for the required chunk server. |
-   | Obtain build information | Obtain the build information of a chunk server. The version information can be used to help you locate issues.<br>To obtain the build information of a chunk server, perform the following steps: Find the chunk server that you want to manage, move the pointer<br>![](assets/78c9d391cd7bfbc805894de62c32d126.jpeg)<br>over the icon in the <strong>Actions</strong> column, and then click <strong>Build</strong><br><strong>Information</strong>. |
+   | Obtain build information | Obtain the build information of a chunk server. The version information can be used to help you locate issues.<br>To obtain the build information of a chunk server, perform the following steps: Find the chunk server that you want to manage, move the pointer<br>![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/78c9d391cd7bfbc805894de62c32d126.jpeg)<br>over the icon in the <strong>Actions</strong> column, and then click <strong>Build</strong><br><strong>Information</strong>. |
 
 **Manage files**
 
@@ -5800,7 +5800,7 @@ Chunk servers are used for read and write operations in clusters. You can view t
    <table>
      <tr>
        <td>Add a chunk server to or remove a chunk server from the blacklist</td>
-       <td>If upper-layer services do not need to write data to a chunk server for the moment, you can add the chunk server to the blacklist.<br>After the chunk server is added to the blacklist, no chunks are assigned to the chunk server, and no data is written or replicated to the chunk server.<br>Warning<br>After you add a server to the blacklist, the server becomes unavailable and the service capabilities of the cluster are compromised. Proceed with caution.<br>Move the pointer over the<img src="assets/78c9d391cd7bfbc805894de62c32d126.jpeg" width="23" alt="">icon in the <strong>Actions</strong> column of a chunk<br>server and click <strong>Add to Blacklist</strong>. The review workflow is automatically initiated. On the <strong>Tasks</strong> page, go to the review task page and wait until the task is completed. Then, the chunk server is added to the blacklist. For more information about how to go to the review task page, see View tasks.<br>Important<br>• You cannot add the chunk server to the blacklist when an abnchunk (unhealthy chunk) error exists in the Apsara Distributed File System cluster. You must handle the cluster error based on the alert suggestions before you can proceed.<br>• If the number of nodes in a cluster does not meet the current EC requirements after you add the chunk server to the blacklist, the system prohibits you from adding the chunk server to the blacklist.<br>• If the review task is rejected or overdue, the blacklist operation fails.<br>To remove the chunk server from the blacklist, move the pointer over the<br><img src="assets/78c9d391cd7bfbc805894de62c32d126.jpeg" width="24" alt="">icon in the <strong>Actions</strong> column of the chunk server and then click <strong>Delete</strong><br><strong>Blacklist</strong>.</td>
+       <td>If upper-layer services do not need to write data to a chunk server for the moment, you can add the chunk server to the blacklist.<br>After the chunk server is added to the blacklist, no chunks are assigned to the chunk server, and no data is written or replicated to the chunk server.<br>Warning<br>After you add a server to the blacklist, the server becomes unavailable and the service capabilities of the cluster are compromised. Proceed with caution.<br>Move the pointer over the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/78c9d391cd7bfbc805894de62c32d126.jpeg" width="23" alt="">icon in the <strong>Actions</strong> column of a chunk<br>server and click <strong>Add to Blacklist</strong>. The review workflow is automatically initiated. On the <strong>Tasks</strong> page, go to the review task page and wait until the task is completed. Then, the chunk server is added to the blacklist. For more information about how to go to the review task page, see View tasks.<br>Important<br>• You cannot add the chunk server to the blacklist when an abnchunk (unhealthy chunk) error exists in the Apsara Distributed File System cluster. You must handle the cluster error based on the alert suggestions before you can proceed.<br>• If the number of nodes in a cluster does not meet the current EC requirements after you add the chunk server to the blacklist, the system prohibits you from adding the chunk server to the blacklist.<br>• If the review task is rejected or overdue, the blacklist operation fails.<br>To remove the chunk server from the blacklist, move the pointer over the<br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/78c9d391cd7bfbc805894de62c32d126.jpeg" width="24" alt="">icon in the <strong>Actions</strong> column of the chunk server and then click <strong>Delete</strong><br><strong>Blacklist</strong>.</td>
      </tr>
      <tr>
        <td>Restart services</td>
@@ -5808,7 +5808,7 @@ Chunk servers are used for read and write operations in clusters. You can view t
      </tr>
      <tr>
        <td>Obtain the build information</td>
-       <td>Obtain the build information about a meta server. The detailed version information can be used to help you locate issues.<br>To obtain the build information of a chunk server, perform the following steps: Find the chunk server that you want to manage, move the pointer<br><img src="assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>over the icon in the <strong>Actions</strong> column, and then click <strong>Build</strong><br><strong>Information</strong>.</td>
+       <td>Obtain the build information about a meta server. The detailed version information can be used to help you locate issues.<br>To obtain the build information of a chunk server, perform the following steps: Find the chunk server that you want to manage, move the pointer<br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>over the icon in the <strong>Actions</strong> column, and then click <strong>Build</strong><br><strong>Information</strong>.</td>
      </tr>
      <tr>
        <td>View and manage hard disks</td>
@@ -6140,7 +6140,7 @@ Object Storage Service (OSS) buckets are created. For more information, see the 
 
    - View the source data of resource attributes
 
-     Click the <img src="assets/0518b4fb008cb2eecec897e51157b655.jpeg" width="26" alt=""> icon in the upper-right corner to view the source data of resource
+     Click the <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/0518b4fb008cb2eecec897e51157b655.jpeg" width="26" alt=""> icon in the upper-right corner to view the source data of resource
 
      attributes, such as name, owner, and bucketStatus.
 
@@ -7583,7 +7583,7 @@ By default, the system assigns a domain name and a virtual IP address (VIP) to e
 
    | Operation | Description |
    | --- | --- |
-   | View domain name information | In the list, you can view the following information: Region, Cluster, Usage, Mapped Domain Names, Resource Name, Consistent with Resolution Result, and Bound VIP.<br>You can filter the domain name information by <strong>Region</strong>, <strong>Cluster</strong>, or <strong>Usage</strong>. You<br>can click the<img src="assets/d7f383b6905d008bc3e3b2f46d819d08.png" width="14" alt="">icon next to a column to specify filter conditions. |
+   | View domain name information | In the list, you can view the following information: Region, Cluster, Usage, Mapped Domain Names, Resource Name, Consistent with Resolution Result, and Bound VIP.<br>You can filter the domain name information by <strong>Region</strong>, <strong>Cluster</strong>, or <strong>Usage</strong>. You<br>can click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/d7f383b6905d008bc3e3b2f46d819d08.png" width="14" alt="">icon next to a column to specify filter conditions. |
    | Resolve a domain name | When access to a cluster fails, you can resolve the domain name of the cluster (equivalent to running the dig command on the cluster) to locate the cause.<br>Click <strong>Resolve Domain Name</strong> in the <strong>Actions</strong> column of the desired cluster. In the <strong>Resolve Domain Name</strong> message, view the domain name resolution result. |
 
 <a id="section-5-4-6-4-5-2"></a>
@@ -7602,7 +7602,7 @@ By default, the system assigns and bounds a virtual IP address (VIP) to the clus
 
    | Feature | Description |
    | --- | --- |
-   | View the VIP information of a cluster | View the region, cluster, usage, VIP, type, forwarding mode, and bound domain name.<br>You can filter domain names by <strong>Region</strong>, <strong>Cluster</strong>, <strong>Usage</strong>, <strong>VIP</strong>, and<br><strong>Forwarding Mode</strong>. Click the<img src="assets/d7f383b6905d008bc3e3b2f46d819d08.png" width="14" alt="">or<img src="assets/b4ae6ca0006a22133775fb091e6fc461.png" width="12" alt="">icon in the corresponding column,<br>configure filter conditions in the filter panel, and then confirm to quickly filter domain names. |
+   | View the VIP information of a cluster | View the region, cluster, usage, VIP, type, forwarding mode, and bound domain name.<br>You can filter domain names by <strong>Region</strong>, <strong>Cluster</strong>, <strong>Usage</strong>, <strong>VIP</strong>, and<br><strong>Forwarding Mode</strong>. Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/d7f383b6905d008bc3e3b2f46d819d08.png" width="14" alt="">or<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/b4ae6ca0006a22133775fb091e6fc461.png" width="12" alt="">icon in the corresponding column,<br>configure filter conditions in the filter panel, and then confirm to quickly filter domain names. |
    | View Classic LB details | View the basic information about the VIP whose loads are balanced over the classic network and the information about the mount servers.<br>Find the VIP that you want to view and click <strong>View Classic LB Details</strong> in the <strong>Actions</strong> column. In the <strong>View Details</strong> panel, view the details. |
    | View Any Tunnel LB Details | View the basic information about the VIP whose loads are balanced over a virtual private cloud (VPC) network and the information about the mount servers.<br>Find the VIP that you want to view and click <strong>View Any Tunnel LB</strong> <strong>Details</strong> in the <strong>Actions</strong> column. In the <strong>View Details</strong> panel, view the details. |
    | Switch LB forwarding mode | Important<br>The LB forwarding mode of all VIPs in a cluster must be consistent.This feature switches the forwarding mode of all VIPs in the cluster.<br>The forwarding mode of load balancers of clusters can be Full Network Address Translation (FNAT) or Next Generation Load Balancing (NGLB). By default, the forwarding mode is FNAT. If a large number of requests are sent to access OSS buckets over VPCs, switch the forwarding mode to NGLB based on your business requirements.<br>i. Click <strong>Switch VIP LB Forwarding Mode</strong> in the <strong>Actions</strong> column of the required VIP.<br>ii. In the <strong>Switch VIP LB Forwarding Mode</strong> dialog box, select a VIP LB forwarding mode.<br>iii. Click <strong>Switch</strong>. |
@@ -7828,7 +7828,7 @@ This topic describes how to query application configurations by application or c
 
    | Operation | Description |
    | --- | --- |
-   | View application information | In the list, view the information in the Region, Cluster, Version, TianTengID, RPM Version, BuildInfo, Inspection Result, and Inspected At columns.<br>• You can also select an option from the <strong>Region</strong>, <strong>Cluster</strong>, <strong>Version</strong>,<br>and <strong>Inspection Result</strong> drop-down lists, or click the<img src="assets/5f86e75a4b5840df4899b2402d67eaad.png" width="17" alt="">icon in the<br><strong>RPM Version</strong> column to filter inspection results.<br>• Click <strong>Details</strong> in the <strong>BuildInfo</strong> column to view the build information. |
+   | View application information | In the list, view the information in the Region, Cluster, Version, TianTengID, RPM Version, BuildInfo, Inspection Result, and Inspected At columns.<br>• You can also select an option from the <strong>Region</strong>, <strong>Cluster</strong>, <strong>Version</strong>,<br>and <strong>Inspection Result</strong> drop-down lists, or click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/5f86e75a4b5840df4899b2402d67eaad.png" width="17" alt="">icon in the<br><strong>RPM Version</strong> column to filter inspection results.<br>• Click <strong>Details</strong> in the <strong>BuildInfo</strong> column to view the build information. |
    | View application details | Find the application that you want to view and click <strong>Details</strong> in the <strong>Actions</strong> column. On the version details page, view the details of the application version. |
    | View the application set in a cluster | i. Find the cluster that you want to view and click <strong>Cluster</strong> <strong>Applications</strong> in the <strong>Actions</strong> column.<br>ii. In the <strong>Deployed Cluster Application Versions</strong> dialog box, view the details of the application version deployment set, including the region, application name, version, and TianTengID of the cluster.<br>Click <strong>Details</strong> in the <strong>BuildInfo</strong> column to view the build information about the application. |
    | Perform a recheck | Find the application that you want to recheck and click <strong>Recheck</strong> in the <strong>Actions</strong> column. After the recheck task is completed, you can query its inspection result on the current page. |
@@ -9419,9 +9419,9 @@ By default, the system has built-in alert rules. If the alert rules cannot meet 
 
    | Operation | Description |
    | --- | --- |
-   | View the details of an alert rule | View the rule details of an alert item, such as the description, matching rule, effective policy, enabled status, and notification policy.<br>i. On the <strong>Alert Rule</strong> tab, find the alert rule and click the<img src="assets/08bfced94890b8297fd754d4703f5ab0.png" width="14" alt="">icon in the<br><strong>Actions</strong> column.<br>ii. In the <strong>Alarm rule details</strong> dialog box, view the details of the alert rule. |
-   | Add an alert rule | Creates a new alert rule based on the existing rule parameter configurations.<br>i. On the <strong>Alert Rule</strong> tab, find the alert rule and click the<img src="assets/4a2a3086346f16f1f31fc96409b5ea5d.jpeg" width="16" alt="">icon in the<br><strong>Actions</strong> column.<br>ii. In the <strong>Add Alert Rule</strong> dialog box, set the parameters.<br>iii. Click <strong>OK</strong>. |
-   | Delete an alert rule | Important<br>You cannot restore an alert rule after it is deleted. Exercise caution when you perform this operation.<br>i. On the <strong>Alert Rule</strong> tab, find the alert rule and click the<img src="assets/42a3a1514029a149176f19310b7084c1.png" width="14" alt="">icon in the<br><strong>Actions</strong> column.<br>ii. In the dialog box that appears, click <strong>OK</strong>. |
+   | View the details of an alert rule | View the rule details of an alert item, such as the description, matching rule, effective policy, enabled status, and notification policy.<br>i. On the <strong>Alert Rule</strong> tab, find the alert rule and click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/08bfced94890b8297fd754d4703f5ab0.png" width="14" alt="">icon in the<br><strong>Actions</strong> column.<br>ii. In the <strong>Alarm rule details</strong> dialog box, view the details of the alert rule. |
+   | Add an alert rule | Creates a new alert rule based on the existing rule parameter configurations.<br>i. On the <strong>Alert Rule</strong> tab, find the alert rule and click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/4a2a3086346f16f1f31fc96409b5ea5d.jpeg" width="16" alt="">icon in the<br><strong>Actions</strong> column.<br>ii. In the <strong>Add Alert Rule</strong> dialog box, set the parameters.<br>iii. Click <strong>OK</strong>. |
+   | Delete an alert rule | Important<br>You cannot restore an alert rule after it is deleted. Exercise caution when you perform this operation.<br>i. On the <strong>Alert Rule</strong> tab, find the alert rule and click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/42a3a1514029a149176f19310b7084c1.png" width="14" alt="">icon in the<br><strong>Actions</strong> column.<br>ii. In the dialog box that appears, click <strong>OK</strong>. |
 
    **Manage silent rules**
 
@@ -9448,7 +9448,7 @@ By default, the system has built-in alert rules. If the alert rules cannot meet 
    | Group | The group to which the alert item belongs. |
    | Alert Item | The name of the alert item, which cannot be modified. |
    | Category | The category of the alert item. |
-   | Attribute | The list of attributes of the alert item. Click the<img src="assets/e99b09f1b82a967e09207e2e3ce3aac3.png" width="21" alt="">icon and enter the<br>name, description, and attribute type of the rule. Click the<img src="assets/b91a3aa250ea239f2737719c9d65c1f9.jpeg" width="16" alt="">icon to<br>delete unnecessary attribute types. |
+   | Attribute | The list of attributes of the alert item. Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/e99b09f1b82a967e09207e2e3ce3aac3.png" width="21" alt="">icon and enter the<br>name, description, and attribute type of the rule. Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/b91a3aa250ea239f2737719c9d65c1f9.jpeg" width="16" alt="">icon to<br>delete unnecessary attribute types. |
    | Remarks | The description of the alert item. |
    | Owner | The owner of the alert item. The default value is the creator of the alert item. |
    | Suggestions | Handling document links or alarm handling suggestions. |
@@ -9736,7 +9736,7 @@ By viewing the task details of all workflows, creating new tasks, and browsing t
 
    > **Note**
    >
-   > In the task list, click the icon <img src="assets/6db3154cad858242d81e7be4dc53c65f.png" width="15" alt=""> in the **Task Type** or **Task Completion Status** column
+   > In the task list, click the icon <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/6db3154cad858242d81e7be4dc53c65f.png" width="15" alt=""> in the **Task Type** or **Task Completion Status** column
    >
    > to filter workflow instances.
 
@@ -9796,7 +9796,7 @@ By viewing the task details of all workflows, creating new tasks, and browsing t
 
    On the **Task Statistics** tab, you can view the number of pending and running tasks of different task types in each cluster, and the number of successful and failed tasks. You can also perform the following operations as needed:
 
-   - Click the <img src="assets/77c3b118b83108c5b0f4b7485c4c821f.png" width="18" alt=""> icon in the **Running** column to view the task status and step name on the
+   - Click the <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/77c3b118b83108c5b0f4b7485c4c821f.png" width="18" alt=""> icon in the **Running** column to view the task status and step name on the
 
      right side of the page.
 
@@ -9862,11 +9862,11 @@ With the batch workflow submission feature, O&M personnel can submit the same wo
 
    | Operation | Description |
    | --- | --- |
-   | Add tasks to a task group | Click the<img src="assets/52bb1d56cc8df41d5652f1a0d77c39ee.png" width="27" alt="">icon in the <strong>Actions</strong> column of the target task group to<br>add a task. |
-   | Edit task parameters | a. Click the<img src="assets/7eb01320d439403552b5127a2a8d42f5.png" width="26" alt="">icon in the <strong>Actions</strong> column of the target task.<br>b. In the <strong>Edit parameters</strong> dialog box, select a cluster and other parameters based on the workflow type.<br>c. Click <strong>Submit</strong>. |
-   | Delete a task | If a task group contains at least two tasks, click the<img src="assets/70c1ca69b5dd0a1876bf1cae6a6390fd.png" width="26" alt="">icon in the<br><strong>Actions</strong> column to delete the task. |
-   | Adjust task execution sequence | Click the<img src="assets/0e15be3de1e83266e382b084bc27725f.png" width="14" alt="">icon next to the task number to move the task to the first<br>in the group. Click the<img src="assets/561ed197576f7c1efbbcbcd77d8e4482.png" width="14" alt="">icon to increase the task execution order.<br>Click the<img src="assets/53043e449f2d61c3bdfea89a33b92b1a.png" width="13" alt="">icon to decrease the task execution order. Click the<img src="assets/c7ceff34a17cc1772f44893fa48ec3c6.png" width="14" alt=""><br>icon to move the task to the last in the group. |
-   | Adjust the task execution position. | a. Click the icon next to the<img src="assets/884fb6984bf2391945e6814931346633.png" width="14" alt="">task number.<br>b. In the edit position hover box, set the specified order and move to group. |
+   | Add tasks to a task group | Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/52bb1d56cc8df41d5652f1a0d77c39ee.png" width="27" alt="">icon in the <strong>Actions</strong> column of the target task group to<br>add a task. |
+   | Edit task parameters | a. Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/7eb01320d439403552b5127a2a8d42f5.png" width="26" alt="">icon in the <strong>Actions</strong> column of the target task.<br>b. In the <strong>Edit parameters</strong> dialog box, select a cluster and other parameters based on the workflow type.<br>c. Click <strong>Submit</strong>. |
+   | Delete a task | If a task group contains at least two tasks, click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/70c1ca69b5dd0a1876bf1cae6a6390fd.png" width="26" alt="">icon in the<br><strong>Actions</strong> column to delete the task. |
+   | Adjust task execution sequence | Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/0e15be3de1e83266e382b084bc27725f.png" width="14" alt="">icon next to the task number to move the task to the first<br>in the group. Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/561ed197576f7c1efbbcbcd77d8e4482.png" width="14" alt="">icon to increase the task execution order.<br>Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/53043e449f2d61c3bdfea89a33b92b1a.png" width="13" alt="">icon to decrease the task execution order. Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/c7ceff34a17cc1772f44893fa48ec3c6.png" width="14" alt=""><br>icon to move the task to the last in the group. |
+   | Adjust the task execution position. | a. Click the icon next to the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/884fb6984bf2391945e6814931346633.png" width="14" alt="">task number.<br>b. In the edit position hover box, set the specified order and move to group. |
 
    <ol type="i" start="3">
 
@@ -9922,7 +9922,7 @@ By viewing the list of workflow instances, O&M personnel can manage workflow ins
 
    > **Note**
    >
-   > In the workflow instance list, click the <img src="assets/6db3154cad858242d81e7be4dc53c65f.png" width="15" alt=""> icon in the **Task Type** or **Task Completion**
+   > In the workflow instance list, click the <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/6db3154cad858242d81e7be4dc53c65f.png" width="15" alt=""> icon in the **Task Type** or **Task Completion**
    >
    > **Status** column to further filter workflow instances.
 
@@ -9937,8 +9937,8 @@ By viewing the list of workflow instances, O&M personnel can manage workflow ins
    | Operation | Description |
    | --- | --- |
    | View all parameters | Click <strong>All Parameters</strong> to view all parameters of the workflow. |
-   | View workflow operation records | ![](assets/2a8a1d0ec45cdc3c78e6239575b5570f.png)<br>Click and select <strong>Operation record</strong>. |
-   | View task details | ![](assets/2a8a1d0ec45cdc3c78e6239575b5570f.png)<br>Click and select a release order number to view task details. |
+   | View workflow operation records | ![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/2a8a1d0ec45cdc3c78e6239575b5570f.png)<br>Click and select <strong>Operation record</strong>. |
+   | View task details | ![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/2a8a1d0ec45cdc3c78e6239575b5570f.png)<br>Click and select a release order number to view task details. |
 
    | View workflow step logs | Click <strong>Log</strong> on the right side of a step to view the log details of the step. |
    | --- | --- |
@@ -10010,7 +10010,7 @@ By default, the system has built-in and enabled common triggers. When an event i
    | --- | --- |
    | View trigger history | Click the trigger name to view the trigger history in the Event Center.For more information, see Trigger history. |
    | View event records | You can click a category or a name in the <strong>Event Type</strong> or <strong>Event Name</strong> column of a trigger to view the event records on the <strong>Find events</strong> page. |
-   | Disable or enable a trigger | By default, a trigger is enabled. To disable a trigger, click the<img src="assets/1e33ce264e010f11718171de6c7f3c6a.png" width="13" alt="">icon in<br>the <strong>Actions</strong> column and click <strong>Yes</strong>.<br>After you disable a trigger, click the<img src="assets/4b9bda91ac7831843a4d385c70b4ae97.png" width="14" alt="">icon in the <strong>Actions</strong> column and<br>click <strong>Yes</strong> to enable the trigger. |
+   | Disable or enable a trigger | By default, a trigger is enabled. To disable a trigger, click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/1e33ce264e010f11718171de6c7f3c6a.png" width="13" alt="">icon in<br>the <strong>Actions</strong> column and click <strong>Yes</strong>.<br>After you disable a trigger, click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/4b9bda91ac7831843a4d385c70b4ae97.png" width="14" alt="">icon in the <strong>Actions</strong> column and<br>click <strong>Yes</strong> to enable the trigger. |
 
 <a id="section-5-4-6-10-3-2"></a>
 
@@ -10230,7 +10230,7 @@ On the Capacity tab, you can view the logical capacity usage, physical capacity 
    <table>
      <tr>
        <td>Physical Capacity Usage</td>
-       <td>You can view the used physical capacity, total physical capacity, and percentage of used physical capacity.<br>• Total Physical Capacity: the maximum storage capacity of the cluster to which data can be written.<br>• Used Physical Capacity: the used physical capacity reported by PANGU.<br>You can click <strong>More</strong> in the upper-right corner of the <strong>Physical Capacity Usage</strong> section to view the details of the bare disk capacity, total physical capacity, system reserved capacity, system security capacity, used physical capacity, and available physical capacity.<br>Note<br>After you move the pointer over the icon on the right side of a<br><img src="assets/d816620b7a11b5ad3e56d7e3bf916825.png" width="19" alt=""><br>capacity, the system displays the description and calculation formula of the capacity in the tooltip.</td>
+       <td>You can view the used physical capacity, total physical capacity, and percentage of used physical capacity.<br>• Total Physical Capacity: the maximum storage capacity of the cluster to which data can be written.<br>• Used Physical Capacity: the used physical capacity reported by PANGU.<br>You can click <strong>More</strong> in the upper-right corner of the <strong>Physical Capacity Usage</strong> section to view the details of the bare disk capacity, total physical capacity, system reserved capacity, system security capacity, used physical capacity, and available physical capacity.<br>Note<br>After you move the pointer over the icon on the right side of a<br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/d816620b7a11b5ad3e56d7e3bf916825.png" width="19" alt=""><br>capacity, the system displays the description and calculation formula of the capacity in the tooltip.</td>
      </tr>
      <tr>
        <td>Capacity Trend</td>
@@ -10528,7 +10528,7 @@ Chunk servers are used for read and write operations in clusters. You can view t
    <table>
      <tr>
        <td>Add a chunk server to or remove a chunk server from the blacklist</td>
-       <td>If upper-layer services do not need to write data to a chunk server for the moment, you can add the chunk server to the blacklist.<br>After the chunk server is added to the blacklist, no chunks are assigned to the chunk server, and no data is written or replicated to the chunk server.<br>Warning<br>After you add a server to the blacklist, the server becomes unavailable and the service capabilities of the cluster are compromised. Proceed with caution.<br><img src="assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>Move the pointer over the icon in the <strong>Actions</strong> column of a chunk<br>server and click <strong>Add to Blacklist</strong>. The review workflow is automatically initiated. On the <strong>Tasks</strong> page, go to the review task page and wait until the task is completed. Then, the chunk server is added to the blacklist. For more information about how to go to the review task page, see View tasks.<br>Important<br>• You cannot add the chunk server to the blacklist when an abnchunk (unhealthy chunk) error exists in the Apsara Distributed File System cluster. You must handle the cluster error based on the alert suggestions before you can proceed.<br>• If the number of nodes in a cluster does not meet the current EC requirements after you add the chunk server to the blacklist, the system prohibits you from adding the chunk server to the blacklist.<br>• If the review task is rejected or overdue, the blacklist operation fails.<br>To remove the chunk server from the blacklist, move the pointer over the<br><img src="assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>icon in the <strong>Actions</strong> column of the chunk server and then click<br><strong>Delete Blacklist</strong>.</td>
+       <td>If upper-layer services do not need to write data to a chunk server for the moment, you can add the chunk server to the blacklist.<br>After the chunk server is added to the blacklist, no chunks are assigned to the chunk server, and no data is written or replicated to the chunk server.<br>Warning<br>After you add a server to the blacklist, the server becomes unavailable and the service capabilities of the cluster are compromised. Proceed with caution.<br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>Move the pointer over the icon in the <strong>Actions</strong> column of a chunk<br>server and click <strong>Add to Blacklist</strong>. The review workflow is automatically initiated. On the <strong>Tasks</strong> page, go to the review task page and wait until the task is completed. Then, the chunk server is added to the blacklist. For more information about how to go to the review task page, see View tasks.<br>Important<br>• You cannot add the chunk server to the blacklist when an abnchunk (unhealthy chunk) error exists in the Apsara Distributed File System cluster. You must handle the cluster error based on the alert suggestions before you can proceed.<br>• If the number of nodes in a cluster does not meet the current EC requirements after you add the chunk server to the blacklist, the system prohibits you from adding the chunk server to the blacklist.<br>• If the review task is rejected or overdue, the blacklist operation fails.<br>To remove the chunk server from the blacklist, move the pointer over the<br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>icon in the <strong>Actions</strong> column of the chunk server and then click<br><strong>Delete Blacklist</strong>.</td>
      </tr>
      <tr>
        <td>Restart services</td>
@@ -10536,7 +10536,7 @@ Chunk servers are used for read and write operations in clusters. You can view t
      </tr>
      <tr>
        <td>Obtain the build information</td>
-       <td>Obtain the build information about a meta server. The detailed version information can be used to help you locate issues.<br>To obtain the build information of a chunk server, perform the following steps: Find the chunk server that you want to manage, move the pointer<br><img src="assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>over the icon in the <strong>Actions</strong> column, and then click <strong>Build</strong><br><strong>Information</strong>.</td>
+       <td>Obtain the build information about a meta server. The detailed version information can be used to help you locate issues.<br>To obtain the build information of a chunk server, perform the following steps: Find the chunk server that you want to manage, move the pointer<br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/78c9d391cd7bfbc805894de62c32d126.jpeg" alt=""><br>over the icon in the <strong>Actions</strong> column, and then click <strong>Build</strong><br><strong>Information</strong>.</td>
      </tr>
      <tr>
        <td>View and manage hard disks</td>
@@ -11234,7 +11234,7 @@ Modify instance configurations such as the table limit, maximum number of table 
 
 **View instance monitoring data**
 
-Click the <img src="assets/dc35c259de1b08d91830b79788a3b3e3.png" width="14" alt=""> icon in the **Instance Name** column for the target instance. On the **Monitor** tab,
+Click the <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/dc35c259de1b08d91830b79788a3b3e3.png" width="14" alt=""> icon in the **Instance Name** column for the target instance. On the **Monitor** tab,
 
 you can view monitoring metrics such as the instance's QPS and error QPS.
 
@@ -11763,7 +11763,7 @@ Query monitoring metrics, latency distribution reports, web error distribution r
 
    | Operation | Description |
    | --- | --- |
-   | View monitoring data | Monitoring metrics vary by resource:<br>• Cluster-level metrics include total and effective PV, OTS error PV, capacity unit, effective/total QPS service quality ratio, RW error row count, and net flow.<br>• Instance- and table-level metrics include QPS, error QPS, capacity unit, RW error row count, TVCapacityUnit, and OfflineSize.<br>• Operation-level metrics include QPS, latency, error QPS, RW error row count, and latency Dis.<br>Note<br>• Hover over a data trend line to view the specific value at that point in time.<br>• Hover over the icon in a metric section and select <strong>Export</strong><br><img src="assets/01be4050176c03cba71d6474db260217.png" width="17" alt=""><br><strong>Excel</strong> to export the data to an Excel file, or select <strong>Export</strong> <strong>Picture</strong> to export the data as a picture. |
+   | View monitoring data | Monitoring metrics vary by resource:<br>• Cluster-level metrics include total and effective PV, OTS error PV, capacity unit, effective/total QPS service quality ratio, RW error row count, and net flow.<br>• Instance- and table-level metrics include QPS, error QPS, capacity unit, RW error row count, TVCapacityUnit, and OfflineSize.<br>• Operation-level metrics include QPS, latency, error QPS, RW error row count, and latency Dis.<br>Note<br>• Hover over a data trend line to view the specific value at that point in time.<br>• Hover over the icon in a metric section and select <strong>Export</strong><br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/01be4050176c03cba71d6474db260217.png" width="17" alt=""><br><strong>Excel</strong> to export the data to an Excel file, or select <strong>Export</strong> <strong>Picture</strong> to export the data as a picture. |
    | View the latency distribution report | For a specific operation, view the total PV and the distribution of operations, by count and percentage, across different latency ranges in the <strong>Latency</strong> <strong>Distribution Report</strong> section. |
    | View the web error distribution report | In the <strong>Web Error Distribution Report</strong> section, view the frequency and percentage for each frontend return code. |
    | View the server error distribution report (row level) | In the <strong>Server Error Distribution Report (Row Level)</strong> section, view error details, frequency, and percentage for each backend return code. |
@@ -11905,7 +11905,7 @@ Each region has a Search cluster, and the system automatically retrieves its inf
    | Operation | Description |
    | --- | --- |
    | View cluster overview information | In the <strong>Cluster Brief</strong> section, view information such as cluster health, node information, index information, CPU, QPS, latency, and information about the shards, total doc count, and thread pool water level of data nodes. |
-   | View top metrics | View top metrics for nodes and indices over a specified period.<br>• View top node metrics<br>In the <strong>Top Indicator</strong> section, go to the <strong>Node Top</strong> tab. Select a time<br>and click the<img src="assets/bf40834f3e0a640d8df7cb6f51d417cf.png" width="18" alt="">icon to view top node metrics such as Index QPS,<br>Query QPS, Index Latency, and Query Latency.<br>In the metrics list, click a node ID to view node information.<br>• View top index metrics<br>In the <strong>Top Indicator</strong> section, go to the <strong>Index Top</strong> tab. Select a time<br>and click the<img src="assets/bf40834f3e0a640d8df7cb6f51d417cf.png" width="20" alt="">icon to view top index metrics such as Primaries Docs<br>Count, Primaries Store Size, Primaries Index QPS, Primaries Index Latency, and Doc Write Create QPS. |
+   | View top metrics | View top metrics for nodes and indices over a specified period.<br>• View top node metrics<br>In the <strong>Top Indicator</strong> section, go to the <strong>Node Top</strong> tab. Select a time<br>and click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/bf40834f3e0a640d8df7cb6f51d417cf.png" width="18" alt="">icon to view top node metrics such as Index QPS,<br>Query QPS, Index Latency, and Query Latency.<br>In the metrics list, click a node ID to view node information.<br>• View top index metrics<br>In the <strong>Top Indicator</strong> section, go to the <strong>Index Top</strong> tab. Select a time<br>and click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/bf40834f3e0a640d8df7cb6f51d417cf.png" width="20" alt="">icon to view top index metrics such as Primaries Docs<br>Count, Primaries Store Size, Primaries Index QPS, Primaries Index Latency, and Doc Write Create QPS. |
    | View Search thread pool information | In the <strong>Search Thread Pool</strong> section, view information such as instance name, user index name, system index name, thread pool isolation, table name, instance ID, and table ID. |
    | View bulk thread pool information | In the <strong>Bulk Thread Pool</strong> section, view information such as instance name, system index name, bulk thread pool, table name, instance ID, and table ID. |
    | View cluster configuration information | The <strong>Cluster Config</strong> section displays the detailed cluster configuration in script format. |
@@ -11990,7 +11990,7 @@ Each region has a Search cluster, and the system automatically retrieves its inf
 
      | Operation | Description |
      | --- | --- |
-     | View index details | On the <strong>Index Details</strong> tab, view basic index information and shard assignment status.<br>• View basic index information<br>Click the <strong>Basic Index Information</strong> tab to view overview information (such as index doc storage usage), instance information (such as user index name, table name, and instance name), index information (such as index creation time and initial index creation time), index mapping, index settings, and index schema.<br>In the <strong>Instance Information</strong> section, you can click the corresponding links for more details. For <strong>Table Name</strong>, you can view <strong>Tunnel</strong> <strong>Details</strong>, <strong>Table Details</strong>, <strong>Table Monitoring</strong>, or <strong>LB Information</strong> (top operations). For <strong>Instance Name</strong>, you can view <strong>Instance Details</strong> or <strong>Instance Monitoring</strong>. For <strong>User ID</strong>, you can view <strong>User Details</strong>. For <strong>TableStore Cluster</strong>, you can view <strong>Cluster Details</strong> (OTS cluster details) or <strong>Cluster Monitoring</strong>.<br>• View shard assignment for the index<br>Click the <strong>Shard Assignment</strong> tab to view the shard topology legend, and the shard assignment and shard assignment details in the node list.<br>In the <strong>Nodes</strong> section, hover over a shard assignment icon in the<br>legend (for example,<img src="assets/2005e0aec0579b7e280b29cbe9b66019.png" width="20" alt="">) to view detailed shard information. Click a<br>node name to view node details.<br>In the <strong>Allocation Explain</strong> section, click the plus sign (+) next to a shard to expand and view its details. |
+     | View index details | On the <strong>Index Details</strong> tab, view basic index information and shard assignment status.<br>• View basic index information<br>Click the <strong>Basic Index Information</strong> tab to view overview information (such as index doc storage usage), instance information (such as user index name, table name, and instance name), index information (such as index creation time and initial index creation time), index mapping, index settings, and index schema.<br>In the <strong>Instance Information</strong> section, you can click the corresponding links for more details. For <strong>Table Name</strong>, you can view <strong>Tunnel</strong> <strong>Details</strong>, <strong>Table Details</strong>, <strong>Table Monitoring</strong>, or <strong>LB Information</strong> (top operations). For <strong>Instance Name</strong>, you can view <strong>Instance Details</strong> or <strong>Instance Monitoring</strong>. For <strong>User ID</strong>, you can view <strong>User Details</strong>. For <strong>TableStore Cluster</strong>, you can view <strong>Cluster Details</strong> (OTS cluster details) or <strong>Cluster Monitoring</strong>.<br>• View shard assignment for the index<br>Click the <strong>Shard Assignment</strong> tab to view the shard topology legend, and the shard assignment and shard assignment details in the node list.<br>In the <strong>Nodes</strong> section, hover over a shard assignment icon in the<br>legend (for example,<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/2005e0aec0579b7e280b29cbe9b66019.png" width="20" alt="">) to view detailed shard information. Click a<br>node name to view node details.<br>In the <strong>Allocation Explain</strong> section, click the plus sign (+) next to a shard to expand and view its details. |
 
      <table>
        <tr>
@@ -12166,9 +12166,9 @@ After a Reindex task is created, O&M personnel can manage its lifecycle, which i
 
    | Operation | Description |
    | --- | --- |
-   | Modify a Reindex task | Modify parameters such as auto-start, auto-set weight, and auto-switch for a Search Reindex task.<br>i. In the <strong>Operation</strong> column of the target task, click the<img src="assets/b729c5193e3a31d0dfbe5feac88d593b.png" width="17" alt="">icon.<br>ii. In the <strong>Modify Reindex Task</strong> dialog box, configure parameters such as auto-start, auto-set weight, and auto-switch as needed.<br>iii. Click <strong>OK</strong>. |
-   | Modify Reindex task configuration information | Modify configuration information for a Search Reindex task, such as its description, shard, routing field, TTL, and schema.<br>i. In the <strong>Operation</strong> column of the target task, click the<img src="assets/b930573121646bb6b0caa71b88c059c2.png" width="18" alt="">icon.<br>ii. In the <strong>Modify Reindex Task</strong> dialog box, configure the description, shard, routing field, TTL, and schema information for the task. The main parameters are described as follows:<br>• Description: The description of the Search Reindex task.<br>• Shard: The shard to which the search index belongs after it is rebuilt.<br>• Routing field: You can select primary key columns as routing fields when rebuilding a search index. During data indexing, the system uses the routing field values to distribute data. This process ensures that records with the same routing field value are indexed to the same data partition.<br>• TTL: The data retention period. When data exceeds its specified lifecycle, it is automatically cleared.<br>The minimum data lifecycle is 86,400 seconds (1 day) or -1 (retain data indefinitely).<br>• Edit Schema: Specifies whether to edit the search index schema. The default value is <strong>No</strong>.<br>To edit the search index schema, select <strong>Yes</strong>, and then add, modify, or delete columns in the search index.<br>iii. Click <strong>OK</strong>. |
-   | Delete a Reindex task | Delete a Search Reindex task that is no longer needed.<br>Important<br>Deleted Search Reindex tasks cannot be recovered. Proceed with caution.<br>i. In the <strong>Operation</strong> column of the target task, click the<img src="assets/9bb108ca682dac677d2a69d633c2d458.png" width="21" alt="">icon.<br>ii. In the <strong>Delete</strong> dialog box, click <strong>OK</strong>. |
+   | Modify a Reindex task | Modify parameters such as auto-start, auto-set weight, and auto-switch for a Search Reindex task.<br>i. In the <strong>Operation</strong> column of the target task, click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/b729c5193e3a31d0dfbe5feac88d593b.png" width="17" alt="">icon.<br>ii. In the <strong>Modify Reindex Task</strong> dialog box, configure parameters such as auto-start, auto-set weight, and auto-switch as needed.<br>iii. Click <strong>OK</strong>. |
+   | Modify Reindex task configuration information | Modify configuration information for a Search Reindex task, such as its description, shard, routing field, TTL, and schema.<br>i. In the <strong>Operation</strong> column of the target task, click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/b930573121646bb6b0caa71b88c059c2.png" width="18" alt="">icon.<br>ii. In the <strong>Modify Reindex Task</strong> dialog box, configure the description, shard, routing field, TTL, and schema information for the task. The main parameters are described as follows:<br>• Description: The description of the Search Reindex task.<br>• Shard: The shard to which the search index belongs after it is rebuilt.<br>• Routing field: You can select primary key columns as routing fields when rebuilding a search index. During data indexing, the system uses the routing field values to distribute data. This process ensures that records with the same routing field value are indexed to the same data partition.<br>• TTL: The data retention period. When data exceeds its specified lifecycle, it is automatically cleared.<br>The minimum data lifecycle is 86,400 seconds (1 day) or -1 (retain data indefinitely).<br>• Edit Schema: Specifies whether to edit the search index schema. The default value is <strong>No</strong>.<br>To edit the search index schema, select <strong>Yes</strong>, and then add, modify, or delete columns in the search index.<br>iii. Click <strong>OK</strong>. |
+   | Delete a Reindex task | Delete a Search Reindex task that is no longer needed.<br>Important<br>Deleted Search Reindex tasks cannot be recovered. Proceed with caution.<br>i. In the <strong>Operation</strong> column of the target task, click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/9bb108ca682dac677d2a69d633c2d458.png" width="21" alt="">icon.<br>ii. In the <strong>Delete</strong> dialog box, click <strong>OK</strong>. |
 
 <a id="section-5-6-2-3-5"></a>
 
@@ -12653,7 +12653,7 @@ O&M personnel can view cluster-level monitoring metrics to understand the cluste
 
    | Operation | Description |
    | --- | --- |
-   | View monitoring data | CCluster metrics include Total and Effective PV, OTS Error PV, Capacity Unit, Effective/Total QPS Server Mass Ratio, RW Error Row Count, Net Flow, Web Error Distribution Report, and Server Error Distribution Report (Row Level).<br>Note<br>• Hover over the trend line to view the exact value at a specific point in time.<br>• Hover over the icon in a metric chart and select <strong>Export</strong><br><img src="assets/01be4050176c03cba71d6474db260217.png" width="28" alt=""><br><strong>Excel</strong> to download the data as an Excel file, or select <strong>Export</strong> <strong>Picture</strong> to download the data as an image. |
+   | View monitoring data | CCluster metrics include Total and Effective PV, OTS Error PV, Capacity Unit, Effective/Total QPS Server Mass Ratio, RW Error Row Count, Net Flow, Web Error Distribution Report, and Server Error Distribution Report (Row Level).<br>Note<br>• Hover over the trend line to view the exact value at a specific point in time.<br>• Hover over the icon in a metric chart and select <strong>Export</strong><br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/01be4050176c03cba71d6474db260217.png" width="28" alt=""><br><strong>Excel</strong> to download the data as an Excel file, or select <strong>Export</strong> <strong>Picture</strong> to download the data as an image. |
    | View the frontend error distribution report | The <strong>Web Error Distribution Report</strong> section shows the frequency and proportion for each frontend return code. |
    | View the backend error distribution report (row level) | The <strong>Server Error Distribution Report (Row Level)</strong> section shows the frequency and proportion for each backend return code. |
 
@@ -12681,7 +12681,7 @@ By viewing metrics at the instance and table-operation levels, O&M personnel can
 
    | Operation | Description |
    | --- | --- |
-   | View monitoring data | The available monitoring metrics vary by resource.<br>• For instances and tables, monitoring metrics include QPS, Error QPS, CapacityUnit, RW Error Row Count, TVCapacityUnit, OfflineSize, and more.<br>• For operations, monitoring metrics include QPS, Latency, Error QPS, RW Error Row Count, Latency Dis, and more.<br>Note<br>• Hover over the trend line to view the exact value at a specific point in time.<br>• Hover over the icon in a metric char and select <strong>Export</strong><br><img src="assets/01be4050176c03cba71d6474db260217.png" width="28" alt=""><br><strong>Excel</strong> or <strong>Export Picture</strong>. |
+   | View monitoring data | The available monitoring metrics vary by resource.<br>• For instances and tables, monitoring metrics include QPS, Error QPS, CapacityUnit, RW Error Row Count, TVCapacityUnit, OfflineSize, and more.<br>• For operations, monitoring metrics include QPS, Latency, Error QPS, RW Error Row Count, Latency Dis, and more.<br>Note<br>• Hover over the trend line to view the exact value at a specific point in time.<br>• Hover over the icon in a metric char and select <strong>Export</strong><br><img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/01be4050176c03cba71d6474db260217.png" width="28" alt=""><br><strong>Excel</strong> or <strong>Export Picture</strong>. |
    | View the latency distribution report | For a specific operation, the <strong>Latency Distribution Report</strong> section displays the Total PV, and the count and percentage of operations in different latency ranges. |
    | View the frontend error distribution report | The <strong>Web Error Distribution Report</strong> section shows the frequency and proportion for each frontend return code. |
    | View the backend error distribution report (row level) | The <strong>Server Error Distribution Report (Row Level)</strong> section shows error details, frequency, and proportion for each backend return code. |
@@ -12722,7 +12722,7 @@ O&M personnel can search for logs by request ID for troubleshooting. The search 
 
    After the request is parsed, the **Parser Result** section displays information such as the request time and IP address. The **Log Search Result** section shows detailed logs, including the machine, time, file, and full content.
 
-   ![](assets/548fc3a2e4f51bb7dc30c8f819d0ea67.jpeg)
+   ![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/548fc3a2e4f51bb7dc30c8f819d0ea67.jpeg)
 
 <a id="section-5-6-2-7-5"></a>
 
@@ -12744,7 +12744,7 @@ O&M personnel can search for logs to diagnose and resolve issues.
 
    View the timestamp, host, and detailed content of each log entry in the log list.
 
-   ![](assets/001d5da162e187993275779c075dd18a.jpeg)
+   ![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/001d5da162e187993275779c075dd18a.jpeg)
 
 <a id="section-5-6-2-8"></a>
 
@@ -12814,7 +12814,7 @@ O&M personnel can view the execution status of inspection tasks and identify the
    | --- | --- |
    | Search for inspection results | The system displays the inspection results for the current day by default.<br>i. Enter a product name, task name, or task ID, and select a time range.<br>ii. Click <strong>Search</strong> to view the corresponding inspection results.<br>Click <strong>Last 1 Hour</strong> to view inspection results from the past hour. |
    | View task details | The system displays the inspection results for all tasks by default. Click <strong>View Details</strong> in the <strong>Actions</strong> column of the target task to view its details, including command, host IP address, start time, end time, task details, and status. |
-   | View abnormal tasks | The system displays the inspection results for all tasks by default. To show<br>![](assets/4036b12996c256c963b87c34167ed514.jpeg)<br>only abnormal tasks, turn on the switch.<br>For an abnormal task, click <strong>View Details</strong> or <strong>View Exceptions</strong> in the <strong>Actions</strong> column to view the specific reason for the failure. |
+   | View abnormal tasks | The system displays the inspection results for all tasks by default. To show<br>![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/4036b12996c256c963b87c34167ed514.jpeg)<br>only abnormal tasks, turn on the switch.<br>For an abnormal task, click <strong>View Details</strong> or <strong>View Exceptions</strong> in the <strong>Actions</strong> column to view the specific reason for the failure. |
 
 <a id="section-5-6-3"></a>
 
@@ -13604,7 +13604,7 @@ You can choose the following types of workflows: CDS Cluster Scale Up, CDS Clust
    | Operation | Description |
    | --- | --- |
    | Search workflows | You can search workflows by workflow name, type, status, and time range. To search workflows by conditions, perform the following steps:<br>i. Specify the Cluster Name, Workflow Type, and Workflow Status parameters.<br>The Workflow Status parameter indicates the state of workflows. Valid values:<br>• Schedulable: The workflow is created but not scheduled to a machine.<br>• Running: The workflow is running.<br>• Paused: The workflow is automatically paused or manually paused because manual operations are required. For example, a node maintenance workflow is paused because the node must be powered off for maintenance.<br>• Pending Manual Intervention: The execution of a specific step in the workflow encounters an exception. If the exception is manually fixed and the step can be successfully executed, the workflow is resumed.<br>• Complete: The workflow is complete. You can view the execution duration and end time of a workflow that is completed.<br>• Failed: The workflow is failed. If a workflow failed, contact Apsara Stack technical support.<br>• Timed Out: The workflow timed out.<br>• Unexpectedly Terminated: You can mark a workflow as discarded if the workflow is pending for manual intervention or the workflow is manually stopped.<br>ii. Specify a time range. |
-   | Manage workflows | You can view the details of a workflow and stop, repair, resume, or discard the workflow.<br>Click <strong>Details</strong> in the <strong>Actions</strong> column of the workflow that you want to manage. In the <strong>Workflow Details</strong> panel, you can perform the following operations:<br>• <strong>View workflow information</strong>: View the basic information and steps of a workflow. The step information displays specific steps in the pre-check, O&amp;M operations such as maintenance and scale-up, specific steps in the post-check, and logs.<br>Note<br>The information and specific steps that are displayed vary based on workflow types.<br>Click <strong>Workflow Parameter</strong> to view the instance parameters and initialization parameters.<br>• <strong>Manage steps</strong>: Perform operations on steps in the workflow.<br>• Click <strong>Result</strong> in the Actions column of a step. In the <strong>Execution Result</strong> panel, view the number of executions and the execution details of the step.<br>• Click <strong>More</strong> in the Actions column of a step and click <strong>Execution Logs</strong>. In the <strong>Execution Logs</strong> panel, view the detailed logs of the step.<br>• Click <strong>More</strong> in the Actions column of a step and select <strong>Configuration</strong> <strong>Information</strong>. In the <strong>Configuration Information</strong> panel, view the configurations of the step.<br>• Click <strong>More</strong> in the Actions column of a step and select <strong>Skip</strong> to skip the step.<br>Warning<br>Skipping a step is a high-risk operation that may cause system exceptions. We recommend that you do not perform this operation. If an error occurs during the execution of a workflow, contact Apsara Stack technical support for troubleshooting.<br>• <strong>Refresh a workflow</strong>: Click <strong>Refresh</strong> to refresh the workflow information.<br>• <strong>Stop a workflow</strong>: Click <strong>Stop</strong> to stop the execution of subsequent steps of the current workflow.<br>Note<br>This operation stops the current step of the workflow and does not stop the process of the corresponding step in the cluster. The system re-executes the step after you resume the workflow.<br>• <strong>Resume a workflow</strong>: You may need to manually handle or stop a workflow due to exceptions. To resume a workflow, click <strong>Restore</strong>.<br>• <strong>Repair a workflow</strong>: Click the<img src="assets/1d1ab2699caf7f4a44871ec4251f5fb5.png" width="28" alt="">icon and click <strong>Repair</strong> to repair the<br>workflow that encounters exceptions.<br>• <strong>Discard a workflow</strong>: If a workflow is not complete and you no longer need to<br>execute the workflow, click the<img src="assets/1d1ab2699caf7f4a44871ec4251f5fb5.png" width="28" alt="">icon and click <strong>Discard</strong> to discard the<br>workflow.<br>Important<br>You cannot restore a discarded workflow. Proceed with caution. |
+   | Manage workflows | You can view the details of a workflow and stop, repair, resume, or discard the workflow.<br>Click <strong>Details</strong> in the <strong>Actions</strong> column of the workflow that you want to manage. In the <strong>Workflow Details</strong> panel, you can perform the following operations:<br>• <strong>View workflow information</strong>: View the basic information and steps of a workflow. The step information displays specific steps in the pre-check, O&amp;M operations such as maintenance and scale-up, specific steps in the post-check, and logs.<br>Note<br>The information and specific steps that are displayed vary based on workflow types.<br>Click <strong>Workflow Parameter</strong> to view the instance parameters and initialization parameters.<br>• <strong>Manage steps</strong>: Perform operations on steps in the workflow.<br>• Click <strong>Result</strong> in the Actions column of a step. In the <strong>Execution Result</strong> panel, view the number of executions and the execution details of the step.<br>• Click <strong>More</strong> in the Actions column of a step and click <strong>Execution Logs</strong>. In the <strong>Execution Logs</strong> panel, view the detailed logs of the step.<br>• Click <strong>More</strong> in the Actions column of a step and select <strong>Configuration</strong> <strong>Information</strong>. In the <strong>Configuration Information</strong> panel, view the configurations of the step.<br>• Click <strong>More</strong> in the Actions column of a step and select <strong>Skip</strong> to skip the step.<br>Warning<br>Skipping a step is a high-risk operation that may cause system exceptions. We recommend that you do not perform this operation. If an error occurs during the execution of a workflow, contact Apsara Stack technical support for troubleshooting.<br>• <strong>Refresh a workflow</strong>: Click <strong>Refresh</strong> to refresh the workflow information.<br>• <strong>Stop a workflow</strong>: Click <strong>Stop</strong> to stop the execution of subsequent steps of the current workflow.<br>Note<br>This operation stops the current step of the workflow and does not stop the process of the corresponding step in the cluster. The system re-executes the step after you resume the workflow.<br>• <strong>Resume a workflow</strong>: You may need to manually handle or stop a workflow due to exceptions. To resume a workflow, click <strong>Restore</strong>.<br>• <strong>Repair a workflow</strong>: Click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/1d1ab2699caf7f4a44871ec4251f5fb5.png" width="28" alt="">icon and click <strong>Repair</strong> to repair the<br>workflow that encounters exceptions.<br>• <strong>Discard a workflow</strong>: If a workflow is not complete and you no longer need to<br>execute the workflow, click the<img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/1d1ab2699caf7f4a44871ec4251f5fb5.png" width="28" alt="">icon and click <strong>Discard</strong> to discard the<br>workflow.<br>Important<br>You cannot restore a discarded workflow. Proceed with caution. |
 
 <a id="section-9-1-2"></a>
 
@@ -13968,7 +13968,7 @@ When a single zone is down, Cloud Defined Storage (CDS) can still ensure strong 
 
   If the yunchi component is in the **Ready** state and the yunchi servers are in the **Running** state on the **Workload** tab, the yunchi service is running as expected.
 
-  ![](assets/e349faaedfc9497325a8e1ae5d8c24cb.jpeg)
+  ![](en-cds-operations-guide-v3.18.6-2607-20260901.assets/e349faaedfc9497325a8e1ae5d8c24cb.jpeg)
 
   </li>
 
@@ -14873,11 +14873,11 @@ By default, the feature of automatically triggering compression tasks and cleanu
 
    - Enable or disable the auto trigger feature
 
-     By default, the auto trigger feature is disabled. You can turn on the <img src="assets/e88b815757e4bf59dbad9b52b13f0901.png" width="29" alt=""> switch in the
+     By default, the auto trigger feature is disabled. You can turn on the <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/e88b815757e4bf59dbad9b52b13f0901.png" width="29" alt=""> switch in the
 
      **Auto Trigger** column to enable the auto trigger feature.
 
-     After you enable the auto trigger feature, you can turn off the <img src="assets/a18acdef9c1120f60935c41bed9e8177.png" width="29" alt=""> switch in the **Auto**
+     After you enable the auto trigger feature, you can turn off the <img src="en-cds-operations-guide-v3.18.6-2607-20260901.assets/a18acdef9c1120f60935c41bed9e8177.png" width="29" alt=""> switch in the **Auto**
 
      **Trigger** column to disable the auto trigger feature.
 

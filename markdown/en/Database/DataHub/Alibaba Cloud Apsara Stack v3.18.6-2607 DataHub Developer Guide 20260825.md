@@ -4485,7 +4485,7 @@ You can obtain the endpoints of DataHub in the Apsara Uni-manager Management Con
 
 7. Obtain the DataHub endpoints in the **General Information** section on the right.
 
-![](assets/49206de1a00f510b44323661dd172d19.jpeg)
+![](en-datahub-developer-guide-v3.18.6-2607-20260825.assets/49206de1a00f510b44323661dd172d19.jpeg)
 
 <a id="section-2-3"></a>
 

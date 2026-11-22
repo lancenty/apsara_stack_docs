@@ -130,7 +130,7 @@ This topic describes how to log on to the API Gateway console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -210,7 +210,7 @@ This topic describes how to log on to the O&M console of ASR for Geo-disaster Re
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -272,13 +272,13 @@ This topic describes how to call gateways. API Gateway exposes backend microserv
 
    The following figure shows an example of creating an instance based on the EDAS deployment architecture. The selected cluster in **EDAS Configuration** must be in the same VPC as the edas-demo application in the Prerequisites section.
 
-   ![](assets/a9fa2c61ff7a45c6c43407bf945d9d1c.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/a9fa2c61ff7a45c6c43407bf945d9d1c.jpeg)
 
 2. Log in to the EDAS console and configure a Server Load Balancer (SLB) instance for the application.
 
    On the Application Details page, click **Add** next to **Server Load Balancer (Private)** in the **Application Settings** section. When you configure the TCP protocol, set both **SLB Port** and **Container Port** to 80, and then click **OK**.
 
-   ![](assets/cf1ffd56cef4209cf0d7368bbe987fb0.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/cf1ffd56cef4209cf0d7368bbe987fb0.jpeg)
 
 **Create a service source**
 
@@ -298,7 +298,7 @@ Go to the instance created in Create a gateway instance. Choose **Service > Serv
 
 The following example shows how to create a service named edas-demo-service. In **Node**, set **Host name/IP** and **Port** to the IP address and port number of the edas-demo application specified in Prerequisites.
 
-![](assets/1a53e219bd5caf0d993b100033d92679.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1a53e219bd5caf0d993b100033d92679.jpeg)
 
 **Create a route**
 
@@ -312,7 +312,7 @@ Go to the instance created in Create a gateway instance. Choose **Open Services 
 
 In the following figure, a route named edas-demo-route is created. **Route Path** is set to  `/demo/**`  (regular expression match). The route is associated with the backend service edas-demo-service that has been created in Create a service. **Route Intercepting Series** must be enabled and set to 1. Leave other parameters as default. You can use  `http://Gateway IP:PORT/ demo /echo/hello`  *to access* the  `/echo/hello`  interface of the edas-demo-service.
 
-![](assets/374c8d66a882cbf87c518aa7d6fb436f.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/374c8d66a882cbf87c518aa7d6fb436f.jpeg)
 
 In the preceding example, exact route match can also be used. Specifically, **Route Path** is set to  `/demo/echo/{str}` .
 
@@ -322,7 +322,7 @@ In the preceding example, exact route match can also be used. Specifically, **Ro
 
 - Use API debugging for quick access. Click **Debugging** in the **Operation** column of the route created in the Create a route step, specify  `/demo /echo/hello`  as the access path, and click **Send**. The call is successful.
 
-  ![](assets/65264e20eafadd5fb2739b40262b3ef5.jpeg)
+  ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/65264e20eafadd5fb2739b40262b3ef5.jpeg)
 
   > **Note**
   >
@@ -354,7 +354,7 @@ A Kubernetes cluster is created in the ACK console. For more information, see **
    >
    > For more information about the parameter settings, see Import a cluster.
 
-   ![](assets/3bcc3ffb3081014e84bce26b55660127.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/3bcc3ffb3081014e84bce26b55660127.jpeg)
 
 **Step 2: Create a gateway instance**
 
@@ -370,7 +370,7 @@ A Kubernetes cluster is created in the ACK console. For more information, see **
    >
    > For more information about the parameter settings, see Gateway instance (Kubernetes deployment architecture).
 
-   ![](assets/b98dee48411b23566cccd743302dbdfe.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/b98dee48411b23566cccd743302dbdfe.jpeg)
 
 **Step 3: Obtain the IP address and port number**
 
@@ -380,7 +380,7 @@ Run the following command to obtain the IP address and port number of the servic
 kubectl get svc -n higress-system
 ```
 
-![](assets/0d81987e919aac897f8ecefb87ae0379.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/0d81987e919aac897f8ecefb87ae0379.jpeg)
 
 **Step 4: Create a service**
 
@@ -396,7 +396,7 @@ kubectl get svc -n higress-system
    >
    > For more information about the parameter settings, see Create a service.
 
-   ![](assets/4ccb82902a1d93892303be5c22182509.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/4ccb82902a1d93892303be5c22182509.jpeg)
 
 **Step 5: Create a route**
 
@@ -412,7 +412,7 @@ kubectl get svc -n higress-system
    >
    > For more information about the parameter settings, see Create a route.
 
-   ![](assets/bb9eeb357828a10767d7f90c8904693a.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/bb9eeb357828a10767d7f90c8904693a.jpeg)
 
 **Step 6: Verify the results**
 
@@ -424,7 +424,7 @@ kubectl get svc -n higress-system
    >
    > For more information, see API debugging.
 
-   ![](assets/2191dcff5840b9d9fdaad44024150f98.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/2191dcff5840b9d9fdaad44024150f98.jpeg)
 
 <a id="section-5"></a>
 
@@ -452,7 +452,7 @@ API Gateway supports two deployment architectures: EDAS deployment and custom de
 
 The nodes for API Gateway and the backend service are typically in different security groups. You must grant API Gateway access permissions for the required port range in the security group of the backend service.
 
-![](assets/3fdf1cdb95b010f2af7f282e5461ee24.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/3fdf1cdb95b010f2af7f282e5461ee24.jpeg)
 
 **Procedure**
 
@@ -488,7 +488,7 @@ The nodes for API Gateway and the backend service are typically in different sec
 
    section.
 
-   ![](assets/81d7e22afab7766c0f382fe68b73ca41.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/81d7e22afab7766c0f382fe68b73ca41.jpeg)
 
 2. Obtain the CIDR block of the vSwitch.
 
@@ -516,7 +516,7 @@ The nodes for API Gateway and the backend service are typically in different sec
 
    vSwitch.
 
-   ![](assets/aa52ed3363dfa663a99bcd646baf2e8d.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/aa52ed3363dfa663a99bcd646baf2e8d.jpeg)
 
 3. Obtain the security group of the node where the target service is located.
 
@@ -554,7 +554,7 @@ The nodes for API Gateway and the backend service are typically in different sec
 
    section.
 
-   ![](assets/366e7878ed8111fc5d4480ebb24f7635.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/366e7878ed8111fc5d4480ebb24f7635.jpeg)
 
    **ECS deployment**
 
@@ -588,7 +588,7 @@ The nodes for API Gateway and the backend service are typically in different sec
 
    group ID.
 
-   ![](assets/50ea37d6df7ef18a34334bd6b8aa18f3.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/50ea37d6df7ef18a34334bd6b8aa18f3.jpeg)
 
 4. Add a security group rule.
 
@@ -663,7 +663,7 @@ Troubleshoot the issue as follows:
 
 Your organization has enabled **Cloud Resource Access Authorization**.
 
-![](assets/2f221acb1594448b2ef6cea6b52a0179.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/2f221acb1594448b2ef6cea6b52a0179.jpeg)
 
 **Create an instance**
 
@@ -686,7 +686,7 @@ Your organization has enabled **Cloud Resource Access Authorization**.
 
 5. You can view the new gateway instance on the instance list page.
 
-   ![](assets/e472cb1fda33b33e92cf276da5df6855.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/e472cb1fda33b33e92cf276da5df6855.jpeg)
 
    > **Note**
    >
@@ -724,7 +724,7 @@ The overview page displays basic information, a gateway overview, and endpoint i
 
 2. In the left-side navigation pane, choose **API Gateway > Instance List**.
 
-3. In the instance list, find the target instance. Then, click <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> in the **Actions** column and
+3. In the instance list, find the target instance. Then, click <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> in the **Actions** column and
 
    select **Edit**.
 
@@ -736,7 +736,7 @@ The overview page displays basic information, a gateway overview, and endpoint i
 
 2. In the left-side navigation pane, choose **API Gateway > Instance List**.
 
-3. In the instance list, find the target instance. Then, click the <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Actions** column
+3. In the instance list, find the target instance. Then, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Actions** column
 
    and select **Unregister** or **Force Unregister**.
 
@@ -766,7 +766,7 @@ This topic describes how to create and manage an API Gateway instance in a Kuber
 
 - **Cloud Resource Access Authorization** is enabled for the current organization.
 
-  ![](assets/2f221acb1594448b2ef6cea6b52a0179.jpeg)
+  ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/2f221acb1594448b2ef6cea6b52a0179.jpeg)
 
 - A Kubernetes cluster is imported. For more information, see Import a cluster.
 
@@ -832,7 +832,7 @@ On the Overview page, you can view the basic information, gateway overview, and 
 
 2. In the left-side navigation pane, choose **API Gateway > Instance List**.
 
-3. On the Gateway instance page, find the instance that you want to manage, click the <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt="">
+3. On the Gateway instance page, find the instance that you want to manage, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt="">
 
    icon in the **Operation** column, and then select **Edit**.
 
@@ -848,7 +848,7 @@ On the Overview page, you can view the basic information, gateway overview, and 
 
 2. In the left-side navigation pane, choose **API Gateway > Instance List**.
 
-3. On the Gateway instance page, find the instance that you want to manage, click the <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt="">
+3. On the Gateway instance page, find the instance that you want to manage, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt="">
 
    icon in the **Operation** column, and then select **Unregister** or **Force Unregister**.
 
@@ -862,7 +862,7 @@ If you no longer need to run a gateway instance, you can stop the instance.
 
 2. In the left-side navigation pane, choose **API Gateway > Instance List**.
 
-3. On the Gateway instance page, find the instance that you want to manage, click the <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt="">
+3. On the Gateway instance page, find the instance that you want to manage, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt="">
 
    icon in the **Operation** column, and then select **Shutdown**.
 
@@ -876,7 +876,7 @@ If you need to continue using a gateway instance, you can restart it.
 
 2. In the left-side navigation pane, choose **API Gateway > Instance List**.
 
-3. On the Gateway instance page, find the instance that you want to manage, click the <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt="">
+3. On the Gateway instance page, find the instance that you want to manage, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt="">
 
    icon in the **Operation** column, and then select **Restart**.
 
@@ -890,7 +890,7 @@ If you need to continue using a gateway instance, you can restart it.
 
 Your organization must have **Cloud Resource Access Authorization** enabled.
 
-![](assets/2f221acb1594448b2ef6cea6b52a0179.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/2f221acb1594448b2ef6cea6b52a0179.jpeg)
 
 **Create an instance**
 
@@ -914,7 +914,7 @@ Your organization must have **Cloud Resource Access Authorization** enabled.
 
 5. In the instance list, you can find the created gateway instance, which has a status of **To be Deployed**.
 
-   ![](assets/c7ab3aa2d732f360c395f80c0c30ec45.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/c7ab3aa2d732f360c395f80c0c30ec45.jpeg)
 
    > **Note**
    >
@@ -926,7 +926,7 @@ Your organization must have **Cloud Resource Access Authorization** enabled.
    >
    > - **Abnormal**: If the instance status report times out, the state changes to Abnormal.
 
-6. On the **Gateway Instance** page, click the <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Actions** column of the target
+6. On the **Gateway Instance** page, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Actions** column of the target
 
    instance and select **View** to see the deployment details for the instance (cluster or ECS).
 
@@ -967,7 +967,7 @@ Your organization must have **Cloud Resource Access Authorization** enabled.
 
 2. In the left-side navigation pane, choose **API Gateway > Instance List**.
 
-3. Find the target instance, click the <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Actions** column, and select **Edit**.
+3. Find the target instance, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Actions** column, and select **Edit**.
 
 4. Modify the **Instance Name** and click **Submit**.
 
@@ -977,7 +977,7 @@ Your organization must have **Cloud Resource Access Authorization** enabled.
 
 2. In the left-side navigation pane, choose **API Gateway > Instance List**.
 
-3. Find the target instance, click the <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Actions** column, and select **Unregister**.
+3. Find the target instance, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Actions** column, and select **Unregister**.
 
 4. In the **Notice** dialog box, click **OK**.
 
@@ -1007,7 +1007,7 @@ Your organization must have **Cloud Resource Access Authorization** enabled.
 
 2. In the left-side navigation pane, choose **API Gateway > Instance List**.
 
-3. Find the target instance, click the <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Actions** column, and select **Force**
+3. Find the target instance, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Actions** column, and select **Force**
 
    **Logoff**.
 
@@ -1057,7 +1057,7 @@ On the Overview page, you can view the basic information, gateway overview, and 
 
 2. In the left-side navigation pane, choose **API Gateway > Shared Instance List**.
 
-3. Find the shared instance that you want to rename, click the <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Operation**
+3. Find the shared instance that you want to rename, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Operation**
 
    column, and then select **Edit**.
 
@@ -1073,7 +1073,7 @@ On the Overview page, you can view the basic information, gateway overview, and 
 
 2. In the left-side navigation pane, choose **API Gateway > Shared Instance List**.
 
-3. Find the shared instance that you want to deregister, click the <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Operation**
+3. Find the shared instance that you want to deregister, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Operation**
 
    column, and then select **Write-off** or **Force Logoff**.
 
@@ -1087,7 +1087,7 @@ If you do not need to run a shared instance, you can stop the shared instance.
 
 2. In the left-side navigation pane, choose **API Gateway > Shared Instance List**.
 
-3. Find the shared instance that you want to stop, click the <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Operation**
+3. Find the shared instance that you want to stop, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Operation**
 
    column, and then select **Shutdown**.
 
@@ -1101,7 +1101,7 @@ If you need to continue using a shared instance, you can restart the shared inst
 
 2. In the left-side navigation pane, choose **API Gateway > Shared Instance List**.
 
-3. Find the shared instance that you want to restart, click the <img src="assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Operation**
+3. Find the shared instance that you want to restart, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f047e814b272681aaec2185ddb24ee5.png" width="25" alt=""> icon in the **Operation**
 
    column, and then select **Restart**.
 
@@ -1151,7 +1151,7 @@ API Gateway supports smooth migration of API definitions, group configurations, 
 
 3. Click the task ID or click **Details** in the **Operation** column to view more information, including **Basic Information**, **Statistics**, and **Detailed information**.
 
-   ![](assets/e39b5d1b97f13e8261823cd3ef316faa.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/e39b5d1b97f13e8261823cd3ef316faa.jpeg)
 
 **Roll back data**
 
@@ -1367,7 +1367,7 @@ After you create a service, you can create routes for the service in the route m
 
 4. In the left-side navigation pane, choose **Open Services > Routing Management**.
 
-5. On the **Routing Management** page, click the <img src="assets/b3cda733a5e5394a86c9a06512c5e6d1.png" width="8" alt=""> icon in the **Operation** column of a route
+5. On the **Routing Management** page, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/b3cda733a5e5394a86c9a06512c5e6d1.png" width="8" alt=""> icon in the **Operation** column of a route
 
    and click **Enable** or **Disable**.
 
@@ -1387,7 +1387,7 @@ After you create a service, you can create routes for the service in the route m
 
 4. In the left-side navigation pane, choose **Open Services > Routing Management**.
 
-5. On the **Routing Management** page, click the <img src="assets/b3cda733a5e5394a86c9a06512c5e6d1.png" width="8" alt=""> icon in the **Operation** column of a route
+5. On the **Routing Management** page, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/b3cda733a5e5394a86c9a06512c5e6d1.png" width="8" alt=""> icon in the **Operation** column of a route
 
    and click **Edit** to go to the **Edit route** page.
 
@@ -1403,7 +1403,7 @@ After you create a service, you can create routes for the service in the route m
 
 4. In the left-side navigation pane, choose **Open Services > Routing Management**.
 
-5. On the **Routing Management** page, click the <img src="assets/b3cda733a5e5394a86c9a06512c5e6d1.png" width="8" alt=""> icon in the **Operation** column of a route
+5. On the **Routing Management** page, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/b3cda733a5e5394a86c9a06512c5e6d1.png" width="8" alt=""> icon in the **Operation** column of a route
 
    and click **Delete**.
 
@@ -1459,7 +1459,7 @@ You can perform online debugging on existing routes.
 
 The **plug-in marketplace** displays all plug-ins of the current gateway instance. You can use these plug-ins to implement different features, such as request or response rewriting and filtering and parameter mapping.
 
-![](assets/2814ba6559c9aae08b8e629a90fd9e7c.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/2814ba6559c9aae08b8e629a90fd9e7c.jpeg)
 
 Plug-ins are classified into two categories: built-in plug-ins and custom plug-ins.
 
@@ -1524,7 +1524,7 @@ You can edit custom plug-ins that are not in use, including global plug-ins and 
 
 4. In the left-side navigation pane, choose **Open Services > Plugin Management > Plugin market**.
 
-5. On the **Plugin market** page, move the pointer over the <img src="assets/520cd7efedc75547603a0a6400dc4703.png" width="13" alt=""> icon of the plug-in card and
+5. On the **Plugin market** page, move the pointer over the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/520cd7efedc75547603a0a6400dc4703.png" width="13" alt=""> icon of the plug-in card and
 
    select **Edit**. You can edit the **download URL**, **description**, and **configuration fields** of the plug-in.
 
@@ -1540,7 +1540,7 @@ You can delete custom plug-ins that are not in use, including global plug-ins an
 
 4. In the left-side navigation pane, choose **Open Services > Plugin Management > Plugin market**.
 
-5. On the **Plugin market** page, move the pointer over the <img src="assets/520cd7efedc75547603a0a6400dc4703.png" width="13" alt=""> icon of the plug-in card that you
+5. On the **Plugin market** page, move the pointer over the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/520cd7efedc75547603a0a6400dc4703.png" width="13" alt=""> icon of the plug-in card that you
 
    want to delete, select **Delete**, and then click **Determine**.
 
@@ -1556,7 +1556,7 @@ After a global plug-in is added, the plug-in applies to all routes of the curren
 
 4. In the left-side navigation pane, choose **Open Services > Plugin Management > Plugin market**.
 
-5. On the **Plugin market** page, move the pointer over the <img src="assets/520cd7efedc75547603a0a6400dc4703.png" width="13" alt=""> icon of the plug-in card and
+5. On the **Plugin market** page, move the pointer over the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/520cd7efedc75547603a0a6400dc4703.png" width="13" alt=""> icon of the plug-in card and
 
    select **Add global plugins**. For more information, see Global plug-ins.
 
@@ -1875,7 +1875,7 @@ This section uses Alibaba Cloud Object Storage Service (OSS) as an example to sh
 
 4. Click the **Object Mannagement** tab and then click **Upload Object** . Upload the JAR package that you generated in the previous step.
 
-   ![](assets/946e7fbce56947d45605c4ed5fa85cc7.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/946e7fbce56947d45605c4ed5fa85cc7.jpeg)
 
    > **Note**
    >
@@ -1883,7 +1883,7 @@ This section uses Alibaba Cloud Object Storage Service (OSS) as an example to sh
    >
    > The URL must not contain special characters, such as the percent sign (%). This prevents parsing errors after the gateway downloads the JAR package.
 
-   ![](assets/4f999d0d09829b0ce9eccfb5740b44af.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/4f999d0d09829b0ce9eccfb5740b44af.jpeg)
 
 <a id="section-5-4-4"></a>
 
@@ -1899,7 +1899,7 @@ The current signature management module provides the following features:
 
 After API request signing is enabled, a client interacts with an API gateway based on the following procedure:
 
-![](assets/389ee8b072efa73c8c1d0e38c956edf8.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/389ee8b072efa73c8c1d0e38c956edf8.jpeg)
 
 **Enable API request signing**
 
@@ -2961,7 +2961,7 @@ After you create a gateway instance and add related services and routes, you can
 
 5. On the **API debugging** page, enter an API operation and click **Send**.
 
-   ![](assets/65264e20eafadd5fb2739b40262b3ef5.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/65264e20eafadd5fb2739b40262b3ef5.jpeg)
 
 <a id="section-5-5-3"></a>
 
@@ -3298,7 +3298,7 @@ After a service is added to the gateway, you can view the service node and its h
      >
      >   icon in the **Flow Ratio** column to
      >
-     >   <img src="assets/12e4e8f07b8a6b5b2b255f1a9503d26e.png" width="9" alt="">
+     >   <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/12e4e8f07b8a6b5b2b255f1a9503d26e.png" width="9" alt="">
      >
      >   modify the traffic ratio. Nodes with a 0% traffic ratio can be undeployed, and only undeployed nodes can be deleted.
 
@@ -3478,7 +3478,7 @@ You can perform online debugging on existing source routes.
 
 4. In the left-side navigation pane, choose **Cascade Management > Source Routing**.
 
-5. On the **Source Routing** page, select the source route you want to modify, click the <img src="assets/dd034e500ceb443263918f60305078e1.png" width="13" alt=""> icon
+5. On the **Source Routing** page, select the source route you want to modify, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/dd034e500ceb443263918f60305078e1.png" width="13" alt=""> icon
 
    in the **Operation** column, and click **Edit**.
 
@@ -3494,7 +3494,7 @@ You can perform online debugging on existing source routes.
 
 4. In the left-side navigation pane, choose **Cascade Management > Source Routing**.
 
-5. On the **Source Routing** page, select the source route you want to delete, click the <img src="assets/dd034e500ceb443263918f60305078e1.png" width="13" alt=""> icon
+5. On the **Source Routing** page, select the source route you want to delete, click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/dd034e500ceb443263918f60305078e1.png" width="13" alt=""> icon
 
    in the **Operation** column, and click **Delete**.
 
@@ -3673,7 +3673,7 @@ When you create a source consumer, you must select an authentication method. The
 
 5. On the **Source consumer** page, find the source consumer that you want to manage, click
 
-   the <img src="assets/203f8c56d3ba5cc69534ff857c282f0b.png" width="13" alt=""> icon in the **Operation** column, and then click **Edit**.
+   the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/203f8c56d3ba5cc69534ff857c282f0b.png" width="13" alt=""> icon in the **Operation** column, and then click **Edit**.
 
 6. Modify the parameters and click **Determine**.
 
@@ -3691,7 +3691,7 @@ You can delete source consumers that are no longer needed.
 
 5. On the **Source consumer** page, find the source consumer that you want to delete, click
 
-   the <img src="assets/203f8c56d3ba5cc69534ff857c282f0b.png" width="13" alt=""> icon in the **Operation** column, and then click **Delete**.
+   the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/203f8c56d3ba5cc69534ff857c282f0b.png" width="13" alt=""> icon in the **Operation** column, and then click **Delete**.
 
 6. In the **Alert** message, click **Determine**.
 
@@ -4149,15 +4149,15 @@ After you complete the configurations, you can perform a simple test.
 
 2. On the **API Debugging** interface, enter the URI of the request, select a **Consumer**, and click **Send**.
 
-   ![](assets/acd1461ba7232977acb28306d2cd5ee3.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/acd1461ba7232977acb28306d2cd5ee3.jpeg)
 
    In the **Actual Request** section, you can see that the API KEY is passed in the headers when the request is sent.
 
-   ![](assets/420b03f2315943c3409e94210259d33c.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/420b03f2315943c3409e94210259d33c.jpeg)
 
    Otherwise, the call fails. The following figure shows a failed authentication.
 
-   ![](assets/ca989a36310de17f0b67cf12e84c82fe.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/ca989a36310de17f0b67cf12e84c82fe.jpeg)
 
 <a id="section-5-8-3-1-2"></a>
 
@@ -4204,15 +4204,15 @@ After you complete the configuration, you can perform a simple test.
 
 2. On the API Debugging interface, enter the URI of the request, select a **Consumer**, and click **Send**.
 
-   ![](assets/2542c4437e8fb4a4ac91983166b25c9e.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/2542c4437e8fb4a4ac91983166b25c9e.jpeg)
 
    In the **Actual Request** section, you can see that the token is passed in \`header > Authorization\` when the request is sent.
 
-   ![](assets/8487efb50d61311f97efe8b29116af97.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/8487efb50d61311f97efe8b29116af97.jpeg)
 
    Otherwise, the call fails. The following figure shows a failed authentication.
 
-   ![](assets/d5741b47c024e479eaf0aabd1cb07062.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/d5741b47c024e479eaf0aabd1cb07062.jpeg)
 
 **Additional information**
 
@@ -4222,7 +4222,7 @@ In practice, the caller can obtain a token in the following ways:
 
 1. Copy the token that is automatically generated by the platform.
 
-   ![](assets/fed48901a9533371eeb96180bffd0d61.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/fed48901a9533371eeb96180bffd0d61.jpeg)
 
 2. Generate a token on your own. The following code provides an example. In the code, \`Key\` is the account and \`Password\` is the password.
 
@@ -4290,15 +4290,15 @@ After you complete the configuration, you can perform a simple test.
 
 2. On the API Debugging interface, you can enter the URI of the request, select a **Consumer**, and click **Send**.
 
-   ![](assets/0a2f270988024e1e32da4a8c37cf9722.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/0a2f270988024e1e32da4a8c37cf9722.jpeg)
 
    In the **Actual Request** section, you can see the token in the Authorization field of the header.
 
-   ![](assets/2d124917ea277594b909aed3817336c4.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/2d124917ea277594b909aed3817336c4.jpeg)
 
    Otherwise, the call fails due to an authentication failure, as shown in the following figure.
 
-   ![](assets/56228ec1f7ad9e1b5b650d01e34b36dd.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/56228ec1f7ad9e1b5b650d01e34b36dd.jpeg)
 
 **Additional information**
 
@@ -4308,7 +4308,7 @@ In a real-world scenario, the caller can obtain a token in the following ways:
 
 1. Copy the token that is automatically generated by the platform.
 
-   ![](assets/94609198f27b314ea5be9f63335e9fca.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/94609198f27b314ea5be9f63335e9fca.jpeg)
 
 2. Generate a token. The following sample code shows how to generate a token. In the code, uniqueKey is the key registered on the platform, payload is the payload, ttlMillis is the token validity period in milliseconds (ms), and secretKey is the secret. The signature algorithm is HS256, which is the only algorithm that the platform supports.
 
@@ -4492,7 +4492,7 @@ ST \
 
 A successful request for a token returns a response similar to the following. The value of the **access_token** field is the access credential.
 
-![](assets/afc7ab01255189465b1aff62178fc3a3.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/afc7ab01255189465b1aff62178fc3a3.jpeg)
 
 **Refresh a token**
 
@@ -4523,7 +4523,7 @@ PKCE stands for Proof Key for Code Exchange. It was published in 2015 as an exte
 
 2. On the **Edit Consumer** page, enable PKCE.
 
-   ![](assets/2b15e88267ab9a9dc743de8958645124.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/2b15e88267ab9a9dc743de8958645124.jpeg)
 
 3. Generate a verifier and a challenge The verifier and challenge are typically generated by a program. For this demo, you can use the manual generation feature provided by a tool website.
 
@@ -4531,7 +4531,7 @@ PKCE stands for Proof Key for Code Exchange. It was published in 2015 as an exte
    >
    > Click **Generate Code Verifier** and then **Generate Code Challenge** to generate the corresponding **Code Challenge**.
 
-   ![](assets/1e01ce8d7f42c2eb9c64c33cb35c358e.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1e01ce8d7f42c2eb9c64c33cb35c358e.jpeg)
 
 **Request an authorization code**
 
@@ -4572,7 +4572,7 @@ curl -k -H "Authorization: Bearer ${ACCESS_TOKEN}"
 ${BROKER_IP}:${BROKER_PORT}/httpbin/get
 ```
 
-![](assets/90a2b272f3b0bc6a179c3aef160261ad.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/90a2b272f3b0bc6a179c3aef160261ad.jpeg)
 
 <a id="section-5-8-3-1-5"></a>
 
@@ -4622,7 +4622,7 @@ ${BROKER_IP}:${BROKER_PORT}/httpbin/post
 
 If the authentication is successful, the service returns the following result:
 
-![](assets/372073e36749e51443b5139bbffbf183.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/372073e36749e51443b5139bbffbf183.jpeg)
 
 <a id="section-5-8-3-1-6"></a>
 
@@ -5194,9 +5194,9 @@ After you upload a certificate, you can view the details of the certificate.
 
 After you upload a certificate, use the domain name that is associated with the certificate and other domain names to access the gateway.
 
-![](assets/e49f3eff033c9698c4bacca9b066cbc3.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/e49f3eff033c9698c4bacca9b066cbc3.jpeg)
 
-![](assets/2767215a84004d911fe6d9b97ca7bfc3.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/2767215a84004d911fe6d9b97ca7bfc3.jpeg)
 
 The result indicates that the gateway returns the corresponding certificate and the TLS handshake is complete only when you use the domain name associated with the certificate to access the gateway. =
 
@@ -5284,7 +5284,7 @@ The domain name management module allows you to add different domain names and a
 
 4. In the left-side navigation pane, choose **Open Services > Routing Management**.
 
-5. On the **Routing Management** page, click **Create Route**. You can also click the <img src="assets/b3cda733a5e5394a86c9a06512c5e6d1.png" width="8" alt=""> icon in
+5. On the **Routing Management** page, click **Create Route**. You can also click the <img src="en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/b3cda733a5e5394a86c9a06512c5e6d1.png" width="8" alt=""> icon in
 
    the **Operation** column of the target route and click **Edit**.
 
@@ -5294,7 +5294,7 @@ The domain name management module allows you to add different domain names and a
 
 After you associate a route with a domain name, the API gateway uses the route to forward requests when you access the associated domain name. The Host header of requests carries the associated domain name. If you access a different domain name, the API gateway cannot locate the corresponding route.
 
-![](assets/36252985674f1d4ff31a76cda0fc605c.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/36252985674f1d4ff31a76cda0fc605c.jpeg)
 
 <a id="section-5-11"></a>
 
@@ -5555,7 +5555,7 @@ Suppose a new requirement arises where you need to publish backend services from
 
 **Terms**
 
-![](assets/e824a867f41ec38d4bd06a06a95a145a.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/e824a867f41ec38d4bd06a06a95a145a.jpeg)
 
 The preceding diagram illustrates the main concepts and workflow of the cascade feature. The basic concepts are described as follows:
 
@@ -5647,7 +5647,7 @@ This topic describes how to import, view, and delete cascade gateways. It also p
 
 **Connection error when importing a cascade gateway**
 
-![](assets/ac27a464b5b395d9fecde38b0a8af85b.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/ac27a464b5b395d9fecde38b0a8af85b.jpeg)
 
 A **Connection Error** message indicates a network fault. Check the following items:
 
@@ -5657,7 +5657,7 @@ A **Connection Error** message indicates a network fault. Check the following it
 
 **OpenAPI-related error when importing a cascade gateway**
 
-![](assets/8e0d71003f10c176e8d51b5deef55905.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/8e0d71003f10c176e8d51b5deef55905.jpeg)
 
 An OpenAPI-related error indicates that the AccessKey or SecretKey is incorrect. Check the following items:
 
@@ -5748,7 +5748,7 @@ Two API Gateway instances deployed in different regions, such as China (Hangzhou
    | Cloud Edition | Select <strong>Enterprise Edition</strong>. |
    | Cloud Managemen t | Select <strong>ASR for Geo-disaster Recovery</strong>. |
 
-   | Managemen t API Endpoint | Specify the value of <strong>Manage API Access Point</strong> of the peer cloud on the <strong>Cloud</strong> <strong>Information Management</strong> page of the ASR for Geo-disaster Recovery console.<br>![](assets/340e6bd7edb129dc4fababb6197a859c.png) |
+   | Managemen t API Endpoint | Specify the value of <strong>Manage API Access Point</strong> of the peer cloud on the <strong>Cloud</strong> <strong>Information Management</strong> page of the ASR for Geo-disaster Recovery console.<br>![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/340e6bd7edb129dc4fababb6197a859c.png) |
    | --- | --- |
    | AccessKey <strong>ID</strong> and AccessKey Secret | Enter the AccessKey ID and AccessKey secret of the operations administrator account on the peer cloud. For more information, see Obtain the AccessKey pair of a personal account. |
 
@@ -5961,7 +5961,7 @@ Two API Gateway instances deployed in different regions, such as China (Hangzhou
 
 3. On the **Create Protection Group** page, configure the parameters that are described in the following table.
 
-   ![](assets/6aba5f6afa3f03ee8670e9dc1ba1d243.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/6aba5f6afa3f03ee8670e9dc1ba1d243.jpeg)
 
    **Section**
 
@@ -6067,7 +6067,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, you can view the AccessKey pair of your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
 **Obtain the AccessKey pair of an organization**
 
@@ -6201,7 +6201,7 @@ The following example shows how to call the operation. The first parameter of th
 >
 > You must specify multiple parameters in the same order as those defined in the API operation.
 
-![](assets/1f90ef1ea873546050697a301e7bc9a4.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/1f90ef1ea873546050697a301e7bc9a4.jpeg)
 
 **HTTP-to-gRPC protocol conversion**
 
@@ -6253,7 +6253,7 @@ The following example shows how to call this operation. This operation has only 
 >
 > You must specify multiple parameters in the same order as those defined in the API operation.
 
-![](assets/c78bd451c7680772a6dc80cf120da236.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/c78bd451c7680772a6dc80cf120da236.jpeg)
 
 **Limits**
 
@@ -6302,7 +6302,7 @@ The following example shows how to call the operation. The first parameter of th
 >
 > You must specify multiple parameters in the same order as those defined in the API operation.
 
-![](assets/12388e6e74fce9958feab0b794a94292.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/12388e6e74fce9958feab0b794a94292.jpeg)
 
 **Limits**
 
@@ -6340,7 +6340,7 @@ The process of creating a route that involves protocol conversion is identical t
 
 The following figure shows how to call the operation. The only parameter of this operation is of the java.lang.String type.
 
-![](assets/d50048cd02e3fd332e554e7de4396c54.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/d50048cd02e3fd332e554e7de4396c54.jpeg)
 
 **HTTP-to-HTTPS protocol conversion**
 
@@ -6366,7 +6366,7 @@ The process of creating a route that involves protocol conversion is identical t
 
 In this example, the HTTPS service provided by the GET method in httpbin.org is tested. The following figure shows how to call the service.
 
-![](assets/ecb390a23fc3917110c40708cd278d6f.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/ecb390a23fc3917110c40708cd278d6f.jpeg)
 
 **HTTP-to-HSF protocol conversion**
 
@@ -6428,7 +6428,7 @@ The following example shows how to call the operation. The first parameter of th
 curl --request POST 'http://127.0.0.1:80/default/sayHello' -d '{"java.util.List":[{"name":"james","age":33}],"java.lang.String":"mike"}'
 ```
 
-![](assets/0bb053c5bad6f997aae52fbf1258e95f.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/0bb053c5bad6f997aae52fbf1258e95f.jpeg)
 
 **HTTP-to-JDBC protocol conversion**
 
@@ -6455,11 +6455,11 @@ After the source is created, choose **Service Management > Service List** in the
 
 The following figure shows the expanded **Edit SQL condition parameters**: **requireTotalCount**, **offset**, and **limit** are default parameters. You cannot modify these default parameters, and they are optional when a service call is initiated. The values in the **queryValues** must be specified based on the actual situation. The parameter names in the **SQL template parameter name** column must exactly match the parameter names enclosed in #{xx} within SQL statements. The parameter names in the **Open parameter name** column are the names of the parameters that are used to initiate the request.
 
-![](assets/43d6b42a4ef5ab6c89f8008b7db4b7ba.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/43d6b42a4ef5ab6c89f8008b7db4b7ba.jpeg)
 
 The following figure shows the expanded Edit SQL result parameters: **resultCode**, **resultMsg**, **resultCount**, and count are default parameters. You cannot modify these default parameters, and they are optional when a service call is initiated. The values in **result** must be specified based on the actual situation. The fields in the **Parameter Table Field Name** column indicate the field names of the destination table in the database. The fields in the **Open parameter name** column indicate the field names corresponding to the returned field values for the call request. The **__csbRecordError** field is provided for customers to record error information encountered during parameter parsing.
 
-![](assets/55077513122a6b961b209e5c7e2d0e89.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/55077513122a6b961b209e5c7e2d0e89.jpeg)
 
 You can click **Edit** to modify the SQL condition parameters and result parameters. You can click **Add child node** to add child items under the SQL condition parameters or result parameters. You can click **Delete** to delete SQL condition parameters or result parameters.
 
@@ -6577,7 +6577,7 @@ This operation has only one parameter whose element type is HelloRequest, which 
 >
 > You must specify multiple parameters in the same order as those defined in the API operation.
 
-![](assets/ec74cc5225cfa9a032aa3b74964a2d9a.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/ec74cc5225cfa9a032aa3b74964a2d9a.jpeg)
 
 **Limits**
 
@@ -6644,7 +6644,7 @@ The interface center provides descriptions of interfaces that belong to a specif
 
    When you define request parameters, you can specify a backend path. The request path is mapped to the backend path.
 
-   ![](assets/f607b136da1f571228a1b4c2ce897afc.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/f607b136da1f571228a1b4c2ce897afc.jpeg)
 
    You can click **Edit More** to allow the gateway to verify the parameters.
 
@@ -6656,7 +6656,7 @@ The interface center provides descriptions of interfaces that belong to a specif
 
    You can define the content to be returned by backend services. This setting is used only for demonstration in documentation.
 
-   ![](assets/7c79a67d8e75723c14fa01ef0b3a9b5d.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/7c79a67d8e75723c14fa01ef0b3a9b5d.jpeg)
 
 8. Specify **Release Notes** and click **Determine**.
 
@@ -6696,7 +6696,7 @@ After you add an interface, you can view it in the interface list and filter int
 
 6. Find the interface in the list and click its name to view interface documentation. You can also filter interfaces by **interface name** or **interface path**.
 
-   ![](assets/da600255fa58fab461bda68b05f33265.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/da600255fa58fab461bda68b05f33265.jpeg)
 
 **Interface version management**
 
@@ -6716,11 +6716,11 @@ After you add an interface, you can view it in the interface list and filter int
 
 8. Click the **Version Management** tab to view the versions of the interface.
 
-   ![](assets/248318463191da7613defbd462f19ff2.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/248318463191da7613defbd462f19ff2.jpeg)
 
 9. You can select a historical version of the interface.
 
-   ![](assets/b5cb3f24efb843c27b78978dc8ef36bb.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/b5cb3f24efb843c27b78978dc8ef36bb.jpeg)
 
 **Perform interface debugging**
 
@@ -6738,7 +6738,7 @@ With the interface debugging feature, you can initiate a real-time call to the i
 
 6. Select an interface and click **Debugging** in the Operation column.
 
-   ![](assets/5441e706ff2b6388883368cb17d0d27b.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/5441e706ff2b6388883368cb17d0d27b.jpeg)
 
 7. Configure the parameters and click **Send**.
 
@@ -6779,7 +6779,7 @@ The backend interface parameters are as follows:
 
 The following figure shows the interface configuration on the gateway. For parameters that are mapped to jsonBody, the gateway creates a virtual root node. You need to specify the names of the backend parameters in a layered structure based on the root node.
 
-![](assets/01c110c84c4a177a104bfce766eb8e76.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/01c110c84c4a177a104bfce766eb8e76.jpeg)
 
 ```json
 {
@@ -6819,13 +6819,13 @@ The request parameters received by the gateway are included in Query.
 
 The following figures show the interface configuration on the gateway.
 
-![](assets/5b9158a01347ea74c1aafd815fcb34f5.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/5b9158a01347ea74c1aafd815fcb34f5.jpeg)
 
-![](assets/b8df29e5530345ba89c6226843792c61.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/b8df29e5530345ba89c6226843792c61.jpeg)
 
 After you use postman to initiate a request, the expected result is returned.
 
-![](assets/2a20e0af6e3d174662ce2fe84a805c24.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/2a20e0af6e3d174662ce2fe84a805c24.jpeg)
 
 **Example 3: Verify parameters**
 
@@ -6839,33 +6839,33 @@ The request parameters received by the gateway are included in Query.
 
 The following figures show the interface configuration in the interface center.
 
-![](assets/ddc1575040b5e9cb996909c5d242b8bb.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/ddc1575040b5e9cb996909c5d242b8bb.jpeg)
 
-![](assets/f34c30a29ad96e7b4111661bd5280876.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/f34c30a29ad96e7b4111661bd5280876.jpeg)
 
-![](assets/fd27af85e3aa1b6f727529dd65b0b9e7.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/fd27af85e3aa1b6f727529dd65b0b9e7.jpeg)
 
-![](assets/4edb00b2605d848d12352e86fd86811d.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/4edb00b2605d848d12352e86fd86811d.jpeg)
 
 Use postman to initiate a request.
 
-![](assets/5f047c30e6958b98d73cafbc79a707a0.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/5f047c30e6958b98d73cafbc79a707a0.jpeg)
 
 **Invalid request 1: the String parameter is invalid**
 
-![](assets/b027711a2f72d4305b68863ee97c8606.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/b027711a2f72d4305b68863ee97c8606.jpeg)
 
 **Invalid request 2: excessively long array**
 
-![](assets/6f5c5ba17a1984e7eba86ec6e7a85518.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/6f5c5ba17a1984e7eba86ec6e7a85518.jpeg)
 
 **Invalid request 3: invalid number**
 
-![](assets/829e1ab1ac8aa98ae451ad81ab970c41.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/829e1ab1ac8aa98ae451ad81ab970c41.jpeg)
 
-![](assets/3bc6adcab341caff6fd37b2fcd5edfc8.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/3bc6adcab341caff6fd37b2fcd5edfc8.jpeg)
 
-![](assets/7e79d23851f4987f93b23ba22a6d0f58.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/7e79d23851f4987f93b23ba22a6d0f58.jpeg)
 
 <a id="section-11"></a>
 
@@ -6883,11 +6883,11 @@ First, find the gateway instance in the instance list and navigate to the associ
 
 - Collection Path: /home/admin/cop-broker/logs/\*.log
 
-![](assets/e2af842f05219168e9e460360af3fb9f.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/e2af842f05219168e9e460360af3fb9f.jpeg)
 
 After the configuration is complete, you can view the collected gateway logs by category in SLS:
 
-![](assets/4e8f864837d3f6bb2bb7a497b494f1e4.jpeg)
+![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/4e8f864837d3f6bb2bb7a497b494f1e4.jpeg)
 
 **Log classifications**
 
@@ -6987,7 +6987,7 @@ API Gateway 2.0 supports multi-cluster deployments. To enable zone-disaster reco
 
 4. Enter the configuration information. Set **Deployment Architecture** to **EDAS**. In the **EDAS Configuration** section, associate your existing K8s clusters. Click **Submit** to create the gateway instance.
 
-   ![](assets/dc5294647166dc88224b5e8c3e4d79a1.jpeg)
+   ![](en-api-gateway-user-guide-v3.18.6-2607-20260828.assets/dc5294647166dc88224b5e8c3e4d79a1.jpeg)
 
    The following table describes some of the parameters.
 

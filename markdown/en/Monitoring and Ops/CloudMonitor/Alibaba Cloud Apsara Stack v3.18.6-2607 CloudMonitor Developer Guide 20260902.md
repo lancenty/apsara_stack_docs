@@ -947,11 +947,11 @@ This operation does not have operation-specific request headers and uses only co
 |  |  |  |  |  | The start of the time range to query monitoring data.<br>• If the <code> StartTime </code> and <code> EndTime </code> parameters are not specified, the monitoring data of the last statistical period is queried.<code>  </code> |
 |  |  |  |  |  |  |
 | Parame ter | Typ e | Locati on | Require d | Example | • If the <code> StartTime </code> Descriptionand <code> EndTime </code> parameters are |
-| StartTime | Strin g | Query | No | 1618368900000 | specified, the monitoring data of the last statistical period in the specified time range is<br>![](assets/1567bec539a9c1f922ec3b531dd29ea0.png)<br>queried.<code>    </code> The following examples demonstrate how to determine the period in which monitoring data is queried:<br>• If you set the <code>Period</code> parameter to 15, the specified time range must be less than or equal to 20 minutes. For example, if you set the StartTime parameter to 2021-05-08 08:10:00 and the EndTime parameter to 2021-05-08 08:30:00, the monitoring data of the last 15 seconds in the time range is queried.<br>• If you set the <code>Period</code> parameter to 60 or 900, the specified time range must be less than or equal to 2 hours. For example, if you set the Period parameter to 60, the StartTime parameter to 2021-05-08 08:00:00, and the EndTime parameter to 2021-05-08 10:00:00, the monitoring data of the last 60 seconds in the time range is queried. |
+| StartTime | Strin g | Query | No | 1618368900000 | specified, the monitoring data of the last statistical period in the specified time range is<br>![](en-cloud-monitor-developer-guide-v3.18.6-2607-20260902.assets/1567bec539a9c1f922ec3b531dd29ea0.png)<br>queried.<code>    </code> The following examples demonstrate how to determine the period in which monitoring data is queried:<br>• If you set the <code>Period</code> parameter to 15, the specified time range must be less than or equal to 20 minutes. For example, if you set the StartTime parameter to 2021-05-08 08:10:00 and the EndTime parameter to 2021-05-08 08:30:00, the monitoring data of the last 15 seconds in the time range is queried.<br>• If you set the <code>Period</code> parameter to 60 or 900, the specified time range must be less than or equal to 2 hours. For example, if you set the Period parameter to 60, the StartTime parameter to 2021-05-08 08:00:00, and the EndTime parameter to 2021-05-08 10:00:00, the monitoring data of the last 60 seconds in the time range is queried. |
 |  |  |  |  |  |  |
 | Parame ter | Typ e | Locati on | Require d | Example | • If you set the Description<code>Period</code> parameter to 3600, |
 |  |  |  |  |  | the specified time range must be less than or equal to two days. For example, if you set the StartTime parameter to 2021-05-08 08:00:00 and the EndTime parameter to 2021-05-10 08:00:00, the monitoring data of the last 3,600 seconds in the time range is queried.<br>The following formats are supported:<br>• UNIX timestamp: the number of milliseconds that have elapsed since 00:00:00 Thursday, January 1, 1970.<br>• UTC time: the UTC time that follows the YYYY-MM-DDThh:mm:ssZ format.<br>• <em>You must set the </em> <em><code> StartTime </code></em> <em>parameter to a</em> <em>point in time that</em> <em>is later than</em> |
-|  |  |  |  |  | <em>00:00:00 UTC on</em> The end of the time<em>Thursday,</em> range to query<em>January 1, 1970.</em>monitoring data.<em>Otherwise, this</em> <em>parameter is</em><br>• If the <code> StartTime </code> <em>invalid.</em>and <code> EndTime </code> parameters are not<br>• We recommend that specified, the you use UNIX monitoring data of the timestamps to last statistical period prevent time zone-<br>![](assets/6eeb1034839817ca1871ede37d5281ee.png)<br>is queried.<code>  </code>related issues.<br>• If the <code> StartTime </code> and <code> EndTime </code> parameters are specified, the monitoring data of the last statistical period in the specified time range is<br>![](assets/46d5f85efd217bc0b857189e21afe8d4.png)<br>queried.<code>    </code> The following examples demonstrate how to determine the period in which monitoring data is queried: |
+|  |  |  |  |  | <em>00:00:00 UTC on</em> The end of the time<em>Thursday,</em> range to query<em>January 1, 1970.</em>monitoring data.<em>Otherwise, this</em> <em>parameter is</em><br>• If the <code> StartTime </code> <em>invalid.</em>and <code> EndTime </code> parameters are not<br>• We recommend that specified, the you use UNIX monitoring data of the timestamps to last statistical period prevent time zone-<br>![](en-cloud-monitor-developer-guide-v3.18.6-2607-20260902.assets/6eeb1034839817ca1871ede37d5281ee.png)<br>is queried.<code>  </code>related issues.<br>• If the <code> StartTime </code> and <code> EndTime </code> parameters are specified, the monitoring data of the last statistical period in the specified time range is<br>![](en-cloud-monitor-developer-guide-v3.18.6-2607-20260902.assets/46d5f85efd217bc0b857189e21afe8d4.png)<br>queried.<code>    </code> The following examples demonstrate how to determine the period in which monitoring data is queried: |
 |  |  |  |  |  |  |
 | Parame ter | Typ e | Locati on | Require d | Example | • If you set the Description<code>Period</code> parameter to 15, |
 | EndTime | Strin g | Query | No | 1618368960000 | the specified time range must be less than or equal to 20 minutes. For example, if you set the StartTime parameter to 2021-05-08 08:10:00 and the EndTime parameter to 2021-05-08 08:30:00, the monitoring data of the last 15 seconds in the time range is queried.<br>• If you set the <code>Period</code> parameter to 60 or 900, the specified time range must be less than or equal to 2 hours. For example, if you set the Period parameter to 60, the StartTime parameter to 2021-05-08 08:00:00, and the EndTime parameter to 2021-05-08 10:00:00, the monitoring data of the last 60 seconds in the time range is queried.<br>• If you set the <code>Period</code> parameter to 3600, the specified time range must be less than or equal to two days. For example, if you set the StartTime parameter to 2021-05-08 08:00:00 and the EndTime parameter to 2021-05-10 08:00:00, the monitoring data of the last 3,600 seconds in the time range is queried.<br>The following formats are supported: |
@@ -961,7 +961,7 @@ This operation does not have operation-specific request headers and uses only co
 | Dimension s | Strin g | Query | No | \[{"instanceId": "i-abcdefgh12\*\*\*\*"}\] | The dimensions that specify the resources whose monitoring data you want to query.<br>Set the value to a collection of key-value pairs. A typical key-value pair is <code>instanceId:i-</code><br><code>2ze2d6j5uhg20x47****</code><code> </code>.<br><em>You can query a</em> <em>maximum of 50</em> <em>instances in a</em> <em>single request.</em> |
 | Express | Strin g | Query | No | {"groupby": \["userId","instanceId"\]} | The expression that is used to compute the query results in real time.<br><em>Only the </em> <em><code> groupby </code></em> <em>expression is</em> <em>supported. This</em> <em>expression is</em> <em>similar to the </em> <em><code> GROUP BY </code></em> <em>statement that is</em> <em>used in databases.</em> |
 
-![](assets/dd6eeb9e9732ab4e33811c7c487f92ce.png)
+![](en-cloud-monitor-developer-guide-v3.18.6-2607-20260902.assets/dd6eeb9e9732ab4e33811c7c487f92ce.png)
 
 | Parame ter | Typ e | Locati on | Require d | Example | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -1040,7 +1040,7 @@ This operation does not have operation-specific request headers and uses only co
 | Orderby | Strin g | Quer y | No | Average | The field based on which data is sorted. Valid values:<br>• Average<br>• Minimum<br>• Maximum |
 | OrderDesc | Strin g | Quer y | No | False | The sorting method. Valid values:<br>• True: sorts data in ascending order.<br>• False (default): sorts data in descending order. |
 
-![](assets/009c858105442b51128befddcf652467.png)
+![](en-cloud-monitor-developer-guide-v3.18.6-2607-20260902.assets/009c858105442b51128befddcf652467.png)
 
 <table>
   <tr>
@@ -1157,7 +1157,7 @@ This operation uses common request headers only. For more information, see the d
 | Orderby | Strin g | Quer y | Yes | Average | The sort field. Valid values:<br>• Average: the average value<br>• Minimum: the minimum value<br>• Maximum: the maximum value |
 | OrderDesc | Strin g | Quer y | No | False | The sort order. Valid values:<br>• True: ascending order<br>• False (default): descending order |
 
-![](assets/ad3391a3588c4e9556cb2a07d4aa75c5.png)
+![](en-cloud-monitor-developer-guide-v3.18.6-2607-20260902.assets/ad3391a3588c4e9556cb2a07d4aa75c5.png)
 
 <table>
   <tr>
@@ -1959,7 +1959,7 @@ This operation does not have operation-specific request headers and uses only co
 | Force | Boole an | Query | No | true | Specifies whether to forcibly install the CloudMonitor agent.Valid values:<br>• true (default)<br>• false |
 | InstanceId s | Repe atList | Query | Yes | i-m5e0k0bexac8tykr\*\*\*\* | The IDs of the ECS instances.<br>Valid values of N: 1 to 10.<br><em>You must specify</em> <em>either the </em> <em><code> InstallCommand</code></em> <em><code> </code></em><em> or the </em> <em><code> InstanceIds </code></em> <em>parameter.</em> |
 
-![](assets/9c62f8e2d8d8fff66a218132cc95c5e3.png)
+![](en-cloud-monitor-developer-guide-v3.18.6-2607-20260902.assets/9c62f8e2d8d8fff66a218132cc95c5e3.png)
 
 **Response parameters**
 
@@ -5213,7 +5213,7 @@ This operation does not have operation-specific request headers and uses only co
 | -SilenceTi me | Integ er |  | No | 86400 | The mute period during which new alerts are not sent even if the trigger conditions are met.Valid values of N: 1 to 200.<br>Unit: seconds. Default value: 86400. Minimum value: 3600. |
 | -Period | Strin g |  | No | 60 | The aggregation period of the metric data.<br>Valid values of N: 1 to 200.<br>Set the <code> Period </code> parameter to an integral multiple of 60. Unit: seconds. Default value: 300. |
 
-![](assets/d2a2484b6dad5c62d4fe307ed6388b66.png)
+![](en-cloud-monitor-developer-guide-v3.18.6-2607-20260902.assets/d2a2484b6dad5c62d4fe307ed6388b66.png)
 
 | Parame ter | Typ e | Locati on | Require d | Example | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -6058,7 +6058,7 @@ This operation does not have operation-specific request headers and uses only co
 | -Time | Strin g |  | No | 20171013T170923.456 +0800 | The time when the event occurred.<br>Format: <code>yyyyMMddTHHmmss.SSSZ</code><code> </code>.<br>Valid values of N: 1 to 50.<br><em>You can also</em> <em>specify a UNIX</em> <em>timestamp.</em><em>Example:</em> <em>1552199984000.</em><em>Unit: milliseconds.</em> |
 | -GroupId | Strin g |  | No | 123456 | The ID of the application group. Valid values of N: 0 to 50.<br>Default value: 0. This value indicates that the event to be reported does not belong to any application group. |
 
-![](assets/b0d3b95105b11f49133c4937ce9118b4.png)
+![](en-cloud-monitor-developer-guide-v3.18.6-2607-20260902.assets/b0d3b95105b11f49133c4937ce9118b4.png)
 
 **Response parameters**
 
@@ -7433,9 +7433,9 @@ This operation does not have operation-specific request headers and uses only co
 | AlertConfi g.SilenceT ime | Integ er | Query | No | 86400 | The mute period during which new alerts are not sent even if the trigger conditions are met. Unit: seconds. Default value: 86400, which indicates one day. |
 | AlertConfi g.WebHoo k | Strin g | Query | No | https://www.aliyun.com/webhook.json | The callback URL. |
 
-![](assets/5db3503dc1dcd7003811335b0c2eb0f4.png)
+![](en-cloud-monitor-developer-guide-v3.18.6-2607-20260902.assets/5db3503dc1dcd7003811335b0c2eb0f4.png)
 
-![](assets/7a7a9a5ce18ab48dfc9e3a77ebd65e04.png)
+![](en-cloud-monitor-developer-guide-v3.18.6-2607-20260902.assets/7a7a9a5ce18ab48dfc9e3a77ebd65e04.png)
 
 | Parame ter | Typ e | Locati on | Require d | Example | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -7806,9 +7806,9 @@ This operation does not have operation-specific request headers and uses only co
 | AlertConfi g.SilenceT ime | Integ er | Query | No | 86400 | The mute period during which new alerts are not sent even if the trigger conditions are met. Unit: seconds. Default value: 86400, which indicates one day. |
 | AlertConfi g.WebHoo k | Strin g | Query | No | https://www.aliyun.com/webhook.json | The callback URL. |
 
-![](assets/5db3503dc1dcd7003811335b0c2eb0f4.png)
+![](en-cloud-monitor-developer-guide-v3.18.6-2607-20260902.assets/5db3503dc1dcd7003811335b0c2eb0f4.png)
 
-![](assets/7a7a9a5ce18ab48dfc9e3a77ebd65e04.png)
+![](en-cloud-monitor-developer-guide-v3.18.6-2607-20260902.assets/7a7a9a5ce18ab48dfc9e3a77ebd65e04.png)
 
 | Parame ter | Typ e | Locati on | Require d | Example | Description |
 | --- | --- | --- | --- | --- | --- |

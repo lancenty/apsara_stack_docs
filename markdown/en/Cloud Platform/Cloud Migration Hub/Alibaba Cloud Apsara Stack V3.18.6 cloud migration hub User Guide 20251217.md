@@ -91,19 +91,19 @@ This topic demonstrates the common procedures that can be performed in the Apsar
 
 After you log in to the AMC console, you are redirected to Guidance Center by default. Guidance Center provides detailed explanations of the supported migration scenarios, and introduces six major steps of the migration process as well as environmental requirements. This helps you better understand AMC.
 
-![](assets/6c1258973d4b8490cfb95fa4e6120878.jpeg)
+![](en-cmh-user-guide-v3.18.6-20251217.assets/6c1258973d4b8490cfb95fa4e6120878.jpeg)
 
 **Dashboard**
 
 The dashboard provides a comprehensive, global view of migration data, which enables you to monitor the current progress and review historical migration records. This helps you better formulate migration plans.
 
-![](assets/8de102754bff025f243c0dbdd590347a.png)
+![](en-cmh-user-guide-v3.18.6-20251217.assets/8de102754bff025f243c0dbdd590347a.png)
 
 **Resource Migration**
 
 You can manage and execute migration plans by using the resource migration module and perform the following six steps: survey and evaluation, solution design, preliminary preparation, migration test, migration execution, and result verification. The automated migration process reduces migration complexity and greatly improves migration efficiency.
 
-![](assets/df36fdebc309f5a34c263d15a84b2b44.png)
+![](en-cmh-user-guide-v3.18.6-20251217.assets/df36fdebc309f5a34c263d15a84b2b44.png)
 
 **Advanced Services**
 
@@ -201,7 +201,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **Create Resource Migration Plan**.
 
-   ![](assets/34db73438e5eb2ff8f12f147ebb701e0.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/34db73438e5eb2ff8f12f147ebb701e0.jpeg)
 
 2. Configure the parameters such as the migration plan name and migration type. Then, click **OK**.
 
@@ -221,11 +221,11 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **Start Survey**.
 
-   ![](assets/18e24cee19afad87b8ffef1c57295f89.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/18e24cee19afad87b8ffef1c57295f89.jpeg)
 
 2. Specify the destination virtual private cloud (VPC), vSwitch, and server connection information based on your business requirements. If the server IP address is a public IP address, you must turn on the Survey over Internet switch. Make sure that the destination VPC can access the survey resources.
 
-   ![](assets/b51c91c2e10d11e844aea8f1cee29e06.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/b51c91c2e10d11e844aea8f1cee29e06.jpeg)
 
    > **Note**
    >
@@ -233,7 +233,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 3. Click **OK** and wait until the survey task is complete.
 
-   ![](assets/26617081714cb1f590e1ff1da9ba7a1c.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/26617081714cb1f590e1ff1da9ba7a1c.jpeg)
 
    > **Note**
    >
@@ -251,11 +251,11 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **View Reports** to view the details of the server. The workload is displayed only when you enable the monitoring feature.
 
-   ![](assets/f8a9c8969d53fd624ce3d2719db6e68f.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/f8a9c8969d53fd624ce3d2719db6e68f.jpeg)
 
 2. Select the resources that you want to migrate, and click **Next**. In the message that appears, confirm the selected resources.
 
-   ![](assets/82bd7a680854f044cf92ba75f9e1c0d3.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/82bd7a680854f044cf92ba75f9e1c0d3.jpeg)
 
 **Step 3: Perform solution design**
 
@@ -271,11 +271,11 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **Start Solution Design**.
 
-   ![](assets/ed0cfa62e8286d6f0dc37c1faa25e3bf.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/ed0cfa62e8286d6f0dc37c1faa25e3bf.jpeg)
 
 2. Specify the destination VPC, vSwitch, and available migration bandwidth. Then, click **OK**.
 
-   ![](assets/db8db8f7c567cb17b4e3b42a0c6e78c0.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/db8db8f7c567cb17b4e3b42a0c6e78c0.jpeg)
 
    > **Note**
    >
@@ -293,7 +293,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Confirm the generated migration plan. You can modify the specifications of the destination instance based on your business requirements.
 
-   ![](assets/d98eda11b24c377911f8f67c3acaf12d.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/d98eda11b24c377911f8f67c3acaf12d.jpeg)
 
    > **Note**
    >
@@ -301,7 +301,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 2. Check that the Plan Status column for all the resources to be migrated is not Confirmation Required. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/d478d79ad9db07e9890543993ccb95c8.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/d478d79ad9db07e9890543993ccb95c8.jpeg)
 
 **Step 4: Make migration preparations**
 
@@ -317,7 +317,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Wait until the environment is initialized.
 
-   ![](assets/e962a366185d8b1addcd3ab9aa720759.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/e962a366185d8b1addcd3ab9aa720759.jpeg)
 
    > **Note**
    >
@@ -349,11 +349,11 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **Start All Drills** and wait until the test is complete.
 
-   ![](assets/750f0a8bb54a22db4062f0a8165d4ac9.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/750f0a8bb54a22db4062f0a8165d4ac9.jpeg)
 
 2. Click the report icon in the Test Status column to view the test report.
 
-   ![](assets/95b19c4f4d46ae906ee69cb67e4e64d8.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/95b19c4f4d46ae906ee69cb67e4e64d8.jpeg)
 
    <ol type="a" start="2">
 
@@ -367,7 +367,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Check that the Test Status column for all the resources to be migrated is Pass. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/395ef67c3efb32efbdea491a13a63ced.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/395ef67c3efb32efbdea491a13a63ced.jpeg)
 
    > **Note**
    >
@@ -387,11 +387,11 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **Migrate All**.
 
-   ![](assets/56bb63eea4eed8f1499cab29354cf8d6.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/56bb63eea4eed8f1499cab29354cf8d6.jpeg)
 
 2. Wait until the migration task is complete. For an incremental synchronization, click **Complete Replication** to complete the task.
 
-   ![](assets/2870bfb0466c8b24bf38244006a09cdd.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/2870bfb0466c8b24bf38244006a09cdd.jpeg)
 
    You can choose whether to perform the last incremental synchronization when you complete the task.
 
@@ -411,7 +411,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Check that the Task Status column for all the resources to be migrated is Finished. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/7978e9dbb66a6343bb46ad94ce0aac62.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/7978e9dbb66a6343bb46ad94ce0aac62.jpeg)
 
 **Step 7: Verify the results**
 
@@ -427,7 +427,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **Verify All** and wait until the verification is complete.
 
-   ![](assets/50e7d5394542e380d4af5bc730161788.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/50e7d5394542e380d4af5bc730161788.jpeg)
 
    > **Note**
    >
@@ -435,9 +435,9 @@ Before you migrate a server, check whether the server meets the following requir
 
 2. After the verification is complete, you can click the report icon in the Validation Result column to view the verification report.
 
-   ![](assets/0b1ce1484dc79b0eb01b7904525cb721.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/0b1ce1484dc79b0eb01b7904525cb721.jpeg)
 
-   ![](assets/c228bfa42fe78f9dc40dcbda7b3b4896.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/c228bfa42fe78f9dc40dcbda7b3b4896.jpeg)
 
    <ol type="a" start="2">
 
@@ -451,11 +451,11 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Check that the Validation Result column for all the resources to be migrated is Success. Then, click **Confirm Completion**.
 
-   ![](assets/d9fd651cb5262b4f4e1c142a89bf06c6.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/d9fd651cb5262b4f4e1c142a89bf06c6.jpeg)
 
 2. The migration report page appears. You can view the overall execution status of the migration task.
 
-   ![](assets/eddcc637041ef0b9408257d3d9481586.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/eddcc637041ef0b9408257d3d9481586.jpeg)
 
 <a id="section-3-2"></a>
 
@@ -503,11 +503,11 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **Create Resource Migration Plan**.
 
-   ![](assets/42925771298bbb0d91752730b35ef02b.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/42925771298bbb0d91752730b35ef02b.jpeg)
 
 2. Configure the parameters such as the migration plan name and migration type. Then, click **OK**.
 
-   ![](assets/6bfc2839e4d5b6f85da243493737a34d.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/6bfc2839e4d5b6f85da243493737a34d.jpeg)
 
 3. Click the migration plan name to go to the migration plan.
 
@@ -525,15 +525,15 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **Start Survey**.
 
-   ![](assets/a16697b420243a3db00b8366be8f4050.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/a16697b420243a3db00b8366be8f4050.jpeg)
 
 2. Specify the destination virtual private cloud (VPC), vSwitch, and vCenter Server/VMware ESXi connection information based on your business requirements. If the connection address is a public IP address, you must turn on the Survey over Internet switch. Make sure that the destination VPC can access the survey resources.
 
-   ![](assets/782f633db9fe9b837a772f3be6e301cf.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/782f633db9fe9b837a772f3be6e301cf.jpeg)
 
 3. Click **OK** and wait until the survey task is complete.
 
-   ![](assets/6dae8917b66db16e6ea593b6b8fabc75.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/6dae8917b66db16e6ea593b6b8fabc75.jpeg)
 
    > **Note**
    >
@@ -551,11 +551,11 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **View Reports** to view the details of the VM.
 
-   ![](assets/fda4af050a0cab5564bc9a28b5e3759e.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/fda4af050a0cab5564bc9a28b5e3759e.jpeg)
 
 2. Select the resources that you want to migrate, and click **Next**. In the message that appears, confirm the selected resources.
 
-   ![](assets/aff40dea22009d077bfa014f016efe15.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/aff40dea22009d077bfa014f016efe15.jpeg)
 
 **Step 3: Perform solution design**
 
@@ -571,11 +571,11 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **Start Solution Design**.
 
-   ![](assets/7d460552258826f7b557b3982fdba7d5.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/7d460552258826f7b557b3982fdba7d5.jpeg)
 
 2. Specify the destination VPC, vSwitch, and available migration bandwidth. Then, click **OK**.
 
-   ![](assets/4af2da1316e7eeb98eaf82f4cc0d832a.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/4af2da1316e7eeb98eaf82f4cc0d832a.jpeg)
 
    > **Note**
    >
@@ -593,7 +593,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Confirm the generated migration plan. You can modify the specifications of the destination instance based on your business requirements.
 
-   ![](assets/e2aa19127d2033b6ddbe2f55f0c7ec55.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/e2aa19127d2033b6ddbe2f55f0c7ec55.jpeg)
 
    > **Note**
    >
@@ -601,7 +601,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 2. Check that the Plan Status column for all the resources to be migrated is not Confirmation Required. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/6ce813bc9b3f40cced65d9337c7ab535.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/6ce813bc9b3f40cced65d9337c7ab535.jpeg)
 
 **Step 4: Make migration preparations**
 
@@ -617,7 +617,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Wait until the environment is initialized.
 
-   ![](assets/30fc35ba3aec670bb3fd325b7f3e1061.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/30fc35ba3aec670bb3fd325b7f3e1061.jpeg)
 
    > **Note**
    >
@@ -649,11 +649,11 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **Start All Drills** and wait until the test is complete.
 
-   ![](assets/7f1d162823ef1a3f463088d24ca9d814.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/7f1d162823ef1a3f463088d24ca9d814.jpeg)
 
 2. Click the report icon in the Test Status column to view the test report.
 
-   ![](assets/5853d68f1780c1b699c60feb6e2f4911.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/5853d68f1780c1b699c60feb6e2f4911.jpeg)
 
    <ol type="a" start="2">
 
@@ -667,7 +667,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Check that the Test Status column for all the resources to be migrated is Pass. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/7c9fcf707290fad04c2832b989ae0021.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/7c9fcf707290fad04c2832b989ae0021.jpeg)
 
    > **Note**
    >
@@ -687,7 +687,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **Migrate All** and wait until the migration is complete.
 
-   ![](assets/0d16c7a52ddb1a5f07599bd258099539.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/0d16c7a52ddb1a5f07599bd258099539.jpeg)
 
    <ol type="a" start="2">
 
@@ -701,7 +701,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Check that the Task Status column for all the resources to be migrated is Finished. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/bdc609a1ade655c41154c31f5d2d4771.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/bdc609a1ade655c41154c31f5d2d4771.jpeg)
 
 **Step 7: Verify the results**
 
@@ -717,7 +717,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Click **Verify All** and wait until the verification is complete.
 
-   ![](assets/1247985b7476830e7e4ed716a526249e.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/1247985b7476830e7e4ed716a526249e.jpeg)
 
    > **Note**
    >
@@ -725,7 +725,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 2. After the verification is complete, you can click the report icon in the Validation Result column to view the verification report.
 
-   ![](assets/40d1ee2b557fd0b40729a1f2af3a0eea.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/40d1ee2b557fd0b40729a1f2af3a0eea.jpeg)
 
    <ol type="a" start="2">
 
@@ -739,7 +739,7 @@ Before you migrate a server, check whether the server meets the following requir
 
 1. Check that the Validation Result column for all the resources to be migrated is Success. Then, click **Confirm Completion**.
 
-   ![](assets/0420ec7f9be9b673e99c93081592327b.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/0420ec7f9be9b673e99c93081592327b.jpeg)
 
 2. The migration report page appears. You can view the overall execution status of the migration task.
 
@@ -784,11 +784,11 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 1. Click **Create Resource Migration Plan**.
 
-   ![](assets/039dd6aa913469f0a2b9741b7f329430.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/039dd6aa913469f0a2b9741b7f329430.jpeg)
 
 2. Configure the parameters such as the migration plan name and migration type. Then, click **OK**.
 
-   ![](assets/b078fa4dd41774bb02494eb46e25798f.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/b078fa4dd41774bb02494eb46e25798f.jpeg)
 
 3. Click the migration plan name to go to the migration plan.
 
@@ -806,15 +806,15 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 1. Click **Start Survey**.
 
-   ![](assets/f24c1c0278dc0afacf16d4fb937dcabe.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/f24c1c0278dc0afacf16d4fb937dcabe.jpeg)
 
 2. Select the ECS instance whose OS you want to replace.
 
-   ![](assets/aa810fc792aa826f4f7d3f00621c2c7e.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/aa810fc792aa826f4f7d3f00621c2c7e.jpeg)
 
 3. Click **OK** and wait until the survey task is complete.
 
-   ![](assets/61ad3d079a697b84a0430f62206058ea.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/61ad3d079a697b84a0430f62206058ea.jpeg)
 
    > **Note**
    >
@@ -832,11 +832,11 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 1. Click **View Reports** to view the details of the ECS instance.
 
-   ![](assets/b5ce016fd9a63cb8193e994b25261efc.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/b5ce016fd9a63cb8193e994b25261efc.jpeg)
 
 2. Select the resources that you want to migrate, and click **Next**. In the message that appears, confirm the selected resources.
 
-   ![](assets/aa3ab87f8da832a011bf471a2ce2951c.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/aa3ab87f8da832a011bf471a2ce2951c.jpeg)
 
 **Step 3: Perform solution design**
 
@@ -854,7 +854,7 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 2. In the dialog box that appears, specify the type of the destination OS and the YUM repository IP address.
 
-   ![](assets/98428a5c5ca7535893f67b60cb866c89.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/98428a5c5ca7535893f67b60cb866c89.jpeg)
 
    <ol type="a" start="2">
 
@@ -868,11 +868,11 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 1. Confirm the generated migration plan. You can modify the YUM repository IP address and destination OS based on your business requirements.
 
-   ![](assets/a82fbadc3eab34d9875a90c8ff04c745.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/a82fbadc3eab34d9875a90c8ff04c745.jpeg)
 
 2. Check that the Plan Status column for all the resources to be migrated is not Confirmation Required. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/5dfae249698a6f5e8963faed88610f48.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/5dfae249698a6f5e8963faed88610f48.jpeg)
 
 **Step 4: Make migration preparations**
 
@@ -888,7 +888,7 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 1. Wait until the environment is initialized.
 
-   ![](assets/ad244c748070ec2b75befa4f815b8587.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/ad244c748070ec2b75befa4f815b8587.jpeg)
 
    <ol type="a" start="2">
 
@@ -902,7 +902,7 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 1. Make sure that the agent is in the online state and the destination resources are in the normal state. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/f4fa13154bfe0528a79d16adaeed588c.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/f4fa13154bfe0528a79d16adaeed588c.jpeg)
 
 **Step 5: Perform a migration test**
 
@@ -918,11 +918,11 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 1. Click **Start All Drills** and wait until the test is complete.
 
-   ![](assets/10d6f381e8428112447a7b1555cabfbe.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/10d6f381e8428112447a7b1555cabfbe.jpeg)
 
 2. Click the report icon in the Test Status column to view the test report.
 
-   ![](assets/cc30ebe6b55d1c7308ac595763a89134.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/cc30ebe6b55d1c7308ac595763a89134.jpeg)
 
    > **Note**
    >
@@ -940,7 +940,7 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 1. Check that the Test Status column for all the resources to be migrated is Pass. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/4024f26ed1f61347a7ad5eb0c3de61fa.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/4024f26ed1f61347a7ad5eb0c3de61fa.jpeg)
 
    > **Note**
    >
@@ -960,7 +960,7 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 1. Click **Migrate All** and wait until the migration is complete.
 
-   ![](assets/bfc05dc19fceedf6337978e7ac15b946.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/bfc05dc19fceedf6337978e7ac15b946.jpeg)
 
    <ol type="a" start="2">
 
@@ -974,7 +974,7 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 1. Check that the Task Status column for all the resources to be migrated is Finished. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/451c66e84cadb36675003eadb749d9fe.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/451c66e84cadb36675003eadb749d9fe.jpeg)
 
 **Step 7: Verify the results**
 
@@ -990,7 +990,7 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 1. Click **Verify All** and wait until the verification is complete.
 
-   ![](assets/c883148dc33127b4c886d624502230e9.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/c883148dc33127b4c886d624502230e9.jpeg)
 
    > **Note**
    >
@@ -998,9 +998,9 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 2. After the verification is complete, you can click the report icon in the Validation Result column to view the verification report.
 
-   ![](assets/e62b3b80bd548e0734c48f1686f1010c.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/e62b3b80bd548e0734c48f1686f1010c.jpeg)
 
-   ![](assets/21b679d67a8dd241ecd377007b715cb5.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/21b679d67a8dd241ecd377007b715cb5.jpeg)
 
    <ol type="a" start="2">
 
@@ -1014,11 +1014,11 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 1. Check that the Validation Result column for all the resources to be migrated is Success. Then, click **Confirm Completion**.
 
-   ![](assets/837b5f8435de4dc9b56d7ae7d33eeb3b.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/837b5f8435de4dc9b56d7ae7d33eeb3b.jpeg)
 
 2. The migration report page appears. You can view the overall execution status of the migration plan.
 
-   ![](assets/8775ed86f53bcb4982b39eea25ea7a82.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/8775ed86f53bcb4982b39eea25ea7a82.jpeg)
 
 <a id="section-3-4"></a>
 
@@ -1060,11 +1060,11 @@ Before you migrate a database, check whether the database meets the following re
 
 1. Click **Create Resource Migration Plan**.
 
-   ![](assets/c6dcfb9cbfd411ea219271984d9566f4.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/c6dcfb9cbfd411ea219271984d9566f4.jpeg)
 
 2. Configure the parameters such as the migration plan name and migration type. Then, click **OK**.
 
-   ![](assets/b8db48b6f57a0ebc9f36675033b3d113.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/b8db48b6f57a0ebc9f36675033b3d113.jpeg)
 
 3. Click the migration plan name to go to the migration plan.
 
@@ -1082,11 +1082,11 @@ Before you migrate a database, check whether the database meets the following re
 
 1. Click **Start Survey**.
 
-   ![](assets/0e1ad9513e76113c111c1aff282a9b4d.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/0e1ad9513e76113c111c1aff282a9b4d.jpeg)
 
 2. Specify the destination virtual private cloud (VPC), vSwitch, and database connection information based on your business requirements. If the connection address is a public IP address, you must turn on the Survey over Internet switch. Make sure that the destination VPC can access the survey resources.
 
-   ![](assets/c1c2e25d2fa55a7cbfc5f7895a16c3a2.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/c1c2e25d2fa55a7cbfc5f7895a16c3a2.png)
 
    > **Note**
    >
@@ -1094,7 +1094,7 @@ Before you migrate a database, check whether the database meets the following re
 
 3. Click **OK** and wait until the survey task is complete.
 
-   ![](assets/3ba4a1a6fac4ed5a4906f758f40322b8.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/3ba4a1a6fac4ed5a4906f758f40322b8.jpeg)
 
    > **Note**
    >
@@ -1112,11 +1112,11 @@ Before you migrate a database, check whether the database meets the following re
 
 1. Click **View Reports** to view the details of the database. The workload is displayed only when you enable the monitoring feature.
 
-   ![](assets/95115e1eafe40e0b468af7b050f75aae.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/95115e1eafe40e0b468af7b050f75aae.jpeg)
 
 2. Select the resources that you want to migrate, and click **Next**. In the message that appears, confirm the selected resources.
 
-   ![](assets/ddbbbfebb12571ecf7c82de43edf966d.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/ddbbbfebb12571ecf7c82de43edf966d.jpeg)
 
 **Step 3: Perform solution design**
 
@@ -1132,11 +1132,11 @@ Before you migrate a database, check whether the database meets the following re
 
 1. Click **Start Solution Design**.
 
-   ![](assets/a825c538b1cdecd62fb38e1dd306c22b.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/a825c538b1cdecd62fb38e1dd306c22b.png)
 
 2. Specify the destination VPC, vSwitch, and available migration bandwidth. Then, click **OK**.
 
-   ![](assets/2b4483f0d73c86c10ee91bc9713211d8.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/2b4483f0d73c86c10ee91bc9713211d8.jpeg)
 
    > **Note**
    >
@@ -1154,7 +1154,7 @@ Before you migrate a database, check whether the database meets the following re
 
 1. Confirm the generated migration plan. You can modify the specifications of the destination instance based on your business requirements.
 
-   ![](assets/4bd57685fc15a0e7c6e3517feb9cd431.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/4bd57685fc15a0e7c6e3517feb9cd431.png)
 
    > **Note**
    >
@@ -1168,7 +1168,7 @@ Before you migrate a database, check whether the database meets the following re
 
 2. Check that the Plan Status column for all the resources to be migrated is not Confirmation Required. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/e9a73dfc4881e28fbf92db3ff0daebe9.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/e9a73dfc4881e28fbf92db3ff0daebe9.png)
 
 **Step 4: Make migration preparations**
 
@@ -1184,7 +1184,7 @@ Before you migrate a database, check whether the database meets the following re
 
 1. Wait until the environment is initialized.
 
-   ![](assets/27fa83434adf8976ed387426f1036e7f.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/27fa83434adf8976ed387426f1036e7f.png)
 
    > **Note**
    >
@@ -1202,7 +1202,7 @@ Before you migrate a database, check whether the database meets the following re
 
 1. Make sure that the destination resources and network connection are normal. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/d39c47a5792c7474d058f8507b9ce5d1.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/d39c47a5792c7474d058f8507b9ce5d1.png)
 
 **Step 5: Perform a migration test**
 
@@ -1218,11 +1218,11 @@ Before you migrate a database, check whether the database meets the following re
 
 1. Click **Start All Drills** and wait until the migration test is complete.
 
-   ![](assets/889b1426adf5314bae7f69dd428b47b0.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/889b1426adf5314bae7f69dd428b47b0.png)
 
 2. Click **View Reports** to view the test report.
 
-   ![](assets/449768ee9850b42c09f115b329a41665.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/449768ee9850b42c09f115b329a41665.png)
 
    <ol type="a" start="2">
 
@@ -1236,7 +1236,7 @@ Before you migrate a database, check whether the database meets the following re
 
 1. Check that the Test Status column for all the resources to be migrated is Pass. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/93465a9f6b548645460486b7578c72e2.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/93465a9f6b548645460486b7578c72e2.png)
 
    > **Note**
    >
@@ -1256,7 +1256,7 @@ Before you migrate a database, check whether the database meets the following re
 
 1. Click **Migrate All**.
 
-   ![](assets/8954780e0dc8a676a6ce4bdb36672415.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/8954780e0dc8a676a6ce4bdb36672415.png)
 
 2. Wait until the migration task is complete. For an incremental synchronization, click **Complete Replication** to complete the task.
 
@@ -1342,11 +1342,11 @@ Before you perform a storage migration, ensure that the following conditions and
 
 1. Click **Create Resource Migration Plan**.
 
-   ![](assets/c6dcfb9cbfd411ea219271984d9566f4.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/c6dcfb9cbfd411ea219271984d9566f4.jpeg)
 
 2. Configure the parameters such as the migration plan name and migration type. Then, click **OK**.
 
-   ![](assets/fa5173bf2ad5d658095ea882ec45a86b.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/fa5173bf2ad5d658095ea882ec45a86b.png)
 
    > **Note**
    >
@@ -1368,15 +1368,15 @@ Before you perform a storage migration, ensure that the following conditions and
 
 1. Click **Start Survey**.
 
-   ![](assets/0e1ad9513e76113c111c1aff282a9b4d.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/0e1ad9513e76113c111c1aff282a9b4d.jpeg)
 
 2. Specify the destination virtual private cloud (VPC), vSwitch, and migration source connection information based on your business requirements. Make sure that the destination VPC can access the survey resources.
 
-   ![](assets/7c8f6e462ae72329dcc4be45f3f6d002.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/7c8f6e462ae72329dcc4be45f3f6d002.png)
 
 3. Click **OK** and wait until the survey task is complete.
 
-   ![](assets/6f7d846c895fc9a4277078135ab26336.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/6f7d846c895fc9a4277078135ab26336.png)
 
    > **Note**
    >
@@ -1394,11 +1394,11 @@ Before you perform a storage migration, ensure that the following conditions and
 
 1. Click **View Reports** to view the details of the migration source.
 
-   ![](assets/07673f43628265dd6f73ba774b1c74ca.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/07673f43628265dd6f73ba774b1c74ca.png)
 
 2. Select the resources that you want to migrate, and click **Next**. In the message that appears, confirm the selected resources.
 
-   ![](assets/b27534aa7b2b478145a3c2f24580f363.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/b27534aa7b2b478145a3c2f24580f363.png)
 
 **Step 3: Perform solution design**
 
@@ -1414,11 +1414,11 @@ Before you perform a storage migration, ensure that the following conditions and
 
 1. Click **Start Solution Design**.
 
-   ![](assets/c621a44deb7ee52abf60cd203986cd09.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/c621a44deb7ee52abf60cd203986cd09.png)
 
 2. Specify the transmission network and available migration bandwidth. Then, click **OK**.
 
-   ![](assets/8280871daab50c0499fe1bce5c5a24a4.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/8280871daab50c0499fe1bce5c5a24a4.png)
 
    > **Note**
    >
@@ -1436,7 +1436,7 @@ Before you perform a storage migration, ensure that the following conditions and
 
 1. Confirm the generated migration solution. You can modify the solution based on your business requirements.
 
-   ![](assets/f33a03ff277e6c3eec41c0158c63fa12.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/f33a03ff277e6c3eec41c0158c63fa12.jpeg)
 
    > **Note**
    >
@@ -1452,7 +1452,7 @@ Before you perform a storage migration, ensure that the following conditions and
 
 2. Check that the Plan Status column for all the resources to be migrated is not Confirmation Required. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/5568ea81f443f982be72c08d9cdfb294.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/5568ea81f443f982be72c08d9cdfb294.jpeg)
 
 **Step 4: Make migration preparations**
 
@@ -1468,7 +1468,7 @@ Before you perform a storage migration, ensure that the following conditions and
 
 1. Wait until the environment is initialized.
 
-   ![](assets/8f9149e3b702ccb5f5d1c079932d36b7.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/8f9149e3b702ccb5f5d1c079932d36b7.jpeg)
 
    > **Note**
    >
@@ -1486,7 +1486,7 @@ Before you perform a storage migration, ensure that the following conditions and
 
 1. Make sure that the destination resources and network connection are normal. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/92b5e973167146748b7f0d040f3f4aa0.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/92b5e973167146748b7f0d040f3f4aa0.jpeg)
 
 **Step 5: Perform a migration test**
 
@@ -1502,7 +1502,7 @@ Before you perform a storage migration, ensure that the following conditions and
 
 1. Click **Start All Drills** and wait until the migration test is complete.
 
-   ![](assets/f2511bde5f6179e691196cb26edb042f.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/f2511bde5f6179e691196cb26edb042f.jpeg)
 
    > **Note**
    >
@@ -1510,7 +1510,7 @@ Before you perform a storage migration, ensure that the following conditions and
 
 2. Click **View Reports** to view the test report.
 
-   ![](assets/584a900f196cf8794f189a2ca300910c.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/584a900f196cf8794f189a2ca300910c.jpeg)
 
    <ol type="a" start="2">
 
@@ -1524,7 +1524,7 @@ Before you perform a storage migration, ensure that the following conditions and
 
 1. Check that the Test Status column for all the resources to be migrated is Complete Tested. Then, click **Next**. In the message that appears, click OK.
 
-   ![](assets/0b14c96f4e980dd4bdac100728e38eb1.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/0b14c96f4e980dd4bdac100728e38eb1.jpeg)
 
    > **Note**
    >
@@ -1544,11 +1544,11 @@ Before you perform a storage migration, ensure that the following conditions and
 
 1. Click **Migrate All**.
 
-   ![](assets/e4fb88bba6a42bf29e2e3b7dccdb3692.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/e4fb88bba6a42bf29e2e3b7dccdb3692.jpeg)
 
 2. Wait until the migration task is complete. For an incremental synchronization, click **End Synchronization** to complete the task.
 
-   ![](assets/9df46731366c4ee6bd5ec673dc5be187.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/9df46731366c4ee6bd5ec673dc5be187.jpeg)
 
    <ol type="a" start="2">
 
@@ -1562,7 +1562,7 @@ Before you perform a storage migration, ensure that the following conditions and
 
 1. Click **View Reports** to view the migration details.
 
-   ![](assets/80aaaf6d08269079978e59cad8ff6bb2.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/80aaaf6d08269079978e59cad8ff6bb2.jpeg)
 
 2. After all migration tasks are complete, click **Next**.
 
@@ -1580,11 +1580,11 @@ Before you perform a storage migration, ensure that the following conditions and
 
 1. Click **Verify All** and wait until the verification is complete.
 
-   ![](assets/4dbe15fb622602b04e2acfa6111c4842.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/4dbe15fb622602b04e2acfa6111c4842.jpeg)
 
 2. Click **View Reports** to view the verification report.
 
-   ![](assets/230d795be347849b968e5f14270adf93.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/230d795be347849b968e5f14270adf93.jpeg)
 
    <ol type="a" start="2">
 
@@ -1598,11 +1598,11 @@ Before you perform a storage migration, ensure that the following conditions and
 
 1. Check that the Validation Result column for all the resources to be migrated is Success. Then, click **Confirm Completion**.
 
-   ![](assets/72a81e0b6e8276f56b37b9f11b980815.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/72a81e0b6e8276f56b37b9f11b980815.jpeg)
 
 2. The migration report page appears. You can view the overall execution status of the migration task.
 
-   ![](assets/2b3941ce20abb9a573308d8ee22a7336.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/2b3941ce20abb9a573308d8ee22a7336.jpeg)
 
 <a id="section-4"></a>
 
@@ -1620,7 +1620,7 @@ Before you perform a storage migration, ensure that the following conditions and
 
 3. Configure the organization, resource set, region, plan name, and migration type based on your business requirements. You can select multiple migration types.
 
-   ![](assets/cbcbe928b9d184cc6db5f261b5730db6.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/cbcbe928b9d184cc6db5f261b5730db6.png)
 
 4. Click **OK** to create the resource migration plan.
 
@@ -1636,21 +1636,21 @@ Before you perform a storage migration, ensure that the following conditions and
 
 3. Above the resource migration plan list, filter resource migration plans by name, scenario, and status. If Status of a resource migration plan is Expired, the resource migration plan has been in existence for more than 15 days and is not completed or terminated.
 
-   ![](assets/7810ca749912dab6dbf4fa248f507709.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/7810ca749912dab6dbf4fa248f507709.png)
 
 4. Click the edit icon next to a plan name to modify the plan name.
 
-   ![](assets/6639806b9bc149199997c8d2c9e98cc0.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/6639806b9bc149199997c8d2c9e98cc0.png)
 
 5. Click **Migration Report** to view the overview of the current migration plan.
 
-   ![](assets/f8c3bc3f07d9e71c0dcca093020a4412.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/f8c3bc3f07d9e71c0dcca093020a4412.png)
 
 6. Click the name of a migration plan or a migration scenario to go to the details page of the migration plan.
 
 7. Click **Terminate Migration** next to a migration scenario to terminate the unfinished migration.
 
-   ![](assets/8329d63ff8766953631f4ea9605ce39b.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/8329d63ff8766953631f4ea9605ce39b.png)
 
 8. Click **Delete** to delete the current migration plan. Only completed and terminated migration plans can be deleted.
 
@@ -1764,7 +1764,7 @@ The server migration feature allows you to migrate data from servers in data cen
 
 Before you use Server Migration Center (SMC) to migrate servers, you must authorize SMC to access your cloud resources. In this case, make sure that you have activated Resource Access Management (RAM) and authorized SMC to access your cloud resources. Log in to the Apsara Migration Center (AMC) console. Follow the on-screen instructions to click **Confirm authorization** to complete the authorization.
 
-![](assets/97f7daad0dfb8c897fb900293e64b51e.jpeg)
+![](en-cmh-user-guide-v3.18.6-20251217.assets/97f7daad0dfb8c897fb900293e64b51e.jpeg)
 
 A service-linked role is a RAM role whose trusted entity is an Apsara Stack service. SMC uses service-linked roles to obtain permissions to access other cloud services or cloud resources. RAM provides a system policy for each service-linked role. You cannot modify the policy.
 
@@ -1958,7 +1958,7 @@ Before you migrate a server, check whether the source server meets the following
 
    On the Migration Sources page, click the **Physical Machines/Virtual Machines/Cloud Servers** tab. Click Import Migration Source. On the Import Migration Source page, set Import Method to Command Line Import, click **Generate Activation Code**, and copy the generated activation code.
 
-   ![](assets/7c33a37070d1c696422fbc3fbdedfc04.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/7c33a37070d1c696422fbc3fbdedfc04.png)
 
 2. Import the information about the migration source
 
@@ -1978,7 +1978,7 @@ Before you migrate a server, check whether the source server meets the following
 
 1. On the import page, download the installation package of the SMC client based on the architecture (ARM or x86) and operating system (32-bit or 64-bit) of the source Linux server.
 
-   ![](assets/424bb7329897b61ccf49df1ccbd68bad.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/424bb7329897b61ccf49df1ccbd68bad.png)
 
 2. You can use a remote connection tool that supports file transfer to upload the SMC client package to the source Linux server.
 
@@ -2014,7 +2014,7 @@ Before you migrate a server, check whether the source server meets the following
 
    Follow on-screen instructions to enter the activation code:
 
-   ![](assets/ca26200609782ec6d5fd4a455afe013d.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/ca26200609782ec6d5fd4a455afe013d.jpeg)
 
    If a message similar to Import Source Server [s-aoqriroegdp\*\*\*\*] Successfully! is returned, the information about the migration source is imported.
 
@@ -2045,7 +2045,7 @@ Before you migrate a server, check whether the source server meets the following
 
 3. On the source Windows server, use the built-in decompression tool of Windows or the decompression tool installed on the server to decompress the SMC client package. The following figure shows the decompressed folders and files.
 
-   ![](assets/46aa936d5f2442499abf2dd61fb26acd.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/46aa936d5f2442499abf2dd61fb26acd.jpeg)
 
    | Folder or file | Description |
    | --- | --- |
@@ -2076,7 +2076,7 @@ Before you migrate a server, check whether the source server meets the following
 
      If a message similar to Import Source Server [s-tebufskeyf5\*\*\*\*] Successfully! is returned, the information about the migration source is imported.
 
-     ![](assets/acf0db5b2c572f2ef0c5c4fac10af025.jpeg)
+     ![](en-cmh-user-guide-v3.18.6-20251217.assets/acf0db5b2c572f2ef0c5c4fac10af025.jpeg)
 
 **Step 2: Create a migration task**
 
@@ -2084,7 +2084,7 @@ Before you migrate a server, check whether the source server meets the following
 
 2. Configure the parameters in the following table. If you need advanced settings, such as the network type and compression ratio, click **Expert Mode**.
 
-   ![](assets/6d409b13a167b91acfef70513deeab14.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/6d409b13a167b91acfef70513deeab14.jpeg)
 
    - On the **Migration Tasks** page, view the real-time status of the migration task. The amount of time required for data migration is subject to factors such as the data size of the migration source and network bandwidth.
 
@@ -2116,7 +2116,7 @@ Before you migrate a server, check whether the source server meets the following
 
    | Paramet er | Description | Example |
    | --- | --- | --- |
-   | Adjust disk partition structur e | Specifies whether to enable disk partition adjustment.<br>• If this switch is turned off, the disk partitions of the destination system are the same as those of the migration source by default.<br>• If this switch is turned on, you can modify the disk partitions of the destination system, including the partition size, order, transmission mode, and whether to enable LVM.<br>The following section describes the parameters for disk partitions.<br>• Configure disks<br>• <strong>System Disk</strong>: the size of the system disk of the destination instance. Unit: GiB. Valid values: 20 to 2048.<br>The size of the destination system disk must be larger than the amount of data on the source system disk. For example, if the total size of the source system disk is 400 GiB but the amount of data stored on this disk is only 100 GiB, you must set this parameter to a value greater than 100.<br>Warning<br>The default value of this parameter is the size of the source system disk. We recommend that you retain the default value or specify a greater value.<br>• <strong>Data Disk &lt;N&gt;</strong>: the size of the data disk of the destination instance. Unit: GiB. Valid values: 1 to 32768.<br>• N indicates the serial number of the data disk. When you migrate a server to an ECS instance, N indicates the ID of the data disk.<br>• The size of the destination data disk must be larger than the amount of data on the source data disk. For example, if the total size of the source data disk is 500 GiB but the size of data stored on this disk is only 100 GiB, you must set this parameter to a value greater than 100.<br>• If a <strong>data disk</strong> has no mount target or No is selected from the drop-down list to the right of Regular Partition, the data on the data disk is not migrated.<br>• <strong>LVM</strong>: Logical Volume Manager (LVM) is a mechanism for managing disk partitions in a Linux system. LVM offers greater flexibility compared with ordinary disk partitions and allows dynamic adjustment of disk space. You can choose whether to enable LVM based on your business requirements. When LVM is enabled, the destination system automatically reconstructs the disk by using an LVM structure.<br>• Instructions for enabling LVM<br>For each LVM-enabled disk, the system creates one physical volume (PV) and its corresponding volume group (VG), and creates a number of logical volumes (LVs) that match the number of mount targets in this VG. The default name of a VG is vgX (X is the serial number of the disk), and the default name of an LV is lvX (X is the serial number of the LV). Examples:<br>The following figure shows an example of disk partitions of the migration source.<br>![](assets/174c121c7a750caac6055a0af570afe1.jpeg)<br>Enable LVM for the migration task:<br>![](assets/9fccc313075556f60d2968d4f96dfac6.png)<br>Result after migration: Disks are reconstructed as an LVM structure<br>![](assets/eb1e40beb5e8e26cb9827a916b14dc45.jpeg)<br>• LVM is not supported in the following scenarios:<br>• If your migration source runs Windows, LVM is not supported.<br>• If the system disk does not have a boot partition, LVM is not supported.<br>• After LVM is enabled, it does not take effect in the following scenarios:<br>• LVM2 is not supported on your migration source and the LVM2 software package is not installed.<br>• Your migration source runs Debian with a kernel version of 3.x or earlier, and XFS file systems are mounted.<br>• Configure mount targets<br>• Whether to migrate: You can specify whether to migrate a mount target based on your business requirements.<br>• Block Replication: If you turn on Block Replication, stable data transmission is ensured. The block-level replication feature also ensures that the source and destination disks use the same partitioning scheme. You cannot modify the size of each partition on the destination disk. SMC allows or disallows you to turn on this switch based on whether the migration source supports block replication.<br>• If the migration source does not support <strong>block replication</strong>, this switch cannot be turned on. The default file replication mode is used and the partition size can be changed.<br>• If the migration source supports <strong>block replication</strong> for partitions, the switch is turned on by default. You can migrate disk data at the partition level.<br>Note<br>If your source server runs Windows, block replication is enabled by default. You cannot disable this feature.<br>If LVM is enabled for a disk and the partition size is not an integer multiple of 4 MiB, block replication does not take effect. File replication is used for data transfer.<br>• Set the partition size: If block replication is not enabled, you can set the partition size based on your business requirements.However, the total size of partitions cannot be greater than the size of the disk to which they belong.<br>Note<br>If the disk sizes of the destination instance do not match those of the migration source, the migration task cannot be created. In this case, the system automatically adjusts the locations of the mount targets to meet the disk size requirements. If the requirements still cannot be met after the mount targets are adjusted, follow the on-screen instructions to handle the issue.<br>You can also drag and drop the mount targets to meet the disk | Retain the default value |
+   | Adjust disk partition structur e | Specifies whether to enable disk partition adjustment.<br>• If this switch is turned off, the disk partitions of the destination system are the same as those of the migration source by default.<br>• If this switch is turned on, you can modify the disk partitions of the destination system, including the partition size, order, transmission mode, and whether to enable LVM.<br>The following section describes the parameters for disk partitions.<br>• Configure disks<br>• <strong>System Disk</strong>: the size of the system disk of the destination instance. Unit: GiB. Valid values: 20 to 2048.<br>The size of the destination system disk must be larger than the amount of data on the source system disk. For example, if the total size of the source system disk is 400 GiB but the amount of data stored on this disk is only 100 GiB, you must set this parameter to a value greater than 100.<br>Warning<br>The default value of this parameter is the size of the source system disk. We recommend that you retain the default value or specify a greater value.<br>• <strong>Data Disk &lt;N&gt;</strong>: the size of the data disk of the destination instance. Unit: GiB. Valid values: 1 to 32768.<br>• N indicates the serial number of the data disk. When you migrate a server to an ECS instance, N indicates the ID of the data disk.<br>• The size of the destination data disk must be larger than the amount of data on the source data disk. For example, if the total size of the source data disk is 500 GiB but the size of data stored on this disk is only 100 GiB, you must set this parameter to a value greater than 100.<br>• If a <strong>data disk</strong> has no mount target or No is selected from the drop-down list to the right of Regular Partition, the data on the data disk is not migrated.<br>• <strong>LVM</strong>: Logical Volume Manager (LVM) is a mechanism for managing disk partitions in a Linux system. LVM offers greater flexibility compared with ordinary disk partitions and allows dynamic adjustment of disk space. You can choose whether to enable LVM based on your business requirements. When LVM is enabled, the destination system automatically reconstructs the disk by using an LVM structure.<br>• Instructions for enabling LVM<br>For each LVM-enabled disk, the system creates one physical volume (PV) and its corresponding volume group (VG), and creates a number of logical volumes (LVs) that match the number of mount targets in this VG. The default name of a VG is vgX (X is the serial number of the disk), and the default name of an LV is lvX (X is the serial number of the LV). Examples:<br>The following figure shows an example of disk partitions of the migration source.<br>![](en-cmh-user-guide-v3.18.6-20251217.assets/174c121c7a750caac6055a0af570afe1.jpeg)<br>Enable LVM for the migration task:<br>![](en-cmh-user-guide-v3.18.6-20251217.assets/9fccc313075556f60d2968d4f96dfac6.png)<br>Result after migration: Disks are reconstructed as an LVM structure<br>![](en-cmh-user-guide-v3.18.6-20251217.assets/eb1e40beb5e8e26cb9827a916b14dc45.jpeg)<br>• LVM is not supported in the following scenarios:<br>• If your migration source runs Windows, LVM is not supported.<br>• If the system disk does not have a boot partition, LVM is not supported.<br>• After LVM is enabled, it does not take effect in the following scenarios:<br>• LVM2 is not supported on your migration source and the LVM2 software package is not installed.<br>• Your migration source runs Debian with a kernel version of 3.x or earlier, and XFS file systems are mounted.<br>• Configure mount targets<br>• Whether to migrate: You can specify whether to migrate a mount target based on your business requirements.<br>• Block Replication: If you turn on Block Replication, stable data transmission is ensured. The block-level replication feature also ensures that the source and destination disks use the same partitioning scheme. You cannot modify the size of each partition on the destination disk. SMC allows or disallows you to turn on this switch based on whether the migration source supports block replication.<br>• If the migration source does not support <strong>block replication</strong>, this switch cannot be turned on. The default file replication mode is used and the partition size can be changed.<br>• If the migration source supports <strong>block replication</strong> for partitions, the switch is turned on by default. You can migrate disk data at the partition level.<br>Note<br>If your source server runs Windows, block replication is enabled by default. You cannot disable this feature.<br>If LVM is enabled for a disk and the partition size is not an integer multiple of 4 MiB, block replication does not take effect. File replication is used for data transfer.<br>• Set the partition size: If block replication is not enabled, you can set the partition size based on your business requirements.However, the total size of partitions cannot be greater than the size of the disk to which they belong.<br>Note<br>If the disk sizes of the destination instance do not match those of the migration source, the migration task cannot be created. In this case, the system automatically adjusts the locations of the mount targets to meet the disk size requirements. If the requirements still cannot be met after the mount targets are adjusted, follow the on-screen instructions to handle the issue.<br>You can also drag and drop the mount targets to meet the disk | Retain the default value |
 
    > size requirements. However, if the partition type is a boot partition or a system partition, you cannot drag and drop the mount targets. To drag and drop mount targets, perform the following operations:
    >
@@ -2157,11 +2157,11 @@ Before you migrate a server, check whether the source server meets the following
 
 1. Log in to the AMC console. In the left-side navigation pane, choose **Advanced Services** > **Server Migration** > **Migration Tasks**. On the **Server Migration** tab, find the migration task that you want to manage, and then click **Start Task** in the Operation column. In the Start Migration Task message, click **OK**.
 
-   ![](assets/6deb27957e22dea8f525e2aaef6b41ad.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/6deb27957e22dea8f525e2aaef6b41ad.jpeg)
 
 2. On the Migration Tasks page, view the status of the migration task. The amount of time required for data transmission is subject to factors such as the data size of the migration source and network bandwidth. Wait until the migration task is complete.
 
-   ![](assets/20cb2e083b05344528ff2a0018c76860.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/20cb2e083b05344528ff2a0018c76860.jpeg)
 
 **Step 7: Manage the migration task**
 
@@ -2169,29 +2169,29 @@ Before you migrate a server, check whether the source server meets the following
 
    Log in to the AMC console. In the left-side navigation pane, choose **Advanced Services** > **Server Migration** > **Migration Tasks**. On the **Server Migration** tab, find the migration task that you want to manage, and then click **Pause task** in the Operation column. In the Pause task message, click **OK**.
 
-   ![](assets/cca9e8559de94b2409b12332866d7526.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/cca9e8559de94b2409b12332866d7526.jpeg)
 
    On the **Migration Tasks** page, the migration task is in the Paused state.
 
-   ![](assets/43bf29ae4da99df44813f09e42808db5.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/43bf29ae4da99df44813f09e42808db5.jpeg)
 
 2. Edit a migration task (the migration task is in the Not Started or Paused state)
 
    Log in to the AMC console. In the left-side navigation pane, choose **Advanced Services** > **Server Migration** > **Migration Tasks**. On the **Server Migration** tab, find the migration task that you want to manage, and then click **Edit Task** in the Operation column. In the dialog box that appears, configure the required parameters and click **OK**.
 
-   ![](assets/1cad358653d6c522719fecf911389062.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/1cad358653d6c522719fecf911389062.jpeg)
 
 3. Delete a migration task (the migration task is in the Error or Completed state)
 
    Log in to the AMC console. In the left-side navigation pane, choose **Advanced Services** > **Server Migration** > **Migration Tasks**. On the **Server Migration** tab, find the migration task that you want to manage, and then click **Delete** in the Operation column. In the Delete Migration Task message, click **OK**.
 
-   ![](assets/a02cb02d617eea620187124955abbf58.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/a02cb02d617eea620187124955abbf58.jpeg)
 
 4. Perform incremental synchronization (incremental migration is configured for the migration task)
 
    Log in to the AMC console. In the left-side navigation pane, choose **Advanced Services** > **Server Migration** > **Migration Tasks**. On the **Server Migration** tab, find the migration task that you want to manage, and then click **Complete incremental synchronization** in the Operation column. In the Complete incremental synchronization dialog box, select or clear the Make the last synchronization check box based on your business requirements, and then click **OK.**
 
-   ![](assets/f9b31ad70bd2257a11150a1998577aec.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/f9b31ad70bd2257a11150a1998577aec.jpeg)
 
 <a id="section-5-1-3-2"></a>
 
@@ -2246,11 +2246,11 @@ In the AMC console, download an Open Virtualization Format (OVF) template that c
 
 1. On the **Migration Sources** page, click the **Vmwarevirtual Machine** tab and click **Import Migration Source**.
 
-   ![](assets/e4adb24c1215e1b5ed047b84a0cbe63d.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/e4adb24c1215e1b5ed047b84a0cbe63d.png)
 
 2. Select an organization, resource set, and region. Set Import Method to **VMware agentless connector import**. Download and decompress the OVF template based on the version of VMware ESXi or vCenter Server.
 
-   ![](assets/1f146685affceb24d7abbc24759df581.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/1f146685affceb24d7abbc24759df581.jpeg)
 
 **Step 2: Install and deploy a Server Migration Connector**
 
@@ -2264,7 +2264,7 @@ Import the OVF template of a Server Migration Connector to vCenter Server and de
 
 1. Log in to vCenter Server. Find the vCenter Server host, right-click the name of the host, and then select **Deploy OVF Template**.
 
-   ![](assets/e8c2a50dd6a69121671a017086a5429f.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/e8c2a50dd6a69121671a017086a5429f.jpeg)
 
 2. On the **Deploy OVF Template** page, follow the configuration wizard to create a VM.
 
@@ -2274,7 +2274,7 @@ Import the OVF template of a Server Migration Connector to vCenter Server and de
 
    Select an OVF template and click **NEXT**. Select **Local file** and click **Browse** to select the decompressed OVF template file.
 
-   ![](assets/b9e04f71281630b392f8cf102f7e0582.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/b9e04f71281630b392f8cf102f7e0582.jpeg)
 
    </li>
 
@@ -2282,7 +2282,7 @@ Import the OVF template of a Server Migration Connector to vCenter Server and de
 
    Specify the VM name and installation location, and click **NEXT**. Enter the VM name in the **Virtual machine name** field and select the installation location.
 
-   ![](assets/258e41430a0f1802205c48321a87fb47.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/258e41430a0f1802205c48321a87fb47.jpeg)
 
    </li>
 
@@ -2290,7 +2290,7 @@ Import the OVF template of a Server Migration Connector to vCenter Server and de
 
    Select a compute resource and click **NEXT**.
 
-   ![](assets/6598ecf6c48e6929c53e465804fea2d4.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/6598ecf6c48e6929c53e465804fea2d4.jpeg)
 
    </li>
 
@@ -2298,19 +2298,19 @@ Import the OVF template of a Server Migration Connector to vCenter Server and de
 
 3. Confirm the template information and click **NEXT**.
 
-   ![](assets/e1128fa862a244629f8aeee6a268d5df.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/e1128fa862a244629f8aeee6a268d5df.jpeg)
 
 4. Select the storage and click **NEXT**.
 
-   ![](assets/37c404dd6ec8219f36b1faf92c05f7dc.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/37c404dd6ec8219f36b1faf92c05f7dc.jpeg)
 
 5. Select networks and click **NEXT**.
 
-   ![](assets/0aae0e3bb6cfcb29f6b662a4dcadda59.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/0aae0e3bb6cfcb29f6b662a4dcadda59.jpeg)
 
 6. Confirm the configuration information and click **FINISH**.
 
-   ![](assets/b501d7092841006ec3416632a5617ecd.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/b501d7092841006ec3416632a5617ecd.jpeg)
 
 7. After the Server Migration Connector is deployed, right-click the Server Migration Connector and choose **Power > Power On**.
 
@@ -2318,7 +2318,7 @@ Import the OVF template of a Server Migration Connector to vCenter Server and de
 
 9. On the **Summary** tab, obtain the IP address of the Server Migration Connector.
 
-   ![](assets/c23653ca7ce28ce2aba703d5891d3255.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/c23653ca7ce28ce2aba703d5891d3255.jpeg)
 
    2. **Deploy a Server Migration Connector on VMware ESXi**
 
@@ -2326,27 +2326,27 @@ Import the OVF template of a Server Migration Connector to VMware ESXi and deplo
 
 1. Log in to VMware ESXi. In the left-side navigation pane, right-click Virtual Machines and select **Create/Register VM**.
 
-   ![](assets/56a98f3d5df8987559b814560ee9b1fd.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/56a98f3d5df8987559b814560ee9b1fd.jpeg)
 
 2. In the **Select creation type** step, select **Deploy a virtual machine from an OVF or OVA file** and click **NEXT**.
 
-   ![](assets/564bfc8e64e22e00cd74c7f1a8bb5d0c.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/564bfc8e64e22e00cd74c7f1a8bb5d0c.jpeg)
 
 3. In the **Select OVF and VMDK files** step, enter a VM name, click **Click to select files or drag/drop**, select the downloaded OVA template, and then click **NEXT**.
 
-   ![](assets/43bd3e9538a36b9e91f4ffa5cc513785.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/43bd3e9538a36b9e91f4ffa5cc513785.jpeg)
 
 4. In the **Select storage** step, click **NEXT**.
 
-   ![](assets/dbdb43d96f96ff77e6d46bf0b013b86e.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/dbdb43d96f96ff77e6d46bf0b013b86e.jpeg)
 
 5. In the **Deployment options** step, click **NEXT**.
 
-   ![](assets/7f033b05555f00a4c3fe72e8f6b307ac.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/7f033b05555f00a4c3fe72e8f6b307ac.jpeg)
 
 6. Wait until the VM is deployed. The IP address of the Server Migration Connector is displayed in the **General Information** section. By default, Dynamic Host Configuration Protocol (DHCP) is configured in the network settings of the Server Migration Connector. You can modify the network settings based on your business requirements.
 
-   ![](assets/8210824db77f7afbcda0b2f0df0872fd.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/8210824db77f7afbcda0b2f0df0872fd.jpeg)
 
    After the deployment is complete, perform the following steps:
 
@@ -2401,7 +2401,7 @@ Import the OVF template of a Server Migration Connector to VMware ESXi and deplo
 
    </ol>
 
-   ![](assets/115ad84640f4def02b863140b3fe27c7.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/115ad84640f4def02b863140b3fe27c7.jpeg)
 
    </li>
 
@@ -2571,9 +2571,9 @@ Import the OVF template of a Server Migration Connector to VMware ESXi and deplo
 
    Log in to the AMC console. On the VMware VM migration page, obtain the activation code of the SMC client. An SMC access token consists of an access token ID and an access token code. If you do not have an SMC access token, click **Generate Activation Code** in the **Import Description** section, and copy the generated access token ID and access token code.
 
-   ![](assets/6367bbc53151a8ba8651be42402b5790.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/6367bbc53151a8ba8651be42402b5790.jpeg)
 
-   ![](assets/2da92a4cea2dad9b16f0c543bffb172a.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/2da92a4cea2dad9b16f0c543bffb172a.jpeg)
 
    You can use either of the following methods to import the migration source:
 
@@ -2583,7 +2583,7 @@ Import the OVF template of a Server Migration Connector to VMware ESXi and deplo
 
    Log in to the Server Migration Connector. In the /root/smc directory, execute Step 5 in the following figure (recommended).
 
-   ![](assets/40a66136c2d31d4efe0c00dfd45c3e36.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/40a66136c2d31d4efe0c00dfd45c3e36.jpeg)
 
    </li>
 
@@ -2614,7 +2614,7 @@ Import the OVF template of a Server Migration Connector to VMware ESXi and deplo
 
 2. Configure the parameters in the following table. If you need advanced settings, such as the network type and compression ratio, click **Expert Mode**.
 
-   ![](assets/b44468a95559b4165ea02d3fbdc04c31.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/b44468a95559b4165ea02d3fbdc04c31.jpeg)
 
    - On the **Migration Tasks** page, view the real-time status of the migration task. The amount of time required for data migration is subject to factors such as the data size of the migration source and network bandwidth.
 
@@ -2673,7 +2673,7 @@ If you specify multiple VM IDs when you configure the VMware VM to be migrated, 
 >
 > This step applies only to Server Migration Connectors in which the version of the agent is 2.0.0 or later. The following figure shows how to obtain the version.
 
-![](assets/3d08849da4698c13cda8613d174034e8.jpeg)
+![](en-cmh-user-guide-v3.18.6-20251217.assets/3d08849da4698c13cda8613d174034e8.jpeg)
 
 1. Log in to the Server Migration Connector.
 
@@ -2695,11 +2695,11 @@ If you specify multiple VM IDs when you configure the VMware VM to be migrated, 
 
 1. Log in to the AMC console. In the left-side navigation pane, choose **Advanced Services** > **Server Migration** > **Migration Tasks**. On the **VMware Agentless Migration** tab, find the migration task that you want to manage, and then click **Start Task** in the Operation column. In the Start Migration Task message, click **OK**.
 
-   ![](assets/6deb27957e22dea8f525e2aaef6b41ad.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/6deb27957e22dea8f525e2aaef6b41ad.jpeg)
 
 2. On the Migration Tasks page, view the status of the migration task. The amount of time required for data transmission is subject to factors such as the data size of the migration source and network bandwidth. Wait until the migration task is complete.
 
-   ![](assets/20cb2e083b05344528ff2a0018c76860.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/20cb2e083b05344528ff2a0018c76860.jpeg)
 
 > **Important**
 >
@@ -2711,29 +2711,29 @@ If you specify multiple VM IDs when you configure the VMware VM to be migrated, 
 
    Log in to the AMC console. In the left-side navigation pane, choose **Advanced Services** > **Server Migration** > **Migration Tasks**. On the **VMware Agentless Migration** tab, find the migration task that you want to manage, and then click **Pause task** in the Operation column. In the Pause task message, click **OK**.
 
-   ![](assets/cca9e8559de94b2409b12332866d7526.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/cca9e8559de94b2409b12332866d7526.jpeg)
 
    On the **Migration Tasks** page, the migration task is in the Paused state.
 
-   ![](assets/43bf29ae4da99df44813f09e42808db5.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/43bf29ae4da99df44813f09e42808db5.jpeg)
 
 2. Edit a migration task (the migration task is in the Not Started or Paused state)
 
    Log in to the AMC console. In the left-side navigation pane, choose **Advanced Services** > **Server Migration** > **Migration Tasks**. On the **VMware Agentless Migration** tab, find the migration task that you want to manage, and then click **Edit Task** in the Operation column. In the Edit Migration Task dialog box, configure the required parameters and click **OK**.
 
-   ![](assets/1cad358653d6c522719fecf911389062.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/1cad358653d6c522719fecf911389062.jpeg)
 
 3. Delete a migration task (the migration task is in the Error or Completed state)
 
    Log in to the AMC console. In the left-side navigation pane, choose **Advanced Services** > **Server Migration** > **Migration Tasks**. On the **VMware Agentless Migration** tab, find the migration task that you want to manage, and then click **Delete Migration Task** in the Operation column. In the Delete Migration Task message, click **OK**.
 
-   ![](assets/a02cb02d617eea620187124955abbf58.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/a02cb02d617eea620187124955abbf58.jpeg)
 
 4. Perform incremental synchronization (incremental migration is configured for the migration task)
 
    Log in to the AMC console. In the left-side navigation pane, choose **Advanced Services** > **Server Migration** > **Migration Tasks**. On the **VMware Agentless Migration** tab, find the migration task that you want to manage, and then click **Complete incremental synchronization** in the Operation column. In the Complete incremental synchronization dialog box, select or clear the Make the last synchronization check box based on your business requirements, and then click **OK.**
 
-   ![](assets/f9b31ad70bd2257a11150a1998577aec.jpeg)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/f9b31ad70bd2257a11150a1998577aec.jpeg)
 
 <a id="section-5-1-3-3"></a>
 
@@ -2780,17 +2780,17 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 1. On the **Migration Sources** page, click the **Alibaba Cloud ECS Server** tab, and then click **Import Migration Source**.
 
-   ![](assets/8dfef7b4cc695e42327ca4a73b106339.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/8dfef7b4cc695e42327ca4a73b106339.png)
 
 2. Follow on-screen instructions to configure the Target Operating System Yum Source, Instance Resource Set, and Examples.
 
-   ![](assets/e9ef79bd358f7b28c07153465487b0e4.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/e9ef79bd358f7b28c07153465487b0e4.png)
 
 3. Select the instance whose OS needs to be replaced and click **Verify YUM Source**. The verification process takes less than 1 minute.
 
 4. After the YUM repository passes the verification, click **Import**. The import process takes less than 3 minutes.
 
-   ![](assets/42bd8f4ff5737c8d7c529264530dfe41.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/42bd8f4ff5737c8d7c529264530dfe41.png)
 
 **Step 2: Create an OS replacement task**
 
@@ -2798,7 +2798,7 @@ After the ECS instance is created, run the  `curl {YUM repository IP address}`  
 
 2. Select the destination OS type from the **Target Operating System** drop-down list.
 
-   ![](assets/9aa1e1187fe8ea76c1e10fe72a92e388.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/9aa1e1187fe8ea76c1e10fe72a92e388.png)
 
    > **Note**
    >
@@ -2846,7 +2846,7 @@ This topic describes how to create a task for evaluating source code scanning.
 
 3. In the **Create an application scan task** dialog box, configure the parameters, upload the compressed source code package, and then click **Confirm**.
 
-   ![](assets/9c0e92e15e15dec5f63034e68de53bcf.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/9c0e92e15e15dec5f63034e68de53bcf.png)
 
    **The following table describes the parameters.**
 
@@ -2863,11 +2863,11 @@ This topic describes how to create a task for evaluating source code scanning.
 
 5. In the task list, find the task that you want to start and click **Start Execution**. Then, click **OK.**
 
-   ![](assets/e495dfc72500cbe323b3f45e98e18819.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/e495dfc72500cbe323b3f45e98e18819.png)
 
 6. On the task management page, you can view that the task is in the **In execution** state. After the task execution is complete, the task changes to the **Completed** state.
 
-   ![](assets/937147b5043554fe30e338fa09355705.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/937147b5043554fe30e338fa09355705.png)
 
 <a id="section-5-2-1-2"></a>
 
@@ -2887,23 +2887,23 @@ A source code scan task is in the **Completed** state.
 
 3. On the Cross-Platform Application Scanning page, find the scan report that you want to view, and click the preview icon or **Task Name** to preview the scan report online.
 
-   ![](assets/54b380a73bd2da335e061da6689bfeb0.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/54b380a73bd2da335e061da6689bfeb0.png)
 
 4. View the source code scan suggestions.
 
    Click **Source Code Suggestion** to go to the source code view. The files with compatibility issues are displayed on the left side, and the original source code and issue analysis are displayed on the right side.
 
-   ![](assets/ce51d5c79c79a84afc62390055319144.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/ce51d5c79c79a84afc62390055319144.png)
 
 5. Fix issues.
 
    Move the pointer over the source code in red to display the issue details. You can fix the issues as prompted. The **Quick Fix** option is available for some issues.
 
-   ![](assets/e89c8e9ff1573f4187f39252906cb6e0.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/e89c8e9ff1573f4187f39252906cb6e0.png)
 
    After you fix the issues, click the **save** icon in the upper-right corner to save the modification. Select the files that you want to replace and click the **download** icon to package and download the files. Fuzzy search is supported for file names.
 
-   ![](assets/1edc2948884f9f0fe6449254967b67cc.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/1edc2948884f9f0fe6449254967b67cc.png)
 
 <a id="section-5-2-1-3"></a>
 
@@ -2923,7 +2923,7 @@ A source code scan task is complete.
 
 3. On the Cross-Platform Application Scanning page, click the download icon to download the code scan results.
 
-   ![](assets/602fb40ce777c13ec1928be6715300d7.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/602fb40ce777c13ec1928be6715300d7.png)
 
 4. After the download process is complete, decompress and open the html file of the scan report to view the offline report.
 
@@ -2941,7 +2941,7 @@ You can configure parameters to dynamically modify workload evaluation results.
 
 3. On the Cross-Platform Application Scanning page, click **Scan Parameter Settings** to modify the workload parameter for each programming language.
 
-   ![](assets/976fc035fdb229d0948f7f82c45ba9fa.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/976fc035fdb229d0948f7f82c45ba9fa.png)
 
 4. The workload evaluation in the scan report is calculated based on the value of the workload parameter.
 
@@ -2969,7 +2969,7 @@ The software package to be scanned must be packaged into a compressed file and u
 
 4. In the **Create an application scan task** dialog box, configure the parameters, upload the compressed source code package, and then click **Confirm**.
 
-   ![](assets/c8e56eab595940039e2cdf3a6546d520.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/c8e56eab595940039e2cdf3a6546d520.png)
 
    **The following table describes the parameters.**
 
@@ -2986,11 +2986,11 @@ The software package to be scanned must be packaged into a compressed file and u
 
 6. In the task list, find the task that you want to start and click **Start Execution** in the Operation column. In the message that appears, click **OK**.
 
-   ![](assets/86f8fecbb74f4a4426b1718a41da5c21.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/86f8fecbb74f4a4426b1718a41da5c21.png)
 
 7. On the task management page, you can view that the task is in the **In execution** state. After the task execution is complete, the task changes to the **Completed** state.
 
-   ![](assets/4eea60117369ee1965b84152e57abf7c.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/4eea60117369ee1965b84152e57abf7c.png)
 
 <a id="section-5-2-2-2"></a>
 
@@ -3010,7 +3010,7 @@ A software package evaluation task is complete.
 
 3. On the **Cross-Platform Application Scanning** page, find the scan report that you want to view, and click the **preview** icon or **Task Name** to preview the scan report online.
 
-   ![](assets/7c6dda697040691c59da44df347116d6.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/7c6dda697040691c59da44df347116d6.png)
 
 4. Click **Download** or **Copy Link** to obtain a replacement software package that is compatible with the destination platform. You can replace the dynamic link library and executable file to obtain an application that is compatible with the destination platform.
 
@@ -3034,16 +3034,16 @@ JVM parameter tuning tools allow you to optimize and migrate JVM parameters base
 
 3. On the JVM Parameter Tuning page, click the **Parameter Generation** tab, configure the runtime environment and advanced settings, and then click **Generate Parameter** to generate JVM parameters.
 
-   ![](assets/b895e39657df0db180e997232ea210f3.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/b895e39657df0db180e997232ea210f3.png)
 
 4. On the Parameter Optimization tab, configure the environment and parameters, and then click **Parameter Optimization** to obtain optimized parameters and optimization suggestions for the original parameters.
 
-   ![](assets/11fe19c764c29ebb7840ea0324d42fcb.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/11fe19c764c29ebb7840ea0324d42fcb.png)
 
 5. Click the **Parameter Migration** tab. After you configure the input parameters, click **Parameter Migration** to obtain modification suggestions for the migrated parameters.
 
-   ![](assets/d761755b08419bd4c4feaa7b911829e1.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/d761755b08419bd4c4feaa7b911829e1.png)
 
 6. Click the **Parameter Query** tab. After you configure the input parameters, click **Query** to query the results.
 
-   ![](assets/f1b1efe1ea1f8776f934bdfda07c7a7e.png)
+   ![](en-cmh-user-guide-v3.18.6-20251217.assets/f1b1efe1ea1f8776f934bdfda07c7a7e.png)

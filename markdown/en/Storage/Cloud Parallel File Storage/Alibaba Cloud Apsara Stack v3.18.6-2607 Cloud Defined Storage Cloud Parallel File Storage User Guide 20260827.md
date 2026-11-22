@@ -51,7 +51,7 @@ CPFS file systems can be used in I/O-intensive businesses that require high thro
 
 1. In the address bar of your browser, enter the service domain name for the Apsara Uni-manager Management Console and press Enter.
 
-   ![](assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
+   ![](en-cpfs-user-guide-v3.18.6-2607-20260827.assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
 
    > **Note**
    >
@@ -208,7 +208,7 @@ A CPFS file system is created. For more information, see Create a CPFS file syst
 
 **View a file system**
 
-1. On the CPFS File Systems page, click the <img src="assets/4e09d89b1cc68f65a9d6a7e8809c8447.png" width="17" alt=""> icon in the search box or click **Advanced**
+1. On the CPFS File Systems page, click the <img src="en-cpfs-user-guide-v3.18.6-2607-20260827.assets/4e09d89b1cc68f65a9d6a7e8809c8447.png" width="17" alt=""> icon in the search box or click **Advanced**
 
    **Filter** to filter file systems by **File System ID**, **File System Name**, or **Tag**.
 
@@ -220,7 +220,7 @@ A CPFS file system is created. For more information, see Create a CPFS file syst
 >
 > By default, mount targets are automatically created. You cannot create additional mount targets.
 
-5. On the CPFS File Systems page, find the file system that you want to view, and click the <img src="assets/e7bea77177c334a2f3db93642f19b939.jpeg" width="16" alt="">
+5. On the CPFS File Systems page, find the file system that you want to view, and click the <img src="en-cpfs-user-guide-v3.18.6-2607-20260827.assets/e7bea77177c334a2f3db93642f19b939.jpeg" width="16" alt="">
 
    icon in the **Monitor** column to view metric data such as capacity, bandwidth, and read/write IOPS of the file system.
 
@@ -248,7 +248,7 @@ A CPFS file system is created. For more information, see Create a CPFS file syst
 
 1. On the CPFS File Systems page, find the file system for which you want to modify the description, move the pointer over the **File System ID/Name** column, and then click the
 
-   <img src="assets/d07afc93fc4f611273598af8fa6dd9f9.png" width="14" alt=""> icon.
+   <img src="en-cpfs-user-guide-v3.18.6-2607-20260827.assets/d07afc93fc4f611273598af8fa6dd9f9.png" width="14" alt=""> icon.
 
 2. In the dialog box that appears, enter a new description.
 
@@ -262,7 +262,7 @@ A CPFS file system is created. For more information, see Create a CPFS file syst
 
 1. On the CPFS File Systems page, find the file system to which you want to add a tag, move
 
-   the pointer over the **Tag** column, and then click the <img src="assets/d07afc93fc4f611273598af8fa6dd9f9.png" width="14" alt=""> icon.
+   the pointer over the **Tag** column, and then click the <img src="en-cpfs-user-guide-v3.18.6-2607-20260827.assets/d07afc93fc4f611273598af8fa6dd9f9.png" width="14" alt=""> icon.
 
 2. In the **Edit Tags** dialog box, configure the Tag Key and Tag Value parameters.
 
@@ -310,9 +310,9 @@ A CPFS file system is created. For more information, see Create a CPFS file syst
 
 3. On the File System Details page, click the **Monitor** tab in the upper-left corner to view metrics such as capacity, bandwidth, and read/write IOPS of the file system.
 
-![](assets/51901671438a7ca285b512e3b7c2ce0a.jpeg)
+![](en-cpfs-user-guide-v3.18.6-2607-20260827.assets/51901671438a7ca285b512e3b7c2ce0a.jpeg)
 
-4. You can click the <img src="assets/0164254ddac2826c2379b0445cde43ce.jpeg" width="18" alt=""> icon in the upper-right corner of a chart to create an alert rule. For
+4. You can click the <img src="en-cpfs-user-guide-v3.18.6-2607-20260827.assets/0164254ddac2826c2379b0445cde43ce.jpeg" width="18" alt=""> icon in the upper-right corner of a chart to create an alert rule. For
 
    more information, see the **Create an alert rule** topic in **User Guide - Cloud Monitor**.
 
@@ -396,7 +396,7 @@ This topic describes solutions for the failure to create a Cloud Parallel File S
 
 When you create or scale up a CPFS file system, the following exception message may appear.
 
-![](assets/baa8f56f5d9d23797a558b637add8eb5.jpeg)
+![](en-cpfs-user-guide-v3.18.6-2607-20260827.assets/baa8f56f5d9d23797a558b637add8eb5.jpeg)
 
 **Solutions**
 

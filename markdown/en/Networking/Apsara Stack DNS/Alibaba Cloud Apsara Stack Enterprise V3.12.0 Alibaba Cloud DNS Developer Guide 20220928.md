@@ -96,7 +96,7 @@ To obtain the AccessKey pair of an organization, perform the following operation
 
 3. In the left-side navigation pane of the Enterprise page, click Organizations.
 
-4. In the Organizations structure, click the <img src="assets/f7b1e83be6e4697de45f954a66365b66.png" width="13" alt=""> icon on the right of the organization to be added.
+4. In the Organizations structure, click the <img src="en-dns-developer-guide-v3.12.0-20220928.assets/f7b1e83be6e4697de45f954a66365b66.png" width="13" alt=""> icon on the right of the organization to be added.
 
 5. Choose AccessKey from the shortcut menu.
 
@@ -118,7 +118,7 @@ To obtain the AccessKey pair of a personal account, perform the following operat
 
 3. In the Apsara Stack AccessKey Pair section of the User Information page, view your AccessKey pair.
 
-   ![](assets/1a25c90665319fc993e339c850a8a5f6.png)
+   ![](en-dns-developer-guide-v3.12.0-20220928.assets/1a25c90665319fc993e339c850a8a5f6.png)
 
    Note
 
@@ -138,15 +138,15 @@ Procedure
 
 3. On the Cluster Operations page, select *dnsProduct* from the Project drop-down list.
 
-   ![](assets/6d6c49f8dce2a37be283fcf9d8508c3a.png)
+   ![](en-dns-developer-guide-v3.12.0-20220928.assets/6d6c49f8dce2a37be283fcf9d8508c3a.png)
 
 4. In the Service Instances section, click Details in the Actions column corresponding to dnsService.
 
-   ![](assets/6b70a4d1be1afbd864eaecd1eed1b098.png)
+   ![](en-dns-developer-guide-v3.12.0-20220928.assets/6b70a4d1be1afbd864eaecd1eed1b098.png)
 
 5. In the Machine Information section, click Terminal in the Actions column corresponding to a server to go to the console.
 
-   ![](assets/fa2fd19de56da2bdbbcde8651aef1ddc.png)
+   ![](en-dns-developer-guide-v3.12.0-20220928.assets/fa2fd19de56da2bdbbcde8651aef1ddc.png)
 
 6. Run the  `sudo docker ps -l`  command to obtain the ID of the current container.
 

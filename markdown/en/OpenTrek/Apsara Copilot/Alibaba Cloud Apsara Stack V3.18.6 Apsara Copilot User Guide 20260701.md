@@ -58,15 +58,15 @@ The homepage displays the full capabilities of Apsara Copilot to help you deeply
 
 1. Log in to the Apsara Uni-manager Management Console.
 
-2. Click <img src="assets/7036111951b1605e895939271975b629.jpeg" width="20" alt=""> in the top navigation bar or floating menu to enter Apsara Copilot.
+2. Click <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/7036111951b1605e895939271975b629.jpeg" width="20" alt=""> in the top navigation bar or floating menu to enter Apsara Copilot.
 
-   ![](assets/7ebd5351e1025d23b8f81745437a7e97.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/7ebd5351e1025d23b8f81745437a7e97.jpeg)
 
-3. Click <img src="assets/a01acdae2242a6e11735589511b593b9.png" width="13" alt=""> above the **Apsara Copilot** dialog box, or click **Assistant Introduction** inside the
+3. Click <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/a01acdae2242a6e11735589511b593b9.png" width="13" alt=""> above the **Apsara Copilot** dialog box, or click **Assistant Introduction** inside the
 
    dialog box.
 
-   ![](assets/19b6584b0dbb526afaa69ce1e37afbb9.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/19b6584b0dbb526afaa69ce1e37afbb9.jpeg)
 
 4. Go to the Apsara Copilot homepage to view its positioning, features, highlights, and benefits.
 
@@ -76,7 +76,7 @@ The homepage displays the full capabilities of Apsara Copilot to help you deeply
    >
    > - **Official documents**: Click **Official documents** to go to the Apsara Copilot help documentation.
 
-   ![](assets/79b41d4072a1f23be5ed9c4d87c5178c.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/79b41d4072a1f23be5ed9c4d87c5178c.jpeg)
 
 <a id="section-2"></a>
 
@@ -100,7 +100,7 @@ This topic describes how to implement the access control of Apsara Copilot by co
 
    - In the **Application Permissions** step, search for and find Apsara Stack Assistant and select the permissions that you want to grant to the role based on your business requirements.
 
-     ![](assets/a5d7e9cc7ab85c2ad3ec2980e3d0f91e.jpeg)
+     ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/a5d7e9cc7ab85c2ad3ec2980e3d0f91e.jpeg)
 
 6. After the role is created, assign the role to users.
 
@@ -136,17 +136,17 @@ You are an operations administrator.
 
    **Enable on Platform**
 
-   <img src="assets/d878fe568756329c79d0029c880c1e06.png" width="34" alt=""> : does not display Apsara Copilot.
+   <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/d878fe568756329c79d0029c880c1e06.png" width="34" alt=""> : does not display Apsara Copilot.
 
-   <img src="assets/0692f00fb448dae20b88a5c2123e09c6.png" width="34" alt=""> : displays Apsara Copilot.
+   <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/0692f00fb448dae20b88a5c2123e09c6.png" width="34" alt=""> : displays Apsara Copilot.
 
    **Display Control**
 
    Specifies whether to display the switch for enabling internal network-based search in the Apsara Copilot pane.
 
-   <img src="assets/d878fe568756329c79d0029c880c1e06.png" width="34" alt=""> : does not display the switch.
+   <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/d878fe568756329c79d0029c880c1e06.png" width="34" alt=""> : does not display the switch.
 
-   <img src="assets/0692f00fb448dae20b88a5c2123e09c6.png" width="34" alt=""> : displays the switch. If you turn on the switch, you must
+   <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/0692f00fb448dae20b88a5c2123e09c6.png" width="34" alt=""> : displays the switch. If you turn on the switch, you must
 
    also configure the information about a local knowledge base.
 
@@ -196,7 +196,7 @@ You are an operations administrator.
 
    **d Questions on Home Page**
 
-   questions or click the <img src="assets/a08df07c9cdd14377bb745305c652bae.png" width="14" alt=""> icon in the row of a question to remove
+   questions or click the <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/a08df07c9cdd14377bb745305c652bae.png" width="14" alt=""> icon in the row of a question to remove
 
    the question.
 
@@ -260,7 +260,7 @@ You are an operations administrator.
 
    - **Service Mode**: patient, friendly, and positive. It is suitable for improving employee satisfaction and service reliability.
 
-   ![](assets/ae62f1e9f45417d58ba9f80c34b5ea23.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/ae62f1e9f45417d58ba9f80c34b5ea23.jpeg)
 
 <a id="section-3-2"></a>
 
@@ -296,7 +296,7 @@ You are an operations administrator.
 
 6. In the **Add Evaluation Case** dialog box, configure the parameters.
 
-   ![](assets/a440d010d15339528d9d7424fd9faa0a.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/a440d010d15339528d9d7424fd9faa0a.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -333,7 +333,7 @@ This topic describes how to manage an evaluation case after it is created. You c
 
    | Operation | Description |
    | --- | --- |
-   | View the evaluation case | Find the evaluation case and click <strong>View</strong> in the Actions column. In the Evaluation Case Details panel, you can view the evaluation case details, including the associated evaluation datasets.<br>Note<br>• The evaluation case code can be copied with one click. To do so, move the pointer over the code and click the icon.<br><img src="assets/7c52bbe4842d559bd88e2c5facb61486.jpeg" width="17" alt=""><br>• An associated evaluation dataset can be disassociated from the current evaluation case. To do so, find the evaluation dataset in the list and click <strong>Disassociate</strong> in the Actions column. |
+   | View the evaluation case | Find the evaluation case and click <strong>View</strong> in the Actions column. In the Evaluation Case Details panel, you can view the evaluation case details, including the associated evaluation datasets.<br>Note<br>• The evaluation case code can be copied with one click. To do so, move the pointer over the code and click the icon.<br><img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/7c52bbe4842d559bd88e2c5facb61486.jpeg" width="17" alt=""><br>• An associated evaluation dataset can be disassociated from the current evaluation case. To do so, find the evaluation dataset in the list and click <strong>Disassociate</strong> in the Actions column. |
    | Delete the evaluation case | i. Find the evaluation case and click <strong>Delete</strong> in the Actions.<br>ii. In the message that appears, click <strong>OK</strong>. |
 
 <a id="section-3-2-2"></a>
@@ -366,7 +366,7 @@ This topic describes how to create an evaluation set.
 
 6. In the **Create Evaluation Dataset** dialog box, configure the evaluation dataset information.
 
-   ![](assets/90180282aca788548c6863ca667cbf3b.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/90180282aca788548c6863ca667cbf3b.jpeg)
 
    | Configuration item | Description |
    | --- | --- |
@@ -449,11 +449,11 @@ This topic describes how to create an evaluation task.
 
    **Manual evaluation task**
 
-   ![](assets/058c96a2778e6f99fd80272113737409.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/058c96a2778e6f99fd80272113737409.jpeg)
 
    **Automatic evaluation task**
 
-   ![](assets/bc11be7d16a92b2f099957986863b486.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/bc11be7d16a92b2f099957986863b486.jpeg)
 
 7. Click **Create Evaluation Task**.
 
@@ -485,25 +485,25 @@ This topic describes how to manage an evaluation task.
 
 5. View the list of evaluation tasks. You can use the **Task ID**, **Evaluation Dataset**, **Evaluation Type**, and **Status** filters to quickly find a specific task.
 
-   ![](assets/636c6f0adbb511150e5de7ae55e502b0.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/636c6f0adbb511150e5de7ae55e502b0.jpeg)
 
 6. Manage the created evaluation task as needed.
 
    | Operation | Description |
    | --- | --- |
-   | Perform manual evaluation | i. In the <strong>Actions</strong> column of the evaluation task, click <strong>Manual</strong> <strong>Evaluation</strong>.<br>Note<br>You can perform manual evaluation only on tasks whose <strong>Evaluation Type</strong> is <strong>Manual</strong> and whose status is <strong>Pending</strong> <strong>Manual Evaluation</strong> or <strong>In Progress</strong>.<br>ii. On the <strong>Manual Evaluation</strong> page, click <strong>Evaluate</strong> in the <strong>Actions</strong> column for a use case.<br>Note<br>Click <strong>View</strong> in the <strong>Actions</strong> column to view the details of the evaluation results.<br>![](assets/b7ca33762aa3d57abef863659224e9ca.jpeg)<br>iii. In the <strong>Evaluation Result Details</strong> panel, review the information to be evaluated. Then, in the <strong>Manual Evaluation</strong> section, set the <strong>Evaluation Result</strong> and <strong>Remarks</strong>.<br>Note<br>For <strong>Evaluation Result</strong>, you can select <strong>Completely</strong> <strong>Accurate</strong>, <strong>Partially Accurate</strong>, <strong>Completely Incorrect</strong>, or <strong>Not Evaluated</strong>. If you select <strong>Completely Incorrect</strong>, the evaluation fails. You must then select a reason from the <strong>Reason for Failure</strong> drop-down list below. Options include <strong>Unclear Question</strong>, <strong>Incomplete Reference Answer</strong>, <strong>Incomplete Content</strong>, <strong>Duplicate Use Case</strong>, or <strong>Other</strong>. |
-   | View the evaluation results | i. In the <strong>Actions</strong> column of the evaluation task, click <strong>View Results</strong>.<br>Note<br>You can view the results only when the task status is iv. Click <strong>Submit</strong>. If there are multiple use cases, you can click <strong>Completed</strong>.<strong>Submit and Switch to Next</strong> after you finish evaluating the current use case.<br>ii. On the <strong>Evaluation Results</strong> page, view the evaluation results for the use cases.<br>![](assets/b8bc468ea5af25216667cf0024f0e3e0.jpeg)<br>iii. Click <strong>View</strong> in the <strong>Actions</strong> column for a use case to expand its result details. |
+   | Perform manual evaluation | i. In the <strong>Actions</strong> column of the evaluation task, click <strong>Manual</strong> <strong>Evaluation</strong>.<br>Note<br>You can perform manual evaluation only on tasks whose <strong>Evaluation Type</strong> is <strong>Manual</strong> and whose status is <strong>Pending</strong> <strong>Manual Evaluation</strong> or <strong>In Progress</strong>.<br>ii. On the <strong>Manual Evaluation</strong> page, click <strong>Evaluate</strong> in the <strong>Actions</strong> column for a use case.<br>Note<br>Click <strong>View</strong> in the <strong>Actions</strong> column to view the details of the evaluation results.<br>![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/b7ca33762aa3d57abef863659224e9ca.jpeg)<br>iii. In the <strong>Evaluation Result Details</strong> panel, review the information to be evaluated. Then, in the <strong>Manual Evaluation</strong> section, set the <strong>Evaluation Result</strong> and <strong>Remarks</strong>.<br>Note<br>For <strong>Evaluation Result</strong>, you can select <strong>Completely</strong> <strong>Accurate</strong>, <strong>Partially Accurate</strong>, <strong>Completely Incorrect</strong>, or <strong>Not Evaluated</strong>. If you select <strong>Completely Incorrect</strong>, the evaluation fails. You must then select a reason from the <strong>Reason for Failure</strong> drop-down list below. Options include <strong>Unclear Question</strong>, <strong>Incomplete Reference Answer</strong>, <strong>Incomplete Content</strong>, <strong>Duplicate Use Case</strong>, or <strong>Other</strong>. |
+   | View the evaluation results | i. In the <strong>Actions</strong> column of the evaluation task, click <strong>View Results</strong>.<br>Note<br>You can view the results only when the task status is iv. Click <strong>Submit</strong>. If there are multiple use cases, you can click <strong>Completed</strong>.<strong>Submit and Switch to Next</strong> after you finish evaluating the current use case.<br>ii. On the <strong>Evaluation Results</strong> page, view the evaluation results for the use cases.<br>![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/b8bc468ea5af25216667cf0024f0e3e0.jpeg)<br>iii. Click <strong>View</strong> in the <strong>Actions</strong> column for a use case to expand its result details. |
 
-   ![](assets/95388d5cc54040eb3a0dd094d4d5d672.png)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/95388d5cc54040eb3a0dd094d4d5d672.png)
 
    <table>
      <tr>
        <td>View the report</td>
-       <td>i. In the <strong>Actions</strong> column of the evaluation task, click the<img src="assets/6f375cd5187afa56f3d6f9f376bb0259.png" width="14" alt="">icon and select <strong>View Report</strong>.<br>Note<br>You can view the report only when the task status is <strong>Completed</strong>.<br>ii. On the <strong>Evaluation Report</strong> page for the task, view the detailed evaluation and analysis report.</td>
+       <td>i. In the <strong>Actions</strong> column of the evaluation task, click the<img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/6f375cd5187afa56f3d6f9f376bb0259.png" width="14" alt="">icon and select <strong>View Report</strong>.<br>Note<br>You can view the report only when the task status is <strong>Completed</strong>.<br>ii. On the <strong>Evaluation Report</strong> page for the task, view the detailed evaluation and analysis report.</td>
      </tr>
      <tr>
        <td>Delete the evaluation task</td>
-       <td>i. In the Actions column, click<img src="assets/6f375cd5187afa56f3d6f9f376bb0259.png" width="17" alt="">and select <strong>Delete</strong>.<br>ii. In the message that appears, click <strong>OK</strong>.</td>
+       <td>i. In the Actions column, click<img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/6f375cd5187afa56f3d6f9f376bb0259.png" width="17" alt="">and select <strong>Delete</strong>.<br>ii. In the message that appears, click <strong>OK</strong>.</td>
      </tr>
      <tr>
        <td>Perform a re-evaluation</td>
@@ -537,9 +537,9 @@ The operator is an operations administrator by default.
    | --- | --- |
    | Accuracy Rate Trend Analysis | Displays accuracy rate analysis as a line chart. You can switch between <strong>Day</strong> <strong>Dimension</strong> or <strong>Month Dimension</strong>. |
    | Question Classification Statistics | Displays question classification statistics as a column chart. You can switch between <strong>Day Dimension</strong> or <strong>Month Dimension</strong>. |
-   | Data Details | Enter the start date and end date for your query to view detailed data within the specified time range. You can switch between <strong>Day Dimension</strong> or Month Dimension<br>• Click <strong>View Report</strong> in the <strong>Actions</strong> column of a detail entry to go to the evaluation report details page.<br>• Click<img src="assets/0883c73ee777bbb775cde047915d7cc8.png" width="22" alt="">above the list to download the detailed data to your local device. |
+   | Data Details | Enter the start date and end date for your query to view detailed data within the specified time range. You can switch between <strong>Day Dimension</strong> or Month Dimension<br>• Click <strong>View Report</strong> in the <strong>Actions</strong> column of a detail entry to go to the evaluation report details page.<br>• Click<img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/0883c73ee777bbb775cde047915d7cc8.png" width="22" alt="">above the list to download the detailed data to your local device. |
 
-   ![](assets/123618d3f75ac4c9359856a263d5a0aa.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/123618d3f75ac4c9359856a263d5a0aa.jpeg)
 
 <a id="section-3-3"></a>
 
@@ -572,7 +572,7 @@ The operator is an operations administrator by default.
    | Model Provider | Select a model provider. Options: <strong>Model Studio Dedicated Edition</strong>, <strong>Alibaba</strong> <strong>Cloud Model Studio</strong>, <strong>aibase</strong>, and <strong>openai</strong>. |
    | Set as Default Model | Specify whether to set the model as the default model. |
 
-   ![](assets/d65ac1f527077a9f0ed7657702cd5d43.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/d65ac1f527077a9f0ed7657702cd5d43.jpeg)
 
 6. Click **Save**.
 
@@ -621,7 +621,7 @@ The operator is an operations administrator by default.
    | Separator | Set this parameter when you select <strong>Custom</strong> as the document chunking policy.<br>Define a series of priority rules to guide the system to split long text into appropriately sized chunks while preserving semantic integrity.<br>Note<br>The system supports escape characters such as \\n (line break), \\t (tab), and \\r (carriage return). Separate multiple delimiters with commas (for example, \\n,\\t). Leave this field blank to disable pre-segmentation. |
    | Description | Enter a task description for the knowledge base. The more detailed the description, the easier it is to retrieve the knowledge base accurately. |
 
-   ![](assets/3689fdf2a275ac89f8f0cc49b67915ea.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/3689fdf2a275ac89f8f0cc49b67915ea.jpeg)
 
 6. Click **OK**.
 
@@ -643,13 +643,13 @@ The operator is an operations administrator by default.
 
 3. In the left-side navigation pane, select **Apsara Copilot** > **Knowledge Base Management**.
 
-4. Click <img src="assets/bc02e03ca2f3b09edbeed4d99785933f.png" width="22" alt=""> in the upper-right corner of the target knowledge base card, and select **Modify**
+4. Click <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/bc02e03ca2f3b09edbeed4d99785933f.png" width="22" alt=""> in the upper-right corner of the target knowledge base card, and select **Modify**
 
    **Knowledge Base**.
 
 5. In the **Modify Knowledge Base** dialog box, update the knowledge base configuration. For more information about configuration items, see Create a knowledge base.
 
-   ![](assets/ba529cead93fd31c030caad785df1ed1.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/ba529cead93fd31c030caad785df1ed1.jpeg)
 
 6. Click **OK**.
 
@@ -671,7 +671,7 @@ The operator is an operations administrator by default.
 
 3. In the left-side navigation pane, select **Apsara Copilot** > **Knowledge Base Management**.
 
-4. Click <img src="assets/bc02e03ca2f3b09edbeed4d99785933f.png" width="22" alt=""> in the upper-right corner of the target knowledge base card and select **Configure**
+4. Click <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/bc02e03ca2f3b09edbeed4d99785933f.png" width="22" alt=""> in the upper-right corner of the target knowledge base card and select **Configure**
 
    **Chunking Policy**.
 
@@ -681,7 +681,7 @@ The operator is an operations administrator by default.
    >
    > The preset policies align with the followingRAGFlow chunking policies: General, QA, Book, and Laws. If you leave this parameter blank, the system uses the default policy of the knowledge base.
 
-   ![](assets/6c859e5255dd3b137755d4d056020511.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/6c859e5255dd3b137755d4d056020511.jpeg)
 
 6. Click **OK**.
 
@@ -703,11 +703,11 @@ The operater is an operations administrator by default.
 
 3. In the left-side navigation pane, select **Apsara Copilot** > **Knowledge Base Management**.
 
-4. Click <img src="assets/bc02e03ca2f3b09edbeed4d99785933f.png" width="22" alt=""> in the upper-right corner of the target knowledge base card and select **Delete**.
+4. Click <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/bc02e03ca2f3b09edbeed4d99785933f.png" width="22" alt=""> in the upper-right corner of the target knowledge base card and select **Delete**.
 
 5. In the **Delete Knowledge Base** dialog box, enter the knowledge base name to confirm the operation.
 
-   ![](assets/90f59331b61094bf574de9b22b9edb5c.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/90f59331b61094bf574de9b22b9edb5c.jpeg)
 
 6. Click **OK**.
 
@@ -739,7 +739,7 @@ The operator is an operations administrator by default.
    >
    > Supported file types include txt, md, doc, docx, pdf, pptx, csv, xlsx, and html.
 
-   ![](assets/52201cc128fd4ea698135937a2c8de5b.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/52201cc128fd4ea698135937a2c8de5b.jpeg)
 
 7. Click **OK**.
 
@@ -765,7 +765,7 @@ The operator is an operations administrator by default.
 
 5. On the **Knowledge Base Details** page, click the file name to view its details.
 
-   ![](assets/538cadb5e697ec894049e8c3ad7e7207.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/538cadb5e697ec894049e8c3ad7e7207.jpeg)
 
 <a id="section-3-4-7"></a>
 
@@ -846,7 +846,7 @@ View the generated knowledge graph in a graph-type knowledge base.
 
 4. Click the name of the knowledge base to go to its details page.
 
-5. On the **Knowledge Base Details** page, click <img src="assets/5a4e6ce7404032d786e68fcc70f2087c.png" width="22" alt=""> in the upper-right corner of the list.
+5. On the **Knowledge Base Details** page, click <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/5a4e6ce7404032d786e68fcc70f2087c.png" width="22" alt=""> in the upper-right corner of the list.
 
 6. On the **Knowledge Graph** tab, view the generated knowledge graph. If no knowledge graph exists, click **Generate Now**.
 
@@ -864,19 +864,19 @@ View the generated knowledge graph in a graph-type knowledge base.
    >
    >     in the upper-right corner of the knowledge graph to zoom in.
    >
-   >     <img src="assets/6a744c86a6fad1f06aebe529376b0705.png" width="16" alt="">
+   >     <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/6a744c86a6fad1f06aebe529376b0705.png" width="16" alt="">
    >
    >   - Click
    >
    >     in the upper-right corner of the knowledge graph to zoom out.
    >
-   >     <img src="assets/71de923885ee43664dadb7147ff5a86d.png" width="18" alt="">
+   >     <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/71de923885ee43664dadb7147ff5a86d.png" width="18" alt="">
    >
    >   - Click
    >
    >     in the upper-right corner of the knowledge graph to enter full-
    >
-   >     <img src="assets/0b2af08de02e63d355c764af03e2db3d.png" width="18" alt="">
+   >     <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/0b2af08de02e63d355c764af03e2db3d.png" width="18" alt="">
    >
    >     screen mode.
    >
@@ -884,11 +884,11 @@ View the generated knowledge graph in a graph-type knowledge base.
    >
    >     in the upper-right corner of the knowledge graph to restore the
    >
-   >     <img src="assets/7acb15a8b924c8885ccca5f2162cff0f.png" width="19" alt="">
+   >     <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/7acb15a8b924c8885ccca5f2162cff0f.png" width="19" alt="">
    >
    >     default view.
 
-   ![](assets/1c0cba0b97ee6a8aaa1ff9bccc2c93f0.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/1c0cba0b97ee6a8aaa1ff9bccc2c93f0.jpeg)
 
 <a id="section-3-4-10"></a>
 
@@ -910,7 +910,7 @@ The operator is an operations administrator by default.
 
 4. Click the name of a knowledge base to go to its details page.
 
-5. On the **Knowledge Base Details** page, click <img src="assets/5a4e6ce7404032d786e68fcc70f2087c.png" width="22" alt=""> in the upper-right corner of the list.
+5. On the **Knowledge Base Details** page, click <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/5a4e6ce7404032d786e68fcc70f2087c.png" width="22" alt=""> in the upper-right corner of the list.
 
 6. On the **Mind Map** tab, view the generated mind map.
 
@@ -928,19 +928,19 @@ The operator is an operations administrator by default.
    >
    >     in the upper-right corner of the mind map to zoom in.
    >
-   >     <img src="assets/6a744c86a6fad1f06aebe529376b0705.png" width="16" alt="">
+   >     <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/6a744c86a6fad1f06aebe529376b0705.png" width="16" alt="">
    >
    >   - Click
    >
    >     in the upper-right corner of the mind map to zoom out.
    >
-   >     <img src="assets/71de923885ee43664dadb7147ff5a86d.png" width="18" alt="">
+   >     <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/71de923885ee43664dadb7147ff5a86d.png" width="18" alt="">
    >
    >   - Click
    >
    >     in the upper-right corner of the mind map to enter full-screen
    >
-   >     <img src="assets/0b2af08de02e63d355c764af03e2db3d.png" width="18" alt="">
+   >     <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/0b2af08de02e63d355c764af03e2db3d.png" width="18" alt="">
    >
    >     mode.
    >
@@ -948,11 +948,11 @@ The operator is an operations administrator by default.
    >
    >     in the upper-right corner of the mind map to restore the default
    >
-   >     <img src="assets/7acb15a8b924c8885ccca5f2162cff0f.png" width="19" alt="">
+   >     <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/7acb15a8b924c8885ccca5f2162cff0f.png" width="19" alt="">
    >
    >     view.
 
-   ![](assets/160eb3d8b0130ab1c80c2b2c98542c36.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/160eb3d8b0130ab1c80c2b2c98542c36.jpeg)
 
 <a id="section-3-4-11"></a>
 
@@ -974,7 +974,7 @@ The operator is an operations administrator by default.
 
 4. Click the name of a knowledge base to go to its details page.
 
-5. On the **Knowledge Base Details** page, click <img src="assets/5a4e6ce7404032d786e68fcc70f2087c.png" width="22" alt=""> in the upper-right corner of the list.
+5. On the **Knowledge Base Details** page, click <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/5a4e6ce7404032d786e68fcc70f2087c.png" width="22" alt=""> in the upper-right corner of the list.
 
 6. Configure retieval settings.
 
@@ -1000,7 +1000,7 @@ The operator is an operations administrator by default.
    >
    > Query mode supports **hybrid** or **mix**.
 
-   ![](assets/c9f28c86fa2c1efad62e7913ca4a9df5.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/c9f28c86fa2c1efad62e7913ca4a9df5.jpeg)
 
    <ol type="i" start="3">
 
@@ -1026,7 +1026,7 @@ The operator is an operations administrator by default.
    >
    > - The section below displays the retrieved information.
 
-   ![](assets/b03112368b50a3ca47eeb62a820b7ea1.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/b03112368b50a3ca47eeb62a820b7ea1.jpeg)
 
 <a id="section-3-5"></a>
 
@@ -1059,9 +1059,9 @@ The operator is an operations administrator by default.
    | Configuration item | Description |
    | --- | --- |
    | Cloud Service | Select a cloud service for AI-assisted creation. Currently, the system supports only Elastic Compute Service (ECS) Instance and Virtual Private Cloud (VPC). |
-   | Custom Scenario | Configure custom scenarios as needed for use during assisted resource creation.<br>• <strong>Add a scenario</strong>: Click <strong>Add Scenario</strong> to customize a scenario. You can select <strong>Enumeration Scenario</strong>, <strong>Scenario Description</strong>, or <strong>None</strong>.<br>• <strong>Delete a scenario</strong>: Click<img src="assets/f06d8312670e30ae24c8af8ff4d86b96.png" width="19" alt="">next to the scenario.<br>• <strong>Adjust the scenario order</strong>: Drag<img src="assets/0fd2443b6c1d63d8c744314bd1335a0d.png" width="15" alt="">in front of a scenario to adjust its<br>display order.<br>• <strong>Restore the preset scenario</strong>: Click <strong>Restore Preset Scenario</strong>, and the system automatically loads the default layout and scenario configurations. |
+   | Custom Scenario | Configure custom scenarios as needed for use during assisted resource creation.<br>• <strong>Add a scenario</strong>: Click <strong>Add Scenario</strong> to customize a scenario. You can select <strong>Enumeration Scenario</strong>, <strong>Scenario Description</strong>, or <strong>None</strong>.<br>• <strong>Delete a scenario</strong>: Click<img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/f06d8312670e30ae24c8af8ff4d86b96.png" width="19" alt="">next to the scenario.<br>• <strong>Adjust the scenario order</strong>: Drag<img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/0fd2443b6c1d63d8c744314bd1335a0d.png" width="15" alt="">in front of a scenario to adjust its<br>display order.<br>• <strong>Restore the preset scenario</strong>: Click <strong>Restore Preset Scenario</strong>, and the system automatically loads the default layout and scenario configurations. |
 
-   ![](assets/027f706c392b047625f89ec38ce67274.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/027f706c392b047625f89ec38ce67274.jpeg)
 
 6. Click **Save**.
 
@@ -1069,7 +1069,7 @@ The operator is an operations administrator by default.
 
 After you configure assisted creation for a cloud service, Apsara Copilot intelligently plans and assists users in creating resources based on personalized scenarios.
 
-![](assets/52b6a1081c0423225c94a284fd4db4f5.jpeg)
+![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/52b6a1081c0423225c94a284fd4db4f5.jpeg)
 
 <a id="section-3-5-2"></a>
 
@@ -1099,7 +1099,7 @@ The operator is an operations administrator by default.
    | Rule Template | Select a rule template. If the predefined templates do not meet your needs, customize a rule template. |
    | Rule Description | Displays the details of the selected rule template. |
 
-   ![](assets/6829a2a6328c167d6ea90ad4fb527190.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/6829a2a6328c167d6ea90ad4fb527190.jpeg)
 
 6. Click **Apply**.
 
@@ -1107,7 +1107,7 @@ The operator is an operations administrator by default.
 
 1. On the **AI-assisted Configuration Change** tab, click **Manage Rules** to the right of **Rule Template**.
 
-2. On the **Manage Rules** panel, click <img src="assets/5bf11701efacc416cf4771108f90ca96.png" width="10" alt=""> .
+2. On the **Manage Rules** panel, click <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/5bf11701efacc416cf4771108f90ca96.png" width="10" alt=""> .
 
 3. Configure the rule.
 
@@ -1117,7 +1117,7 @@ The operator is an operations administrator by default.
    | Monitoring metrics | Displays the monitoring metrics supported by the current cloud product.These metrics are used for monitoring analysis and in the rule description. |
    | Rule Description | Create an analysis rule for the cloud resource. This rule is used for assisted resource upgrade/downgrade. You can enter a description in <strong>Generate rules with AI</strong> and then insert the generated result. |
 
-   ![](assets/9d258ea0df00d73fad1f61e93e1f63b1.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/9d258ea0df00d73fad1f61e93e1f63b1.jpeg)
 
 4. Click **Save**.
 
@@ -1132,7 +1132,7 @@ The operator is an operations administrator by default.
 
 After configuring the AI-assisted configuration change for a cloud product, Apsara Assistant uses the applied rules to provide recommendations during an upgrade or downgrade.
 
-![](assets/495c74526dee099bc0b4d024d5f00777.jpeg)
+![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/495c74526dee099bc0b4d024d5f00777.jpeg)
 
 <a id="section-4"></a>
 
@@ -1152,17 +1152,17 @@ The user, as an operations administrator, has enabled the display of the AI assi
 
 1. Log in to the Apsara Uni-manager Management Console.
 
-2. Click <img src="assets/7036111951b1605e895939271975b629.jpeg" width="20" alt=""> in the top navigation bar or floating menu to enter Apsara Copilot.
+2. Click <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/7036111951b1605e895939271975b629.jpeg" width="20" alt=""> in the top navigation bar or floating menu to enter Apsara Copilot.
 
-   ![](assets/7ebd5351e1025d23b8f81745437a7e97.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/7ebd5351e1025d23b8f81745437a7e97.jpeg)
 
-   <img src="assets/dd103ca8d4b0cc2e5ad28d59dc27c10c.png" width="26" alt="">
+   <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/dd103ca8d4b0cc2e5ad28d59dc27c10c.png" width="26" alt="">
 
 3. In the **Apsara Copilot** dialog box, enter your question and click
 
    .
 
-   ![](assets/19b6584b0dbb526afaa69ce1e37afbb9.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/19b6584b0dbb526afaa69ce1e37afbb9.jpeg)
 
    | Scenario | Description |
    | --- | --- |
@@ -1183,7 +1183,7 @@ The user, as an operations administrator, has enabled the display of the AI assi
    >
    >   in the input box to expand the command center.
    >
-   >   <img src="assets/64ee49ded714d96db92d6190e7d05c56.png" width="28" alt="">
+   >   <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/64ee49ded714d96db92d6190e7d05c56.png" width="28" alt="">
    >
    >   - The command center provides a complete list of common Apsara Copilot command examples for quick instruction sending.
    >
@@ -1195,7 +1195,7 @@ The user, as an operations administrator, has enabled the display of the AI assi
    >
    >   in the input box to choose whether to enable MCP and intranet search.
    >
-   >   <img src="assets/25a332dd44b8987bef110fefd86a5024.png" width="21" alt="">
+   >   <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/25a332dd44b8987bef110fefd86a5024.png" width="21" alt="">
    >
    >   - After enabling MCP and selecting connected cloud services, you can invoke MCP services of those cloud services.
    >
@@ -1203,24 +1203,24 @@ The user, as an operations administrator, has enabled the display of the AI assi
 
 4. After Apsara Copilot responds, you can perform the following operations.
 
-   <img src="assets/6738bce5918c2c4327a2413d4903807e.png" width="14" alt=""> : Like — indicates approval of the response.
+   <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/6738bce5918c2c4327a2413d4903807e.png" width="14" alt=""> : Like — indicates approval of the response.
 
-   <img src="assets/8a936d57fa7f7688a14cc083fc7d1905.png" width="14" alt=""> : Dislike — indicates disapproval of the response.
+   <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/8a936d57fa7f7688a14cc083fc7d1905.png" width="14" alt=""> : Dislike — indicates disapproval of the response.
 
-   <img src="assets/b11ef75a4caea41c8e9753448f7364ae.png" width="14" alt=""> : Copy — copies the response content.
+   <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/b11ef75a4caea41c8e9753448f7364ae.png" width="14" alt=""> : Copy — copies the response content.
 
-   <img src="assets/3f7f07362ba6ff3d73bcbca89efd7590.png" width="14" alt=""> : Export response — exports the generated response.
+   <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/3f7f07362ba6ff3d73bcbca89efd7590.png" width="14" alt=""> : Export response — exports the generated response.
 
 **Related operations**
 
 | Related operation | Description |
 | --- | --- |
-| New chat | Click<img src="assets/a686a9db9c5be5f98d46a52f78660087.png" width="13" alt="">above the dialog box to start a new chat. |
-| Chat history | Click<img src="assets/d463d2e91c38eb3f55cfbc77c2db8495.png" width="11" alt="">above the dialog box to view chat history. |
-| Full screen | Click<img src="assets/a61f53bb3b0073d0c27ef5fcdb41b684.png" width="12" alt="">above the dialog box to display the Apsara Copilot dialog box in full<br>screen. |
-| Settings | Click<img src="assets/1659a0d67d2d232fe29056448e089355.png" width="13" alt="">above the dialog box to select whether to enable word selection. When<br>enabled, left-click to highlight content on the console page, then click <strong>Consult</strong> <strong>Apsara Copilot</strong> to automatically trigger Q&amp;A for the selected content. |
-| Homepage | Click<img src="assets/a01acdae2242a6e11735589511b593b9.png" width="13" alt="">above the dialog box or click <strong>Assistant Introduction</strong> in the dialog box to<br>go to the Apsara Copilot homepage. |
-| Close | Click<img src="assets/e7b7a3de0d1b6133487da6474e906814.png" width="15" alt="">above the dialog box to close the Apsara Copilot dialog box. |
+| New chat | Click<img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/a686a9db9c5be5f98d46a52f78660087.png" width="13" alt="">above the dialog box to start a new chat. |
+| Chat history | Click<img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/d463d2e91c38eb3f55cfbc77c2db8495.png" width="11" alt="">above the dialog box to view chat history. |
+| Full screen | Click<img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/a61f53bb3b0073d0c27ef5fcdb41b684.png" width="12" alt="">above the dialog box to display the Apsara Copilot dialog box in full<br>screen. |
+| Settings | Click<img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/1659a0d67d2d232fe29056448e089355.png" width="13" alt="">above the dialog box to select whether to enable word selection. When<br>enabled, left-click to highlight content on the console page, then click <strong>Consult</strong> <strong>Apsara Copilot</strong> to automatically trigger Q&amp;A for the selected content. |
+| Homepage | Click<img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/a01acdae2242a6e11735589511b593b9.png" width="13" alt="">above the dialog box or click <strong>Assistant Introduction</strong> in the dialog box to<br>go to the Apsara Copilot homepage. |
+| Close | Click<img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/e7b7a3de0d1b6133487da6474e906814.png" width="15" alt="">above the dialog box to close the Apsara Copilot dialog box. |
 | Help documentation | Click <strong>Documentation</strong> in the dialog box to view Apsara Copilot help documentation. |
 
 <a id="section-4-2"></a>
@@ -1235,7 +1235,7 @@ Text-selection Q&A is enabled for Apsara Copilot.
 
 > **Note**
 >
-> To enable the feature, click the <img src="assets/1659a0d67d2d232fe29056448e089355.png" width="13" alt=""> icon in the upper-right corner of the Apsara Copilot
+> To enable the feature, click the <img src="en-apsara-copilot-user-guide-v3.18.6-20260701.assets/1659a0d67d2d232fe29056448e089355.png" width="13" alt=""> icon in the upper-right corner of the Apsara Copilot
 >
 > pane and turn on Enable Word Selection.
 
@@ -1245,11 +1245,11 @@ Text-selection Q&A is enabled for Apsara Copilot.
 
 2. Click and drag to select text on a console page and select Consult Apsara Copilot to send the selected text to Apsara Copilot.
 
-   ![](assets/6f72e9b31caf53be7e34032d89aaee93.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/6f72e9b31caf53be7e34032d89aaee93.jpeg)
 
 3. Apsara Copilot automatically searches for answers.
 
-   ![](assets/0d3e0c7490728430a3373208b98edccc.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/0d3e0c7490728430a3373208b98edccc.jpeg)
 
 <a id="section-4-3"></a>
 
@@ -1259,7 +1259,7 @@ Apsara Copilot provides intelligent data querying and data insights capabilities
 
 For detailed operations of AI-based intelligent analysis, see the **Data analysis** > **Custom analysis** > **Intelligent analysis** section in *Apsara Uni-manager Management Console User Guide*.
 
-![](assets/f02ce88e935f8dc27cc0a822437b670e.jpeg)
+![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/f02ce88e935f8dc27cc0a822437b670e.jpeg)
 
 <a id="section-4-4"></a>
 
@@ -1271,13 +1271,13 @@ Billing data is complex and voluminous. Users struggle to identify underlying tr
 
 For detailed operations of AI-based bill analysis by product, see the **Bill management** > **AI-based bill analysis by product** section in *Apsara Uni-manager Management Console User Guide*.
 
-![](assets/46f34f63d19f129862bba2313e74c0d2.jpeg)
+![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/46f34f63d19f129862bba2313e74c0d2.jpeg)
 
 **AI-based bill Aanalysis by organization**
 
 For detailed operations of AI-based bill Aanalysis by organization, see the **Bill management** > **AI-based bill analysis by organization** section in *Apsara Uni-manager Management Console User Guide*.
 
-![](assets/9e248e07ff42598afbf693816c7c1dea.jpeg)
+![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/9e248e07ff42598afbf693816c7c1dea.jpeg)
 
 **AI-based bill analysis by bill detail**
 
@@ -1285,11 +1285,11 @@ AI-based bill analysis by bill detail supports AI parsing of daily and hourly bi
 
 **Daily Details**
 
-![](assets/29475aa61148ca12ecb625b3844af17b.jpeg)
+![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/29475aa61148ca12ecb625b3844af17b.jpeg)
 
 **Hourly Details**
 
-![](assets/7e7ca7f8433221534e6677e4348dbc03.jpeg)
+![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/7e7ca7f8433221534e6677e4348dbc03.jpeg)
 
 <a id="section-4-5"></a>
 
@@ -1299,7 +1299,7 @@ Apsara Copilot provides AI analysis for billing rule scenarios.
 
 For detailed operations of AI billing rule analysis, see the **Pricing** > **AI billing rule analysis** section in *Apsara Uni-manager Management Console User Guide*.
 
-![](assets/bdd997bb1b856d01fa08105a0d331200.jpeg)
+![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/bdd997bb1b856d01fa08105a0d331200.jpeg)
 
 <a id="section-5"></a>
 
@@ -1327,7 +1327,7 @@ The operator is an operations administrator by default.
    | AI Assistant Resource Consumption | Displays resource consumption data for the AI assistant, including <strong>Consumed</strong> <strong>Tokens</strong> and <strong>Model Inference Latency</strong>. |
    | AI Assistant License Usage | Displays license usage for the AI assistant, including <strong>Standard Agent</strong>, <strong>Resource Management Agent</strong>, <strong>Operations Management Agent</strong>, and <strong>Data</strong> <strong>Insight Agent</strong>. |
 
-   ![](assets/0c4ea8e80baa18b6f33e96ed7c149ecd.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/0c4ea8e80baa18b6f33e96ed7c149ecd.jpeg)
 
 <a id="section-6"></a>
 
@@ -1351,11 +1351,11 @@ This topic describes how to view the operation logs of Apsara Copilot.
 
 5. View the displayed operation logs.
 
-   ![](assets/0ad2d2a10dbf2e41de65081225df1514.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/0ad2d2a10dbf2e41de65081225df1514.jpeg)
 
 6. Find the operation log whose details you want to view and click **View** in the **Details** column.
 
-   ![](assets/e63054d80570deafcd9c810d54312aaf.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/e63054d80570deafcd9c810d54312aaf.jpeg)
 
 <a id="section-7"></a>
 
@@ -1377,7 +1377,7 @@ This topic describes how to log in to the Apsara Uni-manager Management Console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -1439,7 +1439,7 @@ This topic describes how to log in to the Apsara Uni-manager Management Console.
 
 2. On the Forgot Password page, configure the **Account Name** and **Email Address** parameters, specify the verification code, and then click **Confirm**.
 
-   ![](assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
+   ![](en-apsara-copilot-user-guide-v3.18.6-20260701.assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
 
    > **Note**
    >

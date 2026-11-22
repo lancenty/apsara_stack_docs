@@ -668,7 +668,7 @@ This topic describes how users such as O&M engineers log on to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -704,9 +704,9 @@ This Quick Start shows how to deploy Java microservice application demos (such a
 
 EDAS provides Nacos as the default service registry for applications. You can also create other types of service registries, such as Eureka or ZooKeeper. If the service registry and the application deployment environment can communicate over the network, you can deploy applications to EDAS without modifying any code. This enables service registration and discovery and lets you use the application hosting, microservice, and cloud-native application Platform as a Service (PaaS) capabilities provided by EDAS. For more information, see What is Enterprise Distributed Application Service (EDAS)?.
 
-![](assets/6dd7650edd3523240a6fea447ee00094.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/6dd7650edd3523240a6fea447ee00094.png)
 
-![](assets/2a66d29b53156cadf4a4c5642aef11d6.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/2a66d29b53156cadf4a4c5642aef11d6.png)
 
 Yes (Deploy or migrate directly without
 
@@ -716,9 +716,9 @@ EDAS
 
 No
 
-![](assets/048d180add59ef94347d2d6c1cdf7c92.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/048d180add59ef94347d2d6c1cdf7c92.png)
 
-![](assets/3697914a089431eae7ad997d16663709.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/3697914a089431eae7ad997d16663709.png)
 
 No (Develop an application from
 
@@ -730,7 +730,7 @@ Select a cluster type for
 
 application deployment
 
-![](assets/b2f71a33eeb66426cf4e507990c2be07.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/b2f71a33eeb66426cf4e507990c2be07.png)
 
 ECS cluster
 
@@ -740,13 +740,13 @@ application
 
 in a K8s cluster
 
-![](assets/03f11c03f5a4ee43280b0d993e0b4a58.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/03f11c03f5a4ee43280b0d993e0b4a58.png)
 
 microservice application
 
 in a K8s cluster
 
-![](assets/5a324944dc3c1ccd17dc43afd4f7abef.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5a324944dc3c1ccd17dc43afd4f7abef.png)
 
 application
 
@@ -1210,7 +1210,7 @@ EDAS and ACK are activated for your Apsara Stack tenant account.
 
 3. In the **Application Information** step, configure the parameters in the **Cluster Type** and **Application Runtime Environment** sections, and click **Next**.
 
-   ![](assets/a6cb20c4940a241f8b33f9c5d5fd6210.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/a6cb20c4940a241f8b33f9c5d5fd6210.jpeg)
 
    <table>
      <tr>
@@ -1240,7 +1240,7 @@ EDAS and ACK are activated for your Apsara Stack tenant account.
 
 4. In the **Application Configuration** step, configure the environment information, basic information, deployment method, and resource parameters for the application, and then click **Next**.
 
-   ![](assets/93e3bd38723cd4b852ce8f9efad24ede.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/93e3bd38723cd4b852ce8f9efad24ede.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -1319,7 +1319,7 @@ EDAS, built on cloud native K8s, integrates ACK to provide full lifecycle manage
 
 To deploy an application to a K8s cluster, create a K8s cluster in the Container Service for Kubernetes (ACK) console, import it into EDAS, and then deploy the application to the cluster by using a deployment package.
 
-![](assets/31399a099f30dd29005a8b9b239ef483.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/31399a099f30dd29005a8b9b239ef483.png)
 
 > **Note**
 >
@@ -1501,7 +1501,7 @@ To deploy an application to a K8s cluster, create a K8s cluster in the Container
 
    - **Never**: Only local images are used. No image is pulled from the remote image repository.
 
-   ![](assets/90fe8e4324191c52858b04168e0f63a6.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/90fe8e4324191c52858b04168e0f63a6.jpeg)
 
    <table>
      <tr>
@@ -1531,7 +1531,7 @@ To deploy an application to a K8s cluster, create a K8s cluster in the Container
 
 4. On the **Application Configuration** tab, configure the application's environment information, basic information, deployment method, and resource parameters, and then click **Next**.
 
-   ![](assets/819fad8fd9f4589265b301bba99b676b.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/819fad8fd9f4589265b301bba99b676b.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -1617,7 +1617,7 @@ The microservice application demo contains a server application (service provide
 
 3. On the **Create Application** page, on the **Basic Information** tab, set the application's basic information and click **Next**.
 
-   ![](assets/4dab1204068549a66d4044e51dbaf021.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/4dab1204068549a66d4044e51dbaf021.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -1629,7 +1629,7 @@ The microservice application demo contains a server application (service provide
 
 4. On the **Configurations** tab, configure the deployment package and environment for the application, and click **Next**.
 
-   ![](assets/9ba96262b9521efe4ce59253f8a453e3.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/9ba96262b9521efe4ce59253f8a453e3.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -1671,7 +1671,7 @@ The client application contains a web service. After both the server and client 
 
 4. Use a browser to access the URL of the client application. The format is  `http://<Public IP address of the ECS instance>:8080` . Verify that the web page of the client application is accessible.
 
-5. In the **Echo this string** text box, enter a string, such as <img src="assets/b8f6457cfab64334eadec75deff0d5db.png" width="64" alt="">
+5. In the **Echo this string** text box, enter a string, such as <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/b8f6457cfab64334eadec75deff0d5db.png" width="64" alt="">
 
    `Hello EDAS`, and click **Click Here**.
 
@@ -1707,7 +1707,7 @@ BookInfo is a heterogeneous application that consists of several microservices a
 
 Figure 1. Architecture for multi-language microservices
 
-![](assets/06792c7861d853dcdaebb2614834a820.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/06792c7861d853dcdaebb2614834a820.png)
 
 The BookInfo application consists of the following four independent microservices:
 
@@ -1729,7 +1729,7 @@ The BookInfo application consists of the following four independent microservice
 
 Before you can deploy a multi-language microservices application in a Kubernetes cluster, you must create a Kubernetes cluster in the Container Service for Kubernetes (ACK) console and import the cluster to EDAS in the EDAS console. Then, you can use a custom image to deploy an application in the cluster.
 
-![](assets/31399a099f30dd29005a8b9b239ef483.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/31399a099f30dd29005a8b9b239ef483.png)
 
 **Step 1: Create an ACK cluster**
 
@@ -1923,7 +1923,7 @@ Before you can deploy a multi-language microservices application in a Kubernetes
 
 3. In the **Application Information** step, configure the parameters in the **Cluster Type** and **Application Runtime Environment** sections, and click **Next**. The following table describes the parameters.
 
-   ![](assets/495ac093f9d6d0cc03b2c2566b5184c4.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/495ac093f9d6d0cc03b2c2566b5184c4.jpeg)
 
    <table>
      <tr>
@@ -2025,7 +2025,7 @@ When you create an application, the first step is to select a cluster type. You 
 
   On the **Application Configuration** page, only instance types are available for selection. VPCs and specific ECS instances are not displayed.
 
-  ![](assets/78598e920c44690fa1d9bc3106a0a1f9.jpeg)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/78598e920c44690fa1d9bc3106a0a1f9.jpeg)
 
 - **Possible cause**
 
@@ -2199,7 +2199,7 @@ Enterprise Distributed Application Service (EDAS) provides a commercial version 
 
 Microservice applications use registries to implement service registration and discovery. When you develop an application, you can select a registry as needed. The following figure shows your options.
 
-![](assets/f5e19dfb096ff4d4700e2f8c10ab2f3e.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/f5e19dfb096ff4d4700e2f8c10ab2f3e.jpeg)
 
 You can use Nacos as the registry to implement service registration and discovery for your application. You can also use other types of user-created registries, such as Eureka, ZooKeeper, and Consul. After you deploy your application to EDAS, you can use the application hosting, microservice governance, and cloud-native Platform as a Service (PaaS) capabilities of EDAS, regardless of the registry type.
 
@@ -2822,7 +2822,7 @@ Before you start, make sure that you have completed the following tasks:
 
   </ol>
 
-  click the Create Configuration icon <img src="assets/cd2ab5ab9ee76e39395543ae91722a41.png" width="14" alt=""> in the upper-right corner.
+  click the Create Configuration icon <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/cd2ab5ab9ee76e39395543ae91722a41.png" width="14" alt=""> in the upper-right corner.
 
   <ol type="i" start="3">
 
@@ -3261,7 +3261,7 @@ This section describes how to use Nacos and Spring Cloud Gateway to build a serv
 
      Start the service gateway and service provider locally. Access the Spring Cloud Gateway to forward a request to the backend service. The result indicates a successful call.
 
-     ![](assets/ea160336464cb9093df3b7fc693ce2ca.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ea160336464cb9093df3b7fc693ce2ca.png)
 
    - Verification in EDAS
 
@@ -3429,7 +3429,7 @@ This section describes how to use Nacos as a service registry with Zuul to build
 
      Start the Zuul service gateway and service provider locally. Access the Zuul gateway to forward a request to the backend service. The result indicates a successful call.
 
-     ![](assets/a30e373e3b4923235a137cc2d08e1859.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/a30e373e3b4923235a137cc2d08e1859.jpeg)
 
    - Verification in EDAS
 
@@ -3455,7 +3455,7 @@ Initializatio
 
 Asynchron
 
-![](assets/883f692f4f4bec71362b70c0215805b4.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/883f692f4f4bec71362b70c0215805b4.png)
 
 Sync
 
@@ -4051,7 +4051,7 @@ Before you use the lightweight configuration registry, complete the following ta
 
    - For Windows, double-click startup.bat.
 
-     ![](assets/ee245c22ed8c1becf548f9847c78c797.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ee245c22ed8c1becf548f9847c78c797.jpeg)
 
    - For UNIX/macOS, run sh startup.sh.
 
@@ -4124,7 +4124,7 @@ Verification consists of two parts.
 
   The home page of the lightweight configuration registry is shown in the following figure.
 
-  ![](assets/4ea24f14e8c053ad37d439632b07fd01.jpeg)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/4ea24f14e8c053ad37d439632b07fd01.jpeg)
 
   If the home page does not appear, check the  `logs/start.log`  log file in the installation folder to find the cause of the startup failure and resolve the issue.
 
@@ -4198,7 +4198,7 @@ Ali-Tomcat and Pandora are containers required by the Enterprise Distributed App
 
    - On Windows, navigate to the directory to view its structure.
 
-     ![](assets/d0238a0519c85c9a3ac103447b25cceb.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/d0238a0519c85c9a3ac103447b25cceb.jpeg)
 
 <a id="section-4-4-3-3"></a>
 
@@ -4218,25 +4218,25 @@ You can configure IntelliJ IDEA without additional plugins using the JVM startup
 
    Figure 1. Edit IDEA configurations
 
-   ![](assets/5e00809832d8ed89c5d7da89c6ff9e3d.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5e00809832d8ed89c5d7da89c6ff9e3d.jpeg)
 
 2. On the page, click the plus sign (**+**) and choose **Tomcat Server > Local** to add a local Tomcat startup configuration.
 
    Figure 2. Add a local Tomcat configuration
 
-   ![](assets/5888658d45375d13e8318a5ca3a9c1e3.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5888658d45375d13e8318a5ca3a9c1e3.jpeg)
 
 3. Configure Ali-Tomcat by performing the following steps: Select the **Server** tab on the right. In the **Application Server** section, click **Configure**. Then, on the page that appears, select the path of downloading and installing Ali-Tomcat in Install Ali-Tomcat and Pandora, such as d:\\work\\tomcat\\.
 
    Figure 3. Set the Ali-Tomcat path
 
-   ![](assets/0c2bf55a14cdaf4f839a580fff2d991e.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/0c2bf55a14cdaf4f839a580fff2d991e.jpeg)
 
 4. Select the configured Ali-Tomcat instance from the Application Server drop-down list.
 
    Figure 4. Add an Ali-Tomcat instance
 
-   ![](assets/ddb311391f8ed9038f3bb4a36d3dfa9a.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ddb311391f8ed9038f3bb4a36d3dfa9a.jpeg)
 
 5. In the VM Options field, enter the JVM startup parameter that points to the Pandora path, such as -Dpandora.location=d:\\work\\tomcat\\deploy\\taobao-hsf.sar.
 
@@ -5003,19 +5003,19 @@ Enterprise Distributed Application Service (EDAS) supports only web projects tha
 
    Figure 1. Modify the pom.xml file
 
-   ![](assets/6f677ad1893bbb5c6285556827f7e171.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/6f677ad1893bbb5c6285556827f7e171.jpeg)
 
 2. If no web.xml files exist, add a web.xml file configuration.
 
    Figure 2. Add the web.xml file configuration
 
-   ![](assets/3d1c2f926d74c83ac4f78ae5840347cc.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/3d1c2f926d74c83ac4f78ae5840347cc.jpeg)
 
 3. Configure the web.xml file to load the configuration file.
 
    Figure 3. Configure the web.xml file to load the configuration file
 
-   ![](assets/e538e1d0616badd6e7379f5a40bd442f.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/e538e1d0616badd6e7379f5a40bd442f.jpeg)
 
 <a id="section-4-4-3-5-4"></a>
 
@@ -6379,19 +6379,19 @@ service1 acts as an entry point service and provides three demo scenarios:
 
   Figure 1. Normal call
 
-  ![](assets/a72022e2fbdb308178305545a5516df0.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/a72022e2fbdb308178305545a5516df0.png)
 
 - /rest/delay: A call with a long delay.
 
   Figure 2. Call with a long delay
 
-  ![](assets/3222a53b5bf7a09fab882a6533dc8c93.jpeg)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/3222a53b5bf7a09fab882a6533dc8c93.jpeg)
 
 - /rest/error: A call that returns an error.
 
   Figure 3. Call with an error
 
-  ![](assets/d1c3e6d3a4a16cfb4bf003523d2928bd.jpeg)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/d1c3e6d3a4a16cfb4bf003523d2928bd.jpeg)
 
 **Procedure**
 
@@ -6570,7 +6570,7 @@ An HSF call is initiated by a consumer and sent to a provider over the network. 
 
 The following figure shows the HSF call process.
 
-![](assets/765e320b6c6f12d368d5755d6f63f18d.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/765e320b6c6f12d368d5755d6f63f18d.png)
 
 | Proce dure | Description |
 | --- | --- |
@@ -7221,7 +7221,7 @@ Before you develop an application, complete the following tasks:
 
 An HSF provider thread pool includes I/O threads and business threads. The I/O threads use the Netty reactor network model. This topic focuses on configuring the business thread pool, which can be a default business thread pool or a service-specific thread pool. A service-specific thread pool is partitioned from the default thread pool.
 
-![](assets/7442305368861cbc234e12d7ce2f8b11.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/7442305368861cbc234e12d7ce2f8b11.png)
 
 Submit request
 
@@ -7233,7 +7233,7 @@ Pool
 
 I/O
 
-![](assets/a6ade85258fe501452b4c45fa3a9be86.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/a6ade85258fe501452b4c45fa3a9be86.png)
 
 Connector
 
@@ -8638,7 +8638,7 @@ EDAS and ACK are activated for your Apsara Stack tenant account.
 
 3. In the **Application Information** step, configure the parameters in the **Cluster Type** and **Application Runtime Environment** sections, and click **Next**.
 
-   ![](assets/a6cb20c4940a241f8b33f9c5d5fd6210.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/a6cb20c4940a241f8b33f9c5d5fd6210.jpeg)
 
    <table>
      <tr>
@@ -8668,7 +8668,7 @@ EDAS and ACK are activated for your Apsara Stack tenant account.
 
 4. In the **Application Configuration** step, configure the environment information, basic information, deployment method, and resource parameters for the application, and then click **Next**.
 
-   ![](assets/93e3bd38723cd4b852ce8f9efad24ede.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/93e3bd38723cd4b852ce8f9efad24ede.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -9147,7 +9147,7 @@ EDAS, built on cloud native K8s, integrates ACK to provide full lifecycle manage
 
 To deploy an application to a K8s cluster, create a K8s cluster in the Container Service for Kubernetes (ACK) console, import it into EDAS, and then deploy the application to the cluster by using a deployment package.
 
-![](assets/31399a099f30dd29005a8b9b239ef483.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/31399a099f30dd29005a8b9b239ef483.png)
 
 > **Note**
 >
@@ -9357,7 +9357,7 @@ To deploy an application to a K8s cluster, create a K8s cluster in the Container
 
    - **Never**: Only local images are used. No image is pulled from the remote image repository.
 
-   ![](assets/90fe8e4324191c52858b04168e0f63a6.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/90fe8e4324191c52858b04168e0f63a6.jpeg)
 
    <table>
      <tr>
@@ -9387,7 +9387,7 @@ To deploy an application to a K8s cluster, create a K8s cluster in the Container
 
 4. On the **Application Configuration** tab, configure the application's environment information, basic information, deployment method, and resource parameters, and then click **Next**.
 
-   ![](assets/819fad8fd9f4589265b301bba99b676b.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/819fad8fd9f4589265b301bba99b676b.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -9473,7 +9473,7 @@ BookInfo is a heterogeneous application that consists of several microservices a
 
 Figure 1. Architecture for multi-language microservices
 
-![](assets/06792c7861d853dcdaebb2614834a820.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/06792c7861d853dcdaebb2614834a820.png)
 
 The BookInfo application consists of the following four independent microservices:
 
@@ -9495,7 +9495,7 @@ The BookInfo application consists of the following four independent microservice
 
 Before you can deploy a multi-language microservices application in a Kubernetes cluster, you must create a Kubernetes cluster in the Container Service for Kubernetes (ACK) console and import the cluster to EDAS in the EDAS console. Then, you can use a custom image to deploy an application in the cluster.
 
-![](assets/31399a099f30dd29005a8b9b239ef483.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/31399a099f30dd29005a8b9b239ef483.png)
 
 **Step 1: Create an ACK cluster**
 
@@ -9689,7 +9689,7 @@ Before you can deploy a multi-language microservices application in a Kubernetes
 
 3. In the **Application Information** step, configure the parameters in the **Cluster Type** and **Application Runtime Environment** sections, and click **Next**. The following table describes the parameters.
 
-   ![](assets/495ac093f9d6d0cc03b2c2566b5184c4.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/495ac093f9d6d0cc03b2c2566b5184c4.jpeg)
 
    <table>
      <tr>
@@ -9792,7 +9792,7 @@ This feature applies to scenarios where an exception occurs on a service provide
 
 Service consumers subscribe to the instance list of service providers from a service registry. When a service registry updates configurations, performs an upgrade or a downgrade, or encounters an exception such as a network disconnection or power outage, consumer subscriptions may be affected. This can degrade the availability of the consumers. To handle subscription errors caused by these exceptions, you can enable the empty list protection feature on the consumer side.
 
-![](assets/f106fba42950caa99c38e37bbb880994.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/f106fba42950caa99c38e37bbb880994.png)
 
 **Graceful start**
 
@@ -9818,13 +9818,13 @@ Zone affinity means that when an application invokes a service, it prioritizes i
 
 When an application is deployed across multiple zones, cross-zone invocations may occur. The following figure shows the invocation path.
 
-![](assets/65e5090021f5788bc6756388110386c4.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/65e5090021f5788bc6756388110386c4.jpeg)
 
 In the figure, if Application A in Zone 1 invokes Application B in Zone 2 (for example, the application on Node A1 invokes the application on Node B2), the cross-zone invocation increases network latency and HTTP response time.
 
 After you enable zone affinity for an application service, the consumer application prioritizes invoking service providers in the same zone. The following figure shows the invocation path. This avoids the network latency caused by cross-zone invocations and reduces HTTP response time.
 
-![](assets/5af7e1b63fa47fd6ce11323d809f9a21.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5af7e1b63fa47fd6ce11323d809f9a21.jpeg)
 
 If no service provider is available in the current zone, the service consumer invokes a service provider in another zone.
 
@@ -9898,7 +9898,7 @@ If you did not configure graceful start, empty list protection, or zone affinity
 
 5. Configure graceful start, empty list protection, and zone affinity as needed.
 
-   ![](assets/39530d11ccff76c8a54a5d2dfb5ec8c7.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/39530d11ccff76c8a54a5d2dfb5ec8c7.jpeg)
 
    | Configuration item | Description |
    | --- | --- |
@@ -10204,7 +10204,7 @@ You can configure a startup command when you create or deploy an application, or
 
 5. On the **Advanced Settings** tab, expand **Startup Command** and configure the startup command.
 
-   ![](assets/e28d2400288e5676c8133864c8fa89e5.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/e28d2400288e5676c8133864c8fa89e5.jpeg)
 
    This example uses the  `ENTRYPOINT: [nginx, '-g', 'daemon off;']`  command.
 
@@ -10239,7 +10239,7 @@ In addition to configuring a startup command when you create an application, you
 
 5. Set the application environment and deployment package. Expand **Startup Command**, enter the required configuration, and then click **OK**.
 
-   ![](assets/e28d2400288e5676c8133864c8fa89e5.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/e28d2400288e5676c8133864c8fa89e5.jpeg)
 
    This example uses the  `ENTRYPOINT: [nginx, '-g', 'daemon off;']`  command.
 
@@ -10320,13 +10320,13 @@ EDAS supports distributed sessions by automatically injecting configuration info
    curl -c cookie.txt "slb:port/set?key=name&value=tom"
    ```
 
-   ![](assets/df6720e8d9b6421daf68ce85007b9a9b.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/df6720e8d9b6421daf68ce85007b9a9b.jpeg)
 
    ```bash
    curl -b cookie.txt slb:port/get?key=name
    ```
 
-   ![](assets/11c9a2ce19490a310581bcd347c7cc3e.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/11c9a2ce19490a310581bcd347c7cc3e.jpeg)
 
 <a id="section-5-2-4-6"></a>
 
@@ -10374,7 +10374,7 @@ You can configure four types of environment variables:
 
      - Create a custom environment variable.
 
-       ![](assets/551129ca6646e6f036722bb1fb57ab7f.png)
+       ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/551129ca6646e6f036722bb1fb57ab7f.png)
 
        > **Note**
        >
@@ -10398,23 +10398,23 @@ You can configure four types of environment variables:
 
        From the **Variable Reference** drop-down list, select a configuration item. A configuration item can contain multiple key-value pairs. Select the required key-value pair.
 
-       ![](assets/faa26bb106176aef4d13d382c71e2fbf.jpeg)
+       ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/faa26bb106176aef4d13d382c71e2fbf.jpeg)
 
      - Use a secret to configure an environment variable.
 
        From the **Variable Reference** drop-down list, select a secret. A secret can contain multiple key-value pairs. Select the required key-value pair.
 
-       ![](assets/e901f00fe30103983f6184a24fd28977.jpeg)
+       ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/e901f00fe30103983f6184a24fd28977.jpeg)
 
      - Use a variable/variable reference to configure an environment variable.
 
        This method lets you set environment variables to Downward API values.
 
-       ![](assets/03010c088953c1e542c4de992ab29d26.jpeg)
+       ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/03010c088953c1e542c4de992ab29d26.jpeg)
 
    - Add environment variables in batches.
 
-     ![](assets/056c65844330e7b954c268552221e2f9.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/056c65844330e7b954c268552221e2f9.jpeg)
 
      | Parameter | Description |
      | --- | --- |
@@ -10459,7 +10459,7 @@ If you did not configure environment variables when you created an application, 
 
      - Create a custom environment variable.
 
-       ![](assets/551129ca6646e6f036722bb1fb57ab7f.png)
+       ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/551129ca6646e6f036722bb1fb57ab7f.png)
 
        > **Note**
        >
@@ -10483,23 +10483,23 @@ If you did not configure environment variables when you created an application, 
 
        From the **Variable Reference** drop-down list, select a configuration item. A configuration item can contain multiple key-value pairs. Select the required key-value pair.
 
-       ![](assets/faa26bb106176aef4d13d382c71e2fbf.jpeg)
+       ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/faa26bb106176aef4d13d382c71e2fbf.jpeg)
 
      - Use a secret to configure an environment variable.
 
        From the **Variable Reference** drop-down list, select a secret. A secret can contain multiple key-value pairs. Select the required key-value pair.
 
-       ![](assets/e901f00fe30103983f6184a24fd28977.jpeg)
+       ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/e901f00fe30103983f6184a24fd28977.jpeg)
 
      - Use a variable/variable reference to configure an environment variable.
 
        This method lets you set environment variables to Downward API values.
 
-       ![](assets/03010c088953c1e542c4de992ab29d26.jpeg)
+       ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/03010c088953c1e542c4de992ab29d26.jpeg)
 
    - Add environment variables in batches.
 
-     ![](assets/056c65844330e7b954c268552221e2f9.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/056c65844330e7b954c268552221e2f9.jpeg)
 
      | Parameter | Description |
      | --- | --- |
@@ -10550,7 +10550,7 @@ A persistent volume claim (PVC) is created. For more information, see the **Cont
 
 5. On the **Advanced Settings** tab, expand **Persistent Storage** and configure settings for data and log persistence.
 
-   ![](assets/02a00d1318f7d58bd1429512b57025a6.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/02a00d1318f7d58bd1429512b57025a6.jpeg)
 
    The following table describes the parameters for **PVC Mount**.
 
@@ -10609,7 +10609,7 @@ You can configure or update PVC mounts when you create or deploy an application.
 
 5. Set the application environment and deployment package information. Then, expand **Persistent Storage**, configure the parameters as needed, and click **OK**.
 
-   ![](assets/02a00d1318f7d58bd1429512b57025a6.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/02a00d1318f7d58bd1429512b57025a6.jpeg)
 
    The following table describes the parameters for **PVC Mount**.
 
@@ -10846,13 +10846,13 @@ The following examples show how to configure PostStart and PreStop container lif
 
     Use this method if the command is short and has few parameters.
 
-    ![](assets/c545502b65b20aae2314b611f2bd590f.jpeg)
+    ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/c545502b65b20aae2314b611f2bd590f.jpeg)
 
   - Method 2: Start a shell and run the command in the shell.
 
     Use this method if the command is long and has many parameters.
 
-    ![](assets/674d791d0304ade5e355d23eb3779fe7.jpeg)
+    ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/674d791d0304ade5e355d23eb3779fe7.jpeg)
 
 - **HttpGet Mode**
 
@@ -10870,7 +10870,7 @@ The following examples show how to configure PostStart and PreStop container lif
 
   The following figure shows an example of a PostStart hook that uses the **HttpGet** method. After the container starts, an HTTP GET request is sent to the  `http://example.com:8080/healthz`  endpoint.
 
-  ![](assets/db846fad52b077adddf6bc423a6d56bd.jpeg)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/db846fad52b077adddf6bc423a6d56bd.jpeg)
 
   > **Note**
   >
@@ -10908,7 +10908,7 @@ All modes for Liveness, Readiness, and Startup probes support the following para
 
 The following figure shows a sample configuration of a Liveness probe in TcpSocket mode. In this example, the Host parameter is empty, so the pod's IP address is used as the host address. The probe checks port 18081. The first probe runs 60 seconds after the container starts. Probes are performed every 10 seconds. A single successful probe is sufficient to consider the pod alive. The timeout for each probe is 5 seconds. If three consecutive probes fail, Kubernetes terminates the container and then restarts it based on the restart policy.
 
-![](assets/0404f4c9e4f0d7022b2dc14debf1fff5.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/0404f4c9e4f0d7022b2dc14debf1fff5.jpeg)
 
 **Verify the result**
 
@@ -10918,7 +10918,7 @@ For example, you configure a PostStart hook to write  `Hello from the postStart 
 
 After the application is deployed, use a web shell to check whether the file contains  `Hello from the postStart handler` . If the text exists, the configuration is successful.
 
-![](assets/32285c6156138996ed4e22d3f165648e.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/32285c6156138996ed4e22d3f165648e.jpeg)
 
 <a id="section-5-2-4-10"></a>
 
@@ -11016,7 +11016,7 @@ When you create or deploy an application in a Container Service for Kubernetes (
 
    | Parameter | Description |
    | --- | --- |
-   | Memory Configuration | You can configure the following parameters:<br>• <strong>Initial Heap Size</strong>: The initial size of the heap memory, in MB. A value of 0 indicates that the size is not limited.<br>• <strong>Maximum Heap Memory</strong>: The maximum size of the heap memory, in MB. The valid range is 0 to 0.85 × the Limit memory of the application container.<br>• <strong>Initial Young Generation</strong>: The initial size of the young generation space, in MB.<br>• <strong>Maximum Young Generation Size</strong>: The maximum size of the young<br>![](assets/092add0ed8596c6bf6d2fa652f34eb35.png)<br>generation space, in MB. A value of <code>max_uintx</code> indicates that the memory size is unlimited.<br>• <strong>Eden/Survivor Ratio</strong>: The ratio of the Eden space to the Survivor space.<br>• <strong>Old/Young Generation Ratio</strong>: The ratio of the old generation space to the young generation space.<br>• <strong>Initial Permanent Generation</strong>: The initial size of the permanent generation, in MB.<br>• <strong>Maximum Permanent Generation Size</strong>: The maximum size of the permanent generation, in MB.<br>• <strong>Maximum Direct Memory Size</strong>: The maximum size of the non-blocking I/O (NIO) direct memory, in MB.<br>• <strong>Thread Stack Size</strong>: The size of the thread stack, in KB. |
+   | Memory Configuration | You can configure the following parameters:<br>• <strong>Initial Heap Size</strong>: The initial size of the heap memory, in MB. A value of 0 indicates that the size is not limited.<br>• <strong>Maximum Heap Memory</strong>: The maximum size of the heap memory, in MB. The valid range is 0 to 0.85 × the Limit memory of the application container.<br>• <strong>Initial Young Generation</strong>: The initial size of the young generation space, in MB.<br>• <strong>Maximum Young Generation Size</strong>: The maximum size of the young<br>![](en-edas-user-guide-v3.18.6-2607-20260828.assets/092add0ed8596c6bf6d2fa652f34eb35.png)<br>generation space, in MB. A value of <code>max_uintx</code> indicates that the memory size is unlimited.<br>• <strong>Eden/Survivor Ratio</strong>: The ratio of the Eden space to the Survivor space.<br>• <strong>Old/Young Generation Ratio</strong>: The ratio of the old generation space to the young generation space.<br>• <strong>Initial Permanent Generation</strong>: The initial size of the permanent generation, in MB.<br>• <strong>Maximum Permanent Generation Size</strong>: The maximum size of the permanent generation, in MB.<br>• <strong>Maximum Direct Memory Size</strong>: The maximum size of the non-blocking I/O (NIO) direct memory, in MB.<br>• <strong>Thread Stack Size</strong>: The size of the thread stack, in KB. |
    | GC Policy | You can configure the following garbage collection policies:<br>• <strong>Young Generation GC Policy</strong>: The garbage collector for the young generation space.<br>• <strong>Old Generation GC Policy</strong>: The garbage collector for the old generation space. You must first configure the garbage collector for the young generation space. |
    | Tool | Set the <strong>Log Directory</strong>, <strong>Number Of Files</strong>, and <strong>File Size</strong> for the GC log files, and the <strong>Dump Path</strong> for when an out-of-memory error occurs. |
    | Custom | If the preceding parameters do not meet your needs, you can set custom parameters. Separate multiple parameters with spaces. |
@@ -11049,7 +11049,7 @@ You can configure Java startup parameters when you create an application. You ca
 
    | Parameter | Description |
    | --- | --- |
-   | Memory Configuration | You can configure the following parameters:<br>• <strong>Initial Heap Size</strong>: The initial size of the heap memory, in MB. A value of 0 indicates that the size is not limited.<br>• <strong>Maximum Heap Memory</strong>: The maximum size of the heap memory, in MB. The valid range is 0 to 0.85 × the Limit memory of the application container.<br>• <strong>Initial Young Generation</strong>: The initial size of the young generation space, in MB.<br>• <strong>Maximum Young Generation Size</strong>: The maximum size of the young<br>![](assets/6623ae9a363e99583ce603a2b4e7fe43.png)<br>generation space, in MB. A value of <code>max_uintx</code> indicates that the memory size is unlimited.<br>• <strong>Eden/Survivor Ratio</strong>: The ratio of the Eden space to the Survivor space.<br>• <strong>Old/Young Generation Ratio</strong>: The ratio of the old generation space to the young generation space.<br>• <strong>Initial Permanent Generation</strong>: The initial size of the permanent generation, in MB.<br>• <strong>Maximum Permanent Generation Size</strong>: The maximum size of the permanent generation, in MB.<br>• <strong>Maximum Direct Memory Size</strong>: The maximum size of the non-blocking I/O (NIO) direct memory, in MB.<br>• <strong>Thread Stack Size</strong>: The size of the thread stack, in KB. |
+   | Memory Configuration | You can configure the following parameters:<br>• <strong>Initial Heap Size</strong>: The initial size of the heap memory, in MB. A value of 0 indicates that the size is not limited.<br>• <strong>Maximum Heap Memory</strong>: The maximum size of the heap memory, in MB. The valid range is 0 to 0.85 × the Limit memory of the application container.<br>• <strong>Initial Young Generation</strong>: The initial size of the young generation space, in MB.<br>• <strong>Maximum Young Generation Size</strong>: The maximum size of the young<br>![](en-edas-user-guide-v3.18.6-2607-20260828.assets/6623ae9a363e99583ce603a2b4e7fe43.png)<br>generation space, in MB. A value of <code>max_uintx</code> indicates that the memory size is unlimited.<br>• <strong>Eden/Survivor Ratio</strong>: The ratio of the Eden space to the Survivor space.<br>• <strong>Old/Young Generation Ratio</strong>: The ratio of the old generation space to the young generation space.<br>• <strong>Initial Permanent Generation</strong>: The initial size of the permanent generation, in MB.<br>• <strong>Maximum Permanent Generation Size</strong>: The maximum size of the permanent generation, in MB.<br>• <strong>Maximum Direct Memory Size</strong>: The maximum size of the non-blocking I/O (NIO) direct memory, in MB.<br>• <strong>Thread Stack Size</strong>: The size of the thread stack, in KB. |
    | GC Policy | You can configure the following garbage collection policies:<br>• <strong>Young Generation GC Policy</strong>: The garbage collector for the young generation space.<br>• <strong>Old Generation GC Policy</strong>: The garbage collector for the old generation space. You must first configure the garbage collector for the young generation space. |
    | Tool | Set the <strong>Log Directory</strong>, <strong>Number Of Files</strong>, and <strong>File Size</strong> for the GC log files, and the <strong>Dump Path</strong> for when an out-of-memory error occurs. |
    | Custom | If the preceding parameters do not meet your needs, you can set custom parameters. Separate multiple parameters with spaces. |
@@ -11694,7 +11694,7 @@ A pod SecurityContext is a Kubernetes object that defines security settings at t
 
 6. On the **Advanced Settings** tab, expand **Pod SecurityContext Settings** and configure the parameters as needed.
 
-   ![](assets/1b77165cc633848db68a2fdeb74b0267.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/1b77165cc633848db68a2fdeb74b0267.jpeg)
 
    For more information, see Configure a Security Context for a Pod or Container.
 
@@ -11742,7 +11742,7 @@ If you did not configure a pod SecurityContext when you created the application,
    >
    > - If the **fsGroup** does not have sufficient permissions for the shared volume, the application may fail to access, read, or write files in the volume. This can lead to limited functionality or runtime failure.
 
-   ![](assets/4be7fcc77826370d26b3b51121bfe135.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/4be7fcc77826370d26b3b51121bfe135.jpeg)
 
    For more information, see Configure a Security Context for a Pod or Container.
 
@@ -11943,7 +11943,7 @@ When you create or deploy an application in a Kubernetes cluster, you can enable
 
 5. On the **Advanced Settings** tab, expand **Log Collection Settings**, turn on **Enable Log Collection To SLS**, and then configure the log collection settings as needed.
 
-   ![](assets/c060a6308659b8b679afbb1c2337e01b.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/c060a6308659b8b679afbb1c2337e01b.png)
 
    | Configuration Item | Description |
    | --- | --- |
@@ -11995,7 +11995,7 @@ If you did not configure log collection when you created an application, you can
    >
    > - Do not store other important files in the log source directory to prevent them from being overwritten.
 
-   ![](assets/c060a6308659b8b679afbb1c2337e01b.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/c060a6308659b8b679afbb1c2337e01b.png)
 
    | Configuration Item | Description |
    | --- | --- |
@@ -12029,13 +12029,13 @@ Intra-zone Provider Firstmeans that when an application invokes a service, it pr
 
 When you deploy applications across multiple zones, service invocations may cross zones. The following figure shows an example call chain.
 
-![](assets/65e5090021f5788bc6756388110386c4.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/65e5090021f5788bc6756388110386c4.jpeg)
 
 In the figure, Application A is in Zone 1 and Application B is in Zone 2. If Application A calls Application B, the application on Node A1 calls the application on Node B2. This cross-zone call increases network latency and results in a longer HTTP response time.
 
 After you enable Intra-zone Provider First, the consumer application prioritizes providers in the same zone. The following figure shows the call chain. This approach avoids network latency from cross-zone calls and reduces HTTP response time.
 
-![](assets/5af7e1b63fa47fd6ce11323d809f9a21.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5af7e1b63fa47fd6ce11323d809f9a21.jpeg)
 
 If no service providers are available in the current zone, the service consumer calls providers in other zones.
 
@@ -12049,7 +12049,7 @@ To use the Intra-zone Provider First feature, enable Intra-zone Provider First f
 
 3. On the **Basic Information** page of the application, go to the **Application Settings** section, turn on Locality Priority, and set the **Threshold**.
 
-   ![](assets/c4bcb09d0e440cf51977c2ba18699206.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/c4bcb09d0e440cf51977c2ba18699206.jpeg)
 
 <a id="section-5-2-5"></a>
 
@@ -12539,13 +12539,13 @@ After you develop, debug, and test an application locally, you can install the C
 
    - **MacOS**: Go to the **Preferences** page. In the navigation pane on the left, select **Plugins**. In the search box on the right, enter **Alibaba Cloud Toolkit** and click **Install**.
 
-     ![](assets/43f7ae1724f8802693d84e03a81b1b83.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/43f7ae1724f8802693d84e03a81b1b83.png)
 
    - **Windows**: In the navigation pane on the left, select **Plugins**. In the search box on the right, enter **Alibaba Cloud Toolkit** and click **Install**.
 
-     ![](assets/51537eb2b5e3769f82badacb68dd337c.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/51537eb2b5e3769f82badacb68dd337c.png)
 
-3. After the plugin is installed, restart IntelliJ IDEA. The Alibaba Cloud Toolkit icon ( <img src="assets/88823c17ac16c769f004bc1dd42f5ff4.png" width="17" alt=""> ) appears
+3. After the plugin is installed, restart IntelliJ IDEA. The Alibaba Cloud Toolkit icon ( <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/88823c17ac16c769f004bc1dd42f5ff4.png" width="17" alt=""> ) appears
 
    in the toolbar.
 
@@ -12565,7 +12565,7 @@ After you install Alibaba Cloud Toolkit, you must configure your account using a
 
    - If you are an **EDAS on Apsara Stack Enterprise Edition** user, you must also configure an Endpoint to use the features of Cloud Toolkit.
 
-     ![](assets/3517a70bf5aba1c4b5e3cbcecd5290f7.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/3517a70bf5aba1c4b5e3cbcecd5290f7.png)
 
      - If you already have an Alibaba Cloud account, click **Get existing AK/SK** on the **Accounts** page to navigate to the Alibaba Cloud logon page. After you log on with your existing account, you are redirected to the security information management page to obtain the **AccessKey ID** and **AccessKey Secret**.
 
@@ -12579,7 +12579,7 @@ After you install Alibaba Cloud Toolkit, you must configure your account using a
 
 2. In the **Deploy to EDAS** dialog box, configure the application deployment parameters.
 
-   ![](assets/33550c46485c734dfc9772d8e082017e.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/33550c46485c734dfc9772d8e082017e.png)
 
    <ol type="i">
 
@@ -12619,7 +12619,7 @@ After you install Alibaba Cloud Toolkit, you must configure your account using a
 
    - **Build Image**: If you select the Build Image method to build the application, you must enter the working directory in the **Content Directory** field, the path to the Dockerfile in the **Dockerfile** field, and the image tag in the **Version** field.
 
-     ![](assets/7df2535e6098d7afc88918ffccc3fc7d.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/7df2535e6098d7afc88918ffccc3fc7d.png)
 
    - **Select Image**: If you select this deployment method, you can select the image to deploy from the **Select Image** drop-down list.
 
@@ -12664,11 +12664,11 @@ In this example, itemcenter and detail are submodules that both depend on the it
 
 In the **Deploy to EDAS** dialog box, you can create, delete, modify, or move Maven build jobs in the **Before launch** section.
 
-![](assets/8e3bca0f7e21862741382a8111442fb9.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/8e3bca0f7e21862741382a8111442fb9.png)
 
 In the Add Maven Build Task dialog box, you can click the folder icon on the right to select an available module for the current project and edit the build command in the **Command line** field.
 
-![](assets/30d0971b14dc6217c7f994fd724059af.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/30d0971b14dc6217c7f994fd724059af.png)
 
 **FAQ**
 
@@ -12762,7 +12762,7 @@ For example, an application is deployed on 10 instances, and the application nee
 
 The following figure shows how the application is released to the instances based on a specific policy in three phases.
 
-![](assets/8ecfab56fa538ab8cbf2a22d79640101.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/8ecfab56fa538ab8cbf2a22d79640101.png)
 
 **Usage notes**
 
@@ -12801,7 +12801,7 @@ The following example shows how to deploy an application in multiple phases by u
 
 7. Configure the parameters in the **Release Policy** section.
 
-   ![](assets/c5336604dff70376450c4acf89833b9a.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/c5336604dff70376450c4acf89833b9a.jpeg)
 
    The following table describes the parameters in the **Release Policy** section.
 
@@ -13714,7 +13714,7 @@ This section describes how to roll back an application by deploying a previous v
 
    After you confirm the deployment of the previous version, the system rolls back the application to that version. The rollback is successful if the **Execution Status** is **Succeeded**.
 
-   ![](assets/8043a50fbaa3dee88bc046fa243ae2b8.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/8043a50fbaa3dee88bc046fa243ae2b8.png)
 
 <a id="section-5-3-5-2"></a>
 
@@ -14258,7 +14258,7 @@ The Job-dsl plug-in is installed.
 
 2. In the **Deploy To EDAS** section, configure the account information. Click **Add** and then **Advanced** to enter the region information.
 
-   ![](assets/c36b9a6bb216b214bda647b6ffe38c93.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/c36b9a6bb216b214bda647b6ffe38c93.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -14284,7 +14284,7 @@ The Job-dsl plug-in is installed.
 
 4. In the **Deploy to EDAS** section, click **Add** and select a cluster for deployment from the drop-down list.
 
-   ![](assets/5e7291bb9941411bec9dd976aefd7573.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5e7291bb9941411bec9dd976aefd7573.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -14297,11 +14297,11 @@ The Job-dsl plug-in is installed.
 
 6. In the left navigation pane of the project details page, click **Build Now** to start a build.
 
-   ![](assets/be6f922911c5ee5daef4e239e17fa475.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/be6f922911c5ee5daef4e239e17fa475.png)
 
    The build records for the project are listed in the **Build History** section. Click a build record to view its details.
 
-   ![](assets/ed7cfa821db436a5b3bd5c02d30cc425.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ed7cfa821db436a5b3bd5c02d30cc425.jpeg)
 
 **Use a pipeline to deploy an application to EDAS**
 
@@ -14323,7 +14323,7 @@ The edas-jenkins-plugin supports the built-in Snippet Generator of Jenkins Pipel
 
 6. After you configure the parameters, click **Generate Pipeline Script** and copy the generated pipeline script.
 
-   ![](assets/ef550ed8a59f47e79837297003b70eec.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ef550ed8a59f47e79837297003b70eec.png)
 
 7. In the navigation pane on the left, click **Back** to return to the pipeline management page, and then click **Configure**. Enter the script in the **Pipeline** section, as shown in the following figure.
 
@@ -14331,7 +14331,7 @@ The edas-jenkins-plugin supports the built-in Snippet Generator of Jenkins Pipel
    >
    > In the following figure, replace the content in the orange box with the script generated in the preceding step.
 
-   ![](assets/597560b25682b244778811265117557c.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/597560b25682b244778811265117557c.jpeg)
 
 8. After completing the configuration, click **Save** or **Apply** in the lower-left corner of the page.
 
@@ -14353,7 +14353,7 @@ In Jenkins, you can use the Job-dsl plug-in to create a job template. This lets 
    >
    > If you have a pipeline, click a pipeline name in the project list to open the pipeline management page. In the navigation pane on the left, click **Pipeline Syntax** to open the **Snippet Generator** page.
 
-   ![](assets/363ca3eeb14d1fd883ceb7def1137d7b.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/363ca3eeb14d1fd883ceb7def1137d7b.png)
 
 4. In the **Process Job DSLs** section, click **Use the provided DSL script**. Enter the configuration script in the DSL Script field.
 
@@ -14503,7 +14503,7 @@ When you use the edas-jenkins-plugin in Jenkins to deploy an application to Ente
 
 When you upgrade and deploy an application to an ECS cluster, set the parameters as shown in the following figure. The advanced parameters in the figure are optional.
 
-![](assets/a4101ad17d5a8ff265ed0f9b4cd8d7d3.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/a4101ad17d5a8ff265ed0f9b4cd8d7d3.png)
 
 | Parameter | Description |
 | --- | --- |
@@ -14522,7 +14522,7 @@ When you upgrade and deploy an application to an ECS cluster, set the parameters
 
 When you create and deploy an application to an ECS cluster, set the parameters as shown in the following figure. The advanced parameters in the figure are optional.
 
-![](assets/2df0c709338567ffeea500643c00cc3a.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/2df0c709338567ffeea500643c00cc3a.png)
 
 | Parameter | Description |
 | --- | --- |
@@ -14542,7 +14542,7 @@ When you create and deploy an application to an ECS cluster, set the parameters 
 
 When you upgrade and deploy an application to an ACK cluster, set the parameters as shown in the following figure. The **Application Environment**, **Startup Command**, **Resource Quota**, and **Application Management** parameters are optional.
 
-![](assets/56af401a54f90dd7f0e42c40f4b40595.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/56af401a54f90dd7f0e42c40f4b40595.png)
 
 **Parameter**
 
@@ -14582,7 +14582,7 @@ For more information, see the **EDAS Developer Guide > DeployK8sApplication** se
 
 **Create and deploy an application in an ACK cluster**
 
-![](assets/a4e5c32e8b0fee5f14ce499a66764144.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/a4e5c32e8b0fee5f14ce499a66764144.jpeg)
 
 <table>
   <tr>
@@ -14631,7 +14631,7 @@ For more information, see the **EDAS Developer Guide > DeployK8sApplication** se
   </tr>
   <tr>
     <td>JDK Version</td>
-    <td><img src="assets/f0e53bc66d4e547b426a11b536dd2d47.png" alt=""><br>The Java Development Kit (JDK) version, such as <code>OPEN JDK 8</code>.</td>
+    <td><img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/f0e53bc66d4e547b426a11b536dd2d47.png" alt=""><br>The Java Development Kit (JDK) version, such as <code>OPEN JDK 8</code>.</td>
   </tr>
   <tr>
     <td>Version Label Format</td>
@@ -14691,7 +14691,7 @@ After you host an application from a Container Service for Kubernetes (ACK) clus
 
 4. On the **Basic Information** page, you can manage the application lifecycle.
 
-   ![](assets/d4dac4c2facf5071abb539a7858fd5a2.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/d4dac4c2facf5071abb539a7858fd5a2.jpeg)
 
 **Deploy an application Deploy a new version of an application**
 
@@ -14749,7 +14749,7 @@ Select a mode: **RollingUpdate** or **Recreate**.
 >
 > This feature is supported only for OAM and CloudApp applications.
 
-![](assets/81d1cfdae3924c2dbf5b9b9993b2ae3d.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/81d1cfdae3924c2dbf5b9b9993b2ae3d.jpeg)
 
 **Scale an application**
 
@@ -14785,7 +14785,7 @@ This section uses an application deployment as an example to demonstrate how to 
 
 2. Click **View Details** in the message to view the details of the change process. If the change process is completed quickly, this message may not appear. In this case, in the navigation pane on the left of the **Basic Information** page, click **Change Records** to view the application's change information.
 
-   ![](assets/d0ea1011c2be291405720777a8728c9b.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/d0ea1011c2be291405720777a8728c9b.jpeg)
 
    > **Note**
    >
@@ -14847,7 +14847,7 @@ After you deploy an application with new or modified configurations, you can vie
 
 5. On the **Basic Information** page, click **Roll Back Application**.
 
-   ![](assets/9c3f94d15e14de741c2ea65274eb8bdf.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/9c3f94d15e14de741c2ea65274eb8bdf.jpeg)
 
 6. In the **Roll Back Application** dialog box, click **View Differences** in the Version Configuration column to view the configuration changes.
 
@@ -14936,7 +14936,7 @@ Applications deployed to an EDAS Kubernetes (K8s) environment are not directly a
 
 Figure 1. Service access example
 
-![](assets/d1fb24875ceae4b5d371341f1d9dfa0e.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/d1fb24875ceae4b5d371341f1d9dfa0e.png)
 
 EDAS K8s environments support the following ways to expose services:
 
@@ -15163,12 +15163,12 @@ Create a multi-cluster application template and configure it with both an Intern
      </tr>
      <tr>
        <td>Load balancing (private network)</td>
-       <td><img src="assets/5d48f4a54af066d2799ccb63f67921ac.jpeg" alt=""><br>Configure the TCP and HTTP protocols.<br>• <strong>SLB Port(Application)</strong>: the frontend port of the internal-facing SLB instance. This port can be used to access the application. Valid values: 1 to 65535.<br>• Container Port (Target <strong>Port)</strong>: the port on which a process listens. This port is defined by the application.For example, the default port of a web application is <em>8080</em>.</td>
+       <td><img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/5d48f4a54af066d2799ccb63f67921ac.jpeg" alt=""><br>Configure the TCP and HTTP protocols.<br>• <strong>SLB Port(Application)</strong>: the frontend port of the internal-facing SLB instance. This port can be used to access the application. Valid values: 1 to 65535.<br>• Container Port (Target <strong>Port)</strong>: the port on which a process listens. This port is defined by the application.For example, the default port of a web application is <em>8080</em>.</td>
        <td>None</td>
      </tr>
      <tr>
        <td>Load balancing (public network)</td>
-       <td><img src="assets/5d4d6026a7b616204af0fba60fcc1e53.jpeg" alt=""><br>Configure the TCP and HTTP protocols.<br>• <strong>SLB Port(Application)</strong>: the frontend port of the Internet-facing SLB instance. This port can be used to access the application. Valid values: 1 to 65535.<br>• Container Port (Target <strong>Port)</strong>: the port on which a process listens. This port is defined by the application.For example, the default port of a web application is <em>8080</em>.</td>
+       <td><img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/5d4d6026a7b616204af0fba60fcc1e53.jpeg" alt=""><br>Configure the TCP and HTTP protocols.<br>• <strong>SLB Port(Application)</strong>: the frontend port of the Internet-facing SLB instance. This port can be used to access the application. Valid values: 1 to 65535.<br>• Container Port (Target <strong>Port)</strong>: the port on which a process listens. This port is defined by the application.For example, the default port of a web application is <em>8080</em>.</td>
        <td>None</td>
      </tr>
    </table>
@@ -15197,11 +15197,11 @@ Use the template to create a multi-cluster application.
 
 5. In the Publish configuration step, click **AddCluster**. In the **AddCluster** dialog box, select the clusters that you want to add and click **OK**.
 
-   ![](assets/4710d46e6beb6ba77eb893c19be3f20f.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/4710d46e6beb6ba77eb893c19be3f20f.jpeg)
 
 6. On the **Create Multi-cluster Application** page, click **Start publishing** at the bottom. In the **Confirm release** message, confirm the information and click **Yes**.
 
-   ![](assets/ad2129793d447c4d17ff065a3f4df193.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ad2129793d447c4d17ff065a3f4df193.jpeg)
 
 7. Verify the result after the deployment is successful.
 
@@ -15210,7 +15210,7 @@ Use the template to create a multi-cluster application.
    done
    ```
 
-   ![](assets/8fa5ddf23452c5c58c17ac741b0ba2ef.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/8fa5ddf23452c5c58c17ac741b0ba2ef.jpeg)
 
 <a id="section-5-5-6-5"></a>
 
@@ -15353,7 +15353,7 @@ Services, Ingresses, and Ingress Controllers are related in the following ways:
 
 - An Ingress Controller is a reverse proxy program. It parses Ingress routing rules and forwards HTTP traffic to the corresponding Service based on the rules.
 
-![](assets/33562520b115ff55de3274c79c87f724.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/33562520b115ff55de3274c79c87f724.jpeg)
 
 **Procedure**
 
@@ -15422,7 +15422,7 @@ Services, Ingresses, and Ingress Controllers are related in the following ways:
 
 **Verify the result**
 
-In a browser, access the <img src="assets/f3fb6073686121d99f7a31ca8252c740.png" width="96" alt="">
+In a browser, access the <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/f3fb6073686121d99f7a31ca8252c740.png" width="96" alt="">
 
 `domain name/path` specified in the forwarding rule. Verify that you can
 
@@ -15705,7 +15705,7 @@ You have created a K8s cluster that uses Alibaba Cloud Application Server as its
      </tr>
      <tr>
        <td>Add</td>
-       <td>Click <strong>Add</strong> to add a<br>configuration item. Click the<img src="assets/1ddf76c1b30b7785d1dbc38bafe119df.png" width="10" alt=""><br>icon to the right of the text box to copy the configuration item.<br>Click the<img src="assets/5ad52050447de922dd6675a700afe1cd.png" width="10" alt="">icon to delete it.</td>
+       <td>Click <strong>Add</strong> to add a<br>configuration item. Click the<img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/1ddf76c1b30b7785d1dbc38bafe119df.png" width="10" alt=""><br>icon to the right of the text box to copy the configuration item.<br>Click the<img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/5ad52050447de922dd6675a700afe1cd.png" width="10" alt="">icon to delete it.</td>
        <td><code>• -</code><br><code>XX:+HeapDumpOnOutOfMemory</code> <code>Error </code>: Automatically generates a heap memory snapshot when an out-of-memory error occurs.<br><code>• -</code><br><code>XX:MaxMetaspaceSize=512m</code><code> </code>: Limits the JVM metaspace to a maximum of 512 MB of memory.</td>
      </tr>
      <tr>
@@ -15723,7 +15723,7 @@ You have created a K8s cluster that uses Alibaba Cloud Application Server as its
      </tr>
      <tr>
        <td>Add</td>
-       <td>Click <strong>Add</strong> to add a<br>configuration item. Click the<img src="assets/1ddf76c1b30b7785d1dbc38bafe119df.png" width="10" alt=""><br>icon to the right of the text box to copy the configuration item.<br>Click the<img src="assets/5ad52050447de922dd6675a700afe1cd.png" width="10" alt="">icon to delete it.</td>
+       <td>Click <strong>Add</strong> to add a<br>configuration item. Click the<img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/1ddf76c1b30b7785d1dbc38bafe119df.png" width="10" alt=""><br>icon to the right of the text box to copy the configuration item.<br>Click the<img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/5ad52050447de922dd6675a700afe1cd.png" width="10" alt="">icon to delete it.</td>
        <td>• -Dfile.encoding=UTF-8: Sets the default character encoding to UTF-8.<br>• -DswitchCharacterEncoding= false: A custom application parameter. It is typically used to disable the automatic character encoding transform logic.</td>
      </tr>
      <tr>
@@ -16262,7 +16262,7 @@ You have created a Kubernetes cluster with an application runtime environment of
    | Reset | Click <strong>Reset</strong> to restore default values. | None |
    | Submit | Click <strong>Submit</strong> to save the configuration items in the form. | None |
 
-   ![](assets/f7fa80960faf05aadb9688fdc232cf59.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/f7fa80960faf05aadb9688fdc232cf59.png)
 
 <a id="section-5-5-10-4-2-2"></a>
 
@@ -16568,7 +16568,7 @@ After you add application log directories to your favorites, you can view the lo
 
 1. On the **Log Directory** page, click the expand icon to the left of a log directory. In the **Actions** column of the log file that you want to view, click **View Online**.
 
-   ![](assets/7efa9a1f5ade14b268257f7263552e22.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/7efa9a1f5ade14b268257f7263552e22.jpeg)
 
    > **Note**
    >
@@ -16576,7 +16576,7 @@ After you add application log directories to your favorites, you can view the lo
 
 2. At the top of the **Log View** page, click the drop-down arrow next to **Pod Name** and select an instance to view its detailed logs.
 
-   ![](assets/4d38044560931dc439c4497cbbf48abc.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/4d38044560931dc439c4497cbbf48abc.jpeg)
 
    In the lower-right corner of the page, you can click **Enable Real-time Appending** to continuously load new log entries as they are appended to the file. This is similar to the **tailf** command.
 
@@ -16729,7 +16729,7 @@ The configuration with the highest priority takes effect. The priority order is:
 
   After you enable a log configuration, its content is output to the log at the INFO level. The logger name is  `com.alibaba.agent.dynamic.log.config` , as shown in the following figure.
 
-  ![](assets/5fe1587e19d3ec4b1fd215450c23f5d9.jpeg)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5fe1587e19d3ec4b1fd215450c23f5d9.jpeg)
 
   > **Note**
   >
@@ -17023,7 +17023,7 @@ The **Overview Analysis** tab provides the following key metrics.
 
 - Statistical analysis: analysis of slow API calls and exception types.
 
-![](assets/3be2e0ba9fab3bbd46d23a0366db62e1.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/3be2e0ba9fab3bbd46d23a0366db62e1.jpeg)
 
 **Topology tab**
 
@@ -17209,7 +17209,7 @@ On the **Upstream Trace** tab, you can perform the following operations:
 
 - In the search box at the top of the tab, enter a keyword from an application or interface
 
-  (Span) name and click the <img src="assets/3a6c025dc8c05f0ab2f8bb4c2dff1f92.png" width="20" alt=""> search icon to filter for matching interfaces.
+  (Span) name and click the <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/3a6c025dc8c05f0ab2f8bb4c2dff1f92.png" width="20" alt=""> search icon to filter for matching interfaces.
 
 - Click an interface's panel, or click the up or down arrow at the end of its row, to expand or collapse its performance metrics.
 
@@ -17223,7 +17223,7 @@ On the **Downstream Trace** tab, you can perform the following operations:
 
 - In the search box at the top of the tab, enter a keyword from an application or interface
 
-  (Span) name and click the <img src="assets/3a6c025dc8c05f0ab2f8bb4c2dff1f92.png" width="20" alt=""> search icon to filter for matching interfaces.
+  (Span) name and click the <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/3a6c025dc8c05f0ab2f8bb4c2dff1f92.png" width="20" alt=""> search icon to filter for matching interfaces.
 
 - Click an interface's panel, or click the up or down arrow at the end of its row, to expand or collapse its performance metrics.
 
@@ -17380,7 +17380,7 @@ You must create a contact first. For more information, see the Administrative Co
 
   Figure 1. View contacts in a contact group
 
-  ![](assets/bf23f76467686eb51e547f163bf76fa1.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/bf23f76467686eb51e547f163bf76fa1.png)
 
   > **Note**
   >
@@ -17463,7 +17463,7 @@ The following steps describe how to create a Java Virtual Machine (JVM) Garbage 
 
   β
 
-  ![](assets/f5a12d469d29264fcb66e2f643a85a07.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/f5a12d469d29264fcb66e2f643a85a07.png)
 
   2N
 
@@ -17481,9 +17481,9 @@ The following steps describe how to create a Java Virtual Machine (JVM) Garbage 
 
   β
 
-  ![](assets/4430d173bf2ab5a2419f2f17bdf56b91.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/4430d173bf2ab5a2419f2f17bdf56b91.png)
 
-  ![](assets/418879a4a211ea590d35e74f66cff356.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/418879a4a211ea590d35e74f66cff356.png)
 
   N minutes +
 
@@ -17503,9 +17503,9 @@ The following steps describe how to create a Java Virtual Machine (JVM) Garbage 
 
   β
 
-  ![](assets/ead227ade8c92b8a5ab3e0de4419c0b8.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ead227ade8c92b8a5ab3e0de4419c0b8.png)
 
-  ![](assets/5e8348ef6ef55f9b47111226ae6233f5.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5e8348ef6ef55f9b47111226ae6233f5.png)
 
   N minutes +
 
@@ -17590,7 +17590,7 @@ Alert event records are generated per minute. The records include the alert even
 
    The line charts and column charts on the Alert History tab show the relationships between alert data and alert events, and the alert triggering details. The line charts represent the alert data and the column charts represent the alert events.
 
-   ![](assets/8ed05f09aa525f48a1e2b51e3a6a4ba6.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/8ed05f09aa525f48a1e2b51e3a6a4ba6.jpeg)
 
 3. Scroll down to the lower part of the page and view the history of alert events on the **Alert Event History** tab.
 
@@ -17598,7 +17598,7 @@ Alert event records are generated per minute. The records include the alert even
    >
    > Alert notifications are sent only if the trigger status is **Triggered**. In this state, a red dot is displayed in the **Trigger** column.
 
-   ![](assets/96794476cb33a0ff2f45daa97f9060f8.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/96794476cb33a0ff2f45daa97f9060f8.jpeg)
 
 4. Click the **Alarm Post History** tab to view the history of the alert notifications that are sent for triggered alerts. The alert notifications include text messages and emails.
 
@@ -17618,17 +17618,17 @@ You can add a DingTalk robot webhook URL to send alert notifications to a DingTa
 
 4. In the **Group Robot** dialog box, click the **+** icon in the **Add Robot** area, and then select **Custom**.
 
-   ![](assets/5ecd5f79677427fc8a8cbfb3b79b0563.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5ecd5f79677427fc8a8cbfb3b79b0563.png)
 
 5. In the **Robot Details** dialog box, click **Add**.
 
 6. In the **Add Robot** dialog box, edit the robot's profile picture and name. Under **Security Settings**, select at least one option, select the **I Have Read And Agree To The "Custom Robot Service And Disclaimer"** checkbox, and then click **Finish**.
 
-   ![](assets/0e00ecee6fe93687337959210a9ee49e.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/0e00ecee6fe93687337959210a9ee49e.jpeg)
 
 7. In the **Add Robot** dialog box, copy the generated webhook URL.
 
-   ![](assets/8c0bd89cd7de1e28d56b2fcb6c4845a4.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/8c0bd89cd7de1e28d56b2fcb6c4845a4.png)
 
 **Create a contact**
 
@@ -17782,7 +17782,7 @@ You can host Java applications in Enterprise Distributed Application Service (ED
 
 **Overview**
 
-![](assets/be4bc40f4c97ff9e8d791ccdc9f78a7d.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/be4bc40f4c97ff9e8d791ccdc9f78a7d.png)
 
 **ECS environment types**
 
@@ -18305,11 +18305,11 @@ If you already have ECS instances, you can add them to your ECS cluster. There a
      >
      > If no eligible instances are available, click **Create ECS Instance** to open the **Elastic Compute Service** purchase page and purchase new ECS instances.
 
-     ![](assets/12f17f49609197395ef04d4026bf511a.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/12f17f49609197395ef04d4026bf511a.png)
 
    - **Select From Existing Cluster**: Select a microservices namespace and a source cluster in the region. Then, select instances from the **All ECS** list and add them to the **Selected ECS** list.
 
-     ![](assets/a3861f2a4757bf368d0c41e35493da1f.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/a3861f2a4757bf368d0c41e35493da1f.png)
 
 6. On the **Ready To Import** page, verify the import method for each instance.
 
@@ -18610,7 +18610,7 @@ If you want to verify a new application version without affecting traffic in the
 
 **Modify a group name**
 
-1. After the group is created, click the edit icon <img src="assets/12b36b5ab138f3a647f0f8d431c7949d.png" width="12" alt=""> next to the group name.
+1. After the group is created, click the edit icon <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/12b36b5ab138f3a647f0f8d431c7949d.png" width="12" alt=""> next to the group name.
 
 2. In the **Edit** dialog box, modify the **Group Name** and click **Confirm**.
 
@@ -19162,7 +19162,7 @@ The EDAS Agent supports 64-bit CentOS 6.5 and later.
 >
 > You do not need to manage these features. You only need to install the EDAS Agent.
 
-![](assets/025201afad30bd779f93670a0c33643c.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/025201afad30bd779f93670a0c33643c.png)
 
 EDAS provides two methods to install the EDAS Agent:
 
@@ -19210,7 +19210,7 @@ An ECS instance cannot be imported directly if it meets any of the following con
 
 4. On the **Select Cluster And Existing ECS Instances** tab in the **Import ECS** wizard, select a **Microservices Namespace** and a **Select Destination Cluster**. From the instance list, select the ECS instance to import and click **Next**.
 
-   ![](assets/79c19f98cfa890046fd8c6b9e33e6b21.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/79c19f98cfa890046fd8c6b9e33e6b21.jpeg)
 
    > **Note**
    >
@@ -19224,7 +19224,7 @@ An ECS instance cannot be imported directly if it meets any of the following con
 
    - For instances in the **The Following Instances Need To Be Imported After Conversion** section, select **I Agree To Convert The Preceding Instances That Need To Be Imported, And I Understand That The Data In The Original System Will Be Lost After The Conversion**. Enter a new logon password for the root user and click **Confirm And Import**.
 
-     ![](assets/3923e35cda894f9102d8afbf2755e600.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/3923e35cda894f9102d8afbf2755e600.jpeg)
 
 6. On the **Import** tab, you can view the import status of the instance.
 
@@ -19244,7 +19244,7 @@ You can use this method only for ECS instances that are in an ECS cluster.
 
 4. On the **Import ECS** page, click **Switch To Manual Installation** in the upper-right corner. The **Manually Install EDAS Agent On Single Instance** page appears. Click **Copy**.
 
-   ![](assets/bd09abf7904b724a7806507ee3bdb3e7.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/bd09abf7904b724a7806507ee3bdb3e7.png)
 
    > **Note**
    >
@@ -19399,7 +19399,7 @@ EDAS lets you grant a RAM user permissions on a specific resource group. The RAM
 
 - The RAM user for Department A can only manage the resources in this resource group and cannot manage the resources of Department B. This prevents operational conflicts between the two departments.
 
-![](assets/2cc781c2cbea212534d88bc371eec913.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/2cc781c2cbea212534d88bc371eec913.png)
 
 **Go to the Resource groups page**
 
@@ -19473,7 +19473,7 @@ If you have purchased Server Load Balancer (SLB) instances, EDAS synchronizes th
 
 In an EDAS ECS cluster, you can create and deploy applications using Java microservice frameworks.
 
-![](assets/47f218a91abfb845c8a1d39b7799c84d.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/47f218a91abfb845c8a1d39b7799c84d.jpeg)
 
 **Applications**
 
@@ -19689,7 +19689,7 @@ pkill -TERM $PID
 
 4. On the **Application Basic Information** tab of the Create Application wizard, select **ECS Cluster** as the Cluster Type and **Package Deployment** as the **Application Runtime Environment**.
 
-   ![](assets/272e6dc8f7c9ace5de61e3ea26f91f8b.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/272e6dc8f7c9ace5de61e3ea26f91f8b.jpeg)
 
 5. You can enter the **Application name** and click Next.
 
@@ -19697,7 +19697,7 @@ pkill -TERM $PID
 
 7. Set **Instance Source** to **Use Existing Instance** and **Environment** to **Custom Environment**. Select a **Microservices Namespace** and a **Cluster**. For **Instance Source Type**, select **Instances In The Current Cluster** and check the desired ECS instances. Click **Next** at the bottom of the page.
 
-   ![](assets/3ea9c488f1759e023ff7d5303b57e8d5.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/3ea9c488f1759e023ff7d5303b57e8d5.jpeg)
 
 8. On the **Advanced Settings** tab, configure the **Version**, **Application health check**, **Batch**, **Batching method**, and **Agent version** parameters. Then, click **Create application**.
 
@@ -19713,13 +19713,13 @@ pkill -TERM $PID
 
 3. Click the application name. On the **Basic Information** tab, edit the required parameters.
 
-   ![](assets/50e542d1189150e3db022cdfe4e44393.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/50e542d1189150e3db022cdfe4e44393.jpeg)
 
    Then, add the $EDAS_ENV environment variable to the Java startup command in the start.sh script.
 
 4. In the navigation pane on the left, choose **Application monitoring > Application overview** to view monitoring information.
 
-   ![](assets/3be2e0ba9fab3bbd46d23a0366db62e1.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/3be2e0ba9fab3bbd46d23a0366db62e1.jpeg)
 
 **References**
 
@@ -20342,7 +20342,7 @@ You can also use the toolkit-maven-plugin plug-in to update an application that 
 
    - A BUILD SUCCESS prompt is displayed, which indicates that the application is deployed successfully.
 
-     ![](assets/237ca23d28c0b9c32d7f964502c24611.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/237ca23d28c0b9c32d7f964502c24611.png)
 
    - If the output log contains ERROR information, use the log to troubleshoot the failure. Fix the error and redeploy the application.
 
@@ -20951,7 +20951,7 @@ The toolkit-maven-plugin plug-in also supports application upgrades in EDAS Kube
 
    - If the output logs show BUILD SUCCESS, the application is successfully deployed.
 
-     ![](assets/237ca23d28c0b9c32d7f964502c24611.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/237ca23d28c0b9c32d7f964502c24611.png)
 
    - If the output logs contain ERROR information, use the logs to identify the cause of the failure. Then, fix the error and deploy the application again.
 
@@ -21009,7 +21009,7 @@ You can use Cloud Toolkit to deploy, upgrade, and perform phased releases for ap
 
    , and from the drop-down list,
 
-   <img src="assets/bc0a83e25fa50e582f1182568852b3d6.png" width="22" alt="">
+   <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/bc0a83e25fa50e582f1182568852b3d6.png" width="22" alt="">
 
    select **Deploy to EDAS > EDAS for ECS Application**.
 
@@ -21019,7 +21019,7 @@ You can use Cloud Toolkit to deploy, upgrade, and perform phased releases for ap
    >
    > If you have not created an application in EDAS, click **Create application on EDAS console…** in the upper-right corner of the dialog box to open the EDAS console and create an application. For more information, see Create and Deploy an Application in an ECS Cluster.
 
-   ![](assets/ef1f8403f0ef47b04b8db5e05faa2ac3.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ef1f8403f0ef47b04b8db5e05faa2ac3.png)
 
    <table>
      <tr>
@@ -21072,7 +21072,7 @@ You can use Cloud Toolkit to deploy, upgrade, and perform phased releases for ap
 
    You can manage Maven build tasks in Cloud Toolkit for IntelliJ IDEA. You can also add, delete, modify, or move Maven build tasks in the **Before launch** section of the **Deploy to EDAS ECS Cluster** dialog box.
 
-   ![](assets/8e3bca0f7e21862741382a8111442fb9.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/8e3bca0f7e21862741382a8111442fb9.png)
 
    After the phased release starts, deployment logs are displayed in the Terminal section of IntelliJ IDEA. You can monitor the deployment progress and check the result in the logs.
 
@@ -21124,7 +21124,7 @@ Before you perform a canary release, make sure that the application has at least
 
    Upload the deployment package of the new application version.
 
-   ![](assets/8a8c8aece6d5ae17be3c78bf15640ec3.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/8a8c8aece6d5ae17be3c78bf15640ec3.jpeg)
 
    </li>
 
@@ -21138,7 +21138,7 @@ Before you perform a canary release, make sure that the application has at least
 
    The **Publish Policy Configuration** section on the right displays the phased release flow according to the configuration.
 
-   ![](assets/d9863b64e0f672c6b1bdd46cd2ed4905.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/d9863b64e0f672c6b1bdd46cd2ed4905.png)
 
    The following table describes the release policy parameters.
 
@@ -21167,7 +21167,7 @@ Before you perform a canary release, make sure that the application has at least
      >
      > You can create multiple ingress traffic rules.
 
-     ![](assets/2e944425438dff4dcd223538133ebf84.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/2e944425438dff4dcd223538133ebf84.jpeg)
 
      The following table describes the parameters for Canary Release by Content.
 
@@ -21475,7 +21475,7 @@ If an application upgrade is complete but the new version does not function as e
 
 5. In the **Roll Back Application** dialog box, select a previous version from the **Deployment Package Version** drop-down list, set the parameters, and click **Roll Back Application**.
 
-   ![](assets/8469552b9bf81c484f9539e7d874288d.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/8469552b9bf81c484f9539e7d874288d.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -21892,7 +21892,7 @@ Before you begin, complete the following tasks.
 
    Find the application that you created in the previous step, click the application name to open the details page, and then obtain the application ID.
 
-   ![](assets/68584d76a6470aa7d8dde513290cc87b.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/68584d76a6470aa7d8dde513290cc87b.jpeg)
 
    </li>
 
@@ -22147,7 +22147,7 @@ The **Overview Analysis** tab displays the following key metrics:
 
 - System information: Time series curves for CPU, MEM, and Load.
 
-  ![](assets/900fc656d4bdd29cf6464c5e13487df6.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/900fc656d4bdd29cf6464c5e13487df6.png)
 
 **Topology tab**
 
@@ -22506,7 +22506,7 @@ First, you need to create a contact. For more information, see Manage contacts.
 
   Figure 1. View contact information in a contact group
 
-  ![](assets/bf23f76467686eb51e547f163bf76fa1.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/bf23f76467686eb51e547f163bf76fa1.png)
 
   > **Note**
   >
@@ -22597,7 +22597,7 @@ To create an alert based on a period-over-period comparison of Java Virtual Mach
 
   β
 
-  ![](assets/d3d27fe89f63fead70c7c0eed6e57509.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/d3d27fe89f63fead70c7c0eed6e57509.png)
 
   2N
 
@@ -22615,9 +22615,9 @@ To create an alert based on a period-over-period comparison of Java Virtual Mach
 
   β
 
-  ![](assets/af942e1b45c10760e03739b889d05b67.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/af942e1b45c10760e03739b889d05b67.png)
 
-  ![](assets/62a4ed677b941c7b5a16365050b2d626.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/62a4ed677b941c7b5a16365050b2d626.png)
 
   N minutes +
 
@@ -22637,9 +22637,9 @@ To create an alert based on a period-over-period comparison of Java Virtual Mach
 
   β
 
-  ![](assets/5b8ff560352a26591bc9bddf42d34695.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5b8ff560352a26591bc9bddf42d34695.png)
 
-  ![](assets/37fe45d5383af60c05bae2db1edbebde.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/37fe45d5383af60c05bae2db1edbebde.png)
 
   N minutes +
 
@@ -22722,7 +22722,7 @@ Alert event records are generated per minute. The records include the alert even
 
    The line charts and column charts on the Alert History tab show the relationships between alert data and alert events, and the alert triggering details. The line charts represent the alert data and the column charts represent the alert events.
 
-   ![](assets/8ed05f09aa525f48a1e2b51e3a6a4ba6.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/8ed05f09aa525f48a1e2b51e3a6a4ba6.jpeg)
 
 3. Scroll down to the lower part of the page and view the history of alert events on the **Alert Event History** tab.
 
@@ -22730,7 +22730,7 @@ Alert event records are generated per minute. The records include the alert even
    >
    > Alert notifications are sent only if the trigger status is **Triggered**. In this state, a red dot is displayed in the **Trigger** column.
 
-   ![](assets/96794476cb33a0ff2f45daa97f9060f8.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/96794476cb33a0ff2f45daa97f9060f8.jpeg)
 
 4. Click the **Alarm Post History** tab to view the history of the alert notifications that are sent for triggered alerts. The alert notifications include text messages and emails.
 
@@ -22750,17 +22750,17 @@ You can add a DingTalk robot webhook URL to send alert notifications to a DingTa
 
 4. In the **Group Robot** dialog box, click the **+** icon in the **Add Robot** area, and then select **Custom**.
 
-   ![](assets/5ecd5f79677427fc8a8cbfb3b79b0563.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5ecd5f79677427fc8a8cbfb3b79b0563.png)
 
 5. In the **Robot Details** dialog box, click **Add**.
 
 6. In the **Add Robot** dialog box, edit the robot's profile picture and name. Under **Security Settings**, select at least one option, select the **I Have Read And Agree To The "Custom Robot Service And Disclaimer"** checkbox, and then click **Finish**.
 
-   ![](assets/0e00ecee6fe93687337959210a9ee49e.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/0e00ecee6fe93687337959210a9ee49e.jpeg)
 
 7. In the **Add Robot** dialog box, copy the generated webhook URL.
 
-   ![](assets/8c0bd89cd7de1e28d56b2fcb6c4845a4.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/8c0bd89cd7de1e28d56b2fcb6c4845a4.png)
 
 **Create a contact**
 
@@ -23001,7 +23001,7 @@ Create an SLB instance. For more information, see **Create an SLB Instance > Ser
 
 If you have an application that runs on multiple ECS instances, you may want to expose it through a single public IP address for security reasons. To do this, attach an SLB instance to the application.
 
-![](assets/de30613d31c19892743abe17d748e7cc.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/de30613d31c19892743abe17d748e7cc.png)
 
 This topic uses an Internet-facing SLB instance as an example. The procedure for an internal-facing SLB instance is the same. However, during verification, make sure to select the correct network environment.
 
@@ -23027,7 +23027,7 @@ This topic uses an Internet-facing SLB instance as an example. The procedure for
 
    On the **Select SLB** tab, select the SLB instance you created from the SLB **(Internet)** drop-down list, and then click **Next**.
 
-   ![](assets/11d4805982f42d549f5378a8a5503848.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/11d4805982f42d549f5378a8a5503848.jpeg)
 
    If the selected SLB instance is already attached to another application, the following message appears:
 
@@ -23050,7 +23050,7 @@ This topic uses an Internet-facing SLB instance as an example. The procedure for
      | Health Check Path (URI) | Note<br>This parameter is required only for the HTTP protocol.<br>The URI that SLB uses to check the health of backend applications. The default path is /_ehc.html. Enter the correct health check path for your application. For more information, see <strong>Configure A Health Check &gt; Server Load Balancer</strong> <strong>User Guide</strong>. |
      | Backend Port | The service port of the application. This parameter cannot be changed. |
 
-     ![](assets/9b8142d75d191855cadd63d874de0c2c.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/9b8142d75d191855cadd63d874de0c2c.jpeg)
 
    </li>
 
@@ -23080,7 +23080,7 @@ This topic uses an Internet-facing SLB instance as an example. The procedure for
 
      - If no vServer group is configured for the SLB instance, or if you want to create a new one for your application, select **Create VServer Group** and enter a **VServer Group Name**.
 
-   ![](assets/1e3c6e26ffd485b10837b4581deaf556.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/1e3c6e26ffd485b10837b4581deaf556.jpeg)
 
    <ol type="i" start="4">
 
@@ -23118,7 +23118,7 @@ Create an SLB instance. For more information, see the **Create an SLB Instance >
 
 For example, consider two applications: a User application that provides an order query feature and an Order application that provides a user logon feature. Both applications are exposed to the Internet through the same public IP address and are attached to the same domain name. You can attach different listener ports to the two applications to distribute traffic.
 
-![](assets/86b9d339981596c7cc1412229f5315ec.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/86b9d339981596c7cc1412229f5315ec.png)
 
 **Attach an SLB instance to the first application and configure a listener port**
 
@@ -23144,7 +23144,7 @@ To use different ports on one SLB instance to forward requests to different appl
 
    On the **Select SLB** tab, select the SLB instance that you created from the **Server Load Balancer (Internet)** drop-down list, and then click **Next**.
 
-   ![](assets/11d4805982f42d549f5378a8a5503848.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/11d4805982f42d549f5378a8a5503848.jpeg)
 
    </li>
 
@@ -23191,7 +23191,7 @@ To use different ports on one SLB instance to forward requests to different appl
      >
      > The default server group does not support forwarding rules.
 
-   ![](assets/1e3c6e26ffd485b10837b4581deaf556.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/1e3c6e26ffd485b10837b4581deaf556.jpeg)
 
    <ol type="i" start="4">
 
@@ -23241,7 +23241,7 @@ Attach the same SLB instance to the second application, and configure a listener
 
    SLB instance, and then click **Next**.
 
-   ![](assets/9b8142d75d191855cadd63d874de0c2c.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/9b8142d75d191855cadd63d874de0c2c.jpeg)
 
    Listener parameters:
 
@@ -23270,7 +23270,7 @@ Attach the same SLB instance to the second application, and configure a listener
 
    The same server group (default server group or vServer group) of an SLB instance can be attached to only one application or application group. Ensure that the server group that you attach to the second application is different from the server group for the first application. Otherwise, an error occurs when you attach the SLB instance. Select **Create VServer Group**, enter a **VServer Group Name**, and create a vServer group for the second application.
 
-   ![](assets/1e3c6e26ffd485b10837b4581deaf556.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/1e3c6e26ffd485b10837b4581deaf556.jpeg)
 
    <ol type="i" start="4">
 
@@ -23302,7 +23302,7 @@ An SLB instance is created. For more information, see the **Elastic Compute Serv
 
 For example, assume that you have two applications: a User application for querying orders and an Order application for user logon. Both applications use the same public IP address and port, which is port 80 by default. You can configure different domain names to distribute traffic between the applications. In this example, *u.domain.com* is configured for the User application and *o.domain.com* is configured for the Order application.
 
-![](assets/4bb0192f0a9fb4d01331812085b2bbf6.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/4bb0192f0a9fb4d01331812085b2bbf6.png)
 
 **Bind the SLB instance to the first application and configure a domain name-based forwarding rule**
 
@@ -23328,7 +23328,7 @@ Bind the SLB instance to the first application, and configure a listener port, v
 
    On the **Select SLB** tab, select the SLB instance that you created from the **Server Load Balancer (Internet)** drop-down list, and then click **Next**.
 
-   ![](assets/11d4805982f42d549f5378a8a5503848.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/11d4805982f42d549f5378a8a5503848.jpeg)
 
    </li>
 
@@ -23411,7 +23411,7 @@ Bind the SLB instance to the first application, and configure a listener port, v
 
      </ol>
 
-     ![](assets/1e3c6e26ffd485b10837b4581deaf556.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/1e3c6e26ffd485b10837b4581deaf556.jpeg)
 
    <ol type="i" start="4">
 
@@ -23469,7 +23469,7 @@ Bind the second application to the same SLB instance and listener port as the fi
 
    On the **Select SLB** tab, from the **Server Load Balancer (Internet)** drop-down list, select the SLB instance that is attached to the first application, and then click **Next**.
 
-   ![](assets/11d4805982f42d549f5378a8a5503848.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/11d4805982f42d549f5378a8a5503848.jpeg)
 
    </li>
 
@@ -23483,7 +23483,7 @@ Bind the second application to the same SLB instance and listener port as the fi
 
    listener port that you used for the first application, and then click **Next**.
 
-   ![](assets/ddd5e6fe590850e874cff9adad7b140d.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ddd5e6fe590850e874cff9adad7b140d.png)
 
    <ol type="i" start="3">
 
@@ -23505,7 +23505,7 @@ Bind the second application to the same SLB instance and listener port as the fi
 
    If you have already planned your load balancing configuration and configured a vServer group and a forwarding rule in the Server Load Balancer console, you can select an existing vServer group and an existing forwarding rule. For more information, see Step 5.
 
-   ![](assets/060e963ceb441c7bc972b59a1b487c1f.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/060e963ceb441c7bc972b59a1b487c1f.png)
 
    <ol type="i" start="4">
 
@@ -23563,7 +23563,7 @@ In an ECS cluster, you can create multiple application instance groups and deplo
 
 For example, in a flash sale scenario, the URL for querying product information in an ordering system (o.domain.com/orders/queryitem) is accessed more frequently than the URLs for other services. You can deploy the product information query service to a dedicated flash sale group and deploy other services to the default group. Then, you can configure URL-based forwarding policies for the SLB instance to forward product information query requests to the flash sale group and all other requests to the default group.
 
-![](assets/dd3a6fa51f82f69836566086f96b8a12.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/dd3a6fa51f82f69836566086f96b8a12.png)
 
 **Configure vServer groups and forwarding policies for application groups**
 
@@ -23583,7 +23583,7 @@ You can configure vServer groups and forwarding policies for the attached SLB in
 
 5. On the **Instance Deployment Information** tab, to the right of the first group (the default group), click **Group Settings** and select **Internet-facing SLB Information** from the drop-down list.
 
-   ![](assets/ca00d8a3e6034ee059ee9c64c254e1ca.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ca00d8a3e6034ee059ee9c64c254e1ca.png)
 
 6. In the **Group Settings** dialog box, select a vServer group, set the forwarding rule, and click **Next**.
 
@@ -23633,7 +23633,7 @@ You can configure vServer groups and forwarding policies for the attached SLB in
 
      </ol>
 
-     ![](assets/1e3c6e26ffd485b10837b4581deaf556.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/1e3c6e26ffd485b10837b4581deaf556.jpeg)
 
 7. On the **Apply SLB Change Order** page, click **Confirm Change**.
 
@@ -23798,9 +23798,9 @@ Your application is integrated with AHAS using the SDK. For more information, se
 
   To enable throttling for a service provider, you must configure the throttling module on the provider side and configure a throttling policy in EDAS. When a service consumer calls the provider, the throttling module processes all requests. The throttling policy is triggered if the number of calls exceeds the preset threshold within a specific period.
 
-  ![](assets/f4329ef0643a1b18defa1ccf8f3e935a.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/f4329ef0643a1b18defa1ccf8f3e935a.png)
 
-  ![](assets/5b05db20a59254b67076d16888282b99.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5b05db20a59254b67076d16888282b99.png)
 
   Number of calls exceeds
 
@@ -23810,7 +23810,7 @@ Your application is integrated with AHAS using the SDK. For more information, se
 
   Service Consumer A
 
-  ![](assets/eeec4c09278b5c1f6cdc73ad7e69b55a.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/eeec4c09278b5c1f6cdc73ad7e69b55a.png)
 
   Normal call
 
@@ -23822,9 +23822,9 @@ Your application is integrated with AHAS using the SDK. For more information, se
 
   To enable degradation for a service consumer, you must configure the degradation module on the consumer side and configure a degradation policy in EDAS. When the consumer calls a service provider, the degradation policy is triggered if the provider's response time exceeds the preset threshold.
 
-  ![](assets/e669c7c19aea282b8c10be41e7fc12ff.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/e669c7c19aea282b8c10be41e7fc12ff.png)
 
-  ![](assets/4e999d1c4c3d1e1b7b9ba2ed1cf42242.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/4e999d1c4c3d1e1b7b9ba2ed1cf42242.png)
 
   Call timeout
 
@@ -23834,7 +23834,7 @@ Your application is integrated with AHAS using the SDK. For more information, se
 
   Service Consumer
 
-  ![](assets/6996c4d7821cad4801bdc3fc1f626ab5.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/6996c4d7821cad4801bdc3fc1f626ab5.png)
 
   Normal
 
@@ -23890,11 +23890,11 @@ Spring Cloud, Dubbo, and High-speed Service Framework (HSF) applications can be 
 
    - Upgrade or downgrade the runtime environment for HSF applications.
 
-     ![](assets/6ac7834266c1714d1c896d0c5b2b1c05.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/6ac7834266c1714d1c896d0c5b2b1c05.png)
 
    - Upgrade or downgrade the runtime environment for Spring Cloud and Dubbo applications. This example uses an application deployed using a JAR package.
 
-     ![](assets/73eca92eecaae70c71618ae68952be62.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/73eca92eecaae70c71618ae68952be62.png)
 
    > **Note**
    >
@@ -23944,7 +23944,7 @@ You can configure Java Virtual Machine (JVM) parameters to enable the container 
    >
    >   icon next to a parameter to view its
    >
-   >   <img src="assets/83b191fb2befe60dfe3be8f22a609cb1.png" width="16" alt="">
+   >   <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/83b191fb2befe60dfe3be8f22a609cb1.png" width="16" alt="">
    >
    >   description.
    >
@@ -24129,7 +24129,7 @@ To configure a mount script, follow these steps:
 
 5. In the dialog box that appears, click to expand the script for the desired lifecycle event. Enter your script in the text box, and then click **Modify**.
 
-   ![](assets/b3458da0884979be29411f36a0e4a72c.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/b3458da0884979be29411f36a0e4a72c.jpeg)
 
    | Configuration parameter | Description |
    | --- | --- |
@@ -24194,7 +24194,7 @@ In a flash sale scenario, a URL for querying product information in the order sy
 
 5. In the **Bind SLB to Application** dialog box, select an SLB instance, then click **Next**.
 
-   ![](assets/bc774ae2d8f0ea71b174c4c8403e7bcb.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/bc774ae2d8f0ea71b174c4c8403e7bcb.jpeg)
 
 6. On the **Select Listening Configuration** tab, select a protocol and listening port, and then click **Next**.
 
@@ -24202,7 +24202,7 @@ In a flash sale scenario, a URL for querying product information in the order sy
 
    - In the **Add New Listening Port** section, create a new listener. For example, set the protocol to HTTP and the frontend port to 82.
 
-   ![](assets/5e2b8ec18dfe9113457c446a5746c9f4.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5e2b8ec18dfe9113457c446a5746c9f4.jpeg)
 
 7. On the **Configure vServer Group and Forwarding Rules** tab, specify the server group to bind, and then click **Next**.
 
@@ -24334,11 +24334,11 @@ Zone affinity ensures that an application prioritizes service providers in the s
 
 When applications are deployed across multiple zones, cross-zone invocations can occur. As shown in the following figure, if Application A in Zone 1 invokes Application B in Zone 2, the cross-zone invocation increases network latency. This results in a longer HTTP response time.
 
-![](assets/65e5090021f5788bc6756388110386c4.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/65e5090021f5788bc6756388110386c4.jpeg)
 
 After you enable zone affinity for an application service, the consumer application prioritizes providers in the same zone, as shown in the following figure. This avoids network latency from cross-zone invocations and reduces the HTTP response time.
 
-![](assets/5af7e1b63fa47fd6ce11323d809f9a21.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5af7e1b63fa47fd6ce11323d809f9a21.jpeg)
 
 If no service providers are available in the current zone, the service consumer invokes service providers in other zones.
 
@@ -24358,7 +24358,7 @@ To use the zone affinity feature, enable Locality Priority on the application de
 
 4. On the **Basic Information** page of the application, in the **Application Settings** section, click **Edit** to the right of **Microservice Governance**. In the dialog box that appears, turn on Locality Priority and set the **Threshold**.
 
-   ![](assets/386132f201df4feb02633c8ea763315e.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/386132f201df4feb02633c8ea763315e.jpeg)
 
 <a id="section-6-7-7"></a>
 
@@ -24380,7 +24380,7 @@ This topic describes how to view application changes using an application deploy
 
 2. Click **View Details** to open the **Change Details** page, where you can view the change information and the real-time status of the application.
 
-   ![](assets/3b133a24f94c1a9b0130ddb0a762fcc5.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/3b133a24f94c1a9b0130ddb0a762fcc5.jpeg)
 
    - Change overview: Includes the change process ID, execution status, and change type.
 
@@ -24392,11 +24392,11 @@ This topic describes how to view application changes using an application deploy
 
 3. On the left side of the change process execution area, click a stage under **Batch X**
 
-   **Deployment**. Turn on the **View All Tasks** switch, and then click the <img src="assets/4a148afbde3ebf17f8a2f1bd4bf16eb2.png" width="18" alt=""> icon to the right of
+   **Deployment**. Turn on the **View All Tasks** switch, and then click the <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/4a148afbde3ebf17f8a2f1bd4bf16eb2.png" width="18" alt=""> icon to the right of
 
    an instance IP address to view the task execution status for that instance in the selected stage.
 
-   ![](assets/dc6d8ef46ebd1d2923ad8927fe97e6ea.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/dc6d8ef46ebd1d2923ad8927fe97e6ea.jpeg)
 
 4. Click a specific task to expand its execution log.
 
@@ -24610,7 +24610,7 @@ When you change an application in an Elastic Compute Service (ECS) cluster using
 
   On the application details page for the ECS instance, you can view the **Application Port** in the **Application Settings** section.
 
-  ![](assets/2ee1ea890e41257aa0c1e3d78b54765f.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/2ee1ea890e41257aa0c1e3d78b54765f.png)
 
   </li>
 
@@ -24809,7 +24809,7 @@ You have created an application of the Alibaba Cloud Application Server type in 
      </tr>
      <tr>
        <td>Add</td>
-       <td>Click <strong>Add</strong> to add a<br>configuration item. Click the<img src="assets/1ddf76c1b30b7785d1dbc38bafe119df.png" width="10" alt=""><br>icon to the right of the text box to copy the configuration item.<br>Click the<img src="assets/5ad52050447de922dd6675a700afe1cd.png" width="10" alt="">icon to delete it.</td>
+       <td>Click <strong>Add</strong> to add a<br>configuration item. Click the<img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/1ddf76c1b30b7785d1dbc38bafe119df.png" width="10" alt=""><br>icon to the right of the text box to copy the configuration item.<br>Click the<img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/5ad52050447de922dd6675a700afe1cd.png" width="10" alt="">icon to delete it.</td>
        <td><code>• -</code><br><code>XX:+HeapDumpOnOutOfMemory</code> <code>Error </code>: Automatically generates a heap memory snapshot when an out-of-memory error occurs.<br><code>• -</code><br><code>XX:MaxMetaspaceSize=512m</code><code> </code>: Limits the JVM metaspace to a maximum of 512 MB of memory.</td>
      </tr>
      <tr>
@@ -24827,7 +24827,7 @@ You have created an application of the Alibaba Cloud Application Server type in 
      </tr>
      <tr>
        <td>Add</td>
-       <td>Click <strong>Add</strong> to add a<br>configuration item. Click the<img src="assets/1ddf76c1b30b7785d1dbc38bafe119df.png" width="10" alt=""><br>icon to the right of the text box to copy the configuration item.<br>Click the<img src="assets/5ad52050447de922dd6675a700afe1cd.png" width="10" alt="">icon to delete it.</td>
+       <td>Click <strong>Add</strong> to add a<br>configuration item. Click the<img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/1ddf76c1b30b7785d1dbc38bafe119df.png" width="10" alt=""><br>icon to the right of the text box to copy the configuration item.<br>Click the<img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/5ad52050447de922dd6675a700afe1cd.png" width="10" alt="">icon to delete it.</td>
        <td>• -Dfile.encoding=UTF-8: Sets the default character encoding to UTF-8.<br>• -DswitchCharacterEncoding= false: A custom application parameter. It is typically used to disable the automatic character encoding transform logic.</td>
      </tr>
      <tr>
@@ -25366,7 +25366,7 @@ You have created an ECS cluster for Alibaba Application Server. For more informa
    | Reset | Click <strong>Reset</strong> to restore default values. | None |
    | Submit | Click <strong>Submit</strong> to save the configuration items in the form. | None |
 
-   ![](assets/69fbad58dd56c0135aecf6fdb80cd87c.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/69fbad58dd56c0135aecf6fdb80cd87c.png)
 
 <a id="section-6-7-9-4-2-2"></a>
 
@@ -25678,7 +25678,7 @@ container/logs/
 
 container-level
 
-![](assets/460ee42a63577540b3f742853d724242.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/460ee42a63577540b3f742853d724242.png)
 
 (container
 
@@ -25768,7 +25768,7 @@ After you enable online viewing for a log directory, you can view the instance a
 
 3. On the **Log View** page, select an instance from the **ECS Instance ID/Name/IP** drop-down list to view the log details of the instance.
 
-   ![](assets/39de3fcb7ed41b20dd6839332b99b65f.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/39de3fcb7ed41b20dd6839332b99b65f.jpeg)
 
    Click **Enable Real-time Append** in the lower-right corner of the page to continuously load the latest content appended to the file. This is similar to the  `tailf`  command.
 
@@ -25799,7 +25799,7 @@ You can add log directories or files to Simple Log Service to view and search ap
    | <strong>Project</strong>, <strong>Logstore</strong> | • If you set <strong>Source Method</strong> to <strong>Create</strong>:<br>• <strong>Project</strong>: Enter a name for the project. The recommended format is <code> edas-project-&lt;</code> <code>region-id-timestamp&gt; </code>, such as <code> edas-</code><code>project-cn-qingdao- </code>.<br>• <strong>Logstore</strong>: EDAS automatically creates a Logstore and names it in the <code> edas-</code><code>logstore-&lt;Absolute path of the log f</code> <code>ile&gt; </code> format, such as <code> a-homeadminlogs</code><code> </code>.<br>• If you set <strong>Source Method</strong> to <strong>Use Existing</strong>:<br>• <strong>Project</strong>: Select an existing project from the drop-down list.<br>• <strong>Logstore</strong>: Select an existing Logstore from the drop-down list. |
    | Log Path | To add only some log files from the current directory, enter a keyword from the file names or the full file names. You can use full names or use wildcard characters for pattern matching. |
 
-   ![](assets/82d62af0e712d0f13767ff3cb7e9bebb.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/82d62af0e712d0f13767ff3cb7e9bebb.png)
 
 **Remove a log directory or file from Simple Log Service**
 
@@ -25956,7 +25956,7 @@ The configuration with the highest priority takes effect. The priority order is:
 
   After you enable a log configuration, its content is output to the log at the INFO level. The logger name is  `com.alibaba.agent.dynamic.log.config` , as shown in the following figure.
 
-  ![](assets/5fe1587e19d3ec4b1fd215450c23f5d9.jpeg)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5fe1587e19d3ec4b1fd215450c23f5d9.jpeg)
 
   > **Note**
   >
@@ -26148,7 +26148,7 @@ The Security Center feature is disabled by default. To use this feature, contact
 
 4. On the **Cloud Service Access Rules** page, select a target Alibaba Cloud service and click **Add Instance** on the right. This topic uses Server Load Balancer (SLB) as an example.
 
-   ![](assets/81ea9b875183598b4bd2df94ea6d865e.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/81ea9b875183598b4bd2df94ea6d865e.jpeg)
 
 5. On the **Add Instance** page, select a target instance and click **OK**.
 
@@ -26303,7 +26303,7 @@ The relationship between a Service, an Ingress, and an Ingress Controller is as 
 
 - An Ingress Controller is a reverse proxy program that parses Ingress routing rules and forwards HTTP or HTTPS traffic to the corresponding Service.
 
-![](assets/33562520b115ff55de3274c79c87f724.jpeg)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/33562520b115ff55de3274c79c87f724.jpeg)
 
 **Application route configuration constraints (for Kubernetes clusters)**
 
@@ -26439,7 +26439,7 @@ Do not modify Ingress resources created by EDAS. These resources contain the fol
 
 **Verify the result**
 
-In a browser, access the <img src="assets/8988dadad7179d78af24443983f131b8.png" width="96" alt="">
+In a browser, access the <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/8988dadad7179d78af24443983f131b8.png" width="96" alt="">
 
 `Domain Name/Path` specified in the routing rule. Verify that you can
 
@@ -26499,12 +26499,12 @@ You can use an application template to deploy the same application configuration
      </tr>
      <tr>
        <td>Load balancing (private network)</td>
-       <td><img src="assets/5d48f4a54af066d2799ccb63f67921ac.jpeg" alt=""><br>Configure the TCP and HTTP protocols.<br>• <strong>SLB Port(Application)</strong>: the frontend port of the internal-facing SLB instance. This port can be used to access the application. Valid values: 1 to 65535.<br>• Container Port (Target <strong>Port)</strong>: the port on which a process listens. This port is defined by the application.For example, the default port of a web application is <em>8080</em>.</td>
+       <td><img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/5d48f4a54af066d2799ccb63f67921ac.jpeg" alt=""><br>Configure the TCP and HTTP protocols.<br>• <strong>SLB Port(Application)</strong>: the frontend port of the internal-facing SLB instance. This port can be used to access the application. Valid values: 1 to 65535.<br>• Container Port (Target <strong>Port)</strong>: the port on which a process listens. This port is defined by the application.For example, the default port of a web application is <em>8080</em>.</td>
        <td>None</td>
      </tr>
      <tr>
        <td>Load balancing (public network)</td>
-       <td><img src="assets/5d4d6026a7b616204af0fba60fcc1e53.jpeg" alt=""><br>Configure the TCP and HTTP protocols.<br>• <strong>SLB Port(Application)</strong>: the frontend port of the Internet-facing SLB instance. This port can be used to access the application. Valid values: 1 to 65535.<br>• Container Port (Target <strong>Port)</strong>: the port on which a process listens. This port is defined by the application.For example, the default port of a web application is <em>8080</em>.</td>
+       <td><img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/5d4d6026a7b616204af0fba60fcc1e53.jpeg" alt=""><br>Configure the TCP and HTTP protocols.<br>• <strong>SLB Port(Application)</strong>: the frontend port of the Internet-facing SLB instance. This port can be used to access the application. Valid values: 1 to 65535.<br>• Container Port (Target <strong>Port)</strong>: the port on which a process listens. This port is defined by the application.For example, the default port of a web application is <em>8080</em>.</td>
        <td>None</td>
      </tr>
    </table>
@@ -26577,11 +26577,11 @@ You can use a multi-cluster application template to create a multi-cluster appli
 
 5. In the Publish configuration step, click **AddCluster**. In the **AddCluster** dialog box, select the clusters that you want to add and click **OK**.
 
-   ![](assets/4710d46e6beb6ba77eb893c19be3f20f.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/4710d46e6beb6ba77eb893c19be3f20f.jpeg)
 
 6. On the **Create Multi-cluster Application** page, click **Start publishing** at the bottom. In the **Confirm release** message, confirm the information and click **Yes**.
 
-   ![](assets/ad2129793d447c4d17ff065a3f4df193.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ad2129793d447c4d17ff065a3f4df193.jpeg)
 
 7. Verify the result after the deployment is successful.
 
@@ -26590,7 +26590,7 @@ You can use a multi-cluster application template to create a multi-cluster appli
    done
    ```
 
-   ![](assets/8fa5ddf23452c5c58c17ac741b0ba2ef.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/8fa5ddf23452c5c58c17ac741b0ba2ef.jpeg)
 
 **View the details of a multi-cluster application**
 
@@ -26768,7 +26768,7 @@ edas_web_properties(pro_k,pro_v)values('feature.custompackage.enable.${regionId}
 
 5. On the **Application Configuration** tab, select **Package List** as the deployment package source, select the **Package** and version number, and then click **Next** at the bottom of the page.
 
-   ![](assets/0c8178a9254766fd8a33c96276b782b7.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/0c8178a9254766fd8a33c96276b782b7.jpeg)
 
 6. On the **Application Advanced Settings** tab, configure **Version**, **Application Health Check**, **Batches**, **Batch Mode**, and **Agent Version**, and then click **Create Application**.
 
@@ -26870,11 +26870,11 @@ Service search has two versions: a new version and an old version. You can switc
 
    - **Basic Information**
 
-     ![](assets/7deb1ea3e4fc1d7337013f646bc65f8d.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/7deb1ea3e4fc1d7337013f646bc65f8d.png)
 
    - **Service Invocation Relationships**
 
-     ![](assets/d23ab5aeaf856c15a8734312f5f48bc0.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/d23ab5aeaf856c15a8734312f5f48bc0.png)
 
      The service invocation relationships section displays lists of **service providers** and **service consumers**, and their **IP** and **port** information.
 
@@ -26882,13 +26882,13 @@ Service search has two versions: a new version and an old version. You can switc
 
      - **Interface Metadata**
 
-       ![](assets/5135c135ae43453e073f32e3d95ea439.png)
+       ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5135c135ae43453e073f32e3d95ea439.png)
 
        The **Interface Metadata** section displays the class and request method for each service.
 
      - **Metadata**
 
-       ![](assets/c20d279e3bf8fe2b0ee16f99741cc66b.png)
+       ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/c20d279e3bf8fe2b0ee16f99741cc66b.png)
 
        The **Metadata** section displays service metadata and includes metadata that is provided by EDAS for microservice capabilities.
 
@@ -26912,7 +26912,7 @@ The following figure shows an example scenario. A system contains four applicati
 
 To protect the performance and service availability of Application A, you can configure an outlier ejection policy for it. After the policy is configured, the system monitors the instance status of applications B, C, and D. The system dynamically ejects or adds instances to ensure that service calls are successful.
 
-![](assets/a1535328b7f3cfcf1d393614fc8d8f00.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/a1535328b7f3cfcf1d393614fc8d8f00.png)
 
 The outlier ejection process is as follows:
 
@@ -26998,7 +26998,7 @@ The following sections describe service authentication scenarios.
 
 Consumers 1, 2, and 3 and the provider are deployed in the same namespace. By default, Consumers 1, 2, and 3 can call all paths (Paths 1, 2, and 3) of the provider.
 
-![](assets/c14e1bee875bcb0dec0630230aa5cfb7.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/c14e1bee875bcb0dec0630230aa5cfb7.png)
 
 **Configure service authentication**
 
@@ -27012,7 +27012,7 @@ Consumers 1, 2, and 3 and the provider are deployed in the same namespace. By de
 
 The following figure shows the application call flow after authentication rules are applied:
 
-![](assets/3576ad8cccaf7c274e25b79973fe75a6.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/3576ad8cccaf7c274e25b79973fe75a6.png)
 
 **Create a service authentication rule**
 
@@ -27115,7 +27115,7 @@ with Istio
 
 integrations
 
-![](assets/30c2a99ab2fe9485d7a92590ec16cf64.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/30c2a99ab2fe9485d7a92590ec16cf64.png)
 
 Control plane
 
@@ -27208,7 +27208,7 @@ Alibaba Cloud Service Mesh (ASM) provides a unified service mesh for core scenar
 
 The Service Mesh architecture is composed of its components (Istiod, Envoy, and the console) and your Kubernetes cluster. The overall architecture is as follows:
 
-![](assets/0ee454e85b84e3349fa062810d6779c1.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/0ee454e85b84e3349fa062810d6779c1.png)
 
 <a id="section-8-3-1-4"></a>
 
@@ -27523,7 +27523,7 @@ The following table describes the traffic governance policies that Service Mesh 
 
 6. On the **Traffic Governance** tab, turn on the **Timeout Configuration** switch, click the
 
-   <img src="assets/8504cea9e2b502bfc06c1423f225344a.png" width="13" alt="">
+   <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/8504cea9e2b502bfc06c1423f225344a.png" width="13" alt="">
 
    icon, enter a **Timeout** value, and then click **Update Configuration**.
 
@@ -27954,7 +27954,7 @@ Service Mesh lets you view all version information for a service, including vers
 
 5. On the **Version Management** page, find the target service's **Version**. In the **Actions** column, click **Edit Sidecar Resources** to configure the Sidecar resources for that service.
 
-   Click <img src="assets/d25b5790d96a728b7aad9727289d7aea.png" width="14" alt=""> to view the instance list. In the **Actions** column, click **Restart** to restart the
+   Click <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/d25b5790d96a728b7aad9727289d7aea.png" width="14" alt=""> to view the instance list. In the **Actions** column, click **Restart** to restart the
 
    instance.
 
@@ -28000,13 +28000,13 @@ Service Mesh provides a traffic lane feature that isolates related application v
 
 **Background information**
 
-![](assets/b3cd99af5ec4c9032924f86ece89bee8.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/b3cd99af5ec4c9032924f86ece89bee8.png)
 
 Other
 
-![](assets/62be2cadafdee95a0623bdb2c24be274.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/62be2cadafdee95a0623bdb2c24be274.png)
 
-![](assets/b539539dd44e9128641117753cd2f71f.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/b539539dd44e9128641117753cd2f71f.png)
 
 traffic
 
@@ -28014,7 +28014,7 @@ Header(end-user=dev1)
 
 Header(end-user=dev2)
 
-![](assets/03d24befac3df8ae1f9a52a8e592bcff.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/03d24befac3df8ae1f9a52a8e592bcff.png)
 
 This topic uses the Bookinfo sample application to demonstrate end-to-end traffic control. Use traffic lanes to route traffic with **end-user=dev1** to the **reviews v3** service, traffic with **end-user=dev2** to the **reviews v1** service, and all other traffic to the **reviews v2** service.
 
@@ -28032,7 +28032,7 @@ This topic uses the dev1 and dev2 versions of the reviews application as example
 
 3. On the **End-to-End Routing** page, click **Create Lane**.
 
-4. In the **Create Lane** dialog box, select a **Mesh**, enter <img src="assets/4cccfe71d9ee392660649df3a6a67afd.png" width="32" alt="">
+4. In the **Create Lane** dialog box, select a **Mesh**, enter <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/4cccfe71d9ee392660649df3a6a67afd.png" width="32" alt="">
 
    `dev1` as the lane name, and click **OK**.
 
@@ -28102,7 +28102,7 @@ This topic uses the dev1 and dev2 versions of the reviews application as example
 
 2. On the **End-to-End Routing** page, click **Create Lane**.
 
-3. In the **Create Lane** dialog box, select a **Mesh**, enter <img src="assets/0b6ce199a9fee367985836abf664286f.png" width="32" alt="">
+3. In the **Create Lane** dialog box, select a **Mesh**, enter <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/0b6ce199a9fee367985836abf664286f.png" width="32" alt="">
 
    `dev2` as the lane name, and click **OK**.
 
@@ -28134,9 +28134,9 @@ This topic uses the dev1 and dev2 versions of the reviews application as example
 
    </ol>
 
-   **Type** to **header**, **Keyword** to <img src="assets/2436d599f1d27a4f4067e9ca68870539.png" width="53" alt="">
+   **Type** to **header**, **Keyword** to <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/2436d599f1d27a4f4067e9ca68870539.png" width="53" alt="">
 
-   `end-user`, **Match Type** to **Exact Match**, and **Value** to <img src="assets/363a718041160afad31d6bd014a31ac2.png" width="32" alt="">
+   `end-user`, **Match Type** to **Exact Match**, and **Value** to <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/363a718041160afad31d6bd014a31ac2.png" width="32" alt="">
 
    . Then, click **Apply Rule**.
 
@@ -28150,15 +28150,15 @@ This topic uses the dev1 and dev2 versions of the reviews application as example
 
 4. On the **Ingress Gateway** page, click the address in the **Endpoint** column for the productpage service. Refresh the productpage page several times. The Book Details section displays black text and the Book Reviews section displays black stars. This indicates that traffic is routed to the details v1 and reviews v2 services.
 
-   ![](assets/619ebd8f935ebd87030cd824a300ebf1.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/619ebd8f935ebd87030cd824a300ebf1.jpeg)
 
 5. Log in to the productpage service as dev1. Refresh the productpage page several times. The Book Details section displays black text and the Book Reviews section displays red stars. This confirms that traffic is routed to the details v1 and reviews v3 services.
 
-   ![](assets/cc4a94272b253722c0ef788a16e8f5f1.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/cc4a94272b253722c0ef788a16e8f5f1.jpeg)
 
 6. Log in to the productpage service as dev2. Refresh the productpage page several times. The Book Details section displays red text and the Book Reviews section displays black stars. This confirms that traffic is routed to the details v2 and reviews v2 services.
 
-   ![](assets/ea2b0fbbe9bc5c74255eeaf2156ca387.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ea2b0fbbe9bc5c74255eeaf2156ca387.jpeg)
 
 **What to do next**
 
@@ -28308,17 +28308,17 @@ Service query has two versions. Switch between them on the **Service Query** pag
 
    - **Basic information**
 
-     ![](assets/d52bb5940717c1811c1f57a43bb36eca.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/d52bb5940717c1811c1f57a43bb36eca.png)
 
    - **Service invocation relationships**
 
-     ![](assets/fc765f0b65c8c4e86c493424dc004cae.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/fc765f0b65c8c4e86c493424dc004cae.png)
 
      Service invocation relationships include lists of **Service Providers** and **Service Consumers**, along with their **IP addresses**, **ports**, **serialization methods**, and **timeout durations**.
 
    - **metadata**
 
-     ![](assets/814d4314eed7e6eb64a29487a7bba852.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/814d4314eed7e6eb64a29487a7bba852.png)
 
      Metadata consists of two categories: **Metadata** and **Interface Metadata**.
 
@@ -28346,7 +28346,7 @@ In the example scenario shown in the following figure, a system contains four ap
 
 To protect application A’s service performance and availability, configure outlier ejection for application A. After configuration, monitor the instance status of applications B, C, and D and perform dynamic adjustments—such as ejecting or adding instances—to ensure successful service calls.
 
-![](assets/a1535328b7f3cfcf1d393614fc8d8f00.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/a1535328b7f3cfcf1d393614fc8d8f00.png)
 
 The outlier ejection process is as follows:
 
@@ -28384,7 +28384,7 @@ The outlier ejection process is as follows:
    | Select Effective Applications | After selecting the effective applications, click the <strong>&gt;</strong> icon to add the applications to the <strong>Selected Applications</strong> list.<br>After selecting the effective applications, all abnormal instances of the applications called by this application will be ejected.During ejection, call requests from the effective applications will no longer be distributed to abnormal instances. |
    | Minimum Error Rate | If the error rate of an application instance in a called application exceeds the configured minimum, the instance will be ejected.The default value is 50%. For example, if the instance is called 10 times within the statistical time window and 6 calls fail, the error rate is 60%. If this exceeds the configured minimum error rate (50%), the instance is removed from the application. |
 
-   Click the <img src="assets/762f83c21d1351c47c412c8f45d7a417.png" width="16" alt=""> icon to expand the **Advanced Configuration** options.
+   Click the <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/762f83c21d1351c47c412c8f45d7a417.png" width="16" alt=""> icon to expand the **Advanced Configuration** options.
 
    Includes **Network Exception** and **Network Exception + Business Exception (Dubbo Exception)**. Select as needed.
 
@@ -28492,7 +28492,7 @@ This section uses an example to describe Dubbo service authentication scenarios.
 
 Consumers 1, 2, and 3, along with the Provider, are in the same namespace. By default, Consumers 1, 2, and 3 can call all services and interfaces of the Provider.
 
-![](assets/f32071b93ae498da6c423eacf529b0de.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/f32071b93ae498da6c423eacf529b0de.png)
 
 You can set authentication methods for all services and interfaces of the Provider. For example, if you set the authentication method for Consumer 1 to blacklist (deny calls) for all services and interfaces of the Provider, then the authentication method for Consumers 2 and 3 is whitelist (allow calls).
 
@@ -28500,7 +28500,7 @@ Additionally, you can set authentication methods for specific services and inter
 
 The following figure shows the call diagram after authentication rules are set:
 
-![](assets/f99e0179fa50b9f3b5a3c58092d75502.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/f99e0179fa50b9f3b5a3c58092d75502.png)
 
 **Create Service Authentication Rules**
 
@@ -28514,7 +28514,7 @@ The following figure shows the call diagram after authentication rules are set:
 
 5. On the **Create Rule** panel, configure the service authentication parameters and then click **OK**.
 
-   ![](assets/f4cc36da7b319671a7d944c8644c605d.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/f4cc36da7b319671a7d944c8644c605d.png)
 
    The following table describes the service authentication rule parameters:
 
@@ -28670,11 +28670,11 @@ Use EDAS to query the service list and service details for your deployed HSF app
 
    - **Basic Information**
 
-     ![](assets/4e8def48475c595b16a18dcf112decf2.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/4e8def48475c595b16a18dcf112decf2.png)
 
    - **Service Invocation Relationship**
 
-     ![](assets/fc765f0b65c8c4e86c493424dc004cae.png)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/fc765f0b65c8c4e86c493424dc004cae.png)
 
      The service invocation relationship includes the lists of **Service Providers** and **Service Consumers**, along with their **IP**, **Port**, **Serialization Method**, and **Timeout** information.
 
@@ -28754,9 +28754,9 @@ traffic
 
 traffic
 
-![](assets/cb3c560b5580b2f55f702cdd8395c17c.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/cb3c560b5580b2f55f702cdd8395c17c.png)
 
-![](assets/f017fc4aff24198ecb7e35393fc90d22.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/f017fc4aff24198ecb7e35393fc90d22.png)
 
 Normal
 
@@ -28768,7 +28768,7 @@ traffic
 
 application
 
-![](assets/d3c8b32f06a1bce5c9c95c78b75986bd.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/d3c8b32f06a1bce5c9c95c78b75986bd.png)
 
 Normal
 
@@ -28830,7 +28830,7 @@ Web application A has two application instances. Version V1 is deployed on an EC
 
 **Canary Release Flow**
 
-![](assets/29d406f7f7b29903ee0f344205ef24ee.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/29d406f7f7b29903ee0f344205ef24ee.png)
 
 1. Create a canary group.
 
@@ -28856,7 +28856,7 @@ In an ECS cluster, different application versions are deployed by instance group
 
 3. On the **Basic Information** page, click the **Instance Deployment Information** tab. In the upper-right corner of the page, click **Create New Group**.
 
-4. In the **Create Group** dialog box, set **Group Name** to <img src="assets/7e98c8f9055e229f3064067388db1952.png" width="75" alt="">
+4. In the **Create Group** dialog box, set **Group Name** to <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/7e98c8f9055e229f3064067388db1952.png" width="75" alt="">
 
    `canary group`. Then click **Create**.
 
@@ -28876,7 +28876,7 @@ The following steps use HTTP traffic shaping as an example.
 
 2. On the **Instance Deployment Information** tab, in the upper-right corner of the canary group section, click **Traffic Control**. From the drop-down list, select **HTTP Traffic Shaping**.
 
-   ![](assets/c937210eaeef761db99cf183090093c5.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/c937210eaeef761db99cf183090093c5.png)
 
 3. In the **Traffic Control** dialog box, set the traffic shaping parameters. Select **Enable the following configuration to control incoming HTTP request traffic to this application group**. Then click **Save**.
 
@@ -28888,7 +28888,7 @@ The following steps use HTTP traffic shaping as an example.
 
    Percentage-based canary is simpler to set up. This topic shows how to configure content-based canary traffic shaping rules.
 
-   ![](assets/96cd9e6f9ae70246ec34100ac39d2306.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/96cd9e6f9ae70246ec34100ac39d2306.png)
 
    Traffic shaping parameter description:
 
@@ -28898,13 +28898,13 @@ The following steps use HTTP traffic shaping as an example.
 
      - **Parameter Type**: Select **Parameter**.
 
-     - **Parameter**: Enter <img src="assets/6436bfccd580949f66bcd52d939a9986.png" width="48" alt="">
+     - **Parameter**: Enter <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/6436bfccd580949f66bcd52d939a9986.png" width="48" alt="">
 
        `version`.
 
      - **Condition**: Select **=**.
 
-     - **Value**: Enter <img src="assets/58307b260a31447d737ac444d41528b3.png" width="17" alt="">
+     - **Value**: Enter <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/58307b260a31447d737ac444d41528b3.png" width="17" alt="">
 
        `1`.
 
@@ -28974,13 +28974,13 @@ The following steps use HTTP traffic shaping as an example.
 
    </ol>
 
-   ![](assets/cb88101e30eab405b1018641df4d9303.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/cb88101e30eab405b1018641df4d9303.jpeg)
 
    - **Application Deployment Method**: Select **JAR Package Deployment**.
 
    - **File Upload Method**: Select **Upload JAR Package**. Click **Select File**. In the pop-up window, select the local V2 JAR package for your application.
 
-   - **Version**: Enter <img src="assets/9f442410c067d7da2a1a119891d71913.png" width="22" alt="">
+   - **Version**: Enter <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/9f442410c067d7da2a1a119891d71913.png" width="22" alt="">
 
      `V2`.
 
@@ -29076,7 +29076,7 @@ Phase 1
 
 instances
 
-![](assets/b5b4084f39486cdec105b6498860636d.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/b5b4084f39486cdec105b6498860636d.png)
 
 Create a canary group for application
 
@@ -29084,9 +29084,9 @@ Initial application state
 
 D
 
-![](assets/f52a3bfd2fbcdcb1c1229a13527511cc.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/f52a3bfd2fbcdcb1c1229a13527511cc.png)
 
-![](assets/ba7ad4da627a8352262bf43ac42e0d44.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ba7ad4da627a8352262bf43ac42e0d44.png)
 
 Normal
 
@@ -29098,7 +29098,7 @@ Phase 2
 
 B
 
-![](assets/7635d2a612f6e956b74cd12d56182573.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/7635d2a612f6e956b74cd12d56182573.png)
 
 Create a canary group for application
 
@@ -29106,9 +29106,9 @@ Stop the grayscale environment.
 
 B
 
-![](assets/48a20e54ce55b3c7d753ec45723f716f.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/48a20e54ce55b3c7d753ec45723f716f.png)
 
-![](assets/7705f7d1385dbdd58efaebeab9e86f2d.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/7705f7d1385dbdd58efaebeab9e86f2d.png)
 
 Done
 
@@ -29237,11 +29237,11 @@ The end-to-end traffic adjustmentfeature lets you create a traffic control envir
    | Select Service | This parameter is displayed when you set <strong>Protocol Type</strong> to <strong>HSF</strong>. Example: com.edas.testcase.api.TestCase:1.0.0(Alibaba Cloud). The content in the parentheses is the service group. |
    | Method | This parameter is displayed when you set <strong>Protocol Type</strong> to <strong>HSF</strong>. Select a method. |
    | Condition Pattern | • Meet All Of The Following Conditions<br>• Meet Any Of The Following Conditions |
-   | Condition List | Add rule conditions.<br>• If you set <strong>Protocol Type</strong> to <strong>HTTP</strong>, conditions can be based on Cookie, Header, or Parameter. This topic uses Parameter as an example.<br>• <strong>Parameter Type</strong>: Select <strong>Parameter</strong>.<br>![](assets/609f051f31f8558cee008a48fe56554c.png)<br>• <strong>Parameter</strong>: Enter <code>version</code>.<br>• <strong>Condition</strong>: Select <strong>=</strong>.<br>• <strong>Value</strong>: Enter<img src="assets/cdb710eb2ca3eea1399e87f8f715988b.png" width="17" alt=""><code>1</code>.<br>• If you set <strong>Protocol Type</strong> to <strong>HSF</strong>, see Metric description for throttling rules for more information about HSF throttling rules. |
+   | Condition List | Add rule conditions.<br>• If you set <strong>Protocol Type</strong> to <strong>HTTP</strong>, conditions can be based on Cookie, Header, or Parameter. This topic uses Parameter as an example.<br>• <strong>Parameter Type</strong>: Select <strong>Parameter</strong>.<br>![](en-edas-user-guide-v3.18.6-2607-20260828.assets/609f051f31f8558cee008a48fe56554c.png)<br>• <strong>Parameter</strong>: Enter <code>version</code>.<br>• <strong>Condition</strong>: Select <strong>=</strong>.<br>• <strong>Value</strong>: Enter<img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/cdb710eb2ca3eea1399e87f8f715988b.png" width="17" alt=""><code>1</code>.<br>• If you set <strong>Protocol Type</strong> to <strong>HSF</strong>, see Metric description for throttling rules for more information about HSF throttling rules. |
 
 6. On the Canary Environment page, on the **Select Application** tab, select the target
 
-   application, click <img src="assets/b6e736185f925fcf2b8565021674dc13.png" width="24" alt=""> to select a group, and then click **Next**.
+   application, click <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/b6e736185f925fcf2b8565021674dc13.png" width="24" alt=""> to select a group, and then click **Next**.
 
 7. On the Canary Environment page, on the **Creation Complete** tab, confirm the environment information, and then click **Submit**.
 
@@ -29521,7 +29521,7 @@ EDAS supports the following types of value expressions:
 
   You do not need to enter anything in the field. If the field is left empty, this represents the parameter itself.
 
-  ![](assets/c31ce0d700eec93fa1834fed57d59b5d.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/c31ce0d700eec93fa1834fed57d59b5d.png)
 
 - **Parameters of the ARRAY type**
 
@@ -29552,7 +29552,7 @@ EDAS supports the following types of value expressions:
 
   You can configure the following rules.
 
-  ![](assets/99e2004c4d7c0bdbee2f44eac3f0a8ad.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/99e2004c4d7c0bdbee2f44eac3f0a8ad.png)
 
 <a id="section-8-6"></a>
 
@@ -29775,19 +29775,19 @@ After you set the sampling ratio, you can view the monitoring details of your ap
 
    - In the navigation pane on the left, choose **Application Monitoring > Application Overview**.
 
-     ![](assets/6551b16ff9df2a954f94763bf36ea2fe.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/6551b16ff9df2a954f94763bf36ea2fe.jpeg)
 
      On the **Application Overview** page, you can view the application's **Total Requests**, **Average Response Time**, **Errors**, **Number of Spans**, **Services Provided by Application**, **Application Dependencies**, and **Statistical Analysis**.
 
    - In the navigation pane on the left, choose **Application Monitoring > Application Details**.
 
-     ![](assets/d94e5f9a839f2e4d1943d970cfb4d57b.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/d94e5f9a839f2e4d1943d970cfb4d57b.jpeg)
 
      On the **Application Details** page, you can view the application's **Requests**, **Response time**, **Errors**, and **Tracing**.
 
    - In the navigation pane on the left, choose **Application Monitoring > API Calls**.
 
-     ![](assets/001e56798988fce797385646591a7268.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/001e56798988fce797385646591a7268.jpeg)
 
      On the **API Calls** page, you can view the application's **Requests**, **Response time**, **Errors**, **Upstream**, **Downstream**, and **Tracing**.
 
@@ -29992,7 +29992,7 @@ After a customer places an order, traffic enters through an ingress application 
 
 The transaction center and the product hub each have two new versions (1 and 2) that require grayscale validation. You want to route request traffic that matches specific traffic shaping rules from the ingress application or microservice gateway to the new versions. All other traffic is routed to the online (official) version.
 
-![](assets/183aec44f4decb67b06980ca5a8087e6.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/183aec44f4decb67b06980ca5a8087e6.png)
 
 Other traffic
 
@@ -30076,7 +30076,7 @@ After a customer places an order, traffic enters through an ingress application 
 
 The transaction center and the product hub each have two new versions (1 and 2) that require grayscale validation. You want to route request traffic that matches specific traffic shaping rules from the ingress application or microservice gateway to the new versions. All other traffic is routed to the online (official) version.
 
-![](assets/0fdfbda2a69d43e6a324b6c0c3d2bd1a.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/0fdfbda2a69d43e6a324b6c0c3d2bd1a.png)
 
 Other traffic
 
@@ -30116,7 +30116,7 @@ param=blue in HTTP
 
 5. In the **Create Lane Group** dialog box, set the parameters for the lane group and click **OK**.
 
-   ![](assets/90f64c3378f8b9c6817d06ef80c5a214.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/90f64c3378f8b9c6817d06ef80c5a214.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -30141,7 +30141,7 @@ param=blue in HTTP
 
 2. In the **Create Throttling Lane** panel, set the parameters for the throttling lane and click **OK**.
 
-   ![](assets/82a65090ffe64dac61f63b89c0168435.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/82a65090ffe64dac61f63b89c0168435.jpeg)
 
    <table>
      <tr>
@@ -30199,7 +30199,7 @@ param=blue in HTTP
 
 2. In the **Create Throttling Lane** panel, set the parameters for the throttling lane and click **OK**.
 
-   ![](assets/ee023e51fc0c0d966695ae2bff1dfe22.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ee023e51fc0c0d966695ae2bff1dfe22.jpeg)
 
    <table>
      <tr>
@@ -30263,7 +30263,7 @@ param=blue in HTTP
 
 2. Use a browser or another tool to access the tagged application in the lane group multiple times.
 
-   ![](assets/3754f3ed3776bcf115145e0d51f5de3f.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/3754f3ed3776bcf115145e0d51f5de3f.png)
 
    For example, enter
 
@@ -30271,9 +30271,9 @@ param=blue in HTTP
 
    transaction center application. If only one type of result is returned, this verifies that traffic with specific characteristics is routed to the target application.
 
-   In the URL, <img src="assets/080eb27ced3969d5d2b51543de3489b9.png" width="22" alt="">
+   In the URL, <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/080eb27ced3969d5d2b51543de3489b9.png" width="22" alt="">
 
-   `**` is the Path that you specified in the throttling rule, and <img src="assets/58e3273dd66b8053ce0129e1c759cf81.png" width="48" alt="">
+   `**` is the Path that you specified in the throttling rule, and <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/58e3273dd66b8053ce0129e1c759cf81.png" width="48" alt="">
 
    `env=red` is a condition
 
@@ -30423,7 +30423,7 @@ You can extract variables and parameters from code and manage them in a configur
 
 4. In the **Create Configuration** panel, set the parameters and click **Create**.
 
-   ![](assets/33fed5d3989d863706ea47efab90b211.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/33fed5d3989d863706ea47efab90b211.jpeg)
 
    The following table describes the parameters.
 
@@ -30455,15 +30455,15 @@ Your applications may be deployed across multiple environments such as the devel
 
 3. **Optional**. In the upper part of the **Configurations** page, select a namespace from the **Microservice Namespace** drop-down list to filter configurations. You can also perform a fuzzy search by **Group**, **Data ID**, or **Label**.
 
-   ![](assets/27f86a82bdeb73f376da17bad29ab06d.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/27f86a82bdeb73f376da17bad29ab06d.png)
 
 4. On the **Configurations** page, select the configurations that you want to clone and click **Clone** below the configuration list.
 
-   ![](assets/90d96b5a8bd095778b65aee68a11de48.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/90d96b5a8bd095778b65aee68a11de48.jpeg)
 
 5. In the **Clone configuration** dialog box, configure the parameters described in the following table and click **Clone**.
 
-   ![](assets/17df40abba7089b9c7de1f59e6df3f1b.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/17df40abba7089b9c7de1f59e6df3f1b.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -30478,7 +30478,7 @@ Your applications may be deployed across multiple environments such as the devel
 
 3. On the **Configurations** page, select the region where the source microservices namespace resides from the top navigation bar. Select a namespace from the **Microservice Namespace** drop-down list, select the configurations that you want to synchronize, and then click **Export** below the configuration list.
 
-   ![](assets/ec67af9474dfea902a7be1f82be04f82.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ec67af9474dfea902a7be1f82be04f82.jpeg)
 
 4. In the **Export configuration** dialog box, check the information and click **Export**.
 
@@ -30488,7 +30488,7 @@ Your applications may be deployed across multiple environments such as the devel
 
 6. In the **Import configuration** dialog box, upload the .zip file and click **Import**.
 
-   ![](assets/eacf3fac55b050c7ff1995f235837070.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/eacf3fac55b050c7ff1995f235837070.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -30512,7 +30512,7 @@ EDAS allows you to perform fuzzy searches on configurations by data ID, group ID
 
 3. In the top navigation bar of the **Configurations** page, select a region. Select a namespace from the **Microservice Namespace** drop-down list. You can perform a fuzzy search on configurations by **Group**, **Data ID**, and **Label**.
 
-   ![](assets/27f86a82bdeb73f376da17bad29ab06d.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/27f86a82bdeb73f376da17bad29ab06d.png)
 
    After the configurations that you want to query appear, you can perform the following operations:
 
@@ -30634,7 +30634,7 @@ After you modify a configuration, you can check whether the updates have been pu
 
 4. On the **Listening Query** page, set the **Query Dimension** and **Group** parameters, enter the **Data ID** of the configuration that you want to query, and then click the search icon.
 
-   ![](assets/447107df248a2ea60187e036216ea634.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/447107df248a2ea60187e036216ea634.png)
 
    > **Note**
    >
@@ -30807,7 +30807,7 @@ The EDAS Agent supports 64-bit CentOS 6.5 and later.
 >
 > You do not need to manage these features. You only need to install the EDAS Agent.
 
-![](assets/025201afad30bd779f93670a0c33643c.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/025201afad30bd779f93670a0c33643c.png)
 
 EDAS provides two methods to install the EDAS Agent:
 
@@ -30855,7 +30855,7 @@ An ECS instance cannot be imported directly if it meets any of the following con
 
 4. On the **Select Cluster And Existing ECS Instances** tab in the **Import ECS** wizard, select a **Microservices Namespace** and a **Select Destination Cluster**. From the instance list, select the ECS instance to import and click **Next**.
 
-   ![](assets/79c19f98cfa890046fd8c6b9e33e6b21.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/79c19f98cfa890046fd8c6b9e33e6b21.jpeg)
 
    > **Note**
    >
@@ -30869,7 +30869,7 @@ An ECS instance cannot be imported directly if it meets any of the following con
 
    - For instances in the **The Following Instances Need To Be Imported After Conversion** section, select **I Agree To Convert The Preceding Instances That Need To Be Imported, And I Understand That The Data In The Original System Will Be Lost After The Conversion**. Enter a new logon password for the root user and click **Confirm And Import**.
 
-     ![](assets/3923e35cda894f9102d8afbf2755e600.jpeg)
+     ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/3923e35cda894f9102d8afbf2755e600.jpeg)
 
 6. On the **Import** tab, you can view the import status of the instance.
 
@@ -30889,7 +30889,7 @@ You can use this method only for ECS instances that are in an ECS cluster.
 
 4. On the **Import ECS** page, click **Switch To Manual Installation** in the upper-right corner. The **Manually Install EDAS Agent On Single Instance** page appears. Click **Copy**.
 
-   ![](assets/bd09abf7904b724a7806507ee3bdb3e7.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/bd09abf7904b724a7806507ee3bdb3e7.png)
 
    > **Note**
    >
@@ -30992,7 +30992,7 @@ EDAS fully integrates Container Service for Kubernetes with cloud-native Kuberne
 
 7. In the **Import Kubernetes cluster** dialog box, select a **microservices namespace** and then click **Import**.
 
-   ![](assets/5960e1a67c23283dacac4574bd7ba0b7.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5960e1a67c23283dacac4574bd7ba0b7.png)
 
    When the import status of the Container Service for Kubernetes cluster is **Import succeeded**, the cluster is successfully imported into EDAS.
 
@@ -31230,7 +31230,7 @@ Secrets are used in the following scenarios:
 
 6. In the **Create Secret** panel, set the parameters and click **OK**.
 
-   ![](assets/5fa55b5da85eabc294d028d40f71872d.png)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/5fa55b5da85eabc294d028d40f71872d.png)
 
    | Configuration item | Description |
    | --- | --- |
@@ -31341,7 +31341,7 @@ This topic describes how to view service mesh details and uninstall a service me
 
    On the **Mesh Configuration** tab, in the **Mesh Components** section, you can view the **Component Name/Type**, **Component Instances (Normal/Total)**, **Resource**
 
-   **Requirements**, **Status**, **Creation Time**, and **Actions**. Click the <img src="assets/600e19c505240b8b01563b4b2a05454b.png" width="14" alt=""> icon to the left of a
+   **Requirements**, **Status**, **Creation Time**, and **Actions**. Click the <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/600e19c505240b8b01563b4b2a05454b.png" width="14" alt=""> icon to the left of a
 
    component name to view its details, such as **Instance Name**, **Namespace**, **Pod IP**, **Host Machine**, **Status**, **Restart Count**, **Creation Time**, and **Actions**.
 
@@ -31417,7 +31417,7 @@ A Kubernetes (K8s) cluster is connected to Prometheus Monitoring. For more infor
 
    **> Import**.
 
-   <img src="assets/480565471a20197bb37da4406be7ad03.png" width="16" alt="">
+   <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/480565471a20197bb37da4406be7ad03.png" width="16" alt="">
 
 2. On the **Import** page, import the JSON file.
 
@@ -38334,7 +38334,7 @@ Resource groups in Enterprise Distributed Application Service (EDAS) help you or
 
   Figure 1. Diagram of a resource group management scenario
 
-  ![](assets/03c66fb4811a6629a3e13ac71390d458.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/03c66fb4811a6629a3e13ac71390d458.png)
 
   **Centralized**
 
@@ -38344,7 +38344,7 @@ Resource groups in Enterprise Distributed Application Service (EDAS) help you or
 
   Authorization
 
-  ![](assets/6104d286040a5f74a19544f854c2b452.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/6104d286040a5f74a19544f854c2b452.png)
 
 **Create a resource group**
 
@@ -38572,7 +38572,7 @@ In the EDAS console, run commands to perform batch operations on ECS instances t
 
   After the command runs, a new **Execution Results** tab appears on the current page. The command execution results for all ECS instances appear in the **Execution Results** tab.
 
-  ![](assets/94c63ac255ce5c96a638d52f9c3eb73a.jpeg)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/94c63ac255ce5c96a638d52f9c3eb73a.jpeg)
 
   Click the record for an ECS instance to view detailed information about the command execution on that instance.
 
@@ -39308,7 +39308,7 @@ You can set access policies to control which resources users can access. For exa
 
 | Built-in EDAS permission management | RAM permission management |
 | --- | --- |
-| ![](assets/632e2fec7061c384218b5298af8bf6d7.png) | ![](assets/9b222267ffecabb33e52267fb008e88e.png) |
+| ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/632e2fec7061c384218b5298af8bf6d7.png) | ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/9b222267ffecabb33e52267fb008e88e.png) |
 | After an Alibaba Cloud account assigns resources to a RAM user, all permissions apply to these resources. For example, if you assign resources APP1 and APP2 to a RAM user and then grant the permissions to deploy and stop applications, the RAM user has permission to deploy and stop both APP1 and APP2. The resource granularity is coarse and does not allow for precise permission control. | Compared to the built-in EDAS permission management, RAM provides finer-grained access control. You can configure resources for each permission. For example, an Alibaba Cloud account can grant a RAM user the permissions to deploy and stop applications. At the same time, the deploy permission is configured with resources APP1 and APP2, and the stop permission is configured with resources APP2 and APP3. In this case, the RAM user can deploy APP1 and APP2, but not APP3. The user can stop APP2 and APP3, but not APP1. |
 
 **More Powerful Syntax**
@@ -39429,11 +39429,11 @@ After the required resources are prepared, three departments, each with an Aliba
 
   A
 
-  ![](assets/f04cdb0b4f17cf5b9ebdb62e07f29851.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/f04cdb0b4f17cf5b9ebdb62e07f29851.png)
 
-  ![](assets/05ef7bf189b4f5f6a91989da0f009131.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/05ef7bf189b4f5f6a91989da0f009131.png)
 
-![](assets/fa26129a4b707a5dc068a4cd654950c4.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/fa26129a4b707a5dc068a4cd654950c4.png)
 
 b2
 
@@ -39459,7 +39459,7 @@ This topic describes how to log in to the Apsara Uni-manager Management Console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -39525,7 +39525,7 @@ This topic describes how to log in to the Apsara Uni-manager Management Console.
 
 2. On the Forgot Password page, configure the **Account Name** and **Email Address** parameters, enter the verification code, and then click **Confirm**.
 
-   ![](assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
 
    > **Note**
    >
@@ -39569,7 +39569,7 @@ You can define different operation permissions by creating roles in your Alibaba
 
 4. On the **Create Role** page, enter a **Role Name**. Select permissions from the **Available Permissions** list on the left. Click **Add >>** to move them to the **Selected Permissions** list on the right. Then click **OK**.
 
-   ![](assets/b59f40736d1bbee67ae37404412b18fc.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/b59f40736d1bbee67ae37404412b18fc.jpeg)
 
    Return to the **Roles** page. The created role appears in the role list.
 
@@ -39617,7 +39617,7 @@ Authorizing an application grants a RAM user access to that application. However
 
 4. In the **Authorize Resource Groups** dialog box, select resource groups from the **Unselected** list on the left. Click **>** to move them to the **Selected** list on the right. Then click **OK**.
 
-   ![](assets/9d2ea84fd1db21c3c6811417e610da8e.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/9d2ea84fd1db21c3c6811417e610da8e.jpeg)
 
    Return to the **RAM Users** page. The authorized resource groups appear in the **Authorized Resource Groups** column of the RAM user.
 
@@ -39699,7 +39699,7 @@ Roles cannot be attached directly to users. Instead, attach a role to a user gro
    | Organization | The organization to which the user group belongs. |
    | Role authorized | The roles that are assigned to the user group. |
 
-   ![](assets/3dce92f0df84999f6dcdf5b694632e01.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/3dce92f0df84999f6dcdf5b694632e01.jpeg)
 
 6. Click **OK**.
 
@@ -39717,7 +39717,7 @@ Create users as needed.
 
 5. In the **Create User** dialog box, set the basic information for the user, and then click **OK**.
 
-   ![](assets/4347ed6f06bc738207ed8f03226adad9.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/4347ed6f06bc738207ed8f03226adad9.jpeg)
 
    | Name | Description |
    | --- | --- |
@@ -39747,9 +39747,9 @@ After a user is added to a user group, the user inherits the permissions of the 
 
 4. On the **User Group Management** page, find the target user group and click **Add User** in the **Actions** column.
 
-5. In the **Add User** dialog box, select the target user from the organization in the list on the left. Click the <img src="assets/d87d8980d82f0466989d4e6a6f553841.png" width="16" alt=""> icon to add the user to the list on the right. Then, click **OK**.
+5. In the **Add User** dialog box, select the target user from the organization in the list on the left. Click the <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/d87d8980d82f0466989d4e6a6f553841.png" width="16" alt=""> icon to add the user to the list on the right. Then, click **OK**.
 
-   ![](assets/501c5efc61e513c54573479a090653cb.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/501c5efc61e513c54573479a090653cb.jpeg)
 
 <a id="section-13-5-3"></a>
 
@@ -39771,7 +39771,7 @@ EDAS supports RAM authentication. Create a RAM role to enable fine-grained permi
 
    | Parameter | Description |
    | --- | --- |
-   | Role Name | ![](assets/91d3d6fa7edbc7eeb194fce47c8bb689.png)<br>Customize the role name, such as <code>ManageNamespacePermissions</code>. |
+   | Role Name | ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/91d3d6fa7edbc7eeb194fce47c8bb689.png)<br>Customize the role name, such as <code>ManageNamespacePermissions</code>. |
    | Description | The remarks for the role, usually describing the permissions the role has. |
    | Share Scope | Choose the share scope for the role as needed:<br>• <strong>Global Sharing</strong>: The default option. All organizations can see and use this role.<br>• <strong>Sharing within the current organization</strong>: The organization to which the user belongs can see and use this role.<br>• <strong>Sharing with subordinate organizations</strong>: The organization to which the user belongs and its subordinate organizations can see and use this role.<br>Note<br>When you log on with an admin account, the share scope defaults to <strong>Global Sharing</strong> and cannot be changed. When you log on with other accounts, you can see three share scope options. |
 
@@ -39823,7 +39823,7 @@ EDAS supports RAM authentication. Create a RAM role to enable fine-grained permi
 
    | Parameter | Description |
    | --- | --- |
-   | Policy Name | Customize the policy name. The name cannot<br>![](assets/1640a23784b577510fe692b66934d986.png)<br>exceed 50 characters, such as <code>MangeNameSpace</code>. |
+   | Policy Name | Customize the policy name. The name cannot<br>![](en-edas-user-guide-v3.18.6-2607-20260828.assets/1640a23784b577510fe692b66934d986.png)<br>exceed 50 characters, such as <code>MangeNameSpace</code>. |
    | Share Scope | Choose the share scope for the role as needed:<br>• <strong>Global Sharing</strong>: The default option. All organizations can see and use this role.<br>• Sharing within the current <strong>organization</strong>: The organization to which the user belongs can see and use this role.<br>• Sharing with subordinate <strong>organizations</strong>: The organization to which the user belongs and its subordinate organizations can see and use this role.<br>Note<br>When you log on with an admin account, the share scope defaults to <strong>Global</strong> <strong>Sharing</strong> and cannot be changed. When you log on with other accounts, you can see three share scope options. |
    | Remarks | The description of the policy, often used to describe the policy's capabilities. |
 
@@ -39900,15 +39900,15 @@ The following variables can be included in the Resource element of an access pol
 
 - $namespace: The tenant ID of the microservices namespace. You can find this ID on the Microservices Namespace page. The part circled in the following screenshot is the tenant ID.
 
-  ![](assets/772df0c895f6a638e14991862ba490f3.jpeg)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/772df0c895f6a638e14991862ba490f3.jpeg)
 
 - $clusterId: The cluster ID, for example, 8c349f69-505c-436f-8dc7-\*\*\*\*\*\*\*\*\*\*. You can find this ID on the Cluster Details page.
 
-  ![](assets/9665d24116a5a1a0f9f60b155d313087.jpeg)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/9665d24116a5a1a0f9f60b155d313087.jpeg)
 
 - $applicationId: The application ID, for example, ec8e38a3-3dca-47a7-b6f9-5\*\*\*\*\*\*\*\*\*\*. You can find this ID on the Basic Information page of the application.
 
-  ![](assets/064103e36e52b62177f6b7b00174e3c2.png)
+  ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/064103e36e52b62177f6b7b00174e3c2.png)
 
 **Fine-grained permission rules**
 
@@ -40728,13 +40728,13 @@ Your business may involve multiple developers. Each developer's account can be m
 
 5. In the navigation pane on the left, choose **Manage Applications**. In the following figure, ① is the cluster name and ② is the application name. After you make your selections, click **Confirm**.
 
-   ![](assets/355a7ff70dee68991c8bf41464719398.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/355a7ff70dee68991c8bf41464719398.jpeg)
 
 6. Click **Next**. Review the policy preview. If the preview is correct, click **Finish**.
 
 7. Find the access policy that you configured. Click Edit to view the permissions that you added.
 
-   ![](assets/41f8b3f1a34d6f74804519f902e70fa4.jpeg)
+   ![](en-edas-user-guide-v3.18.6-2607-20260828.assets/41f8b3f1a34d6f74804519f902e70fa4.jpeg)
 
 <a id="section-14"></a>
 
@@ -40907,7 +40907,7 @@ This topic describes the common issues related to the lightweight configuration 
   </tr>
 </table>
 
-![](assets/cc1d186bd50d85adaaecacfe0c6ff07f.png)
+![](en-edas-user-guide-v3.18.6-2607-20260828.assets/cc1d186bd50d85adaaecacfe0c6ff07f.png)
 
 - **How can I specify the IP address for starting an instance that has multiple network interface controllers (NICs)?**
 
@@ -41451,7 +41451,7 @@ install.sh -ak -sk [-java <7(default)|8>]
 
   </ol>
 
-  to trigger an out-of-memory (OOM) kill. For more information, search for <img src="assets/fc65918752091fdb4b8f33125da75129.png" width="86" alt="">
+  to trigger an out-of-memory (OOM) kill. For more information, search for <img src="en-edas-user-guide-v3.18.6-2607-20260828.assets/fc65918752091fdb4b8f33125da75129.png" width="86" alt="">
 
   `Linux oom kill`. If
 

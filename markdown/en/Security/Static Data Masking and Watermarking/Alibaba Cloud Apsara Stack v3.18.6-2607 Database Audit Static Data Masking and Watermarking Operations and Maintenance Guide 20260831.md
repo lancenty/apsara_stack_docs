@@ -152,7 +152,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
    - **High Availability**: whether the high availability mode is enabled.
 
-   ![](assets/d3404a6580cc9f11ab1ab25878dedbbe.jpeg)
+   ![](en-static-data-masking-operations-guide-v3.18.6-2607-20260831.assets/d3404a6580cc9f11ab1ab25878dedbbe.jpeg)
 
 **Exception handling principles**
 
@@ -182,9 +182,9 @@ We recommend that you focus on **data source analysis**, which focuses on the fl
 
 4. View the **overview** of the instance.
 
-   ![](assets/9e168dfa3502896b360222098e6228a4.jpeg)
+   ![](en-static-data-masking-operations-guide-v3.18.6-2607-20260831.assets/9e168dfa3502896b360222098e6228a4.jpeg)
 
-   ![](assets/0bdf25ff5a4b26994f66693d7ac452fd.jpeg)
+   ![](en-static-data-masking-operations-guide-v3.18.6-2607-20260831.assets/0bdf25ff5a4b26994f66693d7ac452fd.jpeg)
 
 <a id="section-2-4"></a>
 
@@ -212,9 +212,9 @@ If any of the preceding issues is found, you must immediately view the task deta
 
 4. On the **Data Discovery**, **Data Desensitization**, **Data Provenance**, **Anonymous Privacy Protection**, and **Column Encryption** tabs, you can view the running status of the task.
 
-   ![](assets/e958f0c68beb0ed08a6cd7b2bcbdebf1.jpeg)
+   ![](en-static-data-masking-operations-guide-v3.18.6-2607-20260831.assets/e958f0c68beb0ed08a6cd7b2bcbdebf1.jpeg)
 
-   ![](assets/e879f1416baec11583d18a6f8de3f9b8.jpeg)
+   ![](en-static-data-masking-operations-guide-v3.18.6-2607-20260831.assets/e879f1416baec11583d18a6f8de3f9b8.jpeg)
 
 <a id="section-3"></a>
 
@@ -240,9 +240,9 @@ Static data desensitization and watermark products have been connected to the CM
 
    - Resource usage: monitors the CPU, memory, and disk space usage of the instance in real time to warn of potential risks such as insufficient resources.
 
-   ![](assets/38c5dc46f85097b0b5f21bee61b748b8.jpeg)
+   ![](en-static-data-masking-operations-guide-v3.18.6-2607-20260831.assets/38c5dc46f85097b0b5f21bee61b748b8.jpeg)
 
-   ![](assets/9c2a9a91f90804ea2100f2b7390894c3.jpeg)
+   ![](en-static-data-masking-operations-guide-v3.18.6-2607-20260831.assets/9c2a9a91f90804ea2100f2b7390894c3.jpeg)
 
 <a id="section-4"></a>
 
@@ -267,7 +267,7 @@ The core alerts for static database de-information and watermarking systems incl
      -P"$12;gsub("\\\\","",s);print s}'
      ```
 
-     ![](assets/713c93baee6cc4d374d9789eec83e1f1.png)
+     ![](en-static-data-masking-operations-guide-v3.18.6-2607-20260831.assets/713c93baee6cc4d374d9789eec83e1f1.png)
 
    - **3182 or later: PAAS deployment.** Enter the **OPS1** machine. Run the following command to connect to the oem database and enter the oem database.
 
@@ -291,7 +291,7 @@ The core alerts for static database de-information and watermarking systems incl
    ('UPGRADE_SUCCESS','PRODUCE_SUCCESS')) and type in ('ALB','PASSWORD')\G
    ```
 
-   ![](assets/0eabc9bc755a83ed61f5a2985c7791be.png)
+   ![](en-static-data-masking-operations-guide-v3.18.6-2607-20260831.assets/0eabc9bc755a83ed61f5a2985c7791be.png)
 
    </li>
 
@@ -308,7 +308,7 @@ The core alerts for static database de-information and watermarking systems incl
    ('UPGRADE_SUCCESS','PRODUCE_SUCCESS')) and type in ('REVERSE_VIP','PASSWORD')\G
    ```
 
-   ![](assets/b91d290cb0c019613948c2b94172dbc3.jpeg)
+   ![](en-static-data-masking-operations-guide-v3.18.6-2607-20260831.assets/b91d290cb0c019613948c2b94172dbc3.jpeg)
 
 3. Log on to the springboard machine.
 
@@ -363,7 +363,7 @@ WHERE instance_id = 'discoverymask-CU9KdFfwv2eaflsfYs') \G
 
 the following figure shows the query result. the privateIpAddress value is the ip address of the ecs instance, and the password value is the password of the ecs instance.
 
-![](assets/23a7d9d9aa22de4833c050a6a0729cd8.jpeg)
+![](en-static-data-masking-operations-guide-v3.18.6-2607-20260831.assets/23a7d9d9aa22de4833c050a6a0729cd8.jpeg)
 
 **ecs password decryption**
 
@@ -520,7 +520,7 @@ The product mechanism can be explained directly to the customer.
 
 You can use the  `select temporary,count(*) from user_tables group by temporary`  statement to query whether a table is a temporary table in the source database, as shown in the following figure. A temporary table with the value of Y is a temporary table, and a temporary table with the value of N is not a temporary table. When you create a discovery task, you can only view tables with the temporary attribute of N.
 
-![](assets/c9ce8165d53818ab9fa22cec97894d02.png)
+![](en-static-data-masking-operations-guide-v3.18.6-2607-20260831.assets/c9ce8165d53818ab9fa22cec97894d02.png)
 
 <a id="section-6-4"></a>
 
@@ -610,7 +610,7 @@ You can use the  `select temporary,count(*) from user_tables group by temporary`
 
 When you run an Oracle database-to-database desensitization task, a column that is not desensitized is of the char(5) type. However, the column is overlong when it is returned to the database.
 
-![](assets/fb595831f9dc080ba59df73fd7915e71.jpeg)
+![](en-static-data-masking-operations-guide-v3.18.6-2607-20260831.assets/fb595831f9dc080ba59df73fd7915e71.jpeg)
 
 **Cause**
 

@@ -39,7 +39,7 @@ This topic describes how users such as O&M engineers log on to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -87,31 +87,31 @@ The Apsara Uni-manager Operations Console allows you to manage virtual private c
 
 4. In the upper part of the Leased Line Instances page, view the number of alerting instances, number of normal instances, and percentage of normal instances for **VPC Private Links**, **DCI Express Connect Circuits**, and **Connected Leased Lines**.
 
-   ![](assets/283ad9bec4c08b5acce4facf074de4f1.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/283ad9bec4c08b5acce4facf074de4f1.jpeg)
 
 5. Click **VPC Private Links** to view the following information:
 
    - On the **Hosted Connections** tab, view the access point overview and the list of VPC leased lines.
 
-     ![](assets/2bdff53296a63d7a5ddaefdc51159966.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/2bdff53296a63d7a5ddaefdc51159966.jpeg)
 
      - In the **Hosted Connections** section, click **Advanced Filter** to filter VPC leased lines by **Access Device Name**, **Access Point ID**, **Data Center of Access Device**, **Service Status**, **Region ID**, or their combinations.
 
      - In the **Hosted Connections** section, find the leased line that you want to view and click **Details** in the **Actions** column to view the details of the leased line.
 
-       ![](assets/70ff6733bdc273f2f14570381cac7406.jpeg)
+       ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/70ff6733bdc273f2f14570381cac7406.jpeg)
 
    - On the **Monitoring & Alerting** tab, view the monitoring and alerting information of the leased lines.
 
      Click **Details** in the **Alert Details** column of an alert to view its details.
 
-     ![](assets/616d29bc2a916676861ef01ce5f66d2f.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/616d29bc2a916676861ef01ce5f66d2f.jpeg)
 
 6. Click **DCI Express Connect Circuits** to view the following information:
 
    - On the **Hosted Connections** tab, view the DCI interconnection topology and the list of DCI Express Connect circuits.
 
-     ![](assets/7b75029524862edebaef925ee6f318fe.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/7b75029524862edebaef925ee6f318fe.jpeg)
 
      - In the **Hosted Connections** section, click **Advanced Filter** to filter DCI Express Connect circuits by **Instance Name**, **Express Connect Circuit Type**, **Access Region**, **Peer Region**, **Interconnection Type on both Sides of the Express Connect Circuit**, **Express Connect Circuit Status**, or their combinations.
 
@@ -278,7 +278,7 @@ The Apsara Uni-manager Operations Console allows you to manage virtual private c
          >
          > After you delete a DCI Express Connect circuit, it cannot be recovered. Proceed with caution.
 
-         Find the DCI Express Connect circuit that you want to delete, and click <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> **> Delete**
+         Find the DCI Express Connect circuit that you want to delete, and click <img src="en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> **> Delete**
 
          in the **Actions** column. In the message that appears, click **OK**.
 
@@ -286,7 +286,7 @@ The Apsara Uni-manager Operations Console allows you to manage virtual private c
 
          Find the DCI Express Connect circuit that you want to manage, move the pointer over
 
-         the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Quick Diagnostics**. The
+         the <img src="en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Quick Diagnostics**. The
 
          **Network Instance Diagnostics Results** page appears. For more information, see Network instance diagnosis.
 
@@ -294,13 +294,13 @@ The Apsara Uni-manager Operations Console allows you to manage virtual private c
 
      Click **Details** in the **Alert Details** column of an alert to view its details.
 
-     ![](assets/616d29bc2a916676861ef01ce5f66d2f.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/616d29bc2a916676861ef01ce5f66d2f.jpeg)
 
 7. Click **Connected Leased Lines** to view the following information:
 
    - On the **Hosted Connections** tab, view the interconnection leased line topology and the list of interconnection leased lines.
 
-     ![](assets/42cec6ab43771f55a489dfdec84421db.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/42cec6ab43771f55a489dfdec84421db.jpeg)
 
      In the **Hosted Connections** section, you can also perform the following operations:
 
@@ -316,7 +316,7 @@ The Apsara Uni-manager Operations Console allows you to manage virtual private c
 
      - **Delete a leased line**: Find the leased line that you want to delete, move the pointer
 
-       over the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Delete**. In the message that
+       over the <img src="en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Delete**. In the message that
 
        appears, click **Delete**.
 
@@ -326,7 +326,7 @@ The Apsara Uni-manager Operations Console allows you to manage virtual private c
 
      - **Perform quick diagnostics**: Find the leased line that you want to manage, move the
 
-       pointer over the <img src="assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Quick Diagnostics**.
+       pointer over the <img src="en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/9f2b02f96cdb6a7e1b95a3b0a3d05ec7.png" width="13" alt=""> icon in the **Actions** column, and then select **Quick Diagnostics**.
 
        The **Network Instance Diagnostics Results** page appears. For more information, see Network instance diagnosis.
 
@@ -334,7 +334,7 @@ The Apsara Uni-manager Operations Console allows you to manage virtual private c
 
      Click **Details** in the **Alert Details** column of an alert to view its details.
 
-     ![](assets/616d29bc2a916676861ef01ce5f66d2f.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/616d29bc2a916676861ef01ce5f66d2f.jpeg)
 
 <a id="section-2-2"></a>
 
@@ -364,7 +364,7 @@ Leased line management allows you to manage groups of data center interconnectio
    | Peer Data Center | The name of the destination data center of the leased line group after you specify <strong>Express Connect Circuit Group Type</strong>. |
    | Remarks | The remarks of the leased line group. |
 
-   ![](assets/c058e836d92469f4c23c46d2462d3b33.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/c058e836d92469f4c23c46d2462d3b33.jpeg)
 
 6. Click **OK**.
 
@@ -374,11 +374,11 @@ Leased line management allows you to manage groups of data center interconnectio
 
    - On the Leased Line Group Management page, click **Advanced Filter** to filter leased line groups by **Group Name**, **Group Type**, **Source Region ID**, **Source IDC**, **Peer Region ID**, **Peer IDC**, **Remarks**, or their combinations.
 
-     ![](assets/ea3d5878bfb64cf7ebe1f9abf6f6ccb8.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/ea3d5878bfb64cf7ebe1f9abf6f6ccb8.jpeg)
 
    - Find the leased line group that you want to view and click **Details** in the **Actions** column. On the **Leased Line Group Details** page, view the information in the **Group Details** and **Associate Hosted Connection** sections.
 
-     ![](assets/164cc12326097713a9af4216413e0f56.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/164cc12326097713a9af4216413e0f56.jpeg)
 
      **Associate Hosted Connection**
 
@@ -386,11 +386,11 @@ Leased line management allows you to manage groups of data center interconnectio
 
      - **Associate the leased line group with a leased line**: Click **Associate Instance**. In the Associate Instance dialog box, specify the **Express Connect Circuit Group Type** and **Associated Hosted Connection** parameters and click **OK**.
 
-       ![](assets/e86c8333aeee528a6928d849a9786705.jpeg)
+       ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/e86c8333aeee528a6928d849a9786705.jpeg)
 
      - **View the details of the associated leased line**: Find the associated leased line and click **Details** in the **Actions** column.
 
-       ![](assets/8abdc3658b9c3a7b333c844233668ff9.jpeg)
+       ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/8abdc3658b9c3a7b333c844233668ff9.jpeg)
 
      - **Disassociate the leased line group from the leased line**: Find the leased line that you want to disassociate and click **Disassociate** in the **Actions** column. In the message that appears, click **OK**.
 
@@ -419,13 +419,13 @@ Access points are Apsara Stack data centers located in different regions. One or
 
    You can filter access points by **Access Point ID**.
 
-   ![](assets/4ab44194cc51c3c7b406a76c8a279c3e.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/4ab44194cc51c3c7b406a76c8a279c3e.jpeg)
 
    - **View the details of an access point**
 
      Find the access point that you want to manage and click **Details** in the **Actions** column to view the details of the access point.
 
-     ![](assets/d640dd73f3e9c1fc0fd07d701a050762.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/d640dd73f3e9c1fc0fd07d701a050762.jpeg)
 
    - **Modify an access point**
 
@@ -451,7 +451,7 @@ Access points are Apsara Stack data centers located in different regions. One or
      | Data Center Operator | The Internet service provider (ISP) of the data center to which the access point belongs. |
      | Physical Region | The region ID of the access point. |
 
-     ![](assets/6047728f47062a2ff3717602b23bf558.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/6047728f47062a2ff3717602b23bf558.jpeg)
 
      </li>
 
@@ -475,13 +475,13 @@ This topic describes how to manage access devices.
 
    You can filter access devices by **Device ID**.
 
-   ![](assets/5fd9da3b084c98d479259e79bd0f1593.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/5fd9da3b084c98d479259e79bd0f1593.jpeg)
 
    - **View the details of an access device**
 
      Find the access device that you want to view and click **Details** in the **Actions** column to view the details of the access device.
 
-     ![](assets/7d56770dbd09ff0e5bbba43447354afc.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/7d56770dbd09ff0e5bbba43447354afc.jpeg)
 
    - **Modify the information about an access device**
 
@@ -513,7 +513,7 @@ This topic describes how to manage access devices.
      | Device Name | The name of the access device. |
      | Description | The description of the access device. |
 
-     ![](assets/62910cfdd2ab0350d61cde8fe57c8a05.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/62910cfdd2ab0350d61cde8fe57c8a05.jpeg)
 
      </li>
 
@@ -551,7 +551,7 @@ You can establish a physical connection by using a leased line from a carrier to
    | Access bandwidth | The connection bandwidth in Mbps. The value must be an integer from 2 to 10,000. |
    | Redundant physical connection | To create a redundant connection, enter the ID of an existing physical connection.<br>If you specify a redundant physical connection ID, Alibaba Cloud provisions the new connection on separate hardware to ensure high availability. The specified physical connection must be in the Approved, Confirmed, or Enabled state. |
 
-   ![](assets/d8cea6e0be1e0eedead695be299d2b00.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/d8cea6e0be1e0eedead695be299d2b00.jpeg)
 
 6. Once the physical connection is created, you can view its details, including **Account ID**, **Instance ID**, **Access point ID**, **Device ID**, **Connection status**, **Service status**, **Physical connection name**, **Description**, **Carrier**, **Access bandwidth**, **Access port type**, **Physical port**, **Peer IP address**, **Redundant physical connection**, **Enabled time**, and **Creation time**.
 
@@ -606,7 +606,7 @@ A virtual border router (VBR) functions as a router between a customer-premises 
    | Owner Bid | The bound ID of the VBR owner. |
    | Owner AliUid | The Apsara Stack account ID of the VBR owner. |
 
-   ![](assets/2c9e012fe042a94a5d8c167d1accf42b.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/2c9e012fe042a94a5d8c167d1accf42b.jpeg)
 
 6. After the creation is complete, the **VBR Management** page is displayed. By default, the list does not display data. You can filter and view the desired VBRs based on your business requirements.
 
@@ -614,7 +614,7 @@ A virtual border router (VBR) functions as a router between a customer-premises 
 
    - On the VBR Management page, you can view the following information about VBRs: **VBR ID**, **VLAN ID**, **VLAN Interface ID**, **Status**, **Route Table ID**, **Local IP Address**, **Peer IP Address**, **Subnet Mask**, **VBR Name**, **Description**, **Express Connect Circuit ID**, **Service Status**, **Access Point ID**, **Device ID**, and **Source**.
 
-   ![](assets/a3a334da3f6e2557674db563dc3b06a2.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/a3a334da3f6e2557674db563dc3b06a2.jpeg)
 
 **Related operations**
 
@@ -625,7 +625,7 @@ A virtual border router (VBR) functions as a router between a customer-premises 
 <table>
   <tr>
     <td>Modify a VBR</td>
-    <td>1. On the <strong>VBR Management</strong> page, find the VBR that you want to manage and click <strong>Edit</strong> in the <strong>Actions</strong> column.<br>2. In the dialog box that appears, modify the parameter settings and click <strong>OK</strong>.<br><img src="assets/c7ae23d10b2e982be04f78bb00fc6432.jpeg" alt=""><br>Note<br>This operation is supported for VBRs whose <strong>Status</strong> is <strong>active</strong>, <strong>terminated</strong>, or <strong>unconfirmed</strong>.</td>
+    <td>1. On the <strong>VBR Management</strong> page, find the VBR that you want to manage and click <strong>Edit</strong> in the <strong>Actions</strong> column.<br>2. In the dialog box that appears, modify the parameter settings and click <strong>OK</strong>.<br><img src="en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/c7ae23d10b2e982be04f78bb00fc6432.jpeg" alt=""><br>Note<br>This operation is supported for VBRs whose <strong>Status</strong> is <strong>active</strong>, <strong>terminated</strong>, or <strong>unconfirmed</strong>.</td>
   </tr>
   <tr>
     <td>Release a VBR</td>
@@ -677,7 +677,7 @@ After you create a virtual border router (VBR), you must create a router interfa
    | Health Check Destination IP Address | The destination IP address that is used for health checks.<br>Note<br>This parameter is required if you set the <strong>Router Type</strong> parameter to <strong>VRouter</strong> and set the <strong>Role</strong> parameter to <strong>AcceptingSide</strong>. |
    | Skip Inventory Check | Specifies whether to skip inventory check. Valid values:<br>• Yes<br>• No |
 
-   ![](assets/e6dea31ab5d66e4d7a667bcef1e71cac.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/e6dea31ab5d66e4d7a667bcef1e71cac.jpeg)
 
 6. In the **Peer Information** step, configure the following parameters and click **Next Step**.
 
@@ -706,7 +706,7 @@ After you create a virtual border router (VBR), you must create a router interfa
        </tr>
      </table>
 
-     ![](assets/3b3751d34b397feda75123e62599d458.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/3b3751d34b397feda75123e62599d458.jpeg)
 
    - **Create a pair of router interfaces**
 
@@ -725,11 +725,11 @@ After you create a virtual border router (VBR), you must create a router interfa
      | Specifications | The specifications of the peer router interface. |
      | Skip Inventory Check | Specifies whether to skip inventory check. Valid values:<br>• Yes<br>• No |
 
-     ![](assets/ebd8421890a47d71f77e47da0b16465c.jpeg)
+     ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/ebd8421890a47d71f77e47da0b16465c.jpeg)
 
 7. In the **Confirm** step, confirm the local information and peer information and then click **Create**.
 
-   ![](assets/d7cd7820269cf48b135b99b24aba9fcc.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/d7cd7820269cf48b135b99b24aba9fcc.jpeg)
 
 8. After the creation is complete, the **Router Interface Management** page is displayed. By default, the list does not display data. You can filter and view the desired router interfaces based on your business requirements.
 
@@ -739,7 +739,7 @@ After you create a virtual border router (VBR), you must create a router interfa
 
    - On the Router Interface Management page, you can view the following information about a router interface: **Local Router ID**, **Local Router Type**, **Local Router Interface ID**, **Local Router Interface Status**, **Local Access Point ID**, **Role**, **Peer Router ID**, **Peer Router Type**, **Peer Router Interface ID**, **Peer Router Interface Status**, **Peer Access Point ID**, **Owner ID of Peer Router Interface**, **GlobalTunnelId**, **Service Status**, **Connected At**, **Created At**, and **Modified At**.
 
-   ![](assets/815dd7b47ef4110aac5e3175838de54d.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/815dd7b47ef4110aac5e3175838de54d.jpeg)
 
 **Related operations**
 
@@ -747,7 +747,7 @@ After you create a virtual border router (VBR), you must create a router interfa
 
 On the **Router Interface Management** page, find the router interface that you want to manage and click **Details** in the **Actions** column.
 
-![](assets/31d73b712bd7041d3b1c6d638edc282e.jpeg)
+![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/31d73b712bd7041d3b1c6d638edc282e.jpeg)
 
 **Modify the specifications of a router interface**
 
@@ -755,7 +755,7 @@ On the **Router Interface Management** page, find the router interface that you 
 
 2. In the dialog box that appears, change the specifications and click **OK**.
 
-   ![](assets/55f8e6989f4b39a0d8715a9b40beb38e.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/55f8e6989f4b39a0d8715a9b40beb38e.jpeg)
 
 **Modify the attributes of a router interface**
 
@@ -827,7 +827,7 @@ A route table contains a set of rules that are called route entries. This topic 
 
    You can view the following information about route tables: **Route Table ID**, **Router ID**, **Router Type**, **Status**, **Type**, and **Route Entries**.
 
-   ![](assets/8e5bcf48c4ae10820d169840cd827f30.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/8e5bcf48c4ae10820d169840cd827f30.jpeg)
 
 5. Create a route entry.
 
@@ -861,11 +861,11 @@ A route table contains a set of rules that are called route entries. This topic 
    <table>
      <tr>
        <td>Next Hops</td>
-       <td>The next hop list.<br>• <strong>Next Hop ID</strong>: The next hop interface ID for the route entry.<br>• <strong>Weight</strong>: The weight.<br>Note<br>• This parameter is required if you set <strong>ECMP</strong> to <strong>Yes</strong>.<br>• Click <strong>Add Entry</strong> to add multiple next hops.<br>• Click the icon in the <strong>Actions</strong> column of a next hop to delete the<br><img src="assets/985787d51335965cba45e3f4bead70db.png" width="20" alt=""><br>next hop.</td>
+       <td>The next hop list.<br>• <strong>Next Hop ID</strong>: The next hop interface ID for the route entry.<br>• <strong>Weight</strong>: The weight.<br>Note<br>• This parameter is required if you set <strong>ECMP</strong> to <strong>Yes</strong>.<br>• Click <strong>Add Entry</strong> to add multiple next hops.<br>• Click the icon in the <strong>Actions</strong> column of a next hop to delete the<br><img src="en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/985787d51335965cba45e3f4bead70db.png" width="20" alt=""><br>next hop.</td>
      </tr>
    </table>
 
-   ![](assets/b0302f9a0006344bfdcd210fe18dc655.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/b0302f9a0006344bfdcd210fe18dc655.jpeg)
 
    > **Note**
    >
@@ -889,7 +889,7 @@ A route table contains a set of rules that are called route entries. This topic 
 
    </ol>
 
-   ![](assets/05d5efc83a5c428b96c2bdff0b4097ef.jpeg)
+   ![](en-express-connect-operations-guide-v3.18.6-2607-20260828.assets/05d5efc83a5c428b96c2bdff0b4097ef.jpeg)
 
    <ol type="i" start="3">
 

@@ -316,7 +316,7 @@ Container Service for Kubernetes (ACK) clusters are the commercial offering prov
 
 **Version description**
 
-![](assets/7241182e1d16c0375ec930e36a88a419.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/7241182e1d16c0375ec930e36a88a419.jpeg)
 
 - As shown in the figure above, the Kubernetes versions supported by ACK follow the semantic versioning scheme in the  `x.y.z-aliyun.n`  format.
 
@@ -2452,7 +2452,7 @@ For more information about this vulnerability, see CVE-2021-1056.
 
 The affected versions of NVIDIA GPU drivers are listed in the following figure based on the information published on the NVIDIA official website. For more information, see NVIDIA official website.
 
-![](assets/e9e8fc9ff3ad5628d3b739bd85bdfca9.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/e9e8fc9ff3ad5628d3b739bd85bdfca9.jpeg)
 
 - If you selected a custom NVIDIA driver or updated an NVIDIA driver, check whether the NVIDIA driver that you installed is affected by this vulnerability based on the preceding figure.
 
@@ -3432,7 +3432,7 @@ This topic describes the procedure for using Container Service for Kubernetes (A
 
 The following diagram shows the procedure.
 
-![](assets/62fbe6a8c307c943f59dab032dda6035.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/62fbe6a8c307c943f59dab032dda6035.png)
 
 **Step 1: Authorize the default role**
 
@@ -4000,7 +4000,7 @@ In the **Advanced** step, configure the following settings: access control, scal
      | Rules | Ingress rules are used to enable access to specific Services in a cluster. For more information, see Ingress configurations.<br>• <strong>Domain</strong>: Enter the domain name of the Ingress.<br>• <strong>Path</strong>: Enter the Service URL. The default path is the root path /. The default path is used in this example. Each path is associated with a backend Service. SLB forwards traffic to a backend Service only when inbound requests match the domain name and path.<br>• <strong>Service</strong>: Select a Service and a Service port.<br>• <strong>Enable</strong>: Select this check box to enable TLS authentication for the Ingress. |
      | Weight | Set the weight for each Service in the path. Each weight is calculated as a percentage value. Default value: 100. |
      | Canary Release | After canary release is configured, only requests that match the specified rules are routed to the new-nginx Service. If the weight of new-nginx is lower than 100%, requests that match the specified rules are routed to the Service based on the Service weight. ACK supports multiple traffic splitting methods. This allows you to select suitable solutions for specific scenarios, such as canary releases and A/B testing:<br>• Traffic splitting based on request headers<br>• Traffic splitting based on cookies<br>• Traffic splitting based on query parameters<br>Note<br>Only Ingress controllers of <strong>V0.12.0-5</strong> and later support traffic splitting.<br>The following parameters are required:<br>• <strong>Service</strong>: the Services to be accessed.<br>• <strong>Type</strong>: the type of matching rule. Valid values: Header, Cookie, and Query.<br>• <strong>Name</strong> and <strong>Match Value</strong>: the names and matching values of custom request fields in key-value pairs.<br>• <strong>Matching Rule</strong>: Regular expressions and exact matches are supported. |
-     | Annotations | Click the <strong>+</strong> icon to add an annotation. You can select <strong>Custom Annotation</strong> or <strong>Ingress-NGINX</strong> from the Type drop-down list. For more information about Ingress annotations, see Annotations.<br>Note<br>If you want to add an annotation for configuring rewrite rules, select <strong>Ingress-</strong><strong>NGINX</strong> from the Type drop-down list. Select <strong>nginx.ingress.kubernetes.io/rewrite-target Rewrite Annotation</strong> from the <strong>Name</strong> drop-down list. Then, specify<img src="assets/e4916cb149af6c7daf0aa79eed9c7b92.png" width="15" alt=""><code>/</code> in the <strong>Value</strong> column. This annotation specifies that the requests destined for /path are redirected to the root path, which can be recognized by the backend Service. |
+     | Annotations | Click the <strong>+</strong> icon to add an annotation. You can select <strong>Custom Annotation</strong> or <strong>Ingress-NGINX</strong> from the Type drop-down list. For more information about Ingress annotations, see Annotations.<br>Note<br>If you want to add an annotation for configuring rewrite rules, select <strong>Ingress-</strong><strong>NGINX</strong> from the Type drop-down list. Select <strong>nginx.ingress.kubernetes.io/rewrite-target Rewrite Annotation</strong> from the <strong>Name</strong> drop-down list. Then, specify<img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/e4916cb149af6c7daf0aa79eed9c7b92.png" width="15" alt=""><code>/</code> in the <strong>Value</strong> column. This annotation specifies that the requests destined for /path are redirected to the root path, which can be recognized by the backend Service. |
      | Label | Add labels to describe the characteristics of the Ingress. |
 
    You can find the created Service and Ingress in the **Access Control** section. You can click **Update** or **Delete** to change the configurations.
@@ -4051,7 +4051,7 @@ In the **Advanced** step, configure the following settings: access control, scal
 
 3. Enter the test domain name in the address bar of your browser and press Enter. The NGINX welcome page appears.
 
-   ![](assets/7c78386613e926f7b3e4094f2995d49c.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/7c78386613e926f7b3e4094f2995d49c.png)
 
 **What to do next**
 
@@ -4307,7 +4307,7 @@ When you create an ACK dedicated cluster, Apsara Copilot provides you with optim
 
 4. On the **Confirm** page, click **Cluster Configuration Recommendations** to view the cluster configuration optimization and suggestions in the **Apsara Copilot** panel.
 
-   ![](assets/54cdacee3e28c2b417349e44076caf57.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/54cdacee3e28c2b417349e44076caf57.jpeg)
 
 **Use Apsara Copilot to assist in troubleshooting abnormal pods**
 
@@ -4355,7 +4355,7 @@ Apsara Copilot accelerates application creation with two core AI-powered capabil
    >
    > You can click **YAML Intelligent Analysis** to check whether the YAML format and syntax are correct by using Apsara Copilot.
 
-   ![](assets/da30f9db22da0e4f6a1cf77339b77079.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/da30f9db22da0e4f6a1cf77339b77079.jpeg)
 
 **Select-to-define feature**
 
@@ -4363,7 +4363,7 @@ The select-to-define feature explains any term, parameter, or option that you se
 
 **Prerequisites**
 
-The select-to-define feature is enabled. To enable this feature, click the <img src="assets/1659a0d67d2d232fe29056448e089355.png" width="11" alt=""> icon in the upper-right corner of
+The select-to-define feature is enabled. To enable this feature, click the <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/1659a0d67d2d232fe29056448e089355.png" width="11" alt=""> icon in the upper-right corner of
 
 the Apsara Copilot panel and then turn on Enable Word Selection.
 
@@ -4429,7 +4429,7 @@ ACK provides a set of custom RBAC roles.
 >
 > The cluster-admin role is similar to a super administrator. By default, the cluster-admin role has the permissions to manage all resources within a cluster.
 
-![](assets/2c9fff08f247aeedb0d021825343d3d1.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/2c9fff08f247aeedb0d021825343d3d1.png)
 
 You can log on to a master node of a cluster and run the following command to view the custom RBAC roles that are assigned to the current account:
 
@@ -4617,7 +4617,7 @@ ECS Instan
 
 2. Use STS tokens to access cloud resources
 
-![](assets/b23476fbda8e4a3d3aeed47caa8d552a.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/b23476fbda8e4a3d3aeed47caa8d552a.png)
 
 STS
 
@@ -4639,9 +4639,9 @@ STS
 
 3. Use the STS token to access cloud resources
 
-   ![](assets/1eaa8bb054be405e1fb8a86c302a19c2.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/1eaa8bb054be405e1fb8a86c302a19c2.png)
 
-![](assets/90c5642f193974d47b6a2a25b94509ff.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/90c5642f193974d47b6a2a25b94509ff.png)
 
 OIDC
 
@@ -4679,7 +4679,7 @@ If you have not created a cluster, you can enable RRSA when you create a cluster
 
 Select RRSA OIDC when you create an ACK dedicated cluster.
 
-![](assets/51b72a45c43a26e3d8545e6c52582900.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/51b72a45c43a26e3d8545e6c52582900.jpeg)
 
 **Enable RRSA for an existing cluster**
 
@@ -4697,7 +4697,7 @@ Select RRSA OIDC when you create an ACK dedicated cluster.
 
 After RRSA is enabled for the cluster, you can view the URL and Apsara Stack Resource Name (ARN) of the OIDC provider in the **Cluster Information** section of the **Basic Information** tab.
 
-![](assets/c1a3b2afddc707e012d16f1b127cc590.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/c1a3b2afddc707e012d16f1b127cc590.jpeg)
 
 After RRSA is enabled, ACK performs the following operations in the background:
 
@@ -4731,7 +4731,7 @@ ack-pod-identity-webhook injects the following environment variables during pod 
 
 4. In the left-side navigation pane, choose **Operations > Add-ons**. On the Add-ons page, find the
 
-   ![](assets/0930561df64333e89c4497b0c9e57650.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/0930561df64333e89c4497b0c9e57650.png)
 
    `ack-pod-identity-webhook` component card and click **Install**. In the message that appears, click OK.
 
@@ -4743,7 +4743,7 @@ ack-pod-identity-webhook injects the following environment variables during pod 
 
 3. On the **Role Permissions** page, click the **Advanced Settings** tab, and then click **Create RAM Role & Attach Policy**. On the page that appears, enter a role name. In this example, test-role-1022 is used. By default, Global is selected for the Sharing Scope parameter.
 
-   ![](assets/abfbf30140ed988f6f280ea79f332bf4.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/abfbf30140ed988f6f280ea79f332bf4.jpeg)
 
 4. Click **Next**. In the Configure Custom Policy step, click **Create Policy**. In the Policy Content section, add the following code to configure the OSS access policy. Replace  `mybucket`  with the name of the bucket that you created. In this example, test-bucket is used.
 
@@ -4763,15 +4763,15 @@ ack-pod-identity-webhook injects the following environment variables during pod 
    }
    ```
 
-   ![](assets/bf5b8b20967d29bc526cbdf0c27db728.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/bf5b8b20967d29bc526cbdf0c27db728.jpeg)
 
 5. Find and select the policy that you created in the previous step and click **Next**.
 
-   ![](assets/a89c7dcb30ab6d2f595738eb2daee591.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/a89c7dcb30ab6d2f595738eb2daee591.jpeg)
 
 6. In the Configure Trust Policy step, configure the parameters described in the following table, click **Next**, and then click **Create**.
 
-   ![](assets/44bbf6d166a59e29f7a43fbebfc3dcfc.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/44bbf6d166a59e29f7a43fbebfc3dcfc.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -4950,13 +4950,13 @@ ack-pod-identity-webhook injects the following environment variables during pod 
 
    Expected output:
 
-   ![](assets/a3211be160c79b4b1c01641a90a2b061.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/a3211be160c79b4b1c01641a90a2b061.jpeg)
 
    The preceding figure shows that the two pods can share the tmpfile file.
 
 3. Log on to the OSS console and check that the tmpfile file exists.
 
-   ![](assets/d9811af1d71a222060f9fe559449dbe1.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/d9811af1d71a222060f9fe559449dbe1.jpeg)
 
 <a id="section-7-2-4"></a>
 
@@ -4998,7 +4998,7 @@ You can assume roles to access the ACK console to implement security auditing an
 
    icon in the
 
-   <img src="assets/42caa8bc2e4ac3f3848494b7ef89ae14.jpeg" width="26" alt="">
+   <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/42caa8bc2e4ac3f3848494b7ef89ae14.jpeg" width="26" alt="">
 
    </li>
 
@@ -5074,7 +5074,7 @@ An administrator that can grant RBAC permissions on ACK must meet the following 
    | --- | --- |
    | Grant permissions | You can use one of the following methods to grant permissions to a role:<br>• Method 1: Find the role that you want to manage and click <strong>Modify Permissions</strong> to the right of the role. On the <strong>Modify Permissions</strong> page, you can view the RBAC permissions of the role, add permissions, or remove permissions.<br>• Method 2: Select the role that you want to manage and click <strong>Add Permissions</strong> in the lower part of the page. You can only add permissions to the role on the <strong>Add</strong> <strong>Permissions</strong> page. This page does not display the RBAC permissions of the role. |
    | Add a permission | On the <strong>Modify Permissions</strong> or <strong>Add Permissions</strong> page, click <strong>Add Permissions</strong> and select a cluster, a namespace, and a predefined RBAC role.<br>Note<br>• Method 2 is not applicable to custom authorization.<br>• If you want to customize the RBAC permissions that you want to grant, create a Clusterrole instance in your cluster and use Method 1. On the <strong>Modify</strong> <strong>Permissions</strong> page, select the Clusterrole role from the Custom drop-down list. |
-   | Remove a permission | On the <strong>Modify Permissions</strong> or <strong>Add Permissions</strong> page, find the permission that you<br>want to remove and click the<img src="assets/999b5acb0985925b8abfab10392a6613.jpeg" width="15" alt="">icon to the left of the permission. |
+   | Remove a permission | On the <strong>Modify Permissions</strong> or <strong>Add Permissions</strong> page, find the permission that you<br>want to remove and click the<img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/999b5acb0985925b8abfab10392a6613.jpeg" width="15" alt="">icon to the left of the permission. |
 
    After you complete authorization, click **Next Step**. If the **Submit Authorization** wizard page displays **The authorization is complete.**, the authorization is successful.
 
@@ -6872,7 +6872,7 @@ You can use the Kubernetes command-line tool kubectl to connect to a Container S
 
    the cluster.
 
-   ![](assets/43f50a3a962e843a7c0087c101909ac7.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/43f50a3a962e843a7c0087c101909ac7.jpeg)
 
    </li>
 
@@ -6975,7 +6975,7 @@ In multi-tenant scenarios, Container Service issues kubeconfig files to users th
 
 4. On the **Cluster Information** page, click the **Connection Information** tab, and then click **Revoke KubeConfig**.
 
-   ![](assets/cfc31b1c6df347be534eb6b8a584e263.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/cfc31b1c6df347be534eb6b8a584e263.png)
 
 5. In the message that appears, click **OK**. The kubeconfig file that is used by the current account to connect to the cluster is revoked. The system then automatically assigns the account a new kubeconfig file.
 
@@ -7039,7 +7039,7 @@ If your cluster uses custom configurations, read the descriptions in the followi
 
 **Procedure**
 
-![](assets/455a7ccba90eddd1c1c50b31e417dba7.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/455a7ccba90eddd1c1c50b31e417dba7.png)
 
 - **Preparations and precheck**:
 
@@ -7335,7 +7335,7 @@ When the etcd certificates in a cluster are about to expire, you can update the 
 
 2. On the **Clusters** page, find the cluster whose etcd certificates are about to expire and click **Update Etcd Certificate**.
 
-   ![](assets/82241b336530180ce7e078052c5ff45d.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/82241b336530180ce7e078052c5ff45d.jpeg)
 
 3. In the **Update Certificate** message, click **Update Certificate**. In the **Note** message, click **OK**.
 
@@ -7392,13 +7392,13 @@ In the following scenarios, the cluster administrator can log on to a master nod
 
    <li>
 
-   In the **Service Registration** column, click the <img src="assets/752546e54b9b86717614738483656a1c.png" width="15" alt=""> icon corresponding to **acs-acs_control** to view the
+   In the **Service Registration** column, click the <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/752546e54b9b86717614738483656a1c.png" width="15" alt=""> icon corresponding to **acs-acs_control** to view the
 
    details. In the **Registration Variables** dialog box, search for **cert.domain** and obtain the value of **cert.domain**.
 
    The value of **cert.domain** is the domain name of the Cert component.
 
-   ![](assets/a78068aedaaa996c425f040e03d6674a.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/a78068aedaaa996c425f040e03d6674a.jpeg)
 
    </li>
 
@@ -7489,7 +7489,7 @@ The Container Service console provides a cluster overview page. This page displa
 
    - **Monitoring**: displays CPU and memory monitoring charts. CPU usage is measured in cores or millicores and accurate to three decimal places. A millicore is one thousandth of a core. Memory usage is measured in GiB and accurate to three decimal places. For more information, see Meaning of CPU and Meaning of memory.
 
-     ![](assets/a08e8522206e3f7a2512b18be96d7160.jpeg)
+     ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/a08e8522206e3f7a2512b18be96d7160.jpeg)
 
 <a id="section-7-3-16"></a>
 
@@ -7528,7 +7528,7 @@ A Container Service for Kubernetes (ACK) cluster is created and its Kubernetes v
    | defaultUnreachableTolerationSe conds | The maximum duration (in seconds) that a pod can continue running on a node after the node status changes to <code> Unreachable </code>.<br>Default value: 300. Valid values: 1 to 3000. | 300 |
    | maxMutatingRequestsInflight | The maximum number of write requests that can be processed at the same time. This parameter is used to protect the API Server from write storms.<br>An excessively large value may decrease the stability of the API server. Default value: 300. We recommend that you set the parameter to a proper value based on your business requirements. | 300 |
 
-   ![](assets/2bfb7d170bf7d2270ada49643d80766f.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/2bfb7d170bf7d2270ada49643d80766f.png)
 
    <table>
      <tr>
@@ -7597,7 +7597,7 @@ This topic explains how to maintain a cluster.
 
 2. In the left-side navigation pane, click **Clusters**.
 
-3. On the **Clusters** page, find the target cluster, click <img src="assets/93cf18ca6fbd3fe7521bc9142132fe9c.png" width="14" alt=""> in the Actions column, and then select **start**
+3. On the **Clusters** page, find the target cluster, click <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/93cf18ca6fbd3fe7521bc9142132fe9c.png" width="14" alt=""> in the Actions column, and then select **start**
 
    **maintenance**.
 
@@ -7611,7 +7611,7 @@ This topic explains how to maintain a cluster.
 
 You can return a cluster from the **maintaining** state to the **running** state to resume normal operations.
 
-1. On the **Clusters** page, find the target cluster, click <img src="assets/93cf18ca6fbd3fe7521bc9142132fe9c.png" width="14" alt=""> in the Actions column, and then select **stop**
+1. On the **Clusters** page, find the target cluster, click <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/93cf18ca6fbd3fe7521bc9142132fe9c.png" width="14" alt=""> in the Actions column, and then select **stop**
 
    **maintenance**.
 
@@ -8170,7 +8170,7 @@ You have created a Kubernetes cluster, and its version is 1.9 or later.
    | Selected instance types | Displays the selected instance types. |
    | System disk | Supported disk types include <strong>Ultra Cloud Disk</strong>, <strong>ESSD</strong>, <strong>SSD Cloud Disk</strong>, and <strong>Basic</strong> <strong>Cloud Disk</strong>. ESSD and Basic Cloud Disk system disks can be encrypted. |
    | Mount data disk | Supported disk types include <strong>Ultra Cloud Disk</strong>, <strong>ESSD</strong>, <strong>SSD Cloud Disk</strong>, and <strong>Basic</strong> <strong>Cloud Disk</strong>. Data disks can be encrypted.<br>When you add two or more data disks, the last data disk is automatically formatted and mounted to <code> /var/lib/container </code>. The system then mounts the<code> /var/lib/kubelet </code> and <code> /var/lib/containerd </code> directories to<code> /var/lib/container </code>. For other data disks, you can specify custom mount points.For more information, see How do I specify custom mount directories for data disks in a node pool?<br>Note<br>You cannot set an encryption algorithm for data disk encryption. |
-   | <strong>Quantity</strong>/<strong>Number of</strong> instances | Set the initial number of nodes in the node pool. You can set this to<img src="assets/ef16e5398e3e134046317082ecae2636.png" width="15" alt=""><code>0</code> to create the node pool without any initial nodes.<br>If you <strong>Enable Auto Scaling</strong>, you can set the <strong>Minimum Number of Instances</strong> and <strong>Maximum Number of Instances</strong>. |
+   | <strong>Quantity</strong>/<strong>Number of</strong> instances | Set the initial number of nodes in the node pool. You can set this to<img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/ef16e5398e3e134046317082ecae2636.png" width="15" alt=""><code>0</code> to create the node pool without any initial nodes.<br>If you <strong>Enable Auto Scaling</strong>, you can set the <strong>Minimum Number of Instances</strong> and <strong>Maximum Number of Instances</strong>. |
    | Operating system | A variety of operating systems are supported, including Alibaba Cloud Linux 3, Anolis OS, UnionTech UOS, Kylin OS V10, Alibaba Cloud Linux V3 Linux 64-bit (MLPS 2.0 Level 3), and Alibaba Cloud Linux 4. |
    | Security hardening | • <strong>Disable</strong>: Security hardening is not enabled for the ECS instances.<br>• <strong>MLPS Compliance Hardening</strong>: You can enable MLPS compliance hardening for nodes only when the system image is Alibaba Cloud Linux 2 or Alibaba Cloud Linux 3.Alibaba Cloud provides MLPS-compliant baseline check standards and scanning programs for images of Alibaba Cloud Linux 2 and Alibaba Cloud Linux 3 that are compliant with MLPS 2.0 Level 3. For more information, see MLPS compliance hardening for ACK.<br>Important<br>MLPS compliance hardening is adapted to meet the requirements of the national standard GB/T 22239-2019 Information Security Technology - Baseline for Classified Protection of Cybersecurity, while maintaining the compatibility and performance of the original image.<br>MLPS compliance hardening prohibits the root user from logging on remotely via SSH. You can use the VNC feature in the ECS console to log on to the system and create a regular user with SSH access. |
    | Logon username |  |
@@ -8271,7 +8271,7 @@ For **BMCP** node pools, you can only edit **node labels**, **taints**, and **co
 
 2. On the **Cluster List** page, click the name of the target dedicated cluster. In the left-side navigation pane, choose **Node Management > Node Pools**.
 
-3. On the node pool list page, click the <img src="assets/b344362eaabcf91401b837629f52638e.png" width="16" alt=""> icon next to the name of the target node pool, modify the node
+3. On the node pool list page, click the <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/b344362eaabcf91401b837629f52638e.png" width="16" alt=""> icon next to the name of the target node pool, modify the node
 
    pool name, and then click **OK**.
 
@@ -8279,59 +8279,59 @@ For **BMCP** node pools, you can only edit **node labels**, **taints**, and **co
 
    | Parameter | Editabl e | Description |
    | --- | --- | --- |
-   | Region | <img src="assets/5933a063af77a8ecb1feb6af85234325.png" width="16" alt=""> | The region where the cluster is located. |
-   | Container Runtime | <img src="assets/5933a063af77a8ecb1feb6af85234325.png" width="16" alt=""> | The container runtime that you selected when you created the node pool. |
-   | VPC | <img src="assets/5933a063af77a8ecb1feb6af85234325.png" width="16" alt=""> | By default, the cluster's VPC is selected. |
-   | vSwitch | <img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""> | You can select vSwitches from the list based on the <strong>availability zone</strong>. If no suitable vSwitches are available, click <strong>Create vSwitch</strong> to create one. For more information, see Create and manage vSwitches.<br>Subsequent scaling operations provision nodes in the availability zones of the selected vSwitches according to the <strong>Multi-Zone Scaling Policy</strong> in the <strong>Advanced Options</strong> section. |
-   | Security Sandbox | <img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""> | Agent Sandbox is a sandbox runtime for production-level AI agents that provides an isolated environment for untrusted applications. This feature is available only for nodes that are ECS instances.<br>You can enable the security sandbox for a node pool, but you cannot disable it once it is enabled.<br>Note<br>This change affects only new nodes that are added to the node pool. |
-   | Node Auto-Repair | <img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""> | If you enable Node Auto-Repair, the system detects node failures and automatically performs remediation actions based on your settings, such as adding taints, draining the node, rebooting, and repairing the node. These actions may interrupt workloads running on the node. For more information, see Enable Node Auto-Repair. |
-   | Auto Scaling | <img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""> | Specifies whether to <strong>enable auto scaling</strong>. |
-   | Dedicated Host Group | <img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""> | Select a dedicated host group. |
+   | Region | <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/5933a063af77a8ecb1feb6af85234325.png" width="16" alt=""> | The region where the cluster is located. |
+   | Container Runtime | <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/5933a063af77a8ecb1feb6af85234325.png" width="16" alt=""> | The container runtime that you selected when you created the node pool. |
+   | VPC | <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/5933a063af77a8ecb1feb6af85234325.png" width="16" alt=""> | By default, the cluster's VPC is selected. |
+   | vSwitch | <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""> | You can select vSwitches from the list based on the <strong>availability zone</strong>. If no suitable vSwitches are available, click <strong>Create vSwitch</strong> to create one. For more information, see Create and manage vSwitches.<br>Subsequent scaling operations provision nodes in the availability zones of the selected vSwitches according to the <strong>Multi-Zone Scaling Policy</strong> in the <strong>Advanced Options</strong> section. |
+   | Security Sandbox | <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""> | Agent Sandbox is a sandbox runtime for production-level AI agents that provides an isolated environment for untrusted applications. This feature is available only for nodes that are ECS instances.<br>You can enable the security sandbox for a node pool, but you cannot disable it once it is enabled.<br>Note<br>This change affects only new nodes that are added to the node pool. |
+   | Node Auto-Repair | <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""> | If you enable Node Auto-Repair, the system detects node failures and automatically performs remediation actions based on your settings, such as adding taints, draining the node, rebooting, and repairing the node. These actions may interrupt workloads running on the node. For more information, see Enable Node Auto-Repair. |
+   | Auto Scaling | <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""> | Specifies whether to <strong>enable auto scaling</strong>. |
+   | Dedicated Host Group | <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""> | Select a dedicated host group. |
 
    <table>
      <tr>
        <td>Instance Type</td>
-       <td><img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
        <td>You can select multiple <strong>instance types</strong>. You can filter <strong>instance types</strong> by <strong>vCPU</strong> and <strong>Memory</strong>.<br>Note<br>After you select <strong>instance types</strong>, the details of the selected instance types are displayed in the <strong>Selected Instance Types</strong> section.<br>When the node pool scales out, nodes are created from the selected <strong>instance types</strong>.The actual instance type used for a scale-out operation depends on the node pool's scaling policy. Selecting more instance types increases the likelihood of a successful scale-out.<br>If the node pool fails to create nodes because an instance type is unavailable or out of stock, try adding more instance types.<br>Note<br>Modifying the instance types affects only new nodes, not existing ones.<br>• To upgrade an instance, log on to the ECS console to change its configuration. For more information, see <strong>Change instance types</strong> in the <strong>ECS</strong> documentation.<br>• To change the instance type, remove the instance from the cluster. After you modify the node pool's instance type, scale out the node pool to create new nodes. For more information about how to remove an instance from a cluster, see Remove nodes.</td>
      </tr>
      <tr>
        <td>Selected Instance Types</td>
-       <td><img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
        <td>Displays the selected instance types.</td>
      </tr>
      <tr>
        <td>System Disk</td>
-       <td><img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
        <td>The supported disk types are <strong>ESSD</strong>, <strong>ultra disk</strong>, <strong>standard SSD</strong>, and <strong>basic disk</strong>.<br>The available system disk types depend on the selected instance type. If a disk type is not listed, it is not supported.<br>Note<br>You can encrypt ultra disk and basic disk system disks.</td>
      </tr>
      <tr>
        <td>Attach Data Disks</td>
-       <td><img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
        <td>The supported disk types are <strong>ESSD</strong>, <strong>ultra disk</strong>, <strong>standard SSD</strong>, and <strong>basic disk</strong>.<br>The available data disk types depend on the selected instance type. If a disk type is not listed, it is not supported.<br>Note<br>• <strong>Encryption</strong> is supported for all data disk types.<br>• The number of attached disks and the remaining capacity are displayed next to <strong>Attach Data Disks</strong>.<br>• If you attach two or more data disks, the last data disk is automatically formatted and <code> /var/lib/container </code> is mounted to it. The<code> /var/lib/kubelet </code> and <code> /var/lib/containerd </code> directories are then mounted to <code> /var/lib/container </code>. For other data disks, you can specify custom mount points. For more information, see How do I specify custom mount points for data disks in a node pool?</td>
      </tr>
      <tr>
        <td>Number of instances</td>
-       <td><img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
        <td>After you <strong>Enable Auto Scaling</strong>, you can set the <strong>Minimum Number of Instances</strong> and <strong>Maximum Number of Instances</strong>.</td>
      </tr>
      <tr>
        <td>Operating System</td>
-       <td><img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
        <td>You can select operating systems such as Alibaba Cloud Linux 3, Anolis OS, UOS, Kylin V10, Alibaba Cloud Linux 3 64-bit (MLPS 2.0 Level 3), and Alibaba Cloud Linux 4.</td>
      </tr>
      <tr>
        <td>Login Name</td>
-       <td><img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
        <td></td>
      </tr>
      <tr>
        <td>Logon Method</td>
-       <td><img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
        <td>The supported logon methods are <strong>Set Key Pair</strong> and <strong>Set Password</strong>.<br>Note<br>If <strong>Security Hardening</strong> is set to <strong>MLPS Compliant Hardening</strong>, you can only set a password.<br>• <strong>Set Key Pair</strong>: Alibaba Cloud SSH key pairs provide secure and convenient logon authentication. A key pair consists of a public key and a private key and is supported only for Linux instances.<br>• <strong>Set Password</strong>: The password must be 8 to 30 characters long and contain uppercase letters, lowercase letters, digits, and special characters.</td>
      </tr>
      <tr>
        <td>Public IP</td>
-       <td><img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
        <td>Select this option to assign a public IPv4 address to new nodes. If you select this option, you must also configure the <strong>Bandwidth Billing Method</strong> and <strong>Peak</strong> <strong>Bandwidth</strong>.<br>Note<br>This option applies only to new nodes added to the node pool and does not affect existing nodes. If existing nodes require internet access, associate an Elastic IP Address (EIP) with them.</td>
      </tr>
    </table>
@@ -8340,37 +8340,37 @@ For **BMCP** node pools, you can only edit **node labels**, **taints**, and **co
 
    | Parameter | Editable | Description |
    | --- | --- | --- |
-   | ECS Tags | <img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""> | Adds tags to the ECS instances that are provisioned. Tag keys must be unique.A tag key can be up to 128 characters long. Tag keys and values cannot start with <code> aliyun </code> or <code> acs: </code> and cannot contain <code> https:// </code> or <code> http:// </code>.<br>Note<br>Modifying ECS tags affects only new nodes. To modify the ECS tags of existing nodes, use the ECS console. |
+   | ECS Tags | <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""> | Adds tags to the ECS instances that are provisioned. Tag keys must be unique.A tag key can be up to 128 characters long. Tag keys and values cannot start with <code> aliyun </code> or <code> acs: </code> and cannot contain <code> https:// </code> or <code> http:// </code>.<br>Note<br>Modifying ECS tags affects only new nodes. To modify the ECS tags of existing nodes, use the ECS console. |
 
    <table>
      <tr>
        <td>Node Labels</td>
-       <td><img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
        <td>Adds labels to the nodes in the Kubernetes cluster. Labels are key-value pairs.A valid label key consists of an optional prefix and a name, separated by a forward slash (/). Labels have the following restrictions:<br>• The name part of a label key must be 1 to 63 characters long, and must begin and end with an alphanumeric character (<code> [a-z0-9A-Z] </code>). It can contain letters, digits, hyphens (-), underscores (_), and periods (.).<br>If you specify a prefix, it must be a DNS subdomain. A DNS subdomain consists of a series of DNS labels separated by periods (.), cannot exceed 253 characters, and must end with a forward slash (/).<br>The following prefixes for label keys are reserved by Kubernetes core components and cannot be specified:<br><code>• kubernetes.io/</code><br><code>• k8s.io/</code><br>• Prefixes that end with <code> kubernetes.io/ </code> or <code> k8s.io/ </code>, such as <code> test.kubernetes.io/ </code>.<br>Exceptions:<br><code>• kubelet.kubernetes.io/</code><br><code>• node.kubernetes.io</code><br>• Prefixes that end with <code> kubelet.kubernetes.io/ </code>.<br>• Prefixes that end with <code> node.kubernetes.io </code>.<br>• A label value can be empty or up to 63 characters long. It must begin and end with an alphanumeric character (<code> [a-z0-9A-Z] </code>) and can contain letters, digits, hyphens (-), underscores (_), and periods (.).<br>• If you select <strong>Set as unschedulable</strong>, new nodes are added to the cluster as unschedulable. You can make existing nodes schedulable from the cluster's node list page.</td>
      </tr>
      <tr>
        <td>Taints</td>
-       <td><img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
        <td>Adds taints to the nodes in the Kubernetes cluster. A <strong>taint</strong> consists of a <strong>Key</strong>, a <strong>Value</strong>, and an <strong>Effect</strong>. A valid taint key consists of an optional prefix and a name, separated by a forward slash (/). Taints have the following restrictions:<br>• <strong>Key</strong>: The name part of a taint key must be 1 to 63 characters long. It must begin and end with an alphanumeric character (<code> [a-z0-9A-Z] </code>), and can contain letters, digits, hyphens (-), underscores (_), and periods (.).<br>If you specify a prefix, it must be a DNS subdomain. A DNS subdomain consists of a series of DNS labels separated by periods (.), cannot exceed 253 characters, and must end with a forward slash (/).<br>• <strong>Value</strong>: A taint value can be empty or up to 63 characters long. It must begin and end with an alphanumeric character (<code> [a-z0-9A-Z] </code>), and can contain letters, digits, hyphens (-), underscores (_), and periods (.).<br>• <strong>Effect</strong>: You can select <strong>NoSchedule</strong>, <strong>NoExecute</strong>, or <strong>PreferNoSchedule</strong>.<br>• <strong>NoSchedule</strong>: If a node has at least one taint with the <strong>NoSchedule</strong> <strong>Effect</strong>, the system does not schedule pods to that node.<br>• <strong>NoExecute</strong>: Any pods that do not tolerate this taint are evicted from the node. Pods that tolerate the taint are not evicted.<br>• <strong>PreferNoSchedule</strong>: The system tries to avoid placing a pod on a node with a taint that the pod does not tolerate, but this is not a strict requirement.<br>Note<br>Modifying taints does not affect existing nodes in a node pool and applies only to new nodes that are added to the node pool. To modify the taints of existing nodes, you can select <strong>Sync node labels and taints</strong> in the <strong>Node</strong> <strong>Labels</strong> section, or click <strong>Label and Taint Management</strong> in the upper-right corner of the Nodes page to manually manage node taints.</td>
      </tr>
      <tr>
        <td>Scaling Mode</td>
-       <td><img src="assets/5933a063af77a8ecb1feb6af85234325.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/5933a063af77a8ecb1feb6af85234325.png" width="16" alt=""></td>
        <td>Supports Standard Mode and Fast Mode.<br>• <strong>Standard mode</strong>: Scales the cluster by creating and releasing ECS instances based on resource usage.<br>• <strong>Fast mode</strong>: Scales the cluster by creating, stopping, and restarting ECS instances. This method improves scale-out speed by quickly restarting stopped instances.</td>
      </tr>
      <tr>
        <td>Multi-Zone Scaling Policy</td>
-       <td><img src="assets/5933a063af77a8ecb1feb6af85234325.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/5933a063af77a8ecb1feb6af85234325.png" width="16" alt=""></td>
        <td>Determines how the node pool selects instances during scaling operations.<br>• <strong>Priority-based policy</strong>: Scales nodes based on the priority of the configured VSwitches (from highest to lowest). If an ECS instance cannot be created in the availability zone of a higher-priority VSwitch, the system automatically tries the next VSwitch in the priority list.<br>• <strong>Balanced distribution policy</strong>: Distributes ECS instances evenly across the selected availability zones. This policy is effective only in multi-zone scenarios. If the distribution becomes uneven due to factors like insufficient inventory, you can rebalance the instances.</td>
      </tr>
      <tr>
        <td>Custom Image</td>
-       <td><img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
        <td>If you configure a <strong>Custom Image</strong>, it replaces the default system image.</td>
      </tr>
      <tr>
        <td>User Data</td>
-       <td><img src="assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
+       <td><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d93cf90c7f6ab5692bc0e78f6dfca4dd.png" width="16" alt=""></td>
        <td>The provided script runs after the node joins the cluster.<br>For example, if you specify the User Data as <code> echo "hello world" </code>, the node runs the following script.<br><code>#!/bin/bash</code><br><code>[Node initialization script]</code><br><code>echo "hello world"</code><br>Note<br>A successful cluster creation or node scale-out does not guarantee that the User Data script executed successfully. To view the execution logs, log on to the node and run the <code> grep cloud-init /var/log/messages </code> command.</td>
      </tr>
    </table>
@@ -8493,7 +8493,7 @@ Label is an important concept of Kubernetes. Services, Deployments, and pods are
 
    on the right of **Node**
 
-   <img src="assets/58a75f809f49b9d1e919419462dbc7fe.png" width="15" alt="">
+   <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/58a75f809f49b9d1e919419462dbc7fe.png" width="15" alt="">
 
    **Label** to add labels to nodes. In this example, the pod: nginx label is added.
 
@@ -8600,7 +8600,7 @@ Label is an important concept of Kubernetes. Services, Deployments, and pods are
 
 In the preceding example, all application pods are scheduled to the xxx.xxx.0.74 node. This node has the pod: nignx label.
 
-![](assets/023c42e425c42fd1d50734f7ed243596.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/023c42e425c42fd1d50734f7ed243596.jpeg)
 
 <a id="section-7-5-1-7"></a>
 
@@ -8753,7 +8753,7 @@ To apply the customized kubelet parameters, the kubelet process will automatical
 
 2. On the **Clusters** page, find the cluster that you want to manage and click its name to go to the cluster details page. In the left-side navigation pane, choose **Nodes > Node Pools**.
 
-3. On the Node Pools page, click the <img src="assets/6217b7d80a1714550d78750160c2188a.png" width="12" alt=""> icon and select **Configure kubelet** in the **Actions** column of the
+3. On the Node Pools page, click the <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/6217b7d80a1714550d78750160c2188a.png" width="12" alt=""> icon and select **Configure kubelet** in the **Actions** column of the
 
    node pool that you want to manage.
 
@@ -8831,7 +8831,7 @@ You can upgrade the following three components in any combination.
 
 4. On the **Upgrade Node Pool** page, select the components to upgrade and click **Start Upgrade**. Use the **Batch Upgrade Policy** to set the maximum number of nodes that can be upgraded concurrently in a batch.
 
-   ![](assets/63d2da837e3bbe4794c0d6d2a81e0523.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/63d2da837e3bbe4794c0d6d2a81e0523.jpeg)
 
 **More operations**
 
@@ -8847,7 +8847,7 @@ During an upgrade, you can perform the following operations in the **Event Rotat
 
   After you click **Cancel**, completed kubelet and container runtime upgrades cannot be rolled back. However, you can roll back the OS to its original version, provided that the original image is still supported by the node pool.
 
-![](assets/828fa177f3c3659662efef8bdb10fadd.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/828fa177f3c3659662efef8bdb10fadd.jpeg)
 
 **In-place and replacement upgrades**
 
@@ -8855,7 +8855,7 @@ During an upgrade, you can perform the following operations in the **Event Rotat
 
 The upgrade proceeds in batches. The batch size starts at 1 and doubles (1, 2, 4, ...) until it reaches the maximum parallelism you set. All subsequent batches use this maximum value. For example, if you set the maximum parallelism to 4, the batch sizes would be 1, 2, 4, 4, 4, and so on.
 
-![](assets/ea83f42e5a3d644a9f706ea3e8e98343.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/ea83f42e5a3d644a9f706ea3e8e98343.png)
 
 **Replacement upgrade logic for a single node**
 
@@ -9273,7 +9273,7 @@ You can enable the node auto repair feature for a node pool. Then, Container Ser
      </tr>
    </table>
 
-   ![](assets/e3fcb33d98f959c8cddba089ac1bba5d.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/e3fcb33d98f959c8cddba089ac1bba5d.png)
 
    > **Note**
    >
@@ -9562,7 +9562,7 @@ A Kubernetes cluster is created. For more information, see Create a Kubernetes c
 
 7. In the dialog box that appears, enter the name and value of the label and click **OK**.
 
-   ![](assets/ff63900f3442f7207ba9f36b56c967d4.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/ff63900f3442f7207ba9f36b56c967d4.png)
 
    On the Labels tab, you can find that the selected nodes have the same label.
 
@@ -9578,7 +9578,7 @@ A Kubernetes cluster is created. For more information, see Create a Kubernetes c
 
 5. On the **Nodes** page, click **Manage Labels and Taints** in the upper-right corner.
 
-6. Select a node, find the label that you want to delete, and then click the <img src="assets/825ed28efa94be5323217be508560424.png" width="10" alt=""> icon. In the message that
+6. Select a node, find the label that you want to delete, and then click the <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/825ed28efa94be5323217be508560424.png" width="10" alt=""> icon. In the message that
 
    appears, click **Confirm**.
 
@@ -9614,7 +9614,7 @@ You can mark a node as schedulable or unschedulable in the Container Service for
 
    In this example, **Set to Unschedulable** is selected.
 
-   ![](assets/0dbed199382e236bcf53624e08fa2d0c.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/0dbed199382e236bcf53624e08fa2d0c.png)
 
 7. Click **OK**.
 
@@ -9958,9 +9958,9 @@ When hybrid cloud node pools are connected to on-premises data centers, the comp
 
 The following figure shows the overall network architecture of hybrid cloud node pools for Container Service for Kubernetes (ACK). The architecture is divided into two network domains: Apsara Stack central VPC and data center. (If multiple data centers or third-party clouds are interconnected with the central VPC, additional network domains exist.) Layer 3 intranet connectivity is established between these two network domains through Express Connect circuits. Within this architecture, the ACK cluster in the central VPC can use either the Flannel or Terway network plug-in, while the data center uses the Terway Hybrid network plug-in.
 
-![](assets/7802d2c82b92a091b796e65d6b295eaf.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/7802d2c82b92a091b796e65d6b295eaf.png)
 
-![](assets/2663a25388ea394b6c428859b7daae01.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/2663a25388ea394b6c428859b7daae01.png)
 
 ECR
 
@@ -9976,9 +9976,9 @@ Terway Hybrid provides the Overlay mode at the node pool level. You can configur
 
 **Container network path**: Container network packets are VXLAN-encapsulated through virtual network interfaces and transmitted over UDP using host port 8472.
 
-![](assets/d7add515f852da1064808160e69f3344.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/d7add515f852da1064808160e69f3344.png)
 
-![](assets/94c08aa31ddfd54b51b2747475075147.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/94c08aa31ddfd54b51b2747475075147.png)
 
 192.168.2.0/24 via 192.168.2.1
 
@@ -10495,7 +10495,7 @@ A NAS file system is created in the NAS console and a mount target is created fo
    | Parameter | Description |
    | --- | --- |
    | PV Type | The type of the PV. Valid values: Cloud Disk, NAS, and OSS. In this example, <strong>NAS</strong> is selected. |
-   | Volume Name | The name of the PV. The name must be unique within the cluster. In this example,<br>![](assets/c2570c3286a822c091640d2ee332b316.png)<br><code>pv-nas</code> is used. |
+   | Volume Name | The name of the PV. The name must be unique within the cluster. In this example,<br>![](en-ack-user-guide-v3.18.6-2607-20260902.assets/c2570c3286a822c091640d2ee332b316.png)<br><code>pv-nas</code> is used. |
    | Volume Plug-in | The type of the storage driver that is used to provision the volume. You can select only <strong>CSI</strong>. |
    | Capacity | The capacity claimed by the PV.<br>Note<br>A NAS file system provides unlimited capacity. This parameter does not limit the storage usage of the NAS file system but defines the capacity of the PV. |
    | Access Mode | The access mode of the PV. Valid values: ReadWriteMany or ReadWriteOnce. Default value: <strong>ReadWriteMany</strong>. |
@@ -10553,7 +10553,7 @@ A NAS file system is created in the NAS console and a mount target is created fo
 
 3. Create an application. For more information, see Create a stateless workload (Deployment).
 
-   In the **Container** step, configure the parameters described in the following table in the Volume section. In this example, a cloud volume is used. Set the **PV Type** parameter to **Cloud Storage**, the **Mount Source** parameter to **csi-nas-pvc**, and the **Container Path** parameter to <img src="assets/a2edf1a3b3775fd5aafb49146304d28a.png" width="28" alt="">
+   In the **Container** step, configure the parameters described in the following table in the Volume section. In this example, a cloud volume is used. Set the **PV Type** parameter to **Cloud Storage**, the **Mount Source** parameter to **csi-nas-pvc**, and the **Container Path** parameter to <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/a2edf1a3b3775fd5aafb49146304d28a.png" width="28" alt="">
 
    `/tmp`.
 
@@ -10603,7 +10603,7 @@ A NAS file system is created in the NAS console and a mount target is created fo
    | labels | The labels that you want to add to the PV. |
    | storage | The capacity of the NAS volume. |
    | accessModes | The access mode of the PV. |
-   | driver | The type of the storage driver that is used to provision the volume. In this example,<br>![](assets/ed12fb0ade92f30e3c07e9716156eb7e.png)<br>the parameter is set to <code>nasplugin.csi.alibabacloud.com</code>. This indicates that the NAS Container Storage Interface (CSI) plug-in provided by Apsara Stack is used. |
+   | driver | The type of the storage driver that is used to provision the volume. In this example,<br>![](en-ack-user-guide-v3.18.6-2607-20260902.assets/ed12fb0ade92f30e3c07e9716156eb7e.png)<br>the parameter is set to <code>nasplugin.csi.alibabacloud.com</code>. This indicates that the NAS Container Storage Interface (CSI) plug-in provided by Apsara Stack is used. |
    | volumeHandle | The unique identifier of the PV. If multiple PVs are used, the identifier of each PV must be unique. |
    | server | The mount target of the NAS file system. |
    | path | The subdirectory of the NAS file system that you want to mount. If you want to mount an Extreme NAS file system, the subdirectory must be under the /share directory. |
@@ -11382,7 +11382,7 @@ A pod that uses a filesystem-type NAS volume can create only one file system and
 
    - Edit the custom policy of the Master RAM role to add the preceding NAS-related permissions.
 
-     ![](assets/03ec04b53d99a4acbd60604a2fa20b18.png)
+     ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/03ec04b53d99a4acbd60604a2fa20b18.png)
 
    - Create a RAM user, grant the RAM policy described above, generate an AccessKey, and configure the AccessKey in the  `env`  variable of csi-provisioner.
 
@@ -11965,7 +11965,7 @@ The RAM Roles for Service Accounts (RRSA) feature lets you implement OpenAPI per
      <tr>
        <td>Volume</td>
        <td>Click <strong>Add PVC</strong> and configure the following parameters:<br>• <strong>Mount Source</strong>: Select the PVC that you created.<br>• <strong>Container Path</strong>: Enter the path of the container to which you want to mount the OSS bucket.</td>
-       <td>• Mount Source: pvc-oss.<br>• Container Path: /data.<br><img src="assets/cbfb38526c2438e4339380a7b73f076a.jpeg" alt=""></td>
+       <td>• Mount Source: pvc-oss.<br>• Container Path: /data.<br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/cbfb38526c2438e4339380a7b73f076a.jpeg" alt=""></td>
      </tr>
    </table>
 
@@ -12419,7 +12419,7 @@ Object Storage Service (OSS) volumes can be mounted to multiple pods. OSS is sui
      <tr>
        <td>Volume</td>
        <td>Click <strong>Add PVC</strong> and configure the following parameters:<br>• <strong>Mount Source</strong>: Select the PVC that you created.<br>• <strong>Container Path</strong>: Enter the path of the container to which you want to mount the OSS bucket.</td>
-       <td>• Mount Source: pvc-oss.<br>• Container Path: /data.<br><img src="assets/3ab404813d265e84ae5257cc7b4526a6.jpeg" alt=""></td>
+       <td>• Mount Source: pvc-oss.<br>• Container Path: /data.<br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/3ab404813d265e84ae5257cc7b4526a6.jpeg" alt=""></td>
      </tr>
    </table>
 
@@ -12692,7 +12692,7 @@ This topic describes how to create a persistent volume claim (PVC).
 
    If you cannot find available PVs, click **Persistent Volumes** in the left-side navigation pane. On the Persistent Volumes page, find the PV that you want to use, click **Manage Labels** in the Actions column, and then add a label to the PV. On the Manage Labels dialog box, set the key of the label to **alicloud-pvname** and the value to the name of the PV. If the PV is created from a disk, the disk ID is used as the name of the PV.
 
-   ![](assets/bb951354db7987665cc1f153439b1c65.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/bb951354db7987665cc1f153439b1c65.png)
 
 7. Return to the Persistent Volume Claims page, where you can find the created PVC.
 
@@ -12732,7 +12732,7 @@ You can use persistent volume claims (PVCs) to mount volumes for applications.
 
 1. On the details page of the pod, click the **Volumes** tab. You can find that the pod is associated with the pvc-disk PVC.
 
-   ![](assets/a5a3a1f6b1c6ff27c84331a1012cef91.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/a5a3a1f6b1c6ff27c84331a1012cef91.png)
 
 <a id="section-7-6-9"></a>
 
@@ -12780,7 +12780,7 @@ To use volume snapshots, you must associate these resources with each other base
 
 The following figure shows the procedure to dynamically create a volume snapshot from the disk that is used in an ACK cluster.
 
-![](assets/b6e35cf1d17bf023e1a0ff58534e338b.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/b6e35cf1d17bf023e1a0ff58534e338b.jpeg)
 
 The following table describes the steps that are performed in the procedure.
 
@@ -16489,7 +16489,7 @@ You can filter the policies in the upper-right corner of the list. Enabled polic
 
 If the Policy Instances column is empty, the policy is not deployed. In the **Actions** column, click **Enable** to configure parameters and deploy a policy instance.
 
-![](assets/1de18f02b6a5c646d36d1ecc8103c8ab.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/1de18f02b6a5c646d36d1ecc8103c8ab.jpeg)
 
 - To modify the configuration of a policy instance, click **Edit** in the **Actions** column.
 
@@ -16675,30 +16675,30 @@ The following table describes the inspection items.
 
 | Inspection item | Inspection content and potential security risk | Suggested solution |
 | --- | --- | --- |
-| hostNetworkSet | Checks whether the pod specification of a workload contains the <code> hostNetwork:true </code> setting. This setting specifies that the pod uses the network namespace of the host. If the hostNetwork:true setting is specified, the host network may be attacked by containers in the pod and the data transfer in the host network may be sniffed. | Delete the <code> hostNetwork </code> field from the pod specification.<br>Example:<br>![](assets/9b03f7bc5d31c1293536edaf6d0f56fa.png) |
-| hostIPCSet | Checks whether the pod specification of a workload contains the <code> hostIPC:true </code> setting. This setting specifies that the pod uses the inter-process communication (IPC) namespace of the host. If the hostIPC:true setting is specified, containers in the pod may attack the host processes and sniff process data. | Delete the <code> hostIPC </code> field from the pod specification.<br>Example:<br>![](assets/3d55ec3251813ba4afb67523c3638d42.png) |
-| hostPIDSet | Checks whether the pod specification of a workload contains the <code> hostPID:true </code> setting. This setting specifies that the pod uses the process ID (PID) namespace of the host. If the hostPID:true setting is specified, containers in the pod may attack the host processes and collect process data. | Delete the <code> hostPID </code> field from the pod specification.<br>Example:<br>![](assets/553f42bade9f458d1cf5dc651aad260a.png) |
-| hostPortSet | Checks whether the pod specification of a workload contains the <code> hostPort </code> field.This field specifies the host port to which the listening port of the pod is mapped. If the hostPort field is specified, the specified host port may be occupied without authorization and the container port may receive unexpected requests. | Delete the <code> hostPort </code> field from the pod specification.<br>Example:<br>![](assets/62dac274740e80ba1d72e9a316223bf5.png) |
-| runAsRootAllowed | Checks whether the pod specification of a workload contains the <code> runAsNonRoot:true </code> setting. This setting specifies that containers in the pod are not allowed to run as the root user. If the runAsNonRoot:true setting is not specified, malicious processes in the containers may intrude into your applications, hosts, or cluster. | Add the <code> runAsNonRoot:true </code> setting to the pod specification.<br>Example:<br>![](assets/ab0beaca8d550c7ca1801f2cc8566de5.png) |
-| runAsPrivileged | Checks whether the pod specification of a workload contains the <code> privileged:true </code> setting. This setting specifies that containers in the pod are allowed to run in privileged mode. If the privileged:true setting is specified, malicious processes in the containers may intrude into your applications, hosts, or cluster. | Delete the <code> privileged </code> field from the pod specification.<br>Example:<br>![](assets/71b9d9ed6efab86a431ac339b685b6ae.png) |
-| privilegeEscalationAl lowed | Checks whether the pod specification of a workload contains the <code>allowPrivilegeEscalation:false</code> setting. This setting specifies that the child processes of a container cannot be granted higher privileges than the parent process. If the allowPrivilegeEscalation:false setting is not specified, malicious processes in the container may be granted escalated privileges and perform unauthorized operations. | Add the <code>allowPrivilegeEscalation:false</code> setting to the pod specification.<br>Example:<br>![](assets/d2d590da4b231365de8de98ba49d2e1b.png) |
-| capabilitiesAdded | Checks whether the pod specification of a workload contains the <code> capabilities </code> field. This field is used to enable Linux capabilities for processes in containers. The capabilities include SYS_ADMIN, NET_ADMIN, and ALL. If the capabilities field is specified, malicious processes in the containers may intrude into your applications, cluster components, or cluster. | Modify the pod specification to retain only the required Linux capabilities and remove other capabilities.<br>If processes in the containers do not require Linux capabilities, remove all Linux capabilities. Example:<br>![](assets/2f734a32c05c08a158f3bfa22a6084e1.png)<br>If processes in the containers require Linux capabilities, specify only the required Linux capabilities and remove other capabilities.Example:<br>![](assets/15e588acecf82cb4a15f0dfa50b533a5.png) |
+| hostNetworkSet | Checks whether the pod specification of a workload contains the <code> hostNetwork:true </code> setting. This setting specifies that the pod uses the network namespace of the host. If the hostNetwork:true setting is specified, the host network may be attacked by containers in the pod and the data transfer in the host network may be sniffed. | Delete the <code> hostNetwork </code> field from the pod specification.<br>Example:<br>![](en-ack-user-guide-v3.18.6-2607-20260902.assets/9b03f7bc5d31c1293536edaf6d0f56fa.png) |
+| hostIPCSet | Checks whether the pod specification of a workload contains the <code> hostIPC:true </code> setting. This setting specifies that the pod uses the inter-process communication (IPC) namespace of the host. If the hostIPC:true setting is specified, containers in the pod may attack the host processes and sniff process data. | Delete the <code> hostIPC </code> field from the pod specification.<br>Example:<br>![](en-ack-user-guide-v3.18.6-2607-20260902.assets/3d55ec3251813ba4afb67523c3638d42.png) |
+| hostPIDSet | Checks whether the pod specification of a workload contains the <code> hostPID:true </code> setting. This setting specifies that the pod uses the process ID (PID) namespace of the host. If the hostPID:true setting is specified, containers in the pod may attack the host processes and collect process data. | Delete the <code> hostPID </code> field from the pod specification.<br>Example:<br>![](en-ack-user-guide-v3.18.6-2607-20260902.assets/553f42bade9f458d1cf5dc651aad260a.png) |
+| hostPortSet | Checks whether the pod specification of a workload contains the <code> hostPort </code> field.This field specifies the host port to which the listening port of the pod is mapped. If the hostPort field is specified, the specified host port may be occupied without authorization and the container port may receive unexpected requests. | Delete the <code> hostPort </code> field from the pod specification.<br>Example:<br>![](en-ack-user-guide-v3.18.6-2607-20260902.assets/62dac274740e80ba1d72e9a316223bf5.png) |
+| runAsRootAllowed | Checks whether the pod specification of a workload contains the <code> runAsNonRoot:true </code> setting. This setting specifies that containers in the pod are not allowed to run as the root user. If the runAsNonRoot:true setting is not specified, malicious processes in the containers may intrude into your applications, hosts, or cluster. | Add the <code> runAsNonRoot:true </code> setting to the pod specification.<br>Example:<br>![](en-ack-user-guide-v3.18.6-2607-20260902.assets/ab0beaca8d550c7ca1801f2cc8566de5.png) |
+| runAsPrivileged | Checks whether the pod specification of a workload contains the <code> privileged:true </code> setting. This setting specifies that containers in the pod are allowed to run in privileged mode. If the privileged:true setting is specified, malicious processes in the containers may intrude into your applications, hosts, or cluster. | Delete the <code> privileged </code> field from the pod specification.<br>Example:<br>![](en-ack-user-guide-v3.18.6-2607-20260902.assets/71b9d9ed6efab86a431ac339b685b6ae.png) |
+| privilegeEscalationAl lowed | Checks whether the pod specification of a workload contains the <code>allowPrivilegeEscalation:false</code> setting. This setting specifies that the child processes of a container cannot be granted higher privileges than the parent process. If the allowPrivilegeEscalation:false setting is not specified, malicious processes in the container may be granted escalated privileges and perform unauthorized operations. | Add the <code>allowPrivilegeEscalation:false</code> setting to the pod specification.<br>Example:<br>![](en-ack-user-guide-v3.18.6-2607-20260902.assets/d2d590da4b231365de8de98ba49d2e1b.png) |
+| capabilitiesAdded | Checks whether the pod specification of a workload contains the <code> capabilities </code> field. This field is used to enable Linux capabilities for processes in containers. The capabilities include SYS_ADMIN, NET_ADMIN, and ALL. If the capabilities field is specified, malicious processes in the containers may intrude into your applications, cluster components, or cluster. | Modify the pod specification to retain only the required Linux capabilities and remove other capabilities.<br>If processes in the containers do not require Linux capabilities, remove all Linux capabilities. Example:<br>![](en-ack-user-guide-v3.18.6-2607-20260902.assets/2f734a32c05c08a158f3bfa22a6084e1.png)<br>If processes in the containers require Linux capabilities, specify only the required Linux capabilities and remove other capabilities.Example:<br>![](en-ack-user-guide-v3.18.6-2607-20260902.assets/15e588acecf82cb4a15f0dfa50b533a5.png) |
 
 <table>
   <tr>
     <td>notReadOnlyRootFile System</td>
     <td>Checks whether the pod specification of a workload contains the <code> readOnlyRootFilesystem:true </code> setting.This setting specifies that the root file system mounted to containers is read-only. If the readOnlyRootFilesystem:true setting is not specified, malicious processes in the containers may modify the root file system.</td>
-    <td>Add the <code> readOnlyRootFilesystem:true </code> setting to the pod specification. If you want to modify files in a specific directory, set the volumeMounts field in the pod specification.<br>Example:<br><img src="assets/d9bddfaec90b1eba6773b07f56568197.png" alt=""><br>If you want to modify files in a specific directory, set the <code> volumeMounts </code> field in the pod configurations.<br>Example:<br><img src="assets/bbe478bd1be2c4b9a27a6f564940e397.png" alt=""></td>
+    <td>Add the <code> readOnlyRootFilesystem:true </code> setting to the pod specification. If you want to modify files in a specific directory, set the volumeMounts field in the pod specification.<br>Example:<br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d9bddfaec90b1eba6773b07f56568197.png" alt=""><br>If you want to modify files in a specific directory, set the <code> volumeMounts </code> field in the pod configurations.<br>Example:<br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/bbe478bd1be2c4b9a27a6f564940e397.png" alt=""></td>
   </tr>
   <tr>
     <td>cpuRequestsMissing</td>
     <td>Checks whether the pod specification of a workload contains the <code> resources.requests.cpu </code> field. This field specifies the minimum CPU resources that are required for running each container. If the resources.requests.cpu field is not specified, the pod may be scheduled to a node that has insufficient CPU resources. This may lead to slow processes.</td>
-    <td>Add the <code> resources.requests.cpu </code> field to the pod specification.<br>Example:<br><img src="assets/1146287365bf415ac513cdbe1167b8e6.png" alt=""></td>
+    <td>Add the <code> resources.requests.cpu </code> field to the pod specification.<br>Example:<br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/1146287365bf415ac513cdbe1167b8e6.png" alt=""></td>
   </tr>
   <tr>
     <td>cpuLimitsMissing</td>
     <td>Checks whether the pod specification of a workload contains the <code> resources.limits.cpu </code> field. This field specifies the maximum CPU resources that can be used to run each container. If the resources.limits.cpu field is not specified, abnormal processes in containers may consume an excessive amount of CPU resources or exhaust the CPU resources of the node or cluster.</td>
-    <td>Add the <code> resources.limits.cpu </code> field to the pod specification.<br>Example:<br><img src="assets/91a9619aa72db0e1ae0acf70f17d821d.png" alt=""></td>
+    <td>Add the <code> resources.limits.cpu </code> field to the pod specification.<br>Example:<br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/91a9619aa72db0e1ae0acf70f17d821d.png" alt=""></td>
   </tr>
 </table>
 
@@ -16706,32 +16706,32 @@ The following table describes the inspection items.
   <tr>
     <td>memoryRequestsMis sing</td>
     <td>Checks whether the pod specification of a workload contains the <code> resources.requests.memory </code> field. This field specifies the minimum memory resources that are required to run each container. If the resources.requests.memory field is not specified, the pod may be scheduled to a node that has insufficient memory resources. As a result, processes in containers may be terminated when the Out of Memory (OOM) killer is triggered.</td>
-    <td>Add the <code> resources.requests.memory </code> field to the pod specification.<br>Example:<br><img src="assets/e590329baa9923ab90a7b07737a75ebb.png" alt=""></td>
+    <td>Add the <code> resources.requests.memory </code> field to the pod specification.<br>Example:<br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/e590329baa9923ab90a7b07737a75ebb.png" alt=""></td>
   </tr>
   <tr>
     <td>memoryLimitsMissin g</td>
     <td>Checks whether the pod specification of a workload contains the <code> resources.limits.memory </code> field. This field specifies the maximum memory resources that can be used by each container. If the resources.limits.memory field is not specified, abnormal processes in containers may consume an excessive amount of memory resources or exhaust the memory resources of the node or cluster.</td>
-    <td>Add the <code> resources.limits.memory </code> field to the pod specification.<br>Example:<br><img src="assets/7cbdb7d68daaca064fc5c158958b4735.png" alt=""></td>
+    <td>Add the <code> resources.limits.memory </code> field to the pod specification.<br>Example:<br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/7cbdb7d68daaca064fc5c158958b4735.png" alt=""></td>
   </tr>
   <tr>
     <td>readinessProbeMissi ng</td>
     <td>Checks whether the pod specification of a workload contains the <code> readinessProbe </code> field. This field specifies whether readiness probes are configured for containers.Readiness probes are used to check whether applications in the containers are ready to process requests. If the readinessProbe field is not specified, service exceptions may occur when requests are sent to applications that are not ready to process requests.</td>
-    <td>Add the <code> readinessProbe </code> field to the pod specification.<br>Example:<br><img src="assets/64ef6e380e663c348bd63449e705afca.png" alt=""></td>
+    <td>Add the <code> readinessProbe </code> field to the pod specification.<br>Example:<br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/64ef6e380e663c348bd63449e705afca.png" alt=""></td>
   </tr>
   <tr>
     <td>livenessProbeMissing</td>
     <td>Checks whether the pod specification of a workload contains the <code> livenessProbe </code> field. This field specifies whether liveness probes are configured for containers.Liveness probes are used to check whether a container restart is required to resolve application exceptions. If the livenessProbe field is not specified, the service may be interrupted when application exceptions can be resolved only by restarting containers.</td>
-    <td>Add the <code> livenessProbe </code> field to the pod specification.<br>Example:<br><img src="assets/12e303cd1154427f205a734d252e3b36.png" alt=""></td>
+    <td>Add the <code> livenessProbe </code> field to the pod specification.<br>Example:<br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/12e303cd1154427f205a734d252e3b36.png" alt=""></td>
   </tr>
   <tr>
     <td>tagNotSpecified</td>
     <td>Checks whether the <code> image </code> field in the pod specification of a workload specifies an image version or whether the value of the field is set to latest. If no image version is specified or the value of the field is set to latest, the service may be interrupted when containers use a wrong image version.</td>
-    <td>Modify the <code> image </code> field in the pod specification by specifying an image version.Set the field to a value other than latest.<br>Example:<br><img src="assets/701c1a8885733bc27608d79a78a66af5.png" alt=""></td>
+    <td>Modify the <code> image </code> field in the pod specification by specifying an image version.Set the field to a value other than latest.<br>Example:<br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/701c1a8885733bc27608d79a78a66af5.png" alt=""></td>
   </tr>
   <tr>
     <td>anonymousUserRBA CBinding</td>
     <td>Checks RBAC role bindings in the cluster and locates the configurations that allow access from anonymous users. If anonymous users are allowed to access the cluster, they may gain access to sensitive information, attack the cluster, and intrude into the cluster.</td>
-    <td>Remove the configurations that allow access from anonymous users from the RBAC role bindings.<br>Example:<br><img src="assets/353d6b18d1d583444cc9c1c25747430a.jpeg" alt=""></td>
+    <td>Remove the configurations that allow access from anonymous users from the RBAC role bindings.<br>Example:<br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/353d6b18d1d583444cc9c1c25747430a.jpeg" alt=""></td>
   </tr>
 </table>
 
@@ -16771,7 +16771,7 @@ If you have not enabled the cluster log or cluster auditing feature, follow the 
 
 ACK provides three built-in audit log reports, which provide an overview of the audit center, an overview of resource operations, and a detailed list of resource operations. On the **Cluster Auditing** page, you can filter audit events by namespace or RAM user and view the following content in reports.
 
-You can also click the <img src="assets/ad5c742e400615b0744e630223423148.png" width="14" alt=""> icon in the upper-right part of a chart to perform other operations. For example,
+You can also click the <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/ad5c742e400615b0744e630223423148.png" width="14" alt=""> icon in the upper-right part of a chart to perform other operations. For example,
 
 you can view the chart in full-screen mode or preview query statements.
 
@@ -16791,13 +16791,13 @@ This report provides statistics about common operations on computing resources, 
 
 - Access control resources: Role, ClusterRole, RoleBinding, and ClusterRoleBinding.
 
-![](assets/c3f70d8662ad8a56e69d16895b7defd2.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/c3f70d8662ad8a56e69d16895b7defd2.jpeg)
 
 **Operation Details**
 
 This report provides operation details on a resource type. You can specify a resource type to query operation details in real time. The report displays the total number of operations, distribution of namespaces, operation success rate, trend of operations over time, and other operation details.
 
-![](assets/fafc7802ae465173ca8d27cafc369137.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/fafc7802ae465173ca8d27cafc369137.jpeg)
 
 > **Note**
 >
@@ -17264,7 +17264,7 @@ Configure the  `AllowUsers`
 
 <li>
 
-Press the <img src="assets/34d60e4999759a6f1da1cc0df570e878.png" width="24" alt="">
+Press the <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/34d60e4999759a6f1da1cc0df570e878.png" width="24" alt="">
 
 `Esc` key. Then, enter  `:wq`  and
 
@@ -17312,7 +17312,7 @@ You can select **Reinforcement based on classified protection** to enable MLPS S
 
 MLPS Security Hardening
 
-![](assets/170c3cd9dd4527bdfffff47e9ae03d29.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/170c3cd9dd4527bdfffff47e9ae03d29.jpeg)
 
 > **Important**
 >
@@ -17354,7 +17354,7 @@ Security Center that supports baseline check is purchased.
 
 6. On the **Baseline Check** page, click **All Policies**, select the baseline that you want to use, and then click **Check Now**.
 
-   ![](assets/8802e8b963cf64447f5bfca04096cccb.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/8802e8b963cf64447f5bfca04096cccb.jpeg)
 
 7. After the baseline check is complete, click the name of a baseline on the **Baseline Check** page to view the baseline check result.
 
@@ -17372,7 +17372,7 @@ Container Service for Kubernetes (ACK) provides stable and high-performance cont
 
 A containerized application is deployed as multiple workloads on a node. Each workload requires a unique network namespace. To avoid network conflicts, each pod must have a unique network namespace. To enable the application that runs on a pod to communicate with other networks, the pod must be able to access other networks.
 
-![](assets/a84ddeaeeed5299ba794787b156e92d6.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/a84ddeaeeed5299ba794787b156e92d6.jpeg)
 
 Container networking has the following features:
 
@@ -17427,11 +17427,11 @@ ACK provides the following types of Services to handle requests from different s
 
 In ACK clusters, Services support Layer 4 load balancing. However, Ingresses manage external access to Services in the cluster at Layer 7. You can use Ingresses to configure different Layer 7 forwarding rules. For example, you can forward requests to different Services based on domain names or access paths for Layer 7 load balancing.
 
-![](assets/a9ebdc83ce44ee25a1bb9311c7592634.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/a9ebdc83ce44ee25a1bb9311c7592634.png)
 
 In common architectures that decouple the frontend and backend services, different access paths are used to access frontend and backend services. In this case, Ingresses can be used to implement Layer 7 load balancing across different applications.
 
-![](assets/066e40c76404f26aa151aedba397b346.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/066e40c76404f26aa151aedba397b346.jpeg)
 
 **DNS for service discovery**
 
@@ -17439,7 +17439,7 @@ ACK uses DNS for service discovery. For example, the name of a Service can be re
 
 CoreDNS automatically converts the name of a Service to the IP address of the Service. This allows you to use the same Service name to access the Service in different environments.
 
-![](assets/ab6f511a794f0c83d38d8d2aa02e8a67.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/ab6f511a794f0c83d38d8d2aa02e8a67.png)
 
 **Network Infrastructure**
 
@@ -17447,7 +17447,7 @@ CoreDNS automatically converts the name of a Service to the IP address of the Se
 
 VPCs are a type of private network provided by Alibaba Cloud. VPCs are logically isolated from each other. You can create and manage cloud services in VPCs, such as ECS instances, ApsaraDB RDS instances, and SLB instances. Each VPC consists of one vRouter, at least one private CIDR block, and at least one vSwitch.
 
-![](assets/e7fcc928f89926949c9ab1e79d816ee1.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/e7fcc928f89926949c9ab1e79d816ee1.png)
 
 - When you create a VPC and a vSwitch, you must specify the private IP address range for the VPC in CIDR notation. You can use a custom CIDR block or one of the standard private CIDR blocks listed in the following table as the private CIDR block of a VPC.
 
@@ -17626,7 +17626,7 @@ To use Container Service clusters that are deployed on Alibaba Cloud, you must f
 
 - **Scenario 3: Two connected VPCs** If two VPCs are connected, you can use the route table of one VPC to specify the packets that you want to send to the other VPC. The CIDR block of VPC 1 is 192.168.0.0/16 and the CIDR block of VPC 2 is 172.16.0.0/12, as shown in the following figure. You can use the route table of VPC 1 to forward all packets that are destined for 172.16.0.0/12 to VPC 2.
 
-  ![](assets/274ab471c6ef067135737e25b32a05b3.png)
+  ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/274ab471c6ef067135737e25b32a05b3.png)
 
   Table 3. Connected VPCs
 
@@ -17871,7 +17871,7 @@ In a cluster that has Terway installed, each pod has a separate network stack an
 
 Figure 1. How the Terway mode works
 
-![](assets/8c2bc4c91ca9e34cfdde7431b035b46a.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/8c2bc4c91ca9e34cfdde7431b035b46a.png)
 
 **Comparison between Flannel and Terway**
 
@@ -18059,7 +18059,7 @@ After you enable the Terway Trunk ENI feature for a cluster, you can customize t
 
 After you enable custom pod configurations, the terway-controlplane component is deployed in the cluster. The following figure shows how the component works.
 
-![](assets/32e15529c8485e715dff3d5f8c443b7b.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/32e15529c8485e715dff3d5f8c443b7b.jpeg)
 
 **Limits**
 
@@ -18878,7 +18878,7 @@ You can add a vSwitch in the console. First, upgrade the Terway component to the
    >
    > Changes made to the component outside of this configuration page are overwritten when the component is redeployed.
 
-   ![](assets/21e86b4794d717337be151ad009bfbe9.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/21e86b4794d717337be151ad009bfbe9.jpeg)
 
 5. On the **Terway-eniip Parameter Settings** page, in the **PodVswitchId** section, select the vSwitch that you want to use. You can keep the default values for the other parameters.
 
@@ -19292,7 +19292,7 @@ You can create or associate an EIP with a pod by specifying an annotation in the
 
    After the pod enters the Running state, you can check the value of the **k8s.aliyun.com/allocated-eipAddress** annotation in the pod to view its associated EIP address. You can then access the pod using this EIP.
 
-   ![](assets/1a45d7eb5f97b054234972d634f320bf.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/1a45d7eb5f97b054234972d634f320bf.jpeg)
 
 **FAQ**
 
@@ -20450,7 +20450,7 @@ For more information about the CCM and its release notes, see Cloud Controller M
 
 You can use the CCM to associate both nodes in a cluster and ECS instances outside the cluster with an SLB instance. This way, the SLB instance can distribute traffic to nodes in your cluster and nodes outside your cluster.
 
-![](assets/89e76ea2ed3c3b8fd8842c7b93fe8b87.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/89e76ea2ed3c3b8fd8842c7b93fe8b87.png)
 
 1. Create a my-nginx-svc.yaml file and copy the following content to the file:
 
@@ -20512,7 +20512,7 @@ You can use the CCM to associate both nodes in a cluster and ECS instances outsi
 
 **Scenario 2: Set weights for nodes in the cluster and ECS instances outside the cluster**
 
-![](assets/03bd36befde43bd97dbb2416e0416659.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/03bd36befde43bd97dbb2416e0416659.png)
 
 **Usage notes**
 
@@ -20572,7 +20572,7 @@ You can use the CCM to associate both nodes in a cluster and ECS instances outsi
 
 In most cases, an enterprise takes various measures, such as data backup and disaster recovery across clusters, to ensure high availability for services. To achieve this goal, the enterprise can use an SLB instance to distribute traffic to multiple Kubernetes clusters based on the weights of backend servers, as shown in the following figure.
 
-![](assets/a0380268b651c7609263ec958b14f062.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/a0380268b651c7609263ec958b14f062.png)
 
 > **Important**
 >
@@ -20701,7 +20701,7 @@ ACK NodeLocal DNSCache (ack-node-local-dns) is a local DNS caching solution deve
 
 **How NodeLocal DNSCache works**
 
-![](assets/07497dc5642228ff4147813fff0b0aeb.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/07497dc5642228ff4147813fff0b0aeb.jpeg)
 
 Table 1. Procedure
 
@@ -21041,7 +21041,7 @@ If your cluster runs Terway in inclusive ENI mode based on IPVLAN, you need to m
 
    - If the **host_stack_cidrs** field does not exist, add the **host_stack_cidrs** field to the Terway ConfigMap
 
-     ![](assets/7d9cbc06fe3e680725420e0bfef885ff.png)
+     ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/7d9cbc06fe3e680725420e0bfef885ff.png)
 
      and set the value to
 
@@ -21143,7 +21143,7 @@ By default, the Gateway API component is automatically installed in Container Se
 
 By default, the custom resource definition (CRD) of the Gateway API component is automatically created in ACK clusters whose version is 1.24 and later. You can install a gateway that supports the Gateway API to use the features provided by the Gateway API.
 
-![](assets/0783a14f723a3f6a67271ec1ec750d78.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/0783a14f723a3f6a67271ec1ec750d78.jpeg)
 
 **Preparations**
 
@@ -21929,12 +21929,12 @@ The cluster uses the Terway network plug-in and NetworkPolicy is enabled for the
    | --- | --- |
    | Parameter | The name of the network policy. Example: deny-public-net |
    | Pod Selectors | The pod selectors. In this example, All is selected. |
-   | Source | The ingress rules. In this example, the following ingress rules are added:<br>• Set the namespaceSelector parameter to All.<br>• Set the ipBlock parameter to 0.0.0.0/0.<br>![](assets/4cfe43896b9f76f919127c3fce70bdff.png) |
+   | Source | The ingress rules. In this example, the following ingress rules are added:<br>• Set the namespaceSelector parameter to All.<br>• Set the ipBlock parameter to 0.0.0.0/0.<br>![](en-ack-user-guide-v3.18.6-2607-20260902.assets/4cfe43896b9f76f919127c3fce70bdff.png) |
 
    <table>
      <tr>
        <td>Destination</td>
-       <td>The egress rules that allow the pod to access only the internal network. In this example, the following egress rules are added:<br>• Set the <strong>namespaceSelector</strong> parameter to <strong>All</strong>. This allows the pod to access all other pods in the internal network.<br>• Create three rules and set the <strong>ipBlock</strong> parameter to the following CIDR blocks in sequence:<br>• 10.0.0.0/8<br>• 172.16.0.0/12<br>• 192.168.0.0/16<br>Note<br>You cannot specify multiple CIDR blocks for the ipBlock parameter in one rule.<br><img src="assets/c8b01930db5e97c4e90ad0ec7c40153e.png" alt=""></td>
+       <td>The egress rules that allow the pod to access only the internal network. In this example, the following egress rules are added:<br>• Set the <strong>namespaceSelector</strong> parameter to <strong>All</strong>. This allows the pod to access all other pods in the internal network.<br>• Create three rules and set the <strong>ipBlock</strong> parameter to the following CIDR blocks in sequence:<br>• 10.0.0.0/8<br>• 172.16.0.0/12<br>• 192.168.0.0/16<br>Note<br>You cannot specify multiple CIDR blocks for the ipBlock parameter in one rule.<br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/c8b01930db5e97c4e90ad0ec7c40153e.png" alt=""></td>
      </tr>
    </table>
 
@@ -21974,7 +21974,7 @@ The cluster uses the Terway network plug-in and NetworkPolicy is enabled for the
 
    The output shows that the pod can access the internal network but not the Internet.
 
-   ![](assets/27f12077bb723033e1103d9cea2f3ec2.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/27f12077bb723033e1103d9cea2f3ec2.png)
 
 <a id="section-7-9"></a>
 
@@ -22061,7 +22061,7 @@ You can configure quotas for a namespace to limit resources such as CPU, memory,
 
    Configure a resource quota (ResourceQuota) for the namespace.
 
-   ![](assets/c0db04bffa28cd3288ae645cb12c648d.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/c0db04bffa28cd3288ae645cb12c648d.jpeg)
 
    </li>
 
@@ -22075,7 +22075,7 @@ You can configure quotas for a namespace to limit resources such as CPU, memory,
 
    namespace. For more information, see https://kubernetes.io//memory-default-namespace/.
 
-   ![](assets/70de84168b82c48413dd9b994ff8cfc3.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/70de84168b82c48413dd9b994ff8cfc3.jpeg)
 
 7. After you create the resource quotas and limits, connect to the master node and run the following commands to view the namespace's resource status.
 
@@ -22461,7 +22461,7 @@ In the **Advanced** step, configure the following settings: access control, scal
      | Rule | Ingress rules are used to enable access to specific Services in a cluster. For more information, see Ingress configurations.<br>• <strong>Domain</strong>: Enter the domain name of the Ingress.<br>• <strong>Path</strong>: Enter the Service URL. The default path is the root path /. The default path is used in this example. Each path is associated with a backend Service. SLB forwards traffic to a backend Service only when inbound requests match the domain name and path.<br>• <strong>Service</strong>: Select a Service and a Service port.<br>• <strong>Enable</strong>: Select this check box to enable TLS authentication for the Ingress. |
      | Weight | Set the weight for each Service in the path. Each weight is calculated as a percentage value. Default value: 100. |
      | Canary Release | After canary release is configured, only requests that match the specified rules are routed to the new-nginx Service. If the weight of new-nginx is lower than 100%, requests that match the specified rules are routed to the Service based on the Service weight. Container Service supports multiple traffic splitting methods. This allows you to select suitable solutions for specific scenarios, such as canary releases and A/B testing:<br>• Traffic splitting based on request headers<br>• Traffic splitting based on cookies<br>• Traffic splitting based on query parameters<br>Note<br>Only Ingress controllers of <strong>V0.12.0-5</strong> and later support traffic splitting.<br>The following parameters are required:<br>• <strong>Services</strong>: Specify the Services to be accessed.<br>• <strong>Type</strong>: the type of matching rule. Valid values: Header, Cookie, and Query.<br>• <strong>Name</strong> and <strong>Match Value</strong>: the names and matching values of custom request fields in key-value pairs.<br>• <strong>Matching Rule</strong>: Regular expressions and exact matches are supported. |
-     | Annotations | Click the <strong>+</strong> icon to add an annotation. You can select <strong>Custom Annotation</strong> or <strong>Ingress-NGINX</strong> from the Type drop-down list. For more information about Ingress annotations, see Annotations.<br>Note<br>If you want to add an annotation for configuring rewrite rules, select <strong>Ingress-</strong><strong>NGINX</strong> from the Type drop-down list. Select <strong>nginx.ingress.kubernetes.io/rewrite-target Rewrite Annotation</strong> from the <strong>Name</strong> drop-down list. Then, specify<img src="assets/e4916cb149af6c7daf0aa79eed9c7b92.png" width="15" alt=""><code>/</code> in the <strong>Value</strong> column. This annotation specifies that the requests destined for /path are redirected to the root path, which can be recognized by the backend Service. |
+     | Annotations | Click the <strong>+</strong> icon to add an annotation. You can select <strong>Custom Annotation</strong> or <strong>Ingress-NGINX</strong> from the Type drop-down list. For more information about Ingress annotations, see Annotations.<br>Note<br>If you want to add an annotation for configuring rewrite rules, select <strong>Ingress-</strong><strong>NGINX</strong> from the Type drop-down list. Select <strong>nginx.ingress.kubernetes.io/rewrite-target Rewrite Annotation</strong> from the <strong>Name</strong> drop-down list. Then, specify<img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/e4916cb149af6c7daf0aa79eed9c7b92.png" width="15" alt=""><code>/</code> in the <strong>Value</strong> column. This annotation specifies that the requests destined for /path are redirected to the root path, which can be recognized by the backend Service. |
      | Label | Add labels to describe the characteristics of the Ingress. |
 
    You can find the created Service and Ingress in the **Access Control** section. You can click **Update** or **Delete** to change the configurations.
@@ -22512,7 +22512,7 @@ In the **Advanced** step, configure the following settings: access control, scal
 
 3. Enter the test domain name in the address bar of your browser and press Enter. The NGINX welcome page appears.
 
-   ![](assets/7c78386613e926f7b3e4094f2995d49c.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/7c78386613e926f7b3e4094f2995d49c.png)
 
 **What to do next**
 
@@ -23045,7 +23045,7 @@ A StatefulSet has the following features:
 
    To the right of the Nginx application, click **Details** in the **Actions** column, and then select the **Pods** tab. You will notice that when you scale out, the pods are created in ascending order. Conversely, when you scale in, pods are terminated in descending order. This demonstrates the ordinal stability of pods in a StatefulSet.
 
-   ![](assets/8abaddb8f6f62938583c16641ba48118.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/8abaddb8f6f62938583c16641ba48118.png)
 
    </li>
 
@@ -23549,7 +23549,7 @@ You can view pods in the Container Service for Kubernetes (ACK) console.
 
    On the details page of the pod, you can view the detailed information about the pod.
 
-   ![](assets/5ae0720ee9ca68a5cc949621a4668c5f.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/5ae0720ee9ca68a5cc949621a4668c5f.png)
 
 <a id="section-7-10-1-7"></a>
 
@@ -23605,7 +23605,7 @@ Navigate to the Pods tab, find the pod that you want to manage, and then click *
 
 6. In the **Edit YAML** dialog box, modify the pod configuration and click **Update**.
 
-   ![](assets/0f2bd6645c51a1e6b3565dd64c5d1813.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/0f2bd6645c51a1e6b3565dd64c5d1813.png)
 
 **Manually scale pods**
 
@@ -23859,7 +23859,7 @@ You can update a Service in the Container Service console. This topic describes 
 
 6. In the **Update Service** dialog box, modify the configurations and click **Update**. In the Service list, find the Service that you updated and click **Details** in the Actions column to view configuration changes. In this example, the labels of the Service are modified.
 
-   ![](assets/8fddf835277cb40ce8d839d7c3092039.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/8fddf835277cb40ce8d839d7c3092039.png)
 
 <a id="section-7-10-5"></a>
 
@@ -23921,19 +23921,19 @@ You can create a trigger and use it to redeploy an application. This topic descr
    >
    > You can create triggers only to redeploy applications.
 
-   ![](assets/bd345a5a08dadfd637486e8b5ec8088a.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/bd345a5a08dadfd637486e8b5ec8088a.png)
 
    After the trigger is created, the webhook URL of the trigger appears in the Trigger Link Address column on the **nginx - deployment** page.
 
-   ![](assets/3fc9c848191cae7dac4ed8bb86a4fd8a.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/3fc9c848191cae7dac4ed8bb86a4fd8a.jpeg)
 
 7. Copy the webhook URL, enter it into the address bar of your browser, and press Enter. A message that indicates specific information such as the request ID appears.
 
-   ![](assets/ebcd8af8652851ca7a55d9848f9a064c.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/ebcd8af8652851ca7a55d9848f9a064c.jpeg)
 
 8. Go to the **nginx - deployment** page. A new pod appears on the **Pods** tab.
 
-   ![](assets/87762e0476df58a906e334e7a9fa0b94.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/87762e0476df58a906e334e7a9fa0b94.png)
 
    After the new pod is deployed, the original pod is automatically deleted.
 
@@ -26248,7 +26248,7 @@ A Container Service for Kubernetes (ACK) cluster or an ACK edge cluster is creat
    | Install a component | On the card of the target component, click <strong>Install</strong>. In the dialog box that appears, click <strong>OK</strong>.<br>If Installed is displayed in the card, the component is successfully installed. |
    | Upgrade a component | Important<br>• Upgrade cluster components only from the <strong>Add-ons</strong> page to prevent unexpected issues.<br>• Before you upgrade a component, make sure that all nodes in the cluster are in the <strong>Running</strong> state. Otherwise, the component upgrade may fail.<br>On the card of the target component, click <strong>Upgrade</strong>. In the dialog box that appears, click <strong>OK</strong>.<br>If the <strong>Upgrade</strong> button is no longer displayed in the card, the component is successfully updated. |
    | Uninstall a component | On the card of the target component, click <strong>Uninstall</strong>. In the dialog box that appears, click <strong>OK</strong>.<br>If the <strong>Install</strong> button is displayed in the card, the component is successfully uninstalled. |
-   | View the component YAML | On the card of the target component, choose <strong> &gt; View YAML</strong>. In the <strong>View YAML</strong><br><img src="assets/56830e5d43d602f3fdd05eb755af1ee6.png" width="12" alt=""><br>dialog box, view the information in the relevant fields, and then click <strong>Close</strong>. |
+   | View the component YAML | On the card of the target component, choose <strong> &gt; View YAML</strong>. In the <strong>View YAML</strong><br><img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/56830e5d43d602f3fdd05eb755af1ee6.png" width="12" alt=""><br>dialog box, view the information in the relevant fields, and then click <strong>Close</strong>. |
 
 <a id="section-7-12-3"></a>
 
@@ -26266,7 +26266,7 @@ OPA is an open source policy engine that is commonly used to implement policies 
 
 The following figure shows the architecture of gatekeeper.
 
-![](assets/dd4550c74b010d5ff4b64320b59b402b.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/dd4550c74b010d5ff4b64320b59b402b.png)
 
 **Usage notes**
 
@@ -26462,7 +26462,7 @@ The security-inspector component is a key component for performing security insp
 
 You can use security-inspector to scan workload configurations based on multiple dimensions. This helps you better understand the security risks of your workloads. The following figure shows the architecture of the security-inspector component.
 
-![](assets/8746a7eb9eb3ccf0bb9b1e296c895d83.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/8746a7eb9eb3ccf0bb9b1e296c895d83.png)
 
 **Usage notes**
 
@@ -26506,7 +26506,7 @@ ack-koordinator consists of a control plane (Koordinator Manager) and a DaemonSe
 
   K8s APIServer
 
-  ![](assets/1ae140d810724423cb9ec04d03b21e53.png)
+  ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/1ae140d810724423cb9ec04d03b21e53.png)
 
   Koordinator
 
@@ -26514,11 +26514,11 @@ ack-koordinator consists of a control plane (Koordinator Manager) and a DaemonSe
 
   (CRD, extend-res)
 
-  ![](assets/1252009d348db4699bbc0e08e92dd9c2.png)
+  ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/1252009d348db4699bbc0e08e92dd9c2.png)
 
   Koordlet
 
-  ![](assets/c9b1230d3661fe1ecd1ad79c54b19946.png)
+  ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/c9b1230d3661fe1ecd1ad79c54b19946.png)
 
   Fine-
 
@@ -26648,7 +26648,7 @@ The topology-aware CPU scheduling feature creates a topology ConfigMap in the ku
 
    <li>
 
-   Enter <img src="assets/c4b62e5bc439fbde2610c03e392ba71b.png" width="56" alt="">
+   Enter <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/c4b62e5bc439fbde2610c03e392ba71b.png" width="56" alt="">
 
    `-numa-info` into the Name search box and select the ConfigMaps that match the  `${NODENAME}-numa-`
 
@@ -27006,19 +27006,19 @@ ack-fluid is a distributed dataset orchestrator and data accelerator provided by
 
 Fluid provides features through Dataset and Runtime resources, as shown in the following figure.
 
-![](assets/1a5a6354e2adbe40be7c628ce55c0e8b.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/1a5a6354e2adbe40be7c628ce55c0e8b.png)
 
 Scheduling Plu
 
-![](assets/d1b804c2efca9b6ec16a681096b834d1.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/d1b804c2efca9b6ec16a681096b834d1.png)
 
-![](assets/5e20fc9e86b50e3f34661fd40ae088e8.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/5e20fc9e86b50e3f34661fd40ae088e8.png)
 
-![](assets/5b6afa49b2abcfe6fa53b2c6d2ed2bf4.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/5b6afa49b2abcfe6fa53b2c6d2ed2bf4.png)
 
-![](assets/e46ea5bfa2c571bc5911b512d2f03a8c.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/e46ea5bfa2c571bc5911b512d2f03a8c.png)
 
-![](assets/b596520cbe82c20f1607a689ababa42c.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/b596520cbe82c20f1607a689ababa42c.png)
 
 - Native support for dataset abstraction: Provides the fundamental support required by data-intensive applications. This enables efficient data access and reduces multi-dimensional management costs.
 
@@ -27327,7 +27327,7 @@ The following figure shows the design of the RBG API. The RBG API consists of a 
 
 - Runtime: RBG provides automatic service discovery within groups, supports multiple restart policies, supports rolling updates, and supports gang scheduling.
 
-![](assets/d26c699adce7ef20604e5f008323649d.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/d26c699adce7ef20604e5f008323649d.jpeg)
 
 **Usage notes**
 
@@ -27795,7 +27795,7 @@ The following content describes the relationships among services, Ingresses, Ing
 
 The following figure shows how API Gateway Ingress Controller works.
 
-![](assets/4c3a12d6346caaf4470c31dfa0c22756.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/4c3a12d6346caaf4470c31dfa0c22756.png)
 
 Cloud-native Gateway
 
@@ -27982,7 +27982,7 @@ When you create a cluster, select Higress Ingress Controller for Ingress in the 
 
 1. In the left-side navigation pane, choose **Network > Services**. On the Services page, select  `kube-system`  from the Namespace drop-down list, and obtain the external endpoints of the higress-controller, higress-gateway, higress-gateway-intranet, higress-gateway-internet, and higress-plugin-server services.
 
-   ![](assets/2ecdbb20e987300b76bed1cdee4b0bd3.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/2ecdbb20e987300b76bed1cdee4b0bd3.jpeg)
 
 2. Run the following commands in sequence to initiate requests to the external endpoints of the preceding services:
 
@@ -28427,7 +28427,7 @@ You can enable the virtual host traffic status (VTS) dashboard to view Ingress m
 
 4. Visit  `http://localhost:18080/nginx_status`  to access the VTS dashboard.
 
-   ![](assets/7ac4e0c9b1ccbdcf1df5becdf831af89.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/7ac4e0c9b1ccbdcf1df5becdf831af89.jpeg)
 
 <a id="section-7-13-4"></a>
 
@@ -28689,11 +28689,11 @@ Container Service for Kubernetes (ACK) supports IPv4/IPv6 dual stack. You can as
 
 After you create a cluster that has IPv4/IPv6 dual stack enabled, the system assigns an IPv4 cluster address and an IPv6 cluster address to the LoadBalancer Service that is associated with the NGINX Ingress controller. You can connect to these IP addresses from within the cluster. By default, the LoadBalancer Service is named nginx-ingress-lb and belongs to the kube-system namespace. You can access the cluster by using the cluster IP addresses or domain name of the nginx-ingress-lb Service in the kube-system namespace.
 
-![](assets/d543150963d8283b33ea5289f45c375b.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/d543150963d8283b33ea5289f45c375b.png)
 
 The nginx-ingress-lb Service is associated with an IPv4 Server Load Balancer (SLB) instance. Each Service can be associated only with one SLB instance. To use a public IPv6 address to access the cluster, you must create an IPv6 SLB instance and another Service, and then associate the Service with the IPv6 SLB instance.
 
-![](assets/d27c26771433ec95de3b7710d0bbb5b5.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/d27c26771433ec95de3b7710d0bbb5b5.png)
 
 **Procedure**
 
@@ -28911,7 +28911,7 @@ This document analyzes the compatibility of all Nginx Ingress Controller officia
 | 5 | nginx.in gress.ku bernetes.io/auth-snippet |   | Custom authenti cation logic Lua code snippet. | Not importa nt and not common ly used | Snippet annotations, which are not supported by Higress. Most authentication requirements can be met by ext-auth WASM plug-ins. Custom authentication logic scenarios are narrow and need to be replaced by custom WASM plug-ins. |
 | 6 | nginx.in gress.ku bernetes.io/auth-method |  | Specifies the HTTP method for external authenti cation requests. | Not importa nt and not common ly used | It is only described in the "External Authentication" section of the main text and is not included in the top index table. ⚠Source code verification: the <code> forward_auth </code> mode of the ext-auth WASM plug-in supports configuring the HTTP method (GET/POST) of the authentication request through the <code> endpoint.request_method </code>, which can realize equivalent functions. |
 
-![](assets/94a22c297ed174bb8339e679ac211fa1.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/94a22c297ed174bb8339e679ac211fa1.png)
 
 <table>
   <tr>
@@ -29084,7 +29084,7 @@ This document analyzes the compatibility of all Nginx Ingress Controller officia
   </tr>
 </table>
 
-![](assets/d75800c3e10e1951603689c579d2916e.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/d75800c3e10e1951603689c579d2916e.png)
 
 <table>
   <tr>
@@ -29121,7 +29121,7 @@ This document analyzes the compatibility of all Nginx Ingress Controller officia
 | 2 | nginx.in gress.ku bernete s.io/pro xy-body-size |  | Limit the size of the request body to prevent resourc e abuse by uploadi ng large files. | Importa nt and commo nly used | It can be safely ignored during migration. The core function of this annotation in Nginx is to protect the gateway itself-Nginx architecture is "receive the request body first and then forward". Oversized requests will directly occupy worker memory /disk, so they need to be rejected actively. However, Envoy uses a streaming forwarding architecture. Data is forwarded block by block after it arrives. The upper limit of the memory usage of a single connection is only <code> per_connection_buffer_limit_bytes </code> KB (32KB by default), which does not cause memory overflow no matter how large the request body is. Therefore, this limit is no longer necessary from the perspective of "protection gateway". If you want to adjust the connection buffer globally, you can use the <code> higress-config </code> <code> downstream.connectionBufferLimits </code> configuration.For a small number of business scenarios where large requests need to be intercepted at the gateway layer (you do not want traffic to reach the backend), you can use WasmPlugin to check the <code> Content-Length </code> in the <code> OnHttpRequestHeaders </code> phase or accumulate the body size in the <code> OnHttpRequestBody </code> phase, and return the request body limit of 413 to achieve routing granularity. |
 | 3 | nginx.in gress.ku bernete s.io/pro xy-connect -timeout |  | The timeout period for connect ing to the backen d. | Importa nt but not commo nly used | In Nginx, only TCP connection establishment timeout is controlled. Alternative to Higress: ① Use Envoy Filter to configure the <code> connect_timeout </code> fields of the cluster (the semantics are identical and 5S by default);② Use DestinationRule <code>trafficPolicy.connectionPool.tcp.connectTimeout</code> <code> </code> (Istio API declarative configuration).<br>Important<br><code> higress.io/timeout </code> is the total timeout of end-to-end requests (route level, 15s by default), which is different from the connection establishment timeout of NGINX. It can be used as a coarse-grained alternative only in simple scenarios where you do not need to accurately distinguish between connection and read and write timeouts. |
 
-![](assets/987d76a02ac9ccf7a9165c576d308495.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/987d76a02ac9ccf7a9165c576d308495.png)
 
 <table>
   <tr>
@@ -30357,7 +30357,7 @@ The Alibaba Cloud Container Service console includes Ingress management, allowin
 
    This example demonstrates how to add a complex Ingress rule by configuring the cluster's default test domain and a virtual host name to enable host-based routing.
 
-   ![](assets/c2a9a6ef2c9a8da9b597ec7908610c88.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/c2a9a6ef2c9a8da9b597ec7908610c88.png)
 
    **Simple host-based fanout routing**
 
@@ -30391,7 +30391,7 @@ The Alibaba Cloud Container Service console includes Ingress management, allowin
 
    - You can use an existing secret.
 
-     ![](assets/7031b0f873937f5f5112f7e602515caa.png)
+     ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/7031b0f873937f5f5112f7e602515caa.png)
 
      <ol type="a">
 
@@ -30429,7 +30429,7 @@ The Alibaba Cloud Container Service console includes Ingress management, allowin
 
    - You can create a secret directly from the TLS configuration panel by using an existing TLS private key and certificate.
 
-     ![](assets/d02944ef7b06402d04dcc479ec4e152e.png)
+     ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/d02944ef7b06402d04dcc479ec4e152e.png)
 
      <ol type="a">
 
@@ -30499,7 +30499,7 @@ The Alibaba Cloud Container Service console includes Ingress management, allowin
 
    In this example, a canary release rule is set for requests containing the header  `foo=^bar$` . Only requests with this header are eligible to be routed to the  `new-nginx`  service.
 
-   ![](assets/b45a261f82034b308587f1d20053f5ff.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/b45a261f82034b308587f1d20053f5ff.jpeg)
 
    - **Service**: The service configured in the Ingress rule.
 
@@ -30511,7 +30511,7 @@ The Alibaba Cloud Container Service console includes Ingress management, allowin
 
    **API Gateway Ingress Controller and Higress Ingress Controller:**
 
-   ![](assets/66c64a40e93443dec4fd3b1b52e563f7.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/66c64a40e93443dec4fd3b1b52e563f7.jpeg)
 
    - **Canary Service**: The backend service for the canary version.
 
@@ -30529,7 +30529,7 @@ The Alibaba Cloud Container Service console includes Ingress management, allowin
 
    Click **Add**, and enter the annotation name and value, which correspond to the annotation key-value pair for the Ingress. For more information about Ingress annotations, see https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/.
 
-   ![](assets/1a3cb3bebef48157eb6eb5f346b21e46.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/1a3cb3bebef48157eb6eb5f346b21e46.jpeg)
 
 1. Add labels.
 
@@ -30539,7 +30539,7 @@ The Alibaba Cloud Container Service console includes Ingress management, allowin
 
    After a moment, a new Ingress appears in the list.
 
-   ![](assets/0cf4ae25846ab9f328501ca3144be2f1.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/0cf4ae25846ab9f328501ca3144be2f1.png)
 
 3. Click  `foo.bar.com`  in the Ingress list to access the NGINX welcome page.
 
@@ -30549,7 +30549,7 @@ The Alibaba Cloud Container Service console includes Ingress management, allowin
    >
    > Because a browser request does not contain the  `foo=^bar$`  header, the traffic is routed to the  `old-nginx`  application.
 
-   ![](assets/65d19ad0c9f9fd2dbb11cca2745d2868.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/65d19ad0c9f9fd2dbb11cca2745d2868.png)
 
 4. Log on to the master node by using SSH and run the following commands to simulate requests with the specified request header.
 
@@ -30740,7 +30740,7 @@ data:
 
 You can also log on to the Container Service console and choose **Configuration > ConfigMaps** in the left-side navigation pane. You can then click **Create** to create the ConfigMap.
 
-![](assets/6cf3181eb8f8bc7ca31a280b6da110e3.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/6cf3181eb8f8bc7ca31a280b6da110e3.png)
 
 **Use a ConfigMap to define one or multiple environment variables for a pod**
 
@@ -31052,11 +31052,11 @@ To create an ACK cluster, perform the following steps:
 
    - Select an existing project to manage the collected logs.
 
-     ![](assets/3497fa37023783de35e968c3396a6fd1.png)
+     ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/3497fa37023783de35e968c3396a6fd1.png)
 
    - Click Create Project. Then, a project named  `k8s-log-{ClusterID}`  is automatically created to manage the collected logs. ClusterID indicates the unique ID of the cluster to be created.
 
-     ![](assets/0fed20f0cba5e7451c460127f1c6dfdf.png)
+     ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/0fed20f0cba5e7451c460127f1c6dfdf.png)
 
 4. Click **Create Cluster** in the upper-right corner of the page.
 
@@ -31557,11 +31557,11 @@ You can view the logs of containers in the SLS console.
 
    icon. Then, click **Search & Analysis**.
 
-   <img src="assets/995c79e58850be3fae0ed4058b7c4d11.png" width="24" alt="">
+   <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/995c79e58850be3fae0ed4058b7c4d11.png" width="24" alt="">
 
 4. In this example, you can view the stdout of the application and text log files of containers. You can also find that custom tags are appended to the collected log data.
 
-   ![](assets/e3b4fc171f5027c9ed696f2e7fb20838.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/e3b4fc171f5027c9ed696f2e7fb20838.png)
 
 After SLS is enabled for the application, you can view the logs of containers in the ACK console. To do this, perform the following steps:
 
@@ -31605,7 +31605,7 @@ Log4j is an open source project of Apache. Log4j consists of three components: l
    >
    > cluster. When a Log Service project and a cluster are deployed in the same region, the log is transmitted over the internal network. This enables the real-time collection and quick retrieval of log data. This also avoids cross-region transmission, which requires additional bandwidth and time costs.
 
-   ![](assets/c7c65eac5dbd7694545b15c575ac2f5b.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/c7c65eac5dbd7694545b15c575ac2f5b.jpeg)
 
    </li>
 
@@ -31619,7 +31619,7 @@ Log4j is an open source project of Apache. Log4j consists of three components: l
 
    In this example, a Logstore named k8s-logstore is created. For more information, see the **Manage Logstores** chapter of **Log Service User Guide**.
 
-   ![](assets/66b4e6ea933362cb5d6efb7483674a95.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/66b4e6ea933362cb5d6efb7483674a95.jpeg)
 
    <ol type="i" start="3">
 
@@ -31633,7 +31633,7 @@ Log4j is an open source project of Apache. Log4j consists of three components: l
 
    Import wizard. Click **Data Import Wizard**.
 
-   ![](assets/26dd3577177eaef7a6c2eba2527abfc5.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/26dd3577177eaef7a6c2eba2527abfc5.jpeg)
 
    <ol type="i" start="4">
 
@@ -31641,7 +31641,7 @@ Log4j is an open source project of Apache. Log4j consists of three components: l
 
    At the top of the **Import Data** dialog box, click the **Custom Code** tab. Then, click Log4j and configure the data import parameters based on the instructions. In this example, Log4jAppender is configured with the default settings. You can also customize the settings to meet your business requirements.
 
-   ![](assets/d5305d8fbe1e71cb030563e525c0ab1d.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/d5305d8fbe1e71cb030563e525c0ab1d.jpeg)
 
    </li>
 
@@ -31784,7 +31784,7 @@ Log4j is an open source project of Apache. Log4j consists of three components: l
 
    icon to the right side of the k8s-logstore Logstore and select **Search & Analysis** to view
 
-   <img src="assets/22c5ec1756281f2d6041d05dbc01299f.png" width="14" alt="">
+   <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/22c5ec1756281f2d6041d05dbc01299f.png" width="14" alt="">
 
    </li>
 
@@ -31792,7 +31792,7 @@ Log4j is an open source project of Apache. Log4j consists of three components: l
 
    the log of the Kubernetes cluster.
 
-   ![](assets/592422c54f43ae1d0f085008d3fa9bbc.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/592422c54f43ae1d0f085008d3fa9bbc.png)
 
 <a id="section-7-16"></a>
 
@@ -31942,9 +31942,9 @@ You can add annotations to pod configuration templates to define custom monitori
 
    | Parameter | Description |
    | --- | --- |
-   | Image Name | ![](assets/470787f170ca2b8e249d7643eade952f.png)<br>The name of the image that you want to use. In this example,<code>yejianhonghong/pindex</code> is used. |
-   | Image Version | ![](assets/4f00aec99dd0281320f98e0f13f9431c.png)<br>The version of the image. In this example, <code>latest</code> is used. |
-   | Port | The container port. Click <strong>Add</strong>, set the <strong>Name</strong> parameter to<img src="assets/b060aae02098fc792da31a2c341150e6.png" width="24" alt=""><code>web</code> and the <strong>Container Port</strong> parameter to<img src="assets/8f895c68fd14b6ed6423a9d94fe3882b.png" width="28" alt=""><code>5000</code>, and then select the <strong>TCP</strong> protocol. |
+   | Image Name | ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/470787f170ca2b8e249d7643eade952f.png)<br>The name of the image that you want to use. In this example,<code>yejianhonghong/pindex</code> is used. |
+   | Image Version | ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/4f00aec99dd0281320f98e0f13f9431c.png)<br>The version of the image. In this example, <code>latest</code> is used. |
+   | Port | The container port. Click <strong>Add</strong>, set the <strong>Name</strong> parameter to<img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/b060aae02098fc792da31a2c341150e6.png" width="24" alt=""><code>web</code> and the <strong>Container Port</strong> parameter to<img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/8f895c68fd14b6ed6423a9d94fe3882b.png" width="28" alt=""><code>5000</code>, and then select the <strong>TCP</strong> protocol. |
 
    <ol type="i" start="4">
 
@@ -32061,17 +32061,17 @@ You can add annotations to pod configuration templates to define custom monitori
 
    The custom metrics are configured.
 
-   ![](assets/299517ec03fd658b4d7154582baec06e.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/299517ec03fd658b4d7154582baec06e.png)
 
 5. Access the public IP address of the Service that you created in Step 3. This operation increases the value of the following custom metric.
 
    For more information about metrics, see DATA MODEL.
 
-   ![](assets/7f5929b6a168df227340c99a31f9e360.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/7f5929b6a168df227340c99a31f9e360.jpeg)
 
 6. Go to the Dashboards page of the ARMS console and click a dashboard to go to the Grafana page. Click
 
-   ![](assets/8176bec4f563e9a7614eafbcd2c609ed.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/8176bec4f563e9a7614eafbcd2c609ed.png)
 
    **Add panel** in the upper-right corner, select the **Graph** type, and then enter
 
@@ -32081,7 +32081,7 @@ You can add annotations to pod configuration templates to define custom monitori
 
    Save the configurations to view the Grafana chart of the custom metric.
 
-   ![](assets/9bcef4343440f217ab4c58820491e6a3.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/9bcef4343440f217ab4c58820491e6a3.png)
 
 **Method 2: Use ServiceMonitors to create custom metrics**
 
@@ -32119,9 +32119,9 @@ To use ServiceMonitors to create custom metrics, you need to add labels to your 
 
    | Parameter | Description |
    | --- | --- |
-   | Image Name | ![](assets/b9cc20885ca6c575c8f86e801f4db9fe.png)<br>The name of the image that you want to use. In this example,<code>yejianhonghong/pindex</code> is used. |
-   | Image Version | ![](assets/bdac8843cbd011927aef4a1d5bf146ef.png)<br>The version of the image. In this example, <code>latest</code> is used. |
-   | Port | The container port. Click <strong>Add</strong>, set the <strong>Name</strong> parameter to<img src="assets/29267fdb715610a9afdf504645c8f0a7.png" width="24" alt=""><code>web</code> and the <strong>Container Port</strong> parameter to<img src="assets/52f02016f73cd3d31cf73b2068ca563f.png" width="28" alt=""><code>5000</code>, and then select the <strong>TCP</strong> protocol. |
+   | Image Name | ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/b9cc20885ca6c575c8f86e801f4db9fe.png)<br>The name of the image that you want to use. In this example,<code>yejianhonghong/pindex</code> is used. |
+   | Image Version | ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/bdac8843cbd011927aef4a1d5bf146ef.png)<br>The version of the image. In this example, <code>latest</code> is used. |
+   | Port | The container port. Click <strong>Add</strong>, set the <strong>Name</strong> parameter to<img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/29267fdb715610a9afdf504645c8f0a7.png" width="24" alt=""><code>web</code> and the <strong>Container Port</strong> parameter to<img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/52f02016f73cd3d31cf73b2068ca563f.png" width="28" alt=""><code>5000</code>, and then select the <strong>TCP</strong> protocol. |
 
    <ol type="i" start="4">
 
@@ -32157,7 +32157,7 @@ To use ServiceMonitors to create custom metrics, you need to add labels to your 
    | --- | --- |
    | Type | The Service type. In this example, <strong>Server Load Balancer</strong> and <strong>Public Access</strong> are selected. |
    | Backend | The backend object that you want to associate with the Service. In this example the application that you created in Step 3 is used. |
-   | Labels | Click <strong>Add</strong>. Set the <strong>Name</strong> parameter to<img src="assets/cce832ed00334dbce1431dfa3385cd62.png" width="24" alt=""><code>app</code> and the <strong>Value</strong> parameter to<br>![](assets/fbd8fc726e5462ac55dcfc3999e30b91.png)<br><code>custom-metrics-pindex</code>. |
+   | Labels | Click <strong>Add</strong>. Set the <strong>Name</strong> parameter to<img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/cce832ed00334dbce1431dfa3385cd62.png" width="24" alt=""><code>app</code> and the <strong>Value</strong> parameter to<br>![](en-ack-user-guide-v3.18.6-2607-20260902.assets/fbd8fc726e5462ac55dcfc3999e30b91.png)<br><code>custom-metrics-pindex</code>. |
 
 5. Specify the endpoint that Managed Service for Prometheus scrapes.
 
@@ -32285,7 +32285,7 @@ To use ServiceMonitors to create custom metrics, you need to add labels to your 
 
    You can find that the endpoints scraped by Managed Service for Prometheus are displayed.
 
-   ![](assets/5674e6ce112350af2f54ff76c972f97e.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/5674e6ce112350af2f54ff76c972f97e.png)
 
    > **Note**
    >
@@ -32299,11 +32299,11 @@ To use ServiceMonitors to create custom metrics, you need to add labels to your 
 
    For more information about metrics, see DATA MODEL.
 
-   ![](assets/7f5929b6a168df227340c99a31f9e360.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/7f5929b6a168df227340c99a31f9e360.jpeg)
 
 7. Go to the Dashboards page of the ARMS console and click a dashboard to go to the Grafana page. Click
 
-   ![](assets/f61228b3e7f723017723a5b1323f179a.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/f61228b3e7f723017723a5b1323f179a.png)
 
    **Add panel** in the upper-right corner, select the **Graph** type, and then enter
 
@@ -32313,7 +32313,7 @@ To use ServiceMonitors to create custom metrics, you need to add labels to your 
 
    Save the configurations to view the Grafana chart of the custom metric.
 
-   ![](assets/9bcef4343440f217ab4c58820491e6a3.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/9bcef4343440f217ab4c58820491e6a3.png)
 
 **FAQ**
 
@@ -32439,7 +32439,7 @@ You can enable alert configurations for an existing or new cluster. After the al
 
 On the cluster creation page, select **Use Default Alert Template To Configure Alerts** next to **Alert Configurations**. For more information, see Create a Kubernetes cluster.
 
-![](assets/fee05c651cd5a09b806ca67cb0cbada8.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/fee05c651cd5a09b806ca67cb0cbada8.jpeg)
 
 After you enable alert configurations during cluster creation, the system enables the default alert rules. To ensure that you receive alert notifications for cluster resources, click **Advanced Settings** in the **Alert Rule Management** column to go to the Prometheus console. Then, configure the **Notification Rule** for the corresponding alert rule.
 
@@ -32756,7 +32756,7 @@ The resource profile feature analyzes historical usage data to provide clear rec
 
    In the resource profile list, you can view information such as **workload name**, **namespace**, **Workload type**, **CPU requests**, **memory requests**, **Profile data status**, **Recommended CPU change**, **Recommended memory change**, and **Creation time**.
 
-   In the resource profile list, click the <img src="assets/1604e86a525925d3d83f883afb1d3edd.png" width="11" alt=""> icon to the right of **namespace**, **Workload type**, **Recommended**
+   In the resource profile list, click the <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/1604e86a525925d3d83f883afb1d3edd.png" width="11" alt=""> icon to the right of **namespace**, **Workload type**, **Recommended**
 
    **CPU change**, and **Recommended memory change** to filter the results.
 
@@ -32803,7 +32803,7 @@ Based on intelligent recommendations from resource profiling, the resource confi
      | Target Required Resources | You can change the CPU request and memory request based on the recommendations provided by ACK. |
      | Target Limit Resources | You can change the CPU limit and memory limit based on the recommendations provided by ACK. |
 
-     ![](assets/51796c80168269ae864d091a313550cd.jpeg)
+     ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/51796c80168269ae864d091a313550cd.jpeg)
 
 <a id="section-7-19"></a>
 
@@ -32972,7 +32972,7 @@ This topic describes how to upgrade the NVIDIA driver on a GPU node when workloa
    >   kubectl get node
    >   ```
 
-   ![](assets/54cffb79fb261f7a475e20e52236fdf6.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/54cffb79fb261f7a475e20e52236fdf6.png)
 
 3. Run the following command to migrate pods from the target node to other nodes:
 
@@ -32980,7 +32980,7 @@ This topic describes how to upgrade the NVIDIA driver on a GPU node when workloa
    kubectl drain node-name --grace-period=120 --ignore-daemonsets=true
    ```
 
-   ![](assets/988cdbc22abe7231bfd50d81180db7d6.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/988cdbc22abe7231bfd50d81180db7d6.png)
 
 4. Run the following command to log on to the target node:
 
@@ -32994,7 +32994,7 @@ This topic describes how to upgrade the NVIDIA driver on a GPU node when workloa
    nvidia-smi
    ```
 
-   ![](assets/feedcd3c9943b1e01c88209970130eb7.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/feedcd3c9943b1e01c88209970130eb7.png)
 
 6. Run the following commands to uninstall the existing driver:
 
@@ -33072,7 +33072,7 @@ Run the following command on a master node to check the NVIDIA driver version on
 kubectl exec -n kube-system -t nvidia-device-plugin-node-name nvidia-smi
 ```
 
-![](assets/7c922aa8589e64da9d8ca817f178cf32.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/7c922aa8589e64da9d8ca817f178cf32.png)
 
 **Upgrade the NVIDIA driver on a GPU node where no workload is deployed**
 
@@ -33088,7 +33088,7 @@ kubectl exec -n kube-system -t nvidia-device-plugin-node-name nvidia-smi
    nvidia-smi
    ```
 
-   ![](assets/feedcd3c9943b1e01c88209970130eb7.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/feedcd3c9943b1e01c88209970130eb7.png)
 
 3. Run the following commands to uninstall the existing driver:
 
@@ -33150,7 +33150,7 @@ Run the following command on a master node to check the NVIDIA driver version on
 kubectl exec -n kube-system -t nvidia-device-plugin-node-name nvidia-smi
 ```
 
-![](assets/7c922aa8589e64da9d8ca817f178cf32.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/7c922aa8589e64da9d8ca817f178cf32.png)
 
 <a id="section-7-19-3"></a>
 
@@ -33243,11 +33243,11 @@ Add scheduler configurations on each master node.
 
 3. In the left-side navigation pane, choose **Applications > Helm**.
 
-4. On the **Helm** page, click **Deploy**. In the Deploy panel, search for <img src="assets/4b1092b894216fc28bce5f9491eea7db.png" width="83" alt="">
+4. On the **Helm** page, click **Deploy**. In the Deploy panel, search for <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/4b1092b894216fc28bce5f9491eea7db.png" width="83" alt="">
 
    `ack-ai-installer`.
 
-   ![](assets/8f1f361e60e2807b389c6367b5f1ea9c.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/8f1f361e60e2807b389c6367b5f1ea9c.jpeg)
 
 5. Click the ack-ai-installer component to go to the component details page.
 
@@ -33493,7 +33493,7 @@ In this topic, a TensorFlow job is used as an example.
 
    The following result is returned.
 
-   ![](assets/2af8e841105972980fb3a92837692842.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/2af8e841105972980fb3a92837692842.jpeg)
 
    The output indicates that the pod can use at most 3,261 MiB (about 3 GiB) of GPU memory.
 
@@ -33507,7 +33507,7 @@ In this topic, a TensorFlow job is used as an example.
 
    The following result is returned.
 
-   ![](assets/02e98e54d191e6dde1dfee630e7ff47e.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/02e98e54d191e6dde1dfee630e7ff47e.jpeg)
 
    The output indicates that the application fails because the requested amount of memory exceeds the amount of memory allocated to the pod, which is 3 GiB.
 
@@ -33587,7 +33587,7 @@ When ACK creates a cluster, ACK performs the following operations:
 
    If you choose to create worker nodes, you must set Instance Type and Quantity. In this example, three GPU-accelerated worker nodes are created.
 
-   ![](assets/b249774cec1b5a71f3eafd707ca2b2a1.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/b249774cec1b5a71f3eafd707ca2b2a1.png)
 
    > **Note**
    >
@@ -33700,7 +33700,7 @@ In most cases, data scientists use Jupyter to set up an environment for TensorFl
 
 5. In the navigation pane on the left, choose **Network > Services**. Select the **namespace** where the **tf-notebook** Service is created. In the **External Endpoint** column, view the external endpoint of the Service.
 
-   ![](assets/7b9acc0495ba8da94b5385a9e9d343dd.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/7b9acc0495ba8da94b5385a9e9d343dd.png)
 
 6. Enter
 
@@ -33722,7 +33722,7 @@ In most cases, data scientists use Jupyter to set up an environment for TensorFl
    print(get_available_devices())
    ```
 
-   ![](assets/6570c87448577bb49be25e0949c9c727.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/6570c87448577bb49be25e0949c9c727.png)
 
 <a id="section-7-19-6"></a>
 
@@ -33913,7 +33913,7 @@ Prometheus
 
    The following figure shows the output.
 
-   ![](assets/ba0334855ca1adba25330b2ba3debc3c.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/ba0334855ca1adba25330b2ba3debc3c.jpeg)
 
    Run the following command. If the output includes the  `DCGM_FI_DEV_GPU_UTIL` ,  `DCGM_CUSTOM_PROCESS_SM_UTIL` ,  `DCGM_FI_DEV_FB_USED` , and  `DCGM_CUSTOM_PROCESS_MEM_USED`  metrics, the rules are configured. In the following example,  `DCGM_CUSTOM_PROCESS_SM_UTIL`  is returned in the output.
 
@@ -34328,7 +34328,7 @@ When Kubernetes deploys nodes with NVIDIA GPUs, the attributes of these GPUs are
 
 5. On the **Nodes** page, select the node that is equipped with GPUs and choose **More > Details** in the Actions column to view the labels that are added to the node.
 
-   ![](assets/1b223b2fb2d19d65050745ab75b61cf1.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/1b223b2fb2d19d65050745ab75b61cf1.jpeg)
 
    You can also log on to a master node and run the following command to view the labels of GPU-accelerated nodes:
 
@@ -34743,7 +34743,7 @@ In the following example, the driver version 470.161.03 is used.
 
 3. In the upper-right corner of the Node Pools page, click **Create Node Pool**. In the **Create Node Pool** dialog box, configure the basic information and click **Show Advanced Options**. In the **Node Label**
 
-   section, click the <img src="assets/d1d8775e63266ee327540db90f146766.png" width="14" alt=""> icon, set **Key** to  `ack.aliyun.com/nvidia-driver-version` , set **Value** to  `470.161.03` ,
+   section, click the <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/d1d8775e63266ee327540db90f146766.png" width="14" alt=""> icon, set **Key** to  `ack.aliyun.com/nvidia-driver-version` , set **Value** to  `470.161.03` ,
 
    and then click **Confirm Order**.
 
@@ -34859,15 +34859,15 @@ CPU resources can be reused based on time-sharing. Kubernetes allows you to spec
 
 CPU utilization is a key metric that is used to evaluate the performance of a container. In most cases, the CPU limit is specified based on CPU utilization. CPU utilization on a per-millisecond basis shows more spikes than that on a per-second basis. If the CPU utilization of a container reaches the limit within a 100-millisecond period, CPU throttling is enforced by the OS kernel and threads in the container are suspended for the rest of the time period, as shown in the following figure.
 
-![](assets/c4d65ea35d8095f22ba199d8886c22c4.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/c4d65ea35d8095f22ba199d8886c22c4.jpeg)
 
 The following figure shows the thread allocation of a web application container that runs on a node with four CPU cores. The CPU limit of the container is set to 2. The overall CPU utilization within the last second is low. However, Thread 2 cannot be resumed until the beginning of the third 100-millisecond period, because CPU throttling occurs at a specific point during the second 100-millisecond period. This increases the response time (RT) and causes long-tail latency problems in containers.
 
-![](assets/50ad6af7fe7d1715c807309c66e93746.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/50ad6af7fe7d1715c807309c66e93746.png)
 
 Alibaba Cloud Linux 2 provides the CPU Burst feature in kernel version 4.19.91-22.al7. CPU Burst allows a container to accumulate CPU time slices when the container is idle. The container can use the accumulated CPU time slices to burst above the CPU limit when CPU utilization spikes. This improves performance and reduces the RT of the container.
 
-![](assets/35724513c66a4c7e61b0adbc82841961.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/35724513c66a4c7e61b0adbc82841961.png)
 
 For kernel versions that do not support CPU Burst, ack-koordinator detects CPU throttling events and dynamically adjusts the CPU limit to achieve the same effect as CPU Burst.
 
@@ -35076,7 +35076,7 @@ To ensure sufficient CPU resources for latency-sensitive (LS) pods on a node, yo
 
 In the following figure, CPU Threshold indicates the CPU usage threshold of a node. Pod (LS).Usage indicates the CPU usage of LS pods. CPU Restriction for BE indicates the CPU usage of BE pods. The amount of CPU resources that can be used by BE pods is adjusted based on the fluctuation of the CPU usage of LS pods. We recommend that you use the same value for CPU Threshold and the reserved CPU watermark in the dynamic resource overcommitment model. This ensures a consistent level of CPU resource utilization.
 
-![](assets/16bfa6ab27a8286f847029000e478e36.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/16bfa6ab27a8286f847029000e478e36.jpeg)
 
 **Prerequisites**
 
@@ -35387,7 +35387,7 @@ The following table lists the required component versions.
 
 Applications deployed in a Kubernetes cluster follow the standard Kubernetes Request/Limit model for resource usage. As shown in the following figure, a pod's memory request serves only as a reference for scheduling capacity. The memory limit is the actual constraint on a single node. In the figure, memory.limit_in_bytes represents the memory usage limit.
 
-![](assets/2dcb0eca64d3d10e6fe72bc16be2c3ea.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/2dcb0eca64d3d10e6fe72bc16be2c3ea.jpeg)
 
 When a pod's memory usage, including the page cache, approaches its declared limit, it triggers direct memory reclamation at the memory subsystem (Memcg) level, which blocks process execution. If the memory request rate exceeds the reclamation rate, the container triggers an OOMKilled event and releases its memory. An administrator might increase the application's memory limit to reduce the risk of a pod OOM. However, this can lead to memory overcommitment, where the sum of memory limits on a node exceeds its physical capacity. In an overcommitted state, a pod requesting a large amount of memory can cause the entire node to run out of memory. This can trigger node-level memory reclamation or OOM events for other pods that request memory, because Kubernetes does not enable Swap by default. In both scenarios, a single pod can impact the memory access performance of other pods, which significantly affects their performance even if they have not exceeded their declared memory requests.
 
@@ -35403,7 +35403,7 @@ Enabling container memory QoS provides the following features:
 
 When differentiated Service Level Objective (SLO) co-location is enabled for a cluster, the system prioritizes the memory QoS of Latency-Sensitive (LS) pods. This delays the triggering of node-level memory reclamation for LS pods. In the following figure, memory.limit_in_bytes is the memory usage limit, memory.high is the memory throttling threshold, memory.wmark_high is the background memory reclamation threshold, and memory.min is the locked memory usage threshold.
 
-![](assets/ac90d386cbdb7ad52ab863ec17176f63.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/ac90d386cbdb7ad52ab863ec17176f63.jpeg)
 
 > **Note**
 >
@@ -36430,9 +36430,9 @@ If you want to modify the disk IOPS for a pod, you must use Alibaba Cloud Linux 
 
 4. View the monitoring data of the node.
 
-   ![](assets/fcc0645bea91222924ecc77b9f05bd91.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/fcc0645bea91222924ecc77b9f05bd91.png)
 
-   ![](assets/3f315a015d3d49dc05455bbd8029d05b.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/3f315a015d3d49dc05455bbd8029d05b.png)
 
    The figures show that the disk IOPS limit is changed to the value that is specified in the  `device_write_bps`  parameter of the YAML file that you created in Step 3. The pod is not restarted after you submit the change.
 
@@ -36452,23 +36452,23 @@ KServe provides a series of CustomResourceDefinitions (CRDs) to manage and deliv
 
 For more information, visit kserve on GitHub.
 
-![](assets/66faea2389a193fa739d9b51c02b971c.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/66faea2389a193fa739d9b51c02b971c.png)
 
-![](assets/4cbbc812139ff22ead82e4e1bfa09ff7.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/4cbbc812139ff22ead82e4e1bfa09ff7.png)
 
 Rest/gRPC User Request
 
-![](assets/3275a46df99e3785f1f6452933da4999.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/3275a46df99e3785f1f6452933da4999.png)
 
-![](assets/f3fe41662d3247cdf7a794c25d75d8a4.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/f3fe41662d3247cdf7a794c25d75d8a4.png)
 
 **/v2/models/model/infer**
 
 Rest/gRPC Inference Request
 
-![](assets/f68f8a913ca7912fa09fc2a81c4eecf2.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/f68f8a913ca7912fa09fc2a81c4eecf2.png)
 
-![](assets/0e52b6e387b5e02bdb987472d1d15dec.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/0e52b6e387b5e02bdb987472d1d15dec.png)
 
 Deployment
 
@@ -36476,7 +36476,7 @@ Storage Initializer
 
 Raw Deployment
 
-![](assets/1fe26cd62ae3ba060e922f87ca3d0b8a.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/1fe26cd62ae3ba060e922f87ca3d0b8a.png)
 
 KServe
 
@@ -39033,7 +39033,7 @@ In the preceding example, the  `http_requests_total`  metric exposed by the samp
 
    We recommend that you call the Managed Service for Prometheus API over an internal network. You can call the API over the Internet if no internal network is available.
 
-   ![](assets/2383d97de0f78c21fa0cac461f712098.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/2383d97de0f78c21fa0cac461f712098.jpeg)
 
 <a id="section-7-22-4"></a>
 
@@ -39057,7 +39057,7 @@ A placeholder pod with an extremely low priority (a negative value) is created t
 
 1. Enable auto scaling for the node pool and add the demo:yes node label to the node pool. For more information, see Auto scaling of nodes.
 
-   ![](assets/8edcae12ce6c39d14dcfade3f72b60e4.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/8edcae12ce6c39d14dcfade3f72b60e4.jpeg)
 
    On the **Node Pools** page, if the **Status** column of the node pool displays **Active**, the node pool is created.
 
@@ -39191,7 +39191,7 @@ A placeholder pod with an extremely low priority (a negative value) is created t
 
    - On the **Node Pools** page, click the node pool that you want to manage. On the **Nodes** tab, you can find the new node whose IP address is **192.168.1.11** and whose **Instance Status** is **Running**.
 
-     ![](assets/14d455ae8e18a349fe6a15f2517a4c5e.jpeg)
+     ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/14d455ae8e18a349fe6a15f2517a4c5e.jpeg)
 
    </li>
 
@@ -39299,11 +39299,11 @@ A placeholder pod with an extremely low priority (a negative value) is created t
 
 4. The IP address of the node is **192.168.1.11**, which is the same as the node IP address displayed in Substep e. A PriorityClass that grants a higher priority than other pods is created for the pod of the workload. When node resources become insufficient, the placeholder pod named placeHolder is evicted and a new pod using the IP address 192.168.1.11 is created within seconds for the workload.
 
-   ![](assets/3bbf31aa598123853b5ed161e29bc7cf.jpeg)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/3bbf31aa598123853b5ed161e29bc7cf.jpeg)
 
 5. On the **Deployments** page, click **ack-place-holder**. Click the **Pods** tab to view the status of the pod.
 
-   ![](assets/b7eeffc3b57a2767d5b120387330bc82.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/b7eeffc3b57a2767d5b120387330bc82.png)
 
 6. The placeholder pod changes to the Pending state. After the placeholder pod changes to the Pending state, a scale-out activity is triggered in the cluster because auto scaling is enabled for the cluster. After the scale-out activity is complete, a pod whose IP address is **192.168.1.12** and **Instance Status** is **Running** appears. The placeholder pod reenters the Running state.
 
@@ -39341,9 +39341,9 @@ Region A
 
 Region A
 
-![](assets/c1734db2d5ccba76412123f109b26a67.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/c1734db2d5ccba76412123f109b26a67.png)
 
-![](assets/3e797fb4117da1f61e4188445fee1598.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/3e797fb4117da1f61e4188445fee1598.png)
 
 Application Backup
 
@@ -39357,7 +39357,7 @@ PV Restoration
 
 Snapshot
 
-![](assets/99dad72b876eda7824460fba12c1805f.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/99dad72b876eda7824460fba12c1805f.png)
 
 Dynamically
 
@@ -39383,9 +39383,9 @@ The following cloud storage types are supported:
 
 Backup Center
 
-![](assets/e20dc1ed4e058cea39b75c58e8eeebcd.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/e20dc1ed4e058cea39b75c58e8eeebcd.png)
 
-![](assets/3ea4b209ef5bdb40073cfd2360ba2eb4.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/3ea4b209ef5bdb40073cfd2360ba2eb4.png)
 
 Application Backup
 
@@ -39522,11 +39522,11 @@ On the **Duplicate record** tab of the **Application backup** page, if **Complet
 
 - You can click **Copy creation** in the **Operation** column of a backup record to create a backup task from the backup record.
 
-- You can click the <img src="assets/4d3d5cbee152fef658dc83f8dd584985.png" width="17" alt=""> icon in the **Operation** column of a backup record and select **View Yaml** to view the
+- You can click the <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/4d3d5cbee152fef658dc83f8dd584985.png" width="17" alt=""> icon in the **Operation** column of a backup record and select **View Yaml** to view the
 
   underlying resource definition files of the backup record.
 
-- You can click the <img src="assets/4d3d5cbee152fef658dc83f8dd584985.png" width="17" alt=""> icon in the **Operation** column of a backup record and select **Delete** to delete the
+- You can click the <img src="en-ack-user-guide-v3.18.6-2607-20260902.assets/4d3d5cbee152fef658dc83f8dd584985.png" width="17" alt=""> icon in the **Operation** column of a backup record and select **Delete** to delete the
 
   backup record. You can also select multiple backup records and click **Batch deletion** to delete the backup records at a time.
 
@@ -39639,7 +39639,7 @@ You can use the backup center to back up and restore applications in Container S
   >
   >   - ALB Ingress component: You need to configure an AlbConfig in advance.
 
-  ![](assets/55b6374ca2064041acc7a4c15f0ee6ea.jpeg)
+  ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/55b6374ca2064041acc7a4c15f0ee6ea.jpeg)
 
 - The backup component is installed and permissions are granted in the cluster where the volume is backed up and the cluster where the volume is restored. For more information, see the "Install the migrate-controller component" section of the Back up and restore applications in an ACK cluster topic.
 
@@ -39948,7 +39948,7 @@ This topic describes how to use multiple methods to create orchestration templat
 
    - **Template**: Configure an orchestration template that complies with the YAML syntax of Kubernetes. The template can contain multiple resource objects that are separated by  `---` .
 
-     ![](assets/05f479796e9f466e6c5378cdfab5ce00.png)
+     ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/05f479796e9f466e6c5378cdfab5ce00.png)
 
 4. After the template is created, you are redirected to the **Templates** page. On the **My Templates** tab, you can find the created template.
 
@@ -40004,7 +40004,7 @@ You have created an orchestration template. For more information, see Create an 
 
 6. Go to the **Templates** page. You can view the template that you have updated on the **My Templates** tab.
 
-   ![](assets/2c3130fc92564abbf931d1f56f56333b.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/2c3130fc92564abbf931d1f56f56333b.png)
 
 <a id="section-7-24-1-3"></a>
 
@@ -40028,11 +40028,11 @@ You have created an orchestration template. For more information, see Create an 
 
 5. In the dialog box that appears, enter the template name and click **OK**.
 
-   ![](assets/c4a2d9e7f300c4a35e4e68ebe24e5f80.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/c4a2d9e7f300c4a35e4e68ebe24e5f80.png)
 
 6. Go to the **Templates** page. The newly saved template is displayed on the **My Templates** tab.
 
-   ![](assets/eb55a781db1ce19fb4fa70b0d3357b9f.png)
+   ![](en-ack-user-guide-v3.18.6-2607-20260902.assets/eb55a781db1ce19fb4fa70b0d3357b9f.png)
 
 <a id="section-7-24-1-4"></a>
 
@@ -40122,7 +40122,7 @@ OpenKruise is an open source automation engine that Apsara Stack provides for cl
 
 **Architecture**
 
-![](assets/c6e09e4c191b450c20c2d70cb3d5c382.png)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/c6e09e4c191b450c20c2d70cb3d5c382.png)
 
 OpenKruise is a set of standard extensions for Kubernetes and can be deployed as Kubernetes-native components in clusters. OpenKruise mainly includes the following two components.
 
@@ -40611,4 +40611,4 @@ Edge Kubernetes clusters provide the following features to support lifecycle man
 
 - Supports reverse tunneling for management and maintenance of edge nodes.
 
-![](assets/97ba3ff80242f6faff958ccc5b9f1c86.jpeg)
+![](en-ack-user-guide-v3.18.6-2607-20260902.assets/97ba3ff80242f6faff958ccc5b9f1c86.jpeg)

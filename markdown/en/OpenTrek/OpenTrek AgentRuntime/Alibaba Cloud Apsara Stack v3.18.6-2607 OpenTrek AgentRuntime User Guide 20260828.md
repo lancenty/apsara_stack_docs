@@ -119,7 +119,7 @@ This topic describes how to log in to the AgentRuntime console.
 
 1. In the address bar of your browser, enter the service domain URL of the Apsara Uni-Manager Management Console and press Enter.
 
-   ![](assets/ac4b134e278893f933280af7229bf1a8.jpeg)
+   ![](en-opentrek-agent-runtime-user-guide-v3.18.6-2607-20260828.assets/ac4b134e278893f933280af7229bf1a8.jpeg)
 
    > **Note**
    >
@@ -675,7 +675,7 @@ You have created an agent byQuickly create an agent or Create an agent via code.
 
      Download: Click **Download** to download the modified code. To make the changes permanent, download the code, deploy it using a code package, or rebuild and redeploy the image.
 
-     ![](assets/5c97e227292b6365266b57a495c5dfb8.jpeg)
+     ![](en-opentrek-agent-runtime-user-guide-v3.18.6-2607-20260828.assets/5c97e227292b6365266b57a495c5dfb8.jpeg)
 
    **Release management**
 
@@ -710,7 +710,7 @@ You have created an agent byQuickly create an agent or Create an agent via code.
 
      **Configure**: In the **Endpoint management** section of the **Release Management** tab on the Agent details page, click **Edit** for the production environment endpoint. In the **Configure Endpoint** dialog box, select multiple versions and set traffic distribution ratios. Then, click **OK**.
 
-     ![](assets/e393ba84e59379ea633ad5a61bcaa047.jpeg)
+     ![](en-opentrek-agent-runtime-user-guide-v3.18.6-2607-20260828.assets/e393ba84e59379ea633ad5a61bcaa047.jpeg)
 
      **Delete**: In the **Endpoint management** section of the **Release Management** tab on the Agent details page, click **Delete** for the target endpoint. In the **Delete** dialog box, click **OK**.
 
@@ -927,11 +927,11 @@ You have created an agent byQuickly create an agent or Create an agent via code.
 
    On the trace details panel, view the timeline, start time, total latency, and expand individual spans for detailed inspection.
 
-   ![](assets/6d65497c99ec4ae0caf2e493ce080cd3.jpeg)
+   ![](en-opentrek-agent-runtime-user-guide-v3.18.6-2607-20260828.assets/6d65497c99ec4ae0caf2e493ce080cd3.jpeg)
 
    For span nodes labeled CHAIN, AGENT, or LLM, click the label to view more AI-related invocation details.
 
-   ![](assets/70be5c9b420334c2af03cdffb3e17f8a.jpeg)
+   ![](en-opentrek-agent-runtime-user-guide-v3.18.6-2607-20260828.assets/70be5c9b420334c2af03cdffb3e17f8a.jpeg)
 
    </li>
 
@@ -969,7 +969,7 @@ You have created an agent byQuickly create an agent or Create an agent via code.
 
    model name.
 
-   ![](assets/c31b049c990b999a98bf98e1b2d6d6e3.jpeg)
+   ![](en-opentrek-agent-runtime-user-guide-v3.18.6-2607-20260828.assets/c31b049c990b999a98bf98e1b2d6d6e3.jpeg)
 
    **Edit an agent**
 
@@ -1729,7 +1729,7 @@ Create a system tool or Create a custom tool.
 
      On the **Debug MCPS** tab of the tool details page, select a tool from the **Tool list**, enter parameters, and click **Run** to start debugging.
 
-     ![](assets/319e1225ce771078f44afd1f312380e0.jpeg)
+     ![](en-opentrek-agent-runtime-user-guide-v3.18.6-2607-20260828.assets/319e1225ce771078f44afd1f312380e0.jpeg)
 
    - Debug VNC
 
@@ -1737,7 +1737,7 @@ Create a system tool or Create a custom tool.
 
      Select a tool from the **Tool list**, enter parameters, and click **Run** to start debugging.
 
-     ![](assets/e7a1616222406b68075ff1f7d04c32ac.jpeg)
+     ![](en-opentrek-agent-runtime-user-guide-v3.18.6-2607-20260828.assets/e7a1616222406b68075ff1f7d04c32ac.jpeg)
 
    - Code debugging
 
@@ -1747,7 +1747,7 @@ Create a system tool or Create a custom tool.
 
      Download: Click **Download** to download the modified code. To make changes permanent, download the code, deploy it as a code package, or rebuild and redeploy the image.
 
-     ![](assets/9d82c1007b0d9d0244a90a9bacf8b061.jpeg)
+     ![](en-opentrek-agent-runtime-user-guide-v3.18.6-2607-20260828.assets/9d82c1007b0d9d0244a90a9bacf8b061.jpeg)
 
    **Version management**
 
@@ -1784,15 +1784,15 @@ Create a system tool or Create a custom tool.
 
      **Configure**: In the **Endpoint management** section of the **Version Management** tab on
 
-     the tool details page, click <img src="assets/b1551f2f292f3143e54ab5a793f8e344.png" width="16" alt=""> next to the production environment endpoint. In the
+     the tool details page, click <img src="en-opentrek-agent-runtime-user-guide-v3.18.6-2607-20260828.assets/b1551f2f292f3143e54ab5a793f8e344.png" width="16" alt=""> next to the production environment endpoint. In the
 
      **Configure Endpoint** dialog box, select multiple versions and set traffic distribution ratios. Then, click **OK**.
 
-     ![](assets/e393ba84e59379ea633ad5a61bcaa047.jpeg)
+     ![](en-opentrek-agent-runtime-user-guide-v3.18.6-2607-20260828.assets/e393ba84e59379ea633ad5a61bcaa047.jpeg)
 
      **Delete**: In the **Endpoint management** section of the **Version management** tab of the
 
-     tool details page, , click <img src="assets/72382d9c63e94d26638450bc027b3504.png" width="14" alt=""> next to the target endpoint. In the **Delete** dialog box, click
+     tool details page, , click <img src="en-opentrek-agent-runtime-user-guide-v3.18.6-2607-20260828.assets/72382d9c63e94d26638450bc027b3504.png" width="14" alt=""> next to the target endpoint. In the **Delete** dialog box, click
 
      **OK**.
 

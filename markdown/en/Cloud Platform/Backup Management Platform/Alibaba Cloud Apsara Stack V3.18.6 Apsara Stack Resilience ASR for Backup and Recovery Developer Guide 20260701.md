@@ -101,7 +101,7 @@ You can use the POP gateway to call API operations in ASR for Backup and Recover
 
 The following figure shows the flowchart for calling API operations in ASR for Backup and Recovery.
 
-![](assets/fef25b4adec5544dcc73c7adb87bf109.jpeg)
+![](en-asr-backup-recovery-developer-guide-v3.18.6-20260701.assets/fef25b4adec5544dcc73c7adb87bf109.jpeg)
 
 **Procedure**
 
@@ -155,7 +155,7 @@ The Apsara Uni-manager Management Console provides AccessKey pairs to personal a
 
 3. In the **AccessKey Pair** section, view the AccessKey credentials of the personal account.
 
-   ![](assets/e6f91e95cedc816129fbdcd3c846da9f.jpeg)
+   ![](en-asr-backup-recovery-developer-guide-v3.18.6-20260701.assets/e6f91e95cedc816129fbdcd3c846da9f.jpeg)
 
    > **Important**
    >
@@ -197,7 +197,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-asr-backup-recovery-developer-guide-v3.18.6-20260701.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select **ASR**.
 
@@ -207,7 +207,7 @@ The API information on the debugging page of the Apsara Uni-manager Management C
 
 7. Click the operation that you want to call. Obtain the information such as endpoint and region ID on the Parameter tab.
 
-   ![](assets/31d162f26b7bdeb97630515052083f73.jpeg)
+   ![](en-asr-backup-recovery-developer-guide-v3.18.6-20260701.assets/31d162f26b7bdeb97630515052083f73.jpeg)
 
 <a id="section-2-3"></a>
 
@@ -315,7 +315,7 @@ This topic describes how to use the SDK for Java to initiate a request.
 
 2. Create a request.
 
-   ![](assets/4191aec430ae1309e3a2b5c27356c9ad.png)
+   ![](en-asr-backup-recovery-developer-guide-v3.18.6-20260701.assets/4191aec430ae1309e3a2b5c27356c9ad.png)
 
    Name the request in the  ${apiName}Request . Replace **${apiName}** with the name of the API operation, such as CreateEcsSnapshotBackupPlan.
 
@@ -408,7 +408,7 @@ If the server or SDK encounters an error when you use the SDK for Java, the SDK 
 
 In most cases, you do not need to handle the errors returned by the Java SDK. You only need to handle server errors based on error messages generated on the server side.
 
-![](assets/fc916912d8663e2af026a75f6c1ee16b.png)
+![](en-asr-backup-recovery-developer-guide-v3.18.6-20260701.assets/fc916912d8663e2af026a75f6c1ee16b.png)
 
 - ServerException  indicates a server error.
 

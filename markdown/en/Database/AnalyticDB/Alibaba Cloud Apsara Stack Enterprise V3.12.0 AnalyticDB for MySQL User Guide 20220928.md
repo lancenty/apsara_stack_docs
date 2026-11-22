@@ -1071,11 +1071,11 @@ Procedure
 
 1. Start DbVisualizer and choose Tools > Connection Wizard. In the New Connection Wizard dialog box, enter a name for the connection to facilitate subsequent management.
 
-   ![](assets/7b90ac591c1f427a1787af8a84b94e19.jpeg)
+   ![](en-analyticdb-analyticdb-mysql-user-guide-v3.12.0-20220928.assets/7b90ac591c1f427a1787af8a84b94e19.jpeg)
 
 2. Click Next and select MySQL as the database driver from the drop-down list.
 
-   ![](assets/ee1eb9f1dd16067e802b3f7f06926792.jpeg)
+   ![](en-analyticdb-analyticdb-mysql-user-guide-v3.12.0-20220928.assets/ee1eb9f1dd16067e802b3f7f06926792.jpeg)
 
 3. Click Next and configure the connection parameters.
 
@@ -1088,7 +1088,7 @@ Procedure
    | Database Userid | The account used to connect to the AnalyticDB for MySQL cluster. You can use one of the following account types:<br>• Privileged accounts.<br>• Standard accounts that have the permissions to connect to the cluster. |
    | Database Password | The password of the account used to connect to the AnalyticDB for MySQL cluster. |
 
-   ![](assets/a643f006442c4c638ad06da973c737c6.jpeg)
+   ![](en-analyticdb-analyticdb-mysql-user-guide-v3.12.0-20220928.assets/a643f006442c4c638ad06da973c737c6.jpeg)
 
 4. After you configure the preceding parameters, click Ping Server to test connectivity. After the connection passes the test, click Finish.
 
@@ -1120,7 +1120,7 @@ Procedure
 
 2. In the Create new connection dialog box, select MySQL as the connection type and click Next.
 
-   ![](assets/918fd1c8cb13f7a497ff038193aad284.jpeg)
+   ![](en-analyticdb-analyticdb-mysql-user-guide-v3.12.0-20220928.assets/918fd1c8cb13f7a497ff038193aad284.jpeg)
 
 3. On the General tab of the Create new connection dialog box, configure the connection parameters.
 
@@ -1132,7 +1132,7 @@ Procedure
    | User Name | The account used to connect to the AnalyticDB for MySQL cluster. You can use one of the following account types:<br>• Privileged accounts.<br>• Standard accounts that have the permissions to connect to the cluster. |
    | Password | The password of the account used to connect to the AnalyticDB for MySQL cluster. |
 
-   ![](assets/07884d76eb7686d1177c918a9244f7e8.jpeg)
+   ![](en-analyticdb-analyticdb-mysql-user-guide-v3.12.0-20220928.assets/07884d76eb7686d1177c918a9244f7e8.jpeg)
 
 4. After you configure the preceding parameters, click Test Connection.... After the connection passes the test, click Finish to connect to the cluster.
 
@@ -1194,7 +1194,7 @@ Procedure
 
 4. In the left-side navigation pane, click Monitoring Information to view monitoring information of the cluster.
 
-   ![](assets/edf9e18f38fa9aa189628020df431a45.jpeg)
+   ![](en-analyticdb-analyticdb-mysql-user-guide-v3.12.0-20220928.assets/edf9e18f38fa9aa189628020df431a45.jpeg)
 
    The monitoring information includes CPU utilization, cluster connections, QPS, and query response time.
 
@@ -1258,7 +1258,7 @@ Procedure
 
 5. Click the Backup Settings tab to view the automatic settings.
 
-   ![](assets/367e027206f6a1b5861c9f742a05b6ce.jpeg)
+   ![](en-analyticdb-analyticdb-mysql-user-guide-v3.12.0-20220928.assets/367e027206f6a1b5861c9f742a05b6ce.jpeg)
 
 <a id="section-6-2"></a>
 
@@ -2330,7 +2330,7 @@ Permission
 
 - The privileged account can grant the PROCESS permission to a standard account by using the  `GRANT`
 
-![](assets/4053511a01c4bc97a40481e119b08fd1.png)
+![](en-analyticdb-analyticdb-mysql-user-guide-v3.12.0-20220928.assets/4053511a01c4bc97a40481e119b08fd1.png)
 
 statement. The standard account can then terminate the running processes of all accounts in the cluster.
 
@@ -2370,7 +2370,7 @@ The following response parameters are returned after you execute the  `SHOW FULL
 
 - `DB` : the database to which the process is connected.
 
-  ![](assets/562d41c18c69a006a258c3b6a2a2846c.png)
+  ![](en-analyticdb-analyticdb-mysql-user-guide-v3.12.0-20220928.assets/562d41c18c69a006a258c3b6a2a2846c.png)
 
 - `Command` : the command that is executed in the current connection. The command types include  `sleep` ,  `query` , and  `connect` .
 

@@ -355,7 +355,7 @@ Contact technical support to obtain the RegionId for the current environment.
 
 3. In the Alibaba Cloud **AccessKey** section, find the AccessKey information for your account.
 
-   ![](assets/7f9dda8077f20b29e076b976d287054f.jpeg)
+   ![](en-prometheus-developer-guide-v3.18.6-2607-20260828.assets/7f9dda8077f20b29e076b976d287054f.jpeg)
 
 <a id="section-4"></a>
 

@@ -49,7 +49,7 @@ Additionally, the platform features a fine-grained memory management mechanism. 
 
 With these capabilities, Model Studio-Enterprise Edition provides a one-stop service for knowledge processing, agent development, evaluation, and O&M, establishing it as a core engine driving intelligent transformation across industries.
 
-![](assets/c9d34e0cc3a5905d1d243d1363cb0cf1.jpeg)
+![](en-opentrek-dev-product-introduction-v3.18.6-2607-20260901.assets/c9d34e0cc3a5905d1d243d1363cb0cf1.jpeg)
 
 <a id="section-2"></a>
 

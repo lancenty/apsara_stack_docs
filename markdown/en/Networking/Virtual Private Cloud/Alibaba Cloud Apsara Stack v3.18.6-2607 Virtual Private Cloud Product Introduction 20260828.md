@@ -846,28 +846,28 @@ Virtual private clouds (VPCs) are virtual networks that are isolated from each o
 
 You can deploy applications in a VPC to provide services to external networks. To control access to the applications over the Internet, you can create security group rules and configure whitelists. You can also isolate application servers from databases to implement access control. For example, you can deploy web servers in a subnet that can access the Internet, and deploy databases in another subnet that cannot access the Internet.
 
-![](assets/0cb8b939ba914dd3ba028916ac02aa55.png)
+![](en-vpc-product-introduction-v3.18.6-2607-20260828.assets/0cb8b939ba914dd3ba028916ac02aa55.png)
 
 **Deploy applications that require access to the Internet**
 
 You can deploy applications that require access to the Internet in a subnet of a VPC and use an Internet NAT gateway to route network traffic. You can configure SNAT entries to allow instances in the subnet to access the Internet without the need to expose the private IP addresses. In addition, you can change the elastic IP addresses (EIPs) specified in the SNAT entries to prevent attacks from the Internet.
 
-![](assets/f43f95ad773e7de91ee81d42bc6efc7d.png)
+![](en-vpc-product-introduction-v3.18.6-2607-20260828.assets/f43f95ad773e7de91ee81d42bc6efc7d.png)
 
 **Implement cross-zone disaster recovery**
 
 You can create one or more vSwitches to create one or more subnets for the VPC. vSwitches within the same VPC can communicate with each other. To implement cross-zone disaster recovery, you can deploy resources across vSwitches in different zones.
 
-![](assets/6ed5a659079fc54ef4e4713c9e78fb9b.png)
+![](en-vpc-product-introduction-v3.18.6-2607-20260828.assets/6ed5a659079fc54ef4e4713c9e78fb9b.png)
 
 **Isolate business systems**
 
 VPCs are logically isolated from each other. You can use multiple VPCs to isolate business systems in different environments such as production and test environments. To allow business systems deployed in two VPCs to communicate with each other, you can create a peering connection between the VPCs.
 
-![](assets/96f4ee559003b0c43036276030a8f4be.png)
+![](en-vpc-product-introduction-v3.18.6-2607-20260828.assets/96f4ee559003b0c43036276030a8f4be.png)
 
 **Build a hybrid cloud**
 
 To expand your on-premises network, you can establish a dedicated connection between a VPC and your data center. This allows you to seamlessly migrate the applications in your data center to the cloud. You do not need to change the access method for the applications.
 
-![](assets/20d6cddf89f8db86b91fa7ec0dab9c55.png)
+![](en-vpc-product-introduction-v3.18.6-2607-20260828.assets/20d6cddf89f8db86b91fa7ec0dab9c55.png)

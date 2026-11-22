@@ -78,7 +78,7 @@ O&M engineers can contact Apsara Stack technical support for help during the mai
 
 This topic describes the system architecture of Tracing Analysis.
 
-![](assets/caa079ed22f9bb12c0d47e9ceb6e5e27.jpeg)
+![](en-tracing-analysis-operations-guide-v3.18.6-2607-20260828.assets/caa079ed22f9bb12c0d47e9ceb6e5e27.jpeg)
 
 In Apsara Stack, Tracing Analysis consists of the console and API service. Other services such as core computing and storage are dependent on TLog. For more information, see Deployment architecture.
 
@@ -352,7 +352,7 @@ This topic describes how to log on to the Apsara Uni-manager Operations Console.
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-tracing-analysis-operations-guide-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -400,7 +400,7 @@ This topic describes how to log on to the Apsara Infrastructure Management conso
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-tracing-analysis-operations-guide-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -586,7 +586,7 @@ This topic describes how to inspect ESDB.
 
    - If not, contact on-site technical support.
 
-   ![](assets/32db3e178d1971f03acf62daefc65f28.jpeg)
+   ![](en-tracing-analysis-operations-guide-v3.18.6-2607-20260828.assets/32db3e178d1971f03acf62daefc65f28.jpeg)
 
    The preceding figure shows a sample output. The status parameter in the output indicates the status of the ESDB cluster. In the preceding figure, the cluster is in the yellow state. Valid values of the status parameter:
 
@@ -658,7 +658,7 @@ This topic describes how to inspect Collector.
    curl -v 127.0.0.1:8080
    ```
 
-   ![](assets/61f0294827778c6e630dc6d4f76991fe.jpeg)
+   ![](en-tracing-analysis-operations-guide-v3.18.6-2607-20260828.assets/61f0294827778c6e630dc6d4f76991fe.jpeg)
 
    As shown in the preceding figure, if the command output contains  `200 OK`  and  `true` , the service is normal. Otherwise, contact on-site support.
 

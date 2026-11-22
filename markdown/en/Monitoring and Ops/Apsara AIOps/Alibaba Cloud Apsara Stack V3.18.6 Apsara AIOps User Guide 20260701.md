@@ -36,7 +36,7 @@ This topic describes how to log on to and use Apsara AIOps.
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations console and press the Enter key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-aiops-user-guide-v3.18.6-20260701.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -68,7 +68,7 @@ This topic describes how to log on to and use Apsara AIOps.
 
    - Method 1: In the top navigation bar, choose **Platform Operation > Management and Control Service O&M > AIOps**.
 
-   - Method 2: Click the floating ball <img src="assets/36928296a3e4c0d75897f3ef155d33f6.jpeg" width="20" alt=""> on the page to enter Apsara AIOps.
+   - Method 2: Click the floating ball <img src="en-aiops-user-guide-v3.18.6-20260701.assets/36928296a3e4c0d75897f3ef155d33f6.jpeg" width="20" alt=""> on the page to enter Apsara AIOps.
 
 <a id="section-2"></a>
 
@@ -80,41 +80,41 @@ This article introduces the use of intelligent dialogue, which supports users to
 
 1. Log on to Apsara AIOps.
 
-2. In the **Apsara AIOps** dialog box, enter a question and click <img src="assets/39b26b12294ce732c578e87279df40de.png" width="13" alt=""> .
+2. In the **Apsara AIOps** dialog box, enter a question and click <img src="en-aiops-user-guide-v3.18.6-20260701.assets/39b26b12294ce732c578e87279df40de.png" width="13" alt=""> .
 
    > **Note**
    >
    > Move the left mouse button to the content on the console page and click the AI search displayed to automatically trigger the Q&A capability for the selected content.
 
-   ![](assets/2947dc4cf61805e68ee8f9c0930331f8.jpeg)
+   ![](en-aiops-user-guide-v3.18.6-20260701.assets/2947dc4cf61805e68ee8f9c0930331f8.jpeg)
 
-   - New conversation: Click the <img src="assets/53d23b1ebca00c25a14af21608fb0ca6.png" width="14" alt=""> top of the dialog box to open a new conversation.
+   - New conversation: Click the <img src="en-aiops-user-guide-v3.18.6-20260701.assets/53d23b1ebca00c25a14af21608fb0ca6.png" width="14" alt=""> top of the dialog box to open a new conversation.
 
-   - Historical Conversations: Click <img src="assets/14cd2d2ce080abd983065847962aec2d.png" width="14" alt=""> at the top of the dialog box to view historical conversations
+   - Historical Conversations: Click <img src="en-aiops-user-guide-v3.18.6-20260701.assets/14cd2d2ce080abd983065847962aec2d.png" width="14" alt=""> at the top of the dialog box to view historical conversations
 
      within the last seven days.
 
-   - Window Full Screen: Click <img src="assets/88c9c890af1b197279c1b80dfbe922b7.png" width="14" alt=""> above the dialog box to display the dialog box in full screen. After
+   - Window Full Screen: Click <img src="en-aiops-user-guide-v3.18.6-20260701.assets/88c9c890af1b197279c1b80dfbe922b7.png" width="14" alt=""> above the dialog box to display the dialog box in full screen. After
 
      full screen, you can switch the operation intelligence in the left navigation bar.
 
-     ![](assets/de29b2576639b7c4c2e3823d87fea2ce.jpeg)
+     ![](en-aiops-user-guide-v3.18.6-20260701.assets/de29b2576639b7c4c2e3823d87fea2ce.jpeg)
 
-   - Close the dialog box: Click <img src="assets/0b31a2b50d706faae2a912be2ef48f84.png" width="10" alt=""> at the top of the dialog box to close the Apsara AIOps dialog box.
+   - Close the dialog box: Click <img src="en-aiops-user-guide-v3.18.6-20260701.assets/0b31a2b50d706faae2a912be2ef48f84.png" width="10" alt=""> at the top of the dialog box to close the Apsara AIOps dialog box.
 
-   - Switch smart body: Click in the upper left corner of the <img src="assets/30ae7da5a2d93c9d40a25ec1f71cfdda.png" width="13" alt=""> dialog box to switch to the operation
+   - Switch smart body: Click in the upper left corner of the <img src="en-aiops-user-guide-v3.18.6-20260701.assets/30ae7da5a2d93c9d40a25ec1f71cfdda.png" width="13" alt=""> dialog box to switch to the operation
 
      smart body.
 
 3. After Apsara AIOps returns the Q&A content, you can perform the following operations:
 
-   <img src="assets/b84b9c09c860acb3e752840b975f1399.png" width="14" alt=""> : Approved. A Like indicates approval.
+   <img src="en-aiops-user-guide-v3.18.6-20260701.assets/b84b9c09c860acb3e752840b975f1399.png" width="14" alt=""> : Approved. A Like indicates approval.
 
-   <img src="assets/7ee5d9eb5403351fc1b33a50395b0744.png" width="17" alt=""> : I don't agree with it. A little step indicates that I don't approve of the answer.
+   <img src="en-aiops-user-guide-v3.18.6-20260701.assets/7ee5d9eb5403351fc1b33a50395b0744.png" width="17" alt=""> : I don't agree with it. A little step indicates that I don't approve of the answer.
 
-   <img src="assets/a93421a28d8d3e68cff196f6a23c9855.png" width="19" alt=""> : Copy. You can copy the content of the response.
+   <img src="en-aiops-user-guide-v3.18.6-20260701.assets/a93421a28d8d3e68cff196f6a23c9855.png" width="19" alt=""> : Copy. You can copy the content of the response.
 
-   <img src="assets/e1e6cce7b83ffb551b14c9138f4e49c7.png" width="17" alt=""> : regenerates an answer. You can regenerate an answer.
+   <img src="en-aiops-user-guide-v3.18.6-20260701.assets/e1e6cce7b83ffb551b14c9138f4e49c7.png" width="17" alt=""> : regenerates an answer. You can regenerate an answer.
 
    At the same time, relevant operations or introductions are generated according to the questions asked, and multi-round conversations are supported during the Q&A process.
 
@@ -137,13 +137,13 @@ This article describes the operations related to the O&M agent.
 
 1. Log on to Apsara AIOps.
 
-2. In the **Apsara AIOps** dialog box, click <img src="assets/30ae7da5a2d93c9d40a25ec1f71cfdda.png" width="13" alt=""> Switch to O&M Intelligence.
+2. In the **Apsara AIOps** dialog box, click <img src="en-aiops-user-guide-v3.18.6-20260701.assets/30ae7da5a2d93c9d40a25ec1f71cfdda.png" width="13" alt=""> Switch to O&M Intelligence.
 
-   You can also click <img src="assets/88c9c890af1b197279c1b80dfbe922b7.png" width="14" alt=""> and switch to the operations intelligence in the left navigation bar of the full-
+   You can also click <img src="en-aiops-user-guide-v3.18.6-20260701.assets/88c9c890af1b197279c1b80dfbe922b7.png" width="14" alt=""> and switch to the operations intelligence in the left navigation bar of the full-
 
    screen interface.
 
-   ![](assets/281d9954a58bc1ae0acb1e22b1ca2d69.jpeg)
+   ![](en-aiops-user-guide-v3.18.6-20260701.assets/281d9954a58bc1ae0acb1e22b1ca2d69.jpeg)
 
 3. The following features are supported under the operations intelligence.
 
@@ -159,37 +159,37 @@ This article describes the operations related to the O&M agent.
    | Inspection Assistant | Checks whether the operations of cloud products, components, hardware, and cloud platforms are at risk. |
    | Script Assistant | Supports common O&amp;M commands, inspection scripts, black-screen commands, Ark commands, and Apsara Infrastructure Management Framework operations.You can generate efficient scripts with one click to improve O&amp;M automation. |
 
-4. Select the target intelligence, enter the question to ask, and click <img src="assets/39b26b12294ce732c578e87279df40de.png" width="13" alt=""> .
+4. Select the target intelligence, enter the question to ask, and click <img src="en-aiops-user-guide-v3.18.6-20260701.assets/39b26b12294ce732c578e87279df40de.png" width="13" alt=""> .
 
-   ![](assets/3cb4dd47f2d4696e8eb041241cddfd6d.jpeg)
+   ![](en-aiops-user-guide-v3.18.6-20260701.assets/3cb4dd47f2d4696e8eb041241cddfd6d.jpeg)
 
-   - To create a conversation, click <img src="assets/53d23b1ebca00c25a14af21608fb0ca6.png" width="14" alt=""> or **Create Conversation** at the top of the dialog box.
+   - To create a conversation, click <img src="en-aiops-user-guide-v3.18.6-20260701.assets/53d23b1ebca00c25a14af21608fb0ca6.png" width="14" alt=""> or **Create Conversation** at the top of the dialog box.
 
-   - Historical Conversations: Click <img src="assets/14cd2d2ce080abd983065847962aec2d.png" width="14" alt=""> or **Historical Conversations** at the top of the dialog box to
+   - Historical Conversations: Click <img src="en-aiops-user-guide-v3.18.6-20260701.assets/14cd2d2ce080abd983065847962aec2d.png" width="14" alt=""> or **Historical Conversations** at the top of the dialog box to
 
      view historical conversations within the last seven days.
 
-   - Window Full Screen: Click <img src="assets/88c9c890af1b197279c1b80dfbe922b7.png" width="14" alt=""> above the dialog box to display the dialog box in full screen. After
+   - Window Full Screen: Click <img src="en-aiops-user-guide-v3.18.6-20260701.assets/88c9c890af1b197279c1b80dfbe922b7.png" width="14" alt=""> above the dialog box to display the dialog box in full screen. After
 
      full screen, you can switch the operation intelligence in the left navigation bar.
 
-   - Exit Full Screen: In the Full Screen dialog box, click <img src="assets/7387d9850832092cff155c35c8c379e9.png" width="14" alt=""> above the dialog box to exit full screen.
+   - Exit Full Screen: In the Full Screen dialog box, click <img src="en-aiops-user-guide-v3.18.6-20260701.assets/7387d9850832092cff155c35c8c379e9.png" width="14" alt=""> above the dialog box to exit full screen.
 
-   - Close dialog: Click at the top of the <img src="assets/0b31a2b50d706faae2a912be2ef48f84.png" width="10" alt=""> dialog box to close the O&M Intelligence dialog box.
+   - Close dialog: Click at the top of the <img src="en-aiops-user-guide-v3.18.6-20260701.assets/0b31a2b50d706faae2a912be2ef48f84.png" width="10" alt=""> dialog box to close the O&M Intelligence dialog box.
 
-   - Switch smart body: Click in the upper left corner of the <img src="assets/30ae7da5a2d93c9d40a25ec1f71cfdda.png" width="13" alt=""> dialog box to switch to the operation
+   - Switch smart body: Click in the upper left corner of the <img src="en-aiops-user-guide-v3.18.6-20260701.assets/30ae7da5a2d93c9d40a25ec1f71cfdda.png" width="13" alt=""> dialog box to switch to the operation
 
      smart body.
 
 5. After the O&M agent returns the answer, the following operations are supported.
 
-   <img src="assets/cadac1c62ba8d77d8529402912615fe8.png" width="15" alt=""> : Approved. A Like indicates approval.
+   <img src="en-aiops-user-guide-v3.18.6-20260701.assets/cadac1c62ba8d77d8529402912615fe8.png" width="15" alt=""> : Approved. A Like indicates approval.
 
-   <img src="assets/7e30b93557d6823bd8947f4272dd17ad.png" width="15" alt=""> : I don't agree with it. A little step indicates that I don't approve of the answer.
+   <img src="en-aiops-user-guide-v3.18.6-20260701.assets/7e30b93557d6823bd8947f4272dd17ad.png" width="15" alt=""> : I don't agree with it. A little step indicates that I don't approve of the answer.
 
-   <img src="assets/8135a2fef82f6ff5deeeb50b910f5a6d.png" width="15" alt=""> : Copy. You can copy the content of the response.
+   <img src="en-aiops-user-guide-v3.18.6-20260701.assets/8135a2fef82f6ff5deeeb50b910f5a6d.png" width="15" alt=""> : Copy. You can copy the content of the response.
 
-   <img src="assets/98099b97e6886ed01ab3dbcb36002d90.png" width="14" alt=""> : regenerates an answer. You can regenerate an answer.
+   <img src="en-aiops-user-guide-v3.18.6-20260701.assets/98099b97e6886ed01ab3dbcb36002d90.png" width="14" alt=""> : regenerates an answer. You can regenerate an answer.
 
    At the same time, relevant operations or introductions are generated according to the questions asked, and multi-round conversations are supported during the Q&A process.
 

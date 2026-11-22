@@ -55,7 +55,7 @@ This topic describes how to log on to the DNS (Multicloud Integration) console u
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press the Enter key.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-dns-multicloud-integration-user-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -189,7 +189,7 @@ On the **Multicloud Domain Names** page, you can view the added domain names in 
 
 - You can enter a domain name to search for it.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to show or hide columns. You can also
+- Click the <img src="en-dns-multicloud-integration-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to show or hide columns. You can also
 
   drag the columns to reorder them.
 
@@ -261,7 +261,7 @@ You can configure parsing settings in the Apsara Uni-manager Management Console.
      </tr>
      <tr>
        <td>Record Values</td>
-       <td>Add a record value collection.<br>• <strong>Value</strong>: Enter a record value based on the selected <strong>Record Type</strong>. For more information about how to enter the value, see Record value format.<br>• <strong>Weight</strong>: Enter a weight. The value must be an integer from 0 to 999. A larger value indicates a greater weight.<br>This parameter is required only if you set <strong>Load Balancing Policy</strong> to <strong>Weight</strong>.<br>Note<br>• Click <strong>Add Entry</strong> to add multiple record values.<br>• Click in the <strong>Actions</strong> column of the target record value to delete<br><img src="assets/ee35e68c1705dbb0fb43645f44cfe6af.png" width="14" alt=""><br>the record value.</td>
+       <td>Add a record value collection.<br>• <strong>Value</strong>: Enter a record value based on the selected <strong>Record Type</strong>. For more information about how to enter the value, see Record value format.<br>• <strong>Weight</strong>: Enter a weight. The value must be an integer from 0 to 999. A larger value indicates a greater weight.<br>This parameter is required only if you set <strong>Load Balancing Policy</strong> to <strong>Weight</strong>.<br>Note<br>• Click <strong>Add Entry</strong> to add multiple record values.<br>• Click in the <strong>Actions</strong> column of the target record value to delete<br><img src="en-dns-multicloud-integration-user-guide-v3.18.6-2607-20260828.assets/ee35e68c1705dbb0fb43645f44cfe6af.png" width="14" alt=""><br>the record value.</td>
      </tr>
    </table>
 
@@ -302,7 +302,7 @@ After you add DNS records, you can perform the following operations in the DNS r
 
   - You can use **Advanced Search** to search by **Record name**.
 
-  - Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to show or hide columns, and drag
+  - Click the <img src="en-dns-multicloud-integration-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to show or hide columns, and drag
 
     the columns to reorder them.
 
@@ -373,7 +373,7 @@ On the **Resolution Line** page, you can view the added lines in the list. The l
 
 - Click **Advanced Filter** and enter filter conditions to find a specific line.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to show or hide list items, or drag
+- Click the <img src="en-dns-multicloud-integration-user-guide-v3.18.6-2607-20260828.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to show or hide list items, or drag
 
   items to reorder them.
 

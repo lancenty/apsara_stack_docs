@@ -82,7 +82,7 @@ This topic describes how users such as O&M engineers log on to the Apsara Uni-ma
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -139,7 +139,7 @@ The Overview page displays the key metrics of network services to help users kee
      <table>
        <tr>
          <td>Port Overview</td>
-         <td>• <strong>Port Usage</strong>: displays the port usage of network devices.<br>In the upper-right corner, click <strong>View Details</strong>. In the <strong>Port Usage</strong> <strong>Details</strong> dialog box, you can view the port usage details. The port usage details are displayed in the following columns: <strong>Device Role</strong>, <strong>Device Name</strong>, <strong>IP Address</strong>, <strong>Usage (%)</strong>, <strong>Device Status</strong>, <strong>Total</strong> <strong>Ports</strong>, and <strong>Used Ports</strong>.<br><img src="assets/b173c9ae44fed7e3be47c7bfdf89681d.jpeg" alt=""><br>• <strong>Health Distribution of Optical Modules:</strong> displays the distribution of optical transceiver modules on the current day.<br>• <strong>Abnormal Optical Modules</strong>: displays information about optical transceiver modules in the <strong>Exception</strong> state by default. The displayed information includes <strong>Hostname</strong>, <strong>Interface name</strong>, <strong>Ownership Type</strong>, <strong>Manufacturer</strong>, <strong>Model</strong>, <strong>Status</strong>, <strong>Failure probability</strong>, <strong>Expected</strong> <strong>residual life</strong>, and <strong>Intelligent analysis results</strong>.<br>Click <strong>View Details</strong> in the upper-right corner. Then, you can view information about abnormal optical transceiver modules in the <strong>Abnormal Optical Modules</strong> dialog box.<br>• <strong>Advanced Filter</strong>: You can search for optical transceiver modules by <strong>Optical module model</strong>, <strong>Optical module manufacturer,</strong> <strong>Optical module status,</strong> <strong>Hostname</strong>, <strong>Interface name</strong>, <strong>Device</strong> <strong>type</strong>, or their combinations.<br>• Find the optical transceiver module that you want to view and click <strong>Details</strong> in the <strong>Actions</strong> column. Then, you are redirected to <strong>Intelligent Diagnostics</strong> &gt; <strong>Optical Module Diagnostics</strong>. On the <strong>Optical Module Prediction Details</strong> page, you can view the details of the optical transceiver module. For more information, see Optical transceiver module diagnostics.</td>
+         <td>• <strong>Port Usage</strong>: displays the port usage of network devices.<br>In the upper-right corner, click <strong>View Details</strong>. In the <strong>Port Usage</strong> <strong>Details</strong> dialog box, you can view the port usage details. The port usage details are displayed in the following columns: <strong>Device Role</strong>, <strong>Device Name</strong>, <strong>IP Address</strong>, <strong>Usage (%)</strong>, <strong>Device Status</strong>, <strong>Total</strong> <strong>Ports</strong>, and <strong>Used Ports</strong>.<br><img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/b173c9ae44fed7e3be47c7bfdf89681d.jpeg" alt=""><br>• <strong>Health Distribution of Optical Modules:</strong> displays the distribution of optical transceiver modules on the current day.<br>• <strong>Abnormal Optical Modules</strong>: displays information about optical transceiver modules in the <strong>Exception</strong> state by default. The displayed information includes <strong>Hostname</strong>, <strong>Interface name</strong>, <strong>Ownership Type</strong>, <strong>Manufacturer</strong>, <strong>Model</strong>, <strong>Status</strong>, <strong>Failure probability</strong>, <strong>Expected</strong> <strong>residual life</strong>, and <strong>Intelligent analysis results</strong>.<br>Click <strong>View Details</strong> in the upper-right corner. Then, you can view information about abnormal optical transceiver modules in the <strong>Abnormal Optical Modules</strong> dialog box.<br>• <strong>Advanced Filter</strong>: You can search for optical transceiver modules by <strong>Optical module model</strong>, <strong>Optical module manufacturer,</strong> <strong>Optical module status,</strong> <strong>Hostname</strong>, <strong>Interface name</strong>, <strong>Device</strong> <strong>type</strong>, or their combinations.<br>• Find the optical transceiver module that you want to view and click <strong>Details</strong> in the <strong>Actions</strong> column. Then, you are redirected to <strong>Intelligent Diagnostics</strong> &gt; <strong>Optical Module Diagnostics</strong>. On the <strong>Optical Module Prediction Details</strong> page, you can view the details of the optical transceiver module. For more information, see Optical transceiver module diagnostics.</td>
        </tr>
        <tr>
          <td>Traffic Dashboard</td>
@@ -175,7 +175,7 @@ The Overview page displays the key metrics of network services to help users kee
        </tr>
      </table>
 
-     ![](assets/36cdd3e9923809003d9954cedbd3fd33.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/36cdd3e9923809003d9954cedbd3fd33.jpeg)
 
    - **TOPN**: Metrics are sorted based on their **Values**, and the top five metrics are displayed by default.
 
@@ -211,7 +211,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll has been deployed and h
 
 4. Select a data center from the **Data Center** drop-down list and view the physical network topology of the selected data center.
 
-   ![](assets/9ac9ab794b30146cc18f3d2786a433cb.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/9ac9ab794b30146cc18f3d2786a433cb.jpeg)
 
    - Click **Baseline topology** or **Dynamic Topology** to view the network topology of the corresponding type.
 
@@ -231,11 +231,11 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll has been deployed and h
 
    - Click a network device icon. In the Network Device Information panel, view the device information in the **Basic device information** and **Alert List** sections.
 
-     ![](assets/a6de87a270db5af5018c6b55f27242ea.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/a6de87a270db5af5018c6b55f27242ea.jpeg)
 
    - Click a connection between two network devices. In the Interconnection link status panel, view the link status details in the **Link information List** and **Alert List** sections.
 
-     ![](assets/9c979e21c94b846c2581c1908bd59d71.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/9c979e21c94b846c2581c1908bd59d71.jpeg)
 
 <a id="section-2-3"></a>
 
@@ -261,7 +261,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll has been deployed and h
 
    After the view is created, the page of the view automatically appears.
 
-   ![](assets/1127c2e3c8d1b3e3bf0d7f3b3db5270c.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/1127c2e3c8d1b3e3bf0d7f3b3db5270c.jpeg)
 
    > **Note**
    >
@@ -273,7 +273,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll has been deployed and h
 
    <li>
 
-   Click the <img src="assets/805ffed0e26053ad80827b30264b7cca.jpeg" width="22" alt=""> icon in the view section.
+   Click the <img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/805ffed0e26053ad80827b30264b7cca.jpeg" width="22" alt=""> icon in the view section.
 
    </li>
 
@@ -287,7 +287,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll has been deployed and h
 
    After the subview is created, the page of the view automatically appears, on which the subview is displayed.
 
-   ![](assets/e127a695fcd1331cb387dfdaa4f0daa8.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/e127a695fcd1331cb387dfdaa4f0daa8.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -312,7 +312,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll has been deployed and h
 
 2. The Custom Views page displays the monitoring charts of all the corresponding subviews.
 
-   ![](assets/3dfde2963cca57a0873a5a90f8a063a9.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/3dfde2963cca57a0873a5a90f8a063a9.jpeg)
 
 **Delete a view**
 
@@ -320,7 +320,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll has been deployed and h
 
 1. Search for the view that you want to manage.
 
-2. Find the subview that you want to delete and click the <img src="assets/6389842044219ce740818a8569e29a1a.png" width="21" alt=""> icon in the upper-right corner of
+2. Find the subview that you want to delete and click the <img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/6389842044219ce740818a8569e29a1a.png" width="21" alt=""> icon in the upper-right corner of
 
    the subview section.
 
@@ -384,40 +384,40 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll is deployed and has rea
    >
    > - The **Management IP address**, **Ping status**, and **Snmp status** columns can be used to sort the physical network devices. The **Role** column can be used to filter the physical network devices.
 
-   ![](assets/e8e6e650d8f36d9a793abaad4d944af9.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/e8e6e650d8f36d9a793abaad4d944af9.jpeg)
 
 5. Find the physical network device that you want to view and click its name or click **Details** in the **Details** column to view the details of the physical network device. The following table describes the details of the physical network device.
 
    | Section or tab | Description |
    | --- | --- |
-   | Basic information | View the information about the device from the parameters, including <strong>Device Name</strong>, <strong>IP</strong>, <strong>SN</strong>, <strong>Vendor</strong>, <strong>Model</strong>, <strong>Role</strong>, <strong>Online time</strong>, <strong>Ping status</strong>, <strong>Snmp status</strong>, <strong>Last Updated</strong>, <strong>Release</strong>, and <strong>Software version</strong>.<br>![](assets/65218a24468bb740df57812c57a15854.jpeg) |
+   | Basic information | View the information about the device from the parameters, including <strong>Device Name</strong>, <strong>IP</strong>, <strong>SN</strong>, <strong>Vendor</strong>, <strong>Model</strong>, <strong>Role</strong>, <strong>Online time</strong>, <strong>Ping status</strong>, <strong>Snmp status</strong>, <strong>Last Updated</strong>, <strong>Release</strong>, and <strong>Software version</strong>.<br>![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/65218a24468bb740df57812c57a15854.jpeg) |
 
    <table>
      <tr>
        <td>Port</td>
-       <td>• View the information about the ports of the device in the columns, including <strong>Port Name</strong>, <strong>Port rate</strong>, <strong>Port description</strong>, <strong>Management</strong> <strong>status</strong>, <strong>Operation Status</strong>, <strong>Peer Device</strong>, <strong>Peer interface</strong>, <strong>Peer</strong> <strong>description</strong>, and <strong>Last Updated</strong>.<br>Note<br>The <strong>Management status</strong> and <strong>Operation Status</strong> columns can be used to sort the ports of a device. If exceptions occur, Down in red is displayed in the Management status or Operation Status column.<br><img src="assets/18d4131414871ec2f39c72d473af0382.jpeg" alt=""><br>• View the details of a port.<br>a. Find the port that you want to view and click its name or click <strong>See</strong> in the <strong>Details</strong> column to view the details of the port.<br>b. View the basic information and usage data of the port.<br>In the Water level data section, you can select a time range in the <strong>Quick query</strong> section or specify a custom time range in the upper-right corner to query traffic data within the specified time range.<br><img src="assets/13e06d7b38fa37d8e14fb0903ebc1fe9.jpeg" alt=""></td>
+       <td>• View the information about the ports of the device in the columns, including <strong>Port Name</strong>, <strong>Port rate</strong>, <strong>Port description</strong>, <strong>Management</strong> <strong>status</strong>, <strong>Operation Status</strong>, <strong>Peer Device</strong>, <strong>Peer interface</strong>, <strong>Peer</strong> <strong>description</strong>, and <strong>Last Updated</strong>.<br>Note<br>The <strong>Management status</strong> and <strong>Operation Status</strong> columns can be used to sort the ports of a device. If exceptions occur, Down in red is displayed in the Management status or Operation Status column.<br><img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/18d4131414871ec2f39c72d473af0382.jpeg" alt=""><br>• View the details of a port.<br>a. Find the port that you want to view and click its name or click <strong>See</strong> in the <strong>Details</strong> column to view the details of the port.<br>b. View the basic information and usage data of the port.<br>In the Water level data section, you can select a time range in the <strong>Quick query</strong> section or specify a custom time range in the upper-right corner to query traffic data within the specified time range.<br><img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/13e06d7b38fa37d8e14fb0903ebc1fe9.jpeg" alt=""></td>
      </tr>
      <tr>
        <td>CPU usage</td>
-       <td>View the CPU utilization of the device.<br><img src="assets/6d972439d106f819f806c957164c5760.jpeg" alt=""></td>
+       <td>View the CPU utilization of the device.<br><img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/6d972439d106f819f806c957164c5760.jpeg" alt=""></td>
      </tr>
      <tr>
        <td>Memory usage</td>
-       <td>View the memory usage of the device.<br><img src="assets/d48333e714b6981f5306df11f690dd33.jpeg" alt=""></td>
+       <td>View the memory usage of the device.<br><img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/d48333e714b6981f5306df11f690dd33.jpeg" alt=""></td>
      </tr>
    </table>
 
    <table>
      <tr>
        <td>Aggregation Port Management</td>
-       <td>• View the information about all aggregation ports of the device.<br><img src="assets/5c385318f6c9627b2804b3f9c5c4bf6b.jpeg" alt=""><br>• On the Aggregation Port Management tab, find the aggregation port that you want to view and click <strong>See</strong> in the <strong>Operation</strong> column to view the usage data of the aggregation port.<br><img src="assets/be8f8c66fd89cfbc4839a48705daba91.jpeg" alt=""></td>
+       <td>• View the information about all aggregation ports of the device.<br><img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/5c385318f6c9627b2804b3f9c5c4bf6b.jpeg" alt=""><br>• On the Aggregation Port Management tab, find the aggregation port that you want to view and click <strong>See</strong> in the <strong>Operation</strong> column to view the usage data of the aggregation port.<br><img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/be8f8c66fd89cfbc4839a48705daba91.jpeg" alt=""></td>
      </tr>
    </table>
 
    <table>
      <tr>
        <td>Alert information</td>
-       <td>View the alert information about the device.<br><img src="assets/50ec933fdbbd20b7947829507af514ce.jpeg" alt=""><br>Note<br>During routine O&amp;M, you need to view the alert information about a device at the earliest opportunity. If no data is displayed on the <strong>Alert</strong> <strong>information</strong> tab, the device is running as expected. If alert events occur, the system displays the alert events that are not handled on the Alert information tab. You need to handle the alert events at the earliest opportunity.</td>
+       <td>View the alert information about the device.<br><img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/50ec933fdbbd20b7947829507af514ce.jpeg" alt=""><br>Note<br>During routine O&amp;M, you need to view the alert information about a device at the earliest opportunity. If no data is displayed on the <strong>Alert</strong> <strong>information</strong> tab, the device is running as expected. If alert events occur, the system displays the alert events that are not handled on the Alert information tab. You need to handle the alert events at the earliest opportunity.</td>
      </tr>
    </table>
 
@@ -469,8 +469,8 @@ If you use the network element management feature of the Network Operations Cons
 
    | Section | Description |
    | --- | --- |
-   | Collection cycle settings | i. In the Collection cycle settings section, configure the <strong>Automatic scan</strong> <strong>cycle (minutes)</strong>, <strong>Device scan cycle (minutes)</strong>, <strong>Port scan cycle</strong> <strong>(minutes)</strong>, and <strong>Link scan cycle (minutes)</strong> parameters.<br>![](assets/cd95846674f72ba00f302ec031185774.jpeg)<br>Note<br>If you have no special requirements, we recommend that you use the default values.<br>ii. Click <strong>Submitted</strong>. Then, the system collects the device information based on your configurations. |
-   | OOB CIDR block management | • Add a CIDR block.<br>a. Click <strong>Add CIDR block</strong>.<br>b. In the Add CIDR block dialog box, configure the following parameters.Then, click <strong>OK</strong>.<br>![](assets/7205654f7f9394107300d8d5e875ab73.jpeg)<br>• <strong>Manage CIDR blocks</strong>: Enter an IP address and its subnet mask in CIDR notation. Example: 10.0.0.0/8.<br>• <strong>Computer room</strong>: Select a data center from the drop-down list.<br>• <strong>Business Domain</strong>: Select <strong>In-band</strong> or <strong>Out-of-band</strong> from the drop-down list.<br>• View CIDR blocks.<br>![](assets/f7fae2111fd731d0d79afce5467daef5.jpeg)<br>a. In the search box above the CIDR clock list, enter an ID, a management<br>CIDR block, or the name of a data center and click the<img src="assets/e0cfbc150b89285f01e0ea3ef1dced43.png" width="20" alt="">icon to search<br>for the CIDR block, and then view information about the CIDR block.<br>b. View information about the CIDR blocks in the columns, including <strong>ID</strong>, <strong>Management CIDR blocks</strong>, <strong>Computer room</strong>, <strong>Business Domain</strong>, <strong>Created</strong>, and <strong>Last modification</strong>.<br>• Modify a CIDR block.<br>a. Find the CIDR block that you want to modify and click <strong>Editing</strong> in the <strong>Operation</strong> column.<br>b. In the Modify CIDR block dialog box, modify the parameter settings, and click <strong>OK</strong>.<br>• Delete a CIDR block.<br>a. Find the CIDR block that you want to delete and click <strong>Delete</strong> in the <strong>Operation</strong> column.<br>b. In the message that appears, click <strong>OK</strong>. |
+   | Collection cycle settings | i. In the Collection cycle settings section, configure the <strong>Automatic scan</strong> <strong>cycle (minutes)</strong>, <strong>Device scan cycle (minutes)</strong>, <strong>Port scan cycle</strong> <strong>(minutes)</strong>, and <strong>Link scan cycle (minutes)</strong> parameters.<br>![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/cd95846674f72ba00f302ec031185774.jpeg)<br>Note<br>If you have no special requirements, we recommend that you use the default values.<br>ii. Click <strong>Submitted</strong>. Then, the system collects the device information based on your configurations. |
+   | OOB CIDR block management | • Add a CIDR block.<br>a. Click <strong>Add CIDR block</strong>.<br>b. In the Add CIDR block dialog box, configure the following parameters.Then, click <strong>OK</strong>.<br>![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/7205654f7f9394107300d8d5e875ab73.jpeg)<br>• <strong>Manage CIDR blocks</strong>: Enter an IP address and its subnet mask in CIDR notation. Example: 10.0.0.0/8.<br>• <strong>Computer room</strong>: Select a data center from the drop-down list.<br>• <strong>Business Domain</strong>: Select <strong>In-band</strong> or <strong>Out-of-band</strong> from the drop-down list.<br>• View CIDR blocks.<br>![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/f7fae2111fd731d0d79afce5467daef5.jpeg)<br>a. In the search box above the CIDR clock list, enter an ID, a management<br>CIDR block, or the name of a data center and click the<img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/e0cfbc150b89285f01e0ea3ef1dced43.png" width="20" alt="">icon to search<br>for the CIDR block, and then view information about the CIDR block.<br>b. View information about the CIDR blocks in the columns, including <strong>ID</strong>, <strong>Management CIDR blocks</strong>, <strong>Computer room</strong>, <strong>Business Domain</strong>, <strong>Created</strong>, and <strong>Last modification</strong>.<br>• Modify a CIDR block.<br>a. Find the CIDR block that you want to modify and click <strong>Editing</strong> in the <strong>Operation</strong> column.<br>b. In the Modify CIDR block dialog box, modify the parameter settings, and click <strong>OK</strong>.<br>• Delete a CIDR block.<br>a. Find the CIDR block that you want to delete and click <strong>Delete</strong> in the <strong>Operation</strong> column.<br>b. In the message that appears, click <strong>OK</strong>. |
 
 **Manage passwords**
 
@@ -492,7 +492,7 @@ You can modify the password of a physical network device.
 
 5. Select one or more devices whose passwords you want to modify and click **Add to implementation**. Then, the devices whose passwords you want to modify are displayed in the **Implementation equipment** section on the right.
 
-   ![](assets/ad5ab400a9142a5bc0b1a8b8a8253ae7.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/ad5ab400a9142a5bc0b1a8b8a8253ae7.jpeg)
 
    > **Note**
    >
@@ -510,7 +510,7 @@ You can modify the password of a physical network device.
 
    - Modify the password of a device.
 
-     ![](assets/43b4a26d090e9e74fd79fa6e3da9207b.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/43b4a26d090e9e74fd79fa6e3da9207b.jpeg)
 
      <ol type="a">
 
@@ -568,7 +568,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll is deployed and has rea
    >
    > You can enter a device name in the search box to perform an exact search.
 
-   ![](assets/dfc3590a03c43091c683202a43becdab.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/dfc3590a03c43091c683202a43becdab.jpeg)
 
 5. Select one or more devices whose configurations you want to compare and click **Consistency comparison**.
 
@@ -594,7 +594,7 @@ The Syslog module records and stores the logs generated by network hardware devi
 
 5. View the information about the logs that meet the filter conditions in the columns that are described in the following table.
 
-   ![](assets/48d615ec7eababe9839585ec0fa6b8e5.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/48d615ec7eababe9839585ec0fa6b8e5.jpeg)
 
    | Column | Description |
    | --- | --- |
@@ -609,7 +609,7 @@ The Syslog module records and stores the logs generated by network hardware devi
 
 6. Find the log entry that you want to view and click **Details** in the Operation column. In the Syslog Details panel, view more detailed information about the log, such as the alert matching results, module details, and location.
 
-   ![](assets/be929a30b98a639723d463bb0615fe80.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/be929a30b98a639723d463bb0615fe80.jpeg)
 
 **What to do next**
 
@@ -655,7 +655,7 @@ On the Syslog page, click **Export Logs** in the upper-left corner to export the
 
 4. On the XGW Cluster Management page, select a region ID from the **Region** drop-down list and click **Synchronize data** to obtain the latest data of the XGW cluster list.
 
-   ![](assets/697cf21a87e8e4ee08cfea99dd6d1f40.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/697cf21a87e8e4ee08cfea99dd6d1f40.jpeg)
 
 5. Find the cluster that you want to manage, click **Quick Settings** in the **Operation** column, and then select **Set backup zone**.
 
@@ -667,7 +667,7 @@ On the Syslog page, click **Export Logs** in the upper-left corner to export the
 
 6. Select a secondary zone from the Select backup zone drop-down list and click **OK**.
 
-   ![](assets/a942c60b3fd5e371dfa3715a95988ed5.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/a942c60b3fd5e371dfa3715a95988ed5.jpeg)
 
 <a id="section-4-1-2"></a>
 
@@ -691,7 +691,7 @@ In scenarios such as multi-cloud geo-disaster recovery and hybrid cloud, you can
 
 4. On the NAT Gateway Monitoring page, select a cluster, specify a time range, enter the tunnel ID, and then click **Query** to view the trend chart of the NAT gateway.
 
-   ![](assets/0484b8f402d211cf6587f7b87a648aab.png)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/0484b8f402d211cf6587f7b87a648aab.png)
 
    > **Note**
    >
@@ -727,7 +727,7 @@ This topic describes how to view the instances of a router interface and the O&M
 
 5. Optional. Specify the **Connection Type**, **RI ID**, **Router Type**, **Router ID**, **Instance State**, **Instance Name**, **Peer RI ID**, **Peer Router ID**, **Peer Router Type**, and **Peer Region ID** parameters to filter router interface instances.
 
-   ![](assets/a4ecd75c5a6345daa2addabbc2943140.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/a4ecd75c5a6345daa2addabbc2943140.jpeg)
 
 6. Click **Search**. The router interface instances that match the UID are displayed on the RI Instances page.
 
@@ -757,7 +757,7 @@ The Apsara virtual switch (AVS) management feature allows you to view the basic 
 
 4. On the AVS management page, you can view the ASV information in the following columns: **Hostname**, **NC IP**, **Kernel version**, **pync version**, **rpm version**, **Version mvssSDK**, and **vtools version**.
 
-   ![](assets/b5803c35838148eba2dd3aeb1c9a6558.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/b5803c35838148eba2dd3aeb1c9a6558.jpeg)
 
 5. Find the AVS that you want to manage and click **Details** in the **Operation** column. On the page that appears, view the monitoring data in the **netdev traffic**, **CPU usage**, **Total vport traffic**, **vxlanVport total traffic**, and **Physical Nic traffic** sections.
 
@@ -1379,11 +1379,11 @@ The Apsara virtual switch (AVS) management feature allows you to view the basic 
 
 4. On the VPC-On-ECS page, click **Advanced Filter** and then specify the **VPC ID**, **Status**, and **Created At** parameters to filter virtual private clouds (VPCs).
 
-   ![](assets/03df4ef269affd69dfb9114935f36b65.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/03df4ef269affd69dfb9114935f36b65.jpeg)
 
 5. Find a VPC that you want to manage and click its name or **Details** in the **Operation** column. On the details page of the VPC, you can view the VPC details in the **VPC Instance Information**, **VRouter Information**, and **vSwitches** sections.
 
-   ![](assets/113824c465438a05e17df8f068ffbc93.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/113824c465438a05e17df8f068ffbc93.jpeg)
 
 6. In the **vSwitches** section, perform the following operations:
 
@@ -1396,7 +1396,7 @@ The Apsara virtual switch (AVS) management feature allows you to view the basic 
      | Usage | The purpose of the vSwitch. Valid values:<br>• Alibaba Cloud Service<br>• Container Network |
      | Description | The description of the vSwitch. |
 
-     ![](assets/b58b276521ae798d0dd8434a37577c71.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/b58b276521ae798d0dd8434a37577c71.jpeg)
 
    - Search for vSwitches: Click **Advanced Filter** and then specify the **Instance ID**, **Owner**, **AZone**, and **Created At** parameters to filter vSwitches.
 
@@ -1458,13 +1458,13 @@ This topic describes how to query all events in the network event center, includ
 
    Click **Advanced Filter** to search for events based on a combination of **Time**, **Name**, **Associated Object**, **Level**, **Event Source Type**, **Event Type**, and **Event Code**.
 
-   ![](assets/a27abfe368ebe20f52f21dc68c8bdf43.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/a27abfe368ebe20f52f21dc68c8bdf43.jpeg)
 
 5. Find the event that you want to view and click **Details** in the **Actions** column to view the **event details**. Details of RECOVER events are unavailable.
 
    The event details include **Event Information** and **Event content**. Content of VALUE events is not displayed. The event details vary based on the event type. The displayed information prevails.
 
-   ![](assets/464bb98432d4781014b93c0bf41a3885.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/464bb98432d4781014b93c0bf41a3885.jpeg)
 
 <a id="section-5-2"></a>
 
@@ -1498,7 +1498,7 @@ This topic describes how to modify and manage event generation rules in the netw
 
    - **NOE_GRPC**: NOE gRPC.
 
-   ![](assets/9d48e60f56360e921b52e27f0abcc5fc.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/9d48e60f56360e921b52e27f0abcc5fc.jpeg)
 
 5. You can also perform the following operations on the **Network Event Configurations** page:
 
@@ -1603,7 +1603,7 @@ This topic describes how to modify and manage event generation rules in the netw
 
      - **Alert Description**: Enter the description of the alert.
 
-     ![](assets/512f2f2b7007e438c1b1f9d39de40291.png)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/512f2f2b7007e438c1b1f9d39de40291.png)
 
      - **Detection Cycle**: Set the detection cycle. The default value is 60s.
 
@@ -1621,7 +1621,7 @@ This topic describes how to modify and manage event generation rules in the netw
 
    - **Modify an event generation rule** Click **Details** in the **Actions** column of the event generation rule that you want to modify. On the **Event Details** page, modify the parameters and click **Update**.
 
-     ![](assets/d9d5ab8f78ea8fb555eba5507d9bebc9.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/d9d5ab8f78ea8fb555eba5507d9bebc9.jpeg)
 
    - **Delete event generation rules**
 
@@ -1655,7 +1655,7 @@ This feature schedules recurring network inspection tasks and converts the resul
 
    - Click **Advanced Filter** to find a specific inspection configuration by using the **Name**, **Product**, **Service**, **Role**, and **Status** fields.
 
-   ![](assets/5bac3130d668f32bdc56a1ce3a1ced30.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/5bac3130d668f32bdc56a1ce3a1ced30.jpeg)
 
    > **Note**
    >
@@ -1663,7 +1663,7 @@ This feature schedules recurring network inspection tasks and converts the resul
    >
    > icon in the **Executions** column to sort the list in ascending or descending
    >
-   > <img src="assets/84f6572acc9825b42b49835475ee87ee.png" width="20" alt="">
+   > <img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/84f6572acc9825b42b49835475ee87ee.png" width="20" alt="">
    >
    > order.
 
@@ -1671,7 +1671,7 @@ This feature schedules recurring network inspection tasks and converts the resul
 
    - On the **Execution information** tab, view the **Basic information**, **Execution information**, and the list of execution tasks.
 
-     ![](assets/48bfe03766afeaf7685a00ee94ffb812.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/48bfe03766afeaf7685a00ee94ffb812.jpeg)
 
      - **Basic information**: includes **Inspection item ID**, **Name**, **Code**, **Description**, **Type**, **Product**, **Service**, **Service role**, **Convert to alarm**, and **Alarm level**.
 
@@ -1705,7 +1705,7 @@ This feature schedules recurring network inspection tasks and converts the resul
 
    - On the **Related events** tab, view the list of events.
 
-     ![](assets/04c8020051b0e0c1cb397aec293a9896.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/04c8020051b0e0c1cb397aec293a9896.jpeg)
 
      - Event information includes **Event name**, **Event description**, **Associated object**, **Event source type**, **Event source**, **Exception type**, **Event timeout**, **Event level**, **Associated alarm ID**, and **Occurrence time**.
 
@@ -1715,7 +1715,7 @@ This feature schedules recurring network inspection tasks and converts the resul
 
        The details primarily include **Event information** and **Event content**. The specific details vary by event type. For more information, see the content displayed in the console.
 
-       ![](assets/7f0aee59e31629faf70f37a61bea3691.jpeg)
+       ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/7f0aee59e31629faf70f37a61bea3691.jpeg)
 
 **More operations**
 
@@ -2449,7 +2449,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll has been deployed and h
 
 4. On the Intelligent Path Analysis page, click **Create Path Analysis**. On the page that appears, configure the following parameters and click **Analysis**.
 
-   ![](assets/19c76aa01f50958984a82e325ac9c004.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/19c76aa01f50958984a82e325ac9c004.jpeg)
 
    | Parameter | Description | Example |
    | --- | --- | --- |
@@ -2467,7 +2467,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll has been deployed and h
 
 5. In the **Path analysis** section, the status timeline of the analysis task is displayed, and the estimated time required for each phase is displayed. The topology of the path is displayed at the bottom of the timeline. After the analysis is complete, the analysis result is displayed.
 
-   ![](assets/0c040c15d6e0829b229490eb9f153cc5.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/0c040c15d6e0829b229490eb9f153cc5.jpeg)
 
    > **Note**
    >
@@ -2477,7 +2477,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll has been deployed and h
 
 6. In the **Diagnosis details** section, the details of the task are displayed.
 
-   ![](assets/bb82f43b86364275f82a8acb642dbb6e.png)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/bb82f43b86364275f82a8acb642dbb6e.png)
 
 7. In the **Analyze one by one** section, the analysis details of the packets captured by the task are displayed if the analysis task is successful. You can view the analysis details of packets one by one.
 
@@ -2485,7 +2485,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll has been deployed and h
 
 | Operation | Procedure |
 | --- | --- |
-| View the details of an analysis task | 1. On the Intelligent Path Analysis page, select a time range to view the information about the intelligent path analysis tasks within the specified time range.<br>![](assets/e23f342976d73cb9a15cd43ca10675df.jpeg)<br>2. Find the analysis task that you want to view and click <strong>Details</strong> in the <strong>Operation</strong> column. You can view the analysis results, including the path analysis, diagnostic details, and analysis details of each packet. |
+| View the details of an analysis task | 1. On the Intelligent Path Analysis page, select a time range to view the information about the intelligent path analysis tasks within the specified time range.<br>![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/e23f342976d73cb9a15cd43ca10675df.jpeg)<br>2. Find the analysis task that you want to view and click <strong>Details</strong> in the <strong>Operation</strong> column. You can view the analysis results, including the path analysis, diagnostic details, and analysis details of each packet. |
 | Terminate an analysis task | On the Intelligent Path Analysis page, find the analysis task that you want to terminate and click <strong>Terminate</strong> in the <strong>Operation</strong> column.<br>Note<br>You cannot terminate an analysis task that is in the <strong>Completed</strong> state. |
 
 <a id="section-6-2-2"></a>
@@ -2506,7 +2506,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll is deployed and in the 
 
 4. On the **Topology Analysis** page, set the following parameters.
 
-   ![](assets/b8d29906210c41e1c90ce106c8d6ed6a.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/b8d29906210c41e1c90ce106c8d6ed6a.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -2521,7 +2521,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll is deployed and in the 
 
 5. Click **Analysis**. In the **Topology Analysis** section, view and manage the logical topology.
 
-   ![](assets/14a6b16d8b118b02f06a28f29ea98f8b.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/14a6b16d8b118b02f06a28f29ea98f8b.jpeg)
 
    > **Note**
    >
@@ -2585,11 +2585,11 @@ The network instance diagnostics feature helps you quickly analyze a network ins
 
    - Instance details:
 
-     ![](assets/ffb101aeca1556f670ff68e012449adf.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/ffb101aeca1556f670ff68e012449adf.jpeg)
 
    - Instance topology:
 
-     ![](assets/28001d2ef83adfbd3b3a7788ba387c19.png)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/28001d2ef83adfbd3b3a7788ba387c19.png)
 
      - In the topology example shown in the preceding figure, the leftmost column displays the SLB instance, the middle column displays the listeners of the SLB instance, and the rightmost column displays the backend servers that correspond to the listeners.
 
@@ -2599,7 +2599,7 @@ The network instance diagnostics feature helps you quickly analyze a network ins
 
    - Diagnosis details: This section displays the information about diagnostic items in the following columns: **Diagnostic item name**, **Description**, **Diagnostic results**, and **Diagnosis details**.
 
-     ![](assets/fe874130ec0c895ce6f0f645773a006a.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/fe874130ec0c895ce6f0f645773a006a.jpeg)
 
 6. You can also perform the following operations in the **Task list** section on the Network Instance Diagnosis page to view historical diagnostic results of an instance:
 
@@ -2633,11 +2633,11 @@ The container network diagnostics feature helps you quickly analyze container ne
    | Protocol | The type of the protocol. Valid values:<br>• tcp<br>• udp |
    | Enable Global Check | Specifies whether to enable the global check. After you turn on Enable Global Check, no topology information is displayed. |
 
-   ![](assets/14479461298c38e38d78df20c0822348.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/14479461298c38e38d78df20c0822348.jpeg)
 
 5. After the diagnostic task is complete, view the path analysis topology and diagnostic report in the lower part of the page.
 
-   ![](assets/cf3e4c042b3166f72cd080ec24f1b09e.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/cf3e4c042b3166f72cd080ec24f1b09e.jpeg)
 
 **What to do next**
 
@@ -2662,7 +2662,7 @@ The Network Health Assessment module evaluates and diagnoses the health status o
 
 4. On the Network Health Assessment page, view the health assessment status of different network layers in the Health overview list.
 
-   ![](assets/214ee1557aea104ecda16e408cf34d61.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/214ee1557aea104ecda16e408cf34d61.jpeg)
 
    | Evaluation layer | Description | Dimension |
    | --- | --- | --- |
@@ -2681,7 +2681,7 @@ The Network Health Assessment module evaluates and diagnoses the health status o
 
    In the **KPI details** section, click Advanced Filter. Then, configure the KPI name, Status, and Network evaluation hierarchy type parameters to filter key performance indicators (KPIs). The following table describes the information about KPIs in the list.
 
-   ![](assets/6f9e037b4253bb3cf1a82b14148f8b3f.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/6f9e037b4253bb3cf1a82b14148f8b3f.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -2771,7 +2771,7 @@ The Optical Module Diagnostics module analyzes and predicts the status of optica
    >
    > The status of an optical transceiver module can be health, sub-health, exception, or unknown. The line chart shows the trend in the proportion of optical transceiver modules in the health state.
 
-   ![](assets/558349b6c08b316478e06b4d52cc50d1.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/558349b6c08b316478e06b4d52cc50d1.jpeg)
 
 5. In the lower part of the Optical Module Diagnostics page, view the basic information and analysis results of optical transceiver modules. You can click **Advanced Filter** and then filter optical transceiver modules by **optical transceiver module model**, **optical transceiver module manufacturer**, **optical transceiver module status**, **hostname**, **interface name**, and **device type**.
 
@@ -2958,7 +2958,7 @@ The Tool Executions page displays the tool execution history.
 
 4. On the **Tool Executions** page, view the execution details of tools in the following columns: **Workflow ID**, **Tool Name**, **Description**, **Execution Time**, **Execution Result**, **Executed By**, and **Execution Parameters**.
 
-   ![](assets/fc0f27189b0ecdeb394d22f326896edb.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/fc0f27189b0ecdeb394d22f326896edb.jpeg)
 
    - **Search for an execution**
 
@@ -2994,7 +2994,7 @@ The Tool Executions page displays the tool execution history.
 
        - Click **View Details** below a step to view the **step details**.
 
-         ![](assets/bfdf5a76aa9ddb9a5db7b7e378d1bdcb.jpeg)
+         ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/bfdf5a76aa9ddb9a5db7b7e378d1bdcb.jpeg)
 
          - **Basic Information**: displays the basic information about the step.
 
@@ -3022,7 +3022,7 @@ The Tool Executions page displays the tool execution history.
 
        - **Execution Logs**: displays the latest 1,000 lines of the execution log.
 
-         Click the <img src="assets/d74993f6719b768d0698e5409cc70c21.png" width="23" alt=""> icon in the upper-right corner to download the execution log to your
+         Click the <img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/d74993f6719b768d0698e5409cc70c21.png" width="23" alt=""> icon in the upper-right corner to download the execution log to your
 
          computer.
 
@@ -3093,7 +3093,7 @@ The NetworkBaseServiceCluster cluster for BaseServiceAll is deployed and at desi
 
 4. On the Network Asset Management page, click **Advanced Filter** and search for a network asset in a VPC by **Asset Type**, **IP Address**, **IP Address Version**, **Network Type**, **Instance ID**, **Zone**, **Product**, **ClusterName**, **Service**, **ServerRole**, **IP Address Pool ID**, **Base Resource**, **In-band Resource**, and **vpcId**.
 
-   ![](assets/65e598ea7631ac846f9ad77df1fc7fe5.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/65e598ea7631ac846f9ad77df1fc7fe5.jpeg)
 
 5. Click **Overloaded IP Data** to refresh the IP address data.
 
@@ -3125,13 +3125,13 @@ A single instance often hosts multiple cloud services. During O&M tasks like net
 
 4. On the **CIDR Block Management** page, use the following operations to view and manage CIDR blocks.
 
-   ![](assets/7b70094f312abe118119fede726dae57.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/7b70094f312abe118119fede726dae57.jpeg)
 
    - You can view statistics for **CIDR Block Category**, **Protocol Distribution**, **IPv4 Prefix Distribution**, and **IPv6 Prefix Distribution**.
 
    - Add a CIDR block: Click **Manual Entry**. In the panel that opens, configure the following parameters and click **OK**.
 
-     ![](assets/1d494138656b5a4979dbf86ad107d553.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/1d494138656b5a4979dbf86ad107d553.jpeg)
 
      | Parameter | Description |
      | --- | --- |
@@ -3172,7 +3172,7 @@ A single instance often hosts multiple cloud services. During O&M tasks like net
 
      </ol>
 
-     ![](assets/f3994da265a6af7aafe9f5e17b508005.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/f3994da265a6af7aafe9f5e17b508005.jpeg)
 
    - Query CIDR blocks
 
@@ -3196,7 +3196,7 @@ A single instance often hosts multiple cloud services. During O&M tasks like net
 
    - View CIDR block details: In the **Actions** column of a target CIDR block, click **Details**. In the panel that appears, view the detailed information about the CIDR block.
 
-     ![](assets/e1d447faca4258d0e8266b5a238bc14f.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/e1d447faca4258d0e8266b5a238bc14f.jpeg)
 
    - Delete a CIDR block
 
@@ -3228,15 +3228,15 @@ The collection settings feature is applicable to scenarios such as multi-cloud g
 
 4. On the Collection Settings page, find the IP address pool that you want to manage by the IP address pool name and view the CIDR block collection settings of the IP address pool.
 
-   ![](assets/7e271ee017a0b6b8caeae9553ee0dff4.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/7e271ee017a0b6b8caeae9553ee0dff4.jpeg)
 
 5. Click **Details** in the **Operation** column. In the Details panel, view the details of the IP address pool.
 
-   ![](assets/0a12b60fda02f1525626168b74c37d73.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/0a12b60fda02f1525626168b74c37d73.jpeg)
 
 6. Click **Single trigger** in the **Operation** column. In the message that appears, click **OK**. Then, the system displays the trigger result.
 
-   ![](assets/b9ef691d5d4319adbc4c56c4e6ab504f.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/b9ef691d5d4319adbc4c56c4e6ab504f.jpeg)
 
 <a id="section-7-3"></a>
 
@@ -3262,7 +3262,7 @@ The reverse access feature implements active access from base cloud services to 
    | Application Description | The description of the application. |
    | uid | The user ID that is used for resource management. This parameter is required. |
 
-   ![](assets/5ec4949f341be51df77455eaf8ce51f4.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/5ec4949f341be51df77455eaf8ce51f4.jpeg)
 
 5. In the **Server Address Pool Settings** section, configure the following parameters and click **Create**.
 
@@ -3278,7 +3278,7 @@ The reverse access feature implements active access from base cloud services to 
    | mappingIp | This parameter takes effect only if you set the <strong>Creation Mode</strong> parameter to <strong>Within VPC</strong>.<br>The mapping IP address that is created for the specified vSwitch. The IP address is used to map the IP address of the application server.<br>Note<br>If the existing mapping IP addresses in the vSwitch are not used up, the mapping IP address created in this step may not be used.If no mapping IP addresses exist in the vSwitch and you do not create a mapping IP address in this step, an error may be reported later. |
    | serverIps | This parameter takes effect only if you set the <strong>Creation Mode</strong> parameter to <strong>Outside VPC</strong>.<br>The classic network IP addresses of the application servers to be added. |
 
-   ![](assets/d54588e22cdb6273b57fa5c0731c48cf.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/d54588e22cdb6273b57fa5c0731c48cf.jpeg)
 
 6. Configure the following parameters and click **Create ECS Authorization**.
 
@@ -3290,7 +3290,7 @@ The reverse access feature implements active access from base cloud services to 
    | instanceIp | This parameter takes effect only if you set the <strong>Creation Mode</strong> parameter to <strong>Instance IP Address</strong>.<br>The private IP address of the ECS instance to be accessed. |
    | instancePort | The port of the ECS instance to be accessed. |
 
-   ![](assets/a9ddc5600dc1704419e82a111aa35c59.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/a9ddc5600dc1704419e82a111aa35c59.jpeg)
 
 7. View the details of a reverse access instance.
 
@@ -3312,7 +3312,7 @@ The reverse access feature implements active access from base cloud services to 
 
    **Information** section and on the **Server Address Pool** and **ECS Reverse Authorization** tabs.
 
-   ![](assets/10803036851ee5e10e4fd87aa4a7769a.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/10803036851ee5e10e4fd87aa4a7769a.jpeg)
 
    <ol type="i" start="3">
 
@@ -3331,7 +3331,7 @@ The reverse access feature implements active access from base cloud services to 
    <table>
      <tr>
        <td>View the server details of an address pool</td>
-       <td>a. Find the address pool that you want to view and click <strong>Server Details</strong> in the <strong>Operation</strong> column. In the Server Details panel, view the server details of the address pool.<br>b. The server details are displayed in the following columns: <strong>VPC ID</strong>, <strong>Server ID</strong>, <strong>Server IP</strong>, <strong>Server Mapping IP</strong>, <strong>Server Type</strong>, and <strong>Status</strong>.<br><img src="assets/b57d977311d69842fe5b21ab1897de27.jpeg" alt=""><br>Note<br>• To add an application server, click <strong>Add Application Server</strong><br>• To delete an application server, find the application server that you want to delete and click <strong>Delete</strong> in the <strong>Operation</strong> column.</td>
+       <td>a. Find the address pool that you want to view and click <strong>Server Details</strong> in the <strong>Operation</strong> column. In the Server Details panel, view the server details of the address pool.<br>b. The server details are displayed in the following columns: <strong>VPC ID</strong>, <strong>Server ID</strong>, <strong>Server IP</strong>, <strong>Server Mapping IP</strong>, <strong>Server Type</strong>, and <strong>Status</strong>.<br><img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/b57d977311d69842fe5b21ab1897de27.jpeg" alt=""><br>Note<br>• To add an application server, click <strong>Add Application Server</strong><br>• To delete an application server, find the application server that you want to delete and click <strong>Delete</strong> in the <strong>Operation</strong> column.</td>
      </tr>
      <tr>
        <td>Modify an address pool</td>
@@ -3416,7 +3416,7 @@ This topic describes how to manage the lifecycle of cloud instances, including c
    | BID | This parameter is available only when the <strong>Tunnel Type</strong> parameter is set to <strong>SingleTunnel</strong>.<br>The BID of the user that creates the vSwitch. This parameter is required if the user is not the API caller. |
    | CIDR Type | This parameter is available only when the <strong>Tunnel Type</strong> parameter is set to <strong>AnyTunnel</strong>.<br>• <strong>Link_local (Regular Cloud Services)</strong>: The AnyTunnel VIP assigned to Application Load Balancer (ALB) is allocated from a subnet that does not belong to 100.100.100.0/24.<br>• <strong>Special Inner (ECS META Server) Service</strong>: The AnyTunnel VIP assigned to ALB is allocated from a subnet that belongs to 100.100.100.0/24. |
 
-   ![](assets/760fd5c21f818aa0b2d6c231880e727b.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/760fd5c21f818aa0b2d6c231880e727b.jpeg)
 
    **Step 2: Add backend servers to an SLB instance**
 
@@ -3427,7 +3427,7 @@ This topic describes how to manage the lifecycle of cloud instances, including c
    | VPC ID | The ID of the VPC in which the ECS instances that you want to add are deployed. This parameter is required if you want to add ECS instances deployed in a VPC. |
    | RS List | The backend servers (ECS instances) that you want to add to the Server Load Balancer (SLB) instance.<br>• <strong>IP</strong>: the IP address of the backend server.<br>• <strong>weight</strong>: The weight of the backend server. Valid values: 0 to 1000. If you leave the parameter empty, the default value 100 is used.<br>Note<br>• Click <strong>Add RS</strong> to add multiple backend servers.<br>• Click <strong>Delete</strong> in the <strong>Actions</strong> column of a backend server to remove the backend server. |
 
-   ![](assets/8c0b72e959a389a2992ea8fdc0943c6e.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/8c0b72e959a389a2992ea8fdc0943c6e.jpeg)
 
    **Step 3: Create listeners**
 
@@ -3446,7 +3446,7 @@ This topic describes how to manage the lifecycle of cloud instances, including c
    >
    > - Click **Delete** in the Delete column of a listener to delete the listener.
 
-   ![](assets/dd5ef817837a1a6e08b4181d5431760a.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/dd5ef817837a1a6e08b4181d5431760a.jpeg)
 
 6. Optional. After the cloud instance is created, it enters the **Working** state. You can go to the **Cloud Instance Management** page and view the instance in the instance list.
 
@@ -3464,7 +3464,7 @@ This topic describes how to manage the lifecycle of cloud instances, including c
    | CloudInstance IP | Enter the IP address of the cloud instance.<br>If you do not specify a VIP, the system automatically assigns one. |
    | CIDR Type | • <strong>Link_local (Regular Cloud Services)</strong>: The Direct AnyTunnel VIP is allocated from a subnet that does not belong to 100.100.100.0/24.<br>• <strong>Special Inner (ECS META Server) Service</strong>: The Direct AnyTunnel VIP is allocated from a subnet that belongs to 100.100.100.0/24. |
 
-   ![](assets/28388c20587550506ee8122e6b6a4192.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/28388c20587550506ee8122e6b6a4192.jpeg)
 
 3. Optional. After the Direct AnyTunnel is created, it enters the **Working** state. You can go back to the **Cloud Instance Management** page and view it in the instance list.
 
@@ -3560,7 +3560,7 @@ The change plan list module displays all available change plans.
 
    - To view the execution history of a change plan, click the number in the **Number of Executions** column of the change plan to go to the **Execution History** page. For more information, see the Search for an execution section in the Execution history topic.
 
-   ![](assets/bfeb5d45c641155f47dc1d65983a4b3c.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/bfeb5d45c641155f47dc1d65983a4b3c.jpeg)
 
 **Built-in change plans**
 
@@ -3604,7 +3604,7 @@ The change plan list module displays all available change plans.
 
 5. On the **Change Plan Details** page, view the details of the change plan.
 
-   ![](assets/286315fbc19b0c7969a8e9d118df23bd.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/286315fbc19b0c7969a8e9d118df23bd.jpeg)
 
    - **Basic Information**: displays **Solution Code**, **Name**, **Risk Level**, **Affected Product**, **Version**, **Description of Applicable Conditions**, and **Scenario Description**.
 
@@ -3614,7 +3614,7 @@ The change plan list module displays all available change plans.
 
      - Click the icon of a step to view the details of the step, including **Step Information** and **Execution Information**.
 
-       ![](assets/4c3205a0c3be0084486c696b722a5178.jpeg)
+       ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/4c3205a0c3be0084486c696b722a5178.jpeg)
 
 **Create a change workflow**
 
@@ -3634,7 +3634,7 @@ The change plan list module displays all available change plans.
 
    The parameters vary based on the change plan.
 
-   ![](assets/d81630644fbe813b61ae5044f195006b.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/d81630644fbe813b61ae5044f195006b.jpeg)
 
 6. After the change workflow is created, you are redirected to the **Execution Details** page. You can view the execution status of the workflow. For more information, see the View the details of an execution section in the Execution history topic.
 
@@ -3654,7 +3654,7 @@ This topic describes how to view the execution history of change plans on the Ex
 
 4. On the **Execution History** page, view the execution details of change plans in the following columns: **Workflow ID**, **Plan Name**, **Description**, **Execution Time**, **Execution Result**, **Executed By**, and **Execution Parameters**.
 
-   ![](assets/398b39bf0bd6a9f469f12f4cdfbc4147.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/398b39bf0bd6a9f469f12f4cdfbc4147.jpeg)
 
    - **Search for an execution**
 
@@ -3668,7 +3668,7 @@ This topic describes how to view the execution history of change plans on the Ex
 
      Find the execution that you want to view and click **View Details** in the **Actions** column. On the **Execution Details** page, view the details of the execution.
 
-     ![](assets/ff1b5be6e65c5c5014a8e614f8c37db5.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/ff1b5be6e65c5c5014a8e614f8c37db5.jpeg)
 
      > **Note**
      >
@@ -3694,21 +3694,21 @@ This topic describes how to view the execution history of change plans on the Ex
 
          - **Basic Information**: displays the basic information about the step.
 
-           ![](assets/64114d9a901720847b1b83f3e04d5014.jpeg)
+           ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/64114d9a901720847b1b83f3e04d5014.jpeg)
 
          - **Execution Information**: displays **Last Execution Information**, **Last Execution Environment Variable**, and **Execution History**.
 
            In the **Execution History** section, find the execution that you want to view and move the pointer over **Details** in the **Actions** column to view the execution details.
 
-           ![](assets/4faf007ff85a4b8b80b56ecb65f6b81b.jpeg)
+           ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/4faf007ff85a4b8b80b56ecb65f6b81b.jpeg)
 
          - **Parameter Information**: displays **Input Parameters** and **Output Parameters**. The name, type, and description of each parameter are displayed.
 
-           ![](assets/de390a7885efab3b811e5eb379dabd00.jpeg)
+           ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/de390a7885efab3b811e5eb379dabd00.jpeg)
 
        - Click **Confirm Parameters** in the **Parameter Check** section to view the parameter check results of the check items of the workflow and determine whether the check results are normal.
 
-         ![](assets/2f75765f4526e7a0716b4bbc0c44d9aa.jpeg)
+         ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/2f75765f4526e7a0716b4bbc0c44d9aa.jpeg)
 
          - Click **Approved** to continue to run the workflow.
 
@@ -3722,15 +3722,15 @@ This topic describes how to view the execution history of change plans on the Ex
 
        - **Parameter Information**: displays parameter check results in the **Parameter Check** section and input parameters in the **Input Parameters** section.
 
-         ![](assets/4f61bf1c0a6af52e8902d0ea32ad56ca.jpeg)
+         ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/4f61bf1c0a6af52e8902d0ea32ad56ca.jpeg)
 
        - **Execution Logs**: displays the latest 1,000 execution log entries. You can turn on **Automatic Refresh**.
 
-         You can also click the <img src="assets/d74993f6719b768d0698e5409cc70c21.png" width="23" alt=""> icon in the upper-right corner to download the execution
+         You can also click the <img src="en-vpc-operations-guide-v3.18.6-2607-20260828.assets/d74993f6719b768d0698e5409cc70c21.png" width="23" alt=""> icon in the upper-right corner to download the execution
 
          log to your computer.
 
-         ![](assets/8e8b373ce7e5f5e623fa50cb59a2e871.png)
+         ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/8e8b373ce7e5f5e623fa50cb59a2e871.png)
 
 **Definitions of execution results**
 
@@ -3787,15 +3787,15 @@ This topic describes how to view the IPv6 service capability and IPv6 status for
 
    Click **advanced filter** to filter the cloud services by a combination of **data center**, **product**, **cluster**, and **IPv6 enabled** status.
 
-   ![](assets/be773d3a71e839ec024469d7775b6ed9.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/be773d3a71e839ec024469d7775b6ed9.jpeg)
 
-   ![](assets/b7f58df6b5acc8db85144701564aefb8.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/b7f58df6b5acc8db85144701564aefb8.jpeg)
 
    - In the **Actions** column for a target cluster, click **refresh cluster status** to update the cluster's status.
 
    - In the **Actions** column for a target cluster, click **IPv6 service dependencies**. A dialog box opens, displaying the service dependencies of the cluster and the IPv6 status of each service.
 
-     ![](assets/42689226ac659f733ed789d13076e63b.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/42689226ac659f733ed789d13076e63b.jpeg)
 
    - In the **Actions** column for a target cluster, click **enable IPv6**.
 
@@ -3805,7 +3805,7 @@ This topic describes how to view the IPv6 service capability and IPv6 status for
 
      In the dialog box that appears, review and confirm the IPv6 status of the dependent services, and then click **OK**.
 
-     ![](assets/3e3099964ad5835d91a47ae2c778d88f.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/3e3099964ad5835d91a47ae2c778d88f.jpeg)
 
      > **Note**
      >
@@ -3817,7 +3817,7 @@ This topic describes how to view the IPv6 service capability and IPv6 status for
 
      In the dialog box that appears, verify that IPv6 is enabled for all dependent services, and then click **OK**.
 
-     ![](assets/da80a84ceb1fc85ee867a8c20732dacd.jpeg)
+     ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/da80a84ceb1fc85ee867a8c20732dacd.jpeg)
 
      </li>
 
@@ -3883,7 +3883,7 @@ The read and write permissions on Log Center are obtained.
      </tr>
    </table>
 
-   ![](assets/1c5052871ba9d5ec26cc324a9d932d8b.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/1c5052871ba9d5ec26cc324a9d932d8b.jpeg)
 
 6. On the **Local Logs** tab, filter logs by **Products**, **Service**, **Component**, and **Log Path**.
 
@@ -3895,7 +3895,7 @@ The read and write permissions on Log Center are obtained.
    >
    > - You can click **Export Logs** to export the logs to your on-premises machine.
 
-   ![](assets/4ee9e5678be39e555b562ce9b824ada4.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/4ee9e5678be39e555b562ce9b824ada4.jpeg)
 
 <a id="section-9-2"></a>
 
@@ -3917,7 +3917,7 @@ This topic describes how to query time series database (TSDB) clusters and view 
 
 4. On the **TSDB Multi-cluster Management Page**, view the information in the **Zone List** section.
 
-   ![](assets/4a3b46dae8e230b501a938aaa2282e38.jpeg)
+   ![](en-vpc-operations-guide-v3.18.6-2607-20260828.assets/4a3b46dae8e230b501a938aaa2282e38.jpeg)
 
    - The cluster information includes Cluster ID, Zone, **Cluster Name**, **Cluster Type**, **Access Point Information**, **Service Nodes**, and **Configurations**.
 

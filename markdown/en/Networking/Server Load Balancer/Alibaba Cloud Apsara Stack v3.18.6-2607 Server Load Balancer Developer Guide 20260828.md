@@ -156,7 +156,7 @@ This topic describes how to view the references of an Apsara Stack service when 
 
 The following figure shows how to find your desired information in the Apsara Stack documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-slb-developer-guide-v3.18.6-2607-20260828.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -184,7 +184,7 @@ Apsara Stack allows you to call API operations through the point of presence (PO
 
 **Flowchart**
 
-![](assets/27a14c1fdbadd2d9298565190c14de9a.png)
+![](en-slb-developer-guide-v3.18.6-2607-20260828.assets/27a14c1fdbadd2d9298565190c14de9a.png)
 
 **Procedure**
 
@@ -316,7 +316,7 @@ The information on the API Directory page of the Apsara Uni-manager Management C
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-slb-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -326,7 +326,7 @@ The information on the API Directory page of the Apsara Uni-manager Management C
 
 7. Select the corresponding API operation and obtain the POP endpoint information of the cloud service under the parameter name.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-slb-developer-guide-v3.18.6-2607-20260828.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 <a id="section-2-3"></a>
 
@@ -369,7 +369,7 @@ To obtain the AccessKey pair of a personal account, perform the following steps:
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of the personal account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-slb-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -674,7 +674,7 @@ To enable you to use the API call method in Apsara Stack as in Alibaba Cloud pub
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-slb-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the cloud service that you want to manage.
 
@@ -684,7 +684,7 @@ To enable you to use the API call method in Apsara Stack as in Alibaba Cloud pub
 
 7. Select the corresponding API operation and obtain the POP Endpoint information under the parameter name.
 
-   ![](assets/b048c661554e8741512853a99d6813fa.jpeg)
+   ![](en-slb-developer-guide-v3.18.6-2607-20260828.assets/b048c661554e8741512853a99d6813fa.jpeg)
 
 **Obtain an endpoint from Apsara Infrastructure Management**
 
@@ -704,7 +704,7 @@ You can also obtain service endpoints by yourself. In this example, API Gateway 
 
 6. In the Service Registration column of the  `apigateway`  service, click the **Service**
 
-   **Registration** <img src="assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
+   **Registration** <img src="en-slb-developer-guide-v3.18.6-2607-20260828.assets/f9387f3709671f07787cb98488ef1c63.png" width="19" alt=""> icon.
 
 7. Click the text information in the **Service Registration** column of the  `apigateway`  service. In the **Registration Variable** dialog box that appears, view the apigateway.openapi.endpoint value, which is the  `Endpoint` .
 
@@ -3029,11 +3029,11 @@ This operation uses only common request headers. For more information, see the "
 | --XForwardedFo r_ClientCertSu bjectDN | String | off | Indicates whether the <code>XForwardedFor_ClientCertSubjectDN</code> <code> </code> header is used to obtain information about the owner of the client certificate.Valid values:<br>• on<br>• off |
 | --XForwardedFo r_ClientSrcPort | String | off | Indicates whether the <code>XForwardedFor_ClientSrcPort</code> header is used to obtain the client port.Valid values:<br>• on<br>• off |
 
-![](assets/7219ce764b942ec590248e5db0fcb99c.png)
+![](en-slb-developer-guide-v3.18.6-2607-20260828.assets/7219ce764b942ec590248e5db0fcb99c.png)
 
-![](assets/d51559384354d086ab600e9106c37ca2.png)
+![](en-slb-developer-guide-v3.18.6-2607-20260828.assets/d51559384354d086ab600e9106c37ca2.png)
 
-![](assets/2caaa7bd9a365293892e5deb942e8d6d.png)
+![](en-slb-developer-guide-v3.18.6-2607-20260828.assets/2caaa7bd9a365293892e5deb942e8d6d.png)
 
 | Parameter | Type | Example | Description |
 | --- | --- | --- | --- |
@@ -3528,7 +3528,7 @@ v3.16.2r-slb-hotfeature-SP006 is installed.
 | LoadBalancerNa me | String | No | test1 | The CLB instance name. |
 | access_key_id | String | No | acc-hp34s2h0xx1ht4 nwo\*\*\*\* | The AccessKey ID. |
 
-![](assets/d75a787b3542a18394c93d8e6e06b69f.png)
+![](en-slb-developer-guide-v3.18.6-2607-20260828.assets/d75a787b3542a18394c93d8e6e06b69f.png)
 
 <table>
   <tr>
@@ -7611,7 +7611,7 @@ Adds IP addresses to the whitelist of a listener.
 | LoadBalancerId | String | Yes | 139a00604ad-cn-east-hangzhou-01 | The ID of the SLB instance. |
 | SourceItems | String | Yes | 1.XX.XX.1,1.XX.XX.0/21 | The IP addresses or CIDR blocks that you want to add to the whitelist.<br>This parameter takes effect only when <strong>AccessControlStatus</strong> of the listener is set to <strong>open_white_list</strong>.<br>Separate multiple IP addresses or CIDR blocks with commas (,).<br>You cannot enter 0.0.0.0 or 0.0.0.0/0.You can call the <code>SetListenerAccessControlStatus</code> <code> </code> operation to set the value of the <strong>AccessControlStatus</strong> parameter to <strong>close</strong>. This indicates that access control is disabled. |
 
-![](assets/6fb3066928aa1de21e11cb469182ad13.png)
+![](en-slb-developer-guide-v3.18.6-2607-20260828.assets/6fb3066928aa1de21e11cb469182ad13.png)
 
 **Response parameters**
 

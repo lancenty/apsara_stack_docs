@@ -85,7 +85,7 @@ The following figure shows the system architecture of AI Studio, which consists 
 
 **System architecture**
 
-![](assets/f81ffbee06aeb8fba48dfe1ffef8391e.jpeg)
+![](en-opentrek-ai-studio-operations-guide-v3.18.6-2607-20260901.assets/f81ffbee06aeb8fba48dfe1ffef8391e.jpeg)
 
 **AI management layer**
 
@@ -239,7 +239,7 @@ This topic describes how to log on to AI Studio OPS from the Apsara Uni-manager 
 
    Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-opentrek-ai-studio-operations-guide-v3.18.6-2607-20260901.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -313,7 +313,7 @@ This topic describes how to check the availability of an AI resource pool and ad
 
 7. Select a basic feature status and click **OK**.
 
-   ![](assets/4deeb251246e8a2d953e226e02d98a17.jpeg)
+   ![](en-opentrek-ai-studio-operations-guide-v3.18.6-2607-20260901.assets/4deeb251246e8a2d953e226e02d98a17.jpeg)
 
 **Diagnose features**
 
@@ -341,7 +341,7 @@ This topic describes how to check the availability of a resource group and add f
 
 4. View the basic information and features of the resource group.
 
-   ![](assets/d4dff3344af3212b9f130b6511ceb553.jpeg)
+   ![](en-opentrek-ai-studio-operations-guide-v3.18.6-2607-20260901.assets/d4dff3344af3212b9f130b6511ceb553.jpeg)
 
 5. Click **Add Resource Group Feature**, select a feature, and then click **OK**.
 
@@ -349,7 +349,7 @@ This topic describes how to check the availability of a resource group and add f
 
 7. Select a basic feature status and click **OK**.
 
-   ![](assets/05a29acf010eed08949562497c54aaab.jpeg)
+   ![](en-opentrek-ai-studio-operations-guide-v3.18.6-2607-20260901.assets/05a29acf010eed08949562497c54aaab.jpeg)
 
 **Related operations**
 
@@ -380,7 +380,7 @@ This section describes how to query pods in a resource pool using commands.
 
    Supported commands are get and describe.
 
-   ![](assets/2548b847d43b7c6306d4b79d8d6d29eb.png)
+   ![](en-opentrek-ai-studio-operations-guide-v3.18.6-2607-20260901.assets/2548b847d43b7c6306d4b79d8d6d29eb.png)
 
 4. Click **Confirm**.
 
@@ -470,11 +470,11 @@ This topic describes how to manually enter chip models.
      </tr>
      <tr>
        <td>Resource Pool Feature Configuration</td>
-       <td>• Configure the features of the resource pool as enable, unsupported, or disable.<br>• Move the pointer over the icon<img src="assets/c1ef6475eeff469b09b82ec0d4af50d2.png" width="14" alt="">next to the<br>feature to view the feature description.</td>
+       <td>• Configure the features of the resource pool as enable, unsupported, or disable.<br>• Move the pointer over the icon<img src="en-opentrek-ai-studio-operations-guide-v3.18.6-2607-20260901.assets/c1ef6475eeff469b09b82ec0d4af50d2.png" width="14" alt="">next to the<br>feature to view the feature description.</td>
      </tr>
      <tr>
        <td>Resource Group Feature Configuration</td>
-       <td>• Configure features of the resource group as enable, unsupported, or disable.<br>• Move the pointer over the icon<img src="assets/c1ef6475eeff469b09b82ec0d4af50d2.png" width="14" alt="">next to the<br>feature to view the feature description.</td>
+       <td>• Configure features of the resource group as enable, unsupported, or disable.<br>• Move the pointer over the icon<img src="en-opentrek-ai-studio-operations-guide-v3.18.6-2607-20260901.assets/c1ef6475eeff469b09b82ec0d4af50d2.png" width="14" alt="">next to the<br>feature to view the feature description.</td>
      </tr>
    </table>
 
@@ -618,7 +618,7 @@ The system isolates the AI Studio training and inference task list by creator an
 
 3. Configure isolation, third-party cluster OSS mounts, or quantization suites.
 
-   ![](assets/bc9c56af2a6e58860ae3d4c21b3e3c48.jpeg)
+   ![](en-opentrek-ai-studio-operations-guide-v3.18.6-2607-20260901.assets/bc9c56af2a6e58860ae3d4c21b3e3c48.jpeg)
 
    - **Resource Isolation Settings:**
 
@@ -688,7 +688,7 @@ This section describes task monitoring metrics, including how to view them and t
 
    - Click the icon in the upper-right corner to display one, two, or three metric cards per row.
 
-   ![](assets/4df3b470fbf467f02faa0e2cdcae67fd.jpeg)
+   ![](en-opentrek-ai-studio-operations-guide-v3.18.6-2607-20260901.assets/4df3b470fbf467f02faa0e2cdcae67fd.jpeg)
 
    | Metric name | Description | Unit |
    | --- | --- | --- |

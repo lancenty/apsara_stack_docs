@@ -380,7 +380,7 @@ This topic describes the major components of the Apsara Uni-manager Management C
 
 The Apsara Uni-manager Management Console consists of four components: frontend (portal), resource hosting, ASAPI, and backend services. The following figure shows the architecture of the Apsara Uni-manager Operations Console.
 
-![](assets/65c5f118d85e843976150fe99e9b5065.png)
+![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/65c5f118d85e843976150fe99e9b5065.png)
 
 These modules provide the following features:
 
@@ -448,7 +448,7 @@ This topic describes the components in the Apsara Uni-manager Management Console
 
 The following figure shows the key dependencies between components.
 
-![](assets/ba03bbef7d0090bee395f834a2d33134.png)
+![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/ba03bbef7d0090bee395f834a2d33134.png)
 
 <a id="section-3-4"></a>
 
@@ -464,7 +464,7 @@ This topic describes the differences between the old and new deployment architec
 
 The following figure shows the deployment architecture of Enterprise Edition V3.14.0 and later.
 
-![](assets/afa514a0a1cad145b9234667943742fa.jpeg)
+![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/afa514a0a1cad145b9234667943742fa.jpeg)
 
 Compared with the old architecture (deployment architecture of V3.13.0 and earlier), the new architecture reduces the number of services in a cluster from eight to four in the Apsara Uni-manager Management Console, has the UniManagerBase cluster added, and migrates some underlying services (such as users and CommonServer) to the cluster. The new architecture makes hierarchical dependencies of services clearer and reduces resource consumption by streamlining service roles.
 
@@ -1506,7 +1506,7 @@ This topic describes how to collect fault logs.
 
    - If you can log on to the Apsara Uni-manager Management Console and reproduce the fault, you can obtain the EagleEye ID from the browser by pressing F12. The eagleeye-traceid from the ResponseHeaders is preferred, followed by the eagleEyeTraceId from the response.
 
-     ![](assets/2fb42a85cfacb77a327040d54e59b4bd.jpeg)
+     ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/2fb42a85cfacb77a327040d54e59b4bd.jpeg)
 
    - If you can log on to the Apsara Uni-manager Management Console but cannot reproduce the fault, you can query the API call logs when the fault occurred. For more information, see Security maintenance.
 
@@ -3131,7 +3131,7 @@ The following figure shows sample command output.
 
 The first column displays EagleEye IDs, and the second column displays the actual time consumed at the ASAPI side. You can obtain more detailed logs based on the EagleEye IDs.
 
-![](assets/5ababfce1c66ba38265c00060b084cd3.jpeg)
+![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/5ababfce1c66ba38265c00060b084cd3.jpeg)
 
 <a id="section-8-7"></a>
 
@@ -3352,19 +3352,19 @@ You are a platform administrator.
 
 4. On the Redirection Page Configuration page, turn on or off the switch for removing a redirection page in the **Remove Redirection Page Configuration** column.
 
-   ![](assets/9b40c5185f3f4b58dbc1b8c67a958074.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/9b40c5185f3f4b58dbc1b8c67a958074.jpeg)
 
-   <img src="assets/cf7d4d1bb4ff8c661539d7d9184b5be3.png" width="30" alt=""> indicates that the switch for removing a redirection page is turned on. After you turn on
+   <img src="en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/cf7d4d1bb4ff8c661539d7d9184b5be3.png" width="30" alt=""> indicates that the switch for removing a redirection page is turned on. After you turn on
 
    the switch, the redirection page does not pop up when you log in to the console of the corresponding cloud service. By default, the redirection page is displayed in the floating menu. You can switch accounts in the floating menu.
 
-   ![](assets/50e7cb9f5193c08cf4da1576ac2648ba.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/50e7cb9f5193c08cf4da1576ac2648ba.jpeg)
 
-   <img src="assets/bf713bd14299fba5d35fb95c335b9da0.png" width="29" alt=""> indicates that the switch for removing a redirection page is turned off. After you turn off
+   <img src="en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/bf713bd14299fba5d35fb95c335b9da0.png" width="29" alt=""> indicates that the switch for removing a redirection page is turned off. After you turn off
 
    the switch, the redirection page pops up when you log in to the console of the corresponding cloud service. After you log in to the console, the redirection page is displayed in the floating menu. You can switch accounts in the floating menu.
 
-   ![](assets/40480da0b29c030954626edbdd895bc9.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/40480da0b29c030954626edbdd895bc9.jpeg)
 
 <a id="section-9-3"></a>
 
@@ -3390,7 +3390,7 @@ The timeout error may be caused by full garbage collection (GC) processes that a
    tail -f/home/admin/logs/eagleeye/stat-eagleeye-jvm.log | grep gc
    ```
 
-   ![](assets/5dcf01da066397e43fffa0a333dc63d0.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/5dcf01da066397e43fffa0a333dc63d0.jpeg)
 
    ConcurrentMarkSweep indicates the logs of the full GC processes. A full GC process is run every 1 or 2 minutes.
 
@@ -3456,7 +3456,7 @@ The issue may occur due to the following reasons:
    grep <requestid> /logs/asapi-logger/*
    ```
 
-   ![](assets/7e261979d3d7095329d9667dba084bd6.png)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/7e261979d3d7095329d9667dba084bd6.png)
 
    </li>
 
@@ -3512,7 +3512,7 @@ The error may occur due to the following reasons:
 
    On the **Headers**tab, find the  `_preventCache`  field.
 
-   ![](assets/c1d0691949b5a8c67771cf656dfe2090.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/c1d0691949b5a8c67771cf656dfe2090.jpeg)
 
 2. Access the **asapi.ApiServer#** container.
 
@@ -3647,7 +3647,7 @@ An error is reported when you call the API operations of Blink in the Apsara Uni
    '$project_name' ;
    ```
 
-   ![](assets/c052c4b1879246f5e5352329da324147.png)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/c052c4b1879246f5e5352329da324147.png)
 
    - If the value of the  `inst  ance_id`  parameter contains uppercase letters, run the following commands to back up the resource_instance table and change the value of the  `instance_id`  parameter to a value that contains only lowercase letters.
 
@@ -3882,7 +3882,7 @@ curl: (35) error:1407742E: SSL routines: SSL_23_GET_SERVER_HELLO:tlsvl alert pro
 
    Contact the Alibaba Cloud HTTPSPROXY R&D team to generate a certificate for ASAPI.
 
-   ![](assets/c6943af8ca74b4169cc935f16a500917.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/c6943af8ca74b4169cc935f16a500917.jpeg)
 
 3. The Apsara Infrastructure Management issues a certificate.
 
@@ -4208,7 +4208,7 @@ The alerts are generated due to two reasons:
 
    The following figure shows the SLS log related to a ascm_login_api_inspect_alert alert from ASD. You can obtain the EagleEye ID of the trace corresponding to the alert. In the log, EntityType indicates the abnormal component or service, and ErrorType indicates the error code that can be used to locate the component or service that affects the login to the Apsara Uni-manager Management Console. If the value of EntityType is Ram, Aas, ummak, Pop, or Tair, the alert is generated because the basic services are abnormal.
 
-   ![](assets/47d21e4ae2c9913eb0d0bcc5ec32aedb.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/47d21e4ae2c9913eb0d0bcc5ec32aedb.jpeg)
 
 2. Handle login API alerts caused by basic service exceptions.
 
@@ -4218,7 +4218,7 @@ The alerts are generated due to two reasons:
 
    Use ASD to query the cause and logs of the alerts.
 
-   ![](assets/03485ef7b2419001531275918c8b99ed.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/03485ef7b2419001531275918c8b99ed.jpeg)
 
    </li>
 
@@ -4232,7 +4232,7 @@ The alerts are generated due to two reasons:
 
    Enable the emergency mode if you cannot log in to the Apsara Uni-manager Management Console.
 
-   ![](assets/4135bb2c4e4963553a97cb87e60a9e40.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/4135bb2c4e4963553a97cb87e60a9e40.jpeg)
 
    </li>
 
@@ -4260,7 +4260,7 @@ The alerts are generated due to two reasons:
 
    ASD performs diagnostics and prompts you to enable the emergency mode.
 
-   ![](assets/a492b78d7dd8e52f294eb7b21175506f.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/a492b78d7dd8e52f294eb7b21175506f.jpeg)
 
    </li>
 
@@ -4272,7 +4272,7 @@ The alerts are generated due to two reasons:
 
    Click Downgrade to restore login to the Apsara Uni-manager Management Console. Then, you can log in to the Apsara Uni-manager Management Console as expected for further operations. A notice is displayed on the top navigation bar of the Apsara Uni-manager Management Console.
 
-   ![](assets/bb7e931f40ccb7988beae447769ee183.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/bb7e931f40ccb7988beae447769ee183.jpeg)
 
    </li>
 
@@ -4338,7 +4338,7 @@ For resources such as virtual private clouds (VPCs) and ECS security groups that
 
 2. In the top navigation bar, choose **Platform Operation** > **Management and control service operation and maintenance** > **UniConsole**. The Products page is displayed by default.
 
-   ![](assets/dee7f3590528ccb839de863146e7fa0c.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/dee7f3590528ccb839de863146e7fa0c.jpeg)
 
 3. On the **Products** page, enter the service whose information you want to change and click **Search**.
 
@@ -4348,19 +4348,19 @@ For resources such as virtual private clouds (VPCs) and ECS security groups that
 
 4. Find the desired service and click **Switch List** in the Actions column.
 
-   ![](assets/dcdb5f1c9660339cfbae292f4981b4e0.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/dcdb5f1c9660339cfbae292f4981b4e0.jpeg)
 
 5. Search for  `strictOwnership`  in the switch list and check whether the Current Value switch is turned on. If this switch is turned on, click **Change Switch Status** in the Actions column.
 
-   ![](assets/5225d1adcf8acd48d126b2f7470748c3.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/5225d1adcf8acd48d126b2f7470748c3.jpeg)
 
 6. In the dialog box that appears, turn off the **Current Value** switch and then click **OK**.
 
-   ![](assets/9e2b8edeb430b3ff5475989af457bf7a.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/9e2b8edeb430b3ff5475989af457bf7a.jpeg)
 
 7. After the modification is successful, the page is automatically refreshed to show whether the modification is successful.
 
-   ![](assets/33115cb0307cc817420f0af4ddfc28e4.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/33115cb0307cc817420f0af4ddfc28e4.jpeg)
 
 8. Wait about 10 minutes and log in to the Apsara Uni-manager Management Console again.
 
@@ -4390,7 +4390,7 @@ Example: Use site000002-t1.operation.inter.env\*\*\*.shuguang.com as the public 
 
 Enter the ComsCms container and modify  `/opt/taobao/tengine/conf/public_domain.lua` . Set the value of config.public_domain to the public internet domain name.
 
-![](assets/26b46532c610b7c52f11cbe289c05699.jpeg)
+![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/26b46532c610b7c52f11cbe289c05699.jpeg)
 
 **Reload the configuration**
 
@@ -4413,7 +4413,7 @@ Log in to TianJi, view the serviceManagement cluster details, and check the valu
 >
 > If you need IPv6 support, contact Alibaba Cloud technical support.
 
-![](assets/49f675fab7e1d362b91de9b402feea65.jpeg)
+![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/49f675fab7e1d362b91de9b402feea65.jpeg)
 
 **View the realServer IP**
 
@@ -4421,7 +4421,7 @@ Based on the VIP address of unimanager-coms-cms-vip-biz.vip_ip, view the corresp
 
 Enter the slb-controller.SlbAg# container and access the corresponding SLB console.
 
-![](assets/4b15e1f819093ad99ef4d8c5a6189236.jpeg)
+![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/4b15e1f819093ad99ef4d8c5a6189236.jpeg)
 
 Run the command to view the realServer corresponding to the SLB listener's VIP.
 
@@ -4429,7 +4429,7 @@ Run the command to view the realServer corresponding to the SLB listener's VIP.
 info admin eip_or_lb address_or_lb_id ${vip}
 ```
 
-![](assets/3d498c3b55b290a6ef2d7022a2562fa2.jpeg)
+![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/3d498c3b55b290a6ef2d7022a2562fa2.jpeg)
 
 **Configure singleTunnel from the instance to comsCms**
 
@@ -4437,26 +4437,26 @@ info admin eip_or_lb address_or_lb_id ${vip}
 
 2. Go to **Product Operation** > **Network Operations Console**.
 
-   ![](assets/23d886b20e223d41a3abc683433634b7.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/23d886b20e223d41a3abc683433634b7.jpeg)
 
 3. In the left-side navigation pane, click **Network Resources** > **Cloud Instance Management**.
 
 4. Click **Create Instance** > **Create Instance**.
 
-   ![](assets/0e9b096e47dd96e80bd7c403db4cf69f.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/0e9b096e47dd96e80bd7c403db4cf69f.jpeg)
 
 5. On the **Create Instance** page, configure the corresponding IP address and front-end/back-end ports. Configure ports 80 and 443.
 
-   ![](assets/28ca068a4a0b293df269614d2b9ac690.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/28ca068a4a0b293df269614d2b9ac690.jpeg)
 
-   ![](assets/9e3b3436cb24ebf6211d2d57a472982f.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/9e3b3436cb24ebf6211d2d57a472982f.jpeg)
 
 6. Obtain the corresponding anyTunel VIP.
 
-   ![](assets/5f27c1be169e127b9c8fc98b6fa6b158.jpeg)
+   ![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/5f27c1be169e127b9c8fc98b6fa6b158.jpeg)
 
 **Configure hosts in the instance**
 
-![](assets/f98d71facebc895faf5206408ce007ab.jpeg)
+![](en-apsara-uni-manager-operations-guide-v3.18.6-2607-20260828.assets/f98d71facebc895faf5206408ce007ab.jpeg)
 
 In the terminal, ping the corresponding domain name. If the ping succeeds, the domain is accessible.

@@ -35,7 +35,7 @@ Cloud Shield Operations Center is an operations platform for Apsara Stack Securi
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-waf-instance-operations-guide-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -153,11 +153,11 @@ This topic describes how to view the metrics of instance-based Web Application F
 
    - **System Monitoring** of instance-based WAF: Go to the **Application Security > Web Application Firewall - Instance** tab, and click the ID of an instance or click **Monitoring Chart** in the **Operation** column.
 
-     ![](assets/24c34789c24829e7d6d507dbcb3000ee.jpeg)
+     ![](en-waf-instance-operations-guide-v3.18.6-2607-20260828.assets/24c34789c24829e7d6d507dbcb3000ee.jpeg)
 
    - **Basic Monitoring** of instance-based WAF: On this tab, you can view the trend of changes in CPU utilization, system mode CPU utilization, user mode CPU utilization, memory utilization, system loads, disk usage, inbound and outbound traffic, number of TCP connections, and process data.
 
-     ![](assets/576aa704abc9c55bef2bedcf64a15262.jpeg)
+     ![](en-waf-instance-operations-guide-v3.18.6-2607-20260828.assets/576aa704abc9c55bef2bedcf64a15262.jpeg)
 
      You can select or specify a time range. You can also click the Refresh icon to manually update the monitoring data or enable Automatic Refresh. In each chart, you can select the Elastic Compute Service (ECS) instance you want to view.
 

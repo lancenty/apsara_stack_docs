@@ -151,15 +151,15 @@ On the **CEN Instance** page, you can click the ID of a CEN instance to view its
 
 - Enter a keyword or specify **advanced filter conditions** to search for a specific CEN instance.
 
-- Click the <img src="assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to specify the columns that you want
+- Click the <img src="en-transit-router-user-guide-v3.18.6-2607-20260901.assets/362fdc387951132f8acc618f76230478.png" width="18" alt=""> icon in the upper-right corner of the list to specify the columns that you want
 
   to display in the list. You can also drag and drop the items to adjust their order.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name in the **Cen ID/name** column to modify the name of a CEN
+- Click the <img src="en-transit-router-user-guide-v3.18.6-2607-20260901.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the name in the **Cen ID/name** column to modify the name of a CEN
 
   instance.
 
-- Click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the description in the **Description** column to modify the
+- Click the <img src="en-transit-router-user-guide-v3.18.6-2607-20260901.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon next to the description in the **Description** column to modify the
 
   description of a CEN instance.
 
@@ -195,13 +195,13 @@ On the **CEN Instance** page, you can add tags to CEN instances to mark and grou
 
      - In the **Basic information** section, find the **Instance name** parameter, move the
 
-       pointer over the parameter value, and then click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to modify the name of the
+       pointer over the parameter value, and then click the <img src="en-transit-router-user-guide-v3.18.6-2607-20260901.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to modify the name of the
 
        CEN instance.
 
      - In the **Basic information** section, find the **Description** parameter, move the pointer
 
-       over the parameter value, and then click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to modify the description of the
+       over the parameter value, and then click the <img src="en-transit-router-user-guide-v3.18.6-2607-20260901.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to modify the description of the
 
        CEN instance.
 
@@ -427,7 +427,7 @@ The following table describes the terms of Connect attachments.
 
 The system creates a Connect attachment between a transit router and an on-premises network by creating a network tunnel on the transport channel. Connect attachments support only VBR connections between transit routers and on-premises networks. The following figure shows the network topology.
 
-![](assets/d32f017f6679c28d8c7956be8119427d.png)
+![](en-transit-router-user-guide-v3.18.6-2607-20260901.assets/d32f017f6679c28d8c7956be8119427d.png)
 
 **Routes**
 
@@ -447,7 +447,7 @@ If the transit router is connected to multiple VBRs and the VBRs learn the same 
 >
 > - If the VBRs and the on-premises network use static routes, health checks are disabled for the VBRs, and one of the Express Connect circuits fails, network traffic is still forwarded to the faulty Express Connect circuits because the system cannot detect Express Connect errors. In this case, your services may be interrupted.
 
-![](assets/5f9f250326d723b8c7f39c36421a43e1.png)
+![](en-transit-router-user-guide-v3.18.6-2607-20260901.assets/5f9f250326d723b8c7f39c36421a43e1.png)
 
 **Limits**
 
@@ -742,7 +742,7 @@ After you connect a network instance to a transit router, you can create an asso
 
 **Background information**
 
-![](assets/205f0946fb80eaf78ee58d80db013e92.png)
+![](en-transit-router-user-guide-v3.18.6-2607-20260901.assets/205f0946fb80eaf78ee58d80db013e92.png)
 
 The preceding figure shows how transit routers work. In this example, the transit router in the cn-qingdao-env17-d01 region is connected to VPC1 and VPC2. The VPC1 connection is associated with Route Table A, and the VPC2 connection is associated with Route Table B. A client in VPC1 wants to access a server in VPC2. The IP address of the server falls into the CIDR block 10.1.1.0/24. The following table shows the process.
 
@@ -938,7 +938,7 @@ Routing policies filter routes in match-action mode. Actions are performed after
 
 - If the route does not meet a match condition specified in the last routing policy, the route is permitted.
 
-![](assets/22bf56d35f1fe8f93e193268c04db5b4.jpeg)
+![](en-transit-router-user-guide-v3.18.6-2607-20260901.assets/22bf56d35f1fe8f93e193268c04db5b4.jpeg)
 
 **Default routing policy**
 
@@ -946,11 +946,11 @@ Each transit router contains a default routing policy that applies in the Egress
 
 - A VPC that is connected to a transit router can communicate with VPCs and VBRs that are also connected to the transit router.
 
-  ![](assets/59ba58e70e37e1521cedd0f137ccc44f.jpeg)
+  ![](en-transit-router-user-guide-v3.18.6-2607-20260901.assets/59ba58e70e37e1521cedd0f137ccc44f.jpeg)
 
 - A VBR that is connected to a transit router cannot communicate with other VBRs that are also connected to the transit router.
 
-  ![](assets/c398fa23df71fb1f462be65b7252f4eb.jpeg)
+  ![](en-transit-router-user-guide-v3.18.6-2607-20260901.assets/c398fa23df71fb1f462be65b7252f4eb.jpeg)
 
 <a id="section-2-2-3-5-2"></a>
 
@@ -1055,7 +1055,7 @@ Multicast is supported by transit routers. After you connect a transit router to
 
 Multicast is a type of group communication where the same data packet is transmitted to a group of destination clients. Multicast is commonly used in live streaming, video conferencing, financial transaction data synchronization, online education, and streaming television.
 
-![](assets/ea4a3511140bfbc0d68ba11b01c3e20c.png)
+![](en-transit-router-user-guide-v3.18.6-2607-20260901.assets/ea4a3511140bfbc0d68ba11b01c3e20c.png)
 
 **Benefits**
 
@@ -1071,13 +1071,13 @@ In the following example, live streaming is used to show the differences between
 
   In unicast scenarios, the live streaming server must transmit two packets: Unicast Packet 1 and Unicast Packet 2. The router then forwards Unicast Packet 1 to Client 3 and Unicast Packet 2 to Client 4, as shown in the following figure.
 
-  ![](assets/d55ec911fa4ffdc936713e124b0effc6.jpeg)
+  ![](en-transit-router-user-guide-v3.18.6-2607-20260901.assets/d55ec911fa4ffdc936713e124b0effc6.jpeg)
 
 - How multicast works
 
   In multicast scenarios, you can add the live streaming server and the clients to the same multicast group. When the server transmits a data packet to Client 3 and Client 4, only one data packet (Multicast Packet 1) needs to be transmitted to the multicast group. The packet is forwarded by the multicast routers and replicated on the multicast routers that are nearest to the clients. The number of replicas is determined by the number of clients in the multicast group. After the packet is replicated, the multicast routers forward the replicas to the clients, as shown in the following figure.
 
-  ![](assets/7ba7cd31b7938365fca3521b3b7600e4.jpeg)
+  ![](en-transit-router-user-guide-v3.18.6-2607-20260901.assets/7ba7cd31b7938365fca3521b3b7600e4.jpeg)
 
 In unicast scenarios, the live streaming server must transmit a packet to every client. The routers must forward every packet. The workloads on the server and the bandwidth usage greatly increase as the number of clients grows. In multicast scenarios, the live streaming server and the clients can be added to the same multicast group. The server needs to transmit only one packet to the multicast group. The multicast routers need to forward only one packet. The packet is replicated on the multicast routers that are nearest to the clients. Multicast can reduce server workloads and bandwidth usage even if the number of clients is large.
 
@@ -1097,11 +1097,11 @@ After you enable multicast for a transit router, you can create and manage multi
 
   Figure 1: Figure 1_Create a multicast network on Apsara Stack
 
-  ![](assets/bdbc9fead05f2c5625f7de4e8fe75ca2.jpeg)
+  ![](en-transit-router-user-guide-v3.18.6-2607-20260901.assets/bdbc9fead05f2c5625f7de4e8fe75ca2.jpeg)
 
   Figure 2: Figure 2_Create a multicast network between an on-premises network and a VPC
 
-  ![](assets/36b5af3144df8c71b52fb66eb986e150.jpeg)
+  ![](en-transit-router-user-guide-v3.18.6-2607-20260901.assets/36b5af3144df8c71b52fb66eb986e150.jpeg)
 
 **Terms**
 
@@ -1172,13 +1172,13 @@ This topic describes how to use a transit router to create and manage a multicas
 
    - In the **Basic multicast domain information** section, find the **Multicast Domain name**
 
-     parameter, move the pointer over the parameter value, and then click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to
+     parameter, move the pointer over the parameter value, and then click the <img src="en-transit-router-user-guide-v3.18.6-2607-20260901.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to
 
      modify the name of the multicast domain.
 
    - In the **Basic multicast domain information** section, find the **Description** parameter,
 
-     move the pointer over the parameter value, and then click the <img src="assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to modify the
+     move the pointer over the parameter value, and then click the <img src="en-transit-router-user-guide-v3.18.6-2607-20260901.assets/54b23d43f206646e4fae66cdb08f6c90.png" width="13" alt=""> icon to modify the
 
      description of the multicast domain.
 
@@ -1389,7 +1389,7 @@ Tags are used to classify instances. Each tag consists of a key-value pair. Befo
 
      On the **CEN Instance** page, find the CEN instance that you want to manage and click
 
-     the <img src="assets/813ec6f468d144c9355b49a9403d4521.png" width="16" alt=""> icon in the **Tag** column.
+     the <img src="en-transit-router-user-guide-v3.18.6-2607-20260901.assets/813ec6f468d144c9355b49a9403d4521.png" width="16" alt=""> icon in the **Tag** column.
 
      </li>
 
@@ -1474,7 +1474,7 @@ After you add a tag to a CEN instance, you can add more tags to the CEN instance
 
      On the **CEN Instance** page, find the CEN instance that you want to manage and click
 
-     the <img src="assets/813ec6f468d144c9355b49a9403d4521.png" width="16" alt=""> icon in the **Tag** column.
+     the <img src="en-transit-router-user-guide-v3.18.6-2607-20260901.assets/813ec6f468d144c9355b49a9403d4521.png" width="16" alt=""> icon in the **Tag** column.
 
      </li>
 
@@ -1486,7 +1486,7 @@ After you add a tag to a CEN instance, you can add more tags to the CEN instance
 
      - Modify a tag: You can select a tag and modify the tag key or tag value.
 
-     - Remove a tag: You can click the <img src="assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt=""> icon on the right side of a tag to remove the tag
+     - Remove a tag: You can click the <img src="en-transit-router-user-guide-v3.18.6-2607-20260901.assets/60ac6eaaddc532a75dda41677b0a867f.png" width="16" alt=""> icon on the right side of a tag to remove the tag
 
        from the CEN instance.
 
@@ -1542,7 +1542,7 @@ You can connect virtual border routers (VBRs) to data centers by using Express C
 
 **How it works**
 
-![](assets/c7c50966a3eb49001ef8ead9a5af1468.png)
+![](en-transit-router-user-guide-v3.18.6-2607-20260901.assets/c7c50966a3eb49001ef8ead9a5af1468.png)
 
 After you enable health checks for a VBR, a ping packet is transmitted from the source IP address of health checks to the destination IP address in the data center every 2 seconds. If the ping packets are returned from the **Express Connect circuit**, the Express Connect circuit is declared healthy. If the Express Connect circuit **does not respond to eight consecutive ping packets, or the ping packets are returned from other routes**, the Express Connect circuit is declared unhealthy.
 
@@ -1554,7 +1554,7 @@ After you enable health checks for a VBR, a ping packet is transmitted from the 
 
 **Usage notes on standby Express Connect circuits**
 
-![](assets/eff505d419df11325292504da1b1033a.png)
+![](en-transit-router-user-guide-v3.18.6-2607-20260901.assets/eff505d419df11325292504da1b1033a.png)
 
 If a data center is connected to Alibaba Cloud through multiple Express Connect circuits, we recommend that you configure health checks for each Express Connect circuit. If one of the Express Connect circuits is declared unhealthy by health checks, the system automatically switches network traffic to a healthy Express Connect circuit.
 

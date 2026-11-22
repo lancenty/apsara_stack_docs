@@ -70,7 +70,7 @@ Cloud Shield Operations Center is an operations platform for Apsara Stack Securi
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -210,9 +210,9 @@ This topic describes how to view existing tasks on the Tasks tab.
 
 3. On the Tenant-side KMS O&M page, click the **Tasks** tab. On the Tasks tab, configure the **Type**, **Status**, or **ID** parameter to search for the task that you want to query.
 
-4. Click the <img src="assets/b391f44152bdde57d6cbc4de3eeb3e57.png" width="8" alt=""> icon to the left of the task ID to query the execution information about its sub-tasks.
+4. Click the <img src="en-kms-operations-guide-v3.18.6-2607-20260831.assets/b391f44152bdde57d6cbc4de3eeb3e57.png" width="8" alt=""> icon to the left of the task ID to query the execution information about its sub-tasks.
 
-   ![](assets/2c8a5e2e81dc72bbb45f3800ff3c2163.jpeg)
+   ![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/2c8a5e2e81dc72bbb45f3800ff3c2163.jpeg)
 
 <a id="section-2-3"></a>
 
@@ -364,7 +364,7 @@ This topic describes how to log on to the Apsara Uni-manager Operations Console.
 
 2. In the address bar, enter the URL. Then, press the Enter key.
 
-   ![](assets/031c4f07f59cbc926ff25affbc55c3ec.png)
+   ![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/031c4f07f59cbc926ff25affbc55c3ec.png)
 
    > **Note**
    >
@@ -727,7 +727,7 @@ The security audit module defines the default audit rule based on the string tha
 
    In the dialog box that appears, configure the parameters.
 
-   ![](assets/9932eb99c760fcb7367a8fa19f5e91b9.png)
+   ![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/9932eb99c760fcb7367a8fa19f5e91b9.png)
 
    </li>
 
@@ -891,7 +891,7 @@ You can export audit events or logs on the **Audit Query** or **Raw Log** tab of
 
 6. View the created export tasks.
 
-   ![](assets/bf80f36d04cad130d9959d9739d0645f.png)
+   ![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/bf80f36d04cad130d9959d9739d0645f.png)
 
 7. Click **download** to download audit events or logs to your on-premises server. To delete an export task, click **Delete**.
 
@@ -919,7 +919,7 @@ You can configure system parameters to specify the maximum number of system aler
 
 6. Find the system parameter that you want to modify and click **Edit** in the **Actions** column.
 
-   ![](assets/a90821209bb511b5e032eebb7bfb793e.png)
+   ![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/a90821209bb511b5e032eebb7bfb793e.png)
 
 7. Enter a required value in the Value column and click **OK** in the Actions column.
 
@@ -1105,7 +1105,7 @@ This topic describes how to log on to the Apsara Infrastructure Management conso
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -1145,13 +1145,13 @@ This topic describes how to check the status of the KMS_HOST component.
 
 5. Click **KmsHost#** to view and obtain the IP addresses of all servers on which the KMS_HOST component is deployed.
 
-   ![](assets/a57ca09b087c432886ad66451e460801.jpeg)
+   ![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/a57ca09b087c432886ad66451e460801.jpeg)
 
 6. Find a server and click **Terminal** in the Actions column to log on to the server.
 
 7. Run the  `curl http://ip:5555/status.html`  command and check whether **success** is returned.
 
-   ![](assets/4c632ba1e136b6b9a25743635de9b4f7.jpeg)
+   ![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/4c632ba1e136b6b9a25743635de9b4f7.jpeg)
 
    > **Note**
    >
@@ -1198,13 +1198,13 @@ This topic describes how to check the service status of HSA.
 
 6. Click **HSA#** to retrieve the IP addresses of all HSA servers.
 
-   ![](assets/b35263733dad7d0b009f2f64bc843fea.jpeg)
+   ![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/b35263733dad7d0b009f2f64bc843fea.jpeg)
 
 7. Select a server and click **Terminal** in the Actions column to log on to the server.
 
 8. Run the  `curl http://ip:5555/status.html`  command and verify that it returns success.
 
-   ![](assets/4c632ba1e136b6b9a25743635de9b4f7.jpeg)
+   ![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/4c632ba1e136b6b9a25743635de9b4f7.jpeg)
 
    > **Note**
    >
@@ -1258,7 +1258,7 @@ In the Apsara Infrastructure Management console, check whether Etcd and EtcdDeci
 
    If the indicators for **kms.Etcd#** and **kms.EtcdDecider#** are green, they are in the desired state.
 
-   ![](assets/5dc47dee137cd6a1591987cfc02f972d.jpeg)
+   ![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/5dc47dee137cd6a1591987cfc02f972d.jpeg)
 
 **Troubleshooting**
 
@@ -1292,7 +1292,7 @@ Typically, you only need to troubleshoot Rotator errors after you observe unexpe
 
 Check the  `current idc master`  in the  `/cloud/log/kms/Rotator#/rotator/debug.log`  file, as shown in the following figure, to determine whether the Rotator in the primary region started in primary region mode.
 
-![](assets/5686c5ba31ccfea99d6cbee021f0b42d.jpeg)
+![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/5686c5ba31ccfea99d6cbee021f0b42d.jpeg)
 
 If  `current idc master`  is  `true` , the system starts in primary region mode. If  `current idc master`  is  `false` , the system starts in secondary region mode.
 
@@ -1310,11 +1310,11 @@ The log file indicates whether the node is in a working state or a standby state
 
 Figure 1. Working state
 
-![](assets/7630522516905f79e704e82d26f2821c.jpeg)
+![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/7630522516905f79e704e82d26f2821c.jpeg)
 
 Figure 2. Standby state
 
-![](assets/a61f154912d33dd2744b80769ed6ac0d.jpeg)
+![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/a61f154912d33dd2744b80769ed6ac0d.jpeg)
 
 **Possible exceptions and errors**
 
@@ -1340,7 +1340,7 @@ The Rotator is deployed and active on all nodes in a standby data center. Each n
 
 To verify that the Rotator is running in standby mode, check the value of  `current idc master`  in the  `/cloud/log/kms/Rotator#/rotator/debug.log`  file.
 
-![](assets/9340332fab8dd0bb2a96fcf96e39fe1a.jpeg)
+![](en-kms-operations-guide-v3.18.6-2607-20260831.assets/9340332fab8dd0bb2a96fcf96e39fe1a.jpeg)
 
 If  `current idc master`  is  `false` , the Rotator is running in standby mode. If  `current idc master`  is  `true` , it is running in primary mode.
 

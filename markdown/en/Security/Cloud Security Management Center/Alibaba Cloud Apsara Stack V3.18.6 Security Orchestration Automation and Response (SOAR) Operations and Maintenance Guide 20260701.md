@@ -34,7 +34,7 @@ This topic describes how to log in to the Apsara Infrastructure Management conso
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/dd668306d2357f8f85843dbc54a02439.jpeg)
+   ![](en-soar-operations-guide-v3.18.6-20260701.assets/dd668306d2357f8f85843dbc54a02439.jpeg)
 
    > **Note**
    >
@@ -86,23 +86,23 @@ This topic describes how to log in to the Apsara Infrastructure Management conso
 
 2. In the top navigation bar of the Apsara Uni-manager Operations Console, choose **Product Operation > Security O&M > Cloud Shield Operations Center**.
 
-   ![](assets/4efc3678192a9ab2238d748311f47164.jpeg)
+   ![](en-soar-operations-guide-v3.18.6-20260701.assets/4efc3678192a9ab2238d748311f47164.jpeg)
 
 3. In the left-side navigation pane, choose **Monitoring and Alerting** > **System Monitoring**.
 
 4. On the **System Monitoring** page, click the **Automated Orchestration** tab. On the Automated Orchestration tab, view the CPU utilization, load, and status of Security Orchestration Automation and Response (SOAR).
 
-   ![](assets/a69f0112b723014734a12bc0e7685f59.jpeg)
+   ![](en-soar-operations-guide-v3.18.6-20260701.assets/a69f0112b723014734a12bc0e7685f59.jpeg)
 
 4. In the left-side navigation pane, choose **Monitoring and Alerting > Business Monitoring**.
 
 5. On the **Business Monitoring** page, click the **Automated Orchestration** tab.
 
-   ![](assets/c2833d2b9d10385971c4a286dd1ac467.jpeg)
+   ![](en-soar-operations-guide-v3.18.6-20260701.assets/c2833d2b9d10385971c4a286dd1ac467.jpeg)
 
 6. On the Automated Orchestration tab, click the **sophon-bluespace** card to view the numbers of successful and failed executions of the SOAR playbook.
 
-   ![](assets/764d73f65abd8fa2936f9d8049cbd61d.jpeg)
+   ![](en-soar-operations-guide-v3.18.6-20260701.assets/764d73f65abd8fa2936f9d8049cbd61d.jpeg)
 
 <a id="section-4"></a>
 
@@ -124,8 +124,8 @@ This topic describes how to log in to the Apsara Infrastructure Management conso
    >
    > Global diagnostics is used to inspect the system resource usage of the sophon-web and sophon-bluespace services.
 
-   ![](assets/e46754408afb3476ba62fd179e9c8341.jpeg)
+   ![](en-soar-operations-guide-v3.18.6-20260701.assets/e46754408afb3476ba62fd179e9c8341.jpeg)
 
 5. Switch to the Inspection Records tab. On the Inspection Records tab, find the completed inspection record and click View in the Operation column. In the panel that appears, view the inspection details.
 
-   ![](assets/3581243c43479dea22178d82dd1f957e.jpeg)
+   ![](en-soar-operations-guide-v3.18.6-20260701.assets/3581243c43479dea22178d82dd1f957e.jpeg)

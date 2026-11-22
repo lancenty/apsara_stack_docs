@@ -420,27 +420,27 @@ After you create a playbook, the system automatically redirects you to the orche
 
    : Indicates start.
 
-   <img src="assets/d4a3bbf3d8ec35eda98049db53781f3e.png" width="13" alt=""> : Indicates end.
+   <img src="en-soar-user-guide-v3.18.6-20260701.assets/d4a3bbf3d8ec35eda98049db53781f3e.png" width="13" alt=""> : Indicates end.
 
    : Indicates single-path output.
 
    : Indicates sub-process.
 
-   <img src="assets/364eed5fbeac0c0ee001141474aa7351.png" width="13" alt=""> : Indicates multi-path output.
+   <img src="en-soar-user-guide-v3.18.6-20260701.assets/364eed5fbeac0c0ee001141474aa7351.png" width="13" alt=""> : Indicates multi-path output.
 
    : Indicates multi-path convergence.
 
-   <img src="assets/e0ede94540ef2506efaa20031abf1e14.png" width="13" alt=""> : Represents a checkbox. After enabling the checkbox, you can select multiple elements
+   <img src="en-soar-user-guide-v3.18.6-20260701.assets/e0ede94540ef2506efaa20031abf1e14.png" width="13" alt=""> : Represents a checkbox. After enabling the checkbox, you can select multiple elements
 
    on the canvas and delete them.
 
-   <img src="assets/6f5cf0f4af03b1bb45cba14b6bd34df5.png" width="13" alt=""> : Indicates add comment.
+   <img src="en-soar-user-guide-v3.18.6-20260701.assets/6f5cf0f4af03b1bb45cba14b6bd34df5.png" width="13" alt=""> : Indicates add comment.
 
-   <img src="assets/3e8c2b55a50cef6bb1ec49744236e48e.png" width="13" alt=""> : Indicates connector line.
+   <img src="en-soar-user-guide-v3.18.6-20260701.assets/3e8c2b55a50cef6bb1ec49744236e48e.png" width="13" alt=""> : Indicates connector line.
 
-   <img src="assets/4476630d79a81c5c9f7338fe4c718f9d.png" width="13" alt=""> : Indicates delete.
+   <img src="en-soar-user-guide-v3.18.6-20260701.assets/4476630d79a81c5c9f7338fe4c718f9d.png" width="13" alt=""> : Indicates delete.
 
-   <img src="assets/14fa7e89cd58ab6875bba4349a479a08.jpeg" width="13" alt=""> : Indicates debug.
+   <img src="en-soar-user-guide-v3.18.6-20260701.assets/14fa7e89cd58ab6875bba4349a479a08.jpeg" width="13" alt=""> : Indicates debug.
 
 4. You can also click **Debug** in the upper-left corner of the canvas, or click the **Input Parameters (Debug)** tab below. In the **Input Parameters (Debug)** text box, enter JSON text and click **Run** to execute in debug mode.
 
@@ -1216,7 +1216,7 @@ You can view vulnerabilities, baselines, and server exceptions on the Server Gua
 
 4. On the **Server Guard Rules** tab, view the operations of Server Guard rules.
 
-   ![](assets/af67e9dabe0ddc8ad8ef347a137dec79.png)
+   ![](en-soar-user-guide-v3.18.6-20260701.assets/af67e9dabe0ddc8ad8ef347a137dec79.png)
 
    | Section or tab | Description |
    | --- | --- |
@@ -1544,7 +1544,7 @@ Cloud Shield Operations Center is an operations platform for Apsara Stack Securi
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-soar-user-guide-v3.18.6-20260701.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -1604,7 +1604,7 @@ You can use the system monitoring feature to monitor integrated cloud services a
 
 - Monitoring scope:
 
-  ![](assets/9e4ddea67f29eafcd0514f0d0468c075.jpeg)
+  ![](en-soar-user-guide-v3.18.6-20260701.assets/9e4ddea67f29eafcd0514f0d0468c075.jpeg)
 
   - Click a cloud service tab to view all sub-services of the cloud service in the section marked with ② in the preceding figure.
 
@@ -1616,8 +1616,8 @@ You can use the system monitoring feature to monitor integrated cloud services a
 
     | Tab | Description |
     | --- | --- |
-    | Basic Monitorin g | • You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually update the monitoring data. You can also<br>turn on Automatic Refresh to automatically update the monitoring data.<br>• The monitoring view supports Cluster View and Single-server View.<br>• You can view the following monitoring data: CPU utilization (%), memory usage (%), workloads, number of TCP connections, number of processes, and disk usage. |
-    | Middlewar e | • You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually update the monitoring data. You can also<br>turn on Automatic Refresh to automatically update the monitoring data.<br>• The monitoring view supports Cluster View and Single-server View.<br>• You can view the following monitoring data: the QPS of MetaQ, the number of garbage collections (GCs) in the JVM, the amount of time consumed to monitor GCs in the JVM, the amount of JVM memory, the number of loaded classes in the JVM, the numbers of JVM threads in different states, the number of JVM threads, the QPS of HSF, the response time of HSF and database usage. |
+    | Basic Monitorin g | • You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="en-soar-user-guide-v3.18.6-20260701.assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually update the monitoring data. You can also<br>turn on Automatic Refresh to automatically update the monitoring data.<br>• The monitoring view supports Cluster View and Single-server View.<br>• You can view the following monitoring data: CPU utilization (%), memory usage (%), workloads, number of TCP connections, number of processes, and disk usage. |
+    | Middlewar e | • You can specify the monitoring time range and monitoring view to view the details of basic monitoring and middleware monitoring.<br>• Valid values for the time range: 3 Hours, 6 Hours, 12 Hours, 1 Day, 2 Days, and Custom.<br>You can click the<img src="en-soar-user-guide-v3.18.6-20260701.assets/6a8d7af52d45f643fa9354c79ce40daa.png" width="13" alt="">icon to manually update the monitoring data. You can also<br>turn on Automatic Refresh to automatically update the monitoring data.<br>• The monitoring view supports Cluster View and Single-server View.<br>• You can view the following monitoring data: the QPS of MetaQ, the number of garbage collections (GCs) in the JVM, the amount of time consumed to monitor GCs in the JVM, the amount of JVM memory, the number of loaded classes in the JVM, the numbers of JVM threads in different states, the number of JVM threads, the QPS of HSF, the response time of HSF and database usage. |
     | Health Check | You can check the health status of all hosts in an application based on check methods such as TCP- and HTTP-based health checks. |
 
 <a id="section-4-6-3"></a>
@@ -1713,7 +1713,7 @@ The upgrade center supports automatic import and manual import of update package
 
      <li>
 
-     Click Import Upgrade Package. In the Manually Import offline upgrade packages dialog box, drag the downloaded update packages to the dotted box. Alternatively, click the <img src="assets/0c6e64f55ccb0a4c673c33a8668a98c1.png" width="13" alt="">
+     Click Import Upgrade Package. In the Manually Import offline upgrade packages dialog box, drag the downloaded update packages to the dotted box. Alternatively, click the <img src="en-soar-user-guide-v3.18.6-20260701.assets/0c6e64f55ccb0a4c673c33a8668a98c1.png" width="13" alt="">
 
      icon to upload the update packages.
 

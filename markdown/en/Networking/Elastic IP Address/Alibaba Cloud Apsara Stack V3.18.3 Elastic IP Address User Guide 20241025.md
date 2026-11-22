@@ -160,7 +160,7 @@ This topic describes how to apply for an elastic IP address (EIP). An EIP is a p
 
 | Page | Operation |
 | --- | --- |
-| EIP list page | On the <strong>Elastic IP Addresses</strong> page, you can change the organization and region in the top navigation bar to view all created EIPs.<br>You can perform the following operations on an EIP:<br>• Associate an EIP with a resource<br>• Change specifications<br>• Disassociate an EIP from a cloud resource<br>• Release an EIP<br>You can also perform the following operations on the Elastic IP Addresses page:<br>• <strong>Filter EIPs</strong>: Select and enter a filter condition from the drop-down list above the EIP list, and then click the Search icon to filter EIPs. You can also click <strong>Advanced Filter</strong> to enter a filter condition and click <strong>Search</strong> to filter EIPs.<br>• <strong>Modify an EIP</strong>: Find the EIP, click the pencil icon below the EIP ID, modify the name of the EIP, and then click <strong>OK</strong>.<br>• <strong>Export EIP information</strong>: In the upper-right corner of the <strong>Elastic IP</strong><br><strong>Addresses</strong> page, click the<img src="assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt="">icon, specify the download path, and then<br>click <strong>Download</strong> to export the EIP information. |
+| EIP list page | On the <strong>Elastic IP Addresses</strong> page, you can change the organization and region in the top navigation bar to view all created EIPs.<br>You can perform the following operations on an EIP:<br>• Associate an EIP with a resource<br>• Change specifications<br>• Disassociate an EIP from a cloud resource<br>• Release an EIP<br>You can also perform the following operations on the Elastic IP Addresses page:<br>• <strong>Filter EIPs</strong>: Select and enter a filter condition from the drop-down list above the EIP list, and then click the Search icon to filter EIPs. You can also click <strong>Advanced Filter</strong> to enter a filter condition and click <strong>Search</strong> to filter EIPs.<br>• <strong>Modify an EIP</strong>: Find the EIP, click the pencil icon below the EIP ID, modify the name of the EIP, and then click <strong>OK</strong>.<br>• <strong>Export EIP information</strong>: In the upper-right corner of the <strong>Elastic IP</strong><br><strong>Addresses</strong> page, click the<img src="en-eip-user-guide-v3.18.3-20241025.assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt="">icon, specify the download path, and then<br>click <strong>Download</strong> to export the EIP information. |
 | EIP details page | On the <strong>Elastic IP Addresses</strong> page, click the ID of the EIP. On the EIP details page, you can view the basic information about the EIP. You can also perform the following operations on an EIP:<br>• <strong>Associate with a resource</strong>: Click <strong>Binding Resource</strong> to associate the EIP with a resource. For more information, see Associate an EIP with a resource.<br>• <strong>Modify the configuration</strong>: Click <strong>Modify Configurations</strong> to change the maximum bandwidth of the EIP. |
 
 <a id="section-2-3"></a>
@@ -294,7 +294,7 @@ This topic describes how to apply for an elastic IP address (EIP). An EIP is a p
 
 | Page | Operation |
 | --- | --- |
-| EIP list page | On the <strong>Elastic IP Addresses</strong> page, you can change the organization and region in the top navigation bar to view all created EIPs.<br>You can perform the following operations on an EIP:<br>• Associate an EIP with a resource<br>• Change specifications<br>• Disassociate an EIP from a cloud resource<br>• Release an EIP<br>You can also perform the following operations on the Elastic IP Addresses page:<br>• <strong>Filter EIPs</strong>: Select and enter a filter condition from the drop-down list above the EIP list, and then click the Search icon to filter EIPs. You can also click <strong>Advanced Filter</strong> to enter a filter condition and click <strong>Search</strong> to filter EIPs.<br>• <strong>Modify an EIP</strong>: Find the EIP, click the pencil icon below the EIP ID, modify the name of the EIP, and then click <strong>OK</strong>.<br>• <strong>Export EIP information</strong>: In the upper-right corner of the <strong>Elastic IP</strong><br><strong>Addresses</strong> page, click the<img src="assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt="">icon, specify the download path, and then<br>click <strong>Download</strong> to export the EIP information. |
+| EIP list page | On the <strong>Elastic IP Addresses</strong> page, you can change the organization and region in the top navigation bar to view all created EIPs.<br>You can perform the following operations on an EIP:<br>• Associate an EIP with a resource<br>• Change specifications<br>• Disassociate an EIP from a cloud resource<br>• Release an EIP<br>You can also perform the following operations on the Elastic IP Addresses page:<br>• <strong>Filter EIPs</strong>: Select and enter a filter condition from the drop-down list above the EIP list, and then click the Search icon to filter EIPs. You can also click <strong>Advanced Filter</strong> to enter a filter condition and click <strong>Search</strong> to filter EIPs.<br>• <strong>Modify an EIP</strong>: Find the EIP, click the pencil icon below the EIP ID, modify the name of the EIP, and then click <strong>OK</strong>.<br>• <strong>Export EIP information</strong>: In the upper-right corner of the <strong>Elastic IP</strong><br><strong>Addresses</strong> page, click the<img src="en-eip-user-guide-v3.18.3-20241025.assets/30b66f2683884f0c8030210a30da84e2.png" width="22" alt="">icon, specify the download path, and then<br>click <strong>Download</strong> to export the EIP information. |
 | EIP details page | On the <strong>Elastic IP Addresses</strong> page, click the ID of the EIP. On the EIP details page, you can view the basic information about the EIP. You can also perform the following operations on an EIP:<br>• <strong>Associate with a resource</strong>: Click <strong>Binding Resource</strong> to associate the EIP with a resource. For more information, see Associate an EIP with a resource.<br>• <strong>Modify the configuration</strong>: Click <strong>Modify Configurations</strong> to change the maximum bandwidth of the EIP. |
 
 <a id="section-4-2"></a>
@@ -414,11 +414,11 @@ This topic describes how to associate an elastic IP address (EIP) with an elasti
 
 Each ENI is assigned a private IP address. After you associate an EIP with an ENI, the ENI can send and receive network traffic through both a private IP address and a public IP address. If you migrate an ENI that is associated with an EIP from an ECS instance to another ECS instance, both the private and public IP addresses of the ENI are migrated. This solution allows you to migrate the IP addresses of an ECS instance without affecting the reliability and availability of your service.
 
-![](assets/0e16c58f5087c290f60901375e8ae64c.png)
+![](en-eip-user-guide-v3.18.3-20241025.assets/0e16c58f5087c290f60901375e8ae64c.png)
 
 You can associate multiple ENIs with an ECS instance. You can associate each ENI with an EIP. This way, the ECS instance has multiple public IP addresses. The ECS instance can use the EIPs to provide Internet-facing services. You can configure security group rules for the ECS instance to control access from the Internet.
 
-![](assets/c8f099c52606e3d84bd2e16de2f97ac1.png)
+![](en-eip-user-guide-v3.18.3-20241025.assets/c8f099c52606e3d84bd2e16de2f97ac1.png)
 
 **Association modes**
 
@@ -625,7 +625,7 @@ Remove tags from an EIP
 
    icon next to
 
-   <img src="assets/87e7c110b9e069d0379b483520133dd0.png" width="15" alt="">
+   <img src="en-eip-user-guide-v3.18.3-20241025.assets/87e7c110b9e069d0379b483520133dd0.png" width="15" alt="">
 
    the tag, and then click **OK**. In the Edit Tag dialog box, you can also add tags to the EIP.
 
@@ -643,7 +643,7 @@ Remove tags from an EIP
 
    icon
 
-   <img src="assets/87e7c110b9e069d0379b483520133dd0.png" width="15" alt="">
+   <img src="en-eip-user-guide-v3.18.3-20241025.assets/87e7c110b9e069d0379b483520133dd0.png" width="15" alt="">
 
    next to the tag, and then click **OK**.
 

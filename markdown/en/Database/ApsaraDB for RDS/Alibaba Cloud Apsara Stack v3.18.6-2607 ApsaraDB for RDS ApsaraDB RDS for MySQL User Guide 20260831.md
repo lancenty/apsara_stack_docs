@@ -995,7 +995,7 @@ Typically, after an instance is created, you must perform several operations to 
 
 Figure 1. Quick start flowchart
 
-![](assets/9ab92f5fdd5e7a51b10fecc48abc82bb.jpeg)
+![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/9ab92f5fdd5e7a51b10fecc48abc82bb.jpeg)
 
 - Create an instance
 
@@ -1463,11 +1463,11 @@ ApsaraDB RDS for MySQL is fully compatible with open source MySQL. You can conne
    | Passwor d | Enter the password of the account used to connect to the ApsaraDB RDS instance. |
    | Port | If you connect to the instance over an internal network, enter the internal port number of the instance. If you connect to the instance over the Internet, enter the public port number of the instance. |
 
-   ![](assets/9adf11819944eb00634db0f13bfedc1b.png)
+   ![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/9adf11819944eb00634db0f13bfedc1b.png)
 
 4. Click **Open**. If the connection information is correct, you can connect to the instance.
 
-   ![](assets/e715c9e78540d794370cf2f9339bcef2.png)
+   ![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/e715c9e78540d794370cf2f9339bcef2.png)
 
 <a id="section-6"></a>
 
@@ -1969,7 +1969,7 @@ This topic describes how to view and modify the values of some parameters and qu
 
    icon in the **Actual Value** column.
 
-   <img src="assets/41a1057c0e5e46f1c2a7dd33cf949d1d.png" width="14" alt="">
+   <img src="en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/41a1057c0e5e46f1c2a7dd33cf949d1d.png" width="14" alt="">
 
    </li>
 
@@ -4452,7 +4452,7 @@ To scale up the reading capability and distribute database access loads, you can
 
 A read-only instance with a single physical node and no backup node uses the native replication capability of MySQL to synchronize changes from the primary instance to all its read-only instances. Read-only instances must be in the same region as the primary instance but do not have to be in the same zone as the primary instance. The following figure shows the topology of read-only instances.
 
-![](assets/96b17c5d41ba1106bd5ef38a02d6ba86.jpeg)
+![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/96b17c5d41ba1106bd5ef38a02d6ba86.jpeg)
 
 **Read-only instances have the following features**:
 
@@ -4643,7 +4643,7 @@ If you have a large number of instances, you can create multiple tags and add th
 
 1. Log on to the ApsaraDB RDS console.
 
-2. On the **Instances** page, find the required instance and click the <img src="assets/d81bffc2578050e03ed898aa74bc97a3.png" width="23" alt=""> icon in the **Tag**
+2. On the **Instances** page, find the required instance and click the <img src="en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/d81bffc2578050e03ed898aa74bc97a3.png" width="23" alt=""> icon in the **Tag**
 
    column.
 
@@ -4665,7 +4665,7 @@ If you have a large number of instances, you can create multiple tags and add th
 
 2. On the **Instances** page, if a small number of tags are added to an instance, the corresponding tags are displayed in the Tag column. If a large number of tags are added to
 
-   an instance, move the pointer over the <img src="assets/d67ef7cb0488c3026fe12f004ae62ba3.png" width="15" alt=""> icon in the **Tag** column to view all the tags that
+   an instance, move the pointer over the <img src="en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/d67ef7cb0488c3026fe12f004ae62ba3.png" width="15" alt=""> icon in the **Tag** column to view all the tags that
 
    are added to the instance.
 
@@ -4673,11 +4673,11 @@ If you have a large number of instances, you can create multiple tags and add th
 
 1. Log on to the ApsaraDB RDS console.
 
-2. On the **Instances** page, find the required instance and click the <img src="assets/d81bffc2578050e03ed898aa74bc97a3.png" width="23" alt=""> icon in the **Tag**
+2. On the **Instances** page, find the required instance and click the <img src="en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/d81bffc2578050e03ed898aa74bc97a3.png" width="23" alt=""> icon in the **Tag**
 
    column.
 
-3. In the **Edit Tags** dialog box, click the <img src="assets/68f774edf79b55f1dc60ef6eaf0d3457.png" width="20" alt=""> icon to the right of the tag and click **OK**.
+3. In the **Edit Tags** dialog box, click the <img src="en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/68f774edf79b55f1dc60ef6eaf0d3457.png" width="20" alt=""> icon to the right of the tag and click **OK**.
 
 <a id="section-7"></a>
 
@@ -5631,7 +5631,7 @@ An IP address whitelist is configured. For more information about how to configu
 
 4. In the **Login instance** dialog box of the **DMS** console, check values of **Database type**, **Instance Area**, and **Connection string address**. If the information is correct, enter **Database account** and **Database password**, as shown in the following figure.
 
-   ![](assets/cc36d0d80668189d733099aa5c456905.png)
+   ![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/cc36d0d80668189d733099aa5c456905.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -5665,7 +5665,7 @@ For security and performance purposes, we recommend that you use only the intern
 
 For example, assume that a company uses the hybrid access solution to migrate its ApsaraDB RDS instance from the classic network to a VPC. During the validity period of the hybrid access solution, some applications use the internal VPC endpoint to connect to the ApsaraDB RDS instance, whereas the others continue to use the internal classic network endpoint to connect to the instance. When all applications of the company can use the internal VPC endpoint to connect to the instance, the internal classic network endpoint can be released. The following figure demonstrates the scenario.
 
-![](assets/cb97321ad9ecfaea71e2d2aa3a219045.png)
+![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/cb97321ad9ecfaea71e2d2aa3a219045.png)
 
 **Limits**
 
@@ -5853,7 +5853,7 @@ After you enable the dedicated proxy for your ApsaraDB RDS for MySQL instance, y
 
    The dedicated proxy currently provides one proxy endpoint, and the read/write splitting
 
-   feature is bound to this endpoint. Click the copy icon <img src="assets/589ace8b8487f82227c7b371d625b42a.png" width="14" alt=""> to copy the proxy endpoint to your
+   feature is bound to this endpoint. Click the copy icon <img src="en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/589ace8b8487f82227c7b371d625b42a.png" width="14" alt=""> to copy the proxy endpoint to your
 
    clipboard.
 
@@ -6006,7 +6006,7 @@ If your database system receives a large number of read requests and a small num
 
 After you create read-only instances, you can enable read/write splitting. In this case, a read/write splitting endpoint is provided. After you add the endpoint to your application, write requests are routed to the primary instance and read requests are routed to the read-only instances.
 
-![](assets/86acdcd39df4ffff537d68b1753f34a3.png)
+![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/86acdcd39df4ffff537d68b1753f34a3.png)
 
 **Differences between the read/write splitting endpoint and the internal and public endpoints**
 
@@ -6349,7 +6349,7 @@ After an alert is triggered, you can view its history. You can also export and d
    | Task | Procedure |
    | --- | --- |
    | View alert history | In the <strong>Alert History</strong> list, view the <strong>Product Name</strong>, <strong>Affected</strong> <strong>Instance</strong>, <strong>Time</strong>, <strong>Rule Name</strong>, <strong>Status</strong>, <strong>Level</strong>, and <strong>Notification</strong> <strong>Recipient</strong>. Click the rule name to view the details of the alert rule.<br>Note<br>By default, you can query alert history data from the last 2 days. |
-   | Export alert history | i. On the <strong>Alert History</strong> page, click<img src="assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">in the upper-right<br>corner.<br>ii. In the <strong>Export Task</strong> dialog box, set <strong>Time Range</strong> and <strong>Task</strong> <strong>Name</strong>. Then, click <strong>OK</strong>. |
+   | Export alert history | i. On the <strong>Alert History</strong> page, click<img src="en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/a7de886b243b51870606212f4f1d2809.png" width="22" alt="">in the upper-right<br>corner.<br>ii. In the <strong>Export Task</strong> dialog box, set <strong>Time Range</strong> and <strong>Task</strong> <strong>Name</strong>. Then, click <strong>OK</strong>. |
 
 <a id="section-12-3"></a>
 
@@ -6410,7 +6410,7 @@ This example creates an alert rule named "example" for an Elastic Compute Servic
 
 The following figure shows the rule description configuration for this scenario.
 
-![](assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
+![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
 
 <a id="section-12-3-2"></a>
 
@@ -6434,9 +6434,9 @@ From the list of alert rules, you can modify, enable, disable, and delete rules.
    | Check rule validity | In the <strong>Validity</strong> column of the target alert rule, click <strong>Click To Inspect</strong>. The inspection result is displayed in the Validity column.<br>Note<br>• If the inspection result is abnormal, click <strong>Detection Result</strong>. In the panel that appears, view the results for <strong>Alert Rule Execution</strong> <strong>Anomaly Detection</strong>, <strong>Alert Rule Load Detection</strong>, <strong>Invalid Alert</strong> <strong>Rule Detection</strong>, and <strong>Alert Rule Callback Detection</strong>.<br>• Click <strong>Re-detect</strong> to check the rule validity again. |
    | View rule execution records | In the <strong>Rule Execution Record</strong> column of the target alert rule, click <strong>View</strong> <strong>Rule Execution Record</strong>. On the <strong>Alert Rule Execution Record</strong> panel, filter the execution records by time range. |
    | Modify an alert rule | i. In the <strong>Operation</strong> column of the target alert rule, click <strong>Edit.</strong><br>ii. On the <strong>Modify Alert Rule</strong> panel, modify the alert rule. For more information about the configuration parameters, see Create an alert rule.<br>iii. After you finish the modification, click <strong>OK</strong>. |
-   | Disable an alert rule | Disable alert rules when you manually stop a cloud product for maintenance or an upgrade. This prevents unnecessary alert notifications.<br>Note<br>Before disabling an alert rule, make sure that its <strong>Status</strong> is <strong>Normal</strong>.<br>• Disable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Disable.</strong><br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Disable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
+   | Disable an alert rule | Disable alert rules when you manually stop a cloud product for maintenance or an upgrade. This prevents unnecessary alert notifications.<br>Note<br>Before disabling an alert rule, make sure that its <strong>Status</strong> is <strong>Normal</strong>.<br>• Disable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click the<img src="en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Disable.</strong><br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Disable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Disable</strong> in the lower-left corner of the list.<br>b. In the <strong>Disable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
    | Enable an alert rule | After you finish the maintenance or upgrade of a cloud product, re-enable the disabled alert rules.<br>Note<br>Before enabling an alert rule, make sure that its <strong>Status</strong> is <strong>Disabled</strong>.<br>• Enable a single rule<br>a. In the <strong>Operation</strong> column of the target alert rule, click <strong>Enable.</strong><br>b. In the <strong>Enable Alert Rule</strong> dialog box, click <strong>OK.</strong><br>• Enable rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click <strong>Enable</strong> in the lower-left corner of the list.<br>b. In the <strong>Enable Alert Rule</strong> dialog box, click <strong>OK</strong>. |
-   | Delete an alert rule | • Delete a single rule<br>a. In the Operation column of the target alert rule, click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Delete rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>. |
+   | Delete an alert rule | • Delete a single rule<br>a. In the Operation column of the target alert rule, click the<img src="en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>.<br>• Delete rules in a batch<br>a. Select the check boxes next to the target alert rules, and then click Delete in the lower-left corner of the list.<br>b. In the <strong>Delete Alert Rule</strong> dialog box, click <strong>OK</strong>. |
 
 <a id="section-13"></a>
 
@@ -6565,7 +6565,7 @@ Perform the following steps to configure an SSL certificate on MySQL Workbench:
 
 3. In the **Connection** section, click the **SSL** tab and configure the following parameters.
 
-   ![](assets/52444acd61d7ec53a114e89d36b54ee4.png)
+   ![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/52444acd61d7ec53a114e89d36b54ee4.png)
 
    ①: Enable **Use SSL**.
 
@@ -7028,9 +7028,9 @@ This topic describes how to download unencrypted data backup files and log backu
    >
    > - If the URL contains more than one parameter, we recommend that you enclose the URL in a pair of single quotation marks (').
    >
-   > ![](assets/499044e6134eb71b825aaa7defa9c16c.png)
+   > ![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/499044e6134eb71b825aaa7defa9c16c.png)
    >
-   > ![](assets/499044e6134eb71b825aaa7defa9c16c.png)
+   > ![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/499044e6134eb71b825aaa7defa9c16c.png)
 
 <a id="section-15-4"></a>
 
@@ -7528,7 +7528,7 @@ The lock analysis feature allows you to perform multi-dimensional analysis on de
 
    <li>
 
-   Click the <img src="assets/3b5579806ede09e2c405f034832e3033.png" width="14" alt=""> icon before an analysis result to expand the metadata lock wait and
+   Click the <img src="en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/3b5579806ede09e2c405f034832e3033.png" width="14" alt=""> icon before an analysis result to expand the metadata lock wait and
 
    transaction blocking analysis information.
 
@@ -7588,7 +7588,7 @@ After you log in to the ApsaraDB RDS console and navigate to the Dashboard page 
      >
      > icon next to the name of a metric to view its description.
      >
-     > <img src="assets/87132e152486bfa4395cbf7af3dc676a.png" width="24" alt="">
+     > <img src="en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/87132e152486bfa4395cbf7af3dc676a.png" width="24" alt="">
 
    - On the **Performance Trend Comparison** tab, select two time periods to compare the performance metrics collected within the specified time periods.
 
@@ -7620,11 +7620,11 @@ After you log in to the ApsaraDB RDS console and navigate to the Slow Query Logs
 
      - For the instances of ApsaraDB RDS for MySQL and PolarDB for MySQL Primary/Secondary Edition, click the **Optimize** button in the Actions column of the slow SQL record that you want to mange. The record is highlighted in blue to help you quickly locate the SQL statement being analyzed in a large number of slow SQL statements. This highlight persists after you close the optimization window and automatically shifts to the new record when you optimize another slow SQL statement.
 
-       ![](assets/157ce5fe0d5fab0993f8614e46d7f2b8.jpeg)
+       ![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/157ce5fe0d5fab0993f8614e46d7f2b8.jpeg)
 
    - Click the **Slow Log Details** tab to view the execution details of slow query logs.
 
-     ![](assets/b37a9bd7b9cbf171fc5b80a974c15b4d.jpeg)
+     ![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/b37a9bd7b9cbf171fc5b80a974c15b4d.jpeg)
 
 <a id="section-16-5"></a>
 
@@ -7743,7 +7743,7 @@ Before you migrate data, you must create an account that is used to migrate data
 REPLICATION SLAVE ON databasename.tablename TO 'username'@'host' WITH GRANT 
 ```
 
-![](assets/b631d47587f975cdb307fb95e4a2933c.png)
+![](en-rds-rds-mysql-user-guide-v3.18.6-2607-20260831.assets/b631d47587f975cdb307fb95e4a2933c.png)
 
 ```text
 OPTION;  GRANT REPLICATION SLAVE ON databasename.tablename TO 'username'@'host' WITH 

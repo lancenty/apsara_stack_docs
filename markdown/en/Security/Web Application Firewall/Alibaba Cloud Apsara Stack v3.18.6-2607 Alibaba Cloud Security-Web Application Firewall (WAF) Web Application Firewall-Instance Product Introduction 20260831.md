@@ -322,17 +322,17 @@ System settings
 
 Apsara Stack Web Application Firewall (WAF) receives web access traffic and performs protocol parsing and in-depth decoding on the traffic. Then, WAF calls the semantic analysis and access control engines to analyze traffic and determines whether to allow or block traffic based on the preset policies.
 
-![](assets/22d0b98e445d19f234cdf5abd430d4e5.png)
+![](en-waf-instance-product-introduction-v3.18.6-2607-20260831.assets/22d0b98e445d19f234cdf5abd430d4e5.png)
 
 Traditionally, attacks are identified by matching rules that use regular expressions. However, the rules cannot cover all attack payloads that are based on programming languages. As a result, WAF cannot provide protection as expected. Apsara Stack WAF adopts the intelligent semantic analysis algorithm to analyze web requests and responses to identify threats and attacks. The algorithm processes data through four stages: lexical analysis, syntax analysis, semantic analysis, and threat model matching.
 
-![](assets/38fa3ebdb401b2505a12f68e8da281fd.png)
+![](en-waf-instance-product-introduction-v3.18.6-2607-20260831.assets/38fa3ebdb401b2505a12f68e8da281fd.png)
 
-![](assets/d081fe33e918e7eeec39d351d6a4c850.png)
+![](en-waf-instance-product-introduction-v3.18.6-2607-20260831.assets/d081fe33e918e7eeec39d351d6a4c850.png)
 
-![](assets/144150d945fa364eaffc3ecb21203305.png)
+![](en-waf-instance-product-introduction-v3.18.6-2607-20260831.assets/144150d945fa364eaffc3ecb21203305.png)
 
-![](assets/40eeb6fc4225e5df706e2fc1d73d3a99.png)
+![](en-waf-instance-product-introduction-v3.18.6-2607-20260831.assets/40eeb6fc4225e5df706e2fc1d73d3a99.png)
 
 A
 

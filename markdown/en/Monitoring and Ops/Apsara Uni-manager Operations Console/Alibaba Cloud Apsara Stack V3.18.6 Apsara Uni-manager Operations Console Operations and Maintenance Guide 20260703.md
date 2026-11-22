@@ -93,7 +93,7 @@ The following figure shows the system architecture of the Apsara Uni-manager Ope
 
 Figure 2. Apsara Uni-manager Operations Console system architecture
 
-![](assets/23716673cf9e584c033562a2c8821cbb.png)
+![](en-apsara-uni-manager-ops-operations-guide-v3.18.6-20260703.assets/23716673cf9e584c033562a2c8821cbb.png)
 
 The Apsara Uni-manager Operations Console comprises the following modules:
 
@@ -123,7 +123,7 @@ This topic describes the components of the Apsara Uni-manager Operations Console
 
 The following figure shows the component architecture of the Apsara Uni-manager Operations Console.
 
-![](assets/ede9f6b2d74530d480078537d3990342.png)
+![](en-apsara-uni-manager-ops-operations-guide-v3.18.6-20260703.assets/ede9f6b2d74530d480078537d3990342.png)
 
 The following table describes the features of the components in the Apsara Uni-manager Operations Console.
 

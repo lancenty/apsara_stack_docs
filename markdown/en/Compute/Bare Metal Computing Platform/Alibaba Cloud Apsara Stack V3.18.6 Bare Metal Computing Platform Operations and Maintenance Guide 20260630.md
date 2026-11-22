@@ -238,7 +238,7 @@ This topic describes the content displayed on the Overview page of the Bare Meta
 
 The alert dashboard displays alerts related to computing, networks, and storage.
 
-![](assets/65d54a16d498a12ddae32da4ec65cbe6.jpeg)
+![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/65d54a16d498a12ddae32da4ec65cbe6.jpeg)
 
 **Resource Statistics**
 
@@ -260,7 +260,7 @@ This section displays resource data related to intelligent computing clusters, s
 
 - Total number of storage clusters, number of servers, and number of file systems.
 
-  ![](assets/898991da22b7c5cfcb22e7546790690a.jpeg)
+  ![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/898991da22b7c5cfcb22e7546790690a.jpeg)
 
 **Resource Board**
 
@@ -290,7 +290,7 @@ This section displays the usage of intelligent computing resources, supercomputi
 
     - Distribution ratio = Resources in the resource pool/(Resources allocated to tenants + Resources in the resource pool) × 100%.
 
-  ![](assets/1ebfeaca2a99264304e784b0c1dcd05f.png)
+  ![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/1ebfeaca2a99264304e784b0c1dcd05f.png)
 
 - Supercomputing resources (number of CPU cores and memory)
 
@@ -310,7 +310,7 @@ This section displays the usage of intelligent computing resources, supercomputi
 
     - Distribution ratio = Resources in the resource pool/(Resources allocated to tenants + Resources in the resource pool) × 100%.
 
-  ![](assets/1ebfeaca2a99264304e784b0c1dcd05f.png)
+  ![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/1ebfeaca2a99264304e784b0c1dcd05f.png)
 
 - Storage resources
 
@@ -318,7 +318,7 @@ This section displays the usage of intelligent computing resources, supercomputi
 
   - Displays **used** storage resources, **allocated** storage resources, **total** storage resources, and the **usage** of storage resources.
 
-  ![](assets/f59f4ee75d207112122ea28ff52841a1.png)
+  ![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/f59f4ee75d207112122ea28ff52841a1.png)
 
 **Computational Power Board**
 
@@ -342,13 +342,13 @@ This dashboard displays the usage of GPU computing power and CPU computing power
 >
 > - GPU computing power refers to the computing power of intelligent computing GPUs, excluding the computing power of GPUs in supercomputing clusters.
 
-![](assets/7581a3bc17b9371c00146925a2ddf3ac.png)
+![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/7581a3bc17b9371c00146925a2ddf3ac.png)
 
 **Control Service**
 
 The Control Service module displays the service status of the control services related to computing, networks, and storage. The status of a service can be **Not reaching the final state** or **Has reached the final state**. **Not reaching the final state** indicates that the service deployment has not been completed. **Has reached the final state** indicates that the service deployment is complete.
 
-![](assets/1eb4f715c96e043f9b56ef024e0bb540.png)
+![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/1eb4f715c96e043f9b56ef024e0bb540.png)
 
 <a id="section-4"></a>
 
@@ -392,7 +392,7 @@ The cluster in which the job is deployed has the ai-task-inspector component ins
    >
    >   icon on the left to
    >
-   >   <img src="assets/62c99742bc6bb4b6f6ae019a0fd427bb.png" width="20" alt="">
+   >   <img src="en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/62c99742bc6bb4b6f6ae019a0fd427bb.png" width="20" alt="">
    >
    >   view the status of the job, resources occupied by the job, and the start time and end time of the job.
 
@@ -432,7 +432,7 @@ This topic introduces the resource event alert module and how to create an event
 
    By default, the **Calculation** tab is displayed.
 
-   ![](assets/6e5b8203e70a582e14ec4efe53175da2.png)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/6e5b8203e70a582e14ec4efe53175da2.png)
 
 4. View **Calculation** alerts.
 
@@ -462,7 +462,7 @@ This topic introduces the resource event alert module and how to create an event
 
    alerts are handled, their states change to Processed.
 
-   ![](assets/e720350c6e849747022b2d6a62ca093b.png)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/e720350c6e849747022b2d6a62ca093b.png)
 
    > **Note**
    >
@@ -492,7 +492,7 @@ Thistopicdescribeshowtoviewjobalerts This topic describes how to view job alerts
 
 3. On the **Job Event Alert** tab, you can search for a job based on **Cluster ID**, **Namespace**, or **Job ID** and click Search to view all relevant alerts generated during the lifecycle of the job.
 
-![](assets/d6ab6da99a0988d09ff4af3dbe000544.jpeg)
+![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/d6ab6da99a0988d09ff4af3dbe000544.jpeg)
 
 <a id="section-6"></a>
 
@@ -540,7 +540,7 @@ A BMCP cluster is created in the Apsara Uni-manager Operations console.
 
      <li>
 
-     Click the <img src="assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search clusters in fuzzy match mode.
+     Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search clusters in fuzzy match mode.
 
      </li>
 
@@ -676,7 +676,7 @@ This topic describes how to query Bare Metal Computing Platform (BMCP) computing
 
      <li>
 
-     Click the <img src="assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search nodes in fuzzy match mode.
+     Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search nodes in fuzzy match mode.
 
      </li>
 
@@ -901,7 +901,7 @@ This topic describes how to query all physical servers and view their detailed i
 
      <li>
 
-     Click the <img src="assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search servers in fuzzy match mode.
+     Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search servers in fuzzy match mode.
 
      </li>
 
@@ -1190,7 +1190,7 @@ This topic describes how to re-register servers.
 
    You can view all physical servers on this tab.
 
-   ![](assets/be34cd3b56d36471141c5d9801d1d749.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/be34cd3b56d36471141c5d9801d1d749.jpeg)
 
 4. Find the desired server, click the
 
@@ -1278,7 +1278,7 @@ The **resource owner** of the server is **Resource Pool**.
 
 3. Search for the desired server.
 
-4. Click the <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon in the **Operation** column of the server.
+4. Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon in the **Operation** column of the server.
 
 5. Choose **Resource Enable > Enable**.
 
@@ -1298,7 +1298,7 @@ The **resource owner** of the server is **Resource Pool**.
 
 3. Search for the desired server.
 
-4. Click the <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon in the **Operation** column of the server.
+4. Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt=""> icon in the **Operation** column of the server.
 
 5. Choose **Resource Enable > Disable**.
 
@@ -1340,7 +1340,7 @@ You can query the GPUs of a bare metal instance only after the bare metal instan
 
      <li>
 
-     Click the <img src="assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search GPUs in fuzzy mode.
+     Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search GPUs in fuzzy mode.
 
      </li>
 
@@ -1507,7 +1507,7 @@ None.
 
      <li>
 
-     Click the <img src="assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search network elements in fuzzy match mode.
+     Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search network elements in fuzzy match mode.
 
      </li>
 
@@ -1559,7 +1559,7 @@ None.
 
      <li>
 
-     Click the <img src="assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search ports in fuzzy match mode.
+     Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/21d3906a72be1b24404fb99083512f83.png" width="20" alt=""> icon to search ports in fuzzy match mode.
 
      </li>
 
@@ -1895,7 +1895,7 @@ This topic describes how to query models.
 
 3. On the **Model Management** page, enter the model into the search box.
 
-4. Click the <img src="assets/83ad04499a8448fd0de52a7cc957c3b2.png" width="20" alt=""> icon to search in fuzzy match mode.
+4. Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/83ad04499a8448fd0de52a7cc957c3b2.png" width="20" alt=""> icon to search in fuzzy match mode.
 
 <a id="section-9-1-3"></a>
 
@@ -1966,7 +1966,7 @@ You can manage custom images and public images on the Bare Metal Computing Platf
    | Image description | No | The description of the image. |
    | Image Upload | Yes | Select the local image file that you want to upload. |
 
-   ![](assets/b7db77467858697c9a8845cd693e847f.png)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/b7db77467858697c9a8845cd693e847f.png)
 
 5. Click **OK**.
 
@@ -2173,7 +2173,7 @@ This topic describes how to add a GPU.
    | GPU memory size | Yes | The size of GPU memory. Unit: GB. |
    | TFLOPS | Yes | The TFLOPS. |
 
-   ![](assets/1534dbe8f75ff1cec9350723db754e6e.png)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/1534dbe8f75ff1cec9350723db754e6e.png)
 
 5. After you complete the configuration, click **OK**.
 
@@ -2191,9 +2191,9 @@ This topic describes how to query GPUs.
 
 3. On the **GPU Configuration** page, enter a **GPU model** into the search box.
 
-4. Click the <img src="assets/83ad04499a8448fd0de52a7cc957c3b2.png" width="20" alt=""> icon to search GPUs in fuzzy match mode.
+4. Click the <img src="en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/83ad04499a8448fd0de52a7cc957c3b2.png" width="20" alt=""> icon to search GPUs in fuzzy match mode.
 
-![](assets/5b19401f3c118766c27ed1494c1fe012.jpeg)
+![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/5b19401f3c118766c27ed1494c1fe012.jpeg)
 
 <a id="section-9-3-3"></a>
 
@@ -2215,7 +2215,7 @@ This topic describes how to modify the information of a GPU.
    >
    > You cannot modify the GPU manufacturer or GPU model parameter.
 
-   ![](assets/df35159812bd0a3410c32b7b90984e88.png)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/df35159812bd0a3410c32b7b90984e88.png)
 
 5. Click **OK**.
 
@@ -2235,7 +2235,7 @@ This topic describes how to remove a GPU.
 
 4. Confirm the GPU information and click **OK**.
 
-![](assets/c18c721b075bba58a9eb499c4b76150a.png)
+![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/c18c721b075bba58a9eb499c4b76150a.png)
 
 <a id="section-10"></a>
 
@@ -2285,15 +2285,15 @@ Job logs support only **ACK - intelligent computing clusters** that contain **ba
 
 4. Click **Create a task**, set **Task name**, select **Cluster ID**, **Namespace**, and **Job ID**, then click **OK**.
 
-   ![](assets/7395c81d7c3e76c43f6c323bf5774316.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/7395c81d7c3e76c43f6c323bf5774316.jpeg)
 
 5. Click **Details** in the **Actions** column of a log collection task to view its details.
 
-   ![](assets/8219fcdbca6c393d89e83fd29073206a.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/8219fcdbca6c393d89e83fd29073206a.jpeg)
 
 6. When the **log collection status** is **Completed**, select the log collection task and click **Export logs** to download the corresponding compressed log file package.
 
-   ![](assets/c7d6000e5ef557ff7607384d07a8eaef.jpeg)
+   ![](en-bare-metal-computing-operations-guide-v3.18.6-20260630.assets/c7d6000e5ef557ff7607384d07a8eaef.jpeg)
 
 <a id="section-11"></a>
 

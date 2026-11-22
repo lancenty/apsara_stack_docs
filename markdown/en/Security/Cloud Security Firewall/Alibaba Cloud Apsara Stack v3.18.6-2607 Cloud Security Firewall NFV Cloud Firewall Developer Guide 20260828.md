@@ -138,7 +138,7 @@ This topic describes how to view the desired product development documentation w
 
 You can follow the procedure described in the following figure to view the desired development documentation.
 
-![](assets/ac408851b3518941feda7129820f94fe.png)
+![](en-cfw-nfv-cloud-firewall-developer-guide-v3.18.6-2607-20260828.assets/ac408851b3518941feda7129820f94fe.png)
 
 **Prerequisites**
 
@@ -166,17 +166,17 @@ Alibaba Cloud Apsara Stack supports calling Apsara Stack APIs through the POP ga
 
 **Workflow diagram**
 
-![](assets/1d184d7adcb8a6a6f42b590f897aaa92.png)
+![](en-cfw-nfv-cloud-firewall-developer-guide-v3.18.6-2607-20260828.assets/1d184d7adcb8a6a6f42b590f897aaa92.png)
 
-![](assets/bab9c0a8ee613f3033d14d0d1fdaebb9.png)
+![](en-cfw-nfv-cloud-firewall-developer-guide-v3.18.6-2607-20260828.assets/bab9c0a8ee613f3033d14d0d1fdaebb9.png)
 
 Make prep
 
 request headers.
 
-![](assets/e98195538be4aedd35d9c779ae479979.png)
+![](en-cfw-nfv-cloud-firewall-developer-guide-v3.18.6-2607-20260828.assets/e98195538be4aedd35d9c779ae479979.png)
 
-![](assets/6915854d68234af8f14e5daae870bbfa.png)
+![](en-cfw-nfv-cloud-firewall-developer-guide-v3.18.6-2607-20260828.assets/6915854d68234af8f14e5daae870bbfa.png)
 
 Make the ca
 
@@ -234,7 +234,7 @@ The API information on the OpenAPI Explorer page of the Apsara Uni-manager Manag
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-   ![](assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
+   ![](en-cfw-nfv-cloud-firewall-developer-guide-v3.18.6-2607-20260828.assets/2c46abb9ede40ba27b69fc91474a92c6.jpeg)
 
 4. In the left-side navigation pane, select the target cloud service.
 
@@ -285,7 +285,7 @@ To obtain the AccessKey pair of a personal account, perform the following operat
 
 3. In the **AccessKey Pair** section, view the AccessKey pair of your account.
 
-   ![](assets/a0c6c22806c62349a0f9840932305e11.png)
+   ![](en-cfw-nfv-cloud-firewall-developer-guide-v3.18.6-2607-20260828.assets/a0c6c22806c62349a0f9840932305e11.png)
 
    > **Note**
    >
@@ -541,7 +541,7 @@ You must call an API operation to obtain the ID of an organization. You can obta
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, choose **Platform** > **Apsara Uni-manager**, and select **2019-05-10**
+4. Click the <img src="en-cfw-nfv-cloud-firewall-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, choose **Platform** > **Apsara Uni-manager**, and select **2019-05-10**
 
    from the **Version** drop-down list.
 
@@ -571,7 +571,7 @@ You must call an API operation to obtain the ID of a resource set. You can obtai
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-4. Click <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, select **Platform** > **Apsara Uni-manager**, and select **2019-05-10** from
+4. Click <img src="en-cfw-nfv-cloud-firewall-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, select **Platform** > **Apsara Uni-manager**, and select **2019-05-10** from
 
    the **Version** drop-down list.
 
@@ -597,7 +597,7 @@ You can view the resource set UUID of a resource in the Apsara Uni-manager Manag
 
 3. On the **OpenAPI Explorer** page, choose **API Integration** > **API Debugging**.
 
-4. Click <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, select **Platform** > **Apsara Uni-manager**, and select **2019-05-10** from
+4. Click <img src="en-cfw-nfv-cloud-firewall-developer-guide-v3.18.6-2607-20260828.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, select **Platform** > **Apsara Uni-manager**, and select **2019-05-10** from
 
    the **Version** drop-down list.
 

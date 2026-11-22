@@ -22,7 +22,7 @@ This chapter introduces the Intelligent O&M Assistant.
 
 The Intelligent O&M Assistant is the entry point for intelligent Operations and Maintenance (O&M) upgrades on the Apsara Stack platform. It provides platform O&M engineers with capabilities such as O&M Q&A, environment information queries, content matching and recommendation, predictive optimization suggestions, inference, analysis, summarization, and code and visualization generation. The assistant also serves as a foundation for customer-facing intelligent O&M. It provides out-of-the-box capabilities that integrate the platform's Toolbox, knowledge base, and MCP Server to facilitate the engineering and deployment of O&M agents on-premises.
 
-![](assets/f625029ee025c9f8bfeff49e153091fd.png)
+![](en-aiops-product-introduction-v3.18.6-2607-20260828.assets/f625029ee025c9f8bfeff49e153091fd.png)
 
 <a id="section-2"></a>
 

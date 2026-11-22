@@ -50,7 +50,7 @@ ApsaraStack Parallel File System (APFS) is a cloud-defined, distributed parallel
 
 1. In the address bar of your browser, enter the service domain name for the Apsara Uni-manager Management Console and press Enter.
 
-   ![](assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
+   ![](en-apfs-user-guide-v3.18.6-2607-20260902.assets/5a920185c7520dc6a3bc9f951b3a32c0.jpeg)
 
    > **Note**
    >
@@ -242,7 +242,7 @@ An ApsaraStack Parallel File System (APFS) file system is created. For more info
 
 2. On the APFS page, you can search for a file system by **File System ID** or **File System Name**.
 
-3. On the APFS page, find the file system that you want to view, and click the <img src="assets/e7bea77177c334a2f3db93642f19b939.jpeg" width="16" alt=""> icon in the
+3. On the APFS page, find the file system that you want to view, and click the <img src="en-apfs-user-guide-v3.18.6-2607-20260902.assets/e7bea77177c334a2f3db93642f19b939.jpeg" width="16" alt=""> icon in the
 
    **Monitoring** column to view monitoring metrics such as capacity, bandwidth, and read/write IOPS of the file system.
 
@@ -272,7 +272,7 @@ An ApsaraStack Parallel File System (APFS) file system is created. For more info
 
 1. On the APFS page, find the file system for which you want to modify the description, move
 
-   the pointer over the **File System ID/Name** column, and click the <img src="assets/d07afc93fc4f611273598af8fa6dd9f9.png" width="14" alt=""> icon.
+   the pointer over the **File System ID/Name** column, and click the <img src="en-apfs-user-guide-v3.18.6-2607-20260902.assets/d07afc93fc4f611273598af8fa6dd9f9.png" width="14" alt=""> icon.
 
 2. In the dialog box that appears, enter a new description.
 
@@ -324,7 +324,7 @@ An APFS file system is created. For more information, see Create an APFS file sy
 
 3. On the File System Details page, click the **Monitoring** tab in the upper-left corner to view monitoring metrics such as capacity, bandwidth, and read/write IOPS of the file system.
 
-4. You can also click the <img src="assets/0164254ddac2826c2379b0445cde43ce.jpeg" width="18" alt=""> icon in the upper-right corner of the chart to create an alert rule.
+4. You can also click the <img src="en-apfs-user-guide-v3.18.6-2607-20260902.assets/0164254ddac2826c2379b0445cde43ce.jpeg" width="18" alt=""> icon in the upper-right corner of the chart to create an alert rule.
 
    For more information, see the **Create an alert rule** topic in **CloudMonitor User Guide**.
 
@@ -740,7 +740,7 @@ This topic describes solutions for the failure to create an ApsaraStack Parallel
 
 When you create or scale up an APFS file system, the following exception message may appear.
 
-![](assets/c2a1360f79755589a79374116db0176b.jpeg)
+![](en-apfs-user-guide-v3.18.6-2607-20260902.assets/c2a1360f79755589a79374116db0176b.jpeg)
 
 **Solutions**
 

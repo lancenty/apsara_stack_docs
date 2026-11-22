@@ -210,22 +210,22 @@ The Operations Center module provides the security alert data of security servic
 
    | Section | Description |
    | --- | --- |
-   | Widget selection (marked 1 in the following figure) | In this section, you can specify the types of data that you want to view. You can also perform the following operations:<br>• Select statistics windows: Select the types of data that you want to view from the <strong>Select Statistics Window</strong> drop-down list.<br>By default, the following options are selected: <strong>Alert Data</strong>, <strong>Distribution of</strong> <strong>Alert Handling Methods</strong>, <strong>ECS Instance Protection</strong>, <strong>Risk Level</strong>, <strong>Distribution of Alerting Data Sources</strong>, <strong>Distribution of Alert Types</strong>, <strong>Top 10 Attacking IP Addresses</strong>, <strong>Top 10 Attacked IP Addresses</strong>, <strong>Top 5</strong> <strong>Attacked Websites</strong>, and <strong>List display area</strong>.<br>• Save the current view: Click the<img src="assets/56cc362e478d3eb3207b2412ced31288.png" width="13" alt="">icon.<br>• Manually refresh data: Click the<img src="assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt="">icon to manually refresh the data in the<br>current view.<br>• Enable auto-refresh: Turn on<img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt="">. The system automatically refreshes the<br>data in the current view every 5 minutes.<br>• Export data: Click the<img src="assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt="">icon to export the data in the current view. |
+   | Widget selection (marked 1 in the following figure) | In this section, you can specify the types of data that you want to view. You can also perform the following operations:<br>• Select statistics windows: Select the types of data that you want to view from the <strong>Select Statistics Window</strong> drop-down list.<br>By default, the following options are selected: <strong>Alert Data</strong>, <strong>Distribution of</strong> <strong>Alert Handling Methods</strong>, <strong>ECS Instance Protection</strong>, <strong>Risk Level</strong>, <strong>Distribution of Alerting Data Sources</strong>, <strong>Distribution of Alert Types</strong>, <strong>Top 10 Attacking IP Addresses</strong>, <strong>Top 10 Attacked IP Addresses</strong>, <strong>Top 5</strong> <strong>Attacked Websites</strong>, and <strong>List display area</strong>.<br>• Save the current view: Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/56cc362e478d3eb3207b2412ced31288.png" width="13" alt="">icon.<br>• Manually refresh data: Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt="">icon to manually refresh the data in the<br>current view.<br>• Enable auto-refresh: Turn on<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt="">. The system automatically refreshes the<br>data in the current view every 5 minutes.<br>• Export data: Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt="">icon to export the data in the current view. |
    | Search condition (marked 2 in the following figure) | In this section, you can specify search conditions to search for data. You can specify the following search conditions based on your business requirements: time range, data source, organization, alert type, risk level, attack source, alert asset, source IP address, destination IP address, and alert name. |
    | Search result (marked 3 in the following figure) | In this section, Security Operations Center (SOC) displays the search results based on the data types and search conditions that you specified. |
 
    <table>
      <tr>
        <td>List (marked 4 in the following figure)</td>
-       <td>In this section, SOC displays the details of threats in a list based on the data types and search conditions that you specified. The details include the occurrence time, attack source, alert name, alert type, risk level, and data source.<br>You can perform the following operations to manage the details of threats:<br>• Configure the data display mode.<br>• Above the list, click <strong>Details</strong>. The system displays the details of all attacked IP addresses in chronological order.<br>• Above the list, click <strong>Aggregate</strong>. The system aggregates the alerts that have the same attacked IP address, attacker IP address, and alert type every 10 minutes. You can click the + icon to view the details.<br>• View data details: Find the alert that you want to view and click <strong>Details</strong> in the Actions column. In the <strong>Details</strong> panel, view the details of the alert.<br>• Refresh list data: Click the<img src="assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt="">icon to manually refresh the data in the list.<br>• Specify the items that you want to view in the list: Click the<img src="assets/e659aa0129d405d053b67229d65b64c3.png" width="13" alt="">icon. By<br>default, all items are selected and displayed in the list.<br>• Deliver a task: Find the alert that you want to manage, click <strong>More</strong> in the <strong>Actions</strong> column, and then select <strong>Deliver Handling Task</strong>. In the <strong>Create</strong> <strong>Task</strong> panel, configure the parameters and click <strong>OK</strong>.<br>Note<br>If the alerts are aggregated, click the icon next to an alert to expand<br><img src="assets/07131b18a864df711f4d672e786c8c5c.png" width="20" alt=""><br>the alert list.<br>• Create a response policy: Find the alert that you want to manage, click <strong>More</strong> in the Actions column, and then select <strong>Create Response Policy</strong>. In the <strong>Create Policy</strong> panel, configure the parameters and click <strong>OK</strong>.</td>
+       <td>In this section, SOC displays the details of threats in a list based on the data types and search conditions that you specified. The details include the occurrence time, attack source, alert name, alert type, risk level, and data source.<br>You can perform the following operations to manage the details of threats:<br>• Configure the data display mode.<br>• Above the list, click <strong>Details</strong>. The system displays the details of all attacked IP addresses in chronological order.<br>• Above the list, click <strong>Aggregate</strong>. The system aggregates the alerts that have the same attacked IP address, attacker IP address, and alert type every 10 minutes. You can click the + icon to view the details.<br>• View data details: Find the alert that you want to view and click <strong>Details</strong> in the Actions column. In the <strong>Details</strong> panel, view the details of the alert.<br>• Refresh list data: Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt="">icon to manually refresh the data in the list.<br>• Specify the items that you want to view in the list: Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/e659aa0129d405d053b67229d65b64c3.png" width="13" alt="">icon. By<br>default, all items are selected and displayed in the list.<br>• Deliver a task: Find the alert that you want to manage, click <strong>More</strong> in the <strong>Actions</strong> column, and then select <strong>Deliver Handling Task</strong>. In the <strong>Create</strong> <strong>Task</strong> panel, configure the parameters and click <strong>OK</strong>.<br>Note<br>If the alerts are aggregated, click the icon next to an alert to expand<br><img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/07131b18a864df711f4d672e786c8c5c.png" width="20" alt=""><br>the alert list.<br>• Create a response policy: Find the alert that you want to manage, click <strong>More</strong> in the Actions column, and then select <strong>Create Response Policy</strong>. In the <strong>Create Policy</strong> panel, configure the parameters and click <strong>OK</strong>.</td>
      </tr>
    </table>
 
-   ![](assets/9b6bc661d740dce00d54987f8733db96.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/9b6bc661d740dce00d54987f8733db96.jpeg)
 
-   ![](assets/18443159179b2a8292c2ca54d3edef76.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/18443159179b2a8292c2ca54d3edef76.jpeg)
 
-   ![](assets/464e3a0a92bbf6af18099cfd2b5fbb00.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/464e3a0a92bbf6af18099cfd2b5fbb00.jpeg)
 
 **View data in the host risk view**
 
@@ -243,7 +243,7 @@ The Operations Center module provides the security alert data of security servic
    <table>
      <tr>
        <td>Widget selection (marked 1 in the following figure)</td>
-       <td>In this section, you can specify the types of data that you want to view. You can also perform the following operations:<br>• Select statistics windows: Select the types of data that you want to view from the <strong>Select Statistics Window</strong> drop-down list.<br>By default, the following options are selected: <strong>Alert Data</strong>, <strong>ECS Instance</strong> <strong>Protection</strong>, <strong>Risk Level</strong>, <strong>Distribution of Alert Types</strong>, <strong>Top 10 Attacked</strong> <strong>IP Addresses</strong>, and <strong>List display area</strong>.<br>• Save the current view: Click the<img src="assets/56cc362e478d3eb3207b2412ced31288.png" width="13" alt="">icon.<br>• Manually refresh data: Click the<img src="assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt="">icon to manually refresh the data in the<br>current view.<br>• Enable auto-refresh: Turn on<img src="assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt="">. The system automatically refreshes the<br>data in the current view every 5 minutes.<br>• Export data: Click the<img src="assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt="">icon to export the data in the current view.</td>
+       <td>In this section, you can specify the types of data that you want to view. You can also perform the following operations:<br>• Select statistics windows: Select the types of data that you want to view from the <strong>Select Statistics Window</strong> drop-down list.<br>By default, the following options are selected: <strong>Alert Data</strong>, <strong>ECS Instance</strong> <strong>Protection</strong>, <strong>Risk Level</strong>, <strong>Distribution of Alert Types</strong>, <strong>Top 10 Attacked</strong> <strong>IP Addresses</strong>, and <strong>List display area</strong>.<br>• Save the current view: Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/56cc362e478d3eb3207b2412ced31288.png" width="13" alt="">icon.<br>• Manually refresh data: Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt="">icon to manually refresh the data in the<br>current view.<br>• Enable auto-refresh: Turn on<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/f1d15dca93088100a019dcc375427e66.png" width="16" alt="">. The system automatically refreshes the<br>data in the current view every 5 minutes.<br>• Export data: Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt="">icon to export the data in the current view.</td>
      </tr>
      <tr>
        <td>Search condition (marked 2 in the following figure)</td>
@@ -258,13 +258,13 @@ The Operations Center module provides the security alert data of security servic
    <table>
      <tr>
        <td>List (marked 4 in the following figure)</td>
-       <td>In this section, SOC displays the details of threats in a list based on the data types and search conditions that you specified. The details include the occurrence time, attack source, alert name, alert type, risk level, and data source.<br>You can perform the following operations to manage the details of threats:<br>• Configure the data display mode.<br>• Above the list, click <strong>Details</strong>. The system displays the details of all attacked IP addresses in chronological order.<br>• Above the list, click <strong>Aggregate</strong>. The system aggregates the alerts that have the same attacked IP address, attacker IP address, and alert type every 10 minutes. You can click the + icon to view the details.<br>• View data details: Find the alert that you want to view and click <strong>Details</strong> in the <strong>Actions</strong> column. In the details panel, view the details of the alert.<br>• Refresh list data: Click the<img src="assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt="">icon to manually refresh the data in the list.<br>• Specify the items that you want to view in the list: Click the<img src="assets/e659aa0129d405d053b67229d65b64c3.png" width="13" alt="">icon. By<br>default, all items are selected and displayed in the list.<br>• Deliver a task: Find the alert that you want to manage, click <strong>More</strong> in the <strong>Actions</strong> column, and then select <strong>Deliver Handling Task</strong>. In the <strong>Create</strong> <strong>Task</strong> panel, configure the parameters and click <strong>OK</strong>.<br>Note<br>If the alerts are aggregated, click the icon next to an alert to expand<br><img src="assets/07131b18a864df711f4d672e786c8c5c.png" width="20" alt=""><br>the alert list.<br>• Create a response policy: Find the alert that you want to manage, click <strong>More</strong> in the Actions column, and then select <strong>Create Response Policy</strong>. In the <strong>Create Policy</strong> panel, configure the parameters and click <strong>OK</strong>.<br>• Handle one or more alerts: You can handle one or more alerts that occurred on a host. Find the alert that you want to handle and click Handle in the Actions column. In the dialog box that appears, select Quarantine, Add to Whitelist, Ignore, or Manually Handled in the Handling Method section. You can also select <strong>Handle the same type of alerts at a time</strong> in the Batch Handle section, which is optional. Then, click <strong>Handle Now</strong>.</td>
+       <td>In this section, SOC displays the details of threats in a list based on the data types and search conditions that you specified. The details include the occurrence time, attack source, alert name, alert type, risk level, and data source.<br>You can perform the following operations to manage the details of threats:<br>• Configure the data display mode.<br>• Above the list, click <strong>Details</strong>. The system displays the details of all attacked IP addresses in chronological order.<br>• Above the list, click <strong>Aggregate</strong>. The system aggregates the alerts that have the same attacked IP address, attacker IP address, and alert type every 10 minutes. You can click the + icon to view the details.<br>• View data details: Find the alert that you want to view and click <strong>Details</strong> in the <strong>Actions</strong> column. In the details panel, view the details of the alert.<br>• Refresh list data: Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt="">icon to manually refresh the data in the list.<br>• Specify the items that you want to view in the list: Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/e659aa0129d405d053b67229d65b64c3.png" width="13" alt="">icon. By<br>default, all items are selected and displayed in the list.<br>• Deliver a task: Find the alert that you want to manage, click <strong>More</strong> in the <strong>Actions</strong> column, and then select <strong>Deliver Handling Task</strong>. In the <strong>Create</strong> <strong>Task</strong> panel, configure the parameters and click <strong>OK</strong>.<br>Note<br>If the alerts are aggregated, click the icon next to an alert to expand<br><img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/07131b18a864df711f4d672e786c8c5c.png" width="20" alt=""><br>the alert list.<br>• Create a response policy: Find the alert that you want to manage, click <strong>More</strong> in the Actions column, and then select <strong>Create Response Policy</strong>. In the <strong>Create Policy</strong> panel, configure the parameters and click <strong>OK</strong>.<br>• Handle one or more alerts: You can handle one or more alerts that occurred on a host. Find the alert that you want to handle and click Handle in the Actions column. In the dialog box that appears, select Quarantine, Add to Whitelist, Ignore, or Manually Handled in the Handling Method section. You can also select <strong>Handle the same type of alerts at a time</strong> in the Batch Handle section, which is optional. Then, click <strong>Handle Now</strong>.</td>
      </tr>
    </table>
 
-   ![](assets/d5cd09242987ca5183cb31d96c36db2d.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/d5cd09242987ca5183cb31d96c36db2d.jpeg)
 
-   ![](assets/cfe11dba72a15b24188e7138e5eb4d40.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/cfe11dba72a15b24188e7138e5eb4d40.jpeg)
 
 **Create a custom risk view**
 
@@ -278,11 +278,11 @@ By default, the Operations Center page provides the Network Risk View and Host R
 
 4. In the upper-right corner of the **Operations Center** page, click **Select Statistics**
 
-   **Window**, select data types for the custom risk view to be created, and then click the <img src="assets/6014d2f93294b8c7fe3ebdbe515274a2.png" width="20" alt="">
+   **Window**, select data types for the custom risk view to be created, and then click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/6014d2f93294b8c7fe3ebdbe515274a2.png" width="20" alt="">
 
    icon.
 
-   ![](assets/431cd5fbb815143a8dd696a3885a6fbb.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/431cd5fbb815143a8dd696a3885a6fbb.jpeg)
 
 5. In the **Save current view** dialog box, enter a view name and click **Save**.
 
@@ -308,12 +308,12 @@ Threat events are indicator of compromise (IOC) threat events generated by Secur
 
 4. On the **Threat Events** page, view the details of the threat events.
 
-   ![](assets/1506c238fb426c93c6cb6995ce52142f.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/1506c238fb426c93c6cb6995ce52142f.jpeg)
 
    | Section | Description | Supported operation |
    | --- | --- | --- |
-   | Search condition (marked 1 in the preceding figure) | Specify search conditions to search for threat events.<br>You can specify the following search conditions: <strong>time range</strong>, <strong>organization</strong>, <strong>data scope</strong>, <strong>threat level</strong>, <strong>threat type</strong>, <strong>attack phase</strong>, <strong>handling status</strong>, <strong>threat name</strong>, <strong>source or</strong> <strong>destination IP address</strong>, and whether threat intelligence is <strong>hit</strong>. | Select options from drop-down lists or enter keywords in the search box, and<br>click the<img src="assets/8d4222e8703839043e211d52ff02c997.png" width="26" alt="">icon.<br>If you do not specify search conditions, all threat events are displayed by default.<br>Note<br>• After you set the <strong>Organization</strong> parameter to <strong>Organization</strong>, you can select one or more organizations from the <strong>Organization</strong> drop-down list that appears.<br>• You can select one or more options from the <strong>Threat</strong> <strong>Level</strong>, <strong>Threat Type</strong>, and <strong>Attack Phase</strong> drop-down lists. |
-   | Search result (marked 2 in the preceding figure) | In this section, you can view the information about threat events that meet the specified search conditions. | • Find the threat event that you want to manage and move the pointer over a value in the <strong>Attacked IP Address</strong> column to view the corresponding server.<br>• Find the threat event that you want to manage and click its name or <strong>Details</strong> in the Actions column. On the details page of the threat event, view the information on the <strong>Threat Details</strong> and <strong>Evidence Details</strong> tabs.<br>• Click the<img src="assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt="">icon to refresh the threat<br>event list.<br>• Click the<img src="assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt="">icon to export the threat<br>event list.<br>• Handle a threat event: Find the threat event that you want to manage and click <strong>Handle</strong> in the Actions column. In the <strong>Handle</strong> panel, perform the coordinated handling operation and view the handling records.<br>• Deliver a task: Find the threat event that you want to manage, click <strong>More</strong> in the <strong>Actions</strong> column, and then select <strong>Deliver Handling Task</strong>. In the <strong>Create</strong> <strong>Task</strong> panel, configure the parameters and click <strong>OK</strong>.<br>• Create a response policy: Find the threat event that you want to manage, click <strong>More</strong> in the Actions column, and then select <strong>Create Response Policy</strong>.In the <strong>Create Policy</strong> panel, configure the parameters and click <strong>OK</strong>.<br>• View threat tracing details: Find a threat event for which a tracing diagram is generated, and click the<br>![](assets/ce4102732ac9545d8ede7a6313c67a4c.png)<br>icon next to the threat name. On<br>the <strong>Threat Tracing</strong> tab, view the threat tracing details.<br>Click the<img src="assets/e5bb80b11e5f96c3a4182a0c73128ebc.jpeg" width="19" alt="">or<img src="assets/8ab180b16daad7a396f95da100af988e.jpeg" width="18" alt="">icon to zoom out or<br>in the tracing diagram. |
+   | Search condition (marked 1 in the preceding figure) | Specify search conditions to search for threat events.<br>You can specify the following search conditions: <strong>time range</strong>, <strong>organization</strong>, <strong>data scope</strong>, <strong>threat level</strong>, <strong>threat type</strong>, <strong>attack phase</strong>, <strong>handling status</strong>, <strong>threat name</strong>, <strong>source or</strong> <strong>destination IP address</strong>, and whether threat intelligence is <strong>hit</strong>. | Select options from drop-down lists or enter keywords in the search box, and<br>click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/8d4222e8703839043e211d52ff02c997.png" width="26" alt="">icon.<br>If you do not specify search conditions, all threat events are displayed by default.<br>Note<br>• After you set the <strong>Organization</strong> parameter to <strong>Organization</strong>, you can select one or more organizations from the <strong>Organization</strong> drop-down list that appears.<br>• You can select one or more options from the <strong>Threat</strong> <strong>Level</strong>, <strong>Threat Type</strong>, and <strong>Attack Phase</strong> drop-down lists. |
+   | Search result (marked 2 in the preceding figure) | In this section, you can view the information about threat events that meet the specified search conditions. | • Find the threat event that you want to manage and move the pointer over a value in the <strong>Attacked IP Address</strong> column to view the corresponding server.<br>• Find the threat event that you want to manage and click its name or <strong>Details</strong> in the Actions column. On the details page of the threat event, view the information on the <strong>Threat Details</strong> and <strong>Evidence Details</strong> tabs.<br>• Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt="">icon to refresh the threat<br>event list.<br>• Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt="">icon to export the threat<br>event list.<br>• Handle a threat event: Find the threat event that you want to manage and click <strong>Handle</strong> in the Actions column. In the <strong>Handle</strong> panel, perform the coordinated handling operation and view the handling records.<br>• Deliver a task: Find the threat event that you want to manage, click <strong>More</strong> in the <strong>Actions</strong> column, and then select <strong>Deliver Handling Task</strong>. In the <strong>Create</strong> <strong>Task</strong> panel, configure the parameters and click <strong>OK</strong>.<br>• Create a response policy: Find the threat event that you want to manage, click <strong>More</strong> in the Actions column, and then select <strong>Create Response Policy</strong>.In the <strong>Create Policy</strong> panel, configure the parameters and click <strong>OK</strong>.<br>• View threat tracing details: Find a threat event for which a tracing diagram is generated, and click the<br>![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/ce4102732ac9545d8ede7a6313c67a4c.png)<br>icon next to the threat name. On<br>the <strong>Threat Tracing</strong> tab, view the threat tracing details.<br>Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/e5bb80b11e5f96c3a4182a0c73128ebc.jpeg" width="19" alt="">or<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/8ab180b16daad7a396f95da100af988e.jpeg" width="18" alt="">icon to zoom out or<br>in the tracing diagram. |
 
    On the **Threat Details** tab, view the following information about the threat event: **Start Time**, **Last Detected At**, **Analytic Rule**, **Network Protocol**, **Threat Intelligence**, **Source/Destination Information**, and **Key Information**.
 
@@ -323,7 +323,7 @@ Threat events are indicator of compromise (IOC) threat events generated by Secur
 
    On the **Evidence Details** tab, view the raw logs of the threat event. Click **Details** next to a raw log to view the details of the raw log, including alert information. The content that matches an association analysis rule is highlighted.
 
-   ![](assets/3796ea58c955f5269229c0afb778bd5f.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/3796ea58c955f5269229c0afb778bd5f.jpeg)
 
 <a id="section-3-3-2"></a>
 
@@ -341,11 +341,11 @@ The threat investigation feature allows you to perform comprehensive threat inve
 
 4. On the **Threat Investigation** page, select a time range, enter the IP address, name, or ID
 
-   of the required asset, and then click the <img src="assets/72b50aa7e107150c2d79bd2279b509c9.jpeg" width="20" alt=""> icon.
+   of the required asset, and then click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/72b50aa7e107150c2d79bd2279b509c9.jpeg" width="20" alt=""> icon.
 
    For an asset whose threat information is frequently queried, you can create a shortcut for the asset by performing the following steps: Click **Add Shortcut**. In the Add Shortcut dialog box, configure the **Type** and **Content** parameters and click OK. This way, you can quickly view the threat investigation results of the asset. After a shortcut is created, you can click the corresponding icon to view the threat investigation results of an asset.
 
-   ![](assets/586f30e5ed2c0d55f41e7a4c014d03f4.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/586f30e5ed2c0d55f41e7a4c014d03f4.jpeg)
 
 5. On the page that appears, view the risk items.
 
@@ -361,7 +361,7 @@ The threat investigation feature allows you to perform comprehensive threat inve
 
    - Attack Surface: displays the attack paths of attacks that the asset has suffered.
 
-   ![](assets/73fc461be6cbb5c706621021e78bc9b8.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/73fc461be6cbb5c706621021e78bc9b8.jpeg)
 
 <a id="section-3-3-3"></a>
 
@@ -391,17 +391,17 @@ This topic describes how to view attack surface assessment results.
 
    - **Risk Level of Attack Surface**: The risk level of the attack surface for the specified organization is determined after a comprehensive evaluation is performed. The risk level can be Low, Medium, High, and Critical.
 
-   ![](assets/d31506cd9167848fe5df866b137c2c2b.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/d31506cd9167848fe5df866b137c2c2b.jpeg)
 
 6. View the details of each risk on the corresponding tab.
 
-   ![](assets/32dc80a95d2c4dc174addb2fbe8efb83.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/32dc80a95d2c4dc174addb2fbe8efb83.jpeg)
 
    - **Attack Surface**: This tab displays the statistics on attack paths and core assets affected by the attack paths. You can view the following information about an attack path: **Path Name**, **Path Risk Score**, **Affected Core Assets**, and **Assets in Path**.
 
      You can perform the following operations:
 
-     - Click the <img src="assets/cbd3e6b4de13d185f06ee434ef43244f.png" width="18" alt=""> icon. In the **Attack Path Configuration** dialog box, configure the **Risk**
+     - Click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/cbd3e6b4de13d185f06ee434ef43244f.png" width="18" alt=""> icon. In the **Attack Path Configuration** dialog box, configure the **Risk**
 
        **Score for Attack Path Filtering** and **Start Time for Attack Path** parameters and click OK.
 
@@ -419,7 +419,7 @@ This topic describes how to view attack surface assessment results.
 
      - Find the IP address that you want to manage and click **Handle** in the **Actions** column to perform the **coordinated handling operation** and view the **handling records**.
 
-       **Interactive Handling**: Click the <img src="assets/96ea6c06f4d65ae338acab6cfc4d1c1b.png" width="19" alt=""> icon next to the Handling Entity column, select a
+       **Interactive Handling**: Click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/96ea6c06f4d65ae338acab6cfc4d1c1b.png" width="19" alt=""> icon next to the Handling Entity column, select a
 
        **scenario** and select values from the **Applicable Scope** and **Action Validity Period** drop-down lists to block an entity.
 
@@ -458,7 +458,7 @@ You can use built-in security baselines to check and manage the security complia
    | Baseline Scope | The application scope of the baseline. Valid values: Tenant and Platform. |
    | Baseline Type | The type of the baseline. Valid values: Security Protection, Identity Authentication, Access Control, Network Configuration, Data Security, Disaster Recovery Backup, Log Audit, and Monitoring Alarms. |
    | Risk Level | The risk level of the baseline. Valid values: High, Medium, and Low. |
-   | Baseline name | Enter the name of a baseline in the search box and click the<img src="assets/f7cfcd9a0d69b8e4b96efbe64af2a9eb.png" width="24" alt="">icon to search for<br>the baseline. |
+   | Baseline name | Enter the name of a baseline in the search box and click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/f7cfcd9a0d69b8e4b96efbe64af2a9eb.png" width="24" alt="">icon to search for<br>the baseline. |
 
 6. On the **Cloud Service Check** page, view information about the baselines of cloud services. The information includes baseline risk items, affected assets, enabled baseline check items, disabled baseline check items, and the time when the check was last performed.
 
@@ -535,9 +535,9 @@ This topic describes how to view vulnerability analysis results on the tenant si
 
      All search results are displayed in the vulnerability list. You can perform the following operations based on your business requirements:
 
-     - Click the <img src="assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt=""> icon to refresh the vulnerability list.
+     - Click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt=""> icon to refresh the vulnerability list.
 
-     - Click the <img src="assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt=""> icon to export the vulnerability list.
+     - Click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt=""> icon to export the vulnerability list.
 
      - Find the vulnerability that you want to view and click its name or **Details** in the **Actions** column to view the vulnerability details and affected assets. On the **Vulnerability Details** tab of the panel that appears, view the details of the vulnerability and the suggestions on how to fix the vulnerability. On the **Scanned Asset** tab of the panel that appears, click the name of an affected asset. On the Basic Information tab of the Tenant Assets page, view the information about the affected asset.
 
@@ -574,9 +574,9 @@ This topic describes how to view vulnerability analysis results on the tenant si
 
      All search results are displayed in the baseline list. You can perform the following operations based on your business requirements:
 
-     - Click the <img src="assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt=""> icon to refresh the baseline list.
+     - Click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/9ce2bab45ba9c4929dde9fcb55f07ce2.png" width="13" alt=""> icon to refresh the baseline list.
 
-     - Click the <img src="assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt=""> icon to export the baseline list.
+     - Click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt=""> icon to export the baseline list.
 
      - Click the name of a baseline or click **Details** in the **Actions** column of a baseline to view the baseline details, including **Affected Asset**, **Resource Set**, and **Organization**. Click the name of an affected asset to go to the **Tenant Assets** page. On the Tenant Assets page, you can view information about the affected asset.
 
@@ -606,11 +606,11 @@ This topic describes how to view the analysis information about traffic, includi
 
    | Section | Description |
    | --- | --- |
-   | Widget selection (marked 1 in the following figure) | In this section, you can specify the types of data that you want to view. You can also perform the following operations:<br>• View raw logs: Click <strong>View Raw Log</strong> to go to the <strong>Log Query</strong> page and view the details of raw logs.<br>• Select statistics windows: Select the types of data that you want to view from the <strong>Select Statistics Window</strong> drop-down list.<br>By default, the following options are selected: <strong>Organization Traffic</strong>, <strong>Application Traffic</strong>, <strong>Traffic of Source IP Address</strong>, <strong>Traffic of</strong> <strong>Destination IP Address</strong>, <strong>Source Port Traffic</strong>, <strong>Destination Port Traffic</strong>, <strong>Access Destination Traffic</strong>, and <strong>Access Source Traffic</strong>.<br>• Select a data range: You can select <strong>TOP5</strong>, <strong>TOP10</strong>, or <strong>TOP20</strong> from the data range drop-down list.<br>• Select the view to be displayed.<br>• Save a view: Click the<img src="assets/56cc362e478d3eb3207b2412ced31288.png" width="13" alt="">icon to save the current view.<br>• Export data: Click the<img src="assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt="">icon to export the data in the current view. |
+   | Widget selection (marked 1 in the following figure) | In this section, you can specify the types of data that you want to view. You can also perform the following operations:<br>• View raw logs: Click <strong>View Raw Log</strong> to go to the <strong>Log Query</strong> page and view the details of raw logs.<br>• Select statistics windows: Select the types of data that you want to view from the <strong>Select Statistics Window</strong> drop-down list.<br>By default, the following options are selected: <strong>Organization Traffic</strong>, <strong>Application Traffic</strong>, <strong>Traffic of Source IP Address</strong>, <strong>Traffic of</strong> <strong>Destination IP Address</strong>, <strong>Source Port Traffic</strong>, <strong>Destination Port Traffic</strong>, <strong>Access Destination Traffic</strong>, and <strong>Access Source Traffic</strong>.<br>• Select a data range: You can select <strong>TOP5</strong>, <strong>TOP10</strong>, or <strong>TOP20</strong> from the data range drop-down list.<br>• Select the view to be displayed.<br>• Save a view: Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/56cc362e478d3eb3207b2412ced31288.png" width="13" alt="">icon to save the current view.<br>• Export data: Click the<img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt="">icon to export the data in the current view. |
    | Search condition (marked 2 in the following figure) | In this section, you can specify search conditions to search for traffic analysis data. You can specify the following search conditions based on your business requirements: time range, organization, application, source IP address, destination IP address, source port, and destination port. |
    | Search result (marked 3 in the following figure) | In this section, Security Operations Center (SOC) displays the search results that meet the specified search conditions. |
 
-   ![](assets/93ac8a47411a1e73087832130d801db5.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/93ac8a47411a1e73087832130d801db5.jpeg)
 
 <a id="section-3-4"></a>
 
@@ -641,7 +641,7 @@ You can view the overall situation and statistics of threats to your assets on t
 
 5. In the upper-right corner of the Intelligence Overview page, enter the IP address, domain name, or MD5 hash value of the file that you want to check in the search box, and click the
 
-   <img src="assets/08f764ecbd86ceb73cb92fcc5c95c80c.png" width="13" alt=""> icon.
+   <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/08f764ecbd86ceb73cb92fcc5c95c80c.png" width="13" alt=""> icon.
 
    On the details page of the IP address, you can view the following information: **Threat Level**, **Basic Information**, **Threat Details**, and **Threat Overview**. For more information, see Query threat intelligence.
 
@@ -697,7 +697,7 @@ You can also specify a search condition in a search box to search for an asset.
 
 4. In the upper-right corner of the **Tenant Assets** page, select one or more organizations that you want to view from the **Organization** drop-down list. Then, you can view the overview of the tenant assets in the specified organizations.
 
-   ![](assets/f74d55d446016e08dfd6af41efeff5b4.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/f74d55d446016e08dfd6af41efeff5b4.jpeg)
 
 5. Click the following tabs to view the assets of the tenant: **ECS**, **ApsaraDB RDS**, **OSS**, **SLB**, **EIP**, **Active Internet IP Addresses**, **Tunnel**, and **Server Outside Cloud**.
 
@@ -713,7 +713,7 @@ You can also specify a search condition in a search box to search for an asset.
 
      **ECS**
 
-     ![](assets/e8d23c10680bcaf3454f68a202f0f67f.jpeg)
+     ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/e8d23c10680bcaf3454f68a202f0f67f.jpeg)
 
      | Tab | Description |
      | --- | --- |
@@ -737,7 +737,7 @@ You can also specify a search condition in a search box to search for an asset.
 
      **ApsaraDB RDS**
 
-     ![](assets/09b2a7e75733e09ad56edf79df927dd0.jpeg)
+     ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/09b2a7e75733e09ad56edf79df927dd0.jpeg)
 
      | Tab | Description |
      | --- | --- |
@@ -747,7 +747,7 @@ You can also specify a search condition in a search box to search for an asset.
 
      **OSS**
 
-     ![](assets/ef38b56904829bb50a509ad7592f6e26.jpeg)
+     ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/ef38b56904829bb50a509ad7592f6e26.jpeg)
 
      | Tab | Description |
      | --- | --- |
@@ -757,7 +757,7 @@ You can also specify a search condition in a search box to search for an asset.
 
      **SLB, EIP, and Active Internet IP Addresses**
 
-     ![](assets/b80b4cfc4ce12110a426792acbd2d0fc.jpeg)
+     ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/b80b4cfc4ce12110a426792acbd2d0fc.jpeg)
 
      | Tab | Description |
      | --- | --- |
@@ -767,7 +767,7 @@ You can also specify a search condition in a search box to search for an asset.
 
      **Tunnel**
 
-     ![](assets/341053c0df5e1e0ab6e787f04ed99573.jpeg)
+     ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/341053c0df5e1e0ab6e787f04ed99573.jpeg)
 
      | Tab | Description |
      | --- | --- |
@@ -777,7 +777,7 @@ You can also specify a search condition in a search box to search for an asset.
 
      **Server Outside Cloud**
 
-     ![](assets/676f00187df7db90f3e1da1cb5a1f767.jpeg)
+     ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/676f00187df7db90f3e1da1cb5a1f767.jpeg)
 
      | Tab | Description |
      | --- | --- |
@@ -795,11 +795,11 @@ You can also specify a search condition in a search box to search for an asset.
        </tr>
      </table>
 
-   - Click the <img src="assets/9f67ee75a7f39fe60e0a0174fc6376b4.png" width="13" alt=""> icon to refresh the asset list.
+   - Click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/9f67ee75a7f39fe60e0a0174fc6376b4.png" width="13" alt=""> icon to refresh the asset list.
 
-   - Click the <img src="assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt=""> icon to export the asset information.
+   - Click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt=""> icon to export the asset information.
 
-   - Click the <img src="assets/e659aa0129d405d053b67229d65b64c3.png" width="13" alt=""> icon to configure the items that you want to view in the asset list.
+   - Click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/e659aa0129d405d053b67229d65b64c3.png" width="13" alt=""> icon to configure the items that you want to view in the asset list.
 
 <a id="section-3-6"></a>
 
@@ -841,27 +841,27 @@ The Overview page displays the overall statistics on all logs that are collected
 
      - **Log Trend by Type**: displays the trend in proportions of collected logs by type. On the Log Query page, click Follow Logs to set the query result as followed logs. In the Follow Logs dialog box, set the Followed Log Name parameter, select Save As Independent Window, and then click OK. Then, you can view the followed logs in a widget on the Overview page.
 
-   ![](assets/df8f985bf7df3d966c511c1605cc4e0f.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/df8f985bf7df3d966c511c1605cc4e0f.jpeg)
 
 5. On the **Overview** page, manage the widgets of the logs.
 
    - Move a widget
 
-     In the widget that you want to manage, click the <img src="assets/d1d859156a159b20173103200d18b72c.png" width="13" alt=""> icon and drag the widget to a specific
+     In the widget that you want to manage, click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/d1d859156a159b20173103200d18b72c.png" width="13" alt=""> icon and drag the widget to a specific
 
-     position. In the upper-right corner of the **Overview** page, click the <img src="assets/56cc362e478d3eb3207b2412ced31288.png" width="13" alt=""> icon.
+     position. In the upper-right corner of the **Overview** page, click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/56cc362e478d3eb3207b2412ced31288.png" width="13" alt=""> icon.
 
    - Close a widget
 
-     In the widget that you want to manage, move the pointer over the <img src="assets/78d70a807dfa9e6d85bf2ce6196a8210.png" width="14" alt=""> icon and click **Close**
+     In the widget that you want to manage, move the pointer over the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/78d70a807dfa9e6d85bf2ce6196a8210.png" width="14" alt=""> icon and click **Close**
 
-     **View**. In the upper-right corner of the **Overview** page, click the <img src="assets/56cc362e478d3eb3207b2412ced31288.png" width="13" alt=""> icon.
+     **View**. In the upper-right corner of the **Overview** page, click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/56cc362e478d3eb3207b2412ced31288.png" width="13" alt=""> icon.
 
    - Export snapshots on the Overview page
 
-     In the upper-right corner of the **Overview** page, click the <img src="assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt=""> icon.
+     In the upper-right corner of the **Overview** page, click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/c06ad9d8e587e42a95baf5a0b1714c73.png" width="13" alt=""> icon.
 
-   ![](assets/ac5913e6d7e90976b44e7b732e1ac18a.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/ac5913e6d7e90976b44e7b732e1ac18a.jpeg)
 
 <a id="section-3-6-2"></a>
 
@@ -893,7 +893,7 @@ This topic describes how to query log details.
 
    - Chart: displays the log analysis result and allows you to customize the chart type, chart size, chart title, and statistical field of a log.
 
-   ![](assets/bdde641d5dad5140fa9e7ef3b3c944ed.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/bdde641d5dad5140fa9e7ef3b3c944ed.jpeg)
 
 **What to do next**
 
@@ -901,19 +901,19 @@ This topic describes how to query log details.
 
   After the configuration is complete, you can query the followed logs in a widget of the **Overview** page.
 
-- Save the current view: Click the <img src="assets/d944ea54452d224deabb99603973eea0.png" width="20" alt=""> icon in the upper-right corner of the Log Query page. In
+- Save the current view: Click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/d944ea54452d224deabb99603973eea0.png" width="20" alt=""> icon in the upper-right corner of the Log Query page. In
 
   the Create Filter Condition dialog box, enter the query condition name of the current view and click OK. After the current view is saved, you can select the query condition name of the current view from the **Default Data** drop-down list in the upper-right corner of the Log Query page to perform a quick query.
 
-- Delete the current view: Click the <img src="assets/65b5383b5cef5ae2c7e1ff016fa831d8.png" width="22" alt=""> icon in the upper-right corner of the Log Query page
+- Delete the current view: Click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/65b5383b5cef5ae2c7e1ff016fa831d8.png" width="22" alt=""> icon in the upper-right corner of the Log Query page
 
   to delete the saved view query conditions. The **Default Data** view cannot be deleted.
 
-- Enable auto-refresh: Turn on <img src="assets/10280600731026c42e715984d7fbabaf.png" width="22" alt=""> . The system automatically refreshes the log query
+- Enable auto-refresh: Turn on <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/10280600731026c42e715984d7fbabaf.png" width="22" alt=""> . The system automatically refreshes the log query
 
   information every 5 minutes.
 
-  ![](assets/964da870dc0e67a19f8a0a8d729b4eb7.jpeg)
+  ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/964da870dc0e67a19f8a0a8d729b4eb7.jpeg)
 
 - View log dictionaries: Click **Log Dictionary** to view the information about different types of logs, including the field name, type, and description.
 
@@ -1001,11 +1001,11 @@ Tenant logs record information about tenants. Security administrators can use th
 
      The system displays **tenant logs** in a column chart based on the query conditions that you specify. You can view the numbers of logs at different points in time within the specified time range. You can also view the details of the queried logs in the log list.
 
-     - To configure the fields that you want to display in the log list, click the <img src="assets/816aad7fda2cdff85ce41953559f2051.png" width="23" alt=""> icon.
+     - To configure the fields that you want to display in the log list, click the <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/816aad7fda2cdff85ce41953559f2051.png" width="23" alt=""> icon.
 
      - To view the details of a log, click **Details** in the data column of the log.
 
-       <img src="assets/65702049bc95e90b9f8c3fa4e7917c79.png" width="28" alt="">
+       <img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/65702049bc95e90b9f8c3fa4e7917c79.png" width="28" alt="">
 
      - To export the log list, click the
 
@@ -1158,7 +1158,7 @@ Security Operations Center (SOC) provides predefined rules based on regular busi
 
    The created rule is displayed in the rule list.
 
-   ![](assets/5fb35e8b27a896bf1c5e18b607d5fa17.jpeg)
+   ![](en-cloud-security-center-user-guide-v3.18.6-20260701.assets/5fb35e8b27a896bf1c5e18b607d5fa17.jpeg)
 
    You can modify or delete a custom rule based on your business requirements. To modify or delete a custom rule, find the rule that you want to manage and click **Edit** or **Delete** in the Actions column to modify or delete the rule.
 
@@ -1211,7 +1211,7 @@ You can create a response policy to handle threat events and security alerts (se
    | Data Scope | The data scope. Select an organization from the drop-down list. |
    | Policy Cycle | The statistic period of the response policy. Unit: <strong>Minutes</strong> or <strong>Hours</strong>. |
    | Scanned Asset | One or more assets to which the response policy is applied. Default value: All Assets.Valid values: All Assets, <strong>Instance Type</strong>, <strong>Instance Name</strong>, <strong>VPC</strong>, <strong>Public IP</strong> <strong>Address/Mask</strong>, <strong>Private IP Address/Mask</strong>, <strong>Public IP Address</strong>, and <strong>Private IP</strong> <strong>Address</strong>.<br>Note<br>After the <strong>Policy Type</strong> parameter is set to <strong>Threat Event</strong>, the valid values of the Scanned Asset parameter are All Assets, <strong>Public IP Address/Mask</strong>, <strong>Private IP</strong> <strong>Address/Mask</strong>, <strong>Public IP Address</strong>, and <strong>Private IP Address</strong>. |
-   | Response Method | The response method.<br>Note<br>After the <strong>Policy Type</strong> parameter is set to <strong>Threat Event</strong> or <strong>Alert</strong>, you can set the Response Method parameter to <strong>Interactive Handling</strong>.<br>• If you set this parameter to <strong>Interactive Handling</strong>, configure <strong>one or more</strong> <strong>handling rules</strong>. To configure a handling rule, configure the <strong>Entity</strong>, <strong>Handling</strong> <strong>Scenario</strong>, <strong>Applicable Scope</strong>, and <strong>Action Validity Period</strong> parameters. Click the<br><img src="assets/79d9a113fe77d789bfa671be5806021d.png" width="18" alt="">icon below the handling rule list to add multiple handling rules. To delete a<br>handling rule, find it and click <strong>Delete</strong> in the Actions column.<br>• If you set this parameter to <strong>Notifications</strong>, configure the following parameters:<br>• <strong>Notification Recipient</strong>: one or more contacts.<br>• <strong>Notification Method</strong>: one or more notification methods. Valid values: <strong>DingTalk</strong> and <strong>Email</strong>. |
+   | Response Method | The response method.<br>Note<br>After the <strong>Policy Type</strong> parameter is set to <strong>Threat Event</strong> or <strong>Alert</strong>, you can set the Response Method parameter to <strong>Interactive Handling</strong>.<br>• If you set this parameter to <strong>Interactive Handling</strong>, configure <strong>one or more</strong> <strong>handling rules</strong>. To configure a handling rule, configure the <strong>Entity</strong>, <strong>Handling</strong> <strong>Scenario</strong>, <strong>Applicable Scope</strong>, and <strong>Action Validity Period</strong> parameters. Click the<br><img src="en-cloud-security-center-user-guide-v3.18.6-20260701.assets/79d9a113fe77d789bfa671be5806021d.png" width="18" alt="">icon below the handling rule list to add multiple handling rules. To delete a<br>handling rule, find it and click <strong>Delete</strong> in the Actions column.<br>• If you set this parameter to <strong>Notifications</strong>, configure the following parameters:<br>• <strong>Notification Recipient</strong>: one or more contacts.<br>• <strong>Notification Method</strong>: one or more notification methods. Valid values: <strong>DingTalk</strong> and <strong>Email</strong>. |
 
 6. Click **OK**.
 

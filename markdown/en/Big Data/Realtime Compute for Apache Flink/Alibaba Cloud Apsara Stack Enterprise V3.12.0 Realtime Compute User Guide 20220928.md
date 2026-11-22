@@ -253,7 +253,7 @@ software applications to open and modify the template:
 
 Sample file for debugging the word count job
 
-![](assets/a07e586cc7becb156672c2b2fc707df5.jpeg)
+![](en-flink-user-guide-v3.12.0-20220928.assets/a07e586cc7becb156672c2b2fc707df5.jpeg)
 
 Test data
 
@@ -273,7 +273,7 @@ Real-time computing is triggered by data streams. Each data record from the stre
 
 - The second data record (aliyun) reaches Realtime Compute. The system detects an existing record of `<aliyun, 1>`  and increases the value by one. Therefore, the computing result is  `<aliyun, 2>` , which is displayed on the screen.
 
-  ![](assets/c667fcb1538d79457eda02a199272743.png)
+  ![](en-flink-user-guide-v3.12.0-20220928.assets/c667fcb1538d79457eda02a199272743.png)
 
 - The third data record (aliyun) reaches Realtime Compute. The system detects an existing record of  `<aliyun, 2>`  and increases the value by one. Therefore, the computing result is  `<aliyun, 3>` , which is displayed on the screen.
 
@@ -462,7 +462,7 @@ start time for reading data from the source data store.
 
 The specified start time must be earlier than the file upload time. For example, the start time can be one hour earlier than the file upload time. In the Double 11 use case, the current time is 14:10, and 10 minutes have elapsed since the source data is uploaded. Therefore, the start time is set to 13:00.
 
-![](assets/fc79844b7a02ccc3a38f7bec43afeafe.jpeg)
+![](en-flink-user-guide-v3.12.0-20220928.assets/fc79844b7a02ccc3a38f7bec43afeafe.jpeg)
 
 You can check the result data in the ApsaraDB for RDS data store after the job runs as expected. In the result table, five transactions and a turnover of CNY 500 are displayed. This is consistent with the source data for testing. In this way, an end-to-end verification is performed to check the SQL code.
 
@@ -482,7 +482,7 @@ Create a project
 
 4. Configure the project information.
 
-   ![](assets/57ac5704b00e27ad86e9c75079416fda.png)
+   ![](en-flink-user-guide-v3.12.0-20220928.assets/57ac5704b00e27ad86e9c75079416fda.png)
 
    Parameter description
 
@@ -522,7 +522,7 @@ Search for a project
 
 On the Projects page, enter a keyword or full name of a project in the search box to find the project.
 
-![](assets/f716d8a92fca47dfe56a2dd195c9ca58.png)
+![](en-flink-user-guide-v3.12.0-20220928.assets/f716d8a92fca47dfe56a2dd195c9ca58.png)
 
 <a id="section-4"></a>
 
@@ -597,7 +597,7 @@ To register a data store, follow these steps:
 
    Register a data store
 
-   ![](assets/d9e41cbb78c7162a21001fb35000960d.png)
+   ![](en-flink-user-guide-v3.12.0-20220928.assets/d9e41cbb78c7162a21001fb35000960d.png)
 
 4. In the dialog box that appears, configure the required parameters and click OK.
 
@@ -617,7 +617,7 @@ Realtime Compute provides the data preview feature for each registered data stor
 
    Table details
 
-   ![](assets/c79410f37d7790751c3c91192561d116.png)
+   ![](en-flink-user-guide-v3.12.0-20220928.assets/c79410f37d7790751c3c91192561d116.png)
 
 Use the auto DDL generation feature
 
@@ -639,7 +639,7 @@ The field names in the table that is referenced on the Development page must be 
 
 To reference a source table, log on to the Realtime Compute console and open the target SQL file on the Development page. Click the Storage tab, select the table for reference, and then click Reference as Source Table. The required DDL statements are displayed on the current page.
 
-![](assets/849e61a1796f76942c34a1e02418a710.png)
+![](en-flink-user-guide-v3.12.0-20220928.assets/849e61a1796f76942c34a1e02418a710.png)
 
 Test network connection
 
@@ -651,7 +651,7 @@ Realtime Compute offers the network connection test feature for data stores. Thi
 
 3. In the Register Data Store and Test Connection dialog box, turn on Test Connection.
 
-![](assets/525c2934b2024d1ee3085a0bc04d6e99.png)
+![](en-flink-user-guide-v3.12.0-20220928.assets/525c2934b2024d1ee3085a0bc04d6e99.png)
 
 Example: Reference data stores owned by another level-1 organization
 
@@ -846,25 +846,25 @@ After you register an RDS data store, double-click the RDS database, double-clic
 
 Reference an RDS table as a result table
 
-![](assets/7ffbd2d3055f31a836b06c24b7debc83.png)
+![](en-flink-user-guide-v3.12.0-20220928.assets/7ffbd2d3055f31a836b06c24b7debc83.png)
 
 After you click Reference as Result Table, Realtime Compute automatically generates the corresponding DDL statements on the current page.
 
 Result Result
 
-![](assets/8fed4e13c494e4087994571a0eaa1a92.png)
+![](en-flink-user-guide-v3.12.0-20220928.assets/8fed4e13c494e4087994571a0eaa1a92.png)
 
 If the following error message appears, troubleshoot and rectify the fault as follows.
 
 Error message
 
-![](assets/61d7ddc6cf0f260ca477792d6226ab12.jpeg)
+![](en-flink-user-guide-v3.12.0-20220928.assets/61d7ddc6cf0f260ca477792d6226ab12.jpeg)
 
 The error occurs because a VPC (not a classic network) was selected when you created the RDS instance. To rectify this fault, follow these steps:
 
 1. Move the pointer over the administrator icon, as shown in the following figure.
 
-   ![](assets/ab423960375ddcbdeb15231f04512458.png)
+   ![](en-flink-user-guide-v3.12.0-20220928.assets/ab423960375ddcbdeb15231f04512458.png)
 
 2. Click System Settings.
 
@@ -874,7 +874,7 @@ The error occurs because a VPC (not a classic network) was selected when you cre
 
    Authorization
 
-   ![](assets/5e06119dad096365a91198fdb56bd372.png)
+   ![](en-flink-user-guide-v3.12.0-20220928.assets/5e06119dad096365a91198fdb56bd372.png)
 
    Parameters
 
@@ -883,7 +883,7 @@ The error occurs because a VPC (not a classic network) was selected when you cre
    | Name | The name of the VPC. |
    | Region | The region where RDS resides. |
    | VPC ID | The ID of the VPC. |
-   | Instance ID | The ID of the RDS instance. You can log on to the RDS console and view the instance ID.Instance information<br>![](assets/e76078275979f95c6a63e8b84070281e.png) |
+   | Instance ID | The ID of the RDS instance. You can log on to the RDS console and view the instance ID.Instance information<br>![](en-flink-user-guide-v3.12.0-20220928.assets/e76078275979f95c6a63e8b84070281e.png) |
    | Instance Port | The access port for the RDS instance. To view the internal port number, log on to the RDS console, click the target instance ID or name in the Instance ID/Name column. On the page that appears, view the internal port number in the Basic Information section. |
 
 5. Register the target RDS instance. You must specify the required parameters during the registration.
@@ -900,7 +900,7 @@ The user from Organization B must also specify the following parameters in the W
 
 Configuration Configuration
 
-![](assets/10beb814e7e42b58a4a5576c0097f46f.png)
+![](en-flink-user-guide-v3.12.0-20220928.assets/10beb814e7e42b58a4a5576c0097f46f.png)
 
 To use RDS storage resources by writing SQL code, the user from Organization B must specify whitelist settings.
 
@@ -920,7 +920,7 @@ To do this, follow these steps:
 
 4. On the Whitelist Settings tab, click Edit corresponding to the default whitelist.
 
-   ![](assets/01ea2a600244c926d249786ed3e69526.png)
+   ![](en-flink-user-guide-v3.12.0-20220928.assets/01ea2a600244c926d249786ed3e69526.png)
 
    Note
 
@@ -930,7 +930,7 @@ To do this, follow these steps:
 
 5. In the Edit Whitelist dialog box that appears, specify the IP addresses or CIDR blocks that are used to access the instance, and then click OK.
 
-   ![](assets/e7c50a344ec1c14badfb1b4ca3db80ee.png)
+   ![](en-flink-user-guide-v3.12.0-20220928.assets/e7c50a344ec1c14badfb1b4ca3db80ee.png)
 
    - If you specify the 10.10.10.0/24 CIDR block, IP addresses in the 10.10.10.X format are allowed to access the RDS instance.
 
@@ -950,7 +950,7 @@ Troubleshooting
 
   A stack exception occurs while the system is running, as shown in the following figure.
 
-  ![](assets/5e438142ed44a3836e785fc4d2c73021.png)
+  ![](en-flink-user-guide-v3.12.0-20220928.assets/5e438142ed44a3836e785fc4d2c73021.png)
 
 - Solution
 
@@ -1140,7 +1140,7 @@ The debugging feature of Realtime Compute provides the following functions:
 
   Isolation between debugging and production environments
 
-  ![](assets/7c25a6e5a7722c827320e8a3ab49d2f4.png)
+  ![](en-flink-user-guide-v3.12.0-20220928.assets/7c25a6e5a7722c827320e8a3ab49d2f4.png)
 
 - Supports the customization of test data.
 
@@ -1182,7 +1182,7 @@ The debugging feature of Realtime Compute provides the following functions:
 
   Specify a separator
 
-  ![](assets/98d559e9e65d5708adba0ecd6f49137f.png)
+  ![](en-flink-user-guide-v3.12.0-20220928.assets/98d559e9e65d5708adba0ecd6f49137f.png)
 
 <a id="section-5-4"></a>
 
@@ -1202,7 +1202,7 @@ Procedure
 
    Configure resources
 
-   ![](assets/a624e7b3d06ecdae3b11de3ab7d311c2.png)
+   ![](en-flink-user-guide-v3.12.0-20220928.assets/a624e7b3d06ecdae3b11de3ab7d311c2.png)
 
 5. Check the data. After the check is completed, click Next.
 
@@ -1264,19 +1264,19 @@ Procedure
 
 2. At the bottom of the Overview page, click the name of the target vertex.
 
-   ![](assets/8d11396468cc3b8a52e29daf2b6923eb.jpeg)
+   ![](en-flink-user-guide-v3.12.0-20220928.assets/8d11396468cc3b8a52e29daf2b6923eb.jpeg)
 
 3. On the Execution Vertex page, click the Subtask List tab, and click View Logs in the Actions column.
 
-   ![](assets/1ca18b7455af1343d14ad7307da5a3ea.jpeg)
+   ![](en-flink-user-guide-v3.12.0-20220928.assets/1ca18b7455af1343d14ad7307da5a3ea.jpeg)
 
 4. In the Log dialog box that appears, click View Logs for taskmanager.log in the Actions column.
 
-   ![](assets/1494797388134127b72ec104ef243754.png)
+   ![](en-flink-user-guide-v3.12.0-20220928.assets/1494797388134127b72ec104ef243754.png)
 
 5. On the Container Log tab, view the log entries.
 
-   ![](assets/17fec65798611fe0639a7a32fc1b9700.jpeg)
+   ![](en-flink-user-guide-v3.12.0-20220928.assets/17fec65798611fe0639a7a32fc1b9700.jpeg)
 
    Note
 

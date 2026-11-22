@@ -76,11 +76,11 @@ Before using ARMS Open API and ES API, you can test them with the third-party so
 
 Figure 1. Testing ARMS Open API with Postman
 
-![](assets/56094a5ad50289c5f1f45fdc336772ab.jpeg)
+![](en-arms-developer-guide-v3.18.6-2607-20260828.assets/56094a5ad50289c5f1f45fdc336772ab.jpeg)
 
 Figure 2. Testing ES Rest API with Postman
 
-![](assets/fb0b91fa081577e1aced12ec4c9a6d43.png)
+![](en-arms-developer-guide-v3.18.6-2607-20260828.assets/fb0b91fa081577e1aced12ec4c9a6d43.png)
 
 <a id="section-3"></a>
 
@@ -363,11 +363,11 @@ Before obtaining the index of an event set, you need to obtain the user ID, even
 
 1. Obtain the user ID.
 
-   ![](assets/757b483d57eca7f6b72075aec7d48cf9.jpeg)
+   ![](en-arms-developer-guide-v3.18.6-2607-20260828.assets/757b483d57eca7f6b72075aec7d48cf9.jpeg)
 
 2. Obtain the event set ID by viewing the event set list interface on the event search page in the browser.
 
-   ![](assets/c56744f9dedb49de908ef63fc70ec162.jpeg)
+   ![](en-arms-developer-guide-v3.18.6-2607-20260828.assets/c56744f9dedb49de908ef63fc70ec162.jpeg)
 
 The indexes of event sets are divided into the following two types:
 
@@ -419,7 +419,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
 1. Enter the URL of the Apsara Uni-manager Management Console in the address bar and press Enter.
 
-   ![](assets/687f6d006b35a4552292b1f7b3755914.jpeg)
+   ![](en-arms-developer-guide-v3.18.6-2607-20260828.assets/687f6d006b35a4552292b1f7b3755914.jpeg)
 
    > **Note**
    >
@@ -483,7 +483,7 @@ This topic describes how to log on to the Apsara Uni-manager Management Console.
 
 2. On the Forgot Password page, enter your **Account Name**, **Email Address**, and verification code, and then click **Confirm**.
 
-   ![](assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
+   ![](en-arms-developer-guide-v3.18.6-2607-20260828.assets/ac6a60f6a1f8edfafab7d3f08d294c4b.jpeg)
 
    > **Note**
    >

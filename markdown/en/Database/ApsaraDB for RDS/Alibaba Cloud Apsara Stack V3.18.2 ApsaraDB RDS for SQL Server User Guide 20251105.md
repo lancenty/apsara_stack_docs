@@ -541,7 +541,7 @@ The following figure shows the operations that you must perform before you use a
 
 Figure 1. Quick start flowchart
 
-![](assets/9ab92f5fdd5e7a51b10fecc48abc82bb.jpeg)
+![](en-rds-rds-sql-server-user-guide-v3.18.2-20251105.assets/9ab92f5fdd5e7a51b10fecc48abc82bb.jpeg)
 
 <a id="section-5-2"></a>
 
@@ -1257,7 +1257,7 @@ When a read-only instance is created, the data is replicated from the secondary 
 
 The following figure shows the topology of read-only instances.
 
-![](assets/f87a146e34ef19ce1caa587b85aa2cc7.png)
+![](en-rds-rds-sql-server-user-guide-v3.18.2-20251105.assets/f87a146e34ef19ce1caa587b85aa2cc7.png)
 
 **Features**
 
@@ -1384,7 +1384,7 @@ This topic describes how to view details of read-only instances. You can go to t
 
    Figure 1. View a read-only instance
 
-   ![](assets/4a1a51458d13bc6153ccfcd6ebbafb82.png)
+   ![](en-rds-rds-sql-server-user-guide-v3.18.2-20251105.assets/4a1a51458d13bc6153ccfcd6ebbafb82.png)
 
 **View instance details by using the primary instance**
 
@@ -1546,7 +1546,7 @@ This topic describes how to delete a database from an ApsaraDB RDS for SQL Serve
 
 5. In the **Login instance** dialog box of the **DMS** console, check values of **Database type**, **Instance Area**, and **Connection string address**. If the information is correct, enter **Database account** and **Database password**, as shown in the following figure.
 
-   ![](assets/cc36d0d80668189d733099aa5c456905.png)
+   ![](en-rds-rds-sql-server-user-guide-v3.18.2-20251105.assets/cc36d0d80668189d733099aa5c456905.png)
 
    | Parameter | Description |
    | --- | --- |
@@ -2097,7 +2097,7 @@ After you enable SSL encryption, configure the SSL CA certificate on your applic
 
 3. Enable **Use SSL** and import the SSL CA certificate file.
 
-   ![](assets/52444acd61d7ec53a114e89d36b54ee4.png)
+   ![](en-rds-rds-sql-server-user-guide-v3.18.2-20251105.assets/52444acd61d7ec53a114e89d36b54ee4.png)
 
 **Configure a certificate on Navicat**
 
@@ -2137,7 +2137,7 @@ After you enable SSL encryption, configure the SSL CA certificate on your applic
 
 6. Click **Update Validity**.
 
-   ![](assets/5b3515f9d036c25ee096336e083cfb7b.png)
+   ![](en-rds-rds-sql-server-user-guide-v3.18.2-20251105.assets/5b3515f9d036c25ee096336e083cfb7b.png)
 
 7. In the message that appears, click **OK**.
 
@@ -2183,7 +2183,7 @@ Transparent Data Encryption (TDE) allows you to perform real-time I/O encryption
 
    icon to add them to the
 
-   <img src="assets/30539a0889e2e197f63f4c14c8eaba08.png" width="20" alt="">
+   <img src="en-rds-rds-sql-server-user-guide-v3.18.2-20251105.assets/30539a0889e2e197f63f4c14c8eaba08.png" width="20" alt="">
 
    **Selected Databases** list.
 

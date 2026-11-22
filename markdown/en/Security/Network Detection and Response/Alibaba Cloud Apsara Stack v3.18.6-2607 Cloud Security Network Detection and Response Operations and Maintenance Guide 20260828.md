@@ -42,7 +42,7 @@ This topic describes how to log on to the Apsara Infrastructure Management conso
 
 2. In the address bar, enter the endpoint of the Apsara Uni-manager Operations Console. Press the ENTER key.
 
-   ![](assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
+   ![](en-ndr-operations-guide-v3.18.6-2607-20260828.assets/9a170d3462a995734d5c308b15bd4e44.jpeg)
 
    > **Note**
    >
@@ -168,7 +168,7 @@ The purpose of an advanced inspection is to check the service status and feature
 
    <li>
 
-   In the left-side navigation pane, click the node to which you want to log in or the <img src="assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon.
+   In the left-side navigation pane, click the node to which you want to log in or the <img src="en-ndr-operations-guide-v3.18.6-2607-20260828.assets/b7c2ed0147a637efad9f6dc60420ee3d.png" width="14" alt=""> icon.
 
    </li>
 
@@ -198,19 +198,19 @@ The purpose of an advanced inspection is to check the service status and feature
 
    Run the  `sudo cat /dev/shm/beaver_debug_info`  command. If the **speed(K)** value in the second-to-last row in the output is not 0, the traffic mirroring is normal.
 
-   ![](assets/180400816fc84f31cd29ce800bb2e83c.jpeg)
+   ![](en-ndr-operations-guide-v3.18.6-2607-20260828.assets/180400816fc84f31cd29ce800bb2e83c.jpeg)
 
 5. Check the configurations of the protected CIDR block.
 
    Run the  `tail -f /dev/shm/banff-<year>-<month>.log`  command. Replace *&lt;year>* with the current year and *&lt;month>* with the current month. For example, if the year and month are March 2023, query the banff-2023-03.log file. The CIDR block in the command output is a Server Load Balancer (SLB) or Elastic IP Address (EIP) CIDR block on the classic network. However, if the CIDR block is connected to a customer access switch (CSW), a CIDR block in a virtual private cloud (VPC) is returned.
 
-   ![](assets/af3fc79810f8b3fc90bdf746d068a91a.jpeg)
+   ![](en-ndr-operations-guide-v3.18.6-2607-20260828.assets/af3fc79810f8b3fc90bdf746d068a91a.jpeg)
 
 6. View the status of all NDR processes.
 
    Run the python /opt/beaver/bin/scripts/check_beaver_process.py command. If the client not exist process and server not exist process parameters have no values, all NDR processes are normal.
 
-   ![](assets/ccaa6628ba00389c12596e4b8df13d53.jpeg)
+   ![](en-ndr-operations-guide-v3.18.6-2607-20260828.assets/ccaa6628ba00389c12596e4b8df13d53.jpeg)
 
 <a id="section-3"></a>
 
@@ -246,7 +246,7 @@ This topic describes how to log in to Simple Log Service (SLS) to view Network D
 
 3. On the **Service Registration Variable Dashboard** page, enter **sls** in the search box, find
 
-   the **sls-common** service, click the <img src="assets/fffb87f630f4a135c091005d5fc72ee2.png" width="21" alt=""> icon in the **Service Registration** column, and then
+   the **sls-common** service, click the <img src="en-ndr-operations-guide-v3.18.6-2607-20260828.assets/fffb87f630f4a135c091005d5fc72ee2.png" width="21" alt=""> icon in the **Service Registration** column, and then
 
    click the information.
 
@@ -494,7 +494,7 @@ This topic describes how to view the network interface controller (NIC) types, c
 lspci | grep net
 ```
 
-![](assets/09b5b483e5f00f3cc690062e279a6aab.jpeg)
+![](en-ndr-operations-guide-v3.18.6-2607-20260828.assets/09b5b483e5f00f3cc690062e279a6aab.jpeg)
 
 > **Note**
 >
@@ -518,7 +518,7 @@ lspci | grep net
 /home/admin/beaver_drv/beaver_lib/bvpp_sdk/bvpp/tools/ether_ctl --dump
 ```
 
-![](assets/dc056b121eb5feb4c627127b516c5dc8.jpeg)
+![](en-ndr-operations-guide-v3.18.6-2607-20260828.assets/dc056b121eb5feb4c627127b516c5dc8.jpeg)
 
 > **Note**
 >
@@ -530,7 +530,7 @@ lspci | grep net
 /home/admin/beaver_drv/beaver_lib/bvpp_sdk/scripts/bvpp_lldp_info.py
 ```
 
-![](assets/66bf64940a2c0ae01a414eea7df93d4d.jpeg)
+![](en-ndr-operations-guide-v3.18.6-2607-20260828.assets/66bf64940a2c0ae01a414eea7df93d4d.jpeg)
 
 > **Note**
 >
@@ -556,7 +556,7 @@ This topic describes the built-in packet capture tools of Network Detection and 
 
 The following logs are generated:
 
-![](assets/d158cc810f91e6502eb115592ccca6f6.jpeg)
+![](en-ndr-operations-guide-v3.18.6-2607-20260828.assets/d158cc810f91e6502eb115592ccca6f6.jpeg)
 
 > **Note**
 >

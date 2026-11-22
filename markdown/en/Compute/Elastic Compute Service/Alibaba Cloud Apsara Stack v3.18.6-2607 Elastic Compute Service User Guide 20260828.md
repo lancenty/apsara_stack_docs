@@ -359,11 +359,11 @@ The following table describes the instance states in the ECS console and their c
 
 The following figure shows the transitions between instance states in API responses.
 
-![](assets/a3364c021aa9ce3513f96f93ea8d4546.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/a3364c021aa9ce3513f96f93ea8d4546.png)
 
-![](assets/ef4af774ea4834841f5e4023254b23c5.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/ef4af774ea4834841f5e4023254b23c5.png)
 
-![](assets/1625d27d9e67a13cbdad64b9cf30c4da.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/1625d27d9e67a13cbdad64b9cf30c4da.png)
 
 Stable
 
@@ -817,7 +817,7 @@ Security groups determine whether ECS instances that belong to the same virtual 
    >
    > **>**
    >
-   > <img src="assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
+   > <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
    >
    > **Sharing Settings** in the **Actions** column of the security group.
 
@@ -859,7 +859,7 @@ Security groups determine whether ECS instances that belong to the same virtual 
 
    Yes
 
-   and click the <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt=""> icon to update the VPC list. For
+   and click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt=""> icon to update the VPC list. For
 
    more information about how to create a VPC, see the **Create a VPC** topic in **VPC User Guide**.
 
@@ -982,7 +982,7 @@ An instance type defines the basic computing, storage, and network performance a
 >
 > The quota headroom displays the CPU, GPU, and memory quotas for the current region,
 >
-> organization, and resource set. If the quota is insufficient, click the <img src="assets/6534212dc59bddf214b4522cc08538cc.png" width="18" alt=""> icon to view and
+> organization, and resource set. If the quota is insufficient, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/6534212dc59bddf214b4522cc08538cc.png" width="18" alt=""> icon to view and
 >
 > set the quota.
 
@@ -1009,7 +1009,7 @@ An instance type defines the basic computing, storage, and network performance a
   <tr>
     <td>Super Computing Cluster</td>
     <td>Determined by the Category and instance type</td>
-    <td>The ID of the Super Computing Cluster where the instance resides. You can select an existing Super Computing Cluster or click <strong>Create Cluster</strong> to create a new one. After the creation is complete, return to the ECS instance creation<br>wizard and click the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the latest Super<br>Computing Cluster list. For more information about how to create a Super Computing Cluster, see Create an SCC.<br>You can view and select this parameter only when the <strong>Category</strong> is <strong>Super Computing Cluster</strong> and you have selected an SCC instance type. In this case, this parameter is required.</td>
+    <td>The ID of the Super Computing Cluster where the instance resides. You can select an existing Super Computing Cluster or click <strong>Create Cluster</strong> to create a new one. After the creation is complete, return to the ECS instance creation<br>wizard and click the<img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the latest Super<br>Computing Cluster list. For more information about how to create a Super Computing Cluster, see Create an SCC.<br>You can view and select this parameter only when the <strong>Category</strong> is <strong>Super Computing Cluster</strong> and you have selected an SCC instance type. In this case, this parameter is required.</td>
   </tr>
   <tr>
     <td>Cluster instance count</td>
@@ -1075,7 +1075,7 @@ Instances gain storage capabilities when you add system disks and data disks. Yo
 >
 > The quota headroom displays the disk quotas and the quotas for different cloud disk types in the current region, organization, and resource set. If the quota is insufficient,
 >
-> click the <img src="assets/6534212dc59bddf214b4522cc08538cc.png" width="18" alt=""> icon to view and configure the quota.
+> click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/6534212dc59bddf214b4522cc08538cc.png" width="18" alt=""> icon to view and configure the quota.
 
 | Configuration item | Required | Description |
 | --- | --- | --- |
@@ -1134,13 +1134,13 @@ Network and security group configurations provide ECS instances with public netw
 
 | Configuration item | Required | Description |
 | --- | --- | --- |
-| VPC/VSwitch | Yes | A VPC is an isolated network environment that you define on Alibaba Cloud. You have full control over your VPC, such as selecting the IP address range, configuring route tables, and setting up gateways.<br>Select an existing VPC and vSwitch, or click <strong>Create VPC</strong> or <strong>Create VSwitch</strong> to create a VPC and a vSwitch. After the creation is complete, return to the ECS instance creation wizard and<br>click the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the VPC and vSwitch<br>lists. For more information about creating a VPC, see the <strong>VPC User Guide</strong> in the Apsara Stack Documentation Center, specifically the <strong>Create</strong> <strong>and manage a VPC</strong> and <strong>Create and manage a</strong> <strong>vSwitch</strong> sections.<br>Important<br>When you create an instance of the Super Computing Cluster (SCC) specification, if the SCC already has a VPC ID configured, the system automatically populates the VPC ID of the SCC and does not allow modification.For more information, see Add nodes to a Super Computing Cluster (SCC). |
+| VPC/VSwitch | Yes | A VPC is an isolated network environment that you define on Alibaba Cloud. You have full control over your VPC, such as selecting the IP address range, configuring route tables, and setting up gateways.<br>Select an existing VPC and vSwitch, or click <strong>Create VPC</strong> or <strong>Create VSwitch</strong> to create a VPC and a vSwitch. After the creation is complete, return to the ECS instance creation wizard and<br>click the<img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the VPC and vSwitch<br>lists. For more information about creating a VPC, see the <strong>VPC User Guide</strong> in the Apsara Stack Documentation Center, specifically the <strong>Create</strong> <strong>and manage a VPC</strong> and <strong>Create and manage a</strong> <strong>vSwitch</strong> sections.<br>Important<br>When you create an instance of the Super Computing Cluster (SCC) specification, if the SCC already has a VPC ID configured, the system automatically populates the VPC ID of the SCC and does not allow modification.For more information, see Add nodes to a Super Computing Cluster (SCC). |
 | Private IP Address | No | Specify a private IPv4 address for the instance.The IP address range depends on the vSwitch CIDR block.<br>If you select random assignment for the private IP address, the system automatically assigns a private IP address. |
 | Public IP Address | No | If the instance requires public network communication, you must assign a public IP address.<br>You can choose to automatically assign a fixed public IP address when you create the instance, or bind an Elastic IP Address (EIP) after you create the instance. For more information, see the <strong>VPC User Guide</strong>, specifically the <strong>Create</strong> <strong>and manage an EIP</strong> section. |
 | Bandwidth (Mbit/s) | No | When you select <strong>Assign Public IPv4 Address</strong>, you must set the bandwidth value (1 to 100). |
-| Security group | Yes | Select an existing security group, or click <strong>Create</strong> <strong>Security Group</strong> to create a security group. After the creation is complete, return to the ECS<br>instance creation wizard and click the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to<br>view the latest security group list. For more information about creating a security group, see Create a security group. You can select multiple security groups for an ECS instance.<br>Important<br>When you create an instance of the Super Computing Cluster (SCC) specification, if the SCC already has a security group ID configured, the system automatically populates the security group ID of the SCC and does not allow modification. For more information, see Add nodes to a Super Computing Cluster (SCC). |
+| Security group | Yes | Select an existing security group, or click <strong>Create</strong> <strong>Security Group</strong> to create a security group. After the creation is complete, return to the ECS<br>instance creation wizard and click the<img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to<br>view the latest security group list. For more information about creating a security group, see Create a security group. You can select multiple security groups for an ECS instance.<br>Important<br>When you create an instance of the Super Computing Cluster (SCC) specification, if the SCC already has a security group ID configured, the system automatically populates the security group ID of the SCC and does not allow modification. For more information, see Add nodes to a Super Computing Cluster (SCC). |
 | IPv6 | No | The large number of IPv6 addresses resolves the shortage of network address resources and removes barriers for various devices to connect to the Internet.<br>Select <strong>Assign</strong>. After you create the instance, you must log on to the instance and configure the IPv6 address in the operating system before you can use the IPv6 address. |
-| ENI | No | Select an existing ENI, or click <strong>Create ENI</strong> to create an ENI. After the creation is complete, return to the ECS instance creation wizard and<br>click the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the VPC and vSwitch<br>lists.<br>Note<br>You can add only one secondary ENI when you create an instance. You can also create a secondary ENI separately and bind it to the instance after the creation is complete. |
+| ENI | No | Select an existing ENI, or click <strong>Create ENI</strong> to create an ENI. After the creation is complete, return to the ECS instance creation wizard and<br>click the<img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the VPC and vSwitch<br>lists.<br>Note<br>You can add only one secondary ENI when you create an instance. You can also create a secondary ENI separately and bind it to the instance after the creation is complete. |
 
 **Manage configurations**
 
@@ -1158,7 +1158,7 @@ pair or reset the instance password.
 
 Select an existing key pair, or click **Create Key Pair** to create a key pair immediately. After the creation completes, return to the ECS instance
 
-creation wizard and click the <img src="assets/73912f5f541ba81f73f62be2449526ac.png" width="16" alt=""> icon to view the
+creation wizard and click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/73912f5f541ba81f73f62be2449526ac.png" width="16" alt=""> icon to view the
 
 latest key pair list. For more information, see Create a key pair.
 
@@ -1244,7 +1244,7 @@ MyInstance001, and MyInstance002.
 
 When you create instances in batches, you can customize sequential instance names. For example, you can use the
 
-![](assets/d3ed4753c2ad90e2ec544f490e8a6fef.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/d3ed4753c2ad90e2ec544f490e8a6fef.png)
 
 valid range of begin_number is [0,999999], and the valid range of bits is [1,6]. If you do not specify bits, the default value is 6.
 
@@ -1269,7 +1269,7 @@ description supports Chinese characters, English letters, digits, half-width per
   </tr>
 </table>
 
-![](assets/c31fb0f31499c12fd577ed1997adb82a.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/c31fb0f31499c12fd577ed1997adb82a.png)
 
 <table>
   <tr>
@@ -1280,7 +1280,7 @@ description supports Chinese characters, English letters, digits, half-width per
   <tr>
     <td>Deployment Set<br>Important<br>This parameter is not available when you create an instance of a Super Computing Cluster (SCC) specification.</td>
     <td>No</td>
-    <td>You can select an existing deployment set, or click <strong>Create Deployment Set</strong> to create a deployment set immediately. After the creation completes, return to the ECS instance creation<br>wizard and click the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the latest<br>deployment set list. For more information about creating a deployment set, see Create a deployment set.<br>A deployment set is a policy that controls the distribution of ECS instances. It enables you to design disaster recovery capabilities and availability when you create ECS instances. You can use deployment sets to distribute or aggregate the instances that your business requires.</td>
+    <td>You can select an existing deployment set, or click <strong>Create Deployment Set</strong> to create a deployment set immediately. After the creation completes, return to the ECS instance creation<br>wizard and click the<img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the latest<br>deployment set list. For more information about creating a deployment set, see Create a deployment set.<br>A deployment set is a policy that controls the distribution of ECS instances. It enables you to design disaster recovery capabilities and availability when you create ECS instances. You can use deployment sets to distribute or aggregate the instances that your business requires.</td>
   </tr>
   <tr>
     <td>Custom data format</td>
@@ -1385,11 +1385,11 @@ Connection tools are used in a similar way. In this example, PuTTY is used to co
 
 3. Click **Open** to connect to the instance. The first time you connect to the instance, a PuTTY security alert is displayed. Click **Yes** to proceed.
 
-4. Enter **root** as the username and press the <img src="assets/9dc8ae8849a8d7033f8cd174b6c00018.png" width="38" alt="">
+4. Enter **root** as the username and press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/9dc8ae8849a8d7033f8cd174b6c00018.png" width="38" alt="">
 
    `Enter` key.
 
-5. Enter the password of the instance and press the <img src="assets/c933864700eec0c36bc90952806ffd35.png" width="38" alt="">
+5. Enter the password of the instance and press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c933864700eec0c36bc90952806ffd35.png" width="38" alt="">
 
    `Enter` key.
 
@@ -1431,13 +1431,13 @@ This topic describes how to connect to a Windows instance by using Remote Deskto
    >
    > Operations may vary based on your operating system.
 
-   - On the taskbar of the Windows desktop, enter <img src="assets/170bbe9c625c5093fee51104b8f5e15d.png" width="38" alt="">
+   - On the taskbar of the Windows desktop, enter <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/170bbe9c625c5093fee51104b8f5e15d.png" width="38" alt="">
 
      `mstsc` in the search box. Then, click
 
      **Remote Desktop Connection** in the search results.
 
-   - Press the Windows logo key+R. In the **Run** dialog box, enter <img src="assets/26a6d4500dab237a28ac1045c640c7fa.png" width="38" alt="">
+   - Press the Windows logo key+R. In the **Run** dialog box, enter <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/26a6d4500dab237a28ac1045c640c7fa.png" width="38" alt="">
 
      `mstsc` and click **OK**.
 
@@ -1505,11 +1505,11 @@ You can use a VNC management terminal to connect to an instance to solve specifi
 
 5. Enter the VNC password and click **OK**. After you are logged on to the VNC management terminal, a logon page similar to the following one appears.
 
-   ![](assets/8c1999a0560e99ff31af2354c2983ed9.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/8c1999a0560e99ff31af2354c2983ed9.png)
 
 6. Enter your username and password.
 
-   - For a Linux instance, enter the username <img src="assets/a8b423740f33f121910ffe67e02bc19b.png" width="32" alt="">
+   - For a Linux instance, enter the username <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/a8b423740f33f121910ffe67e02bc19b.png" width="32" alt="">
 
      `root` and the logon password.
 
@@ -1521,9 +1521,9 @@ You can use a VNC management terminal to connect to an instance to solve specifi
 
    - For a Windows instance, to use a keyboard shortcut such as Ctrl+Alt+Delete, click the List icon in the upper-left corner of the page and select the keyboard shortcut from the drop-down list.
 
-     ![](assets/9cef5e6709df66462048704b157a2ca4.png)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/9cef5e6709df66462048704b157a2ca4.png)
 
-     <img src="assets/74594c3d11f6adbed4a775eb4069b3bb.png" width="28" alt="">
+     <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/74594c3d11f6adbed4a775eb4069b3bb.png" width="28" alt="">
 
      Enter the username and password as prompted. Then, click the Log On icon, such as
 
@@ -1636,7 +1636,7 @@ An instance type defines the basic computing, storage, and network performance a
 >
 > The quota headroom displays the CPU, GPU, and memory quotas for the current region,
 >
-> organization, and resource set. If the quota is insufficient, click the <img src="assets/6534212dc59bddf214b4522cc08538cc.png" width="18" alt=""> icon to view and
+> organization, and resource set. If the quota is insufficient, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/6534212dc59bddf214b4522cc08538cc.png" width="18" alt=""> icon to view and
 >
 > set the quota.
 
@@ -1663,7 +1663,7 @@ An instance type defines the basic computing, storage, and network performance a
   <tr>
     <td>Super Computing Cluster</td>
     <td>Determined by the Category and instance type</td>
-    <td>The ID of the Super Computing Cluster where the instance resides. You can select an existing Super Computing Cluster or click <strong>Create Cluster</strong> to create a new one. After the creation is complete, return to the ECS instance creation<br>wizard and click the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the latest Super<br>Computing Cluster list. For more information about how to create a Super Computing Cluster, see Create an SCC.<br>You can view and select this parameter only when the <strong>Category</strong> is <strong>Super Computing Cluster</strong> and you have selected an SCC instance type. In this case, this parameter is required.</td>
+    <td>The ID of the Super Computing Cluster where the instance resides. You can select an existing Super Computing Cluster or click <strong>Create Cluster</strong> to create a new one. After the creation is complete, return to the ECS instance creation<br>wizard and click the<img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the latest Super<br>Computing Cluster list. For more information about how to create a Super Computing Cluster, see Create an SCC.<br>You can view and select this parameter only when the <strong>Category</strong> is <strong>Super Computing Cluster</strong> and you have selected an SCC instance type. In this case, this parameter is required.</td>
   </tr>
   <tr>
     <td>Cluster instance count</td>
@@ -1729,7 +1729,7 @@ Instances gain storage capabilities when you add system disks and data disks. Yo
 >
 > The quota headroom displays the disk quotas and the quotas for different cloud disk types in the current region, organization, and resource set. If the quota is insufficient,
 >
-> click the <img src="assets/6534212dc59bddf214b4522cc08538cc.png" width="18" alt=""> icon to view and configure the quota.
+> click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/6534212dc59bddf214b4522cc08538cc.png" width="18" alt=""> icon to view and configure the quota.
 
 | Configuration item | Required | Description |
 | --- | --- | --- |
@@ -1788,13 +1788,13 @@ Network and security group configurations provide ECS instances with public netw
 
 | Configuration item | Required | Description |
 | --- | --- | --- |
-| VPC/VSwitch | Yes | A VPC is an isolated network environment that you define on Alibaba Cloud. You have full control over your VPC, such as selecting the IP address range, configuring route tables, and setting up gateways.<br>Select an existing VPC and vSwitch, or click <strong>Create VPC</strong> or <strong>Create VSwitch</strong> to create a VPC and a vSwitch. After the creation is complete, return to the ECS instance creation wizard and<br>click the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the VPC and vSwitch<br>lists. For more information about creating a VPC, see the <strong>VPC User Guide</strong> in the Apsara Stack Documentation Center, specifically the <strong>Create</strong> <strong>and manage a VPC</strong> and <strong>Create and manage a</strong> <strong>vSwitch</strong> sections.<br>Important<br>When you create an instance of the Super Computing Cluster (SCC) specification, if the SCC already has a VPC ID configured, the system automatically populates the VPC ID of the SCC and does not allow modification.For more information, see Add nodes to a Super Computing Cluster (SCC). |
+| VPC/VSwitch | Yes | A VPC is an isolated network environment that you define on Alibaba Cloud. You have full control over your VPC, such as selecting the IP address range, configuring route tables, and setting up gateways.<br>Select an existing VPC and vSwitch, or click <strong>Create VPC</strong> or <strong>Create VSwitch</strong> to create a VPC and a vSwitch. After the creation is complete, return to the ECS instance creation wizard and<br>click the<img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the VPC and vSwitch<br>lists. For more information about creating a VPC, see the <strong>VPC User Guide</strong> in the Apsara Stack Documentation Center, specifically the <strong>Create</strong> <strong>and manage a VPC</strong> and <strong>Create and manage a</strong> <strong>vSwitch</strong> sections.<br>Important<br>When you create an instance of the Super Computing Cluster (SCC) specification, if the SCC already has a VPC ID configured, the system automatically populates the VPC ID of the SCC and does not allow modification.For more information, see Add nodes to a Super Computing Cluster (SCC). |
 | Private IP Address | No | Specify a private IPv4 address for the instance.The IP address range depends on the vSwitch CIDR block.<br>If you select random assignment for the private IP address, the system automatically assigns a private IP address. |
 | Public IP Address | No | If the instance requires public network communication, you must assign a public IP address.<br>You can choose to automatically assign a fixed public IP address when you create the instance, or bind an Elastic IP Address (EIP) after you create the instance. For more information, see the <strong>VPC User Guide</strong>, specifically the <strong>Create</strong> <strong>and manage an EIP</strong> section. |
 | Bandwidth (Mbit/s) | No | When you select <strong>Assign Public IPv4 Address</strong>, you must set the bandwidth value (1 to 100). |
-| Security group | Yes | Select an existing security group, or click <strong>Create</strong> <strong>Security Group</strong> to create a security group. After the creation is complete, return to the ECS<br>instance creation wizard and click the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to<br>view the latest security group list. For more information about creating a security group, see Create a security group. You can select multiple security groups for an ECS instance.<br>Important<br>When you create an instance of the Super Computing Cluster (SCC) specification, if the SCC already has a security group ID configured, the system automatically populates the security group ID of the SCC and does not allow modification. For more information, see Add nodes to a Super Computing Cluster (SCC). |
+| Security group | Yes | Select an existing security group, or click <strong>Create</strong> <strong>Security Group</strong> to create a security group. After the creation is complete, return to the ECS<br>instance creation wizard and click the<img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to<br>view the latest security group list. For more information about creating a security group, see Create a security group. You can select multiple security groups for an ECS instance.<br>Important<br>When you create an instance of the Super Computing Cluster (SCC) specification, if the SCC already has a security group ID configured, the system automatically populates the security group ID of the SCC and does not allow modification. For more information, see Add nodes to a Super Computing Cluster (SCC). |
 | IPv6 | No | The large number of IPv6 addresses resolves the shortage of network address resources and removes barriers for various devices to connect to the Internet.<br>Select <strong>Assign</strong>. After you create the instance, you must log on to the instance and configure the IPv6 address in the operating system before you can use the IPv6 address. |
-| ENI | No | Select an existing ENI, or click <strong>Create ENI</strong> to create an ENI. After the creation is complete, return to the ECS instance creation wizard and<br>click the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the VPC and vSwitch<br>lists.<br>Note<br>You can add only one secondary ENI when you create an instance. You can also create a secondary ENI separately and bind it to the instance after the creation is complete. |
+| ENI | No | Select an existing ENI, or click <strong>Create ENI</strong> to create an ENI. After the creation is complete, return to the ECS instance creation wizard and<br>click the<img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the VPC and vSwitch<br>lists.<br>Note<br>You can add only one secondary ENI when you create an instance. You can also create a secondary ENI separately and bind it to the instance after the creation is complete. |
 
 **Manage configurations**
 
@@ -1812,7 +1812,7 @@ pair or reset the instance password.
 
 Select an existing key pair, or click **Create Key Pair** to create a key pair immediately. After the creation completes, return to the ECS instance
 
-creation wizard and click the <img src="assets/73912f5f541ba81f73f62be2449526ac.png" width="16" alt=""> icon to view the
+creation wizard and click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/73912f5f541ba81f73f62be2449526ac.png" width="16" alt=""> icon to view the
 
 latest key pair list. For more information, see Create a key pair.
 
@@ -1898,7 +1898,7 @@ MyInstance001, and MyInstance002.
 
 When you create instances in batches, you can customize sequential instance names. For example, you can use the
 
-![](assets/d3ed4753c2ad90e2ec544f490e8a6fef.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/d3ed4753c2ad90e2ec544f490e8a6fef.png)
 
 valid range of begin_number is [0,999999], and the valid range of bits is [1,6]. If you do not specify bits, the default value is 6.
 
@@ -1923,7 +1923,7 @@ description supports Chinese characters, English letters, digits, half-width per
   </tr>
 </table>
 
-![](assets/c31fb0f31499c12fd577ed1997adb82a.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/c31fb0f31499c12fd577ed1997adb82a.png)
 
 <table>
   <tr>
@@ -1934,7 +1934,7 @@ description supports Chinese characters, English letters, digits, half-width per
   <tr>
     <td>Deployment Set<br>Important<br>This parameter is not available when you create an instance of a Super Computing Cluster (SCC) specification.</td>
     <td>No</td>
-    <td>You can select an existing deployment set, or click <strong>Create Deployment Set</strong> to create a deployment set immediately. After the creation completes, return to the ECS instance creation<br>wizard and click the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the latest<br>deployment set list. For more information about creating a deployment set, see Create a deployment set.<br>A deployment set is a policy that controls the distribution of ECS instances. It enables you to design disaster recovery capabilities and availability when you create ECS instances. You can use deployment sets to distribute or aggregate the instances that your business requires.</td>
+    <td>You can select an existing deployment set, or click <strong>Create Deployment Set</strong> to create a deployment set immediately. After the creation completes, return to the ECS instance creation<br>wizard and click the<img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the latest<br>deployment set list. For more information about creating a deployment set, see Create a deployment set.<br>A deployment set is a policy that controls the distribution of ECS instances. It enables you to design disaster recovery capabilities and availability when you create ECS instances. You can use deployment sets to distribute or aggregate the instances that your business requires.</td>
   </tr>
   <tr>
     <td>Custom data format</td>
@@ -2159,7 +2159,7 @@ The billing method of the cloned instance is the same as that of the source inst
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. On the ECS Instances page, find the instance that you want to clone, click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in
+4. On the ECS Instances page, find the instance that you want to clone, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in
 
    the **Actions** column, and then choose **Instance Settings > Clone Instance**.
 
@@ -2400,19 +2400,19 @@ Workbench allows you to manage files on Linux Elastic Compute Service (ECS) inst
 
 1. In the top navigation bar, choose **File > New Navigator** to open a file navigator.
 
-   ![](assets/3aeb17230c23e0478effc3c91004a37f.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/3aeb17230c23e0478effc3c91004a37f.png)
 
 2. View folders and files.
 
    The following figure shows a file navigator window.
 
-   ![](assets/3c8aad871d21c1143cb4ea48ecc4d024.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/3c8aad871d21c1143cb4ea48ecc4d024.jpeg)
 
 **Create a file**
 
 1. In the top navigation bar, choose **File > New Navigator** to open a file navigator window.
 
-   ![](assets/3aeb17230c23e0478effc3c91004a37f.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/3aeb17230c23e0478effc3c91004a37f.png)
 
 2. In the file tree, right-click the location where you want to create a file and select **New File**.
 
@@ -2422,13 +2422,13 @@ Workbench allows you to manage files on Linux Elastic Compute Service (ECS) inst
 
 1. In the upper-left corner of the top navigation bar, choose **File > New Navigator** to open a file navigator.
 
-   ![](assets/3aeb17230c23e0478effc3c91004a37f.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/3aeb17230c23e0478effc3c91004a37f.png)
 
 2. In the file tree, right-click a file and select **Open**.
 
 3. Enter content in the text editor and click the Save icon in the upper-right corner.
 
-   ![](assets/0c66c97ce3e7d2be641cbc64fbb2a9eb.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/0c66c97ce3e7d2be641cbc64fbb2a9eb.jpeg)
 
 4. In the **Confirm Saving** message, click **OK**.
 
@@ -2436,7 +2436,7 @@ Workbench allows you to manage files on Linux Elastic Compute Service (ECS) inst
 
 1. In the top navigation bar, choose **File > New Navigator** to open a file navigator.
 
-   ![](assets/3aeb17230c23e0478effc3c91004a37f.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/3aeb17230c23e0478effc3c91004a37f.png)
 
 2. In the file tree, right-click a file and select **Delete**.
 
@@ -2520,11 +2520,11 @@ Connection tools are used in a similar way. In this example, PuTTY is used to co
 
 3. Click **Open** to connect to the instance. The first time you connect to the instance, a PuTTY security alert is displayed. Click **Yes** to proceed.
 
-4. Enter **root** as the username and press the <img src="assets/b0434c6ae4ab08908bc6b141347ca15f.png" width="38" alt="">
+4. Enter **root** as the username and press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/b0434c6ae4ab08908bc6b141347ca15f.png" width="38" alt="">
 
    `Enter` key.
 
-5. Enter the password of the instance and press the <img src="assets/5b623263d03c71a8d953ec5cc85ec978.png" width="38" alt="">
+5. Enter the password of the instance and press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/5b623263d03c71a8d953ec5cc85ec978.png" width="38" alt="">
 
    `Enter` key.
 
@@ -2566,13 +2566,13 @@ This topic describes how to connect to a Windows instance by using Remote Deskto
    >
    > Operations may vary based on your operating system.
 
-   - On the taskbar of the Windows desktop, enter <img src="assets/ac63e30fce605bbf973941a04fc99a32.png" width="38" alt="">
+   - On the taskbar of the Windows desktop, enter <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/ac63e30fce605bbf973941a04fc99a32.png" width="38" alt="">
 
      `mstsc` in the search box. Then, click
 
      **Remote Desktop Connection** in the search results.
 
-   - Press the Windows logo key+R. In the **Run** dialog box, enter <img src="assets/0bd910b1292dd8bbcd4bf0d9a4be09e4.png" width="38" alt="">
+   - Press the Windows logo key+R. In the **Run** dialog box, enter <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/0bd910b1292dd8bbcd4bf0d9a4be09e4.png" width="38" alt="">
 
      `mstsc` and click **OK**.
 
@@ -2626,7 +2626,7 @@ The VNC feature is provided by the VNC proxy service. The VNC proxy service uses
 
    Log on to the Apsara Uni-manager Management Console. Then, press the **F12** key or **Fn+F12** to view and select the certificate. In this example, the Chrome browser is used. Press the **F12** key to open Chrome DevTools and click View certificate on the Security tab, as shown in the following figure.
 
-   ![](assets/bf93fcd90ec8cb3fd7e630603b7432da.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/bf93fcd90ec8cb3fd7e630603b7432da.png)
 
    </li>
 
@@ -2742,7 +2742,7 @@ The VNC feature is provided by the VNC proxy service. The VNC proxy service uses
 
 3. Restart your browser and log on to the Apsara Uni-manager Management Console. After the certificate is installed, the security warning message is no longer displayed on the left of the URL when you log on to the Apsara Uni-manager Management Console.
 
-   ![](assets/abd5ff1601ff9c9f7f522681c6a17fe7.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/abd5ff1601ff9c9f7f522681c6a17fe7.png)
 
 <a id="section-4-5-4-2"></a>
 
@@ -2794,7 +2794,7 @@ If you cannot connect to an ECS instance by using Workbench or connection softwa
 
    After you log in to VNC, a login page similar to the following one appears.
 
-   ![](assets/8c1999a0560e99ff31af2354c2983ed9.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/8c1999a0560e99ff31af2354c2983ed9.png)
 
 7. Log in to the operating system of the instance.
 
@@ -2830,7 +2830,7 @@ If you cannot connect to an ECS instance by using Workbench or connection softwa
 
      In the upper-left corner of the page that appears, choose **Send Remote Commands > CTRL+ALT+DELETE**.
 
-     ![](assets/9cef5e6709df66462048704b157a2ca4.png)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/9cef5e6709df66462048704b157a2ca4.png)
 
      </li>
 
@@ -3122,7 +3122,7 @@ On the **Overview** page, you can view the overview of ECS instances in your acc
 
    <li>
 
-   In the upper-right corner of the instance list, click the <img src="assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
+   In the upper-right corner of the instance list, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
 
    </li>
 
@@ -3136,7 +3136,7 @@ On the **Overview** page, you can view the overview of ECS instances in your acc
 
    example, add **Created By**), and then click **Save**.
 
-   ![](assets/01f8782a3a677ec1c7236d284465b150.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/01f8782a3a677ec1c7236d284465b150.jpeg)
 
    > **Important**
    >
@@ -3146,7 +3146,7 @@ On the **Overview** page, you can view the overview of ECS instances in your acc
    >
    >   icon.
    >
-   >   <img src="assets/028ed3288cea70392597a63b3ab53b39.png" width="16" alt="">
+   >   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/028ed3288cea70392597a63b3ab53b39.png" width="16" alt="">
 
 5. In a filter list (for example, **Instance ID**), select a filter option and enter the corresponding information in the search bar. The instance list automatically displays instances that match the search criteria.
 
@@ -3231,7 +3231,7 @@ If you want to modify the CPU topology of an instance, stop the instance. For mo
 
    icon in
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    the **Actions** column, and then choose **Instance Settings > Modify Instance Properties**.
 
@@ -3245,7 +3245,7 @@ If you want to modify the CPU topology of an instance, stop the instance. For mo
      >
      > icon next to the instance name. In the Modify Instance Properties
      >
-     > <img src="assets/6f4ccc8bdfe588f49e4480d3c0f32dbf.png" width="18" alt="">
+     > <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/6f4ccc8bdfe588f49e4480d3c0f32dbf.png" width="18" alt="">
      >
      > dialog box, modify the instance name.
 
@@ -3306,7 +3306,7 @@ If you did not specify a logon password when you created an Elastic Compute Serv
 
      - Click **Manage** in the **Actions** column. In the upper-right corner of the Instance Details page, choose **More > Reset Instance Password**.
 
-   - In the **Actions** column, click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon and then choose **Password/Key Pair > Reset**
+   - In the **Actions** column, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon and then choose **Password/Key Pair > Reset**
 
      **Instance Password**.
 
@@ -3344,7 +3344,7 @@ If you use Virtual Network Computing (VNC) to connect to an Elastic Compute Serv
 
      - On the Instances page, click **Manage** in the **Actions** column. In the upper-right corner of the Instance Details page, choose **More > Reset VNC Password**.
 
-   - In the **Actions** column, click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon and choose **Password/Key Pair > Reset VNC**
+   - In the **Actions** column, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon and choose **Password/Key Pair > Reset VNC**
 
      **Password**.
 
@@ -3400,7 +3400,7 @@ The following section describes only the core parameters for disabling HT. For m
 
   - If you turn off HT Hyper-Threading Technology, the ECS instance exclusively uses CPU physical cores.
 
-![](assets/7e14db2f7ccb1fc79f9b6ca4e937e201.jpeg)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/7e14db2f7ccb1fc79f9b6ca4e937e201.jpeg)
 
 **Check whether HT is disabled for an instance**
 
@@ -3408,15 +3408,15 @@ The following section describes only the core parameters for disabling HT. For m
 
    By default, the **Hyper-Threading Disabled** column is not displayed on the ECS Instances
 
-   page. To display the **Hyper-Threading Disabled** column, click the <img src="assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon in the upper-
+   page. To display the **Hyper-Threading Disabled** column, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon in the upper-
 
    right corner of the ECS Instances page. In the Custom Columns dialog box, select **Hyper-Threading Disabled** and click **Save**.
 
-   ![](assets/413d7d32d4fbba1bc89cc695cbcf307c.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/413d7d32d4fbba1bc89cc695cbcf307c.jpeg)
 
 2. On the ECS Instances page, check whether HT is disabled for the instance in the **Hyper-Threading Disabled** column.
 
-   ![](assets/3dde3f21a9bdf4f35a01ad48c72e0e8c.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/3dde3f21a9bdf4f35a01ad48c72e0e8c.jpeg)
 
 <a id="section-4-7-6"></a>
 
@@ -3442,7 +3442,7 @@ In this example, an x86 instance that has eight vCPUs is used. The following fig
 
 **HT continuous CPU topology**
 
-![](assets/0114573be462629c3f01b744b59bbb9c.jpeg)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/0114573be462629c3f01b744b59bbb9c.jpeg)
 
 Relationships between logical cores and physical cores:
 
@@ -3456,7 +3456,7 @@ Relationships between logical cores and physical cores:
 
 **HT discrete CPU topology**
 
-![](assets/86ee0daf875a0057d535c703ebab4a91.jpeg)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/86ee0daf875a0057d535c703ebab4a91.jpeg)
 
 Relationships between logical cores and physical cores:
 
@@ -3502,19 +3502,19 @@ In the following section, only the main parameters that are used to configure th
 >
 > The following instance types are only examples. The actual supported instance types are subject to your environment.
 
-![](assets/5550394ca858ce7ad258a654340c6b3e.jpeg)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/5550394ca858ce7ad258a654340c6b3e.jpeg)
 
 **Modify the CPU topology of an existing instance**
 
 After you stop an instance, you can modify its CPU topology when you modify the instance properties. For more information, see Modify the properties of an instance.
 
-![](assets/541f7689ec501f8b1a2c1a82657a53a6.jpeg)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/541f7689ec501f8b1a2c1a82657a53a6.jpeg)
 
 **View the CPU topology of an instance**
 
 You can view the information about the CPU topology in the Configurations section of the Instance Details tab. For more information, see View instance details.
 
-![](assets/7de144633d88dc37b613af8b889a8b6f.jpeg)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/7de144633d88dc37b613af8b889a8b6f.jpeg)
 
 <a id="section-4-7-7"></a>
 
@@ -3552,7 +3552,7 @@ When you create an instance, release protection is disabled for the instance by 
 
 7. In the **System Configurations** step, turn on **Instance Release Protection**, configure other parameters based on your business requirements, and then click **Next**.
 
-   ![](assets/0e1eb3cd26683b7d093f2247d878d9c2.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/0e1eb3cd26683b7d093f2247d878d9c2.jpeg)
 
 8. In the **Confirmation** step, confirm the configurations and click **Confirm Order**.
 
@@ -3570,7 +3570,7 @@ You can enable or disable release protection for an instance by modifying the pr
 
    icon in
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    the **Actions** column, and then choose **Instance Settings > Change Release Protection Settings**.
 
@@ -3610,7 +3610,7 @@ You can enable or disable release protection for an instance by modifying the pr
 
 5. On the **Instance Details** page, view the **Release Protection** parameter in the **Other Information** section.
 
-   ![](assets/f16d2672c3ca4d4be12948320d01b623.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/f16d2672c3ca4d4be12948320d01b623.jpeg)
 
 <a id="section-4-7-8"></a>
 
@@ -3925,7 +3925,7 @@ After you upgrade or downgrade the instance type, the system bills the instance 
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Find the target instance. In the **Actions** column, click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon, and then click
+4. Find the target instance. In the **Actions** column, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon, and then click
 
    **Upgrade/Downgrade**.
 
@@ -3941,7 +3941,7 @@ After you upgrade or downgrade the instance type, the system bills the instance 
    >
    > - The quota headroom displays the CPU, GPU, and memory quotas for the current region, organization, and resource set. If the quota is insufficient, click the
    >
-   >   <img src="assets/6534212dc59bddf214b4522cc08538cc.png" width="18" alt="">
+   >   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/6534212dc59bddf214b4522cc08538cc.png" width="18" alt="">
    >
    >   icon to apply for a quota.
 
@@ -4103,11 +4103,11 @@ When you perform a hot configuration change to change the instance type of an EC
    >
    >   icon to apply for quotas.
    >
-   >   <img src="assets/6534212dc59bddf214b4522cc08538cc.png" width="18" alt="">
+   >   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/6534212dc59bddf214b4522cc08538cc.png" width="18" alt="">
 
    - To perform a hot configuration change on a single instance, find the instance, click the
 
-     <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the **Actions** column, and then choose **Change Instance Configurations** >
+     <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the **Actions** column, and then choose **Change Instance Configurations** >
 
      **Hot Configuration Change**.
 
@@ -4167,7 +4167,7 @@ Risks may arise when you replace the operating system of an instance. Before you
 
    icon in
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    the **Actions** column, and choose **Disks and Image > Replace Operating System**.
 
@@ -4219,7 +4219,7 @@ CloudMonitor provides real-time monitoring, alerting, and notification services 
 
    - **Monitoring** panel: In the instance list, find the ECS instance whose monitoring
 
-     information you want to view and click the <img src="assets/fe20f261f7579f49b9b6366998cbcfa9.jpeg" width="26" alt=""> icon in the **Monitoring** column.
+     information you want to view and click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/fe20f261f7579f49b9b6366998cbcfa9.jpeg" width="26" alt=""> icon in the **Monitoring** column.
 
    - **Monitoring** tab:
 
@@ -4311,7 +4311,7 @@ If the security groups of an ECS instance do not meet your business requirements
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Find the ECS instance for which you want to change security groups, click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in
+4. Find the ECS instance for which you want to change security groups, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in
 
    the **Actions** column, and then choose **Network and Security Group > Change Security Group**.
 
@@ -4331,7 +4331,7 @@ You may need to migrate an Elastic Compute Service (ECS) instance from one virtu
 >
 > Changing the VPC causes a temporary service interruption. We recommend that you perform this operation during off-peak hours. Before you start, create a snapshot to back up your data. For more information, see Create a snapshot.
 
-![](assets/6b48db9cfbe985d174ac987688a1b0cc.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/6b48db9cfbe985d174ac987688a1b0cc.png)
 
 **Impacts and risks**
 
@@ -4383,7 +4383,7 @@ You may need to migrate an Elastic Compute Service (ECS) instance from one virtu
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Find the ECS instance for which you want to change the VPC, click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the
+4. Find the ECS instance for which you want to change the VPC, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the
 
    **Actions** column, and then choose **Network and Security Group > Change VPC**.
 
@@ -4447,7 +4447,7 @@ If your instance generates a reverse access link by using Workbench, perform the
 
 Change the vSwitch for an Elastic Compute Service (ECS) instance if the current vSwitch runs out of available IP addresses, or if you need to migrate the instance to a new CIDR block as part of a network architecture upgrade, or if you need to replan the CIDR block. This feature lets you move the primary Elastic Network Interface (ENI) of an ECS instance to another vSwitch within the same virtual private cloud (VPC) and zone.
 
-![](assets/a51ba7721175ddc4466840e8ccf53630.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/a51ba7721175ddc4466840e8ccf53630.png)
 
 **Impact and risks**
 
@@ -4489,7 +4489,7 @@ Change the vSwitch for an Elastic Compute Service (ECS) instance if the current 
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. Find the ECS instance for which you want to change the vSwitch, click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the
+4. Find the ECS instance for which you want to change the vSwitch, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the
 
    **Actions** column, and then choose **Network and Security Group > Change vSwitch**.
 
@@ -4547,7 +4547,7 @@ The instance is in the **Stopped** state.
 
    icon and
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    then choose **Network and Security Group > Change Private IP Address**.
 
@@ -4581,7 +4581,7 @@ Compared with IPv4 addresses, IPv6 addresses are more sufficient and allow more 
 
 4. On the ECS Instances page, find the instance to which you want to assign an IPv6 address.
 
-   Click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the **Actions** column and choose **Network and Security Group >**
+   Click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the **Actions** column and choose **Network and Security Group >**
 
    **Manage Secondary Private IP Addresses**.
 
@@ -4619,7 +4619,7 @@ You can export a list of Elastic Compute Service (ECS) instances based on your b
 
 4. In the ECS instance list, select one or more instances that you want to export, and then
 
-   click the <img src="assets/8e5893b995e873a3a6a1f8efa4b2d4e3.png" width="16" alt=""> icon in the upper-right corner of the instance list.
+   click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/8e5893b995e873a3a6a1f8efa4b2d4e3.png" width="16" alt=""> icon in the upper-right corner of the instance list.
 
    > **Note**
    >
@@ -4627,7 +4627,7 @@ You can export a list of Elastic Compute Service (ECS) instances based on your b
    >
    > icon in the upper-right
    >
-   > <img src="assets/8e5893b995e873a3a6a1f8efa4b2d4e3.png" width="16" alt="">
+   > <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/8e5893b995e873a3a6a1f8efa4b2d4e3.png" width="16" alt="">
    >
    > corner of the instance list.
 
@@ -4787,7 +4787,7 @@ GPU-accelerated instances support only GPU drivers that are suitable for the ope
 
    instance.
 
-   ![](assets/27e57c2d2374ded9b45e23d485038b92.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/27e57c2d2374ded9b45e23d485038b92.png)
 
    The following table describes the filters.
 
@@ -4811,7 +4811,7 @@ GPU-accelerated instances support only GPU drivers that are suitable for the ope
 
    driver name.
 
-   ![](assets/b2b85f1448c845462faf543cb92d7ea6.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/b2b85f1448c845462faf543cb92d7ea6.png)
 
    <ol type="i" start="4">
 
@@ -4819,7 +4819,7 @@ GPU-accelerated instances support only GPU drivers that are suitable for the ope
 
    On the details page of the driver, click **Download**. On the **Download** page, right-click **Download** and select **Copy link address**.
 
-   ![](assets/c7a2779617ef2ab3c20ea94f14a028aa.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/c7a2779617ef2ab3c20ea94f14a028aa.png)
 
    </li>
 
@@ -4897,7 +4897,7 @@ GPU-accelerated instances support only GPU drivers that are suitable for the ope
 
    The following command output indicates that the GPU driver is installed.
 
-   ![](assets/1f12e6afd0bc704906e7a837b212646f.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/1f12e6afd0bc704906e7a837b212646f.jpeg)
 
    <ol type="i" start="4">
 
@@ -4990,7 +4990,7 @@ GPU-accelerated instances support only GPU drivers that are suitable for the ope
 
    The following command output indicates that NVIDIA Fabric Manager is installed.
 
-   ![](assets/e6d4d6ca2f477798a74d14655b9114bc.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/e6d4d6ca2f477798a74d14655b9114bc.jpeg)
 
    </li>
 
@@ -5034,7 +5034,7 @@ GPU-accelerated instances support only GPU drivers that are suitable for the ope
 
    The following command output indicates that the GPU driver is installed.
 
-   ![](assets/1f12e6afd0bc704906e7a837b212646f.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/1f12e6afd0bc704906e7a837b212646f.jpeg)
 
    <ol type="i" start="3">
 
@@ -5141,7 +5141,7 @@ GPU-accelerated instances support only GPU drivers that are suitable for the ope
 
    The following command output indicates that NVIDIA Fabric Manager is installed.
 
-   ![](assets/e6d4d6ca2f477798a74d14655b9114bc.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/e6d4d6ca2f477798a74d14655b9114bc.jpeg)
 
    </li>
 
@@ -5169,7 +5169,7 @@ GPU-accelerated instances support only GPU drivers that are suitable for the ope
 
 3. Configure filters and click **SEARCH** to search for a driver that is appropriate for your instance.
 
-   ![](assets/6a0bb33eed1d69d4e5b7e62696751d3e.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/6a0bb33eed1d69d4e5b7e62696751d3e.png)
 
    The following table describes the filters.
 
@@ -5184,11 +5184,11 @@ GPU-accelerated instances support only GPU drivers that are suitable for the ope
 
 4. In the search result, find the driver version that you want to download, and then click the driver name.
 
-   ![](assets/36edd408f93d0e1ee9432e9ef65cb2cd.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/36edd408f93d0e1ee9432e9ef65cb2cd.png)
 
 5. On the details page of the driver, click **Download**. On the **Download** page, click **Download**.
 
-   ![](assets/c7a2779617ef2ab3c20ea94f14a028aa.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/c7a2779617ef2ab3c20ea94f14a028aa.png)
 
 6. After the driver is downloaded, open the folder in which the driver installation package is stored. Double-click the installation package and install the driver as prompted.
 
@@ -5337,7 +5337,7 @@ If you use a GPU-accelerated compute-optimized Linux instance, we recommend that
 
    If the command output includes the GRID driver information that is shown in the following figure, the driver is installed.
 
-   ![](assets/aca1566672a873d2c61f2d3690fde881.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/aca1566672a873d2c61f2d3690fde881.png)
 
    In the preceding output,  `Driver Version`  indicates the GRID driver version and  `CUDA Version`  indicates the latest CUDA version that is supported by the driver version. The following table describes specific GRID driver versions and the latest CUDA versions that are supported by the GRID driver versions.
 
@@ -5426,7 +5426,7 @@ If you use a GPU-accelerated compute-optimized Linux instance, we recommend that
 
    If the command output includes **License acquired successfully**, the license is activated.
 
-   ![](assets/f8e5e85124158bc5b49862ab7fe01fa1.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/f8e5e85124158bc5b49862ab7fe01fa1.png)
 
 **Test the GRID driver**
 
@@ -5478,7 +5478,7 @@ The following section describes how to use an OpenGL Extension to the X Window S
 
    Add the obtained value of the BusID parameter to  `"Section Device"`  in the /etc/X11/xorg.conf file. In this example,  `BusID "PCI:0:7:0"`  is added.
 
-   ![](assets/313fe168cb48214588c494085514e27e.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/313fe168cb48214588c494085514e27e.png)
 
    </li>
 
@@ -5506,7 +5506,7 @@ The following section describes how to use an OpenGL Extension to the X Window S
 
    - When you run the  `startx`  command, the  `hostname: Name or service not known`  error message may appear. The error message does not affect the startup of X Server. You can run the  `hostname`  command to obtain the hostname of your instance. Then, you can modify the /etc/hosts file by replacing the value of the  `hostname`  parameter that follows `127.0.0.1`  with the hostname of the instance.
 
-     ![](assets/3c5d4daa1e8020cd66b9dbb10dbe86c2.jpeg)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/3c5d4daa1e8020cd66b9dbb10dbe86c2.jpeg)
 
 4. Start a new terminal session of the SSH client and run the following command to start x11vnc:
 
@@ -5516,7 +5516,7 @@ The following section describes how to use an OpenGL Extension to the X Window S
 
    The following command output indicates that x11vnc is started. In this case, you can connect to the instance by using a VNC application, such as VNC Viewer.
 
-   ![](assets/4953b002dfda802047ea6b3adcbf953b.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/4953b002dfda802047ea6b3adcbf953b.png)
 
 5. Log on to the ECS console.
 
@@ -5572,7 +5572,7 @@ The following section describes how to use an OpenGL Extension to the X Window S
 
    If a window that is shown in the following figure appears, the GRID driver works as expected.
 
-   ![](assets/15aa36f0b06f49217332db0e833fc01d.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/15aa36f0b06f49217332db0e833fc01d.png)
 
 <a id="section-4-19-3-2"></a>
 
@@ -5610,7 +5610,7 @@ The procedure for installing a GRID driver on a GPU-accelerated Windows instance
 
    Double-click the installation package. In the dialog box that appears, click **OK**.
 
-   ![](assets/83c01182584a20e83f050977f94ddb3e.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/83c01182584a20e83f050977f94ddb3e.jpeg)
 
    The package is automatically decompressed.
 
@@ -5624,7 +5624,7 @@ The procedure for installing a GRID driver on a GPU-accelerated Windows instance
 
    </ol>
 
-   ![](assets/10237892b4ba38a5a9298801f934dba0.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/10237892b4ba38a5a9298801f934dba0.jpeg)
 
    <ol type="i" start="3">
 
@@ -5636,7 +5636,7 @@ The procedure for installing a GRID driver on a GPU-accelerated Windows instance
 
    </ol>
 
-   ![](assets/494166990a4141642046c7ba2c467f76.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/494166990a4141642046c7ba2c467f76.jpeg)
 
    <ol type="i" start="4">
 
@@ -5644,7 +5644,7 @@ The procedure for installing a GRID driver on a GPU-accelerated Windows instance
 
    After the driver is installed, click **RESTART NOW**.
 
-   ![](assets/665025e7670784af5fd4dff2698468db.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/665025e7670784af5fd4dff2698468db.jpeg)
 
    </li>
 
@@ -5672,7 +5672,7 @@ The procedure for installing a GRID driver on a GPU-accelerated Windows instance
 
    icon, right-click the icon, and
 
-   <img src="assets/76258de611e9cc420ba006b805af871e.png" width="24" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/76258de611e9cc420ba006b805af871e.png" width="24" alt="">
 
    </li>
 
@@ -5694,7 +5694,7 @@ The procedure for installing a GRID driver on a GPU-accelerated Windows instance
 
    The following figure shows that the driver is installed.
 
-   ![](assets/b93c281442a3edab768bbde8c4aa6b89.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/b93c281442a3edab768bbde8c4aa6b89.png)
 
 4. Add a license server and activate the license.
 
@@ -5704,7 +5704,7 @@ The procedure for installing a GRID driver on a GPU-accelerated Windows instance
 
    On your Windows desktop, right-click anywhere on the screen and select **NVIDIA Control Panel**.
 
-   ![](assets/a53be5ab803dad5a6888c96b23e07229.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/a53be5ab803dad5a6888c96b23e07229.png)
 
    </li>
 
@@ -5718,7 +5718,7 @@ The procedure for installing a GRID driver on a GPU-accelerated Windows instance
 
    **Licensing > Manage License**.
 
-   ![](assets/adfead9c53afc179f553c1e0c54d36a6.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/adfead9c53afc179f553c1e0c54d36a6.png)
 
    <ol type="i" start="3">
 
@@ -5732,7 +5732,7 @@ The procedure for installing a GRID driver on a GPU-accelerated Windows instance
 
    server that you obtained and click **Apply**. Reopen the **NVIDIA Control Panel** dialog box. If the message that is shown in the following figure appears, the license is activated.
 
-   ![](assets/80e6b789fd9671e497ce44243eff956e.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/80e6b789fd9671e497ce44243eff956e.jpeg)
 
 <a id="section-4-19-4"></a>
 
@@ -5784,15 +5784,15 @@ In this example, a GPU-accelerated compute-optimized gn6i instance that runs Win
 
    icon and then click **Control**
 
-   <img src="assets/76258de611e9cc420ba006b805af871e.png" width="24" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/76258de611e9cc420ba006b805af871e.png" width="24" alt="">
 
    **Panel**.
 
-   ![](assets/bbb73468133ec8f05fbf34623409473d.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/bbb73468133ec8f05fbf34623409473d.jpeg)
 
 3. In the **Control Panel**, click **Uninstall a program**.
 
-   ![](assets/35372aad043c8f24358e39d63a34cfd9.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/35372aad043c8f24358e39d63a34cfd9.jpeg)
 
 4. Right-click the GPU driver that you want to uninstall and select **Uninstall/Change**.
 
@@ -5965,23 +5965,23 @@ The following section describes how to uninstall a GRID driver from a vGPU-accel
 
    icon and then click **Control**
 
-   <img src="assets/76258de611e9cc420ba006b805af871e.png" width="24" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/76258de611e9cc420ba006b805af871e.png" width="24" alt="">
 
    **Panel**.
 
-   ![](assets/bbb73468133ec8f05fbf34623409473d.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/bbb73468133ec8f05fbf34623409473d.jpeg)
 
 3. In the **Control Panel**, click **Uninstall a program**.
 
-   ![](assets/35372aad043c8f24358e39d63a34cfd9.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/35372aad043c8f24358e39d63a34cfd9.jpeg)
 
 4. Right-click the GRID driver that you want to uninstall and select **Uninstall/Change**.
 
-   ![](assets/8f0ecefe1143a70e0507d4a6ff170b28.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/8f0ecefe1143a70e0507d4a6ff170b28.jpeg)
 
 5. In the **NVIDIA Uninstaller** dialog box, click **UNINSTALL**.
 
-   ![](assets/2268cdc71939a09fa5bf94ea4ecccaa8.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/2268cdc71939a09fa5bf94ea4ecccaa8.jpeg)
 
 6. After you uninstall the driver, click **RESTART NOW**.
 
@@ -6023,7 +6023,7 @@ The following section describes how to uninstall a GRID driver from a vGPU-accel
    >
    > The command output may vary based on the operating system. Select a value based on the actual scenario.
 
-   ![](assets/9f1bc9bcb702fbc13b8bf0eb66c2ac01.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/9f1bc9bcb702fbc13b8bf0eb66c2ac01.jpeg)
 
    <ol type="i" start="3">
 
@@ -6037,7 +6037,7 @@ The following section describes how to uninstall a GRID driver from a vGPU-accel
 
    the Enter key.
 
-   ![](assets/ce5b88ef7584a7cac144b44dd61b72bc.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/ce5b88ef7584a7cac144b44dd61b72bc.png)
 
 <a id="section-4-19-5"></a>
 
@@ -6371,7 +6371,7 @@ When you add nodes to an SCC, note the following limits:
 
    Pay attention to the following parameters. For more information about how to create an ECS instance, see Create an instance.
 
-   ![](assets/c921d25834fb06dc9bde2ddf41515782.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/c921d25834fb06dc9bde2ddf41515782.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -6401,13 +6401,13 @@ When you add nodes to an SCC, note the following limits:
 
    Note the following parameters. For detailed instructions on creating an ECS instance, see Create an instance.
 
-   ![](assets/31f31a7e7bc0c33bd2fde28be77598a1.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/31f31a7e7bc0c33bd2fde28be77598a1.jpeg)
 
    | Parameter | Description |
    | --- | --- |
    | Specification | For <strong>Category</strong>, you must select <strong>Super Computing Cluster</strong> <strong>(SCC)</strong>. |
    | Instance type | Select the instance type for the ECS instance that you want to create. |
-   | Super Computing Cluster (SCC) | Select an existing Super Computing Cluster (SCC), or click <strong>Create Cluster</strong> to create one immediately. After the creation completes, return to the ECS instance creation<br>wizard and click the<img src="assets/73912f5f541ba81f73f62be2449526ac.png" width="16" alt="">icon to view the latest SCC list. For<br>more information, see Create an SCC.<br>Important<br>You can view and select this parameter only when the <strong>Category</strong> of the instance type is <strong>Super Computing</strong> <strong>Cluster (SCC)</strong> and you have selected an SCC instance type. |
+   | Super Computing Cluster (SCC) | Select an existing Super Computing Cluster (SCC), or click <strong>Create Cluster</strong> to create one immediately. After the creation completes, return to the ECS instance creation<br>wizard and click the<img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/73912f5f541ba81f73f62be2449526ac.png" width="16" alt="">icon to view the latest SCC list. For<br>more information, see Create an SCC.<br>Important<br>You can view and select this parameter only when the <strong>Category</strong> of the instance type is <strong>Super Computing</strong> <strong>Cluster (SCC)</strong> and you have selected an SCC instance type. |
    | Instances in cluster | The number of ECS instances in the selected SCC. You cannot modify this value. |
 
    If the SCC to which you want to add nodes already contains instances, the system automatically populates the following parameters:
@@ -6587,8 +6587,8 @@ The Bare Metal service operations administrator in the Apsara Uni-Manager Operat
 
    | Configuration item | Required | Description |
    | --- | --- | --- |
-   | VPC | Yes | Select an existing VPC, or click <strong>Create VPC</strong> to create a VPC. After the creation is complete, return to the ECS instance creation wizard and<br>click the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the latest VPC list. For<br>more information about how to create a VPC, see the <strong>Virtual Private Cloud User Guide</strong> in the Apsara Stack Documentation Center, specifically the <strong>Create and manage VPCs</strong> section. |
-   | VSwitch | Yes | Select an existing switch, or click <strong>Create</strong> <strong>VSwitch</strong> to create a switch. After the creation is complete, return to the ECS instance creation<br>wizard and click the<img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the latest<br>switch list. For more information about how to create a switch, see the <strong>Virtual Private Cloud</strong> <strong>User Guide</strong> in the Apsara Stack Documentation Center, specifically the <strong>Create and manage</strong> <strong>switches</strong> section. |
+   | VPC | Yes | Select an existing VPC, or click <strong>Create VPC</strong> to create a VPC. After the creation is complete, return to the ECS instance creation wizard and<br>click the<img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the latest VPC list. For<br>more information about how to create a VPC, see the <strong>Virtual Private Cloud User Guide</strong> in the Apsara Stack Documentation Center, specifically the <strong>Create and manage VPCs</strong> section. |
+   | VSwitch | Yes | Select an existing switch, or click <strong>Create</strong> <strong>VSwitch</strong> to create a switch. After the creation is complete, return to the ECS instance creation<br>wizard and click the<img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt="">icon to view the latest<br>switch list. For more information about how to create a switch, see the <strong>Virtual Private Cloud</strong> <strong>User Guide</strong> in the Apsara Stack Documentation Center, specifically the <strong>Create and manage</strong> <strong>switches</strong> section. |
    | Private IP Address | No | Specify the private IPv4 address of the instance.The IP address range depends on the switch CIDR block.<br>If you leave the private IP address empty, the system automatically assigns a private IP address. |
 
 8. On the **System Configuration** page, configure the logon password, hostname, and other system settings for the instance, and then click **Next**.
@@ -6780,7 +6780,7 @@ You can view all Elastic Compute Service (ECS) bare metal instances created with
 
    <li>
 
-   In the upper-right corner of the instance list, click the <img src="assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
+   In the upper-right corner of the instance list, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
 
    </li>
 
@@ -7659,7 +7659,7 @@ If you want to attach multiple disks to different ECS instances, go to the Disks
 
    > **Attach** in the **Actions** column.
 
-   <img src="assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/03a61b58d3c6e4194a5c5ce7e93451be.png" width="23" alt="">
 
 5. In the dialog box that appears, configure parameters to attach the disk.
 
@@ -7733,7 +7733,7 @@ The data disk that you want to manage is attached to a Linux instance.
 
    <li>
 
-   Enter <img src="assets/a3cf60fcb8db698a3c55e8100671cba5.png" width="17" alt="">
+   Enter <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/a3cf60fcb8db698a3c55e8100671cba5.png" width="17" alt="">
 
    `n` to create a partition.
 
@@ -7741,7 +7741,7 @@ The data disk that you want to manage is attached to a Linux instance.
 
    <li>
 
-   Enter <img src="assets/1b6566385824d77f95700e50297bbb6e.png" width="17" alt="">
+   Enter <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/1b6566385824d77f95700e50297bbb6e.png" width="17" alt="">
 
    `p` to set the partition type to primary partition.
 
@@ -7749,7 +7749,7 @@ The data disk that you want to manage is attached to a Linux instance.
 
    <li>
 
-   Enter the partition sequence number and press the ENTER key. In this example, <img src="assets/1391f202eadc6eae770615f9887cf6ca.png" width="17" alt="">
+   Enter the partition sequence number and press the ENTER key. In this example, <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/1391f202eadc6eae770615f9887cf6ca.png" width="17" alt="">
 
    `1` is
 
@@ -7951,9 +7951,9 @@ Data disk
 
    icon and select **Disk Management**.
 
-   <img src="assets/30058d01dd66b2658e978195ad9efdd5.png" width="24" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30058d01dd66b2658e978195ad9efdd5.png" width="24" alt="">
 
-   ![](assets/6dc9d499d64f0eb7c387e489902e345c.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/6dc9d499d64f0eb7c387e489902e345c.jpeg)
 
 3. Find the data disk that you want to initialize and is in the **Offline** state. In this example, **Disk 1** is used.
 
@@ -8007,7 +8007,7 @@ Data disk
 
    **settings**, configure formatting settings, and then click **Next**.
 
-   ![](assets/2d7f151f7c5cc22dbc4e2324cec87ffd.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/2d7f151f7c5cc22dbc4e2324cec87ffd.jpeg)
 
    <ol type="i" start="4">
 
@@ -8051,7 +8051,7 @@ You can view the list of existing disks and the details, snapshots, and operatio
 
    <li>
 
-   In the upper-right corner of the disk list, click the <img src="assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
+   In the upper-right corner of the disk list, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
 
    </li>
 
@@ -8209,7 +8209,7 @@ After you change the category of a disk, you are charged based on the new disk c
 
    icon in the **Actions**
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    column, and then select **Change Disk Category**.
 
@@ -8243,7 +8243,7 @@ You can modify the properties of a created disk, such as the configurations of t
 
    icon in the **Actions**
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    column, and then select **Modify Disk Properties**.
 
@@ -8273,7 +8273,7 @@ You can change the name and description of a created disk to facilitate disk man
 
    **> Modify Disk Description**.
 
-   <img src="assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
 
    > **Note**
    >
@@ -8317,7 +8317,7 @@ The replica uses the pay-as-you-go billing method.
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. On the Disks page, find the disk that you want to clone, move the pointer over the <img src="assets/2c965bb0b9592221708610f353be3082.png" width="12" alt=""> icon in
+4. On the Disks page, find the disk that you want to clone, move the pointer over the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/2c965bb0b9592221708610f353be3082.png" width="12" alt=""> icon in
 
    the **Actions** column, and then select **Clone Disk**.
 
@@ -8429,7 +8429,7 @@ After you resize a disk, you are charged based on the new disk specifications.
 
    icon
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    in the **Actions** column, and then select **Resize Disk**.
 
@@ -8489,7 +8489,7 @@ The preceding features improve service availability without compromising data re
 
 Premium performance disks can be attached to ECS instances that support NVMe. For example, after premium performance disks are attached to Linux instances based on NVMe, you can run the **lsblk** command to check the device names and partition names of the disks.
 
-![](assets/a4a789c5823b5520f8389409f98df181.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/a4a789c5823b5520f8389409f98df181.png)
 
 Take note of the following parameters in the preceding figure:
 
@@ -8794,7 +8794,7 @@ To use the multi-attach feature of a cloud disk, you must enable the feature whe
 
    After you create the cloud disk, the system redirects you to the **Cloud Disks** page, where you can view the new cloud disk with an **Unattached** status and an **Enabled** multi-attach feature.
 
-   ![](assets/84c99768ad258cbe05d556bc767b787e.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/84c99768ad258cbe05d556bc767b787e.png)
 
 **Step 2: Mount the cloud disk to multiple ECS instances that support the NVMe protocol**
 
@@ -8814,7 +8814,7 @@ Before you mount the cloud disk, confirm the following information:
 
    icon in the **Actions** column, and then click **Attach**.
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
 4. In the **Attach** dialog box, select and configure the **Target Instance**, and then click **OK**.
 
@@ -8824,7 +8824,7 @@ Before you mount the cloud disk, confirm the following information:
    >
    > You can specify only one instance at a time when you mount a cloud disk. To mount the cloud disk to multiple ECS instances, repeat this step for each instance.
 
-   ![](assets/e26b97ecdd1abfbb23fa644f29a365b8.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/e26b97ecdd1abfbb23fa644f29a365b8.png)
 
    - On the **Cloud Disks** page, verify that the cloud disk status changes to **Running**.
 
@@ -8926,7 +8926,7 @@ If you have created a custom image and encrypted the image, skip Step 1 and Step
 
    icon and then choose **Disk and Image > Create Custom Image**.
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
 5. Configure the parameters that are described in the following table.
 
@@ -8958,7 +8958,7 @@ If you have created a custom image and encrypted the image, skip Step 1 and Step
 
    icon and
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    then select **Encrypt Image**.
 
@@ -9174,7 +9174,7 @@ When a data disk is attached to an Elastic Compute Service (ECS) instance, you c
 
   <li>
 
-  Find the command used to mount data disk partitions and comment out the command by using a number sign ( <img src="assets/6c4b00cf362decec617023a1c9ef3f18.png" width="17" alt="">
+  Find the command used to mount data disk partitions and comment out the command by using a number sign ( <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/6c4b00cf362decec617023a1c9ef3f18.png" width="17" alt="">
 
   `#`), as shown in the following command line.
 
@@ -9192,7 +9192,7 @@ When a data disk is attached to an Elastic Compute Service (ECS) instance, you c
 
   <li>
 
-  Press the  `Esc`  key to exit the edit mode, and enter <img src="assets/1810b5483b4211a969a00bbfba6b434e.png" width="27" alt="">
+  Press the  `Esc`  key to exit the edit mode, and enter <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/1810b5483b4211a969a00bbfba6b434e.png" width="27" alt="">
 
   `:wq` to save the file and exit.
 
@@ -9282,7 +9282,7 @@ If a data disk is partitioned and file systems are mounted on the disk, perform 
 
    The following sample command output is returned. In this example, the /dev/vdb1 partition of the data disk is used. In actual scenarios, select the data disk partitions whose mounting information you want to view.
 
-   ![](assets/f1a2f62906107974aab4b7b777b4de88.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/f1a2f62906107974aab4b7b777b4de88.png)
 
 3. Run the umount command to unmount the file systems from the data disk partitions.
 
@@ -9300,7 +9300,7 @@ If a data disk is partitioned and file systems are mounted on the disk, perform 
 
    The following sample command output indicates the UUID of the /dev/vdb1 partition of the data disk.
 
-   ![](assets/8c42c3029ded4f29e93fa6b613d8cc6a.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/8c42c3029ded4f29e93fa6b613d8cc6a.png)
 
 5. Run the following command to check whether automatic mounting is configured in the /etc/fstab file for the file systems in the data disk partitions:
 
@@ -9310,7 +9310,7 @@ If a data disk is partitioned and file systems are mounted on the disk, perform 
 
    Find the UUID that you obtained in the previous step in the command output. The file system of the /dev/vdb1 partition is configured in the /etc/fstab file, as shown in the following figure.
 
-   ![](assets/21893b9dfc480483202dbbd45e59265f.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/21893b9dfc480483202dbbd45e59265f.png)
 
 6. Delete the automatic mounting configurations of the file systems in the data disk partitions from the /etc/fstab file.
 
@@ -9348,7 +9348,7 @@ If a data disk is partitioned and file systems are mounted on the disk, perform 
 
    For example, you can add a number sign ( `#` ) before a line that contains automatic mounting configuration to comment out the configuration, as shown in the following figure.
 
-   ![](assets/47acf225cddd89558fa88c540de4f3a0.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/47acf225cddd89558fa88c540de4f3a0.png)
 
    <ol type="i" start="4">
 
@@ -9364,11 +9364,11 @@ If a data disk is partitioned and file systems are mounted on the disk, perform 
 
 1. Use Workbench to connect to a Windows ECS instance.
 
-2. On the Windows Server desktop, right-click the <img src="assets/24d1b88b6b856a20e77683128a3771fb.png" width="23" alt=""> icon and select **Disk Management**.
+2. On the Windows Server desktop, right-click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/24d1b88b6b856a20e77683128a3771fb.png" width="23" alt=""> icon and select **Disk Management**.
 
 3. In the **Disk Management** window, right-click the disk that you want to detach and select **Offline**.
 
-   ![](assets/3b977d05214a98c62cbad556bdb6fa2c.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/3b977d05214a98c62cbad556bdb6fa2c.png)
 
 **Step 2: Detach data disks on the Disks page**
 
@@ -9426,9 +9426,9 @@ EBS
 
 Clusters
 
-![](assets/3be9a2c708f59c1f3bd206044a9125a8.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/3be9a2c708f59c1f3bd206044a9125a8.png)
 
-![](assets/37a1a8dd4e0c2f9e745cc05944821631.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/37a1a8dd4e0c2f9e745cc05944821631.png)
 
 Partition 1
 
@@ -9444,13 +9444,13 @@ Partition...
 
 Partitions
 
-![](assets/6bc422aa2219e42a0998adb760f5b9ec.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/6bc422aa2219e42a0998adb760f5b9ec.png)
 
-![](assets/071c3768b524f1bbfb7e31d380ec8c91.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/071c3768b524f1bbfb7e31d380ec8c91.png)
 
-![](assets/43d04b8775e18989da30861ee577a1dd.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/43d04b8775e18989da30861ee577a1dd.png)
 
-![](assets/466ff5436d94916c56ad9f2af3e9dcbb.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/466ff5436d94916c56ad9f2af3e9dcbb.png)
 
 Cluster 1
 
@@ -9694,7 +9694,7 @@ This topic describes how to view the existing storage sets and their details.
 
    icon. The storage sets that meet the
 
-   <img src="assets/858356c87e85d4cb479bc2b73b57f743.png" width="18" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/858356c87e85d4cb479bc2b73b57f743.png" width="18" alt="">
 
    specified filter condition are displayed.
 
@@ -9939,7 +9939,7 @@ You can manually release disks that are no longer needed. When a disk is release
 
    icon in the **Actions** column, and
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    then click **Release**.
 
@@ -9967,7 +9967,7 @@ ECS images are classified into public images, custom images, shared custom image
 >
 > Image types and image versions are displayed in the ECS console.
 
-![](assets/306f3e7e207f96cd4e1df118b67e405d.jpeg)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/306f3e7e207f96cd4e1df118b67e405d.jpeg)
 
 | Image type | Description | References |
 | --- | --- | --- |
@@ -10042,7 +10042,7 @@ After you create or import a custom image, the image is in the **Available** sta
 
 The following figure shows how to use a custom image.
 
-![](assets/cd9a4595c2835686cc741a017e1daa1a.jpeg)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/cd9a4595c2835686cc741a017e1daa1a.jpeg)
 
 **Related operations**
 
@@ -10109,7 +10109,7 @@ When you create a custom image from an instance, a snapshot is automatically gen
 
    icon and then choose **Disk and Image > Create Custom Image**.
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
 5. Configure the parameters that are described in the following table.
 
@@ -10250,7 +10250,7 @@ You can share a created custom image with other organizations. Then, the organiz
 
    icon in the **Actions** column, and
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    then choose **Configure Sharing Settings > Share Image**.
 
@@ -10274,7 +10274,7 @@ After the custom image is shared, you can perform the following operations based
 
   In the **Share Image** dialog box, find the organization with which you want to unshare the
 
-  image in the **Shared Information** list, click the <img src="assets/3ff2eb991dfbef7b0c2c6fae46a0c906.png" width="20" alt=""> icon in the **Actions** column, and then
+  image in the **Shared Information** list, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/3ff2eb991dfbef7b0c2c6fae46a0c906.png" width="20" alt=""> icon in the **Actions** column, and then
 
   click **OK**.
 
@@ -10318,7 +10318,7 @@ You can modify the sharing scope of a custom image.
 
      <li>
 
-     In the custom image list, find the custom image and click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the **Actions**
+     In the custom image list, find the custom image and click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the **Actions**
 
      column.
 
@@ -10418,7 +10418,7 @@ To meet compliance requirements for data security, you can use encrypted custom 
 
    icon and
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    then select **Encrypt Image**.
 
@@ -10470,7 +10470,7 @@ Before you modify the boot mode of a custom image, take note of the following it
    >
    > To quickly find and manage custom images that are shared by the current organization, choose **Shared Image > Shared by Me**.
 
-5. Find the image that you want to manage and choose <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> > **Startup Mode** in the **Actions**
+5. Find the image that you want to manage and choose <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> > **Startup Mode** in the **Actions**
 
    column.
 
@@ -10500,19 +10500,19 @@ You can import an on-premises image file to Alibaba Cloud to generate a custom i
 
 The following figure shows the procedure on how to import a Linux image.
 
-![](assets/a17b636b1faa754ae4779828d942d854.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/a17b636b1faa754ae4779828d942d854.png)
 
-![](assets/5c9307de09233b90b93c770d842b4455.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/5c9307de09233b90b93c770d842b4455.png)
 
-![](assets/934db823febfce72c77d4cac0a4268ce.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/934db823febfce72c77d4cac0a4268ce.png)
 
-![](assets/d3223bf4c16450844a38afa11e53c803.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/d3223bf4c16450844a38afa11e53c803.png)
 
-![](assets/040456b50ae2ca6ff3e124d718f65c4b.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/040456b50ae2ca6ff3e124d718f65c4b.png)
 
-![](assets/1975cdfcd588533a16e450bbd3d6f769.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/1975cdfcd588533a16e450bbd3d6f769.png)
 
-![](assets/c10c0e48b69bfd7f2b7b0bade07a6f82.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/c10c0e48b69bfd7f2b7b0bade07a6f82.png)
 
 importing images to
 
@@ -11062,7 +11062,7 @@ The boot mode is the mode in which the system disk is booted during ECS instance
 
    <li>
 
-   On the **MANUAL PARTITIONING** page, click <img src="assets/328b2332cdd042a8739d968e1168d198.png" width="10" alt=""> , set **Mount Point** to **/**, **Device Type** to
+   On the **MANUAL PARTITIONING** page, click <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/328b2332cdd042a8739d968e1168d198.png" width="10" alt=""> , set **Mount Point** to **/**, **Device Type** to
 
    **Standard Partition**, and **File System** to **ext4**, and then click **Done**.
 
@@ -11108,7 +11108,7 @@ The boot mode is the mode in which the system disk is booted during ECS instance
 
    The following figure shows a sample command output.
 
-   ![](assets/c812ef28456150872684d42ed26163bb.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/c812ef28456150872684d42ed26163bb.png)
 
 **UEFI**
 
@@ -11144,7 +11144,7 @@ The boot mode is the mode in which the system disk is booted during ECS instance
 
    <li>
 
-   On the **MANUAL PARTITIONING** page, click <img src="assets/328b2332cdd042a8739d968e1168d198.png" width="10" alt=""> , set **Mount Point**, **Device Type**, and
+   On the **MANUAL PARTITIONING** page, click <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/328b2332cdd042a8739d968e1168d198.png" width="10" alt=""> , set **Mount Point**, **Device Type**, and
 
    **File System**, and then click **Done**.
 
@@ -11196,7 +11196,7 @@ The boot mode is the mode in which the system disk is booted during ECS instance
 
    The following figure shows a sample command output.
 
-   ![](assets/6f73133b153344291773eb0eed016504.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/6f73133b153344291773eb0eed016504.png)
 
 <a id="section-6-3-8-3-2"></a>
 
@@ -11212,7 +11212,7 @@ If you want to create a custom image on which no Non-Volatile Memory Express (NV
    cat /boot/config-`uname -r` | grep -i nvme | grep -v "^#"
    ```
 
-   ![](assets/825b0fe58aa86c803d4555a40a46c87a.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/825b0fe58aa86c803d4555a40a46c87a.jpeg)
 
    - If the  `CONFIG_BLK_DEV_NVME=y`  message is returned, the operating system can start on an instance of an instance family that supports NVMe.
 
@@ -11225,7 +11225,7 @@ If you want to create a custom image on which no Non-Volatile Memory Express (NV
    sudo lsinitramfs  /boot/initrd.img-$(uname -r) | grep -i nvme | awk '{print $NF}'
    ```
 
-   ![](assets/a0b39c3cc8cb017f6c562af421d87444.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/a0b39c3cc8cb017f6c562af421d87444.jpeg)
 
    - If the command output shown in the preceding figure is returned, the operating system can start on an instance of an instance family that supports NVMe. In this case, proceed to Step 4.
 
@@ -11275,7 +11275,7 @@ If you want to create a custom image on which no Non-Volatile Memory Express (NV
 
    <li>
 
-   Press the <img src="assets/361dd8505096ca80a114b862fcd0dec6.png" width="17" alt="">
+   Press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/361dd8505096ca80a114b862fcd0dec6.png" width="17" alt="">
 
    `I` key to enter Insert mode. At the end of the  `GRUB_CMDLINE_LINUX=`  line, add
 
@@ -11287,7 +11287,7 @@ If you want to create a custom image on which no Non-Volatile Memory Express (NV
 
    The following figure shows an example on how to add the parameters.
 
-   ![](assets/0b352fff87c082514a87d465fe956312.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/0b352fff87c082514a87d465fe956312.png)
 
    > **Note**
    >
@@ -11297,9 +11297,9 @@ If you want to create a custom image on which no Non-Volatile Memory Express (NV
 
    <li>
 
-   Press the <img src="assets/df9c83d07076d2073a5be1cc3014eb8c.png" width="27" alt="">
+   Press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/df9c83d07076d2073a5be1cc3014eb8c.png" width="27" alt="">
 
-   `Esc` key to exit Insert mode. Then, enter  `:wq`  and press the <img src="assets/01891ed69fbc516c6baf05111f5b3239.png" width="38" alt="">
+   `Esc` key to exit Insert mode. Then, enter  `:wq`  and press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/01891ed69fbc516c6baf05111f5b3239.png" width="38" alt="">
 
    `Enter` key to
 
@@ -11343,7 +11343,7 @@ If you want to create a custom image on which no Non-Volatile Memory Express (NV
 
      - If a different path is specified for configfile, such as  `/boot/grub/grub.cfg`  shown in the following figure, run the following command to make the configuration take effect:
 
-       ![](assets/2d3bf5dc03e5dc9ecdbeb1b6532b594d.jpeg)
+       ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/2d3bf5dc03e5dc9ecdbeb1b6532b594d.jpeg)
 
        ```bash
        sudo grub2-mkconfig -o /boot/grub2/grub.cfg
@@ -11371,7 +11371,7 @@ If you want to create a custom image on which no Non-Volatile Memory Express (NV
 
    If the following command output is returned, the configuration is complete and the operating system can start on an instance of an instance family that supports NVMe.
 
-   ![](assets/a0b39c3cc8cb017f6c562af421d87444.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/a0b39c3cc8cb017f6c562af421d87444.jpeg)
 
 <a id="section-6-3-8-3-3"></a>
 
@@ -11678,7 +11678,7 @@ The following sections describe how to download the binary packages of cloud-ini
 
    If Alibaba Cloud cloud-init is installed,  `"description": "success"`  is returned.
 
-   ![](assets/84ee109d5c3c741ff0e5b914b383ce76.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/84ee109d5c3c741ff0e5b914b383ce76.png)
 
 8. Run the following command to check whether the cloud-init version is as expected:
 
@@ -11858,7 +11858,7 @@ bash ./cloud-init-*/tools/deploy.sh opensuse"$issue_major"
 
    If Alibaba Cloud cloud-init is installed,  `"description": "success"`  is returned.
 
-   ![](assets/84ee109d5c3c741ff0e5b914b383ce76.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/84ee109d5c3c741ff0e5b914b383ce76.png)
 
 8. Run the following command to check whether the cloud-init version is as expected:
 
@@ -12092,7 +12092,7 @@ bash ./cloud-init-*/tools/deploy.sh opensuse"$issue_major"
    sudo vi /etc/cloud/cloud.cfg
    ```
 
-   ![](assets/a8450ca012ad8ded4b17b9faf6a082e4.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/a8450ca012ad8ded4b17b9faf6a082e4.jpeg)
 
    </li>
 
@@ -12150,9 +12150,9 @@ The virtio driver is a high-performance I/O driver that is used for virtualizati
 
 The following figure shows the process of installing the virtio driver in a Linux operating system.
 
-![](assets/eb82d3a0148b88feb39e9bc0f8aa7f3f.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/eb82d3a0148b88feb39e9bc0f8aa7f3f.png)
 
-![](assets/6cab686f65fc72113fa8ec4ca147cab8.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/6cab686f65fc72113fa8ec4ca147cab8.png)
 
 **The values of the**
 
@@ -12184,7 +12184,7 @@ The following figure shows the process of installing the virtio driver in a Linu
 
    Sample command output:
 
-   ![](assets/5a05c95b8b1884175f11eee9265a5df3.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/5a05c95b8b1884175f11eee9265a5df3.jpeg)
 
 2. Analyze the check result.
 
@@ -12206,7 +12206,7 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
    lsinitrd /boot/initramfs-$(uname -r).img | grep virtio
    ```
 
-   ![](assets/c5be1840c64050a6434e5c0819b84a53.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/c5be1840c64050a6434e5c0819b84a53.png)
 
    **Debian**
 
@@ -12214,7 +12214,7 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
    lsinitramfs /boot/initrd.img-$(uname -r)|grep  virtio
    ```
 
-   ![](assets/ca7756a5d86b5f7f4f6b3288c540cc1c.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/ca7756a5d86b5f7f4f6b3288c540cc1c.png)
 
    **SUSE**
 
@@ -12222,7 +12222,7 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
    lsinitrd /boot/initrd-$(uname -r)|grep virtio
    ```
 
-   ![](assets/79bf52e2696099b4bca1a0f32c5ed9de.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/79bf52e2696099b4bca1a0f32c5ed9de.png)
 
    - As shown in the preceding figure, the command output contains both  `virtio_blk.ko` and  `virtio_net.ko` . This indicates that the virtio driver has been added to the temporary file system, and the virtio driver addition operation is not needed.
 
@@ -12248,7 +12248,7 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
 
    <li>
 
-   Press the <img src="assets/6dcd8cb45135c4526309af6c1b75044a.png" width="17" alt="">
+   Press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/6dcd8cb45135c4526309af6c1b75044a.png" width="17" alt="">
 
    `I` key to enter the Insert mode and add the following content to the file:
 
@@ -12260,9 +12260,9 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
    add_drivers+="virtio_blk virtio_net"
    ```
 
-   Press the <img src="assets/85caa0feef729d92f7a4fe1b85db17a7.png" width="27" alt="">
+   Press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/85caa0feef729d92f7a4fe1b85db17a7.png" width="27" alt="">
 
-   `Esc` key, enter <img src="assets/81ffbc0c5b426d82763da4c98800332f.png" width="27" alt="">
+   `Esc` key, enter <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/81ffbc0c5b426d82763da4c98800332f.png" width="27" alt="">
 
    `:wq`, and then press the Enter key to save and close the file.
 
@@ -12288,7 +12288,7 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
    >
    > After the command is run, you can run the  `echo $?`  command to check whether a value of 0 is returned. If the value of 0 is returned, initrd is regenerated as expected. You can also run the
    >
-   > ![](assets/b88961a3c964a7e6e6abaa710993117e.png)
+   > ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/b88961a3c964a7e6e6abaa710993117e.png)
    >
    > command to check whether the virtio driver is added to the temporary file system as expected.
 
@@ -12308,7 +12308,7 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
 
    <li>
 
-   Press the <img src="assets/1d9941d38fe40cf1b9bc01b7282c0f78.png" width="17" alt="">
+   Press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/1d9941d38fe40cf1b9bc01b7282c0f78.png" width="17" alt="">
 
    `I` key to enter the Insert mode and add the following content to the file:
 
@@ -12321,9 +12321,9 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
    virtio_net
    ```
 
-   Press the <img src="assets/ec0b309be7395ead09958b36f214f8e0.png" width="27" alt="">
+   Press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/ec0b309be7395ead09958b36f214f8e0.png" width="27" alt="">
 
-   `Esc` key, enter <img src="assets/19fb08943154ff35e43ba16cb9254905.png" width="27" alt="">
+   `Esc` key, enter <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/19fb08943154ff35e43ba16cb9254905.png" width="27" alt="">
 
    `:wq`, and then press the Enter key to save and close the file.
 
@@ -12349,7 +12349,7 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
    >
    > After the command is run, you can run the  `echo $?`  command to check whether a value of 0 is returned. If the value of 0 is returned, initrd is regenerated as expected. You can also run the
    >
-   > ![](assets/8a9672d9d71b8c21b1bd1738a4d2d20d.png)
+   > ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/8a9672d9d71b8c21b1bd1738a4d2d20d.png)
    >
    > command to check whether the virtio driver is added to the temporary file system as expected.
 
@@ -12371,7 +12371,7 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
 
      <li>
 
-     Press the <img src="assets/722b3cd8e59d36c29b09e6c495f727ff.png" width="17" alt="">
+     Press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/722b3cd8e59d36c29b09e6c495f727ff.png" width="17" alt="">
 
      `I` key to enter the Insert mode and add the following content to the file:
 
@@ -12379,9 +12379,9 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
      INITRD_MODULES="virtio_blk virtio_net"
      ```
 
-     Press the <img src="assets/a0def8c05a316c629a328407270d5414.png" width="27" alt="">
+     Press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/a0def8c05a316c629a328407270d5414.png" width="27" alt="">
 
-     `Esc` key, enter <img src="assets/2fb37a4faf6be8bef865cccd0b9afead.png" width="27" alt="">
+     `Esc` key, enter <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/2fb37a4faf6be8bef865cccd0b9afead.png" width="27" alt="">
 
      `:wq`, and then press the Enter key to save and close the file.
 
@@ -12423,7 +12423,7 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
 
      <li>
 
-     Press the <img src="assets/532327034e6a753e3845c3773257224d.png" width="17" alt="">
+     Press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/532327034e6a753e3845c3773257224d.png" width="17" alt="">
 
      `I` key to enter the Insert mode and add the following content to the file:
 
@@ -12431,9 +12431,9 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
      add_drivers+="virtio_blk virtio_net"
      ```
 
-     Press the <img src="assets/cdc410caea4096ac492c96020bfd0050.png" width="27" alt="">
+     Press the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/cdc410caea4096ac492c96020bfd0050.png" width="27" alt="">
 
-     `Esc` key, enter <img src="assets/2f999f991bdcd479e75b6092ad9c5f76.png" width="27" alt="">
+     `Esc` key, enter <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/2f999f991bdcd479e75b6092ad9c5f76.png" width="27" alt="">
 
      `:wq`, and then press the Enter key to save and close the file.
 
@@ -12461,7 +12461,7 @@ If  `CONFIG_VIRTIO_BLK=m`  or  `CONFIG_VIRTIO_NET=m`  is enabled for the system 
    >
    > After the command is run, you can run the  `echo $?`  command to check whether a value of 0 is returned. If the value of 0 is returned, initrd is regenerated as expected. You can also run the
    >
-   > ![](assets/ae2d1f0608d0fa77fe64ee5b2affacac.png)
+   > ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/ae2d1f0608d0fa77fe64ee5b2affacac.png)
    >
    > command to check whether the virtio driver is added to the temporary file system as expected.
 
@@ -12571,9 +12571,9 @@ The image compliance tool checks the configuration items of source servers. The 
 | <code>SshConfig</code> | <code>sshd</code> | An SSH connection to an ECS instance that uses the image cannot be established. | Check whether the sshd configuration file contains errors. In most cases, the sshd configuration file is/etc/ssh/sshd_config.<br>If the sshd configuration file contains errors, the sshd service cannot start, and SSH connections to ECS instances that use the image cannot be established. You must check the correctness and validity of the sshd configuration file. You can run the following commands:<br>• Run the <code> sudo sshd -T </code> command to view all sshd configuration options.<br>• Run the <code> sudo sshd -t </code> command to verify the validity of the sshd configuration file. If the sshd configuration file is valid, no information is returned. |
 | <code>Firewall</code> | <code>firewall</code> | The system firewall service may cause an instance access failure. | Check whether the firewall service is enabled. We recommend that you disable the firewall service in the operating system and use ECS security groups to manage inbound and outbound traffic of instances. |
 
-![](assets/2f4e8c20c038607c6e49ff725bdf0b47.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/2f4e8c20c038607c6e49ff725bdf0b47.png)
 
-![](assets/17ba3215566987b176bfd6c0237230ac.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/17ba3215566987b176bfd6c0237230ac.png)
 
 <table>
   <tr>
@@ -13821,7 +13821,7 @@ Data is written to a disk of an Elastic Compute Service (ECS) instance at 10:00:
 
 4. The preceding processes are repeated.
 
-![](assets/ab88c23b40657870a022cc827e0137de.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/ab88c23b40657870a022cc827e0137de.png)
 
 **How snapshots are deleted**
 
@@ -13847,7 +13847,7 @@ The following section describes how the disk snapshots are deleted:
 
 3. Snapshot 3 is deleted at 16:00:00. All data blocks in Snapshot 3 are not referenced and are deleted.
 
-![](assets/73fb161f1324ebaffa5f4a0d3d6a2331.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/73fb161f1324ebaffa5f4a0d3d6a2331.png)
 
 **Operations related to snapshots**
 
@@ -13946,7 +13946,7 @@ The calculation of the snapshot chain size takes several minutes, and the size i
 
 4. Click the **Snapshot Chain** tab, select a field from the drop-down list, and enter a keyword
 
-   in the search box. Then, click the <img src="assets/858356c87e85d4cb479bc2b73b57f743.png" width="15" alt=""> icon. The snapshot chains that meet the filter
+   in the search box. Then, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/858356c87e85d4cb479bc2b73b57f743.png" width="15" alt=""> icon. The snapshot chains that meet the filter
 
    condition are displayed in the list.
 
@@ -14010,7 +14010,7 @@ Assume that data is written to a disk on an Elastic Compute Service (ECS) instan
 
 4. The preceding processes are repeated.
 
-![](assets/41f9314f9dac48072db7da60f363433a.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/41f9314f9dac48072db7da60f363433a.png)
 
 **Delete snapshots**
 
@@ -14042,7 +14042,7 @@ The following section describes how the disk snapshots are deleted:
 
 3. Lastly, Snapshot 3 is deleted at 16:00:00. In this case, all data blocks in Snapshot 3 are unreferenced and deleted.
 
-![](assets/4e8f5e34bb7e4efa2f76ce8fe8fd422c.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/4e8f5e34bb7e4efa2f76ce8fe8fd422c.png)
 
 **Calculate the snapshot size**
 
@@ -14076,7 +14076,7 @@ Assume that data is written to a disk on an ECS instance at 10:00:00 and 11:00:0
 
 4. Total snapshot size = Size of Snapshot 1 + Size of Snapshot 2 + Size of Snapshot 3 = 16 MB
 
-![](assets/79588a5fd0348a088acad20aa5838141.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/79588a5fd0348a088acad20aa5838141.png)
 
 Size of Snapshot 3 = 4 MB&lt;br>(Incremental snapshot size
 
@@ -14202,7 +14202,7 @@ You can view the details of a snapshot, including the snapshot name, snapshot ID
 
    <li>
 
-   In the upper-right corner of the snapshot list, click the <img src="assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
+   In the upper-right corner of the snapshot list, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
 
    </li>
 
@@ -14318,7 +14318,7 @@ To export information such as the snapshot capacity in the ECS console, perform 
 
 3. In the upper-left corner of the top navigation bar, select the resource group and region where the destination resources reside.
 
-4. Click the **Snapshot Chain** tab, select one or more snapshot chains, and then click the <img src="assets/7d482d2cf0a8268e7af68b993d59571f.png" width="17" alt="">
+4. Click the **Snapshot Chain** tab, select one or more snapshot chains, and then click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/7d482d2cf0a8268e7af68b993d59571f.png" width="17" alt="">
 
    icon in the upper-right corner.
 
@@ -14464,7 +14464,7 @@ If you no longer need to share a snapshot with other level-1 organizations, you 
 
 5. In the **Shared Information** list, find the organization for which you want to cancel sharing
 
-   and click the <img src="assets/aae3a06d1a815c248fc8ba6f3fbca592.png" width="14" alt=""> icon in the **Actions** column.
+   and click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/aae3a06d1a815c248fc8ba6f3fbca592.png" width="14" alt=""> icon in the **Actions** column.
 
 6. Click **OK**.
 
@@ -14705,7 +14705,7 @@ Before you use the snapshot-consistent group feature, take note of the following
 
    icon and choose **Disk and Image > Create Snapshot-consistent**
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    **Group**.
 
@@ -14784,7 +14784,7 @@ You can view information about a snapshot-consistent group, including the name, 
 
    <li>
 
-   In the upper-right corner of the snapshot-consistent group list, click the <img src="assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
+   In the upper-right corner of the snapshot-consistent group list, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
 
    </li>
 
@@ -15002,7 +15002,7 @@ You can view created automatic snapshot policies.
 
    <li>
 
-   In the upper-right corner of the automatic snapshot policy list, click the <img src="assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
+   In the upper-right corner of the automatic snapshot policy list, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
 
    </li>
 
@@ -15076,7 +15076,7 @@ We recommend that you apply automatic snapshot policies to create automatic snap
 
    - If you want to cancel the automatic snapshot policy, click the **Disks with Policy Applied** tab, select the cloud disks from which you want to remove the policy, and then click **Cancel Policy** below the disk list.
 
-   You can also click the <img src="assets/04f894dea9bd2e53d318872c66fe00e9.png" width="18" alt=""> icon in the **Status** or **Disk Type** column to filter disks.
+   You can also click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/04f894dea9bd2e53d318872c66fe00e9.png" width="18" alt=""> icon in the **Status** or **Disk Type** column to filter disks.
 
 **Apply an automatic snapshot policy on the Disks page**
 
@@ -15156,17 +15156,17 @@ When you configure a security group, take note of the following items:
 
 For example, as shown in the following figure, a VPC contains  `ECS 1`  and  `ECS 2` , and the ENIs of both ECS instances are added to  `Security Group 1` .  `Security Group 1`  is a basic security group. By default, the internal networks of  `ECS 1`  and  `ECS 2`  are connected to each other. The internal connectivity policy is not affected by the custom security group rules that you configure. The inbound and outbound traffic of  `ECS 1`  and  `ECS 2`  is managed by the custom security group rules of  `Security Group 1` . Based on the inbound security group rules of  `Security Group 1` , you can use any IP address to ping  `ECS 1`  and  `ECS 2`  in  `Security Group 1` . No outbound security group rules are added to  `Security Group 1` . By default, all outbound traffic is allowed.
 
-![](assets/c1fd783a908c17e8455001f307631e81.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/c1fd783a908c17e8455001f307631e81.png)
 
 Outbound
 
 Inbound
 
-![](assets/ea3dab1593eacf67b96862d148d009ce.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/ea3dab1593eacf67b96862d148d009ce.png)
 
 Inbound Security Group Rule in Security G
 
-![](assets/c320f73cd3059ba7023b5e09592199fa.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/c320f73cd3059ba7023b5e09592199fa.png)
 
 **Security group types**
 
@@ -15314,7 +15314,7 @@ Security groups determine whether ECS instances that belong to the same virtual 
    >
    > icon in the
    >
-   > <img src="assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
+   > <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
    >
    > **Actions** column of the security group and then click **Sharing Settings**.
 
@@ -15362,7 +15362,7 @@ Security groups determine whether ECS instances that belong to the same virtual 
 
    Yes
 
-   click the <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt=""> icon to refresh the VPC list. For more
+   click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt=""> icon to refresh the VPC list. For more
 
    information about how to create a VPC, see the **Create and manage VPCs** topic in **VPC User Guide**.
 
@@ -15487,7 +15487,7 @@ If a security group has been associated with a security group template, the secu
    | Protocol Type | Yes | The protocol type used to match requests. Valid values:<br>• <strong>All</strong>: applies to scenarios in which all requests are sent from trusted sources.<br>• <strong>TCP</strong>: allows or denies traffic on one or more consecutive ports.<br>• <strong>UDP</strong>: allows or denies traffic on one or more consecutive ports.<br>• <strong>ICMP</strong>: uses the <code> ping </code> command to test the network connectivity between instances.<br>• <strong>ICMPv6</strong>: uses the <code> ping6 </code> command to test the network connectivity between instances.<br>• <strong>GRE</strong>: applies to VPN services. |
    | Priority | Yes | The priority of the security group rule. Valid values: 1 to 100. The default value is 1, which indicates the highest priority. |
    | Allowed IP range (CIDR format) | Yes | • <strong>IPv4 CIDR Block</strong>: IPv4 addresses or CIDR blocks.<br>• <strong>IPv6 CIDR Block</strong>: IPv6 addresses or CIDR blocks.<br>• <strong>Prefix List</strong>: prefix lists.<br>• <strong>Security Group</strong>: security groups. This authorization object type takes effect only on the internal network. You can select a different security group within your account as the authorization object to allow or deny mutual access over the internal network between ECS instances in the selected security group and ECS instances in the current security group. |
-   | Authorizatio n Object | Yes | Authorization objects vary based on the Allowed IP range (CIDR format) parameter that you set.<br>• If you set the Authorization Type parameter to <strong>IPv4 CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv4 address or a CIDR block. Example:<br>![](assets/94db1f8f2f4e8f58f6d0e02f7f8daa8a.png)<br><code>192.0.2.1</code> or<br>![](assets/382657469022201d8f65f63f886d7fd4.png)<br><code>192.0.2.0/24</code>.<br>• You can enter up to 10 authorization objects. Separate the authorization objects with commas (,).<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>![](assets/b3298cba2cd501f791fb85027940dfae.png)<br>• If you enter <code>0.0.0.0/0</code>, access to or from all IPv4 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv6</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv6 address or a CIDR block. Example:<br>![](assets/abf57f808a0aa7a32398ba539bc1e416.png)<br><code>2001:db8:1:1:1:1:1:1</code> or<br>![](assets/e6e9c1d722e58205d8a63809ce82db3c.png)<br><code>2001:db8::/32</code>. You can enter up to one authorization object.<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>![](assets/1be55b96f4dbed76be9af18fdb0ff692.png)<br>• If you enter<code>::/0</code>, access to or from all IPv6 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>Security Group</strong>, select a security group ID from the drop-down list. The specified security group must reside in the same VPC as the current security group. |
+   | Authorizatio n Object | Yes | Authorization objects vary based on the Allowed IP range (CIDR format) parameter that you set.<br>• If you set the Authorization Type parameter to <strong>IPv4 CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv4 address or a CIDR block. Example:<br>![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/94db1f8f2f4e8f58f6d0e02f7f8daa8a.png)<br><code>192.0.2.1</code> or<br>![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/382657469022201d8f65f63f886d7fd4.png)<br><code>192.0.2.0/24</code>.<br>• You can enter up to 10 authorization objects. Separate the authorization objects with commas (,).<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/b3298cba2cd501f791fb85027940dfae.png)<br>• If you enter <code>0.0.0.0/0</code>, access to or from all IPv4 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv6</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv6 address or a CIDR block. Example:<br>![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/abf57f808a0aa7a32398ba539bc1e416.png)<br><code>2001:db8:1:1:1:1:1:1</code> or<br>![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/e6e9c1d722e58205d8a63809ce82db3c.png)<br><code>2001:db8::/32</code>. You can enter up to one authorization object.<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/1be55b96f4dbed76be9af18fdb0ff692.png)<br>• If you enter<code>::/0</code>, access to or from all IPv6 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>Security Group</strong>, select a security group ID from the drop-down list. The specified security group must reside in the same VPC as the current security group. |
    | Prefix List Aggregation Template | Optional | If you set the Allowed IP range (CIDR format) parameter to <strong>Prefix</strong> <strong>List</strong>, you can directly select an existing parameter template. For more information, see Create a parameter template. |
    | Port Authorizatio n Type | Yes | The destination port used to match requests. Valid values: <strong>Custom</strong> <strong>Port</strong> and <strong>Port Group</strong>. |
    | Port Range | Yes | If you select <strong>Custom Port</strong> for the <strong>Port Authorization Type</strong> parameter, the Port Range parameter is affected by the Protocol Type parameter.<br>• If you set the Protocol Type parameter to <strong>All</strong>, a value of <strong>-1/-1</strong> is displayed, which indicates all ports. In this case, you cannot specify a port range.<br>• If you set the Protocol Type parameter to <strong>TCP</strong>, you can specify a port range. The port range must be in the &lt;start port&gt;/&lt;end port&gt; format. Valid values of port numbers: 1 to 65535. For example, 80/80 indicates port 80 and 1/22 indicates ports 1 to 22.<br>• If you set the Protocol Type parameter to <strong>UDP</strong>, you can specify a port range. The port range must be in the &lt;start port&gt;/&lt;end port&gt; format. Valid values of port numbers: 1 to 65535. For example, 80/80 indicates port 80 and 1/22 indicates ports 1 to 22.<br>• If you set the Protocol Type parameter to <strong>ICMP</strong>, the value <strong>-1/-1</strong> is displayed, which indicates all ports. In this case, you cannot specify a port range.<br>• If you set the Protocol Type parameter to <strong>ICMPv6</strong>, the value <strong>-1/-1</strong> is displayed, which indicates all ports. In this case, you cannot specify a port range.<br>• If you set the Protocol Type parameter to <strong>GRE</strong>, the value <strong>-1/-1</strong> is displayed, which indicates all ports. In this case, you cannot specify a port range. |
@@ -15529,7 +15529,7 @@ Security groups are an important means for security isolation. A security group 
 
    **> Manage Instances**.
 
-   <img src="assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
 
    The **Instances** tab is displayed. On the Instances tab, you can view the information about ECS instances in the security group in the columns, including **Instance ID/Name**, **Region**, **IP Address**, and **Network Type**.
 
@@ -15553,7 +15553,7 @@ Security groups are an important means for security isolation. A security group 
 >
 > You can also go to the **ECS Instances** page, find the ECS instance that you want to add
 >
-> to a security group, click <img src="assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt=""> in the **Actions** column, and then choose **Network and**
+> to a security group, click <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt=""> in the **Actions** column, and then choose **Network and**
 >
 > **Security Group > Add to Security Group** to add the instance to a security group.
 
@@ -15573,7 +15573,7 @@ This topic describes how to view the elastic network interfaces (ENIs) that belo
 
 4. On the Security Group tab, find the security group that you want to view, move the pointer
 
-   over the <img src="assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt=""> icon in the **Actions** column, and then select **Manage ENIs**.
+   over the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt=""> icon in the **Actions** column, and then select **Manage ENIs**.
 
 5. On the **Security ENIs** tab, you can view information about the ENIs that belong to the security group in the columns, such as **ENI ID/Name**, **Tag**, **Organization/Resource Set**, and **Zone**.
 
@@ -15611,7 +15611,7 @@ This topic describes how to search for security groups in a region by using diff
 
    <li>
 
-   In the upper-right corner of the security group list, click the <img src="assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
+   In the upper-right corner of the security group list, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="16" alt=""> icon.
 
    </li>
 
@@ -15689,7 +15689,7 @@ A security group that is associated with a security group template cannot be clo
 
    **>**
 
-   <img src="assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
 
    **Clone**.
 
@@ -15763,7 +15763,7 @@ A security group that is associated with a security group template cannot be clo
 
    Yes
 
-   and click the <img src="assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt=""> icon to update the VPC list. For
+   and click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/30a1419add21460b8797a783947c9dfc.png" width="16" alt=""> icon to update the VPC list. For
 
    more information about how to create a VPC, see the **Create a VPC** topic in **VPC User Guide**.
 
@@ -15785,7 +15785,7 @@ A security group that is associated with a security group template cannot be clo
 
    Scope
 
-   > <img src="assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
+   > <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
    >
    > **Settings** in the **Actions** column.
 
@@ -15845,7 +15845,7 @@ After an instance is removed from a security group, the instance is isolated fro
 
    icon in the **Actions** column,
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    and then select **Manage Instances**.
 
@@ -16310,7 +16310,7 @@ predictable and rarely changes. It is suitable for batch configurations of port 
        <tr>
          <td>Authorizatio n Object</td>
          <td>Yes</td>
-         <td>Authorization objects vary based on the Allowed IP range (CIDR format) parameter that you set.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv4</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv4 address or a CIDR block. Example:<br><img src="assets/3761103f7458ff9588bf78b19bb9f0e0.png" alt=""><br><img src="assets/fe4eb96f71b2403a35913f1997343ed1.png" alt=""><br><code>192.0.2.1</code> or <code>192.0.2.0/24</code>.<br>• You can enter up to 10 authorization objects. Separate the authorization objects with commas (,).<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br><img src="assets/5f7565ffe9e113e8e6127810a2bd19e9.png" alt=""><br>• If you enter <code>0.0.0.0/0</code>, access to or from all IPv4 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv6</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv6 address or a CIDR block. Example:<br><img src="assets/70ea0fffc6c8047fde1b0309c8138256.png" alt=""><br><img src="assets/d8a721de83e364548ac2b794cf7bc963.png" alt=""><br><code>2001:db8:1:1:1:1:1:1</code> or <code>2001:db8::/32</code>. You can enter only one authorization object.<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>• If you enter<br><img src="assets/470c41a00247fa0a389a4996118f3f28.png" alt=""><br><code>::/0</code>, access to or from all IPv6 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>Security Group</strong>, select a security group ID from the drop-down list. The specified security group must reside in the same VPC as the current security group.</td>
+         <td>Authorization objects vary based on the Allowed IP range (CIDR format) parameter that you set.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv4</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv4 address or a CIDR block. Example:<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/3761103f7458ff9588bf78b19bb9f0e0.png" alt=""><br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/fe4eb96f71b2403a35913f1997343ed1.png" alt=""><br><code>192.0.2.1</code> or <code>192.0.2.0/24</code>.<br>• You can enter up to 10 authorization objects. Separate the authorization objects with commas (,).<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/5f7565ffe9e113e8e6127810a2bd19e9.png" alt=""><br>• If you enter <code>0.0.0.0/0</code>, access to or from all IPv4 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv6</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv6 address or a CIDR block. Example:<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/70ea0fffc6c8047fde1b0309c8138256.png" alt=""><br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/d8a721de83e364548ac2b794cf7bc963.png" alt=""><br><code>2001:db8:1:1:1:1:1:1</code> or <code>2001:db8::/32</code>. You can enter only one authorization object.<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>• If you enter<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/470c41a00247fa0a389a4996118f3f28.png" alt=""><br><code>::/0</code>, access to or from all IPv6 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>Security Group</strong>, select a security group ID from the drop-down list. The specified security group must reside in the same VPC as the current security group.</td>
        </tr>
        <tr>
          <td>Prefix List Aggregation Template</td>
@@ -16341,7 +16341,7 @@ predictable and rarely changes. It is suitable for batch configurations of port 
        <tr>
          <td>Authorizatio n Object</td>
          <td>Yes</td>
-         <td>Authorization objects vary based on the Allowed IP range (CIDR format) parameter that you set.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv4</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv4 address or a CIDR block. Example:<br><img src="assets/3761103f7458ff9588bf78b19bb9f0e0.png" alt=""><br><img src="assets/fe4eb96f71b2403a35913f1997343ed1.png" alt=""><br><code>192.0.2.1</code> or <code>192.0.2.0/24</code>.<br>• You can enter up to 10 authorization objects. Separate the authorization objects with commas (,).<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br><img src="assets/5f7565ffe9e113e8e6127810a2bd19e9.png" alt=""><br>• If you enter <code>0.0.0.0/0</code>, access to or from all IPv4 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv6</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv6 address or a CIDR block. Example:<br><img src="assets/70ea0fffc6c8047fde1b0309c8138256.png" alt=""><br><img src="assets/d8a721de83e364548ac2b794cf7bc963.png" alt=""><br><code>2001:db8:1:1:1:1:1:1</code> or <code>2001:db8::/32</code>. You can enter up to one authorization object.<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>• If you enter<br><img src="assets/470c41a00247fa0a389a4996118f3f28.png" alt=""><br><code>::/0</code>, access to or from all IPv6 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.</td>
+         <td>Authorization objects vary based on the Allowed IP range (CIDR format) parameter that you set.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv4</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv4 address or a CIDR block. Example:<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/3761103f7458ff9588bf78b19bb9f0e0.png" alt=""><br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/fe4eb96f71b2403a35913f1997343ed1.png" alt=""><br><code>192.0.2.1</code> or <code>192.0.2.0/24</code>.<br>• You can enter up to 10 authorization objects. Separate the authorization objects with commas (,).<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/5f7565ffe9e113e8e6127810a2bd19e9.png" alt=""><br>• If you enter <code>0.0.0.0/0</code>, access to or from all IPv4 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv6</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv6 address or a CIDR block. Example:<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/70ea0fffc6c8047fde1b0309c8138256.png" alt=""><br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/d8a721de83e364548ac2b794cf7bc963.png" alt=""><br><code>2001:db8:1:1:1:1:1:1</code> or <code>2001:db8::/32</code>. You can enter up to one authorization object.<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>• If you enter<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/470c41a00247fa0a389a4996118f3f28.png" alt=""><br><code>::/0</code>, access to or from all IPv6 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.</td>
        </tr>
        <tr>
          <td>Port Authorizatio n Type</td>
@@ -16395,7 +16395,7 @@ predictable and rarely changes. It is suitable for batch configurations of port 
        <tr>
          <td>Authorizatio n Object</td>
          <td>Yes</td>
-         <td>Authorization objects vary based on the <strong>authorization object</strong> <strong>type</strong>.<br>• If you set the <strong>Allowed IP range (CIDR format)</strong> parameter to <strong>IPv4 CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv4 address or a CIDR block. Example:<br><img src="assets/3761103f7458ff9588bf78b19bb9f0e0.png" alt=""><br><img src="assets/fe4eb96f71b2403a35913f1997343ed1.png" alt=""><br><code>192.0.2.1</code> or <code>192.0.2.0/24</code>.<br>• You can enter up to 10 authorization objects. Separate the authorization objects with commas (,).<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br><img src="assets/5f7565ffe9e113e8e6127810a2bd19e9.png" alt=""><br>• If you enter <code>0.0.0.0/0</code>, access to or from all IPv4 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the <strong>Allowed IP range (CIDR format)</strong> parameter to <strong>IPv6 CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv6 address or a CIDR block. Example:<br><img src="assets/70ea0fffc6c8047fde1b0309c8138256.png" alt=""><br><img src="assets/d8a721de83e364548ac2b794cf7bc963.png" alt=""><br><code>2001:db8:1:1:1:1:1:1</code> or <code>2001:db8::/32</code>. You can enter up to one authorization object.<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>• If you enter<br><img src="assets/470c41a00247fa0a389a4996118f3f28.png" alt=""><br><code>::/0</code>, access to or from all IPv6 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.</td>
+         <td>Authorization objects vary based on the <strong>authorization object</strong> <strong>type</strong>.<br>• If you set the <strong>Allowed IP range (CIDR format)</strong> parameter to <strong>IPv4 CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv4 address or a CIDR block. Example:<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/3761103f7458ff9588bf78b19bb9f0e0.png" alt=""><br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/fe4eb96f71b2403a35913f1997343ed1.png" alt=""><br><code>192.0.2.1</code> or <code>192.0.2.0/24</code>.<br>• You can enter up to 10 authorization objects. Separate the authorization objects with commas (,).<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/5f7565ffe9e113e8e6127810a2bd19e9.png" alt=""><br>• If you enter <code>0.0.0.0/0</code>, access to or from all IPv4 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the <strong>Allowed IP range (CIDR format)</strong> parameter to <strong>IPv6 CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv6 address or a CIDR block. Example:<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/70ea0fffc6c8047fde1b0309c8138256.png" alt=""><br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/d8a721de83e364548ac2b794cf7bc963.png" alt=""><br><code>2001:db8:1:1:1:1:1:1</code> or <code>2001:db8::/32</code>. You can enter up to one authorization object.<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>• If you enter<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/470c41a00247fa0a389a4996118f3f28.png" alt=""><br><code>::/0</code>, access to or from all IPv6 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.</td>
        </tr>
        <tr>
          <td>Port Authorizatio n Type</td>
@@ -16421,7 +16421,7 @@ predictable and rarely changes. It is suitable for batch configurations of port 
        <tr>
          <td>Authorizatio n Object</td>
          <td>Yes</td>
-         <td>Authorization objects vary based on the Allowed IP range (CIDR format) parameter that you set.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv4</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv4 address or a CIDR block. Example:<br><img src="assets/3761103f7458ff9588bf78b19bb9f0e0.png" alt=""><br><img src="assets/fe4eb96f71b2403a35913f1997343ed1.png" alt=""><br><code>192.0.2.1</code> or <code>192.0.2.0/24</code>.<br>• You can enter up to 10 authorization objects. Separate the authorization objects with commas (,).<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br><img src="assets/5f7565ffe9e113e8e6127810a2bd19e9.png" alt=""><br>• If you enter <code>0.0.0.0/0</code>, access to or from all IPv4 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv6</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv6 address or a CIDR block. Example:<br><img src="assets/70ea0fffc6c8047fde1b0309c8138256.png" alt=""><br><img src="assets/d8a721de83e364548ac2b794cf7bc963.png" alt=""><br><code>2001:db8:1:1:1:1:1:1</code> or <code>2001:db8::/32</code>. You can enter up to one authorization object.<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>• If you enter<br><img src="assets/470c41a00247fa0a389a4996118f3f28.png" alt=""><br><code>::/0</code>, access to or from all IPv6 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the <strong>Allowed IP range (CIDR format)</strong> parameter to <strong>Security Group</strong>, select a security group ID. The specified security group must reside in the same VPC as the current security group.</td>
+         <td>Authorization objects vary based on the Allowed IP range (CIDR format) parameter that you set.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv4</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv4 address or a CIDR block. Example:<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/3761103f7458ff9588bf78b19bb9f0e0.png" alt=""><br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/fe4eb96f71b2403a35913f1997343ed1.png" alt=""><br><code>192.0.2.1</code> or <code>192.0.2.0/24</code>.<br>• You can enter up to 10 authorization objects. Separate the authorization objects with commas (,).<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/5f7565ffe9e113e8e6127810a2bd19e9.png" alt=""><br>• If you enter <code>0.0.0.0/0</code>, access to or from all IPv4 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv6</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv6 address or a CIDR block. Example:<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/70ea0fffc6c8047fde1b0309c8138256.png" alt=""><br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/d8a721de83e364548ac2b794cf7bc963.png" alt=""><br><code>2001:db8:1:1:1:1:1:1</code> or <code>2001:db8::/32</code>. You can enter up to one authorization object.<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>• If you enter<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/470c41a00247fa0a389a4996118f3f28.png" alt=""><br><code>::/0</code>, access to or from all IPv6 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the <strong>Allowed IP range (CIDR format)</strong> parameter to <strong>Security Group</strong>, select a security group ID. The specified security group must reside in the same VPC as the current security group.</td>
        </tr>
        <tr>
          <td>Prefix List Aggregation Template</td>
@@ -16629,7 +16629,7 @@ Security group rules cannot be imported to a security group that has been associ
 
 5. On the **Rules** tab, click **Import**.
 
-6. In the **Import Security Group Rule** dialog box, click the <img src="assets/49a4b45e230f0df47038659d36e45a4a.png" width="24" alt=""> icon.
+6. In the **Import Security Group Rule** dialog box, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/49a4b45e230f0df47038659d36e45a4a.png" width="24" alt=""> icon.
 
 7. Select a backup file of security group rules from your computer and click **OK** to upload the file.
 
@@ -16808,7 +16808,7 @@ When you use a security group template, you can create security group rules with
      <tr>
        <td>Authorizatio n Object</td>
        <td>Yes</td>
-       <td>Authorization objects vary based on the Allowed IP range (CIDR format) parameter that you set.<br>• If you set the Authorization Type parameter to <strong>IPv4 CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv4 address or a CIDR block. Example:<br><img src="assets/bfbe6fe2b4106b2351e5342ff2e29025.png" alt=""><br><img src="assets/578bb4bffe3f9317367cf5f23f5203b8.png" alt=""><br><code>192.0.2.1</code> or <code>192.0.2.0/24</code>.<br>• You can enter up to 10 authorization objects. Separate the authorization objects with commas (,).<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br><img src="assets/940d7ab8fd21583b0b3d9d50e10e8de0.png" alt=""><br>• If you enter <code>0.0.0.0/0</code>, access to or from all IPv4 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv6</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv6 address or a CIDR block. Example:<br><img src="assets/62f6da09bd876fdd14ac891faad1cea8.png" alt=""><br><img src="assets/4529e116bc1394011488bace1d121689.png" alt=""><br><code>2001:db8:1:1:1:1:1:1</code> or <code>2001:db8::/32</code>. You can enter up to one authorization object.<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>• If you enter<br><img src="assets/461d7a3e1496591bf4eed52cd35ecc36.png" alt=""><br><code>::/0</code>, access to or from all IPv6 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>Security Group</strong>, select a security group ID from the drop-down list. The specified security group must reside in the same VPC as the current security group.</td>
+       <td>Authorization objects vary based on the Allowed IP range (CIDR format) parameter that you set.<br>• If you set the Authorization Type parameter to <strong>IPv4 CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv4 address or a CIDR block. Example:<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/bfbe6fe2b4106b2351e5342ff2e29025.png" alt=""><br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/578bb4bffe3f9317367cf5f23f5203b8.png" alt=""><br><code>192.0.2.1</code> or <code>192.0.2.0/24</code>.<br>• You can enter up to 10 authorization objects. Separate the authorization objects with commas (,).<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/940d7ab8fd21583b0b3d9d50e10e8de0.png" alt=""><br>• If you enter <code>0.0.0.0/0</code>, access to or from all IPv4 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>IPv6</strong> <strong>CIDR Block</strong>, the following rules apply:<br>• You can enter a single IPv6 address or a CIDR block. Example:<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/62f6da09bd876fdd14ac891faad1cea8.png" alt=""><br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/4529e116bc1394011488bace1d121689.png" alt=""><br><code>2001:db8:1:1:1:1:1:1</code> or <code>2001:db8::/32</code>. You can enter up to one authorization object.<br>• The specified authorization object may conflict with the IP address of an ECS instance. For centralized management and accurate security group association, we recommend that you add this authorization object to a prefix list within a parameter template.<br>• If you enter<br><img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/461d7a3e1496591bf4eed52cd35ecc36.png" alt=""><br><code>::/0</code>, access to or from all IPv6 addresses is allowed or denied based on the value of the Action parameter.Proceed with caution.<br>• If you set the Allowed IP range (CIDR format) parameter to <strong>Security Group</strong>, select a security group ID from the drop-down list. The specified security group must reside in the same VPC as the current security group.</td>
      </tr>
      <tr>
        <td>Prefix List Aggregation Template</td>
@@ -17568,11 +17568,11 @@ Sample command outputs:
 
 - The following command output shows that the IP address of the eth0 primary ENI is recognized but the IP address of the eth1 secondary ENI is not recognized. You can perform operations described in this topic to configure the secondary ENI.
 
-  ![](assets/d02f018749246272014b7cbef4edba43.png)
+  ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/d02f018749246272014b7cbef4edba43.png)
 
 - The following command output shows that the IP addresses of both the eth0 primary ENI and the eth1 secondary ENI are recognized. You do not need to configure the secondary ENI.
 
-  ![](assets/b9dcf2eb2bf37edabcb0b76305915cc0.png)
+  ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/b9dcf2eb2bf37edabcb0b76305915cc0.png)
 
 > **Note**
 >
@@ -17627,7 +17627,7 @@ You can obtain the information of an ENI from instance metadata, by using the EC
   >
   > is the primary ENI and which is the secondary ENI based on the order in which the MAC addresses are displayed in the command output.
 
-  ![](assets/f2281357dd1e3bef760c05284d3143e2.png)
+  ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/f2281357dd1e3bef760c05284d3143e2.png)
 
 - Obtain the information of an ENI by using the ECS console.
 
@@ -17661,7 +17661,7 @@ You can obtain the information of an ENI from instance metadata, by using the EC
 
   The following figure shows an example of the ENI page in the ECS console.
 
-  ![](assets/104898ee9321ef074ed74ee1bfbe7446.png)
+  ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/104898ee9321ef074ed74ee1bfbe7446.png)
 
 - Obtain the information of an ENI by using an Alibaba Cloud SDK to call the DescribeNetworkInterfaces operation.
 
@@ -17681,7 +17681,7 @@ You can obtain the information of an ENI from instance metadata, by using the EC
   >
   > is the primary ENI and which is the secondary ENI based on the order in which the MAC addresses are displayed in the command output.
 
-  ![](assets/32ad8b24d3909d03512a728402124828.png)
+  ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/32ad8b24d3909d03512a728402124828.png)
 
 **Configure a secondary ENI for an instance that runs an Alibaba Cloud Linux 2, CentOS 6, or CentOS 7 operating system and uses the network-scripts network service**
 
@@ -17900,7 +17900,7 @@ If your instance runs a Ubuntu or Debian operating system, you must configure a 
 
   The configurations of the secondary ENI take effect regardless of whether the following alert notification appears. You can run the  `ip address show`  command to check whether the IP addresses of the secondary ENI are recognized.
 
-  ![](assets/bbbc7e0b8f901c0b8d4343bd59fa21c5.png)
+  ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/bbbc7e0b8f901c0b8d4343bd59fa21c5.png)
 
 - Perform the following operations on an instance that runs Ubuntu 18.04:
 
@@ -18008,11 +18008,11 @@ If you manually configure secondary ENIs but do not configure routes for them or
 
    - The following command output shows only the route information of the eth0 primary ENI, which indicates that no routes are configured for the eth1 secondary ENI.
 
-     ![](assets/a45a2e808c8cf224b3697aa5df6d7111.png)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/a45a2e808c8cf224b3697aa5df6d7111.png)
 
    - The following command output shows the route information of both the eth0 primary ENI and the eth1 secondary ENI. If the configured routes do not meet your requirements, you can modify the routes.
 
-     ![](assets/73dcf0d4ec273ffa5a9845287d38d06b.png)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/73dcf0d4ec273ffa5a9845287d38d06b.png)
 
 2. Plan the default route based on your requirements. In this example, the sample values listed in the following table are used.
 
@@ -18040,7 +18040,7 @@ If you manually configure secondary ENIs but do not configure routes for them or
 
    The following figure shows that the route table and routing policy are created.
 
-   ![](assets/9bdb05c5adabc06ba6b6b5b530686b71.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/9bdb05c5adabc06ba6b6b5b530686b71.png)
 
 5. Configure routes to automatically update on instance startup. After you perform the preceding steps to configure routes for the eth1 secondary ENI, you must perform the following steps to configure the routes to automatically update on instance startup. Otherwise, the routes become invalid when the instance is restarted.
 
@@ -18098,7 +18098,7 @@ If routes configured by the system do not meet your requirements, perform the fo
 
    The following command output shows the route information of both the eth0 primary ENI and the eth1 secondary ENI. If the configured routes do not meet your requirements, you can modify the routes.
 
-   ![](assets/6c1edc7c51e85a6e9cdeba5ecafd4a73.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/6c1edc7c51e85a6e9cdeba5ecafd4a73.png)
 
 2. Plan the default route based on your requirements. In this example, the sample values listed in the following table are used.
 
@@ -18174,7 +18174,7 @@ If routes configured by the system do not meet your requirements, perform the fo
 
    The following figure shows that the route table and routing policy are created.
 
-   ![](assets/9bdb05c5adabc06ba6b6b5b530686b71.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/9bdb05c5adabc06ba6b6b5b530686b71.png)
 
 6. Configure routes to automatically update on instance startup. After you perform the preceding steps to configure routes for the eth1 secondary ENI, you must perform the following steps to configure the routes to automatically update on instance startup. Otherwise, the routes become invalid when the instance is restarted.
 
@@ -18326,7 +18326,7 @@ When an ENI is deleted, the following results occur:
 
    **> Delete** in the **Actions**
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    column.
 
@@ -18698,7 +18698,7 @@ If you no longer require one or more key pairs, you can delete the key pairs.
 
      **> Delete** in the **Actions**
 
-     <img src="assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
+     <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/0a0979fb62d2418b6b7d6736cb43cdea.png" width="22" alt="">
 
      column.
 
@@ -18922,7 +18922,7 @@ Game customers
 
 The following figure shows a typical scenario where business reliability is improved by using deployment sets. Three ECS instances of a tenant are distributed on three different physical hosts, which are distributed on at least two different racks.
 
-![](assets/9b2d563497f8776665009a485580ef17.jpeg)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/9b2d563497f8776665009a485580ef17.jpeg)
 
 > **Note**
 >
@@ -19114,7 +19114,7 @@ The instance is in the **Stopped** or **Running** state.
 
    > **Instance Settings >**
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    **Change Deployment Set** in the **Actions** column to change the deployment set of the instance.
 
@@ -19158,17 +19158,17 @@ You can restore abnormal instances only in a deployment set whose **Deployment G
 
 4. On the Deployment Sets page, move the pointer over the value in the **Instances** column of a deployment set to view the status of the instances in the deployment set.
 
-   ![](assets/5f7521879e5a2e1aa0494051f98c2d17.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/5f7521879e5a2e1aa0494051f98c2d17.jpeg)
 
 5. If an abnormal instance exists in the deployment set, click **Details** in the **Actions** column.
 
 6. In the **Deployment Set Details** panel, find the abnormal instance in the **Instance Information** section and click **Restore** in the **Actions** column.
 
-   ![](assets/01d6eb55754c35bb9531133686962ec2.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/01d6eb55754c35bb9531133686962ec2.jpeg)
 
 7. In the message that appears, click **OK**. Wait until the instance is restored.
 
-   ![](assets/8f8577e31640c22c17ffa8743dddf8d1.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/8f8577e31640c22c17ffa8743dddf8d1.jpeg)
 
 <a id="section-11-6"></a>
 
@@ -19252,13 +19252,13 @@ All configurations in configuration templates are optional, which offers greater
 
 4. Click **Create Instance** and configure the parameters.
 
-   You can also click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the Actions column of an instance and choose **Instance**
+   You can also click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the Actions column of an instance and choose **Instance**
 
    **Settings > Save as ECS Configuration Template**. You are redirected to the instance creation page. The parameters for the instance are automatically populated.
 
 5. In the upper-right corner of the **Configuration overview** panel, click **Save as configuration template**.
 
-   ![](assets/b4fb6292cbc898e21f03e1536c89c467.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/b4fb6292cbc898e21f03e1536c89c467.jpeg)
 
 6. In the **Save as Configuration Template** dialog box, configure the **Template Name**, **Sharing Scope**, and **Template Version Description** parameters, and then click **OK**.
 
@@ -19350,7 +19350,7 @@ As a DRP administrator, you can:
 
   needed.
 
-![](assets/f8d5707866e2c43cec8baacf61d7f129.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/f8d5707866e2c43cec8baacf61d7f129.png)
 
 **Procedure**
 
@@ -19410,7 +19410,7 @@ This topic describes how to view the information about a dedicated resource pool
 
    <li>
 
-   In the upper-right corner of the dedicated resource pool list, click the <img src="assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="25" alt=""> icon.
+   In the upper-right corner of the dedicated resource pool list, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/7f796a1ecb64ceb6cdf884794241a7e1.png" width="25" alt=""> icon.
 
    </li>
 
@@ -19466,7 +19466,7 @@ Instances created in dedicated resource pools provide the same computing, storag
 
    Configure the parameters to create an ECS instance. For more information about the parameters, see Create an instance. In the **Regions** section, the **Dedicated Resource Pool** parameter is automatically set and cannot be modified.
 
-   ![](assets/6b8c0cc00e04c3786504aefc33d86a04.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/6b8c0cc00e04c3786504aefc33d86a04.jpeg)
 
 <a id="section-13-4"></a>
 
@@ -19519,7 +19519,7 @@ The Elastic Compute Service (ECS) instance is in the **Stopped** or **Stopped - 
 
 4. On the ECS Instances page, find the instance for which you want to change the dedicated
 
-   resource pool, click the <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the **Actions** column, and then choose **Instance**
+   resource pool, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt=""> icon in the **Actions** column, and then choose **Instance**
 
    **Settings > Modify Dedicated Resource Pool**.
 
@@ -19704,7 +19704,7 @@ The operations administrator can share a dedicated resource pool with other leve
 
 5. In the **Sharing Settings** panel, select one or more organizations with which you want to share the dedicated resource pool.
 
-   ![](assets/3ff2eb991dfbef7b0c2c6fae46a0c906.png)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/3ff2eb991dfbef7b0c2c6fae46a0c906.png)
 
    In the **Shared Information** section, click the
 
@@ -19953,7 +19953,7 @@ You can create an Elastic Compute Service (ECS) instance on a dedicated or share
 
    On the Create Instance page, configure the parameters to create an ECS instance. For more information about the parameters, see Create an instance. In the **Dedicated Host** section, the **Host Type** and **Associated Host** parameters are automatically configured and cannot be modified.
 
-   ![](assets/df65a1c6af6ac500e6c74723ac1fc42a.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/df65a1c6af6ac500e6c74723ac1fc42a.jpeg)
 
 **Execution results**
 
@@ -20114,7 +20114,7 @@ You can share a created dedicated host to other organizations. The organizations
 
      In the **Sharing Settings** dialog box, find the organization from which you want to unshare the host in the **Shared Information** section. In the **Actions** column, click the
 
-     <img src="assets/3ff2eb991dfbef7b0c2c6fae46a0c906.png" width="20" alt=""> icon. Then, click **OK**.
+     <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/3ff2eb991dfbef7b0c2c6fae46a0c906.png" width="20" alt=""> icon. Then, click **OK**.
 
    - **Add an organization to which to share the host**
 
@@ -20520,7 +20520,7 @@ The following table describes the instance-level execution state of a command th
 
 A batch execution is a one-time execution in which a command is run on multiple instances. To better manage batch executions and recurring executions, you can manage the lifecycles of the executions based on the overall execution states, instance-level execution states, and execution-level states. The **InvokeStatus** parameter in API responses indicates the execution status of a command. The following figure shows the relationships among the three types of execution states.
 
-![](assets/640236e46dcd5b4ac65f514d0258952d.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/640236e46dcd5b4ac65f514d0258952d.png)
 
 - The following table describes the overall execution states of a command that is run on multiple instances at the same time.
 
@@ -20533,11 +20533,11 @@ A batch execution is a one-time execution in which a command is run on multiple 
   | <code>Finished</code> | Completed | The instance-level execution state is Completed (Finished) on all instances, or is Completed (Finished) on specific instances and is Stopped (Stopped) on other instances. | 5 |
   | <code>PartialFailed</code> | Partially Failed | The instance-level execution state is Failed (Failed) on some instances and is Completed (Finished) on the other instances. | 6 |
 
-![](assets/03134de429cdfbc87f3b69a99bd0d508.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/03134de429cdfbc87f3b69a99bd0d508.png)
 
 The following figure shows the relationship between the overall execution states and the instance-level execution states of a one-time execution in which a command is run on three instances at the same time.
 
-![](assets/bd40143faf66e369cdd168a373c701e9.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/bd40143faf66e369cdd168a373c701e9.png)
 
 - The following table describes the states of recurring executions of a command.
 
@@ -20569,17 +20569,17 @@ This topic describes how to view the status of Cloud Assistant, export the Cloud
 
    - **Normal**: Cloud Assistant works as expected.
 
-     ![](assets/0129d65f9773f336f18f7d31cf241f2d.jpeg)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/0129d65f9773f336f18f7d31cf241f2d.jpeg)
 
    - **Not Installed**: Cloud Assistant Agent is not installed on the instance. Contact technical support.
 
    - **Abnormal**: A status anomaly can occur due to various reasons. Troubleshoot the issue based on the actual scenario. For more information, see Handle Cloud Assistant status anomalies.
 
-     ![](assets/01194c97a629fa44b64b021f3d7d776c.jpeg)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/01194c97a629fa44b64b021f3d7d776c.jpeg)
 
 5. Optional. Export the Cloud Assistant status list for ECS instances.
 
-   <img src="assets/f3167c77c5aa527bd904fd06dd1c2c81.png" width="26" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/f3167c77c5aa527bd904fd06dd1c2c81.png" width="26" alt="">
 
    Click the
 
@@ -20628,11 +20628,11 @@ This topic describes how to view the status of Cloud Assistant, export the Cloud
 
      If an error message appears during startup or Cloud Assistant Agent fails to be started, uninstall and reinstall Cloud Assistant Agent.
 
-     ![](assets/9c037ea62d8e474fca564558b71ddedd.png)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/9c037ea62d8e474fca564558b71ddedd.png)
 
    - If the status of Cloud Assistant is  `active (running)` , Cloud Assistant works as expected. Proceed to Step 4.
 
-     ![](assets/dcd426a30fe08b95d07d48f97ce7ca0b.png)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/dcd426a30fe08b95d07d48f97ce7ca0b.png)
 
    **Upstart**
 
@@ -20646,11 +20646,11 @@ This topic describes how to view the status of Cloud Assistant, export the Cloud
 
      If an error message appears during startup or Cloud Assistant Agent fails to be started, uninstall and reinstall Cloud Assistant Agent.
 
-     ![](assets/f9b824afcd5e13e94a8ab5de57374046.png)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/f9b824afcd5e13e94a8ab5de57374046.png)
 
    - If the status of Cloud Assistant is  `start/running` , Cloud Assistant works as expected. Proceed to Step 4.
 
-     ![](assets/65a34ac629e9c84b90bb6df8a3739e2b.png)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/65a34ac629e9c84b90bb6df8a3739e2b.png)
 
    **sysvinit**
 
@@ -20664,11 +20664,11 @@ This topic describes how to view the status of Cloud Assistant, export the Cloud
 
      If an error message appears during startup or Cloud Assistant Agent fails to be started, uninstall and reinstall Cloud Assistant Agent.
 
-     ![](assets/6eeaf374036812940c5a7237a755d350.png)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/6eeaf374036812940c5a7237a755d350.png)
 
    - If the status of Cloud Assistant is  `Running` , Cloud Assistant runs as expected. Proceed to Step 4.
 
-     ![](assets/cc2f9d153c02ad05ab8d6bd46a90cbe9.png)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/cc2f9d153c02ad05ab8d6bd46a90cbe9.png)
 
 4. View the status of Cloud Assistant in the Cloud Assistant console.
 
@@ -20723,7 +20723,7 @@ This topic describes how to view the status of Cloud Assistant, export the Cloud
 
      If an error message appears during startup or Cloud Assistant Agent fails to be started, uninstall and reinstall Cloud Assistant Agent.
 
-     ![](assets/b24c6e905153346aa84efc51de5c1d1e.png)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/b24c6e905153346aa84efc51de5c1d1e.png)
 
 4. View the status of Cloud Assistant in the Cloud Assistant console.
 
@@ -20733,7 +20733,7 @@ This topic describes how to view the status of Cloud Assistant, export the Cloud
 
      The default path of the log file:  `C:\ProgramData\aliyun\assist\<version>\log` .  `<version>`  indicates the version number of Cloud Assistant Agent.
 
-     ![](assets/50fa5826226bc792a48588ee049350e5.png)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/50fa5826226bc792a48588ee049350e5.png)
 
 <a id="section-16-1-2-2"></a>
 
@@ -20745,7 +20745,7 @@ This topic describes how to configure Domain Name System (DNS) resolution for Cl
 
 When you use features such as Cloud Assistant on an Elastic Compute Service (ECS) instance, the instance must have access to the endpoints required to perform actions that you specify, such as running a Cloud Assistant command. The default DNS Nameserver is installed on each ECS instance to resolve domain names. You can run the **cat /etc/resolv.conf** command to view the DNS Nameserver settings. Example command output:
 
-![](assets/7dcea865c29b8065e8b03012e7c67cb8.png)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/7dcea865c29b8065e8b03012e7c67cb8.png)
 
 If you modify the configuration file to override the default DNS Nameserver settings, domain names may fail to resolve or resolve slowly when you use features such as Cloud Assistant. This may cause the features to be unavailable. For example, Cloud Assistant commands cannot be run. In this case, you can perform the following procedure to configure DNS resolution for Cloud Assistant.
 
@@ -20767,7 +20767,7 @@ If you modify the configuration file to override the default DNS Nameserver sett
    >
    > Replace *&lt;region-id>* with a region ID.
 
-   ![](assets/fcde5ff2e6b86f172c0b92ef910a7d92.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/fcde5ff2e6b86f172c0b92ef910a7d92.jpeg)
 
 3. Modify the hosts file.
 
@@ -20791,7 +20791,7 @@ If you modify the configuration file to override the default DNS Nameserver sett
 
    If the hosts file is modified, the command output includes the Cloud Assistant endpoints and their corresponding IP addresses. Example command output:
 
-   ![](assets/f1664dd3ffcac7f054edb8ba082c9339.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/f1664dd3ffcac7f054edb8ba082c9339.jpeg)
 
    After the hosts file is modified, the ECS instance can automatically obtain IP addresses from the hosts file to resolve the Cloud Assistant endpoints.
 
@@ -20819,7 +20819,7 @@ To start or stop the Cloud Assistant client on a Windows instance, perform the f
 
 4. Find **Aliyun Assist Service** and click **Stop the service** or **Restart the service**.
 
-   ![](assets/20ee83e1cdd6694e6c3c0fe77f07c56b.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/20ee83e1cdd6694e6c3c0fe77f07c56b.jpeg)
 
 **Uninstall the Cloud Assistant daemon process from a Linux instance**
 
@@ -21611,7 +21611,7 @@ ECS quick operations only support the following operations on the following reso
 
 2. In the lower-right corner of any page in the ECS console, click the following icon to perform quick operations.
 
-   ![](assets/201e870e0b0f95dc71c59e62156610a5.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/201e870e0b0f95dc71c59e62156610a5.jpeg)
 
 **Scenarios**
 
@@ -21625,7 +21625,7 @@ This example demonstrates how to perform operations on an ECS instance. You can 
 
 2. Select the resource. The View Details and Operation buttons appear in the lower-right corner of the quick operation panel.
 
-   ![](assets/e8fd19e16f3bec8cc964ef0e6ea17075.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/e8fd19e16f3bec8cc964ef0e6ea17075.jpeg)
 
 3. Perform operations on the ECS instance.
 
@@ -21633,7 +21633,7 @@ This example demonstrates how to perform operations on an ECS instance. You can 
 
    - Click **Operation** and then select the operation that you want to perform on the ECS instance.
 
-     ![](assets/4bf6abd69e6cb22f4e09e1289308dfc4.jpeg)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/4bf6abd69e6cb22f4e09e1289308dfc4.jpeg)
 
 **Scenario 2: Search by ECS operation type, identify available ECS resources based on the operation type, and perform O&M operations on the instance**
 
@@ -21645,11 +21645,11 @@ This example demonstrates how to execute a snapshot policy for a cloud disk. You
 
 2. Select the operation. The quick operation panel displays all resources that support the operation.
 
-   ![](assets/502e7225afc0f56076401f8fbb02ed3e.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/502e7225afc0f56076401f8fbb02ed3e.jpeg)
 
 3. Select the resource on which you want to perform a quick operation. The **View Details** and **Execution** buttons appear in the lower-right corner.
 
-   ![](assets/383461205491b45e2ef3747478be4d22.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/383461205491b45e2ef3747478be4d22.jpeg)
 
 4. Execute the operation.
 
@@ -21657,7 +21657,7 @@ This example demonstrates how to execute a snapshot policy for a cloud disk. You
 
    - Click **Execution**. In the dialog box that appears, complete the operation as prompted.
 
-     ![](assets/9747ec227c9e6da5a06e2299fdf43579.jpeg)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/9747ec227c9e6da5a06e2299fdf43579.jpeg)
 
 <a id="section-16-3"></a>
 
@@ -21749,7 +21749,7 @@ When you use the security group rules check feature, you must configure the chec
 
    For example, you can configure the check parameters to check whether a Linux instance that uses port 22 can be accessed by using the  `192.168.XX.XX`  IP address. The following figure shows the configured check parameters.
 
-   ![](assets/57fa592edb85a5f9bada91c76a6af039.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/57fa592edb85a5f9bada91c76a6af039.jpeg)
 
 5. View check results.
 
@@ -21759,7 +21759,7 @@ When you use the security group rules check feature, you must configure the chec
 
    The following figure shows an example of the check result. In this example, the security group allows connections to the Linux instance that uses port 22 by using the  `192.168.XX.XX`  IP address.
 
-   ![](assets/bd4f5b827d4a69350f1585ba0bae6873.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/bd4f5b827d4a69350f1585ba0bae6873.jpeg)
 
 <a id="section-16-6"></a>
 
@@ -21811,23 +21811,23 @@ When you use the features, take note of the following items:
 
 3. In the top navigation bar, select an organization, a resource set, and a region.
 
-4. On the ECS Instances page, find the ECS instance that you want to view and click the <img src="assets/fe35fc3b5e36beca94a6481b2a519e01.png" width="16" alt="">
+4. On the ECS Instances page, find the ECS instance that you want to view and click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/fe35fc3b5e36beca94a6481b2a519e01.png" width="16" alt="">
 
    icon in the **Actions** column. In the drop-down list, choose **Operations and Troubleshooting** > **Obtain Instance Screenshot** to view the screenshots or choose **Operations and Troubleshooting** > **Obtain Instance System Logs** to view the system logs.
 
-   <img src="assets/fe35fc3b5e36beca94a6481b2a519e01.png" width="16" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/fe35fc3b5e36beca94a6481b2a519e01.png" width="16" alt="">
 
    - Sample screenshot of a Windows instance
 
-     ![](assets/a834ee909e97bb9e5ce5793e49e4ea87.jpeg)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/a834ee909e97bb9e5ce5793e49e4ea87.jpeg)
 
    - Sample screenshot of a Linux instance
 
-     ![](assets/f7ed9c619c6afcbed19c66d8859a7456.jpeg)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/f7ed9c619c6afcbed19c66d8859a7456.jpeg)
 
    - Sample system log of a Linux instance
 
-     ![](assets/f5a0f1a8ef88a3855d76eecc2ed9862b.jpeg)
+     ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/f5a0f1a8ef88a3855d76eecc2ed9862b.jpeg)
 
 <a id="section-16-8"></a>
 
@@ -21855,7 +21855,7 @@ As an AI assistant, Apsara Pilot provides conversational interactions to guide y
 
 1. When you create an instance, an Apsara Copilot-assisted instance creation panel is displayed on the right side of the Create Instance page. Click **Start**.
 
-   ![](assets/bedba85294cd5a50ac7cb73d0d021f90.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/bedba85294cd5a50ac7cb73d0d021f90.jpeg)
 
 2. Select a preset **Business Scenario** and a **Sub-Scenario**, and then click **OK**.
 
@@ -21917,11 +21917,11 @@ Apsara Pilot supports AI-powered instance diagnostics:
 
 - In the upper-right corner of the Instances page, click **AI Diagnostics**. The AI Diagnostics section in the upper part of the page displays the average CPU usage and average memory usage of all instances in the organization within the last 24 hours, and the performance analysis and stability analysis scores of all instances.
 
-  ![](assets/5087879aca71f83ea0f2c420e8fa7f36.jpeg)
+  ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/5087879aca71f83ea0f2c420e8fa7f36.jpeg)
 
 - In the upper-right corner of the instance details page, click **AI Diagnostics**. The AI Diagnostics section in the upper part of the page displays the average CPU usage, average memory usage, and total usage of all disks that are attached to the instance within the last 24 hours. This section also displays the health rating, idle resources, performance bottleneck analysis, security analysis, and optimization suggestions for the instance.
 
-  ![](assets/5ce6d2c4761de36c74eba407f39ca902.jpeg)
+  ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/5ce6d2c4761de36c74eba407f39ca902.jpeg)
 
 **Instance type recommendation**
 
@@ -21931,7 +21931,7 @@ Apsara Pilot provides best practices and recommended ECS instance types for diff
 
 When you create an instance or change instance specifications, click **AI specification recommendation** or **Specification recommendation** below the **Specifications** parameter. Then, Apsara Pilot recommends an appropriate instance type based on your business requirements. You can click **Choose Now** to select the instance type that you want to use.
 
-![](assets/eb683c60a713e3bcf22f12351b116e56.jpeg)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/eb683c60a713e3bcf22f12351b116e56.jpeg)
 
 **Intelligent resource query**
 
@@ -21941,7 +21941,7 @@ You can enter a resource ID to query the status, information, and related resour
 
 In the ECS console, select a resource ID to get its definition. For example, select the ID of an instance and click **Consult Apsara Copilot**. Then, Apsara Copilot queries and returns the status, information, and related resource of the instance.
 
-![](assets/344c801b8f8ba00ebd16bfb4c9c35e58.jpeg)
+![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/344c801b8f8ba00ebd16bfb4c9c35e58.jpeg)
 
 **Select-to-define feature**
 
@@ -21949,7 +21949,7 @@ The select-to-define feature explains any term, parameter, or option that you se
 
 **Prerequisites**
 
-The select-to-define feature is enabled. To enable this feature, click the <img src="assets/1659a0d67d2d232fe29056448e089355.png" width="13" alt=""> icon in the upper-
+The select-to-define feature is enabled. To enable this feature, click the <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/1659a0d67d2d232fe29056448e089355.png" width="13" alt=""> icon in the upper-
 
 right corner of the Apsara Copilot pane and turn on Enable Word Selection.
 
@@ -21959,7 +21959,7 @@ right corner of the Apsara Copilot pane and turn on Enable Word Selection.
 
 2. Apsara Copilot automatically searches for answers.
 
-   ![](assets/31160eeab487b762b2f0c9c6b1bf3f4e.jpeg)
+   ![](en-ecs-user-guide-v3.18.6-2607-20260828.assets/31160eeab487b762b2f0c9c6b1bf3f4e.jpeg)
 
 <a id="section-17"></a>
 
@@ -21999,7 +21999,7 @@ Before you attach an instance RAM role to an ECS instance, take note of the foll
 
    > **Instance Settings >**
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    **Attach/Detach RAM Role** in the **Actions** column.
 
@@ -22023,7 +22023,7 @@ After you attach an instance Resource Access Management (RAM) role to an Elastic
 
    > **Instance Settings >**
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    **Attach/Detach RAM Role** in the **Actions** column.
 
@@ -22047,7 +22047,7 @@ After you attach an instance Resource Access Management (RAM) role to an Elastic
 
    > **Instance**
 
-   <img src="assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
+   <img src="en-ecs-user-guide-v3.18.6-2607-20260828.assets/c95830ff56663e92a1ca57d2094dd0de.png" width="21" alt="">
 
    **Settings > Attach/Detach RAM Role** in the **Actions** column.
 

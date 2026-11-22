@@ -119,13 +119,13 @@ This topic describes how to obtain the Endpoint for a CPFS file system.
 
 3. On the **Service Registration Variables Dashboard**, select **Service** and enter **nas-yaochi**.
 
-4. In the **Service Registration** column, click the <img src="assets/310ea92fb5fa6ea06973a1b466eedbec.jpeg" width="22" alt=""> icon, and then click the information that
+4. In the **Service Registration** column, click the <img src="en-cpfs-developer-guide-v3.18.6-20260701.assets/310ea92fb5fa6ea06973a1b466eedbec.jpeg" width="22" alt=""> icon, and then click the information that
 
    appears.
 
 5. In the **Register Variables** box, the value of **nas.openapi.endpoint** is the Endpoint for the CPFS file system.
 
-   ![](assets/56e5bb4bb53e09353a1cecfa1c254639.jpeg)
+   ![](en-cpfs-developer-guide-v3.18.6-20260701.assets/56e5bb4bb53e09353a1cecfa1c254639.jpeg)
 
 <a id="section-1-3"></a>
 
@@ -178,7 +178,7 @@ You can obtain the organization ID by making an API call. You can use the online
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, choose **Cloud Platform** > **Unified Cloud Management Platform**,
+4. Click the <img src="en-cpfs-developer-guide-v3.18.6-20260701.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, choose **Cloud Platform** > **Unified Cloud Management Platform**,
 
    and set **Version** to **2019-05-10**.
 
@@ -194,7 +194,7 @@ You can obtain the resource group ID by making an API call. You can use the onli
 
 3. On the **Developer Portal** page, choose **API Integration** > **API Debugging**.
 
-4. Click the <img src="assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, choose **Cloud Platform** > **Unified Cloud Management Platform**,
+4. Click the <img src="en-cpfs-developer-guide-v3.18.6-20260701.assets/a399ea52e5bed707f6f6a0b92044c5ca.png" width="26" alt=""> button, choose **Cloud Platform** > **Unified Cloud Management Platform**,
 
    and set **Version** to **2019-05-10**.
 

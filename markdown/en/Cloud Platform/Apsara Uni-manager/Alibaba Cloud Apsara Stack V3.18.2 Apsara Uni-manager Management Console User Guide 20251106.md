@@ -378,7 +378,7 @@ The homepage of the Apsara Uni-manager Management Console consists of the top na
 
 **Overview of the homepage**
 
-![](assets/f3b226dc9abcfd4ab342368cd9e81bc9.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/f3b226dc9abcfd4ab342368cd9e81bc9.jpeg)
 
 Table 1. Sections of the homepage
 
@@ -394,7 +394,7 @@ Table 1. Sections of the homepage
   <tr>
     <td>2</td>
     <td>Informatio n of the current logon user</td>
-    <td><img src="assets/0dc7f6654b3b7293ee6fb7c1f5a9d25a.png" alt=""><br>: allows you to switch between English, simplified Chinese, and<br>traditional Chinese.<br><img src="assets/daf249bca46e8198c620e0a5c23394a5.png" width="10" alt="">/<img src="assets/e245d5a24d033d5ea5cfbf9dbb23edcc.png" width="14" alt="">: allows you to switch between light mode and dark mode for the console.<br><img src="assets/3b3dd4ebd52ffe7feb83663c835a3a01.png" width="15" alt="">: displays message notifications. You can click <strong>More</strong> to go to <strong>Message</strong><br><strong>Center</strong> for details of the messages.<br>• User Information: displays the <strong>User Information</strong>, <strong>View Version</strong>, and <strong>Log Out</strong><br>menu items when you click the<img src="assets/64a0c98550e965e8a5381a0a87553543.png" width="20" alt="">profile picture.<br>If you click <strong>User Information</strong>, you can perform the following operations on the page that appears:<br>• View basic information.<br>• Modify user information.<br>• Change the logon password.<br>• View and create AccessKey pairs.<br>• Switch to other roles.<br>• View the current role policy.<br>• View the resource sets, user groups, and role permissions of the current user.<br>• View or bind multi-factor authentication (MFA) devices.<br>• Enable or disable system message reception by email or DingTalk.<br>If you click <strong>View Version</strong>, you can view the authorization status and build number of the Apsara Uni-manager Management Console.</td>
+    <td><img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/0dc7f6654b3b7293ee6fb7c1f5a9d25a.png" alt=""><br>: allows you to switch between English, simplified Chinese, and<br>traditional Chinese.<br><img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/daf249bca46e8198c620e0a5c23394a5.png" width="10" alt="">/<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/e245d5a24d033d5ea5cfbf9dbb23edcc.png" width="14" alt="">: allows you to switch between light mode and dark mode for the console.<br><img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3b3dd4ebd52ffe7feb83663c835a3a01.png" width="15" alt="">: displays message notifications. You can click <strong>More</strong> to go to <strong>Message</strong><br><strong>Center</strong> for details of the messages.<br>• User Information: displays the <strong>User Information</strong>, <strong>View Version</strong>, and <strong>Log Out</strong><br>menu items when you click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/64a0c98550e965e8a5381a0a87553543.png" width="20" alt="">profile picture.<br>If you click <strong>User Information</strong>, you can perform the following operations on the page that appears:<br>• View basic information.<br>• Modify user information.<br>• Change the logon password.<br>• View and create AccessKey pairs.<br>• Switch to other roles.<br>• View the current role policy.<br>• View the resource sets, user groups, and role permissions of the current user.<br>• View or bind multi-factor authentication (MFA) devices.<br>• Enable or disable system message reception by email or DingTalk.<br>If you click <strong>View Version</strong>, you can view the authorization status and build number of the Apsara Uni-manager Management Console.</td>
   </tr>
   <tr>
     <td>3</td>
@@ -407,13 +407,13 @@ Table 1. Sections of the homepage
 
 You can click **Products** to manage cloud service resources throughout their lifecycle. You can click the name of a cloud service and perform management operations on related resources, such as creating, modifying, and deleting resources. For more information about the use of these cloud services, see the user guides of these cloud services.
 
-![](assets/e0d3da6d301fa982e3ed793815549d53.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/e0d3da6d301fa982e3ed793815549d53.jpeg)
 
-![](assets/2b0ca76fa57853fcbf2a7e2e78a2b57d.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/2b0ca76fa57853fcbf2a7e2e78a2b57d.jpeg)
 
 > **Note**
 >
-> You can click the <img src="assets/ceba123b8ea18986bfcf0cc6424692b2.png" width="21" alt=""> icon in the lower-right corner of a cloud service page to view the
+> You can click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/ceba123b8ea18986bfcf0cc6424692b2.png" width="21" alt=""> icon in the lower-right corner of a cloud service page to view the
 >
 > documentation. You can also enter a keyword in the search box. The system will quickly find the related documentation.
 
@@ -421,19 +421,19 @@ You can click **Products** to manage cloud service resources throughout their li
 
 You can click **Applications** to manage your cloud applications.
 
-![](assets/5306e37801f0ac30a90aecbe810ec446.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/5306e37801f0ac30a90aecbe810ec446.jpeg)
 
 **Overview of Enterprise**
 
 You can click **Enterprise** to build a resource management system that suits your enterprise, including creating an organization, creating a resource set, creating a user, and managing permissions. For more information about management operations, see Enterprise.
 
-![](assets/0e3bfcdda6ab3d9d0f8691c3e9720ffa.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/0e3bfcdda6ab3d9d0f8691c3e9720ffa.jpeg)
 
 **Overview of Configurations**
 
 You can click **Configurations** to manage the basic settings of the Apsara Uni-manager Management Console in a comprehensive and centralized manner. The super administrator can perform a series of detailed control and settings on objects such as resource pools, regions, security policies, authentication modes, specifications, menus, announcements, personalized configurations, third-party authentication, and message gateways. For more information, see Configurations.
 
-![](assets/337e63440c1aee257b7ac78b3b29ba99.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/337e63440c1aee257b7ac78b3b29ba99.jpeg)
 
 **Overview of Operations**
 
@@ -441,15 +441,15 @@ You can click **Operations** to manage cloud resources, including resource opera
 
 **Resource operations**
 
-![](assets/066293cf6fc2c111e8085ebd338abe3f.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/066293cf6fc2c111e8085ebd338abe3f.jpeg)
 
 **Data analysis**
 
-![](assets/db2ec307b8606c450d053501c21b386c.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/db2ec307b8606c450d053501c21b386c.jpeg)
 
 **Cost management**
 
-![](assets/5f8a9d04d8d64df49323cedf43925ef6.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/5f8a9d04d8d64df49323cedf43925ef6.jpeg)
 
 <a id="section-2-2"></a>
 
@@ -471,7 +471,7 @@ In the Apsara Uni-manager Management Console, cloud resources and users belong t
 
 After a level-1 organization is created, the system automatically generates an AccessKey pair for the organization. An AccessKey pair consists of an AccessKey ID and an AccessKey secret. AccessKey pairs are used to authenticate request senders. The AccessKey ID is used to identify a user. The AccessKey secret is used to encrypt a signature string.
 
-![](assets/e7251c4c4cdb66c2d936961cca01c1a8.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/e7251c4c4cdb66c2d936961cca01c1a8.jpeg)
 
 **Relationships between items**
 
@@ -507,7 +507,7 @@ A user can have multiple roles. However, you can switch to one role to manage re
 
 - **Custom policy**: You can attach a custom Resource Access Management (RAM) policy to a role to allow or prohibit the role from performing specific operations on specific resources. When you configure a custom policy, you must specify the Allow and Deny parameters in the Set RAM Action for Application section. Enter the name of an action that you want to allow for the Allow parameter and enter the name of an action that you want to deny for the Deny parameter. If you specify both the Allow and Deny parameters, the deny authorization takes precedence over the allow authorization.
 
-![](assets/f4adbe99f812f32e0dde230ceea30f16.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/f4adbe99f812f32e0dde230ceea30f16.jpeg)
 
 **Account permission model**
 
@@ -517,7 +517,7 @@ In the Apsara Uni-manager Management Console, you can associate accounts with ro
 
 The following figure shows the account permission model in the Apsara Uni-manager Management Console.
 
-![](assets/afc93cf08212855cb6bfa1d71ca975a6.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/afc93cf08212855cb6bfa1d71ca975a6.jpeg)
 
 You can use one of the following three methods to grant permissions to users in the Apsara Uni-manager Management Console:
 
@@ -529,19 +529,19 @@ You can use one of the following three methods to grant permissions to users in 
 
   - Administrators can configure custom permissions for custom roles based on their business requirements. This ensures that the user permissions match their responsibilities and prevents excessive or insufficient permissions. For more information, see Create a role.
 
-    ![](assets/c45eeb0ccd909568a9593d5726be98d8.jpeg)
+    ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c45eeb0ccd909568a9593d5726be98d8.jpeg)
 
 - **Grant permissions to multiple users by using a user group**
 
   To grant the same permissions to multiple users, you can add these users to a user group and associate the user group with a role that has the corresponding permissions. This way, users in the user group are granted the same permissions. For more information, see User groups.
 
-  ![](assets/f8a63e969ac6f694da6e6baa9cfd276e.jpeg)
+  ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/f8a63e969ac6f694da6e6baa9cfd276e.jpeg)
 
 - **Grant data permissions to users**
 
   You can grant data permissions to users, which is a critical authorization way. On the Data Permissions page, you can accurately grant access, operation, or management permissions to users on specific resources based on the business requirements of the users. This way, users can efficiently use the required data within their scope of responsibility. You can grant data permissions on resource instances to users. This enhances fine-grained management. For more information, see Data permissions.
 
-  ![](assets/9f57818bb107e84e4de4653e99bbb61e.jpeg)
+  ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/9f57818bb107e84e4de4653e99bbb61e.jpeg)
 
 **Benefits**
 
@@ -1292,7 +1292,7 @@ The following table describes the relationships among organizations, resource se
 
 Before users can the Apsara Uni-manager Management Console, administrators must complete the initial system configuration based on the process shown in the following figure.
 
-![](assets/fa1ac660df8cf93cf62e13adc270c7d6.png)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/fa1ac660df8cf93cf62e13adc270c7d6.png)
 
 1. Create an organization
 
@@ -1400,7 +1400,7 @@ Click **Manage Module** on the home page. You can select or deselect specific mo
 >
 > You can perform resource lifecycle management operations, such as creating and deleting resources, in the service consoles. To manage the lifecycle of resources, click **Products** in the upper part of the Apsara Uni-manager Management Console, and create or manage services based on your business requirements.
 >
-> ![](assets/4af82c1839494781ae0e7c3ad17b08c8.jpeg)
+> ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/4af82c1839494781ae0e7c3ad17b08c8.jpeg)
 
 **Home page for platform administrators**
 
@@ -2183,15 +2183,15 @@ Before you create an organization, you need to plan an organizational architectu
 
 2. In the **Create Organizations** dialog box, click **Create Organization Templates** and download the template file (**.xlsx** file) to your local computer.
 
-   ![](assets/376f1c09245291dc049f4c02da881a03.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/376f1c09245291dc049f4c02da881a03.jpeg)
 
 3. Fill the template file with the information of the organizations to be created and save the file. The following figure shows an example of the information.
 
-   ![](assets/e84e18efde843f2cb816cd5263080a7e.png)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/e84e18efde843f2cb816cd5263080a7e.png)
 
 4. Click **Next** in the **Create Organizations** dialog box.
 
-   ![](assets/4d13a5f103c11cddda7df2af25dccfdd.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/4d13a5f103c11cddda7df2af25dccfdd.jpeg)
 
 5. Click **Upload Template** and select the template file you edited. After the template file is verified, click **Next**.
 
@@ -2199,15 +2199,15 @@ Before you create an organization, you need to plan an organizational architectu
    >
    > After the template file is uploaded, the system automatically checks whether the content of the template file is correct. If incorrect content exists, you cannot create the organizations. You must modify the template file and click **Re-upload**.
 
-   ![](assets/9fb038b036d77b4e2e0cd809e6303ad0.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/9fb038b036d77b4e2e0cd809e6303ad0.jpeg)
 
 6. Confirm the organization information and click **OK**.
 
-   ![](assets/36a19a33bfb747f7542d430887269406.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/36a19a33bfb747f7542d430887269406.jpeg)
 
 7. Optional. Click **Task List** in the dialog box to view the organizations you created.
 
-   ![](assets/cce7871ca270853f5ab5500df096b5ad.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/cce7871ca270853f5ab5500df096b5ad.jpeg)
 
 <a id="section-4-2-2-2"></a>
 
@@ -2269,7 +2269,7 @@ An organization is created.
 
 5. In the **Create Resource Set** dialog box, set the **Name** and **Organization** parameters.
 
-   ![](assets/8a66412c6dcfabd311d71f8d9736e27a.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/8a66412c6dcfabd311d71f8d9736e27a.jpeg)
 
 6. Click **OK**.
 
@@ -2330,7 +2330,7 @@ You can manage the regions associated with organizations. Regions determine the 
 
    If you select the name of a region, the organization is associated with the region. Then, you can create resources in this region. If you clear the name of a region, the organization is disassociated from the region. Then, you cannot create resources in this region.
 
-   ![](assets/57e3f4d3ada0d95bfa99fe57e65985ce.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/57e3f4d3ada0d95bfa99fe57e65985ce.jpeg)
 
 6. Click **Update Association**.
 
@@ -2364,7 +2364,7 @@ Changes cannot be made across level-1 organizations, and names of organizations 
      </tr>
      <tr>
        <td>Change the ownership of resources</td>
-       <td>i. Click the<img src="assets/6e10755d5e8c2825397888ea366aae1a.png" width="18" alt="">icon to the left of the target organization and click a resource set<br>under the organization.<br>ii. On the right side of the page, select a <strong>product type</strong> and a <strong>resource type</strong>.<br>iii. Change the ownership of resources.<br>• Change the ownership of a single resource: In the instance list, find the target resource and click <strong>Change Ownership</strong> in the Actions column.<br>• Change the ownership of multiple resources: In the instance list, select the target resources and click <strong>Batch Change Ownership</strong> at the bottom of the page.<br>iv. In the dialog box that appears, select a resource set from the <strong>Change Resource</strong> <strong>Set To</strong> drop-down list.<br>v. Click <strong>OK</strong>.<br>Note<br>Changing the ownership of a resource does not affect the organization and users.</td>
+       <td>i. Click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6e10755d5e8c2825397888ea366aae1a.png" width="18" alt="">icon to the left of the target organization and click a resource set<br>under the organization.<br>ii. On the right side of the page, select a <strong>product type</strong> and a <strong>resource type</strong>.<br>iii. Change the ownership of resources.<br>• Change the ownership of a single resource: In the instance list, find the target resource and click <strong>Change Ownership</strong> in the Actions column.<br>• Change the ownership of multiple resources: In the instance list, select the target resources and click <strong>Batch Change Ownership</strong> at the bottom of the page.<br>iv. In the dialog box that appears, select a resource set from the <strong>Change Resource</strong> <strong>Set To</strong> drop-down list.<br>v. Click <strong>OK</strong>.<br>Note<br>Changing the ownership of a resource does not affect the organization and users.</td>
      </tr>
      <tr>
        <td>Change the organizatio n to which a user belongs</td>
@@ -2513,8 +2513,8 @@ An operations administrator can manage the system users of all organizations. An
    | Operation | Procedure |
    | --- | --- |
    | View the information of a user | i. On the Users page, view the organization, role, mobile phone number, email, status, logon policy, and logon time of a user.<br>ii. Click the name of a user, or move the pointer over the More icon in the Actions column and click <strong>View User Information</strong> in the menu that appears. In the panel that appears, view more information of the user. |
-   | View the initial password of a user | Move the pointer over the<img src="assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions column corresponding to a<br>user and click <strong>View Initial Password</strong>. |
-   | View the resource set that a user is authorized to use | i. On the Users page, move the pointer over the<img src="assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions<br>column corresponding to a user and click <strong>View Resource Set</strong>.<br>ii. Select a role from the drop-down list in the panel and view the resource sets of the role. |
+   | View the initial password of a user | Move the pointer over the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions column corresponding to a<br>user and click <strong>View Initial Password</strong>. |
+   | View the resource set that a user is authorized to use | i. On the Users page, move the pointer over the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions<br>column corresponding to a user and click <strong>View Resource Set</strong>.<br>ii. Select a role from the drop-down list in the panel and view the resource sets of the role. |
    | Modify a user | i. Click <strong>Edit</strong> in the Actions column corresponding to a user.<br>ii. In the dialog box that appears, modify the information of the user.<br>iii. Click <strong>OK</strong>. |
 
    <table>
@@ -2528,23 +2528,23 @@ An operations administrator can manage the system users of all organizations. An
      </tr>
      <tr>
        <td>Grant permissions to a user</td>
-       <td>i. Move the pointer over the<img src="assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions column corresponding to a<br>user and click <strong>Authorize</strong>.<br>ii. Modify the <strong>Role</strong> parameter to add, remove, or change the roles of the user.<br>iii. Click <strong>OK</strong>.</td>
+       <td>i. Move the pointer over the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions column corresponding to a<br>user and click <strong>Authorize</strong>.<br>ii. Modify the <strong>Role</strong> parameter to add, remove, or change the roles of the user.<br>iii. Click <strong>OK</strong>.</td>
      </tr>
      <tr>
        <td>Configure the logon policy of a user</td>
-       <td>i. Move the pointer over the<img src="assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions column corresponding to a<br>user and click <strong>Configure Logon Policy</strong>.<br>ii. In the dialog box that appears, select a logon policy from the Logon policy drop-down list.<br>iii. Click <strong>OK</strong>.</td>
+       <td>i. Move the pointer over the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions column corresponding to a<br>user and click <strong>Configure Logon Policy</strong>.<br>ii. In the dialog box that appears, select a logon policy from the Logon policy drop-down list.<br>iii. Click <strong>OK</strong>.</td>
      </tr>
      <tr>
        <td>Configure the user groups of a user</td>
-       <td>i. Move the pointer over the<img src="assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions column corresponding to a<br>user.<br>ii. Add the user to user groups or remove the user from user groups.<br>• Add the user to user groups: Click <strong>Add to User Group</strong>. In the dialog box that appears, select the target user groups from the drop-down list.<br>• Remove the user from user groups: Click <strong>Remove from User Group</strong>. In the dialog box that appears, select the target user groups from the drop-down list.<br>iii. Click <strong>OK</strong>.</td>
+       <td>i. Move the pointer over the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions column corresponding to a<br>user.<br>ii. Add the user to user groups or remove the user from user groups.<br>• Add the user to user groups: Click <strong>Add to User Group</strong>. In the dialog box that appears, select the target user groups from the drop-down list.<br>• Remove the user from user groups: Click <strong>Remove from User Group</strong>. In the dialog box that appears, select the target user groups from the drop-down list.<br>iii. Click <strong>OK</strong>.</td>
      </tr>
      <tr>
        <td>Configure multi-factor authentication (MFA) for a user</td>
-       <td>i. Move the pointer over the<img src="assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions column corresponding to a<br>user and click <strong>MFA Settings</strong>.<br>ii. In the dialog box that appears, turn MFA Settings on or off.<br><img src="assets/cb77433c63274962cc9414e513c29aa6.png" alt=""><br>indicates that MFA is enabled.<br><img src="assets/fce618772ff4927ac3c9b07cfd350b6f.png" alt=""><br>indicates that MFA is disabled.<br>iii. Click <strong>OK</strong>.<br>Note<br>For information about how to associate devices for MFA, see the "User information management" topic.</td>
+       <td>i. Move the pointer over the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions column corresponding to a<br>user and click <strong>MFA Settings</strong>.<br>ii. In the dialog box that appears, turn MFA Settings on or off.<br><img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/cb77433c63274962cc9414e513c29aa6.png" alt=""><br>indicates that MFA is enabled.<br><img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/fce618772ff4927ac3c9b07cfd350b6f.png" alt=""><br>indicates that MFA is disabled.<br>iii. Click <strong>OK</strong>.<br>Note<br>For information about how to associate devices for MFA, see the "User information management" topic.</td>
      </tr>
      <tr>
        <td>Delete a RAM user</td>
-       <td>Important<br>• Deleting a user will forbid the user from logging on to the system and using AccessKey pairs, and will immediately log the user off the system.<br>• Deleted user data cannot be restored. Proceed with caution.<br>i. Move the pointer over the<img src="assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions column corresponding to a<br>user and click <strong>Delete</strong>.<br>ii. In the dialog box that appears, select <strong>I have known the risks and</strong> confirm this delete operation.<br>iii. Click <strong>Delete</strong>.</td>
+       <td>Important<br>• Deleting a user will forbid the user from logging on to the system and using AccessKey pairs, and will immediately log the user off the system.<br>• Deleted user data cannot be restored. Proceed with caution.<br>i. Move the pointer over the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt="">icon in the Actions column corresponding to a<br>user and click <strong>Delete</strong>.<br>ii. In the dialog box that appears, select <strong>I have known the risks and</strong> confirm this delete operation.<br>iii. Click <strong>Delete</strong>.</td>
      </tr>
    </table>
 
@@ -2632,10 +2632,10 @@ You can modify the name, permissions, and users of a user group.
    | --- | --- |
    | View user groups | On the User Groups page, view information of user groups, such as the organization, roles, number of users, and associated resource sets. |
    | Modify a user group | i. Click <strong>Editing</strong> in the Actions column corresponding to a user group.<br>ii. In the dialog box that appears, specify the new name of the user group.<br>iii. Click <strong>OK</strong>. |
-   | Add a user | After a user is added to a user group, the user has the permissions of the role that is assigned to the user group.<br>i. Find the user group to which you want to add users and click <strong>Add User</strong> in the Actions column.<br>ii. In the left-side list, select the users to be added and click the<img src="assets/2341adbd18fa50c9a174588dc930c453.png" width="27" alt="">icon to add<br>the users to the right-side list.<br>iii. Click <strong>OK</strong>. |
-   | Remove a user | After a user is removed from a user group, the user no longer has the permissions of the role that is assigned to the user group.<br>i. Find the user group from which you want to remove users and move the pointer over the<img src="assets/cbfb155d3b95b7a6c354178017360ab1.png" width="13" alt="">icon in the Actions column. In the menu that appears, select <strong>Remove User</strong>.<br>ii. In the left-side list, select the users you want to remove and click the<img src="assets/2341adbd18fa50c9a174588dc930c453.png" width="27" alt="">icon<br>to add them to the right-side list.<br>iii. Click <strong>OK</strong>. |
-   | Assign roles to a user group | You can assign a role to a user group to grant the role permissions to all users within the group.<br>i. Find the target user group and move the pointer over the<img src="assets/cbfb155d3b95b7a6c354178017360ab1.png" width="13" alt="">icon in the Actions column. In the menu that appears, select <strong>Authorized</strong>.<br>ii. In the Role authorization drop-down list, select the roles you want to assign to the user group.<br>iii. Click <strong>OK</strong>. |
-   | Delete a group | Important<br>When a user group is deleted, resources such as roles, users, and resource sets that are associated with the user group are automatically unbound.<br>i. Find the target user group and move the pointer over the<img src="assets/cbfb155d3b95b7a6c354178017360ab1.png" width="13" alt="">icon in the Actions column. In the menu that appears, select <strong>Delete</strong>.<br>ii. In the message that appears, click <strong>OK</strong>. |
+   | Add a user | After a user is added to a user group, the user has the permissions of the role that is assigned to the user group.<br>i. Find the user group to which you want to add users and click <strong>Add User</strong> in the Actions column.<br>ii. In the left-side list, select the users to be added and click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/2341adbd18fa50c9a174588dc930c453.png" width="27" alt="">icon to add<br>the users to the right-side list.<br>iii. Click <strong>OK</strong>. |
+   | Remove a user | After a user is removed from a user group, the user no longer has the permissions of the role that is assigned to the user group.<br>i. Find the user group from which you want to remove users and move the pointer over the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/cbfb155d3b95b7a6c354178017360ab1.png" width="13" alt="">icon in the Actions column. In the menu that appears, select <strong>Remove User</strong>.<br>ii. In the left-side list, select the users you want to remove and click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/2341adbd18fa50c9a174588dc930c453.png" width="27" alt="">icon<br>to add them to the right-side list.<br>iii. Click <strong>OK</strong>. |
+   | Assign roles to a user group | You can assign a role to a user group to grant the role permissions to all users within the group.<br>i. Find the target user group and move the pointer over the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/cbfb155d3b95b7a6c354178017360ab1.png" width="13" alt="">icon in the Actions column. In the menu that appears, select <strong>Authorized</strong>.<br>ii. In the Role authorization drop-down list, select the roles you want to assign to the user group.<br>iii. Click <strong>OK</strong>. |
+   | Delete a group | Important<br>When a user group is deleted, resources such as roles, users, and resource sets that are associated with the user group are automatically unbound.<br>i. Find the target user group and move the pointer over the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/cbfb155d3b95b7a6c354178017360ab1.png" width="13" alt="">icon in the Actions column. In the menu that appears, select <strong>Delete</strong>.<br>ii. In the message that appears, click <strong>OK</strong>. |
 
 <a id="section-4-4"></a>
 
@@ -2731,7 +2731,7 @@ A preset role is a collection of preset permissions for specific operations. To 
 
 You can create a custom role to combine and set permission policies based on your business requirements. You can configure the sharing scope and permissions on resources, applications, and menus for the custom role, and configure custom permission policies to flexibly specify the services that can be accessed by the role, the operations that can be performed by the role, and the resources that can be managed by the role. Compared with preset roles, custom roles are more flexible and can be customized.
 
-![](assets/e7f43de83c8448eb786708ab812a066a.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/e7f43de83c8448eb786708ab812a066a.jpeg)
 
 > **Note**
 >
@@ -2741,7 +2741,7 @@ You can create a custom role to combine and set permission policies based on you
 
 RAM role-based authorization is the process of associating a RAM role with RAM users, other Apsara Stack tenant accounts, or Apsara Stack services. An authorized entity can directly assume a RAM role to obtain the collection of permissions that belong to the role without the need to grant permission policies to the entity.
 
-![](assets/9d22ab323444bed65d8e9cb489d64bc1.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/9d22ab323444bed65d8e9cb489d64bc1.jpeg)
 
 > **Note**
 >
@@ -2755,7 +2755,7 @@ RAM role-based authorization is the process of associating a RAM role with RAM u
 
 Each RAM user is a user entity with a unique identity. You can assign custom policies to RAM users by using user groups. This way, the RAM users always have these permissions regardless of whether they assume a role.
 
-![](assets/6235afbb1eb38da681ffa35d48128b3c.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6235afbb1eb38da681ffa35d48128b3c.jpeg)
 
 > **Note**
 >
@@ -2779,7 +2779,7 @@ RAM policies are in the JSON format, containing two parts:
 
 - Statements: the statements that specify the permissions. The elements of statements include Effect, Action, Resource, Condition, and Principal.
 
-![](assets/ad4107bdc281b376d523361cd811f9e9.png)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/ad4107bdc281b376d523361cd811f9e9.png)
 
 **Elements in statements**
 
@@ -2813,7 +2813,7 @@ The Action element is in the following format:  `<ram-code>:<action-name>` .
 >
 > The values of the Action element are case-insensitive. However, to ensure consistency, we recommend that you follow the standard capitalization of the product code and API
 >
-> ![](assets/1bbf1dd1af2d0f06f970c5fc1d3ef56e.png)
+> ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/1bbf1dd1af2d0f06f970c5fc1d3ef56e.png)
 >
 > operation names.
 
@@ -3067,11 +3067,11 @@ If you select Resource Sets for Management Permissions when you create a custom 
 
    **Create a custom role as an operations administrator**
 
-   ![](assets/8a201b2c975033fbb56103f730cfb6bb.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/8a201b2c975033fbb56103f730cfb6bb.jpeg)
 
    **Create a custom role as an organization administrator**
 
-   ![](assets/a2bb27027eae03caf75c5f9341c88b9f.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/a2bb27027eae03caf75c5f9341c88b9f.jpeg)
 
    | Parameter | Description |
    | --- | --- |
@@ -3079,19 +3079,19 @@ If you select Resource Sets for Management Permissions when you create a custom 
    | Description | The description of the role. This parameter is optional. |
    | Sharing Scope | The scope in which the role is available. Only <strong>Global</strong> is available when you create a custom role as an operations administrator.<br>• <strong>Global</strong>: The role is shared by all organizations.<br>• <strong>Current Organization</strong>: The role is shared within the current organization.<br>• <strong>Subordinate Organization</strong>: The role is shared by the current organization and its subordinate organizations. |
    | Management Permissions | The scope of resources that can be managed by the role. Only <strong>Specified</strong> <strong>Organization and Subordinate Organizations</strong> and <strong>Resource Sets</strong> are available when you create a custom role as an organization administrator.<br>• <strong>All Organizations</strong>: This role can manage cloud resources in all organizations.<br>• <strong>Specified Organization and Subordinate Organizations</strong>: This role can manage the cloud resources in the current organization and its subordinate organizations.<br>• <strong>Resource Sets</strong>: This role can only manage cloud resources in specified resource sets. For more information about the limits of resource sets, see Limits on the management scope of resource sets. |
-   | Custom Policy | Turn the switch on or off to enable or disable custom policies.<br><img src="assets/3ec933c28754130c646f539f25323d46.png" width="24" alt="">: Custom policies are not supported.<br><img src="assets/7a59d59abdef30d0755e934ef079161e.png" width="24" alt="">: Custom policies are supported. |
+   | Custom Policy | Turn the switch on or off to enable or disable custom policies.<br><img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3ec933c28754130c646f539f25323d46.png" width="24" alt="">: Custom policies are not supported.<br><img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/7a59d59abdef30d0755e934ef079161e.png" width="24" alt="">: Custom policies are supported. |
 
 6. In the **Manage Permissions** step, configure the parameters and click **Next**.
 
    In this step, you can specify the management operations that this role can perform in the Apsara Uni-manager Management Console, such as operations on organizations, users, and resource sets.
 
-   ![](assets/b247814e1553b117c3e501e070055e87.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/b247814e1553b117c3e501e070055e87.jpeg)
 
 7. In the **Application permissions** step, configure the parameters and click **Next**.
 
    In this step, you can specify the operations that this role can perform on cloud products. If you need to only grant the user the permissions to view ECS instances, you need to only select View instance in the ECS section.
 
-   ![](assets/de9543020a021755bffda264f95dfbe8.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/de9543020a021755bffda264f95dfbe8.jpeg)
 
 8. In the **Menu permissions** step, configure the parameters and click **Next**.
 
@@ -3101,7 +3101,7 @@ If you select Resource Sets for Management Permissions when you create a custom 
    >
    > If you perform operations by using the Apsara Uni-manager Management Console other than calling API operations and you select the operation permissions of the Apsara Uni-manager Management Console and cloud services when you configure management permissions and application permissions, you must also configure menu permissions so that you can access the corresponding pages.
 
-   ![](assets/3ec838f12498bf36a2b0e757917abf88.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3ec838f12498bf36a2b0e757917abf88.jpeg)
 
 9. Optional. In the **Custom Policy** step, configure the parameters and click **Create**.
 
@@ -3119,7 +3119,7 @@ If you select Resource Sets for Management Permissions when you create a custom 
 
    If you specify  `oss:ListBuckets,ecs:Describe*,rds:Describe*`  in the Allow field, this role can list all the operation permissions on the OSS buckets of Object Storage Service (OSS), call all Elastic Compute Service (ECS) API operations whose names start with Describe, and call all ApsaraDB RDS API operations whose names start with Describe.
 
-   ![](assets/e10f739d0f3dcd4706d3f280082e2f5c.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/e10f739d0f3dcd4706d3f280082e2f5c.jpeg)
 
 0. In the **Create Custom Role** message, click **Complete**.
 
@@ -3141,7 +3141,7 @@ If you select Resource Sets for Management Permissions when you create a custom 
 
    If none of the listed policies meets your requirements, you can click **Create Policy** in the upper-right corner of the Select Policy section to create one. You can click **Policy Content** in the **Actions** column of a policy to view JSON-formatted policy content.
 
-   ![](assets/c351bb6217215a4fa768dd705696cc22.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c351bb6217215a4fa768dd705696cc22.jpeg)
 
 4. In the **Configure Trust Policy** step, configure the **Trust Organization** and **Trust Cloud Service** parameters and click **Next**.
 
@@ -3151,7 +3151,7 @@ If you select Resource Sets for Management Permissions when you create a custom 
 
    - **Trust Cloud Service**: Specify one or more Apsara Stack services to assume this RAM role.
 
-   ![](assets/8be6ffd7c9cd16e8d8cf888b36db1c22.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/8be6ffd7c9cd16e8d8cf888b36db1c22.jpeg)
 
    In the preceding figure, the policy grants the asr.aliyuncs.com service and a specific root user the permissions to assume this role. According to this policy, the asr.aliyuncs.com service or a specific root user is allowed to assume this role.
 
@@ -3185,11 +3185,11 @@ If you select Resource Sets for Management Permissions when you create a custom 
 
 7. On the page that appears, click the **RAM Role** tab, click **Create**, and then select a level-1 organization to create a RAM role instance.
 
-   ![](assets/ea0a24191324c1d7279e66e0910d58d2.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/ea0a24191324c1d7279e66e0910d58d2.jpeg)
 
 8. After the RAM role instance is generated, the trust entities in the trust policy can assume this RAM role to access and operate the corresponding resources.
 
-   ![](assets/3f3958fcaef0291c521c92547eff02d8.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3f3958fcaef0291c521c92547eff02d8.jpeg)
 
 **Create RAM-based authorization**
 
@@ -3321,13 +3321,13 @@ View the basic information and permissions of a role.
 
      Click the **Custom Policy**, **Trust Policy**, and **RAM Role** tabs to view the information about the added policies, trust policy, and RAM roles.
 
-     ![](assets/23256a5f3f723ebf3c9db4aca04680ee.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/23256a5f3f723ebf3c9db4aca04680ee.jpeg)
 
    - **View the details of a RAM-based batch authorization role**
 
      Click the **User Groups** and **Permissions** tabs to view the authorized user groups and policies.
 
-     ![](assets/4bf7c1879fd4e23868991f30b7c473f2.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/4bf7c1879fd4e23868991f30b7c473f2.jpeg)
 
 **Modify role information**
 
@@ -3391,7 +3391,7 @@ You can enable a disabled role. After the role is enabled, all users associated 
 
 When you copy a role, a new role with the same sharing scope, management permissions, application permissions, and menu permissions is created. You can adjust the permissions of the new role based on your business requirements.
 
-1. On the **Role Permissions** page, find the role that you want to manage, click the <img src="assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt=""> icon in
+1. On the **Role Permissions** page, find the role that you want to manage, click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt=""> icon in
 
    the Actions column, and then choose **Copy**.
 
@@ -3411,7 +3411,7 @@ You can delete a role that is no longer required.
 >
 > - Before you delete a role, make sure that no users or user groups are associated with the role.
 
-1. On the **Role Permissions** page, find the role that you want to manage, click the <img src="assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt=""> icon in
+1. On the **Role Permissions** page, find the role that you want to manage, click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt=""> icon in
 
    the Actions column, and then choose **Delete**.
 
@@ -3425,7 +3425,7 @@ If an external system is associated with a role, you can lock the role.
 >
 > If a role is locked, the role cannot be modified, deleted, disabled, or enabled. In addition, a locked role cannot be used to authorize users.
 
-1. On the **Role Permissions** page, find the role that you want to manage, click the <img src="assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt=""> icon in
+1. On the **Role Permissions** page, find the role that you want to manage, click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt=""> icon in
 
    the Actions column, and then choose **Locked**.
 
@@ -3439,7 +3439,7 @@ When a role is locked, you can unlock the role.
 >
 > If a locked role is associated with an external system, issues related to external system permissions and data synchronization may occur when you forcefully unlock the role. Proceed with caution.
 
-1. On the **Role Permissions** page, find the role that you want to manage, click the <img src="assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt=""> icon in
+1. On the **Role Permissions** page, find the role that you want to manage, click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c266cf685bb43a5383d1f321e8e2788f.png" width="14" alt=""> icon in
 
    the Actions column, and then choose **Unlock**.
 
@@ -3475,7 +3475,7 @@ In some product upgrade scenarios, new permissions are required to be granted to
 
    - If you want to delete a selected role, find the role that you want to manage and click **Remove** in the **Actions** column.
 
-   ![](assets/6e575c8976345486d9afd5ff615485e4.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6e575c8976345486d9afd5ff615485e4.jpeg)
 
    </li>
 
@@ -3563,23 +3563,23 @@ By default, the level-1 organization administrator of Company A is Organization 
 
    - **Management Permissions**: Select Specified Organization and Subordinate Organizations.
 
-   ![](assets/ff0d12ecd3ee30829fd13b30ec329880.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/ff0d12ecd3ee30829fd13b30ec329880.jpeg)
 
 6. On the **Manage permissions** wizard page, you can specify parameters to allow the role to perform specific operations on specific organizations or specific resource sets in the console. You can skip this step and click **Next** when you create an ECS read-only role.
 
 7. On the **Application permissions** wizard page, search for **ECS** in the Cloud products section. Select the desired view permissions on ECS resources or click **Read only** in the upper-right corner of the section. Then, click **Next**.
 
-   ![](assets/f9d55883b5dc49cb16ed91c357648711.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/f9d55883b5dc49cb16ed91c357648711.jpeg)
 
 8. On the **Menu permissions** wizard page, add menus for accessing ECS resources. Otherwise, the user associated with the role cannot see the menus for accessing ECS resources after the user logs on to the console.
 
-   ![](assets/cb4e3989de6111d89a0635336fa348aa.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/cb4e3989de6111d89a0635336fa348aa.jpeg)
 
 9. After you add the menus for accessing ECS resources, click **Create**. The administrator role with ECS read-only permissions is created.
 
    After the role is created, you can associate the role with the desired user Administrator A. This way, Administrator A can view all ECS resources of Company A.
 
-   ![](assets/9584c045aa69975b2ad731e0d3706c6d.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/9584c045aa69975b2ad731e0d3706c6d.jpeg)
 
 <a id="section-4-4-2-6-2"></a>
 
@@ -3611,15 +3611,15 @@ By default, the level-1 organization administrator of Company A is Organization 
 
    - Modify basic information: Change the role name to ECS and VPC read-only administrator and the description of the role to View permissions on ECS and VPC resources. You can click **Modify Basic Information** in the upper-right corner of the page to modify the basic information about the role.
 
-     ![](assets/430831293672742a75dad116b3c3b557.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/430831293672742a75dad116b3c3b557.jpeg)
 
    - Add read-only permissions on VPC resources: Click the **Application Permissions** tab. Enter VPC in the search box below the Cloud products section and select the desired view permissions on ECS resources or click **Read only** in the upper-right corner of the tab.
 
-     ![](assets/2d5db014bcb18acbf61ceddf214744f7.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/2d5db014bcb18acbf61ceddf214744f7.jpeg)
 
 7. On the **Menu Permissions** tab, select menus for accessing VPC resources.
 
-   ![](assets/14eb4a255a59a4b03670f3c753ce489c.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/14eb4a255a59a4b03670f3c753ce489c.jpeg)
 
 8. Click **Update** to modify the ECS read-only role. View the modified role in the role list.
 
@@ -3657,7 +3657,7 @@ By default, the level-1 organization administrator of Company A is orgA. In the 
 
    - **Sharing Scope**: Current Organization
 
-   ![](assets/d7eb37440b6bc4e64a6f95ac7e49c4ed.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/d7eb37440b6bc4e64a6f95ac7e49c4ed.jpeg)
 
 7. In the **Configure Custom Policy** step, click **Create Policy** and create a policy that grants permissions to restart all ECS instances.
 
@@ -3682,11 +3682,11 @@ By default, the level-1 organization administrator of Company A is orgA. In the 
      }
      ```
 
-     ![](assets/9d88c286ce42e63842ca49ccd49b7cdd.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/9d88c286ce42e63842ca49ccd49b7cdd.jpeg)
 
 8. In the Select Policy section, select the policy you created and click **Next**.
 
-   ![](assets/c4973052bb21b776abcaf7c5eb115ee0.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c4973052bb21b776abcaf7c5eb115ee0.jpeg)
 
 9. In the **Configure Trust Policy** step, specify O&M Engineer A (username: xiaozhuan) to assume this role.
 
@@ -3706,7 +3706,7 @@ By default, the level-1 organization administrator of Company A is orgA. In the 
    >
    > - &lt;account-id>: the ID of the Apsara Stack tenant account.
 
-   ![](assets/5f621bdbb94d89fc93fc6c19952cabff.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/5f621bdbb94d89fc93fc6c19952cabff.jpeg)
 
    </li>
 
@@ -3720,19 +3720,19 @@ By default, the level-1 organization administrator of Company A is orgA. In the 
 
    grants the permissions only to O&M Engineer A (username: xiaozhuan).
 
-   ![](assets/d841a88e0a407bd9fa2551a0f4d9689f.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/d841a88e0a407bd9fa2551a0f4d9689f.jpeg)
 
 0. In the Preview Policy step, confirm the policy and the trust policy, and click **Create**.
 
    The RAM role template is created.
 
-   ![](assets/56d57d22a88dd9367ba26863f01ce1d8.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/56d57d22a88dd9367ba26863f01ce1d8.jpeg)
 
 1. On the Role Permissions page, click the name of the RAM role you created.
 
 2. On the role details page, click the **RAM Role** tab, and click **Create**. In the dialog box that appears, select companyA from the **Organization** drop-down list, and click OK. The RAM role is created within the Apsara Stack tenant account of the companyA organization. O&M Engineer A (username: xiaozhuan) can assume this role to restart ECS instances.
 
-   ![](assets/bce924e1176c590de3e8faf421bedeab.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/bce924e1176c590de3e8faf421bedeab.jpeg)
 
 <a id="section-4-4-2-6-4"></a>
 
@@ -3768,7 +3768,7 @@ By default, the level-1 organization administrator of Company A is orgA. In the 
 
    - **Sharing Scope**: Current Organization
 
-   ![](assets/3468973dda77d4397ca367d30be4118c.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3468973dda77d4397ca367d30be4118c.jpeg)
 
 7. Click the **Permissions** tab, and click **Add Policy**.
 
@@ -3800,17 +3800,17 @@ By default, the level-1 organization administrator of Company A is orgA. In the 
      }
      ```
 
-     ![](assets/b7316001a02558c8263249d5f2861142.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/b7316001a02558c8263249d5f2861142.jpeg)
 
 9. After the policy is created, select the policy in the Add Policy dialog box and click **OK** to add the policy for the RAM-based authorization.
 
-   ![](assets/81b45209d9359d82dbeadfe1110f978c.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/81b45209d9359d82dbeadfe1110f978c.jpeg)
 
 0. Click the **User Groups** tab, and click **Add User Group**.
 
 1. In the **Add User Group** dialog box, select VPC-Group1 from the drop-down list and click **OK**. The DescribeAndDeleteVpcsPolicy policy is attached to the user group.
 
-   ![](assets/5745f4d7c7bc9aebb0be23a4c764e005.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/5745f4d7c7bc9aebb0be23a4c764e005.jpeg)
 
 2. On the page that appears, click **OK**. The RAM-based authorization is created, and users in the VPC-Group user group have the permissions to view and delete VPC instances.
 
@@ -3844,17 +3844,17 @@ For example, you can perform the following authorization to grant the view permi
 
 - **First authorization**: You can create a custom role to grant the view permissions on Message Queue instances of resource sets. This way, users can only view all the Message Queue instances of resource sets in the console.
 
-  ![](assets/b59b0c2d3944d505659881def7aab6e9.jpeg)
+  ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/b59b0c2d3944d505659881def7aab6e9.jpeg)
 
 - **Second authorization**: You can grant operation permissions on a specific Message Queue instance or a specific topic or group in a Message Queue instance on the Data Permissions page.
 
   **Service instances**
 
-  ![](assets/e7e77823c587c36205c2f28720d7264c.jpeg)
+  ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/e7e77823c587c36205c2f28720d7264c.jpeg)
 
   **Data permissions**
 
-  ![](assets/c8edbe97ceb8df3e7ca0869692944fec.jpeg)
+  ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c8edbe97ceb8df3e7ca0869692944fec.jpeg)
 
 **Grant data permissions on specific instances on the Data Permissions page**
 
@@ -3872,7 +3872,7 @@ For example, you can perform the following authorization to grant the view permi
 
 4. On the left side of the **Data Permissions** page, click a resource set to which one or more Message Queue instances belong. In the **Product Type** section on the right side of the page, click **Message Queue MQ**.
 
-   ![](assets/58f3ad38c00aad93dea870bda3d7743c.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/58f3ad38c00aad93dea870bda3d7743c.jpeg)
 
 5. Grant data permissions on a Message Queue instance
 
@@ -3922,7 +3922,7 @@ For example, you can perform the following authorization to grant the view permi
 
    <li>
 
-   In the list of Message Queue instances, find the desired Message Queue instance and click the <img src="assets/a27ef84ee90b0acafd4593bea9fe0593.png" width="12" alt=""> icon before the instance name to expand the topics and groups in the
+   In the list of Message Queue instances, find the desired Message Queue instance and click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/a27ef84ee90b0acafd4593bea9fe0593.png" width="12" alt=""> icon before the instance name to expand the topics and groups in the
 
    instance.
 
@@ -3958,7 +3958,7 @@ For example, you can perform the following authorization to grant the view permi
 
 1. On the left side of the **Data Permissions** page, click a resource set to which one or more OSS instances belong. In the **Product Type** section on the right side of the page, click **Object Storage Service**.
 
-   ![](assets/92a9a791f34e7fef50056ef1aa4a5c29.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/92a9a791f34e7fef50056ef1aa4a5c29.jpeg)
 
 2. In the list of OSS instances, find the desired instance and click **Authorize** in the **Actions** column.
 
@@ -3972,7 +3972,7 @@ For example, you can perform the following authorization to grant the view permi
 
 1. On the left side of the **Data Permissions** page, click a resource set to which one or more Log Service projects belong. In the **Product Type** section on the right side of the page, click **Log Service**.
 
-   ![](assets/179f6a1b3030e82e5ca1017ea7ecb1cd.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/179f6a1b3030e82e5ca1017ea7ecb1cd.jpeg)
 
 2. In the list of Log Service projects, find the desired project and click **Authorize** in the **Actions** column.
 
@@ -3986,7 +3986,7 @@ For example, you can perform the following authorization to grant the view permi
 
 1. On the left side of the **Data Permissions** page, click a resource set to which one or more DataHub projects belong. In the **Product Type** section on the right side of the page, click **Streaming Data Processing Service**.
 
-   ![](assets/36de03cb0366484e02f7838ad68937e6.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/36de03cb0366484e02f7838ad68937e6.jpeg)
 
 2. Grant data permissions on a DataHub project.
 
@@ -4036,7 +4036,7 @@ For example, you can perform the following authorization to grant the view permi
 
    <li>
 
-   In the list of DataHub projects, find the desired DataHub project and click the <img src="assets/a27ef84ee90b0acafd4593bea9fe0593.png" width="12" alt=""> icon
+   In the list of DataHub projects, find the desired DataHub project and click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/a27ef84ee90b0acafd4593bea9fe0593.png" width="12" alt=""> icon
 
    before the project name to expand the topics in the project.
 
@@ -4084,7 +4084,7 @@ For example, you can perform the following authorization to grant the view permi
 
 1. On the left side of the **Data Permissions** page, click a resource set to which one or more Container Service for Kubernetes clusters belong. In the **Product Type** section on the right side of the page, click **Container Service for Kubernetes**.
 
-   ![](assets/9864a81673b6c06540fb125151755bfd.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/9864a81673b6c06540fb125151755bfd.jpeg)
 
 2. In the list of Container Service for Kubernetes clusters, find the desired cluster and click **Authorize** in the **Actions** column.
 
@@ -4124,7 +4124,7 @@ For example, you can perform the following authorization to grant the view permi
 
 1. On the left side of the **Data Permissions** page, click a resource set to which one or more Key Management Service keys belong. In the **Product Type** section on the right side of the page, click **Key Management Service**.
 
-   ![](assets/23890a1cd95125c2dfec177476fe2a07.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/23890a1cd95125c2dfec177476fe2a07.jpeg)
 
 2. In the list of Key Management Service keys, find the desired key and click **Authorize** in the **Actions** column.
 
@@ -4138,7 +4138,7 @@ For example, you can perform the following authorization to grant the view permi
 
 1. On the left side of the **Data Permissions** page, click a resource set to which one or more Tablestore instances belong. In the **Product Type** section on the right side of the page, click **Tablestore**.
 
-   ![](assets/7b93ec3fd97c9d22bbf80f838f77c373.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/7b93ec3fd97c9d22bbf80f838f77c373.jpeg)
 
 2. In the list of Tablestore instances, find the desired instance and click **Authorize** in the **Actions** column.
 
@@ -4152,7 +4152,7 @@ For example, you can perform the following authorization to grant the view permi
 
 1. On the left side of the **Data Permissions** page, click a user group to which the desired user belongs. On the right side of the page, find the desired user.
 
-   ![](assets/3ec413d8b6181a9d36fd794be153396c.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3ec413d8b6181a9d36fd794be153396c.jpeg)
 
 2. View or modify the policies of the user. For more information, see RAM policies.
 
@@ -4170,7 +4170,7 @@ For example, you can perform the following authorization to grant the view permi
 
      In the **View Permissions** dialog box, you can view all the policies of the user. Click a policy in the **Policies** section to view the policy content.
 
-     ![](assets/3f4665de71015e56f3b089af93df60e9.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3f4665de71015e56f3b089af93df60e9.jpeg)
 
      > **Note**
      >
@@ -4186,7 +4186,7 @@ For example, you can perform the following authorization to grant the view permi
 
      - In the **Edit Permissions** dialog box, click a policy in the **Policies** section to modify the policy in the code editor on the right side.
 
-       ![](assets/f851ad00190c930ec23e8fd3d82d2bee.jpeg)
+       ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/f851ad00190c930ec23e8fd3d82d2bee.jpeg)
 
 <a id="section-4-4-4"></a>
 
@@ -4228,7 +4228,7 @@ The default policy generated by the Apsara Uni-manager Management Console does n
 
 5. In the **Create Access Policy** dialog box, set the Name, Description, Sharing Scope, Policy Property, Logon Time, and Logon Address parameters.
 
-   ![](assets/50cde539604c1b26f2a58fa02e5920b2.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/50cde539604c1b26f2a58fa02e5920b2.jpeg)
 
    **Parameters for creating an access policy**
 
@@ -4646,7 +4646,7 @@ In the Apsara Uni-manager Management Console, you can create API control policie
    <table>
      <tr>
        <td>Field</td>
-       <td>The request parameter to be controlled, a specified value, and the logical relation between the values in actual requests and the specified value.<br>The logical relations vary with the types of the selected request parameters. Valid values include <strong>Similar To</strong>, <strong>Equal to String</strong>, <strong>Equal to</strong> <strong>(case-insensitive)</strong>, <strong>Empty</strong>, <strong>Not Empty</strong>.<br>Note<br>You can click <strong>Add Field</strong> to specify multiple conditions. The conditions in a rule are in <strong>AND</strong> logical relations. This means that the rule takes effect only if all conditions are met.<br><strong>Example</strong>: The following figure shows how to configure the Field parameter for a rule that is created to control the action of creating a VPC named "test".<br><img src="assets/f2f96876fb046c17d74d4491a7385b4c.jpeg" alt=""></td>
+       <td>The request parameter to be controlled, a specified value, and the logical relation between the values in actual requests and the specified value.<br>The logical relations vary with the types of the selected request parameters. Valid values include <strong>Similar To</strong>, <strong>Equal to String</strong>, <strong>Equal to</strong> <strong>(case-insensitive)</strong>, <strong>Empty</strong>, <strong>Not Empty</strong>.<br>Note<br>You can click <strong>Add Field</strong> to specify multiple conditions. The conditions in a rule are in <strong>AND</strong> logical relations. This means that the rule takes effect only if all conditions are met.<br><strong>Example</strong>: The following figure shows how to configure the Field parameter for a rule that is created to control the action of creating a VPC named "test".<br><img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/f2f96876fb046c17d74d4491a7385b4c.jpeg" alt=""></td>
      </tr>
    </table>
 
@@ -4703,7 +4703,7 @@ AccessKey pairs are supported for the following cloud products.
 
 3. In the left-side navigation pane, choose **Permissions** > **AccessKey Logs**.
 
-4. Enter the AccessKey ID to be queried in the search box and click the <img src="assets/d1443f6a9471476bee1a315c99a847f3.png" width="18" alt=""> icon. The **Basic**
+4. Enter the AccessKey ID to be queried in the search box and click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/d1443f6a9471476bee1a315c99a847f3.png" width="18" alt=""> icon. The **Basic**
 
    **Information About AccessKey Pair** section and the **Accessed Services** section display the information about the AccessKey pair.
 
@@ -4771,17 +4771,17 @@ Asynchronous tasks are classified into the following types: batch creation of or
 
 5. View the task information in the task list.
 
-   ![](assets/05fe7f1e94e8d36fe47d5b4e24bff3ca.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/05fe7f1e94e8d36fe47d5b4e24bff3ca.jpeg)
 
 6. Find the desired task and click the task name or click **View Task** in the **Actions** column. The **Task Details** panel appears.
 
-   ![](assets/56f52334f0f52b45335cd2eb4a84e6be.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/56f52334f0f52b45335cd2eb4a84e6be.jpeg)
 
 **Delete a task**
 
 1. On the **Asynchronous Task** page, find the desired task and click **Delete** in the **Actions** column.
 
-   ![](assets/b64c0149349823e0a01eb45383764a2b.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/b64c0149349823e0a01eb45383764a2b.jpeg)
 
 2. In the **Delete** message, click **OK**.
 
@@ -4961,7 +4961,7 @@ You can manage the logical inventory of cloud resources to control the maximum u
    >
    > If you cancel quotas, the capacity data of the logical inventory of the cloud service is cleared in all organizations and the quota verification feature is disabled. Proceed with caution.
 
-   ![](assets/758c66bed74a67a6fd63ba2eebf5201e.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/758c66bed74a67a6fd63ba2eebf5201e.jpeg)
 
 3. Click **OK**.
 
@@ -5611,7 +5611,7 @@ Database engine: MySQL 8.0
 
 The level-1 organization administrator orgA of Company A can select the created specification when orgA creates an ApsaraDB RDS instance.
 
-![](assets/09949d02726a0d6ef330fb15df6e289b.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/09949d02726a0d6ef330fb15df6e289b.jpeg)
 
 <a id="section-5-2-5-4-2"></a>
 
@@ -5637,11 +5637,11 @@ After the specification rds.mysql.A is disabled, it is unavailable when users cr
 
 5. On the **Resource Specifications** tab, find the specification rds.mysql.A and click **Disable** in the **Actions** column.
 
-   ![](assets/4f330814c2f7a96e602bd01dbed82074.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/4f330814c2f7a96e602bd01dbed82074.jpeg)
 
 6. Click **OK**. The value of the **Status** parameter changes to **Disabled** for the specification.
 
-   ![](assets/6515c884529c5635000a9f730b6e0c98.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6515c884529c5635000a9f730b6e0c98.jpeg)
 
 **Subsequent impact**
 
@@ -5700,7 +5700,7 @@ The default menu items cannot be modified or deleted.
 
 5. In the **Create** dialog box, configure the parameters. For more information, see the Menu item parameters section of this topic.
 
-   ![](assets/f563408fc20db41b18d09cd2cd615005.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/f563408fc20db41b18d09cd2cd615005.jpeg)
 
 6. Click **OK**.
 
@@ -5710,17 +5710,17 @@ When a menu item is changed, you can modify its information.
 
 1. On the **Main Menu Configuration** page, click the **Single-cloud Menu** or **Multi-cloud Menu** tab and click **Edit** in the Actions column of the menu item that you want to manage.
 
-   ![](assets/fdc95856bb6c407bbe6aba1362faae25.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/fdc95856bb6c407bbe6aba1362faae25.jpeg)
 
 2. In the **Edit** dialog box, modify the menu item information and click **OK**.
 
-   ![](assets/520d3d0559cdebb5dc56274e50b10bc8.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/520d3d0559cdebb5dc56274e50b10bc8.jpeg)
 
 **Delete a menu item**
 
 1. On the **Main Menu Configuration** page, click the **Single-cloud Menu** or **Multi-cloud Menu** tab and click **Delete** in the Actions column of the menu item that you want to manage.
 
-   ![](assets/368f883a326279b669355fe42e5c3fce.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/368f883a326279b669355fe42e5c3fce.jpeg)
 
 2. In the **Delete** message, click **OK**.
 
@@ -5728,9 +5728,9 @@ When a menu item is changed, you can modify its information.
 
 1. On the **Main Menu Configuration** page, click the **Single-cloud Menu** or **Multi-cloud Menu** tab and select or clear the check box in the **Display** column of the menu item that you want to manage.
 
-   - If you select <img src="assets/16d90e907914f7f79ad8968226cde890.png" width="14" alt=""> , the menu item is displayed in the console.
+   - If you select <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/16d90e907914f7f79ad8968226cde890.png" width="14" alt=""> , the menu item is displayed in the console.
 
-   - If you clear <img src="assets/7dd406266a0b3d294e34e070346479f6.png" width="14" alt=""> , the menu item is not displayed in the console.
+   - If you clear <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/7dd406266a0b3d294e34e070346479f6.png" width="14" alt=""> , the menu item is not displayed in the console.
 
 <a id="section-5-2-6-2"></a>
 
@@ -5770,17 +5770,17 @@ This feature allows you to configure the following items for a product creation 
    >
    > This configuration is applicable only to the fields that have a check box.
 
-   ![](assets/7a3b036f048b7f823a22231199fbde3d.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/7a3b036f048b7f823a22231199fbde3d.jpeg)
 
 7. Click **OK**.
 
 **Configure hidden fields**
 
-1. Click the <img src="assets/cfe97e14285ad9a1b9525702da7af69c.png" width="14" alt=""> icon in the **Actions** column of the desired form and click **Hidden Item**
+1. Click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/cfe97e14285ad9a1b9525702da7af69c.png" width="14" alt=""> icon in the **Actions** column of the desired form and click **Hidden Item**
 
    **Settings**.
 
-   ![](assets/8b7238a3d9a7a57eae5842eef11418b9.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/8b7238a3d9a7a57eae5842eef11418b9.jpeg)
 
 2. In the **Hidden Item Settings** dialog box, select the fields that you do not want to display. For example, if you select the **IPv6 CIDR Block** field, the field is not displayed on the creation page.
 
@@ -5788,15 +5788,15 @@ This feature allows you to configure the following items for a product creation 
    >
    > This configuration is applicable only to the fields that have a check box.
 
-   ![](assets/1060c321470bcb5dc49a149205c2ef19.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/1060c321470bcb5dc49a149205c2ef19.jpeg)
 
 3. Click **OK**.
 
 **Configure options**
 
-1. Click the <img src="assets/cfe97e14285ad9a1b9525702da7af69c.png" width="14" alt=""> icon in the **Actions** column of the desired form and select **Option Settings**.
+1. Click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/cfe97e14285ad9a1b9525702da7af69c.png" width="14" alt=""> icon in the **Actions** column of the desired form and select **Option Settings**.
 
-   ![](assets/3d9d0606350c35ace34aa02e8efe69c3.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3d9d0606350c35ace34aa02e8efe69c3.jpeg)
 
 2. In the **Options** dialog box, select the fields for which you want to configure options and click **Next Step**. For example, select the **Sharing Scope** field.
 
@@ -5804,7 +5804,7 @@ This feature allows you to configure the following items for a product creation 
    >
    > This configuration is applicable only to the fields that have a check box.
 
-   ![](assets/6128e6949ec4eefd3207f3eb48fda53f.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6128e6949ec4eefd3207f3eb48fda53f.jpeg)
 
 3. Set whether to hide the options and adjust the order of the options.
 
@@ -5812,19 +5812,19 @@ This feature allows you to configure the following items for a product creation 
    >
    > : indicates that the corresponding option is not displayed on the creation
    >
-   > ![](assets/eba5cd5cb4fbb22cd357fe7258f7e7c8.png)
+   > ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/eba5cd5cb4fbb22cd357fe7258f7e7c8.png)
    >
    > page.
    >
    > : indicates that the corresponding option is displayed on the creation page.
    >
-   > ![](assets/d28d2f4cb8b36f1fc02b4d6b2cdd0a8e.png)
+   > ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/d28d2f4cb8b36f1fc02b4d6b2cdd0a8e.png)
    >
-   > - You can click the <img src="assets/ee6390046621270f5314d59367251dc2.png" width="15" alt=""> icon next to an option and select **Move Up** or **Move Down**
+   > - You can click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/ee6390046621270f5314d59367251dc2.png" width="15" alt=""> icon next to an option and select **Move Up** or **Move Down**
    >
    >   to adjust the order of the option.
 
-   ![](assets/d7ea4d403985ca20dfd8fa3daf9c545a.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/d7ea4d403985ca20dfd8fa3daf9c545a.jpeg)
 
 4. Click **OK**.
 
@@ -5860,7 +5860,7 @@ You can create announcements on the platform to inform users about events such a
    >
    > Valid values of the **Type** parameter: **Upgrade Announcement**, **O&M Notifications**, **Security Notifications**, **Urgent Events**, and **Daily Announcement**.
 
-   ![](assets/d5fee94b2df408674609501de47c6e8c.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/d5fee94b2df408674609501de47c6e8c.jpeg)
 
 6. Click **Create**. After the announcement is created, you need to release it. Only released announcements are displayed in the **Announcement** section of the homepage.
 
@@ -5870,7 +5870,7 @@ After an announcement in the **To Be Released** state is released, it enters the
 
 1. On the **Announcement Management** page, find the announcement that you want to release and click **Release** in the **Actions** column.
 
-   ![](assets/4f00ca51d520e66aea410d158f9d6752.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/4f00ca51d520e66aea410d158f9d6752.jpeg)
 
 2. In the **Confirm** message, click **OK**.
 
@@ -5880,7 +5880,7 @@ After an announcement in the **Released** state is withdrawn, it enters the **To
 
 1. On the **Announcement Management** page, find the announcement that you want to withdraw and click **Withdraw** in the Actions column.
 
-   ![](assets/3af5d7f71ff343fee6bd4cca135d9e70.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3af5d7f71ff343fee6bd4cca135d9e70.jpeg)
 
 2. In the **Confirm** message, click **OK**.
 
@@ -5892,7 +5892,7 @@ You can modify an announcement only if it is in the **To Be Released** state.
 
 2. On the **Modify Announcement** page, modify the title, type, and content.
 
-   ![](assets/a656d2f6ad8c413e524bd1bc421d6ef3.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/a656d2f6ad8c413e524bd1bc421d6ef3.jpeg)
 
 3. Click **Modify**.
 
@@ -5902,7 +5902,7 @@ You can delete an announcement only if it is in the **To Be Released** state.
 
 1. On the **Announcement Management** page, find the announcement that you want to delete and click **Delete** in the Actions column.
 
-   ![](assets/bacea5f35789c868fc943d206f249659.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/bacea5f35789c868fc943d206f249659.jpeg)
 
 2. In the **Confirm** message, click **OK**.
 
@@ -5932,13 +5932,13 @@ You can customize logon pages and platform logos for the Apsara Uni-manager Mana
 
 3. In the left-side navigation pane, click **Custom Configurations**.
 
-   ![](assets/b0a5432e29c7acce47daa1040a83b88e.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/b0a5432e29c7acce47daa1040a83b88e.jpeg)
 
    | Parameter | Description |
    | --- | --- |
    | Platform Language | Select one or more languages supported by the platform. Valid values:<br>• Simplified Chinese<br>• Traditional Chinese<br>• English<br>Select a default language for the platform. Select a default language among the supported languages. |
    | Appearanc e and Theme | Select the appearance (light mode or dark mode) and theme color of the console. |
-   | Page Watermar k | Specifies whether to add a watermark on the console.<br>![](assets/d878fe568756329c79d0029c880c1e06.png)<br>: does not add a watermark.<br>![](assets/0692f00fb448dae20b88a5c2123e09c6.png)<br>: adds the specified watermark. |
+   | Page Watermar k | Specifies whether to add a watermark on the console.<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/d878fe568756329c79d0029c880c1e06.png)<br>: does not add a watermark.<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/0692f00fb448dae20b88a5c2123e09c6.png)<br>: adds the specified watermark. |
    | Brand Setting | Specify the logos, versions, and copyright notices of the console in the three languages (Simplified Chinese, Traditional Chinese, and English). Parameters:<br>• <strong>Browser ico icon</strong>: Recommended aspect ratio: 1:1 (Example: 32 px × 32 px).Format: GIF, PNG, JPG, or JPEG.<br>• <strong>Platform Logo</strong>: Recommended resolution: 160 px × 36 px. Format: GIF, PNG, JPG, or JPEG<br>• <strong>Platform Name</strong>: We recommend that you specify a name for the platform. The name can be up to four Chinese characters and eight characters in length.<br>• <strong>Login Page</strong>: You can configure up to three pages. Each page can have their specific background image and slogan. We recommend that you use an image whose resolution is 1,880 px × 1,600 px in the GIF, PNG, JPG, or JPEG format. The slogan must not exceed 120 characters in length.<br>• <strong>Version Information</strong>: Specify the version information.<br>• <strong>Copyright Notice</strong>: Specify the declaration of the copyright. |
 
 4. Click **OK**.
@@ -6503,7 +6503,7 @@ You can configure third-party authentication to implement single sign-on (SSO) i
    >
    > After you click a number in the **Associated Organizations** column that corresponds to an IdP, you are redirected to the **Associated Organization** tab.
 
-   ![](assets/9be743e95020e2584dac9a80ac2e0f19.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/9be743e95020e2584dac9a80ac2e0f19.jpeg)
 
 2. After you click **Details** in the **Actions** column that corresponds to an IdP, you are redirected to the details panel of the IdP.
 
@@ -6515,21 +6515,21 @@ You can configure third-party authentication to implement single sign-on (SSO) i
      >
      > If the protocol type of the IdP is **SAML 2.0**, you can click **Download Metadata File** in the Basic Information section to download the metadata file.
 
-     ![](assets/0a4cd87d95456278131af303b6ff6ebd.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/0a4cd87d95456278131af303b6ff6ebd.jpeg)
 
    - **Associated Organization**: The information about organizations associated with the local IdP is displayed on this tab. The information includes **Organization ID/Name**, **Description**, and **Associated At**.
 
-     ![](assets/40f8a6eb5772757e2bee398d18dbdb1e.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/40f8a6eb5772757e2bee398d18dbdb1e.jpeg)
 
 **Modify a local IdP**
 
 1. On the **Local IdP Settings** tab, click **Edit** in the **Actions** column that corresponds to a local IdP.
 
-   ![](assets/6cc2605fc7b06e6b719211b03c307ff9.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6cc2605fc7b06e6b719211b03c307ff9.jpeg)
 
 2. In the **Modify Local IdP** dialog box, modify the values of the desired parameters.
 
-   ![](assets/c2784a6c799c879083910b21a3b3392c.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c2784a6c799c879083910b21a3b3392c.jpeg)
 
 3. Click **OK**.
 
@@ -6541,11 +6541,11 @@ You can configure third-party authentication to implement single sign-on (SSO) i
    >
    > Before you delete the local IdP, you must disassociate the local IdP from organizations. For more information, see the Manage third-party authentication for an organization of the Manage organizations topic.
 
-   ![](assets/30e291264c44d3d98d6c827516835a27.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/30e291264c44d3d98d6c827516835a27.jpeg)
 
 2. In the message that appears, click **Delete**.
 
-   ![](assets/ad6bbd8c50dcafcccc9db2968e5614dc.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/ad6bbd8c50dcafcccc9db2968e5614dc.jpeg)
 
 <a id="section-5-2-10"></a>
 
@@ -6637,7 +6637,7 @@ You can configure a storage mode for the operation logs and AccessKey logs of cl
    | --- | --- |
    | Default | The operation logs of the users of all organizations are stored in the system Logstore for seven days.<br>Only <strong>All Events</strong> is available for <strong>Event Type</strong>. |
    | Log Storage for All Organizatio ns | The operation logs of the users of all organizations are stored in the configured Logstore. You need to purchase the Logstore in advance.<br>• You can set the <strong>Storage Duration</strong> parameter to 30 Days, 60 Days, 90 Days, 180 Days, 360 Days, or 720 Days. The maximum storage duration is 720 days.<br>• You can set the <strong>Event Type</strong> parameter to <strong>All Events</strong>, <strong>Write Event</strong>, or <strong>Read</strong> <strong>Event</strong>. |
-   | Log Storage for Specified Organizatio n | The operation logs of the users of specified organizations are stored in the configured Logstore. You need to purchase the Logstore in advance.<br>• You can set the <strong>Storage Duration</strong> parameter to 30 Days, 60 Days, 90 Days, 180 Days, 360 Days, or 720 Days. The maximum storage duration is 720 days.<br>• You can set the <strong>Event Type</strong> parameter to <strong>All Events</strong>, <strong>Write Event</strong>, or <strong>Read</strong> <strong>Event</strong>.<br>• In the <strong>Settings</strong> section, select an organization and configure the parameters for Simple Log Service. The parameters include <strong>Log Service Region</strong>, <strong>Project</strong><br><strong>Name</strong>, and <strong>Logstore Name</strong>. You can click the<img src="assets/b885fe06b3c09a0b82253ce15298c489.png" width="13" alt="">icon to add more organization<br>configurations.<br>Important<br>The organizations must belong to different level-1 organizations. |
+   | Log Storage for Specified Organizatio n | The operation logs of the users of specified organizations are stored in the configured Logstore. You need to purchase the Logstore in advance.<br>• You can set the <strong>Storage Duration</strong> parameter to 30 Days, 60 Days, 90 Days, 180 Days, 360 Days, or 720 Days. The maximum storage duration is 720 days.<br>• You can set the <strong>Event Type</strong> parameter to <strong>All Events</strong>, <strong>Write Event</strong>, or <strong>Read</strong> <strong>Event</strong>.<br>• In the <strong>Settings</strong> section, select an organization and configure the parameters for Simple Log Service. The parameters include <strong>Log Service Region</strong>, <strong>Project</strong><br><strong>Name</strong>, and <strong>Logstore Name</strong>. You can click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/b885fe06b3c09a0b82253ce15298c489.png" width="13" alt="">icon to add more organization<br>configurations.<br>Important<br>The organizations must belong to different level-1 organizations. |
 
 5. Click **Save**.
 
@@ -6697,7 +6697,7 @@ In the Apsara Uni-manager Management Console, an application form is generated w
 
 - In the application form list, you can view the information about application forms in the following columns: **Order No.**, **Order Type**, **Organization**, **Resource Set**, **Cloud Resource**, **Order Status**, **Updated At**, **Submitted At**, and **Created By**.
 
-  ![](assets/aa422dc26fbc0153468079048e0d0c25.jpeg)
+  ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/aa422dc26fbc0153468079048e0d0c25.jpeg)
 
 - Find the application form that you want to view and click the **application form number** to go to the **Details** page of the application form.
 
@@ -6709,7 +6709,7 @@ In the Apsara Uni-manager Management Console, an application form is generated w
 
     - On the **Order Requirement Description** tab, view the information in the following columns: **Service Type**, **Order Type**, **Cloud Service**, **Cloud Platform**, **Instance Type Information**, and **Quantity**.
 
-    ![](assets/18029d4b3e3dd7da173eaca21421df7a.jpeg)
+    ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/18029d4b3e3dd7da173eaca21421df7a.jpeg)
 
   - **View details of an application form of the service boundary type**
 
@@ -6717,7 +6717,7 @@ In the Apsara Uni-manager Management Console, an application form is generated w
 
     - On the **Interception Information** tab, view the information in the following columns: **Interception Source**, **API Request Intercepted**, and **Interception Time**.
 
-    ![](assets/6d4105a6da4500b0e48c34805d805393.jpeg)
+    ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6d4105a6da4500b0e48c34805d805393.jpeg)
 
 **Manually create resources**
 
@@ -6725,7 +6725,7 @@ In the Apsara Uni-manager Management Console, an application form is generated w
 
 2. In the application form list, find the application form that you want to manage and click **Create Resource** in the **Actions** column.
 
-   ![](assets/ee3ab60dec3a991d09f5325cfe9f81de.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/ee3ab60dec3a991d09f5325cfe9f81de.jpeg)
 
 3. In the **Confirm Manual Resource Production** message, click **OK**.
 
@@ -6735,7 +6735,7 @@ In the Apsara Uni-manager Management Console, an application form is generated w
 
 2. In the application form list, find the application form that you want to manage and click **Change Resource Configurations** in the **Actions** column.
 
-   ![](assets/447f078b22ee9605e3827c86eb624ed5.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/447f078b22ee9605e3827c86eb624ed5.jpeg)
 
 3. In the **Confirmation of Change of Resource Configurations** message, click **OK**.
 
@@ -6745,7 +6745,7 @@ In the Apsara Uni-manager Management Console, an application form is generated w
 
 2. In the application form list, find the application form that you want to manage and click **Release Resources** in the **Actions** column.
 
-   ![](assets/54c65fa9e5d8b4dbc10dff75f496cc4a.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/54c65fa9e5d8b4dbc10dff75f496cc4a.jpeg)
 
 3. In the **Resource Release Confirmation** message, click **OK**.
 
@@ -6787,7 +6787,7 @@ In the Apsara Uni-manager Management Console, an application form is generated w
    >
    > You can set the **Comments** parameter to **Approved** or **Unapproved**.
 
-   ![](assets/409d74367cd998431e5db784b9b116b6.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/409d74367cd998431e5db784b9b116b6.jpeg)
 
 4. Click **OK**.
 
@@ -6799,7 +6799,7 @@ In the Apsara Uni-manager Management Console, an application form is generated w
 
 3. In the **Transfer** dialog box, configure the **New Owner** and **Comments** parameters.
 
-   ![](assets/969279f0078c9bc72c18bff9acfafe21.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/969279f0078c9bc72c18bff9acfafe21.jpeg)
 
 4. Click **OK**.
 
@@ -6825,7 +6825,7 @@ In the Apsara Uni-manager Management Console, an application form is generated w
 
      - On the **Order Requirement Description** tab, view the information in the following columns: **Service Type**, **Order Type**, **Cloud Service**, **Cloud Platform**, **Instance Type Information**, and **Quantity**.
 
-     ![](assets/18029d4b3e3dd7da173eaca21421df7a.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/18029d4b3e3dd7da173eaca21421df7a.jpeg)
 
    - **View details of an application form of the service boundary type**
 
@@ -6833,7 +6833,7 @@ In the Apsara Uni-manager Management Console, an application form is generated w
 
      - On the **Interception Information** tab, view the information in the following columns: **Interception Source**, **API Request Intercepted**, and **Interception Time**.
 
-     ![](assets/6d4105a6da4500b0e48c34805d805393.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6d4105a6da4500b0e48c34805d805393.jpeg)
 
 <a id="section-6-1-2"></a>
 
@@ -7012,7 +7012,7 @@ You can delete only the specification catalogs in the **Unpublished** state.
 
 1. On the **Specification Catalog** page, find the specification catalog that you want to modify and click **Edit** in the **Actions** column.
 
-   ![](assets/ee452aa909c8c621cbde6adf13f37129.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/ee452aa909c8c621cbde6adf13f37129.jpeg)
 
 2. On the **Edit Custom Service** page, modify the specification catalog. For more information, see the Create a specification catalog section of this topic.
 
@@ -7020,7 +7020,7 @@ You can delete only the specification catalogs in the **Unpublished** state.
 
 1. On the **Specification Catalog** page, find the specification catalog that you want to publish and click **Publish** in the **Actions** column.
 
-   ![](assets/0feb06696a530afcf14012699c6e1e99.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/0feb06696a530afcf14012699c6e1e99.jpeg)
 
 2. In the **PublishSpecification Catalog?** message, click **OK**.
 
@@ -7030,7 +7030,7 @@ You can delete only the specification catalogs in the **Unpublished** state.
 
 1. On the **Specification Catalog** page, find the specification catalog that you want to unpublish and click **Unpublish** in the **Actions** column.
 
-   ![](assets/c0c0d52b3b8c70ac112f1b3f67f142ce.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c0c0d52b3b8c70ac112f1b3f67f142ce.jpeg)
 
 2. In the **UnpublishSpecification Catalog?** message, click **OK**.
 
@@ -7042,17 +7042,17 @@ If you want to change the authorization type for a specification catalog, you ca
 
 1. On the **Specification Catalog** page, find the specification catalog for which you want to change the authorization type and click **Authorize** in the **Actions** column.
 
-   ![](assets/4d9ad5e95e31d705659833578da2f9c2.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/4d9ad5e95e31d705659833578da2f9c2.jpeg)
 
 2. In the **Specification Catalog Authorization** dialog box, modify the **Authorization Type** parameter and click **OK**.
 
-   ![](assets/089f3fd52cf12dce74c7e8445c162b5d.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/089f3fd52cf12dce74c7e8445c162b5d.jpeg)
 
 **Delete a specification catalog**
 
 1. On the **Specification Catalog** page, find the specification catalog that you want to delete and click **Delete** in the **Actions** column.
 
-   ![](assets/ca210d14b3539485514e80f6d4c95a1b.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/ca210d14b3539485514e80f6d4c95a1b.jpeg)
 
 2. In the **Delete Specification Catalog** message, click **OK**.
 
@@ -7122,7 +7122,7 @@ Before you disassociate a task from a process, make sure that the task is in the
 
 5. On the **Process Definition Design** page, configure the **Process Name** parameter and
 
-   ![](assets/7810c258355ec6e08be2095d8c93aa96.png)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/7810c258355ec6e08be2095d8c93aa96.png)
 
    click the
 
@@ -7136,11 +7136,11 @@ Before you disassociate a task from a process, make sure that the task is in the
    >
    >   - **Required approver**: The process is approved only if all the approvers for the approval node approve the process.
    >
-   > - Click the <img src="assets/d9bc6b519aeaa5bedc67281b2983e348.png" width="21" alt=""> icon in the upper-right corner of the approver node and select
+   > - Click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/d9bc6b519aeaa5bedc67281b2983e348.png" width="21" alt=""> icon in the upper-right corner of the approver node and select
    >
    >   **Delete** to delete the approver node.
 
-   ![](assets/96a97adac8f547cc6a0f4155022c42a5.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/96a97adac8f547cc6a0f4155022c42a5.jpeg)
 
 6. After the approver node is added, click the approver node. In the **Approver** panel, select one or more **members**, a **role**, or a **user group**, and click **OK**.
 
@@ -7148,7 +7148,7 @@ Before you disassociate a task from a process, make sure that the task is in the
    >
    > If you set the approver type to Member, you can select multiple approvers for the approver node. If you set the approver type to Role or User Group, you can select only one role or one user group for the approver node.
 
-   ![](assets/3a7901496f22dc7f45c101c4ff3d2414.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3a7901496f22dc7f45c101c4ff3d2414.jpeg)
 
 7. Click **Create**. The process definition design is complete.
 
@@ -7156,7 +7156,7 @@ Before you disassociate a task from a process, make sure that the task is in the
 
 1. On the **Process Management** page, find the process that you want to modify and click **Edit** in the **Actions** column.
 
-   ![](assets/b6316d41f71fea183d22d89b68fb6fd1.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/b6316d41f71fea183d22d89b68fb6fd1.jpeg)
 
 2. On the **Process Definition Design** page, modify the **process name** and **approvers**. For more information, see the Create a process section of this topic.
 
@@ -7170,7 +7170,7 @@ Before you disassociate a task from a process, make sure that the task is in the
 
 1. On the **Process Management** page, find the process that you want to publish and click **Publish** in the **Actions** column.
 
-   ![](assets/f5ef5dbd7bf8cd3bad4a61f09bc1ad87.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/f5ef5dbd7bf8cd3bad4a61f09bc1ad87.jpeg)
 
 2. In the message that appears, click **OK**.
 
@@ -7180,7 +7180,7 @@ Before you disassociate a task from a process, make sure that the task is in the
 
 1. On the **Process Management** page, find the process that you want to withdraw and click **Withdraw** in the **Actions** column.
 
-   ![](assets/29b52ba6b7347b558959d13567df1679.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/29b52ba6b7347b558959d13567df1679.jpeg)
 
 2. In the message that appears, click **OK**.
 
@@ -7190,11 +7190,11 @@ Before you disassociate a task from a process, make sure that the task is in the
 
 1. On the **Process Management** page, find the process that you want to manage and click the number in the **Associated Tasks** column.
 
-   ![](assets/0582f43f3ea4823fdef5aca13569b228.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/0582f43f3ea4823fdef5aca13569b228.jpeg)
 
 2. In the **Associated Tasks** panel, view the information about the tasks that are associated with the process.
 
-   ![](assets/069d8920f1ceb05d1801c5ac4f921133.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/069d8920f1ceb05d1801c5ac4f921133.jpeg)
 
 3. Find the task that you want to disassociate from the process and click **Disassociate** in the **Actions** column.
 
@@ -7208,7 +7208,7 @@ Before you disassociate a task from a process, make sure that the task is in the
 
 1. On the **Process Management** page, find the process that you want to delete and click **Delete** in the **Actions** column.
 
-   ![](assets/6629288a9e7c74732ed70490359868ed.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6629288a9e7c74732ed70490359868ed.jpeg)
 
 2. In the message that appears, click **OK**.
 
@@ -8316,7 +8316,7 @@ Quota management in the Apsara Uni-manager Management Console involves the follo
 
 6. In the cloud service list, click a cloud service. The Quota Details panel appears. In this example, Elastic Compute Service (ECS) is used. For more information about the resource quotas of each cloud service, see Quota management overview.
 
-   ![](assets/d873e8889bd06d20cd4f9d74b6601a55.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/d873e8889bd06d20cd4f9d74b6601a55.jpeg)
 
 7. In the Quota Details panel, configure quotas for the resource items of the cloud service and click **Save**.
 
@@ -8358,7 +8358,7 @@ You can create alert rules for quotas. When the usage of a quota reaches the pre
 
 5. In the **Create Quota Alert** dialog box, configure the parameters that are described in the following table.
 
-   ![](assets/b919cc8d1e565366e11930085a8c1283.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/b919cc8d1e565366e11930085a8c1283.jpeg)
 
    **Section**
 
@@ -8459,7 +8459,7 @@ For more information about how to create a quota alert rule, see Quota alert man
 
 5. In the alert list, view the information about alerts, including the alert name, organization, region, cloud service category, specifications, alert type, alert threshold, current value, and time when the alert was generated.
 
-   ![](assets/3da642268302d33ef9a119929ca3ff7d.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3da642268302d33ef9a119929ca3ff7d.jpeg)
 
    > **Note**
    >
@@ -8467,7 +8467,7 @@ For more information about how to create a quota alert rule, see Quota alert man
 
 6. Optional. Find an alert that you want to manage and click **Change Quota** in the **Actions** column. In the **Change Quota** dialog box, modify the allocated resource quota.
 
-   ![](assets/c9ae239bafa6477f72d45a4a2ef3e736.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c9ae239bafa6477f72d45a4a2ef3e736.jpeg)
 
 <a id="section-6-1-4"></a>
 
@@ -8511,7 +8511,7 @@ Tags are used to classify and manage resources based on different dimensions. Yo
 
    Select an existing tag key or create a tag key, enter a tag value in the **Tag Value** field, and then click **Next**.
 
-   ![](assets/c667eb58fcb1a72d089ffe95ca77beee.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c667eb58fcb1a72d089ffe95ca77beee.jpeg)
 
    > **Note**
    >
@@ -8523,7 +8523,7 @@ Tags are used to classify and manage resources based on different dimensions. Yo
    >
    >   icon to delete or remove a tag.
    >
-   >   <img src="assets/36af23476a05b24b534d449f43592581.png" width="13" alt="">
+   >   <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/36af23476a05b24b534d449f43592581.png" width="13" alt="">
 
    </li>
 
@@ -8537,7 +8537,7 @@ Tags are used to classify and manage resources based on different dimensions. Yo
 
    Select the organization and resource set to which resources belong, select the region in which resources reside, and then select a cloud service. Select the resources to which you want to add tags and click **Next**.
 
-   ![](assets/63de7ef166e463388fb926d76d0e5231.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/63de7ef166e463388fb926d76d0e5231.jpeg)
 
    <ol type="i" start="3">
 
@@ -8551,13 +8551,13 @@ Tags are used to classify and manage resources based on different dimensions. Yo
 
    Confirm the information about the tags and resources, and click **Confirmation**.
 
-   ![](assets/c7d34815a4fa1a12524b020dd91eb2c8.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c7d34815a4fa1a12524b020dd91eb2c8.jpeg)
 
 **View the resources to which tags are added**
 
 1. In the left-side **Tag Key** pane of the **Tags** page, find the tag key that you want to manage.
 
-   You can click the <img src="assets/73968fccd35e2280a6caef89bd97c5e9.png" width="12" alt=""> icon next to **Tag Key** to specify filter conditions, including the
+   You can click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/73968fccd35e2280a6caef89bd97c5e9.png" width="12" alt=""> icon next to **Tag Key** to specify filter conditions, including the
 
    organization and resource set to which resources belong, the region in which resources reside, and keyword.
 
@@ -8575,7 +8575,7 @@ Tags are used to classify and manage resources based on different dimensions. Yo
    >
    > - In the tag value list, view the number of cloud services to which each tag is added.
 
-   ![](assets/25f9a922edeb1bd697e167841d13bcf6.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/25f9a922edeb1bd697e167841d13bcf6.jpeg)
 
 3. View the resources to which a tag is added.
 
@@ -8583,11 +8583,11 @@ Tags are used to classify and manage resources based on different dimensions. Yo
 
    <li>
 
-   Click the <img src="assets/b75e58997cc4665386ba55db1edc76e7.png" width="10" alt=""> icon next to a tag value in the **Tag Value** column to view the cloud services
+   Click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/b75e58997cc4665386ba55db1edc76e7.png" width="10" alt=""> icon next to a tag value in the **Tag Value** column to view the cloud services
 
    to which the tag is added.
 
-   ![](assets/634197f9effb273751f1da7a65a359b1.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/634197f9effb273751f1da7a65a359b1.jpeg)
 
    </li>
 
@@ -8601,11 +8601,11 @@ Tags are used to classify and manage resources based on different dimensions. Yo
 
    resources to which the tag is added. You can also click **View Resources** in the **Actions** column. In the panel that appears, select a specific cloud service to view the specific resources to which the tag is added.
 
-   ![](assets/742384e3528ddf4634fd2a8183f87654.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/742384e3528ddf4634fd2a8183f87654.jpeg)
 
 4. Optional. In the tag value list, find a tag value and click **BIND Resources** in the **Actions** column. In the panel that appears, select the resources to which you want to add the tag and click **Submit**.
 
-   ![](assets/aefcf5b005ef4c8414f7524430667226.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/aefcf5b005ef4c8414f7524430667226.jpeg)
 
 <a id="section-6-1-5"></a>
 
@@ -8676,9 +8676,9 @@ In this example, ECS is used to describe how to view usage statistics. You can v
 
    You can configure the **Organization**, **Resource Set**, **Region**, **Time**, and **Instance ID** parameters to filter data based on your business requirements.
 
-   ![](assets/af004d400a41df19dc90e15a02d16809.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/af004d400a41df19dc90e15a02d16809.jpeg)
 
-5. Optional. Click the <img src="assets/ffab809861c8e60470695b10cd14ab4d.png" width="18" alt=""> icon in the upper-right corner to export the usage statistics to your
+5. Optional. Click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/ffab809861c8e60470695b10cd14ab4d.png" width="18" alt=""> icon in the upper-right corner to export the usage statistics to your
 
    computer as a **.xlsx** file.
 
@@ -8726,11 +8726,11 @@ The data analysis feature allows you to analyze data of a specific service inclu
 
    - **View a resource report**: Select a resource type in the **Resource Report** section and view the resource report in the **Data Analysis** section.
 
-     ![](assets/fd16dff97d5d6b1a7fa32edeeda43ae9.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/fd16dff97d5d6b1a7fa32edeeda43ae9.jpeg)
 
    - **View a quota report**: Select a resource type in the **Quota Report** section and view the quota report in the **Data Analysis** section.
 
-     ![](assets/4a1d3eb5a9b66f1a12d3681688e1fcaf.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/4a1d3eb5a9b66f1a12d3681688e1fcaf.jpeg)
 
    > **Note**
    >
@@ -8758,13 +8758,13 @@ The data analysis feature allows you to analyze data of a specific service inclu
    >
    >   icon to
    >
-   >   <img src="assets/16b4e16a215e126f65b46e2f0d7b4257.png" width="12" alt="">
+   >   <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/16b4e16a215e126f65b46e2f0d7b4257.png" width="12" alt="">
    >
    >   delete the custom data table.
    >
    > - Click the name of a custom data table. In the Data Analysis section, you can specify the filter conditions, sorting condition, and fields to filter the data that you require. You can also click **Update Data Table** to update the data table.
 
-   ![](assets/c8e7a32c96d15344caec682d470b5be0.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c8e7a32c96d15344caec682d470b5be0.jpeg)
 
 **Export multiple tables**
 
@@ -8778,7 +8778,7 @@ The data analysis feature allows you to analyze data of a specific service inclu
    >
    > - After the report export task is created, you can go to the **Download Report** page to view the report export task.
 
-   ![](assets/73569c2b9b4fca5dd1c05117568099dd.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/73569c2b9b4fca5dd1c05117568099dd.jpeg)
 
 **Export data**
 
@@ -8786,7 +8786,7 @@ The data analysis feature allows you to analyze data of a specific service inclu
 
 1. In the **Data Analysis** section, select the data that you want to export and click **Export Data**.
 
-   ![](assets/3dc2f350af6398fb5bd5f75afc8a3b2c.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3dc2f350af6398fb5bd5f75afc8a3b2c.jpeg)
 
 2. In the **Export Data** dialog box, configure the **Export Data by Scope** and **Task Name** parameters and click **OK**.
 
@@ -8796,7 +8796,7 @@ The data analysis feature allows you to analyze data of a specific service inclu
    >
    > - The data is exported to an **XLSX** file and saved to your local device.
 
-   ![](assets/6c111cf0c0fa09f417eb35bbceebc4c0.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6c111cf0c0fa09f417eb35bbceebc4c0.jpeg)
 
 **Export all Data**
 
@@ -8973,13 +8973,13 @@ The health analysis feature allows you to analyze the health status of cloud res
   >
   > Different colors represent different health scores.
   >
-  > <img src="assets/ee04b28d1c36e06037c77984c9ed691c.png" width="9" alt=""> : excellent, with a health score greater than 90.
+  > <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/ee04b28d1c36e06037c77984c9ed691c.png" width="9" alt=""> : excellent, with a health score greater than 90.
   >
-  > <img src="assets/bc8b905eddc83afa0ee4a3ae6d83325e.png" width="8" alt=""> : health, with a health score in the range of 70 to 90.
+  > <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/bc8b905eddc83afa0ee4a3ae6d83325e.png" width="8" alt=""> : health, with a health score in the range of 70 to 90.
   >
-  > <img src="assets/d7589d0a7119ec5f9e789045052cd70c.png" width="9" alt=""> : general, with a health score in the range of 50 to 70.
+  > <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/d7589d0a7119ec5f9e789045052cd70c.png" width="9" alt=""> : general, with a health score in the range of 50 to 70.
   >
-  > <img src="assets/39d3ea462c43f0c9b8f84f7986efa5e2.png" width="9" alt=""> : poor, with a health score less than 50.
+  > <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/39d3ea462c43f0c9b8f84f7986efa5e2.png" width="9" alt=""> : poor, with a health score less than 50.
 
 - You can view the health details based on metrics such as the usage rate score and security score. You can also view the algorithm rules, scoring reasons, and optimization suggestions.
 
@@ -8997,7 +8997,7 @@ The health analysis feature allows you to analyze the health status of cloud res
 
    In the **Organization Health Distribution** section, you can view the distribution of organizations with different health scores by the day, week, or month. You can move the pointer over a column in the chart to view the number of organizations with different health scores.
 
-   ![](assets/8054238db4004912b6e1ccdf3c768560.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/8054238db4004912b6e1ccdf3c768560.jpeg)
 
 6. View the health details of organizations.
 
@@ -9011,9 +9011,9 @@ The health analysis feature allows you to analyze the health status of cloud res
    >
    >   icon to export and save the data to your computer.
    >
-   >   <img src="assets/c7400d256d793f1839b73f91ee63de59.png" width="20" alt="">
+   >   <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c7400d256d793f1839b73f91ee63de59.png" width="20" alt="">
 
-   ![](assets/dfad9216612d5a6541f2c9ee22578585.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/dfad9216612d5a6541f2c9ee22578585.jpeg)
 
 7. Optional. In the Organization Health Details section, find an organization and click **Scoring Details** in the **Actions** column. On the Scoring Details Table page, view the scoring details of all resources in the organization.
 
@@ -9021,11 +9021,11 @@ The health analysis feature allows you to analyze the health status of cloud res
    >
    > Select **Show Sub-organization Resources** in the upper-right corner of the Scoring Details Table page to view the health details of resources in sub-organizations.
 
-   ![](assets/55dafb530e25d029c5981ca33dbb0488.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/55dafb530e25d029c5981ca33dbb0488.jpeg)
 
 8. Optional. On the **Scoring Details Table** page, find the resource whose health details you want to view and click **Scoring Details** in the **Actions** column.
 
-   ![](assets/770b4bdf4d80d47ea4000c03c4201715.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/770b4bdf4d80d47ea4000c03c4201715.jpeg)
 
 **View the health analysis data of resource sets**
 
@@ -9035,7 +9035,7 @@ The health analysis feature allows you to analyze the health status of cloud res
 
    In the **Resource Set Health Distribution** section, you can view the distribution of resource sets with different health scores by the day, week, or month. You can move the pointer over a column in the chart to view the number of resource sets with different health scores.
 
-   ![](assets/2d34e8e7dd9d7b1694559a1cf30d22a8.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/2d34e8e7dd9d7b1694559a1cf30d22a8.jpeg)
 
 3. View the health details of resource sets<strong>.</strong>
 
@@ -9047,17 +9047,17 @@ The health analysis feature allows you to analyze the health status of cloud res
    >
    > icon to export and save the data to your computer.
    >
-   > <img src="assets/c7400d256d793f1839b73f91ee63de59.png" width="16" alt="">
+   > <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c7400d256d793f1839b73f91ee63de59.png" width="16" alt="">
 
-   ![](assets/8e0fe2591c2647f0ae58194c3d9b757a.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/8e0fe2591c2647f0ae58194c3d9b757a.jpeg)
 
 4. Optional. In the Resource Set Health Details section, find a resource set and click **Scoring Details** in the **Actions** column. On the Scoring Details page, view the scoring details of all resources in the resource set.
 
-   ![](assets/070250d18650a21637484c1b52173caa.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/070250d18650a21637484c1b52173caa.jpeg)
 
 5. Optional. On the **Scoring Details** page, find the resource whose health details you want to view and click **Scoring Details** in the **Actions** column.
 
-   ![](assets/b56de245b06ae91612a93f5531fb6839.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/b56de245b06ae91612a93f5531fb6839.jpeg)
 
 **View the health analysis data of resources**
 
@@ -9067,7 +9067,7 @@ The health analysis feature allows you to analyze the health status of cloud res
 
    In the **Resource Health Distribution** section, you can view the distribution of resources with different health scores by the day, week, or month. You can move the pointer over a column in the chart to view the number of resources with different health scores.
 
-   ![](assets/48ca1f2ef2f5806807b9d57936ad4ef9.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/48ca1f2ef2f5806807b9d57936ad4ef9.jpeg)
 
 3. View the health details of resources<strong>.</strong>
 
@@ -9079,13 +9079,13 @@ The health analysis feature allows you to analyze the health status of cloud res
    >
    > icon to export and save the data to your computer.
    >
-   > <img src="assets/c7400d256d793f1839b73f91ee63de59.png" width="16" alt="">
+   > <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c7400d256d793f1839b73f91ee63de59.png" width="16" alt="">
 
-   ![](assets/386158a0d9e631e61aba957a2caaba7f.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/386158a0d9e631e61aba957a2caaba7f.jpeg)
 
 4. In the Resource Health Details section, find the resource whose health details you want to view and click **Scoring Details** in the **Actions** column. On the page that appears, view the scoring details of the resource.
 
-   ![](assets/b56de245b06ae91612a93f5531fb6839.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/b56de245b06ae91612a93f5531fb6839.jpeg)
 
 <a id="section-6-2-3-2"></a>
 
@@ -9113,7 +9113,7 @@ You can use the idle resource analysis feature to analyze the resource usage eff
 
 4. In the upper part of the Idle Resource Analysis page, view the overview of idle resources.
 
-   ![](assets/0c605700dc908f918c3541768d28433c.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/0c605700dc908f918c3541768d28433c.jpeg)
 
    - **Overview**: displays the **total number of instances**, **total number of instances monitored by CloudMonitor**, **total number of CPU cores**, and **total memory capacity** measured in GB on the current platform.
 
@@ -9133,7 +9133,7 @@ You can use the idle resource analysis feature to analyze the resource usage eff
    >
    > - Idle Memory: indicates the total idle memory capacity of all supported service instances in all organizations.
 
-   ![](assets/d6ef8c530ca7fc2478a47e84d4087711.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/d6ef8c530ca7fc2478a47e84d4087711.jpeg)
 
 6. In the lower part of the page, view the data of idle resources by **organization**, **resource set**, and **resource**.
 
@@ -9147,17 +9147,17 @@ You can use the idle resource analysis feature to analyze the resource usage eff
      >
      > icon above the list. In the dialog box that appears, select a date to
      >
-     > <img src="assets/1aaae06214ab4fad66412d1035b58333.png" width="19" alt="">
+     > <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/1aaae06214ab4fad66412d1035b58333.png" width="19" alt="">
      >
      > export the data as an **.xlsx** file to your computer.
 
-     ![](assets/8be51697f133d4c9a2ccfa8533ba9415.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/8be51697f133d4c9a2ccfa8533ba9415.jpeg)
 
    - View data of idle resources by resource set
 
      On the **Resource Set** tab, specify parameters such as **Statistical Date**, **Organization**, and **Resource Set** to filter data.
 
-     ![](assets/2a5d0a717a3065b503d1cbe3a3a223e8.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/2a5d0a717a3065b503d1cbe3a3a223e8.jpeg)
 
    - View data of idle resources by resource
 
@@ -9167,7 +9167,7 @@ You can use the idle resource analysis feature to analyze the resource usage eff
 
      On the **Resource** tab, specify parameters such as **Statistical Date**, **Organization**, **Resource Set**, and **Resource ID** to filter data.
 
-     ![](assets/50c5bbc7943d01008a0103167f87696d.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/50c5bbc7943d01008a0103167f87696d.jpeg)
 
      </li>
 
@@ -9179,7 +9179,7 @@ You can use the idle resource analysis feature to analyze the resource usage eff
      >
      > Data of idle specifications prediction is generated by performing calculations and simulations based on data performance and user-configured algorithms. The data is used for reference only and cannot be relied upon as the sole basis for business decisions. Apsara Stack is not responsible for risks that may occur when you optimize resources based on the data. Specification changes may affect your business. Exercise caution when you change specifications.
 
-     ![](assets/fb4f58f5763dfae593afa9835b7ead62.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/fb4f58f5763dfae593afa9835b7ead62.jpeg)
 
      </li>
 
@@ -9524,17 +9524,17 @@ On the Product Cost Statistics page, you can view the overview of and statistics
 
    - **Bill Overview of Cloud Services**: displays **the number of activated cloud services**, **number of cloud services that incur fees in the selected month**, **total fees in the selected month**, and **total fees of the year**.
 
-     ![](assets/a21bbf670cccdcb770ca23c87f47df01.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/a21bbf670cccdcb770ca23c87f47df01.jpeg)
 
    - **Cloud Service Consumption Trend in Last 6 Months**: displays the consumption trend of each cloud service in the selected month and the previous five months.
 
-     ![](assets/ab506cc7297f0840a92a7a0c2166a7c4.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/ab506cc7297f0840a92a7a0c2166a7c4.jpeg)
 
      - Click **Top 5** or **Top 10** in the upper-right corner to display the top five or ten cloud services that incur the most fees each month.
 
-       ![](assets/97fe61865eb5e25ee0b80940f172e117.png)
+       ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/97fe61865eb5e25ee0b80940f172e117.png)
 
-       ![](assets/6c26896c7de1c36aa221171fd86c496c.png)
+       ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6c26896c7de1c36aa221171fd86c496c.png)
 
      - Click the
 
@@ -9546,13 +9546,13 @@ On the Product Cost Statistics page, you can view the overview of and statistics
 
    - **Top 5 or Top 10 Cloud Service Consumption Distribution**: displays the fees and percentage of the fees incurred by the top five or top ten cloud services in the selected month.
 
-     ![](assets/4b9637d9877ebcbeae9902ca45ef0e34.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/4b9637d9877ebcbeae9902ca45ef0e34.jpeg)
 
    - **Consumption Details of All Cloud Services**: displays the fees incurred by all cloud services in each organization in the selected month.
 
      In the upper-right corner of the section, you can select **Sort by Fee in Descending Order** or **Sort by Fee in Ascending Order**.
 
-     ![](assets/bb4d5e367d9a23ec6e7466789f8f3144.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/bb4d5e367d9a23ec6e7466789f8f3144.jpeg)
 
 **View bill statistics**
 
@@ -9572,7 +9572,7 @@ On the Product Cost Statistics page, you can view the overview of and statistics
    >
    > - Find a bill and click **View Details by Hour** in the **Actions** column to go to the **Hourly Details** tab of the **Cost Bill Details** page.
 
-   ![](assets/4060c5733a5ab5bc265becd2f3d15432.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/4060c5733a5ab5bc265becd2f3d15432.jpeg)
 
 4. Optional. Export the bill data to a **CSV** file and save the file to your local device.
 
@@ -9606,17 +9606,17 @@ On the Organization Cost Statistics page, you can view the overview of and stati
 
    - **Overview of all organization bills in root**: displays the **number of organizations**, **number of organizations that incur fees in the selected month**, **total fees in the selected month**, and **total fees of the year**.
 
-     ![](assets/c48f8e00cc41af95e209a83f1ff2f242.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/c48f8e00cc41af95e209a83f1ff2f242.jpeg)
 
    - **Organization Consumption Trends in Last 6 Months**: displays the consumption trend of each organization in the selected month and the previous five months.
 
-     ![](assets/f411ce48b4dba15f8930d6eec2957744.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/f411ce48b4dba15f8930d6eec2957744.jpeg)
 
      - Click **Top 5** or **Top 10** in the upper-right corner to display the top five or ten organizations that incur most fees each month.
 
-       ![](assets/97fe61865eb5e25ee0b80940f172e117.png)
+       ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/97fe61865eb5e25ee0b80940f172e117.png)
 
-       ![](assets/6c26896c7de1c36aa221171fd86c496c.png)
+       ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6c26896c7de1c36aa221171fd86c496c.png)
 
      - Click the
 
@@ -9628,13 +9628,13 @@ On the Organization Cost Statistics page, you can view the overview of and stati
 
    - **Top 5 or Top 10 Resource Set Consumption Distribution**: displays the fees and percentage of the fees incurred by the top five or top ten organizations in the selected month.
 
-     ![](assets/7dcee03cc410d3042d30179945d0bbac.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/7dcee03cc410d3042d30179945d0bbac.jpeg)
 
    - **Organization Consumption Details**: displays the fees incurred by all organizations in the selected month.
 
      In the upper-right corner of the section, you can select **Sort by Fee in Descending Order** or **Sort by Fee in Ascending Order**.
 
-     ![](assets/0bf7dd198f28e602791c95b5db0cd204.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/0bf7dd198f28e602791c95b5db0cd204.jpeg)
 
 **View bill statistics**
 
@@ -9650,7 +9650,7 @@ On the Organization Cost Statistics page, you can view the overview of and stati
    >
    > - Find a bill that you want to view and click **View Details by Hour** in the **Actions** column to go to the **Hourly Details** tab of the **Cost Bill Details** page. Due to the limits of the underlying storage, the bill data of the first service in the organization is displayed on the Hourly Details tab by default.
 
-   ![](assets/851e6d2d86776e971868100fe9842508.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/851e6d2d86776e971868100fe9842508.jpeg)
 
 4. Optional. Export the bill details to a **CSV** file and save the file to your local device.
 
@@ -9688,7 +9688,7 @@ The Bill Details page displays the bill details by month or hour. This helps you
 
 6. View the details of monthly bills in the following columns: **Accounting Period**, **Cloud Service**, **Organization**, **Resource Set**, **Instance ID**, **Region**, **Billing Cycle**, **Consumption Amount**, **Discounted Amount**, and **Amount Due**.
 
-   ![](assets/3c5ef675186f3d9e9e32f330f108a0f5.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3c5ef675186f3d9e9e32f330f108a0f5.jpeg)
 
 7. Optional. Export the details of all or selected monthly bills based on your business requirements.
 
@@ -9698,7 +9698,7 @@ The Bill Details page displays the bill details by month or hour. This helps you
      >
      > After the report export task is created, you can go to the **Download Report** page to view the task. The report type of the task is displayed as **Monthly Bill Report**.
 
-     ![](assets/909d3f98c943fac3731a557e082e9a71.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/909d3f98c943fac3731a557e082e9a71.jpeg)
 
    - **Export details of selected bills**: Select the bills whose details you want to export and click **Export selected details** to export the selected bill details to your local device.
 
@@ -9714,7 +9714,7 @@ The Bill Details page displays the bill details by month or hour. This helps you
    >
    > Find a bill that you want to view and click **View Details** in the **Actions** column to view the bill details of the instance.
 
-   ![](assets/a4d6701424fcae35a8af456c76d8d02a.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/a4d6701424fcae35a8af456c76d8d02a.jpeg)
 
 4. Optional. Click **Export Bill Details** in the upper part of the page. In the **Create Report Export Task** dialog box, configure the **Report Name**, **Organization and Resource Set**, **Cloud Service**, **Region**, and **Accounting Period** parameters and click **OK**.
 
@@ -9722,7 +9722,7 @@ The Bill Details page displays the bill details by month or hour. This helps you
    >
    > After the report export task is created, you can go to the **Download Report** page to view the task. The report type of the task is displayed as **Detailed Billing Report**.
 
-   ![](assets/e9d9aeffa9f9b5ea451cb04eafbb7c98.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/e9d9aeffa9f9b5ea451cb04eafbb7c98.jpeg)
 
 <a id="section-6-3-2"></a>
 
@@ -9752,7 +9752,7 @@ Billing configurations are created.
 
 4. On the **Rule Overview** page, you can view the period during which each billing configuration takes effect in the Gantt chart. By default, the Gantt chart displays the billing configuration overview by the day.
 
-   ![](assets/27eb6955ffebde6483f5b377f74aadfd.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/27eb6955ffebde6483f5b377f74aadfd.jpeg)
 
    - **Change the time span of the Gantt chart**: Click **Day View** in the upper-right corner and select **Week View**, **Month View**, **Quarter View**, or **Year View** from the drop-down list.
 
@@ -9844,7 +9844,7 @@ You can create different billing configurations to configure the unit prices of 
 
 1. On the **Rule configuration** page, view the billing configurations that are created.
 
-   ![](assets/662a93d84a2cdbcba4d80237cc86b567.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/662a93d84a2cdbcba4d80237cc86b567.jpeg)
 
 2. Find the billing configuration that you want to manage and click the name of the billing configuration. The **Billing Configuration Detail** page appears.
 
@@ -9852,13 +9852,13 @@ You can create different billing configurations to configure the unit prices of 
 
      In the upper part of the Billing Configuration Detail page, view the basic information about the billing configuration, including **billing configuration name**, **effective scope**, **billing method**, **priority**, **organization**, and **remarks**.
 
-     ![](assets/37db0b5fec33b1c8524b9027a9c51679.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/37db0b5fec33b1c8524b9027a9c51679.jpeg)
 
    - **View billing configuration details**
 
      In the table of the Billing Configuration Detail page, view the billing details, including **cloud service**, **billing method**, **discount rate**, **metrics**, **billable items**, **pricing configuration**, and **unit**.
 
-     ![](assets/34f687e411dc12efd420167e70bf2e18.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/34f687e411dc12efd420167e70bf2e18.jpeg)
 
 **Modify the basic information about a billing configuration**
 
@@ -9874,7 +9874,7 @@ You can modify the basic information about a billing configuration.
    >
    > The billing method cannot be modified.
 
-   ![](assets/fe5998cf092421ef0cc2754803c596e8.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/fe5998cf092421ef0cc2754803c596e8.jpeg)
 
 4. Click **Save**.
 
@@ -10138,7 +10138,7 @@ Multi-factor authentication (MFA) is an authentication method. In addition to us
 
 4. On the **Bind Virtual MFA Device** page, bind an MFA device as prompted. After an MFA device is bound, the value of the MFA Status parameter changes to Enabled and the value of the Device Status changes to Bound.
 
-   ![](assets/a1377eba283a7b062e985e81f26c9925.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/a1377eba283a7b062e985e81f26c9925.jpeg)
 
    > **Note**
    >
@@ -10164,7 +10164,7 @@ Administrators, including the platform administrator, operations administrator, 
 
 4. On the Users page, click the **System Users** tab.
 
-5. Find the user for which you want to enable the MFA feature, move the pointer over <img src="assets/096d9e73777d235b023aabd7f41d395d.png" width="15" alt=""> in the
+5. Find the user for which you want to enable the MFA feature, move the pointer over <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/096d9e73777d235b023aabd7f41d395d.png" width="15" alt=""> in the
 
    **Actions** column, and then select **MFA Settings**.
 
@@ -10194,14 +10194,14 @@ On the User Information page, you can manage the information of your account, su
 
    | Section or tab | Description |
    | --- | --- |
-   | Basic Information | In the <strong>Basic Information</strong> section, you can view the detailed information about your account. You can also click <strong>Edit</strong> in the upper-right corner of the section to modify the account information, such as mobile phone number, landline phone number, email address, DingTalk token, and remarks.<br>![](assets/8b9167285f313e9a304110bb6ff43f52.jpeg) |
-   | MFA | In the <strong>MFA</strong> section, you can enable or disable the MFA feature. For more information about MFA, see Manage MFA.<br>![](assets/77d5083f511cb4d474091e41b63d82a0.jpeg) |
-   | Messages | In the <strong>Messages</strong> section, you can select one or more methods for receiving system messages. Make sure that the selected methods are configured. For more information, see Message gateway.<br>![](assets/a1df9af935ddfa213866a5de93b6bb33.jpeg) |
-   | AccessKey Pair | In the <strong>AccessKey Pair</strong> section, you can manage your AccessKey pairs. For more information, see AccessKey.<br>![](assets/55dbc39fc8b2c0bd6575e29505f3548a.jpeg) |
-   | Resource Set | On the <strong>Resource Set</strong> tab, you can switch between different roles and view the resource sets to which each role is added.<br>![](assets/5fec235577c3fd3a0fa0568b6fc3f639.jpeg) |
-   | User Group | On the <strong>User Group</strong> tab, you can view the user groups to which the user belongs.<br>![](assets/1cdb91c0b47cc723beafd2ba18a553a6.jpeg) |
-   | Role Permissions | On the <strong>Role Permissions</strong> tab, you can switch between different roles and view the <strong>management permissions</strong>, <strong>application permissions</strong>, and <strong>menu permissions</strong> of each role.<br>![](assets/e9790dee6b6795f0eadb00f5257217d7.jpeg) |
-   | Left-side section | ![](assets/f6730575e11103bb79be60e87e5bb7b5.jpeg)<br>• Click <strong>Switch Role</strong>. If the current user has multiple roles, you can switch to another role. In the Switch Role dialog box, you can also set a role as the default role.<br>• Click <strong>Change Password</strong>. In the Change Password dialog box, specify the current password and new password and confirm the password. Click <strong>OK</strong> to change the password.<br>• Click <strong>View Current Role Policy</strong> to view the Resource Access Management (RAM) role, policies, and trusted policies of the level-1 organization to which the current role belongs. |
+   | Basic Information | In the <strong>Basic Information</strong> section, you can view the detailed information about your account. You can also click <strong>Edit</strong> in the upper-right corner of the section to modify the account information, such as mobile phone number, landline phone number, email address, DingTalk token, and remarks.<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/8b9167285f313e9a304110bb6ff43f52.jpeg) |
+   | MFA | In the <strong>MFA</strong> section, you can enable or disable the MFA feature. For more information about MFA, see Manage MFA.<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/77d5083f511cb4d474091e41b63d82a0.jpeg) |
+   | Messages | In the <strong>Messages</strong> section, you can select one or more methods for receiving system messages. Make sure that the selected methods are configured. For more information, see Message gateway.<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/a1df9af935ddfa213866a5de93b6bb33.jpeg) |
+   | AccessKey Pair | In the <strong>AccessKey Pair</strong> section, you can manage your AccessKey pairs. For more information, see AccessKey.<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/55dbc39fc8b2c0bd6575e29505f3548a.jpeg) |
+   | Resource Set | On the <strong>Resource Set</strong> tab, you can switch between different roles and view the resource sets to which each role is added.<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/5fec235577c3fd3a0fa0568b6fc3f639.jpeg) |
+   | User Group | On the <strong>User Group</strong> tab, you can view the user groups to which the user belongs.<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/1cdb91c0b47cc723beafd2ba18a553a6.jpeg) |
+   | Role Permissions | On the <strong>Role Permissions</strong> tab, you can switch between different roles and view the <strong>management permissions</strong>, <strong>application permissions</strong>, and <strong>menu permissions</strong> of each role.<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/e9790dee6b6795f0eadb00f5257217d7.jpeg) |
+   | Left-side section | ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/f6730575e11103bb79be60e87e5bb7b5.jpeg)<br>• Click <strong>Switch Role</strong>. If the current user has multiple roles, you can switch to another role. In the Switch Role dialog box, you can also set a role as the default role.<br>• Click <strong>Change Password</strong>. In the Change Password dialog box, specify the current password and new password and confirm the password. Click <strong>OK</strong> to change the password.<br>• Click <strong>View Current Role Policy</strong> to view the Resource Access Management (RAM) role, policies, and trusted policies of the level-1 organization to which the current role belongs. |
 
 <a id="section-9"></a>
 
@@ -10378,7 +10378,7 @@ Edge entities are connected. For more information, see Configure edge entities.
    >
    > You can click **Jump Edge Console** in the Edge Entity Console column to go to the console of an edge entity.
 
-   ![](assets/480b3cda2914b047e843b5615e5ca078.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/480b3cda2914b047e843b5615e5ca078.jpeg)
 
 6. Find an edge entity and click the ID of the edge entity to go to the **Edge Entity Overview** page.
 
@@ -10398,7 +10398,7 @@ Edge entities are connected. For more information, see Configure edge entities.
      | Alert Statistics | Displays the total number of alerts for the edge entity and the number of alerts at the <strong>Urgent</strong>, <strong>Critical</strong>, and <strong>Note</strong> levels. |
      | Activated Instances | Displays the resources that are activated for the edge entity, including the total number of resources of each type, the number of resources in the <strong>Running</strong> state, and the percentage of resources in the <strong>Running</strong> state. |
 
-     ![](assets/6cd6dc68316416f7587d4c9e7896492b.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6cd6dc68316416f7587d4c9e7896492b.jpeg)
 
    - **View the resource information**
 
@@ -10414,7 +10414,7 @@ Edge entities are connected. For more information, see Configure edge entities.
      >
      > - By default, cloud resource information is automatically updated every hour. Find a resource and click **Update** in the **Actions** column to manually update the information about the cloud resource in real time.
 
-     ![](assets/8f732e28823f7481bba3978bdc088dd5.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/8f732e28823f7481bba3978bdc088dd5.jpeg)
 
 <a id="section-10-2"></a>
 
@@ -10440,7 +10440,7 @@ Before you create a resource, make sure that you have created an organization an
 
 6. In the **Create Resource** dialog box, configure the **Organizations**, **Resource Set Name**, **Edge Entity**, and **Cloud Services** parameters.
 
-   ![](assets/13d292cc58927c9cde5af0f006c05504.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/13d292cc58927c9cde5af0f006c05504.jpeg)
 
 7. Click **Submit**.
 
@@ -10456,7 +10456,7 @@ Before you create a resource, make sure that you have created an organization an
    >
    > - Find a resource and click **Update** in the **Actions** column to manually update the information and state of the resource.
 
-   ![](assets/06d63ec033ab047e775c972973d9f0c8.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/06d63ec033ab047e775c972973d9f0c8.jpeg)
 
 3. Find a resource and click the resource ID. In the panel that appears, view the basic information of the resource, including the cloud platform, resource name, resource ID, region, organization, resource set, creation time, and state.
 
@@ -10533,7 +10533,7 @@ Before you connect to an edge entity, make sure that you have created an organiz
      </tr>
    </table>
 
-   ![](assets/37788a2f3570f33ccb13388ea3b01af6.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/37788a2f3570f33ccb13388ea3b01af6.jpeg)
 
    **Configuration template for Alibaba Cloud ZStack**
 
@@ -10588,7 +10588,7 @@ Before you connect to an edge entity, make sure that you have created an organiz
    | AccessKey | The AccessKey ID of the edge entity. |
    | AccessKey Secret | The AccessKey secret of the edge entity. |
 
-   ![](assets/f6e4bcd37bb3c9c36936e5a1dd6f6ca5.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/f6e4bcd37bb3c9c36936e5a1dd6f6ca5.jpeg)
 
    - **Obtain the authorization credentials of an Alibaba Cloud ZStack edge entity**
 
@@ -10636,7 +10636,7 @@ Before you connect to an edge entity, make sure that you have created an organiz
      >
      > - secret: the AccessKey secret of the edge entity.
 
-     ![](assets/a64fce40a038b42eabbd129f05aeb8d3.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/a64fce40a038b42eabbd129f05aeb8d3.jpeg)
 
      </li>
 
@@ -10656,7 +10656,7 @@ Before you connect to an edge entity, make sure that you have created an organiz
 
      In the **Access configuration** field of the **Federated Logon Settings** step, obtain the values of the **clientId** and **clientSecret** parameters.
 
-     ![](assets/b5b25ce54bb0d8dfb68f5ddd2eca7cd3.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/b5b25ce54bb0d8dfb68f5ddd2eca7cd3.jpeg)
 
      </li>
 
@@ -10675,7 +10675,7 @@ Before you connect to an edge entity, make sure that you have created an organiz
      | Token Request URL | The token request URL, in the following format: <code> http://{IP </code> <code>address}/auth/realms/cmp/protocol/openid-connect/token </code>.<br>Note<br>Replace {IP address} with the IP address of SingleTunnel based on the environment configurations. |
      | User Mapping Rule | • <strong>Name</strong>: the name of the user mapping rule. Set the value to <strong>preferred_username</strong>.<br>• <strong>Description</strong>: the description of the user mapping rule. |
 
-     ![](assets/613fe626c018a9c099db9daba7aa56b1.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/613fe626c018a9c099db9daba7aa56b1.jpeg)
 
      </li>
 
@@ -10687,7 +10687,7 @@ Before you connect to an edge entity, make sure that you have created an organiz
 
      Click **OK** to obtain the client UUID.
 
-     ![](assets/abb04b751736691e164864a52a872532.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/abb04b751736691e164864a52a872532.jpeg)
 
      </li>
 
@@ -10695,7 +10695,7 @@ Before you connect to an edge entity, make sure that you have created an organiz
 
      Go back to the **Federated Logon Settings** step and enter the client UUID that is obtained in the previous step as the value of the **oidcClientUuid** parameter in the **Access configuration** field.
 
-     ![](assets/451c7c1342ecff370b4e85ca6b55843b.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/451c7c1342ecff370b4e85ca6b55843b.jpeg)
 
      </li>
 
@@ -10757,7 +10757,7 @@ Go back to the **Federated Logon Settings** step and copy all the authentication
    >
    > If you do not complete the wizard for connecting to an edge entity, the last operation is automatically saved. You can resume the connection to the edge entity from the last operation.
 
-   ![](assets/0e1e94611faa9145af883f905dab05d8.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/0e1e94611faa9145af883f905dab05d8.jpeg)
 
 2. In the edge entity connection wizard, resume the connection to the edge entity form the last operation.
 
@@ -10771,7 +10771,7 @@ Go back to the **Federated Logon Settings** step and copy all the authentication
    >
    > - You can click **Synchronize Resources** in the **Actions** column of an edge entity to manually synchronize the cloud resources of the edge entity in real time.
 
-   ![](assets/dbf0b9acf6e7bc08ff0d666fd11bc110.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/dbf0b9acf6e7bc08ff0d666fd11bc110.jpeg)
 
 2. In the **Synchronize Resources** message, click **OK**.
 
@@ -10783,11 +10783,11 @@ Go back to the **Federated Logon Settings** step and copy all the authentication
    >
    > If the edge entity is in the **Succeeded** state, you can modify the name of the edge entity.
 
-   ![](assets/93b7968f99b5d981bfcc59b319480d85.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/93b7968f99b5d981bfcc59b319480d85.jpeg)
 
 2. In the **Edit Edge Entities** dialog box, modify the name of the edge entity and click **OK**.
 
-   ![](assets/55203156ba7e9e0bd334f6c63604fd08.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/55203156ba7e9e0bd334f6c63604fd08.jpeg)
 
 **Grant permissions to an edge entity**
 
@@ -10795,11 +10795,11 @@ If the permissions granted to an edge entity expire, you can grant permissions t
 
 1. On the **Edge Entity Configuration** page, find the edge entity to which you want to grant permissions and click **Grant Permissions** in the **Actions** column.
 
-   ![](assets/1f31cd14b77c70d5c66fab6d15133cda.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/1f31cd14b77c70d5c66fab6d15133cda.jpeg)
 
 2. In the **Grant Permissions** dialog box, configure the **AccessKey ID** and **AccessKey Secret** parameters.
 
-   ![](assets/2930b7e07fd2c097450bdb7fbc42fa90.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/2930b7e07fd2c097450bdb7fbc42fa90.jpeg)
 
 3. Click **OK**.
 
@@ -10813,7 +10813,7 @@ You can delete an edge entity if you no longer need the edge entity.
    >
    > Make sure that the edge entity is no longer needed.
 
-   ![](assets/682275717234b98a2bb42e2508a3eb90.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/682275717234b98a2bb42e2508a3eb90.jpeg)
 
 2. In the **Confirmation** message, click **OK**.
 
@@ -10835,7 +10835,7 @@ CloudMonitor helps you implement comprehensive and efficient monitoring. You can
 
 **Usage notes**
 
-![](assets/e54c500e2c527a8767c47cd0eb7668ce.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/e54c500e2c527a8767c47cd0eb7668ce.jpeg)
 
 > **Important**
 >
@@ -10859,7 +10859,7 @@ CloudMonitor provides an overview of your cloud resources. You can monitor the r
 
 4. On the **Overview** page, click the **Monitoring overview** tab to view the monitoring overview.
 
-   ![](assets/2820852c7593ba99e9775d1131566c7e.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/2820852c7593ba99e9775d1131566c7e.jpeg)
 
    | Section | Description |
    | --- | --- |
@@ -10867,7 +10867,7 @@ CloudMonitor provides an overview of your cloud resources. You can monitor the r
    | Alert Rules | • This section displays the numbers of alert rules in the <strong>Alerts</strong>, <strong>Insufficient</strong> <strong>Data</strong>, and <strong>Normal</strong> states.<br>Note<br>An <strong>alert rule</strong> in the <strong>Insufficient Data</strong> state may be generated in the following scenarios:<br>• The cloud service does not report data of the specified metric.<br>• The cloud service instance is deleted.<br>• The cloud service instance is missing or is not created in the Logstore of Simple Log Service. In this case, further troubleshooting is required.<br>• You can click <strong>View Details</strong> to go to the <strong>Alert Rules</strong> page to view the details of alert rules. |
    | Event-triggered Alert Rules | • This section displays the status of system events and event-triggered alerts for cloud services. This helps you troubleshoot business exceptions in an efficient manner.<br>• You can click <strong>View Details</strong> to go to the <strong>System Event</strong> page to view the alert details. |
    | Alert History | • This section displays the detailed records of recent alerts from cloud services that are supported by CloudMonitor and for which alerting is enabled.<br>• You can click <strong>View Details</strong> to go to the <strong>Alert History</strong> page to view the alert details. |
-   | Dashboards | • CloudMonitor automatically collects the statistics of cloud service instances and alerts within the current Apsara Stack account.<br>• You can click the cloud service name to go to the corresponding monitoring page and view the monitoring chart and alert rules of each instance.<br>• To view the alert rules of the cloud service, click the<img src="assets/9dfb1dbfda1b366d194b0fce6eea6487.png" width="12" alt="">icon.<br>• To view the monitoring data of the cloud service, click the<img src="assets/f16e6763cd2101e63d3e327d4565524f.png" width="12" alt="">icon. |
+   | Dashboards | • CloudMonitor automatically collects the statistics of cloud service instances and alerts within the current Apsara Stack account.<br>• You can click the cloud service name to go to the corresponding monitoring page and view the monitoring chart and alert rules of each instance.<br>• To view the alert rules of the cloud service, click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/9dfb1dbfda1b366d194b0fce6eea6487.png" width="12" alt="">icon.<br>• To view the monitoring data of the cloud service, click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/f16e6763cd2101e63d3e327d4565524f.png" width="12" alt="">icon. |
 
 **Governance detection**
 
@@ -10875,7 +10875,7 @@ The governance detection feature analyzes the resource instance metrics and aler
 
 1. On the **Overview** page, click the **Governance detection** tab to view the governance detection information.
 
-   ![](assets/1b59248d1134e23c58091e2a5dcc009b.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/1b59248d1134e23c58091e2a5dcc009b.jpeg)
 
    | Section | Description |
    | --- | --- |
@@ -12179,7 +12179,7 @@ On the monitoring page of a cloud service, you can view the status of resources 
    >
    > You can view the monitoring data that is generated in the last 30 days at most.
 
-   ![](assets/cc79235fccc2e59e8b1cb46cc945a2e2.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/cc79235fccc2e59e8b1cb46cc945a2e2.jpeg)
 
 **View alert rules**
 
@@ -12195,7 +12195,7 @@ On the monitoring page of a cloud service, you can view all alert rules that are
    >
    > - For more information about how to manage alert rules, see Manage alert rules.
 
-   ![](assets/3e980f50826eafd92f47b9e0425d72ae.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/3e980f50826eafd92f47b9e0425d72ae.jpeg)
 
 <a id="section-11-5"></a>
 
@@ -12291,7 +12291,7 @@ Create an alert rule named example to monitor the CPU utilization of ECS instanc
 
 The following figure shows the parameter configurations in the rule description.
 
-![](assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
+![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/d23ed31c0cdf79631e71a22370a9f932.jpeg)
 
 <a id="section-11-5-2-2"></a>
 
@@ -12313,10 +12313,10 @@ You can modify, disable, enable, and delete alert rules on the Alert Rule page i
    | --- | --- |
    | View the details of an alert rule | Find the alert rule that you want to manage and click <strong>Details</strong> in the <strong>Actions</strong> column. In the <strong>Alert Rules/Alert Logs/Faulty Instances</strong> panel, view the details of the alert rule. |
    | Modify an alert rule | i. Find the alert rule that you want to manage and click <strong>Edit</strong> in the <strong>Actions</strong> column<strong>.</strong><br>ii. In the <strong>Modify Alert Rule</strong> panel, configure parameters to modify the alert rule. For more information about the parameters, see Create an alert rule.<br>iii. After you modify the alert rule based on your business requirements, click <strong>OK</strong>. |
-   | Disable one or more alert rules | If you stop a cloud service for maintenance or upgrade purposes, you can disable the alert rules that are associated with the cloud service. This way, manual operations on the service do not trigger CloudMonitor alert notifications.<br>Note<br>Make sure that the alert rule is in the <strong>Normal</strong> state before you disable the alert rule.<br>• Disable a single alert rule<br>a. Find the alert rule that you want to disable, move the pointer over the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt=""><br>icon in the <strong>Actions</strong> column, and then click <strong>Disable.</strong><br>b. In the <strong>Disable alarm rules</strong> message, click <strong>OK</strong>.<br>• Disable multiple alert rules at a time<br>a. Select the alert rules that you want to disable and click <strong>Disable</strong> in the lower-left corner of the alert rule list.<br>b. In the <strong>Disable alarm rules</strong> message, click <strong>OK</strong>. |
-   | Enable one or more alert rules | After you maintain or upgrade a cloud service, you can enable all disabled alert rules.<br>• Enable a single alert rule<br>a. Find the alert rule that you want to enable and click <strong>Enable</strong> in the <strong>Actions</strong> column.<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt=""><br>b. In the <strong>Enable alarm rules</strong> message, click <strong>OK</strong>.<br>• Enable multiple alert rules at a time<br>a. Select the alert rules that you want to enable and click <strong>Enable</strong> in the lower-left corner of the alert rule list.<br>b. In the <strong>Enable alarm rules</strong> message, click <strong>OK</strong>. |
-   | Delete one or more alert rules | • Delete a single alert rule<br>a. Find the alert rule that you want to delete, click the<img src="assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon in the Actions column, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete alarm rules</strong> message, click <strong>OK</strong>.<br>• Delete multiple alert rules at a time<br>a. Select the alert rules that you want to delete and click Delete in the lower-left corner of the alert rule list.<br>b. In the <strong>Delete alarm rules</strong> message, click <strong>OK</strong>. |
-   | Export and download an alert rule report | i. On the <strong>Alert Rules</strong> page, click the<img src="assets/b86007c52830b90443e253ebf03e433c.png" width="22" alt="">icon.<br>ii. In the <strong>export task</strong> dialog box, specify the <strong>task name</strong>.<br>iii. Click <strong>OK</strong>.<br>iv. In the left-side navigation pane, click <strong>Export Report</strong>.<br>v. On the <strong>Alarm rules</strong> tab, find the report that you want to download and click <strong>Download Report</strong> in the <strong>Actions</strong> column.<br>vi. In the <strong>Download report task</strong> message, click <strong>OK</strong>. |
+   | Disable one or more alert rules | If you stop a cloud service for maintenance or upgrade purposes, you can disable the alert rules that are associated with the cloud service. This way, manual operations on the service do not trigger CloudMonitor alert notifications.<br>Note<br>Make sure that the alert rule is in the <strong>Normal</strong> state before you disable the alert rule.<br>• Disable a single alert rule<br>a. Find the alert rule that you want to disable, move the pointer over the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt=""><br>icon in the <strong>Actions</strong> column, and then click <strong>Disable.</strong><br>b. In the <strong>Disable alarm rules</strong> message, click <strong>OK</strong>.<br>• Disable multiple alert rules at a time<br>a. Select the alert rules that you want to disable and click <strong>Disable</strong> in the lower-left corner of the alert rule list.<br>b. In the <strong>Disable alarm rules</strong> message, click <strong>OK</strong>. |
+   | Enable one or more alert rules | After you maintain or upgrade a cloud service, you can enable all disabled alert rules.<br>• Enable a single alert rule<br>a. Find the alert rule that you want to enable and click <strong>Enable</strong> in the <strong>Actions</strong> column.<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt=""><br>b. In the <strong>Enable alarm rules</strong> message, click <strong>OK</strong>.<br>• Enable multiple alert rules at a time<br>a. Select the alert rules that you want to enable and click <strong>Enable</strong> in the lower-left corner of the alert rule list.<br>b. In the <strong>Enable alarm rules</strong> message, click <strong>OK</strong>. |
+   | Delete one or more alert rules | • Delete a single alert rule<br>a. Find the alert rule that you want to delete, click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/e6a0428d0f12bfe0c352c71ec18fafa1.png" width="14" alt="">icon in the Actions column, and then click <strong>Delete</strong>.<br>b. In the <strong>Delete alarm rules</strong> message, click <strong>OK</strong>.<br>• Delete multiple alert rules at a time<br>a. Select the alert rules that you want to delete and click Delete in the lower-left corner of the alert rule list.<br>b. In the <strong>Delete alarm rules</strong> message, click <strong>OK</strong>. |
+   | Export and download an alert rule report | i. On the <strong>Alert Rules</strong> page, click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/b86007c52830b90443e253ebf03e433c.png" width="22" alt="">icon.<br>ii. In the <strong>export task</strong> dialog box, specify the <strong>task name</strong>.<br>iii. Click <strong>OK</strong>.<br>iv. In the left-side navigation pane, click <strong>Export Report</strong>.<br>v. On the <strong>Alarm rules</strong> tab, find the report that you want to download and click <strong>Download Report</strong> in the <strong>Actions</strong> column.<br>vi. In the <strong>Download report task</strong> message, click <strong>OK</strong>. |
 
 <a id="section-11-5-3"></a>
 
@@ -12742,7 +12742,7 @@ You can modify, clone, export, and delete alert templates on the Alert Templates
    <table>
      <tr>
        <td>Apply one or more alert templates to application groups or resource sets</td>
-       <td>Alert templates must be used together with application groups. You can apply alert templates to application groups to create alert rules for resources from different cloud services. Make sure that application groups or resource sets, and alert templates are available. For information about how to create the resources, see Create an alert template, Create an application group, and Create a resource set.<br>Important<br>After you select and apply an alert template to a specified application group or resource set, CloudMonitor deletes the existing alert rules that are created based on the original alert template except for the process monitoring and availability monitoring rules. Then, CloudMonitor creates new alert rules based on the new alert template. We recommend that you apply an alert template to up to five application groups or resource sets. Otherwise, the alert template may fail to take effect for some application groups or resource sets.<br>• Apply an alert template to application groups or resource sets<br>a. Find the alert template that you want to apply, click the<img src="assets/03fc8250564c18e968eb75d60648f885.png" width="14" alt="">icon<br>in the <strong>Actions</strong> column, and then click <strong>Apply alarm Template</strong>.<br>b. In the <strong>Apply Templates to Groups</strong> dialog box, configure the <strong>Resource Group</strong>, <strong>Resource selection</strong>, <strong>Mute For</strong>, <strong>Effective</strong> <strong>Period</strong>, <strong>Alert Callback</strong>, and <strong>Alert Contact Group</strong> parameters.You can set the <strong>Resource Group </strong>parameter to <strong>Resource set</strong> or <strong>Application grouping</strong>.<br>c. Click <strong>OK</strong>.<br>d. In the <strong>Apply Template to Group</strong> message, click <strong>OK</strong>.<br>• Apply multiple alert templates to application groups or resource sets<br>a. Select the check boxes of the alert templates that you want to apply, and then click <strong>Apply Templates</strong> in the lower-left corner.<br>b. In the <strong>Apply Templates to Groups</strong> dialog box, configure the <strong>Resource Group</strong>, <strong>Resource selection</strong>, <strong>Mute For</strong>, <strong>Effective</strong> <strong>Period</strong>, <strong>Alert Callback</strong>, and <strong>Alert Contact Group</strong> parameters.You can set the <strong>Resource Group</strong> parameter to <strong>Resource set</strong> or <strong>Application grouping</strong>.<br>c. Click <strong>OK</strong>.<br>d. In the <strong>Apply Template to Group</strong> message, click <strong>OK</strong>.</td>
+       <td>Alert templates must be used together with application groups. You can apply alert templates to application groups to create alert rules for resources from different cloud services. Make sure that application groups or resource sets, and alert templates are available. For information about how to create the resources, see Create an alert template, Create an application group, and Create a resource set.<br>Important<br>After you select and apply an alert template to a specified application group or resource set, CloudMonitor deletes the existing alert rules that are created based on the original alert template except for the process monitoring and availability monitoring rules. Then, CloudMonitor creates new alert rules based on the new alert template. We recommend that you apply an alert template to up to five application groups or resource sets. Otherwise, the alert template may fail to take effect for some application groups or resource sets.<br>• Apply an alert template to application groups or resource sets<br>a. Find the alert template that you want to apply, click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/03fc8250564c18e968eb75d60648f885.png" width="14" alt="">icon<br>in the <strong>Actions</strong> column, and then click <strong>Apply alarm Template</strong>.<br>b. In the <strong>Apply Templates to Groups</strong> dialog box, configure the <strong>Resource Group</strong>, <strong>Resource selection</strong>, <strong>Mute For</strong>, <strong>Effective</strong> <strong>Period</strong>, <strong>Alert Callback</strong>, and <strong>Alert Contact Group</strong> parameters.You can set the <strong>Resource Group </strong>parameter to <strong>Resource set</strong> or <strong>Application grouping</strong>.<br>c. Click <strong>OK</strong>.<br>d. In the <strong>Apply Template to Group</strong> message, click <strong>OK</strong>.<br>• Apply multiple alert templates to application groups or resource sets<br>a. Select the check boxes of the alert templates that you want to apply, and then click <strong>Apply Templates</strong> in the lower-left corner.<br>b. In the <strong>Apply Templates to Groups</strong> dialog box, configure the <strong>Resource Group</strong>, <strong>Resource selection</strong>, <strong>Mute For</strong>, <strong>Effective</strong> <strong>Period</strong>, <strong>Alert Callback</strong>, and <strong>Alert Contact Group</strong> parameters.You can set the <strong>Resource Group</strong> parameter to <strong>Resource set</strong> or <strong>Application grouping</strong>.<br>c. Click <strong>OK</strong>.<br>d. In the <strong>Apply Template to Group</strong> message, click <strong>OK</strong>.</td>
      </tr>
    </table>
 
@@ -12785,16 +12785,16 @@ CloudMonitor provides the initiative alert feature that allows you to associate 
 
    | Operation | Procedure |
    | --- | --- |
-   | Enable the initiative alert feature | i. Find the cloud service for which you want to enable the initiative alert<br>![](assets/2f9dc4008a2b5626ed51f6c8703ed03f.png)<br>feature and click the icon in the <strong>Initiative Alert</strong> column.<br>![](assets/2f9dc4008a2b5626ed51f6c8703ed03f.png)<br>: indicates that the initiative alert feature is disabled.<br>![](assets/6fcc5d681a0ee0e42975bdeed331ccab.png)<br>: indicates that the initiative alert feature is enabled.<br>ii. In the message that appears, click <strong>Enable</strong>.<br>Important<br>After the initiative alert feature is enabled, the corresponding alert rules are enabled and added to the <strong>Alert Rules</strong> page.<br>iii. Click the<img src="assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon in front of the cloud service to view the alert rules of the<br>cloud service. |
-   | Disable the initiative alert feature | i. Find the cloud service for which you want to disable the initiative alert<br>![](assets/6fcc5d681a0ee0e42975bdeed331ccab.png)<br>feature and click the icon in the <strong>Initiative Alert</strong> column.<br>ii. In the message that appears, click <strong>Close</strong>.<br>Important<br>After the initiative alert feature is disabled, the corresponding alert rules are removed from the <strong>Alert Rules</strong> page. |
-   | Create an alert rule | i. Click the<img src="assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon in front of the cloud service for which the initiative alert<br>feature is enabled.<br>ii. Click <strong>Create Alert Rule</strong>.<br>iii. In the <strong>Add Rule Description</strong> panel, configure parameters, including <strong>Rule</strong> <strong>Name</strong>, <strong>Metric</strong>, and <strong>Threshold and Alert Level</strong>.<br>iv. Click <strong>OK</strong>. The <strong>Create Alert Rule</strong> panel appears.<br>v. In the Create Alert Rule panel, configure parameters, including <strong>Silent</strong> <strong>Channel cycle</strong>, <strong>Effective Period</strong>, <strong>Alert Callback</strong>, <strong>No data processing</strong> <strong>method</strong>, and <strong>Alert Contacts</strong>.<br>vi. Click <strong>OK</strong>. |
-   | Enable or disable an alert rule | i. Click the<img src="assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon in front of the cloud service for which the initiative alert<br>feature is enabled.<br>ii. Perform the following operations to enable or disable an alert rule:<br>• Find the alert rule that is in the Enable state and click <strong>Disable</strong> in the <strong>Actions</strong> column. In the message that appears, click Disable. After you disable the alert rule, the corresponding alert rule on the <strong>Alert Rules</strong> page is disabled.<br>• Find the alert rule that is in the Disable state and click <strong>Enable</strong> in the <strong>Actions</strong> column. In the message that appears, click Enable. After you enable the alert rule, the corresponding alert rule on the <strong>Alert Rules</strong> page is enabled. |
-   | Modify an alert rule | i. Click the<img src="assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon in front of the cloud service for which the initiative alert<br>feature is enabled.<br>ii. Perform the following operations to modify a single alert rule or modify multiple alert rules at a time:<br>• Modify a single alert rule<br>a. Find the alert rule that you want to modify and click <strong>Edit</strong> in the <strong>Actions</strong> column.<br>b. In the <strong>Modify Alert Rule</strong> panel, configure parameters based on your business requirements.<br>c. Click <strong>OK</strong>.<br>• Modify multiple alert rules at a time<br>a. Select the alert rules that you want to modify.<br>b. Click <strong>Batch Edit</strong> below the rule list.<br>c. In the <strong>Batch Edit</strong> dialog box, configure parameters, including <strong>Mute</strong> <strong>For</strong>, <strong>Effective Period</strong>, <strong>Alert Callback</strong>, <strong>NoDataPolicy</strong>, and <strong>Alert</strong> <strong>Contact Group</strong>.<br>d. Click <strong>Confirm</strong>. |
+   | Enable the initiative alert feature | i. Find the cloud service for which you want to enable the initiative alert<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/2f9dc4008a2b5626ed51f6c8703ed03f.png)<br>feature and click the icon in the <strong>Initiative Alert</strong> column.<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/2f9dc4008a2b5626ed51f6c8703ed03f.png)<br>: indicates that the initiative alert feature is disabled.<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6fcc5d681a0ee0e42975bdeed331ccab.png)<br>: indicates that the initiative alert feature is enabled.<br>ii. In the message that appears, click <strong>Enable</strong>.<br>Important<br>After the initiative alert feature is enabled, the corresponding alert rules are enabled and added to the <strong>Alert Rules</strong> page.<br>iii. Click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon in front of the cloud service to view the alert rules of the<br>cloud service. |
+   | Disable the initiative alert feature | i. Find the cloud service for which you want to disable the initiative alert<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6fcc5d681a0ee0e42975bdeed331ccab.png)<br>feature and click the icon in the <strong>Initiative Alert</strong> column.<br>ii. In the message that appears, click <strong>Close</strong>.<br>Important<br>After the initiative alert feature is disabled, the corresponding alert rules are removed from the <strong>Alert Rules</strong> page. |
+   | Create an alert rule | i. Click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon in front of the cloud service for which the initiative alert<br>feature is enabled.<br>ii. Click <strong>Create Alert Rule</strong>.<br>iii. In the <strong>Add Rule Description</strong> panel, configure parameters, including <strong>Rule</strong> <strong>Name</strong>, <strong>Metric</strong>, and <strong>Threshold and Alert Level</strong>.<br>iv. Click <strong>OK</strong>. The <strong>Create Alert Rule</strong> panel appears.<br>v. In the Create Alert Rule panel, configure parameters, including <strong>Silent</strong> <strong>Channel cycle</strong>, <strong>Effective Period</strong>, <strong>Alert Callback</strong>, <strong>No data processing</strong> <strong>method</strong>, and <strong>Alert Contacts</strong>.<br>vi. Click <strong>OK</strong>. |
+   | Enable or disable an alert rule | i. Click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon in front of the cloud service for which the initiative alert<br>feature is enabled.<br>ii. Perform the following operations to enable or disable an alert rule:<br>• Find the alert rule that is in the Enable state and click <strong>Disable</strong> in the <strong>Actions</strong> column. In the message that appears, click Disable. After you disable the alert rule, the corresponding alert rule on the <strong>Alert Rules</strong> page is disabled.<br>• Find the alert rule that is in the Disable state and click <strong>Enable</strong> in the <strong>Actions</strong> column. In the message that appears, click Enable. After you enable the alert rule, the corresponding alert rule on the <strong>Alert Rules</strong> page is enabled. |
+   | Modify an alert rule | i. Click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon in front of the cloud service for which the initiative alert<br>feature is enabled.<br>ii. Perform the following operations to modify a single alert rule or modify multiple alert rules at a time:<br>• Modify a single alert rule<br>a. Find the alert rule that you want to modify and click <strong>Edit</strong> in the <strong>Actions</strong> column.<br>b. In the <strong>Modify Alert Rule</strong> panel, configure parameters based on your business requirements.<br>c. Click <strong>OK</strong>.<br>• Modify multiple alert rules at a time<br>a. Select the alert rules that you want to modify.<br>b. Click <strong>Batch Edit</strong> below the rule list.<br>c. In the <strong>Batch Edit</strong> dialog box, configure parameters, including <strong>Mute</strong> <strong>For</strong>, <strong>Effective Period</strong>, <strong>Alert Callback</strong>, <strong>NoDataPolicy</strong>, and <strong>Alert</strong> <strong>Contact Group</strong>.<br>d. Click <strong>Confirm</strong>. |
 
    <table>
      <tr>
        <td>Delete an alert rule</td>
-       <td>i. Click the<img src="assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon in front of the cloud service for which the initiative alert<br>feature is enabled.<br>ii. Find the alert rule that you want to delete and click <strong>Delete</strong> in the Actions column.<br>Important<br>After the alert rule is deleted, the corresponding alert rule on the <strong>Alert</strong> <strong>Rules</strong> page is deleted. The deletion cannot be rolled back. Proceed with caution.</td>
+       <td>i. Click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/35ba2ef2e4e6319f644502ea849e0866.png" width="14" alt="">icon in front of the cloud service for which the initiative alert<br>feature is enabled.<br>ii. Find the alert rule that you want to delete and click <strong>Delete</strong> in the Actions column.<br>Important<br>After the alert rule is deleted, the corresponding alert rule on the <strong>Alert</strong> <strong>Rules</strong> page is deleted. The deletion cannot be rolled back. Proceed with caution.</td>
      </tr>
    </table>
 
@@ -12904,7 +12904,7 @@ For more information about the cloud services and system events that are support
 
 5. View the event monitoring chart.
 
-   ![](assets/6a8e2f8ee7b8255c3c9c6c82d3efd181.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6a8e2f8ee7b8255c3c9c6c82d3efd181.jpeg)
 
    - The x-axis indicates the time, and the y-axis indicates the number of events.
 
@@ -13018,7 +13018,7 @@ You can modify, disable, enable, and delete system event-triggered alert rules o
    | Disable one or more system event-triggered alert rules | Note<br>You can disable only event-triggered alert rules in the Enabled state.After you disable an alert rule, the rule no longer takes effect.<br>• Disable a single system event-triggered alert rule<br>a. Find the system event-triggered alert rule that you want to disable and click <strong>Disable</strong> in the <strong>Actions</strong> column.<br>b. In the message that appears, click <strong>OK</strong>.<br>• Disable multiple system event-triggered alert rules at a time<br>a. Select the check boxes of system event-triggered alert rules that you want to disable and click <strong>Disable</strong> in the lower-left corner of the alert rule list.<br>b. In the message that appears, click <strong>OK</strong>. |
    | Enable one or more system event-triggered alert rules | You can enable system event-triggered alert rules in the Disabled state.<br>• Enable a single system event-triggered alert rule<br>a. Find the system event-triggered alert rule that you want to enable and click <strong>Enable</strong> in the <strong>Actions</strong> column.<br>b. In the message that appears, click <strong>OK</strong>.<br>• Enable multiple system event-triggered alert rules at a time<br>a. Select the check boxes of the system event-triggered alert rules that you want to enable, and click <strong>Enable</strong> in the lower-left corner of the alert rule list.<br>b. In the message that appears, click <strong>OK</strong>. |
    | Delete one or more system event-triggered alert rules | • Delete a single system event-triggered alert rule<br>a. Find the system event-triggered alert rule that you want to delete and click <strong>Delete</strong> in the <strong>Actions</strong> column.<br>b. In the message that appears, click <strong>OK</strong>.<br>• Delete multiple system event-triggered alert rules at a time<br>a. Select the check boxes of system event-triggered alert rules that you want to delete, and then click <strong>Delete</strong> in the lower-left corner of the alert rule list.<br>b. In the message that appears, click <strong>OK</strong>. |
-   | View the records of system event-triggered alerts | After an event-triggered alert rule is created or enabled, CloudMonitor records the information about alerts that are generated based on the rule.<br>i. Click the <strong>Event-triggered Alert History</strong> tab.<br>ii. Optional. Enter a rule ID or rule name, specify a time range, and click<br>the<img src="assets/2b378577c0e12226244691c8b13dfe80.png" width="16" alt="">icon to search for alerts that are generated based on the rule.<br>An alert record includes the following information: <strong>product</strong>, <strong>instance</strong> <strong>name</strong>, <strong>point in time when the alert occurred</strong>, <strong>event level</strong>, and <strong>event name</strong>. |
+   | View the records of system event-triggered alerts | After an event-triggered alert rule is created or enabled, CloudMonitor records the information about alerts that are generated based on the rule.<br>i. Click the <strong>Event-triggered Alert History</strong> tab.<br>ii. Optional. Enter a rule ID or rule name, specify a time range, and click<br>the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/2b378577c0e12226244691c8b13dfe80.png" width="16" alt="">icon to search for alerts that are generated based on the rule.<br>An alert record includes the following information: <strong>product</strong>, <strong>instance</strong> <strong>name</strong>, <strong>point in time when the alert occurred</strong>, <strong>event level</strong>, and <strong>event name</strong>. |
 
 <a id="section-11-7-2"></a>
 
@@ -13110,7 +13110,7 @@ public void EventPut(){
 
    - **Column chart of custom event distribution**
 
-     ![](assets/275aa33700187e7bbaa2eec53a2206c5.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/275aa33700187e7bbaa2eec53a2206c5.jpeg)
 
    - **Custom event list**
 
@@ -13118,7 +13118,7 @@ public void EventPut(){
      >
      > To create an alert rule for a custom event, find the custom event and click **Create an Event Alarm rule** in the **Operation** column. In the **Create an Event Alarm rule** panel, configure parameters to create an alert rule for the custom event. For more information, see the Create an event-triggered alert rule section of this topic.
 
-     ![](assets/883a35d5a27999d799870ca9e092c312.jpeg)
+     ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/883a35d5a27999d799870ca9e092c312.jpeg)
 
 **Event-triggered alert rules**
 
@@ -13137,7 +13137,7 @@ public void EventPut(){
    | Contact Group | The contact or contact group that receives alert notifications. |
    | Alarm callback | The callback URL to which CloudMonitor sends alert notifications by using the POST request method.<br>Note<br>The callback URL must be accessible for CloudMonitor. You can enter only an HTTP URL. IP addresses are not supported. |
 
-   ![](assets/f381bc87b6de58028c4cc4c3e9b876bf.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/f381bc87b6de58028c4cc4c3e9b876bf.jpeg)
 
 3. Click **OK**.
 
@@ -13151,7 +13151,7 @@ public void EventPut(){
    >
    > The name of the custom event cannot be modified.
 
-   ![](assets/8de03a2c7f707728964b64a0fe3c512d.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/8de03a2c7f707728964b64a0fe3c512d.jpeg)
 
 3. Click **OK**.
 
@@ -13291,7 +13291,7 @@ public void EventPut(){
 
 3. The event-triggered alerts that meet the specified conditions are displayed on the Event Alarm History tab. You can view the alert information, including the rule name, rule ID, time when the alert was generated, event name, and event level.
 
-   ![](assets/6d4978e3de77ffd43e17dc5e1326cace.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/6d4978e3de77ffd43e17dc5e1326cace.jpeg)
 
 <a id="section-11-8"></a>
 
@@ -13346,14 +13346,14 @@ You can modify or delete application groups on the Application Groups page in Cl
    | Operation | Procedure |
    | --- | --- |
    | View the information about an application group | i. Optional. In the top navigation bar, select the organization in which you want to manage application groups. On the <strong>Application Groups</strong> page, enter an application group name or ID, and then click <strong>Search</strong> to search for the application group whose information you want to view.<br>ii. Click the name of the application group whose information you want to view. On the details page of the application group, click tabs in the left-side navigation pane to view the content.<br>• <strong>Group Overview</strong>: You can view the basic information about the application group and the associated cloud services.<br>• <strong>Group Resources</strong>: You can view the details of the resources in the application group.<br>• <strong>Availability Monitoring</strong>: You can view the availability monitoring data of all Elastic Compute Service (ECS) instances in the current application group. |
-   | Modify an application group | i. Optional. In the top navigation bar, select the organization in which you want to manage application groups. On the <strong>Application Groups</strong> page, enter an application group name or ID, and then click <strong>Search</strong> to search for the application group that you want to modify.<br>ii. Click the<img src="assets/fe9e57819861e1ba7afa16abfb8a035f.png" width="16" alt="">icon of the application group that you want to modify, and then click <strong>Modify Group</strong>.<br>iii. In the <strong>Modify application Group</strong> panel, modify the <strong>Creation</strong> <strong>Method</strong> and <strong>Application Group Name</strong> parameters, and resources in the application group.<br>iv. Click <strong>OK</strong>. |
-   | Modify the basic information about an application group | i. Click the name of the application group that you want to manage.In the left-side navigation pane, click the <strong>Group Overview</strong> tab.<br>ii. In the <strong>Basic Information</strong> section, modify the information.<br>• Modify the <strong>Group Name</strong> parameter.<br>a. Click the<img src="assets/10775ad92b9ed67c1292a2c04675cb20.png" width="13" alt="">icon next to <strong>Group Name</strong> to modify the name of<br>the application group.<br>b. After the modification is complete, click <strong>OK</strong>.<br>• Modify the <strong>Alert Contact Group</strong> parameter.<br>a. Click the<img src="assets/10775ad92b9ed67c1292a2c04675cb20.png" width="13" alt="">icon next to <strong>Alert Contact Group</strong> and select one<br>or more alert contact groups from the drop-down list.<br>b. After the modification is complete, click <strong>OK</strong>. |
+   | Modify an application group | i. Optional. In the top navigation bar, select the organization in which you want to manage application groups. On the <strong>Application Groups</strong> page, enter an application group name or ID, and then click <strong>Search</strong> to search for the application group that you want to modify.<br>ii. Click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/fe9e57819861e1ba7afa16abfb8a035f.png" width="16" alt="">icon of the application group that you want to modify, and then click <strong>Modify Group</strong>.<br>iii. In the <strong>Modify application Group</strong> panel, modify the <strong>Creation</strong> <strong>Method</strong> and <strong>Application Group Name</strong> parameters, and resources in the application group.<br>iv. Click <strong>OK</strong>. |
+   | Modify the basic information about an application group | i. Click the name of the application group that you want to manage.In the left-side navigation pane, click the <strong>Group Overview</strong> tab.<br>ii. In the <strong>Basic Information</strong> section, modify the information.<br>• Modify the <strong>Group Name</strong> parameter.<br>a. Click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/10775ad92b9ed67c1292a2c04675cb20.png" width="13" alt="">icon next to <strong>Group Name</strong> to modify the name of<br>the application group.<br>b. After the modification is complete, click <strong>OK</strong>.<br>• Modify the <strong>Alert Contact Group</strong> parameter.<br>a. Click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/10775ad92b9ed67c1292a2c04675cb20.png" width="13" alt="">icon next to <strong>Alert Contact Group</strong> and select one<br>or more alert contact groups from the drop-down list.<br>b. After the modification is complete, click <strong>OK</strong>. |
    | Delete one or more resources from the application group | i. Click the name of the application group that you want to manage.In the left-side navigation pane, click the <strong>Group Resources</strong> tab.<br>ii. In the list of ECS instances, delete one or more instances.<br>• Delete a single instance<br>a. Find the instance that you want to delete, and click <strong>Delete</strong> in the <strong>Actions</strong> column.<br>b. In the message that appears, click <strong>OK</strong>.<br>• Delete multiple application groups at a time<br>a. Select the check boxes of the instances that you want to delete and click <strong>Delete</strong> in the lower-left corner of the instance list.<br>b. In the message that appears, click <strong>OK</strong>. |
 
    <table>
      <tr>
        <td>Delete one or more application groups</td>
-       <td>Note<br>If you delete an application group, all alert rules and event-triggered alerts of the application group are deleted. The instances in the application group are automatically migrated back to the pool that contains all instances.<br>i. Optional. In the top navigation bar, select an organization in which you want to manage application groups. On the <strong>Application</strong> <strong>Groups</strong> page, enter an application group name or ID, and then click <strong>Search</strong> to search for the application group that you want to manage.<br>ii. On the Application Groups page, delete one or more application groups.<br>• Delete a single application group<br>a. Click the<img src="assets/fe9e57819861e1ba7afa16abfb8a035f.png" width="16" alt="">icon of the application group that you want to delete and click <strong>Delete Group</strong>.<br>b. In the <strong>Delete Group</strong> message, click <strong>OK</strong>.<br>• Delete multiple application groups at a time<br>a. Select the check boxes of the application groups that you want to delete and click <strong>Delete</strong> in the lower-left corner of the application group list.<br>b. In the <strong>Delete Group</strong> message, click <strong>OK</strong>.</td>
+       <td>Note<br>If you delete an application group, all alert rules and event-triggered alerts of the application group are deleted. The instances in the application group are automatically migrated back to the pool that contains all instances.<br>i. Optional. In the top navigation bar, select an organization in which you want to manage application groups. On the <strong>Application</strong> <strong>Groups</strong> page, enter an application group name or ID, and then click <strong>Search</strong> to search for the application group that you want to manage.<br>ii. On the Application Groups page, delete one or more application groups.<br>• Delete a single application group<br>a. Click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/fe9e57819861e1ba7afa16abfb8a035f.png" width="16" alt="">icon of the application group that you want to delete and click <strong>Delete Group</strong>.<br>b. In the <strong>Delete Group</strong> message, click <strong>OK</strong>.<br>• Delete multiple application groups at a time<br>a. Select the check boxes of the application groups that you want to delete and click <strong>Delete</strong> in the lower-left corner of the application group list.<br>b. In the <strong>Delete Group</strong> message, click <strong>OK</strong>.</td>
      </tr>
    </table>
 
@@ -13551,7 +13551,7 @@ You can modify, disable, enable, and delete availability monitoring tasks on the
    <table>
      <tr>
        <td>Delete one or more availability monitoring tasks</td>
-       <td>• Delete a single availability monitoring task<br>a. Click the<img src="assets/fe9e57819861e1ba7afa16abfb8a035f.png" width="16" alt="">icon in the <strong>Actions</strong> column of the availability monitoring task and click <strong>Delete</strong>.<br>b. In the <strong>Delete</strong> message that appears, click <strong>OK</strong>.<br>• Delete multiple availability monitoring tasks at a time<br>a. Select the check boxes of the availability monitoring tasks that you want to delete and click <strong>Batch Delete</strong> in the lower-left corner of the task list.<br>b. In the <strong>Delete</strong> message that appears, click <strong>OK</strong>.</td>
+       <td>• Delete a single availability monitoring task<br>a. Click the<img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/fe9e57819861e1ba7afa16abfb8a035f.png" width="16" alt="">icon in the <strong>Actions</strong> column of the availability monitoring task and click <strong>Delete</strong>.<br>b. In the <strong>Delete</strong> message that appears, click <strong>OK</strong>.<br>• Delete multiple availability monitoring tasks at a time<br>a. Select the check boxes of the availability monitoring tasks that you want to delete and click <strong>Batch Delete</strong> in the lower-left corner of the task list.<br>b. In the <strong>Delete</strong> message that appears, click <strong>OK</strong>.</td>
      </tr>
    </table>
 
@@ -13650,9 +13650,9 @@ The Time Series Metrics tab on the Namespace page provides a centralized platfor
 
 4. In the left-side **Alibaba Cloud Services** section, click a cloud service. Then, the metric information about the cloud service is displayed in the right-side section.
 
-   ![](assets/7bb063229afa86b75d67a35b549e05e5.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/7bb063229afa86b75d67a35b549e05e5.jpeg)
 
-5. Find the metric that you want to view and click the <img src="assets/cef0ef03102654f64898a11accb93eeb.png" width="12" alt=""> icon next to its name. In the chart
+5. Find the metric that you want to view and click the <img src="en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/cef0ef03102654f64898a11accb93eeb.png" width="12" alt=""> icon next to its name. In the chart
 
    that appears, you can view the lineage of the metric, which tracks the flow from the SQL statement that creates the metric through to the dependencies on source data stored in the specific Simple Log Service project and Logstore and also includes the dimension (DIM) table of CloudMonitor that is associated with the metric.
 
@@ -13660,7 +13660,7 @@ The Time Series Metrics tab on the Namespace page provides a centralized platfor
    >
    > Not all cloud service metrics have DIM table data.
 
-   ![](assets/163e20dd7425b89e39379214e71eead7.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/163e20dd7425b89e39379214e71eead7.jpeg)
 
 6. Click each node in the flow. On the **Inspection Item Details** tab of the **Availability Monitoring Details** panel, check whether data exists. You can troubleshoot issues based on the results of inspection items. An issue may occur due to the raw data, intermediate process, or aggregation calculation in the final stage. If an issue occurs, troubleshoot the issue based on the results of the related inspection items.
 
@@ -13682,7 +13682,7 @@ The Time Series Metrics tab on the Namespace page provides a centralized platfor
    | Aggregate Value | The aggregation method.<br>Note<br>The available aggregation methods vary based on cloud services. |
    | Select Time | The time range of the monitoring data. You can select 1 hour, 4 hours, 12 hours, or a custom time range. |
    | Log Service Data | This parameter is displayed only on the Monitoring Details tab of SQL nodes.<br>This parameter specifies whether Simple Log Service data exists. |
-   | Monitoring Chart | A monitoring chart is generated based on the specified instance ID, aggregate value, and time range. You can view the trend of metric data on the monitoring chart.<br>![](assets/8f1018b2c105265d2864439836d4e3ac.jpeg) |
+   | Monitoring Chart | A monitoring chart is generated based on the specified instance ID, aggregate value, and time range. You can view the trend of metric data on the monitoring chart.<br>![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/8f1018b2c105265d2864439836d4e3ac.jpeg) |
 
 <a id="section-11-10-2"></a>
 
@@ -13851,7 +13851,7 @@ The system event metrics on the System Event tab are the same as those that are 
 
 5. In the left-side **Alibaba Cloud Services** section, click a cloud service. Then, the system event metrics of the cloud service are displayed in the right-side section.
 
-   ![](assets/15628ba4ec79ff41b2319055a074e2d9.jpeg)
+   ![](en-apsara-uni-manager-management-consol-4267e8fb-v3.18.2-20251106.assets/15628ba4ec79ff41b2319055a074e2d9.jpeg)
 
 <a id="section-12"></a>
 
