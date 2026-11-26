@@ -36,15 +36,17 @@ class DocumentIdentityTests(unittest.TestCase):
             (
                 "cn/计算/云服务器 ECS/阿里云 专有云 V3.18.6 云服务器ECS 用户指南 20251230.pdf",
                 ["阿里云", "专有云", "云服务器ECS", "用户指南", "产品版本：V3.18.6", "文档版本：20251230"],
-                "zh-cn/v3.18.6/ecs/user-guide/20251230",
+                "zh-cn/3.18.6/compute/ecs/user-guide/20251230",
             ),
             (
                 "cn/数据库/云数据库 RDS/阿里云 专有云 V3.18.3 云数据库RDS 用户指南（RDS PostgreSQL） 20250320.pdf",
                 ["阿里云", "专有云", "云数据库RDS", "用户指南（RDS PostgreSQL）", "产品版本：V3.18.3", "文档版本：20250320"],
-                "zh-cn/v3.18.3/rds/rds-postgresql-user-guide/20250320",
+                "zh-cn/3.18.3/database/rds/rds-postgresql-user-guide/20250320",
             ),
             (
-                "en/Database/ApsaraDB for POLARDB/Secondary Edition) User Guide 20260831.pdf",
+                "en/Database/ApsaraDB for POLARDB/"
+                "Alibaba Cloud Apsara Stack V3.18.6-2607 ApsaraDB for POLARDB "
+                "PolarDB for PostgreSQL (Primary_Secondary Edition) User Guide 20260831.pdf",
                 [
                     "Alibaba Cloud",
                     "Apsara Stack",
@@ -55,7 +57,7 @@ class DocumentIdentityTests(unittest.TestCase):
                     "Product Version: v3.18.6-2607",
                     "Document Version: 20260831",
                 ],
-                "en-us/v3.18.6-2607/polardb/postgresql-primary-secondary-user-guide/20260831",
+                "en-us/3.18.6_2607/database/polardb/postgresql-primary-secondary-user-guide/20260831",
             ),
         ]
         for source_key, cover, expected_id in cases:
@@ -74,6 +76,38 @@ class DocumentIdentityTests(unittest.TestCase):
                 self.assertLessEqual(len(first["assets_dir"]), MAX_ASSETS_DIR_LEN)
                 self.assertEqual(validate_document_id_fields(first), [])
 
+    def test_publish_layout_drives_package_category_and_product_code(self):
+        source = (
+            "v_3_18_6_20250430/OpenTrek/opentrek/"
+            "阿里云 专有云 V3.18.6 智能体工厂 OpenTrek AI Gateway 产品简介 20260528.pdf"
+        )
+        cover = [
+            "阿里云",
+            "专有云",
+            "智能体工厂",
+            "OpenTrek AI Gateway",
+            "产品简介",
+            "产品版本：V3.18.6",
+            "文档版本：20260528",
+        ]
+        ident = resolve_identity(
+            source,
+            cover,
+            pdf_sha256="",
+            lang_hint="zh-cn",
+            rules=self.rules,
+            overrides=self.empty_overrides,
+            registry=self.empty_registry,
+        )
+        self.assertEqual(ident["id_status"], "ok")
+        self.assertEqual(ident["package_version"], "3.18.6_20250430")
+        self.assertEqual(ident["category"], "opentrek")
+        self.assertEqual(ident["product_code"], "opentrek")
+        self.assertEqual(
+            ident["document_id"],
+            "zh-cn/3.18.6_20250430/opentrek/opentrek/ai-gateway-product-introduction/20260528",
+        )
+
     def test_openshift_platform_version_from_cover(self):
         source = (
             "en/Compute/Container Service for Kubernetes/"
@@ -91,7 +125,10 @@ class DocumentIdentityTests(unittest.TestCase):
             source, cover, rules=self.rules, overrides=self.empty_overrides, registry=self.empty_registry
         )
         self.assertEqual(ident["id_status"], "ok")
-        self.assertEqual(ident["document_id"], "en-us/v3.18.6/openshift/container-platform-4-18-on-apsara-stack/20260703")
+        self.assertEqual(
+            ident["document_id"],
+            "en-us/3.18.6/compute/openshift/container-platform-4-18-on-apsara-stack/20260703",
+        )
 
     def test_missing_platform_version_anomaly_and_override_resolution(self):
         source = (
@@ -105,6 +142,7 @@ class DocumentIdentityTests(unittest.TestCase):
         self.assertEqual(without_ov["id_status"], "anomaly")
         self.assertEqual(without_ov["document_id"], "")
         self.assertIn("missing_platform_version", without_ov["id_anomalies"])
+        self.assertIn("missing_package_version", without_ov["id_anomalies"])
 
         with_ov = resolve_identity(
             source,
@@ -116,7 +154,7 @@ class DocumentIdentityTests(unittest.TestCase):
         )
         self.assertEqual(with_ov["id_status"], "ok")
         self.assertEqual(with_ov["id_source"], "override")
-        self.assertEqual(with_ov["document_id"], "en-us/v3.18.3/terraform/user-guide/20241115")
+        self.assertEqual(with_ov["document_id"], "en-us/3.18.3/compute/terraform/user-guide/20241115")
 
     def test_untranslated_cjk_produces_anomaly(self):
         source = "cn/计算/云服务器 ECS/阿里云 专有云 V3.18.6 云服务器ECS 未知专题指南 20251230.pdf"
@@ -133,15 +171,18 @@ class DocumentIdentityTests(unittest.TestCase):
             "format": 1,
             "documents": {
                 sha: {
-                    "document_id": "zh-cn/v3.18.6/ecs/user-guide/20251230",
+                    "document_id": "zh-cn/3.18.6/compute/ecs/user-guide/20251230",
                     "source": "cn/计算/云服务器 ECS/阿里云 专有云 V3.18.6 云服务器ECS 用户指南 20251230.pdf",
                     "assets_dir": "zh-ecs-user-guide-v3.18.6-20251230.assets",
                     "language": "zh-cn",
+                    "package_version": "3.18.6",
                     "platform_version": "v3.18.6",
+                    "category": "compute",
+                    "product_code": "ecs",
                     "product": "ecs",
                     "document_key": "user-guide",
+                    "base_document_key": "user-guide",
                     "document_version": "20251230",
-                    "category": "compute",
                     "id_source": "rules",
                 }
             },
@@ -156,29 +197,36 @@ class DocumentIdentityTests(unittest.TestCase):
         )
         self.assertEqual(moved["id_status"], "ok")
         self.assertEqual(moved["id_source"], "registry")
-        self.assertEqual(moved["document_id"], "zh-cn/v3.18.6/ecs/user-guide/20251230")
+        self.assertEqual(moved["document_id"], "zh-cn/3.18.6/compute/ecs/user-guide/20251230")
         self.assertEqual(moved["assets_dir"], "zh-ecs-user-guide-v3.18.6-20251230.assets")
 
     def test_assets_dir_cap_and_conflict_detection(self):
-        long_id = "en-us/v3.18.6-2607/apsara-uni-manager/management-console-operations-and-maintenance-guide/20260831"
-        adir = build_assets_dir(long_id, "fallback", "en-us")
+        adir = build_assets_dir(
+            "en-us",
+            "apsara-uni-manager",
+            "management-console-operations-and-maintenance-guide",
+            "v3.18.6-2607",
+            "20260831",
+        )
         self.assertLessEqual(len(adir), MAX_ASSETS_DIR_LEN)
         self.assertRegex(adir, ASSETS_DIR_RE)
         self.assertTrue(adir.endswith("-v3.18.6-2607-20260831.assets"))
 
         id_conflicts, asset_conflicts = _find_conflicts(
             {
-                "a.pdf": {"source": "a.pdf", "document_id": "zh-cn/v3.18.6/ecs/user-guide/20251230", "assets_path": "cn/a.assets"},
-                "b.pdf": {"source": "b.pdf", "document_id": "zh-cn/v3.18.6/ecs/user-guide/20251230", "assets_path": "cn/a.assets"},
+                "a.pdf": {"source": "a.pdf", "document_id": "zh-cn/3.18.6/compute/ecs/user-guide/20251230", "assets_path": "cn/a.assets"},
+                "b.pdf": {"source": "b.pdf", "document_id": "zh-cn/3.18.6/compute/ecs/user-guide/20251230", "assets_path": "cn/a.assets"},
             }
         )
-        self.assertIn("zh-cn/v3.18.6/ecs/user-guide/20251230", id_conflicts)
+        self.assertIn("zh-cn/3.18.6/compute/ecs/user-guide/20251230", id_conflicts)
         self.assertIn("cn/a.assets", asset_conflicts)
 
     def test_independent_assets_isolation_in_same_product_directory(self):
-        pdf_a = ROOT / "docs/cn/安全/安骑士/阿里云 专有云 V3.18.3 云盾-安骑士高级版 运维指南（安骑士） 20241106.pdf"
-        pdf_b = ROOT / "docs/cn/安全/安骑士/阿里云 专有云 V3.18.6 安骑士 运维指南 20251208.pdf"
-        shared_image = "10accb2034c8a6b0ad1cf41d09661950.png"
+        product_dir = ROOT / "publish/zh/v_3_18_6_20250430/安全/aegis"
+        pdf_a = product_dir / "阿里云 专有云 V3.18.6 安骑士 运维指南 20260528.pdf"
+        pdf_b = product_dir / "阿里云 专有云 V3.18.6 容器安全 运维指南 20260528.pdf"
+        self.assertTrue(pdf_a.is_file(), pdf_a)
+        self.assertTrue(pdf_b.is_file(), pdf_b)
         tool = ROOT / "scripts" / "convert_pdf_to_md.py"
         verify = ROOT / "scripts" / "verify_pdf_md.py"
 
@@ -188,22 +236,24 @@ class DocumentIdentityTests(unittest.TestCase):
                 check=True,
                 stdout=subprocess.PIPE,
             )
-            prod_out = Path(folder) / "cn/安全/安骑士"
-            self.assertFalse((prod_out / "assets").exists())
-            dir_a = prod_out / "zh-server-guard-operations-guide-v3.18.3-20241106.assets"
-            dir_b = prod_out / "zh-server-guard-operations-guide-v3.18.6-20251208.assets"
-            self.assertTrue((dir_a / shared_image).is_file())
-            self.assertTrue((dir_b / shared_image).is_file())
+            out = Path(folder)
+            self.assertFalse((out / "assets").exists())
+            dir_a = out / "zh-server-guard-operations-guide-v3.18.6-20260528.assets"
+            dir_b = out / "zh-container-security-operations-guide-v3.18.6-20260528.assets"
+            self.assertTrue(dir_a.is_dir(), sorted(p.name for p in out.iterdir()))
+            self.assertTrue(dir_b.is_dir(), sorted(p.name for p in out.iterdir()))
+            self.assertTrue(any(path.stat().st_size for path in dir_a.iterdir()))
+            self.assertTrue(any(path.stat().st_size for path in dir_b.iterdir()))
 
-            md_a = (prod_out / (pdf_a.stem + ".md")).read_text(encoding="utf-8")
-            md_b = (prod_out / (pdf_b.stem + ".md")).read_text(encoding="utf-8")
-            self.assertIn(f"{dir_a.name}/{shared_image}", md_a)
+            md_a = (out / (pdf_a.stem + ".md")).read_text(encoding="utf-8")
+            md_b = (out / (pdf_b.stem + ".md")).read_text(encoding="utf-8")
+            self.assertIn(f"{dir_a.name}/", md_a)
             self.assertNotIn(dir_b.name, md_a)
-            self.assertIn(f"{dir_b.name}/{shared_image}", md_b)
+            self.assertIn(f"{dir_b.name}/", md_b)
             self.assertNotIn(dir_a.name, md_b)
 
             verify_proc = subprocess.run(
-                [sys.executable, str(verify), str(pdf_a), str(pdf_b), "--output", folder, "--render"],
+                [sys.executable, str(verify), str(pdf_a), str(pdf_b), "--output", folder],
                 check=True,
                 stdout=subprocess.PIPE,
                 text=True,

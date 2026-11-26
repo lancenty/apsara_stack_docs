@@ -1,3 +1,4 @@
+import importlib.util
 import json
 import subprocess
 import sys
@@ -13,19 +14,19 @@ VERIFY = ROOT / "scripts" / "verify_pdf_md.py"
 
 class ArchiveConversion(unittest.TestCase):
     def test_application_guide_and_resume(self):
-        pdf = next((ROOT / "docs/cn").rglob("*应用运维平台 用户指南 20250529.pdf"))
+        pdf = ROOT / "publish/zh/v_3_18_6_20250430/中间件/apigateway/阿里云 专有云 V3.18.6 API 网关 用户指南 20260528.pdf"
+        self.assertTrue(pdf.is_file(), pdf)
         with tempfile.TemporaryDirectory() as folder:
             args = [sys.executable, str(TOOL), str(pdf), "--output", folder, "--jobs", "1"]
             subprocess.run(args, check=True, stdout=subprocess.PIPE)
             md = next(Path(folder).rglob("*.md"))
             text = md.read_text(encoding="utf-8")
-            self.assertIn("## 2.1. 登录应用中心AHM控制台", text)
+            self.assertIn("## 4.1. 通过路由访问EDAS中的应用", text)
             self.assertIn("**操作步骤**", text)
             self.assertNotIn("法律声明", text)
-            self.assertIn("rds:ModifySecurityIps", text)
-            self.assertIn("归属可用区", text)
+            self.assertIn("网关实例", text)
 
-            expected_assets_dir = "zh-ahm-user-guide-v3.18.6-20250529.assets"
+            expected_assets_dir = "zh-api-gateway-user-guide-v3.18.6-20260528.assets"
             self.assertIn(f"]({expected_assets_dir}/", text)
             self.assertNotIn("](assets/", text)
             self.assertNotIn('src="assets/', text)
@@ -33,21 +34,28 @@ class ArchiveConversion(unittest.TestCase):
             self.assertFalse((md.parent / "assets").exists())
 
             records = json.loads((Path(folder) / "manifest.json").read_text(encoding="utf-8"))
-            self.assertEqual(records["format"], 2)
+            self.assertEqual(records["format"], 3)
             doc = records["documents"][0]
-            self.assertEqual(doc["document_id"], "zh-cn/v3.18.6/ahm/user-guide/20250529")
+            self.assertEqual(
+                doc["document_id"], "zh-cn/3.18.6_20250430/middleware/apigateway/api-gateway-user-guide/20260528"
+            )
+            self.assertEqual(doc["package_version"], "3.18.6_20250430")
+            self.assertEqual(doc["product_code"], "apigateway")
             self.assertEqual(doc["assets_dir"], expected_assets_dir)
             self.assertEqual(doc["id_status"], "ok")
-            self.assertEqual(doc["pages"], 24)
-            self.assertEqual(doc["headings"], 15)
+            self.assertEqual(doc["pages"], 173)
+            self.assertEqual(doc["headings"], 80)
             self.assertEqual(len(doc["assets"]), doc["images"])
 
             changed = md.stat().st_mtime_ns
             subprocess.run(args, check=True, stdout=subprocess.PIPE)
             self.assertEqual(changed, md.stat().st_mtime_ns)
 
+            verify_cmd = [sys.executable, str(VERIFY), str(pdf), "--output", folder]
+            if importlib.util.find_spec("markdown_it"):
+                verify_cmd.append("--render")
             verify_proc = subprocess.run(
-                [sys.executable, str(VERIFY), str(pdf), "--output", folder, "--render"],
+                verify_cmd,
                 check=True,
                 stdout=subprocess.PIPE,
                 text=True,

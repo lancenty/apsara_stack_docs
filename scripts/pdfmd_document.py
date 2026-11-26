@@ -253,8 +253,10 @@ def convert(source, target, language, source_key="", source_sha256=""):
                     table_joins=joined, bytes=len(data), issues=structure["issues"],
                     assets_dir=asset_prefix, assets=sorted(expected_names),
                     document_id=identity["document_id"], language=identity["language"],
-                    platform_version=identity["platform_version"], product=identity["product"],
-                    document_key=identity["document_key"], document_version=identity["document_version"],
-                    category=identity["category"], title=identity["title"],
+                    package_version=identity["package_version"], platform_version=identity["platform_version"],
+                    category=identity["category"], product_code=identity["product_code"],
+                    product=identity["product"], document_key=identity["document_key"],
+                    base_document_key=identity["base_document_key"],
+                    document_version=identity["document_version"], title=identity["title"],
                     id_status=identity["id_status"], id_source=identity["id_source"],
                     id_anomalies=identity["id_anomalies"])

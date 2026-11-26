@@ -125,14 +125,14 @@ def _build_markdown_report(summary: dict) -> str:
     ]
     for k, v in sorted(summary["by_language"].items()):
         lines.append(f"| `{k}` | {v} |")
-    lines.extend(["", "### 按平台版本", "", "| 平台版本 | 文档数 |", "|---|---:|"])
-    for k, v in sorted(summary["by_platform_version"].items()):
+    lines.extend(["", "### 按发布包版本", "", "| 包版本 | 文档数 |", "|---|---:|"])
+    for k, v in sorted(summary["by_package_version"].items()):
         lines.append(f"| `{k}` | {v} |")
     lines.extend(["", "### 按一级分类", "", "| 分类 | 文档数 |", "|---|---:|"])
     for k, v in sorted(summary["by_category"].items()):
         lines.append(f"| `{k}` | {v} |")
-    lines.extend(["", f"### 按产品（共 {len(summary['by_product'])} 个产品）", "", "| 产品 Slug | 文档数 |", "|---|---:|"])
-    for k, v in sorted(summary["by_product"].items()):
+    lines.extend(["", f"### 按产品代码（共 {len(summary['by_product_code'])} 个）", "", "| 产品代码 | 文档数 |", "|---|---:|"])
+    for k, v in sorted(summary["by_product_code"].items()):
         lines.append(f"| `{k}` | {v} |")
 
     lines.extend(["", "## 4. Override 清单", ""])
@@ -288,9 +288,9 @@ def main():
         "unique_document_ids": len(by_id),
         "unique_assets_paths": len(by_assets_path),
         "by_language": dict(Counter(p["identity"]["language"] for p in plans)),
-        "by_platform_version": dict(Counter(p["identity"]["platform_version"] for p in plans)),
+        "by_package_version": dict(Counter(p["identity"]["package_version"] for p in plans)),
         "by_category": dict(Counter(p["identity"]["category"] for p in plans)),
-        "by_product": dict(Counter(p["identity"]["product"] for p in plans)),
+        "by_product_code": dict(Counter(p["identity"]["product_code"] for p in plans)),
         "by_id_source": dict(Counter(p["identity"]["id_source"] for p in plans)),
         "overrides_applied": overrides_applied,
         "registry_notes": registry_notes,
@@ -362,9 +362,12 @@ def main():
                 rec["assets"] = item["unique_names"]
                 rec["document_id"] = ident["document_id"]
                 rec["language"] = ident["language"]
+                rec["package_version"] = ident["package_version"]
                 rec["platform_version"] = ident["platform_version"]
+                rec["product_code"] = ident["product_code"]
                 rec["product"] = ident["product"]
                 rec["document_key"] = ident["document_key"]
+                rec["base_document_key"] = ident["base_document_key"]
                 rec["document_version"] = ident["document_version"]
                 rec["category"] = ident["category"]
                 rec["title"] = ident["title"]
@@ -403,11 +406,14 @@ def main():
                             "source": rec["source"],
                             "assets_dir": rec["assets_dir"],
                             "language": rec["language"],
+                            "package_version": rec["package_version"],
                             "platform_version": rec["platform_version"],
+                            "category": rec["category"],
+                            "product_code": rec["product_code"],
                             "product": rec["product"],
                             "document_key": rec["document_key"],
+                            "base_document_key": rec["base_document_key"],
                             "document_version": rec["document_version"],
-                            "category": rec["category"],
                             "id_source": rec["id_source"],
                         }
                 save_registry(reg_docs)

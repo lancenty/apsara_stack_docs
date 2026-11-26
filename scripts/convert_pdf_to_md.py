@@ -47,6 +47,7 @@ def fingerprint(path):
 
 def rule_version():
     h = hashlib.sha256(pymupdf.VersionBind.encode())
+    h.update(os.environ.get("PDFMD_WEBP_QUALITY", "").strip().encode("utf-8"))
     for module in sorted(Path(__file__).parent.glob("pdfmd_*.py")):
         h.update(module.read_bytes())
     return h.hexdigest()[:16]
@@ -94,8 +95,10 @@ def save_manifest(path, records):
         id_overrides=sum(r.get("id_source") == "override" for r in documents),
         id_anomalies=sum(r.get("id_status") != "ok" for r in documents),
         id_conflicts=sum(1 for cnt in id_counts.values() if cnt > 1),
+        package_versions=len({r.get("package_version") for r in documents if r.get("package_version")}),
+        product_codes=len({r.get("product_code") for r in documents if r.get("product_code")}),
     )
-    data = dict(format=2, summary=summary, documents=documents)
+    data = dict(format=3, summary=summary, documents=documents)
     atomic_write(path, (json.dumps(data, ensure_ascii=False, indent=2)+"\n").encode("utf-8"))
 
 
@@ -115,7 +118,7 @@ def discover(inputs, requested):
                 rel = f.relative_to(native(DOCS))
             else:
                 rel = f.relative_to(native(base))
-            lang = next((s for s in rel.parts if s in {"cn","en"}), "")
+            lang = next(("cn" if s == "zh" else s for s in rel.parts if s in {"cn","zh","en"}), "")
             if requested and not lang:
                 with pymupdf.open(str(f)) as doc:
                     lang = "cn" if re.search(r"[\u3400-\u9fff]", doc[0].get_text()) else "en"
@@ -241,7 +244,7 @@ def main():
             for apath, srcs in sorted(asset_conflicts.items()):
                 print(f"Assets path conflict {apath}: {srcs}", file=sys.stderr, flush=True)
             failed += len(id_conflicts) + len(asset_conflicts)
-        if not id_conflicts and not asset_conflicts and root == native(ROOT / "markdown"):
+        if not id_conflicts and not asset_conflicts:
             existing_reg = load_registry().get("documents", {})
             updated_reg = dict(existing_reg)
             for rec in records.values():
@@ -251,11 +254,14 @@ def main():
                         "source": rec["source"],
                         "assets_dir": rec["assets_dir"],
                         "language": rec["language"],
+                        "package_version": rec["package_version"],
                         "platform_version": rec["platform_version"],
+                        "category": rec.get("category", ""),
+                        "product_code": rec["product_code"],
                         "product": rec["product"],
                         "document_key": rec["document_key"],
+                        "base_document_key": rec.get("base_document_key", ""),
                         "document_version": rec["document_version"],
-                        "category": rec.get("category", ""),
                         "id_source": rec.get("id_source", "rules"),
                     }
             if updated_reg != existing_reg:

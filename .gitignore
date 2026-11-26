@@ -3,6 +3,13 @@
 *.zip
 *.part
 downloads/
+dist/
+
+# 5.7 GB 发布包 PDF，由 downloads/ 经 scripts/build_publish.py 重建，不入库
+publish/
+
+# 临时输出
+outputs/docid_backup*/
 
 # Python 缓存与临时文件
 __pycache__/
@@ -14,3 +21,7 @@ markdown/.conversion.lock
 
 # 工作区内部数据（非项目交付资产）
 .workbuddy/
+
+# 登录凭证（绝不入库）
+*.cookie
+*cookie*.txt

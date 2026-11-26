@@ -1,6 +1,6 @@
 # Apsara Stack 文档归档项目
 
-阿里云专有云（Apsara Stack）产品文档的抓取、去重、下载与分类归档工程。共收录 **704 份最新文档**（中文 287、英文 417，约 2.7 GB），已按「一级分类 / 二级产品」两级目录归类。
+阿里云专有云（Apsara Stack）产品文档的抓取、去重、下载与分类归档工程。发布包 `publish/` 收录 **1171 份 PDF**（中文 798、英文 373），转换产物 `dist/apsara-docs-zh` / `dist/apsara-docs-en` 为同规模的带图 Markdown 站点，按「发布包版本 / 一级分类 / 产品代码」组织。
 
 ## 目录结构
 
@@ -44,10 +44,10 @@ apsara_stack_docs/
 │   ├── classification_map_v2.csv   二级分类映射
 │   └── product_candidates.txt      产品名候选清单
 │
-├── docs/                     【文档】两级分类归档（cn 中文 / en 英文）
-│   ├── cn/                        中文 287 份：<一级分类>/<二级产品>/xxx.pdf
-│   └── en/                        英文 417 份：<一级分类>/<二级产品>/xxx.pdf
-├── downloads/                （可选）下载脚本的默认输出目录
+├── publish/                  【发布包】转换源：zh|en/<包版本>/<一级分类>/<产品代码>/xxx.pdf
+├── dist/                     【站点】转换产物：apsara-docs-zh（798 份）/ apsara-docs-en（373 份）
+├── docs/                     早期两级分类归档（cn 中文 / en 英文），已不再作为转换源
+├── downloads/                下载脚本的原始包与 PDF（被 .gitignore 忽略）
 └── .workbuddy/               工作区内部数据（记忆等）
 ```
 
@@ -90,49 +90,68 @@ python scripts/classify_docs_v2.py --apply
 python -m pip install -r requirements-pdfmd.txt
 
 # 试转单份文档
-python scripts/convert_pdf_to_md.py "docs/cn/中间件/应用运维平台/阿里云 专有云 V3.18.6 应用运维平台 用户指南 20250529.pdf"
+python scripts/convert_pdf_to_md.py "publish/zh/v_3_18_6_20250430/中间件/apigateway/阿里云 专有云 V3.18.6 API 网关 用户指南 20260528.pdf"
 
-# 转换全部中文和英文 PDF
-python scripts/convert_pdf_to_md.py
+# 转换发布包全部中文 / 英文文档到 dist
+python scripts/convert_pdf_to_md.py publish/zh --output dist/apsara-docs-zh --jobs 4
+python scripts/convert_pdf_to_md.py publish/en --output dist/apsara-docs-en --jobs 4
 
-# 选择语言、产品目录、输出位置或并行处理数
-python scripts/convert_pdf_to_md.py --language en --jobs 4
-python scripts/convert_pdf_to_md.py "docs/cn/中间件/应用运维平台" --output "preview"
-
-# 重建指定范围，包括已有结果
-python scripts/convert_pdf_to_md.py "docs/cn/中间件/应用运维平台" --force
+# 只转某个产品，或重建已有结果
+python scripts/convert_pdf_to_md.py "publish/zh/v_3_18_6_20250430/中间件/apigateway" --output preview
+python scripts/convert_pdf_to_md.py "publish/zh/v_3_18_6_20250430/中间件/apigateway" --output dist/apsara-docs-zh --force
 ```
 
-每份 PDF 对应一份同名 MD，位于 `markdown/<语言>/<分类>/<产品>/`。每份文档拥有独立的同级资源目录（`<assets_dir>/`，如 `zh-ecs-user-guide-v3.18.6-20251230.assets/`），与其它文档完全解耦，可直接打包单份 MD 及其 `.assets` 目录离线阅读或独立发布。建议使用支持表格和内嵌 HTML 的 Markdown 阅读器，合并单元格及罗马数字子步骤使用 HTML 表达。
+每份 PDF 对应一份同名 MD，保留 `publish/` 的 `<语言>/<包版本>/<分类>/<产品代码>/` 目录层级。每份文档拥有独立的同级资源目录（`<assets_dir>/`，如 `zh-api-gateway-user-guide-v3.18.6-20260528.assets/`），与其它文档完全解耦，可直接打包单份 MD 及其 `.assets` 目录离线阅读或独立发布。建议使用支持表格和内嵌 HTML 的 Markdown 阅读器，合并单元格及罗马数字子步骤使用 HTML 表达。
 
 文档从纯文字封面和可跳转的多级目录开始。正文保留编号标题、加粗标签、分层步骤、提示和代码。工具按表格列线、单元格边界及分页位置识别续表。嵌入的截图优先按原始像素提取，组合图按版面截取。
 
-[飞天助理开发指南](<markdown/cn/OpenTrek/飞天助理/阿里云 专有云 V3.18.6 飞天助理 开发指南 20251205.md>)展示了行内按钮、可复制的 API 名称和斜体引用。转换器按原 PDF 的字形倾斜与按钮坐标还原这些内容。[飞天助理产品简介](<markdown/cn/OpenTrek/飞天助理/阿里云 专有云 V3.18.6 飞天助理 产品简介 20251205.md#section-4>)中的“功能特性”表为短名称预留列宽，长说明可随阅读窗口换行。
+[飞天助理开发指南](<dist/apsara-docs-zh/v_3_18_6_20250430/云平台/apsara_stack_platform/阿里云 专有云 V3.18.6 飞天助理 开发指南 20260528.md>)展示了行内按钮、可复制的 API 名称和斜体引用。转换器按原 PDF 的字形倾斜与按钮坐标还原这些内容。[飞天助理产品简介](<dist/apsara-docs-zh/v_3_18_6_20250430/云平台/apsara_stack_platform/阿里云 专有云 V3.18.6 飞天助理 产品简介 20260528.md>)中的“功能特性”表为短名称预留列宽，长说明可随阅读窗口换行。
 
 ### 标准化 Document ID 与独立 Assets
 
-每份文档按确定性本地规则（无模型调用）生成唯一结构化 `document_id`：`{language}/{platform_version}/{product}/{document_key}/{document_version}`（如 `zh-cn/v3.18.6/ecs/user-guide/20251230`）：
+转换源为 `publish/`（发布包目录），转换结果写入 `dist/`（`dist/apsara-docs-zh`、`dist/apsara-docs-en`）。每份文档按确定性本地规则（无模型调用）生成唯一结构化 `document_id`，六段与发布包目录一一对应：
 
-- 规则词典与产品映射：`config/doc_id_rules.json`
+```
+{language}/{package_version}/{category}/{product_code}/{document_key}/{document_version}
+```
+
+示例：`publish/zh/v_3_18_6_20250430/OpenTrek/opentrek/阿里云 专有云 V3.18.6 智能体工厂 OpenTrek AI Gateway 产品简介 20260528.pdf`
+
+```
+zh-cn/3.18.6_20250430/opentrek/opentrek/ai-gateway-product-introduction/20260528
+```
+
+- `language`：`zh-cn` / `en-us`，由转换时的语言输入决定。
+- `package_version`：取发布包目录名并归一化，`v_3_18_6_20250430` → `3.18.6_20250430`；英文包 `V3.18.6` → `3.18.6`、`V3.18.6_2607` → `3.18.6_2607`；`legacy` 包保留为 `legacy`。目录中拿不到包名时退回封面产品版本。
+- `category`：一级分类 slug，直接取发布包的一级目录（11 类），保证 ID 与站点目录一致：`cloud-platform`、`compute`、`storage`、`networking`、`database`、`middleware`、`big-data`、`security`、`monitoring-ops`、`dr-migration`、`opentrek`。`legacy` 包没有分类目录，按产品规则归类。
+- `product_code`：发布包内的产品代码（`ecs`、`oss`、`opentrek`、`apsara_stack_platform` 等）。
+- `document_key`：由封面标题去掉品牌、产品名和指南类型后生成；当多个产品共用同一 `product_code`（如 `opentrek` 下的 AI Gateway / AI Studio / AgentRuntime）时，前缀产品标识，保证同一包、同一日期下不重名。
+- `document_version`：封面“文档版本”八位日期。
+
+相关文件：
+
+- 规则词典、产品映射与 `document_key` 前缀表（`key_prefixes`）：`config/doc_id_rules.json`
 - 人工确认覆盖规则：`config/doc_id_overrides.json`
 - 持久化身份注册表：`config/doc_id_registry.json`（按源 PDF 指纹保持已有文档 ID 稳定）
-- 迁移与审计脚本：`python scripts/migrate_assets_and_ids.py --dry-run` / `--apply`（输出报告至 `reports/ASSET_AND_DOCID_REPORT.md` 与 `reports/document-id-report.json`）
+- 重新打标脚本：`python scripts/retag_document_ids.py --apply`（`dist` 两个站点的 manifest 与注册表一起重算，报告写入 `reports/document-id-retag.json`；`--refresh-rules` 同时刷新转换规则指纹）
 
 ### 续跑和核验
 
-转换器逐份更新输出目录中的 `manifest.json`（`format: 2`），记录 `document_id`、标准化语言/平台版本/产品/文档主题/文档版本、独立 `assets_dir` / `assets_path` / `assets` 清单，以及源/目标文件指纹与转换质量统计。重新运行相同命令会跳过源 PDF 指纹、转换规则、Document ID 及独立资源均匹配的文档，重试失败项。默认最多同时处理 6 份，内存紧张时可用 `--jobs 2`。同一输出目录一次运行一个转换任务。
+转换器逐份更新输出目录中的 `manifest.json`（`format: 3`），记录 `document_id`（六段）、`package_version` / `category` / `product_code` / `product` / `document_key` / `document_version`、独立 `assets_dir` / `assets_path` / `assets` 清单，以及源/目标文件指纹与转换质量统计。重新运行相同命令会跳过源 PDF 指纹、转换规则、Document ID 及独立资源均匹配的文档，重试失败项。默认最多同时处理 6 份，内存紧张时可用 `--jobs 2`。同一输出目录一次运行一个转换任务。
+
 
 清单的 `source` 和 `output` 分别给出相对于源文档根目录和输出目录的路径。`ok` 表示已生成且通过转换内置检查，`review` 表示已生成并有版面问题需要复核，`failed` 表示本次转换失败。`issues` 中的页码从 PDF 封面计为第 1 页。清单另列正文起页、空白页、跨页长图所占的续页、目录项数和跨页表格合并次数。
 
 ```powershell
-# 核对源文件、MD、图片内容指纹、目录锚点、代码围栏和正文页数
-python scripts/verify_pdf_md.py
+# 核对源文件、MD、图片内容指纹、目录锚点、代码围栏、Document ID 与正文页数
+python scripts/verify_pdf_md.py publish/zh --output dist/apsara-docs-zh --jobs 4
+python scripts/verify_pdf_md.py publish/en --output dist/apsara-docs-en --jobs 4
 
 # 实际渲染全库，核对 HTML 中的图片、目录链接、表格和代码块，并保存结果
-python scripts/verify_pdf_md.py --render --jobs 4 --report reports/markdown-verification.json
+python scripts/verify_pdf_md.py publish/zh --output dist/apsara-docs-zh --render --jobs 4 --report reports/markdown-verification.json
 
 # 核验自定义输出目录中的单个产品
-python scripts/verify_pdf_md.py "docs/cn/中间件/应用运维平台" --output preview --render
+python scripts/verify_pdf_md.py "publish/zh/v_3_18_6_20250430/中间件/apigateway" --output preview --render
 
 # 运行针对实际 PDF 样本的回归测试
 python -m unittest discover -s tests -v
@@ -142,6 +161,4 @@ python -m unittest discover -s tests -v
 
 核验程序发现错误时返回非零退出码。核验通过后，清单中的 `review` 项仍可按页对照原 PDF，检查需要人工判断的排版细节。
 
-本次归档的 704 份 MD 均已通过离线渲染核验。[全库核验结果](reports/markdown-verification.json)记录了正文页、标题、表格和代码块统计。[中文应用运维指南](<markdown/cn/中间件/应用运维平台/阿里云 专有云 V3.18.6 应用运维平台 用户指南 20250529.md>)可用于查看嵌套步骤、跨页参数表和 JSON 的实际效果。
-
-[转换清单](markdown/manifest.json)保留了 OpenShift 指南的两条自动复核提示。已对照原 PDF 第 11–13 页和渲染后的表格确认，第 12 页延续“Cluster resources”表右列的 ECS 规格和 ISO 镜像说明，第 13 页延续“DNS”表左列的 DNS 记录要求，两处均已接入对应单元格。
+本次归档的 1171 份 MD（中文 798、英文 373）已按新版六段 Document ID 重算并核验：`0` 失败、`0` ID 冲突、`0` 资源目录漂移，见 [dist/apsara-docs-zh](dist/apsara-docs-zh/README.md) 与 [dist/apsara-docs-en](dist/apsara-docs-en/README.md)。重新运行转换命令时 798/798 与 373/373 全部命中缓存，不会重复转换。

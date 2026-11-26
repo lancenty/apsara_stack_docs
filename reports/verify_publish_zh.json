@@ -1,0 +1,23 @@
+{
+  "rules": "0547db7f46033b75",
+  "rendered": false,
+  "summary": {
+    "documents": 798,
+    "code_blocks": 115888,
+    "pages": 126059,
+    "body_pages": 120661,
+    "headings": 69988,
+    "tables": 81179,
+    "table_joins": 36135,
+    "images": 41310,
+    "unique_document_ids": 798,
+    "unique_assets_paths": 798,
+    "shared_asset_dirs_found": 0,
+    "id_overrides": 0,
+    "id_anomalies": 0,
+    "id_conflicts": 0,
+    "max_asset_path_len": 226,
+    "failed_checks_documents": 0
+  },
+  "errors": {}
+}

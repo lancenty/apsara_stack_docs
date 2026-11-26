@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "applied": true,
+  "sites": {
+    "zh": {
+      "site": "zh",
+      "documents": 798,
+      "unique_document_ids": 798,
+      "ids_changed": 80,
+      "assets_dir_drift": 0,
+      "duplicate_document_ids": 0,
+      "invalid_records": 0,
+      "package_versions": {
+        "3.18.6_20250430": 269,
+        "3.18.6_20260730": 288,
+        "3.18.6_20261030": 231,
+        "legacy": 10
+      },
+      "categories": {
+        "big-data": 72,
+        "cloud-platform": 40,
+        "compute": 109,
+        "database": 115,
+        "dr-migration": 46,
+        "middleware": 75,
+        "monitoring-ops": 31,
+        "networking": 89,
+        "opentrek": 48,
+        "security": 140,
+        "storage": 33
+      },
+      "product_codes": 51
+    },
+    "en": {
+      "site": "en",
+      "documents": 373,
+      "unique_document_ids": 373,
+      "ids_changed": 47,
+      "assets_dir_drift": 0,
+      "duplicate_document_ids": 0,
+      "invalid_records": 0,
+      "package_versions": {
+        "3.18.6": 189,
+        "3.18.6_2607": 176,
+        "legacy": 8
+      },
+      "categories": {
+        "big-data": 24,
+        "cloud-platform": 14,
+        "compute": 55,
+        "database": 53,
+        "dr-migration": 21,
+        "middleware": 29,
+        "monitoring-ops": 14,
+        "networking": 64,
+        "opentrek": 22,
+        "security": 65,
+        "storage": 12
+      },
+      "product_codes": 41
+    }
+  },
+  "problems": [],
+  "registry_documents": 1171
+}

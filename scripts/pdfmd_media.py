@@ -1,6 +1,7 @@
 """Extract original raster images and preserve the appearance of composite figures."""
 
 import hashlib
+import io
 import os
 import time
 from pathlib import Path
@@ -46,7 +47,31 @@ def in_box(inner, outer, slack=1.5):
             and inner[2] <= outer[2] + slack and inner[3] <= outer[3] + slack)
 
 
+def _maybe_encode_webp(data, ext):
+    """Optionally re-encode raster images as WebP using PDFMD_WEBP_QUALITY when smaller."""
+    raw_q = os.environ.get("PDFMD_WEBP_QUALITY", "").strip()
+    if not raw_q or ext.lower() not in ("png", "jpg", "jpeg"):
+        return data, ext
+    quality = int(raw_q)
+    if not 1 <= quality <= 100:
+        raise ValueError(f"PDFMD_WEBP_QUALITY must be 1..100, got {raw_q!r}")
+    from PIL import Image
+
+    with Image.open(io.BytesIO(data)) as im:
+        has_alpha = "A" in im.getbands() or (im.mode == "P" and "transparency" in im.info)
+        target_mode = "RGBA" if has_alpha else "RGB"
+        if im.mode != target_mode:
+            im = im.convert(target_mode)
+        buf = io.BytesIO()
+        im.save(buf, format="WEBP", quality=quality, method=4)
+        webp_bytes = buf.getvalue()
+    if len(webp_bytes) < len(data):
+        return webp_bytes, "webp"
+    return data, ext
+
+
 def _asset(data, ext, rect, page, directory, small=False, asset_prefix="assets"):
+    data, ext = _maybe_encode_webp(data, ext)
     name = hashlib.sha256(data).hexdigest()[:32] + "." + ext
     file = directory / name
     try:

@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "description": "Deterministic rules for normalizing Apsara Stack documentation metadata into canonical Document IDs ({language}/{platform_version}/{product}/{document_key}/{document_version}).",
+  "description": "Deterministic rules for normalizing Apsara Stack documentation metadata into canonical Document IDs ({language}/{package_version}/{category}/{product_code}/{document_key}/{document_version}), mirroring the publish/ package layout.",
   "doc_type_suffixes": [
     "product-introduction",
     "developer-guide",
@@ -26,69 +26,396 @@
     "whitepaper",
     "reference-guide",
     "api-reference",
-    "sdk-reference"
+    "sdk-reference",
+    "glossary",
+    "license",
+    "requirements",
+    "video-zone"
   ],
+  "key_prefixes": {
+    "alb": "alb",
+    "api-gateway": "api-gateway",
+    "apsara-copilot": "apsara-copilot",
+    "apsara-uni-manager": "apsara-uni-manager",
+    "bare-metal-computing": "bare-metal-computing",
+    "bare-metal-management": "bare-metal-management",
+    "bci": "bci",
+    "cloud-native-gateway": "cloud-native-gateway",
+    "cloud-security-center": "cloud-security-center",
+    "cloud-security-scanner": "cloud-security-scanner",
+    "container-security": "container-security",
+    "database-audit": "database-audit",
+    "dcas": "dcas",
+    "opentrek-agent-runtime": "agent-runtime",
+    "opentrek-ai-gateway": "ai-gateway",
+    "opentrek-ai-studio": "ai-studio",
+    "opentrek-dev": "dev",
+    "opentrek-himarket": "himarket",
+    "opentrek-ops": "ops",
+    "opentrek-unioperator": "unioperator",
+    "pai": "pai",
+    "scc": "scc",
+    "server-guard": "server-guard",
+    "soar": "soar",
+    "static-data-masking": "static-data-masking"
+  },
   "topic_replacements": [
-    ["AnalyticDB\\s+for\\s+MySQL\\s+AnalyticDB\\s+for\\s+PostgreSQL", "analyticdb-postgresql"],
-    ["AnalyticDB\\s+for\\s+PostgreSQL版?", "analyticdb-postgresql"],
-    ["AnalyticDB\\s+for\\s+MySQL版?", "analyticdb-mysql"],
-    ["ApsaraDB\\s+RDS\\s+for\\s+SQL\\s+Server", "rds-sql-server"],
-    ["ApsaraDB\\s+RDS\\s+for\\s+PostgreSQL", "rds-postgresql"],
-    ["ApsaraDB\\s+RDS\\s+for\\s+PolarDB", "rds-polardb"],
-    ["ApsaraDB\\s+RDS\\s+for\\s+MySQL", "rds-mysql"],
-    ["RDS\\s+for\\s+SQL\\s+Server版?", "rds-sql-server"],
-    ["RDS\\s+for\\s+PostgreSQL版?", "rds-postgresql"],
-    ["RDS\\s+for\\s+PolarDB版?", "rds-polardb"],
-    ["RDS\\s+for\\s+MySQL版?", "rds-mysql"],
-    ["\\(RDS\\s+PostgreSQL\\)", "rds-postgresql"],
-    ["\\(RDS\\s+MySQL\\)", "rds-mysql"],
-    ["PolarDB\\s+for\\s+PostgreSQL", "postgresql"],
-    ["PolarDB\\s+for\\s+MySQL", "mysql"],
-    ["PolarDB-X\\s*2\\.0版?", "polardb-x-2-0"],
-    ["\\(PolarDB-X\\)|PolarDB-X", "polardb-x"],
-    ["\\(Primary/Secondary\\s+Edition\\)", "primary-secondary"],
-    ["本地盘版", "local-disk"],
-    ["\\(Compute-Storage\\s+Separation\\s+Edition\\)", "compute-storage-separation"],
-    ["Distributed\\s+Cloud\\s+Container\\s+Platform\\s+ACK\\s+One", "ack-one"],
-    ["ASR\\s+for\\s+Zone-disaster\\s+Recovery|同城容灾管理平台|\\(同城容灾\\)", "zone-disaster-recovery"],
-    ["ASR\\s+for\\s+Geo-disaster|异地容灾管理平台|\\(异地容灾\\)", "geo-disaster-recovery"],
-    ["ASR\\s+for\\s+Backup\\s+and\\s+Recovery|备份管理平台", "backup-recovery"],
-    ["Cloud\\s+Platform\\s+Backup\\s+and\\s+O&M\\s+Guide", "cloud-platform-backup operations-guide"],
-    ["Cloud\\s+Platform\\s+Backup|云平台备份", "cloud-platform-backup"],
-    ["Web\\s+Application\\s+Firewall-\\s*Instance|实例型", "instance"],
-    ["NFV\\s+Cloud\\s+Firewall", "nfv-cloud-firewall"],
-    ["Tenant-side\\s+Bastionhost|租户侧堡垒机", "tenant-side"],
-    ["RocketMQ\\s+v5\\.0", "rocketmq-5-0"],
-    ["域名解析\\s*DNS\\s*\\(云内\\)|\\(Within\\s+Cloud\\)", "within-cloud"],
-    ["域名解析\\s*DNS\\s*\\(跨云\\)|\\(Multicloud\\s+Integration\\)", "multicloud-integration"],
-    ["Management\\s+Console|运营控制台", "management-console"],
-    ["实例规格族与实例规格简介|Introduction\\s+to\\s+Instance\\s+Families\\s+and\\s+Instance\\s+Types", "instance-families-introduction"],
-    ["平台运维操作指南|Platform\\s+Operation\\s+and\\s+Maintenance\\s+Operations\\s+Guide", "platform-operations-guide"],
-    ["安全管理员指南|Security\\s+Administrator\\s+Guide", "security-administrator-guide"],
-    ["Operations\\s+and\\s+Maintenance\\s+Guide|运维指南", "operations-guide"],
-    ["Product\\s+Introduction|产品简介", "product-introduction"],
-    ["Developer\\s+Guide|开发指南", "developer-guide"],
-    ["User\\s+Guide|用户指南", "user-guide"],
-    ["(?:^|\\s)Developer$", " developer-guide"],
-    ["网络配置指南", "network-configuration-guide"],
-    ["安装部署指南", "installation-deployment-guide"],
-    ["安装指南", "installation-guide"],
-    ["部署指南", "deployment-guide"],
-    ["配置指南", "configuration-guide"],
-    ["管理指南", "administration-guide"],
-    ["安全指南", "security-guide"],
-    ["监控指南", "monitoring-guide"],
-    ["操作指南", "operations-guide"],
-    ["快速入门", "quick-start"],
-    ["最佳实践", "best-practices"],
-    ["常见问题", "faq"],
-    ["故障排查", "troubleshooting"],
-    ["发布说明|版本说明", "release-notes"],
-    ["技术白皮书", "technical-whitepaper"],
-    ["白皮书", "whitepaper"],
-    ["参考手册", "reference-guide"],
-    ["API参考", "api-reference"],
-    ["SDK参考", "sdk-reference"]
+    [
+      "AnalyticDB\\s+for\\s+MySQL\\s+AnalyticDB\\s+for\\s+PostgreSQL",
+      "analyticdb-postgresql"
+    ],
+    [
+      "AnalyticDB\\s+for\\s+PostgreSQL版?",
+      "analyticdb-postgresql"
+    ],
+    [
+      "AnalyticDB\\s+for\\s+MySQL版?",
+      "analyticdb-mysql"
+    ],
+    [
+      "ApsaraDB\\s+RDS\\s+for\\s+SQL\\s+Server",
+      "rds-sql-server"
+    ],
+    [
+      "ApsaraDB\\s+RDS\\s+for\\s+PostgreSQL",
+      "rds-postgresql"
+    ],
+    [
+      "ApsaraDB\\s+RDS\\s+for\\s+PolarDB",
+      "rds-polardb"
+    ],
+    [
+      "ApsaraDB\\s+RDS\\s+for\\s+MySQL",
+      "rds-mysql"
+    ],
+    [
+      "RDS\\s+for\\s+SQL\\s+Server版?",
+      "rds-sql-server"
+    ],
+    [
+      "RDS\\s+for\\s+PostgreSQL版?",
+      "rds-postgresql"
+    ],
+    [
+      "RDS\\s+for\\s+PolarDB版?",
+      "rds-polardb"
+    ],
+    [
+      "RDS\\s+for\\s+MySQL版?",
+      "rds-mysql"
+    ],
+    [
+      "\\(RDS\\s+PostgreSQL\\)",
+      "rds-postgresql"
+    ],
+    [
+      "\\(RDS\\s+MySQL\\)",
+      "rds-mysql"
+    ],
+    [
+      "PolarDB\\s+for\\s+PostgreSQL",
+      "postgresql"
+    ],
+    [
+      "PolarDB\\s+for\\s+MySQL",
+      "mysql"
+    ],
+    [
+      "PolarDB-X\\s*2\\.0版?",
+      "polardb-x-2-0"
+    ],
+    [
+      "\\(PolarDB-X\\)|PolarDB-X",
+      "polardb-x"
+    ],
+    [
+      "\\(Primary[_/]Secondary\\s+Edition\\)",
+      "primary-secondary"
+    ],
+    [
+      "主备版",
+      "primary-secondary"
+    ],
+    [
+      "集群共享存\\s*储版",
+      "cluster-shared-storage"
+    ],
+    [
+      "集群版",
+      "cluster"
+    ],
+    [
+      "集分一体版",
+      "integrated-distributed"
+    ],
+    [
+      "本地盘版",
+      "local-disk"
+    ],
+    [
+      "\\(Compute-Storage\\s+Separation\\s+Edition\\)",
+      "compute-storage-separation"
+    ],
+    [
+      "Distributed\\s+Cloud\\s+Container\\s+Platform\\s+ACK\\s+One|分布式云容器平台\\s*ACK\\s+One",
+      "ack-one"
+    ],
+    [
+      "ASR\\s+for\\s+Zone-disaster\\s+Recovery|同城容灾管理平台|\\(同城容灾\\)|同城容灾",
+      "zone-disaster-recovery"
+    ],
+    [
+      "ASR\\s+for\\s+Geo-disaster|异地容灾管理平台|\\(异地容灾\\)|异地容灾",
+      "geo-disaster-recovery"
+    ],
+    [
+      "ASR\\s+for\\s+Backup\\s+and\\s+Recovery|备份管理平台",
+      "backup-recovery"
+    ],
+    [
+      "\\(混合云备份\\)|混合云备份",
+      "hybrid-cloud-backup"
+    ],
+    [
+      "主备机房倒换",
+      "idc-switchover"
+    ],
+    [
+      "容灾演练",
+      "disaster-recovery-drill"
+    ],
+    [
+      "机房搬迁",
+      "idc-migration"
+    ],
+    [
+      "Cloud\\s+Platform\\s+Backup\\s+and\\s+O&M\\s+Guide",
+      "cloud-platform-backup operations-guide"
+    ],
+    [
+      "Cloud\\s+Platform\\s+Backup|云平台备份",
+      "cloud-platform-backup"
+    ],
+    [
+      "Web\\s+Application\\s+Firewall-\\s*Instance|实例型",
+      "instance"
+    ],
+    [
+      "NFV\\s+Cloud\\s+Firewall",
+      "nfv-cloud-firewall"
+    ],
+    [
+      "Tenant-side\\s+Bastionhost|租户侧堡垒机|租户侧",
+      "tenant-side"
+    ],
+    [
+      "平台侧",
+      "platform-side"
+    ],
+    [
+      "RocketMQ\\s+v5\\.0",
+      "rocketmq-5-0"
+    ],
+    [
+      "域名解析\\s*DNS\\s*\\(云内\\)|\\(Within\\s+Cloud\\)|\\(云内\\)",
+      "within-cloud"
+    ],
+    [
+      "域名解析\\s*DNS\\s*\\(跨云\\)|\\(Multicloud\\s+Integration\\)|\\(跨云\\)",
+      "multicloud-integration"
+    ],
+    [
+      "\\(旧\\)",
+      "legacy"
+    ],
+    [
+      "\\(对外\\)",
+      "external"
+    ],
+    [
+      "应用型负载均衡\\s*ALB",
+      "alb"
+    ],
+    [
+      "应用型负载均衡|应用型",
+      "alb"
+    ],
+    [
+      "远程证明服务",
+      "attestation-service"
+    ],
+    [
+      "密码服务",
+      "crypto-service"
+    ],
+    [
+      "公共云版",
+      "public-cloud"
+    ],
+    [
+      "数据库审计与风险控制",
+      "audit-risk-control"
+    ],
+    [
+      "数据库安全审计",
+      "security-audit"
+    ],
+    [
+      "数据静态脱敏与水印",
+      "static-data-masking"
+    ],
+    [
+      "OpenTrek\\s*安全白皮书",
+      "opentrek-security-whitepaper"
+    ],
+    [
+      "多\\s*region\\s*技术白皮书",
+      "multi-region-technical-whitepaper"
+    ],
+    [
+      "高可用白皮书",
+      "high-availability-whitepaper"
+    ],
+    [
+      "安全白皮书",
+      "security-whitepaper"
+    ],
+    [
+      "数据中心机房要求",
+      "datacenter-requirements"
+    ],
+    [
+      "专有云\\s*License",
+      "license"
+    ],
+    [
+      "术语表",
+      "glossary"
+    ],
+    [
+      "视频专区",
+      "video-zone"
+    ],
+    [
+      "Management\\s+Console|运营控制台",
+      "management-console"
+    ],
+    [
+      "实例规格族与实例规格简介|实例规格族与实例规格|Introduction\\s+to\\s+Instance\\s+Families\\s+and\\s+Instance\\s+Types",
+      "instance-families-introduction"
+    ],
+    [
+      "专有云基础服务",
+      "base-service"
+    ],
+    [
+      "云平台",
+      "cloud-platform"
+    ],
+    [
+      "平台运维操作指南|Platform\\s+Operation\\s+and\\s+Maintenance\\s+Operations\\s+Guide",
+      "platform-operations-guide"
+    ],
+    [
+      "安全管理员指南|Security\\s+Administrator\\s+Guide",
+      "security-administrator-guide"
+    ],
+    [
+      "Operations\\s+and\\s+Maintenance\\s+Guide|运\\s*维\\s*指\\s*南",
+      "operations-guide"
+    ],
+    [
+      "Product\\s+Introduction|产\\s*品\\s*简\\s*介",
+      "product-introduction"
+    ],
+    [
+      "Developer\\s+Guide|开\\s*发\\s*指\\s*南",
+      "developer-guide"
+    ],
+    [
+      "User\\s+Guide|用\\s*户\\s*指\\s*南",
+      "user-guide"
+    ],
+    [
+      "(?:^|\\s)Developer$",
+      " developer-guide"
+    ],
+    [
+      "网络配置指南",
+      "network-configuration-guide"
+    ],
+    [
+      "安装部署指南",
+      "installation-deployment-guide"
+    ],
+    [
+      "安装指南",
+      "installation-guide"
+    ],
+    [
+      "部署指南",
+      "deployment-guide"
+    ],
+    [
+      "配置指南",
+      "configuration-guide"
+    ],
+    [
+      "管理指南",
+      "administration-guide"
+    ],
+    [
+      "安全指南",
+      "security-guide"
+    ],
+    [
+      "监控指南",
+      "monitoring-guide"
+    ],
+    [
+      "操作指南",
+      "operations-guide"
+    ],
+    [
+      "快速入门",
+      "quick-start"
+    ],
+    [
+      "最佳实践",
+      "best-practices"
+    ],
+    [
+      "常见问题",
+      "faq"
+    ],
+    [
+      "故障排查",
+      "troubleshooting"
+    ],
+    [
+      "发布说明|版本说明(?:书)?",
+      "release-notes"
+    ],
+    [
+      "技术白皮书",
+      "technical-whitepaper"
+    ],
+    [
+      "产品白皮书|白皮书",
+      "whitepaper"
+    ],
+    [
+      "参考手册",
+      "reference-guide"
+    ],
+    [
+      "API参考",
+      "api-reference"
+    ],
+    [
+      "SDK参考",
+      "sdk-reference"
+    ]
   ],
   "products": [
     {
@@ -96,62 +423,163 @@
       "category": "opentrek",
       "cn_name": "OpenTrek AI Gateway",
       "en_name": "OpenTrek AI Gateway",
-      "title_keywords": ["OpenTrek AI Gateway", "AI 网关", "AI Gateway"],
-      "dir_aliases": ["OpenTrek AI Gateway"],
-      "strip_patterns": ["OpenTrek\\s+AI\\s*Gateway", "OpenTrek", "AI\\s*网关", "AI\\s*Gateway"]
+      "title_keywords": [
+        "OpenTrek AI Gateway",
+        "AI 网关",
+        "AI Gateway"
+      ],
+      "dir_aliases": [
+        "OpenTrek AI Gateway"
+      ],
+      "strip_patterns": [
+        "智能体工厂",
+        "OpenTrek\\s+AI\\s*Gateway",
+        "OpenTrek",
+        "AI\\s*网关",
+        "AI\\s*Gateway"
+      ]
     },
     {
       "slug": "opentrek-ai-studio",
       "category": "opentrek",
       "cn_name": "OpenTrek AI Studio",
       "en_name": "OpenTrek AI Studio",
-      "title_keywords": ["OpenTrek AI Studio", "AI Studio"],
-      "dir_aliases": ["OpenTrek AI Studio"],
-      "strip_patterns": ["OpenTrek\\s+AI\\s*Studio", "OpenTrek", "AI\\s*Studio"]
+      "title_keywords": [
+        "OpenTrek AI Studio",
+        "AI Studio"
+      ],
+      "dir_aliases": [
+        "OpenTrek AI Studio"
+      ],
+      "strip_patterns": [
+        "智能体工厂",
+        "OpenTrek\\s+AI\\s*Studio",
+        "OpenTrek",
+        "AI\\s*Studio"
+      ]
     },
     {
       "slug": "opentrek-agent-runtime",
       "category": "opentrek",
       "cn_name": "OpenTrek AgentRuntime",
       "en_name": "OpenTrek AgentRuntime",
-      "title_keywords": ["OpenTrek AgentRuntime", "AgentRuntime"],
-      "dir_aliases": ["OpenTrek AgentRuntime"],
-      "strip_patterns": ["OpenTrek\\s+AgentRuntime", "OpenTrek", "AgentRuntime"]
+      "title_keywords": [
+        "OpenTrek AgentRuntime",
+        "AgentRuntime"
+      ],
+      "dir_aliases": [
+        "OpenTrek AgentRuntime"
+      ],
+      "strip_patterns": [
+        "智能体工厂",
+        "OpenTrek\\s+AgentRuntime",
+        "OpenTrek",
+        "AgentRuntime"
+      ]
+    },
+    {
+      "slug": "opentrek-himarket",
+      "category": "opentrek",
+      "cn_name": "OpenTrek HiMarket",
+      "en_name": "OpenTrek HiMarket",
+      "title_keywords": [
+        "OpenTrek HiMarket",
+        "HiMarket"
+      ],
+      "dir_aliases": [],
+      "strip_patterns": [
+        "智能体工厂",
+        "OpenTrek\\s+HiMarket",
+        "HiMarket",
+        "OpenTrek"
+      ]
+    },
+    {
+      "slug": "opentrek-unioperator",
+      "category": "opentrek",
+      "cn_name": "OpenTrek-UniOperator",
+      "en_name": "OpenTrek-UniOperator",
+      "title_keywords": [
+        "OpenTrek-UniOperator",
+        "UniOperator"
+      ],
+      "dir_aliases": [],
+      "strip_patterns": [
+        "智能体工厂",
+        "OpenTrek[-\\s]+UniOperator",
+        "OpenTrek"
+      ]
     },
     {
       "slug": "opentrek-dev",
       "category": "opentrek",
       "cn_name": "OpenTrek Dev",
       "en_name": "OpenTrek Dev",
-      "title_keywords": ["OpenTrek Dev"],
-      "dir_aliases": ["OpenTrek Dev"],
-      "strip_patterns": ["OpenTrek\\s+Dev", "OpenTrek"]
+      "title_keywords": [
+        "OpenTrek Agent Dev",
+        "OpenTrek Dev"
+      ],
+      "dir_aliases": [
+        "OpenTrek Dev"
+      ],
+      "strip_patterns": [
+        "智能体工厂",
+        "OpenTrek\\s+(?:Agent\\s+)?Dev",
+        "OpenTrek"
+      ]
     },
     {
       "slug": "opentrek-ops",
       "category": "opentrek",
       "cn_name": "OpenTrek Ops",
       "en_name": "OpenTrek Ops",
-      "title_keywords": ["OpenTrek-Ops", "OpenTrek Ops"],
-      "dir_aliases": ["OpenTrek Ops"],
-      "strip_patterns": ["OpenTrek[-\\s]+Ops", "OpenTrek"]
+      "title_keywords": [
+        "OpenTrek-Ops",
+        "OpenTrek Ops"
+      ],
+      "dir_aliases": [
+        "OpenTrek Ops"
+      ],
+      "strip_patterns": [
+        "智能体工厂",
+        "OpenTrek[-\\s]+Ops",
+        "OpenTrek"
+      ]
     },
     {
       "slug": "apsara-copilot",
-      "category": "opentrek",
+      "category": "cloud-platform",
       "cn_name": "飞天助理",
       "en_name": "Apsara Copilot",
-      "title_keywords": ["飞天助理", "Apsara Copilot"],
-      "dir_aliases": ["飞天助理", "Apsara Copilot"],
-      "strip_patterns": ["Apsara\\s+Uni-manager", "Apsara\\s+Copilot", "飞天助理"]
+      "title_keywords": [
+        "飞天助理",
+        "Apsara Copilot"
+      ],
+      "dir_aliases": [
+        "飞天助理",
+        "Apsara Copilot"
+      ],
+      "strip_patterns": [
+        "Apsara\\s+Uni-manager",
+        "Apsara\\s+Copilot",
+        "统一云管平台",
+        "飞天助理"
+      ]
     },
     {
       "slug": "apsara-uni-manager-ops",
       "category": "monitoring-ops",
       "cn_name": "专有云运维平台",
       "en_name": "Apsara Uni-manager Operations Console",
-      "title_keywords": ["专有云运维平台", "Apsara Uni-manager运维控制台", "Apsara Uni-manager Operations Console"],
-      "dir_aliases": ["专有云运维平台", "Apsara Uni-manager Operations Console"],
+      "title_keywords": [
+        "专有云运维平台",
+        "Apsara Uni-manager运维控制台",
+        "Apsara Uni-manager Operations Console"
+      ],
+      "dir_aliases": [
+        "专有云运维平台",
+        "Apsara Uni-manager Operations Console"
+      ],
       "strip_patterns": [
         "apsara\\s+base",
         "统一云管平台",
@@ -165,13 +593,23 @@
       "category": "cloud-platform",
       "cn_name": "统一云管平台",
       "en_name": "Apsara Uni-manager",
-      "title_keywords": ["统一云管平台", "Apsara Uni-manager"],
-      "dir_aliases": ["统一云管平台", "Apsara Uni-manager"],
-      "strip_patterns": ["apsara\\s+base", "统一云管平台", "Apsara\\s+Uni-manager"]
+      "title_keywords": [
+        "统一云管平台",
+        "Apsara Uni-manager"
+      ],
+      "dir_aliases": [
+        "统一云管平台",
+        "Apsara Uni-manager"
+      ],
+      "strip_patterns": [
+        "apsara\\s+base",
+        "统一云管平台",
+        "Apsara\\s+Uni-manager"
+      ]
     },
     {
       "slug": "asr",
-      "category": "cloud-platform",
+      "category": "dr-migration",
       "cn_name": "灾备管理中心",
       "en_name": "Apsara Stack Resilience",
       "title_keywords": [
@@ -182,119 +620,347 @@
         "Apsara Stack Resilience",
         "ASR for"
       ],
-      "dir_aliases": ["灾备管理中心", "备份管理平台", "Disaster Recovery Center", "Backup Management Platform"],
-      "strip_patterns": ["灾备管理中心", "apsara\\s+stack\\s+resilience"]
+      "dir_aliases": [
+        "灾备管理中心",
+        "备份管理平台",
+        "Disaster Recovery Center",
+        "Backup Management Platform"
+      ],
+      "strip_patterns": [
+        "专有云飞天企业版",
+        "灾备管理中心",
+        "apsara\\s+stack\\s+resilience"
+      ]
     },
     {
       "slug": "smc",
       "category": "cloud-platform",
       "cn_name": "服务器迁移中心",
       "en_name": "Server Migration Center",
-      "title_keywords": ["Server Migration Center"],
+      "title_keywords": [
+        "Server Migration Center"
+      ],
       "dir_aliases": [],
-      "strip_patterns": ["Server\\s+Migration\\s+Center"]
+      "strip_patterns": [
+        "Server\\s+Migration\\s+Center"
+      ]
     },
     {
       "slug": "cmh",
-      "category": "cloud-platform",
+      "category": "dr-migration",
       "cn_name": "云迁移中心",
       "en_name": "Cloud Migration Hub",
-      "title_keywords": ["云迁移中心", "Cloud Migration Hub"],
-      "dir_aliases": ["云迁移中心", "Cloud Migration Hub"],
-      "strip_patterns": ["云迁移中心", "cloud\\s+migration\\s+hub"]
-    },
-    {
-      "slug": "dcas",
-      "category": "cloud-platform",
-      "cn_name": "数据中心即服务",
-      "en_name": "Data Center as a Service",
-      "title_keywords": ["Data Center as a Service", "数据中心即服务"],
-      "dir_aliases": ["Data Center as a Service"],
-      "strip_patterns": ["Apsara\\s+Stack\\s+Data\\s+Center\\s+as\\s+a\\s+service", "Data\\s+Center\\s+as\\s+a\\s+service"]
-    },
-    {
-      "slug": "openshift",
-      "category": "compute",
-      "cn_name": "Red Hat OpenShift",
-      "en_name": "Red Hat OpenShift",
-      "title_keywords": ["Red Hat OpenShift"],
-      "dir_aliases": [],
-      "strip_patterns": ["Red\\s+Hat\\s+OpenShift", "Alibaba\\s+Cloud"]
-    },
-    {
-      "slug": "ack",
-      "category": "compute",
-      "cn_name": "容器服务 Kubernetes",
-      "en_name": "Container Service for Kubernetes",
-      "title_keywords": ["容器服务Kubernetes版", "容器服务 Kubernetes", "Container Service for Kubernetes"],
-      "dir_aliases": ["容器服务 Kubernetes", "Container Service for Kubernetes"],
-      "strip_patterns": ["容器服务\\s*Kubernetes版?", "Container\\s+Service\\s+for\\s+Kubernetes"]
-    },
-    {
-      "slug": "acr",
-      "category": "compute",
-      "cn_name": "容器镜像服务 ACR",
-      "en_name": "Container Registry",
-      "title_keywords": ["容器镜像服务", "Container Registry"],
-      "dir_aliases": ["容器镜像服务 ACR", "Container Registry"],
-      "strip_patterns": ["容器镜像服务", "Container\\s+Registry"]
-    },
-    {
-      "slug": "ecs",
-      "category": "compute",
-      "cn_name": "云服务器 ECS",
-      "en_name": "Elastic Compute Service",
-      "title_keywords": ["云服务器ECS", "云服务器 ECS", "Elastic Compute Service"],
-      "dir_aliases": ["云服务器 ECS", "Elastic Compute Service"],
-      "strip_patterns": ["云服务器\\s*ECS", "Elastic\\s+Compute\\s+Service"]
-    },
-    {
-      "slug": "ess",
-      "category": "compute",
-      "cn_name": "弹性伸缩",
-      "en_name": "Auto Scaling",
-      "title_keywords": ["弹性伸缩", "Auto Scaling"],
-      "dir_aliases": ["弹性伸缩", "Auto Scaling"],
-      "strip_patterns": ["弹性伸缩(?:\\s*ESS)?", "Auto\\s+Scaling"]
+      "title_keywords": [
+        "云迁移中心",
+        "Cloud Migration Hub"
+      ],
+      "dir_aliases": [
+        "云迁移中心",
+        "Cloud Migration Hub"
+      ],
+      "strip_patterns": [
+        "云迁移中心",
+        "cloud\\s+migration\\s+hub"
+      ]
     },
     {
       "slug": "terraform",
       "category": "compute",
       "cn_name": "Terraform",
       "en_name": "Terraform",
-      "title_keywords": ["Terraform"],
+      "title_keywords": [
+        "专有云Terraform",
+        "Terraform"
+      ],
+      "dir_aliases": [
+        "terraform"
+      ],
+      "strip_patterns": [
+        "专有云\\s*Terraform",
+        "Terraform"
+      ]
+    },
+    {
+      "slug": "apsara-base",
+      "category": "cloud-platform",
+      "cn_name": "全栈云平台",
+      "en_name": "Apsara Base",
+      "title_keywords": [
+        "专有云基础服务",
+        "专有云License",
+        "OpenTrek安全白皮书",
+        "多region技术白皮书",
+        "安全白皮书",
+        "高可用白皮书",
+        "数据中心机房要求",
+        "术语表"
+      ],
+      "dir_aliases": [
+        "apsarabase"
+      ],
+      "strip_patterns": [
+        "专有云基础服务",
+        "云平台"
+      ]
+    },
+    {
+      "slug": "dcas",
+      "category": "compute",
+      "cn_name": "专有云弹性数据中心",
+      "en_name": "Data Center as a Service",
+      "title_keywords": [
+        "Data Center as a Service",
+        "数据中心即服务",
+        "专有云弹性数据中心"
+      ],
+      "dir_aliases": [
+        "Data Center as a Service"
+      ],
+      "strip_patterns": [
+        "Apsara\\s+Stack\\s+Data\\s+Center\\s+as\\s+a\\s+service",
+        "Data\\s+Center\\s+as\\s+a\\s+service",
+        "专有云弹性数据中心"
+      ]
+    },
+    {
+      "slug": "openshift",
+      "category": "compute",
+      "cn_name": "Red Hat OpenShift",
+      "en_name": "Red Hat OpenShift",
+      "title_keywords": [
+        "Red Hat OpenShift"
+      ],
       "dir_aliases": [],
-      "strip_patterns": ["Terraform"]
+      "strip_patterns": [
+        "Red\\s+Hat\\s+OpenShift",
+        "Alibaba\\s+Cloud"
+      ]
+    },
+    {
+      "slug": "ack",
+      "category": "compute",
+      "cn_name": "容器服务 Kubernetes",
+      "en_name": "Container Service for Kubernetes",
+      "title_keywords": [
+        "容器服务Kubernetes版",
+        "容器服务 Kubernetes",
+        "Container Service for Kubernetes",
+        "分布式云容器平台ACK One"
+      ],
+      "dir_aliases": [
+        "容器服务 Kubernetes",
+        "Container Service for Kubernetes",
+        "csk"
+      ],
+      "strip_patterns": [
+        "容器服务\\s*Kubernetes版?",
+        "Container\\s+Service\\s+for\\s+Kubernetes"
+      ]
+    },
+    {
+      "slug": "alinux",
+      "category": "compute",
+      "cn_name": "Alibaba Cloud Linux",
+      "en_name": "Alibaba Cloud Linux",
+      "title_keywords": [
+        "Alibaba Cloud Linux"
+      ],
+      "dir_aliases": [
+        "Alibaba Cloud Linux",
+        "alinux"
+      ],
+      "strip_patterns": [
+        "Alibaba\\s+Cloud\\s+Linux"
+      ]
+    },
+    {
+      "slug": "ecsgpu",
+      "category": "compute",
+      "cn_name": "GPU云服务器",
+      "en_name": "Elastic GPU Service",
+      "title_keywords": [
+        "GPU云服务器"
+      ],
+      "dir_aliases": [
+        "ecsgpu"
+      ],
+      "strip_patterns": [
+        "GPU\\s*云服务器(?:\\s*\\(EGS\\))?"
+      ]
+    },
+    {
+      "slug": "ehpc",
+      "category": "compute",
+      "cn_name": "弹性高性能计算",
+      "en_name": "Elastic High Performance Computing",
+      "title_keywords": [
+        "弹性高性能计算"
+      ],
+      "dir_aliases": [
+        "ehpc"
+      ],
+      "strip_patterns": [
+        "弹性高性能计算"
+      ]
+    },
+    {
+      "slug": "acr",
+      "category": "compute",
+      "cn_name": "容器镜像服务 ACR",
+      "en_name": "Container Registry",
+      "title_keywords": [
+        "容器镜像服务",
+        "Container Registry"
+      ],
+      "dir_aliases": [
+        "容器镜像服务 ACR",
+        "Container Registry"
+      ],
+      "strip_patterns": [
+        "容器镜像服务",
+        "Container\\s+Registry"
+      ]
+    },
+    {
+      "slug": "ecs",
+      "category": "compute",
+      "cn_name": "云服务器 ECS",
+      "en_name": "Elastic Compute Service",
+      "title_keywords": [
+        "云服务器ECS",
+        "云服务器 ECS",
+        "Elastic Compute Service"
+      ],
+      "dir_aliases": [
+        "云服务器 ECS",
+        "Elastic Compute Service"
+      ],
+      "strip_patterns": [
+        "云服务器\\s*ECS",
+        "Elastic\\s+Compute\\s+Service"
+      ]
+    },
+    {
+      "slug": "ess",
+      "category": "compute",
+      "cn_name": "弹性伸缩",
+      "en_name": "Auto Scaling",
+      "title_keywords": [
+        "弹性伸缩",
+        "Auto Scaling"
+      ],
+      "dir_aliases": [
+        "弹性伸缩",
+        "Auto Scaling"
+      ],
+      "strip_patterns": [
+        "弹性伸缩(?:\\s*ESS)?",
+        "Auto\\s+Scaling"
+      ]
     },
     {
       "slug": "ros",
       "category": "compute",
       "cn_name": "资源编排 ROS",
       "en_name": "Resource Orchestration Service",
-      "title_keywords": ["资源编排", "Resource Orchestration Service"],
-      "dir_aliases": ["资源编排 ROS", "Resource Orchestration Service"],
-      "strip_patterns": ["资源编排(?:\\s*ROS)?", "Resource\\s+Orchestration\\s+Service"]
+      "title_keywords": [
+        "资源编排",
+        "Resource Orchestration Service"
+      ],
+      "dir_aliases": [
+        "资源编排 ROS",
+        "Resource Orchestration Service"
+      ],
+      "strip_patterns": [
+        "资源编排(?:\\s*ROS)?",
+        "Resource\\s+Orchestration\\s+Service"
+      ]
     },
     {
       "slug": "oos",
-      "category": "compute",
+      "category": "monitoring-ops",
       "cn_name": "运维编排 OOS",
       "en_name": "Operation Orchestration Service",
-      "title_keywords": ["运维编排", "Operation Orchestration Service"],
-      "dir_aliases": ["运维编排 OOS", "Operation Orchestration Service"],
-      "strip_patterns": ["运维编排(?:\\s*OOS)?", "Operation\\s+Orchestration\\s+Service"]
+      "title_keywords": [
+        "运维编排",
+        "Operation Orchestration Service"
+      ],
+      "dir_aliases": [
+        "运维编排 OOS",
+        "Operation Orchestration Service"
+      ],
+      "strip_patterns": [
+        "运维编排(?:\\s*OOS)?",
+        "Operation\\s+Orchestration\\s+Service"
+      ]
     },
     {
       "slug": "bare-metal-computing",
-      "category": "compute",
+      "category": "big-data",
       "cn_name": "裸金属算力平台",
       "en_name": "Bare Metal Computing Platform",
-      "title_keywords": ["裸金属算力平台", "Bare Metal Computing Platform"],
-      "dir_aliases": ["裸金属算力平台", "Bare Metal Computing Platform"],
+      "title_keywords": [
+        "裸金属算力平台",
+        "Bare Metal Computing Platform"
+      ],
+      "dir_aliases": [
+        "裸金属算力平台",
+        "Bare Metal Computing Platform"
+      ],
       "strip_patterns": [
         "Machine\\s+Learning\\s+Platform\\s+for\\s+AI",
+        "人工智能平台\\s*PAI",
+        "机器学习\\s*PAI",
+        "裸金属算力平台\\s*BMCP",
         "裸金属算力平台",
         "Bare\\s+Metal\\s+Computing\\s+Platform"
+      ]
+    },
+    {
+      "slug": "bci",
+      "category": "big-data",
+      "cn_name": "裸金属容器算力平台 BCI",
+      "en_name": "Bare Metal Container Instance",
+      "title_keywords": [
+        "裸金属容器算力平台BCI"
+      ],
+      "dir_aliases": [],
+      "strip_patterns": [
+        "人工智能平台\\s*PAI",
+        "机器学习\\s*PAI",
+        "裸金属容器算力平台\\s*BCI"
+      ]
+    },
+    {
+      "slug": "scc",
+      "category": "big-data",
+      "cn_name": "超级计算集群 SCC",
+      "en_name": "Super Computing Cluster",
+      "title_keywords": [
+        "超级计算集群SCC"
+      ],
+      "dir_aliases": [],
+      "strip_patterns": [
+        "人工智能平台\\s*PAI",
+        "机器学习\\s*PAI",
+        "超级计算集群\\s*SCC"
+      ]
+    },
+    {
+      "slug": "pai",
+      "category": "big-data",
+      "cn_name": "人工智能平台 PAI",
+      "en_name": "Platform for AI",
+      "title_keywords": [
+        "人工智能平台PAI",
+        "机器学习PAI"
+      ],
+      "dir_aliases": [
+        "learn"
+      ],
+      "strip_patterns": [
+        "人工智能平台\\s*PAI",
+        "机器学习\\s*PAI"
       ]
     },
     {
@@ -302,17 +968,36 @@
       "category": "compute",
       "cn_name": "裸机管理服务",
       "en_name": "BareMetal Management Service",
-      "title_keywords": ["裸机管理服务", "BareMetal Management Service", "BareMetal Mangement Service"],
-      "dir_aliases": ["裸机管理服务", "BareMetal Management Service"],
-      "strip_patterns": ["裸机管理服务", "BareMetal\\s+Man(?:a)?gement\\s+Servic\\s*e"]
+      "title_keywords": [
+        "裸机管理服务",
+        "裸机管理BMS",
+        "BareMetal Management Service",
+        "BareMetal Mangement Service"
+      ],
+      "dir_aliases": [
+        "裸机管理服务",
+        "BareMetal Management Service",
+        "dcaas"
+      ],
+      "strip_patterns": [
+        "裸机管理服务",
+        "裸机管理\\s*BMS",
+        "BareMetal\\s+Man(?:a)?gement\\s+Servic\\s*e"
+      ]
     },
     {
       "slug": "apfs",
       "category": "storage",
       "cn_name": "高性能并行文件存储 APFS",
       "en_name": "ApsaraStack Parallel File System",
-      "title_keywords": ["高性能并行文件存储APFS", "ApsaraStack Parallel File System"],
-      "dir_aliases": ["高性能并行文件存储 APFS", "ApsaraStack Parallel File System"],
+      "title_keywords": [
+        "高性能并行文件存储APFS",
+        "ApsaraStack Parallel File System"
+      ],
+      "dir_aliases": [
+        "高性能并行文件存储 APFS",
+        "ApsaraStack Parallel File System"
+      ],
       "strip_patterns": [
         "Cloud\\s+Defined\\s+Storage",
         "高性能并行文件存储\\s*APFS",
@@ -324,17 +1009,33 @@
       "category": "storage",
       "cn_name": "文件存储 CPFS",
       "en_name": "Cloud Parallel File Storage",
-      "title_keywords": ["文件存储CPFS", "Cloud Parallel File Storage"],
-      "dir_aliases": ["文件存储 CPFS", "Cloud Parallel File Storage"],
-      "strip_patterns": ["Cloud\\s+Defined\\s+Storage", "文件存储\\s*CPFS", "Cloud\\s+Parallel\\s+File\\s+Storage"]
+      "title_keywords": [
+        "文件存储CPFS",
+        "Cloud Parallel File Storage"
+      ],
+      "dir_aliases": [
+        "文件存储 CPFS",
+        "Cloud Parallel File Storage"
+      ],
+      "strip_patterns": [
+        "Cloud\\s+Defined\\s+Storage",
+        "文件存储\\s*CPFS",
+        "Cloud\\s+Parallel\\s+File\\s+Storage"
+      ]
     },
     {
       "slug": "efs-nas",
       "category": "storage",
       "cn_name": "弹性文件存储 EFS-NAS",
       "en_name": "Elastic File System NAS",
-      "title_keywords": ["弹性文件存储 EFS-NAS", "Elastic File System NAS"],
-      "dir_aliases": ["弹性文件存储 EFS-NAS", "Elastic File System NAS"],
+      "title_keywords": [
+        "弹性文件存储 EFS-NAS",
+        "Elastic File System NAS"
+      ],
+      "dir_aliases": [
+        "弹性文件存储 EFS-NAS",
+        "Elastic File System NAS"
+      ],
       "strip_patterns": [
         "Cloud\\s+Defined\\s+Storage",
         "(?:阿里云)?弹性文件存储\\s*EFS-NAS",
@@ -346,163 +1047,330 @@
       "category": "storage",
       "cn_name": "文件存储 NAS",
       "en_name": "File Storage NAS",
-      "title_keywords": ["文件存储NAS", "Apsara File Storage NAS", "File Storage NAS"],
-      "dir_aliases": ["文件存储 NAS", "File Storage NAS"],
-      "strip_patterns": ["文件存储\\s*NAS", "(?:Apsara\\s+)?File\\s+Storage\\s+NAS"]
+      "title_keywords": [
+        "文件存储NAS",
+        "Apsara File Storage NAS",
+        "File Storage NAS"
+      ],
+      "dir_aliases": [
+        "文件存储 NAS",
+        "File Storage NAS"
+      ],
+      "strip_patterns": [
+        "文件存储\\s*NAS",
+        "(?:Apsara\\s+)?File\\s+Storage\\s+NAS"
+      ]
     },
     {
       "slug": "cds",
       "category": "storage",
       "cn_name": "云定义存储",
       "en_name": "Cloud Defined Storage",
-      "title_keywords": ["云服务定义存储", "Cloud Defined Storage"],
-      "dir_aliases": ["云定义存储", "Cloud Defined Storage"],
-      "strip_patterns": ["云服务定义存储", "Cloud\\s+Defined\\s+Storage"]
+      "title_keywords": [
+        "云服务定义存储",
+        "Cloud Defined Storage"
+      ],
+      "dir_aliases": [
+        "云定义存储",
+        "Cloud Defined Storage"
+      ],
+      "strip_patterns": [
+        "云服务定义存储",
+        "Cloud\\s+Defined\\s+Storage"
+      ]
     },
     {
       "slug": "oss",
       "category": "storage",
       "cn_name": "对象存储 OSS",
       "en_name": "Object Storage Service",
-      "title_keywords": ["对象存储", "Object Storage Service"],
-      "dir_aliases": ["对象存储 OSS", "Object Storage Service"],
-      "strip_patterns": ["对象存储(?:\\s*OSS)?", "Object\\s+Storage\\s+Service"]
+      "title_keywords": [
+        "对象存储",
+        "Object Storage Service"
+      ],
+      "dir_aliases": [
+        "对象存储 OSS",
+        "Object Storage Service"
+      ],
+      "strip_patterns": [
+        "对象存储(?:\\s*OSS)?",
+        "Object\\s+Storage\\s+Service"
+      ]
     },
     {
       "slug": "sls",
       "category": "storage",
       "cn_name": "日志服务 SLS",
       "en_name": "Log Service",
-      "title_keywords": ["日志服务", "Log Service"],
-      "dir_aliases": ["日志服务 SLS", "Log Service"],
-      "strip_patterns": ["日志服务(?:\\s*SLS)?", "Log\\s+Service"]
+      "title_keywords": [
+        "日志服务",
+        "Log Service"
+      ],
+      "dir_aliases": [
+        "日志服务 SLS",
+        "Log Service"
+      ],
+      "strip_patterns": [
+        "日志服务(?:\\s*SLS)?",
+        "Log\\s+Service"
+      ]
     },
     {
       "slug": "tablestore",
       "category": "storage",
       "cn_name": "表格存储 Tablestore",
       "en_name": "Tablestore",
-      "title_keywords": ["表格存储", "Tablestore"],
-      "dir_aliases": ["表格存储 Tablestore", "Tablestore"],
-      "strip_patterns": ["表格存储", "Tablestore"]
+      "title_keywords": [
+        "表格存储",
+        "Tablestore"
+      ],
+      "dir_aliases": [
+        "表格存储 Tablestore",
+        "Tablestore"
+      ],
+      "strip_patterns": [
+        "表格存储",
+        "Tablestore"
+      ]
     },
     {
       "slug": "alb",
       "category": "networking",
       "cn_name": "应用型负载均衡 ALB",
       "en_name": "Application Load Balancer",
-      "title_keywords": ["Application Load Balancer"],
+      "title_keywords": [
+        "Application Load Balancer"
+      ],
       "dir_aliases": [],
-      "strip_patterns": ["Server\\s+Load\\s+Balancer", "Application\\s+Load\\s+Balancer"]
+      "strip_patterns": [
+        "Server\\s+Load\\s+Balancer",
+        "Application\\s+Load\\s+Balancer"
+      ]
     },
     {
       "slug": "slb",
       "category": "networking",
       "cn_name": "负载均衡 SLB",
       "en_name": "Server Load Balancer",
-      "title_keywords": ["负载均衡", "Server Load Balancer"],
-      "dir_aliases": ["负载均衡 SLB", "Server Load Balancer"],
-      "strip_patterns": ["负载均衡(?:\\s*SLB)?", "Server\\s+Load\\s+Balancer"]
+      "title_keywords": [
+        "负载均衡",
+        "Server Load Balancer"
+      ],
+      "dir_aliases": [
+        "负载均衡 SLB",
+        "Server Load Balancer"
+      ],
+      "strip_patterns": [
+        "负载均衡(?:\\s*SLB)?",
+        "Server\\s+Load\\s+Balancer"
+      ]
     },
     {
       "slug": "vpc",
       "category": "networking",
       "cn_name": "专有网络 VPC",
       "en_name": "Virtual Private Cloud",
-      "title_keywords": ["专有网络VPC", "专有网络 VPC", "Virtual Private Cloud"],
-      "dir_aliases": ["专有网络 VPC", "Virtual Private Cloud"],
-      "strip_patterns": ["专有网络\\s*VPC", "Virtual\\s+Private\\s+Cloud"]
+      "title_keywords": [
+        "专有网络VPC",
+        "专有网络 VPC",
+        "Virtual Private Cloud"
+      ],
+      "dir_aliases": [
+        "专有网络 VPC",
+        "Virtual Private Cloud"
+      ],
+      "strip_patterns": [
+        "专有网络\\s*VPC",
+        "Virtual\\s+Private\\s+Cloud"
+      ]
     },
     {
       "slug": "eip",
       "category": "networking",
       "cn_name": "弹性公网IP",
       "en_name": "Elastic IP Address",
-      "title_keywords": ["弹性公网IP", "Elastic IP Address"],
-      "dir_aliases": ["弹性公网IP", "Elastic IP Address"],
-      "strip_patterns": ["弹性公网\\s*IP", "Elastic\\s+IP\\s+Address"]
+      "title_keywords": [
+        "弹性公网IP",
+        "Elastic IP Address"
+      ],
+      "dir_aliases": [
+        "弹性公网IP",
+        "Elastic IP Address"
+      ],
+      "strip_patterns": [
+        "弹性公网\\s*IP",
+        "Elastic\\s+IP\\s+Address"
+      ]
     },
     {
       "slug": "nat",
       "category": "networking",
       "cn_name": "NAT网关",
       "en_name": "NAT Gateway",
-      "title_keywords": ["NAT网关", "NAT Gateway"],
-      "dir_aliases": ["NAT网关", "NAT Gateway"],
-      "strip_patterns": ["NAT\\s*网关", "NAT\\s+Gateway"]
+      "title_keywords": [
+        "NAT网关",
+        "NAT Gateway"
+      ],
+      "dir_aliases": [
+        "NAT网关",
+        "NAT Gateway"
+      ],
+      "strip_patterns": [
+        "NAT\\s*网关",
+        "NAT\\s+Gateway"
+      ]
     },
     {
       "slug": "vpn",
       "category": "networking",
       "cn_name": "VPN网关",
       "en_name": "VPN Gateway",
-      "title_keywords": ["VPN网关", "VPN Gateway"],
-      "dir_aliases": ["VPN网关", "VPN Gateway"],
-      "strip_patterns": ["VPN\\s*网关", "VPN\\s+Gateway"]
+      "title_keywords": [
+        "VPN网关",
+        "VPN Gateway"
+      ],
+      "dir_aliases": [
+        "VPN网关",
+        "VPN Gateway"
+      ],
+      "strip_patterns": [
+        "VPN\\s*网关",
+        "VPN\\s+Gateway"
+      ]
     },
     {
       "slug": "ipv6-gateway",
       "category": "networking",
       "cn_name": "IPv6网关",
       "en_name": "IPv6 Gateway",
-      "title_keywords": ["IPv6网关", "IPv6 Gateway"],
-      "dir_aliases": ["IPv6网关", "IPv6 Gateway"],
-      "strip_patterns": ["IPv6\\s*网关", "IPv6\\s+Gateway"]
+      "title_keywords": [
+        "IPv6网关",
+        "IPv6 Gateway"
+      ],
+      "dir_aliases": [
+        "IPv6网关",
+        "IPv6 Gateway"
+      ],
+      "strip_patterns": [
+        "IPv6\\s*网关",
+        "IPv6\\s+Gateway"
+      ]
     },
     {
       "slug": "transit-router",
       "category": "networking",
       "cn_name": "转发路由器",
       "en_name": "TransitRouter",
-      "title_keywords": ["转发路由器", "TransitRouter"],
-      "dir_aliases": ["转发路由器", "TransitRouter"],
-      "strip_patterns": ["转发路由器", "TransitRouter"]
+      "title_keywords": [
+        "转发路由器",
+        "TransitRouter"
+      ],
+      "dir_aliases": [
+        "转发路由器",
+        "TransitRouter"
+      ],
+      "strip_patterns": [
+        "转发路由器",
+        "TransitRouter"
+      ]
     },
     {
       "slug": "express-connect",
       "category": "networking",
       "cn_name": "高速通道",
       "en_name": "Express Connect",
-      "title_keywords": ["高速通道", "Express Connect"],
-      "dir_aliases": ["高速通道", "Express Connect"],
-      "strip_patterns": ["高速通道", "Express\\s+Connect"]
+      "title_keywords": [
+        "高速通道",
+        "Express Connect"
+      ],
+      "dir_aliases": [
+        "高速通道",
+        "Express Connect"
+      ],
+      "strip_patterns": [
+        "高速通道",
+        "Express\\s+Connect"
+      ]
     },
     {
       "slug": "cloud-gateway",
       "category": "networking",
       "cn_name": "云接入网关",
       "en_name": "Cloud Gateway",
-      "title_keywords": ["云接入网关", "Cloud Gateway"],
-      "dir_aliases": ["云接入网关", "Cloud Gateway"],
-      "strip_patterns": ["云接入网关", "cloud\\s+gateway"]
+      "title_keywords": [
+        "云接入网关",
+        "Cloud Gateway"
+      ],
+      "dir_aliases": [
+        "云接入网关",
+        "Cloud Gateway"
+      ],
+      "strip_patterns": [
+        "云接入网关",
+        "cloud\\s+gateway"
+      ]
     },
     {
       "slug": "dns",
       "category": "networking",
       "cn_name": "专有云DNS",
       "en_name": "Apsara Stack DNS",
-      "title_keywords": ["专有云DNS", "Apsara Stack DNS", "Alibaba Cloud DNS"],
-      "dir_aliases": ["专有云DNS", "Apsara Stack DNS"],
-      "strip_patterns": ["专有云\\s*DNS", "Apsara\\s+Stack\\s+DNS", "Alibaba\\s+Cloud\\s+DNS"]
+      "title_keywords": [
+        "专有云DNS",
+        "Apsara Stack DNS",
+        "Alibaba Cloud DNS"
+      ],
+      "dir_aliases": [
+        "专有云DNS",
+        "Apsara Stack DNS"
+      ],
+      "strip_patterns": [
+        "专有云\\s*DNS",
+        "Apsara\\s+Stack\\s+DNS",
+        "Alibaba\\s+Cloud\\s+DNS"
+      ]
     },
     {
       "slug": "rds",
       "category": "database",
       "cn_name": "云数据库 RDS",
       "en_name": "ApsaraDB for RDS",
-      "title_keywords": ["云数据库RDS", "云数据库 RDS", "ApsaraDB for RDS", "ApsaraDB RDS", "RDS for SQL Server"],
-      "dir_aliases": ["云数据库 RDS", "ApsaraDB for RDS"],
-      "strip_patterns": ["云数据库\\s*RDS(?!\\s+for\\b)", "云数据库(?=\\s+RDS\\s+for\\b)", "ApsaraDB\\s+for\\s+RDS"]
+      "title_keywords": [
+        "云数据库RDS",
+        "云数据库 RDS",
+        "ApsaraDB for RDS",
+        "ApsaraDB RDS",
+        "RDS for SQL Server"
+      ],
+      "dir_aliases": [
+        "云数据库 RDS",
+        "ApsaraDB for RDS"
+      ],
+      "strip_patterns": [
+        "云数据库\\s*RDS(?!\\s+for\\b)",
+        "云数据库(?=\\s+RDS\\s+for\\b)",
+        "ApsaraDB\\s+for\\s+RDS"
+      ]
     },
     {
       "slug": "polardb",
       "category": "database",
       "cn_name": "云原生关系型数据库 PolarDB",
       "en_name": "ApsaraDB for POLARDB",
-      "title_keywords": ["云原生关系型数据库 PolarDB", "ApsaraDB for POLARDB", "PolarDB"],
-      "dir_aliases": ["云原生关系型数据库 PolarDB", "ApsaraDB for POLARDB"],
+      "title_keywords": [
+        "云原生关系型数据库 PolarDB",
+        "云原生数据库 PolarDB",
+        "ApsaraDB for POLARDB",
+        "PolarDB"
+      ],
+      "dir_aliases": [
+        "云原生关系型数据库 PolarDB",
+        "ApsaraDB for POLARDB",
+        "polardb"
+      ],
       "strip_patterns": [
         "云原生关系型数据库\\s*PolarDB",
+        "云原生数据库\\s*PolarDB",
         "ApsaraDB\\s+for\\s+POLARDB",
         "Cloud\\s+Native\\s+Distributed\\s+Database"
       ]
@@ -512,12 +1380,39 @@
       "category": "database",
       "cn_name": "云数据库 Redis",
       "en_name": "ApsaraDB for Redis",
-      "title_keywords": ["云数据库 Redis 版", "ApsaraDB for Redis", "Tair(Redis OSS-compatible)", "Tair（Redis OSS-compatible）"],
-      "dir_aliases": ["云数据库 Redis", "ApsaraDB for Redis"],
+      "title_keywords": [
+        "云数据库 Redis 版",
+        "云数据库 Tair(兼容 Redis)",
+        "云数据库 Tair(兼容Redis)",
+        "ApsaraDB for Redis",
+        "Tair(Redis OSS-compatible)",
+        "Tair（Redis OSS-compatible）"
+      ],
+      "dir_aliases": [
+        "云数据库 Redis",
+        "ApsaraDB for Redis",
+        "kvstore"
+      ],
       "strip_patterns": [
+        "云数据库\\s*Tair\\s*\\(兼容\\s*Redis\\)",
         "云数据库\\s*Redis\\s*版?",
         "ApsaraDB\\s+for\\s+Redis",
         "Tair\\s*\\(Redis\\s+OSS-compatible\\)"
+      ]
+    },
+    {
+      "slug": "hdm",
+      "category": "database",
+      "cn_name": "数据库自治服务 DAS",
+      "en_name": "Database Autonomy Service",
+      "title_keywords": [
+        "数据库自治服务"
+      ],
+      "dir_aliases": [
+        "hdm"
+      ],
+      "strip_patterns": [
+        "数据库自治服务"
       ]
     },
     {
@@ -525,89 +1420,174 @@
       "category": "database",
       "cn_name": "云数据库 MongoDB",
       "en_name": "ApsaraDB for MongoDB",
-      "title_keywords": ["云数据库 MongoDB 版", "ApsaraDB for MongoDB"],
-      "dir_aliases": ["云数据库 MongoDB", "ApsaraDB for MongoDB"],
-      "strip_patterns": ["云数据库\\s*MongoDB\\s*版?", "ApsaraDB\\s+for\\s+MongoDB"]
+      "title_keywords": [
+        "云数据库 MongoDB 版",
+        "ApsaraDB for MongoDB"
+      ],
+      "dir_aliases": [
+        "云数据库 MongoDB",
+        "ApsaraDB for MongoDB"
+      ],
+      "strip_patterns": [
+        "云数据库\\s*MongoDB\\s*版?",
+        "ApsaraDB\\s+for\\s+MongoDB"
+      ]
     },
     {
       "slug": "lindorm",
       "category": "database",
       "cn_name": "云原生多模数据库 Lindorm",
       "en_name": "Lindorm",
-      "title_keywords": ["云原生多模数据库Lindorm", "Lindorm"],
-      "dir_aliases": ["云原生多模数据库 Lindorm", "Lindorm"],
-      "strip_patterns": ["云原生多模数据库\\s*Lindorm", "Lindorm"]
+      "title_keywords": [
+        "云原生多模数据库Lindorm",
+        "Lindorm"
+      ],
+      "dir_aliases": [
+        "云原生多模数据库 Lindorm",
+        "Lindorm"
+      ],
+      "strip_patterns": [
+        "云原生多模数据库\\s*Lindorm",
+        "Lindorm"
+      ]
     },
     {
       "slug": "analyticdb",
       "category": "database",
       "cn_name": "云原生数据仓库 AnalyticDB",
       "en_name": "AnalyticDB",
-      "title_keywords": ["云原生数据仓库 AnalyticDB", "AnalyticDB"],
-      "dir_aliases": ["云原生数据仓库 AnalyticDB", "AnalyticDB"],
-      "strip_patterns": ["云原生数据仓库\\s*AnalyticDB"]
+      "title_keywords": [
+        "云原生数据仓库 AnalyticDB",
+        "AnalyticDB"
+      ],
+      "dir_aliases": [
+        "云原生数据仓库 AnalyticDB",
+        "AnalyticDB"
+      ],
+      "strip_patterns": [
+        "云原生数据仓库\\s*AnalyticDB"
+      ]
     },
     {
       "slug": "tsdb",
       "category": "database",
       "cn_name": "时序时空数据库",
       "en_name": "Time Series and Spatial-Temporal Database",
-      "title_keywords": ["时序时空数据库", "Time Series and Spatial-Temporal Database"],
-      "dir_aliases": ["时序时空数据库", "Time Series and Spatial-Temporal Database"],
-      "strip_patterns": ["时序时空数据库", "Time\\s+Series\\s+and\\s+Spatial-\\s*Temporal\\s+Database"]
+      "title_keywords": [
+        "时序时空数据库",
+        "Time Series and Spatial-Temporal Database"
+      ],
+      "dir_aliases": [
+        "时序时空数据库",
+        "Time Series and Spatial-Temporal Database"
+      ],
+      "strip_patterns": [
+        "时序时空数据库",
+        "Time\\s+Series\\s+and\\s+Spatial-\\s*Temporal\\s+Database"
+      ]
     },
     {
       "slug": "dts",
       "category": "database",
       "cn_name": "数据传输服务 DTS",
       "en_name": "Data Transmission Service",
-      "title_keywords": ["数据传输", "Data Transmission Service"],
-      "dir_aliases": ["数据传输服务 DTS", "Data Transmission Service"],
-      "strip_patterns": ["数据传输(?:服务\\s*DTS)?", "Data\\s+Transmission\\s+Service"]
+      "title_keywords": [
+        "数据传输",
+        "Data Transmission Service"
+      ],
+      "dir_aliases": [
+        "数据传输服务 DTS",
+        "Data Transmission Service"
+      ],
+      "strip_patterns": [
+        "数据传输(?:服务\\s*DTS)?",
+        "Data\\s+Transmission\\s+Service"
+      ]
     },
     {
       "slug": "dms",
       "category": "database",
       "cn_name": "数据管理 DMS",
       "en_name": "Data Management",
-      "title_keywords": ["数据管理", "Data Management"],
-      "dir_aliases": ["数据管理 DMS", "Data Management"],
-      "strip_patterns": ["数据管理(?:\\s*DMS)?", "Data\\s+Management"]
+      "title_keywords": [
+        "数据管理",
+        "Data Management"
+      ],
+      "dir_aliases": [
+        "数据管理 DMS",
+        "Data Management"
+      ],
+      "strip_patterns": [
+        "数据管理(?:\\s*DMS)?",
+        "Data\\s+Management"
+      ]
     },
     {
       "slug": "dbs",
       "category": "database",
       "cn_name": "数据库备份",
       "en_name": "Database Backup",
-      "title_keywords": ["数据库备份", "Database Backup"],
-      "dir_aliases": ["数据库备份", "Database Backup"],
-      "strip_patterns": ["数据库备份", "Database\\s+Backup"]
+      "title_keywords": [
+        "数据库备份",
+        "Database Backup"
+      ],
+      "dir_aliases": [
+        "数据库备份",
+        "Database Backup"
+      ],
+      "strip_patterns": [
+        "数据库备份",
+        "Database\\s+Backup"
+      ]
     },
     {
       "slug": "datahub",
       "category": "database",
       "cn_name": "数据总线 DataHub",
       "en_name": "DataHub",
-      "title_keywords": ["数据总线", "DataHub"],
-      "dir_aliases": ["数据总线 DataHub", "DataHub"],
-      "strip_patterns": ["数据总线(?:\\s*DataHub)?", "DataHub"]
+      "title_keywords": [
+        "数据总线",
+        "DataHub"
+      ],
+      "dir_aliases": [
+        "数据总线 DataHub",
+        "DataHub"
+      ],
+      "strip_patterns": [
+        "数据总线(?:\\s*DataHub)?",
+        "DataHub"
+      ]
     },
     {
       "slug": "schedulerx",
       "category": "middleware",
       "cn_name": "SchedulerX 2.0",
       "en_name": "SchedulerX 2.0",
-      "title_keywords": ["SchedulerX 2.0", "SchedulerX"],
-      "dir_aliases": ["SchedulerX 2.0"],
-      "strip_patterns": ["Enterprise\\s+Distributed\\s+Application\\s+Service\\s*\\(EDAS\\)", "SchedulerX\\s*2\\.0"]
+      "title_keywords": [
+        "SchedulerX 2.0",
+        "SchedulerX"
+      ],
+      "dir_aliases": [
+        "SchedulerX 2.0"
+      ],
+      "strip_patterns": [
+        "Enterprise\\s+Distributed\\s+Application\\s+Service\\s*\\(EDAS\\)",
+        "SchedulerX\\s*2\\.0"
+      ]
     },
     {
       "slug": "edas",
       "category": "middleware",
       "cn_name": "企业级分布式应用服务 EDAS",
       "en_name": "Enterprise Distributed Application Service",
-      "title_keywords": ["企业级分布式应用服务", "Enterprise Distributed Application Service"],
-      "dir_aliases": ["企业级分布式应用服务 EDAS", "Enterprise Distributed Application Service"],
+      "title_keywords": [
+        "企业级分布式应用服务",
+        "Enterprise Distributed Application Service"
+      ],
+      "dir_aliases": [
+        "企业级分布式应用服务 EDAS",
+        "Enterprise Distributed Application Service"
+      ],
       "strip_patterns": [
         "企业级分布式应用服务(?:\\s*EDAS)?",
         "Enterprise\\s+Distributed\\s+Application\\s+Service(?:\\s*\\(EDAS\\))?",
@@ -619,62 +1599,131 @@
       "category": "middleware",
       "cn_name": "消息队列 Kafka版",
       "en_name": "Message Queue for Apache Kafka",
-      "title_keywords": ["消息队列Kafka版", "Message Queue for Apache Kafka"],
-      "dir_aliases": ["消息队列 Kafka版", "Message Queue for Apache Kafka"],
-      "strip_patterns": ["消息队列\\s*Kafka版?", "Message\\s+Queue\\s+for\\s+Apache\\s+Kafka"]
+      "title_keywords": [
+        "消息队列Kafka版",
+        "Message Queue for Apache Kafka"
+      ],
+      "dir_aliases": [
+        "消息队列 Kafka版",
+        "Message Queue for Apache Kafka"
+      ],
+      "strip_patterns": [
+        "消息队列\\s*Kafka版?",
+        "Message\\s+Queue\\s+for\\s+Apache\\s+Kafka"
+      ]
     },
     {
       "slug": "mq",
       "category": "middleware",
       "cn_name": "消息队列 MQ",
       "en_name": "Alibaba Cloud Message Queue",
-      "title_keywords": ["消息队列 MQ", "Alibaba Cloud Message Queue"],
-      "dir_aliases": ["消息队列 MQ", "Alibaba Cloud Message Queue"],
-      "strip_patterns": ["消息队列\\s*MQ", "Alibaba\\s+Cloud\\s+Message\\s+Queue"]
+      "title_keywords": [
+        "消息队列 MQ",
+        "消息队列 RocketMQ",
+        "消息队列 RabbitMQ",
+        "消息队列 MQTT",
+        "Alibaba Cloud Message Queue"
+      ],
+      "dir_aliases": [
+        "消息队列 MQ",
+        "Alibaba Cloud Message Queue",
+        "rocketmq"
+      ],
+      "strip_patterns": [
+        "消息队列\\s*MQ",
+        "消息队列",
+        "Alibaba\\s+Cloud\\s+Message\\s+Queue"
+      ]
     },
     {
       "slug": "cloud-native-gateway",
       "category": "middleware",
       "cn_name": "云原生网关",
       "en_name": "Cloud-native Gateway",
-      "title_keywords": ["云原生网关", "Cloud-native Gateway"],
-      "dir_aliases": ["Cloud-native Gateway"],
-      "strip_patterns": ["云原生网关", "Cloud-native\\s+Gateway"]
+      "title_keywords": [
+        "云原生网关",
+        "Cloud-native Gateway"
+      ],
+      "dir_aliases": [
+        "Cloud-native Gateway"
+      ],
+      "strip_patterns": [
+        "云原生网关",
+        "Cloud-native\\s+Gateway"
+      ]
     },
     {
       "slug": "api-gateway",
       "category": "middleware",
       "cn_name": "API 网关",
       "en_name": "API Gateway",
-      "title_keywords": ["API 网关", "API Gateway"],
-      "dir_aliases": ["API 网关", "API Gateway"],
-      "strip_patterns": ["API\\s*网关", "API\\s+Gateway"]
+      "title_keywords": [
+        "API 网关",
+        "API Gateway"
+      ],
+      "dir_aliases": [
+        "API 网关",
+        "API Gateway"
+      ],
+      "strip_patterns": [
+        "API\\s*网关",
+        "API\\s+Gateway"
+      ]
     },
     {
       "slug": "tracing-analysis",
       "category": "middleware",
       "cn_name": "链路追踪",
       "en_name": "Tracing Analysis",
-      "title_keywords": ["链路追踪", "Tracing Analysis"],
-      "dir_aliases": ["链路追踪", "Tracing Analysis"],
-      "strip_patterns": ["链路追踪", "Tracing\\s+Analysis"]
+      "title_keywords": [
+        "链路追踪",
+        "Tracing Analysis"
+      ],
+      "dir_aliases": [
+        "链路追踪",
+        "Tracing Analysis"
+      ],
+      "strip_patterns": [
+        "链路追踪",
+        "Tracing\\s+Analysis"
+      ]
     },
     {
       "slug": "prometheus",
       "category": "middleware",
       "cn_name": "Prometheus 监控服务",
       "en_name": "Prometheus Service",
-      "title_keywords": ["可观测监控 Prometheus 版", "Prometheus Service"],
-      "dir_aliases": ["Prometheus 监控服务", "Prometheus Service"],
-      "strip_patterns": ["可观测监控\\s*Prometheus\\s*版", "Prometheus\\s+Service"]
+      "title_keywords": [
+        "可观测监控 Prometheus 版",
+        "Prometheus监控服务",
+        "Prometheus Service",
+        "Managed Service for Prometheus"
+      ],
+      "dir_aliases": [
+        "Prometheus 监控服务",
+        "Prometheus Service",
+        "prometheus"
+      ],
+      "strip_patterns": [
+        "可观测监控\\s*Prometheus\\s*版",
+        "Prometheus\\s*监控服务",
+        "Managed\\s+Service\\s+for\\s+Prometheus",
+        "Prometheus\\s+Service"
+      ]
     },
     {
       "slug": "ahm",
       "category": "middleware",
       "cn_name": "应用运维平台",
       "en_name": "Application Hybrid Marketplace",
-      "title_keywords": ["应用运维平台", "Application Hybrid Marketplace"],
-      "dir_aliases": ["应用运维平台", "Application Hybrid Marketplace"],
+      "title_keywords": [
+        "应用运维平台",
+        "Application Hybrid Marketplace"
+      ],
+      "dir_aliases": [
+        "应用运维平台",
+        "Application Hybrid Marketplace"
+      ],
       "strip_patterns": [
         "Application\\s+Operation\\s+Platform",
         "Application\\s+Hybrid\\s+Marketplace",
@@ -686,53 +1735,138 @@
       "category": "big-data",
       "cn_name": "大数据计算 MaxCompute",
       "en_name": "MaxCompute",
-      "title_keywords": ["大数据计算服务", "MaxCompute"],
-      "dir_aliases": ["大数据计算 MaxCompute", "MaxCompute"],
-      "strip_patterns": ["大数据计算服务", "MaxCompute"]
+      "title_keywords": [
+        "大数据计算服务",
+        "MaxCompute"
+      ],
+      "dir_aliases": [
+        "大数据计算 MaxCompute",
+        "MaxCompute"
+      ],
+      "strip_patterns": [
+        "大数据计算服务",
+        "MaxCompute"
+      ]
     },
     {
       "slug": "dataworks",
       "category": "big-data",
       "cn_name": "大数据开发治理平台 DataWorks",
       "en_name": "DataWorks",
-      "title_keywords": ["DataWorks"],
-      "dir_aliases": ["大数据开发治理平台 DataWorks", "DataWorks"],
-      "strip_patterns": ["DataWorks"]
+      "title_keywords": [
+        "DataWorks"
+      ],
+      "dir_aliases": [
+        "大数据开发治理平台 DataWorks",
+        "DataWorks"
+      ],
+      "strip_patterns": [
+        "大数据开发治理平台",
+        "DataWorks"
+      ]
+    },
+    {
+      "slug": "hologres",
+      "category": "big-data",
+      "cn_name": "实时数仓 Hologres",
+      "en_name": "Hologres",
+      "title_keywords": [
+        "实时数仓 Hologres",
+        "交互式分析Hologres",
+        "Hologres"
+      ],
+      "dir_aliases": [
+        "hologram"
+      ],
+      "strip_patterns": [
+        "实时数仓\\s*Hologres",
+        "交互式分析\\s*Hologres",
+        "Hologres"
+      ]
+    },
+    {
+      "slug": "quickbi",
+      "category": "big-data",
+      "cn_name": "Quick BI",
+      "en_name": "Quick BI",
+      "title_keywords": [
+        "Quick BI"
+      ],
+      "dir_aliases": [
+        "quickbi"
+      ],
+      "strip_patterns": [
+        "Quick\\s+BI"
+      ]
     },
     {
       "slug": "elasticsearch",
       "category": "big-data",
       "cn_name": "检索分析服务 Elasticsearch",
       "en_name": "Elasticsearch",
-      "title_keywords": ["检索分析服务Elasticsearch版", "Elasticsearch"],
-      "dir_aliases": ["检索分析服务 Elasticsearch", "Elasticsearch"],
-      "strip_patterns": ["检索分析服务\\s*Elasticsearch版?", "Elasticsearch"]
+      "title_keywords": [
+        "检索分析服务Elasticsearch版",
+        "Elasticsearch"
+      ],
+      "dir_aliases": [
+        "检索分析服务 Elasticsearch",
+        "Elasticsearch"
+      ],
+      "strip_patterns": [
+        "检索分析服务\\s*Elasticsearch版?",
+        "Elasticsearch"
+      ]
     },
     {
       "slug": "apsara-big-data-manager",
       "category": "big-data",
       "cn_name": "大数据管家",
       "en_name": "Apsara Big Data Manager",
-      "title_keywords": ["大数据管家", "Apsara Big Data Manager"],
-      "dir_aliases": ["大数据管家", "Apsara Big Data Manager"],
-      "strip_patterns": ["大数据管家", "Apsara\\s+Big\\s+Data\\s+Manager"]
+      "title_keywords": [
+        "大数据管家",
+        "Apsara Big Data Manager"
+      ],
+      "dir_aliases": [
+        "大数据管家",
+        "Apsara Big Data Manager"
+      ],
+      "strip_patterns": [
+        "大数据管家",
+        "Apsara\\s+Big\\s+Data\\s+Manager"
+      ]
     },
     {
       "slug": "flink",
       "category": "big-data",
       "cn_name": "实时计算 Flink",
       "en_name": "Realtime Compute for Apache Flink",
-      "title_keywords": ["Realtime Compute for Apache Flink", "Realtime Compute", "实时计算"],
-      "dir_aliases": ["实时计算 Flink", "Realtime Compute for Apache Flink"],
-      "strip_patterns": ["Realtime\\s+Compute\\s+for\\s+Apache\\s+Flink", "Realtime\\s+Compute"]
+      "title_keywords": [
+        "Realtime Compute for Apache Flink",
+        "Realtime Compute",
+        "实时计算"
+      ],
+      "dir_aliases": [
+        "实时计算 Flink",
+        "Realtime Compute for Apache Flink"
+      ],
+      "strip_patterns": [
+        "Realtime\\s+Compute\\s+for\\s+Apache\\s+Flink",
+        "Realtime\\s+Compute"
+      ]
     },
     {
       "slug": "container-security",
       "category": "security",
       "cn_name": "容器安全",
       "en_name": "Container Security Service",
-      "title_keywords": ["容器安全", "Container Security Service"],
-      "dir_aliases": ["容器安全", "Container Security Service"],
+      "title_keywords": [
+        "容器安全",
+        "Container Security Service"
+      ],
+      "dir_aliases": [
+        "容器安全",
+        "Container Security Service"
+      ],
       "strip_patterns": [
         "云盾-安骑士高级版",
         "Alibaba\\s+Cloud\\s+Security-\\s*Server\\s+Guard\\s+Advanced\\s+Edition",
@@ -745,8 +1879,14 @@
       "category": "security",
       "cn_name": "安骑士",
       "en_name": "Server Guard Advanced Edition",
-      "title_keywords": ["安骑士", "Server Guard Advanced Edition"],
-      "dir_aliases": ["安骑士", "Server Guard Advanced Edition"],
+      "title_keywords": [
+        "安骑士",
+        "Server Guard Advanced Edition"
+      ],
+      "dir_aliases": [
+        "安骑士",
+        "Server Guard Advanced Edition"
+      ],
       "strip_patterns": [
         "云盾-安骑士高级版",
         "Alibaba\\s+Cloud\\s+Security-\\s*Server\\s+Guard\\s+Advanced\\s+Edition",
@@ -760,7 +1900,10 @@
       "category": "security",
       "cn_name": "安全编排自动化响应",
       "en_name": "Security Orchestration Automation and Response",
-      "title_keywords": ["安全编排自动化响应", "Security Orchestration Automation and Response"],
+      "title_keywords": [
+        "安全编排自动化响应",
+        "Security Orchestration Automation and Response"
+      ],
       "dir_aliases": [],
       "strip_patterns": [
         "云盾-态势感知",
@@ -774,7 +1917,10 @@
       "category": "security",
       "cn_name": "漏洞扫描",
       "en_name": "Cloud Security Scanner",
-      "title_keywords": ["漏洞扫描", "Cloud Security Scanner"],
+      "title_keywords": [
+        "漏洞扫描",
+        "Cloud Security Scanner"
+      ],
       "dir_aliases": [],
       "strip_patterns": [
         "云盾-态势感知",
@@ -788,8 +1934,14 @@
       "category": "security",
       "cn_name": "云安全中心（态势感知）",
       "en_name": "Cloud Security Management Center",
-      "title_keywords": ["云安全管理中心", "Cloud Security Management Center"],
-      "dir_aliases": ["云安全中心（态势感知）", "Cloud Security Management Center"],
+      "title_keywords": [
+        "云安全管理中心",
+        "Cloud Security Management Center"
+      ],
+      "dir_aliases": [
+        "云安全中心（态势感知）",
+        "Cloud Security Management Center"
+      ],
       "strip_patterns": [
         "云盾-态势感知",
         "Alibaba\\s+Cloud\\s+Security-\\s*Situation\\s+Awareness",
@@ -802,8 +1954,14 @@
       "category": "security",
       "cn_name": "Web应用防火墙",
       "en_name": "Web Application Firewall",
-      "title_keywords": ["Web应用防火墙", "Web Application Firewall"],
-      "dir_aliases": ["Web应用防火墙", "Web Application Firewall"],
+      "title_keywords": [
+        "Web应用防火墙",
+        "Web Application Firewall"
+      ],
+      "dir_aliases": [
+        "Web应用防火墙",
+        "Web Application Firewall"
+      ],
       "strip_patterns": [
         "云盾-Web应用防火墙-企业版",
         "Alibaba\\s+Cloud\\s+Security-\\s*Web\\s+Application\\s+Firewall\\s*\\(WAF\\)"
@@ -814,19 +1972,39 @@
       "category": "security",
       "cn_name": "云防火墙",
       "en_name": "Cloud Security Firewall",
-      "title_keywords": ["云盾云防火墙", "云防火墙", "Cloud Security Firewall", "NFV Cloud Firewall"],
-      "dir_aliases": ["云防火墙", "Cloud Security Firewall"],
-      "strip_patterns": ["云盾云防火墙", "云防火墙", "Cloud\\s+Security\\s+Firewall"]
+      "title_keywords": [
+        "云盾云防火墙",
+        "云防火墙",
+        "Cloud Security Firewall",
+        "NFV Cloud Firewall"
+      ],
+      "dir_aliases": [
+        "云防火墙",
+        "Cloud Security Firewall"
+      ],
+      "strip_patterns": [
+        "云盾云防火墙",
+        "云防火墙",
+        "Cloud\\s+Security\\s+Firewall"
+      ]
     },
     {
       "slug": "static-data-masking",
       "category": "security",
       "cn_name": "静态数据脱敏",
       "en_name": "Static Data Masking and Watermarking",
-      "title_keywords": ["静态数据脱敏", "Static Data Masking and Watermarking"],
-      "dir_aliases": ["静态数据脱敏", "Static Data Masking and Watermarking"],
+      "title_keywords": [
+        "静态数据脱敏",
+        "数据静态脱敏与水印",
+        "Static Data Masking and Watermarking"
+      ],
+      "dir_aliases": [
+        "静态数据脱敏",
+        "Static Data Masking and Watermarking"
+      ],
       "strip_patterns": [
         "Database\\s+Audit",
+        "数据库审计",
         "静态数据脱敏",
         "Static\\s+Data\\s+Masking\\s+and\\s+Watermarking"
       ]
@@ -836,81 +2014,216 @@
       "category": "security",
       "cn_name": "数据库审计",
       "en_name": "Database Security Audit",
-      "title_keywords": ["数据库审计", "Database Security Audit", "Database Audit"],
-      "dir_aliases": ["数据库审计", "Database Security Audit"],
-      "strip_patterns": ["数据库审计", "Database\\s+Security\\s+Audit", "Database\\s+Audit"]
+      "title_keywords": [
+        "数据库审计",
+        "数据库安全审计",
+        "Database Security Audit",
+        "Database Audit"
+      ],
+      "dir_aliases": [
+        "数据库审计",
+        "Database Security Audit",
+        "dbaudit"
+      ],
+      "strip_patterns": [
+        "数据库审计(?!与风险控制)",
+        "Database\\s+Security\\s+Audit",
+        "Database\\s+Audit"
+      ]
+    },
+    {
+      "slug": "sddp",
+      "category": "security",
+      "cn_name": "敏感数据保护",
+      "en_name": "Sensitive Data Discovery and Protection",
+      "title_keywords": [
+        "敏感数据保护"
+      ],
+      "dir_aliases": [
+        "sddp"
+      ],
+      "strip_patterns": [
+        "敏感数据保护"
+      ]
+    },
+    {
+      "slug": "anti-ddos",
+      "category": "security",
+      "cn_name": "DDoS防护",
+      "en_name": "Anti-DDoS",
+      "title_keywords": [
+        "云盾-DDoS清洗",
+        "DDos防护",
+        "DDoS防护"
+      ],
+      "dir_aliases": [
+        "ddos"
+      ],
+      "strip_patterns": [
+        "云盾-DDoS清洗",
+        "DDos防护",
+        "DDoS防护"
+      ]
     },
     {
       "slug": "bastionhost",
       "category": "security",
       "cn_name": "堡垒机",
       "en_name": "Bastionhost",
-      "title_keywords": ["堡垒机", "Bastionhost"],
-      "dir_aliases": ["堡垒机", "Bastionhost"],
-      "strip_patterns": ["运维安全中心\\s*\\(堡垒机\\)", "(?<!Tenant-side\\s)Bastionhost"]
+      "title_keywords": [
+        "堡垒机",
+        "Bastionhost"
+      ],
+      "dir_aliases": [
+        "堡垒机",
+        "Bastionhost"
+      ],
+      "strip_patterns": [
+        "运维安全中心\\s*\\(堡垒机\\)",
+        "(?<!Tenant-side\\s)Bastionhost"
+      ]
     },
     {
       "slug": "kms",
       "category": "security",
       "cn_name": "密钥管理服务 KMS",
       "en_name": "Key Management Service",
-      "title_keywords": ["密钥管理服务", "Key Management Service"],
-      "dir_aliases": ["密钥管理服务 KMS", "Key Management Service"],
-      "strip_patterns": ["密钥管理服务", "Key\\s+Management\\s+Service"]
+      "title_keywords": [
+        "密钥管理服务",
+        "密码服务",
+        "Key Management Service"
+      ],
+      "dir_aliases": [
+        "密钥管理服务 KMS",
+        "Key Management Service",
+        "kms"
+      ],
+      "strip_patterns": [
+        "密钥管理服务",
+        "Key\\s+Management\\s+Service"
+      ]
     },
     {
       "slug": "idaas",
       "category": "security",
       "cn_name": "应用身份服务 IDaaS",
       "en_name": "IDaaS",
-      "title_keywords": ["应用身份服务", "IDaaS"],
-      "dir_aliases": ["应用身份服务 IDaaS", "IDaaS"],
-      "strip_patterns": ["应用身份服务", "IDaaS"]
+      "title_keywords": [
+        "应用身份服务",
+        "IDaaS"
+      ],
+      "dir_aliases": [
+        "应用身份服务 IDaaS",
+        "IDaaS"
+      ],
+      "strip_patterns": [
+        "应用身份服务",
+        "IDaaS"
+      ]
     },
     {
       "slug": "ndr",
       "category": "security",
       "cn_name": "网络流量检测与响应",
       "en_name": "Network Detection and Response",
-      "title_keywords": ["云盾网络检测与响应", "网络流量检测与响应", "Network Detection and Response"],
-      "dir_aliases": ["网络流量检测与响应", "Network Detection and Response"],
-      "strip_patterns": ["云盾网络检测与响应", "Cloud\\s+Security\\s+Network\\s+Detection\\s+and\\s+Response"]
+      "title_keywords": [
+        "云盾网络检测与响应",
+        "网络流量检测与响应",
+        "Network Detection and Response"
+      ],
+      "dir_aliases": [
+        "网络流量检测与响应",
+        "Network Detection and Response"
+      ],
+      "strip_patterns": [
+        "云盾网络检测与响应",
+        "Cloud\\s+Security\\s+Network\\s+Detection\\s+and\\s+Response"
+      ]
     },
     {
       "slug": "apsara-stack-security",
       "category": "security",
       "cn_name": "云盾",
       "en_name": "Apsara Stack Security",
-      "title_keywords": ["云盾", "Apsara Stack Security"],
-      "dir_aliases": ["云盾", "Apsara Stack Security"],
-      "strip_patterns": ["云盾", "Apsara\\s+Stack\\s+Security"]
+      "title_keywords": [
+        "云盾",
+        "Apsara Stack Security"
+      ],
+      "dir_aliases": [
+        "云盾",
+        "Apsara Stack Security"
+      ],
+      "strip_patterns": [
+        "云盾",
+        "Apsara\\s+Stack\\s+Security"
+      ]
     },
     {
       "slug": "cloud-monitor",
       "category": "monitoring-ops",
       "cn_name": "云监控",
       "en_name": "CloudMonitor",
-      "title_keywords": ["云监控", "CloudMonitor"],
-      "dir_aliases": ["云监控", "CloudMonitor"],
-      "strip_patterns": ["云监控", "CloudMonitor"]
+      "title_keywords": [
+        "云监控",
+        "CloudMonitor"
+      ],
+      "dir_aliases": [
+        "云监控",
+        "CloudMonitor"
+      ],
+      "strip_patterns": [
+        "云监控",
+        "CloudMonitor"
+      ]
     },
     {
       "slug": "arms",
       "category": "monitoring-ops",
       "cn_name": "应用实时监控服务 ARMS",
       "en_name": "Application Real-time Monitoring Service",
-      "title_keywords": ["应用实时监控服务", "Application Real-time Monitoring Service"],
-      "dir_aliases": ["应用实时监控服务 ARMS", "Application Real-time Monitoring Service"],
-      "strip_patterns": ["应用实时监控服务(?:\\s*ARMS)?", "Application\\s+Real-time\\s+Monitoring\\s+Service"]
+      "title_keywords": [
+        "应用实时监控服务",
+        "Application Real-time Monitoring Service"
+      ],
+      "dir_aliases": [
+        "应用实时监控服务 ARMS",
+        "Application Real-time Monitoring Service"
+      ],
+      "strip_patterns": [
+        "应用实时监控服务(?:\\s*ARMS)?",
+        "Application\\s+Real-time\\s+Monitoring\\s+Service"
+      ]
     },
     {
       "slug": "aiops",
       "category": "monitoring-ops",
       "cn_name": "Apsara AIOps",
       "en_name": "Apsara AIOps",
-      "title_keywords": ["Apsara AIOps"],
-      "dir_aliases": ["Apsara AIOps"],
-      "strip_patterns": ["Apsara\\s+Stack\\s+Operation", "Apsara\\s+AIOps"]
+      "title_keywords": [
+        "Apsara AIOps"
+      ],
+      "dir_aliases": [
+        "Apsara AIOps"
+      ],
+      "strip_patterns": [
+        "Apsara\\s+Stack\\s+Operation",
+        "Apsara\\s+AIOps"
+      ]
+    },
+    {
+      "slug": "tongque",
+      "category": "monitoring-ops",
+      "cn_name": "SRE技术保障平台",
+      "en_name": "SRE Technical Support Platform",
+      "title_keywords": [
+        "SRE技术保障平台"
+      ],
+      "dir_aliases": [
+        "tongque"
+      ],
+      "strip_patterns": [
+        "SRE技术保障平台"
+      ]
     }
   ]
 }
